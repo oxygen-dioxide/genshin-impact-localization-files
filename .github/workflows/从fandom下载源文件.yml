@@ -12,6 +12,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
+    - name: git checkout
+      run: git checkout main      
+
     - name: Download Genshin Impact wiki dump file
       uses: carlosperate/download-file-action@v1.0.3
       with:
@@ -25,10 +28,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
     
     - name: git add
-      run: git add ${{ github.workspace }}\source
-      
-    - name: git checkout
-      run: git checkout main        
+      run: git add ${{ github.workspace }}\source  
     
     - name: git commit
       run: git commit -m "update source file"
