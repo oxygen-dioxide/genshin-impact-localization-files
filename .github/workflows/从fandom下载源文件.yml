@@ -23,7 +23,9 @@ jobs:
         location: ${{ github.workspace }}\source
     
     - name: dir
-      run: dir
+      run: |
+        dir
+        dir ${{ github.workspace }}\source
     
     - name: git config
       run: |
