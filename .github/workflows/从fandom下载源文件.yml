@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  create_installer:
+  download-from-fandom:
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -22,5 +22,14 @@ jobs:
     - name: Extract dump file
       run: 7z x -o"${{ github.workspace }}/source" "${{ github.workspace }}/gensinimpact_pages_current.xml.7z"
     
+    - name: git commit
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -m "update source file"
+        
     - name: git push
-      run: git add . ; git commit -m "update source file" ; git push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
