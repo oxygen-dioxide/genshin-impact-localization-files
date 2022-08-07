@@ -19,10 +19,16 @@ jobs:
         file-name: gensinimpact_pages_current.xml.7z
         location: ${{ github.workspace }}\source
         
-    - name: git commit
+    - name: git config
       run: |
-        git add ${{ github.workspace }}\source
-        git commit -m "update source file"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+    
+    - name: git add
+      run: git add ${{ github.workspace }}\source
+        
+    - name: git commit
+      run: git commit -m "update source file"
         
     - name: git push
       uses: ad-m/github-push-action@master
