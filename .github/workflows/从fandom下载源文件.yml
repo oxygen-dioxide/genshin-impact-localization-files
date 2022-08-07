@@ -21,14 +21,17 @@ jobs:
         file-url: https://s3.amazonaws.com/wikia_xml_dumps/g/ge/gensinimpact_pages_current.xml.7z
         file-name: gensinimpact_pages_current.xml.7z
         location: ${{ github.workspace }}\source
-        
+    
+    - name: dir
+      run: dir
+    
     - name: git config
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
     
     - name: git add
-      run: git add ${{ github.workspace }}\source  
+      run: git add ${{ github.workspace }}\source\gensinimpact_pages_current.xml.7z
     
     - name: git commit
       run: git commit -m "update source file"
