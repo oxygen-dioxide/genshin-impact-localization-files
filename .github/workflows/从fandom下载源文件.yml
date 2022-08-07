@@ -17,11 +17,8 @@ jobs:
       with:
         file-url: https://s3.amazonaws.com/wikia_xml_dumps/g/ge/gensinimpact_pages_current.xml.7z
         file-name: gensinimpact_pages_current.xml.7z
-        location: ${{ github.workspace }}
+        location: ${{ github.workspace }}/source
         
-    - name: Extract dump file
-      run: 7z x -o"${{ github.workspace }}/source" "${{ github.workspace }}/gensinimpact_pages_current.xml.7z"
-    
     - name: git commit
       run: |
         git add ${{ github.workspace }}/source
