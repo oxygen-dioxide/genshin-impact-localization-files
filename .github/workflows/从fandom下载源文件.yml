@@ -1,0 +1,26 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  create_installer:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ 'windows-latest' ]
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Download Genshin Impact wiki dump file
+      uses: carlosperate/download-file-action@v1.0.3
+      with:
+        file-url: https://s3.amazonaws.com/wikia_xml_dumps/g/ge/gensinimpact_pages_current.xml.7z
+        file-name: gensinimpact_pages_current.xml.7z
+        location: ${{ github.workspace }}
+        
+    - name: Extract dump file
+      run: 7z x -o"${{ github.workspace }}/source" "${{ github.workspace }}/gensinimpact_pages_current.xml.7z"
+    
+    - name: git push
+      run: git add . & git commit -m "update source file" & git push
