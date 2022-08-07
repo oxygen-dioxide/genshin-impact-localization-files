@@ -26,7 +26,10 @@ jobs:
     
     - name: git add
       run: git add ${{ github.workspace }}\source
-        
+      
+    - name: git checkout
+      run: git checkout main        
+    
     - name: git commit
       run: git commit -m "update source file"
         
