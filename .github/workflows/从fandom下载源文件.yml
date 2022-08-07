@@ -23,4 +23,4 @@ jobs:
       run: 7z x -o"${{ github.workspace }}/source" "${{ github.workspace }}/gensinimpact_pages_current.xml.7z"
     
     - name: git push
-      run: git add . & git commit -m "update source file" & git push
+      run: git add . ; git commit -m "update source file" ; git push
