@@ -27,7 +27,9 @@ jobs:
         git config --local user.name "github-actions[bot]"
     
     - name: git add
-      run: git add ${{ github.workspace }}\zh_en.md
+      run: |
+        git add ${{ github.workspace }}\zh_en.md
+        git add ${{ github.workspace }}\en_zh.md
     
     - name: git commit
       run: git commit -m "生成markdown"
