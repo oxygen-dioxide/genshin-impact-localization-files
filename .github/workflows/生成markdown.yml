@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  extract:
+  generate:
     runs-on: ${{ matrix.os }}
 
     strategy:
