@@ -16,10 +16,10 @@ jobs:
       run: git checkout main      
 
     - name: install python packages
-      run: pip install py7zr xmltodict
+      run: python -m pip install py7zr xmltodict
 
     - name: extract.py
-      run: py extract.py
+      run: python extract.py
     
     - name: git config
       run: |
