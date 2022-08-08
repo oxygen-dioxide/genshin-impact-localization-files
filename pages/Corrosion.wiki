@@ -1,0 +1,84 @@
+{{For|the separate mechanic exclusive to the [[Three Realms Gateway Offering]] event|The Encroaching Dark}}
+{{Status Infobox
+|image    = 
+|type     = Ley Line Disorders
+|icon     = Icon Corrosion
+|effect   = Characters being Corroded will lose a fraction of their HP every second. Active characters can be brought down by Corrosion. When a non-active character's HP is less than 15%, they will no longer lose HP due to Corrosion.
+}}
+'''Corrosion''' is a Status Effect and [[Ley Line Disorder]] where characters Corroded will lose [[HP]] every second. Corrosion can stack, and the duration for each stack is counted independently. Active characters can be brought down by Corrosion. When a non-active character's HP is less than 15%, they will no longer lose HP from Corrosion.
+
+Corrosion ignores [[Shields]], [[DEF]] and [[RES]].
+
+==Overview==
+The HP Loss and Duration of Corrosion vary by source. HP Loss will be inflicted once when Corrosion is applied, after which it is inflicted once per second until the stack's duration expires.
+:<math>\text{HP Loss (Per Tick)} = \text{Base HP Loss} + \text{Additional HP Loss}</math>
+
+{| class="article-table sortable"
+! Source !! Base HP Loss<br />(%Character Max HP) !! Additional HP Loss !! Duration<br />(Seconds)
+|-
+| [[Riftwolves]] (Elite Enemies) || 0.5 || 0 || 9.5
+|-
+| {{Enemy|Golden Wolflord|20}} || 1 || 25 || 9.5
+|-
+| [[A Study in Potions/Solitary Rampart|A Study in Potions: Solitary Rampart]] || 1 || 100 || 8
+|-
+| [[Vibro-Crystal Research/Harmonics Research Facility#Fluid Principles|Vibro-Crystal Research: Fluid Principles]] || 0.25 || 25 || 8
+|-
+| [[Spiral Abyss/Floors/2021-09-16#Floor 11|Spiral Abyss Floor 11 (2021-09-16)]] || 0.5 || 75 || 9.5
+|}
+
+==Enemies==
+{{Enemies by Category List|header=1}}
+
+==Appearances==
+The following domains had a [[Ley Line Disorder]] which applied a stack of Corrosion to the entire party when enemies were defeated:
+* Version 2.1 [[Spiral Abyss]] [[Spiral Abyss/Floors/2021-09-16#Floor 11|Floor 11]]
+* [[A Study in Potions/Solitary Rampart|A Study in Potions: Solitary Rampart]]
+
+The following domain had a Ley Line Disorder which applied a stack of "Bloodletting Curse" (Corrosion) to the entire party when a character uses an [[Elemental Skill]] or [[Elemental Burst]]:
+* [[Vibro-Crystal Research/Harmonics Research Facility#Fluid Principles|Vibro-Crystal Research: Fluid Principles]]
+
+==Strategy==
+* [[Healing]] is the direct counter of Corrosion.
+* As Corrosion is capable of stacking, it is advisable to avoid as many Corrosion-inflicting hits as possible.
+
+==Other Languages==
+{{Other Languages
+|en       = Corrosion
+|zhs      = 侵蚀
+|zhs_rm   = Qīnshí
+|zht      = 侵蝕
+|zht_rm   = Qīnshí
+|zh_tl    = Corrosion
+|ja       = 侵蝕
+|ja_rm    = Shinshoku{{Assumed}}
+|ja_tl    = Corrosion
+|ko       = {{tt|침식|侵蝕}}
+|ko_rm    = Chimsik
+|ko_tl    = Erosion
+|es       = Corrosión
+|es_tl    = Corrosion
+|fr       = Corrosion
+|fr_tl    = Corrosion
+|ru       = Разложение
+|ru_tl    = 
+|th       = Corrosion / สึกกร่อน
+|th_rm    = Corrosion / Suek Kron
+|th_tl    = 
+|vi       = Ăn Mòn / {{tt|Bào|刨}} Mòn
+|vi_tl    = Corrosion / Abrasion
+|de       = Korrosion
+|de_tl    = Corrosion
+|id       = Corrosion
+|pt       = Corrosão
+|pt_tl    = Corrosion
+}}
+
+==Change History==
+{{Change History|2.1}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox}}

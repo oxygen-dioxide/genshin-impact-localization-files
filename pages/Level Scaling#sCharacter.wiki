@@ -1,0 +1,172 @@
+{{CustomTabs|tab1=Overview|tab2=Reaction|tab3=Enemy|tab4=Weapon|tab5=Character|tab6=Talents}}
+These data in the page are for complex calculations. For data in the max level, see [[Characters/Comparison]].
+
+For characters, their HP, ATK and DEF are determined by '''base values''', '''level multipliers''' and '''ascension values'''.
+
+For their bonus attributes, values are determined by '''base values''' and the '''ascension multiplier'''.
+
+Values in tables are rounded, but the actual values used in the game are decimals with more digits, so using these values to calculate will often result in some small rounding error.
+
+Values with more digits can be checked in GitHub.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/AvatarExcelConfigData.json Base Values]</ref><ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/AvatarCurveExcelConfigData.json Level Multipliers]</ref><ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/AvatarPromoteExcelConfigData.json Ascension Values]</ref>
+
+==Base Attribute==
+For calculations,
+
+'''Base Attribute Value = Base Value * Level Multiplier + Ascension Value'''
+
+===Base Value===
+Different characters have different base values for base attributes.
+{{#DPL:
+|category=Playable Characters
+|notcategory=Traveler Elements
+|namespace=
+|ordermethod=title
+|include=%PAGE%,%PAGE%,%PAGE%
+|table=class="fandom-table sortable",Character,HP,ATK,DEF
+|tablerow=²{Get Character Level Scaling¦%PAGE%¦base_hp}²,¦²{Get Character Level Scaling¦%PAGE%¦base_atk}²,¦²{Get Character Level Scaling¦%PAGE%¦base_def}²
+}}
+
+===Level Multiplier===
+Level multipliers are determined by the '''rarity'''.
+
+For HP, ATK and DEF, they share the same multiplier of the rarity.
+
+{| class="fandom-table sortable"
+! Level !! 4-Star !! 5-Star !! Level !! 4-Star !! 5-Star !! Level !! 4-Star !! 5-Star
+|-
+| 1 || 1.000 || 1.000 || 31 || 3.477 || 3.532 || 61 || 5.954 || 6.142
+|-
+| 2 || 1.083 || 1.083 || 32 || 3.560 || 3.618 || 62 || 6.037 || 6.230
+|-
+| 3 || 1.165 || 1.166 || 33 || 3.642 || 3.704 || 63 || 6.119 || 6.319
+|-
+| 4 || 1.248 || 1.250 || 34 || 3.725 || 3.789 || 64 || 6.202 || 6.407
+|-
+| 5 || 1.330 || 1.333 || 35 || 3.807 || 3.875 || 65 || 6.284 || 6.496
+|-
+| 6 || 1.413 || 1.417 || 36 || 3.890 || 3.962 || 66 || 6.367 || 6.585
+|-
+| 7 || 1.495 || 1.500 || 37 || 3.972 || 4.048 || 67 || 6.450 || 6.673
+|-
+| 8 || 1.578 || 1.584 || 38 || 4.055 || 4.134 || 68 || 6.532 || 6.762
+|-
+| 9 || 1.661 || 1.668 || 39 || 4.138 || 4.220 || 69 || 6.615 || 6.851
+|-
+| 10 || 1.743 || 1.751 || 40 || 4.220 || 4.307 || 70 || 6.697 || 6.940
+|-
+| 11 || 1.826 || 1.835 || 41 || 4.303 || 4.393 || 71 || 6.780 || 7.029
+|-
+| 12 || 1.908 || 1.919 || 42 || 4.385 || 4.480 || 72 || 6.862 || 7.119
+|-
+| 13 || 1.991 || 2.003 || 43 || 4.468 || 4.567 || 73 || 6.945 || 7.208
+|-
+| 14 || 2.073 || 2.088 || 44 || 4.550 || 4.653 || 74 || 7.028 || 7.297
+|-
+| 15 || 2.156 || 2.172 || 45 || 4.633 || 4.740 || 75 || 7.110 || 7.387
+|-
+| 16 || 2.239 || 2.256 || 46 || 4.716 || 4.827 || 76 || 7.193 || 7.476
+|-
+| 17 || 2.321 || 2.341 || 47 || 4.798 || 4.914 || 77 || 7.275 || 7.566
+|-
+| 18 || 2.404 || 2.425 || 48 || 4.881 || 5.001 || 78 || 7.358 || 7.656
+|-
+| 19 || 2.486 || 2.510 || 49 || 4.963 || 5.089 || 79 || 7.440 || 7.746
+|-
+| 20 || 2.569 || 2.594 || 50 || 5.046 || 5.176 || 80 || 7.523 || 7.836
+|-
+| 21 || 2.651 || 2.679 || 51 || 5.128 || 5.263 || 81 || 7.606 || 7.926
+|-
+| 22 || 2.734 || 2.764 || 52 || 5.211 || 5.351 || 82 || 7.688 || 8.016
+|-
+| 23 || 2.817 || 2.849 || 53 || 5.294 || 5.438 || 83 || 7.771 || 8.106
+|-
+| 24 || 2.899 || 2.934 || 54 || 5.376 || 5.526 || 84 || 7.853 || 8.196
+|-
+| 25 || 2.982 || 3.019 || 55 || 5.459 || 5.614 || 85 || 7.936 || 8.286
+|-
+| 26 || 3.064 || 3.105 || 56 || 5.541 || 5.702 || 86 || 8.018 || 8.377
+|-
+| 27 || 3.147 || 3.190 || 57 || 5.624 || 5.790 || 87 || 8.101 || 8.467
+|-
+| 28 || 3.229 || 3.275 || 58 || 5.706 || 5.878 || 88 || 8.183 || 8.558
+|-
+| 29 || 3.312 || 3.361 || 59 || 5.789 || 5.966 || 89 || 8.266 || 8.649
+|-
+| 30 || 3.394 || 3.446 || 60 || 5.872 || 6.054 || 90 || 8.349 || 8.739
+|}
+
+===Ascension Value===
+It is hard to list all ascension values of whole ascension phases directly. So there is an another way to make calculations.
+
+The max ascension values can be divided into 182 equal sections. There are 38/27/36/27/27/27 sections for the 1st/2nd/3rd/4th/5th/6th phase.
+
+So, for calculations of ascension values in the ascension phase,
+
+'''Ascension Value in the Ascension Phase = Total Section in the Ascension Phase * Max Ascension Value'''
+
+====Total Section in the Ascension Phase====
+For the calculation of the total section in the ascension phase,
+
+'''Total Section in the Ascension Phase = Sum of Sections for the Corresponding Ascension Phase / 182'''
+
+{| class="fandom-table"
+! Ascension Phase !! 1st !! 2nd !! 3rd !! 4th !! 5th !! 6th
+|-
+| Total Section || 38/182 || 65/182 || 101/182 || 128/182 || 155/182 || 1
+|}
+
+====Max Ascension Values====
+Different characters have different max ascension values of base attributes.
+{{#DPL:
+|category=Playable Characters
+|notcategory=Traveler Elements
+|namespace=
+|ordermethod=title
+|include=%PAGE%,%PAGE%,%PAGE%
+|table=class="fandom-table sortable",Character,HP,ATK,DEF
+|tablerow=²{Get Character Level Scaling¦%PAGE%¦asc_hp}²,¦²{Get Character Level Scaling¦%PAGE%¦asc_atk}²,¦²{Get Character Level Scaling¦%PAGE%¦asc_def}²
+}}
+
+==Bonus Attribute==
+For calculations,
+
+'''Bonus Attribute Value = Base Value * Ascension Multiplier'''
+
+===Base Value===
+Different characters have different stats and base values of bonus attributes.
+{| class="fandom-table"
+! Stat !! 4-Star Base Value !! 5-Star Base Value
+|-
+| Elemental [[DMG Bonus]] || 6% || 7.2%
+|-
+| [[ATK]] || 6% || 7.2%
+|-
+| [[HP]] || 6% || —
+|-
+| [[DEF]] || 7.5% || —
+|-
+| [[Physical DMG Bonus]] || 7.5% || —
+|-
+| [[Energy Recharge]] || 6.7% || 8%
+|-
+| [[Elemental Mastery]] || 24 || 28.8
+|-
+| [[Healing Bonus]] || — || 5.5%
+|-
+| [[CRIT Rate]] || — || 4.8%
+|-
+| [[CRIT DMG]] || — || 9.6%
+|}
+
+===Ascension Multiplier===
+For bonus attributes, values will increase in the 2nd/3rd/5th/6th ascension phase. It means that the multiplier will change in the 2nd/3rd/5th/6th ascension phase.
+
+{| class="fandom-table"
+! Ascension Phase !! 1st !! 2nd !! 3rd !! 4th !! 5th !! 6th
+|-
+| Multiplier || 0 || 1 || 2 || 2 || 3 || 4
+|}
+
+==References==
+{{Reflist}}
+[[Category:Game System Subpages]]

@@ -1,0 +1,199 @@
+{{Talent Infobox
+|image         = Talent Dominus Lapidis.png
+|character     = Zhongli
+|type          = Elemental Skill
+|info          = Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.<br /><br />'''Press'''<br />Commands the power of earth to create a Stone Stele.<br /><br />'''Hold'''<br />Causes nearby Geo energy to explode, causing the following effects:
+* If their maximum number hasn't been reached, creates a Stone Stele.
+* Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.
+* Deals {{Color|AoE Geo DMG}}.
+* If there are nearby targets with the {{Color|Geo element}}, it will drain a large amount of {{Color|Geo element}} from a maximum of 2 such targets. This effect does not cause DMG.
+'''Stone Stele'''<br />When created, deals {{Color|AoE Geo DMG}}.<br />Additionally, it will intermittently resonate with other nearby {{Color|Geo constructs}}, dealing {{Color|Geo DMG}} to surrounding opponents.<br />The Stone Stele is considered a {{Color|Geo construct}} that can both be climbed and used to block attacks.<br />Only one Stele created by Zhongli himself may initially exist at any one time.<br /><br />'''Jade Shield'''<br />Possesses 150% DMG Absorption against all Elemental and Physical DMG.<br />Characters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.
+|scale_att1    = HP
+|scale_att2    = ATK
+|utility1      = Shield
+|utility2      = Geo Construct
+|utility3      = Interruption Resistance
+|utility4      = Anemo RES Reduction
+|utility5      = Cryo RES Reduction
+|utility6      = Dendro RES Reduction
+|utility7      = Electro RES Reduction
+|utility8      = Geo RES Reduction
+|utility9      = Hydro RES Reduction
+|utility10     = Pyro RES Reduction
+|utility11     = Physical RES Reduction
+|utility12     = Universal RES Reduction
+|utility13     = AoE
+|particles     = 0.5/2s
+|particlesHold = 0
+|CD            = 4s
+|CDHold        = 12s
+|duration      = Shield: 20s<br />Stele: 30s
+|attr1         = Stone Stele DMG
+|value1        = 16–38%
+|attr2         = Resonance DMG
+|value2        = 32–76%
+|attr3         = Hold DMG
+|value3        = 80–190%
+|attr4         = Shield Base Absorption
+|value4        = 1232–3893
+|attr5         = Additional Shield Absorption
+|value5        = 12.8%-30.4% Max HP
+}}
+{{Description|A true master of stone may carve jade and shape gold.}}
+'''Dominus Lapidis''' is [[Zhongli]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{TalentNote|particles|Any DMG dealt by this skill|0.5}}
+** This particle generation has a cooldown of '''1.5s'''.
+* {{TalentNote|icd|All DMG dealt by this skill|plural=1}}
+* Holding this ability will drain 8 [[Gauge Unit Theory|gauge units]] of {{Geo}} from a maximum of 20 objects (e.g., ores, Hilichurl rock shields, etc.) and 6 gauge units of {{Geo}} from a maximum of 3 enemies within a 10m radius.
+* While holding the Elemental Skill, Zhongli's [[Interruption Resistance]] is greatly increased.<ref name="Zhongli Adjustments">HoYoverse News: [https://genshin.hoyoverse.com/en/news/detail/7524 To All Travelers: Regarding Adjustments to Zhongli]</ref>
+* Multiple nearby Stone Steles will resonate with each other. Additionally, other [[Geo Constructs]] can take resonance from multiple nearby Stone Steles.
+** The Stone Stele's horizontal resonance range (the radius) with other Geo Constructs is about twice the size of the Stele's {{Color|AoE Geo DMG}} pulse range. The resonance range is also slightly less than the range of [[Albedo]]'s [[Abiogenesis: Solar Isotoma]]. The vertical resonance range is about 50% of the Stele's height counted from the bottom to the top of the Stele.
+** The Stele will scan for new nearby Geo Constructs just before the resonance tick.
+* Stone Stele will resonate with pillars created by [[Geo Samachurl]]s.<ref name="Samachurl Pillar Resonating">Imgur: [https://imgur.com/eSiYfAM Geo Samachurl Pillar Resonating]</ref>
+** This implies that Zhongli can resonate with enemy Geo Constructs as well.
+* A maximum of 3 Geo Constructs is allowed on the field between all players. If another player places a Geo construct after the limit has been reached, the oldest Geo construct will be replaced first.
+** Geo Constructs created from [[Wake of Earth]] do not contribute to this cap.
+* The AoE range of the Jade Shield debuff, which decreases opponents' Elemental RES and Physical RES, is a cylinder with a radius of '''7.5''' meters and a height of '''10''' meters.
+*{{TalentNote|character=Zhongli|snapshot|Stone Stele's AoE DMG and Resonance DMG}}
+*{{TalentNote|character=Zhongli|talent=Dominus Lapidis|ascension|1|Resonant Waves|increases the [[Shield Strength]] of characters with the Jade Shield by 5% every time the Jade Shield takes damage, up to a maximum of 25% increased Shield Strength. This lasts until the Jade Shield disappears.}}
+*{{TalentNote|character=Zhongli|talent=Dominus Lapidis|ascension|2|Dominance of Earth|increases the damage from holding Dominus Lapidis, creating a Stone Stele, and Stone Stele resonance by 1.9% of Zhongli's Max HP.}}
+
+;<big>Constellation Effects</big>
+*{{TalentNote|constellation|1|Rock, the Backbone of Earth}}
+*{{TalentNote|constellation|3|Jade, Shimmering through Darkness}}
+*{{TalentNote|constellation|6|Chrysos, Bounty of Dominator}}
+
+==Preview==
+{{Preview
+|file1=Dominus Lapidis Press Preview
+|caption1=Press
+
+|file2=Dominus Lapidis Hold Preview
+|caption2=Hold
+
+|file3=Dominus Lapidis Resonance Preview
+|caption3=Maximum range of Geo Resonance
+}}
+{{Clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Skill
+|levels=14
+|order=stonesteleresonancedmg,presscd,holddmg,shieldbaseabsorption,additionalshieldabsorption,shieldduration,cd(hold)
+|titles=Stone Stele/Resonance DMG (%),Press CD,Hold DMG (%),Shield Base Absorption,Additional Shield Absorption (% Max HP),Shield Duration,CD (hold)
+|stonesteleresonancedmg_1=16/32
+|stonesteleresonancedmg_2=17.2/34.4
+|stonesteleresonancedmg_3=18.4/36.8
+|stonesteleresonancedmg_4=20.0/40.0
+|stonesteleresonancedmg_5=21.2/42.4
+|stonesteleresonancedmg_6=22.4/44.8
+|stonesteleresonancedmg_7=24.0/48.0
+|stonesteleresonancedmg_8=25.6/51.2
+|stonesteleresonancedmg_9=27.2/54.4
+|stonesteleresonancedmg_10=28.8/57.6
+|stonesteleresonancedmg_11=30.4/60.8
+|stonesteleresonancedmg_12=32/64
+|stonesteleresonancedmg_13=34/68
+|stonesteleresonancedmg_14=36/72
+|presscd=4s
+|holddmg_1=80
+|holddmg_2=86
+|holddmg_3=92
+|holddmg_4=100
+|holddmg_5=106
+|holddmg_6=112
+|holddmg_7=120
+|holddmg_8=128
+|holddmg_9=136
+|holddmg_10=144
+|holddmg_11=152
+|holddmg_12=160
+|holddmg_13=170
+|holddmg_14=180
+|shieldbaseabsorption_1=1232
+|shieldbaseabsorption_2=1355
+|shieldbaseabsorption_3=1489
+|shieldbaseabsorption_4=1633
+|shieldbaseabsorption_5=1787
+|shieldbaseabsorption_6=1951
+|shieldbaseabsorption_7=2126
+|shieldbaseabsorption_8=2310
+|shieldbaseabsorption_9=2506
+|shieldbaseabsorption_10=2711
+|shieldbaseabsorption_11=2927
+|shieldbaseabsorption_12=3153
+|shieldbaseabsorption_13=3389
+|shieldbaseabsorption_14=3636
+|additionalshieldabsorption_1=12.80
+|additionalshieldabsorption_2=13.76
+|additionalshieldabsorption_3=14.72
+|additionalshieldabsorption_4=16.00
+|additionalshieldabsorption_5=16.96
+|additionalshieldabsorption_6=17.92
+|additionalshieldabsorption_7=19.20
+|additionalshieldabsorption_8=20.48
+|additionalshieldabsorption_9=21.76
+|additionalshieldabsorption_10=23.04
+|additionalshieldabsorption_11=24.32
+|additionalshieldabsorption_12=25.60
+|additionalshieldabsorption_13=27.20
+|additionalshieldabsorption_14=28.80
+|shieldduration=20s
+|cd(hold)=12s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Zhongli}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Trivia==
+*The name "Dominus Lapidis" is Latin for "Master of Stone."
+**Dominus Lapidis' Chinese name, {{Lang|mini=1|zh=地心|zh_rm=Dìxīn}}, means "Earth's core" or "center of the Earth."
+
+==Other Languages==
+{{Other Languages
+|en      = Dominus Lapidis
+|zhs     = 地心
+|zhs_rm  = Dìxīn
+|zh_tl   = Earth's Core
+|zht     = 地心
+|zht_rm  = Dìxīn
+|zh_note = More literally, "Earth's Heart."
+|ja      = 地心
+|ja_rm   = Chishin
+|ja_tl   = Earth's Core
+|ko      = 지핵
+|ko_rm   = Jihaek
+|ko_tl   = Earth's Core
+|es      = Dominus lapidis
+|fr      = Dominus Lapidis
+|ru      = Власть над камнем
+|ru_tl   = Power over the stone
+|th      = Dominus Lapidis
+|vi      = {{tt|Tâm|心}} Trái Đất
+|vi_tl   = Earth's Core
+|vi_note = Earth as the third planet in the Solar System (rather than an abstract concept in traditional philosophies).
+|de      = Dominus Lapidis
+|id      = Dominus Lapidis
+|pt      = Dominus Lapidis
+}}
+
+==Change History==
+{{Change History|1.1}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Talent Navbox|Zhongli}}
+
+[[es:Dominus lapidis]]
+[[ru:Власть над камнем]]
+[[pt-br:Dominus Lapidis]]
+[[th:Dominus Lapidis]]
+[[uk:Ядро Землі]]

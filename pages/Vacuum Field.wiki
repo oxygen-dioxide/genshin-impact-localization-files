@@ -1,0 +1,585 @@
+{{Terminology Infobox
+|image        = Kazuha Midare Ranzan Vacuum Field.png
+|caption      = Vacuum Field created from Kazuha's Midare Ranzan
+|type         = Combat
+}}
+'''Vacuum Fields'''<ref>Event [[Never-Ending Battle]] Challenge Stage: [[Never-Ending Battle#Ode to the Elemental Rainbow|Ode to the Elemental Rainbow]]</ref> are objects that [[Displacement|displace]] enemies, players and other objects within an [[AoE]].
+
+==Overview==
+Two types of Vacuum Fields exist: Pulling Vacuum Fields and Pushing Vacuum Fields.
+
+Pulling Vacuum Fields are the most common, and will pull targets towards the center of the field. The player can create
+Pulling Vacuum Fields via character talents like Venti's [[Wind's Grand Ode]], [[The Viridescent Hunt]] weapon passive, and special event effects. Pulling Vacuum Fields are a kind of crowd control that can group enemies closer together, making it easier for the player to attack multiple enemies at the same time.
+
+Pushing Vacuum Fields will push targets away from the center of the field. This type of Vacuum Fields is used by some characters to push enemies away while casting certain abilities, and vice versa.
+
+Most player-created vacuums have a [[Weight]] requirement. Enemies that do not match this requirement will not be affected by the Vacuum Field.
+
+==Vacuum Data==
+Targets within the vacuum Pulling Radius will start to accelerate towards the vacuum center. Radii are measured in [[meter]]s.<ref name="monster-src">Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/MonsterAbilities Enemies]</ref><ref name="charactert-src">Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ Character]</ref><ref name="weapon-src">Source Data: [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/EquipAbilities Weapons]</ref><ref name="tornado-src">Source Data: [https://github.com/Dimbreath/GenshinData/blob/d633c8cfe5f1f383413a1f65f44d9bd018e5f9be/BinOutput/Ability/Temp/GadgetAbilities/ConfigAbility_Scene_Environment_WindField.json Tornado]</ref>
+
+* "Inner Radius" refers to the area at the center of the Vacuum Field where the pulling effect stops.
+
+There are two parameters governing the pulling strength of the Vacuum Field (also labeled "Wind Zones" in the source code):
+*'''Strength:''' Positive Strength indicates a Pulling Vacuum Field; Negative Strength indicates a Pushing Vacuum Field.
+*'''Attenuation:''' If Attenuation is greater than 0, the pulling effect will be stronger the closer an entity is to the center of the Vacuum Field. If Attenuation is 0, the pulling effect will be the same anywhere inside the Vacuum Field.
+
+Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngabbs.com/read.php?tid=29563474 《聚怪效果学》- 风场参数与怪物重量对牵引效果影响的量化研究]</ref>
+{| class="fandom-table"
+|-
+!Condition
+!Formula
+|-
+|Target Weight < 64
+|<math>\text{Displacement Velocity (m/s)} = \frac{\exp (-{\frac{\text{Distance from Center}} {\text{Vacuum Radius}} \times 0.5 \times \text{Attenuation})} \times 5000 \times \text{Pulling Strength}} {50^2}</math>
+|-
+|Target Weight ≥ 64
+|<math>\text{Displacement Velocity (m/s)} = \frac{\exp (-{\frac{\text{Distance from Center}} {\text{Vacuum Radius}} \times 0.5 \times \text{Attenuation})} \times 5000 \times \text{Pulling Strength}} {(\text{Target Weight - 14})^2}</math>
+|}
+
+{| class="fandom-table sortable" width="100%"
+!width="50%" |Vacuum
+!width="10%" |Pulling Radius (meters)
+!width="10%" |Inner Radius (meters)
+!width="10%" |Strength
+!width="10%" |Attenuation
+!width="10%" |[[Weight]] Requirement
+|-
+!colspan="6" | Characters
+|-
+| {{Talent|Wind's Grand Ode|20|nobr=1}}
+| 15
+| 0.2
+| 6
+| 0.5
+| None
+|-
+| {{Talent|Astable Anemohypostasis Creation - 6308|20|nobr=1}}
+| 6
+| 1
+| 4
+| 2
+| None
+|-
+| {{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1}}
+| 15
+| 3
+| 4
+| 2
+| Weight < 100
+|-
+| {{Talent|Garyuu Bladework|20|nobr=1}} (Plunging Attack: Midare Ranzan)
+| 6
+| 0.5
+| 4
+| 1
+| Weight ≤ 150
+|-
+| {{Talent|Chihayaburu|20|nobr=1}} (Press, Against Small Enemies)
+| 6
+| 0.5
+| 4
+| 2
+| Weight < 100
+|-
+| {{Talent|Chihayaburu|20|nobr=1}} (Press, Against Large Enemies)
+| 6
+| 0.5
+| 4
+| 2
+| 100 ≤ Weight ≤ 150
+|-
+| {{Talent|Chihayaburu|20|nobr=1}} (While Holding)
+| 10
+| 3
+| 3.5
+| 2
+| Weight ≤ 150
+|-
+| {{Talent|Chihayaburu|20|nobr=1}} (After Hold, Against Small Enemies)
+| 10
+| 1.2
+| 10
+| 3
+| Weight < 100
+|-
+| {{Talent|Chihayaburu|20|nobr=1}} (After Hold, Against Large Enemies)
+| 10
+| 1
+| 20
+| 4
+| 100 ≤ Weight ≤ 150
+|-
+| {{Talent|Gale Blade|20|nobr=1}} (Hold)
+| 10
+| 0
+| 2
+| 2
+| Weight ≤ 150
+|-
+| {{Talent|Gale Blade|20|nobr=1}} (Hold, C2 Unlocked)
+| 10
+| 0
+| 4
+| 2
+| Weight ≤ 150
+|-
+| {{Constellation|Raging Vortex|20|nobr=1}} (Initial Cutting)
+| 5
+| 0.5
+| 4
+| 2
+| None
+|-
+| {{Constellation|Raging Vortex|20|nobr=1}} (Max Cutting)
+| 5
+| 0.5
+| 4
+| 2
+| Weight ≤ 100
+|-
+| {{Talent|Gust Surge|20|nobr=1}}
+| 5
+| 1
+| 7
+| 0.5
+| Weight ≤ 100
+|-
+| {{Talent|Windmuster Kick|20|nobr=1}} (Pre-C2)
+| 6
+| 0.5
+| 3.7
+| 2
+| Weight < 150
+|-
+| {{Talent|Windmuster Kick|20|nobr=1}} (C2, Against Small Enemies)
+| 6
+| 0.5
+| 4
+| 2
+| Weight < 100
+|-
+| {{Talent|Windmuster Kick|20|nobr=1}} (C2, Against Large Enemies)
+| 6
+| 0.5
+| 10
+| 3
+| 100 ≤ Weight ≤ 150
+|-
+| {{Talent|Juuga: Forward Unto Victory|20|nobr=1}} (Against Crystallize Shards)
+| 8
+| 0.1
+| 15
+| 0
+| None
+|-
+| Activation pushing vacuum of the following abilities:<br />{{Talent|Guide to Afterlife|20|nobr=1}}
+| 2
+| 0
+| -3
+| 2
+| Weight ≤ 250
+|-
+| Activation pushing vacuum of the following abilities:<br />{{Talent|Stellaris Phantasm|20|nobr=1}}
+| 2
+| 0
+| -2
+| 0
+| Weight ≤ 100
+|-
+| Activation pushing vacuum of the following abilities:<br />{{Talent|Starward Sword|20|nobr=1}}<br />{{Talent|Dandelion Breeze|20|nobr=1}}
+| 2
+| 0
+| -2
+| 0
+| Weight ≤ 150
+|-
+| Activation pushing vacuum of the following abilities:<br />{{Talent|Foul Legacy: Raging Tide|20|nobr=1}}<br />{{Talent|Kazuha Slash|20|nobr=1}}<br />{{Talent|Kamisato Art: Soumetsu|20|nobr=1}}<br />{{Talent|Kamisato Art: Suiyuu|20|nobr=1}}<br />{{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1}}<br />{{Talent|Ryuukin Saxifrage|20|nobr=1}}<br />{{Talent|Prophecies of Dawn|20|nobr=1}}<br />{{Talent|Royal Descent: Behold, Itto the Evil!|20|nobr=1}}<br />{{Talent|Divine Maiden's Deliverance|20|nobr=1}}<br />{{Talent|Bane of All Evil|20|nobr=1}}<br />{{Talent|Depth-Clarion Dice|20|nobr=1}}
+| 3
+| 0
+| -3
+| 2
+| Weight ≤ 250
+|-
+!colspan="6" | Enemies
+|-
+| {{Enemy|Anemo Slime|20}} pushing vacuum
+| 4
+| 0
+| -10
+| 1
+| Weight ≤ 100
+|-
+| {{Enemy|Large Anemo Slime|20}} pushing vacuum
+| 8
+| 0
+| -15
+| 3
+| Weight ≤ 100
+|-
+| {{Enemy|Anemo Samachurl|20}} vacuum
+| 5
+| 1.5
+| 5
+| 1.2
+| Weight ≤ 100
+|-
+| {{Enemy|Anemo Samachurl|20}} final vacuum
+| 7.5
+| 1.5
+| 5
+| 1.2
+| Weight ≤ 100
+|-
+| {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|text=Anemoboxer Vanguard|20}} vacuum
+| 15
+| 1
+| 10
+| 1
+| None
+|-
+| {{Enemy|Anemo Hypostasis|20}} vacuum
+| 10
+| 2
+| 10
+| 1
+| Weight ≤ 90
+|-
+| {{Enemy|Eye of the Storm|20}} vacuum
+| 10
+| 0.5
+| 3.75
+| 1
+| Weight ≤ 100
+|-
+| {{Enemy|Ruin Hunter|20}} Airborne Mode pushing vacuum
+| 10
+| 0
+| -30
+| 2
+| Weight ≤ 250
+|-
+| {{Enemy|Andrius|20}} Phase 2 pushing vacuum
+| 20
+| 0
+| -15
+| 3
+| None
+|-
+| {{Enemy|Childe|20}} Blast pushing vacuum
+| 10
+| 0
+| -10
+| 3
+| None
+|-
+| {{Enemy|Maguu Kenki|20}} vacuum
+| 7
+| 1.5
+| 6
+| 2
+| None
+|-
+| {{Enemy|Ruin Destroyer|20}} continuous vacuum
+| 8
+| 2
+| 5
+| 1.2
+| Weight ≤ 100
+|-
+| {{Enemy|Ruin Destroyer|20}} initial vacuum
+| 10
+| 3.5
+| 6
+| 1.5
+| Weight ≤ 100
+|-
+| {{Enemy|Anemo Specter|20}} death vacuum normal
+| 5
+| 1.5
+| 5
+| 1.2
+| Weight ≤ 100
+|-
+| {{Enemy|Anemo Specter|20}} death vacuum enraged
+| 2.5
+| 1
+| 5
+| 1.2
+| Weight ≤ 100
+|-
+| {{Enemy|Hydro Hypostasis|20}} Dolphin Dive pushing vacuum
+| 5
+| 0
+| -7.5
+| 0
+| None
+|-
+| {{Enemy|Golden Wolflord|20}} Rifthound Skulls summon pushing vacuum
+| 10
+| 0
+| -7.5
+| 0
+| None
+|-
+| {{Enemy|Beisht|link=Where the Heart Finds Rest (Domain)|20}} Jetstream vacuum
+| 7.5
+| 0.2
+| 5
+| 0.5
+| None
+|-
+| {{Enemy|Beisht|link=Where the Heart Finds Rest (Domain)|20}} middle vacuum (Zone 1)
+| 5
+| 1
+| 6
+| 0.5
+| None
+|-
+| {{Enemy|Beisht|link=Where the Heart Finds Rest (Domain)|20}} middle vacuum (Zone 2)
+| 7.5
+| 1.5
+| 5
+| 0.8
+| None
+|-
+| {{Enemy|Beisht|link=Where the Heart Finds Rest (Domain)|20}} middle vacuum (Zone 3)
+| 9
+| 3
+| 3
+| 1
+| None
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} Magatsu Electroculi, Musou no Hitotachi, Stance Switch pushing vacuum
+| 5
+| 0
+| -7.5
+| 0
+| None
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} Stun Recovery pushing vacuum
+| 5
+| 0
+| -5
+| 0
+| None
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} transformation pushing vacuum
+| 7.5
+| 0
+| -7.5
+| 0
+| None
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} Baleful Vajra's Destructive Waves pushing vacuum
+| 5
+| 0
+| -5
+| 0
+| None
+|-
+| {{Enemy|Ruin Serpent|20}} vacuum (Zone 1)
+| 5
+| 1.5
+| 6
+| 0.5
+| None
+|-
+| {{Enemy|Ruin Serpent|20}} vacuum (Zone 2)
+| 8
+| 5
+| 5
+| 0.5
+| None
+|-
+| {{Enemy|Ruin Serpent|20}} vacuum (Zone 3)
+| 12
+| 8
+| 4
+| 0.5
+| None
+|-
+| {{Enemy|Ruin Serpent|20}} vacuum (Zone 4)
+| 17
+| 12
+| 3
+| 0.5
+| None
+|-
+| {{Enemy|Yoriki Samurai|20}} Kazuha Slash vacuum
+| 5
+| 0.5
+| 3
+| 0.5
+| None
+|-
+!colspan="6" | Others
+|-
+| [[The Viridescent Hunt]] vacuum
+| 4
+| 1
+| 4.5
+| 0
+| None
+|-
+| [[Tornado]] vacuum (Zone 1)
+| 6
+| 0
+| 10
+| 0
+| None
+|-
+| Tornado vacuum (Zone 2)
+| 10
+| 0
+| 5
+| 0
+| None
+|-
+| Tornado vacuum (Zone 3)
+| 40
+| 0
+| 2
+| 0
+| None
+|-
+| Tornado pushing vacuum
+| 5
+| 0
+| -10
+| 0
+| None
+|-
+| [[Never-Ending Battle]] Vacuum Fields
+|
+|
+|
+|
+|
+|-
+| [[Theater Mechanicus|Theatre Mechanicus]] Dust Devil field
+|
+|
+|
+|
+|
+|-
+| Vortex Balloon
+|
+|
+|
+|
+|
+|-
+| [[Labyrinth Warriors|Shikifuda: Strixwind Summoning]]
+| ~5-6
+|
+|
+|
+|
+|}
+
+==Affected Entities==
+The following entities can be pulled into (some or all) player-created Vacuum Fields:
+* Many [[enemies]]
+* Items dropped by enemies
+* Some [[wildlife]] like foxes and boars
+* [[Windblume Festival Commemorative Balloon]]
+* Some player-created entities:
+** [[Aloy]]'s [[Frozen Wilds|Chillwater Bomblets]]
+** [[Amber]]'s [[Baron Bunny]]
+** [[Klee]]'s [[Jumpy Dumpty]] (both the Bounce and the Mines)
+** [[Sayu]]'s [[Muji-Muji Daruma]]
+** [[Xiangling]]'s [[Guoba Attack|Guoba]]
+
+==Talents==
+The following character talents can create Vacuum Fields that can pull in enemies and/or objects. Some of these abilities can also lift enemies into the air only if they are no more than 20 levels higher than the character using the skill.
+
+{{Talents by Category Table|Vacuum Field Talents}}
+
+==Constellations==
+{{Constellations by Category Table|Vacuum Field Constellations}}
+
+==Weapon Passives==
+{{Weapons by Category Table|type=Displacement Passive Weapons}}
+
+==Special Vacuum Fields==
+Some quests and events have special effects or objects that can create Vacuum Fields that affect either the opponent or player.
+
+===Quests===
+* Archon Quest, Prologue, Act III: [[Song of the Dragon and Freedom]]: A [[Tornado]] obstacle appears in [[Stormterror's Lair]] that can draw players in, displace them, and deal damage.
+
+===Events===
+* [[Never-Ending Battle]]: Days 2-3 allow players to create Vacuum Fields under special conditions
+* [[Invitation of Windblume]] (Floral Freefall): the [[Vortex Balloon]] can create a small Vacuum Field in the air that can pull in the gliding player
+* [[Theater Mechanicus/2021-08-12]]: one of the upgrades for the Dust Devil will allow it to pull enemies within an AoE
+* [[Labyrinth Warriors]]: The Shikifuda: Strixwind Summoning allows the player to continuously pull surrounding opponents
+
+==Enemies==
+===Pulling Vacuums===
+{{Enemies by Category List|Vacuum Field Enemies}}
+
+===Pushing Vacuums===
+{{Enemies by Category List|Pushing Vacuum Field Enemies}}
+
+==Preview==
+{{Preview
+|size     = 250px
+
+|file1    = Wind's Grand Ode Preview
+|caption1 = Venti's Wind's Grand Ode
+
+|file2    = Chihayaburu Hold Preview
+|caption2 = Kazuha's Chihayaburu
+
+|file3    = Gale Blade Hold Preview
+|caption3 = Jean's Gale Blade
+
+|file4    = Forbidden Creation - Isomer 75 Type II Preview
+|caption4 = Sucrose's Forbidden Creation - Isomer 75 Type II
+
+|file5    = Gust Surge (Aether) Preview
+|caption5 = Anemo Aligned Traveler's Gust Surge
+
+|file6    = Weapon The Viridescent Hunt Passive
+|caption6 = The Viridescent Hunt
+}}
+
+==Other Languages==
+{{Other Languages
+|en       = Vacuum Field
+|zhs      = 真空吸引场
+|zhs_rm   = Zhēnkōng Xīyǐn-chǎng
+|zht      = 真空吸引場
+|zht_rm   = Zhēnkōng Xīyǐn-cháng
+|zh_tl    = Vacuum Suction Field
+|ja       = 真空フィールド
+|ja_rm    = Shinkuu Fiirudo{{Assumed}}
+|ja_tl    = Vacuum Field
+|ko       = {{tt|진공|真空}} {{tt|흡입|吸入}} 필드
+|ko_rm    = Jingong Heubip Pildeu
+|ko_tl    = Vacuum Suction Field
+|es       = Campo de vacío
+|es_tl    = Vacuum Field
+|fr       = Champ d'attraction
+|fr_tl    = Attraction Field
+|ru       = Зона вакуума
+|ru_tl    = 
+|th       = Vacuum Field
+|vi       = {{tt|Trường|場}} Hút {{tt|Chân Không|真空}}
+|vi_tl    = 
+|de       = Vakuumfeld
+|de_tl    = Vacuum Field
+|id       = Vacuum Field
+|pt       = Vácuo
+|pt_tl    = Vacuum
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox}}

@@ -1,0 +1,83 @@
+{{Talent Infobox
+|image         = Talent Dominance of Earth.png
+|character     = Zhongli
+|type          = 4th Ascension Passive
+|info          = Zhongli deals bonus DMG based on his Max HP:
+* [[Rain of Stone|Normal Attack, Charged Attack, and Plunging Attack]] DMG is increased by 1.39% of Max HP.
+* '''[[Dominus Lapidis]]'''' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.
+* '''[[Planet Befall]]''''s DMG is increased by 33% of Max HP.
+|scale_att1    = HP
+|utility1      = Flat DMG Increase
+|utility2      = Normal Attack DMG Increase
+|utility3      = Charged Attack DMG Increase
+|utility4      = Plunging Attack DMG Increase
+|utility5      = Elemental Skill DMG Increase
+|utility6      = Elemental Burst DMG Increase
+}}
+'''Dominance of Earth''' is [[Zhongli]]'s [[4th Ascension Passive]].
+
+==Gameplay Notes==
+With this passive, the '''base outgoing damage''' is calculated using the following formula:
+:<math>\text{Outgoing DMG} = (\text{ATK} \times  \% \text{ Ability}</math><math>+ \text{HP}\times\text{Ability HP Mult})</math><math>\times (1 + \% \text{ DMG Bonus} )</math>Where:
+* <math>\text{ATK}</math> is the subject's total '''ATK''' value (including ATK and % ATK Bonuses), given by <math>\text{ATK}=\text{ATK Base} \times (1+\%\text{ ATK})+\text{ATK Flat}</math>, where
+**<math>\text{ATK Base}</math> is the base attack of the subject. (This is the sum of the character's innate level-dependent ATK and their weapon's ATK.)
+** <math>\%\text{ ATK}</math> is the sum of all percentage attack bonuses the subject has.
+** <math>\text{ATK Flat}</math> is the sum of all flat attack bonuses (excluding base attack) the subject has.
+* <math>\% \text{ Ability}</math> is the ability's damage percentage. (This is listed in the Talents screen for combat talents and in the Weapon Effects screen for weapon abilities.)
+* <math>\% \text{ DMG Bonus}</math> is the sum of all [[Damage Bonus]]es applicable to the attack.
+* <math>\text{HP}</math> is the subject's maximum health.
+* <math>\text{Ability HP Mult}</math> is the multiplier corresponding to the used ability, that is, 0.0139 for [[Rain of Stone]], 0.019 for [[Dominus Lapidis]], and 0.33 for [[Planet Befall]].
+
+This value is then multiplied by other coefficients, including [[crit]] and target [[defense]]. For more information, see [[Damage#Outgoing Damage]].
+
+==Trivia==
+===Etymology===
+* The original Chinese version (as well as the Vietnamese version) uses the Chinese idiom {{lang|''chuī jīn zhuàn yù''|zh=炊金馔玉}}, literally meaning "to steam gold and prepare jade as food."  It is a poetic expression for "to have a gorgeous meal," which originated from a poem by the Chinese poet {{w|Luo Binwang}} (640?－684?).
+** In the case of Zhongli, however, the idiom may also refer to his ability to produce [[mora]] (virtually equivalent to gold) and his foundation of [[Liyue]] (lit. "Lapis Lazuli Moon").
+
+==Other Languages==
+{{Other Languages
+|en      = Dominance of Earth
+|zhs     = 炊金馔玉
+|zhs_rm  = Chuī Jīn Zhuàn Yù
+|zht     = 炊金饌玉
+|zht_rm  = Chuī Jīn Zhuàn Yù
+|zh_tl   = Steam Gold and Prepare Jade as Food
+|zh_note = See the [[#Trivia|Trivia]] section.
+|ja      = 贅沢な食饌
+|ja_rm   = Zeitaku na Shokusen<ref>YouTube: [https://youtu.be/UkJ07HvWVhE Zhongli's Collected Miscellany] (Japanese Voice-Over)</ref>
+|ja_tl   = Gorgeous Feast
+|ko      = {{tt|호의호식|好衣好食}}
+|ko_rm   = Ho'uihosik
+|ko_tl   = Good Cloth and Good Food
+|ko_note = An idiom for "to live well."
+|es      = Dominio de la Tierra
+|es_tl   = Dominion of the Earth
+|fr      = Domination de la Terre
+|fr_tl   = Domination of the Earth
+|ru      = Господство земли
+|ru_tl   = Dominance of Earth
+|th      = Dominance of Earth
+|vi      = {{tt|Xuy Kim Soạn Ngọc|炊金馔玉}}
+|vi_tl   = Steam Gold and Prepare Jade as Food{{Sino|vi}}
+|de      = Hungrige Erde
+|de_tl   = Hungry Earth
+|id      = Dominance of Earth
+|pt      = Domínio da Terra
+|pt_tl   = Dominance of Earth
+}}
+
+==Change History==
+{{Change History|1.1}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Talent Navbox|Zhongli}}
+
+[[es:Dominio de la Tierra]]
+[[ru:Господство земли]]
+[[pt-br:Domínio da Terra]]
+[[th:Dominance of Earth]]
+[[uk:Карбування золота]]

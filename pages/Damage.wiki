@@ -1,0 +1,274 @@
+{{Terminology Infobox
+|image        = [[File:HP Bar Damage.png|Damage to the HP bar as the result of falling.]]
+|type         = Combat
+|type2        = Game Systems
+}}
+When [[characters]] or [[enemies]] attack their targets, they deal '''damage''' based on their and their target's [[attributes]] (indicated in yellow on a player's or enemy's HP bar).
+
+==General Damage Formula==
+For DMG dealt by [[Talents]], [[Constellations]], [[Weapon]] passives, and [[enemy]] attacks, the DMG calculation factors in the following components:
+*[[ATK]], [[DEF]], or Max [[HP]] depending on the ability
+*Ability multiplier
+*[[Damage Bonus]]
+*[[Defense]] (of target)
+*[[Resistance]] (of target)
+*[[Damage Reduction]] (of target)
+*[[Amplifying Reactions]]
+*[[Critical Hit]]
+
+DMG is calculated as:
+:<math>\begin{align} \text{DMG} ={} & \big((\text{Base DMG} \times \text{Special Multiplier}) + \text{Flat DMG Bonus}\big) \\ & \times (1 + \text{Percentage DMG Bonus} - \text{DMG Reduction}_\text{Target}) \\ & \times \text{DEF Multiplier}_\text{Target} \times \text{RES Multiplier}_\text{Target} \\ & \times \text{Amplifying Multiplier} \end{align}</math>
+
+If the damage scores a Critical Hit, the CRIT DMG multiplier is also applied.
+:<math>\text{DMG}_\text{CRIT} = \text{DMG} \times (1 + \%\text{CRIT DMG})</math>
+
+===Base Damage===
+'''Base Damage''' is the damage dealt before accounting for any damage modifiers.
+:<math>
+\text{Base DMG} = \begin{cases}
+\% \text{Ability} \times \text{ATK} & \text{if ability scales with ATK}\\
+\% \text{Ability} \times \text{DEF} & \text{if ability scales with DEF}\\
+\% \text{Ability} \times \text{Max HP} & \text{if ability scales with Max HP}
+\end{cases}
+</math>
+
+===Damage Bonus===
+{{Main|Damage Bonus}}
+There are three types of DMG Bonuses:
+* '''Percentage Damage Bonus''' is the most common type of Damage Bonus, which includes Elemental and Physical Damage Bonuses listed in the stats screen, as well as all other percentage-based DMG Bonuses which may affect Normal/Charged/Plunging Attack, Elemental Skill, Elemental Burst, all DMG, etc.
+* '''Flat Damage Bonus''' is a fixed amount of bonus DMG from abilities such as [[Sangonomiya Kokomi]]'s [[Nereid's Ascension]] and [[Yun Jin]]'s [[Cliffbreaker's Banner]]. Flat Damage Bonuses are added to Base DMG then multiplied by the aforementioned Percentage Damage Bonuses. 
+* '''Special Multipliers''' are directly multiplicative with Base DMG, obtainable through certain abilities such as [[Xingqiu]]'s [[Evilsoother]] or [[Yoimiya]]'s [[Niwabi Fire-Dance]].
+
+DMG Bonuses of the same type stack additively with each other.
+
+===Defense===
+{{Main|Defense}}
+'''Defense''', or '''DEF''', reduces incoming damage based on this formula:
+:<math>\text{DEF DMG Reduction}=\frac{\text{DEF}}{\text{DEF} + 5 \times \text{Level}_\text{Attacker} + 500}</math>
+
+The incoming damage will then be multiplied by
+:<math>\text{DEF Multiplier}=1 - \text{DEF DMG Reduction}</math>
+
+Alternatively, for enemies only:
+*Enemy Defense is given as:
+:<math>\text{DEF}_\text{Enemy} = 5 \times \text{Level}_\text{Enemy} + 500</math>
+
+*Enemy Defense multiplier can be calculated as:
+:<math>\text{DEF Multiplier} = \frac{\text{Level}_\text{Character} + 100}
+    {k \; (\text{Level}_\text{Enemy} + 100) + (\text{Level}_\text{Character} + 100)}</math>
+::where <math>k = \left[ 1 - \% \text{ DEF Reduction} \right] \left[ 1 - \% \text{ DEF Ignored} \right]</math>
+
+===Resistance===
+{{Main|Resistance}}
+[[File:resistance multiplier graph.png|thumb|right|400px|Resistance Multiplier vs. RES%]]
+Targets have different '''Resistances''', or '''RES''' to [[Elemental]] and [[Physical]] DMG. There are further ways to increase or decrease these resistances. RES is the actual resistance [[attribute]]. Its formula is:
+
+:<math>\%\text{RES} = \%\text{RES Base} + \%\text{RES Bonus} - \% \text{RES Debuffs}</math>
+
+The Resistance multiplier varies nonlinearly with the RES percentage. Depending on the value of <math>\% \text{ RES}</math> in the interval below, the corresponding <math>\text{RES Multiplier}</math> is as follows:
+{| class="article-table sortable waffle no-grid"
+|-
+!Formula
+!Interval
+|-
+|
+ <math>1 - \biggl( \frac{\mathsf{RES}}{2} \biggr)</math>
+|RES < 0
+|-
+|
+ <math>1 - \mathsf{RES}</math>
+| 0 ≤ RES < 0.75
+|-
+|
+ <math>\frac{1}{4 \times \mathsf{RES} + 1}</math>
+|RES ≥ 0.75
+|}
+
+For example, an enemy with 10% RES (0.1) will have a <math>1-0.1=0.9</math> RES multiplier.
+
+For a table of enemy resistances, see [[Resistance#Base Enemy Resistances]].
+
+==Elemental Reaction Damage==
+[[Elemental Reactions]] may be categorized into two groups:
+* '''Transformative Reactions''' that deal additional elemental damage when triggered; and
+* '''Amplifying Reactions''' that increase the damage of the hit that triggered the reaction.
+
+Note that triggering multiple reactions in quick succession can cause the reaction's pop-up text to be hidden by the game, even though the reaction occurred and dealt damage successfully.
+
+===Transformative Reaction Damage===
+The transformative reactions are [[Overloaded]], [[Shattered]], [[Electro-Charged]], [[Superconduct]], and [[Swirl]].
+
+The damage dealt by such reactions scales with the triggering character's level and [[Elemental Mastery]] ("EM"), and is reduced by the target's elemental resistances. Unlike normal combat damage, this damage is not based on the attack stat, cannot deal critical damage, and is not reduced by the target's defense.
+
+Additionally, the stats and passive abilities of the character that applies the initial element do '''not''' affect the reaction damage; the only character that matters is the one that applies the second element which triggers the reaction.
+
+Each reaction has the same level and EM scaling, but deal different amounts of damage because they have different multipliers ("Reaction Multiplier").<ref>Reddit: [https://www.reddit.com/r/Genshin_Impact/comments/j580by/elemental_mastery_damage_increase/ Reddit Elemental Mastery Post]</ref><ref>Community Document: [https://docs.google.com/spreadsheets/d/1s0G2SDIOp9WB7NRn3ABoRgsS_Qjid46g1-BswFrbTFY/htmlview?usp=drivesdk&pru=AAABdV1bpG0*-g5FokaniOBhXzex6zRGqw# Genshin Impact Team Building Resources 2.0]</ref>
+
+Certain effects such as the 4-piece set bonuses of the [[Crimson Witch of Flames]] and [[Thundering Fury]] [[Artifact]] sets can also increase the reaction damage ("% Reaction Bonus").
+
+The outgoing damage before defense and resistances is as follows:
+
+:<math>\begin{align}\text{DMG}_\text{Transformative} = & \text{ Reaction Multiplier} \times \text{Level Multiplier}_\text{Character}
+\\ & \times (1 + \% \text{ EM Bonus}_\text{Transformative} + \% \text{ Reaction Bonus})
+\end{align}</math>
+
+:<math>\text{Reaction Multiplier} = \begin{cases}\begin{align}
+0.25 &\text{, for Burning } \\
+0.5 &\text{, for Superconduct } \\
+0.6 &\text{, for Swirl } \\
+1.2 &\text{, for Electro-Charged } \\
+1.5 &\text{, for Shattered } \\
+2.0 &\text{, for Overloaded } \\
+\end{align}\end{cases}</math>
+
+The level of EM can also increase the damage of transformative reactions by a certain percentage ("% EM Bonus"). (See [[Elemental Mastery]] for more details.) EM Bonus is calculated as:
+:<math>\% \text{ EM Bonus}_\text{Transformative} = 16 \times \frac{\text{EM}}{\text{EM} + 2000} \times 100 \%</math>
+
+[[File:EM_base_damage_level_scaling_updated_(March_2022).png|thumb|right|300px|Base Damage from Transformative Reactions per Level]]
+
+EM and % EM Bonus exhibit diminishing returns. At very low EM (close to 0), a 100 EM increase provides an approximate 75% increase in % EM Bonus. However, at very high EM (close to 1000), a 100 EM increase only provides an approximate 35% increase in % EM Bonus.
+
+It is possible for transformative reactions that apply an element in an [[AoE]] to further trigger amplifying reactions. Currently, Swirl is the only element that can do so. For example, when {{Color|Anemo}} is applied to a target affected by {{Color|Pyro}}, a Pyro Swirl is triggered and this can hit nearby targets that are affected by {{Color|Hydro}}. In this case, the amplifying reaction adds an additional multiplier ("Amplifying Multiplier") to the outgoing damage dealt to the target affected by Hydro, as calculated in the [[#Amplifying Reaction Damage|next section]].
+
+Transformative reactions ignore the target's defense, but are still affected by their resistances. The incoming damage taken by the target is as follows:
+:<math>\text{Incoming DMG}_\text{Transformative} = \text{DMG}_\text{Transformative} \times \text{RES Multiplier}</math>
+
+For the base damages of transformative reactions per Level, see [[Level Scaling/Reaction]].
+
+===Amplifying Reaction Damage===
+The amplifying reactions are [[Vaporize]] and [[Melt]]. Amplifying reactions add extra multipliers to the damage of the attack that triggered the reaction based on the triggering element and the elemental mastery of the triggering character.
+
+Certain effects such as the 4-piece set bonus of the [[Crimson Witch of Flames]] [[Artifact]] set can further increase the damage ("Reaction Bonus").
+
+The additional amplifying multiplier is as follows:
+
+:<math>\begin{align}\text{Amplifying Multiplier} = {} &\text{Reaction Multiplier} \\ &\times (1 + \% \text{EM Bonus}_\text{Amplifying} + \% \text{Reaction Bonus}) \end{align}</math>
+
+:<math>\text{Reaction Multiplier} = \begin{cases}\begin{align}
+2.0 &\text{, for Melt if } \color{red}\text{Pyro} \color{black}\text{ triggers} \\
+1.5 &\text{, for Melt if } \color{skyblue}\text{Cryo} \color{black}\text{ triggers}\\
+2.0 &\text{, for Vaporize if } \color{blue}\text{Hydro} \color{black}\text{ triggers}  \\
+1.5 &\text{, for Vaporize if } \color{red}\text{Pyro} \color{black}\text{ triggers}
+\end{align}\end{cases}</math>
+
+This amplifying multiplier increases  damage:
+
+:<math>\text{DMG}_\text{Amplified} = \text{DMG} \times \text{Amplifying Multiplier}</math>
+
+where "DMG" may be the damage dealt by Talents, Constellations, enemy attacks, or a [[Swirl]] reaction as calculated in the [[#Transformative Reaction Damage|earlier section]].
+
+The level of EM can also increase the damage of amplifying reactions by a certain percentage ("% EM Bonus"). (See [[Elemental Mastery]] for more details.) This can be approximated as follows:
+:<math>\% \text{EM Bonus}_\text{Amplifying} = 2.78 \times \frac{\text{EM}}{\text{EM} + 1400} \times 100 \%</math>
+
+Talents that only apply the elemental status will deal no damage upon triggering an amplifying reaction.
+
+===Swirl-Induced Reaction Damage===
+Since Swirl depends on the triggering element, Transformative and Amplifying Reactions are possible on enemy units with compatible elements. Damage calculation is modified by utilizing both the formulas of Transformative and Amplifying Reactions.
+
+For Amplifying Reactions:
+:<math>\begin{align} \text{Amplified Swirl DMG} = {} &\text{Swirl Factor} \times \text{Amplifying Multiplier} \\ &\times [\text{RES Multiplier}]_\text{Target} \end{align}</math>
+:<math>\begin{align} \textsf{where} \quad \text{Swirl Factor} = {} & \text{Reaction Multiplier} \\ &\times \text{Level Multiplier}_\text{Character} \\ &\times (1 + \% \text{ EM Bonus}_\text{Swirl} + \% \text{ Swirl Bonus}) \end{align}</math>
+
+For Transformative Reactions the same damage calculations in the previous sections is applied.
+
+====Reaction Modifiers====
+Reactions can be affected by various abilities:
+{| class="article-table sortable waffle no-grid"
+|-
+! Ability
+! Icon
+! Amount
+! Reaction
+! Notes
+|-
+| [[Mona]]: Constellation 1
+| {{Constellation|Prophecy of Submersion|60}}
+| +15%
+| {{Color|Hydro Reactions}} (Electro-Charged, Hydro-Swirl, Vaporize, and Frozen)
+| Instead of damage, Frozen duration is increased.
+|-
+| [[Crimson Witch of Flames]]: 4-piece bonus
+| style="text-align: center" | {{Artifact Set|Crimson Witch of Flames}}
+| +40%
+| {{Color|Pyro|Burning}} and {{Color|Pyro|Overload}}
+|
+|-
+| [[Crimson Witch of Flames]]: 4-piece bonus
+| style="text-align: center" | {{Artifact Set|Crimson Witch of Flames}}
+| +15%
+| {{Color|Pyro|Melt}} and {{Color|Pyro|Vaporize}}
+|
+|-
+| [[Retracing Bolide]]: 4-piece bonus
+| style="text-align: center" | {{Artifact Set|Retracing Bolide}}
+| +35%
+| {{Color|Geo|Crystallize}}
+| Shield Strength affects Crystallize.
+|-
+| [[Thundering Fury]]: 4-piece bonus
+| style="text-align: center" | {{Artifact Set|Thundering Fury}}
+| +40%
+| {{Color|Electro Reactions}} (Electro-Charged, Overloaded, and Superconduct)
+|
+|-
+| [[Viridescent Venerer]]: 4-piece bonus
+| style="text-align: center" | {{Artifact Set|Viridescent Venerer}}
+| +60%
+| {{Color|Anemo|Swirl}}
+|
+|}
+
+==True Damage==
+True Damage<ref group="Note">Term introduced in [[Version/2.3|Version 2.3]]</ref> is DMG that ignores the target's [[DEF]], [[RES]], and [[Damage Reduction]], but does not ignore [[shield]]s.
+
+Note that True Damage is not to be confused with [[HP Loss]], as HP Loss is not damage at all.
+
+Notable sources of True Damage include:
+* Certain [[Ley Line Disorders]]
+* [[Electrogranum]] Coordinated Attacks
+* [[Thunderstone]]s
+* [[Kamuijima Cannon]]s
+* [[Mountainator]]s
+* [[Unique Rock Pillar]]s
+
+==Snapshotting==
+{{Main|Snapshotting}}
+Snapshotting refers to the ability of certain DoT attacks to retain their buffs from the time they are cast. An example is how [[Xiangling]]'s Pyronado will be buffed for its whole duration when cast inside Bennett's Fantastic Voyage field, even if one walks outside the field or the field expires.
+
+==Attack Speed==
+The attribute [[Attack Speed]] (ATK SPD) increases Damage per Second (DPS) and so acts as an indirect and separate multiplier to damage. Generally attack speed boosts only affect Normal and Charged Attacks.
+
+==Sample Calculation==
+Consider the following sequence:
+# {{Character|Mona|30|nobr=1}} has the following [[Attributes]]: Level is '''70''', Attack is '''1500''', Elemental Mastery is '''150''', Crit Damage is '''80%''' and {{Color|Hydro DMG Bonus}} is '''40%'''.
+# {{Character|Mona|30|nobr=1}} applies {{Color|Hydro|Wet}} on a Level 75 [[Fatui Agents|Fatui Agent]].
+# {{Character|Sucrose|30|nobr=1}} with 4 piece [[Viridescent Venerer]] {{Color|Anemo|Swirls}} the enemy.
+# The {{Color|Hydro|Wet}} status wears off of the enemy.
+# {{Character|Klee|30|nobr=1}} with [[File:Constellation Explosive Frags.png|20px|link=Klee]] Constellation 2 - [[Explosive Frags]] deals {{Color|Pyro DMG}}, applying {{Pyro}} to the enemy.
+# {{Character|Mona|30|nobr=1}} casts [[File:Talent Stellaris Phantasm.png|20px]] Level 6 [[Stellaris Phantasm]], triggering '''Vaporize''' for no damage and clearing the {{Pyro}} status.
+# {{Character|Klee|30|nobr=1}} deals {{Color|Pyro DMG}} to the enemy, triggering [[Illusory Bubble]], which deals '''Critical''' {{Color|Hydro DMG}} and '''Vaporizes'''.
+
+We can calculate the damage dealt by Mona in the final step as follows:
+:<math>\begin{align} \text{DEF Multiplier} & {} = \frac{70+100}{[1-0.23_\text{Klee}](75+100)+70+100} \\ & = 0.55783 \end{align}</math>
+:<math>\begin{align} \text{Enemy RES} & {} = [0.1]_\text{Base RES} - [0.4]_\text{Sucrose} = -0.3 < 0 \end{align}</math>
+:<math>\begin{align} \therefore \text{RES Multiplier} & {} = 1-\left(\frac{-0.3}{2}\right) = 1.15 \end{align}</math>
+:<math>\begin{align} \text{Outgoing DMG} & {} = 1500 \times [6.19]_\text{Stellaris} \\ &\quad \times [1+0.4_\text{Hydro Bonus}+0.52_\text{Stellaris}]_\text{DMG Bonuses} \\ &\quad \times [1+0.8]_\text{Critical} \\ & = 32088.96 \end{align}</math>
+:<math>\begin{align} \text{Incoming DMG}  & {} = 32088.96 \times 0.55783 \times 1.15 \\ & = 20585.21 \end{align}</math>
+:<math>\begin{align} \text{DMG Amplified} & {} = 20585.21 \times [2]_\text{Vaporize} \\ &\quad \times [1+0.26903_\text{EM Bonus}]_\text{Reaction Bonuses} \\ & = 52246.50 \end{align}</math>
+
+Therefore, [[File:Talent Stellaris Phantasm.png|20px]] [[Stellaris Phantasm]] will deal {{Color|52247 Hydro DMG}}.
+
+==Notes==
+{{Reflist|note=1}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist|2}}
+
+==Navigation==
+{{Attribute Navbox|state=collapsed}}
+{{Combat Navbox}}
+
+[[pt-br:Dano]]

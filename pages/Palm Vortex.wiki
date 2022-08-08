@@ -1,0 +1,183 @@
+{{Talent Infobox
+|image         = Talent Palm Vortex.png
+|character     = Traveler (Anemo)
+|type          = Elemental Skill
+|info          = Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous {{Color|Anemo DMG}} to opponents in front of you.<br />The vacuum vortex explodes when the skill duration ends, causing a greater amount of {{Color|Anemo DMG}}<!--not colorized in-game--> over a larger area.<br /><br />'''Hold'''<br />DMG and [[AoE]] will gradually increase.<br /><br />'''[[Elemental Absorption]]'''<br />If the vortex comes into contact with {{Color|Hydro}}/<wbr>{{Color|Pyro}}/<wbr>{{Color|Cryo}}/<wbr>{{Color|Electro}}, it will deal additional {{Color|Black|Elemental DMG}} of that type.<br />Elemental Absorption may only occur once per use.
+|utility1      = Elemental Absorption
+|utility2      = Knockback
+|utility3      = AoE
+|particles     = 2
+|particlesHold = 3.5
+|CD            = 5s
+|CDHold        = 8s
+|attr1         = Initial Cutting DMG
+|value1        = 12–25.5%
+|attr2         = Max Cutting DMG
+|value2        = 16.8–35.7%
+|attr3         = Initial Storm DMG
+|value3        = 176–374%
+|attr4         = Max Storm DMG
+|value4        = 192–408%
+|scale_att1    = ATK
+}}
+{{Description|You discussed the way to grasp the formless wind with Paimon.}}
+'''Palm Vortex''' is [[Traveler (Anemo)]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{TalentNote|particles|2|3.33}}
+** Only the final hit of this skill generates Elemental Particles.
+* The DMG multiplier of the absorbed element is '''25%''' of the Anemo DMG multiplier.
+* {{TalentNote|icd|Initial Cutting DMG|2.5|3|Max Cutting DMG}}
+* {{TalentNote|icd|Storm DMG|0}}
+* When the skill button is held, '''Initial Cutting DMG''' ticks 2 times (at 0.35s and 0.5s), then it switches to '''Max Cutting DMG''', which ticks 4 more times (at 0.85s, 1s, 1.35s and 1.5s).
+* When the skill button is pressed, it will immediately trigger '''Initial Storm DMG'''.
+* [[Elemental Absorption]] can occur from both elements on the target as well as elements afflicting the Traveler.
+* Unlike other Talents with Elemental Absorption, Anemo Traveler's absorption priority is {{Cryo}} / {{Color|Cryo|Frozen}} > {{Pyro}} > {{Hydro}} > {{Electro}}.
+* {{TalentNote|character=Traveler (Anemo)|talent=Palm Vortex|ascension|2|Second Wind}}
+
+;<big>Constellation Effects</big>
+* {{TalentNote|constellation|1|Raging Vortex}}
+* {{TalentNote|constellation|4|Cherishing Breezes}}
+* {{TalentNote|constellation|5|Vortex Stellaris}}
+
+==Preview==
+{{Preview
+|file1=Palm Vortex Press (Aether) Preview
+|caption1= Press (Aether)
+
+|file2=Palm Vortex Press (Lumine) Preview
+|caption2= Press (Lumine)
+
+|file3=Palm Vortex Hold (Aether) Preview
+|caption3= Hold (Aether)
+
+|file4=Palm Vortex Hold (Lumine) Preview
+|caption4= Hold (Lumine)
+}}
+{{Clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Skill
+|levels=14
+|order=initialcuttingdmg,maxcuttingdmg,initialstormdmg,maxstormdmg,basecd,maxchargingcd
+|titles=Initial Cutting DMG<ref name="dmg" group="Note">Value indicated is the damage of each hit.</ref> (%),Max Cutting DMG<ref name="dmg" group="Note" /> (%),Initial Storm DMG (%),Max Storm DMG (%),Base CD,Max Charging CD
+|initialcuttingdmg_1=12.00
+|initialcuttingdmg_2=12.90
+|initialcuttingdmg_3=13.80
+|initialcuttingdmg_4=15.00
+|initialcuttingdmg_5=15.90
+|initialcuttingdmg_6=16.80
+|initialcuttingdmg_7=18.00
+|initialcuttingdmg_8=19.20
+|initialcuttingdmg_9=20.40
+|initialcuttingdmg_10=21.60
+|initialcuttingdmg_11=22.80
+|initialcuttingdmg_12=24.00
+|initialcuttingdmg_13=25.50
+|initialcuttingdmg_14=27.00
+
+|maxcuttingdmg_1=16.80
+|maxcuttingdmg_2=18.06
+|maxcuttingdmg_3=19.32
+|maxcuttingdmg_4=21.00
+|maxcuttingdmg_5=22.26
+|maxcuttingdmg_6=23.52
+|maxcuttingdmg_7=25.20
+|maxcuttingdmg_8=26.88
+|maxcuttingdmg_9=28.56
+|maxcuttingdmg_10=30.24
+|maxcuttingdmg_11=31.92
+|maxcuttingdmg_12=33.60
+|maxcuttingdmg_13=35.70
+|maxcuttingdmg_14=37.80
+
+|initialstormdmg_1=176.00
+|initialstormdmg_2=189.20
+|initialstormdmg_3=202.40
+|initialstormdmg_4=220.00
+|initialstormdmg_5=233.20
+|initialstormdmg_6=246.40
+|initialstormdmg_7=264.00
+|initialstormdmg_8=281.60
+|initialstormdmg_9=299.20
+|initialstormdmg_10=316.80
+|initialstormdmg_11=334.40
+|initialstormdmg_12=352.00
+|initialstormdmg_13=374.00
+|initialstormdmg_14=396.00
+
+|maxstormdmg_1=192.00
+|maxstormdmg_2=206.40
+|maxstormdmg_3=220.80
+|maxstormdmg_4=240.00
+|maxstormdmg_5=254.40
+|maxstormdmg_6=268.80
+|maxstormdmg_7=288.00
+|maxstormdmg_8=307.20
+|maxstormdmg_9=326.40
+|maxstormdmg_10=345.60
+|maxstormdmg_11=364.80
+|maxstormdmg_12=384.00
+|maxstormdmg_13=408.00
+|maxstormdmg_14=432.00
+
+|basecd=5s
+
+|maxchargingcd=8s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Mondstadt}}
+
+==Voice-Overs==
+===Aether===
+{{Talent VO/Traveler|character=Aether}}
+===Lumine===
+{{Talent VO/Traveler|character=Lumine}}
+
+==Notes==
+{{Reflist|note=1}}
+
+==Other Languages==
+{{Other Languages
+|en      = Palm Vortex
+|zhs     = 风涡剑
+|zhs_rm  = Fēngwō Jiàn
+|zht     = 風渦劍
+|zht_rm  = Fēngwō Jiàn
+|zh_tl   = Wind Vortex Sword
+|ja      = 旋風の剣
+|ja_rm   = Tsumuji<!--/Tsumujikaze/Senpuu/Tsujikaze--> no Ken<!--/Tsurugi-->{{Assumed}}
+|ja_tl   = Whirlwind Sword
+|ko      = 회오리 {{tt|검|劍}}
+|ko_rm   = Hoe'ori Geom
+|ko_tl   = Whirlwind Sword
+|es      = Espada de vórtice
+|es_tl   = Vortex Sword
+|fr      = Vortex destructeur
+|fr_tl   = Destructive Vortex
+|ru      = Ладонь вихря
+|ru_tl   = 
+|th      = Palm Vortex
+|vi      = {{tt|Kiếm|劍}} Gió Lốc
+|vi_tl   = Whirlwind Sword
+|de      = Windschwert
+|de_tl   = Wind Sword
+|id      = Palm Fortex
+|pt      = Vórtice da Palma
+|pt_tl   = Palm Vortex
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==Navigation==
+{{Talent Navbox|Traveler (Anemo)}}
+
+[[es:Espada de vórtice]]
+[[ja:旋風の剣]]
+[[pt-br:Vórtice da Palma]]
+[[vi:Kiếm Gió Lốc]]
+[[fr:Vortex destructeur]]
+[[th:Palm Vortex]]

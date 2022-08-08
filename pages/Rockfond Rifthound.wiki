@@ -1,0 +1,159 @@
+{{Enemy Infobox
+|image    = Enemy Rockfond Rifthound.png
+|element  = Geo
+|family   = The Abyss
+|group    = Riftwolves
+|type     = Elite Enemies
+|location = [[Tsurumi Island]], [[Inazuma]]
+|ability1 = Invincibility Frames
+|ability2 = Fury
+|ability3 = Corrosion
+|ability4 = Teleport
+}}
+{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by "Gold."<br />They do display certain biological behaviors similar to those of real wolves. Perhaps they feel jealousy towards these their "next of kin," and dream of replacing them someday.|[[Archive]]}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Rifthounds}}
+
+==Stats==
+{{Enemy Stats
+|res_title = State
+|hp_ratio  = 7
+|hp_type   = 2
+|atk_ratio = 3.2
+
+|res1        = Normal
+|resglobal   = 25%
+
+|res2         = Elemental Devourer
+|resglobal2   = 25%
+|geo_res2     = -40%
+}}
+
+==Abilities and Attacks==
+*'''Corrosion:''' All of the Rockfond Rifthound's attacks apply [[Corrosion]] on hit.
+*'''Bite:''' Backs away and readies itself to lunge at the player and bite, dealing '''90% ATK''' as {{Color|Geo DMG}}.
+*'''Double Swipe:''' Swipes at the player twice with its claws, dealing '''85% ATK''' as {{Color|Geo DMG}} with each swipe.
+*'''Rock Spit:''' If the player is far away, the Rifthound generates a rock in its mouth before launching it towards the player, dealing '''95% ATK''' {{Color|Geo DMG}}.
+*'''Tail Swipe:''' Teleports behind the player and swipes with its tail, dealing '''100% ATK''' as {{Color|Geo DMG}}.
+*'''Elemental Devourer:''' Gains '''20%''' [[Fury]] whenever it takes {{Color|Geo DMG}}. When full, the Rifthound gains enhanced attacks at the cost of lower {{Color|Geo [[Resistance|RES]]}}.
+*'''Charge:''' Quickly lunges at the player three times, dealing '''85% ATK''' as {{Color|Geo DMG}}. This attack is only performed while the Rifthound is in the Elemental Devour state.
+*'''Roar:''' When there are Rifthound Whelps nearby, roars to increase the Rifthound Whelps' [[ATK]] by '''25%''' for 10 seconds.
+
+===Preview===
+{{Preview
+|size=185px
+|file1    = Geo Rifthound Bite
+|caption1 = Bite
+
+|file2    = Geo Rifthound Double Swipe
+|caption2 = Double Swipe
+
+|file3    = Geo Rifthound Rock Spit
+|caption3 = Rock Spit
+
+|file4    = Geo Rifthound Tail Swipe
+|caption4 = Tail Swipe
+
+|file5    = Geo Rifthound Elemental Devour
+|caption5 = Elemental Devour
+
+|file6    = Geo Rifthound Charge
+|caption6 = Charge
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet all of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+
+{| class="wikitable"
+! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Initial CD (s)
+|-
+| rowspan="6" | Normal || Bite || 1–7.5 || 3 || 9.5–11.5 || &mdash;
+|-
+| Double Swipe || 0–4.5 || 3 || 10.5–11.5 || &mdash;
+|-
+| Rock Spit || 7.5–22.5 || 3 || 12.5–15.5 || 20
+|-
+| Tail Swipe (Close) || 0–7.5 || 4 || 18.5–22.5 || 2–7
+|-
+| Tail Swipe (Medium) || 7.5–15.5 || 2 || 14.5–18.5 || 2–7
+|-
+| Tail Swipe (Far) || 15.5–25.5 || 3 || 8.5–12.5 || 2–5
+|-
+| rowspan="7" | Elemental Devourer || Bite || 1–7.5 || 4 || 7.5–9.5 || &mdash;
+|-
+| Double Swipe || 0–4.5 || 4 || 7.5–8.5 || &mdash;
+|-
+| Rock Spit || 7.5–22.5 || 2 || 10–13 || 5
+|-
+| Tail Swipe (Close) || 0–7.5 || 4 || 16.5–20.5 || 2–7
+|-
+| Tail Swipe (Medium) || 7.5–15.5 || 2 || 12.5–16.5 || 2–7
+|-
+| Tail Swipe (Far) || 15.5–25.5 || 3 || 8.5–12.5 || 2–5
+|-
+| Charge || 5–10.5 || 2 || 15–18 || &mdash;
+|}
+
+==Achievements==
+{{Achievement Topic Table|topic=Rifthounds}}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Rockfond Rifthound Icon.png|Icon
+Rockfond Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
+</gallery>
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/FQRhAgxbBvo
+|caption2 = Farm Guide
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Rockfond Rifthound
+|zhs     = 嗜岩・兽境猎犬
+|zhs_rm  = Shìyán - Shòujìng Lièquǎn
+|zht     = 嗜岩・獸境獵犬
+|zht_rm  = Shìyán - Shòujìng Lièquǎn
+|zh_tl   = Rock-Fond - Beast-Realm Hound
+|ja      = {{Rubi|獣|じゅう|域|いき}}ハウンド・{{Rubi|岩|いわ}}
+|ja_rm   = Juuiki Haundo - Iwa<ref>YouTube: [https://youtu.be/uw-b54nYqi8 【原神】Ver.2.2「霧の海と謎の秘境」予告番組inTGS2021]</ref>
+|ja_tl   = Beast-Realm Hound - Geo
+|ko      = {{tt|기암|嗜岩}}・수계(獸界) 사냥개
+|ko_rm   = Gi'am - Sugye Sa'nyanggae
+|ko_tl   = Rock-Fond - Beast-Realm Hunting Dog
+|es      = Sabueso Acechador Lítico
+|es_tl   = Lithic Lurker Scenthound
+|fr      = Limier de faille géophile
+|fr_tl   = Geophilic Rift Bloodhound
+|ru      = Гончая Разрыва: Камнегрыз
+|ru_tl   = 
+|th      = Rockfond - Rifthound
+|vi      = {{tt|Thể|體}} {{tt|Nham|岩}} - Chó Săn {{tt|Ma Vật|魔物}}
+|vi_tl   = Rock Form - Beast Hunting Dog
+|de      = Felsenfressender Garm
+|de_tl   = Rock-Devouring {{w|Garmr}}
+|id      = Rockfond Rifthound
+|pt      = Cão da Fenda - Geofito
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|2.2}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Enemy Navbox|type=elite}}
+
+[[pt-br:Cão da Fenda - Geofito]]

@@ -1,0 +1,113 @@
+{{Enemy Infobox
+|image    = Enemy Anemo Specter.png
+|type     = Common Enemies
+|element  = Anemo
+|family   = Elemental Lifeforms
+|group    = Specters
+|location = [[Seirai Island]], [[Inazuma]]<br />[[Watatsumi Island]], Inazuma
+|ability1 = Vacuum Field
+|ability2 = Fury
+}}
+{{Description|A monster birthed from a high concentration of Anemo that can float in the air.<br />As reason might dictate, monsters made from coalesced Anemo already come equipped with the ability to float. As such, their petal-like wings are most likely to be a mimetic organ first and foremost.|[[Archive]]}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Specters}}
+
+==Stats==
+{{Enemy Stats
+|anemo_res = Immune
+|hp_ratio  = 1.6
+|hp_type   = 2
+|atk_ratio = 1.4
+|atk_type  = 2
+}}
+
+==Abilities and Attacks==
+*'''Fury:''' Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
+* '''Wind Blast:''' Shoots two consecutive homing wind bolts that each deals '''100% ATK''' as {{Color|Anemo DMG}}. If at max Fury, instead shoots three non-homing bolts in a spread pattern, each dealing '''125% ATK''' as {{Color|Anemo DMG}} and becomes its only attack.
+* '''Puff Blow:''' Spins, puffs up, then releases a {{not a typo|swirl}} of wind dealing '''125% ATK''' as {{Color|[[AoE]] Anemo DMG}}.
+* '''Final Burst:''' Explodes after a short pause when defeated dealing '''125% ATK''' as {{Color|AoE Anemo DMG}}. If at max Fury, DMG is increased to '''150% ATK''', and leaves behind a [[Vacuum Field]] for 10 seconds that sucks in players and items while dealing '''50% ATK''' as {{Color|Anemo DoT}}.
+
+===Preview===
+{{Preview
+|size=185px
+|file1=Anemo Specter Wind Blast
+|caption1=Wind Blast
+
+|file2=Anemo Specter Wind Blast Fury
+|caption2=Wind Blast (Max Fury)
+
+|file3=Anemo Specter Puff Blow
+|caption3=Puff Blow
+
+|file4=Anemo Specter Final Burst
+|caption4=Final Burst
+
+|file5=Anemo Specter Final Burst Fury
+|caption5=Final Burst (Max Fury)
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet all of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+{| class="wikitable"
+! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Action Interval (s)
+|-
+| rowspan="2" | Normal || Wind Blast || 5.5–22 || 2 || 5–7.5 || rowspan="3" | 3.5
+|-
+| Puff Blow || 0–3.5 || 2 || 5
+|-
+| Max Fury || Wind Blast || 0–9.5 || — || 3
+|}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Anemo Specter Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Anemo Specter
+|zhs     = 风飘浮灵
+|zhs_rm  = Fēng Piāofú-líng
+|zht     = 風飄浮靈
+|zht_rm  = Fēng Piāofú-líng
+|zh_tl   = {{Lex|Anemo|zh}} {{Lex|Specter|zh}}
+|ja      = 風フライム
+|ja_rm   = Kaze Furaimu{{Assumed}}
+|ja_tl   = {{Lex|Anemo|ja}} {{Lex|Specter|ja}}
+|ko      = 떠도는 바람의 {{tt|정령|精靈}}
+|ko_rm   = Tteodoneun Baram-ui Jeongryeong
+|ko_tl   = {{Lex|Anemo|ko}} {{Lex|Specter|ko}}
+|es      = Espectro Anemo
+|es_tl   = Anemo Specter
+|fr      = Spectre Anémo
+|fr_tl   = Anemo Specter
+|ru      = Анемо призрак
+|ru_tl   = Anemo Specter
+|th      = Anemo Specter
+|vi      = Bóng Ma - Phong
+|vi_tl   = Specter - {{Lex|Anemo|vi}}
+|de      = Anemo-Gespenst
+|de_tl   = Anemo Specter
+|id      = Anemo Specter
+|pt      = Espectro Anemo
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|2.1}}
+
+==Navigation==
+{{Enemy Navbox|common}}
+
+[[es:Espectro Anemo]]
+[[pt-br:Espectro Anemo]]

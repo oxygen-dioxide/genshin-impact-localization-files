@@ -1,0 +1,115 @@
+{{Enemy Infobox
+|image    = Enemy Ruin Cruiser.png
+|type     = Elite Enemies
+|family   = Automatons
+|group    = Ruin Sentinels
+|location = [[Inazuma]]
+|ability1 = Invincibility Frames
+}}
+{{Description|Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.<br />Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common [[Ruin Guard]]s, their design has greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seem to have come from honeybee colonies, rendering it able to change forms and to attack from different directions.|[[Archive]]}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Ruin Sentinels}}
+
+==Stats==
+{{Enemy Stats
+|phys_res     = 30%
+|hp_ratio     = 3
+|hp_type      = 2
+|atk_ratio    = 4.2
+}}
+
+==Abilities and Attacks==
+''Names of attacks are unofficial''
+* '''Tri-Shot Blast:''' The three orbitals each charge an orb that is then shot from the main head, dealing '''100% ATK''' as {{Color|Black|Physical DMG}} on hit. The core is exposed during this attack.
+
+* '''Stinger Shot:''' Using the three orbitals as a scope, the main head fires a long and slender stinger that deals '''70% ATK''' as {{Color|Black|Physical DMG}} on hit. While charging, it will protect its core.
+
+* '''Orb Lay:''' By withdrawing its three orbitals and diverting all power to the head, it pushes itself back while also laying an energized orb. This attack is performed when the player is close to the Ruin Cruiser. The orb stays on the field for some time and deals '''30% ATK''' as {{Color|Black|Physical DMG}} to players that come in contact. It exposes its core during the charging of the orb.
+
+* '''Stinger Bombardment:''' Mimicking the shape of a flower, the Ruin Cruiser fires multiple stingers into the air before they all bombard the area in front of it four times, dealing '''40% ATK''' as {{Color|Black|AoE Physical DMG}} over a large area. While charging, its core is exposed. When firing, its core is protected.
+
+* '''Deactivated:''' When the weak spot of the main head is hit twice while it is exposed, the Ruin Cruiser deactivates for a short time where it does not attack back.
+
+===Preview===
+{{Preview
+|size=185px
+|file1    = Ruin Cruiser Tri-Shot Blast
+|caption1 = Tri-Shot Blast
+
+|file2    = Ruin Cruiser Stinger Shot
+|caption2 = Stinger Shot
+
+|file3    = Ruin Cruiser Orb Lay
+|caption3 = Orb Lay
+
+|file4    = Ruin Cruiser Stinger Bombardment
+|caption4 = Stinger Bombardment
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet both of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+* If multiple abilities meet both conditions, one will be chosen at random.
+* Global CD is shared with all nearby [[Ruin Sentinels]].
+
+{| class="wikitable"
+! rowspan="2" | Ability !! rowspan="2" | Range Req. (m) !! rowspan="2" style="width:80px" | CD (s) !! rowspan="2" | Initial CD (s) !! colspan="2" | Global CD !! rowspan="2" | Action Interval (s) !! rowspan="2" | Triggers Act. Int.
+|-
+! Group !! CD (s)
+|-
+| Stinger Shot || 0–35 || 5 || 5 || Ruin Sentinel Ranged || 5 || rowspan="4" | 2 || {{check|yes}}
+|-
+| Tri-Shot Blast || 0–35 || 12–24 || &mdash; || Ruin Sentinel Ranged || 5 || {{check|yes}}
+|-
+| Stinger Bombardment || 0–40 || 20–40 || &mdash; || Ruin Sentinel Ranged || 5 || {{check|no}}
+|-
+| Orb Lay || 0–4 || 15–30 || &mdash; || Ruin Sentinel Melee || 8 || {{check|no}}
+|}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Ruin Cruiser Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Ruin Cruiser
+|zhs     = 遗迹巡弋者
+|zhs_rm  = Yíjī Xúnyì-zhě
+|zht     = 遺蹟巡弋者
+|zht_rm  = Yíjī Xúnyì-zhě
+|zh_tl   = Ruin Patroller
+|ja      = 遺跡巡視者
+|ja_rm   = Iseki Junshisha{{Assumed}}
+|ja_tl   = Ruin Patrol Inspector
+|ko      = 유적 순찰자
+|ko_rm   = Yujeok Sunchalja
+|ko_tl   = Ruin Patroller
+|es      = Patrullero de las Ruinas
+|es_tl   = Ruin Patroller
+|fr      = Patrouilleur des ruines
+|fr_tl   = Ruin Patroller
+|ru      = Руинный патрульный
+|ru_tl   = 
+|th      = Ruin Cruiser
+|vi      = Tuần Tra Di Tích
+|vi_tl   = Ruin Patroller
+|de      = Ruinenkreuzer
+|de_tl   = Ruin Cruiser
+|id      = Ruin Cruiser
+|pt      = Patrulhador das Ruínas
+|pt_tl   = Patroller of the Ruins
+}}
+
+==Change History==
+{{Change History|2.0}}
+
+==Navigation==
+{{Enemy Navbox|type=elite}}
+
+[[es:Patrullero de las Ruinas]]
+[[pt-br:Patrulhador das Ruínas]]

@@ -1,0 +1,450 @@
+{{Terminology Infobox
+|type         = Game Systems
+}}
+'''Errors''' occur in ''[[Genshin Impact]]'' when an action or operation does not complete or is executed incorrectly, if an illegal action or operation is attempted or if something in the game's status is incorrect or different from what is expected. Errors can be caused by a variety of different reasons, such as invalid actions, network issues, cheats/hacks, exploits, bugs, technical issues, and the like.
+
+==Types==
+There are three types of errors that can occur in ''Genshin Impact'': overlay message errors, dialog errors, and critical errors.
+
+Overlay message errors are delivered to the player in the form of either white text that appears on the top half of the screen that disappears after a short period of time or white text in a dark gray box in the middle of the screen that disappears after a short period of time and can be dismissed earlier by clicking anywhere, causing almost no impact on gameplay.
+
+Dialog errors open up a dialog box in the middle of the screen that requires the user to click a button to perform an action that is required to solve the error or to close the dialog box to continue.
+
+Critical errors will quit the game with the error message.
+
+==Overlay Message Errors==
+{|class="article-table sortable"
+!Error!!Description
+|-
+|Controller connection error, please reconnect your controller, or restart the game to exit controller control scheme.
+|Occurs when the player's controller disconnects, either by loss of battery power or by unplugging the controller. The message will persist until the controller is reconnected successfully.
+|-
+|Wish schedule inconsistent
+|Occurs when the player attempts to [[Wish]] on a limited-time banner that has already ended. Banners do not automatically disappear from a player's screen after their duration ends if the player is currently on the respective banner's screen; they will disappear after the player closes out of the Wish screen and opens it again.
+|-
+|Waypoint unlocked''<!-- Does this mean that there's also an error if you attempt to reactivate a Statue of the Seven, the Frostbearing Tree or even the Skyfrost Nail? -->
+|Occurs when the player attempts to reunlock a [[Teleport Waypoint]] that has already been unlocked. Normally this is impossible, however due to things like network latency or network errors, the player may be able to attempt to reunlock a Teleport Waypoint that has already been unlocked. This is different from the ''Teleport Waypoint unlocked'' message; when a waypoint is unlocked for the first time, it will show a ''Teleport Waypoint unlocked'' message, while when the player attempts to reunlock an already unlocked Teleport Waypoint, ''Waypoint unlocked'' will show.
+|-
+|Cannot discard item
+|Occurs when the player attempts to discard an item that is not discardable, such as [[Stone of Remembrance|Stones of Remembrance]], [[Slime-Swallowed Calla Lily|Slime-Swallowed Calla Lilies]], [[Everlasting Incense]]s, which are [[:Category:Quest Items|Quest Items]].
+|-
+|Invalid item amount to use
+|Occurs when the player attempts to use an illegal or uninterpretable amount of an item, use a larger amount of an item than what the player owns, a negative amount of items, etc.
+|-
+|Recipe does not exist
+|Occurs when the player attempts to cook a [[Cooking]] recipe that does not exist.
+|-
+|Max proficiency not reached. Cannot auto-cook.
+|Occurs when the player attempts to execute an auto-cook operation on a recipe for which they have not reached maximum proficiency required to unlock auto-cook on.
+|-
+|This Mechanicus cannot be rotated
+|Occurs when the player attempts to rotate a [[Theater Mechanicus#Mechanici|Mechanicus]] that is not a Veneficus Mechanicus: Dust Devil. Normally, only Veneficus Mechanicus: Dust Devil can be rotated, however if a rotate operation is erroneously sent to another Mechanicus, this error will occur.
+|-
+|Entity has timed out and disappeared
+|Occurs when the player attempts to interact with something that can no longer be interacted with, most of the time due to already having interacted with it, such as [[Firefly|fireflies]], [[chests]], [[Crystalflies]], and [[butterflies]].
+|-
+|Character-switching in cooldown
+|Occurs when the player attempts to switch character while the 1 second [[cooldown]] between switching characters is in effect.
+|-
+|Cannot switch character while aiming<!-- These error messages could probably get merged (e.g. Cannot switch character while climbing/jumping/swimming/gliding) -->
+|Occurs when the player attempts to switch character while [[Bows#Charged Attacks|aiming]].
+|-
+|Cannot switch character while climbing
+|Occurs when the player attempts to switch character while [[climbing]].
+|-
+|Cannot switch character while gliding
+|Occurs when the player attempts to switch character while [[gliding]] or while performing a Plunging Attack.
+|-
+|Cannot switch character while jumping
+|Occurs when the player attempts to switch character while [[jumping]] or during the frames of [[Keqing]]'s [[Elemental Skill]], [[Stellar Restoration]], when it is used twice in a row (the first time to hurl the Lightning Stiletto and the second time to blink to its location and unleash a slashing attack) where she is unleashing a slashing attack. The game counts falling as a result of jumping as jumping (e.g. attempting to switch character while falling after dashing then jumping off a cliff).
+|-
+|Cannot switch character while swimming
+|Occurs when the player attempts to switch character while [[swimming]].
+|-
+|Cannot switch character now
+|Occurs when the player attempts to switch character while falling normally (see ''Cannot switch character while jumping'' and ''Cannot switch to target character'' sections), while landing after falling (normally this is indistinguishable from simply falling, however due to the complications from falling because of an Elemental Skill, they are different; see ''Cannot switch character while jumping'' and ''Cannot switch to target character'' sections) or after performing a Plunging Attack, while their active character is in the final frames of the climbing animation (the ones where their active character hoists themselves up onto something), while the player is in a [[Spiral Abyss]] chamber before actually starting the battle or while there is an animation playing for an [[Elemental Skill]]. This is especially noticeable when the player attempts to switch character while holding an [[Elemental Skill]] that can be held, such as two of the [[Traveler]]'s [[Elemental Skill]]s, [[Palm Vortex]] and [[Starfell Sword]].<!-- There are probably other things that can make this error occur. If you find any more, please add them. -->
+|-
+|Cannot switch to target character
+|Occurs when the player attempts to switch character while falling due to an [[Elemental Skill]] (for example, if the player uses [[Albedo]]'s [[Elemental Skill]], [[Abiogenesis: Solar Isotoma]], to create a Solar Isotoma and then stands at the locus of the Solar Isotoma, a crystallized platform will form, lifting the player up. If the player then reuses [[Abiogenesis: Solar Isotoma]] to create a Solar Isotoma at a different location, the player will fall, and attempting to switch character while doing so will cause this error to occur. Similarly, using [[Keqing]]'s [[Elemental Skill]], [[Stellar Restoration]] to blink upwards and then attempting to switch character while falling, and therefore after performing the slashing attack; see ''Cannot switch character while jumping'' section, will cause this error to occur), when the player's active character is clipped inside something, such as a wall, or when switching would cause the player to clip inside something (for example, if the roof of a building is just high enough that a short character, such as [[Diona]], can fit under it, but a tall one, such as [[Diluc]], cannot, attempting to switch character from [[Diona]] to [[Diluc]] would cause this error to occur. This last scenario will also cause this error to occur if done in the Party Setup menu.)<!-- There are probably other actions that trigger this error message -->
+|-
+|Target abnormal
+|Occurs when the player attempts to switch characters while their current character is [[stun]]ned, which can be triggered by the [[Frozen]] Elemental Reaction, Hydro bubbles, or [[Magatsu Mitake Narukami no Mikoto]]'s "The Final Calamity" attack.
+|-
+|Cannot take a picture in the current state
+|Occurs when the player attempts to enter [[Photo Mode]] while climbing, gliding, jumping, swimming, performing a Plunging Attack, or in combat.
+|-
+|Character is down
+|Occurs when the player attempts to perform an action such as teleporting or switching characters while the currently deployed character has fallen.
+|-
+|Character is too full and cannot manage another bite...
+|Occurs when the player attempts to feed a character a [[Recovery Dish]] ([[food]] that restores [[Attributes#Health|HP]]) while that character is in the [[Food#Full State|Full State]] (due to having consumed too many Recovery Dishes and thus having maxed out their Fullness Gauge).
+|-
+|Character not owned, could not complete
+|Occurs when trying to use the follow function on a [[Character Trials|Trial Character]] within the Character Selection menu.
+|-
+|Domain not yet available
+|Occurs when the player attempts to view the [[Domain]] source of [[Talent Level-Up Materials]] or [[Weapon Ascension Materials]] from the [[Inventory]] or [[Character]] menus that are not available on the current day.
+|-
+|The door of the domain is closed. Only those with Adventure Rank of {AR Level} or above can enter the domain...
+|Occurs when the player attempts to unlock a domain that cannot be unlocked by players with an [[Adventure Rank]] lower than the specified level. The dialogue option that appears when the player is near the domain will read "Locked" instead of the domain's name.
+|-
+|Cannot configure party in current state
+|Occurs when the player attempts to enter the [[Party]] Setup menu while climbing, [[gliding]], jumping, swimming, falling, performing a Plunging Attack, in combat or while they are clipped inside something, such as a wall.
+|-
+|Object can only be used on a fallen character
+|Occurs when the player attempts to use a Revival type [[Recovery Dish]] via the [[Inventory]] on a non-fallen character.
+|-
+|No characters in party are down
+|Occurs when the player attempts to use a Revival type [[Recovery Dish]] via the [[NRE (Menu 30)]] while there are no fallen characters in the player's party. This can only happen when there is no [[Attributes#Health|HP]] recovery type [[Recovery Dish]] in the [[NRE (Menu 30)]]'s slot for that type of [[food]].
+|-
+|Cannot use revival items on deployed characters
+|Occurs when the player attempts to use a Revival type [[Recovery Dish]] via the [[NRE (Menu 30)]] while the player's active character is in the few frames of the animation after their [[Attributes#Health|HP]] reaches 0 where they appear to fall towards the ground before seemingly transforming into blue dust and then switching to another character.<!-- Further testing required -->
+|-
+|Maximum HP or Fullness reached
+|Occurs when the player attempts to use a [[Attributes|HP]] recovery type [[Recovery Dish]] via the [[NRE (Menu 30)]] while all of the player's characters in their party's [[Attributes#Health|HP]] is at the maximum or while all of them are in the [[Food#Full State|Full State]].
+|-
+|Light a fire first. (Pyro skills can be used to light fires)
+|Occurs when the player attempts to interact with (in order to [[Cooking|cook]]) a campfire or a stove that has been extinguished.
+|-
+|The Mechanicus is currently being rotated. Please try again later.
+|Occurs when the player attempts to rotate a Veneficus Mechanicus: Dust Devil that is being rotated.
+|-
+|Maximum amount of Veneficus Sigils has been reached
+|Occurs when the player gains more Veneficus Sigils than the amount they are allowed to have. This maximum amount depends on the stage of [[Theater Mechanicus]] that the player has reached: at stage 1, the maximum amount is 900, at stage 2, that amount is increased to 1050, at stage 3, it is 1200, at stage 4, 1350, at stage 5, 1500 and at stage 6, it is 2000.
+|-
+|Not yet constructed, unable to reconstruct
+|Occurs when the player attempts to reconstruct a Mechanicus in [[Theater Mechanicus]] while the Mechanicus that the player is attempting to reconstruct in question does not exist, due to a bug or if the Mechanicus was somehow destroyed between the moment when it was selected and the moment the player attempted to reconstruct it (for example, if the player constructs a Mine, selects it, waits for it to self-destruct after coming into contact with an opponent and then attempts to reconstruct it, this error will occur).
+|-
+|Insufficient Veneficus Points
+|Occurs when the player attempts to construct a Mechanicus in [[Theater Mechanicus]] while not having enough Veneficus Points to do so.
+|-
+|This character cannot be dispatched on expeditions
+|Occurs when the player attempts to dispatch a character already on an [[Expedition]].<!--Occurs when the player attempts to dispatch the [[Traveler]] on an [[Expedition]].-->
+|-
+|Fallen characters cannot be dispatched on expeditions
+|Occurs when the player attempts to dispatch a fallen character on an [[Expedition]].
+|-
+|Item in cooldown
+|Occurs when the player attempts to use an item that has a cooldown period while that cooldown period is in effect, such items include [[Parametric Transformer]]s, Revival type [[Recovery Dish]]es, [[Adepti Seeker's Stove]]s, etc.
+|-
+|Cannot use during combat
+|Occurs when the player attempts to use an item that cannot be used during combat while in combat, such as [[Parametric Transformer]]s, [[Wind Catcher]]s and [[Adepti Seeker's Stove]]s.
+|-
+|This action cannot be performed during combat
+|Occurs when the player attempts to perform an action that cannot be performed during combat (that is not using an item, since that would cause another error to occur; see ''Cannot use during combat'') while in combat, such as attempting to interact with an [[NPC]].
+|-
+|This player's Serenitea Pot has not yet been unlocked
+|Occurs when the player requests to visit a friend's [[Serenitea Pot]] prior to the friend obtaining the gadget.
+|-
+|Unable to enter this player's Serenitea Pot as they are currently placing furnishings...
+|Occurs when the player requests to visit a friend's [[Serenitea Pot]] while they are either placing a furnishing or the game is saving their changes.
+|-
+|The Serenitea Pot's host is currently offline
+|Occurs when the player requests to visit a friend's [[Serenitea Pot]] while they are offline.
+|-
+|You have reached your furnishing placement limit. Please remove some furnishing first.
+|Occurs when the player attempts to place a furnishing in [[Serenitea Pot]] but has reached the placement limit.
+|-
+|This function is currently undergoing maintenance. Please try again later.
+|Occurs when the player attempts to enter the [[Serenitea Pot]]'s placement menu while it is undergoing maintenance.
+|-
+|You cannot use gadgets in this special area
+|Occurs when the player attempts to place [[gadgets]] while in the [[Serenitea Pot]], such as [[Parametric Transformer]] and [[Windblume Festival Commemorative Balloon]].
+|-
+|Game stopped, this round has ended
+|Occurs when ending a game started by the device [[Leisure Device: On the Pulse]] in the [[Serenitea Pot]]
+|-
+|Item does not exist: Inventory too fast.
+|Occurs when the player presses the "Use" button in the [[Inventory]] for [[Precious Items]] too quickly.
+|-
+|Index error encountered during construction: Claim too Fast
+|Occurs when the player presses the "Claim" button in the [[Furnishing]] creation screen too quickly.
+|-
+|Unable to enter placement interface in the current state
+|Occurs when the player attempts to enter the placement menu in the [[Serenitea Pot]] while sprinting, jumping, swimming, climbing, or sitting.
+|-
+|Unable to enter placement interface while you are receiving guests in the Serenitea Pot
+|Occurs when the player attempts to enter the placement menu in the Serenitea Pot while a guest ([[Co-Op Mode]]) is present.
+|-
+|Unable to enter the Serenitea Pot while within a Domain
+|Occurs when the player attempts to teleport to the Serenitea Pot while in a Domain
+|-
+|This item can only be used on a specific vehicle
+|Occurs when the player attempts to use the [[Waverider Repair Toolbox]] when not driving the [[Waverider]].
+|-
+|There is no water to launch your Waverider nearby...
+|Occurs when the player attempts to use a [[Waverider Waypoint]] when there is no water nearby. The Waverider Waypoint will glow red, even if it was activated before.
+|-
+|Board your Waverider to initiate this challenge
+|Occurs when the player attempts to start a challenge that requires a Waverider. Note that some challenges that require traversal over or through water do not require a Waverider.
+|-
+|You do not have any companions settled in at the moment, unable to obtain Companionship EXP<!--framed-->
+|Occurs when the player attempts to claim Realm Bounty for [[Companionship EXP]] in the [[Serenitea Pot]] while no companions are placed.
+|-
+|{Character Name}'s Companionship EXP has reached maximum
+|Occurs when the player claims Realm Bounty for [[Companionship EXP]] in the [[Serenitea Pot]] and a character reaches [[Friendship Level]] 10.
+|-
+|Priority quest. Must complete before teleporting!
+|Occurs when the player attempts to teleport while a priority quest is underway.
+|-
+|Priority quest. Please complete the current challenge first!
+|Occurs when the player attempts to talk with an NPC or interact with an item while a priority quest is underway.
+|-
+|Priority quest. Must complete before leaving!
+|Occurs when the player attempts to enter a Domain while a priority quest is underway.
+|-
+|The following quest needs to be completed before entering another player's world: {Quest Name}
+|Occurs when the player attempts to access [[Co-Op Mode]] during certain quests.
+|-
+|Teammates not ready
+|Occurs in the character selection screen in Co-Op while challenging a domain when the host of the world attempts to start the domain while one or more teammates are not in the Ready status.
+|-
+|Unable to view artifacts at this time
+|Occurs when the player attempts to view the artifacts of a trial character during a domain or quest.
+|-
+|Teleport currently disabled
+|Occurs when the player attempts to teleport to any location while the automatically opened map from activating a new Statue of the Seven is being displayed.
+|-
+|Congratulations! You have reached the max BP level
+|Occurs when the player attempts to claim [[Battle Pass EXP]] in the [[Battle Pass]] menu after you have already reached BP Level 50. The BEP from Daily and Weekly Missions still adds to the Weekly EXP Limit. Using the "Claim All" button does not trigger the error.
+|-
+|Cannot converse while aiming
+|Occurs when the player attempts to talk to an NPC to interact with an item while in Aiming Mode
+|-
+|Pin name too long
+|Occurs when the player attempts to add a name to a pin which contains over 100 characters.
+|-
+|Pin name contains invalid characters
+|Occurs when the player attempts to add a name to a pin which contains blacklisted words.
+|-
+|Name contains invalid characters
+|Occurs when the player attempts to add a name to a friend which contains blacklisted words.
+|-
+|Name cannot contain spaces<!--framed overlay message-->
+|Occurs when the player attempts to add a name to a friend which contains spaces.
+|-
+|UID does not exist
+|Occurs when the player attempts to search a UID which does not exist.
+|-
+|Please enter another player's UID<!--framed overlay message-->
+|Occurs when the player attempts to search their own UID.
+|-
+|Cannot deploy here
+|Occurs when the player attempts to deploy items such as the [[Serenitea Pot]] or the [[Parametric Transformer]] in an obstructed location.
+|-
+|Cannot equip during combat
+|Occurs when the player attempts to equip or switch weapons or artifacts during combat.
+|-
+|No consumables found<!--framed-->
+|Occurs when the player attempts to Auto Add Enhancement Materials for artifacts or weapons when there are no materials which match the selected criteria.
+|-
+|Select EXP materials<!--framed-->
+|Occurs when the player attempts to enhance artifacts or weapons without selecting any materials.
+|-
+|Slots full<!--framed-->
+|Occurs when the player attempts to select materials for enhancing artifacts or weapons when all slots have already been filled.
+|-
+|Max EXP reached. Cannot add.<!--framed-->
+|Occurs when the player attempts to select materials for enhancing artifacts or weapons after the selected materials are sufficient to raise the artifact or weapon to its maximum level.
+|-
+|Forging queue full<!--framed-->
+|Occurs when the player attempts to forge while the forging queue is full.
+|-
+|Cannot forge any more Enhancement Ore today. Please wait till tomorrow.<!--framed-->
+|Occurs when the player attempts to forge Enhancement Ore after reaching the 300,000 Weapon Experience cap.
+|-
+|Cannot forge any more Fine Enhancement Ore today.<!--framed-->
+|Occurs when the player attempts to forge [[Fine Enhancement Ore]] after reaching the 300,000 [[Weapon Experience]] cap.
+|-
+|Cannot forge any more Mystic Enhancement Ore today.<!--framed-->
+|Occurs when the player attempts to forge [[Mystic Enhancement Ore]] after reaching the 300,000 Weapon Experience cap.
+|-
+|This character cannot {action}<!--framed-->
+|Occurs when the player attempts to perform an action with a character unable to perform that action (like attempting to cook with the [[Raiden Shogun]]).
+|-
+|Party must have at least one member
+|Occurs when the player attempts to remove the only party member from the deployed party.
+|-
+|Unable to equip character with outfit in present state
+|Occurs when the player attempts to switch [[Character Outfits]] while climbing, gliding, jumping, swimming, performing a Plunging Attack, in a Domain or in combat.
+|-
+|Workstation option does not exist
+|Occurs when the player attempts to interact with something via an interaction option that does not exist or has been disabled, such as a [[Bloatty Floatty]]'s "Investigate" option after it has been activated by an attack.
+|-
+|Can only be used in own world
+|Occurs when attempting to start a character trial event or claim its rewards while inside a [[Serenitea Pot]].
+|-
+|Visiting the world of others, cannot use Realm Waypoint
+|Occurs when a player is inside a friend's Serenitea Pot and attempts to use the [[Sub-Space Waypoint]] to go back into their own Serenitea Pot.
+|-
+|Requests too frequent
+|Rate limit error that occurs when performing actions too quickly such as when trying to claim a [[mail]] attachment that results in an error and then quickly trying to claim a different mail attachment.
+|-
+|Planted amount exceeds limit
+|Occurs when trying to select more seeds to plant than available fields.
+|-
+|Guests cannot modify the host's furnishings
+|Occurs when a guest tries to interact with an object in the Serenitea Pot that can be modified, such as the [[Flower Stand: Of Yore]] furnishing.
+|-
+|No space left in inventory for another Qingxin Seed. Please free up some space and try again.
+|Occurred when the player attempted to claim the rewards from the [[Birthday/Ganyu|Ganyu birthday mail (2021)]] while having the maximum amount of Qingxin Seed.
+|-
+|Quest goal is in {region}. Head there to continue the quest.<!--framed-->
+|Occurs when attempting to navigate to a location that is off the map.
+|-
+|The Shades of Tokoyo only show up during Evernight.<!--framed-->
+|Occurs when attempting to navigate to a Shade of Tokoyo during [[Whitenight]].
+|-
+|This target cannot be captured
+|Occurs when attempting to use [[Omni-Ubiquity Net]] to catch non-eligible living beings.
+|-
+|On CD. Access the Edit menu later<!--framed-->
+|Occurs when attempting to reopen the edit menu in the [[Serenitea Pot]] within 10 seconds of closing it.
+|-
+|Weekly treasure limit reached
+|Occurs when attempting to collect [[Trounce Blossom]] rewards from a [[Weekly Bosses|weekly boss]] after already reaching the reward limit for the current week.
+|-
+|This player has reached their friend limit
+|Occurs when trying to accept a friend request from a player who is at the maximum number of friends already.
+|-
+|Companion(s) with a gift for you not present in this area<!--framed-->
+|Occurs when clicking on the Companion Gifts notification in Serenitea Pot map when the companion is not on the same map region (companion is indoors when map is outdoors or vice versa).
+|-
+|No refinement materials selected<!--framed-->
+|Occurs when the player attempts to refine weapons without selecting any materials.
+|-
+|{Plant Seed} exceeds amount limit
+|Occurs when the player attempts to collect a seed with the [[Seed Dispensary]] when already carrying 20 of that type of seed.
+|-
+|All your mail attachments have already been claimed.<!--framed-->
+|Occurs when the player attempts to "Claim All" rewards in the [[Mailbox]] when there are no unclaimed rewards.
+|-
+|Criteria not met<!--framed-->
+|Occurs when clicking on "Claim Gift" or "Send Invitation" when requirements are not met. Such as [[Fleeting Colors in Flight#The Moon.27s Comely Brow|The Moon's Comely Brow]] or [[Hues of the Violet Garden#Friendship in Writing|Friendship in Writing]]
+|-
+|This equipment is locked. It must be unlocked in order to be used as material.<!--framed-->
+|Occurs when attempting to use locked weapons or artifacts as material.
+|-
+|Wish mismatch
+|<!--Not sure about criteria, but it may happen when wishing is attempted-->
+|-
+|Unable to use in Dragonspine<!--framed-->
+|Occurs when attempting to use [[Anemo Treasure Compass]] in [[Dragonspine]].
+|-
+|Cannot use in Domains
+|Occurs when attempting to use some [[Gadgets]] in [[Domains]].
+|-
+|You've already completed the max number of Bounties for this week<!--framed-->
+|Occurs when clicking on Accept Bounty after having already completed 3 [[Bounties]] for the current week.
+|-
+|You've already completed the max number of Requests for this week<!--framed-->
+|Occurs when clicking on Accept Quest after having already completed 3 [[Reputation#Weekly Requests|Requests]] for the current week.
+|-
+|Character details hidden<!--framed-->
+|Occurs when attempting to view a character's details in a player's Character Showcase that is set to private.
+|-
+|Complete the "[[Dragon Storm]]" quest to unlock outfits.<!--framed-->
+|Occurs when clicking on Dressing Room icon before it's unlocked.
+|-
+|Cannot currently adjust the time<!--framed-->
+|Occurs when attempting to adjust the time in another player's world during [[Co-Op Mode]].
+|-
+|Visiting the world of others, cannot use Realm Waypoint<!--framed-->
+|Occurs when attempting to use a Realm Waypoint to your own [[Serenitea Pot]] while in another player's world during [[Co-Op Mode]].
+|-
+|This item cannot be used here
+|Occurs when attempting to use items like [[Treasure Compass]]es in event regions like [[Golden Apple Archipelago]] or [[Three Realms Gateway Offering/Area|Three Realms Gateway Offering]].
+|-
+|Cannot use in current state
+|Occurs when attempting to use [[Bokuso Box]] outside of [[Three Realms Gateway Offering]].
+|-
+|Hideo got too far away. Try sticking a bit closer.
+|Occurs when the distance between the player and Hideo is too large while following him in [[The Truth Is Also a Lie]].
+|-
+|You are unable to use gadgets to take photos during this special quest. Use the "Take Photo" function to finish taking a picture.<!--framed-->
+|Occurs when attempting to Navigate during the photo-taking steps of the [[Irodori Poetry: Part I|Irodori Poetry]] quests.
+|-
+|Cannot do trial stage challenges in other player's worlds<!--framed-->
+|Occurs when attempting to try a Test Run in another player's world.
+|-
+|The target position has not been unlocked on your Map<!--framed-->
+|Occurs when attempting to navigate to an enemy location from the Adventurer Handbook that is in an undiscovered or inaccessible part of the map.
+|-
+|No Elemental Oculi in this area<!--framed-->
+|Occurs when attempt to use [[Oculus Resonance Stone]] gadgets while too far away from the elemental [[oculi]] type.
+|-
+|Equipped
+|Occurs when equipping a [[Gadget]] through the [[Inventory]].
+|-
+|The Commission Quest region has been changed to {region}. These changes will take effect on the next reset.
+|Occurs when changing the preferred region in the [[Adventurer Handbook]]'s [[Commissions]] tab.
+|-
+|Unable to return to Single-Player mode while inside the Serenitea Pot<!--framed-->
+|Occurs when trying to return to Single-Player in the [[Co-Op Mode]] menu while in the [[Serenitea Pot]].
+|-
+|This position seems unsuitable. Actor has been returned to their original position
+|Occurs when the player chooses the wrong raven actor during the [[Drama Phantasmagoria: Tale of the Sword-Wielding Princess!]] World Quest.
+|}
+<!--
+Error with red background and white text:
+Message too long - Displayed when the player attempts to type a message containing over 80 characters.
+Character limit exceeded - Displayed when the player attempts to add a name to a friend which contains over 10 characters.
+Already Owned - Displayed over Character Outfits that the player already owns.
+Obtained the maximum possible amount of Stella Fortuna - Displayed over Characters in Paimon's Bargains for which the player already has all possible Stella Fortuna.
+Unlocks after you purchase Mora - Displayed over the Mora ×10,000 costing 20 Masterless Stardust in Paimon's Bargains prior to purchasing all Mora ×10,000 costing 10 Masterless Stardust.
+-->
+
+==Dialog Errors==
+{|class="article-table sortable"
+!Error!!Description
+|-
+|Your game client is not up-to-date. Log in again and update the client before joining Co-Op Mode.
+|Occurs when the player attempts to join [[Co-Op Mode]] while there is an update available for the game which must be downloaded by logging back into the game before they can enter Co-Op Mode.
+|-
+|No space left in Inventory. Please free up some space and try again.
+|Occurs when the player attempts to pick up [[Weapons]] and [[Artifacts]] off the ground, or attempting to [[Wishes|wish]] when maximum [[Inventory]] capacity has been reached.
+|-
+|No space left in Artifact Inventory. Please free up some space and try again.
+|Occurs when the player attempts to pick up [[Artifacts]] off the ground or claim rewards from Domains of Blessing when maximum Artifact [[Inventory]] capacity has been reached.
+|-
+|No space left in Inventory for another Condensed Resin. Please free up some space and try again.
+|Occurs when the player attempts to craft [[Condensed Resin]] while already having the limit of 5 Condensed Resin in [[Inventory]].
+|-
+|Cannot purchase now
+|Occurs when the player attempts to purchase an item that is already sold out in a [[shop]].
+|}
+
+==Critical Errors==
+These errors will automatically quit the game or prevent you from logging in.
+{|class="article-table sortable"
+!Error!!Description
+|-
+|Network Error
+|The game is unable to connect to the miHoYo servers. This may be the result of maintenance or a bad Internet connection. Check your internet connection with other websites, then run the network troubleshooter for the platform you are using.
+|-
+| Go to official site or store to download latest game version
+| This error is produced if attempting to connect to Genshin Impact servers using an outdated client. Or, your authentication took too long to process. Try logging back in, if the error persists then reinstall the game from the launcher.
+|-
+| rowspan=4 | Warning
+|This message will show up if the game detected foul play (like cheating). The warning will give you information on your infraction. If you are banned, you will be unable to log in.
+|-
+|
+* If you are on a jailbroken or rooted device, you should remove your jailbreak or root to continue playing.
+* If you are using a console, ensure that the console does not have any modchips or custom code installed on it.
+* If you are using a PC, uninstall any programs used almost exclusively for cheating in-game (like AutoHotKey).
+|-
+|
+* Check your balance upon logging in. If you have a negative balance of Primogems or Genesis Crystals, then you owe money to miHoYo.
+* Verify that the charge was successful by contacting your bank. If the charge was not approved, then try making your purchase again.
+* Maintain up-to-date payment information on miHoYo's website or with Apple/Google/Sony, depending on registration platform. If your payment information is inaccurate, then you will be unable to be charged for any content in-game
+|-
+|
+* Review miHoYo's [https://www.hoyolab.com/article/88 community guidelines on HoYoLAB]. This governs your use of not just the forums but also in-game chat. Moderators will take action against accounts that violate these rules.
+* If your account was banned for having an inappropriate username, you are permitted to create another account with one that is appropriate.
+|}
+
+==Change History==
+{{Change History|1.0}}
+
+==Navigation==
+{{Game Systems Navbox|type=Other}}

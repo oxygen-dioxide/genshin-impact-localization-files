@@ -1,0 +1,117 @@
+{{Talent Infobox
+|image         = Talent Lightning Rose.png
+|character     = Lisa
+|type          = Elemental Burst
+|info          = Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing {{Color|Electro DMG}}.<br />The Lightning Rose will continuously emit lightning to knock back opponents and deal {{Color|Electro DMG}} throughout the ability's duration.
+|energyCost    = 80
+|attr1         = Discharge DMG
+|value1        = 36.6-77.7%
+|CD            = 20s
+|duration      = 15s
+|utility1      = AoE
+|utility2      = Knockback
+|scale_att1    = ATK
+}}
+{{Description|This rose is beautiful, but beware its mortal thorns.}}
+'''Lightning Rose''' is [[Lisa]]'s [[Elemental Burst]].
+
+==Gameplay Notes==
+* Lightning Rose has a weak initial hit on cast to enemies within a certain radius, and then arcs another 29 times before disappearing. This initial hit, although it is {{Color|Electro DMG}}, does not apply an Electro aura.
+** The summon DMG value is 10% ATK and unaffected by talent level.<ref name=":0">KeqingMains Theorycrafting Library: [https://library.keqingmains.com/evidence/characters/electro/lisa#lisas-initial-summon-dmg-numerical-formula-data Lisa's Initial Summon DMG Numerical/Formula Data]</ref>
+* {{TalentNote|icd|Discharge DMG}}
+* {{TalentNote|snapshot|The damage of Lightning Rose|character=Lisa|talent=Lightning Rose|snapshottime=upon the placement of Lightning Rose}}
+* {{TalentNote|ascension|2|Static Electricity Field|character=Lisa|talent=Lightning Rose}}
+** Does not get applied from the initial summon damage, only the discharges do.<ref name=":0" />
+
+;<big>Constellation Effects</big>
+* {{TalentNote|constellation|3|Resonant Thunder|character=Lisa|talent=Lightning Rose}}
+* {{TalentNote|constellation|4|Plasma Eruption|Increases the number of simultaneous lightning bolts released by Lightning Rose to a maximum of 3.|character=Lisa|talent=Lightning Rose}}
+** If there is only 1 enemy within the radius, Lightning Rose may only produce 1 discharge at a time to the enemy.
+** If there are only 2 enemies within the radius, Lightning Rose may produce 1 or 2 discharges in total at a time. For each instance, there is a ~17.5% chance for it to produce 1 discharge and a ~82.5% chance to produce 2 discharges.
+** If there are 3 or more enemies within the radius, Lightning Rose may produce 1, 2, or 3 discharges in total at a time. This scenario carries two sets of randomizations: One that randomizes between shooting 1 or 2 Discharges, following a 50% and 50% occurrence rate, and the other randomizing between 1, 2, and 3 Discharges, following a 25%, 50%, and 25% occurrence rate, respective to the number of Discharges.
+*** The first Arc released from a Lightning Rose will never release 3 Discharges, rather it will either release 1 or 2 Discharges, with a 50:50 rate.
+*** After the first Arc, following Arcs will follow either releasing 1 (25%), 2 (50%), or 3 Discharges (25%).
+*** However, if an Arc ever releases 3 Discharges, the subsequent Arc will release 1 or 2 Discharges, with the 50:50 ratio as described prior.
+*** Overall, the average distribution between all occurrences within 3 or 3+ Entities is around 30% of Arcs releasing 1 Discharge, 50% releasing 2 Discharges, and 20% releasing 3 Discharges.
+
+==Preview==
+{{Preview
+|file=Lightning Rose Preview
+}}
+{{clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Burst
+|levels=14
+|order=dischargedmg,duration,cd,energycost
+|titles=Discharge DMG (%),Duration,CD,Energy Cost
+|dischargedmg_1=36.56
+|dischargedmg_2=39.3
+|dischargedmg_3=42.04
+|dischargedmg_4=45.7
+|dischargedmg_5=48.44
+|dischargedmg_6=51.18
+|dischargedmg_7=54.84
+|dischargedmg_8=58.5
+|dischargedmg_9=62.15
+|dischargedmg_10=65.81
+|dischargedmg_11=69.46
+|dischargedmg_12=73.12
+|dischargedmg_13=77.69
+|dischargedmg_14=82.3
+|duration=15s
+|cd=20s
+|energycost=80
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Lisa}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Other Languages==
+{{Other Languages
+|en      = Lightning Rose
+|zhs     = 蔷薇的雷光
+|zhs_rm  = Qiángwēi de léi guāng
+|zht     = 薔薇的雷光
+|zht_rm  = Qiángwēi de léi guāng
+|zh_tl   = Lightning Rose
+|ja      = 薔薇の雷光
+|ja_rm   = Bara no Raikou
+|ja_tl   = Rose Lightning
+|ko      = 장미의 뇌광
+|ko_rm   = Jangmi-ui Noegwang
+|ko_tl   = Rose Lightning
+|es      = Rayo de la rosa
+|es_tl   = Ray of the Rose
+|fr      = Rose de foudre
+|fr_tl   = Lightning Rose
+|ru      = Громовая роза
+|ru_tl   = 
+|th      = Lightning Rose
+|vi      = Tường Vi Sấm Sét
+|vi_tl   = Lightning Rose
+|de      = Rosenblitz
+|de_tl   = Rose Lightning
+|id      = Lightning Rose
+|pt      = Rosa do Relâmpago
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Talent Navbox|Lisa}}
+
+[[es:Rayo de la rosa]]
+[[pt-br:Rosa do Relâmpago]]
+[[ru:Громовая роза]]
+[[th:Lightning Rose]]
+[[uk:Блискавична троянда]]

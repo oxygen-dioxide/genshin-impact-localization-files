@@ -1,0 +1,187 @@
+{{See also|Resistance|Damage Reduction}}
+{{Terminology Infobox
+|image        = Icon Attribute Defense.png
+|type         = Attributes
+|type2        = Combat
+|type3        = Game Systems
+}}
+'''Defense''', abbreviated in-game as '''DEF''', is a measure of how much incoming damage to a character or enemy is reduced.
+
+The higher the defense, the less damage is taken from attacks. Defense can be modified by:
+*raising your character level
+*equipping [[artifacts]] or [[weapons]] that provide DEF or DEF% attributes
+*certain character talents or constellations
+*[[food]] items that provide a temporary defense boost when consumed
+*other environmental factors such as [[Infusion Stone]]s
+
+Defense is calculated as:
+:<math>\text{DEF} = \text{DEF}_\text{Character} \times (1 + \% \text{ DEF Bonus}) + \text{DEF Flat Bonus}</math>
+
+For both characters and enemies, defense reduces incoming damage based on this formula:<ref name="NGA1">NGA: [https://ngabbs.com/read.php?tid=23708327 <nowiki>[数据讨论]</nowiki> 防御力(等级)乘区对伤害影响公式出炉&mdash;&mdash;实际上等级压制与防御力是一回事！(更新完毕)]</ref>
+
+:<math>\text{DEF DMG Reduction}=\frac{\text{DEF}}{\text{DEF} + 5 \times \text{Level}_\text{Attacker} + 500}</math>
+
+The incoming damage will then be multiplied by
+
+:<math>\text{DEF Multiplier}=1 - \text{DEF DMG Reduction}</math>
+
+==Enemy Defense==
+<!--keep important calculation stuff up here-->
+[[File:damage vs defense graph.png|thumb|280px|Defense Multiplier (%) vs Attacker's level for a <font color=blue>Lv. 10</font> (blue) and <font color=red>Lv. 90</font> (red) defender.<br />In both cases damage is halved (50%) relative to attack power when attacker and defender levels are equal [any DEF reduction ignored]]]
+Characters have defense attributes based on their base stats, levels, weapons, artifacts, and any buffs (e.g. [[Food]]).
+
+Enemy defense is given as:
+:<math>\text{DEF}_\text{Enemy} = 5 \times \text{Level}_\text{Enemy} + 500</math>
+
+Defense reduces incoming damage, but its effectiveness is dependent on the attacker's level:<ref name="NGA1" />
+
+:<math>\text{DEF Multiplier} = \frac{\text{Level}_\text{Character} + 100}{\text{Level}_\text{Character} + \text{Level}_\text{Enemy} + 200}</math>
+
+*In general this means that damage received is  half (50%) of the attack power (also '''Incoming Damage''' used in the equations) at equal foe levels.
+*The change in damage due to differences in level is relatively small, less than a 10% relative difference for a level difference of 20 (and far less at high levels).
+
+For enemies with debuffed defense:
+<div style="overflow-x:auto;"><math>\text{DEF Multiplier}_\text{(Debuffed)} = \frac{\text{Level}_\text{Character} + 100}
+    {\left[ 1 - \% \text{ DEF Reduction} \right] \left[ 1 - \% \text{ DEF Ignored} \right] (\text{Level}_\text{Enemy} + 100) + \text{Level}_\text{Character} + 100}</math></div>
+
+*The key difference of skills that decrease or reduce defense to the skills that ignored defense is that the former changes the actual attribute's values, increasing <u>all</u> damage that factors in defense while the latter is only applicable to a specific skill/attack of the character that triggers it. As of [[Version/2.5|Version 2.5]], only [[Raiden Shogun]]'s [[Steelbreaker|C2 - Steelbreaker]] and [[Yae Miko]]'s [[Forbidden Art: Daisesshou|C6 - Forbidden Art: Daisesshou]] currently possess this effect.
+
+{|class="wikitable mw-collapsible mw-collapsed" data-expandtext="+" data-collapsetext="-" style="width: 100%"
+!Intermediate Equations
+|-
+|
+The DEF Multiplier formula from [[#Defense|above]]:
+
+Given the expression for damage reduction as:
+
+<math>\text{DEF DMG Reduction} = \frac{\text{DEF}_\text{Enemy}}{\text{DEF}_\text{Enemy} + 5 \times \text{Level}_\text{Character} + 500}</math>
+
+Plug in enemy defense to produce the damage reduction for enemies:
+
+<math display="block">\begin{align}
+\text{DEF DMG Reduction}
+  &= \frac{\left[ 5 \times \text{Level}_\text{Enemy} + 500 \right]}
+    {\left[5 \times \text{Level}_\text{Enemy} + 500\right] + 5 \times \text{Level}_\text{Character} + 500}
+\\
+  &= \frac{\text{Level}_\text{Enemy} + 100}
+    {\text{Level}_\text{Enemy} + 100 + \text{Level}_\text{Character} + 100}
+\\&= \frac{\text{Level}_\text{Enemy} + 100}
+    {\text{Level}_\text{Enemy} + \text{Level}_\text{Character} + 200}
+\end{align}</math><br />
+Subtract the damage reduction from 1 to get a defense multiplier for incoming damage.
+
+<math display="block">\begin{align}
+\text{DEF Multiplier}
+  &= 1 - \text{DEF DMG Reduction}
+\\
+  &= 1 - \left[ \frac{\text{Level}_\text{Enemy} + 100}
+    {\text{Level}_\text{Enemy} + \text{Level}_\text{Character} + 200} \right]
+\\
+  &= \frac{\text{Level}_\text{Character} + 100}
+    {\text{Level}_\text{Enemy} + \text{Level}_\text{Character} + 200}
+\end{align}</math>
+
+[[File:damage vs defense debuff graph.png|thumb|Damage received vs. Defense reduction (at equal foe and character levels).<br />(At 100% defense reduction 100% of potential damage is received)]]
+To consider debuffs that decrease an enemy's defense, multiply the enemy defense accordingly.
+
+<math display="block">\begin{align}
+\text{DEF}_\text{Enemy (Debuffed)}
+  &= (1 - \% \text{ DEF Reduction}) \times \text{DEF}_\text{Enemy}
+\\
+ \text{DEF Multiplier}_\text{Enemy (Debuffed)} &= \frac{\text{Level}_\text{Character} + 100}
+    {\left[ 1 - \% \text{ DEF Reduction} \right] (\text{Level}_\text{Enemy} + 100) + \text{Level}_\text{Character} + 100}
+\end{align}</math>
+|}
+
+==Character Ascensions==
+{{Characters by Ascension Stat Table|DEF}}
+
+==Increasing Character Defense==
+===Talents===
+{{Talents by Category Table|DEF Increase Talents}}
+
+===Constellations===
+{{Constellations by Category Table|DEF Increase Constellations}}
+
+===Artifacts===
+{{Artifacts by Category Table|DEF Increase Artifacts}}
+
+===Weapons===
+====Substat====
+{{Weapons by Category Table|DEF Substat Weapons}}
+
+====Passive====
+{{Weapons by Category Table|DEF Passive Weapons}}
+
+===Food===
+{{Food by Category Table|DEF Increase Dishes}}
+
+==Increasing Party Defense==
+===Talents===
+{{Talents by Category Table|Party DEF Increase Talents}}
+
+===Constellations===
+{{Constellations by Category Table|Party DEF Increase Constellations}}
+
+==Scaling with Character's Defense==
+===Talents===
+These talents scale with the character's DEF.
+{{Talents by Category Table|DEF Scaling Talents}}
+
+===Constellations===
+{{Constellations by Category Table|DEF Scaling Constellations}}
+
+==Enemy Defense Modifiers==
+===Decreasing Enemy Defense===
+[[Enemy]] defense can be affected by various abilities:
+====Talents====
+{{Talents by Category Table|DEF Reduction Talents}}
+====Constellations====
+{{Constellations by Category Table|DEF Reduction Constellations}}
+
+===Ignoring Enemy Defense===
+====Constellations====
+{{Constellations by Category Table|DEF Ignore Constellations}}
+
+===Increasing Enemy Defense===
+Enemy Defense can be increased via {{Cryo}} [[Infusion Stone]]s.
+
+==Other Languages==
+{{Other Languages
+|en       = {{tt|DEF|Defense}}
+|zhs      = 防御力
+|zhs_rm   = Fángyù-lì
+|zht      = 防禦力
+|zht_rm   = Fángyù-lì
+|zh_tl    = Defensive Power
+|ja       = 防御力
+|ja_rm    = Bougyo-ryoku{{Assumed}}
+|ja_tl    = Defensive Power
+|ko       = {{tt|방어력|防禦力}}
+|ko_rm    = Bang'eo-ryeok
+|ko_tl    = Defensive Power
+|es       = {{tt|DEF|Defensa}}
+|es_tl    = {{tt|DEF|Defense}}
+|fr       = {{tt|DÉF|Défense}}
+|fr_tl    = {{tt|DEF|Defense}}
+|ru       = Защита
+|ru_tl    = 
+|th       = พลังป้องกัน
+|th_rm    = Phlang Pongkan
+|th_tl    = Defense Power
+|vi       = {{tt|Phòng Ngự|防御}}
+|vi_tl    = Defense
+|de       = {{tt|VTD|Verteidigung}}
+|de_tl    = {{tt|DEF|Defense}}
+|id       = {{tt|DEF|Defense}}
+|pt       = {{tt|DEF|Defesa}}
+|pt_tl    = {{tt|DEF|Defense}}
+}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Attribute Navbox}}
+{{Combat Navbox|state=collapsed}}
+[[pt-br:Defesa]]

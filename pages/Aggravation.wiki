@@ -1,0 +1,200 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Data
+}}
+{{Community}}
+{{Terminology Infobox
+|type         = Game Systems
+|type2        = Combat
+}}
+'''Aggravation''', also known as '''aggro''', is an enemy {{w|Hate (video games)|threat mechanic}}. Aggravation in Genshin Impact is a complex system with two major components: the [[#Detection|Detection]] system which alerts [[enemies]] and causes [[wildlife]] to become '''startled''', and the [[#Aggression|Aggression]] system which determines the primary target of enemies while in combat.<ref>NGA: [https://bbs.nga.cn/read.php?tid=31040011 NGA Forum Post: 《原魔嘲讽学》- 敌人与动物的威胁系统简述]</ref><ref>NGA: [https://bbs.nga.cn/read.php?tid=31020495 NGA Forum Post: 《原魔侦测学》- 敌人与动物的感知系统简述]</ref>
+
+'''Taunting''' refers to special character abilities that can aggravate enemies and change their target. All bosses are immune to taunt skills.
+
+==Combat Mode==
+When the player, a nearby ally, or a Taunt is detected an enemy, the player enters combat mode. When the enemy is no longer aggravated, the player leaves combat mode.
+
+There will be red arrows near the player that point to any enemies that are aggravated by a player or a nearby ally and are off-screen but not hidden or invisible. Enemies who off-screen and who are also hidden or invisible will not have arrows pointing at them.
+
+Upon alerting an enemy:
+* Combat mode is initiated.
+* Enemies who are aggravated will have an exclamation mark briefly appear above their heads.
+* {{A|Aggravation Drum Roll.ogg}} A short drum roll plays.
+* If there are no obstacles blocking the camera, then the camera zooms out all the way beyond the normal maximum zoom-out to the separate maximum zoom-out for combat.
+
+While in combat mode:
+* The player cannot change their party setup.
+* The maximum zoom-out for combat mode remains during combat.
+* The player cannot use most [[Gadgets]], with the exceptions being some combat-specialized Gadgets like the [[Bokuso Box]] and the [[Lumenstone Adjuvant]].
+* In most of the open world, battle [[Soundtrack|music]] will play. [[Stormterror's Lair]] and [[The Serpent's Bowels]] are notable exceptions.
+* The player character's idle animations will not play when standing still.
+
+==Detection==
+Enemies and wildlife have an ''Awareness'' meter that ranges from '''0''' to '''100'''. The meter is updated every 0.016 seconds, also known as a ''Time Interval''.
+
+Awareness increases when abnormal events occur that involve valid targets, such as players and taunt entities. When Awareness is above 0, enemies and wildlife become more sensitive and detect targets more easily. Abnormal events include:
+* Spotting a target
+* Hearing a target
+* Sensing a target in close enough proximity
+* Being hit by a target (immediately increases Awareness to 100)
+
+When Awareness reaches 100, enemies enter combat and wildlife flee. Enemies whose Awareness reached 100 due to being hit by a target will start with a certain amount of Aggression toward that target.
+
+Awareness increases at slightly different rates for each individual enemy and wildlife spawn. The slight differences are due to a ''Deviation Coefficient'', which is a decimal between 0.75 and 1.25 and is picked randomly for each spawn.
+
+When Awareness is below 100, it will decrease over time at a certain rate, but this rate is usually outpaced by the rate of accumulation caused by typical abnormal events.<!-- calculated using equation and data --> The Awareness decrease at every Time Interval is calculated as follows:
+:<math>\text{New Awareness} = \text{Old Awareness} - \text{Awareness Decrease Coefficient} \times 0.016</math>
+
+===Threat Level===
+When Awareness is 0, targets have a Threat Level of 0. Targets who cause Awareness to increase have a Threat Level of 1 until Awareness is 100. When Awareness is 100, targets have a Threat Level of 2.
+
+===Adjustments===
+Passives such as [[Sayu]]'s [[Yoohoo Art: Silencer's Secret]] and [[Aloy]]'s [[Easy Does It]] directly modify the detection ranges of enemies and wildlife by an ''Adjustment Factor''. So far, these passives only modify the view and proximity ranges of wildlife, and nothing modifies the hearing ranges of wildlife or any of the ranges of enemies.
+
+===Enemy States===
+Enemy states, such as whether hilichurls are asleep, relaxing, or alert, can affect their detection ranges.<!-- in its own section because hopefully we'll have more info on this eventually -->
+
+===Spotting a Target===
+Nearly all enemies and most wildlife can see targets, or ''detect targets by view''. Enemies and wildlife who detect targets by view can only do so in their ''Field of View'', which differs per entity but is often 120 degrees horizontally and 60 degrees vertically. The ''View Range'' of enemies and wildlife often 30 meters by default and will increase to 200 while in combat or fleeing.
+
+Awareness increases when a target is detected by view and while the target remains in view. For some enemies and wildlife, the closer the target is, the faster Awareness accumulates.
+
+Specific parameters for detecting targets by view include ''View Enabled'', ''View Range'', ''Horizontal FoV'', ''Vertical FoV'', ''Panoramic View'', ''In-View Coefficient'', and ''In-View Fall-Off Coefficient''.
+
+If a character or Taunt is present within the enemy or wildlife's view, at every Time Interval:
+<div style="overflow-x:auto"><math>\text{New Awareness} = \text{Old Awareness} + \text{In-View Coefficient} \times \text{Deviation Coefficient} \times 0.016 \times \text{In-View Fall-Off Coefficient}</math></div>
+
+====Obstacles====
+* Objects taller than the active character (most noticeable in [[Stealth]] mode when crouching)
+
+====Not Obstacles====
+* Destroyable bushes and trees
+
+===Hearing a Target===
+Nearly all enemies and wildlife can hear targets, or ''detect targets by sound''. This is unrelated to the game's audio that players hear. Nearly all enemies and wildlife have a ''Hearing Range'' of 20 meters from their location. Most sounds that can be heard by enemies and wildlife have a volume of 50 with no fall-off.
+
+Certain wildlife have increased ''Hearing Sensitivity'', which effectively increases the ''Volume'' of sounds that they hear. All enemies and wildlife will also have 50% more sensitive hearing if a target with a Threat Level of 1 is within range.
+
+When enemies and wildlife hear sounds, their Awareness is increased by the volume they hear, including additional volume due to higher sensitivity.
+
+When Awareness reaches 100, an alarm that all nearby enemies and wildlife can hear will be sounded once with a volume of 100. The range in which the alarm can be heard from its location, or the ''Alarm Range'', is 12 meters for all enemies and most wildlife, with the rest of wildlife only sounding alarms that can be heard by entities no more than 5 meters away.
+
+Specific parameters for detecting targets by sound include ''Volume'', ''Hearing Sensitivity'', ''Hearing Range'', and ''Alarm Range''.
+
+When a sound occurs within the Hearing Range:
+* If <math>\text{Threat Level} = 0</math>, <math>\text{Incoming Volume} = \text{Volume} \times \text{Hearing Sensitivity}</math>
+* If <math>\text{Threat Level} = 1</math>, <math>\text{Incoming Volume} = \text{Volume} \times \text{Hearing Sensitivity} \times 1.5</math>
+* Awareness is increased as follows: <math>\text{New Awareness} = \text{Old Awareness} + \text{Incoming Volume}</math>
+
+====Sounds====
+* Enemy alarms
+* Almost all arrows upon landing
+** Arrows that deal different kinds of damage appear to produce different levels of noise. For example, {{Pyro}}, {{Cryo}}, and {{Hydro}} arrows will alert enemies about as easily as Physical arrows, while {{Anemo}}, {{Electro}}, and {{Geo}} arrows appear unable to.
+* [[Stealth]] mode only: footsteps
+
+====Negligible or No Volume====
+* Hits on terrain from [[Catalyst]] characters, including those with projectile attacks
+* Collection of resources and loot
+* Hits from melee weapons, including the breaking of [[ore]]s
+* Arrows that deal {{Anemo}}, {{Electro}}, and {{Geo}} damage
+* Enemy voices
+* Enemy footsteps
+
+====Footsteps====
+''Detection by footsteps'' is exclusively used by NPCs in certain [[Stealth]] quest objectives. Awareness accumulates while the active character is within hearing range, even if the character is not actually moving, and the rate is based on the character's distance from the NPC.
+
+Specific parameters for detecting targets by footsteps include ''Footstep Hearing Range'', ''Footstep Hearing Coefficient'', and ''Footstep Hearing Fall-Off Coefficient''.
+
+If a character is present within the Footstep Hearing Range, at every Time Interval:
+<div style="overflow-x:auto"><math>\text{New Awareness} = \text{Old Awareness} + \text{Footstep Hearing Coefficient} \times \text{Deviation Coefficient} \times 0.016 \times \text{Footstep Hearing Fall-Off Coefficient}</math></div>
+
+===Sensing a Target===
+Nearly all enemies and wildlife can sense very close targets, or ''detect targets by proximity'', without having to see or hear them. Targets that can be sensed and increase Awareness include characters and taunts. The range in which a target is considered to be very close, or the ''Proximity Range'', varies greatly across all enemies and wildlife. It is typically 8 meters for [[Common Enemies]] and wildlife and 15 meters for [[Elite Enemies]].
+
+When a target is within the proximity range, Awareness accumulates very rapidly and maxes out in about 0.2 seconds for most enemies, with a select few enemies taking up to about 1 second.<!-- calculated using equation and data -->
+
+Specific parameters for detecting targets by proximity include ''Proximity Range'' and ''Proximity Coefficient''.
+
+If a character or Taunt is present within the Proximity Range, at every Time Interval:
+<div style="overflow-x:auto"><math>\text{New Awareness} = \text{Old Awareness} + \text{Proximity Coefficient} \times \text{Deviation Coefficient} \times 0.016</math></div>
+
+===Hit by a Target===
+Enemies and wildlife that are hit will find their attacker, or ''detect targets by hit''. Hits do not need to deal damage. Damageless applications of elements ([[Xingqiu]]'s orbiting Rain Swords, [[Barbara]]'s Melody Loop, etc.) or damageless instances of [[Interruption Resistance|poise damage]] ([[Yoimiya]]'s [[Niwabi Fire-Dance]] activation, [[Hu Tao]]'s [[Guide to Afterlife]] activation, etc.) also count as hits, as wildlife may be startled and the [[Unusual Hilichurl]] can become aggravated when they receive such hits.
+
+Some damage from separate sources, such as [[lightning]],  [[Aloy]]'s [[Chillwater Bomblet]]s, [[Kujou Sara]]'s [[Tengu Stormcall|Tengu Juurai: Ambush]], etc. will not aggravate enemies under normal conditions. However, this behavior is observed to be inconsistent depending on the player's frame rate.
+
+When enemies and wildlife are hit by a player attack, Awareness is immediately increased to 100, and Aggression toward the closest target within hearing range is increased by 20. (For the [[Unusual Hilichurl]], which has no hearing range, the range is 20 meters.)
+
+Specific parameters for detecting targets by hit include ''Sourceless Hit Range'' (currently only used by the Unusual Hilichurl due to no hearing range) and ''On Hit Scan Range''.
+
+==Aggression==
+While in combat, enemies select their targets through ''Aggression'', which ranges from '''0''' to '''99,999''' and is tracked by each enemy for each target. Each enemy will generally aim for the target with the highest Aggression. An enemy's Aggression towards a target increases by '''20''' each time that enemy is hit by the target or a summoned source of damage (also known as a summoned ''gadget'') from the target. As a result, enemies generally target fast-hitting characters.
+
+At every Time Interval, Maximum Aggression towards each target will decrease by 0.048% of the current Maximum Aggression.
+
+===Target Selection===
+The target with the highest Aggression is selected in the following cases:
+* When no target is currently selected
+* When the target with the highest Aggression has 20% more Aggression than the currently selected target
+
+If an enemy has the same Aggression towards multiple targets, the first target to enter combat will be targeted.
+
+===Taunting===
+Every enemy has a ''Taunt Resistance'' level, and every taunt has a ''Taunt Level''. When an enemy is within range of a taunt and does not have a higher Taunt Resistance level than the taunt's Taunt Level, the enemy is taunted, and their Aggression toward the taunt is increased by a set amount. Generally, taunting entities can taunt enemies up to 5-6 meters away horizontally and either 10 meters or infinitely far away vertically.
+
+Currently, all [[Common Enemies]] and [[Elite Enemies]] can be taunted, and it is impossible to taunt [[bosses]].
+
+Specific parameters for taunting include ''Taunt Resistance'', ''Taunt Level'', ''Taunt Zone'', ''Taunt Interval'', and ''Taunt Value''.
+
+==Leaving Combat Mode==
+Generally, if players do not leave combat by defeating all aggravated enemies, then players can only leave combat after traveling far enough such that they are far from the aggravated enemies and their ''Defense Zones''. Players may also leave combat if all aggravated enemies also happen to only remain in combat as long as they can find a path to their target.
+
+Specific parameters include ''Defense Zone Radius'', ''Target Distance Limit'', ''Border Distance Limit'', ''Distance Clear Time'', ''Path Loss Aggro Clear'', ''Path Loss Clear Time'', ''Out of Zone Aggro Clear'', and ''Out of Zone Clear Time''.
+
+===Leaving Combat by Distance===
+If either Condition 1 or 2 is fulfilled, the ''Distance Clear Timer'' will start.
+* '''Condition 1:''' <math>\text{Distance from Target} > \text{Target Distance Limit}</math>
+* '''Condition 2:''' <math>\text{Distance from Target} > \text{Defense Zone Radius} + \text{Border Distance Limit}</math>
+If the Distance Clear Timer reaches its limit, Aggression and Awareness towards the target will be cleared.
+
+If Conditions 1 and 2 become unfulfilled before Combat clears, the Distance Clear Timer will stop and be reset to 0.
+
+===Leaving Combat by Path Loss===
+Some enemies will not pursue their targets if they cannot find a path to their targets.
+
+If Conditions 1 and 2 are not fulfilled, and both Conditions 3 and 4 are fulfilled, Aggression and Awareness towards the target will be cleared:
+* '''Condition 3:''' <math>\text{Time Since Last Attack} > \text{Path Loss Clear Time}</math>
+* '''Condition 4:''' <math>\text{Time Since Path Loss} > \text{Path Loss Clear Time}</math>
+
+===Clearing Combat by Defense Zone===
+When Out of Zone Aggro Clear is enabled, if Conditions 1 and 2 are not fulfilled, and Condition 5 is fulfilled, the Out of Zone Timer will start.
+* '''Condition 5:''' <math>\text{Target's Distance from Center of Defense Zone} > \text{Defense Zone Radius}</math>
+If the Out of Zone Timer reaches its limit, Aggression and Awareness towards the target will be cleared.
+
+If Condition 5 becomes unfulfilled before Combat clears, the Out of Zone Timer will stop and be reset to 0.
+
+==Other Observations==
+* Enemies may not become aggravated when they receive damage from [[Defense Mechanism]]s.
+* [[Displacement]] from [[Vacuum Field]]s alone will not aggravate enemies.
+* Most wildlife will be startled when nearby wildlife of any kind is collected or killed by the player.
+** Exceptions to this include crabs, frogs and unagi.
+
+==Taunting Talents==
+The following character skills can taunt the enemy and change their aggro target.
+{{Talents by Category Table|Taunting Talents}}
+
+==Trivia==
+* The term ''aggro'' is short for ''aggravate'' but is commonly thought to be short for ''aggression'' or ''aggressive''. The term predates video games, but it may be mostly known as a video game term in present day. ''Aggro'' is used as both a verb and a noun, and the verb's active form ''to aggro'' and passive form ''to be aggro'd'' are interchangeable, with the meanings inferred from context.<ref>Stack Exchange: [https://gaming.stackexchange.com/questions/17608/what-does-aggro-mean/17618 What does Aggro mean?]</ref><ref>Wikitionary: [[wiktionary:aggro|aggro]]</ref>
+* Most walking Hilichurls have two walking animations when they are not aggravated. The first is a very relaxed walking animation with the Hilichurl swinging their weapon by their side. The second is a more alert walking animation with the Hilichurl holding up their weapon, which they may switch to when the player is almost but not yet close enough to aggravate them as well as if a single Aimed Shot lands near them. Their detection range may be larger for the more alert animation than for the relaxed animation.
+* Prior to [[Version 1.3]], [[Dendro Slime]]s were more notorious than Whopperflowers for their very large aggravation ranges combined with their hiding skills.
+* The [[Unusual Hilichurl]] does not aggro until a player attacks him.
+* [[Canine Bunshin]] do not aggro from arrows that land near them.
+
+==See also==
+* [[Stealth]]
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox}}

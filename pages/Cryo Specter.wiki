@@ -1,0 +1,115 @@
+{{Enemy Infobox
+|image    = Enemy Cryo Specter.png
+|type     = Common Enemies
+|element  = Cryo
+|family   = Elemental Lifeforms
+|group    = Specters
+|location = [[Enkanomiya]], [[Inazuma]]
+|ability1 = Fury
+}}
+{{Description|A monster born from highly-concentrated Cryo elements that can float in the air.<br />[[Timaeus|A certain alchemist]] once studied these beings, speculating that they might be a kind of [[Slimes|Slime]] or the [[Traveler]], as none of the above needed a Vision to use the elements. He was reprimanded by [[Albedo|his teacher]].}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Specters}}
+
+==Stats==
+{{Enemy Stats
+|cryo_res  = Immune
+|hp_ratio  = 1.6
+|hp_type   = 2
+|atk_ratio = 1.4
+|atk_type  = 2
+}}
+
+==Abilities and Attacks==
+*'''Fury:''' Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
+*'''Ice Missile:''' Shoots a slow homing projectile that deals '''100% ATK''' as {{Color|Cryo DMG}} on hit, after a couple of seconds the projectile will lose its homing property and start to travel in a straight line.
+*'''Frost Bomb:''' Spins before shooting out a downward snowball that bursts dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+*'''Snowball Sling:''' Consecutively launches 6 snowballs at the player that burst on contact dealing {{Color|AoE Cryo DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
+*'''Final Burst:''' Explodes after a short pause when defeated dealing '''125% ATK''' as {{Color|AoE Cryo DMG}}. If at max Fury, DMG is increased to '''150% ATK''', and leaves behind a patch of frost on the ground that deals '''50% ATK''' as {{Color|AoE Cryo DoT}}.
+*'''Frozen Immunity:''' The Cryo Specter is immune to the [[Frozen]] reaction.
+
+===Preview===
+{{Preview
+|size=185px
+|file1=Cryo Specter Ice Missile
+|caption1=Ice Missile
+
+|file2=Cryo Specter Frost Bomb
+|caption2=Frost Bomb
+
+|file3=Cryo Specter Snowball Sling
+|caption3=Snowball Sling
+
+|file4=Cryo Specter Final Burst Fury
+|caption4=Final Burst
+
+|file5=Cryo Specter Final Burst
+|caption5=Final Burst (Max Fury)
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet all of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+{| class="wikitable"
+! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Initial CD (s) !! Action Interval (s)
+|-
+| rowspan="2" | Normal || Ice Missile || 3.5–22 || 2 || 3.5–5.5 || — || rowspan="3" | 3.5
+|-
+| Frost Bomb || 0–4.5 || 3 || 6–8 || 5
+|-
+| Max Fury || Snowball Sling || 0–12 || — || 4–5 || —
+|}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Cryo Specter Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Cryo Specter
+|zhs     = 冰飘浮灵
+|zhs_rm  = Bīng Piāofú-líng
+|zht     = 冰飄浮靈
+|zht_rm  = Bīng Piāofú-líng
+|zh_tl   = {{Lex|Cryo|zh}} {{Lex|Specter|zh}}
+|ja      = 氷フライム
+|ja_rm   = Koori Furaimu{{Assumed}}
+|ja_tl   = {{Lex|Cryo|ja}} {{Lex|Specter|ja}}
+|ko      = 떠도는 얼음의 {{tt|정령|精靈}}
+|ko_rm   = Tteodoneun Eoreum-ui Jeongryeong
+|ko_tl   = {{Lex|Cryo|ko}} {{Lex|Specter|ko}}
+|es      = Espectro Cryo
+|es_tl   = Cryo Specter
+|fr      = Spectre Cryo
+|fr_tl   = Cryo Specter
+|ru      = Крио призрак
+|ru_tl   = Cryo Specter
+|th      = Cryo Specter
+|vi      = Bóng Ma - Băng
+|vi_tl   = Specter - {{Lex|Cryo|vi}}
+|de      = Kryo-Gespenst
+|de_tl   = Cryo Specter
+|id      = Cryo Specter
+|pt      = Espectro Cryo
+|pt_tl   = Cryo Specter
+}}
+
+==Change History==
+{{Change History|2.4}}
+
+==Navigation==
+{{Enemy Navbox|Common}}
+
+[[es:Espectro Cryo]]
+[[vi:Bóng Ma - Băng]]
+[[pt-br:Espectro Cryo]]

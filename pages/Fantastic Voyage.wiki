@@ -1,0 +1,161 @@
+{{About|the Elemental Burst talent|the Hangout Event|Fantastic Voyage (Hangout Event)}}
+{{Talent Infobox
+|image         = Talent Fantastic Voyage.png
+|character     = Bennett
+|type          = Elemental Burst
+|info          = Bennett performs a jumping attack that deals {{Color|Pyro DMG}}, creating an Inspiration Field.<br /><br />'''Inspiration Field'''
+*If the health of a character within the [[AoE]] is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.
+*If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.
+*Imbues characters within the AoE with {{Color|Pyro}}.
+|scale_att1    = HP
+|scale_att2    = ATK
+|scale_att3    = Base ATK
+|utility1      = Healing
+|utility2      = Party ATK Increase
+|utility3      = AoE
+|utility4      = Effects Retained Character Fallen
+|utility5      = Pyro Status to Self
+|utility6      = ATK Increase
+|energyCost    = 60
+|CD            = 15s
+|duration      = 12s
+|attr1         = Skill DMG
+|value1        = 233–524%
+|attr2         = HP Regeneration
+|value2        = 6.00–13.50%/s + 577–1703
+|attr3         = ATK Bonus Ratio
+|value3        = 56–126% Base ATK
+}}
+{{Description|Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them "journeys full of wonder, excitement, and beauty."}}
+'''Fantastic Voyage''' is [[Bennett]]'s [[Elemental Burst]].
+
+==Gameplay Notes==
+*The ATK increase is given by:
+:<math>\text{ATK Bonus Ratio} \% \times \text{Bennett's Base ATK}</math>
+:*That is, characters standing within the field can have this amount added to their total ATK. For example, at talent level 10, the bonus ratio is 101% so Bennett's buff will basically add his entire Base ATK to the ATK of characters within the field. Other talent levels will add different portions of Bennett's Base ATK as a bonus (at talent level 1, it will be 56% of Bennett's Base ATK).
+* The ATK bonus, alongside a self-inflicted {{Pyro}} status, is applied once every second to all characters in the field. Both the ATK bonus and the Pyro status last for 2 seconds after being applied, even if the affected character leaves its AoE or is switched out.
+* The ATK bonus is ''only'' based on Bennett's Base ATK (character ATK + weapon ATK), the white portion of the ATK breakdown on the character [[Attributes]] screen. It excludes other sources of ATK such as flat ATK/%ATK from artifacts. This ATK bonus is also unaffected by any other modifiers on the active character.
+*When a character is in the skill's AoE:
+**If the character's HP is less than or equal to 70%, they will be continuously healed until their HP is greater than 70%, at which point the healing stops.
+**If the character's HP is less than or equal to 70%, the ATK bonus won't be applied. However, since the HP is regenerated at a fast rate, it will eventually be greater than 70%, at which point the ATK bonus will kick in.
+* In [[Co-Op Mode]] only the first instance of ''Fantastic Voyage'' will apply its buff and attacks.
+*{{TalentNote|character=Bennett|talent=Fantastic Voyage|static buff|ATK}}
+*{{TalentNote|character=Bennett|talent=Fantastic Voyage|ascension|2|Fearnaught}}
+
+;<big>Constellation Effects</big>
+*{{TalentNote|constellation|1|Grand Expectation}}
+*{{TalentNote|constellation|5|True Explorer}}
+*{{TalentNote|constellation|6|Fire Ventures With Me}} The {{Color|Pyro DMG Bonus}} buff is also given to [[bow]] and [[catalyst]] characters.
+
+==Preview==
+{{Preview
+|file=Fantastic Voyage Preview
+}}
+{{clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Burst
+|levels=14
+|order=skilldmg,continuousregenerationpersec,atkbonusratio,duration,cd,energycost
+|titles=Skill DMG (%),Continuous Regeneration Per Sec,ATK Bonus Ratio (% Base ATK),Duration,CD,Energy Cost
+|skilldmg_1=232.8
+|skilldmg_2=250.26
+|skilldmg_3=267.72
+|skilldmg_4=291
+|skilldmg_5=308.46
+|skilldmg_6=325.92
+|skilldmg_7=349.2
+|skilldmg_8=372.48
+|skilldmg_9=395.76
+|skilldmg_10=419.04
+|skilldmg_11=442.32
+|skilldmg_12=465.6
+|skilldmg_13=494.7
+|skilldmg_14=524
+|continuousregenerationpersec_1=6% Max HP+577
+|continuousregenerationpersec_2=6.45% Max HP+635
+|continuousregenerationpersec_3=6.9% Max HP+697
+|continuousregenerationpersec_4=7.5% Max HP+765
+|continuousregenerationpersec_5=7.95% Max HP+837
+|continuousregenerationpersec_6=8.4% Max HP+914
+|continuousregenerationpersec_7=9% Max HP+995
+|continuousregenerationpersec_8=9.6% Max HP+1082
+|continuousregenerationpersec_9=10.2% Max HP+1174
+|continuousregenerationpersec_10=10.8% Max HP+1270
+|continuousregenerationpersec_11=11.4% Max HP+1371
+|continuousregenerationpersec_12=12% Max HP+1477
+|continuousregenerationpersec_13=12.75% Max HP+1587
+|continuousregenerationpersec_14=13.50% Max HP+1703
+|atkbonusratio_1=56
+|atkbonusratio_2=60.2
+|atkbonusratio_3=64.4
+|atkbonusratio_4=70
+|atkbonusratio_5=74.2
+|atkbonusratio_6=78.4
+|atkbonusratio_7=84
+|atkbonusratio_8=89.6
+|atkbonusratio_9=95.2
+|atkbonusratio_10=100.8
+|atkbonusratio_11=106.4
+|atkbonusratio_12=112
+|atkbonusratio_13=119
+|atkbonusratio_14= 126
+|duration=12s
+|cd=15s
+|energycost=60
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Bennett}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Trivia==
+* {{TalentNote|clap}}
+* The thumbs-up symbol that appears inside Fantastic Voyage's field is also shown on:
+** {{Item|Bennett: Recognition}}, his namecard
+** {{Item|Unyielding Spirit}}, a firework
+
+==Other Languages==
+{{Other Languages
+|en      = Fantastic Voyage
+|zhs     = 美妙旅程
+|zhs_rm  = Měimiào lǚchéng
+|zht     = 美妙旅程
+|zht_rm  = Měimiào lǚchéng
+|zh_tl   = Wonderful Journey
+|ja      = 素晴らしい旅
+|ja_rm   = Subarashii Tabi
+|ja_tl   = Wonderful Journey
+|ko      = 아름다운 여정
+|ko_rm   = Aruemda'un Yeojeong
+|ko_tl   = Beautiful Journey
+|es      = Aventura maravillosa
+|es_tl   = Wonderful Adventure
+|fr      = Merveilleux voyage
+|fr_tl   = Wonderful Journey
+|ru      = Волнительное приключение
+|ru_tl   = 
+|th      = Fantastic Voyage
+|vi      = Hành Trình Kỳ Diệu
+|vi_tl   = Marvellous Journey
+|de      = Fantastische Reise
+|de_tl   = Fantastic Voyage
+|id      = Fantastic Voyage
+|pt      = Viagem Fantástica
+|pt_tl   = Fantastic Voyage
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==Navigation==
+{{Talent Navbox|Bennett}}
+
+[[es:Aventura maravillosa]]
+[[fr:Merveilleux voyage]]
+[[pt-br:Viagem Fantástica]]
+[[vi:Hành Trình Kỳ Diệu]]
+[[th:Fantastic Voyage]]

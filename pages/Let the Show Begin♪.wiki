@@ -1,0 +1,160 @@
+{{Talent Infobox
+|image         = Talent Let the Show Begin.png
+|character     = Barbara
+|type          = Elemental Skill
+|info          = Summons water droplets resembling musical notes that form a Melody Loop, dealing {{Color|Hydro DMG}} to surrounding opponents and applying the {{Color|Hydro|Wet}} status to them.<br /><br />'''Melody Loop'''<br />
+* On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.
+* On hit, Barbara's Charged Attack generates 4 times the amount of healing.
+* Periodically regenerates your own active character's HP.
+* Applies the {{Color|Hydro|Wet}} status to the character and to opponents who come in contact with them.
+|scale_att1    = HP
+|scale_att2    = ATK
+|utility1      = Wet Status to Self
+|utility2      = Healing
+|utility3      = Charged Attack
+|utility4      = Party
+|utility5      = Wet Status to Opponents
+|particles     = 0
+|duration      = 15s
+|CD            = 32s
+|attr1         = HP Regeneration per Hit
+|value1        = 0.75–1.59% Max HP + 72–199
+|attr2         = Continuous Regeneration
+|value2        = 4.00–8.5% Max HP + 385–1059
+|attr3         = Droplet DMG
+|value3        = 58.4–124%
+}}
+{{Description|Barbara's music is the magic that heals her companions.}}
+'''Let the Show Begin♪''' is [[Barbara]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{TalentNote|particles|0}}
+* While this skill is active, Normal and Charged Attacks will heal if the attack hits an opponent, even if they have a shield, armor, or immunity to {{Color|Hydro DMG}}.
+* Every 5s, this skill regenerates health and briefly applies {{Color|Wet}} to the active character.
+** Because of this, it's very easy to get frozen if the character is hit by {{Color|Cryo DMG}} when this skill is active.
+* The Continuous Regeneration ticks once on Barbara herself upon activation then every 5s for 4 heals in total, which means other characters can benefit from a maximum of 3 heals.
+** With Barbara's 4th Ascension Passive Talent [[Encore]], Melody Loop's duration can be extended by up to 5s, giving other characters a maximum of 4 heals.
+* This skill consists of two components:
+** "Water droplets" deal two moderately small instances of damage immediately following the first tick of the Melody Loop, with a slightly larger radius than the Melody Loop. These can apply Hydro.
+** The Melody Loop, which begins immediately upon casting this skill, ticks once every 1.5s. This effect is non-damaging and can apply Hydro.
+*** Damage resulting from this Hydro (such as from [[Electro-Charged]] reactions) doesn't trigger the bonuses from artifact sets that rely on damage from skills to activate.
+*** [[Amplifying Reactions]] can be triggered but don't do any damage
+*** [[Transformative Reactions]] cause damage with the damage scaling with Barbara's level and [[Elemental Mastery]]
+*** The [[Unusual Hilichurl]] will become [[Aggravation|aggravated]] upon the application of Hydro from the Melody Loop.
+** {{TalentNote|icd|Droplet DMG|2.5|3|Wet Application on Contact}}
+*** Since the Melody Loop ticks once per 1.5s, and the droplets tick twice between the first and second tick of the Melody Loop, Melody Loop can potentially apply Hydro on its first, second, and third tick, before proceeding afterward to only apply Hydro ''every other'' tick (essentially applying Hydro ''one extra time'' at the beginning of this skill).
+* Due to the intermittent application of the Wet status, this skill can be a source of Hydro [[Elemental Absorption]] from the active character. Depending on the [[Anemo]] skill it is paired with, Elemental Absorption can be difficult because of the need to time the brief Hydro application with the Anemo skill's duration.
+* {{TalentNote|character=Barbara|talent=Let the Show Begin♪|ascension|1|Glorious Season}}
+* {{TalentNote|character=Barbara|talent=Let the Show Begin♪|ascension|2|Encore}}
+
+;<big>Constellation Effects</big>
+* {{TalentNote|constellation|2|Vitality Burst}}
+* {{TalentNote|constellation|5|The Purest Companionship}}
+
+==Preview==
+{{Preview
+|file=Let the Show Begin♪ Preview
+}}
+{{clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Skill
+|levels=13
+|order=hpregenerationperhit,continuousregeneration,dropletdmg,duration,cd
+|titles=HP Regeneration Per Hit,Continuous Regeneration,Droplet DMG (%),Duration,CD
+|hpregenerationperhit_1=0.75% Max HP+72.2
+|hpregenerationperhit_2=0.81% Max HP+79.44
+|hpregenerationperhit_3=0.86% Max HP+87.27
+|hpregenerationperhit_4=0.94% Max HP+95.69
+|hpregenerationperhit_5=0.99% Max HP+104.72
+|hpregenerationperhit_6=1.05% Max HP+114.35
+|hpregenerationperhit_7=1.13% Max HP+124.59
+|hpregenerationperhit_8=1.2% Max HP+135.42
+|hpregenerationperhit_9=1.27% Max HP+146.86
+|hpregenerationperhit_10=1.35% Max HP+158.9
+|hpregenerationperhit_11=1.43% Max HP+171.54
+|hpregenerationperhit_12=1.5% Max HP+184.78
+|hpregenerationperhit_13=1.59% Max HP+198.63
+|continuousregeneration_1=4% Max HP+385.18
+|continuousregeneration_2=4.3% Max HP+423.71
+|continuousregeneration_3=4.6% Max HP+465.44
+|continuousregeneration_4=5% Max HP+510.39
+|continuousregeneration_5=5.3% Max HP+558.54
+|continuousregeneration_6=5.6% Max HP+609.91
+|continuousregeneration_7=6% Max HP+664.48
+|continuousregeneration_8=6.4% Max HP+722.27
+|continuousregeneration_9=6.8% Max HP+783.27
+|continuousregeneration_10=7.2% Max HP+847.47
+|continuousregeneration_11=7.6% Max HP+914.89
+|continuousregeneration_12=8% Max HP+985.52
+|continuousregeneration_13=8.5% Max HP+1059
+|dropletdmg_1=58.4
+|dropletdmg_2=62.78
+|dropletdmg_3=67.16
+|dropletdmg_4=73
+|dropletdmg_5=77.38
+|dropletdmg_6=81.76
+|dropletdmg_7=87.6
+|dropletdmg_8=93.44
+|dropletdmg_9=99.28
+|dropletdmg_10=105.12
+|dropletdmg_11=110.96
+|dropletdmg_12=116.8
+|dropletdmg_13=124.1
+|duration=15s
+|cd=32s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Barbara}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Trivia==
+*{{TalentNote|clap}}
+
+==Other Languages==
+{{Other Languages
+|en      = Let the Show Begin♪
+|zhs     = 演唱，开始♪
+|zhs_rm  = Yǎnchàng, kāishǐ♪
+|zht     = 演唱，開始♪
+|zht_rm  = Yǎnchàng, kāishǐ♪
+|zh_tl   = Show, Begin♪
+|ja      = 公演、開始♪
+|ja_rm   = Kouen, Kaishi♪
+|ja_tl   = Performance, Begin♪
+|ko      = 공연, 시작♪
+|ko_rm   = Gongyeon, Sijak♪
+|ko_tl   = Show, Begin♪
+|es      = Que empiece el concierto ♪
+|es_tl   = Let the Concert Begin ♪
+|fr      = C'est parti pour le show ♪
+|fr_tl   = Let's Go for the Show ♪
+|ru      = Да начнётся шоу♪
+|ru_tl   = Let the Show Begin♪
+|th      = Let the Show Begin♪
+|vi      = Buổi Diễn, Bắt Đầu♪
+|vi_tl   = Show, Begin♪
+|de      = Die Darbietung beginnt ♪
+|de_tl   = The Perfomance Begins ♪
+|id      = Let the Show Begin♪
+|pt      = Que Comece o Espetáculo ♪
+|pt_tl   = Let the Show Begin ♪
+}}
+
+==Change History==
+{{Change History|1.0}}
+<!--
+==References==
+{{Reflist}}
+-->
+==Navigation==
+{{Talent Navbox|Barbara}}
+
+[[es:Que empiece el concierto ♪]]
+[[fr:C'est parti pour le show ♪]]
+[[pt-br:Que Comece o Espetáculo♪]]
+[[th:Let the Show Begin♪]]

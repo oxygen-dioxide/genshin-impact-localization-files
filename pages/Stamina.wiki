@@ -1,0 +1,203 @@
+{{Terminology Infobox
+|image        = Icon Attribute Stamina.png
+|type         = Attributes
+|type2        = Combat
+|type3        = Game Systems
+}}
+'''Stamina''' is a resource/attribute that is used in various combat and movement techniques like [[Sprinting]] (or Dodging), [[Climbing]], [[Swimming]], [[Gliding]], and [[Charged Attack]]s. After not performing any of these actions for 1.5 seconds, Stamina will naturally regenerate at a rate of 25 Stamina per second. The Stamina meter is displayed as a yellow bar to the right of the character in the center of the screen when either depleting or recharging and will automatically hide itself when fully charged. Visually the meter is divided into sections, each representing 100 Stamina each.
+
+It is important to note that Stamina is a shared pool for the entire party and not tracked separately for each member like HP. Therefore, switching characters when running low will not result in any changes.
+
+Various characters' passive talents and food items can help decrease the consumption of Stamina in conditional situations, such as [[Kaeya]]'s [[Hidden Strength]] (Sprinting Stamina consumption reduction) or [[Amber]]'s [[Gliding Champion]] (Gliding Stamina consumption reduction).
+
+==Maximum Stamina==
+The player starts with 100 base Stamina. Each [[Statue of The Seven]] upgrade in [[Mondstadt]] and [[Liyue]] raises maximum Stamina by 7 for the first and second upgrade, and then 8 for the seven remaining upgrades for a total of 70 additional Stamina by Level 10.
+
+The maximum possible Stamina is 240 (70 from Mondstadt's Statues of the Seven and 70 from Liyue's Statues of the Seven).
+{| class="wikitable"
+|-
+! Statue Level!! Cumulative Stamina Bonus
+|-
+|1||+0
+|-
+|2||+7
+|-
+|3||+14
+|-
+|4||+22
+|-
+|5||+30
+|-
+|6||+38
+|-
+|7||+46
+|-
+|8||+54
+|-
+|9||+62
+|-
+|10||+70
+|}
+
+==Stamina Consumption Reduction==
+===Elemental Resonance===
+The {{Element|Anemo|24}} [[Impetuous Winds]] Elemental Resonance decreases stamina consumption by 15%.
+
+===Talents===
+Certain characters have [[Talents]] that modify Stamina consumption.
+{{Talents by Category Table|Stamina Talents|not1=Utility Passives}}
+
+===Utility Passives===
+{{Talents by Category Table|Utility Passives&Stamina Talents}}
+
+===Constellations===
+{{Constellations by Category Table|Stamina Constellations}}
+
+===Food===
+* Eating a second dish will override the effects of the first dish i.e. they do not stack.
+* Food that decreases sprinting Stamina affects both dash and sprint.
+
+{{Food by Category Table|Stamina Reduction Dishes}}
+
+==No Stamina Cost==
+===Talents===
+{{Talents by Category Table|No Stamina Cost Talents}}
+
+===Constellations===
+{{Constellations by Category Table|No Stamina Cost Constellations}}
+
+==Stamina Recovery==
+===Talents===
+{{Talents by Category Table|Stamina Recovery Talents}}
+
+When consumed, the character instantly recovers a set amount of Stamina.
+{{Food by Category Table|Stamina Increase Dishes}}
+
+==Other Source==
+{| class="article-table"
+|-
+!Name!!Effect
+|-
+|[[Anemo Resonance]]
+| Decreases Stamina Consumption by 15%.
+|-
+|[[Elements#Ley Line Disorders|Condensed Ice]]
+| Increases Stamina Consumption by 200% or 100%.
+|-
+|[[Anemograna]]
+| Decreases Stamina Consumption by 30% with 1 or more Anemograna.
+|}
+
+==Stamina Consumption==
+{{stub|This table needs citation and improvement. For relevant data, see the edit history. If you want to write down the stamina cost about '''Charged Attack''' or Mona's special sprinting, you can add them to this table or create another table.}}
+
+All numbers are before Passive Talents or Constellations that modify Stamina cost.
+
+{| class="article-table sortable"
+|-
+! Character
+! Action
+! Stamina Consumption
+|-
+| All Characters
+| Dash
+| 18 per movement
+|-
+| All Characters
+| Sprinting
+| 18 per second
+|-
+| All Characters
+| Climbing
+| Unknown, 5 minimum Stamina is required to start
+|-
+| All Characters
+| Climb-Jump
+| 25 per movement{{cite}}
+|-
+| All Characters
+| Swimming
+| 4 per movement (cost is based on animation, not per second)
+|-
+| All Characters
+| Swim Dash
+| Initially costs 2 Stamina, then 10.2 Stamina per second while moving
+|-
+| All Characters
+| Gliding
+| 3 per second while moving
+|-
+| Most Sword Characters
+| Charged Attack
+| 20
+|-
+| Polearm Characters
+| Charged Attack
+| 25
+|-
+| Most Claymore Characters
+| Charged Attack
+| 40 per second
+|-
+| Catalyst Characters
+| Charged Attack
+| 50
+|-
+| [[Mona]]
+| [[Illusory Torrent]]
+| Initially costs 10 Stamina, then 15 Stamina per second while moving
+|-
+| [[Kamisato Ayaka]]
+| [[Kamisato Art: Senho]]
+| Initially costs 10 Stamina, then 15 Stamina per second while moving
+|-
+| [[Keqing]]
+| Charged Attack
+| 25
+|-
+| [[Arataki Itto]]
+| Charged Attack
+| 20
+|}
+
+==Stamina Consumption Reduction Calculation==
+Different sources of stamina consumption reduction will stack additively.
+
+::<math>\text{Stamina Consumption} = \text{Base Stamina Consumption} \times (1 - \text{Stamina Consumption Reduction}</math><math> - \text{Additional Stamina Consumption Reduction} - \text{Additional Stamina Consumption Reduction} - \text{...})</math>
+
+For example, if the party is under the effects of [[Impetuous Winds]] (-15%), [[Wolvensprint]] (-20%), and Delicious [[Barbatos Ratatouille]] (-25%), the sprinting consumption, which is normally 18 Stamina per second, will decrease to (18 Stamina per second) × (1 - 0.15 - 0.20 - 0.25) = (18 Stamina per second) × (1 - 0.6) = ''7.2 Stamina per second''.
+
+==Other Languages==
+{{Other Languages
+|en       = Stamina
+|zhs      = 体力
+|zhs_rm   = Tǐlì
+|zht      = 體力
+|zht_rm   = Tǐlì
+|zh_tl    = Physical Strength
+|ja       = スタミナ
+|ja_rm    = Sutamina
+|ko       = 스태미나
+|ko_rm    = Seutaemina
+|es       = Aguante
+|es_tl    = 
+|fr       = Endurance
+|fr_tl    = Endurance
+|ru       = Выносливость
+|ru_tl    = 
+|th       = พลังกาย
+|th_rm    = Phlang Kai
+|th_tl    = Physical Power
+|vi       = {{tt|Thể Lực|体力}}
+|vi_tl    = Physical Strength
+|de       = Ausdauer
+|de_tl    = Stamina
+|id       = Stamina
+|pt       = Stamina
+}}
+
+==Navigation==
+{{Exploration Navbox|Systems|state=collapsed}}
+{{Attribute Navbox}}
+
+[[pt-br:Stamina]]

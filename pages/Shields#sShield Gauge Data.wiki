@@ -1,0 +1,606 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Comparison
+|tab3 = Enemy
+|tab4 = Shield Gauge Data
+}}
+{{Community}}
+The following data contain details about elemental shields for the calculation of shield damages for elemental shields.
+
+For some shields, the shield damage only depends on the applied [[element]]al gauge rather than the actual [[damage]]. However, there are some shields where damage does pass through. Moreover, there are some shields that only depend on the [[poise]] damage. See [[Shields/Enemy]] for more info.
+
+The data come from in-game testing and take source data as references.
+
+==Elemental Shields in Co-op==
+Some shields will increase their elemental gauges in Co-op mode.
+
+<math>\text{Gauge}_\text{Elemental Shield} = \text{Base Gauge} \times \text{Co-Op Multiplier}</math>
+
+The '''Co-op Multiplier''' is determined by the amount of players in the same area.
+{| class="article-table"
+! Players !! Multiplier
+|-
+| 2 || 1.5
+|-
+| 3 || 1.7
+|-
+| 4 || 2
+|}
+
+==Enemy Data==
+The following are data on Gauge Units (GU) needed to break enemy shields.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/MonsterAbilities Enemy Shields]</ref><ref>Keqingmains Theorycrafting Library: [https://library.keqingmains.com/enemy-data/mechanics/enemy-shields-armor Enemy Shield Armor]</ref><ref name='ss'>Genshin Academy: [https://docs.google.com/spreadsheets/d/1196OGAGBtFV_wPGwd6jME4JBYDOQdToAP3jhcZshq-I/edit#gid=0 Resistances and Shield/Armor durabilities of monsters]</ref> See [[Shields/Enemy]] for definitions of damage ratio and HP ratio.
+
+;Note on Electro-Charged damage to shields
+
+When Electro-Charged is triggered, Hydro and Electro auras will coexist on the target. Every tick of Electro-Charged reduces the shield and the applied aura by 0.4GU until one of them is depleted. Due to the fact that the amount of ticks per Electro-Charged reaction is ''not'' consistent based on the Gauge Unit of the element applied, the below table will only show the amount of ticks required instead of Gauge Units required to break the shield.
+
+See [[Gauge Unit Theory]] for more details on how reaction gauges are handled.
+
+===Enemy Shield Comparison===
+The following table details the number of elemental gauge units needed to break various enemy shields.
+
+{| class="wikitable tdl1" style="text-align:center;"
+|+ Gauge Units Needed
+|- 
+! rowspan="2" |Enemy!! colspan="7" |Element Used
+|- 
+!{{Icon/Element|Anemo}}!!{{Icon/Element|Geo}}!!{{Icon/Element|Electro}}!!{{Icon/Element|Hydro}}!!{{Icon/Element|Pyro}}!!{{Icon/Element|Cryo}}
+|- 
+|{{Enemy|Pyro Abyss Mage|20}}
+|24
+|24
+|12
+|{{Color|Hydro|6}}
+|Null
+|24
+|- 
+|{{Enemy|Cryo Abyss Mage|20}}
+|24
+|24
+|12
+|Null
+|{{Color|Pyro|6}}
+|Null
+|- 
+|{{Enemy|Hydro Abyss Mage|20}}
+|24
+|24
+|30 Ticks
+|Null
+|24
+|{{Color|Cryo|12}}
+|- 
+|{{Enemy|Electro Abyss Mage|20}}
+|16
+|16
+|Null
+|20 Ticks
+|{{Color|Pyro|8}}
+|{{Color|Cryo|8}}
+|- 
+|{{Enemy|Abyss Herald: Wicked Torrents|20}}
+|72
+|72
+|90 Ticks
+|Null
+|72
+|{{Color|Cryo|36}}
+|- 
+|{{Enemy|Abyss Lector: Violet Lightning|20}}
+|72
+|72
+|Null
+|90 Ticks
+|{{Color|Pyro|36}}
+|{{Color|Cryo|36}}
+|- 
+|{{Enemy|Abyss Lector: Fathomless Flames|20}}
+|144
+|144
+|72
+|{{Color|Hydro|36}}
+|Null
+|144
+|- 
+|{{Enemy|Abyss Lector: Fathomless Flames|20}} (Darkfire Furnace)
+|12
+|12
+|6
+|{{Color|Hydro|3}}
+|Null
+|12
+|- 
+|{{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|20}}
+|{{Color|Anemo|1}}
+| -
+|{{Color|Electro|1}}
+|{{Color|Hydro|1}}
+|{{Color|Pyro|1}}
+|{{Color|Cryo|1}}
+|- 
+|{{Enemy|Fatui Skirmisher - Electrohammer Vanguard|20}}
+|80
+|80
+|Null
+|Null
+|80
+|{{Color|Cryo|4}}
+|- 
+|{{Enemy|Fatui Skirmisher - Hydrogunner Legionnaire|20}}
+|80
+|80
+|{{Color|Electro|10 Ticks}}
+|Null
+|80
+|80
+|- 
+|{{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}}
+|80
+|80
+|80
+|{{Color|Hydro|4}}
+|Null
+|80
+|- 
+|{{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|20}}
+|80
+|80
+|80
+|Null
+|{{Color|Pyro|4}}
+|Null
+|- 
+|{{Enemy|Fatui Skirmisher - Geochanter Bracer|20}}
+|Null
+|Null
+|{{Color|Electro|16}}<ref name="crystallize" group="Note">Requires manually triggering a Crystallize reaction by applying Geo after Electro/Pyro/Hydro/Cryo</ref>
+|{{Color|Hydro|16}}<ref name="crystallize" group="Note" />
+|{{Color|Pyro|16}}<ref name="crystallize" group="Note" />
+|{{Color|Cryo|16}}<ref name="crystallize" group="Note" />
+|- 
+|{{Enemy|Large Cryo Slime|20}}
+|16
+|16
+|8
+|Null
+|{{Color|Pyro|4}}
+|Null
+|- 
+|{{Enemy|Large Geo Slime|20}}
+|Null
+|Null
+|{{Color|Electro|16}}<ref name="crystallize" group="Note" />
+|{{Color|Hydro|16}}<ref name="crystallize" group="Note" />
+|{{Color|Pyro|16}}<ref name="crystallize" group="Note" />
+|{{Color|Cryo|16}}<ref name="crystallize" group="Note" />
+|- 
+|{{Enemy|Electro Slime|20}} ([[Electro Slime#Abilities and Attacks|Electricity]])
+|Null
+|8
+|Null
+|Null
+|{{Color|Pyro|4}}
+|{{Color|Cryo|4}}
+|- 
+|{{Enemy|Large Electro Slime|20}} ([[Large Electro Slime#Abilities and Attacks|Electricity]])
+|Null
+|16
+|Null
+|Null
+|{{Color|Pyro|8}}
+|{{Color|Cryo|8}}
+|- 
+|{{Enemy|Mutant Electro Slime|20}} ([[Mutant Electro Slime#Abilities and Attacks|Electricity]])
+|Null
+|16
+|Null
+|Null
+|{{Color|Pyro|8}}
+|{{Color|Cryo|8}}
+|- 
+|{{Enemy|Fatui Cryo Cicin Mage|20}}
+|8 x Cicins
+|8 x Cicins
+|4 x Cicins
+|Null
+|{{Color|Pyro|2 x Cicins}}
+|Null
+|- 
+|{{Enemy|Cryo Whopperflower|20}}
+|4
+|4
+|2
+|Null
+|{{Color|Pyro|1}}
+|Null
+|- 
+|{{Enemy|Pyro Whopperflower|20}}
+|4
+|4
+|2
+|{{Color|Hydro|1}}
+|Null
+|4
+|- 
+|{{Enemy|Electro Whopperflower|20}}
+|{{Color|Anemo|1}}
+|{{Color|Geo|1}}
+|Null
+|{{Color|Hydro|1 Tick}}
+|{{Color|Pyro|1}}
+|{{Color|Cryo|1}}
+|- 
+|{{Enemy|Frostarm Lawachurl|20}}
+|60
+|60
+|30
+|Null
+|{{Color|Pyro|15}}
+|Null
+|- 
+|{{Enemy|Thunderhelm Lawachurl|20}}
+|32
+|32
+|Null
+|Null
+|{{Color|Pyro|18}}
+|{{Color|Cryo|18}}
+|- 
+|{{Enemy|Thunderhelm Lawachurl|20}} (Electro Shards)
+|6
+|6
+|Null
+|Null
+|{{Color|Pyro|3}}
+|{{Color|Cryo|3}}
+|- 
+|{{Enemy|Pyro Regisvine|20}} (Core)
+|24
+|24
+|12
+|{{Color|Hydro|6}}
+|Null
+|24
+|- 
+|{{Enemy|Pyro Regisvine|20}} (Corolla)
+|12
+|12
+|6
+|{{Color|Hydro|3}}
+|Null
+|12
+|- 
+|{{Enemy|Cryo Regisvine|20}} (Core)
+|24
+|24
+|12
+|Null
+|{{Color|Pyro|6}}
+|Null
+|- 
+|{{Enemy|Cryo Regisvine|20}} (Corolla)
+|12
+|12
+|6
+|Null
+|{{Color|Pyro|3}}
+|Null
+|- 
+|{{Enemy|Ice Shieldwall Mitachurl|20}} (Ice Shield)
+| -
+| -
+| -
+|Null
+|{{Color|Pyro|6}}
+|Null
+|- 
+|{{Enemy|Blazing Axe Mitachurl|20}} (Infused Axe)
+|8
+|8
+|4
+|{{Color|Hydro|2}}
+|Null
+|8
+|- 
+|{{Enemy|Crackling Axe Mitachurl|20}} (Infused Axe)
+|6
+|6
+|Null
+|Null
+|{{Color|Pyro|3}}
+|{{Color|Cryo|3}}
+|- align="center"
+|{{Enemy|Hilichurl Grenadier|20}} (Dug up Pyro Slime)
+|2
+|2
+|{{Color|Electro|1}}
+|{{Color|Hydro|1}}
+|Null
+|{{Color|Cryo|1}}
+|- 
+|{{Enemy|Cryo Samachurl|20}} (Pillars)
+|24
+|24
+|12
+|Null
+|{{Color|Pyro|6}}
+|Null
+|-
+|{{Enemy|Andrius|20}} (Pillars)
+|24
+|24
+|12
+|Null
+|{{Color|Pyro|6}}
+|Null
+|- 
+|{{Enemy|Pyro Hypostasis|20}} (Shield)
+|56
+|56
+|28
+|{{Color|Hydro|14}}
+|Null
+|56
+|- 
+|{{Enemy|Hydro Hypostasis|20}} (Summons)
+|4
+|4
+|5 Ticks
+|Null
+|4
+|{{Color|Cryo|2}}
+|- 
+|{{Enemy|La Signora|20}}
+|120
+|120
+|60
+|Null
+|{{Color|Pyro|30}}
+|Null
+|- 
+|{{Enemy|Fellflower|20}}
+|200
+|200
+|100
+|Null
+|{{Color|Pyro|50}}
+|Null
+|- 
+|{{Enemy|Shadowy Husk: Standard Bearer|20}}
+|12
+|12
+|6
+|{{Color|Hydro|3}}
+|Null
+|12
+|- 
+|{{Enemy|Magatsu Mitake Narukami no Mikoto|20}}
+|192
+|192
+|Null
+|240 Ticks
+|{{Color|Pyro|96}}
+|{{Color|Cryo|96}}
+|}
+
+===Enemy Element Force Shield===
+The damage ratio is '''0.2''', and the shield HP ratio is 1.
+
+Damage from characters cannot bypass the shield.
+
+Elemental gauges of shields '''will''' increase in Co-op Mode.
+
+{| class="article-table sortable"
+! Enemy !! Element !! Gauge Units !! Other
+|-
+| {{Enemy|Large Cryo Slime|20}} || {{Color|Cryo|Frozen}} || 8 ||
+|-
+| {{Enemy|Large Geo Slime|20}} || {{Color|Geo}} || 8 ||
+|-
+| {{Enemy|Pyro Abyss Mage|20}} || {{Color|Pyro}} || 12 ||
+|-
+| {{Enemy|Cryo Abyss Mage|20}} || {{Color|Cryo|Frozen}} || 12 ||
+|-
+| {{Enemy|Hydro Abyss Mage|20}} || {{Color|Hydro}} || 12 ||
+|-
+| {{Enemy|Electro Abyss Mage|20}} || {{Color|Electro}} || 8 ||
+|-
+| {{Enemy|Abyss Herald: Wicked Torrents|20}} || {{Color|Hydro}} || 36 ||
+|-
+| {{Enemy|Abyss Lector: Violet Lightning|20}} || {{Color|Electro}} || 36 ||
+|-
+| {{Enemy|Abyss Lector: Fathomless Flames|20}} || {{Color|Pyro}} || 72 || Reduced by 12 gauges when Darkfire Furnace is destroyed
+|-
+| {{Enemy|Fatui Electro Cicin Mage|20}} || {{Color|Electro}} || 8 || The shield only lasts for 12.5 seconds and the gauge of the shield will slowly decay. The decay rate won't change in co-op mode.
+|-
+| {{Enemy|Fatui Cryo Cicin Mage|20}} || {{Color|Cryo|Frozen}} || 12/8/4 || The number of Cryo Cicins will affect the gauge of the shield (4 GU per 1 Cicin).
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} || {{Color|Hydro}} || 2 ||
+|-
+| {{Enemy|La Signora|20}} || {{Color|Cryo|Frozen}} || 60 ||
+|-
+| {{Enemy|Shadowy Husk: Standard Bearer|20}} || {{Color|Pyro}} || 6 || The shield only lasts for 15 seconds
+|}
+
+===Enemy Element Guard Shield===
+The damage ratio is '''0.2''', and the shield HP ratio is 1.
+
+Damage from characters cannot bypass the shield.
+
+Elemental gauges of shields will not increase in Co-op Mode.
+
+{| class="article-table sortable"
+! Enemy !! Element !! Gauge Units !! Other
+|-
+| {{Enemy|Wooden Shield Hilichurl Guard|20}} || {{Color|Dendro}} || 2 || -
+|-
+| {{Enemy|Rock Shield Hilichurl Guard|20}} || {{Color|Geo}} || 8 || -
+|-
+| {{Enemy|Ice Shield Hilichurl Guard|20}} || {{Color|Cryo|Frozen}} || 8 || The elemental gauge of the shield will slowly recover overtime.
+|-
+| {{Enemy|Wooden Shieldwall Mitachurl|20}} || {{Color|Dendro}} || 4 || -
+|-
+| {{Enemy|Rock Shieldwall Mitachurl|20}} || {{Color|Geo}} || 19 || -
+|-
+| {{Enemy|Ice Shieldwall Mitachurl|20}} || {{Color|Cryo|Frozen}} || 10 || -
+|}
+
+===Enemy Element Armor===
+The damage ratio is 0, and the shield HP ratio is 1.
+
+Damage from characters '''can''' bypass the shield.
+
+Elemental gauges of shields will not increase in Co-op Mode.
+
+{| class="article-table sortable"
+! Enemy !! Element !! Gauge Units !! Other
+|-
+| {{Enemy|Cryo Whopperflower|20}} || {{Color|Cryo|Frozen}} || 2 ||
+|-
+| {{Enemy|Pyro Whopperflower|20}} || {{Color|Pyro}} || 2 ||
+|-
+| {{Enemy|Electro Whopperflower|20}} || {{Color|Electro}} || 0.4 ||
+|-
+| {{Enemy|Cryo Regisvine|20}} (Root) || {{Color|Cryo|Frozen}} || 12 ||
+|-
+| {{Enemy|Cryo Regisvine|20}} (Corolla) || {{Color|Cryo|Frozen}} || 6 ||
+|-
+| {{Enemy|Pyro Regisvine|20}} (Root) || {{Color|Pyro}} || 12 ||
+|-
+| {{Enemy|Pyro Regisvine|20}} (Corolla) || {{Color|Pyro}} || 6 ||
+|-
+| {{Enemy|Stonehide Lawachurl|20}} || {{Color|Geo}} || 20 || The shield only lasts for 90 seconds
+|-
+| {{Enemy|Frostarm Lawachurl|20}} || {{Color|Cryo|Frozen}} || 30 || The shield only lasts for 90 seconds
+|-
+| {{Enemy|Thunderhelm Lawachurl|20}} || {{Color|Electro}} || 18 || The shield only lasts for 90 seconds
+|-
+| {{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}} || {{Color|Pyro}} || 8 || This enemy uses the special Decrease Ratio.
+|-
+| {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|20}} || {{Color|Cryo|Frozen}} || 8 || This enemy uses the special Decrease Ratio.
+|-
+| {{Enemy|Fatui Skirmisher - Hydrogunner Legionnaire|20}} || {{Color|Hydro}} || 4 || This enemy uses the special Decrease Ratio.
+|-
+| {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|20}} || {{Color|Electro}} || 8 || This enemy uses the special Decrease Ratio.
+|-
+| {{Enemy|Fatui Skirmisher - Geochanter Bracer|20}} || {{Color|Geo}} || 8 ||
+|-
+| {{Enemy|Fellflower|20}} || {{Color|Cryo|Frozen}} || 100 ||
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} || {{Color|Electro}} || 96 ||
+|}
+
+===Object Shield From Enemy===
+The damage ratio is 0, and the shield HP ratio is 1.
+
+Damage from characters can not bypass the shield.
+
+Elemental gauges of shields will not increase in Co-op Mode.
+
+{| class="article-table sortable"
+! Enemy !! Element !! Gauge Units !! Other
+|-
+| {{Enemy|Geo Hypostasis|20}} (Normal Pillar) || {{Color|Geo}} || 24 ||
+|-
+| {{Enemy|Geo Hypostasis|20}} (Reborn Pillar) || {{Color|Geo}} || 8 ||
+|-
+| {{Enemy|Geo Hypostasis|20}} (Small Pillar) || {{Color|Geo}} || 3 ||
+|-
+| {{Enemy|Dendro Slime|20}} (Leaves) || {{Color|Dendro}} || 2 ||
+|-
+| {{Enemy|Large Dendro Slime|20}} (Large Flower) || {{Color|Dendro}} || 8 ||
+|-
+| {{Enemy|Geo Samachurl|20}} (Pillar) || {{Color|Geo}} || 12 ||
+|-
+| {{Enemy|Cryo Samachurl|20}} (Pillar) || {{Color|Cryo|Frozen}} || 12 ||
+|-
+| {{Enemy|Dendro Samachurl|20}} (Thorny Vines) || {{Color|Dendro}} || 1.2 ||
+|-
+| {{Enemy|Hilichurl Fighter|20}} (Wooden Club) || {{Color|Dendro}} || 12 ||
+|-
+| {{Enemy|Electro Hypostasis|20}} (Particle) || {{Color|Electro}} || 3 || The reaction coefficient is 0 for Electro and Hydro, 1 for other elements
+|-
+| {{Enemy|Pyro Regisvine|20}} (Small Pyro Flower) || {{Color|Pyro}} || 2 ||
+|-
+| {{Enemy|Andrius|20}} (Frozen Pillar) || {{Color|Cryo|Frozen}} || 12 ||
+|-
+| {{Enemy|Cryo Hypostasis|20}} (Reborn Shield) || {{Color|Cryo|Frozen}} || 88 ||
+|-
+| {{Enemy|Pyro Hypostasis|20}} (Initial Shield) || {{Color|Pyro}} || 28 ||
+|-
+| {{Enemy|Pyro Hypostasis|20}} (Particle) || {{Color|Pyro}} || 2 ||
+|-
+| {{Enemy|Thunderhelm Lawachurl|20}} (Electro Shards) || {{Color|Electro}} || 3 ||
+|-
+| {{Enemy|Abyss Lector: Fathomless Flames|20}} (Darkfire Furnace) || {{Color|Pyro}} || 6 || Reduces main shield by 12 gauges when destroyed
+|-
+| {{Enemy|Ruin Serpent|20}} (Yellow Rock) || {{Color|Geo}} || 2 ||
+|}
+
+===Enemy Special Shield===
+For [[Fatui Skirmisher - Anemoboxer Vanguard]]s, their shields are special.
+*Except Physical and Geo attacks, attacks with other elements will make him shut down the shield and do a counterattack.
+*Damage from characters '''can not''' bypass the shield.
+
+==Object Shield==
+''Information sourced from [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/GadgetAbilities Source Data for Object Shields]''
+
+The damage ratio is 0, and the shield HP ratio is 1.
+
+Damage from characters can not bypass the shield.
+
+Elemental gauges of shields will not increase in Co-op Mode.
+
+{| class="wikitable sortable"
+! Object !! Element !! Gauge Units !! Other
+|-
+| [[Iron Chunk|Iron Ore]] || {{Color|Geo}} || 0.4 ||
+|-
+| [[White Iron Ore|White Iron Chunk]] || {{Color|Geo}} || 0.4 ||
+|-
+| [[Starsilver]] Ore || {{Color|Geo}} || 0.4 ||
+|-
+| [[Crimson Crystal]] Ore || {{Color|Geo}} || 0.4 ||
+|-
+| [[Crystal Chunk|Crystal Ore]] || {{Color|Geo}} || 4 ||
+|-
+| [[Magical Crystal Chunk|Magical Crystal Ore]] || {{Color|Geo}} || 4 ||
+|-
+| [[Noctilucous Jade]] Ore || {{Color|Geo}} || 4 ||
+|-
+| [[Cor Lapis]] Ore || {{Color|Geo}} || 4 ||
+|-
+| [[Amber Rock]]s (Mt. Hulao) || {{Color|Geo}} || 2 ||
+|-
+| [[Geograna]] || {{Color|Geo}} || 2 ||
+|-
+| Stone Wall in Expeditions || {{Color|Geo}} || 1 ||
+|-
+| [[Rock Pile]]s || {{Color|Geo}} || 0.4 ||
+|-
+| [[Ancient Rime]] (Dragonspine) || {{Color|Cryo|Frozen}} || 2 ||
+|-
+| Cryo Infusion Stones (Dragonspine) || {{Color|Cryo|Frozen}} || 4 ||
+|-
+| Pyro [[Infusion Stone]]s || {{Color|Geo}} || 4 ||
+|-
+| Electro [[Infusion Stone]]s || {{Color|Geo}} || 4 ||
+|-
+| Thorns || {{Color|Dendro}} || 1.2 ||
+|-
+| Bushes || {{Color|Dendro}} || 1.2 ||
+|-
+| Wooden Crates || {{Color|Dendro}} || 1.2 ||
+|-
+| Wooden Barrels || {{Color|Dendro}} || 1.2 ||
+|-
+| Haystacks || {{Color|Dendro}} || 2 ||
+|-
+| [[Grass]]land || {{Color|Dendro}} || 4.8 ||
+|}
+
+==Notes==
+{{Reflist|note=1}}
+
+==References==
+{{Reflist}}

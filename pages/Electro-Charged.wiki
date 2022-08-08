@@ -1,0 +1,111 @@
+{{See Also|Gauge Unit Theory}}
+{{Terminology Infobox
+|image        = Reaction Electro-Charged.png
+|caption      = Elements that trigger the Electro-Charged reaction (Electro and Hydro)
+|type         = Elemental Reactions
+|type2        = Combat
+|type3        = Game Systems
+}}
+{{Elemental Reaction Intro|element1=Electro|element2=Hydro}}
+
+==Overview==
+Electro-Charged targets will have both a [[Hydro]] and an [[Electro]] aura simultaneously. Electro-Charged DMG ticks once per second. Every tick reduces the Hydro and Electro auras of affected targets by 0.4 [[gauge unit]]s, and the ticks will stop once one of the auras is depleted. Note that the normal decay of elemental aura will still apply during Electro-Charged.
+
+The coexistence of elements also allows for multiple reactions to be triggered on an Electro-Charged target if a third element is applied (namely [[Overloaded]] + [[Vaporize]], [[Superconduct]] + [[Frozen]], and Electro + Hydro [[Swirl]]). However, when triggering reactions on an Electro-Charged target, the Electro reaction is prioritized, and the Hydro reaction will only be triggered if there are still gauge units of the triggering element left over after depleting the Electro aura. Set effects like [[Thundersoother]] can also be applied without forgoing elemental reactions entirely.<ref name = "EC">KeqingMains Theorycrafting Library: [https://docs.google.com/document/d/e/2PACX-1vSEovpheHaeum4Ba0MlNdfyOTsJ-wZzDmBof13bVztYtKDi6OQhLqNdwEkEApo6vvtAV0L_tMal2ZTN/pub#h.6crtulvx1dlt Section on Electro-Charged]</ref>
+
+==Damage==
+{{See also|Damage#Transformative Reaction Damage|Level Scaling/Reaction}}
+Electro-Charged Damage is only affected by the level and [[Elemental Mastery]] of the character causing the reaction, and the target's [[Electro RES]]. It ignores the target's [[DEF]] and the attacker's [[ATK]], and it cannot deal [[Critical Hit]]s.
+
+{| class="article-table"
+|-
+!Level
+!1!!10!!20!!30!!40!!50!!60!!70!!80!!90!!100
+|-
+|'''Base Damage'''<br />(Characters)
+|20.6||41||96.7||163.6||248.9||388.3||591.5||918.8||1292.6||1736.2||—
+|-
+|'''Base Damage'''<br />(Enemies/Environment)
+|20.6||41||96.7||163.6||248.9||388.3||588.6||864.2||1135.6||1443.4||2009.8
+|}
+
+The Elemental Mastery bonus and any the target's Resistance multiplier are applied multiplicatively with the Base Damage.
+
+==Number of Hits==
+Electro-Charged deals damage immediately and continues to tick once every second for as long as it lasts. If Electro-Charged ends from either the Hydro or Electro aura expiring, another tick of damage will be dealt if over 0.5 seconds have passed since the last tick. Ticks of Electro-Charged will reduce the timers on both the Hydro and Electro auras unless the reduction would remove said aura.<ref name = "EC" />
+
+Electro-Charged will also deal damage to nearby targets with the Hydro status, but will not apply an Electro aura.<ref>Reddit: [https://www.reddit.com/r/Genshin_Impact/comments/j9213p/elemental_shield_weaknesses_and_elemental/ Elemental Shield Weaknesses]</ref>
+
+==Environment==
+If an Electro attack hits a body of [[water]], the water will become Electro-Charged for a short amount of time and any target that walks into it will take {{Color|Electro DMG}}. Electro-Charged Water can cause [[Overloaded]] and [[Superconduct]] when attacked with Pyro and Cryo respectively.
+
+==Immunity Talents==
+The following talents grant immunity to the Electro-Charged reaction.
+
+{{Talents by Category Table|Electro-Charged Immunity Talents}}
+
+==Tutorial==
+{{See also|Elemental Trial}}
+[[File:Tutorial Elemental Trial Electro-Charged 1.png|200px|thumb|left]]
+When {{Electro}} meets {{Hydro}}, Electro-Charged occurs. Electro-Charged continuously deals {{Color|Electro DMG}} until it wears off. Additionally, opponents affected by Electro-Charged will electrify nearby Wet opponents, dealing {{Color|Electro DMG}}.
+[[File:Tutorial Elemental Trial Electro-Charged 2.png|200px|thumb|left]][[File:Tutorial Elemental Trial Electro-Charged 3.png|200px|thumb|left]]
+Use {{Hydro}} attacks in battle to make opponents Wet. Then, switch to an {{Electro}} character and use {{Electro}} attacks to trigger Electro-Charged and defeat your opponents swiftly!
+{{Clr}}
+
+==Artifacts==
+These artifact sets increase the damage from Electro-Charged reactions.
+
+{{Artifacts by Category Table|Electro-Charged DMG Increase Artifacts}}
+
+==Gallery==
+{{Preview
+|file1=Status Electro-Charged Player
+|caption1=A character affected by Electro-Charged
+
+|file2=Status Electro-Charged Enemy
+|caption2=Electro-Charged passing through enemies
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Electro-Charged
+|zhs     = 感电
+|zhs_rm  = Gǎn Diàn
+|zht     = 感電
+|zht_rm  = Gǎn Diàn
+|zh_tl   = 
+|ja      = 感電
+|ja_rm   = Kanden
+|ja_tl   = Electric Shock
+|ko      = 감전
+|ko_rm   = Gamjeon
+|ko_tl   = Electric Shock
+|es      = Electrocargado
+|es_tl   = Electro-Charged
+|fr      = Électrocution
+|fr_tl   = Electrocution
+|ru      = Заряжен
+|ru_tl   = Charged
+|th      = ชาร์จไฟฟ้า
+|th_rm   = Chage Faifa
+|th_tl   = Electrically Charged
+|vi      = Điện Cảm
+|vi_tl   = Inductance
+|de      = Unter Strom
+|de_tl   = Electrically Charged
+|id      = Electro-Charged
+|pt      = Carregado Eletricamente
+|pt_tl   = Electrically Charged
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Element Navbox}}
+
+[[es:Electrocargado]]
+[[pt-br:Eletricamente Carregado]]

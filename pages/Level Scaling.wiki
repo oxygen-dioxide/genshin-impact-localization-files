@@ -1,0 +1,77 @@
+{{CustomTabs|tab1=Overview|tab2=Reaction|tab3=Enemy|tab4=Weapon|tab5=Character|tab6=Talents}}
+In Genshin Impact, most curves for '''level scaling''' are irregular functions.
+
+For the purpose of calculations, this page collects data about level scaling.
+
+Data in subpages are tabulated and sorted.
+
+==Level Scaling in Reactions==
+{{Main|Level Scaling/Reaction}}
+
+For Transformative Reaction, the base damage is determined by the base multiplier and the level multiplier.
+
+For Crystallize, the base shield HP is determined by the level.
+
+==Level Scaling in Enemies==
+{{Main|Level Scaling/Enemy}}
+
+For enemies, their HP, ATK and DEF are determined by '''base values''', '''level multipliers''' and '''special multipliers'''.
+
+For animals, most of them have 0 Base DEF and 0 Base Resistance. Their level HP multipliers are 1 for all levels. Their level ATK multiplier are the same as the multipliers of enemies.
+
+==Level Scaling in Artifacts==
+The value of the main stat in the artifact are determined by the level.
+
+For the sub stat in the artifact, it is also related to the level of the artifact.
+
+Every 4 enhancement levels, an artifact sub-stat gets added or increased:
+*If the artifact has fewer than 4 sub-stats, it gains a new random sub-stat with a random value from the table above.
+*If the artifact already has 4 sub-stats, a random sub-stat is increased by a random amount from the table above.
+
+Values in UI are rounded, but the actual values used in the game are decimals with more digits.
+
+For values in UI, see [[Artifacts/Main Stat Scaling]] and [[Artifacts#Sub Stats]]
+
+Values with more digits can be checked in GitHub<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/ReliquaryMainPropExcelConfigData.json Artifact Main Stats]</ref><ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/ReliquaryAffixExcelConfigData.json Artifact Sub Stats]</ref>
+
+==Level Scaling in Weapons==
+The main stat values of weapons are determined by '''base values''', '''level multipliers''' and '''ascension values'''.
+
+The sub stat values of weapons are determined by '''base values''' and '''the level multiplier'''.
+
+The values for sub stats will increase per 5 levels of the weapon.
+
+For data in brief, see [[Weapons/Base Attack Scaling]] and [[Weapons/Sub Stat Scaling]].
+
+For complex calculations, see [[Level Scaling/Weapon]].
+
+==Level Scaling in Characters==
+For characters, their HP, ATK and DEF are determined by '''base values''', '''level multipliers''' and '''ascension values'''.
+
+For their bonus attributes, values are determined by '''base values''' and the '''ascension multiplier'''.
+
+The values for bonus attributes will increase in the 2nd/3rd/5th/6th ascension phase.
+
+For data in the max level, see [[Characters/Comparison]].
+
+For complex calculations, see [[Level Scaling/Character]].
+
+==Level Scaling in Talents==
+The talent attribute values are determined by '''base multiplier''' and '''level multipliers'''.
+
+For data in brief, see [[Talents#Combat Talent Scaling]].
+
+For complex calculations, see [[Level Scaling/Talents]].
+
+Values with more digits can be checked in GitHub.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/ProudSkillExcelConfigData.json Talent Scalings]</ref>
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox}}
+
+[[Category:Game Systems]]

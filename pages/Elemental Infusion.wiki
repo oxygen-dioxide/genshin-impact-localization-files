@@ -1,0 +1,193 @@
+{{Terminology Infobox
+|type         = Combat
+}}
+'''Elemental Infusions''' refer to when [[Normal Attack]]s are converted to [[Elements|elemental damage]] (usually for [[Claymore]], [[Polearm]], and [[Sword]] users).
+
+[[Bennett]]'s and [[Chongyun]]'s infusions will apply to the whole team. Other infusions will only apply to a single character.
+All [[catalyst]] and fully-charged [[bow]] attacks are infused with the bearer's element, though some bow users like [[Tartaglia]], [[Yoimiya]], and [[Aloy]] can convert their attacks to elemental damage in different ways as well.
+
+Different sources of Infusions can cause [[Elemental Reactions]] on infused weapons and override each other. For example, when both Chongyun and Bennett's infusion fields overlap, it is possible for the weapon infusion to oscillate. This can be explained via [[Gauge Unit Theory]].
+
+'''Elemental Conversions''' work similarly to Elemental Infusions, which convert Normal Attacks to elemental damage. However, unlike Elemental Infusions, Elemental Conversions function by giving characters a different moveset instead of adding elemental DMG to an existing one. They '''cannot''' be overridden and usually have more detailed visual and sound effects.
+
+==Elemental Infusions==
+===Talents===
+{{Talents by Category Table|Elemental Infusion Talents|not1=Elemental Conversion Talents}}
+
+===Constellations===
+{{Constellations by Category Table|Elemental Infusion Constellations|not1=Elemental Conversion Talents}}
+
+==Elemental Conversions==
+===Talents===
+These talents cannot be overridden by other infusions.
+{{Talents by Category Table|Elemental Conversion Talents}}
+
+===Constellations===
+{{Constellations by Category Table|Elemental Conversion Constellations}}
+
+==Overriding Infusions==
+{{See also|Gauge Unit Theory}}
+When multiple infusion skills are used at once, infusions can be overridden by others (unless otherwise stated). The mechanism can be explained via [[Gauge Unit Theory]].
+* [[Diluc]]'s Pyro infusion can override Chongyun's infusion
+* [[Keqing]]'s Electro infusion is overridden by Chongyun's infusion or Bennett's infusion
+* [[Kazuha]]'s Anemo infusion gained from his 6th Constellation can be overridden by the field infusions. The field infusion from Bennett or Chongyun will react with Kazuha's Anemo infusion and consume it, creating a [[Swirl]] reaction. After that, Kazuha's Anemo infusion will be overridden by the field infusion.
+**The swirl damage scales off the [[Elemental Mastery]] of the character who created the field (Chongyun or Bennett), not Kazuha's.
+
+When two overridable infusions of the same element are applied simultaneously upon a weapon, the infusion of the weapon will temporarily change. For example, when using Ayaka's infusion inside both Chongyun's and Bennett's infusion fields, the elemental infusion will temporarily be Cryo before switching back to Pyro. When two of Chongyun's fields overlap with Bennett's field, there will be short periods where Bennett's infusion is not applied, and the elemental infusion of the weapon will oscillate between Cryo and Pyro.<!--The infusion of Cryo in this instance is (possibly) due to an elemental gauge.--><ref name='oscillate'>Imgur: [https://imgur.com/a/wAchZUi GIF showing the infusion oscillating between Cryo and Pyro within Chongyun and Bennett's fields]</ref>
+
+===Infusion Priority===
+The following table describes which elemental infusion will take precedence when multiple characters' infusion skills are used. Note that '''C''' followed by a number denotes [[Constellation]] number.
+
+{| class="article-table"
+|+Infusion Priority
+!
+!'''Bennett (C6 field)'''
+!'''Chongyun field'''
+|-
+|'''Bennett (C6)'''
+| -
+|{{Icon/Element|Pyro}}/{{Icon/Element|Cryo}}<ref name='oscillate' />
+|-
+|'''Chongyun'''
+|{{Icon/Element|Pyro}}/{{Icon/Element|Cryo}}<ref name='oscillate' />
+| -
+|-
+|'''Diluc'''
+|{{Icon/Element|Pyro}}
+|{{Icon/Element|Pyro}}
+|-
+|'''Kaedehara Kazuha (C6)'''
+|{{Icon/Element|Pyro}}
+|{{Icon/Element|Cryo}}
+|-
+|'''Kamisato Ayaka'''
+|{{Icon/Element|Pyro}}
+|{{Icon/Element|Cryo}}
+|-
+|'''Keqing'''
+|{{Icon/Element|Pyro}}
+|{{Icon/Element|Cryo}}
+|}
+
+===Weapon Gauge Units===
+The table gives the illusion that the ''observed'' infusion priorities (for the overridable infusions) are:
+
+{{Icon/Element|Pyro}} ← {{Icon/Element|Cryo}} ← {{Icon/Element|Anemo}}{{Icon/Element|Electro}}
+
+However, this may be false. There may be another way of explaining how infusions are overridden via [[Gauge Unit Theory]].
+
+It may be that any infusion can override the other. It is just that some infusions can naturally refresh themselves quickly, whereas others may not (or require manual refreshing). The infusions that can automatically refresh themselves include those of Bennett, Chongyun, and Diluc.
+* The external infusion fields provided by Chongyun or Bennett will apply an elemental aura to the character's weapon periodically.
+* If the weapon is infused with say Anemo or Electro, the field will consume that element (consume the weapon's elemental gauge) and replace it with the field infusion element. For example:
+** Keqing's Electro infusion will be consumed by Bennett or Chongyun's fields, replacing her attacks with Pyro or Cryo. Unless Keqing refreshes her Electro infusion (by using her skill again), her attacks will remain Pyro or Cryo within the field (and Physical outside the field).
+** Likewise, Ayaka's Cryo infusion will be consumed by Bennett's field, replacing her attacks with Pyro. Unless Ayaka refreshes her Cryo infusion (by using her Alternate Sprint), her autoattacks will not be Cryo anymore.
+** On the other hand, Diluc can refresh his Pyro infusion (every 0.5 seconds), so even if Chongyun's field consumes his weapon's Pyro infusion, Diluc can automatically refresh the Pyro infusion, giving the illusion that Diluc's infusion is not overridden.
+** Kazuha's Constellation 6 Anemo Infusion will also be consumed by Bennett and Chongyun's fields, and the Anemo infusion will not be refreshed unless he uses his skill or burst again.
+* When both Chongyun and Bennett's fields are used and superimposed, the weapon infusion will oscillate between Cryo and Pyro periodically. For example, in terms of weapon gauges, Bennett's weapon will initially be infused with Pyro, then be consumed by Chongyun's Cryo field, briefly infusing Bennett's weapon with Cryo. But then Bennett's field will re-apply Pyro and consume the infusion, infusing Bennett's weapon with Pyro again. And the cycle continues.
+
+From in-game testing, it has been determined that:
+* Bennett and Chongyun's fields apply an elemental aura to weapons every 1 second.
+* When the field infusions apply the elemental aura, they can cause [[Elemental Reactions]] based on the field caster's [[Elemental Mastery]] (as is demonstrated with Bennett and Chongyun's fields [[Swirl]]ing with Kazuha's Constellation 6 Anemo infusion).
+** The reactions caused by field and weapon infusions appear to follow the reaction modifier rules described in [[Gauge Unit Theory]].
+* The weapon aura functions similarly to character self-auras and can change immediately when the external field applies a different elemental gauge to it.
+
+===Permanent Infusions===
+Bow characters can infuse their arrows with their corresponding elements ("Arrow Infusions"). These infused arrows can create Elemental Reactions when interacting with the environment. For example, it has been observed that:
+* Venti's Anemo infused arrows can Swirl in the rain.
+* Amber's Pyro infused arrows can Vaporize in the rain (as indicated by rising smoke from the arrows).
+* Electro and Hydro infused arrows can also cause reactions, but Cryo infused arrows do not appear to react.
+
+However even with elemental reactions, the arrows will retain the infused aura on them. They are not overridden. This suggests the infused arrows may have a permanent elemental aura on them similar to some [[Slimes]]. It may be possible that the Elemental conversions for certain characters (i.e. the non-overridable infusions for Hu Tao, Noelle, Tartaglia, Xiao, etc.) also apply a similar "infinite gauge" or "permanent aura" to the weapon, like the permanent aura on slimes such as Hydro and Electro Slimes.
+
+==Comparison==
+Some infusions will end when the character is switched out. Others will remain for its intended duration, so one can switch to a different character and switch back to the infused character, and the infusion will remain before its expiration.
+
+{| class="wikitable"
+!When switching out
+!Characters
+|-
+|Infusion remains
+|{{Card List|Aloy, Bennett, Chongyun, Noelle, Diluc, Kamisato Ayaka, Keqing, Kazuha, Yelan}}
+|-
+|Infusion ends
+|{{Card List|Arataki Itto, Hu Tao, Raiden Shogun, Tartaglia, Kamisato Ayato, Xiao, Yoimiya}}
+|}
+
+Some infusions only apply to the individual. Others apply to the whole team.
+
+{| class="wikitable"
+!
+!Characters
+|-
+|Individual
+|{{Card List|Noelle, Aloy, Arataki Itto, Diluc, Hu Tao, Kazuha, Kamisato Ayaka, Keqing, Raiden Shogun, Tartaglia, Kamisato Ayato, Xiao, Yoimiya, Yelan}}
+|-
+|Team
+|{{Card List|Bennett, Chongyun}}
+|}
+
+===Infusions by Element===
+This table sorts characters' infusions by element.
+{| class="wikitable tdc1"
+!Element!!Character
+|-
+|{{Icon/Element|Anemo|30|link=1}}
+|{{Card List|Kazuha, Xiao}}
+|-
+|{{Icon/Element|Cryo|30|link=1}}
+|{{Card List|Chongyun, Aloy, Kamisato Ayaka}}
+|-
+|{{Icon/Element|Electro|30|link=1}}
+|{{Card List|Keqing, Raiden Shogun}}
+|-
+|{{Icon/Element|Geo|30|link=1}}
+|{{Card List|Noelle, Arataki Itto}}
+|-
+|{{Icon/Element|Hydro|30|link=1}}
+|{{Card List|Tartaglia, Kamisato Ayato, Yelan}}
+|-
+|{{Icon/Element|Pyro|30|link=1}}
+|{{Card List|Bennett, Diluc, Hu Tao, Yoimiya}}
+|}
+
+==Enemies==
+Certain enemies can utilize Elemental Infusion or Elemental Conversion.
+
+===Elemental Infusion===
+When infused, some enemies themselves, or their weapons will be inflicted by the element in question, and are able to [[Elemental Reactions|react]] with other elements, or be [[Elemental Absorption|absorbed]] by certain {{Anemo}} abilites. Infused entities, whether an enemy or a weapon used by an enemy, function similarly to [[shields]], and their elemental status can be removed after sufficient [[Gauge Unit Theory|gauges]] of the correct elements are applied, removing the infusion as a result. Such enemies include:
+
+{{Enemies by Category List|Elemental Infusion Enemies|header=1|h=4}}
+
+===Elemental Conversion===
+Enemies that utilize Elemental Conversion can convert their existing attacks to a different element. However, they or their weapons will not be inflicted with an element, and are unable to react with other elements, unlike in the case of an infusion. Such enemies include:
+
+{{Enemies by Category List|Elemental Conversion Enemies|header=1|h=4}}
+
+==Notes==
+*Infused and Converted melee attacks cannot chop trees for [[wood]].
+*Infused attacks cannot destroy bushes, but Converted attacks can.
+*Usually with Elemental Infusions, [[Physical]] [[Damage]] will be converted to Elemental Damage, so {{Color|Physical DMG Bonus}}es will not apply to the elemental attacks. Instead, the corresponding elemental damage bonus will be applied.
+*[[Tartaglia]]'s [[Elemental Skill]] is somewhat different from other infusions as it also involves a stance change, but this still converts his attacks to {{Color|Hydro DMG}}.
+*[[Razor]]'s [[Elemental Burst]] is not an infusion, but adds {{Color|Electro DMG}} on top of Razor's {{Color|Physical DMG}}.
+*Elemental Infusions provide a way to deal consistent elemental damage, which can be useful for destroying the shields on [[Abyss Lectors]] and [[Abyss Heralds]]. For example, one can use Chongyun's infusion to deal constant {{Color|Cryo DMG}} to the Hydro Abyss Herald's shield.
+*Elemental Infusions differ from [[Elemental Absorption]] in that:
+**Absorption usually refers to an Anemo construct absorbing one of Cryo/Electro/Hydro/Pyro from an external elemental source. Sometimes, it is said that the Anemo construct is ''infused'' with the element.
+**Infusions usually infuse the user's weapon, and it can be any element, including Anemo (as for Xiao) and Geo (as for Noelle).
+*The [[Viridescent Venerer]] 4-piece set uses the word "infused" to describe Anemo coming into contact with another element to trigger the [[Swirl]] reaction. However, this is different from both Elemental Infusion and Elemental Absorption.
+** Elemental Infusion causes a character's Normal Attacks to deal elemental damage.
+** Elemental Absorption refers to an Anemo construct absorbing Cryo/Electro/Hydro/Pyro and then dealing additional elemental damage corresponding to the element that was absorbed.
+** An element that is "infused" in a Swirl reaction is the non-Anemo element involved in the reaction.
+*Infusions are sometimes referred to using the term imbuement.
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Tutorial Adventure Elemental Infusion 1.png|Chongyun's elemental infusion
+Tutorial Adventure Elemental Infusion 2.png|Noelle's elemental conversion
+</gallery>
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Element Navbox|state=collapsed}}
+{{Combat Navbox}}

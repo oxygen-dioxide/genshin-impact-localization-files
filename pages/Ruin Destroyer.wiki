@@ -1,0 +1,123 @@
+{{Enemy Infobox
+|image    = Enemy Ruin Destroyer.png
+|type     = Elite Enemies
+|family   = Automatons
+|group    = Ruin Sentinels
+|location = [[Inazuma]]
+|ability1 = Vacuum Field
+|ability2 = Invincibility Frames
+}}
+{{Description|Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.<br />Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common [[Ruin Guard]]s, their design has greater value in the study of biomimesis. The giant crown, composed of several parts, looks like some sort of frightening plant. One wonders what one has to go through in order to design such scary machine.|[[Archive]]}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Ruin Sentinels}}
+
+==Stats==
+{{Enemy Stats
+|phys_res     = 30%
+|hp_ratio     = 3
+|hp_type      = 2
+|atk_ratio    = 4.2
+}}
+
+==Abilities and Attacks==
+''Names are unofficial''
+* '''Flail:''' Opening its head, the Destroyer spins its whole head on the ground and flails it across, dealing '''30% ATK''' as {{Color|Physical DMG}} to anything that it hits. Its core is protected during this attack.
+
+* '''Energy Field:''' Firing a charged beam of pure energy at the ground, the Destroyer creates a large energy field centered on its target that deals '''40% ATK''' as {{Color|AoE Physical DoT}}. Its core is exposed during this attack.
+
+* '''Mimicry of the Regisvine:''' Borrowing into the ground and planting its roots, the core gathers energy and creates a [[Vacuum Field]] that sucks the player in while dealing '''50% ATK''' as {{Color|AoE Physical DoT}}. After charging, it will overload its core; explodes and deals heavy '''150% ATK''' as {{Color|AoE Physical DMG}} around itself. The core is exposed during this attack.
+
+* '''Seed Shot:''' Using its core, it fires up to 6 small energy orbs, each dealing '''40% ATK''' as {{Color|Physical DMG}}. Its core is protected during this attack.
+
+* '''Burrow:''' Digs into the ground before reemerging close to its target. It cannot be damaged when it is burrowing.
+
+* '''Deactivated:''' After hitting its weak point twice, it goes limp as it is now deactivated. During this short time, it will not attack back.
+
+===Preview===
+{{Preview
+|size=185px
+|file1    = Ruin Destroyer Flail
+|caption1 = Flail
+
+|file2    = Ruin Destroyer Energy Field
+|caption2 = Energy Field
+
+|file3    = Ruin Destroyer Mimicry of the Regisvine
+|caption3 = Mimicry of the Regisvine
+
+|file4    = Ruin Destroyer Seed Shot
+|caption4 = Seed Shot
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet both of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+* If multiple abilities meet both conditions, one will be chosen at random.
+* Global CD is shared with all nearby [[Ruin Sentinels]].
+
+{| class="wikitable"
+! rowspan="2" | Ability !! rowspan="2" | Range Req. (m) !! rowspan="2" style="width:80px" | CD (s) !! rowspan="2" | Initial CD (s) !! colspan="2" | Global CD !! rowspan="2" | Action Interval (s) !! rowspan="2" | Triggers Act. Int.
+|-
+! Group !! CD (s)
+|-
+| Seed Shot || 5–20 || 12–14.4 || &mdash; || Ruin Sentinel Ranged || 5 || rowspan="5" | 2 || {{check|yes}}
+|-
+| Energy Field || 5.5–30 || 20–25 || &mdash; || Ruin Sentinel Ranged || 5 || {{check|no}}
+|-
+| Mimicry of the Regisvine || 0–25 || 20–24 || &mdash; || Ruin Sentinel Melee || 8 || {{check|no}}
+|-
+| Flail || 0–3 || 2.5 || 2.5 || Ruin Sentinel Melee || 8 || {{check|yes}}
+|-
+| Burrow || 10–30 || 15–18 || &mdash; || Ruin Sentinel Melee || 8 || {{check|yes}}
+|}
+
+==Strategy==
+Ruin Destroyers are capable of becoming invulnerable by digging underground, as well as dealing considerable damage. Its Mimicry attack can suck up the player's character, disrupting them. However, this also leaves the Ruin Destroyer vulnerable as its weak point, in the form of a glowing orb, can be easily attacked to paralyze the Ruin Destroyer.
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Ruin Destroyer Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Ruin Destroyer
+|zhs     = 遗迹歼击者
+|zhs_rm  = Yíjì Jiānjī-zhě
+|zht     = 遺蹟殲擊者
+|zht_rm  = Yíjī Jiānjí-zhě
+|zh_tl   = Ruin Annihilator
+|ja      = 遺跡殲滅者
+|ja_rm   = Iseki Senmetsusha{{Assumed}}
+|ja_tl   = Ruin Destroyer
+|ko      = 유적 섬멸자
+|ko_rm   = Yujeok Seommyeolja
+|ko_tl   = Ruin Destroyer
+|es      = Destructor de las Ruinas
+|es_tl   = Ruin Destroyer
+|fr      = Destructeur des ruines
+|fr_tl   = Ruin Destroyer
+|ru      = Руинный крушитель
+|ru_tl   = 
+|th      = Ruin Destroyer
+|vi      = Tiên Phong Di Tích
+|vi_tl   = Ruin Pioneer
+|de      = Ruinenzerstörer
+|de_tl   = Ruin Destroyer
+|id      = Ruin Destroyer
+|pt      = Atacante das Ruínas
+|pt_tl   = Attacker of the Ruins
+}}
+
+==Change History==
+{{Change History|2.0}}
+
+==Navigation==
+{{Enemy Navbox|type=elite}}
+
+[[es:Destructor de las Ruinas]]
+[[pt-br:Atacante das Ruínas]]

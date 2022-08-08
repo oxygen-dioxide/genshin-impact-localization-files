@@ -1,0 +1,550 @@
+{{Domain Infobox
+|image        = Domain Beneath the Dragon-Queller.png
+|type         = Trounce
+|description  = Across the long years, this bed of rock, carved into the very heart of the world, has imprisoned Azhdaha like a coffin.
+|region       = Liyue
+|area         = Minlin
+|subarea      = Nantianmen
+|requiredAR   = 35/40/45/50
+|recLevel     = 60/70/80/90
+|drops        = Dragon Lord's Crown,Bloodjade Branch,Gilded Scale
+}}
+{{Description|Azhdaha was unable to unseal itself in the end, and the quaking earth was at last put to rest.<br />Yet the memories of facing the sealed dragon in the heart of the earth itself remain ever so vivid.<br />Challenge it in your memories once more, and you may gain something new from that encounter...}}
+'''Beneath the Dragon-Queller''' is a [[Trounce Domain]] unlocked after completing [[Zhongli]]'s Story Quest [[Historia Antiqua Chapter]]: Act II - [[No Mere Stone]]. Players can relive the fight they had with Lord of Vishaps [[Azhdaha]] and receive bountiful rewards.
+
+It is located under the [[Dragon-Queller]] in [[Nantianmen]], [[Liyue]].
+
+The domain entrance is marked with the elements that Azhdaha will absorb inside the domain, which change every week based on [[#Elements|a fixed rotation]].
+
+==Boss Description==
+{{Description|An enormous dragon as ancient as the mountains themselves. In an age that has all but faded from memory, he stood shoulder to shoulder with one who ruled over a harbor of stone. But in the end, the two came into conflict, and the dragon was banished to a dark place deep underground.<br />Over the long years of his imprisonment, his power has slowly dissipated. He has also become disfigured from the various kinds of erosion he has been subjected to.<br />The faint rattling of this dragon lord's shackles and his deep, angry growl echo through the bowels of the mountains like memories of a bygone era.|[[Archive]]}}
+
+==Ley Line Disorder==
+When Azhdaha's Cryo, Pyro, Electro, and Hydro attacks hit characters who are not under the protection of a shield, that character will be marked. Marked characters will continuously take {{Color|Black|Elemental DMG}}.
+
+==Rules==
+{{Transclude|Domains|trouncerule|section=1}}
+
+==Rewards==
+{{Weekly Boss Rewards
+|exclusive=Dragon Lord's Crown,Bloodjade Branch,Gilded Scale
+}}
+Other than [[Prithiva Topaz]] {{Icon/Element|Geo|24}}, the possible Ascension Gems obtained depend on the [[#Elements|Elements]] Azhdaha infuses.
+{{Domain Levels/Trounce
+|level=4
+|gem=Prithiva Topaz,Varunada Lazurite,Vajrada Amethyst,Agnidus Agate,Shivada Jade
+}}
+
+==Elements==
+The four elements which can be infused by Azhdaha are {{Hydro}}, {{Pyro}}, {{Cryo}}, and {{Electro}}; each infused element produces different effects.
+*The {{Pyro}} element enhances his attack radius and demands better character positioning
+*The {{Hydro}} element focuses on projectiles and ranged attacks
+*The {{Cryo}} element unleashes simultaneous attacks and increases the risk of elemental reactions
+*The {{Electro}} element is tailored around evasion and precision.<ref name="The Birth of a Dragon">YouTube: [https://youtu.be/fwOlW3ndDa8 The Birth of a Dragon: A Behind the Scenes Look At the Creation of Azhdaha]</ref>
+
+Azhdaha infuses the first element, either {{Hydro}} or {{Pyro}}, when he reaches 75% HP. He infuses a second element, either {{Electro}} or {{Cryo}}, upon reaching 45% HP. Damage dealt by Azhdaha will be converted to the respective elemental damage after triggering Elemental Infusion. After the second element is absorbed, all damage done by Azhdaha is considered elemental damage and will mark the current character until the element is dispelled.
+
+The elemental combination can be seen on the seal of the domain, and the element color will also be reflected on several of his body parts, such as his paws for the first element and his tail for the second element.
+<section begin="element" />
+{| class="wikitable" style="text-align: center; vertical-align: middle;"
+! Variation
+! First Element
+! Second Element
+! Current?
+{{#ifexpr: {{#time: W|-9 hour}} mod 4 = 1
+|<tr class="bg-sidebar">
+<td>1</td>
+<td>{{Element|Hydro}}</td>
+<td>{{Element|Electro}}</td>
+<td>{{check|yes}}</td>
+|<tr>
+<td>1</td>
+<td>{{Element|Hydro}}</td>
+<td>{{Element|Electro}}</td>
+<td>{{check|no}}</td>}}
+{{#ifexpr: {{#time: W|-9 hour}} mod 4 = 2
+|<tr class="bg-sidebar">
+<td>2</td>
+<td>{{Element|Pyro}}</td>
+<td>{{Element|Cryo}}</td>
+<td>{{check|yes}}</td>
+|<tr>
+<td>2</td>
+<td>{{Element|Pyro}}</td>
+<td>{{Element|Cryo}}</td>
+<td>{{check|no}}</td>}}
+{{#ifexpr: {{#time: W|-9 hour}} mod 4 = 3
+|<tr class="bg-sidebar">
+<td>3</td>
+<td>{{Element|Hydro}}</td>
+<td>{{Element|Cryo}}</td>
+<td>{{check|yes}}</td>
+|<tr>
+<td>3</td>
+<td>{{Element|Hydro}}</td>
+<td>{{Element|Cryo}}</td>
+<td>{{check|no}}</td>}}
+{{#ifexpr: {{#time: W|-9 hour}} mod 4 = 0
+|<tr class="bg-sidebar">
+<td>4</td>
+<td>{{Element|Pyro}}</td>
+<td>{{Element|Electro}}</td>
+<td>{{check|yes}}</td>
+|<tr>
+<td>4</td>
+<td>{{Element|Pyro}}</td>
+<td>{{Element|Electro}}</td>
+<td>{{check|no}}</td>}}
+|}
+<section end="element" />
+{|style="text-align:center;"
+|[[File:Azhdaha Element Electro.png|x160px]]
+|[[File:Azhdaha Element Pyro.png|x160px]]
+|[[File:Azhdaha Element Cryo.png|x160px]]
+|[[File:Azhdaha Element Hydro.png|x160px]]
+|-
+|Electro ({{Lang|mini=1|zh=雷}})
+|Pyro ({{Lang|mini=1|zh=火}})
+|Cryo ({{Lang|mini=1|zh=冰}})
+|Hydro ({{Lang|mini=1|zh=水}})
+|}
+
+Defeating every variation once will grant the ''[[Wonders of the World]]'' achievement "[[Sternest of Souls]]."
+
+==Stats==
+{{Enemy Stats
+|phys_res = 40%
+|geo_res  = 70%
+
+|hp_ratio  = 36
+|hp_type   = 1
+|atk_ratio = 3
+|atk_type  = 2
+|note      = In Phase 2, Azhdaha gains '''60<nowiki>%</nowiki>''' RES to the newly absorbed element.;In Phase 3, Azhdaha gains '''50<nowiki>%</nowiki>''' RES to the newly absorbed element.
+}}
+
+==Abilities and Attacks==
+{{Enemy Infobox
+|name     = Azhdaha
+|image    = Enemy_Azhdaha.png
+|title    = Sealed Lord of Vishaps
+|type     = Weekly Bosses
+|family   = Enemies of Note
+|element  = Geo
+|element2 = Cryo
+|element3 = Electro
+|element4 = Hydro
+|element5 = Pyro
+|ability1 = Elemental Conversion
+|ability2 = Invincibility Frames
+|voiceEN          = [https://www.mattgreenbaumvo.com/ Matthew Greenbaum]<ref>Twitter: [https://twitter.com/MattSGreenbaum/status/1387468522536640515 EN VA Self Announcement]</ref>
+|voiceCN          = 
+|voiceJP          = {{w|Kōhei Kiyasu|Kohei Kiyasu (喜安 浩平)}}<ref>Twitter: [https://twitter.com/Genshin_7/status/1383040103031869441 JP VA Announcement]</ref>
+}}
+''Attack names are unofficial.''
+
+===Phase 1: Geo Element===
+* '''Earthen Skull:''' Slams his head and unleashes ground explosions that move in a straight line, dealing '''100% ATK''' on impact and '''200% ATK''' with each explosion as {{Color|AoE Geo DMG}}.
+** '''{{Pyro}}:''' DMG type converted to Pyro; Impact DMG Reduced to '''70% ATK'''; Fires several fireballs into the air that will hit the ground randomly, dealing '''50% ATK''' as {{Color|AoE Pyro DMG}} and leaving a burning mark, which deals '''35% ATK''' as {{Color|AoE Pyro DoT}}. (Phase 2)
+** '''{{Hydro}}:''' DMG type converted to Hydro; Impact DMG Reduced to '''70% ATK'''; Explosions removed; Leaves a moderately-sized Hydro mark on the ground which explodes shortly after, dealing '''200% ATK''' as {{Color|AoE Hydro DMG}} and launching the player upwards. (Phase 2)
+
+* '''Body Slam:''' Slams his body sideways, dealing '''200% ATK''' as {{Color|AoE Geo DMG}} in a large area that extends towards the attack's direction. This attack cannot be avoided using [[Invincibility Frames|dash i-frames]].
+** '''{{Electro}}:''' DMG type converted to Electro; DMG reduced to '''140% ATK'''. (Phase 3)
+** '''{{Cryo}}:''' DMG type converted to Cryo; DMG reduced to '''140% ATK'''. (Phase 3)
+
+* '''Seismo-Waves:''' Slams his foreleg once and emits three consecutive shockwaves, dealing '''100% ATK''', '''50% ATK''', '''50% ATK''' as {{Color|AoE Geo DMG}} with each shockwave respectively.
+** '''{{Hydro}}:''' DMG type converted to Hydro; DMG reduced to '''70% ATK''', '''35% ATK''', '''35% ATK'''; Launches water streams in multiple direction from Azhdaha's location, each dealing '''50% ATK''' as {{Color|Hydro DMG}} on hit. (Phase 2)
+** '''{{Pyro}}:''' DMG type converted to Pyro; DMG reduced to '''70% ATK''', '''35% ATK''', '''35% ATK'''; Fires several fireballs into the air that will hit the ground randomly, dealing '''50% ATK''' as {{Color|AoE Pyro DMG}} and leaving a burning mark, which deals '''35% ATK''' as {{Color|AoE Pyro DoT}}. (Phase 2)
+
+* '''Earthshock:''' Jumps, then greatly impacts the earth and leaves cracked earth that will explode twice around him in a large AoE. The second explosion has a larger AoE than the first. Deals '''150% ATK * 2''' as {{Color|AoE Geo DMG}}.
+** '''{{Hydro}}:''' DMG type converted to Hydro; DMG reduced to '''100% ATK * 2'''; Launches water streams in multiple direction from Azhdaha's location, each dealing '''50% ATK''' as {{Color|Hydro DMG}} on hit. (Phase 2)
+** '''{{Pyro}}:''' DMG type converted to Pyro; DMG reduced to '''100% ATK * 2'''; Fires several fireballs into the air that will hit the ground randomly, dealing '''50% ATK''' as {{Color|AoE Pyro DMG}} and leaving a burning mark, which deals '''35% ATK''' as {{Color|AoE Pyro DoT}}. (Phase 2)
+
+* '''Tail Slam:''' Slams his tail once if target is behind him, dealing '''200% ATK''' as {{Color|AoE Geo DMG}}.
+** '''{{Electro}}:''' DMG type converted to Electro; DMG reduced to '''140% ATK'''; Slower than normal Tail Slam, but cause an Electro explosion around the impact area, dealing '''70% ATK''' as {{Color|AoE Electro DMG}}. (Phase 3)
+** '''{{Cryo}}:''' DMG type converted to Cryo; DMG reduced to '''140% ATK'''; Slower than normal Tail Slam, but will summon several Ice Spikes around the impact area that explode shortly after, dealing '''70% ATK''' as {{Color|AoE Cryo DMG}}. (Phase 3)
+
+* '''Sweeping Branch:''' Performs a quick sweep attack, dealing '''200% ATK''' as {{Color|AoE Geo DMG}}. This attack cannot be avoided using dash i-frames.
+** '''{{Electro}}:''' DMG type converted to Electro; DMG reduced to '''140% ATK'''; Leaves multiple Electro orbs that deal damage upon contact with the player. (Phase 3)
+** '''{{Cryo}}:''' DMG type converted to Cryo; DMG reduced to '''140% ATK'''; Leaves 3 Cryo orbs that will explode after a short while, dealing '''70% ATK''' as {{Color|AoE Cryo DMG}}. (Phase 3)
+
+* '''Skewing Tusk:''' Rushes forward, goring enemy units on with his tusks and tossing them into the air. The impact and the toss deal '''100% ATK''' and '''200% ATK''' as {{Color|Geo DMG}} respectively. This attack cannot be avoided using dash i-frames.
+** '''{{Electro}}:''' DMG type converted to Electro; DMG reduced to '''70% ATK''' and '''140% ATK'''. (Phase 3)
+** '''{{Cryo}}:''' DMG type converted to Cryo; DMG reduced to '''70% ATK''' and '''140% ATK'''. (Phase 3)
+
+* '''Burrow:''' Submerges underground and digs around the arena. This action will trigger a massive earthquake and many rocks will rains to the arena for a while, dealing '''100% ATK''' as {{Color|AoE Geo DMG}}. Azhdaha also deals '''200% ATK''' as {{Color|Geo DMG}} every time he resurfaces to players in his path.
+
+* '''Primeval Spring:''' Spawns a barrage of Elemental-infused stones to the target. The stones will explode shortly upon impact. The impact and explosion deal '''50% ATK''' and '''100% ATK''' respectively as {{Color|AoE Geo DMG}}.
+** '''{{Electro}}:''' Explodes on impact while releasing small thunderstrokes that expand outwards from the initial AoE, dealing '''100% ATK''' as {{Color|AoE Electro DMG}}. (Phase 3)
+** '''{{Cryo}}:''' Explodes on impact, dealing '''70% ATK''' as {{Color|AoE Cryo DMG}} and leaves raining ice shards upon impact, randomly dealing '''35% ATK''', '''17.5% ATK''', '''8.75% ATK''' or '''3.5% ATK''' as {{Color|Cryo DoT}} to characters in the affected area for a period of time. (Phase 3)
+
+====Preview====
+{{Preview
+|size=185px
+|file1=Azhdaha Earthen Skull Geo
+|caption1=Earthen Skull {{Color|Geo}}
+
+|file2=Azhdaha Earthen Skull Hydro
+|caption2=Earthen Skull {{Color|Hydro}}
+
+|file3=Azhdaha Earthen Skull Pyro
+|caption3=Earthen Skull {{Color|Pyro}}
+
+|file4=Azhdaha Body Slam Geo
+|caption4=Body Slam {{Color|Geo}}
+
+|file5=Azhdaha Body Slam Cryo
+|caption5=Body Slam {{Color|Cryo}}
+
+|file6=Azhdaha Body Slam Electro
+|caption6=Body Slam {{Color|Electro}}
+
+|file7=Azhdaha Seismo Waves Geo
+|caption7=Seismo-Waves {{Color|Geo}}
+
+|file8=Azhdaha Seismo Waves Hydro
+|caption8=Seismo-Waves {{Color|Hydro}}
+
+|file9=Azhdaha Seismo Waves Pyro
+|caption9=Seismo-Waves {{Color|Pyro}}
+
+|file10=Azhdaha Earthshock Geo
+|caption10=Earthshock {{Color|Geo}}
+
+|file11=Azhdaha Earthshock Hydro
+|caption11=Earthshock {{Color|Hydro}}
+
+|file12=Azhdaha Earthshock Pyro
+|caption12=Earthshock {{Color|Pyro}}
+
+|file13=Azhdaha Tail Slam Geo
+|caption13=Tail Slam {{Color|Geo}}
+
+|file14=Azhdaha Tail Slam Cryo
+|caption14=Tail Slam {{Color|Cryo}}
+
+|file15=Azhdaha Tail Slam Electro
+|caption15=Tail Slam {{Color|Electro}}
+
+|file16=Azhdaha Tail Sweep Geo
+|caption16=Sweeping Branch {{Color|Geo}}
+
+|file17=Azhdaha Tail Sweep Cryo
+|caption17=Sweeping Branch {{Color|Cryo}}
+
+|file18=Azhdaha Tail Sweep Electro
+|caption18=Sweeping Branch {{Color|Electro}}
+
+|file19=Azhdaha Skewing Tusk Geo
+|caption19=Skewing Tusk {{Color|Geo}}
+
+|file20=Azhdaha Skewing Tusk Cryo
+|caption20=Skewing Tusk {{Color|Cryo}}
+
+|file21=Azhdaha Skewing Tusk Electro
+|caption21=Skewing Tusk {{Color|Electro}}
+
+|file22=Azhdaha Burrow
+|caption22={{Color|Geo|Burrow}}
+
+|file23=Azhdaha Primeval Spring Geo
+|caption23=Primeval Spring {{Color|Geo}}
+
+|file24=Azhdaha Primeval Spring Cryo
+|caption24=Primeval Spring {{Color|Cryo}}
+
+|file25=Azhdaha Primeval Spring Electro
+|caption25=Primeval Spring {{Color|Electro}}
+}}
+
+===Phase 2: Single Elemental Infusion===
+''Azhdaha can still use any ability from Phase 1. These Phase 1 abilities will be infused with the current infused Element.''
+
+* Upon reaching '''75%''' HP, Azhdaha performs '''Tremors''' before entering a brief invulnerability phase and infuses an element ({{Hydro}} or {{Pyro}}), gaining an additional 60% Elemental Resistance to this infused Element, resulting in a total of 70% Elemental Resistance to this element. Azhdaha cannot be damaged past '''65%''' HP before entering Phase 2.
+* '''Tremors:''' Slams his legs unto earth, unleashing continuous shockwaves around him for 5 times and ending with one final huge shockwave. The first 5 shockwaves each deal '''150% ATK''' and the final shockwave deals '''200% ATK''', as {{Color|AoE Geo DMG}}. Azhdaha only uses Tremors during a phase transition and in the final Phase 3. This attack cannot be avoided using dash i-frames.
+** '''{{Hydro}}:''' DMG type converted into Hydro; DMG reduced to '''100% ATK''' and '''140% ATK'''; AoE increased; Launches water streams in multiple direction from Azhdaha's location, each dealing '''50% ATK''' as {{Color|Hydro DMG}} on hit.
+** '''{{Pyro}}:''' DMG type converted into Pyro; DMG reduced to '''100% ATK''' and '''140% ATK'''; AoE increased; Fires several fireballs into the air that will hit the ground randomly, dealing '''50% ATK''' as {{Color|AoE Pyro DMG}} and leaving a burning mark, which deals '''35% ATK''' as {{Color|AoE Pyro DoT}}.
+
+* '''The King's Roar:''' Roars and initiates a large AoE attack of the infused element.
+** '''{{Hydro}}:''' Summon several moving large Hydro orbs, that will slowly rotate around the arena and deal '''150% ATK''' as {{Color|Hydro DoT}} upon impact.
+** '''{{Pyro}}:''' Summon several meteors that fall from the sky, dealing '''300% ATK''' as {{Color|AoE Pyro DMG}}. The meteors each leaves a burning mark, which deals '''35% ATK''' as {{Color|AoE Pyro DoT}}.
+
+====Preview====
+{{Preview
+|size=185px
+|file1=Azhdaha Tremors Geo
+|caption1=Tremors {{Color|Geo}}
+
+|file2=Azhdaha Tremors Hydro
+|caption2=Tremors {{Color|Hydro}}
+
+|file3=Azhdaha Tremors Pyro
+|caption3=Tremors {{Color|Pyro}}
+
+|file4=Azhdaha King's Roar Hydro
+|caption4=King's Roar {{Color|Hydro}}
+
+|file5=Azhdaha King's Roar Pyro
+|caption5=King's Roar {{Color|Pyro}}
+}}
+
+===Phase 3: Dual Elemental Infusion===
+''Azhdaha can still use any ability from Phases 1 and 2. These Phase 1 or 2 abilities will be infused with the corresponding elements.''
+
+* Upon reaching '''45%''' HP, Azhdaha performs '''Tremors''' before entering a brief invulnerability phase and infuses an element ({{Electro}} or {{Cryo}}), gaining an additional 50% Elemental Resistance to this infused Element, resulting in a total of 60% Elemental Resistance to this element. Azhdaha cannot be damaged past '''35%''' HP before entering Phase 3.
+* '''Moonlit Tree:''' Submerges underground while leaving his tail on the surface. Azhdaha cannot be killed in this state, but can still be damaged. If Azhdaha's HP reaches 0 in during this attack, one extra hit will be required to kill him once he reappears above ground.
+** '''{{Electro}}:''' The tail will periodically zap parts of the arena in a cone AoE that changes after every occurrence of this attack, dealing '''300% ATK''' as {{Color|AoE Electro DMG}}. Targeted areas are indicated with a purple AoE.
+** '''{{Cryo}}:''' The tail will unleash a massive hailstorm around it. The fallen ice chunks will explode upon impact, followed by circular Ice Spikes that will pulse thrice in the affected area. Each pulse deals '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+
+* '''Thunder Sphere:''' Forms several Thunder Spheres and launches them towards the target, each dealing '''140% ATK''' as {{Color|Electro DMG}}.
+
+* '''Fractal Lance:''' Forms a {{Cryo}} Sphere in the air, that will then periodically summon 4 crystal lances 5 times, homing towards the target. Each lance deals '''140% ATK''', '''70% ATK''', '''35% ATK''', '''14% ATK''' respectively as {{Color|Cryo DMG}} on hit.
+
+====Preview====
+{{Preview
+|size=185px
+|file1=Azhdaha Moonlit Tree Cryo
+|caption1=Moonlit Tree {{Color|Cryo}}
+
+|file2=Azhdaha Moonlit Tree Electro
+|caption2=Moonlit Tree {{Color|Electro}}
+
+|file3=Azhdaha Fractal Lance
+|caption3={{Color|Cryo|Fractal Lance}}
+
+|file4=Azhdaha Thunder Sphere
+|caption4={{Color|Electro|Thunder Sphere}}
+}}
+
+==Strategy==
+During the encounter against Azhdaha, a Ley Line Disorder will take effect as soon as Phase 2 starts and last until the end of the fight. This disorder is extremely dangerous; if the player is struck by one of Azhdaha's secondary elemental attacks, they will suffer a continuous bleed of said element unless the element is removed or the player is under the effect of a [[Shields|Shield]], so it is almost required to bring characters who can deploy shields or Geo characters, who can cause Crystallize reactions.
+
+At the end of phases 1 and 2, Azhdaha will slam the ground three times, emitting a shockwave that deals high damage if not protected against. These shockwaves also have significant AoE, so it is recommended to stand as far away as possible to avoid taking damage from the attack. This attack concludes when he jumps into the air and slams the ground a final time, emitting a slightly larger shockwave than the previous three. It is used at random during phase 3. Azhdaha has hard damage caps at ~60% and 30% of his health to prevent players from skipping phases or subduing him early.
+
+Since the fight does not include a true time limit like the other weekly bosses (with the exception of [[Confront Stormterror|Stormterror]], in which an artificial "time limit" is implemented), it is highly suggested that the player be extremely cautious with any aggressive maneuvers they might take, especially in the second phase. While the behaviors of Azhdaha are different for each elemental infusion, it should be noted that the player needs to be careful when facing situations where Azhdaha is idle (such as when he is buried into the ground with his tail sticking out). During this idle phase, the safest option is to attack from afar and not close up contrary to the instincts that many players may have. The most concentrated attacks of Azhdaha will begin to heavily bombard and encapsulate the player, almost always ensuring death if the player does not possess a shield character. Fortunately, there is initially a short window when Azhdaha's movements are idle during that phase where the player may get up close and unleash as much damage as possible before Azhdaha starts to bombard the player with elemental attacks.
+[[File:Azhdaha Pyro-Cryo Sigils.png|thumb|157x157px|The Pyro (bottom) and Cryo (top) sigils at the domain's entrance.]]
+
+Before entering the Trounce Domain, players should check the two symbols on the entrance. Azhdaha will infuse himself with the elements corresponding to those sigils, as Azhdaha will be significantly resilient to those attacks for the duration of the fight. Azhdaha will infuse himself with the element corresponding to the bottom-most symbol first. See [[#Elements|Elements]] for each elemental symbol.
+
+In all phases, it is advisable to attack him from the front or the back, but never from the side. Attacking from the side triggers the sideways Body Slam attack, which has a large AoE and cannot be countered by sprinting i-frame.
+
+In phases 2 and 3, it is not advised to utilize [[Elemental Burst]] i-frames to avoid damage, as the effects of the Ley Line Disorder will still apply on hit even if the player is in an Elemental Burst animation.
+
+===Character Recommendations===
+*Characters that can [[Shields#Talent Shields|create shields]], while not essential, are extremely helpful to have in this fight, as it will prevent the highly lethal elemental mark from being applied.
+*[[Healing|Healers]] are an effective means of improving survivability.
+*Due to the high DMG of many of Azhdaha's attacks, it is still important to avoid as many of Azhdaha's attacks as possible even with shields and healing.
+*Characters with abilities with large hitboxes can deal extended damage thanks to his massive body.
+*In general, [[Bows|Bow]] and [[Catalysts|Catalyst]] users are safe for dealing damage at a distance.
+*As Azhdaha gains Elemental RES to his infused Elements (including his innate Geo RES), using damage dealers of other elements can avoid prolonging the fight. {{Anemo}} characters equipped with the 4 piece [[Viridescent Venerer]] artifact set, or talents that decrease enemy Elemental RES such as [[Zhongli]]'s [[Dominus Lapidis]] can also help counter the increased Elemental RES.
+*Anemo characters can completely ignore Azhdaha's resistances gained from phase transformations due to him never infusing Anemo.
+*Triggering certain elemental reactions on the character can completely [[Ley Line Disorders#Removing Elemental Debuffs|remove]] the elemental mark without generating a shield. [[:Category:Anemo Status to Self Talents|Anemo]] can remove all of the elemental marks, [[:Category:Electro Status to Self Talents|Electro]] can remove the Cryo mark, [[:Category:Pyro Status to Self Talents|Pyro]] can remove the Hydro, Cryo, and Electro marks, and [[:Category:Wet Status to Self Talents|Hydro]] can remove the Pyro and Cryo marks.
+*Fast runners, such as tall male characters and characters with access to [[Alternate Sprint]]s may be helpful against Azhdaha's AoE attack spams.
+
+==Quest Domains==
+{{Quest Domains}}
+
+==Achievements==
+{{Achievement Topic Table|topic=Beneath the Dragon-Queller}}
+
+==Voice-Overs==
+For the quest version of the battle dialogue, see [[Beneath the Ancient Tree#Dialogue|Beneath the Ancient Tree]].
+{{VO/Enemy
+|enemy                   = Azhdaha
+|vo_01_00_title          = Battle Start (Zhongli In Party)
+|vo_01_01_file           = VO {lang}{name} - It Is Time Morax We Settle This Now.ogg
+|vo_01_01_tx_en          = It is time, Morax... We settle this now!
+|vo_01_01_tx_zhs         = 摩拉克斯...是时候，清算一切！
+|vo_01_01_tx_zht         = 
+|vo_01_01_tx_ja          = 
+|vo_01_01_tx_ko          = 
+
+|vo_02_00_title          = Battle Start (Zhongli Not In Party)
+|vo_02_01_file           = VO {lang}{name} - You Dare Overstep Your Mortal Authority.ogg
+|vo_02_01_tx_en          = You dare overstep your mortal authority!?
+|vo_02_01_tx_zhs         = 凡人，休得僭越！
+|vo_02_01_tx_zht         = 
+|vo_02_01_tx_ja          = 
+|vo_02_01_tx_ko          = 
+
+|vo_03_00_title          = Earthshock
+|vo_03_01_file           = VO {lang}{name} - Crumble.ogg
+|vo_03_01_tx_en          = Crumble!
+|vo_03_01_tx_zhs         = 粉碎！
+|vo_03_01_tx_zht         = 
+|vo_03_01_tx_ja          = 
+|vo_03_01_tx_ko          = 
+|vo_03_02_file           = VO {lang}{name} - Fissure.ogg
+|vo_03_02_tx_en          = Fissure!
+|vo_03_02_tx_zhs         = 地裂！
+|vo_03_02_tx_zht         = 
+|vo_03_02_tx_ja          = 
+|vo_03_02_tx_ko          = 
+
+|vo_04_00_title          = Tail Sweep
+|vo_04_01_file           = VO {lang}{name} - Cowardly Insect.ogg
+|vo_04_01_tx_en          = Cowardly insect!
+|vo_04_01_tx_zhs         = 无胆鼠辈！
+|vo_04_01_tx_zht         = 
+|vo_04_01_tx_ja          = 
+|vo_04_01_tx_ko          = 
+|vo_04_02_file           = VO {lang}{name} - Face Me.ogg
+|vo_04_02_tx_en          = Face me!
+|vo_04_02_tx_zhs         = 藏头露尾！
+|vo_04_02_tx_zht         = 
+|vo_04_02_tx_ja          = 
+|vo_04_02_tx_ko          = 
+|vo_04_03_file           = VO {lang}{name} - Detestable.ogg
+|vo_04_03_tx_en          = Detestable!
+|vo_04_03_tx_zhs         = 哼！
+|vo_04_03_tx_zht         = 
+|vo_04_03_tx_ja          = 
+|vo_04_03_tx_ko          = 
+
+|vo_05_00_title          = The King's Roar
+|vo_05_01_file           = VO {lang}{name} - Back To The Earth.ogg
+|vo_05_01_tx_en          = Back to the earth!
+|vo_05_01_tx_zhs         = 归于…尘土！
+|vo_05_01_tx_zht         = 
+|vo_05_01_tx_ja          = 
+|vo_05_01_tx_ko          = 
+|vo_05_02_file           = VO {lang}{name} - To Dust.ogg
+|vo_05_02_tx_en          = To Dust!
+|vo_05_02_tx_zhs         = 化为…齑粉！
+|vo_05_02_tx_zht         = 
+|vo_05_02_tx_ja          = 
+|vo_05_02_tx_ko          = 
+
+|vo_06_00_title          = Tremors
+|vo_06_01_file           = VO {lang}{name} - There Is No Atonement For A Thousand Years Of Pain.ogg
+|vo_06_01_tx_en          = There is no atonement for a thousand years of pain!
+|vo_06_01_tx_zhs         = 千年遗恨，如何偿还！
+|vo_06_01_tx_zht         = 
+|vo_06_01_tx_ja          = 
+|vo_06_01_tx_ko          = 
+|vo_06_02_file           = VO {lang}{name} - The Enraged Earth Will Not Absolve You.ogg
+|vo_06_02_tx_en          = The enraged earth will not absolve you!
+|vo_06_02_tx_zhs         = 大地的震怒，安能平息！
+|vo_06_02_tx_zht         = 
+|vo_06_02_tx_ja          = 
+|vo_06_02_tx_ko          = 
+
+|vo_07_00_title          = First Infusion
+|vo_07_01_file           = VO {lang}{name} - Today You Witness Your Reckoning.ogg
+|vo_07_01_tx_en          = Today you witness your reckoning!
+|vo_07_01_tx_zhs         = 即日，便要算清一切宿怨！
+|vo_07_01_tx_zht         = 
+|vo_07_01_tx_ja          = 
+|vo_07_01_tx_ko          = 
+
+|vo_08_00_title          = Second Infusion
+|vo_08_01_file           = VO {lang}{name} - You Stand Upon Your Tomb Though You Know It Not.ogg
+|vo_08_01_tx_en          = You stand upon your tomb, though you know it not!
+|vo_08_01_tx_zhs         = 此地，便是尔等葬身之处！喵~
+|vo_08_01_tx_zht         = 
+|vo_08_01_tx_ja          = 
+|vo_08_01_tx_ko          = 
+
+|vo_09_00_title          = Moonlit Tree
+|vo_09_01_file           = VO {lang}{name} - Come Experience An Eon Of Suffering.ogg
+|vo_09_01_tx_en          = Come, experience an eon of suffering!
+|vo_09_01_tx_zhs         = 领教，历经千年之怒！
+|vo_09_01_tx_zht         = 
+|vo_09_01_tx_ja          = 
+|vo_09_01_tx_ko          = 
+
+|vo_10_00_title          = Filler
+|vo_10_01_file           = VO {lang}{name} - Shifting Sands Know Not The Mountains Permanence.ogg
+|vo_10_01_tx_en          = Shifting sands know not the mountain's permanence.
+|vo_10_01_tx_zhs         = 沉石流沙，不识山岳！
+|vo_10_01_tx_zht         = 
+|vo_10_01_tx_ja          = 
+|vo_10_01_tx_ko          = 
+|vo_10_02_file           = VO {lang}{name} - From Rock To Dust Sooner Or Later.ogg
+|vo_10_02_tx_en          = From rock to dust, sooner or later.
+|vo_10_02_tx_zhs         = 朝生暮死，岂知晦朔！
+|vo_10_02_tx_zht         = 
+|vo_10_02_tx_ja          = 
+|vo_10_02_tx_ko          = 
+
+|vo_11_00_title          = Defeat (Zhongli In Party)
+|vo_11_01_file           = VO {lang}{name} - Morax.ogg
+|vo_11_01_tx_en          = Morax...!
+|vo_11_01_tx_zhs         = 呃…摩拉…克斯！
+|vo_11_01_tx_zht         = 
+|vo_11_01_tx_ja          = 
+|vo_11_01_tx_ko          = 
+
+|vo_12_00_title          = Defeat (Zhongli Not In Party)
+|vo_12_01_file           = VO {lang}{name} - I Will Not Be Destroyed.ogg
+|vo_12_01_tx_en          = I... will not be destroyed!
+|vo_12_01_tx_zhs         = 我…不会消亡！
+|vo_12_01_tx_zht         = 
+|vo_12_01_tx_ja          = 
+|vo_12_01_tx_ko          = 
+}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|Beneath the Dragon-Queller Soundtracks}}
+
+==Trivia==
+*Surrounding the "arena" where Azhdaha is sealed, and around the forcefield that Azhdaha breaks out of when combat begins, stand a large number of [[Stone Stele]]s, which have the same markings as those created by Zhongli's Elemental Skill. Unlike those other Steles however, the ones surrounding the arena no longer seem to be functioning and show signs of heavy erosion, some having to be held up by chains.
+*The element symbols marked on the entrance are written in the [[Liyue Language|Liyue script]], based on the Chinese characters for each element.
+**These symbols are also used as particle effects in his infused states.
+*The boss fight was originally supposed to have all 12 combinations of Hydro, Pyro, Cryo, and Electro, but this was dropped during development because it was too challenging in terms of the color schemes, special effects, and processing power.<ref name="The Birth of a Dragon" />
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Azhdaha Icon.png|Icon
+</gallery>
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/PgrPdUzzE9w
+|caption1 = How to Easily Beat Azhdaha
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Beneath the Dragon-Queller
+|zhs     = 「伏龙树」之底
+|zhs_rm  = "Fúlóng-shù" zhī Dǐ
+|zht     = 「伏龍樹」之底
+|zht_rm  = "Fúlóng-shù" zhī Dǐ
+|zh_tl   = Beneath the "{{Lex|Dragon-Queller|zh}}"
+|ja      = 「伏龍の木」の底
+|ja_rm   = "Fukuryuu no Ki" no Soko{{Assumed}}
+|ja_tl   = Beneath the "{{Lex|Dragon-Queller|ja}}"
+|ko      = 「복룡목」 아래
+|ko_rm   = "Bokryongmok" Arae
+|ko_tl   = Beneath the "{{Lex|Dragon-Queller|ko}}"
+|es      = Bajo el {{sic|Sometedragones}}
+|es_tl   = Under the Dragon's Subduer
+|fr      = Sous l'arbre dompteur de dragon
+|fr_tl   = Beneath the Dragon-Taming Tree
+|ru      = Под древом подавления
+|ru_tl   = 
+|th      = ห้วงลึกแห่ง "ต้นปราบมังกร"
+|th_rm   = 
+|th_tl   = Deep Abyss of the "Dragon Subduing Tree"
+|vi      = Rễ Cây {{tt|Phục Long|伏龙}}
+|vi_tl   = Roots of the {{Lex|Dragon-Queller|vi}}
+|de      = Unter dem Drachenbezwinger
+|de_tl   = Beneath the Dragon-Queller
+|id      = Beneath the Dragon-Queller
+|pt      = Fundo da Árvore do Dragão Oculto
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|1.5}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Domain Navbox|Permanent|state=collapsed}}
+{{Enemy Navbox|type=bosses}}
+[[Category:Weekly Bosses]]
+
+[[vi:Rễ Cây Phục Long]]

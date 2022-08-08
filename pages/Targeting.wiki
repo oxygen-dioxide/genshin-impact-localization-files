@@ -1,0 +1,85 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Character Data
+}}
+{{Community}}
+{{Terminology Infobox
+|type         = Game Systems
+|type2        = Combat
+}}
+'''Targeting''' is the automatic process that determines the primary target of character attacks.<ref>NGA: [https://bbs.nga.cn/read.php?tid=27177916 {{Lang|mini=1|zh=《目标索敌学》- 角色技能索敌机制的研究}}]</ref>
+
+Most commonly, characters will select the target with the highest '''Targeting Score'''. Generally, this score is higher for targets that are closer to the character, targets that the character is facing, and targets with a higher threat level.
+
+For the targeting mechanics of individual abilities, see [[Targeting/Character Data|Character Data]].
+
+==Local Abilities==
+When a character uses an ability, the game will calculate a '''Targeting Score''' for all targets within '''20m''' of the character. The enemy with the highest Targeting Score will be chosen as the primary target of the attack.
+
+Targeting Score for local abilities is calculated as:
+
+<div style="overflow-x:auto;"><math>\text{Targeting Score} = ( 0.7 \times ( 1.0 - \frac{\text{Distance from Target}}{\text{Radius of Targeting Zone}} ) + 0.3 \times ( 1.0 - \frac{\text{Angle from Target}}{180 \deg} ) \times \text{Priority Coefficient} \times \text{View Coefficient} \times \text{Current Target Coefficient} \times \text{Altitude Coefficient}</math></div>
+
+*'''Distance from Target:''' The horizontal distance between the character and the target.
+*'''Angle from Target:''' The horizontal angle between the direction that the character is facing and the direction towards the target.
+*'''Priority Coefficient:''' When in combat, uses '''Combat Priority Coefficient'''; When out of combat, uses '''Normal Priority Coefficient'''.
+*'''View Coefficient:''' If target is out of the player's view, View Coefficient = '''0'''; Otherwise, View Coefficient = '''1'''.
+*'''Current Target Coefficient:''' If target is already being targeted, Current Target Coefficient = '''1.2'''; Otherwise, Current Target Coefficient = '''1'''.
+**If a character stops attacking for 3 seconds, the current target will be cleared.
+*'''Altitude Coefficient:''' If the target and the character's altitude difference is greater than the altitude limit, Altitude Coefficient = '''0.2'''; Otherwise, Altitude Coefficient = '''1'''.
+**Altitude limit is '''2m''' for melee characters and '''4m''' for ranged characters.
+
+==Deployable Abilities==
+Deployable abilities may use one of 2 types of targeting:
+
+#Follows the active character's current target.
+#*Example: [[Xingqiu]]'s [[Guhua Sword: Raincutter]]
+#Selects its own target within an area.
+#*Examples:
+#**Selects Closest Target: [[Chongyun]]'s [[Spirit Blade: Cloud-Parting Star]]
+#**Selects Random Target: [[Ganyu]]'s [[Celestial Shower]]
+#**Selects Target with Highest Targeting Score: [[Fischl]]'s [[Nightrider]]
+
+Targeting Score for deployable abilities is calculated as:
+
+<div style="overflow-x:auto;"><math>\text{Targeting Score} = ( 0.7 \times ( 1.0 - \frac{\text{Distance from Target}}{\text{Radius of Targeting Zone}} ) + 0.3 \times ( 1.0 - \frac{\text{Angle from Target}}{180 \deg} ) \times \text{Priority Coefficient} \times \text{Current Target Coefficient} \times \text{Altitude Coefficient}</math></div>
+
+*'''Distance from Target:''' The horizontal distance between the deployed entity and the target.
+*'''Angle from Target:''' The horizontal angle between the direction that the deployed entity is facing and the direction towards the target.
+*'''Priority Coefficient:''' When in combat, uses '''Combat Priority Coefficient'''; When out of combat, uses '''Normal Priority Coefficient'''.
+*'''Current Target Coefficient:''' If target is already being targeted, Current Target Coefficient = '''1.2'''; Otherwise, Current Target Coefficient = '''1'''.
+**If a character stops attacking for 3 seconds, the current target will be cleared.
+*'''Altitude Coefficient:''' If the target and the character's altitude difference is greater than the altitude limit, Altitude Coefficient = '''0.2'''; Otherwise, Altitude Coefficient = '''1'''.
+**Altitude limit is '''2m''' for melee characters and '''4m''' for ranged characters.
+
+==Targeting Immunity==
+Some targets can grant themselves a '''targeting-immune state'''. This mainly includes enemies that can teleport or go invisible, and certain scene gadgets (cooking stations, campfires, [[Anemograna]], Cuihua trees, etc.).
+
+While in this state, targets will deny all targeting attempts from abilities performed locally by characters. However, attacks performed by character gadgets ([[Guoba Attack|Guoba]], [[Yakan Evocation: Sesshou Sakura|Sesshou Sakura]], [[Sparkling Scatter|Star Jades]], [[Icy Paws]], etc.) are unaffected by this state and will continue to target them.
+
+==Target Type and Priority Coefficient==
+*'''Targeting Zone Radius:''' The maximum radius for targeting to occur. Entities outside of this radius cannot be targeted.
+*'''Normal Priority Coefficient:''' Priority Coefficient while out of combat.
+*'''Combat Priority Coefficient:''' Priority Coefficient while in combat.
+
+{| class="fandom-table"
+! Target Type !! Targeting Zone Radius !! Normal Priority Coefficient !! Combat Priority Coefficient !! Examples
+|-
+| Default (Lv0) || 0.01 || 0 || 0 || Character weapons<br />Certain character gadgets (arrows, etc.)<br />Certain enemy gadgets (Projectiles, spikes, etc.)<br />Certain [[wildlife]] (lizards, butterflies, fish, etc.)
+|-
+| Gadget (Lv1) || 2 || 0.3 || 0 || Regular [[Oceanid]]<br />Scene gadgets<br />Targetable character gadgets (Catalyst projectiles, [[Guoba]], etc.)<br />[[Crystallize]] shards<br />[[Grana]]
+|-
+| Animal (Lv2) || 3 || 0.5 || 0 || Certain wildlife (boars, foxes, etc.)
+|-
+| Gear (Lv3) || 3 || 1 || 0.8 || Targetable enemy gadgets ([[Cryo Hypostasis]] Frostfruits, [[Fatui Pyro Agent]] clones, etc.)
+|-
+| Character and Enemy (Lv4) || Uses ability's Targeting Zone || 1 || 1 || Characters<br />[[Common Enemies]]<br />Most [[Elite Enemies]]<br />[[Hydro Mimics]]<br />[[Parametric Transformer]]<br />[[Weasel Thieves]]<br />[[Taunt]]s<br />High-priority enemy gadgets ([[Geo Samachurl]] pillars, [[Electro Hypostasis]] Revival Prisms, [[Geo Hypostasis]] pillars, etc.)
+|-
+| Boss (Lv5) || Uses ability's Targeting Zone || 1.5 || 1.5 || [[Normal Bosses]]<br />[[Weekly Bosses]]<br />[[Humanoid Ruin Machines]]<br />High-priority enemy gadgets ([[Regisvines]]' Cores, [[Pyro Regisvine]]'s fire seed, [[Dvalin]]'s claws, etc.)
+|}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox}}

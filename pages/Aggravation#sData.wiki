@@ -1,0 +1,780 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Data
+}}
+{{Community}}
+
+==Characters==
+===Taunts===
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Character !! Ability !! Taunt Level !! Taunt Zone Shape (m) !! Taunt Zone Radius (m) !! Taunt Zone Height (m) !! Taunt Interval (s) !! Taunt Value
+|-
+| [[Arataki Itto]] || {{Talent|Masatsu Zetsugi: Akaushi Burst!|20|nobr=1}} || 3 || Cylinder || 5 || 10 || 0.25 || 99999
+|-
+| [[Mona]] || {{Talent|Mirror Reflection of Doom|20|nobr=1}} || 3 || Cylinder || 6 || ∞ || 0.5 || 99999
+|-
+| [[Mona]] || {{Talent|"Come 'n' Get Me, Hag!"|20|nobr=1}} || 3 || Cylinder || 6 || ∞ || 0.5 || 99999
+|-
+| [[Amber]] || {{Talent|Explosive Puppet|20|nobr=1}} || 3 || Cylinder || 6 || ∞ || 0.5 || 99999
+|-
+| [[Ganyu]] || {{Talent|Trail of the Qilin|20|nobr=1}} || 3 || Cylinder || 5 || 10 || 0.25 || 99999
+|}
+
+===Adjustment Factors===
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Character !! Ability !! View Range Adjustment Factor !! Hearing Range Adjustment Factor !! Proximity Range Adjustment Factor
+|-
+| [[Aloy]] || {{Talent|Easy Does It|20|nobr=1}} || 0.3 || 1 || 0.3
+|-
+| [[Sayu]] || {{Talent|Yoohoo Art: Silencer's Secret|20|nobr=1}} || 0 || 1 || 0
+|}
+
+==Enemies==
+===Detection Ranges===
+====Common Enemies====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Enable View !! View Range (m) !! Panoramic !! Horiz. FoV !! Vert. FoV !! Hearing Sensitivity !! Hearing Range (m) !! Proximity Range (m) !! Sourceless Hit Range (m)
+|-
+| Default || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 5 || 0
+|-
+| [[Cicins]] || {{check|yes}} || 20 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| [[Slimes]] || {{check|yes}} || 15 || {{check|no}} || 120 || 60 || 1 || 20 || 5 || 0
+|-
+| Large Slimes || {{check|yes}} || 20 || {{check|no}} || 120 || 60 || 1 || 20 || 8 || 0
+|-
+| [[Specters]] || {{check|yes}} || 22 || {{check|no}} || 120 || 60 || 1 || 20 || 8.75 || 0
+|-
+| [[Whopperflowers]] || {{check|yes}} || 45 || {{check|no}} || 120 || 60 || 1 || 20 || 25 || 0
+|-
+| [[Hilichurls]] || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 8 || 0
+|-
+| {{Enemy|Unusual Hilichurl|20}} || {{check|yes}} || 0 || {{check|no}} || 120 || 60 || 1 || 0 || 0 || 20
+|-
+| [[Samachurls]] || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 8 || 0
+|-
+| [[Treasure Hoarders]] || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 8 || 0
+|-
+| [[Fatui Skirmishers]] || {{check|yes}} || 25 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| [[Nobushi]] || {{check|yes}} || 25 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| [[Kairagi]] || {{check|yes}} || 25 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| [[Floating Fungi]] || {{check|yes}} || 22 || {{check|no}} || 120 || 60 || 1 || 20 || 8.75 || 0
+|}
+
+====Elite Enemies====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Enable View !! View Range (m) !! Panoramic !! Horiz. FoV !! Vert. FoV !! Hearing Sensitivity !! Hearing Range (m) !! Proximity Range (m) !! Sourceless Hit Range (m)
+|-
+| Default || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 5 || 0
+|-
+| [[Mitachurls]] || {{check|yes}} || 40 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| [[Lawachurls]] || {{check|yes}} || 40 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| {{Enemy|Fatui Pyro Agent|20}} || {{check|yes}} || 40 || {{check|no}} || 120 || 60 || 1 || 20 || 20 || 0
+|-
+| [[Fatui Cicin Mages]] || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 15 || 0
+|-
+| {{Enemy|Mirror Maiden|20}} || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 15 || 0
+|-
+| [[Abyss Mages]] || {{check|yes}} || 45 || {{check|no}} || 120 || 60 || 1 || 20 || 25 || 0
+|-
+| [[Abyss Heralds]] || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 15 || 0
+|-
+| [[Abyss Lectors]] || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 15 || 0
+|-
+| [[Rifthounds]] || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 25 || 0
+|-
+| Rifthound Whelps || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 20 || 0
+|-
+| {{Enemy|Eye of the Storm|20}} || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 8.75 || 0
+|-
+| {{Enemy|Geovishap|20}} || {{check|yes}} || 40 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| {{Enemy|Geovishap Hatchling|20}} || {{check|yes}} || 40 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| [[Bathysmal Vishaps]] || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| Bathysmal Vishap Hatchlings || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 8 || 0
+|-
+| {{Enemy|Ruin Guard|20}} || {{check|yes}} || 60 || {{check|no}} || 120 || 120 || 1 || 20 || 12 || 0
+|-
+| {{Enemy|Ruin Grader|20}} || {{check|yes}} || 60 || {{check|no}} || 120 || 120 || 1 || 20 || 12 || 0
+|-
+| {{Enemy|Ruin Hunter|20}} || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 15 || 0
+|-
+| {{Enemy|Ruin Cruiser|20}} || {{check|yes}} || 30 || {{check|no}} || 120 || 120 || 1 || 20 || 12 || 0
+|-
+| {{Enemy|Ruin Scout|20}} || {{check|yes}} || 30 || {{check|no}} || 120 || 120 || 1 || 20 || 12 || 0
+|-
+| {{Enemy|Ruin Defender|20}} || {{check|yes}} || 20 || {{check|no}} || 120 || 120 || 1 || 20 || 8 || 0
+|-
+| {{Enemy|Ruin Destroyer|20}} || {{check|yes}} || 20 || {{check|no}} || 120 || 120 || 1 || 20 || 8 || 0
+|-
+| [[Shadowy Husks]] || {{check|yes}} || 25 || {{check|no}} || 120 || 120 || 1 || 20 || 10 || 0
+|}
+
+====Normal Bosses====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Enable View !! View Range (m) !! Panoramic !! Horiz. FoV !! Vert. FoV !! Hearing Sensitivity !! Hearing Range (m) !! Proximity Range (m) !! Sourceless Hit Range (m)
+|-
+| Default || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 5 || 0
+|-
+| [[Hypostases]] || {{check|yes}} || 15 || {{check|yes}} || 120 (360) || 60 (360) || 1 || 20 || 7.5 || 0
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Revival) || {{check|yes}} || 40 || {{check|yes}} || 120 (360) || 60 (360) || 1 || 20 || 40 || 0
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Dark Blue) || {{check|yes}} || 15 || {{check|no}} || 120 || 60 || 1 || 20 || 45 || 0
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Light Blue) || {{check|yes}} || 15 || {{check|no}} || 120 || 60 || 1 || 20 || 5 || 0
+|-
+| {{Enemy|Perpetual Mechanical Array|20}} || {{check|yes}} || 20 || {{check|yes}} || 120 (360) || 60 (360) || 1 || 20 || 15 || 0
+|-
+| {{Enemy|Oceanid|20}} (Normal) || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 30 || 0
+|-
+| {{Enemy|Oceanid|20}} (Event) || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 50 || 0
+|-
+| Most [[Hydro Mimics]] || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 50 || 0
+|-
+| {{Enemy|Hydro Mimic Crab|20}} (Event) || {{check|yes}} || 50 || {{check|no}} || 120 || 60 || 1 || 20 || 50 || 0
+|-
+| {{Enemy|Hydro Mimic Finch|20}} || {{check|yes}} || 25 || {{check|no}} || 120 || 60 || 1 || 20 || 50 || 0
+|-
+| {{Enemy|Thunder Manifestation|20}} || {{check|yes}} || 10 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| [[Regisvines]] || {{check|yes}} || 25 || {{check|no}} || 120 || 60 || 1 || 20 || 25 || 0
+|-
+| {{Enemy|Primo Geovishap|20}} || {{check|no}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 20 || 0
+|-
+| {{Enemy|Maguu Kenki|20}} || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 20 || 0
+|-
+| [[Dual Maguu Kenki]] || {{check|yes}} || 25 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| {{Enemy|Golden Wolflord|20}} || {{check|no}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| {{Enemy|Coral Defenders|20}} || {{check|yes}} || 10 || {{check|no}} || 120 || 60 || 1 || 20 || 10 || 0
+|-
+| {{Enemy|Ruin Serpent|20}} || {{check|no}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 30 || 0
+|}
+
+====Weekly Bosses====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Enable View !! View Range (m) !! Panoramic !! Horiz. FoV !! Vert. FoV !! Hearing Sensitivity !! Hearing Range (m) !! Proximity Range (m) !! Sourceless Hit Range (m)
+|-
+| {{Enemy|Dvalin|20}} || {{check|yes}} || 300 || {{check|no}} || 120 || 60 || 1 || 20 || 800 || 0
+|-
+| {{Enemy|Andrius|20}} || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 200 || 0
+|-
+| {{Enemy|Childe|20}} (Phase 1, 2) || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 15 || 0
+|-
+| {{Enemy|Childe|20}} (Phase 3) || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 50 || 0
+|-
+| {{Enemy|Azhdaha|20}} || {{check|yes}} || 100 || {{check|yes}} || 120 (360) || 60 (360) || 1 || 20 || 25 || 0
+|-
+| {{Enemy|La Signora|20}} (Phase 1) || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 20 || 0
+|-
+| {{Enemy|La Signora|20}} (Phase 2) || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 15 || 50
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} || {{check|yes}} || 30 || {{check|no}} || 120 || 60 || 1 || 20 || 7.5 || 0
+|}
+
+===Awareness Coefficients===
+====Common Enemies====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! In-View Coefficient !! Proximity Coefficient !! Awareness Decrease Coefficient !! Alarm Range (m)
+|-
+| Default || 100 || 500 || 30 || 12
+|-
+| [[Cicins]] || 35 || 1000 || 30 || 12
+|-
+| [[Slimes]] || 100 || 500 || 30 || 12
+|-
+| Large Slimes || 100 || 500 || 30 || 12
+|-
+| [[Specters]] || 100 || 500 || 30 || 12
+|-
+| [[Whopperflowers]] || 35 || 100 || 10 || 12
+|-
+| [[Hilichurls]] || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Unusual Hilichurl|20}} || 100 || 500 || 30 || 0
+|-
+| [[Samachurls]] || 35 || 100 || 10 || 12
+|-
+| [[Treasure Hoarders]] || 100 || 500 || 30 || 12
+|-
+| [[Fatui Skirmishers]] || 100 || 500 || 30 || 12
+|-
+| [[Nobushi]] || 100 || 500 || 30 || 12
+|-
+| [[Kairagi]] || 100 || 500 || 30 || 12
+|-
+| [[Floating Fungi]] || 35 || 500 || 30 || 12
+|}
+
+====Elite Enemies====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! In-View Coefficient !! Proximity Coefficient !! Awareness Decrease Coefficient !! Alarm Range (m)
+|-
+| Default || 100 || 500 || 30 || 12
+|-
+| [[Mitachurls]] || 100 || 500 || 30 || 12
+|-
+| [[Lawachurls]] || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Fatui Pyro Agent|20}} || 100 || 500 || 30 || 12
+|-
+| [[Fatui Cicin Mages]] || 35 || 100 || 10 || 12
+|-
+| {{Enemy|Mirror Maiden|20}} || 35 || 100 || 10 || 12
+|-
+| [[Abyss Mages]] || 35 || 100 || 10 || 12
+|-
+| [[Abyss Heralds]] || 100 || 500 || 30 || 12
+|-
+| [[Abyss Lectors]] || 100 || 500 || 30 || 12
+|-
+| [[Rifthounds]] || 100 || 500 || 30 || 12
+|-
+| Rifthound Whelps || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Eye of the Storm|20}} || 35 || 100 || 10 || 12
+|-
+| {{Enemy|Geovishap|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Geovishap Hatchling|20}} || 100 || 500 || 30 || 12
+|-
+| [[Bathysmal Vishaps]] || 100 || 500 || 30 || 12
+|-
+| Bathysmal Vishap Hatchlings || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Ruin Guard|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Ruin Grader|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Ruin Hunter|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Ruin Cruiser|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Ruin Scout|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Ruin Defender|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Ruin Destroyer|20}} || 100 || 500 || 30 || 12
+|-
+| [[Shadowy Husks]] || 100 || 500 || 30 || 12
+|}
+
+====Normal Bosses====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Enable Aggravation !! In-View Coefficient !! Proximity Coefficient !! Awareness Decrease Coefficient !! Alarm Range (m)
+|-
+| Default || {{check|yes}} || 100 || 500 || 30 || 12
+|-
+| [[Hypostases]] || {{check|yes}} || 35 || 500 || 100 || 12
+|-
+| {{Enemy|Geo Hypostasis|20}} || {{check|yes}} || 35 || 500 || 200 || 12
+|-
+| {{Enemy|Hydro Hypostasis|20}} || {{check|yes}} || 50 || 500 || 50 || 12
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Revival) || {{check|no}} || 200 || 200 || 30 || 12
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Dark Blue) || {{check|yes}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Light Blue) || {{check|no}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Perpetual Mechanical Array|20}} || {{check|yes}} || 35 || 500 || 100 || 12
+|-
+| {{Enemy|Oceanid|20}} (Normal) || {{check|yes}} || 1000 || 1000 || 100 || 12
+|-
+| {{Enemy|Oceanid|20}} (Event) || {{check|yes}} || 1000 || 1000 || 100 || 12
+|-
+| Most [[Hydro Mimics]] || {{check|yes}} || 100 || 100 || 100 || 12
+|-
+| {{Enemy|Hydro Mimic Raptor|20}} || {{check|yes}} || 100 || 500 || 100 || 12
+|-
+| {{Enemy|Thunder Manifestation|20}} || {{check|yes}} || 100 || 500 || 100 || 12
+|-
+| [[Regisvines]] || {{check|yes}} || 100 || 500 || 10 || 12
+|-
+| {{Enemy|Primo Geovishap|20}} || {{check|yes}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Maguu Kenki|20}} || {{check|yes}} || 100 || 500 || 30 || 12
+|-
+| [[Dual Maguu Kenki]] || {{check|yes}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Golden Wolflord|20}} || {{check|yes}} || 35 || 500 || 200 || 12
+|-
+| {{Enemy|Coral Defenders|20}} || {{check|yes}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Ruin Serpent|20}} || {{check|yes}} || 35 || 500 || 200 || 12
+|}
+
+====Weekly Bosses====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! In-View Coefficient !! Proximity Coefficient !! Awareness Decrease Coefficient !! Alarm Range (m)
+|-
+| {{Enemy|Dvalin|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Andrius|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Childe|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Azhdaha|20}} || 10 || 1000 || 30 || 12
+|-
+| {{Enemy|La Signora|20}} || 100 || 500 || 30 || 12
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} || 10 || 1000 || 30 || 12
+|}
+
+===Fall-Off Coefficients===
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Distance (m) !! In-View Fall-Off Coefficient
+|-
+| [[Weekly Bosses]]<br />Most [[Normal Bosses]]<br />[[Cicins]]<br />[[Whopperflowers]]<br />[[Samachurls]]<br />[[Fatui Cicin Mages]]<br />{{Enemy|Mirror Maiden|20}}<br />[[Abyss Mages]]<br />[[Abyss Heralds]]<br />[[Abyss Lectors]]<br />{{Enemy|Eye of the Storm|20}}<br />{{Enemy|Bolteater Bathysmal Vishap Hatchling|20}}<br />{{Enemy|Rimebiter Bathysmal Vishap Hatchling|20}} || colspan="2" | Fall-Off Disabled
+|-
+| rowspan="5" | [[Hilichurls]]<br />{{Enemy|Unusual Hilichurl|20}}<br />[[Treasure Hoarders]]<br />[[Fatui Skirmishers]]<br />[[Nobushi]]<br />[[Kairagi]]<br />[[Mitachurls]]<br />{{Enemy|Fatui Pyro Agent|20}}<br />[[Rifthound Whelps]]<br />{{Enemy|Geovishap|20}}<br />{{Enemy|Geovishap Hatchling|20}}<br />{{Enemy|Primordial Bathysmal Vishap Hatchling|20}}<br />[[Shadowy Husks]]<br />{{Enemy|Maguu Kenki|20}}<br />[[Dual Maguu Kenki]] || 10 || 2
+|-
+| 15 || 0.8
+|-
+| 20 || 0.5
+|-
+| 25 || 0.3
+|-
+| 30 || 0.2
+|-
+| rowspan="6" | [[Rifthounds]] || 10 || 2
+|-
+| 15 || 1.4
+|-
+| 20 || 1
+|-
+| 25 || 0.7
+|-
+| 30 || 0.5
+|-
+| 35 || 0.3
+|-
+| rowspan="4" | [[Ruin Machines]] || 10 || 2
+|-
+| 20 || 1
+|-
+| 30 || 0.5
+|-
+| 50 || 0.1
+|-
+| rowspan="4" | {{Enemy|Oceanid|20}}<br />[[Hydro Mimics]] || 10 || 2
+|-
+| 20 || 1
+|-
+| 30 || 0.5
+|-
+| 50 || 0.1
+|-
+| rowspan="2" | [[Slimes]] || 10 || 1
+|-
+| 15 || 0.5
+|-
+| rowspan="2" | Large Slimes<br />[[Specters]]<br />[[Floating Fungi]] || 12 || 1
+|-
+| 20 || 0.5
+|}
+
+===Taunt Resistance===
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Taunt Resistance
+! Enemies
+|-
+|1
+|
+*Most [[Common Enemies]]
+*[[Shadowy Husks]]
+*{{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Dark Blue)
+*{{Enemy|Oceanid|20}} (Normal)
+*[[Hydro Mimics]]
+|-
+|2
+|
+*[[Nobushi]]
+*[[Kairagi]]
+*[[Mitachurls]]
+*[[Abyss Mages]]
+*[[Vishaps]]
+|-
+|3
+|
+*Most [[Elite Enemies]]
+|-
+|4
+|
+*Most [[Normal Bosses]]
+|-
+|5
+|
+*All [[Weekly Bosses]]
+*{{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Revival)
+*{{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Light Blue)
+*{{Enemy|Maguu Kenki|20}}
+*[[Dual Maguu Kenki]]
+*{{Enemy|Coral Defenders|20}}
+|-
+|6
+|
+*{{Enemy|Oceanid|20}} (Event)
+*{{Enemy|Thunder Manifestation|20}}
+|}
+
+===Aggro Clearing===
+====Common Enemies====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Enable Defense Zone !! Defense Zone Radius (m) !! Target Distance Limit (m) !! Border Distance Limit (m) !! Distance Clear Time (s) !! Path Loss Aggro Clear !! Path Loss Clear Time (s) !! Out of Zone Aggro Clear !! Out of Zone Clear Time (s)
+|-
+| Default || {{check|yes}} || 40 || 50 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| [[Cicins]] || {{check|yes}} || 50 || 50 || 3.5 || 1.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| [[Slimes]] || {{check|yes}} || 30 || 30 || 3 || 2 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| Large Slimes || {{check|yes}} || 40 || 30 || 2.5 || 2.5 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| [[Specters]] || {{check|yes}} || 50 || 30 || 5 || 2 || {{check|no}} || 11 || {{check|no}} || 6
+|-
+| [[Whopperflowers]] || {{check|yes}} || 40 || 50 || 7.5 || 1.5 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| [[Hilichurls]] || {{check|yes}} || 40 || 50 || 4.75 || 3 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Unusual Hilichurl|20}} || {{check|yes}} || 40 || 50 || 4.75 || 3 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| [[Samachurls]] || {{check|yes}} || 40 || 30 || 0 || 4.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| [[Treasure Hoarders]] || {{check|yes}} || 40 || 50 || 4.75 || 3 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| [[Fatui Skirmishers]] || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|yes}} || 11 || {{check|no}} || 5
+|-
+| [[Nobushi]] || {{check|yes}} || 30 || 50 || 4.75 || 4.75 || {{check|yes}} || 11 || {{check|no}} || 5
+|-
+| [[Kairagi]] || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|yes}} || 11 || {{check|no}} || 5
+|-
+| [[Floating Fungi]] || {{check|yes}} || 50 || 30 || 5 || 2 || {{check|no}} || 10 || {{check|no}} || 5
+|}
+
+====Elite Enemies====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Enable Defense Zone !! Defense Zone Radius (m) !! Target Distance Limit (m) !! Border Distance Limit (m) !! Distance Clear Time (s) !! Path Loss Aggro Clear !! Path Loss Clear Time (s) !! Out of Zone Aggro Clear !! Out of Zone Clear Time (s)
+|-
+| Default || {{check|yes}} || 40 || 50 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| [[Mitachurls]] || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| [[Lawachurls]] || {{check|yes}} || 50 || 50 || 2 || 4.75 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Fatui Pyro Agent|20}} || {{check|yes}} || 60 || 50 || 4.75 || 4.75 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| [[Fatui Cicin Mages]] || {{check|yes}} || 50 || 50 || 3.5 || 1.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Mirror Maiden|20}} || {{check|yes}} || 40 || 30 || 3.5 || 1.75 || {{check|no}} || 11 || {{check|no}} || 6
+|-
+| [[Abyss Mages]] || {{check|yes}} || 50 || 50 || 7.5 || 1.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| [[Abyss Heralds]] || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| [[Abyss Lectors]] || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| [[Rifthounds]] || {{check|yes}} || 50 || 50 || 4.75 || 5 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| Rifthound Whelps || {{check|yes}} || 50 || 50 || 4.75 || 5 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Eye of the Storm|20}} || {{check|yes}} || 60 || 30 || 5 || 2 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Geovishap|20}} || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Geovishap Hatchling|20}} || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Primordial Bathysmal Vishap|20}} || {{check|yes}} || 50 || 50 || 2 || 4 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| [[Bathysmal Vishap]] Hatchlings || {{check|yes}} || 50 || 50 || 2 || 4 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Ruin Guard|20}} || {{check|yes}} || 75 || 60 || 25 || 2 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Ruin Grader|20}} || {{check|yes}} || 75 || 60 || 25 || 2 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Ruin Hunter|20}} || {{check|yes}} || 75 || 50 || 25 || 3 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| [[Ruin Sentinels]] || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|yes}} || 10 || {{check|no}} || 5
+|-
+| [[Shadowy Husks]] || {{check|yes}} || 50 || 50 || 4.75 || 5 || {{check|yes}} || 10 || {{check|no}} || 5
+|}
+
+====Normal Bosses====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Enable Defense Zone !! Defense Zone Radius (m) !! Target Distance Limit (m) !! Border Distance Limit (m) !! Distance Clear Time (s) !! Path Loss Aggro Clear !! Path Loss Clear Time (s) !! Out of Zone Aggro Clear !! Out of Zone Clear Time (s)
+|-
+| Default || {{check|yes}} || 40 || 50 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| Most [[Hypostases]] || {{check|yes}} || 50 || 70 || 7.5 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| {{Enemy|Geo Hypostasis|20}} || {{check|yes}} || 50 || 70 || 7.5 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 3
+|-
+| {{Enemy|Pyro Hypostasis|20}} || {{check|yes}} || 50 || 70 || 70 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 7
+|-
+| {{Enemy|Hydro Hypostasis|20}} || {{check|yes}} || 50 || 65 || 7.5 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Revival) || {{check|yes}} || 40 || 50 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Dark Blue) || {{check|yes}} || 50 || 30 || 3 || 2 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon|20}} (Light Blue) || {{check|yes}} || 50 || 30 || 3 || 2 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Perpetual Mechanical Array|20}} || {{check|yes}} || 50 || 70 || 0 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| {{Enemy|Oceanid|20}} (Normal) || {{check|yes}} || 70 || 75 || 7.5 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| {{Enemy|Oceanid|20}} (Event) || {{check|yes}} || 70 || 75 || 7.5 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| Most [[Hydro Mimics]] || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Hydro Mimic Crane|20}} || {{check|yes}} || 50 || 70 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Thunder Manifestation|20}} || {{check|yes}} || 45 || 70 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| [[Regisvines]] || {{check|yes}} || 25 || 28 || 7.5 || 1.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Primo Geovishap|20}} || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| {{Enemy|Maguu Kenki|20}} || {{check|yes}} || 50 || 70 || 4.75 || 4.75 || {{check|yes}} || 10 || {{check|yes}} || 7
+|-
+| [[Dual Maguu Kenki]] || {{check|yes}} || 50 || 50 || 4.75 || 4.75 || {{check|yes}} || 11 || {{check|no}} || 5
+|-
+| {{Enemy|Golden Wolflord|20}} || {{check|yes}} || 32.5 || 65 || 5 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 7.5
+|-
+| {{Enemy|Coral Defenders|20}} || {{check|yes}} || 100 || 100 || 100 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| {{Enemy|Ruin Serpent|20}} || {{check|yes}} || 40 || 65 || 5 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 7.5
+|}
+
+====Weekly Bosses====
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Enable Defense Zone !! Defense Zone Radius (m) !! Target Distance Limit (m) !! Border Distance Limit (m) !! Distance Clear Time (s) !! Path Loss Aggro Clear !! Path Loss Clear Time (s) !! Out of Zone Aggro Clear !! Out of Zone Clear Time (s)
+|-
+| {{Enemy|Dvalin|20}} || {{check|no}} || 40 || 1000 || 4.75 || 4.75 || {{check|no}} || 1000 || {{check|no}} || 5
+|-
+| {{Enemy|Andrius|20}} || {{check|yes}} || 40 || 1000 || 5 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| {{Enemy|Childe|20}} (Phase 1, 2) || {{check|yes}} || 40 || 50 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Childe|20}} (Phase 3) || {{check|no}} || 40 || 50 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|Azhdaha|20}} || {{check|yes}} || 120 || 1000 || 10 || 10 || {{check|no}} || 10 || {{check|no}} || 5
+|-
+| {{Enemy|La Signora|20}} || {{check|yes}} || 40 || 50 || 4.75 || 4.75 || {{check|no}} || 10 || {{check|yes}} || 5
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} || {{check|yes}} || 25 || 999 || 99 || 20 || {{check|no}} || 10 || {{check|yes}} || 5
+|}
+
+==Wildlife==
+===Detection Ranges===
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Wildlife !! Enable Detection !! Enable View !! View Range (m) !! Horiz. FoV !! Vert. FoV !! Hearing Sensitivity !! Hearing Range (m) !! Proximity Range (m)
+|-
+| Default || {{check|yes}} || {{check|yes}} || 30 || 120 || 60 || 1 || 20 || 5
+|-
+| Small Boars || {{check|yes}} || {{check|yes}} || 17.5 || 60 || 60 || 1 || 20 || 7.5
+|-
+| Boars || {{check|yes}} || {{check|yes}} || 25 || 90 || 45 || 1 || 20 || 10
+|-
+| Cats || {{check|yes}} || {{check|yes}} || 10 || 90 || 45 || 1 || 20 || 3.5
+|-
+| Crabs || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 || 5
+|-
+| Crane/Ibis || {{check|yes}} || {{check|yes}} || 30 || 90 || 30 || 2 || 20 || 15
+|-
+| Dogs/Kitsune || {{check|yes}} || {{check|yes}} || 10 || 90 || 45 || 1 || 20 || 3.5
+|-
+| Unagi || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 || 7
+|-
+| Falcons/Glede || {{check|no}} || {{check|yes}} || 30 || 120 || 60 || 1 || 20 || 5
+|-
+| Fish || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 || 3.5
+|-
+| Fish (Fishable) || {{check|yes}} || {{check|yes}} || 0 || 120 || 60 || 1 || 0 || 0
+|-
+| Foxes/Weasels || {{check|yes}} || {{check|yes}} || 15 || 90 || 30 || 1 || 20 || 9
+|-
+| Frogs || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 || 7.5
+|-
+| Bake-Danuki || {{check|yes}} || {{check|yes}} || 15 || 90 || 30 || 1 || 20 || 10
+|-
+| Lizards || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 || 7.5
+|-
+| Pigeons/Crow || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 || 7.5
+|-
+| Loaches || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 ||  12.5
+|-
+| Squirrels || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 ||  12
+|-
+| Weasel Thieves || {{check|yes}} || {{check|yes}} || 15 || 90 || 30 || 1 || 20 ||  10
+|-
+| Finches || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 ||  10
+|-
+| Ducks || {{check|yes}} || {{check|yes}} || 0 || 120 || 60 || 2.5 || 20 ||  5
+|-
+| Crystalflies || {{check|yes}} || {{check|no}} || 30 || 120 || 60 || 1 || 20 ||  5
+|}
+
+===Awareness Coefficients===
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Wildlife !! In-View Coefficient !! Proximity Coefficient !! Awareness Decrease Coefficient !! Alarm Range (m)
+|-
+| Default || 100 || 500 || 30 || 12
+|-
+| Small Boars || 100 || 1000 || 500 || 12
+|-
+| Boars || 100 || 1000 || 500 || 12
+|-
+| Cats || 100 || 500 || 500 || 12
+|-
+| Crabs || 50 || 1000 || 30 || 3
+|-
+| Crane/Ibis || 100 || 1000 || 30 || 12
+|-
+| Dogs/Kitsune || 100 || 500 || 500 || 12
+|-
+| Unagi || 75 || 1000 || 30 || 5
+|-
+| Falcons/Glede || 100 || 500 || 30 || 12
+|-
+| Fish || 75 || 1000 || 30 || 5
+|-
+| Fish (Fishable) || 0 || 0 || 30 || 0
+|-
+| Foxes/Weasels || 100 || 500 || 500 || 12
+|-
+| Frogs || 75 || 1000 || 30 || 5
+|-
+| Bake-Danuki || 100 || 500 || 500 || 12
+|-
+| Lizards || 75 || 1000 || 30 || 5
+|-
+| Pigeons/Crow || 75 || 1000 || 30 || 12
+|-
+| Loaches || 75 || 1000 || 30 || 5
+|-
+| Squirrels || 100 || 1000 || 500 || 12
+|-
+| Weasel Thieves || 50 || 1000 || 500 || 12
+|-
+| Finches || 100 || 1000 || 30 || 12
+|-
+| Ducks || 75 || 1000 || 30 || 12
+|-
+| Crystalflies || 100 || 1000 || 30 || 5
+|}
+
+===Fall-Off Coefficients===
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Enemy !! Distance (m) !! In-View Fall-Off Coefficient
+|-
+| rowspan="3" | Small Boars || 7.5 || 2
+|-
+| 10 || 1.25
+|-
+| 12.5 || 0.5
+|-
+| rowspan="3" | Boars || 10 || 2
+|-
+| 15 || 1.25
+|-
+| 20 || 0.5
+|-
+| rowspan="6" | Cats || 10 || 10
+|-
+| 12.5 || 10
+|-
+| 15 || 2
+|-
+| 20 || -1
+|-
+| 25 || -2
+|-
+| 30 || -2
+|-
+| rowspan="2" | Crane/Ibis || 10 || 1
+|-
+| 20 || 0.4
+|-
+| rowspan="5" | Foxes/Weasels || 7 || 2.5
+|-
+| 9 || 2
+|-
+| 11 || 1.5
+|-
+| 13 || 1
+|-
+| 15 || 0.5
+|-
+| rowspan="2" | Squirrels || 10 || 10
+|-
+| 15 || 0.5
+|-
+| rowspan="2" | Finch || 10 || 1
+|-
+| 20 || 0.1
+|-
+| rowspan="2" | Ducks || 10 || 1
+|-
+| 20 || 0.1
+|}
+
+===Aggro Clearing===
+{| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Wildlife !! Defense Zone Radois !! Target Distance Limit !! Border Distance Limit !! Distance Clear Time
+|-
+| Default || 40 || 50 || 4.75 || 4.75
+|-
+| Small Boars || 50 || 50 || 4.75 || 4.75
+|-
+| Boars || 100 || 50 || 4.75 || 4.75
+|-
+| Cats || 50 || 15 || 4.75 || 1
+|-
+| Crabs || 100 || 50 || 4.75 || 4.75
+|-
+| Crane/Ibis || 100 || 50 || 4.75 || 4.75
+|-
+| Dogs/Kitsune || 25 || 15 || 4.75 || 1
+|-
+| Unagi || 100 || 50 || 4.75 || 4.75
+|-
+| Falcons/Glede || 50 || 50 || 4.75 || 4.75
+|-
+| Fish || 50 || 10 || 4.75 || 0.8
+|-
+| Fish (Fishable) || 50 || 10 || 4.75 || 0.8
+|-
+| Foxes/Weasels || 100 || 50 || 4.75 || 4.75
+|-
+| Frogs || 100 || 50 || 4.75 || 4.75
+|-
+| Bake-Danuki || 50 || 50 || 4.75 || 1
+|-
+| Lizards || 100 || 50 || 4.75 || 4.75
+|-
+| Pigeons/Crow || 100 || 50 || 4.75 || 4.75
+|-
+| Loaches || 100 || 50 || 4.75 || 4.75
+|-
+| Squirrels || 100 || 50 || 4.75 || 4.75
+|-
+| Weasel Thieves || 50 || 50 || 4.75 || 4.75
+|-
+| Finches || 100 || 50 || 4.75 || 4.75
+|-
+| Ducks || 50 || 15 || 4.75 || 1
+|-
+| Crystalflies || 100 || 50 || 4.75 || 4.75
+|}
+
+[[Category:Game System Subpages]]

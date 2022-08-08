@@ -1,0 +1,458 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Enemy Drops
+|tab3 = Energy Recharge
+}}
+{{Terminology Infobox
+|image        = Icon Attribute Energy Recharge.png
+|type         = Attributes
+|type2        = Combat
+|type3        = Game Systems
+}}
+'''Energy''' is the resource used to execute [[Elemental Burst]] attacks. The amount of energy required for Elemental Bursts varies from [[character]] to character, and can be checked in-game via the Skill Attributes section of the character's [[talents]] menu.
+
+Energy is recharged by picking up elemental particles (for a small amount of energy) and elemental orbs (for a larger amount of energy). Additionally, basic attacks recharge energy at a small rate, while some [[artifacts]] and [[weapons]] can also regenerate energy directly when their activation conditions are met. Keep in mind, however, that some of them only regenerate energy for certain party members. Some character talents are also capable of regenerating energy for the character.
+
+When a character is [[Fallen Characters|knocked out]], they will lose all their energy. Certain [[:Category:Energy Drain Enemies|enemies]] also have the ability to drain (remove) energy, as well as certain [[Ley Line Disorders]], such as [[Engulfing Storm]] and Lightning Bolts.
+
+==Overview==
+Picking up elemental particles and orbs regenerates energy for the entire party, but the amount of energy gained depends on element, a character's Energy Recharge %, whether they are on the field or off the field, and how many characters are in the player's party.
+
+Both orbs and particles only give energy once they reach a character, creating some delay between generating an orb or particle and receiving its energy. As a result, it is possible to switch the active character while the orbs or particles are still traveling so that a different character can recover more energy.
+
+Elemental particles will restore energy to characters that share their elemental alignment &mdash; indicated by the particle's colour &mdash; at a greater rate, and to other characters at a lesser rate. For example, [[Kaeya]] gains more energy from Cryo elemental particles than he does from Pyro elemental particles.
+
+Elemental particles are dropped by enemies when their HP drops and when they receive damage from most [[Elemental Skill]]s.
+
+The particles dropped by damaging enemies occur at certain health thresholds. Smaller enemies like [[Hilichurl]]s drop a particle at 50% HP and upon defeat. Larger enemies like [[Mitachurls]] drop a particle at 75%, 50%, and 25% HP, and upon defeat. Depending on the type of enemy, these particles may or may not be elementally charged (slimes, for instance, always give an elemental particle according to their element).
+
+Damaging enemies with an Elemental Skill usually generates some elemental particles. Certain Elemental Skills, such as [[Noelle]]'s and [[Barbara]]'s, will not generate any elemental particles. Particles gained from using Elemental Skills will have the respective skill's element. Some Elemental Skills' particles appear at the location of the enemy hit and may take a while to travel to the active character, while other Elemental Skills' particles appear at the location of the active character when the skill was used and are almost immediately received by the active character, who is usually still the one that used the Elemental Skill unless the player experiences lag that delays the appearance of the elemental particles.
+
+For example, [[Xingqiu]]'s [[Guhua Sword: Fatal Rainscreen]] generates 5 Hydro elemental particles at Xingqiu's location. With reference to the [[#Energy Conversion Rates|energy conversion rates]], when the particles are absorbed:
+*An active Hydro character (such as Xingqiu himself) recovers 15 energy (5×3),
+*An inactive Hydro character (in a 4-character party) recovers 9 energy (5×1.8),
+*An active, non-Hydro character recovers 5 energy (5×1), and
+*An inactive, non-Hydro character (in a 4-character party) recovers 3 energy (5×0.6).
+Note that in this specific case, the particles spawn before Xingqiu's skill animation completely finishes. This makes it highly likely that Xingqiu will be the active character when the particles are received, though it is possible for another character to receive the particles if Xingqiu quickly sprints away and switches character.
+
+There are also some [[weapons]] that can generate elemental particles, and the [[Elemental Resonance]] [[High Voltage]] will generate an Electro elemental particle on a 5-second cooldown if the [[Superconduct]], [[Overloaded]], or [[Electro-Charged]] [[Elemental Reactions|elemental reactions]] are inflicted on an enemy.
+
+Some [[Artifacts]] such as a full [[The Exile]] set generate energy directly and do not require striking or damaging a foe. As with other sources of direct energy generation, such as certain character passive talents, this energy generation does not benefit from [[Energy Recharge]] effects. Some weapon passives, such as that from [[Prototype Amber]], also can generate energy in the same way.
+
+==Energy Conversion Rates==
+Picking up elemental orbs and particles translates to a certain amount of energy for active and inactive characters in a party. An "Active" character is the character currently being used by the player, while "Inactive" characters are in the current party but not on the field.
+*The number of characters in the party affects the Conversion Rate of inactive characters.<ref>Bilibili: [https://www.bilibili.com/video/BV1my4y1r7VP  Energy Recharge Research]</ref>
+**For '''2 / 3 / 4''' characters in the party, the Conversion Rate of '''inactive''' characters is '''80% / 70% / 60%''' of the Conversion Rate of '''active''' characters.
+*In Co-op mode, the number is determined by characters in the party a player can control.
+**For 2 Players, the host is considered to have '''2''' characters in their party, and the Conversion Rate of '''inactive''' characters is '''80% ''' of the Conversion Rate of '''active''' characters.
+
+This table shows the conversion rates of elemental orbs and particles to energy without taking the Energy Recharge% value into account.
+For example, if the active character picks up an elemental particle of the same element, they gain 3 Energy.
+{| class="wikitable" style="text-align:center;"
+|-
+!rowspan="2" |Character !!colspan=3 |Particle !! colspan=3 |Orb
+|-
+!Same Element!!Different Element!!Non-Elemental!!Same Element!!Different Element!!Non-Elemental
+|-
+!Active
+| 3 || 1 || 2 || 9 || 3 || 6
+|-
+!Inactive (4 characters in the party)
+| 1.8 || 0.6 || 1.2 || 5.4 || 1.8 || 3.6
+|-
+!Inactive (3 characters in the party)
+| 2.1 || 0.7 || 1.4 || 6.3 || 2.1 || 4.2
+|-
+!Inactive (2 characters in the party)
+| 2.4 || 0.8 || 1.6 || 7.2 || 2.4 || 4.8
+|}
+
+==Particles Generated by Elemental Skills==
+Note:  When a number of particles is not an integer, it means that the number of particles is random, and the given number is the average.<br />
+<code>–</code> means that the skill doesn't change when held.<br />The particle per second in practice may differ especially for hold skills, due to the different starting times of cooldowns.
+{| class="fandom-table sortable"
+|-
+! rowspan="2" |Character !! colspan="3" |Press !! colspan="3" |Hold !! rowspan="2" |Element
+|-
+!Particle!!CD!!data-sort-type="number" |Optimal Particle / Sec 
+!Particle!!CD!!data-sort-type="number" |Particle / Sec<!--It should include the charge time!-->
+|-
+| {{Character|Traveler (Anemo)|20|nobr=1}}
+| 2 || 5 || 0.4
+| 3.33 || 8 || 0.416
+| {{Anemo}}
+|-
+| rowspan="2" | {{Character|Traveler (Geo)|20|nobr=1}}
+| rowspan="2" | 3.33 || 8 (A0) || 0.416 (A0)
+| rowspan="2" | — || rowspan="2" | — || rowspan="2" | —
+| rowspan="2" | {{Geo}}
+|-
+| 6 (A1) || 0.555 (A1)
+|-
+| {{Character|Traveler (Electro)|20|nobr=1}}
+| 1 || 13.5 || 0.074 (+0.148)
+| — || — || —
+| {{Electro}}
+|-
+| {{Character|Albedo|20|nobr=1}}
+| 0.67/2s|| 4 || 0.335
+| — || — || —
+| {{Geo}}
+|-
+| {{Character|Aloy|20|nobr=1}}
+| 5 || 20 || 0.25
+| — || — || —
+| {{Cryo}}
+|-
+| {{Character|Amber|20|nobr=1}}
+| 4 || 15 || 0.267
+| — || — || —
+| {{Pyro}}
+|-
+| {{Character|Arataki Itto|20|nobr=1}} 
+| 3.5 || 10 || 0.35
+| — || — || —
+| {{Geo}}
+|-
+| {{Character|Barbara|20|nobr=1}}
+| 0 || 32 || 0
+| — || — || —
+| {{Hydro}}
+|-
+| {{Character|Beidou|20|nobr=1}}
+| 2 || 7.5 || 0.267
+| 4 || 7.5 || 0.533
+| {{Electro}}
+|-
+| rowspan="2" | {{Character|Bennett|20|nobr=1}}
+| rowspan="2" | 2.25 || 5 (A0) || 0.45 (A0)
+| rowspan="2" | 3 || 7.5–10 (A0) || 0.353 (A0)
+| rowspan="2" | {{Pyro}}
+|-
+| 4 (A1) || 0.5625 (A1) || 6–8 (A1) || 0.429 (A1)
+|-
+| {{Character|Chongyun|20|nobr=1}}
+| 4 || 15 || 0.267
+| — || — || —
+| {{Cryo}}
+|-
+| {{Character|Diluc|20|nobr=1}}
+| 1.33×3 || 10 || 0.399
+| — || — || —
+| {{Pyro}}
+|-
+| {{Character|Diona|20|nobr=1}}
+| 0.8×2 || 6 || 0.266
+| 0.8×5 || 15 || 0.266
+| {{Cryo}}
+|-
+| rowspan="2" | {{Character|Eula|20|nobr=1}} 
+| rowspan="2" | 1.5 || rowspan="2" | 4 || rowspan="2" | 0.375
+| rowspan="2" | 2.5 || 10 (C0) || 0.25 (C0)
+| rowspan="2" | {{Cryo}}
+|-
+| 4 (C2) || 0.625 (C2)
+|-
+| rowspan="4" | {{Character|Fischl|20|nobr=1}}
+| 0.67×10 (C0) || rowspan="4" | 25 || 0.268 (C0)
+| rowspan="4" | — || rowspan="4" | — || rowspan="4" | —
+| rowspan="4" | {{Electro}}
+|-
+| 0.67×20 (C0 With Burst) || 0.536 (C0 With Burst)
+|-
+| 0.67×12 (C6) || 0.322 (C6)
+|-
+| 0.67×24 (C6 With Burst) || 0.643 (C6 With Burst)
+|-
+| {{Character|Ganyu|20|nobr=1}} 
+| 2×2 || 10 || 0.4
+| — || — || —
+| {{Cryo}}
+|-
+| {{Character|Gorou|20|nobr=1}}
+| 2 || 10 || 0.2
+| — || — || —
+| {{Geo}}
+|-
+| {{Character|Hu Tao|20|nobr=1}}
+| 2.5×2 || 16 || 0.313
+| — || — || —
+| {{Pyro}}
+|-
+| {{Character|Jean|20|nobr=1}} 
+| 2.67 || 6 || 0.445
+| — || — || —
+| {{Anemo}}
+|-
+| {{Character|Kaedehara Kazuha|20|nobr=1}}
+| 3 || 6 || 0.5
+| 4 || 9 || 0.444
+| {{Anemo}}
+|-
+| {{Character|Kaeya|20|nobr=1}} 
+| 2.67 || 6 || 0.445
+| — || — || —
+| {{Cryo}}
+|-
+| {{Character|Kamisato Ayaka|20|nobr=1}} 
+| 4.5 || 10 || 0.45
+| — || — || —
+| {{Cryo}}
+|-
+| {{Character|Kamisato Ayato|20|nobr=1}}
+| 1.5×3 || 12 || 0.375
+| — || — || —
+| {{Hydro}}
+|-
+| {{Character|Keqing|20|nobr=1}}
+| 2.5 || 7.5 || 0.333
+| — || — || —
+| {{Electro}}
+|-
+| {{Character|Klee|20|nobr=1}}
+| 4 || 20 || 0.2
+| — || — || —
+| {{Pyro}}
+|-
+| {{Character|Kujou Sara|20|nobr=1}}
+| 3 || 10 || 0.3
+| — || — || —
+| {{Electro}}
+|-
+| rowspan="3" | {{Character|Kuki Shinobu|20|nobr=1}}
+| 0.45*8 (C0) || rowspan="3" | 15 || 0.24
+| rowspan="3" | — || rowspan="3" | — || rowspan="3" | —
+| rowspan="3" | {{Electro}}
+|-
+| 0.45*10 (C2) || 0.3
+|-
+| 0.45*13 (C4) || 0.39
+|-
+| {{Character|Lisa|20|nobr=1}}
+| 0 || 1 || 0
+| 5 || 16 || 0.313
+| {{Electro}}
+|-
+| {{Character|Mona|20|nobr=1}}
+| 3.33 || 12 || 0.2775
+| — || — || —
+| {{Hydro}}
+|-
+| rowspan="2" | {{Character|Ningguang|20|nobr=1}}
+| rowspan="2" | 3.33 || 12 (Pre-C2) || 0.2775 (Pre-C2)
+| rowspan="2" | — || rowspan="2" | — || rowspan="2" | —
+| rowspan="2" | {{Geo}}
+|-
+| 6 (C2) || 0.555 (C2)
+|-
+| {{Character|Noelle|20|nobr=1}}
+| 0 || 24 || 0
+| — || — || —
+| {{Geo}}
+|-
+| {{Character|Qiqi|20|nobr=1}}
+| 0 || 30 || 0
+| — || — || —
+| {{Cryo}}
+|-
+| {{Character|Raiden Shogun|20|nobr=1}}
+| 0.5/0.9s || 10 || 0.556
+| — || — || —
+| {{Electro}}
+|-
+| rowspan="2" | {{Character|Razor|20|nobr=1}}
+| rowspan="2" | 3 || 6 (A0) || 0.5 (A0)
+| rowspan="2" | 4 || 10 (A0) || 0.4 (A0)
+| rowspan="2" | {{Electro}}
+|-
+| 4.9 (A1) || 0.610 (A1) || 8.2 (A1) || 0.488 (A1)
+|-
+| {{Character|Rosaria|20|nobr=1}} 
+| 3 || 6 || 0.5
+| — || — || —
+| {{Cryo}}
+|-
+| {{Character|Sangonomiya Kokomi|20|nobr=1}}
+| 0.67×6 || 20 || 0.201
+| — || — || —
+| {{Hydro}}
+|-
+| {{Character|Sayu|20|nobr=1}}
+| 2 || 6 || 0.333
+| 1×4+2 || 6–11 || 0.5 <ref group="Note">The optimal way to generate particules is to only hold a short time, which generates 1+2 particules every 6s.</ref> 
+| {{Anemo}}
+|-
+| {{Character|Shenhe|20|nobr=1}}
+| 3 || 10 || 0.3
+| 4 || 15 || 0.267
+| {{Cryo}}
+|-
+| rowspan="3" | {{Character|Shikanoin Heizou|20|nobr=1}}
+| 2 (0-1 Stacks) || rowspan="3" | 10 || 0.2
+| rowspan="3"  | — ||  rowspan="3" | — || rowspan="3" | —
+| rowspan="3" | {{Anemo}}
+|-
+| 2.5 (2-3 Stacks) || 0.25
+|-
+| 3 (4 Stacks) || 0.3
+|-
+| {{Character|Sucrose|20|nobr=1}} 
+| 4 || 15 || 0.267
+| — || — || —
+| {{Anemo}}
+|-
+| rowspan="2" | {{Character|Tartaglia|20|nobr=1}} 
+| 1×N (Melee) || 6-45 (Melee) || 0.166 (Melee)
+| rowspan="2" | — || rowspan="2" | — || rowspan="2" | —
+| rowspan="2" | {{Hydro}}
+|-
+| 1/3s (Ranged) || 3 (Ranged) || 0.333 (Ranged)
+|-
+| {{Character|Thoma|20|nobr=1}}
+| 3.5 || 15 || 0.233
+| — || — || —
+| {{Pyro}}
+|-
+| {{Character|Venti|20|nobr=1}}
+| 3 || 6 || 0.5
+| 4 || 15 || 0.267
+| {{Anemo}}
+|-
+| {{Character|Xiangling|20|nobr=1}}
+| 1×4 || 12 || 0.333
+| — || — || —
+| {{Pyro}}
+|-
+| {{Character|Xiao|20|nobr=1}}
+| 3 || 10 || 0.3
+| — || — || —
+| {{Anemo}}
+|-
+| {{Character|Xingqiu|20|nobr=1}}
+| 5 || 21 || 0.238
+| — || — || —
+| {{Hydro}}
+|-
+| {{Character|Xinyan|20|nobr=1}}
+| 4 || 18 || 0.222
+| — || — || —
+| {{Pyro}}
+|-
+| {{Character|Yae Miko|20|nobr=1}}
+| 1/2.5s|| 4 || 0.4
+| — || — || —
+| {{Electro}}
+|-
+| {{Character|Yanfei|20|nobr=1}}
+| 3 || 9 || 0.333
+| — || — || —
+| {{Pyro}}
+|-
+| {{Character|Yelan|20|nobr=1}}
+| 4 || 10 || 0.4
+| — || — || —
+| {{Hydro}}
+|-
+| {{Character|Yoimiya|20|nobr=1}}
+| 1x4 || 18 || 0.222
+| — || — || —
+| {{Pyro}}
+|-
+| rowspan="2" | {{Character|Yun Jin|20|nobr=1}}
+| rowspan="2" | 2 || rowspan="2" | 9 || rowspan="2" | 0.222
+| 2.5 (Charge Level 2) || rowspan="2" | 9 || 0.278 (Charge Level 2)
+| rowspan="2" | {{Geo}}
+|-
+| 3 (Charge Level 3) || 0.333 (Charge Level 3)
+|-
+| rowspan="2" | {{Character|Zhongli|20|nobr=1}}
+| 0.5/2s (C0) || rowspan="2" | 4 || 0.25 (C0)
+| 0.5/2s (C0) || rowspan="2" | 12 || 0.25 (C0)
+| rowspan="2" | {{Geo}}
+|-
+| 0.5/1.5s (C1) || 0.333 (C1) || 0.5/1.5s (C1) || 0.333 (C1)
+|}
+
+==Particles Generated by Enemy Drops==
+{{Main|Energy/Enemy Drops}}
+When an enemy HP decreases below a threshold, it will drop particle(s) or orb(s).
+
+Some enemies may only have one threshold (mostly 0% of max HP), while some enemies may have 4 thresholds (such as 75%, 50%, 25% and 0% of max HP).
+
+'''Note:''' Some enemies will drop more than one particle when their HP are below thresholds, but it seems like they only drop one particle in the screen. Maybe the system merges particles into one particle in visual effects.
+
+For some enemies, particle(s) or orb(s) come from skills of enemies.
+
+==Energy Generated by Normal Attacks==
+When a [[Normal Attack|Normal]] or [[Charged Attack|Charged]] Attack hits an enemy, it has a probability to generate 1 Energy for the character. Every time a Normal or Charged Attack fails to generate Energy, the probability will be increased. When Energy is successfully generated, the probability will be reset.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/9ea6dc32920e1176d938defb4a7b8cf42fe4f60c/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Common.json Character Abilities]</ref> Energy restored this way is not affected by [[Energy Recharge]].
+{| class="fandom-table"
+|-
+!Weapon Type!!Base Probability (%)!! Probability Increase Per Fail (%)
+|-
+|Sword || 10 || 5
+|-
+|Bow|| 0 || 5
+|-
+| Claymore|| 0 || 10
+|-
+|Polearm|| 0 || 4
+|-
+|Catalyst|| 0 || 10
+|}
+
+==Energy Cost Table==
+{{Transclude|Elemental Burst|Comparison|main=1}}
+
+==Energy Generation Effects==
+This is the list of Talents with the effect of regenerating energy directly, or recharging energy via Elemental Particles.
+
+To see the list of effects which increase the Energy Recharge attribute, or are dependent on the Energy Recharge attribute, see [[Energy/Energy Recharge|Energy Recharge]].
+
+===Talents===
+{{Talents by Category Table|Energy Talents}}
+
+===Constellations===
+{{Constellations by Category Table|Energy Constellations}}
+
+===Artifacts===
+The following artifact sets generate energy.
+{{Artifacts by Category Table|Energy Generation Artifacts}}
+
+===Weapons===
+The following weapons have energy generation as a part of their passive effect.
+{{Weapons by Category Table|Energy Generation Passive Weapons}}
+
+==Other Energy-Related Effects==
+===Talents===
+{{Talents by Category Table|Energy Other Talents}}
+
+===Artifacts===
+The following artifact sets have effects related to energy.
+{{Artifacts by Category Table|Energy Artifacts}}
+
+===Weapons===
+The following weapons have passive effects related to energy.
+{{Weapons by Category Table|Energy Passive Weapons}}
+
+==Enemies==
+The following enemies have the ability to drain Energy:
+{{Enemies by Category List|Energy Drain Enemies|header=1}}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Palm Vortex Press (Aether) Preview.gif|Anemo Elemental Particles after hitting an enemy with an elemental skill
+</gallery>
+
+==Notes==
+{{Reflist|note=1}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Genshin Navbox|state=collapsed}}
+{{Attribute Navbox|state=collapsed}}
+{{Combat Navbox}}
+
+[[pt-br:Energia]]
+[[th:พลังงาน]]

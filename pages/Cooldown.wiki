@@ -1,0 +1,108 @@
+{{About|the talent cooldown|the the cooldown on elemental application|Internal Cooldown}}
+{{Terminology Infobox
+|image        = Icon Attribute Cooldown Reduction.png
+|type         = Attributes
+|type2        = Combat
+|type3        = Game Systems
+}}
+'''Cooldown''' (CD) refers to the time it takes for an [[Elemental Skill]], [[Elemental Burst]], or other ability (like [[Waverider]] cannons) to be used again.
+
+Cooldown can be reduced via the {{Element|Anemo|24}} [[Impetuous Winds]] Elemental Resonance and certain Character abilities. Certain [[:Category:CD Increase Enemies|enemies]] like the [[Abyss Herald: Wicked Torrents]] also have the ability to manipulate the players' cooldown. The [[Slowing Water]] [[Ley Line Disorder]] can also prolong the cooldown of characters' skills.
+
+The cooldowns for many character's skills are fixed, but in rare cases it may vary depending on how long the ability was used; examples include [[Tartaglia]]'s [[Foul Legacy: Raging Tide]] and [[Sayu]]'s [[Yoohoo Art: Fuuin Dash]].
+
+==CD Reduction==
+Reduce CD, commonly known as cooldown reduction, is a percentage decrease on the cooldowns after using your Elemental Skill or Elemental Burst before you can use them again. For example, if your Elemental Skill normally has a cooldown of 10 seconds, and you have 10% cooldown reduction, your skill can be used every 9 seconds.
+
+The Reduce CD attribute stacks additively and is affected by any effect that reduces all cooldowns, but any effects that reduce cooldowns of particular talents will stack multiplicatively.
+
+For example, if [[Bennett]]
+
+* is in a party with the {{Element|Anemo|24}} [[Impetuous Winds]] Elemental Resonance (5% cooldown reduction)
+* and stands in the Chonghua Frost Field from a constellation-level-2 [[Chongyun]]'s Elemental Skill (15% cooldown reduction)
+
+then he will have a Reduce CD of 20%. Furthermore, if Bennett is at ascension level 4 or higher (and thus has all of his Passive Talents unlocked), his Elemental Skill...
+
+* gains a 20% cooldown reduction
+* and gains another 50% reduction while he stands in his Elemental Burst's AoE.
+
+Thus, if he uses his skill while inside both his burst and Chongyun's skill, its base cooldown of 5 seconds will be reduced to 5 seconds × (1−0.2) × (1−0.2) × (1−0.5) = 1.6 seconds. (Bennett's Reduce CD stat will still be 20%, since his Passive Talents affects only his skill&mdash;not all cooldowns.)
+
+==Character Switching Cooldown==
+The character switching cooldown limits how often a character can be switched. By default, this cooldown is one second. This cooldown can be manipulated by event status effects, such as those in the [[Perilous Trail/Event|Perilous Trail]] event.
+
+==Talents==
+===CD Reduction Talents===
+{{Talents by Category Table|Cooldown Reduction Talents}}
+===CD Reset Talents===
+{{Talents by Category Table|Cooldown Reset Talents}}
+
+==Constellations==
+===CD Reduction Constellations===
+{{Constellations by Category Table|Cooldown Reduction Constellations}}
+
+===CD Reset Constellations===
+{{Constellations by Category Table|Cooldown Reset Constellations}}
+
+===CD Ignoring Constellations===
+These constellations can enable the character to ignore CD.
+
+{{Constellations by Category Table|Cooldown Ignoring Constellations}}
+
+==Artifacts==
+Certain artifacts can reduce or reset cooldown.
+
+===CD Reduction Artifacts===
+{{Artifacts by Category Table|Cooldown Reduction Artifacts}}
+
+===CD Reset Artifacts===
+{{Artifacts by Category Table|Cooldown Reset Artifacts}}
+
+==Weapons==
+===CD Reset Weapons===
+{{Weapons by Category Table|Cooldown Reset Passive Weapons}}
+
+==Domains and Events==
+Certain domains and events will modify CD as well:
+*[[Legend of the Vagabond Sword]]
+*[[Cecilia Garden]]
+
+==Comparison==
+===Elemental Skills===
+{{Transclude|Elemental Skill|Comparison}}
+
+===Elemental Bursts===
+{{Transclude|Elemental Burst|Comparison}}
+
+==Enemy Cooldowns==
+[[Enemies]] also have cooldowns for their skills.
+
+Enemies have '''5''' separate cooldown timers for their skills. A skill can only be used if all 5 cooldown timers have reached '''0'''. The 5 cooldowns are respectively '''Regular Cooldown''', '''Initial Cooldown''', '''Local Shared Cooldown''', '''Global Shared Cooldown''', and '''Action Interval'''.<ref>NGA: [https://ngabbs.com/read.php?tid=32325602 《原魔出招学》- 雷泽看了都会预判和引导怪物出招]</ref>
+
+* '''Regular Cooldown''' starts after an enemy skill ends. This cooldown is typically randomly determined within a '''Cooldown Range''', but fixed cooldowns also exist for some enemy skills.
+** For example, [[Maguu Kenki]]'s Pushing Mask attack has a Cooldown Range of '''10-15''' seconds.
+* '''Initial Cooldown''' starts after an enemy enters combat or enters the state required by the ability. This cooldown determines the amount of time required to pass for a skill to be performed for the first time. Not all skills have an Initial Cooldown.
+** For example, the [[Ruin Guard]]'s Spin attack has an Initial Cooldown Range of '''30-60''' seconds.
+* '''Local Shared Cooldown''' is a cooldown shared between multiple skills of the same enemy, typically to prevent enemies from performing multiple similar attacks in a row.
+** For example, the [[Perpetual Mechanical Array]]'s Rocket Blast, Combo 1 (Sword Slash + Rocket Blast) and Combo 2 (Blade Spin + Sword Slash + Rocket Blast) all share a Local Shared Cooldown of '''10''' seconds.
+* '''Global Shared Cooldown''' is applied to certain skills when multiple enemies of the same type are present. Global Shared Cooldown is the only type of cooldown that starts as soon as a skill is initiated instead of after the skill finishes.
+** For example, when the Perpetual Mechanical Array enters Defensive Mode, the following can be observed:
+*** If the [[Ruin Cruiser]] performs Orb Lay, the [[Ruin Defender]] will not immediately perform Leap.
+*** If the Ruin Cruiser does not perform Orb Lay, the Ruin Defender will likely perform Leap.
+*** This is due to the aforementioned two enemy skills sharing the same Global Shared Cooldown.
+** Note that Global Shared Cooldown will be ignored if two enemies attack at the exact same time.
+* '''Action Interval''' is a cooldown shared between all skills of a single enemy which ensures that enemies do not chain attacks too rapidly. Action Interval is typically '''1-3''' seconds depending on the enemy.
+** Some skills do not trigger Action Interval, such as the [[Abyss Herald: Wicked Torrents]]' Tidal Slash Combo. Such skills can be immediately followed up by another skill.
+** Some skills ignore Action Interval, such as the Abyss Herald: Wicked Torrents' backstep. Such skills can be used to immediately follow up another skill, even if the Action Interval timer has not reached 0.
+
+===Enemy CD Reduction===
+The buff provided by [[Electro]] [[Elemental Nodes]] reduces the Regular Cooldown, Initial Cooldown, and Local Shared Cooldown of enemy skills. Global Shared Cooldown and Action Interval are not affected.
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox}}

@@ -1,0 +1,59 @@
+{{Community}}
+{{Terminology Infobox
+|type = Combat
+|type2 = Game Systems
+}}
+'''Damage Sequence''' is a mechanic that reduces the damage dealt by attacks that hit repeatedly. It is a component of [[Internal Cooldown]] alongside the Gauge Sequence and the Poise Sequence.
+
+This mechanic is commonly used by fast-hitting [[enemy]] attacks to improve the player's survivability, as well as certain [[Elemental Reactions]] to prevent {{w|Quadratic growth|quadratic scaling}} of AoE damage.
+
+==Overview==
+Similar to [[Internal Cooldown]]'s Gauge Sequence, Damage Sequence is handled by two properties: '''Reset Interval''' and '''Hit Sequence'''.
+* The '''Hit Sequence''' adds an additional multiplier to damage instances based on the amount of times the corresponding type of damage has been dealt. For example, if a Hit Sequence is [1, 0.5, 0.25, 0.1], the second instance of damage will be multiplied by 0.5, the third instance of damage will be multiplied by 0.25, and all remaining instances of damage will be multiplied by 0.1 until the sequence is reset.
+* The '''Reset Interval''' is a timer that starts when the first instance of damage is dealt and will reset the Hit Sequence when it reaches 0.
+
+Note that Damage Sequence is counted separately for each target.
+{{Preview
+|f1 = Damage Sequence Preview
+}}
+For example, the [[Thunder Manifestation]]'s "Slicing Storm" attack has a Hit Sequence of '''[1, 0.5, 0.25, 0.1]''' and a Reset Interval of '''1''' second. When hit repeatedly by this attack, the following can be observed:
+* The first instance of damage has a corresponding multiplier of '''1''', so it deals the full amount of damage of '''1975'''.
+* The second and third instances of damage have multipliers of '''0.5''' and '''0.25''' respectively, dealing '''987''' and '''493''' damage respectively.
+* The remaining instances of damage in the sequence have a multiplier of '''0.1''', dealing '''197''' damage.
+* After 1 second, the Hit Sequence is reset, and the attack deals '''1975''' and '''987''' damage again before ending.
+
+==Types==
+{| class="fandom-table"
+! Reset Interval (s) !! Hit Sequence !! Affected Attacks
+|-
+| 0.5 || 1, 0 || [[Electro-Charged]]<br />[[Overloaded]]<br />{{Character|Yae Miko|20|nobr=1}}: {{Talent|Spiritfox Sin-Eater|text=Charged Attack|20|nobr=1}}<br />{{Enemy|Cryo Hypostasis|20}}: Icicle Barrage, Frost Wheel<br />{{Enemy|Cryo Regisvine|20}}: Faceplant (Ice Waves)<br />{{Enemy|Cryo Whopperflower|20}}: Crystalline Spikes<br />{{Enemy|Electro Whopperflower|20}}: Orb Lay (Contact DMG), Focused Laser<br />{{Enemy|Pyro Regisvine|20}}: Faceplant (Explosion Waves)<br />{{Enemy|Primo Geovishap|20}}: Pyro-Infused Stone (DoT)<br />{{Enemy|Pyro Hypostasis|20}}: Fire Ball
+|-
+| 0.5 || 1, 1, 0 || [[Shattered]]<br />[[Superconduct]]<br />[[Swirl]]
+|-
+| 0.5 || 1, 1, 1, 0 || {{Character|Kamisato Ayaka|20|nobr=1}}: {{Talent|Kamisato Art: Kabuki|text=Charged Attack|20|nobr=1}}
+|-
+| 1 || 1, 0.5, 0.25, 0.1 || {{Enemy|Coral Defenders|20}}: Homing Shards, Critical Assist, Double Beams, Spike Field<br />{{Enemy|Fatui Skirmisher - Geochanter Bracer|20}}: Rock Strike (Enhanced)<br />{{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}}: Rifle Shot (Enhanced)<br />{{Enemy|Primordial Bathysmal Vishap|20}}: Waterwheels, Spike Field<br />{{Enemy|Stonehide Lawachurl|20}}: Explosion Trails<br />{{Enemy|The Great Snowboar King|20}}: Royal Family<br />{{Enemy|Thunder Manifestation|20}}: Slicing Storm, Sundering Plumes<br />{{Enemy|Azhdaha|20}}: Fractal Lance, The King's Roar (Hydro)<br />{{Enemy|Hydro Hypostasis|20}}: Wave Slam
+|-
+| 1 || 1, 0.25, 0.1 || {{Enemy|Black Shadow: Hayate no Gokotu|20}}: Thunderblades, Thunderwheels<br />{{Enemy|Canine Bunshin|20}}: Thunderwheels<br />{{Enemy|Taroumaru|link=Taroumaru/Enemy|20}}: Thunderblades<br />{{Enemy|Golden Wolflord|link=Taroumaru/Enemy|20}}: Laser Beam, Tornado
+|-
+| 1 || 1, 0 || {{Enemy|Geovishap Hatchling|20}}: Spinning Attack<br />{{Enemy|Pyro Hypostasis|20}}: Molten Fist
+|-
+| 0.4 || 1, 0 || {{Enemy|Ruin Cruiser|20}}: Orb Lay<br />{{Enemy|Ruin Destroyer|20}}: Energy Field<br />{{Enemy|Ruin Scout|20}}: Orb Lay, Headbutt<br />{{Enemy|Ruin Grader|20}}: Orb Attack, Focused Laser, Clap (Laser)<br />{{Enemy|Geovishap|20}}: Electro Orbs<br />{{Enemy|Perpetual Mechanical Array|20}}: Energy Cannon
+|-
+| 1 || 1, 0.7, 0.5, 0.2, 0.1 || {{Enemy|Thunder Manifestation|20}}: Walls of Lightning
+|-
+| 0.5 || 1, 0.5, 0.25, 0 || {{Enemy|Primo Geovishap|20}}: Elemental Breath<br />{{Enemy|Abyss Lector: Violet Lightning|20}}: Thunder Wave
+|-
+| 1 || 1, 0.5, 0.25, 0 || {{Enemy|Abyss Lector: Violet Lightning|20}}: Abyssal Light, The Violet Lightning
+|-
+| 1 || 1, 0.5, 0.25 || {{Enemy|Abyss Herald: Wicked Torrents|20}}: Abyssal Roar<br />{{Enemy|Coral Defenders|20}}: Rapid Fire
+|-
+| 1 || 1, 1, 1, 0 || {{Enemy|Cryo Hypostasis|20}}: Homing Icicles<br />{{Enemy|Pyro Hypostasis|20}}: Fire Serpent, Missiles
+|-
+| 1 || 1, 0, 0, 0, 0, 1, 0 || {{Enemy|Electro Abyss Mage|20}}: Electro Ring
+|-
+| 0.5 || 1, 0, 0, 1, 0, 0, 1, 0 || {{Enemy|Shadowy Husk: Line Breaker|20}}: Impaling Torrent
+|}
+
+==Navigation==
+{{Combat Navbox}}

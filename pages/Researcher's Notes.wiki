@@ -1,0 +1,162 @@
+{{Hidden Exploration Objectives Infobox
+|type       = Unordered
+|region     = Inazuma
+|area       = Watatsumi Island
+|loc        = [[Watatsumi Island]]
+}}
+'''Researcher's Notes''' ''(unofficial name)'' is a [[Hidden Exploration Objective]] involving several interactable items found around [[Watatsumi Island]] as well as a sudoku-like puzzle. Interacting with all five gives the ''[[Wonders of the World]]'' achievement "[[The Stranding of the Beagle]]."
+
+==Dialogue==
+===Location 1===
+*At [[Suigetsu Pool]], outside to the west of the ruins.
+*:<gallery hideaddbutton="true" captionalign="center">
+Location Researcher's Notes 1.png|Location
+Location Researcher's Notes 1 Context.png|Additional context
+</gallery>
+{{Dialogue start}}
+:'''Researcher's Notes:''' "...The architecture of this ruin is quite similar to that which appears on structures dating back to the Archon War, but we will need to investigate further..."
+:'''Researcher's Notes:''' "...It's just a shame that my current topic of study does not permit me to stay here for too long..."
+{{Dialogue end}}
+
+===Location 2===
+*West of the northernmost [[Teleport Waypoint]] on Watatsumi Island, on the top of a hill. There are two [[Nobushi: Hitsukeban]] present.
+*:<gallery hideaddbutton="true" captionalign="center">
+Location Researcher's Notes 2.png|Location
+Location Researcher's Notes 2 Context.png|Additional context
+</gallery>
+{{Dialogue start}}
+:'''Researcher's Notes:''' "...The rock cliff on which this shrine is perched is a most lovely sight. The stone tablets around it do bear further observation..."
+:'''Researcher's Notes:''' "...Viewing the sunset in front of a torii gate really brings you a sense of inner peace..."
+{{Dialogue end}}
+
+===Location 3===
+*North of the [[Mouun Shrine]] [[Statue of The Seven]], on the beach.
+*:<gallery hideaddbutton="true" captionalign="center">
+Location Researcher's Notes 3.png|Location
+Location Researcher's Notes 3 Context.png|Additional context
+</gallery>
+{{Dialogue start}}
+:'''Researcher's Notes:''' "...This camp has been abandoned. I did nick a few useful items from it, however..."
+:'''Researcher's Notes:''' "...Well, at least my putting them to good use is better than letting them mold away here, hehe..."
+{{Dialogue end}}
+
+===Location 4===
+*At the [[Mysterious Pillar]] with Electro [[Elemental Monument]]s Puzzle near Watatsumi Island's eastmost Teleport Waypoint
+*:<gallery hideaddbutton="true" captionalign="center">
+Location Researcher's Notes 4.png|Location
+Location Researcher's Notes 4 Context.png|Additional context
+</gallery>
+{{Dialogue start}}
+:'''Researcher's Notes:''' "...Altars to the Electro Archon do not fare too well on Watatsumi Island, and this is no exception..."
+:'''Researcher's Notes:''' "...There aren't any more ruins related to Narukami Island culture nearby. I don't think this angle is worth pursuing that much further..."
+{{Dialogue end}}
+
+===Location 5===
+*At the [[Electro Cube]] Puzzle near Watatsumi Island's southeastern Teleport Waypoint
+*:<gallery hideaddbutton="true" captionalign="center">
+Location Researcher's Notes 5.png|Location
+Location Researcher's Notes 5 Context.png|Additional context
+</gallery>
+{{Dialogue start}}
+;(Upon finding the puzzle)
+:'''Paimon:''' This mechanism looks super complicated &mdash; but Paimon's sure you'll be fine. Right?
+:'''Paimon:''' Paimon's leaving this to you then, (Traveler)!
+
+:'''Researcher's Notes:''' "This is a very interesting Ruin machine indeed..."
+:'''Researcher's Notes:''' "...I shall assign a number to each of these cubes' positions. One shall be north, east shall be two. South three, and West, four..."
+:'''Researcher's Notes:''' "...Adding on another four for those cubes with floating stone slates on them gives us five through eight..."
+:'''Researcher's Notes:''' "...The sole empty position shall be nine, thus making up our nine-slotted puzzle..."
+:'''Researcher's Notes:''' "...The lights on the stones don't seem to mean much. In that case..."
+:'''Researcher's Notes:''' "Now then, let's try to make the sum of the numbers along the horizontal, vertical, and diagonal lines the same..."
+:'''Researcher's Notes:''' "And eureka, I've solved it! Well, that's another entry for my thesis..."
+:'''Researcher's Notes:''' "I should continue west and see if there are any other ruins."
+
+;(After solving the first puzzle)
+:'''Paimon:''' Woohoo, you got it! Paimon knew you would!
+:'''Paimon:''' So little stuff? But the mechanism was so tough! ... Should we try it again?
+
+;(First change)
+:'''Paimon:''' Whoa, the mechanism looks different now! Does that mean... new treasure?
+:'''Paimon:''' Ugh, this looks even worse than before! Paimon's out of brain-juice again, (Traveler)!
+
+;(After solving the second puzzle)
+:'''Paimon:''' Is it just Paimon, or is this thing really stingy? The puzzle's not going to change again, is it?
+
+;(Second change)
+:'''Paimon:''' Ahh! It changed again! Well, you're up, (Traveler)!
+
+;(After solving the third puzzle)
+:'''Paimon:''' Ooh, that's a huge treasure chest!
+:'''Paimon:''' Easy-peasy, Paimon-squeezy, eh?
+{{Dialogue end}}
+
+====Solving the Puzzles====
+We can use the research notes to create a 3×3 matrix.
+
+# ''"...I shall assign a number to each of these cubes' positions. One shall be north, east shall be two. South three, and West, four..."''
+#* "Positions" can be more accurately read as "orientation".
+#* A cube that faces North will have a value of 1, a cube that faces East will have a value of 2, and so on.
+#* Non-interacting cubes cannot be rotated, so their values will be fixed.
+#* However, cubes that can be rotated will have values range from 1 to 4 based on where they face.
+# ''"...Adding on another four for those cubes with floating stone slates on them gives us five through eight..."''
+#* A value of 4 is added to all the cubes with a stone slate on top.
+#* Again, non-rotating cubes have fixed values, while rotating cubes will have values range from 5 to 8 based on where they face.
+# ''"...The sole empty position shall be nine, thus making up our nine-slotted puzzle..."''
+#* The missing cube position has a fixed value of 9.
+# ''"...The lights on the stones don't seem to mean much. In that case..."''
+#* The lights on the stones can be ignored, and are only used to indicate cube orientation.
+# ''"Now then, let's try to make the sum of the numbers along the horizontal, vertical, and diagonal lines the same..."''
+#* The sum of values of the cubes should be the same for each row, column, and diagonal.
+#* To solve the puzzle, algebraic manipulation or other methods can be performed. In short, because the value of each cube is actually unique from 1 to 9, this forms a {{w|Magic Square}} and the values should add up to 15 in each row, column, and diagonal.
+
+{| class = "wikitable" style="text-align: center"
+|+ Phase 1
+|-
+|1-4
+|'''3'''
+|'''8'''
+|-
+|'''9'''
+|5-8
+|'''1'''
+|-
+|'''2'''
+|5-8
+|5-8
+|}
+{| class = "wikitable" style="text-align: center"
+|+ Phase 2
+|-
+|1-4
+|'''9'''
+|'''2'''
+|-
+|'''3'''
+|5-8
+|5-8
+|-
+|'''8'''
+|1-4
+|'''6'''
+|}
+{| class = "wikitable" style="text-align: center"
+|+ Phase 3
+|-
+|1-4
+|'''7'''
+|5-8
+|-
+|'''9'''
+|'''5'''
+|'''1'''
+|-
+|1-4
+|'''3'''
+|5-8
+|}
+
+==Change History==
+{{Change History|2.1}}
+
+==Navigation==
+{{Hidden Exploration Objective Navbox|Unordered}}

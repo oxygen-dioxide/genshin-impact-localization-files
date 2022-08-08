@@ -1,0 +1,117 @@
+{{See Also|Gauge Unit Theory}}
+{{Terminology Infobox
+|image        = Reaction Frozen.png
+|caption      = Elements that trigger the Frozen reaction (Hydro and Cryo)
+|type         = Elemental Reactions
+|type2        = Combat
+|type3        = Game Systems
+}}
+{{Elemental Reaction Intro|element1=Cryo|element2=Hydro}}
+
+Frozen can be ended prematurely by triggering any elemental reactions, including Shatter (and excluding Frozen). The Frozen status can be reapplied on Frozen opponents, but with a shorter duration.
+
+==Duration==
+{{main|Gauge Unit Theory/Auras#Freeze Aura Gauges}}
+:<math>\begin{align}
+\text{Gauge}_\text{Freeze Aura} &= 2\min(\text{Gauge}_\text{Origin Aura}, \text{Gauge}_\text{Trigger Element}) \\
+\text{Frozen Duration} &= 2\sqrt{5\times\text{Gauge}_\text{Freeze Aura} + 4} - 4
+\end{align}</math>
+
+==Shattered==
+{{main|Damage#Transformative Reaction Damage}}
+'''Shattered''' is triggered when a Frozen target is hit by a [[Blunt Attack]].
+
+Shattered occurs before any elemental damage, potentially preventing some reactions. However, the initial element of the '''Frozen''' reaction can still persist or be reapplied under the freeze, causing the element to remain after the freeze ends (ex. [[Let the Show Begin]] > [[Frostgnaw]] > [[Starfell Sword]] will remove the freeze through '''Shattered''' then [[Crystallize]] the [[Hydro]] effect underneath).<ref>KeqingMains Theorycrafting Library: [https://docs.google.com/document/d/1FaLYqA7MBow0DNBPUc2b9t_dEBhvRT-vs-l03PW0Wu8/edit#heading=h.n2dua4eshhld Section on Freeze/Shatter]</ref>
+
+{{Transformative Reaction Damage|Shattered}}
+
+==Environment==
+In the open world, portions of most bodies of [[water]] can be Frozen by Cryo attacks and objects such as Cryo Slime [[Exploding Barrel]]s. Frozen water can be stood on by both characters and enemies. This ice can be [[Melt]]ed instantly and can cause [[Superconduct]] when near [[Electro-Charged]] water or when attacked with Electro.
+
+The Frozen water's duration is determined by the amount of Cryo gauges that an ability applies. Note that [[Kaeya]]'s Elemental Skill [[Frostgnaw]] has a special property of applying double the amount of Cryo gauges on water than on other targets, allowing it to create the longest-lasting ice possible as of the current version.
+
+Certain other entities can also be Frozen. Entities that originate from a character, such as [[Baron Bunny]] and [[Ushi]] from [[Masatsu Zetsugi: Akaushi Burst!]], can be Frozen by applications of Hydro and Cryo that do not come from the player, such as enemy attacks and water. Entities that do not originate from a character can be Frozen by players. However, entities that change state upon receiving damage, such as [[Exploding Barrel]]s and [[Boom Blossom]]s, can only be Frozen without changing state with damageless applications of Hydro and Cryo, such as those of [[Let the Show Begin♪]] and [[Kamisato Art: Senho]].
+
+==Frozen Element==
+[[File:Cryo Frozen Comparison.png|thumb|Comparison between the Cryo status icon (left) and the Frozen status icon (right)]]
+The {{Color|Cryo|Frozen}} element is the sister element of {{Cryo}}. The status icon for the Frozen element is similar to that of the Cryo status, but with an animated glow around it.
+
+The Frozen element functions similarly to Cryo, but has three major differences:
+*Does not react with {{Hydro}}.
+*Does not apply the animation speed debuff.
+*The Frozen [[Gauge Unit Theory|gauge]] can be depleted by [[Poise Damage]] from [[Blunt Attack]]s.
+
+The Frozen element can be applied in several ways:
+*Triggering the Frozen reaction
+*Applied to enemies with a Frozen [[shield]].
+**All "Cryo" shields used by enemies are in reality of the Frozen element, as indicated by the status icon.
+*Applied to certain enemies indefinitely, such as [[Cryo Slime]]s and the [[Cryo Hypostasis]].
+*Applied to characters with certain [[Talents]].
+
+===Frozen Status to Self===
+The following [[Talents]] apply {{Color|Cryo|Frozen}} to its user and/or the active character.
+{{Talents by Category Table|Frozen Status to Self Talents}}
+
+==Tutorial==
+{{See also|Elemental Trial}}
+[[File:Tutorial Elemental Trial Frozen 1.png|200px|thumb|left]]
+When {{Cryo}} meets {{Hydro}}, the Frozen reaction is triggered. Frozen beings are rendered immobile.
+[[File:Tutorial Elemental Trial Frozen 2.png|200px|thumb|left]][[File:Tutorial Elemental Trial Frozen 3.png|200px|thumb|left]]
+Use {{Hydro}} attacks in battle to make opponents Wet. Then, switch to a {{Cryo}} character and use {{Cryo}} attacks to trigger Frozen to control your opponents effectively.
+{{Clr}}
+
+==Gallery==
+{{Preview
+|file1=Status Frozen Player
+|caption1=A character getting Frozen
+
+|file2=Status Frozen Enemy
+|caption2=An enemy getting Frozen
+
+|file3=Status Shattered Enemy
+|caption3=An enemy getting Frozen then Shattered
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Frozen
+|zhs     = 冻结
+|zhs_rm  = Dòngjié
+|zht     = 凍結
+|zht_rm  = Dòngjié
+|zh_tl   = Freeze
+|ja      = 凍結
+|ja_rm   = Touketsu
+|ja_tl   = Freezing
+|ko      = 빙결
+|ko_rm   = Binggyeol
+|ko_tl   = Frozen
+|es      = Congelado
+|es_tl   = Frozen
+|fr      = Gel
+|fr_tl   = Freeze
+|ru      = Заморозка
+|ru_tl   = Freezing
+|th      = แช่แข็ง
+|th_rm   = Chae Khaeng
+|th_tl   = Frozen
+|vi      = Đóng Băng
+|vi_tl   = Freeze
+|de      = Gefroren
+|de_tl   = Frozen
+|id      = Frozen
+|pt      = Congelado
+|pt_tl   = Frozen
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Element Navbox}}
+
+[[es:Congelación]]
+[[pt-br:Congelado]]

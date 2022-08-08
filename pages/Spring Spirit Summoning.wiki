@@ -1,0 +1,159 @@
+{{Talent Infobox
+|image         = Talent Spring Spirit Summoning.png
+|character     = Shenhe
+|type          = Elemental Skill
+|info          = The frosted dew, silvery and dense, shall exorcise all demons.<br />Grants all nearby party members the Icy Quill effect and deals {{Color|Cryo DMG}} in different ways based on whether it is pressed or held.<br /><br />'''Press'''<br />Rushes forward together with a Talisman Spirit, dealing {{Color|Cryo DMG}} to opponents along the path.<br /><br />'''Hold'''<br />Commands the Talisman Spirit to deal {{Color|AoE Cryo DMG}}.<br /><br />'''Icy Quill'''<br />When Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal {{Color|Cryo DMG}} to opponents, the DMG dealt is increased based on Shenhe's current ATK.<br /><br />The Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times.<br />When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times.<br />When one {{Color|Cryo DMG}} instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.
+|energyGen     = This skill generates '''3''' elemental particles when pressed and '''4''' when held, if it hits at least 1 target.
+|particles     = 3
+|particlesHold = 4
+|CD            = 10s
+|CDHold        = 15s
+|Duration      = 10s/15s
+|attr1         = Press Skill DMG
+|value1        = 139.2 - 295.8%
+|attr2         = Hold Skill DMG
+|value2        = 188.8 - 401.2%
+|attr3         = DMG Bonus (% ATK)
+|value3        = 45.7 - 97%
+|attr4         = Press/Hold Duration
+|value4        = 10s/15s
+|attr5         = Press/Hold Trigger Quota
+|value5        = 5/7
+|scale_att1    = ATK
+|utility1      = AoE
+|utility2      = Party Flat DMG Increase
+|utility3      = Flat DMG Increase
+}}
+{{Description|The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!}}
+'''Spring Spirit Summoning''' is [[Shenhe]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{TalentNote|particles|3|4}}
+* {{TalentNote|icd|Press DMG|0.1}}
+* {{TalentNote|icd|Hold DMG|0}}
+* {{TalentNote|character=Shenhe|talent=Spring Spirit Summoning|dynamic buff|ATK}}
+* The resulting Icy Quill DMG Bonus is flat and is expressed as:<br /><math>[(\% \text{ Skill} \times \text{Skill Attribute}) + (\% \text{ DMG Bonus}</math><math>\times \text{ATK}_\text{Shenhe})]</math><math>\times(\text{DMG Multipliers})</math>
+* {{TalentNote|character=Shenhe|talent=Spring Spirit Summoning|ascension|2|Spirit Communion Seal|enhances Spring Spirit Sumoning so that upon use, all nearby party members have their damage increased as follows.}}
+** Press: 15% increase to Elemental Skill and Elemental Burst DMG for 10s.
+** Hold: 15% increase to Normal, Charged, and Plunging Attack DMG for 15s.
+
+;<big>Constellation Effects</big>
+* {{TalentNote|constellation|1|Clarity of Heart}}
+* {{TalentNote|constellation|3|Seclusion}}
+* {{TalentNote|constellation|4|Insight|When characters trigger the Icy Quill bonus DMG effect, Shenhe gains one Skyfrost Mantra stack. The next time Shenhe uses Spring Spirit Summoning, its damage is increased by 5% for each stack of Skyfrost Mantra, which Shenhe consumes after using Spring Spirit Summoning. Stacks last for 60 seconds and have a maximum of 50 stacks.}}
+* {{TalentNote|constellation|6|Mystical Abandon}}
+
+==Preview==
+{{Preview
+|file1    = Spring Spirit Summoning Press Preview
+|caption1 = Press
+
+|file2    = Spring Spirit Summoning Hold Preview
+|caption2 = Hold
+
+|file3    = Spring Spirit Summoning Icy Quill Preview
+|caption3 = Icy Quill
+}}
+{{Clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Skill
+|levels=14
+|order=pressskilldmg,holdskilldmg,dmgbonus,press/holdduration,press/holdtriggerquota,presscd,holdcd
+|titles=Press Skill DMG (%),Hold Skill DMG (%),DMG Bonus (% ATK),Press/Hold Duration,Press/Hold Trigger Quota,Press CD,Hold CD
+|pressskilldmg_1=139.2
+|pressskilldmg_2=149.64
+|pressskilldmg_3=160.08
+|pressskilldmg_4=174
+|pressskilldmg_5=184.44
+|pressskilldmg_6=194.88
+|pressskilldmg_7=208.8
+|pressskilldmg_8=222.72
+|pressskilldmg_9=236.64
+|pressskilldmg_10=250.56
+|pressskilldmg_11=264.48
+|pressskilldmg_12=278.4
+|pressskilldmg_13=295.8
+|pressskilldmg_14=313
+|holdskilldmg_1=188.8
+|holdskilldmg_2=202.96
+|holdskilldmg_3=217.12
+|holdskilldmg_4=236
+|holdskilldmg_5=250.16
+|holdskilldmg_6=264.32
+|holdskilldmg_7=283.2
+|holdskilldmg_8=302.08
+|holdskilldmg_9=320.96
+|holdskilldmg_10=339.84
+|holdskilldmg_11=358.72
+|holdskilldmg_12=377.6
+|holdskilldmg_13=401.2
+|holdskilldmg_14=424.8
+|dmgbonus_1=45.66
+|dmgbonus_2=49.08
+|dmgbonus_3=52.5
+|dmgbonus_4=57.07
+|dmgbonus_5=60.49
+|dmgbonus_6=63.92
+|dmgbonus_7=68.48
+|dmgbonus_8=73.05
+|dmgbonus_9=77.62
+|dmgbonus_10=82.18
+|dmgbonus_11=86.75
+|dmgbonus_12=91.31
+|dmgbonus_13=97.02
+|dmgbonus_14=102.7
+|press/holdduration=10s/15s
+|press/holdtriggerquota=5/7
+|presscd=10s
+|holdcd=15s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Shenhe}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+<!--
+==Trivia==
+-->
+==Other Languages==
+{{Other Languages
+|en      = Spring Spirit Summoning
+|zhs     = 仰灵威召将役咒
+|zhs_rm  = Yǎng Língwēi Zhào Jiàngyì Zhòu
+|zht     = 仰靈威召將役咒
+|zht_rm  = Yǎng Língwēi Zhào Jiàngyì Zhòu
+|zh_tl   = Spell of Relying on Spirit Power and Summoning Spirit General
+|ja      = 仰霊威召将役呪
+|ja_rm   = Gyo Reii Sho Shoeki Ju
+|ja_tl   = Spell of Relying on Spirit Power and Summoning Spirit General
+|ko      = 위령 소환 구사술
+|ko_rm   = Wiryeong Sohwan Gusasul
+|ko_tl   = Dignified Spirit Summoning
+|es      = Espíritu exorcizador
+|es_tl   = Exorcizing Spirit
+|fr      = Invocation d'esprit printanier
+|fr_tl   = Spring Spirit Summoning
+|ru      = Призыв духа
+|ru_tl   = Summoning the Spirit
+|th      = Spring Spirit Summoning
+|vi      = Triệu Tướng Dịch Chú
+|vi_tl   = 
+|de      = Mantra der Geisterbeschwörung
+|de_tl   = Mantra of Spirit Summoning
+|id      = Spring Spirit Summoning
+|pt      = Invocação Espiritual
+|pt_tl   = Spiritual Invocation
+}}
+
+==Change History==
+{{Change History|2.4}}
+
+==Navigation==
+{{Talent Navbox|Shenhe}}
+
+[[pt-br:Invocação Espiritual]]
+[[th:Spring Spirit Summoning]]

@@ -1,0 +1,168 @@
+{{Talent Infobox
+|image         = Talent Frozen Wilds.png
+|character     = Aloy
+|type          = Elemental Skill
+|info          = Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing {{Color|Cryo DMG}}. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing {{Color|Cryo DMG}}.<br />When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.<br />Aloy can gain up to 1 Coil stack every 0.1s.<br /><br />'''Coil'''
+* Each stack increases Aloy's Normal Attack DMG.
+* When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and [[Elemental Infusion|converts]] her Normal Attack DMG to {{Color|Cryo DMG}}.
+While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br />Coil effects will be cleared 30s after Aloy leaves the field.
+|energyGen     = This skill generates '''5''' elemental particles, if it hits at least 1 target.
+|particles     = 5
+|CD            = 20s
+|duration      = 10s
+|attr1         = Freeze Bomb DMG
+|value1        = 177.6 - 319.7%
+|attr2         = Chillwater Bomblet DMG
+|value2        = 40 - 72%
+|attr3         = ATK Decrease
+|value3        = 12 - 15%
+|attr4         = ATK Decrease Duration
+|value4        = 6s
+|attr5         = Coil Normal Attack DMG Bonus
+|value5        = 5.85/11.69/17.54 - 9.52/19.04/28.56%
+|attr6         = Rushing Ice Normal Attack DMG Bonus
+|value6        = 29.23 - 47.6%
+|utility1      = Normal Attack DMG Increase
+|utility2      = Elemental Conversion
+|utility3      = ATK Decrease
+|utility4      = Multiplicative DMG Increase
+|scale_att1    = ATK
+}}
+{{Description|You think that's cold? Guess you've never been to [[w:c:horizon:The Cut|The Cut]].}}
+'''Frozen Wilds''' is [[Aloy]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{TalentNote|particles|5}}
+*The freeze bomb generates '''6''' Chillwater Bomblets.
+* Most skills with a [[Vacuum Field|vacuum field]] effect will pull the Chillwater Bomblets inward. Notable exceptions include [[Venti]]'s [[Wind's Grand Ode]] and [[The Viridescent Hunt]]'s passive effect.
+* Aloy can gain Coil stacks and enter the Rushing Ice state even when she is off-field. The visual indicators when gaining Coil stacks and entering the Rushing Ice state will appear regardless of who the active character is.
+* The Normal ATK DMG bonus is multiplicative by itself.<math>(1 + \% \text{ Normal Attack DMG bonus}) \times (\text{DMG Multipliers})</math>.
+* {{TalentNote|character=Aloy|talent=Frozen Wilds|ascension|1|Combat Override}}
+* {{TalentNote|character=Aloy|talent=Frozen Wilds|ascension|2|Strong Strike}}
+
+==Preview==
+{{Preview
+|file1=Frozen Wilds Preview
+|caption1=Frozen Wilds
+
+|file2=Frozen Wilds Chillwater Bomblets Preview
+|caption2=Chillwater Bomblets
+
+|file3=Frozen Wilds Rushing Ice State Preview
+|caption3=Rushing Ice State
+}}
+{{Clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Skill
+|levels=11
+|order=freezebombdmg,chillwaterbomblets,atkdecrease,atkdecreaseduration,coilnormalattackdmgbonus,rushingicenormalattackdmgbonus,rushingiceduration,cd
+|titles=Freeze Bomb DMG (%),Chillwater Bomblets (%),ATK Decrease (%),ATK Decrease Duration,Coil Normal Attack DMG Bonus (%),Rushing Ice Normal Attack DMG Bonus (%),Rushing Ice Duration,CD
+|freezebombdmg_1=177.6
+|freezebombdmg_2=190.92
+|freezebombdmg_3=204.24
+|freezebombdmg_4=222
+|freezebombdmg_5=235.32
+|freezebombdmg_6=248.64
+|freezebombdmg_7=266.4
+|freezebombdmg_8=284.16
+|freezebombdmg_9=301.92
+|freezebombdmg_10=319.68
+|freezebombdmg_11=337.44
+|chillwaterbomblets_1=40
+|chillwaterbomblets_2=43
+|chillwaterbomblets_3=46
+|chillwaterbomblets_4=50
+|chillwaterbomblets_5=53
+|chillwaterbomblets_6=56
+|chillwaterbomblets_7=60
+|chillwaterbomblets_8=64
+|chillwaterbomblets_9=68
+|chillwaterbomblets_10=72
+|chillwaterbomblets_11=76
+|atkdecrease_1=12
+|atkdecrease_2=12
+|atkdecrease_3=12
+|atkdecrease_4=13
+|atkdecrease_5=13
+|atkdecrease_6=13
+|atkdecrease_7=14
+|atkdecrease_8=14
+|atkdecrease_9=14
+|atkdecrease_10=15
+|atkdecrease_11=15
+|atkdecreaseduration=6s
+|coilnormalattackdmgbonus_1=5.85<br />/<br />11.69<br />/<br />17.54
+|coilnormalattackdmgbonus_2=6.19<br />/<br />12.39<br />/<br />18.58
+|coilnormalattackdmgbonus_3=6.54<br />/<br />13.09<br />/<br />19.63
+|coilnormalattackdmgbonus_4=7<br />/<br />14<br />/<br />21
+|coilnormalattackdmgbonus_5=7.35<br />/<br />14.7<br />/<br />22.05
+|coilnormalattackdmgbonus_6=7.7<br />/<br />15.4<br />/<br />23.1
+|coilnormalattackdmgbonus_7=8.15<br />/<br />16.31<br />/<br />24.46
+|coilnormalattackdmgbonus_8=8.61<br />/<br />17.22<br />/<br />25.83
+|coilnormalattackdmgbonus_9=9.06<br />/<br />18.13<br />/<br />27.2
+|coilnormalattackdmgbonus_10=9.52<br />/<br />19.04<br />/<br />28.56
+|coilnormalattackdmgbonus_11=9.98<br />/<br />19.95<br />/<br />29.93
+|rushingicenormalattackdmgbonus_1=29.23
+|rushingicenormalattackdmgbonus_2=30.98
+|rushingicenormalattackdmgbonus_3=32.73
+|rushingicenormalattackdmgbonus_4=35
+|rushingicenormalattackdmgbonus_5=36.75
+|rushingicenormalattackdmgbonus_6=38.5
+|rushingicenormalattackdmgbonus_7=40.77
+|rushingicenormalattackdmgbonus_8=43.05
+|rushingicenormalattackdmgbonus_9=45.32
+|rushingicenormalattackdmgbonus_10=47.6
+|rushingicenormalattackdmgbonus_11=49.88
+|rushingiceduration=10s
+|cd=20s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Aloy}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Other Languages==
+{{Other Languages
+|en      = Frozen Wilds
+|zhs     = 冰尘雪野
+|zhs_rm  = Bīng Chén Xuě Yě
+|zht     = 冰塵雪野
+|zht_rm  = Bīng Chén Xuě Yě
+|zh_tl   = Frozen Plain
+|ja      = 凍てついた大地
+|ja_rm   = Itetsuita Daichi
+|ja_tl   = Frozen Ground
+|ko      = 빙결의 설야
+|ko_rm   = Binggyeol-ui Seolya
+|ko_tl   = Frozen Plain
+|es      = Campo gélido
+|es_tl   = Icy Field
+|fr      = Frozen Wilds
+|ru      = Ледяная пустошь
+|ru_tl   = Icy Wasteland
+|th      = Frozen Wilds
+|vi      = Băng Giá Hoang Dã
+|vi_tl   = Wild Ice
+|de      = Frostüberzogene Felder
+|de_tl   = Frostcovered Fields
+|id      = Frozen Wilds
+|pt      = Natureza Gélida
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|2.1}}
+<!--
+==References==
+{{Reflist}}-->
+
+==Navigation==
+{{Talent Navbox|Aloy}}
+
+[[es:Campo gélido]]
+[[pt-br:Natureza Gélida]]
+[[th:Frozen Wilds]]

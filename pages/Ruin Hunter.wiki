@@ -1,0 +1,176 @@
+{{Enemy Infobox
+|image    = Enemy Ruin Hunter.png
+|element  = Pyro
+|type     = Elite Enemies
+|family   = Automatons
+|group    = Humanoid Ruin Machines
+|location = [[Liyue]]<br />[[Inazuma]]
+|ability1 = Pushing Vacuum Field
+}}
+{{Description|A giant alien war machine.<br />They are said to be remnants from a lost ancient nation. Apparently, the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat. Considering these mere relics possess such extraordinary power, one cannot help but wonder &mdash; what must the civilization that produced them have looked like at its height?|[[Adventurer Handbook]]}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Humanoid Ruin Machines}}
+
+==Stats==
+{{Enemy Stats
+|phys_res     = 50%
+|hp_ratio     = 6
+|hp_type      = 1
+|atk_ratio    = 7
+}}
+
+==Abilities and Attacks==
+* '''Blade Slash:''' Transforms its left arm into a blade and raises it up, then quickly slashes once in front of it, dealing '''30% ATK''' and '''50% ATK''' as {{Color|Black|Physical DMG}}.
+
+* '''Slash Combo:''' Transforms and raise its right arm, then attacks twice forward, followed by a spinning slash, ended by one final slash, dealing '''30% ATK''', '''30% ATK''', '''20% ATK * 2''', '''40% ATK''' respectively as {{Color|Black|Physical DMG}} with each hit.
+** '''Whirling Slash:''' On occasions where they end '''Slash Combo''', they have a chance to perform a far-reaching sideways spin at the end of '''Slash Combo''', dealing heavy {{Color|Black|Physical DMG}}.
+
+* '''Drill Thrust:''' If the player roams too far, the Ruin Hunter will change its right hand into a drill and prepare to strike, after 2 seconds it will instantly charge towards the player, covering tons of distance in the process, dealing '''200% ATK''' as {{Color|Black|Physical DMG}}.
+
+* '''Airborne State:''' If the player runs too far, is at a different elevation, or after '''3''' minutes have passed since entering combat, The Ruin Hunter may occasionally enter an airborne state by detaching its limbs which then serve as its propulsion, [[Vacuum Field|pushing]] all nearby players away, and becoming airborne for a while or until its core is hit. It will immediately enter this mode of attack if its current target is too high or low in elevation. While airborne, its core weak spot is exposed, and may perform one of the four following attacks:
+** '''Bombardment:''' All thrusters point skyward and fire a barrage of 8 missiles into the air which shortly after, strike the ground randomly in a grid-like fashion. These missiles each deals '''50% ATK''' as {{Color|Black|AoE Physical DMG}}. This attack can be performed up to 10 times.
+** '''Rapid Fire:''' If the player roams too far, the Ruins Hunter will fire 4 quick volleys of bullets toward its target, each dealing '''20% ATK''' as {{Color|Black|Physical DMG}}.
+** '''Focused Beam:''' If the player roams too far, the Ruins Hunter will shoot multiple homing missiles that each deals '''10% ATK''' as {{Color|Black|Physical DMG}} on hit, then charges up for a few seconds to unleash a focused beam attack, dealing '''200% ATK''' as {{Color|AoE Pyro DMG}}.
+** '''Quad Lasers:''' All four thrusters face downward and quickly spin before unleashing four simultaneous laser blasts, directly below itself, dealing '''100% ATK''' as {{Color|Black|AoE Physical DMG}}. After this attack is performed, it will exit Bombardment Mode and return to the ground.
+
+===Preview===
+{{Preview
+|size=185px
+|file1    = Ruin Hunter Blade Slash
+|caption1 = Blade Slash
+
+|file2    = Ruin Hunter Slash Combo
+|caption2 = Slash Combo
+
+|file3    = Ruin Hunter Drill Thrust
+|caption3 = Drill Thrust
+
+|file4    = Ruin Hunter Airborne State
+|caption4 = Airborne State
+
+|file5    = Ruin Hunter Bombardment
+|caption5 = Bombardment
+
+|file6    = Ruin Hunter Rapid Fire
+|caption6 = Rapid Fire
+
+|file7    = Ruin Hunter Focused Beam
+|caption7 = Focused Beam
+
+|file8    = Ruin Hunter Quad Lasers
+|caption8 = Quad Lasers
+
+|file9    = Ruin Hunter Stunned
+|caption9 = Stunned
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet all of the following conditions:
+** The ability is not on cooldown
+** The target is within the range and angle required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+
+{| class="wikitable"
+! State !! Ability !!  style="width:80px" | Range Req. (m) !! Priority !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD (s) !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int.
+|-
+| rowspan="8" | Normal || Enter Airborne State (Close) || 0–30 || 3 || 30 || 120 || rowspan="2" | 30 || rowspan="12" | 3 || {{check|no}} || {{check|yes}}
+|-
+| Enter Airborne State (Far) || 30–50 || 2 || 30 || &mdash; || {{check|no}} || {{check|yes}}
+|-
+| Blade Slash (Close) || 0–4 || 5 || 3 || &mdash; || rowspan="2" | 3 || {{check|yes}} || {{check|no}}
+|-
+| Blade Slash (Far) || 4–7.5 || 5 || 3 || &mdash; || {{check|yes}} || {{check|no}}
+|-
+| Slash Combo (Close) || 0–7.5 || 5 || 15 || 15 || rowspan="2" | 3 || {{check|yes}} || {{check|no}}
+|-
+| Slash Combo (Far) || 7.5–12.5 || 5 || 7.5 || 15 || {{check|yes}} || {{check|no}}
+|-
+| Drill Thrust (Close) || 7.5–12.5 || 5 || 10 || 30 || rowspan="2" | 3 || {{check|yes}} || {{check|no}}
+|-
+| Drill Thrust (Far) || 12.5–20 || 5 || 5 || 30 || {{check|yes}} || {{check|yes}}
+|-
+| rowspan="4" | Airborne || Rapid Fire + Focused Beam || 25–50 || 5 || &mdash; || &mdash; || &mdash; || {{check|no}} || {{check|yes}}
+|-
+| Quad Lasers || 0–7.5 || 1 || 5 || 30 || &mdash; || {{check|no}} || {{check|yes}}
+|-
+| Bombardment (Close) || 0–25 || 3 || 1–4 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
+|-
+| Bombardment (Far) || 25–50 || 2 || 5–15 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
+|}
+
+==Locations==
+<!-- Link to the area/region in the caption or any other important details. Don't need to relink the nation over and over. -->
+'''Ruin Hunter locations can be pinpointed on the map by using the [[Adventurer Handbook]].'''
+
+==Strategy==
+Ruin Hunters are significantly faster and pack a stronger punch compared to Ruin Guards. To make up for this, they possess lower physical resistance, but it is still recommended to use elemental attacks against them. Note that while they are hovering on the ground, they cannot be disabled at all.
+
+If too much time has passed or the player is at a higher elevation than it on ground level, the Ruin Hunter will enter Bombardment mode. This includes being airborne (e.g. [[Venti]]'s held [[Skyward Sonnet]]), gliding, climbing, or being on drastically higher ground (or a [[Geo Constructs|Geo Construct]]). In this state, the Ruin Hunter's eye will glow brightly, turning it into a weak spot. Because it flies up even higher in this state, [[Bows|Bow]] and [[Catalysts|Catalyst]] users are the only ones capable of damaging it. The Ruin Hunter remains in this state unless struck in the eye or it uses its Quad Lasers attack, the latter signifying the end of Bombardment Mode.
+
+Only one successful strike on the glowing eye is needed to bring it crashing down - a follow-up hit is not required as with the Ruin Guards. The Ruin Hunter will be disabled in a manner similar to Ruin Guards, but no protective rune appears after it recovers, meaning that Bombardment Mode can be abused to greatly weaken its offense.
+
+When the Ruin Hunter is preparing to use its move Blade Slash, be aware that it only strikes at the last moment because it is aiming for a target, which means it can be dashed through easily. Drill Slash is particularly dangerous and must be dodged as it deals very high, if not outright fatal damage.
+
+Ruin Hunters can be [[Frozen]], so permafreeze teams that can repeatedly apply Frozen can be very effective.
+
+==Trivia==
+* Ruin Hunters sometimes go by names like Fo-62012, beginning with the prefix Fo and ending in a numeric code. This is demonstrated in certain boss fights like the ones in the quest "[[Where is the Unseen Razor?]]".
+** Possible names include Fo-11226, Fo-11711, Fo-12062, Fo-14258, Fo-19101, Fo-20118, Fo-21226, Fo-22019, Fo-23232, Fo-24742, Fo-31124, Fo-33007, Fo-36108, Fo-38518, Fo-41125, Fo-44232, Fo-49101, Fo-54221, Fo-62012, Fo-66931, Fo-69320, Fo-74931, Fo-78469, Fo-89128, Fo-89211, Fo-92681, Fo-93777, Fo-94553, Fo-98435, and Fo-99411.
+* Like Ruin Guards, Ruin Hunters can also appear as harmless scenery, although these are significantly smaller in size.
+* It is the only ruin machine that can deal elemental damage.
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Ruin Hunter Icon.png|Icon
+Enemy_Ruin_Hunter_Idle.png|Inactive Ruin Hunter
+</gallery>
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/7B61KQ0t9fo
+|caption2 = How to Easily Beat the Ruin Hunter
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Ruin Hunter
+|zhs     = 遗迹猎者
+|zhs_rm  = Yíjì Lièzhě
+|zht     = 遺蹟獵者
+|zht_rm  = Yíjī Lièzhě
+|zh_tl   = Ruin Hunter
+|ja      = {{Rubi|遺|い|跡|せき}}ハンター
+|ja_rm   = Iseki Hantaa
+|ja_tl   = Ruin Hunter
+|ko      = {{tt|유적|遺蹟}} 헌터
+|ko_rm   = Yujeok Heonteo
+|ko_tl   = Ruin Hunter
+|es      = Cazador de las Ruinas
+|es_tl   = Hunter of the Ruins
+|fr      = Chasseur des ruines
+|fr_tl   = Ruin Hunter
+|ru      = Руинный охотник
+|ru_tl   = 
+|th      = Ruin Hunter
+|vi      = Thợ Săn Di Tích
+|vi_tl   = Ruin Hunter
+|de      = Ruinenjäger
+|de_tl   = Ruin Hunter
+|id      = Ruin Hunter
+|pt      = Caçador das Ruínas
+|pt_tl   = Hunter of the Ruins
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==Navigation==
+{{Enemy Navbox|type=Elite}}
+
+[[es:Cazador de las Ruinas]]
+[[pt-br:Caçador das Ruínas]]

@@ -1,0 +1,64 @@
+{{DISPLAYTITLE:Load}}
+{{SereniteaPotTabs}}
+
+'''Load''' is informally described as the space taken up by [[furnishings]] placed in an Exterior Area or Room. Each furnishing takes up a certain amount of load, and the total amount of load taken up by the furnishings in the area cannot exceed the load limit of that area.
+
+The amount of load that remains available in an area is indicated by the ''Load'' indicator in the Furnishing Placement menu with green, orange, and red colored dots.
+*'''Green''': Many more furnishings can be placed
+*'''Orange''': Only a few more furnishings can be placed, and the load is close to limit
+*'''Red''': Only a few more low-load furnishings can be placed, or the load is already at limit
+
+The amount of load available can depend on the player's device, particularly those with lower specifications. Only furnishings within the device limits will render, and additional furnishings cannot be placed when the device limit is reached. To place additional furnishings, decrease the [[Settings#Graphics|graphics setting]] of the device or use a more powerful device.
+
+==Exterior Area Load Limits==
+{{See also|Category:Serenitea Pot Locations}}
+All Exterior Areas in the Realm have a load limit of 10,000 each. The load indicator will turn orange at 6,000 and red at 9,900. Note that the load amount of the [[:Category:Main Building|Main Building]] will count towards the load limit of the Exterior Area in which it is placed.
+
+==Interior Room Load Limits==
+{{See also|Category:Main Building Mansion}}
+In the Main Building, the Main Hall and the Corridor have a load limit of 10,000 each, while the rooms have a load limit of 4,000 each. Note that the load amount of the [[:Category:Decoration Ceiling Lamp|Ceiling Lamps]] will count towards the load limit of their respective rooms.
+
+==Furnishing Loads==
+The amount of load taken up by duplicate furnishings (i.e., the second copy and beyond) is usually reduced.
+
+===Exterior Furnishings===
+{{See also|Category:Exterior Furnishings}}
+{{#DPL:
+|namespace=
+|category=Exterior Furnishings
+|include={Furnishing Infobox¦Phantom Furnishing Load Table}
+|format={¦class="article-table sortable mw-collapsible" data-expandtext="+" data-collapsetext="-" style="width: 100%"\n!Image!!Name!!Adeptal Energy!!Load!!Reduced<br />Load!!data-sort-type=number¦Ratio\n¦-\n,¦,\n¦-\n,
+|resultsheader=There are '''%TOTALPAGES%''' Exterior Furnishings:\n
+|noresultsheader=No Results
+|allowcachedresults=true
+|ordermethod=title
+}}
+{{#DPL:
+|namespace=
+|category=Exterior Furnishings
+|include={Furnishing Infobox¦Phantom Furnishing Load Table}
+|offset=500
+|format=,¦,\n¦-\n,¦}
+|ordermethod=title
+}}
+===Interior Furnishings===
+{{See also|Category:Interior Furnishings}}
+{{#DPL:
+|namespace=
+|category=Interior Furnishings
+|include={Furnishing Infobox}:image:%PAGE%:adeptal_energy:load:reduced_load,{Furnishing Infobox¦Phantom Furnishing Load Ratio}
+|table=class="article-table sortable mw-collapsible" data-expandtext="+" data-collapsetext="-" style="width: 100%",-,Image,Name,Adeptal Energy,Load,Reduced<br />Load,data-sort-type=number¦Ratio
+|tablerow=²{#if:%%¦[[File:%%¦45x45px¦link=%PAGE%|&nbsp;]]¦[[File:Item %PAGE%.png¦45x45px¦link=%PAGE%|&nbsp;]]}²,[[%PAGE%]],%%,%%,%%
+|tablesortcol=-6
+|resultsheader=There are '''%PAGES%''' Interior Furnishings:\n
+|noresultsfooter=No Results
+|allowcachedresults=true
+}}
+
+===Companions===
+{{See also|Category:Companion}}
+Each companion takes up a load amount of 1,200, except for [[Paimon/Companion|Paimon]] who takes up a load amount of 1,500. A maximum of 8 companions (excluding Paimon) can be placed within the Serenitea Pot, regardless of the amount of load left available.
+
+==Navigation==
+{{Game Systems Navbox|Other}}
+[[Category:Game System Subpages]]

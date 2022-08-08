@@ -1,0 +1,77 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Data
+}}
+{{Community}}
+{{Terminology Infobox
+|image = 
+|type  = Combat
+}}
+'''Hitlag''' refers to a phenomenon that occurs when most melee attacks hit a target, which significantly slows down the attacker and the target's animations for a short amount of time to deliver a sense of weight.<ref>[https://bbs.nga.cn/read.php?tid=31311409 bbs NGA, China Forum Post 关于卡肉机制的一些猜测]</ref>
+
+Hitlag can be produced by most melee attacks of [[Swords|Sword]], [[Polearms|Polearm]], or [[Claymores|Claymore]] wielding characters. Most [[Elemental Burst]]s, [[Plunging Attack]]s, ranged attacks and [[AoE]] attacks that do not involve the use of a melee weapon, cannot produce hitlag.
+
+==Mechanics==
+{{See also|Hitlag/Data}}
+
+The duration of a hitlag is dependent on the attack and the state of the target hit. Certain attacks have their hitlag extended when they hit an enemy that is not [[Interruption Resistance|poise broken]]. Hitlag duration is not affected by [[Attack Speed]].
+
+Against an enemy with active poise, if an attack's hitlag is poise-extendable,
+
+<math>\text{Real Hitlag Duration (Seconds)} = \text{Standard Hitlag Duration} + 0.06</math>
+
+If an attack's hitlag is not poise-extendable or against a poise broken enemy,
+
+<math>\text{Real Hitlag Duration (Seconds)} = \text{Standard Hitlag Duration}</math>
+
+The duration of a hitlag is also further extended if an attack hits enemies protected by a [[Directional Shield]].
+
+===Previews===
+{{Preview
+|size=220px
+|file=Hitlag Comparison
+|caption=Comparison between no hitlag, hitlag against poise-active enemy, and hitlag against directional shield enemy (played at 0.5x speed)
+}}
+
+==Hitlag Extension==
+The animation speed multiplier during hitlags also affects the duration of ongoing effects. The duration increase in certain effects achieved this way is commonly referred to as '''Hitlag Extension'''. Notably, this applies to [[Elemental Infusion]]s, [[Elemental Conversion]]s, elemental or unique [[Status]]es, as well as the intervals between DoT ticks such as [[Electro-Charged]].
+
+===Talents===
+The following talents grant effects that can be extended in duration using hitlags:
+
+{{Talents by Category Table|Hitlag Extendable Talents}}
+
+===Constellations===
+The following constellations grant effects that can be extended in duration using hitlags:
+
+{{Constellations by Category Table|Hitlag Extendable Constellations}}
+
+==Dragonstrike==
+If the player [[Sprinting#Dash|dashes]] and jumps at the precise moment of a hitlag, the height of the jump will receive a small boost, allowing a character to gain enough altitude to perform [[Plunging Attack]]s even on flat ground. The height of the jump can be further boosted with [[Movement Speed]] buffs, and characters with a taller model can also perform this move more easily. This is commonly referred to as '''Dragonstrike'''.
+
+Dragonstrike can be performed using most hitlag-producing attacks. However, certain attacks such as [[Yun Jin]]'s [[Opening Flourish]], cannot be cancelled mid-animation with a dash, and therefore cannot be used to perform Dragonstrikes. Additionally, [[Kamisato Ayaka]] cannot Dragonstrike due to her [[Alternate Sprint]]'s inability to be cancelled with a jump.
+
+===Previews===
+{{Preview
+|size=185px
+|file1=Dragonstrike 1
+|caption1=[[Kaedehara Kazuha]] performing a Dragonstrike
+
+|file2=Dragonstrike 2
+|caption2=[[Raiden Shogun]] performing a Dragonstrike
+
+|file3=Dragonstrike 3
+|caption3=[[Sayu]] performing a Dragonstrike
+
+|file4=Dragonstrike 4
+|caption4=[[Beidou]] performing a Dragonstrike
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist|1}}
+
+==Navigation==
+{{Combat Navbox}}

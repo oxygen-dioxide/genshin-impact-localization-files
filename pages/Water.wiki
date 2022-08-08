@@ -1,0 +1,120 @@
+{{About|the Environmental Hazard|the element|Hydro}}
+{{Terminology Infobox
+|image        = Starfell Valley Cider Lake.png
+|type         = Exploration
+}}
+'''Water''' is a ubiquitous Environmental Hazard that allows for a variety of movement through and on top of it. When touching the water, any character will get the {{Color|Hydro|Wet}} status. Water can usually be {{Color|Cryo|frozen}} by attacking the surface with some kind of {{color|Cryo}} damage (the duration of which varies on the method that produced the ice).
+
+There are currently no methods for going below the surface of the water.
+
+==Movement==
+There are various forms of movement that can be used to traverse water:
+
+===Normal Traversal===
+Shallow water can be normally traversed, only applying the Wet status.
+
+Waist deep water forces the character to wade through the water: [[sprinting]] and dashing are disabled, but running, walking, and jumping are unaffected. The depth of water that characters can wade through is based on the characters' heights.
+
+===Swimming===
+When the current character can no longer touch the floor of the body of water, the character will start to [[Swimming|swim]]. Actively swimming in any direction will consume [[stamina]]. Treading water will not consume stamina but will also not allow stamina to recharge naturally (certain [[food]]s can be consumed to replenish stamina). In this state, the player cannot switch their active character.
+
+The player can sacrifice stamina inefficiently to swim faster using a {{w|front crawl}} method.{{Verify|method needed}}
+
+If the player runs out of stamina while swimming, the active character will go through a drowning animation, be teleported back to the last location where the character was standing. All party members will proceed to lose 5%{{Verify}} of their health and all energy should this occur. It is possible to drown in shallower water, but this is usually as a result of poor ping.
+
+===Alternate Sprints===
+Certain character talents, like [[Mona]]'s [[Illusory Torrent]] and [[Kamisato Ayaka]]'s [[Kamisato Art: Senho]], alter the characters' sprint. These special sprints allow them to efficiently travel over the surface of water while they have stamina.
+
+Canceling this sprint will cause the character to exit their sprint animation and apply sprint effects. For instance, Kamisato Ayaka applies Cryo to water (see [[#Combat]]). Otherwise, they will drop into the water and transition to a swimming animation.
+
+If the character has no more stamina left, the character will automatically exit the sprint and can still drown.
+
+===Waverider===
+{{Main|Waverider}}
+This waterborne vehicle allows for travel through bodies of water that is connected to a [[Waverider Waypoint]]. It was introduced in the [[Golden Apple Archipelago]] in [[Version 1.6]], along with hazards like the [[whirlpool]]s, bodies of [[fog]], and water events like mist bubbles.
+
+==Combat==
+Applying various elements to water can cause various reactions:
+
+*[[Anemo]] - Can cause [[Elemental Absorption]] with Hydro (without the need for a character to have Hydro on them).
+*[[Cryo]] - Causes a sheet of ice to form in the approximate shape of the damage area. Depending on the source of the Cryo application, the sheet of ice will last a certain amount of time before melting away. All characters and enemies can stand on top of this sheet of ice as if it were land. The sheet of ice behaves like a [[Frozen]] object and can therefore affect or be affected by additional mechanics and elements:
+**Some talents with [[Elemental Absorption]], such as [[Palm Vortex]], may absorb Cryo from the ice and therefore deal {{Color|Cryo DMG}}, which can cause more ice to appear. This ice is considered separate from the original ice despite appearing to "extend" the original ice.
+**[[Electro]] - Causes a non-damaging [[Superconduct]] reaction that shortens the time until the ice melts.
+**[[Pyro]] - Causes a [[Melt]] reaction that immediately melts the ice. Characters and enemies who were on top of the ice will immediately drop into the water, except for the enemies that can walk on water such as [[Hydro Slime]]s.
+*[[Electro]] - Causes the area to be electrified for a short amount of time, dealing {{Color|Electro DMG}} over time to characters, enemies, and [[wildlife]] in the area.
+*[[Pyro]] - Causes a visual [[Vaporize]] reaction (water vapors appear).
+
+Water can also interact with other elements:
+
+*[[Cryo]] - Characters and enemies who are already affected by Cryo will become [[frozen]] upon touching water.
+*[[Electro]] - Characters and enemies who are already affected by Electro may become [[Electro-Charged]] upon touching water, depending on where the Electro application came from.
+*[[Pyro]] - Characters and enemies who are already affected by Pyro will have a [[Vaporize]] reaction occur. This does not deal damage to [[HP]], but it will deal damage to the Pyro shields found on some enemies.
+
+If the water is deep enough to the enemy's height, they will drown, instantly killing them and generally placing their loot on the last safe location they were on. Heavier enemies, while not being [[Displacement|displaced]] as easily, can still be manipulated into drowning by luring them across frozen water and then letting the ice melt.
+
+==Special Bodies of Water==
+Names are unofficial.
+
+===Decorative Water===
+Fountains, waterfalls and the decorative water running through the ground channels in Mondstadt cannot be Frozen, nor will they become Electro-Charged when in contact with Electro. The same is the case for the water in the realm layout [[Silken Courtyard]], certain patches of the water channel of [[Chihu Rock]] and the water in various [[Furnishings]].
+
+Waterfalls can create turbulence and make climbing difficult, if not impossible.
+
+Waterfalls that fall through air and not against a cliff face, such as many of the waterfalls in [[Watatsumi Island]], will not apply {{Color|Wet}} to characters.
+
+<gallery hideaddbutton="true" captionalign="center">
+Waterfall.png|Waterfall
+</gallery>
+
+===Damaging Water===
+Damaging water is too dangerous to swim through. This include water with spikes (found in [[Crash Course]]) and electrified water. When inside damaging water, the active character will lose large amounts of HP at a time, dying in approximately 6-8 seconds.
+
+====Electro Water====
+Certain bodies of water in [[Inazuma]] are energized with Electro. Coming into contact with Electro water by swimming or standing in it will make the active character {{Color|Wet}} but will not apply {{Electro}} to them, and the active character will [[Health/HP Loss|lose HP]], even if they are only standing in shallow Electro Water. As is the case with other environmental hazards in Inazuma, carrying an [[Electrogranum]] is recommended, as it blocks some of the HP loss from coming into contact with Electro water.
+
+The HP loss inflicted by Electro Water is calculated as <math>(0.0315 \times \text{Increase Factor} + 0.1) \times \text{Max HP} + 20.47 \times \text{Increase Factor} + 20</math>.
+
+HP loss is inflicted every '''2''' seconds. ''Increase Factor'' starts at '''1''', increases by '''1''' every time a character suffers HP loss from Electro water, and caps out at '''6'''. It will be reset to 1 every time the active character leaves Electro water (including switching to another party member).
+
+While these bodies of water are similar to areas affected by [[Balethunder]] and are sometimes found in Balethunder-affected areas, they are not the same. The Balethunder climate icon will not appear next to the minimap even while swimming in Electro water if the rest of the area is not affected by Balethunder, and dying due to Electro water will not award the ''[[Wonders of the World]]'' achievement "[[Shocking... Positively Shocking]]". Similarly, completing [[Tatara Tales]] clears the Balethunder in Tatarasuna but the Electro water will remain.
+
+Electro water cannot be Electro-Charged or Frozen. However, despite the lack of ice, [[Cryo Slime]]s can bounce on top of Electro Water and will not drown.
+*{{Color|Cryo DMG}} that contacts Electro water causes [[Superconduct]], dealing {{Color|AoE Cryo DMG}}.
+*{{Pyro}} that contacts Electro water will cause [[Overloaded]].
+Electro water can be found in the following locations:
+*At the base of [[Mt. Yougou]] prior to completing [[Sacred Sakura Cleansing Ritual]]
+*[[Musoujin Gorge]]
+*The shallow stream of water exposed to [[Crystal Marrow]], west of the [[Mikage Furnace]] in [[Tatarasuna]]
+*Around the shipwrecks east of Tatarasuna
+*In a hole near [[Serpent's Head]] prior to lowering the water level with a nearby switch (water level must be lowered to proceed with [[The Gourmet Supremos: The Deep Divers]] and [[Orobashi's Legacy: Part II]])
+*In the lake at the base of [[Amakumo Peak]] (prior to completing [[Seirai Stormchasers: Part IV]] and solving the puzzle)
+
+<gallery hideaddbutton="true" captionalign="center">
+Viewpoint Rift Valley, Yashiori Island.png|Electro water river at Musoujin Gorge
+</gallery>
+
+==Notes==
+* When a character jumps in a direction such that they will land in deep water, their jump animation is changed into a diving animation.
+* The water over whirlpools and mist bubbles can be frozen over
+** Characters can walk on top of this ice layer triggering mist bubbles and avoid suffering from the whirlpool hazard.
+** The animation of the whirlpool and mist bubbles are unaffected.
+* If the player is abnormally under a surface of water, they will be teleported up to the surface.
+* If an enemy dies below the water, the items will drop below the water and may be too far for a swimming character to reach. They can still be obtained by the player via various methods:
+** Leave the area and come back: the items will be on the water's surface.
+** Skills that can pull items like [[Venti]]'s [[Wind's Grand Ode]] can drag items to the water's surface.
+** Intentionally drowning to reach a loading screen will also relocate the items to the water's surface.
+** A dive, fall, or [[Plunging Attack]] over the loot may momentarily send the character down far enough to reach them.
+* On PC there is a [[Media:Video Water Swim Glitch.webm|bug]] that allows you to travel fast (but not efficiently)
+** While sprinting, open the map, stop sprinting, close the map, and repeat.
+* If there are spikes in the water, as in [[Crash Course]], the water will slowly drain HP in a similar manner as if it was electrified.
+
+==Trivia==
+* Shorter characters will cannonball instead of diving.
+* Males slowly swim with a {{w|breaststroke}} pattern, while females slowly swim with a breaststroke variant: using a slow {{w|flutter kick}}ing in their legs.
+* Certain bodies of water have glowing blue waves, for example, at the beach north of the [[Statue of The Seven]] on [[Tatarasuna]]. This is a reference to {{w|bioluminescence}} emitted by marine organisms.
+
+==Change History==
+{{Change History|1.0}}
+
+==Navigation==
+{{Exploration Navbox}}

@@ -1,0 +1,105 @@
+{{Talent Infobox
+|image         = Talent Celestial Shower.png
+|character     = Ganyu
+|type          = Elemental Burst
+|info          = Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.<br />During its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an [[AoE]] and dealing {{Color|Cryo DMG}}.
+|energyCost    = 60
+|CD            = 15s
+|duration      = 15s
+|attr1         = Ice Shard DMG
+|value1        = 70–158%
+|utility1      = AoE
+|utility2      = Effects Retained Character Fallen
+|scale_att1    = ATK
+}}
+{{Description|Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.}}
+'''Celestial Shower''' is [[Ganyu]]'s [[Elemental Burst]].
+
+==Gameplay Notes==
+* This ability will drop up to 50 icicles over its duration, with each icicle targeting a random enemy that has not been targeted by the last 4 icicles. If there are ''n'' enemies [[Vacuum Field|grouped]] closely together, and each icicle hits ''n'' enemies, then over the duration there will be at most 50''n'' instances of damage per enemy, so the scaling for this ability is linear per enemy (bounded above by a linear function) and quadratic overall. This is, however, not the case while ''n'' is under 5 as the total number of targeted icicles does not equal to 50. Assuming none of the random icicles hit, this ability instead scales quadratically with the function of 10''n''^2.
+* {{TalentNote|icd|Ice Shard DMG}}
+* {{TalentNote|snapshot|Ice Shard DMG|character=Ganyu}}
+* {{TalentNote|character=Ganyu|talent=Celestial Shower|ascension|2|Harmony between Heaven and Earth}}
+
+;<big>Constellation Effects</big>
+* {{TalentNote|constellation|3|Cloud-Strider}}
+* {{TalentNote|constellation|4|Westward Sojourn|Enemies in Celestial Shower's field take increased DMG over time, starting from 5% and increasing by 5% every 3 seconds up to a maximum of 25% more DMG taken. Enemies retain this effect for 3 seconds after leaving the field.}}
+
+==Preview==
+{{Preview
+|file=Celestial Shower Preview
+}}
+{{Clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Burst
+|levels=14
+|order=icesharddmg,duration,cd,energycost
+|titles=Ice Shard DMG (%),Duration,CD,Energy Cost
+|icesharddmg_1=70.27
+|icesharddmg_2=75.54
+|icesharddmg_3=80.81
+|icesharddmg_4=87.84
+|icesharddmg_5=93.11
+|icesharddmg_6=98.38
+|icesharddmg_7=105.41
+|icesharddmg_8=112.44
+|icesharddmg_9=119.46
+|icesharddmg_10=126.49
+|icesharddmg_11=133.52
+|icesharddmg_12=140.54
+|icesharddmg_13=149.33
+|icesharddmg_14=158
+|duration=15s
+|cd=15s
+|energycost=60
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Ganyu}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Other Languages==
+{{Other Languages
+|en      = Celestial Shower
+|zhs     = 降众天华
+|zhs_rm  = Jiàng Zhòng Tiān Huá
+|zht     = 降眾天華
+|zht_rm  = Jiàng Zhòng Tiān Huá
+|zh_tl   = Heavenly Blossoms Descending upon the Crowd
+|ja      = 降衆天華
+|ja_rm   = Koushuu Tenge{{Assumed}}
+|ja_tl   = Heavy Rain of Flowers Blossoming in the Heavens{{Sino}}
+|ko      = 쏟아지는 천화
+|ko_rm   = Ssot'ajineun Cheonhwa
+|ko_tl   = Pouring Sky Flower
+|es      = Diluvio celestial
+|es_tl   = Celestial Deluge
+|fr      = Baptême céleste
+|fr_tl   = Celestial Baptism
+|ru      = Небесный дождь
+|ru_tl   = 
+|th      = Celestial Shower
+|vi      = Thiên Hoa Hạ Phàm
+|vi_tl   = 
+|de      = Bändigender Niederschlag
+|de_tl   = Subduing Rainfall
+|id      = Celestial Shower
+|pt      = Chuva Celestial
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|1.2}}
+
+==Navigation==
+{{Talent Navbox|Ganyu}}
+
+[[es:Diluvio celestial]]
+[[fr:Baptême céleste]]
+[[pt-br:Chuva Celestial]]
+[[ru:Небесный дождь]]
+[[th:Undivided Heart]]

@@ -1,0 +1,110 @@
+{{Enemy Infobox
+|image    = Enemy Geo Specter.png
+|type     = Common Enemies
+|element  = Geo
+|family   = Elemental Lifeforms
+|group    = Specters
+|location = [[Seirai Island]], [[Inazuma]]<br />[[Watatsumi Island]], Inazuma
+|ability1 = Fury
+}}
+{{Description|A monster birthed from a high concentration of Geo that can float in the air.<br />Geo Specters mimic the fruit of certain plants when their wings are closed together. As such, they are held by some ancient tales to be the fruit of a giant tree in the sky, and are regarded as having mysterious medical value.|[[Archive]]}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Specters}}
+
+==Stats==
+{{Enemy Stats
+|geo_res   = Immune
+|hp_ratio  = 1.6
+|hp_type   = 2
+|atk_ratio = 1.4
+|atk_type  = 2
+}}
+
+==Abilities and Attacks==
+*'''Fury:''' Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
+*'''Rock Spit:''' Shoots three small homing rocks that deal '''100% ATK''' as {{Color|Geo DMG}}. The shots also knock the Specter backwards.
+*'''Propeller Bump:''' Spins before knocking into the player, dealing '''125% ATK''' as {{Color|Geo DMG}}.
+*'''Earthquake:''' Shoots a projectile at the ground under it that bursts into an earthquake that deals '''125% ATK''' as {{Color|[[AoE]] Geo DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
+*'''Final Burst:''' Explodes after a short pause when defeated dealing '''125% ATK''' as {{Color|AoE Geo DMG}}. If at max Fury, DMG is increased to '''150% ATK'''.
+
+===Preview===
+{{Preview
+|size=185px
+|file1=Geo Specter Rock Spit
+|caption1=Rock Spit
+
+|file2=Geo Specter Propeller Bump
+|caption2=Propeller Bump
+
+|file3=Geo Specter Earthquake
+|caption3=Earthquake
+
+|file4=Geo Specter Final Burst
+|caption4=Final Burst
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet all of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+{| class="wikitable"
+! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Action Interval (s)
+|-
+| rowspan="2" | Normal || Rock Spit || 2.5–18 || 3 || 4.5 || rowspan="3" | 3.5
+|-
+| Propeller Bump (Twice) || 0–10.5 || 3 || 7
+|-
+| Max Fury || Earthquake || 0–5.5 || — || 0.5
+|}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Geo Specter Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Geo Specter
+|zhs     = 岩飘浮灵
+|zhs_rm  = Yán Piāofú-líng
+|zht     = 岩飄浮靈
+|zht_rm  = Yán Piāofú-líng
+|zh_tl   = {{Lex|Geo|zh}} {{Lex|Specter|zh}}
+|ja      = 岩フライム
+|ja_rm   = Iwa Furaimu{{Assumed}}
+|ja_tl   = {{Lex|Geo|ja}} {{Lex|Specter|ja}}
+|ko      = 떠도는 바위의 {{tt|정령|精靈}}
+|ko_rm   = Tteodoneun Bawi-ui Jeongryeong
+|ko_tl   = {{Lex|Geo|ko}} {{Lex|Specter|ko}}
+|es      = Espectro Geo
+|es_tl   = Geo Specter
+|fr      = Spectre Géo
+|fr_tl   = Geo Specter
+|ru      = Гео призрак
+|ru_tl   = Geo Specter
+|th      = Geo Specter
+|vi      = Bóng Ma - Nham
+|vi_tl   = Specter - {{Lex|Geo|vi}}
+|de      = Geo-Gespenst
+|de_tl   = Geo Specter
+|id      = Geo Specter
+|pt      = Espectro Geo
+|pt_tl   = Geo Specter
+}}
+
+==Change History==
+{{Change History|2.1}}
+
+==Navigation==
+{{Enemy Navbox|Common}}
+
+[[es:Espectro Geo]]
+[[pt-br:Espectro Geo]]

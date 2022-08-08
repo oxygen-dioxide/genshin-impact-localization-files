@@ -1,0 +1,188 @@
+{{CustomTabs
+|tab1 = Loot System
+|tab2 = Artifact Drop Distribution
+|tab3 = Common Ascension Materials
+|tab4 = Material Drop Distribution
+}}
+{{community}}
+In Genshin Impact, the loot system have used '''Hierarchical Loot Table''',<ref>Lostgarden: [https://lostgarden.home.blog/2014/12/08/loot-drop-tables/ Hierarchical Loot Table Introduction in Lostgarden]</ref> which is a kind of data structure that contain many subtables.
+
+==Hierarchical Loot Table==
+Hierarchical Loot Table is a general data structure for the loot system in game designing, which some games have used.<ref>Gearboxsoftware: [https://www.gearboxsoftware.com/2013/09/inside-the-box-the-borderlands-2-loot-system/ Loot System in Borderlands 2]</ref><ref>Beaconapp: [https://beaconapp.cc/help/how_to_design_loot_drops Loot System in Ark: Survival Evolve]</ref>
+
+In Hierarchical Loot Table, it have many subtables for the sub-drop mechanic.
+
+There is an example table for explaining the mechanic.
+
+{| class="wikitable"
+! The Name of the Drop !! The Name of Sub Drop 1 !! The Number of the Sub Drop 1 !! The Weight of the Sub Drop 1 !! The Name of Sub Drop 2 !! The Number of the Sub Drop 2 !! The Weight of the Sub Drop 2
+|-
+| Drop 1 || Weapon || 1 || 710 || Armor Set || 1.065 || 1000
+|-
+| Armor Set || Helmet || 1 || 500 || Shield || 1 || 500
+|}
+
+The weapon is a '''direct-drop''' reward. The helmet and the shield are rewards which use the '''sub-drop mechanic'''.
+
+In game designing, designers usually use '''weight''' to represent the '''percentage''' of chance.
+
+'''The Mean of the Sub Drop = the Drop Number of the Sub Drop x the Drop Chance of the Sub Drop'''
+
+'''The Drop Chance of the Sub Drop = The Weight of the Sub Drop / The Coefficient'''
+
+In this hierarchical table, the coefficient is '''1000'''.
+
+When a sub drop has '''1.065''' number, and '''100%''' chance. It means that it has '''6.5%''' chance to drop 2 '''different''' sub drops and has '''93.5%''' chance to get only 1 sub drop.
+*Different sub drops''' mean that you have chances to get different rewards.
+**But it '''doesn't''' mean you won't get the same rewards.
+**In this example, there are some rewards that will happen: Only 1 helmet, only 1 shield, 2 helmets, 2 shields or 1 helmet with 1 shield.
+
+When a sub drop has '''1''' number, and '''71%''' chance. It means that it has '''71%''' chance to drop 1 sub drop and has '''29%''' chance not to get any sub drop.
+
+==Loot System in Genshin Impact==
+===Sub Drop and Rolling Order===
+In Genshin Impact, some rewards will directly drop, while some rewards will use sub drops.
+
+For example, most Artifacts rewards use the sub-drop mechanic.
+The order for rolling is:
+#The rarity of Artifact
+#The number of initial Sub Stat
+#The Artifact set
+#The type of Artifact (flower, feather, etc.)
+
+Each kind of rolling usually have many sub drops.
+
+===Enemy Level and Reward Tier===
+Most rewards from enemies have many tiers. These tiers are determined by the level of the enemy.
+
+From level 1 to 4, rewards are all in tier 1. From level 5 to 9, rewards are all in tier 2. And then in each 5 levels, rewards share the same tier. So the relationship between the enemy level and the reward tier is a '''piece-wise''' function.
+
+For some rewards, the mean of the reward will be the same between tiers.
+*For example, it will have the same drop rates for 3-star artifacts and 4-star artifacts between tier 11 and 12 among some elite enemies.
+
+There is a list to show the relationship.
+
+{| class="article-table sortable"
+! The Enemy Level For The Tier !! Reward Tier
+|-
+| 1–4 || 0
+|-
+| 5–9 || 1
+|-
+| 10–14 || 2
+|-
+| 15–19 || 3
+|-
+| 20–24 || 4
+|-
+| 25–29 || 5
+|-
+| 30–34 || 6
+|-
+| 35–39 || 7
+|-
+| 40–44 || 8
+|-
+| 45–49 || 9
+|-
+| 50–54 || 10
+|-
+| 55–59 || 11
+|-
+| 60–64 || 12
+|-
+| 65–69 || 13
+|-
+| 70–74 || 14
+|-
+| 75–79 || 15
+|-
+| 80–84 || 16
+|-
+| 85–89 || 17
+|-
+| 90–94 || 18
+|-
+| 95–99 || 19
+|-
+| 100–104 || 20
+|}
+
+==Artifact Drop Distribution==
+''See also: [[Loot System/Artifact Drop Distribution]] for community-gathered data. Please note that any information there can differ from actual gameplay.''
+
+For Domains, Weekly bosses, Normal Bosses and Elite Enemies, their rewards use the sub-drop mechanic.
+
+The order for rolling is:
+#Rarity
+#Value of initial Sub Stat
+#Artifact Set
+#Artifact Type (flower, feather, etc.)
+
+==Material Drop Distribution==
+''See also: [[Loot System/Material Drop Distribution]] for community-gathered data. Please note that any information there can differ from actual gameplay.''
+
+Some rewards that use the sub-drop mechanic:
+*Talent Level-Up Books from Domains ('''variable''' part of the reward)
+*Weapon Ascension Materials from Domains ('''variable''' part of the reward)
+*Ascension Gems from Normal Bosses, Weekly Bosses and Daily Bonus Rewards.
+*Talent Level-Up Materials from Weekly Bosses
+*Northlander Billets from Weekly Bosses
+*Enhancement Ores from Daily Commission Rewards
+
+Some rewards that '''don't''' use the sub-drop mechanic:
+*Mineral Chunks
+*Talent Level-Up Books from Domains ('''guaranteed''' part of the reward)
+*Weapon Ascension Materials from Domains ('''guaranteed''' part of the reward)
+*Common Ascension Materials from Normal Enemies and Elite Enemies.
+*Elite Boss Materials from Normal Bosses
+*Dream Solvents from Weekly Bosses
+
+===Talent Level-Up Books and Weapon Ascension Materials===
+For Talent Level-Up Books and Weapon Ascension Materials from Domains, the reward has a '''variable''' part and a '''guaranteed''' part.
+
+The '''variable''' part use the sub-drop mechanic, and players will have chance to get materials of '''all rarities'''.
+
+The order for rolling is:
+#Amount
+#Rarity
+
+The '''guaranteed''' part will directly drop, and players will only get '''2-star''' materials.
+*The mean of the material in the guaranteed part is different for different domain levels.
+
+===Ascension Gems===
+For Ascension Gems from Normal Bosses and Weekly Bosses, the order for rolling is:
+#Amount
+#Rarity
+
+For Ascension Gems from Daily Bonus Rewards, the order for rolling is:
+#Amount
+#Element type (2-Star Gems)
+
+===Weekly Talent Level-Up Materials and Northlander Billets===
+For Talent Level-Up Materials and Northlander Billets from Weekly Bosses, the order for rolling is:
+#The number
+#The type of Materials
+
+===Elite Boss Materials and Dream Solvents===
+For Elite Boss Materials and Dream Solvents, materials will drop '''directly'''.
+
+===Common Ascension Materials===
+''See also: [[Loot System/Common Ascension Materials]] for community-gathered data. Please note that any information there can differ from actual gameplay.''
+
+For Common Ascension Materials from Normal Enemies and Elite Enemies, materials of '''all rarities''' will have chances to drop '''in the same time'''.
+
+===Mineral Chunks===
+For some minerals, there is 100% chance to get 1 chunk. Meanwhile, there is chances to get other 2 chunks (each 10%).
+*For 1 chunk, the total chance is 1 * 0.9 * 0.9 = 81%
+*For 2 chunks, the total chance is 1 * 0.1 * 0.9 * 2 = 18%
+*For 3 chunks, the total chance is 1 * 0.1 * 0.1 = 1%
+
+===Enhancement Ores from Daily Commission Rewards===
+For Enhancement Ores from Daily Commission Rewards, the order for rolling is:
+#Amount
+#Rarity
+
+==References==
+{{Reflist}}
+[[Category:Game Systems]]

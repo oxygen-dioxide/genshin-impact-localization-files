@@ -1,0 +1,232 @@
+{{Talent Infobox
+|image         = Talent Nereid's Ascension.png
+|character     = Sangonomiya Kokomi
+|type          = Elemental Burst
+|info          = Summons the might of Watatsumi, dealing {{Color|Hydro DMG}} to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.<br /><br />'''Ceremonial Garment'''<br />
+* Sangonomiya Kokomi's Normal Attack, Charged Attack and [[Kurage's Oath|Bake-Kurage]] DMG are increased based on her Max HP.
+* When [[The Shape of Water|her Normal and Charged Attacks]] hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.
+* Increases Sangonomiya Kokomi's [[resistance to interruption]] and allows her to walk on the [[water]]'s surface.
+These effects will be cleared once Sangonomiya Kokomi leaves the field.
+|CD            = 18s
+|duration      = 10s
+|energyCost    = 70
+|scale_att1    = HP
+|attr1         = Skill DMG (% Max HP)
+|value1        = 10.4 – 22.1%
+|attr2         = Normal Attack DMG Bonus (% Max HP)
+|value2        = 4.8 – 10.3%
+|attr3         = Charged Attack DMG Bonus (% Max HP)
+|value3        = 6.8 – 14.4%
+|attr4         = Bake-Kurage DMG Bonus (% Max HP)
+|value4        = 7.1 – 15.1%
+|attr5         = HP Regeneration Per Hit
+|value5        = 0.81% Max HP+77 – 1.72% Max HP+211.9
+|utility1      = Healing
+|utility2      = AoE
+|utility3      = Normal Attack DMG Increase
+|utility4      = Charged Attack DMG Increase
+|utility5      = Flat DMG Increase
+|utility6      = Requires Staying on Field
+|utility7      = Interruption Resistance
+}}
+{{Description|Clear light coalesces into robes around Her Excellency, Sangonomiya Kokomi, reflecting her magnificent form.}}
+'''Nereid's Ascension''' is [[Sangonomiya Kokomi]]'s [[Elemental Burst]].
+
+==Gameplay Notes==
+* Water essentially acts as if it were [[frozen]] for the duration of the burst. As such, while donning the Ceremonial Garment, Kokomi can take fall damage and even die if she jumps from a high distance onto water.
+* Kokomi will still take damage while walking on [[Electro Water]].
+* {{TalentNote|ascension|1|Tamanooya's Casket|refreshes the duration of Kokomi's [[Kurage's Oath|Bake-Kurage]] upon casting Nereid's Ascension.|character=Kokomi|talent=Nereid's Ascension}}
+* {{TalentNote|ascension|2|Song of Pearls|increases the Normal and Charged Attack DMG Bonus from Nereid's Ascension by 15% of Kokomi's Healing Bonus.|character=Kokomi|talent=Nereid's Ascension}}
+
+;<big>Constellation Effects</big>
+* {{TalentNote|constellation|1|At Water's Edge}}
+* {{TalentNote|constellation|2|The Clouds Like Waves Rippling|Increases the healing that nearby party members under 50% HP receive from Kokomi's Normal and Charged Attacks during Nereid's Ascension.}}
+* {{TalentNote|constellation|3|The Moon, A Ship O'er the Seas}}
+* {{TalentNote|constellation|4|The Moon Overlooks the Waters}}
+* {{TalentNote|constellation|6|Sango Isshin}} Healing a character at maximum HP counts for this constellation.
+
+;<big>Damage Bonus Calculations</big>
+* The Normal Attack "DMG Bonus" is applied differently from other [[Damage Bonus]]es. It is not added to other Damage Bonus percentages, but is rather added to the base damage (before other multipliers are applied). That is (without [[crit]]), the outgoing [[Damage]] is:
+:<math>\begin{align}
+&(\text{ATK} \times \text{Ability }\% +
+\text{HP Ability Bonus }\% \times \text{Max HP}) \\
+&\times (1 + \text{DMG Bonus }\%)
+\end{align}</math>
+* The DMG Bonus at the end includes other damage bonuses like {{Color|Hydro DMG Bonus}}.
+* The HP Ability Bonus is the DMG Bonus provided by the burst for the corresponding type of attack (Normal, Charged, Bake-Kurage).
+:<math>\begin{align}
+\text{HP Ability Bonus }\% = \text{Burst Ability Bonus }\%
+\end{align}</math>
+* With her second Passive Talent, the Ability Bonus becomes
+:<math>\begin{align}
+\text{HP Ability Bonus }\% = \text{Burst Ability Bonus }\% + 15\% \times \text{Healing Bonus }\%
+\end{align}</math>
+
+;Example Calculation
+At talent level 6 for both the Normal Attack and burst, with the 2nd passive, 30000 HP, 1000 attack, 40% [[Healing Bonus]], only 40% {{Color|Hydro DMG Bonus}}, no [[crit]], and no reactions, the damage done to a Mitachurl by the first Normal Attack (scaling 95.73%) without the burst active is roughly:
+{{Damage Calculator
+|atk = 1000
+|talent_scaling = 95.73
+|dmg_bonus = 40
+|crit_dmg = 0
+}}.
+
+When the burst is activated, at level 6 the burst Normal Attack bonus will be 6.78%, and she will gain the following additional outgoing damage
+:<math>((.0678+.15*.40) * 30000) * (1 + .4)</math>
+After applying the DEF and RES modifiers for a Mitachurl, the additional incoming damage is
+{{Damage Calculator
+|atk = 3834
+|talent_scaling = 100
+|dmg_bonus = 40
+|crit_dmg = 0
+}}.
+
+So the total damage of the first NA hit with the burst activated is the sum
+:<math>603.099+2415.42 = 3018.519</math>
+
+==Preview==
+{{Preview
+|file1=Nereid's Ascension Preview
+|caption1=Nereid's Ascension
+
+|file2=Nereid's Ascension Ceremonial Garment Attack Preview
+|caption2=Ceremonial Garment, Normal and Charged Attacks
+
+|file3=Nereid's Ascension Ceremonial Garment Water Preview
+|caption3=Ceremonial Garment, moving on the water's surface
+}}
+{{clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Burst
+|levels=13
+|order=skilldmg,normalattackdmgbonus,chargedattackdmgbonus,bake-kuragedmgbonus,hpregenerationperhit,duration,cd,energycost
+|titles=Skill DMG (% Max HP),Normal Attack DMG Bonus (% Max HP),Charged Attack DMG Bonus (% Max HP),Bake-Kurage DMG Bonus (% Max HP),HP Regeneration Per Hit,Duration,CD,Energy Cost
+|skilldmg_1=10.42
+|skilldmg_2=11.2
+|skilldmg_3=11.98
+|skilldmg_4=13.02
+|skilldmg_5=13.8
+|skilldmg_6=14.58
+|skilldmg_7=15.62
+|skilldmg_8=16.67
+|skilldmg_9=17.71
+|skilldmg_10=18.75
+|skilldmg_11=19.79
+|skilldmg_12=20.83
+|skilldmg_13=22.13
+|normalattackdmgbonus_1=4.84
+|normalattackdmgbonus_2=5.2
+|normalattackdmgbonus_3=5.57
+|normalattackdmgbonus_4=6.05
+|normalattackdmgbonus_5=6.41
+|normalattackdmgbonus_6=6.78
+|normalattackdmgbonus_7=7.26
+|normalattackdmgbonus_8=7.74
+|normalattackdmgbonus_9=8.23
+|normalattackdmgbonus_10=8.71
+|normalattackdmgbonus_11=9.2
+|normalattackdmgbonus_12=9.68
+|normalattackdmgbonus_13=10.29
+|chargedattackdmgbonus_1=6.78
+|chargedattackdmgbonus_2=7.28
+|chargedattackdmgbonus_3=7.79
+|chargedattackdmgbonus_4=8.47
+|chargedattackdmgbonus_5=8.98
+|chargedattackdmgbonus_6=9.49
+|chargedattackdmgbonus_7=10.16
+|chargedattackdmgbonus_8=10.84
+|chargedattackdmgbonus_9=11.52
+|chargedattackdmgbonus_10=12.2
+|chargedattackdmgbonus_11=12.87
+|chargedattackdmgbonus_12=13.55
+|chargedattackdmgbonus_13=14.4
+|bake-kuragedmgbonus_1=7.1
+|bake-kuragedmgbonus_2=7.63
+|bake-kuragedmgbonus_3=8.16
+|bake-kuragedmgbonus_4=8.87
+|bake-kuragedmgbonus_5=9.4
+|bake-kuragedmgbonus_6=9.93
+|bake-kuragedmgbonus_7=10.64
+|bake-kuragedmgbonus_8=11.35
+|bake-kuragedmgbonus_9=12.06
+|bake-kuragedmgbonus_10=12.77
+|bake-kuragedmgbonus_11=13.48
+|bake-kuragedmgbonus_12=14.19
+|bake-kuragedmgbonus_13=15.08
+|hpregenerationperhit_1=0.81% Max HP+77.03
+|hpregenerationperhit_2=0.87% Max HP+84.74
+|hpregenerationperhit_3=0.93% Max HP+93.08
+|hpregenerationperhit_4=1.01% Max HP+102.07
+|hpregenerationperhit_5=1.07% Max HP+111.70
+|hpregenerationperhit_6=1.13% Max HP+121.98
+|hpregenerationperhit_7=1.21% Max HP+132.89
+|hpregenerationperhit_8=1.29% Max HP+144.45
+|hpregenerationperhit_9=1.37% Max HP+156.65
+|hpregenerationperhit_10=1.45% Max HP+169.49
+|hpregenerationperhit_11=1.54% Max HP+182.97
+|hpregenerationperhit_12=1.62% Max HP+197.10
+|hpregenerationperhit_13=1.72% Max HP+211.87
+|duration=10s
+|cd=18s
+|energycost=70
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Sangonomiya Kokomi}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Trivia==
+* In Greek mythology, the {{w|Nereids}} were the sea nymph daughters of the 'Old Man of the Sea' Nereus and the Oceanid Doris. They were the attendants of the god of the sea, Poseidon, and were seen as goddesses of the sea's rich bounty and protectors of sailors and fishermen.
+* In the Japanese name of the {{Lang|Ceremonial Garment|ja=儀来羽衣|ja_rm=Girai Hagoromo}}, {{Lang|''hagoromo''|ja=羽衣|ja_tl=feather mantle}} refers to the kimono worn by celestial beings ({{w|tennin}}) that grants them the ability to fly, and thus ascend to heaven.
+* {{Lang|''Girai''|ja=儀来}}, which is translated as "Ceremonial" in English, is a kanji transcription of the {{w|Ryukyuan languages|Ryukyuan}} word Nirai.<ref name="kotobank-nirai">Kotobank: [https://kotobank.jp/word/%E3%83%8B%E3%83%A9%E3%82%A4%E3%82%AB%E3%83%8A%E3%82%A4-170963 ニライカナイ]</ref> It is also known as {{W|Ryukyuan religion#Nirai Kanai|Nirai Kanai}} and refers to the realm of gods in the {{w|Ryukyuan religion|Ryukyuan mythology}}, the indigenous religion of {{w|Okinawa Prefecture}} and the {{w|Amami Islands}}.<ref name="kotobank-nirai" /> The realm is believed to be located somewhere in the Pacific Ocean (presumably under the sea, according to some legends).<ref name="kotobank-nirai" />
+** Nirai is often equated with {{w|Ryūgū-jō|Ryuuguu-jou}}, the undersea palace of the dragon god Ryuujin in mainland Japanese legends.<ref name="kotobank-nirai" /> Nirai is also claimed to have the same etymological root as {{w|Ne-no-kuni}}, a netherworld in Japanese mythology.<ref name="kotobank-nirai" />
+*** In the game's lore, [[Orobashi]] may be a nod to the dragon god, whereas [[Enkanomiya]], an underwater region where [[Watatsumi Island]]'s people originated from, may be a nod to Ne-no-kuni.
+* {{TalentNote|clap}}
+
+==Other Languages==
+{{Other Languages
+|en      = Nereid's Ascension
+|zhs     = 海人化羽
+|zhs_rm  = Hǎirén Huàyǔ
+|zht     = 海人化羽
+|zht_rm  = Hǎirén Huàyǔ
+|zh_tl   = {{w|Kaijin_(folklore)|Kaijin}}'s Ascension
+|zh_note = {{Lang|mini=1|zh=化羽|zh_tl=transform into feather}} is a literary term of Daoist origin, which refers to the state of becoming as light as a feather and ascending to heaven.
+|ja      = 海人の羽衣
+|ja_rm   = Kaijin no Hagoromo
+|ja_tl   = Kaijin's Feathered Veil
+|ja_note = {{Lang|mini=1|ja=羽衣|ja_tl=feather mantle}} is a literary term of Japanese Buddhism origin, which refers to the kimono worn by celestial beings ({{w|tennin}}) that grants them the ability to fly, and thus ascend to heaven.
+|ko      = {{tt|해|海}}{{tt|인|人}}{{tt|화|化}}{{tt|우|羽}}
+|ko_rm   = Hae'inhwa'u
+|ko_tl   = Nereid's Ascension{{Sino|ko}}
+|es      = Encarnación de las nereidas
+|es_tl   = Incarnation of the Nereids
+|fr      = Ascension de la néréide
+|fr_tl   = Nereid's Ascension
+|ru      = Вознесение нереиды
+|ru_tl   = Nereid's Ascension
+|th      = Nereid's Ascension
+|vi      = Nghi Lễ Nereid
+|vi_tl   = 
+|de      = Nereidenaufstieg
+|de_tl   = Nereid's Ascension
+|id      = Nereid's Ascension
+|pt      = Cerimônia Kaijin
+|pt_tl   = Kaijin Ceremony
+}}
+
+==Change History==
+{{Change History|2.1}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Talent Navbox|Sangonomiya Kokomi}}
+
+[[pt-br:Cerimônia Kaijin]]
+[[th:Nereid's Ascension]]

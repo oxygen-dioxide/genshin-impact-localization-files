@@ -1,0 +1,123 @@
+{{Community}}
+This article seeks to derive some mathematical results for optimizing [[Attribute]] ratios. The derivations assume some familiarity with multivariable calculus and Lagrange multipliers.
+
+Please note that these are only theoretical results, and in-game optimization may differ in practice.
+
+==Expected Critical==
+Let ''r'' be the [[Critical Hit|CRIT Rate]] probability (<math>r\le 1</math>) and ''d'' be the CRIT Damage (<math>d \ge 0</math>) in decimal form (so 150% CRIT Damage would be <math>d=1.5</math>).
+
+Suppose the damage is ''x'' without a CRIT. The '''expected damage''' is<ref group="Note">Here damage is modeled as a random variable using a 2-point distribution. That is, if <math>B(r)</math> is a Bernoulli random variable that takes 1 with probability r and 0 otherwise, then in this model, damage can be written as the random variable <math>x(1+B(r)d)</math>. The expected value or first moment is then <math>x(1+rd)</math>.</ref>
+:<math>(1-r)x + r(1+d)x = x(1 + rd)</math>
+
+The objective is to maximize this function, namely the product <math>f = rd</math>.
+
+In general, choose the CRIT Rate ''r'' and CRIT Damage ''d'' that maximizes their product to maximize the expected damage. That is, ''ceteris paribus'' (holding all other attributes constant):
+
+'''Maximize the product of CRIT Rate and CRIT Damage.'''
+
+Note that in practice, if one considers other factors, this may change. For example, for a [[Favonius Warbow]], it may be more optimal to have more CRIT so that one can receive more energy. Some characters like [[Sangonomiya Kokomi]] may not even rely on CRIT. Some artifact sets and other effects like [[Blizzard Strayer]] and [[Cryo Resonance]] may give much more CRIT Rate to begin with, that it might be more optimal to stack more CRIT Damage. In practice, the optimization will usually differ based on one's team compositions.
+
+===Crit Ratio===
+If one assumes a certain distribution between crit damage and crit rate, then it is possible to derive a special optimal crit ratio. For example, a 2:1 ratio between crit damage and crit rate is sometimes recommended. This 2:1 ratio is optimal if one assumes a special distribution between crit damage and crit rate.
+
+Within Genshin Impact, there is a tendency for crit rate and crit damage to appear in a 1 to 2 ratio, whether for artifacts, weapons, ascensions, etc. That is, for every 1 point in crit rate we gain, we lose 2 points in crit damage. We can express this using the following constraint:
+:<math>g = r + \frac{d}{2} - c = 0</math>
+for some constant c.
+
+Our new goal is to maximize the product rd with respect to the above constraint. We can do this using Lagrange multipliers.
+:<math>\partial_r (f - \lambda g) = d - \lambda = 0</math>
+:<math>\partial_d (f - \lambda g) = r - \frac{\lambda}{2} = 0</math>
+Solving this system gives
+:<math>d = 2r</math>
+so the optimal ratio between crit damage and crit rate assuming the given constraint is 2 to 1, as desired.
+
+===Crit Distribution===
+{{See also|Artifacts/Stats}}
+One of the key assumptions for the 2:1 rule of thumb to hold is the distribution of crit stats. Note that the assumption that crit damage and crit rate are distributed in a 2:1 ratio does not always hold in practice, in which case, we do not have a 2:1 ratio but rather go back to maximizing the product of crit rate and crit damage.
+
+However, for artifact substats, crit rate and crit damage are usually distributed in such a way. We introduce the notion of the '''crit value''' as
+
+:<math>CV = 2r + d</math>
+
+For a 5 star artifact piece, we assume that we get a high roll on both crit rate <math>r_0</math> and crit damage <math>d_0</math>. Note that we roughly have <math>d_0 = 2r_0</math>. We assume that when we level up the artifact, all upgrades go into either crit rate or crit damage. (When leveling to +20, we can upgrade substats 5 times.) Each time crit is upgraded it increases by <math>r_0</math>, and each time crit damage is upgraded it increases by <math>d_0</math>.
+
+So we have the following table describing the possible stats we can get at +20:
+{| class="fandom-table"
+!Crit rate
+!Crit damage
+!CV
+|-
+|<math>5r_0</math>
+|<math>d_0</math>
+|<math>12r_0</math>
+|-
+|<math>4r_0</math>
+|<math>2d_0</math>
+|<math>12r_0</math>
+|-
+|<math>3r_0</math>
+|<math>3d_0</math>
+|<math>12r_0</math>
+|-
+|<math>2r_0</math>
+|<math>4d_0</math>
+|<math>12r_0</math>
+|-
+|<math>r_0</math>
+|<math>5d_0</math>
+|<math>12r_0</math>
+|}
+
+So here the constraint
+:<math>g = 2r + d - c = 0</math>
+approximately holds where the constant c is just the crit value <math>12r_0</math>. This gives some plausibility for the assumption made in the previous derivation.
+
+==ATK%==
+We now consider a third variable ATK%. With this the expected damage becomes
+:<math>x(1+a)(1 + rd)</math>
+where all other factors are absorbed into a constant x. Here we want to maximize the objective function <math>f = (1+a)(1 + rd)</math>.
+
+For artifact substats, we assume that ATK%, CRIT RATE, and CRIT DMG are distributed as follows:
+:<math>g = \frac{a}{3} + \frac{r}{2} + \frac{d}{4} - c = 0</math>
+That is, they appear in roughly a 3:2:4 ratio.
+
+:<math>\partial_a (f - \lambda g) = 1 + rd - \frac{\lambda}{3} = 0</math>
+:<math>\partial_r (f - \lambda g) = (1+a)d - \frac{\lambda}{2} = 0</math>
+:<math>\partial_d (f - \lambda g) = (1+a)r - \frac{\lambda}{4} = 0</math>
+
+From this we have that <math>d=2r</math> and
+:<math>\lambda = 3(1+rd) = 4(1+a)r</math>
+:<math>3(1+2r^2) = 4(1+a)r</math>
+
+Solving this equation gives
+:<math>a = \frac{3(1+2r^2)}{4r} - 1 = \frac{3r}{2} - 1 + \frac{3}{4r}</math>
+Note this is only a theoretical result derived from a series of assumptions, and in-game optimization may be completely different. The formula is more complicated than the simple 2:1 rule of thumb derived earlier, so when optimizing ATK% in practice, it may be more useful to experiment around rather than follow the exact equation.
+
+==Emblem of Severed Fate==
+If a character equips a 4-piece [[Emblem of Severed Fate]], how much should they invest into ER% and ATK%? In terms of maximizing the raw damage number, it is usually optimal to choose more ATK% over ER%. However, having more ER% can help characters gain their bursts more quickly, which could help deal more damage in the long run. For example, some characters such as Raiden Shogun, Mona, Xiangling, Xingqiu rely on their bursts for most of their damage.
+
+Suppose we have no [[Damage Bonus]] to begin with. Damage will be proportional to
+:<math>f=(1+a)(1+b)</math>
+where a is the ATK% and b is the damage bonus. If one equips a 4-piece Emblem of Severed Fate set (which gives +20% ER and damage bonus equal to 25% of one's ER), then
+:<math>b = \frac{1.2 + \xi}{4}</math>
+where <math>\xi \ge 0</math> is any extra ER% we have. From artifact substat distributions, we roughly have
+:<math>g = \frac{a}{9} + \frac{\xi}{10} - c = 0</math>
+Then
+:<math>\partial_a (f - \lambda g) = \frac{5.2 + \xi}{4} - \frac{\lambda}{9} = 0</math>
+:<math>\partial_{\xi} (f - \lambda g) = \frac{1+a}{4} - \frac{\lambda}{10} = 0</math>
+Solving gives
+:<math>10\frac{1+a}{4} = 9\frac{5.2 + \xi}{4}</math>
+:<math>\xi = \frac{10(1+a)}{9} - 5.2</math>
+Note this value is negative for <math>a < 3.68</math> (368 ATK% which is not realistically achievable).
+
+This means that for maximizing a single-instance of damage (or damage per screenshot), it is usually always optimal to invest into ATK% over ER% when equipping a 4 piece Emblem of Severed Fate. For example, choosing an ATK% sands over an ER% sands will give more damage per screenshot.
+
+However, ER% is beneficial to invest in to the point of spamming one's burst on cooldown if one's burst gives a major chunk of their damage.
+
+==Notes==
+{{Reflist|note=1}}
+
+==Navigation==
+{{Combat Navbox}}
+
+[[Category:Game Systems]]

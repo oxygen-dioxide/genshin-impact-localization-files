@@ -1,0 +1,171 @@
+{{Terminology Infobox
+|type         = Game Systems
+}}
+{{See also|Weather}}
+The '''Screen''' refers to the visual display of the game. Various screen elements such as graphics, brightness, camera angle, and shake can be adjusted in the [[Settings]].
+
+==Field of Vision==
+Sometimes environmental factors or [[enemies]] can obstruct the field of vision on the screen:
+*[[Treasure Hoarders: Gravedigger]]
+*[[Treasure Hoarders: Carmen]]
+*[[The Great Snowboar King]]
+*[[Dusty Balloon]]
+*[[Kaboomball Kombat#Foggy-Groggy Ball|Foggy-Groggy Ball]]
+
+Various other factors can affect the field of vision including [[Elemental Sight]].
+
+==Camera Shake==
+When certain abilities or used, or when melee attacks hit targets, the camera will shake. Camera shake has the following parameters:<ref name="src">Source Data: [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/AvatarAbilities Character Abilities]</ref>
+*"shakeType"
+*"shakeRange": supposedly in [[meter]]s
+*"shakeTime": supposedly in [[second]]s
+*"shakeDistance": supposedly in [[meter]]s
+*"shakeDir": x, y, z directions
+*"baseCycle"
+*"cycleDamping"
+*"rangeAttenuation"
+
+===Forced Camera Shake===
+Abilities with a Forced Camera Shake will cause a Camera Shake even if they do not hit a target. This mainly applies to [[explosion]]s (such as [[Overloaded]]) or ground-smashing attacks.
+
+Below is a list of abilities with Forced Camera Shake:
+{| class="fandom-table sortable"
+! rowspan="2" | Character !! rowspan="2" | Ability !! rowspan="2" | Shake Range !! rowspan="2" | Shake Time !! rowspan="2" | Shake Distance !! colspan="3" | Shake Direction !! rowspan="2" | Range Attenuation
+|-
+! X !! Y !! Z
+|-
+| {{Character|Albedo|20|nobr=1}} || {{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}} Activation || 0.24 || 0.12 || 30 || &mdash; || &mdash; || &mdash; || 0
+|-
+| {{Character|Aloy|20|nobr=1}}|| {{Talent|Prophecies of Dawn|20|nobr=1|type=1}} || 0.36 || 0.36 || 30 || 0 || -1 || 0 || 0.1
+|-
+| {{Character|Amber|20|nobr=1}} || {{Talent|Explosive Puppet|20|nobr=1|type=1}} Explosion || 0.8 || 0.24 || 30 || &mdash; || &mdash; || &mdash; || &mdash;
+|-
+| rowspan="2" | {{Character|Arataki Itto|20|nobr=1}} || {{Talent|Fight Club Legend|text=Normal Attack 4|20|nobr=1}} || 0.36 || 0.12 || 30 || 1 || 0 || 0 || &mdash;
+|-
+| {{Talent|Fight Club Legend|text=Charged Attack|20|nobr=1}} Arataki Kesagiri Final || 0.48 || 0.15 || 30 || 0 || 1 || -1 || &mdash;
+|-
+| {{Character|Barbara|20|nobr=1}} || {{Talent|Whisper of Water|text=Charged Attack|20|nobr=1}} || 0.12 || 0.36 || 30 || 0 || -1 || 0 || 0.3
+|-
+| rowspan="3" | {{Character|Beidou|20|nobr=1}} || {{Talent|Oceanborne|text=Normal Attack 2|20|nobr=1}} || 0.36 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Oceanborne|text=Normal Attack 5|20|nobr=1}} || 0.48 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Stormbreaker|20|nobr=1|type=1}} || 0.3 || 0.25 || 30 || 0 || 1 || 0 || 0
+|-
+| rowspan="3" | {{Character|Bennett|20|nobr=1}} || {{Talent|Passion Overload|20|nobr=1|type=1}} Explosion || 0.35 || 0.3 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Fantastic Voyage|20|nobr=1|type=1}} || 0.45 || 0.24 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Constellation|Unexpected Odyssey|20|nobr=1|level=1}} || 0.35 || 0.24 || 30 || 0 || 1 || -1 || &mdash;
+|-
+| rowspan="4" | {{Character|Chongyun|20|nobr=1}} || {{Talent|Demonbane|text=Normal Attack 4|20|nobr=1}} || 0.48 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Spirit Blade: Chonghua's Layered Frost|20|nobr=1|type=1}} || 0.48 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Spirit Blade: Cloud-Parting Star|20|nobr=1|type=1}} || 0.36 || 0.12 || 30 || -0.2 || 1 || 0 || &mdash;
+|-
+| {{Talent|Rimechaser Blade|20|nobr=1|type=1}} || 0.36 || 0.12 || 30 || -0.2 || 1 || 0 || &mdash;
+|-
+| rowspan="3" | {{Character|Diluc|20|nobr=1}} || {{Talent|Tempered Sword|text=Normal Attack 4|20|nobr=1}} || 0.48 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Searing Onslaught|20|nobr=1|type=1}} || 0.48 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Dawn|20|nobr=1|type=1}} || 0.2 || 0.4 || 30 || -1 || 0.2 || 0 || &mdash;
+|-
+| rowspan="2" | {{Character|Eula|20|nobr=1}} || {{Talent|Favonius Bladework - Edel|text=Normal Attack 5|20|nobr=1}} || 0.48 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Glacial Illumination|20|nobr=1|type=1}} || 0.36 || 0.12 || 30 || -1 || 0 || 0 || &mdash;
+|-
+| rowspan="2" | {{Character|Hu Tao|20|nobr=1}} || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} Activation || 0.6 || 0.36 || 30 || 0.08 || -0.04 || 0 || &mdash;
+|-
+| {{Talent|Spirit Soother|20|nobr=1|type=1}} || 0.36 || 0.12 || 30 || -1 || 0 || 0 || &mdash;
+|-
+| {{Character|Jean|20|nobr=1}} || {{Talent|Favonius Bladework|20|nobr=1|text=Charged Attack}} || 0.48 || 0.12 || 30 || 0 || -1 || 0 || &mdash;
+|-
+| {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Kazuha Slash|20|nobr=1|type=1}} || 0.8 || 0.3 || 30 || 1 || 1 || 0 || 0.3
+|-
+| rowspan="3" | {{Character|Klee|20|nobr=1}} || {{Talent|Kaboom!|text=Normal Attack 1-3|20|nobr=1}} || 0.12 || 0.12 || 30 || 0 || 0 || 1 || &mdash;
+|-
+| {{Talent|Kaboom!|text=Charged Attack|20|nobr=1}} || 0.64 || 0.3 || 35 || &mdash; || &mdash; || &mdash; || 0.9
+|-
+| {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} || 0.8 || 0.24 || &mdash; || &mdash; || &mdash; || &mdash; || &mdash;
+|-
+| {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Touch|text=Charged Attack|20|nobr=1}} || 0.3 || 0.12 || &mdash; || 0 || -1 || 0 || 0
+|-
+| {{Character|Mona|20|nobr=1}} || {{Talent|Ripple of Fate|text=Charged Attack|20|nobr=1}} || 0.12 || 0.36 || 30 || 0 || -1 || 0 || 0.3
+|-
+| {{Character|Ningguang|20|nobr=1}} || {{Talent|Jade Screen|20|nobr=1|type=1}} || 0.3 || 0.15 || &mdash; || &mdash; || &mdash; || &mdash; || &mdash;
+|-
+| rowspan="7" | {{Character|Noelle|20|nobr=1}} || {{Talent|Favonius Bladework - Maid|text=Normal Attack 4|20|nobr=1}} || 0.48 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Sweeping Time|20|nobr=1|type=1}} || 0.36 || 0.3 || 45 || 1 || -0.2 || 0 || &mdash;
+|-
+| {{Talent|Sweeping Time|text=Converted Normal Attack 1|20|nobr=1}} || 0.32 || 0.18 || 45 || 1 || 0.3 || 0 || &mdash;
+|-
+| {{Talent|Sweeping Time|text=Converted Normal Attack 2|20|nobr=1}} || 0.32 || 0.18 || 40 || 1 || -0.3 || 0 || &mdash;
+|-
+| {{Talent|Sweeping Time|text=Converted Normal Attack 3|20|nobr=1}} || 0.32 || 0.18 || 40 || -1 || 0 || 0 || &mdash;
+|-
+| {{Talent|Sweeping Time|text=Converted Normal Attack 4|20|nobr=1}} || 0.64 || 0.18 || 40 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Sweeping Time|text=Converted Charged Attack|20|nobr=1}} Final || 0.6 || 0.36 || 30 || &mdash; || &mdash; || &mdash; || &mdash;
+|-
+| rowspan="4" | {{Character|Traveler|20|nobr=1}} || {{Talent|Bellowing Thunder|20|nobr=1|type=1}} || 0.3 || 0.15 || &mdash; || &mdash; || &mdash; || &mdash; || 0
+|-
+| {{Talent|Starfell Sword|20|nobr=1|type=1}} || 0.3 || 0.15 || &mdash; || &mdash; || &mdash; || &mdash; || &mdash;
+|-
+| {{Talent|Palm Vortex|20|nobr=1|type=1}} Press || 0.2 || 0.12 || 30 || 1 || 0 || 0 || &mdash;
+|-
+| {{Talent|Palm Vortex|20|nobr=1|type=1}} Hold || 0.08 || 0.24 || 30 || 1 || 1 || 1 || 1
+|-
+| rowspan="3" | {{Character|Razor|20|nobr=1}} || {{Talent|Steel Fang|text=Normal Attack 4|20|nobr=1}} || 0.48 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Claw and Thunder|20|nobr=1|type=1}} || 0.6 || 0.36 || 30 || &mdash; || &mdash; || &mdash; || 0
+|-
+| {{Talent|Lightning Fang|20|nobr=1|type=1}} Activation || 0.6 || 0.36 || 30 || &mdash; || &mdash; || &mdash; || 0
+|-
+| rowspan="2" | {{Character|Rosaria|20|nobr=1}} || {{Talent|Spear of the Church|text=Normal Attack 4|20|nobr=1}} || 0.28 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Rites of Termination|20|nobr=1|type=1}} Activation || 0.15 || 0.06 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} Activation || 0.4 || 0.12 || 60 || &mdash; || &mdash; || &mdash; || 0
+|-
+| rowspan="2" | {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|The Shape of Water|text=Charged Attack|20|nobr=1}} || 0.5 || 0.2 || 30 || &mdash; || &mdash; || &mdash; || 0
+|-
+| {{Talent|Nereid's Ascension|20|nobr=1|type=1}} || 0.6 || 0.36 || 30 || &mdash; || &mdash; || &mdash; || 0
+|-
+| {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Windmuster Kick|20|nobr=1|type=1}} || 0.24 || 0.12 || 30 || -0.2 || 1 || 0 || —
+|-
+| {{Character|Sucrose|20|nobr=1}} || {{Talent|Wind Spirit Creation|text=Charged Attack|20|nobr=1}} || 0.12 || 0.12 || 30 || 0 || 0 || 1 || 0.1
+|-
+| {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} Activation || 0.6 || 0.36 || 30 || &mdash; || &mdash; || &mdash; || 0
+|-
+| {{Character|Thoma|20|nobr=1}} || {{Talent|Crimson Ooyoroi|20|nobr=1|type=1}} Activation || 0.25 || 0.09 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| rowspan="4" | {{Character|Xinyan|20|nobr=1}} || {{Talent|Dance on Fire|text=Normal Attack 2|20|nobr=1}} || 0.36 || 0.12 || 30 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Sweeping Fervor|20|nobr=1|type=1}} || 0.24 || 0.21 || 30 || 1 || -0.2 || 0 || &mdash;
+|-
+| {{Talent|Riff Revolution|20|nobr=1|type=1}} Part 1 || 0.24 || 0.3 || 45 || 0 || 1 || 0 || &mdash;
+|-
+| {{Talent|Riff Revolution|20|nobr=1|type=1}} Part 2 || 0.36 || 0.3 || 45 || 0 || 1 || 0 || &mdash;
+|-
+| rowspan="2" | {{Character|Yanfei|20|nobr=1}} || {{Talent|Seal of Approval|text=Charged Attack|20|nobr=1}} with 3-4 Scarlet Seals || 0.12 || 0.36 || 30 || 0 || -1 || 0 || 0.3
+|-
+| {{Talent|Done Deal|20|nobr=1|type=1}} || 0.6 || 0.36 || 30 || &mdash; || &mdash; || &mdash; || &mdash;
+|-
+| {{Character|Yoimiya|20|nobr=1}} || {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} Activation || 0.35 || 0.2 || &mdash; || &mdash; || &mdash; || &mdash; || &mdash;
+|-
+| {{Character|Yun Jin|20|nobr=1}} || {{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}} || 0.6 || 0.36 || 30 || &mdash; || &mdash; || &mdash; || 0
+|-
+| {{Character|Zhongli|20|nobr=1}} || {{Talent|Dominus Lapidis|20|nobr=1|type=1}} || 0.4 || 0.12 || 60 || &mdash; || &mdash; || &mdash; || 0
+|}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Game Systems Navbox|Other}}

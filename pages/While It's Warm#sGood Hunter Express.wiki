@@ -1,0 +1,341 @@
+{{EventTabs}}
+==Steps==
+===Day 1 &mdash; Mondstadt Hash Brown===
+[[File:Screenshot Good Hunter Express MHB.png|225px|right]]
+#Talk to [[Sara]]
+#*Collection: Sara
+#*Delivery: [[Hardworking Silio]]
+#*Note: Deliver within 100s without gliding, sprinting, or taking any DMG.
+#*Reward:<br />{{Item|Mora|x=30,000}} {{Item|Valberry|x=3}}
+#Deliver the food to Hardworking Silio
+
+===Day 2 &mdash; Sweet Madame===
+[[File:Good Hunter Express SSM.png|225px|right]]
+#Talk to [[Sara]]
+#*Collection: Sara
+#*Delivery: [[Short-Tempered Wallit]]
+#*Note: Deliver within 110s without taking any DMG or being affected by any elements.
+#*Reward:<br />{{Item|Mora|x=30,000}} {{Item|Philanemo Mushroom|x=3}}
+#Deliver the food to Short-Tempered Wallit
+
+===Day 3 &mdash; Flaming Red Bolognese===
+[[File:Good Hunter Express SFRB.png|225px|right]]
+#Talk to [[Sara]]
+#*Collection: Sara
+#*Delivery: [[Slacking Angelo]]
+#*Note: Deliver within 95s without gliding, sprinting, climbing, or taking any DMG.
+#*Reward:<br />{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
+#Deliver the food to Slacking Angelo
+
+===Day 4 &mdash; Tea Break Pancake===
+[[File:Good Hunter Express STBP.png|225px|right]]
+# Talk to [[Sara]]
+#* Collection: Sara
+#*Delivery: [[Short-Tempered Wallit]]
+#*Note: Deliver within 95s without sprinting or taking any DMG.
+#*Reward:<br />{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
+# Deliver the food to Short-Tempered Wallit
+
+===Day 5 &mdash; Mondstadt Hash Brown===
+[[File:Good Hunter Express SMHB.png|225px|right]]
+# Talk to [[Sara]]
+#* Collection: Sara
+#*Delivery: [[Hardworking Silio]]
+#*Note: Deliver within 130s without taking any DMG or being affected by any elements.
+#*Reward:<br />{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
+#Deliver the food to Hardworking Silio
+
+===Day 6 &mdash; Mondstadt Grilled Fish===
+[[File:Good Hunter Express SMGF.png|225px|right]]
+# Talk to [[Sara]]
+#* Collection: Sara
+#*Delivery: [[Hardworking Silio]]
+#*Note: Deliver within 110s without taking any DMG, sprinting, or being affected by any elements.
+#*Reward:<br />{{Item|Mora|x=30,000}} {{Item|Windwheel Aster|x=3}}
+#Deliver the food to Hardworking Silio
+
+===Day 7 &mdash; Fisherman's Toast===
+[[File:Good Hunter Express SFT.png|225px|right]]
+# Talk to [[Sara]]
+#* Collection: Sara
+#*Delivery: [[Short-Tempered Wallit]]
+#*Note: Deliver within 130s without sprinting or being affected by any elements.
+#*Reward:<br />{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
+# Deliver the food to Short-Tempered Wallit
+
+==Notes==
+*Timer is not paused while entering any menu.
+*Sprinting includes the beginning "dashing" action.
+
+==Dialogue==
+===Day 1 &mdash; Mondstadt Hash Brown===
+{{Dialogue start}}
+;(Talk to Sara)
+:{{#vardefineecho:quest_start|{{DIcon|Quest}} I heard that someone placed a custom order...}}
+:'''Sara:''' That's correct. You're here to help, right? Then you're right on time &mdash; I'd just finished making this Mondstadt Hash Brown.
+:'''Sara:''' It's supposed to go to [[Silio]]. He paid us earlier, and said that he'd be waiting for his delivery near Stormbearer Point.
+:{{DIcon}} I'll deliver it right now.
+::'''Sara:''' Thanks so much!
+::'''Sara:''' Oh, yes, this Mondstadt Hash Brown is just out of the oven, so do handle it with care.
+::'''Sara:''' Don't {{Color|buzzword|run too fast, use your wind glider, and don't get into a fight}}, or that hash brown may just come apart.
+::'''Sara:''' You do have to be quick, though. This dish won't taste good if it gets cold.
+:;(Obtain [[Special Mondstadt Hash Brown]] ×1)
+:{{DIcon}} Hmm, I've got other things to do right now.
+::'''Sara:''' Really? Okay then. I'll find someone else to make that delivery...
+:;(Quest resets)
+<!-- No quest-related dialogue for talking to Sara again. -->
+
+;(Upon failure via sprinting, gliding, or taking damage)
+:'''Paimon:''' Oh no, this Mondstadt Hash Brown looks inedible now... There's no way Silo's accepting this.
+:{{#vardefineecho:new_serving|'''Paimon:''' Well, nothing to do but go back to Sara and get a new serving.}}
+:;(Quest resets)
+
+;(Upon failure via timeout)
+:'''Paimon:''' Uh, looks like you took too long. There's no way Silio's gonna eat a hash brown that's gone this cold.
+:{{#var:new_serving}}
+:;(Quest resets)
+
+;(Talk to Hardworking Silio)
+:'''Hardworking Silio:''' Ugh, I'm starving... Why hasn't my order arrived yet?
+:{{DIcon}} Here's the dish you ordered.
+:'''Hardworking Silio:''' Oh, wonderful, I was starving!
+:'''Hardworking Silio:''' Thanks for delivering this hash brown to me.
+:;(Obtain [[Valberry]] ×3, [[Mora]] ×30,000)
+{{Dialogue end}}
+----
+===Day 2 &mdash; Sweet Madame===
+{{Dialogue start}}
+;(Talk to Sara)
+:{{#var:quest_start}}
+:'''Sara:''' Yup, you've come at just the right moment &mdash; I'd just finished preparing this Sweet Madame.
+:'''Sara:''' Wallit ordered it earlier, and requested that we deliver it to a location west of the [[Dawn Winery]] later in the day...
+:'''Sara:''' If you don't mind helping us out, could you take his order to him real quick?
+:{{DIcon}} I'll deliver it right now.
+::'''Sara:''' That would be great, thank you!
+::'''Sara:''' Please be careful while you make the delivery. {{Color|buzzword|Don't let any strange elements touch the food}}.
+::'''Sara:''' Also, {{Color|buzzword|do your best to avoid monsters, or they might knock the dish over}}.
+::'''Sara:''' Please hurry, this dish won't taste good if it gets cold.
+:;(Obtain [[Special Sweet Madame]] ×1)
+:{{DIcon}} I have other things to do.
+::'''Sara:''' Okay. I'll look for someone else to help out...
+:;(Quest resets)
+<!-- No quest-related dialogue for talking to Sara again. -->
+
+;(Upon failure via taking damage or elemental affection)
+:'''Paimon:''' Oh no! This dish doesn't look edible at all now...
+:'''Paimon:''' Let's go back to Sara and get a new one.
+:;(Quest resets)
+
+;(Upon failure via timeout)
+:'''Paimon:''' We've taken took long, this food's gone cold...
+:'''Paimon:''' Well, nothing to do but go back to Sara for a new serving.
+:;(Quest resets)
+
+;(Talk to Short-Tempered Wallit)
+:'''Short-Tempered Wallit:''' Why hasn't my order arrived yet... What's with all this dilly-dallying, anyway?
+:{{DIcon}} Here's the dish you ordered.
+:'''Short-Tempered Wallit:''' Ah, you're here. Thank you so much.
+:'''Short-Tempered Wallit:''' I need to chow this down fast &mdash; I still have business to attend to.
+:;(Obtain [[Philanemo Mushroom]] ×3, [[Mora]] ×30,000)
+{{Dialogue end}}
+----
+===Day 3 &mdash; Flaming Red Bolognese===
+{{Dialogue start}}
+;(Talk to Sara)
+:{{#var:quest_start}}
+:'''Sara:''' Right, I believe a certain... Angelo ordered &mdash; and paid for &mdash; a serving of our Flaming Red Bolognese.
+:'''Sara:''' After that, he asked that we deliver it to him near [[Brightcrown Canyon]]. But that's some distance away, and I don't have anyone I can send there...
+:'''Sara:''' If you're alright with it, could you help us deliver it to him?
+:{{DIcon}} I'll deliver it right now.
+::'''Sara:''' Thank you so much. It's much too far away, and we haven't the people to spare.
+::'''Sara:''' Ah, yes, please be careful while you travel. {{Color|buzzword|Don't run too fast or use your wind glider. You definitely shouldn't climb either...}}
+::'''Sara:''' If you takes<!--sic--> too many bumps along the way, the meat sauce and noodles might come apart... and if that happens, I don't think the customer will accept it.
+:;(Obtain [[Special Flaming Red Bolognese]] ×1)
+:{{DIcon}} I'd love to, but I have to get going.
+::'''Sara:''' Eh? But... Oh, alright, I'll get someone else to do it...
+:;(Quest resets)
+<!-- No quest-related dialogue for talking to Sara again. -->
+
+;(Upon failure via sprinting, gliding, climbing, or taking damage)
+:'''Paimon:''' Oh boy, this dish sure doesn't look edible anymore!
+:'''Paimon:''' Let's go back to Sara and get a new one.
+:;(Quest resets)
+
+;(Upon failure via timeout)
+:'''Paimon:''' We've taken took long, this food's gone cold...
+:{{#var:new_serving}}
+:;(Quest resets)
+
+;(Talk to Slacking Angelo)
+:'''Slacking Angelo:''' Sheesh, I wonder where my order's gone. And I'd gone through so much trouble to find a comfortable spot like this, too...
+:{{DIcon}} Here's the dish you ordered.
+:'''Slacking Angelo:''' Ah, you're finally here. If you'd taken any longer, I might have fallen asleep.
+:'''Slacking Angelo:''' Thank you, I'll just take this.
+:;(Obtain [[Adventurer's Experience]] ×4, [[Mora]] ×20,000)
+{{Dialogue end}}
+----
+===Day 4 &mdash; Tea Break Pancake===
+{{Dialogue start}}
+;(Talk to Sara)
+:{{DIcon|Quest}} I heard that someone placed a custom order...
+:'''Sara:''' That's right. Great timing, Traveler! Wallit ordered a stack of Tea Break Pancakes from us earlier/ Don't worry, he's already paid beforehand.
+:'''Sara:''' He wants us to bring it to a place south of [[Brightcrown Canyon]]...
+:'''Sara:''' But we've been getting more and more take-out orders lately for some reason, and we can barely keep up.
+:'''Sara:''' If you don't mind, could you help us with this delivery?
+:{{DIcon}} I'll deliver it right now.
+::'''Sara:''' Great! Thanks for helping.
+::'''Sara:''' Just remember {{Color|buzzword|not to get hit or run too fast}}. I don't think Wallit will accept Tea Break Pancakes that look all messed up.
+:;(Obtain [[Special Tea Break Pancake]] ×1)
+:{{DIcon}} I'd love to, but I have to get going.
+::'''Sara:''' Eh? Oh, alright then. I'll ask somebody else. I don't get it... Why is everybody ordering take-out lately?
+:;(Quest resets)
+<!-- No quest-related dialogue for talking to Sara again. -->
+
+;(Upon failure via sprinting or taking damage)
+:'''Paimon:''' Oh boy, this dish sure doesn't look edible anymore!
+:'''Paimon:''' Let's go back to Sara and get a new one.
+:;(Quest resets)
+
+;(Upon failure via timeout)
+:'''Paimon:''' We've taken took long, this food's gone cold...
+:'''Paimon:''' Well, nothing to do but go back to Sara for a new serving.
+:;(Quest resets)
+
+;(Talk to Short-tempered Wallit)
+:'''Short-Tempered Wallit:''' Why isn't it here yet? I have things to do, you know!
+:{{DIcon}} Here's the dish you ordered.
+:'''Short-Tempered Wallit:''' Oh, it's finally here, is it? Give it here &mdash; I have things to do and places to be.
+:'''Short-Tempered Wallit:''' I've heard that you can find suitable brewing ingredients around these parts...
+:;(Obtain [[Adventurer's Experience]] ×4, [[Mora]] ×20,000)
+{{Dialogue end}}
+----
+===Day 5 &mdash; Mondstadt Hash Brown===
+{{Dialogue start}}
+;(Talk to Sara)
+:{{DIcon|Quest}} I heard that someone placed a custom order...
+:'''Sara:''' Well, here's what happened. Silio ordered a serving of Mondstadt Hash Brown, and said that he'd like it delivered around this time.
+:'''Sara:''' This hash brown is particularly fragile. If you shake it too much, it might fall apart. {{Color|buzzword|Please deliver it in time}} so that it can maintain its crumbly mouthfeel.
+:'''Sara:''' If something happens to you out there, please bring that serving back and I'll prepare a new one for you.
+:{{DIcon}} Sure, I'll deliver it.
+::'''Sara:''' Great! Thanks for helping.
+::'''Sara:''' Please remember to {{Color|buzzword|avoid getting hit by any element}} while you're on your way. Be careful now, and don't get hurt.
+:;(Obtain [[Special Mondstadt Hash Brown]] ×1)
+:{{DIcon}} I've got some other things to do.
+::'''Sara:''' Oh, sure. I'll go get someone else to help. That said, it's been quite dangerous outside lately.
+:;(Quest resets)
+<!-- No quest-related dialogue for talking to Sara again. -->
+
+;(Upon failure via taking damage or elemental affection)
+:'''Paimon:''' Oh boy, this dish sure doesn't look edible anymore!
+:'''Paimon:''' Let's go back to Sara and get a new one.
+:;(Quest resets)
+
+;(Upon failure via timeout)
+:'''Paimon:''' We've taken took long, this food's gone cold...
+:'''Paimon:''' Well, nothing to do but go back to Sara for a new serving.
+:;(Quest resets)
+
+;(Talk to Hardworking Silio)
+:'''Hardworking Silio:''' So... hungry...
+:{{DIcon}} Here's the dish you ordered.
+:'''Hardworking Silio:''' Oh wow, thanks, you're finally here!
+:;(Obtain [[Adventurer's Experience]] ×4, [[Mora]] ×20,000)
+{{Dialogue end}}
+----
+===Day 6 &mdash; Mondstadt Grilled Fish===
+{{Dialogue start}}
+;(Talk to Sara)
+:{{DIcon|Quest}} I heard that someone placed a custom order...
+:'''Sara:''' That's right. Silio ordered another serving of Mondstadt Grilled Fish today before heading to [[Stormterror's Lair]]. Could you help us and deliver this to him real quick?
+:'''Sara:''' This serving of Mondstadt Grilled Fish {{Color|buzzword|can't come into contact with any strange elements}}, or it might end up tasting funny.
+:{{DIcon}} I'll deliver it right now.
+::'''Sara:''' That would be great, thank you!
+::'''Sara:''' Make sure you stay safe. {{Color|buzzword|Try not to get attacked by anything in the ruins, and remember not to run too fast}}, or the dish might fall out.
+::'''Sara:''' Please hurry, this dish won't taste good if it gets cold.
+:;(Obtain [[Special Mondstadt Grilled Fish]] ×1)
+:{{DIcon}} I've got other matters to settle right now.
+::'''Sara:''' Well, okay. I'll see who else I can get to take this commission.
+:;(Quest resets)
+<!-- No quest-related dialogue for talking to Sara again. -->
+
+;(Upon failure via sprinting, taking damage, or elemental affection)
+:'''Paimon:''' Oh boy, this dish sure doesn't look edible anymore!
+:'''Paimon:''' Let's go back to Sara and get a new one.
+:;(Quest resets)
+
+;(Upon failure via timeout)
+:'''Paimon:''' We've taken took long, this food's gone cold...
+:'''Paimon:''' Well, nothing to do but go back to Sara for a new serving.
+:;(Quest resets)
+
+;(Talk to Hardworking Silio)
+:'''Hardworking Silio:''' I'm so hungry...
+:{{DIcon}} Here's the dish you ordered.
+:'''Hardworking Silio:''' Great! This meal should give me enough energy to finally get out of this blasted place.
+:;(Obtain [[Windwheel Aster]] ×3, [[Mora]] ×30,000)
+{{Dialogue end}}
+----
+===Day 7 &mdash; Fisherman's Toast===
+{{Dialogue start}}
+;(Talk to Sara)
+:{{DIcon|Quest}}I heard that someone placed a custom order...
+:'''Sara:''' Yup, Wallit ordered some Fisherman's Toast today before heading off to the [[Stone Gate]] on the border between Mondstadt and Liyue.
+:'''Sara:''' Really, though, who orders take-out for finger food?
+:{{DIcon}} I'll deliver it right now.
+::'''Sara:''' Thanks, you're a lifesaver!
+::'''Sara:''' You might want to be careful while you deliver it. {{Color|buzzword|Don't touch any elements, and don't take too big a step}}, now.
+::'''Sara:''' You do have to be quick about it, though. Wallit's impatience is pretty well-known around here.
+:;(Obtain [[Special Fisherman's Toast]] ×1)
+:{{DIcon}} Sorry, but I'm busy right now.
+::'''Sara:''' It's fine, I can wait &mdash; turnabout is fair play, after all.
+:;(Quest resets)
+<!-- No quest-related dialogue for talking to Sara again. -->
+
+;(Upon failure via sprinting or elemental affection)
+:'''Paimon:''' Oh boy, this dish sure doesn't look edible anymore!
+:'''Paimon:''' Let's go back to Sara and get a new one.
+:;(Quest resets)
+
+;(Upon failure via timeout)
+:'''Paimon:''' We've taken took long, this food's gone cold...
+:'''Paimon:''' Well, nothing to do but go back to Sara for a new serving.
+:;(Quest resets)
+
+;(Talk to Wallit)
+:'''Short-Tempered Wallit:''' Come on, why isn't it here yet?
+:{{DIcon}} Here's the dish you ordered.
+:'''Short-Tempered Wallit:''' Finally! Thank you. Alright then, give it here. I still have work to do after this.
+:;(Obtain [[Adventurer's Experience]] ×4, [[Mora]] ×20,000)
+{{Dialogue end}}
+
+==Other Languages==
+{{Other Languages
+|en      = Good Hunter Express
+|zhs     = 猎鹿急送
+|zhs_rm  = Lièlù Jísóng
+|zht     = 獵鹿急送
+|zht_rm  = Lièlù Jísóng
+|zh_tl   = Good Hunter's Urgent Delivery
+|ja      = 鹿狩り配達
+|ja_rm   = Shikagari Haitatsu
+|ja_tl   = Good Hunter's Delivery
+|ko      = 디어 헌터 딜리버리
+|ko_rm   = 
+|ko_tl   = 
+|es      = El Buen Cazador Express
+|es_tl   = 
+|fr      = Livraison spéciale : Le Bon Chasseur
+|fr_tl   = Special Delivery: The Good Hunter
+|ru      = Охотник Экспресс
+|ru_tl   = Hunter Express
+|th      = ออเดอร์ด่วนของ Good Hunter
+|th_rm   = 
+|th_tl   = 
+|vi      = Gửi Cấp Tốc
+|vi_tl   = 
+|de      = Dringende Lieferung vom Hirschjäger
+|de_tl   = Urgent Delivery from the Deer Hunter
+|id      = Good Hunter Express
+|pt      = Express Delivery do Caçador de Cervos
+|pt_tl   = 
+}}

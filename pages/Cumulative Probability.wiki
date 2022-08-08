@@ -1,0 +1,167 @@
+{{Community}}
+{{Terminology Infobox
+|image        = Cumulative Probability (1-6).png
+|caption      = A curve showing what percentage of players we expect to have rolled a 6 at least once on a 6 sided die, after X rolls.
+|type         = Probability Theory
+|type2        = Game Systems
+}}
+{{w|Cumulative probability}} is a way to measure how likely a {{w|Random event}} has already occurred at least once after a certain number of tries, or '''''rolls'''''.
+
+==Motivating Example==
+For example, after rolling a 6-sided die once, the probability that a 6 has appeared at least one time is now <math>\tfrac{1}{6}</math>, or 16.66%. However, the probability after rolling a second time is '''''not''''' <math>\tfrac{2}{6}</math>. A good way to understand this is to imagine 100 '''''players''''' each with a 6-sided die. After one roll, the number of '''players''' who have rolled at least one 6 is about 17%, as noted above, so let's take those 17 players out of the game. Now only 83 '''players''' remain. Once they all roll a second time, we expect that another 16.66% of those players will have rolled a 6 &mdash; but, now that there are fewer players, the number who we have to remove is also smaller, at only around 13. Likewise at the third roll we only expect 11 or 12 new players to roll a 6, on the fourth roll only 9, 7 on the fifth roll, and so on. While the '''total''' number of players who have rolled at least one six '''increases''' each round, totaling 56.5% by round 5, the number of '''new''' players joining that group each round '''decreases''' in an exponential fashion.
+
+Specifically the probability of rolling a 6 at least once in x rolls is 1 minus the probability of not rolling a 6 at all:
+:<math>F(x) = 1 - (5/6)^x = 1 - e^{-r x}</math>
+where <math>r = -\ln(5/6)</math>.
+
+==Cumulative probability function==
+To express this phenomenon mathematically, we can use the following formula:<ref>Wikipedia: {{w|Cumulative_distribution_function#Examples|Cumulative Distribution Function}}</ref><!-- This assumes the exponential distribution, which is continuous, and therefore slightly off. You can't have 0.5 or 1.7 or 22.3 rolls of the dice, after all. The correct distribution for this task would be the Poisson distribution, which is discrete. However, both functions follow the same curve, and it's easier to understand and use the exponential distribution.  -->
+<math>F(x;r) = \begin{cases}
+
+1-e^{-r x} & x \ge 0, \\
+
+0 & x < 0.
+
+\end{cases}</math>
+
+where <math>F(x;r)</math> is the '''cumulative probability''' that an event has already occurred, <math>r</math> is the '''rate''' at which that event occurs, and <math>x</math> is the number of '''rolls''' that have occurred so far. Negative rolls are meaningless by definition, so the probability function is always zero there.
+
+In order to make sense of this formula, it's useful to rearrange it. Most of the time, we're interested in knowing which value <math>x</math> gives a particular  cumulative probability. This is useful in that it tells us how many rolls are required before an event is likely to have occurred. We may want to know how many rolls before it reaches 50%, 90%, or 99%, or any other arbitrary value. The formula can be rearranged into the following to give us this result:
+
+<math>x = r^{-1}\ln\left ( \frac{1}{1-y} \right )\quad \text{for} \quad 0<y<1</math>
+
+Where <math>x</math> is the number of rolls required to reach <math>y</math>, which can be thought of as a level of certainty that an event will have already happened at least once, expressed as a fraction of 1. So, for a <math>y</math> value of 0.5, you would expect that if 100 people "rolled a dice" <math>x</math> number of times, 50 of them would have encountered the outcome you're interested in (the one with probability <math>r</math>) at least once. For example, the number of rolls required to get a certain cumulative chance (some given <math>y</math> value) by rolling "one" on a few common dice sizes, as found using this formula, are as follows:
+
+{| class="wikitable mw-collapsible mw-collapsed"
+! colspan="5" |Number of rolls required to obtain a given cumulative probability on several different sizes of dice
+|- align="center"
+!Type of Dice!!50%
+Cumulative Chance
+
+(y = 0.5)
+!90%
+Cumulative Chance
+
+(y = 0.9)
+!99%
+Cumulative Chance
+
+(y = 0.99)
+!Graph
+|- align="center"
+| 6-sided dice
+|4.16
+|13.82
+|27.63
+| rowspan="5" |[[File:Cumlative probability 5 dice.png|thumb|416x416px|5 curves, one for each dice, showing their cumulative probability as the number of rolls increase]]
+|- align="center"
+|8-sided dice
+|5.54
+|18.42
+|36.84
+|- align="center"
+|10-sided dice
+|6.93
+|23.03
+| 46.05
+|- align="center"
+|20-sided dice
+|13.86
+| 46.05
+|92.10
+|- align="center"
+|100-sided dice
+|69.31
+|230.26
+|460.52
+|}
+
+==Examples in Genshin Impact==
+===Wish System===
+Genshin Impact's [[wish]] system is a series of random events, made up of numerous results that each have a unique probability of occurring every time a wish is made. This means that we can apply the mathematical model developed above to determine interesting values, such as how many wishes it would take before 50% of players have obtained a given result. In order to do this, let's first break down what happens each time a wish is made. First, the rarity of the wish is determined- being 5*, 4* or 3*. Once the rarity has been determined, one of the items from the specified loot table is selected, and that item is the final result of the wish. To determine the rate of a ''specific'' item within a table, we need only divide the rate at which the table appears by the number of items in that table. For a more detailed treatment of the rates of items in specific rarity tiers in all of the different wish banners, see the page on [[Wishes/Expanded Wish Probabilities|expanded wish probabilities]].
+{| class="wikitable"
+!Item
+(Standard Wish)
+!Base Rate
+(Any Character or Weapon)
+!Pool Size
+!Unique Item Rate
+(Specific Character or Weapon)
+|- align="center"
+|5-Star Character
+|0.3%
+|5
+|0.04%
+|- align="center"
+|5-Star Weapon
+|0.3%
+| 10
+|0.02%
+|- align="center"
+|4-Star Character
+|2.6%
+|18
+|0.14%
+|- align="center"
+|4-Star Weapon
+|2.6%
+|18
+|0.14%
+|- align="center"
+|3-Star Weapon
+|94.3%
+| 13
+| 7.254%
+|}
+Using these rates, we can then determine how many rolls are required to reach a certain cumulative probability of having acquired a certain item at least once.
+
+====Incorporating Pity Rates====
+However, the base rates for four-star and five-star items do not actually tell the full story. [[Wishes#Rules|Pity Rates]], or Guarantees, can affect the calculation dramatically. Essentially, they make the cumulative probability function '''''discontinuous''''' by changing the rate that items appear at periodically, so long as no item of the specified tier has been summoned after enough rolls. There are several ways to compensate for this. In the game, a second rate- called the '''''Average Rate, including guarantees''''', is displayed next to the base rate. One could replace the base rate with this adjusted average rate, and the results would be more accurate. The more accurate approach would be to use the base rate, but to segment the function at the intervals at which pity rates occur. However, this has the undesirable result of requiring more computation and creating a discontinuous function. It also looses some precision when working with sub-category probabilities, as some portion of players who reach the pity rate threshold will have already summoned an item from the desired tier, thereby resting the pity counter, but not the desired item; and, it is not trivial to then add discontinuous pity steps at each subsequent roll to estimate when the counter might have been reset. Therefor, a pure analytical solution is not possible &mdash; you can only calculate a rough upper or lower bound analytically.
+
+The most desirable result would be a full computational simulation which could then be compared to the various analytical methods.
+
+====Event Characters====
+=====5-Star Promotional Event Character=====
+[[File:Cumulative Probability 5star Banner.png|thumb|299x299px|The chances of already having summoned the 5* banner character. Note that this analytical solution assumes that everyone who receives a pity summon receives it either on the 90th or 180th summon, which may not be true in practice.]]
+For a promotional 5-star event Character, the base rate is 0.3% (base five star rate divided by two, as there is a 50% chance to summon the 5-star event character each time a 5-star summon occurs). There is also a pity mechanic in place, such that if a 5-star summon has not occurred within 89 summons, the following summon is guaranteed to be a 5 star summon. Combined, these two pity mechanics ensure that at most, 180 wishes are required to summon a promotional 5-star character. An analytical solution that ignores the first pity mechanic (the guarantee) can be seen in the following graph.
+
+The reason this analytical solution ignores the guarantee, is that it changes the rate at which events occur (from 0.3% of the time, half of all 5* pulls, to 0.6% of the time, 100% of all 5* pulls). The way in which this affects the rate at which the events occur in practice is not trivial: it's obvious that at the first roll, the rate will be 0.3% for everyone, and that by the 90th roll, the rate will be 0.6% for all remaining players. However, to determine how the average rate changes over the first 89 rolls would require solving a differential equation. However, we can avoid it altogether, and get a more accurate result, by preforming a simulation.
+
+As has been explained, the pity mechanics make it very difficult to find a meaningful analytical solution to our problem. To overcome this, we can preform a simulation of a large number of rolls, and analyze the results empirically, or compare it to our analytical solution. Because the number returned by the cumulative probability function <math>F(x;r) = 1-e^{-r x}</math> represents the percentage of a given population that we expect to have experienced an outcome at least once after <math>x</math> number of rolls, we can simulate the results of this function by taking a large "population" of simulated individuals, and rolling with each one until they reach the desired outcome or the maximum number of rolls. We then add the number of people who reached the result at any given step to those who have already reached the result, creating a curve that shows when each member of our population reached the desired result. Below you can see the respective curves of two such simulations, one with ten thousand simulated individuals, the other with one hundred.
+
+<gallery hideaddbutton="true" captionalign="center">
+GenshinSim10k.png|This simulation contained 10 000 "individuals". Each one rolled random numbers until they obtained the 5* banner character, taking into account both the guarantee that the second 5* pulled will be the banner character, and the 90-roll pity rule.
+GenshinSim100.png|This graph shows the same information, but for ten runs of only 100 simulated individuals. Here, the curves are visibly jagged, and each is substantially different from the last, as the random nature of the simulation hasn't been "spread out" over quite as many samples.
+</gallery>
+
+The big takeaway from these simulations is the following:
+
+*The analytical solution is an under-estimate most of the time, showing almost 30% of the population reaching the second pity, while the simulations show only around 20% of simulated individuals will make it all the way to the 180th wish/roll without having received the 5* banner character at least once. This happens mostly because we don't account for the change in the rate, from 0.3% to 0.6%.
+*The analytical solution shows a larger portion of the population receiving their pity on the 90th roll (close to 60%) than actually do (closer to 55% in the simulations). This is the only case of an over-estimate in the analytical solution, and it happens because we don't account for people who may have received a 5* (but not the banner character) at some point between the 1st and 90th rolls, and thus aren't eligible for pity on the 90th roll. You'll see, however, that the curve in the simulations increases much more quickly after the 90th roll, because these individuals are receiving their own pity slightly later on than everyone else.
+*Even in a simulation environment, there are still large spikes at the 90th and 180th wishes. This is because large portions of the simulated population are triggering the pity mechanic; pity, which triggers after 90 unsuccessful wishes, occurs when we expect only around 30% of the population to have summoned any 5* at all. This means that when a player goes all the way to pity, they aren't "unlucky" if we define being lucky as reaching the desired result before 50% of other participants in a given population. Around two-thirds of players will always reach pity. This is what makes the '''''Average Rate, including guarantees''''', deceptive. While this rate is the average over a large number of rolls, if you implement a stopping rule (a player stops rolling after obtaining the desired item), the actual rate is always lower (because, unless you end on a pity roll, there will always be some pity you did not reach).
+*Notably, an approximate 20% of the population will not receive the 5* banner character until the 180th roll. This means, that if you commit to rolling until you obtain a certain banner character, you have a one-in-five chance of "going all the way" to second pity. Similarly, there is about a one-in-five chance that you will pull the character in between rolls 1 and 89; and of the remaining three-fifths of the time, you will pull the character either on the first pity, or between rolls 91 and 179, split about evenly.
+
+=====4-Star Promotional Event Character=====
+Solving the probability densities for the 4-Star characters is, in general, more complicated than the 5-Star characters. This is because the pool of characters is larger, there are always weapons in the pool, and there is no guarantee of obtaining some particular 4-Star character. However, in order to solve the cumulative probability of obtaining at least one of ''any'' 4-Star event character, the process is the same as for the 5-Star event character, but with different rates in the formulas. So, this information is relatively easy to obtain (we need only repeat the steps above). For 4-Star characters, we are also more likely to be interested in how ''many'' of them we are likely to obtain over some fixed amount of wishes, usually 90 or 180; because, in the context of obtaining a 5* character, they are bonus rewards. So, we'll examine this problem as well.
+<br />
+======Any 4-star event Character======
+[[File:Genshin4starSim10k.png|alt=The graph shows a sharp curve that spikes at wish number 10 and 20. The curve's shape resembles the 5* character curve very closely, with slightly less than 20% of individuals reaching second pity, and just over 55% of the population having received the character by the end of the first pity.|thumb|391x391px|This is a simulation, with n=10 000, of individuals rolling on the event banner who have received at least one 4* banner character.]]
+If we are not concerned about obtaining one particular 4-Star character, the math is much simpler. If we are interested in how many wishes it will take to obtain at least one 4-Star character, the formulas are the same as for the 5-Star character, but the rates are slightly different. To the right is a graph of a simulation with 10 000 individuals, with the rates and the pity counter adjusted to reflect the 4-Star characters.
+
+As expected, the curve is very similar to the curve for the 5-Star event character, but over a much smaller number of wishes. The pity cut-offs happen at very similar population percentages, however, which is not a trivial result; this indicates that the rates and pity counts where chosen intentionally to cut off at the same expected percentage of the population (around 30%) for both 5-Star and 4-Star items.
+
+======One particular 4-star event Character======
+====Wanderlust Characters====
+====Event Weapons====
+===Bosses and Domains===
+
+==Properties of the Cumulative Probability Function==
+===Rate-Independent Convergence===
+===Luck and the Gambler's Fallacy===
+====Relationship to Monetization====
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Community Navbox}}

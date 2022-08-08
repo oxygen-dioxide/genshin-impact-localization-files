@@ -1,0 +1,116 @@
+{{See also|Damage#Elemental Reaction Damage}}
+{{Terminology Infobox
+|image        = Icon Attribute Elemental Mastery.png
+|type         = Attributes
+|type2        = Combat
+|type3        = Game Systems
+}}
+'''Elemental Mastery''' is an [[attribute]] that enhances [[Elemental Reactions]].
+
+For [[Overloaded]], [[Superconduct]], [[Electro-Charged]], [[Burning]], [[Shattered]] and [[Swirl]], Elemental Mastery increases reaction DMG; For [[Melt]] and [[Vaporize]], Elemental Mastery adds an additional DMG multiplier to attacks that trigger these reactions; For [[Crystallize]], Elemental Mastery increases the DMG absorption of shields created through this reaction.
+
+Elemental Mastery can be increased by equipping [[artifacts]] or [[weapons]] that provide a bonus to Elemental Mastery. Additionally, some characters, such as [[Lisa]], gain Elemental Mastery by raising their character level. Other characters, such as [[Sucrose]], can boost their party's Elemental Mastery by triggering their ascension passives.
+
+==Elemental Mastery Formula==
+{{See also|Damage#Elemental Reaction Damage}}
+The higher a character's elemental mastery, the stronger the elemental reactions the character can release.
+The <math>\% \text{EM Bonus}</math> is calculated depending on the reaction:
+*Increases damage of [[Vaporize]] and [[Melt]] by '''X %'''.
+*Increases damage of [[Overloaded]], [[Superconduct]], [[Electro-Charged]], [[Shattered]], and [[Swirl]] by '''Y %'''.
+*Increases damage absorption of shields created by [[Crystallize]] by '''Z %'''.
+*Where '''X''', '''Y''', and '''Z''' are:<ref>NGA: [https://bbs.nga.cn/read.php?tid=23715498 1053EM Testing]</ref><ref>NGA: [https://bbs.nga.cn/read.php?tid=23633102 <nowiki>[心得交流]</nowiki> 伤害加成公式以及类型汇总(攻速有待测试)(更新1.6精通公式)] (use Ctrl+F to search "元素精通" for fast positioning)</ref><ref>KeqingMains Theorycrafting Library: [https://library.keqingmains.com/mechanics/combat/elemental-reactions/transformative-reactions Transformative Reactions]</ref>
+
+:<math>X = 2.78 \times \frac{\text{EM}}{\text{EM}+1400} </math>
+:<math>Y = 1600 \times \frac{\text{EM}}{\text{EM}+2000} </math>
+:<math>Z = 444 \times \frac{\text{EM}}{\text{EM}+1400} </math>
+
+These values are used in damage or shield health calculations as:
+:<math>\text{Reaction Multiplier} = (1 + \% \text{ EM Bonus} + \% \text{ Reaction Bonus})</math>
+
+==Character Ascensions==
+{{Characters by Ascension Stat Table|Elemental Mastery}}
+
+Starting from Ascension 2, for 5 star characters 28.8 EM is gained per Ascension whereas for 4 star characters 24 EM is gained per Ascension.
+
+==Increasing Elemental Mastery==
+===Artifacts===
+{{Artifacts by Category Table|Elemental Mastery Artifacts}}
+
+===Weapons===
+====Substat====
+The following weapons have Elemental Mastery as a substat.
+{{Weapons by Category Table|Elemental Mastery Substat Weapons}}
+
+====Passives====
+The following weapons have Elemental Mastery as a part of their passive effect.
+{{Weapons by Category Table|Elemental Mastery Passive Weapons}}
+
+==Increasing Party Elemental Mastery==
+===Talents===
+{{Talents by Category Table|Party Elemental Mastery Talents}}
+
+===Constellations===
+{{Constellations by Category Table|Party Elemental Mastery Constellations}}
+
+===Artifacts===
+{{Artifacts by Category Table|Party Elemental Mastery Artifacts}}
+
+===Weapons===
+{{Weapons by Category Table|Party Elemental Mastery Passive Weapons}}
+
+==Scaling==
+===Talents===
+{{Talents by Category Table|Elemental Mastery Scaling Talents}}
+
+===Constellations===
+{{Constellations by Category Table|Elemental Mastery Scaling Constellations}}
+
+==See also==
+* [[Damage#Elemental Reaction Damage|Damage]] for more details on elemental reaction damage
+
+==Other Languages==
+{{Other Languages
+|en       = Elemental Mastery
+|zhs      = 元素精通
+|zhs_rm   = Yuánsù Jīngtōng
+|zht      = 元素精通
+|zht_rm   = Yuánsù Jīngtōng
+|zh_tl    = Element Proficiency
+|ja       = 元素熟知
+|ja_rm    = Genso Jukuchi{{Assumed}}
+|ja_tl    = Element Familiarity
+|ko       = {{tt|원소|元素}} 마스터리
+|ko_rm    = Wonso Maseuteori
+|ko_tl    = Element Mastery
+|es       = Maestría Elemental
+|es_tl    = Elemental Mastery
+|fr       = Maîtrise élémentaire
+|fr_tl    = Elemental Mastery
+|ru       = Мастерство стихий
+|ru_tl    = 
+|th       = ความชำนาญธาตุ
+|th_rm    = Khwam Chamnan Thatu
+|th_tl    = Elemental Mastery
+|vi       = {{tt|Tinh Thông|精通}} {{tt|Nguyên Tố|元素}}
+|vi_tl    = Element Proficiency
+|de       = Elementarkunde
+|de_tl    = Elemental Studies
+|id       = Elemental Mastery
+|pt       = Proficiência Elemental
+|pt_tl    = Elemental Proficiency
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox|state=collapsed}}
+{{Element Navbox|state=collapsed}}
+{{Attribute Navbox}}
+
+[[es:Maestría Elemental]]
+[[pt-br:Proficiência Elemental]]
+[[uk:Майстерність стихій]]

@@ -1,0 +1,223 @@
+{{Enemy Infobox
+|title    = Bathysmal Vishap Herd
+|image    = Enemy Bathysmal Vishap Herd.png
+|element  = Cryo
+|element2 = Electro
+|type     = Normal Bosses
+|family   = Mystical Beasts
+|group    = Bathysmal Vishaps
+|location = [[Dainichi Mikoshi]], [[Enkanomiya]]
+|ability1 = Invincibility Frames
+|ability2 = Geo Construct
+|ability3 = Energy Drain
+|ability4 = HP Loss
+|drops    = Dragonheir's False Fin
+}}
+{{Description|A powerful group of Bathysmal Vishaps.<br />They have been specifically bred and selected by the people of Enkanomiya, which has given them their exceptional strength. Of course, no vishap would consider this some sort of debt to be repaid.<br />The strongest members of the herd can use different elements, which they wield as a show of their hatred.|[[Adventurer Handbook]]}}
+{{Enemy Intro|plural=yes|subtitle=Bathysmal Vishap Herd}} The herd consists of a particularly powerful [[Bolteater Bathysmal Vishap]] and [[Rimebiter Bathysmal Vishap]]. In order to challenge the '''Coral Defenders''', the player must have completed [[The Subterranean Trials of Drake and Serpent]] [[World Quest]].
+
+==Rewards==
+{{World Boss Rewards
+|gem         = Shivada Jade,Vajrada Amethyst
+|exclusive   = Dragonheir's False Fin
+|sets        = Lucky Dog,The Exile,Berserker,Prayers to Springtime
+}}
+
+==Stats==
+{{Enemy Stats
+|res1         = Rimebiter
+|phys_res     = 30%
+|cryo_res     = 30%
+
+|res2         = Bolteater
+|phys_res2    = 30%
+|electro_res2 = 30%
+
+|res_title = 
+|hp_ratio  = 12
+|hp_type   = 2
+|atk_ratio = 5
+}}
+
+==Abilities and Attacks==
+''Attack names are unofficial except for Cleansing Shower.''
+
+===Shared===
+*'''Cleansing Shower:''' Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''5% ATK''' as {{Color|Cryo DMG}} or {{Color|Electro DMG}} and drains 30 [[Energy]] from the active character. If the active character has less than 30 Energy, the rest of the drain is converted to [[HP Loss]].
+** The HP Loss is calculated as:<br /><math>\text{HP Loss} = ( 17 \% \times \text{Character Max HP} + 600 ) \times ( 1 - \frac{\text{Remaining Energy}}{30} )</math>
+*'''Spike Field:''' One of the vishaps plugs its tail into the ground, creating a large field, within which ice shards or Electro Energy frequently spike from the ground at random locations, dealing '''60% ATK''' as {{Color|AoE Cryo DMG}} or {{Color|AoE Electro DMG}}. If a player is within the field, a spike will appear at the player's exact location every 2 seconds up to three times.
+**If both vishaps are on the arena, only the Rimebiter Vishap can use the Spike Field attack. The Bolteater Vishap will not use this attack until the Rimebiter Vishap reaches critical health.
+*'''Spinning Sweep:''' Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|AoE Cryo DMG}} or {{Color|AoE Electro DMG}}.
+*'''Homing Shards:''' Shoots three shards from the tip of their tails, which home towards the player at high speed, dealing '''30% ATK''', '''15% ATK''', '''7.5% ATK''' respectively as {{Color|Cryo DMG}} or {{Color|Electro DMG}}.
+*'''Leap:''' Leaps to reposition, dealing {{Color|AoE Physical DMG}} upon landing.
+*'''Critical Assist:''' After '''Double Beams''', the vishap at critical health jumps into nearby water and swims around the arena, and periodically launches waves of 3 shards that home towards the player, dealing '''30% ATK''', '''15% ATK''', '''7.5% ATK''' respectively as {{Color|Cryo DMG}} or {{Color|Electro DMG}} on hit.
+
+====Preview====
+{{Preview
+|size=185px
+|file1=Bathysmal Vishap Herd Cleansing Shower
+|caption1=Cleansing Shower
+
+|file2=Bathysmal Vishap Herd Cleansing Shower Energy Drain
+|caption2=Cleansing Shower (Energy Drain)
+
+|file3=Bathysmal Vishap Herd Cleansing Shower HP Drain
+|caption3=Cleansing Shower (HP Drain)
+
+|file4=Bathysmal Vishap Herd Spike Field Rimebiter
+|caption4=Spike Field ({{Color|Cryo|Rimebiter}})
+
+|file6=Bathysmal Vishap Herd Spike Field Bolteater
+|caption6=Spike Field ({{Color|Electro|Bolteater}})
+
+|file7=Bathysmal Vishap Herd Spinning Sweep
+|caption7=Spinning Sweep ({{Color|Cryo|Rimebiter}})
+
+|file8=Bathysmal Vishap Herd Spinning Sweep Bolteater
+|caption8=Spinning Sweep ({{Color|Electro|Bolteater}})
+
+|file9=Bathysmal Vishap Herd Homing Shards Rimebiter
+|caption9=Homing Shards ({{Color|Cryo|Rimebiter}})
+
+|file10=Bathysmal Vishap Herd Homing Shards
+|caption20=Homing Shards ({{Color|Electro|Bolteater}})
+
+|file11=Bathysmal Vishap Herd Critical Assist Rimebiter
+|caption31=Critical Assist ({{Color|Cryo|Rimebiter}})
+
+|file12=Bathysmal Vishap Herd Critical Assist Bolteater
+|caption22=Critical Assist ({{Color|Electro|Bolteater}})
+}}
+
+===Combo===
+*'''Rapid Fire:''' The vishaps connect their tails and fire a barrage of alternating {{Cryo}} and {{Electro}} shards at the player, each dealing '''20% ATK''' or '''10% ATK''' as {{Color|Cryo DMG}} or {{Color|Electro DMG}}.
+*'''Double Beams:''' Once one of the vishaps reaches critical health, both vishaps join their tails at the center of the arena, forms a circular field below them that randomly and rapidly deals '''100% ATK''', '''50% ATK''', '''25% ATK''', '''10% ATK''' as {{Color|AoE Cryo DoT}} and {{Color|AoE Electro DoT}} simultaneously, and each fires a laser beam from its mouth, raking across the arena, randomly and rapidly dealing '''100% ATK''', '''50% ATK''', '''25% ATK''', '''10% ATK''' as {{Color|Cryo DMG}} or {{Color|Electro DMG}} to players caught in the beam and destroying all walls in the process.
+
+====Preview====
+{{Preview
+|size=185px
+|file1=Bathysmal Vishap Herd Rapid Fire
+|caption3=Rapid Fire
+
+|file2=Bathysmal Vishap Herd Double Beams
+|caption2=Double Beams
+}}
+
+===Rimebiter-Exclusive===
+*'''Slash Combo:''' If the player is within melee range, the Rimebiter Vishap performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
+
+====Preview====
+{{Preview
+|size=185px
+|file1=Bathysmal Vishap Herd Slash Combo
+|caption2=Slash Combo
+}}
+
+===Bolteater-Exclusive===
+*'''Assist:''' If a wall is intact, the Bolteater Vishap climbs up a wall and repeatedly launches '''Cleansing Shower''' orbs at the player. Orbs launched this way have the same Energy or HP draining effects, although with a minor homing property and a slower travel speed.
+**Destroying the wall will cause the vishap to fall, temporarily incapacitating it.
+
+====Preview====
+{{Preview
+|size=185px
+|file1=Bathysmal Vishap Herd Assist
+|caption3=Assist
+
+|file2=Bathysmal Vishap Herd Assist Incapacitated
+|caption2=Assist (Incapacitated)
+}}
+
+===Spiral Abyss===
+In the [[Spiral Abyss]], the Coral Defenders lose the '''Assist''' and '''Critical Assist''' attacks, but gain the following ability:
+*'''[[Paired Opponents|Revival]]:''' A visible link connects the two Vishaps. If one Vishap's HP reaches 0 and the other Vishap is not defeated within the next 10 seconds, the defeated Vishap will be revived with 40% of its Max HP.
+
+====Preview====
+{{Preview
+|size=185px
+|file=Bathysmal Vishap Herd Soul Link
+|caption=Revival
+}}
+
+==Strategy==
+Dodging attacks or having characters with high [[Energy/Energy Recharge|Energy Recharge]] is beneficial for this fight as having low Energy can prove to be fatal if the player cannot dodge their Cleansing Shower attacks. In order to end the encounter, both vishaps' health must be fully depleted.
+
+At the start of the fight, the vishaps will first use '''Cleansing Shower''' simultaneously, '''Leap''' to the other side of the arena, and use '''Rapid Fire'''.
+
+After the starting sequence, the {{Color|Electro|Bolteater}} will jump up a nearby wall and enter '''Assist''' state, spewing Energy-draining orbs as its only attack while the {{Color|Cryo|Rimebiter}} alternates between '''Cleansing Shower''', '''Spinning Sweep''', and '''Spike Field'''. If the wall that the {{Color|Electro|Bolteater}} is hung on is destroyed, the vishap will tumble onto the ground and be incapacitated for several seconds. [[Blunt Attack]]s are effective against the walls. Note that while in close proximity of the {{Color|Electro|Bolteater}}, the player may be easily struck by its Energy-draining attacks if careless.
+
+Alternatively, simply attack the {{Color|Cryo|Rimebiter}} while dodging or using tall {{Color|[[Geo Constructs]]}} to block the {{Color|Electro|Bolteater's}} attacks, as forcing the {{Color|Cryo|Rimebiter}} into the '''Critical Assist''' state will end the {{Color|Electro|Bolteater's}} '''Assist''' state.
+
+If all three walls are destroyed but both vishaps still have health or for a short period of time after the {{Color|Electro|Bolteater}} recovers from its incapacitated state, they will both fight on foot and use their '''Cleansing Shower''' attacks, while the {{Color|Cryo|Rimebiter}} remains the only one that can use '''Spinning Sweep''' and '''Spike Field'''. They will also occasionally use '''Rapid Fire'''.
+
+Upon one of the vishap's health being fully depleted, they will immediately leap to the center and perform '''Double Beams''', after which the vishap at critical health will enter '''Critical Assist''' state.
+
+If the {{Color|Cryo|Rimebiter}} reaches critical health and the {{Color|Electro|Bolteater}} remains, the {{Color|Electro|Bolteater}} will gain the ability to use '''Homing Shards''', '''Spinning Sweep''', and '''Spike Field''', along with its previous '''Cleansing Shower''' attack.
+
+==With Sleet and Storm==
+{{Description|The crownless kings of Enkanomiya await the challenge of a true hero.<br />Defeat the Rimebiter Bathysmal Vishap and the Bolteater Bathysmal Vishap to prove your valor.}}
+[[File:With Sleet and Storm.png|400px]]
+
+==Event Variant==
+{{Main|The Call of Ice and Thunder}}
+
+==Achievements==
+{{Achievement Topic Table|topic=Coral Defenders}}
+
+==Trivia==
+*Despite being a herd which would consist of numerous members, this challenge only consists of two boss enemies.
+**This also makes it the first normal boss challenge that doesn't consist of a single, unique enemy. The other such challenge, the [[Dual Maguu Kenki]], is only a variant of the [[Maguu Kenki]] challenge, and is only found in events and the [[Spiral Abyss]].
+*The Coral Defenders are the only Normal Boss with their own battle music, consisting of a remix of [[Beats of Water Drops]].
+*The Coral Defenders are the only Normal Boss that lacks an archive entry. Rather, the [[Bolteater Bathysmal Vishap]] and [[Rimebiter Bathysmal Vishap]] have their own archive entries.
+*If the Coral Defenders are killed with one of them in a Critical Assist state, the vishap in that state will simply disappear with no death animation played.
+*The walls in the boss fight used for skills such as Assist are considered {{color|Geo Constructs}}.
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Bathysmal Vishap Herd Icon.png|Icon
+</gallery>
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/GKiT4v5WmJw
+|caption2 = How to Easily Beat the Bathysmal Vishap Herd
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Bathysmal Vishap Herd
+|zhs     = 深海龙蜥之群
+|zhs_rm  = Shēnhǎilóngxī zhī Qún
+|zh_tl   = Bathysmal Vishap Herd
+|zht_rm  = Shēnhǎilóngxī zhī Qún
+|zht     = 深海龍蜥之群
+|ja      = アビサルヴィシャップの群れ
+|ja_rm   = Abisaru Vishappu no Mure
+|ja_tl   = Abyssal Vishap Herd
+|ko      = 심해 용 도마뱀 무리
+|ko_rm   = Simhae Yong Domabaem Muri
+|ko_tl   = Abyssal Dragon-Lizard Herd
+|es      = Manada de Dragartos de las Profundidades
+|es_tl   = Herd of Dragards of the Depths
+|es_note = ''Dragarto'' is a portmanteau of {{Lang|mini=1|es=''dragón''|es_tl=dragon}} and {{Lang|mini=1|es=''lagarto''|es_tl=lizard.}}
+|fr      = Harde d'Élémentosaures abyssaux
+|fr_tl   = Abyssal Elementosaurus Herd
+|ru      = Стая вишапов глубин
+|ru_tl   = 
+|th      = Bathysmal Vishaps Herd
+|vi      = Đàn Rồng Biển Sâu
+|vi_tl   = Deep Sea Dragon Herd
+|de      = Tiefsee-Drachenechsen-Herde
+|de_tl   = Deep Sea Dragon-Lizard Herd
+|id      = Bathysmal Vishaps Herd
+|pt      = Bando de Dragartos das Profundezas
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|2.4}}
+
+==Navigation==
+{{Enemy Navbox|bosses}}
+
+[[pt-br:Bando de Dragartos das Profundezas]]
+[[es:Manada de Dragartos de las Profundidades]]

@@ -1,0 +1,127 @@
+{{Talent Infobox
+|image         = Talent Niwabi Fire-Dance.png
+|character     = Yoimiya
+|type          = Elemental Skill
+|info          = Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.<br /><br />'''Niwabi Enshou'''<br />During this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and [[Elemental Infusion|converted]] to {{Color|Pyro DMG}}.<br />During this time, Normal Attack: [[Firework Flare-Up]] will not generate Kindling Arrows at Charge Level 2.<br /><br />This effect will deactivate when Yoimiya leaves the field.
+|energyGen     = This skill generates '''1''' Elemental Particle when hit an enemies with a buffed attack; with a cooldown of 2 seconds.
+|particles     = 1×4
+|CD            = 18s
+|duration      = 10s
+|attr1         = Blazing Arrow DMG
+|value1        = 137.9%-170.6% Normal Attack DMG
+|utility1      = Elemental Conversion
+|utility2      = Requires Staying on Field
+|utility3      = Multiplicative DMG Increase
+|utility4      = Normal Attack DMG Increase
+}}
+{{Description|"Niwabi" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preperation has made it a real hit. After many fire-related incidents, the [[Tenryou Commission]] ordered the use of "Niwabi" banned, but small bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.}}
+'''Niwabi Fire-Dance''' is [[Yoimiya]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{TalentNote|particles|a converted attack|1}}
+** This particle generation has a cooldown of 2 seconds.
+** It can generate a total of '''4''' [[Elemental Particle]]s through its whole duration.
+* The talent scaling number is multiplicative with her Normal Attack damage. It is a separate independent multiplier from [[Damage Bonus]], CRIT, reactions, etc. is calculated using the following formula:<br /><math>\begin{align} & \text{Outgoing DMG} = \\ & \left[ \left( \text{ATK} \right) \times \left( \% \text{ Normal Attack}   \right) \times \left( \% \text{ Blazing Arrow DMG}   \right) + \left( \text{Flat DMG Bonus} \right) \right] \\ &\times \left( 1 + \% \text{ DMG Bonus}  \right) \end{align}</math>
+* Blazing Arrows do not burn grass unless at least two of them (which can be from the same attack in her Normal Attack sequence) land in the same place in a short period of time.
+* The cooldown of the skill starts when the skill is used. There is an 8-second downtime after the skill duration ends before the skill can be activated again.
+* Activation of this skill does not apply {{Pyro}} to nearby targets, but it may act like a {{Pyro}} application for certain objects. Activating this skill will melt [[Dragonspine#Ice Blocks|snow-covered ice blocks]] in Dragonspine, allow [[Mist Flower]]s to be harvested, set off Exploding Pyro Flowers, light torches, and explode [[Electro Crystal]]s. There is also a visual {{Pyro}} effect but no elemental reaction when activating this skill next to [[Dendro Vines]] and enemies. There is no reaction at all when activating this skill next to regular ice blocks, {{Cryo}} shields, [[Exploding Barrel]]s, or regular barrels and crates.
+* Activation of this skill next to the [[Unusual Hilichurl]] will [[aggravate]] it. (There is no {{Pyro}} application.)
+* Activation of this skill such that it contacts [[wildlife]] (possible with passives such as [[Sayu]]'s [[Yoohoo Art: Silencer's Secret]]) will [[startle]] them but will not kill them.
+* Activating this skill can also pop [[Mona]]'s [[Illusory Bubble]] and may stagger enemies next to Yoimiya, indicating that activation does some [[poise]] damage.
+* {{TalentNote|character=Yoimiya|talent=Niwabi Fire-Dance|ascension|1|Tricks of the Trouble-Maker}}
+
+;<big>Constellation Effects</big>
+*{{TalentNote|constellation|3|Trickster's Flare}}
+*{{TalentNote|constellation|4|Pyrotechnic Professional}}
+*{{TalentNote|constellation|6|Naganohara Meteor Swarm}}
+
+==Preview==
+{{Preview
+|file1=Niwabi Fire-Dance Press Preview
+|caption1=Activate
+
+|file2=Niwabi Fire-Dance Normal Preview
+|caption2=Normal Attack In Niwabi Enshou State
+
+|file3=Niwabi Fire-Dance Charged Preview
+|caption3=Charged Attack In Niwabi Enshou State
+}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Skill
+|levels=13
+|order=blazingarrowdmg,duration,cd
+|titles=Blazing Arrow DMG (% Normal Attack DMG),Duration,CD
+|blazingarrowdmg_1=137.91
+|blazingarrowdmg_2=140.18
+|blazingarrowdmg_3=142.45
+|blazingarrowdmg_4=145.40
+|blazingarrowdmg_5=147.67
+|blazingarrowdmg_6=149.94
+|blazingarrowdmg_7=152.89
+|blazingarrowdmg_8=155.84
+|blazingarrowdmg_9=158.79
+|blazingarrowdmg_10=161.74
+|blazingarrowdmg_11=164.69
+|blazingarrowdmg_12=167.65
+|blazingarrowdmg_13=170.60
+|duration=10s
+|cd=18s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Yoimiya}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Trivia==
+* {{TalentNote|clap}}
+* {{Lang|Niwabi|ja=庭火}} refers to a kind of garden fire or bonfire, held in a garden or imperial court, especially as part of a Shinto ritual. It is also the name of a Mikagura{{Lang|ja=御神楽}} song.
+* {{Lang|Niwabi Enshou|ja=庭火の焰硝|ja_rm=Niwabi no Enshou|zh=庭火焰硝|zh_rm=Tínghuǒ Yànxiāo}} roughly means "bonfire flaming saltpeter," which coincides with how Yoimiya encircles herself with saltpeter.
+
+==Other Languages==
+{{Other Languages
+|en      = Niwabi Fire-Dance
+|zhs     = 焰硝庭火舞
+|zhs_rm  = Yàn Xiāo Tíng Huǒ Wǔ
+|zht     = 焰硝庭火舞
+|zht_rm  = Yàn Xiāo Tíng Huǒ Wǔ
+|zh_tl   = Fire Dance of the Court of Flaming Saltpeter
+|ja      = 焔硝の庭火舞い
+|ja_rm   = Enshou no Niwabi Mai
+|ja_tl   = Bonfire of Flaming Saltpeter Dance
+|ko      = 염초 정화(庭火)의 춤
+|ko_rm   = Yeomcho Jeonghwa-ui Chum
+|ko_tl   = Niter Ritual Bonfire Dance
+|es      = Danza de la pólvora
+|es_tl   = Dance of Gunpowder
+|fr      = Danse du feu « Niwabi »
+|fr_tl   = Fire Dance "Niwabi"
+|ru      = Огненный танец Ниваби
+|ru_tl   = Niwabi Fire-Dance
+|th      = Niwabi Fire-Dance
+|vi      = Điệu Nhảy Niwabi Cháy Bỏng
+|vi_tl   = Burning Niwabi Dance
+|de      = Niwabi-Feuertanz
+|de_tl   = Niwabi Fire-Dance
+|id      = Niwabi Fire-Dance
+|pt      = Dança de Fogo Niwabi
+|pt_tl   = Fire Dance Niwabi
+}}
+
+==Change History==
+{{Change History|2.0}}
+<!--
+==References==
+{{Reflist}}-->
+
+==Navigation==
+{{Talent Navbox|Yoimiya}}
+
+[[es:Danza de la pólvora]]
+[[ja:焔硝の庭火舞い]]
+[[pt-br:Dança de Fogo Niwabi]]
+[[th:Niwabi Fire-Dance]]
+[[ru:Огненный танец Ниваби]]

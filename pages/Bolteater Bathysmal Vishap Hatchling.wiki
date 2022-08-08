@@ -1,0 +1,119 @@
+{{Enemy Infobox
+|image    = Enemy Bolteater Bathysmal Vishap.png
+|type     = Elite Enemies
+|family   = Mystical Beasts
+|group    = Bathysmal Vishaps
+|location = [[Enkanomiya]]
+|element  = Electro
+|ability1 = Energy Drain
+|ability2 = HP Loss
+}}
+{{Description|A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Electro element.<br />Following the fading of the Seven Sovereigns' power, a new generation of Sovereigns is presently being born. But now that the Bathysmal Vishaps have evolved in this manner, they have lost their purity. As such, the Dragon of Water will no longer be born from among their ranks. Prophecy holds that the new Dragon of Water will definitely descend in the form of a human.|[[Archive]]}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|vishap hatchlings}}
+
+==Stats==
+{{Enemy Stats
+|phys_res    = 30%
+|electro_res = 20%
+
+|hp_ratio  = 4
+|hp_type   = 2
+|atk_ratio = 2
+}}
+
+==Abilities and Attacks==
+''Attack names are unofficial except for Cleansing Shower.''
+
+* '''Cleansing Shower:''' Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''5% ATK''' as {{Color|AoE Electro DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
+** The HP Loss is calculated as:<br /><math>\text{HP Loss} = ( 14 \% \times \text{Character Max HP} + 200 ) \times ( 1 - \frac{\text{Remaining Energy}}{10} )</math>
+* '''Spinning Sweep:''' Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|AoE Electro DMG}}.
+* '''Homing Shards:''' Launches three shards from its tail that home towards the player at high speed, dealing '''30% ATK''', '''15% ATK''', '''7.5% ATK''' respectively as {{Color|Electro DMG}}.
+* '''Slash Combo:''' If the player is within melee range, performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
+
+===Preview===
+{{Preview
+|size=185px
+|file1=Bolteater Bathysmal Vishap Hatchling Cleansing Shower
+|caption1=Cleansing Shower
+
+|file2=Bolteater Bathysmal Vishap Hatchling Spinning Sweep
+|caption2=Spinning Sweep
+
+|file3=Bolteater Bathysmal Vishap Hatchling Homing Shards
+|caption3=Homing Shards
+
+|file4=Bolteater Bathysmal Vishap Hatchling Slash Combo
+|caption4=Slash Combo
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet all of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+
+{| class="wikitable"
+! Ability !! Range Req. (m) !! Priority !! CD (s) !! Initial CD (s) !! Action Interval (s)
+|-
+| Cleansing Shower 1 || 0–25 || 1 || 5–10 || 1 || rowspan="5" | 3
+|-
+| Cleansing Shower 2 || 0–25 || 1 || 10–15 || 1
+|-
+| Slash Combo || 0–5 || 3 || 15 || 5
+|-
+| Spinning Sweep || 0–5 || 2 || 5–7.5 || —
+|-
+| Homing Shards || 7–30 || 1 || 10–15 || 3
+|}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Bolteater Bathysmal Vishap Hatchling Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Bolteater Bathysmal Vishap Hatchling
+|zhs     = 深海龙蜥幼体・吞雷
+|zhs_rm  = Shēnhǎi Lóngxī Yòutǐ - Tūn Léi
+|zht     = 深海龍蜥幼體・吞雷
+|zht_rm  = Shēnhǎi Lóngxī Yòutǐ - Tūn Léi
+|zh_tl   = Bathysmal Vishap Hatchling - Thunder Swallowing
+|ja      = アビサルヴィシャップの幼体・吞雷
+|ja_rm   = Abisaru Vishappu no Youtai - Donrai{{Assumed}}
+|ja_tl   = Abyssal Vishap Hatchling - Thunder-Swallower
+|ko      = 번개를 삼키는 심해 용 도마뱀 유체
+|ko_rm   = 
+|ko_tl   = 
+|es      = Cría de Dragarto de las Profundidades - Engulletruenos
+|es_tl   = {{Lex|Vishap|es}} Offspring of the Depths - Thunderclap-Eater
+|fr      = Élémentosaure abyssal mangéclair : nouveau-né
+|fr_tl   = Lightning-Eater Abyssal Elementosaurus: Newborn
+|ru      = Молодой вишап глубин: Громоглот
+|ru_tl   = Young Vishap of the Depths: Thunderbolt-swallower
+|ru_note = {{Lang|mini=1|ru=Громоглот|ru_rm=Gromoglot}} is a compound word made of the noun {{Lang|mini=1|ru=гром|ru_rm=grom|ru_tl=thunder; thunderbolt}} and the verb {{Lang|mini=1|ru=глотать|ru_rm=glotat'|ru_tl=to swallow}}, joined by the interfix "{{Lang|mini=1|ru=-о-}}".
+|th      = Bolteater Bathysmal Vishap Hatchling
+|vi      = Rồng Biển Sâu Con - Thôn Lôi
+|vi_tl   = Deep Sea Dragon Hatchling - Electro Swallowing
+|de      = Junge Tiefsee-Drachenechse – Donnerverschlinger
+|de_tl   = Young Deep Sea Dragon-Lizard - Thunder-Devourer
+|id      = Bolteater Bathysmal Vishap Hatchling
+|pt      = Cria de Dragarto das Profundezas — Trovão Engolidor
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|2.4}}
+
+==Navigation==
+{{Enemy Navbox|type=elite}}
+
+[[vi:Rồng Biển Sâu - Thôn Lôi]]
+[[es:Dragarto de las Profundidades - Engulletruenos]]
+[[pt-br:Cria de Dragarto das Profundezas - Trovão Engolidor]]

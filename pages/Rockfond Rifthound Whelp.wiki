@@ -1,0 +1,134 @@
+{{Enemy Infobox
+|image    = Enemy Rockfond Rifthound Whelp.png
+|element  = Geo
+|family   = The Abyss
+|group    = Riftwolves
+|type     = Elite Enemies
+|location = [[Tsurumi Island]], [[Inazuma]]<br />[[Wolvendom]], [[Mondstadt]]
+|ability1 = Invincibility Frames
+|ability2 = Fury
+|ability3 = Corrosion
+|ability4 = Teleport
+}}
+{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. "Gold" classified them as "Alfisol."<br />They follow the encroaching abyss to devour the elements. Fortunately, there are few of them left now in this world.|[[Archive]]}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Rifthounds}}
+
+==Stats==
+{{Enemy Stats
+|res_title = State
+|hp_ratio  = 2.4
+|hp_type   = 2
+|atk_ratio = 1.2
+
+|res1        = Normal
+|resglobal   = 20%
+
+|res2         = Elemental Devourer
+|resglobal2   = 20%
+|geo_res2     = -10%
+}}
+
+==Abilities and Attacks==
+* '''Corrosion:''' All of the Thundercraven Rifthound Whelp's attacks apply [[Corrosion]] on hit.
+
+* '''Bite:''' Lunges at the player and bites, dealing '''85% ATK''' as {{Color|Geo DMG}}.
+
+* '''Slash:''' Teleports to the player and slashes with its claw, dealing '''100% ATK''' as {{Color|Geo DMG}}.
+
+* '''Double Slash:''' At melee range, quickly slashes twice at the player, dealing '''65% ATK''' as {{Color|Geo DMG}} with each slash.
+
+* '''Elemental Devourer:''' Gains '''34%''' [[Fury]] whenever it takes {{Color|Geo DMG}}. When full, the Rifthound Whelp decreases its attack [[cooldown]]s and its {{Color|Geo [[Resistance|RES]]}}.
+
+===Preview===
+{{Preview
+|size=185px
+|file1    = Geo Rifthound Whelp Bite
+|caption1 = Bite
+
+|file2    = Geo Rifthound Whelp Slash
+|caption2 = Slash
+
+|file3    = Geo Rifthound Whelp Double Slash
+|caption3 = Double Slash
+
+|file4    = Geo Rifthound Whelp Elemental Devour
+|caption4 = Elemental Devour
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet all of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+
+{| class="wikitable"
+! Ability !! Range Req. (m) !! Priority !! CD (s) !! Initial CD (s)
+|-
+| Bite || 0–5.5 || 2 || 7.5–9.5 (Normal)<br />5.5–7.5 (Elem. Dev.) || &mdash;
+|-
+| Double Slash || 0.25–3.25 || 2 || 7.5–8.5 (Normal)<br />5.5–7.5 (Elem. Dev.) || &mdash;
+|-
+| Slash (Close) || 3.5–14.5 || 2 || 15.5–17.5 (Normal)<br />10.5–12.5 (Elem. Dev.) || 3–8
+|-
+| Slash (Far) || 18.5–25 || 1 || 20.5–25.5 || 3–10.5
+|}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Rockfond Rifthound Whelp Icon.png|Icon
+Rockfond Rifthound Whelp (v2.2 sp).png|Card from Version 2.2 Special Program
+</gallery>
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/FQRhAgxbBvo
+|caption2 = Farm Guide
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Rockfond Rifthound Whelp
+|zhs     = 嗜岩・兽境幼兽
+|zhs_rm  = Shìyán - Shòujìng Yòushòu
+|zht     = 嗜岩・獸境幼獸
+|zht_rm  = Shìyán - Shòujìng Yòushòu
+|zh_tl   = Rock-Fond - Beast-Realm Beastling
+|ja      = {{Rubi|獣|じゅう|域|いき}}ウェルプ・{{Rubi|岩|いわ}}
+|ja_rm   = Juuiki Werupu - Iwa<ref>YouTube: [https://youtu.be/uw-b54nYqi8 【原神】Ver.2.2「霧の海と謎の秘境」予告番組inTGS2021]</ref>
+|ja_tl   = Beast-Realm Whelp - Geo
+|ko      = {{tt|기암|嗜岩}}・수계(獸界) {{tt|유견|幼犬}}
+|ko_rm   = Gi'am - Sugye Yugyeon
+|ko_tl   = Rock-Fond - Beast-Realm Whelp
+|es      = Cachorro Acechador Lítico
+|es_tl   = Lithic Lurker Pup
+|fr      = Chiot de faille géophile
+|fr_tl   = Geophilic Rift Puppy
+|ru      = Щенок Разрыва: Камнегрыз
+|ru_tl   = 
+|th      = Rockfond - Rifthound Whelp
+|vi      = Thể Nham - Ma Thú Con
+|vi_tl   = Geo - Beast Whelp
+|de      = Felsenfressender Garmwelpe
+|de_tl   = Rock-Devouring {{w|Garmr}} Whelp
+|id      = Rockfond Rifthound Whelp
+|pt      = Filhote da Fenda - Geofito
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|2.2}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Enemy Navbox|type=elite}}
+
+[[es:Cachorro Acechador Lítico]]
+[[pt-br:Filhote da Fenda - Geofito]]

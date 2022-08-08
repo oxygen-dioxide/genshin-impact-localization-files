@@ -1,0 +1,596 @@
+{{Cleanup|Tables need clarification and reorganization so they can be more easily understood}}{{Terminology Infobox
+|type         = Combat
+}}
+'''Area of Effect''' (AoE) is a term used to describe abilities that affect a wide spatial range. These abilities can affect multiple targets usually within a fixed radius.<ref>Wowpedia: [https://wowpedia.fandom.com/wiki/Area_of_Effect Area of Effect]</ref>
+
+Within the game's source code, many of these AoE skills will usually have a "radius" parameter indicating its circular or spherical size (in [[meter]]s).
+
+Many AoE effects in the game also have a vertical height. For example, in [[Version 2.1]] a height limit was added to [[Thunderwood]]'s AoE.
+
+==Elemental Reactions==
+Some [[Elemental Reactions]] have AoE effects:<ref>Interruption Resistance: [[Interruption Resistance/Data|Data]]</ref><ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/ConfigAbility_Element.json Elemental Reactions]</ref>
+
+*[[Superconduct]] deals {{Color|AoE Cryo DMG}} within a 5 [[meter]] radius
+*[[Swirl]] spreads elemental auras within a 6-meter radius
+*[[Overloaded]] creates an AoE explosion within a 5-meter radius
+
+==Shapes and Types==
+Many AoE abilities are circular, cylindrical, or spherical in shape. Some are more conical, spreading out within a certain angle rather than a full 360 degrees.
+
+;Circular / Cylindrical field
+<gallery captionalign="center" hideaddbutton="true" widths=150>
+Fantastic_Voyage Preview.gif|Fantastic Voyage (Inspiration Field)
+Spirit Blade Chonghua's Layered Frost Preview.gif|Spirit Blade: Chonghua's Layered Frost (Chonghua Frost Field)
+Yoohoo Art Mujina Flurry Preview.gif|Yoohoo Art: Mujina Flurry (Muji-Muji Daruma)
+Dandelion Breeze Preview.gif|Dandelion Breeze (Dandelion Field)
+Celestial Shower Preview.gif|Celestial Shower (Sacred Cryo Pearl)
+Kazuha Slash Preview.gif|Kazuha Slash (Autumn Whirlwind)
+</gallery>
+
+;Conical / rectangular
+<gallery captionalign="center" hideaddbutton="true" widths="150">
+Theater Mechanicus Stage of Wonders Elemental Skill.gif|Frostgnaw (rectangular)
+Guoba Attack Preview.gif|Guoba Attack (conical)
+Dawn Preview.gif|Dawn (phoenix has rectangular hitbox)
+</gallery>
+
+;AoE Increase (buffs that increase the AoE of the character's attacks; center usually the player)
+<gallery captionalign="center" hideaddbutton="true" widths="150">
+Bane of All Evil Plunge Preview.gif|Bane of All Evil (Plunging)
+Sweeping Time Preview.gif|Sweeping Time (Geo conversion)
+</gallery>
+
+;360 degrees (rotation)
+<gallery captionalign="center" hideaddbutton="true" widths="150">
+Havoc Obliteration Melee Preview.gif|Havoc: Obliteration
+Spirit Soother Preview.gif|Spirit Soother
+</gallery>
+
+;Circular (area in front of caster)
+<gallery captionalign="center" hideaddbutton="true" widths="150">
+Fiery Rain Preview.gif|Fiery Rain
+Ryuukin Saxifrage Preview.gif|Ryuukin Saxifrage
+Planet Befall Preview.gif|Planet Befall
+</gallery>
+
+;[[Vacuum Field]]
+<gallery captionalign="center" hideaddbutton="true" widths="150">
+Wind's Grand Ode Preview.gif|Wind's Grand Ode (Stormeye)
+Forbidden Creation - Isomer 75 Type II Preview.gif|Forbidden Creation - Isomer 75 / Type II (Large Wind Spirit)
+</gallery>
+
+;Other
+<gallery captionalign="center" hideaddbutton="true" widths="150">
+Stormbreaker Preview.gif|Stormbreaker (chain lightning between multiple enemies)
+</gallery>
+
+==Size Comparison==
+===Less than 5-6 meters===
+Most AoE effects from character talents in the game are less than 5–6 meters in radius.
+
+===Around 6-10 meters===
+These include character-deployed fields like:
+
+* Inspiration Field (Fantastic Voyage, Bennett's Burst)
+* Chonghua Frost Field (Spirit Blade: Chonghua's Layered Frost, Chongyun's Skill)
+* Drunken Mist (Signature Mix, Diona's Burst)
+* Dandelion Field (Dandelion Breeze, Jean's Burst)
+
+The radius for some character's bursts like Havoc: Obliteration (ranged) are also around 6 meters.
+
+The radius for Xiao's High Plunge AoE during Bane of All Evil is also around 6 meters.
+
+Other skills include:
+* Abiogenesis: Solar Isotoma AoE
+* Celestial Shower AoE
+* Chihayaburu (Hold) pulling AoE
+* Yoohoo Art: Mujina Flurry field
+
+===More than 10 meters===
+These include:
+
+* Wind's Grand Ode [[Vacuum Field]] pulling radius
+* Forbidden Creation - Isomer 75 / Type II [[Vacuum Field]] pulling radius
+
+==Character AoE Table==
+The following table is compiled from the source data and in-game testing.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/AvatarAbilities Avatar Abilities]</ref>
+
+{| class="wikitable sortable"
+!Character
+!Ability
+!data-sort-type=number| Radius (meters)
+!Notes
+|-
+|Albedo<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Albedo.json Albedo]</ref>
+|E
+|10
+|Size of field
+|-
+|Albedo
+|Q
+|8
+|Conical fan angle is 120 degrees
+|-
+|Aloy
+|Q
+|
+|
+|-
+|Amber
+|E
+|5
+|Explosion and taunting radius
+|-
+|Amber
+|Q
+|2
+|Passive 1 widens AoE by 30%. Center is in front of caster.
+|-
+|Bennett
+|Q
+|6
+|field
+|-
+|Beidou
+|E
+|
+|
+|-
+|Chongyun
+|E
+|8
+|The infusion can linger a little outside the field<!--The cryo field visually appears 6m in radius like Bennett's field, but the infusion can still linger just a little bit outside the field.--><!--there are some screenshots where Chongyun's field appears larger than Bennett's field-->
+|-
+|Chongyun
+|Q
+|3.5
+|In front of the caster
+|-
+|Diluc<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Diluc.json Diluc]</ref>
+|Q (slash)
+|6
+|Initial slashing radius is 6m.
+|-
+|Diluc
+|Q (phoenix)
+|8
+|The phoenix has a wingspan of 16m and a hitbox of 16m x 4m x 6m.
+|-
+|Diona
+|Q
+|6
+|field
+|-
+|Eula<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Eula.json Eula]</ref>
+|E
+|3.5
+|
+|-
+|Eula
+|Q (initial)
+|8
+|Initial Cryo hit. The beginning animation also has a poise damage radius of 4m.
+|-
+|Eula
+|Q (final)
+|6.5
+|Final explosion blast radius
+|-
+|Ganyu<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Ganyu.json Ganyu]</ref>
+|CA Lv. 2
+|5
+|Frostflake bloom radius is 5m. The bloom area also has a vertical height of 7.5m (can hit targets underneath).
+|-
+|Ganyu
+|E
+|4
+|Both the initial hit and ending explosion have a 4m AoE radius. The taunting range radius is 5m.
+|-
+|Ganyu
+|Q (field)
+|10
+|spherical radius of field
+|-
+|Ganyu
+|Q (icicle)
+|2.5
+|icicle shard AoE radius
+|-
+|Hu Tao
+|Q
+|6
+|The AoE is a circle around the player.
+|-
+|Jean
+|Q
+|6
+|field
+|-
+|Kaedehara Kazuha
+|E (Press)
+|6
+|pulling radius
+|-
+|Kaedehara Kazuha
+|E (Hold)
+|10
+|pulling radius
+|-
+|Kaedehara Kazuha
+|Plunging Attack (wind tunnel)
+|6
+|pulling radius of the wind tunnel created after plunging
+|-
+|Kaedehara Kazuha
+|Q
+|~6-7
+|field
+|-
+|Kaeya
+|E
+|8
+|Can hit enemies 8m in front of Kaeya, hitbox is 4m x 2.2m x 8m
+|-
+|Kaeya
+|Q
+|2
+|The icicles orbiting Kaeya form a circular AoE
+|-
+|Kamisato Ayaka
+|E
+|~3
+|
+|-
+|Kamisato Ayaka
+|Q
+|~3
+|
+|-
+|Mona<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Mona.json Mona]</ref>
+|E
+|5
+|DoT, final explosion, and taunting radius
+|-
+|Mona
+|Q
+|10
+|Will apply omen to enemies within 10m radius
+|-
+|Ningguang<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Ningguang.json Ningguang]</ref>
+|C4
+|10
+|Characters within 10m radius will have +10% elemental [[Resistance|RES]]
+|-
+|Noelle<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Noel.json Noelle]</ref>
+|Q
+|~5-6.5
+|Slashing radius; AoE increase
+|-
+|Qiqi
+|E
+|
+|The eyeball has a circular AoE and inflicts Cryo to anything it touches
+|-
+|Qiqi
+|Q
+|7
+|Circular AoE that marks enemies
+|-
+|Raiden Shogun
+|Q
+|~6-8
+|initial slash from [[Musou no Hitotachi]]
+|-
+|Raiden Shogun
+|Q + CA
+|~6-10{{Verify}}
+|horizontal reach of charged attack during burst stance
+|-
+|Rosaria
+|Q
+|6-6.5
+|initial hit is 6m, subsequent pulse DoT is 6.5m
+|-
+|Sangonomiya Kokomi
+|E
+|5-6
+|healing/damage radius
+|-
+|Sayu
+|Q
+|~8
+|
+|-
+|Sucrose
+|E
+|6
+|
+|-
+|Sucrose
+|Q
+|15
+|pulling radius
+|-
+|Tartaglia<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Tartaglia.json Tartaglia]</ref>
+|Riptide Flash
+|3
+|use bow charged attack on riptide-affected opponent
+|-
+|Tartaglia
+|Riptide Slash
+|3
+|use melee attack on riptide-affected opponent
+|-
+|Tartaglia
+|Riptide Burst
+|5
+|when kill riptide-affected opponent, spreads riptide within 5m radius
+|-
+|Tartaglia
+|Riptide Blast
+|5
+|use melee burst on riptide-affected opponent
+|-
+|Tartaglia
+|E (stance change)
+|3
+|
+|-
+|Tartaglia
+|Q (ranged)
+|6
+|in front of caster
+|-
+|Tartaglia
+|Q (melee)
+|8
+|Burst AoE is larger in melee stance, full circle (360 degrees)
+|-
+|Venti<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Venti.json Venti]</ref>
+|E (Press)
+|3-4.5
+|
+|-
+|Venti
+|E (Hold)
+|~6
+|
+|-
+|Venti
+|Q
+|15
+|pulling radius
+|-
+|Xiangling
+|E
+|5
+|Flame range starts at 5m. Conical fan angle is 60 degrees.
+|-
+|Xiangling
+|E (C1)
+|8
+|C1 Xiangling increases Gouba's flame range to 8m.
+|-
+|Xiangling
+|Q
+|5.5
+|The Pyronado orbits around the caster. The orbit radius is ~3m. The disc radius is ~2.5m. So Pyronado can hit enemies within a 5.5m radius.
+|-
+|Xiao
+|E
+|~5-7.5
+|Xiao will cover ~7.5m horizontal distance per dash. The "force radius" is 5m.
+|-
+|Xiao<ref name="xiao">Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Xiao.json Xiao]</ref>
+|Q, Plunging
+|6
+|AoE increase
+|-
+|Xinyan
+|Q
+|
+|
+|-
+|Yanfei
+|E
+|
+|Explosion radius
+|-
+|Yanfel
+|Q
+|
+|Circular AoE, center is the caster
+|-
+|Yoimiya
+|Q
+|~5-6
+|In front of the caster.
+|-
+|Zhongli<ref name="zl">Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Zhongli.json Zhongli]</ref>
+|E (resonance)
+|8
+|resonance radius, stele height ~4m
+|-
+|Zhongli
+|E (shield)
+|10
+|Enemies within 10m radius will have their [[Resistance|RES]] decreased by 20%
+|-
+|Zhongli
+|Q
+|7.5
+|~5m in front of caster
+|}
+
+Other Notes:
+*The [[Plunging Attack]] AoE is usually less than 5 meters. During [[Bane of All Evil|Xiao's Elemental Burst]], his Plunging AoE is increased up to ~6 meters for high plunges.<ref name="xiao" /> See [[Plunging Attack]] for more details.
+*Zhongli's stele has a height of ~4m and a resonance radius of ~8m, slightly less than the radius of Albedo's Solar Isotoma (~10m). The vertical resonance range is also around 8m, measured from the base of the stele.<ref name="zl" />
+<gallery captionalign="center" hideaddbutton="true" widths="200">
+Dominus Lapidis Resonance Preview.gif
+</gallery>
+*The AoE for many other abilities such as claymore/polearm swings, catalyst charged attacks, etc. is usually within a 3m radius.
+*The auto-targeting range for some bow and catalyst users (such as Diona, Yanfei or Kokomi) is 15 meters.
+
+==Enemy AoE Table==
+Various [[Enemies]] also have AoE abilities:
+
+{| class="wikitable sortable"
+!Enemy
+!Ability
+!data-sort-type=number| Radius (meters)
+!Type
+!Notes
+|-
+|Anemo Samachurl
+|Vacuum
+|5 (Initial), 7.5 (Final)
+|Spherical (dome)
+|Pulls characters in toward the center of the vacuum
+|-
+|Dendro Samachurl
+|Dendro Field
+|5
+|Circular
+|Applies the Dendro element to anything in the field
+|-
+|Hydro Samachurl
+|Healing Rain Field
+|5
+|Circular (cylindrical)
+|Applies the Wet status to anything in its field
+|-
+|Hydro Mimic Frog/Finch
+|Explosion
+|
+|
+|The water bomb created has a circular AoE
+|-
+|Maguu Kenki
+|Vacuum
+|7
+|
+|
+|-
+|Childe (boss)
+|Thunderbolt
+|
+|
+|
+|-
+|Childe (boss)
+|Summon whale
+|?
+|
+|Massive AoE
+|}
+
+===Area of Effect Markers===
+[[File:Large Geo Slime Leap.gif|thumb|100px|A Large Geo Slime leaping. When the inner circle touches the outer circle, DMG is dealt to the area marked with the circle.]]
+AoE markers are sometimes present to indicate when an enemy will have reached a particular attack point on the ground.
+* AoE circles deal DMG when the inner circle touches the border. For example, a [[Large Geo Slime]]'s leap will have dealt Geo DMG when the inner circle precisely touches the outer circle. Freezing enemies can delay, but not stop, the AoE attack at that point, but some enemies like the [[Hydro Mimic Frog]] deal AoE DMG ''before'' touching the ground. If the AoE is large enough, not even [[dash]] [[i-frames]] can negate DMG effects.
+* AoE rectangles deal DMG after showing their attack course. For example, the [[Thunder Manifestation]], when it casts its "Dive Bomb" attack, will have markers indicating the direction and AoE of the attack.
+
+==Environmental Effects==
+Some [[Ley Line Disorders]] and other contraptions that appear in the environment, domains, or events have AoE effects as well.
+{| class="wikitable sortable"
+!Name
+! data-sort-type="number" | Radius (meters)
+!Notes
+|-
+|Charity
+|8
+|[[Theater Mechanicus]]
+|-
+|Binding
+|4
+|[[Theater Mechanicus]] Version 2.0
+|-
+|Banishment
+|2
+|[[Theater Mechanicus]] Version 2.0
+|-
+|[[Lightning Bolt]]
+|3-4
+|Ley Line Disorder
+|}
+
+==Increasing AoE==
+===Talents===
+{{Talents by Category Table|AoE Increase Talents}}
+
+===Constellations===
+{{Constellations by Category Table|AoE Increase Constellations}}
+
+==AoE DMG==
+Note that many [[Charged Attack]]s and [[Plunging Attack]]s can do AoE DMG. The following lists other talents that have AoE effects (usually explicitly stated in the description). Note that many other abilities can hit multiple enemies and have some local AoE as well (within a 1-3 meter radius).
+
+===Talents===
+{{Talents by Category Table|AoE Talents|collapsed=1}}
+
+===Constellations===
+{{Constellations by Category Table|AoE Constellations}}
+
+===Weapons===
+Some weapons have AoE passive effects.
+{{Weapons by Category Table|AoE Passive Weapons}}
+
+===Comparison===
+{{See also|Interruption Resistance/Data}}
+''Information sourced from [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/EquipAbilities Source Data for Weapon Abilities]''
+
+Meaning of terms:
+
+*'''Heavy, 500, 0''' means that the attack uses a special force, which has '''Heavy''' Stagger Level, '''500''' Horizontal Force and '''0''' Vertical Force.
+
+{| class="wikitable sortable"
+!Weapon!!Ability!!Poise Damage!!Force Level
+|-
+|Fillet Blade||Directly Damage||50||Default
+|-
+|The Flute||AoE (4 m)||100|| 2
+|-
+|Sword of Descension||AoE (1.5 m)||25||2
+|-
+|Aquila Favonia||AoE (6 m) || 25||3
+|-
+|Skyward Blade||Directly Damage||0|| Default
+|-
+| Debate Club|| AoE (3 m)|| 50|| 2
+|-
+|Prototype Archaic||AoE (3 m)||100||2
+|-
+|Aquila Favonia||AoE (3 m)||20||Heavy, 500, 0
+|-
+|Skyward Pride||Directly Damage||50||2
+|-
+|Halberd||Directly Damage||50||2
+|-
+|Crescent Pike||Directly Damage||30 ||Default
+|-
+|Dragon's Bane||AoE (3 m)||20||Heavy, 500, 0
+|-
+|Skyward Spine||AoE (0.1 m)|| 50||2
+|-
+|Eye of Perception||AoE (0.6 m)||36 || 2
+|-
+|Frostbearer||AoE (3 m)||20|| Heavy, 500, 0
+|-
+|Skyward Atlas||AoE (1.2 m)||20||2
+|-
+|Messenger|| Directly Damage||20||Default
+|-
+|The Viridescent Hunt||AoE (3 m) || 0||2
+|-
+|Skyward Harp||Directly Damage ||20||2
+|}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist|2}}
+
+==Navigation==
+{{Combat Navbox}}
+
+[[Category:AoE| ]]

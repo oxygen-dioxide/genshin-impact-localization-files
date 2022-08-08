@@ -1,0 +1,179 @@
+{{Terminology Infobox
+|image        = Icon Inventory Food.png
+|type         = Item Types
+|type2        = Inventory Categories
+}}
+'''Food''' are [[Consumable]] items in ''[[Genshin Impact]]'' that can be crafted with [[Cooking]]. It is the fourth tab in the [[Inventory]].
+
+Food can be used to heal characters, revive characters, buff the player's character, or buff the entire party. When knocked out characters are revived, they will still have the same ongoing duration of food buffs as the rest of the other party members. Except for [[Apple]], [[Sunsettia]], and [[Starshroom]], all other food cannot be deleted from the inventory.
+
+==Quality==
+{{See also|Cooking}}
+Food items have 3 different types of quality, Suspicious, the regular version of the dish, and Delicious. Suspicious and Delicious variants of the dish have a 20% decrease/increase to the normal dish's stats respectively; the timer is consistent regardless of the food's quality.
+
+Dishes, when cooked, have a certain chance to be made as a Special Dish variant depending on the rarity and quality of the food when cooked with the relevant character. These special dishes provide either a higher bonus or additional effect over its Delicious variant, as well as a separate icon, name and description.
+{| class="fandom-table"
+! rowspan="2" | Rarity !! colspan="3" | Probability of Producing Special Dish
+|-
+! Suspicious !! Normal !! Delicious
+|-
+| 1-Star || 10% || 15% || 20%
+|-
+| 2-Star || 10% || 10% || 15%
+|-
+| 3-Star || 5% || 10% || 15%
+|-
+| 4-Star || 5% || 5% || 10%
+|}
+
+==Fullness==
+When a character consumes [[:Category:Recovery Dishes|Recovery Dishes]] (Food that restores [[Attributes#Health|HP]]), their Fullness Gauge will increase. The Fullness Gauge has a maximum length of 100.<ref>NGA: [https://bbs.nga.cn/read.php?tid=30824180 关于饱食度的一些补充研究]</ref>
+
+When Fullness = 100, no more Recovery Dishes can be consumed.
+
+When Fullness > 0, it will deplete over time at a rate of 0.3/s
+
+When Fullness reaches 100, the Full State will be applied to the character for 30 seconds, which halts the over time depletion of Fullness until it ends.
+
+Fullness increase from a single Recovery Dish item is calculated as:
+
+<math>\text{Fullness Increase} = \text{Fullness Parameter A} + \frac{\text{Fullness Parameter B}}{\text{Character Max HP}}</math>
+
+{| class="fandom-table sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
+! Rarity !! Utility !! Quality !! Parameter A !! Parameter B
+|-
+| 0-Star || colspan="2" | Apple/Sunsettia/Starshroom || 5 || 15,000
+|-
+| rowspan="8" | 1-Star || Instant Heal || Suspicious || 14 || 37,500
+|-
+| Instant Heal || Normal || 14 || 45,000
+|-
+| Instant Heal || Delicious || 15 || 55,000
+|-
+| Instant Heal || Special || 18 || 60,000
+|-
+| Continuous Heal || Suspicious || 14 || 57,000
+|-
+| Continuous Heal || Normal || 14 || 69,000
+|-
+| Continuous Heal || Delicious || 15 || 81,000
+|-
+| Continuous Heal || Special || 17 || 96,000
+|-
+| rowspan="8" | 2-Star || Instant Heal || Suspicious || 20 || 45,000
+|-
+| Instant Heal || Normal || 21 || 62,500
+|-
+| Instant Heal || Delicious || 22 || 80,000
+|-
+| Instant Heal || Special || 25 || 92,500
+|-
+| Continuous Heal || Suspicious || 19 || 96,000
+|-
+| Continuous Heal || Normal || 20 || 120,000
+|-
+| Continuous Heal || Delicious || 21 || 147,000
+|-
+| Continuous Heal || Special || 23 || 177,000
+|-
+| rowspan="8" | 3-Star || Instant Heal || Suspicious || 25 || 42,500
+|-
+| Instant Heal || Normal || 26 || 87,500
+|-
+| Instant Heal || Delicious || 27 || 135,000
+|-
+| Instant Heal || Special || 30 || 167,500
+|-
+| Continuous Heal || Suspicious || 23 || 195,000
+|-
+| Continuous Heal || Normal || 24 || 267,000
+|-
+| Continuous Heal || Delicious || 25 || 336,000
+|-
+| Continuous Heal || Special || 27 || 423,000
+|}
+
+==Multiple Food Buffs==
+Eating foods with positive benefits other than health gain can increase stats like [[Defense]], [[CRIT Rate]], [[Attack]] - these are grouped into four types - Offensive, Defensive, Elemental, and Stamina. Only one food buff of each type can be active at a time, and the most recent one will replace any previously obtained, even if it is inferior. However, buffs affecting all four states can be active at the same time.
+# Offensive group: [[CRIT Rate]], [[CRIT DMG]], [[Physical DMG]], and [[Attack]] boosts
+# Defensive group: [[Shield Strength]], [[Defense]], [[Health]], and [[Healing Bonus]] boosts
+# Stamina group: [[Climbing]], [[Gliding]], and [[Sprinting]] stamina reductions (stamina restoratives act separately)
+# Elemental group: Both elemental damage boosts and elemental damage reductions are classed together, and it is not possible to have two boosts or a boost and resistance active simultaneously.
+
+===Notes===
+* Foods that affect [[Sheer Cold]] accumulation form a fifth group.
+* When the player logs out, the duration of food/potion effects are frozen. It is not known if they will still tick when the game client is still running but not connected to the server.
+* Flat Attack foods (like +100 Attack) are not modified by ATK% stats from equipment.
+* (As of [[Version 1.4]]) The numerical values currently active, nor their remaining time are not shown in any menu. The stamina reduction boosts are not shown in stats when active either.
+
+==Cooldown==
+Some foods have a cooldown period after usage. Stamina refill foods have a 300-second cooldown, and Revival foods have a 120-second cooldown on usage.
+
+==List of Food Items==
+Food is sorted into various types, indicated by an icon when seen in the backpack. Food items of the same type do not stack when used (any consumed food will simply overwrite any pre-existing in the same category, regardless of buff strength or star rank), and only three types of Food buffs can be active at once. Regenerative buffs do not fall under the three food buff categories, and the effects may exist alongside the other food buffs.
+
+{{#DPL:
+|namespace =
+|uses = Template:Food Infobox
+|category = Food
+|notcategory = Special Dishes
+|notcategory = Event Exclusive Dishes
+|notcategory = Upcoming Content
+|resultsheader= There are '''%PAGES%''' Food that are not Special Dishes (inclusive of Apple, Sunsettia, and Starshroom):\n
+|include = {Food Infobox¦Phantom Infobox Food},{Recipe¦Phantom Recipe Food}
+|table = class="article-table sortable",-,Icon,Name,Rarity,Type,Effect,Has Recipe
+|secseparators =\n
+|noresultsfooter = No Results
+|allowcachedresults = true
+|tablesortcol=2
+}}
+
+===List of Special Dishes===
+Dishes that have a chance to be cooked if a specific character cooks them. Compared to the dishes they are based off on, they offer superior benefits (more HP/Stamina recovered, more potent buffs, longer duration etc.).
+{{#DPL:
+|namespace =
+|uses = Template:Food Infobox
+|category = Special Dishes
+|notcategory = Upcoming Content
+|include = {Food Infobox¦Phantom Infobox Food},{Food Infobox¦Phantom Character}
+|table = class="article-table sortable",-,Icon,Name,Rarity,Type,Effect,Character
+|secseparators = \n
+|resultsheader = There are '''%PAGES%''' [[Special Dish]]es:\n
+|noresultsfooter = \nNo Results
+|allowcachedresults = true
+|tablesortcol=2
+}}
+
+===List of Event-Exclusive Dishes===
+Dishes that are only available during certain [[Events]].
+{{#DPL:
+|namespace =
+|uses = Template:Food Infobox
+|category = Event-Exclusive Dishes
+|notcategory = Upcoming Content
+|include = {Food Infobox¦Phantom Infobox Food},{Recipe¦Phantom Recipe Food},{Food Infobox¦Phantom Event}
+|table = class="article-table sortable",-,Icon,Name,Rarity,Type,Effect,Has Recipe,Event
+|secseparators = \n
+|resultsheader = There are '''%PAGES%''' [[Event-Exclusive Dish]]es:\n
+|noresultsfooter = \nNo Results
+|allowcachedresults = true
+|tablesortcol=2
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Food Navbox|state=collapsed}}
+{{Genshin Navbox}}
+[[Category:Food| ]]
+
+[[es:Comidas]]
+[[pl:Jedzenie]]
+[[pt-br:Alimentos]]
+[[ru:Еда]]
+[[vi:Thực Phẩm]]
+[[uk:Їжа]]

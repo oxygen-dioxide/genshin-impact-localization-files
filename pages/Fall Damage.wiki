@@ -1,0 +1,52 @@
+{{Stub|Needs research on the exact formula for fall damage (as a function of impact speed/any other variables).}}
+{{Terminology Infobox
+|type         = Exploration
+}}
+'''Fall Damage''' (not to be confused with [[Plunging Attack]]s) is an [[Exploration]] mechanic where characters take damage from falling from a great height. Players will suffer [[HP Loss]] upon impact. Fall Damage scales with the height of the fall and the horizontal velocity upon impact.
+
+Fall Damage can be mostly reduced or negated using a Plunging Attack at any point or opening one's [[Wind Glider]] periodically to safely reset fall damage. If given the option, falling into water with level above the character's waist height (resulting in wading) will also negate all Fall Damage. Also, if one plunge attacks with [[Xiao]] at any height, they will not take damage.
+
+Some characters with [[Talents]] that allow them and/or their entire party to temporarily or permanently walk on water will also take fall damage from hitting the water's surface, as if there was ice on them.
+
+Enemies and certain objects are vulnerable to a similar mechanic, [[#Collision Damage|Collision Damage]], which occurs upon colliding with a solid surface at high speed, which includes but is not limited to falling. Collision Damage is calculated differently from player Fall Damage, and is treated as [[True Damage]] instead of HP Loss.
+
+==Fall Damage Reduction==
+Under certain conditions, Fall Damage will be reduced by a fixed percentage.
+
+{| class="article-table"
+! Condition !! Fall Damage Reduction
+|-
+| Plunging Attack as [[Xiao]] ||rowspan=5| 100%
+|-
+| Under effect of [[Spoutrock]]
+|-
+| During [[Windtrace]] 
+|-
+| Inside [[Divine Ingenuity]] domains
+|-
+| Plunging Attack from 0–40 m 
+|-
+| Plunging Attack from 40–60 m || 90%
+|-
+| Plunging Attack from 60–100 m || 80%
+|-
+| Plunging Attack from Above 100 m || 60%
+|}
+
+==Collision Damage==
+{{See also|Interruption Resistance}}
+'''Collision Damage''' is a type of environmental damage that exclusively affects enemies and certain objects (e.g. [[Baron Bunny]]). It occurs when an enemy or object collides with the environment at velocities greater than '''10m/s'''. Collision Damage is {{Color|True Phyiscal DMG}} which ignores the target's [[DEF]], [[RES]], and [[Damage Reduction]]. Note that Collision Damage should not be confused with Fall Damage taken by player characters.<ref name="NGA">NGA: [https://ngabbs.com/read.php?tid=31063049 《原神碰撞学》- 碰撞伤害的拓展研究]</ref>
+
+If Collision Damage is triggered, it is calculated as:<ref name="NGA" />
+<math>\text{Collision DMG} = (0.4 - \frac{4}{2 + \text{Collision Velocity}}) \times \text{Target Max HP}</math>
+
+==Trivia==
+*[[Shields]] do not affect nor reduce the damage taken.
+*Breaking your fall into multiple chunks or dragging against a steep cliff face can greatly reduce the damage taken.
+*One can use [[Jean]]'s [[Elemental Skill]] to launch smaller enemies in the air and deal Collision Damage against them repeatedly.
+
+==References==
+{{Reflist|1}}
+
+==Navigation==
+{{Exploration Navbox}}

@@ -1,0 +1,165 @@
+{{CustomTabs
+|tab1 = Loot System
+|tab2 = Artifact Drop Distribution
+|tab3 = Common Ascension Materials
+|tab4 = Material Drop Distribution
+}}
+{{Community}}
+
+==Level Scaling of Drop Rate==
+<math>\text{Drop Mean}_\text{Any Reward Tier} = \text{Drop Mean}_\text{Reward Tier 18} \times \text{Ratio}</math>
+
+<div style="overflow-x:scroll;">
+<math>\text{Ratio} =
+  \begin{cases}
+    \text{Reward Tier} \div 30 + 0.4 & \text{Reward Tier} \le 18 \\
+    1 & \text{Reward Tier} > 18
+  \end{cases}</math>
+</div>
+
+The Ratio for different Enemy Levels:
+{| class="article-table sortable"
+! Enemy Level !! Reward Tier || Ratio
+|-
+| 1–4 || 0 || 0.4
+|-
+| 5–9 || 1 || 0.4333
+|-
+| 10–14 || 2 || 0.4667
+|-
+| 15–19 || 3 || 0.5
+|-
+| 20–24 || 4 || 0.5333
+|-
+| 25–29 || 5 || 0.5667
+|-
+| 30–34 || 6 || 0.6
+|-
+| 35–39 || 7 || 0.6333
+|-
+| 40–44 || 8 || 0.6667
+|-
+| 45–49 || 9 || 0.7
+|-
+| 50–54 || 10 || 0.7333
+|-
+| 55–59 || 11 || 0.7667
+|-
+| 60–64 || 12 || 0.8
+|-
+| 65–69 || 13 || 0.8333
+|-
+| 70–74 || 14 || 0.8667
+|-
+| 75–79 || 15 || 0.9
+|-
+| 80–84 || 16 || 0.9333
+|-
+| 85–89 || 17 || 0.9667
+|-
+| 90–92 || 18 || 1
+|-
+| 93–99 || 19 || 1
+|-
+| 100–104 || 20 || 1
+|}
+
+==Drop Mean in Reward Tier 18==
+''Information sourced from [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/RewardPreviewExcelConfigData.json Source Data]''
+===Common Enemies===
+{| class="wikitable"
+! Enemy !! Material !! 1-Star !! 2-Star !! 3-Star !! 4-Star
+|-
+| Slime || Slime Liquid || 0.6723 || 0.1792 || 0.0448 || -
+|-
+| Large Slime || Slime Liquid || 1.6808 || 0.4482 || 0.112 || -
+|-
+| Specter || Spectral Core || 1.2606 || 0.3362 || 0.084 || -
+|-
+| Whopperflowers || Nectar || 4.202 || 1.1205 || 0.28 || -
+|-
+| Hilichurl || Mask || 0.4202 || 0.112 || 0.028 || -
+|-
+| Hilichurl Guard || Mask || 0.4202 || 0.112 || 0.028 || -
+|-
+| Hilichurl Grenadier || Mask || 0.4202 || 0.112 || 0.028 || -
+|-
+| rowspan="2" | Hilichurl Shooter || Hilichurl Mask || 0.1681 || 0.0448 || 0.0112 || -
+|-
+| Arrowhead || - || 0.8404 || 0.2241 || 0.056
+|-
+| rowspan="2" | Samachurl || Mask || 0.1681 || 0.0448 || 0.0112 || -
+|-
+| Scroll || - || 2.5212 || 0.6723 || 0.168
+|-
+| Fatui Skirmishers || Fatui Insignia || 4.202 || 1.1205 || 0.28 || -
+|-
+| Treasure Hoarder || Hoarder Insignia || 1.2606 || 0.3362 || 0.084 || -
+|-
+| Nobushi || Handguard || 0.8404 || 0.2241 || 0.056 || -
+|-
+| Kairagi || Handguard || 1.6808 || 0.4482 || 0.112 || -
+|-
+| Fungus || Spore || 0.8404 || 0.2241 || 0.056 || -
+|}
+
+===Elite Enemies===
+{| class="wikitable"
+! Enemy !! Material !! 1-Star !! 2-Star !! 3-Star !! 4-Star
+|-
+| rowspan="2" | Mitachurl || Mask || 0.5253 || 0.1401 || 0.035 || -
+|-
+| Horn || - || 1.5758 || 0.4202 || 0.1051
+|-
+| rowspan="2" | Lawachurl || Mask || 0.5253 || 0.1401 || 0.035 || -
+|-
+| Horn || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Abyss Mages || Ley Line Plant || - || 2.2324 || 0.5953 || 0.1487
+|-
+| rowspan="2" | Abyss Herald || Ley Line Plant || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Statuette || - || 0.5253 || 0.1401 || 0.035
+|-
+| rowspan="2" | Abyss Lector || Ley Line Plant || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Statuette || - || 0.5253 || 0.1401 || 0.035
+|-
+| Rifthound Whelp || Claw || - || 2.6263 || 0.7003 || 0.1751
+|-
+| Rifthound || Claw || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Ruin Guard || Machine Part || - || 2.6263 || 0.7003 || 0.1751
+|-
+| Ruin Hunter || Machine Part || - || 2.6263 || 0.7003 || 0.1751
+|-
+| Ruin Grader || Machine Part || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Ruin Sentinel || Sentinel Part || - || 2.6263 || 0.7003 || 0.1751
+|-
+| rowspan="2" | Fatui Agent || Fatui Insignia || 0.5253 || 0.1401 || 0.035 || -
+|-
+| Knife || - || 5.2526 || 1.4006 || 0.3502
+|-
+| rowspan="2" | Fatui Cicin Mage || Fatui Insignia || 0.5253 || 0.1401 || 0.035 || -
+|-
+| Mist Grass || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Fatui Mirror Maiden || Prism || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Geovishap Hatchling || Bone Shard || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Geovishap || Bone Shard || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Bathysmal Vishap Hatchling || Bone Shard || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Bathysmal Vishap Primordial || Bone Shard || - || 5.2526 || 1.4006 || 0.3502
+|-
+| Shadowy Husks || Statuette || - || 6.5658 || 1.7508 || 0.4378
+|-
+| Black Serpent Knight || Statuette || - || 6.5658 || 1.7508 || 0.4378
+|}
+
+==References==
+{{Reflist}}
+[[Category:Game System Subpages]]

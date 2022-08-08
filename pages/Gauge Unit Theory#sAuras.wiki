@@ -1,0 +1,250 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Auras
+|tab3 = Talents
+}}
+{{Community}}
+{{See also|Internal Cooldown/Data}}
+This discusses special cases regarding Elemental Auras. (Note that these are different from the [[Auras]] that can be found in some domains.)
+
+An aura refers to an element present on an enemy or character (often the first element used in an [[Elemental Reaction]]).
+
+==Aura Tax==
+If an aura is created from an elemental attack, there will be an Aura Tax, which reduces 20% of the gauge.
+
+<math>\text{Gauges}_\text{Aura} = 0.8 \times \text{Gauges}_\text{Elemental Attack}</math>
+
+==Swirl Aura==
+The swirl aura is the aura created from the [[Swirl]] reaction.
+
+===Swirl Aura Gauges===
+There is a special feature for the gauges of swirl attack:
+<math>\text{Gauges}_\text{Swirl Attack} = (\text{Gauges}_\text{Reaction} - 0.04) \times 1.25 + 1</math>
+<div style="overflow-x:auto;">
+<math>\text{Gauges}_\text{Reaction} =
+  \begin{cases}
+    \text{Gauges}_\text{Anemo} & \text{Gauges}_\text{Origin Aura} \ge 0.5 \times \text{Gauges}_\text{Anemo} \\
+    \text{Gauges}_\text{Origin Aura} & \text{Gauges}_\text{Origin Aura} < 0.5 \times \text{Gauges}_\text{Anemo}
+  \end{cases}</math>
+</div>
+*'''Origin Aura''' means the aura with Pyro/Hydro/Electro/Cryo. It considers the gauge decay.
+
+There is also an Aura Tax for the swirl aura.
+
+<math>\text{Gauges}_\text{Swirl Aura} = 0.8 \times \text{Gauges}_\text{Swirl Attack}</math>
+
+===Swirl Aura Duration===
+<math>\text{Duration}_\text{Swirl Aura} = 2.5 \times \text{Gauges}_\text{Swirl Attack} + 7 </math>
+
+The time is in seconds.
+
+==Frozen==
+'''Frozen''' is a state created by the [[Frozen]] reaction. The Freeze state is maintained by the Frozen Aura.
+
+The Frozen Aura is a sibling aura to Cryo, but it has certain special properties:
+#Frozen doesn't react with Hydro
+#The Frozen Aura Gauge can be depleted by [[poise]] damage from [[Blunt Attack]]s. More details can be found in [[Shields/Enemy]].
+
+===Frozen Aura Gauges===
+<math>\text{Gauge}_\text{Frozen Aura} = 2 \times \text{Gauge}_\text{Reaction}</math>
+
+<div style="overflow-x:auto;">
+<math>\text{Gauge}_\text{Reaction} =
+\min(\text{Gauge}_\text{Origin Aura}, \text{Gauge}_\text{Trigger Element})
+</math>
+</div>
+* '''Origin Aura''' means the aura with Hydro or Cryo. It considers the gauge decay.
+
+===Frozen Aura Duration===
+The Frozen Aura Duration is supposedly given by the following formulae:
+<div style="overflow-x:auto;">
+:<math>\begin{align}
+\text{Gauge}_\text{Frozen Aura} &= 2\min(\text{Gauge}_\text{Origin Aura}, \text{Gauge}_\text{Trigger Element}) \times (1 - \text{Frozen Resistance}_\text{Target})\\
+\text{Frozen Duration} &= 2\sqrt{5\times \text{Gauge}_\text{Frozen Aura} + 4} - 4
+\end{align}</math>
+</div>
+The time is in seconds.
+
+For calculating the gauge of the Origin Aura when Frozen, the following formula can be used. (Note that this does not apply to enemies with innate auras)
+<div style="overflow-x:auto;">
+:<math>
+\text{Gauge}_\text{Origin Aura When Frozen} = (0.8 \times \text{Gauge}_\text{Origin Element}) \times (1 - \frac{\text{Time Between Applications of Origin and Trigger Elements}}{2.5 \times \text{Gauge}_\text{Origin Element} + 7})
+</math>
+</div>
+
+Derivation of formula: this accounts for the aura tax (multiply by 0.8) and assumes linear decay of the initial aura for the time between Cryo and Hydro application. <math>{2.5 \times \text{Gauge}_\text{Origin Element} + 7}</math> is the duration for 1A, 2B, 4C type applications (for the initial Cryo or Hydro aura applied before the Frozen reaction). Dividing the time between Cryo and Hydro application by the duration gives the portion of the gauge depleted. The portion of the gauge remaining is 1 minus that (assuming a linear decay model).
+
+====Frozen Resistance====
+'''Frozen Resistance''' reduces the Frozen Aura gauge by a certain percentage. Currently, only the the [[Abyss Herald: Wicked Torrents]] can grant itself a Frozen Resistance of '''80%''' while in its shielded state.
+
+===Shatter===
+When there is a Blunt attack to the target with the Frozen Aura, Shatter will be triggered and the gauge of Frozen Aura will decrease by 8. When the Frozen Aura gauge hits 0, the target will no longer be frozen.
+<div style="overflow-x:auto;">
+<math>\text{Gauge}_\text{Frozen Aura} =
+(\text{Initial Gauge}_\text{Frozen Aura} - 8)_+
+</math>
+</div>
+
+* The + denotes the positive part of the expression (it is 0 if the expression is non-positive).
+* '''Initial Gauge''' considers the gauge decay.
+
+===Coexistence of Elements===
+Cryo and Hydro auras can coexist with the Frozen Aura. This phenomenon is referred to as '''Underlying Cryo''' or '''Underlying Hydro'''.
+
+Underlying Cryo and Hydro have the following interactions with Anemo/Electro/Pyro/Geo:
+
+When non-Blunt Anemo is applied to a Frozen target: 
+* The Underlying Aura will react first.
+* If the gauge of the triggering Anemo is not fully consumed after triggering a Hydro Swirl and depleting Underlying Hydro, it will continue to react with Frozen to cause a Cryo Swirl.
+* If the gauge of the triggering Anemo is not fully consumed after triggering a Cryo Swirl depleting Underlying Cryo, it will continue to consume the Frozen gauge but will ''not'' trigger any extra reactions.
+
+When non-Blunt Electro is applied to a Frozen target:
+* Electro will react with the Underlying Cryo for a Superconduct reaction.
+** If the gauge of the triggering Electro is not fully consumed after depleting Underlying Cryo, it will continue to consume the Frozen gauge but will ''not'' trigger any extra reactions.
+* Electro ''cannot'' react with Underlying Hydro.
+
+When non-Blunt Pyro is applied to a Frozen target:
+* Pyro will react with and consume ''both'' Underlying Cryo and Frozen simultaneously for a Melt reaction.
+* Pyro ''cannot'' react with Underlying Hydro.
+
+When Geo is applied to a Frozen target:
+* Geo will always trigger Shatter first, then react with the underlying element to produce the corresponding elemental shield.
+
+==Electro-Charged==
+Shock is a state created by [[Electro-Charged]]. Shock is maintained by Electro Aura and Hydro Aura. Once one of auras is depleted, the shock state will '''not''' exist.
+
+===Special Decay===
+Besides the normal decaying, there is a special decaying for both auras in Shock State. Both auras will lose '''0.4U''' gauges '''per tick''' of DoT.
+
+===Coexistence of Elements===
+During the Shock state, Electro and Hydro will coexist and decay at their regular rates.
+
+When Pyro/Cryo/Anemo/Geo is applied to the target with Shock state, the Electro aura will always react with them first. If the Electro aura is consumed but there are still left over gauges of the triggering element, the leftover triggering element will continue to react with the next aura.
+
+==Burning==
+The [[Burning]] reaction produces a '''2U''' Burning Aura regardless of the gauges of Pyro/Dendro used to trigger it, which can react with and be consumed by Hydro/Electro/Anemo/Geo. The Burning Aura does ''not'' decay. 
+
+While Burning, all three auras will coexist. The Burning state requires both the Burning Aura and the Dendro Aura to maintain, and will end if either is depleted. Note that the Pyro Aura is ''not'' required for maintaining Burning, and depleting the Underlying Pyro Aura without depleting the Burning Aura will not extinguish the Burning state.
+
+===Special Decay===
+While Burning, the Pyro and Dendro auras will decay at their regular rates. Additionally, the Dendro Aura will be affected by an additional consumption of '''0.4U''' per second.
+
+===Coexistence of Elements===
+When Hydro/Electro/Anemo/Geo is applied to a Burning target with coexisting Burning and Underlying Pyro auras, both auras will be consumed equally.
+
+==Self Auras==
+Self Auras or Elemental Effect Auras refer to elements applied to a player's character via elemental effects. These include the Pyro Aura from Bennett's Burst, the Hydro Aura from [[water]], the Cryo Aura from [[Condensed Ice]], etc. In general, they can arise from the environment (campfires and water), talents that imbue a character with an element, [[Ley Line Disorders]], and enemy elemental attacks.
+
+These auras have some different features from the auras of elemental attacks:
+#Their durations are fixed and are not determined by gauges.
+#Their durations can be infinite, like the auras from elemental shields and [[Elemental Nodes]].
+#There is '''no''' Aura Tax on them.
+
+Moreover:
+* When another element triggers a reaction with the self aura, if it has a higher gauge unit value than the self aura, the self aura will transition directly to the other element.
+* Self Auras can serve as sources for [[Elemental Absorption]].
+
+Below is a list of Self Auras<ref>Source Data: [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp Self Auras]</ref>:
+{| class="wikitable"
+|-
+! Source
+! Element
+! Gauge Units
+! Duration (Seconds)
+|-
+| {{Talent|Dandelion Breeze|20|nobr=1}}
+| {{Color|Anemo}}
+| 1
+| 0.2
+|-
+| {{Enemy|Dendro Samachurl|20}} Dendro Field
+| {{Color|Dendro}}
+| 4
+| 8
+|-
+| {{Enemy|Large Dendro Slime|20}} Toxic Seeds
+| {{Color|Dendro}}
+| 4
+| 5
+|-
+| {{Talent|Lightning Fang|20|nobr=1}}
+| {{Color|Electro}}
+| 1
+| 2.1
+|-
+| {{Talent|Tidecaller|20|nobr=1}}
+| {{Color|Electro}}
+| 1
+| 2
+|-
+| {{Talent|Icy Paws|20|nobr=1}}
+| {{Color|Cryo|Frozen}}
+| 2
+| 0.1
+|-
+| {{Enemy|Enter the Golden House|20}} Arena Barrier
+| {{Color|Pyro}}
+| 2
+| 0.5
+|-
+| {{Talent|Blazing Blessing|20|nobr=1}}
+| {{Color|Pyro}}
+| 1
+| 1
+|-
+| {{Talent|Fantastic Voyage|20|nobr=1}}
+| {{Color|Pyro}}
+| 1
+| 2.1
+|-
+| {{Talent|Sweeping Fervor|20|nobr=1}}
+| {{Color|Pyro}}
+| 1
+| 1
+|-
+| [[Water]]
+| {{Color|Wet}}
+| 1.6
+| 8
+|-
+| [[Hydro Amber]]
+| {{Color|Wet}}
+| 1
+| 3
+|-
+| {{Enemy|Hydro Samachurl|20}} Soothing Rain
+| {{Color|Wet}}
+| 2
+| 8
+|-
+| Melee Attacking a {{Enemy|Hydro Slime|20}}
+| {{Color|Wet}}
+| 1
+| 10
+|-
+| Melee Attacking a {{Enemy|Large Hydro Slime|20}}
+| {{Color|Wet}}
+| 2
+| 10
+|-
+| {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1}}
+| rowspan="2"| {{Color|Wet}}
+| rowspan="2"|1
+| rowspan="2"|0.5
+|-
+| {{Talent|Guhua Sword: Raincutter|20|nobr=1}}
+|-
+| {{Talent|Kurage's Oath|20|nobr=1}}
+| {{Color|Wet}}
+| 1
+| 0.2
+|-
+| {{Talent|Let the Show Begin♪|20|nobr=1}}
+| {{Color|Wet}}
+| 1
+| 0.3
+|}
+
+==References==
+{{Reflist}}
+[[Category:Gauge Unit Theory]]

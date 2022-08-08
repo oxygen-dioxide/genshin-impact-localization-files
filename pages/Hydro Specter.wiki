@@ -1,0 +1,114 @@
+{{Enemy Infobox
+|image    = Enemy Hydro Specter.png
+|type     = Common Enemies
+|element  = Hydro
+|family   = Elemental Lifeforms
+|group    = Specters
+|location = [[Seirai Island]], [[Inazuma]]<br />[[Watatsumi Island]], Inazuma
+|ability1 = Healing
+|ability2 = Fury
+}}
+{{Description|A monster birthed from a high concentration of Hydro that can float in the air.<br />On moonlit nights, Hydro Specters will give off a ghostly glow as they float by the riverbank. Their furtive forms are often mistaken by passers-by for wandering spirits, which has made them mainstays in quite a few folktales.|[[Archive]]}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Specters}}
+
+==Stats==
+{{Enemy Stats
+|hydro_res = Immune
+|hp_ratio  = 1.6
+|hp_type   = 2
+|atk_ratio = 1.4
+|atk_type  = 2
+}}
+
+==Abilities and Attacks==
+*'''Fury:''' Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
+*'''Water Spit:''' Shoots a slow homing bubble that deals '''100% ATK''' as {{Color|Hydro DMG}}.
+*'''Splash Burst:''' Spins before summoning a splash at the location of the player, dealing '''100% ATK''' as {{Color|[[AoE]] Hydro DMG}}. Any enemies in the AoE will be [[heal]]ed by '''40%''' of their Max [[HP]].
+*'''Squeeze Out:''' Squeezes itself out, before releasing a splash around itself dealing '''125% ATK''' as {{Color|AoE Hydro DMG}}. This attack will only occur at max fury and will be the only attack it uses in that state.
+*'''Final Burst:''' Explodes after a short pause when defeated, dealing '''125% ATK''' as {{Color|AoE Hydro DMG}}. If at max Fury, DMG is increased to '''150% ATK''', and if enemies are nearby, the explosion will also release bubbles that track nearby enemies and heal them by '''20%''' of their Max HP.
+
+===Preview===
+{{Preview
+|size=185px
+|file1=Hydro Specter Water Split
+|caption1=Water Spit
+
+|file2=Hydro Specter Splash Burst
+|caption2=Splash Burst
+
+|file3=Hydro Specter Squeeze Out
+|caption3=Squeeze Out
+
+|file4=Hydro Specter Final Burst
+|caption4=Final Burst
+
+|file5=Hydro Specter Final Burst Fury
+|caption5=Final Burst (Max Fury)
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet all of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+{| class="wikitable"
+! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Action Interval (s)
+|-
+| rowspan="2" | Normal || Water Spit || 5–18 || 2 || 7.5 || rowspan="3" | 3.5
+|-
+| Splash Burst || 0–12 || 3 || 4.5
+|-
+| Max Fury || Squeeze Out || 0–5.5 || — || 0.5
+|}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Hydro Specter Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Hydro Specter
+|zhs     = 水飘浮灵
+|zhs_rm  = Shuǐ Piāofú-líng
+|zht     = 水飄浮靈
+|zht_rm  = Shuǐ Piāofú-líng
+|zh_tl   = {{Lex|Hydro|zh}} {{Lex|Specter|zh}}
+|ja      = 水フライム
+|ja_rm   = Mizu Furaimu{{Assumed}}
+|ja_tl   = {{Lex|Hydro|ja}} {{Lex|Specter|ja}}
+|ko      = 떠도는 물의 {{tt|정령|精靈}}
+|ko_rm   = Tteodoneun Mul-ui Jeongryeong
+|ko_tl   = {{Lex|Hydro|ko}} {{Lex|Specter|ko}}
+|es      = Espectro Hydro
+|es_tl   = Hydro Specter
+|fr      = Spectre Hydro
+|fr_tl   = Hydro Specter
+|ru      = Гидро призрак
+|ru_tl   = Hydro Specter
+|th      = Hydro Specter
+|vi      = Bóng Ma - Thủy
+|vi_tl   = Specter - {{Lex|Hydro|vi}}
+|de      = Hydro-Gespenst
+|de_tl   = Hydro Specter
+|id      = Hydro Specter
+|pt      = Espectro Hydro
+|pt_tl   = Hydro Specter
+}}
+
+==Change History==
+{{Change History|2.1}}
+
+==Navigation==
+{{Enemy Navbox|Common}}
+
+[[es:Espectro Hydro]]
+[[pt-br:Espectro Hydro]]

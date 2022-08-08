@@ -1,0 +1,163 @@
+{{Enemy Infobox
+|title    = Ayin
+|image    = Enemy Pyro Hypostasis.png
+|element  = Pyro
+|type     = Normal Bosses
+|family   = Elemental Lifeforms
+|group    = Hypostases
+|location = [[Kannazuka]], [[Inazuma]]
+|ability1 = Healing
+|ability2 = Shield
+|ability3 = Invincibility Frames
+|ability4 = Fury
+|drops    = Smoldering Pearl
+}}
+{{Description|Code Name: Ayin. A high-purity [[Pyro]] entity.<br />Elemental hypostases have the ability to often enter a sort of "emergency restart" phase when they are about to be destroyed and can revive themselves in this way.<br />Such rapid regeneration is not possessed even by most creatures for whom survival is the top priority.|[[Adventurer Handbook]]}}
+{{Enemy Intro}}
+
+==Rewards==
+{{World Boss Rewards
+|gem       = Agnidus Agate
+|exclusive = Smoldering Pearl
+|sets      = Adventurer,Instructor,Berserker,Prayers for Illumination
+}}
+
+==Stats==
+{{Enemy Stats
+|pyro_res     = Immune
+|atk_ratio    = 6
+|hp_ratio     = 7
+|hp_type      = 1
+}}
+
+==Abilities and Attacks==
+Note: Ability and attack names are unofficial except '''3-Hit Combo''' and '''Tinders'''.
+
+===Ignited State===
+In the ignited state, if its HP is less than 50%, it will regenerate 5% HP after every attack, including after reigniting.
+*'''3-Hit Combo:''' Arranges itself as a molten bull that charges at the player before periodically surfacing above ground, then turns into a giant crab that leaps into the player's general location, lastly emerges at the player's general location and explodes, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} with each hit and leaving a swarm of butterflies that deals '''33% ATK''' as {{Color|Pyro DMG}} upon contact.
+*'''Fire Ball:''' Forms itself into a giant ball that rolls around the arena and curves at the player's location, dealing '''50% ATK''' as {{Color|Pyro DMG}} upon contact.
+*'''Molten Fist:''' When near player, it levitates high above ground, and plunges back down, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}}. This creates an expanding Shockwave that deals '''100% ATK''' as {{Color|AoE Pyro DMG}} with each explosion.
+*'''Fire Serpent:''' Arranges itself into a Pyro Serpent that fires 3 waves of fireballs at the player's general location. Each fireball deals '''100% ATK''' as {{Color|Pyro DMG}}.
+*'''Pyro Nuke:''' Forms a giant ball that cracks open slowly. After some amount of time, it causes a heavy explosion that deals '''250% ATK''' as {{Color|AoE Pyro DMG}} over the whole arena. This attack cannot be dodged using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
+
+====Preview====
+{{Preview
+|size=185px
+|file1=Pyro Hypostasis 3 Hit Combo
+|caption1=3-Hit Combo
+
+|file2=Pyro Hypostasis Roll
+|caption2=Fire Ball
+
+|file3=Pyro Hypostasis Molten Fist
+|caption3=Molten Fist
+
+|file4=Pyro Hypostasis Fire Serpent
+|caption4=Fire Serpent
+
+|file5=Pyro Hypostasis Nuke
+|caption5=Pyro Nuke
+}}
+
+===Extinguished State===
+While in its extinguished state, the Pyro Hypostasis cycles between "Missiles", "Molten Pillars", and "Tinders" until it has been reignited.
+* '''Missiles:''' Flies into the air and forms a rhombus with its shell pieces, firing them quickly from top to bottom, each dealing '''50% ATK''' as {{Color|Pyro DMG}}. The core will be exposed during this attack.
+*'''Molten Pillars:''' Creates a barrier of sorts around itself, targeting random areas and sending a pillar at said locations, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} before recalling them, leaving a patch of fire in said area.
+** The pillars will not target areas close to the core.
+*'''Clap:''' Flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} in front of the wall.
+*'''Tinders:''' Spins around while taking on the form of a rocket, deploying three Tinders to reignite itself.
+**If no Tinders are destroyed, the Pyro Hypostasis will return to its Ignited State.
+**If at least one Tinder is destroyed, at the end of this ability, the [[Fury]] bar will be partially filled. The amount of Fury accumulated is calculated as <math>\text{Remaining Amount of Tinders} \times 20\% + 27\%</math>.
+**If Fury reaches max from multiple attempts at reignition, the Pyro Hypostasis will return to its Ignited State, even if one or more Tinders are destroyed.
+
+====Preview====
+{{Preview
+|size=185px
+|file1=Pyro Hypostasis Missiles
+|caption1=Missiles
+
+|file2=Pyro Hypostasis Molten Pillars
+|caption2=Molten Pillars
+
+|file3=Pyro Hypostasis Clap
+|caption3=Clap
+
+|file4=Pyro Hypostasis Tinders
+|caption4=Tinders
+}}
+
+==Strategy==
+Upon initiating the fight, the Pyro Hypostasis starts in its '''Ignited State'''. In this state, the Pyro Hypostasis is protected by a {{Pyro}} shield that enhances its attacks, and it will not expose its core while in this state. The shield is most effectively removed by {{Hydro}} attacks, including damageless applications of the [[Wet]] status, such as from [[Let the Show Begin♪]]'s Melody Loop, [[Guhua Sword: Fatal Rainscreen]]'s Rain Swords, or Mona's alternate dash from [[Illusory Torrent]].
+
+Removing the shield takes 14 units of {{Hydro}}; 28 units of {{Electro}}; and 56 units {{Cryo}}, {{Anemo}}, or {{Geo}}. This makes {{Hydro}} the most efficient by far. See [[Shields/Shield Gauge Data]] for a general overview of enemy shield gauge values.
+
+After the shield is removed, the Pyro Hypostasis turns into its '''Extinguished State'''. Like the other Hypostases, the boss is only vulnerable whenever the core is exposed from attacking. A status icon will appear beneath the right edge of the boss' health bar to indicate how close it is to reignition. The boss will frequently attempt to reignite itself by planting three Tinders &mdash; this attack is indicated when the boss swirls around and forms a rocket-like appearance. If the Pyro Hypostasis reignites, it will allow it to regenerate health if below half health until extinguished once more.
+
+The Tinders are particularly weak to Hydro attacks, requiring only one application of Hydro each. It is important to destroy these Seeds as quickly as possible. While the boss will still gain [[Rage]] even if all three Seeds are destroyed, the rate it accumulates is significantly slowed.
+
+Unlike the other Hypostases, the Pyro Hypostasis does not have a critical health mechanic of its own, instead regenerating HP while in its Ignited State.
+
+Being an entity of pure {{Pyro}} energy, it is recommended to bring Hydro characters to take advantage of [[Vaporize]] reactions, as Hydro characters deal at least twice as much damage when applying Hydro onto Pyro. While Cryo characters may be used, it is slightly less effective than Hydro, only dealing at least 1.5 times as much damage as normal when applying Cryo onto Pyro.
+
+==Achievements==
+{{Achievement Topic Table|topic=Pyro Hypostasis}}
+
+==Trivia==
+* Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Ayin"|he=ע|he_rm=ʿayin}} being named after the sixteenth.
+** This is the first time it isn't named in sequential order; as the fifth Hebrew letter is {{Lang|"He"|he=ה|he_rm=hē}}, which is the name of the [[Hydro Hypostasis]].
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Pyro Hypostasis Icon.png|Icon
+</gallery>
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/PCFp5rRIQwg
+|caption1 = How to Easily Beat the Pyro Hypostasis
+}}
+
+==Bellowing Blaze==
+{{Description|The abnormally high temperatures in northern [[Kannazuka]] have long caused a burning crystal to take form.<br />Defeat the Pyro Hypostasis in northern Kannazuka and quench the wild flames.}}
+[[File:Bellowing Blaze.png|400px]]
+
+==Other Languages==
+{{Other Languages
+|en      = Pyro Hypostasis
+|zhs     = 无相之火
+|zhs_rm  = Wúxiàng zhī Huǒ
+|zht     = 無相之火
+|zht_rm  = Wúxiàng zhī Huǒ
+|zh_tl   = Signless Fire
+|ja      = {{Rubi|無|む|相|そう|の|&nbsp;|炎|ほのお}}
+|ja_rm   = Musou no Honoo
+|ja_tl   = Signless Fire
+|ko      = 무상의 불
+|ko_rm   = Musang-ui Bul
+|ko_tl   = Signless Fire
+|es      = Hipostasis Pyro
+|es_tl   = Pyro Hypostasis
+|fr      = Hypostase Pyro
+|fr_tl   = Pyro Hypostasis
+|ru      = Пиро гипостазис
+|ru_tl   = Pyro Hypostasis
+|th      = Pyro Hypostasis
+|vi      = Hỏa Nguyên Bản
+|vi_tl   = Prototype Pyro
+|de      = Pyro-Hypostase
+|de_tl   = Pyro Hypostasis
+|id      = Pyro Hypostasis
+|pt      = Hypostasis Pyro
+|pt_tl   = Pyro Hypostasis
+}}
+
+==Change History==
+{{Change History|2.0}}
+
+==Navigation==
+{{Enemy Navbox|type=bosses}}
+
+[[es:Hipostasis Pyro]]
+[[pt-br:Hypostasis Pyro]]
+[[uk:Беззнакове піро]]

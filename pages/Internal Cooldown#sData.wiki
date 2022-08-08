@@ -1,0 +1,568 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Data
+}}
+{{Community}}
+{{See also|Gauge Unit Theory/Auras}}<!--this is for aura stuff, below info is for ICD stuff-->
+The following is Character data for internal cooldown of elemental application as well as additional details on related parameters and mechanics.
+
+==Parameters==
+There are two parameters handling the ICD system. They are '''ICD Tag''' and '''ICD Type''':
+
+'''ICD Tag''', internally named "Attenuation Tag", determines whether an attack has an ICD, or whether many attacks share the ICD. 
+*If an attack has the ICD Tag, the attack will have an ICD.
+*If two attacks have the same ICD Tag, both attacks will share the ICD.
+
+'''ICD Type''', internally named "Attenuation Group", determines the hit counter and the timer for ICD.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/72c9112a7c5e8e5014f61009a1a2764e266aeab7/BinOutput/Common/ConfigGlobalCombat.json#L890 ICD Type]</ref>
+In an ICD Type, there are two subparameters: '''Reset Interval''' which affects the timer, and '''Gauge Sequence''' which affects the hit counter.
+{| class="fandom-table sortable"
+! ICD Type !! Reset Interval (Second) !! Gauge Sequence<sup>1</sup>
+|-
+| Default || 2.5 || '''''1 0 0''''' as the repetend<sup>2</sup>
+|-
+| Thrusting Attack || 0.5 || '''''1 0 0''''' as the repetend
+|-
+| Amber || 1 || '''''1 0 0''''' as the repetend
+|-
+| Fischl || 5 || '''''1 0 0 0''''' as the repetend
+|-
+| Diluc || 5 || '''''1 0 0 0 0''''' as the repetend
+|-
+| Venti || 1 || '''''1 0 0''''' as the repetend
+|-
+| Xiao Skill || 0.1 || Only the 1st is '''''1''''', others are 0
+|-
+| Ayaka Charged Attack || 0.5 || Only the 1st is '''''1''''', others are 0
+|-
+| Shenhe Press Skill || 0.1 || Only the 1st is '''''1''''', others are 0
+|-
+| Yae Charged Attack || 0.5 || Only the 1st is '''''1''''', others are 0
+|-
+| Yelan Charged Attack || 0.3 || Only the 1st is '''''1''''', others are 0
+|-
+| Yelan Burst || 2 || '''''1 0 0''''' as the repetend
+|}
+#The length of the sequences are finite. They usually repeat 8 times
+#*For example, the gauge sequence of Default Group is ['''1''' 0 0 '''1''' 0 0 '''1''' 0 0 '''1''' 0 0 '''1''' 0 0 '''1''' 0 0 '''1''' 0 0 '''1''' 0 0]
+#'''1''' means that the corresponding attack will apply an element, while '''0''' means that it will not.
+
+==Possible Mechanics==
+''Note: Below are just assumptions about how ICD works.''
+#The counter is bound to the target, so that different target can calculate the cooling separately.
+#When a character's corresponding attack hits the enemy for the first time, the system may generate a counter. The counting rule adopts the data in the corresponding ICD Type, and the counting object (attacks) are determined according to the ICD Tag.
+#If there are two types of attacks that share the same ICD Tag, then the two types of attacks are combined into one counting object. If an attack does not have an ICD Tag, it is possible that even the counter does not need to be generated.
+#For different counting objects, the system generates different counters. In this way, it can be ensured that when the same character attacks, the two attacks that do not share the ICD Tag can calculate the cooldown separately.
+#In order to ensure that the attacks between different characters calculate the cooldown separately, some mechanisms may be added to archive the function.
+#*In other words, even if the heavy blows of two characters have "Charged Attack" as the ICD Tag, some mechanisms are used to distinguish the heavy blows from different characters and identify them as different technical objects to ensure the realization of the function.
+#Because the length of the sequence in the ICD Type is finite, the "cooldown reset" essentially means returning the state of the counter to the initial state after a period of time after the start of the count. In the initial state of the counter, it starts counting from the first bit of the sequence.
+#*In other words, every time a cooldown reset is performed, it is equivalent to counting from the first position of the sequence.
+#Even when the cooldown resets, the system will delete the corresponding counter, it will not affect the cooldown mechanism. When the counter is regenerated, it also counts from the first one of the sequence.
+
+==Character Normal Attack==
+{| class="fandom-table sortable"
+! Character !! Ability !! ICD Tag !! ICD Type
+|-
+| Most Melee Characters || Normal Attack || Normal Attack || Default
+|-
+| Most [[Bows|Bow Characters]] || Normal Attack || <small>(No ICD)</small> || Default
+|-
+| Most [[Catalysts|Catalyst Characters]] || Normal Attack || Normal Attack || Default
+|-
+| {{Character|Aloy|20|nobr=1}} || {{Talent|Rapid Fire|20|nobr=1|type=1}} ({{Talent|Frozen Wilds|20|nobr=1|text=Converted}}) || Rushing Ice Attack || Default
+|-
+| {{Character|Barbara|20|nobr=1}} || {{Talent|Whisper of Water|20|nobr=1|type=1}} || Barbara Hydro DMG || Default
+|-
+| {{Character|Klee|20|nobr=1}} || {{Talent|Kaboom!|20|nobr=1|type=1}} || Klee Pyro DMG || Default
+|-
+| {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Touch|20|nobr=1|type=1}} || Lisa Electro DMG || Default
+|-
+| {{Character|Mona|20|nobr=1}} || {{Talent|Ripple of Fate|20|nobr=1|type=1}} || Mona Hydro DMG || Default
+|-
+| {{Character|Noelle|20|nobr=1}} || {{Talent|Favonius Bladework - Weiss|20|nobr=1|type=1}} ({{Talent|Sweeping Time|20|nobr=1|text=Converted}}) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Converted Normal Attack)  || Musou Isshin Attack || Default
+|-
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|The Shape of Water|20|nobr=1|type=1}} || Kokomi Hydro DMG || Default
+|-
+| rowspan="3" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Converted Normal Attack) || Foul Legacy || Default
+|-
+| {{Talent|Cutting Torrent|20|nobr=1|type=1}} (Riptide Flash) || Riptide || Default
+|-
+| {{Talent|Cutting Torrent|20|nobr=1|type=1}} (Riptide Burst) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Yanfei|20|nobr=1}} || {{Talent|Seal of Approval|20|nobr=1|type=1}} || Yanfei Pyro DMG || Default
+|-
+| {{Character|Yoimiya|20|nobr=1}} || {{Talent|Firework Flare-Up|20|nobr=1|type=1}} ({{Talent|Niwabi Fire-Dance|20|nobr=1|text=Converted}}) || Normal Attack || Default
+|}
+
+==Character Charged Attacks==
+{| class="fandom-table sortable"
+! Character !! Ability !! ICD Tag !! ICD Type
+|-
+| Most [[Swords|Sword]]/[[Claymores|Claymore]] Characters || Charged Attack || Normal Attack || Default
+|-
+| Most [[Polearms|Polearm]] Characters || Charged Attack || Charged Attack || Thrusting Attack
+|-
+| Most [[Catalysts|Catalyst]]/[[Bows|Bow Characters]] Characters || Charged Attack || <small>(No ICD)</small> || Default
+|-
+| {{Character|Amber|20|nobr=1}} || {{Talent|Sharpshooter|20|nobr=1|text=Charged Attack}} || Charged Attack || Amber
+|-
+| {{Character|Diona|20|nobr=1}} || {{Talent|Kätzlein Style|20|nobr=1|text=Charged Attack}} || Charged Attack || Default
+|-
+| {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Kabuki|20|nobr=1|text=Charged Attack}} || Charged Attack || Ayaka Charged Attack
+|-
+| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Marobashi|20|nobr=1|text=Charged Attack}} || Charged Attack || Thrusting Attack
+|-
+| rowspan="2" | {{Character|Noelle|20|nobr=1}} || {{Talent|Favonius Bladework - Weiss|20|nobr=1|text=Charged Attack}} || Normal Attack || Default
+|-
+| {{Talent|Favonius Bladework - Weiss|20|nobr=1|text=Charged Attack}} ({{Talent|Sweeping Time|20|nobr=1|text=Converted}}) || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Ningguang|20|nobr=1}} || {{Talent|Sparkling Scatter|20|nobr=1|text=Charged Attack}} || Charged Attack || Default
+|-
+| {{Talent|Sparkling Scatter|20|nobr=1|text=Charged Attack}} (Star Jade) || Charged Attack || Default
+|-
+| rowspan="2" | {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Origin|20|nobr=1|text=Charged Attack}}  || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Converted Charged Attack)  || Musou Isshin Attack || Default
+|-
+| {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1}} (Converted Charged Attack) || Charged Attack || Default
+|-
+| {{Character|Venti|20|nobr=1}} || {{Talent|Divine Marksmanship|20|nobr=1|text=Charged Attack}} || Charged Attack || Venti
+|-
+| rowspan="2" | {{Character|Xiao|20|nobr=1}} || {{Talent|Whirlwind Thrust|20|nobr=1|text=Charged Attack}} || Normal Attack || Default
+|-
+| {{Talent|Whirlwind Thrust|20|nobr=1|text=Charged Attack}} ({{Talent|Bane of All Evil|20|nobr=1|text=Converted}}) || Normal Attack || Default
+|-
+| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Spiritfox Sin-Eater|20|nobr=1|text=Charged Attack}} || Charged Attack || Yae Charged Attack
+|-
+| {{Character|Yelan|20|nobr=1}} || {{Talent|Stealthy Bowshot|20|nobr=1|text=Charged Attack}} (Breakthrough Barb) || Breakthrough Barb || Yelan Charged Attack
+|-
+| {{Character|Yoimiya|20|nobr=1}} || {{Talent|Firework Flare-Up|20|nobr=1|text=Charged Attack}} (Kindling Arrows) || Charged Attack || Default
+|}
+
+==Character Plunging Attacks==
+{| class="fandom-table sortable"
+! Character !! Ability !! ICD Tag !! ICD Type
+|-
+| All Characters || Plunging Attack || <small>(No ICD)</small> || Default
+|}
+
+==Character Elemental Skills==
+{| class="sortable mw-collapsible fandom-table"
+! Character !! Ability !! ICD Tag !! ICD Type
+|-
+| rowspan="2" | {{Character|Albedo|20|nobr=1}} || {{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}} (Transient Blossom) || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Aloy|20|nobr=1}} || {{Talent|Frozen Wilds|20|nobr=1|type=1}} (Freeze Bomb) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Frozen Wilds|20|nobr=1|type=1}} (Chillwater Bomblets) || Elemental Skill || Default
+|-
+| {{Character|Amber|20|nobr=1}} || {{Talent|Explosive Puppet|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Arataki Itto|20|nobr=1}} || {{Talent|Masatsu Zetsugi: Akaushi Burst!|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Barbara|20|nobr=1}} || {{Talent|Let the Show Begin♪|20|nobr=1|type=1}} (Activation) || Elemental Skill || Default
+|-
+| {{Talent|Let the Show Begin♪|20|nobr=1|type=1}} (Wet Status to Enemies in Contact) || Elemental Skill || Default
+|-
+| {{Character|Beidou|20|nobr=1}} || {{Talent|Tidecaller|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Bennett|20|nobr=1}} || {{Talent|Passion Overload|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Chonghua's Layered Frost|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Diluc|20|nobr=1}} || {{Talent|Searing Onslaught|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Diona|20|nobr=1}} || {{Talent|Icy Paws|20|nobr=1|type=1}} || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Eula|20|nobr=1}} || {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Press/Hold) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Icewhirl Brand) || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Fischl|20|nobr=1}} || {{Talent|Nightrider|20|nobr=1|type=1}} (Summoning) || <small>(No ICD)</small> || Fischl
+|-
+| {{Talent|Nightrider|20|nobr=1|type=1}} (Oz ATK) || Elemental Skill || Fischl
+|-
+| rowspan="2" | {{Character|Ganyu|20|nobr=1}} || {{Talent|Trail of the Qilin|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Trail of the Qilin|20|nobr=1|type=1}} (Explosion) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Gorou|20|nobr=1}} || {{Talent|Inuzaka All-Round Defense|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} (Blood Blossom) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Jean|20|nobr=1}} || {{Talent|Gale Blade|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} || <small>(No ICD)</small> ||Default
+|-
+| {{Character|Kaeya|20|nobr=1}} || {{Talent|Frostgnaw|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Hyouka|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} (Water Illusion) || Elemental Skill || Default
+|-
+| rowspan="3" | {{Character|Keqing|20|nobr=1}} || {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Lightning Stiletto) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Slashing) || Elemental Skill || Default
+|-
+| {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Thunderclap Slash) || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Klee|20|nobr=1}} || {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} (Bounce) || Klee Pyro DMG || Default
+|-
+| {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} (Mine) || Klee Pyro DMG || Default
+|-
+| {{Character|Kujou Sara|20|nobr=1}} || {{Talent|Tengu Stormcall|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Sanctifying Ring|20|nobr=1|type=1}} (Activation) || Elemental Skill || Default
+|-
+| {{Talent|Sanctifying Ring|20|nobr=1|type=1}} (DoT) || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Lisa|20|nobr=1}} || {{Talent|Violet Arc|20|nobr=1|type=1}} (Press) || Lisa Electro DMG || Default
+|-
+| {{Talent|Violet Arc|20|nobr=1|type=1}} (Hold) || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Mona|20|nobr=1}} || {{Talent|Mirror Reflection of Doom|20|nobr=1|type=1}} (DoT) || Elemental Skill || Default
+|-
+| {{Talent|Mirror Reflection of Doom|20|nobr=1|type=1}} (Explosion) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Ningguang|20|nobr=1}} || {{Talent|Jade Screen|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Noelle|20|nobr=1}} || {{Talent|Breastplate|20|nobr=1|type=1}} || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Herald of Frost|20|nobr=1|type=1}} (Activation) || Elemental Skill || Default
+|-
+| {{Talent|Adeptus Art: Herald of Frost|20|nobr=1|type=1}} (Herald of Frost) || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}} (Coordinated Attack) || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Razor|20|nobr=1}} || {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Press) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Hold) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Rosaria|20|nobr=1}} || {{Talent|Ravaging Confession|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|Kurage's Oath|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="3" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Rolling) || Elemental Skill Anemo || Default
+|-
+| {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Rolling Absorbed Element) || Elemental Skill Absorbed Element || Default
+|-
+| {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Kick Anemo and Absorbed Element) || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Shenhe|20|nobr=1}} || {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}} (Press) || Elemental Skill || Shenhe Press Skill
+|-
+| {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}} (Hold) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Heartstopper Strike|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Sucrose|20|nobr=1}} || {{Talent|Astable Anemohypostasis Creation - 6308|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Riptide Slash) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Thoma|20|nobr=1}} || {{Talent|Blazing Blessing|20|nobr=1|type=1}} || <small>(No ICD)</small> ||Default
+|-
+| rowspan="5" | {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Palm Vortex|20|nobr=1|type=1}} (Initial Cutting) || Elemental Skill Anemo || Default
+|-
+| {{Talent|Palm Vortex|20|nobr=1|type=1}} (Cutting) || Elemental Skill Anemo || Default
+|-
+| {{Talent|Palm Vortex|20|nobr=1|type=1}} (Cutting Absorbed Element) || Elemental Skill Absorbed Element || Default
+|-
+| {{Talent|Palm Vortex|20|nobr=1|type=1}} (Storm) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Palm Vortex|20|nobr=1|type=1}} (Storm Absorbed Element) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Lightning Blade|20|nobr=1|type=1}} || Elemental Skill || Default
+|-
+| {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Starfell Sword|20|nobr=1|type=1}} || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Venti|20|nobr=1}} || {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Press) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Hold) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Xiangling|20|nobr=1}} || {{Talent|Guoba Attack|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Xiao|20|nobr=1}} || {{Talent|Lemniscatic Wind Cycling|20|nobr=1|type=1}} || Elemental Skill || Xiao Skill
+|-
+| {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Xinyan|20|nobr=1}} || {{Talent|Sweeping Fervor|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Sweeping Fervor|20|nobr=1|type=1}} (DoT) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Yakan Evocation: Sesshou Sakura|20|nobr=1|type=1}} || Elemental Skill || Default
+|-
+| {{Character|Yanfei|20|nobr=1}} || {{Talent|Signed Edict|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Yelan|20|nobr=1}} || {{Talent|Lingering Lifeline|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Yun Jin|20|nobr=1}} || {{Talent|Opening Flourish|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Zhongli|20|nobr=1}} || {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (All DMG) || Elemental Skill || Default
+|}
+
+==Character Elemental Burst==
+{| class="sortable mw-collapsible fandom-table"
+! Character !! Ability !! ICD Tag !! ICD Type
+|-
+| rowspan="2" | {{Character|Albedo|20|nobr=1}} || {{Talent|Rite of Progeniture: Tectonic Tide|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Rite of Progeniture: Tectonic Tide|20|nobr=1|type=1}} (Fatal Blossom) || Elemental Burst || Default
+|-
+| {{Character|Aloy|20|nobr=1}} || {{Talent|Prophecies of Dawn|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Amber|20|nobr=1}} || {{Talent|Fiery Rain|20|nobr=1|type=1}} || Elemental Burst || Amber
+|-
+| rowspan="2" | {{Character|Beidou|20|nobr=1}} || {{Talent|Stormbreaker|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Stormbreaker|20|nobr=1|type=1}} (Lightning Discharge) || Elemental Burst || Default
+|-
+| {{Character|Bennett|20|nobr=1}} || {{Talent|Fantastic Voyage|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Cloud-Parting Star|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="3" | {{Character|Diluc|20|nobr=1}} || {{Talent|Dawn|20|nobr=1|type=1}} (Slashing) || Elemental Burst || Diluc
+|-
+| {{Talent|Dawn|20|nobr=1|type=1}} (DoT) || Elemental Burst || Diluc
+|-
+| {{Talent|Dawn|20|nobr=1|type=1}} (Explosion) || Elemental Burst || Diluc
+|-
+| rowspan="2" | {{Character|Diona|20|nobr=1}} || {{Talent|Signature Mix|20|nobr=1|type=1}} (Activation) || Elemental Burst || Default
+|-
+| {{Talent|Signature Mix|20|nobr=1|type=1}} (DoT) || Elemental Burst || Default
+|-
+| {{Character|Eula|20|nobr=1}} || {{Talent|Glacial Illumination|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Fischl|20|nobr=1}} || {{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}} (Falling Thunder) || Elemental Burst || Fischl
+|-
+| {{Character|Ganyu|20|nobr=1}} || {{Talent|Celestial Shower|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Gorou|20|nobr=1}} || {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Crystal Collapse) || Elemental Burst || Default
+|-
+| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Spirit Soother|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Jean|20|nobr=1}} || {{Talent|Dandelion Breeze|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Dandelion Breeze|20|nobr=1|type=1}} (Entering/Exiting) || <small>(No ICD)</small> || Default
+|-
+| rowspan="3" | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Kazuha Slash|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Kazuha Slash|20|nobr=1|type=1}} (DoT) || <small>(No ICD)</small> ||Default
+|-
+| {{Talent|Kazuha Slash|20|nobr=1|type=1}} (DoT Absorbed Element) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Kaeya|20|nobr=1}} || {{Talent|Glacial Waltz|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}} (Cutting) || Elemental Burst || Default
+|-
+| {{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}} (Bloom) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Suiyuu|20|nobr=1|type=1}}|| Elemental Burst || Default
+|-
+| rowspan="3" | {{Character|Keqing|20|nobr=1}} || {{Talent|Starward Sword|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| {{Talent|Starward Sword|20|nobr=1|type=1}} (Consecutive Slash) || Elemental Burst || Default
+|-
+| {{Talent|Starward Sword|20|nobr=1|type=1}} (Last Attack) || Elemental Burst || Default
+|-
+| {{Character|Klee|20|nobr=1}} || {{Talent|Sparks 'n' Splash|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Kujou Sara|20|nobr=1}} || {{Talent|Subjugation: Koukou Sendou|20|nobr=1|type=1}} (Titanbreaker) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Subjugation: Koukou Sendou|20|nobr=1|type=1}} (Stormcluster) || Elemental Burst || Default
+|-
+| {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Gyoei Narukami Kariyama Rite|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Rose|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Lightning Rose|20|nobr=1|type=1}} (DoT) || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Mona|20|nobr=1}} || {{Talent|Stellaris Phantasm|20|nobr=1|type=1}} (Activation) || Elemental Burst || Default
+|-
+| {{Talent|Stellaris Phantasm|20|nobr=1|type=1}} (Illusory Bubble Explosion) || Elemental Burst || Default
+|-
+| {{Character|Ningguang|20|nobr=1}} || {{Talent|Starshatter|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Noelle|20|nobr=1}} || {{Talent|Sweeping Time|20|nobr=1|type=1}} (Hit 1) || Elemental Burst || Default
+|-
+| {{Talent|Sweeping Time|20|nobr=1|type=1}} (Hit 2) || Elemental Burst || Default
+|-
+| {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Preserver of Fortune|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> ||Default
+|-
+| rowspan="2" | {{Character|Razor|20|nobr=1}} || {{Talent|Lightning Fang|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Lightning Fang|20|nobr=1|type=1}} (Soul Companion) || Elemental Burst Extra || Default
+|-
+| rowspan="2" | {{Character|Rosaria|20|nobr=1}} || {{Talent|Rites of Termination|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Rites of Termination|20|nobr=1|type=1}} (DoT) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|Nereid's Ascension|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}} (DoT) || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Shenhe|20|nobr=1}} || {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (DoT) || Elemental Burst || Default
+|-
+| {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Windmuster Kick|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Sucrose|20|nobr=1}} || {{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1|type=1}} (DoT) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1|type=1}} (DoT Absorbed Element) || <small>(No ICD)</small> || Default
+|-
+| rowspan="3" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Ranged) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Melee) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Riptide Blast) || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Thoma|20|nobr=1}} || {{Talent|Crimson Ooyoroi|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Crimson Ooyoroi|20|nobr=1|type=1}} (Fiery Collapse) || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Gust Surge|20|nobr=1|type=1}} (DoT) || Elemental Burst Anemo || Default
+|-
+| {{Talent|Gust Surge|20|nobr=1|type=1}} (DoT Absorbed Element) || Elemental Burst Absorbed Element || Default
+|-
+| rowspan="2" | {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Wake of Earth|20|nobr=1|type=1}} (Shockwave) || Shockwave || Default
+|-
+| {{Talent|Wake of Earth|20|nobr=1|type=1}} (Final Hit) || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Bellowing Thunder|20|nobr=1|type=1}} || <small>(No ICD)</small> ||Default
+|-
+| {{Talent|Bellowing Thunder|20|nobr=1|type=1}}  (Falling Thunder) || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Venti|20|nobr=1}} || {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} (DoT) || Elemental Burst || Venti
+|-
+| {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} (DoT Absorbed Element) || Elemental Burst Absorbed Element || Venti
+|-
+| rowspan="2" | {{Character|Xiangling|20|nobr=1}} || {{Talent|Pyronado|20|nobr=1|type=1}} (Activation) || Elemental Burst || Default
+|-
+| {{Talent|Pyronado|20|nobr=1|type=1}} (Pyronado) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Xinyan|20|nobr=1}} || {{Talent|Riff Revolution|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Riff Revolution|20|nobr=1|type=1}} (DoT) || Elemental Burst Pyro || Default
+|-
+| rowspan="2" | {{Character|Yae Miko|20|nobr=1}} || {{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1|type=1}} (Initial) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1|type=1}} (Tenko Thunderbolt) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Yanfei|20|nobr=1}} || {{Talent|Done Deal|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Depth-Clarion Dice|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Depth-Clarion Dice|20|nobr=1|type=1}} (Coordinated Attacks) || Elemental Burst || Yelan Burst
+|-
+| rowspan="2" | {{Character|Yoimiya|20|nobr=1}} || {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} (Aurous Blaze) || Elemental Burst || Default
+|-
+| {{Character|Yun Jin|20|nobr=1}} || {{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Zhongli|20|nobr=1}} || {{Talent|Planet Befall|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|}
+
+==Other Abilities==
+{| class="sortable mw-collapsible fandom-table"
+! Character !! Ability !! ICD Tag !! ICD Type
+|-
+| {{Character|Amber|20|nobr=1}} || {{Constellation|One Arrow to Rule Them All|20|nobr=1|level=1}} (Extra Arrow) || Charged Attack || Amber
+|-
+| {{Character|Beidou|20|nobr=1}} || {{Constellation|Stunning Revenge|20|nobr=1|level=1}} (Additional DMG) || Elemental Burst || Default
+|-
+| rowspan="3" | {{Character|Chongyun|20|nobr=1}} || {{Talent|Rimechaser Blade|20|nobr=1|type=1}} (Spirit Blade) || <small>(No ICD)</small> || Default
+|-
+| {{Constellation|Ice Unleashed|20|nobr=1|level=1}} (Ice Blade) || <small>(No ICD)</small> || Default
+|-
+| {{Constellation|Rally of Four Blades|20|nobr=1|level=1}} (Additional Spirit Blade) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Bennett|20|nobr=1}} || {{Constellation|Unexpected Odyssey|20|nobr=1|level=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="4" | {{Character|Fischl|20|nobr=1}} || {{Talent|Stellar Predator|20|nobr=1|type=1}} (Thundering Retribution) || <small>(No ICD)</small> || Default
+|-
+| {{Talent|Undone Be Thy Sinful Hex|20|nobr=1|type=1}} (Thundering Retribution) || <small>(No ICD)</small> || Fischl
+|-
+| {{Constellation|Her Pilgrimage of Bleak|20|nobr=1|level=1}} (AoE) || Elemental Burst || Fischl
+|-
+| {{Constellation|Evernight Raven|20|nobr=1|level=1}} (Joint Attack) || Elemental Skill || Fischl
+|-
+| {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Poetics of Fuubutsu|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="3" | {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Senho|20|nobr=1|type=1}} (Cryo Application) || Alternate Sprint || Default
+|-
+| {{Constellation|Blizzard Blade Seki no To|20|nobr=1|level=1}} (Additional Cutting) || Elemental Burst || Default
+|-
+| {{Constellation|Blizzard Blade Seki no To|20|nobr=1|level=1}} (Additional Bloom) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Kamisato Ayato|20|nobr=1}} || {{Constellation|Boundless Origin|20|nobr=1|level=1}} || <small>(No ICD)</small> || Default
+|-
+| {{Character|Keqing|20|nobr=1}} || {{Constellation|Thundering Might|20|nobr=1|level=1}} || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Klee|20|nobr=1}} || {{Constellation|Chained Reactions|20|nobr=1|level=1}} (Spark) || Elemental Burst || Default
+|-
+| {{Constellation|Sparkly Explosion|20|nobr=1|level=1}} (Explosion) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Kujou Sara|20|nobr=1}} || {{Constellation|Dark Wings|20|nobr=1|level=1}} (Crowfeather) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Kuki Shinobu|20|nobr=1}} || {{Constellation|To Sever Sealing|20|nobr=1|level=1}} (Thundergrass Mark) || <small>(No ICD)</small> || Default
+|-
+| rowspan="3" | {{Character|Mona|20|nobr=1}} || {{Talent|Illusory Torrent|20|nobr=1|type=1}} (Wet Application) || Alternate Sprint || Default
+|-
+| {{Talent|"Come 'n' Get Me, Hag!"|20|nobr=1|type=1}} (Phantom Explosion) || <small>(No ICD)</small> || Default
+|-
+| {{Constellation|Lunar Chain|20|nobr=1|level=1}} (Additional Charged Attack) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Noelle|20|nobr=1}} || {{Constellation|To Be Cleaned|20|nobr=1|level=1}} (Explosion) || Elemental Skill || Default
+|-
+| {{Character|Razor|20|nobr=1}} || {{Constellation|Lupus Fulguris|20|nobr=1|level=1}} (Lightning) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Constellation|At Water's Edge|20|nobr=1|level=1}} (Additional Fish) || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Tartaglia|20|nobr=1}} || {{Constellation|Abyssal Mayhem: Hydrospout|20|nobr=1|level=1}} (Additional Riptide Flash) || Riptide || Default
+|-
+| {{Constellation|Abyssal Mayhem: Hydrospout|20|nobr=1|level=1}} (Additional Riptide Slash) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Slitting Wind|20|nobr=1|type=1}} || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Frenzied Rockslide|20|nobr=1|type=1}} (Collapse) || <small>(No ICD)</small> || Default
+|-
+| {{Constellation|Rockcore Meltdown|20|nobr=1|level=1}} (Additional AoE) || Elemental Skill || Default
+|-
+| {{Character|Venti|20|nobr=1}} || {{Constellation|Splitting Gales|20|nobr=1|level=1}} (Extra Arrows) || Charged Attack || Default
+|-
+| {{Character|Xiangling|20|nobr=1}} || {{Constellation|Oil Meets Fire|20|nobr=1|level=1}} (Implode) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}}/{{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}} (Wet Application on Contact) || <small>(No ICD)</small> || Default
+|-
+| {{Character|Yanfei|20|nobr=1}} || {{Talent|Blazing Eye|20|nobr=1|type=1}} (Additional AoE) || <small>(No ICD)</small> || Default
+|-
+| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Constellation|Taking All Comers|20|nobr=1|level=1}} (Extra Arrow) || <small>(No ICD)</small> || Default
+|-
+| {{Constellation|Winner Takes All|20|nobr=1|level=1}} (Converted Attacks) || Charged Attack || Default
+|-
+| {{Character|Yoimiya|20|nobr=1}} || {{Constellation|Naganohara Meteor Swarm|20|nobr=1|level=1}} (Extra Kindling Arrow) || Normal Attack || Default
+|}
+
+==External Links==
+*[https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Avatar Source Data for Normal/Charged Attacks of Melee Characters]
+*[https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Gadget Source Data for Normal Attacks of Bow Characters]
+*[https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/AvatarAbilities Source Data for Most Character Abilities]
+*[https://docs.google.com/spreadsheets/d/1dE8mTmRVlR1izKynvSD4Jk5igvWFMlVMENzUsel-n-0/edit#gid=1244741365 Source Data for Characters the previous sources were missing info on]
+
+==References==
+{{Reflist}}

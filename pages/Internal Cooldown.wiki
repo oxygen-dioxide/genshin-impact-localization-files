@@ -1,0 +1,67 @@
+{{Community}}
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Data
+}}
+{{Terminology Infobox
+|type = Gauge Unit Theory
+|type2 = Game Systems
+}}
+'''Internal Cooldown''' (ICD) is a [[Gauge Unit Theory]] mechanism that regulates how often an ability can apply an element for elemental reactions or elemental auras on a target.
+
+==Overview==
+For most character abilities, the default ICD is '''2.5''' seconds or '''3''' hits. This means that the ICD is reset either after 2.5 seconds have passed or after 3 hits of the particular move are made. Note:
+*The first hit after the 3-hit sequence will apply an element, but does not reset the 2.5 second timer.
+*The first hit after the timer will apply an element, reset the timer, and reset the hit sequence.
+
+Some characters may have different ICDs for different abilities, whereas some character abilites may have no ICD at all.
+
+{{Preview
+|file=Internal Cooldown Demonstration
+|caption=As per the 3-hit rule, the 1st, 4th, and 7th shots proc the Melt reaction (dealing 297, 1180, and 1485 damage respectively).
+}}
+
+For example, in [[Yoimiya]]'s Normal Attack sequence, she will shoot 7 arrows over the course of around 2.5 seconds,<!--the 7th shot can occur after the 2.5 second timer, depending on attack speed--> and she can infuse her attacks with Pyro by casting her Elemental Skill. When she attacks a [[Cryo Hypostasis]], which has a permanent Cryo aura, because of the ICD, not every shot will trigger a [[Melt]] reaction: only the 1st, 4th, and 7th will trigger Melt, as per the 3-hit rule.
+
+Note that the 1st Melt shot will start the ICD 2.5 second timer. The 2nd and 3rd shots do not melt because they were made in less than 2.5 seconds since the 1st shot. Although the 4th shot was also within the 2.5 second window, it melts because of the 3 hit rule (it is the third hit made after the 1st shot).
+
+Moreover, ''after'' the 2.5 second timer expires, the next shot Yoimiya makes will Melt, regardless of where in the 3-hit attack sequence Yoimiya is, and start a new 2.5 second timer.
+
+==General Observations==
+{{Main|Internal Cooldown/Data}}
+* Different characters have different ICDs. (i.e. ICD is not shared between different players)
+* A single character usually has different ICDs for different abilities or different components of a single talent.
+** However, sometimes two different abilities will share the same ICD
+* Different enemies have different ICDs. (i.e. if there are multiple enemies, one can melt or vaporize separately on different enemies, and each enemy will have its own separate ICD associated with it)
+
+Specifically:
+* For most characters, the ICDs for [[Normal Attack]]s, [[Charged Attack]]s, [[Plunging Attack]]s, Elemental Skills, and Elemental Bursts are different.
+* For most Catalyst and Polearm users, the ICD for Normal and Charged Attacks are separate.
+** Exception: For [[Xiao]], the ICDs for Normal and Charged Attacks are shared.
+* For most Claymore and Sword users, the ICD for Normal and Charged Attacks are shared.
+** Exception: For [[Kamisato Ayaka]] and [[Kamisato Ayato]], the ICDs for Normal and Charged Attacks are separate.
+* [[Plunging Attack]]s do not have ICD.
+* The ICD for bow users' charged shots varies between specific characters.
+
+==Examples==
+{{Main|Internal Cooldown/Data}}
+The following is a list of some examples and exceptions to the 3 hit/2.5 second ICD.
+* [[Diluc]]'s [[Searing Onslaught]] has no ICD.
+* Polearm users (except Xiao) have a 0.5 second ICD reset timer for Charged Attacks (different from the 2.5 second ICD). For example, this means that [[Hu Tao]] can effectively trigger a reaction each time she uses her Charged Attack (considering the animation usually lasts longer than 0.5 seconds).
+* [[Xiangling]]'s [[Pyronado]] has no ICD.
+* [[Amber]]'s charged shot has a 1-second ICD reset timer.
+* [[Venti]]'s [[Wind's Grand Ode]] has a 1-second ICD reset timer.
+* [[Ganyu]]'s 2nd level charged shot and its Frostflake Bloom have no ICD, meaning she can Melt with both the charged shot and bloom damage each time she fires it.
+* [[Xiao]]'s [[Lemniscatic Wind Cycling]] and [[Shenhe]]'s press version of [[Spring Spirit Summoning]] follow a 0.1 second/7 hit ICD rule, meaning that every 0.1 seconds (or every 7 hits), they can apply their respective elements. However, in practice this ICD has no effect due to their animations always taking longer than 0.1 seconds between each use. 
+* Several of [[Fischl]]'s abilities, including her Elemental Skill, follow a 4 hit rule (instead of the typical 3 hit rule).
+* Diluc's Elemental Burst [[Dawn]] follows a 5 hit rule (the Phoenix can hit enemies multiple times rapidly over its duration).
+* [[Tartaglia]]'s [[Riptide Slash]] has no ICD.
+* [[Sangonomiya Kokomi|Kokomi]]'s [[Kurage's Oath]] has no ICD.
+* [[Xinyan]]'s [[Sweeping Fervor|Level 3 Shield]]'s pulses have no ICD.
+
+==Notes==
+* The ICD mechanism also applies to breaking elemental shields, such as those of [[Abyss Heralds]] and [[Abyss Lectors]]. Because of the ICD on charged shots for most bow characters, [[Diona]] may not be able to apply [[Frozen]] each time she charge-shots a Herald's Hydro shield. However, one can use [[Chongyun]]'s Elemental Skill to give a Cryo [[Elemental Infusion]] and then switch between multiple sword/polearm characters to apply Cryo to the Herald's shield (since different characters have separate ICDs).
+* Elemental application on [[Water]] is not affected by ICD.
+
+==Navigation==
+{{Combat Navbox}}

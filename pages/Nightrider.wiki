@@ -1,0 +1,140 @@
+{{Talent Infobox
+|image         = Talent Nightrider.png
+|character     = Fischl
+|type          = Elemental Skill
+|info          = Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing {{Color|Electro DMG}} in a small [[AoE]].<br />For the ability's [[duration]], Oz will continuously attack nearby opponents with {{Color|Electro|Freikugel}}.<br /><br />Hold to adjust the location Oz will be summoned to.<br />Press again any time during the ability's duration to once again summon him to Fischl's side.
+|CD            = 25s
+|duration      = 10s
+|attr1         = Oz's ATK DMG
+|value1        = 88.8–189%
+|attr2         = Summoning DMG
+|value2        = 115–245%
+|utility1      = AoE
+|utility2      = Effects End Character Fallen
+|scale_att1    = ATK
+}}
+{{Description|"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night."<br />&mdash;[[Flowers for Princess Fischl]] (IV): Farewell Frau Welt}}
+'''Nightrider''' is [[Fischl]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{TalentNote|particles|each of Oz's attacks|0.67}}
+* {{TalentNote|icd|Oz's ATK DMG|5|4}}
+** This ICD is shared with the Joint Attacks at [[Evernight Raven|Constellation 6]].
+* Nightrider's 25-second cooldown timer starts immediately upon being cast, but the cooldown timer is not visible for the 10 seconds that Oz is on the field. Consequently, the cooldown is effectively 15 seconds after Oz disappears, if not altered by other effects.
+* Cooldown reduction effects such as the [[Thundering Fury]] 4-piece set bonus can activate while Oz on the field and the cooldown is not visible. (However, since this effect has a trigger requirement, it still requires Fischl to be on-field in order to activate.)
+* Effects that increase cooldowns such as [[Ley Line Disorder|Slowing Water]] will be calculated using the base 25 seconds, meaning that Nightrider's cooldown will appear much longer than expected. For example, a [[Reduce CD]] value of -80.0% will make the cooldown appear as 35 seconds at the point when Oz disappears.
+* The targeting used when holding the skill will attempt to place Oz against a surface in Fischl's line of sight up to 10 meters away. When attempting to target a surface more than 10 meters away (or facing a direction with no surfaces at all, e.g., the sky), the targeting indicator for Oz will float in the air 10 meters away. If the skill is cast while the indicator is floating like this:
+*# If there is a surface within ~8 meters directly below the indicator, Oz will be placed there.
+*# Next, if aiming upwards too high, the game seems to check for a surface at a 45-degree angle up from the horizontal plane; if there is one within 10 meters, Oz gets placed there.
+*# Otherwise, the game will attempt to re-target the area 10 meters horizontally in front of Fischl: if there is any ground ~2ish? meters above or ~8 meters below that point, it will place Oz there. If there are multiple surfaces in that vertical region (which will often be the case in the open world since overlapping terrain is common), the game will attempt to choose a reasonable one to place Oz on. (Often, it will fail, and Oz will be summoned in a wall or underground... Oz can still hit enemies while inside terrain, however.)
+*# Finally, if there are no surfaces near the spot 10 meters in front of Fischl, Oz will be summoned hovering in that spot.
+* {{TalentNote|snapshot|Oz's ATK DMG|character=Fischl|snapshottime=when casting and when repositioning Oz}}  The buffs applied upon casting will also apply to her [[Undone Be Thy Sinful Hex|4th Ascension Passive]] and [[Evernight Raven|6th Constellation]] throughout Oz's duration. The only way to amplify Oz's damage without repositioning it is to reduce the target's defense or resistances.
+* {{TalentNote|character=Fischl|talent=Nightrider|ascension|1|Stellar Predator}}
+* {{TalentNote|character=Fischl|talent=Nightrider|ascension|2|Undone Be Thy Sinful Hex}}
+:<gallery hideaddbutton="true" captionalign="center" widths="100">
+Talent Nightrider 2.png|Resummon Icon
+</gallery>
+
+;<big>Constellation Effects</big>
+* {{TalentNote|constellation|2|Devourer of All Sins}}
+* {{TalentNote|constellation|3|Wings of Nightmare}}
+* {{TalentNote|constellation|6|Evernight Raven}}
+
+==Preview==
+{{Preview
+|file1=Nightrider Press Preview
+|caption1=Press
+
+|file2=Nightrider Hold Preview
+|caption2=Hold
+}}
+{{clr}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType      = Elemental Skill
+|levels          = 14
+|order           = oz'satkdmg,summoningdmg,oz'sduration,cd
+|titles          = Oz's ATK DMG (%),Summoning DMG (%),Oz's Duration,CD
+|oz'satkdmg_1    = 88.8
+|oz'satkdmg_2    = 95.46
+|oz'satkdmg_3    = 102.12
+|oz'satkdmg_4    = 111
+|oz'satkdmg_5    = 117.66
+|oz'satkdmg_6    = 124.32
+|oz'satkdmg_7    = 133.2
+|oz'satkdmg_8    = 142.08
+|oz'satkdmg_9    = 150.96
+|oz'satkdmg_10   = 159.84
+|oz'satkdmg_11   = 168.72
+|oz'satkdmg_12   = 177.6
+|oz'satkdmg_13   = 188.7
+|oz'satkdmg_14   = 200
+|summoningdmg_1  = 115.44
+|summoningdmg_2  = 124.1
+|summoningdmg_3  = 132.76
+|summoningdmg_4  = 144.3
+|summoningdmg_5  = 152.96
+|summoningdmg_6  = 161.62
+|summoningdmg_7  = 173.16
+|summoningdmg_8  = 184.7
+|summoningdmg_9  = 196.25
+|summoningdmg_10 = 207.79
+|summoningdmg_11 = 219.34
+|summoningdmg_12 = 230.88
+|summoningdmg_13 = 245.31
+|summoningdmg_14 = 260
+|oz'sduration=10s
+|cd=25s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Fischl}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Trivia==
+*Using this skill near most NPCs to summon or reposition Oz will cause them to clap.
+
+==Other Languages==
+{{Other Languages
+|en      = Nightrider
+|zhs     = 夜巡影翼
+|zhs_rm  = Yè xún yǐng yì
+|zht     = 夜巡影翼
+|zht_rm  = Yè xún yǐng yì
+|zh_tl   = 
+|ja      = 夜巡りの翼
+|ja_rm   = Yomeguri no Tsubasa{{Assumed}}
+|ja_tl   = Wings of Spinning Night
+|ko      = 밤을 순찰하는 그림자 날개
+|ko_rm   = Bam-eul Sunchalhaneun Geurimja Nalgae
+|ko_tl   = Night-patrolling Shadow Wing
+|es      = Vigía de la noche
+|es_tl   = Watcher of the Night
+|fr      = Ailes de surveillance nocturne
+|fr_tl   = Night Watch Wings
+|ru      = Тень расправленных крыльев
+|ru_tl   = 
+|th      = Nightrider
+|vi      = Cánh Chim Đêm
+|vi_tl   = Night Bird Wings
+|de      = Schutz der Dunkelheit
+|de_tl   = Protection of Darkness
+|id      = Nightrider
+|pt      = Asas da Vigilância Noturna
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==Navigation==
+{{Talent Navbox|Fischl}}
+
+[[es:Vigía de la noche]]
+[[fr:Ailes de surveillance nocturne]]
+[[pt-br:Asas da Vigilância Noturna]]
+[[ru:Тень расправленных крыльев]]
+[[th:Nightrider]]

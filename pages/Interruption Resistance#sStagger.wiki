@@ -1,0 +1,266 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Poise
+|tab3 = Stagger
+|tab4 = Data
+}}
+{{Community}}
+
+==Stagger==
+===Stagger Level===
+When the target is poise broken, it can be staggered by attacks<ref>NGA: [https://bbs.nga.cn/read.php?tid=31352168 《韧性力学》第三版 - 抗打断和冲击效果的原理]</ref>
+
+Some stagger effects can interrupt motions of the target and force them to shift. Other stagger effects can't.
+
+{| class="wikitable sortable"
+! Stagger Level !! Can Interrupt !! Visual Effect
+|-
+| Mute || No || No viusal effect
+|-
+| Shake || No || Defender will have a mild stagger animations
+|-
+| Light || Yes || Defender will have an obvious stagger animations
+|-
+| Heavy || Yes || Defender will be knocked back
+|-
+| Air || Yes || Defender will be knocked away
+|}
+
+===Trigger Stagger===
+Besides the stagger level, there are some other factors that affect the real stagger effect.
+
+When the target is in ground, the real stagger level is determined by the origin stagger level of the attack, the forces of the attack, and the weight of the defender.
+{| class="wikitable sortable"
+! Origin Stagger Level !! Condition !! Real Stagger Level
+|-
+| Air || <math>\text{Attack Vertical Force} \ge 5.5 \times \text{Defender Real Weight}</math> || Air
+|-
+| Air || <math>\text{Attack Vertical Force} < 5.5 \times \text{Defender Real Weight}</math> || Heavy
+|-
+| Heavy || <math>\text{Attack Horizontal Force} \ge 2 \times \text{Defender Real Weight}</math> || Heavy
+|-
+| Light || <math>\text{Attack Horizontal Force} \ge 2 \times \text{Defender Real Weight}</math> || Light
+|-
+| Light or Heavy || <math>\text{Attack Horizontal Force} < 2 \times \text{Defender Real Weight}</math> || Shake
+|}
+
+When the target is in air or it is climbing, the real stagger level is determined by the origin stagger level of the attack.
+{| class="wikitable sortable"
+! Origin Stagger Level !! Real Stagger Level
+|-
+| Light, Heavy or Air || Air
+|-
+| Shake || Shake
+|}
+
+===Stagger Immunity===
+Some enemies are immune to specific stagger effects.
+*[[Abyss Heralds]] and [[Abyss Lectors]] are immune to the '''Air''' stagger effect.
+
+Characters and enemies can be immune to all stagger effects when they are in the [[Invincibility Frames#Damage Nullification|invincible]] state.
+
+==Weight==
+===Real Weight===
+Weight is a hidden attribute related to some physics systems in Genshin Impact.
+
+Weight can be effected by special abilities, such as some enemies will add their weight when they have elemental shields.
+
+<math>\text{Real Weight} = \text{Origin Weight} \times (1 + \text{Weight Modifier})</math>
+
+===Character Weight===
+The weight of all characters is 75.
+
+===Enemy Weight===
+====Common Enemies====
+{| class="wikitable sortable"
+! Enemy !! Weight
+|-
+| [[Slimes]] || 60
+|-
+| Large Slimes || 100
+|-
+| [[Specters]] || 80
+|-
+| [[Whopperflowers]] || 60
+|-
+| [[Floating Fungi]] || 60
+|-
+| [[Cicins]] || 60
+|-
+| [[Hilichurls]] || 75
+|-
+| [[Samachurls]] || 75
+|-
+| {{Enemy|Unusual Hilichurl|20}} || 75
+|-
+| [[Fatui Skirmishers]] Bracer || 80
+|-
+| Fatui Skirmishers Legionnaire || 150
+|-
+| {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|20}} || 120
+|-
+| {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|20}} || 120
+|-
+| [[Treasure Hoarders]] Thin Men<sup>[1]</sup> || 80
+|-
+| Treasure Hoarders Strong Men<sup>[1]</sup> || 100
+|-
+| Treasure Hoarders Fat Men<sup>[1]</sup> || 100
+|-
+| {{Enemy|Treasure Hoarders: Marksman|20}} || 75
+|-
+| [[Nobushi]] || 110
+|-
+| [[Kairagi]] || 150
+|}
+*[1]Treasure Hoarders Thin Men: Scout, Potioneers.
+*Treasure Hoarders Strong Men: Pugilist, Crusher.
+*Treasure Hoarders Fat Men: Handyman, Seaman, Gravedigger.
+
+====Elite Enemies====
+{| class="wikitable sortable"
+! Enemy !! Weight
+|-
+| [[Mitachurls]] || 150
+|-
+| [[Lawachurls]] || 150
+|-
+| [[Abyss Mages]] || 75
+|-
+| [[Abyss Heralds]] || 150
+|-
+| [[Abyss Lectors]] || 150
+|-
+| [[Rifthounds]] || 150
+|-
+| Rifthound Whelps || 100
+|-
+| [[Shadowy Husks]] || 110
+|-
+| {{Enemy|Black Serpent Knight: Windcutter|20}} || 150
+|-
+| [[Humanoid Ruin Machines]] || 300
+|-
+| [[Ruin Sentinels]] || 300
+|-
+| {{Enemy|Fatui Pyro Agent|20}} || 80
+|-
+| [[Fatui Cicin Mages]] || 75
+|-
+| {{Enemy|Mirror Maiden|20}} || 80
+|-
+| {{Enemy|Geovishap Hatchling|20}} || 150
+|-
+| {{Enemy|Geovishap|20}} || 150
+|-
+| [[Bathysmal Vishaps]] || 150
+|-
+| Bathysmal Vishap Hatchlings || 150
+|-
+| {{Enemy|Eye of the Storm|20}} || 150
+|-
+| {{Enemy|The Great Snowboar King|20}} || 10000
+|}
+
+====Normal Bosses====
+{| class="wikitable sortable"
+! Enemy !! Weight
+|-
+| [[Hypostases]] || 300
+|-
+| {{Enemy|Perpetual Mechanical Array|20}} || 300
+|-
+| [[Regisvines]] || 300
+|-
+| {{Enemy|Rhodeia of Loch|20}} || 150
+|-
+| [[Hydro Mimics]] || 150
+|-
+| {{Enemy|Thunder Manifestation|20}} || 150
+|-
+| {{Enemy|Primo Geovishap|20}} || 300
+|-
+| {{Enemy|Maguu Kenki|20}} || 99999
+|-
+| [[Dual Maguu Kenki]] || 600
+|-
+| {{Enemy|Golden Wolflord|20}} || 1000
+|-
+| {{Enemy|Coral Defenders|20}} || 250
+|-
+| {{Enemy|Ruin Serpent|20}} || 1000
+|}
+
+====Weekly Bosses====
+{| class="wikitable sortable"
+! Enemy !! Weight
+|-
+| {{Enemy|Andrius|20}} || 20000
+|-
+| {{Enemy|Dvalin|20}} || 20000
+|-
+| {{Enemy|Childe|20}} (Phase 1 and 2) || 150
+|-
+| {{Enemy|Childe|20}} (Phase 3) || 20000
+|-
+| {{Enemy|Azhdaha|20}} || 20000
+|-
+| {{Enemy|La Signora|20}} (Phase 1) || 150
+|-
+| {{Enemy|La Signora|20}} (Phase 2) || 20000
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Phase 1) || 150
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Phase 2) || 450
+|}
+
+==Impulse==
+===Impulse Type===
+Impulse Type is a setting for stagger in attacks and determines their stagger characteristic.
+
+Most attacks use common impulse type. Other attacks use special impulse type.
+
+{| class="wikitable sortable"
+!Common Impulse Type!!Stagger Level!!Horizontal Force!!Vertical Force
+|-
+| Default||Mute ||0 ||0
+|-
+| Level 0||Mute ||0 ||0
+|-
+| Level 1||Shake||0||0
+|-
+| Level 2||Light||200|| 0
+|-
+| Level 3||Heavy||200|| 0
+|-
+| Level 4||Heavy||800|| 0
+|-
+| Level 5||Air|| 480|| 600
+|-
+| Level 6||Air|| 655|| 800
+|-
+| Level 7||Air|| 0||800
+|-
+| Level 8||Air|| 795|| 900
+|-
+| Level 9||Air|| 1200||600
+|}
+
+===Character Attacks===
+{{Main|Interruption Resistance/Data#Poise Damage And Stagger Effect}}
+
+===Enemy Attacks===
+Enemy attacks also have forces.
+
+Most attacks use Level 4, Level 5 or Level 6 Impulse Type.
+
+Some consecutive attacks will have mild stagger and forces.
+
+Some attacks from bosses will have stronger stagger and forces.
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox|state=collapsed}}
+{{Attribute Navbox}}

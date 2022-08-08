@@ -1,0 +1,173 @@
+{{Quest Infobox
+|id            = 
+|image         = 
+|type          = Random World
+|region        = Inazuma
+|summary       = [[Saigou]] wants the Traveler to fetch some dishes for him to eat.
+|requirement   = 
+|characters    = Saigou; Traveler
+|startLocation = [[Ritou]], [[Inazuma]]
+|prev          = 
+|next          = 
+|exp           = 
+|mora          = 
+|primogems     = 
+|other         = 
+*AR Dependent Rewards
+}}
+'''Lofty Gourmet''' is a [[Random Event|randomly-occurring World Quest]] that can activate in [[Ritou]], [[Inazuma]].
+
+==Steps==
+#Talk to [[Saigou]]
+#*Saigou will randomly choose one item between [[Tuna Sushi]], [[Egg Roll]], [[Onigiri]], and [[Dry-Braised Salted Fish]].
+#Give the food to Saigou
+#*Saigou's dialogue changes depending on the quality of the item submitted, but this will not affect rewards.
+
+==Rewards==
+{{Transclude|Random Event|Rewards}}
+==Dialogue==
+{{Quest Description|A gourmet named Saigou is looking to try a dish...}}
+{{#vardefine:QuestGatherID|(Tuna Sushi/Egg Roll/Onigiri/Dry-Braised Salted Fish)}}
+{{Dialogue start}}
+;(Talk to Saigou)
+:'''Saigou:''' Expensive dishes served with exquisite utensils do not necessarily make for entrancing dishes...
+:{{DIcon}} What are you talking about?
+:'''Saigou:''' It's a pity that fine dining is everywhere these days, yet no one cares about everyday dishes...
+:'''Saigou:''' Ah, you must be the Traveler, then? Let me introduce myself. I am Saigou, an Inazuman gourmet. I've been traveling around in search of true delicacies.
+:{{DIcon}} There are real and fake delicacies?
+:'''Saigou:''' Of course! Nowadays, you just need to pretty the food up, give it a fancy name, and have some celebrities promote them...
+:'''Saigou:''' Such dishes, which emphasize appearances and gimmicks over the food quality itself, have become prevalent everywhere.
+:'''Saigou:''' But I still believe that the quality of the food is the most important criteria when judging it.
+:'''Saigou:''' But it's not easy find such dishes these days...
+:'''Saigou:''' Traveler, if you are free, could you help me find such a dish?
+:{{DIcon}} What would you like to eat?
+::'''Saigou:''' Let me think... how about {{#var:QuestGatherID}}? Don't worry, I will pay you suitably for your trouble.
+:{{DIcon}} Not going to find some yourself?
+::'''Saigou:''' I... Ahem, my straightforward opinions have made me unwelcome among the city's restaurant owners.
+::'''Saigou:''' If I went myself, I would probably be given the cold shoulder. That would make things awkward.
+::'''Saigou:''' That's why I can only count on you, Traveler. Please bring a {{#var:QuestGatherID}} to me. I will prepare suitable payment.
+
+----
+
+;(Talk to Saigou)
+:'''Saigou:''' Ready so soon with the {{#var:QuestGatherID}}? Let me have a try.
+:;(Opens item submit menu)
+
+----
+
+;(Submitted '''Delicious Tuna Sushi''')
+:'''Saigou:''' Hmm... Delicious! I can hardly believe that Tuna Sushi could be so good.
+:'''Saigou:''' What's the secret... Could it be the preparation of the ingredients? It's so...
+:'''Saigou:''' Traveler, thank you for bringing me such a moving dish.
+:'''Saigou:''' Here is your payment. Please take it. Now, I really must get back to eating this Tuna Sushi...
+
+;(Submitted '''Normal Tuna Sushi''')
+:'''Saigou:''' Hmm... the freshness and luster of the tuna is top-notch, while the combination of sauces and rice is perfect.
+:'''Saigou:''' My only complaint is that it's not sweet enough. Could something have gone wrong during the preparation of the ingredients?
+:'''Saigou:''' Either way, the taste of this Tuna Sushi is very solid.
+:'''Saigou:''' Here you go. Thank you for bringing me this dish.
+
+;(Submitted '''Suspicious Tuna Sushi''')
+:'''Saigou:''' Hmm... Such a strange taste... Is this really Tuna Sushi?
+:'''Saigou:''' The fish doesn't have its typical flavor, while the rice doesn't have its normal texture... Uhh...
+:'''Saigou:''' This taste... is really peculiar...
+:'''Saigou:''' Ahem! Here you go. Please keep up the good work. I&mdash;I guess I'm off to try some other dishes...
+
+----
+
+;(Submitted '''Delicious Egg Roll''')
+:'''Saigou:''' Hmm... Excellent! The key to a tasty Egg Roll lies in the cooking of the egg yolk and egg skin. This dish is flawless, whether be it in the seasoning or the temperature control.
+:'''Saigou:''' To think that you were able to turn an ordinary dish such as Egg Roll into a perfect delicacy. There is no doubt that your skills are top notch.
+:'''Saigou:''' Traveler, thank you for bringing me such a moving dish.
+:'''Saigou:''' Here is your payment. Please take it. Now, I must really get back to tasting this Egg Roll...
+
+;(Submitted '''Normal Egg Roll''')
+:'''Saigou:''' Hmm... Overall, it's not bad. It's fresh and tender with a clear structure.
+:'''Saigou:''' If I had to criticize one thing, it would be that the egg yolk seems a bit overcooked. Hmm... perhaps the cooking time wasn't managed well enough?
+:'''Saigou:''' Either way, the taste of this Egg Roll is quite good indeed.
+:'''Saigou:''' Here you go. Thank you for bringing me this dish.
+
+;(Submitted '''Suspicious Egg Roll''')
+:'''Saigou:''' Hmm, this strange taste... Is this really Egg Roll?
+:'''Saigou:''' The original taste of the egg yolk... is indeed preserved, but it's too... too much.
+:'''Saigou:''' This taste... is really peculiar...
+:'''Saigou:''' Ahem! Here you go. Please keep up the good work. I&mdash;I guess I'm off to try some other dishes...
+
+----
+
+;(Submitted '''Delicious Onigiri''')
+:'''Saigou:''' ...Th&mdash;This Onigiri! I can't believe what I'm tasting! Such exquisite texture, and the rich sauce that almost seems to be everywhere...
+:'''Saigou:''' It is so wonderfully put together... All I can say is that I have never had such a perfect Onigiri!
+:'''Saigou:''' Traveler, thank you for bringing me such a moving dish.
+:'''Saigou:''' Here's your payment. Please take it. Now, back to feasting on this Onigiri...
+
+;(Submitted '''Normal Onigiri''')
+:'''Saigou:''' Hmm, this Onigiri is really...
+:'''Saigou:''' I can taste the bold technique that you used, which is completely different from traditional cooking...
+:'''Saigou:''' But it's just too bad that the cooking temperature was not managed well enough, causing the texture to be a bit too hard.
+:'''Saigou:''' Nonetheless, I think you did a good job with this Onigiri.
+:'''Saigou:''' Here you go. Thank you for bringing me this dish.
+
+;(Submitted '''Suspicious Onigiri''')
+:'''Saigou:''' Hmm, this strange taste... Can we really call this a Onigiri? The seaweed doesn't have its typical flavor, while the rice doesn't have its normal texture.
+:'''Saigou:''' What's going on? My taste buds can't seem to identify this strange taste. I can't tell if its good or bad...
+:'''Saigou:''' Anyway, this taste is just really, uh... really peculiar.
+:'''Saigou:''' Ahem! Here you go. Please keep up the good work. I&mdash;I guess I'm off to try some other dishes...
+
+----
+
+;(Submitted '''Delicious Dry-Braised Salted Fish''')
+:'''Saigou:''' The quality of this Dry-Braised Salted Fish is unbelievable!
+:'''Saigou:''' Even with an ingredient as ordinary as fish, the special deep frying technique still manages to amaze.
+:'''Saigou:''' Traveler, thank you for bringing me such a moving dish.
+:'''Saigou:''' Here's your payment. You've more than earned it. Now, back to this Dry-Braised Salted Fish...
+
+;(Submitted '''Normal Dry-Braised Salted Fish''')
+:'''Saigou:''' Hmm... If we were to just go by the quality and taste, this Dry-Braised Salted Fish is no different from the ones I had in other places...
+:'''Saigou:''' It's still good, though, don't get me wrong.
+:'''Saigou:''' Here you go. Thank you for bringing me this dish.
+
+;(Submitted '''Suspicious Dry-Braised Salted Fish''')
+:'''Saigou:''' Hmm, this tastes most strange... Is this really Dry-Braised Salted Fish? This...
+:'''Saigou:''' This taste really is, uh, unique...
+:'''Saigou:''' Ahem! Here you go. Please keep up the good work. I&mdash;I guess I'm off to try some other dishes...
+{{Dialogue end}}
+
+==Other Languages==
+{{Other Languages
+|en      = Lofty Gourmet
+|zhs     = 孤高的美食家
+|zhs_rm  = Gūgāo de Měishíjiā
+|zht     = 孤高的美食家
+|zht_rm  = Gūgāo de Měishíjiā
+|zh_tl   = Solitary Gourmet
+|ja      = 孤高のグルメ
+|ja_rm   = Kokou no Gurume
+|ja_tl   = Solitary Gourmet
+|ko      = 고고한 미식가
+|ko_rm   = 
+|ko_tl   = 
+|es      = Gourmet arrogante
+|es_tl   = Arrogant Gourmet
+|fr      = Gourmet arrogant
+|fr_tl   = Arrogant Gourmet
+|ru      = Надменный гурман
+|ru_tl   = 
+|th      = นักชิมผู้โดดเดี่ยว
+|th_rm   = 
+|th_tl   = 
+|vi      = Nhà Ẩm Thực Cao Ngạo
+|vi_tl   = 
+|de      = Der erhabene Feinschmecker
+|de_tl   = The Sublime Gourmet
+|id      = Gourmet Yang Kesepian
+|id_tl   = Lonely Gourmet
+|pt      = Gourmet Arrogante
+|pt_tl   = 
+}}
+
+==Change History==
+{{Change History|2.0}}
+
+==Navigation==
+{{Quests by Type Navbox|type=Random World Quests}}

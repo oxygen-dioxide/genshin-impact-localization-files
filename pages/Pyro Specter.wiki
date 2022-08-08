@@ -1,0 +1,114 @@
+{{Enemy Infobox
+|image    = Enemy Pyro Specter.png
+|type     = Common Enemies
+|element  = Pyro
+|family   = Elemental Lifeforms
+|group    = Specters
+|location = [[Enkanomiya]], [[Inazuma]]
+|ability1 = Fury
+}}
+{{Description|A monster born from highly-concentrated Pyro elements that can float in the air.<br />There was once an [[Sumeru Akademiya|Akademiya]] student who conducted research into their behavior. He believed that Specters were a form of [[Crystalfly]]; since they both had powers of flight and both were birthed in areas saturated with elemental energy. He has not graduated yet.}}
+{{Enemy Intro}}
+
+==Drops==
+{{Drops|Specters}}
+
+==Stats==
+{{Enemy Stats
+|pyro_res  = Immune
+|hp_ratio  = 1.6
+|hp_type   = 2
+|atk_ratio = 1.4
+|atk_type  = 2
+}}
+
+==Abilities and Attacks==
+*'''Fury:''' Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
+*'''Fire Dance:''' Loops around in the air to conjure a fireball which it punts at the player, dealing '''100% ATK''' as {{Color|Pyro DMG}}.
+*'''Sneaky Spitfire:''' Disappears and reappears behind the player, then spits a spray of fire at them, dealing '''125% ATK''' as {{Color|AoE Pyro DMG}}.
+*'''Pursuing Flamethrower:''' Slowly follows the player while periodically spraying fire at them, dealing '''125% ATK''' as {{Color|AoE Pyro DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
+*'''Final Burst:''' Explodes after a short pause when defeated, dealing '''125% ATK''' as {{Color|AoE Pyro DMG}}. If at max Fury, DMG is increased to '''150% ATK''', and leaves behind a small fireball that explodes after another short pause, dealing '''300% ATK''' as {{Color|AoE Pyro DMG}}.
+
+===Preview===
+{{Preview
+|size=185px
+|file1    = Pyro Specter Fire Dance
+|caption1 = Fire Dance
+
+|file2    = Pyro Specter Sneaky Spitfire
+|caption2 = Sneaky Spitfire
+
+|file3    = Pyro Specter Following Flamethrower
+|caption3 = Pursuing Flamethrower
+
+|file4    = Pyro Specter Final Burst
+|caption4 = Final Burst
+
+|file5    = Pyro Specter Final Burst Fury
+|caption5 = Final Burst (Max Fury)
+}}
+
+===Ability Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if they meet all of the following conditions:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+{| class="wikitable"
+! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Initial CD (s) !! Action Interval (s)
+|-
+| rowspan="2" | Normal || Fire Dance || 5.5–22 || 2 || 3–5.5 || &mdash; || rowspan="3" | 3.5
+|-
+| Sneaky Spitfire || 0–10 || 2 || 6–8 || &mdash;
+|-
+| Max Fury || Initiate Pursuing Flamethrower || 0–7 || &mdash; || 12 || 6
+|}
+
+==Gallery==
+<gallery hideaddbutton="true" captionalign="center">
+Enemy Pyro Specter Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Pyro Specter
+|zhs     = 火飘浮灵
+|zhs_rm  = Huǒ Piāofú-líng
+|zht     = 火飄浮靈
+|zht_rm  = Huǒ Piāofú-líng
+|zh_tl   = {{Lex|Pyro|zh}} {{Lex|Specter|zh}}
+|ja      = 炎フライム
+|ja_rm   = Honoo Furaimu{{Assumed}}
+|ja_tl   = {{Lex|Pyro|ja}} {{Lex|Specter|ja}}
+|ko      = 떠도는 불의 {{tt|정령|精靈}}
+|ko_rm   = Tteodoneun Bul-ui Jeongryeong
+|ko_tl   = {{Lex|Pyro|ko}} {{Lex|Specter|ko}}
+|es      = Espectro Pyro
+|es_tl   = Pyro Specter
+|fr      = Spectre Pyro
+|fr_tl   = Pyro Specter
+|ru      = Пиро призрак
+|ru_tl   = Pyro Specter
+|th      = Pyro Specter
+|vi      = Bóng Ma - Hỏa
+|vi_tl   = Specter - {{Lex|Pyro|vi}}
+|de      = Pyro-Gespenst
+|de_tl   = Pyro Specter
+|id      = Pyro Specter
+|pt      = Espectro Pyro
+|pt_tl   = Pyro Specter
+}}
+
+==Change History==
+{{Change History|2.4}}
+
+==Navigation==
+{{Enemy Navbox|Common}}
+
+[[vi:Bóng Ma - Hỏa]]
+[[es:Espectro Pyro]]
+[[pt-br:Espectro Pyro]]

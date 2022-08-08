@@ -1,0 +1,144 @@
+{{Terminology Infobox
+|type         = Game Systems
+|type2        = Exploration
+}}'''Sheer Cold''' is a gauge that appears in very cold areas, such as in open-world areas and domains affected by [[Subzero Climate]] and during certain challenges.
+
+==Overview==
+<section begin="sheercold"/>
+Similar to [[Stamina]], Sheer Cold is shared between characters for each player.
+
+When Sheer Cold begins to accumulate, a sound effect plays and a gauge appears over the active character's HP bar. When the gauge is 70% full, it begins to beep every 2 seconds and pulse with a red glow. In addition, the edges of the screen become frosty, reducing the player's peripheral vision. When the gauge is full, the gauge takes on a steady red glow, the beeping stops, the edges of the screen frost over more to further reduce the player's peripheral vision, and the player begins to [[#HP Loss|lose HP]].
+
+Sheer Cold's accumulation and health loss from Sheer Cold pause while the player is engaged in dialogue with an NPC or an object. They are not paused during [[Photo Mode]], during which [[time]] passes normally.
+
+The Sheer Cold gauge depletes quickly over time when leaving a Subzero Climate.
+
+===Accumulation Rate===
+{| class="wikitable sortable"
+|-
+! Conditions !! Accumulation Rate !! Time to fill an empty Sheer Cold gauge
+|-
+| Default || 1% per second || 100 seconds<br />(1 minute and 40 seconds)
+|-
+| In combat against [[Narukami Island: Tenshukaku|Signora]] || 3% per second || 33 seconds
+|-
+| Taking {{Color|Cryo DMG}} from Signora's weak attacks || 2% per hit || 50 hits
+|-
+| Taking {{Color|Cryo DMG}} from Signora's Frosted Floor || 2.5% per hit || 40 hits
+|-
+| Taking {{Color|Cryo DMG}} from Signora's strong attacks || 5% per hit || 20 hits
+|-
+| Counterstruck by Signora || 100% || —
+|}
+
+===Modifiers===
+Certain statuses will boost or reduce the accumulation rate of Sheer Cold. Different modifiers stack additively.
+
+{| class="wikitable sortable"
+|-
+! Conditions !! Accumulation Modifier
+|-
+| Delicious Goulash || -50%
+|-
+| Normal Goulash || -40%
+|-
+| Suspicious Goulash || -30%
+|-
+| Colder Environments<br />([[Snowstorm]]s, [[Cryo Hypostasis]] arena, cold platforms in [[Peak of Vindagnyr]]) || +200%
+|-
+| Swimming || +180%
+|-
+| Inside Wind Current Created by Cryo [[Anemograna]] || +50%
+|-
+| Affected by {{Cryo}} or {{Hydro}} || +20%
+|-
+| Affected by {{Pyro}} || -20%
+|-
+| Near A Source of Warmth || -999%
+|}
+
+===HP Loss===
+When the Sheer Cold gauge is full, the active character will lose HP at a rate of '''1% max HP + 150 HP''' per second.<ref>NGA: [https://ngabbs.com/read.php?tid=25244647 Research on the damage of Sheer Cold] (in Chinese)</ref> If not mitigated, then the active character will die to Sheer Cold in roughly one minute, give or take as much as half a minute depending on how much HP a character has.
+
+HP loss from Sheer Cold is unaffected by the conditions that increase and decrease the Sheer Cold accumulation rate if the Sheer Cold gauge remains full. HP loss only stops once the Sheer Cold gauge is no longer full.
+
+Some max HP thresholds and how long it takes for all HP to be depleted by Sheer Cold:
+* 30 seconds - 6,428 HP
+* 40 seconds - 10,000 HP
+* 50 seconds - 15,000 HP
+* 60 seconds - 22,500 HP
+* 70 seconds - 35,000 HP
+* 80 seconds - 60,000 HP
+
+===Sources of Warmth===
+Sources of warmth include:
+{{Column|2|
+* Campfires
+* Torches
+* [[Ruin Brazier]]s
+* [[Warming Seelie]]
+* [[Warming Bottle]]s
+* [[Statues of The Seven]]
+* [[Teleport Waypoints]]
+* Warming platforms in [[Peak of Vindagnyr]]
+* The Dragon's Core cave in [[Wyrmrest Valley]]
+* The top of the [[Skyfrost Nail]] (the object floating in the sky, not the entire subarea)
+}}
+
+Characters who are near one of the above sources of warmth will receive a buff every '''0.5s''' which lasts '''1s''' and reduces the Sheer Cold gauge at a rate of '''5%''' per '''0.2s''' ('''4''' seconds to completely deplete a full gauge).
+
+When player stay outside of Subzero Climates, their Sheer Cold gauge reduces at a rate of 5% per second (20 seconds to completely deplete a full gauge).
+
+[[Scarlet Quartz]] reduces '''5%''' of the Sheer Cold gauge and then pauses Sheer Cold accumulation. Additional Scarlet Quartz that are picked up will refresh the duration and reduce another 5% of the Sheer Cold gauge. Scarlet Quartz has no effect until it is picked up.
+<section end="sheercold"/>
+==Trivia==
+* The frosty edges that appear when affected by Sheer Cold show up in pictures taken with the [[Kamera]] or [[Special Kamera]] but do not show up in pictures taken in [[Photo Mode]].
+* When a character falls to Sheer Cold, the player will be granted the ''[[Wonders of the World]]'' achievement "[[The Bleak Midwinter]]".
+
+==Gallery==
+<gallery captionalign="center">
+Sheer Cold - Accumulating.png|Sheer Cold between 70% and 100%
+Sheer Cold - Full.png|Sheer Cold after the gauge is full
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Sheer Cold
+|zhs     = 严寒
+|zhs_rm  = Yánhán
+|zht     = 嚴寒
+|zht_rm  = Yánhán
+|zh_tl   = Severe Cold
+|ja      = 極寒
+|ja_rm   = Gokkan
+|ja_tl   = Extreme Cold
+|ko      = 혹한
+|ko_rm   = Hokan
+|ko_tl   = Severe Cold
+|es      = Frío extremo
+|es_tl   = Extreme Cold
+|fr      = Grand Froid
+|fr_tl   = Great Cold
+|ru      = Лютый мороз
+|ru_tl   = 
+|th      = หมอกดำที่กัดกร่อน
+|th_rm   = 
+|th_tl   = 
+|vi      = Giá Rét
+|vi_tl   = 
+|de      = Bittere Kälte
+|de_tl   = Bitter Cold
+|id      = Sheer Cold
+|pt      = Frio Extremo
+|pt_tl   = Extreme Cold
+}}
+
+==Change History==
+{{Change History|1.2}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Ley Line Disorder Navbox|state=collapsed}}
+{{Exploration Navbox|Mondstadt}}

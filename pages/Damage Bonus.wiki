@@ -1,0 +1,128 @@
+{{DamageBonusTabs}}
+{{Terminology Infobox
+|type         = Combat
+}}
+'''Damage Bonuses''' are means of increasing damage.
+
+There are three different types of Damage Bonuses:
+* Percentage Damage Bonus
+* Flat Damage Bonus
+* Special Multiplier
+
+==Overview==
+The three types of Damage Bonuses affect the [[Damage]] formula as follows:
+:<div style="overflow-x:auto"><math>(\text{Base DMG} \times \text{Special Multiplier} + \sum \text{Flat DMG Bonus}) \times (1 + \sum \text{Percentage DMG Bonus}\% - \sum \text{DMG Reduction}\%)</math></div>
+where the above excludes [[CRIT]], [[Amplifying Reactions]], [[DEF]], and [[RES]].
+
+===Percentage Damage Bonus===
+'''Percentage Damage Bonus''' is the most common type of Damage Bonus. This includes Elemental and Physical Damage Bonuses, which are listed in the in-game attribute [[Character Menu|menu]]. Other types of Percentage Damage Bonuses (Normal/Charged/Plunging Attack, Elemental Skill, Elemental Burst, etc.) are not shown in the menu, but are still considered Percentage Damage Bonuses. Percentage Damage Bonuses from different sources stack additively.
+
+[[Damage Reduction]] is an attribute that directly reduces the Percentage Damage Bonus of incoming attacks. It can be understood as a negative Percentage Damage Bonus. Different sources of Damage Reduction stack additively.
+
+===Flat Damage Bonus===
+'''Flat Damage Bonus''' is a fixed amount of bonus DMG from abilities such as [[Sangonomiya Kokomi]]'s [[Nereid's Ascension|Elemental Burst]] and [[Yun Jin]]'s [[Cliffbreaker's Banner]]. Flat Damage Bonuses are added to Base DMG then multiplied by the aforementioned Percentage Damage Bonuses. Different sources of Flat Damage Bonuses stack additively.
+
+===Special Multipliers===
+'''Special Multipliers''' are a rare means of damage increase that can be granted by some abilities such as Xingqiu's 4th Constellation [[Evilsoother]] and Yoimiya's Elemental Skill [[Niwabi Fire-Dance]]. Special Multipliers are directly multiplicative with Base DMG.
+
+==Elemental/Physical==
+Elemental and Physical DMG Bonuses are Percentage Damage Bonuses visible as [[attributes]] in the stats screen. Only one of the following Elemental / Physical DMG Bonuses will apply at a time depending on the attack's element. For a list of talents and constellations that boost a particular elemental DMG Bonus, see the corresponding subpage.
+{| class="article-table tdc1"
+! [[Element]] !! Damage Bonus
+|-
+| {{Element|Anemo|30}} || [[Anemo Damage Bonus]]
+|-
+| {{Element|Cryo|30}} || [[Cryo Damage Bonus]]
+|-
+| {{Element|Dendro|30}} || [[Dendro Damage Bonus]]
+|-
+| {{Element|Electro|30}} || [[Electro Damage Bonus]]
+|-
+| {{Element|Geo|30}} || [[Geo Damage Bonus]]
+|-
+| {{Element|Hydro|30}} || [[Hydro Damage Bonus]]
+|-
+| {{Element|Pyro|30}} || [[Pyro Damage Bonus]]
+|-
+| {{Element|Physical|30}} || [[Physical Damage Bonus]]
+|}
+
+===Ascension===
+Some characters can increase their Elemental [[Damage]] Bonus [[attribute]] upon [[Characters#Ascensions|ascension]]. At Levels 80–90, it is up to 28.8% for 5 star characters and 24.0% for 4 star characters. For {{Color|Physical DMG Bonus}}, it is currently unknown for 5 star characters and 30.0% for 4 star characters.
+{|class="wikitable tdc1"
+! Element !! Character
+|-
+| {{Icon/Element|Anemo|30|link=1}}
+| {{Cards by Category|Anemo DMG Bonus Characters}}
+|-
+| {{Icon/Element|Cryo|30|link=1}}
+| {{Cards by Category|Cryo DMG Bonus Characters}}
+|-
+| {{Icon/Element|Electro|30|link=1}}
+| {{Cards by Category|Electro DMG Bonus Characters}}
+|-
+|{{Icon/Element|Geo|30|link=1}}
+| {{Cards by Category|Geo DMG Bonus Characters}}
+|-
+| {{Icon/Element|Hydro|30|link=1}}
+| {{Cards by Category|Hydro DMG Bonus Characters}}
+|-
+| {{Icon/Element|Pyro|30|link=1}}
+| {{Cards by Category|Pyro DMG Bonus Characters}}
+|-
+| {{Icon/Element|Physical|30|link=1}}
+| {{Cards by Category|Physical DMG Bonus Characters}}
+|}
+
+===Artifacts===
+====Elemental====
+{{Artifacts by Category Table|collapsible=1|Elemental DMG Bonus Artifacts}}
+
+====Physical====
+{{Artifacts by Category Table|collapsible=1|Physical DMG Bonus Artifacts}}
+
+==Other DMG Bonus==
+These DMG bonuses are neither elemental nor physical. They target DMG from specific sources such as Normal/Charged/Plunging Attack DMG, Elemental Skill DMG, Elemental Burst DMG, or all types of DMG.
+
+===Elemental Resonance===
+The {{Element|Geo|24}} [[Enduring Rock]] Elemental Resonance increases DMG by 15% for 15s for characters protected by a [[shield]].
+
+===Talents===
+====Percentage====
+{{Talents by Category Table|collapsible=1|Percentage DMG Increase Talents}}
+
+====Flat====
+{{Talents by Category Table|collapsible=1|Flat DMG Increase Talents}}
+
+====Special Multiplier====
+{{Talents by Category Table|collapsible=1|Multiplicative DMG Increase Talents}}
+
+===Constellations===
+====Percentage====
+{{Constellations by Category Table|collapsible=1|Percentage DMG Increase Constellations}}
+
+====Flat====
+{{Constellations by Category Table|collapsible=1|Flat DMG Increase Constellations}}
+
+====Special Multiplier====
+{{Constellations by Category Table|collapsible=1|Multiplicative DMG Increase Constellations}}
+
+===Weapons===
+====Percentage====
+{{Weapons by Category Table|collapsible=1|DMG Bonus Passive Weapons}}
+
+====Flat====
+{{Weapons by Category Table|collapsible=1|Flat DMG Increase Passive Weapons}}
+
+===Artifacts===
+====Percentage====
+{{Artifacts by Category Table|collapsible=1|Other DMG Bonus Artifacts}}
+
+====Flat====
+{{Artifacts by Category Table|collapsible=1|Flat DMG Bonus Artifacts}}
+
+==Change History==
+{{Change History|1.0}}
+
+==Navigation==
+{{Attribute Navbox}}

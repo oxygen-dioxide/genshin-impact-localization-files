@@ -1,0 +1,61 @@
+{{Community}}
+{{Terminology Infobox
+|type         = Physics
+}}
+'''Gravity''' is a force of nature whereby objects with mass are attracted to each other. In Genshin Impact, it affects the acceleration at which entities fall to the ground and is an attribute in the [[Interruption Resistance]] and [[Vacuum Field]] systems.
+
+Genshin Impact appears to follow the laws of classical Newtonian gravity, rather than the theory of General Relativity. In particular, over the continent of Teyvat, there seems to be a field with an acceleration of gravity. However, from the source code, the acceleration of gravity appears to vary for different entities in the game.
+
+==Acceleration of Gravity==
+The gravitational acceleration g is measured in <math>m/s^2</math>. In real life on Earth, <math>g \approx 9.8 m/s^2</math>.
+
+Within Genshin Impact, g can vary depending on the character, enemy, or skill used.
+
+==Falling Time==
+Assuming classical Newtonian physics, the force acting on a falling object is given by:
+:<math>F = ma = m\ddot{y} = -mg</math>
+where <math>y(t)</math> is the object's height as a function of time, m is the mass, and the dots denote time derivatives. Solving for the above second-order differential equation gives
+:<math>y(t) = y_0 - gt^2 / 2</math>
+assuming the initial vertical velocity is 0. If we want to find the time it takes for the object to fall from initial height <math>y_0</math> to the ground <math>y(t) = 0</math> solving the equation gives
+:<math>t = \sqrt{2y_0/g}</math>
+Alternatively, we can use this to determine the acceleration due to gravity:
+:<math>g = 2y_0/t^2</math>
+From this method, the acceleration of gravity on playable characters in the open world has been estimated to be between 15 and 30 <math>m/s^2</math>. However this may change depending on different situations.
+
+Note, the above model does not consider air friction, which could also affect calculations and introduce a drag and terminal falling velocity.
+
+==Modifying Gravity==
+Certain skills can actually change the acceleration of gravity g. For example, Venti's Elemental Skill [[Skyward Sonnet]] can reduce g for enemies lifted in the air. This has the effect of making enemies fall more slowly to the ground.<ref name='venti'>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Venti.json Venti]<br />The gravity scale is changed by -2.0 for the elemental skill (WindBlade in the code)</ref>
+
+Moreover, the [[Hydro Abyss Mage]] or Hydro Slime's [[Bubble]] can immobilize entities and reduce the gravity of acceleration by 7.5 units.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/d633c8cfe5f1f383413a1f65f44d9bd018e5f9be/BinOutput/Ability/Temp/MonsterAbilities/ConfigAbility_Monster_Slime_Water.json Monster Slime Water]</ref>
+
+Note this is a video game mechanic, so this may not reflect what actually happens in a real world scenario.
+
+==Parabolic Trajectory==
+When Amber throws [[Baron Bunny]], it will follow a parabolic trajectory under the influence of a uniform gravitational field. Depending on how long her skill is held, she will throw the projectile at a different angle and speed. The gravitational acceleration g on the Baron Bunny is usually 30.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/d633c8cfe5f1f383413a1f65f44d9bd018e5f9be/BinOutput/Gadget/ConfigGadget_SkillObj_Ambor.json Amber]</ref>
+
+==Data==
+Below the gravity scale modifier refers to "AddGravityScale":
+{| class="wikitable sortable"
+!Character
+!Skill
+!Gravity scale modifier
+!Notes
+|-
+|Venti<ref name='venti' />
+|Skyward Sonnet
+| -2.0
+|
+|-
+|Xiao<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Xiao.json Xiao]: DevilDash_Air_LooseWeight</ref>
+|[[Lemniscatic Wind Cycling]] (midair)
+| -2.0
+|will also "ignoreAirGY"
+|-
+|}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox}}

@@ -1,0 +1,39 @@
+{{Terminology Infobox
+|image  = Icon Processing Small.png
+|type   = Crafting Methods
+|type2  = Game Systems
+}}
+'''Processing''' is a [[Crafting Method]] used to transform [[Cooking Ingredients]] into other desirable Cooking Ingredients.
+
+==Queuing==
+[[File:Processing.png|200px|right|thumb|Processing UI]]
+Processing an ingredient requires a certain amount of materials and time to complete. Which materials, and how long, depends on the item(s) a player is trying to process. Each material can only have 99 processing each at the same time (for example, 99 Flour and 99 Cream). One should be cautious as once started, processing cannot be cancelled and thus the materials are unreturnable.
+
+==List of Processed Items==
+{{#DPL:
+|mode=userformat
+|uses=Template:Recipe
+|category=Processing
+|namespace=
+|include={Item Infobox¦Phantom rarity},{Recipe}:time
+
+|listseparators={¦ class="article-table sortable" \n!Icon\n!Name\n!Rarity\n!Minutes to Process,\n¦-\n,,¦}
+|secseparators=¦[[File:Item_%PAGE%.png|45x45px|link=%PAGE%]]\n¦[[%PAGE%]]\n¦,\n,¦²{Array¦,¦;¦{item}¦&nbsp;/&nbsp;¦dedupe=1}²\n
+|multisecseparators=<!-- multisecseparator for rarity (none) -->,<!-- multisecseparator for recipe time (semicolon) -->;
+|ordermethod = sortkey
+
+|resultsheader= Processing can be used to create '''%PAGES%''' Cooking Ingredients:\n
+|noresultsfooter=\nNo Results
+|allowcachedresults=true
+}}
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/CiXd3gc5Ji8
+|caption1 = Processing Ingredients Guide
+}}
+
+==Navigation==
+{{Game Systems Navbox|Other}}
+
+[[pt-br:Processar]]
