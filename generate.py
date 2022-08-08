@@ -33,7 +33,7 @@ for (pagename,worddict) in fulldict.items():
         else:#如果没有英文，则用页面名称
             english=pagename.split("#")[0]
         #(排序索引，行)
-        dictlist.append((english,"- **{}** {}".format(english,worddict["zhs"])))
+        dictlist.append((english.lower(),"- **{}** {}".format(english,worddict["zhs"])))
 dictlist.sort(key=(lambda x:x[0]))
 en_zh_description="""# 原神英汉词典
 # Genshin Impact English-Chinese Dictionary
