@@ -27,7 +27,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
     
     - name: git add
-      run: git add ${{ github.workspace }}\pages\
+      run: git add ${{ github.workspace }}\dict.json
     
     - name: git commit
       run: git commit -m "从wikitext中解析本地化字典"
