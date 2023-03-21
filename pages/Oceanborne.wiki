@@ -2,13 +2,13 @@
 |image         = Talent Oceanborne.png
 |character     = Beidou
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 5 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous slashes.<br />At the end of the sequence, perform a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 5 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous slashes.<br />At the end of the sequence, perform a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
 |hit1          = 71.1-151.96%
 |hit2          = 70.9-151.41%
 |hit3          = 88.3-188.71%
 |hit4          = 86.5-184.85%
 |hit5          = 112-239.61%
-|charged_attr  = Charged Attack Spinning DMG
+|charged_attr  = Charged Attack Cyclic DMG
 |charged       = 56.2-120%
 |charged_attr2 = Charged Attack Final DMG
 |charged2      = 102-217.56%
@@ -33,6 +33,85 @@
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|4|Stunning Revenge}}
 
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 85.67
+|impulse = 3
+|blunt   = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 85.33
+|impulse2 = 3
+|blunt2   = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 106.37
+|impulse3 = 3
+|blunt3   = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 104.19
+|impulse4 = 3
+|blunt4   = 1
+
+|title5   = Normal Attack 5-Hit
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 135.12
+|impulse5 = 6
+|blunt5   = 1
+
+|title6   = Charged Attack Cyclic
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 60
+|impulse6 = 2
+|blunt6   = 1
+
+|title7   = Charged Attack Final Slash
+|gu7      = 1U
+|icdtag7  = Normal Attack
+|icdtype7 = 2.5s/3 Hits
+|poise7   = 120
+|impulse7 = 6
+|blunt7   = 1
+
+|title8   = Plunging Attack Collision
+|gu8      = 0U
+|icdtag8  = none
+|poise8   = 35
+|impulse8 = 2
+
+|title9   = Low Plunge
+|gu9      = 1U
+|icdtag9  = none
+|poise9   = 150
+|impulse9 = 4
+|blunt9   = 1
+
+|title10   = High Plunge
+|gu10      = 1U
+|icdtag10  = none
+|poise10   = 200
+|impulse10 = 7
+|blunt10   = 1
+}}
+
 ==Preview==
 {{Preview
 |file1=Oceanborne Normal Preview
@@ -42,7 +121,7 @@
 |caption2=Charged Attack
 
 |file3=Oceanborne Plunge Preview
-|caption3=Plunge Attack
+|caption3=Plunging Attack
 }}
 {{clr}}
 
@@ -51,7 +130,7 @@
 |talentType=Normal Attack
 |levels=11
 |order=hit1,hit2,hit3,hit4,hit5,charged_title,chargedattackspinningdmg,chargedattackfinaldmg,stamina,maxduration,plunge_title,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),5-Hit DMG (%),Charged Attack,Charged Attack Spinning DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),5-Hit DMG (%),Charged Attack,Charged Attack Cyclic DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=71.12
 |hit1_2=76.91
 |hit1_3=82.7
@@ -197,6 +276,10 @@
 |id      = Oceanborne
 |pt      = Conquista do Oceano
 |pt_tl   = Ocean Conquest
+|tr      = Okyanustan Gelen
+|tr_tl   = 
+|it      = Portato dall'oceano
+|it_tl   = Brought by the Ocean
 }}
 
 ==Change History ==
@@ -206,6 +289,10 @@
 {{Talent Navbox|Beidou}}
 
 [[es:Conquista del océano]]
+[[fr:Conquête des mers]]
+[[ja:征浪]]
 [[pt-br:Conquista do Oceano]]
+[[ru:По волнам]]
 [[th:Oceanborne]]
 [[uk:Завойовниця хвиль]]
+[[vi:Đại Dương]]

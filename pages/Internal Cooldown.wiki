@@ -1,20 +1,26 @@
-{{Community}}
 {{CustomTabs
 |tab1 = Overview
 |tab2 = Data
 }}
+{{Community}}
 {{Terminology Infobox
-|type = Gauge Unit Theory
+|type = Elemental Gauge Theory
 |type2 = Game Systems
 }}
-'''Internal Cooldown''' (ICD) is a [[Gauge Unit Theory]] mechanism that regulates how often an ability can apply an element for elemental reactions or elemental auras on a target.
+'''Internal Cooldown''' (ICD) is a mechanism that regulates how often an ability can apply an element for elemental reactions or elemental auras on a target.
 
 ==Overview==
-For most character abilities, the default ICD is '''2.5''' seconds or '''3''' hits. This means that the ICD is reset either after 2.5 seconds have passed or after 3 hits of the particular move are made. Note:
-*The first hit after the 3-hit sequence will apply an element, but does not reset the 2.5 second timer.
-*The first hit after the timer will apply an element, reset the timer, and reset the hit sequence.
+ICD is counted based on a timer and a hit counter.
 
-Some characters may have different ICDs for different abilities, whereas some character abilites may have no ICD at all.
+For most character abilities, the standard ICD is '''2.5''' seconds or '''3''' hits. This means that the ICD is reset either after 2.5 seconds have passed or after 3 hits of the particular move are made. Note:
+* The first hit after the 3-hit sequence will apply an element, but does ''not'' reset the 2.5 second timer.
+* The first hit after the timer will apply an element, reset the timer, and reset the hit sequence.
+
+Some characters' abilities may have special ICDs or no ICD at all. Some ICDs may lack a hit counter, but a timer is always present.
+
+Note that ICD is counted separately for each attacker and each target.
+
+For an in-depth explanation of the properties that handle ICD, see [[Internal Cooldown/Data]].
 
 {{Preview
 |file=Internal Cooldown Demonstration
@@ -27,41 +33,60 @@ Note that the 1st Melt shot will start the ICD 2.5 second timer. The 2nd and 3rd
 
 Moreover, ''after'' the 2.5 second timer expires, the next shot Yoimiya makes will Melt, regardless of where in the 3-hit attack sequence Yoimiya is, and start a new 2.5 second timer.
 
-==General Observations==
+==General Patterns==
 {{Main|Internal Cooldown/Data}}
-* Different characters have different ICDs. (i.e. ICD is not shared between different players)
-* A single character usually has different ICDs for different abilities or different components of a single talent.
-** However, sometimes two different abilities will share the same ICD
-* Different enemies have different ICDs. (i.e. if there are multiple enemies, one can melt or vaporize separately on different enemies, and each enemy will have its own separate ICD associated with it)
+* A single character usually has separate ICDs for different abilities or different components of a single talent.
+** However, sometimes multiple different abilities will share the same ICD.
 
 Specifically:
-* For most characters, the ICDs for [[Normal Attack]]s, [[Charged Attack]]s, [[Plunging Attack]]s, Elemental Skills, and Elemental Bursts are different.
-* For most Catalyst and Polearm users, the ICD for Normal and Charged Attacks are separate.
+* For most Bow, Catalyst and Polearm users, the ICD for Normal and Charged Attacks are separate.
 ** Exception: For [[Xiao]], the ICDs for Normal and Charged Attacks are shared.
 * For most Claymore and Sword users, the ICD for Normal and Charged Attacks are shared.
 ** Exception: For [[Kamisato Ayaka]] and [[Kamisato Ayato]], the ICDs for Normal and Charged Attacks are separate.
 * [[Plunging Attack]]s do not have ICD.
 * The ICD for bow users' charged shots varies between specific characters.
 
-==Examples==
+==Notable Examples==
 {{Main|Internal Cooldown/Data}}
-The following is a list of some examples and exceptions to the 3 hit/2.5 second ICD.
-* [[Diluc]]'s [[Searing Onslaught]] has no ICD.
-* Polearm users (except Xiao) have a 0.5 second ICD reset timer for Charged Attacks (different from the 2.5 second ICD). For example, this means that [[Hu Tao]] can effectively trigger a reaction each time she uses her Charged Attack (considering the animation usually lasts longer than 0.5 seconds).
-* [[Xiangling]]'s [[Pyronado]] has no ICD.
-* [[Amber]]'s charged shot has a 1-second ICD reset timer.
-* [[Venti]]'s [[Wind's Grand Ode]] has a 1-second ICD reset timer.
-* [[Ganyu]]'s 2nd level charged shot and its Frostflake Bloom have no ICD, meaning she can Melt with both the charged shot and bloom damage each time she fires it.
-* [[Xiao]]'s [[Lemniscatic Wind Cycling]] and [[Shenhe]]'s press version of [[Spring Spirit Summoning]] follow a 0.1 second/7 hit ICD rule, meaning that every 0.1 seconds (or every 7 hits), they can apply their respective elements. However, in practice this ICD has no effect due to their animations always taking longer than 0.1 seconds between each use. 
-* Several of [[Fischl]]'s abilities, including her Elemental Skill, follow a 4 hit rule (instead of the typical 3 hit rule).
-* Diluc's Elemental Burst [[Dawn]] follows a 5 hit rule (the Phoenix can hit enemies multiple times rapidly over its duration).
-* [[Tartaglia]]'s [[Riptide Slash]] has no ICD.
-* [[Sangonomiya Kokomi|Kokomi]]'s [[Kurage's Oath]] has no ICD.
-* [[Xinyan]]'s [[Sweeping Fervor|Level 3 Shield]]'s pulses have no ICD.
+The following is an ''incomplete'' list of notable examples and exceptions to the 2.5 seconds/3 hits standard ICD, especially those that inherently hit more than once. For the full list of character abilities and their ICD, see [[Internal Cooldown/Data]].
+
+===No ICD===
+* [[Bennett]]'s [[Passion Overload|Elemental Skill]]
+* [[Candace]]'s [[Sacred Rite: Wagtail's Tide|Elemental Burst]]
+* [[Chongyun]]'s [[Spirit Blade: Cloud-Parting Star|Elemental Burst]]
+* [[Collei]]'s [[Floral Brush|Elemental Skill]]
+* [[Diluc]]'s [[Searing Onslaught|Elemental Skill]]
+* [[Ganyu]]'s [[Liutian Archery|Frostflake Arrow]]
+* [[Kaedehara Kazuha]]'s [[Kazuha Slash|Elemental Burst]]
+* [[Tartaglia]]'s [[Riptide Slash]] and [[Havoc: Obliteration|Elemental Burst]]
+* [[Rosaria]]'s [[Ravaging Confession|Elemental Skill]] and [[Rites of Termination|Elemental Burst]]
+* [[Sangonomiya Kokomi]]'s [[Kurage's Oath|Elemental Skill]]
+* [[Sucrose]]'s [[Forbidden Creation - Isomer 75 / Type II|Elemental Burst]]
+* [[Xiangling]]'s [[Guoba Attack|Elemental Skill]] and [[Pyronado|Elemental Burst]]
+* [[Xinyan]]'s [[Sweeping Fervor|Elemental Skill]]
+* [[Yae Miko]]'s [[Great Secret Art: Tenko Kenshin|Elemental Burst]]
+
+===Non-Standard ICD===
+* [[Burning]]: 2s
+* Thrusting Charged Attacks by most Polearm users and [[Kamisato Ayato]]: 0.5s
+* [[Amber]]'s [[Sharpshooter|Fully-Charged Aimed Shot]] and [[Fiery Rain]]: 1s/3 Hits
+* [[Barbara]]'s [[Let the Show Begin♪|Melody Loop]]: 2.5s, 1st and 4th hits apply element
+* [[Collei]]'s [[Trump-Card Kitty|Elemental Burst]]: 3s
+* [[Cyno]]'s [[Featherfall Judgment|Duststalker Bolts]]: 2.5s
+* [[Diluc]]'s [[Dawn|Elemental Burst]]: 5s/5 Hits
+* [[Dori]]'s [[Alcazarzaray's Exactitude|Elemental Burst]]: 3s
+* [[Fischl]]'s [[Nightrider|Oz Coordinated Attack]]: 5s/4 Hits
+* [[Nilou]]'s [[Dance of Haftkarsvar|Tranquility Aura]]: 1.9s/4 Hits
+* [[Tighnari]]'s [[Khanda Barrier-Buster|Clusterbloom Arrows]]: 2.5s/4 Hits
+* [[Venti]]'s [[Wind's Grand Ode|Elemental Burst]]: 1s/3 Hits
+* [[Yelan]]'s [[Depth-Clarion Dice|Elemental Burst]] Coordinated Attacks: 2s/3 Hits
 
 ==Notes==
-* The ICD mechanism also applies to breaking elemental shields, such as those of [[Abyss Heralds]] and [[Abyss Lectors]]. Because of the ICD on charged shots for most bow characters, [[Diona]] may not be able to apply [[Frozen]] each time she charge-shots a Herald's Hydro shield. However, one can use [[Chongyun]]'s Elemental Skill to give a Cryo [[Elemental Infusion]] and then switch between multiple sword/polearm characters to apply Cryo to the Herald's shield (since different characters have separate ICDs).
-* Elemental application on [[Water]] is not affected by ICD.
+* Elemental application on [[Water]] or [[Grass]] is not affected by ICD.
 
 ==Navigation==
 {{Combat Navbox}}
+
+[[ja:元素付着クールタイム]]
+[[ru:Время отката наложения статуса]]
+[[vi:CD Ngầm]]

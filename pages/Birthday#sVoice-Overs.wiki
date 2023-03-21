@@ -1,0 +1,34 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Gallery
+|tab3 = Voice-Overs
+}}
+
+<table class="article-table sortable alternating-colors-table tdc1 thc1"><!--
+--><tr><!--
+   --><th>Character</th><!--
+   --><th>Birthday Voice-Over</th><!--
+--></tr><!--
+-->{{#DPL:
+|namespace=
+|uses=Template:Character Infobox
+|nottitlematch=%Traveler%
+|category=Playable Characters
+|nottitlematch=Sandbox/%
+|ordermethod=sortkey
+|format=,<tr><!--
+   --><td>{{Character|%PAGE%}}</td><!--
+   --><td><!--
+      -->²{#switch:%PAGE%<!--
+         -->¦Ningguang=²{VO Search by Title¦%PAGE%¦Birthday (Aether Version)}²<hr />²{VO Search by Title¦%PAGE%¦Birthday (Lumine Version)}²<!--
+         -->¦Raiden Shogun=²{VO Search by Title¦%PAGE%¦Birth Date}²<hr />²{VO Search by Title¦%PAGE%¦Birthday}²<!--
+         -->¦Xingqiu=²{VO Search by Title¦%PAGE%¦Birthday: Wishing}²<hr />²{VO Search by Title¦%PAGE%¦Birthday: Customs}²<!--
+         -->¦Yae Miko=²{VO Search by Title¦%PAGE%¦Birth Date}²<!--
+         -->¦#default=²{VO Search by Title¦%PAGE%¦Birthday}²<!--
+      -->}²<!--
+   --></td><!--
+--></tr>,,
+}}<!--
+--></table>
+
+[[Category:Voice-Overs]]

@@ -1,0 +1,165 @@
+{{Enemy Infobox
+|image    = Enemy Consecrated Red Vulture.png
+|dmgtype  = Pyro
+|weakpoint = yes
+|family   = Mystical Beasts
+|group    = Consecrated Beasts
+|type     = Elite Enemies
+}}
+{{Enemy Intro}}
+
+==Drops==
+===Items===
+{{Drops Table|type=Consecrated Beast}}
+
+===Energy===
+{{Energy Drops
+|type  = Pyro
+|hp1   = 66
+|p1    = 2
+|hp2   = 33
+|p2    = 2
+|hp3   = 0
+|p3    = 2
+}}
+
+==Stats==
+{{Enemy Stats
+|res2         = Phagocytic Form
+|resglobal2   = 40%
+|pyro_res2    = 70%
+
+|hp_ratio     = 7
+|hp_type      = 2
+|atk_ratio    = 6
+|atk_type     = 2
+}}
+
+==Weak Point Location==
+<gallery>
+Consecrated Red Vulture Weak Point.png
+</gallery>
+
+==Abilities and Attacks==
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1      = Phagocytic Form
+|desc_1      = Enters Phagocytic Form immediately when in combat, increasing its Pyro RES by '''60%''' and all other RES by '''30%'''.
+
+|name_2      = Melee Combo 1
+|desc_2      = Performs a 2-part combo with its beak and its wings, dealing '''50% ATK''', '''70% ATK''' as {{Color|Pyro DMG}}.
+
+|name_3      = Melee Combo 2
+|desc_3      = Performs a 3-part combo consisting of 2 rapid beak attacks, a claw attack, and a whirling spin, dealing '''50% ATK ×2''', '''80% ATK''', '''100% ATK''' as {{Color|Pyro DMG}}.
+
+|name_4      = Slam
+|desc_4      = Flies up and slams down at the player's location, dealing '''100% ATK''' as {{Color|Pyro DMG}}.
+
+|name_5      = Bombardment
+|desc_5      = If the player is far away, flies towards the player while continuously dropping bombs from its wings, each dealing '''80% ATK''' as {{Color|AoE Pyro DMG}}.
+
+|name_6      = Tail Sweep
+|desc_6      = If the player is behind the Consecrated Red Vulture, turns around and sweeps with its tail, dealing '''80% ATK''' as {{Color|AoE Pyro DMG}}.
+
+|name_7      = Phagocytic Barrage
+|desc_7      = Transforms into an orb and charges before unleashing a barrage of projectiles at the player, each dealing '''50% ATK''' as {{Color|Pyro DMG}}.
+* During this attack, the Consecrated Red Vulture will temporarily exit '''Phagocytic Form''' and spawn a Phagocytic Energy Block that lasts for '''6''' seconds.
+** The Phagocytic Energy Block can be destroyed using a single {{Pyro}} attack or 6 non-Pyro elemental attacks.
+** If destroyed, the active character will obtain a status that lasts for 10 seconds:
+*** While the status is active, all party members will lose '''2%''' of their Max [[HP]] every second.
+*** The next time a [[Normal Attack|Normal]]/[[Charged Attack|Charged]]/[[Plunging Attack|Plunging]] Attack, [[Elemental Skill]] or [[Elemental Burst]] hits the Consecrated Red Vulture, the status is consumed and it will lose '''15%''' of its Max HP and become paralyzed.
+*** If the status expires after 10 seconds, the Consecrated Red Vulture will re-enter '''Phagocytic Form'''.
+** If not destroyed in time, the Consecrated Red Vulture will reabsorb the Phagocytic Energy Block and re-enter '''Phagocytic Form'''.
+|file_7_2    = Consecrated Red Vulture Phagocytic Barrage 2
+|caption_7_2 = Paralyzed
+
+|name_8      = Freeze Resistance
+|desc_8      = The Consecrated Red Vulture possesses '''50%''' [[Freeze Resistance]] at all times, decreasing the effectiveness of the [[Frozen]] Elemental Reaction.
+}}
+
+===AI Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if all of the following conditions have been met:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+{| class="wikitable"
+! rowspan="2" | Ability !! rowspan="2" | Priority !! rowspan="2" | Range Req. (m) !! rowspan="2" | Angle Req. (°) !! rowspan="2" style="width:80px" | CD (s) !! rowspan="2" | Initial CD (s) !! colspan="2" | Global CD !! rowspan="2" | Action Interval (s) !! rowspan="2" | State Req.
+|-
+! Group !! CD (s)
+|-
+| Melee Combo 1 || 5 || 0–6 || 0–90 || 2–3 || 0 || colspan="2" | — || rowspan="8" | 0 || Phagocytic Form
+|-
+| Melee Combo 2 || 5 || 0–8 || — || 3–4 || 0 || colspan="2" | — || Phagocytic Form
+|-
+| Slam || 5 || 0–30 || — || 8–10 || 2.5 || colspan="2" | — || Phagocytic Form
+|-
+| Bombardment || 5 || 15–35 || — || 8–10 || 30 || colspan="2" | — || Phagocytic Form
+|-
+| Tail Sweep || 5 || 0–6 || 60–180 || 3–5 || 2.5 || colspan="2" | — || Phagocytic Form
+|-
+| Phagocytic Barrage || 2 || 0–40 || — || 30 || 25 || Consecrated Beast Phagocytic Attack || 15 || Phagocytic Form
+|-
+| Melee Combo 1 || 5 || 0–6 || 0–90 || 3–4 || 4.5 || colspan="2" | — || Non-Phagocytic Form
+|-
+| Tail Sweep || 5 || 0–6 || 60–180 || 4–6 || 4.5 || colspan="2" | — || Non-Phagocytic Form
+|}
+
+==Descriptions==
+{{Description|A scavenging bird of prey that has mutated after feeding from greater lifeforms.<br />The greater lifeforms devoured by Consecrated Beasts often have nigh-immortal consciousness that can never be fully silenced or eradicated. The very power and consciousness gained by Consecrated Beasts devouring these lifeforms will, in turn, drive them to seek more violence and carrion.|[[Archive]]}}
+
+==Gallery==
+<gallery>
+Consecrated Red Vulture Icon.png|Icon
+</gallery>
+
+===Animations===
+{{Preview
+|file1    = Consecrated Red Vulture Flex
+|caption1 = Flexing
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Consecrated Red Vulture
+|zhs     = 圣骸赤鹫
+|zhs_rm  = Shènghái Chìjiù
+|zht     = 聖骸赤鷲
+|zht_rm  = Shènghái Chìjiù
+|zh_tl   = {{Lex|Consecrated|zh}} Scarlet Vulture
+|ja      = 聖骸赤鷲
+|ja_rm   = Seigai Akawashi{{Assumed}}
+|ja_tl   = {{Lex|Consecrated|ja}} Scarlet Vulture
+|ko      = 성해 붉은 독수리
+|ko_tl   = {{Lex|Consecrated|ko}} Red Vulture
+|es      = Buitre Escarlata Sacróseo
+|es_tl   = Sacred Scarlet Vulture
+|fr      = Vautour rouge sacralisé
+|fr_tl   = Consecrated Red Vulture
+|ru      = Священный красный стервятник
+|ru_tl   = Sacred Red Vulture
+|th      = Consecrated Red Vulture
+|vi      = Kền Kền Đỏ Thánh Hóa
+|vi_tl   = 
+|de      = Rotgeier der heiligen Knochen
+|de_tl   = Red Vulture of Holy Bones
+|id      = Consecrated Red Vulture
+|pt      = Abutre Vermelho da Ossada Sagrada
+|pt_tl   = 
+|tr      = Kutsanmış Kızıl Akbaba
+|tr_tl   = 
+|it      = Avvoltoio rosso delle ossa sacre
+|it_tl   = Red Vulture of the Sacred Bones
+}}
+
+==Change History==
+{{Change History|3.4}}
+
+==Navigation==
+{{Enemy Navbox|Elite}}
+
+[[es:Buitre Escarlata Sacróseo]]
+[[pt-br:Abutre Vermelho da Ossada Sagrada]]

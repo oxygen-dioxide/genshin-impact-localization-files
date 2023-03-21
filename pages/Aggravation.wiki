@@ -3,6 +3,7 @@
 |tab2 = Data
 }}
 {{Community}}
+{{About|the enemy threat mechanic|the Elemental Reaction|Catalyze}}
 {{Terminology Infobox
 |type         = Game Systems
 |type2        = Combat
@@ -12,9 +13,9 @@
 '''Taunting''' refers to special character abilities that can aggravate enemies and change their target. All bosses are immune to taunt skills.
 
 ==Combat Mode==
-When the player, a nearby ally, or a Taunt is detected an enemy, the player enters combat mode. When the enemy is no longer aggravated, the player leaves combat mode.
+When the player, a nearby ally, or a Taunt is detected by an enemy, the player enters combat mode. When the enemy is no longer aggravated, the player leaves combat mode.
 
-There will be red arrows near the player that point to any enemies that are aggravated by a player or a nearby ally and are off-screen but not hidden or invisible. Enemies who off-screen and who are also hidden or invisible will not have arrows pointing at them.
+There will be red arrows near the player that point to any enemies that are aggravated by a player or a nearby ally and are off-screen but not hidden or invisible. Enemies who are off-screen and who are also hidden or invisible will not have arrows pointing at them.
 
 Upon alerting an enemy:
 * Combat mode is initiated.
@@ -49,7 +50,7 @@ When Awareness is below 100, it will decrease over time at a certain rate, but t
 When Awareness is 0, targets have a Threat Level of 0. Targets who cause Awareness to increase have a Threat Level of 1 until Awareness is 100. When Awareness is 100, targets have a Threat Level of 2.
 
 ===Adjustments===
-Passives such as [[Sayu]]'s [[Yoohoo Art: Silencer's Secret]] and [[Aloy]]'s [[Easy Does It]] directly modify the detection ranges of enemies and wildlife by an ''Adjustment Factor''. So far, these passives only modify the view and proximity ranges of wildlife, and nothing modifies the hearing ranges of wildlife or any of the ranges of enemies.
+[[:Category:Wildlife Talents|Wildlife Talents]] directly modify the detection ranges of enemies and wildlife by an ''Adjustment Factor''. So far, these passives only modify the view and proximity ranges of wildlife, and nothing modifies the hearing ranges of wildlife or any of the ranges of enemies.
 
 ===Enemy States===
 Enemy states, such as whether hilichurls are asleep, relaxing, or alert, can affect their detection ranges.<!-- in its own section because hopefully we'll have more info on this eventually -->
@@ -90,6 +91,8 @@ When a sound occurs within the Hearing Range:
 * Enemy alarms
 * Almost all arrows upon landing
 ** Arrows that deal different kinds of damage appear to produce different levels of noise. For example, {{Pyro}}, {{Cryo}}, and {{Hydro}} arrows will alert enemies about as easily as Physical arrows, while {{Anemo}}, {{Electro}}, and {{Geo}} arrows appear unable to.
+* Radishes from [[Raphanus Sky Cluster|Yaoyao's Elemental Skill]] and [[Moonjade Descent|Yaoyao's Elemental Burst]]
+** These seem to make about the same amount of noise as the arrows that make noise.
 * [[Stealth]] mode only: footsteps
 
 ====Negligible or No Volume====
@@ -99,6 +102,8 @@ When a sound occurs within the Hearing Range:
 * Arrows that deal {{Anemo}}, {{Electro}}, and {{Geo}} damage
 * Enemy voices
 * Enemy footsteps
+* Enemy hits on player characters
+* All non-combat player character movement, such as [[sprinting]], [[climbing]], [[swimming]], idle voice-overs
 
 ====Footsteps====
 ''Detection by footsteps'' is exclusively used by NPCs in certain [[Stealth]] quest objectives. Awareness accumulates while the active character is within hearing range, even if the character is not actually moving, and the rate is based on the character's distance from the NPC.
@@ -173,6 +178,9 @@ If the Out of Zone Timer reaches its limit, Aggression and Awareness towards the
 
 If Condition 5 becomes unfulfilled before Combat clears, the Out of Zone Timer will stop and be reset to 0.
 
+==Special Mechanics==
+In [[Phantasmal Gate]] challenges, players who stand near [[Dream Flower]]s that are neither Activated nor Scorched will not aggravate enemies and will de-aggravate any already aggravated enemies.
+
 ==Other Observations==
 * Enemies may not become aggravated when they receive damage from [[Defense Mechanism]]s.
 * [[Displacement]] from [[Vacuum Field]]s alone will not aggravate enemies.
@@ -184,13 +192,16 @@ The following character skills can taunt the enemy and change their aggro target
 {{Talents by Category Table|Taunting Talents}}
 
 ==Trivia==
-* The term ''aggro'' is short for ''aggravate'' but is commonly thought to be short for ''aggression'' or ''aggressive''. The term predates video games, but it may be mostly known as a video game term in present day. ''Aggro'' is used as both a verb and a noun, and the verb's active form ''to aggro'' and passive form ''to be aggro'd'' are interchangeable, with the meanings inferred from context.<ref>Stack Exchange: [https://gaming.stackexchange.com/questions/17608/what-does-aggro-mean/17618 What does Aggro mean?]</ref><ref>Wikitionary: [[wiktionary:aggro|aggro]]</ref>
 * Most walking Hilichurls have two walking animations when they are not aggravated. The first is a very relaxed walking animation with the Hilichurl swinging their weapon by their side. The second is a more alert walking animation with the Hilichurl holding up their weapon, which they may switch to when the player is almost but not yet close enough to aggravate them as well as if a single Aimed Shot lands near them. Their detection range may be larger for the more alert animation than for the relaxed animation.
 * Prior to [[Version 1.3]], [[Dendro Slime]]s were more notorious than Whopperflowers for their very large aggravation ranges combined with their hiding skills.
 * The [[Unusual Hilichurl]] does not aggro until a player attacks him.
 * [[Canine Bunshin]] do not aggro from arrows that land near them.
+* During [[Version 2.8]], relaxing and dancing [[hilichurls]] that did not aggro when players approached could be found on the center island of the [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]]. (The center island is technically located in [[Twinning Isle/2.8#Trivia|Twinning Isle]].)
+* Some hilichurls in the [[Great Red Sand]], released in [[Version 3.1]], have unusually low or nonexistent aggro requirements if they are not hit by the player.
+===Etymology===
+* The term ''aggro'' is short for ''aggravate'' but is commonly thought to be short for ''aggression'' or ''aggressive''. The term predates video games, but it may be mostly known as a video game term in present day. ''Aggro'' is used as both a verb and a noun, and the verb's active form ''to aggro'' and passive form ''to be aggro'd'' are interchangeable, with the meanings inferred from context.<ref>Stack Exchange: [https://gaming.stackexchange.com/questions/17608/what-does-aggro-mean/17618 What does Aggro mean?]</ref><ref>Wikitionary: [[wiktionary:aggro|aggro]]</ref>
 
-==See also==
+==See Also==
 * [[Stealth]]
 
 ==References==

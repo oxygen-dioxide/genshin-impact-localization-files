@@ -6,8 +6,8 @@
 * [[Rain of Stone|Normal Attack, Charged Attack, and Plunging Attack]] DMG is increased by 1.39% of Max HP.
 * '''[[Dominus Lapidis]]'''' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.
 * '''[[Planet Befall]]''''s DMG is increased by 33% of Max HP.
-|scale_att1    = HP
-|utility1      = Flat DMG Increase
+|scale_att1    = Max HP
+|utility1      = Additive Base DMG Bonus
 |utility2      = Normal Attack DMG Increase
 |utility3      = Charged Attack DMG Increase
 |utility4      = Plunging Attack DMG Increase
@@ -17,18 +17,7 @@
 '''Dominance of Earth''' is [[Zhongli]]'s [[4th Ascension Passive]].
 
 ==Gameplay Notes==
-With this passive, the '''base outgoing damage''' is calculated using the following formula:
-:<math>\text{Outgoing DMG} = (\text{ATK} \times  \% \text{ Ability}</math><math>+ \text{HP}\times\text{Ability HP Mult})</math><math>\times (1 + \% \text{ DMG Bonus} )</math>Where:
-* <math>\text{ATK}</math> is the subject's total '''ATK''' value (including ATK and % ATK Bonuses), given by <math>\text{ATK}=\text{ATK Base} \times (1+\%\text{ ATK})+\text{ATK Flat}</math>, where
-**<math>\text{ATK Base}</math> is the base attack of the subject. (This is the sum of the character's innate level-dependent ATK and their weapon's ATK.)
-** <math>\%\text{ ATK}</math> is the sum of all percentage attack bonuses the subject has.
-** <math>\text{ATK Flat}</math> is the sum of all flat attack bonuses (excluding base attack) the subject has.
-* <math>\% \text{ Ability}</math> is the ability's damage percentage. (This is listed in the Talents screen for combat talents and in the Weapon Effects screen for weapon abilities.)
-* <math>\% \text{ DMG Bonus}</math> is the sum of all [[Damage Bonus]]es applicable to the attack.
-* <math>\text{HP}</math> is the subject's maximum health.
-* <math>\text{Ability HP Mult}</math> is the multiplier corresponding to the used ability, that is, 0.0139 for [[Rain of Stone]], 0.019 for [[Dominus Lapidis]], and 0.33 for [[Planet Befall]].
-
-This value is then multiplied by other coefficients, including [[crit]] and target [[defense]]. For more information, see [[Damage#Outgoing Damage]].
+* The DMG increase based on Max [[HP]] is considered [[Additive Base DMG Bonus]] in the [[Damage#General Damage Formula|Damage Formula]].
 
 ==Trivia==
 ===Etymology===
@@ -65,6 +54,10 @@ This value is then multiplied by other coefficients, including [[crit]] and targ
 |id      = Dominance of Earth
 |pt      = Domínio da Terra
 |pt_tl   = Dominance of Earth
+|tr      = Toprak Hakimiyeti
+|tr_tl   = 
+|it      = Dominio della terra
+|it_tl   = Domain of the Earth
 }}
 
 ==Change History==
@@ -77,7 +70,9 @@ This value is then multiplied by other coefficients, including [[crit]] and targ
 {{Talent Navbox|Zhongli}}
 
 [[es:Dominio de la Tierra]]
-[[ru:Господство земли]]
+[[fr:Domination de la Terre]]
 [[pt-br:Domínio da Terra]]
+[[ru:Господство земли]]
 [[th:Dominance of Earth]]
 [[uk:Карбування золота]]
+[[vi:Xuy Kim Soạn Ngọc]]

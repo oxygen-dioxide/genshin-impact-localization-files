@@ -1,4 +1,5 @@
 {{Quest Infobox
+|id            = 79023
 |image         = Event Quest The Discarded Insignia.png
 |type          = World
 |event_name    = Summertime Odyssey
@@ -6,16 +7,16 @@
 |summary       = 
 |requirement   = Complete [[Like Rhyme and Song, the Summer Reverie]]
 |characters    = Chevka; Paimon; Traveler; Yakov
-|startLocation = [[Minacious Isle]], [[Golden Apple Archipelago]]
-|region        = Golden Apple Archipelago
-|area          = Minacious Isle
+|startLocation = [[Minacious Isle/2.8|Minacious Isle]], [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]]
+|area          = Golden Apple Archipelago
+|subarea       = Minacious Isle
 |next          = A Misplaced Conch
 |exp           = 250
 |mora          = 30,000
 |primogems     = 30
 |other         = {{Card|Hero's Wit|3}}
 }}
-'''The Discarded Insignia''' is an [[Event Quest]] during the [[Summertime Odyssey]] Event. 
+'''''The Discarded Insignia''''' is an [[Event Quest]] during the [[Summertime Odyssey]] Event.
 
 ==Steps==
 * Start the quest by talking to the Electrohammer Vanguard southwest of the [[Temple of the Star Latitudes]] Domain in Present Day [[Minacious Isle/2.8|Minacious Isle]]
@@ -31,16 +32,21 @@
 # Look for traces of the other group's members
 #* Approach the starting location of [[The Misplaced Photo]] if it has not been started
 
-==Notes==
+==Gameplay Notes==
 * To "Find a way to open the path that Yakov took", the [[Elemental Monument]]s in the present island need to be activated in the following order: {{Cryo}} -> {{Anemo}} -> {{Pyro}} -> {{Hydro}}
-** The nearby [[Resonating Visions/Story#II|Echoing Conch]] Secret Mission Log:VIII hints the order: "I think it went... white, green... red, then blue?"
+** The nearby [[Resonating Visions/Story#II|Echoing Conch]] Secret Mission Log: VIII hints the order: "I think it went... white, green... red, then blue?"
 ** This is the same order that was used to light the Elemental Monuments in ''[[The Winding Homeward Way]]'', a World Quest that partly took place in the same location on Minacious Isle during [[Version 1.6]].
 
 ==Dialogue==
 {{Quest Description|You meet a Fatui Electrohammer Vanguard on Minacious Isle who keeps going on about an insignia. It seems that you won't be able to get through to him... But if you find some way to bring him back to his senses, perhaps you might be able to figure out why he is here.}}
 {{Dialogue start}}
+;(Talk to Electrohammer Vanguard before the quest become available)
+:'''Electrohammer Vanguard:''' No, I need to... bring the insignia back to him... I've got to find it...
+:{{DIcon}} (We aren't getting through to him...)
+:{{DIcon}} (Let's leave him alone for now...)
+
 ;(Talk to the Electrohammer Vanguard)
-;(If the player has not yet awaken the Mirror Maiden in [[The Misplaced Photo]])
+;(If the player has not yet awakened the Mirror Maiden in [[The Misplaced Photo]])
 ::'''Electrohammer Vanguard:''' It's all my fault... I'm the reason he became like that...
 ::'''Electrohammer Vanguard:''' No, I need to... bring the insignia back to him... I've got to find it...
 ::'''Paimon:''' What's that Fatui guy muttering about?
@@ -141,7 +147,7 @@
 
 ;(Talk to Chevka)
 :'''Chevka:''' Huh, so there was an island like this there. How strange...
-:'''Chevka:''' I don't remember this being here the last when we were investigating earlier...
+:'''Chevka:''' I don't remember this being here the last time when we were investigating earlier...
 :'''Paimon:''' What is it, Chevka?
 :'''Chevka:''' Hmm... No, it's nothing, really.
 :'''Paimon:''' Yes, it seems that Yakov definitely came to this island as well.
@@ -182,18 +188,32 @@
 :{{DIcon}} The experiment is kaput, duh.
 :'''Chevka:''' That how it is? Haha, then I guess Researcher Persikov's gonna have to pay that toll.
 
-;(If the player not yet awaken the Mirror Maiden in [[The Misplaced Photo]])
+;(If the player has not yet awakened the Mirror Maiden in [[The Misplaced Photo]])
 :'''Chevka:''' That's all I know. I made arrangements with {{Color|buzzword|the other team members}} that we'd go back to our base camp in the center of the sea once we finished testing...
 ::'''Chevka:''' They should be somewhere on the {{Color|buzzword|two islands in the north}}... According to our mission progress, they're probably on the {{Color|buzzword|northwestern island}}...
 ::'''Chevka:''' *sigh*... Agafya would be crazy mad at me if she saw Yakov like this... But I've got to bring Yakov back no matter what!
+
 ::'''Paimon:''' Another group... and the other Fatui working alongside them, huh?
 ::'''Paimon:''' This is kinda concerning. According to Chevka, we can find 'em near Broken Isle, so let's start our search there...
-:
+
+:;(Talk to Chevka at the base camp) (Optional)
+::'''Chevka:''' *sigh*, what am I gonna do about Yakov... What, is there anything else, (Traveler)?
+::{{DIcon}} Why did you join the Fatui?
+:::'''Chevka:''' Why... I joined the Fatui?
+:::'''Chevka:''' Well, I did it to help realize the long-cherished wish of Her Royal Highness the [[Tsaritsa]]... and to bring more honor to my family. I was raised to fight for the Tsaritsa.
+::{{DIcon}} About Yakov...
+:::'''Chevka:''' *sigh* It seems that Yakov is still delirious...
+::{{DIcon}} It's nothing.
+
+:;(Talk to Yakov at the base camp) (Optional)
+::'''Yakov:''' Why... Why did you leave me alone, Father... Why...
+::{{DIcon}} (He still doesn't seem to be in his right mind...)
+
 :;(Approach the Mirror Maiden)
 ::'''Paimon:''' Huh, there's Fatui on this island too. Could these people be "the other team" that Chevka was talking about earlier?
 ::'''Paimon:''' Let's go check it out, (Traveler).
 
-;(If the player has awaken the Mirror Maiden in [[The Misplaced Photo]])
+;(If the player has awakened the Mirror Maiden in [[The Misplaced Photo]])
 ::'''Chevka:''' That's all I know. I made arrangements with the other team members that we'd go back to our base camp in the center of the sea once we finished testing...
 ::'''Paimon:''' Ah, you must be referring to the Fatui we met earlier!
 ::'''Chevka:''' Oh, so you've met them, have you...
@@ -224,11 +244,11 @@
 |ko_rm   = Beoryeojin Hwijang
 |ko_tl   = Discarded Insignia
 |es      = La insignia descartada
-|es_tl   = 
+|es_tl   = The Discarded Insignia
 |fr      = L'insigne abandonné
 |fr_tl   = The Abandoned Insignia
 |ru      = Выброшенный шеврон
-|ru_tl   = 
+|ru_tl   = The Discarded Chevron
 |th      = ตราสัญลักษณ์ที่ถูกโยนทิ้ง
 |th_rm   = 
 |th_tl   = 
@@ -244,3 +264,6 @@
 
 ==Change History==
 {{Change History|2.8}}
+
+[[es:La insignia descartada]]
+[[pt-br:A Insígnia Jogada]]

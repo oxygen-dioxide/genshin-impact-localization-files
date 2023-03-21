@@ -1,14 +1,19 @@
 {{Quest Infobox
 |id            = 01008
+|image         = Archon Quest C1A1 Moulder of Mountains.png
 |type          = Archon
 |chapter       = I
 |actNum        = I
 |act           = Of the Land Amidst Monoliths
 |part          = 3
-|description   = Following the instructions of [[Moon Carver]], you arrive at [[Mt. Hulao]] in order to meet with [[Mountain Shaper]].
 |startLocation = [[Mt. Hulao]], [[Liyue]]
+|region        = Liyue
+|area          = Minlin
+|subarea       = Mt. Hulao
 |prev          = An Impromptu Change of Plan
 |next          = Dust to Dust
+|concurrent    = Wangshu
+|concurrent2   = Custodian of Clouds
 |exp           = 400
 |mora          = 12,250
 |other         = {{Card|Adventurer's Experience|5}}{{Card|Mystic Enhancement Ore|3}}
@@ -18,13 +23,21 @@
 {{TeyvatQuest|1|1|part=3}}
 ==Steps==
 # Seek out [[Mountain Shaper]]
-# Shatter the [[Amber (rock)|amber]] [big orange rocks, not to be confused with [[Cor Lapis]]] on the mountain road to save the trapped person
-# Talk to [[Li Dang]]
-# Talk to [[Li Ding]] and Li Dang
+#* To progress the quest, either talk to [[Li Ding]] at the top of [[Mt. Hulao]] or break the [[Amber (rock)|amber]] trapping [[Li Dang]].
+#* Li Dang will randomly appear from any one of the ambers located along the path between the top of Mt. Hulao and the pagoda northeast of the [[Teleport Waypoint]].
+# Shatter the [[Amber (rock)|amber]] on the mountain road to save the trapped person
+#* This step is automatically completed if Li Dang is freed before talking to Li Ding.
+# Talk to Li Dang
+# Talk to Li Ding and Li Dang
 # Meet Mountain Shaper
 
 ==Dialogue==
-{{dialogue start}}
+{{Quest Description|Following the instructions of [[Moon Carver]], you arrive at [[Mt. Hulao]] in order to meet with [[Mountain Shaper]].}}
+{{Dialogue start}}
+;(Interact with the large talisman at the top of Mt. Hulao, optional)
+:'''Mysterious Barrier:''' (Jueyun Karst is where the adepti dwell, so perhaps this is the abode of one. But there seems to be no way to enter...)
+
+===Talk to Li Ding First===
 ;(Talk to Li Ding at the top of Mt. Hulao)
 :{{A|vo lyaq004 2 liding 01.ogg}} '''Li Ding:''' Have mercy, O mighty adeptus! I beg you... Show mercy upon me and my brother... Spare our lives!
 :{{DIcon}} What's wrong?
@@ -47,16 +60,19 @@
 ::{{A|vo lyaq004 2 liding 12b.ogg}} '''Li Ding:''' Thanks be to the adeptus of Mt. Hulao, and to their messengers! Never will we be so foolish again...
 ::{{A|vo lyaq004 2 paimon 04b.ogg}} '''Paimon:''' Whoa, check you out! When you speak like that, you actually make a pretty convincing adepti messenger.
 
-;(Talking to Li Ding again)
+;(After the cutscene)
+:{{A|vo lyaq004 2 paimon 05.ogg}} '''Paimon:''' Paimon was gonna ask him about where to find the adeptus, but... he seems pretty one-track-mind about rescuing his brother right now.
+:{{A|vo lyaq004 2 paimon 06.ogg}} '''Paimon:''' Hmm... So, he said that Li Dang got trapped in amber somewhere on Mt. Hulao, and that they were following the path the whole way up.
+:{{A|vo lyaq004 2 paimon 07.ogg}} '''Paimon:''' So, let's follow the path down from here, and make sure to be on the lookout for amber on the way.
+
+;(Talk to Li Ding again)
 ::{{A|vo dialog lyaq004 liding 01.ogg}} '''Li Ding:''' Please, help me rescue my brother. I don't know which amber it was that took him...
 ::{{A|vo dialog lyaq004 liding 02.ogg}} '''Li Ding:''' All I know is that we kept to {{Color|buzzword|the path the whole way up the mountain}}. So the amber won't be far from the path.
 ::{{A|vo dialog lyaq004 liding 03.ogg}} '''Li Ding:''' O mighty messengers of the illuminated adepti, please rescue him, I beg of you...
 
-:{{A|vo lyaq004 2 paimon 05.ogg}} '''Paimon:''' Paimon was gonna ask him about where to find the adeptus, but... he seems pretty one-track-mind about rescuing his brother right now.
-:{{A|vo lyaq004 2 paimon 06.ogg}} '''Paimon:''' Hmm... So, he said that Li Dang got trapped in amber somewhere on Mt. Hulao, and that they were following the path the whole way up.
-:{{A|vo lyaq004 2 paimon 07.ogg}} '''Paimon:''' So, let's follow the path down from here, and make sure to be on the lookout for amber on the way.
 ----
-;(After shattering the amber trapping Li Dang)
+
+;(Talk to Li Dang after shattering the amber)
 :{{A|vo lyaq004 5 lidang 01a 1.ogg}} '''Li Dang:''' *coughing*
 :{{A|vo lyaq004 5 lidang 01a 2.ogg}} '''Li Dang:''' Wh–What happened? ...Y–You rescued me? Thank you...
 :{{A|vo lyaq004 5 lidang 01a 3.ogg}} '''Li Dang:''' Oh! And have you seen my brother? His name is Li Ding, we were climbing the mountain together.
@@ -68,16 +84,8 @@
 :{{A|vo lyaq004 5 lidang 01a 6.ogg}} '''Li Dang:''' Thank you! I will head up to find my brother now.
 :{{A|vo lyaq004 5 lidang 01a 7.ogg}} '''Li Dang:''' Here's hoping I don't run into any more amber on the way...
 
-;(If you rescue Li Dang without talking to Li Ding)
-:{{A|vo lyaq004 5 lidang 01b 1.ogg}} '''Li Dang:''' *coughing*
-:{{A|vo lyaq004 5 lidang 01b 2.ogg}} '''Li Dang:''' Wh–What happened? ...Y–You rescued me? Thank you...
-:{{A|vo lyaq004 5 lidang 01b 3.ogg}} '''Li Dang:''' Oh! And have you seen my brother? His name is Li Ding, we were climbing the mountain together.
-:{{A|vo lyaq004 5 lidang 01b 4.ogg}} '''Li Dang:''' But then, I... Well, I don't know. Did I get swallowed up by the amber? I think I must have been knocked out...
-:{{A|vo lyaq004 5 lidang 01b 5.ogg}} '''Li Dang:''' I just hope he didn't get trapped in amber too...
-:{{DIcon}} I wouldn't know...
-:{{A|vo lyaq004 5 lidang 01b 6.ogg}} '''Li Dang:''' Alright then, I won't bother you anymore. Thanks again... I'm going to find my brother now.
-:{{A|vo lyaq004 5 lidang 01b 7.ogg}} '''Li Dang:''' I really hope he's okay...
 ----
+
 ;(Talk to the brothers at the top of the mountain)
 :{{A|vo lyaq004 6 liding 01a 1.ogg}} '''Li Ding:''' Thank you for rescuing my brother, O mighty messengers of the illuminated adepti.
 :{{DIcon}} Have you ever seen the adeptus here?
@@ -86,9 +94,23 @@
 :{{A|vo lyaq004 6 liding 01a 4.ogg}} '''Li Ding:''' Unlike you guys... You're adepti messengers, so it's a whole different story.
 :{{A|vo lyaq004 6 liding 01a 5.ogg}} '''Li Ding:''' Anyway, we have trespassed in the realm of the adeptus for long enough. We should get going. Thank you, mighty adepti messengers...
 :{{A|vo lyaq004 6 lidang 01a.ogg}} '''Li Dang:''' Yes, thank you, messengers...
-;(Li Ding and Li Dang run down the mountain together)
+:;(Li Ding and Li Dang run down the mountain together)
+:;(Continue to [[#Meet Mountain Shaper|Meet Mountain Shaper]])
 
-;(Talking to the brothers if you rescued Li Dang without talking to Li Ding)
+===Free Li Dang First===
+;(Talk to Li Dang after shattering the amber)
+:{{A|vo lyaq004 5 lidang 01b 1.ogg}} '''Li Dang:''' *coughing*
+:{{A|vo lyaq004 5 lidang 01b 2.ogg}} '''Li Dang:''' Wh–What happened? ...Y–You rescued me? Thank you...
+:{{A|vo lyaq004 5 lidang 01b 3.ogg}} '''Li Dang:''' Oh! And have you seen my brother? His name is Li Ding, we were climbing the mountain together.
+:{{A|vo lyaq004 5 lidang 01b 4.ogg}} '''Li Dang:''' But then, I... Well, I don't know. Did I get swallowed up by the amber? I think I must have been knocked out...
+:{{A|vo lyaq004 5 lidang 01b 5.ogg}} '''Li Dang:''' I just hope he didn't get trapped in amber too...
+:{{DIcon}} I wouldn't know...
+:{{A|vo lyaq004 5 lidang 01b 6.ogg}} '''Li Dang:''' Alright then, I won't bother you anymore. Thanks again... I'm going to find my brother now.
+:{{A|vo lyaq004 5 lidang 01b 7.ogg}} '''Li Dang:''' I really hope he's okay...
+<!-- Li Ding has no dialogue if Li Dang is freed first but then is not spoken to-->
+----
+
+;(Talk to Li Ding)
 :{{A|vo lyaq004 6 liding 01b 1.ogg}} '''Li Ding:''' My brother told me everything... Thank you both so much for rescuing him!
 :{{A|vo lyaq004 6 liding 01b 2.ogg}} '''Li Ding:''' *sigh* Our family has nothing to live on... We heard tell of treasures hidden in the amber of Mt. Hulao, and with nowhere else to turn, we came looking for them.
 :{{A|vo lyaq004 6 lidang 01b 1.ogg}} '''Li Dang:''' We weren't thinking straight... We thought we could sneak up into the mountain and grab just enough treasure to sell and support our family with.
@@ -103,27 +125,31 @@
 :{{A|vo lyaq004 6 liding 01b 5.ogg}} '''Li Ding:''' We are truly blessed to receive the mercy of the adeptus. We promise that we will change our ways and make an honest living from now one. Even if it means sweating it out down at the docks.
 :{{A|vo lyaq004 6 liding 01b 6.ogg}} '''Li Ding:''' Anyway, we have trespassed in the realm of the adeptus for long enough. We should get going. Thank you, mighty adepti messengers...
 :{{A|vo lyaq004 6 lidang 01b 4.ogg}} '''Li Dang:''' Yes, thank you, messengers...
-;(Li Ding and Li Dang run down the mountain together)
-----
+:;(Li Ding and Li Dang run down the mountain together)
+
+===Meet Mountain Shaper===
+;(After the brothers leave)
 :{{A|vo lyaq004 6 paimon 02.ogg}} '''Paimon:''' ...Boy, it'd be super helpful if we actually were adepti messengers.
 :{{A|vo lyaq004 6 paimon 03.ogg}} '''Paimon:''' 'Cause it seems like this adeptus has got a real temper problem...
 :{{A|vo lyaq004 6 paimon 04.ogg}} '''Paimon:''' But it's not like we've done anything wrong, so... hopefully we'll be okay... hehe...
 :{{A|vo lyaq004 6 moutainshaper 01.ogg}} '''Mountain Shaper:''' Who dares trespass on my mountain? Who is it that frees the thief from his incarceration?
 :{{A|vo lyaq004 6 moutainshaper 02.ogg}} '''Mountain Shaper:''' Foolish mortal, come forth and receive your punishment at once!
 
-;(Talk to the Mountain Shaper)
+;(Talk to Mountain Shaper)
 :{{A|vo lyaq004 7 moutainshaper 01.ogg}} '''Mountain Shaper:''' ...You intrude upon the sanctity of Mt. Hulao, you destroy the amber of my mountain, and you free a thief whose freedom is not yours to give.
 :{{A|vo lyaq004 7 moutainshaper 02.ogg}} '''Mountain Shaper:''' The thieves' ignorance was an affront to the adepti... but your actions are an abomination of the highest order!
 :{{A|vo lyaq004 7 paimon 01.ogg}} '''Paimon:''' Wait! We can explain...
 :{{DIcon}} Here, look at this...
-::{{A|vo lyaq004 7 moutainshaper 03a.ogg}} '''Mountain Shaper:''' ...A Sigil of Permission? One was unaware that such things still exist in the mortal realm.
+::{{A|vo lyaq004 7 moutainshaper 03a.ogg}} '''Mountain Shaper:''' ...A [[Sigil of Permission]]? One was unaware that such things still exist in the mortal realm.
 :{{DIcon}} Moon Carver sent us...
 ::{{A|vo lyaq004 7 moutainshaper 03b 1.ogg}} '''Mountain Shaper:''' Moon Carver... trusted a mere mortal as his messenger?
 ::{{A|vo lyaq004 7 moutainshaper 03b 2.ogg}} '''Mountain Shaper:''' Is this... a Sigil of Permission? One is surprised to find that such things still exist in the mortal realm.
-:{{A|vo lyaq004 7 moutainshaper 04.ogg}} '''Mountain Shaper:''' In the beginning, Rex Lapis cast them for the mortals with his own hand. Few were made then, and thousands of years on, fewer still remain...
+:{{A|vo lyaq004 7 moutainshaper 04.ogg}} '''Mountain Shaper:''' In the beginning, [[Rex Lapis]] cast them for the mortals with his own hand. Few were made then, and thousands of years on, fewer still remain...
 :{{A|vo lyaq004 7 moutainshaper 05.ogg}} '''Mountain Shaper:''' Speak. One shall listen to the matter which brings you here, then one shall verify the truth thereof.
 :{{A|vo lyaq004 7 moutainshaper 06.ogg}} '''Mountain Shaper:''' You would be wise to speak the truth, for Liyue is not so far from here that one would be easily deceived.
-:;(The Traveler explains what happened in Liyue Harbor)
+
+:'''You explain what happened in Liyue Harbor.'''
+
 :{{A|vo lyaq004 7 moutainshaper 07.ogg}} '''Mountain Shaper:''' Rex Lapis... Assassinated?
 :{{A|vo lyaq004 7 moutainshaper 08.ogg}} '''Mountain Shaper:''' At the Rite of Descension!?
 :{{A|vo lyaq004 7 moutainshaper 09.ogg}} '''Mountain Shaper:''' What mortal in Liyue– nay, in all the world, would conspire to commit such foul treason? Or perhaps the more pertinent question is, what power in this world could aspire to achieve it?
@@ -142,7 +168,13 @@
 :{{A|vo lyaq004 7 paimon 04.ogg}} '''Paimon:''' Oh, so the amber is... alive?
 :{{A|vo lyaq004 7 moutainshaper 17.ogg}} '''Mountain Shaper:''' Correct. Thus, one may not leave this place in its current state, for fear of the risk to innocent lives in one's absence.
 :{{A|vo lyaq004 7 moutainshaper 18.ogg}} '''Mountain Shaper:''' One will depart as soon as one has attended to this matter. One trusts that the manner of your departure will be swifter in nature.
-{{dialogue end}}
+;(Quest ends)
+
+----
+
+;(Interact with the large talisman, optional)
+:'''Visit the adeptus' abode:''' (The abode of Mountain Shaper. This adeptus is presently absent...)
+{{Dialogue end}}
 
 ==Other Languages==
 {{Other Languages
@@ -156,14 +188,14 @@
 |ja_rm   = Jouzan
 |ja_tl   = Stacking Mountains
 |ko      = 첩산
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Cheopsan
+|ko_tl   = Stacked Mountains
 |es      = Moldeador de Montañas
 |es_tl   = Mountain Shaper
 |fr      = L'Adepte des montagnes
 |fr_tl   = The Adeptus of the Mountains
 |ru      = Творец Гор
-|ru_tl   = Mountain Shaper
+|ru_tl   = Mountain Creator
 |th      = บงการภูผา
 |th_rm   = 
 |th_tl   = Mountain Shaper
@@ -174,6 +206,10 @@
 |id      = Mountain Shaper
 |pt      = Formatador de Montanha
 |pt_tl   = Mountain Shaper
+|tr      = Dağları Biçimlendiren
+|tr_tl   = 
+|it      = Il plasmatore di montagne
+|it_tl   = The Mountain Shaper
 }}
 
 ==Change History==
@@ -184,4 +220,6 @@
 [[Category:Archon Chapter 1]]
 
 [[es:Moldeador de Montañas (misión)]]
+[[fr:L'Adepte des montagnes]]
+[[ja:畳山]]
 [[pt-br:Formatador de Montanhas (Missão)]]

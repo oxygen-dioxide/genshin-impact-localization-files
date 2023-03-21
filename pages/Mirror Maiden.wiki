@@ -1,6 +1,8 @@
+{{About|the [[Elite Enemy]]|the [[Genius Invokation TCG]] Character Card|Mirror Maiden (Character Card)}}
 {{Enemy Infobox
 |image    = Enemy Mirror Maiden.png
-|element  = Hydro
+|dmgtype  = Hydro
+|weakpoint = yes
 |type     = Elite Enemies
 |family   = Fatui
 |faction  = Fatui
@@ -9,12 +11,21 @@
 |ability1 = Interruption Resistance
 |ability2 = Teleport
 }}
-{{Description|A member of a special Fatui honor guard from Snezhnaya.<br />Willing to do anything to achieve the grand goals of the Fatui, they are the stark opposite of the dignity indicated by the title "Maiden".|[[Adventurer Handbook]]}}
-{{Description|A Fatui mage who came command a Hydro Mirror in battle. Her posture is highly dignified, as if she is one who worships a god.<br />The Hydro Mirror she manipulates lures those enchanted by her to willingly fall for her illusion. Nothing seems to escape her ears. No one knows what those covered eyes have seen, what kind of obsession might be reflected in them...|[[Archive]]}}
 {{Enemy Intro|hidegroup=1|name='''Mirror Maidens''', also called "'''Fatui: Snezhnayan Maiden'''" in the [[Adventurer Handbook]],}}
 
 ==Drops==
-{{Drops|Fatui Maidens}}
+===Items===
+{{Drops Table|type=Fatui Maidens}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 66
+|o1    = 1
+|hp2   = 33
+|o2    = 1
+|hp3   = 0
+|o3    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -22,55 +33,45 @@
 |hydro_res    = 50%
 |hp_ratio     = 6
 |hp_type      = 2
-|atk_ratio    = 3
+|atk_ratio    = 2.4
 }}
 
 ==Abilities and Attacks==
-''Attack names are unofficial.''
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Polarization State
+|desc_1 = When hit by certain attacks of the Mirror Maiden, a Refraction status will be applied to the player, and the Mirror Maiden will enter the Polarization State. While in this state, the Mirror Maiden has her [[Interruption Resistance]] greatly increased and will use enhanced attacks.
 
-*'''Polarization State:''' When hit by certain attacks of the Mirror Maiden, a Refraction status will be applied to the player, and the Mirror Maiden will enter the Polarization State. While in this state, the Mirror Maiden has her [[Interruption Resistance]] greatly increased and will use enhanced attacks.
-*'''Mirror Portal:''' Summon a mirror behind her that closes up around them causing her to disappear, then another mirror appears that the Mirror Maiden emerges from.
-*'''Waterwheels:''' Summons 3 water wheels from the skies that spin and burst dealing '''50% ATK''' as {{Color|AoE Hydro DMG}}. This attack applies the Refraction status onto the player. The attack is replaced by Ripple Rain when the Mirror Maiden is in Polarization state.
-*'''Explosive Splash:''' Summons an Explosive Splash around herself if the player attacks her in melee range, dealing '''75% ATK''' as {{Color|AoE Hydro DMG}}. This attack applies the Refraction status onto the player. This attack no longer occurs after the Mirror Maiden is in Polarization state.
-*'''Hydro Bullets:''' Shoots up to two consecutive Hydro Bullets at the player, each dealing '''50% ATK''' as {{Color|Hydro DMG}}; if the Maiden is in Polarization state, 3 homing bullets will be shot at once, each dealing '''40% ATK''' as {{Color|Hydro DMG}}.
-*'''Ripple Rain:'''  Shoots water into the air that then falls down causing 3 splashes that each deal '''50% ATK''' as {{Color|AoE Hydro DMG}}. This attack is only used when the Mirror Maiden is in Polarization state.
-*'''Glass Cage:''' Summons temporary small mirror shards around the player, dealing '''10% ATK''' as {{Color|AoE Hydro DMG}} and trapping the player inside, the player may still move and attack while in the cage but cannot escape without special means. This attack is only used when the Mirror Maiden is in Polarization state.
-*'''Laser Zone:''' Summons 3 Hydro Bullets that orbit around them and one that orbits around the player, temporarily increasing the mirror maiden's ATK by '''30%''' for the duration of this attack, then many mirrors will be summoned around a player which reflect a laser many times in the area dealing '''10% ATK * 8''' as {{Color|Hydro DMG}}, then a burst of water erupts dealing '''60% ATK''' as {{Color|AoE Hydro DMG}}. This attack is only used when the Mirror Maiden is in Polarization state.
+|name_2 = Mirror Portal
+|desc_2 = Summon a mirror behind her that closes up around them causing her to disappear, then another mirror appears that the Mirror Maiden emerges from.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Mirror Maiden Mirror Portal
-|caption1=Mirror Portal
+|name_3 = Influx Blast
+|desc_3 = Summons 3 water wheels from the skies that spin and burst dealing '''62.5% ATK''' as {{Color|AoE Hydro DMG}}. This attack applies the Refraction status onto the player. The attack is replaced by Ripple Rain when the Mirror Maiden is in Polarization state.
 
-|file2=Mirror Maiden Waterwheels
-|caption2=Waterwheels
+|name_4 = Explosive Splash
+|desc_4 = Summons an Explosive Splash around herself if the player attacks her in melee range, dealing '''93.75% ATK''' as {{Color|AoE Hydro DMG}}. This attack applies the Refraction status onto the player. This attack no longer occurs after the Mirror Maiden is in Polarization state.
 
-|file3=Mirror Maiden Explosive Splash
-|caption3=Explosive Splash
+|name_5 = Water Ball
+|desc_5 = Shoots up to two consecutive Hydro Bullets at the player, each dealing '''62.5% ATK''' as {{Color|Hydro DMG}}; if the Maiden is in Polarization state, 3 homing bullets will be shot at once, each dealing '''50% ATK''' as {{Color|Hydro DMG}}.
+|file_5 = Mirror Maiden Hydro Bullets Normal
+|caption_5 = Normal
+|file_5_2 = Mirror Maiden Hydro Bullets Polarization
+|caption_5_2 = Polarization
 
-|file4=Mirror Maiden Hydro Bullets Normal
-|caption4=Hydro Bullets (Normal)
+|name_6 = Ripple Rain
+|desc_6 = Shoots water into the air that then falls down causing 3 splashes that each deal '''62.5% ATK''' as {{Color|AoE Hydro DMG}}. This attack is only used when the Mirror Maiden is in Polarization state.
 
-|file5=Mirror Maiden Hydro Bullets Polarization
-|caption5=Hydro Bullets (Polarization)
+|name_7 = Mirror Cage
+|file_7 = Mirror Maiden Glass Cage
+|desc_7 = Summons temporary small mirror shards around the player, dealing '''12.5% ATK''' as {{Color|AoE Hydro DMG}} and trapping the player inside, the player may still move and attack while in the cage but cannot escape without special means. This attack is only used when the Mirror Maiden is in Polarization state.
 
-|file6=Mirror Maiden Polarization State
-|caption6=Polarization State
-
-|file7=Mirror Maiden Ripple Rain
-|caption7=Ripple Rain
-
-|file8=Mirror Maiden Glass Cage
-|caption8=Glass Cage
-
-|file9=Mirror Maiden Laser Zone
-|caption9=Laser Zone
+|name_8 = Rippled Reflection
+|desc_8 = Summons 3 Hydro Bullets that orbit around them and one that orbits around the player, then many mirrors will be summoned around a player which reflect a laser many times in the area dealing '''16.25% ATK * 8''' as {{Color|Hydro DMG}}, then a burst of water erupts dealing '''75% ATK''' as {{Color|AoE Hydro DMG}}. This attack is only used when the Mirror Maiden is in Polarization state.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -81,21 +82,21 @@
 {| class="wikitable"
 ! State !! Ability !! Range Req. (m) !! Priority !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD (s) !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int.
 |-
-| rowspan="4" | Normal || Single Hydro Bullet 1 || 0–20 || 4 || 5–10 || &mdash; || &mdash; || rowspan="11" | 3 || {{check|yes}} || {{check|no}}
+| rowspan="4" | Normal || Single Water Ball 1 || 0–20 || 4 || 5–10 || &mdash; || &mdash; || rowspan="11" | 3 || {{check|yes}} || {{check|no}}
 |-
-| Single Hydro Bullet 2 || 0–20 || 4 || 5 || 5 || &mdash; || {{check|yes}} || {{check|no}}
+| Single Water Ball 2 || 0–20 || 4 || 5 || 5 || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Double Hydro Bullet || 0–20 || 4 || 5 || 5 || &mdash; || {{check|yes}} || {{check|no}}
+| Double Water Ball || 0–20 || 4 || 5 || 5 || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Waterwheels || 0–30 || 2 || 5–7 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
+| Influx Blast || 0–30 || 2 || 5–7 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
 |-
 | rowspan="4" | Polarization || Glass Cage || 0–30 || 2 || 10 || &mdash; || &mdash; || {{check|no}} || {{check|yes}}
 |-
 | Ripple Rain || 0–30 || 2 || 30–32 || 30 || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Laser Zone || 0–30 || 3 || 20 || &mdash; || &mdash; || {{check|yes}} || {{check|yes}}
+| Rippled Reflection || 0–30 || 3 || 20 || &mdash; || &mdash; || {{check|yes}} || {{check|yes}}
 |-
-| Triple Hydro Bullet || 0–20 || 5 || 1 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
+| Triple Water Ball || 0–20 || 5 || 1 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
 |-
 | rowspan="3" | Any || Mirror Portal || 0–5 || 2 || &mdash; || &mdash; || rowspan="3" | 15 || {{check|no}} || {{check|yes}}
 |-
@@ -124,148 +125,138 @@ Mirror Maiden locations can be pinpointed on the map by using the [[Adventurer H
 |vo_01_00_title          = Spotting the Player
 |vo_01_01_file           = VO {lang}{name} - Heh The Insolent Shall Be Punished.ogg
 |vo_01_01_tx_en          = Heh, the insolent shall be punished.
-|vo_01_01_tx_zhs         = 不敬之人，必将得到惩罚！
-|vo_01_01_tx_zht         = 不敬之人，必將得到懲罰！
+|vo_01_01_tx_zh          = 不敬之人，必将得到惩罚！
 |vo_01_01_rm_zh          = Bùjìng zhī rén, bìjiāng dédào chéngfá!
 |vo_01_01_tx_ja          = 無礼者は必ず制裁される。
 |vo_01_01_rm_ja          = Bureimono wa kanarazu seisai sareru.
-|vo_01_01_tx_ko          = 
+|vo_01_01_tx_ko          = 불경한 자는 반드시 벌한다
 |vo_01_02_file           = VO {lang}{name} - Heh I Heard You.ogg
-|vo_01_02_tx_en          = I heard you.
-|vo_01_02_tx_zhs         = 我听到你了。
-|vo_01_02_tx_zht         = 我聽到你了。
+|vo_01_02_tx_en          = Hr...!? I heard you.
+|vo_01_02_tx_zh          = 我听到你了。
 |vo_01_02_rm_zh          = Wǒ tīngdào nǐle.
 |vo_01_02_tx_ja          = 聞こえたわ。
 |vo_01_02_rm_ja          = Kikoeta wa.
-|vo_01_02_tx_ko          = 
+|vo_01_02_tx_ko          = 네 소리가 들려
 
-|vo_02_00_title          = Waterwheels
+|vo_02_00_title          = Influx Blast
 |vo_02_01_file           = VO {lang}{name} - Where Are You.ogg
 |vo_02_01_tx_en          = Where are you?
-|vo_02_01_tx_zhs         = 让我听听…你在哪儿。
-|vo_02_01_tx_zht         = 讓我聽聽…你在哪兒。
+|vo_02_01_tx_zh          = 让我听听…你在哪儿。
 |vo_02_01_rm_zh          = Ràng wǒ tīngting... Nǐ zài nǎr.
-|vo_02_01_tx_ja          = どこにいるのか？聞かせてもらう。
-|vo_02_01_rm_ja          = Doko ni iru no ka? Kikasete morau.
-|vo_02_01_tx_ko          = 
+|vo_02_01_tx_ja          = どこにいるのか？聞かせてもらおう。
+|vo_02_01_rm_ja          = Doko ni iru no ka? Kikasete moraou.
+|vo_02_01_tx_ko          = 들어보자, 어디에 있을까?
 
-|vo_03_00_title          = Hydro Bullets
+|vo_03_00_title          = Water Ball
 |vo_03_01_file           = VO {lang}{name} - Hah You Cant Hide.ogg
 |vo_03_01_tx_en          = You can't hide.
-|vo_03_01_tx_zhs         = 无处可逃。
-|vo_03_01_tx_zht         = 無處可逃。
+|vo_03_01_tx_zh          = 无处可逃。
 |vo_03_01_rm_zh          = Wúchù-kětáo.
 |vo_03_01_tx_ja          = 逃がさない。
 |vo_03_01_rm_ja          = Nigasanai.
-|vo_03_01_tx_ko          = 
+|vo_03_01_tx_ko          = 피할 수 없어
 |vo_03_02_file           = VO {lang}{name} - Mirror Images Disperse Like Water.ogg
 |vo_03_02_tx_en          = Mirror images disperse like water.
-|vo_03_02_tx_zhs         = 镜中花，如水而散。
-|vo_03_02_tx_zht         = 鏡中花，如水而散。
+|vo_03_02_tx_zh          = 镜中花，如水而散。
 |vo_03_02_rm_zh          = Jìng zhōng huā, rú shuǐ ér sàn.
 |vo_03_02_tx_ja          = 鏡の花、水のように散れ。
 |vo_03_02_rm_ja          = Kagami no hana, mizu no you ni chire.
-|vo_03_02_tx_ko          = 
+|vo_03_02_tx_ko          = 거울 속 꽃이여, 물처럼 흩어져라!
 
-|vo_04_00_title          = Glass Cage
+|vo_04_00_title          = Mirror Cage
 |vo_04_01_file           = VO {lang}{name} - Haha Got You.ogg
 |vo_04_01_tx_en          = Haha! Got you!
-|vo_04_01_tx_zhs         = 抓住你了。
-|vo_04_01_tx_zht         = 抓住你了。
+|vo_04_01_tx_zh          = 抓住你了。
 |vo_04_01_rm_zh          = Zhuāzhù nǐle.
 |vo_04_01_tx_ja          = 捕獲完了。
 |vo_04_01_rm_ja          = Hokaku kanryou.
-|vo_04_01_tx_ko          = 
+|vo_04_01_tx_ko          = 잡았다!
 
 |vo_05_00_title          = Ripple Rain
 |vo_05_01_file           = VO {lang}{name} - Aeugh Out Of My Sight.ogg
 |vo_05_01_tx_en          = Hrr, out of my sight!
-|vo_05_01_tx_zhs         = 哼。退散！
-|vo_05_01_tx_zht         = 哼。退散！
+|vo_05_01_tx_zh          = 哼。退散！
 |vo_05_01_rm_zh          = Heng. Tuìsàn!
 |vo_05_01_tx_ja          = 退け！
 |vo_05_01_rm_ja          = Noke!
-|vo_05_01_tx_ko          = 
+|vo_05_01_tx_ko          = 물러서시지!
 
-|vo_06_00_title          = The Laser Zone
+|vo_06_00_title          = RIppled Reflection
 |vo_06_01_file           = VO {lang}{name} - Her Majestys Power Flow Through Me.ogg
 |vo_06_01_tx_en          = Her Majesty's power flows through me!
-|vo_06_01_tx_zhs         = 陛下的荣光…加护于我！
-|vo_06_01_tx_zht         = 陛下的榮光…加護於我！
+|vo_06_01_tx_zh          = 陛下的荣光…加护于我！
 |vo_06_01_rm_zh          = Bìxià de róngguāng... jiāhù yú wǒ!
 |vo_06_01_tx_ja          = 陛下の威光が我を守る！
 |vo_06_01_rm_ja          = Heika no ikou ga ware wo mamoru!
-|vo_06_01_tx_ko          = 
+|vo_06_01_tx_ko          = 폐하의 힘으로 보호해주소서
 |vo_06_02_file           = VO {lang}{name} - This Is Her Majestys Gift.ogg
-|vo_06_02_tx_en          = This is Her Majesty's gift!
-|vo_06_02_tx_zhs         = 这是…陛下的恩赐！
-|vo_06_02_tx_zht         = 這是…陛下的恩賜！
-|vo_06_02_rm_zh          = Zhè shì... Bìxià de ēncì!
+|vo_06_02_tx_en          = Hrr... This is Her Majesty's gift!
+|vo_06_02_tx_zh          = 这是…陛下的恩赐！
+|vo_06_02_rm_zh          = Zhè shì... bìxià de ēncì!
 |vo_06_02_tx_ja          = これが陛下の恩寵！
 |vo_06_02_rm_ja          = Kore ga heika no onchou!
-|vo_06_02_tx_ko          = 
+|vo_06_02_tx_ko          = 이것이 폐하의 자비다
 
 |vo_07_00_title          = Explosive Splash
 |vo_07_01_file           = VO {lang}{name} - Impertinent Fool Begone.ogg
 |vo_07_01_tx_en          = Impertinent fool... begone!
-|vo_07_01_tx_zhs         = 无礼者，退下！
-|vo_07_01_tx_zht         = 無禮者，退下！
+|vo_07_01_tx_zh          = 无礼者，退下！
 |vo_07_01_rm_zh          = Wúlí-zhě, tuìxià!
 |vo_07_01_tx_ja          = 無礼者、下がれ。
 |vo_07_01_rm_ja          = Bureimono, sagare.
-|vo_07_01_tx_ko          = 
+|vo_07_01_tx_ko          = 무례한 자여, 물러나라!
 
 |vo_08_00_title          = Polarization State
 |vo_08_01_file           = VO {lang}{name} - No Mercy.ogg
-|vo_08_01_tx_en          = No mercy!
-|vo_08_01_tx_zhs         = 永不宽恕！
-|vo_08_01_tx_zht         = 永不寬恕！
+|vo_08_01_tx_en          = No... mercy!
+|vo_08_01_tx_zh          = 永不宽恕！
 |vo_08_01_rm_zh          = Yǒng bù kuānshù!
 |vo_08_01_tx_ja          = 容赦はしない。
 |vo_08_01_rm_ja          = Yousha wa shinai.
-|vo_08_01_tx_ko          = 
+|vo_08_01_tx_ko          = 용서는 없어!
 |vo_08_02_file           = VO {lang}{name} - Purging Transgressions.ogg
 |vo_08_02_tx_en          = Purging... transgressions!
-|vo_08_02_tx_zhs         = 洗净罪恶！
-|vo_08_02_tx_zht         = 洗凈罪惡！
-|vo_08_02_rm_zh          = Xǐ jǐn zuì'è!
+|vo_08_02_tx_zh          = 洗净罪恶！
+|vo_08_02_rm_zh          = Xǐjìng zuì'è!
 |vo_08_02_tx_ja          = 罪を洗い流せ。
 |vo_08_02_rm_ja          = Tsumi wo arainagase.
-|vo_08_02_tx_ko          = 
+|vo_08_02_tx_ko          = 죄악을… 씻어주마
 
 |vo_09_00_title          = Defeated
 |vo_09_01_file           = VO {lang}{name} - Ugh Winter Shall Eventually Come.ogg
-|vo_09_01_tx_en          = Ugh... winter... shall eventually come.
-|vo_09_01_tx_zhs         = 寒冬…终会…到来。
-|vo_09_01_tx_zht         = 寒冬…終會…到來。
+|vo_09_01_tx_en          = Ugh... Winter... shall eventually come.
+|vo_09_01_tx_zh          = 寒冬…终会…到来。
 |vo_09_01_rm_zh          = Hándōng... zhōnghuì... dàolái...
 |vo_09_01_tx_ja          = 冬は…必ず…訪れる…
 |vo_09_01_rm_ja          = Fuyu wa... kanarazu... otozureru...
-|vo_09_01_tx_ko          = 
+|vo_09_01_tx_ko          = 마침내… 혹한이 찾아왔군…
 |vo_09_02_file           = VO {lang}{name} - This Body Belongs To Ice And Snow.ogg
 |vo_09_02_tx_en          = This body... belongs to ice... and snow.
-|vo_09_02_tx_zhs         = 此身…归于…风雪。
-|vo_09_02_tx_zht         = 此身…歸於…風雪。
+|vo_09_02_tx_zh          = 此身…归于…风雪。
 |vo_09_02_rm_zh          = Cǐshēn... guīyú... fēngxuě...
 |vo_09_02_tx_ja          = この身…吹雪と化せ…
 |vo_09_02_rm_ja          = Kono mi... fubuki to kase...
-|vo_09_02_tx_ko          = 
+|vo_09_02_tx_ko          = 이 몸은… 눈보라로 돌아가리… 허으읏…
 }}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Mirror Maiden}}
+
+==Descriptions==
+{{Description|A member of a special Fatui honor guard from Snezhnaya.<br />Willing to do anything to achieve the grand goals of the Fatui, they are the stark opposite of the dignity indicated by the title "Maiden".|[[Adventurer Handbook]]}}
+{{Description|A Fatui mage who can command a Hydro Mirror in battle. Her posture is highly dignified, as if she is one who worships a god.<br />The Hydro Mirror she manipulates lures those enchanted by her to willingly fall for her illusion. Nothing seems to escape her ears. No one knows what those covered eyes have seen, what kind of obsession might be reflected in them...|[[Archive]]}}
 
 ==Notable Mirror Madiens==
 ===Agafya===
 A Mirror Maiden that appears in The Photographer's words during [[Resonating Visions]] event.
 
 ==Trivia==
-* During the [[commission]] ''[[Emergency]]'', the Mirror Maiden will have one of the following names, with her title being "Snezhnayan Maiden: Mirror Envoy": Aniya, Ayda, Borisova, Branka, Chernovna, Danika, Daria, Doronina, Irina, Katya, Maria, Masha, Mila, Miroslava, Nadja, Nina, Olga, Raisa, Rakhmanova, Rusalka, Semyonova, Snezhna, Sola, Tanya, Treska, Valentina, Varya, Velina, Verochka, Vladimya, Yevgeniya, Yuliya, Zivanka.
+* During the [[commission]] ''[[Emergency]]'', the Mirror Maiden will have one of the following names, with her title being "Snezhnayan Maiden: Mirror Envoy": Aniya, Anna, Ayda, Borisova, Branka, Chernovna, Danika, Daria, Doronina, Irina, Katya, Maria, Masha, Mila, Miroslava, Nadja, Nina, Olga, Raisa, Rakhmanova, Rusalka, Semyonova, Snezhna, Sola, Tanya, Treska, Valentina, Varya, Velina, Verochka, Vladimya, Yevgeniya, Yuliya, Zivanka.
 * Mirror Maidens are the tallest female character in-game, even taller than Fatui Agents.
 * On [[Narukami Island]], just below [[Court of Flowing Sand]] to the northeast, players can find a Mirror Maiden and a Fatui Pyro Agent by themselves looking out towards the sea.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Mirror Maiden Icon.png|Icon
 </gallery>
 
@@ -303,6 +294,10 @@ Enemy Mirror Maiden Icon.png|Icon
 |id      = Mirror Maiden
 |pt      = Dama do Espelho
 |pt_tl   = Mirror Lady
+|tr      = Aynalı Rahibe
+|tr_tl   = 
+|it      = Sacerdotessa degli specchi
+|it_tl   = Priestess of the Mirrors
 }}
 
 ==Change History==
@@ -311,5 +306,7 @@ Enemy Mirror Maiden Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Fatui: Spiegeljungfrau]]
 [[es:Doncella del Espejo]]
 [[pt-br:Dama do Espelho]]
+[[th:Fatui Mirror Maiden]]

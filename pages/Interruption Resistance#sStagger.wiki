@@ -8,14 +8,14 @@
 
 ==Stagger==
 ===Stagger Level===
-When the target is poise broken, it can be staggered by attacks<ref>NGA: [https://bbs.nga.cn/read.php?tid=31352168 《韧性力学》第三版 - 抗打断和冲击效果的原理]</ref>
+When the target is poise broken, it can be staggered by attacks. The extent of the stagger effects are determined by the stagger level of the attack.<ref>NGA: [https://bbs.nga.cn/read.php?tid=31352168 《韧性力学》第三版 - 抗打断和冲击效果的原理]</ref>
 
 Some stagger effects can interrupt motions of the target and force them to shift. Other stagger effects can't.
 
 {| class="wikitable sortable"
 ! Stagger Level !! Can Interrupt !! Visual Effect
 |-
-| Mute || No || No viusal effect
+| Mute || No || No visual effect
 |-
 | Shake || No || Defender will have a mild stagger animations
 |-
@@ -26,10 +26,10 @@ Some stagger effects can interrupt motions of the target and force them to shift
 | Air || Yes || Defender will be knocked away
 |}
 
-===Trigger Stagger===
-Besides the stagger level, there are some other factors that affect the real stagger effect.
+===Real Stagger Level===
+When a stagger effect is triggered, the attack's stagger level may not be the one that is used. Certain other factors will affect the real stagger effect.
 
-When the target is in ground, the real stagger level is determined by the origin stagger level of the attack, the forces of the attack, and the weight of the defender.
+When the target is on the ground, the real stagger level is determined by the origin stagger level of the attack, the forces of the attack, and the weight of the defender.
 {| class="wikitable sortable"
 ! Origin Stagger Level !! Condition !! Real Stagger Level
 |-
@@ -44,7 +44,7 @@ When the target is in ground, the real stagger level is determined by the origin
 | Light or Heavy || <math>\text{Attack Horizontal Force} < 2 \times \text{Defender Real Weight}</math> || Shake
 |}
 
-When the target is in air or it is climbing, the real stagger level is determined by the origin stagger level of the attack.
+When the target is in the air or is climbing, the real stagger level is determined by the origin stagger level of the attack.
 {| class="wikitable sortable"
 ! Origin Stagger Level !! Real Stagger Level
 |-
@@ -55,15 +55,55 @@ When the target is in air or it is climbing, the real stagger level is determine
 
 ===Stagger Immunity===
 Some enemies are immune to specific stagger effects.
-*[[Abyss Heralds]] and [[Abyss Lectors]] are immune to the '''Air''' stagger effect.
+{| class="wikitable sortable"
+! Enemy !! Stagger Immunity
+|-
+| {{Enemy|Abyss Herald|20}} || Air
+|-
+| {{Enemy|Abyss Lector|20}} || Air
+|-
+| {{Enemy|Specter|20}} || Air
+|-
+| {{Enemy|Ruin Drake: Skywatch|20}} || Air
+|-
+| {{Enemy|Primal Construct|20}} || Air
+|-
+| {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}} || All
+|-
+| {{Enemy|Spirit of Omen|20}} || Air
+|-
+| {{Enemy|Consecrated Beast|20}} || Air
+|-
+| {{Enemy|Childe|20}} (Phase 1, 2) || Air
+|-
+| {{Enemy|Childe|20}} (Phase 3) || All
+|-
+| {{Enemy|La Signora|20}} || All
+|-
+| {{Enemy|Spinocrocodile|20}} || Air
+|-
+| {{Enemy|Sumpter Beast|20}} || Air
+|-
+| {{Enemy|Rishboland Tiger|20}} || Air
+|-
+| {{Enemy|Scorpion|20}} || Air
+|-
+| {{Enemy|Red Vulture|20}} || Air
+|-
+| {{Enemy|Eremite Stone Enchanter|20}} (While Blocking) || Air
+|-
+| {{Enemy|Kairagi|20}} (While Blocking) || Air
+|-
+| {{Enemy|Yoriki Samurai|20}} (While Blocking) || Air
+|}
 
 Characters and enemies can be immune to all stagger effects when they are in the [[Invincibility Frames#Damage Nullification|invincible]] state.
 
 ==Weight==
-===Real Weight===
 Weight is a hidden attribute related to some physics systems in Genshin Impact.
 
-Weight can be effected by special abilities, such as some enemies will add their weight when they have elemental shields.
+===Real Weight===
+Weight can be effected by special abilities. For example, some enemies will increase their weight when they have elemental shields.
 
 <math>\text{Real Weight} = \text{Origin Weight} \times (1 + \text{Weight Modifier})</math>
 
@@ -75,77 +115,96 @@ The weight of all characters is 75.
 {| class="wikitable sortable"
 ! Enemy !! Weight
 |-
-| [[Slimes]] || 60
+| {{Enemy|Slime|20}} (Small) || 60
 |-
-| Large Slimes || 100
+| {{Enemy|Slime|20}} (Large) || 100
 |-
-| [[Specters]] || 80
+| {{Enemy|Specter|20}} || 80
 |-
-| [[Whopperflowers]] || 60
+| {{Enemy|Whopperflower|20}} || 60
 |-
-| [[Floating Fungi]] || 60
+| {{Enemy|Fungus|20}} (Small) || 75
 |-
-| [[Cicins]] || 60
+| {{Enemy|Fungus|20}} (Large) || 125
 |-
-| [[Hilichurls]] || 75
+| {{Enemy|Cicin|20}} || 60
 |-
-| [[Samachurls]] || 75
+| {{Enemy|Hilichurl|20}} || 75
+|-
+| {{Enemy|Samachurl|20}} || 75
 |-
 | {{Enemy|Unusual Hilichurl|20}} || 75
 |-
-| [[Fatui Skirmishers]] Bracer || 80
+| {{Enemy|Fatui Skirmisher|20}} Bracer || 80
 |-
-| Fatui Skirmishers Legionnaire || 150
+| {{Enemy|Fatui Skirmisher|20}} Legionnaire || 150
 |-
-| {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|20}} || 120
+| {{Enemy|Fatui Skirmisher|20}} Vanguard || 120
 |-
-| {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|20}} || 120
+| {{Enemy|Treasure Hoarder Potioneer|20}} || 80
 |-
-| [[Treasure Hoarders]] Thin Men<sup>[1]</sup> || 80
-|-
-| Treasure Hoarders Strong Men<sup>[1]</sup> || 100
-|-
-| Treasure Hoarders Fat Men<sup>[1]</sup> || 100
+| {{Enemy|Treasure Hoarders: Scout|20}} || 80
 |-
 | {{Enemy|Treasure Hoarders: Marksman|20}} || 75
 |-
-| [[Nobushi]] || 110
+| {{Enemy|Treasure Hoarders: Crusher|20}} || 100
 |-
-| [[Kairagi]] || 150
+| {{Enemy|Treasure Hoarders: Gravedigger|20}} || 100
+|-
+| {{Enemy|Treasure Hoarders: Handyman|20}} || 100
+|-
+| {{Enemy|Treasure Hoarders: Pugilist|20}} || 100
+|-
+| {{Enemy|Treasure Hoarders: Crusher|20}} || 100
+|-
+| {{Enemy|Nobushi|20}} || 110
+|-
+| {{Enemy|Kairagi|20}} || 150
+|-
+| {{Enemy|The Eremites|20}} (Most) || 70
+|-
+| {{Enemy|Eremite Sunfrost|20}} || 80
+|-
+| {{Enemy|Eremite Daythunder|20}} || 80
+|-
+| {{Enemy|Eremite Stone Enchanter|20}} || 150
+|-
+| {{Enemy|Eremite Galehunter|20}} || 80
+|-
+| {{Enemy|Eremite Scorching Loremaster|20}} || 80
+|-
+| {{Enemy|Eremite Floral Ring-Dancer|20}} || 80
 |}
-*[1]Treasure Hoarders Thin Men: Scout, Potioneers.
-*Treasure Hoarders Strong Men: Pugilist, Crusher.
-*Treasure Hoarders Fat Men: Handyman, Seaman, Gravedigger.
 
 ====Elite Enemies====
 {| class="wikitable sortable"
 ! Enemy !! Weight
 |-
-| [[Mitachurls]] || 150
+| {{Enemy|Mitachurl|20}} || 150
 |-
-| [[Lawachurls]] || 150
+| {{Enemy|Lawachurl|20}} || 150
 |-
-| [[Abyss Mages]] || 75
+| {{Enemy|Abyss Mage|20}} || 75
 |-
-| [[Abyss Heralds]] || 150
+| {{Enemy|Abyss Herald|20}} || 150
 |-
-| [[Abyss Lectors]] || 150
+| {{Enemy|Abyss Lector|20}} || 150
 |-
-| [[Rifthounds]] || 150
+| {{Enemy|Rifthound|20}} || 150
 |-
-| Rifthound Whelps || 100
+| {{Enemy|Rifthound Whelp|20}} || 100
 |-
-| [[Shadowy Husks]] || 110
+| {{Enemy|Shadowy Husk|20}} || 110
 |-
-| {{Enemy|Black Serpent Knight: Windcutter|20}} || 150
+| {{Enemy|Black Serpent Knight|20}} || 150
 |-
-| [[Humanoid Ruin Machines]] || 300
+| {{Enemy|Humanoid Ruin Machine|20}} || 300
 |-
-| [[Ruin Sentinels]] || 300
+| {{Enemy|Ruin Sentinel|20}} || 300
 |-
 | {{Enemy|Fatui Pyro Agent|20}} || 80
 |-
-| [[Fatui Cicin Mages]] || 75
+| {{Enemy|Fatui Cicin Mage|20}} || 75
 |-
 | {{Enemy|Mirror Maiden|20}} || 80
 |-
@@ -153,28 +212,32 @@ The weight of all characters is 75.
 |-
 | {{Enemy|Geovishap|20}} || 150
 |-
-| [[Bathysmal Vishaps]] || 150
-|-
-| Bathysmal Vishap Hatchlings || 150
+| {{Enemy|Bathysmal Vishap|20}} || 150
 |-
 | {{Enemy|Eye of the Storm|20}} || 150
 |-
 | {{Enemy|The Great Snowboar King|20}} || 10000
+|-
+| {{Enemy|Ruin Drake|20}} || 300
+|-
+| {{Enemy|Primal Construct|20}} || 101
+|-
+| {{Enemy|Consecrated Beast|20}} || 150
 |}
 
 ====Normal Bosses====
 {| class="wikitable sortable"
 ! Enemy !! Weight
 |-
-| [[Hypostases]] || 300
+| {{Enemy|Hypostasis|20}} || 300
 |-
 | {{Enemy|Perpetual Mechanical Array|20}} || 300
 |-
-| [[Regisvines]] || 300
+| {{Enemy|Regisvine|20}} || 300
 |-
 | {{Enemy|Rhodeia of Loch|20}} || 150
 |-
-| [[Hydro Mimics]] || 150
+| {{Enemy|Hydro Mimic|20}} || 150
 |-
 | {{Enemy|Thunder Manifestation|20}} || 150
 |-
@@ -182,13 +245,21 @@ The weight of all characters is 75.
 |-
 | {{Enemy|Maguu Kenki|20}} || 99999
 |-
-| [[Dual Maguu Kenki]] || 600
+| {{Enemy|Dual Maguu Kenki|20}} || 600
 |-
 | {{Enemy|Golden Wolflord|20}} || 1000
 |-
 | {{Enemy|Coral Defenders|20}} || 250
 |-
 | {{Enemy|Ruin Serpent|20}} || 1000
+|-
+| {{Enemy|Jadeplume Terrorshroom|20}} || 250
+|-
+| {{Enemy|Aeonblight Drake|20}} || 300
+|-
+| {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}} || 200
+|-
+| {{Enemy|Setekh Wenut|20}} || 500
 |}
 
 ====Weekly Bosses====
@@ -212,6 +283,80 @@ The weight of all characters is 75.
 | {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Phase 1) || 150
 |-
 | {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Phase 2) || 450
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} || 20000
+|}
+
+====Special Enemies====
+{| class="wikitable sortable"
+! Enemy !! Weight
+|-
+| {{Enemy|Unusual Hilichurl|20}} || 75
+|-
+| {{Enemy|Millelith Soldier|20}} || 75
+|-
+| {{Enemy|Millelith Sergeant|20}} || 75
+|-
+| {{Enemy|Shogunate Infantry|20}} || 75
+|-
+| {{Enemy|Shogunate Infantry Captain|20}} || 75
+|-
+| {{Enemy|Yoriki Samurai|20}} || 150
+|-
+| {{Enemy|Watatsumi Soldier: Kouzen|20}} || 75
+|-
+| {{Enemy|Canine Bunshin|20}} || 101
+|-
+| {{Enemy|Black Shadow: Hayate no Gotoku|20}} || 180
+|-
+| {{Enemy|Beisht|20}} || 20000
+|-
+| {{Enemy|Taroumaru|20}} || 110
+|-
+| {{Enemy|Sumpter Beast|20}} || 300
+|-
+| {{Enemy|Rishboland Tiger|20}} || 80
+|-
+| {{Enemy|Spinocrocodile|20}} || 80
+|-
+| {{Enemy|Scorpion|20}} || 80
+|-
+| {{Enemy|Red Vulture|20}} || 80
+|-
+| {{Enemy|Flying Serpent|20}} || 80
+|-
+| {{Enemy|Spirit of Omen: Stone Drake|20}} || 10000
+|-
+| {{Enemy|Spirit of Omen: Wind Glede|20}} || 10000
+|-
+| {{Enemy|Spirit of Omen: Pyro Scorpion|20}} || 150
+|-
+| {{Enemy|Spirit of Omen: Dendro Spirit-Serpent|20}} || 150
+|}
+
+===Weight Modifiers===
+{| class="wikitable sortable"
+! Enemy !! Weight
+|-
+| {{Enemy|Dendro Slime|20}} (While Underground) || 0.5
+|-
+| {{Enemy|Specter|20}} (While at Max Fury) || 5
+|-
+| {{Enemy|Whopperflower|20}} (While Charging) || 5
+|-
+| {{Enemy|Whopperflower|20}} (While Charging) || 5
+|-
+| {{Enemy|Fellflower|20}} (While Shielded) || 100
+|-
+| {{Enemy|Ruin Sentinel|20}} (While Invincible) || 5
+|-
+| {{Enemy|Ruin Drake|20}} (While Invincible) || 5
+|-
+| {{Enemy|Fatui Skirmisher|20}} (While Shielded) || 5
+|-
+| {{Enemy|The Eremites|20}} (Enhanced State) || 5
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Baleful Shadowlord State) || 5
 |}
 
 ==Impulse==

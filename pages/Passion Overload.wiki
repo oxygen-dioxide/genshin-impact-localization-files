@@ -2,10 +2,7 @@
 |image         = Talent Passion Overload.png
 |character     = Bennett
 |type          = Elemental Skill
-|info          = Bennett puts all his fire and passion for adventuring into his sword.<br />Results may vary based on how fired up he is...<br /><br />'''Press'''<br />A single, swift flame strike that deals {{Color|Pyro DMG}}.<br /><br />'''Hold (Short)'''<br />Charges up, resulting in different effects when unleashed based on the Charge Level.<br />
-* Level 1: Strikes twice, dealing {{Color|Pyro DMG}} and launching opponents.
-* Level 2: Unleashes 3 consecutive attacks that deal impressive {{Color|Pyro DMG}}, but the last attack triggers an explosion that launches both Bennett and the enemy.
-Bennett takes no damage from being launched.
+|info          = Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...<br /><br />'''Press'''<br />A single, swift flame strike that deals {{Color|Pyro DMG}}.<br /><br />'''Hold (Short)'''<br />Charges up, resulting in different effects when unleashed based on the Charge Level.<ul><li>Level 1: Strikes twice, dealing {{Color|Pyro DMG}} and launching opponents.</li><li>Level 2: Unleashes 3 consecutive attacks that deal impressive {{Color|Pyro DMG}}, but the last attack triggers an explosion that launches both Bennett and the enemy.</li></ul>Bennett takes no damage from being launched.
 |energyGen     = This skill generates '''2.25''' elemental particles when pressed and '''3''' when held, if it hits at least 1 target.
 |particles     = 2
 |particlesHold = 3
@@ -30,20 +27,62 @@ Bennett takes no damage from being launched.
 
 ==Gameplay Notes==
 * {{TalentNote|particles|2.25|3}}
-** Holding but failing to trigger the first Charge Level is still considered press.
-* {{TalentNote|icd|All DMG dealt by this skill|0|plural=1}}
-* There are three stages to this attack; basic tap, level 1 charge, and level 2 charge.
-** The basic tap has a 2B [[Gauge Unit Theory|Gauge]] application, making it effective against enemies like [[Abyss Lectors]], especially when paired with 4 piece [[Thundering Fury]] and Bennett's other abilities.
-** The level 2 charge can also stagger and launch enemies like [[Lawachurls]] and [[Mitachurls]] into the air (see [[Interruption Resistance]]).
-** The Level 2 charge also launches Bennett into the air unless he has a shield or [[Fearnaught]] unlocked while used inside [[Fantastic Voyage]].
-** If under an effect that increases [[Interruption Resistance]] (such as any [[Shield]], [[Xingqiu]]'s [[Guhua Sword: Fatal Rainscreen|Rain Swords]], or [[Beidou]]'s [[Stormbreaker|Elemental Burst]]), Bennett will not be launched after using the Charge Level 2 version of this skill.
-*** One effect that is an exception to this is the [[Geo]]-aligned [[Traveler]]'s [[Invincible Stonewall|1st Constellation]].
+* Holding but failing to trigger the first Charge Level is considered press.
+* If under an effect that increases [[Interruption Resistance]], Bennett may avoid being launched after using the Charge Level 2 version of this skill.
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Bennett|talent=Passion Overload|ascension|1|Rekindle}}
 * {{TalentNote|character=Bennett|talent=Passion Overload|ascension|2|Fearnaught}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|3|Unstoppable Fervor}}
 * {{TalentNote|constellation|4|Unexpected Odyssey}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Press DMG
+|gu      = 2U
+|icdtag  = none
+|poise   = 100
+|impulse = 4
+
+|title2   = Charge Level 1 1-Hit
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 100
+|impulse2 = 3
+
+|title3   = Charge Level 1 2-Hit
+|gu3      = 1U
+|icdtag3  = none
+|poise3   = 100
+|impulse3 = Air, 300, 900
+
+|title4   = Charge Level 2 1-Hit
+|gu4      = 1U
+|icdtag4  = none
+|poise4   = 100
+|impulse4 = 3
+
+|title5   = Charge Level 2 2-Hit
+|gu5      = 1U
+|icdtag5  = none
+|poise5   = 100
+|impulse5 = Air, 300, 900
+
+|title6   = Explosion DMG
+|gu6      = 1U
+|icdtag6  = none
+|poise6   = 250
+|impulse6 = 8
+
+|title7   = Explosion To Self
+|gu7      = —
+|icdtag7  = —
+|icdtype7 = —
+|poise7   = 250
+|impulse7 = Air, 650, 950
+}}
 
 ==Preview==
 {{Preview
@@ -148,7 +187,7 @@ Bennett takes no damage from being launched.
 |fr      = Surpassion
 |fr_tl   = Overpassion
 |ru      = Чрезмерные стремления
-|ru_tl   = 
+|ru_tl   = Excessive Aspirations
 |th      = Passion Overload
 |vi      = Nhiệt Tình Quá Độ
 |vi_tl   = Overenthusiasm
@@ -157,6 +196,10 @@ Bennett takes no damage from being launched.
 |id      = Passion Overload
 |pt      = Sobrecarga de Paixão
 |pt_tl   = 
+|tr      = Tutku Patlaması
+|tr_tl   = 
+|it      = Sovraccarico di passione
+|it_tl   = Passion Overload
 }}
 
 ==Change History==
@@ -171,5 +214,6 @@ Bennett takes no damage from being launched.
 [[es:Sobrecarga de pasión]]
 [[fr:Surpassion]]
 [[pt-br:Sobrecarga da Paixão]]
-[[vi:Nhiệt Tình Quá Độ]]
+[[ru:Чрезмерные стремления]]
 [[th:Passion Overload]]
+[[vi:Nhiệt Tình Quá Độ]]

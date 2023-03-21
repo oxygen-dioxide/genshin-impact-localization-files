@@ -4,7 +4,7 @@
 |type          = World
 |region        = Inazuma
 |area          = Yashiori Island
-|description   = Chouji, a young lad selling ore on Yashiori Island, seems to be hiding an unfathomable secret...<br /><br />Chouji's "treasure" has been buried in a rather plain place. The treasure itself won't be too plain, will it?<br /><br />The treasure is very plain indeed! Why, that Chouji...!<br /><br />You can't quite put Chouji, a boy stranded on a lonely, war-torn island, out of your mind. Best to go check in on him again.<br /><br />You need to do a little more mining to get Chouji to open up to you a bit. Perhaps it might not be inappropriate to call this "soul-mining."<br /><br />Perhaps being Chouji's guest might be a good idea?<br /><br />It's not clear how you, the guest, wound up making food for the host... but this isn't a huge issue when stacked up against some delicious Imported poultry. Really, it isn't.<br /><br />Your food's in the dock, and Chouji's the judge! How will your dish fare in his eyes?<br /><br />Go talk to Chouji. After all, all troubles can be alleviated through talking to others, no matter how deep... You do believe that, right?<br /><br />Chouji once mentioned that his mother would pray at the shrine. It might be worth a shot to check it out.<br /><br />Tell Chouji about your discovery. Shock his innocent little heart, why don't you?
+|subarea       = Jakotsu Mine
 |requirement   = Complete [[Ritou Escape Plan]]
 |startLocation = [[Jakotsu Mine]], [[Yashiori Island]]
 |exp           = 200
@@ -12,18 +12,19 @@
 |primogems     = 30
 |rep           = Inazuma
 |repAmt        = 20
+|repOrder      = 361
 |other         = {{Card|Recipe: Imported Poultry|rarity=3|1}}{{Card|Hero's Wit|2}}
 |characters    = Chouji; Paimon; Traveler
 }}
-'''Gazing Three Thousand Miles Away''' is a [[World Quest]] in [[Inazuma]].
+'''''Gazing Three Thousand Miles Away''''' is a [[World Quest]] in [[Yashiori Island]], [[Inazuma]].
 
 ==Start Location==
-<gallery hideaddbutton="true" captionalign="center">
-World Quest Gazing Three Thousand Miles Away Start Location.png|Quest start location
+Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of [[Jakotsu Mine]], south-east of the [[Formation Estate]].
+<gallery>
+World Quest Gazing Three Thousand Miles Away Start Location.png|Start location
 </gallery>
 
 ==Steps==
-Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of [[Jakotsu Mine]], south-east of the [[Formation Estate]].
 # Gather 12 chunks of [[Crystal Marrow]]
 # Obtain the treasure mentioned by Chouji
 # Confront Chouji
@@ -33,17 +34,19 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 # Go to Chouji's home
 # Learn how to make Imported Poultry
 # Share the dish you made with Chouji
-#* There is a sheltered cooking campfire at the east of his home
+#* There is a sheltered cooking campfire at the east of his home.
 # Solve Chouji's problem
 # Investigate the shrine
-#* The shrine can be interacted with prior to this step
+#* The shrine can be interacted with prior to this step.
 # Talk to Chouji
 
-==Notes==
-*After completing Gazing Three Thousand Miles Away, the player can talk to Chouji again some time after, where he will ask for help again. Following him on his way out of Inazuma will grant several chests and a ''[[Wonders of the World]]'' achievement "[[...And I Would Walk 3,000 More]]."
+==Gameplay Notes==
+*After completing Gazing Three Thousand Miles Away, the player can talk to Chouji again some time after, where he will ask for help again. Following him on his way out of Inazuma will grant several chests and a ''[[Wonders of the World]]'' achievement ''[[...And I Would Walk 3,000 More]]''.
 
 ==Dialogue==
+{{Quest Description|Chouji, a young land selling ore on Yashiori Island, seems to be hiding an unfathomable secret...}}
 {{Dialogue start}}
+;(Talk to Chouji)
 :'''Chouji:''' People from abroad, come and have a look! This is the best Jakotsu Crystal in Yashiori Island!
 :'''Chouji:''' C'mon, check it out! Goods of this quality used to go straight to the Shogunate. Get it at a discount here, Adventurers, and you'll be making weapons that'll cut through steel like butter in no time!
 :{{DIcon}} How much is it?
@@ -116,26 +119,32 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :{{DIcon}} No tricks, kiddo.
 :'''Chouji:''' Relax, I wouldn't lie to you!
 ----
-;(If the player does not have 12 Crystal Marrows)
+{{Quest Description|update|For the sake of some treasure, mining for ore isn't too much trouble...}}
+;(Talk to Chouji again with fewer than 12 Crystal Marrow)
 :'''Chouji:''' You're back. Do you have the crystals with you?
 :{{DIcon}} They're on the way.
 :'''Chouji:''' No hurry, stay safe now!
-;(Dialogue ends)
-
-;(If the player has 12 Crystal Marrows)
+----
+{{Quest Description|update|You've finally obtained enough ore. Time to reap the fruits of your labor.}}
+;(Talk to Chouji)
 :'''Chouji:''' You're back. Do you have the crystals with you?
 :{{DIcon}} Sure do.
+:;(Submit Crystal Marrow &times;12)
 :'''Chouji:''' Thank you, these will do!
 :'''Paimon:''' Alright then, time to tell us where the treasure is.
 :'''Chouji:''' Okay. The treasure is just next to the mine. You'll find it, easy-peasy.
 :'''Paimon:''' Thanks! C'mon, (Traveler), let's go!
 ----
-;(Obtain the treasure mentioned by Chouji)
+{{Quest Description|update|Chouji's "treasure" has been buried in a rather plain place. The treasure itelf won't be too plain, will it?}}
+;(Approach the treasure)
 :'''Paimon:''' This is place{{sic}} the kid mentioned. Time to start diggin'!
+
+;(Investigate the treasure)
 :'''Paimon:''' Huh? What's this... is this it?
 :'''Paimon:''' Agh, he tricked us!
 ----
-;(Confront Chouji after collecting the "treasure")
+{{Quest Description|update|The treasure is very plain indeed! Why, that Chouji...!}}
+;(Talk to Chouji)
 :'''Chouji:''' You're back!
 :'''Paimon:''' Hmph, you little liar!
 :{{DIcon}} You little liar!
@@ -184,7 +193,8 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :'''Chouji:''' See you again. Have a safe trip!
 :'''Paimon:''' Hmm... Paimon wonders if he really took in a word we said.
 ----
-;(Talk to Chouji again next day)
+{{Quest Description|update|You can't quite put Chouji, a boy stranded on a lonely, war-torn island, out of your mind. Best to go check in on him again.}}
+;(Talk to Chouji the next day)
 :'''Chouji:''' Wow, didn't expect to see you again. Hello there!
 :'''Chouji:''' Are you here to buy crystals today, too?
 <!--Did not see this option, conditional?
@@ -231,13 +241,14 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :{{DIcon}} We'd like to hear your explanation all the same.
 :'''Chouji:''' Okay, thank you so much! I'll be waiting right here!
 ----
-;(If the player does not have 12 Crystal Marrow)
+{{Quest Description|update|You need to do a little more mining to get Chouji to open up to you a bit. Perhaps it might not be inappropriate to call this "soul-mining."}}
+;(Talk to Chouji again with fewer than 12 Crystal Marrow)
 :'''Chouji:''' Oh, Traveler, you're back. Did you bring the crystals?
 :{{DIcon}} They'll be here.
 :'''Chouji:''' No hurry, stay safe now!
-;(Dialogue ends)
-
-;(After gathering 12 Crystal Marrow)
+----
+{{Quest Description|update|Having finally obtained enough ore, you can finally go back and report to Chouji.}}
+;(Talk to Chouji)
 :'''Chouji:''' Oh, Traveler, you're back. Did you bring the crystals?
 :{{DIcon}} Yeah, I've got them.
 :'''Chouji:''' Thank you! That should be enough.
@@ -257,6 +268,7 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :'''Paimon:''' Hey! Don't just leave! We haven't said anything yet!
 :'''Paimon:''' This kid is so presumptuous!
 ----
+{{Quest Description|update|Perhaps being Chouji's guest might be a good idea?}}
 ;(Talk to Chouji at his house)
 :'''Chouji:''' (Traveler)! I didn't think you'd actually come...
 :{{DIcon}} So, is this your home?
@@ -278,10 +290,11 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :'''Chouji:''' They aren't rare ingredients, but with the current conditions on Yashiori Island... If you don't mind, Traveler, please help me gather these ingredients.
 :'''Chouji:''' Sorry for troubling you like this. You're supposed to be my guests...
 :'''Paimon:''' Come on, it's fine! No need to be so polite!
-
-;(Talk to Chouji again)
-:'''Chouji:''' What we'll need is some {{Color|Buzzword|Flour}}, {{Color|Buzzword|Fowl}}, and {{Color|Buzzword|Bird Eggs}}. Just ask me any time if you forget!
-;(Give items)
+----
+{{Quest Description|update|It's not clear how you, the guest, wound up making food for the host... but this isn't a huge issue when stacked up against some delicious Imported Poultry. Really, it isn't.}}
+;(Talk to Chouji)
+:'''Chouji:''' What we'll need is some {{Color|buzzword|Flour}}, {{Color|buzzword|Fowl}}, and {{Color|buzzword|Bird Eggs}}. Just ask me any time if you forget!
+:;(Submit Fowl &times;4, Flour &times;2, and Bird Egg &times;2)
 :'''Chouji:''' (Traveler), you're back!
 :'''Chouji:''' All right, let's not dilly-dally any longer. Let's make us some Imported Poultry!
 :'''Paimon:''' Hooray for Imported Poultry!
@@ -308,30 +321,29 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :'''Chouji:''' (Traveler), you're a great adventurer, right? I'm sure this Imported Poultry is just a piece of cake for you!
 :'''Paimon:''' Ooh, Paimon's mad now, he's looking down on us!
 :'''Paimon:''' C'mon, we'll show him!
-;(Obtain [[Recipes|Recipe:]] [[Imported Poultry]])
-
+:;(Obtain [[Recipe: Imported Poultry]])
 ----
-;(Talk to Chouji again)
+{{Quest Description|update|Your food's in the dock, and Chouji's the judge! How will your dish fare in his eyes?}}
+;(Talk to Chouji)
 :'''Chouji:''' Woohoo! Alright then, Traveler, you can start now!
-;(Give dish)
+:;(Submit Imported Poultry &times;1)
 <!--Did not see this option, conditional?
 :'''Chouji:''' Are you done? Let's have a try!
 :{{DIcon}} (I think this'll do.)
 -->
-
-;(Additional dialogue for suspicious variant)
-:'''Chouji:''' Uh... Ahaha, I've got to say that I've never tasted such... outlandish flavors in my life.
-:'''Paimon:''' Outlandish flavors? More like Abyssal ones!
-:'''Paimon:''' Come on, Chouji, don't force yourself! You're still a kid. You don't have to eat this stuff...
-:'''Chouji:''' Hmmm... You don't seem to have had that much experience in the kitchen, but the food's still really good. Thank you!
-:'''Paimon:''' Humph, The Traveler's culinary skill needs no praise! Hey, save some for Paimon!
-
-;(Additional dialogue for delicious variant)
-:'''Chouji:''' Mm~mm! That's yummy! (Traveler), you have the potential to become a famous chef!
-:'''Paimon:''' Wow, it smells good! You know what, (Traveler), why don't we just open a gourmet kiosk here?
-:'''Paimon:''' Paimon's being serious!
+;(If the player submitted Suspicious Imported Poultry)
+::'''Chouji:''' Uh... Ahaha, I've got to say that I've never tasted such... outlandish flavors in my life.
+::'''Paimon:''' Outlandish flavors? More like Abyssal ones!
+::'''Paimon:''' Come on, Chouji, don't force yourself! You're still a kid. You don't have to eat this stuff...
+::'''Chouji:''' Hmmm... You don't seem to have had that much experience in the kitchen, but the food's still really good. Thank you!
+::'''Paimon:''' Humph, The Traveler's culinary skill needs no praise! Hey, save some for Paimon!
+;(If the player submitted Delicious Imported Poultry)
+::'''Chouji:''' Mm~mm! That's yummy! (Traveler), you have the potential to become a famous chef!
+::'''Paimon:''' Wow, it smells good! You know what, (Traveler), why don't we just open a gourmet kiosk here?
+::'''Paimon:''' Paimon's being serious!
 ----
-;(After sharing the dish with Chouji)
+{{Quest Description|update|Go talk to Chouji. After all, all troubles can be alleviated through talking to others, no matter how deep... You do believe that, right?}}
+;(Talk to Chouji)
 :'''Chouji:''' Thank you. I haven't had this dish for a long time. My mom used to cook this for me. It was so delicious... no one could make it as well as her.
 :'''Chouji:''' Well, now I wish I wasn't stuck eating lavender melon every day. I wish I could eat poultry dishes every day.
 :'''Paimon:''' Paimon too!
@@ -395,7 +407,7 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :{{DIcon}} Don't worry.
 :{{DIcon}} I'll go check it out for you.
 :'''Chouji:''' Thank you so much, (Traveler)!
-----
+
 ;(Talk to Chouji again)
 :'''Chouji:''' You're back, (Traveler)!
 :'''Chouji:''' Why don't you eat something, or drink some water?
@@ -403,7 +415,8 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :{{DIcon}} Let me finish your commission first.
 :'''Chouji:''' Thank you!
 ----
-;(At the shrine)
+{{Quest Description|update|Chouji once mentioned that his mother would pray at the shrine. It might be worth a shot to check it out.}}
+;(Approach the shrine)
 :'''Shrine:''' This is probably the shrine that Chouji mentioned, huh?
 :'''Shrine:''' (It looks like an ordinary shrine &mdash; there is a distinct lack of any strange elemental traces.)
 :{{DIcon|Investigate}} Investigate
@@ -416,7 +429,8 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :'''Paimon:''' There are so many petals here, too... This can't be a coincidence.
 :'''Paimon:''' Let's go back and tell him!
 ----
-;(Return to Chouji)
+{{Quest Description|update|Tell Chouji about your discovery. Shock his innocent little heart, why don't you?}}
+;(Talk to Chouji)
 :'''Chouji:''' (Traveler), you're back!
 :{{DIcon}} We've investigated the shrine.
 :'''Paimon:''' Unfortunately, your mother didn't leave any messages there...
@@ -442,13 +456,15 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 :'''Chouji:''' Okay, I won't keep you any longer. I wish you a safe journey.
 :'''Chouji:''' Soon, I will head out on my own journey...
 :'''Paimon:''' Safe travels to you too, Chouji!
-
 {{Dialogue end}}
 
 ==Trivia==
 * The dialogue remains unchanged even if [[Tatarigami]] has been removed by completing [[Orobashi's Legacy]].
 * The shrine that Chouji's mother made offerings to can be interacted with before ever speaking to Chouji. However, there is no unique dialogue for that situation and it is assumed the player has reached the part of the quest that involves it.
 * Although Chouji comments that his mother did not leave him any letters or notes upon her departure, an [[Unsealed Letter]] from her addressed to him can be found in [[Jakotsu Mine]].
+
+===Etymology===
+* The name "Gazing Three Thousand Miles Away" is a reference to the Italian children's novel ''{{w|Heart (novel)|Heart}}'' by {{w|Edmondo De Amicis}}. A chapter of the novel, "''From the Apennines to the Andes''," was adapted to a Japanese anime {{lang|''{{w|3000 Leagues in Search of Mother}}''|ja=母をたずねて三千里}} in 1976. The plot of the story features a 13-year-old boy, Marco, traveled three thousand miles to Buenos Aires, Argentina, in search of his lost mother, and finally met his bedridden mother at Mr. Mechines' house in Tucuman.
 
 ==Other Languages==
 {{Other Languages
@@ -469,7 +485,7 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 |fr      = Contempler trois mille lieues au loin
 |fr_tl   = Contemplating Three Thousand Leagues Far Away
 |ru      = Взгляд на три тысячи миль вдаль
-|ru_tl   = 
+|ru_tl   = A Gaze Three Thousand Miles Away
 |th      = เฝ้ามองสามพันลี้
 |th_rm   = 
 |th_tl   = 
@@ -481,7 +497,14 @@ Talk to [[Chouji]] to obtain this quest. He can be found on the southern edge of
 |id_tl   = Gazing Three Thousand Miles Away
 |pt      = Olhando a Três Mil Milhas de Distância
 |pt_tl   = 
+|tr      = Uzaklara Dalıp Gitmek
+|tr_tl   = 
+|it      = Uno sguardo a cinquemila chilometri di distanza
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|2.0}}
+
+[[es:Contemplando la distancia]]
+[[ru:Взгляд на три тысячи миль вдаль]]

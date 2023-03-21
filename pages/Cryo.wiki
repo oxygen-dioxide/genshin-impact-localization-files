@@ -16,7 +16,8 @@ Having two Cryo characters in the group results in the [[Elemental Resonance]]:
 ==Elemental Reactions==
 {{Cryo}} has the following [[Elemental Reactions]]:
 *{{Icon/Element|Electro}} '''[[Superconduct]]:''' Deals {{Color|AoE Cryo DMG}} and reduces the {{Color|Physical RES}} of enemies caught in the AoE by 40%.
-*{{Icon/Element|Hydro}} '''[[Frozen]]:''' Freezes the target. If the frozen target is hit by a [[Claymore]], a [[Plunge Attack]], or {{Color|Geo DMG}}, it will cause [[Shattered]]. Shattering a frozen target will deal additional {{Color|Physical DMG}}.
+*{{Icon/Element|Hydro}} '''[[Frozen]]:''' Immobilizes the target and applies a Freeze aura.
+** {{Icon/Element|Geo}}{{Element|Physical|link=Blunt Attack}} '''Shatter:''' If the Frozen target is hit by a [[Blunt Attack|Blunt]] or {{Geo}} attack, deals {{Color|Physical DMG}} and unfreezes the target.
 *{{Icon/Element|Pyro}} '''[[Melt]]:''' Deals ×1.5 {{Color|Cryo DMG}} when a Cryo attack triggers the reaction.
 *{{Icon/Element|Anemo}} '''[[Swirl]]:''' Deals {{Color|AoE Cryo DMG}} while spreading the Cryo status to nearby enemies.
 *{{Icon/Element|Geo}} '''[[Crystallize]]:''' Creates a Cryo shield.
@@ -26,6 +27,31 @@ Having two Cryo characters in the group results in the [[Elemental Resonance]]:
 
 Unlike other elements, the Cryo status can also be applied to certain objects, such as [[Geo Constructs#Exploration|Ores]], [[Thunderwood]]s, [[Thunder Dwelling]]s, and [[Amber]]'s [[Explosive Puppet|Baron Bunny]], and can allow certain elemental reactions to occur on such objects.
 
+==Sibling Elements==
+[[File:Cryo Frozen Comparison.png|thumb|Comparison between the Cryo status icon (left) and the Frozen/Freeze status icon (right)]]
+{{Cryo}} has 2 sibling elements, '''Frozen''' and '''Freeze'''. The status icon for the Freeze/Frozen auras is similar to that of the Cryo status, but with an animated glow around it.
+
+Cryo, Frozen, and Freeze auras can all coexist on the same target.
+
+===Frozen===
+The '''Frozen''' element functions similarly to Cryo, but with the following differences:
+* It does not react with {{Hydro}}.
+* It does not apply the animation speed debuff.
+* The Frozen [[Elemental Gauge Theory|gauge]] can be depleted by [[Poise Damage]] from [[Blunt Attack]]s.
+
+The Frozen element can be applied in several ways:
+* Applied to enemies with a Frozen [[shield]].
+** All "Cryo" shields used by enemies are actually of the Frozen element, as indicated by the status icon.
+* Applied to certain enemies as innate auras, such as [[Cryo Slime]]s and the [[Cryo Hypostasis]].
+* Applied to characters with certain [[Talents]].
+
+===Freeze===
+The '''Freeze''' element is applied when a [[Frozen]] reaction is triggered and maintains the Frozen state while it is present. Like the Frozen aura, the Freeze aura cannot react with {{Hydro}}. When a target with the Freeze aura is hit by a [[Blunt Attack|Blunt]] or [[Geo]] attack, [[Shattered]] will be triggered.
+
+===Frozen Status to Self===
+The following [[Talents]] apply {{Color|Cryo|Frozen}} to its user and/or the active character.
+{{Talents by Category Table|Frozen Status to Self Talents}}
+
 ==Cryo Characters==
 ===Playable Characters===
 {{Characters by Category Table|Playable Characters&Cryo Characters|noelement=1}}
@@ -34,11 +60,10 @@ Unlike other elements, the Cryo status can also be applied to certain objects, s
 {{Characters by Category Table|Upcoming Characters&Cryo Characters|noelement=1}}
 
 ==Enemies==
-Some [[Enemies]] are capable of generating a Cryo shield or constructs, providing them with significant offensive or defensive abilities. The shields and constructs that are breakable are often best broken with {{Pyro}} applications.
 {{Enemies by Category List|header=1}}
 
 ==Exploration==
-Some environmental objects or obstacles are considered as Cryo objects:
+Some environmental objects or obstacles are considered Cryo objects:
 *[[Exploding Barrel|Cryo Exploding Barrels]]
 *Frozen Chests
 *Frozen Snowboar
@@ -57,6 +82,9 @@ Some environmental objects or obstacles are considered as Cryo objects:
 |caption=A character affected by Cryo
 }}
 
+==Trivia==
+=== Etymology===
+*The name Cryo comes from the prefix for words related to freezing or ice, "{{wt|cryo-|cryo-|English}}," which derives from {{lang|the Ancient Greek word for icy cold, frost, chill|grc=κρύος|grc_rm=krúos}}.
 ==Other Languages==
 {{Other Languages
 |en      = Cryo
@@ -82,6 +110,9 @@ Some environmental objects or obstacles are considered as Cryo objects:
 |de      = Kryo
 |id      = Cryo
 |pt      = Cryo
+|tr      = Buz
+|tr_tl   = Ice
+|it      = Cryo
 }}
 
 ==Change History==
@@ -91,11 +122,13 @@ Some environmental objects or obstacles are considered as Cryo objects:
 {{Element Navbox}}
 
 [[de:Kryo]]
-[[pt-br:Cryo]]
-[[vi:Băng]]
-[[th:น้ำแข็ง]]
 [[fr:Cryo]]
+[[it:Cryo]]
 [[ja:氷]]
 [[pl:Cryo]]
+[[pt-br:Cryo]]
 [[ru:Крио]]
+[[th:น้ำแข็ง]]
+[[tr:Buz]]
 [[uk:Кріо]]
+[[vi:Băng]]

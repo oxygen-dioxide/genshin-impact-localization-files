@@ -1,18 +1,31 @@
 {{Enemy Infobox
 |image    = Enemy Fatui Geochanter Bracer.png
-|element  = Geo
+|dmgtype  = Geo
+|weakpoint = yes
 |type     = Common Enemies
 |family   = Fatui
 |group    = Fatui Skirmishers
 |faction  = Fatui
 |ability1 = Shield
-|voiceEN  = [https://www.stefanmartello.com/ Stefan Martello]<ref>Twitter: [https://twitter.com/stefanmartello/status/1344948003694497792 EN VA Self Announcement]</ref><br />[https://twitter.com/RyMcKeand Ry McKeand] (Yelan's Character teaser)<ref>[https://twitter.com/RyMcKeand/status/1532159150872055809 EN VA Self Announcement]</ref>
+|voiceEN  = [https://www.stefanmartello.com/ Stefan Martello]<ref>Twitter: [https://twitter.com/stefanmartello/status/1344948003694497792 EN VA Self Announcement]</ref><br />[https://twitter.com/RyMcKeand Ry McKeand] (Yelan's Character Teaser)<ref>Twitter: [https://twitter.com/RyMcKeand/status/1532159150872055809 EN VA Self Announcement]</ref>
+|voiceJP          = {{w|ja:高瀬泰幸|Takase Yasuyuki ({{ja|高瀬 泰幸}})}} (Yelan's Character Teaser)<ref name="Takase Yasuyuki">Twitter: [https://twitter.com/takasemanrx/status/1549240325524574208 JP VA Self Announcement]</ref>
 }}
-{{Description|A skirmisher with the ability to generate a Geo Shield and defend their allies.<br />Unlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.<br />To complete their tasks and reduce losses in men and materiel, their tactics are thus more reliant on teamwork.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Fatui Skirmishers}}
+===Items===
+{{Drops Table|type=Fatui Skirmishers}}
+
+===Energy===
+{{Energy Drops
+|type  = Geo
+|hp1   = 66
+|p1    = 2
+|hp2   = 33
+|p2    = 2
+|hp3   = 0
+|p3    = 2
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -26,37 +39,63 @@
 |res_title = State
 |hp_ratio  = 3
 |hp_type   = 1
-|atk_ratio = 2
+|atk_ratio = 3
 }}
 
 ==Abilities and Attacks==
-*'''Rock Strike:''' Shoots a rock projectile from their staff, dealing '''100% ATK''' as {{Color|Geo DMG}} on hit.
-**'''Enhanced:''' When their '''Geo Armor''' is active, shoots 3 projectiles at once in different directions, dealing '''150% ATK''', '''75% ATK''', '''37.5% ATK''' respectively as {{Color|Geo DMG}} with each hit.
-*'''Blink:''' Teleports away if the player strays too close. This ability is only used when their '''Geo Armor''' is active.
-*'''Jade Dome:''' If an ally is nearby, forms a large dome around themselves that blocks ranged projectiles and increases [[Attack|ATK]] of all allies inside the dome by '''20%'''. This ability is only used when their '''Geo Armor''' is active.
-*'''Geo Armor:''' Upon reaching '''50%''' HP or after some time has passed, generates a {{Geo}} [[Shields|shield]], granting them a massive increase in [[Resistance]]s and enhancing their abilities. The shield takes [[Poise Damage]], with [[Blunt Attack]]s being especially effective. Breaking the shield will leave them stunned and vulnerable to attack.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Geochanter Bracer
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Geochanter Bracer Rock Strike
-|caption1=Rock Strike (Normal)
+|name_1 = Rock Strike
+|desc_1 = Shoots a rock projectile from their staff, dealing '''66.6% ATK''' as {{Color|Geo DMG}} on hit.
+* '''Enhanced:''' When their '''Elemental Buff''' is active, shoots 3 projectiles at once in different directions, dealing '''100% ATK''' as {{Color|Geo DMG}}.
+|caption_1 = Normal
+|file_1_2 = Geochanter Bracer Rock Strike Enhanced
+|caption_1_2 = Enhanced
 
-|file2=Geochanter Bracer Rock Strike Enhanced
-|caption2=Rock Strike (Enhanced)
+|name_2 = Shining Withdraw
+|file_2 = Geochanter Bracer Blink
+|desc_2 = Teleports away if the player strays too close. This ability is only used when their '''Elemental Buff''' is active.
 
-|file3=Geochanter Bracer Blink
-|caption3=Blink
+|name_3 = Jade Dome
+|desc_3 = If an ally is nearby, forms a large dome around themselves that blocks ranged projectiles and increases [[Attack|ATK]] of all allies inside the dome by '''20%'''. This ability is only used when their '''Elemental Buff''' is active.
 
-|file4=Geochanter Bracer Jade Dome
-|caption4=Jade Dome
-
-|file5=Geochanter Bracer Geo Armor
-|caption5=Geo Armor
-
-|file6=Geochanter Bracer Stunned
-|caption6=Stunned
+|name_4 = Elemental Buff: Geo
+|file_4 = Geochanter Bracer Geo Armor
+|desc_4 = Upon reaching '''50%''' HP or after some time has passed, generates a {{Geo}} [[Shields|shield]], granting them a massive increase in [[Resistance]]s and enhancing their abilities. The shield takes [[Poise Damage]], with [[Blunt Attack]]s being especially effective. Breaking the shield will leave them stunned and vulnerable to attack.
+{{Elemental Shield Data|Geo|8}}
+|file_4_2 = Geochanter Bracer Stunned
+|caption_4_2 = Stunned
 }}
+
+===AI Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if all of the following conditions have been met:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+{| class="wikitable"
+! Ability !! Range Req. (m) !! Priority !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int. !! State Req.
+|-
+| Rock Strike || 3–25 || 4 || 5–7.5 || 1 || — || rowspan="7" | 2 || {{check|yes}} || {{check|no}} || Not Armored
+|-
+| Rock Strike (Enhanced) || 0–25 || 4 || 5–7.5 || 1 || — || {{check|yes}} || {{check|no}} || Armored
+|-
+| Shining Withdraw || 0–5 || 1 || 10–12.5 || 3 || — || {{check|yes}} || {{check|yes}} || Armored
+|-
+| Jade Dome || 0–999 || 2 || 48 || 15–22.5 || 15 || {{check|no}} || {{check|no}} || Armored
+|-
+| Elemental Buff: Geo 1 || 0–999 || 2 || 80–90 || 10–20 || — || {{check|no}} || {{check|no}} || —
+|-
+| Elemental Buff: Geo 2 || 0–999 || 2 || 10 || 0 || — || {{check|no}} || {{check|yes}} || Below 50% HP
+|-
+| Elemental Buff: Geo 3 || 0–999 || 2 || 90–100 || 20–40 || — || {{check|no}} || {{check|no}} || —
+|}
 
 ==Voice-Overs==
 {{VO/Enemy
@@ -64,98 +103,91 @@
 |vo_01_00_title          = Spotting the Traveler
 |vo_01_01_file           = VO {lang}{name} - Here Comes Trouble.ogg
 |vo_01_01_tx_en          = Here comes trouble.
-|vo_01_01_tx_zhs         = 麻烦上门了。
-|vo_01_01_tx_zht         = 
+|vo_01_01_tx_zh          = 麻烦上门了。
 |vo_01_01_tx_ja          = 面倒だ。
 |vo_01_01_tx_ko          = 
 |vo_01_02_file           = VO {lang}{name} - Another Problem.ogg
 |vo_01_02_tx_en          = Another problem.
-|vo_01_02_tx_zhs         = 又是个大麻烦。
-|vo_01_02_tx_zht         = 
+|vo_01_02_tx_zh          = 又是个大麻烦。
 |vo_01_02_tx_ja          = また面倒が増えた。
 |vo_01_02_tx_ko          = 
 
 |vo_02_00_title          = Activating Shield
 |vo_02_01_file           = VO {lang}{name} - Harden Up.ogg
 |vo_02_01_tx_en          = Harden up!
-|vo_02_01_tx_zhs         = 岩，起！
-|vo_02_01_tx_zht         = 
+|vo_02_01_tx_zh          = 岩，起！
 |vo_02_01_tx_ja          = 岩、出でよ！
 |vo_02_01_tx_ko          = 
 
 |vo_03_00_title          = Attacking
 |vo_03_01_file           = VO {lang}{name} - That Seemed To Work.ogg
 |vo_03_01_tx_en          = That seemed to work.
-|vo_03_01_tx_zhs         = 似乎有效。
-|vo_03_01_tx_zht         = 
+|vo_03_01_tx_zh          = 似乎有效。
 |vo_03_01_tx_ja          = 効いたみたいだ。
 |vo_03_01_tx_ko          = 
 |vo_03_02_file           = VO {lang}{name} - Use This First.ogg
 |vo_03_02_tx_en          = Use this first!
-|vo_03_02_tx_zhs         = 先用这个…
-|vo_03_02_tx_zht         = 
+|vo_03_02_tx_zh          = 先用这个…
 |vo_03_02_tx_ja          = まずはこれを。
 |vo_03_02_tx_ko          = 
 
 |vo_04_00_title          = Generating Geo Shield
 |vo_04_01_file           = VO {lang}{name} - I Must Collect Myself.ogg
 |vo_04_01_tx_en          = I must collect myself.
-|vo_04_01_tx_zhs         = 必须重整态势。
-|vo_04_01_tx_zht         = 
+|vo_04_01_tx_zh          = 必须重整态势。
 |vo_04_01_tx_ja          = 態勢を整えよ。
 |vo_04_01_tx_ko          = 
 |vo_04_02_file           = VO {lang}{name} - Take Cover.ogg
 |vo_04_02_tx_en          = Take cover!
-|vo_04_02_tx_zhs         = 在这里暂避！
-|vo_04_02_tx_zht         = 
+|vo_04_02_tx_zh          = 在这里暂避！
 |vo_04_02_tx_ja          = ここで回避しよ。
 |vo_04_02_tx_ko          = 
 
 |vo_05_00_title          = Teleporting
 |vo_05_01_file           = VO {lang}{name} - Hah.ogg
 |vo_05_01_tx_en          = Hah!
-|vo_05_01_tx_zhs         = 切~
-|vo_05_01_tx_zht         = 
+|vo_05_01_tx_zh          = 切~
 |vo_05_01_tx_ja          = 
 |vo_05_01_tx_ko          = 
 |vo_05_02_file           = VO {lang}{name} - What An Annoyance.ogg
 |vo_05_02_tx_en          = What an annoyance.
-|vo_05_02_tx_zhs         = 烦人的家伙。
-|vo_05_02_tx_zht         = 
+|vo_05_02_tx_zh          = 烦人的家伙。
 |vo_05_02_tx_ja          = うざいやつ。
 |vo_05_02_tx_ko          = 
 
 |vo_06_00_title          = Shield Broken
 |vo_06_01_file           = VO {lang}{name} - Nyeh This Is Trouble.ogg
 |vo_06_01_tx_en          = Nyeh! This is trouble.
-|vo_06_01_tx_zhs         = 啊，这下…麻烦了。
-|vo_06_01_tx_zht         = 
+|vo_06_01_tx_zh          = 啊，这下…麻烦了。
 |vo_06_01_tx_ja          = 時間か。
 |vo_06_01_tx_ko          = 
 |vo_06_02_file           = VO {lang}{name} - Grr I Must Counterattack.ogg
 |vo_06_02_tx_en          = Grr... I must counterattack!
-|vo_06_02_tx_zhs         = 呃，必须…反击…
-|vo_06_02_tx_zht         = 
+|vo_06_02_tx_zh          = 呃，必须…反击…
 |vo_06_02_tx_ja          = 時間か。
 |vo_06_02_tx_ko          = 
 
-|vo_07_00_title          = Defeated
-|vo_07_01_file           = VO {lang}{name} - Huh The Loneliness Of Death.ogg
-|vo_07_01_tx_en          = Huh... the loneliness of death...
-|vo_07_01_tx_zhs         = 啊…寂静…
-|vo_07_01_tx_zht         = 
-|vo_07_01_tx_ja          = ははっ…死の静寂…
-|vo_07_01_tx_ko          = 
-|vo_07_02_file           = VO {lang}{name} - Finally Some Quiet.ogg
-|vo_07_02_tx_en          = Finally... some quiet...
-|vo_07_02_tx_zhs         = 总算能安静点儿了…
-|vo_07_02_tx_zht         = 
-|vo_07_02_tx_ja          = やっと…静かに…
-|vo_07_02_tx_ko          = 
+|vo_07_00_title          = Staggered
+|vo_07_01_tx_en          = {{A|VO Geochanter Bracer - Staggered 01.ogg}} {{A|VO Geochanter Bracer - Staggered 02.ogg}} {{A|VO Geochanter Bracer - Staggered 03.ogg}}
+
+|vo_08_00_title          = Defeated
+|vo_08_01_file           = VO {lang}{name} - Huh The Loneliness Of Death.ogg
+|vo_08_01_tx_en          = Huh... the loneliness of death...
+|vo_08_01_tx_zh          = 啊…寂静…
+|vo_08_01_tx_ja          = ははっ…死の静寂…
+|vo_08_01_tx_ko          = 
+|vo_08_02_file           = VO {lang}{name} - Finally Some Quiet.ogg
+|vo_08_02_tx_en          = Finally... some quiet...
+|vo_08_02_tx_zh          = 总算能安静点儿了…
+|vo_08_02_tx_ja          = やっと…静かに…
+|vo_08_02_tx_ko          = 
 }}
 
+==Descriptions==
+{{Description|A skirmisher with the ability to generate a Geo Shield and defend their allies.<br />Unlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.<br />To complete their tasks and reduce losses in men and materiel, their tactics are thus more reliant on teamwork.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Fatui Skirmisher - Geochanter Bracer Icon.png|Icon
 </gallery>
 
@@ -187,6 +219,10 @@ Enemy Fatui Skirmisher - Geochanter Bracer Icon.png|Icon
 |id      = Fatui Skirmisher – Geochanter Bracer
 |pt      = Soldado dos Fatui – Guerrilheiro Geo
 |pt_tl   = 
+|tr      = Fatui Avcı Eri - Destek Toprak İlahicisi
+|tr_tl   = 
+|it      = Schermagliatore dei Fatui Fante Geoincantatore
+|it_tl   = 
 }}
 
 ==Change History==

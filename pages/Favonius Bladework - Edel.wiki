@@ -2,15 +2,15 @@
 |image         = Talent Favonius Bladework - Edel.png
 |character     = Eula
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 5 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous slashes.<br />At the end of the sequence, perform a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 5 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous slashes.<br />At the end of the sequence, performs a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
 |hit1          = 89.7%–191.7%
 |hit2          = 93.6%–199.9%
 |hit3          = 56.8%+56.8%–121.4%+121.4%
 |hit4          = 112.6%–240.7%
 |hit5          = 71.8%+71.8%–153.5%+153.5%
-|attr6         = Charged Attack Spinning DMG
+|attr6         = Charged Attack Cyclic DMG
 |value6        = 68.8%–147%
-|attr7         = Charged Attack Spinning Final DMG
+|attr7         = Charged Attack Final DMG
 |value7        = 124%–266%
 |attr8         = Charged Attack Stamina Cost
 |value8        = 40/s
@@ -30,6 +30,101 @@
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|6|Noble Obligation}}
 
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 101.2
+|impulse = 3
+|blunt   = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 105.8
+|impulse2 = 3
+|blunt2   = 1
+
+|title3   = Normal Attack 3-Hit A
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 65.55
+|impulse3 = 3
+|blunt3   = 1
+
+|title4   = Normal Attack 3-Hit B
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 65.55
+|impulse4 = 3
+|blunt4   = 1
+
+|title5   = Normal Attack 4-Hit
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 129.95
+|impulse5 = 3
+|blunt5   = 1
+
+|title6   = Normal Attack 5-Hit A
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 68.21
+|impulse6 = 3
+|blunt6   = 1
+
+|title7   = Normal Attack 5-Hit B
+|gu7      = 1U
+|icdtag7  = Normal Attack
+|icdtype7 = 2.5s/3 Hits
+|poise7   = 68.21
+|impulse7 = Air, 200, 800
+|blunt7   = 1
+
+|title8   = Charged Attack Cyclic
+|gu8      = 1U
+|icdtag8  = Normal Attack
+|icdtype8 = 2.5s/3 Hits
+|poise8   = 60
+|impulse8 = 3
+|blunt8   = 1
+
+|title9   = Charged Attack Final Slash
+|gu9      = 1U
+|icdtag9  = Normal Attack
+|icdtype9 = 2.5s/3 Hits
+|poise9   = 120
+|impulse9 = 6
+|blunt9   = 1
+
+|title10   = Plunging Attack Collision
+|gu10      = 0U
+|icdtag10  = none
+|poise10   = 35
+|impulse10 = 2
+
+|title11   = Low Plunge
+|gu11      = 1U
+|icdtag11  = none
+|poise11   = 150
+|impulse11 = 4
+|blunt11   = 1
+
+|title12   = High Plunge
+|gu12      = 1U
+|icdtag12  = none
+|poise12   = 200
+|impulse12 = 7
+|blunt12   = 1
+}}
+
 ==Preview==
 {{Preview
 |file1=Favonius Bladework - Edel Normal Preview
@@ -39,7 +134,7 @@
 |caption2=Charged Attack
 
 |file3=Favonius Bladework - Edel Plunge Preview
-|caption3=Plunge Attack
+|caption3=Plunging Attack
 }}
 {{clr}}
 
@@ -48,7 +143,7 @@
 |talentType=Normal Attack
 |levels=11
 |order=hit1,hit2,hit3,hit4,hit5,charged_title,chargedattackspinningdmg,chargedattackfinaldmg,stamina,maxduration,plunge_title,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),5-Hit DMG (%),Charged Attack,Charged Attack Spinning DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),5-Hit DMG (%),Charged Attack,Charged Attack Cyclic DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=89.73
 |hit1_2=97.04
 |hit1_3=104.34
@@ -173,6 +268,8 @@
 ==Other Languages==
 {{Other Languages
 |en      = Favonius Bladework - Edel
+|en_tl   = Favonius Bladework - Noble
+|en_lang = de
 |zhs     = 西风剑术・宗室
 |zhs_rm  = Xīfēng Jiànshù・Zōngshì
 |zht     = 西風劍術・宗室
@@ -198,16 +295,17 @@
 |id      = Favonius Bladework - Edel
 |pt      = Técnica da Espada de Favonius - Nobreza
 |pt_tl   = Favonius Sword Technique - Nobility
+|tr      = Favonius Kılıç Tekniği - Edel
+|tr_tl   = 
+|it      = Tecnica di Favonius - Edel
+|it_tl   = Favonius Technique - Edel
 }}
-
-==References==
-{{Reflist}}
 
 ==Change History==
 {{Change History|1.5}}
-<!--
+
 ==References==
-{{Reflist}}-->
+{{Reflist}}
 
 ==Navigation==
 {{Talent Navbox|Eula}}

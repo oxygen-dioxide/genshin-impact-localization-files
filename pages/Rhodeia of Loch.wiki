@@ -1,25 +1,33 @@
-{{For|the other entities known as "Oceanids"|Lochfolk}}
+{{About|the [[Normal Boss]]|the [[Genius Invokation TCG]] Character Card|Rhodeia of Loch (Character Card)|the other entities known as "Oceanids"|Lochfolk}}
 {{Enemy Infobox
 |image    = Enemy Oceanid.png
 |type     = Normal Bosses
 |location = [[Bishui Plain]], [[Liyue]]
 |family   = Elemental Lifeforms
 |title    = Oceanid of Qingce
-|element  = Hydro
-|ability1 = Summon
+|dmgtype  = Hydro
+|weakpoint = no
+|ability1 = Summoning
 |voiceEN  = 
-|voiceCN  = [https://zh.moegirl.org.cn/龟娘 Guiniang (龟娘)] <ref>Bilibili: [https://t.bilibili.com/503210785150038490?tab=2 CN VA Announcement] (by Voice Director Susu)</ref>
-|voiceJP  = [http://amuleto.jp/talents/yamamotoai.html Ai Yamamoto (山本 亜衣)]<ref name="Oceanid JP Twitter">Twitter: [https://twitter.com/ai_yamamoto_913/status/1372031689472372740 JP VA Self Announcement]</ref>
+|voiceCN  = [https://zh.moegirl.org.cn/龟娘 Guiniang ({{zh|龟娘}})]<ref>Bilibili: [https://t.bilibili.com/503210785150038490?tab=2 CN VA Announcement] (by Voice Director Susu)</ref>
+|voiceJP  = {{w|ja:山本亜衣|Yamamoto Ai ({{ja|山本 亜衣}})}}<ref name="Oceanid JP Twitter">Twitter: [https://twitter.com/ai_yamamoto_913/status/1372031689472372740 JP VA Self Announcement]</ref>
 |drops    = Cleansing Heart
 }}
-{{Description|A life-form created from condensed [[Hydro]] elements of incredible purity.<br />Often attached to bodies of water. It is said that as water bodies becomes purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful.<br />It is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...|[[Adventurer Handbook]]}}
 {{Enemy Intro}}
 
-==Rewards==
+==Drops==
+===Items===
 {{World Boss Rewards
 |gem=Varunada Lazurite
 |exclusive=Cleansing Heart
 |sets=Adventurer,Berserker,The Exile,Prayers for Destiny
+}}
+
+===Energy===
+{{Energy Drops
+|type  = Hydro
+|hp1   = 0
+|o1    = 1
 }}
 
 ==Stats==
@@ -28,6 +36,7 @@
 |pyro_res    = N/A
 |hydro_res   = N/A
 |electro_res = N/A
+|dendro_res  = N/A
 |cryo_res    = N/A
 |anemo_res   = N/A
 |geo_res     = N/A
@@ -39,6 +48,21 @@
 }}
 
 ==Abilities and Attacks==
+''Most attack names are unofficial.''
+===Oceanid===
+{{Enemy Attacks
+|enemy  = Oceanid
+
+|name_1 = The Myriad Wilds
+|desc_1 = Sends out 1 or 2 water orbs which each target a random platform. Upon landing, the orb transforms into a group of [[Hydro Mimics]].
+
+|name_2 = Sinking Platform
+|desc_2 = After clearing two waves of Hydro Mimics, the Oceanid will select two random tiles in the 3×3 grid, dive upon them, dealing '''50% ATK''' as {{Color|AoE Hydro DMG}} and sinking them. The central arena tile will never be selected and is therefore a safe spot for players to stand on during this ability.
+
+|name_3 = Tide and Torrent
+|desc_3 = If the Hydro Mimics are not defeated in a certain amount of time, the Oceanid creates a whirlpool below the player that follows them, deals '''50% ATK''' as {{Color|Hydro DoT}}, and explodes after a while, dealing '''200% ATK''' as {{Color|AoE Hydro DMG}}.
+}}
+
 ===Hydro Mimics===
 {{main|Hydro Mimics}}
 The Oceanid summons various different water animals that must be fought and defeated in order to harm the boss. There are 8 different types of mimics in total that can be spawned by Oceanid. Each type has a decreased resistance to certain element, apart from Hydro, which they are completely immune to. As with all other Hydro wildlife, they can hover on water.
@@ -54,7 +78,7 @@ These mimics appear two at a time. There are two groups of these mimics. These m
 
 {{Color|Cryo RES}} decreased:
 * [[Hydro Mimic Mallard]] &mdash; Ducks with a Hydro vortex underneath them that deals rapid {{Color|Hydro DoT}} to players inside them.
-* [[Hydro Mimic Crab]] &mdash; Crabs that tend to walk perpendicularly around the player, spewing bubbles from their claws that deal light but rapid {{Color|Hydro DMG}}. They occasionally stop once in a while to rest before moving on. They have decreased {{Color|Pyro RES}} but can continuously.
+* [[Hydro Mimic Crab]] &mdash; Crabs that tend to walk perpendicularly around the player, spewing bubbles from their claws that deal light but rapid {{Color|Hydro DMG}}. They occasionally stop once in a while to rest before moving on.
 
 {{Color|Pyro RES}} decreased:
 * [[Hydro Mimic Boar]] &mdash; Rams the player up close or charges at the player from afar. Continuously heals itself.
@@ -112,29 +136,12 @@ These mimics appear one at a time when summoned by Rhodeia. They have decreased 
 |caption14 = Water Bomb
 }}
 
-===Oceanid===
-* '''Sinking Platform:''' After clearing two waves of Hydro Mimics, the Oceanid will select two random tiles in the 3×3 grid, dive upon them, dealing '''50% ATK''' as {{Color|AoE Hydro DMG}} and sinking them. The central arena tile will never be selected and is therefore a safe spot for players to stand on during this ability.
-* '''Whirlpool:''' If the Hydro Mimics are not defeated in a certain amount of time, the Oceanid creates a whirlpool below the player that follows them, deals '''50% ATK''' as {{Color|Hydro DoT}}, and explodes after a while, dealing '''200% ATK''' as {{Color|AoE Hydro DMG}}.
-
-====Preview====
-{{Preview
-|size=185px
-|file1    = Oceanid Summon Mimics
-|caption1 = Summon Mimics
-
-|file2    = Oceanid Sinking Platform
-|caption2 = Sinking Platform
-
-|file3    = Oceanid Whirlpool
-|caption3 = Whirlpool
-}}
-
 ==Strategy==
 Before starting the fight, having a [[Bow]] or [[Catalyst]] user is highly recommended in case Rhodeia summons raptors, as they are particularly troublesome to hit without them. [[Geo Constructs]] such as [[Zhongli]]'s [[Stone Stele]]s and [[Albedo]]'s [[Solar Isotoma]] skills will not work in the arena.
 
 When the fight is initiated, Rhodeia will summon [[Hydro Mimics]] that imitate wildlife to fight the player on her behalf. These mimics will appear from one of the unsunken tiles that form the arena, and are directly linked to her health; after clearing each wave, she loses health. The first two instances of this are one batch of Hydro Mimics, which varies from the list above.
 
-While each mimic does have varied resistances, all of them are immune to [[Hydro]] attacks. The mimics' permanent Hydro status means that they can be inflicted with [[Vaporize]], [[Electro-Charged]], and [[Frozen]] consistently if said characters are brought onto the field, the former two providing additional DMG, while the latter can take pressure away from some troublesome mimics. Electro attacks should be used with careful consideration, since the player will be wet for the entire battle and may accidentally apply Electro-Charged to themselves if careless.
+While each mimic does have varied resistances, all of them are immune to [[Hydro]] attacks. The mimics' permanent Hydro status means that they can be inflicted with [[Vaporize]], [[Electro-Charged]], [[Bloom]], and [[Frozen]] consistently if said characters are brought onto the field, the former three providing additional DMG, while the latter can take pressure away from some troublesome mimics. Electro attacks should be used with careful consideration, since the lake the battle takes place on can be electrocuted and player will be wet for the entire battle and may accidentally damage or apply Electro-Charged to themselves if careless.
 
 Geo characters that can cause [[Crystallize]] can be useful since Rhodeia and her mimics only inflict {{Color|Hydro DMG}}. The more troublesome mimics are the Raptors, Finches and Frogs. As stated above, Raptors are incredibly troublesome without Bow or Catalyst users. Finches and Frogs, after being defeated, will transform into a Hydro bomb that deals massive DMG, coupled with an extremely wide reach &mdash; players will need to move away further than the game insists with the [[AoE]] indicator. While possible to run away from it without taking DMG or using a shield to block it, this should only be done by defeating the mimic towards the edges of the arena. It is also possible to jump or [[Plunging Attack|plunge]] into nearby water at the right time so the water bomb explodes while the player is underwater, resulting in no DMG taken.
 
@@ -157,84 +164,101 @@ The '''Hateful Oceanid''', also known as '''Urania''', is the boss variant of ''
 |vo_01_00_title          = Battle Start
 |vo_01_01_file           = VO {lang}{name} - An Assassin From Our Homeland Or A Fool Who Trespasses Upon The Waters Of Qingce.ogg
 |vo_01_01_tx_en          = An assassin from our [[Fontaine|homeland]]? Or a fool who trespasses upon the waters of Qingce?
-|vo_01_01_tx_zhs         = 
-|vo_01_01_tx_zht         = 
-|vo_01_01_tx_ja          = 
-|vo_01_01_tx_ko          = 
+|vo_01_01_tx_zh          = 究竟是来自故土的刺客，还是妄图侵扰轻策之水的人…
+|vo_01_01_rm_zh          = Jiùjìng shì láizì gùtǔ de cìkè, háishì wàngtú qīnrǎo qīngcè zhī shuǐ de rén...
+|vo_01_01_tx_ja          = 故郷からの刺客か、それとも軽策の水を侵す者か…
+|vo_01_01_rm_ja          = Kokyou kara no shikaku ka, soretomo Keisaku no mizu wo okasu mono ka...
+|vo_01_01_tx_ko          = 고향에서 온 자객인가, 아니면 경책의 물을 더럽히려는 자인가…
 
-|vo_02_00_title          = Summon Hydro Mimics
-|vo_02_01_file           = VO {lang}{name} - Coveting The Shapdes Of The Living Pure Water Can Take On Many Forms In This Way Shall Water Deliver Your Punishment.ogg
+|vo_02_00_title          = The Myriad Wilds
+|vo_02_01_file           = VO {lang}{name} - Coveting The Shapes Of The Living Pure Water Can Take On Many Forms In This Way Shall Water Deliver Your Punishment.ogg
 |vo_02_01_tx_en          = Coveting the shapes of the living, pure water can take on many forms. In this way shall water deliver your punishment.
-|vo_02_01_tx_zhs         = 
-|vo_02_01_tx_zht         = 
-|vo_02_01_tx_ja          = 
-|vo_02_01_tx_ko          = 
+|vo_02_01_tx_zh          = 歆羡生灵的形体，「纯水」能化作林野百态。就用这「水」惩罚你吧。
+|vo_02_01_rm_zh          = Xīnxiàn shēnglíng de xíngtǐ, "chúnshuǐ" néng huàzuò línyě bǎitài. Jiù yòng zhè "shuǐ" chéngfá nǐ ba.
+|vo_02_01_tx_ja          = 生物の姿形を羨み、「純水」はあらゆる形へと変化する。この「水」の力で裁きを与えよう。
+|vo_02_01_rm_ja          = Seibutsu no sugatakatachi wo urayami, "junsui" wa arayuru katachi he to henka suru. Kono "mizu" no chikara de sabaki wo ataeyou.
+|vo_02_01_tx_ko          = 생명의 형태를 시샘하는 「물」은 여러 가지 모습으로 변할 수 있지. 이 「물」로 네게 심판을 내려주마
+
 |vo_02_02_file           = VO {lang}{name} - The Power Of Water Is Its Ability To Take Any Shape.ogg
 |vo_02_02_tx_en          = The power of water is its ability to take any shape...
-|vo_02_02_tx_zhs         = 
-|vo_02_02_tx_zht         = 
-|vo_02_02_tx_ja          = 
-|vo_02_02_tx_ko          = 
+|vo_02_02_tx_zh          = 无论什么形态都能变换，就是「水」的力量…
+|vo_02_02_rm_zh          = Wúlùn shénme xíngtài dōu néng biànhuàn, jiùshì "shuǐ" de lìliàng...
+|vo_02_02_tx_ja          = いかようにもなれる、それが「水」の力…
+|vo_02_02_rm_ja          = Ikayou ni mo nareru, sore ga "mizu" no chikara...
+|vo_02_02_tx_ko          = 어떤 형태로든 변할 수 있는 게 바로 「물」의 힘이지…
+
 |vo_02_03_file           = VO {lang}{name} - One Who Is Ignorant Of Waters Treasures Fails Also To Comprehend Its Horrors.ogg
 |vo_02_03_tx_en          = One who is ignorant of water's treasures fails also to comprehend its horrors...
-|vo_02_03_tx_zhs         = 
-|vo_02_03_tx_zht         = 
-|vo_02_03_tx_ja          = 
-|vo_02_03_tx_ko          = 
+|vo_02_03_tx_zh          = 不懂得「水」的可贵，自然也不理解「水」的恐怖…
+|vo_02_03_rm_zh          = Bù dǒngdé "shuǐ" de kěguì, zìrán yě bù lǐjiě "shuǐ" de kǒngbù...
+|vo_02_03_tx_ja          = 「水」の尊さを分からぬのなら、「水」の恐怖も知らないだろう…
+|vo_02_03_rm_ja          = "Mizu" no toutosa wo wakaranu no nara, "mizu" no kyoufu mo shiranai darou...
+|vo_02_03_tx_ko          = 「물」의 소중함을 모르는 자가 「물」의 무서움 또한 모르는 건 당연한 법…
 
-|vo_03_00_title          = Submerging Platforms
+|vo_03_00_title          = Sinking Platform
 |vo_03_01_file           = VO {lang}{name} - Without Solid Ground Terrestrial Creatures Become Simply Helpless.ogg
 |vo_03_01_tx_en          = Without solid ground, terrestrial creatures become simply... helpless.
-|vo_03_01_tx_zhs         = 
-|vo_03_01_tx_zht         = 
-|vo_03_01_tx_ja          = 
-|vo_03_01_tx_ko          = 
+|vo_03_01_tx_zh          = 地上的生灵，如果失去了坚实的土地，就无能为力了吧…
+|vo_03_01_rm_zh          = Dìshàng de shēnglíng, rúguǒ shīqùle jiānshí de tǔdì, jiù wúnéngwéilìle ba...
+|vo_03_01_tx_ja          = 地上の生き物は、盤石な足場を失うことで、力を失うだろう…
+|vo_03_01_rm_ja          = Chijou no ikimono wa, banjaku na ashiba wo ushinau koto de, chikara wo ushinau darou...
+|vo_03_01_tx_ko          = 육지의 생물은 견고한 땅이 없으면 아무것도 할 수 없지…
+
 |vo_03_02_file           = VO {lang}{name} - Lets See What Happens When You Lose Your Foothold.ogg
 |vo_03_02_tx_en          = Let's see what happens when you lose your foothold.
-|vo_03_02_tx_zhs         = 
-|vo_03_02_tx_zht         = 
-|vo_03_02_tx_ja          = 
-|vo_03_02_tx_ko          = 
+|vo_03_02_tx_zh          = 「立足之处」被剥夺的感受，也体验一下吧。
+|vo_03_02_rm_zh          = "Lìzú zhī chù" bèi bōduó de gǎnshòu, yě tǐyàn yīxià ba.
+|vo_03_02_tx_ja          = 「足場」を奪われた感覚を味わってみるがいい。
+|vo_03_02_rm_ja          = "Ashiba" wo ubawareta kankaku wo ajiwatte miru ga ii.
+|vo_03_02_tx_ko          = 「발붙일 곳」을 빼앗긴 고통을 어디 한번 느껴봐라
 
-|vo_04_00_title          = Whirlpool
+|vo_04_00_title          = Tide and Torrent
 |vo_04_01_file           = VO {lang}{name} - Submerge.ogg
 |vo_04_01_tx_en          = Submerge!
-|vo_04_01_tx_zhs         = 
-|vo_04_01_tx_zht         = 
-|vo_04_01_tx_ja          = 
-|vo_04_01_tx_ko          = 
+|vo_04_01_tx_zh          = 沉没吧！
+|vo_04_01_rm_zh          = Chénmò ba!
+|vo_04_01_tx_ja          = 沈め！
+|vo_04_01_rm_ja          = Shizume!
+|vo_04_01_tx_ko          = 침몰하라!
 
-|vo_05_00_title          = Submerging Platforms
+|vo_05_00_title          = Defeated
 |vo_05_01_file           = VO {lang}{name} - We Seek But A Small Haven Of Tranquil Waters Is That So Much To Ask For.ogg
 |vo_05_01_tx_en          = We seek but a small haven of tranquil waters... is that so much to ask for...
-|vo_05_01_tx_zhs         = 
-|vo_05_01_tx_zht         = 
-|vo_05_01_tx_ja          = 
-|vo_05_01_tx_ko          = 
+|vo_05_01_tx_zh          = 仅仅是寻求一方静水，也不行吗…
+|vo_05_01_rm_zh          = Jǐnjǐn shì xúnqiú yīfāng jìngshuǐ, yě bùxíng ma...
+|vo_05_01_tx_ja          = 静かな水を求めることも、許されぬのか…
+|vo_05_01_rm_ja          = Shizuka na mizu wo motomeru koto mo, yurusarenu no ka...
+|vo_05_01_tx_ko          = 잔잔한 물을 찾는 것조차 허락되지 않는 건가…
+
 |vo_05_02_file           = VO {lang}{name} - As Long As Rain Falls And Rivers Flow Water Will Exist Forever.ogg
 |vo_05_02_tx_en          = As long as rain falls and rivers flow... water will exist forever...
-|vo_05_02_tx_zhs         = 
-|vo_05_02_tx_zht         = 
-|vo_05_02_tx_ja          = 
-|vo_05_02_tx_ko          = 
+|vo_05_02_tx_zh          = 但，只要百川奔流，雨露不休，水就不会消失…
+|vo_05_02_rm_zh          = Dàn, zhǐyào bǎichuān bēnliú, yǔlù bùxiū, shuǐ jiù bùhuì xiāoshī...
+|vo_05_02_tx_ja          = しかし、川や湖があり、空から雨が降る限り、水は消えない…
+|vo_05_02_rm_ja          = Shikashi, kawa ya mizuumi ga ari, sora kara ame ga furu kagiri, mizu wa kienai...
+|vo_05_02_tx_ko          = 하지만, 강과 계곡이 흐르고 비가 그치지 않는 한, 물은 사라지지 않아…
 }}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Oceanid}}
 
-==Lore==
-Rhodeia is a [[Lochfolk]], who came from the Hydro nation, [[Fontaine]]. She was the greatest and strongest Lochfolk scout admired by many. As a [[Lochfolk]], she swore allegiance to the previous Hydro Archon and lived in the bodies of water of Fontaine, acting as an informant or spy for her [[Archon]] and providing a connection for the people of her land. However, the Lochfolk at large do not agree with the plans and ideals of the current Hydro Archon, the [[God of Justice]], and so refuse to acknowledge or support her.<ref name="endoraII">{{Ref/Quest|Life Flows On (II)}}</ref>
+==Descriptions==
+{{Description|A life-form created from condensed [[Hydro]] elements of incredible purity.<br />Often attached to bodies of water. It is said that as water bodies become purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful.<br />It is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...|[[Adventurer Handbook]]}}
+{{Description|A life-form created from condensed Hydro elements of incredible purity. Often attached to bodies of water.<br />It is said that as water bodies become purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful. It is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...|[[Archive]]}}
 
-Wanting for a small haven of tranquil waters, Rhodeia left her hometown and settled into a lake in Bishui, Plain. Sometime after her self-imposed exile, she sensed [[Endora]] who she believed was an assassin sent from Fontaine. Her enmity towards the young lochfolk turned the waters sources on the border between Mondstadt and Liyue bitter.<ref name="endoraI">{{Ref/Quest|Life Flows On (I)}}</ref>  The bitter water killed fishes and greatly affected  the [[Dawn Winery]] which uses the nearby [[Bishui River|river]] for brewing wine.<ref name="endoraI" /> With the help of the Traveler, Endora faced Rhodeia in a fight and reached an understanding. Still, Rhodeia remains unhappy and is waiting for the pure waters to become corrupted.<ref name="endoraII" />
+==Lore==
+Rhodeia is a [[Lochfolk]], who came from the Hydro nation, [[Fontaine]]. She was the greatest and strongest Lochfolk scout admired by many. As a Lochfolk, she swore allegiance to the previous Hydro Archon and lived in the bodies of water of Fontaine, acting as an informant or spy for her [[Archon]] and providing a connection for the people of her land. However, the Lochfolk at large do not agree with the plans and ideals of the current Hydro Archon, the [[God of Justice]], and so refuse to acknowledge or support her.<ref name="endoraII">{{Ref/Quest|Life Flows On (II)}}</ref>
+
+Wanting for a small haven of tranquil waters, Rhodeia left her hometown and settled into a lake in Bishui, Plain. Sometime after her self-imposed exile, she sensed [[Endora]] who she believed was an assassin sent from Fontaine. Her enmity towards the young lochfolk turned the waters sources on the border between Mondstadt and Liyue bitter.<ref name="endoraI">{{Ref/Quest|Life Flows On (I)}}</ref> The bitter water killed fishes and greatly affected  the [[Dawn Winery]] which uses the nearby [[Bishui River|river]] for brewing wine.<ref name="endoraI" /> With the help of the Traveler, Endora faced Rhodeia in a fight and reached an understanding. Still, Rhodeia remains unhappy and is waiting for the pure waters to become corrupted.<ref name="endoraII" />
 
 ==Trivia==
-*In Greek mythology, the {{w|List of Oceanids|Oceanids}} were the nymph daughters of the Titan Oceanus. Rhodeia (also known as Rhodea or Rhodia) is one of them.
-*During [[The First Experiment: Elements|Albedo's Story Quest]], he pronounces Oceanid as "O-'''cee'''-a-nid" (/oʊˈsiːənɪd/), which is an established pronunciation of the mythological being, in addition to "'''Oh'''-shen-id" (/ˈoʊʃənɪd/).
-*Unlike the other Normal Bosses which are simply present and become aggressive when approached or attacked, Rhodeia is not initially present in her arena, with the player having to interact with her pool of water to begin the fight. She is also the only Normal Boss that appears in a random spot each time the player comes to challenge her, as said pool of water appears in one of the four corners of her arena.
-*When approaching the platform that consists as her arena, the weather will automatically change to rain regardless of the surrounding climate. This special weather will persist until the player leaves the area if she is still present or is defeated.
+* In Greek mythology, the {{w|List of Oceanids|Oceanids}} were the nymph daughters of the Titan Oceanus. Rhodeia (also known as Rhodea or Rhodia) is one of them.
+* During [[The First Experiment: Elements|Albedo's Story Quest]], he pronounces Oceanid as "O-'''cee'''-a-nid" (/oʊˈsiːənɪd/), which is an established pronunciation of the mythological being, in addition to "'''Oh'''-shen-id" (/ˈoʊʃənɪd/).
+* Unlike the other Normal Bosses, which are simply present and become aggressive when approached or attacked, Rhodeia is not initially present in her arena, with the player having to interact with her pool of water to begin the fight. She is also the only Normal Boss that appears in a random spot each time the player comes to challenge her, as said pool of water appears in one of the four corners of her arena.
+* When approaching the platform that consists as her arena, the weather will automatically change to rain regardless of the surrounding climate. This special weather will persist until the player leaves the area if she is still present or is defeated.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Oceanid Icon.png|Icon
 Oceanid Arena.png|Location
 Enemy Hydro Mimic Boar.png|[[Hydro Mimic Boar]]
@@ -248,19 +272,19 @@ Enemy Hydro Mimic Ferret.png|[[Hydro Mimic Ferret]]
 </gallery>
 
 ===Namecards===
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Namecard Background Celebration Battlesong.png|Oceanid in the [[Celebration: Battlesong]] Namecard
 </gallery>
 
 ===Comics===
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Character Kaeya Comic Preview Chap 2.jpg|[https://twitter.com/GenshinImpact/status/1306186069449211905 Genshin Impact Preview Manga - Chap 2]
 </gallery>
 
 ==Video Guides==
 {{EVT
-|video1   = https://youtu.be/1EGfUT6iBmM
-|caption1 = How to Easily Beat the Oceanid
+|video1   = https://youtu.be/l9ApqRw76dQ
+|caption1 = EVERYTHING You Need to Know about Oceanid
 }}
 
 ==Other Languages==
@@ -275,7 +299,7 @@ Character Kaeya Comic Preview Chap 2.jpg|[https://twitter.com/GenshinImpact/stat
 |ja_rm   = Junsui-seirei・Roodeshia
 |ja_tl   = Pure Water Spirit: Rhodesia
 |ko      = 물의 정령・로데이아
-|ko_rm   = Mul'ui Jeongryeong・Rodeia
+|ko_rm   = Mul'ui Jeongryeong: Rodeia
 |ko_tl   = Water Spirit: Rhodeia
 |es      = Oceánida - Rhodeia
 |es_tl   = Oceanid - Rhodeia
@@ -291,6 +315,10 @@ Character Kaeya Comic Preview Chap 2.jpg|[https://twitter.com/GenshinImpact/stat
 |id      = Rhodeia of Loch
 |pt      = Oceanids - Rhodeia
 |pt_tl   = Oceanid - Rhodeia
+|tr      = Lochlu Rhodeia
+|tr_tl   = 
+|it      = Rhodeia di Loch
+|it_tl   = Rhodeia of Loch
 }}
 
 ==Change History==
@@ -304,5 +332,10 @@ Character Kaeya Comic Preview Chap 2.jpg|[https://twitter.com/GenshinImpact/stat
 
 [[Category:Lochfolk]]
 
+[[de:Okeanide Rhodeia]]
 [[es:Rhodeia]]
-[[pt-br:Oceanid]]
+[[fr:Océanide]]
+[[ja:純水精霊・ローデシア ]]
+[[pt-br:Oceanids - Rhodeia]]
+[[ru:Океанид]]
+[[zh:純水精靈]]

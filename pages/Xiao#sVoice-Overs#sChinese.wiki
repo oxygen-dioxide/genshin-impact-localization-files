@@ -4,7 +4,7 @@
 __TOC__
 ==Story==
 {{VO/Story
-|character           = {{ROOTPAGENAME}}
+|character           = Xiao
 |language            = zh
 |language_s          = zh
 |language_t          = zh-tw
@@ -18,8 +18,8 @@ __TOC__
 |vo_01_01_file       = VO_{language}{character} Hello.ogg
 |vo_01_01_tx_s       = 如遇失道旷野之难，路遭贼人之难，水火刀兵之难，鬼神药毒之难，恶兽毒虫之难，冤家恶人之难，便呼我名。<br />「三眼五显仙人」&mdash;&mdash;「魈」，听召前来守护。
 |vo_01_01_tx_t       = 如遇失道曠野之難，路遭賊人之難，水火刀兵之難，鬼神藥毒之難，惡獸毒蟲之難，冤家惡人之難，便呼我名。<br />「三眼五顯仙人」&mdash;&mdash;「魈」，聽召前來守護。
-|vo_01_01_rm         = Rú yù shī dào kuàngyě zhī nán, lù zāo zéirén zhī nán, shuǐhuǒ dāobīng zhī nán, guǐshén yào dú zhī nán, èshòu dúchóng zhī nán, yuānjiā èrén zhī nán, biàn hū wǒ míng.<br />"Sānyǎn Wǔxiǎn Xiānrén" &mdash;&mdash; "Xiāo", tīng zhào qián lái shǒuhù.
-|vo_01_01_tl         = If you encounter the trouble of losing your direction in the wilderness, the trouble of meeting thieves, the trouble of swordsmen of water and fire, the trouble of spirits and poison, the trouble of evil beasts and poisonous insects, the trouble of malicious enemies, then call my name.<br />"The Mighty and Illuminated Adepti" [lit. Three Eyes, Five Manifestations Illuminated Immortal] &mdash;&mdash; "Xiao", here by your command.
+|vo_01_01_rm         = Rú yù shī dào kuàngyě zhī nán, lù zāo zéirén zhī nán, shuǐhuǒ dāobīng zhī nán, guǐshén yào dú zhī nán, èshòu dúchóng zhī nán, yuānjiā èrén zhī nán, biàn hū wǒ míng.<br />"Sānyǎn Wǔxiǎn Xiānrén" {{lmdash}} "Xiāo", tīng zhào qián lái shǒuhù.
+|vo_01_01_tl         = If you encounter the trouble of losing your direction in the wilderness, the trouble of meeting thieves, the trouble of swordsmen of water and fire, the trouble of spirits and poison, the trouble of evil beasts and poisonous insects, the trouble of malicious enemies, then call my name.<br />"The Mighty and Illuminated Adepti" [lit. Three Eyes, Five Manifestations Illuminated Immortal] &mdash; "Xiao," here by your command.
 
 <!-- Chats -->
 |vo_02_01_title_s    = 闲聊・闲散
@@ -111,7 +111,7 @@ __TOC__
 |vo_04_03_subtitle   = Good Evening
 |vo_04_03_file       = VO_{language}{character} Good Evening.ogg
 |vo_04_03_tx_s       = 夜晚，不祥之物最易骚动。你最好别出门。
-|vo_04_03_tx_t       = 夜晚，不祥之物最易騷動。(你/妳)最好別出門。
+|vo_04_03_tx_t       = 夜晚，不祥之物最易騷動。{{MC|你|妳|mc=1}}最好別出門。
 |vo_04_03_rm         = Yèwǎn, bùxiáng zhī wù zuì yì sāodòng. Nǐ zuì hǎo bié chūmén.
 |vo_04_03_tl         = Night is when sinister creatures are most likely to cause disturbances. You best not go outside.
 
@@ -120,7 +120,7 @@ __TOC__
 |vo_04_04_subtitle   = Good Night
 |vo_04_04_file       = VO_{language}{character} Good Night.ogg
 |vo_04_04_tx_s       = 你去吧，我会在这里等你。
-|vo_04_04_tx_t       = (你/妳)去吧，我會在這裡等(你/妳)。
+|vo_04_04_tx_t       = {{MC|你|妳|mc=1}}去吧，我會在這裡等{{MC|你|妳|mc=1}}。
 |vo_04_04_rm         = Nǐ qù ba, wǒ huì zài zhèlǐ děng nǐ.
 |vo_04_04_tl         = Go, I will be waiting for you here.
 
@@ -149,8 +149,8 @@ __TOC__
 |vo_06_01_subtitle   = About Us: Warnings
 |vo_06_01_file       = VO_{language}{character} About Us - Warnings.ogg
 |vo_06_01_tx_s       = 如果有一天，连你也陷入了黑暗。就由我来&mdash;&mdash;
-|vo_06_01_tx_t       = 如果有一天，連(你/妳)也陷入了黑暗。就由我來&mdash;&mdash;
-|vo_06_01_rm         = Rúguǒ yǒu yītiān, lián nǐ yě xiànrùle hēi'àn. Jiù yóu wǒ lái&mdash;&mdash;
+|vo_06_01_tx_t       = 如果有一天，連{{MC|你|妳|mc=1}}也陷入了黑暗。就由我來&mdash;&mdash;
+|vo_06_01_rm         = Rúguǒ yǒu yītiān, lián nǐ yě xiànrùle hēi'àn. Jiù yóu wǒ lái{{lmdash}}
 |vo_06_01_tl         = If there is a day where even you have fallen into darkness, then it will be up to me.
 
 |vo_06_02_title_s    = 关于我们・信任
@@ -159,8 +159,8 @@ __TOC__
 |vo_06_02_friendship = 6
 |vo_06_02_file       = VO_{language}{character} About Us - Trust.ogg
 |vo_06_02_tx_s       = 别被污染，我不会留情的。<br />…我是说，既然是「你」，「你」应该能够保持坚定。
-|vo_06_02_tx_t       = 別被污染，我不會留情的。<br />…我是說，既然是「(你/妳)」，「(你/妳)」應該能夠保持堅定。
-|vo_06_02_rm         = Bié bèi wūrǎn, wǒ búhuì liúqíng de.<br />...Wǒ shì shuō, jìrán shì "nǐ", "nǐ" yīnggāi nénggòu bǎochí jiāndìng.
+|vo_06_02_tx_t       = 別被污染，我不會留情的。<br />…我是說，既然是「{{MC|你|妳|mc=1}}」，「{{MC|你|妳|mc=1}}」應該能夠保持堅定。
+|vo_06_02_rm         = Bié bèi wūrǎn, wǒ bùhuì liúqíng de.<br />...Wǒ shì shuō, jìrán shì "nǐ", "nǐ" yīnggāi nénggòu bǎochí jiāndìng.
 |vo_06_02_tl         = Do not become corrupted, I will not have mercy.<br />...What I'm saying is, if it is "you," then "you" should be able to stay firm.
 
 |vo_06_03_title_s    = 关于我们・犯困
@@ -169,8 +169,8 @@ __TOC__
 |vo_06_03_friendship = 6
 |vo_06_03_file       = VO_{language}{character} About Us - Drowsiness.ogg
 |vo_06_03_tx_s       = …谁！？…你觉得我是站着睡着了？哼，不敬仙师！
-|vo_06_03_tx_t       = …誰！？…(你/妳)覺得我是站著睡著了？哼，不敬仙師！
-|vo_06_03_rm         = ...Shéi!? ...Nǐ juédé wǒ shì zhànzhe shuìzháole? Hēng, bùjìng xiān shī!
+|vo_06_03_tx_t       = …誰！？…{{MC|你|妳|mc=1}}覺得我是站著睡著了？哼，不敬仙師！
+|vo_06_03_rm         = ...Shéi!? ...Nǐ juéde wǒ shì zhànzhe shuìzháole? Hēng, bùjìng xiān shī!
 |vo_06_03_tl         = ...Who!? ...You think I had fallen asleep standing? Hmph, disrespect toward the adepti!
 
 |vo_06_04_title_s    = 关于我们・海灯节
@@ -179,7 +179,7 @@ __TOC__
 |vo_06_04_friendship = 6
 |vo_06_04_file       = VO_{language}{character} About Us - Lantern Rite.ogg
 |vo_06_04_tx_s       = 海灯节？哼，原来又到了凡人用发光垃圾塞满璃月港的时候了，唉，为何如此幼稚。<br />不过你若无聊，我便陪你去。
-|vo_06_04_tx_t       = 海燈節？哼，原來又到了凡人用發光垃圾塞滿璃月港的時候了，唉，為何如此幼稚。<br />不過(你/妳)若無聊，我便陪(你/妳)去。
+|vo_06_04_tx_t       = 海燈節？哼，原來又到了凡人用發光垃圾塞滿璃月港的時候了，唉，為何如此幼稚。<br />不過{{MC|你|妳|mc=1}}若無聊，我便陪{{MC|你|妳|mc=1}}去。
 |vo_06_04_rm         = Hǎidēngjié? Hēng, yuánlái yòu dàole fánrén yòng fāguāng lājī sāi mǎn Líyuè-gǎng de shíhòule, āi, wèihé rúcǐ yòuzhì.<br />Bùguò nǐ ruò wúliáo, wǒ biàn péi nǐ qù.
 |vo_06_04_tl         = The Lantern Rite? Hmph, so it is once again the time where mortals bestrew Liyue Harbor with their glowing trash, ugh, why so childish.<br />But if you're bored, I can accompany you there.
 
@@ -201,7 +201,7 @@ __TOC__
 |vo_07_02_file       = VO_{language}{character} About the Vision - Reasons.ogg
 |vo_07_02_tx_s       = 并不是有意隐瞒。我的欲望，不应对外人讲。<br />人间不是有着愿望说出口就会失效的规矩…呃，不是一回事？
 |vo_07_02_tx_t       = 並不是有意隱瞞。我的欲望，不應對外人講。<br />人間不是有著願望說出口就會失效的規矩…呃，不是真的？
-|vo_07_02_rm_s       = Bìng búshì yǒuyì yǐnmán. Wǒ de yùwàng, bú yìngduì wàirén jiǎng.<br />Rénjiān búshì yǒuzhe yuànwàng shuō chūkǒu jiù huì shīxiào de guījǔ... è, búshì yì huí shì?
+|vo_07_02_rm_s       = Bìng bùshì yǒuyì yǐnmán. Wǒ de yùwàng, bù yìngduì wàirén jiǎng.<br />Rénjiān bùshì yǒuzhe yuànwàng shuō chūkǒu jiù huì shīxiào de guījǔ... è, bùshì yì huí shì?
 |vo_07_02_rm_t       = 
 |vo_07_02_tl         =
 
@@ -210,7 +210,7 @@ __TOC__
 |vo_07_03_subtitle   = Anything to Share
 |vo_07_03_file       = VO_{language}{character} Something to Share.ogg
 |vo_07_03_tx_s       = 杀戮是我的强项。如果你下不去手，就叫我来。
-|vo_07_03_tx_t       = 殺戮是我的強項。如果(你/妳)下不了手，就叫我來。
+|vo_07_03_tx_t       = 殺戮是我的強項。如果{{MC|你|妳|mc=1}}下不了手，就叫我來。
 |vo_07_03_rm         = Shālù shì wǒ de qiángxiàng. Rúguǒ nǐ xiàbúqù shǒu, jiù jiào wǒ lái.
 |vo_07_03_tl         = Killing is my strength. If you cannot do it, call for me.
 
@@ -221,7 +221,7 @@ __TOC__
 |vo_07_04_tx_s       = 荻花洲，曾经一度荒芜。<br />虽然，是过去好多年…不，好几百年的事了。
 |vo_07_04_tx_t       = 荻花洲，曾經一度荒蕪。<br />雖然，是過去好多年…不，好幾百年的事了。
 |vo_07_04_rm         = Díhuā-zhōu, céngjīng yīdù huāngwú.<br />Suīrán, shì guòqù hǎoduō nián... bù, hǎojǐbǎi nián de shìle.
-|vo_07_04_tl         = Dihua Islet, once desolate.<br />Though, that was many years... no, many hundreds of years ago
+|vo_07_04_tl         = Dihua Islet, once desolate.<br />Though, that was many years... no, many hundreds of years ago.
 
 <!-- About Others -->
 |vo_08_01_title_s    = 关于钟离…
@@ -241,7 +241,7 @@ __TOC__
 |vo_08_02_file       = VO_{language}{character} About Beidou.ogg
 |vo_08_02_tx_s       = 北斗吗？我与她没有什么交情。不过，冥海巨兽确有其事。能够将「海山」击败，作为人类，她的实力值得肯定。
 |vo_08_02_tx_t       = 北斗嗎？我與她沒有什麼交情。不過，冥海巨獸確有其事。能夠將「海山」擊敗，作為人類，她的實力值得肯定。
-|vo_08_02_rm         = Běidǒu ma? Wǒ yǔ tā méiyǒu shénme jiāoqing. Búguò, míng hǎi jù shòu què yǒu qí shì. Nénggòu jiāng "Hǎishān" jíbài, zuòwéi rénlèi, tā de shílì zhídé kěndìng.
+|vo_08_02_rm         = Běidǒu ma? Wǒ yǔ tā méiyǒu shénme jiāoqing. Bùguò, míng hǎi jù shòu què yǒu qí shì. Nénggòu jiāng "Hǎishān" jíbài, zuòwéi rénlèi, tā de shílì zhídé kěndìng.
 |vo_08_02_tl         = Beidou? I have no relationship with her. Although, sea monsters do exist. Being able to defeat Haishan as a human, her strength is commendable.
 
 |vo_08_03_title_s    = 关于白术…
@@ -250,7 +250,7 @@ __TOC__
 |vo_08_03_friendship = 4
 |vo_08_03_file       = VO_{language}{character} About Baizhu.ogg
 |vo_08_03_tx_s       = 你想…托付白术研制缓解我痛苦的药物？呵…你的好意我心领了。凡人的药物，对仙人是无法起效的。
-|vo_08_03_tx_t       = (你/妳)想…託付白朮研製緩解我痛苦的藥物？呵…(你/妳)的好意我心領了。凡人的藥物，對仙人是無法作用的。
+|vo_08_03_tx_t       = {{MC|你|妳|mc=1}}想…託付白朮研製緩解我痛苦的藥物？呵…{{MC|你|妳|mc=1}}的好意我心領了。凡人的藥物，對仙人是無法作用的。
 |vo_08_03_rm         = Nǐ xiǎng... tuōfù Báizhú yánzhì huǎnjiě wǒ tòngkǔ de yàowù? Hē... nǐ de hǎoyì wǒ xīnlǐngle. Fánrén de yàowù, duì xiānrén shì wúfǎ qǐ xiào de.
 |vo_08_03_tl         = You want to... get Baizhu to create medicine that will relieve my suffering? Heh... I appreciate your good intentions. Mortal medicine is incapable of affecting adepti.
 
@@ -261,7 +261,7 @@ __TOC__
 |vo_08_04_file       = VO_{language}{character} About Hu Tao.ogg
 |vo_08_04_tx_s       = 胡桃？那孩子，活泼到令人头疼。所幸她还算风趣，不必担心会成长为无趣的人类。
 |vo_08_04_tx_t       = 胡桃？那孩子，活潑到令人頭疼。所幸她還算風趣，不必擔心會成長為無趣的人類。
-|vo_08_04_rm         = Hú Táo? Nà háizi, huópō dào lìng rén tóuténg. Suǒxìng tā hái suàn fēngqù, bùbì dānxīn huì chéngzhǎng wéi wúqù de rénlèi.
+|vo_08_04_rm         = Hú Táo? Nà háizi, huópō dào lìngrén tóuténg. Suǒxìng tā hái suàn fēngqù, bùbì dānxīn huì chéngzhǎng wéi wúqù de rénlèi.
 |vo_08_04_tl         = Hu Tao? That child, so lively that it causes headaches. Fortunately she can be considered humorous, no need to worry that she will grow to become a boring human.
 
 |vo_08_05_title_s    = 关于温迪…
@@ -271,7 +271,7 @@ __TOC__
 |vo_08_05_file       = VO_{language}{character} About Venti.ogg
 |vo_08_05_tx_s       = 温迪…？原来如此，名字叫作温迪啊。他演奏的曲调…不，没什么。
 |vo_08_05_tx_t       = 溫迪…？原來如此，名字叫作溫迪啊。他演奏的曲調…不，沒什麼。
-|vo_08_05_rm         = Wēndí...? Yuánlái rúcǐ, míngzǐ jiào zuò Wēndí a. Tā yǎnzòu de qǔdiào... bù, méi shénme.
+|vo_08_05_rm         = Wēndí...? Yuánlái rúcǐ, míngzǐ jiào zuò Wēndí a. Tā yǎnzòu de qǔdiào... bù, méishénme.
 |vo_08_05_tl         = Venti...? So that's how it is, his name is Venti. The songs he performs... no, nothing.
 
 |vo_08_06_title_s    = 关于甘雨…
@@ -280,9 +280,9 @@ __TOC__
 |vo_08_06_friendship = 4
 |vo_08_06_file       = VO_{language}{character} About Ganyu.ogg
 |vo_08_06_tx_s       = 甘雨既非仙兽，又非凡人，游走于仙人两界，靠着职责支撑自我，困惑是免不了的。...<!-- In-game text. -->你说，我？呵，要让只懂杀戮与生存之道的夜叉，去开导瑞兽？天方夜谭。
-|vo_08_06_tx_t       = 甘雨既非仙獸，又非凡人，游走於仙人兩界，靠著職責支撐自我，困惑是免不了的。…(你/妳)說，我？呵，要讓只懂殺戮與生存之道的夜叉，去開導瑞獸？天方夜譚。
-|vo_08_06_rm         = Gānyǔ jì fēi xiānshòu, yòu fēi fánrén, yóu zǒu yú xiān rén liǎng jiè, kàozhe zhízé zhīchēng zìwǒ, kùnhuò shì miǎnbuliǎo de. ...Nǐ shuō, wǒ? Hē, yào ràng zhǐ dǒng shālù yǔ shēngcún zhīdào de yèchā, qù kāidǎo ruìshòu? Tiān fāng yè tán.
-|vo_08_06_tl         = Ganyu is not an illuminated beast, but nor is she a mortal, traversing the worlds of both adepti and humans, relying on her duty to support herself, confusion is inevitable... You ask, me? Heh... wanting a Yaksha who only knows of killing and surviving to be a guide to the beast?<ref group="TN •" name="About Ganyu I">Refers to five specific beasts: the dragon, phoenix, turtle, qilin (Ganyu), and pixiu.</ref> That idea of yours will stay a work of fiction.<ref group="TN •" name="About Ganyu II">天方夜谭 (Tiān fāng yè tán) is another name for the collection of folktales "One Thousand and One Nights." Its literal meaning is 天方->(referring to) Arabia+夜谭->night chats, and it is used to express that something that is ridiculous and would never happen.</ref>
+|vo_08_06_tx_t       = 甘雨既非仙獸，又非凡人，游走於仙人兩界，靠著職責支撐自我，困惑是免不了的。…{{MC|你|妳|mc=1}}說，我？呵，要讓只懂殺戮與生存之道的夜叉，去開導瑞獸？天方夜譚。
+|vo_08_06_rm         = Gānyǔ jì fēi xiānshòu, yòu fēi fánrén, yóu zǒu yú xiānrén liǎng jiè, kàozhe zhízé zhīchēng zìwǒ, kùnhuò shì miǎnbuliǎo de. ...Nǐ shuō, wǒ? Hē, yào ràng zhǐ dǒng shālù yǔ shēngcún zhīdào de yèchā, qù kāidǎo ruìshòu? Tiānfāngyètán.
+|vo_08_06_tl         = Ganyu is not an illuminated beast, but nor is she a mortal, traversing the worlds of both adepti and humans, relying on her duty to support herself, confusion is inevitable... You ask, me? Heh... wanting a Yaksha who only knows of killing and surviving to be a guide to the beast?<ref group="TN •" name="About Ganyu I">Refers to five specific beasts: the dragon, phoenix, turtle, qilin (Ganyu), and pixiu.</ref> That idea of yours will stay a work of fiction.<ref group="TN •" name="About Ganyu II">{{Lang|mini=1|zh=天方夜谭|zh_rm=Tiānfāngyètán}} is another name for the collection of folktales ''{{w|One Thousand and One Nights}}'', commonly known in English as ''Arabian Nights''. Its literal meaning is {{Lang|mini=1|zh=天方|zh_tl=(referring to) Arabia}}+{{Lang|mini=1|zh=夜谭|zh_tl=night chats,}} and it is used to express that something that is ridiculous and would never happen.</ref>
 
 |vo_08_07_title_s    = 关于申鹤…
 |vo_08_07_title_t    = 關於申鶴…
@@ -291,7 +291,7 @@ __TOC__
 |vo_08_07_quest      = The Crane Returns on the Wind
 |vo_08_07_file       = VO_{language}{character} About Shenhe.ogg
 |vo_08_07_tx_s       = 申鹤似乎对你颇为信赖。…也是。毕竟，世间难得几人能有你这般的善心与热忱。
-|vo_08_07_tx_t       = 申鶴似乎對(你/妳)頗為信賴。…也是。畢竟，世間難得幾人能有(你/妳)這般的善心與熱忱。
+|vo_08_07_tx_t       = 申鶴似乎對{{MC|你|妳|mc=1}}頗為信賴。…也是。畢竟，世間難得幾人能有{{MC|你|妳|mc=1}}這般的善心與熱忱。
 |vo_08_07_rm         = Shēnhè sìhū duì nǐ pǒ wéi xìnlài. ...Yěshì. Bìjìng, shìjiān nándé jǐ rén néng yǒu nǐ zhè bān de shànxīn yǔ rèchén.
 |vo_08_07_tl         = Shenhe seems to have considerable trust in you. ...It makes sense. After all, in this world it's hard to come across people like you who have such kindness and ardor.
 
@@ -304,7 +304,7 @@ __TOC__
 |vo_08_08_tx_t       = 我聽說她曾調查千岩軍在層岩巨淵的相關痕跡。孤身追查秘密，想來也是有點本事的人。
 |vo_08_08_rm_s       = Wǒ tīngshuō tā céng diàochá Qiānyán-jūn zài Céngyán Jùyuān de xiāngguān hénjì. Gūshēn zhuīchá mìmì, xiǎnglái yěshì yǒudiǎn běnshì de rén.
 |vo_08_08_rm_t       = Wǒ tīngshuō tā céng diàochá Qiānyán-jūn zài Céngyán Jùyuān de xiāngguān hénjī. Gūshēn zhuīchá mìmì, xiǎnglái yěshì yǒudiǎn běnshì de rén.
-|vo_08_08_tl         = I heard that she once investigated thr related movements of the Millelith within the Chasm. Pursuing secrets alone, she must be quite the capable person.
+|vo_08_08_tl         = I heard that she once investigated the related movements of the Millelith within the Chasm. Pursuing secrets alone, she must be quite the capable person.
 
 <!-- More About Xiao -->
 |vo_09_01_title_s    = 想要了解{name_s}・其一
@@ -312,7 +312,7 @@ __TOC__
 |vo_09_01_subtitle   = More About {character}: I
 |vo_09_01_file       = VO_{language}{character} More About {character} - 01.ogg
 |vo_09_01_tx_s       = 我会为你护法。<br />但是…别靠近我，别妨碍我。否则，你会后悔的。
-|vo_09_01_tx_t       = 我會為(你/妳)護法。<br />但是…別靠近我，別妨礙我。否則，(你/妳)會後悔的。
+|vo_09_01_tx_t       = 我會為{{MC|你|妳|mc=1}}護法。<br />但是…別靠近我，別妨礙我。否則，{{MC|你|妳|mc=1}}會後悔的。
 |vo_09_01_rm         = Wǒ huì wèi nǐ hùfǎ.<br />Dànshì... bié kàojìn wǒ, bié fáng'ài wǒ. Fǒuzé, nǐ huì hòuhuǐ de.
 |vo_09_01_tl         = I will be your guardian.<br />But... don't get close to me, and don't hinder me. Or else, you will regret it.
 
@@ -323,7 +323,7 @@ __TOC__
 |vo_09_02_file       = VO_{language}{character} More About {character} - 02.ogg
 |vo_09_02_tx_s       = 在这千年以来，我猎杀过数以万计的怨魂。不想惹上麻烦，就离我远点。把我当作「工具」就好。
 |vo_09_02_tx_t       = 在這千年以來，我獵殺過數以萬計的怨魂。不想惹上麻煩，就離我遠點。把我當作「工具」就好。
-|vo_09_02_rm         = Zài zhè qiān nián yǐlái, wǒ liè shāguò shù yǐ wàn jì de yuàn hún. Bùxiǎng rě shàng máfan, jiù lí wǒ yuǎn diǎn. Bǎ wǒ dàng zuò "gōngjù" jiù hǎo.
+|vo_09_02_rm         = Zài zhè qiānnián yǐlái, wǒ liè shāguò shù yǐ wàn jì de yuàn hún. Bùxiǎng rě shàng máfan, jiù lí wǒ yuǎn diǎn. Bǎ wǒ dàng zuò "gōngjù" jiù hǎo.
 |vo_09_02_tl         = Through these thousands of years, I have killed tens of thousands of resenting spirits. If you don't want trouble to arise, stay away from me. See me as just a tool.
 
 |vo_09_03_title_s    = 想要了解{name_s}・其三
@@ -332,7 +332,7 @@ __TOC__
 |vo_09_03_friendship = 4
 |vo_09_03_file       = VO_{language}{character} More About {character} - 03.ogg
 |vo_09_03_tx_s       = 「它们」的声音…常常在我的耳边出现。咆哮、号哭…嘶喊着杀戮…<br />这是我自己的选择和自己的报应。与你无关。
-|vo_09_03_tx_t       = 「它們」的聲音…常常在我的耳邊出現。咆哮、號哭…嘶喊著殺戮…<br />這是我自己的選擇和自己的報應。與(你/妳)無關。
+|vo_09_03_tx_t       = 「它們」的聲音…常常在我的耳邊出現。咆哮、號哭…嘶喊著殺戮…<br />這是我自己的選擇和自己的報應。與{{MC|你|妳|mc=1}}無關。
 |vo_09_03_rm         = "Tāmen" de shēngyīn... chángcháng zài wǒ de ěr biān chūxiàn. Páoxiāo, háokū... sīhǎnzhe shālù...<br />Zhè shì wǒ zìjǐ de xuǎnzé hé zìjǐ de bàoyìng. Yǔ nǐ wúguān.
 |vo_09_03_tl         = "Their" voices... are often present by my ear. Roars, cries... shrieks about slaughter...<br />This is my choice and my retribution. It has nothing to do with you.
 
@@ -342,8 +342,8 @@ __TOC__
 |vo_09_04_friendship = 5
 |vo_09_04_file       = VO_{language}{character} More About {character} - 04.ogg
 |vo_09_04_tx_s       = 摩拉克斯？关于这个名字，你究竟知道多少？<br />他是赐予我「魈」之名之人，将我从漫长的痛苦中解放。<br />胆敢对他不敬的话。即使是你，我也不会原谅。
-|vo_09_04_tx_t       = 摩拉克斯？關於這個名字，(你/妳)究竟知道多少？<br />他是賜予我「魈」之名之人，將我從漫長的痛苦中解放。<br />膽敢對他不敬的話。即使是(你/妳)，我也不會原諒。
-|vo_09_04_rm         = Mólākèsī? Guānyú zhège míngzì, nǐ jiùjìng zhīdào duōshǎo?<br />Tā shì cìyǔ wǒ "Xiāo" zhī míng zhī rén, jiāng wǒ cóng màncháng de tòngkǔ zhōng jiěfàng.<br />Dǎn gǎn duì tā bújìng dehuà. Jíshǐ shì nǐ, wǒ yě bù huì yuánliàng.
+|vo_09_04_tx_t       = 摩拉克斯？關於這個名字，{{MC|你|妳|mc=1}}究竟知道多少？<br />他是賜予我「魈」之名之人，將我從漫長的痛苦中解放。<br />膽敢對他不敬的話。即使是{{MC|你|妳|mc=1}}，我也不會原諒。
+|vo_09_04_rm         = Mólākèsī? Guānyú zhège míngzì, nǐ jiùjìng zhīdào duōshǎo?<br />Tā shì cìyǔ wǒ "Xiāo" zhī míng zhī rén, jiāng wǒ cóng màncháng de tòngkǔ zhōng jiěfàng.<br />Dǎn gǎn duì tā bújìng dehuà. Jíshǐ shì nǐ, wǒ yě bùhuì yuánliàng.
 |vo_09_04_tl         = Morax? Exactly how much do you know concerning this name?<br />He granted me the name "Xiao" and released me from my endless suffering.<br />Dare to speak disrespectfully towards him, and even you I will not forgive.
 
 |vo_09_05_title_s    = 想要了解{name_s}・其五
@@ -352,8 +352,8 @@ __TOC__
 |vo_09_05_friendship = 6
 |vo_09_05_file       = VO_{language}{character} More About {character} - 05.ogg
 |vo_09_05_tx_s       = 已经迟了。我们之间的关联已经太多了。即使你想要放弃，也来不及了吧。嗯？没有这样想过？<br />…「靖妖傩舞」，我的战斗是不会停下的。<br />但是，关于你的事情，我想了解更多。
-|vo_09_05_tx_t       = 已經遲了。我們之間的關聯已經太多了。即使(你/妳)想要放棄，也來不及了吧。嗯？沒有這樣想過？<br />…「靖妖儺舞」，我的戰鬥是不會停下的。<br />但是，關於(你/妳)的事情，我想瞭解更多。
-|vo_09_05_rm         = Yǐjīng chíle. Wǒmen zhījiān de guānlián yǐjīng tài duōle. Jíshǐ nǐ xiǎngyào fàngqì, yě láibujíle ba. Ǹg? Méiyǒu zhèyàng xiǎngguò?<br />..."Jìng yāo nuó wǔ", wǒ de zhàndòu shì bú huì tíngxià de.<br />Dànshì, guānyú nǐ de shìqíng, wǒ xiǎng liǎojiě gèngduō.
+|vo_09_05_tx_t       = 已經遲了。我們之間的關聯已經太多了。即使{{MC|你|妳|mc=1}}想要放棄，也來不及了吧。嗯？沒有這樣想過？<br />…「靖妖儺舞」，我的戰鬥是不會停下的。<br />但是，關於{{MC|你|妳|mc=1}}的事情，我想瞭解更多。
+|vo_09_05_rm         = Yǐjīng chíle. Wǒmen zhījiān de guānlián yǐjīng tài duōle. Jíshǐ nǐ xiǎngyào fàngqì, yě láibujíle ba. Ǹg? Méiyǒu zhèyàng xiǎngguò?<br />..."Jìng yāo nuó wǔ", wǒ de zhàndòu shì bùhuì tíngxià de.<br />Dànshì, guānyú nǐ de shìqíng, wǒ xiǎng liǎojiě gèngduō.
 |vo_09_05_tl         =
 
 <!-- Miscellany II -->
@@ -362,7 +362,7 @@ __TOC__
 |vo_10_01_subtitle   = {character}'s Hobbies
 |vo_10_01_file       = VO_{language}{character} Hobbies.ogg
 |vo_10_01_tx_s       = 你还真是胆量不小，有勇气询问我的爱好。<br />那便来战吧。以你的身躯，扛得住我几招呢？
-|vo_10_01_tx_t       = (你/妳)還真是膽量不小，有勇氣詢問我的愛好。<br />那便來戰吧。以(你/妳)的身軀，扛得住我幾招呢？
+|vo_10_01_tx_t       = {{MC|你|妳|mc=1}}還真是膽量不小，有勇氣詢問我的愛好。<br />那便來戰吧。以{{MC|你|妳|mc=1}}的身軀，扛得住我幾招呢？
 |vo_10_01_rm         = Nǐ hái zhēn shì dǎnliàng bù xiǎo, yǒu yǒngqì xúnwèn wǒ de àihào.<br />Nà biàn lái zhàn ba. Yǐ nǐ de shēnqū, kángdézhù wǒ jǐ zhāo ne?
 |vo_10_01_tl         = Your courage is in no short supply, daring to ask me about my hobbies.<br />Then, let's fight. How many blows will you be able to withstand?
 
@@ -372,7 +372,7 @@ __TOC__
 |vo_10_02_file       = VO_{language}{character} Troubles.ogg
 |vo_10_02_tx_s       = 烦恼？呵…这个问题对仙人毫无意义，没有什么烦恼能够存在千年。
 |vo_10_02_tx_t       = 煩惱？呵…這個問題對仙人毫無意義，沒有什麼煩惱能夠存在千年。
-|vo_10_02_rm         = Fánnǎo? Hē... zhège wèntí duì xiānrén háo wú yìyì, méiyǒu shénme fánnǎo nénggòu cúnzài qiān nián.
+|vo_10_02_rm         = Fánnǎo? Hē... zhège wèntí duì xiānrén háo wú yìyì, méiyǒu shénme fánnǎo nénggòu cúnzài qiānnián.
 |vo_10_02_tl         = Troubles? Heh... this question is meaningless to adepti, there are no troubles that can endure through a thousand years.
 
 |vo_10_03_title_s    = 喜欢的食物・杏仁豆腐
@@ -410,7 +410,7 @@ __TOC__
 |vo_11_01_tx_s       = 嗯，不错…为什么要盯着我看。
 |vo_11_01_tx_t       = 嗯，不錯…為什麼要盯著我看。
 |vo_11_01_rm         = 
-|vo_11_01_tl         =  
+|vo_11_01_tl         = 
 
 |vo_11_02_title_s    = 收到赠礼・其二
 |vo_11_02_title_t    = 收到贈禮・其二
@@ -436,7 +436,7 @@ __TOC__
 |vo_12_01_subtitle   = Birthday
 |vo_12_01_file       = VO_{language}{character} Birthday.ogg
 |vo_12_01_tx_s       = 诞生的时日…人类的这些纪念，真是冗余。嗯…等着。我给你折一只梧桐树叶蝴蝶。<br />好了，拿去吧。这是仙法，可以辟邪。
-|vo_12_01_tx_t       = 誕生的時日…人類的這些紀念，真是冗餘。嗯…等著。我為(你/妳)摺一隻梧桐樹葉蝴蝶。<br />好了，拿去吧。這是仙法，可以避邪。
+|vo_12_01_tx_t       = 誕生的時日…人類的這些紀念，真是冗餘。嗯…等著。我為{{MC|你|妳|mc=1}}摺一隻梧桐樹葉蝴蝶。<br />好了，拿去吧。這是仙法，可以避邪。
 |vo_12_01_rm         = Dànshēng de shí rì... rénlèi de zhèxiē jìniàn, zhēnshi rǒngyú. Ǹg... děngzhe. Wǒ gěi nǐ zhé yī zhǐ wútóng shùyè húdié.<br />Hǎole, ná qù ba. Zhè shì xiānfǎ, kěyǐ bìxié.
 |vo_12_01_tl         = The date of your birth... these types of human commemorations are redundant. Ahem... wait. I have a butterfly folded from sycamore leaves for you.<br />Alright, take it. This is adeptal magic and can ward off evil spirits.
 
@@ -477,16 +477,15 @@ __TOC__
 |vo_13_04_ascension  = 6
 |vo_13_04_file       = VO_{language}{character} Feelings About Ascension - 04.ogg
 |vo_13_04_tx_s       = 我的枪缨，早就屠戮了无尽的怨魂。连我本人，不免也被黑暗吞噬。&mdash;&mdash;你却敢于驱使这样的我，将我当作…「同伴」。<br />…你是想要救赎我吗？…你，真是难以理解的生物。
-|vo_13_04_tx_t       = 我的槍纓，早就屠戮了無盡的怨魂。連我本人，不免也被黑暗吞噬。&mdash;&mdash;(你/妳)卻敢於驅使這樣的我，將我當作…「同伴」。<br />…(你/妳)是想要救贖我嗎？…(你/妳)，真是難以理解的生物。
-|vo_13_04_rm         = Wǒ de qiāngyīng, zǎo jiù túlùle wújìn de yuàn hún. Lián wǒ běnrén, bùmiǎn yě bèi hēi'àn tūnshì. &mdash;&mdash;Nǐ què gǎn yú qūshǐ zhèyàng de wǒ, jiāng wǒ dàng zuò... "tóngbàn".<br />...Nǐ shì xiǎng yào jiùshú wǒ ma? ...Nǐ, zhēn shì nányǐ lǐjiě de shēngwù.
+|vo_13_04_tx_t       = 我的槍纓，早就屠戮了無盡的怨魂。連我本人，不免也被黑暗吞噬。&mdash;&mdash;{{MC|你|妳|mc=1}}卻敢於驅使這樣的我，將我當作…「同伴」。<br />…{{MC|你|妳|mc=1}}是想要救贖我嗎？…{{MC|你|妳|mc=1}}，真是難以理解的生物。
+|vo_13_04_rm         = Wǒ de qiāngyīng, zǎo jiù túlùle wújìn de yuàn hún. Lián wǒ běnrén, bùmiǎn yě bèi hēi'àn tūnshì. {{lmdash}}Nǐ què gǎn yú qūshǐ zhèyàng de wǒ, jiāng wǒ dàng zuò... "tóngbàn".<br />...Nǐ shì xiǎng yào jiùshú wǒ ma? ...Nǐ, zhēn shì nányǐ lǐjiě de shēngwù.
 |vo_13_04_tl         = My polearm has already slaughtered an endless amount of restless souls. Even I myself have inevitably been engulfed by darkness. Yet you dare urge on even this form of me, treating me as... a "companion."<br />...Do you wish to save me? ...You, really are an incomprehensible being.
 }}
 
 ==Combat==
 {{Combat VO
-|character           = {{ROOTPAGENAME}}
+|character           = Xiao
 |language            = zh
-
 
 |skill_1_tx_s        = 哼。
 |skill_1_tx_t        = 哼。
@@ -534,11 +533,10 @@ __TOC__
 
 |sprint-s_1_file     = Sprint Start 01,Sprint Start 02,Sprint Start 03
 
-
 |glider_1_file       = Deploying Wind Glider 01,Deploying Wind Glider 02,Deploying Wind Glider 03
 
 |chest_1_tx_s        = 对你有用便好。
-|chest_1_tx_t        = 對(你/妳)有用便好。
+|chest_1_tx_t        = 對{{MC|你|妳|mc=1}}有用便好。
 |chest_1_rm          = Duì nǐ yǒuyòng biàn hǎo.
 |chest_1_tl          = As long as it's useful to you.
 
@@ -549,7 +547,7 @@ __TOC__
 
 |chest_3_tx_s        = 嗯…品质尚可。
 |chest_3_tx_t        = 嗯…品質尚可。
-|chest_3_rm          = Ńg... pǐnzhí shàng kě.
+|chest_3_rm          = Ǹg... pǐnzhí shàng kě.
 |chest_3_tl          = Hm... the quality is fair.
 
 |low-hp_1_tx_s       = 住口。
@@ -569,6 +567,14 @@ __TOC__
 |low-hp_3_rm         = Hěn hǎo.
 |low-hp_3_tl         = Good.
 
+|ally-low-hp_1_tx_s  = …弱小。
+|ally-low-hp_1_tx_t  = …弱小。
+|ally-low-hp_1_rm    = 
+|ally-low-hp_1_tl    = 
+|ally-low-hp_2_tx_s  = 想活命，就退后。
+|ally-low-hp_2_tx_t  = 想活命，就退後。
+|ally-low-hp_2_rm    = 
+|ally-low-hp_2_tl    = 
 
 |fallen_1_tx_s       = 这是…报应吗。
 |fallen_1_tx_t       = 這是…報應嗎。
@@ -615,7 +621,6 @@ __TOC__
 |join_3_tx_t         = 降魔乃分內之事。
 |join_3_rm           = Xiángmó nǎi fènnèi zhī shì.
 |join_3_tl           = Conquering demons is  part of my duty.
-
 
 |atk-l_1_file        = Light Attack 01,Light Attack 02,Light Attack 03,Light Attack 04,Light Attack 05,Light Attack 06,Light Attack 07
 

@@ -2,7 +2,7 @@
 |image         = Talent Ripple of Fate.png
 |character     = Mona
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 4 water splash attacks that deal {{Color|Hydro|Hydro DMG}}.<br /><br />'''Charged Attack'''<br />Consumes a certain amount of Stamina to deal {{Color|Hydro|[[AoE]] Hydro DMG}} after a short casting time.<br /><br />'''Plunging Attack'''<br />Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals {{Color|Hydro|AoE Hydro DMG}} upon impact with the ground.
+|info          = '''Normal Attack'''<br />Performs up to 4 water splash attacks that deal {{Color|Hydro|Hydro DMG}}.<br /><br />'''Charged Attack'''<br />Consumes a certain amount of Stamina to deal {{Color|Hydro|[[AoE]] Hydro DMG}} after a short casting time.<br /><br />'''Plunging Attack'''<br />Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals {{Color|Hydro|AoE Hydro DMG}} upon impact with the ground.
 |hit1          = 37.6–71.4%
 |hit2          = 36.0–68.4%
 |hit3          = 44.8–85.1%
@@ -23,6 +23,61 @@
 *{{TalentNote|constellation|2|Lunar Chain}}
 *{{TalentNote|constellation|6|Rhetorics of Calamitas}}
 
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Mona Hydro DMG
+|icdtype = 2.5s/3 Hits
+|poise   = 7.65
+|impulse = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Mona Hydro DMG
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 7.35
+|impulse2 = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Mona Hydro DMG
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 9.15
+|impulse3 = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = 1U
+|icdtag4  = Mona Hydro DMG
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 11.85
+|impulse4 = 2
+
+|title5   = Charged Attack
+|gu5      = 1U
+|icdtag5  = none
+|poise5   = 26.15
+|impulse5 = 3
+
+|title6   = Plunging Attack Collision
+|gu6      = 0U
+|icdtag6  = none
+|poise6   = 5
+|impulse6 = 2
+
+|title7   = Low Plunge
+|gu7      = 1U
+|icdtag7  = none
+|poise7   = 50
+|impulse7 = 3
+
+|title8   = High Plunge
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 100
+|impulse8 = 4
+}}
+
 ==Preview==
 {{Preview
 |file1    = Ripple of Fate Normal Preview
@@ -32,7 +87,7 @@
 |caption2 = Charged Attack
 
 |file3    = Ripple of Fate Plunge Preview
-|caption3 = Plunge Attack
+|caption3 = Plunging Attack
 }}
 {{clr}}
 
@@ -138,7 +193,7 @@
 
 ==Trivia==
 * Using this skill's Normal Attacks and Charged Attacks near most NPCs will cause them to clap.
-** Plunge Attacks cause them to flinch if Mona is close enough during the entire Plunge Attack.
+** Plunging Attacks cause them to flinch if Mona is close enough during the entire Plunging Attack.
 
 ==Other Languages==
 {{Other Languages
@@ -150,8 +205,7 @@
 |zh_tl   = Point out Cause and Effect
 |ja      = 因果点破
 |ja_rm   = Inga Tenba{{Assumed}}
-|ja_tl   = Causality Point-Rip
-|ja_note = The name seems to be a Japanese reading of the Chinese name. 点破 = "point, spot, mark" + "rend, "rip, destroy"
+|ja_tl   = Causality Point-Rip{{Sino|ja}}
 |ko      = 인과 간파
 |ko_rm   = Ingwa Ganpa
 |ko_tl   = Detect Cause And Effect
@@ -160,7 +214,7 @@
 |fr      = Ondes du destin
 |fr_tl   = Waves of Destiny
 |ru      = Круги на воде
-|ru_tl   = 
+|ru_tl   = Circles on the Water
 |th      = Ripple of Fate
 |vi      = Điểm Hóa {{tt|Nhân Quả|因果}}
 |vi_tl   = Point out Cause and Effect
@@ -169,6 +223,10 @@
 |id      = Ripple of Fate
 |pt      = Destino Desencapado
 |pt_tl   = 
+|tr      = Kader Dalgası
+|tr_tl   = 
+|it      = Increspatura del fato
+|it_tl   = Ripple of Fate
 }}
 
 ==Change History==
@@ -178,6 +236,7 @@
 {{Talent Navbox|Mona}}
 
 [[es:Destino revelado]]
+[[fr:Ondes du destin]]
 [[ja:因果点破]]
 [[pt-br:Destino Desencapado]]
 [[ru:Круги на воде]]

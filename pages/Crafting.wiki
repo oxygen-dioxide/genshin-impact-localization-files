@@ -5,32 +5,37 @@
 }}
 '''Crafting''' is a [[Crafting Method]] available at [[Crafting Benches]] to perform [[Alchemy]].
 
-It allows players to crafti higher rarity [[Common Ascension Materials|Character and Weapon Ascension Materials]], [[Weapon Ascension Materials]], [[Character Talent Materials]], [[Potions]], and [[Character Ascension Materials]]. [[Gadgets]] can also be crafted after obtaining their [[Instructions]].
+It allows players to craft higher rarity [[Character and Weapon Enhancement Material]]s, [[Weapon Ascension Material]]s, [[Talent Level-Up Material]]s, [[Potion]]s, and [[Character Ascension Material]]s. [[Gadget]]s can also be crafted after obtaining their [[Instructions]].
 
 ==List of Crafting Recipes==
-===Character and Weapon Ascension Materials===
-{{Alchemy Recipes|type=Common Ascension Materials}}
+Ascension Materials are crafted from three units of the same material of one tier lower.
+
+===Character and Weapon Enhancement Materials===
+{{Alchemy Recipes|type=Character and Weapon Enhancement Materials}}
 
 ===Weapon Ascension Materials===
 {{Alchemy Recipes|type=Weapon Ascension Materials}}
 
 ===Character Talent Materials===
-{{Alchemy Recipes|type=Talent Level-Up Materials}}
+{{Alchemy Recipes|type=Character Talent Materials}}
 
 ===Potions===
 {{Alchemy Recipes|type=Potions|infobox=Food}}
+
+===Essential Oils===
+{{Alchemy Recipes|type=Essential Oils|infobox=Food}}
 
 ===Character Ascension Materials===
 {{Alchemy Recipes|type=Character Ascension Materials}}
 
 ===Gadgets===
-{{Alchemy Recipes|type=Gadgets}}
+{{Alchemy Recipes|type=Gadgets|not=Event Items}}
 
 ===Bait===
 {{Alchemy Recipes|type=Bait}}
 
-===Quest and Special Items===
-{{Alchemy Recipes|type=Lantern Rite Materials¦Quest Items|text=Quest and Special Items}}
+===Quest and Event Items===
+{{Alchemy Recipes|type=Lantern Rite Materials¦Quest Items¦Event Items|text=Quest and Event Items}}
 
 ==Character Bonuses==
 Certain characters have [[Talents]] that provides a bonus while performing crafting.
@@ -38,38 +43,32 @@ Certain characters have [[Talents]] that provides a bonus while performing craft
 {{Talents by Category Table|Crafting Talents}}
 
 ===Efficiency===
-The crafting bonuses from talents are typically one of the following:
+The bonuses from talents when crafting [[Character Talent Material]]s, [[Weapon Ascension Material]]s, and [[Character and Weapon Enhancement Material]]s are typically one of the following:
 * 25% chance to refund one count of one material used
-* 20% chance to refund one count of one material used
 * 10% chance to double the product
 
-Over time, in terms of the '''number of additional products''', these bonuses for recipes using three items are effectively:
-* 25% chance to refund one count of one material used: on average, for every three materials used, '''~0.09 products can be obtained additionally''' if the refunded materials are also used up
-* 20% chance to refund one count of one material used: on average, for every three materials used, '''~0.07 products can be obtained additionally''' if the refunded materials are also used up
-* 10% chance to double the product: on average, for every three materials used, '''0.10 products can be obtained additionally'''
+Over time, '''the 10% chance to double the product bonus will yield slightly more products''' than the 25% chance to refund one material:
 
-In terms of the '''materials used per products''', these bonuses are effectively:
+In terms of the number of additional products, these bonuses are effectively:
+* 25% chance to refund one count of one material used:<br />On average, for every three materials used, ~0.09 products can be obtained additionally if the refunded materials are also used up
+* 10% chance to double the product:<br />On average, for every three materials used, 0.10 products can be obtained additionally
 
-* 25% chance to refund one count of one material used: on average, '''0.25 fewer materials required per product'''
-* 20% chance to refund one count of one material used: on average, '''0.20 fewer materials required per product'''
-* 10% chance to double the product: on average, '''~0.27 fewer materials required per product''', if three materials are used per craft
-
-Between these two bonuses, the 10% chance to double the product bonus will yield slightly more products over time for recipes requiring three materials.
+In terms of the materials used per products, these bonuses are effectively:
+* 25% chance to refund one count of one material used:<br />On average, 0.25 fewer materials required per product
+* 10% chance to double the product:<br />On average, ~0.27 fewer materials required per product
 
 ====Derivations====
 ;25% chance refund
 Suppose one starts with <math>x_0</math> materials. For every 3 materials the probability of getting one back is p, so the expected number of materials refunded is <math>x_0\left(\tfrac{p}{3}\right)</math>. One can also use these refunded materials to craft even more and get more refunded materials back. The expected number of materials refunded from these is <math>x_0(\tfrac{p}{3})^2</math>. One can continue this process, so that theoretically, the number of materials gained is:
-:<math>x_0[\tfrac{p}{3} + (\tfrac{p}{3})^2 + (\tfrac{p}{3})^3 + \ldots] = \tfrac{x_0}{3/p-1}</math>
-when summing the {{w|geometric series}}. This means that <math>\tfrac{1}{3/p-1}</math> more materials are gained from these passive talents. In turn, one will be able to craft around <math>\tfrac{1}{3/p-1}</math> portion more products (or <math>\tfrac{1}{3/p-1}</math> more products per 3 materials used).
+:<math>x_0[\tfrac{p}{3} + (\tfrac{p}{3})^2 + (\tfrac{p}{3})^3 + \ldots] = \tfrac{x_0}{(3/p)-1}</math>
+when summing the {{w|geometric series}}. This means that <math>\tfrac{1}{(3/p)-1}</math> more materials are gained from these passive talents. In turn, one will be able to craft around <math>\tfrac{1}{3/p-1}</math> portion more products (or <math>\tfrac{1}{(3/p)-1}</math> more products per 3 materials used).
 
-So the total amount of materials that can be used for crafting is <math>x_0 + \tfrac{x_0}{3/p-1} = \tfrac{x_0}{1-p/3}</math> meaning one can craft <math>\tfrac{x_0}{3-p}</math> products. Thus with the passive talent, the amount of materials used per product is <math>3-p</math> whereas otherwise it would be 3. Hence <math>3-(3-p)=p</math> fewer materials per product are used.
+So the total amount of materials that can be used for crafting is <math>x_0 + \tfrac{x_0}{(3/p)-1} = \tfrac{x_0}{1-(p/3)}</math> meaning one can craft <math>\tfrac{x_0}{3-p}</math> products. Thus with the passive talent, the amount of materials used per product is <math>3-p</math> whereas otherwise it would be 3. Hence <math>3-(3-p)=p</math> fewer materials per product are used.
 
 For <math>p=1/4=25\%</math> this means 0.25 fewer materials per product are used and <math>\tfrac{1}{11} \approx 9\%</math> more products can be crafted (or .09 more products per 3 materials used).
 
-For <math>p=1/5=20\%</math> this means 0.20 fewer materials per product are used and <math>\tfrac{1}{14} \approx 7\%</math> more products can be crafted (or .07 more products per 3 materials used).
-
 ;10% chance double
-Albedo and Eula have a 10% chance to yield double the product when crafting. Thus 10% more products will be gained with this passive.
+For characters which have a 10% chance of yielding double the product, 10% more products will be gained.
 
 So if one starts with <math>x_0</math> materials, they can gain <math>\tfrac{11x_0}{30}</math> products on average. With this passive, the amount of materials used per product is <math>\tfrac{30}{11}</math> so <math>3-\tfrac{30}{11} \approx 0.27</math> fewer materials per product are used on average.
 
@@ -77,4 +76,7 @@ So if one starts with <math>x_0</math> materials, they can gain <math>\tfrac{11x
 {{Change History|1.0}}
 
 ==Navigation==
-{{Game Systems Navbox|Other}}
+{{Game Systems Navbox}}
+
+[[ja:合成]]
+[[uk:Ремесло]]

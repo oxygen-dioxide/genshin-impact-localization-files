@@ -1,12 +1,13 @@
 {{Quest Infobox
 |id            = 19050
-|type          = Hangout
-|region        = Liyue
+|type          = Story
+|group         = Hangout Event
 |chapter       = Beidou
 |actNum        = I
 |act           = When the Crux Shines Bright
-|description   = The Crux returns safely  from Inazuma and is preparing to celebrate. The only difference is that today, you're the guest of honor...
 |startLocation = [[Sea of Clouds]], [[Liyue]]
+|region        = Liyue
+|area          = Sea of Clouds
 |next          = Life on the High Seas
 |next2         = Beneath the Surface
 |next3         = Guili Plains Treasure Hunt
@@ -20,7 +21,7 @@
 # Go to The Alcor
 # Talk to Beidou
 #*Show interest in the life of a sailor. Go to '''Sailor Training'''.
-#*Thank the crew for taking you to Inazuma. Go to '''Private Chat.'''
+#*Thank the crew for taking you to Inazuma. Go to '''Private Chat'''.
 
 ;'''Sailor Training'''
 # Have a taste of sailor training
@@ -51,7 +52,7 @@
 :{{A|vo_bdcop001_1905001_seadrake_04.ogg}} '''Sea Drake:''' Oh, Captain on deck!
 :{{A|vo_bdcop001_1905001_huixing_03.ogg}} '''Huixing:''' Captain! We were just trying to talk the Traveler into joining the crew.
 :{{A|vo_bdcop001_1905001_furong_06.ogg}} '''Furong:''' Yeah c'mon, Captain Beidou! Surely you've got a way to get the Traveler onboard.
-:{{A|vo_bdcop001_1905001_beidou_02a.ogg}} {{A|vo_bdcop001_1905001_beidou_02b.ogg}} '''Beidou:''' (She/He)'s onboard right now for the celebration, isn't (she/he)?
+:{{A|vo_bdcop001_1905001_beidou_02a.ogg}} {{A|vo_bdcop001_1905001_beidou_02b.ogg}} '''Beidou:''' {{MC|He|She|mc=1}}'s onboard right now for the celebration, isn't {{MC|he|she|mc=1}}?
 :{{A|vo_bdcop001_1905001_huixing_04.ogg}} '''Huixing:''' Yeah, but just one celebration together is not enough. You know what we mean, Captain!
 :{{A|vo_bdcop001_1905001_beidou_03.ogg}} '''Beidou:''' Alright, alright, I get it now. There is something special about you, (Traveler). You earned everyone's respect, myself included.
 :{{A|vo_bdcop001_1905001_beidou_04.ogg}} '''Beidou:''' So it goes without saying that The Crux would be honored to have a crew member such as yourself.
@@ -81,7 +82,7 @@
 :{{A|vo_bdcop001_1905004_beidou_08.ogg}} '''Beidou:''' As the head of the fleet, my task is to keep us on the right course, no matter how turbulent the seas may become.
 :{{A|vo_bdcop001_1905004_beidou_09.ogg}} '''Beidou:''' But then again, the crew isn't usually this riled up. It's not that they're arrogant, they're just bubbling with ambition, that's all.
 :{{A|vo_bdcop001_1905004_beidou_10.ogg}} '''Beidou:''' Their excitement today comes from their great respect for you &mdash; both your strength and your character... So please, don't take it the wrong way.
-:{{DIcon}} Why would I? I'm actually quite interested in the life of a sailor.
+:{{Hangout Branch|Why would I? I'm actually quite interested in the life of a sailor.|A Special Guest#Sailor Training|Sailor Training}}
 ::{{A|vo_bdcop001_1905004_beidou_11.ogg}} '''Beidou:''' Oh, is that so? Well, it just so happens that we're doing some recruitment and training for new crew members while we're back. It'll be a first-rate chance to learn the life of a sailor.
 ::{{A|vo_bdcop001_1905004_beidou_12.ogg}} '''Beidou:''' Since you're interested, why don't you come along and experience a sailor's life firsthand?
 ::{{A|vo_bdcop001_1905004_beidou_13.ogg}} '''Beidou:''' I'm curious to see if you'll take the sea by storm in the same way you have on land.
@@ -90,7 +91,7 @@
 ::{{DIcon}} Maybe not by storm, but I'll try and make a splash?
 :::{{A|vo_bdcop001_1905004_beidou_15.ogg}} '''Beidou:''' Nice! Come with me. Let's see how big of a splash you can manage."
 :;(Proceed to [[A Special Guest#Sailor Training|Sailor Training]])
-:{{DIcon}} Why would I? I should be thanking them for taking me to Inazuma.
+:{{Hangout Branch|Why would I? I should be thanking them for taking me to Inazuma.|A Special Guest#Private Chat|Private Chat}}
 ::{{A|vo_bdcop001_1905004_beidou_16.ogg}} '''Beidou:''' All good then. Great. Actually, speaking of Inazuma, I think your good luck must have rubbed off on me on the way over. I made an interesting find on the beach shortly after we parted ways.
 ::{{A|vo_bdcop001_1905004_beidou_17.ogg}} '''Beidou:''' Let's talk about it over there, where it's a little quieter.
 :;(Proceed to [[A Special Guest#Private Chat|Private Chat]])
@@ -115,7 +116,7 @@
 :{{A|vo_bdcop001_1905003_beidou_09.ogg}} '''Beidou:''' Is that right? Well then, it looks like I'm in good hands.
 :{{A|vo_bdcop001_1905003_beidou_10.ogg}} '''Beidou:''' Here's the map, see what you can make of it.
 :{{A|vo_bdcop001_1905003_beidou_11.ogg}} '''Beidou:''' So? Where do you think it is?
-:{{DIcon}} I think it's [[Guili Plains]], just very badly drawn.
+:{{Hangout Branch|I think it's [[Guili Plains]], just very badly drawn.|Guili Plains Treasure Hunt}}
 ::{{A|vo_bdcop001_1905003_beidou_12.ogg}} '''Beidou:''' Guili Plains... Huh, I never would have gotten that. How can you tell?
 ::{{DIcon}} Call it a treasure hunter's intuition.
 ::{{DIcon}} Compared against a regular map, the topography of the area most closely resembles the Guili Plains.
@@ -123,7 +124,7 @@
 ::{{A|vo_bdcop001_1905003_beidou_14.ogg}} '''Beidou:''' So you do live up to the hype. I can't believe you noticed that &mdash; you sure have an eye for detail.
 ::{{A|vo_bdcop001_1905003_beidou_15.ogg}} '''Beidou:''' Let's head over there and take a look. I'll need you to help me zero in on the specific location once we're there.
 :;(Continue to [[Guili Plains Treasure Hunt]])
-:{{DIcon}} I think it's [[Qingce Village]], just very badly drawn.
+:{{Hangout Branch|I think it's [[Qingce Village]], just very badly drawn.|Qingce Village Treasure Hunt}}
 ::{{A|vo_bdcop001_1905003_beidou_16.ogg}} '''Beidou:''' Qingce Village... I don't see the resemblance at all. How'd you come to that conclusion?
 ::{{DIcon}} Call it a treasure hunter's intuition.
 ::{{DIcon}} Qingce Village has a lot of terraced land, which seems to match the contour lines on this map.
@@ -149,7 +150,7 @@
 :{{A|vo_bdcop001_1905002_beidou_09.ogg}} '''Beidou:''' As one might expect, we call the other team the "Spear of The Crux," because they will be learning about naval warfare. They will make up the armed portion of our crew.
 :{{A|vo_bdcop001_1905002_beidou_10.ogg}} '''Beidou:''' Also, they are responsible for handling the fleet's cargo deals.
 :{{A|vo_bdcop001_1905002_beidou_11.ogg}} '''Beidou:''' So, what do you think? Which team is for you?
-:{{DIcon}} The Shield of The Crux.
+:{{Hangout Branch|The Shield of The Crux.|Life on the High Seas|Training: The Shield of The Crux}}
 ::{{A|vo_bdcop001_1905002_beidou_12.ogg}} '''Beidou:''' Heh, as I expected. You have a will to protect others.
 ::{{A|vo_bdcop001_1905002_beidou_13.ogg}} '''Beidou:''' There are two main subjects that The Shield of The Crux focuses on, survival knowledge and entertainment.
 ::{{A|vo_bdcop001_1905002_beidou_14.ogg}} '''Beidou:''' As I was saying earlier, survival knowledge includes prevention of injuries and diseases at sea, navigation and cartography, basic meteorology, etc.
@@ -160,7 +161,7 @@
 ::{{A|vo_bdcop001_1905002_beidou_17.ogg}} '''Beidou:''' If there's anything I'm most proud of in the fleet, it's my people!
 ::{{A|vo_bdcop001_1905002_beidou_18.ogg}} '''Beidou:''' Go and get to work. I'll have some questions to test you later. Heh, I look forward to seeing how you do.
 :;(Continue to [[Life on the High Seas]])
-:{{DIcon}} The Spear of The Crux.
+:{{Hangout Branch|The Spear of The Crux.|Beneath the Surface|Training: The Spear of The Crux}}
 ::{{A|vo_bdcop001_1905002_beidou_19.ogg}} '''Beidou:''' Heh, you truly are an adventurer at heart.
 ::{{A|vo_bdcop001_1905002_beidou_20.ogg}} '''Beidou:''' Let's start with the fundamentals for any armed crew member: basic boat handling.
 ::{{A|vo_bdcop001_1905002_beidou_21.ogg}} '''Beidou:''' Follow me.
@@ -171,33 +172,36 @@
 {{Other Languages
 |en      = A Special Guest
 |zhs     = 特别来客
-|zhs_rm  = Tèbié láikè
+|zhs_rm  = Tèbié Láikè
 |zht     = 特別來客
-|zht_rm  = Tèbié láikè
+|zht_rm  = Tèbié Láikè
 |zh_tl   = A Special Guest
 |ja      = 特別な客
-|ja_rm   = Tokubetsuna Kyaku
+|ja_rm   = Tokubetsu-na Kyaku
 |ja_tl   = A Special Guest
 |ko      = 특별 손님
-|ko_rm   = 
-|ko_tl   = 
-|es      = (La invitada/El invitado) especial
-|es_tl   = The Special Guest
-|fr      = (Un invité spécial/Une invitée spéciale)
-|fr_tl   = A Special Guest (M/F)
+|ko_tl   = Special Guest
+|es      = {{MC|m=El invitado|f=La invitada}} especial
+|es_tl   = The Special {{MC|Guest|mf=1}}
+|fr      = {{MC|m=Un invité spécial|f=Une invitée spéciale}}
+|fr_tl   = {{MC|A Special Guest|mf=1}}
 |ru      = Особый гость
-|ru_tl   = 
+|ru_tl   = A Special Guest
 |th      = แขกพิเศษ
-|th_rm   = 
-|th_tl   = 
+|th_rm   = Khaek Phi-set
+|th_tl   = Special Guest
 |vi      = Vị Khách Đặc Biệt
 |vi_tl   = Special Guest
 |de      = Besonderer Gast
 |de_tl   = Special Guest
 |id      = Tamu Spesial
 |id_tl   = A Special Guest
-|pt      = (Uma/Um) Convidad(a/o) Especial
-|pt_tl   = A Special Guest (M/F)
+|pt      = {{MC|m=Um Convidado|f=Uma Convidada}} Especial
+|pt_tl   = A Special {{MC|Guest|mf=1}}
+|tr      = Özel Bir Misafir
+|tr_tl   = 
+|it      = Ospite speciale
+|it_tl   = 
 }}
 
 ==Change History==

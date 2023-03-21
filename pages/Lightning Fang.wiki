@@ -2,13 +2,7 @@
 |image         = Talent Lightning Fang.png
 |character     = Razor
 |type          = Elemental Burst
-|info          = Summons the Wolf Within, which deals {{Color|Electro DMG}} to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.<br />The Wolf Within will fight alongside Razor for the skill's duration.<br /><br />'''The Wolf Within'''
-* Strikes alongside Razor's [[Steel Fang|normal attacks]], dealing {{Color|Electro DMG}}.
-* Raises Razor's [[ATK SPD]] and {{Color|Electro RES}}.
-* Causes Razor to be immune to DMG inflicted by the {{Color|Electro-Charged}} status.
-* Disables Razor's [[Steel Fang|Charged Attacks]].
-* Increases Razor's [[Interruption Resistance|resistance to interruption]].
-These effects end when Razor leaves the battlefield.<br />When Razor leaves the field, a maximum of 10 [[Energy]] will be returned to him based off the duration remaining on this skill.
+|info          = Summons the Wolf Within, which deals {{Color|Electro DMG}} to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.<br />The Wolf Within will fight alongside Razor for the skill's duration.<br /><br />'''The Wolf Within'''<ul><li>Strikes alongside Razor's [[Steel Fang|normal attacks]], dealing {{Color|Electro DMG}}.</li><li>Raises Razor's [[ATK SPD]] and {{Color|Electro RES}}.</li><li>Causes Razor to be immune to DMG inflicted by the {{Color|Electro-Charged}} status.</li><li>Disables Razor's [[Steel Fang|Charged Attacks]].</li><li>Increases Razor's [[Interruption Resistance|resistance to interruption]].</li></ul><br />These effects end when Razor leaves the battlefield.<br />When Razor leaves the field, a maximum of 10 [[Energy]] will be returned to him based off the duration remaining on this skill.
 |utility1      = Interruption Resistance
 |utility2      = ATK SPD
 |utility3      = Electro RES Increase
@@ -17,6 +11,7 @@ These effects end when Razor leaves the battlefield.<br />When Razor leaves the 
 |utility6      = Electro-Charged Immunity
 |utility7      = Electro Status to Self
 |utility8      = Hitlag Extendable
+|utility9      = Effect Triggered by Normal Attack Use
 |energyCost    = 80
 |CD            = 20s
 |duration      = 15s
@@ -34,15 +29,60 @@ These effects end when Razor leaves the battlefield.<br />When Razor leaves the 
 '''Lightning Fang''' is [[Razor]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* While Lightning Fang is active, Razor's Normal Attacks will deal bonus hits of {{Color|Electro DMG}}, whose base scaling is a percentage of the scaling for Razor's Normal Attack, [[Steel Fang]].
+* {{TalentNote|energy frame|11}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|2}}<ref name="Genshin Academy burst info sheet" />
 * {{TalentNote|icd|Soul Companion DMG}}
-** This bonus {{Color|Electro DMG}} will not increase with buffs to Normal Attack damage, such as the bonuses from the [[Martial Artist]] or [[Gladiator's Finale]] artifact sets, [[Superconduct]], or buffs to {{Color|Physical DMG}} (%).
-** It will increase with buffs to ATK, {{Color|Electro DMG}} (%), and Elemental Burst DMG (%), and will also vary proportionally in respect to each attack of Razor's 4-attack hit chain, as the scaling for each of Razor's Normal Attacks is different.
-* While active, Razor gains [[Electro]] status, allowing him to imbue certain [[Anemo]] attacks with Electro [[Elemental Absorption]].
+* While this talent is active, Razor gains [[Electro]] status.
+
+;<big>Passive Effects</big>
 * {{TalentNote|ascension|1|Awakening|resets the cooldown of [[Claw and Thunder]] upon using Lightning Fang.|character=Razor|talent=Lightning Fang}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|3|Soul Companion}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Elemental Burst DMG
+|gu      = 2U
+|icdtag  = none
+|poise   = 51.75
+|impulse = 3
+|blunt   = 1
+
+|title2   = Soul Companion DMG 1-Hit
+|gu2      = 1U
+|icdtag2  = Elemental Burst Extra
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 88.23
+|impulse2 = 3
+
+|title3   = Soul Companion DMG 2-Hit
+|gu3      = 1U
+|icdtag3  = Elemental Burst Extra
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 76.12
+|impulse3 = 3
+
+|title4   = Soul Companion DMG 3-Hit
+|gu4      = 1U
+|icdtag4  = Elemental Burst Extra
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 95.15
+|impulse4 = 3
+
+|title5   = Soul Companion DMG 4-Hit
+|gu5      = 1U
+|icdtag5  = Elemental Burst Extra
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 124.26
+|impulse5 = 6
+
+|title6   = Electro to Self
+|gu6      = 1U, 2.1s
+|icdtag6  = none
+|poise6   = —
+|impulse6 = —
+}}
 
 ==Preview==
 {{Preview
@@ -132,7 +172,7 @@ These effects end when Razor leaves the battlefield.<br />When Razor leaves the 
 |fr      = Croc éclair
 |fr_tl   = Lightning Fang
 |ru      = Громовой клык
-|ru_tl   = 
+|ru_tl   = Thunder Fang
 |th      = Lightning Fang
 |vi      = Răng Sét
 |vi_tl   = Lightning Teeth
@@ -141,15 +181,23 @@ These effects end when Razor leaves the battlefield.<br />When Razor leaves the 
 |id      = Lightning Fang
 |pt      = Dente de Relâmpago
 |pt_tl   = Lightning Tooth
+|tr      = Şimşek Diş
+|tr_tl   = 
+|it      = Zanna fulminante
+|it_tl   = Lightning Fang
 }}
 
 ==Change History==
 {{Change History|1.0}}
 
+==References==
+{{Reflist}}
+
 ==Navigation==
 {{Talent Navbox|Razor}}
 
-[[es:Colmillo de relámpago]]
+[[es:Colmillo relámpago]]
+[[fr:Croc éclair]]
 [[pt-br:Dente de Relâmpago]]
 [[ru:Громовой клык]]
 [[th:Lightning Fang]]

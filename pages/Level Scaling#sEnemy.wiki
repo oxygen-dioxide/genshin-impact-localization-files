@@ -1,11 +1,7 @@
 {{CustomTabs|tab1=Overview|tab2=Reaction|tab3=Enemy|tab4=Weapon|tab5=Character|tab6=Talents}}
 For [[enemies]], their HP, ATK and DEF are determined by '''base values''', '''level multipliers''' and '''special multipliers'''.
 
-For [[animals]], most of them have 0 Base DEF and 0 Base Resistance. Their level HP multipliers are 1 for all levels. Their level ATK multipliers are the same as the multipliers of enemies.
-
-HP data tables and ATK data tables are from Chinese articles in the NGA forum.<ref>NGA: [https://bbs.nga.cn/read.php?tid=25223114 Enemy HP Data Table]</ref><ref>NGA: [https://bbs.nga.cn/read.php?tid=26914745 Enemy ATK Data Table]</ref>
-
-The data with decimals can be checked in GitHub.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/MonsterExcelConfigData.json Enemy Base Value Data]</ref><ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/MonsterCurveExcelConfigData.json Enemy Level Scaling Data]</ref>
+For [[wildlife]], most of them have 0 Base DEF and 0 Base Resistance. Their level HP multipliers are 1 for all levels. Their level ATK multipliers are the same as the multipliers of enemies.
 
 ==Base Value==
 ===Base HP===
@@ -13,253 +9,348 @@ The data with decimals can be checked in GitHub.<ref>Source Data: [https://githu
 
 Level Multipliers for each level will be listed in the '''HP Level Scaling''' section.
 
+Note: Due to all enemy Base HPs being proportional to the Hilichurl's, it can be used as a baseline for comparison. The Base HP Ratios to Hilichurl provided are for ease of comparison only and are not used in the calculation process.
+
+====Example====
+For example, to calculate a [[Specter]]'s Max HP at Level 85:
+
+<math>\begin{align} \text{Max HP} & = 21.7344 \times 2223.0679 \\ & = 48317.0469658\end{align}</math>
+
+Where:
+* '''21.7344''' is the Base HP
+* '''2223.0679''' is the Type 2 HP Level Multiplier at Level 85
+
 ====Common Enemies====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base HP !! Level Multiplier Type
+! Enemy !! Base HP !! Level Multiplier<br />Type !! Base HP Ratio<br />to Hilichurl
 |-
-| [[Cicins]] || 6.792 || Type 1
+| {{Enemy|Cicin|20}} || 6.792 || Type 1 || 0.5
 |-
-| [[Slimes]] || 10.8672 || Type 1
+| {{Enemy|Slime|20}} (Small) || 10.8672 || Type 1 || 0.8
 |-
-| Large Slimes || 27.168 || Type 1
+| {{Enemy|Slime|20}} (Large) || 27.168 || Type 1 || 2
 |-
-| [[Whopperflowers]] || 40.752 || Type 1
+| {{Enemy|Whopperflower|20}} || 40.752 || Type 1 || 3
 |-
-| [[Hilichurls]] || 13.584 || Type 1
+| {{Enemy|Hilichurls|20}} (Except Cryo Grenadier) || 13.584 || Type 1 || 1
 |-
-| [[Hilichurl Guards]] || 13.584 || Type 1
+| {{Enemy|Cryo Hilichurl Grenadier|20}} || 10.8672 || Type 1 || 0.8
 |-
-| [[Hilichurl Grenadiers]] (Except Cryo) || 13.584 || Type 1
+| {{Enemy|Hilichurl Shooter|link=Hilichurl Shooter (Enemy Group)|20}} || 10.8672 || Type 1 || 0.8
 |-
-| {{Enemy|Cryo Hilichurl Grenadier|20}} || 10.8672 || Type 1
+| {{Enemy|Samachurl|20}} || 13.584 || Type 1 || 1
 |-
-| [[Hilichurl Shooters]] || 10.8672 || Type 1
+| {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|20}} || 40.752 || Type 1 || 3
 |-
-| [[Samachurls]] || 13.584 || Type 1
+| {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|20}} || 54.336 || Type 1 || 4
 |-
-| {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|20}} || 40.752 || Type 1
+| {{Enemy|Fatui Skirmisher - Geochanter Bracer|20}} || 40.752 || Type 1 || 3
 |-
-| {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|20}} || 54.336 || Type 1
+| {{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}} || 40.752 || Type 1 || 3
 |-
-| {{Enemy|Fatui Skirmisher - Geochanter Bracer|20}} || 40.752 || Type 1
+| {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|20}} || 54.336 || Type 1 || 4
 |-
-| {{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}} || 40.752 || Type 1
+| {{Enemy|Fatui Skirmisher - Hydrogunner Legionnaire|20}} || 40.752 || Type 1 || 3
 |-
-| {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|20}} || 54.336 || Type 1
+| {{Enemy|Treasure Hoarder Potioneer|20}} || 21.7344 || Type 1 || 1.6
 |-
-| {{Enemy|Fatui Skirmisher - Hydrogunner Legionnaire|20}} || 40.752 || Type 1
+| {{Enemy|Treasure Hoarders: Scout|20}} || 16.3008 || Type 1 || 1.2
 |-
-| [[Treasure Hoarder Potioneers]] || 21.7344 || Type 1
+| {{Enemy|Treasure Hoarders: Marksman|20}} || 16.3008 || Type 1 || 1.2
 |-
-| {{Enemy|Treasure Hoarders: Scout|20}} || 16.3008 || Type 1
+| {{Enemy|Treasure Hoarders: Crusher|20}} || 27.168 || Type 1 || 2
 |-
-| {{Enemy|Treasure Hoarders: Marksman|20}} || 16.3008 || Type 1
+| {{Enemy|Treasure Hoarders: Gravedigger|20}} || 27.168 || Type 1 || 2
 |-
-| {{Enemy|Treasure Hoarders: Crusher|20}} || 27.168 || Type 1
+| {{Enemy|Treasure Hoarders: Handyman|20}} || 27.168 || Type 1 || 2
 |-
-| {{Enemy|Treasure Hoarders: Gravedigger|20}} || 27.168 || Type 1
+| {{Enemy|Treasure Hoarders: Pugilist|20}} || 27.168 || Type 1 || 2
 |-
-| {{Enemy|Treasure Hoarders: Handyman|20}} || 27.168 || Type 1
+| {{Enemy|Treasure Hoarders: Crusher|20}} || 27.168 || Type 1 || 2
 |-
-| {{Enemy|Treasure Hoarders: Pugilist|20}} || 27.168 || Type 1
+| {{Enemy|Nobushi|20}} || 27.168 || Type 2 || 2
 |-
-| {{Enemy|Treasure Hoarders: Crusher|20}} || 27.168 || Type 1
+| {{Enemy|Kairagi|20}} || 65.2032 || Type 2 || 4.8
 |-
-| [[Nobushi]] || 27.168 || Type 2
+| {{Enemy|Specter|20}} || 21.7344 || Type 2 || 1.6
 |-
-| [[Kairagi]] || 65.2032 || Type 2
+| {{Enemy|Fungus|20}} (Most) || 13.584 || Type 2 || 1
 |-
-| [[Specters]] || 21.7344 || Type 2
+| {{Enemy|Winged Dendroshroom|20}} || 27.168 || Type 2 || 2
 |-
-| [[Floating Fungi]] || 13.584 || Type 2
+| {{Enemy|Grounded Hydroshroom|20}} || 27.168 || Type 2 || 2
+|-
+| {{Enemy|Winged Cryoshroom|20}} || 38.0352 || Type 2 || 2.8
+|-
+| {{Enemy|Grounded Geoshroom|20}} || 38.0352 || Type 2 || 2.8
+|-
+| {{Enemy|The Eremites|20}} (Most) || 21.7344 || Type 2 || 1.6
+|-
+| {{Enemy|Eremite Desert Clearwater|20}} || 48.9024 || Type 2 || 3.6
+|-
+| {{Enemy|Eremite Sunfrost|20}} || 48.9024 || Type 2 || 3.6
+|-
+| {{Enemy|Eremite Daythunder|20}} || 54.336 || Type 2 || 4
+|-
+| {{Enemy|Eremite Stone Enchanter|20}} || 67.92 || Type 2 || 5
+|-
+| {{Enemy|Eremite Floral Ring-Dancer|20}} || 67.92 || Type 2 || 5
+|-
+| {{Enemy|Eremite Galehunter|20}} || 59.7696 || Type 2 || 4.4
+|-
+| {{Enemy|Eremite Scorching Loremaster|20}} || 59.7696 || Type 2 || 4.4
 |}
 
 ====Elite Enemies====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base HP !! Level Multiplier Type
+! Enemy !! Base HP !! Level Multiplier<br />Type !! Base HP Ratio<br />to Hilichurl
 |-
-| [[Abyss Mages]] || 27.168 || Type 1
+| {{Enemy|Abyss Mage|20}} || 27.168 || Type 1 || 2
 |-
-| [[Abyss Heralds]] || 108.672 || Type 1
+| {{Enemy|Abyss Herald|20}} || 108.672 || Type 1 || 8
 |-
-| [[Abyss Lectors]] || 108.672 || Type 1
+| {{Enemy|Abyss Lector|20}} || 108.672 || Type 1 || 8
 |-
-| {{Enemy|Eye of the Storm|20}} || 67.92 || Type 1
+| {{Enemy|Eye of the Storm|20}} || 67.92 || Type 1 || 5
 |-
-| [[Fatui Cicin Mages]] || 67.92 || Type 1
+| {{Enemy|Fatui Cicin Mage|20}} || 67.92 || Type 1 || 5
 |-
-| {{Enemy|Fatui Pyro Agent|20}} || 67.92 || Type 1
+| {{Enemy|Fatui Pyro Agent|20}} || 67.92 || Type 1 || 5
 |-
-| {{Enemy|Geovishap|20}} || 108.672 || Type 1
+| {{Enemy|Geovishap|20}} || 108.672 || Type 1 || 8
 |-
-| {{Enemy|Geovishap Hatchling|20}} || 40.752 || Type 1
+| {{Enemy|Geovishap Hatchling|20}} || 40.752 || Type 1 || 3
 |-
-| [[Mitachurls]] || 40.752 || Type 1
+| {{Enemy|Mitachurl|20}} || 40.752 || Type 1 || 3
 |-
-| [[Lawachurls]] || 122.256 || Type 1
+| {{Enemy|Lawachurl|20}} || 122.256 || Type 1 || 9
 |-
-| {{Enemy|Ruin Guard|20}} || 95.088 || Type 1
+| {{Enemy|Ruin Guard|20}} || 95.088 || Type 1 || 7
 |-
-| {{Enemy|Ruin Hunter|20}} || 81.504 || Type 1
+| {{Enemy|Ruin Hunter|20}} || 81.504 || Type 1 || 6
 |-
-| {{Enemy|Ruin Grader|20}} || 122.256 || Type 1
+| {{Enemy|Ruin Grader|20}} || 122.256 || Type 1 || 9
 |-
-| {{Enemy|Ruin Cruiser|20}} || 40.752 || Type 2
+| {{Enemy|Ruin Cruiser|20}} || 40.752 || Type 2 || 3
 |-
-| {{Enemy|Ruin Destroyer|20}} || 40.752 || Type 2
+| {{Enemy|Ruin Destroyer|20}} || 40.752 || Type 2 || 3
 |-
-| {{Enemy|Ruin Defender|20}} || 57.0528 || Type 2
+| {{Enemy|Ruin Defender|20}} || 57.0528 || Type 2 || 4.2
 |-
-| {{Enemy|Ruin Scout|20}} || 57.0528 || Type 2
+| {{Enemy|Ruin Scout|20}} || 57.0528 || Type 2 || 4.2
 |-
-| {{Enemy|The Great Snowboar King|20}} || 149.424 || Type 1
+| {{Enemy|The Great Snowboar King|20}} || 149.424 || Type 1 || 11
 |-
-| {{Enemy|Mirror Maiden|20}} || 81.504 || Type 2
+| {{Enemy|Mirror Maiden|20}} || 81.504 || Type 2 || 6
 |-
-| [[Rifthounds]] || 95.088 || Type 2
+| {{Enemy|Rifthound|20}} || 95.088 || Type 2 || 7
 |-
-| Rifthound Whelps || 33.96 || Type 2
+| {{Enemy|Rifthound Whelp|20}} || 32.6016 || Type 2 || 2.4
 |-
-| {{Enemy|Primordial Bathysmal Vishap|20}} || 108.672 || Type 2
+| {{Enemy|Primordial Bathysmal Vishap|20}} || 108.672 || Type 2 || 8
 |-
-| {{Enemy|Primordial Bathysmal Vishap Hatchling|20}} || 54.336 || Type 2
+| {{Enemy|Primordial Bathysmal Vishap Hatchling|20}} || 54.336 || Type 2 || 4
 |-
-| {{Enemy|Bolteater Bathysmal Vishap|20}} || 54.336 || Type 2
+| {{Enemy|Bolteater Bathysmal Vishap|20}} || 54.336 || Type 2 || 4
 |-
-| {{Enemy|Rimebiter Bathysmal Vishap|20}} || 54.336 || Type 2
+| {{Enemy|Rimebiter Bathysmal Vishap|20}} || 54.336 || Type 2 || 4
 |-
-| {{Enemy|Shadowy Husk: Defender|20}} || 54.336 || Type 2
+| {{Enemy|Shadowy Husk: Defender|20}} || 54.336 || Type 2 || 4
 |-
-| {{Enemy|Shadowy Husk: Line Breaker|20}} || 81.504 || Type 2
+| {{Enemy|Shadowy Husk: Line Breaker|20}} || 81.504 || Type 2 || 6
 |-
-| {{Enemy|Shadowy Husk: Standard Bearer|20}} || 67.92 || Type 2
+| {{Enemy|Shadowy Husk: Standard Bearer|20}} || 67.92 || Type 2 || 5
 |-
-| {{Enemy|Black Serpent Knight: Windcutter|20}} || 95.088 || Type 2
+| {{Enemy|Black Serpent Knight: Windcutter|20}} || 95.088 || Type 2 || 7<!--
+|-
+| {{Enemy|Black Serpent Knight: Rockbreaker Ax|20}} || 108.672 || Type 2 || 8-->
+|-
+| {{Enemy|Ruin Drake: Earthguard|20}} || 95.088 || Type 2 || 7
+|-
+| {{Enemy|Ruin Drake: Skywatch|20}} || 67.92 || Type 2 || 5
+|-
+| {{Enemy|Primal Construct|20}} || 46.1856 || Type 2 || 3.4
+|-
+| {{Enemy|Consecrated Beast|20}} || 95.088 || Type 2 || 7
 |}
 
 ====Normal Bosses====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base HP !! Level Multiplier Type
+! Enemy !! Base HP !! Level Multiplier<br />Type !! Base HP Ratio<br />to Hilichurl
 |-
-| [[Hypostases]] || 95.088 || Type 1
+| {{Enemy|Hypostasis|20}} (Most) || 95.088 || Type 1 || 7
 |-
-| {{Enemy|Hydro Hypostasis|20}} || 122.256 || Type 1
+| {{Enemy|Hydro Hypostasis|20}} || 122.256 || Type 1 || 9
 |-
-| Hypostases (Event) || 149.424 || Type 1
+| {{Enemy|Dendro Hypostasis|20}} || 122.256 || Type 1 || 9
 |-
-| [[Regisvines]] || 95.088 || Type 1
+| {{Enemy|Hypostasis|20}} (Hypostatic Symphony) || 149.424 || Type 1 || 11
 |-
-| {{Enemy|Resurgent Cryo Regisvine|20}} || 149.424 || Type 1
+| {{Enemy|Hypostasis|20}} (Hypostatic Symphony: Dissonant Verse) || 122.256 || Type 2 || 9
 |-
-| {{Enemy|Oceanid|20}}  || 135.84 || Type 1
+| {{Enemy|Regisvine|20}} || 95.088 || Type 1 || 7
 |-
-| {{Enemy|Hydro Mimic Crane|20}}  || 10.8672 || Type 1
+| {{Enemy|Resurgent Cryo Regisvine|20}} || 149.424 || Type 1 || 11
 |-
-| {{Enemy|Hydro Mimic Raptor|20}} || 10.8672 || Type 1
+| {{Enemy|Oceanid|20}}  || 135.84 || Type 1 || 10
 |-
-| {{Enemy|Hydro Mimic Mallard|20}}  || 21.7344 || Type 1
+| {{Enemy|Hydro Mimic Crane|20}}  || 10.8672 || Type 1 || 0.8
 |-
-| {{Enemy|Hydro Mimic Crab|20}} || 21.7344 || Type 1
+| {{Enemy|Hydro Mimic Raptor|20}} || 10.8672 || Type 1 || 0.8
 |-
-| {{Enemy|Hydro Mimic Boar|20}} || 21.7344 || Type 1
+| {{Enemy|Hydro Mimic Mallard|20}}  || 21.7344 || Type 1 || 1.6
 |-
-| {{Enemy|Hydro Mimic Ferret|20}} || 19.0176 || Type 1
+| {{Enemy|Hydro Mimic Crab|20}} || 21.7344 || Type 1 || 1.6
 |-
-| {{Enemy|Hydro Mimic Frog|20}} || 40.752 || Type 1
+| {{Enemy|Hydro Mimic Boar|20}} || 21.7344 || Type 1 || 1.6
 |-
-| {{Enemy|Hydro Mimic Finch|20}} || 40.752 || Type 1
+| {{Enemy|Hydro Mimic Ferret|20}} || 19.0176 || Type 1 || 1.4
 |-
-| {{Enemy|Oceanid|20}} (Event) || 190.176 || Type 1
+| {{Enemy|Hydro Mimic Frog|20}} || 40.752 || Type 1 || 3
 |-
-| {{Enemy|Hydro Mimic Crab|20}} (Event) || 8.1504 || Type 1
+| {{Enemy|Hydro Mimic Finch|20}} || 40.752 || Type 1 || 3
 |-
-| {{Enemy|Hydro Mimic Boar|20}} (Event) || 46.1856 || Type 1
+| {{Enemy|Oceanid|20}} (Event) || 190.176 || Type 1 || 14
 |-
-| {{Enemy|Hydro Mimic Ferret|20}} (Event) || 46.1856 || Type 1
+| {{Enemy|Hydro Mimic Crab|20}} (Event) || 8.1504 || Type 1 || 0.6
 |-
-| {{Enemy|Primo Geovishap|20}} || 407.52 || Type 1
+| {{Enemy|Hydro Mimic Boar|20}} (Event) || 46.1856 || Type 1 || 3.4
 |-
-| {{Enemy|Maguu Kenki|20}} || 271.68 || Type 1
+| {{Enemy|Hydro Mimic Ferret|20}} (Event) || 46.1856 || Type 1 || 3.4
 |-
-| [[Dual Maguu Kenki]] || 217.344 || Type 1
+| {{Enemy|Primo Geovishap|20}} || 407.52 || Type 1 || 30
 |-
-| {{Enemy|Perpetual Mechanical Array|20}} || 217.344 || Type 2
+| {{Enemy|Maguu Kenki|20}} || 271.68 || Type 1 || 20
 |-
-| {{Enemy|Thunder Manifestation|20}} || 190.176 || Type 2
+| {{Enemy|Dual Maguu Kenki|20}} || 217.344 || Type 1 || 16
 |-
-| {{Enemy|Golden Wolflord|20}} || 163.008 || Type 2
+| {{Enemy|Perpetual Mechanical Array|20}} || 217.344 || Type 2 || 16
 |-
-| {{Enemy|Coral Defenders|20}} || 163.008 || Type 2
+| {{Enemy|Thunder Manifestation|20}} || 190.176 || Type 2 || 14
 |-
-| {{Enemy|Ruin Serpent|20}} || 217.344 || Type 2
+| {{Enemy|Golden Wolflord|20}} || 163.008 || Type 2 || 12
+|-
+| {{Enemy|Coral Defenders|20}} || 163.008 || Type 2 || 12
+|-
+| {{Enemy|Ruin Serpent|20}} || 217.344 || Type 2 || 16
+|-
+| {{Enemy|Jadeplume Terrorshroom|20}} || 190.176 || Type 2 || 14
+|-
+| {{Enemy|Aeonblight Drake|20}} || 230.928 || Type 2 || 17
+|-
+| {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}} || 217.344 || Type 2 || 16
+|-
+| {{Enemy|Setekh Wenut|20}} || 203.76 || Type 2 || 15
 |}
 
 ====Weekly Bosses====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base HP !! Level Multiplier Type
+! Enemy !! Base HP !! Level Multiplier<br />Type !! Base HP Ratio<br />to Hilichurl
 |-
-| {{Enemy|Andrius|20}} || 244.512 || Type 1
+| {{Enemy|Andrius|20}} || 244.512 || Type 1 || 18
 |-
-| {{Enemy|Dvalin|20}} || 122.256 || Type 1
+| {{Enemy|Dvalin|20}} || 122.256 || Type 1 || 9
 |-
-| {{Enemy|Childe|20}} (Phase 1) || 81.504 || Type 1
+| {{Enemy|Childe|20}} (Phase 1/2) || 81.504 || Type 1 || 6
 |-
-| {{Enemy|Childe|20}} (Phase 2) || 81.504 || Type 1
+| {{Enemy|Childe|20}} (Phase 3) || 135.84 || Type 1 || 10
 |-
-| {{Enemy|Childe|20}} (Phase 3) || 135.84 || Type 1
+| {{Enemy|Azhdaha|20}} || 489.024 || Type 1 || 36
 |-
-| {{Enemy|Azhdaha|20}} || 489.024 || Type 1
+| {{Enemy|La Signora|20}} (Phase 1) || 135.84 || Type 2 || 10
 |-
-| {{Enemy|La Signora|20}} (Phase 1) || 135.84 || Type 2
+| {{Enemy|La Signora|20}} (Phase 2) || 271.68 || Type 2 || 20
 |-
-| {{Enemy|La Signora|20}} (Phase 2) || 271.68 || Type 2
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} || 543.36 || Type 2 || 40
 |-
-| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} || 543.36 || Type 2
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} (Phase 1) || 271.68 || Type 2 || 20
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} (Phase 2) || 244.512  || Type 2 || 18
 |}
 
 ====Special Enemies====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base HP !! Level Multiplier Type
+! Enemy !! Base HP !! Level Multiplier<br />Type !! Base HP Ratio<br />to Hilichurl
 |-
-| {{Enemy|Unusual Hilichurl|20}} || 21.7344 || Type 1
+| {{Enemy|Unusual Hilichurl|20}} || 21.7344 || Type 1 || 1.6
 |-
-| {{Enemy|Treasure Hoarders: Raptor|20}} || 27.168 || Type 1
+| {{Enemy|Treasure Hoarders: Raptor|20}} || 27.168 || Type 1 || 2
 |-
-| {{Enemy|Treasure Hoarders: Boss|20}} || 95.088 || Type 2
+| {{Enemy|Treasure Hoarders: Boss|20}} || 95.088 || Type 2 || 7
 |-
-| {{Enemy|Treasure Hoarders: Liuliu|20}} || 95.088 || Type 2
+| {{Enemy|Treasure Hoarders: Liuliu|20}} || 95.088 || Type 2 || 7
 |-
-| {{Enemy|Treasure Hoarders: Carmen|20}} || 108.672 || Type 2
+| {{Enemy|Treasure Hoarders: Carmen|20}} || 108.672 || Type 2 || 8
 |-
-| {{Enemy|Treasure Hoarders: Wallenstein|20}} || 108.672 || Type 2
+| {{Enemy|Treasure Hoarders: Wallenstein|20}} || 108.672 || Type 2 || 8
 |-
-| {{Enemy|Millelith Soldier|20}} || 21.7344 || Type 1
+| {{Enemy|Millelith Soldier|20}} || 21.7344 || Type 1 || 1.6
 |-
-| {{Enemy|Millelith Sergeant|20}} || 32.6016 || Type 1
+| {{Enemy|Millelith Sergeant|20}} || 32.6016 || Type 1 || 2.4
 |-
-| {{Enemy|Shogunate Infantry|20}} || 21.7344 || Type 1
+| {{Enemy|Shogunate Infantry|20}} || 21.7344 || Type 1 || 1.6
 |-
-| {{Enemy|Shogunate Infantry Captain|20}} || 32.6016 || Type 1
+| {{Enemy|Shogunate Infantry Captain|20}} || 32.6016 || Type 1 || 2.4
 |-
-| {{Enemy|Yoriki Samurai|20}} || 48.9024 || Type 2
+| {{Enemy|Yoriki Samurai|20}} || 48.9024 || Type 2 || 3.6
 |-
-| {{Enemy|Watatsumi Soldier: Kouzen|20}} || 21.7344 || Type 1
+| {{Enemy|Watatsumi Soldier: Kouzen|20}} || 21.7344 || Type 1 || 1.6
 |-
-| [["Miasmic Tumor"]] || 203.76 || Type 1
+| {{Enemy|Watatsumi Soldier: Kouzen|20}} (Event) || 107.65 || Type 1 || ~7.925
 |-
-| {{Enemy|Canine Bunshin|20}} || 815.04 || Type 2
+| {{Enemy|"Miasmic Tumor"|20}} || 203.76 || Type 1 || 15
 |-
-| {{Enemy|Black Shadow: Hayate no Gokotu|20}} || 203.76 || Type 2
+| {{Enemy|Canine Bunshin|20}} || 815.04 || Type 2 || 60
 |-
-| {{Enemy|Beisht|20}} || 81.504 || Type 2
+| {{Enemy|Black Shadow: Hayate no Gotoku|20}} || 203.76 || Type 2 || 15
 |-
-| {{Enemy|Nobushi: Hitsukeban|20}} (Event) || 76.0704 || Type 2
+| {{Enemy|Beisht|20}} || 81.504 || Type 2 || 6
 |-
-| {{Enemy|Yoriki Samurai|20}} (Event) || 86.9376 || Type 2
+| {{Enemy|Nobushi: Hitsukeban|20}} (Event) || 76.0704 || Type 2 || 5.6
 |-
-| {{Enemy|Kairagi: Dancing Thunder|20}} (Event) || 103.2384 || Type 2
+| {{Enemy|Yoriki Samurai|20}} (Hues of the Violet Garden) || 86.9376 || Type 2 || 6.4
 |-
-| {{Enemy|Taroumaru|20}} || 95.088 || Type 2
+| {{Enemy|Yoriki Samurai|20}} (Warrior's Spirit) || 123.02 || Type 2 || ~9.056
+|-
+| {{Enemy|Kairagi: Dancing Thunder|20}} (Event) || 103.2384 || Type 2 || 7.6
+|-
+| {{Enemy|Kairagi: Fiery Might|20}} (Event) || 137.248 || Type 2 || ~10.104
+|-
+| {{Enemy|Taroumaru|20}} (Hues of the Violet Garden) || 95.088 || Type 2 || 7
+|-
+| {{Enemy|Taroumaru|20}} (Warrior's Spirit) || 117.64 || Type 2 || ~8.66
+|-
+| {{Enemy|Marana's Avatar|20}} || 40.752 || Type 1 || 3
+|-
+| {{Enemy|Spirit of Omen: Stone Drake|20}} || 20.376 || Type 2 || 1.5
+|-
+| {{Enemy|Spirit of Omen: Dendro Spirit-Serpent|20}} || 20.376 || Type 2 || 1.5
+|-
+| {{Enemy|Spirit of Omen: Wind Glede|20}} || 17.93088 || Type 2 || 1.32
+|-
+| {{Enemy|Spirit of Omen: Pyro Scorpion|20}} || 17.93088 || Type 2 || 1.32
+|-
+| {{Enemy|Sumpter Beast|20}} (Wild Small) || 2.7168 || Type 1 || 0.2
+|-
+| {{Enemy|Sumpter Beast|20}} (Wild Medium) || 8.1504 || Type 1 || 0.6
+|-
+| {{Enemy|Sumpter Beast|20}} (Wild Large) || 13.584 || Type 1 || 1
+|-
+| {{Enemy|Sumpter Beast|20}} (Faction Small) || 10.8672 || Type 1 || 0.8
+|-
+| {{Enemy|Sumpter Beast|20}} (Faction Medium) || 16.3008 || Type 1 || 1.2
+|-
+| {{Enemy|Sumpter Beast|20}} (Faction Large) || 21.7344 || Type 1 || 1.6
+|-
+| {{Enemy|Spinocrocodile|20}} || 10.8672 || Type 1 || 0.8
+|-
+| {{Enemy|Rishboland Tiger|20}} || 10.8672 || Type 1 || 0.8
+|-
+| {{Enemy|Scorpion|20}} || 10.8672 || Type 1 || 0.8
+|-
+| {{Enemy|Red Vulture|20}} || 8.1504 || Type 1 || 0.6
+|-
+| {{Enemy|Eremite Stone Enchanter|20}} (Event) || 138.4 || Type 2 || ~10.188
 |}
 
 ===Base ATK===
@@ -267,253 +358,392 @@ Level Multipliers for each level will be listed in the '''HP Level Scaling''' se
 
 Level Multipliers for each level will be listed in the '''ATK Level Scaling''' section.
 
+Note: Due to all enemy Base ATKs being proportional to the Forest Boar's, it can be used as a baseline for comparison. The Base ATK Ratios to Forest Boar provided are for ease of comparison only and are not used in the calculation process.
+
+====Example====
+For example, to calculate a [[Specter]]'s ATK at Level 70:
+
+<math>\begin{align} \text{Max HP} & = 17.584 \times 118.01392 \\ & = 2075.15676928\end{align}</math>
+
+Where:
+* '''17.584''' is the Base ATK
+* '''118.01392''' is the Type 2 ATK Level Multiplier at Level 70
+
 ====Common Enemies====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base ATK !! Level Multiplier Type
+! Enemy !! Base ATK !! Level Multiplier<br />Type !! Base ATK Ratio<br />to Forest Boar
 |-
-| [[Cicins]] || 10.048 || Type 1
+| {{Enemy|Cicin|20}} || 10.048 || Type 1 || 0.8
 |-
-| [[Slimes]] || 7.536 || Type 1
+| {{Enemy|Slime|20}} (Small, Most) || 7.536 || Type 1 || 0.6
 |-
-| Large Slimes || 17.584 || Type 1
+| {{Enemy|Anemo Slime|20}} || 15.072 || Type 1 || 1.2
 |-
-| [[Whopperflowers]] || 25.12 || Type 1
+| {{Enemy|Large Anemo Slime|20}} || 35.168 || Type 1 || 2.8
 |-
-| [[Hilichurls]] || 22.608 || Type 1
+| {{Enemy|Large Dendro Slime|20}} || 35.168 || Type 1 || 2.8
 |-
-| [[Hilichurl Guards]] || 22.608 || Type 1
+| {{Enemy|Large Hydro Slime|20}} || 35.168 || Type 1 || 2.8
 |-
-| [[Hilichurl Grenadiers]] (except Cryo) || 22.608 || Type 1
+| {{Enemy|Large Electro Slime|20}} || 52.752 || Type 1 || 4.2
 |-
-| {{Enemy|Cryo Hilichurl Grenadier|20}} || 11.304 || Type 1
+| {{Enemy|Mutant Electro Slime|20}} || 52.752 || Type 1 || 4.2
 |-
-| [[Hilichurl Shooters]] || 11.304 || Type 1
+| {{Enemy|Large Cryo Slime|20}} || 52.752 || Type 1 || 4.2
 |-
-| [[Samachurls]] || 25.12 || Type 1
+| {{Enemy|Large Pyro Slime|20}} || 52.752 || Type 1 || 4.2
 |-
-| {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|20}} || 25.12 || Type 1
+| {{Enemy|Large Geo Slime|20}} || 52.752 || Type 1 || 4.2
 |-
-| {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|20}} || 50.24 || Type 1
+| {{Enemy|Cryo Whopperflower|20}} || 25.12 || Type 1 || 2
 |-
-| {{Enemy|Fatui Skirmisher - Geochanter Bracer|20}} || 25.12 || Type 1
+| {{Enemy|Pyro Whopperflower|20}} || 37.68 || Type 1 || 3
 |-
-| {{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}} || 37.68 || Type 1
+| {{Enemy|Electro Whopperflower|20}} || 25.12 || Type 1 || 2
 |-
-| {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|20}} || 37.68 || Type 1
+| {{Enemy|Hilichurl|20}} (Most) || 22.608 || Type 1 || 1.8
 |-
-| {{Enemy|Fatui Skirmisher - Hydrogunner Legionnaire|20}} || 25.12 || Type 1
+| {{Enemy|Hilichurl Grenadier|20}} || 45.216 || Type 1 || 3.6
 |-
-| [[Treasure Hoarder Potioneers]] || 20.096 || Type 1
+| {{Enemy|Cryo Hilichurl Grenadier|20}} || 11.304 || Type 1 || 0.9
 |-
-| {{Enemy|Treasure Hoarders: Scout|20}} || 15.072 || Type 1
+| {{Enemy|Hilichurl Shooter|20}} || 11.304 || Type 1 || 0.9
 |-
-| {{Enemy|Treasure Hoarders: Marksman|20}} || 15.072 || Type 1
+| {{Enemy|Cryo Hilichurl Shooter|20}} || 11.304 || Type 1 || 0.9
 |-
-| {{Enemy|Treasure Hoarders: Crusher|20}} || 20.096 || Type 1
+| {{Enemy|Pyro Hilichurl Shooter|20}} || 16.956 || Type 1 || 1.35
 |-
-| {{Enemy|Treasure Hoarders: Gravedigger|20}} || 20.096 || Type 1
+| {{Enemy|Electro Hilichurl Shooter|20}} || 16.956 || Type 1 || 1.35
 |-
-| {{Enemy|Treasure Hoarders: Handyman|20}} || 20.096 || Type 1
+| {{Enemy|Samachurl|20}} || 50.24 || Type 1 || 4
 |-
-| {{Enemy|Treasure Hoarders: Pugilist|20}} || 20.096 || Type 1
+| {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|20}} || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Treasure Hoarders: Crusher|20}} || 20.096 || Type 1
+| {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|20}} || 75.36 || Type 1 || 6
 |-
-| [[Nobushi]] || 25.12 || Type 2
+| {{Enemy|Fatui Skirmisher - Geochanter Bracer|20}} || 37.68 || Type 1 || 3
 |-
-| [[Kairagi]] || 62.8 || Type 2
+| {{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}} || 56.52 || Type 1 || 4.5
 |-
-| [[Specters]] || 17.584 || Type 2
+| {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|20}} || 37.68 || Type 1 || 3
 |-
-| [[Floating Fungi]] || 22.608 || Type 2
+| {{Enemy|Fatui Skirmisher - Hydrogunner Legionnaire|20}} || 25.12 || Type 1 || 2
+|-
+| {{Enemy|Treasure Hoarder Potioneer|20}} || 20.096 || Type 1 || 1.6
+|-
+| {{Enemy|Treasure Hoarders: Scout|20}} || 15.072 || Type 1 || 1.2
+|-
+| {{Enemy|Treasure Hoarders: Marksman|20}} || 15.072 || Type 1 || 1.2
+|-
+| {{Enemy|Treasure Hoarders: Crusher|20}} || 20.096 || Type 1 || 1.6
+|-
+| {{Enemy|Treasure Hoarders: Gravedigger|20}} || 20.096 || Type 1 || 1.6
+|-
+| {{Enemy|Treasure Hoarders: Handyman|20}} || 20.096 || Type 1 || 1.6
+|-
+| {{Enemy|Treasure Hoarders: Pugilist|20}} || 20.096 || Type 1 || 1.6
+|-
+| {{Enemy|Treasure Hoarders: Crusher|20}} || 20.096 || Type 1 || 1.6
+|-
+| {{Enemy|Nobushi|20}} || 20.096 || Type 2 || 1.6
+|-
+| {{Enemy|Kairagi|20}} || 94.2 || Type 2 || 7.5
+|-
+| {{Enemy|Specter|20}} (Most) || 21.98 || Type 2 || 1.75
+|-
+| {{Enemy|Dendro Specter|20}} || 17.584 || Type 2 || 1.4
+|-
+| {{Enemy|Electro Specter|20}} || 35.168 || Type 2 || 2.8
+|-
+| {{Enemy|Fungus|20}} (Most) || 22.608 || Type 2 || 1.8
+|-
+| {{Enemy|Winged Dendroshroom|20}} || 37.68 || Type 2 || 3
+|-
+| {{Enemy|Grounded Hydroshroom|20}} || 37.68 || Type 2 || 3
+|-
+| {{Enemy|Winged Cryoshroom|20}} || 30.144 || Type 2 || 2.4
+|-
+| {{Enemy|Grounded Geoshroom|20}} || 30.144 || Type 2 || 2.4
+|-
+| {{Enemy|The Eremites|20}} (Most) || 20.096 || Type 2 || 1.6
+|-
+| {{Enemy|Eremite Crossbow|20}} || 25.12 || Type 2 || 2
+|-
+| {{Enemy|Eremite Ravenbeak Halberdier|20}} || 25.12 || Type 2 || 2
+|-
+| {{Enemy|Eremite Desert Clearwater|20}} || 40.192 || Type 2 || 3.2
+|-
+| {{Enemy|Eremite Sunfrost|20}} || 40.192 || Type 2 || 3.2
+|-
+| {{Enemy|Eremite Daythunder|20}} || 30.144 || Type 2 || 2.4
+|-
+| {{Enemy|Eremite Stone Enchanter|20}} || 50.24 || Type 2 || 4
+|-
+| {{Enemy|Eremite Floral Ring-Dancer|20}} || 50.24 || Type 2 || 4
+|-
+| {{Enemy|Eremite Galehunter|20}} || 62.8 || Type 2 || 5
+|-
+| {{Enemy|Eremite Scorching Loremaster|20}} || 62.8 || Type 2 || 5
 |}
 
 ====Elite Enemies====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base ATK !! Level Multiplier Type
+! Enemy !! Base ATK !! Level Multiplier<br />Type !! Base ATK Ratio<br />to Forest Boar
 |-
-| [[Abyss Mages]] || 37.68 || Type 1
+| {{Enemy|Cryo Abyss Mage|20}} || 37.68 || Type 1 || 3
 |-
-| [[Abyss Heralds]] || 37.68 || Type 1
+| {{Enemy|Hydro Abyss Mage|20}} || 37.68 || Type 1 || 3
 |-
-| [[Abyss Lectors]] || 37.68 || Type 1
+| {{Enemy|Pyro Abyss Mage|20}} || 56.52 || Type 1 || 4.5
 |-
-| {{Enemy|Eye of the Storm|20}} || 62.8 || Type 1
+| {{Enemy|Electro Abyss Mage|20}} || 47.1 || Type 1 || 3.75
 |-
-| [[Fatui Cicin Mages]] || 50.24 || Type 1
+| {{Enemy|Abyss Herald: Wicked Torrents|20}} || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Fatui Pyro Agent|20}} || 50.24 || Type 1
+| {{Enemy|Abyss Herald: Frost Fall|20}} || 56.52 || Type 2 || 4.5
 |-
-| {{Enemy|Geovishap|20}} || 37.68 || Type 1
+| {{Enemy|Abyss Lector|20}} || 56.52 || Type 1 || 4.5
 |-
-| {{Enemy|Geovishap Hatchling|20}} || 30.144 || Type 1
+| {{Enemy|Eye of the Storm|20}} || 62.8 || Type 1 || 5
 |-
-| [[Mitachurls]] || 30.144 || Type 1
+| {{Enemy|Fatui Cicin Mage|20}} || 50.24 || Type 1 || 4
 |-
-| [[Lawachurls]] || 75.36 || Type 1
+| {{Enemy|Fatui Pyro Agent|20}} || 100.48 || Type 1 || 8
 |-
-| {{Enemy|Ruin Guard|20}} || 75.36 || Type 1
+| {{Enemy|Geovishap|20}} || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Ruin Hunter|20}} || 87.92 || Type 1
+| {{Enemy|Geovishap Hatchling|20}} || 54.2592 || Type 1 || 4.32
 |-
-| {{Enemy|Ruin Grader|20}} || 87.92 || Type 1
+| {{Enemy|Mitachurl|20}} (Axe) || 60.288 || Type 1 || 4.8
 |-
-| {{Enemy|Ruin Cruiser|20}} || 52.752 || Type 1
+| {{Enemy|Mitachurl|20}} (Shield) || 30.144 || Type 1 || 2.4
 |-
-| {{Enemy|Ruin Destroyer|20}} || 52.752 || Type 1
+| {{Enemy|Stonehide Lawachurl|20}} || 113.04 || Type 1 || 9
 |-
-| {{Enemy|Ruin Defender|20}} || 37.68 || Type 1
+| {{Enemy|Frostarm Lawachurl|20}} || 150.72 || Type 1 || 12
 |-
-| {{Enemy|Ruin Scout|20}} || 37.68 || Type 1
+| {{Enemy|Thunderhelm Lawachurl|20}} || 150.72 || Type 1 || 12
 |-
-| {{Enemy|The Great Snowboar King|20}} || 62.8 || Type 1
+| {{Enemy|Ruin Guard|20}} || 60.288 || Type 1 || 4.8
 |-
-| {{Enemy|Mirror Maiden|20}} || 37.68 || Type 1
+| {{Enemy|Ruin Hunter|20}} || 175.84 || Type 1 || 14
 |-
-| [[Rifthounds]] || 40.192 || Type 1
+| {{Enemy|Ruin Grader|20}} || 87.92 || Type 1 || 7
 |-
-| Rifthound Whelps || 15.072 || Type 1
+| {{Enemy|Ruin Cruiser|20}} || 52.752 || Type 1 || 4.2
 |-
-| {{Enemy|Primordial Bathysmal Vishap|20}} || 50.24 || Type 1
+| {{Enemy|Ruin Destroyer|20}} || 52.752 || Type 1 || 4.2
 |-
-| {{Enemy|Primordial Bathysmal Vishap Hatchling|20}} || 25.12 || Type 1
+| {{Enemy|Ruin Defender|20}} || 56.52 || Type 1 || 4.5
 |-
-| {{Enemy|Bolteater Bathysmal Vishap Hatchling|20}} || 25.12 || Type 1
+| {{Enemy|Ruin Scout|20}} || 48.984 || Type 1 || 3.9
 |-
-| {{Enemy|Rimebiter Bathysmal Vishap Hatchling|20}} || 25.12 || Type 1
+| {{Enemy|The Great Snowboar King|20}} || 62.8 || Type 1 || 5
 |-
-| {{Enemy|Shadowy Husk: Defender|20}} || 62.8 || Type 2
+| {{Enemy|Mirror Maiden|20}} || 30.144 || Type 1 || 2.4
 |-
-| {{Enemy|Shadowy Husk: Line Breaker|20}} || 37.68 || Type 2
+| {{Enemy|Rifthound|20}} || 40.192 || Type 1 || 3.2
 |-
-| {{Enemy|Shadowy Husk: Standard Bearer|20}} || 50.24 || Type 2
+| {{Enemy|Rifthound Whelp|20}} || 15.072 || Type 1 || 1.2
 |-
-| {{Enemy|Black Serpent Knight: Windcutter|20}} || 62.8 || Type 2
+| {{Enemy|Primordial Bathysmal Vishap|20}} || 50.24 || Type 1 || 4
+|-
+| {{Enemy|Primordial Bathysmal Vishap Hatchling|20}} || 25.12 || Type 1 || 2
+|-
+| {{Enemy|Bolteater Bathysmal Vishap Hatchling|20}} || 25.12 || Type 1 || 2
+|-
+| {{Enemy|Rimebiter Bathysmal Vishap Hatchling|20}} || 25.12 || Type 1 || 2
+|-
+| {{Enemy|Shadowy Husk: Defender|20}} || 62.8 || Type 2 || 5
+|-
+| {{Enemy|Shadowy Husk: Line Breaker|20}} || 37.68 || Type 2 || 3
+|-
+| {{Enemy|Shadowy Husk: Standard Bearer|20}} || 50.24 || Type 2 || 4
+|-
+| {{Enemy|Black Serpent Knight: Windcutter|20}} || 62.8 || Type 2 || 5<!--
+|-
+| {{Enemy|Black Serpent Knight: Rockbreaker Ax|20}} || 75.36 || Type 2 || 6-->
+|-
+| {{Enemy|Ruin Drake: Earthguard|20}} || 50.24 || Type 2 || 4
+|-
+| {{Enemy|Ruin Drake: Skywatch|20}} || 62.8 || Type 2 || 5
+|-
+| {{Enemy|Primal Construct|20}} || 45.216 || Type 2 || 3.6
+|-
+| {{Enemy|Consecrated Beast|20}} || 75.36 || Type 2 || 6
 |}
 
 ====Normal Bosses====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base ATK !! Level Multiplier Type
+! Enemy !! Base ATK !! Level Multiplier<br />Type !! Base ATK Ratio<br />to Forest Boar
 |-
-| [[Hypostases]] || 75.36 || Type 1
+| {{Enemy|Anemo Hypostasis|20}} || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Geo Hypostasis|20}} || 75.36 || Type 2
+| {{Enemy|Electro Hypostasis|20}} || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Cryo Hypostasis|20}} || 75.36 || Type 2
+| {{Enemy|Geo Hypostasis|20}} || 75.36 || Type 2 || 6
 |-
-| Hypostases (Event) || 75.36 || Type 1
+| {{Enemy|Cryo Hypostasis|20}} || 75.36 || Type 2 || 6
 |-
-| [[Regisvines]] || 62.8 || Type 1
+| {{Enemy|Pyro Hypostasis|20}} || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Resurgent Cryo Regisvine|20}} || 75.36 || Type 1
+| {{Enemy|Hydro Hypostasis|20}} || 113.04 || Type 1 || 9
 |-
-| {{Enemy|Oceanid|20}} || 75.36 || Type 1
+| {{Enemy|Dendro Hypostasis|20}} || 75.36 || Type 2 || 6
 |-
-| {{Enemy|Hydro Mimic Crane|20}}  || 62.8 || Type 2
+| {{Enemy|Hypostasis|20}} (Hypostatic Symphony) || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Hydro Mimic Raptor|20}} || 50.24 || Type 2
+| {{Enemy|Hypostasis|20}} (Hypostatic Symphony: Dissonant Verse) || 75.36 || Type 2 || 6
 |-
-| {{Enemy|Hydro Mimic Mallard|20}} || 25.12 || Type 2
+| {{Enemy|Regisvine|20}} (Most) || 62.8 || Type 1 || 5
 |-
-| {{Enemy|Hydro Mimic Crab|20}} || 50.24 || Type 2
+| {{Enemy|Resurgent Cryo Regisvine|20}} || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Hydro Mimic Boar|20}} || 25.12 || Type 2
+| {{Enemy|Oceanid|20}} || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Hydro Mimic Ferret|20}} || 37.68 || Type 2
+| {{Enemy|Hydro Mimic Crane|20}}  || 62.8 || Type 2 || 5
 |-
-| {{Enemy|Hydro Mimic Frog|20}} || 62.8 || Type 2
+| {{Enemy|Hydro Mimic Raptor|20}} || 50.24 || Type 2 || 4
 |-
-| {{Enemy|Hydro Mimic Finch|20}} || 62.8 || Type 2
+| {{Enemy|Hydro Mimic Mallard|20}} || 25.12 || Type 2 || 2
 |-
-| {{Enemy|Oceanid|20}} (Event) || 50.24 || Type 1
+| {{Enemy|Hydro Mimic Crab|20}} || 50.24 || Type 2 || 4
 |-
-| {{Enemy|Hydro Mimic Crab|20}} (Event) || 25.12 || Type 1
+| {{Enemy|Hydro Mimic Boar|20}} || 25.12 || Type 2 || 2
 |-
-| {{Enemy|Hydro Mimic Boar|20}} (Event) || 37.68 || Type 1
+| {{Enemy|Hydro Mimic Ferret|20}} || 37.68 || Type 2 || 3
 |-
-| {{Enemy|Hydro Mimic Ferret|20}} (Event) || 37.68 || Type 1
+| {{Enemy|Hydro Mimic Frog|20}} || 62.8 || Type 2 || 5
 |-
-| {{Enemy|Primo Geovishap|20}} || 50.24 || Type 1
+| {{Enemy|Hydro Mimic Finch|20}} || 62.8 || Type 2 || 5
 |-
-| {{Enemy|Maguu Kenki|20}} || 100.48 || Type 2
+| {{Enemy|Hydro Mimic Crab|20}} (Event) || 25.12 || Type 1 || 2
 |-
-| [[Dual Maguu Kenki]] || 62.8 || Type 1
+| {{Enemy|Hydro Mimic Boar|20}} (Event) || 37.68 || Type 1 || 3
 |-
-| {{Enemy|Perpetual Mechanical Array|20}} || 75.36 || Type 1
+| {{Enemy|Hydro Mimic Ferret|20}} (Event) || 37.68 || Type 1 || 3
 |-
-| {{Enemy|Thunder Manifestation|20}} || 50.24 || Type 2
+| {{Enemy|Primo Geovishap|20}} || 100.48 || Type 1 || 8
 |-
-| {{Enemy|Golden Wolflord|20}} || 100.48 || Type 2
+| {{Enemy|Maguu Kenki|20}} || 100.48 || Type 2 || 8
 |-
-| {{Enemy|Coral Defenders|20}} || 62.8 || Type 1
+| {{Enemy|Dual Maguu Kenki|20}} || 62.8 || Type 1 || 5
 |-
-| {{Enemy|Ruin Serpent|20}} || 75.36 || Type 2
+| {{Enemy|Perpetual Mechanical Array|20}} || 90.432 || Type 1 || 7.2
+|-
+| {{Enemy|Thunder Manifestation|20}} || 90.432 || Type 2 || 7.2
+|-
+| {{Enemy|Golden Wolflord|20}} || 100.48 || Type 2 || 8
+|-
+| {{Enemy|Coral Defenders|20}} || 62.8 || Type 1 || 5
+|-
+| {{Enemy|Ruin Serpent|20}} || 75.36 || Type 2 || 6
+|-
+| {{Enemy|Jadeplume Terrorshroom|20}} || 87.92 || Type 2 || 7
+|-
+| {{Enemy|Electro Regisvine|20}} || 62.8 || Type 2 || 5
+|-
+| {{Enemy|Aeonblight Drake|20}} || 75.36 || Type 2 || 6
+|-
+| {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}} || 82.896 || Type 2 || 6.6
+|-
+| {{Enemy|Setekh Wenut|20}} || 75.36 || Type 2 || 6
 |}
 
 ====Weekly Bosses====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base ATK !! Level Multiplier Type
+! Enemy !! Base ATK !! Level Multiplier<br />Type !! Base ATK Ratio<br />to Forest Boar
 |-
-| {{Enemy|Andrius|20}} || 75.36 || Type 1
+| {{Enemy|Andrius|20}} || 90.432 || Type 1 || 7.2
 |-
-| {{Enemy|Dvalin|20}} || 75.36 || Type 2
+| {{Enemy|Dvalin|20}} || 75.36 || Type 2 || 6
 |-
-| {{Enemy|Childe|20}} (Phase 1) || 62.8 || Type 1
+| {{Enemy|Childe|20}} (Phase 1/2) || 125.6 || Type 1 || 10
 |-
-| {{Enemy|Childe|20}} (Phase 2) || 62.8 || Type 1
+| {{Enemy|Childe|20}} (Phase 3) || 175.84 || Type 1 || 14
 |-
-| {{Enemy|Childe|20}} (Phase 3) || 87.92 || Type 1
+| {{Enemy|Azhdaha|20}} || 113.04 || Type 2 || 9
 |-
-| {{Enemy|Azhdaha|20}} || 37.68 || Type 2
+| {{Enemy|Signora|20}} || 60.288 || Type 1 || 4.8
 |-
-| {{Enemy|Signora|20}} || 37.68 || Type 1
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} || 150.72 || Type 2 || 12
 |-
-| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} || 50.24 || Type 2
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} (Phase 1) || 62.8 || Type 2 || 5
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} (Phase 2) || 75.36 || Type 2 || 6
 |}
 
 ====Special Enemies====
 {| class="article-table sortable waffle no-grid"
-! Enemy !! Base ATK !! Level Multiplier Type
+! Enemy !! Base ATK !! Level Multiplier<br />Type !! Base ATK Ratio<br />to Forest Boar
 |-
-| {{Enemy|Unusual Hilichurl|20}} || 22.608 || Type 1
+| {{Enemy|Unusual Hilichurl|20}} || 45.216 || Type 1 || 3.6
 |-
-| {{Enemy|Treasure Hoarders: Raptor|20}} || 25.12 || Type 1
+| {{Enemy|Treasure Hoarders: Raptor|20}} || 25.12 || Type 1 || 2
 |-
-| {{Enemy|Treasure Hoarders: Boss|20}} || 37.68 || Type 1
+| {{Enemy|Treasure Hoarders: Boss|20}} || 37.68 || Type 1 || 3
 |-
-| {{Enemy|Treasure Hoarders: Liuliu|20}} || 37.68 || Type 1
+| {{Enemy|Treasure Hoarders: Liuliu|20}} || 37.68 || Type 1 || 3
 |-
-| {{Enemy|Treasure Hoarders: Carmen|20}} || 30.144 || Type 1
+| {{Enemy|Treasure Hoarders: Carmen|20}} || 30.144 || Type 1 || 2.4
 |-
-| {{Enemy|Treasure Hoarders: Wallenstein|20}} || 30.144 || Type 1
+| {{Enemy|Treasure Hoarders: Wallenstein|20}} || 30.144 || Type 1 || 2.4
 |-
-| {{Enemy|Millelith Soldier|20}} || 20.096 || Type 1
+| {{Enemy|Millelith Soldier|20}} || 20.096 || Type 1 || 1.6
 |-
-| {{Enemy|Millelith Sergeant|20}} || 25.12 || Type 1
+| {{Enemy|Millelith Sergeant|20}} || 25.12 || Type 1 || 2
 |-
-| {{Enemy|Shogunate Infantry|20}} || 20.096 || Type 1
+| {{Enemy|Shogunate Infantry|20}} || 20.096 || Type 1 || 1.6
 |-
-| {{Enemy|Shogunate Infantry Captain|20}} || 25.12 || Type 1
+| {{Enemy|Shogunate Infantry Captain|20}} || 25.12 || Type 1 || 2
 |-
-| {{Enemy|Yoriki Samurai|20}} || 37.68 || Type 1
+| {{Enemy|Yoriki Samurai|20}} || 30.144 || Type 1 || 2.4
 |-
-| {{Enemy|Watatsumi Soldier: Kouzen|20}} || 20.096 || Type 1
+| {{Enemy|Watatsumi Soldier: Kouzen|20}} || 20.096 || Type 1 || 1.6
 |-
-| [["Miasmic Tumor"]] || 5.024 || Type 1
+| {{Enemy|"Miasmic Tumor"|20}} || 5.024 || Type 1 || 0.4
 |-
-| {{Enemy|Canine Bunshin|20}} || 75.36 || Type 1
+| {{Enemy|Canine Bunshin|20}} || 75.36 || Type 1 || 6
 |-
-| {{Enemy|Black Shadow: Hayate no Gokotu|20}} || 62.8 || Type 1
+| {{Enemy|Black Shadow: Hayate no Gokotu|20}} || 62.8 || Type 1 || 5
 |-
-| {{Enemy|Beisht|20}} || 50.24 || Type 1
+| {{Enemy|Beisht|20}} || 50.24 || Type 1 || 4
 |-
-| {{Enemy|Nobushi: Hitsukeban|20}} (Event) || 10.048 || Type 1
+| {{Enemy|Nobushi: Hitsukeban|20}} (Event) || 10.048 || Type 1 || 0.8
 |-
-| {{Enemy|Yoriki Samurai|20}} (Event) || 15.072 || Type 1
+| {{Enemy|Yoriki Samurai|20}} (Event) || 15.072 || Type 1 || 1.2
 |-
-| {{Enemy|Kairagi: Dancing Thunder|20}} (Event) || 25.12 || Type 1
+| {{Enemy|Kairagi: Dancing Thunder|20}} (Event) || 25.12 || Type 1 || 2
 |-
-| {{Enemy|Taroumaru|20}} || 25.12 || Type 1
+| {{Enemy|Kairagi: Fiery Might|20}} (Event) || 25.12 || Type 1 || 2
+|-
+| {{Enemy|Taroumaru|20}} || 25.12 || Type 1 || 2
+|-
+| {{Enemy|Marana's Avatar|20}} || 100.48 || Type 1 || 8
+|-
+| {{Enemy|Spirit of Omen: Stone Drake|20}} || 40.192 || Type 1 || 3.2
+|-
+| {{Enemy|Spirit of Omen: Dendro Spirit-Serpent|20}} || 40.192 || Type 1 || 3.2
+|-
+| {{Enemy|Spirit of Omen: Wind Glede|20}} || 50.24 || Type 1 || 4
+|-
+| {{Enemy|Spirit of Omen: Pyro Scorpion|20}} || 50.24 || Type 1 || 4
+|-
+| {{Enemy|Sumpter Beast|20}} (Small) || 12.56 || Type 1 || 1
+|-
+| {{Enemy|Sumpter Beast|20}} (Medium) || 17.584 || Type 1 || 1.4
+|-
+| {{Enemy|Sumpter Beast|20}} (Large) || 22.608 || Type 1 || 1.8
+|-
+| {{Enemy|Spinocrocodile|20}} || 10.048 || Type 1 || 0.8
+|-
+| {{Enemy|Rishboland Tiger|20}} || 15.072 || Type 1 || 1.2
+|-
+| {{Enemy|Scorpion|20}} || 15.072 || Type 1 || 1.2
+|-
+| {{Enemy|Red Vulture|20}} || 12.56 || Type 1 || 1
+|-
+| {{Enemy|Eremite Stone Enchanter|20}} (Event) || 25.12 || Type 1 || 2
 |}
 
 ===Base DEF===
@@ -941,13 +1171,30 @@ For calculation,
 
 ==Special Multiplier==
 {{See also|Co-Op Mode}}
+
 ===Special HP Multiplier===
 For types of special HP multipliers, there are Quests, Domains, Spiral Abyss and Co-Op Mode.
 
-Special HP multipliers of different types stack multiplicatively.{{cite}}
+Special HP multipliers of different types stack multiplicatively.
 
 {| class="wikitable"
 ! Type !! Multiplier
+|-
+! colspan="2" | [[Spiral Abyss]]
+|-
+| Floor 3 - 7 || 1.5
+|-
+| Floor 8 - 11 || 2.0
+|-
+| Floor 12 || 2.5
+|-
+! colspan="2" | [[Co-Op Mode]]
+|-
+| Players in the Same Area (Most Cases) || (2 Players) 1.5<br />(3 Players) 2.0<br />(4 Players) 2.5
+|-
+| Players in certain [[Weekly Bosses|Weekly Boss]] Challenges<sup>(1)<sup> || (2 Players) 1.25<br />(3 Players) 1.5<br />(4 Players) 1.75
+|-
+| Players in the [[Theater Mechanicus]] Event || (2 Players) 1.0<br />(3 Players) 1.0<br />(4 Players) 1.0
 |-
 ! colspan="2" | Quests
 |-
@@ -986,22 +1233,6 @@ Special HP multipliers of different types stack multiplicatively.{{cite}}
 | [[Invitation of Windblume/Peculiar Wonderland|Peculiar Wonderland]] || 2
 |-
 | [[Energy Amplifier Initiation]] || Custom: 2 / 2.5 / 4 / 6
-|-
-! colspan="2" | [[Spiral Abyss]]
-|-
-| Floor 3 - 7 || 1.5
-|-
-| Floor 8 - 11 || 2.0
-|-
-| Floor 12 || 2.5
-|-
-! colspan="2" | [[Co-Op Mode]]
-|-
-| Players in the Same Area (Most Cases) || (2 Players) 1.5<br />(3 Players) 2.0<br />(4 Players) 2.5
-|-
-| Players in certain [[Weekly Bosses|Weekly Boss]] Challenges<sup>(1)<sup> || (2 Players) 1.25<br />(3 Players) 1.5<br />(4 Players) 1.75
-|-
-| Players in the [[Theater Mechanicus]] Event || (2 Players) 1.0<br />(3 Players) 1.0<br />(4 Players) 1.0
 |}
 *(1)These weekly bosses are [[Beneath_the_Dragon-Queller|Azhdaha]], [[Narukami_Island:_Tenshukaku|La Signora]] and [[End_of_the_Oneiric_Euthymia|Magatsu Mitake Narukami no Mikoto]]
 
@@ -1024,17 +1255,6 @@ Special ATK multipliers of different types stack multiplicatively.{{cite}}
 | 3 Players in the same area || 1.25
 |-
 | 4 Players in the same area || 1.4
-|-
-! colspan="2" | Other
-|-
-| Buff from '''Pyro Elemental Nodes''' || 1.4
 |}
 
-===Special DEF Multiplier===
-There are not many special DEF multipliers in the current version.
-
-The buff from '''Cryo [[Elemental Nodes]]''' in Domains or '''Cryo Infusion Stones''' in Dragonspine can double the DEF of enemies.
-
-==References==
-{{Reflist}}
 [[Category:Game System Subpages]]

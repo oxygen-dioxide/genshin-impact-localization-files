@@ -1,24 +1,36 @@
 {{Enemy Infobox
 |title    = Daleth
-|element  = Cryo
+|dmgtype  = Cryo
 |type     = Normal Bosses
 |family   = Elemental Lifeforms
 |group    = Hypostases
 |image    = Enemy Cryo Hypostasis.png
+|weakpoint = no
 |location = [[Dragonspine]], [[Mondstadt]]
 |ability1 = Healing
 |ability2 = Shield
 |ability3 = Invincibility Frames
 |drops    = Crystalline Bloom
 }}
-{{Description|Code name: Daleth. A high-purity [[Cryo]] entity.<br />Research suggests that there are subtle differences between elemental hypostases and other elemental life forms in terms of their physical composition. Perhaps these differences can account for their high level of homeostasis and their almost mechanical movements.|[[Adventurer Handbook]]}}
-{{Enemy Intro|name='''Cryo Hypostasis''' (Code Name: Daleth)}} In order to challenge the Cryo Hypostasis, players must complete the quest [[In the Mountains]]. After it is completed, the boss will spawn over the ice where the elemental monuments, automatons, and switches used to be.
+{{Enemy Intro|name='''Cryo Hypostasis''' (Code Name: Daleth)}} In order to challenge the Cryo Hypostasis, players must complete the quest ''[[In the Mountains]]''. After it is completed, the boss will spawn over the ice where the elemental monuments, automatons, and switches used to be.
 
-==Rewards==
+==Drops==
+===Items===
 {{World Boss Rewards
 |gem=Shivada Jade
 |exclusive=Crystalline Bloom
 |sets=Lucky Dog,Berserker,The Exile,Prayers to Springtime
+}}
+
+===Energy===
+{{Energy Drops
+|type  = Cryo
+|hp1   = 66
+|o1    = 1
+|hp2   = 33
+|o2    = 1
+|hp3   = 0
+|p3    = 2
 }}
 
 ==Stats==
@@ -31,45 +43,61 @@
 }}
 
 ==Abilities and Attacks==
+''Most attack names are unofficial.''
 For most of the attacks below, the core will be exposed for a few seconds after the boss uses the attack. Use this opportunity to deal damage to the boss.
 
-*'''Sheer Cold Acceleration:''' Being near the Cryo Hypostasis accelerates the rate of [[Sheer Cold]] to 2.5%/s.
-*'''Icy Spikes:''' Creates a barrier of detonating icicles around itself while spawning icicles where the player is standing with a short delay, dealing '''50% ATK''' as {{Color|Cryo DMG}}. Dodge by either periodically dashing around the edge of the arena or running towards the exposed core.
-*'''Frost Wheel:''' Transforms into a wheel that travels in a straight line towards the player and deals '''50% ATK''' as {{Color|Cryo DMG}} on hit. This attack may turn up to three times.
-*'''Homing Icicles:''' Flies into the air and forms a rhombus with its shell pieces before firing each of them at the player, dealing '''50% ATK''' as {{Color|Cryo DMG}}. The trajectory of these projectiles is curved, but can be dodged by dashing under the Hypostasis during the attack. The core is exposed during this attack.
-*'''Crystalline Skirt:''' Forms a "skirt" of icicles which it shoots in three rings of increasing diameter, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
-*'''Clap:''' Flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}} in front of the wall.
-*'''Glacial Shield:''' When HP is low (approx. 5%), teleports to the center of the arena and forms a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} shield around itself. While maintaining this state, summons several Frostfruits around it, dealing '''25% ATK''' as  {{Color|AoE Cryo DMG}} on landing. while regenerating a percentage of HP every second. '''Homing Icicles''' will be fired periodically during this phase. Players are able to use Charged Attacks against the fallen Frostfruits to destroy the shield and expose the core. The shield breaks down after reaching 50% HP.
-*'''Icicle Barrage:''' While attempting to revive, if the player is close, shoots out a barrage of icicles, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
+{{Enemy Attacks
+|name_1 = Sheer Cold Acceleration
+|desc_1 = Being near the Cryo Hypostasis accelerates the rate of [[Sheer Cold]] accumulation by '''200%'''.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Cryo Hypostasis Icy Spikes
-|caption1=Icy Spikes
+|name_2 = Icy Spikes
+|desc_2 = Creates a barrier of detonating icicles around itself while spawning icicles where the player is standing with a short delay, dealing '''50% ATK''' as {{Color|Cryo DMG}}. Dodge by either periodically dashing around the edge of the arena or running towards the exposed core.
 
-|file2=Cryo Hypostasis Frost Wheel
-|caption2=Frost Wheel
+|name_3 = Frost Wheel
+|desc_3 = Transforms into a wheel that travels in a straight line towards the player and deals '''50% ATK''' as {{Color|Cryo DMG}} on hit. This attack may turn up to three times.
 
-|file3=Cryo Hypostasis Homing Icicles
-|caption3=Homing Icicles
+|name_4 = Homing Icicles
+|desc_4 = Flies into the air and forms a rhombus with its shell pieces before firing each of them at the player, dealing '''50% ATK''' as {{Color|Cryo DMG}}. The trajectory of these projectiles is curved, but can be dodged by dashing under the Hypostasis during the attack. The core is exposed during this attack.
 
-|file4=Cryo Hypostasis Crystalline Skirt
-|caption4=Crystalline Skirt
+|name_5 = Crystalline Skirt
+|desc_5 = Forms a "skirt" of icicles which it shoots in three rings of increasing diameter, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
 
-|file5=Cryo Hypostasis Clap
-|caption5=Clap
+|name_6 = Clap
+|desc_6 = Flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}} in front of the wall.
 
-|file6=Cryo Hypostasis Glacial Shield
-|caption6=Glacial Shield
+|name_7 = Glacial Shield
+|desc_7 = When HP is low (5%), teleports to the center of the arena and forms a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} shield around itself. While maintaining this state, summons several Frostfruits around it, dealing '''25% ATK''' as  {{Color|AoE Cryo DMG}} on landing. while regenerating a percentage of HP every second. '''Homing Icicles''' will be fired periodically during this phase. Players are able to use [[Charged Attack]]s against the fallen Frostfruits to destroy the shield and expose the core and defeat it while it is exposed. The revival state will end when the Hypostasis heals to 50% HP and it will resume attacking.
+{{Elemental Shield Data|Cryo|88}}
 
-|file7=Cryo Hypostasis Icicle Barrage
-|caption7=Icicle Barrage
+|name_8 = Icicle Barrage
+|desc_8 = While attempting to revive, if the player is close, shoots out a barrage of icicles, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
 }}
 
-===Ability Logic===
+===Hypostatic Symphony===
+In the [[Hypostatic Symphony: Dissonant Verse]] Event, the Cryo Hypostasis gains the following new or modified abilities:
+{{Enemy Attacks
+|enemy  = Cryo Hypostasis Event
+
+|name_1 = Icy Spikes
+|desc_1 = Icicle spikes will spawn much more rapidly.
+
+|name_2 = Homing Icicles
+|desc_2 = Each icicle will split into 3 mini icicles shortly after being fired, each dealing '''25% ATK''' as {{Color|Cryo DMG}} on hit.
+
+|name_3 = Crystalline Skirt
+|desc_3 = In addition to the original attack, homing icicles will be fired, each dealing '''25% ATK''' as {{Color|Cryo DMG}} on hit.
+
+|name_4 = Glacial Shield
+|desc_4 = The Cryo Hypostasis will shoot 5 Frostfruits per wave instead of 3. 1 or 2 layers of 3 protective barriers capable of blocking Frostfruits will appear and rotate around the Hypostasis. The defensive barriers are {{Frozen}} objects that can be damaged by [[Elemental Reactions]] or [[Blunt Attack]]s, and are weakest to {{Pyro}}. Additionally, hitting a defensive barrier with a Frostfruit will also damage it by 6 Gauge Units.
+{{Elemental Shield Data|Cryo|6|Defensive Barrier}}
+|caption_4 = 1 Layer
+|file_4_2 = Cryo Hypostasis Event Glacial Shield 2
+|caption_4_2 = 2 Layers (Extreme Difficulty)
+}}
+
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -102,24 +130,18 @@ For most of the attacks below, the core will be exposed for a few seconds after 
 |}
 
 ==Strategy==
-Unlike the other Hypostases, the Cryo Hypostasis also has a passive effect throughout the entire fight: While the player is nearby, [[Sheer Cold]] accumulates faster than usual. There are three [[Ruin Brazier]]s around the boss to remove Sheer Cold.
-
-Being an elemental lifeform of pure {{Cryo}} energy, the boss itself is susceptible to [[Melt]] when attacked by {{Pyro}} characters, who deal at least twice as much damage when applying Pyro on Cryo, so it is recommended to bring Pyro characters against this boss. [[Superconduct]] is only recommended for physical users, as while the boss' defense decreases, the explosion deals {{Color|Cryo DMG}}, which it is immune to. [[Frozen]] is completely useless as boss enemies are immune to its effects.
-
-When it reaches critical health, the Cryo Hypostasis will attempt to heal itself back to at least half health, applying a powerful shield in the process. It will also launch Frostfruits around it, which can only be moved with Charged Attacks. The Frostfruits will damage the shield and at least three of them are needed to break the Cryo Hypostasis' shield. Since it does not attempt to revive itself like the others, the Cryo Hypostasis will continue attacking the player as it heals itself. While the shield can be tackled with Pyro attacks, the mechanic is intended to be dealt with using Frostfruits.
-
-The first Frostfruit will be launched at the player, and the other two Frostfruits will be launched further away. If the player intends to use a melee character's Charged Attacks, the player should save stamina before this phase so that the player will have enough stamina to run to the Frostfruits and use Charged Attacks.
-
-[[Aimed Shot]]s that are not fully charged still count as Charged Attacks and will move the Frostfruits.
-
-Frostfruits move in the opposite direction from the side that receives a hit, so while it suffices for the player to remain in one location and use a bow character's Charged Attacks to hit the Frostfruits, the player must be sure to hit the side of a Frostfruit that is not facing the Cryo Hypostasis in order to send the Frostfruit in the right direction. Similarly, if the player is using a melee character's Charged Attacks, the player must be sure to run "behind" the Frostfruits so that the Charged Attacks send the Frostfruits in the right direction. Frostfruits that do not roll toward the boss will not break the shield.
-
-PC users can quickly release an Aimed Shot without needing to use the Aimed Shot Mode [[keybind]] by holding the attack button and quickly releasing it, similar to how Charged Attacks are executed for melee characters.
-
-After the shield is destroyed, the Cryo Hypostasis will be left dazed as it tries to recollect itself. The player(s) have around 15–20 seconds to destroy the exposed core. If the core is not destroyed in time, it will stabilize and the fight resets with whatever health it had remaining.
+* Use the three [[Ruin Brazier]]s around the arena to remove [[Sheer Cold]].
+* Due to its innate elemental status, the Cryo Hypostasis is susceptible to [[Melt]] when attacked by {{Pyro}} characters, allowing them to deal increased DMG.
+* During the revival phase, staying close to the Cryo Hypostasis while it fires its Frostfruits will result in them landing closer to each other, making it easier to launch all 3 of them towards the Hypostasis before they expire.
+* Frostfruits move in the opposite direction from the side that receives a hit. Therefore, the player must be sure to hit the side of a Frostfruit that is not facing the Cryo Hypostasis in order to send the it in the right direction.
+* [[Aimed Shot]]s that are not fully charged still count as Charged Attacks and will move the Frostfruits. This is the fastest and most Stamina-efficient method to launch Frostfruits.
 
 ==Achievements==
 {{Achievement Topic Table|topic=Cryo Hypostasis}}
+
+==Descriptions==
+{{Description|A [[Skyfrost Nail|great nail]] fell down to Dragonspine in a bygone era, and has been pouring energy into the Ley Lines here ever since. Who knows what strange new phenomena might occur on the mountain when the nail is dislodged?|[[Adventurer Handbook]], before unlocking Cryo Hypostasis}}
+{{Description|Code name: Daleth. A high-purity [[Cryo]] entity.<br />Research suggests that there are subtle differences between elemental hypostases and other elemental life forms in terms of their physical composition. Perhaps these differences can account for their high level of homeostasis and their almost mechanical movements.|[[Adventurer Handbook]] and [[Archive]]}}
 
 ==Trivia==
 * Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Daleth"|he=דּ|he_rm=Dalet}} being named after the fourth.
@@ -128,7 +150,7 @@ After the shield is destroyed, the Cryo Hypostasis will be left dazed as it trie
 ** Both the [[Pyro Hypostasis]] and the [[Hydro Hypostasis]] share the same rounded corners.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Cryo Hypostasis Icon.png|Icon
 Version 1.5 "Beneath the Light of Jadeite" Trailer - Genshin Impact
 Chilled to the Bone.png|Chilled to the Bone Promotional Event
@@ -136,25 +158,9 @@ Chilled to the Bone.png|Chilled to the Bone Promotional Event
 
 ==Video Guides==
 {{EVT
-|video1   = https://youtu.be/0ED6wxGwoAQ
-|caption1 = Strategy Guide - Shortest Revival Phase
-
-|video2   = https://youtu.be/TO1LOzdexnY
-|caption2 = Strategy Guide - How to easily beat
-
-|video3   = https://youtu.be/wa2P3MJuR9U
-|caption3 = Secret Achievements Guide
+|video1   = https://youtu.be/LR7SqraXcqY
+|caption1 = Easy Cryo Hypostasis Guide (All attacks Explained)
 }}
-
-<!--
-==Event Variant==-->
-
-==Domains==
-Besides Dragonspine, the Cryo Hypostasis has appeared in the following [[Spiral Abyss]] floors:
-
-* [[Version 1.6]] Floor 10, Chamber 3, First Half
-
-* [[Version/2.0|Version 2.0]] Floor 11, Chamber 3, First Half
 
 ==Other Languages==
 {{Other Languages
@@ -177,13 +183,17 @@ Besides Dragonspine, the Cryo Hypostasis has appeared in the following [[Spiral 
 |ru      = Крио гипостазис
 |ru_tl   = Cryo Hypostasis
 |th      = Cryo Hypostasis
-|vi      = Băng Nguyên Bản
-|vi_tl   = Prototype Cryo
+|vi      = {{tt|Băng|冰}} {{tt|Nguyên Bản|原本}}
+|vi_tl   = The Original Ice
 |de      = Kryo-Hypostase
 |de_tl   = Cryo Hypostasis
 |id      = Cryo Hypostasis
 |pt      = Hypostasis Cryo
 |pt_tl   = Cryo Hypostasis
+|tr      = Buz Hipostazı
+|tr_tl   = 
+|it      = Ipostasi di Cryo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -192,5 +202,9 @@ Besides Dragonspine, the Cryo Hypostasis has appeared in the following [[Spiral 
 ==Navigation==
 {{Enemy Navbox|type=bosses}}
 
-[[es:Hipostasis Cryo]]
+[[de:Kryo-Hypostase]]
+[[es:Hipóstasis Cryo]]
+[[fr:Hypostase Cryo]]
+[[ja:無相の氷]]
 [[pt-br:Hypostasis Cryo]]
+[[ru:Крио гипостазис]]

@@ -2,7 +2,7 @@
 |image         = Talent Wind's Grand Ode.png
 |character     = Venti
 |type          = Elemental Burst
-|info          = Fires off an arrow made of countless coalesced winds, creating a huge [[Vacuum Field|Stormeye]] that sucks in opponents and deals continuous {{Color|Anemo DMG}}.<br /><br />'''[[Elemental Absorption]]'''<br />If the Stormeye comes into contact with {{Hydro}}/<wbr>{{Pyro}}/<wbr>{{Cryo}}/<wbr>{{Electro}}, it will deal additional {{Color|Black|Elemental DMG}} of that type.<br />Elemental Absorption may only occur once per use.
+|info          = Fires off an arrow made of countless coalesced winds, creating a huge [[Vacuum Field|Stormeye]] that sucks in opponents and deals continuous {{Color|Anemo DMG}}.<br /><br />'''[[Elemental Absorption]]'''<br />If the Stormeye comes into contact with {{Hydro}}/<wbr>{{Pyro}}/<wbr>{{Cryo}}/<wbr>{{Electro}}, it will deal additional {{Color|Black|elemental DMG}} of that type.<br />Elemental Absorption may only occur once per use.
 |utility1      = Elemental Absorption
 |utility2      = Vacuum Field
 |utility3      = AoE
@@ -20,38 +20,67 @@
 '''Wind's Grand Ode''' is [[Venti]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
+* {{TalentNote|energy frame|90}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|83}}<ref name="Genshin Academy burst info sheet" />
 * The Stormeye deals 20× {{Color|Anemo DMG}} within 8 seconds.
 * Elemental Absorption deals 50% of damage over time as extra {{Color|Black|Elemental DMG}} of the absorbed element.
-* {{TalentNote|icd|DoT|1|3}}
-* {{TalentNote|icd|Additional Elemental DMG|1|3}}
 * The Elemental Absorption takes ~1 second to happen: if this skill is used on a target affected by an element, the 3 first damage ticks will not benefit from the Elemental Absorption.
-* This skill does not lift enemies more than 20 levels higher than Venti.
 * This skill does not pull items created by the player, like bombs from [[Jumpy Dumpty]] or [[Guoba]].
-* The Stormeye can pull in certain heavy enemies that are [[Frozen]] (see table).
+
+;Displacement Mechanics
+* The [[Vacuum Field]] produced by this skill has the following properties (see [[Vacuum Field#Vacuum Data]] for the applications of these properties):
+** Pulling Radius: '''15'''m
+** Inner Radius: '''0.2'''m
+** Strength: '''6'''
+** Attenuation: '''0.5'''
+** [[Weight]] Requirement: None
+* When an enemy whose weight is less than or equal to '''100''' is hit by this skill, they will be put into a "Struggle" state, preventing them from performing any actions and allowing them to be lifted into the air by the Stormeye.
+** However, the Struggle state will not be applied to enemies more than 20 levels higher than Venti.
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Venti|talent=Wind's Grand Ode|ascension|2|Stormeye}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|3|Ode to Thousand Winds}}
 * {{TalentNote|constellation|6|Storm of Defiance}}
 
-;<big>Displacement of Enemies</big>
-The following is a table of Wind's Grand Ode's effect on various enemies in the game. Large displacement means the Stormeye will rapidly clump enemies together and lift them (if Venti's level is high enough). Small displacement means the Stormeye will slowly clump them together but not lift them.
-<table class="article-table">
-<tr><th>Effect</th><th>Enemies</th></tr>
-<tr>
-<td>Large displacement + lifting</td>
-<td>[[Slimes]], [[Hilichurls]], [[Treasure Hoarders]], [[Fatui Cicin Mages]] (no shield),<ref group="Note">In general, when the enemy is shielded, the Stormeye does not appear to [[displacement|displace]] them, but may still do damage.</ref> [[Fatui Agents]], [[Mirror Maiden]],<ref group="Note">When the Mirror Maiden is not surrounded by her Hydro crystals, which appear to increase her [[Interruption Resistance]], she can be lifted by Skyward Sonnet and trapped inside Venti's Stormeye. Otherwise, when the Mirror Maiden is surrounded by the crystals, the Stormeye appears to not displace her, though it can still damage her.</ref> [[Whopperflowers]] (no shield), [[Nobushi]],<ref group="Note" name='heavy'>It can be done if one uses Wind's Grand Ode followed by [[Skyward Sonnet]] while it is trapped in the Stormeye.</ref> [[Unusual Hilichurl]],<ref group="Note" name='heavy' /> [[Riftwolves|Rifthound Whelps]]</td>
-</tr>
-<tr>
-<td>Small displacement</td>
-<td>[[Mitachurls]], [[Fatui Skirmishers]], [[Abyss Lectors]], [[Abyss Heralds]], [[Ruin Guard]]s (Frozen), [[Lawachurls]] (Frozen), [[Kairagi]], [[Geovishaps]]</td>
-</tr>
-<tr>
-<td>No displacement</td>
-<td>[[Bosses]], [[Hydro Mimics]]</td>
-</tr>
-</table>
-{{clr}}
+==Advanced Properties==
+{{Advanced Properties
+|title   = DoT
+|gu      = 1U
+|icdtag  = Elemental Burst Anemo
+|icdtype = 1s/3 Hits
+|poise   = 4
+|impulse = 2
+
+|title2   = Absorbed Cryo
+|gu2      = 1U
+|icdtag2  = Elemental Burst Cryo
+|icdtype2 = 1s/3 Hits
+|poise2   = 0
+|impulse2 = 0
+
+|title3   = Absorbed Electro
+|gu3      = 1U
+|icdtag3  = Elemental Burst Electro
+|icdtype3 = 1s/3 Hits
+|poise3   = 0
+|impulse3 = 0
+
+|title4   = Absorbed Hydro
+|gu4      = 1U
+|icdtag4  = Elemental Burst Hydro
+|icdtype4 = 1s/3 Hits
+|poise4   = 0
+|impulse4 = 0
+
+|title5   = Absorbed Pyro
+|gu5      = 1U
+|icdtag5  = Elemental Burst Pyro
+|icdtype5 = 1s/3 Hits
+|poise5   = 0
+|impulse5 = 0
+}}
 
 ==Preview==
 {{Preview
@@ -104,8 +133,9 @@ The following is a table of Wind's Grand Ode's effect on various enemies in the 
 {{Talent VO}}
 
 ==Trivia==
-*When Nobushi were released, Wind's Grand Ode was unable to lift them.
-**In [[Version 2.1]], the [[weight]] of Nobushi was decreased, enabling Wind's Grand Ode to lift them when used with Skyward Sonnet.
+* {{Transclude|Breezy Ode|Glowing Ornaments|section=1}}
+* When Nobushi were released, Wind's Grand Ode was unable to lift them.
+** In [[Version 2.1]], the [[weight]] of Nobushi was decreased, enabling Wind's Grand Ode to lift them when used with Skyward Sonnet.
 
 ==Notes==
 {{Reflist|note=1}}
@@ -129,7 +159,7 @@ The following is a table of Wind's Grand Ode's effect on various enemies in the 
 |fr      = Ode au Vent
 |fr_tl   = Ode to the Wind
 |ru      = Великая ода ветру
-|ru_tl   = 
+|ru_tl   = Wind's Grand Ode
 |th      = Wind's Grand Ode
 |vi      = Bài Thơ Thần Gió
 |vi_tl   = Poem of the Wind God
@@ -138,6 +168,10 @@ The following is a table of Wind's Grand Ode's effect on various enemies in the 
 |id      = Wind's Grand Ode
 |pt      = Grande Ode do Vento
 |pt_tl   = Wind's Grand Ode
+|tr      = Rüzgarın Büyük Kasidesi
+|tr_tl   = 
+|it      = Ode all'Archon di Anemo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -150,6 +184,9 @@ The following is a table of Wind's Grand Ode's effect on various enemies in the 
 {{Talent Navbox|Venti}}
 
 [[es:Gran Oda del Viento]]
+[[fr:Ode au Vent]]
 [[ja:風神の詩]]
 [[pt-br:Grande Ode do Vento]]
+[[ru:Великая ода ветру]]
 [[th:Wind's Grand Ode]]
+[[vi:Bài Thơ Thần Gió]]

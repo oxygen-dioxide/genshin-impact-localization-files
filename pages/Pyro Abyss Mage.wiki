@@ -3,7 +3,8 @@
 Enemy Pyro Abyss Mage.png|Archive
 Enemy Pyro Abyss Mage Full Artwork.png|Full Art
 </gallery>
-|element  = Pyro
+|dmgtype  = Pyro
+|weakpoint = yes
 |type     = Elite Enemies
 |faction  = Abyss Order
 |group    = Abyss Mages
@@ -12,60 +13,80 @@ Enemy Pyro Abyss Mage Full Artwork.png|Full Art
 |ability1 = Shield
 |ability2 = Interruption Resistance
 |ability3 = Teleport
-|voiceJP  = [http://amuleto.jp/talents/福間竣兵.html Fukuma Shunpei (福間竣兵)]<ref>Twitter: [https://twitter.com/fkmshunp/status/1359480435902877698 JP VA Self Announcement]</ref>
-|voiceKR  = [https://namu.wiki/w/남도형 Nam Dohyeong (남도형)]<ref>YouTube: [https://youtu.be/6OoHaXl_hdY?t=209 KR VA Self Announcement]</ref>
+|voiceJP  = [http://amuleto.jp/talents/福間竣兵.html Fukuma Shunpei ({{ja|福間竣兵}})]<ref name="Fukuma Shunpei">Twitter: [https://twitter.com/fkmshunp/status/1359480435902877698 JP VA Self Announcement]</ref>
+|voiceKR  = [https://namu.wiki/w/남도형 Nam Dohyeong ({{ko|남도형}})]<ref name="Nam Dohyeong">YouTube: [https://youtu.be/6OoHaXl_hdY?t=209 KR VA Self Announcement]</ref>
 }}
-{{Description|Abyss creatures who command the power of Pyro in battle. For unknown reasons, Abyss Mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily. They say that Abyss Mages utter a long-forgotten language from which they draw magical power.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Abyss Mages}}
+===Items===
+{{Drops Table|type=Abyss Mages}}
 
-==Stats==
-{{Enemy Stats|hp_ratio=2|atk_ratio=3|hp_type=1}}
-
-==Abilities and Attacks==
-*'''Pyro Shield:''' Upon initiating combat, the Pyro Abyss Mage immediately gains a {{Pyro}} [[Shields|Shield]], protecting it from damage. The shield takes damage from certain [[Elemental Reactions]] and suffers additional damage based on the strength of the attacks it receives. If it is [[rain]]ing, the Pyro Abyss Mage starts without a shield, and the Pyro Abyss Mage's shield degrades at a fixed rate.
-*'''Normal Attack:''' Shoots a fire projectile at the target, dealing '''100% ATK''' as {{Color|Pyro DMG}}. The projectile sticks to terrain and cannot hit airborne targets.
-*'''Special Attack: Demon Heads:''' Summons three demon heads in a triangle formation to spew fire at the target's location, each dealing '''100% ATK''', '''50% ATK''', '''25% ATK''' respectively as {{Color|Pyro DMG}}.
-*'''Teleportation:''' If the target is too far from the mage, it clutches its mask and teleports directly in front of the target, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} at its location upon reappearance. The mage can also teleport away from the player to avoid attacks when vulnerable.
-*'''Revival:''' If the mage is left alone after its shield is destroyed, summons bursts of fire which erupt from the ground around it, dealing '''150% ATK''' as {{Color|AoE Pyro DMG}} and launching targets. During this attack, the mage's [[Interruption Resistance]] is increased. If the mage is not staggered or defeated within 10 seconds, it regains a Pyro Shield, dealing '''150% ATK''' and '''200% ATK''' as {{Color|AoE Pyro DMG}}.
-*'''Enhancement:''' Certain enhanced Pyro Abyss Mages can be found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges. There are 3 possible types of enhancements: Attack, Shield, and Teleportation.
-**'''Attack Enhancement:''' While using '''Demon Heads''', generates 2 extra sets of demon heads to form a larger triangle with a total of 9 heads.
-**'''Shield Enhancement:''' The '''Pyro Shield''' becomes twice as durable. When a character's attack hits the shield, 1 [[gauge unit]] of Pyro will be applied to the character.
-**'''Teleportation Enhancement:''' While teleporting, deals '''100% ATK''' as {{Color|AoE Pyro DMG}} at its location upon disappearance.
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Pyro Abyss Mage Normal Attack
-|caption1=Normal Attack
-
-|file2=Pyro Abyss Mage Special Attack
-|caption2=Special Attack
-
-|file3=Pyro Abyss Mage Teleportation
-|caption3=Teleportation
-
-|file4=Pyro Abyss Mage Revival
-|caption4=Revival
+===Energy===
+{{Energy Drops
+|type  = Pyro
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|o4    = 1
 }}
 
-==Strategy==
-*{{Hydro}} attacks are the most effective at destroying the Pyro shield by triggering the [[Vaporize]] reaction.
-*{{Cryo}} attacks cause [[Melt]], dealing moderate damage to its shield.
-*{{Electro}} attacks cause [[Overloaded]]. The resulting explosion can affect surrounding monsters dealing {{Color|[[AoE]] Pyro DMG}} and can cause [[knockback]], also dealing moderate damage to the Mage's shield.
+==Stats==
+{{Enemy Stats|hp_ratio=2|atk_ratio=4.5|hp_type=1}}
+
+==Weak Point Location==
+<gallery>
+Pyro Abyss Mage Weak Point.png
+</gallery>
+* The Weak Point is only exposed while unshielded.
+
+==Abilities and Attacks==
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Pyro Shield
+|desc_1 = Upon initiating combat, the Pyro Abyss Mage immediately gains a {{Pyro}} [[Shield]], protecting it from damage. The shield takes damage from certain [[Elemental Reactions]] and suffers additional damage based on the strength of the attacks it receives.
+{{Elemental Shield Data|Pyro|12}}
+|strat_1 = {{Hydro}} attacks are the most effective at destroying the Pyro shield by triggering the [[Vaporize]] reaction. {{Electro}} is the second most effective option.
+
+|name_2 = Flamewave
+|desc_2 = Shoots a fire projectile at the target, dealing '''66.6% ATK''' as {{Color|Pyro DMG}}. The projectile sticks to terrain and cannot hit airborne targets.
+|file_2 = Pyro Abyss Mage Normal Attack
+
+|name_3 = Special Attack: Blazing Visage
+|desc_3 = Summons three demon heads in a triangle formation to spew fire at the target's location, each dealing '''66.6% ATK''', '''33.3% ATK''', '''16.6% ATK''' respectively as {{Color|Pyro DMG}}.
+|file_3 = Pyro Abyss Mage Special Attack
+
+|name_4 = Teleportation
+|desc_4 = If the target is too far from the mage, it clutches its mask and teleports directly in front of the target, dealing '''66.6% ATK''' as {{Color|AoE Pyro DMG}} at its location upon reappearance. The mage can also teleport away from the player to avoid attacks when vulnerable.
+
+|name_5 = Rite of the Molten Eruption
+|desc_5 = If the mage is left alone after its shield is destroyed, summons bursts of fire which erupt from the ground around it, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} and launching targets. During this attack, the mage's [[Interruption Resistance]] is increased. If the mage is not staggered or defeated within 10 seconds, it regains a Pyro Shield, dealing '''100% ATK''' and '''133.3% ATK''' as {{Color|AoE Pyro DMG}}.
+
+|name_6 = Enhancement
+|desc_6 = Certain enhanced Pyro Abyss Mages can be found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges. There are 3 possible types of enhancements: Attack, Shield, and Teleportation.
+* '''Attack Enhancement:''' While using '''Demon Heads''', generates 2 extra sets of demon heads to form a larger triangle with a total of 9 heads.
+* '''Shield Enhancement:''' The '''Pyro Shield''' becomes twice as durable. When a character's attack hits the shield, 1 [[gauge unit]] of Pyro will be applied to the character.
+* '''Teleportation Enhancement:''' While teleporting, deals '''66.6% ATK''' as {{Color|AoE Pyro DMG}} at its location upon disappearance.
+}}
+
+==Descriptions==
+{{Description|Abyss creatures who command the power of Pyro in battle. For unknown reasons, Abyss Mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily. They say that Abyss Mages utter a long-forgotten language from which they draw magical power.|[[Archive]]}}
 
 ==Notable Pyro Abyss Mages==
 ===Mr. Fluffball===
 [[File:Miscellaneous Klee Story Quest Pyro Abyss Mage.png|alt=Mr. Fluffball|thumb|Mr. Fluffball]]
 A [[Pyro Abyss Mage]] nicknamed by [[Klee]] that is the main antagonist during [[The Mystery of the Girl in Red's Treasure|True Treasure]]. Having heard of Klee's reputation as the strongest in Mondstadt, it steals a bomb from one of her caches to use against Mondstadt. It accidentally kills itself when it mishandles the bomb it stole, causing great anguish to the young Knight.{{clr}}
 ===Other Notable Pyro Abyss Mages===
-*In [[Hidden Tears|For a Tomorrow Without Tears]]: the randomly named* Pyrochanter Abyss Mage which guards [[Eagle's Gate]].
-*In [[Master's Day Off (Quest)|Master's Day Off]]: the randomly named* Pyrochanter Abyss Mage which tries to get rid of [[Jean]] while she is sick.
-<noinclude><nowiki>*</nowiki> Random names include Adalbert, Adil, Adolphus, Alberte, Albrecht, Alfljortr, Arbogastis, Bergdis, Eggert, Erambert, Gerhart, Guillaume, Ingikarr, Ioni, Konrad, Liebhard, Ljodey, Lodovica, Lydingr, Meinolf, Miuki, Naddodr, Nefi, Refill, Thorolfr, Thyla, Triunn, Uberto, Ulfie, and Vilhelm.</noinclude>
+* In ''[[Hidden Tears]]'', a randomly named Pyrochanter Abyss Mage appears at the end of the story domain [[Hidden Teardrop in the Heart of the Jungle]].
+* In [[Master's Day Off (Quest)|''Master's Day Off'']], a randomly named Pyrochanter Abyss Mage attempts to eliminate [[Jean]] while she is sick.
+<noinclude>* The randomized names include: Adalbert, Adil, Adolphus, Alberte, Albrecht, Alfljortr, Arbogastis, Bergdis, Eggert, Erambert, Gerhart, Guillaume, Ingikarr, Ioni, Konrad, Liebhard, Ljodey, Lodovica, Lydingr, Meinolf, Miuki, Naddodr, Nefi, Refill, Thorolfr, Thyla, Triunn, Uberto, Ulfie, and Vilhelm.</noinclude>
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Pyro Abyss Mage Icon.png|Icon
 </gallery>
 
@@ -82,7 +103,7 @@ Enemy Pyro Abyss Mage Icon.png|Icon
 |ja_tl   = Mage of the Abyss - Pyro
 |ko      = 화염의 심연 메이지
 |ko_rm   = Hwayeom-ui Simyeon Meiji
-|ko_tl   = Abyss Mage of Pyro
+|ko_tl   = Abyss Mage of Flame
 |es      = Mago del Abismo Pyro
 |es_tl   = Pyro Abyss Mage
 |fr      = Pyromage de l'Abîme
@@ -97,6 +118,10 @@ Enemy Pyro Abyss Mage Icon.png|Icon
 |id      = Pyro Abyss Mage
 |pt      = Feiticeiro do Abismo Pyro
 |pt_tl   = Pyro Abyss Sorcerer
+|tr      = Hiçlik Ateş Büyücüsü
+|tr_tl   = 
+|it      = Mago dell'Abisso di Pyro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -108,5 +133,7 @@ Enemy Pyro Abyss Mage Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Pyro-Abgrundmagier]]
 [[es:Mago del Abismo Pyro]]
+[[ja:アビスの魔術師・炎]]
 [[pt-br:Feiticeiro do Abismo Pyro]]

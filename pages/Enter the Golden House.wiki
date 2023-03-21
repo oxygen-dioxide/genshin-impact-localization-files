@@ -10,20 +10,55 @@
 |recLevel     = 60/70/80/90
 |drops        = Tusk of Monoceros Caeli,Shard of a Foul Legacy,Shadow of the Warrior
 }}
-'''Enter the Golden House''' is a [[Trounce Domain]] unlocked after completing [[Archon Quest]] [[Chapter I]], Act III: [[A New Star Approaches]]. Players can relive the battle they had with Fatui Harbinger [[Childe]] and receive bountiful rewards.
+{{Enemy Infobox
+|name     = Childe
+|image    = Childe P1 Icon.png
+|title    = Eleventh of the Fatui Harbingers
+|type     = Weekly Bosses
+|family   = Enemies of Note
+|dmgtype  = Hydro
+|weakpoint = no
+|ability1 = Shield
+|ability2 = Invincibility Frames
+|ability3 = Status to Player
+|atility4 = Pushing Vacuum Field
+}}
+{{Enemy Infobox
+|name     = Childe
+|image    = Childe P2 Icon.png
+|title    = Delusion Unleashed
+|type     = Weekly Bosses
+|family   = Enemies of Note
+|dmgtype  = Electro
+|weakpoint = no
+|noinclude = 1
+|ability1 = Shield
+|ability2 = Status to Player
+|atility3 = Pushing Vacuum Field
+}}
+{{Enemy Infobox
+|name     = Childe
+|image    = Childe Foul Legacy Transformation.png
+|type     = Weekly Bosses
+|family   = Enemies of Note
+|noinclude = 1
+|dmgtype  = Electro
+|dmgtype2 = Hydro
+|weakpoint = no
+|ability1 = Status to Player
+|ability2 = Teleport
+}}
+'''Enter the Golden House''' is a [[Trounce Domain]] unlocked after completing [[Archon Quest]] [[Chapter I]]: Act III - [[A New Star Approaches]]. Players can relive the battle they had with Fatui Harbinger [[Childe]] and receive bountiful rewards.
 
 ==Boss Description==
 {{Description|"[[Childe]]" Tartaglia, Eleventh of the [[Fatui Harbingers]]. He draws power from the ominous [[Delusion]] he possesses and fights using martial arts that he learned in the land of darkness.<br /><br />He is a pure warrior with an insatiable lust for battle. Each bloody conflict, each life-and-death struggle is a delightful trial for him. People say that the young Childe is famed throughout the land for his battle prowess. But he has never taken big talk of this kind to heart.<br /><br />After all...<br />''"You shall ever be the eye of the storm,"''<br />''"And the clashing of steel shall ever accompany you."''<br />''"The pitch-black memory of stepping into uttermost darkness,"''<br />''"Shall, at last, become the strength by which you will overturn this world."''|[[Archive]]}}
 
 ==Rules==
-{{Transclude|Domains|trouncerule|section=1}}
+{{Transclude|Domain|trouncerule|section=1}}
 
 ==Rewards==
 {{Weekly Boss Rewards
 |exclusive=Tusk of Monoceros Caeli,Shard of a Foul Legacy,Shadow of the Warrior
-}}
-{{Domain Levels/Trounce
-|level=4
 |gem=Varunada Lazurite,Vajrada Amethyst,Shivada Jade
 }}
 
@@ -40,7 +75,7 @@
 
 |hp_ratio  = 6
 |hp_type   = 1
-|atk_ratio = 5
+|atk_ratio = 10
 |res_title = State
 }}
 
@@ -56,7 +91,7 @@
 
 |hp_ratio  = 6
 |hp_type   = 1
-|atk_ratio = 5
+|atk_ratio = 10
 |res_title = State
 }}
 
@@ -68,311 +103,221 @@
 
 |hp_ratio  = 10
 |hp_type   = 1
-|atk_ratio = 7
+|atk_ratio = 14
 }}
 
 ==Abilities and Attacks==
-'''Notes:'''
-* All attack and ability names are unofficial except for Raging Tide and Celestial Voyager, which are said by Childe as he unleashes those attacks.
-* The attacks that use the same animations as the talents of the playable version of Childe have been named as such: [[Cutting Torrent]], [[Foul Legacy: Raging Tide|Raging Tide]], [[Havoc: Obliteration|Flash of Havoc]], and [[Havoc: Obliteration|Light of Obliteration]].
-* Attack names that have ''Riptide'' in parentheses will only be used while the player is marked with Riptide.
+''Most attack names are unofficial.''
 
 ===Phase 1: Hydro Vision===
-{{Enemy Infobox
-|name     = Childe
-|image    = Enemy Childe P1 Icon.png
-|title    = Eleventh of the Fatui Harbingers
-|type     = Weekly Bosses
-|family   = Enemies of Note
-|element  = Hydro
-|ability1 = Shield
-|ability2 = Invincibility Frames
-|ability3 = Status to Player
-|atility4 = Pushing Vacuum Field
-}}
-* '''Riptide ({{Color|Hydro}}):''' Most attacks that hit the player will leave a [[Riptide]] mark.
-** While marked by Riptide, the player will be affected by a constant {{Hydro}} status until Riptide is removed. None of Childe's other attacks applies an elemental status, and cannot trigger [[Elemental Reactions]] unless it also applies Riptide on hit.
-** Some attacks can only be triggered if the player is marked with Riptide.
-** Some attacks that hit characters already marked by Riptide will consume the mark to deal an additional '''200% ATK''' as {{Color|AoE Hydro DMG}}. These attacks cannot apply Riptide even if the previous Riptide application expires before these attacks land.
-** The mark can be removed by touching the arena's barrier to trigger a [[Vaporize]] reaction. This reaction does not deal DMG to the character.
-** The mark can also be removed with characters that apply certain elements to themselves or other characters.
-** The mark will persist even if you switch characters.
+{{Enemy Attacks
+|enemy = Childe
 
-* '''Cutting Torrent:''' Performs consecutive shots with a bow at the player, dealing '''70% ATK''' as {{Color|Hydro DMG}} on hit. He may pause this attack, but it does not end until he performs a finisher that involves throwing his last arrow by hand.
+|name_1 = Riptide ({{Color|Hydro}})
+|desc_1 = Most attacks that hit the player will leave a [[Riptide]] mark.
+* While marked by Riptide, the player will be affected by a constant {{Hydro}} status until Riptide is removed. None of Childe's other attacks applies an elemental status, and cannot trigger [[Elemental Reactions]] unless it also applies Riptide on hit.
+* Some attacks can only be triggered if the player is marked with Riptide. These attacks are marked below with ''Riptide'' in parentheses.
+* Some attacks that hit characters already marked by Riptide will consume the mark to deal an additional '''100% ATK''' as {{Color|AoE Hydro DMG}}. These attacks cannot apply Riptide even if the previous Riptide application expires before these attacks land.
+* The mark can be removed by touching the arena's barrier to trigger a [[Vaporize]] reaction. This reaction does not deal DMG to the character.
+* The mark can also be removed with characters that apply certain elements to themselves or other characters.
+* The mark will persist even if you switch characters.
+|file_1 = Childe Riptide Application Hydro
+|caption_1 = Application (Hydro)
+|file_1_2 = Childe Riptide Consumption
+|caption_1_2 = Consumption (Hydro)
+|file_1_3 = Childe Riptide Removal Hydro
+|caption_1_3 = Removal (Hydro)
 
-* '''Flash of Havoc (Riptide):''' Performs up to 9 consecutive shots with a bow upwards that fall to deal '''150% ATK''' as {{Color|AoE Hydro DMG}}, consuming Riptide on hit.
+|name_2 = Rapid Fire
+|desc_2 = Performs consecutive shots with a bow at the player, dealing '''35% ATK''' as {{Color|Hydro DMG}} on hit. The Continuous Combo can fire from at least 3 up to 6 arrows at a consistant fire rate, while the Full Combo version has Childe perform a slower and more inconsistant attack pattern at a fixed 6 arrows.
+|file_2 = Childe Cutting Torrent Normal String
+|caption_2 = Continuous
+|file_2_2 = Childe Cutting Torrent End String
+|caption_2_2 = Full Combo
 
-* '''Shark Onslaught:''' Unleashes at least 2 and up to 6 consecutive shark-shaped waves with a bow, dealing '''100% ATK''' as {{Color|Hydro DMG}} and applying Riptide.
+|name_3 = Airstrike
+|desc_3 = Performs up to 9 consecutive shots with a bow upwards that fall to deal '''75% ATK''' as {{Color|AoE Hydro DMG}}, consuming Riptide on hit.
+|file_3 = Childe Flash of Havoc
 
-* '''Understream:''' Slides quickly to any point of the arena to reposition himself, or slides to the player's location and performs a forward slash, dealing '''125% ATK''' as {{Color|Hydro DMG}} and consuming Riptide. This attack does not need Riptide to trigger, but will consume Riptide on hit.
-** The Riptide variant of this move is performed when the player is too far away.
+|name_4 = Shark Waves
+|desc_4 = Unleashes at least 2 and up to 6 consecutive shark-shaped waves with a bow, dealing '''50% ATK''' as {{Color|Hydro DMG}} and applying Riptide.
+|file_4 = Childe Shark Onslaught
 
-* '''Hydro Shield:''' When hit by melee attacks, creates a Hydro shield that blocks all incoming DMG.
+|name_5 = Slide
+|desc_5 = Slides quickly to any point of the arena to reposition himself, or slides to the player's location and performs a forward slash, dealing '''62.5% ATK''' as {{Color|Hydro DMG}} and consuming Riptide. This attack does not need Riptide to trigger, but will consume Riptide on hit.
+* The Riptide variant of this move is performed when the player is too far away.
+|file_5 = Childe Understream No Damage
+|caption_5 = Reposition
+|file_5_2 = Childe Understream Slash
+|caption_5_2 = Slash
 
-* '''Hydro Counter:''' Shoots out a huge Hydro energy blast in front of him that deals '''173% ATK''' as {{Color|AoE Hydro DMG}}.
-** This attack triggers if Childe gets hit by Hydro melee attacks while his Hydro Shield is up. Ranged attacks or deployable abilities cannot trigger the counterattack.
+|name_6 = Hydro Shield
+|desc_6 = When hit by melee attacks, creates a Hydro shield that blocks all incoming DMG. If attacked while shielded, there is a '''13%''' chance for Childe to drop the shield and performs a spinning slash, dealing '''50% ATK''' as {{Color|Hydro DMG}}.
+|file_6_2 = Childe Solo Hydro
+|caption_6_2 = Counterattack
 
-* '''Solo ({{Color|Hydro}}):''' Charges and performs a spinning slash, dealing '''100% ATK''' as {{Color|Hydro DMG}} around him.
-** This attack is triggered if the player attacks Tartaglia enough <!-- DMG-based or time-based? --> while his shield is up.
+|name_7 = Hydro Counter
+|desc_7 = Shoots out a huge Hydro energy blast in front of him that deals '''150% ATK''' as {{Color|AoE Hydro DMG}}.
+* This attack triggers if Childe gets hit by Hydro melee attacks while his Hydro Shield is up. Ranged attacks or deployable abilities cannot trigger the counterattack.
+|file_7 = Childe Hydro Shield Counter
+|caption_7 = Counterattack
 
-* '''Blast ({{Color|Hydro}}):''' Unleashes energy deep within, creating a domain of Hydro energy that launches nearby players away from him but dealing no DMG.
+|name_8 = Blast ({{Color|Hydro}})
+|desc_8 = Unleashes energy deep within, creating a domain of Hydro energy that launches nearby players away from him but dealing no DMG.
+|file_8 = Childe Blast Hydro
 
-* '''Staggered:''' If Childe sustains enough [[Interruption Resistance|poise damage]], he will enter a staggered state with significantly lowered [[Resistance|RES]] and [[Interruption Resistance]] until he performs '''Blast'''. Poise damage can stack even when Childe is shielded.
+|name_9 = Staggered
+|desc_9 = If Childe sustains enough [[Interruption Resistance|poise damage]], he will enter a staggered state with significantly lowered [[Resistance|RES]] and [[Interruption Resistance]] until he performs '''Blast'''. Poise damage can stack even when Childe is shielded.
 
-* '''Ultima: Celestial Voyager (Riptide):''' Charges for a while, then unleashes a massive humpback whale-shaped attack, dealing '''150% ATK''' on appearance and '''200% ATK''' on landing as {{Color|AoE Hydro DMG}}, as well as consuming Riptide on hit.
-** Unlike the other AoE attacks, this attack does not have clearly marked AoEs.
-** Both zones cover roughly 3/5 of the arena's area.
-** This attack cannot be dodged using [[Sprinting#Dash|Dash]] [[Invincibility Frames|i-frames]].
-
-====Preview====
-{{Preview
-|size=185px
-|file1=Childe Riptide Application Hydro
-|caption1={{Color|Hydro}} Riptide (Application)
-
-|file2=Childe Riptide Consumption
-|caption2={{Color|Hydro}} Riptide (Consumption)
-
-|file3=Childe Riptide Removal Hydro
-|caption3={{Color|Hydro}} Riptide (Removal)
-
-|file4=Childe Cutting Torrent Normal String
-|caption4=Cutting Torrent (Normal String)
-
-|file5=Childe Cutting Torrent End String
-|caption5=Cutting Torrent (End String)
-
-|file6=Childe Hydro Shield
-|caption6={{Color|Hydro}} Shield
-
-|file7=Childe Hydro Shield Counter
-|caption7={{Color|Hydro}} Counter
-
-|file8=Childe Solo Hydro
-|caption8={{Color|Hydro}} Solo
-
-|file9=Childe Blast Hydro
-|caption9={{Color|Hydro}} Blast
-
-|file10=Childe Flash of Havoc
-|caption10=Flash of Havoc
-
-|file11=Childe Shark Onslaught
-|caption11=Shark Onslaught
-
-|file12=Childe Understream No Damage
-|caption12=Understream (Reposition)
-
-|file13=Childe Understream Slash
-|caption13=Understream (Slash)
-
-|file14=Childe Celestial Voyager
-|caption14=Ultima: Celestial Voyager
-
-|file15=Childe Staggered
-|caption15=Staggered
+|name_10 = Ultima: Celestial Voyager
+|desc_10 = Charges for a while, then unleashes a massive humpback whale-shaped attack, dealing '''75% ATK''' on appearance and '''100% ATK''' on landing as {{Color|AoE Hydro DMG}}, as well as consuming Riptide on hit.
+* Unlike the other AoE attacks, this attack does not have clearly marked AoEs.
+* Both zones cover roughly 3/5 of the arena's area.
+* This attack cannot be dodged using [[Sprinting#Dash|Dash]] [[Invincibility Frames|i-frames]].
+|file_10 = Childe Celestial Voyager
 }}
 
 ===Phase 2: Electro Delusion===
-{{Enemy Infobox
-|name     = Childe
-|image    = Enemy Childe P2 Icon.png
-|title    = Delusion Unleashed
-|type     = Weekly Bosses
-|family   = Enemies of Note
-|element  = Electro
-|noinclude = 1
-|ability1 = Shield
-|ability2 = Status to Player
-|atility3 = Pushing Vacuum Field
-}}
-* '''Riptide ({{Color|Electro}}):''' Most attacks that hit the player will leave a Riptide mark.
-** While marked by Riptide, the player will be affected by a constant {{Electro}} status until Riptide is removed. None of Childe's other attacks applies an elemental status, and cannot trigger [[Elemental Reactions]] unless it also applies Riptide on hit.
-** Some attacks can only be triggered if the player is marked with Riptide.
-** Some attacks that hit characters already marked by Riptide will consume the mark to deal an additional '''200% ATK''' as {{Color|AoE Electro DMG}}. These attacks cannot apply Riptide even if the previous Riptide application expires before these attacks land.
-** The mark can be removed by touching the arena's barrier to trigger an Overloaded reaction. This reaction does not deal DMG to the character and cannot cause knockback.
-** The mark can also be removed with characters that apply certain elements to themselves or other characters
-** The mark will persist even if you switch characters.
+{{Enemy Attacks
+|enemy = Childe
 
-* '''Raging Tide:''' Slides quickly to the player's location if needed, and performs 2, 3, or 5 consecutive strike at the destination point (slash, slash, slash, thrust, spinning slash), dealing '''50% ATK''', '''55% ATK''', '''60% ATK''', '''70% ATK''', '''80% ATK''' as {{Color|AoE Electro DMG}} with each strike respectively. While most of the combo can be outrun, the 4th attack has a long range and strikes directly at the player's location.
+|desc_1 = After reaching critical health in Phase 1, Childe slides to the center of the arena and covers himself in a water dome before transitioning into Phase 2.
+|file_1 = Childe Transformation 1-2
 
-* '''Light of Obliteration:''' Performs a slash with a large AoE, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} in a 180° arc towards the player.
+|name_2 = Riptide ({{Color|Electro}})
+|desc_2 = Most attacks that hit the player will leave a Riptide mark.
+* While marked by Riptide, the player will be affected by a constant {{Electro}} status until Riptide is removed. None of Childe's other attacks applies an elemental status, and cannot trigger [[Elemental Reactions]] unless it also applies Riptide on hit.
+* Some attacks can only be triggered if the player is marked with Riptide. These attacks are marked below with ''Riptide'' in parentheses.
+* Some attacks that hit characters already marked by Riptide will consume the mark to deal an additional '''100% ATK''' as {{Color|AoE Electro DMG}}. These attacks cannot apply Riptide even if the previous Riptide application expires before these attacks land.
+* The mark can be removed by touching the arena's barrier to trigger an Overloaded reaction. This reaction does not deal DMG to the character and cannot cause knockback.
+* The mark can also be removed with characters that apply certain elements to themselves or other characters
+* The mark will persist even if you switch characters.
+|file_2 = Childe Riptide Application Electro
+|caption_2 = Application (Electro)
+|file_2_2 = Childe Riptide Consumption Electro
+|caption_2_2 = Consumption (Electro)
+|file_2_3 = Childe Riptide Removal Electro
+|caption_2_3 = Removal (Electro)
 
-* '''Flicker (Riptide):''' Slides quickly to the player's position, and performs a cross slash at the destination point, dealing '''125% ATK''' as {{Color|Electro DMG}}. This attack does not need Riptide to trigger, but will consume Riptide on hit.
+|name_3 = Melee Combo
+|desc_3 = Slides quickly to the player's location if needed, and performs 2, 3, or 5 consecutive strike at the destination point (slash, slash, slash, thrust, spinning slash), dealing '''25% ATK''', '''27.5% ATK''', '''30% ATK''', '''35% ATK''', '''40% ATK''' as {{Color|AoE Electro DMG}} with each strike respectively. While most of the combo can be outrun, the 4th attack has a long range and strikes directly at the player's location.
+|file_3 = Childe Raging Tide 2
+|caption_3 = 2-Combo
+|file_3_2 = Childe Raging Tide 3
+|caption_3_2 = 3-Combo
+|file_3_3 = Childe Raging Tide 5
+|caption_3_3 = 5-Combo
 
-* '''Displacement:''' Childe performs at least 2 and up to 5 rapidly chained consecutive dash attacks, dealing '''75% ATK''' as {{Color|Electro DMG}}.
+|name_4 = Turning Sweep
+|desc_4 = If the player is behind him, performs a slash with a large AoE, dealing '''50% ATK''' as {{Color|AoE Electro DMG}} in a 180° arc towards the player.
+|file_4 = Childe Light of Obliteration
 
-* '''Electro Shield:''' When hit by melee attacks, creates an Electro shield that blocks all incoming DMG.
+|name_5 = Flicker
+|desc_5 = Slides quickly to the player's position, and performs a cross slash at the destination point, dealing '''62.5% ATK''' as {{Color|Electro DMG}}. This attack does not need Riptide to trigger, but will consume Riptide on hit.
 
-* '''Electro Counter:''' Shoots out a huge Electro energy blast in front of him that deals '''300% ATK''' as {{Color|AoE Electro DMG}}.
+|name_6 = Chained Dashes
+|desc_6 = Childe performs at least 2 and up to 5 rapidly chained consecutive dash attacks, dealing '''37.5% ATK''' as {{Color|Electro DMG}}.
+|file_6 = Childe Displacement
+
+|name_7 = Electro Shield
+|desc_7 = When hit by melee attacks, creates an Electro shield that blocks all incoming DMG. If attacked while shielded, there is a '''13%''' chance for Childe to drop the shield and performs a spinning slash, dealing '''50% ATK''' as {{Color|Electro DMG}}.
+|file_7_2 = Childe Solo Electro
+|caption_7_2 = Counterattack
+
+|name_8 = Electro Counter
+|desc_8 = Shoots out a huge Electro energy blast in front of him that deals '''150% ATK''' as {{Color|AoE Electro DMG}}.
 ** This attack triggers if Childe gets hit by Electro melee attacks while his Electro Shield is up. Ranged attacks or deployable abilities cannot trigger the counterattack.
+|file_8 = Childe Electro Shield Counter
 
-* '''Solo ({{Color|Electro}}):''' Charges and performs a slash around himself, dealing '''100% ATK''' as {{Color|Electro DMG}}.
-** This attack is triggered if the player attacks Tartaglia enough <!-- DMG-based or time-based? --> while his shield is up.
+|name_9 = Blast ({{Color|Electro}})
+|desc_9 = Unleashes energy deep within, creating a domain of Electro energy that launches players away from him but dealing no DMG.
+|file_9 = Childe Blast Electro
 
-* '''Blast ({{Color|Electro}}):''' Unleashes energy deep within, creating a domain of Electro energy that launches players away from him but dealing no DMG.
+|name_10 = Staggered
+|desc_10 = If Childe sustains enough [[Interruption Resistance|poise damage]], he will enter a staggered state with significantly lowered [[Resistance|RES]] and [[Interruption Resistance]] until he performs '''Blast'''. Poise damage can stack even when Childe is shielded.
+|file_10 = Childe Staggered Phase 2
 
-* '''Staggered:''' If Childe sustains enough [[Interruption Resistance|poise damage]], he will enter a staggered state with significantly lowered [[Resistance|RES]] and [[Interruption Resistance]] until he performs '''Blast'''. Poise damage can stack even when Childe is shielded.
-
-* '''Ultima: Dark Leap (Riptide):''' Marks the player with a circle of black lightning. Charges for a while, then leaps and instantly strikes at the player current location, dealing '''200% ATK''' as {{Color|AoE Electro DMG}} around the landing point.
-** This attack cannot be dodged using Dash i-frames.
-** If the Riptide mark is removed while this attack is charging, the targeting circle will be thrown off and become stationary. However, Childe will still strike down at the circle's location.
-
-====Preview====
-{{Preview
-|size=185px
-|file1=Childe Transformation 1-2
-|caption1=Unleashing Delusion
-
-|file2=Childe Riptide Application Electro
-|caption2={{Color|Electro}} Riptide (Application)
-
-|file3=Childe Riptide Consumption Electro
-|caption3={{Color|Electro}} Riptide (Consumption)
-
-|file4=Childe Riptide Removal Electro
-|caption4={{Color|Electro}} Riptide (Removal)
-
-|file5=Childe Electro Shield
-|caption5={{Color|Electro}} Shield
-
-|file6=Childe Electro Shield Counter
-|caption6={{Color|Electro}} Counter
-
-|file7=Childe Solo Electro
-|caption7={{Color|Electro}} Solo
-
-|file8=Childe Blast Electro
-|caption8={{Color|Electro}} Blast
-
-|file9=Childe Flicker
-|caption9=Flicker
-
-|file10=Childe Raging Tide 2
-|caption10=Raging Tide 2-Combo
-
-|file11=Childe Raging Tide 3
-|caption11=Raging Tide 3-Combo
-
-|file12=Childe Raging Tide 5
-|caption12=Raging Tide 5-Combo
-
-|file13=Childe Light of Obliteration
-|caption13=Light of Obliteration
-
-|file14=Childe Displacement
-|caption14=Displacement
-
-|file15=Childe Dark Leap Phase 2
-|caption15=Ultima: Dark Leap
-
-|file16=Childe Staggered Phase 2
-|caption16=Staggered
+|name_11 = Ultima: Dark Leap
+|desc_11 = Marks the player with a circle of black lightning. Charges for a while, then leaps and instantly strikes at the player current location, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} around the landing point.
+* This attack cannot be dodged using Dash i-frames.
+* If the Riptide mark is removed while this attack is charging, the targeting circle will be thrown off and become stationary. However, Childe will still strike down at the circle's location.
+|file_11 = Childe Dark Leap Phase 2
 }}
 
 ===Phase 3: Foul Legacy Transformation===
-{{Enemy Infobox
-|name     = Childe
-|image    = Childe_Foul_Legacy_Transformation.png
-|type     = Weekly Bosses
-|family   = Enemies of Note
-|noinclude = 1
-|element  = Electro
-|element2 = Hydro
-|ability1 = Status to Player
-|ability2 = Teleport
-}}
 {{See also|Foul Legacy Transformation}}
-* '''Riptide ({{Color|Hydro}} and {{Color|Electro}}):''' Most attacks that hit the player will leave a Riptide mark of the element of the attack.
-** While marked by Riptide, the player will be affected by a constant {{Hydro}} or {{Electro}} status until Riptide is removed. None of Childe's other attacks applies an elemental status, and cannot trigger [[Elemental Reactions]] unless it also applies Riptide on hit.
-** Some attacks can only be triggered if the player is marked with Riptide, regardless of the Riptide's element.
-** Some attacks that hit characters already marked by Riptide will consume the mark to deal an additional '''200% ATK''' as {{Color|AoE Hydro DMG}} or {{Color|AoE Electro DMG}}. These attacks cannot apply Riptide even if the previous Riptide application expires before these attacks land.
-** Any attack that applies Riptide of a different element from the existing one, will consume and override the existing mark on hit. Riptide Override does not trigger [[Electro-Charged]]. Riptide consumed in this manner only deals '''100% ATK''' as DMG.
-** The mark can be removed by touching the arena's barrier to trigger a Vaporize or Overloaded reaction. This reaction does not deal DMG to the character or cause knockback.
-** The mark will persist even if you switch characters.
+{{Enemy Attacks
+|enemy = Childe
 
-* '''Blink:''' Childe teleports instantly to any point of the arena to unleash his next attack.
+|name_1 = Riptide ({{Color|Hydro}} and {{Color|Electro}})
+|desc_1 = Most attacks that hit the player will leave a Riptide mark of the element of the attack.
+* While marked by Riptide, the player will be affected by a constant {{Hydro}} or {{Electro}} status until Riptide is removed. None of Childe's other attacks applies an elemental status, and cannot trigger [[Elemental Reactions]] unless it also applies Riptide on hit.
+* Some attacks can only be triggered if the player is marked with Riptide, regardless of the Riptide's element. These attacks are marked below with ''Riptide'' in parentheses.
+* Some attacks that hit characters already marked by Riptide will consume the mark to deal an additional '''100% ATK''' as {{Color|AoE Hydro DMG}} or {{Color|AoE Electro DMG}}. These attacks cannot apply Riptide even if the previous Riptide application expires before these attacks land.
+* Any attack that applies Riptide of a different element from the existing one, will consume and override the existing mark on hit. Riptide Override does not trigger [[Electro-Charged]]. Riptide consumed in this manner only deals '''50% ATK''' as DMG.
+* The mark can be removed by touching the arena's barrier to trigger a Vaporize or Overloaded reaction. This reaction does not deal DMG to the character or cause knockback.
+* The mark will persist even if you switch characters.
+|file_1 = Childe Riptide Override
+|caption_1 = Riptide Override
 
-* '''Cutting Torrent (Enhanced):''' Performs up to 4 consecutive charged shots with a bow, dealing '''80% ATK''' as {{Color|Hydro DMG}} with each shot.
+|name_2 = Charged Shots
+|desc_2 = Performs up to 4 consecutive charged shots with a bow, dealing '''40% ATK''' as {{Color|Hydro DMG}} with each shot.
+|file_2 = Childe Cutting Torrent Phase 3
 
-* '''Abyssal Mayhem: Vortex of Turmoil (Riptide):''' Gathers Hydro energy on his Glaive and launches it forwards, spearing anything in its path and dealing '''100% ATK''' as {{Color|Hydro DMG}} May be used up to 3 times consecutively. This attack requires Riptide to trigger, but does not consume Riptide.
+|name_3 = Piercing Vortex
+|desc_3 = Gathers Hydro energy on his Glaive and launches it forwards, spearing anything in its path and dealing '''50% ATK''' as {{Color|Hydro DMG}} May be used up to 3 times consecutively. This attack requires Riptide to trigger, but does not consume Riptide.
+|file_3 = Childe Vortex of Turmoil
 
-* '''Abyssal Mayhem: Hydrospout:''' Releases hydrospouts in a straight line, each dealing '''70% ATK''' as {{Color|AoE Hydro DMG}}.
+|name_4 = Abyssal Mayhem: Hydrospout
+|desc_4 = Releases hydrospouts in a straight line, each dealing '''35% ATK''' as {{Color|AoE Hydro DMG}}.
+|file_4 = Childe Hydrospout
 
-* '''Crescent Tides:''' Unleashes two flying crescent slashes that travel towards the player, each dealing '''75% ATK''' as {{Color|Hydro DMG}}.
+|name_5 = Crescent Tides
+|desc_5 = Unleashes two flying crescent slashes that travel towards the player, each dealing '''37.5% ATK''' as {{Color|Hydro DMG}}.
 
-* '''Twin Strikes:''' Performs 2 consecutive melee attacks, each dealing '''50% ATK''' as {{Color|Electro DMG}}.
+|name_6 = Twin Strikes
+|desc_6 = Performs 2 consecutive melee attacks, each dealing '''25% ATK''' as {{Color|Electro DMG}}.
 
-* '''Light of Obliteration (Enhanced):''' Performs a slash towards the player, dealing '''100% ATK''' as {{Color|AoE Electro DMG}}. This is an AoE attack that spans a 180° arc.
-** This attack has a larger AoE than the Phase 2 version, both vertically and horizontally.
+|name_7 = Turning Sweep
+|desc_7 = Performs a slash towards the player, dealing '''50% ATK''' as {{Color|AoE Electro DMG}}. This is an AoE attack that spans a 180° arc.
+|file_7 = Childe Light of Obliteration Phase 3
 
-* '''Havoc: Annihilation:''' Performs a slash and a cross-slash, dealing '''50% ATK''' and '''70% ATK''' as {{Color|Electro DMG}}, before throwing a spinning polearm forward that deals '''30% ATK''' as {{Color|Electro DMG}} upon contact.
+|name_8 = 3-Part Combo
+|desc_8 = Performs a slash and a cross-slash, dealing '''25% ATK''' and '''35% ATK''' as {{Color|Electro DMG}}, before throwing a spinning polearm forward that deals '''15% ATK''' as {{Color|Electro DMG}} upon contact.
+|file_8 = Childe Annihilation
 
-* '''Judgement:''' Summons a lightning cloud that shoots 4 consecutive Electro blades, dealing '''100% ATK''' as {{Color|AoE Electro DMG}}.
-** This attack does not apply or consume Riptide.
+|name_9 = Blade Rain
+|desc_9 = Summons a lightning cloud that shoots 4 consecutive Electro blades, dealing '''50% ATK''' as {{Color|AoE Electro DMG}}.
+* This attack does not apply or consume Riptide.
+|file_9 = Childe Judgment
 
-* '''Displacement (Enhanced):''' Performs at least 1 and up to 5 consecutive charged forward dash attacks, dealing '''75% ATK''' as {{Color|Electro DMG}} in his wake.
+|name_10 = Chained Dashes (Enhanced)
+|desc_10 = Performs at least 1 and up to 5 consecutive charged forward dash attacks, dealing '''37.5% ATK''' as {{Color|Electro DMG}} in his wake.
+|file_10 = Childe Displacement Phase 3
 
-* '''Havoc: Formless Blade (Riptide):''' Unleashes attack in the form of a wheel, moving around the arena and returning to its initial location, dealing '''80% ATK''' as {{Color|Electro DMG}} to players in its path. This attack requires Riptide to trigger, but does not consume Riptide.
+|name_11 = Bladewheel (Riptide)
+|desc_11 = Unleashes attack in the form of a wheel, moving around the arena and returning to its initial location, dealing '''40% ATK''' as {{Color|Electro DMG}} to players in its path. This attack requires Riptide to trigger, but does not consume Riptide.
+|file_11 = Childe Formless Blade
 
-* '''Ultima: God Arrow (Riptide):''' Charges for a while, then unleashes 4 arrows upward that fall to deal '''175% ATK''' as {{Color|AoE Hydro DMG}} in 4 strike zones, consuming Riptide on hit.
-** The middle and around the four cardinal edges of the arena are not affected.
-** The 4 strike zones cover roughly 3/5 of the arena's area.
-** Players in areas where 2 strike zones overlap will take 2 instances of DMG.
-** This attack cannot be dodged using Dash i-frames.
+|name_12 = Ultima: God Arrow (Riptide)
+|desc_12 = Charges for a while, then unleashes 4 arrows upward that fall to deal '''87.5% ATK''' as {{Color|AoE Hydro DMG}} in 4 strike zones, consuming Riptide on hit.
+* The middle and around the four cardinal edges of the arena are not affected.
+* The 4 strike zones cover roughly 3/5 of the arena's area.
+* Players in areas where 2 strike zones overlap will take 2 instances of DMG.
+* This attack cannot be dodged using Dash i-frames.
+|file_12 = Childe God Arrow
 
-* '''Ultima: Celestial Voyager (Riptide):''' Charges for a while, then unleashes a huge horned humpback whale-shaped Hydro attack with a bow in a huge AoE in front of him, dealing '''150% ATK''' on appearance and '''200% ATK''' on landing as {{Color|AoE Hydro DMG}}, consuming Riptide on hit.
-** This attack cannot be dodged using Dash i-frames.
+|name_13 = Ultima: Celestial Voyager (Riptide)
+|desc_13 = Charges for a while, then unleashes a huge horned humpback whale-shaped Hydro attack with a bow in a huge AoE in front of him, dealing '''75% ATK''' on appearance and '''100% ATK''' on landing as {{Color|AoE Hydro DMG}}, consuming Riptide on hit.
+* This attack cannot be dodged using Dash i-frames.
+|file_13 = Childe Celestial Voyager Phase 3
 
-* '''Ultima: Dark Leap (Enhanced, Riptide):''' Marks the player with a circle of black lightning. Charges for a while, flies high slowly, and then strikes down at the player, dealing '''200% ATK''' as {{Color|AoE Electro DMG}} around the landing point, consuming Riptide on hit.
-** This attack has a much larger AoE than the Phase 2 version.
-** This attack cannot be dodged using Dash i-frames.
-** If the Riptide mark is removed while this attack is charging, the targeting circle will be thrown off and become stationary. However, Childe will still strike down at the circle's location.
-
-====Preview====
-{{Preview
-|size=185px
-|file1=Childe Riptide Override
-|caption1=Riptide Override
-
-|file2=Childe Cutting Torrent Phase 3
-|caption2=Cutting Torrent (Enhanced)
-
-|file3=Childe Vortex of Turmoil
-|caption3=Abyssal Mayhem: Vortex of Turmoil
-
-|file4=Childe Hydrospout
-|caption4=Abyssal Mayhem: Hydrospout
-
-|file5=Childe Crescent Tides
-|caption5=Crescent Tides
-
-|file6=Childe Twin Strikes
-|caption6=Twin Strikes
-
-|file7=Childe Light of Obliteration Phase 3
-|caption7=Light of Obliteration (Enhanced)
-
-|file8=Childe Annihilation
-|caption8=Havoc: Annihilation
-
-|file9=Childe Judgement
-|caption9=Judgement
-
-|file10=Childe Displacement Phase 3
-|caption10=Displacement (Enhanced)
-
-|file11=Childe Formless Blade
-|caption11=Havoc: Formless Blade
-
-|file12=Childe God Arrow
-|caption12=Ultima: God Arrow
-
-|file13=Childe Celestial Voyager Phase 3
-|caption13=Ultima: Celestial Voyager
-
-|file14=Childe Dark Leap Phase 3
-|caption14=Ultima: Dark Leap (Enhanced)
+|name_14 = Ultima: Dark Leap (Enhanced, Riptide)
+|desc_14 = Marks the player with a circle of black lightning. Charges for a while, flies high slowly, and then strikes down at the player, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} around the landing point, consuming Riptide on hit.
+* This attack has a much larger AoE than the Phase 2 version.
+* This attack cannot be dodged using Dash i-frames.
+* If the Riptide mark is removed while this attack is charging, the targeting circle will be thrown off and become stationary. However, Childe will still strike down at the circle's location.
+|file_14 = Childe Dark Leap Phase 3
 }}
 
 ==Strategy==
@@ -384,30 +329,30 @@ Childe's attacks in his first two phases are punishing on close-range fighters, 
 ====Phase 1====
 The player will initially be positioned at the edge of the arena, and Childe will be non-hostile in the center until approached/engaged (this is also the case for his third phase). You can use this opportunity to heal/eat/buff/etc. or change your artifacts/weapons without stress before engaging.
 
-*Many of the ranged attacks in his first phase can be dodged by running in a circle around him. Dashing is usually unnecessary, so it is best to conserve stamina for his more powerful attacks, such as the '''Ultima''' attacks.
-*In Co-Op, he can be stun-locked by repeatedly attacking him before he can attack.
-*'''Ultima: Celestial Voyager''' will hit twice: once when it is summoned, and once when it lands. Both have a similar radius, but target different parts of the arena. Stay away from the landing zone to avoid taking DMG from the second part of the attack. Running to the edge of the arena will take the player out of the landing radius.
+* Many of the ranged attacks in his first phase can be dodged by running in a circle around him. Dashing is usually unnecessary, so it is best to conserve stamina for his more powerful attacks, such as the '''Ultima''' attacks.
+* In Co-Op, he can be stun-locked by repeatedly attacking him before he can attack.
+* '''Ultima: Celestial Voyager''' will hit twice: once when it is summoned, and once when it lands. Both have a similar radius, but target different parts of the arena. Stay away from the landing zone to avoid taking DMG from the second part of the attack. Running to the edge of the arena will take the player out of the landing radius.
 
 ====Phase 2====
 During Phase 2, Childe will start moving around more, actively chasing the player, and utilize fast {{Electro}} attacks. Upon transitioning to this phase, Childe will dash to the center of the arena, causing a large Hydro AoE knock-back at the center of the arena that does not deal DMG. Note that in this phase, staying near the arena's barriers is extremely dangerous, as Childe's rapid Electro attacks will cause knockback through the [[Overloaded]] reaction if the player is currently affected by Pyro. The same applies for standing inside [[Bennett]]'s [[Fantastic Voyage]] AoE.
 
-*To dodge the entire 5-strike combo of '''Raging Tide''', the player must outrun the first 3 attacks and use a well-timed [[Sprinting#Dash|Dash]] to avoid the 4th.
-*To dodge chained '''Displacement''' attacks, the player should walk in a medium-sized circle and dash only when necessary.
-*'''Ultima: Dark Leap''' is difficult to dodge and is usually a near instant-kill for your on-field character. As soon as Childe initiates this attack, the player should move towards the edge of the arena to cleanse the Riptide mark along with the tracking circle, then immediately exit the attack's AoE. If these steps cannot be performed in time, the player can use a well-timed Elemental Burst i-frame to nullify the DMG.
+* To dodge the entire 5-strikes of the '''Melee Combo''', the player must outrun the first 3 attacks and use a well-timed [[Sprinting#Dash|Dash]] to avoid the 4th.
+* To dodge '''Chained Dashes''' attacks, the player should walk in a medium-sized circle and dash only when necessary.
+* '''Ultima: Dark Leap''' is difficult to dodge and is usually a near instant-kill for your on-field character. As soon as Childe initiates this attack, the player should move towards the edge of the arena to cleanse the Riptide mark along with the tracking circle, then immediately exit the attack's AoE. If these steps cannot be performed in time, the player can use a well-timed Elemental Burst i-frame to nullify the DMG.
 
 ====Phase 3====
 Upon transitioning to this phase, you will be repositioned to the second arena's edge, with Childe remaining initially non-hostile in the center until approached/engaged. You can use this opportunity to heal/eat/buff/etc. without stress before engaging in the final phase.
 
 In Phase 3, Childe's attacks are much slower than in the 1st and 2nd phases, making it easy to attack him up close. However, if not dodged, these attacks will also deal higher DMG. He will use both new attacks and attacks from the earlier phases. Childe primarily uses Electro against players close to him, and Hydro against those out of range.
 
-*When '''Ultima: God Arrow''' is used, blue circles will appear on the floor. Go to the middle or around the four cardinal edges of the arena to avoid this attack. It is especially important to avoid standing in areas where two strike zones overlap, as players in these areas will take DMG twice.
+* When '''Ultima: God Arrow''' is used, blue circles will appear on the floor. Go to the middle or around the four cardinal edges of the arena to avoid this attack. It is especially important to avoid standing in areas where two strike zones overlap, as players in these areas will take DMG twice.
 
 ===Recommended Characters===
-*Non-{{Hydro}} or {{Electro}} DMG dealers are always effective against Childe independent of his element.
-*Ranged characters can attack from a safe range, especially during Phase 1.
-*[[Jean]] and [[Bennett]] are capable of cleansing Childe's Riptide mark using their Elemental Bursts (Jean's Elemental Burst will take at least five Swirls before it can remove it, Bennett's Burst will cause Overloaded on the player).
-*Abilities such as [[Xiao]]'s [[Bane of All Evil]], [[Kaedehara Kazuha|Kazuha]]'s [[Chihayaburu]], [[Venti]]'s [[Skyward Sonnet]] and climbable [[Geo Constructs]] can be used to avoid many of Childe's powerful attacks which lack vertical AoE such as '''Ultima: Dark Leap'''.
-*As usual, [[Healing|healers]] and [[Shields|shielders]] can effectively improve the player's survivability.
+* Non-{{Hydro}} or {{Electro}} DMG dealers are always effective against Childe independent of his element.
+* Ranged characters can attack from a safe range, especially during Phase 1.
+* [[Jean]] and [[Bennett]] are capable of cleansing Childe's Riptide mark using their Elemental Bursts (Jean's Elemental Burst will take at least five Swirls before it can remove it, Bennett's Burst will cause Overloaded on the player).
+* Abilities such as [[Xiao]]'s [[Bane of All Evil]], [[Kaedehara Kazuha|Kazuha]]'s [[Chihayaburu]], [[Venti]]'s [[Skyward Sonnet]] and climbable [[Geo Constructs]] can be used to avoid many of Childe's powerful attacks which lack vertical AoE such as '''Ultima: Dark Leap'''.
+* As usual, [[Healing|healers]] and [[Shields|shielders]] can effectively improve the player's survivability.
 
 ==Quest Domains==
 {{Quest Domains}}
@@ -416,144 +361,183 @@ In Phase 3, Childe's attacks are much slower than in the 1st and 2nd phases, mak
 {{Achievement Topic Table|topic=Enter the Golden House}}
 
 ==Voice-Overs==
-For the quest version of the battle dialogue, see [[Heart of Glaze#The battle begins|Heart of Glaze]].
+{{For|the quest version of the battle dialogue|Heart of Glaze#The battle begins}}
 
 ===Phase 1===
-{{Dialogue start}}
-;(Upon starting the fight)
-:{{A|vo lyaq204 4 cs tartaglia 14.ogg}} '''Childe:''' This opportunity is quite hard to come by.
-:{{A|vo lyaq204 4 cs tartaglia 15.ogg}} '''Childe:''' Well then. Amuse me.
-:{{A|vo lyaq204 4 cs tartaglia 16.ogg}} '''Childe:''' Surrender is a valid option. I promise I'll be gentle.
-{{Dialogue end}}
 {{VO/Enemy
 |enemy                   = Childe
-|vo_01_00_title          = Hydro Shield
-|vo_01_01_file           = VO {lang}{name} - Poor Timing.ogg
-|vo_01_01_tx_en          = Poor timing.
-|vo_01_01_tx_zhs         = 
-|vo_01_01_tx_zht         = 
-|vo_01_01_tx_ja          = 
-|vo_01_01_tx_ko          = 
-|vo_01_02_file           = VO {lang}{name} - Passable Effort.ogg
-|vo_01_02_tx_en          = Passable effort.
-|vo_01_02_tx_zhs         = 
-|vo_01_02_tx_zht         = 
-|vo_01_02_tx_ja          = 
-|vo_01_02_tx_ko          = 
 
-|vo_02_00_title          = Shield Counter
-|vo_02_01_file           = VO {lang}{name} - Youve Made Some Progress.ogg
-|vo_02_01_tx_en          = You've made some progress.
-|vo_02_01_tx_zhs         = 
-|vo_02_01_tx_zht         = 
-|vo_02_01_tx_ja          = 
-|vo_02_01_tx_ko          = 
+|vo_01_00_title          = Fight Start
+|vo_01_01_tx_en          = {{A|vo lyaq204 4 cs tartaglia 14.ogg}} This opportunity is quite hard to come by.<br />{{A|vo lyaq204 4 cs tartaglia 15.ogg}} Well then. Amuse me.<br />{{A|vo lyaq204 4 cs tartaglia 16.ogg}} Surrender is a valid option. I promise I'll be gentle.
+|vo_01_01_tx_zh          = {{A|vo ZH lyaq204 4 cs tartaglia 14.ogg}} 这机会还挺难得的<br />{{A|vo ZH lyaq204 4 cs tartaglia 15.ogg}} 就让我好好享受一下吧。<br />{{A|vo ZH lyaq204 4 cs tartaglia 16.ogg}} 投降不失为一种选择，我会非常温柔地对待你这位手下败将。
+|vo_01_01_rm_zh          = Zhè jīhuì hái tǐng nándéde<br />Jiù ràng wǒ hǎohǎo xiǎngshòu yīxiàba.<br />Tóuxiáng bùshīwéi yīzhǒng xuǎnzé, wǒ huì wēnróu de duìdài nǐ zhèwèi shǒuxiàbàijiàng.
+|vo_01_01_tx_ja          = {{A|vo JA lyaq204 4 cs tartaglia 14.ogg}} せっかくのチャンスだ。<br />{{A|vo JA lyaq204 4 cs tartaglia 15.ogg}} 本気を出して、俺を楽しませてくれ。<br />{{A|vo JA lyaq204 4 cs tartaglia 16.ogg}} 投降も一つの選択だよ、俺は敗者に優しいからね。
+|vo_01_01_rm_ja          = 
+|vo_01_01_tx_ko          = {{A|vo KO lyaq204 4 cs tartaglia 14.ogg}} 이런 기회 흔치 않아<br />{{A|vo KO lyaq204 4 cs tartaglia 15.ogg}} 날 좀 재밌게 해봐<br />{{A|vo KO lyaq204 4 cs tartaglia 16.ogg}} 항복도 괜찮은 선택이라고 할 수 있지. 상냥하게 대해줄 테니 걱정 마
+|vo_01_01_rm_ko          = 
 
-|vo_03_00_title          = Solo
-|vo_03_01_file           = VO {lang}{name} - A Fine Opportunity.ogg
-|vo_03_01_tx_en          = A fine opportunity!
-|vo_03_01_tx_zhs         = 
-|vo_03_01_tx_zht         = 
-|vo_03_01_tx_ja          = 
-|vo_03_01_tx_ko          = 
+|vo_02_00_title          = Hydro Shield
+|vo_02_01_file           = VO {lang}{name} - Poor Timing.ogg
+|vo_02_01_tx_en          = Poor timing.
+|vo_02_01_tx_zh          = 时机错了！
+|vo_02_01_rm_zh          = Shíjī cuòle!
+|vo_02_01_tx_ja          = 機を読み違えてるよ。
+|vo_02_01_rm_ja          = Ki wo yomichigaeteru yo.
+|vo_02_01_tx_ko          = 타이밍이 나빴어!
+|vo_02_01_rm_ko          = Taiming'i nappasseo!
+|vo_02_02_file           = VO {lang}{name} - Passable Effort.ogg
+|vo_02_02_tx_en          = Passable effort.
+|vo_02_02_tx_zh          = 力道尚可！
+|vo_02_02_rm_zh          = Lìdào shàng kě!
+|vo_02_02_tx_ja          = 実にいい力だ。
+|vo_02_02_rm_ja          = Jitsu ni ii chikara da.
+|vo_02_02_tx_ko          = 꽤 강력하군!
+|vo_02_02_rm_ko          = Kkwae gangnyeokhagun!
 
-|vo_04_00_title          = Blast
-|vo_04_01_file           = VO {lang}{name} - Not Bad Not Bad.ogg
-|vo_04_01_tx_en          = Not bad, not bad.
-|vo_04_01_tx_zhs         = 
-|vo_04_01_tx_zht         = 
-|vo_04_01_tx_ja          = 
-|vo_04_01_tx_ko          = 
+|vo_03_00_title          = Blast
+|vo_03_01_file           = VO {lang}{name} - Not Bad Not Bad.ogg
+|vo_03_01_tx_en          = Not bad, not bad.
+|vo_03_01_tx_zh          = 这下还不赖！
+|vo_03_01_rm_zh          = Zhè xià hái bùlài!
+|vo_03_01_tx_ja          = 悪くないね。
+|vo_03_01_rm_ja          = Warukunai ne.
+|vo_03_01_tx_ko          = 나쁘지 않아~
+|vo_03_01_rm_ko          = Nappeuji ana~
+|vo_03_02_file           = VO {lang}{name} - Youve Made Some Progress.ogg
+|vo_03_02_tx_en          = You've made some progress.
+|vo_03_02_tx_zh          = 你还算有点长进！
+|vo_03_02_rm_zh          = Nǐ hái suàn yǒudiǎn zhǎngjìn!
+|vo_03_02_tx_ja          = 少しは成長したようだ。
+|vo_03_02_rm_ja          = Sukoshi wa seichou shita you da.
+|vo_03_02_tx_ko          = 좀 늦는 거같군
+|vo_03_02_rm_ko          = Jom neunneun geogatgun
+
+|vo_04_00_title          = Shield Counterattack
+|vo_04_01_file           = VO {lang}{name} - Counterattack Effort 1.ogg
+|vo_04_01_tx_en          = Aha!
+|vo_04_01_tx_zh          = 啊哈！
+|vo_04_01_rm_zh          = Aha!
+|vo_04_01_tx_ja          = あはっ！
+|vo_04_01_rm_ja          = Aha'!
+|vo_04_01_tx_ko          = 아하!
+|vo_04_01_rm_ko          = Aha!
+|vo_04_02_file           = VO {lang}{name} - A Fine Opportunity.ogg
+|vo_04_02_tx_en          = A fine opportunity!
+|vo_04_02_tx_zh          = 好机会！
+|vo_04_02_rm_zh          = Hǎo jīhuì!
+|vo_04_02_tx_ja          = チャンスだ！
+|vo_04_02_rm_ja          = Chansu da!
+|vo_04_02_tx_ko          = 나이스 찬스~
+|vo_04_02_rm_ko          = Naisu chanseu~
 
 |vo_05_00_title          = Hydro Counter
 |vo_05_01_file           = VO {lang}{name} - You Missed A Spot.ogg
 |vo_05_01_tx_en          = You missed a spot!
-|vo_05_01_tx_zhs         = 
-|vo_05_01_tx_zht         = 
-|vo_05_01_tx_ja          = 
-|vo_05_01_tx_ko          = 
+|vo_05_01_tx_zh          = 你疏漏了！
+|vo_05_01_rm_zh          = Nǐ shūlòule!
+|vo_05_01_tx_ja          = ミスだよ！
+|vo_05_01_rm_ja          = Misu da yo!
+|vo_05_01_tx_ko          = 실수 투성이군
+|vo_05_01_rm_ko          = Silsu tuseong'igun
 |vo_05_02_file           = VO {lang}{name} - You Should Do It Like This.ogg
 |vo_05_02_tx_en          = You should do it like this!
-|vo_05_02_tx_zhs         = 
-|vo_05_02_tx_zht         = 
-|vo_05_02_tx_ja          = 
-|vo_05_02_tx_ko          = 
+|vo_05_02_tx_zh          = 应该…这么发力！
+|vo_05_02_rm_zh          = Yīnggāi... Zhème fālì!
+|vo_05_02_tx_ja          = こう、するべきだよ！
+|vo_05_02_rm_ja          = Kou, suru beki da yo!
+|vo_05_02_tx_ko          = 힘은… 이렇게 쓰는 거지!
+|vo_05_02_rm_ko          = Himeun... ireoke sseuneun geoji!
 
-|vo_06_00_title          = Shark Onslaught
+|vo_06_00_title          = Shark Waves
 |vo_06_01_file           = VO {lang}{name} - Ruh Haha.ogg
-|vo_06_01_tx_en          = Ruh-haha!
-|vo_06_01_tx_zhs         = 
-|vo_06_01_tx_zht         = 
+|vo_06_01_tx_en          = Grahaha!
+|vo_06_01_tx_zh          = 
+|vo_06_01_rm_zh          = 
 |vo_06_01_tx_ja          = 
+|vo_06_01_rm_ja          = 
 |vo_06_01_tx_ko          = 
 
-|vo_07_00_title          = Understream
+|vo_07_00_title          = Slide
 |vo_07_01_file           = VO {lang}{name} - Careful Now.ogg
 |vo_07_01_tx_en          = Careful now.
-|vo_07_01_tx_zhs         = 
-|vo_07_01_tx_zht         = 
-|vo_07_01_tx_ja          = 
-|vo_07_01_tx_ko          = 
+|vo_07_01_tx_zh          = 当心点儿！
+|vo_07_01_rm_zh          = Dāngxīn diǎnr!
+|vo_07_01_tx_ja          = 痛いから気をつけろよ。
+|vo_07_01_rm_ja          = Itai kara ki wo tsukeru yo.
+|vo_07_01_tx_ko          = 조심하라고~
+|vo_07_01_rm_ko          = Josimharago~
 
-|vo_08_00_title          = Cutting Torrent
+|vo_08_00_title          = Rapid Fire (Full Combo)
 |vo_08_01_file           = VO {lang}{name} - Youre Wide Open.ogg
 |vo_08_01_tx_en          = You're wide open!
-|vo_08_01_tx_zhs         = 
-|vo_08_01_tx_zht         = 
-|vo_08_01_tx_ja          = 
-|vo_08_01_tx_ko          = 
-|vo_08_02_file           = VO {lang}{name} - Try Me.ogg
-|vo_08_02_tx_en          = Try me.
-|vo_08_02_tx_zhs         = 
-|vo_08_02_tx_zht         = 
-|vo_08_02_tx_ja          = 
-|vo_08_02_tx_ko          = 
-|vo_08_03_file           = VO {lang}{name} - Try This.ogg
-|vo_08_03_tx_en          = Try this.
-|vo_08_03_tx_zhs         = 
-|vo_08_03_tx_zht         = 
-|vo_08_03_tx_ja          = 
-|vo_08_03_tx_ko          = 
-|vo_08_04_file           = VO {lang}{name} - So Quick To Flee.ogg
-|vo_08_04_tx_en          = So quick to flee.
-|vo_08_04_tx_zhs         = 
-|vo_08_04_tx_zht         = 
-|vo_08_04_tx_ja          = 
-|vo_08_04_tx_ko          = 
-|vo_08_05_file           = VO {lang}{name} - Run All You Like.ogg
-|vo_08_05_tx_en          = Run all you like!
-|vo_08_05_tx_zhs         = 
-|vo_08_05_tx_zht         = 
-|vo_08_05_tx_ja          = 
-|vo_08_05_tx_ko          = 
+|vo_08_01_tx_zh          = 破绽！
+|vo_08_01_rm_zh          = Pòzhàn!
+|vo_08_01_tx_ja          = 隙あり！
+|vo_08_01_rm_ja          = Suki ari!
+|vo_08_01_tx_ko          = 허점 발견!
+|vo_08_01_rm_ko          = Heojeom balgyeon!
+|vo_08_02_file           = VO {lang}{name} - Run All You Like.ogg
+|vo_08_02_tx_en          = Run all you like!
+|vo_08_02_tx_zh          = 再跑快点吧！
+|vo_08_02_rm_zh          = Zài pǎo kuàidiǎn ba!
+|vo_08_02_tx_ja          = もっと早く逃げた方がいい。
+|vo_08_02_rm_ja          = Motto hayaku nigeta hou ga ii.
+|vo_08_02_tx_ko          = 더 빨리 달려보시지!
+|vo_08_02_rm_ko          = Deo ppalli dallyeobosiji!
 
-|vo_09_00_title          = Flash of Havoc
-|vo_09_01_file           = VO {lang}{name} - Cowering Already.ogg
-|vo_09_01_tx_en          = Cowering already?
-|vo_09_01_tx_zhs         = 
-|vo_09_01_tx_zht         = 
-|vo_09_01_tx_ja          = 
-|vo_09_01_tx_ko          = 
-|vo_09_02_file           = VO {lang}{name} - How Unbecoming.ogg
-|vo_09_02_tx_en          = How unbecoming.
-|vo_09_02_tx_zhs         = 
-|vo_09_02_tx_zht         = 
-|vo_09_02_tx_ja          = 
-|vo_09_02_tx_ko          = 
+|vo_09_00_title          = Rapid Fire (Continuous)
+|vo_09_01_file           = VO {lang}{name} - Try This.ogg
+|vo_09_01_tx_en          = Try this.
+|vo_09_01_tx_zh          = 试试这个！
+|vo_09_01_rm_zh          = Shìshì zhège!
+|vo_09_01_tx_ja          = これを試してみようか。
+|vo_09_01_rm_ja          = Kore wo tameshite miyou ka.
+|vo_09_01_tx_ko          = 이건 어때?
+|vo_09_01_rm_ko          = Igeon eottae?
+|vo_09_02_file           = VO {lang}{name} - So Quick To Flee.ogg
+|vo_09_02_tx_en          = So quick to flee.
+|vo_09_02_tx_zh          = 跑得倒快！
+|vo_09_02_rm_zh          = Pǎo de dào kuài!
+|vo_09_02_tx_ja          = 逃げ足が速いようだね！
+|vo_09_02_rm_ja          = Nigeashi ga hayai you da ne!
+|vo_09_02_tx_ko          = 발은 빠르군
+|vo_09_02_rm_ko          = Bareun ppareugun
 
-|vo_10_00_title          = Ultima: Celestial Voyager
-|vo_10_01_file           = VO {lang}{name} - Celestial Voyager.ogg
-|vo_10_01_tx_en          = Celestial Voyager!
-|vo_10_01_tx_zhs         = 
-|vo_10_01_tx_zht         = 
-|vo_10_01_tx_ja          = 
-|vo_10_01_tx_ko          = 
-|vo_10_02_file           = VO {lang}{name} - A Clear Shot.ogg
-|vo_10_02_tx_en          = A clear shot!
-|vo_10_02_tx_zhs         = 
-|vo_10_02_tx_zht         = 
-|vo_10_02_tx_ja          = 
-|vo_10_02_tx_ko          = 
+|vo_10_00_title          = Airstrike
+|vo_10_01_file           = VO {lang}{name} - Cowering Already.ogg
+|vo_10_01_tx_en          = Cowering already?
+|vo_10_01_tx_zh          = 躲躲藏藏？
+|vo_10_01_rm_zh          = Duǒduocángcáng?
+|vo_10_01_tx_ja          = どこに行く？
+|vo_10_01_rm_ja          = Doko ni iku?
+|vo_10_01_tx_ko          = 숨기나 하다니
+|vo_10_01_rm_ko          = Sumgina hadani
+|vo_10_02_file           = VO {lang}{name} - How Unbecoming.ogg
+|vo_10_02_tx_en          = How unbecoming.
+|vo_10_02_tx_zh          = 真不像样！
+|vo_10_02_rm_zh          = Zhēn bù xiàngyàng!
+|vo_10_02_tx_ja          = らしくないね。
+|vo_10_02_rm_ja          = Rashikunai ne.
+|vo_10_02_tx_ko          = 형편없군
+|vo_10_02_rm_ko          = Hyeongpyeoneopgun
+
+|vo_11_00_title          = Ultima: Celestial Voyager
+|vo_11_01_file           = VO {lang}{name} - Celestial Voyager.ogg
+|vo_11_01_tx_en          = Celestial Voyager!
+|vo_11_01_tx_zh          = 星海游鲸！
+|vo_11_01_rm_zh          = Xīnghǎi Yóujīng!
+|vo_11_01_tx_ja          = 星海遊鯨！
+|vo_11_01_rm_ja          = Seikai-yuugei!
+|vo_11_01_tx_ko          = 성해유경!
+|vo_11_01_rm_ko          = Seonghaeyugyeong!
+|vo_11_02_file           = VO {lang}{name} - A Clear Shot.ogg
+|vo_11_02_tx_en          = A clear shot!
+|vo_11_02_tx_zh          = 一箭止水！
+|vo_11_02_rm_zh          = Yījiàn zhǐshuǐ!
+|vo_11_02_tx_ja          = 止水の矢！
+|vo_11_02_rm_ja          = Shisui no ya!
+|vo_11_02_tx_ko          = 마지막 한 발!
+|vo_11_02_rm_ko          = Majimak han bal!
 }}
 
 ===Phase 2===
@@ -562,205 +546,295 @@ For the quest version of the battle dialogue, see [[Heart of Glaze#The battle be
 |vo_01_00_title          = Transition
 |vo_01_01_file           = VO {lang}{name} - Not Bad Youve Got A Trick Or Two.ogg
 |vo_01_01_tx_en          = Not bad! You've got a trick or two.
-|vo_01_01_tx_zhs         = 
-|vo_01_01_tx_zht         = 
-|vo_01_01_tx_ja          = 
-|vo_01_01_tx_ko          = 
+|vo_01_01_tx_zh          = 不错不错！确实有点手段！
+|vo_01_01_rm_zh          = Bùcuò bùcuò! Quèshí yǒudiǎn shǒuduàn!
+|vo_01_01_tx_ja          = 褒めてあげよう！
+|vo_01_01_rm_ja          = Homete ageyou!
+|vo_01_01_tx_ko          = 괜찮네. 솜씨는 있군
+|vo_01_01_rm_ko          = Gwaenchanne. Somssineun itgun
 |vo_01_02_file           = VO {lang}{name} - Guess I Should Take It More Seriously.ogg
-|vo_01_02_tx_en          = Guess I should take it more seriously.
-|vo_01_02_tx_zhs         = 
-|vo_01_02_tx_zht         = 
-|vo_01_02_tx_ja          = 
-|vo_01_02_tx_ko          = 
+|vo_01_02_tx_en          = Guess I should take it more seriously...
+|vo_01_02_tx_zh          = 值得我——再认真一点！
+|vo_01_02_rm_zh          = Zhídé wǒ{{lmdash}} zài rènzhēn yīdiǎn!
+|vo_01_02_tx_ja          = 俺相手によくここまで持つな！
+|vo_01_02_rm_ja          = Ore aite ni yoku koko made motsu na!
+|vo_01_02_tx_ko          = 더 진지하게 임해야겠어
+|vo_01_02_rm_ko          = Deo jinjahage imhaeyagesseo
 
 |vo_02_00_title          = Blast
 |vo_02_01_file           = VO {lang}{name} - Youve Got Some Skills.ogg
-|vo_02_01_tx_en          = You've got some skills.
-|vo_02_01_tx_zhs         = 
-|vo_02_01_tx_zht         = 
-|vo_02_01_tx_ja          = 
-|vo_02_01_tx_ko          = 
+|vo_02_01_tx_en          = Heh. You've got some skills!
+|vo_02_01_tx_zh          = 哼。有点本事！
+|vo_02_01_rm_zh          = Hng. Yǒudiǎn běnshì!
+|vo_02_01_tx_ja          = はっ、やるじゃないか。
+|vo_02_01_rm_ja          = Ha', yaru ja nai ka.
+|vo_02_01_tx_ko          = 헷, 제법이군!
+|vo_02_01_rm_ko          = Het, jebeobigun!
 
 |vo_03_00_title          = Electro Counter
 |vo_03_01_file           = VO {lang}{name} - The Price Of A Single Slip.ogg
 |vo_03_01_tx_en          = The price of a single slip.
-|vo_03_01_tx_zhs         = 
-|vo_03_01_tx_zht         = 
-|vo_03_01_tx_ja          = 
-|vo_03_01_tx_ko          = 
+|vo_03_01_tx_zh          = 粗心的代价！
+|vo_03_01_rm_zh          = Cūxīn de dàijià!
+|vo_03_01_tx_ja          = 気を抜いた代償だ。
+|vo_03_01_rm_ja          = Ki wo nuita daishou da.
+|vo_03_01_tx_ko          = 부주의한 대가야
+|vo_03_01_rm_ko          = Bujuuihan daegaya
 |vo_03_02_file           = VO {lang}{name} - Has Your Luck Run Out.ogg
-|vo_03_02_tx_en          = Has your luck run out?
-|vo_03_02_tx_zhs         = 
-|vo_03_02_tx_zht         = 
-|vo_03_02_tx_ja          = 
-|vo_03_02_tx_ko          = 
+|vo_03_02_tx_en          = Has your luck run out?!
+|vo_03_02_tx_zh          = 运气到头了！
+|vo_03_02_rm_zh          = Yùnqì dàotóule!
+|vo_03_02_tx_ja          = 運が尽きたんだ。
+|vo_03_02_rm_ja          = Un ga tsukitanda.
+|vo_03_02_tx_ko          = 운을 다 썼나보군?
+|vo_03_02_rm_ko          = Uneul da sseonnabogun?
 
-|vo_04_00_title          = Flicker
-|vo_04_01_file           = VO {lang}{name} - Got You.ogg
-|vo_04_01_tx_en          = Got you.
-|vo_04_01_tx_zhs         = 
-|vo_04_01_tx_zht         = 
-|vo_04_01_tx_ja          = 
-|vo_04_01_tx_ko          = 
-|vo_04_02_file           = VO {lang}{name} - The Price Of A Single Slip.ogg
-|vo_04_02_tx_en          = The price of a single slip.
-|vo_04_02_tx_zhs         = 
-|vo_04_02_tx_zht         = 
-|vo_04_02_tx_ja          = 
-|vo_04_02_tx_ko          = 
-|vo_04_03_file           = VO {lang}{name} - My Turn.ogg
-|vo_04_03_tx_en          = My turn!
-|vo_04_03_tx_zhs         = 
-|vo_04_03_tx_zht         = 
-|vo_04_03_tx_ja          = 
-|vo_04_03_tx_ko          = 
+|vo_04_00_title          = Shield Counterattack
+|vo_04_01_file           = VO {lang}{name} - Counterattack Effort 3.ogg
+|vo_04_01_tx_en          = Ngah!
+|vo_04_01_tx_zh          = 喝！
+|vo_04_01_rm_zh          = He!
+|vo_04_01_tx_ja          = はっ！
+|vo_04_01_rm_ja          = Ha'!
+|vo_04_01_tx_ko          = 이얏!
+|vo_04_01_rm_ko          = Iyat!
+|vo_04_02_file           = VO {lang}{name} - My Turn.ogg
+|vo_04_02_tx_en          = My turn!
+|vo_04_02_tx_zh          = 到我了！
+|vo_04_02_rm_zh          = Dào wǒ le!
+|vo_04_02_tx_ja          = 俺の番だ！
+|vo_04_02_rm_ja          = Ore no ban da!
+|vo_04_02_tx_ko          = 내 차례다…!
+|vo_04_02_rm_ko          = Nae charyeda...!
 
-|vo_05_00_title          = Flicker Combo
-|vo_05_01_file           = VO {lang}{name} - Raging Tide.ogg
-|vo_05_01_tx_en          = Raging tide!
-|vo_05_01_tx_zhs         = 
-|vo_05_01_tx_zht         = 
-|vo_05_01_tx_ja          = 
-|vo_05_01_tx_ko          = 
-|vo_05_02_file           = VO {lang}{name} - Something Else Catch Your Eye.ogg
-|vo_05_02_tx_en          = Something else catch your eye?
-|vo_05_02_tx_zhs         = 
-|vo_05_02_tx_zht         = 
-|vo_05_02_tx_ja          = 
-|vo_05_02_tx_ko          = 
+|vo_05_00_title          = Flicker
+|vo_05_01_file           = VO {lang}{name} - Got You.ogg
+|vo_05_01_tx_en          = Got you.
+|vo_05_01_tx_zh          = 抓到你了。
+|vo_05_01_rm_zh          = Zhuā dào nǐ le.
+|vo_05_01_tx_ja          = 捕まえた。
+|vo_05_01_rm_ja          = Tsukamaeta.
+|vo_05_01_tx_ko          = 잡았다
+|vo_05_01_rm_ko          = Jabatda
+|vo_05_02_file           = VO {lang}{name} - Flicker Effort 02.ogg
+|vo_05_02_tx_en          = Hehahaha...
+|vo_05_02_tx_zh          = 哼哼。
+|vo_05_02_rm_zh          = Hengheng.
+|vo_05_02_tx_ja          = へへ…
+|vo_05_02_rm_ja          = Hehe...
+|vo_05_02_tx_ko          = 하핫
+|vo_05_02_rm_ko          = Hahat
 
-|vo_06_00_title          = Raging Tide
+|vo_06_00_title          = Melee Combo
 |vo_06_01_file           = VO {lang}{name} - Raging Tide.ogg
 |vo_06_01_tx_en          = Raging tide!
-|vo_06_01_tx_zhs         = 
-|vo_06_01_tx_zht         = 
-|vo_06_01_tx_ja          = 
-|vo_06_01_tx_ko          = 
+|vo_06_01_tx_zh          = 势如狂澜！
+|vo_06_01_rm_zh          = Shì rú kuánglán!
+|vo_06_01_tx_ja          = 狂乱の如く、疾風怒濤！
+|vo_06_01_rm_ja          = Kyouran no gotoku, shippuu-dotou!
+|vo_06_01_tx_ko          = 광란의 기세…
+|vo_06_01_rm_ko          = Gwangnan-ui gise...
+|vo_06_02_file           = VO {lang}{name} - Something Else Catch Your Eye.ogg
+|vo_06_02_tx_en          = Something else catch your eye?!
+|vo_06_02_tx_zh          = 你在看哪儿？
+|vo_06_02_rm_zh          = Nǐ zài kàn nǎr?
+|vo_06_02_tx_ja          = どこを見ている？
+|vo_06_02_rm_ja          = Doko wo mite iru?
+|vo_06_02_tx_ko          = 어딜 보는 거지?
+|vo_06_02_rm_ko          = Eodil boneun geoji?
+|vo_06_03_file           = VO {lang}{name} - Raging Tide Grunt 1.ogg
+|vo_06_03_rm_ja          = Sei!
+|vo_06_04_file           = VO {lang}{name} - Raging Tide Grunt 2.ogg
+|vo_06_04_rm_ja          = Hyaa!
 
-|vo_07_00_title          = Light of Obliteration
+|vo_07_00_title          = Turning Sweep
 |vo_07_01_file           = VO {lang}{name} - No Use Hiding Back There.ogg
 |vo_07_01_tx_en          = No use hiding back there!
-|vo_07_01_tx_zhs         = 
-|vo_07_01_tx_zht         = 
-|vo_07_01_tx_ja          = 
-|vo_07_01_tx_ko          = 
+|vo_07_01_tx_zh          = 躲在后面可没用！
+|vo_07_01_rm_zh          = Duǒ zài hòumiàn kě méiyòng!
+|vo_07_01_tx_ja          = 無駄だ！
+|vo_07_01_rm_ja          = Muda da!
+|vo_07_01_tx_ko          = 뒤에 숨어도 소용없어!
+|vo_07_01_rm_ko          = Dwie sumeodo soyong'eopseo!
 |vo_07_02_file           = VO {lang}{name} - All You Do Is Run.ogg
 |vo_07_02_tx_en          = All you do is run!
-|vo_07_02_tx_zhs         = 
-|vo_07_02_tx_zht         = 
-|vo_07_02_tx_ja          = 
-|vo_07_02_tx_ko          = 
+|vo_07_02_tx_zh          = 只会躲吗！
+|vo_07_02_rm_zh          = Zhǐ huì duǒ ma!
+|vo_07_02_tx_ja          = 回避だけじゃだめだよ！
+|vo_07_02_rm_ja          = Kaihi dake ja dame da yo!
+|vo_07_02_tx_ko          = 숨기만 할 거야?
+|vo_07_02_rm_ko          = Sumgiman hal geoya?
 
-|vo_08_00_title          = Displacement
+|vo_08_00_title          = Chained Dashes
 |vo_08_01_file           = VO {lang}{name} - Break.ogg
 |vo_08_01_tx_en          = Break!
-|vo_08_01_tx_zhs         = 
-|vo_08_01_tx_zht         = 
-|vo_08_01_tx_ja          = 
-|vo_08_01_tx_ko          = 
+|vo_08_01_tx_zh          = 破！
+|vo_08_01_rm_zh          = Pò!
+|vo_08_01_tx_ja          = ふんっ！
+|vo_08_01_rm_ja          = Fun'!
+|vo_08_01_tx_ko          = 뚫려라!
+|vo_08_01_rm_ko          = Ttullyeora!
+|vo_08_02_file           = VO {lang}{name} - Displacement Effort 1.ogg
+|vo_08_02_tx_en          = Grr!
+|vo_08_02_tx_zh          = 喝！
+|vo_08_02_rm_zh          = He!
+|vo_08_02_tx_ja          = はっ！
+|vo_08_02_rm_ja          = Ha'!
+|vo_08_02_tx_ko          = 핫!
+|vo_08_02_rm_ko          = Hat!
 
 |vo_09_00_title          = Ultima: Dark Leap
 |vo_09_01_file           = VO {lang}{name} - Eat This.ogg
 |vo_09_01_tx_en          = Eat this!
-|vo_09_01_tx_zhs         = 
-|vo_09_01_tx_zht         = 
-|vo_09_01_tx_ja          = 
-|vo_09_01_tx_ko          = 
+|vo_09_01_tx_zh          = 试试…这招！
+|vo_09_01_rm_zh          = Shìshì... zhè zhāo!
+|vo_09_01_tx_ja          = これは、どうだい？
+|vo_09_01_rm_ja          = Kore wa, dou dai?
+|vo_09_01_tx_ko          = 이건 어떠냐…!
+|vo_09_01_rm_ko          = Igeon eotteonya...!
 |vo_09_02_file           = VO {lang}{name} - Ill Crush You.ogg
 |vo_09_02_tx_en          = I'll crush you!
-|vo_09_02_tx_zhs         = 
-|vo_09_02_tx_zht         = 
-|vo_09_02_tx_ja          = 
-|vo_09_02_tx_ko          = 
+|vo_09_02_tx_zh          = 碾碎你！
+|vo_09_02_rm_zh          = Niǎnsuì nǐ!
+|vo_09_02_tx_ja          = すり潰すよ。
+|vo_09_02_rm_ja          = Suritsubusu yo.
+|vo_09_02_tx_ko          = 부숴주마…
+|vo_09_02_rm_ko          = Buswojuma...
 }}
 
 ===Phase 3===
-{{Dialogue start}}
-;(Childe smashes the floor, Paimon and the Traveler fall through)
-:{{A|vo lyaq204 4 cs tartaglia 17.ogg}} '''Childe:''' ...Your strength is praiseworthy.
-:{{A|vo lyaq204 4 cs tartaglia 18.ogg}} '''Childe:''' I, too, shall use all of mine...
-:{{A|vo lyaq204 4 cs tartaglia 19.ogg}} '''Childe:''' So... don't you dare disappoint me.
-:{{A|vo lyaq204 4 cs tartaglia 20.ogg}} '''Childe:''' Foul Legacy - The Devouring Deep!
-:{{A|vo lyaq204 4 cs paimon 02.ogg}} '''Paimon:''' Aaaah!!!!
-{{Dialogue end}}
 {{VO/Enemy
 |enemy                   = Childe
-|vo_01_00_title          = Judgment
-|vo_01_01_file           = VO {lang}{name} - Nowhere To Run.ogg
-|vo_01_01_tx_en          = Nowhere to run!
-|vo_01_01_tx_zhs         = 
-|vo_01_01_tx_zht         = 
-|vo_01_01_tx_ja          = 
-|vo_01_01_tx_ko          = 
+|vo_01_00_title          = Transition
+|vo_01_01_tx_en          = {{A|vo lyaq204 4 cs tartaglia 17.ogg}} '''Childe:''' ...Your strength is praiseworthy.<br />{{A|vo lyaq204 4 cs tartaglia 18.ogg}} '''Childe:''' I, too, shall use all of mine...<br />{{A|vo lyaq204 4 cs tartaglia 19.ogg}} '''Childe:''' So... don't you dare disappoint me.<br />{{A|vo lyaq204 4 cs tartaglia 20.ogg}} '''Childe:''' Foul Legacy - The Devouring Deep!<br />{{A|vo lyaq204 4 cs paimon 02.ogg}} '''Paimon:''' Aaaah!!!
+|vo_01_01_tx_zh          = {{A|vo ZH lyaq204 4 cs tartaglia 17.ogg}} '''Childe:''' …你的实力值得称赞。<br />{{A|vo ZH lyaq204 4 cs tartaglia 18.ogg}} '''Childe:''' 我也得拿出全力应战了…<br />{{A|vo ZH lyaq204 4 cs tartaglia 19.ogg}} '''Childe:''' 你可千万别让我…失望。<br />{{A|vo ZH lyaq204 4 cs tartaglia 20.ogg}} '''Childe:''' 极恶法…「鲸吞噬灭」！<br />{{A|vo ZH lyaq204 4 cs paimon 02.ogg}} '''Paimon:''' 啊——！！
+|vo_01_01_rm_zh          = '''Childe:''' ...Nǐde shílì zhídé chēngzàn.<br />'''Childe:''' Wǒ yě děi náchū quánlì yìngzhànle...<br />'''Childe:''' Nǐ kě qiānwàn bié ràngwǒ... shīwàng.<br />'''Childe:''' Jí'è-fǎ... "jīngtūn shìmiè"!<br />'''Paimon:''' Ā&mdash;!!
+|vo_01_01_tx_ja          = {{A|vo JA lyaq204 4 cs tartaglia 17.ogg}} '''Childe:''' …君の実力を褒めてやろう。<br />{{A|vo JA lyaq204 4 cs tartaglia 18.ogg}} '''Childe:''' 俺も全力で戦わないと…<br />{{A|vo JA lyaq204 4 cs tartaglia 19.ogg}} '''Childe:''' 失望…させるなよ。<br />{{A|vo JA lyaq204 4 cs tartaglia 20.ogg}} '''Childe:''' 極悪法…「空鯨噬滅」！<br />{{A|vo JA lyaq204 4 cs paimon 02.ogg}} '''Paimon:''' うわっ！
+|vo_01_01_rm_ja          = 
+|vo_01_01_tx_ko          = {{A|vo KO lyaq204 4 cs tartaglia 17.ogg}} '''Childe:''' …괜찮은 실력이군<br />{{A|vo KO lyaq204 4 cs tartaglia 18.ogg}} '''Childe:''' 나도 최선을 다해야겠어…<br />{{A|vo KO lyaq204 4 cs tartaglia 19.ogg}} '''Childe:''' 절대 날…실망시키지 마<br />{{A|vo KO lyaq204 4 cs tartaglia 20.ogg}} '''Childe:''' 극악법…「경탄서멸」!<br />{{A|vo KO lyaq204 4 cs paimon 02.ogg}} '''Paimon:''' 으앗!
+|vo_01_01_rm_ko          = 
 
-|vo_02_00_title          = Havoc: Formless Blade
-|vo_02_01_file           = VO {lang}{name} - Shatter.ogg
-|vo_02_01_tx_en          = Shatter!
-|vo_02_01_tx_zhs         = 
-|vo_02_01_tx_zht         = 
-|vo_02_01_tx_ja          = 
-|vo_02_01_tx_ko          = 
+|vo_02_00_title          = Blade Rain
+|vo_02_01_file           = VO {lang}{name} - Nowhere To Run.ogg
+|vo_02_01_tx_en          = Nowhere to run!
+|vo_02_01_tx_zh          = 无处可逃！
+|vo_02_01_rm_zh          = Wúchùkětáo!
+|vo_02_01_tx_ja          = 逃げられると思うな。
+|vo_02_01_rm_ja          = Nigerareru to omou na.
+|vo_02_01_tx_ko          = 도망칠 곳은 없어!
+|vo_02_01_rm_ko          = Domangchil goseun eopseo!
+|vo_02_02_file           = VO {lang}{name} - Judgment 02.ogg
+|vo_02_02_tx_en          = Nyagh!
+|vo_02_02_tx_zh          = 喝！
+|vo_02_02_rm_zh          = He!
+|vo_02_02_tx_ja          = はっ！
+|vo_02_02_rm_ja          = Ha'!
+|vo_02_02_tx_ko          = 으앗!
+|vo_02_02_rm_ko          = Euat!
 
-|vo_03_00_title          = Ultima: Celestial Voyager
-|vo_03_01_file           = VO {lang}{name} - Devour.ogg
-|vo_03_01_tx_en          = Devour!
-|vo_03_01_tx_zhs         = 
-|vo_03_01_tx_zht         = 
+|vo_03_00_title          = Chained Dashes/Charged Shots
+|vo_03_01_file           = VO {lang}{name} - Displacement Phase 3.ogg
+|vo_03_01_tx_en          = Hmph!
+|vo_03_01_tx_zh          = 
+|vo_03_01_rm_zh          = 
 |vo_03_01_tx_ja          = 
 |vo_03_01_tx_ko          = 
 
-|vo_04_00_title          = Ultima: Dark Leap
-|vo_04_01_file           = VO {lang}{name} - Dumb Mortal.ogg
-|vo_04_01_tx_en          = Dumb mortal...
-|vo_04_01_tx_zhs         = 
-|vo_04_01_tx_zht         = 
+|vo_04_00_title          = Crescent Tides
+|vo_04_01_file           = VO {lang}{name} - Crescent Tides.ogg
+|vo_04_01_tx_en          = Mmgh!
+|vo_04_01_tx_zh          = 
+|vo_04_01_rm_zh          = 
 |vo_04_01_tx_ja          = 
 |vo_04_01_tx_ko          = 
 
-|vo_05_00_title          = Ultima: God Arrow
-|vo_05_01_file           = VO {lang}{name} - Die Here.ogg
-|vo_05_01_tx_en          = Die here.
-|vo_05_01_tx_zhs         = 
-|vo_05_01_tx_zht         = 
-|vo_05_01_tx_ja          = 
-|vo_05_01_tx_ko          = 
+|vo_05_00_title          = Bladewheel
+|vo_05_01_file           = VO {lang}{name} - Shatter.ogg
+|vo_05_01_tx_en          = Shatter!
+|vo_05_01_tx_zh          = 碎灭！
+|vo_05_01_rm_zh          = Suìmiè!
+|vo_05_01_tx_ja          = 砕けろ！
+|vo_05_01_rm_ja          = Kudakero!
+|vo_05_01_tx_ko          = 부서져라!
+|vo_05_01_rm_ko          = Buseojyeora!
 
-|vo_06_00_title          = Defeat
-|vo_06_01_file           = VO {lang}{name} - Youre A Cut Above.ogg
-|vo_06_01_tx_en          = You're a cut... above...
-|vo_06_01_tx_zhs         = 
-|vo_06_01_tx_zht         = 
-|vo_06_01_tx_ja          = 
-|vo_06_01_tx_ko          = 
-|vo_06_02_file           = VO {lang}{name} - Ugh Some You Win And Some You Lose Nyugh.ogg
-|vo_06_02_tx_en          = Ugh... Some you win... and some you lose... nyugh...
-|vo_06_02_tx_zhs         = 
-|vo_06_02_tx_zht         = 
-|vo_06_02_tx_ja          = 
-|vo_06_02_tx_ko          = 
+|vo_06_00_title          = Piercing Vortex
+|vo_06_01_file           = VO {lang}{name} - Vortex of Turmoil.ogg
+|vo_06_01_tx_en          = &nbsp;
+|vo_06_01_tx_zh          = &nbsp;
+|vo_06_01_tx_ja          = &nbsp;
+|vo_06_01_tx_ko          = &nbsp;
+
+|vo_07_00_title          = Ultima: Celestial Voyager
+|vo_07_01_file           = VO {lang}{name} - Devour.ogg
+|vo_07_01_tx_en          = Devour!
+|vo_07_01_tx_zh          = 噬尽！
+|vo_07_01_rm_zh          = Shì jìn!
+|vo_07_01_tx_ja          = 喰らい尽くせ。
+|vo_07_01_rm_ja          = Kuraitsukuse.
+|vo_07_01_tx_ko          = 모두 삼켜라!
+|vo_07_01_rm_ko          = Modu samkyeora!
+
+|vo_08_00_title          = Ultima: God Arrow
+|vo_08_01_file           = VO {lang}{name} - Die Here.ogg
+|vo_08_01_tx_en          = Die here.
+|vo_08_01_tx_zh          = 灭绝于此！
+|vo_08_01_rm_zh          = Mièjué yú cǐ!
+|vo_08_01_tx_ja          = 砕け散れ！
+|vo_08_01_rm_ja          = Kudakechire!
+|vo_08_01_tx_ko          = 소멸하라…
+|vo_08_01_rm_ko          = Somyeolhara...
+
+|vo_09_00_title          = Ultima: Dark Leap
+|vo_09_01_file           = VO {lang}{name} - Dumb Mortal.ogg
+|vo_09_01_tx_en          = Dull mortal...
+|vo_09_01_tx_zh          = 驽钝，凡众！
+|vo_09_01_rm_zh          = Núdùn, fánzhòng!
+|vo_09_01_tx_ja          = うつけが…
+|vo_09_01_rm_ja          = Utsuke ga...
+|vo_09_01_tx_ko          = 우둔한 범중!
+|vo_09_01_rm_ko          = Udunhan beomjung!
+
+|vo_10_00_title          = Defeat
+|vo_10_01_file           = VO {lang}{name} - Youre A Cut Above.ogg
+|vo_10_01_tx_en          = You're a cut... above... sigh...
+|vo_10_01_tx_zh          = 你…略胜一筹…
+|vo_10_01_rm_zh          = Nǐ... Lüè shèng yīchóu...
+|vo_10_01_tx_ja          = 君の…勝ちだ…
+|vo_10_01_rm_ja          = Kimi no... kachi da...
+|vo_10_01_tx_ko          = 네가 한 수… 위군…
+|vo_10_01_rm_ko          = Nega han su... wigun...
+|vo_10_02_file           = VO {lang}{name} - Ugh Some You Win And Some You Lose Nyugh.ogg
+|vo_10_02_tx_en          = Ugh... Some you win... and some you lose... nyugh...
+|vo_10_02_tx_zh          = 得而复失…
+|vo_10_02_rm_zh          = Dé'érfùshī...
+|vo_10_02_tx_ja          = はっ…せっかく手に入れたのに…
+|vo_10_02_rm_ja          = Ha'... Sekkaku te ni ireta no ni...
+|vo_10_02_tx_ko          = 또 잃다니…
+|vo_10_02_rm_ko          = Tto iltani...
 }}
 
 ==Soundtracks==
-{{Soundtracks by Category Table|Enter the Golden House Soundtracks}}
+{{Soundtracks by Category Table|Enter the Golden House Soundtracks|header=Enter the Golden House}}
 
 ==Trivia==
-*In phase one of the fight, Childe can form a bow made of pure Hydro, making this the third time Childe uses a different bow.
-**The bow used in the first phase is not currently usable by the player.
-**We also see this bow in the third phase when Childe activates Foul Legacy: The Devouring Deep. This time the bow is made of Foul Legacy shards instead of pure Hydro.
-*The move Ultima: Celestial Voyager shows a creature that seems to be a fusion between a humpback whale and a narwhal.
-**Childe's English Constellation is Monoceros Caeli. When translated from Latin it means "Celestial Narwhal". The Chinese name for his constellation is 鲸天座, meaning literally "Whale Sky Constellation." This explains why the attack looks like a whale but has the horn of a narwhal.
-*His listed abilities are directly taken from the story boss version. Instead of striking six times, he only strikes thrice; as of the nerf.
-*The Trounce Domain version of Childe does not perform Ultima: God Arrow during the first phase<!-- This might be false, needs to be tested-->.
-*In Childe's first and third phase, if the player does not move from the domain spawn point, Childe will neither move nor attack until the player initiates.
-**This is also the case in Co-Op Mode, which can be useful if players are still in the loading screen.
+* In phase one of the fight, Childe can form a bow made of pure {{Hydro}}, making this the third time Childe uses a different bow.
+** The bow used in the first phase is not currently usable by the player.
+** We also see this bow in the third phase when Childe activates Foul Legacy: The Devouring Deep. This time the bow is made of Foul Legacy shards instead of pure {{Hydro}}.
+* The move Ultima: Celestial Voyager shows a creature that seems to be a fusion between a humpback whale and a narwhal.
+** Childe's English Constellation is Monoceros Caeli. When translated from Latin it means "Celestial Narwhal". The Chinese name for his constellation is {{zh|鲸天座}}, meaning literally "Whale Sky Constellation." This explains why the attack looks like a whale but has the horn of a narwhal.
+* His listed abilities are directly taken from the story boss version. Instead of striking six times, he only strikes thrice; as of the nerf.
+* The Trounce Domain version of Childe does not perform Ultima: God Arrow during the first phase<!-- This might be false, needs to be tested-->.
+* In Childe's first and third phase, if the player does not move from the domain spawn point, Childe will neither move nor attack until the player initiates.
+** This is also the case in Co-Op Mode, which can be useful if players are still in the loading screen.
 
 ===Known Issues===
-*If players are hit while affected by Pyro, Childe's mark may not disappear when running up to the barrier to remove it. However, this is just a visual bug, and the actual effect will no longer be active.
-*A rare bug may occur during Co-Op Mode where if players either have a slow internet connection or try to rematch Childe, he may not attack at all throughout the fight in which case he can not enter his Second Phase.
-*Childe's [[Hydro]] status effects may remain active after he activates his second phase.
+* If players are hit while affected by {{Pyro}}, Childe's mark may not disappear when running up to the barrier to remove it. However, this is just a visual bug, and the actual effect will no longer be active.
+* A rare bug may occur during [[Co-Op Mode]] where if players either have a slow internet connection or try to rematch Childe, he may not attack at all throughout the fight in which case he can not enter his Second Phase.
+* Childe's {{Hydro}} status effects may remain active after he activates his second phase.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Childe Icon.png|Icon
 Tartaglia Foul Legacy Form.png|Tartaglia in the [[Archive]]
 Tartaglia Intro Card.png|Foul Legacy form introduction
@@ -791,7 +865,7 @@ Tartaglia Intro Card.png|Foul Legacy form introduction
 |fr      = Entrer dans la Chambre d'Or
 |fr_tl   = Enter the Golden Chamber
 |ru      = Золотая палата
-|ru_tl   = 
+|ru_tl   = Golden Chamber
 |th      = เข้าไปใน Golden House
 |th_rm   = 
 |th_tl   = Enter the Golden House
@@ -803,6 +877,10 @@ Tartaglia Intro Card.png|Foul Legacy form introduction
 |id_tl   = Enter the Golden House
 |pt      = Entrar na Casa Dourada
 |pt_tl   = 
+|tr      = Altın Ev'e Gir
+|tr_tl   = 
+|it      = Entra nel Palazzo dorato
+|it_tl   = 
 }}
 
 ==Change History==
@@ -810,8 +888,11 @@ Tartaglia Intro Card.png|Foul Legacy form introduction
 
 ==Navigation==
 {{Domain Navbox|Permanent|state=collapsed}}
-{{Enemy Navbox|type=bosses}}
+{{Enemy Navbox|bosses}}
+[[Category:Enter the Golden House| ]]
 
+[[es:Casa Dorada (dominio)]]
+[[ja:「黄金屋」に入る]]
+[[ru:Золотая палата (подземелье)]]
 [[uk:Увійдіть у Монетний двір]]
-[[Category:Weekly Bosses]]
-[[Category:Enter the Golden House]]
+[[zh:進入「黃金屋」]]

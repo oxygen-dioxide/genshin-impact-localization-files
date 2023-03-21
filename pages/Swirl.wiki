@@ -1,7 +1,8 @@
-{{See also|Gauge Unit Theory}}
+{{For|Elemental Reactions in [[Genius Invokation TCG]]|Genius Invokation TCG/Rules#Elemental Reactions}}
+{{See also|Elemental Gauge Theory}}
 {{Terminology Infobox
 |image        = Reaction Swirl.png
-|caption      = Elements that trigger the Swirl reaction (Anemo and any element except Geo and Dendro)
+|caption      = Elements that trigger the Swirl reaction (Anemo and any other element except Geo and Dendro)
 |type         = Elemental Reactions
 |type2        = Combat
 |type3        = Game Systems
@@ -11,31 +12,22 @@
 Swirl damage should not be confused with the non-Anemo damage that comes from [[Elemental Absorption]]. Swirl damage is fixed damage based only on character level and elemental mastery, while the additional elemental damage from Elemental Absorption is regular damage and is thus affected by the stats that normally affect damage, including Attack, CRIT, Damage Bonuses, and Talent Levels.
 
 ==Overview==
-The Swirl reaction applies the involved non-Anemo element to all entities in an AoE, except the one that the reaction was triggered upon. {{Pyro}}, {{Electro}}, and {{Cryo}} Swirl will also deal AoE DMG of the involved element, but {{Hydro}} Swirl only spreads the Wet status and deals DMG to the target that the reaction was triggered upon.<ref>YouTube: [https://youtu.be/0AKterEZ-MY How to use Swirl] (Timestamp: 2m 40s)</ref>
+The Swirl reaction applies the involved non-Anemo element to all targets in an AoE, except the one that the reaction was triggered upon. {{Pyro}}, {{Electro}}, and {{Cryo}} Swirl will also deal AoE DMG of the involved element, but {{Hydro}} Swirl only spreads the Wet status and deals DMG to the target that the reaction was triggered upon.<ref>YouTube: [https://youtu.be/0AKterEZ-MY How to use Swirl] (Timestamp: 2m 40s)</ref>
 
 Upon triggering Swirl, the spread of the Swirled element can cause secondary reactions. Damage from these are based on the [[Elemental Mastery]] and level of the Anemo character. As a result, Anemo characters can indirectly cause most reactions. For example:
 
-* Monster 1 has Hydro state.
-* Monster 2 has Electro state.
-* Applying Anemo to Monster 2 will cause a Swirl, spreading the previous Electro state to everyone in range.
-* Monster 1, previously wet, will receive Electro state from Swirl and this will cause an Electro-Charged reaction.
+* Target 1 is affected by Pyro.
+* Target 2 is affected by Electro
+* Applying Anemo to Monster 1 will cause a Pyro Swirl, which applies Pyro to Target 2.
+* The Pyro application from Swirl will trigger an [[Overloaded]] reaction on Target 2, dealing DMG based on the Anemo character's level and EM.
 
-When applying Anemo to a target affected by [[Electro-Charged]], it is possible to trigger Electro Swirl and Hydro Swirl simultaneously. In this case, the Electro Swirl will take priority, and the Hydro Swirl will only be triggered if there are still leftover [[gauge unit]]s of Anemo after depleting the Electro aura.
+Swirl reactions that trigger secondary [[Melt]], [[Vaporize]], or [[Aggravate]] reactions will also see their DMG increased based on the Anemo character's level and/or EM. See [[Damage#Swirl/Burning-Induced Reaction Damage]] for more information.
 
 ==Damage==
 {{See also|Damage#Transformative Reaction Damage|Level Scaling/Reaction}}
 {{Transformative Reaction Damage}}
 
-Note that one target can only take '''2''' instances of Swirl DMG every '''0.5''' seconds, as limited by the [[Damage Sequence]]. This limit is separate for Swirls of different elemental types.<ref>YouTube: [https://youtu.be/0AKterEZ-MY How to use Swirl] (Timestamp: 3m 50s)</ref>
-
-==Swirl-Induced Reactions==
-{{See also|Damage#Swirl-Induced Reaction Damage}}
-[[File:Swirl Induced Reaction 1.jpeg|150px|thumb|left|Level 70 Sucrose, 423 EM]]
-[[File:Swirl Induced Reaction 2.jpeg|150px|thumb|left|990 Swirl DMG and 3257 Melt DMG]]
-Since Swirl applies an elemental status, it is possible for it to trigger further Transformative and Amplifying Reactions. For example: {{Color|Anemo|Swirling}} an enemy unit afflicted with {{Pyro}} which is nearby another enemy unit that is afflicted {{Cryo}} will cause a '''Melt Reaction'''.
-
-For the full formula, see the main article, [[Damage]].{{Clr}}
-{{Clr}}
+Note that one target can only take '''2''' instances of Swirl DMG every '''0.5''' seconds from the same attacker, as limited by the [[Damage Sequence]].<ref>YouTube: [https://youtu.be/0AKterEZ-MY How to use Swirl] (Timestamp: 3m 50s)</ref> Additionally, multiple Swirl reactions triggered on the same target within '''0.1''' seconds can only produce DMG and elemental application once, regardless of the source. These limits are separate for Swirls of different elemental types.
 
 ==Tutorial==
 {{See also|Elemental Trial}}
@@ -50,7 +42,7 @@ These artifact sets increase the damage from Swirl reactions.
 
 {{Artifacts by Category Table|Swirl DMG Increase Artifacts}}
 
-==Gallery==
+==Preview==
 {{Preview
 |file    = Status Swirl
 |caption = Causing Swirl on a [[Hydro Slime]]
@@ -70,24 +62,28 @@ These artifact sets increase the damage from Swirl reactions.
 |ja      = 拡散
 |ja_rm   = Kakusan
 |ja_tl   = Diffusion
-|ko      = 확산
+|ko      = {{tt|확산|擴散}}
 |ko_rm   = Hwaksan
 |ko_tl   = Diffusion
 |es      = Torbellino
 |es_tl   = Whirlwind
 |fr      = Dispersion
 |ru      = Рассеивание
-|ru_tl   = Dispersion
+|ru_tl   = Dispersal
 |th      = กระจาย
 |th_rm   = Krachai
 |th_tl   = Spread
-|vi      = Khuếch tán
+|vi      = {{tt|Khuếch tán|擴散}}
 |vi_tl   = Diffusion
 |de      = Verwirbelung
 |de_tl   = Turbulence
 |id      = Swirl
 |pt      = Redemoinho
 |pt_tl   = Whrilwind
+|tr      = Girdap
+|tr_tl   = Vortex
+|it      = Turbinio
+|it_tl   = Swirl
 }}
 
 ==Change History==
@@ -100,4 +96,9 @@ These artifact sets increase the damage from Swirl reactions.
 {{Element Navbox}}
 
 [[es:Torbellino]]
+[[ja:拡散]]
+[[pl:Zawirowanie]]
 [[pt-br:Redemoinho]]
+[[ru:Рассеивание]]
+[[th:กระจาย]]
+[[vi:Khuếch Tán]]

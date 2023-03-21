@@ -1,12 +1,14 @@
 {{Quest Infobox
 |id            = 19106
-|type          = Hangout
-|region        = Mondstadt
+|type          = Story
+|group         = Hangout Event
 |chapter       = Diona
 |actNum        = I
 |act           = The Cat and the Cocktail
-|description   = Diona wants to look for some flavoring for her cocktail.
-|startLocation = [[Mondstadt]]
+|startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |requirement   = [[The Cat and the Cocktail]]
 |prev          = The Cat's Tail's Bartender
 |next          = Exchanging Pointers
@@ -19,9 +21,10 @@
 * Talk to Diona
 * Explore and collect Cocktail ingredients
 ** Give the [[Fresh Fish (Diona)|Fresh Fish]] to Diona
-** Give the [[Fresh Slime Condensate]] to Diona
+** Give the [[Fresh Slime Condensate (The Cat and the Cocktail)|Fresh Slime Condensate]] to Diona
 
 ==Dialogue==
+{{Quest Description|Diona wants to look for some flavoring for her cocktail.}}
 ===Special Cocktailing Condiments===
 {{Dialogue start}}
 ;(Talk to Diona)
@@ -70,10 +73,10 @@
 :{{A|vo dancop001 1910604 diona 02.ogg}} '''Diona:''' Look, the slimes we're looking for are just ahead.
 :{{A|vo dancop001 1910604 diona 03.ogg}} '''Diona:''' Huh, if I go after those slimes, I might ruin all the ingredients I have with me. And that would be bad...
 :{{A|vo dancop001 1910604 diona 04.ogg}} '''Diona:''' Can you defeat those slimes and bring me the Slime Condensate?
-:(Obtain [[Fresh Slime Condensate]] ×3)
+:(Obtain [[Fresh Slime Condensate (The Cat and the Cocktail)|Fresh Slime Condensate]] ×3)
 
 ;(Talk to Diona after defeating the slimes)
-:{{A|vo dancop001 1910607 diona 01.ogg}} '''Diona:''' Did you get the [[Fresh Slime Condensate|Slime Condensate]]?
+:{{A|vo dancop001 1910607 diona 01.ogg}} '''Diona:''' Did you get the [[Fresh Slime Condensate (The Cat and the Cocktail)|Slime Condensate]]?
 :;(After submitting Fresh Slime Condensate)
 :{{A|vo dancop001 1910605 diona 01.ogg}} '''Diona:''' Great job! Quick and precise. Only people who don't drink can fight like that!
 :{{A|vo dancop001 1910605 diona 02.ogg}} '''Diona:''' Hm! I think Slime Condensate will intensify the taste and texture of the drink, hehehe...
@@ -140,7 +143,7 @@
 :{{A|vo dancop001 1910605 diona 42.ogg}} '''Diona:''' Speaking of the winery, won't that guy Elzer be there?
 :{{A|vo dancop001 1910605 connor 12.ogg}} '''Connor:''' Elzer? Sure, he'll be there, but he's been busy lately taking care of guild matters. Why do you ask?
 :{{A|vo dancop001 1910605 diona 43.ogg}} '''Diona:''' Hmph, just as long as he's not around. Our little exchange here is between just the two of us, it'd be best if others don't get involved.
-:{{A|vo dancop001 1910605 diona 44a.ogg}} {{A|vo dancop001 1910605 diona 44b.ogg}} '''Diona:''' Well, except for the Traveler here, we've been out collecting ingredients together. (He/She)'s kinda like... my assistant. (He/She)'ll be allowed to participate.
+:{{A|vo dancop001 1910605 diona 44a.ogg}} {{A|vo dancop001 1910605 diona 44b.ogg}} '''Diona:''' Well, except for the Traveler here, we've been out collecting ingredients together. {{MC|He's|She's|mc=1}} kinda like... my assistant. {{MC|He'll|She'll|mc=1}} be allowed to participate.
 :{{A|vo dancop001 1910605 connor 13.ogg}} '''Connor:''' Haha um... Haha, fine by me. Shall we get going? The winery isn't far, we'll be there in no time.
 :;(Proceed to [[Exchanging Pointers]])
 {{Dialogue end}}
@@ -160,11 +163,11 @@
 |ko_rm   = Teukbyeolhan Kakteil Bojo Jaeryo
 |ko_tl   = Special Cocktail Aid Ingredients
 |es      = Ingredientes especiales para coctelería
-|es_tl   = 
+|es_tl   = Special Ingredients for Cocktails
 |fr      = Arômes pour cocktail spécial
 |fr_tl   = Flavors for Special Cocktail
 |ru      = Особенные добавки для коктейля
-|ru_tl   = 
+|ru_tl   = Special Cocktail Additives
 |th      = ส่วนผสมปรุงรสสุดล้ำ
 |th_rm   = 
 |th_tl   = 
@@ -176,6 +179,10 @@
 |id_tl   = Special Cocktail Condiments
 |pt      = Ingredientes complementares Especiais para Coquetéis
 |pt_tl   = 
+|tr      = Özel Kokteyl Çeşnileri
+|tr_tl   = 
+|it      = Spezie speciali per cocktail
+|it_tl   = 
 }}
 
 ==Change History==

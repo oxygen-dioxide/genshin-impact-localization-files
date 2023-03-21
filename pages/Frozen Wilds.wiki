@@ -2,10 +2,7 @@
 |image         = Talent Frozen Wilds.png
 |character     = Aloy
 |type          = Elemental Skill
-|info          = Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing {{Color|Cryo DMG}}. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing {{Color|Cryo DMG}}.<br />When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.<br />Aloy can gain up to 1 Coil stack every 0.1s.<br /><br />'''Coil'''
-* Each stack increases Aloy's Normal Attack DMG.
-* When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and [[Elemental Infusion|converts]] her Normal Attack DMG to {{Color|Cryo DMG}}.
-While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br />Coil effects will be cleared 30s after Aloy leaves the field.
+|info          = Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing {{Color|Cryo DMG}}. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing {{Color|Cryo DMG}}.<br />When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.<br />Aloy can gain up to 1 Coil stack every 0.1s.<br /><br />'''Coil'''<ul><li>Each stack increases Aloy's Normal Attack DMG.</li><li>When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and [[Elemental Infusion|converts]] her Normal Attack DMG to {{Color|Cryo DMG}}.</li></ul><br />While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br />Coil effects will be cleared 30s after Aloy leaves the field.
 |energyGen     = This skill generates '''5''' elemental particles, if it hits at least 1 target.
 |particles     = 5
 |CD            = 20s
@@ -23,9 +20,9 @@ While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br />Coil ef
 |attr6         = Rushing Ice Normal Attack DMG Bonus
 |value6        = 29.23 - 47.6%
 |utility1      = Normal Attack DMG Increase
-|utility2      = Elemental Conversion
+|utility2      = Conversion
 |utility3      = ATK Decrease
-|utility4      = Multiplicative DMG Increase
+|utility4      = DMG Bonus
 |scale_att1    = ATK
 }}
 {{Description|You think that's cold? Guess you've never been to [[w:c:horizon:The Cut|The Cut]].}}
@@ -35,10 +32,63 @@ While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br />Coil ef
 * {{TalentNote|particles|5}}
 *The freeze bomb generates '''6''' Chillwater Bomblets.
 * Most skills with a [[Vacuum Field|vacuum field]] effect will pull the Chillwater Bomblets inward. Notable exceptions include [[Venti]]'s [[Wind's Grand Ode]] and [[The Viridescent Hunt]]'s passive effect.
-* Aloy can gain Coil stacks and enter the Rushing Ice state even when she is off-field. The visual indicators when gaining Coil stacks and entering the Rushing Ice state will appear regardless of who the active character is.
-* The Normal ATK DMG bonus is multiplicative by itself.<math>(1 + \% \text{ Normal Attack DMG bonus}) \times (\text{DMG Multipliers})</math>.
+* Aloy can gain Coil stacks and enter the Rushing Ice state even when she is off-field. The special visual effects when gaining Coil stacks and entering the Rushing Ice state will appear regardless of who the active character is.
+* The numbers that indicate how many Coil stacks Aloy has will only appear if Aloy is the active character and "SFX Quality" [[Settings#Graphics|Graphics setting]] is no lower than "Low." This is in contrast to other numbers, such as from [[Husk of Opulent Dreams]] and [[Yanfei's Normal Attack]], which show up even when the "SFX Quality" setting is set to "Lowest."
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Aloy|talent=Frozen Wilds|ascension|1|Combat Override}}
 * {{TalentNote|character=Aloy|talent=Frozen Wilds|ascension|2|Strong Strike}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Freeze Bomb DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 120
+|impulse = 2
+
+|title2   = Chillwater Bomblet DMG
+|gu2      = 1U
+|icdtag2  = Elemental Skill
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 50
+|impulse2 = 3
+
+|title3   = Converted Normal Attack 1-Hit A
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 7.65
+|impulse3 = 1
+
+|title4   = Converted Normal Attack 1-Hit B
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 7.65
+|impulse4 = 1
+
+|title5   = Converted Normal Attack 2-Hit
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 14.7
+|impulse5 = 1
+
+|title6   = Converted Normal Attack 3-Hit
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 18
+|impulse6 = 1
+
+|title7   = Converted Normal Attack 4-Hit
+|gu7      = 1U
+|icdtag7  = Normal Attack
+|icdtype7 = 2.5s/3 Hits
+|poise7   = 22.38
+|impulse7 = 1
+}}
 
 ==Preview==
 {{Preview
@@ -125,6 +175,9 @@ While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br />Coil ef
 ==Voice-Overs==
 {{Talent VO}}
 
+==Trivia==
+* The name of the skill, as well as the description, are a reference to [[w:c:horizon:Horizon Zero Dawn: The Frozen Wilds|Horizon Zero Dawn: The Frozen Wilds]], the DLC expansion to Horizon Zero Dawn in which Aloy travels to [[w:c:horizon:The Cut|The Cut]].
+
 ==Other Languages==
 {{Other Languages
 |en      = Frozen Wilds
@@ -152,6 +205,10 @@ While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br />Coil ef
 |id      = Frozen Wilds
 |pt      = Natureza Gélida
 |pt_tl   = 
+|tr      = Donuk Topraklar
+|tr_tl   = 
+|it      = Natura congelata
+|it_tl   = Frozen Wilds
 }}
 
 ==Change History==
@@ -164,5 +221,9 @@ While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br />Coil ef
 {{Talent Navbox|Aloy}}
 
 [[es:Campo gélido]]
+[[fr:Frozen Wilds]]
+[[ja:凍てついた大地]]
 [[pt-br:Natureza Gélida]]
+[[ru:Ледяная пустошь]]
 [[th:Frozen Wilds]]
+[[vi:Băng Giá Hoang Dã]]

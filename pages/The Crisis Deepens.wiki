@@ -3,8 +3,10 @@
 |type          = Story
 |event_name    = Unreconciled Stars
 |actNum        = II
-|description   = As your investigation proceeds, you gradually realize that there is some mysterious power hidden within these meteorites. In order to help the victims regain consciousness, you and your comrades begin to dispose of meteorites throughout the land...
 |startLocation = [[Springvale]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Windwail Highland
+|subarea       = Springvale
 |prev          = Unknown Star
 |next          = What the Skies Conceal, the Water Reveals
 |mora          = 30,000
@@ -39,6 +41,7 @@
 #Go to [[Mona]]'s designated scrying location
 
 ==Dialogue==
+{{Quest Description|As your investigation proceeds, you gradually realize that there is some mysterious power hidden within these meteorites. In order to help the victims regain consciousness, you and your comrades begin to dispose of meteorites throughout the land...}}
 {{Dialogue start}}
 ;(Speak to Draff)
 :{{A|vo eqast002 1 paimon 01.ogg}} '''Paimon:''' Draff! How are things in the village now?
@@ -54,7 +57,7 @@
 :{{DIcon}} I think I understand what she means, but...
 :{{DIcon}} It's kind of hard to explain...
 :{{A|vo eqast002 1 paimon 06.ogg}} '''Paimon:''' Alright, alright...
-:{{A|vo eqast002 1 oz 01.ogg}} '''Oz:''' My dear friends, it is time to move out.
+:{{A|vo eqast002 1 oz 02.ogg}} '''Oz:''' My dear friends, it is time to move out.
 :{{A|vo eqast002 1 paimon 07.ogg}} '''Paimon:''' Paimon hopes Adelinde has made some tasty snacks to welcome her honored guests with!
 ----
 ;(Speak to Adelinde)
@@ -124,7 +127,7 @@
 :'''Ben:''' It's like the end of the world, or something...
 ----
 ;(Upon spotting the wreaked cart)
-:{{A|vo eqast002 8 fischl 01.ogg}} '''Fischl:''' Lead the way, my pale-faced proselyte! For a sharp pain now afflicts mine Auge der Verurteilung...
+:{{A|vo eqast002 8 fischl 01.ogg}} '''Fischl:''' Lead the way, my pale-faced proselyte! For a sharp pain now afflicts Mein Auge der Verurteilung...
 
 ;(Investigating the scene)
 :{{A|vo eqast002 8 paimon 02.ogg}} '''Paimon:''' Is the guy on the floor sleeping?
@@ -373,12 +376,9 @@
 :{{DIcon}} You're a star, Mona! Thanks so much!
 :{{A|vo eqast002 18 mona 17.ogg}} '''Mona:''' Don't worry about it. As far as the astrological aspect goes, this will be a piece of cake.
 {{Dialogue end}}
-
+<!--
 ==Trivia==
-* Unused voice file:
-** {{A|vo eqast002 7 ben 01.ogg}} Help me! Somebody, please!
-** {{A|vo eqast002 8 paimon 01.ogg}} Look, there's somebody there! Could it be {{Color|buzzword|Fritz}}?
-
+-->
 ==Other Languages==
 {{Other Languages
 |en      = The Crisis Deepens
@@ -391,14 +391,14 @@
 |ja_rm   = Man'en Suru Kiki
 |ja_tl   = Spreading Crisis
 |ko      = 확산하는 위기
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Hwaksanhaneun Wigi
+|ko_tl   = Spreading Crisis
 |es      = Crisis inminente
-|es_tl   = 
+|es_tl   = Imminent Crisis
 |fr      = Les choses s'aggravent
 |fr_tl   = Things Get Worse
 |ru      = Кризис усугубляется
-|ru_tl   = 
+|ru_tl   = The Crisis Worsens
 |th      = วิกฤตขยายวง
 |th_rm   = 
 |th_tl   = Crisis Gets Bigger
@@ -414,3 +414,6 @@
 
 ==Change History==
 {{Change History|1.1}}
+
+[[ja:蔓延する危機]]
+[[ru:Звезда недостижимой мечты]]

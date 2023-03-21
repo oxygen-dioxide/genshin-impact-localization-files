@@ -6,8 +6,10 @@
 |actNum        = IV
 |act           = Requiem of the Echoing Depths
 |part          = 1
-|description   = [[Katheryne]] seems to have a new commission for you. Go check it out.
 |startLocation = [[Liyue Harbor]], [[Liyue]]
+|region        = Liyue
+|area          = Sea of Clouds
+|subarea       = Liyue Harbor
 |prev          = Wishes (Quest)
 |next          = [[The Grave of the Guarded]]
 |exp           = 300
@@ -26,8 +28,8 @@
 # Go to the designated location to investigate
 #* Requires the completion of [[The Heavenly Stone's Debris]] in order to reach this location.
 
-==Notes==
-* Completing this quest grants the ''[[Wonders of the World]]'' achievement "[[When One Gazes Into the Abyss...]]"
+==Gameplay Notes==
+* Completing this quest grants the ''[[Wonders of the World]]'' achievement ''[[When One Gazes Into the Abyss...]]''.
 
 ==Dialogue==
 {{Quest Description|Katheryne seems to have a new commission for you. Go check it out.}}
@@ -45,8 +47,8 @@
 :{{DIcon}} An unexpected reunion...
 :{{DIcon}} Perhaps...
 :{{A|vo szaq101 1 paimon 06.ogg}} '''Paimon:''' Wait, are you saying... Ohh, Paimon gets it, (Traveler). Well, let's just hope the shrine maiden was right...
-:{{A|vo szaq101 1 paimon 07a.ogg}} {{A|vo szaq101 1 paimon 07b.ogg}} '''Paimon:''' Fingers crossed we find (her/him).
-:{{A|vo szaq101 1 katheryne 05.ogg}} '''Katheryne:''' I'm sorry... did I say something I shouldn't have? You both seem a little down.
+:{{A|vo szaq101 1 paimon 07a.ogg}} {{A|vo szaq101 1 paimon 07b.ogg}} '''Paimon:''' Fingers crossed we find {{MC|her|him|mc=1}}.
+:{{A|vo szaq101 1 katheryne 05.ogg}} '''Katheryne:''' I'm sorry... Did I say something I shouldn't have? You both seem a little down.
 :{{A|vo szaq101 1 paimon 08.ogg}} '''Paimon:''' Oh, it's nothing. Anyway, back to business. Do you have a new commission you want to give to us?
 :{{A|vo szaq101 1 katheryne 06.ogg}} '''Katheryne:''' Yes, as a matter of fact, I do. This one is from a miner. It seems to be related to investigating [[The Chasm]].
 :{{A|vo szaq101 1 paimon 09.ogg}} '''Paimon:''' Really? Does this mean The Chasm's not sealed off anymore?
@@ -56,7 +58,7 @@
 
 ----
 
-;(Look for the miner who posted the commission at The Chasm)
+;(Talk to Yuehui)
 :{{A|vo szaq101 2 paimon 01.ogg}} '''Paimon:''' Hi there! You must be "Yuehui," right? We've been sent by the Adventurers' Guild.
 :{{A|vo szaq101 2 yuehui 01.ogg}} '''Yuehui:''' Ah, great, good to meet you. Yes, I was the one who posted that commission.
 :{{A|vo szaq101 2 yuehui 02.ogg}} '''Yuehui:''' Wait a second... You look kind of familiar. Are you a famous adventurer, or something?
@@ -67,7 +69,7 @@
 :{{A|vo szaq101 2 yuehui 04.ogg}} '''Yuehui:''' Yes, the folks over at Yujing Terrace finally came to their senses and are now allowing a limited amount of ore mining near the surface. We were among the first to gain approval.
 :{{A|vo szaq101 2 yuehui 05.ogg}} '''Yuehui:''' But some things have happened recently that put all the miners on edge.
 :{{A|vo szaq101 2 paimon 03.ogg}} '''Paimon:''' Really? What happened? We haven't heard anything.
-:{{A|vo szaq101 2 yuehui 06.ogg}} '''Yuehui:''' So... it's hard to say exactly how big an issue it is. Could be something, could be nothing. The main thing is that it's just very... strange.
+:{{A|vo szaq101 2 yuehui 06.ogg}} '''Yuehui:''' So... it's hard to say exactly how big of an issue it is. Could be something, could be nothing. The main thing is that it's just very... strange.
 :{{A|vo szaq101 2 yuehui 07.ogg}} '''Yuehui:''' While one of the miners was on a break, he suddenly noticed a few hilichurls walking his way. They seemed like they were in a daze or something.
 :{{A|vo szaq101 2 yuehui 08.ogg}} '''Yuehui:''' They walked right by him without giving him a single glance. They just made a beeline for the depths of The Chasm.
 :{{A|vo szaq101 2 yuehui 09.ogg}} '''Yuehui:''' After that, the miner started observing his surroundings more closely, and noticed the same thing happening time and time again.
@@ -93,7 +95,7 @@
 :{{A|vo szaq101 2 paimon 10.ogg}} '''Paimon:''' Yup, we'll take it. We're kinda curious ourselves now, too.
 :{{A|vo szaq101 2 yuehui 18.ogg}} '''Yuehui:''' Great. You're doing me an enormous service here. Now, let me give you the rough location that the hilichurls keep heading to...
 
-:'''Complete "{{color|bz|Surreptitious Seven-Star Seal Sundering}}" and find a way to enter The Chasm: Underground Mines.'''
+:'''Complete "{{color|bz|Surreptitious Seven-Star Seal Sundering}}" and find a way to enter The Chasm: Underground Mines.'''<!-- this pops up on the screen in an overlay box when you Navigate this Archon Quest, even if you've already finished Chasm Spelunkers -->
 
 ;(Talk to Yuehui again)
 :{{A|vo dialog szaq101 yuehui 01.ogg}} '''Yuehui:''' It took a huge amount of work to get this Mining Permit... I hope it was worth it. The rest is up to you.
@@ -101,17 +103,15 @@
 {{Dialogue end}}
 {{Quest Description|update|Small-scale mining operations have been approved at The Chasm. At Katheryne's introduction, a miner commissions you to investigate certain anomalies within The Chasm... But you'll need to find a way into The Chasm first.}}
 {{Dialogue start}}
-;(Enter The Chasm<nowiki>:</nowiki> Underground Mines)
-
-;(Upon reaching a blocked tunnel &mdash; if the player hasn't already opened it)
+;(Upon reaching a blocked tunnel in The Chasm: Underground Mines &mdash; if the player hasn't already opened it)
 :{{A|vo szaq101 2 paimon 11.ogg}} '''Paimon:''' Looks like we can't explore any further... Hmm, is there any way to open up this tunnel?
 :;(Complete [[The Heavenly Stone's Debris]] in order to open the tunnel)
 
 ----
-;(Go to the designated location to investigate)
+;(Arrive at the bottom of Stony Halls)
 
 ;(If Nameless Ruins has not been explored yet)
-::{{A|vo szaq101 3 paimon 01.ogg}} '''Paimon:''' What the... It's a city?
+::{{A|vo szaq101 3 paimon 01.ogg}} '''Paimon:''' What the... It's a [[Upside-Down City|city]]?
 ::{{A|vo szaq101 3 paimon 02.ogg}} '''Paimon:''' A whole city that's... floating in the air... upside down!?
 ::{{DIcon}} I'm at a loss for words.
 ::{{DIcon}} This is not what I was expecting...
@@ -133,14 +133,14 @@
 :{{A|vo szaq101 4 dainsleif 03.ogg}} '''Dainsleif:''' The Chasm? So, we're in the depths of The Chasm, are we. Interesting... This is one place where I have never set foot before.
 :{{DIcon}} I have a lot of questions for you.
 :{{A|vo szaq101 4 dainsleif 04.ogg}} '''Dainsleif:''' I understand how you must feel. Last time, we met suddenly and parted hastily.
-:{{A|vo szaq101 4 dainsleif 05.ogg}} '''Dainsleif:''' Now our paths cross again... fate, it seems, owes you an explanation.
+:{{A|vo szaq101 4 dainsleif 05.ogg}} '''Dainsleif:''' Now our paths cross again... Fate, it seems, owes you an explanation.
 :{{DIcon}} First, tell me what you're doing here.
 :{{DIcon}} What was going on with that portal just now?
 :{{A|vo szaq101 4 dainsleif 06.ogg}} '''Dainsleif:''' That much should be self-explanatory. I came upon the trail of another Abyss Herald recently, and began pursuing it.
 :{{A|vo szaq101 4 dainsleif 07.ogg}} '''Dainsleif:''' Unfortunately, I got as far as cornering him before he resorted to the same trick that they all do...
 :{{A|vo szaq101 4 dainsleif 08.ogg}} '''Dainsleif:''' I was hot on his heels when I followed him through the portal, but as usual, it was to no avail. It took me to the wrong place.
 :{{DIcon}} So you had the same issue with the portal last time?
-:{{DIcon}} So you didn't actually catch up with my (sister/brother) last time?
+:{{DIcon}} So you didn't actually catch up with my {{MC|sister|brother|mc=1}} last time?
 :{{A|vo szaq101 4 dainsleif 09.ogg}} '''Dainsleif:''' Correct. Based on my recent experiences, I can only conclude that the Abyss's portals are not simply pathways from point A to point B, but gateways to an entire network.
 :{{A|vo szaq101 4 dainsleif 10.ogg}} '''Dainsleif:''' Where they emerge on the other side is their choice. It can be anywhere within the network.
 :{{A|vo szaq101 4 paimon 09.ogg}} '''Paimon:''' Sounds kinda similar to how Teleport Waypoints work...
@@ -154,8 +154,8 @@
 :{{A|vo szaq101 4 dainsleif 15.ogg}} '''Dainsleif:''' I by no means went out of my way to conceal it from you. It once stood for the glory of Khaenri'ah, but now...
 :{{A|vo szaq101 4 dainsleif 16.ogg}} '''Dainsleif:''' ...It is but a cruel joke. My curse to bear.
 :{{A|vo szaq101 4 dainsleif 17.ogg}} '''Dainsleif:''' Twilight Sword was my title as captain of the Royal Guards when I witnessed the destruction of my entire homeland firsthand. I believe my reluctance to raise it in conversation is quite justified.
-:{{A|vo szaq101 4 paimon 11a.ogg}} {{A|vo szaq101 4 paimon 11b.ogg}} '''Paimon:''' Sounds like your (sister/brother) was right...
-:{{DIcon}} What is the history between you and my (sister/brother)?
+:{{A|vo szaq101 4 paimon 11a.ogg}} {{A|vo szaq101 4 paimon 11b.ogg}} '''Paimon:''' Sounds like your {{MC|sister|brother|mc=1}} was right...
+:{{DIcon}} What is the history between you and my {{MC|sister|brother|mc=1}}?
 :{{DIcon}} What happened between you?
 :{{A|vo szaq101 4 dainsleif 18.ogg}} '''Dainsleif:''' We were travel partners.
 :{{A|vo szaq101 4 dainsleif 19.ogg}} '''Dainsleif:''' We both partook in a painful journey of searching for our fate, but regrettably... we did not make it to the journey's end together.
@@ -189,7 +189,7 @@
 |fr      = Rencontre fortuite dans les profondeurs
 |fr_tl   = Fortuitous Encounter in the Depths
 |ru      = Неожиданная встреча в глубинах
-|ru_tl   = 
+|ru_tl   = An Unexpected Meeting in the Depths
 |th      = การพบกันอีกครั้งโดยไม่คาดฝันที่ก้นเหว
 |th_rm   = Gan Pob Gun Eek Krang Doi Mai Kad Fan Tee Gon Haew
 |th_tl   = Unexpected Reunion at the Bottom of the Abyss
@@ -201,6 +201,10 @@
 |id_tl   = In the Depths, an Unexpected Reunion
 |pt      = Um Reencontro Inesperado nas Profundezas
 |pt_tl   = 
+|tr      = Derinliklerde Beklenmedik Bir Karşılaşma
+|tr_tl   = 
+|it      = Un incontro inaspettato nelle profondità
+|it_tl   = An Unexpected Encounter in the Depths
 }}
 
 ==Change History==
@@ -208,3 +212,6 @@
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
+
+[[es:Encuentro inesperado en las profundidades]]
+[[ja:守られし者の霊柩]]

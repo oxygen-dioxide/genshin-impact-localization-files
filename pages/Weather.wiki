@@ -30,12 +30,16 @@ Default state for most areas. It has no special properties.
 ===Thunderstorm===
 {{See also|Lightning}}
 * All rain conditions apply.
-* Players, allies, enemies, wildlife, and the environment can be struck by [[lightning]]. (Grants the "[[Wrath of the Gods]]" achievement if the lightning strikes the player.)
-* Player may gain [[Electro]] particles.
-* There are three [[climate]]s with perpetual Thunderstorms:
-**[[A Nation Closed by Thunder]], found around the entirety of [[Inazuma]] prior to the completion of [[Imperatrix Umbrosa Chapter|Transient Dreams]]
-** [[Tatarigami]], found on [[Yashiori Island]] prior to the completion of [[Orobashi's Legacy]]
-** [[Amakumo Peak]], prior to the completion of [[Seirai Stormchasers: Part IV]]
+* Players, allies, enemies, wildlife, and the environment can be struck by [[lightning]].
+** Grants the "[[Wrath of the Gods]]" achievement if the lightning strikes the player.
+* Player may gain [[Electro]] particles, as result of lightning striking the ground.
+* There are three [[climate]] regions with perpetual Thunderstorms, each of which can be "disabled" upon meeting specific requirements:
+** [[A Nation Closed by Thunder]], found around the entirety of [[Inazuma]]
+*** Will be lifted after completion of ''[[Transient Dreams]]''
+** The [[Tatarigami]], unique to [[Yashiori Island]]
+*** Will be lifted after completion of ''[[Orobashi's Legacy]]''
+** [[Amakumo Peak]] of [[Seirai Island]]
+*** Will be lifted after completion of ''[[Seirai Stormchasers: Part IV]]''
 
 ==Special Weather Conditions==
 {{See also|Climate}}
@@ -52,9 +56,14 @@ The base [[Sheer Cold]] accumulation rate is 2.5× higher. [[Goulash]] also has 
 
 ===Fog===
 {{See also|Fog|Glimmering Beacon}}
-Fog is a temporary phenomena that reduces visibility. It appears in [[Golden Apple Archipelago]]. Sailing too far into the fog while on the [[Waverider]] will cause one to respawn at the last activated [[Glimmering Beacon]]. Once all the Teleport Waypoints are activated, the fog disappears.
+Fog is a temporary phenomena that reduces visibility. It appears in [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]]. Sailing too far into the fog while on the [[Waverider]] will cause one to respawn at the last activated [[Glimmering Beacon]]. Once all the Teleport Waypoints are activated, the fog disappears.
 
 Fog also appears in [[Tsurumi Island]]. Players who venture too far or for too long into the fog will be teleported away. Once the [[Through the Mists]] quest series is completed, the fog will be lifted.
+
+===Sandstorm===
+Sandstorms are encountered in [[Sandstorm in the Desert of Hadramaveth]], which currently affects only the [[Desert of Hadramaveth]].
+
+It is a phenomena that causes intermittent sandstorms to occur which can cause visibility to be sharply reduced. The closer the player is to the heart of the sandstorm, the more significant the loss in visibility will be.
 
 ==Unique Environmental Shifts==
 {{Stub|many missing shifts: pyro regisvine? cryo regisvine? starglow cavern (also different?)? nameless island; tsurumi island prior to dispelling the fog; thunder sakura roots, especially prior to cleansing them in [[Sacred Sakura Cleansing Ritual]]; and more}}
@@ -86,7 +95,7 @@ Most areas with unique environmental shifts do not distinguish between daytime a
 |-
 | [[Wuwang Hill]] || Hazy, with blue particles in the air ||{{check|no}} || {{check|yes}} || {{check|?}} ||
 |-
-| Eastern [[Yaoguang Shoal]] || Gray haze || {{check|yes}} || {{check|no}} || {{check|no}} || Thick fog that will appear and reappear over time. Takes effect after entering Yaoguang Shoal via the middle of the beach through the rocky underpass towards the north. (Verification needed.) Also dispels after reaching the rocky underpass to the north.
+| Eastern [[Yaoguang Shoal]] || Gray haze || {{check|yes}} || {{check|no}} || {{check|no}} || Thick fog that will appear and reappear over time. Takes effect after entering Yaoguang Shoal via the middle of the beach through the rocky underpass towards the north.{{Verify}} Also dispels after reaching the rocky underpass to the north.
 |-
 |}
 
@@ -121,9 +130,9 @@ Most areas with unique environmental shifts do not distinguish between daytime a
 {| class="fandom-table sortable"
 ! Location !! Appearance !! Has Day/Night !! Overrides Weather !! Moon Visibility !! class="unsortable"|Notes
 |-
-| [[Maguu Kenki]] arena, [[Golden Apple Archipelago]] || ? || {{check|?}} || {{check|yes}} || {{check|?}} || Dispels after defeating Maguu Kenki<br />Same visual effects and music as [[Sea Fog]] but is technically not the climate.
+| [[Maguu Kenki]] arena, [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] || ? || {{check|?}} || {{check|yes}} || {{check|?}} || Dispels after defeating Maguu Kenki<br />Same visual effects and music as [[Sea Fog]] but is technically not the climate.
 |-
-| Islands north of [[Broken Isle]], Golden Apple Archipelago || ? || {{check|?}} || {{check|?}} || {{check|?}} || Dispels after completing [[Who Wields the Wild Wind?]]<br />Same visual effects and music as [[Sea Fog]] but is technically not the climate.
+| Islands north of [[Broken Isle/1.6|Broken Isle]], Golden Apple Archipelago || ? || {{check|?}} || {{check|?}} || {{check|?}} || Dispels after completing [[Who Wields the Wild Wind?]]<br />Same visual effects and music as [[Sea Fog]] but is technically not the climate.
 |-
 |}
 
@@ -131,7 +140,7 @@ Most areas with unique environmental shifts do not distinguish between daytime a
 During certain characters' abilities, the environment will have unique visual effects:
 {| class="article-table"
 |-
-! Character !! Talent !! Effect Duration (Seconds)<ref name="src">Source Data: [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/AvatarAbilities Character Abilities]</ref> !! Transition Duration (Seconds)<ref name="src" /> !! Notes
+! Character !! Talent !! Effect Duration (Seconds) !! Transition Duration (Seconds) !! Notes
 |-
 | {{Character|Albedo|20|nobr=1}} || {{Talent|Rite of Progeniture: Tectonic Tide|20|nobr=1}} || 1.12 || 0.3 ||
 |-
@@ -146,6 +155,8 @@ During certain characters' abilities, the environment will have unique visual ef
 | {{Character|Beidou|20|nobr=1}} || {{Talent|Stormbreaker|20|nobr=1}} || 1 || 0.4 ||
 |-
 | {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Cloud-Parting Star|20|nobr=1}} || 1.4<br />1.75 ({{Constellation|Rally of Four Blades|20|nobr=1|text=C2}}) || 0.7 ||
+|-
+| {{Character|Cyno|20|nobr=1}} || {{Talent|Sacred Rite: Wolf's Swiftness|20|nobr=1}} || 1.5 (Cast)<br />20 (After Cast) || 0.3 (Cast)<br />0.2 (After Cast) ||
 |-
 | {{Character|Diluc|20|nobr=1}} || {{Talent|Dawn|20|nobr=1}} || 2 || 1 ||
 |-
@@ -177,9 +188,15 @@ During certain characters' abilities, the environment will have unique visual ef
 |-
 | {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Gyoei Narukami Kariyama Rite|20|nobr=1}} || 2 || 0.5 || Effect is identical to Kujou Sara's Subjugation: Koukou Sendou
 |-
+| {{Character|Layla|20|nobr=1}} || {{Talent|Dream of the Star-Stream Shaker|20|nobr=1}} || 13 || 1 ||
+|-
 | {{Character|Lisa|20|nobr=1}} || {{Talent|Violet Arc|20|nobr=1}} (Hold) || 5 || 1.5 || Darkens the sky to purple; Effect is identical to Razor's Claw and Thunder (hold).
 |-
 | {{Character|Mona|20|nobr=1}} || {{Talent|Stellaris Phantasm|20|nobr=1}} || 2.5 || 0.6 ||
+|-
+| {{Character|Nahida|20|nobr=1}} || {{Talent|Illusory Heart|20|nobr=1}} || 1.5 || 0.3 ||
+|-
+| {{Character|Nilou|20|nobr=1}} || {{Talent|Dance of Abzendegi: Distant Dreams, Listening Spring|20|nobr=1}} || 2.75 || 0.3 ||
 |-
 | {{Character|Noelle|20|nobr=1}} || {{Talent|Sweeping Time|20|nobr=1}} || 1.5 || 0.3 || Effect is identical to Beidou's Tidecaller.
 |-
@@ -229,7 +246,7 @@ During certain characters' abilities, the environment will have unique visual ef
 * Like cities, realms in the [[Serenitea Pot]] always have clear skies with no weather. However, unlike cities, this is an in-universe phenomenon.<ref>{{Ref/NPC|Tubby/Lore|quote='''Tubby:''' This Realm Within has clear and sunny skies all year round. It's not that it can't reproduce the weather outside, I simply enjoy dozing off in the sun.}}</ref>
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Brightness Effect Ganyu Ayato.png|Kamisato Ayato's Brightness Effect
 Brightness Effect Xiao.png|Xiao's Brightness Effect
 Brightness Effect Raiden Shogun.png|Raiden Shogun's Brightness Effect
@@ -245,3 +262,6 @@ Brightness Effect Itto.png|Arataki Itto's Brightness Effect
 
 ==Navigation==
 {{Exploration Navbox}}
+
+[[es:Clima]]
+[[ja:天気]]

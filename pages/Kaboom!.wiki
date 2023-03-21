@@ -2,7 +2,7 @@
 |image         = Talent Kaboom!.png
 |character     = Klee
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing {{Color|[[AoE]] Pyro DMG}}.<br /><br />'''Charged Attack'''<br />Consumes a certain amount of Stamina and deals {{Color|AoE Pyro DMG}} to opponents after a short casting time.<br /><br />'''Plunging Attack'''<br />Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals {{Color|AoE Pyro DMG}} upon impact with the ground.
+|info          = '''Normal Attack'''<br />Throws things that go boom when they hit things! Performs up to 3 explosive attacks, dealing {{Color|[[AoE]] Pyro DMG}}.<br /><br />'''Charged Attack'''<br />Consumes a certain amount of Stamina and deals {{Color|AoE Pyro DMG}} to opponents after a short casting time.<br /><br />'''Plunging Attack'''<br />Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals {{Color|AoE Pyro DMG}} upon impact with the ground.
 |hit1          = 72.2–137%
 |hit2          = 62.4–119%
 |hit3          = 89.9–171%
@@ -18,10 +18,64 @@
 
 ==Gameplay Notes==
 *{{TalentNote|character=Klee|talent=Kaboom!|ascension|1|Pounding Surprise}}
+
+;<big>Passive Effects</big>
 *{{TalentNote|character=Klee|talent=Kaboom!|ascension|2|Sparkling Burst}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|1|Chained Reactions}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Klee Pyro DMG
+|icdtype = 2.5s/3 Hits
+|poise   = 65
+|impulse = 3
+|blunt   = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Klee Pyro DMG
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 65
+|impulse2 = 3
+|blunt2   = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Klee Pyro DMG
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 130
+|impulse3 = 5
+|blunt3   = 1
+
+|title4   = Charged Attack
+|gu4      = 1U
+|icdtag4  = none
+|poise4   = 180
+|impulse4 = 8
+|blunt4   = 1
+
+|title5   = Plunging Attack Collision
+|gu5      = 0U
+|icdtag5  = none
+|poise5   = 5
+|impulse5 = 2
+
+|title6   = Low Plunge
+|gu6      = 1U
+|icdtag6  = none
+|poise6   = 50
+|impulse6 = 3
+
+|title7   = High Plunge
+|gu7      = 1U
+|icdtag7  = none
+|poise7   = 100
+|impulse7 = 4
+}}
 
 ==Preview==
 {{Preview
@@ -32,7 +86,7 @@
 |caption2=Charged Attack
 
 |file3=Kaboom! Plunge Preview
-|caption3=Plunge Attack
+|caption3=Plunging Attack
 }}
 {{clr}}
 
@@ -155,6 +209,10 @@
 |de_tl   = Boom-Boom
 |id      = Kaboom!
 |pt      = Kaboom!
+|tr      = Bom!
+|tr_tl   = 
+|it      = Megaboom!
+|it_tl   = Megaboom!
 }}
 
 ==Change History==

@@ -6,10 +6,12 @@
 |actNum        = II
 |act           = For a Tomorrow Without Tears
 |part          = 9
-|description   = The person [[Diluc]] called in turned out to be [[Jean]] from the [[Knights of Favonius]]. After some discussions, it is discovered that it was the Fatui who stole the [[Holy Lyre der Himmel]]. You must retrieve it to rescue [[Dvalin]].
 |startLocation = [[Windwail Highland]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Windwail Highland
 |prev          = Behind the Scenes
 |next          = State of the Holy Lyre der Himmel
+|domain        = Retrieve the Holy Lyre der Himmel
 |exp           = 175
 |mora          = 4,225
 |other         = {{Card|Character EXP|2,200}}{{Card|Fine Enhancement Ore|4}}{{Card|Holy Lyre der Himmel|1}}
@@ -18,27 +20,29 @@
 }}
 {{TeyvatQuest|0|2|part=9}}
 ==Steps==
-# Enter the Fatui hideout
-#* [[Retrieve the Holy Lyre der Himmel]]
-#* Diluc will join you as a trial character
+# Enter the [[Fatui]] hideout
+#* Enter the Quest Domain: [[Retrieve the Holy Lyre der Himmel]]
+#* [[Diluc]] will join the party as a trial character at the start of the domain
 # Interrogate the guard
 # Scour the Fatui hideout to find the key
-#* There are 4 rooms in total you have to look inside of. If you want to minimize the amount of fighting, talk '''first''' to the two guards by selecting the options:
-#** Greedy Guard: "We are goodwill ambassadors from the Snezhno-Mondstadtian Association"; (second one is indifferent); "How does 500,000 Mora sound?" (Note that the Guard will not actually take 500k Mora from the player's [[Inventory]].)
-#** Timid Guard: "Give up. No one's going to rescue you"; (second one is indifferent); "Oh, I already dealt with him already"
+#* Search four rooms for the [[Hidden Key]]. Two rooms contain Fatui NPCs, who may or may not unleash enemies depending on the dialogue options chosen. To minimize the amount of fighting, selecting the following options:
+#** Greedy Guard: "We are goodwill ambassadors from the Snezhno-Mondstadtian Association" > (Second set of options do not affect the result) > "How does 500,000 Mora sound?" (Note that the Guard will not actually take 500k Mora from the player's [[Inventory]].)
+#** Timid Guard: "Give up. No one's going to rescue you" > (Second set of options do not affect the result) > "Oh, I already dealt with him already"
 # Open the door using the key you have found
-#* Interact with the mechanism in the middle room to use the [[Hidden Key]] you obtained
+#* Interact with the mechanism in the middle room with the Hidden Key
 # Enter the area where the lyre is stored
-# Defeat the Agent and retrieve the Holy Lyre der Himmel
+# Defeat the Agent and retrieve the [[Holy Lyre der Himmel]]
+#* {{Enemy|Fatui Pyro Agent|x=1|text=Fatui Zamenhoff: Agent &mdash; Incinerating Blades}}
 # Talk to Paimon
 
 ==Dialogue==
+{{Quest Description|The person Diluc called in turned out to be [[Jean]] from the [[Knights of Favonius]]. After some discussions, it is discovered that it was the Fatui who stole the Holy Lyre der Himmel. You must retrieve it to rescue [[Dvalin]].}}
 {{dialogue start}}
 ;(On the way to the Fatui hideout)
-:{{A|vo mdaq053 1 venti 01.ogg}} '''Venti:''' Jean just said the Fatui are trying to take Dvalin's power for the Cryo God...
+:{{A|vo mdaq053 1 venti 01.ogg}} '''Venti:''' Jean just said the Fatui are trying to take Dvalin's power for the [[Tsaritsa|Cryo God]]...
 :{{A|vo mdaq053 1 venti 02.ogg}} '''Venti:''' I fear this might fall short of their true intentions.
-:{{A|vo mdaq053 1 venti 03.ogg}} '''Venti:''' I think they intend to use Barbatos' connection to the wind to draw him out.
-:{{A|vo mdaq053 1 venti 04.ogg}} '''Venti:''' Just like Lisa traced the source of the storm to the temples.
+:{{A|vo mdaq053 1 venti 03.ogg}} '''Venti:''' I think they intend to use [[Barbatos]]' connection to the wind to draw him out.
+:{{A|vo mdaq053 1 venti 04.ogg}} '''Venti:''' Just like [[Lisa]] traced the source of the storm to the temples.
 :{{A|vo mdaq053 1 diluc 01.ogg}} '''Diluc:''' The God of Anemo? ...Hasn't been seen for more than a thousand years. What makes you think that's their intention?
 :{{A|vo mdaq053 1 venti 05.ogg}} '''Venti:''' Oh... ah...
 :{{A|vo mdaq053 1 diluc 02.ogg}} '''Diluc:''' ...
@@ -50,9 +54,9 @@
 
 ----
 
-;(Talk to the Fatui Guard inside the domain)
+;(Interrogate the guard)
 :{{A|vo mdaq053 2 fatuusguard 01.ogg}} '''Fatui Guard:''' No, NO! Don't eat me! Ah? You're... You're human?
-:{{A|vo mdaq053 2 fatuusguard 02.ogg}} '''Fatui Guard:''' The entire floor's defenses... have been broken. I thought it was the Abyss Order attacking...
+:{{A|vo mdaq053 2 fatuusguard 02.ogg}} '''Fatui Guard:''' The entire floor's defenses... have been broken. I thought it was the [[Abyss Order]] attacking...
 :{{DIcon}} We have come for the Holy Lyre der Himmel.
 ::{{A|vo mdaq053 2 fatuusguard 03a.ogg}} '''Fatui Guard:''' H&mdash;How did you guys know the lyre's here?
 :{{DIcon}} We have come for your life.
@@ -63,20 +67,22 @@
 :{{A|vo mdaq053 2 fatuusguard 05.ogg}} '''Fatui Guard:''' I don't know which one of the guards has it, but I'm sure you can find the guards and find out for yourselves.
 :{{A|vo mdaq053 2 paimon 01.ogg}} '''Paimon:''' This guy looks like he's about to wet himself...
 :{{A|vo mdaq053 2 fatuusguard 06.ogg}} '''Fatui Guard:''' Y&mdash;You just worry about yourselves!
-:{{A|vo mdaq053 2 fatuusguard 07.ogg}} '''Fatui Guard:''' One of the Harbingers is already in Mondstadt.
-:{{A|vo mdaq053 2 fatuusguard 08.ogg}} '''Fatui Guard:''' Signora. When she gets her hands on you she's going to string you up and torture you. When that time comes, don't you dare say a word about me.
+:{{A|vo mdaq053 2 fatuusguard 07.ogg}} '''Fatui Guard:''' One of the [[Eleven Fatui Harbingers|Harbingers]] is already in Mondstadt.
+:{{A|vo mdaq053 2 fatuusguard 08.ogg}} '''Fatui Guard:''' [[Signora]]. When she gets her hands on you she's going to string you up and torture you. When that time comes, don't you dare say a word about me.
 
 ;(After interrogating the Fatui Guard)
 :{{A|vo mdaq053 2 paimon 02.ogg}} '''Paimon:''' Did he say Signora? What a strange name...
 :{{A|vo mdaq053 2 diluc 01.ogg}} '''Diluc:''' No. 8 of The Eleven Harbingers. Goes by the name Signora.
 :{{A|vo mdaq053 2 diluc 02.ogg}} '''Diluc:''' The fact the Fatui can run amok across the seven nations like they do is entirely because of The Eleven Harbingers.
 :{{A|vo mdaq053 2 diluc 03.ogg}} '''Diluc:''' We need to act quickly before she gets wind of what's going on.
-:;(You proceed to look for the key to open the door)
 
 ----
 
+;(Interact with the mechanism before obtaining the Hidden Key)
+:<!--UI treats this as normal NPC dialogue, but without an NPC name displayed-->We need a key. It might be in... a nearby room?
+
 ;(Talk to Greedy Guard)
-:{{A|vo mdaq053 3 guardproud 01.ogg}} '''Greedy Guard:''' W-Who are you? How'd you get in here!?
+:{{A|vo mdaq053 3 guardproud 01.ogg}} '''Greedy Guard:''' W&mdash;Who are you? How'd you get in here!?
 :{{DIcon}} We are goodwill ambassadors from the Snezhno-Mondstadtian Association.
 ::{{A|vo mdaq053 3 guardproud 02b.ogg}} '''Greedy Guard:''' Never heard of that association before...
 ::{{A|vo mdaq053 3 guardproud 03.ogg}} '''Greedy Guard:''' What are you lot doing here?
@@ -96,11 +102,11 @@
 ::::{{A|vo mdaq053 3a guardproud 07.ogg}} '''Greedy Guard:''' Okay...
 ::::{{A|vo mdaq053 3a guardproud 08.ogg}} '''Greedy Guard:''' Okay. Sounds like a plan.
 ::::{{A|vo mdaq053 3a guardproud 09a 1.ogg}} '''Greedy Guard:''' Alright. You're free to go.
-:::;(If it's not the last room you have to clear)
+:::;(If it is not the last room to be searched)
 :::::{{A|vo mdaq053 3a guardproud 09a 2.ogg}} '''Greedy Guard:''' But I don't have the key unfortunately. You'll have to ask the next guard you come across.
 ::::;(Talk again)
 :::::{{A|vo dialog mdaq053 guardproud 02.ogg}} '''Greedy Guard:''' What're you still doing here? Don't get me into trouble.
-:::;(If it's the last room you have to clear)
+:::;(If it is the last room to be searched)
 :::::{{A|vo mdaq053 3a guardproud 09b.ogg}} '''Greedy Guard:''' I have the key here. You can head in from the hall outside, but don't tell anyone that it was me who gave you the key.
 ::::;(Talk again)
 :::::{{A|vo dialog mdaq053 guardproud 01.ogg}} '''Greedy Guard:''' Don't even try to say you don't owe me...
@@ -109,7 +115,7 @@
 ::::{{A|vo mdaq053 3b guardproud 07.ogg}} '''Greedy Guard:''' Hehe...
 ::::{{A|vo mdaq053 3b guardproud 08.ogg}} '''Greedy Guard:''' Think you can look down your nose at me, huh?
 ::::{{A|vo mdaq053 3b guardproud 09.ogg}} '''Greedy Guard:''' The will of Snezhnaya is as solid as the permafrost! I will not yield!
-::;(Fight the Fatui Electro Cicin Mage)
+:::;(Fight the Fatui Electro Cicin Mage)
 ::{{DIcon}} We'll recommend you to the Association.
 ::{{DIcon}} Have an apple!
 :::{{A|vo mdaq053 3a guardproud 06.ogg}} '''Greedy Guard:''' Wow...
@@ -125,7 +131,7 @@
 ::;(Fight the Fatui Electro Cicin Mage)
 
 ;(Talk to Timid Guard)
-:{{A|vo mdaq053 3 guardscared 01.ogg}} '''Timid Guard:''' Wh-Who are you? Wh-What are you doing here? Argh!
+:{{A|vo mdaq053 3 guardscared 01.ogg}} '''Timid Guard:''' Wh&mdash;Who are you? Wh&mdash;What are you doing here? Argh!
 :{{DIcon}} Give up. No one's coming to rescue you.
 ::{{A|vo mdaq053 3 guardscared 03.ogg}} '''Timid Guard:''' Did you already beat all the other guards?
 ::{{DIcon}} I kicked their Snezhnayan butts.
@@ -136,11 +142,11 @@
 :::{{A|vo mdaq053 3a guardscared 06.ogg}} '''Timid Guard:''' Ah...
 :::{{A|vo mdaq053 3a guardscared 07.ogg}} '''Timid Guard:''' Fine. Not like I have a choice anyway.
 :::{{A|vo mdaq053 3a guardscared 08a 1.ogg}} '''Timid Guard:''' Alright. You're free to go.
-::;(If it's not the last room you have to clear)
+::;(If it is not the last room to be searched)
 ::::{{A|vo mdaq053 3a guardscared 08a 2.ogg}} '''Timid Guard:''' But I don't have the key unfortunately. You'll have to ask the next guard you come across.
 :::;(Talk again)
 ::::{{A|vo dialog mdaq053 guardscared 02.ogg}} '''Timid Guard:''' G&mdash;Go, quickly! Get out of here! Go find someone else!
-::;(If it's the last room you have to clear)
+::;(If it is the last room to be searched)
 ::::{{A|vo mdaq053 3a guardscared 08b.ogg}} '''Timid Guard:''' I have the {{Color|buzz|key}} here. You can head in from the hall outside, but don't tell anyone that it was me who gave you the key.
 :::;(Talk again)
 ::::{{A|vo dialog mdaq053 guardscared 01.ogg}} '''Timid Guard:''' Scram! You already got what you wanted!
@@ -150,21 +156,21 @@
 :::{{A|vo mdaq053 3b guardscared 06.ogg}} '''Timid Guard:''' Hehe...
 :::{{A|vo mdaq053 3b guardscared 07.ogg}} '''Timid Guard:''' I've had enough!
 :::{{A|vo mdaq053 3b guardscared 08.ogg}} '''Timid Guard:''' I am a proud citizen of Snezhnaya! I will not falter!
-::;(An enemy Wooden Shield Mitachurl is released and starts attacking)
-::{{DIcon}} He's getting drunk at the Cat's Tail.
+::;(Fight a Wooden Shield Mitachurl)
+::{{DIcon}} He's getting drunk at the [[Cat's Tail]].
 :::{{A|vo mdaq053 3a guardscared 05.ogg}} '''Timid Guard:''' Ugh...
 :::{{A|vo mdaq053 3a guardscared 06.ogg}} '''Timid Guard:''' Ah...
 :::{{A|vo mdaq053 3b guardscared 06.ogg}} '''Timid Guard:''' Hehe...
 :::{{A|vo mdaq053 3b guardscared 07.ogg}} '''Timid Guard:''' I've had enough!
 :::{{A|vo mdaq053 3b guardscared 08.ogg}} '''Timid Guard:''' I am a proud citizen of Snezhnaya! I will not falter!
-::;(An enemy Wooden Shield Mitachurl is released and starts attacking)
+::;(Fight a Wooden Shield Mitachurl)
 :{{DIcon}} Enough talk. Stick 'em up!
 ::{{A|vo mdaq053 3 guardscared 02a.ogg}} '''Timid Guard:''' Ahh!? You're just going to attack me!?
 ::{{A|vo mdaq053 3a guardscared 06.ogg}} '''Timid Guard:''' Ah...
 ::{{A|vo mdaq053 3b guardscared 08.ogg}} '''Timid Guard:''' I am a proud citizen of Snezhnaya! I will not falter!
-::;(An enemy Wooden Shield Mitachurl is released and starts attacking)
+::;(Fight a Wooden Shield Mitachurl)
 
-;(After convincing a Guard or defeating the enemy they spawn)
+;(After convincing a Guard or defeating the enemy they spawn, if it is not the last room to be searched)
 :{{A|vo mdaq053 3 paimon 01.ogg}} '''Paimon:''' He says the key isn't here. Shall we try {{Color|buzzword|another room}}?
 
 ;(After clearing a room)
@@ -180,18 +186,17 @@
 :{{A|vo mdaq054 3 agent 02.ogg}} '''Agent:''' Signora is not going to tolerate this kind of interference in our affairs.
 :{{A|vo mdaq054 3 agent 03.ogg}} '''Agent:''' So I'll be the one to take care of you &mdash; save her the trouble of having to deal with you herself.
 
-;(Defeating the Agent and retrieving the lyre)
+;(After defeating the Agent and retrieving the lyre)
 :{{A|vo mdaq054 5 paimon 01.ogg}} '''Paimon:''' Finally, the lyre is back in safe hands!
 :{{A|vo mdaq054 5 paimon 02.ogg}} '''Paimon:''' Where did that guy go, though? He was here a second ago...
 :{{A|vo mdaq054 5 agent 01.ogg}} '''Agent:''' Signora is going to end you. The songs bards sing of your demise will be so terrifying &mdash; the people of Mondstadt will never sleep again for the nightmares they give them.
 :{{A|vo mdaq054 5 paimon 03.ogg}} '''Paimon:''' Big talk for a guy who still ran off in the end... Chicken.
-{{dialogue end}}
-<!--
+{{dialogue end}}<!--
 ===To be checked===
 does not seem to be used
 * {{A|vo mdaq053 3 guardscared 02b.ogg}} '''Timid Guard:''' No, I can't.
 * {{A|Vo dialog mdaq053 guardproud 03.ogg}} '''Greedy Guard:''' This is such hard work...
-* {{A|vo dialog mdaq053 guardscared 03.ogg}} '''Timid Guard:''' W—What was that sound?
+* {{A|vo dialog mdaq053 guardscared 03.ogg}} '''Timid Guard:''' W&mdash;What was that sound?
 -->
 
 ==Trivia==
@@ -200,7 +205,7 @@ does not seem to be used
 ** The Timid Guard refers to an [[Fatui Pyro Agent|Agent]] as a "Debt Collector" instead.
 *** Transcription: What!? I&mdash;I'm not scared of you. An Agent will come to my aid!
 *** Audio: {{A|vo mdaq053 3 guardscared 04b.ogg}} What!? I&mdash;I'm not scared of you. A Debt Collector will come to my aid!
-* Inside the domain, Diluc and the Traveler will be wearing black masks. These masks will occasionally appear again in World Quests, Story Quests, and events (e.g. [[Clean House]], [[Aphros Delos Chapter|Eula's Story Quest]], the [[Lantern Rite]]).
+* Inside the domain, Diluc and the [[Traveler]] (if brought into the domain) will wear black masks. Despite not being given to players as an in-game item, the Traveler kept the mask and it occasionally reappears in quests and events whenever the Traveler needs a disguise, particularly when infiltrating the Fatui.
 
 ==Video Guides==
 {{#evt:
@@ -231,7 +236,7 @@ service=youtube
 |fr      = À la poursuite de l'ombre
 |fr_tl   = In Pursuit of the Shadow
 |ru      = Погоня за тенью
-|ru_tl   = 
+|ru_tl   = Chasing a Shadow
 |th      = ไล่จับกับเงา
 |th_rm   = Lai chap kap ngao
 |th_tl   = Chasing Shadows
@@ -243,6 +248,10 @@ service=youtube
 |id_tl   = Chasing Shadows
 |pt      = Perseguindo Sombras
 |pt_tl   = Chasing Shadows
+|tr      = Gölgelerin Peşinde
+|tr_tl   = 
+|it      = Inseguendo le ombre
+|it_tl   = Chasing Shadows
 }}
 
 ==Change History==
@@ -252,4 +261,6 @@ service=youtube
 {{Archon Quest Navbox|chapter=Prologue}}
 [[Category:Archon Prologue]]
 
+[[es:Persiguiendo sombras]]
+[[ja:暗影を追いかける]]
 [[pt-br:Perseguindo Sombras]]

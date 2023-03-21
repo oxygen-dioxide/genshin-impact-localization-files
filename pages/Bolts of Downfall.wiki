@@ -2,7 +2,7 @@
 |image         = Talent Bolts of Downfall.png
 |character     = Fischl
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 5 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''Aimed Shot''' with increased DMG.<br />While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense {{Color|Electro DMG}}.<br /><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 5 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''Aimed Shot''' with increased DMG.<br />While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense {{Color|Electro DMG}}.<br /><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
 |hit1          = 44.1–93.4%
 |hit2          = 46.8–99.0%
 |hit3          = 58.1–123%
@@ -23,6 +23,81 @@
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|1|Gaze of the Deep}}
 
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = —
+|icdtag  = none
+|poise   = 12
+|impulse = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = —
+|icdtag2  = none
+|poise2   = 12.9
+|impulse2 = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = —
+|icdtag3  = none
+|poise3   = 15.9
+|impulse3 = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = —
+|icdtag4  = none
+|poise4   = 15.6
+|impulse4 = 1
+
+|title5   = Normal Attack 5-Hit
+|gu5      = —
+|icdtag5  = none
+|poise5   = 19.71
+|impulse5 = 1
+
+|title6   = Aimed Shot
+|gu6      = —
+|icdtag6  = none
+|poise6   = 10
+|impulse6 = 2
+
+|title7   = Aimed Shot (Hit Weak Spot)
+|gu7      = —
+|icdtag7  = none
+|poise7   = 30
+|impulse7 = 5
+
+|title8   = Fully-Charged Aimed Shot
+|gu8      = 1U<br /><small>(w/ [[Dropoff]])</small>
+|icdtag8  = none
+|poise8   = 20
+|impulse8 = 2
+
+|title9   = Fully-Charged Aimed Shot (Hit Weak Spot)
+|gu9      = 1U<br /><small>(w/ Dropoff)</small>
+|icdtag9  = none
+|poise9   = 60
+|impulse9 = 5
+
+|title10   = Plunging Attack Collision
+|gu10      = —
+|icdtag10  = none
+|poise10   = 10
+|impulse10 = 2
+
+|title11   = Low Plunge
+|gu11      = —
+|icdtag11  = none
+|poise11   = 50
+|impulse11 = 2
+
+|title12   = High Plunge
+|gu12      = —
+|icdtag12  = none
+|poise12   = 100
+|impulse12 = 3
+}}
+
 ==Preview==
 {{Preview
 |file1=Bolts of Downfall Normal Preview
@@ -32,9 +107,26 @@
 |caption2=Charged Attack
 
 |file3=Bolts of Downfall Plunge Preview
-|caption3=Plunge Attack
+|caption3=Plunging Attack
 }}
-{{clr}}
+
+;Recovery Animations
+{{Preview
+|file1=Bolts of Downfall N1 Recovery Preview
+|caption1=Normal Attack 1
+
+|file2=Bolts of Downfall N2 Recovery Preview
+|caption2=Normal Attack 2
+
+|file3=Bolts of Downfall N3 Recovery Preview
+|caption3=Normal Attack 3
+
+|file4=Bolts of Downfall N4 Recovery Preview
+|caption4=Normal Attack 4
+
+|file5=Bolts of Downfall N5 Recovery Preview
+|caption5=Normal Attack 5
+}}
 
 ==Attribute Scaling==
 {{Talent Scaling
@@ -167,7 +259,7 @@
 |zhs_rm  = Zuìmiè zhī Shǐ
 |zht     = 罪滅之矢
 |zht_rm  = Zuìmiè zhī Shǐ
-|zh_tl   = 
+|zh_tl   = Arrow of Atonement{{Sino|zh|ja}}
 |ja      = 罪滅ぼしの矢
 |ja_rm   = Tsumihoroboshi no Ya
 |ja_tl   = Arrow of Atonement
@@ -179,7 +271,7 @@
 |fr      = Flèche de culpabilité
 |fr_tl   = Arrow of Guilt
 |ru      = Стрела возмездия
-|ru_tl   = 
+|ru_tl   = Arrow of Retribution
 |th      = Bolts of Downfall
 |vi      = Mũi Tên Diệt Ác
 |vi_tl   = Arrow of Killing
@@ -188,6 +280,10 @@
 |id      = Bolts of Downfall
 |pt      = Flechas da Culpa
 |pt_tl   = 
+|tr      = Düşen Yıldırımlar
+|tr_tl   = 
+|it      = Cascata di dardi
+|it_tl   = Waterfall of Darts
 }}
 
 ==Change History==
@@ -201,3 +297,4 @@
 [[pt-br:Flechas da Culpa]]
 [[ru:Стрела возмездия]]
 [[th:Bolts of Downfall]]
+[[ja:罪滅ぼしの矢]]

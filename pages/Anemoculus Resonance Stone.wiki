@@ -1,28 +1,24 @@
 {{Item Infobox
-|id           = 220001
-|image        = Item Anemoculus Resonance Stone.png
-|type         = Consumables
-|group        = Oculus Resonance Stones
-|invCategory  = Gadgets
-|rarity       = 3
-|effect       = A stone that can be used in [[Mondstadt]] to search for nearby [[Anemoculi]].
-|description  = This man-made stone plate possesses a certain characteristic similar to that of the Anemo [[Statues of The Seven]], giving it the power to resonate with [[Anemoculi]]. [[Oculus Resonance Stone]]s are crude imitations of the [[Statues of The Seven]] constructed by the ancients. But it is precisely this crudeness that makes them crave the power of elemental oculi, thus providing devout worshippers and adventurers alike a prime opportunity to collect [[oculi]].
-|source1      = Reach [[Reputation]] Level 2 in [[Mondstadt]]
-|reusable     = No
-|usage        = Quick Use
-|memento      = No
+|id          = 220001
+|image       = Item Anemoculus Resonance Stone.png
+|type        = Consumables
+|group       = Oculus Resonance Stones
+|invCategory = Gadgets
+|quality     = 3
+|effect      = A stone that can be used in [[Mondstadt]] to search for nearby [[Anemoculi]]. The cooldown between uses is 300 seconds if an [[oculus]] is detected and 5 seconds if not.
+|description = A stone that can be used in [[Mondstadt]] to search for nearby [[Anemoculi]].<br />This man-made stone plate possesses a certain characteristic similar to that of the Anemo [[Statues of The Seven]], giving it the power to resonate with [[Anemoculi]].<br />[[Oculus Resonance Stone]]s are crude imitations of the [[Statues of The Seven]] constructed by the ancients. But it is precisely this crudeness that makes them crave the power of elemental oculi, thus providing devout worshippers and adventurers alike a prime opportunity to collect [[oculi]].
+|recipeType  = Instructions
+|recipe      = Reach [[Reputation]] Level 2 in [[Mondstadt]]
+|reusable    = No
+|usage       = Quick Use
+|memento     = No
 }}
-{{Description|This man-made stone plate possesses a certain characteristic similar to that of the [[Anemo]] [[Statues of The Seven]], giving it the power to resonate with [[Anemoculi]]. [[Oculus Resonance Stone]]s are crude imitations of the [[Statues of The Seven]] constructed by the ancients. Some think that it is the very crudeness of such stones that makes them seek out the power of elemental [[oculi]] - their crudeness makes them crave the power of the statues in the hope that they might replace them.}}
-'''Anemoculus Resonance Stone''' is a consumable [[gadget]] that can be created through [[alchemy]]. Reach [[Reputation]] Level 2 in [[Mondstadt]] to obtain [[Instructions: Anemoculus Resonance Stone]].
+'''Anemoculus Resonance Stone''' is a consumable [[gadget]] that can be used to search for nearby [[Anemoculus|Anemoculi]]. It can be created through [[alchemy]] after using the [[Instructions: Anemoculus Resonance Stone|instructions]] obtained by reaching [[Reputation]] Level 2 in [[Mondstadt]].
 
-After equipping it through the [[Inventory]], using this item will search out the nearest [[Anemoculus]] from where you are currently.
-
-If an Anemoculus is successfully found, the item will be consumed and its general area will be highlighted with a blue circle. Upon entering its vicinity, a white arrow will point you towards its location. Once you get close enough, the [[Oculus]] symbol will appear on the map and the blue highlight will disappear.
-
-If an Anemoculus is not found in any nearby regions, it will notify you and the item will not be consumed. If the gadget detects an Anemoculus in a very close proximity to the player, the item will not be consumed.
-
-'''Note''': If you enter another player's world in [[Co-Op Mode]], it either appears to search for Anemoculi based on what's in your world or just won't find any (and will display the animation that none are found). Since none will be found, it won't be consumed.
-
+{{Transclude|Oculus Resonance Stone|resonance stone intro|section=1}}
+<!---
+'''Note''': If you enter another player's world in [[Co-Op Mode]], it either appears to search for Dendroculi based on what's in your world or just won't find any (and will display the animation that none are found). Since none will be found, it won't be consumed.
+--->
 ==Alchemy==
 {{Recipe
 |type = Crafting
@@ -30,8 +26,14 @@ If an Anemoculus is not found in any nearby regions, it will notify you and the 
 |Cecilia = 5
 |Crystal Chunk = 1
 |Mora = 500
-|sort = Dandelion Seed,Cecilia,Crystal Chunk,Mora
+|sort = Dandelion Seed;Cecilia;Crystal Chunk;Mora
 }}
+
+==Notes==
+{{Transclude|Oculus Resonance Stone|Notes}}
+
+==Descriptions==
+{{Description|This man-made stone plate possesses a certain characteristic similar to that of the [[Anemo]] [[Statues of The Seven]], giving it the power to resonate with [[Anemoculi]]. [[Oculus Resonance Stone]]s are crude imitations of the Statues of The Seven constructed by the ancients. Some think that it is the very crudeness of such stones that makes them seek out the power of elemental [[oculi]] - their crudeness makes them crave the power of the statues in the hope that they might replace them.|[[Archive]]}}
 
 ==Other Languages==
 {{Other Languages
@@ -52,7 +54,7 @@ If an Anemoculus is not found in any nearby regions, it will notify you and the 
 |fr      = Pierre de résonance Anémoculus
 |fr_tl   = Anemoculus Resonance Stone
 |ru      = Камень эха анемокула
-|ru_tl   = 
+|ru_tl   = Anemoculus Echo Stone
 |th      = Anemoculus Resonance Stone
 |vi      = Đá Cộng Hưởng Phong Thần Đồng
 |vi_tl   = 
@@ -61,6 +63,10 @@ If an Anemoculus is not found in any nearby regions, it will notify you and the 
 |id      = Anemoculus Resonance Stone
 |pt      = Pedra de Ressonância de Anemoculus
 |pt_tl   = Anemoculus Resonance Stone
+|tr      = Rüzgar Özü Rezonans Taşı
+|tr_tl   = 
+|it      = Pietra di risonanza per Anemoculi
+|it_tl   = Resonance Stone for Anemoculus
 }}
 
 ==Change History==
@@ -69,4 +75,7 @@ If an Anemoculus is not found in any nearby regions, it will notify you and the 
 ==Navigation==
 {{Gadget Navbox}}
 
-[[es:Roca de resonancia de Anemóculus]]
+[[es:Roca de resonancia de anemóculus]]
+[[ja:風神の瞳の共鳴石]]
+[[ru:Камень эха анемокула]]
+[[th:Anemoculus Resonance Stone]]

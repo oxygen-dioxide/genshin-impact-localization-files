@@ -1,2 +1,51 @@
-#REDIRECT [[Food#List of Special Dishes]]
-[[Category:Redirect Pages]]
+{{Terminology Infobox
+|image        = Cooking Character Select.png
+|caption      = 
+|type         = Food
+}}
+'''Special Dishes''' are [[food]] items that have a chance to be [[Cooking|cooked]] if a specific character cooks them. These special dishes provide either a higher bonus or additional effect over their Delicious variant, as well as a separate icon, name and description.
+
+The [[Raiden Shogun]] is the only character without a special dish, as she cannot cook.
+
+==Probability==
+{| class="fandom-table"
+! rowspan="2" | Rarity !! colspan="3" | Probability of producing a Special Dish
+|-
+! Suspicious !! Normal !! Delicious
+|-
+| 1-Star || 10% || 15% || 20%
+|-
+| 2-Star || 10% || 10% || 15%
+|-
+| 3-Star || 5% || 10% || 15%
+|-
+| 4-Star || 5% || 5% || 10%
+|}
+
+==List==
+{{#DPL:
+|namespace =
+|uses = Template:Food Infobox
+|category = Special Dishes
+|resultsheader = There are '''%PAGES%''' special dishes:\n
+|include = {Food Infobox}:%PAGE%:base:character
+|table = class="article-table sortable alternating-colors-table mw-collapsible" data-expandtext="+" data-collapsetext="-",-,Special Dish, Base Dish, Character
+|tablerow = ²{#if:%%¦²{Item¦%%¦45}²}²,²{#if:%%¦²{Item¦%%¦45}²}²,style="text-align: center;"¦²{#if:%%¦²{Character¦%%¦45}²}²
+|noresultsfooter = No Results
+|allowcachedresults = true
+|tablesortcol=3
+}}
+
+==Trivia==
+* Some characters are able to activate a [[Cooking#Character Bonuses|cooking-related passive talent]] while also cooking their special dish. Due to this, they can double the amount of their special dish created, or create an additional Suspicious dish.
+** [[Diona]]'s [[Complimentary Bar Food]] may double [[Definitely Not Bar Food!]]
+** [[Jean]]'s [[Guiding Breeze]] may double [[Invigorating Pizza]]
+** [[Yun Jin]]'s [[Light Nourishment]] may double [[Cloud-Shrouded Jade]]
+** [[Hu Tao]]'s [[The More the Merrier]] may create both [[Ghostly March]] and [[Suspicious Vegetarian Abalone]]
+** [[Kamisato Ayato]]'s [[Kamisato Art: Daily Cooking]] may create both [[Quiet Elegance]] and [[Suspicious Sakura Tempura]]
+
+==Change History==
+{{Change History|1.0}}
+
+==Navigation==
+{{Food Navbox|Special Dishes}}

@@ -1,6 +1,8 @@
 {{Enemy Infobox
 |image    = Enemy Fatui Hydrogunner Legionnaire.png
-|element  = Hydro
+|dmgtype  = Physical
+|dmgtype2 = Hydro
+|weakpoint = yes
 |type     = Common Enemies
 |family   = Fatui
 |group    = Fatui Skirmishers
@@ -8,11 +10,22 @@
 |ability1 = Healing
 |ability2 = Shield
 }}
-{{Description|A soldier encased within a Fatui war machine.<br />Armed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of {{Color|Hydro|water}}. These skirmishers do not question if they shall live or die as they advance into nations far from home to complete advance missions and lay the groundwork for operations to come.}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Fatui Skirmishers}}
+===Items===
+{{Drops Table|type=Fatui Skirmishers}}
+
+===Energy===
+{{Energy Drops
+|type  = Hydro
+|hp1   = 66
+|p1    = 2
+|hp2   = 33
+|p2    = 2
+|hp3   = 0
+|p3    = 2
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -30,30 +43,61 @@
 }}
 
 ==Abilities and Attacks==
-*'''Water Blast:''' Shoots a fast projectile from their cannon, dealing '''100% ATK''' as {{Color|Hydro DMG}} on hit.
-*'''Healing Bubble:''' Shoots a healing bubble at an ally which will heal them over a period of time.
-**'''Enhanced:''' While their '''Hydro Armor''' is active, the Hydrogunner Legionnaire can heal multiple allies at once.
-*'''Ram:''' If the player strays too near, rams the player with their belly, dealing '''100% ATK''' as {{Color|Physical DMG}}. This attack is only used when the '''Hydro Armor''' is inactive.
-*'''Hydro Armor:''' Upon reaching '''50%''' HP or after some time has passed, generates a {{Hydro}} [[Shields|shield]], granting them a massive increase in [[Resistance]]s and enhancing their '''Healing Bubble''' ability. The shield is weakest to {{Color|Electro}}. Breaking the shield will leave them stunned and vulnerable to attack.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Hydrogunner Legionnaire
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Hydrogunner Legionnaire Water Blast
-|caption1=Water Blast
+|name_1 = Water Blast
+|desc_1 = Shoots a fast projectile from their cannon, dealing '''100% ATK''' as {{Color|Hydro DMG}} on hit.
 
-|file2=Hydrogunner Legionnaire Healing Bubble
-|caption2=Healing Bubble
+|name_2 = Curative Bullet
+|file_2 = Hydrogunner Legionnaire Healing Bubble
+|desc_2 = Shoots a healing bubble at an ally which will heal them over a period of time.
+* '''Enhanced:''' While their '''Elemental Buff''' is active, the Hydrogunner Legionnaire can heal multiple allies at once.
 
-|file3=Hydrogunner Legionnaire Ram
-|caption3=Ram
+|name_3 = Skilled Charge
+|file_3 = Hydrogunner Legionnaire Ram
+|desc_3 = If the player strays too near, rams the player with their belly, dealing '''100% ATK''' as {{Color|Physical DMG}}. This attack is only used when their '''Elemental Buff''' is inactive.
 
-|file4=Hydrogunner Legionnaire Hydro Armor
-|caption4=Hydro Armor
-
-|file5=Hydrogunner Legionnaire Stunned
-|caption5=Stunned
+|name_4 = Elemental Buff: Hydro
+|file_4 = Hydrogunner Legionnaire Hydro Armor
+|desc_4 = Upon reaching '''50%''' HP or after some time has passed, generates a {{Hydro}} [[Shields|shield]], granting them a massive increase in [[Resistance]]s and enhancing their '''Curative Bullet''' ability. The shield is weakest to {{Color|Electro}}. Breaking the shield will leave them stunned and vulnerable to attack.
+{{Elemental Shield Data|Hydro|4|skirmisher=1}}
+|file_4_2 = Hydrogunner Legionnaire Stunned
+|caption_4_2 = Stunned
 }}
+
+===AI Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if all of the following conditions have been met:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+{| class="wikitable"
+! Ability !! Range Req. (m) !! Priority !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int. !! State Req.
+|-
+| Curative Bullet || 0–999 || 3 || 5–7.5 || 3 || — || rowspan="9" | 3 || {{check|yes}} || {{check|no}} || Not Armored
+|-
+| Skilled Charge || 0–3.5 || 5 || 7.5–12.5 || 3 || — || {{check|yes}} || {{check|yes}} || Not Armored
+|-
+| Elemental Buff: Hydro 1 || 0–999 || 1 || 100000000 || 10–15 || — || {{check|no}} || {{check|yes}} || Not Armored, Above 50% HP
+|-
+| Elemental Buff: Hydro 2 || 0–999 || 2 || 25–30 || 25–30 || — || {{check|no}} || {{check|yes}} || Not Armored
+|-
+| Elemental Buff: Hydro 3 || 0–999 || 1 || 100000000 || 0 || — || {{check|no}} || {{check|yes}} || Not Armored, Below 50% HP
+|-
+| Curative Bullet (Enhanced) || 0–999 || 3 || 5–7.5 || 0 || — || {{check|no}} || {{check|yes}} || Armored
+|-
+| Water Blast 1 || 3.5–50 || 5 || 5–7.5 || 3 || rowspan="2" | 5 || {{check|yes}} || {{check|no}} || Any
+|-
+| Water Blast 2 || 3.5–50 || 5 || 5–7.5 || 3 || {{check|yes}} || {{check|yes}} || Any
+|-
+| Water Blast 3 || 0–50 || 5 || 1–3.5 || 0 || — || {{check|yes}} || {{check|no}} || Any
+|}
 
 ==Voice-Overs==
 {{VO/Enemy
@@ -61,114 +105,111 @@
 |vo_01_00_title          = Spotting the Traveler
 |vo_01_01_file           = VO {lang}{name} - Hahahahaha Work Time.ogg
 |vo_01_01_tx_en          = Hahahahaha! Work time!
-|vo_01_01_tx_zhs         = 活儿来了！
-|vo_01_01_tx_zht         = 
+|vo_01_01_tx_zh          = 活儿来了！
 |vo_01_01_tx_ja          = 仕事だ！
 |vo_01_01_tx_ko          = 
 |vo_01_02_file           = VO {lang}{name} - Time To Work.ogg
 |vo_01_02_tx_en          = Time to work.
-|vo_01_02_tx_zhs         = 开工了！
-|vo_01_02_tx_zht         = 
+|vo_01_02_tx_zh          = 开工了！
 |vo_01_02_tx_ja          = やるか？
+|vo_01_02_rm_ja          = Yaru ka?
 |vo_01_02_tx_ko          = 
 
-|vo_02_00_title          = Activating Shield
+|vo_02_00_title          = Activating Buff
 |vo_02_01_file           = VO {lang}{name} - Time To Fulfill My Duty.ogg
 |vo_02_01_tx_en          = Time to fulfill my duty!
-|vo_02_01_tx_zhs         = 履行使命的时刻到了！
-|vo_02_01_tx_zht         = 
+|vo_02_01_tx_zh          = 履行使命的时刻到了！
 |vo_02_01_tx_ja          = 使命を果たす時が来た！
 |vo_02_01_tx_ko          = 
 |vo_02_02_file           = VO {lang}{name} - Hahahahahahaha.ogg
 |vo_02_02_tx_en          = Hahahahahahaha!
-|vo_02_02_tx_zhs         = 唔哈哈哈哈哈哈！
-|vo_02_02_tx_zht         = 
+|vo_02_02_tx_zh          = 唔哈哈哈哈哈哈！
 |vo_02_02_tx_ja          = えへへ！
+|vo_02_02_rm_ja          = Ehehe!
 |vo_02_02_tx_ko          = 
 
 |vo_03_00_title          = Attacking
 |vo_03_01_file           = VO {lang}{name} - Not Breaking A Sweat.ogg
 |vo_03_01_tx_en          = Not breaking a sweat!
-|vo_03_01_tx_zhs         = 不错的休闲！
-|vo_03_01_tx_zht         = 
+|vo_03_01_tx_zh          = 不错的休闲！
 |vo_03_01_tx_ja          = いい娯楽だ！
 |vo_03_01_tx_ko          = 
 |vo_03_02_file           = VO {lang}{name} - This Should Be Fun.ogg
 |vo_03_02_tx_en          = This should be fun!
-|vo_03_02_tx_zhs         = 有点儿乐子！
-|vo_03_02_tx_zht         = 
+|vo_03_02_tx_zh          = 有点儿乐子！
 |vo_03_02_tx_ja          = 面白い。
 |vo_03_02_tx_ko          = 
 |vo_03_03_file           = VO {lang}{name} - Get Out Of My Way.ogg
 |vo_03_03_tx_en          = Get out of my way!
-|vo_03_03_tx_zhs         = 别挡道！
-|vo_03_03_tx_zht         = 
+|vo_03_03_tx_zh          = 别挡道！
 |vo_03_03_tx_ja          = 邪魔するな！
 |vo_03_03_tx_ko          = 
 |vo_03_04_file           = VO {lang}{name} - Hehe Go On Give Me A Go.ogg
 |vo_03_04_tx_en          = Hehe, go on! Give me a go!
-|vo_03_04_tx_zhs         = 你想试试？
-|vo_03_04_tx_zht         = 
+|vo_03_04_tx_zh          = 你想试试？
 |vo_03_04_tx_ja          = お前も試したいのか？
 |vo_03_04_tx_ko          = 
 
 |vo_04_00_title          = Healing Comrades
 |vo_04_01_file           = VO {lang}{name} - No Slacking Off.ogg
 |vo_04_01_tx_en          = No slacking off!
-|vo_04_01_tx_zhs         = 别想偷懒！
-|vo_04_01_tx_zht         = 
+|vo_04_01_tx_zh          = 别想偷懒！
 |vo_04_01_tx_ja          = サボるな！
 |vo_04_01_tx_ko          = 
 |vo_04_02_file           = VO {lang}{name} - No Excuse For Slacking.ogg
 |vo_04_02_tx_en          = No excuse for slacking!
-|vo_04_02_tx_zhs         = 这不是偷懒的借口！
-|vo_04_02_tx_zht         = 
+|vo_04_02_tx_zh          = 这不是偷懒的借口！
 |vo_04_02_tx_ja          = サボるんじゃない！
 |vo_04_02_tx_ko          = 
 |vo_04_03_file           = VO {lang}{name} - It Isnt Time For A Break Yet.ogg
 |vo_04_03_tx_en          = It isn't time for a break yet!
-|vo_04_03_tx_zhs         = 还没到歇息的时候！
-|vo_04_03_tx_zht         = 
+|vo_04_03_tx_zh          = 还没到歇息的时候！
 |vo_04_03_tx_ja          = まだ休憩時間じゃない！
 |vo_04_03_tx_ko          = 
 |vo_04_04_file           = VO {lang}{name} - Put Your Back Into It.ogg
 |vo_04_04_tx_en          = Put your back into it!
-|vo_04_04_tx_zhs         = 给我加把劲儿！
-|vo_04_04_tx_zht         = 
+|vo_04_04_tx_zh          = 给我加把劲儿！
 |vo_04_04_tx_ja          = 働け！
 |vo_04_04_tx_ko          = 
 
 |vo_05_00_title          = Shield Broken
 |vo_05_01_file           = VO {lang}{name} - How Can This Be.ogg
 |vo_05_01_tx_en          = How can this be?!
-|vo_05_01_tx_zhs         = 呃？怎么会？
-|vo_05_01_tx_zht         = 
-|vo_05_01_tx_ja          = 
+|vo_05_01_tx_zh          = 呃？怎么会？
+|vo_05_01_tx_ja          = 効率が悪い。
 |vo_05_01_tx_ko          = 
 |vo_05_02_file           = VO {lang}{name} - This Is Bad.ogg
 |vo_05_02_tx_en          = This is bad!
-|vo_05_02_tx_zhs         = 呃…麻烦了…
-|vo_05_02_tx_zht         = 時間の無駄だ！
-|vo_05_02_tx_ja          = 
+|vo_05_02_tx_zh          = 呃…麻烦了…
+|vo_05_02_tx_ja          = 時間の無駄だ！
 |vo_05_02_tx_ko          = 
 
-|vo_06_00_title          = Defeated
-|vo_06_01_file           = VO {lang}{name} - My Work Ugh Finished.ogg
-|vo_06_01_tx_en          = My work... ugh... finished...
-|vo_06_01_tx_zhs         = 工作…结束…
-|vo_06_01_tx_zht         = 
-|vo_06_01_tx_ja          = 仕事が終わった。
-|vo_06_01_tx_ko          = 
-|vo_06_02_file           = VO {lang}{name} - My Duty At An End.ogg
-|vo_06_02_tx_en          = My duty... at an end...
-|vo_06_02_tx_zhs         = 职责到了尽头…
-|vo_06_02_tx_zht         = 
-|vo_06_02_tx_ja          = 責任は終わり。
-|vo_06_02_tx_ko          = 
+|vo_06_00_title          = Damaged
+|vo_06_01_tx_en          = (Grunt)
+|vo_06_01_file           = Vo gcg monster skirmisher spraygun water 01 hitheavy 01.ogg
+|vo_06_02_tx_en          = (Grunt)
+|vo_06_02_file           = Vo gcg monster skirmisher spraygun water 01 hitheavy 02.ogg
+|vo_06_03_tx_en          = (Grunt)
+|vo_06_03_file           = Vo gcg monster skirmisher spraygun water 01 hitheavy 03.ogg
+
+|vo_07_00_title          = Defeated
+|vo_07_01_file           = VO {lang}{name} - My Work Ugh Finished.ogg
+|vo_07_01_tx_en          = My work... ugh... finished...
+|vo_07_01_tx_zh          = 工作…结束…
+|vo_07_01_tx_ja          = 仕事が終わった。
+|vo_07_01_tx_ko          = 
+|vo_07_02_file           = VO {lang}{name} - My Duty At An End.ogg
+|vo_07_02_tx_en          = My duty... at an end...
+|vo_07_02_tx_zh          = 职责到了尽头…
+|vo_07_02_tx_ja          = 責任は終わり。
+|vo_07_02_tx_ko          = 
 }}
 
+==Descriptions==
+{{Description|A soldier encased within a Fatui war machine.<br />Armed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water.<br />These skirmishers do not question if they shall live or die as they advance into nations far from home to complete {{Sic|reconaissance}} missions and lay the groundwork for operations to come.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Fatui Skirmisher - Hydrogunner Legionnaire Icon.png|Icon
 </gallery>
 
@@ -181,10 +222,10 @@ Enemy Fatui Skirmisher - Hydrogunner Legionnaire Icon.png|Icon
 |zht_rm  = Yúrénzhòng Xiānqiǎnduì - Shuǐ Chòng Zhòng Wèishì
 |zh_tl   = Fatui Skirmisher - Hydro Gun Heavy Guard
 |ja      = ファデュイ{{Rubi|先|せん|遣|けん|隊|たい|・|&nbsp;|重|じゅう|衛|え|士|じ|・|&nbsp;|水|すい|銃|じゅう}}
-|ja_rm   = Fadyui Senkentai・Juu Eji・Suijuu
-|ja_tl   = Fatui Skirmisher: Heavy Guard - Hydro Gun
+|ja_rm   = Fadyui Senkentai - Juu Eji - Suijuu
+|ja_tl   = Fatui Skirmisher - Heavy Guard - Hydro Gun
 |ko      = 우인단 선발대・물총 중보병
-|ko_rm   = U'indan Seonbaldae - Mulchong Jungbobyeong
+|ko_rm   = U'in-dan Seonbaldae - Mulchong Jungbobyeong
 |ko_tl   = Fatui Advance Party - Watergun Heavy Infantry
 |es      = Soldado Fatui - Guardia con Cañón Hydro
 |es_tl   = Fatui Soldier - Guard with Hydro Cannon
@@ -200,17 +241,19 @@ Enemy Fatui Skirmisher - Hydrogunner Legionnaire Icon.png|Icon
 |id      = Fatui Skirmisher - Hydrogunner Legionnaire
 |pt      = Soldado dos Fatui - Guarda de Canhão Hydro
 |pt_tl   = 
+|tr      = Fatui Avcı Eri - Lejyoner Su Topçusu
+|tr_tl   = 
+|it      = Schermagliatore dei Fatui Hydroartigliere corazzato
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|1.0}}
-
-==References==
-{{Reflist}}
 
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
 [[es:Guardia con Cañón Hydro]]
 [[pt-br:Soldado dos Fatui - Guarda de Canhão Hydro]]
+[[th:Hydrogunner Legionnaire]]
 [[vi:Vệ Binh Thủy Hạng Nặng]]

@@ -6,8 +6,10 @@
 |part          = 1
 |act           = True Treasure
 |character     = Klee
-|description   = Customers at the [[Angel's Share]] have started debating the hottest topic on Mondstadt's streets: "Who is the strongest fighter in Mondstadt?" The curious promoter of the tavern, [[Patton]], is eager to weigh in on the discussion.
 |startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |next          = The Mystery of the Girl in Red's Treasure
 |exp           = 400
 |mora          = 18,000
@@ -30,6 +32,7 @@
 #* You will meet [[Klee]] after leaving the office.
 
 ==Dialogue==
+{{Quest Description|Customers at the [[Angel's Share]] have started debating the hottest topic on Mondstadt's streets: "Who is the strongest fighter in Mondstadt?" The curious promoter of the tavern, [[Patton]], is eager to weigh in on the discussion.}}
 {{Dialogue start}}
 ;(Talk to Patton about recent conversation topics)
 :{{A|vo kllq001 3 patton 01.ogg}} '''Patton:''' *sigh* Shame I only get to listen in from the other side of the window and don't get to join in the debate. I'd love to give my two cents...
@@ -93,8 +96,8 @@
 :{{A|vo kllq001 7 paimon 04.ogg}} '''Paimon:''' Speaking of the Abyss Order, their minions are really stirring up trouble all over the place, aren't they?
 
 ;(Talk to Six-Fingered José)
-:{{A|vo kllq001 8 sixfingeredjose 01.ogg}} '''Six-Fingered José:''' Hey, (amigo/amiga)!
-:{{A|vo kllq001 8 sixfingeredjose 02.ogg}} '''Six-Fingered José:''' Do you want to hear my latest composition? I put my whole heart into it, and also my soul. How about it, (amigo/amiga)?
+:{{A|vo kllq001 8 sixfingeredjose 01.ogg}} '''Six-Fingered José:''' Hey, {{MC|amigo|amiga|mc=1}}!
+:{{A|vo kllq001 8 sixfingeredjose 02.ogg}} '''Six-Fingered José:''' Do you want to hear my latest composition? I put my whole heart into it, and also my soul. How about it, {{MC|amigo|amiga|mc=1}}?
 :{{DIcon}} Who's the strongest fighter in Mondstadt?
 :{{A|vo kllq001 8 sixfingeredjose 03.ogg}} '''Six-Fingered José:''' Eh? The most macho in Mondstadt?
 :{{A|vo kllq001 8 sixfingeredjose 04.ogg}} '''Six-Fingered José:''' ...She's a little girlie who wears red.
@@ -116,7 +119,7 @@
 :{{DIcon}} I don't buy it.
 ::{{A|vo kllq001 8 sixfingeredjose 14a.ogg}} '''Six-Fingered José:''' How can you say such a thing...
 :{{DIcon}} I'll take you at your word, for now.
-::{{A|vo kllq001 8 sixfingeredjose 14b.ogg}} '''Six-Fingered José:''' Thank you, (amigo/amiga)! Ah, I am so happy to meet a true (amigo/amiga). Who would have thought&mdash;
+::{{A|vo kllq001 8 sixfingeredjose 14b.ogg}} '''Six-Fingered José:''' Thank you, {{MC|amigo|amiga|mc=1}}! Ah, I am so happy to meet a true {{MC|amigo|amiga|mc=1}}. Who would have thought&mdash;
 :{{A|vo kllq001 8 paimon 06.ogg}} '''Paimon:''' So, this girl. What's her name?
 :{{A|vo kllq001 8 sixfingeredjose 15.ogg}} '''Six-Fingered José:''' Ah... I do not know her name. I do not see her often in Mondstadt.
 :{{A|vo kllq001 8 sixfingeredjose 16.ogg}} '''Six-Fingered José:''' Hey, I am telling the truth! You gotta believe me!
@@ -154,7 +157,7 @@
 :{{A|vo kllq001 12 qin 05.ogg}} '''Jean:''' Recently, one of the Abyss Order's Mages has been active near the city, although he is keeping a low profile.
 :{{A|vo kllq001 12 qin 06.ogg}} '''Jean:''' If you are staying around Mondstadt, please be on the lookout for danger.
 :{{A|vo kllq001 12 qin 07.ogg}} '''Jean:''' Given your... well, high-ranking fighting strength, I trust you will be able to help keep the area safe.
-:{{A|vo kllq001 12 paimon 05a.ogg}} {{A|vo kllq001 12 paimon 05b.ogg}} '''Paimon:''' Awesome! After (Traveler) defeats the Abyss Order, (he'll/she'll) climb up that ranking table faster than (he/she) climbs up all those cliffs!
+:{{A|vo kllq001 12 paimon 05a.ogg}} {{A|vo kllq001 12 paimon 05b.ogg}} '''Paimon:''' Awesome! After (Traveler) defeats the Abyss Order, {{MC|he'll|she'll|mc=1}} climb up that ranking table faster than {{MC|he|she|mc=1}} climbs up all those cliffs!
 :{{DIcon}} Paimon. There is no ranking table.
 :{{DIcon}} D'you think I'll get to first place?
 :{{A|vo kllq001 12 paimon 06.ogg}} '''Paimon:''' Well, either way, smashing the Abyss Order to bits is the right thing to do.
@@ -207,8 +210,11 @@
 :{{A|vo kllq001 15 klee 14.ogg}} '''Klee:''' Here! Here's where the map says the treasure should be. I put a circle round it.
 :{{A|vo kllq001 15 klee 15.ogg}} '''Klee:''' I also put a wooden sign in the ground at the place where I buried it. To make it easier to find!
 :{{A|vo kllq001 15 paimon 10.ogg}} '''Paimon:''' (...Paimon is starting to understand how this treasure went missing so easily.)
-:{{A|vo kllq001 15 klee 16a.ogg}} '''Klee:''' Come on (Mr./Miss) Honorary Knight, let's go!
-{{dialogue end}}
+:{{A|vo kllq001 15 klee 16a.ogg}} '''Klee:''' Come on {{MC|Mr.|Miss|mc=1}} Honorary Knight, let's go!
+{{Dialogue end}}
+
+==Trivia==
+* After [[Paimon]] says "Must be someone who can floor a whole gang of hilichurls with just one punch!", the player can answer "Pff! I do that for fun". This is a reference to ''{{w|One-Punch Man}}'', where the main character, Saitama, has enough strength to defeat every opponent in just one punch, but he explicitly states that he's a hero "for fun".
 
 ==Other Languages==
 {{Other Languages
@@ -222,8 +228,8 @@
 |ja_rm   = "Mondo no Saikyou Senryoku" no Arasoi
 |ja_tl   = "Mondstadt's Greatest Fighting Power" Dispute
 |ko      = 「몬드 최강자」 논쟁
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = "Mondeu Choegangja" Nonjaeng
+|ko_tl   = "Mondstadt's Strongest" Dispute
 |es      = El más fuerte de Mondstadt
 |es_tl   = The Strongest of Mondstadt
 |fr      = Qui est le meilleur combattant de Mondstadt ?
@@ -241,9 +247,14 @@
 |id_tl   = Competition of the Strongest Fighter in Mondstadt
 |pt      = Quem é o Lutador mais forte de Mondstadt?
 |pt_tl   = Who Is the Strongest Fighter in Mondstadt?
+|tr      = Mondstadt'ın En Güçlü Savaşçısı Kim?
+|tr_tl   = 
+|it      = Chi è il combattente più forte di Mondstadt?
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|1.0}}
 
+[[de:Wer ist der Stärkste von Mondstadt?]]
 [[es:El más fuerte de Mondstadt]]

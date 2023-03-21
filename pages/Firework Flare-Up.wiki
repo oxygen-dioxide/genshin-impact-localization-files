@@ -1,12 +1,8 @@
-{{Stub|lvl 2–5, 7–11 need attribute scaling value sourced from the game}}
 {{Talent Infobox
 |image         = Talent Firework Flare-Up.png
 |character     = Yoimiya
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Performs up to 5 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''[[Aimed Shot]]''' with increased DMG.<br />While aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:<br />
-* Charge Level 1: Fires off a flaming arrow that deals {{Color|Pyro DMG}}.
-* Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing {{Color|Pyro DMG}} on hit.
-'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 5 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''[[Aimed Shot]]''' with increased DMG.<br />While aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:<ul><li>Charge Level 1: Fires off a flaming arrow that deals {{Color|Pyro DMG}}.</li><li>Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing {{Color|Pyro DMG}} on hit.</li></ul><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
 |hit1          = 35.6%×2 – 67.23%×2
 |hit2          = 68.4% – 128.98%
 |hit3          = 88.9% – 167.68%
@@ -27,11 +23,106 @@
 ==Gameplay Notes==
 * {{TalentNote|conversion|talent=Niwabi Fire-Dance|character=Yoimiya|Pyro|10}}
 * The Kindling Arrows home in much as [[Diona]]'s [[Icy Paws]] do. They can home in on [[wildlife]] like birds and boars as well as other targets such as torches, [[Berries]], and hay bales.
-* Unlike [[Amber]]'s fully charged [[Aimed Shot]]s, Yoimiya's fully charged Aimed Shots (and Kindling Arrows) do not burn grass unless at least two of them land in the same place in a short period of time. This is due to Yoimiya's charged shots only applying 1 [[Gauge Unit Theory|gauge]] of {{Pyro}} while Amber's applies 2.
+* Unlike [[Amber]]'s fully charged [[Aimed Shot]]s, Yoimiya's fully charged Aimed Shots (and Kindling Arrows) do not burn grass unless at least two of them land in the same place in a short period of time. This is due to Yoimiya's charged shots only applying 1 [[Elemental Gauge Theory|gauge]] of {{Pyro}} while Amber's applies 2.
 * {{TalentNote|icd|Kindling Arrow DMG}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|6|Naganohara Meteor Swarm}}
+
+==Advanced Properties==
+{{For|Normal Attack properties under the effects of [[Niwabi Fire-Dance]]|Niwabi Fire-Dance#Advanced Properties}}
+{{Advanced Properties
+|title   = Normal Attack 1-Hit A
+|gu      = —
+|icdtag  = none
+|poise   = 8.1515
+|impulse = 1
+
+|title2   = Normal Attack 1-Hit B
+|gu2      = —
+|icdtag2  = none
+|poise2   = 8.1515
+|impulse2 = 1
+
+|title3   = Normal Attack 2-Hit
+|gu3      = —
+|icdtag3  = none
+|poise3   = 15.651
+|impulse3 = 1
+
+|title4   = Normal Attack 3-Hit
+|gu4      = —
+|icdtag4  = none
+|poise4   = 19.98
+|impulse4 = 1
+
+|title5   = Normal Attack 4-Hit A
+|gu5      = —
+|icdtag5  = none
+|poise5   = 10.656
+|impulse5 = 1
+
+|title6   = Normal Attack 4-Hit B
+|gu6      = —
+|icdtag6  = none
+|poise6   = 10.656
+|impulse6 = 1
+
+|title7   = Normal Attack 5-Hit
+|gu7      = —
+|icdtag7  = none
+|poise7   = 23.8428
+|impulse7 = 1
+
+|title8   = Aimed Shot
+|gu8      = —
+|icdtag8  = none
+|poise8   = 10
+|impulse8 = 2
+
+|title9   = Aimed Shot (Hit Weak Spot)
+|gu9      = —
+|icdtag9  = none
+|poise9   = 30
+|impulse9 = 5
+
+|title10   = Fully-Charged Aimed Shot
+|gu10      = 1U<br /><small>(w/ [[Dropoff]])</small>
+|icdtag10  = none
+|poise10   = 20
+|impulse10 = 2
+
+|title11   = Fully-Charged Aimed Shot (Hit Weak Spot)
+|gu11      = 1U<br /><small>(w/ Dropoff)</small>
+|icdtag11  = none
+|poise11   = 60
+|impulse11 = 5
+
+|title12   = Kindling Arrow
+|gu12      = 1U
+|icdtag12  = Charged Attack
+|icdtype12 = 2.5s/3 Hits
+|poise12   = 20
+|impulse12 = 2
+
+|title13   = Plunging Attack Collision
+|gu13      = —
+|icdtag13  = none
+|poise13   = 10
+|impulse13 = 2
+
+|title14   = Low Plunge
+|gu14      = —
+|icdtag14  = none
+|poise14   = 50
+|impulse14 = 2
+
+|title15   = High Plunge
+|gu15      = —
+|icdtag15  = none
+|poise15   = 100
+|impulse15 = 3
+}}
 
 ==Preview==
 {{Preview
@@ -45,7 +136,7 @@
 |caption3=Charged Attack, Level 2
 
 |file4=Firework Flare-Up Plunge Preview
-|caption4=Plunge Attack
+|caption4=Plunging Attack
 }}
 
 ==Attribute Scaling==
@@ -211,6 +302,10 @@
 |id      = Firework Flare-Up
 |pt      = Pirotecnia
 |pt_tl   = Pyrotechnics
+|tr      = Havai Fişek Patlaması
+|tr_tl   = 
+|it      = Vampata pirotecnica
+|it_tl   = Pyrotechnic Flare
 }}
 
 ==Change History==
@@ -223,5 +318,9 @@
 {{Talent Navbox|Yoimiya}}
 
 [[es:Pirotecnia]]
+[[fr:Flambée pyrotechnique]]
+[[ja:打ち上げ花火]]
 [[pt-br:Pirotecnia]]
+[[ru:Вспышка фейерверка]]
 [[th:Firework Flare-Up]]
+[[vi:Khói Lửa Chiến Đấu]]

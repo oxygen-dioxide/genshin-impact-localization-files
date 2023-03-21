@@ -9,6 +9,7 @@
 |recLevel     = 34/47/59/&#8203;69/80/90
 |recElements  = Pyro
 }}
+{{Description|This ancient blessed altar is filled with Pyro-fearing monsters.<br />You shall earn priceless Artifacts, if &mdash; and only if &mdash; you can pass the trial.}}
 '''Midsummer Courtyard''' is a [[Domain]] located near [[Starsnatch Cliff]] in [[Mondstadt]]. Clearing this domain gives [[Artifacts]]. Challenge domains with higher levels to get better rewards.
 
 ==Ley Line Disorder==
@@ -48,7 +49,7 @@ The following Ley Line Disorders are applied in this domain:
 
 ===Damage===
 {{See also|Level Scaling/Reaction#Level Multiplier}}
-The {{Color|Physical DMG}} dealt by Energy Blasts and powerful blasts is calculated as <math>4 \times \text{Element Level Multiplier}</math>. This DMG is affected by the target [[Physical RES]], but unaffected by [[DEF]]. The final result is rounded down.
+The {{Color|Physical DMG}} dealt by Energy Blasts and powerful blasts is calculated as <math>4 \times \text{Level Multiplier}</math>. This DMG is affected by the target [[Physical RES]], but unaffected by [[DEF]]. The final result is rounded down.
 
 {| class="wikitable" style="text-align: center;"
 ! Level !! Base Damage
@@ -105,55 +106,48 @@ Each level in this domain has the following Challenge Features:
 
 ==Enemies==
 {{Domain Enemies
-|header=Midsummer Courtyard I
-|objective=Defeat 26 opponents within 300 seconds
-|enemies=Cryo Slime*5,Large Cryo Slime*1,Hydro Slime*2,Large Hydro Slime*2,Wooden Shield Hilichurl Guard*15,Cryo Abyss Mage
+|target1=Defeat 26 opponents within 300 seconds
+|enemies1=Cryo Slime*5;Large Cryo Slime*1;Hydro Slime*2;Large Hydro Slime*2;Wooden Shield Hilichurl Guard*15;Cryo Abyss Mage
+
+|target2=Defeat 12 opponents within 300 seconds
+|enemies2=Electro Slime*7;Large Electro Slime*2;Mutant Electro Slime*2;Fatui Electro Cicin Mage
+|note2=<br />
+*One of the [[Large Electro Slime]]s periodically applies '''[[Engulfing Storm]]''' around itself.
+*The [[Fatui Electro Cicin Mage]] has a '''[[Lightning Bolt Matrix]]''' aura.
+
+|target3=Defeat 14 opponents within 360 seconds
+|enemies3=Cryo Slime*9;Large Cryo Slime*4;Cryo Abyss Mage
+|note3=<br />
+*The [[Cryo Abyss Mage]] periodically applies '''[[Condensed Ice]]''' around itself.
+
+|target4=Defeat 15 opponents within 360 seconds
+|enemies4=Hydro Slime*8;Large Hydro Slime*5;Hydro Abyss Mage;Hydro Samachurl
+|note4=<br />
+*One of the [[Large Hydro Slime]]s periodically applies '''[[Condensed Ice]]''' around itself.
+*The [[Hydro Abyss Mage]] has a '''[[Mist Bubble]]''' aura.
+
+|target5=Defeat 5 opponents within 360 seconds
+|enemies5=Large Cryo Slime*3;Cryo Abyss Mage*2
+|note5=<br />
+*There is a {{Cryo}} Elemental Node in the center that will periodically imbue enemies with Cryo, applying a massive [[RES]] and [[DEF]] buff until the Cryo status is removed.
+*The middle [[Large Cryo Slime]] and the first [[Cryo Abyss Mage]] have '''[[Lightning Bolt Matrix]]''' auras.
+
+|target6=Defeat 7 opponents within 360 seconds
+|enemies6=Large Electro Slime*3;Mutant Electro Slime*2//Fatui Electro Cicin Mage*2
+|note6=<br />
+*There is an {{Electro}} Elemental Node in the center that will periodically imbue enemies with Electro, applying a massive RES buff and reducing enemy [[cooldown]]s until the Electro status is removed.
+*The middle '''Large Electro Slime''' periodically applies '''[[Engulfing Storm]]''' around itself.continuously draining the player's Energy until the inflicted Electro element is removed.
+*The right '''Fatui Electro Cicin Mage''' has a '''[[Lightning Bolt Matrix]]''' aura.
 }}
-{{Domain Enemies
-|header=Midsummer Courtyard II
-|objective=Defeat 12 opponents within 300 seconds
-|enemies=Electro Slime*7,Large Electro Slime*2,Mutant Electro Slime*2,Fatui Electro Cicin Mage
-}}
-*One of the [[Large Electro Slime]]s is empowered with an {{Electro}} Aura which periodically inflicts characters with [[Engulfing Storm]], continuously draining the player's Energy until the inflicted Electro element is removed.
-*The [[Fatui Electro Cicin Mage]] is empowered with an {{Electro}} Aura which spawns a '''Lightning Bolt Matrix''' around the player consisting of 3 Electro orbs every ~12 secs for 5 secs. These orbs are connected by Electro energy on 2 sides with one side remaining open to form a "V" shaped fence that will deal {{Color|Electro DMG}} and stagger players that touch it.
-{{Domain Enemies
-|header=Midsummer Courtyard III
-|objective=Defeat 14 opponents within 360 seconds
-|enemies=Cryo Slime*9,Large Cryo Slime*4,Cryo Abyss Mage
-}}
-*The [[Cryo Abyss Mage]] is empowered with a {{Cryo}} Aura which periodically inflicts characters with [[Condensed Ice]], greatly increasing the player's Stamina Consumption until the inflicted Cryo element is removed.
-{{Domain Enemies
-|header=Midsummer Courtyard IV
-|objective=Defeat 15 opponents within 360 seconds
-|enemies=Hydro Slime*8,Large Hydro Slime*5,Hydro Abyss Mage,Hydro Samachurl
-}}
-*One of the [[Large Hydro Slime]]s is empowered with a {{Hydro}} Aura which periodically inflicts characters with [[Slowing Water]], greatly increasing the player's skill and burst CD duration until the inflicted Hydro element is removed.
-*The [[Hydro Abyss Mage]] is empowered with a {{Hydro}} Aura which spawns 4 '''Mist Bubbles''' around the player in a square formation every ~12 seconds. If the player leaves the area within the initial 4 bubbles another set of 4 bubbles will spawn in a larger square formation.
-{{Domain Enemies
-|header=Midsummer Courtyard V
-|objective=Defeat 5 opponents within 360 seconds
-|enemies=Large Cryo Slime*3,Cryo Abyss Mage*2
-}}
-*There is a {{Cryo}} Elemental Node in the center that will periodically imbue enemies with Cryo, applying a massive resistance and defense buff until the Cryo status is removed.
-*The middle [[Large Cryo Slime]] and the first [[Cryo Abyss Mage]] are empowered with a {{Cryo}} Aura which spawns an '''Ice Cage''' every ~12 seconds, trapping the player and dealing {{Color|Cryo DMG}}.
-{{Domain Enemies
-|header=Midsummer Courtyard VI
-|objective=Defeat 7 opponents within 360 seconds
-|subsubheader1=Wave 1
-|enemies1=Large Electro Slime*3,Mutant Electro Slime*2
-|subsubheader2=Wave 2
-|enemies2=Fatui Electro Cicin Mage*2
-}}
-*There is an {{Electro}} Elemental Node in the center that will periodically imbue enemies with Electro, applying a massive resistance buff and reducing enemy cooldowns until the Electro status is removed.
-*The middle '''Large Electro Slime''' is empowered with an {{Electro}} Aura which periodically inflicts characters with [[Engulfing Storm]], continuously draining the player's Energy until the inflicted Electro element is removed.
-*The right '''Fatui Electro Cicin Mage''' is empowered with an {{Electro}} Aura which spawns a '''Lightning Bolt Matrix''' around the player consisting of 3 Electro orbs every ~12 secs for 5 secs. These orbs are connected by Electro energy on 2 sides with one side remaining open to form a "V" shaped fence that will deal {{Color|Electro DMG}} and stagger players that touch it.
 
 ==Quest Domains==
 {{Quest Domains}}
 
 ==Trivia==
-* The level names in this domain are all 'Fires of Purification' which likely refers to how the Ley Line Disorder gives benefits if you use certain Pyro reactions.
-* "Sommernachtgarten" in the description is German for "Summer Night Garden."
+* The domains are all named "Fires of Purification," which likely refers to how Pyro is their recommended element.
+
+===Etymology===
+* "Sommernachtgarten," mentioned in the domain entrance's description, is German for "Summer Night Garden."
 ** This garden is referred in the name of a soundtrack, [[Sieh an, mein Sommernachtgarten!]].
 
 ==Other Languages==
@@ -177,7 +171,7 @@ Each level in this domain has the following Challenge Features:
 |ru      = Июльские сады
 |ru_tl   = July Gardens
 |th      = สวนฤดูร้อน
-|th_rm   = Suan Ruedu Ron
+|th_rm   = Suan Rue-du-ron
 |th_tl   = Summer Garden
 |vi      = Vườn Mùa Hè
 |vi_tl   = Summer Garden
@@ -186,6 +180,10 @@ Each level in this domain has the following Challenge Features:
 |id      = Midsummer Courtyard
 |pt      = Jardim do Verão
 |pt_tl   = Garden of the Summer
+|tr      = Yaz Ortası Bahçesi
+|tr_tl   = 
+|it      = Cortile di Mezzestate
+|it_tl   = 
 }}
 
 ==Change History==
@@ -195,3 +193,4 @@ Each level in this domain has the following Challenge Features:
 {{Domain Navbox|Permanent}}
 
 [[es:Jardín estival]]
+[[ja:仲夏の庭園]]

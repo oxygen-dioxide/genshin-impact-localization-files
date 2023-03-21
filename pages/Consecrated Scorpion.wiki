@@ -1,0 +1,158 @@
+{{Enemy Infobox
+|image    = Enemy Consecrated Scorpion.png
+|dmgtype  = Electro
+|weakpoint = yes
+|family   = Mystical Beasts
+|group    = Consecrated Beasts
+|type     = Elite Enemies
+}}
+{{Enemy Intro}}
+
+==Drops==
+===Items===
+{{Drops Table|type=Consecrated Beast}}
+
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 66
+|p1    = 2
+|hp2   = 33
+|p2    = 2
+|hp3   = 0
+|p3    = 2
+}}
+
+==Stats==
+{{Enemy Stats
+|res2         = Phagocytic Form
+|resglobal2   = 40%
+|electro_res2 = 70%
+
+|hp_ratio     = 7
+|hp_type      = 2
+|atk_ratio    = 6
+|atk_type     = 2
+}}
+
+==Weak Point Location==
+<gallery>
+Consecrated Scorpion Weak Point.png
+</gallery>
+
+==Abilities and Attacks==
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1      = Phagocytic Form
+|desc_1      = Enters Phagocytic Form immediately when in combat, increasing its Electro RES by '''60%''' and all other RES by '''30%'''.
+
+|name_2      = Melee Combo 1
+|desc_2      = Performs a 2-part combo with its claws, dealing '''30% ATK × 2''', '''50% ATK''' as {{Color|Electro DMG}}.
+
+|name_3      = Melee Combo 2
+|desc_3      = Performs a 3-part combo consisting of a single strike with both claws, a flurry of claw strikes while rushing forward, and a projectile fired from its stinger, dealing '''60% ATK''', '''30% ATK × 4''', '''80% ATK''' as {{Color|Electro DMG}}.
+
+|name_4      = Dig
+|desc_4      = Digs into the ground and attacks the player from below, dealing '''100% ATK''' as {{Color|AoE Electro DMG}}.
+
+|name_5      = Spikes
+|desc_5      = Plugs its tail into the ground and rapidly produces spikes around itself, each dealing '''80% ATK''' as {{Color|AoE Electro DMG}}.
+
+|name_6      = Phagocytic Rain
+|desc_6      = Rapidly spins and scatters many stingers into the air, before slamming its claws and unleashing the stingers which rain down from above, dealing '''30% ATK''' while spinning, '''70% ATK''' with the slam, and '''100% ATK''' with each stinger as {{Color|Electro DMG}}.
+* During this attack, the Consecrated Scorpion will temporarily exit '''Phagocytic Form''' and spawn a Phagocytic Energy Block that lasts for '''6''' seconds.
+** The Phagocytic Energy Block can be destroyed using a single {{Electro}} attack or 6 non-Electro elemental attacks.
+** If destroyed, the active character will obtain a status that lasts for 10 seconds:
+*** While the status is active, all party members will lose '''2%''' of their Max [[HP]] every second.
+*** The next time a [[Normal Attack|Normal]]/[[Charged Attack|Charged]]/[[Plunging Attack|Plunging]] Attack, [[Elemental Skill]] or [[Elemental Burst]] hits the Consecrated Scorpion, the status is consumed and it will lose '''15%''' of its Max HP and become paralyzed.
+*** If the status expires after 10 seconds, the Consecrated Scorpion will re-enter '''Phagocytic Form'''.
+** If not destroyed in time, the Consecrated Scorpion will reabsorb the Phagocytic Energy Block and re-enter '''Phagocytic Form'''.
+|file_6_2    = Consecrated Scorpion Phagocytic Rain 2
+|caption_6_2 = Paralyzed
+
+|name_7      = Freeze Resistance
+|desc_7      = The Consecrated Scorpion possesses '''50%''' [[Freeze Resistance]] at all times, decreasing the effectiveness of the [[Frozen]] Elemental Reaction.
+}}
+
+===AI Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if all of the following conditions have been met:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+{| class="wikitable"
+! rowspan="2" | Ability !! rowspan="2" | Priority !! rowspan="2" | Range Req. (m) !! rowspan="2" | Angle Req. (°) !! rowspan="2" style="width:80px" | CD (s) !! rowspan="2" | Initial CD (s) !! colspan="2" | Global CD !! rowspan="2" | Action Interval (s) !! rowspan="2" | State Req.
+|-
+! Group !! CD (s)
+|-
+| Melee Combo 1 || 5 || 0–6 || 0–90 || 2–3 || 0 || colspan="2" | — || rowspan="8" | 0 || Phagocytic Form
+|-
+| Melee Combo 2 || 5 || 0–8 || 0–90 || 3–4 || 0 || colspan="2" | — || Phagocytic Form
+|-
+| Dig || 5 || 6–35 || 0–90 || 4–6 || 3.5 || colspan="2" | — || Phagocytic Form
+|-
+| Spikes || 5 || 0–8 || — || 8–10 || 4.5 || colspan="2" | — || Phagocytic Form
+|-
+| Phagocytic Rain || 2 || 0–20 || — || 30 || 25 || Consecrated Beast Phagocytic Attack || 15 || Phagocytic Form
+|-
+| Melee Combo 1 || 5 || 0–6 || 0–90 || 3–4 || 4 || colspan="2" | — || Non-Phagocytic Form
+|}
+
+==Descriptions==
+{{Description|An arthropod that has mutated after feeding from greater lifeforms.<br />Lifeforms are governed by the laws of evolution, Consecrated Beasts exploited these rules by being fortunate enough to discover a long-dead carcass of a greater being before any of their competition ever did. Animals and humans often have far more in common than the latter is willing to acknowledge.|[[Archive]]}}
+
+==Gallery==
+<gallery>
+Consecrated Scorpion Icon.png|Icon
+</gallery>
+
+===Animations===
+{{Preview
+|file1    = Consecrated Scorpion Dancing
+|caption1 = Dancing
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Consecrated Scorpion
+|zhs     = 圣骸毒蝎
+|zhs_rm  = Shènghái Dúxiē
+|zht     = 聖骸毒蠍
+|zht_rm  = Shènghái Dúxiē
+|zh_tl   = {{Lex|Consecrated|zh}} Venomous Scorpion
+|ja      = 聖骸サソリ
+|ja_rm   = Seigai Sasori
+|ja_tl   = {{Lex|Consecrated|ja}} Scorpion
+|ko      = 성해 독전갈
+|ko_tl   = {{Lex|Consecrated|ko}} Venomous Scorpion
+|es      = Escorpión Sacróseo
+|es_tl   = Sacred Scorpion
+|fr      = Scorpion sacralisé
+|fr_tl   = Consecrated Scorpion
+|ru      = Священный скорпион
+|ru_tl   = Sacred Scorpion
+|th      = Consecrated Scorpion
+|vi      = Bò Cạp Độc Thánh Hóa
+|vi_tl   = 
+|de      = Skorpion der heiligen Knochen
+|de_tl   = Scorpion of Holy Bones
+|id      = Consecrated Scorpion
+|pt      = Escorpião da Ossada Sagrada
+|pt_tl   = 
+|tr      = Kutsanmış Akrep
+|tr_tl   = 
+|it      = Scorpione delle ossa sacre
+|it_tl   = Scorpion of the Sacred Bones
+}}
+
+==Change History==
+{{Change History|3.4}}
+
+==Navigation==
+{{Enemy Navbox|Elite}}
+
+[[es:Escorpión Sacróseo]]
+[[pt-br:Escorpião da Ossada Sagrada]]

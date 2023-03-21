@@ -2,11 +2,7 @@
 |image         = Talent Mirror Reflection of Doom.png
 |character     = Mona
 |type          = Elemental Skill
-|info          = Creates an illusory Phantom of Fate from coalesced waterspouts.<br /><br />The '''Phantom''' has the following special properties:
-*Continuously taunts nearby opponents, attracting their fire.
-*Continuously deals {{Color|Hydro DMG}} to nearby opponents.
-*When its duration expires, the Phantom explodes, dealing {{Color|Hydro|AoE Hydro DMG}}.
-'''Hold'''<br />Utilizes water currents to move backwards swiftly before conjuring a Phantom.<br /><br />Only one Phantom created by Mirror Reflection of Doom can exist at any time.
+|info          = Creates an illusory Phantom of Fate from coalesced waterspouts.<br /><br />'''Phantom'''<br />Has the following special properties:<ul><li>Continuously taunts nearby opponents, attracting their fire.</li><li>Continuously deals {{Color|Hydro DMG}} to nearby opponents.</li><li>When its duration expires, the Phantom explodes, dealing {{Color|[[AoE]] Hydro DMG}}.</li></ul><br />'''Hold'''<br />Utilizes water currents to move backwards swiftly before conjuring a Phantom.<br /><br />Only one Phantom created by Mirror Reflection of Doom can exist at any time.
 |utility1      = Taunting
 |utility2      = AoE
 |utility3      = Effects Retained Character Fallen
@@ -23,15 +19,31 @@
 '''Mirror Reflection of Doom''' is [[Mona]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
+* The Phantom lasts for 5 seconds. It deals {{Color|Hydro DMG}} every second (DoT) for a total of 4 times, followed by a final {{Color|AoE Hydro DMG}} Explosion.
 * {{TalentNote|particles|the Phantom Explosion|3.33}}
-* The skill deals {{Color|Hydro DMG}} every second, for a total of 4 times.
-* {{TalentNote|icd|Skill DMG}}
-* {{TalentNote|icd|Explosion DMG|0}}
 * The hold version of this skill grants Mona a brief period of [[Invincibility Frames]].
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Mona|talent=Mirror Reflection of Doom|ascension|2|"Come 'n' Get Me, Hag!"}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|5|Mockery of Fortuna}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = DoT
+|gu      = 1U
+|icdtag  = Elemental Skill
+|icdtype = 2.5s/3 Hits
+|poise   = 40
+|impulse = 2
+
+|title2   = Explosion DMG
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 150
+|impulse2 = 3
+}}
 
 ==Preview==
 {{Preview
@@ -113,7 +125,7 @@
 |fr      = Mirage aqueux
 |fr_tl   = Aqueous Mirage
 |ru      = Отражение фатума
-|ru_tl   = 
+|ru_tl   = Reflection of Fate
 |th      = Mirror Reflection of Doom
 |vi      = Ảo Vọng Dưới Nước
 |vi_tl   = Underwater Illusion
@@ -122,6 +134,10 @@
 |id      = Mirror Reflection of Doom
 |pt      = Águas da Ilusão
 |pt_tl   = Waters of Illusion
+|tr      = Kıyamet Yansıması
+|tr_tl   = 
+|it      = Condanna riflessa
+|it_tl   = Reflected Doom
 }}
 
 ==Change History==
@@ -134,7 +150,9 @@
 {{Talent Navbox|Mona}}
 
 [[es:Espejismo del agua]]
+[[fr:Mirage aqueux]]
 [[ja:水中幻願]]
-[[pt-br:Águas da Ilusão]]
+[[pt-br:Água Ilusória]]
 [[ru:Отражение фатума]]
 [[th:Mirror Reflection of Doom]]
+[[vi:Ảo Vọng Dưới Nước]]

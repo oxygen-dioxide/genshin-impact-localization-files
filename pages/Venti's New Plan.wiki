@@ -6,8 +6,10 @@
 |actNum        = II
 |act           = For a Tomorrow Without Tears
 |part          = 6
-|description   = [[Venti]]'s plan to sweet talk his way into getting the Holy Lyre back backfires. He's come up with a new plan, but seems he'll need your help for it to work.
 |startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |prev          = Venti's Plan
 |next          = Wild Escape
 |exp           = 250
@@ -25,10 +27,12 @@
 # Infiltrate the basement and obtain the [[Holy Lyre der Himmel]]
 #* This will involve a [[Stealth]] mission where the objective is to avoid being spotted by the NPCs.
 #* To get through undetected, stay to the left side at all times. You can hide yourself between bookshelves and the center wall. To pass the first guard, you can stand at the pillar on the right until the guard passes then run for the wooden ladder.
+#* The following Chests can be found in the basement: 2 [[Common Chest]]s, 2 [[Exquisite Chest]]s, 2 [[Precious Chest]]s.
 
 ==Dialogue==
-{{dialogue start}}
-;(Talking to Venti)
+{{Dialogue start}}
+{{Quest Description|Venti's plan to sweet talk his way into getting the Holy Lyre back backfires. He's come up with a new plan, but seems he'll need your help for it to work.}}
+;(Talk to Venti)
 :{{A|vo mdaq046 1 venti 01.ogg}} '''Venti:''' It didn't work... I knew it.
 :{{A|vo mdaq046 1 paimon 01.ogg}} '''Paimon:''' You "knew it"?
 :{{A|vo mdaq046 1 venti 02.ogg}} '''Venti:''' I just wanted to know how influential (Traveler) &mdash; the hotshot of the Knights of the Favonius &mdash; is.
@@ -52,7 +56,7 @@
 :{{A|vo mdaq046 1 venti 16.ogg}} '''Venti:''' If we manage to seize this opportunity, it should be smooth sailing from here.
 :{{A|vo mdaq046 1 paimon 04.ogg}} '''Paimon:''' Stop mentioning us getting caught!
 :{{A|vo mdaq046 1 venti 17.ogg}} '''Venti:''' (Traveler)... What do you say?
-:{{DIcon}} I'm sorry– Wait... Did you just say... you're Barbatos?
+:{{DIcon}} I'm sorry&mdash; Wait... Did you just say... you're Barbatos?
 :{{A|vo mdaq046 1 venti 18.ogg}} '''Venti:''' Ah, yes. Seems I did mention that...
 :{{A|vo mdaq046 1 venti 19.ogg}} '''Venti:''' Your point being?
 :{{DIcon}} If you really are a god, then we can't simply abandon you.
@@ -64,45 +68,45 @@
 :{{DIcon}} I don't want to see another separation.
 
 ;(Talk to Venti again)
-:{{A|vo dialog mdaq046 venti 01.ogg}} '''Venti''': Don't be shy. Go.
+:{{A|vo dialog mdaq046 venti 01.ogg}} '''Venti:''' Don't be shy. Go.
 
 ;(Attempt to enter the basement of Cathedral during daytime)
-:{{A|vo dialog mdaq047 otto 01.ogg}} '''[[Otto]]''': Man, this stinks. Having to stand around here all {{Color|buzzword|day}} long, having to guard this entrance. Hey! Don't move! You can't go down there!
-:{{A|vo dialog mdaq047 paimon 01.ogg}} '''Paimon''': Seems we're gonna have to wait until {{Color|buzzword|nightfall}} to sneak in...
+:{{A|vo dialog mdaq047 otto 01.ogg}} '''[[Otto]]:''' Man, this stinks. Having to stand around here all {{Color|buzzword|day}} long, having to guard this entrance. Hey! Don't move! You can't go down there!
+:{{A|vo dialog mdaq047 paimon 01.ogg}} '''Paimon:''' Seems we're gonna have to wait until {{Color|buzzword|nightfall}} to sneak in...
 
 ----
 
-;(In the basement, upon reaching the Holy Lyre, a Fatui Electro Cicin Mage steals it right before your eyes)
+;(Upon reaching the Holy Lyre, a [[Fatui Electro Cicin Mage]] steals it right before the Traveler can take it)
 :{{A|vo mdaq048 3 cs paimon 01.ogg}} '''Paimon:''' Oh?
 :{{A|vo mdaq048 3 cs paimon 02.ogg}} '''Paimon:''' Who're you!?
+:;(The Traveler attempts to capture the Cicin Mage, only for her to vanish)
 :{{A|vo mdaq048 3 cs paimon 03.ogg}} '''Paimon:''' She... disappeared!?
 :{{A|vo mdaq048 3 cs guard1 01.ogg}} '''Knight of Favonius:''' Freeze!
 :{{A|vo mdaq048 3 cs guard1 02.ogg}} '''Knight of Favonius:''' What are you doing here!?
 :{{A|vo mdaq048 3 cs paimon 04.ogg}} '''Paimon:''' Oh no! Run!
-
-;(Outside the Cathedral, while running away)
+:;(Outside the Cathedral, Paimon and the Traveler run over to Venti)
 :{{A|vo mdaq048 4 cs paimon 01.ogg}} '''Paimon:''' Oh nooooo...
-:{{A|vo mdaq048 4 cs paimon 01.ogg}} '''Paimon:''' We're busted! Run!
+:{{A|vo mdaq048 4 cs paimon 02.ogg}} '''Paimon:''' We're busted! Run!
 :{{A|vo mdaq048 4 cs venti 01.ogg}} '''Venti:''' What!? Follow me!
 {{dialogue end}}
 
 ==Tutorial==
-{{Transclude|Tutorials/Venti's New Plan}}
+{{Transclude|Tutorial/Venti's New Plan}}
 
 ==Other Languages==
 {{Other Languages
 |en      = Venti's New Plan
 |zhs     = 温迪的新计划
-|zhs_rm  = Wēndí de xīn jìhuà
+|zhs_rm  = Wēndí de Xīn Jìhuà
 |zht     = 溫迪的新計畫
-|zht_rm  = Wēndí de xīn jìhuà
+|zht_rm  = Wēndí de Xīn Jìhuà
 |zh_tl   = Venti's New Plan
 |ja      = ウェンティの新しい計画
 |ja_rm   = Wenti no Atarashii Keikaku
 |ja_tl   = Venti's New Plan
 |ko      = 벤티의 새로운 계획
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Benti-ui Saeroun Gyehoek
+|ko_tl   = Venti's New Plan
 |es      = El nuevo plan de Venti
 |es_tl   = Venti's New Plan
 |fr      = Le nouveau plan de Venti
@@ -110,7 +114,7 @@
 |ru      = Новый план Венти
 |ru_tl   = Venti's New Plan
 |th      = แผนการ (ใหม่) ของ Venti
-|th_rm   = Phaenkan (mai) khong Venti
+|th_rm   = Phaen-kan (Mai) khong Venti
 |th_tl   = Venti's (New) Plan
 |vi      = Kế Hoạch Mới Của Venti
 |vi_tl   = Venti's New Plan
@@ -120,6 +124,10 @@
 |id_tl   = Venti's New Plan
 |pt      = Novo Plano de Venti
 |pt_tl   = Venti's New Plan
+|tr      = Venti'nin Yeni Planı
+|tr_tl   = 
+|it      = Il nuovo piano di Venti
+|it_tl   = Venti's New Plan
 }}
 
 ==Change History==
@@ -130,4 +138,7 @@
 
 [[Category:Archon Prologue]]
 
+[[es:El nuevo plan de Venti]]
+[[fr:Le nouveau plan de Venti]]
+[[ja:ウェンティの新しい計画]]
 [[pt-br:Novo Plano de Venti]]

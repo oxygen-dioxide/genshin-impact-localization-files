@@ -1,20 +1,39 @@
+{{About|the [[Elite Enemy]]|the [[Genius Invokation TCG]] Character Card|Stonehide Lawachurl (Character Card)}}
 {{Enemy Infobox
 |title    = Stone-Sealed Lawachurl
 |image    = <gallery>
 Enemy Stonehide Lawachurl.png|Archive
 Enemy Stonehide Lawachurl Full Artwork.png|Full Art
 </gallery>
-|element  = Geo
+|dmgtype  = Physical
+|dmgtype2 = Geo
+|weakpoint = yes
 |family   = Hilichurls
 |group    = Lawachurls
 |type     = Elite Enemies
 |ability1 = Shield
 }}
-{{Description|A mysterious "lord" of hilichurls that walks between a thousand peaks.<br />This huge hilichurl is referred to as a "lawa" by its brethren. The abundant Geo energies in the environment have become part of their flesh, blood, and skin, which look as if they were chiseled out of mountain rock.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Lawachurls}}
+===Items===
+{{Drops Table|type=Lawachurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|p1    = 3
+|o1    = 1
+|hp2   = 50
+|p2    = 3
+|o2    = 1
+|hp3   = 25
+|p3    = 3
+|o3    = 1
+|hp4   = 0
+|p4    = 3
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -22,65 +41,55 @@ Enemy Stonehide Lawachurl Full Artwork.png|Full Art
 |geo_res      = 70%
 |hp_type      = 1
 |hp_ratio     = 9
-|atk_ratio    = 6
+|atk_ratio    = 9
 }}
-
-==Description==
-The life of a Hilichurl is brutal and short, a maxim that holds true even for Mitachurls. Only the most powerful and cunning Mitachurls survive long enough to reach their full potential. As the years pass by, Mitachurls skilled enough to survive their harsh conditions attune with the land and grow a carapace of Geo armor. Revered for their wisdom and immense strength, Stonehide Lawachurl are role models for every young Hilichurl.
 
 ==Abilities and Attacks==
-* '''Punches:''' Roars and performs a punch with its left arm. It occasionally combos with both arms and slams the ground, dealing '''75% ATK''' and '''80% ATK''' as {{Color|Physical DMG}}. The ground-slam will cause two trails of explosions, each dealing '''50% ATK''', '''25% ATK''', or '''5% ATK''' as {{Color|AoE Geo DMG}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Geo Lawachurl
 
-* '''Geo Enhanced State:''' The Stonehide Lawachurl can generate a {{Geo}} shield, enabling it to use more powerful attacks. This shield will degrade over 90 seconds and can be further damaged with [[Poise Damage]]. [[Blunt Attack]]s are most effective against the shield.
+|name_1 = Plama Lawa
+|desc_1 = Roars and performs a punch with its left arm. It occasionally combos with both arms and slams the ground, dealing '''50% ATK''' and '''53.3% ATK''' as {{Color|Physical DMG}}. The ground-slam will cause two trails of explosions, dealing '''33.3% ATK''' as {{Color|AoE Geo DMG}} if the Stonehide Lawachurl is in its '''Geo Enhanced State'''.
+|file_1 = Geo Lawachurl Punches
 
-* '''Dash:''' The Stonehide Lawachurl quickly charges at its target after a roar, dealing '''100% ATK''' as {{Color|Physical DMG}}. This attack is only performed when the Stonehide Lawachurl is in the '''Geo Enhanced State'''.
+|name_2 = Infused Stonehide
+|desc_2 = The Stonehide Lawachurl can generate a {{Geo}} shield, enabling it to use more powerful attacks. This shield will degrade over 90 seconds and can be further damaged with [[Poise Damage]]. [[Blunt Attack]]s are most effective against the shield.
+{{Elemental Shield Data|Geo|20}}
+|file_2 = Geo Lawachurl Geo Enhanced State
 
-* '''Shockwave:''' Roars and slams both hands into the ground, causing 3 trails of explosions, each dealing '''50% ATK''', '''25% ATK''', or '''5% ATK''' as {{Color|AoE Geo DMG}}. This attack is only performed when the Stonehide Lawachurl is in the '''Geo Enhanced State'''.
+|name_3 = Movo Lawa
+|desc_3 = The Stonehide Lawachurl quickly charges at its target after a roar, dealing '''66.6% ATK''' as {{Color|Physical DMG}}. The charge is slightly faster if the Stonehide Lawachurl is in its '''Geo Enhanced State'''.
+|file_3 = Geo Lawachurl Dash
 
-* '''Jumping Slam:''' Roars and jumps into the air, slamming down at the player's position, dealing '''150% ATK''' as {{Color|AoE Physical DMG}}. If the Stonehide Lawachurl is in the '''Geo Enhanced State''', the impact causes two trails of explosions, each dealing '''50% ATK''', '''25% ATK''', or '''5% ATK''' as {{Color|AoE Geo DMG}}.
+|name_4 = Shockwave
+|desc_4 = Roars and slams both hands into the ground, causing 3 trails of explosions, dealing '''33.3% ATK''' as {{Color|AoE Geo DMG}}. This attack can be done 1 or 3 times and is only performed when the Stonehide Lawachurl is in the '''Geo Enhanced State'''.
 
-* '''Slime Throw:''' If the player is at a higher elevation or too far away, the Lawachurl will roar and grab a [[Large Geo Slime]] from the ground, throwing it at the player to deal '''125% ATK''' as {{Color|AoE Geo DMG}}. If the Stonehide Lawachurl is <u>not</u> in the '''Geo Enhanced State''', throws 3 [[Geo Slime]]s toward the player, each dealing '''100% ATK''' as {{Color|AoE Geo DMG}}.
+|name_5 = Upa Shato
+|desc_5 = Roars and jumps into the air, slamming down at the player's position, dealing '''100% ATK''' as {{Color|AoE Physical DMG}}. If the Stonehide Lawachurl is in the '''Geo Enhanced State''', the impact causes 4 trails of explosions around the Lawachurl, dealing '''33.3% ATK''' as {{Color|AoE Geo DMG}}.
+|file_5 = Geo Lawachurl Jumping Slam
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Geo Lawachurl Punches
-|caption1 = Punches
-
-|file2    = Geo Lawachurl Geo Enhanced State
-|caption2 = Geo Enhanced State
-
-|file3    = Geo Lawachurl Dash
-|caption3 = Dash
-
-|file4    = Geo Lawachurl Shockwave
-|caption4 = Shockwave
-
-|file5    = Geo Lawachurl Jumping Slam
-|caption5 = Jumping Slam
-
-|file6    = Geo Lawachurl Slime Throw
-|caption6 = Slime Throw
-
-|file7    = Geo Lawachurl Slime Throw 2
-|caption7 = Slime Throw 2
+|name_6 = Slime Throw
+|desc_6 = If the player is at a higher elevation or too far away, the Lawachurl will roar and grab a [[Large Geo Slime]] from the ground, throwing it at the player to deal '''83.3% ATK''' as {{Color|AoE Geo DMG}}. If the Stonehide Lawachurl is not in the '''Geo Enhanced State''', throws 3 [[Geo Slime]]s toward the player, each dealing '''66.6% ATK''' as {{Color|AoE Geo DMG}}.
+|caption_6 = Armored
+|file_6_2 = Geo Lawachurl Slime Throw 2
+|caption_6_2 = Not Armored
 }}
-
-==Strategy==
-The Stonehide Lawachurl does even more damage and has more health than a Mitachurl of the same level. It can charge at the player or jump onto the player to deal heavy impact damage. It generally does not use elemental attacks. When it encounters a target, it will enhance itself by making it much more stronger and resilient. At this stage, the Lawachurl may plunge the ground, causing multiple blasts to erupt from the ground which can be very devastating if left unchecked. They may also sometimes dig into the ground and throw a Large Geo Slime in front of it.
-
-As with all other [[Geo Constructs]] and Geo shields made by enemies, the Stonehide Lawachurl's armor is weak to [[Interruption Resistance#Poise Damage|Poise Damage]]. Attacks that deal high Poise Damage can help break it efficiently.
 
 ==Achievements==
 {{Achievement Topic Table|topic=Stonehide Lawachurl}}
 
+==Descriptions==
+{{Description|A mysterious "lord" of hilichurls that walks between a thousand peaks.<br />This huge hilichurl is referred to as a "lawa" by its brethren. The abundant Geo energies in the environment have become part of their flesh, blood, and skin, which look as if they were chiseled out of mountain rock.|[[Archive]]}}
+
 ==Trivia==
-*Stonehide Lawachurls, alongside their other Lawachurl brethren, used to be exclusive to one nation, that being Liyue. However, the addition of [[Enkanomiya]] added one spawn inside, making them the only Lawachurl type to exist in multiple nations.
+*Stonehide Lawachurls, alongside their other Lawachurl brethren, used to be exclusive to one nation, that being Liyue. However, the addition of [[Enkanomiya]] added a spawn inside, causing them to temporarily become the only Lawachurl found outside its nation. They now share this feature with [[Thunderhelm Lawachurl]]s, as both were added with the release of [[Sumeru]].
 **A Stonehide Lawachurl appears in [[Mondstadt]] during [[Noelle]]'s [[Hangout Events|Hangout Event]] "[[Strength Training]]" but is quest-exclusive.
 **Some Stonehide Lawachurls were also found in the [[Golden Apple Archipelago]], but it was event-exclusive.
+*The Stonehide Lawachurl has the most voiceline variety out of all of the other Lawachurls despite also being the first.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Stonehide Lawachurl Icon.png|Icon
 </gallery>
 
@@ -99,11 +108,11 @@ Enemy Stonehide Lawachurl Icon.png|Icon
 |ko_rm   = Chyuchyu Bawiwang
 |ko_tl   = Hilichurl Rock-king
 |es      = Lawachurl Acorazado
-|es_tl   = 
+|es_tl   = Ironclad Lawachurl
 |fr      = Chef Brutorocheux
 |fr_tl   = Hilirock Chieftain
 |ru      = Лавачурл с каменным панцирем
-|ru_tl   = 
+|ru_tl   = Lawachurl With Stone Shell
 |th      = Stonehide Lawachurl
 |vi      = Vua Mũ Đá Hilichurl
 |vi_tl   = Stone Hat Hilichurl King
@@ -112,6 +121,10 @@ Enemy Stonehide Lawachurl Icon.png|Icon
 |id      = Stonehelm, Hilichurl Chieftain
 |pt      = Lawachurl da Pedra Oculta
 |pt_tl   = 
+|tr      = Taş Sırtlı Dağ Reisi
+|tr_tl   = 
+|it      = Lawachurl Mantodipietra
+|it_tl   = Mantleofstone Lawachurl
 }}
 
 ==Change History==
@@ -120,5 +133,8 @@ Enemy Stonehide Lawachurl Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Steinhaut-Lawachurl]]
 [[es:Lawachurl Acorazado]]
+[[ja:ヒルチャール・岩兜の王]]
 [[pt-br:Lawachurl da Pedra Oculta]]
+[[th:Stonehide Lawachurl]]

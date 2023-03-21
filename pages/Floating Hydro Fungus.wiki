@@ -1,21 +1,33 @@
 {{Enemy Infobox
 |image    = Enemy Floating Hydro Fungus.png
-|element  = Hydro
+|dmgtype  = Physical
+|dmgtype2 = Hydro
+|weakpoint = no
 |type     = Common Enemies
 |family   = Mystical Beasts
 |group    = Fungi
-|location =
-|ability1 = 
 }}
-{{Description|A spore organism of some intelligence. It possesses extreme adaptability.<br />It is said that it tastes awful. However, such fungi have lots of moisture within them, and so can be used as an emergency water source...|[[Archive]]}}
 {{Enemy Intro|name='''Floating Hydro Fungi'''}}
 
 ==Drops==
-{{Drops|Fungi}}
+===Items===
+;Normal
+{{Drops Table|type=Fungi (Small)}}
+
+;Activated/Scorched
+{{Drops Table|type=Fungi (Small, Activated)|notice=0}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 0
+|p1    = 1
+}}
 
 ==Stats==
+===Normal===
 {{Enemy Stats
 |hydro_res = 20%
+|dendro_res = 20%
 
 |hp_ratio  = 1
 |hp_type   = 2
@@ -23,28 +35,100 @@
 |atk_type  = 2
 }}
 
-==Abilities and Attacks==
-*'''Bubble Spit:''' Shoots a [[bubble]] at the player, dealing '''30% ATK''' as {{Color|Hydro DMG}} and trapping the player on hit. This bubble will also trap other small enemies and apply the {{Color|Hydro|Wet}} status to them on hit.
-**This attack has a high chance of failing, in which case it will trap itself in the bubble instead.
-*'''Bump:''' Bumps into the player, dealing '''30% ATK''' as {{Color|Physical DMG}}.
+===Fabulous Fungus Frenzy (Ally)===
+{{Enemy Stats
+|hide_notes = 1
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Floating Hydro Fungus Bubble Spit
-|caption1=Bubble Spit
+|hydro_res = 20%
+|dendro_res = 20%
 
-|file2=Floating Hydro Fungus Bubble Spit 2
-|caption2=Bubble Spit (Failed)
-
-|file3=Floating Hydro Fungus Bump
-|caption3=Bump
+|hp_ratio  = 1.5
+|hp_type   = 2
+|atk_ratio = 4.32
+|atk_type  = 2
 }}
 
+===Fabulous Fungus Frenzy (Enemy)===
+{{Enemy Stats
+|hide_notes = 1
+
+|hydro_res = 20%
+|dendro_res = 20%
+
+|hp_ratio  = 1.2
+|hp_type   = 2
+|atk_ratio = 3.456
+|atk_type  = 2
+}}
+
+==Abilities and Attacks==
+''Most attack names are unofficial.''
+===Normal===
+{{Enemy Attacks
+|name_1      = State Shift
+|desc_1      = When hit by {{Electro}} or {{Pyro}} attacks, the Floating Hydro Fungus will enter an Activated or Scorched state respectively, gaining enhanced attacks. A Floating Hydro Fungus can only undergo state shift once.
+* If the Floating Hydro Fungus is defeated while Activated or Scorched, it may drop {{Item|Inactivated Fungal Nucleus}}, {{Item|Dormant Fungal Nucleus}}, and {{Item|Robust Fungal Nucleus}}, while the drop rates for {{Item|Fungal Spores}}, {{Item|Luminescent Pollen}}, and {{Item|Crystalline Cyst Dust}} will greatly reduce.
+
+|name_2      = Bubble Spit
+|desc_2      = Shoots a [[bubble]] at the player, dealing '''30% ATK''' as {{Color|Hydro DMG}} and trapping the player on hit. This bubble will also trap other small enemies and apply the {{Color|Hydro|Wet}} status to them on hit.
+* This attack has a high chance of failing, in which case it will trap itself in the bubble instead.
+* '''Activated:''' Shoots 3 Hydro projectiles instead of a bubble, each dealing '''60% ATK''' as {{Color|Hydro DMG}}.
+* '''Scorched:''' Creates a single large bubble that immediately explodes, dealing '''100% ATK''' as {{Color|AoE Hydro DMG}}.
+|caption_2   = Normal (Successful)
+|file_2_2    = Floating Hydro Fungus Bubble Spit 2
+|caption_2_2 = Normal (Failed)
+|file_2_3    = Floating Hydro Fungus Bubble Spit 3
+|caption_2_3 = Activated
+|file_2_4    = Floating Hydro Fungus Bubble Spit 4
+|caption_2_4 = Scorched
+
+|name_3      = Bump
+|desc_3      = Bumps into the player, dealing '''30% ATK''' as {{Color|Physical DMG}}.
+* '''Scorched:''' DMG increased to '''60% ATK''', knockback increased.
+}}
+
+===Fabulous Fungus Frenzy===
+<section begin="fff skills"/>
+{{Enemy Attacks
+|enemy       = Floating Hydro Fungus
+
+|name_1      = Skill: Water Bomb
+|desc_1      = Unleashes a fantastical bubble that deals '''462% ATK''' as {{Color|Hydro DMG}} to its target and nearby opponents while healing Fungi within the party for '''45%''' of their Max HP.<br />''Paimon can always think of a new nickname for every one of these seemingly harmless skills...''
+|file_1      = Floating Hydro Fungus Water Bomb
+
+|name_2      = Bubbly Prison
+|desc_2      = Unleashes a medium-sized bubble that deals '''60% ATK''' as {{Color|Hydro DMG}} and traps smaller opponents within. If the bubble fails to trap its target, it will deal '''183% ATK''' as {{Color|Hydro DMG}} when it bursts.
+
+|name_3      = Aqua Strike
+|desc_3      = Unleashes a small bubble that deals '''141% ATK''' as {{Color|Hydro DMG}}.
+}}<!--
+--><section end="fff skills"/>
+
+==Achievements==
+{{Achievement Topic Table|topic=Floating Hydro Fungus|requirements=1}}
+
+==Descriptions==
+{{Description|A spore organism of some intelligence. It possesses extreme adaptability.<br />It is said that it tastes awful. However, such fungi have lots of moisture within them, and so can be used as an emergency water source...|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Floating Hydro Fungus Icon.png|Icon
+Icon Emoji Paimon's Paintings 19 Fungus 1.png|[[HoYoLAB/Paimon's Paintings#Set 19|Paimon's Paintings Set 19]]
 </gallery>
+
+===Animations===
+{{Preview
+|file1    = Floating Hydro Fungus Absorb
+|caption1 = Absorb
+|file2    = Floating Hydro Fungus Dance
+|caption2 = Dancing
+}}
+
+==Video Guides==
+{{EVT
+|video1 = https://youtu.be/SStjBGXyBMI
+|caption1 = Floating Fungi Farming Route [Sumeru Updated] - All Fungi Types
+}}
 
 ==Other Languages==
 {{Other Languages
@@ -61,19 +145,23 @@ Enemy Floating Hydro Fungus Icon.png|Icon
 |ko_rm   = Dungsil Mul Beoseot
 |ko_tl   = Buoyant Water Mushroom
 |es      = Flotihongo Hydro
-|es_tl   = Hydro Floating Fungus
-|fr      = Fongus flottant
-|fr_tl   = Floating Fungus
-|ru      = Плавучий Гидро плесенник
-|ru_tl   = 
+|es_tl   = Hydro Floaty-shroom
+|fr      = Fongus Hydro flottant
+|fr_tl   = Floating Hydro Fungus
+|ru      = Парящий Гидро плесенник
+|ru_tl   = Soaring Hydro Molder
 |th      = Floating Hydro Fungus
 |vi      = Nấm {{tt|Quỷ|鬼}} {{tt|Phù Du|浮游}} - {{tt|Thủy|水}}
 |vi_tl   = Floating Demon Fungus - Hydro
-|de      = Im Wasser treibende Pilzbestie
-|de_tl   = In Water Floating Fungus Beast
+|de      = Schwebende Hydro-Pilzbestie
+|de_tl   = Floating Hydro Fungus Beast
 |id      = Floating Hydro Fungus
 |pt      = Cogumelo Flutuante Hydro
-|pt_tl   = 
+|pt_tl   = Floating Hydro Mushroom
+|tr      = Uçan Su Mantarı
+|tr_tl   = 
+|it      = Miconoide fluttuante di Hydro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -83,5 +171,5 @@ Enemy Floating Hydro Fungus Icon.png|Icon
 {{Enemy Navbox|Common}}
 
 [[es:Flotihongo Hydro]]
-[[ru:Плавучий Гидро плесенник]]
+[[ru:Парящий Гидро плесенник]]
 [[pt-br:Cogumelo Flutuante Hydro]]

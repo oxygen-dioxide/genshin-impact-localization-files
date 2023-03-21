@@ -5,7 +5,7 @@
 |info          = '''Normal Attack'''<br />Performs up to 4 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise [[Aimed Shot]] with increased DMG.<br />While aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal {{Color|Hydro DMG}}.<br /><br />'''Breakthrough'''<br />Yelan will enter a "Breakthrough" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a "Breakthrough Barb" that will deal {{Color|AoE Hydro DMG}} based on Yelan's Max HP.<br /><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
 |utility1      = Charged Attack
 |utility2      = AoE
-|scale_att1    = HP
+|scale_att1    = Max HP
 |scale_att2    = ATK
 |hit1          = 40.7 - 80.4%
 |hit2          = 39 - 77.2%
@@ -22,8 +22,90 @@
 '''Stealthy Bowshot''' is [[Yelan]]'s [[Normal Attack]].
 
 ==Gameplay Notes==
-*The last two arrows of Yelan's Normal Attack string can hit targets and objects behind her due to their starting locations.
-*When Breakthrough is ready, the bracelet on Yelan's right hand will glow.
+* When Breakthrough is ready, the bracelet on Yelan's right hand will glow.
+{{Clr}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = —
+|icdtag  = none
+|poise   = 14.19
+|impulse = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = —
+|icdtag2  = none
+|poise2   = 13.62
+|impulse2 = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = —
+|icdtag3  = none
+|poise3   = 18
+|impulse3 = 1
+
+|title4   = Normal Attack 4-Hit A
+|gu4      = —
+|icdtag4  = none
+|poise4   = 7.56
+|impulse4 = 1
+
+|title5   = Normal Attack 4-Hit B
+|gu5      = —
+|icdtag5  = none
+|poise5   = 7.56
+|impulse5 = 1
+
+|title6   = Aimed Shot
+|gu6      = —
+|icdtag6  = none
+|poise6   = 10
+|impulse6 = 2
+
+|title7   = Aimed Shot (Hit Weak Spot)
+|gu7      = —
+|icdtag7  = none
+|poise7   = 30
+|impulse7 = 5
+
+|title8   = Fully-Charged Aimed Shot
+|gu8      = 1U<br /><small>(w/ [[Dropoff]])</small>
+|icdtag8  = none
+|poise8   = 20
+|impulse8 = 2
+
+|title9   = Fully-Charged Aimed Shot (Hit Weak Spot)
+|gu9      = 1U<br /><small>(w/ Dropoff)</small>
+|icdtag9  = none
+|poise9   = 60
+|impulse9 = 5
+
+|title10   = Breakthrough Barb
+|gu10      = 1U
+|icdtag10  = Breakthrough Barb
+|icdtype10 = 0.3s
+|poise10   = 100
+|impulse10 = 3
+
+|title11   = Plunging Attack Collision
+|gu11      = —
+|icdtag11  = none
+|poise11   = 10
+|impulse11 = 2
+
+|title12   = Low Plunge
+|gu12      = —
+|icdtag12  = none
+|poise12   = 50
+|impulse12 = 2
+
+|title13   = High Plunge
+|gu13      = —
+|icdtag13  = none
+|poise13   = 100
+|impulse13 = 3
+}}
 
 ==Preview==
 {{Preview
@@ -32,20 +114,34 @@
 
 |file2    = Stealthy Bowshot Charged Preview
 |caption2 = Charged Attack
-<!--
+
 |file3    = Stealthy Bowshot Plunge Preview
-|caption3 = Plunge Attack
--->
+|caption3 = Plunging Attack
+
 |file4    = Stealthy Bowshot Breakthrough Preview
 |caption4 = Breakthrough
 
 |file5    = Stealthy Bowshot Breakthrough Barb Preview
 |caption5 = Breakthrough Barb
 }}
-{{clr}}
+
+;Recovery Animations
+{{Preview
+|file1=Stealthy Bowshot N1 Recovery Preview
+|caption1=Normal Attack 1
+
+|file2=Stealthy Bowshot N2 Recovery Preview
+|caption2=Normal Attack 2
+
+|file3=Stealthy Bowshot N3 Recovery Preview
+|caption3=Normal Attack 3
+
+|file4=Stealthy Bowshot N4 Recovery Preview
+|caption4=Normal Attack 4
+}}
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center" widths="150">
+<gallery>
 Stealthy Bowshot Breakthrough Indicator.png|Breakthrough Indicator
 </gallery>
 
@@ -53,8 +149,8 @@ Stealthy Bowshot Breakthrough Indicator.png|Breakthrough Indicator
 {{Talent Scaling
 |talentType=Normal Attack
 |levels=11
-|order=hit1,hit2,hit3,hit4,aimed,fully-chargedaimedshot,breakthroughbarbdmg,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Aimed Shot (%),Fully-Charged Aimed Shot (%),Breakthrough Barb DMG (% Max HP),Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|order=hit1,hit2,hit3,hit4,aimed,charged_title,fully-chargedaimedshot,breakthroughbarbdmg,plunge_title,plunge,plungelow,plungehigh
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Aimed Shot (%),Charged Attack,Fully-Charged Aimed Shot (%),Breakthrough Barb DMG (% Max HP),Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=40.68
 |hit1_2=43.99
 |hit1_3=47.3
@@ -189,15 +285,19 @@ Stealthy Bowshot Breakthrough Indicator.png|Breakthrough Indicator
 |fr      = Sagette furtive
 |fr_tl   = Furtive Arrow
 |ru      = Незаметная стрела
-|ru_tl   = 
+|ru_tl   = Invisible Arrow
 |th      = Stealthy Bowshot
 |vi      = Mũi Tên Lén Lút
-|vi_tl   = 
+|vi_tl   = Sneaky Arrow
 |de      = Bogen der Unterströmung
 |de_tl   = Bow of the Undercurrent
 |id      = Normal Attack: Stealthy Bowshot
 |pt      = Flecha Oculta
 |pt_tl   = 
+|tr      = Gizli Ok Saldırısı
+|tr_tl   = 
+|it      = Tiro furtivo
+|it_tl   = Stealthy Shot
 }}
 
 ==Change History==
@@ -206,5 +306,8 @@ Stealthy Bowshot Breakthrough Indicator.png|Breakthrough Indicator
 ==Navigation==
 {{Talent Navbox|Yelan}}
 
-[[ru:Незаметная_стрела]]
+[[es:Flecha subrepticia]]
+[[fr:Sagette furtive]]
+[[ru:Незаметная стрела]]
 [[th:Stealthy Bowshot]]
+[[vi:Mũi Tên Lén Lút]]

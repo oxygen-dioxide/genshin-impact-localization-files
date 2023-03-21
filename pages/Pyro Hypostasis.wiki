@@ -1,7 +1,8 @@
 {{Enemy Infobox
 |title    = Ayin
 |image    = Enemy Pyro Hypostasis.png
-|element  = Pyro
+|dmgtype  = Pyro
+|weakpoint = no
 |type     = Normal Bosses
 |family   = Elemental Lifeforms
 |group    = Hypostases
@@ -12,14 +13,27 @@
 |ability4 = Fury
 |drops    = Smoldering Pearl
 }}
-{{Description|Code Name: Ayin. A high-purity [[Pyro]] entity.<br />Elemental hypostases have the ability to often enter a sort of "emergency restart" phase when they are about to be destroyed and can revive themselves in this way.<br />Such rapid regeneration is not possessed even by most creatures for whom survival is the top priority.|[[Adventurer Handbook]]}}
 {{Enemy Intro}}
 
-==Rewards==
+==Drops==
+===Items===
 {{World Boss Rewards
 |gem       = Agnidus Agate
 |exclusive = Smoldering Pearl
 |sets      = Adventurer,Instructor,Berserker,Prayers for Illumination
+}}
+
+===Energy===
+{{Energy Drops
+|type  = Pyro
+|hp1   = 75
+|o1    = 1
+|hp2   = 50
+|o2    = 1
+|hp3   = 25
+|o3    = 1
+|hp4   = 0
+|o4    = 1
 }}
 
 ==Stats==
@@ -31,60 +45,70 @@
 }}
 
 ==Abilities and Attacks==
-Note: Ability and attack names are unofficial except '''3-Hit Combo''' and '''Tinders'''.
+''Most attack names are unofficial.''
 
 ===Ignited State===
-In the ignited state, if its HP is less than 50%, it will regenerate 5% HP after every attack, including after reigniting.
-*'''3-Hit Combo:''' Arranges itself as a molten bull that charges at the player before periodically surfacing above ground, then turns into a giant crab that leaps into the player's general location, lastly emerges at the player's general location and explodes, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} with each hit and leaving a swarm of butterflies that deals '''33% ATK''' as {{Color|Pyro DMG}} upon contact.
-*'''Fire Ball:''' Forms itself into a giant ball that rolls around the arena and curves at the player's location, dealing '''50% ATK''' as {{Color|Pyro DMG}} upon contact.
-*'''Molten Fist:''' When near player, it levitates high above ground, and plunges back down, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}}. This creates an expanding Shockwave that deals '''100% ATK''' as {{Color|AoE Pyro DMG}} with each explosion.
-*'''Fire Serpent:''' Arranges itself into a Pyro Serpent that fires 3 waves of fireballs at the player's general location. Each fireball deals '''100% ATK''' as {{Color|Pyro DMG}}.
-*'''Pyro Nuke:''' Forms a giant ball that cracks open slowly. After some amount of time, it causes a heavy explosion that deals '''250% ATK''' as {{Color|AoE Pyro DMG}} over the whole arena. This attack cannot be dodged using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
+In the ignited state, if its HP is less than 50%, it will regenerate 5% HP after every attack, including after reigniting. The Pyro Hypostasis will be extinguished when its shield is destroyed, which is most efficiently done using {{Hydro}}.
+{{Elemental Shield Data|Pyro|28}}
 
-====Preview====
-{{Preview
-|size=185px
-|file1=Pyro Hypostasis 3 Hit Combo
-|caption1=3-Hit Combo
+{{Enemy Attacks
+|name_1 = 3-Hit Combo
+|desc_1 = Arranges itself as a molten bull that charges at the player before periodically surfacing above ground, then turns into a giant crab that leaps into the player's general location, lastly emerges at the player's general location and explodes, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} with each hit and leaving a swarm of butterflies that deals '''33% ATK''' as {{Color|Pyro DMG}} upon contact.
+|file_1 = Pyro Hypostasis 3 Hit Combo
 
-|file2=Pyro Hypostasis Roll
-|caption2=Fire Ball
+|name_2 = Fire Ball
+|desc_2 = Forms itself into a giant ball that deals '''80% ATK''' as {{Color|Pyro DMG}} upon contact while it is stationary, then starts rolling around the arena and curves at the player's location, dealing '''50% ATK''' as {{Color|Pyro DMG}} on hit.
+|file_2 = Pyro Hypostasis Roll
 
-|file3=Pyro Hypostasis Molten Fist
-|caption3=Molten Fist
+|name_3 = Molten Fist
+|desc_3 = When near player, it levitates high above ground, and plunges back down, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}}. This creates an expanding Shockwave that deals '''100% ATK''' as {{Color|AoE Pyro DMG}} with each explosion.
 
-|file4=Pyro Hypostasis Fire Serpent
-|caption4=Fire Serpent
+|name_4 = Serpentine Fireballs
+|desc_4 = Arranges itself into a Pyro Serpent that fires 3 waves of fireballs at the player's general location. Each fireball deals '''100% ATK''' as {{Color|Pyro DMG}}.
 
-|file5=Pyro Hypostasis Nuke
-|caption5=Pyro Nuke
+|name_5 = Nuke
+|desc_5 = Forms a giant ball that cracks open slowly. After some amount of time, it causes a heavy explosion that deals '''250% ATK''' as {{Color|AoE Pyro DMG}} over the whole arena. This attack cannot be dodged using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
 }}
 
 ===Extinguished State===
 While in its extinguished state, the Pyro Hypostasis cycles between "Missiles", "Molten Pillars", and "Tinders" until it has been reignited.
-* '''Missiles:''' Flies into the air and forms a rhombus with its shell pieces, firing them quickly from top to bottom, each dealing '''50% ATK''' as {{Color|Pyro DMG}}. The core will be exposed during this attack.
-*'''Molten Pillars:''' Creates a barrier of sorts around itself, targeting random areas and sending a pillar at said locations, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} before recalling them, leaving a patch of fire in said area.
-** The pillars will not target areas close to the core.
-*'''Clap:''' Flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} in front of the wall.
-*'''Tinders:''' Spins around while taking on the form of a rocket, deploying three Tinders to reignite itself.
-**If no Tinders are destroyed, the Pyro Hypostasis will return to its Ignited State.
-**If at least one Tinder is destroyed, at the end of this ability, the [[Fury]] bar will be partially filled. The amount of Fury accumulated is calculated as <math>\text{Remaining Amount of Tinders} \times 20\% + 27\%</math>.
-**If Fury reaches max from multiple attempts at reignition, the Pyro Hypostasis will return to its Ignited State, even if one or more Tinders are destroyed.
+{{Enemy Attacks
+|name_1 = Missiles
+|desc_1 = Flies into the air and forms a rhombus with its shell pieces, firing them quickly from top to bottom, each dealing '''50% ATK''' as {{Color|Pyro DMG}}. The core will be exposed during this attack.
 
-====Preview====
-{{Preview
-|size=185px
-|file1=Pyro Hypostasis Missiles
-|caption1=Missiles
+|name_2 = Molten Pillars
+|desc_2 = Creates a barrier of sorts around itself, targeting random areas and sending a pillar at said locations, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} before recalling them, leaving a patch of fire in said area.
+* The pillars will not target areas close to the core.
 
-|file2=Pyro Hypostasis Molten Pillars
-|caption2=Molten Pillars
+|name_3 = Clap
+|desc_3 = Flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} in front of the wall.
 
-|file3=Pyro Hypostasis Clap
-|caption3=Clap
+|name_4 = Tinders
+|desc_4 = Spins around while taking on the form of a rocket, deploying three Tinders to reignite itself.
+* At the end of this ability, the [[Fury]] bar will be partially filled. The amount of Fury accumulated is calculated as <math>\text{Remaining Amount of Tinders} \times 27\% + 20\%</math>.
+* If Fury reaches max, the Pyro Hypostasis will return to its Ignited State.
+{{Elemental Shield Data|Pyro|2|Tinders}}
+}}
 
-|file4=Pyro Hypostasis Tinders
-|caption4=Tinders
+===Hypostatic Symphony===
+In the [[Hypostatic Symphony: Dissonant Verse]] Event, the Pyro Hypostasis gains the following new or modified abilities:
+{{Enemy Attacks
+|enemy = Pyro Hypostasis Event
+
+|name_1 = Molten Fist
+|desc_1 = This attack will be used 3 times in a row.
+
+|name_2 = Fire Ball
+|desc_2 = Leaves behind burning residue along its path that lasts for '''8''' seconds and deals '''15% ATK''' as {{Color|AoE Pyro DMG}} every '''0.5''' seconds.
+
+|name_3 = Healing Tinders
+|desc_3 = While in the ignited state, 3 healing Tinders will be present. Each healing Tinder will recover '''0.2''' [[Gauge Unit]]s (Normal to Fearless) or '''1''' Gauge Unit (Extreme) every second for the Hypostasis' shield. These Tinders can be destroyed using Elemental Reactions and are weakest to {{Hydro}}. Their durability will be tripled in Extreme difficulty. Healing Tinders will respawn every ~35 seconds.
+{{Elemental Shield Data|Pyro|2|Healing Tinders}}
+{{Elemental Shield Data|Pyro|6|Healing Tinders, Extreme Difficulty}}
+
+|name_4 = Tinders
+|desc_4 = In Extreme difficulty only, the Hypostasis will spawn 5 Tinders instead of 3 while reviving. Their durability will also be tripled.
+{{Elemental Shield Data|Pyro|6|Tinders, Extreme Difficulty}}
 }}
 
 ==Strategy==
@@ -103,25 +127,33 @@ Being an entity of pure {{Pyro}} energy, it is recommended to bring Hydro charac
 ==Achievements==
 {{Achievement Topic Table|topic=Pyro Hypostasis}}
 
+==Descriptions==
+{{Description|Code Name: Ayin. A high-purity [[Pyro]] entity.<br />Elemental hypostases have the ability to often enter a sort of "emergency restart" phase when they are about to be destroyed and can revive themselves in this way. Such rapid regeneration is not possessed even by most creatures for whom survival is the top priority.|[[Adventurer Handbook]]}}
+{{Description|Code Name: Ayin. A high-purity Pyro entity.<br />According to researchers, Elemental Hypostases are related to anomalies in local Elemental veins. But whether it is the existence of Elemental Hypostases that have affected Elemental veins or the mutated Elemental Energy that created Elemental Hypostases remains to be confirmed.|[[Archive]]}}
+
 ==Trivia==
 * Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Ayin"|he=ע|he_rm=ʿayin}} being named after the sixteenth.
 ** This is the first time it isn't named in sequential order; as the fifth Hebrew letter is {{Lang|"He"|he=ה|he_rm=hē}}, which is the name of the [[Hydro Hypostasis]].
+* The official naming of Tinder is inconsistent. There has been 3 different official names for them in-game:
+** "Tinder" in the on-screen tip while fighting the Pyro Hypostasis.
+** "Fire Seed" in the Pyro Hypostasis' [[Tutorial/Pyro Hypostasis|tutorial entry]].
+** "Fiery Shieldseed" in the description of the Spirited Riff Dissonance in the [[Hypostatic Symphony: Dissonant Verse]] event.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Pyro Hypostasis Icon.png|Icon
 </gallery>
-
-==Video Guides==
-{{EVT
-|video1   = https://youtu.be/PCFp5rRIQwg
-|caption1 = How to Easily Beat the Pyro Hypostasis
-}}
 
 ==Bellowing Blaze==
 {{Description|The abnormally high temperatures in northern [[Kannazuka]] have long caused a burning crystal to take form.<br />Defeat the Pyro Hypostasis in northern Kannazuka and quench the wild flames.}}
 [[File:Bellowing Blaze.png|400px]]
-
+<!--
+==Video Guides==
+{{EVT
+|video1   = 
+|caption1 = 
+}}
+-->
 ==Other Languages==
 {{Other Languages
 |en      = Pyro Hypostasis
@@ -143,13 +175,17 @@ Enemy Pyro Hypostasis Icon.png|Icon
 |ru      = Пиро гипостазис
 |ru_tl   = Pyro Hypostasis
 |th      = Pyro Hypostasis
-|vi      = Hỏa Nguyên Bản
-|vi_tl   = Prototype Pyro
+|vi      = {{tt|Hỏa|火}} {{tt|Nguyên Bản|原本}}
+|vi_tl   = The Original Fire
 |de      = Pyro-Hypostase
 |de_tl   = Pyro Hypostasis
 |id      = Pyro Hypostasis
 |pt      = Hypostasis Pyro
 |pt_tl   = Pyro Hypostasis
+|tr      = Ateş Hipostazı
+|tr_tl   = 
+|it      = Ipostasi di Pyro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -158,6 +194,10 @@ Enemy Pyro Hypostasis Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=bosses}}
 
-[[es:Hipostasis Pyro]]
+[[de:Pyro-Hypostase]]
+[[es:Hipóstasis Pyro]]
+[[fr:Hypostase Pyro]]
+[[ja:無相の炎]]
 [[pt-br:Hypostasis Pyro]]
-[[uk:Беззнакове піро]]
+[[ru:Пиро гипостазис]]
+[[zh:無相之火]]

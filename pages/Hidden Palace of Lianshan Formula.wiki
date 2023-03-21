@@ -9,6 +9,7 @@
 |recLevel     = 15/36/59/80
 |recElements  = Pyro,Cryo
 }}
+{{Description|Massive Electro energy is coursing through this thundering ancient sacrificial altar.<br />The dispersed Electro elements constantly dispel Energy.<br />You shall earn Weapon Ascension Materials, if — and only if — you can pass the trial.}}
 '''Hidden Palace of Lianshan Formula''' is a [[Domain]] located near Mingyun Village in [[Liyue]]. Clearing this domain gives [[Weapon Ascension Material]]s which can be used to ascend [[weapons]], increasing the stats and max level. Challenge domains with higher levels to get better rewards.
 
 ==Ley Line Disorder==
@@ -30,7 +31,7 @@ Each level in this domain has the following Ley Line Disorder, respectively:
 
 ===Damage===
 {{See also|Level Scaling/Reaction#Level Multiplier}}
-The {{Color|Electro DMG}} dealt by the Lightning Bolts and Lightning Balls is calculated as <math>\text{Multiplier} \times \text{Element Level Multiplier}</math>. This DMG is affected by the player's [[Electro RES]], but unaffected by [[DEF]] or [[Damage Reduction]]. The final result is rounded down.
+The {{Color|Electro DMG}} dealt by the Lightning Bolts and Lightning Balls is calculated as <math>\text{Multiplier} \times \text{Level Multiplier}</math>. This DMG is affected by the player's [[Electro RES]], but unaffected by [[DEF]] or [[Damage Reduction]]. The final result is rounded down.
 
 {| class="wikitable" style="text-align: center;"
 ! Level !! Lightning Bolt Multiplier !! Lightning Ball Multiplier !! Lightning Bolt Base Damage !! Lightning Ball Base Damage
@@ -80,38 +81,22 @@ Each level in this domain has the following Challenge Features:
 
 ==Enemies==
 {{Domain Enemies
-|header=Hidden Palace of Lianshan Formula I
-|objective=Defeat 20 opponents within 360 seconds.
-|subsubheader1=Wave 1
-|enemies1=Electro Slime*15
-|subsubheader2=Wave 2
-|enemies2=Electro Slime*3,Large Electro Slime,Mutant Electro Slime
-}}
-{{Domain Enemies
-|header=Hidden Palace of Lianshan Formula II
-|objective=Defeat 16 opponents within 360 seconds.
-|subsubheader1=Wave 1
-|enemies1=Electro Slime*7,Large Electro Slime*3,Mutant Electro Slime*3
-|subsubheader2=Wave 2
-|enemies2=Large Electro Slime*2,Mutant Electro Slime
-}}
-{{Domain Enemies
-|header=Hidden Palace of Lianshan Formula III
-|objective=Defeat 10 opponents within 360 seconds.
-|subsubheader1=Wave 1
-|enemies1=Large Electro Slime*6,Mutant Electro Slime*3
-|subsubheader2=Wave 2
-|enemies2=Fatui Electro Cicin Mage
-}}
-{{Domain Enemies
-|header=Hidden Palace of Lianshan Formula IV
-|objective=Defeat 8 opponents within 480 seconds.
-|enemies=Large Electro Slime*4,Mutant Electro Slime*2,Fatui Electro Cicin Mage*2
+|target1=Defeat 20 opponents within 360 seconds.
+|enemies1=Electro Slime*15//Electro Slime*3;Large Electro Slime;Mutant Electro Slime
+
+|target2=Defeat 16 opponents within 360 seconds.
+|enemies2=Electro Slime*7;Large Electro Slime*3;Mutant Electro Slime*3//Large Electro Slime*2;Mutant Electro Slime
+
+|target3=Defeat 10 opponents within 360 seconds.
+|enemies3=Large Electro Slime*6;Mutant Electro Slime*3//Fatui Electro Cicin Mage
+
+|target4=Defeat 8 opponents within 480 seconds.
+|enemies4=Large Electro Slime*4;Mutant Electro Slime*2;Fatui Electro Cicin Mage*2
 }}
 
 ==Trivia==
 * The level names of this domain are "Thunderclouds" for [[Guyun Pillars]], "Thundering Ruins" for [[Elixirs]], and "Trial Grounds of Thunder" for [[Aerosiderite]]. All of the lightning-related names likely refer to the Ley Line Disorder that inflicts an Electro-related effect on you and drops lightning from above and also how all the enemies are Electro-based.
-*The name Lianshan refers to the ancient Chinese art of divination {{Lang|"Lianshan"|zh=连山}}, one of the {{Lang|"Three Changes"|zh=三易|zh_rm=Sānyì}}. The other two are {{Lang|"Guicang"|zh=归藏}} and {{Lang|"Zhou Yi"|zh=周易}}, correlating to the other two [[Hidden Palace of Guizang Formula|Hidden Palace]] [[Hidden Palace of Zhou Formula|Formula Domains]].
+*{{Lang|"{{w|Guicang}}"|zh=归藏|zh_tl=Return to the Hidden}}, {{Lang|"{{w|zh:連山易|Lianshan}}"|zh=连山}}, and {{Lang|"{{w|Zhou Yi}}"|zh=周易|zh_tl=Changes of Zhou}} were three independent ancient Chinese arts of divination collectively known as the {{Lang|"Three Changes"|zh=三易|zh_rm=Sānyì}}. These names are the basis for the three "Hidden Palace of [Name] Formula" domains: [[Hidden Palace of Guizang Formula]], Hidden Palace of Lianshan Formula, and [[Hidden Palace of Zhou Formula]].
 
 ==Other Languages==
 {{Other Languages
@@ -120,8 +105,8 @@ Each level in this domain has the following Challenge Features:
 |zhs_rm  = Zhènléi Liánshān Mìgōng
 |zht     = 震雷連山密宮
 |zht_rm  = Zhènléi Liánshān Mìgōng
-|zh_tl   = Thunder {{w|Lianshan}} Hidden Palace
-|zh_note = {{Lang|mini=1|zh-Hans=连山}}/{{Lang|mini=1|zh-Hant=連山|zh-Hant_rm=Liánshān}} literally means "connecting mountains," but refers to an ancient Chinese divination text.
+|zh_tl   = Thunder Lianshan Hidden Palace
+|zh_note = {{zh|s=连山|t=連山|rm=Liánshān}} literally means "connecting mountains," but refers to an ancient Chinese divination text.
 |ja      = 震雷連山密宮
 |ja_rm   = Shinrai Renzan Mitsuguu{{Assumed}}
 |ja_tl   = Thunder Lianshan Hidden Palace{{Sino|ja}}
@@ -144,6 +129,10 @@ Each level in this domain has the following Challenge Features:
 |id      = Hidden Palace of Lianshan Formula
 |pt      = Palácio Oculto da Fórmula Lianshan
 |pt_tl   = Hidden Palace of the Lianshan Formula
+|tr      = Lianshan Kaidesinin Gizli Sarayı
+|tr_tl   = 
+|it      = Palazzo nascosto di Lianshan
+|it_tl   = 
 }}
 
 ==Change History==
@@ -153,3 +142,4 @@ Each level in this domain has the following Challenge Features:
 {{Domain Navbox|Permanent}}
 
 [[es:Palacio oculto de la fórmula Lianshan]]
+[[ja:震雷連山密宮]]

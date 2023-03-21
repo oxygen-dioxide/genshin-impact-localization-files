@@ -2,10 +2,7 @@
 |character     = Tartaglia
 |type          = Normal Attack
 |image         = Talent Cutting Torrent.png
-|info          = '''Normal Attack'''<br />Perform up to 6 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''[[Aimed Shot]]''' with increased DMG.<br />While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal {{Color|Hydro DMG}} and apply the Riptide [[status]].<br /><br />'''Riptide'''<br />Opponents affected by Riptide will suffer from {{Color|[[AoE]] Hydro DMG}} effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.<br />
-* Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.
-* Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.
-'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.<br />When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.
+|info          = '''Normal Attack'''<br />Performs up to 6 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Performs a more precise [[Aimed Shot]] with increased DMG.<br />While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal {{Color|Hydro DMG}} and apply the Riptide [[status]].<br /><br />'''Riptide'''<br />Opponents affected by Riptide will suffer from {{Color|[[AoE]] Hydro DMG}} effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.<ul><li>Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.</li><li>Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.</li></ul><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.<br />When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.
 |utility1      = Charged Attack
 |utility2      = AoE
 |utility3      = Effects End Character Fallen<!--riptide marks seems to disappear when fallen-->
@@ -36,14 +33,105 @@
 * {{TalentNote|particles|Riptide Flash|1}}
 ** This particle generation has a cooldown of 3 seconds. This cooldown is shared with the [[Riptide Slash]] particle generation.
 ** It is the first and currently only non-Elemental Skill with a generation of elemental particles.
-* {{TalentNote|icd|Riptide Flash DMG}}
-** This ICD is shared with the extra Riptide Flashes triggered by Tartaglia's [[Abyssal Mayhem: Hydrospout|Constellation 4]].
-* {{TalentNote|icd|Riptide Burst DMG|0}}
 * [[Normal Attack]] bonuses from artifacts or weapons affect the damage of Riptide Flash and Riptide Burst.
 * The Riptide AoE has quadratic scaling against mobs of enemies that are [[Vacuum Field|grouped]] together.
 ** That is, suppose there are n enemies each affected by Riptide grouped close together. If Tartaglia uses his Elemental Skill to attack the n enemies in the cluster at once, it will trigger Riptide Slash for each enemy.
 ** Each Riptide Slash will do local [[AoE]] damage hitting surrounding enemies. So there will be n Riptide Slashes, each hitting n-1 enemies.
 ** In total, there will be <math>n + n(n-1) = n^2</math> instances of damage against n enemies for each time Tartaglia procs Riptide Slash in melee stance. So for mobs grouped close together (e.g. via Crowd Control abilities of [[Sucrose]], [[Kazuha]], [[The Viridescent Hunt]]), Tartaglia's Riptide damage will scale quadratically with the number of enemies in the cluster.
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1
+|gu      = —
+|icdtag  = none
+|poise   = 14.4
+|impulse = 1
+
+|title2   = Normal Attack 2
+|gu2      = —
+|icdtag2  = none
+|poise2   = 16.46
+|impulse2 = 1
+
+|title3   = Normal Attack 3
+|gu3      = —
+|icdtag3  = none
+|poise3   = 19.32
+|impulse3 = 1
+
+|title4   = Normal Attack 4
+|gu4      = —
+|icdtag4  = none
+|poise4   = 19.89
+|impulse4 = 1
+
+|title5   = Normal Attack 5
+|gu5      = —
+|icdtag5  = none
+|poise5   = 21.24
+|impulse5 = 1
+
+|title6   = Normal Attack 6
+|gu6      = —
+|icdtag6  = none
+|poise6   = 25.38
+|impulse6 = 1
+
+|title7   = Aimed Shot
+|gu7      = —
+|icdtag7  = none
+|poise7   = 10
+|impulse7 = 2
+
+|title8   = Aimed Shot (Hit Weak Spot)
+|gu8      = —
+|icdtag8  = none
+|poise8   = 30
+|impulse8 = 5
+
+|title9   = Fully-Charged Aimed Shot
+|gu9      = 1U<br /><small>(w/ [[Dropoff]])</small>
+|icdtag9  = none
+|poise9   = 20
+|impulse9 = 2
+
+|title10   = Fully-Charged Aimed Shot (Hit Weak Spot)
+|gu10      = 1U<br /><small>(w/ Dropoff)</small>
+|icdtag10  = none
+|poise10   = 60
+|impulse10 = 5
+
+|title11   = Riptide Flash
+|gu11      = 1U
+|icdtag11  = Riptide
+|icdtype11  = 2.5s/3 Hits
+|poise11   = 20
+|impulse11 = 2
+
+|title12   = Riptide Burst
+|gu12      = 1U
+|icdtag12  = none
+|poise12   = 60
+|impulse12 = 5
+
+|title13   = Plunging Attack Collision
+|gu13      = —
+|icdtag13  = none
+|poise13   = 10
+|impulse13 = 2
+
+|title14   = Low Plunge
+|gu14      = —
+|icdtag14  = none
+|poise14   = 50
+|impulse14 = 2
+
+|title15   = High Plunge
+|gu15      = —
+|icdtag15  = none
+|poise15   = 100
+|impulse15 = 3
+}}
 
 ==Preview==
 {{Preview
@@ -54,7 +142,7 @@
 |caption2=Charged Attack
 
 |file3=Cutting Torrent Plunge Preview
-|caption3=Plunge Attack
+|caption3=Plunging Attack
 }}
 {{clr}}
 
@@ -235,12 +323,16 @@
 |ru_tl   = Parting Rain
 |th      = Cutting Torrent
 |vi      = Chém Mưa
-|vi_tl   = 
+|vi_tl   = Cutting Rain
 |de      = Regenschnitt
 |de_tl   = Rain Cut
 |id      = Cutting Torrent
 |pt      = Intercepção de Chuva
 |pt_tl   = 
+|tr      = Keskin Sel
+|tr_tl   = 
+|it      = Torrente acuminato
+|it_tl   = Sharp Torrent
 }}
 
 ==Change History==
@@ -250,7 +342,8 @@
 {{Talent Navbox|Tartaglia}}
 
 [[es:Torrente cortante]]
+[[fr:Taille du torrent]]
 [[pt-br:Intercepção de Chuva]]
 [[ru:Дождь расставаний]]
-[[vi:Chém Mưa]]
 [[th:Cutting Torrent]]
+[[vi:Chém Mưa]]

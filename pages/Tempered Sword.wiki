@@ -2,14 +2,14 @@
 |image         = Talent Tempered Sword.png
 |character     = Diluc
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 4 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous slashes.<br />At the end of the sequence, perform a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 4 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous slashes.<br />At the end of the sequence, performs a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
 |hit1          = 89.7-192%
 |hit2          = 87.6-187%
 |hit3          = 98.8-211%
 |hit4          = 134-286%
-|attr5         = Charged Attack Spinning DMG
+|attr5         = Charged Attack Cyclic DMG
 |value5        = 68.8-147%
-|attr6         = Charged Attack Spinning Final DMG
+|attr6         = Charged Attack Final DMG
 |value6        = 125-266%
 |attr7         = Charged Attack Stamina Cost
 |value7        = 40/s
@@ -27,11 +27,84 @@
 
 ==Gameplay Notes==
 *{{TalentNote|infusion|character=Diluc|talent=Dawn|Pyro|8}}
+
+;<big>Passive Effects</big>
 *{{TalentNote|character=Diluc|talent=Tempered Sword|ascension|1|Relentless}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|2|Searing Ember}}
 *{{TalentNote|constellation|6|Flaming Sword, Nemesis of the Dark}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 108.1
+|impulse = 3
+|blunt   = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 105.57
+|impulse2 = 3
+|blunt2   = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 119.03
+|impulse3 = 3
+|blunt3   = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 161.46
+|impulse4 = 6
+|blunt4   = 1
+
+|title5   = Charged Attack Cyclic
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 60
+|impulse5 = 3
+|blunt5   = 1
+
+|title6   = Charged Attack Final Slash
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 120
+|impulse6 = 6
+|blunt6   = 1
+
+|title7   = Plunging Attack Collision
+|gu7      = 0U
+|icdtag7  = none
+|poise7   = 35
+|impulse7 = 2
+
+|title8   = Low Plunge
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 150
+|impulse8 = 4
+|blunt8   = 1
+
+|title9   = High Plunge
+|gu9      = 1U
+|icdtag9  = none
+|poise9   = 200
+|impulse9 = 7
+|blunt9   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -42,7 +115,7 @@
 |caption2 = Charged Attack
 
 |file3    = Tempered Sword Plunge Preview
-|caption3 = Plunge Attack
+|caption3 = Plunging Attack
 }}
 {{clr}}
 
@@ -51,7 +124,7 @@
 |talentType=Normal Attack
 |levels=11
 |order=hit1,hit2,hit3,hit4,charged_title,chargedattackspinningdmg,chargedattackfinaldmg,stamina,maxduration,plunge_title,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Spinning DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Cyclic DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=89.7
 |hit1_2=97
 |hit1_3=104.3
@@ -159,7 +232,7 @@
 {{Talent Upgrade|Diluc}}
 
 ==Trivia==
-*At 60FPS, unlike other [[Claymores|Claymore]] users, Diluc cannot directly enter a Charged Attack sequence from a standstill. From a standstill, he must perform one Normal Attack before entering his Charged Attack sequence. However, if Diluc is affected by the {{Cryo}} status, if the attack button is held down immediately after a [[Sprinting#Dash|Dash]], or if the attack button is held down alongside a directional button, he will be able to directly enter his Charged Attack sequence without performing a Normal Attack. This however, does not occur at 30FPS.
+*At 60FPS, unlike other [[Claymore]] users, Diluc cannot directly enter a Charged Attack sequence from a standstill. From a standstill, he must perform one Normal Attack before entering his Charged Attack sequence. However, if Diluc is affected by the {{Cryo}} status, if the attack button is held down immediately after a [[Sprinting#Dash|Dash]], or if the attack button is held down alongside a directional button, he will be able to directly enter his Charged Attack sequence without performing a Normal Attack. This however, does not occur at 30FPS.
 
 ==Other Languages==
 {{Other Languages
@@ -188,7 +261,11 @@
 |de_tl   = Tempered Steel
 |id      = Tempered Sword
 |pt      = Espada Temperada
-|pt_tl   = 
+|pt_tl   = Tempered Sword
+|tr      = Akkor Kılıç
+|tr_tl   = 
+|it      = Spada temprata
+|it_tl   = Tempered Sword
 }}
 
 ==Change History==
@@ -205,3 +282,5 @@
 [[pt-br:Espada Temperada]]
 [[ru:Закалённый меч]]
 [[th:Tempered Sword]]
+[[uk:Загартований меч]]
+[[vi:Kiếm Tôi Luyện]]

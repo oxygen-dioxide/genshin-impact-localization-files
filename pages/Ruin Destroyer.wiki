@@ -1,17 +1,27 @@
 {{Enemy Infobox
 |image    = Enemy Ruin Destroyer.png
+|weakpoint = yes
 |type     = Elite Enemies
 |family   = Automatons
 |group    = Ruin Sentinels
-|location = [[Inazuma]]
 |ability1 = Vacuum Field
 |ability2 = Invincibility Frames
 }}
-{{Description|Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.<br />Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common [[Ruin Guard]]s, their design has greater value in the study of biomimesis. The giant crown, composed of several parts, looks like some sort of frightening plant. One wonders what one has to go through in order to design such scary machine.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Ruin Sentinels}}
+===Items===
+{{Drops Table|type=Ruin Sentinels}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 66
+|p1    = 1
+|hp2   = 33
+|p2    = 1
+|hp3   = 0
+|p3    = 2
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -21,37 +31,37 @@
 |atk_ratio    = 4.2
 }}
 
+==Weak Point Location==
+<gallery>
+Ruin Destroyer Weak Point.png|1
+Ruin Destroyer Weak Point 2.png|2
+</gallery>
+* Weak Point 1 is only exposed during the '''Mimicry of the Regisvine''' attack.
+* Weak Point 2 is only exposed during the '''Energy Field''' attack.
+
 ==Abilities and Attacks==
-''Names are unofficial''
-* '''Flail:''' Opening its head, the Destroyer spins its whole head on the ground and flails it across, dealing '''30% ATK''' as {{Color|Physical DMG}} to anything that it hits. Its core is protected during this attack.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Flail
+|desc_1 = Opening its head, the Destroyer spins its whole head on the ground and flails it across, dealing '''30% ATK''' as {{Color|Physical DMG}} to anything that it hits. Its core is protected during this attack.
 
-* '''Energy Field:''' Firing a charged beam of pure energy at the ground, the Destroyer creates a large energy field centered on its target that deals '''40% ATK''' as {{Color|AoE Physical DoT}}. Its core is exposed during this attack.
+|name_2 = Energy Field
+|desc_2 = Firing a charged beam of pure energy at the ground, the Destroyer creates a large energy field centered on its target that deals '''40% ATK''' as {{Color|AoE Physical DoT}}. Its core is exposed during this attack.
 
-* '''Mimicry of the Regisvine:''' Borrowing into the ground and planting its roots, the core gathers energy and creates a [[Vacuum Field]] that sucks the player in while dealing '''50% ATK''' as {{Color|AoE Physical DoT}}. After charging, it will overload its core; explodes and deals heavy '''150% ATK''' as {{Color|AoE Physical DMG}} around itself. The core is exposed during this attack.
+|name_3 = Mimicry of the Regisvine
+|desc_3 = Borrowing into the ground and planting its roots, the core gathers energy and creates a [[Vacuum Field]] that sucks the player in while dealing '''50% ATK''' as {{Color|AoE Physical DoT}}. After charging, it will overload its core; explodes and deals heavy '''150% ATK''' as {{Color|AoE Physical DMG}} around itself. The core is exposed during this attack.
 
-* '''Seed Shot:''' Using its core, it fires up to 6 small energy orbs, each dealing '''40% ATK''' as {{Color|Physical DMG}}. Its core is protected during this attack.
+|name_4 = Seed Shot
+|desc_4 = Using its core, it fires up to 6 small energy orbs, each dealing '''40% ATK''' as {{Color|Physical DMG}}. Its core is protected during this attack.
 
-* '''Burrow:''' Digs into the ground before reemerging close to its target. It cannot be damaged when it is burrowing.
+|name_5 = Burrow
+|desc_5 = Digs into the ground before reemerging close to its target. It cannot be damaged when it is burrowing.
 
-* '''Deactivated:''' After hitting its weak point twice, it goes limp as it is now deactivated. During this short time, it will not attack back.
-
-===Preview===
-{{Preview
-|size=185px
-|file1    = Ruin Destroyer Flail
-|caption1 = Flail
-
-|file2    = Ruin Destroyer Energy Field
-|caption2 = Energy Field
-
-|file3    = Ruin Destroyer Mimicry of the Regisvine
-|caption3 = Mimicry of the Regisvine
-
-|file4    = Ruin Destroyer Seed Shot
-|caption4 = Seed Shot
+|name_6 = Deactivated
+|desc_6 = After hitting its weak point twice, it goes limp as it is now deactivated. During this short time, it will not attack back.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
 * An ability will only be used if they meet both of the following conditions:
 ** The ability is not on cooldown
@@ -78,8 +88,11 @@
 ==Strategy==
 Ruin Destroyers are capable of becoming invulnerable by digging underground, as well as dealing considerable damage. Its Mimicry attack can suck up the player's character, disrupting them. However, this also leaves the Ruin Destroyer vulnerable as its weak point, in the form of a glowing orb, can be easily attacked to paralyze the Ruin Destroyer.
 
+==Descriptions==
+{{Description|Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.<br />Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common [[Ruin Guard]]s, their design has greater value in the study of biomimesis. The giant crown, composed of several parts, looks like some sort of frightening plant. One wonders what one has to go through in order to design such scary machine.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Ruin Destroyer Icon.png|Icon
 </gallery>
 
@@ -102,7 +115,7 @@ Enemy Ruin Destroyer Icon.png|Icon
 |fr      = Destructeur des ruines
 |fr_tl   = Ruin Destroyer
 |ru      = Руинный крушитель
-|ru_tl   = 
+|ru_tl   = Ruin Crusher
 |th      = Ruin Destroyer
 |vi      = Tiên Phong Di Tích
 |vi_tl   = Ruin Pioneer
@@ -111,6 +124,10 @@ Enemy Ruin Destroyer Icon.png|Icon
 |id      = Ruin Destroyer
 |pt      = Atacante das Ruínas
 |pt_tl   = Attacker of the Ruins
+|tr      = Harabe Yok Edicisi
+|tr_tl   = 
+|it      = Distruttore delle rovine
+|it_tl   = 
 }}
 
 ==Change History==
@@ -119,5 +136,7 @@ Enemy Ruin Destroyer Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=elite}}
 
+[[de:Ruinenzerstörer]]
 [[es:Destructor de las Ruinas]]
 [[pt-br:Atacante das Ruínas]]
+[[ru:Руинный крушитель]]

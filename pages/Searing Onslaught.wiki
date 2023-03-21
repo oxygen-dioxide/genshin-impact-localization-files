@@ -2,7 +2,7 @@
 |image         = Talent Searing Onslaught.png
 |character     = Diluc
 |type          = Elemental Skill
-|info          = Performs a forward slash that deals {{Color|Pyro DMG}}.<br /><br />This skill can be consecutively used 3 times. Enters CD if not cast again within a short period.
+|info          = Performs a forward slash that deals {{Color|Pyro DMG}}.<br /><br />This skill can be consecutively used 3 times.<br />Enters CD if not cast again within a short period.
 |particles     = 4
 |CD            = 10s
 |hit1          = 94.4-201%
@@ -14,11 +14,13 @@
 '''Searing Onslaught''' is [[Diluc]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
+* {{TalentNote|cooldown|immediate}}
 * {{TalentNote|icd|All DMG dealt by this skill|0|plural=1}}
 * {{TalentNote|particles|1.33}}
 ** If all 3 strikes hit, a total of '''3.99''' particles are generated.
-* This skill will enter cooldown if not cast again within 5s.
-:<gallery hideaddbutton="true" captionalign="center" spacing="small" widths="100">
+* If the next hit is not executed within 4 seconds of the previous hit, then the skill enters cooldown.
+** Since this skill's cooldown begins counting down immediately after the first hit, the cooldown displayed can be anywhere from 2 seconds to 8.5 seconds if not altered.
+:<gallery>
 Talent Searing Onslaught.png|First Hit
 Talent Searing Onslaught 2.png|Second Hit
 Talent Searing Onslaught 3.png|Third Hit
@@ -29,11 +31,40 @@ Talent Searing Onslaught 3.png|Third Hit
 *{{TalentNote|constellation|4|Flowing Flame}}
 *{{TalentNote|constellation|6|Flaming Sword, Nemesis of the Dark}}
 
+==Advanced Properties==
+{{Advanced Properties
+|title   = 1-Hit DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 120
+|impulse = 4
+|blunt   = 1
+
+|title2   = 2-Hit DMG
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 120
+|impulse2 = 5
+|blunt2   = 1
+
+|title3   = 3-Hit DMG
+|gu3      = 1U
+|icdtag3  = none
+|poise3   = 120
+|impulse3 = 6
+|blunt3   = 1
+}}
+
 ==Preview==
+;Default Outfit
 {{Preview
 |file    = Searing Onslaught Preview
 }}
-{{clr}}
+
+;Red Dead of Night
+{{Preview
+|file    = Searing Onslaught Preview Red Dead of Night
+}}
 
 ==Attribute Scaling==
 {{Talent Scaling
@@ -116,13 +147,17 @@ Talent Searing Onslaught 3.png|Third Hit
 |ru      = Огненный натиск
 |ru_tl   = Fiery Onslaught
 |th      = Searing Onslaught
-|vi      = Lưỡi Kiếm Tấn Công
-|vi_tl   = Attacking Blade
+|vi      = Lưỡi Đao Rực Lửa
+|vi_tl   = 
 |de      = Sengende Klinge
 |de_tl   = Torrid Blade
 |id      = Searing Onslaught
 |pt      = Investida Ardente
 |pt_tl   = 
+|tr      = Dağlayan Taarruz
+|tr_tl   = 
+|it      = Assalto fiammante
+|it_tl   = Flaming Assault
 }}
 
 ==Change History==
@@ -136,3 +171,5 @@ Talent Searing Onslaught 3.png|Third Hit
 [[pt-br:Investida Ardente]]
 [[ru:Огненный натиск]]
 [[th:Searing Onslaught]]
+[[uk:Лезо зворотного вогню]]
+[[vi:Lưỡi Đao Rực Lửa]]

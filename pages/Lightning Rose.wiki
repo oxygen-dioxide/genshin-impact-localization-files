@@ -16,23 +16,34 @@
 '''Lightning Rose''' is [[Lisa]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* Lightning Rose has a weak initial hit on cast to enemies within a certain radius, and then arcs another 29 times before disappearing. This initial hit, although it is {{Color|Electro DMG}}, does not apply an Electro aura.
-** The summon DMG value is 10% ATK and unaffected by talent level.<ref name=":0">KeqingMains Theorycrafting Library: [https://library.keqingmains.com/evidence/characters/electro/lisa#lisas-initial-summon-dmg-numerical-formula-data Lisa's Initial Summon DMG Numerical/Formula Data]</ref>
-* {{TalentNote|icd|Discharge DMG}}
+* {{TalentNote|energy frame|64}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|55}}<ref name="Genshin Academy burst info sheet" />
+* Lightning Rose has a weak initial hit on cast to enemies within a certain radius, and then arcs another 29 times before disappearing. This initial hit, despite dealing {{Color|Electro DMG}}, does not apply an Electro.
+** The initial hit's DMG value is 10% ATK and unaffected by talent level.<ref name=":0">KeqingMains Theorycrafting Library: [https://library.keqingmains.com/evidence/characters/electro/lisa#lisas-initial-summon-dmg-numericalformula-data Lisa's Initial Summon DMG Numerical/Formula Data]</ref>
 * {{TalentNote|snapshot|The damage of Lightning Rose|character=Lisa|talent=Lightning Rose|snapshottime=upon the placement of Lightning Rose}}
+
+;<big>Passive Effects</big>
 * {{TalentNote|ascension|2|Static Electricity Field|character=Lisa|talent=Lightning Rose}}
-** Does not get applied from the initial summon damage, only the discharges do.<ref name=":0" />
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|3|Resonant Thunder|character=Lisa|talent=Lightning Rose}}
 * {{TalentNote|constellation|4|Plasma Eruption|Increases the number of simultaneous lightning bolts released by Lightning Rose to a maximum of 3.|character=Lisa|talent=Lightning Rose}}
-** If there is only 1 enemy within the radius, Lightning Rose may only produce 1 discharge at a time to the enemy.
-** If there are only 2 enemies within the radius, Lightning Rose may produce 1 or 2 discharges in total at a time. For each instance, there is a ~17.5% chance for it to produce 1 discharge and a ~82.5% chance to produce 2 discharges.
-** If there are 3 or more enemies within the radius, Lightning Rose may produce 1, 2, or 3 discharges in total at a time. This scenario carries two sets of randomizations: One that randomizes between shooting 1 or 2 Discharges, following a 50% and 50% occurrence rate, and the other randomizing between 1, 2, and 3 Discharges, following a 25%, 50%, and 25% occurrence rate, respective to the number of Discharges.
-*** The first Arc released from a Lightning Rose will never release 3 Discharges, rather it will either release 1 or 2 Discharges, with a 50:50 rate.
-*** After the first Arc, following Arcs will follow either releasing 1 (25%), 2 (50%), or 3 Discharges (25%).
-*** However, if an Arc ever releases 3 Discharges, the subsequent Arc will release 1 or 2 Discharges, with the 50:50 ratio as described prior.
-*** Overall, the average distribution between all occurrences within 3 or 3+ Entities is around 30% of Arcs releasing 1 Discharge, 50% releasing 2 Discharges, and 20% releasing 3 Discharges.
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Activation DMG
+|gu      = 0U
+|icdtag  = none
+|poise   = 10
+|impulse = 4
+
+|title2   = Discharge DMG
+|gu2      = 1U
+|icdtag2  = Elemental Burst
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 10
+|impulse2 = 2
+}}
 
 ==Preview==
 {{Preview
@@ -90,7 +101,7 @@
 |fr      = Rose de foudre
 |fr_tl   = Lightning Rose
 |ru      = Громовая роза
-|ru_tl   = 
+|ru_tl   = Thunder Rose
 |th      = Lightning Rose
 |vi      = Tường Vi Sấm Sét
 |vi_tl   = Lightning Rose
@@ -99,6 +110,10 @@
 |id      = Lightning Rose
 |pt      = Rosa do Relâmpago
 |pt_tl   = 
+|tr      = Şimşek Gülü
+|tr_tl   = 
+|it      = Rosa fulminante
+|it_tl   = Lightning Rose
 }}
 
 ==Change History==
@@ -111,6 +126,8 @@
 {{Talent Navbox|Lisa}}
 
 [[es:Rayo de la rosa]]
+[[fr:Rose de foudre]]
+[[ja:薔薇の雷光]]
 [[pt-br:Rosa do Relâmpago]]
 [[ru:Громовая роза]]
 [[th:Lightning Rose]]

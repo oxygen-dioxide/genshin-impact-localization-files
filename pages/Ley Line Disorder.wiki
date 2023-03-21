@@ -1,2 +1,329 @@
-#REDIRECT [[Ley Line Disorders]]
-[[Category:Redirect Pages]]
+{{Terminology Infobox
+|image        = Icon Ley Line Disorder.png
+|type         = Combat
+|type2        = Game Systems
+}}
+'''Ley Line Disorders''' refer to effects within the [[Spiral Abyss]] and certain [[Domains]] that either help or hinder characters. These effects include dealing AoE damage, increasing cooldowns, draining energy, or buffing certain stats. Ley Line Disorders are separate from the Enemy Special Element Skill [[Auras]] on monsters and [[Elemental Nodes]].
+
+==Hazards/Debuffs==
+There are various '''Hazards''' and '''Debuffs''' that hinder characters within the [[Spiral Abyss]] and certain [[Domains]].
+
+===Environmental Hazards===
+Certain Ley Line Disorders affect the environmental conditions in the [[Spiral Abyss]] and certain [[Domains]], creating additional hazards or effects that may hinder characters such as {{Color|AoE Cryo DMG}} from falling icicles.
+
+{| class="article-table"
+|-
+! Name
+! Effect
+|-
+| [[Sheer Cold]]
+| After your character's temperature bar fills up with ice, you will lose HP per second until you are warmed up again by designated heat source. For more information regarding the HP drop function, see [[Subzero Climate]].
+|-
+| Lightning Bolts
+| Lightning bolts will periodically fall from above, dealing {{Color|Electro DMG}} and completely draining the hit character's Energy. Lightning bolts may leave balls of lightning.
+|-
+| Powerful Blast
+| When [[Overloaded]]/[[Superconduct]]/[[Electro-Charged]]/[[Melt]]/[[Vaporize]] is triggered, you will be hit by a powerful blast, causing your character to take DMG.
+|-
+| Icicles
+| Icicles will periodically fall from above, dealing {{Color|Cryo DMG}}.
+|-
+| Frozen Duration Increase
+| The duration of the Frozen status effect is greatly increased.
+|-
+| High-Energy Crystal Cores
+| Defeated opponents will drop unstable High-Energy Crystal Cores that will explode when characters get close to them, dealing {{Color|Geo DMG}} to nearby characters.
+|-
+| [[Plasma Field]]
+| A Plasma Field will be generated at the edge of the challenge area once the challenge begins. While within the field, characters will be hit by a lightning strike once every 2s/5s and take {{Color|Electro DMG}}. The area covered by the field will gradually expand as the challenge proceeds.
+|-
+| [[Chaos Cluster]]
+| A Chaos Cluster will chase characters around once the challenge begins. When the Chaos Cluster touches a character or opponents, it will deal immense DMG to them. If it touches a character, it will disappear. The size and DMG dealt by these clusters will gradually bleed away and grow smaller, but its speed will also gradually increase.
+|-
+| [[Attendant]]s
+| A designated enemy (the "leader") will have several other enemies ("attendants") that usually buff its [[Resistance]]s (by 10%) and heal it every 12s for 5% of the leader's HP per Attendant.
+|-
+| Energy Tides
+| Energy Tides are present in this challenge. They will switch between Elemental High Tide and Elemental Low Tide in 10s cycles.<br />During High Tide, a large amount of Elemental Particles will be generated when a character's attack hits opponents, restoring 10 Elemental Energy. This effect can occur once every 2.8s.<br />During Low Tide, all characters in the party cannot gain Elemental Energy.
+|}
+
+===Elemental Debuffs===
+Certain Ley Line Disorders cause negative effects or '''Debuffs''' that are tied to the application of an [[Element]] on characters. When the element is removed or cleansed from a character, the debuff is also removed. When the debuff is applied to a character because of an enemy, a 🚫 (no) symbol appears over the element in red on the status bar. Otherwise, there will be no indication of the debuff.
+
+{| class="wikitable" style="width:100%"
+|-
+! style="width:20%" | Name
+! style="width:5%" | Element
+! style="width:75%" | Effect
+|-
+| {{Effect|Smoldering Flames}} [[Smoldering Flames]]
+| style="text-align:center;" |{{Icon/Element|Pyro}}
+| Your character will be periodically inflicted with Smoldering Flames, causing you to take {{Color|Pyro DMG}} until the inflicted {{Pyro}} element is removed.
+|-
+| {{Effect|Slowing Water}} [[Slowing Water]]
+| style="text-align:center;" |{{Icon/Element|Hydro}}
+| Your character will be periodically inflicted with Slowing Water, greatly increasing your skills' CD duration until the inflicted {{Hydro}} element is removed.
+|-
+| {{Effect|Engulfing Storm}} [[Engulfing Storm]]
+| style="text-align:center;" |{{Icon/Element|Electro}}
+| Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted {{Electro}} element is removed.
+|-
+| {{Effect|Condensed Ice}} [[Condensed Ice]]
+| style="text-align:center;" |{{Icon/Element|Cryo}}
+| Your character will be periodically inflicted with Condensed Ice, greatly increasing your Stamina Consumption until the inflicted {{Cryo}} element is removed.
+|}
+
+* Elemental debuffs will apply to all characters in the party independently.
+** The effect of most elemental debuffs can affect all characters in the party. However, the effect of '''Smoldering Flames''' only influences the characters currently on the field.
+** The values of the effects differ between domains.
+* The interval between each pulse is '''30''' seconds.
+** After starting the challenge, it takes 3 seconds for the environment to release the first pulse.
+* The duration of the aura is '''not''' determined by the elemental gauge of the aura.
+** Aura have different durations between abilities.
+** Aura have different elemental gauges between domains.
+* If applied as a domain debuff, the duration of the aura can be reduced by [[Artifacts]] and [[Elemental Resonance]]. However, this does not work for debuffs applied by enemies.
+** For example, the base duration of Engulfing Storm is approximately 20 seconds. When a character has [[Prayers for Wisdom]] and [[Elemental Resonance|Shattering Ice]], the duration will be down to 20 × (1 - 0.4) × (1 - 0.4) = 20 × 0.6 × 0.6 = 7.2 seconds.<ref>NGA: [https://bbs.nga.cn/read.php?tid=25179204 Tests about Engulfing Storm duration]</ref>
+
+===Removing Elemental Debuffs===
+*The effect of elemental debuffs can be momentarily dispelled (cleansed) by intentionally causing elemental reactions on the character. For example, abilities like [[Barbara]]'s [[Let the Show Begin]] and [[Xingqiu]]'s [[Guhua Sword: Fatal Rainscreen]] can apply the Wet status to the active character. This is known as a [[Elemental Gauge Theory/Advanced Aura Mechanics#Self Auras|Self Aura]], which cannot trigger harmful effects except Frozen.
+
+*Most Self Aura talents apply 1 [[gauge unit]] of the corresponding element. The exception to this is [[Diona]]'s [[Icy Paws]], which applies 2 units.
+
+*With certain shield talents, such as [[Diona]]'s [[Icy Paws]] and [[Xinyan]]'s [[Sweeping Fervor]], when protected by the shield, once the player switches to another character, the talent will infuse the next character with the element. It can re-infuse infinitely many times by switching characters until the shield disappears.
+**This effect does not occur when using [[Thoma]]'s [[Blazing Blessing]]; in this case, Pyro is only applied to Thoma upon casting, and is not applied to any characters the player subsequently switches to.
+
+*Some auras '''cannot''' be dispelled by certain types of Self Auras.
+**Slowing Water cannot be dispelled by {{Electro}} and {{Color|Frozen}} Self Auras.
+**Engulfing Storm cannot be dispelled by {{Color|Wet}} Self Auras.
+
+{| class="article-table sortable"
+! Character !! Talent !! Element !! Elemental Gauge !! Duration (second) !! Interval (second)
+|-
+| {{Character|Bennett|20|nobr=1}} || {{Talent|Fantastic Voyage|20|nobr=1}} || {{Color|Pyro}} || 1 || 2.1 || 1
+|-
+| {{Character|Xinyan|20|nobr=1}} || {{Talent|Sweeping Fervor|20|nobr=1}} || {{Color|Pyro}} || 1 || 1 || -
+|-
+| {{Character|Barbara|20|nobr=1}} || {{Talent|Let the Show Begin♪|20|nobr=1}} || {{Color|Wet}} || 1 || 0.3 || 5
+|-
+| {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1}} || {{Color|Wet}} || 1 || 0.5 || -
+|-
+| {{Character|Beidou|20|nobr=1}} || {{Talent|Tidecaller|20|nobr=1}} || {{Color|Electro}} || 1 || 2 || -
+|-
+| {{Character|Razor|20|nobr=1}} || {{Talent|Lightning Fang|20|nobr=1}} || {{Color|Electro}} || 1 || 2.1 || 2
+|-
+| {{Character|Diona|20|nobr=1}} || {{Talent|Icy Paws|20|nobr=1}} || {{Color|Cryo|Frozen}} || 2 || 0.1 || -
+|-
+| {{Character|Jean|20|nobr=1}} || {{Talent|Dandelion Breeze|20|nobr=1}} || {{Color|Anemo}} || 1 || 0.2 || 1
+|-
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|Kurage's Oath|20|nobr=1}} || {{Color|Wet}} || 1 || 0.2 || -
+|-
+| {{Character|Thoma|20|nobr=1}} || {{Talent|Blazing Blessing|20|nobr=1}} || {{Color|Pyro}} || 1 || 1 || -
+|}
+
+==Buffs==
+Certain Ley Line Disorders provide buffs or additional effects that benefit characters.
+
+{| class="article-table"
+|-
+! Name
+! Effect
+|-
+| {{Color|Black|Elemental DMG}} Buff
+| (Element) DMG dealt by all party members increased by 75%
+|-
+| Energy Blast
+| When [[Overloaded]]/[[Melt]]/[[Vaporize]]/[[Electro-Charged]]/[[Superconduct]] is triggered, an Energy Blast will occur, dealing DMG to surrounding enemies.
+|-
+| Electro-Charged Buff
+| [[Electro-Charged]] DMG increased by 150%, and its AoE is increased by 100%.
+|-
+| Overloaded Buff
+| [[Overloaded]] DMG increased by 200%.
+|-
+| Swirl Buff
+| Increases [[Swirl]] reaction DMG by 300%, and its AoE by 100%.
+|-
+| Superconduct Buff
+| [[Superconduct]] DMG increased by 300%, and decreases target's Physical RES by an additional 20%
+|-
+| rowspan=9| HP Conditional Buff
+| When your character's HP is greater than 50%, ATK and DEF are increased by 25%.
+|-
+| When HP is greater than 80%, Normal Attack SPD is increased by 20%.
+|-
+| When HP is greater than 80%, Movement SPD is increased by 20%.
+|-
+| When HP is greater than 95%, CRIT Rate is increased by 10% and CRIT DMG is increased by 20%.
+|-
+| When HP is less than 60%, ATK is increased by 50% and DEF is increased by 50%.
+|-
+| When HP is less than 45%, Normal Attack SPD is increased by 30%.
+|-
+| When HP is less than 45%, Movement SPD is increased by 30%.
+|-
+| When HP is less than 30%, CRIT Rate is increased by 20% and CRIT DMG is increased by 40%.
+|-
+| When active character's {{Color|help|HP is greater than 90%}}, DMG dealt is increased by 50%.<br /><br />When an active character {{Color|help|regenerates HP}}, they will regenerate 3 Energy for all characters in your own party. This effect can be triggered once every 1.5s.
+|-
+| Action Conditional Buff
+| Using an Elemental Burst increases all party members' ATK and DEF by 6%. Max 10 stacks. At 5 stacks and above, increases character Normal Attack SPD and Movement SPD by an additional 30%.
+|-
+| CRIT Elemental Particle Generation
+| CRIT hits will generate Elemental Particles and Orbs. Can only occur once every 15s.
+|-
+| CRIT DMG Buff
+| CRIT DMG dealt by all party members increased by 120%.
+|-
+| Backlash
+| A backlash will occur when opponents hit a character protected by a shield, unleashing a shockwave originating at the attacking opponent's position that deals one instance of AoE DMG. Can occur once every 2s.
+|-
+| Plunging Attack Buff
+| When {{Color|help|Plunging Attacks}} hit opponents, each opponent hit will increase the ATK of all characters in your own party by 6% for 30s. A maximum of 60% ATK can be gained this way.<br /><br />All party members' {{Color|help|Plunging Attacks}} DMG increased by 120%.
+|-
+| Melee Buff
+| If the character wields a {{Color|help|Sword, Claymore or Polearm}}, {{Color|help|Normal and Charged Attacks}} deal 75% increased DMG.<br /><br />If the character wields a {{Color|help|Sword, Claymore or Polearm}}, {{Color|help|Normal and Charged Attacks}} will unleash shockwaves when they hit opponents, dealing AoE DMG. These shockwaves can be triggered in this manner every 2s.
+|-
+| Ranged Buff
+| When {{Color|help|there are no opponents}} around your current character, the DMG dealt by all characters in your party is increased by 75%.<br /><br />When {{Color|help|there are no opponents}} around your current character, Movement SPD is increased by 20%, and Sprinting and Alternative Sprint Stamina consumption is decreased by 50%.
+|-
+| Shield Buff
+| While {{Color|help|protected by a shield}}, the DMG dealt by characters is increased by 50%.<br /><br />When a character {{Color|help|obtains an Elemental Shard created from a Geo Reaction}} they will unleash a shockwave that deals DMG to opponents in an AoE. A shockwave can be triggered once every 1s.
+|-
+| Elemental Mastery Buff
+| All party members' {{Color|help|Elemental Mastery}} is increased by 300.<br /><br />When a character {{Color|help|triggers an Elemental Reaction on a nearby opponent}}, it will trigger a shockwave at that opponent's position that deals DMG. A shockwave can be triggered in this manner every 1s.
+|}
+
+==Trounce Domains==
+Certain [[Trounce Domain]]s are affected by Ley Line Disorders.
+
+{| class="article-table"
+|-
+
+
+! Name
+! Effect
+|-
+| [[Beneath the Dragon-Queller]]
+| When Azdhaha's Cryo, Pyro, Electro and Hydro attacks hit characters who are not under the protection of a shield, that character will be marked. Marked characters will continuously take {{Color|Black|Elemental DMG}}.
+|-
+| rowspan=3| [[Narukami Island: Tenshukaku]]
+| Depending on the combat phase you are in during the battle against Signora, the battlefield will enter a [[Sheer Cold]] or [[Blazing Heat]] state. While you are on the field, Sheer Cold or Blazing Heat will accumulate, and you will start to continuously lose HP once they hit their limit. The rate at which Sheer Cold or Blazing Heat accumulates will increase if you are hit by Signora's attacks of the corresponding type, or if you are standing on the corresponding Frosted Floor or Embered Earth.
+|-
+| Hearts of Flame and Eyes of Frost will appear during this battle. They can help decrease the Sheer Cold and Blazing Heat buildup for nearby characters. Destroying these objects will not only greatly decrease the corresponding temperature state, but it can also neutralize the effects of Frosted Floor or Embered Earth nearby.
+|-
+| When Signora sustains a single instance of DMG that exceeds a certain percentage of her Max HP, all DMG beyond that percentage will be nullified. After this, Signora will unleash a wave of cold air or heat that will cause characters to rapidly accumulate the corresponding temperature status. She will also launch a ferocious counterattack against active characters.
+|-
+| rowspan=2| [[End of the Oneiric Euthymia]]
+| Magatsu Mitake Narukami no Mikoto will continuously absorb Ominous Destiny, and will gain more upon hitting characters. When Ominous Destiny is filled up, she will enter the Baleful Shadowlord form.
+|-
+| While she is in this form, active characters will lose [[Elemental Energy]] at intervals. Magatsu Mitake Narukami no Mikoto will gain great [[Resistance|DMG RES]] and deal more fatal attacks. Use the appropriate [[elemental]] attacks to disable this form more quickly and obtain [[Energy]] in the process.
+|-
+| rowspan=3| [[Joururi Workshop]]
+| Some of Shouki no Kami's attacks will create Energy Blocks. Pick these blocks up to recharge the Neo Akasha Terminal. Once it has energy, the Neo Akasha Terminal can be put to various uses.
+|-
+| When you are standing over an Elemental Matrix on the ground during the battle's first phase, you can activate the matrix's effect(s):
+* {{Pyro}}: Clears the Raw Frost effect from the ground.
+* {{Cryo}}: Clears the Remnant Flames effect from the ground.
+* {{Anemo}}: Creates an [[Upcurrent]] with which you can dodge some of Shouki no Kami's attacks.
+* {{Hydro}}: Creates a continuous [[healing]] effect.
+* {{Electro}}: Suppresses Shouki no Kami. Activate the other Electro Matrix while a suppression effect is active to overload and paralyze him.
+|-
+| During the battle's second phase, charge the Neo Akasha Terminal fully to allow it to hit Shouki no Kami with a more powerful aimed attack which will deplete his shield. Additionally, when Shouki no Kami is charging his Setsuna Shoumetsu attack, this sort of attack can be used to hit his weak spot, toppling him over and immobilizing him.
+|}
+
+==Damage Calculations==
+Certain Ley Line Disorders deal damage directly to either characters or enemies, such as Icicles, Lightning Bolts, Powerful Blast, or Energy Blast.
+
+*Damage is dealt based on the effect's damage multiplier, the domain's Element Level Coefficient, and the target's resistance to the damage type.
+**The damage multipliers of some abilities may vary between different domains.
+**The Element Level Coefficient is the same as [[Level Scaling/Reaction#Element Level Coefficient|the Element Level Coefficient of transformative reactions]].
+**For the relationship between resistance and the damage reduction by resistance, see [[Damage#Resistance|Damage Resistance]].
+**For calculations:
+::<math>\text{Damage} = \text{Damage Multiplier} \times \text{Element Level Coefficient} \times \text{Damage Reduction by Resistance}</math>
+
+*The durations of applying aura on characters is determined by the elemental gauge, which is similar to the ones of attacks from characters
+*The skills have a fixed cooldown.
+**The cooldown of Powerful Blast is 3 seconds. For each character, the cooldown counts individually.
+**The cooldown of Energy Blast is 3 seconds. In the single mode, all characters in the party share the cooldown.
+*'''Energy Blast''' from Spiral Blessing maybe uses different damage multipliers, not only 400%.
+
+{| class="article-table"
+! DL !! Effect !! Enemy Level !! Damage Multiplier !! Element !! Elemental Gauge !! Duration !! Note
+|-
+! colspan=8 | Icicles (Domain: Forsaken Rift)
+|-
+| III || 222 {{Color|Cryo DMG}} per Hit || 71 || 30% || Cryo || 1 || 9.5 || '''-100''' Stamina when the character is hit
+|-
+| IV || 570 {{Color|Cryo DMG}} per Hit || 88 || 50% || Cryo || 1 || 9.5 || '''-100''' Stamina when the character is hit
+|-
+! colspan=8 | Lightning Bolts (Domain: Hidden Palace of Lianshan Formula)
+|-
+| III || 471 {{Color|Electro DMG}} per Hit || 59 || 100% || Electro || 2 || 12 || '''-30''' Energy when the character is hit
+|-
+| IV || 1419 {{Color|Electro DMG}} per Hit || 80 || 150% || Electro || 2 || 12 || '''-40''' Energy when the character is hit
+|-
+! colspan=8 | Balls of Lightning (Domain: Hidden Palace of Lianshan Formula)
+|-
+| III || 141 {{Color|Electro DMG}} per Hit || 59 || 30% || Electro || 0 || 0 || '''-1''' Energy when the character is hit
+|-
+| IV || 283 {{Color|Electro DMG}} per Hit || 80 || 30% || Electro || 0 || 0 || '''-1.5''' Energy when the character is hit
+|-
+! colspan=8 | Powerful Blast (Artifact Domains)
+|-
+| Some Levels || - || - || 400% || Physical || - || - || -
+|-
+! colspan=8 | Energy Blast (Artifact Domains)
+|-
+| Some Levels || - || - || 400% || Physical || - || - || -
+|}
+
+==Other Languages==
+{{Other Languages
+|en      = Ley Line Disorder
+|zhs     = 地脉异常
+|zhs_rm  = Dìmài Yìcháng
+|zht     = 地脈異常
+|zht_rm  = Dìmài Yìcháng
+|zh_tl   = Ley Line Abnormality
+|ja      = 地脈異常
+|ja_rm   = Chimyaku Ijou{{Assumed}}
+|ja_tl   = Ley Line Abnormality{{Sino|ja}}
+|ko      = {{tt|지맥|地脈}} {{tt|이상|異常}}
+|ko_rm   = Jimaek Isang
+|ko_tl   = Veins Abnormality{{Sino|ko}}
+|es      = Líneas ley anómalas
+|es_tl   = Anomalous Ley Lines
+|fr      = Anomalies énergétiques
+|fr_tl   = Energetic Anomalies
+|ru      = Аномалия артерий земли
+|ru_tl   = {{Lexicon|Ley Line|ru}} Anomaly
+|th      = กระแสพลังผิดปกติ
+|th_rm   = 
+|th_tl   = 
+|vi      = {{tt|Địa Mạch Bất Thường|地脈不常}}
+|vi_tl   = Ley Line Anomaly
+|de      = Elementaranomalie
+|de_tl   = Elemental Anomaly
+|id      = Gangguan Ley Line
+|id_tl   = Ley Line Disruption
+|pt      = Desordem das Linhas Ley
+|pt_tl   = 
+|tr      = Ley Hattı Bozukluk
+|tr_tl   = 
+|it      = Anomalia geomantica
+|it_tl   = Geomantic Anomaly
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Element Navbox|state=collapsed}}
+{{Combat Navbox}}
+
+[[ja:地脈異常]]
+[[pt-br:Desordem das Linhas Ley]]
+[[th:กระแสพลังผิดปกติ/sandbox]]

@@ -1,48 +1,60 @@
 {{Enemy Infobox
 |title    = Rolling Elemental
 |image    = Enemy Large Hydro Slime.png
-|element  = Hydro
+|dmgtype  = Hydro
+|weakpoint = no
 |type     = Common Enemies
 |family   = Elemental Lifeforms
 |group    = Slimes
 |location = Multiple
 }}
-{{Description|A monster created by the sedimentation of Hydro dispersed throughout nature.<br />A larger and more powerful Hydro Slime that can create bubbles to entrap its enemies. It is said that they can grow to truly staggering sizes if given an energy-rich environment. Eyewitnesses have supposedly seen Hydro Slimes as large as a small mound in Wolvendom.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Slimes}}
+===Items===
+{{Drops Table|type=Slimes (Large)}}
+
+===Energy===
+{{Energy Drops
+|type  = Hydro
+|hp1   = 66
+|p1    = 1
+|hp2   = 33
+|p2    = 1
+|hp3   = 0
+|o3    = 1
+}}
 
 ==Stats==
-{{Enemy Stats|hydro_res=Immune|hp_ratio=2|atk_ratio=1.4|hp_type=1}}
+{{Enemy Stats|hydro_res=Immune|hp_ratio=2|atk_ratio=2.8|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Wet Application:''' When attacked, the Hydro Slime applies the {{Color|Wet}} Status for 10 seconds to all players and enemies in a '''2m''' radius.
-*'''Bump:''' Bumps into the player, dealing '''100% ATK''' as {{Color|Hydro DMG}}.
-*'''Leap:''' Jumps high into the air before slamming down at the player's location, dealing '''300% ATK''' as {{Color|AoE Hydro DMG}}.
-** Certain enhanced Large Hydro Slimes, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, have reduced [[Cooldown]] on this attack.
-*'''Bubble Spit:''' Launches a [[Bubbles|bubble]] in a high arc at the target.
-**Upon contact with a player, the bubble deals '''100% ATK''' as {{Color|Hydro DMG}}, temporarily trapping and immobilizing the player.
-**Upon contact with another enemy, temporarily traps and immobilizes the enemy, or simply pops if the enemy is too large to be trapped.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Wet Application
+|desc_1 = When attacked, the Hydro Slime applies the {{Color|Wet}} Status for 10 seconds to all players and enemies in a '''2m''' radius.
 
-====Preview====
-{{Preview
-|size=185px
-|file1=Large Hydro Slime Bump
-|caption1=Bump
+|name_2 = Bump
+|desc_2 = Bumps into the player, dealing '''50% ATK''' as {{Color|Hydro DMG}}.
 
-|file2=Large Hydro Slime Leap
-|caption2=Leap
+|name_3 = Leap
+|desc_3 = Jumps high into the air before slamming down at the player's location, dealing '''100% ATK''' as {{Color|AoE Hydro DMG}}.
+* Certain enhanced Large Hydro Slimes, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, have reduced [[Cooldown]] on this attack.
 
-|file3=Large Hydro Slime Bubble Spit
-|caption3=Bubble Spit
+|name_4 = Bubble Spit
+|desc_4 = Launches a [[Bubbles|bubble]] in a high arc at the target.
+* Upon contact with a player, the bubble deals '''50% ATK''' as {{Color|Hydro DMG}}, temporarily trapping and immobilizing the player.
+* Upon contact with another enemy, temporarily traps and immobilizes the enemy, or simply pops if the enemy is too large to be trapped.
 }}
+
+==Descriptions==
+{{Description|A monster created by the sedimentation of Hydro dispersed throughout nature.<br />A larger and more powerful Hydro Slime that can create bubbles to entrap its enemies. It is said that they can grow to truly staggering sizes if given an energy-rich environment. Eyewitnesses have supposedly seen Hydro Slimes as large as a small mound in Wolvendom.|[[Archive]]}}
 
 ==Trivia==
 *A Large Hydro Slime can be seen at [[Barbara]]'s [[Summertime Sparkle]] splash art.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Large Hydro Slime Icon.png|Icon
 </gallery>
 
@@ -61,7 +73,7 @@ Enemy Large Hydro Slime Icon.png|Icon
 |ko_rm   = Geodae Mul Seullaim
 |ko_tl   = Large {{Lex|Hydro|ja}} Slime
 |es      = Slime Gigante Hydro
-|es_tl   = 
+|es_tl   = Giant Hydro Slime
 |fr      = Hydroblob géant
 |fr_tl   = Giant Hydro Blob
 |ru      = Большой Гидро слайм
@@ -74,6 +86,10 @@ Enemy Large Hydro Slime Icon.png|Icon
 |id      = Large Hydro Slime
 |pt      = Grande Slime Hydro
 |pt_tl   = 
+|tr      = Büyük Su Bodurlopu
+|tr_tl   = 
+|it      = Melmoso di Hydro gigante
+|it_tl   = 
 }}
 
 ==Change History==
@@ -82,5 +98,10 @@ Enemy Large Hydro Slime Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Großer Hydro-Schleim]]
 [[es:Slime Gigante Hydro]]
+[[fr:Hydroblob géant]]
+[[ja:大型水スライム]]
 [[pt-br:Grande Slime Hydro]]
+[[th:Large Hydro Slime]]
+[[zh:大型水史萊姆]]

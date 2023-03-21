@@ -1,2 +1,581 @@
-#redirect [[Resistance]]
-[[Category:Redirect Pages]]
+{{ResistanceTabs}}
+{{About|an attribute|the Inazuman faction commonly known as "the resistance"|Watatsumi Army}}
+{{See also|Defense|Damage Reduction}}
+{{Terminology Infobox
+|type         = Attributes
+}}
+Characters and enemies can have different '''resistances''' to [[elemental]] and [[physical]] [[damage]]. There are further ways to increase or decrease these resistances. The resistance [[attribute]] is denoted by RES in-game. Its formula is:
+
+:<math>\%\text{ RES} = \%\text{ RES Base} + \%\text{ RES Bonus} - \% \text{ RES Debuffs}</math>
+
+==RES Multiplier==
+[[File:Resistance multiplier graph.png|thumb|right|400px|Resistance Multiplier vs. RES%]]
+The Resistance multiplier varies nonlinearly with the RES percentage. Depending on the value of <math>\% \text{ RES}</math> in the interval below, the corresponding <math>\text{RES Multiplier}</math> is as follows:<ref name="Chinese forum post">Chinese HoYoLAB: [https://bbs.mihoyo.com/ys/article/2160993 【空荧酒馆】怪物全元素抗性及抗性测算（已更1.6相关）]</ref>
+
+{| class="article-table sortable waffle no-grid"
+|-
+!Formula
+!Interval
+|-
+|<math>\text{1} - \biggl( \frac{\mathsf{RES}}{\text{2}} \biggr)</math>
+|RES < 0
+|-
+|<math>\text{1} - \mathsf{RES}</math>
+| 0 ≤ RES < 0.75
+|-
+|<math>\frac{\text{1}}{\text{4} \times \mathsf{RES} + \text{1}}</math>
+|RES ≥ 0.75
+|}
+
+For example, an enemy with 10% RES (0.1) will have a <math>\text{1}-\text{0.1}=\text{0.9}</math> RES multiplier (meaning that [[damage]] is reduced). If one swirls with the [[Viridescent Venerer]] set to reduce resistance by 40%, then the <math>\text{10}-\text{40}=-\text{30}\%</math> RES (-0.3) will have a <math>\text{1}-\biggl(\frac{-\text{0.3}}{\text{2}}\biggr)=\text{1.15}</math> RES multiplier (meaning that damage is amplified).
+
+In general, since the RES multiplier decreases with RES percentage, the lower the target's RES percentage, the more damage one can do to it.
+
+==Resistance Types==
+There are 8 types of resistances corresponding to the 7 [[Elements]] and {{Color|Physical DMG}}.
+
+Specific details for the abilities, items, reactions, and other effects that modify a character's or enemy's resistance are listed on these separate pages.
+
+{| class="article-table tdc1"
+! [[Element]] !! Resistance
+|-
+| {{Element|Anemo| 30}} || [[Anemo Resistance]]
+|-
+| {{Element|Cryo| 30}} || [[Cryo Resistance]]
+|-
+| {{Element|Dendro| 30}} || [[Dendro Resistance]]
+|-
+| {{Element|Electro| 30}} || [[Electro Resistance]]
+|-
+| {{Element|Geo| 30}} || [[Geo Resistance]]
+|-
+| {{Element|Hydro| 30}} || [[Hydro Resistance]]
+|-
+| {{Element|Pyro| 30}} || [[Pyro Resistance]]
+|-
+| {{Element|Physical| 30}} || [[Physical Resistance]]
+|}
+
+==Enemy Resistances==
+{| class="article-table sortable"
+|-
+! [[Enemy]]
+! Elemental RES
+! Physical RES
+! Other
+|-
+| {{Enemy|Slime|20}}
+| 10%
+| 10%
+| Immune to corresponding element
+|-
+| {{Enemy|Hilichurls|20}}
+| 10%
+| 10%
+|
+|-
+| {{Enemy|Mitachurl|20}}
+| 10%
+| 30%
+|
+|-
+| {{Enemy|Samachurl|20}}
+| 10%
+| 10%
+| +40% RES to corresponding element
+|-
+| {{Enemy|Lawachurl|20}}
+| 10%
+| 50%
+| +60% RES to corresponding element
+|-
+| {{Enemy|Ruin Guard|20}}
+| 10%
+| 70%
+|
+|-
+| {{Enemy|Ruin Grader|20}}
+| 10%
+| 70%
+|
+|-
+| {{Enemy|Ruin Hunter|20}}
+| 10%
+| 50%
+|
+|-
+| rowspan="2" | {{Enemy|Whopperflower|20}}
+| rowspan="2" | 35%
+| rowspan="2" | 35%
+| +40% RES to corresponding element
+|-
+| -25% All RES when stunned
+|-
+| {{Enemy|Fatui Skirmisher|20}}
+| 10%
+| -20%
+| +100% All RES with elemental armor
+|-
+| {{Enemy|Fatui Pyro Agent|20}}
+| 10%
+| -20%
+| +40% Pyro RES
+|-
+| {{Enemy|Fatui Cicin Mage|20}}
+| 10%
+| -20%
+| +40% RES to corresponding element
+|-
+| {{Enemy|Treasure Hoarder|20}}
+| 10%
+| -20%
+|
+|-
+| {{Enemy|Millelith|20}}
+| 10%
+| -20%
+|
+|-
+| {{Enemy|Geovishap Hatchling|20}}
+| 10%
+| 30%
+| +40% Geo RES
+|-
+| rowspan="2" | {{Enemy|Geovishap|20}}
+| rowspan="2" | 10%
+| rowspan="2" | 30%
+| +40% Geo RES
+|-
+| +20% RES to corresponding element after infusing
+|-
+| {{Enemy|Abyss Mage|20}}
+| 10%
+| 10%
+|
+|-
+| {{Enemy|Abyss Herald|20}}
+| 10%
+| 10%
+|
+|-
+| {{Enemy|Abyss Lector|20}}
+| 10%
+| 10%
+|
+|-
+| {{Enemy|Eye of the Storm|20}}
+| 10%
+| 10%
+| Immune to Anemo
+|-
+| {{Enemy|Cicin|20}}
+| 10%
+| -50%
+| +40% RES to corresponding element
+|-
+| {{Enemy|The Great Snowboar King|20}}
+| 10%
+| 50%
+| +20% Cryo RES
+|-
+| {{Enemy|Hypostasis|20}}
+| 10%
+| 10%
+| Immune to corresponding element
+|-
+| {{Enemy|Oceanid|20}}
+| 10%
+| 10%
+|
+|-
+| rowspan="5" | {{Enemy|Hydro Mimic|20}}
+| rowspan="5" | 15%
+| rowspan="5" | 15%
+| Immune to Hydro
+|-
+| Boar and Ferret -55% Pyro RES
+|-
+| Crane and Raptor -55% Electro RES
+|-
+| Crab and Mallard -55% Cryo RES
+|-
+| Finch and Frog -55% Geo RES
+|-
+| {{Enemy|Hydro Mimic|20}} (Event)
+| 10%
+| 10%
+| Immune to Hydro
+|-
+| rowspan="2" | {{Enemy|Cryo Regisvine|20}}
+| rowspan="2" | 10%
+| rowspan="2" | 30%
+| +60% Cryo RES
+|-
+| +100% All RES while shielded
+|-
+| rowspan="2" | {{Enemy|Pyro Regisvine|20}}
+| rowspan="2" | 10%
+| rowspan="2" | 30%
+| +60% Pyro RES
+|-
+| +100% All RES while shielded
+|-
+| rowspan="2" | {{Enemy|Electro Regisvine|20}}
+| rowspan="2" | 10%
+| rowspan="2" | 30%
+| +60% Electro RES
+|-
+| +300% All RES while shielded
+|-
+| rowspan="4" | {{Enemy|Primo Geovishap|20}}
+| rowspan="4" | 10%
+| rowspan="4" | 30%
+| +40% Geo RES
+|-
+| +20% RES to corresponding element
+|-
+| +200% All RES when awaking
+|-
+| -50% All RES for 5 seconds after being countered
+|-
+| {{Enemy|Dvalin|20}}
+| 10%
+| 10%
+|
+|-
+| {{Enemy|Andrius|20}}
+| 10%
+| 10%
+| Immune to Anemo and Cryo
+|-
+| rowspan="3" | {{Enemy|Childe|20}}
+| rowspan="3" | 0%
+| rowspan="3" | 0%
+| Phase 1:<br />+50% Hydro RES<br />-30% All RES when stunned
+|-
+| Phase 2:<br />+50% Electro RES<br />-50% All RES when stunned
+|-
+| Phase 3:<br />+70% Hydro RES<br />+70% Electro RES
+|-
+| rowspan="3" | {{Enemy|Azhdaha|20}}
+| rowspan="3" | 10%
+| rowspan="3" | 40%
+| +60% Geo RES
+|-
+| +60% RES to infused element after first infusion
+|-.
+| +50% RES to infused element after second infusion.
+|-
+| {{Enemy|Maguu Kenki|20}}
+| 10%
+| 10%
+|
+|-
+| {{Enemy|Dual Maguu Kenki|20}}
+| 10%
+| 10%
+| +20% RES to corresponding element
+|-
+| {{Enemy|Ruin Cruiser|20}}
+| 10%
+| 30%
+|
+|-
+| {{Enemy|Ruin Destroyer|20}}
+| 10%
+| 30%
+|
+|-
+| {{Enemy|Ruin Defender|20}}
+| 10%
+| 50%
+|
+|-
+| {{Enemy|Ruin Scout|20}}
+| 10%
+| 50%
+|
+|-
+| {{Enemy|Perpetual Mechanical Array|20}}
+| 10%
+| 70%
+| -50% All RES when stunned
+|-
+| {{Enemy|Nobushi|20}}
+| 10%
+| -20%
+|
+|-
+| {{Enemy|Kairagi|20}}
+| 10%
+| -20%
+|
+|-
+| {{Enemy|Mirror Maiden|20}}
+| 10%
+| -20%
+| +40% Hydro RES
+|-
+| {{Enemy|Specter|20}}
+| 10%
+| 10%
+| Immune to corresponding element
+|-
+| {{Enemy|Thunder Manifestation|20}}
+| 10%
+| 10%
+| Immune to Electro
+|-
+| {{Enemy|La Signora|20}}
+| 10%
+| 10%
+| Phase 1: +40% Cryo RES<br />Phase 2: +60% Pyro RES
+|-
+| {{Enemy|Rifthound|20}}
+| 25%
+| 25%
+| -65% RES to corresponding element in Elemental Devourer state
+|-
+| {{Enemy|Rifthound Whelp|20}}
+| 20%
+| 20%
+| -30% RES to corresponding element in Elemental Devourer state
+|-
+| {{Enemy|Golden Wolflord|20}}
+| 25%
+| 25%
+| +200% All RES at the beginning of the fight<br />-45% Geo RES in Elemental Devourer state
+|-
+| {{Enemy|Fellflower|20}} (Event Boss)
+| 210%
+| 210%
+| +60% Cryo RES<br />-200% All RES after the shield is destroyed
+|-
+| {{Enemy|Bathysmal Vishap|20}} (Hatchling)
+| 10%
+| 30%
+| +10% RES to corresponding element
+|-
+| {{Enemy|Bathysmal Vishap|20}} (Large)
+| 10%
+| 30%
+| +20% RES to corresponding element
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}}
+| 10%
+| 10%
+| +200% All RES when in the Baleful Shadowlord phase<br />-60% All RES when stunned after the Baleful Shadowlord phase ends
+|-
+| {{Enemy|Shadowy Husk|20}}
+| 10%
+| 30%
+| +20% RES to corresponding element
+|-
+| {{Enemy|Black Serpent Knight: Windcutter|20}}
+| 10%
+| 30%
+| +40% Anemo RES<!---
+|-
+| {{Enemy|Black Serpent Knight: Rockbreaker Ax|20}}
+| 10%
+| 10%
+| +40% Geo RES-->
+|-
+| {{Enemy|Fungus|20}} (Small, Except Dendro)
+| 10%
+| 10%
+| +10% RES to corresponding element<br />+10% Dendro RES
+|-
+| {{Enemy|Floating Dendro Fungus|20}}
+| 10%
+| 10%
+| +15% Dendro RES
+|-
+| {{Enemy|Fungus|20}} (Large, Except Dendro)
+| 10%
+| 10%
+| +20% RES to corresponding element<br />+20% Dendro RES
+|-
+| {{Enemy|Winged Dendroshroom|20}}
+| 10%
+| 10%
+| +30% Dendro RES
+|-
+| {{Enemy|Ruin Serpent|20}}
+| 10%
+| 70%
+| +300% All RES when charging
+|-
+| {{Enemy|The Eremites|20}} (Low Tier)
+| 10%
+| -20%
+|
+|-
+| {{Enemy|The Eremites|20}} (Mid Tier)
+| 10%
+| -20%
+| -60% RES to corresponding element while stunned
+|-
+| {{Enemy|The Eremites|20}} (High Tier)
+| 10%
+| -20%
+| +50% All RES while enhanced<br />-60% RES to corresponding element while stunned
+|-
+| {{Enemy|Ruin Drake|20}}
+| 10%
+| 50%
+| +40% RES to absorbed element
+|-
+| {{Enemy|Jadeplume Terrorshroom|20}}
+| 25%
+| 25%
+| +55% Dendro RES<br />-25% All RES while stunned
+|-
+| {{Enemy|Aeonblight Drake|20}}
+| 10%
+| 70%
+| +60% RES to absorbed element<br />+100% All RES at the beginning of the fight
+|-
+| {{Enemy|Primal Construct|20}} (Elite Enemy)
+| 10%
+| 10%
+| +50% All RES while invisible
+|-
+| {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}}
+| 10%
+| 10%
+| +200% All RES while invisible<br />+100% All RES at the beginning of the fight
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20|text=Everlasting Lord of Arcane Wisdom (Phase 1)}}
+| 10%
+| 10%
+| +40% Electro RES
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20|text=Everlasting Lord of Arcane Wisdom (Phase 2)}}
+| 30%
+| 30%
+| +60% Electro RES<br />+200% All RES while shielded<br />-170% All RES while stunned
+|-
+| {{Enemy|Consecrated Beast|20}}
+| 40%
+| 40%
+| +30% RES to corresponding element<br />-30% All RES while stunned<br />-30% RES to corresponding element while stunned
+|-
+| {{Enemy|Setekh Wenut|20}}
+| 25%
+| 25%
+| +35% Anemo RES<br />-45% RES to elements that its Windbite Bullets were destroyed by while paralyzed.
+|}
+
+===Enemy Resistance Modifiers===
+Enemy Resistance can be affected by various other effects:
+
+{| class="wikitable sortable"
+|-
+! Effect
+! Amount
+! Resistance type
+! Notes
+|-
+| [[Elemental Nodes]]
+| +50%
+| All
+| An additional +50% to the node's element.
+|-
+| [[Superconduct]]
+| -40%
+| Physical
+| Effect lasts 12 seconds
+|-
+| [[Attendants]] Ley Line Disorder
+| +10%
+| All
+|
+|-
+| [[Labyrinth Warriors|Shikifuda: Snowstorm Summoning]]
+| -20%
+| All
+|
+|}
+
+==Decreasing Enemy Resistance==
+Several character abilities can decrease the base enemy resistances listed above. For specific details, see the individual Resistance pages.
+
+===Talents===
+{{Talents by Category Table|Anemo RES Reduction Talents{{!}}Cryo RES Reduction Talents{{!}}Dendro RES Reduction Talents{{!}}Electro RES Reduction Talents{{!}}Geo RES Reduction Talents{{!}}Hydro RES Reduction Talents{{!}}Pyro RES Reduction Talents{{!}}Physical RES Reduction Talents{{!}}Universal RES Reduction Talents{{!}}Anemo Interaction Dependent RES Reduction Talents|collapsed=1}}
+
+===Constellations===
+{{Constellations by Category Table|Anemo RES Reduction Constellations{{!}}Cryo RES Reduction Constellations{{!}}Dendro RES Reduction Constellations{{!}}Electro RES Reduction Constellations{{!}}Geo RES Reduction Constellations{{!}}Hydro RES Reduction Constellations{{!}}Pyro RES Reduction Constellations{{!}}Physical RES Reduction Constellations{{!}}Universal RES Reduction Constellations{{!}}Anemo Interaction Dependent RES Reduction Constellations|collapsed=1}}
+
+===Artifacts===
+{{Artifacts by Category Table|category=Anemo RES Reduction Artifacts{{!}}Cryo RES Reduction Artifacts{{!}}Dendro RES Reduction Artifacts{{!}}Electro RES Reduction Artifacts{{!}}Geo RES Reduction Artifacts{{!}}Hydro RES Reduction Artifacts{{!}}Pyro RES Reduction Artifacts{{!}}Physical RES Reduction Artifacts{{!}}Universal RES Reduction Artifacts{{!}}Anemo Interaction Dependent RES Reduction Artifacts}}
+
+===Elemental Resonance===
+{{Main|Elemental Resonance}}
+The {{Element|Geo|24}} [[Enduring Rock]] Elemental Resonance decreases the {{Color|Geo RES}} by 20% for 15s of enemies who take DMG from characters protected by a shield.
+
+==Increasing Character Resistance==
+This list some general ways to increase character resistance. For specific details, see the individual Resistance pages.
+
+===Talents===
+{{Talents by Category Table|Anemo RES Increase Talents{{!}}Cryo RES Increase Talents{{!}}Dendro RES Increase Talents{{!}}Electro RES Increase Talents{{!}}Geo RES Increase Talents{{!}}Hydro RES Increase Talents{{!}}Pyro RES Increase Talents{{!}}Physical RES Increase Talents{{!}}Universal RES Increase Talents{{!}}Anemo Interaction Dependent RES Increase Talents|collapsed=1}}
+
+===Constellations===
+{{Constellations by Category Table|Anemo RES Increase Constellations{{!}}Cryo RES Increase Constellations{{!}}Dendro RES Increase Constellations{{!}}Electro RES Increase Constellations{{!}}Geo RES Increase Constellations{{!}}Hydro RES Increase Constellations{{!}}Pyro RES Increase Constellations{{!}}Physical RES Increase Constellations{{!}}Universal RES Increase Constellations{{!}}Anemo Interaction Dependent RES Increase Constellations|collapsed=1}}
+
+===Artifacts===
+{{Artifacts by Category Table|Elemental RES Increase Artifacts|not1=Physical RES Increase Artifacts}}
+
+===Potions===
+{{Food by Category Table|Elemental RES Dishes}}
+
+===Elemental Resonance===
+{{Main|Elemental Resonance}}
+When in a party of 4 different elements, the Elemental Resonance [[Protective Canopy]] increases All Elemental RES and Physical RES by 15%.
+
+==Decreasing Character Resistance==
+===Talents===
+The following decreases elemental and physical RES.
+
+{{Talents by Category Table|Universal RES Decrease Talents}}
+
+==Benefit of Resistance Reduction==
+The Resistance multiplier varies nonlinearly with the RES percentage, so the Exact Relative Damage Bonus (i.e. Benefit) of Resistance Reduction is also piecewise with the RES percentage.
+
+<math>\text{Benefit of Resistance Reduction} = \frac{\text{RES Multiplier}_\text{After} - \text{RES Multiplier}_\text{Before}}{\text{RES Multiplier}_\text{Before}} = \frac{\text{RES Multiplier}_\text{After}}{\text{RES Multiplier}_\text{Before}} - 1</math>
+
+Depending on the value of Target Resistance <math>\% \text{RES}</math> and the value of Resistance Reduction <math>\% \text{RR}</math> in the interval below, the corresponding Benefit of Resistance Reduction <math>\text{Benefit}_{RR}</math> is as follows:<ref>NGA: [https://bbs.nga.cn/read.php?tid=23633102 伤害加成公式以及类型汇总]</ref>
+
+{| class="article-table sortable waffle no-grid"
+|-
+!Formula
+!Interval
+|-
+|<math>\frac{\mathsf{RR}}{\text{2} - \mathsf{RES}}</math>
+| RES < 0
+|-
+|<math>\frac{\mathsf{RES} + \mathsf{RR}}{\text{2} \times (\text{1} - \mathsf{RES})}</math>
+| 0 ≤ RES < RR < 0.75
+|-
+|<math>\frac{\mathsf{RR}}{\text{1} - \mathsf{RES}}</math>
+| 0 < RR < RES < 0.75
+|-
+|<math>(\text{4} \times \mathsf{RES} + \text{1}) \times \biggl( \frac{\mathsf{RR} - \mathsf{RES}}{\text{2}} + \text{1} \biggr) - \text{1}</math>
+| RES > 0.75, RES - RR < 0
+|-
+|<math>(\text{4} \times \mathsf{RES} + \text{1}) \times ( \text{1} - \mathsf{RES} + \mathsf{RR} ) - \text{1}</math>
+| RES > 0.75, 0 < RES - RR < 0.75
+|-
+|<math>\frac{\text{4} \times \mathsf{RES} + \text{1}}{\text{4} \times ( \mathsf{RES} - \mathsf{RR} ) + \text{1}} - \text{1}</math>
+| RES > 0.75, RES - RR > 0.75
+|}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Attribute Navbox}}
+{{Combat Navbox|state=collapsed}}
+
+[[ja:耐性]]
+[[pt-br:Resistência]]

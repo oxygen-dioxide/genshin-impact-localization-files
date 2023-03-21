@@ -4,7 +4,7 @@
 __TOC__
 ==Story==
 {{VO/Story
-|character           = {{ROOTPAGENAME}}
+|character           = Zhongli
 
 |vo_01_01_title      = Hello
 |vo_01_01_file       = VO_{language}{character} Hello.ogg
@@ -86,7 +86,7 @@ __TOC__
 |vo_08_01_quest      = A New Star Approaches
 |vo_08_01_file       = VO_{language}{character} About Xiao.ogg
 |vo_08_01_tx         = You speak of the young adeptus of [[Guili Plains]]... *sigh* Still fulfilling his duty to this very day. Please give these Remedium Tertiorum to him on my behalf. Oh, yes &mdash; be sure not to let [[Paimon]] eat them. Nothing of this world can withstand the power of this medicine.
-|vo_08_01_actual     = You speak of the young adeptus of [[Guili Plains]]... *sigh* Still fulfilling his duty to this very day. Please give these {{Highlight|painkillers}} to him on my behalf. Oh, {{Highlight|and}} &mdash; be sure not to let [[Paimon]] eat them. Nothing of this world can withstand the power of this medicine.
+|vo_08_01_actualtx   = You speak of the young adeptus of [[Guili Plains]]... *sigh* Still fulfilling his duty to this very day. Please give these {{Highlight|painkillers}} to him on my behalf. Oh, {{Highlight|and}} &mdash; be sure not to let [[Paimon]] eat them. Nothing of this world can withstand the power of this medicine.
 |vo_08_01_mention    = Xiao,Paimon
 |vo_08_02_title      = About [[Venti]]
 |vo_08_02_friendship = 4
@@ -109,7 +109,7 @@ __TOC__
 |vo_08_05_friendship = 4
 |vo_08_05_file       = VO_{language}{character} About Tartaglia - Composed.ogg
 |vo_08_05_tx         = That rascal from [[Snezhnaya]] has yet to depart from Liyue? No matter, just let me know if he gives you any trouble. I shall deal with the matter swiftly.
-|vo_08_05_actual     = That rascal from Snezhnaya has yet to depart from Liyue? {{Highlight|Heh,}} no matter, just let me know if he gives you any trouble. I shall deal with the matter swiftly.
+|vo_08_05_actualtx   = That rascal from Snezhnaya has yet to depart from Liyue? {{Highlight|Heh,}} no matter, just let me know if he gives you any trouble. I shall deal with the matter swiftly.
 |vo_08_05_mention    = Tartaglia
 |vo_08_06_title      = About Tartaglia: Drinks
 |vo_08_06_friendship = 4
@@ -141,6 +141,13 @@ __TOC__
 |vo_08_10_tx         = Time tempers all volition. Yet she would give up everyone for her beliefs. Perhaps it is for this very reason that she has come to where she stands today... Should the chance come by me, I too would like to learn of the Eternity for which she so earnestly endeavors.
 |vo_08_10_mention    = Baal
 
+|vo_08_11_title      = About [[Buer]]
+|vo_08_11_friendship = 4
+|vo_08_11_quest      = Akasha Pulses, the Kalpa Flame Rises
+|vo_08_11_file       = VO_{language}{character} About Buer.ogg
+|vo_08_11_tx         = As well as ruling over all of [[Sumeru]], the God of Wisdom, Buer, has a duty to guard [[Irminsul]]. Only one who possesses great wisdom could hope to shoulder these responsibilities. All life in Teyvat owes her gratitude for saving Irminsul.
+|vo_08_11_mention    = Buer
+
 |vo_09_01_title      = More About {name}: I
 |vo_09_01_file       = VO_{language}{character} More About {character} - 01.ogg
 |vo_09_01_tx         = Why is it that, once you finally get a break, rather than taking a rest, you instead come to me? Is it that you want to hear one of my stories?
@@ -154,11 +161,13 @@ __TOC__
 |vo_09_03_tx         = Have you heard of the origins of the [[Lantern Rite Festival|Lantern Rite]]? In a war, long ago, the people of Liyue would release lanterns to remind their soldiers of the way home, and to never lose sight of themselves. Though in this day and age, I doubt there are any that remember.
 |vo_09_04_title      = More About {name}: IV
 |vo_09_04_friendship = 5
+|vo_09_04_quest      = A New Star Approaches
 |vo_09_04_file       = VO_{language}{character} More About {character} - 04.ogg
 |vo_09_04_tx         = The God of Contracts. Have you heard of him? He has an impressive memory. He remembers the name of every person he comes across, and the date that every ship in Liyue sets sail. After all, only in being able to do so can he memorize all of the contracts he holds. With that said, not every memory is a happy one...
 |vo_09_04_mention    = Morax
 |vo_09_05_title      = More About {name}: V
 |vo_09_05_friendship = 6
+|vo_09_05_quest      = A New Star Approaches
 |vo_09_05_file       = VO_{language}{character} More About {character} - 05.ogg
 |vo_09_05_tx         = For those that live too long, the friends of days gone by and scenes from their adventures live on in their memories. As such I have no regrets in meeting you, friend. Should the day ever come that we are not together, you will continue to shine like gold in my memories.
 
@@ -227,7 +236,6 @@ __TOC__
 
 |sprint-s_1_file     = Sprint Start 01,Sprint Start 02,Sprint Start 03
 
-
 |glider_1_file       = Deploying Wind Glider 01,Deploying Wind Glider 02,Deploying Wind Glider 03
 
 |chest_1_tx          =   One man's stone is another man's gem...
@@ -238,6 +246,8 @@ __TOC__
 |low-hp_2_tx         = Ha, this is getting interesting.
 |low-hp_3_tx         = Emergency countermeasures aren't my thing.
 
+|ally-low-hp_1_tx    = Don't try to rush your enemy.
+|ally-low-hp_2_tx    = Take a rest. Leave it to me.
 
 |fallen_1_tx         = Ugh... I'm feeling a little... off...
 |fallen_2_tx         = You shouldn't see me like this...
@@ -246,9 +256,7 @@ __TOC__
 |hit-l_1_file        = Light Hit Taken 01,Light Hit Taken 02,Light Hit Taken 03,Light Hit Taken 04,Light Hit Taken 05,Light Hit Taken 06
 
 |hit-h_1_tx          = Careless...
-|hit-h_1_actual_tx   = Ugh! Careless...
 |hit-h_2_tx          = Nothing to fear.
-|hit-h_2_actual_tx   = Argh! Nothing to fear.
 |hit-h_3_file        = Heavy Hit Taken 03,Heavy Hit Taken 04,Heavy Hit Taken 05,Heavy Hit Taken 06
 
 |join_1_tx           = Sure.
@@ -281,10 +289,14 @@ __TOC__
 ** '''About Xiao:''' In Chinese, {{Lang|mini=1|zh=连理镇心散}} is used instead of "painkillers." This fictional medicine is based on {{Lang|mini=1|zh=镇心散}}, a traditional Chinese medicine for clearing the mind and relieving emotional pain, commonly used to treat symptoms such as postpartum depression in new mothers.
 * In the Japanese version, one of his voice lines ("Chat: Reminiscing") was updated twice.
 
-[[es:Zhongli/Voz]]
-[[ja:鍾離/台詞]]
-[[pt-br:Zhongli/Falas]]
-[[ru:Чжун Ли/Озвучка]]
-
 ==Navigation==
 {{Character Navbox|link type=vo}}
+
+[[es:Zhongli/Voz]]
+[[fr:Zhongli/Répliques]]
+[[it:Zhongli/Battute]]
+[[ja:鍾離/ボイス]]
+[[pt-br:Zhongli/Falas]]
+[[ru:Чжун Ли/Озвучка]]
+[[th:Zhongli/เสียงพากย์]]
+[[tr:Zhongli/Replikler]]

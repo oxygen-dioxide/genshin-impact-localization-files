@@ -1,57 +1,64 @@
 {{Enemy Infobox
 |image    = Enemy Hydro Specter.png
 |type     = Common Enemies
-|element  = Hydro
+|dmgtype  = Hydro
+|weakpoint = no
 |family   = Elemental Lifeforms
 |group    = Specters
 |location = [[Seirai Island]], [[Inazuma]]<br />[[Watatsumi Island]], Inazuma
 |ability1 = Healing
 |ability2 = Fury
 }}
-{{Description|A monster birthed from a high concentration of Hydro that can float in the air.<br />On moonlit nights, Hydro Specters will give off a ghostly glow as they float by the riverbank. Their furtive forms are often mistaken by passers-by for wandering spirits, which has made them mainstays in quite a few folktales.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Specters}}
+===Items===
+{{Drops Table|type=Specters}}
+
+===Energy===
+{{Energy Drops
+|type  = Hydro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
 |hydro_res = Immune
 |hp_ratio  = 1.6
 |hp_type   = 2
-|atk_ratio = 1.4
+|atk_ratio = 1.75
 |atk_type  = 2
 }}
 
 ==Abilities and Attacks==
-*'''Fury:''' Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
-*'''Water Spit:''' Shoots a slow homing bubble that deals '''100% ATK''' as {{Color|Hydro DMG}}.
-*'''Splash Burst:''' Spins before summoning a splash at the location of the player, dealing '''100% ATK''' as {{Color|[[AoE]] Hydro DMG}}. Any enemies in the AoE will be [[heal]]ed by '''40%''' of their Max [[HP]].
-*'''Squeeze Out:''' Squeezes itself out, before releasing a splash around itself dealing '''125% ATK''' as {{Color|AoE Hydro DMG}}. This attack will only occur at max fury and will be the only attack it uses in that state.
-*'''Final Burst:''' Explodes after a short pause when defeated, dealing '''125% ATK''' as {{Color|AoE Hydro DMG}}. If at max Fury, DMG is increased to '''150% ATK''', and if enemies are nearby, the explosion will also release bubbles that track nearby enemies and heal them by '''20%''' of their Max HP.
+''Most attack names are unofficial.''
+{{Enemy Attacks
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Hydro Specter Water Split
-|caption1=Water Spit
+|name_1 = Fury
+|desc_1 = Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
 
-|file2=Hydro Specter Splash Burst
-|caption2=Splash Burst
+|name_2 = Water Spit
+|desc_2 = Shoots a slow homing bubble that deals '''80% ATK''' as {{Color|Hydro DMG}}.
 
-|file3=Hydro Specter Squeeze Out
-|caption3=Squeeze Out
+|name_3 = Splash Burst
+|desc_3 = Spins before summoning a splash at the location of the player, dealing '''80% ATK''' as {{Color|[[AoE]] Hydro DMG}}. Any enemies in the AoE will be [[heal]]ed by '''40%''' of their Max [[HP]].
 
-|file4=Hydro Specter Final Burst
-|caption4=Final Burst
+|name_4 = Squeeze Out
+|desc_4 = Squeezes itself out, before releasing a splash around itself dealing '''100% ATK''' as {{Color|AoE Hydro DMG}}. This attack will only occur at max fury and will be the only attack it uses in that state.
 
-|file5=Hydro Specter Final Burst Fury
-|caption5=Final Burst (Max Fury)
+|name_5 = Final Burst
+|desc_5 = Explodes after a short pause when defeated, dealing '''100% ATK''' as {{Color|AoE Hydro DMG}}. If at max Fury, DMG is increased to '''120% ATK''', and if enemies are nearby, the explosion will also release bubbles that track nearby enemies and heal them by '''20%''' of their Max HP.
+|caption_5 = Normal
+|file_5_2 = Hydro Specter Final Burst Fury
+|caption_5_2 = Max Fury
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -69,8 +76,11 @@
 | Max Fury || Squeeze Out || 0–5.5 || — || 0.5
 |}
 
+==Descriptions==
+{{Description|A monster birthed from a high concentration of Hydro that can float in the air.<br />On moonlit nights, Hydro Specters will give off a ghostly glow as they float by the riverbank. Their furtive forms are often mistaken by passers-by for wandering spirits, which has made them mainstays in quite a few folktales.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Hydro Specter Icon.png|Icon
 </gallery>
 
@@ -102,6 +112,10 @@ Enemy Hydro Specter Icon.png|Icon
 |id      = Hydro Specter
 |pt      = Espectro Hydro
 |pt_tl   = Hydro Specter
+|tr      = Su Uçarlopu
+|tr_tl   = 
+|it      = Spettro di Hydro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -111,4 +125,8 @@ Enemy Hydro Specter Icon.png|Icon
 {{Enemy Navbox|Common}}
 
 [[es:Espectro Hydro]]
+[[fr:Spectre Hydro]]
+[[ja:水フライム]]
 [[pt-br:Espectro Hydro]]
+[[ru:Гидро призрак]]
+[[th:Hydro Specter]]

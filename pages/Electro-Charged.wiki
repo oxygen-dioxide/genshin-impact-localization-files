@@ -1,4 +1,5 @@
-{{See Also|Gauge Unit Theory}}
+{{For|Elemental Reactions in [[Genius Invokation TCG]]|Genius Invokation TCG/Rules#Elemental Reactions}}
+{{See also|Elemental Gauge Theory}}
 {{Terminology Infobox
 |image        = Reaction Electro-Charged.png
 |caption      = Elements that trigger the Electro-Charged reaction (Electro and Hydro)
@@ -8,10 +9,12 @@
 }}
 {{Elemental Reaction Intro|element1=Electro|element2=Hydro}}
 
+Electro-Charged cannot damage off-field characters. Switching to a different character after being affected by Electro-Charged will temporarily pause its DoT ticks. However, if the Electro-Charged character becomes the active character again while still affected by Electro and Hydro, the DoT ticks will resume.
+
 ==Overview==
 Electro-Charged targets will have both a [[Hydro]] and an [[Electro]] aura simultaneously. Electro-Charged DMG ticks once per second. Every tick reduces the Hydro and Electro auras of affected targets by 0.4 [[gauge unit]]s, and the ticks will stop once one of the auras is depleted. Note that the normal decay of elemental aura will still apply during Electro-Charged.
 
-The coexistence of elements also allows for multiple reactions to be triggered on an Electro-Charged target if a third element is applied (namely [[Overloaded]] + [[Vaporize]], [[Superconduct]] + [[Frozen]], and Electro + Hydro [[Swirl]]). However, when triggering reactions on an Electro-Charged target, the Electro reaction is prioritized, and the Hydro reaction will only be triggered if there are still gauge units of the triggering element left over after depleting the Electro aura. Set effects like [[Thundersoother]] can also be applied without forgoing elemental reactions entirely.<ref name = "EC">KeqingMains Theorycrafting Library: [https://docs.google.com/document/d/e/2PACX-1vSEovpheHaeum4Ba0MlNdfyOTsJ-wZzDmBof13bVztYtKDi6OQhLqNdwEkEApo6vvtAV0L_tMal2ZTN/pub#h.6crtulvx1dlt Section on Electro-Charged]</ref>
+The coexistence of elements allows effects like [[Thundersoother]] can also be applied without forgoing Elemental Reactions entirely, and makes it possible for multiple reactions to be triggered on an Electro-Charged target if a third element is applied (e.g. [[Overloaded]] + [[Vaporize]], [[Superconduct]] + [[Frozen]], Electro + Hydro [[Swirl]]). However, when triggering reactions on an Electro-Charged target, the Electro reaction is prioritized, and the Hydro reaction will only be triggered if there are still gauge units of the triggering element left over after depleting the Electro aura.
 
 ==Damage==
 {{See also|Damage#Transformative Reaction Damage|Level Scaling/Reaction}}
@@ -32,7 +35,7 @@ Electro-Charged Damage is only affected by the level and [[Elemental Mastery]] o
 The Elemental Mastery bonus and any the target's Resistance multiplier are applied multiplicatively with the Base Damage.
 
 ==Number of Hits==
-Electro-Charged deals damage immediately and continues to tick once every second for as long as it lasts. If Electro-Charged ends from either the Hydro or Electro aura expiring, another tick of damage will be dealt if over 0.5 seconds have passed since the last tick. Ticks of Electro-Charged will reduce the timers on both the Hydro and Electro auras unless the reduction would remove said aura.<ref name = "EC" />
+Electro-Charged deals damage immediately and continues to tick once every second for as long as it lasts. If Electro-Charged ends from either the Hydro or Electro aura expiring, another tick of damage will be dealt if over 0.5 seconds have passed since the last tick. Ticks of Electro-Charged will reduce the timers on both the Hydro and Electro auras unless the reduction would remove said aura.<ref name = "EC">KeqingMains Theorycrafting Library: [https://docs.google.com/document/d/e/2PACX-1vSEovpheHaeum4Ba0MlNdfyOTsJ-wZzDmBof13bVztYtKDi6OQhLqNdwEkEApo6vvtAV0L_tMal2ZTN/pub#h.6crtulvx1dlt Section on Electro-Charged]</ref>
 
 Electro-Charged will also deal damage to nearby targets with the Hydro status, but will not apply an Electro aura.<ref>Reddit: [https://www.reddit.com/r/Genshin_Impact/comments/j9213p/elemental_shield_weaknesses_and_elemental/ Elemental Shield Weaknesses]</ref>
 
@@ -57,7 +60,7 @@ These artifact sets increase the damage from Electro-Charged reactions.
 
 {{Artifacts by Category Table|Electro-Charged DMG Increase Artifacts}}
 
-==Gallery==
+==Preview==
 {{Preview
 |file1=Status Electro-Charged Player
 |caption1=A character affected by Electro-Charged
@@ -70,14 +73,14 @@ These artifact sets increase the damage from Electro-Charged reactions.
 {{Other Languages
 |en      = Electro-Charged
 |zhs     = 感电
-|zhs_rm  = Gǎn Diàn
+|zhs_rm  = Gǎndiàn
 |zht     = 感電
-|zht_rm  = Gǎn Diàn
+|zht_rm  = Gǎndiàn
 |zh_tl   = 
 |ja      = 感電
 |ja_rm   = Kanden
 |ja_tl   = Electric Shock
-|ko      = 감전
+|ko      = {{tt|감전|感電}}
 |ko_rm   = Gamjeon
 |ko_tl   = Electric Shock
 |es      = Electrocargado
@@ -89,13 +92,17 @@ These artifact sets increase the damage from Electro-Charged reactions.
 |th      = ชาร์จไฟฟ้า
 |th_rm   = Chage Faifa
 |th_tl   = Electrically Charged
-|vi      = Điện Cảm
+|vi      = {{tt|Điện Cảm|電感}}
 |vi_tl   = Inductance
 |de      = Unter Strom
 |de_tl   = Electrically Charged
 |id      = Electro-Charged
 |pt      = Carregado Eletricamente
 |pt_tl   = Electrically Charged
+|tr      = Elektrik Yükleme
+|tr_tl   = 
+|it      = Electrocarica
+|it_tl   = Electrocharge
 }}
 
 ==Change History==
@@ -108,4 +115,7 @@ These artifact sets increase the damage from Electro-Charged reactions.
 {{Element Navbox}}
 
 [[es:Electrocargado]]
+[[ja:感電]]
+[[pl:Naładowanie elektryczne]]
 [[pt-br:Eletricamente Carregado]]
+[[ru:Заряжен]]

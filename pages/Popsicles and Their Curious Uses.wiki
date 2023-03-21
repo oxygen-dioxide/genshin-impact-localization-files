@@ -1,13 +1,15 @@
 {{Quest Infobox
 |id            = 19024
-|type          = Hangout
-|region        = Liyue
+|type          = Story
+|group         = Hangout Event
 |chapter       = Chongyun
 |actNum        = I
 |act           = Signs of Evil
-|description   = [[Dalong]] leaves after having been given all the popsicles, feeling most pleased. For [[Chongyun]], these popsicles are essential to suppressing his pure-yang spirit, and so he must have some on his person at any given time. The two of you head to [[Wanmin Restaurant]] to restock.
 |requirement   = Complete [[Song of the Dragon and Freedom]], reach [[Adventure Rank]] 26, and spend 2 [[Story Key]]s
 |startLocation = [[Liyue Harbor]], [[Liyue]]
+|region        = Liyue
+|area          = Sea of Clouds
+|subarea       = Liyue Harbor
 |prev          = Distant Gaze
 |next          = For A Child's Smile
 |other         = *Can't Beat This Heat ending (A Curious Mix branch only)
@@ -24,7 +26,7 @@
 ##A Curious Mix: Look for [[Jueyun Chili]] and [[Slime Condensate]]
 #Bring back the ingredients you prepared for Chongyun
 
-==Notes==
+==Gameplay Notes==
 *Branches: There are three branches within this quest, which leads to two endings.
 **A Cooling Mix: Select ''Let's try Mist Flower and Qingxin.''
 ***Leads to the Lingering Worry branch, following up with [[For A Child's Smile]].
@@ -34,6 +36,7 @@
 ***Gives the Can't Beat This Heat ending.
 
 ==Dialogue==
+{{Quest Description|[[Dalong]] leaves after having been given all the popsicles, feeling most pleased. For [[Chongyun]], these popsicles are essential to suppressing his pure-yang spirit, and so he must have some on his person at any given time. The two of you head to [[Wanmin Restaurant]] to restock.}}
 ===Popsicle Emergency===
 {{Dialogue start}}
 ;(Approach Wanmin Restaurant)
@@ -48,11 +51,11 @@
 :{{A|vo cycop001 1902401 chongyun 05.ogg}} '''Chongyun:''' Uhh... I'm afraid all I know is that it requires water. But to imbue the effect that suppresses my yang energy, perhaps something special is required.
 :{{A|vo cycop001 1902401 chongyun 06.ogg}} '''Chongyun:''' Like different plants, fruits, or herbs, for example.
 :{{A|vo cycop001 1902401 chongyun 07.ogg}} '''Chongyun:''' Do you have any experience with such things?
-:{{DIcon}} Let's try Mist Flower and Qingxin.
+:{{Hangout Branch|Let's try Mist Flower and Qingxin.|#A Cooling Mix|A Cooling Mix}}
 :;(Go to [[#A Cooling Mix|A Cooling Mix]])
-:{{DIcon}} Let's try Sunsettia and Valberries.
+:{{Hangout Branch|Let's try Sunsettia and Valberries.|#A Sweet Mix|A Sweet Mix}}
 :;(Go to [[#A Sweet Mix|A Sweet Mix]])
-:{{DIcon}} Let's try Jueyun Chili and Slime Condensate.
+:{{Hangout Branch|Let's try Jueyun Chili and Slime Condensate.|#A Curious Mix|A Curious Mix}}
 :;(Go to [[#A Curious Mix|A Curious Mix]])
 {{Dialogue end}}
 
@@ -149,14 +152,14 @@
 |ja_rm   = Aisu no Kounou
 |ja_tl   = Ice Cream's Effect
 |ko      = 얼음과자의 용도
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Eoreumgwaja-ui Yongdo
+|ko_tl   = Use of Ice Candy
 |es      = Un uso inusual de los helados
 |es_tl   = An Unusual Usage of Ice Cream
 |fr      = La magie des glaces
 |fr_tl   = The Magic of Ice Creams
 |ru      = Необычное применение мороженого
-|ru_tl   = 
+|ru_tl   = Unusual Use of Ice Cream
 |th      = ประโยชน์ที่มหัศจรรย์ของไอติม
 |th_rm   = 
 |th_tl   = 
@@ -168,6 +171,10 @@
 |id_tl   = Ice Cream Magical Effect
 |pt      = Picolés e Seus Curiosos Usos
 |pt_tl   = 
+|tr      = Dondurmanın Mucizevi Etkisi
+|tr_tl   = 
+|it      = Ghiaccioli per tutti i gusti
+|it_tl   = 
 }}
 
 ==Change History==

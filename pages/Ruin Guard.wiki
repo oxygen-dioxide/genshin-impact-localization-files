@@ -1,58 +1,72 @@
-{{About|the Enemy|the statue called Field Tiller|Weird Statue}}
+{{About|the Enemy|the statue|Field Tiller}}
 {{Enemy Infobox
 |image    = Enemy Ruin Guard.png
+|weakpoint = yes
 |family   = Automatons
 |group    = Humanoid Ruin Machines
 |type     = Elite Enemies
 |ability1 = Invincibility Frames
 }}
-{{Description|An ancient humanoid war machine.<br />They are said to be remnants from a lost ancient nation. Some believe that they were developed not as war machines, but as protectors of the ruins.<br />Though that hypothesis does not explain why would they choose to employ explosive weaponry inside the very ruins they are supposed to protect...|[[Adventurer Handbook]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Humanoid Ruin Machines}}
+===Items===
+{{Drops Table|type=Humanoid Ruin Machines}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|o1    = 1
+|p1    = 1
+|hp2   = 50
+|o2    = 1
+|p2    = 1
+|hp3   = 25
+|o3    = 1
+|p3    = 1
+|hp4   = 0
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
 |phys_res     = 70%
 |hp_ratio     = 7
 |hp_type      = 1
-|atk_ratio    = 6
+|atk_ratio    = 4.8
 }}
+
+==Weak Point Location==
+<gallery>
+Ruin Guard Weak Point.png
+Ruin Guard Weak Point 2.png
+</gallery>
+* Weak points are not exposed when the Ruin Guard is paralyzed.
 
 ==Abilities and Attacks==
-* '''Stomp:''' Raises one of its feet and stomps the ground, dealing '''50% ATK''' as {{Color|Black|AoE Physical DMG}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|desc_1 = Striking the Ruin Guard's exposed weak point twice with attacks that deal more than 80 [[poise damage]] will stun the Ruin Guard, leaving it vulnerable for a long period of time.
+|file_1 = Ruin Guard Stunned
 
-* '''Clap:''' If a player is still within melee range after a '''Stomp''' attack, the Ruin Guard may lean down and clap powerfully using its hands, dealing '''70% ATK''' as {{Color|Black|AoE Physical DMG}} in front of itself.
+|name_2 = Stomp and Clap
+|desc_2 = Raises one of its feet and stomps the ground, dealing '''62.5% ATK''' as {{Color|Black|AoE Physical DMG}}. If a player is still within melee range after the stomp, the Ruin Guard may lean down and clap powerfully using its hands, dealing '''87.5% ATK''' as {{Color|Black|AoE Physical DMG}} in front of itself.
+|file_2 = Ruin Guard Stomp Clap
 
-* '''Punch and Jump Combo:''' Bringing both fists together before performing, it will do spinning punches twice, dealing '''40% ATK''' and '''60% ATK''' as {{Color|Black|Physical DMG}}, before jumping into the air and landing onto the player's location (telegraphed by a red circle) and dealing '''80% ATK''' as {{Color|Black|AoE Physical DMG}}.
+|name_3 = Punch and Jump Combo
+|desc_3 = Bringing both fists together before performing, it will do spinning punches twice, dealing '''50% ATK''' and '''75% ATK''' as {{Color|Black|Physical DMG}}, before jumping into the air and landing onto the player's location (telegraphed by a red circle) and dealing '''100% ATK''' as {{Color|Black|AoE Physical DMG}}.
 
-* '''Spin:''' Begins to spin its upper body and further extend their arms' reach. While spinning, it will slowly march towards the player. This attack lasts for ~7 seconds and rapidly deals '''60% ATK''' as {{Color|Black|Physical DMG}} to players caught in the attack.
+|name_4 = Spin
+|desc_4 = Begins to spin its upper body and further extend their arms' reach. While spinning, it will slowly march towards the player. This attack lasts for ~7 seconds and rapidly deals '''75% ATK''' as {{Color|Black|Physical DMG}} to players caught in the attack.
+|file_4 = Ruin Guard Beyblade
 
-* '''Missiles:''' Players outside of the Ruin Guard's melee range will force the Ruin Guard to quickly swivel their upper body around 180° and become stationary, exposing their core on the back with missile cannons towards the player. Shortly after, a red crosshair will appear on the Ruin Guard's target, and will then fire a swarm of homing missiles (6 each). These missiles each deal '''25% ATK''' as {{Color|Black|Physical DMG}} on hit. Although the missiles are somewhat slow, they are able to change direction almost instantly, while locked onto their target. Once the crosshair disappears, the missiles no longer pursue their target and continue moving in a straight path.
-
-===Preview===
-{{Preview
-|size=185px
-|file1    = Ruin Guard Stomp Clap
-|caption1 = Stomp + Clap
-
-|file2    = Ruin Guard Punch and Jump Combo
-|caption2 = Punch and Jump Combo
-
-|file3    = Ruin Guard Beyblade
-|caption3 = Spin
-
-|file4    = Ruin Guard Missiles
-|caption4 = Missiles
-
-|file5    = Ruin Guard Stunned
-|caption5 = Stunned
+|name_5 = Missiles
+|desc_5 = Players outside of the Ruin Guard's melee range will force the Ruin Guard to quickly swivel their upper body around 180° and become stationary, exposing their core on the back with missile cannons towards the player. Shortly after, a red crosshair will appear on the Ruin Guard's target, and will then fire a swarm of homing missiles (6 each). These missiles each deal '''31.25% ATK''' as {{Color|Black|Physical DMG}} on hit. Although the missiles are somewhat slow, they are able to change direction almost instantly, while locked onto their target. Once the crosshair disappears, the missiles no longer pursue their target and continue moving in a straight path.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range and angle required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -104,6 +118,9 @@ The spinning attack is by far the most dangerous attack, as it deals high damage
 ==Achievements==
 {{Achievement Topic Table|topic=Ruin Guard}}
 
+==Descriptions==
+{{Description|An ancient humanoid war machine.<br />Legend has it that these machines were combat automatons created by a long-destroyed nation. They now wander ruins and ancient detritus, attacking offending travelers. Research indicates that the Ruin Guards and the ruins they operate in do not originate from the same source, suggesting that there may be a difference of as much as several thousand years between them on the timeline. So why then do the Ruin Guards continue staying among these ruins, using their "explosive firepower" to protect the crumbling walls and broken tiles?|[[Archive]]}}
+
 ==Trivia==
 * According to the [[Teyvat Travel Guide - Mondstadt]], the valley in which a Ruin Guard is found ([[Brightcrown Canyon]]) is guarded by mechanisms, but the soldiers responsible for holding the pass for the King of Gales were nowhere to be found now. All the winds of time had left behind were the unintelligent Hilichurls and silent mechanical guards. There was an attempt by [[Alice]] to control the Ruin Guards with Hilichurls, but it "horrifically" failed.
 * According to Dainsleif,<ref>{{Ref/Quest|A Herald Without Adherents}}</ref> the Ruin Guards were weapons of war codenamed by people of Khaenri'ah as "Field Tillers". These came about because "the land is not to be tilled with farming tools, but rather is to be fought for with steel and blood." After the destruction of Khaenri'ah, the Field Tillers were left without masters and went out of control, spreading to every corner of Teyvat. As many ended up in ruins and history of Khaenri'ah is virtually unknown by most, present-day people called them "Ruin Guards", believing them to be protectors of the ruins. While many have since fallen into disrepair, a few remain active but dormant, while even fewer continue to wander aimlessly across Teyvat.
@@ -114,12 +131,13 @@ The spinning attack is by far the most dangerous attack, as it deals high damage
 *The Ruin Guards at the Thousand Winds Temple and [[Nameless Island]] are the only two respawnable Ruin Guards with a title.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Ruin Guard Icon.png|Icon
 Enemy Hilichurl Slime Ruin Guard.jpg|[https://genshin.mihoyo.com/de/news/detail/6110 Q&A with the developers (DE)] <!--2020&mdash;11&mdash;22-->
 </gallery>
 
 ==Other Languages==
+===Ruin Guard===
 {{Other Languages
 |en      = Ruin Guard
 |zhs     = 遗迹守卫
@@ -147,7 +165,14 @@ Enemy Hilichurl Slime Ruin Guard.jpg|[https://genshin.mihoyo.com/de/news/detail/
 |id      = Ruin Guard
 |pt      = Guarda das Ruínas
 |pt_tl   = Guard of the Ruins
+|tr      = Harabe Muhafızı
+|tr_tl   = 
+|it      = Guardia delle rovine
+|it_tl   = 
 }}
+
+===Field Tiller===
+{{Transclude|Field Tiller|Field Tiller}}
 
 ==Change History==
 {{Change History|1.0}}
@@ -158,5 +183,9 @@ Enemy Hilichurl Slime Ruin Guard.jpg|[https://genshin.mihoyo.com/de/news/detail/
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Ruinenwächter]]
 [[es:Guardián de las Ruinas]]
+[[ja:遺跡守衛]]
 [[pt-br:Guarda das Ruínas]]
+[[ru:Страж руин]]
+[[th:Ruin Guard]]

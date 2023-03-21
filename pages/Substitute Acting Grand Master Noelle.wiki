@@ -1,12 +1,14 @@
 {{Quest Infobox
 |id            = 19091
-|type          = Hangout
-|region        = Mondstadt
+|type          = Story
+|group         = Hangout Event
 |chapter       = Noelle
 |actNum        = II
 |act           = Knightly Exam Prep
-|description   = Noelle decides to emulate Jean by returning to Mondstadt and helping the citizens with their problems.<br />Marjorie has lost a monocle. To avoid adding to the workload of the Knights of Favonius, and Jean in particular, you and Noelle decide to help instead.
-|startLocation = [[Mondstadt]]
+|startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |requirement   = Complete [[Song of the Dragon and Freedom]], reach [[Adventure Rank]] 26, and spend 2 [[Story Key]]s
 |next          = 
 |characters    = Traveler; Beatrice; Margaret; Marjorie; Noelle; Alfry; Raymond; Glory
@@ -21,6 +23,7 @@
 # Talk to Marjorie
 
 ==Dialogue==
+{{Quest Description|Noelle decides to emulate Jean by returning to Mondstadt and helping the citizens with their problems.<br />Marjorie has lost a monocle. To avoid adding to the workload of the Knights of Favonius, and Jean in particular, you and Noelle decide to help instead.}}
 ===In the Master's Image===
 {{Dialogue start}}
 :{{A|vo noecop002 1909101 beatrice 01.ogg}} '''Beatrice:''' ... I am sorry, Marjorie. I was focused solely on chatting with Quinn... I didn't see anything else at all.
@@ -89,10 +92,15 @@
 :{{A|vo noecop002 1909102 glory 05.ogg}} '''Glory:''' By the grace of the Anemo Archon, may you swiftly find the lost item.
 
 ;(Climb onto the rooftop and look for a Finch nest)
-:'''Noelle:''' I don't think it's here...
-:'''Noelle:''' Hmm... No, it doesn't seem to be here.
-:'''Noelle:''' We found it! This must be Miss Marjorie's missing monocle.
-:'''Noelle:''' Let's take it back to her right away. I hope we haven't kept her waiting too long...
+:;(Interact with the wrong nest)
+::{{A|vo noecop002 1909002 noelle 24.ogg}} '''Noelle:''' I don't think it's here...
+::&nbsp;
+:;(Interact with the wrong nest)
+::{{A|vo noecop002 1909002 noelle 25.ogg}} '''Noelle:''' Hmm... No, it doesn't seem to be here.
+::&nbsp;
+:;(Interact with the correct nest)
+::{{A|vo noecop002 1909002 noelle 26.ogg}} '''Noelle:''' We found it! This must be Miss Marjorie's missing monocle.
+::{{A|vo noecop002 1909002 noelle 27.ogg}} '''Noelle:''' Let's take it back to her right away. I hope we haven't kept her waiting too long...
 
 ;(Talk to Marjorie)
 :{{A|vo noecop002 1909103 noelle 01.ogg}} '''Noelle:''' Miss Marjorie, here. We found your monocle.
@@ -125,6 +133,14 @@
 :{{A|vo noecop002 1909103 noelle 15.ogg}} '''Noelle:''' ...Then one day, I will become a knight that I can be proud of.
 {{Dialogue end}}
 
+===Ending: The One and Only Noelle===
+{{Hangout Ending
+|ending name     = The One and Only Noelle
+|character       = Noelle
+|act             = 2
+|description     = Someday, Noelle will become a knight like no other.
+}}
+
 ==Other Languages==
 {{Other Languages
 |en      = Substitute Acting Grand Master Noelle
@@ -137,14 +153,14 @@
 |ja_rm   = Noeru no Dairi Shigoto
 |ja_tl   = Noelle's Substitute Work
 |ko      = 노엘의 대리업무
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Noel-ui Daerieommu
+|ko_tl   = Noelle's Substitute Work
 |es      = Noelle, la Gran Maestra Suplente
-|es_tl   = 
+|es_tl   = Noelle, the Substitute Grand Master
 |fr      = Noëlle, Grande Maîtresse suppléante
 |fr_tl   = Noelle, Acting Great Master
 |ru      = Ноэлль, исполняющая обязанности действующего магистра
-|ru_tl   = 
+|ru_tl   = Acting Grand Master Noelle
 |th      = รักษาการผู้บัญชาการ Noelle
 |th_rm   = 
 |th_tl   = Acting Commander Noelle
@@ -156,6 +172,10 @@
 |id_tl   = Noelle, Substitute Acting Grand Master
 |pt      = Substituta da Grande Mestre Intendente, Noelle
 |pt_tl   = 
+|tr      = Yedek Büyük Kumandan Vekili Noelle
+|tr_tl   = 
+|it      = Noelle, sostituta Gran Maestra Reggente
+|it_tl   = 
 }}
 
 ==Change History==

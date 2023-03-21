@@ -1,6 +1,7 @@
 {{Meta
 <!-- REMOVE THIS TEMPLATE AFTER ADDING MISSING INFO -->
 |missing_NPC_profile  = yes
+|missing_NPC_location = yes
 }}
 {{About|the secretary of the Liyue Qixing|the [[Crux Fleet]] member|Huixing}}
 {{Character Infobox
@@ -16,20 +17,20 @@
 |relativeNote     = Aunt
 |voiceEN          = [[imdb:nm1143700|Rebecca Davis]]<ref>IMDb: [[imdb:nm1143700|EN VA's Profile]]</ref>
 }}
-'''Huixin''' {{Lang|zh=慧心|zh_rm=Huìxīn}} is a secretary of the [[Liyue Qixing]]. She can be found during the day in front of her workplace, the [[Yuehai Pavilion]]. During nighttime, she can be found roaming around in the area before the [[Yujing Terrace]].
-
-She is [[Uncle Tian]]'s daughter,<ref>{{Ref/Quest|Sea of Clouds, Sea of People}}</ref> making her [[Yundan]]'s niece.
-
-Her daytime introductory dialogue changes after completing the first act of [[Ganyu]]'s [[Story Quest]], [[Sea of Clouds, Sea of People]].
+'''Huixin''' {{Lang|zh=慧心|zh_rm=Huìxīn}} is an [[NPC]] located in [[Yujing Terrace]], [[Liyue Harbor]]. During the daytime, she can be found in front of the [[Yuehai Pavilion]] and roaming around the terrace during the nighttime.
 
 ==Location==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 NPC Location Huixin Daytime.png|Huixin's location ''(Daytime)''
 NPC Location Huixin Context.png|Additional context
+NPC Location Huixin Nighttime.png|Huixin's location ''(Nighttime)''
+NPC Location Huixin Nighttime Context.png|Additional context
 </gallery>
 
 ==Profile==
-As a child, Huixin used to listen to her father's stories about [[Ganyu]]. As soon as growing up as an adult, she worked at the [[Yuehai Pavilion]] as a secretary to look up on Ganyu.<ref>{{Ref/Quest|A Pact That Crosses Time}}</ref>
+Huixin is the daughter of [[Uncle Tian]] and [[Yundan|Yundan's]] niece. She works for the [[Liyue Qixing]] as a secretary.<ref>{{Ref/Quest|Sea of Clouds, Sea of People}}</ref>
+
+As a child, Huixin listened to her father's stories about [[Ganyu]]. As such, she developed a sense of admiration for the adepti and wanted to become a secretary like Ganyu. As soon as she became an adult, she applied for the secretarial to fulfill her dream.<ref>{{Ref/Quest|A Pact That Crosses Time}}</ref>
 
 ===Personality===
 ''(To be added.)''
@@ -38,22 +39,31 @@ As a child, Huixin used to listen to her father's stories about [[Ganyu]]. As so
 ''(To be added.)''
 
 ==Quests and Events==
-{{Quest Appearances}}
-
-===Events===
-* [[Moonlight Merriment]] (unique idle quote and introductory dialogue)
+{{Quests and Events}}
 
 ==Idle Quotes==
-* {{A|VO Huixin 01.ogg}} "Rest assured, the Qixing's top priority is the people's well-being." ''(Voice-Over)''
-* {{A|VO Huixin 02.ogg}} "*sigh* What goes on in the minds of the Qixing..." ''(Voice-Over)''
+{{Dialogue start}}
+:: {{A|VO Huixin 01.ogg}} "Rest assured, the Qixing's top priority is the people's well-being."
+:: {{A|VO Huixin 02.ogg}} "*sigh* What goes on in the minds of the Qixing..."
+{{Dialogue end}}
 
-'''During Moonlight Merriment'''
-* "A show of culinary skill..."
-** {{A|VO Huixin 01 (Moonlight Merriment).ogg}} "I'm ready to give a show of culinary skill at Masterful Chefs." ''(Voice-Over)''
+;During Moonlight Merriment
+{{Dialogue start}}
+: {{DIcon|Idle}} A show of culinary skill...
+:: {{A|VO Huixin Moonlight Merriment 01.ogg}} "I'm ready to give a show of culinary skill at Masterful Chefs."
+{{Dialogue end}}
 
-'''After completing ???<!-- Likely after "[[Where the Heart Finds Rest]]", but can't confirm -->'''
-* "The Jade Chamber..."
-** {{A|VO Huixin 01 (Lantern Rite).ogg}} "*sigh* Finally the reconstruction of the Jade Chamber is complete." ''(Voice-Over)''
+;After completing ''Where the Heart Finds Rest''{{Verify}}
+{{Dialogue start}}
+: {{DIcon|Idle}} The Jade Chamber...
+:: {{A|VO Huixin Lantern Rite 01.ogg}} "*sigh* Finally the reconstruction of the Jade Chamber is complete."
+{{Dialogue end}}
+
+;During The Exquisite Night Chimes
+{{Dialogue start}}
+: {{DIcon|Idle}} Preparations for the music festival...
+:: {{A|VO Huixin Lantern Rite 02.ogg}} "Everything for the music festival is proceeding smoothly."
+{{Dialogue end}}
 
 ==Dialogue==
 ===Daytime===
@@ -113,8 +123,10 @@ As a child, Huixin used to listen to her father's stories about [[Ganyu]]. As so
 :'''Huixin:''' Hello, welcome to the Moonchase Festival here in Liyue.
 :'''Huixin:''' The theme of this year's Moonchase Festival is gourmet food, and this iteration of Masterful Chefs is being organized by the Liyue Qixing themselves. With all the great chefs taking part, this is one show you don't want to miss!
 :'''Huixin:''' I hope that everyone will have a good time during the festival. Of course, if you do have civil affairs at hand, please direct your concerns to the Ministry.
+{{Dialogue end}}
 
 ===Fleeting Colors in Flight===
+{{Dialogue start}}
 ;(Talk to Huixin during daytime)
 :'''Huixin:''' Oh, it's you. How may I help?
 :'''Huixin:''' I've heard that you contributed greatly to the rebuilding of the [[Jade Chamber]] and to the relatively small amount of damage that Liyue Harbor suffered at the hands of our ocean-borne enemy. You have my thanks.
@@ -122,17 +134,27 @@ As a child, Huixin used to listen to her father's stories about [[Ganyu]]. As so
 :;(Continue non-event dialogue)
 {{Dialogue end}}
 
+===The Exquisite Night Chimes===
+{{Dialogue start}}
+;(After completing [[A Thousand Miles for an Enigmatic Tune]])
+:'''Huixin:''' Hello, welcome to Liyue, and welcome to the Lantern Rite Festival!
+:'''Huixin:''' You must have heard about the music festival held in collaboration with the Iridescence Tour during this year's Lantern Rite.
+:'''Huixin:''' I hope everyone can have a good time during the festival and enjoy the musical atmosphere.
+:'''Huixin:''' Of course, for civil matters, please go to the Liyue Ministry of Civil Affairs.
+:;(Continue non-event dialogue if daytime)
+{{Dialogue end}}
+
 ==Trivia==
 * During the Closed Beta Test version of [[Lantern Rite]], Huixin was one of the event organizers.<ref>YouTube: [https://youtu.be/VQMrt5WaqTY Lantern Event - Day 2 &#91;CBT2&#93;]</ref> She did not retain that role in [[Version 1.2]]'s rendition of the event, where her dialogue and role was largely transferred to the event-exclusive NPC [[Wang'ya]].
 
 ==Other Languages==
-{{Other Languages|default_hidden=1
+{{Other Languages
+|default_hidden = 1
 |en      = Huixin
 |zhs     = 慧心
 |zhs_rm  = Huìxīn
 |zht     = 慧心
 |zht_rm  = Huìxīn
-<!-- |zh_tl   = Wisdom -->
 |ja      = 慧心
 |ja_rm   = Keishin
 |ko      = {{tt|혜심|慧心}}
@@ -145,6 +167,8 @@ As a child, Huixin used to listen to her father's stories about [[Ganyu]]. As so
 |de      = Huixin
 |id      = Huixin
 |pt      = Huixin
+|tr      = Huixin
+|it      = Huixin
 }}
 
 ==Change History==
@@ -154,3 +178,4 @@ As a child, Huixin used to listen to her father's stories about [[Ganyu]]. As so
 {{Reflist|2}}
 
 [[es:Huixin]]
+[[ru:Хуэй Синь]]

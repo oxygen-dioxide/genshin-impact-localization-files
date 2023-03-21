@@ -1,6 +1,7 @@
 {{Enemy Infobox
 |image    = Enemy Fatui Electro Cicin Mage.png
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = yes
 |type     = Elite Enemies
 |family   = Fatui
 |group    = Fatui Cicin Mages
@@ -8,16 +9,26 @@
 |location = Multiple
 |ability1 = Shield
 |ability2 = Interruption Resistance
-|ability3 = Summon
+|ability3 = Summoning
 |ability4 = Teleport
-|voiceCN  = [https://zh.moegirl.org.cn/诺亚(配音演员) Nuoya (诺亚)]<ref>Bilibili: [https://www.bilibili.com/video/BV18Z4y1V7rB Version 1.1 Chinese Special Program] (Timestamp: 10m)</ref>
-|voiceJP  = [http://amuleto.jp/talents/aotohiroka.html Aoto Hiroka (青戸浩香)]<ref>Twitter: [https://twitter.com/aotohirohiro/status/1344270633555746825 JP VA Self Announcement]</ref>
+|voiceCN  = [https://zh.moegirl.org.cn/诺亚(配音演员) Nuoya ({{zh|诺亚}})]<ref name="Nuoya">Bilibili: [https://www.bilibili.com/video/BV18Z4y1V7rB Version 1.1 Chinese Special Program] (Timestamp: 10m)</ref>
+|voiceJP  = [http://amuleto.jp/talents/aotohiroka.html Aoto Hiroka ({{ja|青戸浩香}})]<ref>Twitter: [https://twitter.com/aotohirohiro/status/1344270633555746825 JP VA Self Announcement]</ref>
 }}
-{{Description|A Fatui mage who can command Electro Cicins in battle. Their origins and what they look like under that mask are both mysteries.<br />Similarly to the way that Electro Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Fatui Cicin Mages}}
+===Items===
+{{Drops Table|type=Fatui Cicin Mages}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 66
+|o1    = 1
+|hp2   = 33
+|o2    = 1
+|hp3   = 0
+|o3    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -29,45 +40,38 @@
 }}
 
 ==Abilities and Attacks==
-''Attack names are unofficial.''
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Electro Cicin Mage
 
-*'''Summon Electro Cicin:''' Summons three [[Electro Cicin]]s. Summoned Cicins will despawn when the Electro Cicin Mage is defeated. The Mage will only use this ability when no summoned Cicins are present. While summoning Cicins, the mage's [[Interruption Resistance]] is greatly increased.
-*'''Cicin Charge:''' Teleports summoned Cicins into a line in front of the Mage and commands them to charge consecutively at the target in balls of Electro, dealing '''100% Cicin's ATK''' as {{Color|Electro DMG}}. After charging, Cicins become immobilized briefly.
-*'''Blink:''' Travels through the air to a nearby point as an electric current. The Mage can use this ability immediately after recovering poise, allowing her to blink out of a stagger or knockback animation.
-*'''Blink (Approaching):''' Consecutively blinks up to 4 times towards the target. The Mage will only use this ability if far from the target. This is considered a different ability than the regular Blink, so the Mage can use them in succession.
-*'''Thunderbolt:''' Summons a falling bolt of Electro energy to strike their foe, dealing '''100% ATK''' as {{Color|[[AoE]] Electro DMG}}; leaves behind a static charge that deals '''25% ATK''' as {{Color|Electro DoT}} to targets within.
-** Certain enhanced Fatui Electro Cicin Mages, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, will consecutively summon '''2-6''' thunderbolts instead of 1. The number of thunderbolts is chosen randomly.
-*'''Supercharged Shield:''' After ~40 seconds, absorbs all summoned Cicins, conjures an {{Color|Electro Shield}} and then begins flying towards the player, and continuously deals '''25% ATK''' as {{Color|Electro DMG}} to surrounding targets. While generating a shield, the mage's Interruption Resistance is greatly increased.
-**The shield grants immunity to DMG and increased movement speed (faster than a player's base running speed, but slower than base sprinting speed) and prevents the Mage from being staggered or knocked down.
-**The shield depletes gradually over ~12 seconds, but can be depleted faster with elemental reactions.
-**The shield starts with 8 Electro gauge units, but will usually deplete after 5 to 6 units of reactions due to the decay over time.
-**Afterwards, the ability needs to recharge over another 40 seconds. The charge rate of this ability is affected by energy charge rate modifiers such as the buff from Electro [[Elemental Nodes]].
+|name_1 = Summon Electro Cicin
+|desc_1 = Summons three [[Electro Cicin]]s. Summoned Cicins will despawn when the Electro Cicin Mage is defeated. The Mage will only use this ability when no summoned Cicins are present. While summoning Cicins, the mage's [[Interruption Resistance]] is greatly increased.
+|file_1 = Electro Cicin Mage Summon Cicins
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Electro Cicin Mage Summon Cicins
-|caption1=Summon Electro Cicin
+|name_2 = Cicin Charge
+|desc_2 = Teleports summoned Cicins into a line in front of the Mage and commands them to charge consecutively at the target in balls of Electro, dealing '''100% Cicin's ATK''' as {{Color|Electro DMG}}. After charging, Cicins become immobilized briefly.
 
-|file2=Electro Cicin Mage Cicin Charge
-|caption2=Cicin Charge
+|name_3 = Blink
+|desc_3 = Travels through the air to a nearby point as an electric current. The Mage can use this ability immediately after recovering poise, allowing her to blink out of a stagger or knockback animation.
 
-|file3=Electro Cicin Mage Blink
-|caption3=Blink
+|name_4 = Blink (Approaching)
+|desc_4 = Consecutively blinks up to 4 times towards the target. The Mage will only use this ability if far from the target. This is considered a different ability than the regular Blink, so the Mage can use them in succession.
+|file_4 = Electro Cicin Mage Blink Approaching
 
-|file4=Electro Cicin Mage Blink Approaching
-|caption4=Blink (Approaching)
+|name_5 = Thunderbolt
+|desc_5 = Summons a falling bolt of Electro energy to strike their foe, dealing '''100% ATK''' as {{Color|[[AoE]] Electro DMG}}; leaves behind a static charge that deals '''25% ATK''' as {{Color|Electro DoT}} to targets within.
+* Certain enhanced Fatui Electro Cicin Mages, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, will consecutively summon '''2-6''' thunderbolts instead of 1. The number of thunderbolts is chosen randomly.
 
-|file5=Electro Cicin Mage Thunderbolt
-|caption5=Thunderbolt
-
-|file6=Electro Cicin Mage Supercharged Shield
-|caption6=Supercharged Shield
+|name_6 = Supercharged Shield
+|desc_6 = After ~40 seconds, absorbs all summoned Cicins, conjures an {{Color|Electro Shield}} and then begins flying towards the player, and continuously deals '''25% ATK''' as {{Color|Electro DMG}} to surrounding targets. While generating a shield, the mage's Interruption Resistance is greatly increased.
+* The shield grants immunity to DMG and increased movement speed (faster than a player's base running speed, but slower than base sprinting speed) and prevents the Mage from being staggered or knocked down.
+* The shield depletes gradually over ~12 seconds, but can be depleted faster with elemental reactions.
+* The shield starts with 8 Electro gauge units, but will usually deplete after 5 to 6 units of reactions due to the decay over time.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -114,150 +118,160 @@
 
 ==Locations==
 '''Fatui Cicin Mages locations can mostly be pinpointed on the map by using the [[Adventurer Handbook]].'''
-{| class="article-table mw-collapsible mw-collapsed" style="width:100%"
-!	Mondstadt
-|-
-|<gallery hideaddbutton="true" captionalign="center" orientation="square">
-Location Cicin Mage 2.png|Dadaupa Gorge
-Location Cicin Mage 1.png|Brightcrown Canyon
-Location Cicin Mage 7.png|Stormbearer Point
-Location Cicin Mage 6.png|Springvale
+===Mondstadt===
+<gallery>
+Fatui Electro Cicin Mage Dragonspine Location.png|Dadaupa Gorge
+Fatui Electro Cicin Mage Brightcrown Canyon Location.png|Brightcrown Canyon
+Fatui Electro Cicin Mage Stormbearer Point Location.png|Stormbearer Point
+Fatui Electro Cicin Mage Springvale Location.png|Springvale
 </gallery>
-|}
 
-{| class="article-table mw-collapsible mw-collapsed" style="width:100%"
-!	Liyue
-|-
-|<gallery hideaddbutton="true" captionalign="center" orientation="square">
-Location Cicin Mage 13.png|Tianqiu Valley
-Location Cicin Mage 12.png|Dunyu Ruins
-Location Cicin Mage 11.png|Yaoguan Shoal
-Location Electro Cicin Mage 8.png|Wuwang Hill
-Location Electro Cicin Mage 9.png|Wuwang Hill
-Location Cicin Mage 5.png|Mingyun Village
-Location Cicin Mage 10.png|Guili Plains
-Location Electro Cicin Mage 3.png|Guili Plains
-Location Electro Cicin Mage 4.png|Guyun Stone Forest
+===Liyue===
+<gallery>
+Fatui Electro Cicin Mage Tianqiu Valley Location.png|Tianqiu Valley
+Fatui Electro Cicin Mage Dunyu Ruins Location.png|Dunyu Ruins
+Fatui Electro Cicin Mage Yaoguan Shoal and Mingyun Village Locations.png|Yaoguan Shoal
+Fatui Electro Cicin Mage Wuwang Hill Locations.png|Wuwang Hill
+Fatui Electro Cicin Mage Sea of Clouds Locations.png|Sea of Clouds
+Fatui Electro Cicin Mage Guyun Stone Forest Location.png|Guyun Stone Forest
 </gallery>
-|}
 
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Fatui Electro Cicin Mage
 |vo_01_00_title          = Spotting the Player
 |vo_01_01_file           = VO {lang}{name} - There You Are Eavesdropper.ogg
-|vo_01_01_tx_en          = There you are eavesdropper.
-|vo_01_01_tx_zhs         = 发现你了，偷窥者。
-|vo_01_01_tx_zht         = 
-|vo_01_01_tx_ja          = 
+|vo_01_01_tx_en          = There you are, eavesdropper.
+|vo_01_01_tx_zh          = 发现你了，偷窥者。
+|vo_01_01_rm_zh          = Fāxiàn nǐle, tōukuī zhě.
+|vo_01_01_tx_ja          = 見ーつけた…覗き魔！
 |vo_01_01_tx_ko          = 찾았다, 염탐꾼!
 |vo_01_02_file           = VO {lang}{name} - Are You Here To Play With Me.ogg
-|vo_01_02_tx_en          = Are you here to play with me?
-|vo_01_02_tx_zhs         = 你是…来陪我玩的吗？
-|vo_01_02_tx_zht         = 
-|vo_01_02_tx_ja          = 
-|vo_01_02_tx_ko          = 나랑... 놀려고 온 건가?
+|vo_01_02_tx_en          = Are you, here to play with me?
+|vo_01_02_tx_zh          = 你是…来陪我玩的吗？
+|vo_01_02_rm_zh          = Nǐ shì... Lái péi wǒ wán de ma?
+|vo_01_02_tx_ja          = あんた…私と遊びにきたわけ？
+|vo_01_02_tx_ko          = 나랑… 놀려고 온 건가?
 
 |vo_02_00_title          = Summoning Cicins
 |vo_02_01_file           = VO {lang}{name} - The More The Merrier.ogg
-|vo_02_01_tx_en          = The more the merrier!
-|vo_02_01_tx_zhs         = 既然要玩，就多叫些小伙伴来！
-|vo_02_01_tx_zht         = 
-|vo_02_01_tx_ja          = 
+|vo_02_01_tx_en          = The more, the merrier!
+|vo_02_01_tx_zh          = 既然要玩，就多叫些小伙伴来！
+|vo_02_01_rm_zh          = Jìrán yào wán, jiù duō jiào xiē xiǎohuǒbàn lái!
+|vo_02_01_tx_ja          = 遊ぶなら…もっと派手にやろう！
 |vo_02_01_tx_ko          = 이왕 노는 거, 친구를 좀 더 불러오지!
 |vo_02_02_file           = VO {lang}{name} - Let Me Amuse Myself A Little.ogg
 |vo_02_02_tx_en          = Ahaha! Let me amuse myself a little.
-|vo_02_02_tx_zhs         = 让这些孩子们来助助兴吧！
-|vo_02_02_tx_zht         = 
-|vo_02_02_tx_ja          = 
-|vo_02_02_tx_ko          = 이 아이들로... 분위기 좀 띄워볼까?
+|vo_02_02_tx_zh          = 呵呵呵呵，让这些孩子们来助助兴吧！
+|vo_02_02_rm_zh          = Hēhēhēhē, ràng zhèxiē háizimen lái zhùzhùxìng ba!
+|vo_02_02_tx_ja          = アハッ…！この子達で盛り上げよう！
+|vo_02_02_tx_ko          = 이 아이들로… 분위기 좀 띄워볼까?
 
-|vo_03_00_title          = Teleporting
-|vo_03_01_file           = VO {lang}{name} - Over Here.ogg
-|vo_03_01_tx_en          = Over here!
-|vo_03_01_tx_zhs         = 这边！
-|vo_03_01_tx_zht         = 
-|vo_03_01_tx_ja          = 
-|vo_03_01_tx_ko          = 이쪽이다!
-|vo_03_02_file           = VO {lang}{name} - Poof.ogg
-|vo_03_02_tx_en          = Poof!
-|vo_03_02_tx_zhs         = Poof!
-|vo_03_02_tx_zht         = 
-|vo_03_02_tx_ja          = 
-|vo_03_02_tx_ko          = 워프!
-|vo_03_03_file           = VO {lang}{name} - Blink.ogg
-|vo_03_03_tx_en          = Blink!
-|vo_03_03_tx_zhs         = Blink！
-|vo_03_03_tx_zht         = 
-|vo_03_03_tx_ja          = 
-|vo_03_03_tx_ko          = Blink！
+|vo_03_00_title          = Attacking
+|vo_03_01_tx_en          = {{A|VO Fatui Electro Cicin Mage - Attacking 01.ogg}} {{A|VO Fatui Electro Cicin Mage - Attacking 02.ogg}} {{A|VO Fatui Electro Cicin Mage - Attacking 03.ogg}} {{A|VO Fatui Electro Cicin Mage - Attacking 04.ogg}} {{A|VO Fatui Electro Cicin Mage - Attacking 05.ogg}}
 
-|vo_04_00_title          = Idle
-|vo_04_01_file           = VO {lang}{name} - Boring So Very Boring.ogg
-|vo_04_01_tx_en          = Boring... So very boring...
-|vo_04_01_tx_zhs         = 无聊无聊好无聊。
-|vo_04_01_tx_zht         = 
-|vo_04_01_tx_ja          = 
-|vo_04_01_tx_ko          = 지루해... 지루해... 너무 지루해...
-|vo_04_02_file           = VO {lang}{name} - Ha Ha Ha Ha.ogg
-|vo_04_02_tx_en          = Ha ha ha ha!
-|vo_04_02_tx_zhs         = 哈哈哈哈！
-|vo_04_02_tx_zht         = 
-|vo_04_02_tx_ja          = 
-|vo_04_02_tx_ko          = 하하하하!
-|vo_04_03_file           = VO {lang}{name} - Uhhh Who Can I Find Who Might Amuse Me.ogg
-|vo_04_03_tx_en          = Ahhh.... Who can I find who might amuse me?
-|vo_04_03_tx_zhs         = 啊……谁能陪我玩玩呢？
-|vo_04_03_tx_zht         = 
-|vo_04_03_tx_ja          = 
-|vo_04_03_tx_ko          = 어디... 재밌는 상대 없을까?
-|vo_04_04_file           = VO {lang}{name} - Ehmm Hmm.ogg
-|vo_04_04_tx_en          = Ehmm hmm...
-|vo_04_04_tx_zhs         = 啦啦啦~
-|vo_04_04_tx_zht         = 
-|vo_04_04_tx_ja          = 
-|vo_04_04_tx_ko          = 라라라~
+|vo_04_00_title          = Teleporting
+|vo_04_01_file           = VO {lang}{name} - Over Here.ogg
+|vo_04_01_tx_en          = Over here!
+|vo_04_01_tx_zh          = 这边！
+|vo_04_01_rm_zh          = Zhèbiān!
+|vo_04_01_tx_ja          = こっちよ！
+|vo_04_01_rm_ja          = Kocchi yo!
+|vo_04_01_tx_ko          = 이쪽이다!
+|vo_04_02_file           = VO {lang}{name} - Poof.ogg
+|vo_04_02_tx_en          = Poof!
+|vo_04_02_tx_zh          = Poof！
+|vo_04_02_tx_ja          = ブーフ！
+|vo_04_02_rm_ja          = Buufu!
+|vo_04_02_tx_ko          = 푸프!
+|vo_04_03_file           = VO {lang}{name} - Blink.ogg
+|vo_04_03_tx_en          = Blink!
+|vo_04_03_tx_zh          = Blink！
+|vo_04_03_tx_ja          = ブリンク！
+|vo_04_03_rm_ja          = Burinku!
+|vo_04_03_tx_ko          = 블링크!
 
-|vo_05_00_title          =  Activating Shield
-|vo_05_01_file           = VO {lang}{name} - You Really Know How To Get Me Going Hahahaha.ogg
-|vo_05_01_tx_en          = You really know how to get me going! Hahahaha!
-|vo_05_01_tx_zhs         = 你可真会，讨我开心！哈哈哈哈哈！
-|vo_05_01_tx_zht         = 넌 정말 날 즐겁게 해주는군!
-|vo_05_01_tx_ja          = 
-|vo_05_01_tx_ko          = 
-|vo_05_02_file           = VO {lang}{name} - Oh Now Youve Got Me Worked Up.ogg
-|vo_05_02_tx_en          = Oh! Now you've got me worked up!
-|vo_05_02_tx_zhs         = 这下你可把我惹急了。
-|vo_05_02_tx_zht         = 
+|vo_05_00_title          = Idle
+|vo_05_01_file           = VO {lang}{name} - Boring So Very Boring.ogg
+|vo_05_01_tx_en          = Boring... So very boring...
+|vo_05_01_tx_zh          = 无聊，无聊，好无聊啊。
+|vo_05_01_rm_zh          = Wúliáo, wúliáo, hǎo wúliáo a.
+|vo_05_01_tx_ja          = 退屈…退屈…退屈よぉ…
+|vo_05_01_tx_ko          = 지루해… 지루해… 너무 지루해…
+|vo_05_02_file           = VO {lang}{name} - Idle 04.ogg
+|vo_05_02_tx_en          = Hahahaha...!
+|vo_05_02_tx_zh          = 哈哈哈哈！
+|vo_05_02_rm_zh          = Hāhāhāhā!
 |vo_05_02_tx_ja          = 
-|vo_05_02_tx_ko          = 나 이번엔 진짜 화났어!
+|vo_05_02_tx_ko          = 하하하하!
+|vo_05_03_file           = VO {lang}{name} - Uhhh Who Can I Find Who Might Amuse Me.ogg
+|vo_05_03_tx_en          = Ah... Who can I find who might amuse me?
+|vo_05_03_tx_zh          = 啊…谁能陪我玩玩呢？
+|vo_05_03_rm_zh          = A... Shéi néng péi wǒ wánwán ne?
+|vo_05_03_tx_ja          = 誰か遊んでくれないかなぁ…
+|vo_05_03_tx_ko          = 어디… 재밌는 상대 없을까?
+|vo_05_04_tx_en          = {{A|VO Fatui Electro Cicin Mage - Idle 01.ogg}} {{A|VO Fatui Electro Cicin Mage - Idle 02.ogg}} {{A|VO Fatui Electro Cicin Mage - Idle 03.ogg}}
+|vo_05_04_tx_zh          = 
+|vo_05_04_rm_zh          = 
+|vo_05_04_tx_ja          = 
+|vo_05_04_tx_ko          = 
 
-|vo_06_00_title          = Defeated
-|vo_06_01_file           = VO {lang}{name} - Look At Me Just Once More.ogg
-|vo_06_01_tx_en          = Look at me... just... once more...
-|vo_06_01_tx_zhs         = 再…多看我一眼。
-|vo_06_01_tx_zht         = 
-|vo_06_01_tx_ja          = 
-|vo_06_01_tx_ko          = 한 번만 더 봐줘...
-|vo_06_02_file           = VO {lang}{name} - The Cicins Shine No Longer.ogg
-|vo_06_02_tx_en          = The Cicins shine no longer...
-|vo_06_02_tx_zhs         = 萤火…不再…闪烁。
-|vo_06_02_tx_zht         = 
-|vo_06_02_tx_ja          = 
-|vo_06_02_tx_ko          = 반딧불이 더 이상 빛나지 않아...
+|vo_06_00_title          = Activating Shield
+|vo_06_01_file           = VO {lang}{name} - You Really Know How To Get Me Going Hahahaha.ogg
+|vo_06_01_tx_en          = You really know how to get me going! Hahahaha!
+|vo_06_01_tx_zh          = 你可真会…讨我开心！哈哈哈哈哈！
+|vo_06_01_rm_zh          = Nǐ kě zhēn huì... Tǎo wǒ kāixīn! Hāhāhāhāhā!
+|vo_06_01_tx_ja          = よくも…楽しませてくれたいね！アハハハハハァ！
+|vo_06_01_tx_ko          = 아하하, 넌 정말 날 즐겁게 해주는군!
+|vo_06_02_file           = VO {lang}{name} - Oh Now Youve Got Me Worked Up.ogg
+|vo_06_02_tx_en          = Oh! Now you've got me worked up!
+|vo_06_02_tx_zh          = 这下你可把我惹急了。
+|vo_06_02_rm_zh          = Zhèxià nǐ kě bǎ wǒ rějíle.
+|vo_06_02_tx_ja          = よくも…怒らせてくれたなあ！
+|vo_06_02_tx_ko          = 나 이번엔 진짜 화났어!
+
+|vo_07_00_title          = Staggered
+|vo_07_01_file           = 
+|vo_07_01_tx_en          = {{A|VO Fatui Electro Cicin Mage - Staggered 01.ogg}} {{A|VO Fatui Electro Cicin Mage - Staggered 02.ogg}} {{A|VO Fatui Electro Cicin Mage - Staggered 03.ogg}} {{A|VO Fatui Electro Cicin Mage - Staggered 04.ogg}} {{A|VO Fatui Electro Cicin Mage - Staggered 05.ogg}}
+
+|vo_09_00_title          = Defeated
+|vo_09_01_file           = VO {lang}{name} - Look At Me Just Once More.ogg
+|vo_09_01_tx_en          = Look at me... just... once more...
+|vo_09_01_tx_zh          = 再…多看我一眼。
+|vo_09_01_rm_zh          = Zài... Duō kàn wǒ yīyǎn.
+|vo_09_01_tx_ja          = もう一回…私を見てほしい…
+|vo_09_01_tx_ko          = 한 번만 더 봐줘…
+|vo_09_02_file           = VO {lang}{name} - The Cicins Shine No Longer.ogg
+|vo_09_02_tx_en          = The Cicins shine no longer...
+|vo_09_02_tx_zh          = 萤火…不再…闪烁…
+|vo_09_02_rm_zh          = Yíng huǒ... Bù zài... Shǎnshuò...
+|vo_09_02_tx_ja          = 蛍火…もう…消えていく…
+|vo_09_02_tx_ko          = 반딧불이 더 이상 빛나지 않아…
 }}
+
+==Descriptions==
+{{Description|A Fatui mage who can command Electro Cicins in battle. Their origins and what they look like under that mask are both mysteries.<br />Similarly to the way that Electro Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey.|[[Archive]]}}
 
 ==Notable Fatui Electro Cicin Mages==
 ===Katarina===
 [[Katarina]] is an Electro Cicin Mage sent to [[the Chasm]]'s [[The Chasm/Underground Mines|underground]] to look for her lost brother, Nikolay.
 
 ==Trivia==
-*An old design for Electro Cicin Mages can be seen in the English version of [[:File:Character Demo - "Venti- A Bard's Business" (English Voice-Over) - Genshin Impact|enemy     Demo - "Venti: A Bard's Business"]]. At some point, the Chinese version of the demo was updated to use their current design.
+*During the Closed Beta Test, the design for the Electro Cicin Mages was much simpler in detail, and their hoods covered up their eyes. Obstructing the view of their mask, which was the standard Fatui opera mask instead of the Electro-styled one seen after the game's public release.
+**This old design can be seen in the English version of [https://youtu.be/TSsWsCdiiPI Venti: A Bard's Business]. At some point, the Chinese version of the demo was updated to use their current design.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Fatui Electro Cicin Mage Icon.png|Icon
+Enemy Fatui Electro Cicin Mage CBT.png|Left: CBT design, Right: Official design
+CBT Fatui Electro Cicin Mage Icon.png|Beta Icon
 </gallery>
+
+===Animations===
+{{Preview
+|file1    = Fatui Electro Cicin Mage Lantern Juggling
+|caption1 = Lantern Juggling
+}}
 
 ==Other Languages==
 {{Other Languages
@@ -268,10 +282,10 @@ Enemy Fatui Electro Cicin Mage Icon.png|Icon
 |zht_rm  = Yúrénzhòng - Léiyíng Shùshì
 |zh_tl   = Fatui - Electro Cicin Mage
 |ja      = ファデュイ・{{Rubi|雷|らい|蛍|けい|術|じゅつ|師|し}}
-|ja_rm   = Fadyui: Raikei Jutsushi
+|ja_rm   = Fadyui - Raikei Jutsushi
 |ja_tl   = Fatui - Electro Cicin Mage
-|ko      = {{Rubi|우|愚|인|人|단|團}}・번개 치친 {{Rubi|술|術|사|師}}
-|ko_rm   = U'indan: Beongae Chichin Sulsa
+|ko      = {{tt|우인단|愚人團}}・번개 치친 {{tt|술사|術師}}
+|ko_rm   = U'in-dan - Beon'gae Chichin Sulsa
 |ko_tl   = Fatui - Lightning Cicin Mage
 |es      = Soldado Fatui - Maga de Cicin Electro
 |es_tl   = Fatui Soldier - Electro Cicin Mage
@@ -287,6 +301,10 @@ Enemy Fatui Electro Cicin Mage Icon.png|Icon
 |id      = Fatui - Electro Cicin Mage
 |pt      = Fatui - Feiticeira Cicin Electro
 |pt_tl   = Fatui - Electro Cicin Sorceress
+|tr      = Fatui Elektrik Cicin Büyücüsü
+|tr_tl   = 
+|it      = Maga Cicin di Electro dei Fatui
+|it_tl   = 
 }}
 
 ==Change History==
@@ -299,4 +317,5 @@ Enemy Fatui Electro Cicin Mage Icon.png|Icon
 {{Enemy Navbox|type=Elite}}
 
 [[es:Maga de Cicin Electro]]
+[[id:Fatui Electro Cicin Mage]]
 [[pt-br:Fatui - Feiticeira Cicin Electro]]

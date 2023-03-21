@@ -7,16 +7,16 @@
 |summary       = 
 |requirement   = Complete [[As the Courtyard in Spring Once Appeared (Part 3)]]
 |characters    = Mamesuke; Paimon; Shibasuke; Traveler
-|startLocation = [[Pudding Isle/2.8|Pudding Isle]], [[Golden Apple Archipelago]]
-|region        = Golden Apple Archipelago
-|area          = Pudding Isle
+|startLocation = [[Pudding Isle/2.8|Pudding Isle]], [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]]
+|area          = Golden Apple Archipelago
+|subarea       = Pudding Isle
 |next          = The Bake-Danukis' Gift
 |exp           = 350
 |mora          = 30,000
 |primogems     = 40
 |other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}
 }}
-'''Bake-Danuki Wanderlust''' is an event [[World Quest]] in [[Golden Apple Archipelago]] during the [[Summertime Odyssey]] event.
+'''''Bake-Danuki Wanderlust''''' is an event [[World Quest]] in [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]] during the [[Summertime Odyssey]] event.
 
 ==Steps==
 * Start the quest by talking to [[Mamesuke]] on [[Pudding Isle/2.8|Pudding Isle]] with the right half set to Inazuma.
@@ -25,8 +25,7 @@
 # Go to the bonsai
 # Change the stone formation on the right side of the bonsai to Leisurely Rocks
 # Look for Shibasuke on the mountain
-# Defeat the Hilichurl guards
-#* {{Enemy List|Hilichurl Fighter*3;Pyro Abyss Mage;Blazing Axe Mitachurl|#*}}
+# Defeat the Hilichurl guards {{Enemy List|Hilichurl Fighter*3;Pyro Abyss Mage;Blazing Axe Mitachurl}}
 # Rescue the bake-danuki
 # Talk to the bake-danuki
 # Go to the bonsai
@@ -34,6 +33,7 @@
 # Change the stone formation on both sides of the bonsai to Leisurely Rocks
 # Talk to Mamesuke and Shibasuke
 # Catch up with Mamesuke and Shibasuke
+#* The bonsai cannot be rearranged during this step.
 # Talk to Mamesuke and Shibasuke
 ## This step and the next can be skipped by gliding into the Storm Barrier from a higher platform.
 # Destroy the Anemo Amber
@@ -43,10 +43,8 @@
 # Catch up with Mamesuke and Shibasuke
 # Talk to Mamesuke and Shibasuke
 # Defeat the Pyro {{Not a typo|Slime}}
-#* Wave 1:
-#** {{Enemy|Pyro Slime|x=4}}
-#* Wave 2:
-#** {{Enemy List|Large Pyro Slime*2;Pyro Slime|#**}}
+#* Wave 1: {{Enemy List|Pyro Slime*4}}
+#* Wave 2: {{Enemy List|Large Pyro Slime*2;Pyro Slime}}
 # Talk to Mamesuke and Shibasuke
 # Go to the bonsai
 # Change the stone formation on both sides of the bonsai to Unyielding Rocks
@@ -63,8 +61,9 @@
 # Talk to Mamesuke and Shibasuke
 # Go to Windrise
 
-==Notes==
-*Completing this quest unlocks [[The Bake-Danukis' Gift]] on the following day, which has Katherine (Mondstadt) reward you with 5 [[Crystal Core|Crystal Cores]] after speaking with her.
+==Gameplay Notes==
+* The Flaming Flower can be collected before approaching Mamesuke and Shibasuke to talk about it. It will not respawn for the dialogue, but there are no dialogue changes.
+* Completing this quest unlocks [[The Bake-Danukis' Gift]] on the following day, which has [[Katheryne]] (Mondstadt) reward you with 5 [[Crystal Core]]s after speaking with her.
 
 ==Dialogue==
 {{StubDialogue|Verify the requirements that lead to certain dialogue branches<br />Check a couple of talk-again lines<br /><!--A lot of lines look like they should be locked beind "Tanuki-Bayashi in the Forest" and "Eight Locales Over Mountains and Seas", yet I completed all tanuki-related quests and events but still got none of the Kichiboushi- and Ioroi-related dialogue branches... This branching seems glitchy. Also, I don't think Paimon would casually call the Electro Archon "Ei" if the player only just entered Inazuma, so the requirement is probably something else--><!--Have the same issue; gotten dialogue for having completed the event, and for not completing the event-->}}
@@ -78,20 +77,20 @@
 ::'''Paimon:''' It is said that they enjoy disguising themselves and pulling pranks on people in Inazuma's forests.
 :'''Mamesuke:''' Mm... Shibasuke...
 :'''Paimon:''' Eh? Did that bake-danuki speak?
-:'''Mamesuke:''' Eek! Yellow Fur and... Flying White Fur?
+:'''Mamesuke:''' Eek! Yellow Fur and... Flying White Fur?<!-- it doesn't seem like anyone got the following dialogue...
 :;(If the player has participated in '''[[Eight Locales Over Mountains and Seas]]'''){{Verify}}
 ::'''Paimon:''' Hey! You're just like Kichiboushi! Anyway, it's not Flying White Fur. The name's Paimon!
 ::'''Mamesuke:''' Paimora? Paimora knows Kichiboushi? Paimora, amazing!
 ::'''Paimon:''' Not Paimora, Paimon...! So, Kichiboushi is that famous now, huh? His training must be going well!
-:;(If the player has not participated in '''[[Eight Locales Over Mountains and Seas]]''')
-::'''Paimon:''' That's "Paimon" to you, not "Flying White Fur" or anything!
-::'''Mamesuke:''' Paimora?
-::'''Paimon:''' Not Paimora! Pai... mon...!
+:;(If the player has not participated in '''[[Eight Locales Over Mountains and Seas]]''') -->
+:'''Paimon:''' That's "Paimon" to you, not "Flying White Fur" or anything!<!-- if it turns out that players truly experienced branching dialogue here, then this line needs additional indentation -->
+:'''Mamesuke:''' Paimora?<!-- same comment as above -->
+:'''Paimon:''' Not Paimora! Pai... mon...!<!-- same comment as above -->
 :'''Mamesuke:''' Bye... mon...?
-:'''Paimon:''' Ugh, forget it... Wait! Why are we suddenly able to understand bake-danuki?
+:'''Paimon:''' Ugh, forget it... Wait! Why are we suddenly able to understand bake-danuki?<!-- it doesn't seem like anyone got the following dialogue, either...
 :;(If the player has participated in '''[[Eight Locales Over Mountains and Seas]]'''){{Verify}}
 ::'''Paimon:''' Ioroi once mentioned that bake-danuki can understand humans, but we can't understand them.
-::'''Paimon:''' We could understand Kichiboushi before because we'd had a bake-danuki meal, but its effects didn't last that long...
+::'''Paimon:''' We could understand Kichiboushi before because we'd had a bake-danuki meal, but its effects didn't last that long... -->
 :{{DIcon}} These islands have always been really unusual.
 ::'''Paimon:''' Yeah... It's almost like nothing strange is strange here!
 :{{DIcon}} What do you mean "we"? All I hear are bake-danuki noises.
@@ -107,8 +106,8 @@
 :'''Paimon:''' Anyway, how did you get here, Mamesuke?
 :'''Mamesuke:''' Playing with Shibasuke on unfamiliar boat.
 :'''Mamesuke:''' Sleepy... Woke up! Lots of people!
-:'''Mamesuke:''' Lots of wind on fists.
-:'''Mamesuke:''' Big cold person.
+:'''Mamesuke:''' Lots of [[Fatui Skirmisher - Anemoboxer Vanguard|wind on fists]].
+:'''Mamesuke:''' [[Fatui Skirmisher - Cryogunner Legionnaire|Big cold person.]]
 :{{DIcon}} That sounds mighty like the Fatui.
 :'''Mamesuke:''' ...The Fatty?
 :'''Mamesuke:''' Leave ship and wait in cave. Fatty leave.
@@ -118,11 +117,11 @@
 :{{DIcon}} Well, guess we'll have to take responsibility and help Mamesuke search.
 :'''Paimon:''' Yeah, but how? ... Oh, Paimon knows what to do! Let's look for clues with your {{color|buzzword|Elemental Sight}}!
 
-;(Talk to Mamesuke again)
-:'''Mamesuke:''' Mm... Shibasuke...
-
 ;(If the player attempts to rearrange the bonsai pot)
 :'''Paimon:''' Mamesuke is still in the mountains! If we switch the mountain styles now, finding Shibasuke will be the least of our problems! Even Mamesuke might get lost!
+
+;(Talk to Mamesuke again)
+:'''Mamesuke:''' Mm... Shibasuke...
 
 ;(Interact with the leaf)
 :'''Paimon:''' It's a leaf that contains the power of Anemo. Huh, speaking of those...
@@ -143,7 +142,7 @@
 :'''Mamesuke:''' Mm!
 ----
 ;(Approach the bonsai pot)
-:'''Paimon:''' We should be able to find Shibasuke if we switch the mountains to resemble Mondstadt's
+:'''Paimon:''' We should be able to find Shibasuke if we switch the mountains to resemble Mondstadt's.
 
 ;(Talk to Mamesuke)
 :'''Mamesuke:''' Mountain kaboom! ...Shibasuke?
@@ -161,13 +160,13 @@
 ;(Talk to Shibasuke)
 :'''Paimon:''' Eh? Isn't that Mamesuke? What's Mamesuke doing here?
 :'''Shibasuke:''' Eek! White Fur! Shoo!
-:'''Paimon:''' Eh? Is that Shibasuke? It looks just like Mamesuke...
+:'''Paimon:''' Eh? Is that Shibasuke? It looks just like Mamesuke...<!-- it doesn't seem like anyone got this option or the following dialogue...
 :{{DIcon}} The bake-danuki of Inazuma are really difficult to tell apart...
 :;(If the player has participated in '''[[Eight Locales Over Mountains and Seas]]'''){{Verify}}
 ::'''Paimon:''' Except Kichiboushi. He sure stands out from the crowd!
 ::'''Shibasuke:''' Kichiboushi? Lie!
 ::'''Paimon:''' We took Kichiboushi to train all across the lands! We were there when Ioroi told Kichiboushi to never stray from the tanuki path, you know? Hehe.
-::'''Shibasuke:''' Ioroi? White Fur lie! Shoo!
+::'''Shibasuke:''' Ioroi? White Fur lie! Shoo! -->
 :'''Paimon:''' Hmm... You're Shibasuke, right? Stop trying to get rid of us, Mamesuke sent us to find you.
 :'''Shibasuke:''' ...Mamesuke? Really?
 :'''Paimon:''' Of course! Come with us. Mamesuke is waiting for you!
@@ -184,7 +183,10 @@
 :'''Paimon:''' Eh? Come on, Paimon's super friendly-looking.
 :'''Paimon:''' But the bake-danuki of Inazuma should be skilled at transforming. Shibasuke could've transformed into a butterfly or something and flown away just now, right?
 :'''Shibasuke:''' Hmph! Dumb White Fur! Bake-danuki transformation not easy.
-:'''Paimon:''' Eh? But bake-danuki who can transform into things like barrels and lamps can be seen all over Inazuma.
+;(If ???){{Verify}}
+::'''Paimon:''' Eh? But Paimon's heard that bake-danuki who can transform into things like barrels and lamps can be seen all over Inazuma.<!-- I got this line, and I completed Kichiboushi's event, and the Sakoku Decree was already gone from my Inazuma -->
+;(If ???){{Verify|did anyone get this line?}}
+::'''Paimon:''' Eh? But bake-danuki who can transform into things like barrels and lamps can be seen all over Inazuma.
 :'''Shibasuke:''' Mmm, not same.
 :'''Paimon:''' How is it different?
 :'''Shibasuke:''' Mm... White Fur talk too much! Won't understand...
@@ -203,7 +205,7 @@
 :'''Mamesuke:''' Mm! Thanks Yellow Fur, White Fur!
 :'''Shibasuke:''' Mamesuke go too! Furry grass! *blow* Bald!
 :'''Mamesuke:''' Wow! Let's go!
-:'''Paimon:''' Furry grass? You mean the Dandelions?
+:'''Paimon:''' Furry grass? You mean the [[Dandelion]]s?
 :'''Paimon:''' Eh? But how will you get back to Inazuma? The Fatui ship? Paimon doesn't reckon you can go back the same way you came.
 :'''Mamesuke:''' ...Huh?
 :'''Paimon:''' Oh brother, Paimon doesn't think they've even considered that. (Traveler), we can take them back to Inazuma, right?
@@ -214,7 +216,7 @@
 :'''Paimon:''' Hmm... So we'll come back a little later, then?
 :'''Paimon:''' Paimon doesn't know how much of Mondstadt's charm they'll be able to experience on these islands, but making them Mondstadt-styled islands is probably the best we can do.
 
-;(After switching the bonsai layout)
+;(After switching the bonsai layout, or if both sides of the island are already set to Leisurely Rocks)
 :'''Mamesuke:''' Yey!
 :'''Shibasuke:''' Mm... White Fur, understand.
 :'''Paimon:''' Hearing that from Shibasuke feels so strange... But are they gonna be alright?
@@ -234,44 +236,41 @@
 :'''Mamesuke:''' Mamesuke lead way! Come!
 :'''Paimon:''' Gah, these two are so impatient. Let's follow them!
 ----
-;(If the player attempts to rearrange the bonsai pot)<!--option to rearrange bonsai didn't appear here, but appeared later for me-->
-:'''Paimon:''' Let's not switch the mountains for now. We'll have a headache if those bake-danuki get separated again.
-
-;(Approach Mamesuke and Shibasuke)
-:'''Mamesuke:''' Look! Not purple Lavender Melons! We want, but kapow!
-:'''Paimon:''' Oh, it's just a wind barrier! Hehe! We've seen many of these in our adventures across Mondstadt, haven't we, (Traveler)?
-:'''Paimon:''' Speaking of wind barriers, why do they vanish once the thing inside them is taken, anyway?
-:{{DIcon}} Well, the thing they're protecting is gone, so...
-:'''Paimon:''' ...That sounds kinda sad.
-:'''Shibasuke:''' White Fur can fly. White Fur get it?
-:'''Paimon:''' Oh yeah... Wait! You know, you should learn to stop relying on others and solve problems by yourself.
-:'''Mamesuke:''' Mmmm...
-:{{DIcon}} It seems a little too difficult for a beginner.
-:'''Paimon:''' Is that so? Hmph! Then experienced adventurers like (Traveler) and Paimon will have to teach you some lessons!
-:'''Paimon:''' There's Anemo Amber here, which is perfect. It'll create a wind current once destroyed. C'mon, (Traveler), show them how it's done!
-
-;(Talk to Mamesuke)
-:'''Mamesuke:''' Anemo Amber... Mm?
-
-;(Talk to Shibasuke)
-:'''Shibasuke:''' White Fur fly, White Fur kapow?
-
-;(After destroying the Anemo amber)
-:'''Paimon:''' Ah! The current vanished so quickly... Well, not that there's no other way to do this...
-:'''Shibasuke:''' White Fur no fear!
-:'''Paimon:''' Wow! Shibasuke said that transformation isn't easy, so Paimon thought he wouldn't be good at it.
-:'''Mamesuke:''' Shibasuke amazing! Transform into many things! But not when afraid!
-:'''Paimon:''' Ooh, so that's how it is! Alright then, (Traveler), let's get those Sunsettias for Mamesuke and Shibasuke!
-
-;(Talk to Mamesuke)
-:'''Mamesuke:''' Anemo Amber, Shibasuke transform... Shibasuke Amber! Hehe!
-<!--the above dialogue is skipped if the storm barrier is entered without approaching the two bake-danuki-->
-;(On entering the storm barrier)
-:;(If the storm barrier is entered without breaking the anemo amber)
+;(If Mamesuke and Shibasuke are approached without entering the wind barrier)
+::'''Mamesuke:''' Look! Not purple Lavender Melons! We want, but kapow!
+::'''Paimon:''' Oh, it's just a wind barrier! Hehe! We've seen many of these in our adventures across Mondstadt, haven't we, (Traveler)?
+::'''Paimon:''' Speaking of wind barriers, why do they vanish once the thing inside them is taken, anyway?
+::{{DIcon}} Well, the thing they're protecting is gone, so...
+::'''Paimon:''' ...That sounds kinda sad.
+::'''Shibasuke:''' White Fur can fly. White Fur get it?
+::'''Paimon:''' Oh yeah... Wait! You know, you should learn to stop relying on others and solve problems by yourself.
+::'''Mamesuke:''' Mmmm...
+::{{DIcon}} It seems a little too difficult for a beginner.
+::'''Paimon:''' Is that so? Hmph! Then experienced adventurers like (Traveler) and Paimon will have to teach you some lessons!
+::'''Paimon:''' There's Anemo Amber here, which is perfect. It'll create a wind current once destroyed. C'mon, (Traveler), show them how it's done!
+::&nbsp;
+:;(Talk to Mamesuke again)
+::'''Mamesuke:''' Anemo Amber... Mm?
+::&nbsp;
+:;(Talk to Shibasuke again)
+::'''Shibasuke:''' White Fur fly, White Fur kapow?
+::&nbsp;
+:;(After destroying the Anemo Amber)
+::'''Paimon:''' Ah! The current vanished so quickly... Well, not that there's no other way to do this...
+::'''Shibasuke:''' White Fur no fear!
+::'''Paimon:''' Wow! Shibasuke said that transformation isn't easy, so Paimon thought he wouldn't be good at it.
+::'''Mamesuke:''' Shibasuke amazing! Transform into many things! But not when afraid!
+::'''Paimon:''' Ooh, so that's how it is! Alright then, (Traveler), let's get those Sunsettias for Mamesuke and Shibasuke!
+::&#32;
+:;(Talk to Mamesuke again)
+::'''Mamesuke:''' Anemo Amber, Shibasuke transform... Shibasuke Amber! Hehe!
+<!-- all of the above dialogue in this section is skipped if the storm barrier is entered without approaching the two bake-danuki -->
+;(Upon entering the storm barrier)
+:;(If the Anemo Amber was not broken)
 ::'''Shibasuke:''' Yellow Fur kapow! Fly high, can't learn... Mm...
 ::'''Paimon:''' You can't? Oh well, but this still counts as a way to enter a wind current...
 :'''Mamesuke:''' Wow! Not purple Lavender Melon!
-:;(If the player has not completed '''[[Ritou Escape Plan]]''')
+;(If the player has not completed '''[[Ritou Escape Plan]]''')
 ::{{DIcon}} Lavender Melon?
 :::'''Mamesuke:''' Lavender Melon, purple, tasty!
 :::'''Paimon:''' It's probably a melon from Inazuma.
@@ -279,14 +278,14 @@
 :::'''Mamesuke:''' What is... Sunsettia?
 :::'''Paimon:''' Lavender Melons are Lavender Melons! They're not the same!
 ::'''Paimon:''' This isn't a Lavender Melon, it's a Sunsettia!
-:;(If the player has completed '''[[Ritou Escape Plan]]''')
+;(If the player has completed '''[[Ritou Escape Plan]]''')
 ::'''Paimon:''' It's a Sunsettia. Actually, both of them grow on Cuihua Wood, but the fruit varies according to the location!
-::;(If the player has not completed '''[[Tanuki-Bayashi in the Forest]]'''){{Verify}}
+:;(If the player has not completed '''[[Tanuki-Bayashi in the Forest]]'''){{Verify}}
 :::{{DIcon}} Maybe it has something to do with soil and climate.
 ::::'''Paimon:''' Paimon's heard that storms are ever-present in Inazuma!
 :::{{DIcon}} Maybe it has something to do with Archon preferences.
 ::::'''Paimon:''' Oh... Is the Electro Archon a god who likes Lavender Melons? It's hard to imagine that...
-::;(If the player has completed '''[[Tanuki-Bayashi in the Forest]]''')
+:;(If the player has completed '''[[Tanuki-Bayashi in the Forest]]'''){{Verify}}<!-- surely this should require the archon quests? -->
 :::{{DIcon}} Maybe it has something to do with soil and climate.
 ::::'''Paimon:''' Yeah, it's thundering all day over there in Inazuma...
 :::{{DIcon}} Maybe it has something to do with Archon preferences.
@@ -298,11 +297,10 @@
 :'''Paimon:''' Hmm, that is possible... Let's go take a look!
 ----
 ;(Approach Mamesuke and Shibasuke)
-:'''Paimon:''' Hehe, Paimon knew it was a Flaming Flower.<!--
-This dilaogue is *supposed* to be here, but it doesnt appear to be
+:'''Paimon:''' Hehe, Paimon knew it was a Flaming Flower.<!-- it doesn't seem like anyone got the following dialogue...
 :;(If the player has participated in [[Eight Locales Over Mountains and Seas]])
 ::'''Paimon:''' Paimon remembers that Kichiboushi called it a fire flower. It seems bake-danuki have different names for it.
-::'''Shibasuke:''' Flame grass~ fire flower~-->
+::'''Shibasuke:''' Flame grass~ fire flower~ -->
 :'''Mamesuke:''' Flame grass so hot.
 :'''Paimon:''' There's a trick to picking Flaming Flowers! You have to extinguish them first to pick them safely.
 :'''Paimon:''' You'll need water or ice on a sunny day, and it's even easier if there's a Hydro Amber nearby. If it's raining, just use Anemo to swirl the rain and wet it.
@@ -310,7 +308,8 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 :'''Paimon:''' Of course! Paimon and (Traveler) have learned a lot in our adventures.
 :'''Shibasuke:''' Anemo Amber, Hydro Amber, same?
 :'''Paimon:''' Hmm... How should we explain this... They look almost the same, but one creates a wind current, and the other creates rain.
-:'''Mamesuke:''' Mm!
+;(Shibasuke transforms into a Hydro Amber)
+:'''Shibasuke:''' Mm!
 :'''Paimon:''' Wow! Shibasuke transformed into a Hydro Amber!
 :{{DIcon}} I kinda wish you could transform too, Paimon...
 :'''Paimon:''' Paimon can't do that!
@@ -319,7 +318,7 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 
 :'''Paimon:''' Let's just get rid of those slimes first...
 
-;(After defeating the Pyro slimes)
+;(After defeating the Pyro Slimes)
 :'''Paimon:''' Pyro Slimes are much more dangerous than Flaming Flowers because they explode. But just like Flaming Flowers, extinguishing them solves all your problems!
 :'''Shibasuke:''' Mm!
 :'''Paimon:''' It should be safe now. Give the Flaming Flower Stamen to Mamesuke and Shibasuke!
@@ -332,7 +331,7 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 :'''Paimon:''' Right! Mamesuke, Shibasuke! Would you like to see the scenery in Liyue?
 :'''Mamesuke:''' Liyue fun?
 :{{DIcon}} There are Geovishaps there that inflict excruciating pain when they hit you.
-:{{DIcon}} There are Jueyun Chilies there that make you spew flames.
+:{{DIcon}} There are Jueyun Chilis there that make you spew flames.
 :'''Paimon:''' Hey! Stop that! Who would want to go there after hearing that!?
 :'''Mamesuke:''' Wow! Very fun!
 :'''Shibasuke:''' We go!
@@ -361,6 +360,9 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 :'''Paimon:''' Eh? What's that?
 :'''Shibasuke:''' Take White Fur see!
 ----
+;(If the player attempts to rearrange the bonsai pot)<!-- is this available earlier during the flaming flower stuff? -->
+:'''Paimon:''' Let's not switch the mountains for now. We'll have a headache if those bake-danuki get separated again.
+
 ;(Approach Mamesuke and Shibasuke)
 :'''Paimon:''' Whew... They're so fast...
 :'''Shibasuke:''' Mmhaha! White Fur weak!
@@ -371,13 +373,14 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 :'''Paimon:''' Uh... Something heavy! Like...
 :{{DIcon}} Like Paimon.
 ::'''Paimon:''' Paimon isn't that heavy!
-:{{DIcon}} Like a Meteorite.
+:{{DIcon}} Like a [[Starfell Sword|Meteorite]].
 ::'''Paimon:''' Meteorites are really handy!
 :'''Mamesuke:''' Mm... Lavender Melon?
 :'''Paimon:''' Lavender Melons are too light!
 :'''Mamesuke:''' Mmm... Hydro Amber?
 :'''Paimon:''' Uh... Paimon's never tried it, but it probably won't work...
 :'''Shibasuke:''' Mmm! Stones heavy enough!
+;(Shibasuke transforms into a stone of the same size)
 :'''Paimon:''' Shibasuke is really quick on his feet! (Traveler), since Shibasuke is here to help, why don't we unlock this mechanism?
 
 ;(Talk to Mamesuke)
@@ -397,8 +400,12 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 :'''Something is happening in the distance...'''
 
 :'''Shibasuke:''' Strange sound there! Shibasuke check!
+;(Shibasuke disappears)
 :'''Mamesuke:''' Mm! Mamesuke go too!
+;(Mamesuke disappears)
+;(Shibasuke reappears a short distance away, then disappears)
 :'''Paimon:''' Eh? What strange sound? Paimon didn't hear anything... Ah!
+;(Mamesuke reappears slightly further away, then disappears)
 :'''Paimon:''' You two are too impatient! (Traveler), let's catch up with them!
 
 ;(Approach the marked area)
@@ -410,11 +417,11 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 ;(After defeating the Ruin Guard)
 :'''Shibasuke:''' Yellow Fur so strong! Kaboom!
 :'''Mamesuke:''' So strong!
-:'''Paimon:''' Of course! (He's/She's) the famous (Traveler)!
+:'''Paimon:''' Of course! {{MC|He's|She's|mc=1}} the famous (Traveler)!
 :'''Shibasuke:''' Mm! Famous! Amazing!
 :'''Paimon:''' So the Anemo Amber and Hydro Amber that appeared earlier... Were they Mamesuke and Shibasuke trying to help us out?
 :'''Shibasuke:''' Mm!
-:'''Paimon:''' Eh? But I remember Mamesuke mentioning that Shibasuke can't transform when afraid...
+:'''Paimon:''' Eh? But I remember Mamesuke mentioning that Shibasuke can't transform when afraid...<!-- appears even if you didn't actually see that dialogue -->
 :'''Shibasuke:''' Afraid, but White Fur and Yellow Fur in danger.
 :'''Mamesuke:''' Mm, Shibasuke help!
 :'''Paimon:''' Aw, Shibasuke, so you did all this to help us out...
@@ -433,12 +440,12 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 :{{DIcon}} We can take them with us when we leave.
 :'''Paimon:''' Mondstadt seems like the better choice for our first destination... Let's go to Windrise! The terrain is more even, and it's close to the city.
 :'''Shibasuke:''' Woohoo! Mondstadt!
-:;(If [[Like Rhyme and Song, the Summer Reverie]] is already completed)
+;(If [[Like Rhyme and Song, the Summer Reverie]] is already completed)
 ::'''Paimon:''' Alright! Let's go now!
-:;(Go to Ending)
-:;(If Like Rhyme and Song, the Summer Reverie is not completed)
+:;(Go to [[#Ending|Ending]])
+;(If Like Rhyme and Song, the Summer Reverie is not completed)
 ::'''Paimon:''' But the situation here on the islands isn't very clear! Let's head back once we've resolved everything!
-:;(Go to Pause)
+:;(Go to [[#Pause|Pause]])
 
 ===Pause===
 {{Quest Description|update|The anomalies on the island have yet to stop. Once the problem is solved, send the bake-danuki off on their new journey.}}
@@ -467,9 +474,9 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 :'''Shibasuke:''' Mm!
 :'''Paimon:''' Paimon hopes Mamesuke and Shibasuke will be able to create many happy memories in Mondstadt, just like (Traveler) and Paimon did...
 :'''Mamesuke:''' Mmmm...
-:'''Paimon:''' Eh? Does this mean...
+:'''Paimon:''' Eh? Does this mean...<!-- doesn't seem like anyone got the following dialogue...
 :;(If the player has participated in [[Eight Locales Over Mountains and Seas]]){{Verify}}
-::'''Paimon:''' It's just like what happened with Kichiboushi when Ioroi's bake-danuki meal wore off...
+::'''Paimon:''' It's just like what happened with Kichiboushi when Ioroi's bake-danuki meal wore off... -->
 :{{DIcon}} They can't speak anymore...
 :{{DIcon}} We can't understand them anymore...
 :'''Paimon:''' It feels like waking up from a dream...
@@ -479,10 +486,10 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 :'''Paimon:''' Yeah, Shibasuke can take care of itself now, so they should be fine! Happy adventuring!
 ;(Quest completes)
 
-;(Talk to Mamesuke)
+;(Talk to Mamesuke again)
 :'''Mamesuke:''' Mm?
 
-;(Talk to Shibasuke)
+;(Talk to Shibasuke again)
 :'''Shibasuke:''' Mmhaha!
 {{Dialogue end}}
 
@@ -514,7 +521,7 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 |fr      = Un Bake-danuki aux envies de voyage
 |fr_tl   = A Bake-Danuki With Desires of Travel
 |ru      = Бакэ-дануки - любитель путешествий
-|ru_tl   = 
+|ru_tl   = Bake-Danuki - Lover of Adventures
 |th      = Bake-Danuki ผู้กระหายการเดินทาง
 |th_rm   = 
 |th_tl   = 
@@ -530,3 +537,6 @@ This dilaogue is *supposed* to be here, but it doesnt appear to be
 
 ==Change History==
 {{Change History|2.8}}
+
+[[es:El tanuki que quería viajar]]
+[[pt-br:Bake-Danuki com Sede de Viajar]]

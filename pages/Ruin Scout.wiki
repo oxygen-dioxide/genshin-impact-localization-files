@@ -1,54 +1,62 @@
 {{Enemy Infobox
 |image    = Enemy Ruin Scout.png
+|weakpoint = yes
 |type     = Elite Enemies
 |family   = Automatons
 |group    = Ruin Sentinels
-|location = [[Inazuma]]
 |ability1 = Invincibility Frames
 }}
-{{Description|Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.<br />Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common [[Ruin Guard]]s, their design has greater value in the study of biomimesis. Exactly why the form and movements of certain deep-sea lifeforms are being imitated is not known. But either way, tangling with them is hardly the best idea.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Ruin Sentinels}}
+===Items===
+{{Drops Table|type=Ruin Sentinels}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 66
+|p1    = 1
+|hp2   = 33
+|p2    = 1
+|hp3   = 0
+|p3    = 2
+}}
 
 ==Stats==
 {{Enemy Stats
 |phys_res     = 50%
 |hp_ratio     = 4.2
 |hp_type      = 2
-|atk_ratio    = 3
+|atk_ratio    = 3.9
 }}
+
+==Weak Point Location==
+<gallery>
+Ruin Scout Weak Point.png
+</gallery>
+* The Weak Point is only exposed during the '''Headbutt''' attack.
 
 ==Abilities and Attacks==
-''Names are unofficial''
-* '''Headbutt:''' Turning its body on the side, it charges up a lunge to headbutt its target, dealing '''130% ATK''' as {{Color|Black|Physical DMG}}. Its core is exposed while charging but is protected while it lunges.
+''Most attack names are unofficial.''
 
-* '''Tentacle Spin:''' The Scout spins its 4 tentacles dealing '''40% ATK''' as {{Color|Black|AoE Physical DMG}}. Core is protected.
+{{Enemy Attacks
+|name_1 = Headbutt
+|desc_1 = Turning its body on the side, it charges up a lunge to headbutt its target, dealing '''100% ATK''' as {{Color|Black|Physical DMG}}. Its core is exposed while charging but is protected while it lunges.
 
-* '''Orb Lay:''' The Scout quickly charges an energized orb and sets it right below itself. The orb deals '''50% ATK''' as {{Color|Black|Physical DMG}} to players that come in contact. When two or more orbs are on the field, the orbs will make an energized beam that connects them, dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players that come in contact. If one of the orbs disappears, the beam connecting to it will disappear. During this whole attack, its core is protected.
+|name_2 = Tentacle Spin
+|desc_2 = The Scout spins its 4 tentacles dealing '''30.7% ATK''' as {{Color|Black|AoE Physical DMG}}. Core is protected.
 
-* '''Discharge:''' Planting itself, the Scout charges up before discharging energy around itself, dealing '''100% ATK''' as {{Color|Black|Physical DMG}}. Its core is protected during this attack.
+|name_3 = Orb Lay
+|desc_3 = The Scout quickly charges an energized orb and sets it right below itself. The orb deals '''38.4% ATK''' as {{Color|Black|Physical DMG}} to players that come in contact. When two or more orbs are on the field, the orbs will make an energized beam that connects them, dealing '''38.4% ATK''' as {{Color|Black|Physical DMG}} to players that come in contact. If one of the orbs disappears, the beam connecting to it will disappear. During this whole attack, its core is protected.
 
-* '''Deactivated:''' After having its core hit twice while exposed, it will fall to the ground and deactivate. During this short time the Scout will not attack.
+|name_4 = Discharge
+|desc_4 = Planting itself, the Scout charges up before discharging energy around itself, dealing '''76.9% ATK''' as {{Color|Black|Physical DMG}}. Its core is protected during this attack.
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Ruin Scout Headbutt
-|caption1 = Headbutt
-
-|file2    = Ruin Scout Tentacle Spin
-|caption2 = Tentacle Spin
-
-|file3    = Ruin Scout Orb Lay
-|caption3 = Orb Lay
-
-|file4    = Ruin Scout Discharge
-|caption4 = Discharge
+|name_5 = Deactivated
+|desc_5 = After having its core hit twice while exposed, it will fall to the ground and deactivate. During this short time the Scout will not attack.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
 * An ability will only be used if they meet both of the following conditions:
 ** The ability is not on cooldown
@@ -70,14 +78,14 @@
 | Orb Lay || 0–20 || &mdash; || &mdash; || colspan="2" | &mdash; || {{check|yes}}
 |}
 
-==Strategy==
-The easiest of the Ruin Sentinels as its main job is setting up traps and blockades to stop its targets. It can only do close-ranged attacks, meaning any bow user can take them out from afar. However, when two or more Ruin Scouts are together, they go from being an easy enemy to a moderate annoyance. As the two Scouts will now always form a connection with their Orb Lay attack, one of them can headbutt you and the other can charge up its Discharge attack. It should be noted that you must not stand on high constructs when fighting them as they will just lose focus of you and return to their spawn point.
+==Descriptions==
+{{Description|Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.<br />Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common [[Ruin Guard]]s, their design has greater value in the study of biomimesis. Exactly why the form and movements of certain deep-sea lifeforms are being imitated is not known. But either way, tangling with them is hardly the best idea.|[[Archive]]}}
 
 ==Trivia==
 * It resembles the [https://honkai-impact-3rd-archives.fandom.com/wiki/Honkai_Beast#Jellyfish Psy Meduzoa] from ''{{w|Honkai Impact 3rd}}''.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Ruin Scout Icon.png|Icon
 </gallery>
 
@@ -100,7 +108,7 @@ Enemy Ruin Scout Icon.png|Icon
 |fr      = Éclaireur des ruines
 |fr_tl   = Ruin Scout
 |ru      = Руинный шпион
-|ru_tl   = 
+|ru_tl   = Ruin Spy
 |th      = Ruin Scout
 |vi      = Trinh Sát Di Tích
 |vi_tl   = Ruin Scout
@@ -109,6 +117,10 @@ Enemy Ruin Scout Icon.png|Icon
 |id      = Ruin Scout
 |pt      = Batedor das Ruínas
 |pt_tl   = 
+|tr      = Harabe Gözcüsü
+|tr_tl   = 
+|it      = Ricognitore delle rovine
+|it_tl   = 
 }}
 
 ==Change History==
@@ -117,5 +129,7 @@ Enemy Ruin Scout Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=elite}}
 
+[[de:Ruinenspäher]]
 [[es:Explorador de las Ruinas]]
 [[pt-br:Batedor das Ruínas]]
+[[ru:Руинный шпион]]

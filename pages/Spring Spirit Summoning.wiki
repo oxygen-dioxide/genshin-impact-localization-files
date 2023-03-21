@@ -21,18 +21,23 @@
 |value5        = 5/7
 |scale_att1    = ATK
 |utility1      = AoE
-|utility2      = Party Flat DMG Increase
-|utility3      = Flat DMG Increase
+|utility2      = Party Additive Base DMG Bonus
+|utility3      = Additive Base DMG Bonus
+|utility4      = Normal Attack DMG Increase
+|utility5      = Charged Attack DMG Increase
+|utility6      = Plunging Attack DMG Increase
+|utility7      = Elemental Skill DMG Increase
+|utility8      = Elemental Burst DMG Increase
 }}
 {{Description|The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!}}
 '''Spring Spirit Summoning''' is [[Shenhe]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
 * {{TalentNote|particles|3|4}}
-* {{TalentNote|icd|Press DMG|0.1}}
-* {{TalentNote|icd|Hold DMG|0}}
 * {{TalentNote|character=Shenhe|talent=Spring Spirit Summoning|dynamic buff|ATK}}
 * The resulting Icy Quill DMG Bonus is flat and is expressed as:<br /><math>[(\% \text{ Skill} \times \text{Skill Attribute}) + (\% \text{ DMG Bonus}</math><math>\times \text{ATK}_\text{Shenhe})]</math><math>\times(\text{DMG Multipliers})</math>
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Shenhe|talent=Spring Spirit Summoning|ascension|2|Spirit Communion Seal|enhances Spring Spirit Sumoning so that upon use, all nearby party members have their damage increased as follows.}}
 ** Press: 15% increase to Elemental Skill and Elemental Burst DMG for 10s.
 ** Hold: 15% increase to Normal, Charged, and Plunging Attack DMG for 15s.
@@ -42,6 +47,22 @@
 * {{TalentNote|constellation|3|Seclusion}}
 * {{TalentNote|constellation|4|Insight|When characters trigger the Icy Quill bonus DMG effect, Shenhe gains one Skyfrost Mantra stack. The next time Shenhe uses Spring Spirit Summoning, its damage is increased by 5% for each stack of Skyfrost Mantra, which Shenhe consumes after using Spring Spirit Summoning. Stacks last for 60 seconds and have a maximum of 50 stacks.}}
 * {{TalentNote|constellation|6|Mystical Abandon}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Press DMG
+|gu      = 1U
+|icdtag  = Elemental Skill
+|icdtype = 0.1s
+|poise   = 100
+|impulse = 3
+
+|title2   = Hold DMG
+|gu2      = 2U
+|icdtag2  = none
+|poise2   = 200
+|impulse2 = 2
+}}
 
 ==Preview==
 {{Preview
@@ -147,6 +168,10 @@
 |id      = Spring Spirit Summoning
 |pt      = Invocação Espiritual
 |pt_tl   = Spiritual Invocation
+|tr      = Ruha Çağrı
+|tr_tl   = 
+|it      = Evocazione dello spirito primaverile
+|it_tl   = Spring Spirit Summoning
 }}
 
 ==Change History==
@@ -155,5 +180,8 @@
 ==Navigation==
 {{Talent Navbox|Shenhe}}
 
+[[es:Espíritu exorcizador]]
+[[fr:Invocation d'esprit printanier]]
 [[pt-br:Invocação Espiritual]]
+[[ru:Призыв духа]]
 [[th:Spring Spirit Summoning]]

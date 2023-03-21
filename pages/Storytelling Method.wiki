@@ -4,29 +4,42 @@
 |image         = Commission Is This Novel Amazing?.png
 |region        = Inazuma
 |area          = Narukami Island
+|subarea       = Inazuma City
 |summary       = 
 |requirement   = [[This Novel... Seems Familiar?]], [[This Novel Seems... Problematic?]]
 |startLocation = [[Inazuma City]], [[Inazuma]]
 |exp           = 100
 |rep           = Inazuma
 |repAmt        = 20
+|repOrder      = 353
 |other         = {{Card|Mora|30,000}}{{Card|Hero's Wit|6}}
-|characters    = Traveler
+|characters    = Junkichi; Shigeru; Traveler
 }}
-'''Storytelling Method''' is a [[World Quest]] in [[Inazuma]]. It requires the completion of the commissions [[This Novel... Seems Familiar?]] and [[This Novel Seems... Problematic?]].
+'''''Storytelling Method''''' is a [[World Quest]] in [[Inazuma]]. It requires the completion of the commissions [[This Novel... Seems Familiar?]] and [[This Novel Seems... Problematic?]].
+
+==Start Location==
+<gallery>
+World Quest Storytelling Method Start Location.png|Start location
+World Quest Storytelling Method Start Location Context.png|Additional context
+</gallery>
 
 ==Steps==
 # Talk to [[Junkichi]]
-# Get a feel for Junkichi's story
+# Get a feel for Junkichi's story<br />(Defeating these enemy groups is optional.)
+#* Downstairs first room:{{Enemy List|Nobushi: Jintouban*2}}
+#* Upstairs side room:{{Enemy List|Nobushi: Hitsukeban*2}}
+#* Downstairs second room:{{Enemy List|Nobushi: Hitsukeban*3/plus an Electro [[Infusion Stone]]}}
+#* Top floor room beyond the exit:{{Enemy List|Kairagi: Fiery Might;Nobushi: Hitsukeban*2}}
 
-==Notes==
-* Completing this quest will grant the ''[[Wonders of the World]]'' achievement "[[Well, At Least It Ended]]."
+==Gameplay Notes==
+* Completing this quest will grant the ''[[Wonders of the World]]'' achievement ''[[Well, At Least It Ended]]''.
 * The chests in this domain give no rewards.
 
 ==Dialogue==
 {{Quest Description|[[Junkichi]] seems to be struggling with his writing again...}}
-{{StubDialogue|Check dialogue trigger condition in the domain. Mainly, the first line about breakable plank and the enemy alarm.<br>Is there a line if Traveler perform the narration perfectly?}}
+{{StubDialogue|Check dialogue triggers in the domain (mainly the enemy alarm).<br />Is there a line if Traveler performs the narration perfectly?<!--what is perfect?-->}}
 {{Dialogue start}}
+;(Talk to Junkichi or Shigeru)
 :'''Junkichi:''' ...So this is the structure I have in mind this time.
 :'''Junkichi:''' The supremely-skilled ninja uses all sorts of abilities to infiltrate the enemy fortress and retrieve the required intel in secret...
 :'''Shigeru:''' *sigh* And how many "abilities" are you going to give this ninja this time?
@@ -67,82 +80,83 @@
 :'''Junkichi:''' Having made all the necessary preparations, the ninja infiltrates the fortress stealthily...
 ----
 ;(After entering the domain)
-;(If Traveler move backward and into the first room)
+;(If the player goes backward and explores the first room)
 ::'''Junkichi:''' The ninja, being very vigilant, scouts the area thoroughly before acting... and he finds nothing out of place.
 
-;(Move forward towards the ladder)
+;(Approach the ladder)
 :'''Junkichi:''' After infiltrating the fortress, the ninja prepares to initiate the operation. He is sure that the intelligence was hidden beside a fake tree within the fortress itself...
 
-;(Standing on the breakable planks) <!--No longer possible to trigger this line?-->
+<!--This line does not trigger when standing on the breakable planks--><!--
+;(Stand on the breakable planks)
 ::'''Junkichi:''' The wooden planks below seem rather fragile, so the ninja thinks that he might find some way to break them.
-
-;(After breaking the planks and drops down)
+-->
+;(Break the planks and drop down)
 :'''Junkichi:''' The ninja discovers guards ahead. The broken wooden planks must've alerted the enemy. The ninja decides to find a way around them...
 
-;(If Traveler didn't alert the enemy and up the stairs)
+;(If the player goes up the stairs without alerting the enemies)
 ::'''Junkichi:''' Using his amazing agility, the ninja passes through this room without alerting anyone... What a brilliant move!
-;(If Traveler defeated the enemy and up the stairs)
+;(If the player goes up the stairs after defeating the enemies)
 ::'''Junkichi:''' And failing that... Then defeating them is still an option!
-;(If Traveler alerted the enemy and up the stairs)
+;(If the player goes up the stairs after alerting the enemies without defeating them)
 ::'''Junkichi:''' Oh no, the ninja alerts the enemy, and they come in hot pursuit!
-:;(After defeating the enemies)
-::'''Junkichi:''' Fortunately, the ninja's... uh, direct combat skills as also very good, and he defeats them all with ease!
+:;(If the player defeats the enemies)
+:::'''Junkichi:''' Fortunately, the ninja's... uh, direct combat skills as also very good, and he defeats them all with ease!
 
-;(Enter a room with another breakable planks)
+;(Enter the next room)
 :'''Junkichi:''' Yet another tightly locked room lies ahead, but the ninja adroitly discovers that perhaps the weak wooden flooring might serve as an entry point.
 
-;(Standing beside the window into a room with 2 enemies)
+;(If the player approaches the window to the room with two enemies)
 ::'''Junkichi:''' On the other side of the window, the ninja finds yet another room next door. But he should focus on his missions...
-;(If Traveler approaches the 2 enemies)
+;(If the player approaches the two enemies)
 ::'''Junkichi:''' Wait, what are you doing here... Oh, I guess I can just write that the ninja checks his surroundings to be sure that it's safe...
 ::'''Junkichi:''' Maybe the ninja can also look for a few other trinkets while he's at it.
 ::'''Junkichi:''' What? I didn't write his character to be like that!
 
-;(If Traveler investigates the shining points nearby)
+;(If the player interacts with the investigation points nearby)
 ::'''Junkichi:''' Aha! Vegetables! Guess we shan't leave empty-handed!
 ::'''Junkichi:''' I must say that your searching skills are like that of a... uh, a vigilant, professional ninja.
 
-;(If Traveler drops down through the elevator shaft) <!--Won't trigger this line if the mechanism already activated this line-->
+;(If the player drops down through the elevator shaft)<!--Won't trigger if the mechanism already activated this line-->
 ::'''Junkichi:''' Oh no! The ninja seems to have activated a mechanism... An alarm... something! The enemy has discovered him!
-:
-:;(After defeating the enemies)
+
+;(After defeating the enemies){{Verify|which enemies?}}
 ::'''Junkichi:''' The ninja defeats the enemy with his mastery of martial arts. Time to go get that intelligence...
 
-;(Standing outside the room with 3 Precious Chest)
+;(Approach the room with three Precious Chests)
 ::'''Junkichi:''' The next room is full of treasure, but the ninja is unmoved. He is a true professional, and will certainly not deviate to perform some side quest.
-;(If Traveler enters the room with chests)
+;(If the player approaches the chest)
 ::'''Junkichi:''' Hey! That treasure chest is empty, too, really! Come on, please, can you just follow my outline!?
-;(If Traveler opens chests)
+;(If the player opens the chests)
 ::'''Junkichi:''' I already said there's nothing inside. I haven't finished thinking yet... Well, nevermind. The ninja eventually decides to leave this room.
 
-;(Reaches the room with the final objective)
+;(Enter the room with the final objective)
 :'''Junkichi:''' This should be where the intel is. The ninja decides to check the fake tree.
 
-;(If Traveler approaches a drum)
+;(If the player approaches a drum)<!--this will trigger once for each drum-->
 ::'''Junkichi:''' It's a fake tree! Or it's clearly a drum! ...Well, whatever. The ninja carefully searches around the drum...
 ::'''Junkichi:''' There's nothing around the drum! But the ninja is still quite pleased. At least he now knows that there's... nothing beside the drum...
-;(If Traveler approaches the wall of the room)
+
+;(If the player approaches the wall of the room){{Verify|which wall?}}
 ::'''Junkichi:''' The ninja feels that perhaps his surroundings might hide some unspeakable secret, and so he searches carefully...
 ::'''Junkichi:''' But there really is nothing here...
 
-;(Approaches the final objective)
+;(Approach the final objective)
 :'''Junkichi:''' This should be that fake tree, and the ninja searches carefully...
 
-;(Investigates the final objective)
+;(Investigate the final objective)
 :'''Junkichi:''' The ninja finds the intel successfully! Now he can return and make his report.
 :'''Shigeru:''' If I might interrupt, what's the intel exactly? Why's it just a box?
 :'''Junkichi:''' I&mdash;I haven't finished thinking yet! ...Whatever the case, the ninja has the intel now!
 
-;(If Traveler go to the exit point shortly after completing final objective)
+;(If the player approaches the exit point shortly after completing final objective)
 ::'''Junkichi:''' The ninja checks that he has the box with the intelligence inside it in hand, and he prepares to leave.
-:
-:;(During the dialogue, if Traveler leave the exit point, away from the hallway) <!--This trigger need to verify, going into the hallway didn't trigger this line-->
+;(If the player enters the hallway instead of approaching the exit point){{Verify|exact trigger?}}<!--This trigger need to verify, going into the hallway didn't trigger this line-->
 ::'''Junkichi:''' H&mdash;He prepares to leave... Hey, the ninja's leaving to report back. What are you planning to do?
-;(If Traveler didn't approach the exit shortly after completing final objective and later enters the back room with enemies)
+;(If the player approaches the back room with enemies after completing the Domain)
 ::'''Junkichi:''' Oh, come on... The ninja's actions have been discovered by the enemy, and large numbers of them surround him on every side. The ninja believes that it's time to go.
-:;(After defeating the enemies in the back room)
-::'''Junkichi:''' What? Why do I have to write the ninja as being this good as fighting... The ninja defeated all the enemies...
-::'''Junkichi:''' The ninja gazes upon the foes he has defeated. It's *really* time to leave now...
+:;(If the player defeats the enemies)
+:::'''Junkichi:''' What? Why do I have to write the ninja as being this good as fighting... The ninja defeated all the enemies...
+:::'''Junkichi:''' The ninja gazes upon the foes he has defeated. It's *really* time to leave now...
 ----
 ;(After exiting the domain)
 :'''Junkichi:''' Alright, that's a wrap.
@@ -156,7 +170,7 @@
 {{Dialogue end}}
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 World Quest Storytelling Method Broken Floor.png|Floor broken after plunging attack
 World Quest Storytelling Method Switch 1.png|First switch to activate
 World Quest Storytelling Method Switch 2.png|Second switch to activate
@@ -170,7 +184,7 @@ World Quest Storytelling Method Empty Chests.png|These are empty chests, contain
 |zhs_rm  = Gùshì Gòusī Fǎ
 |zht     = 故事構思法
 |zht_rm  = Gùshì Gòusī Fǎ
-|zh_tl   = 
+|zh_tl   = Conception Method of a Story
 |ja      = 物語の構想法
 |ja_rm   = Monogatari no Kousouhou{{Assumed}}
 |ja_tl   = Plot Rules of a Story
@@ -194,7 +208,13 @@ World Quest Storytelling Method Empty Chests.png|These are empty chests, contain
 |id_tl   = Story Making
 |pt      = Estruturação da História
 |pt_tl   = Structuring of History
+|tr      = Hikaye Anlatma Sanatı
+|tr_tl   = 
+|it      = Come raccontare una storia
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|2.1}}
+
+[[es:La estructura del argumento]]

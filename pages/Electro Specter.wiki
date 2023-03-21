@@ -1,56 +1,62 @@
 {{Enemy Infobox
 |image    = Enemy Electro Specter.png
 |type     = Common Enemies
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = no
 |family   = Elemental Lifeforms
 |group    = Specters
 |location = [[Enkanomiya]], [[Inazuma]]
 |ability1 = Fury
 }}
-{{Description|A monster born from hightly-concentrated Electro elements that can float in the air.<br />A certain researcher once studied these creatures. He believed they must be [[Hypostases]] of some kind. After all, both had elemental peculiarties and were birthed from areas saturated with elemental energy, right? By the way, he was later investigated for academic corruption.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Specters}}
+===Items===
+{{Drops Table|type=Specters}}
+
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
 |electro_res = Immune
 |hp_ratio    = 1.6
 |hp_type     = 2
-|atk_ratio   = 1.4
+|atk_ratio   = 2.8
 |atk_type    = 2
 }}
 
 ==Abilities and Attacks==
-*'''Fury:''' Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
-*'''Thunderstrike:''' Floats a bit before summoning three lightning bolts to strike down around the player, each dealing '''100% ATK''' as {{Color|AoE Electro DMG}}.
-*'''Blitz Bump:''' Spins and charges towards the player in a shaky manner, dealing '''125% ATK''' as {{Color|Electro DMG}}.
-*'''Zip Zap Bash:''' Zips about a few times, dealing '''30% ATK''' as {{Color|Electro DMG}} to players caught in its electricity, before slamming downwards dealing '''200% ATK''' as {{Color|AoE Electro DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
-*'''Final Burst:''' Explodes after a short pause when defeated dealing '''125% ATK''' as  {{Color|AoE Electro DMG}}. If at max Fury, it will follow the player before it explodes, dealing '''150% ATK''' as  {{Color|AoE Electro DMG}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Fury
+|desc_1 = Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Electro Specter Thunderstrike
-|caption1=Thunderstrike
+|name_2 = Thunderstrike
+|desc_2 = Floats a bit before summoning three lightning bolts to strike down around the player, each dealing '''50% ATK''' as {{Color|AoE Electro DMG}}.
 
-|file2=Electro Specter Blitz Bump
-|caption2=Blitz Bump
+|name_3 = Blitz Bump
+|desc_3 = Spins and charges towards the player in a shaky manner, dealing '''62.5% ATK''' as {{Color|Electro DMG}}.
 
-|file3=Electro Specter Zip Zap Bash
-|caption3=Zip Zap Bash
+|name_4 = Zip Zap Bash
+|desc_4 = Zips about a few times, dealing '''15% ATK''' as {{Color|Electro DMG}} to players caught in its electricity, before slamming downwards dealing '''100% ATK''' as {{Color|AoE Electro DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
 
-|file4=Electro Specter Final Burst
-|caption4=Final Burst
-
-|file5=Electro Specter Final Burst Fury
-|caption5=Final Burst (Max Fury)
+|name_5 = Final Burst
+|desc_5 = Explodes after a short pause when defeated dealing '''62.5% ATK''' as  {{Color|AoE Electro DMG}}. If at max Fury, it will follow the player before it explodes, dealing '''75% ATK''' as {{Color|AoE Electro DMG}}.
+|caption_5 = Normal
+|file_5_2 = Electro Specter Final Burst Fury
+|caption_5_2 = Max Fury
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -68,8 +74,11 @@
 | Max Fury || Zip Zap Bash || 0–12.5 || — || 5–7 || —
 |}
 
+==Descriptions==
+{{Description|A monster born from hightly-concentrated Electro elements that can float in the air.<br />A certain researcher once studied these creatures. He believed they must be [[Hypostases]] of some kind. After all, both had elemental peculiarties and were birthed from areas saturated with elemental energy, right? By the way, he was later investigated for academic corruption.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Electro Specter Icon.png|Icon
 </gallery>
 
@@ -101,6 +110,10 @@ Enemy Electro Specter Icon.png|Icon
 |id      = Electro Specter
 |pt      = Espectro Electro
 |pt_tl   = Electro Specter
+|tr      = Elektrik Uçarlopu
+|tr_tl   = 
+|it      = Spettro di Electro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -109,6 +122,8 @@ Enemy Electro Specter Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|Common}}
 
-[[vi:Bóng Ma - Lôi]]
 [[es:Espectro Electro]]
+[[fr:Spectre Électro]]
+[[ja:雷フライム]]
 [[pt-br:Espectro Electro]]
+[[vi:Bóng Ma - Lôi]]

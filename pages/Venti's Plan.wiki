@@ -6,31 +6,34 @@
 |actNum        = II
 |act           = For a Tomorrow Without Tears
 |part          = 5
-|description   = Stopped at last, [[Venti]] explained that he had tried and failed to cleanse [[Dvalin]]'s curse during their previous meeting. Now, he has been forced to rely on the [[Holy Lyre der Himmel]]'s power if he is to restore Dvalin.
 |startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |prev          = Let the Wind Lead (Quest)
 |next          = Venti's New Plan
 |exp           = 275
 |mora          = 5,975
 |other         = {{Card|Character EXP|3,125}}{{Card|Fine Enhancement Ore|5}}
-|characters    = Gotelinde;Paimon;Traveler;Venti
+|characters    = Gotelinde;Otto;Paimon;Traveler;Venti
 |voiced        = yes
 }}
 {{TeyvatQuest|0|2|part=5}}
 ==Steps==
 # Talk to [[Venti]]
-# Go to the Cathedral with Venti
+# Go to the [[Mondstadt Cathedral|Cathedral]] with Venti
 # Go to Venti
-# See how Venti borrows the Holy Lyre
+# See how Venti borrows the [[Holy Lyre der Himmel|Holy Lyre]]
 # Talk to Venti
 # Talk to the [[Gotelinde|sister]]
 
 ==Dialogue==
-{{dialogue start}}
+{{Quest Description|Stopped at last, Venti explained that he had tried and failed to cleanse [[Dvalin]]'s curse during their previous meeting. Now, he has been forced to rely on the Holy Lyre der Himmel's power if he is to restore Dvalin.}}
+{{Dialogue start}}
 ;(Talk to Venti)
-:{{A|vo mdaq044 1 paimon 01.ogg}} '''Paimon:''' So this... "[[Holy Lyre der Himmel]]" is...
+:{{A|vo mdaq044 1 paimon 01.ogg}} '''Paimon:''' So this... "Holy Lyre der Himmel" is...
 :{{A|vo mdaq044 1 venti 01.ogg}} '''Venti:''' One of the most treasured items in Mondstadt. It's the lyre that [[Barbatos]] used to play.
-:{{A|vo mdaq044 1 venti 02.ogg}} '''Venti:''' With it, perhaps I can help [[Dvalin]] draw his gentle nature back out of this nightmare he's going through.
+:{{A|vo mdaq044 1 venti 02.ogg}} '''Venti:''' With it, perhaps I can help Dvalin draw his gentle nature back out of this nightmare he's going through.
 :{{A|vo mdaq044 1 paimon 02.ogg}} '''Paimon:''' Will it really stop Stormterror from causing more damage?
 :{{A|vo mdaq044 1 venti 03.ogg}} '''Venti:''' Of course. I'm the best bard in the world.
 :{{A|vo mdaq044 1 venti 04.ogg}} '''Venti:''' There's not a single song I do not know, no matter if it's from the past, present, or future.
@@ -45,15 +48,20 @@
 
 ----
 
-;(See how Venti borrows the Holy Lyre)
+;(Approach Otto by the front of the apse, optional)<!-- file names are associated with the following quest, but is available starting with this quest -->
+:{{A|vo dialog mdaq047 otto 01.ogg}} '''[[Otto]]:''' Man, this stinks. Having to stand around here all {{Color|buzzword|day}} long, having to guard this entrance. Hey! Don't move! You can't go down there!
+:{{A|vo dialog mdaq047 paimon 01.ogg}} '''Paimon:''' Seems we're gonna have to wait until {{Color|buzzword|nightfall}} to sneak in...
+:;(The player is moved to the front-row pews)
+
+;(Approach Venti)
 :{{A|vo mdaq045 2 venti 01.ogg}} '''Venti:''' Let me handle this...
 :{{A|vo mdaq045 2 venti 02.ogg}} '''Venti:''' Hello there, Sister.
-:{{A|vo mdaq045 2 nun 01.ogg}} '''Gotelinde:''' May the [[Barbatos|Anemo God]] bless you, young bard. How can I help you?
+:{{A|vo mdaq045 2 nun 01.ogg}} '''Gotelinde:''' May the Anemo God bless you, young bard. How can I help you?
 :{{A|vo mdaq045 2 venti 03.ogg}} '''Venti:''' Actually, I know a secret that can save Mondstadt from its current predicament.
 :{{A|vo mdaq045 2 nun 02.ogg}} '''Gotelinde:''' Oh, what a blessing from the God of Anemo!
 :{{A|vo mdaq045 2 nun 03.ogg}} '''Gotelinde:''' But you should report that to the [[Knights of Favonius]]. Why have you come to me?
 :{{A|vo mdaq045 2 venti 04.ogg}} '''Venti:''' Hahaha, because you, dear sister, are able to help!
-:{{A|vo mdaq045 2 venti 05.ogg}} '''Venti:''' I'd like to borrow... the Holy Lyre. With it, I'll be able to help Stormterror–
+:{{A|vo mdaq045 2 venti 05.ogg}} '''Venti:''' I'd like to borrow... the Holy Lyre. With it, I'll be able to help Stormterror&mdash;
 :{{A|vo mdaq045 2 nun 04.ogg}} '''Gotelinde:''' Please see yourselves out.
 :{{A|vo mdaq045 2 venti 06.ogg}} '''Venti:''' What?
 :{{A|vo mdaq045 2 nun 05.ogg}} '''Gotelinde:''' It's a vicious dragon indeed, but once the [[Jean|Acting Grand Master]] makes up her mind, nothing can stand in the Knights' way.
@@ -68,7 +76,11 @@
 :{{A|vo mdaq045 2 venti 12.ogg}} '''Venti:''' My disciples, rejoice! Behold, the {{Color|buzzword|God of Anemo, Barbatos}} has descended!
 :{{A|vo mdaq045 2 venti 13.ogg}} '''Venti:''' Shocked, aren't you? Don't you just want to cry out and rejoice? How does it feel to finally meet the god you've been serving?
 :{{A|vo mdaq045 2 nun 09.ogg}} '''Gotelinde:''' If there's nothing else, I'll be going back to handle the Cathedral's paperwork now.
-:{{A|vo mdaq045 2 venti 14.ogg}} '''Venti:''' Wait–
+:{{A|vo mdaq045 2 venti 14.ogg}} '''Venti:''' Wait&mdash;
+:;(Gotelinde walks away, ending the conversation)
+
+;(Talk to Gotelinde)
+:{{A|vo dialog mdaq045 nun 01.ogg}} '''Gotelinde:''' The Church has been a mess recently, and [[Seamus Pegg|the Seneschal]] is not here... *sigh*
 
 ----
 
@@ -92,8 +104,8 @@
 :{{A|vo mdaq045 4 nun 04.ogg}} '''Gotelinde:''' Is that so?
 :{{A|vo mdaq045 4 nun 05.ogg}} '''Gotelinde:''' Not that I don't trust you. It's just that a suspicious bard came looking to borrow the Holy Lyre as well.
 :{{A|vo mdaq045 4 nun 06.ogg}} '''Gotelinde:''' He's full of nonsense and even called himself Barbatos. He must be up to something.
-:{{A|vo mdaq045 4 nun 07.ogg}} '''Gotelinde:''' There are regulations in place for the use of the Holy Lyre. Currently, it's only used in Ludi Harpastum.
-:{{A|vo mdaq045 4 nun 08.ogg}} '''Gotelinde:''' Signed documents from the [[Varka|Grand Master]], [[Seamus Pegg|Seneschal]], and Community Representative are all required.
+:{{A|vo mdaq045 4 nun 07.ogg}} '''Gotelinde:''' There are regulations in place for the use of the Holy Lyre. Currently, it's only used in [[Ludi Harpastum]].
+:{{A|vo mdaq045 4 nun 08.ogg}} '''Gotelinde:''' Signed documents from the Grand Master, Seneschal, and Community Representative are all required.
 :{{A|vo mdaq045 4 nun 09.ogg}} '''Gotelinde:''' So, may I see the document from the Knights of Favonius?
 :{{DIcon}} The Grand Master didn't mention it...
 :{{DIcon}} I'm sorry, I forgot to bring it here.
@@ -101,25 +113,22 @@
 ::{{A|vo mdaq045 4 paimon 01.ogg}} '''Paimon:''' Hey!
 :{{A|vo mdaq045 4 nun 10.ogg}} '''Gotelinde:''' A signed document is required. Without it, there's not much I can do.
 :{{A|vo mdaq045 4 nun 11.ogg}} '''Gotelinde:''' Now, if you'll excuse me. I really am quite busy as of late.
-
-;(Talk to Gotelinde again)
-:{{A|vo dialog mdaq045 nun 01.ogg}} '''Gotelinde:''' The Church has been a mess recently, and the Seneschal is not here... *sighs*
-{{dialogue end}}
+{{Dialogue end}}
 
 ==Other Languages==
 {{Other Languages
 |en      = Venti's Plan
 |zhs     = 温迪的计划
-|zhs_rm  = Wēndí de jìhuà
+|zhs_rm  = Wēndí de Jìhuà
 |zht     = 溫迪的計畫
-|zht_rm  = Wēndí de jìhuà
+|zht_rm  = Wēndí de Jìhuà
 |zh_tl   = Venti's Plan
 |ja      = ウェンティの計画
 |ja_rm   = Wenti no Keikaku
 |ja_tl   = Venti's Plan
 |ko      = 벤티의 계획
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Benti-ui Gyehoek
+|ko_tl   = Venti's Plan
 |es      = El plan de Venti
 |es_tl   = Venti's Plan
 |fr      = Le plan de Venti
@@ -127,7 +136,7 @@
 |ru      = План Венти
 |ru_tl   = Venti's Plan
 |th      = แผนการของ Venti
-|th_rm   = Phaenkan khong Venti
+|th_rm   = Phaen-kan khong Venti
 |th_tl   = Venti's Plan
 |vi      = {{tt|Kế Hoạch|计划}} Của Venti
 |vi_tl   = Venti's Plan
@@ -136,6 +145,10 @@
 |id_tl   = Venti's Plan
 |pt      = Plano de Venti
 |pt_tl   = Venti's Plan
+|tr      = Venti'nin Planı
+|tr_tl   = 
+|it      = Il piano di Venti
+|it_tl   = Venti's Plan
 }}
 
 ==Change History==
@@ -146,4 +159,7 @@
 
 [[Category:Archon Prologue]]
 
+[[es:El plan de Venti]]
+[[fr:Le plan de Venti]]
+[[ja:ウェンティの計画]]
 [[pt-br:Plano de Venti]]

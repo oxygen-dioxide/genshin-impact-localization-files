@@ -3,7 +3,9 @@
 Enemy Ice Shieldwall Mitachurl.png|Archive
 Enemy Ice Shieldwall Mitachurl Full Artwork.png|Full Art
 </gallery>
-|element  = Cryo
+|dmgtype  = Physical
+|dmgtype2 = Cryo
+|weakpoint = yes
 |family   = Hilichurls
 |group    = Mitachurls
 |type     = Elite Enemies
@@ -11,50 +13,63 @@ Enemy Ice Shieldwall Mitachurl Full Artwork.png|Full Art
 |ability2 = Directional Shield
 |location = [[Dragonspine]]
 }}
-{{Description|A muscular hilichurl that uses solid ice as a shield, wielding it in battle.<br />Reason normally dictates that large creatures that see a lot of action should burn through a great number of calories to sustain themselves. As such, the present-day El Musk has proposed the "Mitachurl Index." This index correlates the percentage of mitachurls within the hilichurl population to the stability and success of hilichurl foraging activity.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Mitachurls}}
+===Items===
+{{Drops Table|type=Mitachurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|phys_res=30%|hp_ratio=3|atk_ratio=2.4|hp_type=1}}
 
 ==Abilities and Attacks==
-* '''Frozen Shield:''' The Ice Shieldwall Mitachurl is equipped with a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[shield]], which blocks incoming DMG from the direction that it is facing. This shield is vulnerable to {{Pyro}}, {{Electro}} and [[Poise Damage]], and weakest to {{Pyro}}. In [[Subzero Climate]]s, the shield will regenerate health due to the cold if it is not being constantly damaged, so the shield must be broken quickly.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Cryo Mitachurl
 
-* '''Shield Charge:''' Charges towards the player with its shield, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path. At the end of the charge, swings its shield at the player, dealing an additional '''100% ATK''' as {{Color|Black|Physical DMG}}.
+|name_1 = Frozen Shield
+|desc_1 = The Ice Shieldwall Mitachurl is equipped with a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[shield]], which blocks incoming DMG from the direction that it is facing. This shield is vulnerable to {{Pyro}}, {{Electro}} and [[Poise Damage]], and weakest to {{Pyro}}. In [[Subzero Climate]]s, the shield will regenerate health due to the cold if it is not being constantly damaged, so the shield must be broken quickly.
+{{Elemental Shield Data|Cryo|10}}
 
-* '''Charge:''' When without its shield, charges towards the player character with brute force, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path.
+|name_2 = Shield Charge
+|desc_2 = Charges towards the player with its shield, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path. At the end of the charge, swings its shield at the player, dealing an additional '''100% ATK''' as {{Color|Black|Physical DMG}}.
 
-* '''Smack:''' If the player strays too close, swings its shield or delivers a punch with its fist, dealing '''100% ATK''' or '''75% ATK''' as {{Color|Black|Physical DMG}}.
+|name_3 = Charge
+|desc_3 = When without its shield, charges towards the player character with brute force, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path.
 
-* '''Cryo Slime Throw:''' If the player is at a different elevation, digs a [[Cryo Slime]] out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Cryo DMG}}.
+|name_4 = Smack
+|desc_4 = If the player strays too close, swings its shield or delivers a punch with its fist, dealing '''100% ATK''' or '''75% ATK''' as {{Color|Black|Physical DMG}}.
+|caption_4 = Unshielded
+|file_4_2 = Cryo Mitachurl Smack Shielded
+|caption_4_2 = Shielded
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Cryo Mitachurl Shield Charge
-|caption1=Shield Charge
-
-|file2=Cryo Mitachurl Charge
-|caption2=Charge
-
-|file3=Cryo Mitachurl Smack
-|caption3=Smack
-
-|file4=Cryo Mitachurl Smack Shielded
-|caption4=Smack (Shielded)
-
-|file5=Cryo Mitachurl Cryo Slime Throw
-|caption5=Cryo Slime Throw
+|name_5 = Cryo Slime Throw
+|desc_5 = If the player is at a different elevation, digs a [[Cryo Slime]] out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Cryo DMG}}.
 }}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Ice Shieldwall Mitachurl}}
 
+==Descriptions==
+{{Description|A muscular hilichurl that uses solid ice as a shield, wielding it in battle.<br />Reason normally dictates that large creatures that see a lot of action should burn through a great number of calories to sustain themselves. As such, the present-day El Musk has proposed the "Mitachurl Index." This index correlates the percentage of mitachurls within the hilichurl population to the stability and success of hilichurl foraging activity.|[[Archive]]}}
+
+==Trivia==
+{{Transclude|Mitachurl|titles|section=1}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Ice Shieldwall Mitachurl Icon.png|Icon
 </gallery>
 
@@ -86,6 +101,10 @@ Enemy Ice Shieldwall Mitachurl Icon.png|Icon
 |id      = Ice Shieldwall Mitachurl
 |pt      = Mitachurl de Escudo de Gelo
 |pt_tl   = 
+|tr      = Buz Kalkanlı Dağ Azmanı
+|tr_tl   = 
+|it      = Mitachurl con scudo di ghiaccio
+|it_tl   = 
 }}
 
 ==Change History==
@@ -94,5 +113,7 @@ Enemy Ice Shieldwall Mitachurl Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Mitachurl mit Eisschild]]
 [[es:Mitachurl con Escudo Cryo]]
+[[ja:ヒルチャール暴徒・氷盾]]
 [[pt-br:Mitachurl de Escudo de Gelo]]

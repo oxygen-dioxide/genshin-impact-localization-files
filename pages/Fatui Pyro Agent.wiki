@@ -1,19 +1,32 @@
+{{About|the [[Elite Enemy]]|the [[Genius Invokation TCG]] Character Card|Fatui Pyro Agent (Character Card)}}
 {{Enemy Infobox
 |image    = Enemy Fatui Pyro Agent.png
 |type     = Elite Enemies
-|element  = Pyro
+|dmgtype  = Physical
+|dmgtype2 = Pyro
+|weakpoint = yes
 |family   = Fatui
 |faction  = Fatui
 |title    = Agent: Incinerating Blades
 |ability1 = Interruption Resistance
-|voiceCN  = [https://zh.moegirl.org.cn/鱼冻 鱼冻]<ref>Bilibili: [https://www.bilibili.com/video/BV1J5411V7or?spm_id_from=333.999.0.0 Childe's Character Tales]</ref>
-|voiceJP  = [http://amuleto.jp/talents/早川-慧.html Hayakawa Kei (早川 慧)]<ref>Twitter: [https://twitter.com/hamukamorx JP VA Self Announcement] (Profile)</ref>
+|voiceCN  = [https://zh.moegirl.org.cn/鱼冻 Yudong ({{zh|鱼冻}})]<ref>Bilibili: [https://www.bilibili.com/video/BV1J5411V7or?spm_id_from=333.999.0.0 Childe's Character Tales]</ref>
+|voiceJP  = [http://amuleto.jp/talents/早川-慧.html Hayakawa Kei ({{ja|早川 慧}})]<ref name="Hayakawa Kei">Twitter: [https://twitter.com/hamukamoRX JP VA's Bio]</ref>
 }}
-{{Description|A Fatui secret agent. The duty of a Fatui agent is to settle debts &mdash; but not only those of a monetary or goods-in-kind nature.<br />They also ensure dues are paid when it comes to the principle of "an eye for an eye." If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath upon them.|[[Adventurer Handbook]]}}
 {{Enemy Intro|hidegroup=1}}
 
 ==Drops==
-{{Drops|Fatui Agents}}
+===Items===
+{{Drops Table|type=Fatui Agents}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 66
+|o1    = 1
+|hp2   = 33
+|o2    = 1
+|hp3   = 0
+|o3    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -21,81 +34,84 @@
 |pyro_res     = 50%
 |hp_ratio     = 5
 |hp_type      = 1
-|atk_ratio    = 4
+|atk_ratio    = 8
 }}
 
 ==Abilities and Attacks==
-*'''Spinning Knife Guard:''' Creates 3 rapidly spinning {{Pyro}} knives in a wide circle around them, dealing '''50% ATK''' as {{Color|Pyro DMG}} to players hit by them. During this attack, the Pyro Agent's [[Interruption Resistance]] is greatly increased. This is always the first attack that the Pyro Agent uses, and is always followed by '''Invisibility'''.
-*'''Invisibility:''' Enters an invisible state, but their silhouette may remain visible should they be affected by certain elements. Their footsteps will show up on certain terrain as well. When using attacks while invisible, the Agent will temporarily show himself. While invisible, the Fatui Pyro Agent cannot be selected.
-*'''Melee Slash:''' At melee range, slashes their target with a swift knife blow, dealing '''120% ATK''' as {{Color|Black|Physical DMG}}.
-*'''Dash and Slash:''' When out of melee range, dashes towards and attacks with their knife, dealing '''150% ATK''' as {{Color|Pyro DMG}}. This attack can be used while invisible.
-*'''Shadow Strike:''' While invisible, sends a silhouette forward towards the player to deal '''150% ATK''' as {{Color|Pyro DMG}}.
-*'''Clones:''' After using Invisibility, Pyro Agents create a clone of themselves with '''Dash and Slash''' and '''Shadow Strike''' a maximum of 6 times. Clones can be removed by any source of damage or elemental applications by [[Alternate Sprint]]s. Clones are resistant but not immune to {{Pyro}} attacks. All Clones are immediately removed if the Pyro Agent is staggered.
-**'''Clone Charge:''' Once 6 clones have been created, all present clones will circle the player before charging at them in sequence, each dealing '''100% ATK''' as {{Color|Pyro DMG}}, with the Pyro Agent performing a final strike from above, dealing '''170% ATK''' as {{Color|AoE Pyro DMG}}. If any clones are destroyed before or during this attack, the number of sequential attacks before the final plunging strike will be reduced. After this attack, the Pyro Agent will stop generating clones until he uses '''Invisibility''' again.
-**'''Clone Slash:''' When the Pyro Agent performs an attack in the invisible state, all present clones will perform a '''Melee Slash''' at their location, each dealing '''120% ATK''' as {{Color|Black|Physical DMG}}. This attack is only used by enhanced versions of the Pyro Agent found mostly in [[Domains]].
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Prowl
+|desc_1 = Creates 3 rapidly spinning {{Pyro}} knives in a wide circle around them, dealing '''25% ATK''' as {{Color|Pyro DMG}} to players hit by them. During this attack, the Pyro Agent's [[Interruption Resistance]] is greatly increased. This is always the first attack that the Pyro Agent uses, and is always followed by '''Stealth'''.
+|file_1 = Fatui Pyro Agent Spinning Knife Guard Invisibility
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Fatui Pyro Agent Spinning Knife Guard Invisibility
-|caption1=Spinning Knife Guard and Invisibility
+|name_2 = Stealth
+|desc_2 = Enters an invisible state, but their silhouette may remain visible should they be affected by certain elements. Their footsteps will show up on certain terrain as well. When using attacks while invisible, the Agent will temporarily show himself. While invisible, the Fatui Pyro Agent cannot be selected.
 
-|file2=Fatui Pyro Agent Melee Slash
-|caption2=Melee Slash
+|name_3 = Melee Slash
+|desc_3 = At melee range, slashes their target with a swift knife blow, dealing '''60% ATK''' as {{Color|Black|Physical DMG}}.
 
-|file3=Fatui Pyro Agent Dash and Slash
-|caption3=Dash and Slash
+|name_4 = Thrust
+|desc_4 = When out of melee range, dashes towards and attacks with their knife, dealing '''75% ATK''' as {{Color|Pyro DMG}}. This attack can be used while invisible.
+|file_4 = Fatui Pyro Agent Dash and Slash
+|caption_4 = Normal
+|file_4_2 = Fatui Pyro Agent Dash and Slash Invisible
+|caption_4_2 = Invisible
 
-|file4=Fatui Pyro Agent Dash and Slash Invisible
-|caption4=Dash and Slash (Invisible)
+|name_5 = Shadow Strike
+|desc_5 = While invisible, sends a silhouette forward towards the player to deal '''75% ATK''' as {{Color|Pyro DMG}}.
 
-|file5=Fatui Pyro Agent Shadow Strike
-|caption5=Shadow Strike
+|name_6 = Clones
+|desc_6 = After using Stealth, Pyro Agents create a clone of themselves with '''Thrust''' and '''Shadow Strike''' a maximum of 6 times. Clones can be removed by any source of damage or elemental applications by [[Alternate Sprint]]s. Clones are resistant but not immune to {{Pyro}} attacks. All Clones are immediately removed if the Pyro Agent is staggered.
 
-|file6=Fatui Pyro Agent Pyro Clone Charge
-|caption6=Clone Charge
+|name_7 = Blade Ablaze
+|desc_7 = Once 6 clones have been created, all present clones will circle the player before charging at them in sequence, each dealing '''50% ATK''' as {{Color|Pyro DMG}}, with the Pyro Agent performing a final strike from above, dealing '''85% ATK''' as {{Color|AoE Pyro DMG}}. If any clones are destroyed before or during this attack, the number of sequential attacks before the final plunging strike will be reduced. After this attack, the Pyro Agent will stop generating clones until he uses '''Stealth''' again.
+|file_7 = Fatui Pyro Agent Pyro Clone Charge
 
-|file7=Fatui Pyro Agent Clone Slash
-|caption7=Clone Slash
+|name_8 = Clone Slash
+|desc_8 = When the Pyro Agent performs an attack in the invisible state, all present clones will perform a '''Melee Slash''' at their location, each dealing '''60% ATK''' as {{Color|Black|Physical DMG}}. This attack is only used by enhanced versions of the Pyro Agent found mostly in [[Domains]].
 }}
 
 ==Strategy==
 <!-- Any tips on how to defeat the enemy efficiently go here. -->
-*Players can apply an element or other statuses to the Agent in order to outline or mark the Agent's character model even if it turns invisible.
-**If the Agent is affected with {{Color|[[Pyro]]}}, {{Color|[[Hydro]]}}, {{Color|[[Cryo]]}}, or {{Color|[[Electro]]}}, then the Agent's character model will be outlined with red, dark blue, light blue, or purple, respectively. Note that [[elemental reactions]] often consume the elements and may therefore turn the Agent fully invisible again.
+*Players can apply an element or other statuses to the Agent in order to outline or mark the Agent's model even if it turns invisible.
+**If the Agent is affected with {{Pyro}}, {{Hydro}}, {{Cryo}}, {{Electro}}, or {{Dendro}}, the Agent's model will be outlined with red, dark blue, light blue, purple, or green respectively. Note that [[elemental reactions]] may consume the elements and therefore turn the Agent fully invisible again.
 **Some characters' talents can apply marking-like statuses. These remain visible on the Agent when he turns invisible. For example, [[Lisa]]'s [[Violet Arc|Elemental Skill]] and her [[Lightning Touch|Charged Attack]] with her [[Induced Aftershock|1st Passive Talent]] apply a stack of the Conductive status, which cause a purple number to show up on the Agent. [[Tartaglia]]'s Riptide tag, [[Qiqi]]'s Fortune-Preserving Talisman, and [[Yoimiya]]'s Aurous Blaze show up on invisible Agents as well.
 *The Agent's blade often flashes before he performs a dash, charge, or slash. If audio is on, the blade emits an unsheathing sound. Use this to your advantage when fighting the agent.
 *Using large [[AoE]] attacks, such as [[Noelle]]'s [[Favonius Bladework - Maid|Charged Attack]] or [[Sweeping Time|Elemental Burst]], will increase the likelihood of damaging the Pyro Agent regardless. Consequently, the damage number will appear above the Agent, elucidating his location.
 *Auto-aimers, such as archers, some casters, and Elemental Skills like [[Xiangling]]'s "[[Guoba Attack|Guoba]]" and [[Fischl]]'s "[[Nightrider|Oz]]" will not be able to hit an invisible Pyro Agent unless he has recently been hit by a non-auto aimed attack.
 *He can be temporarily stun-locked if one finds his location while invisible, preventing him from moving away. This allows significant damage to be inflicted upon him.
 *Using [[Blunt Attack|heavy attack]]s that can [[Interruption Resistance|interrupt]] the Agent or knock them over will cancel their invisibility.
-*Spinning Knife Guard has a minimal range &mdash; as long as the player gets very close to the Pyro Agent such that the character is not in the circular arc of the knives, the player will not be hit by said attack.
+*Prowl has a minimal range &mdash; as long as the player gets very close to the Pyro Agent such that the character is not in the circular arc of the knives, the player will not be hit by said attack.
 *Unlike the other Fatui members, Agents do not possess any shields.
 
 ==Locations==
 <!-- Link to the area/region in the caption or any other important details. Don't need to re-link the nation over and over. -->
 Fatui Pyro Agent locations can be pinpointed on the map by using the [[Adventurer Handbook]].
 ===Dragonspine===
-<gallery hideaddbutton="true" captionalign="center">
-Location Agent 9.png|Dragonspine, [[Mondstadt]]
+<gallery>
+Fatui Pyro Agent Dragonspine Location.png|Dragonspine, [[Mondstadt]]
 </gallery>
 
 ===Liyue===
-<gallery hideaddbutton="true" captionalign="center">
-Location Agent 1.png|[[Yaoguang Shoal]], [[Liyue]]
-Location Agent 2.png|[[Guyun Stone Forest]], Liyue
-Location Agent 3.png|[[Luhua Pool]], Liyue
-Location Agent 4.png|[[Dunyu Ruins]], Liyue
-Location Agent 5.png|Between [[Tianqiu Valley]] and [[Dunyu Ruins]], Liyue
-Location Agent 6.png|[[Lingju Pass]], Liyue
-Location Agent 7.png|[[Qingxu Pool]], Liyue
-Location Agent 8.png|[[Mingyun Village]], Liyue
+<gallery>
+Fatui Pyro Agent Mingyun Village and Yaoguang Shoal Locations.png|[[Mingyun Village]] and [[Yaoguang Shoal]], [[Liyue]]
+Fatui Pyro Agent Guyun Stone Forest Location.png|[[Guyun Stone Forest]], Liyue
+Fatui Pyro Agent Luhua Pool Location.png|[[Luhua Pool]], Liyue
+Fatui Pyro Agent Lisha Locations.png|[[Lisha]], Liyue
 </gallery>
 
 ===Inazuma===
-<gallery hideaddbutton="true" captionalign="center">
-Location Agent 10.png|[[Grand Narukami Shrine]], [[Inazuma]]
-Location Agent 11 and 12.png|[[Tatarasuna]], Inazuma
+<gallery>
+Fatui Pyro Agent Grand Narukami Shrine Location.png|[[Grand Narukami Shrine]], [[Inazuma]]
+Fatui Pyro Agent Tatarasuna Locations.png|[[Tatarasuna]], Inazuma
+</gallery>
+
+===Sumeru===
+<gallery>
+Fatui Pyro Agent Mawtiyima Forest Location.png|[[Mawtiyima Forest]], [[Sumeru]]
+Fatui Pyro Agent Ashavan Realm Locations.png|[[Ashavan Realm]], Sumeru
+Fatui Pyro Agent Land of Upper Setekh Location.png|[[Land of Upper Setekh]], Sumeru
+Fatui Pyro Agent Hypostyle Desert Locations.png|[[Hypostyle Desert]], Sumeru
 </gallery>
 
 ==Voice-Overs==
@@ -104,67 +120,81 @@ Location Agent 11 and 12.png|[[Tatarasuna]], Inazuma
 |vo_01_00_title          = Spotting the Player
 |vo_01_01_file           = VO {lang}{name} - Pay Your Dues.ogg
 |vo_01_01_tx_en          = Pay your dues!
-|vo_01_01_tx_zhs         = 偿债吧！
-|vo_01_01_tx_zht         = 
+|vo_01_01_tx_zh          = 偿债吧！
+|vo_01_01_rm_zh          = Chángzhài ba!
 |vo_01_01_tx_ja          = 
-|vo_01_01_tx_ko          = 빚을 갚아라.
+|vo_01_01_tx_ko          = 빚을 갚아라
 
 |vo_02_00_title          = Attacking
 |vo_02_01_file           = VO {lang}{name} - Prepare Yourself.ogg
 |vo_02_01_tx_en          = Prepare yourself.
-|vo_02_01_tx_zhs         = 觉悟吧！
-|vo_02_01_tx_zht         = 
+|vo_02_01_tx_zh          = 觉悟吧！
+|vo_02_01_rm_zh          = Juéwù ba!
 |vo_02_01_tx_ja          = 
 |vo_02_01_tx_ko          = 각오해라!
 |vo_02_02_file           = VO {lang}{name} - Leaving So Soon.ogg
 |vo_02_02_tx_en          = Leaving so soon?
-|vo_02_02_tx_zhs         = 想逃吗？
-|vo_02_02_tx_zht         = 
+|vo_02_02_tx_zh          = 想逃吗？
+|vo_02_02_rm_zh          = Xiǎng táo ma?
 |vo_02_02_tx_ja          = 
 |vo_02_02_tx_ko          = 도망칠 생각인가?
 |vo_02_03_file           = VO {lang}{name} - No Escape.ogg
 |vo_02_03_tx_en          = No escape!
-|vo_02_03_tx_zhs         = 你走不了！
-|vo_02_03_tx_zht         = 
+|vo_02_03_tx_zh          = 你走不了！
+|vo_02_03_rm_zh          = Nǐ zǒubùliǎo!
 |vo_02_03_tx_ja          = 
-|vo_02_03_tx_ko          = 그냥 못 가지.
+|vo_02_03_tx_ko          = 그냥 못 가지
+|vo_02_04_file           = VO {lang}{name} - Hmph.ogg
+|vo_02_04_tx_en          = Hmph!
+|vo_02_04_tx_zh          = 
+|vo_02_04_rm_zh          = 
+|vo_02_04_tx_ja          = 
+|vo_02_04_tx_ko          = 
 
-|vo_03_00_title          = Clone Charge
-|vo_03_01_file           = VO {lang}{name} - A Bad Debt.ogg
-|vo_03_01_tx_en          = A bad debt!
-|vo_03_01_tx_zhs         = 烂账一笔！
-|vo_03_01_tx_zht         = 
-|vo_03_01_tx_ja          = 
-|vo_03_01_tx_ko          = 이까짓 대금 쯤이야.
-
-|vo_04_00_title          = Defeated
-|vo_04_01_file           = VO {lang}{name} - You Cant Run From Debt.ogg
-|vo_04_01_tx_en          = You... can't run from debt...
-|vo_04_01_tx_zhs         = 活债…难逃…
-|vo_04_01_tx_zht         = 
+|vo_04_00_title          = Blade Ablaze
+|vo_04_01_file           = VO {lang}{name} - A Bad Debt.ogg
+|vo_04_01_tx_en          = A bad debt!
+|vo_04_01_tx_zh          = 烂账一笔！
+|vo_04_01_rm_zh          = Lànzhàng yī bǐ!
 |vo_04_01_tx_ja          = 
-|vo_04_01_tx_ko          = 빚은 반드시 갚아야 해!
+|vo_04_01_tx_ko          = 이까짓 대금 쯤이야
+
+|vo_05_00_title          = Defeated
+|vo_05_01_file           = VO {lang}{name} - You Cant Run From Debt.ogg
+|vo_05_01_tx_en          = You... can't run from debt...
+|vo_05_01_tx_zh          = 活债…难逃…
+|vo_05_01_rm_zh          = Huó zhài... Nán táo...
+|vo_05_01_tx_ja          = 
+|vo_05_01_tx_ko          = 빚은 반드시 갚아야 해!
 }}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Fatui Pyro Agent}}
 
+==Descriptions==
+{{Description|A Fatui secret agent.<br />The duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature.<br />They also ensure dues are paid when it comes to the principle of "an eye for an eye." If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath upon them.|[[Adventurer Handbook]]}}
+{{Description|A Fatui secret agent.<br />The duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature.<br />They also ensure dues are paid when it comes to the principle of "an eye for an eye." If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath.|[[Archive]]}}
+
 ==Trivia==
-*During the Fatui Agent version of the [[commission]] "[[Emergency]]," the Agent will have one of several names, with the title "Agent - Incinerating Blades."
+* During the Fatui Agent version of the [[commission]] "[[Emergency]]," the Agent will have one of several names, with the title "Agent - Incinerating Blades."
 **{{Transclude|section=1|Emergency|AgentNames}}
 * Notable Fatui Agents:
-**[[Javert]] is a Fatui Pyro Agent that appears during [[Xingqiu]]'s first [[Story Quest]], ''[[Bookworm Swordsman]]'', as well as [[Tartaglia]]'s Character Tale, [[:File:Character Tales - "Childe- Sigil of Permission" - Genshin Impact|"Childe: Sigil of Permission"]]. When fought during Xingqiu's quest, his name appears as "Fatui Javert," while his title is "Agent - Incinerating Blades."
-**[[Kliment]] is a Fatui Pyro Agent that appears during [[Zhongli]]'s Story Quest, ''[[Sal Flore]]''. While being fought, his name appears as "Fatui Kliment," while his title is "Self-Proclaimed Archaeologist."
-**[[Sergei]] is a Fatui Pyro Agent that appears during [[Eula]]'s Story Quest, ''[[The Spindrift Shall Never Return to the Sea]]''. When fought, his name appears as simply "Sergei," while his title is "'Friend' of the [[Lawrence Clan|Old Aristocracy]]."
-**A Fatui Pyro Agent fought during the [[Hidden Exploration Objective]] ''[[Gendou Ringo's Strange Fortune Slips]]'' is named "Fireblade Mourisu," with the title "Boris."
-*During the Closed Beta Test, Agents wore the standard Fatui opera mask instead of the more imposing full-face mask seen after the game's public release. As a result, Javert's voice during Xingqiu's story quest is undistorted in non-Chinese voiceovers; his lines were recorded during beta, before the distortion effect was implemented, and were not re-recorded for the public release.
-*Like many other Elite Fatui enemies, Agents are usually seen by themselves, but the ones in Inazuma are now backed up by a Skirmisher, and one Agent can be seen with a [[Mirror Maiden]] near the [[Court of Flowing Sand]] domain.
-*Agents do not grunt in pain when hurt.
+** [[Javert]] is a Fatui Pyro Agent that appears during [[Xingqiu]]'s first [[Story Quest]], ''[[Bookworm Swordsman]]'', as well as [[Tartaglia]]'s Character Tale, [https://youtu.be/ZF4KyX0ASnI "Childe: Sigil of Permission"]. When fought during Xingqiu's quest, his name appears as "Fatui Javert," while his title is "Agent - Incinerating Blades."
+** [[Kliment]] is a Fatui Pyro Agent that appears during [[Zhongli]]'s Story Quest, ''[[Sal Flore]]''. While being fought, his name appears as "Fatui Kliment," while his title is "Self-Proclaimed Archaeologist."
+** [[Sergei]] is a Fatui Pyro Agent that appears during [[Eula]]'s Story Quest, ''[[The Spindrift Shall Never Return to the Sea]]''. When fought, his name appears as simply "Sergei," while his title is "'Friend' of the [[Lawrence Clan|Old Aristocracy]]."
+** A Fatui Pyro Agent fought during the [[Hidden Exploration Objective]] [[Gendou Ringo's Strange Fortune Slips]] is named "Fireblade Mourisu," with the title "Boris."
+** [[Ivano]] is a Fatui Pyro Agent encountered during the World Quest ''[[Undetected Infiltration]]''.
+** Anatoly is a Fatui Pyro Agent who appears during [[Sangonomiya Kokomi]]'s Story Quest, ''[[Warriors' Dreams Like Spring Grass Renewing]]'', titled "Head of the Temporary Encampment."
+** [[Alphonso]] is a Fatui Pyro Agent fought after ''[[Aranyaka]]''.
+* During the Closed Beta Test, Agents wore the standard Fatui opera mask instead of the more imposing full-face mask seen after the game's public release. As a result, Javert's voice during Xingqiu's story quest is undistorted in non-Chinese voiceovers; his lines were recorded during beta, before the distortion effect was implemented, and were not re-recorded for the public release.
+* Like many other Elite Fatui enemies, Agents are usually seen by themselves, but the ones in Inazuma are backed up by a Skirmisher, and one Agent can be seen with a [[Mirror Maiden]] near the [[Court of Flowing Sand]] domain.
+* The Fatui Pyro Agents are one of the first few human enemies that do not grunt when hurt. The rest being the [[The Eremites/Enemies#Low-Tier|Low-Tier Eremites]].
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Fatui Pyro Agent Icon.png|Icon
 Fatui Agent CBT.png|Fatui Agent in the Closed Beta Test
+CBT Fatui Pyro Agent Icon.png|Beta Icon
 </gallery>
 
 ==Video Guides==
@@ -180,13 +210,13 @@ Fatui Agent CBT.png|Fatui Agent in the Closed Beta Test
 |zhs_rm  = Yúrénzhòng - Huǒ zhī Zhàiwùchǔlǐrén
 |zht     = 愚人眾・火之債務處理人
 |zht_rm  = Yúrénzhòng - Huǒ zhī Zhàiwùchǔlǐrén
-|zh_tl   = Fatui: Debt Handler of Pyro
+|zh_tl   = Fatui - Debt Handler of Pyro
 |ja      = ファデュイ・デットエージェント・{{Rubi|炎|ほのお}}
 |ja_rm   = Fadyui - Detto Eejento - Honoo
-|ja_tl   = Fatui: Debt Agent - Pyro
+|ja_tl   = Fatui - Debt Agent - Pyro
 |ko      = 우인단・화염 채무 처리인
 |ko_rm   = U'in-dan - Hwayeom Chaemu Cheori'in
-|ko_tl   = Fatui: Pyro Debt Handler
+|ko_tl   = Fatui - Pyro Debt Handler
 |es      = Soldado Fatui - Recaudador Pyro
 |es_tl   = Fatui Soldier - Pyro Debt Collector
 |fr      = Usurier Pyro des Fatui
@@ -201,6 +231,10 @@ Fatui Agent CBT.png|Fatui Agent in the Closed Beta Test
 |id      = Fatui - Pyro Agent
 |pt      = Fatui - Agente Pyro
 |pt_tl   = Fatui - Pyro Agent
+|tr      = Fatui Ateş Tetikçisi
+|tr_tl   = 
+|it      = Agente dei Fatui di Pyro
+|it_tl   = Fatui's Agent of Pyro
 }}
 
 ==Change History==
@@ -212,5 +246,8 @@ Fatui Agent CBT.png|Fatui Agent in the Closed Beta Test
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Fatui: Pyro-Schuldeneintreiber]]
 [[es:Recaudador Pyro]]
 [[pt-br:Fatui - Agente Pyro]]
+[[ru:Фатуи: Пиро агент]]
+[[th:Fatui Pyro Agent]]

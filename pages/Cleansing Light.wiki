@@ -1,5 +1,5 @@
 {{Quest Infobox
-|id            = 
+|id            = 12040
 |image         = Story Quest Cleansing Light.png
 |type          = Story
 |chapter       = Imperatrix Umbrosa Chapter
@@ -9,6 +9,9 @@
 |summary       = 
 |character     = Raiden Shogun
 |startLocation = [[Inazuma City]], [[Inazuma]]
+|region        = Inazuma
+|area          = Narukami Island
+|subarea       = Inazuma City
 |requirement   = 
 |prev          = To Hear Mortal Hearts
 |next          = Farewell to the Past
@@ -24,22 +27,17 @@
 # Talk to Katheryne
 # Go to the area where the monsters have appeared
 # Defeat the [[Rifthounds]]
-#* Wave 1:
-#** {{Enemy|Rockfond Rifthound Whelp|x=2}}
-#* Wave 2:
-#** {{Enemy List|Rockfond Rifthound;Rockfond Rifthound Whelp|#**}}
-#* Wave 3:
-#** {{Enemy|Thundercraven Rifthound Whelp|x=3}}
+#* Wave 1: {{Enemy List|Rockfond Rifthound Whelp*2}}
+#* Wave 2: {{Enemy List|Rockfond Rifthound;Rockfond Rifthound Whelp}}
+#* Wave 3: {{Enemy List|Thundercraven Rifthound Whelp*3}}
 # Talk to Raiden Ei
 # Look for the marks left behind
 # Try to figure out what happened
 # Continue the pursuit
 # Defeat the Rifthounds
 #* The player's party will be locked to only the Raiden Shogun during this battle, so be wary of corrosion.
-#* Wave 1:
-#** {{Enemy|Rockfond Rifthound Whelp|x=2}}
-#* Wave 2:
-#** {{Enemy|Thundercraven Rifthound Whelp|x=2}}
+#* Wave 1: {{Enemy List|Rockfond Rifthound Whelp*2}}
+#* Wave 2: {{Enemy List|Thundercraven Rifthound Whelp*2}}
 # Talk to the person who appeared
 # Go to the Kamisato Estate to get a tea set
 # Talk to Ei
@@ -446,7 +444,7 @@
 :{{A|vo sglq101 7 raidenei 15.ogg}} '''Ei:''' She had already lapsed into unconsciousness by that point, so all I could do was enter into her mind... As far as you're concerned, it would be somewhere similar to the Plane of Euthymia.
 :{{A|vo sglq101 7 raidenei 16.ogg}} '''Ei:''' It was there that we bid each other a final farewell. I cried bitterly. Even in those final moments, I couldn't understand her actions.
 :{{A|vo sglq101 7 raidenei 17.ogg}} '''Ei:''' Why did she go to Khaenri'ah first, and not I? Why did she keep me in the dark about it? Was it to shield me?
-:{{A|vo sglq101 7 raidenei 18.ogg}} '''Ei:''' It was there and then that I resolved to pursue eternity. As a testament to that decision, I saved her realm of consciousness just before it collapsed completely, and brought it back to Inazuma.
+:{{A|vo sglq101 7 raidenei 18.ogg}} '''Ei:''' It was there and then that I resolved to pursue eternity. As a testament to that decision, I saved her [[Realm of Consciousness|realm of consciousness]] just before it collapsed completely, and brought it back to Inazuma.
 :{{A|vo sglq101 7 paimon 07.ogg}} '''Paimon:''' That's quite a story...
 :{{A|vo sglq101 7 raidenei 19.ogg}} '''Ei:''' When I returned to Inazuma, I was shocked to find that a great sakura tree had appeared on Mt. Yougou. The tree that you know as the Sacred Sakura.
 :{{DIcon}} ..."Appeared"?
@@ -464,9 +462,9 @@
 :{{DIcon}} It seems like you've done a lot of thinking about this already.
 :{{DIcon}} I know the pain of separation too.
 :{{A|vo sglq101 7 paimon 09.ogg}} '''Paimon:''' Oh, um, while we're on the topic, since you experienced that battle in person...
-:{{DIcon}} Have you seen my (sister/brother) before?
-:{{A|vo sglq101 7 raidenei 28a.ogg}} {{A|vo sglq101 7 raidenei 28b.ogg}} '''Ei:''' (Sister/Brother)? Hmm... I had heard that you were looking for your family.
-:{{A|vo sglq101 7 raidenei 29a.ogg}} {{A|vo sglq101 7 raidenei 29b.ogg}} '''Ei:''' You mean to say that (she/he) was somehow involved in the Khaenri'ah disaster?
+:{{DIcon}} Have you seen my {{MC|sister|brother|mc=1}} before?
+:{{A|vo sglq101 7 raidenei 28a.ogg}} {{A|vo sglq101 7 raidenei 28b.ogg}} '''Ei:''' {{MC|Sister|Brother|mc=1}}? Hmm... I had heard that you were looking for your family.
+:{{A|vo sglq101 7 raidenei 29a.ogg}} {{A|vo sglq101 7 raidenei 29b.ogg}} '''Ei:''' You mean to say that {{MC|she|he|mc=1}} was somehow involved in the Khaenri'ah disaster?
 :{{A|vo sglq101 7 paimon 10.ogg}} '''Paimon:''' Based on what we've learned so far, it seems so, yeah.
 :{{A|vo sglq101 7 raidenei 30.ogg}} '''Ei:''' I'm sorry. I wasn't there for the whole thing. By the time I arrived, the worst of the fighting was already over.
 :{{A|vo sglq101 7 raidenei 31.ogg}} '''Ei:''' And also... my mind was consumed entirely with the plight of Inazuma and the fate of those closest to me.
@@ -493,14 +491,14 @@
 |ja_rm   = Fujou Haraishi Meikou
 |ja_tl   = Light That Purifies Filth
 |ko      = 오염된 빛 정화
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Oyeomdoen Bit Jeonghwa
+|ko_tl   = Purifying Polluted Light
 |es      = Luz purificadora
 |es_tl   = Cleansing Light
 |fr      = Lumière de purification
 |fr_tl   = Light of Cleansing
 |ru      = Свет, очищающий от скверны
-|ru_tl   = 
+|ru_tl   = Light That Cleanses the Filth
 |th      = แสงแห่งการชำระล้าง
 |th_rm   = 
 |th_tl   = Light of Cleansing
@@ -512,9 +510,15 @@
 |id_tl   = Purifying Light
 |pt      = Luz Purificadora
 |pt_tl   = Cleansing Light
+|tr      = Arındırıcı Işık
+|tr_tl   = 
+|it      = Luce purificatrice
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|2.5}}
 
+[[es:Luz purificadora]]
 [[pt-br:Luz Purificadora]]
+[[vi:Ánh Sáng Gột Rửa]]

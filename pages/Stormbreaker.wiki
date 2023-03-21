@@ -1,15 +1,12 @@
-{{Stub|The following information needs to be checked:<br />Possible bug: The damage reduction and interruption resistance may lost when switching to other character.<br />Pending test: Has maximum amount of target to jump depending on target range to each other? Possibly due animation time limit?<br />Maximum distance away from an attack that discharges? Particularly relevant for the Ranged bullet.}}
 {{Talent Infobox
 |image         = Talent Stormbreaker.png
 |character     = Beidou
 |type          = Elemental Burst
-|info          = Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing {{Color|Electro DMG}} to nearby opponents.<br /><br />'''Thunderbeast's Targe'''<br />
-* When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing {{Color|Electro DMG}}.
-* Increases the character's [[resistance to interruption]], and [[Damage reduction|decreases DMG]] taken.
-A maximum of 1 lightning discharge can be triggered per second.
+|info          = Recalling her slaying of the great beast [[Haishan]], Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing {{Color|Electro DMG}} to nearby opponents.<br /><br />'''Thunderbeast's Targe'''<ul><li>When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing {{Color|Electro DMG}}.</li><li>Increases the character's [[resistance to interruption]], and [[Damage reduction|decreases DMG]] taken.</li></ul><br />A maximum of 1 lightning discharge can be triggered per second.
 |utility1      = Interruption Resistance
 |utility2      = DMG Reduction
 |utility3      = Effects End Character Fallen
+|utility4      = Charged Attack
 |energyCost    = 80
 |CD            = 20s
 |duration      = 15s
@@ -25,15 +22,14 @@ A maximum of 1 lightning discharge can be triggered per second.
 '''Stormbreaker''' is [[Beidou]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* This talent's effects remain active if the player switches characters. This includes the shield created when Beidou has her 1st constellation, Sea Beast's Scourge.
-* The discharges can jump between enemies:
+* {{TalentNote|energy frame|11}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|2}}<ref name="Genshin Academy burst info sheet" />
+* Although not explicitly stated, Thunderbeast's Targe persists when changing to another character in the team and continue to affect the active character.
+* The discharges jump between enemies:
 ** At C0: 2 jumps, 3 hits including the first target (for example, with 2 enemies A and B, it will jump A ➔ B ➔ A, dealing damage for a total of 3 times)
 ** At C2: 4 jumps, 5 hits including the first target (for example, with 2 enemies A and B, it will jump A ➔ B ➔ A ➔ B ➔ A, dealing damage for a total of 5 times)
 ** In order for the jumps to occur, there needs to be '''at least 2 enemies'''. If there is only one enemy, there will be no jump and the discharge will only do damage once.
-* {{TalentNote|icd|Lightning DMG}}
-** This ICD is shared with the extra Electro DMG at [[Stunning Revenge|Constellation 4]].
 * {{TalentNote|snapshot|Lightning DMG|character=Beidou}}
-* Lightning Discharge will still activate when hitting a shielded enemy.
 * The effect may be discharged by ranged weapons up to a certain distance if it hits a valid target. If the attack hits the target from too far away, the effect may not be discharged.
 
 ;<big>Constellation Effects</big>
@@ -41,6 +37,22 @@ A maximum of 1 lightning discharge can be triggered per second.
 * {{TalentNote|constellation|2|Upon the Turbulent Sea, the Thunder Arises}} See above for more information.
 * {{TalentNote|constellation|5|Crimson Tidewalker}}
 * {{TalentNote|constellation|6|Bane of Evil}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Skill DMG
+|gu      = 4U
+|icdtag  = none
+|poise   = 400
+|impulse = 4
+
+|title2   = Lightning DMG
+|gu2      = 1U
+|icdtag2  = Elemental Burst
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 50
+|impulse2 = 1
+}}
 
 ==Preview==
 {{Preview
@@ -126,7 +138,7 @@ A maximum of 1 lightning discharge can be triggered per second.
 |fr      = Brisure d'orage
 |fr_tl   = Thunder Crack
 |ru      = Крушитель бури
-|ru_tl   = 
+|ru_tl   = Stormbreaker
 |th      = Stormbreaker
 |vi      = {{tt|Chước Lôi|斫雷}}
 |vi_tl   = Cutting Thunder{{Sino|vi}}
@@ -134,16 +146,26 @@ A maximum of 1 lightning discharge can be triggered per second.
 |de_tl   = Lightning Breaker
 |id      = Stormbreaker
 |pt      = Quebrador de Tempestades
-|pt_tl   = 
+|pt_tl   = Storm Breaker
+|tr      = Fırtına Kıran
+|tr_tl   = 
+|it      = Tempesta tagliente
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|1.0}}
 
+==References==
+{{Reflist}}
+
 ==Navigation==
 {{Talent Navbox|Beidou}}
 
 [[es:Quebrantatormentas]]
+[[fr:Brisure d'orage]]
 [[pt-br:Quebrador de Tempestades]]
+[[ru:Крушитель бури]]
 [[th:Stormbreaker]]
 [[uk:Ріжучий грім]]
+[[vi:Chước Lôi]]

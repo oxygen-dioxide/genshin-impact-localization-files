@@ -27,23 +27,56 @@
 
 ==Gameplay Notes==
 * Holding this skill generates '''5''' [[Elemental Particle]]s when it hits at least 1 target. Pressing this skill does not generate any elemental particle.
-* {{TalentNote|icd|Press DMG}}
-** This ICD is shared with Lisa's [[Lightning Touch|Normal Attacks]].
-* When the skill button is held, Lisa forms a big circle, and a small one that increases in size, both centered around Lisa. When the small one reaches the big one, Conductive Hold is ready to be released, though it can be held for several more seconds.
+* When the skill button is held, Lisa forms a big circle, and a small one that increases in size, both centered around Lisa. When the small one reaches the big one, Violet Arc Hold is ready to be released for full damage, though it can be held for several more seconds.
 * It takes roughly 2 seconds to charge up her E. If released prematurely, it counts as a press.
+* Holding the skill while there is no target still calls down several lightning bolts randomly, but those bolts do not apply {{Electro}} to nearby environment and are purely aesthetic.
 * If the press ability triggers [[Superconduct]] or [[Overloaded]], it will apply 2 stacks of Conductive to the targets hit by the orb itself and 1 stack of Conductive to other targets hit by the reaction. Multiple reactions will apply stacks multiple times.
-** The reactions do not need to deal damage to apply the stacks.
-** If the target is in contact with ice (ex. frozen water) when [[Superconduct]] is triggered or is in contact with fire (ex. burning grass) when [[Overloaded]] is triggered, the move applies 3 stacks on direct hits and 2 stacks from reactions.
-* Targets inflicted by conductive will apply one stack in a small AoE around them separate from reactions.
+* Targets inflicted with Conductive will apply one stack in a small AoE around them separate from reactions.
 * This ability will not apply any stacks of Conductive if Lisa is not the active character when the ability hits.
 * Stacks remain on enemies for 15 seconds, and each stack applied keeps a separate timer.
 * {{TalentNote|hitlag|the Conductive status}}
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Lisa|talent=Violet Arc|ascension|1|Induced Aftershock}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|1|Infinite Circuit}}
 * {{TalentNote|constellation|2|Electromagnetic Field|While holding Violet Arc, Lisa's DEF is increased by 25% and her resistance to interruption is also increased.}}
 * {{TalentNote|constellation|5|Electrocute}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Press DMG
+|gu      = 1U
+|icdtag  = Lisa Electro DMG
+|icdtype = 2.5s/3 Hits
+|poise   = 18
+|impulse = 2
+
+|title2   = Hold DMG (0 Stacks)
+|gu2      = 2U
+|icdtag2  = none
+|poise2   = 150
+|impulse2 = 2
+
+|title3   = Hold DMG (1 Stack)
+|gu3      = 2U
+|icdtag3  = none
+|poise3   = 195
+|impulse3 = 2
+
+|title4   = Hold DMG (2 Stacks)
+|gu4      = 2U
+|icdtag4  = none
+|poise4   = 240
+|impulse4 = 2
+
+|title5   = Hold DMG (3 Stacks)
+|gu5      = 2U
+|icdtag5  = none
+|poise5   = 300
+|impulse5 = 2
+}}
 
 ==Preview==
 {{Preview
@@ -143,10 +176,10 @@
 {{Other Languages
 |en      = Violet Arc
 |zhs     = 苍雷
-|zhs_rm  = Cāng léi
+|zhs_rm  = Cāngléi
 |zht     = 蒼雷
-|zht_rm  = Cāng léi
-|zh_tl   = 
+|zht_rm  = Cāngléi
+|zh_tl   = Blue Lightning
 |ja      = 蒼雷
 |ja_rm   = Sourai{{Assumed}}
 |ja_tl   = Blue Lightning
@@ -168,6 +201,10 @@
 |id      = Violet Arc
 |pt      = Arco Violeta
 |pt_tl   = Violet Arc
+|tr      = Mor Akım
+|tr_tl   = 
+|it      = Tuono violetto
+|it_tl   = 
 }}
 
 ==Change History==
@@ -180,6 +217,8 @@
 {{Talent Navbox|Lisa}}
 
 [[es:Arco violeta]]
+[[fr:Arc fulminant]]
+[[ja:蒼雷]]
 [[pt-br:Arco Violeta]]
 [[ru:Пурпурная дуга]]
 [[th:Violet Arc]]

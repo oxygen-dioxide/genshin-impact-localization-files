@@ -2,10 +2,7 @@
 |image         = Talent Crimson Ooyoroi.png
 |character     = Thoma
 |type          = Elemental Burst
-|info          = Thoma spins his polearm, slicing at his foes with roaring flames that deal {{Color|AoE Pyro DMG}} and weave themselves into a Scorching Ooyoroi.<br /><br />'''Scorching Ooyoroi'''<br />While Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing {{Color|AoE Pyro DMG}} and summoning a Blazing Barrier.<br />Fiery Collapse can be triggered once every 1s.<br /><br />Except for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:<br />
-*Absorbs {{Color|Pyro DMG}} 250% more effectively.
-*When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.
-The maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.<br /><br />If Thoma falls, the effects of Scorching Ooyoroi will be cleared.
+|info          = Thoma spins his polearm, slicing at his foes with roaring flames that deal {{Color|AoE Pyro DMG}} and weave themselves into a Scorching Ooyoroi.<br /><br />'''Scorching Ooyoroi'''<br />While Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing {{Color|AoE Pyro DMG}} and summoning a Blazing Barrier.<br />Fiery Collapse can be triggered once every 1s.<br /><br />Except for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:<ul><li>Absorbs {{Color|Pyro DMG}} 250% more effectively.</li><li>When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.</li></ul><br />The maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.<br /><br />If Thoma falls, the effects of Scorching Ooyoroi will be cleared.
 |energyCost    = 80
 |CD            = 20s
 |duration      = 15s
@@ -21,15 +18,19 @@ The maximum DMG Absorption of the Blazing Barrier will not exceed a certain perc
 |value5        = 15s
 |utility1      = Shield
 |utility2      = AoE
+|utility3      = Effect Triggered by Normal Attack Use
 |scale_att1    = ATK
 }}
 {{Description|"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished."}}
 '''Crimson Ooyoroi''' is [[Thoma]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
+* {{TalentNote|energy frame|9}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|1}}<ref name="Genshin Academy burst info sheet" />
 * Fiery Collapse triggers in the direction where the attack hits in a cone-shaped AoE, instead of the direction where the character is facing. It may be triggered by Normal Attacks that hit farther, but Fiery Collapse starts from the player's position thus may not reach the intended enemy.
-* {{TalentNote|icd|Fiery Collapse DMG}}
 * {{TalentNote|no snapshot|Crimson Ooyoroi|character=Thoma}}
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Thoma|talent=Crimson Ooyoroi|ascension|1|Imbricated Armor}}
 * {{TalentNote|character=Thoma|talent=Crimson Ooyoroi|ascension|2|Flaming Assault}}
 
@@ -39,6 +40,22 @@ The maximum DMG Absorption of the Blazing Barrier will not exceed a certain perc
 * {{TalentNote|constellation|4|Long-Term Planning}}
 * {{TalentNote|constellation|5|Raging Wildfire}}
 * {{TalentNote|constellation|6|Burning Heart}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Skill DMG
+|gu      = 2U
+|icdtag  = none
+|poise   = 200
+|impulse = 3
+
+|title2   = Fiery Collapse DMG
+|gu2      = 1U
+|icdtag2  = Elemental Burst
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 35
+|impulse2 = 2
+}}
 
 ==Preview==
 {{Preview
@@ -140,6 +157,10 @@ The maximum DMG Absorption of the Blazing Barrier will not exceed a certain perc
 |id      = Crimson Ooyoroi
 |pt      = Grande Armadura Flamejante
 |pt_tl   = Great Flaming Armor
+|tr      = Kızıl Ooyoroi
+|tr_tl   = 
+|it      = Ooyoroi cremisi
+|it_tl   = Crimson Ooyoroi
 }}
 
 ==Change History==
@@ -151,5 +172,8 @@ The maximum DMG Absorption of the Blazing Barrier will not exceed a certain perc
 ==Navigation==
 {{Talent Navbox|Thoma}}
 
+[[es:Armadura calcinante]]
+[[fr:O-yoroi écarlate]]
 [[pt-br:Grande Armadura Flamejante]]
+[[ru:Багровый оёрой]]
 [[th:Crimson Ooyoroi]]

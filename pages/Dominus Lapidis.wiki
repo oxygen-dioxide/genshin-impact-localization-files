@@ -2,13 +2,8 @@
 |image         = Talent Dominus Lapidis.png
 |character     = Zhongli
 |type          = Elemental Skill
-|info          = Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.<br /><br />'''Press'''<br />Commands the power of earth to create a Stone Stele.<br /><br />'''Hold'''<br />Causes nearby Geo energy to explode, causing the following effects:
-* If their maximum number hasn't been reached, creates a Stone Stele.
-* Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.
-* Deals {{Color|AoE Geo DMG}}.
-* If there are nearby targets with the {{Color|Geo element}}, it will drain a large amount of {{Color|Geo element}} from a maximum of 2 such targets. This effect does not cause DMG.
-'''Stone Stele'''<br />When created, deals {{Color|AoE Geo DMG}}.<br />Additionally, it will intermittently resonate with other nearby {{Color|Geo constructs}}, dealing {{Color|Geo DMG}} to surrounding opponents.<br />The Stone Stele is considered a {{Color|Geo construct}} that can both be climbed and used to block attacks.<br />Only one Stele created by Zhongli himself may initially exist at any one time.<br /><br />'''Jade Shield'''<br />Possesses 150% DMG Absorption against all Elemental and Physical DMG.<br />Characters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.
-|scale_att1    = HP
+|info          = Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.<br /><br />'''Press'''<br />Commands the power of earth to create a Stone Stele.<br /><br />'''Hold'''<br />Causes nearby Geo energy to explode, causing the following effects:<ul><li>If their maximum number hasn't been reached, creates a Stone Stele.</li><li>Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.</li><li>Deals {{Color|AoE Geo DMG}}.</li><li>If there are nearby targets with the {{Color|Geo element}}, it will drain a large amount of {{Color|Geo element}} from a maximum of 2 such targets. This effect does not cause DMG.</li></ul><br />'''Stone Stele'''<br />When created, deals {{Color|AoE Geo DMG}}.<br />Additionally, it will intermittently resonate with other nearby {{Color|[[Geo Construct|Geo construct]]s}}, dealing {{Color|Geo DMG}} to surrounding opponents.<br />The Stone Stele is considered a {{Color|Geo construct}} that can both be climbed and used to block attacks.<br />Only one Stele created by Zhongli himself may initially exist at any one time.<br /><br />'''Jade Shield'''<br />Possesses 150% DMG Absorption against all Elemental and Physical DMG.<br />Characters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.
+|scale_att1    = Max HP
 |scale_att2    = ATK
 |utility1      = Shield
 |utility2      = Geo Construct
@@ -43,20 +38,16 @@
 '''Dominus Lapidis''' is [[Zhongli]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
-* {{TalentNote|particles|Any DMG dealt by this skill|0.5}}
+* {{TalentNote|particles|any DMG dealt by this skill|0.5}}
 ** This particle generation has a cooldown of '''1.5s'''.
-* {{TalentNote|icd|All DMG dealt by this skill|plural=1}}
-* Holding this ability will drain 8 [[Gauge Unit Theory|gauge units]] of {{Geo}} from a maximum of 20 objects (e.g., ores, Hilichurl rock shields, etc.) and 6 gauge units of {{Geo}} from a maximum of 3 enemies within a 10m radius.
-* While holding the Elemental Skill, Zhongli's [[Interruption Resistance]] is greatly increased.<ref name="Zhongli Adjustments">HoYoverse News: [https://genshin.hoyoverse.com/en/news/detail/7524 To All Travelers: Regarding Adjustments to Zhongli]</ref>
-* Multiple nearby Stone Steles will resonate with each other. Additionally, other [[Geo Constructs]] can take resonance from multiple nearby Stone Steles.
-** The Stone Stele's horizontal resonance range (the radius) with other Geo Constructs is about twice the size of the Stele's {{Color|AoE Geo DMG}} pulse range. The resonance range is also slightly less than the range of [[Albedo]]'s [[Abiogenesis: Solar Isotoma]]. The vertical resonance range is about 50% of the Stele's height counted from the bottom to the top of the Stele.
-** The Stele will scan for new nearby Geo Constructs just before the resonance tick.
-* Stone Stele will resonate with pillars created by [[Geo Samachurl]]s.<ref name="Samachurl Pillar Resonating">Imgur: [https://imgur.com/eSiYfAM Geo Samachurl Pillar Resonating]</ref>
-** This implies that Zhongli can resonate with enemy Geo Constructs as well.
-* A maximum of 3 Geo Constructs is allowed on the field between all players. If another player places a Geo construct after the limit has been reached, the oldest Geo construct will be replaced first.
-** Geo Constructs created from [[Wake of Earth]] do not contribute to this cap.
-* The AoE range of the Jade Shield debuff, which decreases opponents' Elemental RES and Physical RES, is a cylinder with a radius of '''7.5''' meters and a height of '''10''' meters.
+* Holding this ability will drain 8 [[Elemental Gauge Theory|gauge units]] of {{Geo}} from a maximum of 20 objects (e.g., ores, Hilichurl rock shields, etc.) and 6 gauge units of {{Geo}} from a maximum of 3 enemies within a 10m radius.
+* While holding the Elemental Skill, Zhongli's [[Interruption Resistance]] is greatly increased.
+* Additionally, other [[Geo Constructs]] can take resonance from multiple nearby Stone Steles.
+* Stone Steles will resonate with Geo Constructs created by enemies.
+* The AoE of the Jade Shield RES debuff is a cylinder with a radius of '''7.5''' meters and a height of '''10''' meters.
 *{{TalentNote|character=Zhongli|snapshot|Stone Stele's AoE DMG and Resonance DMG}}
+
+;<big>Passive Effects</big>
 *{{TalentNote|character=Zhongli|talent=Dominus Lapidis|ascension|1|Resonant Waves|increases the [[Shield Strength]] of characters with the Jade Shield by 5% every time the Jade Shield takes damage, up to a maximum of 25% increased Shield Strength. This lasts until the Jade Shield disappears.}}
 *{{TalentNote|character=Zhongli|talent=Dominus Lapidis|ascension|2|Dominance of Earth|increases the damage from holding Dominus Lapidis, creating a Stone Stele, and Stone Stele resonance by 1.9% of Zhongli's Max HP.}}
 
@@ -64,6 +55,33 @@
 *{{TalentNote|constellation|1|Rock, the Backbone of Earth}}
 *{{TalentNote|constellation|3|Jade, Shimmering through Darkness}}
 *{{TalentNote|constellation|6|Chrysos, Bounty of Dominator}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Stone Stele DMG
+|gu      = 2U
+|icdtag  = Elemental Skill
+|icdtype = 2.5s/3 Hits
+|poise   = 200
+|impulse = 4
+|blunt   = 1
+
+|title2   = Hold DMG
+|gu2      = 1U
+|icdtag2  = Elemental Skill
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 142.9
+|impulse2 = 4
+|blunt2   = 1
+
+|title3   = Resonance DMG
+|gu3      = 1U
+|icdtag3  = Elemental Skill
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 0
+|impulse3 = 1
+|blunt3   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -152,8 +170,9 @@
 {{Talent VO}}
 
 ==Trivia==
+* It is implied that the [[Unique Rock Pillar|Unique Rock Pillars]] found in the chasm are the same pillars summoned through Dominus Lapidis, seen in their shape and Geo Resonance
 *The name "Dominus Lapidis" is Latin for "Master of Stone."
-**Dominus Lapidis' Chinese name, {{Lang|mini=1|zh=地心|zh_rm=Dìxīn}}, means "Earth's core" or "center of the Earth."
+**Dominus Lapidis' Chinese name, {{zh|地心|rm=Dìxīn}}, means "Earth's core" or "center of the Earth."
 
 ==Other Languages==
 {{Other Languages
@@ -181,6 +200,9 @@
 |de      = Dominus Lapidis
 |id      = Dominus Lapidis
 |pt      = Dominus Lapidis
+|tr      = Taşların Efendisi
+|tr_tl   = 
+|it      = Dominus lapidis
 }}
 
 ==Change History==
@@ -193,7 +215,10 @@
 {{Talent Navbox|Zhongli}}
 
 [[es:Dominus lapidis]]
-[[ru:Власть над камнем]]
+[[fr:Dominus Lapidis]]
+[[ja:地心]]
 [[pt-br:Dominus Lapidis]]
+[[ru:Власть над камнем]]
 [[th:Dominus Lapidis]]
 [[uk:Ядро Землі]]
+[[vi:Tâm Trái Đất]]

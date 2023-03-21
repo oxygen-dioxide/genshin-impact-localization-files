@@ -8,7 +8,7 @@
 * Increased ATK that scales based on her DEF.
 |scale_att1    = DEF
 |scale_att2    = ATK
-|utility1      = Elemental Conversion
+|utility1      = Conversion
 |utility2      = AoE
 |utility3      = AoE Increase
 |utility4      = ATK Increase
@@ -27,22 +27,110 @@
 '''Sweeping Time''' is [[Noelle]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* The DEF converted to ATK is additive with Noelle's ATK.
+* {{TalentNote|energy frame|8}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|2}}<ref name="Genshin Academy burst info sheet" />
 * Elemental Burst DMG% and Skill DMG% describe the damage of the initial small explosion (Burst DMG%) and swing (Skill DMG%) when Sweeping Time is activated.
-* Elemental Burst DMG% bonus will apply to both the Burst and the Skill's damage, while Normal/Charged/Plunge Attack DMG% bonuses will apply to the Normal/Charged/Plunge attacks performed afterwards, during the skill's duration.
 * Sweeping Time is not deactivated if Noelle is swapped to another character. However, its duration will still continue to tick down while Noelle is off-field.
-* {{TalentNote|icd|Burst DMG|2.5|3|Skill DMG}}
 * {{TalentNote|character=Noelle|talent=Sweeping Time|snapshot|Sweeping Time’s ATK Bonus}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|5|Favonius Sweeper Master}}
 * {{TalentNote|constellation|6|Must Be Spotless|The ATK Bonus is increased to include an additional 50% of Noelle's DEF, and every enemy that Noelle defeats during Sweeping Time adds 1 second to the duration, up to a maximum of 10 seconds for 10 enemies defeated.}}
 
+==Advanced Properties==
+{{Advanced Properties
+|title   = Burst DMG
+|gu      = 1U
+|icdtag  = Elemental Burst
+|icdtype = 2.5s/3 Hits
+|poise   = 150
+|impulse = 4
+|blunt   = 1
+
+|title2   = Skill DMG
+|gu2      = 1U
+|icdtag2  = Elemental Burst
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 150
+|impulse2 = 4
+|blunt2   = 1
+
+|title3   = Converted Normal Attack 1-Hit
+|gu3      = 1U
+|icdtag3  = none
+|poise3   = 132.25
+|impulse3 = 3
+|blunt3   = 1
+
+|title4   = Converted Normal Attack 2-Hit
+|gu4      = 1U
+|icdtag4  = none
+|poise4   = 122.82
+|impulse4 = 3
+|blunt4   = 1
+
+|title5   = Converted Normal Attack 3-Hit
+|gu5      = 1U
+|icdtag5  = none
+|poise5   = 144.87
+|impulse5 = 3
+|blunt5   = 1
+
+|title6   = Converted Normal Attack 4-Hit
+|gu6      = 1U
+|icdtag6  = none
+|poise6   = 189.75
+|impulse6 = 6
+|blunt6   = 1
+
+|title7   = Converted Charged Attack Spinning
+|gu7      = 1U
+|icdtag7  = none
+|poise7   = 60
+|impulse7 = 3
+|blunt7   = 1
+
+|title8   = Converted Charged Attack Final Slash
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 120
+|impulse8 = 6
+|blunt8   = 1
+
+|title9   = Converted Plunging Attack Collision
+|gu9      = 0U
+|icdtag9  = none
+|poise9   = 35
+|impulse9 = 2
+
+|title10   = Converted Low Plunge
+|gu10      = 1U
+|icdtag10  = none
+|poise10   = 150
+|impulse10 = 4
+|blunt10   = 1
+
+|title11   = Converted High Plunge
+|gu11      = 1U
+|icdtag11  = none
+|poise11   = 200
+|impulse11 = 7
+|blunt11   = 1
+}}
+
 ==Preview==
 {{Preview
-|file    = Sweeping Time Preview
+|file1    = Sweeping Time Preview
+
+|file2    = Sweeping Time Normal Preview
+|caption2 = Normal Attack
+
+|file3    = Sweeping Time Charged Preview
+|caption3 = Charged Attack
+
+|file4    = Sweeping Time Plunging Preview
+|caption4 = Plunging Attack
 }}
-{{clr}}
 
 ==Attribute Scaling==
 {{Talent Scaling
@@ -123,7 +211,7 @@
 |fr_tl   = Large-Scale Cleaning
 |fr_note = This idiom often refers to {{w|spring cleaning}}.
 |ru      = Генеральная уборка
-|ru_tl   = 
+|ru_tl   = General Cleaning
 |th      = Sweeping Time
 |vi      = Quét Sạch
 |vi_tl   = Clean Sweep
@@ -132,15 +220,26 @@
 |id      = Sweeping Time
 |pt      = Grande Limpeza
 |pt_tl   = 
+|tr      = Süpürme Vakti
+|tr_tl   = 
+|it      = Pulizia completa
+|it_tl   = Complete Cleaning
 }}
 
 ==Change History==
 {{Change History|1.0}}
 
+==References==
+{{Reflist}}
+
 ==Navigation==
 {{Talent Navbox|Noelle}}
 
 [[es:Hora de limpiar]]
+[[fr:Grand ménage]]
+[[ja:大掃除]]
 [[pt-br:Grande Limpeza]]
 [[ru:Генеральная уборка]]
 [[th:Sweeping Time]]
+[[uk:Генеральне прибирання]]
+[[vi:Quét Sạch]]

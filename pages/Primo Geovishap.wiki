@@ -3,11 +3,12 @@
 Enemy Primo Geovishap.png|Archive
 Enemy Primo Geovishap Full Artwork.png|Full Art
 </gallery>
-|element  = Geo
-|element2 = Cryo
-|element3 = Pyro
-|element4 = Electro
-|element5 = Hydro
+|dmgtype  = Geo
+|dmgtype2 = Cryo
+|dmgtype3 = Pyro
+|dmgtype4 = Electro
+|dmgtype5 = Hydro
+|weakpoint = yes
 |type     = Normal Bosses
 |family   = Mystical Beasts
 |group    = Vishaps
@@ -18,15 +19,26 @@ Enemy Primo Geovishap Full Artwork.png|Full Art
 |ability3 = Self HP Loss
 |drops    = Juvenile Jade
 }}
-{{Description|After many years, the awesomely powerful Ancient Geovishaps grow accustomed to changes in their elemental environment.<br />Folktales hold that after the great "draconic calamity that led to the ruination of [[Tianqiu Valley]], the [[Azhdaha|overlord]] of the Geovishaps and Primo Geovishaps was imprisoned deep beneath the earth, and so too did they burrow into deep and unseen places, awaiting their chance to rise once more...|[[Archive]]}}
 {{Enemy Intro}}
 
-==Rewards==
+==Drops==
+===Items===
 Other than [[Prithiva Topaz]] {{Element|Geo|24}}, the possible Ascension Gems obtained depend on the [[Element]] the Primo Geovishap is infused with.
 {{World Boss Rewards
 |gem=Prithiva Topaz,Vajrada Amethyst,Shivada Jade,Agnidus Agate,Varunada Lazurite
 |exclusive=Juvenile Jade
 |sets=Berserker,Instructor,The Exile,Prayers for Wisdom,Prayers to Springtime,Prayers for Illumination,Prayers for Destiny
+}}
+
+===Energy===
+{{Energy Drops
+|type  = Geo
+|hp1   = 66
+|p1    = 1
+|hp2   = 33
+|p2    = 1
+|hp3   = 0
+|o3    = 1
 }}
 
 ==Stats==
@@ -48,98 +60,84 @@ Other than [[Prithiva Topaz]] {{Element|Geo|24}}, the possible Ascension Gems ob
 |res_title = State
 |hp_ratio  = 30
 |hp_type   = 1
-|atk_ratio = 4
-|note      = The Primo Geovishap gains '''30<nowiki>%</nowiki>''' RES to its corresponding element.
+|atk_ratio = 8
+|note      = The Primo Geovishap gains '''20<nowiki>%</nowiki>''' RES to its corresponding element.
 }}
 
 ==Abilities and Attacks==
+''Most attack names are unofficial.''
 The Primo Geovishap is always encountered in an idle state in one of the four elements; {{Pyro}}, {{Hydro}}, {{Cryo}} or {{Electro}}. This additional element is indicated by the color of the scales on it.
+{{Enemy Attacks
 
-*'''Elemental-Infused Stones:''' Certain attacks will produce stones that detonate after a few seconds delay, dealing elemental damage of the currently infused element. Although the stones themselves, when created, deal no damage, the explosion(s) that occur do deal damage. Each element has different effects on the stones:
-** '''{{Color|Pyro}}:''' Explodes, dealing '''80% ATK''' as {{Color|AoE Pyro DMG}} and leaving a pool of lava in its wake, which deals '''20% ATK''' as {{Color|Pyro DoT}} to characters in the affected area.
-** '''{{Color|Hydro}}:''' Cause seven small eruptions near the stone's original location that each deals '''50% ATK''' as {{Color|AoE Hydro DMG}}.
-** '''{{Color|Cryo}}:''' Generates a ring of ice spikes that start from the center of the stone and propagate (up to 3 times) outward, dealing '''50% ATK''' and '''75% ATK''' as {{Color|Cryo DMG}} within a moderate area.
-** '''{{Color|Electro}}:''' Explodes in an X-like pattern, dealing '''50% ATK''' as {{Color|Electro DMG}}.
+|name_1 = Elemental-Infused Stones
+|desc_1 = Certain attacks will produce stones that detonate after a few seconds delay, dealing elemental damage of the currently infused element. Although the stones themselves, when created, deal no damage, the explosion(s) that occur do deal damage. Each element has different effects on the stones:
+* '''{{Color|Pyro}}:''' Explodes, dealing '''40% ATK''' as {{Color|AoE Pyro DMG}} and leaving a pool of lava in its wake, which deals '''10% ATK''' as {{Color|Pyro DoT}} to characters in the affected area.
+* '''{{Color|Hydro}}:''' Cause seven small eruptions near the stone's original location that each deals '''25% ATK''' as {{Color|AoE Hydro DMG}}.
+* '''{{Color|Cryo}}:''' Generates a ring of ice spikes that start from the center of the stone and propagate (up to 3 times) outward, dealing '''25% ATK''' and '''37.5% ATK''' as {{Color|Cryo DMG}} within a moderate area.
+* '''{{Color|Electro}}:''' Explodes in an X-like pattern, dealing '''25% ATK''' as {{Color|Electro DMG}}.
+|file_1 = Primo Geovishap Infused Stone Pyro
+|caption_1 = Pyro
+|file_1_2 = Primo Geovishap Infused Stone Hydro
+|caption_1_2 = Hydro
+|file_1_3 = Primo Geovishap Infused Stone Cryo
+|caption_1_3 = Cryo
+|file_1_4 = Primo Geovishap Infused Stone Electro
+|caption_1_4 = Electro
 
-*'''Left Claw:''' Claws at the player, inserting its left claw into the ground, dealing '''70% ATK''' as {{Color|Geo DMG}} both on impact and when it pulls its claw out of the ground.
+|name_2 = Left Claw
+|desc_2 = Claws at the player, inserting its left claw into the ground, dealing '''35% ATK''' as {{Color|Geo DMG}} both on impact and when it pulls its claw out of the ground.
+|file_2 = Primo Geovishap Punch
 
-*'''Right Claw:''' Claws in front of itself once with its right claw, dealing '''80% ATK''' as {{Color|Geo DMG}}.
+|name_3 = Right Claw
+|desc_3 = Claws in front of itself once with its right claw, dealing '''40% ATK''' as {{Color|Geo DMG}}.
+|file_3 = Primo Geovishap Slash
 
-*'''Whirlwind:''' Looks behind itself, then performs a quick spinning attack, dealing '''100% ATK''' as {{Color|AoE Geo DMG}}. This attack is heavily prioritized if any players are behind the Primo Geovishap. This attack cannot be avoided using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
+|name_4 = Whirlwind
+|desc_4 = Looks behind itself, then performs a quick spinning attack, dealing '''50% ATK''' as {{Color|AoE Geo DMG}}. This attack is heavily prioritized if any players are behind the Primo Geovishap. This attack cannot be avoided using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
 
-*'''Combo Slash:''' Attack forward twice, and ends with a slam towards the player. Each attack deals '''80% ATK''', '''100% ATK''', and '''125% ATK''' respectively as {{Color|Geo DMG}}.
+|name_5 = Combo Slash
+|desc_5 = Attack forward twice, and ends with a slam towards the player. Each attack deals '''40% ATK''', '''50% ATK''', and '''62.5% ATK''' respectively as {{Color|Geo DMG}}.
 
-*'''Burrow:''' Targets outside Primo Geovishap's melee reach will cause it to submerge underground and dig towards the enemy, creating '''Elemental-Infused Stones''' as it travels. It will also deal '''50% ATK''' as {{Color|Geo DMG}} to characters on contact as it bores through the ground. Upon reaching its destination, it resurfaces and performs a slam, dealing '''150% ATK''' as {{Color|AoE Geo DMG}} upon landing.
+|name_6 = Burrow
+|desc_6 = Targets outside Primo Geovishap's melee reach will cause it to submerge underground and dig towards the enemy, creating '''Elemental-Infused Stones''' as it travels. It will also deal '''25% ATK''' as {{Color|Geo DMG}} to characters on contact as it bores through the ground. Upon reaching its destination, it resurfaces and performs a slam, dealing '''75% ATK''' as {{Color|AoE Geo DMG}} upon landing.
 
-*'''Scattered Rocks:''' Raises up its tail and scatter a number of '''Elemental-Infused Stones''' around the arena.
+|name_7 = Scattered Rocks
+|desc_7 = Raises up its tail and scatter a number of '''Elemental-Infused Stones''' around the arena.
 
-*'''Elemental Breath:''' Unleash a breath of pure elemental power, whilst arcing the attack in a cone-like area in front of itself, rapidly dealing '''80% ATK''', '''40% ATK''', or '''20% ATK''' as AoE DMG of the currently infused element.
+|name_8 = Elemental Breath
+|desc_8 = Unleash a breath of pure elemental power, whilst arcing the attack in a cone-like area in front of itself, rapidly dealing '''40% ATK''', '''20% ATK''', or '''10% ATK''' as AoE DMG of the currently infused element.
+|file_8 = Primo Geovishap Elemental Breath Pyro
+|caption_8 = Pyro
+|file_8_2 = Primo Geovishap Elemental Breath Hydro
+|caption_8_2 = Hydro
+|file_8_3 = Primo Geovishap Elemental Breath Cryo
+|caption_8_3 = Cryo
+|file_8_4 = Primo Geovishap Elemental Breath Electro
+|caption_8_4 = Electro
 
-*'''Primeval Spring:''' Spawns a barrage of '''Elemental-Infused Stones''' around itself. The attack itself deals no damage and can only be used once Primo Geovishap reaches critical health ('''20%''' Max HP).
+|name_9 = Primeval Spring
+|desc_9 = Spawns a barrage of '''Elemental-Infused Stones''' around itself. The attack itself deals no damage and can only be used once Primo Geovishap reaches critical health ('''20%''' Max HP).
 
-*'''Primordial Shower:''' Unleashes a blast of pure elemental power in a huge [[AoE]] around it, dealing '''200% ATK''' as DMG of the currently infused element. DMG is greatly reduced to '''50% ATK''' when protected by a shield (independent from shield multipliers). If all DMG is absorbed, the attack will rebound and the Primo Geovishap itself will lose HP. If the shield's element is {{Geo}} or the Primo Geovishap's currently infused element, it will lose '''15%''' Max HP, while a non-{{Geo}} shield not of the corresponding element will only cause it to lose '''5%''' Max HP. This HP loss is fixed, and is unaffected by the shield's remaining health. The Primo Geovishap will only perform this attack when it is front-facing the opposing character, thus a possible strategy to avoid this attack during shield downtime is to constantly run behind it, and only bait this move once a shield is ready by running in front. Once the Primo Geovishap reaches critical health ('''20%''' Max HP), it will cease to perform the Primordial Shower, and instead perform '''Primeval Spring'''. This attack cannot be dodged with [[dash]] [[i-frames]].
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Primo Geovishap Infused Stone Pyro
-|caption1=Infused Stones ({{Pyro}})
-
-|file2=Primo Geovishap Infused Stone Hydro
-|caption2=Infused Stones ({{Hydro}})
-
-|file3=Primo Geovishap Infused Stone Cryo
-|caption3=Infused Stones ({{Cryo}})
-
-|file4=Primo Geovishap Infused Stone Electro
-|caption4=Infused Stones ({{Electro}})
-
-|file5=Primo Geovishap Punch
-|caption5=Left Claw
-
-|file6=Primo Geovishap Slash
-|caption6=Right Claw
-
-|file7=Primo Geovishap Whirlwind
-|caption7=Whirlwind
-
-|file8=Primo Geovishap Combo Slash
-|caption8=Combo Slash
-
-|file9=Primo Geovishap Burrow
-|caption9=Burrow
-
-|file10=Primo Geovishap Elemental Breath Pyro
-|caption10=Elemental Breath ({{Pyro}})
-
-|file11=Primo Geovishap Elemental Breath Hydro
-|caption11=Elemental Breath ({{Hydro}})
-
-|file12=Primo Geovishap Elemental Breath Cryo
-|caption12=Elemental Breath ({{Cryo}})
-
-|file13=Primo Geovishap Elemental Breath Electro
-|caption13=Elemental Breath ({{Electro}})
-
-|file14=Primo Geovishap Primeval Spring
-|caption14=Primeval Spring
-
-|file15=Primo Geovishap Primordial Shower Pyro
-|caption15=Primordial Shower ({{Pyro}})
-
-|file16=Primo Geovishap Primordial Shower Hydro
-|caption16=Primordial Shower ({{Hydro}})
-
-|file17=Primo Geovishap Primordial Shower Cryo
-|caption17=Primordial Shower ({{Cryo}})
-
-|file18=Primo Geovishap Primordial Shower Electro
-|caption18=Primordial Shower ({{Electro}})
+|name_10 = Primordial Shower
+|desc_10 = Unleashes a blast of pure elemental power in a huge [[AoE]] around it, dealing '''100% ATK''' as DMG of the currently infused element. DMG is greatly reduced to '''25% ATK''' when protected by a shield (independent from shield multipliers). This attack cannot be dodged with [[dash]] [[i-frames]].
+* If all DMG is absorbed, the attack will rebound and the Primo Geovishap itself will lose HP.
+** If the shield's element is {{Geo}} or the Primo Geovishap's currently infused element, it will lose '''15%''' Max HP
+** A non-Geo shield not of the corresponding element will only cause it to lose '''5%''' Max HP.
+* Once the Primo Geovishap reaches critical health ('''20%''' Max HP), it will cease to perform the Primordial Shower, and instead perform '''Primeval Spring'''.
+|strat_10 = The Primo Geovishap will only perform this attack when it is front-facing the opposing character, thus a possible strategy to avoid this attack during shield downtime is to constantly run behind it, and only bait this move once a shield is ready by running in front.
+|file_10 = Primo Geovishap Primordial Shower Pyro
+|caption_10 = Pyro
+|file_10_2 = Primo Geovishap Primordial Shower Hydro
+|caption_10_2 = Hydro
+|file_10_3 = Primo Geovishap Primordial Shower Cryo
+|caption_10_3 = Cryo
+|file_10_4 = Primo Geovishap Primordial Shower Electro
+|caption_10_4 = Electro
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range and angle required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -192,8 +190,12 @@ When the Primo Geovishap performs its Primordial Shower attack, the game will ad
 ==Achievements==
 {{Achievement Topic Table|topic=Primo Geovishap}}
 
+==Descriptions==
+{{Description|After many years, the awesomely powerful Primo Geovishaps have grown accustomed to changes in their elemental environment.<br />Folktales hold that after the great "draconic calamity" that led to the ruin of [[Tianqiu Valley]], the [[Geovishap]]s and Primo Geovishaps burrowed deep into the earth, awaiting their chance to rise once more...|[[Adventurer Handbook]]}}
+{{Description|After many years, the awesomely powerful Primo Geovishaps grow accustomed to changes in their elemental environment.<br />Folktales hold that after the great "draconic calamity" that led to the ruination of Tianqiu Valley, the [[Azhdaha|overlord]] of the Geovishaps and Primo Geovishaps was imprisoned deep beneath the earth, and so too did they burrow into deep and unseen places, awaiting their chance to rise once more...|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Primo Geovishap Icon.png|Icon
 Enemy Primo Geovishap Hydro.png|Hydro Variant
 Enemy Primo Geovishap Pyro.png|Pyro Variant
@@ -221,28 +223,31 @@ Namecard Background Celebration Battlesong.png|Primo Geovishap in the [[Celebrat
 |zhs_rm  = Gǔyán Lóngxī
 |zht     = 古岩龍蜥
 |zht_rm  = Gǔyán Lóngxī
-|zh_tl   = Ancient Geo Dragon-Lizard
+|zh_tl   = Ancient Geo {{Lex|Vishap|zh}}
 |ja      = エンシェントヴィシャップ・岩
 |ja_rm   = Enshento Vishappu - Iwa
 |ja_tl   = Ancient Vishap - Geo
 |ko      = 고대 바위 용 도마뱀
 |ko_rm   = Godae Bawi Yong Domabaem
-|ko_tl   = Ancient Rock Dragon-Lizard
+|ko_tl   = Ancient Rock {{Lex|Vishap|ko}}
 |es      = Protodragarto Geo
-|es_tl   = Geo Protodragard
-|es_note = ''Dragarto'' is a portmanteau of {{Lang|mini=1|es=''dragón''|es_tl=dragon}} and {{Lang|mini=1|es=''lagarto''|es_tl=lizard.}}
+|es_tl   = Geo Proto-{{Lex|Vishap|es}}
 |fr      = Géosaure antique
-|fr_tl   = Ancient Geosaurus
+|fr_tl   = Ancient {{Lex|Geovishap|fr}}
 |ru      = Древний геовишап
 |ru_tl   = Ancient Geovishap
 |th      = Primo Geovishap
 |vi      = Rồng Đất Cổ - Nham
-|vi_tl   = Ancient Earth Dragon - Rock
+|vi_tl   = Ancient Earth {{Lex|Vishap|vi}} - Rock
 |de      = Alte Geo-Drachenechse
-|de_tl   = Ancient Geo Dragon-Lizard
+|de_tl   = Ancient Geo {{Lex|Vishap|de}}
 |id      = Primo Geovishap
 |pt      = Dragarto Primordial
-|pt_tl   = 
+|pt_tl   = Primordial {{Lex|Vishap|pt}}
+|tr      = Kadim Toprak Ejderi
+|tr_tl   = 
+|it      = Geosauro primordiale
+|it_tl   = 
 }}
 
 ==Change History==
@@ -255,6 +260,8 @@ Namecard Background Celebration Battlesong.png|Primo Geovishap in the [[Celebrat
 {{Enemy Navbox|type=bosses}}
 
 [[es:Protodragarto Geo]]
-[[ru:Древний геовишап]]
+[[ja:エンシェントヴィシャップ・岩]]
 [[pt-br:Dragarto Primordial]]
+[[ru:Древний геовишап]]
+[[th:Primo Geovishap]]
 [[uk:Стародавня ящірка-дракон]]

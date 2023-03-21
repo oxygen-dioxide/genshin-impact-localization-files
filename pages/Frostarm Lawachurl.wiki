@@ -1,6 +1,8 @@
 {{Enemy Infobox
 |image    = Enemy Frostarm Lawachurl.png
-|element  = Cryo
+|dmgtype  = Physical
+|dmgtype2 = Cryo
+|weakpoint = yes
 |family   = Hilichurls
 |group    = Lawachurls
 |type     = Elite Enemies
@@ -9,11 +11,27 @@
 |ability1 = Shield
 |ability2 = Damage Reduction
 }}
-{{Description|A mysterious "lord" of hilichurls that stalks the snow and fog.<br />This huge hilichurl is referred to as a "lawa" by its brethren. Its body, honed to the very limit, almost seems to blend into its Cryo-filled environment, and its stoic nobility is like that of the frozen northland rivers.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Lawachurls}}
+===Items===
+{{Drops Table|type=Lawachurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|p1    = 3
+|o1    = 1
+|hp2   = 50
+|p2    = 3
+|o2    = 1
+|hp3   = 25
+|p3    = 3
+|o3    = 1
+|hp4   = 0
+|p4    = 3
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -21,43 +39,46 @@
 |cryo_res     = 70%
 |hp_type      = 1
 |hp_ratio     = 9
-|atk_ratio    = 6
+|atk_ratio    = 12
 }}
 
 ==Abilities and Attacks==
-* '''Punches:''' Roars and performs a punch with its left arm. It occasionally combos with both arms and slams the ground, dealing '''75% ATK''' and '''80% ATK''' as {{Color|AoE Physical DMG}}. This attack is only performed when the Frostarm Lawachurl is <u>not</u> in the '''Frozen Enhanced State'''.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Cryo Lawachurl
 
-* '''Frozen Enhanced State:''' The Frostarm Lawachurl can generate an {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} shield, enabling it to use more powerful attacks. This shield will degrade over 90 seconds and can be further damaged using [[Elemental Reactions]] and [[Poise Damage]]. {{Pyro}} is most effective against the shield.
-** When the Frostarm Lawachurl is in its '''Frozen Enhanced State''', it gains a '''80%''' [[Damage Reduction]], which reduces the [[Damage Bonus]] of incoming attacks by 80%.
+|name_1 = Plama Lawa
+|file_1 = Cryo Lawachurl Punches
+|desc_1 = Roars and performs a punch with its left arm. It occasionally combos with both arms and slams the ground, dealing '''37.5% ATK''' and '''40% ATK''' as {{Color|AoE Physical DMG}}. This attack is only performed when the Frostarm Lawachurl is not in the '''Frozen Enhanced State'''.
 
-* '''Dash:''' The Frostarm Lawachurl quickly charges at its target after a roar, dealing '''100% ATK''' as {{Color|Physical DMG}} and leaving 6 ice shards on the ground. Ice shards explode when a player is in close proximity, dealing '''50% ATK''' as {{Color|Physical DMG}}. This attack is only performed when the Frostarm Lawachurl is in the '''Frozen Enhanced State'''.
+|name_2 = Infused Frostarm
+|desc_2 = Generates a {{Frozen}} shield and enters a '''Frozen Enhanced State''' for as long as the shield is active. Under this state, it will use more powerful attacks. This shield will degrade over 90 seconds and can be further damaged using [[Elemental Reactions]] and [[Poise Damage]]. {{Pyro}} is most effective against the shield.
+* When the Frostarm Lawachurl is in its '''Frozen Enhanced State''', it gains a '''80%''' [[Damage Reduction]], which reduces the [[Damage Bonus]] of incoming attacks by 80%.
+{{Elemental Shield Data|Cryo|30}}
+|file_2 = Cryo Lawachurl Cryo Enhanced State
 
-* '''Shockwave:''' Roars and slams both hands into the ground, causing sharp ice to spike from the ground, dealing '''100% ATK''' and '''125% ATK''' as {{Color|AoE Physical DMG}}. This attack is only performed when the Frostarm Lawachurl is in the '''Frozen Enhanced State'''.
+|name_3 = Frosty Berserker
+|desc_3 = When in its '''Frozen Enhanced State''', the Frostarm Lawachurl may roar and perform '''Upa Shato''', '''Shockwave''', '''Movo Lawa''', and '''Shockwave''' in quick succession.
 
-* '''Jumping Slam:''' Roars and jumps into the air, slamming down at the player's position, dealing '''200% ATK''' as {{Color|AoE Physical DMG}} and freezing the ground around the landing position, which deals '''30% ATK''' as {{Color|Cryo DoT}} to characters who step on it. This attack is only performed when the Frostarm Lawachurl is in the '''Frozen Enhanced State'''.
+|name_4 = Movo Lawa
+|file_4 = Cryo Lawachurl Dash
+|desc_4 = The Frostarm Lawachurl quickly charges at its target after a roar, dealing '''50% ATK''' as {{Color|Physical DMG}} and leaving 6 ice shards on the ground. Ice shards explode when a player is in close proximity, dealing '''25% ATK''' as {{Color|Physical DMG}}. This attack is only performed when the Frostarm Lawachurl is in the '''Frozen Enhanced State'''.
 
-* '''Slime Throw:''' If the player is at a higher elevation or too far away, the Lawachurl will roar and grab a [[Large Cryo Slime]] from the ground, throwing it at the player to deal '''125% ATK''' as {{Color|Cryo DMG}}. This attack is only performed when the Frostarm Lawachurl is in the '''Frozen Enhanced State'''.
+|name_5 = Charged Punch
+|desc_5 = Charges and swings its fist at the player with great force, dealing '''37.5% ATK''' as {{Color|AoE Cryo DMG}} and sends out ice shards that explode and deal '''50% ATK''' as {{Color|AoE Cryo DMG}}. This attack is only performed when the Frostarm Lawachurl is in the '''Frozen Enhanced State'''.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Cryo Lawachurl Punches
-|caption1=Punches
+|name_6 = Shockwave
+|desc_6 = Roars and slams both hands into the ground, causing sharp ice to spike from the ground, dealing '''50% ATK''' and '''62.5% ATK''' as {{Color|AoE Physical DMG}}. This attack can be done 1-2 times and is only performed when the Frostarm Lawachurl is in the '''Frozen Enhanced State'''.
 
-|file2=Cryo Lawachurl Cryo Enhanced State
-|caption2=Frozen Enhanced State
+|name_7 = Upa Shato
+|file_7 = Cryo Lawachurl Jumping Slam
+|desc_7 = Roars and jumps into the air, slamming down at the player's position, dealing '''100% ATK''' as {{Color|AoE Physical DMG}} and freezing the ground around the landing position, which deals '''15% ATK''' as {{Color|Cryo DoT}} to characters who step on it. This attack is only performed when the Frostarm Lawachurl is in the '''Frozen Enhanced State'''.
 
-|file3=Cryo Lawachurl Dash
-|caption3=Dash
-
-|file4=Cryo Lawachurl Shockwave
-|caption4=Shockwave
-
-|file5=Cryo Lawachurl Jumping Slam
-|caption5=Jumping Slam
-
-|file6=Cryo Lawachurl Slime Throw
-|caption6=Slime Throw
+|name_8 = Slime Throw
+|desc_8 = If the player is at a higher elevation or too far away, the Lawachurl will roar and grab a [[Large Cryo Slime]] from the ground, throwing it at the player to deal '''62.5% ATK''' as {{Color|Cryo DMG}}. If the Frostarm Lawachurl is not in the '''Frozen Enhanced State''', throws 3 [[Cryo Slime]]s toward the player, each dealing '''50% ATK''' as '''AoE {{Color|Cryo DMG}}'''.
+|caption_8 = Large Cryo Slime
+|file_8_2 = Cryo Lawachurl Slime Throw 2
+|caption_8_2 = Cryo Slimes
 }}
 
 ==Strategy==
@@ -67,16 +88,21 @@ Unlike the Geo blasts from Stonehide Lawachurl, the Frostarm Lawachurl does not 
 
 Its jump attack also creates an ice floor at where the Frostarm Lawachurl lands, dealing continuous damage over time to players who stay within its area of effect. It is capable of using any of these unique abilities with or without its Cryo enhancement.
 
+The Frostarm Lawachurl's Frosty Berserker is especially devastating if not avoided properly. Be on the look out for when it roars during its Cryo Infused State.
+
 ==Achievements==
 {{Achievement Topic Table|topic=Frostarm Lawachurl}}
 
+==Descriptions==
+{{Description|A mysterious "lord" of hilichurls that stalks the snow and fog.<br />This huge hilichurl is referred to as a "lawa" by its brethren. Its body, honed to the very limit, almost seems to blend into its Cryo-filled environment, and its stoic nobility is like that of the frozen northland rivers.|[[Archive]]}}
+
 ==Trivia==
-*Frostarm Lawachurls have the least amount of overworld spawns compared to the other Lawachurls, with a total of three, all in Dragonspine. Unlike their other Lawachurl brethren, all three of these Lawachurls have titles when fought.
+*Frostarm Lawachurls have the least amount of overworld spawns compared to the other Lawachurls, with a total of three, all in Dragonspine, currently making them the only Lawachurls not found in any other nation. Unlike their other Lawachurl brethren, all three of these Lawachurls have titles when fought.
 **The two Frostarm Lawachurls, located south-west of the southern central [[Teleport Waypoints|Teleport Waypoint]] and the one to the west have the title "Ice-Sealed Lawachurl".
 **The one west of the [[Peak of Vindagnyr]] [[Domain]] is interestingly called [[Ukko]].
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Frostarm Lawachurl Icon.png|Icon
 </gallery>
 
@@ -99,14 +125,19 @@ Enemy Frostarm Lawachurl Icon.png|Icon
 |fr      = Chef Brutogivré
 |fr_tl   = Hilifrost Chieftain
 |ru      = Лавачурл с инеевым панцирем
-|ru_tl   = 
+|ru_tl   = Lawachurl With Frost Armor
 |th      = Frostarm Lawachurl
 |vi      = Vua Giáp Băng Hilichurl
 |vi_tl   = Ice-Armored Hilichurl King
 |de      = Frostarm-Lawachurl
+|de_tl   = Frostarm Lawachurl
 |id      = Frostarm Lawachurl
 |pt      = Lawachurl dos Braços Congelantes
 |pt_tl   = 
+|tr      = Buz Kollu Dağ Reisi
+|tr_tl   = 
+|it      = Lawachurl Bracciogelato
+|it_tl   = 
 }}
 
 ==Change History==
@@ -118,5 +149,7 @@ Enemy Frostarm Lawachurl Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Frostarm-Lawachurl]]
 [[es:Lawachurl Brazo Helado]]
+[[ja:ヒルチャール・霜鎧の王]]
 [[pt-br:Lawachurl dos Braços Congelantes]]

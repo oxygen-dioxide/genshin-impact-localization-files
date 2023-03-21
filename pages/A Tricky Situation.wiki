@@ -2,14 +2,15 @@
 |id            = 40020
 |image         = Event Quest A Tricky Situation.png
 |type          = Story
-|region        = Inazuma
 |event_name    = Labyrinth Warriors
 |part          = 1
-|description   = The situation in Inazuma has stabilized, but neither you nor Paimon have been idle. You decide to head over to the Adventurers' Guild and accept a new commission...
 |requirement   = Complete [[Chapter II]] Act III: [[Omnipresence Over Mortals]]
 |prev          = 
 |next          = Pushing On
 |startLocation = [[Inazuma City]], [[Inazuma]]
+|region        = Inazuma
+|area          = Narukami Island
+|subarea       = Inazuma City
 |primogems     = 60
 |mora          = 30,000
 |other         = {{Card|Hero's Wit|3}}
@@ -29,15 +30,14 @@
 # Check on the wounded soldier
 # Go to the domain and guard the gate
 # Defeat all opponents
-#* Wave 1:
-#** {{Enemy List|Hilichurl Fighter*4;Hilichurl Shooter|#**}}
-#* Wave 2:
-#** {{Enemy List|Hilichurl Berserker*3;Pyro Hilichurl Shooter;Hydro Samachurl|#**}}
+#* Wave 1: {{Enemy List|Hilichurl Fighter*4;Hilichurl Shooter}}
+#* Wave 2: {{Enemy List|Hilichurl Berserker*3;Pyro Hilichurl Shooter;Hydro Samachurl}}
 # Investigate the domain's surroundings
 # Enter the Mystic Onmyou Chamber
 # Go deeper into [[Labyrinth Warriors/The Ominous Demesne|The Ominous Demesne]]
 
 ==Dialogue==
+{{Quest Description|The situation in Inazuma has stabilized, but neither you nor Paimon have been idle. You decide to head over to the Adventurers' Guild and accept a new commission...}}
 {{Dialogue start}}
 ;(Upon login)
 :{{A|vo eqrg001 1 paimon 01.ogg}} '''Paimon:''' Say, Inazuma has become a lot more stable lately &mdash; why haven't we received any new commissions...?
@@ -76,7 +76,7 @@
 :{{A|vo eqrg001 5 xinyan 02.ogg}} '''Xinyan:''' Never thought I'd run into familiar faces so far from home! If you're here for a performance, I'm afraid I gotta disappoint you.
 :{{DIcon}} Performance?
 :{{DIcon}} Disappoint us?
-:{{A|vo eqrg001 5 xinyan 03.ogg}} '''Xinyan:''' Sigh... It's a long story.
+:{{A|vo eqrg001 5 xinyan 03.ogg}} '''Xinyan:''' *sigh* It's a long story.
 :{{A|vo eqrg001 5 xinyan 04.ogg}} '''Xinyan:''' Have you heard of the [[Iridescence Tour]]? It's okay if you haven't... I didn't hear about it until just recently.
 :{{A|vo eqrg001 5 xinyan 05.ogg}} '''Xinyan:''' The more I think about it, this whole thing was weird from the get-go!
 :{{A|vo eqrg001 5 xinyan 06.ogg}} '''Xinyan:''' The organizers told me it was a music festival from Fontaine that was famous throughout Teyvat, but it seemed like nobody in Liyue had ever heard of it before.
@@ -287,7 +287,7 @@
 :{{A|vo eqrg001 15 shikishogun 21.ogg}} '''Shiki Taishou:''' There were sounds coming from beyond the mist that frightened me, and I worried I was about to be swallowed by some hidden danger. But all I could do was continue forward.
 :{{A|vo eqrg001 15 shikishogun 22.ogg}} '''Shiki Taishou:''' I didn't know where my destination was... but it felt like someone was waiting there for me.
 :{{DIcon}} That's... very detailed.
-:{{A|vo eqrg001 15 paimon 16.ogg}} '''Paimon:''' Wow... that's a lot of feels for a piece of paper, maybe Paimon failed the test. All Paimon could think of was a bunch of people eating Grilled Fish...
+:{{A|vo eqrg001 15 paimon 16.ogg}} '''Paimon:''' Wow... That's a lot of feels for a piece of paper, maybe Paimon failed the test. All Paimon could think of was a bunch of people eating Grilled Fish...
 :{{A|vo eqrg001 15 shikishogun 23.ogg}} '''Shiki Taishou:''' Grilled Fish! I think I saw something similar to that... I was grilling fish with people whose faces I couldn't make out.
 :{{A|vo eqrg001 15 shikishogun 24.ogg}} '''Shiki Taishou:''' There was a fire at the end of the mist. People were sitting around with freshly caught fish on bamboo skewers... I'd transformed into an actual person &mdash; I was having dinner with them.
 :{{A|vo eqrg001 15 shikishogun 25.ogg}} '''Shiki Taishou:''' ...And yet I had the feeling that I'd be leaving and continuing on my way again once the sun rose.
@@ -556,17 +556,17 @@
 |ja_rm   = Meikyou no Wazawai{{Assumed}}
 |ja_tl   = Disaster of the Mystery Border
 |ko      = 난해한 미로 속에서
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Nanhaehan Miro Sok'eseo
+|ko_tl   = Inside a Tricky Maze
 |es      = Una situación complicada
 |es_tl   = A Complicated Situation
 |fr      = Une situation délicate
 |fr_tl   = A Delicate Situation
 |ru      = Непростая ситуация
-|ru_tl   = 
+|ru_tl   = A Complicated Situation
 |th      = ปริศนาที่ยากจะไข
-|th_rm   = 
-|th_tl   = A Tricky Mystery
+|th_rm   = Pritsana thi Yak Cha Khai
+|th_tl   = A Difficult Puzzle
 |vi      = Bí Ẩn Khó Giải Đáp
 |vi_tl   = 
 |de      = Eine knifflige Situation
@@ -581,4 +581,5 @@
 {{Change History|2.2}}
 
 [[pt-br:Uma situação complicada]]
+[[ru:Непростая ситуация]]
 [[vi:Bí Ẩn Khó Giải Đáp]]

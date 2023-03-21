@@ -1,57 +1,66 @@
 {{Enemy Infobox
 |image    = Enemy Cryo Specter.png
 |type     = Common Enemies
-|element  = Cryo
+|dmgtype  = Cryo
+|weakpoint = no
 |family   = Elemental Lifeforms
 |group    = Specters
 |location = [[Enkanomiya]], [[Inazuma]]
 |ability1 = Fury
 }}
-{{Description|A monster born from highly-concentrated Cryo elements that can float in the air.<br />[[Timaeus|A certain alchemist]] once studied these beings, speculating that they might be a kind of [[Slimes|Slime]] or the [[Traveler]], as none of the above needed a Vision to use the elements. He was reprimanded by [[Albedo|his teacher]].}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Specters}}
+===Items===
+{{Drops Table|type=Specters}}
+
+===Energy===
+{{Energy Drops
+|type  = Cryo
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
 |cryo_res  = Immune
 |hp_ratio  = 1.6
 |hp_type   = 2
-|atk_ratio = 1.4
+|atk_ratio = 1.75
 |atk_type  = 2
 }}
 
 ==Abilities and Attacks==
-*'''Fury:''' Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
-*'''Ice Missile:''' Shoots a slow homing projectile that deals '''100% ATK''' as {{Color|Cryo DMG}} on hit, after a couple of seconds the projectile will lose its homing property and start to travel in a straight line.
-*'''Frost Bomb:''' Spins before shooting out a downward snowball that bursts dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
-*'''Snowball Sling:''' Consecutively launches 6 snowballs at the player that burst on contact dealing {{Color|AoE Cryo DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
-*'''Final Burst:''' Explodes after a short pause when defeated dealing '''125% ATK''' as {{Color|AoE Cryo DMG}}. If at max Fury, DMG is increased to '''150% ATK''', and leaves behind a patch of frost on the ground that deals '''50% ATK''' as {{Color|AoE Cryo DoT}}.
-*'''Frozen Immunity:''' The Cryo Specter is immune to the [[Frozen]] reaction.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Fury
+|desc_1 = Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Cryo Specter Ice Missile
-|caption1=Ice Missile
+|name_2 = Ice Missile
+|desc_2 = Shoots a slow homing projectile that deals '''80% ATK''' as {{Color|Cryo DMG}} on hit, after a couple of seconds the projectile will lose its homing property and start to travel in a straight line.
 
-|file2=Cryo Specter Frost Bomb
-|caption2=Frost Bomb
+|name_3 = Frost Bomb
+|desc_3 = Spins before shooting out a downward snowball that bursts dealing '''80% ATK''' as {{Color|AoE Cryo DMG}}.
 
-|file3=Cryo Specter Snowball Sling
-|caption3=Snowball Sling
+|name_4 = Snowball Sling
+|desc_4 = Consecutively launches 6 snowballs at the player that burst on contact dealing {{Color|AoE Cryo DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
 
-|file4=Cryo Specter Final Burst Fury
-|caption4=Final Burst
+|name_5 = Final Burst
+|desc_5 = Explodes after a short pause when defeated dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}. If at max Fury, DMG is increased to '''120% ATK''', and leaves behind a patch of frost on the ground that deals '''40% ATK''' as {{Color|AoE Cryo DoT}}.
+|file_5 = Cryo Specter Final Burst Fury
+|caption_5 = Normal
+|file_5_2 = Cryo Specter Final Burst
+|caption_5_2 = Max Fury
 
-|file5=Cryo Specter Final Burst
-|caption5=Final Burst (Max Fury)
+|name_6 = Frozen Immunity
+|desc_6 = The Cryo Specter is immune to the [[Frozen]] reaction.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -69,8 +78,11 @@
 | Max Fury || Snowball Sling || 0–12 || — || 4–5 || —
 |}
 
+==Descriptions==
+{{Description|A monster born from highly-concentrated Cryo elements that can float in the air.<br />[[Timaeus|A certain alchemist]] once studied these beings, speculating that they might be a kind of [[Slime]] or the [[Traveler]], as none of the above needed a Vision to use the elements. He was reprimanded by [[Albedo|his teacher]].}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Cryo Specter Icon.png|Icon
 </gallery>
 
@@ -102,6 +114,10 @@ Enemy Cryo Specter Icon.png|Icon
 |id      = Cryo Specter
 |pt      = Espectro Cryo
 |pt_tl   = Cryo Specter
+|tr      = Buz Uçarlopu
+|tr_tl   = 
+|it      = Spettro di Cryo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -111,5 +127,7 @@ Enemy Cryo Specter Icon.png|Icon
 {{Enemy Navbox|Common}}
 
 [[es:Espectro Cryo]]
-[[vi:Bóng Ma - Băng]]
+[[fr:Spectre Cryo]]
+[[ja:氷フライム]]
 [[pt-br:Espectro Cryo]]
+[[vi:Bóng Ma - Băng]]

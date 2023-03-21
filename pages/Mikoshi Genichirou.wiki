@@ -13,7 +13,7 @@
 }}
 '''Mikoshi Genichirou''' {{Lang|ja=御輿源一郎|ja_rm=Mikoshi Gen'ichirou}}  is a [[shop]] [[NPC]] located in [[Inazuma City]], [[Inazuma]]. He is the owner of the [[Souvenir Shop]] {{Lang|[[Netsuke no Gen Crafts]]|ja=根付の源|ja_rm=Netsuke no Gen}}, indicated by the {{DIcon|Souvenir}} icon on the map.
 
-The shop sells various Inazuma [[Blueprints|Furnishing Blueprints]] and [[mora]]. It is open at all times of the day.
+The shop sells various Inazuman [[Furnishing Blueprints]] and [[Mora]]. It is open at all times of the day.
 
 ==Shop==
 Unlocks when [[Sacred Sakura's Favor]] reaches level 50.
@@ -22,32 +22,37 @@ Unlocks when [[Sacred Sakura's Favor]] reaches level 50.
 {{Shop|Narukami's Wisdom|2|4|total=1|x=3}}
 {{Shop|Mask of the Wicked Lieutenant|2|4|total=1|x=3}}
 {{Shop|Mora|2|20|total=1|x=10,000}}
-{{Shop|Mora|1|∞|note=&#32;|x=3,000}}
-{{Shop/Footer|total=64}}
+{{Shop|Mora|1|inf=1|total=1|x=3,000}}
+{{Shop/Footer|total=64+}}
 
 ====Blueprints====
 {{Shop/Header|currency=Electro Sigil|total=1|vendor=Mikoshi Genichirou}}
-{{Shop|Otogi Wood Granary Cart|specific=Blueprint: Otogi Wood Granary Cart|5|1|total=1|blueprint=1}}
-{{Shop|Simple Otogi Workshop|specific=Blueprint: Simple Otogi Workshop|5|1|total=1|blueprint=1}}
-{{Shop|Camp Bonfire: Glorious Clarity|specific=Blueprint: Camp Bonfire: Glorious Clarity|5|1|total=1|blueprint=1}}
-{{Shop|Camp Barricade: Taking Sides|specific=Blueprint: Camp Barricade: Taking Sides|5|1|total=1|blueprint=1}}
-{{Shop|Scarlet Torii Gate: Way of Restoration|specific=Blueprint: Scarlet Torii Gate: Way of Restoration|10|1|total=1|blueprint=1}}
-{{Shop|Maple Wood Tanuki|specific=Blueprint: Maple Wood Tanuki|10|1|total=1|blueprint=1}}
-{{Shop|Maple Wood White Kitsune|specific=Blueprint: Maple Wood White Kitsune|10|1|total=1|blueprint=1}}
-{{Shop|Shrine Statue: "Seirai Ward"|specific=Blueprint: Shrine Statue: "Seirai Ward"|10|1|total=1|blueprint=1}}
-{{Shop|The Bamboo's Call|specific=Blueprint: The Bamboo's Call|10|1|total=1|blueprint=1}}
-{{Shop|Ancestral Sword Rack: Iron Sharpens Iron|specific=Blueprint: Ancestral Sword Rack: Iron Sharpens Iron|20|1|total=1|blueprint=1}}
+{{Shop|Otogi Wood Granary Cart|5|1|total=1|blueprint=1}}
+{{Shop|Simple Otogi Workshop|5|1|total=1|blueprint=1}}
+{{Shop|Camp Bonfire: Glorious Clarity|5|1|total=1|blueprint=1}}
+{{Shop|Camp Barricade: Taking Sides|5|1|total=1|blueprint=1}}
+{{Shop|Scarlet Torii Gate: Way of Restoration|10|1|total=1|blueprint=1}}
+{{Shop|Maple Wood Tanuki|10|1|total=1|blueprint=1}}
+{{Shop|Maple Wood White Kitsune|10|1|total=1|blueprint=1}}
+{{Shop|Shrine Statue: "Seirai Ward"|10|1|total=1|blueprint=1}}
+{{Shop|The Bamboo's Call|10|1|total=1|blueprint=1}}
+{{Shop|Ancestral Sword Rack: Iron Sharpens Iron|20|1|total=1|blueprint=1}}
 {{Shop/Footer|total=90}}
 <!-- Do not remove the header "Blueprints". This section is transcluded on the Blueprints page. -->
+===Special Goods===
+{{Shop/Header|total=1|vendor=Mikoshi Genichirou}}
+{{Shop|Festive Drum|150,000|1|total=1}}
+{{Shop/Footer|total=150,000}}
+
 ==Location==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 NPC Location Mikoshi Genichirou.png|Mikoshi Genichirou's location
 NPC Location Mikoshi Genichirou Context.png|Additional context
 </gallery>
 
 ==Profile==
 <!-- detailed story/lore information goes here -->
-Genichirou is a member of the [[Mikoshi Clan]], a clan with [[oni]] heritage, and the older brother of [[Mikoshi Genjirou]]. Considered to be dull, simple and sluggish by those familiar with him, he chose to open up Netsuke no Gen Crafts to help his neighbors out with his handiwork. By the time the [[Traveler]] arrived, his store had just run out of stock for the time being.
+Genichirou is a member of the [[Mikoshi Clan]], a clan with [[oni]] heritage, and the older brother of [[Mikoshi Genjirou]]. Considered to be dull, simple and sluggish by those familiar with him, he chose to open up Netsuke no Gen Crafts to help his neighbors out with his handiwork. By the time the [[Traveler]] arrived, his store had just run out of stock for the time being. Part of the reason for this is likely because Netsuke no Gen Crafts does not have much storage space, which results in frequent supply shortages.<ref>{{Ref/Furnishing|Inazuman Store: Numberless Gems}}</ref>
 
 ===Personality===
 ''(To be added.)''
@@ -56,11 +61,13 @@ Genichirou is a member of the [[Mikoshi Clan]], a clan with [[oni]] heritage, an
 ''(To be added.)''
 
 ==Quests and Events==
-{{Quest Appearances}}
+{{Quests and Events}}
 
 ==Idle Quotes==
-* "Netsuke no Gen Crafts..."
-** {{A|VO Mikoshi Genichirou 01.ogg}} "Welcome to Netsuke no Gen Crafts. We can make things other than sculptures as well." ''(Voice-Over)''
+{{Dialogue start}}
+: {{DIcon|Idle}} Netsuke no Gen Crafts...
+:: {{A|VO Mikoshi Genichirou 01.ogg}} "Welcome to Netsuke no Gen Crafts. We can make things other than sculptures as well."
+{{Dialogue end}}
 
 ==Dialogue==
 {{Dialogue start}}
@@ -72,6 +79,15 @@ Genichirou is a member of the [[Mikoshi Clan]], a clan with [[oni]] heritage, an
 :{{DIcon|Souvenir}} I'd like to get some souvenirs. ''<small>(After reaching Sakura Level 50)</small>''
 ::'''Mikoshi Genichirou:''' Be my guest. Just let me know when you see something you like.
 :;(Opens [[Souvenir Shop]])
+:{{DIcon|Special Souvenir}} Do you have any special goods here?
+::'''Mikoshi Genichirou:''' I do have some consignments that I was given. Will they be to your liking, I wonder?
+:;(Opens the shop menu)
+:{{DIcon|TCG}} Adventure Challenge
+:;(Opens [[Genius Invokation TCG/Stage/Mikoshi Genichirou/Dendrobium Falling|Genius Invokation TCG match interface]])
+:;(If the player loses the match)
+:::'''Mikoshi Genichirou:''' It looks like you missed a few details...
+:;(If the player wins the match)
+:::'''Mikoshi Genichirou:''' Haha, impressive. I didn't expect you to be so adaptable..
 :{{DIcon}} Tell me about your store...
 ::'''Mikoshi Genichirou:''' You mean where the name of this store came from?
 ::'''Mikoshi Genichirou:''' Haha, I see you're not from Inazuma.
@@ -88,10 +104,11 @@ Genichirou is a member of the [[Mikoshi Clan]], a clan with [[oni]] heritage, an
 {{Dialogue end}}
 
 ==Trivia==
-* The description of the Furnishing item "[[Inazuman Store: Numberless Gems]]" mentions Mikoshi Genichirou and his store. It also possibly explains his empty shop: from time to time the supply cannot meet demand because of the store's need to constantly restock, as caused by lack of storage space.
+* {{Character Furnishing Mentions}}
 
 ==Other Languages==
-{{Other Languages|default_hidden = 1
+{{Other Languages
+|default_hidden = 1
 |en      = Mikoshi Genichirou
 |zhs     = 御舆源一郎
 |zhs_rm  = Yùyú Yuányīláng
@@ -109,12 +126,16 @@ Genichirou is a member of the [[Mikoshi Clan]], a clan with [[oni]] heritage, an
 |de      = Mikoshi Genichirou
 |id      = Mikoshi Genichirou
 |pt      = Mikoshi Genichirou
+|tr      = Mikoshi Genichirou
+|it      = Mikoshi Genichirou
 }}
 
 ==Change History==
 {{Change History|2.0}}
-<!--
-==References==
-{{Reflist}}-->
 
+==References==
+{{Reflist}}
+
+[[es:Mikoshi Genichirou]]
+[[ja:御輿源一郎]]
 [[pt-br:Mikoshi Genichirou]]

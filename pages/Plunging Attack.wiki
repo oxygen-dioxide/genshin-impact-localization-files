@@ -4,6 +4,12 @@
 }}</noinclude>
 '''Plunging Attacks''' are performed by pressing the [[Normal Attack]] button while airborne. A standard jump on a generally flat surface does not usually give enough altitude to perform a plunging attack, so additional height is needed to achieve this.
 
+==Types of Plunging Attack DMG==
+Plunging Attacks can deal DMG in three different ways:
+* '''Plunge DMG:''' Dealt once every 0.3s while falling mid-air in a 1m radius around the character.
+* '''Low Plunge DMG:''' Dealt when the character lands after plunging from heights lower than or equal to 2.4m.
+* '''High Plunge DMG:''' Dealt when the character lands after plunging from heights greater than 2.4m. Deals greater DMG, [[Poise DMG]], and [[knockback]] than Low Plunge.
+
 ==Plunging Height==
 {{See also|Area of Effect|Measurement}}
 Certain characters' [[Elemental Skill]]s or [[Elemental Burst]]s can give players the height needed to perform plunging attacks. Note that ''heights are approximate'' and are measured in [[meter]]s. Jump heights are measured from the ground to the character's feet when at max height.
@@ -54,16 +60,6 @@ Characters do not need [[stamina]] to perform a plunging attack while in the air
 
 Still, characters cannot perform plunging attacks if they transition to a free fall by running out of stamina while climbing or being interrupted while in the air (such as being hit by attacks).
 
-==Types of Plunges==
-There are different types for plunging attack; normal (labeled as Plunge DMG), Low, and High Plunge. Each gives different multipliers.
-* The regular plunge's attack power is comparable to the standard consecutive strikes in Normal Attack. It is achieved when the character plunges right on top of the enemy, which also causes a second instance of damage as either Low or High Plunge damage.
-* Low Plunge is two times more potent than the normal one. Any plunging attack done little above the ground is considered a Low Plunge, these can be achieved through natural reliefs, ramps and similar.
-* High Plunge is around 20% stronger than the Low. They can be achieved by plunging from greater heights. Xiao's Elemental Burst and Kazuha's Elemental Skill are examples of abilities that allow the player to reach heights suitable for High Plunges.
-** Moreover, any melee weapon (sword, claymore, polearm) plunging attack can break Geo shields, [[Geo Constructs]], and ores faster upon impact.
-** When the character is 2.4&nbsp;[[meter]]s above ground, they will perform a High Plunge.<ref>Community Article, Interruption Resistance: [[Interruption Resistance/Data|Data]]</ref>
-
-Plunging can also cause a certain amount of [[Poise]] damage, capable of stunning and staggering enemies.
-
 ==Plunging Attack Modification==
 ===Talents===
 These are talents that grant additional effects to plunges (besides [[Elemental Infusion]]s, which also infuse plunging attacks). Note that Xiao not taking fall damage from Plunging is part of his Normal Attack [[Whirlwind Thrust]].
@@ -76,23 +72,23 @@ These are constellations that grant additional special abilities to plunges.
 ==Plunging Attack Damage Increase==
 ===Talents===
 ====Percentage====
-{{Talents by Category Table|Plunging Attack DMG Increase Talents&Percentage DMG Increase Talents}}
+{{Talents by Category Table|Plunging Attack DMG Increase Talents&DMG Bonus Talents}}
 
 ====Flat====
-{{Talents by Category Table|Plunging Attack DMG Increase Talents&Flat DMG Increase Talents}}
+{{Talents by Category Table|Plunging Attack DMG Increase Talents&Additive Base DMG Bonus Talents}}
 <!--
 ====Multiplicative====
-{{Talents by Category Table|Plunging Attack DMG Increase Talents&Multiplicative DMG Increase Talents}}-->
+{{Talents by Category Table|Plunging Attack DMG Increase Talents&Base DMG Multiplier Talents}}-->
 
 ===Constellations===
 ====Percentage====
-{{Constellations by Category Table|Plunging Attack DMG Increase Constellations&Percentage DMG Increase Constellations}}
+{{Constellations by Category Table|Plunging Attack DMG Increase Constellations&DMG Bonus Constellations}}
 <!--
 ====Flat====
-{{Constellations by Category Table|Plunging Attack DMG Increase Constellations&Flat DMG Increase Constellations}}
+{{Constellations by Category Table|Plunging Attack DMG Increase Constellations&Additive Base DMG Bonus Constellations}}
 
 ====Multiplicative====
-{{Constellations by Category Table|Plunging Attack DMG Increase Constellations&Multiplicative DMG Increase Constellations}}-->
+{{Constellations by Category Table|Plunging Attack DMG Increase Constellations&Base DMG Multiplier Constellations}}-->
 
 ===Weapons===
 These weapons can modify Plunging Attack damage specifically. For weapons that boost all DMG in general, see [[Damage Bonus]].
@@ -144,7 +140,7 @@ The following table documents the [[AoE]], [[poise]] damage, and [[impulse]] of 
 |Plunging Attacks (High Impact) || 150 || 7
 |5
 |-
-| rowspan="3" | Xiao (with burst)<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Xiao.json Xiao]</ref> || Plunging Attacks (Mid-Air) || 37.5 || 2
+| rowspan="3" | Xiao (with burst) || Plunging Attacks (Mid-Air) || 37.5 || 2
 |1
 |-
 |Plunging Attacks (Low Impact) || 150 || 4
@@ -200,14 +196,14 @@ The following table documents the [[AoE]], [[poise]] damage, and [[impulse]] of 
 |ko_rm   = Nakha Gonggyeok
 |ko_tl   = Falling Attack
 |es      = Ataque Descendente
-|es_tl   = 
+|es_tl   = Descending Attack
 |fr      = Attaque plongeante
 |fr_tl   = Plunging Attack
 |ru      = Атака в падении
-|ru_tl   = 
+|ru_tl   = Attack in Fall
 |th      = การโจมตีพุ่งลงจากอากาศ
 |th_rm   = Kan Chomti Phung Long Chak Akat
-|th_tl   = 
+|th_tl   = Rush Down From Sky Attack
 |vi      = Tấn công khi đáp
 |vi_tl   = Attack when landing
 |de      = Angriff aus dem Fall
@@ -215,6 +211,10 @@ The following table documents the [[AoE]], [[poise]] damage, and [[impulse]] of 
 |id      = Plunging Attack
 |pt      = Ataque Imersivo
 |pt_tl   = 
+|tr      = Havadan Saldırı
+|tr_tl   = 
+|it      = Attacco in picchiata
+|it_tl   = Plunging Attack
 }}
 
 ==Change History==
@@ -227,3 +227,5 @@ The following table documents the [[AoE]], [[poise]] damage, and [[impulse]] of 
 {{Talent Type Navbox}}
 
 [[Category:Combat Talents]]
+
+[[ja:落下攻撃]]

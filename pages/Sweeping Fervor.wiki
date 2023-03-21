@@ -2,13 +2,7 @@
 |image         = Talent Sweeping Fervor.png
 |character     = Xinyan
 |type          = Elemental Skill
-|info          = Xinyan brandishes her instrument, dealing {{Color|Pyro DMG}} on nearby opponents, forming a shield made out of her audience's passion.<br />The shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.<br />
-* Hitting 0 – 1 opponents grants Shield Level 1: Ad Lib.
-* Hitting 2 opponents grants Shield Level 2: Lead-In.
-* Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent {{Color|Pyro DMG}} to nearby opponents.
-The shield has the following special properties:<br />
-* When unleashed, it infuses Xinyan with {{Pyro}}.
-* It has 250% DMG Absorption effectiveness against {{Color|Pyro DMG}}.
+|info          = Xinyan brandishes her instrument, dealing {{Color|Pyro DMG}} on nearby opponents, forming a shield made out of her audience's passion.<br />The shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.<ul><li>Hitting 0 – 1 opponents grants Shield Level 1: Ad Lib.</li><li>Hitting 2 opponents grants Shield Level 2: Lead-In.</li><li>Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent {{Color|Pyro DMG}} to nearby opponents.</li></ul><br />The shield has the following special properties:<ul><li>When unleashed, it infuses Xinyan with {{Pyro}}.</li><li>It has 250% DMG Absorption effectiveness against {{Color|Pyro DMG}}.</li></ul>
 |scale_att1    = DEF
 |scale_att2    = ATK
 |utility1      = Shield
@@ -32,10 +26,11 @@ The shield has the following special properties:<br />
 
 ==Gameplay Notes==
 * {{TalentNote|particles|initial swing|4}}
-* {{TalentNote|icd|All DMG dealt by this skill|0|plural=1}}
 * The damage-over-time (DoT) effect on the Shield ticks every 2 seconds. If the shield lasts 12 seconds, this will deal damage 6 times.
 ** If the shield is broken by enemy damage, the DoT effect will also end.
 * Xinyan will briefly gain the {{Pyro}} status upon casting this skill. While the shield is active, it will also apply {{Pyro}} briefly to any character that takes the field.
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Xinyan|talent=Sweeping Fervor|ascension|1|"The Show Goes On, Even Without An Audience..."|decreases the number of enemies that Sweeping Fervor must hit to activate Shield Level 2: Lead-In and Shield Level 3: Rave to 1 enemy and 2 enemies, respectively.}}
 * {{TalentNote|character=Xinyan|talent=Sweeping Fervor|ascension|2|"...Now That's Rock 'N' Roll!"}}
 
@@ -43,6 +38,28 @@ The shield has the following special properties:<br />
 * {{TalentNote|constellation|2|Impromptu Opening}}
 * {{TalentNote|constellation|3|Double-Stop}}
 * {{TalentNote|constellation|4|Wildfire Rhythm}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Swing DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 200
+|impulse = 4
+|blunt   = 1
+
+|title2   = DoT
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 50
+|impulse2 = 2
+
+|title3   = Pyro to Self
+|gu3      = 1U, 1s
+|icdtag3  = none
+|poise3   = —
+|impulse3 = —
+}}
 
 ==Preview==
 {{Preview
@@ -165,7 +182,7 @@ The shield has the following special properties:<br />
 |fr      = Jeu fervent
 |fr_tl   = Fervent Play
 |ru      = Решительный жар
-|ru_tl   = 
+|ru_tl   = Resolute Heat
 |th      = Sweeping Fervor
 |vi      = Khuấy Động Nhiệt Huyết
 |vi_tl   = 
@@ -174,6 +191,10 @@ The shield has the following special properties:<br />
 |id      = Sweeping Fervor
 |pt      = Fervor Arrebatador
 |pt_tl   = 
+|tr      = Ver Coşkuyu
+|tr_tl   = 
+|it      = Esecuzione sfrenata
+|it_tl   = Unbridled Execution
 }}
 
 ==Change History==
@@ -183,5 +204,8 @@ The shield has the following special properties:<br />
 {{Talent Navbox|Xinyan}}
 
 [[es:Desenfreno]]
+[[fr:Jeu fervent]]
+[[ja:情熱の薙ぎ払い]]
 [[pt-br:Fervor Arrebatador]]
+[[ru:Решительный жар]]
 [[th:Sweeping Fervor]]

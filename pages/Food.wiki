@@ -5,15 +5,17 @@
 }}
 '''Food''' are [[Consumable]] items in ''[[Genshin Impact]]'' that can be crafted with [[Cooking]]. It is the fourth tab in the [[Inventory]].
 
-Food can be used to heal characters, revive characters, buff the player's character, or buff the entire party. When knocked out characters are revived, they will still have the same ongoing duration of food buffs as the rest of the other party members. Except for [[Apple]], [[Sunsettia]], and [[Starshroom]], all other food cannot be deleted from the inventory.
+Food can be used to heal characters, revive characters, buff the player's character, or buff the entire party.
+
+When knocked out characters are revived, they will still have the same ongoing duration of food buffs as the rest of the other party members. Except for [[Apple]], [[Sunsettia]], and [[Starshroom]], all other food cannot be deleted from the inventory.
 
 ==Quality==
 {{See also|Cooking}}
 Food items have 3 different types of quality, Suspicious, the regular version of the dish, and Delicious. Suspicious and Delicious variants of the dish have a 20% decrease/increase to the normal dish's stats respectively; the timer is consistent regardless of the food's quality.
 
-Dishes, when cooked, have a certain chance to be made as a Special Dish variant depending on the rarity and quality of the food when cooked with the relevant character. These special dishes provide either a higher bonus or additional effect over its Delicious variant, as well as a separate icon, name and description.
+Dishes, when cooked, have a certain chance to be made as a Special Dish variant depending on the quality and quality of the food when cooked with the relevant character. These special dishes provide either a higher bonus or additional effect over its Delicious variant, as well as a separate icon, name and description.
 {| class="fandom-table"
-! rowspan="2" | Rarity !! colspan="3" | Probability of Producing Special Dish
+! rowspan="2" | Quality !! colspan="3" | Probability of Producing Special Dish
 |-
 ! Suspicious !! Normal !! Delicious
 |-
@@ -35,12 +37,12 @@ When Fullness > 0, it will deplete over time at a rate of 0.3/s
 
 When Fullness reaches 100, the Full State will be applied to the character for 30 seconds, which halts the over time depletion of Fullness until it ends.
 
-Fullness increase from a single Recovery Dish item is calculated as:
+Fullness is reset to 0 when a character is revived.
 
-<math>\text{Fullness Increase} = \text{Fullness Parameter A} + \frac{\text{Fullness Parameter B}}{\text{Character Max HP}}</math>
+Fullness increase from a single Recovery Dish item is calculated as <math>\text{Parameter A} + \frac{\text{Parameter B}}{\text{Character Max HP}}</math>.
 
 {| class="fandom-table sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
-! Rarity !! Utility !! Quality !! Parameter A !! Parameter B
+! Quality !! Utility !! Quality !! Parameter A !! Parameter B
 |-
 | 0-Star || colspan="2" | Apple/Sunsettia/Starshroom || 5 || 15,000
 |-
@@ -104,10 +106,11 @@ Eating foods with positive benefits other than health gain can increase stats li
 * Foods that affect [[Sheer Cold]] accumulation form a fifth group.
 * When the player logs out, the duration of food/potion effects are frozen. It is not known if they will still tick when the game client is still running but not connected to the server.
 * Flat Attack foods (like +100 Attack) are not modified by ATK% stats from equipment.
+*Healing from multiple continuous healing foods does not stack.
 * (As of [[Version 1.4]]) The numerical values currently active, nor their remaining time are not shown in any menu. The stamina reduction boosts are not shown in stats when active either.
 
 ==Cooldown==
-Some foods have a cooldown period after usage. Stamina refill foods have a 300-second cooldown, and Revival foods have a 120-second cooldown on usage.
+Some foods have a cooldown period after usage. Stamina refill foods have a 300-second cooldown, and Revival foods have a 120-second cooldown on usage. Unlike most other items with a cooldown on usage, the cooldown timer for food does not count down if gameplay is paused (ie. opening the Inventory menu).
 
 ==List of Food Items==
 Food is sorted into various types, indicated by an icon when seen in the backpack. Food items of the same type do not stack when used (any consumed food will simply overwrite any pre-existing in the same category, regardless of buff strength or star rank), and only three types of Food buffs can be active at once. Regenerative buffs do not fall under the three food buff categories, and the effects may exist alongside the other food buffs.
@@ -121,7 +124,7 @@ Food is sorted into various types, indicated by an icon when seen in the backpac
 |notcategory = Upcoming Content
 |resultsheader= There are '''%PAGES%''' Food that are not Special Dishes (inclusive of Apple, Sunsettia, and Starshroom):\n
 |include = {Food Infobox¦Phantom Infobox Food},{Recipe¦Phantom Recipe Food}
-|table = class="article-table sortable",-,Icon,Name,Rarity,Type,Effect,Has Recipe
+|table = class="article-table sortable alternating-colors-table",-,Icon,Name,Quality,Type,Effect,Has Recipe
 |secseparators =\n
 |noresultsfooter = No Results
 |allowcachedresults = true
@@ -129,6 +132,7 @@ Food is sorted into various types, indicated by an icon when seen in the backpac
 }}
 
 ===List of Special Dishes===
+{{Main|Special Dish}}
 Dishes that have a chance to be cooked if a specific character cooks them. Compared to the dishes they are based off on, they offer superior benefits (more HP/Stamina recovered, more potent buffs, longer duration etc.).
 {{#DPL:
 |namespace =
@@ -136,7 +140,7 @@ Dishes that have a chance to be cooked if a specific character cooks them. Compa
 |category = Special Dishes
 |notcategory = Upcoming Content
 |include = {Food Infobox¦Phantom Infobox Food},{Food Infobox¦Phantom Character}
-|table = class="article-table sortable",-,Icon,Name,Rarity,Type,Effect,Character
+|table = class="article-table sortable alternating-colors-table",-,Icon,Name,Quality,Type,Effect,Character
 |secseparators = \n
 |resultsheader = There are '''%PAGES%''' [[Special Dish]]es:\n
 |noresultsfooter = \nNo Results
@@ -152,13 +156,19 @@ Dishes that are only available during certain [[Events]].
 |category = Event-Exclusive Dishes
 |notcategory = Upcoming Content
 |include = {Food Infobox¦Phantom Infobox Food},{Recipe¦Phantom Recipe Food},{Food Infobox¦Phantom Event}
-|table = class="article-table sortable",-,Icon,Name,Rarity,Type,Effect,Has Recipe,Event
+|table = class="article-table sortable alternating-colors-table",-,Icon,Name,Quality,Type,Effect,Has Recipe,Event
 |secseparators = \n
 |resultsheader = There are '''%PAGES%''' [[Event-Exclusive Dish]]es:\n
 |noresultsfooter = \nNo Results
 |allowcachedresults = true
 |tablesortcol=2
 }}
+
+==Trivia==
+* Some food with recipes that only come from one nation use ingredients that normally can only be obtained in other nations. These foods are:
+** {{Item|Crispy Potato Shrimp Platter}} (recipe only obtainable from Mondstadt, {{Item|Shrimp Meat}} unobtainable from Mondstadt)
+** {{Item|Rainbow Aster}} (recipe only obtainable from an event in Inazuma, {{Item|Calla Lily}} unobtainable from Inazuma)
+** {{Item|Candied Ajilenakh Nut}} (recipe only obtainable from Sumeru, {{Item|Almond}} unobtainable from Sumeru)
 
 ==Change History==
 {{Change History|1.0}}
@@ -171,9 +181,15 @@ Dishes that are only available during certain [[Events]].
 {{Genshin Navbox}}
 [[Category:Food| ]]
 
+[[de:Nahrung]]
 [[es:Comidas]]
+[[fr:Nourriture]]
+[[ja:食べ物]]
 [[pl:Jedzenie]]
 [[pt-br:Alimentos]]
 [[ru:Еда]]
-[[vi:Thực Phẩm]]
+[[th:อาหาร]]
+[[tr:Yiyecek]]
 [[uk:Їжа]]
+[[vi:Thực Phẩm]]
+[[zh:食物]]

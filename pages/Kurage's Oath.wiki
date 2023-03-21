@@ -12,7 +12,7 @@
 |value2        = 109.2% – 232.0%
 |utility1      = Healing
 |utility2      = Wet Status to Self
-|scale_att1    = HP
+|scale_att1    = Max HP
 |scale_att2    = ATK
 }}
 {{Description|Kokomi needs timely "refreshment" in order to maintain optimal work efficiency.}}
@@ -21,14 +21,36 @@
 ==Gameplay Notes==
 * {{TalentNote|particles|each of the first 6 hits|{{Not a typo|0.67}}}}
 ** Generate on average 0.67 × 6 = '''{{Not a typo|4.02}}''' elemental particles if all ticks hit an enemy.
-* {{TalentNote|icd|Ripple DMG|0}}
 * The Bake-Kurage ticks every 2 seconds, for a total of '''7''' times before its 12s duration ends. (including the initial hit)
 * Only one Bake-Kurage can exist at a time
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Sangonomiya Kokomi|talent=Kurage's Oath|ascension|1|Tamanooya's Casket}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|2|The Clouds Like Waves Rippling|Increases the healing that nearby party members under 50% HP receive from the Bake-Kurage.}}
 * {{TalentNote|constellation|5|All Streams Flow to the Sea}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Ripple DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 50
+|impulse = 1
+
+|title2   = Ripple DMG (During Burst)
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 100
+|impulse2 = 1
+
+|title3   = Wet to Self
+|gu3      = 1U, 0.2s
+|icdtag3  = none
+|poise3   = —
+|impulse3 = —
+}}
 
 ==Preview==
 {{Preview
@@ -104,12 +126,16 @@
 |ru_tl   = Kurage's Oath
 |th      = Kurage's Oath
 |vi      = Lời Thề Ánh Trăng Biển
-|vi_tl   = 
+|vi_tl   = Oath of the Sea's Moonlight
 |de      = Eid des Kurage
 |de_tl   = Kurage's Oath
 |id      = Kurage's Oath
 |pt      = Juramento de Kurage
 |pt_tl   = Kurage's Oath
+|tr      = Kurage Yemini
+|tr_tl   = 
+|it      = Giuramento di Kurage
+|it_tl   = Kurage's Oath
 }}
 
 ==Change History==
@@ -118,5 +144,8 @@
 ==Navigation==
 {{Talent Navbox|Sangonomiya Kokomi}}
 
+[[es:Juramento de la medusa]]
+[[fr:Serment de Kurage]]
 [[pt-br:Juramento de Kurage]]
+[[ru:Клятва курагэ]]
 [[th:Kurage's Oath]]

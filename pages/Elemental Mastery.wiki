@@ -12,20 +12,21 @@ For [[Overloaded]], [[Superconduct]], [[Electro-Charged]], [[Burning]], [[Shatte
 Elemental Mastery can be increased by equipping [[artifacts]] or [[weapons]] that provide a bonus to Elemental Mastery. Additionally, some characters, such as [[Lisa]], gain Elemental Mastery by raising their character level. Other characters, such as [[Sucrose]], can boost their party's Elemental Mastery by triggering their ascension passives.
 
 ==Elemental Mastery Formula==
-{{See also|Damage#Elemental Reaction Damage}}
 The higher a character's elemental mastery, the stronger the elemental reactions the character can release.
 The <math>\% \text{EM Bonus}</math> is calculated depending on the reaction:
-*Increases damage of [[Vaporize]] and [[Melt]] by '''X %'''.
-*Increases damage of [[Overloaded]], [[Superconduct]], [[Electro-Charged]], [[Shattered]], and [[Swirl]] by '''Y %'''.
-*Increases damage absorption of shields created by [[Crystallize]] by '''Z %'''.
-*Where '''X''', '''Y''', and '''Z''' are:<ref>NGA: [https://bbs.nga.cn/read.php?tid=23715498 1053EM Testing]</ref><ref>NGA: [https://bbs.nga.cn/read.php?tid=23633102 <nowiki>[心得交流]</nowiki> 伤害加成公式以及类型汇总(攻速有待测试)(更新1.6精通公式)] (use Ctrl+F to search "元素精通" for fast positioning)</ref><ref>KeqingMains Theorycrafting Library: [https://library.keqingmains.com/mechanics/combat/elemental-reactions/transformative-reactions Transformative Reactions]</ref>
+*Increases damage of [[Vaporize]] and [[Melt]] by '''X'''.
+*Increases damage of [[Overloaded]], [[Superconduct]], [[Electro-Charged]], [[Burning]], [[Shattered]], [[Swirl]], [[Bloom]], [[Hyperbloom]], and [[Burgeon]] by '''Y'''.
+*Increases the DMG Bonus provided by [[Aggravate]] and [[Spread]] by '''Z'''.
+*Increases damage absorption of shields created by [[Crystallize]] by '''W'''.
+*Where '''X''', '''Y''', '''Z''', and '''W''' are:<ref>NGA: [https://bbs.nga.cn/read.php?tid=23715498 1053EM Testing]</ref><ref>NGA: [https://bbs.nga.cn/read.php?tid=23633102 <nowiki>[心得交流]</nowiki> 伤害加成公式以及类型汇总(攻速有待测试)(更新1.6精通公式)] (use Ctrl+F to search "元素精通" for fast positioning)</ref><ref>KeqingMains Theorycrafting Library: [https://library.keqingmains.com/combat-mechanics/elemental-effects/transformative-reactions Transformative Reactions]</ref>
 
-:<math>X = 2.78 \times \frac{\text{EM}}{\text{EM}+1400} </math>
-:<math>Y = 1600 \times \frac{\text{EM}}{\text{EM}+2000} </math>
-:<math>Z = 444 \times \frac{\text{EM}}{\text{EM}+1400} </math>
+:<math>X = 2.78 \times \frac{\text{EM}}{\text{EM} + 1400} \times 100 \%</math>
+:<math>Y = 16 \times \frac{\text{EM}}{\text{EM} + 2000} \times 100 \%</math>
+:<math>Z = 5 \times \frac{\text{EM}}{\text{EM} + 1200} \times 100 \%</math>
+:<math>W = 4.44 \times \frac{\text{EM}}{\text{EM} + 1400} \times 100 \%</math>
 
 These values are used in damage or shield health calculations as:
-:<math>\text{Reaction Multiplier} = (1 + \% \text{ EM Bonus} + \% \text{ Reaction Bonus})</math>
+:<math>\text{Reaction Multiplier} = (1 + \% \text{EM Bonus} + \% \text{Reaction Bonus})</math>
 
 ==Character Ascensions==
 {{Characters by Ascension Stat Table|Elemental Mastery}}
@@ -33,6 +34,9 @@ These values are used in damage or shield health calculations as:
 Starting from Ascension 2, for 5 star characters 28.8 EM is gained per Ascension whereas for 4 star characters 24 EM is gained per Ascension.
 
 ==Increasing Elemental Mastery==
+===Talents===
+{{Talents by Category Table|Elemental Mastery Talents}}
+
 ===Artifacts===
 {{Artifacts by Category Table|Elemental Mastery Artifacts}}
 
@@ -87,7 +91,7 @@ The following weapons have Elemental Mastery as a part of their passive effect.
 |fr       = Maîtrise élémentaire
 |fr_tl    = Elemental Mastery
 |ru       = Мастерство стихий
-|ru_tl    = 
+|ru_tl    = Mastery of Elements
 |th       = ความชำนาญธาตุ
 |th_rm    = Khwam Chamnan Thatu
 |th_tl    = Elemental Mastery
@@ -98,6 +102,10 @@ The following weapons have Elemental Mastery as a part of their passive effect.
 |id       = Elemental Mastery
 |pt       = Proficiência Elemental
 |pt_tl    = Elemental Proficiency
+|tr       = Element Ustalığı
+|tr_tl    = 
+|it       = Maestria elementale
+|it_tl    = 
 }}
 
 ==Change History==
@@ -112,5 +120,7 @@ The following weapons have Elemental Mastery as a part of their passive effect.
 {{Attribute Navbox}}
 
 [[es:Maestría Elemental]]
+[[ja:元素熟知]]
 [[pt-br:Proficiência Elemental]]
+[[th:ความชำนาญธาตุ]]
 [[uk:Майстерність стихій]]

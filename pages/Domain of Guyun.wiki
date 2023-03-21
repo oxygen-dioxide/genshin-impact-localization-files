@@ -9,6 +9,7 @@
 |recLevel     = 34/47/&#8203;59/69/80/90
 |recElements  = Electro
 }}
+{{Description|This ancient blessed altar is filled with monsters that fear the power of Electro.<br />You shall earn priceless Artifacts, if — and only if — you can pass the trial.}}
 '''Domain of Guyun''' is a [[Domain]] located on the largest island in [[Guyun Stone Forest]]. Clearing this domain gives [[Artifacts]]. Challenge domains with higher levels to get better rewards.
 
 ==Ley Line Disorder==
@@ -46,7 +47,7 @@ The following Ley Line Disorders are applied in this domain:
 
 ===Damage===
 {{See also|Level Scaling/Reaction#Level Multiplier}}
-The {{Color|Physical DMG}} dealt by Energy Blasts and powerful blasts is calculated as <math>4 \times \text{Element Level Multiplier}</math>. This DMG is affected by the target [[Physical RES]], but unaffected by [[DEF]]. The final result is rounded down.
+The {{Color|Physical DMG}} dealt by Energy Blasts and powerful blasts is calculated as <math>4 \times \text{Level Multiplier}</math>. This DMG is affected by the target [[Physical RES]], but unaffected by [[DEF]]. The final result is rounded down.
 
 {| class="wikitable" style="text-align: center;"
 ! Level !! Base Damage
@@ -84,46 +85,32 @@ Each level in this domain has the following Challenge Features:
 
 ==Enemies==
 {{Domain Enemies
-|header=Domain of Guyun I
-|objective=Defeat 28 enemies while protecting [[Domain Monolith]]
-|enemies=Hydro Slime*21,Large Hydro Slime*6,Hydro Abyss Mage
-}}
-{{Domain Enemies
-|header=Domain of Guyun II
-|objective=Defeat 22 enemies while protecting Domain Monolith
-|enemies=Pyro Slime*16,Large Pyro Slime*5,Pyro Abyss Mage
-}}
-{{Domain Enemies
-|header=Domain of Guyun III
-|objective=Defeat 20 enemies while protecting Domain Monolith
-|enemies=Cryo Slime*15,Large Cryo Slime*4,Cryo Abyss Mage
-}}
-{{Domain Enemies
-|header=Domain of Guyun IV
-|objective=Defeat 20 enemies while protecting Domain Monolith
-|enemies=Hydro Slime*5,Large Hydro Slime*6,Hilichurl*6,Hydro Samachurl*2,Hydro Abyss Mage
-}}
-{{Domain Enemies
-|header=Domain of Guyun V
-|objective=Defeat all enemies in less than 5:00 minutes
-|subsubheader1=Wave 1
-|enemies1=Pyro Abyss Mage
-|subsubheader2=Wave 2
-|enemies2=Ruin Guard*2
-}}
+|target1=Defeat 28 enemies while protecting [[Domain Monolith]]
+|enemies1=Hydro Slime*21;Large Hydro Slime*6;Hydro Abyss Mage
+
+|target2=Defeat 22 enemies while protecting Domain Monolith
+|enemies2=Pyro Slime*16;Large Pyro Slime*5;Pyro Abyss Mage
+
+|target3=Defeat 20 enemies while protecting Domain Monolith
+|enemies3=Cryo Slime*15;Large Cryo Slime*4;Cryo Abyss Mage
+
+|target4=Defeat 20 enemies while protecting Domain Monolith
+|enemies4=Hydro Slime*5;Large Hydro Slime*6;Hilichurl*6;Hydro Samachurl*2;Hydro Abyss Mage
+
+|target5=Defeat all enemies in less than 5:00 minutes
+|enemies5=Pyro Abyss Mage//Ruin Guard*2
+|note5=<br />
 *There is a {{Pyro}} Elemental Node in the center that will periodically imbue enemies with Pyro, applying a massive resistance and attack buff until the Pyro status is removed.
-{{Domain Enemies
-|header=Domain of Guyun VI
-|objective=Defeat all enemies in less than 7:00 minutes
-|subsubheader1=Wave 1
-|enemies1=Ruin Hunter,Hilichurl*2
-|subsubheader2=Wave 2
-|enemies2=Cryo Abyss Mage*2
-}}
+
+|target6=Defeat all enemies in less than 7:00 minutes
+|enemies6=Ruin Hunter;Hilichurl*2//Cryo Abyss Mage*2
+|note6=<br />
 *There is a {{Cryo}} Elemental Node in the center that will periodically imbue enemies with Cryo, applying a massive resistance and defense buff until the Cryo status is removed.
+}}
 
 ==Trivia==
-* The level names for this domain are all 'Spring' for which the reasoning is unclear. The Ley Line Disorder gives advantage to Electro reactions, so following the pattern there should be a connection there.
+===Etymology===
+* The domains are named "Spring," which in the original Chinese text is {{Lang|{{w|Jingzhe}}|zh=惊蛰|rm=Jīngzhé}}, or the period when nature reawakens after winter ends. In traditional Chinese folklore, it is believed that thunderstorms will awaken hibernating insects &mdash; hence why the Ley Line Disorder favors the [[Superconduct]] reaction.
 
 ==Other Languages==
 {{Other Languages
@@ -144,7 +131,7 @@ Each level in this domain has the following Challenge Features:
 |fr      = Au-dessus des nuages
 |fr_tl   = Above the Clouds
 |ru      = Владения Гуюнь
-|ru_tl   = 
+|ru_tl   = Domains of Guyun
 |th      = ดันเจี้ยนแห่ง Guyun
 |th_rm   = 
 |th_tl   = Dungeon of Guyun
@@ -155,6 +142,10 @@ Each level in this domain has the following Challenge Features:
 |id      = Domain of Guyun
 |pt      = Domínio de Guyun
 |pt_tl   = 
+|tr      = Guyun Zindanı
+|tr_tl   = 
+|it      = Dominio di Guyun
+|it_tl   = 
 }}
 
 ==Change History==
@@ -164,3 +155,5 @@ Each level in this domain has the following Challenge Features:
 {{Domain Navbox|Permanent}}
 
 [[es:Dominio de Guyun]]
+[[ja:孤雲凌霄の処]]
+[[zh:孤雲凌霄之處]]

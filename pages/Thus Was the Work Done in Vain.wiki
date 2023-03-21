@@ -1,3 +1,4 @@
+{{Stub|1. missing potential dialogue if second secret chamber is entered BEFORE obtaining this quest (requires not obtaining the quest, as none of the enter-the-room-ahead-of-time dialogue is obtained if the quest is already obtained); see walkthroughs for location<br /><br />2. Does the line "Haha, to think that I'd find a Sweet Madame here &mdash; and still warm, too! It's practically a miracle." really exist in-game? If so, where? A regular editor and a couple of YouTube videos show that the line does not exist at the start of Wolfgang's final message even when a Delicious Sweet Madame is submitted.}}
 {{Quest Infobox
 |id            = 79013
 |image         = Event Quest Thus Was the Work Done in Vain.png
@@ -6,22 +7,23 @@
 |summary       = 
 |requirement   = 
 |characters    = Paimon; Traveler
-|startLocation = [[Minacious Isle]], [[Golden Apple Archipelago]]
-|region        = Golden Apple Archipelago
-|area          = Minacious Isle
+|startLocation = [[Minacious Isle/2.8|Minacious Isle]], [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]]
+|area          = Golden Apple Archipelago
+|subarea       = Minacious Isle
 |next          = 
 |exp           = 400
 |mora          = 30,000
 |primogems     = 50
 |other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}
 }}
-'''Thus Was the Work Done in Vain''' is an event [[World Quest]] in [[Golden Apple Archipelago]] during the [[Summertime Odyssey]] event.
+'''''Thus Was the Work Done in Vain''''' is an event [[World Quest]] in [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]] during the [[Summertime Odyssey]] event.
 
 ==Steps==
-* Start the quest by interacting with the Old Notes in the ruined tower on Present Day [[Minacious Isle]].
+* Start the quest by interacting with the Old Notes in the ruined tower on Present Day [[Minacious Isle/2.8|Minacious Isle]].
 # Go to the island within the lake to check the ruins of the past
 # Go to the place on the lake island where the notes were left
 # Find a way to open the secret chamber
+#* Use Elemental Sight to reveal the correct order
 # Talk to Paimon
 # Etch hints for Wolfgang
 # Return to the outside of the lake to check Wolfgang's notes
@@ -31,6 +33,7 @@
 # Talk to Paimon
 # Go to the place on the lake island where the notes were left
 # Find a way to escape the secret chamber
+#* Use Elemental Sight to reveal the correct order
 # Talk to Paimon
 # Look for a place to leave hints
 # Return to the outside of the lake to check Wolfgang's notes
@@ -48,8 +51,19 @@
 # Talk to Paimon
 
 ==Dialogue==
-{{Quest Description|By chance, you discover notes left by an adventurer who was left stranded by Minacious Isle's traps. However, all that seems to have happened well in the now-unchangeable past. Might there be some way to help him, even if only in a Mirage?}}
 {{Dialogue start}}
+;(Enter the first secret chamber before the quest starts)
+:'''Paimon:''' Uh oh, the door's closed. Why did it do that? ... This place is kinda dangerous...
+:'''Paimon:''' Let's look around, (Traveler). Maybe we can find some way to open the door!
+
+;(Enter the second secret chamber before the quest starts)
+:'''Paimon:''' {{tx}}
+
+;(If torches lit in the wrong order)
+:'''Paimon:''' The torches all went out. Do we need to light them in some specific order?
+:'''Paimon:''' Gah. If only there were some way to see what the order should be...
+
+{{Quest Description|By chance, you discover notes left by an adventurer who was left stranded by Minacious Isle's traps. However, all that seems to have happened well in the now-unchangeable past. Might there be some way to help him, even if only in a Mirage?}}
 ;(Interact with the Old Notes in present day Minacious Isle)
 ::'''Old Notes'''
 ::(An old notebook. Someone has written in it with neat handwriting.)
@@ -58,20 +72,20 @@
 ::Yeesh, but is that really something worth celebrating? Well, whatever. I suppose I should be pleased that someone has found my last words, so I'll just pretend that I'm the one being congratulated.
 ::To briefly summarize, I got trapped in this room when I was adventuring on this island. Try as I might, I couldn't find a way out.
 ::I ran out of food, and then I ran out of ideas. I'm about to be done for.
-::<br/>
+::<br />
 ::And that's when I thought of my dear sweet [[Linda (Thus Was the Work Done in Vain)|Linda]] in Mondstadt... Hah, as if! Agh, I never would have become an adventurer if I'd had a girlfriend.
 ::No, what I thought about was what my aunt said before I set off. She said I'd always been sickly, knew nothing of hard work, and was scatter-brained and gullible, and that sooner or later, I'd get myself into a pickle that I couldn't get out of.
 ::I was so mad then, but when I think back on it now, her voice was nasal, like she was forcing back tears... or maybe that was just from the cold she had caught the day before, hahaha.
-::<br/>
+::<br />
 ::...Is it too late to regret having become an adventurer now?
 ::At first, it was the thirst for adventure that made me take my first steps. But now, all these years later, I still haven't seen any amazing sights and I barely make enough Mora to make ends meet.
 ::That is to say, it was only after becoming an adventurer that I discovered that real life isn't anything like the exciting and glamorous life imagined by a layman.
 ::"There are no shortcuts in this life. Everyone will have some pains that are left unspoken of."
-::<br/>
+::<br />
 ::Speaking of regrets... there's really no point regretting things. Everyone, no matter which path they take in life, will have their own pain and obtain their own happiness because of it.
 ::You could say that I'm happy now... Actually, never mind. It's way too cold for me to be happy right now.
 ::Oof... Well, I think this is it. I'm starting to lose consciousness. Heh, I really wish I could eat some [[Sweet Madame]] from Mondstadt... Just let me have one Sweet Madame...
-::<br/>
+::<br />
 ::[[Wolfgang]]
 :'''Paimon:''' Hehe, Sweet Madame really is delicious.
 :'''Paimon:''' Paimon really gets why this Wolfgang guy misses it!
@@ -98,12 +112,13 @@
 ::'''Paimon:''' Yup, let's try to save this Wolfgang guy, shall we?
 :'''Paimon:''' Let's have a look at the island that's inside the lake.
 
-;(Enter the room with a gate in the past Minacious Isle)
-:'''Paimon:''' Ugh, that door closed just like that. Guess this is how that Wolfgang guy got trapped in here...
-:'''Paimon:''' Let's look around, (Traveler). Maybe we can find some way to open the door!
-;(If the player previously entered the room)
-:'''Paimon:''' So this is where we were locked up previously...
-:'''Paimon:''' Still remember how to open it?
+;(Enter the first secret chamber)
+:;(If this is the player's first time entering the room)
+::'''Paimon:''' Ugh, that door closed just like that. Guess this is how that Wolfgang guy got trapped in here...
+::'''Paimon:''' Let's look around, (Traveler). Maybe we can find some way to open the door!
+:;(If the player has previously entered the room)
+::'''Paimon:''' So this is where we were locked up previously...
+::'''Paimon:''' Still remember how to open it?
 
 ;(Unlock the gate)
 :'''Paimon:''' The door opened! Whew, that was kinda tricky.
@@ -119,10 +134,14 @@
 :'''Paimon:''' Let's leave a few words here, he should be able to see 'em!
 :'''Paimon:''' Let's go back to the island outside the lake. Maybe the notes might already be gone!
 
-;(Interact with the etchings)
+;(Interact with the etchings in the past)
 :'''Etchings:''' (These etchings are fresh...)
 :'''Etchings:''' (They describe how one may light the torches up in the right order...)
 ----
+;(Interact with the etchings in the present, above the Old Notes) <!--when at the Old Notes, look up to the left by upside-down staircase)-->
+:'''Etchings:''' (These etchings are old...)
+:'''Etchings:''' (They describe how one may light the torches up in the right order...)
+
 ;(Interact with the Old Notes in present day Minacious Isle)
 ::'''Old Notes'''
 ::(An old notebook. Someone has written in it with neat handwriting.)
@@ -131,12 +150,12 @@
 ::But your reliable ol' senior &mdash; that's me &mdash; discovered a hint that someone etched into the wall! While I don't know which kindhearted soul left it there, it is indeed a means of escaping this secret chamber.
 ::After careful analysis, I've deduced that it means that one must "light the torches in a certain order"...
 ::I finally succeeded after many attempts, and hurriedly left the method to unlock the chamber behind for the next adventurer who gets stuck in here &mdash; looks like that's you!
-::<br/>
+::<br />
 ::So, if you succeed, don't forget to thank me.
 ::Your run-of-the-mill adventurers wouldn't have been so attentive as to notice the etchings in the wall like I did.
-::<br/>
+::<br />
 ::This island seems to conceal many secrets, so I'll be going ahead of you to the ruins in the mountains!
-::<br/>
+::<br />
 ::Wolfgang
 :'''Paimon:''' Hey, it looks like he got out of that secret chamber after all! ... And he... credited his sharp eyes for his escape!? C'mon, we left the clue in such an obvious spot!
 :'''Paimon:''' Also, how many notebooks does this guy carry around!?
@@ -148,10 +167,6 @@
 :{{DIcon}} It's been a really long time since, Paimon...
 :'''Paimon:''' Did it collapse and then fall into the sea, then? Paimon's pretty sure that we saw some similar buildings outside in the ocean...
 :'''Paimon:''' Let's explore the nearby sea regions when we've got the time!
-
-;(Interact with the etchings above old notebook) <!--look up to the left by upside-down staircase)-->
-:'''Etchings:''' (These etchings are old...)
-:'''Etchings:''' (They describe how one may light the torches up in the right order...)
 ----
 ;(Interact with the Old Notes on the island far west of present Minacious Isle)
 ::'''Old Notes'''
@@ -161,16 +176,16 @@
 ::To sum things up, I got trapped in this room while adventuring on this island. Actually, there are loads of rooms on this island that can lock people up. I thought I could rely on my wits to break myself out of here like what I did in the last secret chamber, but alas.
 ::But when I really think about it, I was only able to unlock the mechanism last time thanks to some notes that were left behind. It had nothing to do with my wits, really. Looks like I'm just not cut out to be an adventurer...
 ::I ran out of food, and then I ran out of ideas. I'm about to be done for.
-::<br/>
+::<br />
 ::That's when I thought of that little tuxedo cat from Mondstadt, [[Bella]]... Oh, sweet Bella! Whenever I'd go out to eat, you'd always step all over my plate, tipping it over. I'm afraid I won't be able to go to the restaurant anymore... I wonder if you will feel lonely without me around...?
 ::"That human whose plate I always stepped on hasn't come by in a while, meow..."
 ::Is that what you're thinking, Bella? ...*sigh* Probably not, huh? Haha.
-::<br/>
+::<br />
 ::Speaking of restaurants, the last time I went to one, I had Sweet Madame.
 ::I've been to so many places and eaten so many great dishes, but might I be so bold as to say that Mondstadt's Sweet Madame is the best in the world?
 ::Saying that, my stomach is grumbling so much it's practically singing a tenor solo.
 ::<nowiki>*</nowiki>sigh* If only I could have another bite of Sweet Madame... Just one bite would do...
-::<br/>
+::<br />
 ::Wolfgang
 :'''Paimon:''' This notebook... Oh, it's "Wolfgang."
 :{{DIcon}} Oh, joy. Stuck again, is he?
@@ -178,12 +193,13 @@
 :'''Paimon:''' I guess some people need some punishment before they'll learn anything...
 :'''Paimon:''' These underwater buildings... They should be the mountain ruins that we saw on the island on the other side of the lake. Let's go inside again to make sure, (Traveler).
 
-;(Enter the room with a gate)
-:'''Paimon:''' Oh, so this is the place...
-:'''Paimon:''' Isn't this where we got blocked the previous time, and Wolfgang before us?
-
-;(If torches lit in the wrong order)
-:'''Paimon:''' The torches all went out. Do we need to light them in some specific order?
+;(Enter the second secret chamber)
+:;(If this is the player's first time entering the room)
+::'''Paimon:''' Well, that door closed, just as expected.
+::'''Paimon:''' This is the second chamber to trap Wolfgang. Let's see how we can get outta here.
+:;(If the player has previously entered the room)
+::'''Paimon:''' Oh, so this is the place...
+::'''Paimon:''' Isn't this where we got blocked the previous time, and Wolfgang before us?
 
 ;(Unlock the gate)
 :'''Paimon:''' Wolfgang hasn't left his notebook here either. Looks like he hasn't arrived yet.
@@ -198,7 +214,7 @@
 :'''Paimon:''' Then he won't come in, and he won't get trapped in these ruins!
 :'''Paimon:''' C'mon, let's do it, quick!
 
-;(If the player chooses the location nearest to the single torch in next room)
+;(If the player chooses the location near the single torch in the next room)
 :'''Paimon:''' Should we really leave the message here? Shouldn't we look for a place closer to the door?
 
 ;(If the player chooses the location near the three torches in the locked room)
@@ -209,11 +225,11 @@
 :'''Paimon:''' Let's hope Wolfgang does see it, and doesn't go running around the secret chambers in these ruins anymore...
 :'''Paimon:''' Let's go back and have a look. Maybe his notes might have changed this time, too!
 
-;(Interact with the etchings)
+;(Interact with the etchings in the past)
 :'''Etchings:''' (These etchings are fresh...)
 :'''Etchings:''' (They speak of how this place is a perilous secret chamber...)
 ----
-;(Interact with the etchings)
+;(Interact with the etchings in the present)
 :'''Etchings:''' (These etchings are old...)
 :'''Etchings:''' (They speak of how this place is a perilous secret chamber...)
 
@@ -226,13 +242,13 @@
 ::See the etchings at the entrance? They're markings left for us by a senior adventurer. It's the second time I've seen them, and judging from the handwriting, they must have been the work of the same person...
 ::I haven't met this senior, but they've already saved me twice by my count.
 ::Thank you so much, whoever you are!
-::<br/>
+::<br />
 ::Well, even if I was in the secret chamber, it surely would have been a cinch for someone as exceptionally clever as me to find their way out of it, but as they say, "truly smart adventurers never put themselves in real danger"...
 ::So I shan't test my luck.
-::<br/>
+::<br />
 ::So, let me guess: you didn't notice the etchings, and my notebook saved you. Don't forget to thank me!
 ::Hehe, I'll be going to the ruins up there next, so I can get a panoramic view of the sea. I'm sure it'll be a great view. Can't wait to brag about it to my friends if I do manage to see it.
-::<br/>
+::<br />
 ::Wolfgang
 :'''Paimon:''' Well, he didn't go in again. That's a relief.
 :'''Paimon:''' Still, his annoyingly arrogant attitude is really ticking Paimon off!
@@ -264,17 +280,18 @@
 ----
 ;(Etch the words)
 :'''Paimon:''' Let's leave our message here &mdash; and a Sweet Madame too!
+;(Submit Normal or Delicious Sweet Madame)
 :'''Paimon:''' Paimon really hopes that Wolfgang can give that notion of going to Dragonspine a rest...
 :'''Paimon:''' Let's go to the ruins we were at previously once we get out through the lake. Maybe we'll find some sign of him changing his mind!
 
-;(Interact with the etchings)
+;(Interact with the etchings in the past)
 :'''Etchings:''' (These etchings are fresh...)
 :'''Etchings:''' "Do not go to Dragonspine. It is a perilous place..."
 ----
-;(Interact with the etchings)
+;(Interact with the etchings in the present)
 :'''Old Etchings:''' (These etchings are old. They have been written as such...)
 :'''Old Etchings:''' "The wind is very strong here, so I'm not going to use a notebook."
-;(If Traveler left a Delicious Sweet Madame within the lake)
+;(If Traveler left a Delicious Sweet Madame within the lake){{Verify}}
 ::'''Etchings:''' "Haha, to think that I'd find a Sweet Madame here &mdash; and still warm, too! It's practically a miracle."
 :'''Old Etchings:''' "I don't know who left that Sweet Madame there or how they knew that I wanted to have some. It's all very strange... But I'm very thankful all the same."
 :'''Old Etchings:''' "Thank you, person who left the etchings behind! Your Sweet Madame was the best I've ever tasted."
@@ -326,7 +343,7 @@
 |fr      = Du travail accompli en vain
 |fr_tl   = Work Accomplished in Vain
 |ru      = Напрасный труд
-|ru_tl   = 
+|ru_tl   = Useless Work
 |th      = ทุ่มเทเพื่อสิ่งนี้อย่างไร้ประโยชน์
 |th_rm   = 
 |th_tl   = 
@@ -342,3 +359,6 @@
 
 ==Change History==
 {{Change History|2.8}}
+
+[[es:Todo para nada]]
+[[pt-br:Tudo Por Nada]]

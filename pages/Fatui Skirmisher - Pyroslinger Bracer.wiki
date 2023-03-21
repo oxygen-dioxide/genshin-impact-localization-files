@@ -2,18 +2,30 @@
 |image    = Enemy Fatui Pyroslinger Bracer.png
 |type     = Common Enemies
 |family   = Fatui
-|element  = Pyro
+|dmgtype  = Pyro
+|weakpoint = yes
 |group    = Fatui Skirmishers
 |faction  = Fatui
 |location = Multiple
 |ability1 = Shield
 |voiceEN  = [https://www.tbrvoice.com/ Thomas Bello Rivas]<ref>Image: [[:File:Thomas Bello Rivas Confirmation.png|EN VA Self Announcement]]</ref>
 }}
-{{Description|A Fatui soldier who wields a flaming gun.<br />Skirmisher weapons can control the elements to a certain extent, and their combat tactics utilize elemental reactions.<br />Their ordnance and knowledge of squad-based combat thus constitute no small threat in battle.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Fatui Skirmishers}}
+===Items===
+{{Drops Table|type=Fatui Skirmishers}}
+
+===Energy===
+{{Energy Drops
+|type  = Pyro
+|hp1   = 66
+|p1    = 2
+|hp2   = 33
+|p2    = 2
+|hp3   = 0
+|p3    = 2
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -27,37 +39,69 @@
 |res_title = State
 |hp_ratio  = 3
 |hp_type   = 1
-|atk_ratio = 3
+|atk_ratio = 4.5
 }}
 
 ==Abilities and Attacks==
-*'''Rifle Shot:''' Shoots a bullet from their rifle, dealing '''100% ATK''' as {{Color|Pyro DMG}}.
-**'''Enhanced:''' While their '''Pyro Armor''' is active, shoots 3 bullets in quick succession in the same direction, dealing '''150% ATK''', '''75% ATK''', '''37.5% ATK''' respectively as {{Color|Pyro DMG}} with each shot.
-*'''Dodge:''' Jumps backwards if the player is too close.
-**'''Enhanced:''' While their '''Pyro Armor''' is active, follows up with a single '''Rifle Shot''' immediately after jumping back.
-*'''Pyro Armor:''' Upon reaching '''50%''' HP or after some time has passed, generates a {{Pyro}} [[Shields|shield]], granting them a massive increase in [[Resistance]]s and enhancing their attacks. The shield is weakest to {{Color|Hydro}}. Breaking the shield will leave them stunned and vulnerable to attack.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Pyroslinger Bracer
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Pyroslinger Bracer Rifle Shot
-|caption1=Rifle Shot (Normal)
+|name_1 = Rifle Shot
+|desc_1 = Shoots a fire bullet from their rifle, dealing '''66.6% ATK''' as {{Color|Pyro DMG}}.
+* '''Enhanced:''' While their '''Elemental Buff''' is active, shoots 3 fire bullets in quick succession in the same direction, dealing '''100% ATK''', '''50% ATK''', '''12.5% ATK''' respectively as {{Color|Pyro DMG}} with each shot.
+|caption_1 = Normal
+|file_1_2 = Pyroslinger Bracer Rifle Shot Enhanced
+|caption_1_2 = Enhanced
 
-|file2=Pyroslinger Bracer Rifle Shot Enhanced
-|caption2=Rifle Shot (Enhanced)
+|name_2 = Dodge
+|desc_2 = Jumps backwards if the player is too close.
+* '''Enhanced:''' While their '''Elemental Buff''' is active, follows up with a single '''Rifle Shot''' immediately after jumping back.
+|caption_2 = Normal
+|file_2_2 = Pyroslinger Bracer Dodge Enhanced
+|caption_2_2 = Enhanced
 
-|file3=Pyroslinger Bracer Dodge
-|caption3=Dodge (Normal)
-
-|file4=Pyroslinger Bracer Dodge Enhanced
-|caption4=Dodge (Enhanced)
-
-|file5=Pyroslinger Bracer Pyro Armor
-|caption5=Pyro Armor
-
-|file6=Pyroslinger Bracer Stunned
-|caption6=Stunned
+|name_3 = Elemental Buff: Pyro
+|file_3 = Pyroslinger Bracer Pyro Armor
+|desc_3 = Upon reaching '''50%''' HP or after some time has passed, generates a {{Pyro}} [[Shields|shield]], granting them a massive increase in [[Resistance]]s and enhancing their attacks. The shield is weakest to {{Color|Hydro}}. Breaking the shield will leave them stunned and vulnerable to attack.
+{{Elemental Shield Data|Pyro|8|skirmisher=1}}
+|file_3_2 = Pyroslinger Bracer Stunned
+|caption_3_2 = Stunned
 }}
+
+===AI Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if all of the following conditions have been met:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+{| class="wikitable"
+! Ability !! Range Req. (m) !! Priority !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int. !! State Req.
+|-
+| Rifle Shot 1 || 0–25 || 4 || 5–7.5 || 1 || — || rowspan="10" | 2 || {{check|yes}} || {{check|no}} || Not Armored
+|-
+| Rifle Shot 2 || 0–35 || 4 || 0 || 0 || — || {{check|yes}} || {{check|no}} || Not Armored
+|-
+| Rifle Shot (Enhanced) 1 || 0–25 || 4 || 5—7.5 || 1 || — || {{check|yes}} || {{check|no}} || Armored
+|-
+| Rifle Shot (Enhanced) 2 || 0–25 || 1 || 8 || 0 || — || {{check|yes}} || {{check|yes}} || Armored
+|-
+| Rifle Shot (Enhanced) 3 || 0–35 || 4 || 0 || 0 || — || {{check|yes}} || {{check|no}} || Armored
+|-
+| Dodge || 0–5 || 2 || 15–17.5 || 3 || — || {{check|yes}} || {{check|yes}} || Not Armored
+|-
+| Dodge (Enhanced) || 0–5 || 2 || 10–12.5 || 3 || — || {{check|yes}} || {{check|yes}} || Armored
+|-
+| Elemental Buff: Pyro 1 || 0–999 || 2 || 80–90 || 10–20 || — || {{check|no}} || {{check|no}} || —
+|-
+| Elemental Buff: Pyro 2 || 0–999 || 2 || 10 || 0 || — || {{check|no}} || {{check|yes}} || Below 50% HP
+|-
+| Elemental Buff: Pyro 3 || 0–999 || 2 || 90–100 || 20–40 || — || {{check|no}} || {{check|no}} || —
+|}
 
 ==Voice-Overs==
 {{VO/Enemy
@@ -65,105 +109,98 @@
 |vo_01_00_title          = Spotting the Player
 |vo_01_01_file           = VO {lang}{name} - Ill Put You On High Heat.ogg
 |vo_01_01_tx_en          = I'll put you on high heat.
-|vo_01_01_tx_zhs         = 
-|vo_01_01_tx_zht         = 
-|vo_01_01_tx_ja          = 
+|vo_01_01_tx_zh          = 让你大火一把！
+|vo_01_01_tx_ja          = 燃えろ燃えろ！
 |vo_01_01_tx_ko          = 
 |vo_01_02_file           = VO {lang}{name} - Hahahahaha Time To Fry.ogg
 |vo_01_02_tx_en          = Hahahahaha! Time to fry!
-|vo_01_02_tx_zhs         = 
-|vo_01_02_tx_zht         = 
-|vo_01_02_tx_ja          = 
+|vo_01_02_tx_zh          = 烧烤时间到了！哈哈哈哈！
+|vo_01_02_tx_ja          = バーベキューの時間だ！はっははは！
 |vo_01_02_tx_ko          = 
 
 |vo_02_00_title          = Activating Shield
 |vo_02_01_file           = VO {lang}{name} - Detoxifying Heat.ogg
 |vo_02_01_tx_en          = Detoxifying heat.
-|vo_02_01_tx_zhs         = 
-|vo_02_01_tx_zht         = 
-|vo_02_01_tx_ja          = 
+|vo_02_01_tx_zh          = 高温消毒！
+|vo_02_01_tx_ja          = 高温消毒！
 |vo_02_01_tx_ko          = 
 |vo_02_02_file           = VO {lang}{name} - Hahahaha Eat Up Eat Up.ogg
 |vo_02_02_tx_en          = Hahahaha! Eat up! Eat up!
-|vo_02_02_tx_zhs         = 
-|vo_02_02_tx_zht         = 
-|vo_02_02_tx_ja          = 
+|vo_02_02_tx_zh          = 哈哈！熟食无忧！
+|vo_02_02_tx_ja          = ははっ！熟食最高だ！
 |vo_02_02_tx_ko          = 
 
 |vo_03_00_title          = Attacking
 |vo_03_01_file           = VO {lang}{name} - Roast And Fry.ogg
 |vo_03_01_tx_en          = Roast and fry!
-|vo_03_01_tx_zhs         = 
-|vo_03_01_tx_zht         = 
-|vo_03_01_tx_ja          = 
+|vo_03_01_tx_zh          = 油煎火烤！
+|vo_03_01_tx_ja          = 強火で焼くぞ！
 |vo_03_01_tx_ko          = 
 |vo_03_02_file           = VO {lang}{name} - This Ones Well Done.ogg
-|vo_03_02_tx_en          = This one's well done!
-|vo_03_02_tx_zhs         = 
-|vo_03_02_tx_zht         = 
-|vo_03_02_tx_ja          = 
+|vo_03_02_tx_en          = This one's well done! Heh.
+|vo_03_02_tx_zh          = 这份儿是全熟！
+|vo_03_02_tx_ja          = ウェルダン！
+|vo_03_02_rm_ja          = Weru dan!
 |vo_03_02_tx_ko          = 
 |vo_03_03_file           = VO {lang}{name} - Have A Load Of This.ogg
 |vo_03_03_tx_en          = Have a load of this!
-|vo_03_03_tx_zhs         = 
-|vo_03_03_tx_zht         = 
-|vo_03_03_tx_ja          = 
+|vo_03_03_tx_zh          = 尝尝这个！
+|vo_03_03_tx_ja          = これでも喰らえ！
 |vo_03_03_tx_ko          = 
 |vo_03_04_file           = VO {lang}{name} - Haha Lets Move.ogg
 |vo_03_04_tx_en          = Haha! Let's move.
-|vo_03_04_tx_zhs         = 
-|vo_03_04_tx_zht         = 
-|vo_03_04_tx_ja          = 
+|vo_03_04_tx_zh          = 哈哈！动起来！
+|vo_03_04_tx_ja          = はははっ！動け！
 |vo_03_04_tx_ko          = 
 
 |vo_04_00_title          = Dodging
 |vo_04_01_file           = VO {lang}{name} - Ooh Shouldnt Get Careless.ogg
 |vo_04_01_tx_en          = Ooh! Shouldn't get careless.
-|vo_04_01_tx_zhs         = 
-|vo_04_01_tx_zht         = 
-|vo_04_01_tx_ja          = 
+|vo_04_01_tx_zh          = 哈哟！可不能大意！
+|vo_04_01_tx_ja          = はっ！油断するなよ！
 |vo_04_01_tx_ko          = 
 |vo_04_02_file           = VO {lang}{name} - You Need To Hurry Up.ogg
 |vo_04_02_tx_en          = You need to hurry up!
-|vo_04_02_tx_zhs         = 
-|vo_04_02_tx_zht         = 
-|vo_04_02_tx_ja          = 
+|vo_04_02_tx_zh          = 嘿！你得再快点才行。
+|vo_04_02_tx_ja          = もっと速く！
 |vo_04_02_tx_ko          = 
 
 |vo_05_00_title          = Shield Broken
 |vo_05_01_file           = VO {lang}{name} - Egh An Unfortunate Fault.ogg
 |vo_05_01_tx_en          = Egh! An unfortunate fault!
-|vo_05_01_tx_zhs         = 
-|vo_05_01_tx_zht         = 
-|vo_05_01_tx_ja          = 
+|vo_05_01_tx_zh          = 呃！倒霉的故障…
+|vo_05_01_tx_ja          = バーベキュー中止…
 |vo_05_01_tx_ko          = 
 |vo_05_02_file           = VO {lang}{name} - Agh Fuels Clogged.ogg
 |vo_05_02_tx_en          = Agh! Fuels clogged!
-|vo_05_02_tx_zhs         = 
-|vo_05_02_tx_zht         = 
-|vo_05_02_tx_ja          = 
+|vo_05_02_tx_zh          = 喝！燃料堵塞！
+|vo_05_02_tx_ja          = 燃料、切れた…
 |vo_05_02_tx_ko          = 
 
-|vo_06_00_title          = Defeated
-|vo_06_01_file           = VO {lang}{name} - Heat Too Low.ogg
-|vo_06_01_tx_en          = Heat... too low...
-|vo_06_01_tx_zhs         = 
-|vo_06_01_tx_zht         = 
-|vo_06_01_tx_ja          = 
-|vo_06_01_tx_ko          = 
-|vo_06_02_file           = VO {lang}{name} - Didnt Cook This Through.ogg
-|vo_06_02_tx_en          = Didn't... cook this... through...
-|vo_06_02_tx_zhs         = 
-|vo_06_02_tx_zht         = 
-|vo_06_02_tx_ja          = 
-|vo_06_02_tx_ko          = 
+|vo_06_00_title          = Staggered
+|vo_06_01_tx_en          = {{A|VO Pyroslinger Bracer - Staggered 01.ogg}} {{A|VO Pyroslinger Bracer - Staggered 02.ogg}} {{A|VO Pyroslinger Bracer - Staggered 03.ogg}}
+
+|vo_07_00_title          = Defeated
+|vo_07_01_file           = VO {lang}{name} - Heat Too Low.ogg
+|vo_07_01_tx_en          = Heat... too low...
+|vo_07_01_tx_zh          = 温度…太低了…
+|vo_07_01_tx_ja          = 温度が…低い…
+|vo_07_01_tx_ko          = 
+|vo_07_02_file           = VO {lang}{name} - Didnt Cook This Through.ogg
+|vo_07_02_tx_en          = Didn't... cook this... through...
+|vo_07_02_tx_zh          = 这一份儿…没熟透…
+|vo_07_02_tx_ja          = これは…まだ…生だ…
+|vo_07_02_tx_ko          = 
 }}
+
+==Descriptions==
+{{Description|A Fatui soldier who wields a flaming gun.<br />Skirmisher weapons can control the elements to a certain extent, and their combat tactics utilize elemental reactions.<br />Their ordnance and knowledge of squad-based combat thus constitute no small threat in battle.|[[Archive]]}}
 
 ==Trivia==
 *If a Pyroslinger's health is fully depleted while in their shielded state, the shield automatically shatters with the bracer not using their death quotes and animations, instead using their stunned state and quotes as they fade away.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Fatui Skirmisher - Pyroslinger Bracer Icon.png|Icon
 </gallery>
 
@@ -176,10 +213,10 @@ Enemy Fatui Skirmisher - Pyroslinger Bracer Icon.png|Icon
 |zht_rm  = Yúrénzhòng Xiānqiǎnduì - Huǒ Chòng Yóujíbīng
 |zh_tl   = Fatui Skirmisher - Pyro Gun Guerilla
 |ja      = ファデュイ{{Rubi|先|せん|遣|けん|隊|たい|・|&nbsp;|遊|ゆう|撃|げき|兵|へい|・|&nbsp;|炎|ほのう|銃|じゅう}}
-|ja_rm   = Fadyui Senkentai・Yuugekihei・Honoo Juu
-|ja_tl   = Fatui Skirmisher: Squadron - Flame Gun
+|ja_rm   = Fadyui Senkentai - Yuugekihei - Honoo Juu
+|ja_tl   = Fatui Skirmisher - Squadron - Flame Gun
 |ko      = 우인단 선발대・화승총 유격대
-|ko_rm   = U'indan Seonbaldae - Hwaseungchong Yugyeokdae
+|ko_rm   = U'in-dan Seonbaldae - Hwaseungchong Yugyeokdae
 |ko_tl   = Fatui Advance Party - Matchlock Guerrilla Unit
 |es      = Soldado Fatui - Guerrillero con Cañón Pyro
 |es_tl   = Fatui Soldier - Guerrilla with Pyro Cannon
@@ -195,6 +232,10 @@ Enemy Fatui Skirmisher - Pyroslinger Bracer Icon.png|Icon
 |id      = Fatui Skirmisher - Pyroslinger Bracer
 |pt      = Soldado dos Fatui - Guerrilheiro de Canhão Pyro
 |pt_tl   = 
+|tr      = Fatui Avcı Eri - Destek Ateş Nişancısı
+|tr_tl   = 
+|it      = Schermagliatore dei Fatui Fante Pyrocacciatore
+|it_tl   = 
 }}
 
 ==Change History==
@@ -208,4 +249,5 @@ Enemy Fatui Skirmisher - Pyroslinger Bracer Icon.png|Icon
 
 [[es:Guerrillero con Cañón Pyro]]
 [[pt-br:Soldado dos Fatui - Guerrilheiro de Canhão Pyro]]
+[[th:Pyroslinger Bracer]]
 [[vi:Quân Du Kích Hỏa]]

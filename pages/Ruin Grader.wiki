@@ -1,16 +1,32 @@
 {{Enemy Infobox
 |image    = Enemy Ruin Grader.png
+|weakpoint = yes
 |family   = Automatons
 |title    = Ominous Field Tiller
 |group    = Humanoid Ruin Machines
 |type     = Elite Enemies
 |location = [[Dragonspine]]<br />[[Inazuma]]
 }}
-{{Description|An ancient humanoid war machine.<br />Their form is similar to that of Ruin Guards, but it is more distorted and more powerful. Energy cores have been installed in both its legs, as though to power its overly heavy form.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Humanoid Ruin Machines}}
+===Items===
+{{Drops Table|type=Ruin Grader}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|o1    = 1
+|p1    = 1
+|hp2   = 50
+|o2    = 1
+|p2    = 1
+|hp3   = 25
+|o3    = 1
+|p3    = 1
+|hp4   = 0
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -20,56 +36,46 @@
 |atk_ratio    = 7
 }}
 
+==Weak Point Location==
+<gallery>
+Ruin Grader Weak Point.png
+</gallery>
+* Weak points are not exposed when the Ruin Grader is paralyzed.
+
 ==Abilities and Attacks==
-''Attack names are not official.''
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Clap
+|desc_1 = Performs a clapping motion dealing '''50% ATK''' as {{Color|Physical DMG}} to nearby players, then fires a laser beam in front of it at a fixed angle which deals '''80% ATK''' as {{Color|Physical DMG}}. The core in its head is exposed for as long as it fires the beam.
+|strat_1 = The clap can be dodged by moving to the side, while the laser beam can be dodged by remaining in close range.
 
-When performing certain attacks, some of the cores will be briefly exposed. Attacking exposed cores will interrupt the Ruin Grader's current attack. Attacking the cores enough times will temporarily disable that core for around 20 seconds, after which it will become operational again. Additionally, the Ruin Grader cannot perform certain attacks if the associated cores it exposes for those attacks are down.
+|name_2 = Stomp
+|desc_2 = Stomps one of their feet, dealing '''40% ATK''' as {{Color|AoE Physical DMG}} to close by players. This is then followed up with a shockwave from the same foot, dealing '''70% ATK''' as {{Color|AoE Physical DMG}} in a larger area. The cores in both feet are briefly exposed before the follow-up shockwave attack.
 
-* '''Clap:''' Performs a clapping motion dealing '''50% ATK''' as {{Color|Physical DMG}} to nearby players, then fires a laser beam in front of it at a fixed angle which deals '''80% ATK''' as {{Color|Physical DMG}}. The core in its head is exposed for as long as it fires the beam.
+|name_3 = Spin
+|desc_3 = Spins the upper half of its body and marches towards the player, rapidly dealing '''60% ATK''' as  {{Color|AoE Physical DMG}} over a period of time. The cores in both feet are briefly exposed right before and after the attack.
 
-* '''Stomp:''' Stomps one of their feet, dealing '''40% ATK''' as {{Color|AoE Physical DMG}} to close by players. This is then followed up with a shockwave from the same foot, dealing '''70% ATK''' as {{Color|AoE Physical DMG}} in a larger area. The cores in both feet are briefly exposed before the follow-up shockwave attack.
+|name_4 = Charge
+|desc_4 = If the player stays too far, the Ruin Grader will charge in one direction towards the player, dealing '''30% ATK''' as {{Color|Physical DMG}} on hit. This briefly exposes the cores in both feet right before and after the attack.
 
-* '''Spin:''' Spins the upper half of its body and marches towards the player, rapidly dealing '''60% ATK''' as  {{Color|AoE Physical DMG}} over a period of time. The cores in both feet are briefly exposed right before and after the attack.
+|name_5 = Focused Laser
+|desc_5 = Fires a laser beam directly at the current character, rapidly dealing '''40% ATK''' as {{Color|Physical DMG}}. It will adjust the firing angle if its current target moves and will preemptively cancel the attack if the target is outside of its firing arc. The core in its head is exposed before the attack and for as long as if fires the beam. Additionally, it may perform this attack if the cores both feet are disabled, but not the core in its head.
+|strat_5 = The focused laser beam is unable to be aimed in melee range. Moving close to the Ruin Grader will effectively end this attack.
 
-* '''Charge:''' If the player stays too far, the Ruin Grader will charge in one direction towards the player, dealing '''30% ATK''' as {{Color|Physical DMG}} on hit. This briefly exposes the cores in both feet right before and after the attack.
+|name_6 = Orb Attack
+|desc_6 = Fires three orbs which will try to land in a triangle formation around the player. These orbs stay on the ground for about 9 seconds and deal '''16% ATK''' as {{Color|Physical DMG}} on contact. This exposes the core in its head for the duration of this attack.
 
-* '''Focused Laser:''' Fires a laser beam directly at the current character, rapidly dealing '''40% ATK''' as {{Color|Physical DMG}}. It will adjust the firing angle if its current target moves and will preemptively cancel the attack if the target is outside of its firing arc. The core in its head is exposed before the attack and for as long as if fires the beam. Additionally, it may perform this attack if the cores both feet are disabled, but not the core in its head.
+|name_7 = Brush-Off Attack
+|desc_7 = Extends both arms out toward the ground and energizes its laser beam, quickly spinning and firing its beam in a moderate AoE around itself, dealing '''100% ATK''' as {{Color|Physical DMG}}. This attack is only performed if all of its cores are disabled at once.
 
-* '''Orb Attack:''' Fires three orbs which will try to land in a triangle formation around the player. These orbs stay on the ground for about 9 seconds and deal '''16% ATK''' as {{Color|Physical DMG}} on contact. This exposes the core in its head for the duration of this attack.
-
-* '''Brush-Off Attack:''' Extends both arms out toward the ground and energizes its laser beam, quickly spinning and firing its beam in a moderate AoE around itself, dealing '''100% ATK''' as {{Color|Physical DMG}}. This attack is only performed if all of its cores are disabled at once.
-
-===Preview===
-{{Preview
-|size=185px
-|file1    = Ruin Grader Clap
-|caption1 = Clap
-
-|file2    = Ruin Grader Stomp
-|caption2 = Stomp
-
-|file3    = Ruin Grader Spin
-|caption3 = Spin
-
-|file4    = Ruin Grader Charge
-|caption4 = Charge
-
-|file5    = Ruin Grader Focused Laser
-|caption5 = Focused Laser
-
-|file6    = Ruin Grader Orb Attack
-|caption6 = Orb Attack
-
-|file7    = Ruin Grader Brush-Off Attack
-|caption7 = Brush-Off Attack
-
-|file8    = Ruin Grader Stunned
-|caption8 = Stunned
+|name_8 = Paralyzed
+|desc_8 = When performing certain attacks, some of its weak points will be exposed at its legs or its eye. Attacking exposed weak points will interrupt the Ruin Grader's current attack. Successfully damaging a weak point twice will temporarily disable that weak point for around 20 seconds, after which it will become operational again. Additionally, the Ruin Grader cannot perform certain attacks if the associated weak point it exposes for those attacks are down. If both weak points are disabled, the Ruin Grader will enter a fully-disabled state.
+|file_8 = Ruin Grader Stunned
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range and angle required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -96,39 +102,35 @@ When performing certain attacks, some of the cores will be briefly exposed. Atta
 | Focused Laser (Back) || 0–22 || 0–30 || 5 || 5 || &mdash; || {{check|yes}}
 |}
 
-==Strategy==
-Although slow in speed, Ruin Graders are even stronger than [[Ruin Guard]]s and [[Ruin Hunter]]s.
-
-The Ruin Grader has weak points located on its eye and its legs. These weak points are normally protected, but will light up during some attacks, indicating that they are in a vulnerable state. If a vulnerable weak point is struck, the Ruin Grader will stagger and its current attack will be interrupted.
-
-When first struck, protective runes will appear on all of its weak points, preventing them from being destroyed. After the runes fade away, if the player strikes the same weak point a second time, it will be destroyed. The two cores on its legs are treated as a single weak point no matter which one is struck. Therefore, the player will need to strike its legs and eye weak points at least twice each in order to fully paralyze the Ruin Grader.
-
-The Ruin Grader's orb attack has a minimum range, and cannot hit the player if close to them. Additionally, the Ruin Grader's laser can only be aimed in a cone in front of it, so the laser can be dodged completely by moving to the side, or even by approaching it. On another hand, if the player is very close to the Ruin Grader, its clap attack can be completely avoided by just moving a little to the side. The laser follow up afterward is aimed far too high to be of any danger, unless the player is far away.
-
-[[Aggravation#Taunting Talents|Taunting talents]] such as [[Amber]]'s Elemental Skill, [[Explosive Puppet]], are able to taunt the Ruin Grader and change its target. As with all Ruin Machines, elemental damage is recommended against the Ruin Grader due to its extremely high {{Color|Physical RES}}, even with [[Superconduct]] reactions.
-
 ==Anomalous Model Ruin Grader==
 {{Main|Anomalous Model Ruin Grader}}
 
 ==Locations==
-The Ruin Grader can be found in several places throughout [[Dragonspine]] and [[Inazuma]], including:
-<gallery hideaddbutton="true" captionalign="center">
-Ruin Grader Locations.png|Dragonspine locations are marked by red dots.
-Ruin Grader Location Inazuma.png|Inazuma location is marked by a red dot.
+The Ruin Grader can be found in several places throughout [[Teyvat]]:
+<gallery>
+Ruin Grader Dragonspine Location.png|[[Dragonspine]]
+Ruin Grader The Chasm Location.png|[[Tiangong Gorge]]
+Ruin Grader Araumi Location.png|[[Araumi]], [[Inazuma]]
+Ruin Grader Chatrakam Cave Location.png|Underground [[Chatrakam Cave]] from the waypoint on the left
+Ruin Grader Vissudha Field Location.png|Underground [[Vissudha Field]], south from the waypoint near [[Jadeplume Terrorshroom]]
+Ruin Grader Devantaka Mountain Location.png|[[Devantaka Mountain]]
 </gallery>
 
 ==Achievements==
 {{Achievement Topic Table|topic=Ruin Grader}}
 
+==Descriptions==
+{{Description|An ancient humanoid war machine.<br />Their form is similar to that of [[Ruin Guard]]s, but is more distorted and more powerful. Energy cores have been installed in both its legs, as though to power its overly heavy form.|[[Archive]]}}
+
 ==Trivia==
-* Ruin Graders sometimes go by names like Ra-41816, beginning with the prefix Ra and ending in a numeric code. This is demonstrated in certain boss fights like the ones around [[Starglow Cavern]].
-** Possible names include Ra-11235, Ra-25844, Ra-33377, Ra-34558, Ra-36875, Ra-41816, Ra-61098, Ra-65746, Ra-71128, Ra-71597, Ra-76510, Ra-81321, Ra-91142, and Ra-94617.
+* Ruin Graders sometimes go by titles like Ra-41816, beginning with the prefix Ra and ending in a numeric code. This is demonstrated in certain boss fights like the ones around [[Starglow Cavern]].
+** Possible titles include Ra-11235, Ra-25844, Ra-33377, Ra-34558, Ra-36875, Ra-41816, Ra-61098, Ra-65746, Ra-71128, Ra-71597, Ra-76510, Ra-81321, Ra-91142, and Ra-94617.
 * Ruin Graders used to be the rarest respawnable Elite Enemies outside the [[Spiral Abyss]], originally starting with one spawn in [[Dragonspine]]. Following the release of [[Inazuma]], a second Ruin Grader was added in [[Araumi]]. A third Ruin Grader was added following the release of [[Enkanomiya]], which also added two individual [[Abyss Heralds]] and [[Abyss Lectors]], making them the second rarest respawnable Elite Enemies outside the Spiral Abyss.
 **The Ruin Grader in Dragonspine and Araumi look out towards each other when dormant.
 * Prior to the release of [[The Chasm/Underground Mines|the Chasm]], respawnable Ruin Graders were always found in a dormant state. Unlike other Ruin machines, the grader can be attacked during its waking animation.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Ruin Grader Icon.png|Icon
 </gallery>
 
@@ -160,7 +162,7 @@ Enemy Ruin Grader Icon.png|Icon
 |fr      = Colosse des ruines
 |fr_tl   = Ruin Colossus
 |ru      = Руинный молотильщик
-|ru_tl   = 
+|ru_tl   = Ruin Thrasher
 |th      = Ruin Grader
 |vi      = Cần Cẩu Di Tích
 |vi_tl   = Ruin Crane
@@ -169,6 +171,10 @@ Enemy Ruin Grader Icon.png|Icon
 |id      = Ruin Grader
 |pt      = Colosso das Ruínas
 |pt_tl   = Colossus of the Ruins
+|tr      = Harabe Ezicisi
+|tr_tl   = 
+|it      = Colosso delle rovine
+|it_tl   = 
 }}
 
 ==Change History==
@@ -177,5 +183,8 @@ Enemy Ruin Grader Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Ruinenkoloss]]
 [[es:Demoledor de las Ruinas]]
 [[pt-br:Colosso das Ruínas]]
+[[ru:Руинный молотильщик]]
+[[th:Ruin Grader]]

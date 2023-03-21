@@ -1,54 +1,63 @@
 {{Enemy Infobox
 |image    = Enemy Ice Shield Hilichurl Guard.png
 |family   = Hilichurls
+|dmgtype  = Physical
+|weakpoint = yes
 |element  = Cryo
 |type     = Common Enemies
 |group    = Hilichurl Guards
 |ability1 = Shield
 |ability2 = Directional Shield
 }}
-{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Hilichurls display a strong sense of adaptability to their surroundings. In icy environments, they come up with ways and means to fashion this hard ice into shields to protect themselves.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Hilichurls}}
+===Items===
+{{Drops Table|type=Hilichurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|hp_ratio=1|atk_ratio=1.8|hp_type=1}}
 
 ==Abilities and Attacks==
-* '''Frozen Shield:''' The Ice Shield Hilichurl Guard is equipped with a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[shield]], which blocks incoming DMG from the direction that it is facing. This shield is vulnerable to {{Pyro}}, {{Electro}} and [[Poise Damage]], and weakest to {{Pyro}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Frozen Shield
+|desc_1 = The Ice Shield Hilichurl Guard is equipped with a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[shield]], which blocks incoming DMG from the direction that it is facing. This shield is vulnerable to {{Pyro}}, {{Electro}} and [[Blunt Attack]]s, and weakest to {{Pyro}}.
+{{Elemental Shield Data|Cryo|8}}
+}}
 
 ===Shield Intact===
-*'''Smack:''' Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-
-===Preview===
-{{Preview
-|size=185px
-|file=Ice Shield Hilichurl Guard Smack
-|caption=Smack
+{{Enemy Attacks
+|name_1 = Smack
+|desc_1 = Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 }}
 
 ===Shield Destroyed===
-*'''Smack:''' Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-*'''Charged Smack:''' Charges and swings its club at the player powerfully, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back.
-*'''Rapid Swings:''' Performs 3 consecutive swings at the player, dealing '''100% ATK''', '''100% ATK''', '''125% ATK''' with each swing as {{Color|Physical DMG}}.
+{{Enemy Attacks
+|name_1 = Smack
+|desc_1 = Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+|file_1 = Ice Shield Hilichurl Guard Smack Unshielded
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Ice Shield Hilichurl Guard Smack Unshielded
-|caption1=Smack
+|name_2 = Charged Smack
+|desc_2 = Charges and swings its club at the player powerfully, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back.
 
-|file2=Ice Shield Hilichurl Guard Charged Smack
-|caption2=Charged Smack
-
-|file3=Ice Shield Hilichurl Guard Rapid Swings
-|caption3=Rapid Swings
+|name_3 = Rapid Swings
+|desc_3 = Performs 3 consecutive swings at the player, dealing '''100% ATK''', '''100% ATK''', '''125% ATK''' with each swing as {{Color|Physical DMG}}.
 }}
 
+==Descriptions==
+{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Hilichurls display a strong sense of adaptability to their surroundings. In icy environments, they come up with ways and means to fashion this hard ice into shields to protect themselves.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Ice Shield Hilichurl Guard Icon.png|Icon
 </gallery>
 
@@ -67,11 +76,11 @@ Enemy Ice Shield Hilichurl Guard Icon.png|Icon
 |ko_rm   = Eoreumbangpae Chyuchyu
 |ko_tl   = Ice-shield Hilichurl
 |es      = Hilichurl con Escudo Cryo
-|es_tl   = 
+|es_tl   = Hilichurl with Cryo Shield
 |fr      = Brutocollinus avec bouclier de glace
 |fr_tl   = Hilichurl with Ice Shield
 |ru      = Хиличурл с ледяным щитом
-|ru_tl   = 
+|ru_tl   = Hilichurl With an Ice Shield
 |th      = Ice Shield Hilichurl Guard
 |vi      = Hilichurl Khiên Băng
 |vi_tl   = Ice Shield Hilichurl
@@ -80,6 +89,10 @@ Enemy Ice Shield Hilichurl Guard Icon.png|Icon
 |id      = Ice Shield Hilichurl Guard
 |pt      = Hilichurl Guarda com Escudo de Gelo
 |pt_tl   = 
+|tr      = Buz Kalkanlı Dağ Yabanisi Muhafızı
+|tr_tl   = 
+|it      = Guardia Hilichurl con scudo di ghiaccio
+|it_tl   = 
 }}
 
 ==Change History==
@@ -88,5 +101,8 @@ Enemy Ice Shield Hilichurl Guard Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Hilichurl mit Eisschild]]
 [[es:Hilichurl con Escudo Cryo]]
+[[ja:ヒルチャール・氷盾]]
 [[pt-br:Hilichurl Guarda com Escudo de Gelo]]
+[[th:Ice Shield Hilichurl Guard]]

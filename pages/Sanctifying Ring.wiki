@@ -13,12 +13,12 @@
 |value3        = 25.2 – 53.6%
 |attr4         = Activation Cost
 |value4        = 30% Current HP
-|scale_att1    = HP
+|scale_att1    = Max HP
 |scale_att2    = ATK
 |utility1      = Health Depletion
 |utility2      = Healing
 }}
-{{Description|Band the Naku Weed into a loop about your waist, and it shall exorcise evil.}}
+{{Description|Band the Naku Weed into a loop around your waist, and it shall exorcise evil.}}
 '''Sanctifying Ring''' is [[Kuki Shinobu]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
@@ -28,10 +28,34 @@
 ** At Constellation 0–1, this skill generates an average of '''3.6''' particles.
 ** At Constellation 2–3, this skill generates an average of '''4.5''' particles.
 ** At Constellation 4 and above, this skill generates an average of '''5.85''' particles.
-* The activation DMG of this skill is a [[Blunt Attack]].
-* {{TalentNote|icd|Skill DMG|2.5|3|Grass Ring of Sanctification DMG}}
 * {{TalentNote|no snapshot|Skill DMG|character=Kuki Shinobu}}
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Kuki Shinobu|talent=Sanctifying Ring|ascension|2|Heart's Repose|increases Sanctifying Ring's healing amount and damage dealt based on Kuki Shinobu's [[Elemental Mastery]]. The healing amount is increased by 75% of her Elemental Mastery, and the damage dealt is increased by 25% of her Elemental Mastery.}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Skill DMG
+|gu      = 1U
+|icdtag  = Elemental Skill
+|icdtype = 2.5s/3 Hits
+|poise   = 30
+|impulse = 4
+|blunt   = 1
+
+|title2   = Grass Ring of Sanctification DMG
+|gu2      = 1U
+|icdtag2  = Elemental Skill
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 10
+|impulse2 = 3
+
+|title3   = Thundergrass Mark (C4)
+|gu3      = 1U
+|icdtag3  = none
+|poise3   = 20
+|impulse3 = 2
+}}
 
 <big>'''Constellation Effects'''</big>
 * {{TalentNote|character=Kuki Shinobu|talent=Sanctifying Ring|constellation|2|To Forsake Fortune}}
@@ -46,22 +70,23 @@
 
 ==Attribute Scaling==
 {{Talent Scaling
+|talentType=Elemental Skill
 |levels=13
 |order=skilldmg,grassringofsanctificationhealing,grassringofsanctificationdmg,activationcost,duration,cd
 |titles=Skill DMG,Grass Ring of Sanctification Healing,Grass Ring of Sanctification DMG,Activation Cost,Duration,CD
-|skilldmg_1=75.71
-|skilldmg_2=81.39
-|skilldmg_3=87.07
-|skilldmg_4=94.64
-|skilldmg_5=100.32
-|skilldmg_6=106
-|skilldmg_7=113.57
-|skilldmg_8=121.14
-|skilldmg_9=128.71
-|skilldmg_10=136.28
-|skilldmg_11=143.85
-|skilldmg_12=151.42
-|skilldmg_13=160.89
+|skilldmg_1=75.71%
+|skilldmg_2=81.39%
+|skilldmg_3=87.07%
+|skilldmg_4=94.64%
+|skilldmg_5=100.32%
+|skilldmg_6=106%
+|skilldmg_7=113.57%
+|skilldmg_8=121.14%
+|skilldmg_9=128.71%
+|skilldmg_10=136.28%
+|skilldmg_11=143.85%
+|skilldmg_12=151.42%
+|skilldmg_13=160.89%
 |grassringofsanctificationhealing_1=3% Max HP+288.89
 |grassringofsanctificationhealing_2=3.23% Max HP+317.78
 |grassringofsanctificationhealing_3=3.45% Max HP+349.08
@@ -75,19 +100,19 @@
 |grassringofsanctificationhealing_11=5.7% Max HP+686.17
 |grassringofsanctificationhealing_12=6% Max HP+739.14
 |grassringofsanctificationhealing_13=6.38% Max HP+794.52
-|grassringofsanctificationdmg_1=25.24
-|grassringofsanctificationdmg_2=27.13
-|grassringofsanctificationdmg_3=29.03
-|grassringofsanctificationdmg_4=31.55
-|grassringofsanctificationdmg_5=33.44
-|grassringofsanctificationdmg_6=35.34
-|grassringofsanctificationdmg_7=37.86
-|grassringofsanctificationdmg_8=40.38
-|grassringofsanctificationdmg_9=42.91
-|grassringofsanctificationdmg_10=45.43
-|grassringofsanctificationdmg_11=47.96
-|grassringofsanctificationdmg_12=50.48
-|grassringofsanctificationdmg_13=53.63
+|grassringofsanctificationdmg_1=25.24%
+|grassringofsanctificationdmg_2=27.13%
+|grassringofsanctificationdmg_3=29.03%
+|grassringofsanctificationdmg_4=31.55%
+|grassringofsanctificationdmg_5=33.44%
+|grassringofsanctificationdmg_6=35.34%
+|grassringofsanctificationdmg_7=37.86%
+|grassringofsanctificationdmg_8=40.38%
+|grassringofsanctificationdmg_9=42.91%
+|grassringofsanctificationdmg_10=45.43%
+|grassringofsanctificationdmg_11=47.96%
+|grassringofsanctificationdmg_12=50.48%
+|grassringofsanctificationdmg_13=53.63%
 |activationcost=30% Current HP
 |duration=12s
 |cd=15s
@@ -114,11 +139,11 @@
 |ko_rm   = Je'aek-ui Noechojiryun
 |ko_tl   = Wheel of Grass-Cutting Thunder of Avoiding Misfortune
 |es      = Anillo purificador herboatronador
-|es_tl   = 
+|es_tl   = Purifying Thundering Herbal Ring
 |fr      = Anneau de consécration
 |fr_tl   = Consecration Ring
 |ru      = Освящающее кольцо
-|ru_tl   = 
+|ru_tl   = Sanctifying Ring
 |th      = Sanctifying Ring
 |vi      = Vòng Cỏ Sấm Thánh Hóa
 |vi_tl   = 
@@ -127,6 +152,10 @@
 |id      = Sanctifying Ring
 |pt      = Anel Santificador
 |pt_tl   = 
+|tr      = Kutsal Çember
+|tr_tl   = 
+|it      = Anello purificatore
+|it_tl   = Purifying Ring
 }}
 
 ==Change History==
@@ -137,5 +166,9 @@
 -->
 ==Navigation==
 {{Talent Navbox|Kuki Shinobu}}
-[[ru:Освящающее кольцо]]
+
+[[es:Anillo purificador herboatronador]]
+[[fr:Anneau de consécration]]
 [[pt-br:Anel Santificador]]
+[[ru:Освящающее кольцо]]
+[[th:Sanctifying Ring]]

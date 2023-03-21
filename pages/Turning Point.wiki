@@ -1,14 +1,17 @@
 {{Quest Infobox
 |id            = 01024
+|image         = Archon Quest C1A3 Turning Point.png
 |type          = Archon
 |chapter       = I
 |actNum        = III
 |act           = A New Star Approaches
 |part          = 5
-|description   = The adepti faced off against the [[Liyue Qixing|Qixing]] outside the city. Just as things were coming to a head, you went to the [[Golden House]] to intercept [[Childe]] as he attempted to seize the [[Gnosis]], only to find yet another twist: The Gnosis was never at the Golden House to begin with. Childe swiftly switched to his backup plan, attempting to force the Geo Archon to make an appearance by summoning an ancient god with Fatui-forged Sigils of Permission...
 |startLocation = [[Jade Chamber]], [[Liyue]]
+|region        = Liyue
+|area          = Sea of Clouds
 |prev          = Heart of Glaze
 |next          = The Fond Farewell
+|domain        = Jade Chamber (Domain)
 |exp           = 800
 |mora          = 38,100
 |primogems     = 30
@@ -17,6 +20,7 @@
 |voiced        = yes
 }}
 {{TeyvatQuest|1|3|part=5}}
+
 ==Steps==
 #Repel [[Osial|the ancient god]] together
 #Protect the [[Guizhong Ballista]]
@@ -26,22 +30,37 @@
 #*This step lasts for 6 minutes and 40 seconds.
 #*[[Xiao]], [[Ganyu]] and [[Madame Ping]] will provide buffs after Osial's first attack, increasing the player's speed, survivability and applying a powerful burst AoE attack respectively.
 
-==Notes==
-* Completing this quest will grant the ''[[Wonders of the World]]'' achievement "[[Derailed]]."
+==Gameplay Notes==
+* Completing this quest will grant the ''[[Wonders of the World]]'' achievement ''[[Derailed]]''.
 * Protect the Guizhong Ballista (Osial) challenge:
-** If any of the Ballistas are destroyed by the Fatui, the challenge will fail. The challenge will complete itself if the timer runs out.
+** If any of the Ballistas are destroyed by the Fatui, the challenge will fail. The challenge will complete itself if the timer runs out. If the player fails, [[Bu'yun]] can be found at Yiyan Temple who will send them back up to the Jade Palace to attempt the trial again.
 ** Although [[Fatui Agents]] appear in the cutscenes, they are not encountered at all while protecting the ballista.
 ** While Osial itself is not directly fought as a boss during Turning Point, it can still directly attack the player character with its Hydro attacks. It will perform the following attacks:
-*** At some time, Osial will channel its divine power, hurling a powerful Hydro energy in the whole area which deals massive AoE DMG.
-*** Osial can rain down Hydro energy. Circular indicators will appear on the ground as a warning to get out of its reach.
-**The following buffs are gained over the course of the fight as the Traveler is infused with adeptal energy:
-*** '''[[Madame Ping]]:''' Attacks dealt will release powerful intermittent shockwaves, dealing AoE DMG.
-*** '''[[Ganyu]]:''' Survivability increased, HP replenishes per second.
-*** '''[[Xiao]]:''' Movement SPD is greatly increased.
+*** At some time, Osial will channel its divine power, hurling a powerful Hydro energy in the whole area, causing the active character to lose '''50%''' of their Max [[HP]].
+*** Osial can rain down Hydro energy, dealing '''100%''' of Osial's ATK as {{Color|AoE Hydro DMG}}. Circular indicators will appear on the ground as a warning to get out of its reach.
+** The active character will gain the following buffs over the course of the fight as the Traveler is infused with adeptal energy:
+*** '''[[Madame Ping]]:''' Attacks dealt will release powerful shockwaves, causing enemies hit to lose '''45%''' of their Max HP.
+*** '''[[Ganyu]]:'''
+**** Gain '''100%''' [[Interruption Resistance]].
+**** Gain '''50%''' [[DMG Reduction]].
+**** Receive [[healing]] equal to '''5%''' of Max HP every 2 seconds.
+**** HP Loss inflicted by Osial's large area attack reduced by '''80%'''.
+*** '''[[Xiao]]:'''
+**** Gain '''30%''' [[Movement Speed]].
+**** [[Stamina]] consumption is reduced by '''90%'''.
 *** Afterwards, all adeptal energies will be combined at once.
-** If one fails, they can find an NPC at Yiyan Temple who will send them back up to the Jade Palace to attempt the trial again.
-{{clr}}
+
+;Osial's Stats<!--
+-->{{Enemy Stats
+|atk_ratio = 8
+|hide_def  = 1
+|hide_hp   = 1
+|hide_notes = 1
+|hide_res  = 1
+}}
+
 ==Dialogue==
+{{Quest Description|The adepti faced off against the [[Liyue Qixing|Qixing]] outside the city. Just as things were coming to a head, you went to the [[Golden House]] to intercept [[Childe]] as he attempted to seize the [[Gnosis]], only to find yet another twist: The Gnosis was never at the Golden House to begin with. Childe swiftly switched to his backup plan, attempting to force the Geo Archon to make an appearance by summoning an ancient god with Fatui-forged Sigils of Permission...}}
 {{Dialogue start}}
 ;(Continued from [[Heart of Glaze]])
 :{{A|vo lyaq205 2 paimon 01.ogg}} '''Paimon:''' *panting* Paimon's exhausted...
@@ -95,22 +114,22 @@
 :{{A|vo lyaq205 4 madameping 01.ogg}} '''Madame Ping:''' Hahaha, were you about to say, "we can't hold them," children?
 :{{A|vo lyaq205 4 paimon 05.ogg}} '''Paimon:''' Huh?
 :{{A|vo lyaq205 4 madameping 02.ogg}} '''Madame Ping:''' Don't lose heart. Here, take this.
-::''Thanks to Madame Ping's adeptal energies, <span style="color:blue">your attacks against the enemy will release intermittent shockwaves</span>!''
+::Thanks to Madame Ping's adeptal energies, {{color|bz|your attacks against the enemy will release intermittent shockwaves}}!
 :{{A|vo lyaq205 4 paimon 06.ogg}} '''Paimon:''' This is... adeptal energy!?
 :{{A|vo lyaq205 4 paimon 07.ogg}} '''Paimon:''' (Traveler), that light from your body... It's like that time in Jueyun Karst...
 :{{A|vo lyaq205 4 paimon 08.ogg}} '''Paimon:''' Wow, it's Madame Ping's Shockwave! This granny's really strong!
 <!-- After some time? -->
 :{{A|vo lyaq205 4 ganyu 01.ogg}} '''Ganyu:''' With the blood of the Qilin, I guard you against evil.
-::''Ganyu's adeptal power has <span style="color:blue">boosted your survival capability</span>!''
+::Ganyu's adeptal power has {{color|bz|boosted your survival capability}}!
 :{{A|vo lyaq205 4 ganyu 02.ogg}} '''Ganyu:''' Cast your fear of injury by the wayside and fight with all your might. I too did this during the Archon War.
 :{{A|vo lyaq205 4 paimon 10.ogg}} '''Paimon:''' Huh... So this is what Ganyu's like in a fight...
 <!-- After some time? -->
 :{{A|vo lyaq205 4 xiao 03.ogg}} '''Xiao:''' My name means "swiftness."
-::''Imbued with Xiao's powers of swiftness, your <span style="color:blue">Movement Speed is greatly increased</span>!''
+::Imbued with Xiao's powers of swiftness, your {{color|bz|Movement Speed is greatly increased}}!
 :{{A|vo lyaq205 4 xiao 04.ogg}} '''Xiao:''' Take my power, and run as I do.
 :{{A|vo lyaq205 4 paimon 09.ogg}} '''Paimon:''' We're&mdash; going&mdash; too&mdash; faaaaast&mdash;!
 <!-- After some time? -->
-::''By their blessings combined, <span style="color:blue">you wield all three powers at once</span>!''
+::By their blessings combined, {{color|bz|you wield all three powers at once}}!
 :{{A|vo lyaq205 4 madameping 03.ogg}} '''Madame Ping:''' Child, you are strong in body and spirit. Perhaps you can withstand three forms of adeptal energy at once...
 :{{A|vo lyaq205 4 ganyu 04.ogg}} '''Ganyu:''' This will hurt a little... Please bear with us!
 :{{A|vo lyaq205 4 xiao 05.ogg}} '''Xiao:''' Once you've adapted, try to use them in battle.
@@ -163,11 +182,11 @@
 |ko_rm   = Manhoe
 |ko_tl   = Recover
 |es      = Giro inesperado
-|es_tl   = 
+|es_tl   = Unexpected Turn
 |fr      = Tournant
 |fr_tl   = Turning Point
 |ru      = Поворотный момент
-|ru_tl   = 
+|ru_tl   = Turning Point
 |th      = กลับสู่สวรรค์
 |th_rm   = 
 |th_tl   = Return to Heaven
@@ -179,6 +198,10 @@
 |id_tl   = Turning Point
 |pt      = Momento Decisivo
 |pt_tl   = Decisive Moment
+|tr      = Dönüm Noktası
+|tr_tl   = 
+|it      = Punto di svolta
+|it_tl   = Turning Point
 }}
 
 ==Change History==
@@ -187,4 +210,8 @@
 ==Navigation==
 {{Archon Quest Navbox|chapter=Chapter I}}
 [[Category:Archon Chapter 1]]
+
+[[es:Giro inesperado]]
+[[ja:回天]]
 [[pt-br:Momento Decisivo]]
+[[ru:Поворотный момент]]

@@ -1,12 +1,14 @@
 {{Quest Infobox
 |id            = 19001
-|type          = Hangout
-|region        = Mondstadt
+|type          = Story
+|group         = Hangout Event
 |chapter       = Barbara
 |actNum        = I
 |act           = Wellspring of Healing
-|description   = Sister [[Victoria]] seems to be troubled by something...
 |startLocation = [[City of Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |requirement   = Complete [[Song of the Dragon and Freedom]], reach [[Adventure Rank]] 26, and spend 2 [[Story Key]]s
 |next          = Sudden Shouting
 |nextNote = Branch 1
@@ -30,6 +32,7 @@
 *# Search for Barbara
 
 ==Dialogue==
+{{Quest Description|Sister [[Victoria]] seems to be troubled by something...}}
 ===Sister Victoria's Vexation===
 {{Dialogue start}}
 ;(Talk to Sister Victoria)
@@ -60,13 +63,13 @@
 :{{A|vo bblcop001 1900102 barbara 07.ogg}} '''Barbara:''' Oh, I'm sorry, but... please, just keep quiet, okay? Don't let them find us...
 :{{DIcon}} Why would you want to hide?
 :{{A|vo bblcop001 1900102 barbara 08.ogg}} '''Barbara:''' Because... Well, just because...
-:{{DIcon}} Just wait here, we'll go send that person away.
+:{{Hangout Branch|Just wait here, we'll go send that person away.|Sudden Shouting}}
 ::{{A|vo bblcop001 1900102 barbara 09.ogg}} '''Barbara:''' O&mdash;Oh, alright... I'll just leave it to you, then.
 ::{{A|vo bblcop001 1900102 barbara 10.ogg}} '''Barbara:''' Please, just... just don't tell them that I'm here, alright?
 :;(Continue to [[Sudden Shouting]])
-:{{DIcon}} Let's go deeper into the forest and wait for them to leave.
+:{{Hangout Branch|Let's go deeper into the forest and wait for them to leave.|#Temporary Relief From the Fanfare|Temporary Relief From the Fanfare}}
 :{{A|vo bblcop001 1900102 barbara 11.ogg}} '''Barbara:''' Alright then... Let's head this way.
-:;(Go to [[#Branch 2|Branch 2]])
+:;(Go to [[#Temporary Relief From the Fanfare|Temporary Relief From the Fanfare]])
 ----
 ;(Talk to Barbara again)
 :{{A|vo_bblcop001_1900102_barbara_12.ogg}} '''Barbara:''' Strange... who could it be?
@@ -76,8 +79,7 @@
 :{{A|vo bblcop001 1900108 paimon 02.ogg}} '''Paimon:''' Let's go take a closer look.
 {{Dialogue end}}
 
-===Branch 2===
-====Temporary Relief From the Fanfare====
+===Temporary Relief From the Fanfare===
 {{Dialogue start}}
 ;(Follow Barbara)
 ;(Talk to Barbara)
@@ -99,12 +101,12 @@
 :{{A|vo bblcop001 1900103 barbara 14.ogg}} '''Barbara:''' Well, yes, there are plenty of the normal variety... but I'm looking for {{Color|buzzword|red Wolfhook}}. No matter how hard I look, I can't seem to find any. I clearly remember that they always grow here.
 :{{DIcon}} Let's wait for that person to leave and then we can go look for some.
 :{{A|vo bblcop001 1900103 barbara 15.ogg}} '''Barbara:''' I guess that's all we can do for now. Although, it certainly isn't nice to treat someone that way... But today, I simply wish to keep to myself.
-:{{DIcon}} It's alright, this is a perfect place for two people to spend some time together.
+:{{Hangout Branch|It's alright, this is a perfect place for two people to spend some time together.|customlinks=the end of the hangout}}
 ::{{A|vo bblcop001 1900103 barbara 16.ogg}} '''Barbara:''' Wh&mdash; Huh? Wh&mdash;What do you mean? Y&mdash;You...
 ::{{A|vo bblcop001 1900103 barbara 17.ogg}} '''Barbara:''' I&mdash;I'm sorry. I think we should go... Yes, it's time to go!
 :;(Barbara leaves in a hurry...)
 :;(Hangout event ended)
-:{{DIcon}} So what made you decide to join the Church, Barbara?
+:{{Hangout Branch|So what made you decide to join the Church, Barbara?|Of Wolfhooks Red}}
 ::{{A|vo bblcop001 1900103 barbara 18.ogg}} '''Barbara:''' Well, my father has always worked at the Church... And the Church has always looked after me.
 ::{{A|vo bblcop001 1900103 barbara 19.ogg}} '''Barbara:''' I guess it was only natural for me to join the Church when I grew up.
 ::{{A|vo bblcop001 1900103 barbara 20.ogg}} '''Barbara:''' And besides, my sister works in the Knights of Favonius...
@@ -122,7 +124,7 @@
 ::{{A|vo bblcop001 1900103 barbara 29.ogg}} '''Barbara:''' Your help would be much appreciated! Let's search the nearby area, I'm sure we'll find some in no time.
 ::{{A|vo bblcop001 1900103 barbara 30.ogg}} '''Barbara:''' Strange... I'm almost certain I've seen lots of {{Color|buzzword|red Wolfhooks}} growing here before...
 :;(Go to [[#Of Wolfhooks Red|Of Wolfhooks Red]])
-:{{DIcon}} Wouldn't your family worry about you picking herbs all alone?
+:{{Hangout Branch|Wouldn't your family worry about you picking herbs all alone?|Of Wolfhooks Red}}
 ::{{A|vo bblcop001 1900103 barbara 31.ogg}} '''Barbara:''' My family? Well, my father left on an expedition together with Grand Master Varka and has yet to return.
 ::{{A|vo bblcop001 1900103 barbara 32.ogg}} '''Barbara:''' And as for the other person I can call family... Well, she doesn't have much time to look after me.
 ::{{A|vo bblcop001 1900103 barbara 33.ogg}} '''Barbara:''' And besides, I'm more than capable of taking care of myself, so there's no need for me to bother her.
@@ -171,7 +173,7 @@
 :{{A|vo bblcop001 1900106 barbara 01.ogg}} '''Barbara:''' Strange, I can't seem to find those {{Color|buzzword|red Wolfhooks}} anywhere.
 {{Dialogue end}}
 
-====Of Wolfhooks Red====
+===Of Wolfhooks Red===
 {{Dialogue start}}
 ;(When picking up a red Wolfhook)
 :{{A|vo bblcop001 1900106 paimon 01.ogg}} '''Paimon:''' Oh, these must be the red Wolfhook berries that Barbara is looking for.
@@ -199,14 +201,14 @@
 |ja_rm   = Shisutaa Vikutoria no Shinpai
 |ja_tl   = Sister Victoria's Concerns
 |ko      = 빅토리아 수녀의 걱정
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Biktoria Sunyeo-ui Geokjeong
+|ko_tl   = Sister Victoria's Concerns
 |es      = La preocupación de la Hermana Victoria
-|es_tl   = 
+|es_tl   = Sister Victoria's Worry
 |fr      = Les soucis de Sœur Victoria
 |fr_tl   = Sister Victoria's Concerns
 |ru      = Тревоги сестры Виктории
-|ru_tl   = 
+|ru_tl   = Sister Victoria's Troubles
 |th      = ความกังวลของซิสเตอร์ Victoria
 |th_rm   = 
 |th_tl   = Sister Victoria's Worries
@@ -218,7 +220,13 @@
 |id_tl   = Sister Victoria's Worries
 |pt      = As Preocupações da Irmã Victoria
 |pt_tl   = 
+|tr      = Rahibe Victoria'nın Endişesi
+|tr_tl   = 
+|it      = Il cruccio di sorella Victoria
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|1.4}}
+
+[[ja:シスターヴィクトリアの心配]]

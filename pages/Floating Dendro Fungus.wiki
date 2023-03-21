@@ -1,17 +1,158 @@
-{{Upcoming}}
-{{Stub}}
-{{Terminology Infobox
-|image        = Enemy Floating Dendro Fungus.png
-|type         = Enemies
-|type2        = Fungi
+{{Enemy Infobox
+|image    = Enemy Floating Dendro Fungus.png
+|dmgtype  = Dendro
+|weakpoint = no
+|family   = Mystical Beasts
+|group    = Fungi
+|type     = Common Enemies
 }}
-'''Floating Dendro Fungi''' ''(unofficial name)'' are an upcoming [[enemy]]. Depending on the environment and the elements affecting them, they will switch back and forth between different states. Other than changes in attack methods, defeating them in specific states will grant rare special materials.<ref>YouTube: [https://youtu.be/6DjVUfy_Lng Sumeru Preview Teaser 01: The Fascinating Dendro Element | Genshin Impact]</ref>
+{{Enemy Intro|name='''Floating Dendro Fungi'''}}
+
+==Drops==
+===Items===
+;Normal
+{{Drops Table|type=Fungi (Small)}}
+
+;Activated/Scorched
+{{Drops Table|type=Fungi (Small, Activated)|notice=0}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 0
+|p1    = 1
+}}
+
+==Stats==
+{{Enemy Stats
+|dendro_res  = 25%
+
+|hp_ratio     = 1
+|hp_type      = 2
+|atk_ratio    = 1.8
+|atk_type     = 2
+}}
+
+===Fabulous Fungus Frenzy (Ally)===
+{{Enemy Stats
+|hide_notes = 1
+
+|dendro_res  = 25%
+
+|hp_ratio  = 1.5
+|hp_type   = 2
+|atk_ratio = 4.32
+|atk_type  = 2
+}}
+
+===Fabulous Fungus Frenzy (Enemy)===
+{{Enemy Stats
+|hide_notes = 1
+
+|dendro_res  = 25%
+
+|hp_ratio  = 1.2
+|hp_type   = 2
+|atk_ratio = 3.456
+|atk_type  = 2
+}}
+
+==Abilities and Attacks==
+''Most attack names are unofficial.''
+===Normal===
+{{Enemy Attacks
+|name_1      = State Shift
+|desc_1      = When hit by {{Electro}} or {{Pyro}} attacks, the Floating Dendro Fungus will enter an Activated or Scorched state respectively, gaining enhanced attacks. A Floating Dendro Fungus can only undergo state shift once.
+* If the Floating Dendro Fungus is defeated while Activated or Scorched, it may drop {{Item|Inactivated Fungal Nucleus}}, {{Item|Dormant Fungal Nucleus}}, and {{Item|Robust Fungal Nucleus}}, while the drop rates for {{Item|Fungal Spores}}, {{Item|Luminescent Pollen}}, and {{Item|Crystalline Cyst Dust}} will greatly reduce.
+
+|name_2      = Orb Throw
+|desc_2      = Throws an orb of Dendro energy at the player, dealing '''60% ATK''' as {{Color|Dendro DMG}}.
+* '''Activated:''' Throws 3 orbs in a row.
+* '''Scorched:''' DMG increased to '''100% ATK'''.
+|file_2      = Floating Dendro Fungus Orb Throw
+|caption_2   = Normal
+|file_2_2    = Floating Dendro Fungus Orb Throw 2
+|caption_2_2 = Activated
+|file_2_3    = Floating Dendro Fungus Orb Throw 3
+|caption_2_3 = Scorched
+
+|name_3      = Bump
+|desc_3      = Bumps into the player, dealing '''30% ATK''' as {{Color|Physical DMG}}.
+* '''Scorched:''' DMG increased to '''60% ATK''', knockback increased.
+}}
+
+===Fabulous Fungus Frenzy===
+<section begin="fff skills"/>
+{{Enemy Attacks
+|enemy       = Floating Dendro Fungus
+
+|name_1      = Skill: Flowery Flechettes
+|desc_1      = Goes all out and fires 6 consecutive Wildgrass Bullets, each dealing '''192% ATK''' as {{Color|Dendro DMG}}.<br />''Paimon sometimes considers questions like this: "Does the grass grow thicker where a Dendro Fungus's Bullets land?"''
+|file_1      = Floating Dendro Fungus Flowery Flechettes
+
+|name_2      = Overgrowth
+|desc_2      = Heals the Fungus with the lowest [[HP]] in the party by '''36%''' of their Max HP.
+
+|name_3      = Spore Cannon
+|desc_3      = Fires a Wildgrass Bullet, dealing '''110% ATK''' as {{Color|Dendro DMG}} to opponents.
+}}<!--
+--><section end="fff skills"/>
+
+==Descriptions==
+{{Description|A spore organism of some intelligence. It possesses extreme adaptability.<br />A researcher once said that these are some species of [[Dendro Specter]]. After this view was criticized, he changed his tack, claiming that this was just a literary turn of phrase.|[[Archive]]}}
+
+==Gallery==
+<gallery>
+Enemy Floating Dendro Fungus Icon.png|Icon
+</gallery>
+
+===Animations===
+{{Preview
+|file1    = Floating Dendro Fungus Absorb
+|caption1 = Absorbing
+|file2    = Floating Dendro Fungus Dance
+|caption2 = Dancing
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Floating Dendro Fungus
+|zhs     = 浮游草蕈兽
+|zhs_rm  = Fúyóu Cǎo Xùnshòu
+|zht     = 浮游草蕈獸
+|zht_rm  = Fúyóu Cǎo Xùnshòu
+|zh_tl   = Floating {{Lex|Dendro|zh}} Fungus Beast
+|ja      = プカプカ草キノコン
+|ja_rm   = Puka-Puka Kusa Kinokon{{Assumed}}
+|ja_tl   = Floaty Dendro Mushroom
+|ko      = 둥실 풀 버섯몬
+|ko_rm   = Dungsil Pul Beoseotmon
+|ko_tl   = Buoyant Grass Mushroom Monster
+|es      = Flotihongo Dendro
+|es_tl   = Dendro Floaty-shroom
+|fr      = Fongus Dendro flottant
+|fr_tl   = Floating Dendro Fungus
+|ru      = Парящий Дендро плесенник
+|ru_tl   = Soaring Dendro Molder
+|th      = Floating Dendro Fungus
+|vi      = Nấm Quỷ Phù Du - Thảo
+|vi_tl   = Floating Demon Fungus - {{Lex|Dendro|vi}}
+|de      = Schwebende Dendro-Pilzbestie
+|de_tl   = Floating Dendro Fungus Beast
+|id      = Floating Dendro Fungus
+|pt      = Cogumelo Flutuante Dendro
+|pt_tl   = 
+|tr      = Uçan Doğa Mantarı
+|tr_tl   = 
+|it      = Miconoide fluttuante di Dendro
+|it_tl   = 
+}}
 
 ==Change History==
 {{Change History|3.0}}
 
-==References==
-{{Reflist}}
-
 ==Navigation==
-{{Enemy Navbox|Special}}
+{{Enemy Navbox|Common}}
+
+[[es:Flotihongo Dendro]]
+[[id:Floating Dendro Fungus]]
+[[pt-br:Cogumelo Flutuante Dendro]]

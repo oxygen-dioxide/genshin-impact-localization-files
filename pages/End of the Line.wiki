@@ -1,557 +1,166 @@
-{{Quest Infobox
-|id            = 01030
-|image         = Archon Quest End of the Line.png
-|type          = Archon
-|chapter       = Interlude Chapter
-|actNum        = II
-|act           = Perilous Trail
-|part          = 4
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
-|characters    = Arataki Itto; Paimon; Traveler; Ushi; Xiao; Yanfei; Yelan
-|startLocation = [[The Chasm's Bed]], [[The Chasm: Underground Mines]]
-|region        = Liyue
-|area          = The Chasm: Underground Mines
-|prev          = Danger All Around
-|next          = At Tunnel's End, Light
-|exp           = 1,325
-|mora          = 58,200
-|other         = {{Card|Hero's Wit|5}}{{Card|Mystic Enhancement Ore|11}}
-|voiced        = yes
+{{About|the weapon|the Archon Quest|End of the Line (Quest)}}
+{{Weapon Infobox
+|id             = 15418
+|image          = <gallery>
+Weapon End of the Line.png|Base
+Weapon End of the Line 2nd.png|2nd Ascension
+</gallery>
+|type           = Bow
+|quality        = 4
+|series         = Fishing Association
+|obtain         = [[Sumeru Fishing Association]]
+|base_atk       = 42
+|2nd_stat_type  = Energy Recharge
+|2nd_stat       = 10.0%
+|passive        = Net Snapper
+|effect         = Triggers the Flowrider effect after using an [[Elemental Skill]], dealing (var1)% [[ATK]] as [[AoE]] DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.
+|eff_rank1_var1 = 80
+|eff_rank2_var1 = 100
+|eff_rank3_var1 = 120
+|eff_rank4_var1 = 140
+|eff_rank5_var1 = 160
+|eff_att1       = Elemental Skill
+|eff_att2       = AoE
+|scale_att1     = ATK
 }}
-{{TeyvatQuest|I|2|4}}
-
-==Steps==
-# Talk to Paimon
-# Enter the new Domain
-#* If the player leaves the [[Realm of Snaring Illusions]] domain before finishing the quest, the quest will reset to this step and the player will have to redo the entire domain. Any items already obtained within the domain will not respawn.
-# Defeat opponents
-#* Only the trial version of Yanfei will be present in the party.
-#* Wave 1:
-#** {{Enemy List|Treasure Hoarders: Scout*2;Treasure Hoarders: Crusher|#**}}
-#* Wave 2:
-#** {{Enemy List|Treasure Hoarders: Handyman*2;Treasure Hoarders: Scout|#**}}
-# Talk to [[Yanfei]]
-# Find more clues in the space
-#* [Optional] Investigate the nearby spot to get [[Note of Unknown Origin: I]].
-#* Destroy the plant next to the compass by attacking it.
-#* [Optional] Detonate the two {{Color|Geo [[Exploding Barrel]]s}} near the rocks.
-#* Rotate the Needle Forward on the compass and go through the gate.
-#  Defeat opponents
-#* Only the trial versions of Yanfei and Yelan will be present in the party.
-#* Wave 1:
-#** {{Enemy List|Fatui Skirmisher - Pyroslinger Bracer;Fatui Skirmisher - Cryogunner Legionnaire|#**}}
-#* Wave 2:
-#** {{Enemy|Fatui Pyro Agent|x=1}}
-# Talk to [[Yelan]]
-# Enter the new space
-#* Pull the lever to open the tunnel gate.
-#* [Optional] Investigate the nearby spot to get [[Note of Unknown Origin: II]].
-#* [Optional] Follow the railroad in the back up to find a Common Chest. If the path is blocked, Rotate the Needle Backward to return to the previous area and destroy the two exploding barrels.
-#* Rotate the Needle Forward on the compass and go through the gate. If the needle is blocked by a tree, Rotate the Needle Backward to return to the previous area and destroy the plant.
-# Defeat opponents
-#* Only the trial version of Xiao will be present in the party.
-#* There is no need to attack the shadowy entity; the fight ends when the dialogue ends.
-# Talk to [[Xiao]]
-# Enter the new space
-#* [Optional] Investigate the nearby spot to get [[Note of Unknown Origin: III]].
-#* Rotate the Needle Backward twice on the compass and go through the gate. If the compass is blocked by the tunnel gate, return to the previous area and pull the lever.
-# Enter the new space
-#* [[Note of Unknown Origin: IV]] will be received after the cutscene.
-#* Rotate the Needle Backward on the compass and go through the gate.
-# Travel through the Abyss
-# Catch up with "(her/him)"
-#* Investigate the [[Fantastic Compass|compass]] on the floor.
-# Leave the place you are in
-#* There is a Precious Chest before the domain exit.
-#* The player can also talk to Xiao, Yanfei, and Yelan before leaving the domain.
-
-==Notes==
-* For the first battle, only Yanfei will be present in the party.
-* For the second battle Yelan will join the party alongside Yanfei.
-* For the last battle, only Xiao will be present in the party.
-
-==Dialogue==
-{{Quest Description|After rendezvousing with Xiao, you and the others go over the curious and unsettling things you have seen underground...}}
-{{Dialogue start}}
-;(Talk to Paimon)
-:{{A|vo cyaq004 1 paimon 01.ogg}} '''Paimon:''' *yawn*...
-:{{A|vo cyaq004 1 paimon 02.ogg}} '''Paimon:''' Wait... Where are we...
-:{{DIcon}} We're still underground.
-::{{DIcon}} Paimon, are you feeling better?
-:{{A|vo cyaq004 1 paimon 03.ogg}} '''Paimon:''' Yup, way better! Paimon just got a little fright because she's never seen a crazy place like this before...
-:{{A|vo cyaq004 1 paimon 04.ogg}} '''Paimon:''' Who would've thought the best guide in all of Teyvat could end up so out of their depth... Hahaha...
-:{{DIcon}} Fatigue and fear are normal.
-:{{DIcon}} I'll always be with you, Paimon.
-:{{A|vo cyaq004 1 paimon 05.ogg}} '''Paimon:''' Yeah. Heehee...
-:{{A|vo cyaq004 1 paimon 06.ogg}} '''Paimon:''' So anyway, Paimon just had the weirdest dream. There were cattle mooing constantly...
-:{{A|vo cyaq004 1 ushio 01.ogg}} '''Ushi:''' Moo!
-:{{A|vo cyaq004 1 paimon 07.ogg}} '''Paimon:''' Yeah, just like that!
-:{{A|vo cyaq004 1 paimon 08.ogg}} '''Paimon:''' Aw, Ushi, you were looking after Paimon?
-:{{A|vo cyaq004 1 ushio 02.ogg}} '''Ushi:''' Moo, moo.
-:{{A|vo cyaq004 1 xiao 01.ogg}} '''Xiao:''' ...
-:{{A|vo cyaq004 1 yanfei 01.ogg}} '''Yanfei:''' Traveler, it looks like the Conqueror of Demons is awake.
-:{{DIcon}} How do you feel?
-:{{A|vo cyaq004 1 xiao 02.ogg}} '''Xiao:''' ...I'm fine. Don't worry.
-:{{A|vo cyaq004 1 xiao 03.ogg}} '''Xiao:''' The karma I carry is dangerous to humans. Keep your distance.
-:{{A|vo cyaq004 1 yanfei 02.ogg}} '''Yanfei:''' Well, I have adepti blood in me. So, I wouldn't worry too much.
-:{{A|vo cyaq004 1 xiao 04.ogg}} '''Xiao:''' ...Even so.
-:{{A|vo cyaq004 1 paimon 09.ogg}} '''Paimon:''' What happened while Paimon was sleeping? How did Xiao get here?
-:{{A|vo cyaq004 1 xiao 05.ogg}} '''Xiao:''' With a little help, I was able to find my way here.
-:{{DIcon}} All thanks to Yanfei.
-:{{A|vo cyaq004 1 yanfei 03.ogg}} '''Yanfei:''' Conqueror of Demons, could you tell us what happened before you joined us?
-:{{A|vo cyaq004 1 xiao 06.ogg}} '''Xiao:''' No need to be so formal. Just call me Xiao.
-:{{A|vo cyaq004 1 yanfei 04.ogg}} '''Yanfei:''' Oh, sure.
-:{{A|vo cyaq004 1 xiao 07.ogg}} '''Xiao:''' ...
-:{{A|vo cyaq004 1 xiao 08.ogg}} '''Xiao:''' It was a senseless battle.
-:{{A|vo cyaq004 1 xiao 09.ogg}} '''Xiao:''' I came here looking for someone, but when I found them... they weren't anything like how I expected.
-:{{A|vo cyaq004 1 yanfei 05.ogg}} '''Yanfei:''' Madame Ping says that you usually base yourself at Wangshu Inn to guard the main road through Dihua Marsh. It's unusual for you to go looking for someone yourself... Are they an adeptus?
-:{{A|vo cyaq004 1 xiao 10.ogg}} '''Xiao:''' ...
-:{{A|vo cyaq004 1 xiao 11.ogg}} '''Xiao:''' I'm looking for a yaksha called [[Bosacius]].
-:{{DIcon}} (I'm sure I've heard that name somewhere before...)
-:{{A|vo cyaq004 1 yanfei 06.ogg}} '''Yanfei:''' Bosacius... Is that one of the Five [[Yakshas]], like you?
-:{{A|vo cyaq004 1 yanfei 07.ogg}} '''Yanfei:''' I thought that you were the only one left. Aren't the other four... gone from the world?
-:{{A|vo cyaq004 1 xiao 12.ogg}} '''Xiao:''' You could say that. But Bosacius's body is the only one that was never found.
-:{{A|vo cyaq004 1 xiao 13.ogg}} '''Xiao:''' Yakshas deal with god's remains all the time, and we become tainted by karma. Over time, it inevitably drives us to madness... The last time I saw Bosacius, it was the day he lost his mind.
-:{{A|vo cyaq004 1 xiao 14.ogg}} '''Xiao:''' He left. No one knew where he went and I never heard from him again.
-:{{A|vo cyaq004 1 xiao 15.ogg}} '''Xiao:''' But Bosacius was the eldest of us. He once told us, as Yakshas we will experience countless wars. Whether we live or die, we must promise to take care of each other and know each others' fate, to the very end.
-:{{A|vo cyaq004 1 yanfei 08.ogg}} '''Yanfei:''' Did he forget his promise because he lost his sanity...
-:{{A|vo cyaq004 1 xiao 16.ogg}} '''Xiao:''' It's possible. But I did not.
-:{{A|vo cyaq004 1 xiao 17.ogg}} '''Xiao:''' I am the sole survivor. So it is my duty to find out the fates of the others.
-:{{A|vo cyaq004 1 paimon 10.ogg}} '''Paimon:''' What made you come to The Chasm? Did you hear something about Bosacius being here?
-:{{A|vo cyaq004 1 xiao 18.ogg}} '''Xiao:''' Did you know that five hundred years ago, the beasts of [[Khaenri'ah]] invaded The Chasm?
-:{{DIcon}} I've heard a thing or two.
-:{{A|vo cyaq004 1 xiao 19.ogg}} '''Xiao:''' That war lasted a long time. It is said that in the midst of the battle, a brave yaksha was seen putting up a heroic fight.
-:{{A|vo cyaq004 1 xiao 20.ogg}} '''Xiao:''' But no one knew the yaksha's name.
-:{{A|vo cyaq004 1 yanfei 09.ogg}} '''Yanfei:''' But... there were many more than five yakshas in total, so there's no guarantee it was Bosacius.
-:{{A|vo cyaq004 1 paimon 11.ogg}} '''Paimon:''' Wow... But you must think it was probably him if you came here to investigate, right?
-:{{A|vo cyaq004 1 xiao 21.ogg}} '''Xiao:''' I am by no means certain. And I didn't have any other clues except for this one.
-:{{A|vo cyaq004 1 xiao 22.ogg}} '''Xiao:''' But Bosacius was proud. If he had taken part in that war, he would have announced his name. So at first... I thought the nameless yaksha couldn't be him.
-:{{DIcon}} ...You found Bosacius?
-:{{A|vo cyaq004 1 xiao 23.ogg}} '''Xiao:''' ...
-:{{A|vo cyaq004 1 yanfei 10.ogg}} '''Yanfei:''' Wait, so it was Bosacius you were fighting with? Did he injure you?
-:{{A|vo cyaq004 1 xiao 24.ogg}} '''Xiao:''' ...Yes.
-:{{A|vo cyaq004 1 paimon 12.ogg}} '''Paimon:''' No way...
-:{{A|vo cyaq004 1 yanfei 11.ogg}} '''Yanfei:''' The invasion of monsters from Khaenri'ah, the battle in The Chasm, and Yelan's ancestor... I have a feeling that somehow, these are all connected.
-:{{A|vo cyaq004 1 yanfei 12.ogg}} '''Yanfei:''' Life is full of coincidences, but this is too much of a coincidence. Could this all be related to the Fantastic Compass mentioned in the will, too?
-:{{A|vo cyaq004 1 xiao 25.ogg}} '''Xiao:''' What will?
-:{{A|vo cyaq004 1 yanfei 13.ogg}} '''Yanfei:''' Oh, right. I came here because of a will.
-:{{A|vo cyaq004 1 yanfei 14.ogg}} '''Yanfei:''' Maybe it's not something you've come across much before? But both mortals and adepti sometimes write out their final wishes so somebody else will carry them out after they've passed. It's known as a last will and testament.
-:{{A|vo cyaq004 1 xiao 26.ogg}} '''Xiao:''' And this... can be done at any time?
-:{{A|vo cyaq004 1 paimon 13.ogg}} '''Paimon:''' Whoa, whoa, you wanna write a will now!?
-:{{A|vo cyaq004 1 xiao 27.ogg}} '''Xiao:''' ...
-:{{A|vo cyaq004 1 xiao 28.ogg}} '''Xiao:''' It was no accident that you saw my illusion that day. This place used your desire to find me to create a trap that you would willingly walk into.
-:{{A|vo cyaq004 1 xiao 29.ogg}} '''Xiao:''' Pure deception is easy to spot, but the truth laced with lies can be a fatal combination. What you heard were really things that I said.
-:{{A|vo cyaq004 1 xiao 30.ogg}} '''Xiao:''' It made sure you heard my real voice to create panic. This one-way communication was the bait.
-:{{A|vo cyaq004 1 xiao 31.ogg}} '''Xiao:''' If we hadn't managed to get in touch through the spatial rift, we may well have lost someone by now. Rather than murdering in cold blood, this space seems more intent on consuming souls.
-:{{A|vo cyaq004 1 paimon 14.ogg}} '''Paimon:''' How is this even possible...
-:{{A|vo cyaq004 1 xiao 32.ogg}} '''Xiao:''' Our opponent is very clever. It is not safe to stay here.
-:{{A|vo cyaq004 1 xiao 33.ogg}} '''Xiao:''' Everyone, whether I accomplish what I came here to do or not, I must find a way to get you out safely.
-:{{A|vo cyaq004 1 yelan 01.ogg}} '''Yelan:''' ...
-:{{A|vo cyaq004 1 xiao 34.ogg}} '''Xiao:''' I rejoined to warn you that it's extremely dangerous here. If you stay here too long... this space may well devour you.
-:{{A|vo cyaq004 1 paimon 15.ogg}} '''Paimon:''' But how do you know?
-:{{DIcon}} What happens if we get "devoured"?
-:{{A|vo cyaq004 1 xiao 35.ogg}} '''Xiao:''' ...You might become a shadow of your former self, wandering the underground like a lost soul.
-:{{A|vo cyaq004 1 yelan 02.ogg}} '''Yelan:''' Sounds like you saw them too...
-:{{A|vo cyaq004 1 yanfei 15.ogg}} '''Yanfei:''' Yelan, you're back.
-:{{A|vo cyaq004 1 yelan 03.ogg}} '''Yelan:''' I've been back a while. I was listening to the conversation.
-:{{A|vo cyaq004 1 yelan 04.ogg}} '''Yelan:''' I've seen some strange things here, too. Objects that shouldn't be here, strange figures appearing then vanishing... I don't think any of it's real.
-:{{A|vo cyaq004 1 yanfei 16.ogg}} '''Yanfei:''' So they're just illusions?
-:{{A|vo cyaq004 1 xiao 36.ogg}} '''Xiao:''' At first, I had the same thought.
-:{{A|vo cyaq004 1 xiao 37.ogg}} '''Xiao:''' But it's not that simple. There may come a day when these illusions become real and attack you.
-:{{A|vo cyaq004 1 yelan 05.ogg}} '''Yelan:''' From what you were saying just now, it sounds like you know a way out of here?
-:{{A|vo cyaq004 1 xiao 38.ogg}} '''Xiao:''' I can't say for sure... it's just a guess.
-:{{A|vo cyaq004 1 xiao 39.ogg}} '''Xiao:''' As Yanfei said, this space is chaotic and unstable, but it has its weaknesses. By attacking the point where both spaces connect, I was able to create a rift and move from one to the other.
-:{{A|vo cyaq004 1 xiao 40.ogg}} '''Xiao:''' So... If I use all the energy I have, I may be able to tear a passage out of this chaotic space.
-:{{A|vo cyaq004 1 yelan 06.ogg}} '''Yelan:''' Really... So powerful attacks can affect the space itself. I'd wondered if that was a possibility.
-:{{A|vo cyaq004 1 yanfei 17.ogg}} '''Yanfei:''' Whoa whoa whoa, but what do you mean by all the energy you have?
-:{{A|vo cyaq004 1 xiao 41.ogg}} '''Xiao:''' ...I mean, it will take everything I've got.
-:{{A|vo cyaq004 1 paimon 16.ogg}} '''Paimon:''' Wait a minute, when you said you were gonna get us out safely, you mean... you're gonna stay here?
-:{{A|vo cyaq004 1 yelan 07.ogg}} '''Yelan:''' You can't be serious...
-:{{A|vo cyaq004 1 xiao 42.ogg}} '''Xiao:''' ...
-:{{A|vo cyaq004 1 xiao 43.ogg}} '''Xiao:''' I saw Bosacius underground. That's when I realized the horror of this place.
-:{{A|vo cyaq004 1 xiao 44.ogg}} '''Xiao:''' A single blast can only create a very small opening. To send you back to the outside world, I may need to continuously channel power in order to keep the tunnel open.
-:{{A|vo cyaq004 1 xiao 45.ogg}} '''Xiao:''' ...I know how to fight to the bitter end. I can do this.
-:{{DIcon}} But if this takes all the energy you have, you'll...!
-:{{A|vo cyaq004 1 yanfei 18.ogg}} '''Yanfei:''' No... No way. Even if what you're saying is true, I can't agree to this.
-:{{A|vo cyaq004 1 paimon 17.ogg}} '''Paimon:''' Paimon neither! It's not much of an escape plan if we've gotta leave someone behind!
-:{{DIcon}} We should leave together.
-:{{A|vo cyaq004 1 xiao 46.ogg}} '''Xiao:''' It's only a good or bad plan if there are other options to compare it to. But that's not the situation we're in right now. I doubt you'd still be stuck here if anyone had a better idea.
-:{{A|vo cyaq004 1 yanfei 19.ogg}} '''Yanfei:''' But can you be certain that your plan will work?
-:{{A|vo cyaq004 1 xiao 47.ogg}} '''Xiao:''' I cannot.
-:{{A|vo cyaq004 1 paimon 18.ogg}} '''Paimon:''' What is wrong with you? You can't bet your life on something if you don't even know it's gonna work. It's not worth it!
-:{{A|vo cyaq004 1 yanfei 20.ogg}} '''Yanfei:''' To conclude, I'm not agreeing to this plan.
-:{{A|vo cyaq004 1 xiao 48.ogg}} '''Xiao:''' What if I told you... this is my last will?
-:{{A|vo cyaq004 1 yanfei 21.ogg}} '''Yanfei:''' You...
-:{{A|vo cyaq004 1 yelan 08.ogg}} '''Yelan:''' That's your strategy, huh?
-:{{A|vo cyaq004 1 yelan 09.ogg}} '''Yelan:''' No offense, but we have no guarantee this plan of yours will succeed, or even that it's safe.
-:{{A|vo cyaq004 1 yelan 10.ogg}} '''Yelan:''' You said it yourself, yakshas pose a danger to humans. You really expect us to accept your self-righteous plan just because you say so?
-:{{A|vo cyaq004 1 xiao 49.ogg}} '''Xiao:''' The battlefield is a treacherous place. Every opportunity you take, you put everything on the line for. If you fear sacrifice and failure, you can never be victorious.
-:{{A|vo cyaq004 1 yelan 11.ogg}} '''Yelan:''' I've been in my fair share of treacherous battles. So I know full well that you never bring up extreme measures like this until the very, very end.
-:{{A|vo cyaq004 1 xiao 50.ogg}} '''Xiao:''' ...
-:{{A|vo cyaq004 1 yelan 12.ogg}} '''Yelan:''' You say these things in the hope that we will understand and accept them. But if you don't even know that your self-sacrifice is going to pay off, all you're doing is hurting morale.
-:{{A|vo cyaq004 1 yelan 13.ogg}} '''Yelan:''' Besides, if you were really so determined to end it all, you wouldn't have given us the opportunity to share our opinions. You think you're so oh-so cold and ruthless, but I'm not buying it.
-:{{A|vo cyaq004 1 yelan 14.ogg}} '''Yelan:''' And anyway, losing one of us so the rest can escape? Some victory that is.
-:{{A|vo cyaq004 1 yanfei 22.ogg}} '''Yanfei:''' Yelan... Don't be so harsh...
-:{{A|vo cyaq004 1 yelan 15.ogg}} '''Yelan:''' ...
-:{{A|vo cyaq004 1 yelan 16.ogg}} '''Yelan:''' Point is, it's not time for drastic measures yet. It's possible there's a hidden passage leading to the exit that we just haven't discovered.
-;(Ushi walks to Arataki Itto and Kuki Shinobu)
-:{{A|vo cyaq004 1 xiao 51.ogg}} '''Xiao:''' What if there isn't? Or if we don't find it? And in the end, I'm so weak that I don't have the strength left to sacrifice myself... what do you propose we do then?
-:{{A|vo cyaq004 1 yelan 17.ogg}} '''Yelan:''' As things stand, there's no difference between sacrificing you and trying to find another way out in terms of the likelihood of success. If we can't say that one strategy is better than the other, we certainly shouldn't be rushing into a risky course of action.
-:{{DIcon}} (Is Yelan seriously getting annoyed...)
-:{{DIcon}} (The atmosphere is so tense... What should I do?)
-:{{A|vo cyaq004 1 itto 01.ogg}} '''Arataki Itto:''' Did someone say a strong enough strike can break us outta this place? Yeah, that's right, I heard ya.
-:{{A|vo cyaq004 1 itto 02.ogg}} '''Arataki Itto:''' No one's staying behind to let anyone else out, alright! Enough talk, it's time... for action!
-:{{A|vo cyaq004 1 itto 03.ogg}} '''Arataki Itto:''' C'mon, whatever you are, let's see how long you manage to keep us trapped in here after I'm finished with you!
-:{{A|vo cyaq004 1 yelan 18.ogg}} '''Yelan:''' Easy now...
-{{Cutscene Description|To put an end to Yelan and Xiao's argument, and also to gain even the slimmest chance of survival, Itto drains all his strength to break the stone wall in front of you. Behind it lies a new path...}}
-;(A cutscene plays)
-::{{A|vo cyaq004 1 cs itto 01.ogg}} '''Arataki Itto:''' Have a taste of this!
-::{{A|vo cyaq004 1 cs ushio 01.ogg}} '''Ushi:''' Moo! Moo!
-::{{A|vo cyaq004 1 cs itto 02.ogg}} '''Arataki Itto:''' ...*panting*...
-::{{A|vo cyaq004 1 cs itto 03.ogg}} '''Arataki Itto:''' Whew... 'Kay, so I didn't tear the whole place down
-::{{A|vo cyaq004 1 cs itto 04.ogg}} '''Arataki Itto:''' But check it out, new path!
-::{{A|vo cyaq004 1 cs itto 05.ogg}} '''Arataki Itto:''' If you need a hero... I'm the man... for the job...
-::{{A|vo cyaq004 1 cs paimon 01.ogg}} '''Paimon:''' Itto!
-:;(Itto collapses and Shinobu catches him)
-::{{A|vo cyaq004 1 cs shinobu 01.ogg}} '''Kuki Shinobu:''' ...Shoulda seen this coming
-:;(Cutscene ends)
-
-:{{A|vo cyaq004 2 shinobu 01.ogg}} '''Kuki Shinobu:''' ...*sigh* Why do you always have to do things like this...
-:{{A|vo cyaq004 2 yanfei 01.ogg}} '''Yanfei:''' Shinobu...?
-:{{A|vo cyaq004 3 paimon 01.ogg}} '''Paimon:''' What happened to Itto? Did he pass out?
-:{{A|vo cyaq004 3 ushio 01.ogg}} '''Ushi:''' Moo!
-:{{A|vo cyaq004 3 shinobu 01.ogg}} '''Kuki Shinobu:''' The boss used up all his strength in one punch. Maybe that's the reason he managed to tear open a passage.
-:{{A|vo cyaq004 3 yelan 01.ogg}} '''Yelan:''' ...Let me see if there's any way I can stabilize it.
-:{{A|vo cyaq004 3 yanfei 01.ogg}} '''Yanfei:''' He did this because he heard us arguing, right?
-:{{A|vo cyaq004 3 shinobu 02.ogg}} '''Kuki Shinobu:''' The thing with Boss is, he just can't stand conflict between teammates.
-:{{A|vo cyaq004 3 shinobu 03.ogg}} '''Kuki Shinobu:''' Whenever we get into an argument in the Arataki Gang, he always goes and does something shocking to calm everyone down.
-:{{A|vo cyaq004 3 shinobu 04.ogg}} '''Kuki Shinobu:''' Today, he's done it again. He may not have known you for very long, but when he said he sees everyone as part of the same team, he truly means that.
-:{{A|vo cyaq004 3 ushio 02.ogg}} '''Ushi:''' Moo.
-:{{A|vo cyaq004 3 shinobu 05.ogg}} '''Kuki Shinobu:''' Another thing with Boss is, he hates it when other people sacrifice themselves, but he always seems to end up doing it himself... That said, there's a slight distinction to be made with him.
-:{{A|vo cyaq004 3 shinobu 06.ogg}} '''Kuki Shinobu:''' When he does things like this, he doesn't really think he's sacrificing himself, because he genuinely believes that he's strong enough to defeat any obstacle he's facing.
-:{{A|vo cyaq004 3 paimon 02.ogg}} '''Paimon:''' Giant ego alert... And wasn't he just doing the same thing Xiao suggested? So stupid!
-:{{DIcon}} Why didn't you try to stop him?
-:{{A|vo cyaq004 3 shinobu 07.ogg}} '''Kuki Shinobu:''' The boss is hardly open to persuasion. Besides, he always acts without thinking. There's no doubt that he really thought he was about to solve everything in one hit.
-:{{A|vo cyaq004 3 shinobu 08.ogg}} '''Kuki Shinobu:''' It's not just him either. The other guys in the Arataki Gang are more or less the same. That's why they need someone like me to clean up after them.
-:{{A|vo cyaq004 3 shinobu 09.ogg}} '''Kuki Shinobu:''' I couldn't stop him if I tried, so I might as well just let him do his thing. Besides, often his hare-brained intuition is surprisingly on point. We might punch our way out of here yet.
-:{{A|vo cyaq004 3 paimon 03.ogg}} '''Paimon:''' Uhh... Itto... Please tell Paimon you're okay...
-:{{A|vo cyaq004 3 xiao 01.ogg}} '''Xiao:''' ...I'm sorry.
-:{{A|vo cyaq004 3 shinobu 10.ogg}} '''Kuki Shinobu:''' Don't be, you have nothing to apologize for. Both you and Yelan made some very good points.
-:{{A|vo cyaq004 3 shinobu 11.ogg}} '''Kuki Shinobu:''' Still, if this was an Arataki Gang issue and you were one of our members, I have to say I'd side with Yelan on this one.
-:{{A|vo cyaq004 3 shinobu 12.ogg}} '''Kuki Shinobu:''' The boss definitely wasn't sacrificing himself. He firmly believed that we'd be able to find a way out through the passage he opened up, and he's certainly not expecting to be left behind.
-:{{A|vo cyaq004 3 shinobu 13.ogg}} '''Kuki Shinobu:''' Everyone's important. We have to support each other if we're going to get out of here. Your survival is of huge importance to some people... no, to a whole lot of people.
-:{{A|vo cyaq004 3 paimon 04.ogg}} '''Paimon:''' ...Shinobu...
-:{{A|vo cyaq004 3 shinobu 14.ogg}} '''Kuki Shinobu:''' Everyone, let's all do our best to try and find a way out. There's still a chance... I'm sure we can escape.
-:{{A|vo cyaq004 3 shinobu 15.ogg}} '''Kuki Shinobu:''' Leave the boss to me. Don't worry.
-:{{A|vo cyaq004 3 xiao 02.ogg}} '''Xiao:''' ...
-:{{A|vo cyaq004 3 yelan 02.ogg}} '''Yelan:''' Everyone, it seems this passage doesn't lead to the outside world, but deeper inside.
-:{{A|vo cyaq004 3 paimon 05.ogg}} '''Paimon:''' What the... so Itto's efforts were in vain...
-:{{A|vo cyaq004 3 yelan 03.ogg}} '''Yelan:''' No, it's still worth exploring. I'll go and take a look first.
-:{{A|vo cyaq004 3 yanfei 02.ogg}} '''Yanfei:''' ...Aha, I see! I'm with you.
-:{{A|vo cyaq004 3 paimon 06.ogg}} '''Paimon:''' Uh, what?
-:{{A|vo cyaq004 3 yanfei 03.ogg}} '''Yanfei:''' So far, I still haven't found the thing I came looking for. That magical device. Remember?
-:{{A|vo cyaq004 3 yanfei 04.ogg}} '''Yanfei:''' If this domain has the power to project our imaginations or the things we're searching for into reality... Well, maybe I can use that to my advantage to track it down.
-:{{A|vo cyaq004 3 paimon 07.ogg}} '''Paimon:''' Oh, right! No wonder she keeps telling us to keep going... If it's a magical device, it must be super powerful!
-:{{A|vo cyaq004 3 yanfei 05.ogg}} '''Yanfei:''' Well, I can't guarantee that, but it's worth a try.
-:{{A|vo cyaq004 3 xiao 03.ogg}} '''Xiao:''' I will find a way.
-:{{DIcon}} Wait...
-:{{A|vo cyaq004 3 yanfei 06.ogg}} '''Yanfei:''' Let them go. But if you were planning on going into that domain too, (Traveler), then come with me.
-:{{A|vo cyaq004 3 yanfei 07.ogg}} '''Yanfei:''' After all, I'm just a lawyer, hehe. We'll be safer if we team up.
-:{{A|vo cyaq004 3 yanfei 08.ogg}} '''Yanfei:''' By the way, um... You and Xiao seem pretty close, huh? Yelan got a bit worked up just now, so I just wanted to apologize on her behalf.
-:{{A|vo cyaq004 3 yanfei 09.ogg}} '''Yanfei:''' I have to say, though, if Yelan hadn't spoken out like she did, I'm not sure she would've gotten through to him. Also... self-sacrifice is something Yelan feels strongly about. She'd try to stop whoever it was.
-:{{A|vo cyaq004 3 yanfei 10.ogg}} '''Yanfei:''' From what I know, she's lost comrades in the line of duty before, and then was rescued herself. Maybe being a survivor is what makes her so against seeing other people sacrifice themselves.
-:{{A|vo cyaq004 3 yanfei 11.ogg}} '''Yanfei:''' How can things ever be the same again, knowing that your life was saved when others weren't? In a way, salvation can also be a burden.
-:{{A|vo cyaq004 3 yanfei 12.ogg}} '''Yanfei:''' ...If I were her, I'm not sure if I would have done anything different.
-:{{DIcon}} ...
-:{{A|vo cyaq004 3 yanfei 13.ogg}} '''Yanfei:''' Oh! Wait, one second, I'll be right there.
-:{{A|vo cyaq004 3 yanfei 14.ogg}} '''Yanfei:''' ...Hya!
-:{{A|vo cyaq004 3 yanfei 15.ogg}} '''Yanfei:''' Right, that's much safer. Since Itto can't fight right now, I've cast a spell to protect you guys.
-:{{A|vo cyaq004 3 shinobu 16.ogg}} '''Kuki Shinobu:''' Thank you, Senpai. Please be careful.
-:{{A|vo cyaq004 3 yanfei 16.ogg}} '''Yanfei:''' We will, same to you.
-:{{A|vo cyaq004 3 yanfei 17.ogg}} '''Yanfei:''' Alright, Traveler, let's go.
-
-;(Talk to Kuki Shinobu again)
-:{{A|vo cyaq004 3 shinobu 17.ogg}} '''Kuki Shinobu:''' Don't worry. Ushi and I know how to take care of the boss.
-:{{A|vo cyaq004 3 shinobu 18.ogg}} '''Kuki Shinobu:''' I think I can speak for both of us in saying, it's not our first rodeo.
-:{{A|vo cyaq004 3 ushio 03.ogg}} '''Ushi:''' Moo, moo!
-:{{A|vo cyaq004 3 shinobu 19.ogg}} '''Kuki Shinobu:''' Go on, get outta here. And be careful.
-----
-{{Dialogue end}}
-{{Quest Description|update|After rendezvousing with Xiao, you and the others go over the curious and unsettling things you have seen underground. Xiao comes up with a plan, which Yelan firmly opposes. In the heat of the moment, Itto makes a bold move to stop their argument. Now in front of the path that Itto has opened, people decide to calm down and explore ahead, trying to discover the truth of this place and find a way out...}}
-{{Dialogue start}}
-;(Enter the ''[[Realm of Snaring Illusions]]'' Domain)
-:{{A|vo cyaq004 4 yanfei 01.ogg}} '''Yanfei:''' What's this?
-:{{DIcon}} What a weird and wonderful scene...
-:{{DIcon}} Spacetime has become totally chaotic...
-:{{A|vo cyaq004 4 yanfei 02.ogg}} '''Yanfei:''' Look at that huge disc in the distance... Hold on, is that the Fantastic Compass?
-:{{DIcon}} It's even bigger than a cooking pot...
-:{{DIcon}} It's even bigger than all our heads combined...
-:{{A|vo cyaq004 4 paimon 01.ogg}} '''Paimon:''' What? That's the best description you can come up with? It's way, way bigger than that!
-:{{A|vo cyaq004 4 yanfei 03.ogg}} '''Yanfei:''' Huh, well, it seems our theory checked out. In my humble legal opinion, that's almost certainly the magical device I've been looking for. It really showed up...
-:{{A|vo cyaq004 4 yanfei 04.ogg}} '''Yanfei:''' But, if this really is the Fantastic Compass... It's so huge! How the heck am I gonna lug that back to my office!
-:{{A|vo cyaq004 4 yanfei 05.ogg}} '''Yanfei:''' ...Ahem, I mean, come on Yanfei, don't give up now. Let's investigate the area first, (Traveler).
-:{{A|vo cyaq004 4 yanfei 06.ogg}} '''Yanfei:''' What the...! Are they... are they Treasure Hoarders?
-:{{DIcon}} What are Treasure Hoarders doing here?
-:{{A|vo cyaq004 4 yanfei 07.ogg}} '''Yanfei:''' They look familiar... Oh, yeah, I bumped into these rapscallions a few days ago.
-
-;(After defeating the opponents)
-:{{A|vo cyaq004 4 yanfei 08.ogg}} '''Yanfei:''' Phew, easy peasy. Just like last time.
-:{{A|vo cyaq004 4 yanfei 09.ogg}} '''Yanfei:''' You know, when I ran into them before, I was working on a big commercial case. The defendant hired them to attack me, just to get back at me.
-:{{DIcon}} Being a legal adviser sounds tough...
-:{{A|vo cyaq004 4 yanfei 10.ogg}} '''Yanfei:''' Eh, happens all the time. Luckily, I'm well trained in martial arts, so taking them down was a piece of cake.
-:{{A|vo cyaq004 4 yanfei 11.ogg}} '''Yanfei:''' But these are the exact same guys as I met last time... Is this space recreating scenes from my memory?
-:{{A|vo cyaq004 4 yanfei 12.ogg}} '''Yanfei:''' Maybe this is one of the ways our adversary intends to devour us... unbelievable.
-
-;(Approach the small dial)
-:{{A|vo cyaq004 4 yanfei 13.ogg}} '''Yanfei:''' There is a smaller disc here. Judging from the appearance and design... Hmm, in all likelihood, this is the Fantastic Compass.
-:{{A|vo cyaq004 4 yanfei 14.ogg}} '''Yanfei:''' Why is there a small version of the Fantastic Compass stuck in the ground? What's it for?
-
-;(Rotating the dial)
-:{{A|vo cyaq004 4 yanfei 15.ogg}} '''Yanfei:''' Huh? A new entrance! Great.
-
-;(Entering the portal)
-:{{A|vo cyaq004 4 paimon 02.ogg}} '''Paimon:''' Whoa! Is this a tunnel? Uh, this is weird... It feels like it's connecting to another world, or maybe {{Color|buzzword|another time}}...
-----
-;(Entering the second portal)
-:{{A|vo cyaq004 5 yanfei 01.ogg}} '''Yanfei:''' I thought we might run into some other people here, but apparently not...
-:{{DIcon}} Yanfei, what's that sound?
-:{{A|vo cyaq004 5 yanfei 02.ogg}} '''Yanfei:''' The Fatui? Whose memory is this?
-:{{color|menu|The Fatui show up...}}
-:{{A|vo cyaq004 5 yanfei 03.ogg}} '''Yanfei:''' Aaah, watch out!
-:{{A|vo cyaq004 5 yelan 01.ogg}} '''Yelan:''' Hmph, just as I thought.
-:{{A|vo cyaq004 5 yanfei 04.ogg}} '''Yanfei:''' Yelan, you're here!
-:{{A|vo cyaq004 5 yelan 02.ogg}} '''Yelan:''' I will take you down no matter how many times you show up.
-:{{A|vo cyaq004 5 yanfei 05.ogg}} '''Yanfei:''' Hey, relax, we're all together now.
-
-;(When Pyro Fatui Agent spawns)
-:{{A|vo cyaq004 5 boyang 01.ogg}} '''Mysterious Voice:''' ...I mustn't given up... but can I... out of here?
-:{{A|vo cyaq004 5 boyang 02.ogg}} '''Mysterious Voice:''' ...I will record... thing I see... and... in the... compass...
-:{{A|vo cyaq004 5 boyang 03.ogg}} '''Mysterious Voice:''' ...I just... home... I'm so tired...
-
-;(After defeating the opponents)
-:{{A|vo cyaq004 6 yelan 01.ogg}} '''Yelan:''' Amateurs. And still they dare to come after me.
-:{{A|vo cyaq004 6 yanfei 01.ogg}} '''Yanfei:''' You've still got it.
-:{{DIcon}} That voice just now...
-:{{A|vo cyaq004 6 yelan 02.ogg}} '''Yelan:''' Remember how I said I'd seen some illusions myself?
-:{{A|vo cyaq004 6 yelan 03.ogg}} '''Yelan:''' Those were the same words I heard last time. The space seems to be reproducing that memory...
-:{{A|vo cyaq004 6 yelan 04.ogg}} '''Yelan:''' Now that you know, at least we're all on the same page.
-:{{A|vo cyaq004 6 yanfei 02.ogg}} '''Yanfei:''' He said the word "fantastic"... was he talking about the Fantastic Compass?
-:{{A|vo cyaq004 6 yelan 05.ogg}} '''Yelan:''' Yanfei, see that thing on the ground?
-:{{A|vo cyaq004 6 yanfei 03.ogg}} '''Yanfei:''' Yeah, we tinkered with it, that's how we met up with you. I guess it's a miniature version of the Fantastic Compass in the distance... It has a close connection to the entire space.
-:{{A|vo cyaq004 6 yelan 06.ogg}} '''Yelan:''' Hmm. It looks somewhat familiar, let me think...
-----
-;(Entering the third portal)
-:{{A|vo cyaq004 7 yelan 01.ogg}} '''Yelan:''' ...Another new space.
-:{{A|vo cyaq004 7 yanfei 01.ogg}} '''Yanfei:''' If everywhere within this space follows the same rules, there must be another small Fantastic Compass somewhere around here.
-:{{A|vo cyaq004 7 xiao 01.ogg}} '''Xiao:''' ...Bosacius, I can't believe someone like you would end up as a lost soul underground.
-:{{DIcon}} Xiao!
-:{{A|vo cyaq004 7 yelan 02.ogg}} '''Yelan:''' No enemies? Hold on...
-:{{A|vo cyaq004 7 yanfei 02.ogg}} '''Yanfei:''' Wait... is the enemy hiding itself? Oh no, we should go help him&mdash;
-:{{A|vo cyaq004 7 xiao 02.ogg}} '''Xiao:''' Stay back!
-:{{A|vo cyaq004 7 xiao 03.ogg}} '''Xiao:''' This is my fight... do not come near me.
-
-:{{A|vo cyaq004 7 bosacius 01.ogg}} '''???:''' Filthy monsters, so many people have died at your hands...
-:{{A|vo cyaq004 7 bosacius 02.ogg}} '''???:''' I lured you here to this underground space because I found your weakness.
-:{{A|vo cyaq004 7 xiao 04.ogg}} '''Xiao:''' Hiding and ambushing from the dark is Bosacius's signature tactic
-:{{A|vo cyaq004 7 bosacius 03.ogg}} '''???:''' Die here with me!
-:{{A|vo cyaq004 7 xiao 05.ogg}} '''Xiao:''' Hmm...!
-:{{A|vo cyaq004 7 xiao 06.ogg}} '''Xiao:''' ...Hah... How did a valiant warrior like you die here...
-
-:{{A|vo cyaq004 7 paimon 01.ogg}} '''Paimon:''' Uh-oh, this is not going well for Xiao...
-:{{A|vo cyaq004 7 xiao 07.ogg}} '''Xiao:''' No matter... I know how this ends.
-:{{A|vo cyaq004 7 bosacius 04.ogg}} '''???:''' ...*panting*... *panting*...
-:{{A|vo cyaq004 7 yanfei 03.ogg}} '''Yanfei:''' Look! Bosacius is showing signs of fatigue!
-:{{A|vo cyaq004 7 xiao 08.ogg}} '''Xiao:''' Bosacius, Marshal Vritras... even your strength is finite.
-:{{A|vo cyaq004 7 xiao 09.ogg}} '''Xiao:''' But your illusion is not as mighty as you. This is not you in all your glory.
-:{{A|vo cyaq004 7 xiao 10.ogg}} '''Xiao:''' I wonder what Rex Lapis would think... if he saw what had become of the First Yaksha.
-:{{A|vo cyaq004 7 bosacius 05.ogg}} '''???:''' ...Leave! I'll deal with the rest. We can't let the monsters get to the surface.
-:{{A|vo cyaq004 7 bosacius 06.ogg}} '''???:''' Everyone, remember, we must hold the line at 60 miles outside The Chasm at all costs!
-
-;(After combat ends)
-:{{A|vo cyaq004 7 xiao 11.ogg}} '''Xiao:''' Ugh! ...*cough*
-:{{A|vo cyaq004 7 xiao 12.ogg}} '''Xiao:''' Enough... phantom, be gone!
-:{{A|vo cyaq004 7 bosacius 07.ogg}} '''???:''' Argh!
-:{{A|vo cyaq004 7 paimon 02.ogg}} '''Paimon:''' Xiao, are you okay?
-:{{DIcon}} You haven't even recovered from your injuries yet...
-:{{A|vo cyaq004 7 xiao 13.ogg}} '''Xiao:''' This is my purpose. Don't worry about me.
-:{{A|vo cyaq004 7 yelan 03.ogg}} '''Yelan:''' So your invisible opponent was the legendary Bosacius, Marshal Vritras?
-:{{A|vo cyaq004 7 xiao 14.ogg}} '''Xiao:''' Yes.
-:{{A|vo cyaq004 7 xiao 15.ogg}} '''Xiao:''' So excuse my stubbornness. Bosacius has been missing for centuries... This may have been the last time I will ever see him.
-:{{A|vo cyaq004 7 paimon 03.ogg}} '''Paimon:''' He was saying something about holding the line at all costs...
-:{{A|vo cyaq004 7 xiao 16.ogg}} '''Xiao:''' He fought here. The nameless yaksha from the legends... it was him.
-:{{A|vo cyaq004 7 paimon 04.ogg}} '''Paimon:''' But didn't you say he'd always announce his name? How could his name be lost to time? ...What happened?
-:{{A|vo cyaq004 7 xiao 17.ogg}} '''Xiao:''' ...
-:{{A|vo cyaq004 7 xiao 18.ogg}} '''Xiao:''' I don't know. Maybe he forgot who he was.
-:{{A|vo cyaq004 7 yanfei 04.ogg}} '''Yanfei:''' Because the karma you spoke of drove him to madness?
-:{{A|vo cyaq004 7 xiao 19.ogg}} '''Xiao:''' Bosacius had already gone mad before he disappeared. There was no way of knowing if his memories were intact.
-:{{A|vo cyaq004 7 yelan 04.ogg}} '''Yelan:''' He still took part in the battle of The Chasm, despite having gone mad?
-:{{DIcon}} ...
-:{{A|vo cyaq004 7 xiao 20.ogg}} '''Xiao:''' We yakshas are not a race that thrive in peacetime. It's likely that he was drawn by the scent of bloody war.
-:{{A|vo cyaq004 7 xiao 21.ogg}} '''Xiao:''' Slaughter is what we do best... Maybe it's the only thing we know.
-:{{DIcon}} ...
-:{{A|vo cyaq004 7 xiao 22.ogg}} '''Xiao:''' This battle confirmed my suspicions. As we had speculated, this space reflects information from people's minds.
-:{{A|vo cyaq004 7 xiao 23.ogg}} '''Xiao:''' In other words, despite going mad, Bosacius came here. The illusion we saw just now is the impression he left behind.
-:{{A|vo cyaq004 7 xiao 24.ogg}} '''Xiao:''' This space recreated him as he was during the battle. The way he fought was so self-destructive... He couldn't possibly have survived.
-:{{DIcon}} He fought the monsters...
-:{{A|vo cyaq004 7 yelan 05.ogg}} '''Yelan:''' Bosacius's illusion said he'd discovered the monsters' weakness and lured them underground.
-:{{A|vo cyaq004 7 yelan 06.ogg}} '''Yelan:''' What kind of place could this be? Defeating Khaenri'ah's monsters is no small feat, that's for sure.
-:{{A|vo cyaq004 7 yanfei 05.ogg}} '''Yanfei:''' Guys, it could just be me, but... I think I'm suddenly feeling more tired than I was.
-:{{A|vo cyaq004 7 yelan 07.ogg}} '''Yelan:''' This space is really starting to affect us.
-:{{A|vo cyaq004 7 xiao 25.ogg}} '''Xiao:''' I believe Bosacius stayed here, underground. But now he is gone, and only his illusion remains.
-:{{A|vo cyaq004 7 xiao 26.ogg}} '''Xiao:''' If we don't leave, we may meet the same fate.
-:{{DIcon}} Let's go.
-:{{A|vo cyaq004 7 xiao 27.ogg}} '''Xiao:''' Time to move on.
-:{{A|vo cyaq004 7 xiao 28.ogg}} '''Xiao:''' You fought well, Bosacius. Goodbye.
-----
-;(Entering the fourth portal)
-:{{A|vo cyaq004 8 paimon 01.ogg}} '''Paimon:''' Looks like there's some information here. Shall we take a look?
-:{{A|vo cyaq004 8 yanfei 01.ogg}} '''Yanfei:''' Okay, let's see.
-:{{color|menu|According to the letter several Millelith soldiers once came to patrol the area, but they became trapped just like you. Although they missed home, they could never return above ground.}}
-:;(Opens [[Note of Unknown Origin: IV|Some Person's Notes]])
-::Letter 4:
-::We have no idea how long it's been since we came out with our comrades on patrol.
-::But according to the information we've garnered, the beasts have completely lost all mobility. Indeed, most of them have disappeared.
-::We are victorious, and what a grand victory it is... save that we can never again return home.
-::<br />
-::Hulan's daughter will turn two this year and Qingming's grandmother is getting long in the tooth. The two of them miss their family sorely. Though I myself have no relations...
-::No one does not wish to return home. But for those of us who are here, we are the only kin we have now.
-::<br />
-::This place is very mysterious indeed. I do not know if it is because we miss home, or because this place was always like this, but... When we're on patrol here, we can see sights that we could only see back home.
-::I used to hear the old folks say that Liyue has had hundreds of years of history when comes to mining in the mountains. But this doesn't look like any mine.
-::Perhaps this might all be my imagination, what with missing my childhood home back in the mining settlement...
-::<br />
-::How I wish I could go back there...
-:{{A|vo cyaq004 8 yelan 01.ogg}} '''Yelan:''' ...
-:{{A|vo cyaq004 8 yelan 02.ogg}} '''Yelan:''' It looks like these were letters written by the Millelith soldiers who stayed here.
-:{{A|vo cyaq004 8 paimon 02.ogg}} '''Paimon:''' So who's this "[[Boyang]]" they mentioned?
-:{{A|vo cyaq004 8 yelan 03.ogg}} '''Yelan:''' Boyang was... one of my ancestors. The one who didn't make it back.
-:{{A|vo cyaq004 8 yanfei 02.ogg}} '''Yanfei:''' You mean, Boyang fought alongside Bosacius?
-:{{A|vo cyaq004 8 yelan 04.ogg}} '''Yelan:''' I believe so.
-:{{A|vo cyaq004 8 xiao 01.ogg}} '''Xiao:''' And the Millelith soldiers were their brothers-in-arms.
-:{{A|vo cyaq004 8 yelan 05.ogg}} '''Yelan:''' ...I guess now we have a pretty good idea of where everyone that went missing ended up.
-:{{A|vo cyaq004 8 xiao 02.ogg}} '''Xiao:''' Yes.
-:{{A|vo cyaq004 8 paimon 03.ogg}} '''Paimon:''' Uhhh... So scary. What happened...
-:{{A|vo cyaq004 8 yelan 06.ogg}} '''Yelan:''' Come on. Let's not stay here.
-:{{A|vo cyaq004 8 yelan 07.ogg}} '''Yelan:''' I have a gut feeling that sooner or later we'll connect all the dots... and then, we'll finally know the truth.
-:{{A|vo cyaq004 8 yelan 08.ogg}} '''Yelan:''' Still, who knows how this space is planning on revealing the answer to us.
-----
-;(Entering the fifth portal)
-:{{A|vo cyaq004 9 paimon 01.ogg}} '''Paimon:''' There's nothing here at all!
-:{{A|vo cyaq004 9 yanfei 01.ogg}} '''Yanfei:''' What a creepy space.
-:{{A|vo cyaq004 9 yelan 01.ogg}} '''Yelan:''' It has the feel of the Abyss.
-:{{A|vo cyaq004 9 yelan 02.ogg}} '''Yelan:''' But... where are the opponents?
-:{{A|vo cyaq004 9 xiao 01.ogg}} '''Xiao:''' ...
-:{{DIcon}} ...
-::{{DIcon}} I think this is my memory.
-:{{A|vo cyaq004 9 paimon 02.ogg}} '''Paimon:''' Your memory? Of what?
-:{{DIcon}} Of emptiness. That's the power of the Abyss.
-:{{A|vo cyaq004 9 paimon 03.ogg}} '''Paimon:''' The Abyss? So.... this place is created purely based on your memory?
-:{{DIcon}} I'm afraid so. Because I will always remember...
-:{{DIcon}} ...That the Abyss took my twin away.
-:'''(Traveler):''' (The Abyss... It's always bad news.)
-:'''(Traveler):''' (The purpose of my journey is to find you. I will keep going, and imagine a better tomorrow with you.)
-:{{A|vo cyaq004 10 paimon 01.ogg}} '''Paimon:''' It's getting darker...
-:'''(Traveler):''' (Okay, I have to get everyone out of here. I'll find a way to survive this... then find the lost treasure.)
-
-;(A cutscene plays)
-:{{A|vo cyaq004 10 paimon 02.ogg}} '''Paimon:''' *gasp* It's... it's...
-:{{A|vo cyaq004 10 hero 01.ogg}} {{A|vo cyaq004 10 heroine 01.ogg}} '''(Traveler):''' (Lumine/Aether)! Wait!
-
-;(Investigate the object)
-:{{A|vo cyaq004 10 paimon 03.ogg}} '''Paimon:''' Huh? What's that shiny round thing on the ground?.
-:{{DIcon}} (It looks like...)
-:{{A|vo cyaq004 10 yanfei 01.ogg}} '''Yanfei:''' ...The Fantastic Compass?
-:{{A|vo cyaq004 10 yelan 01.ogg}} '''Yelan:''' In the other spaces, the Fantastic Compass was always partially buried in the ground. But this one is lying flat, intact... as if somebody left it here.
-:{{A|vo cyaq004 10 paimon 04a.ogg}} {{A|vo cyaq004 10 paimon 04b.ogg}} '''Paimon:''' Oh... (she/he) was just a figment of your imagination, (Traveler)...?
-:{{A|vo cyaq004 10 paimon 05a.ogg}} {{A|vo cyaq004 10 paimon 05b.ogg}} '''Paimon:''' So (she/he) appeared as an illusion because you miss (her/him) so much, huh?
-:{{DIcon}} I can sense that (she/he) is not here.
-::{{DIcon}} But at least we found this.
-:{{A|vo cyaq004 10 paimon 06.ogg}} '''Paimon:''' Mmm...
-:{{A|vo cyaq004 10 yelan 02.ogg}} '''Yelan:''' Yanfei, are you sure this is the Fantastic Compass you're looking for?
-:{{A|vo cyaq004 10 yanfei 02.ogg}} '''Yanfei:''' I think so. There were no pictures in the will, but based on the description, it seems to check out.
-:{{A|vo cyaq004 10 yanfei 03.ogg}} '''Yanfei:''' Yelan? What is it?
-:{{A|vo cyaq004 10 yelan 03.ogg}} '''Yelan:''' From the design and build, this Fantastic Compass looks extremely similar to the catalysts used by my clan. I just need to do this, and...
-:{{A|vo cyaq004 10 yelan 04.ogg}} '''Yelan:''' ...Hmph, someone's used this before. There may be a hidden message inside.
-:{{A|vo cyaq004 10 yelan 05.ogg}} '''Yelan:''' Let's get out of here and find somewhere safer.
-----
-{{Dialogue end}}
-{{Quest Description|update|After encountering a series of space-and-time anomalies, you and the others manage to find some clues. You exchange information with one another in hopes of finding a way out.}}<!-- I checked the quest menu at this point but not sure if this is the correct spot or if the quest description update begins earlier -->
-{{Dialogue start}}
-;(After teleporting out of the abyss)
-:{{A|vo cyaq004 11 yelan 01.ogg}} '''Yelan:''' Alright, here will be fine. Take a moment to catch your breath while I try to unlock the Fantastic Compass.
-
-;(Talk to Xiao)
-:{{A|vo cyaq004 11 xiao 01.ogg}} '''Xiao:''' Bosacius was the leader of the Five Yakshas under Rex Lapis's command. He could control Electro energy.
-:{{A|vo cyaq004 11 xiao 02.ogg}} '''Xiao:''' Unlike me, he was both a formidable warrior and a talented commander.
-:{{A|vo cyaq004 11 xiao 03.ogg}} '''Xiao:''' ...
-
-;(Talk to Yanfei)
-:{{A|vo cyaq004 11 yanfei 01.ogg}} '''Yanfei:''' Now that I've found the Fantastic Compass, my work here is done.
-:{{A|vo cyaq004 11 yanfei 02.ogg}} '''Yanfei:''' But if the Bosacius we saw was just an illusion, will we really be able to take anything we find here back to the outside world? Hmm...
-
-;(Talk to Yelan)
-:{{A|vo cyaq004 11 yelan 02.ogg}} '''Yelan:''' Within Yin and Yang, among the five regions, water, fire, wind, and thunder cycle like the seasons. Grasp the seven heavens from the ground, open wide the three gates, all the world within reach...
-{{Dialogue end}}
-
-==Video Guides==
-{{EVT
-|video1   = https://youtu.be/ibE7x0LSe0w
-|caption1 = Realm of Snaring Illusions Domain Guide
+{{Description|This seems to be a now-extinct fish. Its body is sufficiently elastic that a string may be attached to it to let it serve as a bow.
 }}
 
-==Trivia==
-*Yelan's line at the end of the quest is derived from certain aspects of Chinese culture:
-**The "five regions" refers to the Chinese concept of {{lang|mini=1|zh=五方|zh_rm=Wǔfāng}}, which encompasses north, south, east, west, and center. This concept is closely interrelated with the {{lang|{{w|Wufang Shangdi}}|zh=五方上帝|zh_tl=Five Regions' Highest Deities}} and the {{lang|{{w|Wuxing (Chinese philosophy)|Wuxing}}|zh=五行|zh_lit=Five Phases}}, among other things.
-***In Chinese philosophy, the five elements in the Wuxing are Fire, Water, Wood, Metal (or Gold), and Earth. In Liyue, four of the known elements are Fire, Water, Wind, and Thunder. Given their correlation to the Five Yakshas, the fifth unmentioned element may be Earth.
-**The "seven heavens" is a translation of {{lang|mini=1|zh=七辰|zh_rm=qī chén}} which, when read as separate words, can refer to a literal seven heavenly bodies (or stars).<ref>Wiktionary: {{wt|辰||Definitions}}</ref> It also has a literary meaning which refers to the sun, moon, and five stars,<ref>Baidu Encyclopedia: [https://baike.baidu.com/item/%E4%B8%83%E8%BE%B0/4558061 七辰] (Chinese)</ref> where the five stars refer to Mercury (north), Mars (south), Jupiter (east), Venus (west), and Saturn (center). These planets tie into the aforementioned concepts of the Five Regions, the Wuxing, and the Wufang Shangdi.
-**The {{lang|"three gates"|zh=三门}} may be a reference to the {{lang|mini=1|zh={{wt|三才||Chinese}}|zh_rm=|zh_tl=Three Powers (or Three Talents)}} of heaven, earth, and humans, which is also related to the above concepts. It was first used in the ''{{w|I Ching}}'' in reference to the concept of yin and yang.<ref>Chinese Text Project: [https://ctext.org/book-of-changes?searchu=%E5%85%BC%E4%B8%89%E6%89%8D%E8%80%8C%E5%85%A9%E4%B9%8B ''I Ching'': 說卦 - Shuo Gua]</ref>
+'''End of the Line''' is a 4-Star [[Bow]] obtained from the [[Sumeru Fishing Association]].
 
+==Ascensions and Stats==
+{{Weapon Ascensions and Stats
+|ascendMat1 = Echo of Scorching Might
+|ascendMat2 = Remnant Glow of Scorching Might
+|ascendMat3 = Dream of Scorching Might
+|ascendMat4 = Olden Days of Scorching Might
+|bossMat1   = Inactivated Fungal Nucleus
+|bossMat2   = Dormant Fungal Nucleus
+|bossMat3   = Robust Fungal Nucleus
+|commonMat1 = Fungal Spores
+|commonMat2 = Luminescent Pollen
+|commonMat3 = Crystalline Cyst Dust
+}}
+
+==Recipe==
+'''End of the Line''' and its refining material [[Original Fish Ointment]] can be purchased from the [[Sumeru Fishing Association]].
+
+{{Shop Availability|End of the Line|currency=Fish}}
+{{Shop Availability|Original Fish Ointment|currency=Fish}}
+
+==Description==
+Gurgling water once flowed into the yellow sand, but that was a long time ago.<br />
+The great being would follow the brontides and divine will into the desert in latter days, but few would survive in the end.<br />
+The fish that once shot forth like an arrow across a huge lake on the plateau,<br />
+That would stretch out as straight as a spear, cruising back and forth between the sacred sites,<br />
+Would see its stream seep into the sand, its lake shrink into a puddle,<br />
+Till at last, it wound up curled in a little plash, at the mercy of passing pilgrims.
+
+The lesson of this story is as such:<br />
+As long as your are pious and kind, you can get a fish even in the midst of the desert sands.
+<!--
+==Preview==
+{{LoopOgv
+|size=380px
+|video=Weapon End of the Line Passive.ogv
+|gif=Weapon End of the Line Passive.gif
+}}
+-->
 ==Gallery==
-<gallery captionalign="center">
-End of the Line Yanfei Protection Spell.png|Yanfei's Protection Spell
+<gallery>
+Weapon End of the Line 3D.png|Full Weapon
+Weapon End of the Line 2nd 3D.png|2nd Ascension Phase Full Weapon
+Weapon Card End of the Line.png|[https://twitter.com/GenshinImpact/status/1561926204311076865 Weapon Details Announcement]
 </gallery>
 
+==Availability==
+* Purchased from [[Sumeru Fishing Association]]
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/dLVZjc6Ba04
+|caption1 = How To Get: 4 Star Bow Weapon End of the Line
+}}
 ==Other Languages==
+{{Flex|
+===Weapon===
 {{Other Languages
 |en      = End of the Line
-|zhs     = 穷途末路
-|zhs_rm  = Qióngtúmòlù
-|zht     = 窮途末路
-|zht_rm  = Qióngtúmòlù
-|zh_tl   = Dead End
-|ja      = 窮途末路
-|ja_rm   = Kyuuto Matsuro
-|ja_tl   = Dead End
-|ko      = 막다른 골목
-|ko_rm   = Makdareun Golmok
-|ko_tl   = Dead-end Alley
-|es      = Callejón sin salida
-|es_tl   = Alley Without Exit
-|fr      = La fin de la ligne
-|fr_tl   = The End of the Line
-|ru      = Конец пути
-|ru_tl   = 
-|th      = หมดสิ้นหนทาง
-|th_rm   = Mot Sin Hontang
-|th_tl   = No Way Left
-|vi      = Cùng Đường Mạt Lộ
-|vi_tl   = 
-|de      = Die Sackgasse
-|de_tl   = The Dead End
-|id      = Tampak Bak Ujung Tanduk
-|id_tl   = Looks Like a Dangerous Situation
-|pt      = Caminho sem Saída
+|zhs     = 竭泽
+|zhs_rm  = Jiézé
+|zht     = 竭澤
+|zht_rm  = Jiézé
+|zh_tl   = Exhaust the Pond
+|ja      = 竭沢
+|ja_rm   = Ketsutaku{{Assumed}}
+|ja_tl   = Exhaust the Swamp
+|ko      = 메마른 {{tt|연|蓮}}못
+|ko_rm   = Memareun Yeonmot
+|ko_tl   = Parched Pond
+|es      = Fin de la Aguas
+|es_tl   = End of the Waters
+|fr      = Chalutier
+|fr_tl   = Trawler
+|ru      = Иссушитель
+|ru_tl   = Witherer
+|th      = End of the Line
+|vi      = Sông Cạn
+|vi_tl   = Dry River
+|de      = Schwertfischer
+|de_tl   = Sword Fisher
+|id      = End of the Line
+|pt      = Águas Secas
 |pt_tl   = 
-|id_note = "Ujung Tanduk" is an Indonesian idiom, meaning "a dangerous situation" or "emergency"
+|tr      = Yolun Sonu
+|tr_tl   = 
+|it      = Pesce da lenza
+|it_tl   = Line Fish
+}}
+|
+===Passive===
+{{Other Languages
+|en      = Net Snapper
+|zhs     = 网破
+|zhs_rm  = Wǎngpò
+|zht     = 網破
+|zht_rm  = Wǎngpò
+|zh_tl   = 
+|ja      = ネットブレーカー
+|ja_rm   = Netto Bureekaa
+|ja_tl   = Net Breaker
+|ko      = 찢어진 그물
+|ko_tl   = Torn Net
+|es      = Romperredes
+|es_tl   = Net Breaker
+|fr      = Délaceur
+|fr_tl   = Unlacer
+|ru      = Разрывающий сети
+|ru_tl   = Net Snapper
+|th      = Net Snapper
+|vi      = Phá Lưới
+|vi_tl   = 
+|de      = Netzreißer
+|de_tl   = 
+|id      = Net Snapper
+|pt      = Rompedor de Redes
+|pt_tl   = 
+|tr      = Ağ Koparan
+|tr_tl   = 
+|it      = Spaccareti
+|it_tl   = 
+}}
 }}
 
 ==Change History==
-{{Change History|2.7}}
-
-==References==
-{{reflist}}
+{{Change History|3.0}}
 
 ==Navigation==
-{{Archon Quest Navbox|Interlude Chapter}}
+{{Weapons by Series Navbox|series=Fishing Association}}
+{{Weapon Navbox|Bows}}
 
-[[vi:Cùng Đường Mạt Lộ]]
+[[es:Fin de las Aguas]]
+[[fr:Chalutier]]
+[[pl:Miecznik]]
+[[pt-br:Águas Secas]]
+[[ru:Иссушитель]]
+[[th:End of the Line]]
+[[vi:Sông Cạn]]

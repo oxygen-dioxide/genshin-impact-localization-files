@@ -9,13 +9,17 @@
 |summary       = 
 |character     = Raiden Shogun
 |startLocation = [[Araumi]], [[Inazuma]]
+|region        = Inazuma
+|area          = Narukami Island
+|subarea       = Araumi
 |requirement   =
 |prev          = Cleansing Light
 |next          = Radiant Sakura
+|domain        = End of the Oneiric Euthymia (Quest Domain)
 |exp           = 600
 |mora          = 44,000
 |other         = {{Card|Hero's Wit|5}}{{Card|Mystic Enhancement Ore|10}}
-|characters    = Ei; Fujiki; Fukami; Paimon; Raiden Shogun; Traveler
+|characters    = Ei; Fujiki; Fukami; Paimon; Raiden Shogun; The Shogun; Traveler
 |voiced        = yes
 }}
 '''Farewell to the Past''' is the second part of [[Raiden Shogun]]'s [[Story Quest]]: [[Imperatrix Umbrosa Chapter]]: Act II - [[Transient Dreams]].
@@ -27,22 +31,18 @@
 # Defeat the [[Rifthounds]]
 #* The player's party will be locked to only the Raiden Shogun during this battle.
 #* The Raiden Shogun will temporarily become immobile at random moments throughout the fight.
-#* Wave 1
-#** {{Enemy|Thundercraven Rifthound Whelp|x=2}}
-#* Wave 2
-#** {{Enemy List|Rockfond Rifthound Whelp;Thundercraven Rifthound Whelp|#**}}
-#* Wave 3
-#** {{Enemy List|Thundercraven Rifthound;Thundercraven Rifthound Whelp|#**}}
+#* Wave 1 {{Enemy List|Thundercraven Rifthound Whelp*2}}
+#* Wave 2 {{Enemy List|Rockfond Rifthound Whelp;Thundercraven Rifthound Whelp}}
+#* Wave 3 {{Enemy List|Thundercraven Rifthound;Thundercraven Rifthound Whelp}}
 # Talk to Ei and ascertain her condition
 # Aid the samurai in defeating the Rifthounds
-#* Wave 1
-#** {{Enemy|Thundercraven Rifthound Whelp|x=2}}
-#* Wave 2
-#** {{Enemy List|Thundercraven Rifthound;Thundercraven Rifthound Whelp|#**}}
+#* Wave 1 {{Enemy List|Thundercraven Rifthound Whelp*2}}
+#* Wave 2 {{Enemy List|Thundercraven Rifthound;Thundercraven Rifthound Whelp}}
 # Talk to Ei and the samurai
 # Go to the cave below the [[Grand Narukami Shrine]]
 # Talk to Ei
-# Enter the [[End of the Oneiric Euthymia (Quest Domain)|secret realm]]
+# Enter the secret realm
+#* Enter the Quest Domain: [[End of the Oneiric Euthymia (Quest Domain)|End of the Oneiric Euthymia]]
 # Talk to Ei
 # Defeat the Raiden Shogun
 #* The player's party will be locked to only the Raiden Shogun during this battle.
@@ -53,65 +53,85 @@
 ==Trial Character==
 {{Trial Character
 <!--World Levels-->
-|wl                     = 5, 8
+| wl = 4, 5, 8
 
 <!--Character-->
-|character_name          = Raiden Shogun
-
-|character_level5        = 71
-|constellation5          = 3
-
-|character_level8        = 90
-|constellation8          = 3
+| character_name = Raiden Shogun
+| character_level4 = 61
+| constellation4 = 3
+| character_level5 = 71
+| constellation5 = 3
+| character_level8 = 90
+| constellation8 = 3
 
 <!--Weapom-->
-|weapon_name             = Engulfing Lightning
-
-|weapon_level5           = 71
-|refinement5             = 1
-
-|weapon_level8           = 90
-|refinement8             = 1
+| weapon_name = Engulfing Lightning
+| weapon_level4 = 61
+| refinement4 = 1
+| weapon_level5 = 71
+| refinement5 = 1
+| weapon_level8 = 90
+| refinement8 = 1
 
 <!--Artifacts-->
-|artifact_flower         = Royal Flora
-|artifact_feather        = Royal Plume
-|artifact_sands          = Royal Pocket Watch
-|artifact_goblet         = Royal Silver Urn
-|artifact_circlet        = Royal Masque
-|set1                    = Noblesse Oblige
-|set1_piece_bonus        = 4
+| artifact_flower4 = Medal of the Brave
+| artifact_feather4 = Prospect of the Brave
+| artifact_sands4 = Fortitude of the Brave
+| artifact_goblet4 = Outset of the Brave
+| artifact_circlet4 = Crown of the Brave
+| set1_4 = Brave Heart
+| set1_piece_bonus = 4
+| artifact_level4 = 16
 
-|artifact_level5         = 16
-
-|artifact_level8         = 20
+| artifact_flower = Royal Flora
+| artifact_feather = Royal Plume
+| artifact_sands = Royal Pocket Watch
+| artifact_goblet = Royal Silver Urn
+| artifact_circlet = Royal Masque
+| set1_5 = Noblesse Oblige
+| set1_8 = Noblesse Oblige
+| artifact_level5 = 16
+| artifact_level8 = 20
 
 <!--Talents-->
-|normal_attack_talent5   = 5
-|elemental_skill_talent5 = 5
-|elemental_burst_talent5 = 8
+| normal_attack_talent4 = 4
+| elemental_skill_talent4 = 4
+| elemental_burst_talent4 = 7
 
-|normal_attack_talent8   = 8
-|elemental_skill_talent8 = 8
-|elemental_burst_talent8 = 11
+| normal_attack_talent5 = 5
+| elemental_skill_talent5 = 5
+| elemental_burst_talent5 = 8
+
+| normal_attack_talent8 = 8
+| elemental_skill_talent8 = 8
+| elemental_burst_talent8 = 11
 
 <!--Stats-->
-|hp5                     = 20,788
-|atk5                    = 1,770
-|def5                    = 732
-|em5                     = 42
-|er5                     = 204.4%
-|crit_rate5              = 51.8%
-|crit_dmg5               = 91.9%
+| hp4 = 18,285
+| atk4 = 1,512
+| def4 = 555
+| em4 = 34
+| er4 = 161.3%
+| crit_rate4 = 50.6%
+| crit_dmg4 = 72.4%
 
-|hp8                     = 26,939
-|atk8                    = 2,274
-|def8                    = 935
-|em8                     = 105
-|er8                     = 222.1%
-|crit_rate8              = 57.1%
-|crit_dmg8               = 91.9%
+| hp5 = 20,788
+| atk5 = 1,770
+| def5 = 732
+| em5 = 42
+| er5 = 204.4%
+| crit_rate5 = 51.8%
+| crit_dmg5 = 91.9%
+
+| hp8 = 26,939
+| atk8 = 2,274
+| def8 = 935
+| em8 = 105
+| er8 = 222.1%
+| crit_rate8 = 57.1%
+| crit_dmg8 = 91.9%
 }}
+<!--This template appears in both [[Farewell to the Past]] and [[End of the Oneiric Euthymia (Quest Domain)]], so make sure that when editing one side, you edit the other; thanks!-->
 
 ==Dialogue==
 {{Quest Description|Many people's memories have escaped from the damaged roots of the Sacred Sakura. Raiden Ei takes the opportunity to tell you many stories about her cherished friends and the Inazuma she wants to protect.}}
@@ -243,7 +263,7 @@
 :{{A|vo sglq102 4 paimon 01.ogg}} '''Paimon:''' Whoa, where'd that torii gate come from?
 :{{DIcon}} Are you alright?
 :{{A|vo sglq102 4 raidenei 02.ogg}} '''Ei:''' It's getting worse again... But it's fine, I'm about to put an end to it all.
-:{{A|vo sglq102 4 raidenei 03.ogg}} '''Ei:''' This is a place I once sealed off with my own hands... The entrance to Raiden Makoto's realm of consciousness.
+:{{A|vo sglq102 4 raidenei 03.ogg}} '''Ei:''' This is a place I once sealed off with my own hands... The entrance to Raiden Makoto's [[Realm of Consciousness|realm of consciousness]].
 :{{A|vo sglq102 4 raidenei 04.ogg}} '''Ei:''' It looks like "she" will no longer allow me to do with this body as I please.
 :{{A|vo sglq102 4 paimon 02.ogg}} '''Paimon:''' Huh? What are you talking about? And who is "she" &mdash; Makoto?
 :{{A|vo sglq102 4 raidenei 05.ogg}} '''Ei:''' Follow me.
@@ -378,7 +398,7 @@
 |fr      = Des adieux au passé
 |fr_tl   = Farewells to the Past
 |ru      = Отказ от старого пути
-|ru_tl   = 
+|ru_tl   = Rejection of the Old Path
 |th      = ตัดเส้นทางในวันวาน
 |th_rm   = 
 |th_tl   = Cut the Path in the Past
@@ -390,7 +410,13 @@
 |id_tl   = Let the Past be the Past
 |pt      = Despedida ao passado
 |pt_tl   = 
+|tr      = Geçmişe Veda
+|tr_tl   = 
+|it      = Addio al passato
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|2.5}}
+
+[[es:Adiós al pasado]]

@@ -4,41 +4,51 @@
 |family   = Elemental Lifeforms
 |group    = Slimes
 |location = [[Mondstadt]]<br />[[Liyue]]<br />[[Enkanomiya]]
+|dmgtype  = Physical
+|weakpoint = no
 |element  = Dendro
 |ability1 = Invincibility Frames
 }}
-{{Description|A slime that has undergone ecological changes due to abundant Dendro in its environment.<br />It has also taken on the weaknesses of the Dendro element, and will burn intensely the moment it meets a bright flame.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Slimes}}
+===Items===
+{{Drops Table|type=Slimes (Small)}}
+
+===Energy===
+{{Energy Drops
+|type  = Dendro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|dendro_res=Immune|hp_ratio=0.8|atk_ratio=.6|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Stalk:''' If the player is out of melee range and has their back turned against it, '''peeks''' from the ground before approaching the player. It will stop moving if the player turns towards it.
-*'''Bump (Burrowed):''' If the player is within melee range and has their back turned against it, '''peeks''' from the ground before temporarily jumping out and bumping into the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-*'''Peek:''' If the Dendro Slime is attacked while peeking, it will be forced out of its burrowed state. If the player turns towards the Dendro Slime while it is taking a peek, it will be startled and jump back.
-*'''Bump:''' While on ground, bumps into the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Panic
+|desc_1 = When attacked by {{Pyro}}, Dendro Slimes will be forced out of their burrowed state, and will jump around while [[Burning]] is in effect.
+|file_1 = Dendro Slime Burning
+|caption_1 = Burning
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Dendro Slime Stalk
-|caption1=Stalk
+|name_2 = Stalk
+|desc_2 = If the player is out of melee range and has their back turned against it, '''peeks''' from the ground before approaching the player. It will stop moving if the player turns towards it.
 
-|file2=Dendro Slime Bump Burrowed
-|caption2=Bump (Burrowed)
+|name_3 = Bump (Burrowed)
+|desc_3 = If the player is within melee range and has their back turned against it, '''peeks''' from the ground before temporarily jumping out and bumping into the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+|file_3 = Dendro Slime Bump Burrowed
 
-|file3=Dendro Slime Startled
-|caption3=Startled
+|name_4 = Peek
+|desc_4 = If the Dendro Slime is attacked while peeking, it will be forced out of its burrowed state. If the player turns towards the Dendro Slime while it is taking a peek, it will be startled and jump back.
+|file_4 = Dendro Slime Startled
+|caption_4 = Startled
 
-|file4=Dendro Slime Burning
-|caption4=Burning
-
-|file5=Dendro Slime Bump
-|caption5=Bump
+|name_5 = Bump
+|desc_5 = While on ground, bumps into the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 }}
 
 ==Strategy==
@@ -47,9 +57,13 @@
 *When reacting to {{Pyro}}, the slime will be afflicted with [[Burning]] and jump out of the ground, running around wildly in the process. It will not attack while its top is burning, although it will eventually burn off and the slime will act like other smaller slimes in combat.
 *The hold version of [[Jean]]'s [[Gale Blade]] can pull Dendro Slimes out of the ground.
 
+==Descriptions==
+{{Description|A slime that has undergone ecological changes due to abundant Dendro in its environment.<br />It has also taken on the weaknesses of the Dendro element, and will burn intensely the moment it meets a bright flame.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Dendro Slime Icon.png|Icon
+Icon Emoji Paimon's Paintings 19 Nahida 3.png|A Dendro Slime on top of [[Nahida]], [[HoYoLAB/Paimon's Paintings#Set 19|Paimon's Paintings Set 19]]
 </gallery>
 
 ==Other Languages==
@@ -67,6 +81,7 @@ Enemy Dendro Slime Icon.png|Icon
 |ko_rm   = Pul Seullaim
 |ko_tl   = {{Lex|Dendro|ko}} Slime
 |es      = Slime Dendro
+|es_tl   = Dendro Slime
 |fr      = Dendroblob
 |fr_tl   = Dendro Blob
 |ru      = Дендро слайм
@@ -79,6 +94,10 @@ Enemy Dendro Slime Icon.png|Icon
 |id      = Dendro Slime
 |pt      = Slime Dendro
 |pt_tl   = 
+|tr      = Doğa Bodurlopu
+|tr_tl   = 
+|it      = Melmoso di Dendro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -87,5 +106,8 @@ Enemy Dendro Slime Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Dendro-Schleim]]
 [[es:Slime Dendro]]
+[[fr:Dendroblob]]
 [[pt-br:Slime Dendro]]
+[[zh:草史萊姆]]

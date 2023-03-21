@@ -1,2 +1,191 @@
-#REDIRECT [[Gauge Unit Theory]]
-[[Category:Redirect Pages]]
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Advanced Aura Mechanics
+|tab3 = Simultaneous Reaction Priority
+|tab4 = Character Data
+}}
+{{Community}}
+{{Terminology Infobox
+|type         = Game Systems
+|type2        = Combat
+}}
+'''Elemental Gauge Theory''', also known as '''Gauge Unit Theory''', is a community-created framework on how [[Elements]] are handled within the game.<ref>NGA Forum: [https://bbs.nga.cn/read.php?tid=24400590 《高等元素论》(正式版ver1.6)]</ref><ref>NGA Forum: [https://bbs.nga.cn/read.php?tid=33231790 《高等元素论》3.0版本，激化，绽放，燃烧]</ref><ref>KeqingMains Theorycrafting Library: [https://library.keqingmains.com/combat-mechanics/elemental-effects/elemental-gauge-theory Elemental Gauge Theory]</ref>
+
+It explains the following phenomena:
+* [[Elemental Reactions]]
+* [[Elemental Gauge Theory/Advanced Aura Mechanics|Elemental Auras]], duration, and decay (including Gauge Units and breaking elemental shields/armor)
+* [[Internal Cooldown]] of elemental application
+
+==Introduction==
+The fundamental concepts of Elemental Gauge Theory are '''auras''' from elemental attacks and the '''gauge cost''' of elemental reactions.
+
+'''Gauge Unit''' &mdash; Also known as an '''Elemental Gauge''', this is a unit bound to the application of an element, such as a character's [[talent]]. This can be thought of as the strength or amount of the applied element.
+* The value of this gauge influences the duration and durability of elemental auras (see below) applied and how much one instance of application can consume an existing aura through an Elemental Reaction.
+* The higher the gauge, the stronger the element application. This means elemental auras (see below) applied last longer and can support more Elemental Reactions, and Elemental Reactions inflicted consume a greater amount of an aura.
+* Note that in the game's source code, the Gauge Unit value is denoted using a parameter named "Element Durability".
+** 1 Gauge Unit = 25 units of Element Durability
+
+'''Elemental Aura''' &mdash; An application of an element from an external source, such as a character's talent, that lingers on enemies and other entities after application.
+* {{Cryo}}, {{Dendro}}, {{Electro}}, {{Hydro}}, and {{Pyro}} '''can''' apply an aura.
+* {{Anemo}} and {{Geo}} '''cannot''' apply an aura.
+* If a second element is applied to an existing aura and triggers an Elemental Reaction, the existing aura will be partially or fully consumed. The extent of this consumption depends on the Gauge Units of the second element as well as the type of reaction triggered.
+
+'''Decay''' &mdash; Elemental auras will decay linearly at a certain rate. The decay rate is usually determined by the Gauge Units of the first element applied.
+
+==Elemental Application==
+{{See also|Elemental Gauge Theory/Character Data}}
+Most elemental attacks apply '''1''', '''1.5''', '''2''', '''4''', or '''8''' Gauge Units of their respective element. If the attack creates an aura, the decay rate will also differ depending on the Gauge Units.
+
+Character abilities as well as most enemy attacks can apply '''1''', '''1.5''', '''2''', '''4''' Gauge Units. '''8''' GU attacks are extremely rare and only seen on certain event abilities.
+
+For the complete dataset for character talents, see [[Elemental Gauge Theory/Character Data]].
+
+==Elemental Aura==
+===Aura Tax===
+If an aura is created through an elemental attack, there will be an '''Aura Tax''', which reduces 20% of the gauge on the aura created. However, [[Elemental Gauge Theory/Advanced Aura Mechanics#Self Auras|Self Auras]] are not affected.
+:<math>\text{Gauge}_\text{Aura} = 0.8 \times \text{Gauge}_\text{Elemental Attack}</math>
+* <u>Example</u>: [[Bennett]]'s [[Passion Overload]] (Tap) can apply {{Color|Pyro|2U}}. However, due to Aura Tax, its application as an aura will reduce to {{Color|Pyro|1.6U}}.
+
+===Aura Duration and Decay Rate===
+When an aura is created through an elemental attack:
+* The duration is calculated as:<br /><math>\text{Duration}_\text{Aura} = 2.5 \times \text{Gauge}_\text{Elemental Attack} + 7</math>
+* The decay rate can be expressed as:<br /><math>D(x) = \frac{35}{4x} + \frac{25}{8}</math><br />where <math>x = \text{Gauge}_\text{Elemental Attack}</math>
+
+Therefore, elemental attacks that apply Gauge Units of '''1''', '''1.5''', '''2''', '''4''', and '''8''' will result in the following auras:
+{| class="wikitable"
+! Attack !! Resulting Aura !! Base Duration<br />(Seconds) !! Decay Rate<br />(Seconds Per GU)
+|-
+| '''1U''' || 0.8U || 9.5 || D(1) = 11.875
+|-
+| '''1.5U''' || 1.2U || 10.75 || D(1.5) = 8.9583
+|-
+| '''2U''' || 1.6U || 12 || D(2) = 7.5
+|-
+| '''4U''' || 3.2U || 17 || D(4) = 5.3125
+|-
+| '''8U''' || 6.4U || 27 || D(8) = 4.21875
+|}
+
+===Decay Rate Inheritance===
+====Most Elements====
+When an element identical to that of an existing aura is applied, the elemental gauge value will inherit the elemental gauge of the initial aura or the trigger - whichever is higher. However, the decay rate of the initial elemental aura will be inherited.
+
+* <u>Example</u>: Applying a {{Color|Cryo|1U}} elemental attack on an elemental aura of {{Color|Cryo|1.6U, D(2)}} is inefficient since the resulting gauge would still be {{Color|Cryo|1.6U, D(2)}}, which has a decay duration of '''12.0 seconds''' because the decay rate of '''D(2)''' remains unchanged. However, the reverse, applying {{Color|Cryo|2U}} on a {{Color|Cryo|0.8U, D(1)}} aura is better since the resulting gauge would be {{Color|Cryo|1.6U, D(1)}} which now has a duration of '''19.0 seconds''' because the lower decay rate '''D(1)''' is inherited.
+
+When an elemental reaction is triggered but does not fully consume the elemental aura, the decay rate of the aura is inherited until it is cleared.
+
+* <u>Example</u>: Applying a {{Color|Cryo|1U}} elemental attack on a {{Color|Electro|1.6U, D(2)}} aura would cause a {{Color|Cryo|Superconduct}} reaction that still leaves an elemental aura of {{Color|Electro|0.6U, D(2)}}. Here the aura decay rate '''D(2)''' remains unchanged.
+
+====Pyro====
+The {{Pyro}} aura is an exception to the above rules, as it does ''not'' have decay rate inheritance.
+
+If Pyro is applied again on a target with an existing Pyro aura:
+* If the new Pyro Aura has a higher gauge than the remaining Pyro Aura, the new Pyro Aura will replace the existing one with a new decay rate.
+* If the resulting Pyro Aura has a lower gauge than the remaining Pyro Aura, the existing aura will not change.
+
+==Elemental Reactions==
+An elemental reaction is produced from a combination of two different elements. The gauges of the elemental aura and the triggering element dictate the cost of the reaction &mdash; specifically, in each reaction, this is expressed as:
+
+===Most Elemental Reactions===
+::<math>\text{Gauge}_{\text{Result}} = \text{Gauge}_{\text{Aura}} - \text{Reaction Coefficient} \times \text{Gauge}_{\text{Trigger}}</math>
+
+*When <math>\text{Gauge}_{\text{Result}} > 0</math>, the elemental gauge is reduced due to the reaction, however the aura still remains.
+*When <math>\text{Gauge}_{\text{Result}} < 0 \Rightarrow \text{Gauge}_{\text{Result}} = 0</math>, the elemental aura is cleared.
+
+The Reaction Coefficient for each reaction type is as follows:
+
+{| class="article-table"
+! Reaction Type !! Reaction Coefficient
+|-
+| Pyro [[Melt]]<br />Hydro [[Vaporize]]<br />Dendro [[Bloom]]
+| style="text-align:center" | 2
+|-
+| Cryo Melt<br />Pyro Vaporize<br />Hydro Bloom<br />[[Crystallize]]<br />[[Swirl]]
+| style="text-align:center" | 0.5
+|-
+| [[Overloaded]]<br />[[Superconduct]]<br />[[Frozen]]<br />[[Quicken]]
+| style="text-align:center" | 1
+|}
+
+<u>Example</u>: A target with {{Color|Pyro|2 units}} of {{Color|Pyro Aura}} can have {{Color|Cryo|Cryo Melt}} triggered on it <u>4 times</u> by using a trigger of {{Color|Cryo|1 unit}} of {{Cryo}} <math>[2 - (0.5 \times 1) \times (4 \text{ times}) \Rightarrow 0]</math>, however, a target with {{Color|Cryo|2 units}} of {{Color|Cryo Aura}} can only have {{Color|Pyro|Pyro Melt}} triggered on it <u>once</u> using a trigger of {{Color|Pyro|1 unit}} of {{Pyro}} <math>[2 - (2 \times 1) \times (1 \text{ time}) \Rightarrow 0]</math>.
+
+In practice, the decay of elemental aura and internal cooldown of elemental application might negatively impact the ability to repeatedly trigger reactions.
+
+==={{Color|Cryo|Frozen}} and {{Color|menu|Shatter}}===
+{{Main|Elemental Gauge Theory/Advanced Aura Mechanics#Frozen}}
+When Frozen is triggered, Hydro and Cryo are consumed as usual with a Reaction Coefficient of '''1''', but will create a {{Color|Cryo|Frozen}} Aura which can react with and be consumed by {{Pyro}}, {{Electro}}, and {{Anemo}}.
+* {{Hydro}} or {{Cryo}} Auras can coexist with the {{Color|Cryo|Frozen}} Aura as Underlying Auras.
+** Underlying Auras will be created if the initial aura used to trigger Frozen was not fully consumed, or if Hydro/Cryo is reapplied after Frozen has been triggered.
+** Underlying Auras have complex interaction behaviors when triggering further reactions. See [[Elemental Gauge Theory/Simultaneous Reaction Priority]] for details.
+* {{Color|menu|Shatter}} prioritizes the application of a [[Blunt Attack|heavy attack]] (e.g. Claymore, Geo, Plunging Attack, Explosion) over the element of the same attack. This clears the {{Color|Cryo|Frozen}} effect and only applies the elemental aura afterwards.
+
+==={{Color|Dendro|Quicken}}===
+{{Main|Elemental Gauge Theory/Advanced Aura Mechanics#Quicken}}
+When Quicken is triggered, Dendro and Electro are consumed as usual with a Reaction Coefficient of '''1''', but will create a {{Color|Dendro|Quicken}} Aura which can react with and be consumed by {{Pyro}} and {{Hydro}}. The Quicken Aura will also react with {{Electro}} and {{Dendro}} to trigger [[Aggravate]] and [[Spread]] respectively, but the Quicken Aura and the trigger element will ''not'' be consumed.
+* {{Dendro}} or {{Electro}} Auras can coexist with the {{Color|Dendro|Quicken}} Aura as Underlying Auras.
+** Underlying Auras will be created if the initial aura used to trigger Quicken was not fully consumed, or if Dendro/Electro is reapplied after Quicken has been triggered.
+
+==={{Color|Electro|Electro-Charged}}===
+* {{Electro}} and {{Hydro}} exist simultaneously as an aura during the reaction regardless of the element that acted initially as the aura or trigger.
+* The consumption for {{Color|Electro-Charge}} occurs each tick, and reduces the gauge of both elements by '''0.4U''' until either element's gauge value reaches 0.
+* The target is inflicted by both {{Electro}} and {{Hydro}} auras at the same time for the duration of {{Color|Electro|Electro-Charged}} thus reactions involving these elements are still  possible during its duration (i.e. a {{Pyro}} attack can trigger both {{Color|Pyro|Vaporize}} and {{Color|Pyro|Overload}} simultaneously on an {{Color|Electro|Electro-Charged}} target).
+
+==={{Color|Pyro|Burning}}===
+{{Main|Elemental Gauge Theory/Advanced Aura Mechanics#Burning}}
+The Burning reaction applies a {{Color|Pyro|Burning}} Aura. The Burning State is maintained by both the Burning and Dendro auras and will end if either is depleted.
+* While Burning, the Dendro Aura will be affected by a steady per-frame consumption of '''0.4U''' per second.
+* {{Pyro}} and {{Dendro}} Auras can coexist with the {{Color|Pyro|Burning}} Aura as Underlying Auras.
+* Burning DMG will re-apply 1U of Pyro. This application follows an [[ICD]] of 2 seconds.
+
+==Elemental Shields==
+{{Main|Shields/Enemy}}
+Elemental shields are a visualized form of auras used by enemies and objects that do not decay by themselves unless in special cases. The Gauge Units of elemental shields determines their durability, and the shield bar displays the amount of Gauge Units remaining.
+
+As one of the means of breaking elemental shields, Elemental Reactions consume the Gauge Units of elemental shields just like they do regular auras, and their effectiveness is still determined by the Reaction Coefficient.
+
+==Internal Cooldown of Elemental Application==
+{{Main|Internal Cooldown}}
+Elemental attacks have internal cooldowns before being able to reapply their elemental effect.
+
+When applying an element with an attack, there is an internal cooldown (ICD) on sequential applications with the same type of attack. ICD is usually counted based on a hit counter and a timer. When the first attack of a particular ability hits, it will apply its elemental effect and start both the hit counter and the timer.
+
+For most character abilities, the standard ICD is '''2.5''' seconds or '''3''' hits. This means that the ICD is reset either after 2.5 seconds have passed or after 3 hits of the particular move are made. Note:
+* The first hit after the 3-hit sequence will apply an element, but does ''not'' reset the 2.5 second timer.
+* The first hit after the timer will apply an element, reset the timer, and reset the hit sequence.
+
+Some characters abilities may have special ICDs or no ICD at all.
+
+Note that ICD is counted separately for each attacker and each target.
+
+==0U Elemental Attacks==
+Elemental attacks can apply 0U of their element, either due to their own properties or as a result of [[Internal Cooldown]]. Notable 0U elemental attacks include the activations of [[Guide to Afterlife]], [[Niwabi Fire-Dance]], and [[Lightning Rose]], and the mid-air collision of [[Plunging Attack]]s.
+
+0U elemental attacks cannot apply auras or trigger [[Elemental Reaction]]s. However, they can still trigger effects that only require attacks of a specific elemental type, such as lighting torches, breaking [[Electro Crystal]]s, or activating [[Elemental Monument]]s. 0U non-[[Blunt Attack|Blunt]] Geo attacks can also trigger [[Shattered]].
+
+==Other Languages==
+{{Other Languages|name=Unofficial Name
+|en      = Elemental Gauge Theory
+|zhs     = 高等元素论
+|zhs_rm  = Gāoděng Yuánsù Lùn
+|zhs_tl  = Advanced Element Theory
+|vi      = Thuyết Định Lượng Nguyên Tố
+|vi_tl   = Elemental Measurement Theory
+|tr      = 
+|tr_tl   = 
+|it      = 
+|it_tl   = 
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Combat Navbox}}
+[[Category:Elemental Gauge Theory| ]]
+
+[[ja:ゲージ単位理論]]
+[[th:ทฤษฎีหน่วยเกจ/sandbox]]
+[[vi:Thuyết Định Lượng Nguyên Tố]]

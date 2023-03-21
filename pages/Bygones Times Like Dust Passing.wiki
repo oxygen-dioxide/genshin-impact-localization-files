@@ -1,4 +1,3 @@
-{{Stub|sort and get official transcriptions of [[#Unsorted_Voice-Overs_-_newly_added_in_v2.6]] (new dialogue with beidou if traveler did not meet beidou prior to quest)}}
 {{Quest Infobox
 |id            = 11014
 |image         = Archon Quest ICA1 Bygone Times Like Dust Passing.png
@@ -7,8 +6,10 @@
 |actNum        = I
 |act           = The Crane Returns on the Wind
 |part          = 3
-|region        = Liyue
 |startLocation = [[Mt. Tianheng]], [[Liyue]]
+|region        = Liyue
+|area          = Sea of Clouds
+|subarea       = Mt. Tianheng
 |prev          = Seagaze Sunset
 |next          = Where the Heart Finds Rest
 |exp           = 625
@@ -41,9 +42,9 @@
 # Look for [[Subrosium]]
 # Give the two types of ore you found to Master Zhang
 
-==Notes==
-* Completing the step ''Search for records left behind in the village'' will grant the ''[[Wonders of the World]]'' achievement "[[A Former Dream]]."
-<gallery hideaddbutton="true" captionalign="center">
+==Gameplay Notes==
+* Completing the step ''Search for records left behind in the village'' will grant the ''[[Wonders of the World]]'' achievement ''[[A Former Dream]]''.
+<gallery>
 Item Starsplinter Iron Locations.png|Starsplinter Iron locations<br />(see [[Starsplinter Iron#Locations|here]] for location context)
 Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|here]] for additional context)
 </gallery>
@@ -52,26 +53,25 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 {{Quest Description|Only two materials left to find. Time to ask around at the worksite.}}
 {{Dialogue start}}
 ----
-;(If you talk to Changfeng at the partially-constructed Jade Chamber)
+;(Optional, talk to Changfeng at the partially-constructed Jade Chamber)
 :{{A|vo dialog shlq003 changfeng 02.ogg}} '''Changfeng:''' The Jade Chamber belongs in the sky amongst the clouds!
 
-;(If you talk to Leming at the partially-constructed Jade Chamber)
+;(Optional, talk to Leming at the partially-constructed Jade Chamber)
 :{{A|vo dialog shlq003 leming 02.ogg}} '''Leming:''' The next step is to build the pavilions on the upper layer while we wait for the Wonder Cores and the Adepti Sigils.
 
-;(If you talk to Lizheng near the construction crane)
+;(Optional, talk to Lizheng near the construction crane)
 :{{A|vo dialog shlq003 lizheng 02.ogg}} '''Lizheng:''' The basic structure is beginning to take shape, but there is still a lot of work to do... Get back to it.
 
-;(If you talk to Anshun near the wooden boxes)<!--same as in [[Seagaze Sunset]]-->
+;(Optional, talk to Anshun near the wooden boxes)<!--same as in [[Seagaze Sunset]]-->
 :{{A|vo dialog shlq003 anshun 02.ogg}} '''Anshun:''' I heard that Lady Keqing has gone to Guyun Stone Forest.
 
-;(If you talk to Siqin who is standing guard)
+;(Optional, talk to Siqin who is standing guard)
 :{{A|vo dialog shlq003 siqin 02.ogg}} '''Siqin:''' We're halfway there. I must keep my wits about me and continue to ensure the safety of the site for the remainder of the project!
 
-;(If you talk to Liang who is standing guard)<!--same as in [[Seagaze Sunset]]-->
+;(Optional, talk to Liang who is standing guard)<!--same as in [[Seagaze Sunset]]-->
 :{{A|vo dialog shlq003 bright 03.ogg}} '''Liang:''' I heard a good few of my comrades have been sent over to Guyun Stone Forest. I sure hope they'll be safe out there...
-{{Transclude|Seagaze Sunset|Keqing|section=1}}<!--same as in [[Seagaze Sunset]]-->
 
-;(If you talk to Qiqi next to the [[Liyue Harbor#South Wharf|Liyue Harbor Dockyard]] entrance)
+;(Optional, talk to Qiqi next to the [[Liyue Harbor#South Wharf|Liyue Harbor Dockyard]] entrance)
 :{{A|vo dialog shlq003 qiqi 01.ogg}} '''Qiqi:''' Oh, it's you.
 :{{DIcon}} Qiqi! What are you doing here?
 :{{A|vo dialog shlq003 qiqi 02.ogg}} '''Qiqi:''' Seaside. Dangerous.
@@ -84,7 +84,7 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 :{{A|vo dialog shlq003 qiqi 07.ogg}} '''Qiqi:''' If danger comes, Qiqi will protect everyone.
 :{{A|vo dialog shlq003 qiqi 08.ogg}} '''Qiqi:''' Don't go near the sea. It's too dangerous.
 
-;(If you visit Guyun Stone Forest)<!--can this dialogue be triggered before talking to Qiqi?-->
+;(If the player visits Guyun Stone Forest)<!--can this dialogue be triggered before talking to Qiqi?-->
 :{{A|vo shlq003 3 shenhe 02.ogg}} '''Shenhe:''' The zombie called Qiqi is right. A great wrath brews in the sea.
 :{{A|vo shlq003 3 shenhe 03.ogg}} '''Shenhe:''' I don't know where this wrath comes from. So let's keep our distance for the time being.
 
@@ -93,7 +93,10 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 :{{A|vo shlq003 1 paimon 01.ogg}} '''Paimon:''' Look, look, (Traveler)! The Jade Chamber is floating into the sky!
 :{{A|vo shlq003 1 paimon 02.ogg}} '''Paimon:''' But it seems to be tied down by something...
 :{{A|vo shlq003 1 baiwen 01.ogg}} '''Baiwen:''' That's because it's not finished.
-:{{A|vo shlq003 1 paimon 03.ogg}} '''Paimon:''' Hey, Baiwen! And hey [[Beidou]]! And hey, um... person Paimon doesn't know...
+;(If the player has met Beidou prior to the quest)
+::{{A|vo shlq003 1 paimon 03.ogg}} '''Paimon:''' Hey, Baiwen! And hey [[Beidou]]! And hey, um... person Paimon doesn't know...
+;(If the player has not met Beidou prior to the quest)
+::{{A|vo shlq003 2 paimon 03.ogg}} '''Paimon:''' Hey, Baiwen! And hey, um... people Paimon doesn't know..
 :{{A|vo shlq003 1 baiwen 02.ogg}} '''Baiwen:''' Given the enormous scale of the Jade Chamber, we split the construction work into two phases to make sure the structure remains balanced.
 :{{A|vo shlq003 1 baiwen 03.ogg}} '''Baiwen:''' Before we find some suitable Plaustrite, we build the Jade Chamber's keel at ground level.
 :{{A|vo shlq003 1 baiwen 04.ogg}} '''Baiwen:''' Once the Plaustrite is ready, we place it into the keel and let the partially-constructed Jade Chamber rise up to the height of the surrounding mountain peaks.
@@ -103,14 +106,24 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 :{{A|vo shlq003 1 baiwen 07.ogg}} '''Baiwen:''' The construction work has only been able to progress this rapidly thanks to the Plaustrite provided by you. Lady Ningguang is most grateful and looks forward to seeing more of your work.
 ;(Baiwen leaves)
 :{{A|vo shlq003 1 beidou 01.ogg}} '''Beidou:''' Wow! Can't believe you sourced the Plaustrite so quickly &mdash; it's the key piece of the puzzle. Looks like you beat us to the punch.
-:{{A|vo shlq003 1 paimon 04.ogg}} '''Paimon:''' Beidou... you're joining the Jade Chamber contest too?
+;(If the player has met Beidou prior to the quest)
+::{{A|vo shlq003 1 paimon 04.ogg}} '''Paimon:''' Beidou... you're joining the Jade Chamber contest too?
+;(If the player has not met Beidou prior to the quest)
+::{{A|vo shlq003 2 beidou 02.ogg}} '''Beidou:''' Wait, I know you. You're the one who fought against the Fatui and Osial, right? Sure enough, your reputation precedes you.
+::{{A|vo shlq003 2 beidou 03.ogg}} '''Beidou:''' Pleasure to meet you, I'm Beidou, Captain of The Crux.
+::{{A|vo shlq003 2 paimon 04.ogg}} '''Paimon:''' Beidou... are you here to join the Jade Chamber contest too?
 :{{A|vo shlq003 1 beidou 02.ogg}} '''Beidou:''' Sure am. I happened to get my hands on a chunk of Sunset Vermillionite on a voyage a while back, so I figured I'd bring it over.
 :{{A|vo shlq003 1 paimon 05.ogg}} '''Paimon:''' Huh, so even though it's rare, we're not the only ones who managed to get hold of it...
 :{{A|vo shlq003 1 beidou 03.ogg}} '''Beidou:''' Oh, I've got some introductions to do: This is the renowned Ms. Yun, or [[Yun Jin]], probably the most famous figure in the Liyue opera scene.
 :{{A|vo shlq003 1 yunjin 01.ogg}} '''Yun Jin:''' Greetings.
-:{{A|vo shlq003 1 beidou 04.ogg}} '''Beidou:''' These two are Paimon and the Traveler, both good buddies of mine, and this is... Um, sorry, I'm not sure we've met...
-:{{A|vo shlq003 1 shenhe 01.ogg}} '''Shenhe:''' [[Shenhe]]. I am their... friend.
-:{{A|vo shlq003 1 beidou 05.ogg}} '''Beidou:''' Hahaha... Good to meet ya! A friend of a friend is my friend too &mdash; or as I like to say, a mate of a crewmate is part of the crew!
+;(If the player has met Beidou prior to the quest)
+::{{A|vo shlq003 1 beidou 04.ogg}} '''Beidou:''' These two are Paimon and the Traveler, both good buddies of mine, and this is... Um, sorry, I'm not sure we've met...
+::{{A|vo shlq003 1 shenhe 01.ogg}} '''Shenhe:''' [[Shenhe]]. I am their... friend.
+::{{A|vo shlq003 1 beidou 05.ogg}} '''Beidou:''' Hahaha... Good to meet ya! A friend of a friend is my friend too &mdash; or as I like to say, a mate of a crewmate is part of the crew!
+;(If the player has not met Beidou prior to the quest)
+::{{A|vo shlq003 2 beidou 06.ogg}} '''Beidou:''' These two are Paimon and (Traveler), I'm sure you've heard of them before. And this is... um, sorry, I'm not sure we've met.
+::{{A|vo shlq003 2 shenhe 01.ogg}} '''Shenhe:''' Shenhe. I am their... friend.
+::{{A|vo shlq003 2 beidou 07.ogg}} '''Beidou:''' Hahaha... Good to meet ya! Well, from today on, I guess all of us are friends!
 :{{A|vo shlq003 1 beidou 06.ogg}} '''Beidou:''' Ms. Yun is also here for the contest. Turned out she needed to borrow a boat, so we came together.
 :{{A|vo shlq003 1 yunjin 02.ogg}} '''Yun Jin:''' It's an honor to finally meet you both. I've heard much about you. Ms. Shenhe, though we are only meeting for the first time, I have a feeling that we will get along very well indeed.
 :{{A|vo shlq003 1 yunjin 03.ogg}} '''Yun Jin:''' To be honest with you all, I am in great need of this opportunity to ask Lady Ningguang a question. That's why I joined the contest. Thanks to my father's connections, I was able to acquire a specimen of the Plaustrite required. Fortunately, it was approved for submission, despite being a little on the diminutive side.
@@ -143,7 +156,6 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 {{Dialogue end}}
 
 ----
-
 {{Quest Description|update|You meet Yun Jin rather by chance. She suggests looking for Master Zhang and asking him some questions.}}
 {{Dialogue start}}
 ;(Talk to Master Zhang)
@@ -187,7 +199,7 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 :{{A|vo shlq003 4 yunjin 09.ogg}} '''Yun Jin:''' But the monster was so terrible and so strong that all within the village were terrified of it. They had no choice but to give in to the monster's demand.
 :{{A|vo shlq003 4 yunjin 10.ogg}} '''Yun Jin:''' Just while they were discussing whose child would be given over to the monster, a little girl suddenly stood up and came forward.
 :{{A|vo shlq003 4 paimon 05.ogg}} '''Paimon:''' No! Don't do it, little girl!
-:{{A|vo shlq003 4 yunjin 11.ogg}} '''Yun Jin:''' Unbeknownst to anybody else, she was concealing an exorcist's blade. She approached the monster's lair, feigning fear and trepidation... When she finally arrived, she courageously drew her sword and entered into a fierce struggle with the monster, from which she eventually emerged as the victor.
+:{{A|vo shlq003 4 yunjin 11.ogg}} '''Yun Jin:''' Unbeknownst to anybody else, she was concealing an [[exorcist]]'s blade. She approached the monster's lair, feigning fear and trepidation... When she finally arrived, she courageously drew her sword and entered into a fierce struggle with the monster, from which she eventually emerged as the victor.
 :{{A|vo shlq003 4 yunjin 12.ogg}} '''Yun Jin:''' Her extraordinary abilities drew the attention of the adepti, and they took her as one of their own. Her story became the stuff of legends... But alas, the paths of mortals and adepti seldom cross, and she would never again re-enter the mortal world.
 :{{A|vo shlq003 4 yunjin 13.ogg}} '''Yun Jin:''' "And so, destined to grace the mortal realm for but a brief moment, she vanished like a wisp of smoke into thin air." That's how the opera ends.
 :{{DIcon}} (Look at Shenhe.)
@@ -261,7 +273,7 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 ;(Obtain [[Ragged Notebook (Bygones Times Like Dust Passing)|Ragged Notebook]])
 
 ;(Pick up the Records of a Changing Village)
-{{color|menu|You found a migration record in the village, which records how a family was shattered and the village was forced to relocate }}
+{{color|menu|You found a migration record in the village, which records how a family was shattered and the village was forced to relocate.}}
 :;(Opens [[Records of a Changing Village]])
 ::A branch family of exorcists used to live in the east of the village, but in around two weeks, the mother died of disease, the young daughter went missing, and shortly after, the father hanged himself on a tree in the yard of his own house.<br /><br />It has been confirmed that traces of an evil god's remains were found in the village.<br /><br />The villagers are panicking as no one is certain whether the evil god's remains are gone for good.<br /><br />Do be careful when you are in this area.
 ;(If the player picked up "Records of a Changing Village" first)
@@ -279,7 +291,7 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 :{{A|vo shlq003 7 paimon 02.ogg}} '''Paimon:''' Let's have a look over there!
 
 ;(Pick up the third scroll)
-{{color|menu|you found a text named "Mountainous Miscelleny", which records the method to find subrosium.}}
+{{color|menu|You found a text named "Mountainous Miscellany," which records the method to find Subrosium.}}
 :;(Opens [[Mountainous Miscellany]])
 ::Magic engraved on Subrosium does not wear off easily. Some believe the stone to be a bridge between the living and the dead.<br /><br />However finding Subrosium is no easy matter. You need to be at the right place at the right time.<br /><br />Legend has it that you may find Subrosium if you stand in the middle of the lake south of Mt. Tianheng at {{Color|buzzword|dusk}} and look in the direction of {{Color|buzzword|the setting sun}}.
 :{{A|vo shlq003 8 paimon 01.ogg}} '''Paimon:''' This is it!
@@ -324,26 +336,26 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 ----
 {{Quest Description|update|Some records you find in the village indicate the location of the Subrosium you're looking for. Question is, will finding it be that simple?}}
 {{Dialogue start}}
-;(If you talk to Anshun at the building site)
+;(Optional, talk to Anshun at the building site)
 :{{A|vo dialog shlq003 anshun 01.ogg}} '''Anshun:''' The fact we were able to complete the construction work on schedule is a testament to everyone's hard work.
 
-;(If you talk to Changfeng at the building site)
+;(Optional, talk to Changfeng at the building site)
 :{{A|vo dialog shlq003 changfeng 01.ogg}} '''Changfeng:''' The Jade Chamber looks magnificent...
 
-;(If you talk to Liang at the building site)
+;(Optional, talk to Liang at the building site)
 :{{A|vo dialog shlq003 bright 01.ogg}} '''Liang:''' Finally, we can relax a little. It's been quite stressful recently with so many people flocking here.
 :{{A|vo dialog shlq003 bright 02.ogg}} '''Liang:''' Fortunately, the construction here has gone off without a hitch. I can only hope the same is true for my comrades at [[Guyun Stone Forest]].
 
-;(If you talk to Siqin at the building site)
+;(Optional, talk to Siqin at the building site)
 :{{A|vo dialog shlq003 siqin 01.ogg}} '''Siqin:''' I can't wait to see the Jade Chamber ascend!
 
-;(If you talk to Lizheng at the building site)
+;(Optional, talk to Lizheng at the building site)
 :{{A|vo dialog shlq003 lizheng 01.ogg}} '''Lizheng:''' I don't know about anyone else, but this has been a challenging project for me... Let's get a drink after work.
 
-;(If you talk to Leming at the building site)
+;(Optional, talk to Leming at the building site)
 :{{A|vo dialog shlq003 leming 01.ogg}} '''Leming:''' The construction work on the Jade Chamber is now complete. Once we install the Wonder Cores and the Adepti Sigils, we can let it rise to altitude.
 
-;(If you talk to Xiao northwest of the village and Teleport Waypoint after swimming to the middle of the lake once)
+;(Optional, talk Xiao northwest of the village and Teleport Waypoint after swimming to the middle of the lake once)
 :{{A|vo dialog shlq003 xiao 01.ogg}} '''Xiao:''' What brings you here?
 :{{A|vo dialog shlq003 xiao 02.ogg}} '''Xiao:''' Have they found a solution to the danger in the sea?
 :{{DIcon}} What danger in the sea?
@@ -362,7 +374,7 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 ----
 {{Quest Description|update|Both the Starsplinter Iron and Subrosium are in your hands. With these, Master Zhang will be able to construct the Wonder Cores.}}
 {{Dialogue start}}
-;(talk to Master Zhang)
+;(Talk to Master Zhang)
 :{{A|vo shlq003 10 masterzhang 01.ogg}} '''Master Zhang:''' Goodness...
 :{{A|vo shlq003 10 paimon 03.ogg}} '''Paimon:''' S&mdash;So, are they okay?
 :{{A|vo shlq003 10 masterzhang 02.ogg}} '''Master Zhang:''' This is some top-quality ore you've found. I think I'll get a good end product out of these.
@@ -394,65 +406,12 @@ Item Subrosium Location.png|Subrosium location<br />(see [[Subrosium#Location|he
 ;(Obtain [[Wonder Core]] and [[Adepti Sigil]])
 {{Dialogue end}}
 
-===Unsorted Voice-Overs - newly added in v2.6===
-* {{A|vo shlq003 2 baiwen 01.ogg|1}}
-* {{A|vo shlq003 2 baiwen 02.ogg|1}}
-* {{A|vo shlq003 2 baiwen 03.ogg|1}}
-* {{A|vo shlq003 2 baiwen 04.ogg|1}}
-* {{A|vo shlq003 2 baiwen 05.ogg|1}}
-* {{A|vo shlq003 2 baiwen 06.ogg|1}}
-* {{A|vo shlq003 2 baiwen 07.ogg|1}}
-* {{A|vo shlq003 2 beidou 01.ogg|1}}
-* {{A|vo shlq003 2 beidou 02.ogg|1}}
-* {{A|vo shlq003 2 beidou 03.ogg|1}}
-* {{A|vo shlq003 2 beidou 04.ogg|1}}
-* {{A|vo shlq003 2 beidou 05.ogg|1}}
-* {{A|vo shlq003 2 beidou 06.ogg|1}}
-* {{A|vo shlq003 2 beidou 07.ogg|1}}
-* {{A|vo shlq003 2 beidou 08.ogg|1}}
-* {{A|vo shlq003 2 beidou 09.ogg|1}}
-* {{A|vo shlq003 2 beidou 10.ogg|1}}
-* {{A|vo shlq003 2 beidou 11.ogg|1}}
-* {{A|vo shlq003 2 beidou 12.ogg|1}}
-* {{A|vo shlq003 2 beidou 13.ogg|1}}
-* {{A|vo shlq003 2 beidou 14.ogg|1}}
-* {{A|vo shlq003 2 beidou 15.ogg|1}}
-* {{A|vo shlq003 2 changgui 01.ogg|1}}
-* {{A|vo shlq003 2 paimon 01.ogg|1}}
-* {{A|vo shlq003 2 paimon 02.ogg|1}}
-* {{A|vo shlq003 2 paimon 03.ogg|1}}
-* {{A|vo shlq003 2 paimon 04.ogg|1}}
-* {{A|vo shlq003 2 paimon 05.ogg|1}}
-* {{A|vo shlq003 2 paimon 06.ogg|1}}
-* {{A|vo shlq003 2 paimon 07.ogg|1}}
-* {{A|vo shlq003 2 paimon 08.ogg|1}}
-* {{A|vo shlq003 2 paimon 09.ogg|1}}
-* {{A|vo shlq003 2 paimon 10.ogg|1}}
-* {{A|vo shlq003 2 shenhe 01.ogg|1}}
-* {{A|vo shlq003 2 shenhe 02a.ogg|1}}
-* {{A|vo shlq003 2 shenhe 02b.ogg|1}}
-* {{A|vo shlq003 2 shenhe 03.ogg|1}}
-* {{A|vo shlq003 2 yunjin 01.ogg|1}}
-* {{A|vo shlq003 2 yunjin 02.ogg|1}}
-* {{A|vo shlq003 2 yunjin 03.ogg|1}}
-* {{A|vo shlq003 2 yunjin 04.ogg|1}}
-* {{A|vo shlq003 2 yunjin 05.ogg|1}}
-* {{A|vo shlq003 2 yunjin 06.ogg|1}}
-* {{A|vo shlq003 2 yunjin 07.ogg|1}}
-* {{A|vo shlq003 2 yunjin 08.ogg|1}}
-* {{A|vo shlq003 2 yunjin 09.ogg|1}}
-* {{A|vo shlq003 2 yunjin 10.ogg|1}}
-* {{A|vo shlq003 2 yunjin 11.ogg|1}}
-* {{A|vo shlq003 2 yunjin 12.ogg|1}}
-
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
-Bygones Times Like Dust Passing Guyun Stone Forest.png|Keqing and Millelith at Guyun Stone Forest
-Bygones Times Like Dust Passing Guyun Stone Forest Map Location.png|Keqing and Millelith at Guyun Stone Forest (map)
-Bygones Times Like Dust Passing Qiqi.png|Qiqi's location
-Bygones Times Like Dust Passing Qiqi Map Location.png|Qiqi's location (map)
+<gallery>
+Bygones Times Like Dust Passing Qiqi Location Context.png|Qiqi's location
+Bygones Times Like Dust Passing NPC Qiqi Location.png|Qiqi's location (map)
 Bygones Times Like Dust Passing Xiao.png|Xiao's location
-Bygones Times Like Dust Passing Xiao Map Location.png|Xiao's location (map)
+Bygones Times Like Dust Passing NPC Xiao Location.png|Xiao's location (map)
 </gallery>
 
 ==Other Languages==
@@ -462,10 +421,10 @@ Bygones Times Like Dust Passing Xiao Map Location.png|Xiao's location (map)
 |zhs_rm  = Wǎngshì Rú Chén
 |zht     = 往事如塵
 |zht_rm  = Wǎngshì Rú Chén
-|zh_tl   = 
+|zh_tl   = The Past is Like Dust
 |ja      = 過去は塵のごとし
 |ja_rm   = Kako wa Chiri no Gotoshi
-|ja_tl   = The Past Is Like Dust
+|ja_tl   = The Past is Like Dust
 |ko      = 티끌과도 같은 과거
 |ko_rm   = Tikkeulgwado Gateun Gwageo
 |ko_tl   = A Dusty Past
@@ -486,6 +445,10 @@ Bygones Times Like Dust Passing Xiao Map Location.png|Xiao's location (map)
 |id_tl   = Time Passes Like Grain of Dust
 |pt      = O Passado como uma Poeira
 |pt_tl   = 
+|tr      = Rüzgar Gibi Esip Geçmiş Zamanlar
+|tr_tl   = 
+|it      = Tempi andati come polvere nel vento
+|it_tl   = 
 }}
 
 ==Change History==
@@ -494,4 +457,5 @@ Bygones Times Like Dust Passing Xiao Map Location.png|Xiao's location (map)
 ==Navigation==
 {{Archon Quest Navbox|chapter=Interlude Chapter}}
 
+[[es:El pasado es como el polvo]]
 [[pt-br:O Passado como uma Poeira]]

@@ -1,49 +1,63 @@
 {{Enemy Infobox
 |image    = Enemy Geo Samachurl.png
-|element  = Geo
+|dmgtype  = Physical
+|dmgtype2 = Geo
+|weakpoint = yes
 |family   = Hilichurls
 |group    = Samachurls
 |type     = Common Enemies
 |ability1 = Geo Construct
 }}
-{{Description|A wizened, mumbling hilichurl, one that listens to the strength of Geo.<br />Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. To the persevering mountains, these old hilichurls are but children, but their memories and experiences have guided them towards gaining power over rock and stone.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Samachurls}}
+===Items===
+{{Drops Table|type=Samachurls}}
+
+===Energy===
+{{Energy Drops
+|type  = Geo
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
 |geo_res      = 50%
 |hp_type      = 1
 |hp_ratio     = 1
-|atk_ratio    = 2
+|atk_ratio    = 4
 }}
 
 ==Abilities and Attacks==
-*'''Rock Spikes:''' Summons rock spikes that erupt from the ground at the player's location, dealing '''100% ATK''' as {{Color|AoE Geo DMG}}.
-*'''Rock Pillars:''' Summons pillars below itself and any nearby Samachurls, [[Hilichurl Shooters]], and [[Abyss Mages]], giving them a higher ground to attack. As [[Geo Constructs]], the Rock Pillars take [[Poise Damage]], and can withstand 900 Poise Damage from [[Blunt Attack]]s or 6000 Poise Damage from non-Blunt Attacks.
-*'''Shockwaves:''' Periodically releases shockwaves around the summoned pillars, dealing '''200% ATK''' as {{Color|AoE Geo DMG}}.
-*'''Smack:''' If the player is within melee range, swings its staff at the player, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back. The Samachurl also falls in the process due to the staff's weight. The Samachurl will not perform this attack while it is on top of a pillar.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Rock Spikes
+|desc_1 = Summons rock spikes that erupt from the ground at the player's location, dealing '''50% ATK''' as {{Color|AoE Geo DMG}}.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Geo Samachurl Rock Spikes
-|caption1=Rock Spikes
+|name_2 = Rock Pillars
+|desc_2 = Summons pillars below itself and any nearby Samachurls, [[Hilichurl Shooters]], and [[Abyss Mages]], giving them a higher ground to attack. [[Blunt Attack]]s are the most effective at damaging these pillars.
+{{Elemental Shield Data|Geo|12|cryoonly=1}}
+|file_2 = Geo Samachurl Rock Pillar
 
-|file2=Geo Samachurl Rock Pillar
-|caption2=Rock Pillars
+|name_3 = Shockwaves
+|desc_3 = Periodically releases shockwaves around the summoned pillars, dealing '''100% ATK''' as {{Color|AoE Geo DMG}}.
+|file_3 = Geo Samachurl Rock Pillar Blast
 
-|file3=Geo Samachurl Rock Pillar Blast
-|caption3=Shockwaves
-
-|file4=Geo Samachurl Smack
-|caption4=Smack
+|name_4 = Staff Strike
+|desc_4 = If the player is within melee range, swings its staff at the player, dealing '''100% ATK''' as {{Color|Physical DMG}} and knocking the player back. The Samachurl also falls in the process due to the staff's weight. The Samachurl will not perform this attack while it is on top of a pillar.
 }}
 
+==Descriptions==
+{{Description|A wizened, mumbling hilichurl, one that listens to the strength of Geo.<br />Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. To the persevering mountains, these old hilichurls are but children, but their memories and experiences have guided them towards gaining power over rock and stone.|[[Archive]]}}
+
+==Trivia==
+*A trio of Geo Samachurls can be found in a special Hilichurl camp in Sumeru consisting of {{Electro}} and {{Geo}}-affiliated Hilichurls, cheering on a [[Stonehide Lawachurl]] against a [[Thunderhelm Lawachurl]]. If enemies are engaged, the Samachurls will despawn.
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Geo Samachurl Icon.png|Icon
 </gallery>
 
@@ -75,6 +89,10 @@ Enemy Geo Samachurl Icon.png|Icon
 |id      = Geo Samachurl
 |pt      = Samachurl Geo
 |pt_tl   = Geo Samachurl
+|tr      = Toprak Dağ Şamanı
+|tr_tl   = 
+|it      = Sciamachurl di Geo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -83,5 +101,8 @@ Enemy Geo Samachurl Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Geo-Samachurl]]
 [[es:Samachurl Geo]]
+[[ja:ヒルチャールシャーマン・岩]]
 [[pt-br:Samachurl Geo]]
+[[th:Geo Samachurl]]

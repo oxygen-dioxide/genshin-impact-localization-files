@@ -23,11 +23,14 @@
 '''Stellar Restoration''' is [[Keqing]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
+* {{TalentNote|cooldown|immediate}}
 * {{TalentNote|particles|Slashing DMG or Thunderclap Slash DMG|2.5}}
-* The CD start at the first activation: if it is reused 3 seconds after the first use, the CD will have ticked down to 4.5 seconds.
-* {{TalentNote|icd|Lightning Stiletto DMG|0}}
-* {{TalentNote|icd|Slashing DMG|2.5|3|Thunderclap Slash DMG}}
-** This ICD is shared with the extra Electro DMG at [[Thundering Might|Constellation 1]].
+* The Stiletto's duration is 5 seconds.
+:<gallery>
+Talent Stellar Restoration 2.png|Blink to Stiletto Icon
+</gallery>
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Keqing|talent=Stellar Restoration|ascension|1|Thundering Penance}}
 
 ;<big>Constellation Effects</big>
@@ -35,6 +38,36 @@
 ** If this skill is recast at point-blank range, both AoE explosions can hit for a total of 100% of ATK DMG.
 * {{TalentNote|constellation|5|Beckoning Stars}}
 * {{TalentNote|constellation|6|Tenacious Star}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Lightning Stiletto DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 50
+|impulse = 3
+
+|title2   = Slashing DMG
+|gu2      = 2U
+|icdtag2  = Elemental Skill
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 100
+|impulse2 = Air, 0, 600
+
+|title3   = Thunderclap Slash DMG
+|gu3      = 2U
+|icdtag3  = Elemental Skill
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 50
+|impulse3 = 2
+
+|title4   = Extra AoE DMG (C1)
+|gu4      = 1U
+|icdtag4  = Elemental Skill
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 50
+|impulse4 = 1
+}}
 
 ==Preview==
 {{Preview
@@ -45,7 +78,7 @@
 |caption2 = Hold
 
 |file3    = Stellar Restoration Press Charged Preview
-|caption3 = Using Charged Attack to ignite a series of thundering cuts
+|caption3 = Thunderclap Slash
 }}
 {{Clr}}
 
@@ -109,6 +142,9 @@
 ==Voice-Overs==
 {{Talent VO}}
 
+==Trivia==
+* {{Transclude|Piercing Thunderbolt|Glowing Ornaments|section=1}}
+
 ==Other Languages==
 {{Other Languages
 |en      = Stellar Restoration
@@ -137,6 +173,10 @@
 |id      = Stellar Restoration
 |pt      = Restauração Estelar
 |pt_tl   = Stellar Restoration
+|tr      = Yıldızların Düzeni
+|tr_tl   = 
+|it      = Ripristino stellare
+|it_tl   = Stellar Recovery
 }}
 
 ==Change History==
@@ -147,6 +187,8 @@
 
 [[es:Retorno estelar]]
 [[fr:Retour des étoiles]]
+[[ja:星辰帰位]]
 [[pt-br:Restauração Estelar]]
 [[ru:Возвращение звезды]]
 [[th:Stellar Restoration]]
+[[vi:Tinh Đẩu Quy Vị]]

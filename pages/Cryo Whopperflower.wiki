@@ -1,6 +1,7 @@
 {{Enemy Infobox
 |image    = Enemy Cryo Whopperflower.png
-|element  = Cryo
+|dmgtype  = Cryo
+|weakpoint = yes
 |family   = Mystical Beasts
 |group    = Whopperflowers
 |type     = Common Enemies
@@ -8,56 +9,81 @@
 |ability1 = Shield
 |ability2 = Invincibility Frames
 }}
-{{Description|A mimetic plant monster that appears out of nowhere and uses Cryo in combat.<br />These plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Whopperflowers}}
+===Items===
+{{Drops Table|type=Whopperflowers}}
+
+===Energy===
+{{Energy Drops
+|type  = Cryo
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
 |resglobal    = 35%
 |cryo_res     = 75%
 
-|res2         = Staggered
+|res2         = Stunned
 |cryo_res2    = 50%
 |atk_ratio    = 2
 |hp_ratio     = 3
 |hp_type      = 1
 }}
 
+==Weak Point Location==
+<gallery>
+Cryo Whopperflower Weak Point.png
+</gallery>
+* The weak point is disabled while shielded.
+
 ==Abilities and Attacks==
-*'''Burrow:''' Sinks into the ground and emerges nearby.
-*'''Ambush:''' If the player interacts with a disguised Cryo Whopperflower, bursts from the ground, dealing '''300% ATK''' as {{Color|AoE Cryo DMG}}.
-*'''Spin:''' If the player is within melee range, flattens while spinning its petals to deal '''50% ATK * 3''' as {{Color|AoE Cryo DMG}} around itself.
-*'''Normal Attack: Crystalline Spikes:''' Shoots out trails of spikes from the ground near the player, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
-*'''Charged Attack: Frost Cannon:''' Closes its petals, consuming one of the "fruits" orbiting around it and creating a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[Shields|shield]], giving it ~10 seconds to charge up its attack. If allowed to fully charge, it will bend over, point its top at the player, start spinning like a Gatling cannon and shoot out a rapid volley of projectiles, dealing '''20% ATK''' as {{Color|Cryo DMG}} with each projectile; However, breaking the shield will prevent its attack and stun the Whopperflower for ~15 seconds.
-*'''Recharge:''' Once all three "fruits" are consumed, the Whopperflower will plunge into the ground and restore all three, creating a visual AoE but will not deal any DMG.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Burrow
+|desc_1 = Sinks into the ground and emerges nearby.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Cryo Whopperflower Spin
-|caption1=Spin
+|name_2 = Ambush
+|desc_2 = If the player interacts with a disguised Cryo Whopperflower, bursts from the ground, dealing '''300% ATK''' as {{Color|AoE Cryo DMG}}.
 
-|file2=Cryo Whopperflower Normal Attack
-|caption2=Normal Attack
+|name_3 = Spin
+|desc_3 = If the player is within melee range, flattens while spinning its petals to deal '''50% ATK * 3''' as {{Color|AoE Cryo DMG}} around itself.
 
-|file3=Cryo Whopperflower Charged Attack
-|caption3=Charged Attack
+|name_4 = Normal Attack: Crystalline Spikes
+|desc_4 = Shoots out trails of spikes from the ground near the player, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
+|file_4 = Cryo Whopperflower Normal Attack
 
-|file4=Cryo Whopperflower Stunned
-|caption4=Stunned
+|name_5 = Charged Attack: Frost Cannon
+|desc_5 = Closes its petals, consuming one of the "fruits" orbiting around it and creating a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[Shields|shield]], giving it ~10 seconds to charge up its attack. If allowed to fully charge, it will bend over, point its top at the player, start spinning like a Gatling cannon and shoot out a rapid volley of projectiles, dealing '''20% ATK''' as {{Color|Cryo DMG}} with each projectile; However, breaking the shield will prevent its attack and stun the Whopperflower for ~15 seconds.
+{{Elemental Shield Data|Cryo|2}}
+|file_5 = Cryo Whopperflower Charged Attack
+|file_5_2 = Cryo Whopperflower Stunned
+|caption_5_2 = Stunned
 
-|file5=Cryo Whopperflower Recharge
-|caption5=Recharge
+|name_6 = Recharge
+|desc_6 = Once all three "fruits" are consumed, the Whopperflower will plunge into the ground and restore all three, creating a visual AoE but will not deal any DMG.
 }}
 
+==Descriptions==
+{{Description|A mimetic plant monster that appears out of nowhere and uses Cryo in combat.<br />These plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Cryo Whopperflower Icon.png|Icon
 Cryo Whopperflower Berry.png|Cryo Whopperflower Fruit
 </gallery>
+
+==Locations==
+{{Transclude|Whopperflower|Cryo Whopperflower}}
 
 ==Other Languages==
 {{Other Languages
@@ -88,6 +114,10 @@ Cryo Whopperflower Berry.png|Cryo Whopperflower Fruit
 |id      = Cryo Whopperflower
 |pt      = Flor Gigante Cryo
 |pt_tl   = Giant Flower Cryo
+|tr      = Yalancı Buz Çiçeği
+|tr_tl   = 
+|it      = Malefiore di Cryo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -96,6 +126,8 @@ Cryo Whopperflower Berry.png|Cryo Whopperflower Fruit
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Gigantische Kryo-Vaniloqua]]
 [[es:Megaflora Cryo]]
+[[ja:トリックフラワー・氷]]
 [[pt-br:Flor Gigante Cryo]]
 [[uk:Кріо капосна квітка]]

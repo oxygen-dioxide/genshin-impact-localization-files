@@ -3,7 +3,8 @@
 |type     = Normal Bosses
 |family   = Elemental Lifeforms
 |group    = Hypostases
-|element  = Geo
+|dmgtype  = Geo
+|weakpoint = no
 |ability1 = Geo Construct
 |ability2 = Healing
 |ability3 = Invincibility Frames
@@ -13,19 +14,27 @@
 |location = [[Guyun Stone Forest]], [[Liyue]]
 |drops    = Basalt Pillar
 }}
-{{Description|Code Name: Gimel. A high-purity [[Geo]] entity.<br />Elemental [[hypostases]] are ultra-compact structures with a high mass.<br />Concentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to the elemental stimuli.|[[Adventurer Handbook]]
-}}
-The '''Geo Hypostasis''' is a [[Normal Boss]] in ''[[Genshin Impact]]'' and one of the elemental [[Hypostases]].
+{{Enemy Intro}}
 
-It can be found on a small island in the [[Guyun Stone Forest]], [[Liyue]]. It takes the appearance of a large cube with a glowing core at its center. Like all Hypostases, it cannot take damage when its shell is intact, only when its core is exposed.
-
-When defeated, the player must consume {{Item|Original Resin|25|x=40}} to claim its drops, which consists of [[Artifacts]] and [[Character Ascension Material]] for [[Characters]] using the Geo element.
-
-==Rewards==
+==Drops==
+===Items===
 {{World Boss Rewards
 |gem=Prithiva Topaz
 |exclusive=Basalt Pillar
 |sets=Traveling Doctor,Instructor,The Exile
+}}
+
+===Energy===
+{{Energy Drops
+|type  = Geo
+|hp1   = 75
+|o1    = 1
+|hp2   = 50
+|o2    = 1
+|hp3   = 25
+|o3    = 1
+|hp4   = 0
+|o4    = 1
 }}
 
 ==Stats==
@@ -38,45 +47,37 @@ When defeated, the player must consume {{Item|Original Resin|25|x=40}} to claim 
 }}
 
 ==Abilities and Attacks==
-* '''Summon Pillars:''' Summons 4 pillars in a large triangle formation around the arena, it will sit on one at a time and teleport between them. These pillars take [[Poise Damage]], and are weakest against [[Blunt Attack]]s. When a pillar is destroyed, a Geo [[Energy|Energy Orb]] will be generated.
-* '''Stone Pellets:''' Flies into the air and forms a rhombus with its shell pieces before absorbing them all and using them to fire a continuous stream of stone pellets, dealing '''25% ATK''' as {{Color|Geo DMG}} on hit. Move around to dodge.
-* '''Stone Seal:''' Floats into the air and forms a sort of flat, plated formation out of shell pieces while channeling a {{Geo}} seal around the player. After a few seconds, it will break the seal and summon a large pillar at the player's location after a short delay, dealing '''100% ATK''' as {{Color|AoE Geo DMG}}.
-* '''Shockwave:''' Floats into the air and briefly channels energy into the pillar it is floating on before emitting a single shockwave, dealing '''100% ATK''' as {{Color|AoE Geo DMG}}. This attack cannot be avoided using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
-* '''Tremors:''' Spirals into the air and channels energy into its pillar, causing all pillars to emit continuous shockwaves for the duration of the attack, dealing '''100% ATK''' as {{Color|AoE Geo DoT}}. Destroying the concentrated {{Geo}} energy near the Hypostasis' pillar creates a {{Geo}} forcefield that blocks the shockwaves. While inside the forcefield, destroy the pillar it is on to bring the Geo Hypostasis back down to ground level. This attack cannot be avoided using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
-* '''Hammerfall:''' Teleports next to the player and forms its shell pieces into a giant hammer that it smashes into the ground, dealing '''150% ATK''' as {{Color|AoE Geo DMG}} and sending out three trails of shockwaves in front of it that deal '''50% ATK''' as {{Color|AoE Geo DMG}}. This attack can only be used once all of the Hypostasis' pillars have been destroyed.
-* '''Clap:''' Quickly flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Geo DMG}} in front of the wall.
-* '''Rain of Rocks:''' Causes pellets to continuously rain down in various small areas around the arena, dealing '''25% ATK''' as {{Color|AoE Geo DoT}}. Particularly large chunks of rock periodically fall in the same areas, dealing '''75% ATK''' as {{Color|AoE Geo DMG}}. This attack will only be used when the Hypostasis is on the ground, and only seems to work the first time it is used.
-* '''Terra Resurgence:''' When HP is low (approx. 5%), the Hypostasis teleports to the center of the arena and forms 3 pillars that channel {{Geo}} energy. After 15 seconds, the pillars are absorbed to heal '''15%/35%/50%''' of its HP for '''1/2/3''' pillars absorbed. Destroy all pillars to immediately kill the Hypostasis. These pillars take [[Poise Damage]], and are weakest against [[Blunt Attack]]s. If a pillar is destroyed, it will not respawn the next time '''Terra Resurgence''' is used. If if this move is completed, the Hypostasis will use '''Summon Pillars'''. When a pillar is destroyed, a Geo [[Energy|Energy Orb]] will be generated.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Summon Pillars
+|desc_1 = Summons 4 pillars in a large triangle formation around the arena, it will sit on one at a time and teleport between them. These pillars take [[Poise Damage]], and are weakest against [[Blunt Attack]]s. When a pillar is destroyed, a Geo [[Energy|Energy Orb]] will be generated.
+{{Elemental Shield Data|Geo|24|Pillar|cryoonly=1}}
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Geo Hypostasis Summon Pillars
-|caption1=Summon Pillars
+|name_2 = Stone Pellets
+|desc_2 = Flies into the air and forms a rhombus with its shell pieces before absorbing them all and using them to fire a continuous stream of stone pellets, dealing '''25% ATK''' as {{Color|Geo DMG}} on hit. Move around to dodge.
 
-|file2=Geo Hypostasis Stone Pellets
-|caption2=Stone Pellets
+|name_3 = Stone Seal
+|desc_3 = Floats into the air and forms a sort of flat, plated formation out of shell pieces while channeling a {{Geo}} seal around the player. After a few seconds, it will break the seal and summon a large pillar at the player's location after a short delay, dealing '''100% ATK''' as {{Color|AoE Geo DMG}}.
 
-|file3=Geo Hypostasis Stone Seal
-|caption3=Stone Seal
+|name_4 = Shockwave
+|desc_4 = Floats into the air and briefly channels energy into the pillar it is floating on before emitting a single shockwave, dealing '''100% ATK''' as {{Color|AoE Geo DMG}}. This attack cannot be avoided using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
 
-|file4=Geo Hypostasis Shockwave
-|caption4=Shockwave
+|name_5 = Tremors
+|desc_5 = Spirals into the air and channels energy into its pillar, causing all pillars to emit continuous shockwaves for the duration of the attack, dealing '''100% ATK''' as {{Color|AoE Geo DoT}}. Destroying the concentrated {{Geo}} energy near the Hypostasis' pillar creates a {{Geo}} forcefield that blocks the shockwaves. While inside the forcefield, destroy the pillar it is on to bring the Geo Hypostasis back down to ground level. This attack cannot be avoided using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
+{{Elemental Shield Data|Geo|3|Concentrated Geo Energy|cryoonly=1}}
 
-|file5=Geo Hypostasis Tremors
-|caption5=Tremors
+|name_6 = Hammerfall
+|desc_6 = Teleports next to the player and forms its shell pieces into a giant hammer that it smashes into the ground, dealing '''150% ATK''' as {{Color|AoE Geo DMG}} and sending out three trails of shockwaves in front of it that deal '''50% ATK''' as {{Color|AoE Geo DMG}}. This attack can only be used once all of the Hypostasis' pillars have been destroyed.
 
-|file6=Geo Hypostasis Hammerfall
-|caption6=Hammerfall
+|name_7 = Clap
+|desc_7 = Quickly flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Geo DMG}} in front of the wall.
 
-|file7=Geo Hypostasis Clap
-|caption7=Clap
+|name_8 = Rain of Rocks
+|desc_8 = Causes pellets to continuously rain down in various small areas around the arena, dealing '''25% ATK''' as {{Color|AoE Geo DoT}}. Particularly large chunks of rock periodically fall in the same areas, dealing '''75% ATK''' as {{Color|AoE Geo DMG}}. This attack will only be used when the Hypostasis is on the ground, and only seems to work the first time it is used.
 
-|file8=Geo Hypostasis Rain of Rocks
-|caption8=Rain of Rocks
-
-|file9=Geo Hypostasis Terra Resurgence
-|caption9=Terra Resurgence
+|name_9 = Terra Resurgence
+|desc_9 = When HP is low (approx. 5%), the Hypostasis teleports to the center of the arena and forms 3 pillars that channel {{Geo}} energy. After 15 seconds, the pillars are absorbed to heal '''15%/35%/50%''' of its HP for '''1/2/3''' pillars absorbed. Destroy all pillars to immediately kill the Hypostasis. These pillars take [[Poise Damage]], and are weakest against [[Blunt Attack]]s. If a pillar is destroyed, it will not respawn the next time '''Terra Resurgence''' is used. If if this move is completed, the Hypostasis will use '''Summon Pillars'''. When a pillar is destroyed, a Geo [[Energy|Energy Orb]] will be generated.
+{{Elemental Shield Data|Geo|8|Revival Pillar|cryoonly=1}}
 }}
 
 ==Strategy==
@@ -98,20 +99,22 @@ When it reaches 5% of its health, it will warp to the center of the field and su
 ==Achievements==
 {{Achievement Topic Table|topic=Geo Hypostasis}}
 
+==Descriptions==
+{{Description|Code Name: Gimel. A high-purity [[Geo]] entity.<br />Elemental [[hypostases]] are ultra-compact structures with a high mass.<br />Concentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to the elemental stimuli.|[[Adventurer Handbook]] and [[Archive]]}}
+
 ==Trivia==
 * Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Gimel"|he=גּ|he_rm=Gimel}} being named after the third.
 * Its codename was previously recorded as "Grimoire" in the [[Adventurer Handbook]], which did not match its monster title in-game.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Monster Geo Hypostasis thumb.png|Icon
-Geo Hypo.png|Screenshot
 </gallery>
 
 ==Video Guides==
 {{EVT
-|video1   = https://youtu.be/LJLkOpwcAv0
-|caption2 = How to Easily Beat the Geo Hypostasis
+|video1   = https://youtu.be/L1vmte56Ku8
+|caption1 = EVERYTHING You Need to Know about Geo Hypostasis
 }}
 
 ==Other Languages==
@@ -135,13 +138,17 @@ Geo Hypo.png|Screenshot
 |ru      = Гео гипостазис
 |ru_tl   = Geo Hypostasis
 |th      = Geo Hypostasis
-|vi      = Nham Nguyên Bản
-|vi_tl   = Prototype Geo
+|vi      = {{tt|Nham|岩}} {{tt|Nguyên Bản|原本}}
+|vi_tl   = The Original Rock
 |de      = Geo-Hypostase
 |de_tl   = Geo Hypostasis
 |id      = Geo Hypostasis
 |pt      = Hypostasis Geo
 |pt_tl   = Geo Hypostasis
+|tr      = Toprak Hipostazı
+|tr_tl   = 
+|it      = Ipostasi di Geo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -150,5 +157,10 @@ Geo Hypo.png|Screenshot
 ==Navigation==
 {{Enemy Navbox|type=bosses}}
 
-[[es:Hipostasis Geo]]
+[[de:Geo-Hypostase]]
+[[es:Hipóstasis Geo]]
+[[fr:Hypostase Géo]]
+[[ja:無相の岩]]
 [[pt-br:Hypostasis Geo]]
+[[ru:Гео гипостазис]]
+[[zh:無相之岩]]

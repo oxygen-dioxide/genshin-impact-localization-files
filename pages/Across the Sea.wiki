@@ -6,10 +6,10 @@
 |act           = Mighty Cyclops' Adventure!
 |character     = Tartaglia
 |part          = 1
-|description   = You and Paimon prepare to investigate a ruin near [[Lingju Pass]]...<br /><br />
-Reports say that there have been many Ruin Guards wandering about in the wild, and that these Ruin Guards suddenly emerged from a single ruin. In order to keep the people safe, you prepare to assist the Millelith in investigating this affair...
 |requirement   = Complete [[A New Star Approaches]], [[Bookworm Swordsman]], and reach [[Adventure Rank]] 40
 |startLocation = [[Minlin]], [[Liyue]]
+|region        = Liyue
+|area          = Minlin
 |next          = Teucer's Terrific Tour
 |exp           = 375
 |mora          = 22,000
@@ -25,11 +25,11 @@ Reports say that there have been many Ruin Guards wandering about in the wild, a
 #Defeat the Ruin Guard
 #Talk to [[Paimon]]
 #Keep searching the surrounding area
-#*You acquire [[Teucer's Mora Pouch]]
 #Go to [[Northland Bank]]
-#Talk to Childe
+#Talk to [[Childe]]
 
 ==Dialogue==
+{{Quest Description|You and Paimon prepare to investigate a ruin near Lingju Pass...}}
 {{Dialogue start}}
 ;(Talking to [[Daipai]])
 :{{A|vo gzlq001 1 daipai 01.ogg}} '''Daipai:''' Be on your guard, Traveler. Now is no time for sightseeing.
@@ -48,7 +48,7 @@ Reports say that there have been many Ruin Guards wandering about in the wild, a
 :{{A|vo gzlq001 1 paimon 04.ogg}} '''Paimon:''' That's a good point... Ruin Guards are probably pretty dangerous for regular folk...
 :{{DIcon}} Is there any way I can help?
 :{{A|vo gzlq001 1 daipai 09.ogg}} '''Daipai:''' Wow, uh... I'm very grateful indeed for the offer, but... it just wouldn't be worth the risk.
-:{{A|vo gzlq001 1 paimon 05.ogg}} '''Paimon:''' Oh don't worry about that! (Traveler) here, (he/she) beats up Ruin Guards for breakfast.
+:{{A|vo gzlq001 1 paimon 05.ogg}} '''Paimon:''' Oh don't worry about that! (Traveler) here, {{MC|he|she|mc=1}} beats up Ruin Guards for breakfast.
 :{{DIcon}} I do know a little self-defense.
 ::{{A|vo gzlq001 1 daipai 10a.ogg}} '''Daipai:''' Is that so...
 :{{DIcon}} Not to brag, but I could beat ten of you in a fight.
@@ -60,7 +60,9 @@ Reports say that there have been many Ruin Guards wandering about in the wild, a
 
 ;(Talking to Daipai again)
 :{{A|vo dialog gzlq001 daipai 01.ogg}} '''Daipai:''' I must continue with my patrol now. Let's rendezvous shortly.
-
+{{Dialogue end}}
+{{Quest Description|update|Reports say that there have been many Ruin Guards wandering about in the wild, and that these Ruin Guards suddenly emerged from a single ruin. In order to keep the people safe, you prepare to assist the Millelith in investigating this affair...}}
+{{Dialogue start}}
 ;(Investigating the first area)
 :{{A|vo gzlq001 2 paimon 01.ogg}} '''Paimon:''' Whew, this footprint is huuuuge! It has to be the one that guy was talking about.
 
@@ -121,7 +123,7 @@ Reports say that there have been many Ruin Guards wandering about in the wild, a
 :{{A|vo gzlq001 4 paimon 10.ogg}} '''Paimon:''' Your family must be super rich! Paimon never knew you could make so much Mora from selling toys.
 :{{DIcon}} I will gladly take it!
 :{{DIcon}} I will gladly take it! (And give it to your brother when we find him...)
-:{{A|vo gzlq001 4 teucer 14a.ogg}} {{A|vo gzlq001 4 teucer 14b.ogg}} '''Teucer:''' Yay! Thanks, nice (guy/lady)!
+:{{A|vo gzlq001 4 teucer 14a.ogg}} {{A|vo gzlq001 4 teucer 14b.ogg}} '''Teucer:''' Yay! Thanks, nice {{MC|guy|lady|mc=1}}!
 :{{A|vo gzlq001 4 teucer 15.ogg}} '''Teucer:''' Alright, now we gotta make a pinkie promise!
 :{{A|vo gzlq001 4 teucer 16.ogg}} '''Teucer:''' You make a pinkie promise, you keep it all your life. You break a pinkie promise, I throw you on the ice. The cold will kill the pinkie that once betrayed your friend, the frost will freeze your tongue off so you never lie again.
 :{{A|vo gzlq001 4 paimon 11.ogg}} '''Paimon:''' Wow... That one nursery rhyme kinda says all you need to know about Snezhnayan culture...
@@ -131,6 +133,7 @@ Reports say that there have been many Ruin Guards wandering about in the wild, a
 :{{DIcon}} {{Color|buzzword|Northland Bank}}?
 ::{{A|vo gzlq001 4 paimon 13b.ogg}} '''Paimon:''' Great idea. Alright, off we go!
 :{{A|vo gzlq001 4 teucer 17.ogg}} '''Teucer:''' Alright! Finally, now I get to see my brother!
+:;(Obtain [[Teucer's Mora Pouch]] ×5,000)
 ----
 ;(After entering to the Northland Bank)
 :{{A|vo gzlq001 6 ekaterina 01.ogg}} '''[[Ekaterina]]:''' That seems a little inappropriate, don't you think, sir? How can you&mdash;
@@ -144,7 +147,7 @@ Reports say that there have been many Ruin Guards wandering about in the wild, a
 :{{A|vo gzlq001 6 tartaglia 05.ogg}} '''Childe:''' ...Wait a second, what are you doing here in Liyue, Teucer? How have I not heard anything about this?
 :{{A|vo gzlq001 6 teucer 03.ogg}} '''Teucer:''' Well... what happened was... I saw a boat that looked like it was selling toys, so obviously I thought you were on board...
 :{{A|vo gzlq001 6 teucer 04.ogg}} '''Teucer:''' And then when I got off I just kept walking and walking... and then, I found a Mr. Cyclops!
-:{{A|vo gzlq001 6 teucer 05a.ogg}} {{A|vo gzlq001 6 teucer 05b.ogg}} '''Teucer:''' Mr. Cyclops scared off a bad guy, and then I found this nice (guy/lady) to help me come look for you...
+:{{A|vo gzlq001 6 teucer 05a.ogg}} {{A|vo gzlq001 6 teucer 05b.ogg}} '''Teucer:''' Mr. Cyclops scared off a bad guy, and then I found this nice {{MC|guy|lady|mc=1}} to help me come look for you...
 :{{DIcon}} So Teucer's a stowaway!
 ::{{A|vo gzlq001 6 paimon 02a.ogg}} '''Paimon:''' And also... Teucer is Childe's brother!?
 :{{DIcon}} ...Teucer is Childe's brother!?
@@ -167,35 +170,37 @@ Reports say that there have been many Ruin Guards wandering about in the wild, a
 :{{DIcon}} Ready whenever you are.
 :{{A|vo gzlq001 6 paimon 06.ogg}} '''Paimon:''' Whoa, whoa, whoa, you aren't gonna fight now are you?
 :{{A|vo gzlq001 6 tartaglia 14.ogg}} '''Childe:''' Hahaha... Maybe not right now. Not while my kid brother is watching.
-:{{A|vo gzlq001 6 teucer 08a.ogg}} {{A|vo gzlq001 6 teucer 08b.ogg}} '''Teucer:''' Why do you wanna fight the nice (guy/lady)? Are you guys enemies?
+:{{A|vo gzlq001 6 teucer 08a.ogg}} {{A|vo gzlq001 6 teucer 08b.ogg}} '''Teucer:''' Why do you wanna fight the nice {{MC|guy|lady|mc=1}}? Are you guys enemies?
 :{{A|vo gzlq001 6 tartaglia 15.ogg}} '''Childe:''' No, not at all! (Traveler), allow me to formally express my sincerest gratitude for taking care of my darling brother. His safety matters very much to me.
 :{{DIcon}} I'm still keeping my eye on you.
 :{{DIcon}} Concern for your family's well-being. That I can understand.
 :{{A|vo gzlq001 6 paimon 07.ogg}} '''Paimon:''' ...Um, so anyway, Paimon has a question...
 :{{A|vo gzlq001 6 paimon 08.ogg}} '''Paimon:''' Teucer said something about you being a toy seller... What's all that about? Aren't you supposed to be one of the Fatui's Harb&mdash;
 :{{A|vo gzlq001 6 tartaglia 16.ogg}} '''Childe:''' Ahem! Um... Yes, about that...
-:;(Talks to Traveler privately)
+:;(Childe talks to Traveler privately)
 :{{A|vo gzlq001 6 tartaglia 17.ogg}} '''Childe:''' Shh, look, I only told him that so that he'll look up to me. In the eyes of a child, working with toys must be the best job imaginable, right?
 :{{A|vo gzlq001 6 tartaglia 18.ogg}} '''Childe:''' I don't want my family to have anything to do with the Fatui's... or should I say, Snezhnaya's... darker side.
 :{{A|vo gzlq001 6 tartaglia 19.ogg}} '''Childe:''' The older ones already know that I serve the [[Tsaritsa]]. But Teucer is still so young, and in his eyes...
 :;(Goes back to talking with Teucer)
 :{{A|vo gzlq001 6 tartaglia 20.ogg}} '''Childe:''' Ahem. As I was saying... I remain Snezhnaya's greatest expatriate toy seller, currently attached to the Liyue Branch of our [[Institute for Toy Research]]!
 :{{A|vo gzlq001 6 teucer 09.ogg}} '''Teucer:''' That's right! My brother's the greatest! He's Mr. Cyclops' bestest friend!
-:;(Childe looks towards the Traveler)
+:;(Childe turns towards the Traveler)
 :{{A|vo gzlq001 6 tartaglia 21.ogg}} '''Childe:''' Just humor me in front of Teucer, if you would be so kind...
+:;(Childe turns back to Ekaterina)
 :{{A|vo gzlq001 6 tartaglia 22.ogg}} '''Childe:''' Ah, yes. Ekaterina. I will deal with the issue of that outstanding payment right away.
 :{{A|vo gzlq001 6 paimon 09.ogg}} '''Paimon:''' Hey! Slinking off, are we?
 :{{A|vo gzlq001 6 ekaterina 02.ogg}} '''Ekaterina:''' But Master Childe, would it not be a little improper to ask you to deal with... debt collection?
 :{{A|vo gzlq001 6 tartaglia 23.ogg}} '''Childe:''' A bet is a bet, isn't it? And if you lose a bet with an agent... Well, you might as well get a little exercise out of it.
 :{{A|vo gzlq001 6 teucer 10.ogg}} '''Teucer:''' Are you going off to sell toys now?
-:{{A|vo gzlq001 6 tartaglia 24a.ogg}} {{A|vo gzlq001 6 tartaglia 24b.ogg}} '''Childe:''' That's right! As much as I'd love to catch up a little longer, Teucer, duty calls! I'm sure (Mr. Nice Guy/Ms. Nice Lady) here will be happy to keep you company while I'm out, though.
-:{{A|vo gzlq001 6 paimon 10.ogg}} '''Paimon:''' Ugh, so after all this, we still need to keep babysitting for you?
-:{{A|vo gzlq001 6 teucer 11a.ogg}} {{A|vo gzlq001 6 teucer 11b.ogg}} '''Teucer:''' Sure! I really like this (guy/lady), and anyway (he/she) made a pinkie promise to take good care of me!
+:{{A|vo gzlq001 6 tartaglia 24a.ogg}} {{A|vo gzlq001 6 tartaglia 24b.ogg}} '''Childe:''' That's right! As much as I'd love to catch up a little longer, Teucer, duty calls! I'm sure {{MC|Mr. Nice Guy|Ms. Nice Lady|mc=1}} here will be happy to keep you company while I'm out, though.
+:{{A|vo gzlq001 6 paimon 10.ogg}} '''Paimon:''' Ugh, so we still need to keep babysitting for you?
+:{{A|vo gzlq001 6 teucer 11a.ogg}} {{A|vo gzlq001 6 teucer 11b.ogg}} '''Teucer:''' Sure! I really like this {{MC|guy|lady|mc=1}}, and anyway {{MC|he|she|mc=1}} made a pinkie promise to take good care of me!
 :{{A|vo gzlq001 6 tartaglia 25.ogg}} '''Childe:''' Ah! Well, it sounds like Teucer really likes you, and that you've already made a pinkie promise to take good care of him anyway.
 :{{DIcon}} (They're ganging up on me...) ...Okay sure.
 :{{DIcon}} Okay, we'll do it. For Teucer.
 :{{A|vo gzlq001 6 tartaglia 26.ogg}} '''Childe:''' Then I'm in your debt. Here, take this as Teucer's entertainment fund. I want him to have a good time while he's in Liyue, so take him anywhere he wants.
 :{{A|vo gzlq001 6 tartaglia 27.ogg}} '''Childe:''' If need be, you may find me by the river near {{Color|buzzword|Qingxu Pool}}. I'll see you both around!
+:;(Obtain [[Childe and Teucer's Mora Pouch]] ×35,000
 {{Dialogue end}}
 
 ==Other Languages==
@@ -210,7 +215,6 @@ Reports say that there have been many Ruin Guards wandering about in the wild, a
 |ja_rm   = Umi wo Watatta Saikai
 |ja_tl   = Reunion Across the Sea
 |ko      = 바다를 건넌 재회
-|ko_rm   = Badareul Geonneon Jaehoe
 |ko_tl   = Reunion Across the Sea
 |es      = Un encuentro más allá del mar
 |es_tl   = An Encounter Beyond The Sea
@@ -229,7 +233,13 @@ Reports say that there have been many Ruin Guards wandering about in the wild, a
 |id_tl   = Across the Sea
 |pt      = Através do Mar
 |pt_tl   = Across the Sea
+|tr      = Denizin Öbür Ucunda
+|tr_tl   = 
+|it      = Al di là del mare
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|1.1}}
+
+[[es:Un encuentro más allá del mar]]

@@ -3,29 +3,34 @@
 |name            = Soba Noodles
 |description     = A plain and simple noodle dish.
 |type            = Recovery Dishes
-|rarity          = 1
+|quality         = 1
 |desc_suspicious = The rough texture drags itself across your tongue and leaves a bitter aftertaste after you forcibly swallow. Can this... stuff still be considered noodles?
 |desc_basic      = The buckwheat noodles are boiled and then cooled. Their texture is smooth and they have just the right amount of toughness. The inexpensive ingredients and simple make of this dish have made it very popular amongst Inazumans.
 |desc_delicious  = The unique flavor of buckwheat has been maximized, and as the springy noodles slip past your throat, they leave behind a gentle aftertaste, like an old song floating through a tranquil courtyard.
 |effectType      = Regeneration
 |effect          = Restores (var1)% of Max HP to the selected character and regenerates (var2) HP every 5s for 30s.
+|eff_att1        = HP Restore
+|eff_att2        = HP Restore Percent
+|eff_att3        = HP Regen
 |eff_suspicious1 = 8
 |eff_suspicious2 = 210
 |eff_basic1      = 9
 |eff_basic2      = 260
 |eff_delicious1  = 10
 |eff_delicious2  = 300
-|recipe          = Sold by [[Kiminami Restaurant]]
+|recipe          = Sold by [[Kiminami Anna]]
 |region          = Inazuma
 }}
-'''Soba Noodles''' is a [[food]] item that the player can cook. The [[recipe]] for Soba Noodles is purchasable from [[Kiminami Anna]] at [[Kiminami Restaurant]] for 1,250 [[Mora]].
+'''Soba Noodles''' is a [[food]] item that the player can cook. The [[recipe]] for Soba Noodles is obtainable from [[Kiminami Anna]] at [[Kiminami Restaurant]] for 1,250 [[Mora]].
+
+Depending on the quality, Soba Noodles restores '''8'''/'''9'''/'''10'''% of Max HP to the selected character and regenerates '''210'''/'''260'''/'''300''' HP every 5 seconds for 30 seconds. Like most foods, this cannot target other players' characters in [[Co-Op Mode]].
 
 ==Recipe==
 {{Recipe
 |type = Cooking
 |Flour = 1
 |Seagrass = 1
-|sort = Flour,Seagrass
+|sort = Flour;Seagrass
 }}
 
 ==Other Languages==
@@ -53,6 +58,9 @@
 |id      = Soba Noodles
 |pt      = Macarrão Soba
 |pt_tl   = Soba Noodle
+|tr      = Yosunlu Erişte
+|tr_tl   = 
+|it      = Soba
 }}
 
 ==Change History==
@@ -62,5 +70,7 @@
 {{Food Navbox}}
 
 [[es:Fideos soba]]
-[[ru:Соба]]
+[[ja:そば]]
 [[pt-br:Macarrão Soba]]
+[[ru:Соба]]
+[[th:Soba Noodle]]

@@ -7,8 +7,10 @@
 |part          = 3
 |act           = Wind, Courage, and Wings
 |character     = Amber
-|description   = As it turned out, the book [[Amber]] gave you wasn't a manual, but a fairy tale... After completing the first test out in the wild, you learn that the second test is to take place within the city of Mondstadt itself. Amber is waiting for you there.
-|startLocation = [[Mondstadt (City)]], [[Mondstadt]]
+|startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |prev          = License to Glide
 |next          = They Call Him Raptor
 |exp           = 225
@@ -29,11 +31,12 @@
 # Reach the doors of the [[Adventurers' Guild]]
 
 ==Dialogue==
-{{dialogue start}}
+{{Quest Description|As it turned out, the book [[Amber]] gave you wasn't a manual, but a fairy tale... After completing the first test out in the wild, you learn that the second test is to take place within the city of Mondstadt itself. Amber is waiting for you there.}}
+{{Dialogue start}}
 ;(Talk to Amber in front of Mondstadt Cathedral)
-:{{A|vo ablq003 2 ambor 01.ogg}} '''Amber''': Hey &mdash; here, over here!
-:{{A|vo ablq003 2 ambor 02.ogg}} '''Amber''': I'm all set up. Let's carry on with the exam.
-:{{A|vo ablq003 2 ambor 03.ogg}} '''Amber''': Same deal as before, glide through the markers and get to the finish without stopping in the middle.
+:{{A|vo ablq003 2 ambor 01.ogg}} '''Amber:''' Hey &mdash; here, over here!
+:{{A|vo ablq003 2 ambor 02.ogg}} '''Amber:''' I'm all set up. Let's carry on with the exam.
+:{{A|vo ablq003 2 ambor 03.ogg}} '''Amber:''' Same deal as before, glide through the markers and get to the finish without stopping in the middle.
 :{{DIcon}} I'm ready.
 
 ;(Talk to Amber after failing the course)
@@ -48,10 +51,10 @@
 ----
 
 ;(Talk to Amber at the Knights of Favonius headquarters)
-:{{A|vo ablq003 5 ambor 01.ogg}} '''Amber''': Hahaha... Seems like you've got the hang of wind gliding now! Let's do the final stage.
-:{{A|vo ablq003 5 paimon 01.ogg}} '''Paimon''': Easy! You've flown this way before anyway...
-:{{A|vo ablq003 5 ambor 02.ogg}} '''Amber''': Once you've passed this final stage, you'll finally be able to get your very own gliding license.
-:{{A|vo ablq003 5 ambor 03.ogg}} '''Amber''': Just keep thinking about that license. Ready...
+:{{A|vo ablq003 5 ambor 01.ogg}} '''Amber:''' Hahaha... Seems like you've got the hang of wind gliding now! Let's do the final stage.
+:{{A|vo ablq003 5 paimon 01.ogg}} '''Paimon:''' Easy! You've flown this way before anyway...
+:{{A|vo ablq003 5 ambor 02.ogg}} '''Amber:''' Once you've passed this final stage, you'll finally be able to get your very own gliding license.
+:{{A|vo ablq003 5 ambor 03.ogg}} '''Amber:''' Just keep thinking about that license. Ready...
 :{{DIcon}} ...Go!
 
 ;(Talking to Amber after failing the course)
@@ -65,7 +68,7 @@
 :{{A|vo ablq003 8 otto 01.ogg}} '''Otto:''' Windborne traveler! You are required to land at once by order of the Knights of Favonius!
 :;(Talk to Otto after landing)
 :{{A|vo ablq003 8 otto 02.ogg}} '''Otto:''' I am Otto of the Knights of Favonius.
-:{{A|vo ablq003 8 paimon 01.ogg}} '''Paimon:''' Wh–What's going on?
+:{{A|vo ablq003 8 paimon 01.ogg}} '''Paimon:''' Wh&mdash;What's going on?
 :{{A|vo ablq003 8 otto 03.ogg}} '''Otto:''' Please show me your gliding license.
 :{{DIcon}} Ahh... my um, gliding license is, uh...
 :{{DIcon}} It got eaten by Baron Bunny...
@@ -90,7 +93,7 @@
 :{{DIcon}} So... I passed?
 :{{A|vo ablq003 8 ambor 06.ogg}} '''Amber:''' Once we've got this Raptor guy, we'll pick up where we left off.
 :{{A|vo ablq003 8 ambor 07.ogg}} '''Amber:''' But no need to worry... I'll be sure to have a word with Jean.
-{{dialogue end}}
+{{Dialogue end}}
 
 ==Other Languages==
 {{Other Languages
@@ -104,14 +107,14 @@
 |ja_rm   = Mondo-jou no Hikousha{{Assumed}}
 |ja_tl   = Glider of the City of Mondstadt
 |ko      = 몬드성의 비행자
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Mondeu-seong-ui Bihaengja
+|ko_tl   = Mondstadt's Flier
 |es      = Un planeador en la ciudad de Mondstadt
-|es_tl   = 
+|es_tl   = A Glider in the City of Mondstadt
 |fr      = Planeur de Mondstadt
 |fr_tl   = Mondstadt Glider
 |ru      = Планерист Мондштадта
-|ru_tl   = 
+|ru_tl   = Mondstadt Glider
 |th      = นักบินแห่งเมือง Mondstadt
 |th_rm   = 
 |th_tl   = 
@@ -122,9 +125,15 @@
 |id      = Peluncur Mondstadt
 |id_tl   = Mondstadt Glider
 |pt      = Planador de Mondstadt
-|pt_tl   = 
+|pt_tl   = Mondstadt Glider
+|tr      = Mondstadt Pilotu
+|tr_tl   = 
+|it      = Volovelista di Mondstadt
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|1.0}}
+
 [[es:Un planeador en la ciudad de Mondstadt]]
+[[ja:モンド城の飛行者]]

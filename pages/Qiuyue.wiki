@@ -24,7 +24,7 @@ Following a certain dialogue branch for the first time gives the player one [[Pr
 {{Shop/Footer|note=&#32;|total=10,200}}
 
 ==Location==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 NPC Location Qiuyue.png|Qiuyue's location
 NPC Location Qiuyue Context.png|Additional context
 </gallery>
@@ -40,15 +40,19 @@ NPC Location Qiuyue Context.png|Additional context
 ''(To be added.)''
 
 ==Quests and Events==
-{{Quest Appearances}}
+{{Quests and Events}}
 
 ==Idle Quotes==
-*"Ores of Liyue..."
-**{{A|VO Qiuyue 01.ogg}} "Ores and jewelry from Liyue! You can't find a better deal anywhere else!" ''(Voice-Over)''
+{{Dialogue start}}
+: {{DIcon|Idle}} Ores of Liyue...
+:: {{A|VO Qiuyue 01.ogg}} "Ores and jewelry from Liyue! You can't find a better deal anywhere else!"
+{{Dialogue end}}
 
 ;(During Hues of the Violet Garden)
-* ""Zhenyu"..."
-** {{A|VO Qiuyue 01 (Irodori).ogg}} "Who is this "Zhenyu" everyone keeps talking about..." ''(voice over)''
+{{Dialogue start}}
+: {{DIcon|Idle}} "Zhenyu"...
+:: {{A|VO Qiuyue Irodori 01.ogg}} "Who is this "Zhenyu" everyone keeps talking about..." ''(voice over)''
+{{Dialogue end}}
 
 ==Dialogue==
 {{StubDialogue|Check conditions for {{DIcon|!}}}}
@@ -57,22 +61,30 @@ NPC Location Qiuyue Context.png|Additional context
 :{{DIcon|Shop}} Let's see what you've got... <small>''(Only available after completing [[Chisato's Letter]])''</small>
 ::'''Qiuyue:''' Come on in then, and take a look. These are all the finest!
 :;(Opens Shop menu)
+:{{DIcon|TCG}} Adventure Challenge
+:;(Opens [[Genius Invokation TCG/Stage/Qiuyue/Blade of the Lone Wolf|Genius Invokation TCG match interface]])
+:;(If the player loses the match)
+:::'''Qiuyue:''' How about that? I'm unbeatable at Genius Invokation TCG!
+:;(If the player wins the match)
+:::'''Qiuyue:''' ...How could I let you get away with that... I need to think about it...
 :{{DIcon|!}} Do you have any information about Inazuman ores? <small>''(Unknown trigger condition)''</small>
 :;(If there are [[Magical Crystal Chunk|Magical Crystal Ore Veins]] Qiuyue knows; Version 1)
 :::'''Qiuyue:''' Hmm, come to think of it, I've heard that some people saw some ore resembling purplish crystals nearby.
 :::'''Qiuyue:''' That said, I'm just a businessperson, and I'm not in the mining business either. And it's not like I can leave my store so easily, anyway...
 :::'''Qiuyue:''' I'd say that they saw it around... here. There, it should be marked on your map now. If you think it'll be of any use to you, feel free to take a look.
 ::;([[Rich Ore Reserve]]s marked on the map)
-:;(If there are Magical Crystal Ore Veins Qiuyue knows; Version 2)
+:;(If there are [[Magical Crystal Chunk|Magical Crystal Ore Veins]] Qiuyue knows; Version 2)
 :::'''Qiuyue:''' Hmm, now that you mention it, I've heard that someone found some ores nearby that are of better quality than usual.
 :::'''Qiuyue:''' That said, I'm just a businessperson, and I'm not in the mining business either. And it's not like I can leave my store so easily, anyway...
 :::'''Qiuyue:''' I'd say that they saw it around... here. There, it should be marked on your map now. If you think it'll be of any use to you, feel free to take a look.
-::;(Rich Ore Reserves marked on the map)
+::;([[Rich Ore Reserve]]s marked on the map)
 :;(If there are no more Magical Crystal Ore Veins Qiuyue knows)
 :::'''Qiuyue:''' Well... I'd say that things are the same as always. The flow of goods from Liyue is as bottle-necked as ever. No special change on that front.
 :{{DIcon|!}} Is there anything of note nearby? <small>''(Unknown trigger condition)''</small>
+:;(Same as before, Ore Vein condition)
+:{{DIcon|!}} Is there anything of note nearby? <small>''(Unknown trigger condition)''</small>
 ::'''Qiuyue:''' Hmm. It does seem like more and more people have decided to come to Ritou to set up shop.
-::'''Qiuyue:''' There'll be more competition, but more customers as well, so I suppose it's a {{sic|nett}} gain.
+::'''Qiuyue:''' There'll be more competition, but more customers as well, so I suppose it's a net gain.
 :{{DIcon}} About this shop...
 ::'''Qiuyue:''' This shop is the Inazuma franchise of the Chuyu Trading Company. We mainly sell minerals, jewelry, and jade artifacts.
 ::'''Qiuyue:''' We offer the finest materials from Liyue. Each piece is a gift from [[Rex Lapis]].
@@ -82,7 +94,7 @@ NPC Location Qiuyue Context.png|Additional context
 :::'''Qiuyue:''' We're doing okay. After all, there is always demand for minerals no matter where you go.
 :::'''Qiuyue:''' ...If there is demand, there is a market, and Liyue merchants will never miss a business opportunity!
 :::'''Qiuyue:''' The only problem here is the [[Sakoku Decree]]. Our import channels were still affected by it in the end... Ah, it's such a headache.
-:;(After completing Transient Dreams)
+:;(After completing [[Transient Dreams]])
 :::'''Qiuyue:''' It's been great, recently. I mean, ore is always in demand, you know? And where there's demand, there's a market, and we Liyue merchants will never miss a business opportunity!
 :::'''Qiuyue:''' The other thing is the opening of the trade roads, which has resulted in increased channels and buyers alike.
 :::'''Qiuyue:''' Once I scrounge up some more capital, I'm opening up a branch in Inazuma City!
@@ -106,12 +118,13 @@ NPC Location Qiuyue Context.png|Additional context
 ;(After completing [[Festive Elegance]])
 :'''Qiuyue:''' People have been asking me lately if I know where to find [[Xingqiu|Mr. Zhenyu]] from Liyue, but I've never heard of this person in my life.
 :'''Qiuyue:''' Is he some kind of superstar, even more well-known than the Qixing somehow?
-:'''Qiuyue:''' Ah, sorry for the wait, dear customer. Would you like some ores like Liyue?
+:'''Qiuyue:''' Ah, sorry for the wait, dear customer. Would you like some ores from Liyue?
 ;(Continue non-event dialogue)
 {{Dialogue end}}
 
 ==Other Languages==
-{{Other Languages|default_hidden = 1
+{{Other Languages
+|default_hidden = 1
 |en      = Qiuyue
 |zhs     = 秋月
 |zhs_rm  = Qiūyuè
@@ -129,6 +142,8 @@ NPC Location Qiuyue Context.png|Additional context
 |de      = Qiuyue
 |id      = Qiuyue
 |pt      = Qiuyue
+|tr      = Qiuyue
+|it      = Qiuyue
 }}
 
 ==Change History==
@@ -138,3 +153,4 @@ NPC Location Qiuyue Context.png|Additional context
 {{Reflist}}
 
 [[fr:Qiuyue]]
+[[ja:秋月]]

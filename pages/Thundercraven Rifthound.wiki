@@ -1,6 +1,7 @@
 {{Enemy Infobox
 |image    = Enemy Thundercraven Rifthound.png
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = no
 |family   = The Abyss
 |group    = Riftwolves
 |type     = Elite Enemies
@@ -10,11 +11,22 @@
 |ability3 = Corrosion
 |ability4 = Teleport
 }}
-{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by "Gold."<br />Once upon a time, they ran riot across the continent, but they went extinct for a time due to resistance and mass hunts. Recently, however, they have re-emerged. The pack of black wolves that now threaten Springvale and Wolvendom are such creatures.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Rifthounds}}
+===Items===
+{{Drops Table|type=Rifthounds}}
+
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 66
+|p1    = 2
+|hp2   = 33
+|p2    = 2
+|hp3   = 0
+|p3    = 2
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -32,45 +44,47 @@
 }}
 
 ==Abilities and Attacks==
-*'''Corrosion:''' All of the Thundercraven Rifthound's attacks apply [[Corrosion]] on hit.
-*'''Bite:''' Backs away and readies itself to lunge at the player and bite, dealing '''90% ATK''' as {{Color|Electro DMG}}.
-*'''Double Swipe:''' Swipes at the player twice with its claws, dealing '''85% ATK''' {{Color|Electro DMG}} with each swipe.
-*'''Tail Shot:''' If the player is far away, the Rifthound generates a spinning projectile on its tail before launching it towards them, dealing '''95% ATK''' {{Color|Electro DMG}} on hit.
-*'''Tail Swipe:''' Teleports behind the player and swipes with its tail, dealing '''100% ATK''' as {{Color|Electro DMG}}.
-*'''Elemental Devourer:''' Gains '''20%''' [[Fury]] whenever it takes {{Color|Electro DMG}}. (Not including DMG from [[Electro-Charged]]) When full, the Rifthound gains enhanced attacks at the cost of lower {{Color|Electro [[Resistance|RES]]}}.
-*'''Charge:''' Quickly lunges at the player three times, dealing '''85% ATK''' as {{Color|Electro DMG}} on hit. This attack is only performed while the Rifthound is in the Elemental Devourer state.
-*'''Roar:''' When there are Rifthound Whelps nearby, roars to increase the Rifthound Whelps' [[ATK]] by '''25%''' for 10 seconds.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Electro Rifthound
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Electro Rifthound Bite
-|caption1 = Bite
+|name_1 = Corrosion
+|desc_1 = All of the Thundercraven Rifthound's attacks apply [[Corrosion]] on hit.
 
-|file2    = Electro Rifthound Double Swipe
-|caption2 = Double Swipe
+|name_2 = Bite
+|desc_2 = Backs away and readies itself to lunge at the player and bite, dealing '''90% ATK''' as {{Color|Electro DMG}}.
 
-|file3    = Electro Rifthound Tail Shot
-|caption3 = Tail Shot
+|name_3 = Double Swipe
+|desc_3 = Swipes at the player twice with its claws, dealing '''85% ATK''' {{Color|Electro DMG}} with each swipe.
 
-|file4    = Electro Rifthound Tail Swipe
-|caption4 = Tail Swipe
+|name_4 = Tail Shot
+|desc_4 = If the player is far away, the Rifthound generates a spinning projectile on its tail before launching it towards them, dealing '''95% ATK''' {{Color|Electro DMG}} on hit.
 
-|file5    = Electro Rifthound Elemental Devour
-|caption5 = Elemental Devour
+|name_5 = Tail Swipe
+|desc_5 = Teleports behind the player and swipes with its tail, dealing '''100% ATK''' as {{Color|Electro DMG}}.
 
-|file6    = Electro Rifthound Charge
-|caption6 = Charge
+|name_6 = Elemental Devourer
+|desc_6 = Gains '''20%''' [[Fury]] whenever it takes {{Color|Electro DMG}}. (Not including DMG from [[Electro-Charged]]) When full, the Rifthound gains enhanced attacks at the cost of lower {{Color|Electro [[Resistance|RES]]}}.
+|file_6 = Electro Rifthound Elemental Devour
+
+|name_7 = Charge
+|desc_7 = Quickly lunges at the player 2–4 times, dealing '''85% ATK''' as {{Color|Electro DMG}} on hit. This attack is only performed while the Rifthound is in the Elemental Devourer state.
+
+|name_8 = Roar
+|desc_8 = When there are Rifthound Whelps nearby, roars to increase the Rifthound Whelps' [[ATK]] by '''25%''' for 10 seconds.
 }}
 
-===Ability Logic===
-{{Transclude|Rockfond Rifthound|Ability Logic}}
+===AI Logic===
+{{Transclude|Rockfond Rifthound|AI Logic}}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Rifthounds}}
 
+==Descriptions==
+{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by "Gold."<br />Once upon a time, they ran riot across the continent, but they went extinct for a time due to resistance and mass hunts. Recently, however, they have re-emerged. The pack of black wolves that now threaten Springvale and Wolvendom are such creatures.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Thundercraven Rifthound Icon.png|Icon
 Thundercraven Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 </gallery>
@@ -100,8 +114,10 @@ Thundercraven Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 |fr      = Limier de faille électrophile
 |fr_tl   = Electrophilic Rift Bloodhound
 |ru      = Гончая Разрыва: Громоед
-|ru_tl   = 
+|ru_tl   = Rift Hound: Thundereater
 |th      = Thundercraven - Rifthound
+|th_rm   = 
+|th_tl   = 
 |vi      = Thể Lôi - Chó Săn Ma Vật
 |vi_tl   = Electro - Beast Hunting Dog
 |de      = Donnerfressender Garm
@@ -109,6 +125,10 @@ Thundercraven Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 |id      = Thundercraven Rifthound
 |pt      = Cão da Fenda - Electrofito
 |pt_tl   = 
+|tr      = Yıldırım Yutan Hiçlik Kurdu
+|tr_tl   = 
+|it      = Segugio della Faglia Viltuono
+|it_tl   = 
 }}
 
 ==Change History==
@@ -120,4 +140,6 @@ Thundercraven Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 ==Navigation==
 {{Enemy Navbox|type=elite}}
 
+[[de:Donnerfressender Garm]]
+[[es:Sabueso Acechador Eléctrico]]
 [[pt-br:Cão da Fenda - Electrofito]]

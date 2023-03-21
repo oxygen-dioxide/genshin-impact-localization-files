@@ -6,7 +6,9 @@
 |faction  = Shogun's Army
 |ability1 = Directional Shield
 |ability2 = Vacuum Field
-|element  = Electro
+|dmgtype  = Physical
+|dmgtype2 = Electro
+|weakpoint = yes
 }}
 {{Enemy Intro|name='''Yoriki Samurai'''}}
 
@@ -17,7 +19,7 @@
 
 |hp_ratio  = 3.6
 |hp_type   = 2
-|atk_ratio = 3
+|atk_ratio = 2.4
 }}
 
 ===Hues of the Violet Garden===
@@ -31,220 +33,255 @@
 |hp_ratio  = 6.4
 |hp_type   = 2
 |atk_ratio = 1.2
+|hide_notes = 1
 }}
 
-===A Strange and Friendless Road===
+===Warrior's Spirit===
 {{Enemy Stats
 |phys_res  = -20%
 
-|hp_ratio  = 6.4
+|hp_ratio  = 9.0562426383981
 |hp_type   = 2
 |atk_ratio = 1.2
+|atk_type  = 2
+|hide_notes = 1
 }}
 
 ==Abilities and Attacks==
+''Most attack names are unofficial.''
 ''Names are unofficial.''
 
 ===Normal===
-*'''Slash:''' Performs a quick upward or downward close-range slash, dealing '''80% ATK''' as {{Color|Physical DMG}}.
-*'''Double Slash:''' Performs two sweeps with their katana, dealing {{Color|Physical DMG}}.
-*'''Slash Combo:''' Unsheathes their katana to unleash a flurry of slashes, dealing '''85% ATK * 2''' as {{Color|Physical DMG}}.
-*'''Sword Thrust:''' Lunges toward the player with their katana, dealing '''100% ATK''' as {{Color|Physical DMG}} along their path.
-**'''Variant 1:''' Readies their weapon on the hilt before dash-slashing at the player.
-**'''Variant 2:''' Points their blade towards the player and charge towards them.
-*'''Block:''' Assumes a defensive stance, temporarily blocking attacks from the direction they're facing.
-*'''Dodge:''' Jumps backwards, away from the player.
+{{Enemy Attacks
+|name_1 = Slash
+|desc_1 = Performs a quick upward or downward close-range slash, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+|file_1 = Yoriki Samurai Slash Up
+|caption_1 = Upward
+|file_1_2 = Yoriki Samurai Slash Down
+|caption_1_2 = Downward
 
-====Preview====
-{{Preview
-|size=185px
-|file1    = Yoriki Samurai Slash Up
-|caption1 = Slash (Upward)
+|name_2 = Double Slash
+|desc_2 = Lowers their katana and performs two sweeps with their katana, dealing '''75% ATK × 2''' as {{Color|Physical DMG}}.
 
-|file2    = Yoriki Samurai Slash Down
-|caption2 = Slash (Downward)
+|name_3 = Two Point Slash
+|desc_3 = Raises their katana high and performs two slashes, dealing '''50% ATK''' and '''100% ATK''' as {{Color|Physical DMG}}.
+|file_3 = Yoriki Samurai Two Point Slash
 
-|file3    = Yoriki Samurai Double Slash
-|caption3 = Double Slash
+|name_4 = Iai: Quickdraw
+|file_4 = Yoriki Samurai Slash Combo
+|desc_4 = Unsheathes their katana to unleash a flurry of slashes, dealing '''106.25% ATK × 2''' as {{Color|Physical DMG}}.
 
-|file4    = Yoriki Samurai Slash Combo
-|caption4 = Slash Combo
+|name_5 = Sword Thrust
+|desc_5 = Lunges toward the player with their katana, dealing DMG along their path. The windup time before the charge is different depending on the variant used.
+* '''Iai: Thrust:''' Readies their weapon on the hilt before dash-slashing at the player, dealing '''125% ATK''' as {{Color|Physical DMG}}.
+* '''Sword Charge:''' Points their blade towards the player and quickly charges towards them, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+|file_5 = Yoriki Samurai Sword Lunge 1
+|caption_5 = Iai: Thrust
+|file_5_2 = Yoriki Samurai Sword Lunge 2
+|caption_5_2 = Sword Charge
 
-|file5    = Yoriki Samurai Sword Lunge 1
-|caption5 = Sword Lunge (Variant 1)
+|name_6 = Block
+|desc_6 = Assumes a defensive stance either by holding the katana up by the hilt or with one hand on the blade, temporarily blocking attacks from the direction they're facing. If attacked enough, the block will break.
 
-|file6    = Yoriki Samurai Sword Lunge 2
-|caption6 = Sword Lunge (Variant 2)
-
-|file7    = Yoriki Samurai Block
-|caption7 = Block
+|name_7 = Dodge
+|desc_7 = Jumps backwards, away from the player.
 }}
 
 ===Hues of the Violet Garden===
-In the [[Hues of the Violet Garden/Clash of Lone Blades|Hues of the Violet Garden]] event, the Yoriki Samurai named Yasuhiko Tarou will not perform '''Double Slash''' or '''Sword Thrust Variant 1''', but gains the following abilities:
+In the [[Hues of the Violet Garden/Clash of Lone Blades|Hues of the Violet Garden]] event, the Yoriki Samurai named [[Yasuhiko Tarou]] will not perform '''Double Slash''' or '''Iai: Thrust''', but gains the following abilities:
 
-*'''RES Increase:''' Swings their blade to taunt the player and gains a '''80%''' increase in [[Physical RES]]. This state will expire after 10s, or when the player performs a Perfect Parry against their '''Strong Counterattack'''.
-*'''Strong Counterattack:''' If attacked continuously, performs two slashes, dealing '''40% ATK''' and '''80% ATK''' as {{Color|Physical DMG}}.
+{{Enemy Attacks
+|name_1 = RES Increase
+|desc_1 = Swings their blade to taunt the player and gains a '''80%''' increase in [[Physical RES]]. This state will expire after 10s, or when the player performs a Perfect Parry against their '''Strong Counterattack'''.
+|file_1 = Yoriki Samurai Event DEF Increase
 
-====Preview====
-{{Preview
-|size=185px
-|file1    = Yoriki Samurai Event DEF Increase
-|caption1 = RES Increase
-
-|file2    = Yoriki Samurai Event Strong Counterattack
-|caption2 = Strong Counterattack
+|name_2 = Strong Counterattack
+|desc_2 = If attacked continuously, performs two slashes, dealing '''40% ATK''' and '''80% ATK''' as {{Color|Physical DMG}}.
+|file_2 = Yoriki Samurai Event Strong Counterattack
 }}
 
 ===A Strange and Friendless Road===
-In [[Kaedehara Kazuha]]'s [[Story Quest]] [[Acer Palmatum Chapter]] Act 1, [[A Strange and Friendless Road]], a unique variant of the Yoriki Samurai is encountered. He is equipped with the [[Prized Isshin Blade (Awakened)]].
+In [[Kaedehara Kazuha]]'s [[Story Quest]] [[Acer Palmatum Chapter]] Act 1, [[A Strange and Friendless Road]], a unique variant of the Yoriki Samurai who is later identified as [[Amenoma Yuuya]] is encountered and fought three times. For his first two encounters he is equipped with the [[Prized Isshin Blade (Awakened)]].
 
-*'''Superdash:''' Points their blade towards the player and performs an extremely fast forward lunge, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-*'''Slash:''' Performs a quick upward or downward close-range slash, dealing '''80% ATK''' as {{Color|Physical DMG}}. This attack is only used during the first encounter.
-*'''Slash Combo:''' Performs performs two slashes, dealing '''40% ATK''' and '''80% ATK''' as {{Color|Physical DMG}}. This attack is only used during the second encounter.
-*'''Kazuha Slash:''' Sheathes their blade and [[Vacuum Field|sucks]] in nearby players before performing a sweeping slash, creating an Autumn Whirlwind field infused with {{Electro}} akin to Kaedehara Kazuha's [[Kazuha Slash]]. The field deals '''30% ATK''' as {{Color|AoE Electro DMG}} once every second 5 times.
+====First/Second Encounter====
+During the first and second encounters, only the following attacks are used.
+{{Enemy Attacks
+|name_1 = Superdash
+|desc_1 = Points his blade towards the player and performs an extremely fast forward lunge, dealing '''100% ATK''' as {{Color|Physical DMG}} along their path.
+|file_1 = Yoriki Samurai Quest Superdash
 
-====Preview====
-{{Preview
-|size=185px
-|file1    = Yoriki Samurai Quest Superdash
-|caption1 = Superdash
+|name_2 = Slash
+|desc_2 = Performs a quick upward or downward close-range slash, dealing '''80% ATK''' as {{Color|Physical DMG}}. This attack is only used during the first encounter.
+|file_2 = Yoriki Samurai Quest Slash Up
+|caption_2 = Upward
+|file_2_2 = Yoriki Samurai Quest Slash Down
+|caption_2_2 = Downward
 
-|file2    = Yoriki Samurai Quest Slash Up
-|caption2 = Slash (Upward)
+|name_3 = Two Point Slash
+|desc_3 = Performs two slashes, dealing '''50% ATK''' and '''100% ATK''' as {{Color|Physical DMG}}. This attack is only used during the second encounter.
+|file_3 = Yoriki Samurai Quest Slash Combo
 
-|file3    = Yoriki Samurai Quest Slash Down
-|caption3 = Slash (Downward)
-
-|file4    = Yoriki Samurai Quest Slash Combo
-|caption4 = Slash Combo
-
-|file5    = Yoriki Samurai Quest Kazuha Slash
-|caption5 = Kazuha Slash
+|name_4 = Kazuha Slash
+|desc_4 = Sheathes his blade and [[Vacuum Field|sucks]] in nearby players before performing a sweeping slash, creating an Autumn Whirlwind field infused with {{Electro}} akin to Kaedehara Kazuha's [[Kazuha Slash]]. The field deals '''37.5% ATK''' as {{Color|AoE Electro DMG}} once every second 5 times. This attack is only used during the first and second encounter.
+|file_4 = Yoriki Samurai Quest Kazuha Slash
 }}
 
-==Voicelines==
+====Third Encounter====
+During the third encounter:
+* The '''Slash''' attack is disabled.
+* The following attacks have their DMG scalings modified from the normal variant:
+** '''Two Point Slash:''' '''40% ATK''', '''80% ATK'''.
+** '''Iai: Thrust:''' '''150% ATK'''.
+** '''Double Slash:''' '''60% ATK × 2'''.
+** '''Iai: Quickdraw:''' '''85% ATK × 2'''.
+* The following unique attacks are gained:
+{{Enemy Attacks
+|name_1 = Leaping Strike Combo
+|desc_1 = Leaps high towards the player's location and perform a downwards strike, dealing '''120% ATK''' as {{Color|Physical DMG}} and follows up with '''Two Point Slash'''.
+|file_1 = Yoriki Samurai Quest Leaping Strike Combo
+
+|name_2 = Two Point Slash Combo
+|desc_2 = Slowly slashes at the player two times, dealing '''70% ATK × 2''' as {{Color|Physical DMG}} and follows up immediately with '''Double Slash''' after the second slash.
+|file_2 = Yoriki Samurai Quest Two Point Slash Combo
+}}
+
+===Warrior's Spirit===
+In the [[Warrior's Spirit]] event, the character [[Hirotatsu]] is fought on Round 2. His moveset are as follows:
+{{Enemy Attacks
+|name_1 = Two Point Slash
+|desc_1 = Raises their katana high and performs two slashes, dealing '''40% ATK''' and '''80% ATK''' as {{Color|Physical DMG}}. This attack is repeated 2/2/8 times in succession in Normal/Hard/Pro difficulties respectively.
+|file_1 = Yoriki Samurai Event 2 Two Point Slash
+
+|name_2 = Slash
+|desc_2 = Performs a quick upward or downward close-range slash, dealing '''80% ATK''' as {{Color|Physical DMG}}. This attack is only used in Normal difficulty.
+|file_2 = Yoriki Samurai Event 2 Slash Up
+|caption_2 = Upward
+|file_2_2 = Yoriki Samurai Event 2 Slash Down
+|caption_2_2 = Downward
+
+|name_3 = Leaping Strike Combo
+|desc_3 = Leaps high towards the player's location and perform a downwards strike, dealing '''120% ATK''' as {{Color|Physical DMG}} and follows up with 1 '''Two Point Slash'''. This attack is only used in Hard and Pro difficulties.
+|file_3 = Yoriki Samurai Event 2 Leaping Strike Combo
+
+|name_4 = Ultimate Technique: Iai: Quickdraw
+|desc_4 = Unsheathes their katana to unleash a flurry of slashes, dealing '''85% ATK × 2''' as {{Color|Physical DMG}}. [[Parry]]ing this attack will trigger a counterattack.
+|file_4 = Yoriki Samurai Event 2 Iai Quickdraw
+|file_4_2 = Yoriki Samurai Event 2 Iai Quickdraw 2
+|caption_4_2 = Parried
+}}
+
+==Voice-Overs==
 ===Normal===
 {{VO/Enemy
 |enemy                   = Yoriki Samurai
 |vo_01_00_title          = Spotting the Player
 |vo_01_01_file           = VO {lang}{name} - Teach Me A Lesson.ogg
 |vo_01_01_tx_en          = Teach me a lesson.
-|vo_01_01_tx_zhs         = 
-|vo_01_01_tx_zht         = 
+|vo_01_01_tx_zh          = 向阁下讨教。
 |vo_01_01_tx_ja          = 
-|vo_01_01_tx_ko          = 
+|vo_01_01_tx_ko          = 한 수 배우고 싶군
 |vo_01_02_file           = VO {lang}{name} - Brace Yourself.ogg
 |vo_01_02_tx_en          = Brace yourself.
-|vo_01_02_tx_zhs         = 
-|vo_01_02_tx_zht         = 
+|vo_01_02_tx_zh          = 要上了！
 |vo_01_02_tx_ja          = 
-|vo_01_02_tx_ko          = 
+|vo_01_02_tx_ko          = 간다
 
-|vo_02_00_title          = Sword Lunge
+|vo_02_00_title          = Sword Thrust
 |vo_02_01_file           = VO {lang}{name} - Show Me What Youve Got.ogg
 |vo_02_01_tx_en          = Show me what you've got!
-|vo_02_01_tx_zhs         = 
-|vo_02_01_tx_zht         = 
+|vo_02_01_tx_zh          = 讨教！
 |vo_02_01_tx_ja          = 
-|vo_02_01_tx_ko          = 
+|vo_02_01_tx_ko          = 실력을 보여줘라!
+|vo_02_02_file           = VO {lang}{name} - Iai Thrust.ogg
+|vo_02_02_tx_en          = Hah!
 
 |vo_03_00_title          = Slash Combo
 |vo_03_01_file           = VO {lang}{name} - Watch Your Step.ogg
 |vo_03_01_tx_en          = Watch your step!
-|vo_03_01_tx_zhs         = 
-|vo_03_01_tx_zht         = 
+|vo_03_01_tx_zh          = 留意啊，阁下。
 |vo_03_01_tx_ja          = 
-|vo_03_01_tx_ko          = 
+|vo_03_01_tx_ko          = 조심해야 할 거야
 |vo_03_02_file           = VO {lang}{name} - Allow Me To Strike First.ogg
-|vo_03_02_tx_en          = Allow me to strike first!
-|vo_03_02_tx_zhs         = 
-|vo_03_02_tx_zht         = 
+|vo_03_02_tx_en          = Allow me... To strike first!
+|vo_03_02_tx_zh          = 在下，先攻！
 |vo_03_02_tx_ja          = 
-|vo_03_02_tx_ko          = 
+|vo_03_02_tx_ko          = 내가 먼저 공격하지
 
-|vo_04_00_title          = Double Slash
+|vo_04_00_title          = Two Point Slash
 |vo_04_01_file           = VO {lang}{name} - Clear Cut.ogg
 |vo_04_01_tx_en          = Clear cut!
-|vo_04_01_tx_zhs         = 
-|vo_04_01_tx_zht         = 
+|vo_04_01_tx_zh          = 两断！
 |vo_04_01_tx_ja          = 
-|vo_04_01_tx_ko          = 
+|vo_04_01_tx_ko          = 갈라져라!
 |vo_04_02_file           = VO {lang}{name} - Slash.ogg
 |vo_04_02_tx_en          = Slash!
-|vo_04_02_tx_zhs         = 
-|vo_04_02_tx_zht         = 
+|vo_04_02_tx_zh          = 斩！
 |vo_04_02_tx_ja          = 
-|vo_04_02_tx_ko          = 
+|vo_04_02_tx_ko          = 참격!
 
-|vo_05_00_title          = Slash
-|vo_05_01_file           = VO {lang}{name} - Hyah.ogg
-|vo_05_01_tx_en          = Hyah!
-|vo_05_01_tx_zhs         = 
-|vo_05_01_tx_zht         = 
-|vo_05_01_tx_ja          = 
-|vo_05_01_tx_ko          = 
-
-|vo_06_00_title          = Attacking
+|vo_06_00_title          = Double Slash
 |vo_06_01_file           = VO {lang}{name} - A Worthy Opponent.ogg
 |vo_06_01_tx_en          = A worthy opponent.
-|vo_06_01_tx_zhs         = 
-|vo_06_01_tx_zht         = 
+|vo_06_01_tx_zh          = 阁下果然高强！
 |vo_06_01_tx_ja          = 
-|vo_06_01_tx_ko          = 
+|vo_06_01_tx_ko          = 제법이군!
+|vo_06_02_file           = VO {lang}{name} - Ill Spare Nothing.ogg
+|vo_06_02_tx_en          = I'll spare nothing.
+|vo_06_02_tx_zh          = TBD
+|vo_06_02_tx_ja          = 
+|vo_06_02_tx_ko          = TBD
 
-|vo_07_00_title          = Double Slash
+|vo_07_00_title          = Blocking
 |vo_07_01_file           = VO {lang}{name} - Dont Hold Back.ogg
 |vo_07_01_tx_en          = Don't hold back.
-|vo_07_01_tx_zhs         = 
-|vo_07_01_tx_zht         = 
+|vo_07_01_tx_zh          = 堂堂正正地决斗吧！
 |vo_07_01_tx_ja          = 
-|vo_07_01_tx_ko          = 
+|vo_07_01_tx_ko          = 내게 가까이 오는게… 두렵나?
 |vo_07_02_file           = VO {lang}{name} - I Dare You.ogg
 |vo_07_02_tx_en          = I dare you!
-|vo_07_02_tx_zhs         = 
-|vo_07_02_tx_zht         = 
+|vo_07_02_tx_zh          = 不敢接近在下吗？
 |vo_07_02_tx_ja          = 
-|vo_07_02_tx_ko          = 
+|vo_07_02_tx_ko          = 정정당당하게 결투하지
 
-|vo_08_00_title          = Defeated
-|vo_08_01_file           = VO {lang}{name} - I Need To Train Harder.ogg
-|vo_08_01_tx_en          = I need to... train harder...
-|vo_08_01_tx_zhs         = 
-|vo_08_01_tx_zht         = 
-|vo_08_01_tx_ja          = 
-|vo_08_01_tx_ko          = 
-|vo_08_02_file           = VO {lang}{name} - Ive Been Bested Well.ogg
-|vo_08_02_tx_en          = I've been... bested well...
-|vo_08_02_tx_zhs         = 
-|vo_08_02_tx_zht         = 
-|vo_08_02_tx_ja          = 
-|vo_08_02_tx_ko          = 
+|vo_08_00_title          = Staggered
+|vo_08_01_tx_en          = {{A|VO Yoriki Samurai - Staggered 01.ogg}} {{A|VO Yoriki Samurai - Staggered 02.ogg}} {{A|VO Yoriki Samurai - Staggered 03.ogg}}
+
+|vo_09_00_title          = Defeated
+|vo_09_01_file           = VO {lang}{name} - I Need To Train Harder.ogg
+|vo_09_01_tx_en          = I need to... train harder...
+|vo_09_01_tx_zh          = 还需…修行…
+|vo_09_01_tx_ja          = 
+|vo_09_01_tx_ko          = 수행이… 부족해…
+|vo_09_02_file           = VO {lang}{name} - Ive Been Bested Well.ogg
+|vo_09_02_tx_en          = I've been... bested well...
+|vo_09_02_tx_zh          = 是我…输了…
+|vo_09_02_tx_ja          = 
+|vo_09_02_tx_ko          = 내가… 졌군…
 }}
 
-===A Strange and Friendless Road===
+===Amenoma Yuuya? — Re-Emergent Attacker (Through the Mist, a Name Unveiled)===
 {{VO/Enemy
 |enemy                   = Yoriki Samurai
 |vo_01_00_title          = Attacking
 |vo_01_01_file           = VO {lang}{name} - Submit To Me.ogg
 |vo_01_01_tx_en          = Submit to me!
-|vo_01_01_tx_zhs         = 
-|vo_01_01_tx_zht         = 
+|vo_01_01_tx_zh          = 顺从于我！
 |vo_01_01_tx_ja          = 
-|vo_01_01_tx_ko          = 
+|vo_01_01_tx_ko          = 순순히 복종해
 |vo_01_02_file           = VO {lang}{name} - Join Me And Sever That Divine Light.ogg
 |vo_01_02_tx_en          = Join me, and sever that divine light!
-|vo_01_02_tx_zhs         = 
-|vo_01_02_tx_zht         = 
+|vo_01_02_tx_zh          = 和我一起，去斩破天光！
 |vo_01_02_tx_ja          = 
-|vo_01_02_tx_ko          = 
+|vo_01_02_tx_ko          = 나와 함께… 천광을 베어내는 거야!
 |vo_01_03_file           = VO {lang}{name} - We Shall Rewrite History.ogg
 |vo_01_03_tx_en          = We shall rewrite history!
-|vo_01_03_tx_zhs         = 
-|vo_01_03_tx_zht         = 
+|vo_01_03_tx_zh          = 我们必须改写历史！
 |vo_01_03_tx_ja          = 
-|vo_01_03_tx_ko          = 
+|vo_01_03_tx_ko          = 우리가… 역사를 바꿔 써야한다!
 }}
+
+==Trivia==
+*Some [[Nobushi]] can be seen practicing '''Double Slash''' in some areas when not in combat. Either with a training dummy of some kind, with another Nobushi, or one or a group of them being trained by a [[Kairagi]].
 
 ==Other Languages==
 {{Other Languages
@@ -269,9 +306,14 @@ In [[Kaedehara Kazuha]]'s [[Story Quest]] [[Acer Palmatum Chapter]] Act 1, [[A S
 |th      = Yoriki Samurai
 |vi      = Yoriki Samurai
 |de      = Yoriki-Samurai
+|de_tl   = Yoriki Samurai
 |id      = Yoriki Samurai
 |pt      = Assistente de Samurai
 |pt_tl   = Samurai's Assistant
+|tr      = Yoriki Samurayı
+|tr_tl   = 
+|it      = Samurai Yoriki
+|it_tl   = 
 }}
 
 ==Change History==
@@ -281,3 +323,4 @@ In [[Kaedehara Kazuha]]'s [[Story Quest]] [[Acer Palmatum Chapter]] Act 1, [[A S
 {{Enemy Navbox|Special}}
 
 [[pt-br:Assistente de Samurai]]
+[[vi:Yoriki Samurai]]

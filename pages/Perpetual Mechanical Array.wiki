@@ -1,5 +1,6 @@
 {{Enemy Infobox
 |image    = Enemy Perpetual Mechanical Array.png
+|weakpoint = no
 |type     = Normal Bosses
 |family   = Automatons
 |group    = Ruin Machines
@@ -8,15 +9,24 @@
 |ability1 = Invincibility Frames
 |drops    = Perpetual Heart
 }}
-{{Description|A strange, alien machine.<br />They say that it is a war machine left behind by a [[Khaenri'ah|nation]] that has already been destroyed. Composed of several different parts, it can adapt to its combat environment and employ a variety of attacks. This machine, comprised of cubic shapes, is on some level very much like the elemental [[hypostases]].|[[Adventurer Handbook]]
-}}
 {{Enemy Intro}} In order to access the boss, the player can enter through a portal on [[Jinren Island]]. A faster route is unlocked through a [[Teleport Waypoints|Teleport Waypoint]] next to the boss; this requires completion of the [[Araumi]] section of [[Cleansing Defilement]].
 
-==Rewards==
+==Drops==
+===Items===
 {{World Boss Rewards
 |gem=Prithiva Topaz,Shivada Jade
 |exclusive=Perpetual Heart
 |sets=Lucky Dog,Berserker,The Exile,Prayers to Springtime
+}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 66
+|o1    = 1
+|hp2   = 33
+|o2    = 1
+|hp3   = 0
+|o3    = 1
 }}
 
 ==Stats==
@@ -30,48 +40,38 @@
 
 |hp_ratio    = 16
 |hp_type     = 2
-|atk_ratio   = 6
+|atk_ratio   = 7.2
 |res_title   = State
 }}
 
 ==Abilities and Attacks==
-''Names are unofficial.''
-*'''Rocket Blast:''' Transforms into a rocket and targets the player's position before slamming down, dealing '''110% ATK''' as {{Color|AoE Physical DMG}}.
-*'''Orbital Strike:''' Targets your current position with a reticle that focuses before striking down, dealing '''120% ATK''' as {{Color|AoE Physical DMG}}.
-*'''Cube Roll:''' Only uses this move at long ranges. Transforms into a Cube and rolls repeatedly with high speed. When it catches up to the player, releases a shockwave with the final roll, dealing '''90% ATK''' as {{Color|AoE Physical DMG}}.
-*'''Sword Slash:''' Only uses this move at Melee ranges. Transforms into a giant sword and slashes Right to Left, dealing '''90% ATK''' as {{Color|Physical DMG}}.
-*'''Blade Spin:''' Only uses this move at Melee ranges. Transforms into a giant spinning blade and does a zig-zag pattern before slashing Left to Right, dealing '''70% ATK''' as {{Color|Physical DMG}}.
-*'''Energy Cannon:''' Charges up for a short time before firing a beam of pure energy that deals '''40% ATK''' as {{Color|Physical DoT}} to those touching the beam. The beam follows the player.
-*'''Defensive Mode:''' Assumes a defensive stance and launches four cubes that transform into [[Ruin Sentinels]]. Only one highlighted ruin sentinel can be damaged, and defeating it will paralyze the Perpetual Mechanical Array and lower its base [[resistance]]s by 50%. If the highlighted ruin sentinel is not defeated after a long period of time, the Perpetual Mechanical Array will exit Defensive Mode. Defensive Mode always triggers when the boss's HP reaches '''35%''' before its first timed Defensive Mode activation. The boss cannot be damaged past '''30%''' HP until Defensive Mode has been triggered at least once.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Rocket Blast
+|desc_1 = Transforms into a rocket and targets the player's position before slamming down, dealing '''91.6% ATK''' as {{Color|AoE Physical DMG}}.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Perpetual Mechanical Array Rocket Blast
-|caption1=Rocket Blast
+|name_2 = Orbital Strike
+|desc_2 = Targets the player's current position with a reticle that focuses before striking down, dealing '''100% ATK''' as {{Color|AoE Physical DMG}}.
 
-|file2=Perpetual Mechanical Array Orbital Strike
-|caption2=Orbital Strike
+|name_3 = Cube Roll
+|desc_3 = Only uses this move at long ranges. Transforms into a Cube and rolls repeatedly with high speed. When it catches up to the player, releases a shockwave with the final roll, dealing '''75% ATK''' as {{Color|AoE Physical DMG}}.
 
-|file3=Perpetual Mechanical Array Cube Roll
-|caption3=Cube Roll
+|name_4 = Sword Slash
+|desc_4 = Only uses this move at Melee ranges. Transforms into a giant sword and slashes Right to Left, dealing '''75% ATK''' as {{Color|Physical DMG}}.
 
-|file4=Perpetual Mechanical Array Sword Slash
-|caption4=Sword Slash
+|name_5 = Blade Spin
+|desc_5 = Only uses this move at Melee ranges. Transforms into a giant spinning blade and does a zig-zag pattern before slashing Left to Right, dealing '''58.3% ATK''' as {{Color|Physical DMG}}.
 
-|file5=Perpetual Mechanical Array Blade Spin
-|caption5=Blade Spin
+|name_6 = Energy Cannon
+|desc_6 = Charges up for a short time before firing a beam of pure energy that deals '''33.3% ATK''' as {{Color|Physical DoT}} to those touching the beam. The beam follows the player.
 
-|file6=Perpetual Mechanical Array Energy Cannon
-|caption6=Energy Cannon
-
-|file7=Perpetual Mechanical Array Defensive Mode
-|caption7=Defensive Mode
+|name_7 = Defensive Mode
+|desc_7 = Assumes a defensive stance and launches four cubes that transform into [[Ruin Sentinels]]. Only one highlighted Ruin Sentinel can be damaged, and defeating it will paralyze the Perpetual Mechanical Array and lower its base [[resistance]]s by 50%. If the highlighted Ruin Sentinel is not defeated after a long period of time, the Perpetual Mechanical Array will exit Defensive Mode. Defensive Mode always triggers when the boss's HP reaches '''35%''' before its first timed Defensive Mode activation. The boss cannot be damaged past '''30%''' HP until Defensive Mode has been triggered at least once.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -88,15 +88,15 @@
 |-
 | Combo 2 (Blade Spin + Sword Slash + Rocket Blast) || 0–7.5 || 4 || 15–25 || 5
 |-
-| Orbital Strike || 0–99 || 4 || 15–22.5 || 5 || -
+| Orbital Strike || 0–99 || 4 || 15–22.5 || 5 || &mdash;
 |-
-| Cube Roll || 20–40 || 3 || 15–22.5 || 5 || -
+| Cube Roll || 20–40 || 3 || 15–22.5 || 5 || &mdash;
 |-
-| Energy Cannon || 5–15 || 4 || 15–22.5 || 5 || -
+| Energy Cannon || 5–15 || 4 || 15–22.5 || 5 || &mdash;
 |-
-| Enter Defensive Mode || &mdash; || 1 || &mdash; || 40 || -
+| Enter Defensive Mode || &mdash; || 1 || &mdash; || 40 || &mdash;
 |-
-| Exit Defensive Mode || &mdash; || 1 || 150 || 150 || -
+| Exit Defensive Mode || &mdash; || 1 || 150 || 150 || &mdash;
 |}
 
 ==Strategy==
@@ -113,14 +113,16 @@ The attack pattern resets and remains this way until the boss is defeated.
 ==Achievements==
 {{Achievement Topic Table|topic=Perpetual Mechanical Array}}
 
+==Descriptions==
+{{Description|A strange, alien machine.<br />They say that it is a war machine left behind by a [[Khaenri'ah|nation]] that has already been destroyed. Composed of several different parts, it can adapt to its combat environment and employ a variety of attacks. This machine, comprised of cubic shapes, is on some level very much like the elemental [[hypostases]].|[[Adventurer Handbook]] and [[Archive]]}}
+
 ==Trivia==
 *According to the [[Perpetual Heart]]'s description, it is theorized that the Perpetual Mechanical Array was once 4 small machines that discarded their biomimesis and came together of their own accord.
 ** It would appear that the 4 machines that came together had advanced cores and formed a hive mind.
-*Perpetual Mechanical Arrays, along with [[Maguu Kenki]], are the only normal bosses that deal {{Color|Physical DMG}}.
-*The Perpetual Mechanical Array drops elemental gems despite not incorporating {{Geo}} and {{Cryo}} in any of its attacks, making it the only Normal Boss that drops an elemental gem that it has no affinity with.
+*The Perpetual Mechanical Array is also known as the '''Bulky Iron Chunk''' by the [[Aranara]].
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Perpetual Mechanical Array Icon.png|Icon
 Enemy Slime Perpetual Mechanical Array.png|[https://bbs.mihoyo.com/ys/article/7997808 Slime and Perpetual Mechanical Array (CN)] <!--2021-07-30-->
 </gallery>
@@ -128,7 +130,10 @@ Enemy Slime Perpetual Mechanical Array.png|[https://bbs.mihoyo.com/ys/article/79
 ==Video Guides==
 {{EVT
 |video1   = https://youtu.be/vuj64XjQppU
-|caption2 = How to Easily Beat the Perpetual Mechanical Array
+|caption1 = How to Easily Beat the Perpetual Mechanical Array
+
+|video2   = https://youtu.be/IgF6amc5Ncw
+|caption2 = Easy Boss guide
 }}
 
 ==Machine Battlefront==
@@ -154,15 +159,19 @@ Enemy Slime Perpetual Mechanical Array.png|[https://bbs.mihoyo.com/ys/article/79
 |fr      = Matrice mécanique perpétuelle
 |fr_tl   = Perpetual Mechanical Matrix
 |ru      = Бесконечный механический массив
-|ru_tl   = 
+|ru_tl   = Endless Mechanical Array
 |th      = Perpetual Mechanical Array
 |vi      = {{tt|Mô Hình|模形}} {{tt|Động Cơ|動機}} {{tt|Vĩnh Cửu|永久}}
 |vi_tl   = Eternal Mechanical Paradigm
 |de      = Anordnung immerwährender Vorrichtungen
-|de_tl   = Array of Perpetual Mechanism
+|de_tl   = Array of Perpetual Mechanisms
 |id      = Perpetual Mechanical Array
 |pt      = Formação Mecânica Perpétua
 |pt_tl   = Perpetual Mechanical Formation
+|tr      = Ölümsüz Mekanik Dizilim
+|tr_tl   = 
+|it      = Macchinario perpetuo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -171,6 +180,9 @@ Enemy Slime Perpetual Mechanical Array.png|[https://bbs.mihoyo.com/ys/article/79
 ==Navigation==
 {{Enemy Navbox|type=bosses}}
 
+[[de:Anordnung immerwährender Vorrichtungen]]
 [[es:Maquinaria Eterna]]
-[[ru:Бесконечный механический массив]]
+[[ja:恒常からくり陣形]]
 [[pt-br:Formação Mecânica Perpétua]]
+[[ru:Бесконечный механический массив]]
+[[th:Perpetual Mechanical Array]]

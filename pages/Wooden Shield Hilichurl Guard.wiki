@@ -1,5 +1,7 @@
 {{Enemy Infobox
 |image    = Enemy Wooden Shield Hilichurl Guard.png
+|dmgtype  = Physical
+|weakpoint = yes
 |element  = Dendro
 |family   = Hilichurls
 |type     = Common Enemies
@@ -7,75 +9,77 @@
 |ability1 = Shield
 |ability2 = Directional Shield
 }}
-{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Hilichurl warriors who have wooden shields. These shields are not only sturdy defense tools but also treasured items within the tribe. According to many reports, hilichurls will often charge at travelers making camp to cook and will snatch their pot lids after chasing them away.|[[Archive]]}}
 {{Enemy Intro}}
 
-Its shield and club are considered {{Dendro}} objects, and can be burned and destroyed with {{Pyro}}. It is possible to burn only the shield and leave the club intact, and vice versa. When the shield catches fire, the Hilichurl Guard will panic and dance around while trying to put out the fire. Typically, the shield will be completely burnt before the fire can be extinguished, unless it [[Elemental Reactions|reacts]] with another element.
-
 ==Drops==
-{{Drops|Hilichurls}}
+===Items===
+{{Drops Table|type=Hilichurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|hp_ratio=1|atk_ratio=1.8|hp_type=1}}
 
 ==Abilities and Attacks==
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = 
+|desc_1 = The Wooden Shield Hilichurl Guard's shield and club are considered {{Wood}} objects, and can be burned and destroyed with {{Pyro}}. It is possible to burn only the shield and leave the club intact, and vice versa. When the shield catches fire, the Hilichurl Guard will panic and dance around while trying to put out the fire. Typically, the shield will be completely burnt before the fire can be extinguished, unless it [[Elemental Reactions|reacts]] with another element.
+{{Elemental Shield Data|Wood|2}}
+|file_1 = Wooden Shield Hilichurl Guard On Fire
+|caption_1 = On Fire
+}}
+
 ===Shield and Club Intact===
-*'''Smack:''' Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-
-===Preview===
-{{Preview
-|size=185px
-|file1    = Wooden Shield Hilichurl Guard Smack
-|caption1 = Smack
-
-|file2    = Wooden Shield Hilichurl Guard On Fire
-|caption2 = On Fire
+{{Enemy Attacks
+|name_1 = Smack
+|desc_1 = Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 }}
 
 ===Shield Destroyed===
-*'''Smack:''' Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-*'''Charged Smack:''' Charges and swings its club at the player powerfully, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back.
-*'''Rapid Swings:''' Performs 3 consecutive swings at the player, dealing '''100% ATK''', '''100% ATK''', '''125% ATK''' with each swing as {{Color|Physical DMG}}.
+{{Enemy Attacks
+|name_1 = Smack
+|desc_1 = Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+|file_1 = Hilichurl Fighter Smack
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Hilichurl Fighter Smack
-|caption1 = Smack
+|name_2 = Charged Smack
+|desc_2 = Charges and swings its club at the player powerfully, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back.
+|file_2 = Hilichurl Fighter Charged Smack
 
-|file2    = Hilichurl Fighter Charged Smack
-|caption2 = Charged Smack
-
-|file3    = Hilichurl Fighter Rapid Swings
-|caption3 = Rapid Swings
+|name_3 = Rapid Swings
+|desc_3 = Performs 3 consecutive swings at the player, dealing '''100% ATK''', '''100% ATK''', '''125% ATK''' with each swing as {{Color|Physical DMG}}.
+|file_3 = Hilichurl Fighter Rapid Swings
 }}
 
 ===Club Destroyed===
-*'''Rock Throw:''' Digs a small rock out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Physical DMG}}.
-
-===Preview===
-{{Preview
-|size=185px
-|file    = Wooden Shield Hilichurl Guard Rock Throw Club Destroyed
-|caption = Rock Throw
+{{Enemy Attacks
+|name_1 = Rock Throw
+|desc_1 = Digs a small rock out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Physical DMG}}.
+|file_1 = Wooden Shield Hilichurl Guard Rock Throw Club Destroyed
 }}
 
 ===Shield and Club Destroyed===
-*'''Punch:''' Approaches and swings its fist at the player, dealing '''75% ATK''' as {{Color|Physical DMG}}.
-*'''Rock Throw:''' Digs a small rock out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Physical DMG}}.
+{{Enemy Attacks
+|name_1 = Punch
+|desc_1 = Approaches and swings its fist at the player, dealing '''75% ATK''' as {{Color|Physical DMG}}.
+|file_1 = Hilichurl Punch
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Hilichurl Punch
-|caption1 = Punch
-
-|file2    = Hilichurl Rock Throw
-|caption2 = Rock Throw
+|name_2 = Rock Throw
+|desc_2 = Digs a small rock out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Physical DMG}}.
+|file_2 = Hilichurl Rock Throw
 }}
 
+==Descriptions==
+{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Hilichurl warriors who have wooden shields. These shields are not only sturdy defense tools but also treasured items within the tribe. According to many reports, hilichurls will often charge at travelers making camp to cook and will snatch their pot lids after chasing them away.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Wooden Shield Hilichurl Guard Icon.png|Icon
 </gallery>
 
@@ -107,6 +111,10 @@ Enemy Wooden Shield Hilichurl Guard Icon.png|Icon
 |id      = Wooden Shield Hilichurl Guard
 |pt      = Hilichurl Guarda de Escudo de Madeira
 |pt_tl   = 
+|tr      = Ahşap Kalkanlı Dağ Yabanisi Muhafızı
+|tr_tl   = 
+|it      = Guardia Hilichurl con scudo di legno
+|it_tl   = 
 }}
 
 ==Change History==
@@ -115,5 +123,8 @@ Enemy Wooden Shield Hilichurl Guard Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Hilichurl mit Holzschild]]
 [[es:Hilichurl con Escudo de Madera]]
+[[ja:ヒルチャール・木盾]]
 [[pt-br:Hilichurl Guarda de Escudo de Madeira]]
+[[th:Wooden Shield Hilichurl Guard]]

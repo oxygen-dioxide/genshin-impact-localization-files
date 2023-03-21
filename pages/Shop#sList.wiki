@@ -1,0 +1,24 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = List
+}}
+__TOC__
+==Shops==
+{{#dpl:
+|category=Shops
+|uses=Template:Location Infobox
+|include={Location Infobox}:%PAGE%:region:area:subarea
+|table=class="article-table sortable",-,Shop,Nation,Area,Subarea
+|tablerow=[[%%]],[[%%]],[[%%]],²{#if:%%¦²{Exists¦%%¦[[%%]]¦%%}²}²
+}}
+
+==Recipes==
+{{#dpl:
+|category=Vendors
+|include={Shop}:specific:%PAGE%
+|includematch=/Recipe/
+|table=class="article-table sortable",-,Recipe,Shop
+|tablerow=²{Item¦²{#replace:%%¦Recipe: ¦}²¦30}²,²{Exists¦%%¦[[%%]]¦%%}²
+}}
+
+[[Category:Lists]]

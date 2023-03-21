@@ -7,9 +7,9 @@
 ==Characters==
 ===Sword Characters===
 {| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
-! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Animation Speed During Hitlag
+! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Entity Speed Multiplier
 |-
-| rowspan="2" style="text-align:center" | All Sword Characters || Normal Attack 1, 2 || 0.03 || {{check|yes}} || 0.01
+| rowspan="2" style="text-align:center" | Most Sword Characters || Normal Attack 1, 2 || 0.03 || {{check|yes}} || 0.01
 |-
 | Charged Attack || 0 || {{check|no}} || 0.01
 |-
@@ -18,6 +18,10 @@
 | Normal Attack 4 || 0.09 || {{check|yes}} || 0.01
 |-
 | Normal Attack 5 || 0.12 || {{check|yes}} || 0.01
+|-
+| rowspan="2" style="text-align:center" | {{Character|Alhaitham|50}} || Normal Attack 1, 2, 3B, 5 || 0.02 || {{check|yes}} || 0.01
+|-
+| Normal Attack 3A, 4 || 0 || {{check|no}} || 0.01
 |-
 | rowspan="3" style="text-align:center" | {{Character|Bennett|50}} || Normal Attack 3 || 0.06 || {{check|yes}} || 0.01
 |-
@@ -71,9 +75,15 @@
 |-
 | Normal Attack 5 || 0 || {{check|no}} || 0.01
 |-
-| rowspan="2" style="text-align:center" | {{Character|Kuki Shinobu|50}} || Normal Attack 3 || 0.06 || {{check|yes}} || 0.01
+| rowspan="3" style="text-align:center" | {{Character|Kuki Shinobu|50}} || Normal Attack 3 || 0.06 || {{check|yes}} || 0.01
 |-
 | Normal Attack 4 || 0.1 || {{check|yes}} || 0.01
+|-
+| Charged Attack B || 0.1 || {{check|yes}} || 0.01
+|-
+| style="text-align:center" | {{Character|Layla|50}} || Normal Attack 3 || 0.06 || {{check|yes}} || 0.01
+|-
+| style="text-align:center" | {{Character|Nilou|50}} || Normal Attack 3 || 0.06 || {{check|yes}} || 0.01
 |-
 | rowspan="2" style="text-align:center" | {{Character|Qiqi|50}} || Normal Attack 3A, 3B, 4A, 4B || 0.03 || {{check|yes}} || 0.05
 |-
@@ -96,7 +106,7 @@
 
 ===Claymore Characters===
 {| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
-! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Animation Speed During Hitlag
+! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Entity Speed Multiplier
 |-
 | rowspan="2" style="text-align:center" | Most Claymore Characters || Charged Attack Spinning || 0.03 || {{check|yes}} || 0.01
 |-
@@ -130,11 +140,29 @@
 |-
 | Normal Attack 3, 4 || 0.12 || {{check|yes}} || 0.01
 |-
+| rowspan="4" style="text-align:center" | {{Character|Dehya|50}} || Normal Attack 1 || 0.09 || {{check|yes}} || 0.01
+|-
+| Normal Attack 2 || 0.1 || {{check|yes}} || 0.01
+|-
+| Normal Attack 3 || 0.08 || {{check|yes}} || 0.01
+|-
+| Normal Attack 4 || 0.12 || {{check|yes}} || 0.01
+|-
 | rowspan="3" style="text-align:center" | {{Character|Diluc|50}} || Normal Attack 1 || 0.1 || {{check|yes}} || 0.01
 |-
 | Normal Attack 2, 3 || 0.09 || {{check|yes}} || 0.01
 |-
 | Normal Attack 4 || 0.12 || {{check|yes}} || 0.01
+|-
+| rowspan="5" style="text-align:center" | {{Character|Dori|50}} || Normal Attack 1 || 0.1 || {{check|yes}} || 0.01
+|-
+| Normal Attack 2A || 0 || {{check|no}} || 0
+|-
+| Normal Attack 2B || 0 || {{check|no}} || 0.01
+|-
+| Normal Attack 3 || 0.08 || {{check|yes}} || 0.01
+|-
+| Normal Attack 4 || 0.08 || {{check|yes}} || 0.01
 |-
 | rowspan="6" style="text-align:center" | {{Character|Eula|50}} || Normal Attack 1 || 0.09 || {{check|yes}} || 0.01
 |-
@@ -177,9 +205,39 @@
 
 ===Polearm Characters===
 {| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
-! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Animation Speed During Hitlag
+! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Entity Speed Multiplier
 |-
 | style="text-align:center" | Most Polearm Characters || Thrusting Charged Attack || 0 || {{check|yes}} || 0.01
+|-
+| rowspan="11" style="text-align:center" | {{Character|Cyno|50}} || Normal Attack 1 || 0.01 || {{check|no}} || 0.01
+|-
+| Normal Attack 2 || 0.06 || {{check|yes}} || 0.01
+|-
+| Normal Attack 3A || 0 || {{check|no}} || 0.01
+|-
+| Normal Attack 3B || 0.02 || {{check|yes}} || 0.01
+|-
+| Normal Attack 4 || 0.04 || {{check|yes}} || 0.01
+|-
+| Normal Attack 1 (Burst) || 0.01 || {{check|no}} || 0.01
+|-
+| Normal Attack 2 (Burst) || 0.01 || {{check|no}} || 0.01
+|-
+| Normal Attack 3 (Burst) || 0.03 || {{check|no}} || 0.01
+|-
+| Normal Attack 4A (Burst) || 0.01 || {{check|no}} || 0.01
+|-
+| Normal Attack 4B (Burst) || 0.03 || {{check|no}} || 0.01
+|-
+| Normal Attack 5 (Burst) || 0.05 || {{check|yes}} || 0.01
+|-
+| rowspan="4" style="text-align:center" | {{Character|Candace|50}} || Normal Attack 1, 2 || 0.03 || {{check|yes}} || 0.01
+|-
+| Normal Attack 3A || 0 || {{check|no}} || 0.01
+|-
+| Normal Attack 3B || 0.03 || {{check|yes}} || 0.01
+|-
+| Normal Attack 4 || 0.04 || {{check|yes}} || 0.01
 |-
 | rowspan="5" style="text-align:center" | {{Character|Hu Tao|50}} || Normal Attack 1, 2, 3 || 0.01 || {{check|yes}} || 0.01
 |-
@@ -247,6 +305,14 @@
 |-
 | Normal Attack 6 || 0.04 || {{check|yes}} || 0.01
 |-
+| rowspan="4" style="text-align:center" | {{Character|Yaoyao|50}} || Normal Attack 1, 2 || 0.06 || {{check|yes}} || 0.01
+|-
+| Normal Attack 3A || 0 || {{check|no}} || 0.01
+|-
+| Normal Attack 3B || 0.01 || {{check|yes}} || 0.01
+|-
+| Normal Attack 4 || 0.09 || {{check|yes}} || 0.01
+|-
 | rowspan="5" style="text-align:center" | {{Character|Yun Jin|50}} || Normal Attack 1, 2 || 0.03 || {{check|yes}} || 0.01
 |-
 | Normal Attack 3A, 4A || 0 || {{check|no}} || 0.01
@@ -268,7 +334,7 @@
 
 ===Bow Characters===
 {| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
-! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Animation Speed During Hitlag
+! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Entity Speed Multiplier
 |-
 | rowspan="3" style="text-align:center" | Most Bow Characters || Normal Attack || 0 || {{check|no}} || 0.01
 |-
@@ -293,9 +359,9 @@
 
 ===Catalyst Characters===
 {| class="wikitable sortable mw-collapsible" data-expandtext="+" data-collapsetext="-"
-! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Animation Speed During Hitlag
+! Character !! Attack !! Standard Hitlag Duration (Seconds) !! Poise-Extendable !! Entity Speed Multiplier
 |-
-| Most Catalyst Characters || All Attacks || 0 || {{check|no}} || 0.01
+| Most Catalyst Characters || All Attacks || 0 || {{check|no}} || 0.05
 |-
 | rowspan="6" style="text-align:center" | {{Character|Shikanoin Heizou|50}} || Normal Attack 1-2 || 0.03 || {{check|yes}} || 0.01
 |-

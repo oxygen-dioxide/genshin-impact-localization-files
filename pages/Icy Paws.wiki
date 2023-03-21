@@ -6,7 +6,7 @@
 |energyGen     = Each Icy Paw which hits an opponent generates approximately '''0.8''' Elemental Particles.
 |particles     = 0.8×2
 |particlesHold = 0.8×5
-|scale_att1    = HP
+|scale_att1    = Max HP
 |scale_att2    = ATK
 |utility1      = Shield
 |utility2      = Shield Improvement
@@ -23,24 +23,33 @@
 
 ==Gameplay Notes==
 * {{TalentNote|particles|an Icy Paw|~0.8}}
-** On average, when all Icy Paws hit an opponent, they generate '''1.6''' Elemental Particles on press, and '''4''' Elemental Particles on hold.0
-* {{TalentNote|icd|Icy Paw DMG}}
-* Icy Paws home in on targets. They may not all home in on the same targets. Targets include but are not limited to enemies, wildlife, pets, torches, and [[Berries]].
+** On average, when all Icy Paws hit an opponent, they generate '''1.6''' Elemental Particles on press, and '''4''' Elemental Particles on hold.
 * Using this talent will inflict the {{Color|Cryo|Frozen}} status on the character for 0.1s when the shield is created.
-** This status has the same icon as the {{Cryo}} status, can trigger most {{Cryo}}-related [[Elemental Reaction]]s, remove elemental statuses from the character, as well as act as a source for {{Cryo}} [[Elemental Absorption]]s. However, it does not interact with the {{Color|Wet}} status, nor will it freeze the player in place like its name implies.
-* Diona's shield duration depends on the number of Icy Paws that hit their target. However, Icy Paws does not need to have to hit enemies in order to have hit a "target"; surfaces and other obstacles are regarded as a "target" too.<ref name="shield testing">YouTube: [https://youtu.be/ozq3ijjezYw Diona shield testing (2.4s duration per paw)]</ref>
-* Total Shield DMG Absorption can be calculated using the formula below.<ref name="NGA1">NGA: [https://bbs.nga.cn/read.php?tid=24147117 <nowiki>[数据讨论]</nowiki> 关于护盾强效的测试]</ref>
+** This status does not interact with the {{Color|Wet}} status, nor will it freeze the player in place like its name implies.
+* Icy Paws does not need to have to hit enemies in order to have hit a "target"; surfaces and other obstacles are regarded as targets as well.
+* Total Shield DMG Absorption can be calculated using the formula below.
 :<math>\text{Total Shield Absorption} =  \text{Base Shield Absorption}</math><math> \times (1 + 0.75 \text{ when hold}) \times \text{Shields Effectiveness} \times</math><math> (1 + 1.5 \text{ against Cryo DM}) \times (1 + 0.15 \text{ at Constellation 2})</math>
-<!--<pre>Total Shield DMG Absorption = Base Shield DMG Absorption × Cryo DMG Absorption Bonus% × (1 + Holding Attack DMG Absorption Bonus%) × (1 + Constellation 2 DMG Absorption Bonus%) × (1 + Powerful Shield%)</pre>-->
-<!-- <math>AB_{Total} = AB_{Base} \times AB_{Cryo Bonus}\% \times \left ( 1 + AB_{Hold Bonus}\% \right ) \times \left ( 1 + AB_{C2 Bonus}\% \right ) \times \left (1 + \mathrm{Powerful Shield}\% \right )</math> -->
-* For example, a Constellation Lv. 2 [[Diona]] has 23,577 Total HP, 0% Bonus Shield Effectiveness and Level 6 Icy Paws. She can create '''23,577 × 0.101 + 1,097 ≈ 3,478''' Base Shield DMG Absorption.<br />When Holding Elemental Skill, she can create '''3,478 × 2.5 × (1 + 0.75) × (1 + 0.15) ≈ 17,500''' for {{Color|Cryo DMG}}.
-* In both Solo mode and Co-Op mode, Shield Effectiveness is a dynamic value for Total Shield DMG Absorption: it depends of the active character, not from the character who creates the shield.<ref name="NGA1" />
-** Picture a scenario where a Constellation Lv. 2 [[Diona]] can create a '''3,478''' Base Shield with 35% Bonus Shields Effectiveness. In solo mode, when Diona creates a shield, Diona will get '''3,478 × 2.5 × (1 + 0.75) × (1 + 0.15) × (1 + 0.35) ≈ 23,625''' Shield DMG Absorption for {{Color|Cryo DMG}}. In case Diona's Bonus Shields Effectiveness is 0%, she will only get '''3,478 × 2.5 × (1 + 0.75) × (1 + 0.15) ≈ 17,500''' Shield DMG Absorption for {{Color|Cryo DMG}}.
 * {{TalentNote|character=Diona|talent=Icy Paws|ascension|1|Cat's Tail Secret Menu}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|2|Shaken, Not Purred}}
 * {{TalentNote|constellation|5|Double Shot, on the Rocks}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Icy Paw DMG
+|gu      = 1U
+|icdtag  = Elemental Skill
+|icdtype = 2.5s/3 Hits
+|poise   = 30
+|impulse = 2
+
+|title2   = Frozen to Self
+|gu2      = 2U, 0.1s
+|icdtag2  = none
+|poise2   = —
+|impulse2 = —
+}}
 
 ==Preview==
 {{Preview
@@ -142,6 +151,10 @@
 |id      = Icy Paws
 |pt      = Garra de Gato Gelada
 |pt_tl   = 
+|tr      = Buz Patisi
+|tr_tl   = 
+|it      = Zampe glaciali
+|it_tl   = Icy Paws
 }}
 
 ==Change History==
@@ -154,6 +167,8 @@
 {{Talent Navbox|Diona}}
 
 [[es:Zarpazo helado]]
+[[fr:Griffes Cryo]]
 [[pt-br:Garra de Gato Gelada]]
 [[ru:Морозные коготочки]]
 [[th:Icy Paws]]
+[[vi:Móng Mèo Lạnh Giá]]

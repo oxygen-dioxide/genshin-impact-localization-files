@@ -1,16 +1,26 @@
 {{Enemy Infobox
 |image    = Enemy Cryo Cicin.png
-|element  = Cryo
+|dmgtype  = Cryo
+|weakpoint = no
 |type     = Common Enemies
 |family   = Mystical Beasts
 |group    = Cicins
 |location = [[Dragonspine]]
 }}
-{{Description|Little creatures that can ever so slightly manipulate Cryo.<br />They and other such creatures are known collectively as Cicins. They are individually very weak, but it is precisely because they are weak that they have evolved unique methods of movement that allow them to avoid predators.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Cicins}}
+===Items===
+{{Drops Table|type=Cicins}}
+
+===Energy===
+{{Energy Drops
+|type  = Cryo
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -22,13 +32,11 @@
 }}
 
 ==Abilities and Attacks==
-*'''Cryo Bolt:''' Fires a bolt at the player, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
-
-===Preview===
-{{Preview
-|size=185px
-|file=Cryo Cicin Bolt
-|caption=Cryo Bolt
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Cryo Bolt
+|desc_1 = Fires a bolt at the player, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
+|file_1 = Cryo Cicin Bolt
 }}
 
 ==Locations==
@@ -36,8 +44,11 @@ Cicins' locations cannot be pinpointed by using the [[Adventurer Handbook]], as 
 *Cryo Cicins can be found at [[Dragonspine]].
 *[[Fatui Cryo Cicin Mage]]s always summon three Cryo Cicins.
 
+==Descriptions==
+{{Description|Little creatures that can ever so slightly manipulate Cryo.<br />They and other such creatures are known collectively as Cicins. They are individually very weak, but it is precisely because they are weak that they have evolved unique methods of movement that allow them to avoid predators.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Cryo Cicin Icon.png|Icon
 </gallery>
 
@@ -69,6 +80,10 @@ Enemy Cryo Cicin Icon.png|Icon
 |id      = Cryo Cicin
 |pt      = Cicin Cryo
 |pt_tl   = Cryo Cicin
+|tr      = Buz Cicin
+|tr_tl   = 
+|it      = Cicin di Cryo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -77,6 +92,9 @@ Enemy Cryo Cicin Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Kryo-Cicin]]
 [[es:Cicin Cryo]]
-[[ru:Крио цицин]]
+[[ja:氷蛍]]
 [[pt-br:Cicin Cryo]]
+[[ru:Крио цицин]]
+[[vi:Cicin Băng]]

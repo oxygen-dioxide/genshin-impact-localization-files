@@ -4,14 +4,14 @@
 __TOC__
 ==Story==
 {{VO/Story
-|character           = {{ROOTPAGENAME}}
+|character           = Xiao
 |language            = ja
 |name                = 魈
 |vo_01_01_title      = 初めまして…
 |vo_01_01_subtitle   = Hello
 |vo_01_01_file       = VO_{language}{character} Hello.ogg
 |vo_01_01_tx         = 王難、賊難、火難、水難、羅刹難、茶枳尼鬼難、毒薬難の際は我が名を呼びたまえ。<br />「三眼五顕仙人」&mdash;&mdash;「魈」、召喚に応じ参上。
-|vo_01_01_rm         = Ounan, zokunan, kanan, suinan, rasetsunan, dakinikinan, dokuyakunan no sai wa wagana wo yobitamae.<br />"Sangan Goken Sennin" &mdash;&mdash; "Shou", shoukan ni ouji sanjou.
+|vo_01_01_rm         = Ounan, zokunan, kanan, suinan, rasetsunan, dakinikinan, dokuyakunan no sai wa wagana wo yobitamae.<br />"Sangan Goken Sennin" {{lmdash}} "Shou", shoukan ni ouji sanjou.
 |vo_01_01_tl         = 
 
 <!-- Chats -->
@@ -33,7 +33,7 @@ __TOC__
 |vo_02_03_subtitle   = Chat: Corruption
 |vo_02_03_file       = VO_{language}{character} Chat - Corruption.ogg
 |vo_02_03_tx         = グルルルッ&mdash;&mdash;！フン、嫌なことを思い出してしまった。
-|vo_02_03_rm         = Gurururu'&mdash;&mdash;! Fun, iya-na koto wo omoidashite shimatta.
+|vo_02_03_rm         = Gurururu'{{lmdash}}! Fun, iya-na koto wo omoidashite shimatta.
 |vo_02_03_tl         = 
 |vo_02_03_actualtx   = っん！フン、嫌なことを思い出してしまった。
 |vo_02_03_actualrm   = 'N! Fun, iya-na koto wo omoidashite shimatta.
@@ -117,7 +117,7 @@ __TOC__
 |vo_06_01_subtitle   = About Us: Warnings
 |vo_06_01_file       = VO_{language}{character} About Us - Warnings.ogg
 |vo_06_01_tx         = いつか、お前まで闇に墜ちる時が来たら、その時は我が&mdash;&mdash;
-|vo_06_01_rm         = Itsu ka, omae made yami ni ochiru toki ga kitara, sono toki wa ware ga&mdash;&mdash;
+|vo_06_01_rm         = Itsu ka, omae made yami ni ochiru toki ga kitara, sono toki wa ware ga{{lmdash}}
 |vo_06_01_tl         = 
 
 |vo_06_02_title      = 信頼について…
@@ -322,21 +322,21 @@ __TOC__
 |vo_11_01_subtitle   = Receiving a Gift: I
 |vo_11_01_file       = VO_{language}{character} Receiving a Gift - 01.ogg
 |vo_11_01_tx         = うむ、悪くない…ん？なぜ我をじっと見ている。
-|vo_11_01_rm         = 
+|vo_11_01_rm         = Umu, warukunai... N? Naze ware wo jitto miteiru.
 |vo_11_01_tl         = 
 
 |vo_11_02_title      = 贈り物を受け取る·2
 |vo_11_02_subtitle   = Receiving a Gift: II
 |vo_11_02_file       = VO_{language}{character} Receiving a Gift - 02.ogg
 |vo_11_02_tx         = もう充分だ。
-|vo_11_02_rm         = 
+|vo_11_02_rm         = Mou juubun da.
 |vo_11_02_tl         = 
 
 |vo_11_03_title      = 贈り物を受け取る·3
 |vo_11_03_subtitle   = Receiving a Gift: III
 |vo_11_03_file       = VO_{language}{character} Receiving a Gift - 03.ogg
 |vo_11_03_tx         = 次は別のものを作るといい。
-|vo_11_03_rm         = 
+|vo_11_03_rm         = Tsugi wa betsu no mono wo tsukuru to ii.
 |vo_11_03_tl         = 
 
 <!-- Birthday -->
@@ -377,13 +377,13 @@ __TOC__
 |vo_13_04_ascension  = 6
 |vo_13_04_file       = VO_{language}{character} Feelings About Ascension - 04.ogg
 |vo_13_04_tx         = 我の槍纓は、無数の魂を屠ってきた。我自身も、闇に飲まれてしまった。<br />&mdash;&mdash;お前はそんな我を怖がらずに、我を…「仲間」だと思っている。<br />…お前は我を救いたいのか？…理解できぬ生き物だな。
-|vo_13_04_rm         = Ware no souei wa, musuu no tamashii wo hofutte kita. Ware jishin mo, yami ni nomarete shimatta.<br />&mdash;&mdash;Omae wa sonna ware wo kowagarazu ni, ware wo... "Nakama" da to omotte iru.<br />...Omae wa ware wo sukuitai no ka? ...Rikai dekinu ikimono da na.
+|vo_13_04_rm         = Ware no souei wa, musuu no tamashii wo hofutte kita. Ware jishin mo, yami ni nomarete shimatta.<br />{{lmdash}}Omae wa sonna ware wo kowagarazu ni, ware wo... "Nakama" da to omotte iru.<br />...Omae wa ware wo sukuitai no ka? ...Rikai dekinu ikimono da na.
 |vo_13_04_tl         = 
 }}
 
 ==Combat==
 {{Combat VO
-|character           = {{ROOTPAGENAME}}
+|character           = Xiao
 |language            = ja
 
 <!-- Elemental Skill -->
@@ -442,7 +442,6 @@ __TOC__
 
 <!-- Sprint End -->
 
-
 <!-- Deploying Wind Glider -->
 
 |glider_1_file       = Deploying Wind Glider 03
@@ -484,38 +483,44 @@ __TOC__
 |low-hp_3_rm         = Yokarou.
 |low-hp_3_tl         = Very well.
 
-
+<!-- Ally at Low HP -->
+|ally-low-hp_1_tx    = …弱い。
+|ally-low-hp_1_tl    = ...Weak.
+|ally-low-hp_1_rm    = ...Yowai.
+|ally-low-hp_2_tx    = 死にたくないなら、後ろへ下がれ。
+|ally-low-hp_2_tl    = If you don't want to die, get back.
+|ally-low-hp_2_rm    = Shinitaku nai nara, ushiroe sagare.
 
 <!-- Fallen -->
 
 |fallen_1_tx         = これは…報いなのか。
 |fallen_1_rm         = Kore wa... mukui na no ka.
-|fallen_1_tl         = 
+|fallen_1_tl         = Is this... retribution.
 
 |fallen_2_tx         = この日…ついぞ訪れたか。
 |fallen_2_rm         = Kono hi... tsuizo otozureta ka.
-|fallen_2_tl         = 
+|fallen_2_tl         = This day... has finally come.
 
 |fallen_3_tx         = ありえない…
 |fallen_3_rm         = Arienai...
-|fallen_3_tl         = 
+|fallen_3_tl         = Impossible...
 
 <!-- Light Hit Taken -->
 
 |hit-l_1_file        = Light Hit Taken 02
 |hit-l_1_tx          = 貴様の分際で。
 |hit-l_1_rm          = Kisama no bunzai de.
-|hit-l_1_tl          = 
+|hit-l_1_tl          = Know your place.  <ref group="TN •">"Kisama" is a very impolite way of addressing someone, often used to express contempt. "Bunzai" roughly means position, usually when referring to someone below you. Roughly "You're not even in a position to be bothering me."</ref>
 
 |hit-l_2_file        = Light Hit Taken 03
 |hit-l_2_tx          = 愚かな。
 |hit-l_2_rm          = Orokana.
-|hit-l_2_tl          = 
+|hit-l_2_tl          = Foolish.
 
 |hit-l_3_file        = Light Hit Taken 04
 |hit-l_3_tx          = 触るな。
 |hit-l_3_rm          = Sawaru na.
-|hit-l_3_tl          = 
+|hit-l_3_tl          = Don't touch me.
 
 |hit-l_4_file        = Light Hit Taken 01,Light Hit Taken 05,Light Hit Taken 06
 
@@ -524,17 +529,17 @@ __TOC__
 |hit-h_1_file        = Heavy Hit Taken 02
 |hit-h_1_tx          = 邪魔するな。
 |hit-h_1_rm          = Jama suru na.
-|hit-h_1_tl          = 
+|hit-h_1_tl          = Get out of my way.
 
 |hit-h_2_file        = Heavy Hit Taken 05
 |hit-h_2_tx          = 戯言を。
 |hit-h_2_rm          = Zaregoto wo.
-|hit-h_2_tl          = 
+|hit-h_2_tl          = Nonsense.
 
 |hit-h_3_file        = Heavy Hit Taken 06
 |hit-h_3_tx          = おのれ……
 |hit-h_3_rm          = Onore......
-|hit-h_3_tl          = 
+|hit-h_3_tl          = You... <ref group="TN •">An impolite way of addressing someone. Often used in archaic contexts.</ref>
 
 |hit-h_4_file        = Heavy Hit Taken 01,Heavy Hit Taken 03,Heavy Hit Taken 04
 
@@ -542,18 +547,17 @@ __TOC__
 
 |join_1_tx           = 召喚に応じ参上する。
 |join_1_rm           = Shoukan ni ouji sanjou suru.
-|join_1_tl           = 
+|join_1_tl           = I come by your summon.
 
 |join_2_tx           = 諸悪よ、散れ。
 |join_2_rm           = Shoaku yo, chire.
-|join_2_tl           = 
+|join_2_tl           = Evils, disperse.
 
 |join_3_tx           = 降魔は我がすべき務めだ。
 |join_3_rm           = Kouma wa waga subeki tsutome da.
-|join_3_tl           = 
+|join_3_tl           = Conquering demons is a duty I must fulfill.
 
 <!-- Character Idles -->
-
 
 <!-- Light Attack -->
 |atk-l_1_file        = Light Attack 01,Light Attack 02,Light Attack 03,Light Attack 04,Light Attack 05,Light Attack 06,Light Attack 07
@@ -569,5 +573,10 @@ __TOC__
 |jump_1_file         = Jumping 01,Jumping 02,Jumping 03,Jumping 04,Jumping 05
 }}
 
+==Translation Notes==
+{{Reflist|group=TN •}}
+
 ==Navigation==
 {{Character Navbox|type=playable|link type=vo-ja}}
+
+[[th:Xiao/เสียงพากย์/ภาษาญี่ปุ่น]]

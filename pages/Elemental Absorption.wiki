@@ -1,11 +1,34 @@
 {{Terminology Infobox
 |type = Combat
 }}
-'''Elemental Absorption''' refers to how certain [[Anemo]] skills can absorb one of the four elements [[Electro]], [[Pyro]], [[Hydro]] or [[Cryo]] on its first contact with such an element and then become infused with that element, dealing DMG of that type in addition to {{Color|Anemo DMG}}.
+'''Elemental Absorption''' is a mechanic found on certain {{Anemo}} abilities which allows the ability to absorb one of the four elements {{Electro}}, {{Pyro}}, {{Hydro}} or {{Cryo}} on its first contact and become infused with that element, dealing DMG of that type in addition to {{Color|Anemo DMG}} or providing additional effects based on the element absorbed.
 
 Generally, only one element can be absorbed per use. If multiple elements are present, there is a priority for which element is absorbed.
 
-Additional elemental damage dealt by skills that have absorbed an element should not be confused with [[Swirl]] damage. Swirl damage is fixed damage based only on character level and elemental mastery, while additional elemental damage from elemental absorption is regular damage and is thus affected by the stats that normally affect [[damage]], including [[attack]], [[Critical Hit|critical hit]] rate and damage, and elemental [[Damage Bonus|damage bonus]]es.
+Additional elemental damage dealt by skills that have absorbed an element should not be confused with [[Swirl]] damage. Swirl damage is fixed damage based only on character level and [[Elemental Mastery]], while additional elemental damage from elemental absorption is regular damage and is thus affected by the stats that normally affect [[damage]], including [[ATK]], [[CRIT]] Rate and DMG, and [[Damage Bonus]]es.
+
+==Elemental Sources==
+All characters, enemies, or objects affected by an [[Elemental Gauge Theory|elemental status]] can serve as sources of Elemental Absorption. This also includes [[Elemental Gauge Theory/Advanced Aura Mechanics#Self Auras|self-applied elemental statuses]]. In [[Co-Op Mode]], elements that teammates are affected with can also be absorbed. Most character elemental abilities do not serve as sources of Elemental Absorption, with the only exception being [[Guoba Attack]] where Guoba himself is infused with Pyro when he spits fire.
+
+The absorbed element can apply an aura or trigger an reaction. The number of times absorbed elements are applied will depend on the respective talent's [[Internal Cooldown]].
+
+==Absorption Priority==
+In cases where more than one element can be absorbed, Elemental Absorption will follow a priority.
+
+For the [[Anemo Traveler]], the priority is:
+*{{Cryo}} / {{Color|Cryo|Frozen}} > {{Pyro}} > {{Hydro}} > {{Electro}}
+
+For other Anemo characters, the priority is:
+*{{Pyro}} > {{Hydro}} > {{Electro}} > {{Cryo}} / {{Color|Cryo|Frozen}}
+
+==Aura Check==
+When Elemental Absorption occurs, all targets in its range, including allies, will be hit with a damageless hit. This damageless hit is used by the game to determine what elements are available to be absorbed, and is therefore commonly referred to as '''Aura Check'''. Aura Checks can can trigger certain on-hit effects, such as those of [[Beidou]]'s [[Stunning Revenge|4th Constellation Level]] and [[Thoma]]'s [[A Comrade's Duty|1st Constellation Level]].
+{{Preview
+|f1 = Aura Check Thoma C4
+|c1 = Aura Check activating Thoma's Constellation 1
+|f2 = Aura Check Sunsettia
+|c2 = Aura Check knocking off an additional Sunsettia from a Cuihua tree
+}}
 
 ==Abilities==
 ===Talents===
@@ -21,21 +44,6 @@ Like with talents, only one element can be absorbed per use. Enemies with access
 
 {{Enemies by Category List|Elemental Absorption Enemies|header=1}}
 
-==Elemental Sources==
-All characters, enemies, or objects affected by an [[Gauge Unit Theory/Auras|elemental status]] can serve as sources of Elemental Absorption. This also includes [[Gauge Unit Theory/Auras#Self Auras|self-applied elemental statuses]]. In [[Co-Op Mode]], elements that teammates are affected with can also be absorbed. Most character elemental abilities do not serve as sources of Elemental Absorption, with the only exception being [[Guoba Attack]] where Guoba himself is infused with Pyro when he spits fire.
-
-The absorbed element can be used to further trigger elemental reactions, including [[Swirl]]. The number of times absorbed elements are applied will depend on the respective talent's [[Internal Cooldown]].
-*For example, one can use Venti's burst Wind's Grand Ode to absorb Pyro and then apply Hydro attacks to proc [[Vaporize]] reactions.
-
-==Absorption Priority==
-In cases where more than one element can be absorbed there seems to be a priority.<ref>NGA: [https://bbs.nga.cn/read.php?tid=24400590&rand=855 Gauge Unit Theory, Section 4.4.5 风元素转化优先级]</ref>
-
-For the [[Anemo Traveler]], the priority is:
-*{{Cryo}} / {{Color|Cryo|Frozen}} > {{Pyro}} > {{Hydro}} > {{Electro}}
-
-For other Anemo characters, the priority is:
-*{{Pyro}} > {{Hydro}} > {{Electro}} > {{Cryo}} / {{Color|Cryo|Frozen}}
-
 ==Change History==
 {{Change History|1.0}}
 
@@ -45,4 +53,7 @@ For other Anemo characters, the priority is:
 ==Navigation==
 {{Element Navbox|state=collapsed}}
 {{Combat Navbox}}
+
+[[ja:元素変化]]
 [[pt-br:Absorção Elemental]]
+[[th:การเปลี่ยนแปลงธาตุ]]

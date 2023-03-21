@@ -6,190 +6,130 @@
 |subarea      = Wolvendom
 |drops        = Tail of Boreas,Ring of Boreas,Spirit Locket of Boreas
 }}
-{{Description|A noble soul that watches over Wolvendom. When the safety of the wolves is threatened, it will take the form of a wolf and bare its fangs and claws. It is said that its powers were given to it by an ancient god.}}
-
-The '''Wolf of the North Challenge''' is the location where the spirit of [[Andrius]], Dominator of Wolves, may be fought.
-
-Players can test their skills against Andrius after completing Act I of [[Razor]]'s [[Story Quest]], [[The Meaning of Lupical]]. This challenge is considered to be a [[Weekly Boss]] similar to [[Trounce Domain]]s, but the fight itself takes place in the overworld rather than in an instance.
-
-==Boss Description==
-{{Description|A noble soul that watches over Wolvendom. When the safety of the wolves is threatened, it will take the form of a wolf and show its fangs and claws. It is said that its powers were given to it by an ancient [[god]].|[[Adventurer Handbook]]}}
-{{Description|The noblest and greatest of souls, who watches over the lupical of Wolvendom.<br />When the wolfpack is imperiled, it will emerge in the form of a wolf and show forth its fangs and claws.<br />
-<br />''The wolves of Wolvendom are frightening phantoms to the people of Mondstadt:<br />A blurred shape flashing through the forest, a chilling howl in the indeterminate distance, the creeping sense of eyes constantly nailed on their backs...<br />Humans rarely have the opportunity to lock their eyes with a wolf, for this is the law Lupus Boreas laid down for its race.''|[[Archive]]}}
-
-==Rewards==
-{{Weekly Boss Rewards
-|exclusive=Tail of Boreas,Ring of Boreas,Spirit Locket of Boreas
-|min=WL 5+
-}}
-{{World Boss Rewards
-|weekly=1
-|gem=Shivada Jade,Agnidus Agate,Prithiva Topaz
-}}
-
-==Stats==
-{{Enemy Stats|cryo_res=Immune|anemo_res=Immune|hide_level_scaling=1}}
-{|class="wikitable tdc1 tdc2 tdr3 tdr4"
-! World<br />Level
-! Boss<br />Level
-! HP
-! ATK
-|-
-| 1
-| 39
-| 44,352
-| 2,340
-|-
-| 2
-| 42
-| 53,244
-| 2,689
-|-
-| 3
-| 51
-| 94,032
-| 3,917
-|-
-| 4
-| 63
-| 166,824
-| 5,861
-|-
-| 5
-| 73
-| 253,656
-| 7,927
-|-
-| 6
-| 84
-| 363,204
-| 10,136
-|-
-| 7
-| 92
-| 460,260
-| 12,033
-|-
-| 8
-| 94
-| 488,196
-| 12,777
-|}
-
-==Attacks and Abilities==
 {{Enemy Infobox
 |name     = Andrius
 |image    = Andrius.png
 |title    = Dominator of Wolves
 |type     = Weekly Bosses
 |family   = Enemies of Note
-|element  = Anemo
-|element2 = Cryo
+|dmgtype  = Anemo
+|dmgtype2 = Cryo
+|weakpoint = no
 |ability1 = Pushing Vacuum Field
 |ability2 = Energy Generation
 }}
+The '''Wolf of the North Challenge''' is the location where the spirit of [[Andrius]], Dominator of Wolves, may be fought.
 
+Players can test their skills against Andrius after completing the [[Razor]]'s [[Story Quest]], [[Lupus Minor Chapter]]: Act I - [[The Meaning of Lupical]]. This challenge is considered to be a [[Weekly Boss]] similar to [[Trounce Domain]]s, but the fight itself takes place in the overworld rather than in an instance.
+
+==Boss Description==
+{{Description|Rumor has it that a great eternal power rests at [[Wolvendom]], watching over the wolves...|[[Adventurer Handbook]], before unlocking Wolf of the North Challenge}}
+{{Description|A noble soul that watches over Wolvendom. When the safety of the wolves is threatened, it will take the form of a wolf and show its fangs and claws. It is said that its powers were given to it by an ancient [[god]].|Adventurer Handbook, after unlocking Wolf of the North Challenge}}
+{{Description|The noblest and greatest of souls, who watches over the lupical of Wolvendom.<br />When the wolfpack is imperiled, it will emerge in the form of a wolf and show forth its fangs and claws.<br />
+<br />''The wolves of Wolvendom are frightening phantoms to the people of Mondstadt:<br />A blurred shape flashing through the forest, a chilling howl in the indeterminate distance, the creeping sense of eyes constantly nailed on their backs...<br />Humans rarely have the opportunity to lock their eyes with a wolf, for this is the law Lupus Boreas laid down for its race.''|[[Archive]]}}
+
+==Rewards==
+{{World Boss Rewards
+|weekly=1
+|gem=Shivada Jade,Agnidus Agate,Prithiva Topaz
+|exclusive=Tail of Boreas,Ring of Boreas,Spirit Locket of Boreas
+}}
+
+==Stats==
+{{Enemy Stats
+|cryo_res  = Immune
+|anemo_res = Immune
+
+|hp_ratio  = 18
+|hp_type   = 1
+|atk_ratio = 7.2
+|atk_type  = 1
+}}
+
+==Abilities and Attacks==
+''Most attack names are unofficial.''
 ===Phase 1===
-* '''Wolf Leap:''' Andrius jumps into the air and leaps toward the ice circle that appears on the ground, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}} and generating a Cryo [[Energy|Energy Orb]]. This attack cannot be dodged using [[Sprinting#Dash|Dash]] [[Invincibility Frames|i-frames]].
+{{Enemy Attacks
+|enemy = Andrius
 
-* '''Wolf Charge:''' After charging for a while, Andrius will quickly dash towards the player, dealing '''120% ATK''' {{Color|Cryo DMG}} and leaving an ice trail in his wake.
+|name_1 = Wolf Leap
+|desc_1 = Andrius jumps into the air and leaps toward the ice circle that appears on the ground, dealing '''83.3% ATK''' as {{Color|AoE Cryo DMG}} and generating a Cryo [[Energy|Energy Orb]]. This attack cannot be dodged using [[Sprinting#Dash|Dash]] [[Invincibility Frames|i-frames]].
 
-* '''Wolf Slash ({{Color|Cryo}}):''' Andrius raises his front legs and slashes towards his front, dealing '''70% ATK''' as {{Color|Cryo DMG}} to players around him.
+|name_2 = Wolf Charge
+|desc_2 = After charging for a while, Andrius will quickly dash towards the player, dealing '''100% ATK''' {{Color|Cryo DMG}} and leaving an ice trail in his wake.
 
-* '''Tail Sweep (Ranged):''' Andrius raises his hind legs and sweeps his tail quickly while shooting small icicles towards the player, dealing {{Color|Cryo DMG}}. These icicles will remain on the arena and explode after a period of time, also generating a {{Color|Cryo}} [[Energy]] Orb.
+|name_3 = Wolf Slash ({{Color|Cryo}})
+|desc_3 = Andrius raises his front legs and slashes towards his front, dealing '''58.3% ATK''' as {{Color|Cryo DMG}} to players around him.
+|file_3 = Andrius Wolf Slash Cryo
 
-* '''Spinning Slash:''' Andrius creates circular ice surfaces around him before spinning quickly, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}} (The actual range of slash is wider in front of him than behind him) and generating a Cryo [[Energy|Energy Orb]]. This attack cannot be dodged using Dash i-frames.
+|name_4 = Tail Sweep (Ranged)
+|desc_4 = Andrius raises his hind legs and sweeps his tail quickly while shooting small icicles towards the player, dealing {{Color|Cryo DMG}}. These icicles will remain on the arena and explode after a period of time, also generating a {{Color|Cryo}} [[Energy]] Orb.
+|file_4 = Andrius Tail Sweep Ranged
 
-* '''Repositioning:''' After attacking his hind legs, Andrius will reposition himself to face the player(s).
+|name_5 = Spinning Slash
+|desc_5 = Andrius creates circular ice surfaces around him before spinning quickly, dealing '''83.3% ATK''' as {{Color|AoE Cryo DMG}} (The actual range of slash is wider in front of him than behind him) and generating a Cryo [[Energy|Energy Orb]]. This attack cannot be dodged using Dash i-frames.
 
-====Preview====
-{{Preview
-|size=185px
-|file1    = Andrius Wolf Leap
-|caption1 = Wolf Leap
-
-|file2    = Andrius Wolf Charge
-|caption2 = Wolf Charge
-
-|file3    = Andrius Wolf Slash Cryo
-|caption3 = Wolf Slash ({{Color|Cryo}})
-
-|file4    = Andrius Tail Sweep Ranged
-|caption4 = Tail Sweep (Ranged)
-
-|file5    = Andrius Spinning Slash
-|caption5 = Spinning Slash
+|name_6 = Repositioning
+|desc_6 = After attacking his hind legs, Andrius will reposition himself to face the player(s).
 }}
 
 ===Interlude Phase===
 ''Interlude Phase is skipped if Andrius' HP is reduced to 0 in a single strike before the start of Interlude Phase.''
 
-* During this phase, the edge of the arena will be covered by an icy floor that deals '''20% ATK''' as {{Color|Cryo DoT}} if stood in.
-* Andrius runs in a circle around the map, and will '''Wolf Charge''' towards the player(s) when he stops (twice). Next, he circles the arena once again, then '''Wolf Leaps''' to the middle of the arena, either continuing Phase 1 or entering Phase 2 if certain triggers are met.
-** Trigger 1: When his HP falls below '''55%'''
-** Trigger 2: The player(s) take too long to defeat him. <!-- How long? -->
+{{Enemy Attacks
+|enemy = Andrius
 
-====Preview====
-{{Preview
-|size=185px
-|file1    = Andrius Wolf Leap Interlude
-|caption1 = Wolf Leap (Interlude)
-
-|file2    = Andrius Wolf Charge Interlude
-|caption2 = Wolf Charge (Interlude)
+|desc_1 = During this phase, the edge of the arena will be covered by an icy floor that deals '''16.6% ATK''' as {{Color|Cryo DoT}} if stood in.
+Andrius runs in a circle around the map, and will '''Wolf Charge''' towards the player(s) when he stops (twice). Next, he circles the arena once again, then '''Wolf Leaps''' to the middle of the arena, either continuing Phase 1 or entering Phase 2 if certain triggers are met.
+* Trigger 1: When his HP falls below '''55%'''
+* Trigger 2: The player(s) take too long to defeat him.
+|file_1 = Andrius Wolf Leap Interlude
+|caption_1 = Wolf Leap (Interlude)
+|file_1_2 = Andrius Wolf Charge Interlude
+|caption_1_2 = Wolf Charge (Interlude)
 }}
 
 ===Phase 2===
 ''Phase 2 is skipped if Andrius' HP is reduced to 0 before the end of the Interlude Phase.''
 * Phase 1 abilities can still be used in this phase.
 
-* '''Frozen Pillars:''' At the start of Phase 2, 6 pillars and icy floor will be generated around the edge of the arena. The icy floor will deal '''5% ATK''' as {{Color|Cryo DoT}} to characters who step on it and reduce their [[Movement Speed]] by '''12%'''.
-** When hit by Andrius' own '''Wolf King Roar''' or '''Wind Blades''', the pillars will explode, each dealing '''80% ATK''' as {{Color|AoE Cryo DMG}} and randomly generating 0–5 Cryo [[Energy|Energy Orbs]] at its location.
-** Despite having no visible health bars, the pillars can be damaged and destroyed using [[Elemental Reactions]], and are weakest against {{Pyro}}. Destroying a pillar will remove the damaging icy floor around it.
+{{Enemy Attacks
+|enemy = Andrius
 
-* '''Push:''' At the start of Phase 2, [[Vacuum Field|pushes]] nearby player away from himself.
+|name_1 = Push
+|desc_1 = At the start of Phase 2, [[Vacuum Field|pushes]] nearby player away from himself.
 
-* '''Icicle Storm:''' Andrius charges for a while and summons icicles that fall from the sky, dealing '''30% ATK''' as {{Color|AoE Cryo DMG}}. The edge of the arena will be covered by an icy floor that deals '''5% ATK''' as {{Color|Cryo DoT}} if stood in. The fallen icicles cannot be dodged using Dash i-frames.
+|name_2 = Frozen Pillars
+|desc_2 = At the start of Phase 2, 6 pillars and icy floor will be generated around the edge of the arena. The icy floor will deal '''4.16% ATK''' as {{Color|Cryo DoT}} to characters who step on it and reduce their [[Movement Speed]] by '''12%'''.
+* When hit by Andrius' own '''Wolf King Roar''' or '''Wind Blades''', the pillars will explode, each dealing '''66.6% ATK''' as {{Color|AoE Cryo DMG}} and randomly generating 0–5 Cryo [[Energy|Energy Orbs]] at its location.
+* Despite having no visible health bars, the pillars can be damaged and destroyed using [[Elemental Reactions]], and are weakest against {{Pyro}}. Destroying a pillar will remove the damaging icy floor around it.
+{{Elemental Shield Data|Cryo|12|Pillar}}
+|file_2 = Andrius Frozen Pillar Explosion
+|caption_2 = Pillar Explosion
 
-* '''Wolf King Roar:''' Andrius charges for a while and then roars, dealing '''1–3% ATK''' as {{Color|Anemo DoT}} in a huge AoE around him. The DMG is higher the farther the player is from Andrius.
+|name_3 = Icicle Storm
+|desc_3 = Andrius charges for a while and summons icicles that fall from the sky, dealing '''25% ATK''' as {{Color|AoE Cryo DMG}}. The edge of the arena will be covered by an icy floor that deals '''5% ATK''' as {{Color|Cryo DoT}} if stood in. The fallen icicles cannot be dodged using Dash i-frames.
 
-* '''Wolf Slash ({{Color|Anemo}}):''' Andrius raises his front legs and slashes towards his front, dealing '''70% ATK''' as {{Color|Anemo DMG}} to players around him.
+|name_4 = Wolf King Roar
+|desc_4 = Andrius charges for a while and then roars, dealing '''0.83–2.5% ATK''' as {{Color|Anemo DoT}} in a huge AoE around him. The DMG is higher the farther the player is from Andrius.
 
-* '''Tail Sweep (Melee):''' Andrius raises his hind legs and sweeps his tail quickly, dealing '''70% ATK''' as {{Color|Cryo DMG}}.
+|name_5 = Wolf Slash ({{Color|Anemo}})
+|desc_5 = Andrius raises his front legs and slashes towards his front, dealing '''58.3% ATK''' as {{Color|Anemo DMG}} to players around him.
+|file_5 = Andrius Wolf Slash Anemo
 
-* '''Ice Waves:''' Andrius raises his front legs while creating an ice path in front of him that applies {{Cryo}} to characters that stand on it, then releases ice waves on the path, dealing '''50% ATK''' as {{Color|Cryo DMG}}.
+|name_6 = Tail Sweep (Melee)
+|desc_6 = Andrius raises his hind legs and sweeps his tail quickly, dealing '''58.3% ATK''' as {{Color|Cryo DMG}}.
+|file_6 = Andrius Tail Sweep Melee
 
-* '''Wind Blades:''' Andrius raises his front legs, then summons 3 vertical wind blades in a 60-degree forward arc, dealing '''50% ATK''' as {{Color|Anemo DMG}}.
+|name_7 = Ice Waves
+|desc_7 = Andrius raises his front legs while creating an ice path in front of him that applies {{Cryo}} to characters that stand on it, then releases ice waves on the path, dealing '''50% ATK''' as {{Color|Cryo DMG}}.
 
-* '''Small Phantom Wolf:''' Andrius summons a small phantom wolf to attack the player(s), dealing '''30% ATK''' as {{Color|Cryo DMG}}. The frequency of this attack will escalate as time progresses.
-** Trigger: When his HP falls below '''15%'''.
+|name_8 = Wind Blades
+|desc_8 = Andrius raises his front legs, then summons 3 vertical wind blades in a 60-degree forward arc, dealing '''41.6% ATK''' as {{Color|Anemo DMG}}.
 
-====Preview====
-{{Preview
-|size=185px
-|file1    = Andrius Frozen Pillar Explosion
-|caption1 = Frozen Pillar Explosion
-
-|file2    = Andrius Icicle Storm
-|caption2 = Icicle Storm
-
-|file3    = Andrius Wolf King Roar
-|caption3 = Wolf King Roar
-
-|file4    = Andrius Wolf Slash Anemo
-|caption4 = Wolf Slash ({{Color|Anemo}})
-
-|file5    = Andrius Tail Sweep Melee
-|caption5 = Tail Sweep (Melee)
-
-|file6    = Andrius Ice Waves
-|caption6 = Ice Waves
-
-|file7    = Andrius Wind Blades
-|caption7 = Wind Blades
-
-|file8    = Andrius Small Phantom Wolf
-|caption8 = Small Phantom Wolf
+|name_9 = Small Phantom Wolf
+|desc_9 = Andrius summons a small phantom wolf to attack the player(s), dealing '''25% ATK''' as {{Color|Cryo DMG}}. The frequency of this attack will escalate as time progresses.
+* Trigger: When Andrius' HP falls below '''15%'''.
 }}
 
 ==Strategy==
@@ -202,18 +142,16 @@ Many of his attacks can be dodged by using Dash i-frames or sidestepping the AoE
 Both '''Ice Waves''' and '''Wind Blades''' are ranged attacks, but he will use them when targets are in melee range as well. They have the same start up animations (Andrius raises both front legs in the air), but Wind Blades will not create an Ice Path in front of him.
 
 ;Character Recommendations
-
-*{{Cryo}} and {{Anemo}} characters are not recommended as Andrius is immune to both elements' damage.
-
-*If the {{Cryo}} status is applied to a character, their animation speed will be reduced by 15%, hindering both offensive power and agility. Therefore, cleansers that apply a different element to the active character are recommended, as they will also remove the animation speed debuff.
-**{{Pyro}} and {{Anemo}} cleansers, namely [[Bennett]], [[Thoma]], [[Xinyan]], and [[Jean]] are the most effective at cleansing Cryo by triggering [[Melt]] or [[Swirl]].
-**While {{Hydro}} cleansers such as [[Barbara]] and [[Xingqiu]] are also capable of cleansing Cryo, they will also [[Frozen|freeze]] the active character in the process, and therefore are not highly recommended.
-*[[Bows|Bow]] users can deal damage to Andrius in the Interlude Phase using aimed shots. Andrius can also be damaged for a split-second after he leaps to the center of the arena.
-*Characters with homing ranged attacks, such as certain [[Catalysts|Catalyst]] users and [[Yoimiya]], can be effective against Andrius' agile movements in Phase 1.[[File:Traveller protects himself.jpg|thumb|Traveler protects himself by placing Starfell Sword]]
-*Due to Andrius' high agility during Phase 1, deployable abilities that cannot be repositioned such as [[Xiangling]]'s [[Guoba Attack]] are rendered less effective.
-*Certain characters can set up "land mines" using their abilities, such as Geo [[Traveler]]'s [[Rockcore Meltdown|2nd Constellation]] and [[Klee]]'s [[Jumpy Dumpty]]. These abilities may be helpful in the Interlude Phase for dealing additional damage.
-*Just like any boss fight, characters that provide [[Shields]], [[Healing]], or [[Damage Reduction]] can always help reduce the difficulty of the fight.
-*Andrius' swipes will destroy Geo constructs in a single hit if they connect with them. For [[Albedo]]'s [[Abiogenesis: Solar Isotoma]], players can still summon and position it behind Andrius to allow it to damage him slightly better.
+* {{Cryo}} and {{Anemo}} characters are not recommended as Andrius is immune to both elements' damage.
+* If the {{Cryo}} status is applied to a character, their animation speed will be reduced by 15%, hindering both offensive power and agility. Therefore, cleansers that apply a different element to the active character are recommended, as they will also remove the animation speed debuff.
+** {{Pyro}} and {{Anemo}} cleansers, namely [[Bennett]], [[Thoma]], [[Xinyan]], and [[Jean]] are the most effective at cleansing Cryo by triggering [[Melt]] or [[Swirl]].
+** While {{Hydro}} cleansers such as [[Barbara]] and [[Xingqiu]] are also capable of cleansing Cryo, they will also [[Frozen|freeze]] the active character in the process, and therefore are not highly recommended.
+* [[Bow]] users can deal damage to Andrius in the Interlude Phase using aimed shots. Andrius can also be damaged for a split-second after he leaps to the center of the arena.
+* Characters with homing ranged attacks, such as certain [[Catalyst]] users and [[Yoimiya]], can be effective against Andrius' agile movements in Phase 1.[[File:Traveller protects himself.jpg|thumb|Traveler protects himself by placing Starfell Sword]]
+* Due to Andrius' high agility during Phase 1, deployable abilities that cannot be repositioned such as [[Xiangling]]'s [[Guoba Attack]] are rendered less effective.
+* Certain characters can set up "land mines" using their abilities, such as Geo [[Traveler]]'s [[Rockcore Meltdown|2nd Constellation]] and [[Klee]]'s [[Jumpy Dumpty]]. These abilities may be helpful in the Interlude Phase for dealing additional damage.
+* Just like any boss fight, characters that provide [[Shields]], [[Healing]], or [[Damage Reduction]] can always help reduce the difficulty of the fight.
+* Andrius' swipes will destroy Geo constructs in a single hit if they connect with them. For [[Albedo]]'s [[Abiogenesis: Solar Isotoma]], players can still summon and position it behind Andrius to allow it to damage him slightly better.
 
 ==Battle Dialogue==
 {| class="wikitable"
@@ -227,33 +165,32 @@ Both '''Ice Waves''' and '''Wind Blades''' are ranged attacks, but he will use t
 {{Achievement Topic Table|topic=Wolf of the North Challenge}}
 
 ==Soundtracks==
-{{Soundtracks by Category Table|Wolf of the North Challenge Soundtracks}}
+{{Soundtracks by Category Table|Wolf of the North Challenge Soundtracks|header=Wolf of the North Challenge}}
 
 ==Trivia==
-*This challenge is the only Weekly Boss encounter that is not a Trounce Domain; because of this:
-**The encounter itself is similar to that of Normal Bosses in that Andrius' strength scales on the player's current [[Adventure Rank|World Level]]. They can also leave the arena to cause him to despawn by running far enough or teleporting to a distant waypoint.
-**This challenge is the only Weekly Boss encounter that the player can swap parties after defeating Andrius for the [[Adventure EXP]].
-**Andrius does not have increased resistance to the elements that he uses in the fight, instead being outright immune to them.
-*The first time this domain is challenged in [[Razor]]'s Story Quest, the Wolf is identified as "Boreas". After this, it is referred to as "Andrius". This is likely because Andrius is also known as Lupus Boreas.
-*In [[We Will Be Reunited]], it is confirmed by [[Dainsleif]] that the physical body of Andrius died long ago; in the Wolf of the North Challenge, you challenge his spirit instead.
-*During the [[Dishonorable Trial]], The Wolf of The North challenge is unavailable.
-*The Wolf of the North Challenge is the only Weekly Boss to not drop [[Character Ascension Materials#Ascension Gems|gem-type ascension materials]] for an element used in the fight; in this case, it does not drop [[Vayuda Turquoise]] gemstones even though the boss uses [[Anemo]]. This is likely because the Wolf of the North Challenge covers the gemstones of the elements not covered by the [[Confront Stormterror]] domain, the other Weekly Boss introduced in Version 1.0.
-
-===Known Issues===
-*It is possible to put the meteorite from [[Starfell Sword]] or a Stone Stele from [[Dominus Lapidis]] below Andrius to evade his Spinning Slash attack, but this may cause Andrius to behave erratically due to his AI being unable to decide what to do next.
-*It is possible to petrify Andrius using Zhongli's [[Planet Befall]] (as demonstrated [https://youtu.be/x2fSfC6-w84 here]) if Zhongli is a higher level than Andrius because of [[Interruption Resistance]], but this may be a feature rather than a bug (bug from above could be another condition too).
-*It is possible to make Andrius force to exit from arena without despawning (as demonstrated [https://youtu.be/pd0oNFZFq_4&ab_channel=neilleexxi here]). It needs at least 2 players at Co-Op where host is summoning the boss while another player is staying on the tree. Due to his AI, he will change target and keep aggression on the player on the tree if the host doesn't attack and leave the arena, so after he will do the Wolf Leap. This may cause Andrius to behave erratically due to being stuck at this place.
+* This challenge is the only Weekly Boss encounter that is not a Trounce Domain; because of this:
+** The encounter itself is similar to that of Normal Bosses in that Andrius' strength scales on the player's current [[Adventure Rank|World Level]]. They can also leave the arena to cause him to despawn by running far enough or teleporting to a distant waypoint.
+** This challenge is the only Weekly Boss encounter that the player can swap parties after defeating Andrius for the [[Companionship EXP]] and [[Character EXP]].
+* Andrius does not have increased resistance to the elements that he uses in the fight, instead being outright immune to them.
+* The first time this domain is challenged in [[Razor]]'s Story Quest, the Wolf is identified as "Boreas". After this, it is referred to as "Andrius". This is likely because Andrius is also known as Lupus Boreas.
+* In ''[[We Will Be Reunited]]'', it is confirmed by [[Dainsleif]] that the physical body of Andrius died long ago; in the Wolf of the North Challenge, you challenge his spirit instead.
+* During ''[[Dishonorable Trial]]'', The Wolf of The North challenge is unavailable.
+* The Wolf of the North Challenge is the only Weekly Boss to not drop [[Character Ascension Materials#Ascension Gems|gem-type ascension materials]] for an element used in the fight; in this case, it does not drop [[Vayuda Turquoise]] gemstones even though the boss uses [[Anemo]]. This is likely because the Wolf of the North Challenge covers the gemstones of the elements not covered by the [[Confront Stormterror]] domain, the other Weekly Boss introduced in Version 1.0.
+* It is possible to put the meteorite from [[Starfell Sword]] or a Stone Stele from [[Dominus Lapidis]] below Andrius to evade his Spinning Slash attack, but this may cause Andrius to behave erratically due to his AI being unable to decide what to do next.
+* It used to be possible to petrify Andrius using Zhongli's [[Planet Befall]] (as demonstrated [https://youtu.be/x2fSfC6-w84 here]) if Zhongli is a higher level than Andrius.
+* It used to be possible to make Andrius force to exit from arena without despawning (as demonstrated [https://youtu.be/pd0oNFZFq_4&ab_channel=neilleexxi here]). It needs at least 2 players in [[Co-Op Mode]] where the host is summoning the boss while another player is staying on the tree. Due to his AI, he would change target and keep aggression on the player on the tree if the host doesn't attack and leave the arena, so after he would do the Wolf Leap. This may cause Andrius to behave erratically due to being stuck at this place.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Monster Andrius thumb.png|Icon
 Andrius.png|Screenshot
+Weekly Boss Wolf of the North Location.png|Location
 </gallery>
 
 ==Video Guides==
 {{EVT
-|video1   = https://youtu.be/zcRn9Vbmydw
-|caption1 = How to Easily Beat Lupus Boreas
+|video1   = https://youtu.be/9Czmm8XaOHE
+|caption1 = EVERYTHING You Need to Know about Andrius
 }}
 
 ==Other Languages==
@@ -271,20 +208,25 @@ Andrius.png|Screenshot
 |ko_rm   = Bukpung-ui Neukdae Dojeon
 |ko_tl   = Wolf of the North Wind Challenge
 |es      = Reto del Lobo del Norte
-|es_tl   = 
+|es_tl   = Challenge of the Wolf of the North
 |fr      = Défi du Loup du Nord
 |fr_tl   = Challenge of the Wolf of the North
 |ru      = Испытание Волка Севера
-|ru_tl   = 
-|th      = ท้าทาย  Wolf of the North
-|th_tl   = 
+|ru_tl   = Wolf of the North's Challenge
+|th      = ท้าทาย Wolf of the North
+|th_rm   = Tha Thai Wolf of the North
+|th_tl   = Wolf of the North Challenge
 |vi      = Khiêu chiến Sói Bắc Phong
-|vi_tl   = 
+|vi_tl   = Challenge Wolf of the North Wind
 |de      = Herausforderung des Wolfs des Nordens
 |de_tl   = Challenge of the Wolf of the North
 |id      = Wolf of the North
 |pt      = Desafio do Lobo do Norte
 |pt_tl   = 
+|tr      = 
+|tr_tl   = 
+|it      = 
+|it_tl   = 
 }}
 
 ==Change History==
@@ -292,9 +234,9 @@ Andrius.png|Screenshot
 
 ==Navigation==
 {{PoI Navbox|Mondstadt|state=collapsed}}
-{{Enemy Navbox|type=bosses}}
-
-[[Category:Weekly Bosses]]
+{{Enemy Navbox|bosses}}
 
 [[es:Desafío del Señor de los Lobos]]
+[[ja:北風の狼挑戦]]
 [[ru:Испытание Волка Севера]]
+[[zh:北風狼挑戰]]

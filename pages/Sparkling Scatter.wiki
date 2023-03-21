@@ -12,27 +12,73 @@
 |plungeLow     = 114–240%
 |plungeHigh    = 142–300%
 |utility1      = Charged Attack
+|utility2      = Effect Triggered by Normal Attack Hit
 |scale_att1    = ATK
 }}
 '''Sparkling Scatter''' is [[Ningguang]]'s [[Normal Attack]].
 
 ==Gameplay Notes==
 * Ningguang can hold up to 3 Jade Stars from Normal Attacks.
-* Ningguang fires 2 projectiles from her sides on performing a Normal Attack, which may target two enemies at once. These jades will make a small arcing path, and thus may hit obstacles that are too close to the target.
-** There are three possible animations for this attack.
+* There are three possible animations for Ningguang's Normal Attack.
 * The Charged Attack fires a single large projectile directly in front of Ningguang from her chest area. Star Jade stacks are fired on a small arcing path and may target enemies other than the Charge Attack target.
 ** There are three possible animations for this attack. One of the animations where Ningguang only raises her left hand is significantly faster than the other two.
-* Star Jades are considered Charged Attacks and are affected by any Charged Attack modifiers, such as the [[Wanderer's Troupe]] 4-Piece bonus.
+* DMG dealt by Star Jades is considered Charged Attack DMG.
 * Star Jade stacks gained from Normal Attacks will be lost if Ningguang leaves the field.
 ** The Star Jade stacks from her Normal Attacks do not expire if Ningguang stays on the field, but the ones from her [[Grandeur Be the Seven Stars|Constellation 6]] do.
 * All projectiles fired by her Normal and Charged Attacks will home towards targets but have a minimum turning radius. If the target is too far or moves too quickly, the projectile may miss.
 ** Star Jades and regular Normal/Charged Attack projectiles have different lock-on mechanics against non-enemy targets. For example, Normal/Charged Attacks target ores while Star Jades do not, and the opposite is true against campfires, cooking pots, etc.
-* Ningguang's Normal and Charged Attacks are considered [[Blunt Attack]]s, which can efficiently damage [[Geo Constructs]] and certain [[Shields]], but her Plunging Attack is not.
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Ningguang|talent=Sparkling Scatter|ascension|1|Backup Plan}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|1|Piercing Fragments}}
 *{{TalentNote|constellation|6|Grandeur Be the Seven Stars}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 45
+|impulse = 2
+|blunt   = 1
+
+|title2   = Charged Attack
+|gu2      = 1U
+|icdtag2  = Charged Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 45
+|impulse2 = 2
+|blunt2   = 1
+
+|title3   = Star Jade
+|gu3      = 1U
+|icdtag3  = Charged Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 30
+|impulse3 = 5
+|blunt3   = 1
+
+|title4   = Plunging Attack Collision
+|gu4      = 0U
+|icdtag4  = none
+|poise4   = 5
+|impulse4 = 2
+
+|title5   = Low Plunge
+|gu5      = 1U
+|icdtag5  = none
+|poise5   = 50
+|impulse5 = 3
+
+|title6   = High Plunge
+|gu6      = 1U
+|icdtag6  = none
+|poise6   = 100
+|impulse6 = 4
+}}
 
 ==Preview==
 {{Preview
@@ -46,7 +92,7 @@
 |caption3 = 3 Star Jades being fired with a Charged Attack
 
 |file4    = Sparkling Scatter Plunge Preview
-|caption4 = Plunge Attack
+|caption4 = Plunging Attack
 }}
 {{clr}}
 
@@ -150,7 +196,7 @@
 |fr      = Géo-dispersion
 |fr_tl   = Geo-Scattering
 |ru      = Сверкающий дождь
-|ru_tl   = 
+|ru_tl   = Sparkling Rain
 |th      = Sparkling Scatter
 |vi      = Ngàn Vàng Lấp Lánh
 |vi_tl   = Thousand Sparkling Gold
@@ -159,6 +205,10 @@
 |id      = Sparkling Scatter
 |pt      = Dispersão Espumante
 |pt_tl   = 
+|tr      = Parıldayan Parçacıklar
+|tr_tl   = 
+|it      = Dispersione scintillante
+|it_tl   = Shimmering Scattering
 }}
 
 ==Change History==
@@ -171,6 +221,7 @@
 {{Talent Navbox|Ningguang}}
 
 [[es:Lanzamiento centelleante]]
+[[fr:Géo-dispersion]]
 [[pt-br:Dispersão Espumante]]
 [[ru:Сверкающий дождь]]
 [[th:Sparkling Scatter]]

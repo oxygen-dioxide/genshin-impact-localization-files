@@ -2,10 +2,7 @@
 |image         = Talent Breastplate.png
 |character     = Noelle
 |type          = Elemental Skill
-|info          = Summons protective stone armor, dealing {{Color|Geo|Geo DMG}} to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.<br />The shield has the following properties:
-*When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.
-*Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.
-The amount of HP healed when regeneration is triggered scales based on Noelle's DEF.
+|info          = Summons protective stone armor, dealing {{Color|Geo DMG}} to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.<br />The shield has the following properties:<ul><li>When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.</li><li>Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.</li></ul><br />The amount of HP healed when regeneration is triggered scales based on Noelle's DEF.
 |scale_att1    = DEF
 |scale_att2    = ATK
 |utility1      = Shield
@@ -28,15 +25,34 @@ The amount of HP healed when regeneration is triggered scales based on Noelle's 
 
 ==Gameplay Notes==
 * {{TalentNote|particles|0}}
-* {{TalentNote|icd|Skill DMG}}
-** This ICD is shared with the extra Geo DMG at [[To Be Cleaned|Constellation 4]].
-* Healing effect may also trigger if the skill hits an opponent upon activation; and if the weapon swing portion of [[Sweeping Time]]'s activation hits an opponent.
+* Healing effect may also trigger if the skill hits an opponent upon activation, and if the weapon swing portion of [[Sweeping Time]]'s activation hits an opponent.
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Noelle|talent=Breastplate|ascension|2|Nice and Clean}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|1|I Got Your Back}}
 * {{TalentNote|constellation|3|Invulnerable Maid}}
 * {{TalentNote|constellation|4|To Be Cleaned}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Skill DMG
+|gu      = 2U
+|icdtag  = Elemental Skill
+|icdtype = 2.5s/3 Hits
+|poise   = 100
+|impulse = 3
+|blunt   = 1
+
+|title2   = Extra DMG (C4)
+|gu2      = 2U
+|icdtag2  = Elemental Skill
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 100
+|impulse2 = 3
+|blunt2   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -127,10 +143,10 @@ The amount of HP healed when regeneration is triggered scales based on Noelle's 
 |ja      = 護心鎧
 |ja_rm   = Goshingai
 |ja_tl   = Heart-Protecting Armor
-|ko      = 호심경
+|ko      = {{tt|호심경|護心鏡}}
 |ko_rm   = Hosimgyeong
 |ko_tl   = Heart-Protecting Mirror
-|ko_note = 호심경(護心鏡)is One of the copper shards attached to the armor. It is attached to the chest for self-defense.
+|ko_note = {{Ko|호심경(護心鏡)}} is one of the copper shards attached to the armor. It is attached to the chest for self-defense.
 |es      = Guardiana del corazón
 |es_tl   = Guardian of the Heart
 |fr      = Armure de cœur
@@ -146,6 +162,10 @@ The amount of HP healed when regeneration is triggered scales based on Noelle's 
 |pt      = Guardião do Coração
 |pt_tl   = Guardian of the Heart
 |pt_note = ''Guardião'' is a masculine term.
+|tr      = Kalbin Zırhı
+|tr_tl   = Armor of Heart
+|it      = Corazza
+|it_tl   = Breastplate
 }}
 
 ==Change History==
@@ -154,8 +174,11 @@ The amount of HP healed when regeneration is triggered scales based on Noelle's 
 ==Navigation==
 {{Talent Navbox|Noelle}}
 
-[[uk:Захисниця серця]]
 [[es:Guardiana del corazón]]
+[[fr:Armure de cœur]]
+[[ja:護心鎧]]
 [[pt-br:Guardião do Coração]]
 [[ru:Бронефартук]]
 [[th:Breastplate]]
+[[uk:Захисниця серця]]
+[[vi:Giáp Hộ Tâm]]

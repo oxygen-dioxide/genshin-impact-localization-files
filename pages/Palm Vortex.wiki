@@ -27,18 +27,74 @@
 * {{TalentNote|particles|2|3.33}}
 ** Only the final hit of this skill generates Elemental Particles.
 * The DMG multiplier of the absorbed element is '''25%''' of the Anemo DMG multiplier.
-* {{TalentNote|icd|Initial Cutting DMG|2.5|3|Max Cutting DMG}}
-* {{TalentNote|icd|Storm DMG|0}}
 * When the skill button is held, '''Initial Cutting DMG''' ticks 2 times (at 0.35s and 0.5s), then it switches to '''Max Cutting DMG''', which ticks 4 more times (at 0.85s, 1s, 1.35s and 1.5s).
 * When the skill button is pressed, it will immediately trigger '''Initial Storm DMG'''.
 * [[Elemental Absorption]] can occur from both elements on the target as well as elements afflicting the Traveler.
 * Unlike other Talents with Elemental Absorption, Anemo Traveler's absorption priority is {{Cryo}} / {{Color|Cryo|Frozen}} > {{Pyro}} > {{Hydro}} > {{Electro}}.
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Traveler (Anemo)|talent=Palm Vortex|ascension|2|Second Wind}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|1|Raging Vortex}}
 * {{TalentNote|constellation|4|Cherishing Breezes}}
 * {{TalentNote|constellation|5|Vortex Stellaris}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Cutting DMG
+|gu      = 1U
+|icdtag  = Elemental Skill Anemo
+|icdtype = 2.5s/3 Hits
+|poise   = 10
+|impulse = 2
+
+|title2   = Press Storm DMG
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 200
+|impulse2 = 5
+
+|title3   = Hold Storm DMG
+|gu3      = 1U
+|icdtag3  = none
+|poise3   = 200
+|impulse3 = 6
+
+|title4   = Absorbed Cryo (Cutting)
+|gu4      = 1U
+|icdtag4  = Elemental Skill Cryo
+|icdtype4 =2.5s/3 Hits
+|poise4   = 0
+|impulse4 = 0
+
+|title5   = Absorbed Electro (Cutting)
+|gu5      = 1U
+|icdtag5  = Elemental Skill Electro
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 0
+|impulse5 = 0
+
+|title6   = Absorbed Hydro (Cutting)
+|gu6      = 1U
+|icdtag6  = Elemental Skill Hydro
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 0
+|impulse6 = 0
+
+|title7   = Absorbed Pyro (Cutting)
+|gu7      = 1U
+|icdtag7  = Elemental Skill Pyro
+|icdtype7 = 2.5s/3 Hits
+|poise7   = 0
+|impulse7 = 0
+
+|title8   = Absorbed Element (Storm)
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 0
+|impulse8 = 0
+}}
 
 ==Preview==
 {{Preview
@@ -158,7 +214,7 @@
 |fr      = Vortex destructeur
 |fr_tl   = Destructive Vortex
 |ru      = Ладонь вихря
-|ru_tl   = 
+|ru_tl   = Vortex Palm
 |th      = Palm Vortex
 |vi      = {{tt|Kiếm|劍}} Gió Lốc
 |vi_tl   = Whirlwind Sword
@@ -167,6 +223,10 @@
 |id      = Palm Fortex
 |pt      = Vórtice da Palma
 |pt_tl   = Palm Vortex
+|tr      = Avuç Girdabı
+|tr_tl   = 
+|it      = Vortice del palmo
+|it_tl   = Palm Vortex
 }}
 
 ==Change History==
@@ -176,8 +236,9 @@
 {{Talent Navbox|Traveler (Anemo)}}
 
 [[es:Espada de vórtice]]
+[[fr:Vortex destructeur]]
 [[ja:旋風の剣]]
 [[pt-br:Vórtice da Palma]]
-[[vi:Kiếm Gió Lốc]]
-[[fr:Vortex destructeur]]
+[[ru:Ладонь вихря]]
 [[th:Palm Vortex]]
+[[vi:Kiếm Gió Lốc]]

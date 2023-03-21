@@ -1,0 +1,214 @@
+{{See also|Spirit of Omen: Wind Glede}}
+{{Enemy Infobox
+|image    = Enemy Eremite Galehunter.png
+|dmgtype  = Anemo
+|weakpoint = yes
+|family   = Other Human Factions
+|group    = The Eremites
+|voiceEN  = [[imdb:nm7398886|Caitlyn Elizabeth]]<ref>Twitter: [https://twitter.com/BoobsMcbalrog/status/1583902667822071808 EN VA Self Announcement]</ref>
+|voiceJP  = [https://www.kenproduction.co.jp/talent/236 Shindo Minami ({{ja|新藤 みなみ}})]<ref>Twitter: [https://twitter.com/south2LDK/status/1580141533768323074 JP VA Self Announcement]</ref>
+|type     = Common Enemies
+|ability1 = Summoning
+|ability2 = Vacuum Field
+}}
+{{Enemy Intro}}
+
+==Drops==
+===Items===
+{{Drops Table|type=The Eremites (High-Tier)}}
+
+===Energy===
+{{Energy Drops
+|type  = Anemo
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|p4    = 1
+}}
+
+==Stats==
+{{Enemy Stats
+|phys_res     = -20%
+
+|res2         = Enhanced
+|resglobal2   = 60%
+|phys_res2    = 40%
+
+|res3         = Stunned
+|phys_res3    = -20%
+|anemo_res3   = -50%
+
+|hp_ratio     = 4.4
+|hp_type      = 2
+|atk_ratio    = 5
+|atk_type     = 2
+}}
+
+==Abilities and Attacks==
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1      = Melee
+|desc_1      = When the player is nearby, forms a wind spear and strikes the ground in front of her, dealing '''75% ATK''' as {{Color|AoE Anemo DMG}}. This attack will not be used in the '''Enhanced State'''.
+
+|name_2      = Melee Combo
+|desc_2      = Combos 3 melee strikes, dealing '''60% ATK''', '''70% ATK''', '''75% ATK''' as {{Color|Anemo DMG}}. This attack will not be used in the '''Enhanced State'''.
+
+|name_3      = Chase
+|desc_3      = If the player is far away, dashes swiftly at the player and performs a melee slash, dealing '''75% ATK''' as {{Color|Anemo DMG}}. This attack will not be used in the '''Enhanced State'''.
+
+|name_4      = Ranged
+|desc_4      = Fires an arrow at the player, dealing '''75% ATK''' as {{Color|Anemo DMG}}.
+
+|name_5      = Vacuum Shot
+|desc_5      = Suspends herself mid-air and forms a [[Vacuum Field]] below her that pulls the player in before unleashing a charged arrow at the ground, dealing '''80% ATK''' as {{Color|AoE Anemo DMG}}. This attack will not be used in the '''Enhanced State'''.
+
+|name_6      = Enhanced State
+|desc_6      = When the Eremite Galehunter's [[HP]] is lower than '''70%''' (or immediately upon entering combat in the [[Spiral Abyss]]), she will enter an enhanced state by summoning a [[Spirit of Omen: Wind Glede]] to assist in battle, gaining increased [[RES]] and high [[Interruption Resistance]].<br /><br />When the Spirit of Omen: Wind Glede is defeated, the enhanced state will end, and the Eremite Galehunter will take {{Color|True Anemo DMG}} equal to '''37.5%''' of her current [[HP]], then becomes stunned for 10 seconds with decreased [[Anemo RES]]. An Eremite Galehunter can only enter her enhanced state once.
+
+|name_7      = Spirit Combo: Vacuum Airstrike
+|desc_7      = The Spirit of Omen: Wind Glede forms a large Vacuum Field at the player's location while the Eremite Galehunter charges and fires a powerful arrow into the air, which lands inside the Vacuum Field, dealing '''100% ATK''' as {{Color|AoE Anemo DMG}}.
+|file_7      = Eremite Galehunter Spirit Combo Vacuum Airstrike
+}}
+
+===AI Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if all of the following conditions have been met:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+* '''Spirit Combo: Vacuum Airstrike''' is controlled by the Spirit of Omen's AI. For more information, see [[Spirit of Omen: Wind Glede#AI Logic]].
+{| class="wikitable"
+! Action Interval (s)
+| colspan="7" | 0 (Yet to Enhance)<br />5 (Enhanced; Enhanced State Ended)
+|-
+! Ability !! Priority !! Range Req. (m) !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD (s) !! State Req.
+|-
+| Melee || 5 || 0–6.5 || 5–7 || 0 || rowspan="3" | 2 || Yet To Enhance
+|-
+| Melee Combo || 5 || 0–5 || 7–9 || 0 || Yet To Enhance
+|-
+| Vacuum Shot || 2 || 0–6.5 || 15–17 || 2 || Yet To Enhance
+|-
+| Chase || 5 || 10–20 || 15–18 || 10–13 || — || Yet To Enhance
+|-
+| Ranged (Pre-Enhancement) || 5 || 7—25 || 3—5 || 0 || rowspan="3" | 3 || Yet To Enhance
+|-
+| Ranged (Post-Enhancement) || 5 || 0–20 || 4–6 || 0 || Enhanced; Enhanced State Ended
+|-
+| Jump Back + Ranged || 5 || 0–5 || 6–8 || 0 || Enhanced
+|}
+
+==Voice-Overs==
+{{VO/Enemy
+|enemy                   = Eremite Desert Clearwater
+|vo_01_00_title          = Spotting the Player
+|vo_01_01_file           = VO {lang}{name} - Finally Some Target Practice.ogg
+|vo_01_01_tx_en          = Finally, some target practice.
+|vo_01_01_tx_zh          = 难得的猎物。
+|vo_01_01_rm_zh          = Nándé de lièwù.
+|vo_01_01_tx_ja          = 久々の獲物だ。
+|vo_01_01_rm_ja          = 
+|vo_01_01_tx_ko          = 모처럼 굴러온 먹잇감이군
+|vo_01_01_rm_ko          = 
+
+|vo_02_00_title          = Enhanced State
+|vo_02_01_file           = VO {lang}{name} - Spread Your Wings And Raise A Storm.ogg
+|vo_02_01_tx_en          = Spread your wings and raise a storm!
+|vo_02_01_tx_zh          = 为我扬起沙尘吧，猎鹰！
+|vo_02_01_rm_zh          = Wèi wǒ yángqǐ shāchén ba, lièyīng!
+|vo_02_01_tx_ja          = 鷹よ、砂塵を起こせ！
+|vo_02_01_rm_ja          = 
+|vo_02_01_tx_ko          = 사냥매여, 모래 바람을 일으켜라!
+|vo_02_01_rm_ko          = 
+
+|vo_03_00_title          = Spirit Combo: Vacuum Airstrike
+|vo_03_01_file           = VO {lang}{name} - Where Do You Think Youre Going.ogg
+|vo_03_01_tx_en          = Where do you think you're going?
+|vo_03_01_tx_zh          = 别想逃！
+|vo_03_01_rm_zh          = Bié xiǎng táo!
+|vo_03_01_tx_ja          = 逃げられると思うな！
+|vo_03_01_rm_ja          = 
+|vo_03_01_tx_ko          = 도망갈 생각 마!
+|vo_03_01_rm_ko          = 
+
+|vo_04_00_title          = Wind Glede Defeated
+|vo_04_01_file           = VO {lang}{name} - No.ogg
+|vo_04_01_tx_en          = No...
+|vo_04_01_tx_zh          = 不…
+|vo_04_01_rm_zh          = Bù...
+|vo_04_01_tx_ja          = この…
+|vo_04_01_rm_ja          = 
+|vo_04_01_tx_ko          = 이런…
+|vo_04_01_rm_ko          = 
+
+|vo_05_00_title          = Defeated
+|vo_05_01_file           = VO {lang}{name} - Goodbye But Well Meet Again.ogg
+|vo_05_01_tx_en          = Goodbye, but we'll meet again.
+|vo_05_01_tx_zh          = 再见了，我们一定会再见。
+|vo_05_01_rm_zh          = Zàijiànle, wǒmen yīdìng huì zàijiàn.
+|vo_05_01_tx_ja          = さらばだ、必ず戻ってくる。
+|vo_05_01_rm_ja          = 
+|vo_05_01_tx_ko          = 우린 다시 만나게 될 거야
+|vo_05_01_rm_ko          = 
+}}
+
+==Descriptions==
+{{Description|A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good.<br />In this age where crossbows are in widespread use, only the most experienced of Eremite warriors know how to use a longbow in battle. They do not even need their eyes — merely their ears with which they sense the flow of wind and sand alike — to judge the location of their foes.<br />Ominous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.|[[Archive]]}}
+
+==Gallery==
+<gallery>
+Enemy Eremite Galehunter Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Eremite Galehunter
+|zhs     = 镀金旅团・灵风猎手
+|zhs_rm  = Dùjīn Lǚtuán - Língfēng Lièshǒu
+|zht     = 鍍金旅團・靈風獵手
+|zht_rm  = Dùjīn Lǚtuán - Língfēng Lièshǒu
+|zh_tl   = {{Lex|Eremite|zh}} - Spirit-Wind Hunter
+|ja      = エルマイト旅団・ゲイルハンター
+|ja_rm   = Erumaito Ryodan - Geiru Hantaa
+|ja_tl   = Eremite Brigade - Gale Hunter
+|ko      = {{tt|도금|鍍金}} {{tt|여단|旅團}}・바람 사냥꾼
+|ko_rm   = Dogeum Yeodan - Baram Sanyangkkun
+|ko_tl   = {{Lex|Eremite|ko}} - Wind Hunter
+|es      = Eremita Cazavientos
+|es_tl   = Windhunting Eremite
+|fr      = Chasseuse éventée des Érémites
+|fr_tl   = Aired Huntress of the Eremites
+|ru      = Пустынник: Охотница ветров
+|ru_tl   = {{Lex|Eremite|ru}}: Windhuntress
+|th      = Eremite Galehunter
+|vi      = Eremite - Thợ Săn Gió
+|vi_tl   = Eremite - Wind Hunter
+|de      = Goldbrigade – Böenjäger
+|de_tl   = {{Lex|Eremite|de}} - Galehunter
+|id      = Eremite Galehunter
+|pt      = Eremita Caçador de Ventos
+|pt_tl   = 
+|tr      = Münzevi Fırtına Avcısı
+|tr_tl   = 
+|it      = Eremita Cacciatempesta
+|it_tl   = 
+}}
+
+==Change History==
+{{Change History|3.1}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Enemy Navbox|Common}}
+
+[[es:Eremita Cazavientos]]
+[[pt-br:Eremita Caçador de Ventos]]

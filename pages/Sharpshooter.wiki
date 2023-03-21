@@ -2,7 +2,7 @@
 |character     = Amber
 |type          = Normal Attack
 |image         = Talent Sharpshooter.png
-|info          = '''Normal Attack'''<br />Perform up to 5 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''Aimed Shot''' with increased DMG.<br />While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal {{Color|Pyro DMG}}.<br /><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 5 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''Aimed Shot''' with increased DMG.<br />While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal {{Color|Pyro DMG}}.<br /><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
 |hit1          = 36.1–96.6%
 |hit2          = 36.1–96.6%
 |hit3          = 46.4–124%
@@ -18,13 +18,88 @@
 '''Sharpshooter''' is [[Amber]]'s [[Normal Attack]].
 
 ==Gameplay Notes==
-* {{TalentNote|icd|Fully Charged Aimed Shot DMG|1|3}}
-** This ICD is shared with the extra arrow at [[One Arrow to Rule Them All|Constellation 1]].
 *{{TalentNote|character=Amber|talent=Sharpshooter|ascension|2|Precise Shot}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|1|One Arrow to Rule Them All}}
 *{{TalentNote|constellation|2|Bunny Triggered}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = —
+|icdtag  = none
+|poise   = 12.9
+|impulse = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = —
+|icdtag2  = none
+|poise2   = 13.2
+|impulse2 = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = —
+|icdtag3  = none
+|poise3   = 15
+|impulse3 = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = —
+|icdtag4  = none
+|poise4   = 14.4
+|impulse4 = 1
+
+|title5   = Normal Attack 5-Hit
+|gu5      = —
+|icdtag5  = none
+|poise5   = 16.5
+|impulse5 = 1
+
+|title6   = Aimed Shot
+|gu6      = —
+|icdtag6  = none
+|poise6   = 10
+|impulse6 = 2
+
+|title7   = Aimed Shot (Hit Weak Spot)
+|gu7      = —
+|icdtag7  = none
+|poise7   = 30
+|impulse7 = 5
+
+|title8   = Fully-Charged Aimed Shot
+|gu8      = 2U<br /><small>(w/ [[Dropoff]])</small>
+|icdtag8  = Charged Attack
+|icdtype8 = 1s/3 Hits
+|poise8   = 20
+|impulse8 = 2
+
+|title9   = Fully-Charged Aimed Shot (Hit Weak Spot)
+|gu9      = 2U<br /><small>(w/ Dropoff)</small>
+|icdtag9  = Charged Attack
+|icdtype9 = 1s/3 Hits
+|poise9   = 60
+|impulse9 = 5
+
+|title10   = Plunging Attack Collision
+|gu10      = —
+|icdtag10  = none
+|poise10   = 10
+|impulse10 = 2
+
+|title11   = Low Plunge
+|gu11      = —
+|icdtag11  = none
+|poise11   = 50
+|impulse11 = 2
+
+|title12   = High Plunge
+|gu12      = —
+|icdtag12  = none
+|poise12   = 100
+|impulse12 = 3
+}}
 
 ==Preview==
 {{Preview
@@ -35,7 +110,7 @@
 |caption2 = Charged Attack
 
 |file3    = Sharpshooter Plunge Preview
-|caption3 = Plunge Attack
+|caption3 = Plunging Attack
 }}
 
 ==Attribute Scaling==
@@ -178,7 +253,7 @@
 |fr      = Archerie revisitée
 |fr_tl   = Revisited Archery
 |ru      = Первоклассный стрелок
-|ru_tl   = 
+|ru_tl   = First-Class Shooter
 |th      = Sharpshooter
 |vi      = Xạ Thủ Thần
 |vi_tl   = Godly Shooter
@@ -187,6 +262,10 @@
 |id      = Sharpshooter
 |pt      = Pontaria
 |pt_tl   = 
+|tr      = Keskin Nişancı
+|tr_tl   = 
+|it      = Tiratore scelto
+|it_tl   = Chosen Shooter
 }}
 
 ==Change History==
@@ -199,8 +278,10 @@
 {{Talent Navbox|Amber}}
 
 [[es:Arquero divino]]
+[[fr:Archerie revisitée]]
 [[ja:一流射手]]
 [[pt-br:Pontaria (Talento)]]
-[[fr:Archerie revisitée]]
-[[uk:Божественна лучниця]]
+[[ru:Первоклассный стрелок (талант)]]
 [[th:Sharpshooter]]
+[[uk:Божественна лучниця]]
+[[vi:Xạ Thủ Thần]]

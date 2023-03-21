@@ -4,7 +4,7 @@
 __TOC__
 ==Story==
 {{VO/Story
-|character           = {{ROOTPAGENAME}}
+|character           = Shenhe
 |language            = zh
 |language_s          = zh
 |language_t          = zh-tw
@@ -18,7 +18,7 @@ __TOC__
 |vo_01_01_subtitle   = Hello
 |vo_01_01_file       = VO_{language}{character} Hello.ogg
 |vo_01_01_tx_s       = 我名申鹤，命格孤煞，易伤身边人，仙人叮嘱要以此红绳锁魂，控制杀心。若你不畏惧与我同行…很好，就请伸出手来吧。
-|vo_01_01_tx_t       = 我名申鶴，命格孤煞，易傷身邊人，仙人叮囑要以此紅繩鎖魂，控制殺心。若（妳/你）不畏懼與我同行…很好，就請伸出手來吧。
+|vo_01_01_tx_t       = 我名申鶴，命格孤煞，易傷身邊人，仙人叮囑要以此紅繩鎖魂，控制殺心。若{{MC|你|妳|mc=1}}不畏懼與我同行…很好，就請伸出手來吧。
 |vo_01_01_rm         = 
 |vo_01_01_tl         = 
 
@@ -93,7 +93,7 @@ __TOC__
 |vo_04_01_subtitle   = Good Morning
 |vo_04_01_file       = VO_{language}{character} Good Morning.ogg
 |vo_04_01_tx_s       = 早安。晨露很甜，要分一点给你吗？
-|vo_04_01_tx_t       = 早安。晨露很甜，要分一點給（妳/你）嗎？
+|vo_04_01_tx_t       = 早安。晨露很甜，要分一點給{{MC|你|妳|mc=1}}嗎？
 |vo_04_01_rm         = 
 |vo_04_01_tl         = 
 
@@ -111,7 +111,7 @@ __TOC__
 |vo_04_03_subtitle   = Good Evening
 |vo_04_03_file       = VO_{language}{character} Good Evening.ogg
 |vo_04_03_tx_s       = 不知道你是喜欢人间的灯火，还是山林的月光？
-|vo_04_03_tx_t       = 不知道（妳/你）是喜歡人間的燈火，還是山林的月光？
+|vo_04_03_tx_t       = 不知道{{MC|你|妳|mc=1}}是喜歡人間的燈火，還是山林的月光？
 |vo_04_03_rm         = 
 |vo_04_03_tl         = 
 
@@ -121,13 +121,13 @@ __TOC__
 |vo_04_04_friendship = 4
 |vo_04_04_file       = VO_{language}{character} Good Night.ogg
 |vo_04_04_tx_s       = 放心休息吧，我睡眠很浅，有什么动静，我会替你查看的。
-|vo_04_04_tx_t       = 放心休息吧，我睡眠很淺，有什麼動靜，我會替（妳/你）查看的。
+|vo_04_04_tx_t       = 放心休息吧，我睡眠很淺，有什麼動靜，我會替{{MC|你|妳|mc=1}}查看的。
 |vo_04_04_rm         = 
 |vo_04_04_tl         = 
 
 <!-- About -->
-|vo_05_01_title_s    = 关于{name}自己・本能
-|vo_05_01_title_t    = 關於{name}自己・本能
+|vo_05_01_title_s    = 关于{name_s}自己・本能
+|vo_05_01_title_t    = 關於{name_t}自己・本能
 |vo_05_01_subtitle   = About {character}: Instinct
 |vo_05_01_file       = VO_{language}{character} About {character} - Instinct.ogg
 |vo_05_01_tx_s       = 磨砺自身，修炼方术，都是本能使然，想要保全自己而已。我没有兼济苍生的胸怀，惩奸除恶只是顺手，不必感谢我。
@@ -135,8 +135,8 @@ __TOC__
 |vo_05_01_rm         = 
 |vo_05_01_tl         = 
 
-|vo_05_02_title_s    = 关于{name}自己・异类
-|vo_05_02_title_t    = 關於{name}自己・異類
+|vo_05_02_title_s    = 关于{name_s}自己・异类
+|vo_05_02_title_t    = 關於{name_t}自己・異類
 |vo_05_02_subtitle   = About {character}: Different
 |vo_05_02_friendship = 4
 |vo_05_02_file       = VO_{language}{character} About {character} - Different.ogg
@@ -151,7 +151,7 @@ __TOC__
 |vo_06_01_subtitle   = About Us: Manners
 |vo_06_01_file       = VO_{language}{character} About Us - Manners.ogg
 |vo_06_01_tx_s       = 我很少下山，不懂得多少待人接物的道理。发生冲突的时候，我一律按自己的方式处理。但，如果你觉得不妥，都请告诉我，即使不理解，我也会听你的。
-|vo_06_01_tx_t       = 我很少下山，不懂得多少待人接物的道理。發生衝突的時候，我一律按自己的方式處理。但，如果（妳/你）覺得不妥，都請告訴我，即使不理解，我也會聽（妳/你）的。
+|vo_06_01_tx_t       = 我很少下山，不懂得多少待人接物的道理。發生衝突的時候，我一律按自己的方式處理。但，如果{{MC|你|妳|mc=1}}覺得不妥，都請告訴我，即使不理解，我也會聽{{MC|你|妳|mc=1}}的。
 |vo_06_01_rm         = 
 |vo_06_01_tl         = 
 
@@ -162,7 +162,7 @@ __TOC__
 |vo_06_02_quest      = The Crane Returns on the Wind
 |vo_06_02_file       = VO_{language}{character} About Us - Red Ropes.ogg
 |vo_06_02_tx_s       = 师父赐我红绳用以压制心性，但这些日子你我同修，我才真正领悟到要诀，力量收放也更自在…你才是真正能锁住我的红绳。若你懂得这份心情，就请留在我身旁。
-|vo_06_02_tx_t       = 師父賜我紅繩用以壓制心性，但這些日子（妳/你）我同修，我才真正領悟到要訣，力量收放也更自在…（妳/你）才是真正能鎖住我的紅繩。若（妳/你）懂得這份心情，就請留在我身旁。
+|vo_06_02_tx_t       = 師父賜我紅繩用以壓制心性，但這些日子{{MC|你|妳|mc=1}}我同修，我才真正領悟到要訣，力量收放也更自在…{{MC|你|妳|mc=1}}才是真正能鎖住我的紅繩。若{{MC|你|妳|mc=1}}懂得這份心情，就請留在我身旁。
 |vo_06_02_rm         = 
 |vo_06_02_tl         = 
 
@@ -191,7 +191,7 @@ __TOC__
 |vo_07_03_subtitle   = Interesting Things
 |vo_07_03_file       = VO_{language}{character} Interesting Things.ogg
 |vo_07_03_tx_s       = 为什么说「初雪多浪漫」？那处山巅日日下雪，何日才算是初雪？我不理解，请你告诉我。
-|vo_07_03_tx_t       = 為什麼說「初雪多浪漫」？那處山巔日日下雪，何日才算是初雪？我不理解，請（妳/你）告訴我。
+|vo_07_03_tx_t       = 為什麼說「初雪多浪漫」？那處山巔日日下雪，何日才算是初雪？我不理解，請{{MC|你|妳|mc=1}}告訴我。
 |vo_07_03_rm         = 
 |vo_07_03_tl         = 
 
@@ -212,7 +212,7 @@ __TOC__
 |vo_08_02_friendship = 4
 |vo_08_02_file       = VO_{language}{character} About Beidou.ogg
 |vo_08_02_tx_s       = 与她相处不用讲究礼节，交谈时也不用揣测深意，让我轻松了不少。只是…她身边总是有人，听说船上还有诸多船员…我需要跟你一起，才能应对人多的场合。
-|vo_08_02_tx_t       = 與她相處不用講究禮節，交談時也不用揣測深意，讓我輕鬆了不少。只是…她身邊總是有人，聽說船上還有諸多船員…我需要跟（妳/你）一起，才能應對人多的場合。
+|vo_08_02_tx_t       = 與她相處不用講究禮節，交談時也不用揣測深意，讓我輕鬆了不少。只是…她身邊總是有人，聽說船上還有諸多船員…我需要跟{{MC|你|妳|mc=1}}一起，才能應對人多的場合。
 |vo_08_02_rm         = 
 |vo_08_02_tl         = 
 
@@ -222,7 +222,7 @@ __TOC__
 |vo_08_03_friendship = 4
 |vo_08_03_file       = VO_{language}{character} About Yun Jin.ogg
 |vo_08_03_tx_s       = 云堇唱的…叫做「璃月戏」吧？我很喜欢这种形式。不必亲见其面，就能了解他人的事迹。如果将来她把你唱进戏里，那一定会是非常精彩的故事，我很期待。
-|vo_08_03_tx_t       = 雲堇唱的…叫做「璃月戲」吧？我很喜歡這種形式。不必親見其面，就能瞭解他人的事蹟。如果將來她把{F#妳}{M#你}唱進戲裡，那一定會是非常精彩的故事，我很期待。
+|vo_08_03_tx_t       = 雲堇唱的…叫做「璃月戲」吧？我很喜歡這種形式。不必親見其面，就能瞭解他人的事蹟。如果將來她把{{MC|你|妳|mc=1}}唱進戲裡，那一定會是非常精彩的故事，我很期待。
 |vo_08_03_rm         = 
 |vo_08_03_tl         = 
 
@@ -252,7 +252,7 @@ __TOC__
 |vo_08_06_friendship = 4
 |vo_08_06_file       = VO_{language}{character} About Xingqiu.ogg
 |vo_08_06_tx_s       = 我曾见到他凑在你耳旁不知说些什么。若他敢威胁你，我一定会将他…嗯？只是朋友间的玩闹话？当真如此吗…
-|vo_08_06_tx_t       = 我曾見到他湊在{F#妳}{M#你}耳旁不知說些什麼。若他敢威脅{F#妳}{M#你}，我一定會將他…嗯？只是朋友間的玩鬧話？當真如此嗎…
+|vo_08_06_tx_t       = 我曾見到他湊在{{MC|你|妳|mc=1}}耳旁不知說些什麼。若他敢威脅{{MC|你|妳|mc=1}}，我一定會將他…嗯？只是朋友間的玩鬧話？當真如此嗎…
 |vo_08_06_rm         = 
 |vo_08_06_tl         = 
 
@@ -298,8 +298,8 @@ __TOC__
 |vo_08_10_tl         = 
 
 <!-- More About -->
-|vo_09_01_title_s    = 想要了解{name}・其一
-|vo_09_01_title_t    = 想要瞭解{name}・其一
+|vo_09_01_title_s    = 想要了解{name_s}・其一
+|vo_09_01_title_t    = 想要瞭解{name_t}・其一
 |vo_09_01_subtitle   = More About {character}: I
 |vo_09_01_file       = VO_{language}{character} More About {character} - 01.ogg
 |vo_09_01_tx_s       = 请不必在意人们对我的称呼，我不是仙人，也没什么神通。生于驱魔世家的旁系，长在远离璃月港的山间，只能算是个仙家弟子，仅此而已。
@@ -307,8 +307,8 @@ __TOC__
 |vo_09_01_rm         = 
 |vo_09_01_tl         = 
 
-|vo_09_02_title_s    = 想要了解{name}・其二
-|vo_09_02_title_t    = 想要瞭解{name}・其二
+|vo_09_02_title_s    = 想要了解{name_s}・其二
+|vo_09_02_title_t    = 想要瞭解{name_t}・其二
 |vo_09_02_subtitle   = More About {character}: II
 |vo_09_02_friendship = 3
 |vo_09_02_file       = VO_{language}{character} More About {character} - 02.ogg
@@ -317,8 +317,8 @@ __TOC__
 |vo_09_02_rm         = 
 |vo_09_02_tl         = 
 
-|vo_09_03_title_s    = 想要了解{name}・其三
-|vo_09_03_title_t    = 想要瞭解{name}・其二
+|vo_09_03_title_s    = 想要了解{name_s}・其三
+|vo_09_03_title_t    = 想要瞭解{name_t}・其二
 |vo_09_03_subtitle   = More About {character}: III
 |vo_09_03_friendship = 4
 |vo_09_03_file       = VO_{language}{character} More About {character} - 03.ogg
@@ -327,8 +327,8 @@ __TOC__
 |vo_09_03_rm         = 
 |vo_09_03_tl         = 
 
-|vo_09_04_title_s    = 想要了解{name}・其四
-|vo_09_04_title_t    = 想要瞭解{name}・其四
+|vo_09_04_title_s    = 想要了解{name_s}・其四
+|vo_09_04_title_t    = 想要瞭解{name_t}・其四
 |vo_09_04_subtitle   = More About {character}: IV
 |vo_09_04_friendship = 5
 |vo_09_04_quest      = The Crane Returns on the Wind
@@ -338,20 +338,20 @@ __TOC__
 |vo_09_04_rm         = 
 |vo_09_04_tl         = 
 
-|vo_09_05_title_s    = 想要了解{name}・其五
-|vo_09_05_title_t    = 想要瞭解{name}・其五
+|vo_09_05_title_s    = 想要了解{name_s}・其五
+|vo_09_05_title_t    = 想要瞭解{name_t}・其五
 |vo_09_05_subtitle   = More About {character}: V
 |vo_09_05_friendship = 6
 |vo_09_05_quest      = The Crane Returns on the Wind
 |vo_09_05_file       = VO_{language}{character} More About {character} - 05.ogg
 |vo_09_05_tx_s       = 有一回，我瞒着师父偷偷下山回到村里，却发现原本的村庄荒弃了，父亲早已去世。我突然明白，自己与血亲的缘分彻底断绝了。在乎的往事永无后话。自那日起，我一度舍弃人间种种…直到遇见你。
-|vo_09_05_tx_t       = 有一回，我瞞著師父偷偷下山回到村裡，卻發現原本的村莊荒棄了，父親早已去世。我突然明白，自己與血親的緣分徹底斷絕了。在乎的往事永無後話。自那日起，我一度捨棄人間種種…直到遇見{F#妳}{M#你}。
+|vo_09_05_tx_t       = 有一回，我瞞著師父偷偷下山回到村裡，卻發現原本的村莊荒棄了，父親早已去世。我突然明白，自己與血親的緣分徹底斷絕了。在乎的往事永無後話。自那日起，我一度捨棄人間種種…直到遇見{{MC|你|妳|mc=1}}。
 |vo_09_05_rm         = 
 |vo_09_05_tl         = 
 
 <!-- Miscellaneous II -->
-|vo_10_01_title_s    = {name}的爱好…
-|vo_10_01_title_t    = {name}的愛好…
+|vo_10_01_title_s    = {name_s}的爱好…
+|vo_10_01_title_t    = {name_t}的愛好…
 |vo_10_01_subtitle   = {character}'s Hobbies
 |vo_10_01_file       = VO_{language}{character} Hobbies.ogg
 |vo_10_01_tx_s       = 打坐的要点在于「静」，需要摒弃杂念，用身体感受周遭气息，它能让我迅速回归自我。听师父说，修为达到足够境界后，打坐的姿势就不用再拘泥，仙人哪怕站立着都能打坐…我还远远不够。
@@ -359,8 +359,8 @@ __TOC__
 |vo_10_01_rm         = 
 |vo_10_01_tl         = 
 
-|vo_10_02_title_s    = {name}的烦恼…
-|vo_10_02_title_t    = {name}的煩惱…
+|vo_10_02_title_s    = {name_s}的烦恼…
+|vo_10_02_title_t    = {name_t}的煩惱…
 |vo_10_02_subtitle   = {character}'s Troubles
 |vo_10_02_friendship = 6
 |vo_10_02_file       = VO_{language}{character} Troubles.ogg
@@ -395,14 +395,14 @@ __TOC__
 |vo_11_01_tx_s       = 这般滋味…真的是我能够享受的吗？
 |vo_11_01_tx_t       = 這般滋味…真的是我能夠享受的嗎？
 |vo_11_01_rm         = 
-|vo_11_01_tl         =  
+|vo_11_01_tl         = 
 
 |vo_11_02_title_s    = 收到赠礼・其二
 |vo_11_02_title_t    = 收到贈禮・其二
 |vo_11_02_subtitle   = Receiving a Gift: II
 |vo_11_02_file       = VO_{language}{character} Receiving a Gift - 02.ogg
 |vo_11_02_tx_s       = 你做的饭菜，确实美味。无法割舍。
-|vo_11_02_tx_t       = （你/妳）做的飯菜，確實美味。無法割捨。
+|vo_11_02_tx_t       = {{MC|你|妳|mc=1}}做的飯菜，確實美味。無法割捨。
 |vo_11_02_rm         = 
 |vo_11_02_tl         = 
 
@@ -421,7 +421,7 @@ __TOC__
 |vo_12_01_subtitle   = Birthday
 |vo_12_01_file       = VO_{language}{character} Birthday.ogg
 |vo_12_01_tx_s       = 我听说生辰是个值得铭记的日子，人们会向寿星送上礼品以示庆贺。身外之物，我不太了解。银河夜色，是我在山林中见过最美丽的事物。我将湖面冻成明镜，让浮云和星斗映照在眼前，跟你共贺生辰…希望你喜欢。
-|vo_12_01_tx_t       = 我聽說生辰是個值得銘記的日子，人們會向壽星送上禮品以示慶賀。身外之物，我不太瞭解。銀河夜色，是我在山林中見過最美麗的事物。我將湖面凍成明鏡，讓浮雲和星斗映照在眼前，跟{F#妳}{M#你}共賀生辰…希望{F#妳}{M#你}喜歡。
+|vo_12_01_tx_t       = 我聽說生辰是個值得銘記的日子，人們會向壽星送上禮品以示慶賀。身外之物，我不太瞭解。銀河夜色，是我在山林中見過最美麗的事物。我將湖面凍成明鏡，讓浮雲和星斗映照在眼前，跟{{MC|你|妳|mc=1}}共賀生辰…希望{{MC|你|妳|mc=1}}喜歡。
 |vo_12_01_rm         = 
 |vo_12_01_tl         = 
 
@@ -452,7 +452,7 @@ __TOC__
 |vo_13_03_ascension  = 4
 |vo_13_03_file       = VO_{language}{character} Feelings About Ascension - 03.ogg
 |vo_13_03_tx_s       = 这段日子，我闭关修炼的时长有所削减，修为却不知不觉地增进…嗯，也许只有跟你一起才能做到。
-|vo_13_03_tx_t       = 這段日子，我閉關修煉的時長有所削減，修為卻不知不覺地增進…嗯，也許只有跟{F#妳}{M#你}一起才能做到。
+|vo_13_03_tx_t       = 這段日子，我閉關修煉的時長有所削減，修為卻不知不覺地增進…嗯，也許只有跟{{MC|你|妳|mc=1}}一起才能做到。
 |vo_13_03_rm         = 
 |vo_13_03_tl         = 
 
@@ -469,7 +469,7 @@ __TOC__
 
 ==Combat==
 {{Combat VO
-|character           = {{ROOTPAGENAME}}
+|character           = Shenhe
 |language            = zh
 
 <!-- Elemental Skill -->
@@ -550,7 +550,15 @@ __TOC__
 |low-hp_3_rm         = Bìxū... zhū chú!
 |low-hp_3_tl         = 
 
-
+<!-- Ally at Low HP -->
+|ally-low-hp_1_tx_s  = 不必勉强。
+|ally-low-hp_1_tx_t  = 不必勉強。
+|ally-low-hp_1_rm    = 
+|ally-low-hp_1_tl    = 
+|ally-low-hp_2_tx_s  = 我来了结。
+|ally-low-hp_2_tx_t  = 我來了結。
+|ally-low-hp_2_rm    = 
+|ally-low-hp_2_tl    = 
 
 <!-- Fallen -->
 |fallen_1_tx_s       = 难逃…宿命…

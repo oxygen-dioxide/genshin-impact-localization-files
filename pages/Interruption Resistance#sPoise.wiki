@@ -78,6 +78,8 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 | Boss || 2000 || 100 || 0.5 || 0s
 |-
 | Humanoid Weekly Boss || 500 || 0 || 1 || 99999s
+|-
+| Fungus Battle || 225 || 40 || 1 || 1s
 |}
 
 ===Character Poise===
@@ -102,73 +104,90 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 {| class="wikitable sortable"
 ! Enemy !! Poise Type
 |-
-| [[Slimes]] || Slime
+| {{Enemy|Slime|20}} (Small) || Slime
 |-
-| Large Slimes || Other Grunt
+| {{Enemy|Slime|20}} (Large) || Other Grunt
 |-
-| [[Specters]] || Humanoid Grunt
+| {{Enemy|Specter|20}} || Humanoid Grunt
 |-
-| [[Whopperflowers]] || Minion
+| {{Enemy|Whopperflower|20}} || Minion
 |-
-| [[Floating Fungi]] || Slime
+| {{Enemy|Fungus|20}} (Small) || Slime
 |-
-| [[Cicins]] || Slime
+| {{Enemy|Fungus|20}} (Large) || Humanoid Demiboss
 |-
-| [[Hilichurls]] || Minion
+| {{Enemy|Fungus|20}} (Fabulous Fungus Frenzy) || Fungus Battle
 |-
-| [[Samachurls]] || Minion
+| {{Enemy|Cicin|20}} || Slime
+|-
+| {{Enemy|Hilichurls|20}} || Minion
+|-
+| {{Enemy|Samachurl|20}} || Minion
 |-
 | {{Enemy|Unusual Hilichurl|20}}  || Humanoid Grunt
 |-
-| [[Fatui Skirmishers]] Bracer || Other Grunt
+| {{Enemy|Fatui Skirmisher|20}} Bracer || Other Grunt
 |-
-| Fatui Skirmishers Vanguard || Humanoid Demiboss
+| {{Enemy|Fatui Skirmisher|20}} Vanguard || Humanoid Demiboss
 |-
-| Fatui Skirmishers Legionnaire || Humanoid Demiboss
+| {{Enemy|Fatui Skirmisher|20}} Legionnaire || Humanoid Demiboss
 |-
-| [[Treasure Hoarders]] Thin Men<sup>[1]</sup> || Minion
+| {{Enemy|Treasure Hoarder Potioneer|20}} || Minion
 |-
-| Treasure Hoarders Strong Men<sup>[1]</sup> || Humanoid Grunt
+| {{Enemy|Treasure Hoarders: Scout|20}} || Minion
 |-
-| Treasure Hoarders Fat Men<sup>[1]</sup> || Humanoid Grunt
+| {{Enemy|Treasure Hoarders: Marksman|20}} || Minion
 |-
-| [[Nobushi]] || Humanoid Grunt
+| {{Enemy|Treasure Hoarders: Crusher|20}} || Humanoid Grunt
 |-
-| [[Kairagi]] || Humanoid Demiboss
+| {{Enemy|Treasure Hoarders: Gravedigger|20}} || Humanoid Grunt
+|-
+| {{Enemy|Treasure Hoarders: Handyman|20}} || Humanoid Grunt
+|-
+| {{Enemy|Treasure Hoarders: Pugilist|20}} || Humanoid Grunt
+|-
+| {{Enemy|Treasure Hoarders: Crusher|20}} || Humanoid Grunt
+|-
+| {{Enemy|Nobushi|20}} || Humanoid Grunt
+|-
+| {{Enemy|Kairagi|20}} || Humanoid Demiboss
+|-
+| {{Enemy|The Eremites|20}} (Low Tier) || Minion
+|-
+| {{Enemy|The Eremites|20}} (Mid Tier) || Grunt Other
+|-
+| {{Enemy|The Eremites|20}} (High Tier) || Humanoid Demiboss
 |}
-*[1]Treasure Hoarders Thin Men: Scout, Marksman, Potioneers.
-*Treasure Hoarders Strong Men: Pugilist, Crusher.
-*Treasure Hoarders Fat Men: Handyman, Seaman, Gravedigger.
 
 ====Elite Enemies====
 {| class="wikitable sortable"
 ! Enemy !! Poise Type
 |-
-| [[Mitachurls]] || Humanoid Demiboss
+| {{Enemy|Mitachurl|20}} || Humanoid Demiboss
 |-
-| [[Lawachurls]] || Other Demiboss
+| {{Enemy|Lawachurl|20}} || Other Demiboss
 |-
-| [[Abyss Mages]] || Humanoid Grunt
+| {{Enemy|Abyss Mage|20}} || Humanoid Grunt
 |-
-| [[Abyss Heralds]] || Humanoid Demiboss
+| {{Enemy|Abyss Herald|20}} || Humanoid Demiboss
 |-
-| [[Abyss Lectors]] || Humanoid Demiboss
+| {{Enemy|Abyss Lector|20}} || Humanoid Demiboss
 |-
-| [[Rifthounds]] || Humanoid Demiboss
+| {{Enemy|Rifthound|20}} || Humanoid Demiboss
 |-
-| Rifthound Whelps || Other Grunt
+| {{Enemy|Rifthound Whelp|20}} || Other Grunt
 |-
-| [[Shadowy Husks]] || Humanoid Demiboss
+| {{Enemy|Shadowy Husk|20}} || Humanoid Demiboss
 |-
-| {{Enemy|Black Serpent Knight: Windcutter|20}} || Humanoid Demiboss
+| {{Enemy|Black Serpent Knight|20}} || Humanoid Demiboss
 |-
-| [[Humanoid Ruin Machines]] || Boss
+| {{Enemy|Humanoid Ruin Machine|20}} || Boss
 |-
-| [[Ruin Sentinels]] || Other Demiboss
+| {{Enemy|Ruin Sentinel|20}} || Other Demiboss
 |-
 | {{Enemy|Fatui Pyro Agent|20}} || Humanoid Demiboss
 |-
-| [[Fatui Cicin Mages]] || Humanoid Grunt
+| {{Enemy|Fatui Cicin Mage|20}} || Humanoid Grunt
 |-
 | {{Enemy|Mirror Maiden|20}} || Other Grunt
 |-
@@ -176,28 +195,34 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 |-
 | {{Enemy|Geovishap|20}} || Other Grunt
 |-
-| [[Bathysmal Vishaps]] || Other Grunt
+| {{Enemy|Bathysmal Vishap|20}} || Other Grunt
 |-
 | Bathysmal Vishap Hatchlings || Other Grunt
 |-
 | {{Enemy|Eye of the Storm|20}} || Boss
 |-
 | {{Enemy|The Great Snowboar King|20}} || Other Demiboss
+|-
+| {{Enemy|Ruin Drake|20}} || Boss
+|-
+| {{Enemy|Primal Construct|20}} || Other Demiboss
+|-
+| {{Enemy|Consecrated Beast|20}} || Other Demiboss
 |}
 
 ====Normal Bosses====
 {| class="wikitable sortable"
 ! Enemy !! Poise Type
 |-
-| [[Hypostases]] || Boss
+| {{Enemy|Hypostasis|20}} || Boss
 |-
 | {{Enemy|Perpetual Mechanical Array|20}} || Boss
 |-
-| [[Regisvines]] || Boss
+| {{Enemy|Regisvine|20}} || Boss
 |-
 | {{Enemy|Rhodeia of Loch|20}} || Boss
 |-
-| [[Hydro Mimics]] || Boss
+| {{Enemy|Hydro Mimic|20}} || Boss
 |-
 | {{Enemy|Thunder Manifestation|20}} || Boss
 |-
@@ -205,13 +230,21 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 |-
 | {{Enemy|Maguu Kenki|20}} || Boss
 |-
-| [[Dual Maguu Kenki]] || Boss
+| {{Enemy|Dual Maguu Kenki|20}} || Boss
 |-
 | {{Enemy|Golden Wolflord|20}} || Boss
 |-
 | {{Enemy|Coral Defenders|20}} || Boss
 |-
 | {{Enemy|Ruin Serpent|20}} || Boss
+|-
+| {{Enemy|Jadeplume Terrorshroom|20}} || Boss
+|-
+| {{Enemy|Aeonblight Drake|20}} || Boss
+|-
+| {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}} || Other Demiboss
+|-
+| {{Enemy|Setekh Wenut|20}} || Boss
 |}
 
 ====Weekly Bosses====
@@ -235,6 +268,55 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 | {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Normal) || Humanoid Weekly Boss
 |-
 | {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Baleful Shadowlord) || Boss
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} || Boss
+|}
+
+====Special Enemies====
+{| class="wikitable sortable"
+! Enemy !! Poise Type
+|-
+| {{Enemy|Unusual Hilichurl|20}} || Humanoid Grunt
+|-
+| {{Enemy|Millelith Soldier|20}} || Minion
+|-
+| {{Enemy|Millelith Sergeant|20}} || Humanoid Grunt
+|-
+| {{Enemy|Shogunate Infantry|20}} || Minion
+|-
+| {{Enemy|Shogunate Infantry Captain|20}} || Humanoid Grunt
+|-
+| {{Enemy|Yoriki Samurai|20}} || Humanoid Grunt
+|-
+| {{Enemy|Watatsumi Soldier: Kouzen|20}} || Minion
+|-
+| {{Enemy|Canine Bunshin|20}} || Other Demiboss
+|-
+| {{Enemy|Black Shadow: Hayate no Gotoku|20}} || Other Demiboss
+|-
+| {{Enemy|Beisht|20}} || Boss
+|-
+| {{Enemy|Taroumaru|20}} || Other Demiboss
+|-
+| {{Enemy|Sumpter Beast|20}} || Boss
+|-
+| {{Enemy|Rishboland Tiger|20}} || Minion
+|-
+| {{Enemy|Spinocrocodile|20}} || Minion
+|-
+| {{Enemy|Scorpion|20}} || Minion
+|-
+| {{Enemy|Red Vulture|20}} || Minion
+|-
+| {{Enemy|Flying Serpent|20}} || Minion
+|-
+| {{Enemy|Spirit of Omen: Stone Drake|20}} || Other Demiboss
+|-
+| {{Enemy|Spirit of Omen: Wind Glede|20}} || Other Demiboss
+|-
+| {{Enemy|Spirit of Omen: Pyro Scorpion|20}} || Other Demiboss
+|-
+| {{Enemy|Spirit of Omen: Dendro Spirit-Serpent|20}} || Other Demiboss
 |}
 
 ==Poise Damage==
@@ -271,112 +353,130 @@ The stacking of Ability Hyperarmor is multiplicative.
 
 ===Character Ability Hyperarmor===
 {| class="wikitable sortable"
-! Caster !! Target !! Condition !! Ability Hyperarmor
+! Caster !! Target !! Condition !! Poise DMG Multiplier
 |-
-| rowspan="4" | Characters || Self || [[Sprinting#Dash|Dash]] precast || 0
+| rowspan="4" | Characters || Self || [[Sprinting#Dash|Dash]] (Pre-Cast) || 0
 |-
-| Team || [[Crystallize]] shield || 0
+| Team || [[Crystallize]] Shield || 0
 |-
-| Self || In [[Frozen]] state || 0
+| Self || In [[Frozen]] State || 0
 |-
-| Team || [[:Category:Shield Talents|Talent]] or [[:Category:Shield Constellations|Constellation]] shield || 0
+| Team || [[:Category:Shield Talents|Talent]] or [[:Category:Shield Constellations|Constellation]] Shield || 0
 |-
-| [[Arataki Itto]] || Self || {{Talent|Arataki Ichiban|20|nobr=1|text=1st Ascension Passive}}, Arataki Kesagiri Charged Attack, when precasting, casting and aftercasting || 0
+| {{Character|Alhaitham|20|nobr=1}} || Self || {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (During Rush Attack) || 0
 |-
-| rowspan="2" | [[Beidou]] || Self || {{Talent|Tidecaller|20|nobr=1|type=1}}, when precasting, casting and aftercasting || 0
+| {{Character|Arataki Itto|20|nobr=1}} || Self || {{Talent|Arataki Ichiban|20|nobr=1|type=1}} (Arataki Kesagiri Charged Attack: Pre-Cast; Mid-Cast; Post-Cast) || 0
 |-
-| Team || {{Talent|Stormbreaker|20|nobr=1|Elemental Burst}}, Thunderbeast's Targe effect || 0.5
+| rowspan="2" | {{Character|Beidou|20|nobr=1}} || Self || {{Talent|Tidecaller|20|nobr=1|type=1}} (Pre-Cast; Mid-Cast; Post-Cast) || 0
 |-
-| rowspan="2" | [[Eula]] || Self || {{Talent|Icetide Vortex|20|nobr=1|type=1}}, Grimheart effect || 0.5
+| Team || {{Talent|Stormbreaker|20|nobr=1|Elemental Burst|type=1}} (Thunderbeast's Targe Effect) || 0.5
 |-
-| Self|| {{Talent|Glacial Illumination|20|nobr=1|type=1}}, Lightfall Sword present || 0
+| {{Character|Cyno|20|nobr=1}} || Self || {{Talent|Sacred Rite: Wolf's Swiftness|20|nobr=1|type=1}} (Pactsworn Pathclearer State) || 0.5
 |-
-| rowspan="2" | [[Hu Tao]] || Self || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} state || 0.5
+| rowspan="2" | {{Character|Dehya|20|nobr=1}} || Team || {{Talent|Molten Inferno|20|nobr=1|type=1}} (Fiery Sanctum Field) || 0.7
 |-
-| Self || {{Constellation|Butterfly's Embrace|20|nobr=1|level=1}}, low HP effect || 0
+| Team || {{Talent|Unstinting Succor|20|nobr=1|type=1}} (Fiery Sanctum Field) || 0
 |-
-| [[Fischl]] || Self || {{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}}, when on Oz's form || 0
+| rowspan="2" | {{Character|Eula|20|nobr=1}} || Self || {{Talent|Icetide Vortex|20|nobr=1|type=1}}  (Grimheart Effect) || 0.5
 |-
-| [[Gorou]] || Team || {{Talent|Inuzaka All-Round Defense|20|nobr=1|type=1}} or {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}}, within ability radius, in Impregnable or Crunch state || 0.5
+| Self|| {{Talent|Glacial Illumination|20|nobr=1|type=1}} (Lightfall Sword Present) || 0
 |-
-| [[Kamisato Ayato]] || Self || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} state || 0.5
+| rowspan="2" | {{Character|Hu Tao|20|nobr=1}} || Self || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} (Paramita Papilio State) || 0.5
 |-
-| [[Keqing]] || Self || {{Talent|Stellar Restoration|20|nobr=1|type=1}}, when moving to the Stiletto in air || 0
+| Self || {{Constellation|Butterfly's Embrace|20|nobr=1|level=1}} || 0
 |-
-| [[Klee]] || Self || {{Talent|Pounding Surprise|20|nobr=1|text=1st Ascension Passive}}, with Spark, Charged Attack, when precasting, casting and aftercasting || 0
+| {{Character|Fischl|20|nobr=1}} || Self || {{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}} (While in Oz's Form) || 0
 |-
-| [[Lisa]] || Self || {{Constellation|Electromagnetic Field|20|nobr=1|level=1}}, Elemental Skill Hold, when precasting || 0.5
+| {{Character|Gorou|20|nobr=1}} || Team || {{Talent|Inuzaka All-Round Defense|20|nobr=1|type=1}} or {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Impregnable or Crunch State) || 0.5
 |-
-| [[Raiden Shogun]] || Self || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} state || 0
+| {{Character|Kamisato Ayato|20|nobr=1}} || Self || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} (Takimeguri Kanka State) || 0.5
 |-
-| [[Razor]] || Self || {{Talent|Lightning Fang|20|nobr=1|type=1}} state || 0.5
+| {{Character|Keqing|20|nobr=1}} || Self || {{Talent|Stellar Restoration|20|nobr=1|type=1}} (While Teleporting to Airborne Stiletto) || 0
 |-
-| [[Sangonomiya Kokomi]] || Self || {{Talent|Nereid's Ascension|20|nobr=1|type=1}} state || 0.25
+| {{Character|Klee|20|nobr=1}} || Self || {{Talent|Pounding Surprise|20|nobr=1|type=1}} (Charged Attack With Spark: Pre-Cast; Mid-Cast; Post-Cast) || 0
 |-
-| [[Tartaglia]] || Self || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} state || 0.5
+| {{Character|Lisa|20|nobr=1}} || Self || {{Constellation|Electromagnetic Field|20|nobr=1|level=1}} (Hold: Pre-Cast) || 0.5
 |-
-| [[Traveler (Anemo)]] || Self || {{Constellation|Cherishing Breezes|20|nobr=1|level=1}}, {{Talent|Palm Vortex|20|nobr=1|type=1}}, when precasting, casting and aftercasting || 0.5
+| {{Character|Nilou|20|nobr=1}} || Self || {{Talent|Dance of Haftkarsvar|20|nobr=1|level=1|type=1}} (Attacking While Under Pirouette/Lunar Prayer State) || 0.5
 |-
-| [[Traveler (Geo)]] || Team || {{Constellation|Invincible Stonewall|20|nobr=1|level=1}}, within the radius of {{Talent|Wake of Earth|20|nobr=1|type=1}} || 0.7
+| {{Character|Raiden Shogun|20|nobr=1}} || Self || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Musou Isshin State) || 0
 |-
-| [[Xiao]] || Self || {{Talent|Bane of All Evil|20|nobr=1|type=1}} state || 0.5
+| {{Character|Razor|20|nobr=1}} || Self || {{Talent|Lightning Fang|20|nobr=1|type=1}} (The Wolf Within Effect) || 0.5
 |-
-| [[Xingqiu]] || Team || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} or {{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}}, Rain Sword effect || 0.3
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || Self || {{Talent|Nereid's Ascension|20|nobr=1|type=1}} (Ceremonial Garment Effect) || 0.25
 |-
-| [[Yanfei]] || Self || {{Constellation|The Law Knows No Kindness|20|nobr=1|level=1}}, with Seal, Charged Attack, when precasting, casting and aftercasting || <math>1 - 0.1 \times \text{Seal Count}</math>
+| {{Character|Tartaglia|20|nobr=1}} || Self || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Melee Stance) || 0.5
 |-
-| [[Yun Jin]] || Self || {{Talent|Opening Flourish|20|nobr=1|type=1}}, when precasting, casting and aftercasting. || 0
+| {{Character|Traveler (Anemo)|20|nobr=1}} || Self || {{Constellation|Cherishing Breezes|20|nobr=1|level=1}}, {{Talent|Palm Vortex|20|nobr=1|type=1}} (Pre-Cast; Mid-Cast; Post-Cast) || 0.5
+|-
+| {{Character|Traveler (Geo)|20|nobr=1}} || Team || {{Constellation|Invincible Stonewall|20|nobr=1|level=1}}, {{Talent|Wake of Earth|20|nobr=1|type=1}} || 0.7
+|-
+| {{Character|Xiao|20|nobr=1}} || Self || {{Talent|Bane of All Evil|20|nobr=1|type=1}} (Yaksha's Mask Effect) || 0.5
+|-
+| {{Character|Xingqiu|20|nobr=1}} || Team || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} or {{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}} (Rain Sword Effect) || 0.3
+|-
+| {{Character|Yanfei|20|nobr=1}} || Self || {{Constellation|The Law Knows No Kindness|20|nobr=1|level=1}} (Charged Attack With Seal: Pre-Cast; Mid-Cast; Post-Cast) || 1 - 0.1 × Seal Count
+|-
+| {{Character|Yun Jin|20|nobr=1}} || Self || {{Talent|Opening Flourish|20|nobr=1|type=1}} (Pre-Cast; Mid-Cast; Post-Cast) || 0
 |}
 
 ===Character Motion Hyperarmor===
+Motion Hyperarmors are attached to certain character animations, instead of being applied as an independent buff status.
+
 {| class="wikitable sortable"
-! Caster !! Condition !! Motion Hyperarmor
+! Caster !! Condition !! Poise DMG Multiplier
 |-
-| Characters || [[Plunging Attack]], when precasting and falling || 0
+| Characters || [[Plunging Attack]] (Pre-Cast; Falling) || 0
 |-
-| rowspan="5" | Most Characters || [[Elemental Skill]], when precasting and casting || 0.6
+| rowspan="5" | Most Characters || [[Elemental Skill]] (Pre-Cast; Mid-Cast) || 0.6
 |-
-| Elemental Skill, when selecting the casting position || 0.6
+| Elemental Skill (Manual Aiming Mode) || 0.6
 |-
-| Elemental Skill, when charging || 0.6
+| Elemental Skill (Charging) || 0.6
 |-
-| Elemental Skill, when switching state || 0.6
+| Elemental Skill (Switching States) || 0.6
 |-
-| [[Elemental Burst]], when precasting and casting || 0
+| [[Elemental Burst]] (Pre-Cast; Mid-Cast) || 0
 |-
-| rowspan="3" | Some Characters || Elemental Skill, when aftercasting || 0.6
+| rowspan="3" | Some Characters || Elemental Skill (Post-Cast) || 0.6
 |-
-| Elemental Burst, when aftercasting || 0.6
+| Elemental Burst (Post-Cast) || 0.6
 |-
-| [[Alternate Sprint]], when precasting, casting and aftercasting || 0.6
+| [[Alternate Sprint]] (Pre-Cast; Mid-Cast; Post-Cast) || 0.6
 |-
-| {{Character|Jean|20|nobr=1}} || {{Talent|Favonius Bladework|20|nobr=1|text=Charged Attack}}, when casting || 0.6
+| rowspan="2" | {{Character|Dehya|20|nobr=1}} || {{Talent|Molten Inferno|20|nobr=1|type=1}} (Ranging Flame Mid-Cast) || 0
 |-
-| rowspan="3" | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}}, Press, when precasting and spinning in air || 0.4
+| {{Talent|Leonine Bite|20|nobr=1|type=1}} (Flame-Mane's Fist; Incineration Drive) || 0
 |-
-| {{Talent|Chihayaburu|20|nobr=1|type=1}}, Hold, when precasting, charging and casting || 0
+| {{Character|Jean|20|nobr=1}} || {{Talent|Favonius Bladework|20|nobr=1|text=Charged Attack}} (Mid-Cast) || 0.6
 |-
-| {{Talent|Garyuu Bladework|20|nobr=1|text=Plunging Attack: Midare Ranzan}}, when precasting, spinning in air and landing on ground || 0
+| rowspan="3" | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} (Press: Pre-Cast; Airborne) || 0.4
 |-
-| {{Character|Lisa|20|nobr=1}} || {{Talent|Violet Arc|20|nobr=1|type=1}}, when charging || 0.2
+| {{Talent|Chihayaburu|20|nobr=1|type=1}} (Hold: Pre-Cast; Charging; Mid-Cast) || 0
 |-
-| rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}}, when precasting and casting || 0.3
+| {{Talent|Garyuu Bladework|20|nobr=1|text=Plunging Attack: Midare Ranzan}} (Pre-Cast; Falling; Landing) || 0
 |-
-| {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}}, Windwheel, when switching state and keeping rolling || 0.3
+| {{Character|Lisa|20|nobr=1}} || {{Talent|Violet Arc|20|nobr=1|type=1}} (Charging) || 0.2
 |-
-| rowspan="2" | {{Character|Shenhe|20|nobr=1}} || {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}}, when precasting || 0
+| {{Character|Nahida|20|nobr=1}} || {{Talent|All Schemes to Know|20|nobr=1|level=1|type=1}} (Pre-Cast; Aiming Mode) || 0
 |-
-| {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}}, Hold, when casting || 0
+| rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Pre-Cast; Mid-Cast) || 0.3
 |-
-| {{Character|Venti|20|nobr=1}} || {{Talent|Skyward Sonnet|20|nobr=1|type=1}}, when casting || 0
+| {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Fuufuu Windwheel: Switching States; Rolling) || 0.3
 |-
-| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Lingering Lifeline|20|nobr=1|type=1}}, when precasting and in hold state || 0.2
+| rowspan="2" | {{Character|Shenhe|20|nobr=1}} || {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}} (Pre-Cast) || 0
 |-
-| {{Talent|Lingering Lifeline|20|nobr=1|type=1}}, when aftercasting || 0.6
+| {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}} (Hold: Mid-Cast) || 0
 |-
-| rowspan="2" | {{Character|Zhongli|20|nobr=1}} || {{Talent|Dominus Lapidis|20|nobr=1|type=1}}, when precasting || 0
+| {{Character|Venti|20|nobr=1}} || {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Mid-Cast) || 0
 |-
-| {{Talent|Dominus Lapidis|20|nobr=1|type=1}}, Hold, when casting || 0
+| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Lingering Lifeline|20|nobr=1|type=1}} (Pre-Cast; Hold State) || 0.2
+|-
+| {{Talent|Lingering Lifeline|20|nobr=1|type=1}} (Post-Cast) || 0.6
+|-
+| rowspan="2" | {{Character|Zhongli|20|nobr=1}} || {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Pre-Cast) || 0
+|-
+| {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Hold: Mid-Cast) || 0
 |}
 
 ===Character Attacks===

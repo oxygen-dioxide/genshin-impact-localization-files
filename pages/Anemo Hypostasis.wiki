@@ -1,6 +1,7 @@
 {{Enemy Infobox
 |title    = Beth
-|element  = Anemo
+|dmgtype  = Anemo
+|weakpoint = no
 |image    = Enemy Anemo Hypostasis.png
 |type     = Normal Bosses
 |family   = Elemental Lifeforms
@@ -13,14 +14,27 @@
 |ability5 = Energy Generation
 |drops    = Hurricane Seed
 }}
-{{Description|Code name: Beth. A high-purity [[Anemo]] entity.<br />Elemental [[hypostases]] are life forms which have completely abandoned their former appearance and biological structure, making them able to reach the highest level of elemental purity.<br />Research into hypostases is mainly led by scholars of [[Sumeru Akademiya]], but due to the level of danger that they pose, little of substance is known about hypostases beyond their scientific name and code name.|[[Adventurer Handbook]]}}
 {{Enemy Intro}}
 
-==Rewards==
+==Drops==
+===Items===
 {{World Boss Rewards
 |gem         = Vayuda Turquoise
 |exclusive   = Hurricane Seed
 |sets        = Lucky Dog,Berserker,Instructor
+}}
+
+===Energy===
+{{Energy Drops
+|type  = Anemo
+|hp1   = 75
+|o1    = 1
+|hp2   = 50
+|o2    = 1
+|hp3   = 25
+|o3    = 1
+|hp4   = 0
+|o4    = 1
 }}
 
 ==Stats==
@@ -32,67 +46,49 @@
 }}
 
 ==Abilities and Attacks==
-*'''Crystalfly:''' Flies into the air and turns into a giant crystalfly, then shoots a blast at the player, suspending the player in mid-air if hit. Then launches a follow-up attack in the form of a wind blade, dealing '''100% ATK''' as {{Color|Anemo DMG}} along its path. The second attack has a high chance of hitting those struck by the first.
+''Most attack names are unofficial.''
+{{Enemy Attacks
 
-*'''Vacuum:''' Quickly flies next to the player and forms a ring of shell pieces that create a vacuum which pulls the player towards the core while dealing '''25% ATK''' as {{Color|AoE Anemo DoT}}. It is hard, if not outright impossible to escape the pull. After a short time, it will pull in the shell pieces and explode, dealing '''150% ATK''' as {{Color|AoE Anemo DMG}}. The explosion cannot be avoided using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]]. The core is exposed while the vacuum is active.
+|name_1 = Crystalfly
+|desc_1 = Flies into the air and turns into a giant crystalfly, then shoots a blast at the player, suspending the player in mid-air if hit. Then launches a follow-up attack in the form of a wind blade, dealing '''100% ATK''' as {{Color|Anemo DMG}} along its path. The second attack has a high chance of hitting those struck by the first.
 
-*'''Clap:''' Quickly flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|Anemo DMG}} in an area in front of the wall.
+|name_2 = Vacuum
+|desc_2 = Quickly flies next to the player and forms a ring of shell pieces that create a vacuum which pulls the player towards the core while dealing '''25% ATK''' as {{Color|AoE Anemo DoT}}. It is hard, if not outright impossible to escape the pull. After a short time, it will pull in the shell pieces and explode, dealing '''150% ATK''' as {{Color|AoE Anemo DMG}}. The explosion cannot be avoided using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]]. The core is exposed while the vacuum is active.
 
-*'''Meteors:''' Moves to a location away from the player and sends pieces of its shell into the sky. Over the next few seconds, three total shell pieces will fall from the sky towards the player, dealing '''100% ATK''' as {{Color|AoE Anemo DMG}} and leaving updrafts where they land. The boss will '''not''' expose its core after this move, but its core will be exposed during the attack.
+|name_3 = Clap
+|desc_3 = Quickly flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|Anemo DMG}} in an area in front of the wall.
 
-*'''Missiles:''' Moves to a location away from the player and floats into the sky, forming a rhombus with its shell pieces. Then, it sucks shell pieces into its core to form and fire wind blasts that deal '''75% ATK''' as {{Color|AoE Anemo DMG}}, it fires a total of 3 blasts. Move around to dodge (can dodge without dashing).
+|name_4 = Meteors
+|desc_4 = Moves to a location away from the player and sends pieces of its shell into the sky. Over the next few seconds, three total shell pieces will fall from the sky towards the player, dealing '''100% ATK''' as {{Color|AoE Anemo DMG}} and leaving updrafts where they land. The boss will '''not''' expose its core after this move, but its core will be exposed during the attack.
 
-*'''Tornadoes:''' Teleports to the center of the arena and spirals high into the air, forming a tornado beneath it. Over the next few seconds, forms 8 tornadoes around the arena, these tornados move randomly around the arena, dealing '''75% ATK''' as {{Color|Anemo DMG}} to players that come in contact. A center tornado also deals '''25% ATK''' as {{Color|Anemo DMG}} upon contact. The tornadoes will cause [[Elemental Absorption]] if they come into contact with {{Hydro}}, {{Pyro}}, {{Cryo}}, or {{Electro}}, and will leave behind an orb of their respective infusion in the air once the attack ends. If not infused with anything, they simply remain {{Anemo}}. Picking up these orbs grants 6 [[Energy|Energy Particles]] of the corresponding element.
-<gallery hideaddbutton="true" captionalign="center" widths="100" position="center">
+|name_5 = Missiles
+|desc_5 = Moves to a location away from the player and floats into the sky, forming a rhombus with its shell pieces. Then, it sucks shell pieces into its core to form and fire wind blasts that deal '''75% ATK''' as {{Color|AoE Anemo DMG}}, it fires a total of 3 blasts. Move around to dodge (can dodge without dashing).
+
+|name_6 = Tornadoes
+|desc_6 = Teleports to the center of the arena and spirals high into the air, forming a tornado beneath it. Over the next few seconds, forms 8 tornadoes around the arena, these tornados move randomly around the arena, dealing '''75% ATK''' as {{Color|Anemo DMG}} to players that come in contact. A center tornado also deals '''25% ATK''' as {{Color|Anemo DMG}} upon contact. The tornadoes will cause [[Elemental Absorption]] if they come into contact with {{Hydro}}, {{Pyro}}, {{Cryo}}, or {{Electro}}, and will leave behind an orb of their respective infusion in the air once the attack ends. If not infused with anything, they simply remain {{Anemo}}. Picking up these orbs grants 6 [[Energy|Energy Particles]] of the corresponding element.
+
+|name_7 = Vacuum Burst
+|desc_7 = Teleports next to the player and forms a spinning dome formation with its shell, which deals '''10% ATK''' as {{Color|Anemo DMG}} to players that come in contact. It will then proceed to absorb random orbs from the air, unleashing large shockwaves in the process. By default, each shockwave deals '''100% ATK''' as {{Color|Anemo DMG}}, but will deal {{Pyro}}, {{Hydro}}, {{Cryo}}, or {{Electro}} DMG if it pulls in an orb of the respective element.
+<gallery>
 Anemo Orb.jpeg|An Anemo orb
 Pyro Orb.jpeg|Pyro infused orb
 Electro Orb.jpeg|Electro infused orb
 Cryo Orb.jpeg|Cryo infused orb
 Hydro Orb.jpeg|Hydro infused orb
 </gallery>
+|file_7 = Anemo Hypostasis Vacuum Burst Anemo
+|caption_7 = Anemo
+|file_7_2 = Anemo Hypostasis Vacuum Burst Pyro
+|caption_7_2 = Pyro
+|file_7_3 = Anemo Hypostasis Vacuum Burst Hydro
+|caption_7_3 = Hydro
+|file_7_4 = Anemo Hypostasis Vacuum Burst Electro
+|caption_7_4 = Electro
+|file_7_5 = Anemo Hypostasis Vacuum Burst Cryo
+|caption_7_5 = Cryo
 
-*'''Vacuum Burst:''' Teleports next to the player and forms a spinning dome formation with its shell, which deals '''10% ATK''' as {{Color|Anemo DMG}} to players that come in contact. It will then proceed to absorb random orbs from the air, unleashing large shockwaves in the process. By default, each shockwave deals '''100% ATK''' as {{Color|Anemo DMG}}, but will deal {{Pyro}}, {{Hydro}}, {{Cryo}}, or {{Electro}} DMG if it pulls in an orb of the respective element.
-
-*'''Second Wind:''' When HP is low (approx. 5%), moves to the center of the arena and forms 4 large floating {{Anemo}} Orbs along with several updrafts. After some time (approx. 15 seconds), absorbs any Anemo Orbs that remain, healing a large portion of its HP (approx. 15%) for each orb absorbed. Use the updrafts to glide into and absorb the Anemo Orbs to prevent the boss from healing entirely, if an orb is absorbed by the player it will not respawn the next time the Hypostasis uses '''Second Wind''', and if all orbs are absorbed by the player it will become unable to use '''Second Wind''' again. When an orb is absorbed by the player, 3 Anemo [[Energy|Energy Particles]] will be generated.
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Anemo Hypostasis Crystalfly
-|caption1=Crystalfly
-
-|file2=Anemo Hypostasis Vacuum
-|caption2=Vacuum
-
-|file3=Anemo Hypostasis Clap
-|caption3=Clap
-
-|file4=Anemo Hypostasis Meteors
-|caption4=Meteors
-
-|file5=Anemo Hypostasis Missiles
-|caption5=Missiles
-
-|file6=Anemo Hypostasis Tornadoes
-|caption6=Tornadoes
-
-|file7=Anemo Hypostasis Vacuum Burst Anemo
-|caption7=Vacuum Burst ({{Anemo}})
-
-|file8=Anemo Hypostasis Vacuum Burst Pyro
-|caption8=Vacuum Burst ({{Pyro}})
-
-|file9=Anemo Hypostasis Vacuum Burst Hydro
-|caption9=Vacuum Burst ({{Hydro}})
-
-|file10=Anemo Hypostasis Vacuum Burst Electro
-|caption20=Vacuum Burst ({{Electro}})
-
-|file11=Anemo Hypostasis Vacuum Burst Cryo
-|caption31=Vacuum Burst ({{Cryo}})
-
-|file12=Anemo Hypostasis Second Wind
-|caption22=Second Wind
+|name_8 = Second Wind
+|desc_8 = When HP is low (approx. 5%), moves to the center of the arena and forms 4 large floating {{Anemo}} Orbs along with several updrafts. After some time (approx. 15 seconds), absorbs any Anemo Orbs that remain, healing a large portion of its HP (approx. 15%) for each orb absorbed. Use the updrafts to glide into and absorb the Anemo Orbs to prevent the boss from healing entirely, if an orb is absorbed by the player it will not respawn the next time the Hypostasis uses '''Second Wind''', and if all orbs are absorbed by the player it will become unable to use '''Second Wind''' again. When an orb is absorbed by the player, 3 Anemo [[Energy|Energy Particles]] will be generated.
 }}
 
 ==Strategy==
@@ -108,27 +104,30 @@ Even if all of the orbs are gathered, the Hypostasis will still revive, but will
 {{Achievement Topic Table|topic=Anemo Hypostasis}}
 
 *[["That's one big Crystalfly"]] is fairly easy to get as there is more than enough time to grab all four Anemo Orbs before the boss revives itself.
-*[["...Not indicative of final product"]] requires the Anemo Hypostasis to discharge all four elemental bursts during its '''Vacuum Burst''' attack, requiring the team to consist of a {{Cryo}}, {{Electro}}, {{Hydro}}, and {{Pyro}} character to do so. During the '''Tornado''' attack, the Hypostasis will generate eight tornadoes that randomly {{not a typo|swirl around}} the arena; these must be struck with elemental reactions in order to generate an elemental orb of the type used to change it, which should be done [[Elemental Burst]]s or Charged Attacks with [[Catalysts|Catalyst]] users. The boss will likely perform '''Meteor''' at least once before attempting '''Vacuum Burst'''. Use the updraft to grab Anemo Orbs to increase the chance of a boss absorbing a modified orb. Since the boss only takes three orbs at a time with this attack, the player will need to wait for two tornado attacks to complete the achievement. After all four elemental shockwaves have been unleashed, the boss must be killed to obtain the achievement.
+*[["...Not indicative of final product"]] requires the Anemo Hypostasis to discharge all four elemental bursts during its '''Vacuum Burst''' attack, requiring the team to consist of a {{Cryo}}, {{Electro}}, {{Hydro}}, and {{Pyro}} character to do so. During the '''Tornado''' attack, the Hypostasis will generate eight tornadoes that randomly {{not a typo|swirl around}} the arena; these must be struck with elemental reactions in order to generate an elemental orb of the type used to change it, which should be done [[Elemental Burst]]s or Charged Attacks with [[Catalyst]] users. The boss will likely perform '''Meteor''' at least once before attempting '''Vacuum Burst'''. Use the updraft to grab Anemo Orbs to increase the chance of a boss absorbing a modified orb. Since the boss only takes three orbs at a time with this attack, the player will need to wait for two tornado attacks to complete the achievement. After all four elemental shockwaves have been unleashed, the boss must be killed to obtain the achievement.
 *"[[Back With the Wind]]" simply requires players to gather ten orbs themselves. The orbs can be gathered during its '''Meteor''' attack, which creates updrafts, or with the aid of [[Geo Constructs]]. The boss will need to perform two tornado attacks in order to create the ten orbs needed for the achievement.
 
 ==Event Variant==
 {{Main|Pure Anemo Hypostasis}}
 
+==Descriptions==
+{{Description|Code name: Beth. A high-purity [[Anemo]] entity.<br />Elemental [[hypostases]] are life forms which have completely abandoned their former appearance and biological structure, making them able to reach the highest level of elemental purity.<br />Research into hypostases is mainly led by scholars of [[Sumeru Akademiya]], but due to the level of danger that they pose, little of substance is known about hypostases beyond their scientific name and code name.|[[Adventurer Handbook]] and [[Archive]]}}
+
 ==Trivia==
 * Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Beth"|he=בּ|he_rm=Bet}} being named after the second.
 * [[Sucrose]]'s Elemental Skill, [[Astable Anemohypostasis Creation - 6308]], and her Elemental Burst, [[Forbidden Creation - Isomer 75 / Type II]], are emulations of the Anemo Hypostasis. They resemble the Hypostasis's Crystalfly attack in particular.
-** Further strengthening this connection, Sucrose's second [[Constellations|Constellation]] (which extends the duration of Forbidden Creation - Isomer 75/Type II) is named [[Beth: Unbound Form]].
+** Further strengthening this connection, Sucrose's second [[Constellation]] (which extends the duration of Forbidden Creation - Isomer 75/Type II) is named [[Beth: Unbound Form]].
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Monster Anemo Hypostasis thumb.png|Icon
 Anemo Hypo.png|Screenshot
 </gallery>
 
 ==Video Guides==
 {{EVT
-|video1   = https://youtu.be/Gi1WCsQggJ4
-|caption3 = How to Easily Beat the Anemo Hypostasis
+|video1   = https://youtu.be/01hIxASXwVg
+|caption1 = EVERYTHING You Need to Know about Anemo Hypostasis
 }}
 
 ==Other Languages==
@@ -139,10 +138,10 @@ Anemo Hypo.png|Screenshot
 |zht     = 無相之風
 |zht_rm  = Wúxiàng zhī Fēng<ref name="CNreading" />
 |zh_tl   = Signless Wind
-|ja      = {{Rubi|無|む|相|そう|の|&nbsp;|風|かぜ}}
+|ja      = {{Rubi|無|む|相|そう}}の{{Rubi|風|かぜ}}
 |ja_rm   = Musou no Kaze<ref>{{Ref/VO|Sucrose|元素爆発|ja|note=Third Voice-Over}}</ref>
 |ja_tl   = Signless Wind
-|ko      = {{rubi|무|無|상|相}}의 바람
+|ko      = {{tt|무상|無相}}의 바람
 |ko_rm   = Musangui Baram
 |ko_tl   = Signless Wind
 |es      = Hipostasis Anemo
@@ -152,13 +151,17 @@ Anemo Hypo.png|Screenshot
 |ru      = Анемо гипостазис
 |ru_tl   = Anemo Hypostasis
 |th      = Anemo Hypostasis
-|vi      = Phong Nguyên Bản
-|vi_tl   = Prototype Anemo
+|vi      = {{tt|Phong|風}} {{tt|Nguyên Bản|原本}}
+|vi_tl   = The Original Wind
 |de      = Anemo-Hypostase
 |de_tl   = Anemo Hypostasis
 |id      = Anemo Hypostasis
 |pt      = Hypostasis Anemo
 |pt_tl   = Anemo Hypostasis
+|tr      = Rüzgar Hipostazı
+|tr_tl   = 
+|it      = Ipostasi di Anemo
+|it_tl   = Anemo Hypostasis
 }}
 
 ==Change History==
@@ -170,5 +173,10 @@ Anemo Hypo.png|Screenshot
 ==Navigation==
 {{Enemy Navbox|type=bosses}}
 
-[[es:Hipostasis Anemo]]
+[[de:Anemo-Hypostase]]
+[[es:Hipóstasis Anemo]]
+[[fr:Hypostase Anémo]]
+[[ja:無相の風]]
 [[pt-br:Hypostasis Anemo]]
+[[ru:Анемо гипостазис]]
+[[zh:無相之風]]

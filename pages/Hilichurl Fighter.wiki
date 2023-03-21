@@ -4,48 +4,59 @@ Enemy Hilichurl Fighter.png|Archive
 Enemy Hilichurl Fighter Full Artwork.png|Full Art
 </gallery>
 |family   = Hilichurls
+|dmgtype  = Physical
+|element  = Dendro
+|weakpoint = yes
 |type     = Common Enemies
 }}
-{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Ill-tempered warriors for their tribes, they are simple-minded believers in the power of brute force. If their muscles grow strong enough and their strength great enough, then one day they too shall raise up a great shield and become a [[mitachurl]]... Or will they?|[[Archive]]}}
 {{Enemy Intro|hidegroup=1}}
 
 ==Drops==
-{{Drops|Hilichurls}}
+===Items===
+{{Drops Table|type=Hilichurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|hp_ratio=1|atk_ratio=1.8|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Smack:''' Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-*'''Charged Smack:''' Charges and swings its club at the player powerfully, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back.
-*'''Rapid Swings:''' Performs 3 consecutive swings at the player, dealing '''100% ATK''', '''100% ATK''', '''125% ATK''' with each swing as {{Color|Physical DMG}}.
-*'''Punch:''' Approaches and swings its fist at the player, dealing '''75% ATK''' as {{Color|Physical DMG}}. This attack is only used if the Hilichurl Fighter's club is destroyed.
-*'''Rock Throw:''' Digs a small rock out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Physical DMG}}. This attack is only used if the Hilichurl Fighter's club is destroyed.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Wooden Club
+|desc_1 = The Hilichurl Fighter's Wooden Club is a {{Wood}} object. It can be ignited and slowly burned away using {{Pyro}}.
+|file_1 = Hilichurl Fighter Burning Club
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Hilichurl Fighter Smack
-|caption1=Smack
+|name_2 = Hit
+|file_2 = Hilichurl Fighter Smack
+|desc_2 = Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
-|file2=Hilichurl Fighter Charged Smack
-|caption2=Charged Smack
+|name_3 = Jump and Hit
+|desc_3 = Charges and swings its club at the player powerfully, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back.
 
-|file3=Hilichurl Fighter Rapid Swings
-|caption3=Rapid Swings
+|name_4 = Swing That Club
+|desc_4 = Performs 3 consecutive swings at the player, dealing '''100% ATK''', '''100% ATK''', '''125% ATK''' with each swing as {{Color|Physical DMG}}.
 
-|file4=Hilichurl Fighter Burning Club
-|caption4=Burning Club
+|name_5 = Punch
+|desc_5 = Approaches and swings its fist at the player, dealing '''75% ATK''' as {{Color|Physical DMG}}. This attack is only used if the Hilichurl Fighter's club is destroyed.
+|file_5 = Hilichurl Punch
 
-|file5=Hilichurl Punch
-|caption5=Punch
-
-|file6=Hilichurl Rock Throw
-|caption6=Rock Throw
+|name_6 = Rock Throw
+|desc_6 = Digs a small rock out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Physical DMG}}. This attack is only used if the Hilichurl Fighter's club is destroyed.
+|file_6 = Hilichurl Rock Throw
 }}
 
+==Descriptions==
+{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Ill-tempered warriors for their tribes, they are simple-minded believers in the power of brute force. If their muscles grow strong enough and their strength great enough, then one day they too shall raise up a great shield and become a [[mitachurl]]... Or will they?|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Hilichurl Fighter Icon.png|Icon
 </gallery>
 
@@ -56,7 +67,7 @@ Enemy Hilichurl Fighter Icon.png|Icon
 |zhs_rm  = Dǎshǒu Qiūqiū-rén
 |zht     = 打手丘丘人
 |zht_rm  = Dǎshǒu Qiūqiū-rén
-|zh_tl   = 
+|zh_tl   = Hitman Hilichurl
 |ja      = ヒルチャール・戦士
 |ja_rm   = Hiruchaaru - Senshi
 |ja_tl   = Hilichurl - Warrior
@@ -67,8 +78,8 @@ Enemy Hilichurl Fighter Icon.png|Icon
 |es_tl   = Hilichurl Warrior
 |fr      = Guerrier Brutocollinus
 |fr_tl   = Hilichurl Warrior
-|ru      = Хиличурл боец
-|ru_tl   = 
+|ru      = Хиличурл-боец
+|ru_tl   = Hilichurl Fighter
 |th      = Hilichurl Fighter
 |vi      = Hilichurl Chiến Sĩ
 |vi_tl   = Hilichurl Warrior
@@ -77,6 +88,10 @@ Enemy Hilichurl Fighter Icon.png|Icon
 |id      = Hilichurl Fighter
 |pt      = Hilichurl Lutador
 |pt_tl   = 
+|tr      = Dağ Yabanisi Savaşçısı
+|tr_tl   = 
+|it      = Hilichurl combattente
+|it_tl   = 
 }}
 
 ==Change History==
@@ -84,6 +99,9 @@ Enemy Hilichurl Fighter Icon.png|Icon
 
 ==Navigation==
 {{Enemy Navbox|type=Common}}
+
 [[es:Hilichurl Guerrero]]
-[[pt-br:Hilichurl Lutador]]
 [[fr:Guerrier Brutocollinus]]
+[[ja:ヒルチャール・戦士]]
+[[pt-br:Hilichurl Lutador]]
+[[th:Hilichurl Fighter]]

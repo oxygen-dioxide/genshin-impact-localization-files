@@ -1,11 +1,14 @@
 {{Quest Infobox
 |id            = 19085; 19086; 19087
-|type          = Hangout
-|region        = Mondstadt
+|type          = Story
+|group         = Hangout Event
 |chapter       = Noelle
 |actNum        = II
 |act           = Knightly Exam Prep
 |startLocation = [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |requirement   = Complete [[Song of the Dragon and Freedom]], reach [[Adventure Rank]] 26, and spend 2 [[Story Key]]s
 |next          = 
 |characters    = Cyrus; Katheryne (Mondstadt); Noelle; Traveler
@@ -27,8 +30,8 @@
 #*[[#Immaculate Examination|Immaculate Examination]]
 #*[[#Imperfect Examination|Imperfect Examination]]
 
-==Notes==
-* If the ending branch "Imperfect Examination" is active, interact with Noelle's study notes before speaking to her in the library for the achievement "[[Mondstadt's Note-Taker General]]."
+==Gameplay Notes==
+* If the ending branch "Imperfect Examination" is active, interact with Noelle's study notes before speaking to her in the library for the achievement ''[[Mondstadt's Note-Taker General]]''.
 
 ==Trial Character==
 {{Transclude|Noelle's_Strength|Trial Character}}
@@ -97,7 +100,9 @@
 :{{A|vo noecop002 1908502 noelle 07.ogg}} '''Noelle:''' Hmm, Wolvendom... I remember reading that there are [[Wolfhook]]s everywhere, but the book made no specific mention of any other plants...
 :{{A|vo noecop002 1908502 noelle 08.ogg}} '''Noelle:''' Hmm... No, I must approach this question differently... Is there anything here that requires specific environmental conditions in order to grow? Conditions that {{Color|buzzword|Wolvendom}} cannot provide?
 :{{DIcon}} [[Dandelion Seed]]s.
+::{{A|vo noecop002 1908502 cyrus 24.ogg}} '''Cyrus:''' Ooh, I'm afraid... That's the wrong answer...
 :{{DIcon}} [[Small Lamp Grass]].
+::{{A|vo noecop002 1908502 cyrus 24.ogg}} '''Cyrus:''' Ooh, I'm afraid... That's the wrong answer...
 :{{DIcon}} [[Calla Lily]].
 ::{{A|vo noecop002 1908502 cyrus 24.ogg}} '''Cyrus:''' Ooh, I'm afraid... That's the wrong answer...
 :{{DIcon}} [[Windwheel Aster]].
@@ -110,7 +115,9 @@
 :{{A|vo noecop002 1908502 noelle 11.ogg}} '''Noelle:''' Learning from experience, writing diaries... It seems like adventuring requires constant self-reflection, just like studying.
 :{{A|vo noecop002 1908502 noelle 12.ogg}} '''Noelle:''' Regarding this adventurer... I do believe I have read about him. He even made his mark on Dragonspine. Yes, it must be him... Hmm... Oh, what was his name...?
 :{{DIcon}} Wilde.
+::{{A|vo noecop002 1908502 cyrus 29.ogg}} '''Cyrus:''' Ooh, what a pity... You were so close, but not quite close enough. Never mind, eh.
 :{{DIcon}} Sayid.
+::{{A|vo noecop002 1908502 cyrus 29.ogg}} '''Cyrus:''' Ooh, what a pity... You were so close, but not quite close enough. Never mind, eh.
 :{{DIcon}} Wyatt.
 ::{{A|vo noecop002 1908502 cyrus 29.ogg}} '''Cyrus:''' Ooh, what a pity... You were so close, but not quite close enough. Never mind, eh.
 :{{DIcon}} [[Roald]].
@@ -120,7 +127,9 @@
 :{{A|vo noecop002 1908502 cyrus 31.ogg}} '''Cyrus:''' All that awaits you there is a sea of ashes and the deathly silence in the air... So, what is the name of this taboo territory?
 :{{A|vo noecop002 1908502 noelle 14.ogg}} '''Noelle:''' A sea of ashes... A windless land... What could it be...?
 :{{DIcon}} Mare Safari.
+::{{A|vo noecop002 1908502 cyrus 33.ogg}} '''Cyrus:''' Wrong answer! Huh... Was that supposed to be some sort of joke?
 :{{DIcon}} Jare Mivani.
+::{{A|vo noecop002 1908502 cyrus 33.ogg}} '''Cyrus:''' Wrong answer! Huh... Was that supposed to be some sort of joke?
 :{{DIcon}} Mair Javiri.
 ::{{A|vo noecop002 1908502 cyrus 33.ogg}} '''Cyrus:''' Wrong answer! Huh... Was that supposed to be some sort of joke?
 :{{DIcon}} [[Mare Jivari]].
@@ -156,15 +165,18 @@
 
 ;(Talk to Cyrus and give him the dish that meets his requirements)
 :{{A|vo noecop002 1908603 cyrus 06.ogg}} '''Cyrus:''' ...Oh, you're ready to go? Don't be too hasty, now. You still have time to prepare, use it wisely.
-:;(If you give him Mondstadt Grilled Fish)
+:;(If Mondstadt Grilled Fish is given)
 :::{{A|vo noecop002 1908603 cyrus 01.ogg}} '''Cyrus:''' *sniff* Mondstadt Grilled Fish, if I'm not mistaken? The fragrance is certainly rather rejuvenating.
 :::{{A|vo noecop002 1908603 noelle 01.ogg}} '''Noelle:''' So... Mondstadt Grilled Fish... is the correct answer?
 :::{{A|vo noecop002 1908603 cyrus 02.ogg}} '''Cyrus:''' Well, uh, the issue is... many people can't eat fish that hasn't been seasoned with plenty of pepper.
 :::{{A|vo noecop002 1908603 cyrus 03.ogg}} '''Cyrus:''' I, for one, am quite happy to eat it straight from the grill with no seasoning at all... But basically, I think there are more straightforward dishes available.
 :::{{A|vo noecop002 1908603 noelle 02.ogg}} '''Noelle:''' Oh, I see... I'm sorry, I didn't take that into consideration...
-:::{{A|vo noecop002 1908603 cyrus 04.ogg}} '''Cyrus:''' Ah, don't get down in the dumps! I've saved the best part of the exam for last.
-:::{{A|vo noecop002 1908603 cyrus 05.ogg}} '''Cyrus:''' Go get yourself ready and meet me at Brightcrown Canyon.
-:;(If you give him Steak)
+::;(If the player passed the first test)
+::::{{A|vo noecop002 1908603 cyrus 04.ogg}} '''Cyrus:''' Ah, don't get down in the dumps! I've saved the best part of the exam for last.
+::::{{A|vo noecop002 1908603 cyrus 05.ogg}} '''Cyrus:''' Go get yourself ready and meet me at Brightcrown Canyon.
+::;(If the player failed the first test)
+::::'''Hangout Failed'''
+:;(If Steak is given)
 :::{{A|vo noecop002 1908602 cyrus 01.ogg}} '''Cyrus:''' Steak! Steak! Hahaha, hands down the top choice of a true adventurer!
 :::{{A|vo noecop002 1908602 cyrus 02.ogg}} '''Cyrus:''' Simple ingredients, high nutritious, and most importantly, all you need to cook it is an open flame!
 :::{{A|vo noecop002 1908602 cyrus 03.ogg}} '''Cyrus:''' Mm... And when it's not an emergency, adding a bit of seasoning makes it even better. Succulent and juicy, crispy on the outside and tender on the inside... The perfect accompaniment to an alcoholic beverage...
@@ -188,37 +200,39 @@
 :{{A|vo noecop002 1908701 cyrus 06.ogg}} '''Cyrus:''' Go for it, Noelle! Remember, keep track of your time!
 ----
 ;(After defeating opponent within the time limit)
-:{{A|vo noecop002 1908704 noelle 01.ogg}} '''Noelle:''' *catches breath*
-:{{A|vo noecop002 1908704 noelle 02.ogg}} '''Noelle:''' Honorary Knight! I did it!
-:{{DIcon}} This is all the result of your hard work.
-:{{A|vo noecop002 1908704 noelle 03.ogg}} '''Noelle:''' Not entirely... whenever I've taken an exam in the past, I always get nervous and I can't control it.
-:{{A|vo noecop002 1908704 noelle 04.ogg}} '''Noelle:''' I know that it's just like in training, but I always end up worrying I might fail...
-:{{A|vo noecop002 1908704 noelle 05.ogg}} '''Noelle:''' But not this time... This time, it seems I was able to remain calm.
-:{{A|vo noecop002 1908704 noelle 06.ogg}} '''Noelle:''' Somehow, having you by my side is... soothing...
-:{{A|vo noecop002 1908704 noelle 07.ogg}} '''Noelle:''' It must be because you are here with me that I was able to complete the exam.
-:{{DIcon}} No, Noelle. It's because you have what it takes.
-:{{A|vo noecop002 1908704 noelle 08.ogg}} '''Noelle:''' Thank you, thank you...
-:{{A|vo noecop002 1908704 noelle 09.ogg}} '''Noelle:''' ...On the day of the real exam, if &mdash; and I mean only if...
-:{{DIcon}} I will have time.
-:{{DIcon}} I will be there.
-:{{A|vo noecop002 1908704 noelle 10.ogg}} '''Noelle:''' Great! Maybe, just maybe, things will be different this time...
-;(Talk to Cyrus)
-:{{A|vo noecop002 1908801 cyrus 01.ogg}} '''Cyrus:''' Oh, back already? Seems like...
-:{{A|vo noecop002 1908801 cyrus 02.ogg}} '''Cyrus:''' Even the third part of the exam is a walk in the park for you!
+::{{A|vo noecop002 1908704 noelle 01.ogg}} '''Noelle:''' *catches breath*
+::{{A|vo noecop002 1908704 noelle 02.ogg}} '''Noelle:''' Honorary Knight! I did it!
+::{{DIcon}} This is all the result of your hard work.
+::{{A|vo noecop002 1908704 noelle 03.ogg}} '''Noelle:''' Not entirely... whenever I've taken an exam in the past, I always get nervous and I can't control it.
+::{{A|vo noecop002 1908704 noelle 04.ogg}} '''Noelle:''' I know that it's just like in training, but I always end up worrying I might fail...
+::{{A|vo noecop002 1908704 noelle 05.ogg}} '''Noelle:''' But not this time... This time, it seems I was able to remain calm.
+::{{A|vo noecop002 1908704 noelle 06.ogg}} '''Noelle:''' Somehow, having you by my side is... soothing...
+::{{A|vo noecop002 1908704 noelle 07.ogg}} '''Noelle:''' It must be because you are here with me that I was able to complete the exam.
+::{{DIcon}} No, Noelle. It's because you have what it takes.
+::{{A|vo noecop002 1908704 noelle 08.ogg}} '''Noelle:''' Thank you, thank you...
+::{{A|vo noecop002 1908704 noelle 09.ogg}} '''Noelle:''' ...On the day of the real exam, if &mdash; and I mean only if...
+::{{DIcon}} I will have time.
+::{{DIcon}} I will be there.
+::{{A|vo noecop002 1908704 noelle 10.ogg}} '''Noelle:''' Great! Maybe, just maybe, things will be different this time...
+::&nbsp;
+:;(Talk to Cyrus)
+::{{A|vo noecop002 1908801 cyrus 01.ogg}} '''Cyrus:''' Oh, back already? Seems like...
+::{{A|vo noecop002 1908801 cyrus 02.ogg}} '''Cyrus:''' Even the third part of the exam is a walk in the park for you!
 
 ;(Failed to defeat opponent within the time limit)
-:{{A|vo noecop002 1908705 noelle 01.ogg}} '''Noelle:''' Ohhhh....
-:{{A|vo noecop002 1908705 noelle 02.ogg}} '''Noelle:''' In the end, I... I couldn't do it...
-:{{A|vo noecop002 1908705 noelle 03.ogg}} '''Noelle:''' My palms were sweating, and my heart was racing, and...
-:{{A|vo noecop002 1908705 noelle 04.ogg}} '''Noelle:''' I know that it's just like in training, but still, I always end up worrying I might fail...
-:{{A|vo noecop002 1908705 noelle 05.ogg}} '''Noelle:''' And in the end, I couldn't even solve the problem at hand...
-:{{DIcon}} It's not because you lack the ability...
-:{{DIcon}} It's because you were too fixated on the formality of the exam...
-:{{A|vo noecop002 1908705 noelle 06.ogg}} '''Noelle:''' But if I cannot perform well in an exam, what good is my ability...
-:{{A|vo noecop002 1908705 noelle 07.ogg}} '''Noelle:''' *sigh* Maybe... I should train some more...
-;(Talk to Cyrus)
-:{{A|vo noecop002 1908801 cyrus 01.ogg}} '''Cyrus:''' Oh, back already? Seems like...
-:{{A|vo noecop002 1908801 cyrus 03.ogg}} '''Cyrus:''' Hmm... Maybe the difficulty level is too high after all...
+::{{A|vo noecop002 1908705 noelle 01.ogg}} '''Noelle:''' Ohhhh....
+::{{A|vo noecop002 1908705 noelle 02.ogg}} '''Noelle:''' In the end, I... I couldn't do it...
+::{{A|vo noecop002 1908705 noelle 03.ogg}} '''Noelle:''' My palms were sweating, and my heart was racing, and...
+::{{A|vo noecop002 1908705 noelle 04.ogg}} '''Noelle:''' I know that it's just like in training, but still, I always end up worrying I might fail...
+::{{A|vo noecop002 1908705 noelle 05.ogg}} '''Noelle:''' And in the end, I couldn't even solve the problem at hand...
+::{{DIcon}} It's not because you lack the ability...
+::{{DIcon}} It's because you were too fixated on the formality of the exam...
+::{{A|vo noecop002 1908705 noelle 06.ogg}} '''Noelle:''' But if I cannot perform well in an exam, what good is my ability...
+::{{A|vo noecop002 1908705 noelle 07.ogg}} '''Noelle:''' *sigh* Maybe... I should train some more...
+::&nbsp;
+:;(Talk to Cyrus)
+::{{A|vo noecop002 1908801 cyrus 01.ogg}} '''Cyrus:''' Oh, back already? Seems like...
+::{{A|vo noecop002 1908801 cyrus 03.ogg}} '''Cyrus:''' Hmm... Maybe the difficulty level is too high after all...
 {{Dialogue end}}
 
 ----
@@ -325,7 +339,7 @@
 }}
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Noelle's Study Notes Location.png|Noelle's Study Notes location
 </gallery>
 
@@ -341,14 +355,13 @@ Noelle's Study Notes Location.png|Noelle's Study Notes location
 |ja_rm   = Boukensha Nyuumon Shiken
 |ja_tl   = Adventurer's Entrance Exam
 |ko      = 모험가 입단 시험
-|ko_rm   = 
-|ko_tl   = 
+|ko_tl   = Adventurer's Entrance Exam
 |es      = Examen de ingreso al Gremio
 |es_tl   = Guild Entrance Exam
 |fr      = Examen d'entrée d'aventurier
 |fr_tl   = Adventurer's Entrance Exam
 |ru      = Вступительный экзамен искателей приключений
-|ru_tl   = 
+|ru_tl   = Adventurers' Entrance Exam
 |th      = การสอบคัดเลือกของนักผจญภัย
 |th_rm   = 
 |th_tl   = Adventurer's Entrance Exam
@@ -360,6 +373,10 @@ Noelle's Study Notes Location.png|Noelle's Study Notes location
 |id_tl   = Adventurers' Guild Entrance Exam
 |pt      = Exame de Admissão de Aventureiros
 |pt_tl   = Admission Exam of the Adventurers
+|tr      = Maceracı Giriş Sınavı
+|tr_tl   = 
+|it      = L'esame di ammissione per avventurieri
+|it_tl   = 
 }}
 
 ==Change History==

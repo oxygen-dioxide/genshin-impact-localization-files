@@ -1,2 +1,221 @@
-#REDIRECT[[Talents]]
-[[Category:Redirect Pages]]
+{{CustomTabs
+|tab1 = Overview
+|tab2 = List
+}}
+{{Terminology Infobox
+|type         = Combat
+|type2        = Game Systems
+}}
+'''Talents''' are special abilities that [[characters]] possess. They are split into two types: '''Combat''' and '''Passive'''.
+
+Most characters have three Combat Talents and three Passive Talents. [[Mona]] and [[Ayaka]] have a fourth Combat Talent in the form of an [[Alternate Sprint]]. [[Sangonomiya Kokomi|Kokomi]] has four passive talents. The [[Traveler]] does not have a [[Utility Passive]].
+
+==List of Talents==
+{{Main|Talent/List}}
+* [[Combat Talent]]s
+** [[Normal Attack]] &mdash; The main form of attack for each character.
+** [[Elemental Skill]] &mdash; Does not require Energy to use but has a Cooldown period between each use.
+** [[Alternate Sprint]] &mdash; Replaces the normal sprinting of a character.
+** [[Elemental Burst]] &mdash; Requires Energy to use.
+* [[Passive Talent]]s
+** [[1st Ascension Passive]] &mdash; Usually provides an improvement to a Combat Talent.
+** [[4th Ascension Passive]] &mdash; Usually provides an improvement to a Combat Talent.
+** [[Utility Passive]] &mdash; Usually provides some utility outside of combat.
+
+==Combat Talents==
+{{Main|Combat Talents}}
+Upon obtaining a character, all Combat Talents come unlocked at Level 1.
+
+A Combat Talent's level can be [[Talent Level Increase|raised]] mainly through the following ways:
+# Using [[Character Talent Material]]s, with their current maximum Talent level determined by their [[Character Ascensions|Ascension]] Phase, up to Level 10.
+# Unlocking certain [[Constellations]] that raise a specific Talent's effective level by +3. Using this method also raises the Talent's Level cap from 10 to 15.
+#* This does not mean that you can use [[Character Talent Material]]s to continue leveling up a character's particular talent past 13; the jump from 13 to 15 must be done by other means (like [[Utility Passive]] Talents or [[Event]] Bonuses).
+# Certain characters also have [[:Category:Level Increase Talents|Passive Talents]] that can raise a party's specific category of Talent Level.
+
+Additionally, certain [[Events]] may grant special bonuses that temporarily increase a character's talent level:
+* During the event [[Energy Amplifier]], equipping the [[Fractured Fruit Fragment]] "Refined Burst" increases the Talent Level of characters' [[Elemental Burst]] in the domain, which allowed the max burst level to reach level 14 during the event.
+* During the event [[Perilous Trail (Event)|Perilous Trail]], equipping the [[Perilous Trail (Event)#Stratagems|Stratagem]] "Superlative" increases the Talent Level of characters' [[Elemental Skill]]s and [[Elemental Burst]]s in the domain, which allowed the max skill and burst level to reach level 14 during the event.
+
+The level of [[Alternate Sprint]]s cannot be raised.
+
+===Using Talents===
+[[File:Kazuha attacking slime.jpg|thumb|300px|[[Kazuha]] attacking a slime. Note the arrow indicating that the slime is currently selected.]]
+Each talent is used by pressing the appropriate button. By default on PC, clicking {{key|lclick}} will use a [[Normal Attack]], holding [[Charged Attack]], {{key|E}} [[Elemental Skill]], {{key|Q}} [[Elemental Burst]], and, if equipped, clicking {{key|rclick}} or pressing {{key|Shift}} casts an [[Alternate Sprint]].
+
+When near an enemy or group of enemies, an arrow ([[File:Enemy Selection Arrow.png|20px|alt=🔽|link=]]) serves as an indicator for the currently selected enemy. Talents will attack the selected enemy by default. Moving to a different portion of the battlefield will move this arrow toward a different enemy. Alternatively, some attacks have the ability to be aimed or will affect an area of effect either around the character or the selected enemy, and thus allows for attacking an enemy other than the one currently selected. When no enemies are selected, talents will directly affect the area in front of the playable character.
+
+[[Defense Mechanism]]s cannot be selected. [[Slime Balloon]]s can only be selected if there are no other enemies nearby. Invisible enemies such as [[Dendro Slime]]s buried in the ground or [[Fatui Pyro Agent]]s also cannot be selected.
+
+===Combat Talent Scaling===
+When a Talent is upgraded, its attribute values increase by a multiplier based on the Talent level:<ref>NGA: [https://ngabbs.com/read.php?tid=23915817 {{Lang|mini=1|zh=原神技能倍率研究}}]</ref>
+
+:<math>\text{Upgraded Talent Attribute Value} = \text{Base Talent Attribute Value} \times \text{Talent Level Multiplier}</math>
+
+Base Talent Attribute Value is the damage/healing/shield HP value a Talent has at level 1 (e.g. Geo Traveler's [[Starfell Sword]] has 248% Skill DMG at level 1).
+
+For Talents with both a percentage (x%) and a flat component (+x) (e.g. [[Let the Show Begin]]), the percentage value scales with the same multiplier as other Talents, but the flat value scales with a different multiplier.
+
+Normal Attack Talents also scale with a different multiplier. The multiplier is estimated and within 1% of actual values; there may be errors are due to internal rounding and/or slight estimation errors.
+
+Certain characters like [[Zhongli]] and [[Xiao]] have different scalings for their talents. These exceptions are discussed in the next section.
+
+{| class="article-table sortable waffle no-grid"
+|-
+!Talent Level
+!Percentage Value Multiplier
+!Flat Value Multiplier
+!Normal Attack Multiplier
+|-
+|1||100%||100%||100%
+|-
+|2||107.5%||110%||108%
+|-
+|3||115%||120%||116%
+|-
+|4||125%||132.5% ||127.5%
+|-
+|5||132.5%||145%||135%
+|-
+|6||140%||157.5%||145%
+|-
+|7||150% ||172.5%||157.5%
+|-
+|8 ||160%||187.5%||170%
+|-
+|9||170%||202.5%||182.5%
+|-
+|10|| 180%||220%||197.5%
+|-
+|11||190%||237.5%||212.5%
+|-
+|12||200%||255%||-
+|-
+|13||212.5% || 275%||-
+|-
+|14|| -||-|| -
+|-
+|15||- ||-||-
+|}
+
+===Exceptions===
+{{Main|Level Scaling/Talents}}
+[[Xiao]]'s Burst [[Bane of All Evil]] (the Attack DMG Bonus %) and [[Zhongli]]'s Burst [[Planet Befall]] (Skill DMG %) follow different scalings from those above. Several other characters like [[Yoimiya]], [[Beidou]] and [[Hu Tao]] also follow different scalings for certain talent stats. These are discussed in [[Level Scaling/Talents]].
+
+{| class="article-table sortable waffle no-grid"
+|-
+!Talent Level
+!Zhongli Burst Multiplier
+!Xiao Burst Multiplier
+|-
+|1||100%
+|100%
+|-
+|2||110.8%
+|106.0%
+|-
+|3||121.6%
+|112.0%
+|-
+|4||135.1%
+|119.7%
+|-
+|5||147.3%
+|125.6%
+|-
+|6||159.5%
+|131.6%
+|-
+|7||175.7%
+|139.5%
+|-
+|8 || 191.9%
+|147.2%
+|-
+|9||208.1%
+|155.0%
+|-
+|10|| 224.3%
+|162.7%
+|-
+|11||240.5%
+|170.6%
+|-
+|12|| 256.8%
+|178.3%
+|-
+|13||270.3%
+|186.2%
+|-
+|14||283.8%
+|193.8%
+|-
+|15||-
+| -
+|}
+
+==Passive Talents==
+{{Main|Passive Talents}}
+Of a character's Passive Talents, only the third comes unlocked upon obtaining them. The first two are unlocked at 1st and 4th Ascension Phase. Passive talent levels cannot be upgraded.
+
+Note that the effects provided to Combat Talents by Passive Talents will not be reflected in the information screens of Combat Talents, even if the effects are unconditional. For example, the unconditional cooldown reductions provided by [[Shattered Darkrock]] and [[Rekindle]] are not reflected in the information screens of [[Starfell Sword]] and [[Passion Overload]], respectively.
+
+==See Also==
+* [[Climbing]]
+* [[Elemental Sight]]
+* [[Gliding]]
+* [[Sprinting]]
+* [[Swimming]]
+
+==Other Languages==
+{{Other Languages
+|en      = Talent
+|zhs     = 天赋
+|zhs_rm  = Tiānfù
+|zht     = 天賦
+|zht_rm  = Tiānfù
+|zh_tl   = Talent
+|ja      = 天賦
+|ja_rm   = Tenpu
+|ja_tl   = Talent
+|ko      = 특성
+|ko_tl   = Attribute
+|es      = Talento
+|es_tl   = Talent
+|fr      = Aptitude
+|ru      = Талант
+|ru_tl   = Talent
+|th      = พรสวรรค์
+|th_rm   = 
+|th_tl   = 
+|vi      = Thiên Phú
+|vi_tl   = 
+|de      = Talent
+|id      = Talenta
+|id_tl   = Talent
+|pt      = Talento
+|pt_tl   = 
+|tr      = Yetenek
+|tr_tl   = 
+|it      = Talento
+|it_tl   = 
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Talent Type Navbox|state=collapsed}}
+{{Combat Navbox}}
+
+[[Category:Talents| ]]
+
+[[ja:天賦]]
+[[pt-br:Talentos]]
+[[ru:Таланты]]
+[[th:พรสวรรค์]]
+[[tr:Yetenekler]]
+[[uk:Таланти]]
+[[vi:Thiên Phú]]

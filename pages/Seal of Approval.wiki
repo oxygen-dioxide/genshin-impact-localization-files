@@ -7,42 +7,110 @@
 |utility2      = Charged Attack
 |utility3      = AoE
 |utility4      = AoE Increase
-|hit1          = 58%–110.8%
-|hit2          = 52%–99%
-|hit3          = 76%–144.4%
+|utility5      = Effect Triggered by Normal Attack Hit
+|hit1          = 58–110.8%
+|hit2          = 52–99%
+|hit3          = 76–144.4%
 |attr4         = Charged Attack 0 Seal DMG
-|value4        = 98%–168%
+|value4        = 98–168%
 |attr5         = Charged Attack 1 Seal DMG
-|value5        = 116%–197%
+|value5        = 116–197%
 |attr6         = Charged Attack 2 Seal DMG
-|value6        = 133%–227%
+|value6        = 133–227%
 |attr7         = Charged Attack 3 Seal DMG
-|value7        = 150%–256%
+|value7        = 150–256%
 |attr8         = Charged Attack 4 Seal DMG
-|value8        = 168%–286%
+|value8        = 168–286%
 |attr9         = Charged Attack Stamina Cost
 |value9        = 50
-|attr10        = Scarlet Seal Stamina Consumption Decrease
+|attr10        = Scarlet Seal Stamina Consump&shy;tion Decrease
 |value10       = 15% Per Seal
 |attr11        = Scarlet Seal Duration
 |value11       = 10s
 |attr12        = Plunge DMG
-|value12       = 56.8%–120.3%
+|value12       = 56.8–120.3%
 |attr13        = Low Plunge DMG
-|value13       = 114%–240%
+|value13       = 114–240%
 |attr14        = High Plunge DMG
-|value14       = 142%–300%
+|value14       = 142–300%
 |scale_att1    = ATK
 }}
 '''Seal of Approval''' is [[Yanfei]]'s [[Normal Attack]].
 
 ==Gameplay Notes==
-*{{TalentNote|character=Yanfei|talent=Seal of Approval|ascension|1|Proviso}}
-*{{TalentNote|character=Yanfei|talent=Seal of Approval|ascension|4|Blazing Eye}}
+* When Yanfei executes a Charged Attack, the animation will correspond to the number of Scarlet Seals that she has at the beginning of the attack animation. However, the number of Scarlet Seals consumed depends on how many she has by the end of the attack animation, and this is reflected by a large number that appears on Yanfei's body after the Charged Attack.
+
+;<big>Passive Effects</big>
+* {{TalentNote|character=Yanfei|talent=Seal of Approval|ascension|1|Proviso}}
+* {{TalentNote|character=Yanfei|talent=Seal of Approval|ascension|4|Blazing Eye}}
+
 ;<big>Constellation Effects</big>
-*{{TalentNote|constellation|1|The Law Knows No Kindness}}
-*{{TalentNote|constellation|2|Right of Final Interpretation}}
-*{{TalentNote|constellation|6|Extra Clause}}
+* {{TalentNote|constellation|1|The Law Knows No Kindness}}
+* {{TalentNote|constellation|2|Right of Final Interpretation}}
+* {{TalentNote|constellation|6|Extra Clause}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 10.94
+|impulse = 1
+
+|title2   = Normal Attack 2
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 9.77
+|impulse2 = 1
+
+|title3   = Normal Attack 3
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 14.25
+|impulse3 = 1
+
+|title4   = Charged Attack (0–1 Scarlet Seals)
+|gu4      = 1U
+|icdtag4  = none
+|poise4   = 80
+|impulse4 = 3
+|blunt4   = 1
+
+|title5   = Charged Attack (2 Scarlet Seals)
+|gu5      = 1U
+|icdtag5  = none
+|poise5   = 80
+|impulse5 = 4
+|blunt5   = 1
+
+|title6   = Charged Attack (3–4 Scarlet Seals)
+|gu6      = 1U
+|icdtag6  = none
+|poise6   = 80
+|impulse6 = 5
+|blunt6   = 1
+
+|title7   = Plunging Attack Collision
+|gu7      = 0U
+|icdtag7  = none
+|poise7   = 5
+|impulse7 = 2
+
+|title8   = Low Plunge
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 50
+|impulse8 = 3
+
+|title9   = High Plunge
+|gu9      = 1U
+|icdtag9  = none
+|poise9   = 100
+|impulse9 = 4
+}}
 
 ==Preview==
 {{Preview
@@ -53,7 +121,7 @@
 |caption2 = Charged Attack
 
 |file3    = Seal of Approval Plunge Preview
-|caption3 = Plunge Attack
+|caption3 = Plunging Attack
 }}
 {{Clr}}
 
@@ -63,7 +131,7 @@ Note that for the Charged Attack, the values represent the 0/1/2/3/4 Seal DMG (%
 |talentType=Normal Attack
 |levels=11
 |order=hit1,hit2,hit3,charged_title,charged,stamina,scarletsealstaminaconsumptiondecrease,scarletsealduration,plunge_title,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),Charged Attack,Charged Attack DMG (0-4 Seals) (%),Charged Attack Stamina Cost,Scarlet Seal Stamina Consumption Decrease,Scarlet Seal Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),Charged Attack,Charged Attack DMG (0–4 Seals) (%),Charged Attack Stamina Cost,Scarlet Seal Stamina Consumption Decrease,Scarlet Seal Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=58.34
 |hit1_2=62.72
 |hit1_3=67.09
@@ -150,10 +218,10 @@ Note that for the Charged Attack, the values represent the 0/1/2/3/4 Seal DMG (%
 {{Talent Upgrade|Yanfei}}
 
 ==Trivia==
-*Charged Attacks leave an impression of the seal on the ground &mdash; most noticeable on sand or ice. With more scarlet seals, the mark is stronger. The impression left has been interpreted to be highly stylized version of the Chinese glyphs for 福 (blessing), 椂 or 祿 (prosperity), 商 (business), and 印 (seal or stamp). (See also [[Liyue Language]])
+*Charged Attacks leave an impression of the seal on the ground &mdash; most noticeable on sand or ice. With more scarlet seals, the mark is stronger. The impression left has been interpreted to be highly stylized version of the Chinese glyphs for {{zh|福||blessing,}} {{zh|椂}} or {{zh|祿||prosperity,}} {{zh|商||business,}} and {{zh|印||seal or stamp.}} (See also [[Liyue Language]])
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Talent Signed Edict Stamp.png|Charged Attack's seal on sand
 </gallery>
 
@@ -176,7 +244,7 @@ Talent Signed Edict Stamp.png|Charged Attack's seal on sand
 |fr      = Sceau embrasé
 |fr_tl   = Burning Seal
 |ru      = Печать одобрения
-|ru_tl   = 
+|ru_tl   = Seal of Approval
 |th      = Seal of Approval
 |vi      = Hỏa Ấn
 |vi_tl   = 
@@ -185,6 +253,10 @@ Talent Signed Edict Stamp.png|Charged Attack's seal on sand
 |id      = Seal of Approval
 |pt      = Selo Ardente
 |pt_tl   = Ardent Seal
+|tr      = Tasdik Mührü
+|tr_tl   = 
+|it      = Sigillo d'approvazione
+|it_tl   = Seal of Approval
 }}
 
 ==Change History==
@@ -194,6 +266,8 @@ Talent Signed Edict Stamp.png|Charged Attack's seal on sand
 {{Talent Navbox|Yanfei}}
 
 [[es:Sello ígneo]]
+[[fr:Sceau embrasé]]
 [[pt-br:Selo Ardente]]
-[[vi:Hỏa Ấn]]
+[[ru:Печать одобрения]]
 [[th:Seal of Approval]]
+[[vi:Hỏa Ấn]]

@@ -1,15 +1,26 @@
 {{Enemy Infobox
 |image    = Enemy Hydro Cicin.png
-|element  = Hydro
+|dmgtype  = Hydro
+|weakpoint = no
 |type     = Common Enemies
 |family   = Mystical Beasts
 |group    = Cicins
 |location = Multiple
 }}
-{{Description|Little creatures that can ever so slightly manipulate Hydro.<br />They and other such creatures are known collectively as Cicins, and they truly adore the rare and wonderful Mist Grass plant. It is by exploiting this relationship that the Fatui Mages have sought to commandeer Cicins in battle.|[[Archive]]}}
 {{Enemy Intro}}
+
 ==Drops==
-{{Drops|Cicins}}
+===Items===
+{{Drops Table|type=Cicins}}
+
+===Energy===
+{{Energy Drops
+|type  = Hydro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -21,21 +32,22 @@
 }}
 
 ==Abilities and Attacks==
-*'''Hydro Bolt:''' Fires a bolt at the player, dealing '''100% ATK''' as {{Color|Hydro DMG}}.
-
-===Preview===
-{{Preview
-|size=185px
-|file=Hydro Cicin Bolt
-|caption=Hydro Bolt
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Hydro Bolt
+|desc_1 = Fires a bolt at the player, dealing '''100% ATK''' as {{Color|Hydro DMG}}.
+|file_1 = Hydro Cicin Bolt
 }}
 
 ==Locations==
 Cicins' locations cannot be pinpointed by using the [[Adventurer Handbook]], as there is no entry about them.
 *Hydro Cicins can be found near [[Guyun Stone Forest]].
 
+==Descriptions==
+{{Description|Little creatures that can ever so slightly manipulate Hydro.<br />They and other such creatures are known collectively as Cicins, and they truly adore the rare and wonderful Mist Grass plant. It is by exploiting this relationship that the Fatui Mages have sought to commandeer Cicins in battle.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Hydro Cicin Icon.png|Icon
 </gallery>
 
@@ -67,6 +79,10 @@ Enemy Hydro Cicin Icon.png|Icon
 |id      = Hydro Cicin
 |pt      = Cicin Hydro
 |pt_tl   = Hydro Cicin
+|tr      = Su Cicin
+|tr_tl   = 
+|it      = Cicin di Hydro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -75,6 +91,9 @@ Enemy Hydro Cicin Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Hydro-Cicin]]
 [[es:Cicin Hydro]]
-[[ru:Гидро цицин]]
+[[ja:水蛍]]
 [[pt-br:Cicin Hydro]]
+[[ru:Гидро цицин]]
+[[vi:Cicin Thủy]]

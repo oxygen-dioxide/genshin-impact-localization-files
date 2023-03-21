@@ -1,6 +1,12 @@
 {{Enemy Infobox
 |image    = Enemy Fatui Anemoboxer Vanguard.png
-|element  = Anemo
+|dmgtype  = Physical
+|dmgtype2 = Anemo
+|dmgtype3 = Cryo
+|dmgtype4 = Electro
+|dmgtype5 = Hydro
+|dmgtype6 = Pyro
+|weakpoint = yes
 |type     = Common Enemies
 |family   = Fatui
 |group    = Fatui Skirmishers
@@ -12,50 +18,78 @@
 |ability4 = Interruption Resistance
 |voiceEN  = [https://www.danfostervo.com/ Dan Foster]<ref name="Dan Foster">Twitter: [https://twitter.com/DanFosterVO/status/1355268775608688641 EN VA Self Announcement]</ref>
 }}
-{{Description|A skirmisher armed with the ability to manipulate Anemo and heal their comrades.<br />They departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.<br />&mdash;Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Fatui Skirmishers}}
+===Items===
+{{Drops Table|type=Fatui Skirmishers}}
+
+===Energy===
+{{Energy Drops
+|type  = Anemo
+|hp1   = 66
+|p1    = 2
+|hp2   = 33
+|p2    = 2
+|hp3   = 0
+|p3    = 2
+}}
 
 ==Stats==
 {{Enemy Stats
 |phys_res  = -20%
 |hp_ratio  = 3
 |hp_type   = 1
-|atk_ratio = 2
+|atk_ratio = 6
 }}
 
 ==Abilities and Attacks==
-*'''Interruption Resistance:''' While performing any attacks, the Anemoboxer Vanguard's [[Interruption Resistance]] is greatly increased.
-*'''Punch:''' Performs a powerful punch with their gauntlets, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-*'''Anemo Shield:''' Generates an {{Anemo}} shield in front of them capable of blocking attacks from the direction they're facing. If the shield comes in contact with {{Anemo}}, {{Hydro}}, {{Pyro}}, {{Cryo}} or {{Electro}}, an [[Elemental Absorption]] will occur, after which they immediately lifts the shield while charging up their gloves, [[Vacuum Field|sucking]] players in before punching them and dealing '''300% ATK''' as DMG of the absorbed element. If other enemies are present, the Anemoboxer Vanguard will use this ability next to their allies to protect them.
-*'''Recuperation:''' The Anemoboxer Vanguard will recuperate any nearby Skirmisher that has been stunned from the forced removal of their elemental armor.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Anemoboxer Vanguard
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Anemoboxer Vanguard Punch
-|caption1=Punch
+|name_1 = Interruption Resistance
+|desc_1 = While performing any attacks, the Anemoboxer Vanguard's [[Interruption Resistance]] is greatly increased.
 
-|file2=Anemoboxer Vanguard Anemo Shield Anemo
-|caption2=Anemo Shield {{Color|Anemo}} Absorption
+|name_2 = Hurricane Jab
+|desc_2 = Performs a powerful punch with their gauntlets, dealing '''33.3% ATK''' as {{Color|Physical DMG}}.
 
-|file3=Anemoboxer Vanguard Anemo Shield Pyro
-|caption3=Anemo Shield {{Color|Pyro}} Absorption
+|name_3 = Gathering the Winds
+|desc_3 = Generates an {{Anemo}} shield in front of them capable of blocking attacks from the direction they're facing. If the shield comes in contact with {{Anemo}}, {{Hydro}}, {{Pyro}}, {{Cryo}} or {{Electro}}, an [[Elemental Absorption]] will occur, after which they immediately lifts the shield while charging up their gloves, [[Vacuum Field|sucking]] players in before punching them and dealing '''100% ATK''' as DMG of the absorbed element. If other enemies are present, the Anemoboxer Vanguard will dash over and use this ability next to their allies to protect them.
+|file_3 = Anemoboxer Vanguard Anemo Shield Anemo
+|caption_3 = Anemo Shield {{Color|Anemo}} Absorption
+|file_3_2 = Anemoboxer Vanguard Anemo Shield Pyro
+|caption_3_2 = Anemo Shield {{Color|Pyro}} Absorption
+|file_3_3 = Anemoboxer Vanguard Anemo Shield Hydro
+|caption_3_3 = Anemo Shield {{Color|Hydro}} Absorption
+|file_3_4 = Anemoboxer Vanguard Anemo Shield Electro
+|caption_3_4 = Anemo Shield {{Color|Electro}} Absorption
+|file_3_5 = Anemoboxer Vanguard Anemo Shield Cryo
+|caption_3_5 = Anemo Shield {{Color|Cryo}} Absorption
 
-|file4=Anemoboxer Vanguard Anemo Shield Hydro
-|caption4=Anemo Shield {{Color|Hydro}} Absorption
-
-|file5=Anemoboxer Vanguard Anemo Shield Electro
-|caption5=Anemo Shield {{Color|Electro}} Absorption
-
-|file6=Anemoboxer Vanguard Anemo Shield Cryo
-|caption6=Anemo Shield {{Color|Cryo}} Absorption
-
-|file7=Anemoboxer Vanguard Recuperation
-|caption7=Recuperation
+|name_4 = Galeforce Agitation
+|desc_4 = The Anemoboxer Vanguard will recuperate any nearby Skirmisher that has been stunned from the forced removal of their elemental armor. Most times allowing them to reactivate it quickly.
 }}
+
+===AI Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if all of the following conditions have been met:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+{| class="wikitable"
+! Ability !! Range Req. (m) !! Priority !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int.
+|-
+| Punch || 0–5 || 4 || 5–7.5 || 1 || — || rowspan="10" | 3 || {{check|yes}} || {{check|no}}
+|-
+| Anemo Shield || 0–20 || 2 || 8–13 || 7.5–15 || 15 || {{check|no}} || {{check|no}}
+|-
+| Recuperation || 0–999 || 2 || 10–15 || 7.5–15 || 15 || {{check|no}} || {{check|no}}
+|}
 
 ==Voice-Overs==
 {{VO/Enemy
@@ -63,79 +97,76 @@
 |vo_01_00_title          = Spotting the Player
 |vo_01_01_file           = VO {lang}{name} - Ha Come At Me.ogg
 |vo_01_01_tx_en          = Ha! Come at me!
-|vo_01_01_tx_zhs         = 嘿，来对手了。
-|vo_01_01_tx_zht         = 嘿，來對手了。
+|vo_01_01_tx_zh          = 嘿，来对手了。
 |vo_01_01_tx_ja          = 来たっ！
 |vo_01_01_tx_ko          = 적이다!
 |vo_01_02_file           = VO {lang}{name} - Hah Well Met.ogg
 |vo_01_02_tx_en          = Hah! Well met.
-|vo_01_02_tx_zhs         = 哈哈！来得正好！
-|vo_01_02_tx_zht         = 哈哈！來得正好！
+|vo_01_02_tx_zh          = 哈哈！来得正好！
 |vo_01_02_tx_ja          = はっ！ちょうどいい！
 |vo_01_02_tx_ko          = 하, 마침 잘 왔군!
 
 |vo_02_00_title          = Activating Shield
 |vo_02_01_file           = VO {lang}{name} - Heh I See Through You.ogg
 |vo_02_01_tx_en          = Heh, I see through you!
-|vo_02_01_tx_zhs         = 看穿你了！
-|vo_02_01_tx_zht         = 看穿你了！
+|vo_02_01_tx_zh          = 看穿你了！
 |vo_02_01_tx_ja          = 見抜いた！
 |vo_02_01_tx_ko          = 이런 건 안 통해!
 |vo_02_02_file           = VO {lang}{name} - Hah That All You Got.ogg
 |vo_02_02_tx_en          = Hah, that all you got!?
-|vo_02_02_tx_zhs         = 嘿！就这么点本事吗？
-|vo_02_02_tx_zht         = 嘿！就這麼點本事嗎？
+|vo_02_02_tx_zh          = 嘿！就这么点本事吗？
 |vo_02_02_tx_ja          = は！それだけか！
 |vo_02_02_tx_ko          = 이봐, 고작 이 정도냐?
 
 |vo_03_00_title          = Attacking
 |vo_03_01_file           = VO {lang}{name} - Dont Be A Killjoy Weve Only Just Begun.ogg
 |vo_03_01_tx_en          = Don't be a killjoy, we've only just begun!
-|vo_03_01_tx_zhs         = 才刚刚开始！别扫人兴致！
-|vo_03_01_tx_zht         = 才剛剛開始！別掃人興致！
+|vo_03_01_tx_zh          = 才刚刚开始！别扫人兴致！
 |vo_03_01_tx_ja          = まだ始まったばかりだ！興ざめさせるなよ！
 |vo_03_01_tx_ko          = 이제 시작이야! 김 빠지게 하지 마!
 |vo_03_02_file           = VO {lang}{name} - You Cant Run Well Neither Can I.ogg
 |vo_03_02_tx_en          = You can't run! Well... Neither can I.
-|vo_03_02_tx_zhs         = 你逃不掉了！呃，我也是…
-|vo_03_02_tx_zht         = 你逃不掉了！呃，我也是…
+|vo_03_02_tx_zh          = 你逃不掉了！呃，我也是…
 |vo_03_02_tx_ja          = 逃げられないぞ！えっ、俺もだ…
-|vo_03_02_tx_ko          = 도망칠 수 없을걸! 어.. 나도네...
+|vo_03_02_tx_ko          = 도망칠 수 없을걸! 어… 나도네…
 
 |vo_04_00_title          = Reviving Comrades
 |vo_04_01_file           = VO {lang}{name} - This Isnt Over.ogg
 |vo_04_01_tx_en          = This isn't over!
-|vo_04_01_tx_zhs         = 战斗还没有结束！
-|vo_04_01_tx_zht         = 戰鬥還沒有結束！
+|vo_04_01_tx_zh          = 战斗还没有结束！
 |vo_04_01_tx_ja          = 戦闘はまだ終わってない！
 |vo_04_01_tx_ko          = 전투는 끝나지 않았어!
 |vo_04_02_file           = VO {lang}{name} - Get It Together.ogg
 |vo_04_02_tx_en          = Get it together!
-|vo_04_02_tx_zhs         = 嘿…都给我打起精神来！
-|vo_04_02_tx_zht         = 嘿…都給我打起精神來！
+|vo_04_02_tx_zh          = 嘿…都给我打起精神来！
 |vo_04_02_tx_ja          = 元気出せ！
 |vo_04_02_tx_ko          = 다들 정신 차려!
 
-|vo_05_00_title          = Defeated
-|vo_05_01_file           = VO {lang}{name} - Ugh Looks Like I Went Too Far.ogg
-|vo_05_01_tx_en          = Ugh! Looks like I... went too far...
-|vo_05_01_tx_zhs         = 好像…用力过猛…
-|vo_05_01_tx_zht         = 好像…用力過猛…
-|vo_05_01_tx_ja          = 少し…力を…出しすぎた…
-|vo_05_01_tx_ko          = 너무... 오버 했어...
-|vo_05_02_file           = VO {lang}{name} - Tch I Miscalculated.ogg
-|vo_05_02_tx_en          = Tch! I... miscalculated...
-|vo_05_02_tx_zhs         = 这下…失算了…
-|vo_05_02_tx_zht         = 這下…失算了…
-|vo_05_02_tx_ja          = 誤算が…
-|vo_05_02_tx_ko          = 계산... 착오다...
+|vo_05_00_title          = Staggered
+|vo_05_01_tx_en          = {{A|VO Anemoboxer Vanguard - Staggered 01.ogg}} {{A|VO Anemoboxer Vanguard - Staggered 02.ogg}} {{A|VO Anemoboxer Vanguard - Staggered 03.ogg}} 
+|vo_05_01_tx_zh          = 
+
+|vo_06_00_title          = Defeated
+|vo_06_01_file           = VO {lang}{name} - Ugh Looks Like I Went Too Far.ogg
+|vo_06_01_tx_en          = Ugh! Looks like I... went too far...
+|vo_06_01_tx_zh          = 好像…用力过猛…
+|vo_06_01_tx_ja          = 少し…力を…出しすぎた…
+|vo_06_01_tx_ko          = 너무… 오버 했어…
+|vo_06_02_file           = VO {lang}{name} - Tch I Miscalculated.ogg
+|vo_06_02_tx_en          = Tch! I... miscalculated...
+|vo_06_02_tx_zh          = 这下…失算了…
+|vo_06_02_tx_ja          = 誤算が…
+|vo_06_02_tx_ko          = 계산… 착오다…
 }}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Fatui Skirmisher - Anemoboxer Vanguard}}
 
+==Descriptions==
+{{Description|A skirmisher armed with the ability to manipulate Anemo and heal their comrades.<br />They departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.<br />&mdash;Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Fatui Skirmisher - Anemoboxer Vanguard Icon.png|Icon
 </gallery>
 
@@ -167,6 +198,10 @@ Enemy Fatui Skirmisher - Anemoboxer Vanguard Icon.png|Icon
 |id      = Fatui Skirmisher - Anemoboxer Vanguard
 |pt      = Soldado dos Fatui - Boxeador da Vanguarda Anemo
 |pt_tl   = Fatui Soldier - Anemoboxer Vanguard
+|tr      = Fatui Avcı Eri - Öncü Rüzgar Boksörü
+|tr_tl   = 
+|it      = Schermagliatore dei Fatui Anemopugile d'assalto
+|it_tl   = 
 }}
 
 ==Change History==
@@ -180,4 +215,5 @@ Enemy Fatui Skirmisher - Anemoboxer Vanguard Icon.png|Icon
 
 [[es:Boxeador Anemo de Vanguardia]]
 [[pt-br:Soldado dos Fatui - Boxeador da Vanguarda Anemo]]
+[[th:Anemoboxer Vanguard]]
 [[vi:Quân Tiên Phong Tay Đấm Phong]]

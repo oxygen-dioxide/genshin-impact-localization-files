@@ -8,7 +8,7 @@
 |area         = Lisha
 |subarea      = Lingju Pass
 |requiredAR   = 40
-|recLevel     = 71
+|recLevel     = WL-dependent
 |recElements  = Hydro
 |trial        = Tartaglia
 }}
@@ -17,24 +17,30 @@
 ==Trial Character==
 *{{Icon/Element|Hydro|25}} [[Tartaglia]] joins the party after the initial cutscene.
 {{Trial Character
-|wl                     = 5
+|wl                      = 5, 8
 |character_name          = Tartaglia
+
+<!--WL 5 Stats-->
 |character_level5        = 71
 |constellation5          = 3
+
 |weapon_name             = Polar Star
 |weapon_level5           = 71
 |refinement5             = 1
-|artifact_flower         = Royal Flora
-|artifact_feather        = Royal Plume
-|artifact_sands          = Royal Pocket Watch
-|artifact_goblet         = Royal Silver Urn
-|artifact_circlet        = Royal Masque
+
+|artifact_flower5        = Royal Flora
+|artifact_feather5       = Royal Plume
+|artifact_sands5         = Royal Pocket Watch
+|artifact_goblet5        = Royal Silver Urn
+|artifact_circlet5       = Royal Masque
 |artifact_level5         = 16
-|set1                    = Noblesse Oblige
-|set1_piece_bonus        = 4
+|set1_5                  = Noblesse Oblige
+|set1_piece_bonus_5      = 4
+
 |normal_attack_talent5   = 6
 |elemental_skill_talent5 = 8
 |elemental_burst_talent5 = 5
+
 |hp5                     = 21,011
 |atk5                    = 1,501
 |def5                    = 755
@@ -43,30 +49,62 @@
 |crit_rate5              = 79.1%
 |crit_dmg5               = 91.9%
 |hydro_dmg5              = 21.6%
-}}
 
-==Steps==
+<!-- WL 8 Stats-->
+|character_level8        = 90
+|constellation8          = 3
+
+|weapon_name8            = Polar Star
+|weapon_level8           = 90
+|refinement8             = 1
+
+|artifact_flower8        = Royal Flora
+|artifact_feather8       = Royal Plume
+|artifact_sands8         = Royal Pocket Watch
+|artifact_goblet8        = Royal Silver Urn
+|artifact_circlet8       = Royal Masque
+|artifact_level8         = 20
+|set1_8                  = Noblesse Oblige
+|set1_piece_bonus_8      = 4
+
+|normal_attack_talent8   = 9
+|elemental_skill_talent8 = 11
+|elemental_burst_talent8 = 8
+
+|hp8                     = 27,247
+|atk8                    = 1,977
+|def8                    = 963
+|em8                     = 105
+|crit_rate8              = 90.2%
+|crit_dmg8               = 91.9%
+|er8                     = 135.0%
+|hydro_dmg8              = 28.8%
+}}
+==Walkthrough==
 # Go south and jump down into the lower floor.
-# Go to the eastern end and use Childe's charged shot to activate the Hydro totem. When the water level rises, swim south to get onto the stairs.
-#* There's a Common Chest on a platform at the southern end.
-# Go up the stairs and defeat some Pyro Slimes.
-# Use Childe's charged shots to activate the 3 Hydro totems.
-# Interact with the device to start a cut scene.
-# Go down the stairs to the east and activate the Door of Resurrection. There's a Common Chest right next to it.
-# Go south and east to defeat some Electro Slimes and a Pyro Slime.
-# Go north across the water to start a cut scene.
-#* Defeat the spider to the east of the pool to reveal a room with Pyro Slimes and a Common Chest.
+# Go to the eastern end and use Tartaglia's charged shot to activate the {{Color|Hydro}} [[Elemental Monument]]. When the water level rises, swim south to get onto the stairs.
+#* There is a [[Common Chest]] on a platform at the southern end.
+# Go up the stairs and defeat the enemies. {{Enemy List|Large Pyro Slime*2;Pyro Slime*6}}
+# Use Tartaglia's charged shots to activate the 3 Hydro Elemental Monuments.
+# Interact with the device to start a dialogue scene.
+# Go down the stairs to the east and activate the [[Door of Resurrection]].
+#* There is a [[Common Chest]] right next to it.
+# Go southeast and jump down the platform and defeat the enemies.
+#* Wave 1: {{Enemy List|Large Electro Slime*3}}
+#* Wave 2: {{Enemy List|Large Electro Slime*2;Electro Slime*2;Large Pyro Slime}}
+# Go north across the water to start a dialogue scene.
+#* To the east of the water, there is a [[Common Chest]] covered by a [[Spider]] web and protected by {{Enemy|Large Pyro Slime|x=1|nobr=1}} and {{Enemy|Pyro Slime|x=2|nobr=1}}.
 # Go through the door into a room with lasers.
-# Go pass the first laser when the inactive Ruin Guard is being moved across the laser.
-# Glide east to the platform. There's an Exquisite Chest here.
+# Go pass the first laser when the inactive Ruin Guard is being moved across the laser. Alternatively, the laser can also be dodged across.
+#* Glide east to the platform. There is an [[Exquisite Chest]] here.
 # Wait for another Ruin Guard and go pass the second laser.
 # Glide west back to the other platform.
 # Wait for another Ruin Guard and go pass the third laser.
-# Go down the stairs and use Childe's charged shot to shoot at the Electro device high up on the wall to start a cut scene.
-# Survive the Ruin Guards for 60 seconds to start a cut scene.
-# Go pass the destroyed Ruin Guards to find Childe.
-# Talk to Teucer.
-# Open the Precious Chest in front of the exit.
+# Go down the stairs and use Tartaglia's charged shot to shoot at the Electro device high up on the wall to start a dialogue scene.
+# Survive the {{Enemy|Ruin Guard|text=Ruin Guards|nobr=1}} for 60 seconds to start a cutscene.
+# Go pass the destroyed Ruin Guards to find Tartaglia at the northwest corner.
+# Talk to Teucer to pass him the [[Mr. Cyclops Action Figure]].
+# Open the [[Precious Chest]] in front of the exit.
 
 ==Completion Rewards==
 {{Card|Mora|10,000}}
@@ -75,9 +113,8 @@
 {{Card|Varunada Lazurite Fragment|1}}
 
 ==Notes==
-During the "''Eliminate the Ruin Guard threat''" mission, you are not required to slay all the existing Ruin Guards. All you need to do is to keep you whole party '''AND''' Tartaglia alive within 60 seconds, then the mission will auto-complete itself.
-* Please note that there will also be more Ruin Guards appearing to the arena as the time passed, so be careful and keep close watch to your party's HP.
-* If you wish to eliminate at least one of them, using Tartaglia's Elemental Skill helps generate huge damage to the Ruin Guards.
+* During the "''Eliminate the Ruin Guard threat''" step, it is not required to defeat all the Ruin Guards. However, the party '''and''' Tartaglia must survive for 60 seconds. Otherwise, the step is restarted.
+* There will be additional Ruin Guards appearing in the arena as the time passes.
 
 ==Other Languages==
 {{Other Languages
@@ -98,18 +135,22 @@ During the "''Eliminate the Ruin Guard threat''" mission, you are not required t
 |fr      = Le merveilleux monde des Qu'un-œil
 |fr_tl   = The Wonderful World of {{Lex|Mr. Cyclops|fr}}
 |ru      = Удивительный мир Одноглазика
-|ru_tl   = <!--use {{Lex|Mr. Cyclops|ru}}-->
+|ru_tl   = The Wonderful World of {{Lex|Mr. Cyclops|ru}}
 |th      = "โลกกว้างของเจ้าตาเดียว"
 |th_rm   = 
-|th_tl   = <!--use {{Lex|Mr. Cyclops|th}}-->
+|th_tl   = 
 |vi      = "Thế giới của tiểu bảo một mắt"
-|vi_tl   = <!--use {{Lex|Mr. Cyclops|vi}}-->
+|vi_tl   = 
 |de      = „Die Welt von Kloppi“
 |de_tl   = "The World of {{Lex|Mr. Cyclops|de}}"
 |id      = Dunia Indah si Kecil Bermata Satu
 |id_tl   = The Beautiful World of {{Lex|Mr. Cyclops|id}}
 |pt      = 'O Maravilhoso Mundo de Sr. Ciclope'
 |pt_tl   = The Wonderful World of Mr. Cyclops
+|tr      = Bay Tepegözün Şahane Dünyası
+|tr_tl   = 
+|it      = Il meraviglioso mondo del signor Ciclope
+|it_tl   = 
 }}
 
 ==Change History==
@@ -117,3 +158,5 @@ During the "''Eliminate the Ruin Guard threat''" mission, you are not required t
 
 ==Navigation==
 {{Domain Navbox|Temporary}}
+
+[[es:El Maravilloso Mundo de Sr. Cíclope]]

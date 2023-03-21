@@ -6,8 +6,10 @@
 |actNum        = II
 |act           = For a Tomorrow Without Tears
 |part          = 7
-|description   = [[Venti]]'s plan to steal the Holy Lyre went off without a hitch. Well, almost  when the Lyre was almost in your hands, a stranger stole it from under your noses. Your movements alerted the guards, forcing you to flee the Cathedral.
 |startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |prev          = Venti's New Plan
 |next          = Behind the Scenes
 |exp           = 250
@@ -21,16 +23,20 @@
 ==Steps==
 # Escape the Cathedral
 # Use the wind currents to get far away from the Cathedral
+#* If players do not reach [[Angel's Share]] within the time limit, the quest resets to Step 1. Menus do ''not'' pause the game during this time.
+#* A [[Common Chest]] will spawn on one of the rooftops during the escape.
+#*The time limit is long enough, it's possible to reach the Angel's Share within the time limit by running and dashing.
 # Hide in the tavern
 # Talk to [[Diluc]]
 # Hide on the second floor of the tavern
 # Answer Diluc's questions
 
 ==Achievements==
-* Completing this quest will grant the player the ''[[Wonders of the World]]'' achievement "[[Knights and Their Knotty Issues]]."
+* Completing this quest will grant the player the ''[[Wonders of the World]]'' achievement ''[[Knights and Their Knotty Issues]]''.
 
 ==Dialogue==
-{{dialogue start}}
+{{Quest Description|[[Venti]]'s plan to steal the [[Holy Lyre der Himmel|Holy Lyre]] went off without a hitch. Well, almost &mdash; when the Lyre was almost in your hands, a stranger stole it from under your noses. Your movements alerted the guards, forcing you to flee the [[Mondstadt Cathedral|Cathedral]].}}
+{{Dialogue start}}
 ;(Upon entering the tavern)
 :{{A|vo mdaq049 4 barkeeper 01.ogg}} '''Charles:''' Master Diluc, this is this week's accounts.
 :{{A|vo mdaq049 4 diluc 01.ogg}} '''Diluc:''' Hmm... The disaster has greatly affected business.
@@ -39,7 +45,7 @@
 :{{A|vo mdaq049 4 diluc 02.ogg}} '''Diluc:''' Umm... The second floor has fewer customers. You'd be less conspicuous up there...
 :{{A|vo mdaq049 4 diluc 03.ogg}} '''Diluc:''' But aren't you a bard? Why not sit front and center?
 :{{A|vo mdaq049 4 venti 02.ogg}} '''Venti:''' Hahaha, let's save the paid performance for next time. We'll be heading up now, see you in a bit!
-:;(After Traveler, Paimon and Venti get going)
+:;(After Traveler, Paimon and Venti leave)
 :{{A|vo mdaq049 4 diluc 04.ogg}} '''Diluc:''' Hey, keep an eye on them. There's something strange about that bard. I'll go ask around.
 :{{A|vo mdaq049 4 barkeeper 03.ogg}} '''Charles:''' Ask who exactly?
 :{{A|vo mdaq049 4 diluc 05.ogg}} '''Diluc:''' The "protectors" of Mondstadt...
@@ -49,12 +55,12 @@
 
 ----
 
-;(After hiding upstairs)
+;(After reaching the second floor)
 :{{A|vo mdaq050 6 guard2 01.ogg}} '''Otto:''' Ah, Master Diluc. Have you seen two thieves around?
 :{{A|vo mdaq050 6 diluc 01.ogg}} '''Diluc:''' What happened? Why have you mobilized so many guards?
 :{{A|vo mdaq050 6 guard2 02.ogg}} '''Miles:''' Haven't you heard, Master Diluc? Two thieves were trying to steal the Holy Lyre!
 :{{A|vo mdaq050 6 diluc 02.ogg}} '''Diluc:''' Oh? How odd.
-:{{A|vo mdaq050 6 guard2 03.ogg}} '''Miles:''' Isn't it? The Holy Lyre is a treasure that was played by the God of Anemo themselves. Such a precious piece of cultural heritage–
+:{{A|vo mdaq050 6 guard2 03.ogg}} '''Miles:''' Isn't it? The Holy Lyre is a treasure that was played by the [[Barbatos|God of Anemo]] themselves. Such a precious piece of cultural heritage&mdash;
 :{{A|vo mdaq050 6 diluc 03.ogg}} '''Diluc:''' Why would one want to steal something they can't sell off? Would pay better to steal from my cellars...
 :{{A|vo mdaq050 6 guard2 04.ogg}} '''Otto:''' Huh?
 :{{A|vo mdaq050 6 diluc 04.ogg}} '''Diluc:''' Sorry, off topic. Believe they headed that way.
@@ -102,8 +108,6 @@
 :{{A|vo mdaq050 7 diluc 19.ogg}} '''Diluc:''' Your reward will range from anywhere between five Mora and the Holy Lyre. It all depends on your story.
 :{{A|vo mdaq050 7 venti 15.ogg}} '''Venti:''' Very well. Let me put on a show...
 
-----
-
 :{{Color|menu|You listen to Venti sing the song about the dragon once more...}}
 :(The story I want to tell starts at... the sky dragon heeding his grave calls...)
 :(Brutal battle with the wicked dragon... ingested venomous blood and fell into a slumber... only to awake to be expelled in abhor...)
@@ -130,10 +134,10 @@
 ----
 
 ;(Talk to Venti at the tavern before midnight)
-* {{A|vo dialog mdaq050 venti 01.ogg}} '''Venti:''' The tavern closes {{Color|buzzword|at midnight}}, right? Then I'll have another drink or two... Don't worry, I won't get drunk.
+:{{A|vo dialog mdaq050 venti 01.ogg}} '''Venti:''' The tavern closes {{Color|buzzword|at midnight}}, right? Then I'll have another drink or two... Don't worry, I won't get drunk.
 
 ;(Talk to Diluc at the tavern before midnight)
-* {{A|vo dialog mdaq050 diluc 02.ogg}} '''Diluc:''' Not now. It's still early. The tavern closes {{Color|buzzword|at midnight}}. My contact will be on time.
+:{{A|vo dialog mdaq050 diluc 02.ogg}} '''Diluc:''' Not now. It's still early. The tavern closes {{Color|buzzword|at midnight}}. My contact will be on time.
 {{dialogue end}}
 
 ==Other Languages==
@@ -167,6 +171,10 @@
 |id_tl   = Escape
 |pt      = Fuga Selvagem
 |pt_tl   = Wild Escape
+|tr      = Kaçma Zamanı
+|tr_tl   = 
+|it      = Fuga selvaggia
+|it_tl   = Wild Escape
 }}
 
 ==Change History==
@@ -176,4 +184,6 @@
 {{Archon Quest Navbox|chapter=Prologue}}
 [[Category:Archon Prologue]]
 
+[[es:Un escape apresurado]]
+[[fr:La fuite]]
 [[pt-br:Fuga Selvagem]]

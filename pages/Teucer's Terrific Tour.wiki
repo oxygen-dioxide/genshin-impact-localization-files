@@ -6,14 +6,16 @@
 |act           = Mighty Cyclops' Adventure!
 |character     = Tartaglia
 |part          = 2
-|description   = The Snezhnayan boy that you met by chance while investigating the [[Ruin Guard]]s turned out to be [[Childe]]'s younger brother [[Teucer]]. Childe requests that you keep his "identity"  a secret and that you give the boy a tour of Liyue.
 |startLocation = [[Liyue Harbor]], [[Liyue]]
+|region        = Liyue
+|area          = Sea of Clouds
+|subarea       = Liyue Harbor
 |prev          = Across the Sea
 |next          = Defender of Childhood Dreams
 |exp           = 625
 |mora          = 38,100
 |other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
-|characters    = Chef Mao; Tartaglia; Felix; Granny Shan; Paimon; Slick Wu; Slippery Wu; Teucer; Traveler; Uncle Gao
+|characters    = Chef Mao; Tartaglia; Felix; Granny Shan; Paimon; Slick Wu; Slippery Wu; Sneaky Wu; Teucer; Traveler; Uncle Gao
 |voiced        = yes
 }}
 '''Teucer's Terrific Tour''' is the second part of [[Tartaglia]]'s [[Story Quest]] [[Monoceros Caeli Chapter]]: Act I - [[Mighty Cyclops' Adventure!]].
@@ -24,47 +26,55 @@
 #Bring Teucer to [[Wanmin Restaurant]]
 #Talk to Teucer
 #Bring Teucer to the wharf
-#Talk to Teucer
-#Talk to Teucer
-#Talk to Teucer
+#* [[Co-Op Mode]] is disabled from this step onwards
+#Talk to Teucer<!--anchor-->
+#Talk to Teucer<!--fish stall-->
+#Talk to Teucer<!--boat-->
 #Bring Teucer to where [[Childe]] is
 #Complete the [[Treasure Hoarder]]'s test by obtaining the treasure
 #*Claim the treasure within 80 seconds
 ##''(If you fail the challenge)'' Talk to [[Slippery Wu]] and attempt to obtain the treasure again
 #Talk to the member of the Treasure Hoarders
 #Go to Childe's location to look for Teucer
-#Defeat all the [[Fatui/Enemies|Fatui]] recruits
+#Defeat all the [[Fatui]] recruits
+#* Wave 1: {{Enemy List|Fatui Skirmisher - Electrohammer Vanguard; Fatui Skirmisher - Pyroslinger Bracer; Fatui Skirmisher - Cryogunner Legionnaire}}
+#* Wave 2: {{Enemy List|Fatui Skirmisher - Anemoboxer Vanguard; Fatui Skirmisher - Pyroslinger Bracer; Fatui Skirmisher - Hydrogunner Legionnaire}}
 
-==Notes==
-*[[Co-Op Mode]] is locked between Steps 5–8.
-*If the quest [[Home Lies Over the Ocean]] is active, complete the delivery of the letter to be able to bring Teucer to the wharf.
-*Based on player testing, the lowest amounts a player can negotiate for is roughly:
-**'''[[Granny Shan]]:''' ~8,000 Mora
-** '''[[Chef Mao]]:''' ~8,000 Mora
-** Note: The lowest amount a player can haggle varies, so there may be some variation in the above values.
-*After haggling, the player may keep the remaining Mora given by Childe. This bag of Mora can be exchanged for regular Mora with [[Ekaterina]].
+==Gameplay Notes==
+*If the World Quest ''[[Home Lies Over the Ocean]]'' is active, complete the delivery of the letter to be able to bring Teucer to the wharf.
+* There is some randomness involved with the negotiation. Acceptable values may vary.
+** The lowest amount that can be negotiated for is roughly:
+*** '''[[Granny Shan]]:''' ~8,000 Mora
+*** '''[[Chef Mao]]:''' ~8,000 Mora
+** After haggling, the player may keep the remaining Mora given by Childe. This bag of Mora can be exchanged for regular Mora with [[Ekaterina]].
 
 ==Trial Character==
-*If Childe is not already in your party, he will be added as a Trial Character during the Treasure Hoarder challenge and the sparring match against the Fatui recruits.
+*If Childe is not already in the party, he will be added as a Trial Character during the Treasure Hoarder challenge and the sparring match against the Fatui recruits.
 {{Trial Character
-|wl                     = 5
+|wl                      = 5, 8
 |character_name          = Tartaglia
+
+<!--WL 5 Stats-->
 |character_level5        = 71
 |constellation5          = 3
+
 |weapon_name             = Polar Star
 |weapon_level5           = 71
 |refinement5             = 1
-|artifact_flower         = Royal Flora
-|artifact_feather        = Royal Plume
-|artifact_sands          = Royal Pocket Watch
-|artifact_goblet         = Royal Silver Urn
-|artifact_circlet        = Royal Masque
+
+|artifact_flower5        = Royal Flora
+|artifact_feather5       = Royal Plume
+|artifact_sands5         = Royal Pocket Watch
+|artifact_goblet5        = Royal Silver Urn
+|artifact_circlet5       = Royal Masque
 |artifact_level5         = 16
-|set1                    = Noblesse Oblige
-|set1_piece_bonus        = 4
+|set1_5                  = Noblesse Oblige
+|set1_piece_bonus_5      = 4
+
 |normal_attack_talent5   = 6
 |elemental_skill_talent5 = 8
 |elemental_burst_talent5 = 5
+
 |hp5                     = 21,011
 |atk5                    = 1,501
 |def5                    = 755
@@ -72,26 +82,55 @@
 |er5                     = 135.0%
 |crit_rate5              = 79.1%
 |crit_dmg5               = 91.9%
+|hydro_dmg5              = 21.6%
+
+<!-- WL 8 Stats-->
+|character_level8        = 90
+|constellation8          = 3
+
+|weapon_name8            = Polar Star
+|weapon_level8           = 90
+|refinement8             = 1
+
+|artifact_flower8        = Royal Flora
+|artifact_feather8       = Royal Plume
+|artifact_sands8         = Royal Pocket Watch
+|artifact_goblet8        = Royal Silver Urn
+|artifact_circlet8       = Royal Masque
+|artifact_level8         = 20
+|set1_8                  = Noblesse Oblige
+|set1_piece_bonus_8      = 4
+
+|normal_attack_talent8   = 9
+|elemental_skill_talent8 = 11
+|elemental_burst_talent8 = 8
+
+|hp8                     = 27,247
+|atk8                    = 1,977
+|def8                    = 963
+|em8                     = 105
+|crit_rate8              = 90.2%
+|crit_dmg8               = 91.9%
+|er8                     = 135.0%
+|hydro_dmg8              = 28.8%
 }}
 
-==Idle Quotes==
-* "What a big metal hook!" (Teucer)
-
 ==Dialogue==
+{{Quest Description|The Snezhnayan boy that you met by chance while investigating the [[Ruin Guard]]s turned out to be [[Childe]]'s younger brother [[Teucer]]. Childe requests that you keep his "identity"  a secret and that you give the boy a tour of Liyue.}}
 {{Dialogue start}}
-;(Outside the Northland Bank)
+;(Leave the Northland Bank)
 :{{A|vo gzlq002 1 paimon 01.ogg}} '''Paimon:''' Looks like we'll be hanging out with Childe's kid brother for a while...
 :{{A|vo gzlq002 1 teucer 01.ogg}} '''Teucer:''' So, so, so where are we going to play first?
 :{{A|vo gzlq002 1 paimon 02.ogg}} '''Paimon:''' Um... how about we start with the {{Color|buzzword|toy store}}?
 
 ----
-;(At the toy store)
+;(Approach the toy store)
 :{{A|vo gzlq002 1 teucer 02.ogg}} '''Teucer:''' Eh? What are those super-colorful winged things?
 :{{A|vo gzlq002 1 paimon 03.ogg}} '''Paimon:''' They're called kites. The kids in Liyue love them!
-:{{A|vo gzlq002 1 grannyshan 01.ogg}} '''Granny Shan:''' Hello there, dear! You look like you've come a very long way. Let granny guess &mdash; from what you're wearing, I would say... Snezhnaya?
+:{{A|vo gzlq002 1 grannyshan 01.ogg}} '''Granny Shan:''' Hello there, dear! You look like you've come a very long way. Let granny guess &mdash; from what you're wearing, I would say... [[Snezhnaya]]?
 :{{A|vo gzlq002 1 teucer 03.ogg}} '''Teucer:''' Hee-hee, that's right. How do you play with these kite things, Granny?
 :{{A|vo gzlq002 1 grannyshan 02.ogg}} '''Granny Shan:''' When the wind picks up, you let out the string, and whoosh! The kite will fly into the air, up, up and away!
-:{{A|vo gzlq002 1 teucer 04.ogg}} '''Teucer:''' Wow... that's amazing. Do you have any Mr. Cyclops ones?
+:{{A|vo gzlq002 1 teucer 04.ogg}} '''Teucer:''' Wow... That's amazing. Do you have any Mr. Cyclops ones?
 :{{A|vo gzlq002 1 grannyshan 03.ogg}} '''Granny Shan:''' Mr. Cyclops...? I'm sorry, I&mdash;
 :{{A|vo gzlq002 1 teucer 05.ogg}} '''Teucer:''' I wanna fly Mr. Cyclops high into the sky so all the kids can get to know him!
 :{{A|vo gzlq002 1 grannyshan 04.ogg}} '''Granny Shan:''' Well, I can do custom builds, but I'll need some amount of reference material...
@@ -104,29 +143,36 @@
 :{{DIcon}} You think we should pocket the change?
 ::{{A|vo gzlq002 1 paimon 06b.ogg}} '''Paimon:''' Eh-heh, your words not mine! But yes, we're on the same page here.
 :{{A|vo gzlq002 1 paimon 07.ogg}} '''Paimon:''' Either way... it's time to talk prices!
-;(Opens the bartering menu)
-:;(If the full price is paid)
+:;(Opens the bartering menu; a mood gauge appears starting at a random value around 4.25 Hearts)
+
+;(If the price is higher than acceptable)
 ::{{A|vo gzlq002 1 grannyshan 06.ogg}} '''Granny Shan:''' This price is fair. Well then, I'll get that custom order done for you.
 ::{{A|vo gzlq002 1 paimon 08a.ogg}} '''Paimon:''' Hee-hee, thanks, Granny!
 ::{{A|vo gzlq002 1 grannyshan 07a.ogg}} '''Granny Shan:''' Worry not, just leave it to me.
-:;(If the price is right)
+:;(Go to next section)
+;(If the price is acceptable)
 ::{{A|vo gzlq002 1 grannyshan 07b 1.ogg}} '''Granny Shan:''' *sigh* Fine, fine. I've neither the time nor energy to bargain with you at my age. I suppose this price will do.
 ::{{A|vo gzlq002 1 paimon 08b.ogg}} '''Paimon:''' Hee-hee, thanks, Granny!
 ::{{A|vo gzlq002 1 grannyshan 07b 2.ogg}} '''Granny Shan:''' Worry not, just leave it to me.
-:;(If the price is too low)
+:;(Go to next section)
+;(If the price is too low)
 ::{{A|vo gzlq002 1 grannyshan 07c.ogg}} '''Granny Shan:''' Hmm, this price is a little too low...
-:;(If the price is far too low)
+:;(Continue bartering)
+;(If the price is very low)
 ::{{A|vo gzlq002 1 grannyshan 07d.ogg}} '''Granny Shan:''' No, that won't do... This amount won't even pay for the materials...
-:;(If bartering is unsuccessful)
+:;(Continue bartering)
+;(If bartering is unsuccessful)
 ::{{A|vo gzlq002 1 grannyshan 07e 1.ogg}} '''Granny Shan:''' Children, children, I do hope you're not trying to make a mockery of me.
 ::{{A|vo gzlq002 1 grannyshan 07e 2.ogg}} '''Granny Shan:''' I'll stick to my price, and not a Mora less... If you seriously want this custom build, then I would hope you can be serious about the price.
 ::{{A|vo gzlq002 1 paimon 08e.ogg}} '''Paimon:''' Sorry, Granny! We didn't mean it like that... Alright, Granny, we'll go with your price.
 ::{{A|vo gzlq002 1 grannyshan 07e 3.ogg}} '''Granny Shan:''' That's more like it. Not to worry, now. Just leave it to me.
-
-:{{A|vo gzlq002 4 paimon 01.ogg}} '''Paimon:''' For our next stop... why don't we head to {{Color|buzzword|Wanmin Restaurant}}? It would be a mighty crying shame to come all the way to Liyue and never try the food!
+:;(Continue bartering)
 
 ----
-;(At the Wanmin Restaurant)
+:{{A|vo gzlq002 4 paimon 01.ogg}} '''Paimon:''' For our next stop... why don't we head to {{Color|buzzword|Wanmin Restaurant}}? It would be a mighty crying shame to come all the way to Liyue and never try the food!<!--vo file split only for other languages-->
+
+----
+;(Approach Wanmin Restaurant)
 :{{A|vo gzlq002 5 chefmao 01.ogg}} '''Chef Mao:''' Hello! Welcome! Table for three?
 :{{A|vo gzlq002 5 teucer 01.ogg}} '''Teucer:''' Whew, this restaurant has a really... choking smell...
 :{{A|vo gzlq002 5 chefmao 02.ogg}} '''Chef Mao:''' A "choking smell"? You must be referring to our signature spicy chili scent.
@@ -144,27 +190,34 @@
 :{{A|vo gzlq002 5 paimon 06.ogg}} '''Paimon:''' Then we'll leave it to you Chef Mao. We will be eating here after all.
 :{{A|vo gzlq002 5 teucer 04.ogg}} '''Teucer:''' Sure!
 :{{A|vo gzlq002 5 chefmao 07.ogg}} '''Chef Mao:''' But let me say this first: special requests are going to cost you more than normal.
-:{{A|vo gzlq002 5 chefmao 08.ogg}} '''Chef Mao:''' Of course, we aren't going to demand prices anywhere near as exorbitant as the likes of Liuli Pavilion or Xinyue Kiosk.
+:{{A|vo gzlq002 5 chefmao 08.ogg}} '''Chef Mao:''' Of course, we aren't going to demand prices anywhere near as exorbitant as the likes of [[Liuli Pavilion]] or [[Xinyue Kiosk]].
 :{{A|vo gzlq002 5 paimon 07.ogg}} '''Paimon:''' Is it just Paimon, or are premium custom orders in fashion lately?
 :{{A|vo gzlq002 5 paimon 08.ogg}} '''Paimon:''' Still... Hehe... Surely there must be a little room for negotiation, right?
-;(Opens the bartering menu)
-:;(If the full price is paid)
+:;(Opens the bartering menu; a mood gauge appears starting at a random value around 4.25 Hearts)
+
+;(If the price is higher than acceptable)
 ::{{A|vo gzlq002 5 chefmao 09a 1.ogg}} '''Chef Mao:''' Done. I'll go prepare the food then.
 ::{{A|vo gzlq002 5 paimon 09a.ogg}} '''Paimon:''' Great! It's time for a nice meal!
 ::{{A|vo gzlq002 5 chefmao 09a 2.ogg}} '''Chef Mao:''' Please sit wherever you like. Your food will be with you shortly.
-:;(If the price is right)
+:;(Go to next section)
+;(If the price is acceptable)
 ::{{A|vo gzlq002 5 chefmao 09b 1.ogg}} '''Chef Mao:''' Ah, you folks... *sigh* Let's go with this, then. Any more haggling, and we'll ruin the other customers' appetites.
 ::{{A|vo gzlq002 5 paimon 09b.ogg}} '''Paimon:''' Hehe. Thanks, Chef Mao!
 ::{{A|vo gzlq002 5 chefmao 09b 2.ogg}} '''Chef Mao:''' Please sit wherever you like. Your food will be with you shortly.
-:;(If the price is too low)
+:;(Go to next section)
+;(If the price is too low)
 ::{{A|vo gzlq002 5 chefmao 09c.ogg}} '''Chef Mao:''' That seems a bit on the low side... You do realize these dishes will be prepared specially to your requirements, don't you?
-:;(If the price is far too low)
+:;(Continue bartering)
+;(If the price is far too low)
 ::{{A|vo gzlq002 5 chefmao 09d.ogg}} '''Chef Mao:''' Hey now, come on. I can barely cover the cost of the ingredients at that price.
-:;(If bartering is unsuccessful)
+:;(Continue bartering)
+;(If bartering is unsuccessful)
 ::{{A|vo gzlq002 5 chefmao 09e 1.ogg}} '''Chef Mao:''' *sigh* All this haggling and wrangling... At this rate, everyone's appetite will be ruined.
 ::{{A|vo gzlq002 5 chefmao 09e 2.ogg}} '''Chef Mao:''' I won't argue with you any further. You can take my price, or you can take your order elsewhere.
 ::{{A|vo gzlq002 5 paimon 09e.ogg}} '''Paimon:''' Um, we're sorry, Chef Mao. We didn't mean to make you mad. We'll pay what you asked - all this bargaining's made us hungry too.
 ::{{A|vo gzlq002 5 chefmao 09e 3.ogg}} '''Chef Mao:''' Ha, now that's better! Go find a place to sit. Your food will be with you shortly.
+:;(Go to next section)
+----
 
 :'''''You enjoyed a great meal in Wanmin Restaurant'''''
 
@@ -176,7 +229,7 @@
 :{{A|vo gzlq002 5 paimon 13.ogg}} '''Paimon:''' Good idea. The hustle and bustle at the wharf is a specialty of Liyue Harbor too.
 
 ----
-;(Arrive at the wharf)
+;(Approach the wharf)
 :{{A|vo gzlq002 7 teucer 01.ogg}} '''Teucer:''' Wow, this place is huge! And there's so many people!
 :{{A|vo gzlq002 7 teucer 02.ogg}} '''Teucer:''' Are the waves here always like this? Don't they ever freeze?
 :{{A|vo gzlq002 7 paimon 01.ogg}} '''Paimon:''' Uh, given Liyue's climate, the area around the harbor's mouth probably never gets cold enough to freeze.
@@ -195,8 +248,10 @@
 :;(Teucer runs to the anchor)
 :{{A|vo gzlq002 7 paimon 09.ogg}} '''Paimon:''' Wait, Teucer, don't run off!
 :{{A|vo gzlq002 7 paimon 10.ogg}} '''Paimon:''' Ugh, after all that, he wasn't even listening!
-----
-;(Talk to Teucer at the anchor)
+
+:'''Teucer:''' What a big metal hook!<!--overworld speech bubble while Teucer runs to the anchor-->
+
+;(Approach Teucer at the anchor)
 :{{A|vo gzlq002 9 teucer 01.ogg}} '''Teucer:''' That metal hook is huge! And it gets bigger the closer we get!
 :{{A|vo gzlq002 9 paimon 01.ogg}} '''Paimon:''' This is an anchor. Docked ships use it to hold themselves in position, to stop the wind and waves from blowing them away.
 :{{A|vo gzlq002 9 teucer 02.ogg}} '''Teucer:''' Hmm, an anchor... Got it.
@@ -214,8 +269,7 @@
 :;(Teucer runs to the fish stall)
 :{{A|vo gzlq002 9 paimon 05.ogg}} '''Paimon:''' Hey! Quit! Running! Off!
 
-----
-;(Talking to Teucer at the fish stall)
+;(Approach Teucer at the fish stall)
 :{{A|vo gzlq002 11 teucer 01.ogg}} '''Teucer:''' Is this where they sell fish? Wow, the fish here in Liyue are so... small.
 :{{A|vo gzlq002 11 unclegao 01.ogg}} '''[[Uncle Gao]]:''' Hey! Whose fish are you calling small? Little kids shouldn't go around ruining others' business.
 :{{A|vo gzlq002 11 paimon 01.ogg}} '''Paimon:''' He's just a curious kid... No need to get worked up...
@@ -231,11 +285,10 @@
 :{{DIcon}} Sounds like a topic that would interest [[Xiangling]]...
 :{{DIcon}} Your brother spoils you too much.
 ::{{A|vo gzlq002 11 teucer 06b.ogg}} '''Teucer:''' Hee-hee...
-:{{A|vo gzlq002 11 teucer 07a.ogg}} {{A|vo gzlq002 11 teucer 07b.ogg}} '''Teucer:''' Hey, (Mr. Nice Guy/Ms. Nice Lady), let's go over there to see the boats!
-;(Teucer runs to see the boats)
+:{{A|vo gzlq002 11 teucer 07a.ogg}} {{A|vo gzlq002 11 teucer 07b.ogg}} '''Teucer:''' Hey, {{MC|Mr. Nice Guy|Ms. Nice Lady|mc=1}}, let's go over there to see the boats!
+:;(Teucer runs to see the boats)
 
-----
-;(Talk to Teucer as he looks at the boat)
+;(Approach Teucer as he looks at the boat)
 :{{A|vo gzlq002 12 teucer 01.ogg}} '''Teucer:''' ...
 :{{A|vo gzlq002 12 paimon 01.ogg}} '''Paimon:''' What's wrong, Teucer? Are you tired? You don't seem so happy.
 :{{A|vo gzlq002 12 teucer 02.ogg}} '''Teucer:''' I miss my brother...
@@ -249,7 +302,8 @@
 :{{A|vo gzlq002 12 paimon 05.ogg}} '''Paimon:''' Childe said that he'd be by {{Color|buzzword|the river near Qingxu Pool}}. Why don't we look for him there?
 :{{A|vo gzlq002 12 teucer 05.ogg}} '''Teucer:''' Yay! Let's go, let's go!
 
-===Find Childe===
+----
+;(Approach Childe)
 :{{A|vo gzlq002 14 paimon 01.ogg}} '''Paimon:''' Found him! There's Childe!
 :{{A|vo gzlq002 14 paimon 02.ogg}} '''Paimon:''' Wait, he's talking to... the Treasure Hoarders?
 :{{A|vo gzlq002 14 tartaglia 01.ogg}} '''Childe:''' You know what I'm here for, I trust?
@@ -294,13 +348,13 @@
 :{{A|vo dialog gzlq002 slickwu 01.ogg}} '''Slick Wu:''' As long as I'm watching, he's not getting away with the treasure!
 
 ;(If the time challenge is abandoned or failed)
-:'''''Quest Failed - Treasure not claimed in time'''''
+:'''Quest Failed - Treasure not claimed in time'''<!--all input is disabled; mid-air characters will fall to death-->
 :;(Talk to Slippery Wu again)
 :{{A|vo gzlq002 14 slipperywu 11.ogg}} '''Slippery Wu:''' The loot's on the {{Color|buzzword|opposite cliff}}. We're gonna hang back here and watch the show...
 :{{A|vo gzlq002 14 tartaglia 11.ogg}} '''Childe:''' No problem. Don't blink, though, or you might miss it.
 ----
 ;(After opening the Treasure Chest)
-:'''''Childe returns to the Treasure Hoarders with the treasure in hand'''''
+:'''Childe returns to the Treasure Hoarders with the treasure in hand'''
 
 :{{A|vo gzlq002 16 tartaglia 01.ogg}} '''Childe:''' Well, I have the goods. Here you go. So, how'd I do? Pretty well, I'd say.
 :{{A|vo gzlq002 16 slickwu 01.ogg}} '''Slick Wu:''' B&mdash;Brother... What do we do? This fellow isn't normal...
@@ -340,13 +394,14 @@
 :{{A|vo gzlq002 16 teucer 02.ogg}} '''Teucer:''' Do you have to keep working?
 :{{A|vo gzlq002 16 tartaglia 08.ogg}} '''Childe:''' Yes, Teucer. We have a group of new toy sellers fresh in from the motherland, and I need to go teach them the ropes.
 :{{A|vo gzlq002 16 teucer 03.ogg}} '''Teucer:''' Wow, that's great! When I grow up, I wanna be a toy seller too! Can I go listen?
-:{{A|vo gzlq002 16 tartaglia 08a.ogg}}<!--{{A|vo gzlq002 16 tartaglia 08b.ogg}}--> '''Childe:''' Hmm... I'm afraid you're still too young, Teucer. I'm not sure if you'd understand much of it, and most of it's rather boring, anyhow. Why don't you go play with the Traveler (guy/lady) instead? Sound good?
+:{{A|vo gzlq002 16 tartaglia 08a.ogg}}<!--{{A|vo gzlq002 16 tartaglia 08b.ogg}}--> '''Childe:''' Hmm... I'm afraid you're still too young, Teucer. I'm not sure if you'd understand much of it, and most of it's rather boring, anyhow. Why don't you go play with the Traveler {{MC|guy|lady|mc=1}} instead? Sound good?
 :{{DIcon}} You're dumping him on us, again?
 :{{DIcon}} No.
 ::{{A|vo gzlq002 16 tartaglia 09b.ogg}} '''Childe:''' Please. I'll compensate you...
 :{{A|vo gzlq002 16 teucer 04.ogg}} '''Teucer:''' But... But...
 :{{A|vo gzlq002 16 tartaglia 10.ogg}} '''Childe:''' I really do have to go now, Teucer. A lot of people are waiting to see me.
 :{{A|vo gzlq002 16 tartaglia 11.ogg}} '''Childe:''' I'll see you around, alright?
+:;(Childe and Felix leave)
 :{{A|vo gzlq002 16 teucer 05.ogg}} '''Teucer:''' ...
 :{{A|vo gzlq002 16 paimon 01.ogg}} '''Paimon:''' Childe really dotes on his brother, but now he's gotta ditch him again. Must be a really tough job...
 :{{DIcon}} I think that covering it up is the tough part.
@@ -366,6 +421,7 @@
 :{{A|vo gzlq002 16 paimon 08.ogg}} '''Paimon:''' Either way, let's head over there first!
 
 ----
+;(Approach Childe and the Fatui)
 :{{A|vo gzlq002 18 paimon 01.ogg}} '''Paimon:''' Teucer! So you did come here!
 :{{DIcon}} Don't you ever run off like that again, young man!
 :{{DIcon}} Your brother would have been worried sick.
@@ -400,7 +456,7 @@
 :{{A|vo gzlq002 18 tartaglia 17.ogg}} '''Childe:''' Now, come at me, you lot.
 
 ----
-;(After the sparring practice)
+;(After defeating the Fatui)
 :{{A|vo gzlq002 19 tartaglia 01.ogg}} '''Childe:''' Well then. Do you all understand what I said earlier?
 :{{A|vo gzlq002 19 fatuuisoldier 01.ogg}} '''Fatui Recruits:''' Yes, sir!
 :{{A|vo gzlq002 19 tartaglia 02.ogg}} '''Childe:''' Excellent. And, you all almost managed to get me limbered up.
@@ -410,9 +466,10 @@
 :{{A|vo gzlq002 19 tartaglia 05.ogg}} '''Childe:''' Alright, hush now.
 :{{A|vo gzlq002 19 tartaglia 06.ogg}} '''Childe:''' Now, then. I wish you all glorious victory &mdash; for Snezhnaya, for Her Majesty the Tsaritsa, and for yourselves.
 :{{A|vo gzlq002 19 tartaglia 07.ogg}} '''Childe:''' Dismissed!
+:;(The Fatui leave)
 :{{A|vo gzlq002 19 teucer 01.ogg}} '''Teucer:''' Brother! You were amazing!
 :{{A|vo gzlq002 19 tartaglia 08.ogg}} '''Childe:''' Oh, Teucer! What in the world are you doing here?
-:{{A|vo gzlq002 19 tartaglia 09.ogg}} '''Childe:''' There I was thinking that the Traveler had taken you to play at Wangshu Inn, haha!
+:{{A|vo gzlq002 19 tartaglia 09.ogg}} '''Childe:''' There I was thinking that the Traveler had taken you to play at [[Wangshu Inn]], haha!
 :{{A|vo gzlq002 19 paimon 01.ogg}} '''Paimon:''' Yikes, that's some terrible acting.
 :{{DIcon}} You really did get stronger.
 :{{DIcon}} That was a good showing.
@@ -423,7 +480,7 @@
 :{{DIcon}} Didn't see your black armor anywhere.
 ::{{A|vo gzlq002 19 tartaglia 12b.ogg}} '''Childe:''' Haha. You must mean my Foul Legacy Transformation.
 :{{A|vo gzlq002 19 tartaglia 13.ogg}} '''Childe:''' It puts a great strain on my body, so it's best saved for crucial moments.
-:{{A|vo gzlq002 19 tartaglia 14.ogg}} '''Childe:''' I still haven't fully recovered from the injuries I suffered when I used it at the Golden House.
+:{{A|vo gzlq002 19 tartaglia 14.ogg}} '''Childe:''' I still haven't fully recovered from the injuries I suffered when I used it at the [[Golden House]].
 :{{A|vo gzlq002 19 tartaglia 15.ogg}} '''Childe:''' Anyway, I'm no [[Signora]] &mdash; I don't use lethal force against recruits, come on now...
 :{{A|vo gzlq002 19 teucer 02.ogg}} '''Teucer:''' The Foul Legacy Transformation? Does it make you stronger than Mr. Cyclops?
 :{{A|vo gzlq002 19 paimon 02.ogg}} '''Paimon:''' You could say that.
@@ -441,7 +498,7 @@
 :{{DIcon}} Protecting family is an admirable motivation.
 :{{A|vo gzlq002 19 tartaglia 21.ogg}} '''Childe:''' You've had a nice long time here in Liyue, haven't you, Teucer? Isn't it about time that you took the boat back home?
 :{{A|vo gzlq002 19 teucer 07.ogg}} '''Teucer:''' But, but... but you've been so busy, and we didn't get any time to play together yet...
-:{{A|vo gzlq002 19 tartaglia 22a.ogg}}<!--{{A|vo gzlq002 19 tartaglia 22b.ogg}}--> '''Childe:''' Teucer, you know I'm very busy at work... And hasn't it been fun traveling all over the place with (him/her), a proper traveler?
+:{{A|vo gzlq002 19 tartaglia 22a.ogg}}<!--{{A|vo gzlq002 19 tartaglia 22b.ogg}}--> '''Childe:''' Teucer, you know I'm very busy at work... And hasn't it been fun traveling all over the place with {{MC|him|her|mc=1}}, a proper traveler?
 :{{A|vo gzlq002 19 paimon 04.ogg}} '''Paimon:''' (He's just worried he won't be able to keep up the toy seller act forever...)
 :{{A|vo gzlq002 19 teucer 08.ogg}} '''Teucer:''' W&mdash;Well, how about this? If you just do one little thing for me, I'll be a good boy and go back home!
 :{{A|vo gzlq002 19 tartaglia 23.ogg}} '''Childe:''' Oh dear, who taught this little devil to bargain... *chuckle* Alright. What'll it be?
@@ -470,28 +527,32 @@
 |zht_rm  = Tuōkè de Líyuè Jiànwén Lù
 |zh_tl   = Record of Teucer's Experiences in Liyue
 |ja      = テウセルの璃月見聞録
-|ja_rm   = Teuseru no Riiyue Kenbunroku{{Assumed}}
+|ja_rm   = Teuseru no Riiywe Kenbunroku{{Assumed}}
 |ja_tl   = Teucer's Liyue Experience Record
 |ko      = 테우세르의 리월 견문록
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Teusereu-ui Riwol Gyeonmunrok
+|ko_tl   = Teucer's Liyue Travelog
 |es      = El increíble tour de Teucer
-|es_tl   = 
+|es_tl   = Teucer's Incredible Tour
 |fr      = L'incroyable visite de Teucer
 |fr_tl   = The Incredible Visit of Teucer
 |ru      = Невероятные приключения Тевкра в Ли Юэ
 |ru_tl   = Teucer's Incredible Adventures in Liyue
 |th      = ประสบการณ์ใน Liyue ของ Teucer
-|th_rm   = 
-|th_tl   = 
+|th_rm   = Pra-sop-kan nai Liyue khong Tuecer
+|th_tl   = Teucer's Liyue Experience
 |vi      = Chuyến du lịch Liyue của Teucer
-|vi_tl   = 
+|vi_tl   = Teucer's Liyue Tour
 |de      = Teucers tolle Tour
 |de_tl   = Teucer's Great Tour
 |id      = Tur Hebat Teucer
 |id_tl   = Teucer's Great Tour
 |pt      = A Maravilhosa Tour de Teucer
-|pt_tl   = 
+|pt_tl   = Teucer's Wonderful Tour
+|tr      = Teucer'ın Harika Gezisi
+|tr_tl   = 
+|it      = Il tremendo tour di Teucer
+|it_tl   = 
 }}
 
 ==Change History==

@@ -6,288 +6,195 @@
 }}
 {{Community}}
 
-Some analyses and predictions use the data from Genshin Data Gathering.<ref>Genshin Data Gathering Team: [https://docs.google.com/spreadsheets/d/1RcuniapqS6nOP05OCH0ui10Vo3bWu0AvFbhgcHzTybY Drop Rates]</ref> Drop Mean of Guaranteed Part and Drop Mean in Reward Tier 18 data is taken from GitHub.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/ExcelBinOutput/RewardPreviewExcelConfigData.json Drop Means]</ref>
-
 ==Weapon Ascension Materials==
-===Distribution===
-<div style="overflow-x:auto;">
+===Overall Distribution===
 {| class="wikitable"
-! Adventure Rank !! 2-Star !! 3-Star !! 4-Star !! 5-Star !! Total !! Total Mean Equivalent to 2-Star
+! rowspan="2" | Domain Level !! colspan="2" | {{Icon/Stars|2}} !! colspan="2" | {{Icon/Stars|3}} !! colspan="2" | {{Icon/Stars|4}} !! colspan="2" | {{Icon/Stars|5}}
 |-
-| 16 || 4.7 || - || - || - || 4.7 || 4.7
+! Range !! Avg. !! Range !! Avg. !! Range !! Avg. !! Range !! Avg.
 |-
-| 21 || 2.7 || 2 || - || - || 4.7 || 8.7
+| I || 4–6 || 4.7 || colspan="2" | &mdash; || colspan="2" | &mdash; || colspan="2" | &mdash;
 |-
-| 30 || 2.26 || 2.76 || 0.24 || - || 5.26 || 12.7
+| II || 2–3 || 2.7 || colspan="2" | 2 || colspan="2" | &mdash; || colspan="2" | &mdash;
 |-
-| 40 || 2.2 || 2.418 || 0.62 || 0.062 || 5.3 || 16.708
+| III || 2–3 || 2.26 || 0–3 || 2.76 || 0–3 || 0.24 || colspan="2" | &mdash;
+|-
+| IV || 2–3 || 2.2 || 0–4 || 2.418 || 0–4 || 0.62 || 0–4 || 0.062
 |}
-</div>
+Weapon Ascension Material drops are separated into 2 rolls. The first roll is exclusively for 2-Star drops, while the second roll drops 2–4 "drop packs" depending on the domain level, each including an additional drop of a random rarity, with the distribution of rarities also varying based on the domain level.
 
-===Guaranteed Part===
+===2-Star Roll===
 {| class="wikitable"
-! Adventure Rank !! Mean
+! Domain Level !! Mean
 |-
-| 16 || 2.2
+| I || 2.2
 |-
-| 21 || 2.7
+| II || 2.7
 |-
-| 30 || 2.26
+| III || 2.26
 |-
-| 40 || 2.2
-|}
-
-===Variable Part===
-<math>\text{Drop Mean}_\text{Rarity} = \text{Mean}_\text{Variable Part} \times \text{Weight}_\text{Rarity}</math>
-====Mean====
-{| class="wikitable"
-! Adventure Rank !! Mean
-|-
-| 16 || 2.5
-|-
-| 21 || 2
-|-
-| 30 || 3
-|-
-| 40 || 3.1
+| IV || 2.2
 |}
 
-====Weight====
+===Drop Pack Roll===
+====Drop Mean of Packs====
 {| class="wikitable"
-! Adventure Rank !! 2-Star !! 3-Star !! 4-Star !! 5-Star
+! Domain Level !! Mean
 |-
-| 16 || 1 || - || - || -
+| I || 2.5
 |-
-| 21 || - || 1 || - || -
+| II || 2
 |-
-| 30 || - || 0.92 || 0.08 || -
+| III || 3
 |-
-| 40 || - || 0.78 || 0.2 || 0.02
+| IV || 3.1
 |}
 
-==Talent Level-Up Books==
-===Distribution===
-<div style="overflow-x:auto;">
+====Drop Pack Item Distribution====
 {| class="wikitable"
-! Adventure Rank !! 2-Star !! 3-Star !! 4-Star !! Total Mean !! Total Mean Equivalent to 2-Star
+! Domain Level !! {{Icon/Stars|2}} !! {{Icon/Stars|3}} !! {{Icon/Stars|4}} !! {{Icon/Stars|5}}
 |-
-| 27 || 3.2 || - || - || 3.2 || 3.2
+| I || 100% || - || - || -
 |-
-| 28 || 2.5 || 1 || - || 3.5 || 5.5
+| II || - || 100% || - || -
 |-
-| 36 || 1.8 || 2 || - || 3.8 || 7.8
+| III || - || 92% || 8% || -
 |-
-| 45 || 2.2 || 1.98 || 0.22 || 4.4 || 10.12
-|}
-</div>
-
-===Guaranteed Part===
-{| class="wikitable"
-! Adventure Rank !! Mean
-|-
-| 27 || 2.2
-|-
-| 28 || 2.5
-|-
-| 36 || 1.8
-|-
-| 45 || 2.2
+| IV || - || 78% || 20% || 2%
 |}
 
-===Variable Part===
-<math>\text{Drop Mean}_\text{Rarity} = \text{Mean}_\text{Variable Part} \times \text{Weight}_\text{Rarity}</math>
-====Mean====
+==Talent Books==
+===Overall Distribution===
 {| class="wikitable"
-! Adventure Rank !! Mean
+! rowspan="2" | Domain Level !! colspan="2" | {{Icon/Stars|2}} !! colspan="2" | {{Icon/Stars|3}} !! colspan="2" | {{Icon/Stars|4}}
 |-
-| 27 || 1
+! Range !! Avg. !! Range !! Avg. !! Range !! Avg.
 |-
-| 28 || 1
+| I || 3–4 || 3.2 || colspan="2" | &mdash; || colspan="2" | &mdash;
 |-
-| 36 || 2
+| II || 2–3 || 2.5 || colspan="2" | 1 || colspan="2" | &mdash;
 |-
-| 45 || 2.2
+| III || 1–2 || 1.8 || colspan="2" | 2 || colspan="2" | &mdash;
+|-
+| IV || 2–3 || 2.2 || 0–3 || 1.98 || 0–3 || 0.22
+|}
+Talent Book drops are separated into 2 rolls. The first roll is exclusively for 2-Star drops, while the second roll drops 2–4 "drop packs" depending on the domain level, each including an additional drop of a random rarity, with the distribution of rarities also varying depending on the domain level.
+
+===2-Star Roll===
+{| class="wikitable"
+! Domain Level !! Mean
+|-
+| I || 2.2
+|-
+| II || 2.5
+|-
+| III || 1.8
+|-
+| IV || 2.2
 |}
 
-====Weight====
+===Drop Pack Roll===
+====Drop Mean of Packs====
 {| class="wikitable"
-! Adventure Rank !! 2-Star !! 3-Star !! 4-Star
+! Domain Level !! Mean
 |-
-| 27 || 1 || - || -
+| I || 1
 |-
-| 28 || - || 1 || -
+| II || 1
 |-
-| 36 || - || 1 || -
+| III || 2
 |-
-| 45 || - || 0.9 || 0.1
+| IV || 2.2
 |}
 
-==Ascension Gems==
-===Major Distribution===
+====Drop Pack Rarity Distribution====
+{| class="wikitable"
+! Domain Level !! {{Icon/Stars|2}} !! {{Icon/Stars|3}} !! {{Icon/Stars|4}}
+|-
+| I || 100% || - || -
+|-
+| II || - || 100% || -
+|-
+| III || - || 100% || -
+|-
+| IV || - || 90% || 10%
+|}
+
+==Ascension Gems from Bosses==
+===Overall Distribution===
+Ascension Gems drops from bosses are separated into 2 rolls. The first roll is exclusively for 3-Star drops, while the second roll drops several "drop packs" depending on the enemy level, each including an additional drop of a random rarity, with the distribution of rarities also varying based on the enemy level.
+
 ====Normal Bosses====
 <div style="overflow-x:auto;">
 {| class="wikitable"
-! World Level !! Enemy Level !! 2-Star !! 3-Star !! 4-Star !! 5-Star !! Total !! Total Mean Equivalent to 2-Star
+! rowspan="2" | World Level !! ! rowspan="2" | Enemy Level !! colspan="2" | {{Icon/Stars|2}} !! colspan="2" | {{Icon/Stars|3}} !! colspan="2" | {{Icon/Stars|4}} !! colspan="2" | {{Icon/Stars|5}}
 |-
-| 0 || 36 || 2.1057 ||  ||  ||  || 2.1057 || 2.1057
+! Range !! Avg. !! Range !! Avg. !! Range !! Avg. !! Range !! Avg.
 |-
-| 1 || 37 || 2.1057 ||  ||  ||  || 2.1057 || 2.1057
+| 0 || 36 || 2–3 || 2.1057 || — || — || — || — || — || —
 |-
-| 2 || 41 || 1.0323 || 1.2954 ||  ||  || 2.3277 || 4.9185
+| 1 || 37 || 2–3 || 2.1057 || — || — || — || — || — || —
 |-
-| 3 || 50 || 1.2579 || 1.3554 ||  ||  || 2.6133 || 5.3241
+| 2 || 41 || 0–2 || 1.0323 || 1–4 || 1.2954 || — || — || — || —
 |-
-| 4 || 62 || 1.4835 || 1.4157 || 0.0990 ||  || 2.9982 || 6.6216
+| 3 || 50 || 0–2 || 1.2579 || 1–4 || 1.3554 || — || — || — || —
 |-
-| 5 || 72 || 1.7091 || 1.4757 || 0.1140 ||  || 3.2988 || 7.1622
+| 4 || 62 || 0–2 || 1.4835 || 1–4 || 1.4157 || 0–2 || 0.099 || — || —
 |-
-| 6 || 83 || 1.9354 || 1.5358 || 0.1287 || 0.0129 || 3.6129 || 8.049854658
+| 5 || 72 || 0–3 || 1.7091 || 1–5 || 1.4757 || 0–3 || 0.114 || — || —
 |-
-| 7 || 91 || 2.1607 || 1.5961 || 0.1440 || 0.0141 || 3.915 || 8.626153607
+| 6 || 83 || 0–3 || 1.9354 || 1–5 || 1.5358 || 0–3 || 0.1287 || 0–3 || 0.0129
 |-
-| 8 || 93 || 2.1607 || 1.5961 || 0.1440 || 0.0141 || 3.915 || 8.626153607
+| 7 || 91 || 0–3 || 2.1607 || 1–5 || 1.5961 || 0–3 || 0.144 || 0–3 || 0.0141
+|-
+| 8 || 93 || 0–3 || 2.1607 || 1–5 || 1.5961 || 0–3 || 0.144 || 0–3 || 0.0141
 |}
 </div>
 
 ====Weekly Bosses====
 <div style="overflow-x:auto;">
 {| class="wikitable"
-! World Level !! Enemy Level !! 2 Star !! 3-Star !! 4-Star !! 5-Star !! Total !! Total Mean Equivalent to 2-Star
+! rowspan="2" | World Level !! ! rowspan="2" | Enemy Level !! colspan="2" | {{Icon/Stars|2}} !! colspan="2" | {{Icon/Stars|3}} !! colspan="2" | {{Icon/Stars|4}} !! colspan="2" | {{Icon/Stars|5}}
 |-
-| 1 || 39 || 3.1584 ||  ||  ||  || 3.1584 || 3.1584
+! Range !! Avg. !! Range !! Avg. !! Range !! Avg. !! Range !! Avg.
 |-
-| 2 || 42 || 2.1416 || 1.5913 ||  ||  || 3.7329 || 6.915566758
+| 1 || 37 || 3–4 || 3.1584 || — || — || — || — || — || —
 |-
-| 3 || 51 || 2.4803 || 1.6813 ||  ||  || 4.1616 || 7.524254415
+| 2 || 41 || 0–3 || 2.1416 || 1–5 || 1.5913 || — || — || — || —
 |-
-| 4 || 63 || 2.8181 || 1.7717 || 0.1881 ||  || 4.7778 || 9.825635669
+| 3 || 50 || 0–4 || 2.4803 || 1–6 || 1.6813 || — || — || — || —
 |-
-| 5 || 73 || 3.1570 || 1.8617 || 0.2106 ||  || 5.2293 || 10.63740498
+| 4 || 62 || 0–4 || 2.8181 || 1–6 || 1.7717 || 0–4 || 0.1881 || — || —
 |-
-| 6 || 84 || 3.4963 || 1.9518 || 0.2325 || 0.0233 || 5.7039 || 12.07383788
+| 5 || 72 || 0–5 || 3.157 || 1–7 || 1.8617 || 0–5 || 0.2106 || — || —
 |-
-| 7 || 92 || 3.8343 || 2.0423 || 0.2556 || 0.0250 || 6.1572 || 12.93718284
+| 6 || 83 || 0–5 || 3.4963 || 1–7 || 1.9518 || 0–5 || 0.2325 || 0–5 || 0.0233
 |-
-| 8 || 94 || 3.8343 || 2.0423 || 0.2556 || 0.0250 || 6.1572 || 12.93718284
+| 7 || 91 || 0–6 || 3.8343 || 1–8 || 2.0423 || 0–6 || 0.2556 || 0–6 || 0.025
+|-
+| 8 || 93 || 0–6 || 3.8343 || 1–8 || 2.0423 || 0–6 || 0.2556 || 0–6 || 0.025
 |}
 </div>
 
-===Full Distribution===
-====Normal Bosses====
-{| class="wikitable"
-! Enemy Level !! Reward Level !! 2 Star !! 3 Star !! 4 Star !! 5 Star
-|-
-| 1–4 || 0 || 1.3386 ||  ||  || 
-|-
-| 5–9 || 1 || 1.4289 ||  ||  || 
-|-
-| 10–14 || 2 || 1.5417 ||  ||  || 
-|-
-| 15–19 || 3 || 1.6545 ||  ||  || 
-|-
-| 20–24 || 4 || 1.7673 ||  ||  || 
-|-
-| 25–29 || 5 || 1.8801 ||  ||  || 
-|-
-| 30–34 || 6 || 1.9929 ||  ||  || 
-|-
-| 35–39 || 7 || 2.1057 ||  ||  || 
-|-
-| 40–44 || 8 || 1.0323 || 1.2954 ||  || 
-|-
-| 45–49 || 9 || 1.1451 || 1.3254 ||  || 
-|-
-| 50–54 || 10 || 1.2579 || 1.3554 ||  || 
-|-
-| 55–59 || 11 || 1.3707 || 1.3857 ||  || 
-|-
-| 60–64 || 12 || 1.4835 || 1.4157 || 0.0990 || 
-|-
-| 65–69 || 13 || 1.5965 || 1.4458 || 0.1062 || 
-|-
-| 70–74 || 14 || 1.7091 || 1.4757 || 0.1140 || 
-|-
-| 75–79 || 15 || 1.8218 || 1.5061 || 0.1215 || 0.0120
-|-
-| 80–84 || 16 || 1.9354 || 1.5358 || 0.1287 || 0.0129
-|-
-| 85–89 || 17 || 2.0478 || 1.5660 || 0.1365 || 0.0138
-|-
-| 90–92 || 18 || 2.1607 || 1.5961 || 0.1440 || 0.0141
-|-
-| 93–99 || 19 || 2.1607 || 1.5961 || 0.1440 || 0.0141
-|-
-| 100–104 || 20 || 2.1607 || 1.5961 || 0.1440 || 0.0141
-|}
-
-====Weekly Bosses====
-{| class="wikitable"
-! Enemy Level !! Reward Level !! 2 Star !! 3 Star !! 4 Star !! 5 Star
-|-
-| 1–4 || 0 || 2.0079 ||  ||  || 
-|-
-| 5–9 || 1 || 2.1432 ||  ||  || 
-|-
-| 10–14 || 2 || 2.3124 ||  ||  || 
-|-
-| 15–19 || 3 || 2.4816 ||  ||  || 
-|-
-| 20–24 || 4 || 2.6508 ||  ||  || 
-|-
-| 25–29 || 5 || 2.8200 ||  ||  || 
-|-
-| 30–34 || 6 || 2.9892 ||  ||  || 
-|-
-| 35–39 || 7 || 3.1584 ||  ||  || 
-|-
-| 40–44 || 8 || 2.1416 || 1.5913 ||  || 
-|-
-| 45–49 || 9 || 2.3108 || 1.6363 ||  || 
-|-
-| 50–54 || 10 || 2.4803 || 1.6813 ||  || 
-|-
-| 55–59 || 11 || 2.6490 || 1.7268 ||  || 
-|-
-| 60–64 || 12 || 2.8181 || 1.7717 || 0.1881 || 
-|-
-| 65–69 || 13 || 2.9881 || 1.8169 || 0.1988 || 
-|-
-| 70–74 || 14 || 3.1570 || 1.8617 || 0.2106 || 
-|-
-| 75–79 || 15 || 3.3260 || 1.9074 || 0.2218 || 0.0219
-|-
-| 80–84 || 16 || 3.4963 || 1.9518 || 0.2325 || 0.0233
-|-
-| 85–89 || 17 || 3.6642 || 1.9970 || 0.2442 || 0.0247
-|-
-| 90–92 || 18 || 3.8343 || 2.0423 || 0.2556 || 0.0250
-|-
-| 93–99 || 19 || 3.8343 || 2.0423 || 0.2556 || 0.0250
-|-
-| 100–104 || 20 || 3.8343 || 2.0423 || 0.2556 || 0.0250
-|}
-
-===Guaranteed Part===
-Guaranteed Part will only give 3-Star Materials.
-====Mean====
+===3-Star Roll===
 {| class="wikitable"
 ! Enemy Level !! Reward Level !! Normal Boss !! Weekly Boss
 |-
-| 1–4 || 0 ||  || 
+| 1–4 || 0 || — || —
 |-
-| 5–9 || 1 ||  || 
+| 5–9 || 1 || — || —
 |-
-| 10–14 || 2 ||  || 
+| 10–14 || 2 || — || —
 |-
-| 15–19 || 3 ||  || 
+| 15–19 || 3 || — || —
 |-
-| 20–24 || 4 ||  || 
+| 20–24 || 4 || — || —
 |-
-| 25–29 || 5 ||  || 
+| 25–29 || 5 || — || —
 |-
-| 30–34 || 6 ||  || 
+| 30–34 || 6 || — || —
 |-
-| 35–39 || 7 ||  || 
+| 35–39 || 7 || — || —
 |-
 | 40–44 || 8 || 1.02 || 1.02
 |-
@@ -316,9 +223,8 @@ Guaranteed Part will only give 3-Star Materials.
 | 100–104 || 20 || 1.02 || 1.02
 |}
 
-===Variable Part===
-<math>\text{Drop Mean}_\text{Rarity} = \text{Mean}_\text{Variable Part} \times \text{Weight}_\text{Rarity}</math>
-====Mean====
+===Drop Pack Roll===
+====Drop Mean of Packs====
 {| class="wikitable"
 ! Enemy Level !! Reward Level !! Normal Boss !! Weekly Boss
 |-
@@ -365,55 +271,55 @@ Guaranteed Part will only give 3-Star Materials.
 | 100–104 || 20 || 2.895 || 5.1372
 |}
 
-====Weight====
+====Drop Pack Item Distribution====
 {| class="wikitable"
-! Enemy Level !! Reward Level !! 2 Star !! 3 Star !! 4 Star !! 5 Star
+! Enemy Level !! Reward Level !! {{Icon/Stars|2}} !! {{Icon/Stars|3}} !! {{Icon/Stars|4}} !! {{Icon/Stars|5}}
 |-
-| 1–4 || 0 || 1.000 ||  ||  || 
+| 1–4 || 0 || 1 || — || — || —
 |-
-| 5–9 || 1 || 1.000 ||  ||  || 
+| 5–9 || 1 || 1 || — || — || —
 |-
-| 10–14 || 2 || 1.000 ||  ||  || 
+| 10–14 || 2 || 1 || — || — || —
 |-
-| 15–19 || 3 || 1.000 ||  ||  || 
+| 15–19 || 3 || 1 || — || — || —
 |-
-| 20–24 || 4 || 1.000 ||  ||  || 
+| 20–24 || 4 || 1 || — || — || —
 |-
-| 25–29 || 5 || 1.000 ||  ||  || 
+| 25–29 || 5 || 1 || — || — || —
 |-
-| 30–34 || 6 || 1.000 ||  ||  || 
+| 30–34 || 6 || 1 || — || — || —
 |-
-| 35–39 || 7 || 1.000 ||  ||  || 
+| 35–39 || 7 || 1 || — || — || —
 |-
-| 40–44 || 8 || 0.789 || 0.211 ||  || 
+| 40–44 || 8 || 0.789 || 0.211 || — || —
 |-
-| 45–49 || 9 || 0.789 || 0.211 ||  || 
+| 45–49 || 9 || 0.789 || 0.211 || — || —
 |-
-| 50–54 || 10 || 0.789 || 0.211 ||  || 
+| 50–54 || 10 || 0.789 || 0.211 || — || —
 |-
-| 55–59 || 11 || 0.789 || 0.211 ||  || 
+| 55–59 || 11 || 0.789 || 0.211 || — || —
 |-
-| 60–64 || 12 || 0.750 || 0.200 || 0.050 || 
+| 60–64 || 12 || 0.75 || 0.2 || 0.05 || —
 |-
-| 65–69 || 13 || 0.750 || 0.200 || 0.050 || 
+| 65–69 || 13 || 0.75 || 0.2 || 0.05 || —
 |-
-| 70–74 || 14 || 0.750 || 0.200 || 0.050 || 
+| 70–74 || 14 || 0.75 || 0.2 || 0.05 || —
 |-
-| 75–79 || 15 || 0.746 || 0.199 || 0.050 || 0.005
+| 75–79 || 15 || 0.746 || 0.199 || 0.05 || 0.005
 |-
-| 80–84 || 16 || 0.746 || 0.199 || 0.050 || 0.005
+| 80–84 || 16 || 0.746 || 0.199 || 0.05 || 0.005
 |-
-| 85–89 || 17 || 0.746 || 0.199 || 0.050 || 0.005
+| 85–89 || 17 || 0.746 || 0.199 || 0.05 || 0.005
 |-
-| 90–92 || 18 || 0.746 || 0.199 || 0.050 || 0.005
+| 90–92 || 18 || 0.746 || 0.199 || 0.05 || 0.005
 |-
-| 93–99 || 19 || 0.746 || 0.199 || 0.050 || 0.005
+| 93–99 || 19 || 0.746 || 0.199 || 0.05 || 0.005
 |-
-| 100–104 || 20 || 0.746 || 0.199 || 0.050 || 0.005
+| 100–104 || 20 || 0.746 || 0.199 || 0.05 || 0.005
 |}
 
 ==Elite Boss Materials==
-===Major Distribution===
+===Overall Distribution===
 {| class="wikitable"
 ! World Level !! Boss Level !! Reward Tier !! Drop Mean
 |-
@@ -497,7 +403,7 @@ The Ratio for different Enemy Levels:
 
 ==Weekly Talent Level-Up Materials==
 ===Distribution===
-====Major====
+====Overall====
 {| class="wikitable"
 ! World Level !! Enemy Level !! Drop Mean
 |-
@@ -593,17 +499,19 @@ Minerals that can be forge for Enhancement Ores have chances to get extra chunks
 {| class="article-table"
 ! Item !! Chance
 |-
-| Vayuda Turquoise Sliver || 1/6
+| Vayuda Turquoise Sliver || 1/7
 |-
-| Shivada Jade Sliver || 1/6
+| Shivada Jade Sliver || 1/7
 |-
-| Vajrada Amethyst Sliver || 1/6
+| Vajrada Amethyst Sliver || 1/7
 |-
-| Prithiva Topaz Sliver || 1/6
+| Prithiva Topaz Sliver || 1/7
 |-
-| Varunada Lazurite Sliver || 1/6
+| Varunada Lazurite Sliver || 1/7
 |-
-| Agnidus Agate Sliver || 1/6
+| Agnidus Agate Sliver || 1/7
+|-
+| Nagadus Emerald Sliver || 1/7
 |}
 
 ===Enhancement Ores From Daily Commission Rewards===
@@ -699,6 +607,6 @@ There will be 1 roll for types of weapons.
 
 All types of weapons share equal chances, which is 20% each.
 
-==References==
-{{Reflist}}
 [[Category:Game System Subpages]]
+
+[[ja:戦利品システム/素材ドロップ分布]]

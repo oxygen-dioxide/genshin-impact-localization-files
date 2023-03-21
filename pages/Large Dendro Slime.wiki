@@ -4,79 +4,79 @@
 |family   = Elemental Lifeforms
 |group    = Slimes
 |location = [[Mondstadt]]<br />[[Liyue]]
-|element  = Dendro
+|dmgtype  = Physical
+|dmgtype2 = Dendro
+|weakpoint = no
 |ability1 = Invincibility Frames
 |ability2 = Healing
-|ability3 = Summon
+|ability3 = Summoning
 }}
-{{Description|A slime that has undergone ecological changes due to abundant Dendro in its environment.<br />There are some who see it as something similar to the Whopperflowers, hiding its true form to trick and hunt its prey, and some regard it as a slime that has been parasitized by some special plant. From this point of view, might some cultures also see these slimes as having some special medicinal value?|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Slimes}}
+===Items===
+{{Drops Table|type=Slimes (Large)}}
+
+===Energy===
+{{Energy Drops
+|type  = Dendro
+|hp1   = 66
+|p1    = 1
+|hp2   = 33
+|p2    = 1
+|hp3   = 0
+|o3    = 1
+}}
 
 ==Stats==
-{{Enemy Stats|dendro_res=Immune|hp_ratio=2|atk_ratio=1.4|hp_type=1}}
+{{Enemy Stats|dendro_res=Immune|hp_ratio=2|atk_ratio=2.8|hp_type=1}}
 
 ==Abilities and Attacks==
+''Most attack names are unofficial.''
 ===Flower Intact===
-When the large red flower on top of the Large Dendro Slime is intact, it will be inflicted with the {{Dendro}} status at all times. {{Pyro}} can be applied to the slime to cause [[Burning]]. While burning, the slime will stay still and shake to put out the fire, and will be unable to attack.
+{{Enemy Attacks
 
-*'''Ambush:''' Upon targeting the player, the Large Dendro Slime will burrow into the ground, only leaving its large red flower visible. If [[Burning]] is inflicted upon it, it will be forced out of the burrowed state.
-**'''Ambush Leap:''' While in its burrowed state, after the player turns away from it, jumps out of the ground and high into the air before slamming down at the player's location, dealing '''300% ATK''' as {{Color|AoE Physical DMG}}.
-*'''Dendro Slime Summon:''' Spreads 3 seeds that grow into [[Dendro Slime]]s. These summoned slimes do not yield any drops and will disappear after the parent slime is killed. A maximum of 6 summoned Dendro Slimes can exist at a time.
-*'''Poison Field:''' Creates a field around itself which deals '''20% ATK''' as {{Color|Dendro DoT}} to players within it and continuously heals enemies within it (excluding itself).
-*'''Toxic Seeds:''' Shoots 3 seeds which pop into lingering toxic clouds, applying a poison status to any player that passes through them, inflicting the {{Color|Dendro}} status and dealing '''20% ATK''' as {{Color|Dendro DoT}}.
-**If the seeds come in contact with {{Pyro}}, they will explode, dealing '''200% ATK''' as {{Color|AoE Physical DMG}} and causing heavy knockback.
+|desc_1 = When the large red flower on top of the Large Dendro Slime is intact, it will be inflicted with the {{Dendro}} status at all times. {{Pyro}} can be applied to the slime to cause [[Burning]]. While burning, the slime will stay still and shake to put out the fire, and will be unable to attack.
+|file_1 = Large Dendro Slime Burning
+|caption_1 = Burning
 
-====Preview====
-{{Preview
-|size=185px
-|file1=Large Dendro Slime Ambush Leap
-|caption1=Ambush Leap
+|name_2 = Ambush Leap
+|desc_2 = Upon spotting the player, the Large Dendro Slime will burrow into the ground, only leaving its large red flower visible. If [[Burning]] is inflicted upon it, it will be forced out of the burrowed state. While in its burrowed state, after the player turns away from it, jumps out of the ground and high into the air before slamming down at the player's location, dealing '''100% ATK''' as {{Color|AoE Physical DMG}}.
+|strat_2 = If no Pyro attack is available, the player can simply turn away from the slime to end its invincible state.
 
-|file2=Large Dendro Slime Dendro Slime Summon
-|caption2=Dendro Slime Summon
+|name_3 = Dendro Slime Summon
+|desc_3 = Spreads 3 seeds that grow into [[Dendro Slime]]s. These summoned slimes do not yield any drops and will disappear after the parent slime is killed. A maximum of 6 summoned Dendro Slimes can exist at a time.
 
-|file3=Large Dendro Slime Poison Field
-|caption3=Poison Field
+|name_4 = Poison Field
+|desc_4 = Creates a field around itself which deals '''10% ATK''' as {{Color|Dendro DoT}} to players within it and continuously heals enemies within it (excluding itself).
 
-|file4=Large Dendro Slime Toxic Seeds
-|caption4=Toxic Seeds
-
-|file5=Large Dendro Slime Toxic Seeds Explosion
-|caption5=Toxic Seeds (Explosion)
-
-|file6=Large Dendro Slime Burning
-|caption6=Burning
+|name_5 = Toxic Seeds
+|desc_5 = Shoots 3 seeds which pop into lingering toxic clouds, applying a poison status to any player that passes through them, inflicting the {{Color|Dendro}} status and dealing '''10% ATK''' as {{Color|Dendro DoT}}.
+* If the seeds come in contact with {{Pyro}}, they will explode, dealing '''100% ATK''' as {{Color|AoE Physical DMG}} and causing heavy knockback.
+|file_5_2 = Large Dendro Slime Toxic Seeds Explosion
+|caption_5_2 = Toxic Seeds (Explosion)
 }}
 
 ===Flower Destroyed===
-If the Large Dendro Slime burns for a long period of time, its flower will be destroyed, and it will no longer be inflicted with the {{Dendro}} status.
+The Large Dendro Slime's flower can be destroyed with the use of {{Pyro}}, {{Electro}}, or {{Hydro}}, and it will no longer be inflicted with the {{Dendro}} status.
 
-*'''Bump:''' Bumps into the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-*'''Leap:''' Jumps high into the air before slamming down at the player's location, dealing '''300% ATK''' as {{Color|AoE Physical DMG}}.
-** Certain enhanced Large Dendro Slimes, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, have reduced [[Cooldown]] on this attack.
+{{Enemy Attacks
+|name_1 = Bump
+|desc_1 = Bumps into the player, dealing '''50% ATK''' as {{Color|Physical DMG}}.
 
-====Preview====
-{{Preview
-|size=185px
-|file1=Large Dendro Slime Bump
-|caption1=Bump
-
-|file2=Large Dendro Slime Leap
-|caption2=Leap
+|name_2 = Leap
+|desc_2 = Jumps high into the air before slamming down at the player's location, dealing '''100% ATK''' as {{Color|AoE Physical DMG}}.
+* Certain enhanced Large Dendro Slimes, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, have reduced [[Cooldown]] on this attack.
 }}
 
-==Strategy==
-{{Pyro}} is recommended against the Large Dendro Slime, as it can force the slime out of its burrowed state, as well as prevent the slime from attacking while dealing damage over time.
+==Descriptions==
+{{Description|A slime that has undergone ecological changes due to abundant Dendro in its environment.<br />There are some who see it as something similar to the Whopperflowers, hiding its true form to trick and hunt its prey, and some regard it as a slime that has been parasitized by some special plant. From this point of view, might some cultures also see these slimes as having some special medicinal value?|[[Archive]]}}
 
 ==Trivia==
-*The Large Dendro Slime is currently the only enemy capable of dealing {{Color|Dendro DMG}}.
 *The reason why the '''Toxic Seeds''' explode upon contact with {{Pyro}}, is likely because seeds contain trapped gases (the carbon dioxide and oxygen and nutrients packed into the seed), which will be released upon burning, causing a small explosion.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Large Dendro Slime Icon.png|Icon
 </gallery>
 
@@ -95,7 +95,7 @@ Enemy Large Dendro Slime Icon.png|Icon
 |ko_rm   = Geodae Pul Seullaim
 |ko_tl   = Large {{Lex|Dendro|ko}} Slime
 |es      = Slime Gigante Dendro
-|es_tl   = 
+|es_tl   = Giant Dendro Slime
 |fr      = Dendroblob géant
 |fr_tl   = Giant Dendro Blob
 |ru      = Большой Дендро слайм
@@ -107,7 +107,11 @@ Enemy Large Dendro Slime Icon.png|Icon
 |de_tl   = Large Dendro Slime
 |id      = Large Dendro Slime
 |pt      = Grande Slime Dendro
-|pt_tl   = 
+|pt_tl   = Large Dendro Slime
+|tr      = Büyük Doğa Bodurlopu
+|tr_tl   = 
+|it      = Melmoso di Dendro gigante
+|it_tl   = 
 }}
 
 ==Change History==
@@ -116,5 +120,9 @@ Enemy Large Dendro Slime Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Großer Dendro-Schleim]]
 [[es:Slime Gigante Dendro]]
+[[fr:Dendroblob géant]]
+[[ja:大型草スライム]]
 [[pt-br:Grande Slime Dendro]]
+[[zh:大型草史萊姆]]

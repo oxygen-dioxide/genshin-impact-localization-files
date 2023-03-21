@@ -3,14 +3,26 @@
 |type     = Elite Enemies
 |family   = Elemental Lifeforms
 |location = Multiple
-|element  = Anemo
+|dmgtype  = Anemo
+|weakpoint = no
 |ability1 = Vacuum Field
 }}
-{{Description|The corporeal form of extremely high-quality Anemo energies. The formation of an Eye of the Storm indicates that the elemental ley lines of a region are blocked, which has led to siltation. Its reckless, heedless wielding of storms that all but sweeps people off their feet may be due to its nature as a symbol of the world stricken by malaise.|[[Archive]]}}
 {{Enemy Intro|hidegroup=1|name='''Eyes of the Storm'''}}
 
 ==Drops==
-{{Drops|Eye of the Storm}}
+===Items===
+{{Drops Table|type=Eye of the Storm}}
+
+===Energy===
+{{Energy Drops
+|type  = Anemo
+|hp1   = 66
+|o1    = 1
+|hp2   = 33
+|o2    = 1
+|hp3   = 0
+|o3    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -22,52 +34,43 @@
 }}
 
 ==Abilities and Attacks==
-For most of the attacks below, the core will be exposed for a few seconds after the Eye of the Storm uses their attack. Use this opportunity to deal damage to it.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Vacuum Crash
+|desc_1 = Creates a [[Vacuum Field]] that draws the player to the middle of the circle, and then crashes down hard at the center, dealing '''100% ATK''' as {{Color|AoE Anemo DMG}}. After using this ability, it will be stunned temporarily.
 
-In some instances, when its health falls below 20%, it will fall to the ground and cease all offensive retaliation against the player. This leaves it completely vulnerable to all attacks (bar Anemo elemental damage) until its defeat, and makes its effective health only 80% of what appears on the health bar.
+|name_2 = Tornado
+|desc_2 = While in mid-air, the Eye of the Storm charges for a while, and then quickly forms a tornado that charges in a straight line, dealing '''100% ATK''' as {{Color|Anemo DMG}} to players that come in contact.
 
-Strangely, it can occasionally take extremely low (~0.02% of health) damage from an Anemo character.
-
-*'''Vacuum Crash:''' Creates a [[Vacuum Field]] that draws the player to the middle of the circle, and then crashes down hard at the center, dealing '''100% ATK''' as {{Color|AoE Anemo DMG}}. After using this ability, it will be stunned temporarily.
-*'''Tornado:''' While in mid-air, the Eye of the Storm charges for a while, and then quickly forms a tornado that charges in a straight line, dealing '''100% ATK''' as {{Color|Anemo DMG}} to players that come in contact.
-*'''Domain of the Wild Wind:''' Flies high, and starts to channel [[Anemo]] power to the earth, creating a wind wall around it that prevents the player from moving out. After a while, it will deal '''10% ATK''' as {{Color|AoE Anemo DoT}} to grounded players and generate wind currents at random locations. While channeling this ability, it will expose its core, a single hit while exposed will make it fall to the ground.
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Eye of the Storm Vacuum Crash
-|caption1=Vacuum Crash
-
-|file2=Eye of the Storm Tornado
-|caption2=Tornado
-
-|file3=Eye of the Storm Domain of the Wild Wind 1
-|caption3=Domain of the Wild Wind
-
-|file4=Eye of the Storm Domain of the Wild Wind 2
-|caption4=Domain of the Wild Wind (Wind Currents)
+|name_3 = Domain of the Wild Wind
+|desc_3 = Flies high, and starts to channel [[Anemo]] power to the earth, creating a wind barrier around it that prevents the player from moving out and deals '''20% ATK''' {{Color|Anemo DMG}} upon contact. After a while, it will deal '''10% ATK''' as {{Color|AoE Anemo DoT}} to grounded players and generate wind currents at random locations. While channeling this ability, it will expose its core, a single hit while exposed will make it fall to the ground.
+|file_3 = Eye of the Storm Domain of the Wild Wind 1
+|file_3_2 = Eye of the Storm Domain of the Wild Wind 2
+|caption_3_2 = Wind Currents
 }}
 
 ==Strategy==
-*[[Bows|Bow]] and [[Catalysts|Catalyst]] users can allow the player to attack the Eye of the Storm at range and when it is airborne.
+*[[Bow]] and [[Catalyst]] users can allow the player to attack the Eye of the Storm at range and when it is airborne.
 *While the Eye of the Storm is performing '''Domain of the Wild Wind''', attack the Eye of the Storm with a ranged attack in order to immediately interrupt the attack and stun the Eye of the Storm. If no ranged attack is available, the player can use the upwards wind currents generated at random locations to avoid damage, as the attack only deals damage to grounded targets.
 *The Eye of the Storm can be [[Frozen]].
+
+==Descriptions==
+{{Description|The corporeal form of extremely high-quality Anemo energies. The formation of an Eye of the Storm indicates that the elemental ley lines of a region are blocked, which has led to siltation. Its reckless, heedless wielding of storms that all but sweeps people off their feet may be due to its nature as a symbol of the world stricken by malaise.|[[Archive]]}}
 
 ==Trivia==
 *Eyes of the Storm are the only [[Elite Enemies]] that don't drop any ascension materials upon death. Likewise, for reasons unknown, they are not listed in the [[Adventurer Handbook]].
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Eye of the Storm Icon.png|Icon
 Enemy Eye of the Storm.png|Screenshot
 </gallery>
 
 ===Locations===
 '''Eye of the Storm locations cannot be pinpointed on the map as it is not on the [[Adventurer Handbook]].'''
-<gallery hideaddbutton="true" captionalign="center">
-Map Eye of the Storm 1.png|2 Eye of the Storms can be found north of the Minlin [[Statue of The Seven]] on the northern edge of Qingyun Peak
-Map Eye of the Storm 2.png|2 Eye of the Storms can be found north of the Minlin [[Statue of The Seven]] on the northern edge of Mt. Aocang
-Map Eye of the Storm 3.png|1 Eye of the Storm can be found west of the Brightcrown Mountains [[Statue of The Seven]] on the southwestern edge of Stormterror's Lair
+<gallery>
+Eye of the Storm Minlin Locations.png|[[Mt. Aocang]]: 2 Eye of the Storms<br />[[Qingyun Peak]]: 1 Eye of the Storm
+Eye of the Storm Stormterror's Liar Location.png|1 Eye of the Storm  on the southwestern edge of [[Stormterror's Lair]]
 </gallery>
 
 ==Other Languages==
@@ -78,7 +81,7 @@ Map Eye of the Storm 3.png|1 Eye of the Storm can be found west of the Brightcro
 |zht     = 狂風之核
 |zht_rm  = Kuángfēng zhī Hé
 |zh_tl   = Core of the Fierce Wind
-|ja      = {{Lang|mini=1|ja={{Rubi|狂|きょう|風|ふう}}のコア}}
+|ja      = {{ja|{{Rubi|狂|きょう|風|ふう}}のコア}}
 |ja_rm   = Kyoufuu no Koa
 |ja_tl   = Core of the Fierce Wind
 |ko      = 광풍의 핵
@@ -87,7 +90,7 @@ Map Eye of the Storm 3.png|1 Eye of the Storm can be found west of the Brightcro
 |es      = Ojo de la Tormenta
 |es_tl   = Eye of the Storm
 |fr      = Noyau de tempête
-|fr_tl   = Nucleus of Tempest
+|fr_tl   = Storm Core
 |ru      = Глаз бури
 |ru_tl   = Eye of the Storm
 |th      = Eye of the Storm
@@ -98,6 +101,10 @@ Map Eye of the Storm 3.png|1 Eye of the Storm can be found west of the Brightcro
 |id      = Eye of the Storm
 |pt      = Olho da Tempestade
 |pt_tl   = Eye of the Storm
+|tr      = Fırtınanın Gözü
+|tr_tl   = Eye of the Storm
+|it      = Occhio del ciclone
+|it_tl   = 
 }}
 
 ==Change History==
@@ -106,5 +113,11 @@ Map Eye of the Storm 3.png|1 Eye of the Storm can be found west of the Brightcro
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Auge des Sturms]]
 [[es:Ojo de la Tormenta]]
+[[fr:Noyau de tempête]]
+[[ja:狂風のコア]]
 [[pt-br:Olho da Tempestade (Inimigo)]]
+[[ru:Глаз бури (враг)]]
+[[th:Eye of the Storm]]
+[[vi:Mắt Bão]]

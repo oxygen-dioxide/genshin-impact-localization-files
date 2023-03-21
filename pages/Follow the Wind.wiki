@@ -5,15 +5,17 @@
 |actNum        = Prologue
 |act           = Autumn Winds, Scarlet Leaves
 |part          = 3
-|description   = The grand final of the Crux Clash is about to begin, and you will soon meet your opponent. Victory is but one step away...<br /><br />After some delay, it seems that not only is your opponent for the final round a no-show, but that the Masterless Vision has been suddenly stolen. [[Kaedehara Kazuha|Kazuha]] seems to have caught wind of a clue in the matter and formulates a plan to recover the Vision with your help.
 |startLocation = [[Guyun Stone Forest]], [[Liyue]]
+|region        = Liyue
+|area          = Sea of Clouds
+|subarea       = Guyun Stone Forest
 |prev          = The Crux Clash (Quest)
 |next          = Setting Sail
 |exp           = 700
 |primogems     = 60
 |mora          = 34,075
 |other         = {{Card|Guide to Prosperity|2}}{{Card|Guide to Diligence|2}}{{Card|Guide to Gold|2}}{{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}{{Card|The Crux Clash Champion Medal|1}}
-|characters    = Baiwen;Fei the Flyer;Kaedehara Kazuha;Little De;Paimon;Rongjiang;Traveler;Uncle Yun;Xinxiu;Zhuhan
+|characters    = Baiwen;Fei the Flyer;Kaedehara Kazuha;Kazuha's Friend;Kujou Sara;Little De;Paimon;Raiden Shogun;Rongjiang;The Shogun;Traveler;Uncle Yun;Xinxiu;Zhuhan
 |voiced        = yes
 }}
 {{TeyvatQuest|title=Follow the Wind|chapter=2|act=0|part=3}}
@@ -27,8 +29,7 @@
 # Confirm the clues with Kazuha
 # Continue the pursuit
 #* Continue riding the wind to proceed onward (00:30)
-# Defeat the Treasure Hoarders blocking the way
-#* {{Enemy List|Treasure Hoarders: Scout;Treasure Hoarders: Marksman;Treasure Hoarders: Cryo Potioneer|#*}}
+# Defeat the Treasure Hoarders blocking the way {{Enemy List|Treasure Hoarders: Scout;Treasure Hoarders: Marksman;Treasure Hoarders: Cryo Potioneer}}
 # Talk to the Treasure Hoarder who stole the Vision
 # Defeat the Treasure Hoarder
 #* The Treasure Hoarder acts identically similar to [[Raptor]]
@@ -36,9 +37,10 @@
 # Return to the [[Guyun Stone Forest]] arena
 
 ==Achievements==
-* Completing this quest will grant the ''[[Wonders of the World]]'' achievement "[[Autumn Winds, Scarlet Leaves (Achievement)|Autumn Winds, Scarlet Leaves]]."
+* Completing this quest will grant the ''[[Wonders of the World]]'' achievement ''[[Autumn Winds, Scarlet Leaves (Achievement)|Autumn Winds, Scarlet Leaves]]''.
 
 ==Dialogue==
+{{Quest Description|The grand final of the Crux Clash is about to begin, and you will soon meet your opponent. Victory is but one step away...<br /><br />After some delay, it seems that not only is your opponent for the final round a no-show, but that the Masterless Vision has been suddenly stolen. [[Kazuha]] seems to have caught wind of a clue in the matter and formulates a plan to recover the Vision with your help.}}
 {{Dialogue start}}
 ;(Talk to [[Little De]])
 :{{A|vo dialog wylq003 littlede 01.ogg}} '''Little De:''' Your opponent is certainly no pushover, be sure to not underestimate him.
@@ -67,12 +69,12 @@
 :{{A|vo wylq003 7 beidou 03.ogg}} '''Beidou:''' Everyone, listen up. Your attention, please!
 :{{A|vo wylq003 7 beidou 04.ogg}} '''Beidou:''' We've reached the climax of [[The Crux Clash]]. This is the final match!
 :{{A|vo wylq003 7 beidou 05.ogg}} '''Beidou:''' We've seen many exciting battles today, and now, at long last, the two finalists have emerged.
-:{{A|vo wylq003 7 beidou 06a.ogg}} {{A|vo wylq003 7 beidou 06b.ogg}} '''Beidou:''' Now, I'd like to introduce our first combatant. Though few have seen (him/her), (his/her) reputation knows no bounds.
-:{{A|vo wylq003 7 beidou 07a.ogg}} {{A|vo wylq003 7 beidou 07b.ogg}} '''Beidou:''' (He/She) strikes fear into the heart of Osial and the mere mention of (his/her) name causes even Fatui Harbingers to turn pale in the face... Introducing Liyue's traveling hero, (Traveler)!
+:{{A|vo wylq003 7 beidou 06a.ogg}} {{A|vo wylq003 7 beidou 06b.ogg}} '''Beidou:''' Now, I'd like to introduce our first combatant. Though few have seen {{MC|him|her|mc=1}}, {{MC|his|her|mc=1}} reputation knows no bounds.
+:{{A|vo wylq003 7 beidou 07a.ogg}} {{A|vo wylq003 7 beidou 07b.ogg}} '''Beidou:''' {{MC|He|She|mc=1}} strikes fear into the heart of Osial and the mere mention of {{MC|his|her|mc=1}} name causes even Fatui Harbingers to turn pale in the face... Introducing Liyue's traveling hero, (Traveler)!
 <!-- check to see if this line is influenced by the option the Traveler chooses when asked for their achievements-->
 :{{A|vo wylq003 7 competitorb 01.ogg}} '''Clash Competitor:''' Wooooow!!!
 :{{A|vo wylq003 7 competitora 01.ogg}} '''Clash Competitor:''' I've been waiting for this moment!
-:{{A|vo wylq003 7 beidou 08a.ogg}} {{A|vo wylq003 7 beidou 08b.ogg}} '''Beidou:''' I'm sure everyone witnessed (his/her) thrilling match in the semi-finals.
+:{{A|vo wylq003 7 beidou 08a.ogg}} {{A|vo wylq003 7 beidou 08b.ogg}} '''Beidou:''' I'm sure everyone witnessed {{MC|his|her|mc=1}} thrilling match in the semi-finals.
 :{{A|vo wylq003 7 beidou 09.ogg}} '''Beidou:''' But today's final round will surly take things up a notch!
 :{{A|vo wylq003 7 beidou 10.ogg}} '''Beidou:''' As for our other combatant... Uh, he still hasn't arrived.
 :{{A|vo wylq003 7 beidou 11.ogg}} '''Beidou:''' C'mon, what could be taking him so long? You can't just forfeit for not showing up like in previous rounds... This is the finals!
@@ -130,7 +132,7 @@
 :{{A|vo wylq003 15 paimon 02.ogg}} '''Paimon:''' Well then why didn't you stop him!?
 :{{A|vo wylq003 15 kazuha 02.ogg}} '''Kaedehara Kazuha:''' You'll see. Shortly.
 
-;(Tnvestigate the glowing spot)
+;(Investigate the glowing spot)
 :{{A|vo wylq003 16 kazuha 01.ogg}} '''Kaedehara Kazuha:''' The winds are guiding us forward, the culprit is on the opposite shore now.
 :{{A|vo wylq003 16 paimon 01.ogg}} '''Paimon:''' You can hear that, too? ...What does it sound like?
 :{{A|vo wylq003 16 kazuha 02.ogg}} '''Kaedehara Kazuha:''' Hmm...
@@ -292,7 +294,7 @@
 {{Dialogue end}}
 
 ==Cutscene==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Story Teaser- The Solitary Pursuit of Lightning - Genshin Impact
 </gallery>
 
@@ -327,6 +329,10 @@ Story Teaser- The Solitary Pursuit of Lightning - Genshin Impact
 |id_tl   = Where the Wind Leads
 |pt      = Seguindo o Vento
 |pt_tl   = Following the Wind
+|tr      = Rüzgarı Takip Et
+|tr_tl   = 
+|it      = Segui il vento
+|it_tl   = Follow the Wind
 }}
 
 ==Change History==
@@ -335,4 +341,7 @@ Story Teaser- The Solitary Pursuit of Lightning - Genshin Impact
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
 [[Category:Archon Chapter 2]]
+
+[[ja:風に乗って]]
 [[pt-br:Seguindo o Vento]]
+[[ru:По пути ветра]]

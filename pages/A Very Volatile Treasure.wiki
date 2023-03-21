@@ -6,8 +6,10 @@
 |part          = 3
 |act           = True Treasure
 |character     = Klee
-|description   = [[Klee]]'s highly explosive "treasure" proved to be a remarkably swift solution to the Abyss Mage problem. However, she fled the scene after the explosion. Confused, you decide to return to the Knights headquarters and report the matter to [[Jean]]...
 |startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |prev          = The Mystery of the Girl in Red's Treasure
 |exp           = 400
 |mora          = 18,000
@@ -23,12 +25,13 @@
 # Find the door of the confinement room in the Knights' headquarters
 
 ==Dialogue==
-{{dialogue start}}
+{{Quest Description|[[Klee]]'s highly explosive "treasure" proved to be a remarkably swift solution to the Abyss Mage problem. However, she fled the scene after the explosion. Confused, you decide to return to the Knights headquarters and report the matter to [[Jean]]...}}
+{{Dialogue start}}
 ;(Go back to the Knights' headquarters and report to Jean)
 :{{A|vo kllq003 1 paimon 01.ogg}} '''Paimon:''' Klee? You're here too?
 :{{A|vo kllq003 1 klee 01.ogg}} '''Klee:''' I... *sobbing* I turned myself in.
 :{{A|vo kllq003 1 paimon 02.ogg}} '''Paimon:''' ...Huh?
-:{{A|vo kllq003 1 klee 02.ogg}} '''Klee:''' *sobbing* I... M–My bomb... I–I hurt someone...
+:{{A|vo kllq003 1 klee 02.ogg}} '''Klee:''' *sobbing* I... M&mdash;My bomb... I&mdash;I hurt someone...
 :{{A|vo kllq003 1 klee 03.ogg}} '''Klee:''' *sobbing* I broke the rules... I'll never see the light of day again...
 :{{A|vo kllq003 1 qin 01.ogg}} '''Jean:''' Klee, I need you to answer me. You said someone was injured. Where are they?
 :{{DIcon}} Wait! There's been a misunderstanding.
@@ -51,7 +54,7 @@
 :{{A|vo kllq003 1 klee 08.ogg}} '''Klee:''' Ludi Harpastum! Whoa!
 :{{DIcon}} You got very lucky!
 :{{DIcon}} I'm so happy for you!
-:{{A|vo kllq003 1 klee 09a.ogg}} {{A|vo kllq003 1 klee 09b.ogg}} '''Klee:''' (Mr./Miss Honorary Knight), you've gotta come too!
+:{{A|vo kllq003 1 klee 09a.ogg}} {{A|vo kllq003 1 klee 09b.ogg}} '''Klee:''' {{MC|Mr.|Miss|mc=1}} Honorary Knight, you've gotta come too!
 :{{A|vo kllq003 1 paimon 08.ogg}} '''Paimon:''' Woop-de-doo, it's a happy ending!
 :{{A|vo kllq003 1 qin 07.ogg}} '''Jean:''' Except...
 :{{A|vo kllq003 1 paimon 09.ogg}} '''Paimon:''' ...Except what?
@@ -83,7 +86,7 @@
 :{{A|vo kllq003 3 klee 01.ogg}} '''???:''' That's Paimon's voice I hear!
 :{{DIcon}} Need help busting out of this joint?
 :{{DIcon}} Need a bite to eat or anything?
-:{{A|vo kllq003 3 klee 02.ogg}} '''Klee:''' Ooh, ooh, yes, please! Wait – no, I... I can't. Klee needs to be a good girl and think about what she did... Stop tempting me!
+:{{A|vo kllq003 3 klee 02.ogg}} '''Klee:''' Ooh, ooh, yes, please! Wait &mdash; no, I... I can't. Klee needs to be a good girl and think about what she did... Stop tempting me!
 :{{A|vo kllq003 3 klee 03.ogg}} '''Klee:''' Anyway, while I'm grounded, I'm making an extra-special new treasure... the Ludi Harpastum version!
 :{{A|vo kllq003 3 paimon 02.ogg}} '''Paimon:''' When you say "treasure..."
 :{{A|vo kllq003 3 klee 04.ogg}} '''Klee:''' Tee-hee... I made it into the shape of a harpastum and everything! It looks so cute...
@@ -99,7 +102,7 @@
 :{{A|vo dialog kllq003 klee 03.ogg}} '''Klee:''' I've heard that the [[Adventurers' Guild]] has its own set of rules. I wonder if I could get them to...
 :{{A|vo dialog kllq003 paimon 04.ogg}} '''Paimon:''' Yeesh, if [[Cyrus]] was listening to this...
 :{{A|vo dialog kllq003 paimon 05.ogg}} '''Paimon:''' He would be begging Jean to extend Klee's sentence!
-{{dialogue end}}
+{{Dialogue end}}
 
 ==Other Languages==
 {{Other Languages
@@ -113,17 +116,17 @@
 |ja_rm   = "Kishidan no Takaramono"
 |ja_tl   = "Knights' Treasure"
 |ko      = 「기사단의 보물」
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = "Gisadan-ui Bomul"
+|ko_tl   = "Knights' Treasure"
 |es      = El tesoro de los Caballeros de Favonius
 |es_tl   = The Treasure of the Knights of Favonius
 |fr      = Un trésor pas comme les autres
 |fr_tl   = A Treasure Like No Other
 |ru      = «Сокровище» Ордо Фавониус
-|ru_tl   = 
+|ru_tl   = The Knights' of Favonius "Treasure"
 |th      = "สมบัติของกองอัศวิน"
-|th_rm   = 
-|th_tl   = 
+|th_rm   = "Sombat Khong Kong At-sa-win
+|th_tl   = "The Knights' Tressure"
 |vi      = Bảo Vật Của Đội Kỵ Sĩ
 |vi_tl   = 
 |de      = Der Schatz des Ritterordens
@@ -132,6 +135,10 @@
 |id_tl   = Knights of Favonius' "Treasure"
 |pt      = Um Tesouro Muito Volátil
 |pt_tl   = A Very Volatile Treasure
+|tr      = Yanar Döner Bir Hazine
+|tr_tl   = 
+|it      = Un tesoro estremamente volatile
+|it_tl   = 
 }}
 
 ==Change History==

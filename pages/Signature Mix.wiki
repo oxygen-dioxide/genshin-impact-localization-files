@@ -23,8 +23,13 @@
 '''Signature Mix''' is [[Diona]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* {{TalentNote|icd|Skill DMG|2.5|3|Continuous Field DMG}}
+* {{TalentNote|energy frame|49}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|43}}<ref name="Genshin Academy burst info sheet" />
+* Drunken Mist first activates 2s after casting and every 2s afterwards for a total of 6 activations dealing {{Color|Cryo damage}} to opponents and regenerating the HP of characters within its AoE.
+
+;<big>Passive Effects</big>
 * {{TalentNote|ascension|2|Drunkards' Farce|character=Diona|talent=Signature Mix}}
+** Despite what the description states, the ATK decrease is not applied to opponents immediately when they enter the AoE of Drunken Mist created by Signature Mix. Instead it is applied periodically to enemies inside the AoE every time Drunken Mist's damage and healing over time activate.
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|1|A Lingering Flavor}}
@@ -33,6 +38,23 @@
 * {{TalentNote|constellation|6|Cat's Tail Closing Time|buffs characters within the radius of Signature Mix as follows:}}
 ** Characters at or below 50% HP have their Incoming Healing Bonus increased by 30%.
 ** Characters above 50% HP have their [[Elemental Mastery]] increased by 200.
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Skill DMG
+|gu      = 1U
+|icdtag  = Elemental Burst
+|icdtype = 2.5s/3 Hits
+|poise   = 50
+|impulse = 2
+
+|title2   = Continuous Field DMG
+|gu2      = 1U
+|icdtag2  = Elemental Burst DMG
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 50
+|impulse2 = 1
+}}
 
 ==Preview==
 {{Preview
@@ -118,7 +140,7 @@
 |fr      = Cuvée spéciale
 |fr_tl   = Special Vintage
 |ru      = Авторский коктейль
-|ru_tl   = 
+|ru_tl   = Author's Cocktail
 |th      = Signature Mix
 |vi      = Đặc Chế Mãnh Liệt
 |vi_tl   = Intense Specialty
@@ -127,15 +149,24 @@
 |id      = Signature Mix
 |pt      = Coquetel Assassino
 |pt_tl   = 
+|tr      = Özel Karışım
+|tr_tl   = 
+|it      = Miscela d'autore
+|it_tl   = Signature Blend
 }}
 
 ==Change History==
 {{Change History|1.1}}
 
+==References==
+{{Reflist}}
+
 ==Navigation==
 {{Talent Navbox|Diona}}
 
 [[es:Cóctel Asesino]]
+[[fr:Cuvée spéciale]]
 [[pt-br:Coquetel Assassino]]
 [[ru:Авторский коктейль]]
 [[th:Signature Mix]]
+[[vi:Đặc Chế Mãnh Liệt]]

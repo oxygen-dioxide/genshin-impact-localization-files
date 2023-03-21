@@ -4,10 +4,11 @@
 __TOC__
 ==Story==
 {{VO/Story
-|character           = {{ROOTPAGENAME}}
+|character           = Venti
 |language            = ko
 |name                = 벤티
 
+<!-- Hello -->
 |vo_01_01_title      = 첫 만남…
 |vo_01_01_subtitle   = Hello
 |vo_01_01_file       = VO_{language}{character} Hello.ogg
@@ -15,6 +16,7 @@ __TOC__
 |vo_01_01_rm         = 
 |vo_01_01_tl         = 
 
+<!-- Chats -->
 |vo_02_01_title      = 잡담・하프 연주
 |vo_02_01_subtitle   = Chat: Playing the Lyre
 |vo_02_01_file       = VO_{language}{character} Chat - Playing the Lyre.ogg
@@ -36,6 +38,7 @@ __TOC__
 |vo_02_03_rm         = 
 |vo_02_03_tl         = 
 
+<!-- Weather -->
 |vo_03_01_title      = 비가 올 때…
 |vo_03_01_subtitle   = When It Rains
 |vo_03_01_file       = VO_{language}{character} When It Rains.ogg
@@ -64,6 +67,7 @@ __TOC__
 |vo_03_04_rm         = 
 |vo_03_04_tl         = 
 
+<!-- Greetings -->
 |vo_04_01_title      = 아침 인사…
 |vo_04_01_subtitle   = Good Morning
 |vo_04_01_file       = VO_{language}{character} Good Morning.ogg
@@ -92,6 +96,7 @@ __TOC__
 |vo_04_04_rm         = 
 |vo_04_04_tl         = 
 
+<!-- About -->
 |vo_05_01_title      = 벤티 자신에 대해…
 |vo_05_01_subtitle   = About {character}
 |vo_05_01_file       = VO_{language}{character} About {character}.ogg
@@ -99,6 +104,7 @@ __TOC__
 |vo_05_01_rm         = 
 |vo_05_01_tl         = 
 
+<!-- About Us -->
 |vo_06_01_title      = 우리에 대해・신곡
 |vo_06_01_subtitle   = About Us: New Songs
 |vo_06_01_file       = VO_{language}{character} About Us - New Songs.ogg
@@ -108,12 +114,15 @@ __TOC__
 
 |vo_06_02_title      = 우리에 대해・용사
 |vo_06_02_subtitle   = About Us: Heroes
-|vo_06_02_tx         = {{A|VO_{language}{character} About Us - Heroes (Aether).ogg}} {{A|VO_{language}{character} About Us - Heroes (Lumine).ogg}} 아… 아… 음…! 헤헤, 용자가 나타나 (왕자/공주)를 구하면, 당장 전 대륙에 이 노래를 퍼트리겠어
-|vo_06_02_rm         = 
+|vo_06_02_friendship = 6
+|vo_06_02_tx         = {{A|VO KO Venti About Us - Heroes (A).ogg}} {{A|VO KO Venti About Us - Heroes (B).ogg}} 아… 아… 음…! 헤헤, 용자가 나타나 {{MC|공주|왕자}}를 구하면, 당장 전 대륙에 이 노래를 퍼트리겠어
+|vo_06_02_rm         = A... A... Eum...! Hehe, yongjaga natana {{MC|gongju|wangja}}reul guhamyeon, dangjang jeon daeryuge i noraereul peoteurigesseo
 |vo_06_02_tl         = 
 
 |vo_06_03_title      = 우리에 대해・사도
 |vo_06_03_subtitle   = About Us: Apostles
+|vo_06_03_friendship = 6
+|vo_06_03_quest      = Song of the Dragon and Freedom
 |vo_06_03_file       = VO_{language}{character} About Us - Apostles.ogg
 |vo_06_03_tx         = 밤 바람 시원하구나, 신의 사도가 되기 딱 좋은 날씨야! 그럼 늦기 전에 빨리 내게 공양을 바쳐야지?
 |vo_06_03_rm         = 
@@ -121,13 +130,17 @@ __TOC__
 
 |vo_06_04_title      = 우리에 대해・부탁
 |vo_06_04_subtitle   = About Us: Requests
+|vo_06_04_friendship = 6
+|vo_06_04_quest      = Song of the Dragon and Freedom
 |vo_06_04_file       = VO_{language}{character} About Us - Requests.ogg
 |vo_06_04_tx         = 엇, 바람의 신인 내가 더 노력해야 되나? 그럼 너도 성의를 보여봐, 간절하거나 열렬한 사랑, 아니면…
 |vo_06_04_rm         = 
 |vo_06_04_tl         = 
 
+<!-- Miscellany I -->
 |vo_07_01_title      = 「신의 눈」에 대해…
-|vo_07_01_subtitle   = About the Vision
+|vo_07_01_subtitle   = About the [[Vision]]
+|vo_07_01_friendship = 4
 |vo_07_01_file       = VO_{language}{character} About the Vision.ogg
 |vo_07_01_tx         = 응? 내 신의 눈이 궁금해? 흠… 자, 받아. 마음에 들면 똑같은 걸 하나 만들어줄까? 헤헤헤
 |vo_07_01_rm         = 
@@ -147,8 +160,10 @@ __TOC__
 |vo_07_03_rm         = 
 |vo_07_03_tl         = 
 
+<!-- About Teammates -->
 |vo_08_01_title      = 진에 대해…
 |vo_08_01_subtitle   = About [[Jean]]
+|vo_08_01_friendship = 4
 |vo_08_01_file       = VO_{language}{character} About Jean.ogg
 |vo_08_01_tx         = 기사단 단장 대행… 그녀가 어떤 사람이라고 생각해? 헤헤, 내 생각과 같네, 진지하고 용감하면서도 따스하지, 내 친구와 닮았어…
 |vo_08_01_rm         = 
@@ -156,6 +171,7 @@ __TOC__
 
 |vo_08_02_title      = 다이루크에 대해…
 |vo_08_02_subtitle   = About [[Diluc]]
+|vo_08_02_friendship = 4
 |vo_08_02_file       = VO_{language}{character} About Diluc.ogg
 |vo_08_02_tx         = 다이루크 어르신과 좋은 관계가 되고 싶다고? 그 사람 집에는 술이 엄~청~나~게~ 많아! 헤헤헤, 난 술 마시면 안 된다고? 그럼… 가서 냄새만 맡아볼게! 너도 맡아봐, 맡기만 하는 건 괜찮아
 |vo_08_02_rm         = 
@@ -163,6 +179,7 @@ __TOC__
 
 |vo_08_03_title      = 바바라에 대해…
 |vo_08_03_subtitle   = About [[Barbara]]
+|vo_08_03_friendship = 4
 |vo_08_03_file       = VO_{language}{character} About Barbara.ogg
 |vo_08_03_tx         = 노래를 기막히게 하는 프리스트 소녀를 알아? …응, 아이돌? …음, 하이터치회? 올 live? …그렇구나, 음악은 정말 심오해
 |vo_08_03_rm         = 
@@ -170,6 +187,7 @@ __TOC__
 
 |vo_08_04_title      = 레이저에 대해…
 |vo_08_04_subtitle   = About [[Razor]]
+|vo_08_04_friendship = 4
 |vo_08_04_file       = VO_{language}{character} About Razor.ogg
 |vo_08_04_tx         = 그 늑대 영지의 백발 소년, 아아, 그래? 늑대에게 키워졌구나… 어쩐지, 그 아이의 체취가 그립더라니…
 |vo_08_04_rm         = 
@@ -177,6 +195,7 @@ __TOC__
 
 |vo_08_05_title      = 모나에 대해…
 |vo_08_05_subtitle   = About [[Mona]]
+|vo_08_05_friendship = 4
 |vo_08_05_file       = VO_{language}{character} About Mona.ogg
 |vo_08_05_tx         = 아, 그 점성술사? 이렇게 말할게. 점술은 내 시와 마찬가지로 술값도 못 모으는 돈 안 되는 쓸모없는 기술이야. 점성술은 그래도 문화적인 전통이라 쓸모없는 것이 아니라고? 흥, 무례하잖아. 그러면 시도 마찬가지로 유용하다구
 |vo_08_05_rm         = 
@@ -184,6 +203,7 @@ __TOC__
 
 |vo_08_06_title      = 디오나에 대해…
 |vo_08_06_subtitle   = About [[Diona]]
+|vo_08_06_friendship = 4
 |vo_08_06_file       = VO_{language}{character} About Diona.ogg
 |vo_08_06_tx         = 명성이 자자한 캣테일 술집의 술. 하지만…. 으윽, 재, 재채기가. 엣츄! 아니면 가서 술 한잔 사 와. 후하게 사례할게. 정말이야
 |vo_08_06_rm         = 
@@ -191,6 +211,7 @@ __TOC__
 
 |vo_08_07_title      = 알베도에 대해…
 |vo_08_07_subtitle   = About [[Albedo]]
+|vo_08_07_friendship = 4
 |vo_08_07_file       = VO_{language}{character} About Albedo.ogg
 |vo_08_07_tx         = 흑토와 백악, 우주와 지층, 순결한 흙에서 나온 최초의 인간… 특징이 너무 뚜렷해서 차마 지나칠 수 없군. 이렇게 위험하고 오래된 기술이 만에 하나 통제 불능 상태가 된다면&mdash;&mdash;휴우, 됐어, 몬드의 문제는 몬드 사람이 해결해야지
 |vo_08_07_rm         = 
@@ -198,6 +219,8 @@ __TOC__
 
 |vo_08_08_title      = 모락스에 대해…
 |vo_08_08_subtitle   = About [[Morax]]
+|vo_08_08_friendship = 4
+|vo_08_08_quest      = A New Star Approaches
 |vo_08_08_file       = VO_{language}{character} About Morax.ogg
 |vo_08_08_tx         = 너, 그 어르신을 만났어? 그는 요즘 어때? 「종려」라는 이름의 일반인이 됐다고? 그 꼰대에게 그건 엄청난 변화일걸. 위로의 의미로 바람이 시작되는 곳에 묻어둔 이 좋은 술을 가지고 만나러 가자. 아 참 그 사람 아직도 강해? 실력이 얼마 남았어? 이렇게 갔다가 얻어터지진 않겠지?
 |vo_08_08_rm         = 
@@ -205,6 +228,7 @@ __TOC__
 
 |vo_08_09_title      = 유라에 대해…
 |vo_08_09_subtitle   = About [[Eula]]
+|vo_08_09_friendship = 4
 |vo_08_09_file       = VO_{language}{character} About Eula.ogg
 |vo_08_09_tx         = 유라는 술에 대한 센스가 꽤 좋은 편이야. 여름 겨울 불문하고 차가운 걸 마시는 습관은 지금의 몬드에선 아주 드물거든. 헤헤, 그녀와 좋은 술친구가 될 수 있을 것 같아. 응? 내가 로렌스 가문에 대해 만든 노래가… 벌써 유라 귀에 들어갔다고? 하하, 뭐 어때, 같이 부르게 될지도 모르잖아
 |vo_08_09_rm         = 
@@ -212,11 +236,23 @@ __TOC__
 
 |vo_08_10_title      = 바알에 대해…
 |vo_08_10_subtitle   = About [[Raiden Shogun|Baal]]
+|vo_08_10_friendship = 4
+|vo_08_10_quest      = Omnipresence Over Mortals
 |vo_08_10_file       = VO_{language}{character} About Baal.ogg
 |vo_08_10_tx         = 듣자니 너 그 안하무인인 라이덴 쇼군도 이겼다면서? 아… 그녀는 그림자 무사였을 때부터 극강의 무예를 추구했지. 이제 별 이상한 구실을 다 갖다 대면서 너한테 대련을 청할 거야. 음, 그녀의 약점을 귀띔해줄 테니 가까이 와봐——바로 「달달한 간식」이야!
 |vo_08_10_rm         = 
 |vo_08_10_tl         = 
 
+|vo_08_11_title      = 부에르에 대해…
+|vo_08_11_subtitle   = About [[Lesser Lord Kusanali|Buer]]
+|vo_08_11_friendship = 4
+|vo_08_11_quest      = Akasha Pulses, the Kalpa Flame Rises
+|vo_08_11_file       = VO_{language}{character} About Buer.ogg
+|vo_08_11_tx         = 풀의 신이라… 풀의 신 하면 아무래도 「꿈」과 관련된 권능이 먼저 떠오르겠지? 내가 쓴 시처럼 풀의 신이 만든 꿈에도 낭만과 상상이 가득하거든. 나랑 여러모로 잘 맞는다니까
+|vo_08_11_rm         = Purui Sin-ira... Purui Sin hamyeon amuraedo "kkum"-gwa gwanryeondoen gwonneung'i meonjeo tteo'oreugetji? Naega sseun sicheoreom Purui Sin-i mandeun kkumedo nangman'gwa sangsang'i gadeukhageodeun. Na-rang yeoreomoro jal manneundanikka
+|vo_08_11_tl         = 
+
+<!-- More About -->
 |vo_09_01_title      = 벤티에 대해 알기・첫 번째
 |vo_09_01_subtitle   = More About {character}: I
 |vo_09_01_file       = VO_{language}{character} More About {character} - 01.ogg
@@ -226,6 +262,7 @@ __TOC__
 
 |vo_09_02_title      = 벤티에 대해 알기・두 번째
 |vo_09_02_subtitle   = More About {character}: II
+|vo_09_02_friendship = 3
 |vo_09_02_file       = VO_{language}{character} More About {character} - 02.ogg
 |vo_09_02_tx         = 너와 함께하는 여행은 정말 재미난 일이야, 한 가지 흠이 있다면 네 곁의 그 쪼매난 녀석이지. 너무 잘 먹어~ 너희 식비 어마어마하지? 하하
 |vo_09_02_rm         = 
@@ -233,6 +270,7 @@ __TOC__
 
 |vo_09_03_title      = 벤티에 대해 알기・세 번째
 |vo_09_03_subtitle   = More About {character}: III
+|vo_09_03_friendship = 4
 |vo_09_03_file       = VO_{language}{character} More About {character} - 03.ogg
 |vo_09_03_tx         = 불의 신은 제멋대로 날뛰는 전투광이야. 바위의 신은 사람 마음을 모르는 꽉 막힌 놈이고. 그런 걸 어떻게 아냐고? 하하, 서사시에 그들의 이야기가 다 나와있어. 그 시절의 이야기들이 전부
 |vo_09_03_rm         = 
@@ -240,6 +278,7 @@ __TOC__
 
 |vo_09_04_title      = 벤티에 대해 알기・네 번째
 |vo_09_04_subtitle   = More About {character}: IV
+|vo_09_04_friendship = 5
 |vo_09_04_file       = VO_{language}{character} More About {character} - 04.ogg
 |vo_09_04_tx         = 셀레스티아, 나도 그곳까지 날아갈 수 없을지 몰라. 게다가 거기에는 감로수가 없어서 맛난 과일이 열리지 않아, 그러니 술맛은 더욱 별로겠지? 헷, 초대를 해도 가고 싶지 않아
 |vo_09_04_rm         = 
@@ -247,11 +286,13 @@ __TOC__
 
 |vo_09_05_title      = 벤티에 대해 알기・다섯 번째
 |vo_09_05_subtitle   = More About {character}: V
+|vo_09_05_friendship = 6
 |vo_09_05_file       = VO_{language}{character} More About {character} - 05.ogg
 |vo_09_05_tx         = 내 소원? 음, 예전엔 온 세상을 떠돌아다니는 거였어. 지금도 그런데 바람이 하나 더 생겼어. 너와 함께 떠돌고 싶어, 네가 있어야지만 완전해져. 기록하는 사람은 모험가와 함께해야만 완전해지는 법이지, 헤헤헤!
 |vo_09_05_rm         = 
 |vo_09_05_tl         = 
 
+<!-- Miscellany II -->
 |vo_10_01_title      = 벤티의 취미…
 |vo_10_01_subtitle   = {character}'s Hobbies
 |vo_10_01_file       = VO_{language}{character} Hobbies.ogg
@@ -276,31 +317,33 @@ __TOC__
 |vo_10_04_title      = 싫어하는 음식…
 |vo_10_04_subtitle   = Least Favorite Food
 |vo_10_04_file       = VO_{language}{character} Least Favorite Food.ogg
-|vo_10_04_tx         = 뭐 맛난 거 만들고 있는 거야? 엇? 뜨거운 치즈 케익! 이거… 안돼. 뜨겁고 찐득찐득, 너무 느끼해…
+|vo_10_04_tx         = 뭐 맛난 거 만들고 있는 거야? 엇? 뜨거운 치즈 케이크! 이거… 안 돼. 뜨겁고 찐득찐득, 너무 느끼해…
 |vo_10_04_rm         = 
 |vo_10_04_tl         = 
 
-|vo_11_01_title      = 선물 획득·첫 번째
+<!-- Receiving a Gift -->
+|vo_11_01_title      = 선물 획득・첫 번째
 |vo_11_01_subtitle   = Receiving a Gift: I
 |vo_11_01_file       = VO_{language}{character} Receiving a Gift - 01.ogg
 |vo_11_01_tx         = 아, 대만족이야! 내일도 해줄 거지? 모레도 해줄 거지?
 |vo_11_01_rm         = 
 |vo_11_01_tl         = 
 
-|vo_11_02_title      = 선물 획득·두 번째
+|vo_11_02_title      = 선물 획득・두 번째
 |vo_11_02_subtitle   = Receiving a Gift: II
 |vo_11_02_file       = VO_{language}{character} Receiving a Gift - 02.ogg
 |vo_11_02_tx         = 후, 배불러라. 과일도 못 먹겠어…
 |vo_11_02_rm         = 
 |vo_11_02_tl         = 
 
-|vo_11_03_title      = 선물 획득·세 번째
+|vo_11_03_title      = 선물 획득・세 번째
 |vo_11_03_subtitle   = Receiving a Gift: III
 |vo_11_03_file       = VO_{language}{character} Receiving a Gift - 03.ogg
 |vo_11_03_tx         = 나조차도 먹기 힘든 음식이라니. 음… 이것 참 곤란한걸
 |vo_11_03_rm         = 
 |vo_11_03_tl         = 
 
+<!-- Birthday -->
 |vo_12_01_title      = 생일…
 |vo_12_01_subtitle   = Birthday
 |vo_12_01_file       = VO_{language}{character} Birthday.ogg
@@ -308,8 +351,10 @@ __TOC__
 |vo_12_01_rm         = 
 |vo_12_01_tl         = 
 
+<!-- Feelings About Ascension -->
 |vo_13_01_title      = 돌파의 느낌・기
 |vo_13_01_subtitle   = Feelings About Ascension: Intro
+|vo_13_01_ascension  = 1
 |vo_13_01_file       = VO_{language}{character} Feelings About Ascension -  01.ogg
 |vo_13_01_tx         = 우옷! 방금 무슨 일이 일어난 거지?!
 |vo_13_01_rm         = 
@@ -317,6 +362,7 @@ __TOC__
 
 |vo_13_02_title      = 돌파의 느낌・승
 |vo_13_02_subtitle   = Feelings About Ascension: Building Up
+|vo_13_02_ascension  = 2
 |vo_13_02_file       = VO_{language}{character} Feelings About Ascension -  02.ogg
 |vo_13_02_tx         = 수고했어. 음악 좀 들으며 쉴래? 기상곡이 좋아? 아니면 세레나데?
 |vo_13_02_rm         = 
@@ -324,6 +370,7 @@ __TOC__
 
 |vo_13_03_title      = 돌파의 느낌・전
 |vo_13_03_subtitle   = Feelings About Ascension: Climax
+|vo_13_03_ascension  = 4
 |vo_13_03_file       = VO_{language}{character} Feelings About Ascension -  03.ogg
 |vo_13_03_tx         = 자, 여기 앉아. 내가 새로운 시를 썼다고~ 「여행자의 바람」이라는 시야
 |vo_13_03_rm         = 
@@ -331,6 +378,7 @@ __TOC__
 
 |vo_13_04_title      = 돌파의 느낌・결
 |vo_13_04_subtitle   = Feelings About Ascension: Conclusion
+|vo_13_04_ascension  = 6
 |vo_13_04_file       = VO_{language}{character} Feelings About Ascension -  04.ogg
 |vo_13_04_tx         = 아…. 이 풍경들 질리도록 봤는데, 네가 옆에 있으니 또 다르네. 너 기이한 능력을 한 무더기 숨기고 있는 건 아니지…? 음, 그것도 괜찮네. 내가 사람 보는 눈이 정확하다는 거니까, 하하핫
 |vo_13_04_rm         = 
@@ -339,93 +387,98 @@ __TOC__
 
 ==Combat==
 {{Combat VO
-|character           = {{ROOTPAGENAME}}
+|character           = Venti
 |language            = ko
 
 |skill_1_tx          = 와우——
-|skill_1_tl          = 
 |skill_1_rm          = 
+|skill_1_tl          = 
 |skill_2_tx          = 여기야
-|skill_2_tl          = 
 |skill_2_rm          = 
+|skill_2_tl          = 
 |skill_3_tx          = 발 밑을 조심해
-|skill_3_tl          = 
 |skill_3_rm          = 
+|skill_3_tl          = 
 |skill_4_tx          = 함께 놀자
-|skill_4_tl          = 
 |skill_4_rm          = 
+|skill_4_tl          = 
 |skill_5_file        = Elemental Skill 2 01,Elemental Skill 2 02
 
 |burst_1_tx          = 도망갈 생각 마!
-|burst_1_tl          = 
 |burst_1_rm          = 
+|burst_1_tl          = 
 |burst_2_tx          = 바람이 불고 있어!
-|burst_2_tl          = 
 |burst_2_rm          = 
+|burst_2_tl          = 
 
 |sprint-s_1_tx       = 나 빠르지?
-|sprint-s_1_tl       = 
 |sprint-s_1_rm       = 
+|sprint-s_1_tl       = 
 |sprint-s_2_file     = Sprint Start 02,Sprint Start 03,Sprint Start 04
 
-
 |glider_1_tx         = 휘이~
-|glider_1_tl         = 
 |glider_1_rm         = 
+|glider_1_tl         = 
 |glider_2_file       = Deploying Wind Glider 02,Deploying Wind Glider 03,Deploying Wind Glider 04
 
 |chest_1_tx          = 큼큼, 「보물상자의 노래」를 들어봐!
-|chest_1_tl          = 
 |chest_1_rm          = 
+|chest_1_tl          = 
 |chest_2_tx          = 헤헤, 「바람 신의 가호」에 감사 인사를 올리지 않을래?
-|chest_2_tl          = 
 |chest_2_rm          = 
+|chest_2_tl          = 
 |chest_3_tx          = 수확이 엄청나. 술을 잔뜩 바꿀 수 있겠어~
-|chest_3_tl          = 
 |chest_3_rm          = 
+|chest_3_tl          = 
 
 |low-hp_1_tx         = 잠깐, 이건 장난이 아니야!
-|low-hp_1_tl         = 
 |low-hp_1_rm         = 
+|low-hp_1_tl         = 
 |low-hp_2_tx         = 어라라~
-|low-hp_2_tl         = 
 |low-hp_2_rm         = 
+|low-hp_2_tl         = 
 |low-hp_3_tx         = 너무한 거 아냐~
-|low-hp_3_tl         = 
 |low-hp_3_rm         = 
+|low-hp_3_tl         = 
 
+|ally-low-hp_1_tx    = 내게 맡겨
+|ally-low-hp_1_rm    = 
+|ally-low-hp_1_tl    = 
+|ally-low-hp_2_tx    = 아직 포기할 수 없어"
+|ally-low-hp_2_rm    = 
+|ally-low-hp_2_tl    = 
 
 |fallen_1_tx         = 잠깐 눈 좀 붙이자…
-|fallen_1_tl         = 
 |fallen_1_rm         = 
+|fallen_1_tl         = 
 |fallen_2_tx         = 아야, 줄이 끊어졌어…
-|fallen_2_tl         = 
 |fallen_2_rm         = 
+|fallen_2_tl         = 
 |fallen_3_tx         = 으악…
-|fallen_3_tl         = 
 |fallen_3_rm         = 
+|fallen_3_tl         = 
 
 |hit-l_1_file        = Light Hit Taken 02
 |hit-l_1_tx          = 아야…
-|hit-l_1_tl          = 
 |hit-l_1_rm          = 
+|hit-l_1_tl          = 
 |hit-l_2_file        = Light Hit Taken 01,Light Hit Taken 03,Light Hit Taken 04,Light Hit Taken 05,Light Hit Taken 06
 
 |hit-h_1_file        = Heavy Hit Taken 02
 |hit-h_1_tx          = 정말 거칠구나
-|hit-h_1_tl          = 
 |hit-h_1_rm          = 
+|hit-h_1_tl          = 
 |hit-h_2_file        = Heavy Hit Taken 01,Heavy Hit Taken 03,Heavy Hit Taken 04,Heavy Hit Taken 05,Heavy Hit Taken 06
 
 |join_1_tx           = 조율 완료~
-|join_1_tl           = 
 |join_1_rm           = 
+|join_1_tl           = 
 |join_2_tx           = 오래 기다렸지?
-|join_2_tl           = 
 |join_2_rm           = 
+|join_2_tl           = 
 |join_3_tx           = 몸 풀 준비는 됐어?
-|join_3_tl           = 
 |join_3_rm           = 
+|join_3_tl           = 
 
 |atk-l_1_file        = Light Attack 01,Light Attack 02,Light Attack 03,Light Attack 04,Light Attack 05,Light Attack 06,Light Attack 07
 
@@ -435,12 +488,7 @@ __TOC__
 
 |climb_1_file        = Climbing 01,Climbing 02,Climbing 03,Climbing 04,Climbing 05
 
-
 |jump_1_file         = Jumping 01,Jumping 02,Jumping 03,Jumping 04,Jumping 05
-<!--
-Copy paste the following line in any section that does not have any voice files, change the X for the section's title:
-'''{{ROOTPAGENAME}} does not feature any X Voice-Overs'''
--->
 }}
 
 ==Navigation==

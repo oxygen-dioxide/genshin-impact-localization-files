@@ -1,9 +1,7 @@
-{{Item Infobox
-|id           = 118002
-|type         = Very Special Item
-|invCategory  = Precious Items
+{{Terminology Infobox
 |image        = Item Cake for Traveler.png
-|rarity       = 4
+|type         = Item Groups
+|type2        = Very Special Item
 |source1      = Given during the [[Traveler]]'s set birthday
 }}
 '''Cake for Traveler''' is an item given to the player on the Traveler's set [[birthday]] via [[Birthday/Traveler|mail]].
@@ -12,42 +10,26 @@
 The item will be received via [[Birthday/Traveler|mail]] if the player logs in on the day specified as their [[birthday]] in their profile, if they do not log in at all on that day, the item will not be received.
 
 ==Usage==
-Using the Cake for Traveler gives 1 [[Fragile Resin]] and a copy of the cake that can no longer be used.
-<gallery hideaddbutton="true" captionalign="center">
-Cakefortraveleritemobtained.png
+Using the Cake for Traveler gives {{Item|Fragile Resin|x=1}} and a copy of the cake that can no longer be used.
+<gallery>
+Cake for Traveler Item Obtained.png
 </gallery>
 
 ==Year Differences==
 The '''Cake for Traveler''' presents the following differences each year that it is given:
-{|class="article-table tdc1 thc1"
-! style="width: 20%;" | Cake and Period
-! style="width: 30%;" | Description before usage
-! style="width: 50%;" | Description after usage
-|-
-|[[File:Item Cake for Traveler.png|100px]]<br />September 28, 2020 - September 27, 2021
-|A gift given to a very special someone on a very special day.<br /><!--
---><br /><!--
--->Here's to you, the brightest star in the night sky.<br /><!--
--->Wishing you a joyous journey in this great big world.
-|A souvenir left over from a very special day.<br /><!--
---><br /><!--
--->Here's to you, the brightest star in the night sky.<br /><!--
--->Wishing you a joyous journey in this great big world.<br /><!--
---><br /><!--
--->"This must be the first time we've celebrated this special day. Every week, we update the recommended dishes, every month, the moon will send down new blessings, but wow, it's almost nine thousand hours to go before we celebrate this day again!"
-|-
-|[[File:Item Cake for Traveler 2.png|100px]]<br />September 28, 2021 - September 27, 2022
-|A gift given to a very special someone on a very special day.<br /><!--
---><br /><!--
--->Here's to you, busy as you are in this land.<br /><!--
--->We wish you a joyous journey in this great big world.
-|A gift given to a very special someone on a very special day.<br /><!--
---><br /><!--
--->Here's to you, busy as you are in this land.<br /><!--
--->We wish you a joyous journey in this great big world.<br /><!--
---><br /><!--
--->"Every week, the recommended dishes get updated. Every month, the moon sends down new blessings &mdash; but wow, it's going to be almost nine thousand hours more before we can celebrate this day again! And by that, Paimon means that she'll accompany you all the way, Traveler!"
-|}
+{{#DPL:
+|namespace=
+|category=Item&Cake for Traveler
+|uses=Template:Item Infobox
+|include={Item Infobox}:image:description,#Description After Use
+|table=class="wikitable sortable tdc1",-,style="width: 20%;"¦Cake and Period,style="width: 30%;"¦Description before usage,style="width: 50%;"¦Description after usage
+|tablerow=[[File:%%|100px|link=%PAGE%]]<br />[[%PAGE%]],%%,%%
+|ordermethod=sortkey
+|allowcachedresults=true
+}}
+
+==Trivia==
+* There was a mail for the [[:File:Replacement of the Cake for Traveler Mail.png|Replacement of the "Cake for Traveler"]] for players who incorrectly obtained the wrong cake for having a birthday near the launch of the game. Players had the item in their inventory replaced with the correct one.
 
 ==Other Languages==
 {{Other Languages
@@ -61,28 +43,39 @@ The '''Cake for Traveler''' presents the following differences each year that it
 |ja_rm   = Tabibito he no Keeki
 |ja_tl   = Cake for Traveler
 |ko      = 여행자에게 주는 케이크
-|ko_rm   = Yeohaengja-ege Juneun Ke'ikeu
+|ko_rm   = Yeohaengjaege Juneun Keikeu
 |ko_tl   = Cake for Traveler
 |es      = Tarta del aventurero
 |es_tl   = Cake of the Adventurer
-|fr      = Gâteau du voyageur/de la voyageuse
-|fr_tl   = Cake of the Traveler (M/F)
+|fr      = Gâteau {{MC|du voyageur|de la voyageuse}}
+|fr_tl   = Cake of the Traveler {{MC|mf=1}}
 |ru      = Тортик для тебя
 |ru_tl   = Cake for You
 |th      = เค้กสำหรับนักเดินทาง
 |th_rm   = Khek Samrap Nak Doen Thang
 |th_tl   = Cake for the Traveler
-|vi      = Bánh kem tặng cho Nhà Lữ Hành
+|vi      = Bánh Kem Tặng Cho Nhà Lữ Hành
 |vi_tl   = Cake for Traveler
-|de      = Torte für die Reisende/den Reisenden
-|de_tl   = Cake for the Traveler (F/M)
+|de      = Torte für {{MC|den Reisenden|die Reisende}}
+|de_tl   = Cake for the Traveler {{MC|mf=1}}
 |id      = Cake for Traveler
-|pt      = Bolo para o Viajante
+|pt      = Bolo para {{MC|o|a}} Viajante
 |pt_tl   = Cake for The Traveler
+|tr      = Gezginin Pastası
+|tr_tl   = 
+|it      = Torta per {{MC|il viaggiatore|la viaggiatrice}}
+|it_tl   = Cake for the Traveler {{MC|mf=1}}
 }}
 
 ==Change History==
 {{Change History|1.0}}
 
+==References==
+{{Reflist}}
+
 [[es:Tarta del aventurero]]
+[[fr:Gâteau du voyageur]]
+[[ja:旅人へのケーキ]]
 [[pt-br:Bolo para o Viajante]]
+[[ru:Тортик для тебя]]
+[[vi:Bánh Kem Tặng Cho Nhà Lữ Hành]]

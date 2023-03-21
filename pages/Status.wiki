@@ -6,8 +6,8 @@
 
 Status Effects are primarily broken into four main categories: [[Elements]], [[Ley Line Disorders]], [[Auras]], and [[Climate]] effects. There are also character- and enemy-related status effects.
 
-==Elements==
-{{See also|Gauge Unit Theory/Auras}}
+==Elemental Auras==
+{{See also|Elemental Gauge Theory|Elemental Gauge Theory/Advanced Aura Mechanics}}
 {| class="wikitable"
 ! Icon
 ! Status
@@ -15,35 +15,51 @@ Status Effects are primarily broken into four main categories: [[Elements]], [[L
 |-
 | {{Element|Pyro}}
 | Pyro
-| No special effect.
+| Enables Pyro Reactions.
+|-
+| {{Element|Pyro}}
+| Burning
+| Enables Pyro Reactions; Disables further triggering of Burning; Steadily consumes Dendro aura to maintain Burning state.
 |-
 | {{Element|Cryo}}
 | Cryo
-| Slows down all animation speed by 15%.
+| Enables Cryo Reactions; Slows down all animation speed by 15%.
 |-
 | {{Element|Cryo}}
 | Frozen
-| No special effect.
+| Enables Cryo Reactions except Frozen.
+|-
+| {{Element|Cryo}}
+| Freeze
+| Freezes target in place; Enables Cryo Reactions except Frozen; Enables [[Shattered]].
 |-
 | {{Element|Hydro}}
 | Wet
-| Wet entities within the AoE of the [[Electro-Charged]] reaction become targets of its DMG.
+| Enables Hydro Reactions; Wet entities within the AoE of the [[Electro-Charged]] reaction become targets of its DMG.
 |-
 | {{Element|Electro}}
 | Electro
-| Enables interaction with certain [[Inazuma]] mechanics.
+| Enables Electro Reactions; Enables interaction with certain [[Inazuma]] mechanics.
 |-
 | {{Element|Anemo}}
 | Anemo
-| Can not be applied as status.
+| Enables Anemo Reactions.
 |-
 | {{Element|Geo}}
 | Geo
-| Can not be applied as status.
+| No special effect.
 |-
 | {{Element|Dendro}}
 | Dendro
-| No special effect.
+| Enables Dendro Reactions.
+|-
+| {{Element|Dendro}}
+| Quicken
+| Enables Dendro Reactions except Quicken; Enables [[Aggravate]] and [[Spread]].
+|-
+| {{Element|Dendro}}
+| Wood
+| Enables [[Burning]].
 |}
 
 ==Buffs==
@@ -174,7 +190,7 @@ Most of these effects do not stack when applied using [[Food]].
 {{Statuses by Category Table|Ley Line Disorders}}
 
 ==Auras==
-{{Statuses by Category Table|Auras}}
+{{Main|Aura}}
 
 ==Climate==
 {{Statuses by Category Table|Climates}}
@@ -193,29 +209,29 @@ The following enemies are all capable of inflicting a unique status effect to th
 ! Status
 ! Description
 |-
-| {{Card|Beneath the Dragon-Queller|type=Enemy|caption=1}}
+| {{Card|Beneath the Dragon-Queller|type=Enemy|show_caption=1}}
 | Mark
 | When Azhdaha's Cryo, Pyro, Electro, and Hydro attacks hit characters who are not under the protection of a shield, that character will be marked. Marked characters will continuously take Elemental DMG.
 |-
-| {{Card|Enter the Golden House|Hydro|type=Enemy|caption=1}}
+| {{Card|Enter the Golden House|Hydro|type=Enemy|show_caption=1}}
 | Riptide (Hydro)
 | While marked by Riptide, the player will be affected by a constant {{color|Hydro}} status until Riptide is removed.<br />Some attacks that hit characters already marked by Riptide will consume the mark to deal an additional '''200% ATK''' as {{color|AoE Hydro DMG}}.
 |-
-| {{Card|Enter the Golden House|Electro|type=Enemy|caption=1}}
+| {{Card|Enter the Golden House|Electro|type=Enemy|show_caption=1}}
 | Riptide (Electro)
 | While marked by Riptide, the player will be affected by a constant {{color|Electro}} status until Riptide is removed.<br />Some attacks that hit characters already marked by Riptide will consume the mark to deal an additional '''200% ATK''' as {{color|AoE Electro DMG}}.
 |-
-| {{Card|Abyss Lector: Fathomless Flames|type=Enemy|caption=1}}
+| {{Card|Abyss Lector: Fathomless Flames|type=Enemy|show_caption=1}}
 | Brand of the Abyssal Flame
 | When certain attacks by the Abyss Lector deal DMG to the player, they will apply the Brand of the Abyssal Flame status to the player. Shortly after being applied, the Brand of Abyssal Flame expires, causing the entire party to suffer [[HP Loss]].
 |-
-| {{Card|End of the Oneiric Euthymia|type=Enemy|caption=1}}
+| {{Card|End of the Oneiric Euthymia|type=Enemy|show_caption=1}}
 | Eye of Stormy Judgement
 | When a character is marked with the Eye of Stormy Judgement and hit with "The Final Calamity," it will trigger [[death]] for the active character.
 |}
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Status Effect 1.jpg|A character with the Wet status and a food-related ATK boost.
 </gallery>
 

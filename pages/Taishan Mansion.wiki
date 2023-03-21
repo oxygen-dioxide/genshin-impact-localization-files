@@ -10,7 +10,8 @@
 |recLevel     = 38/54/71/88
 |recElements  = Hydro, Cryo, Electro
 }}
-'''Taishan Mansion''' is a [[Domain]] located near [[Jueyun Karst]] in [[Liyue]]. Clearing this domain gives [[Talent Level-Up Materials]] which can be used for leveling up [[Characters]]' talents to enhance their fighting ability. Challenge domains with higher levels to get better rewards.
+{{Description|A massive amount of Pyro energy is coursing through this scorching ancient sacrificial altar.<br />You will get scorched by merely being here.<br />You shall earn Talent level-up materials, if — and only if — you can pass the trial.}}
+'''Taishan Mansion''' is a [[Domain]] located near [[Jueyun Karst]] in [[Liyue]]. Clearing this domain gives [[Character Talent Material]]s which can be used for leveling up [[Character]]s' talents to enhance their fighting ability. Challenge domains with higher levels to get better rewards.
 
 The [[Jueyun Karst#Taishan Mansion Puzzle|Taishan Mansion Puzzle]] must be solved to unlock this domain.
 
@@ -26,7 +27,7 @@ The following Ley Line Disorders are applied in this domain:
 
 ===Damage===
 {{See also|Level Scaling/Reaction#Level Multiplier}}
-The {{Color|Pyro DMG}} dealt by Smoldering Flames is calculated as <math>\text{Multiplier} \times \text{Element Level Multiplier}</math>. This DMG is affected by the player's [[Pyro RES]], but unaffected by [[DEF]] or [[DMG Reduction]]. The final result is rounded down.
+The {{Color|Pyro DMG}} dealt by Smoldering Flames is calculated as <math>\text{Multiplier} \times \text{Level Multiplier}</math>. This DMG is affected by the player's [[Pyro RES]], but unaffected by [[DEF]] or [[DMG Reduction]]. The final result is rounded down.
 
 {| class="wikitable" style="text-align: center;"
 ! Level !! Multiplier !! Base Damage
@@ -77,60 +78,44 @@ Each level in this domain has the following Challenge Features:
 
 ==Enemies==
 {{Domain Enemies
-|header=Taishan Mansion I
-|objective=Defeat 20 opponents within 360 seconds.
-|subsubheader1=Wave 1
-|enemies1=Large Pyro Slime*3,Pyro Slime*12
-|subsubheader2=Wave 2
-|enemies2=Pyro Abyss Mage,Pyro Slime*4
-}}
-{{Domain Enemies
-|header=Taishan Mansion II
-|objective=Defeat 12 opponents within 360 seconds.
-|subsubheader1=Wave 1
-|enemies1=Large Pyro Slime*4,Pyro Slime*6
-|subsubheader2=Wave 2
-|enemies2=Pyro Abyss Mage,Large Pyro Slime
-}}
-*Two of the '''Large Pyro Slimes''' are empowered and will periodically spawn a '''Pursuing Fireball''' that explodes three times once it reaches the player, dealing {{Color|Pyro DMG}}. During these three explosions, it remains stationary but will shift towards the player again for two more cycles.
-{{Domain Enemies
-|header=Taishan Mansion III
-|objective=Defeat 8 opponents within 360 seconds.
-|subsubheader1=Wave 1
-|enemies1=Large Pyro Slime*6
-|subsubheader2=Wave 2
-|enemies2=Pyro Abyss Mage*2
-}}
-*One of the '''Large Pyro Slimes''' is empowered and will periodically spawn a '''Pursuing Fireball''' that explodes three times once it reaches the player, dealing {{Color|Pyro DMG}}. During these three explosions, it remains stationary but will shift towards the player again for two more cycles.
-{{Domain Enemies
-|header=Taishan Mansion IV
-|objective=Defeat 4 opponents within 480 seconds.
-|subsubheader1=Wave 1
-|enemies1=Blazing Axe Mitachurl*2
-|subsubheader2=Wave 2
-|enemies2=Fatui Pyro Agent*2
-}}
-*One of the '''Fatui Pyro Agents''' is empowered and will periodically spawn a '''Pursuing Fireball''' that explodes three times once it reaches the player, dealing {{Color|Pyro DMG}}. During these three explosions, it remains stationary but will shift towards the player again for two more cycles.
+|target1=Defeat 20 opponents within 360 seconds.
+|enemies1=Large Pyro Slime*3;Pyro Slime*12//Pyro Abyss Mage;Pyro Slime*4
 
-==Trivia==
-* The level names for this domain are 'Altar of Flames' for Prosperity talents, 'Heart of Flames' for Diligence talents, and 'Circle of Embers' for Gold talents. All of them have fire-related names likely because the Ley Line Disorder inflicts you with a fire-based ailment and the enemies are all Pyro-related.
-**The association between an altar and prosperity may relate to worshipping a deity for success/blessings.
-**The association between a heart and diligence likely is because diligence is a character trait.
-**The association between a circle and gold may relate to a council or organization like the Liyue Qixing that controls business or even to the circular shape of Mora.
+|target2=Defeat 12 opponents within 360 seconds.
+|enemies2=Large Pyro Slime*4;Pyro Slime*6//Pyro Abyss Mage;Large Pyro Slime
+|note2=<br />
+*Two of the [[Large Pyro Slime]]s have '''[[Tracking Fire Ball]]''' auras.
+
+|target3=Defeat 8 opponents within 360 seconds.
+|enemies3=Large Pyro Slime*6//Pyro Abyss Mage*2
+|note3=<br />
+*One of the Large Pyro Slimes has a '''Tracking Fire Ball''' aura.
+
+|target4=Defeat 4 opponents within 480 seconds.
+|enemies4=Blazing Axe Mitachurl*2//Fatui Pyro Agent*2
+|note4=<br />
+*One of the Fatui Pyro Agents has a '''Tracking Fire Ball''' aura.
+}}
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/sFgIB2Sq8oc
+|caption1 = Unlock Taishan Mansion Guide
+}}
 
 ==Other Languages==
 {{Other Languages
 |en      = Taishan Mansion
 |zhs     = 太山府
-|zhs_rm  = Tàishān Fǔ
+|zhs_rm  = Tàishān-fǔ
 |zht     = 太山府
-|zht_rm  = Tàishān Fǔ
-|zh_tl   = Taishan Mansion
+|zht_rm  = Tàishān-fǔ
+|zh_tl   = Great Mountain Mansion
 |ja      = 太山府
-|ja_rm   = Taisan Fu
+|ja_rm   = Taisan-fu
 |ja_tl   = Big Mountain Mansion
 |ko      = 태산부
-|ko_rm   = Taesanbu
+|ko_rm   = Taesan-bu
 |ko_tl   = Huge Mountain Storeroom
 |es      = Mansión Taishan
 |es_tl   = Taishan Mansion
@@ -140,7 +125,7 @@ Each level in this domain has the following Challenge Features:
 |ru_lang = zh
 |ru_tl   = Taishan {{tt|Fu|Mansion}}
 |th      = วัง Taishan Mansion
-|th_rm   = 
+|th_rm   = Wang Taishan Mansion
 |th_tl   = Taishan Mansion Palace
 |vi      = {{tt|Thái Sơn Phủ|太山府}}
 |vi_tl   = Taishan Mansion{{Sino|vi}}
@@ -149,6 +134,10 @@ Each level in this domain has the following Challenge Features:
 |id      = Taishan Mansion
 |pt      = Mansão Taishan
 |pt_tl   = Taishan Mansion
+|tr      = Taishan Köşkü
+|tr_tl   = 
+|it      = Magione Taishan
+|it_tl   = 
 }}
 
 ==Change History==
@@ -158,3 +147,4 @@ Each level in this domain has the following Challenge Features:
 {{Domain Navbox|Permanent}}
 
 [[es:Mansión Taishan]]
+[[ja:太山府]]

@@ -1,35 +1,44 @@
 {{Enemy Infobox
 |image    = Enemy Cryo Hilichurl Shooter.png
 |family   = Hilichurls
-|element  = Cryo
+|dmgtype  = Cryo
+|weakpoint = yes
 |type     = Common Enemies
 |group    = Hilichurl Shooters
 }}
-{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />These archers wield simple crossbows, and unmelting ice shrouds their arrowheads. It is said that wounds caused by these arrowheads heal very slowly, as the cold will slow the circulation of blood.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Hilichurl Shooters}}
+===Items===
+{{Drops Table|type=Hilichurl Shooters}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|hp_ratio=.8|atk_ratio=.9|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Aimed Shot:''' Charges as Cryo energy accumulates on their arrowhead, before firing an arrow at the player, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
-**'''Enhanced:''' Some Hilichurl Shooters, mostly those in the [[Spiral Abyss]], [[Domains]], or overworld events/challenges, are capable of firing five bolts at a time, covering a ~45 degree arc in front of them.
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Cryo Hilichurl Shooter Aimed Shot
-|caption1=Aimed Shot
-
-|file2=Cryo Hilichurl Shooter Aimed Shot Enhanced
-|caption2=Aimed Shot (Enhanced)
+{{Enemy Attacks
+|name_1 = Ice Arrow
+|file_1 = Cryo Hilichurl Shooter Aimed Shot
+|desc_1 = Charges as Cryo energy accumulates on their arrowhead, before firing an arrow at the player, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
+* '''Multishot:''' Some Hilichurl Shooters, mostly those in the [[Spiral Abyss]], [[Domains]], or overworld events/challenges, are capable of firing five arrows at a time, covering a ~45 degree arc in front of them.
+|caption_1 = Normal
+|file_1_2 = Cryo Hilichurl Shooter Aimed Shot Enhanced
+|caption_1_2 = Multishot
 }}
 
+==Descriptions==
+{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />These archers wield simple crossbows, and unmelting ice shrouds their arrowheads. It is said that wounds caused by these arrowheads heal very slowly, as the cold will slow the circulation of blood.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Cryo Hilichurl Shooter Icon.png|Icon
 </gallery>
 
@@ -61,6 +70,10 @@ Enemy Cryo Hilichurl Shooter Icon.png|Icon
 |id      = Cryo Hilichurl Shooter
 |pt      = Hilichurl Atirador Cryo
 |pt_tl   = 
+|tr      = Buz Dağ Yabanisi Nişancısı
+|tr_tl   = 
+|it      = Hilichurl balestriere di Cryo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -69,6 +82,9 @@ Enemy Cryo Hilichurl Shooter Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Kryo-Hilichurl-Schütze]]
 [[es:Hilichurl Ballestero Cryo]]
-[[ru:Крио хиличурл-стрелок]]
+[[ja:ヒルチャール・氷矢]]
 [[pt-br:Hilichurl Atirador Cryo]]
+[[ru:Крио хиличурл-стрелок]]
+[[th:Cryo Hilichurl Shooter]]

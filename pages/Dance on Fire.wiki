@@ -2,12 +2,12 @@
 |image         = Talent Dance on Fire.png
 |character     = Xinyan
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Performs up to 4 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br />At the end of the sequence, perform a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 4 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br />At the end of the sequence, performs a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
 |hit1          = 76.5–205%
 |hit2          = 36.1–96.6%
 |hit3          = 46.4–124%
 |hit4          = 47.3–127%
-|attr5         = Charged Attack Spinning DMG
+|attr5         = Charged Attack Cyclic DMG
 |value5        = 59.3–159%
 |attr6         = Charged Attack Final DMG
 |value6        = 113–302%
@@ -30,6 +30,77 @@
 *{{TalentNote|constellation|1|Fatal Acceleration}}
 *{{TalentNote|constellation|6|Rockin' in a Flaming World}}
 
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 96.6
+|impulse = 3
+|blunt   = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 93.15
+|impulse2 = 3
+|blunt2   = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 121.9
+|impulse3 = 3
+|blunt3   = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 146.63
+|impulse4 = 6
+|blunt4   = 1
+
+|title5   = Charged Attack Cyclic
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 60
+|impulse5 = 3
+|blunt5   = 1
+
+|title6   = Charged Attack Final Slash
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 120
+|impulse6 = 5
+|blunt6   = 1
+
+|title7   = Plunging Attack Collision
+|gu7      = 0U
+|icdtag7  = none
+|poise7   = 35
+|impulse7 = 2
+
+|title8   = Low Plunge
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 150
+|impulse8 = 4
+|blunt8   = 1
+
+|title9   = High Plunge
+|gu9      = 1U
+|icdtag9  = none
+|poise9   = 200
+|impulse9 = 7
+|blunt9   = 1
+}}
+
 ==Preview==
 {{Preview
 |file1=Dance on Fire Normal Preview
@@ -39,16 +110,15 @@
 |caption2=Charged Attack
 
 |file3=Dance on Fire Plunge Preview
-|caption3=Plunge Attack
+|caption3=Plunging Attack
 }}
-{{clr}}
 
 ==Attribute Scaling==
 {{Talent Scaling
 |talentType=Normal Attack
 |levels=11
 |order=hit1,hit2,hit3,hit4,charged_title,chargedattackspinningdmg,chargedattackfinaldmg,stamina,maxduration,plunge_title,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Spinning DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Cyclic DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=76.54
 |hit1_2=82.77
 |hit1_3=89
@@ -166,7 +236,7 @@
 |ja      = 炎舞
 |ja_rm   = Enbu{{Assumed}}
 |ja_tl   = Flame Dance
-|ja_note = Identical to the Chinese name, but may double as a pun on the word {{Lang|mini=1|ja=演舞|ja_rm=enbu|ja_tl=dance performance}}.
+|ja_note = Identical to the Chinese name, but may double as a pun on the word {{ja|演舞|rm=enbu|tl=dance performance}}.
 |ko      = 염무
 |ko_rm   = Yeommu
 |ko_tl   = Dance of Flames
@@ -175,7 +245,7 @@
 |fr      = Danse du feu
 |fr_tl   = Dance of Fire
 |ru      = Зажигательный танец
-|ru_tl   = 
+|ru_tl   = Dance on Fire
 |th      = Dance on Fire
 |vi      = {{tt|Viêm Vũ|炎舞}}
 |vi_tl   = Flame Dance
@@ -184,6 +254,10 @@
 |id      = Dance on Fire
 |pt      = Dança do Fogo
 |pt_tl   = Dance of Fire
+|tr      = Ateşle Dans
+|tr_tl   = 
+|it      = Danza sul fuoco
+|it_tl   = Dance on Fire
 }}
 
 ==Change History==
@@ -196,5 +270,7 @@
 {{Talent Navbox|Xinyan}}
 
 [[es:Baile ardiente]]
+[[fr:Danse du feu]]
 [[pt-br:Dança do Fogo]]
+[[ru:Зажигательный танец]]
 [[th:Dance on Fire]]

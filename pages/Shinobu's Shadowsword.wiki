@@ -2,7 +2,7 @@
 |image         = Talent Shinobu's Shadowsword.png
 |character     = Kuki Shinobu
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 4 rapid strikes.<br /><br />'''Charged Attack'''<br />Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 4 rapid strikes.<br /><br />'''Charged Attack'''<br />Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.
 |hit1          = 48.8 - 96.4%
 |hit2          = 44.6 - 94.3%
 |hit3          = 59.3 - 125.6%
@@ -15,6 +15,71 @@
 |scale_att1    = ATK
 }}
 '''Shinobu's Shadowsword''' is [[Kuki Shinobu]]'s [[Normal Attack]].
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 51.03
+|impulse = 3
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 46.62
+|impulse2 = 3
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 62.1
+|impulse3 = 3
+
+|title4   = Normal Attack 4-Hit
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 79.65
+|impulse4 = 5
+
+|title5   = Charged Attack 1-Hit
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 60
+|impulse5 = 2
+
+|title6   = Charged Attack 2-Hit
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 60
+|impulse6 = 6
+
+|title7   = Plunging Attack Collision
+|gu7      = 0U
+|icdtag7  = none
+|poise7   = 25
+|impulse7 = 2
+
+|title8   = Low Plunge
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 100
+|impulse8 = 4
+|blunt8   = 1
+
+|title9   = High Plunge
+|gu9      = 1U
+|icdtag9  = none
+|poise9   = 150
+|impulse9 = 7
+|blunt9   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -30,9 +95,10 @@
 
 ==Attribute Scaling==
 {{Talent Scaling
+|talentType=Normal Attack
 |levels=11
-|order=hit1,hit2,hit3,hit4,charged,stamina,plunge,plungelow,plungehigh
-|titles=1-Hit DMG,2-Hit DMG,3-Hit DMG,4-Hit DMG,Charged Attack DMG,Charged Attack Stamina Cost,Plunge DMG,Low Plunge DMG,High Plunge DMG
+|order=hit1,hit2,hit3,hit4,charged_title,charged,stamina,plunge_title,plunge,plungelow,plungehigh
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack DMG (%),Charged Attack Stamina Cost,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=48.76
 |hit1_2=52.73
 |hit1_3=56.7
@@ -127,10 +193,6 @@
 ==Talent Leveling==
 {{Talent Upgrade|Kuki Shinobu}}
 
-<!--
-==Voice-Overs==
-{{Talent VOs}}
--->
 ==Other Languages==
 {{Other Languages
 |en      = Shinobu's Shadowsword
@@ -146,19 +208,23 @@
 |ko_rm   = Sinoburyu Biincham
 |ko_tl   = Shinobu Style Flying Blade Cut
 |es      = Corte alado Shinobu
-|es_tl   = 
+|es_tl   = Shinobu Winged Cut
 |fr      = Lame volante
 |fr_tl   = Flying Blade
 |ru      = Теневой меч Синобу
-|ru_tl   = 
+|ru_tl   = Shinobu's Shadowsword
 |th      = Shinobu's Shadowsword
 |vi      = Lưỡi Kiếm Shinobu
-|vi_tl   = 
+|vi_tl   = Shinobu Sword Blade
 |de      = Shinobus fliegender Schwerthieb
 |de_tl   = Shinobu's Flying Sword Stroke
 |id      = Shinobu's Shadowsword
 |pt      = Lâmina Escondida de Shinobu
 |pt_tl   = 
+|tr      = Shinobu'nun Gölge Kılıcı
+|tr_tl   = 
+|it      = Lamaombra di Shinobu
+|it_tl   = Shinobu's Shadowblade
 }}
 
 ==Change History==
@@ -166,5 +232,9 @@
 
 ==Navigation==
 {{Talent Navbox|Kuki Shinobu}}
-[[ru:Теневой меч Синобу]]
+
+[[es:Corte alado Shinobu]]
+[[fr:Lame volante]]
 [[pt-br:Lâmina Escondida de Shinobu]]
+[[ru:Теневой меч Синобу]]
+[[th:Shinobu's Shadowsword]]

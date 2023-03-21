@@ -1,4 +1,5 @@
 {{Quest Infobox
+|id            = 79022
 |image         = Event Quest The Misplaced Photo.png
 |type          = World
 |event_name    = Summertime Odyssey
@@ -6,16 +7,16 @@
 |summary       = 
 |requirement   = Complete [[Like Rhyme and Song, the Summer Reverie]]
 |characters    = Agafya; Paimon; Traveler; Zakhar
-|startLocation = [[Broken Isle]], [[Golden Apple Archipelago]]
-|region        = Golden Apple Archipelago
-|area          = Broken Isle
+|startLocation = [[Broken Isle/2.8|Broken Isle]], [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]]
+|area          = Golden Apple Archipelago
+|subarea       = Broken Isle
 |next          = A Misplaced Conch
 |exp           = 250
 |mora          = 30,000
 |primogems     = 30
 |other         = {{Card|Hero's Wit|3}}
 }}
-'''The Misplaced Photo''' is an [[Event Quest]] during the [[Summertime Odyssey]] Event. 
+'''''The Misplaced Photo''''' is an [[Event Quest]] during the [[Summertime Odyssey]] Event.
 
 ==Steps==
 * Start the quest by talking to the [[Mirror Maiden]] on the northeastern island of [[Broken Isle/2.8|Broken Isle]]
@@ -28,14 +29,27 @@
 # Look for traces of the other group's members
 #* Approach the starting location of [[The Discarded Insignia]] if it has not been started
 
-==Notes==
+==Gameplay Notes==
 * The four apples next to Zakhar will disappear even if they are not picked up.
 
 ==Dialogue==
 {{Quest Description|You meet a Fatui Mirror Maiden on Broken Isle who keeps going on about losing a photo. It seems that you won't be able to communicate with her normally... But if you find some way to bring her back to her senses, perhaps you might be able to figure out why she is here.}}
 {{Dialogue start}}
+;(Talk to Mirror Maiden before the quest becomes available)
+:'''Mirror Maiden:''' ...I have to get back... I have to get back... He's still there. But my brothers are gone, and their photo...
+:{{DIcon}} (We aren't getting through to her...)
+:{{DIcon}} (Let's leave her alone for now...)
+
+<!-- Only possible before Xinyan's mirage becomes active. -->
+;(Talk to Hydrogunner Legionnaire before the quest becomes available)
+:'''Hydrogunner Legionnaire:''' ...
+:{{DIcon}} Hey!
+:'''Hydrogunner Legionnaire:''' ...
+:{{DIcon}} (This is strange...)
+:{{DIcon}} (No response...)
+
 ;(Talk to the Mirror Maiden)
-;(If the player not yet awaken the Electrohammer Vanguard in [[The Discarded Insignia]])
+;(If the player has not yet awakened the Electrohammer Vanguard in [[The Discarded Insignia]])
 ::'''Paimon:''' Why are the [[Fatui]] here? This Mirror Maiden...
 ::'''Paimon:''' They're not up to something again, are they?
 ::'''Mirror Maiden:''' ...I have to get back... I have to get back... He's still there. But my brothers are gone, and their photo...
@@ -53,7 +67,7 @@
 ::{{DIcon}} It must've been that machine's fault...
 ::'''Paimon:''' Oh right, the machine affected everyone on the island... But it has been shut down...
 ::'''Mirror Maiden:''' The photo of myself and my brothers... I can't go back if I can't find it. But he's still there, waiting for me, all alone...
-;(If the player has awaken the Electrohammer Vanguard in [[The Discarded Insignia]])
+;(If the player has awakened the Electrohammer Vanguard in [[The Discarded Insignia]])
 ::'''Paimon:''' (Traveler), there's something fishy about the Mirror Maiden...
 ::'''Mirror Maiden:''' ...I have to get back... I have to get back... He's still there. But my brothers are gone, and their photo...
 ::'''Paimon:''' Hey, Fatuus...
@@ -87,7 +101,7 @@
 :'''Mirror Maiden:''' It's so great to have it back. Where did I lose it? ... Agh! My head... hurts...
 :'''Paimon:''' We found it beside the hilichurl camp!
 :'''Mirror Maiden:''' Thank you, thank you so much...
-:'''Mirror Maiden:''' No, wait! You're the blond young man and his flying companion, whom we saw in that internal communique!
+:'''Mirror Maiden:''' No, wait! You're the blond young {{MC|man|woman|mc=1}} and {{MC|his|her|mc=1}} flying companion, whom we saw in that internal communique!
 :'''Paimon:''' That's "Paimon" to you! But you know what? We might as well change Paimon's name to "flying companion" if this keeps happening...
 :'''Mirror Maiden:''' What have you done to me? My...There's a gap in my memories. You didn't perform some weird experiment on me, did you!?
 :'''Mirror Maiden:''' We may be on opposing sides... But there must still be limits to one's conduct, surely!?
@@ -135,7 +149,7 @@
 :'''Mirror Maiden:''' Anyway, you want intel? Here's some intel. [[Agafya]]. My name's Agafya. That's all I can tell you for now.
 :'''Paimon:''' Just a name!?
 :'''Agafya:''' If I do tell you something important, you could make a scary face, say something like "you've outlived your usefulness," and then take me out...
-:'''Agafya:''' Our instructor said that many such incidents every year, and so we are not to reveal any sensitive information.
+:'''Agafya:''' Our instructor said that there are many such incidents every year, and so we are not to reveal any sensitive information.
 :'''Paimon:''' We wouldn't do that! And that's a very weird thing for your instructor to say...
 :'''Agafya:''' Is it? I think that's pretty normal. Anyway, I'm here, all alone, and you can take me out pretty easily. I can't get away.
 :'''Paimon:''' Hmm... Honestly, this really doesn't feel like a fair trade. Still, (Traveler), let's clear the thorns away first.
@@ -171,7 +185,7 @@
 :'''Agafya:''' Zakhar! Why are you spilling everything to these outsiders!?
 :'''Zakhar:''' Uh, what? Oh, wait. You're the one on the internal communique. (Traveler) and...
 :{{DIcon}} "Flying companion."
-:'''Zakhar:''' Yes, this is my "flying companion"!
+:'''Zakhar:''' Yes, this is the "flying companion"!
 :'''Paimon:''' It's "Paimon"! How hard is it to remember one name?
 :'''Zakhar:''' Hehe, I can be kind of scatter-brained like that. The name's Zakhar. Wait, you and us... We're enemies!
 :'''Zakhar:''' Agafya, did you bring them here?
@@ -180,13 +194,13 @@
 :'''Paimon:''' You bet we did!
 :'''Zakhar:''' But aren't we your enemies? Why help us?
 :'''Paimon:''' That's a good question...
-:'''Paimon:''' But well, she did promise that if we got you out, she'd tell us exactly what you're plotting here.
-;(If the player not yet awaken the Electrohammer Vanguard in [[The Discarded Insignia]])
+:'''Paimon:''' Well, she did promise that if we got you out, she'd tell us exactly what you're plotting here.
+;(If the player has not yet awakened the Electrohammer Vanguard in [[The Discarded Insignia]])
 ::'''Zakhar:''' What? You sold us out, Agafya?
 ::'''Agafya:''' It's alright, Zakhar. We'll just palm them off with something like "we Fatui are hunting mysterious [[Medaka]] in these waters"... or whatnot.
 ::'''Paimon:''' What? Are you seriously talking openly about deceiving us? You're really underestimating us, huh?
 ::'''Paimon:''' Well, the thorns have been cleared out, and Zakhar is safe and sound. It's time to pay up.
-::'''Zakhar:''' Don't tell them anything, Agafya！
+::'''Zakhar:''' Don't tell them anything, Agafya!
 ::'''Agafya:''' *sigh* At this point... To be honest, though, we really don't know much. We were just here to conduct some tests.
 ::{{DIcon}} Tests?
 ::{{DIcon}} What tests?
@@ -200,13 +214,31 @@
 ::'''Agafya:''' Yes, the other group of two. They said they were heading to {{Color|buzzword|the two islands in the south}}. And that's some extra intel for you, free of charge. You didn't trick us into that, you hear?
 ::'''Paimon:''' A large island to the south... That has to be [[Minacious Isle/2.8|Minacious Isle]].
 ::'''Agafya:''' Alright, let's cut the chatter. We need to hurry back to our base camp...
+
 ::'''Paimon:''' Another group... and the other Fatui working with them, huh?
 ::'''Paimon:''' That is kinda concerning. According to her, we can find 'em near Minacious Isle, so let's start our search there...
-:
+
+<!-- The dialogue is slightly different from the one in A Misplaced Conch. -->
+:;(Talk to Agafya at the base camp) (Optional)
+::'''Agafya:''' What is it? Is there anything else? I've already told you everything I know...
+::{{DIcon}} About the signal testing...
+:::'''Agafya:''' Like I told you, I don't know much about it... They were probably just some simple tests, but running all over these islands was just... incredibly tiring.
+::{{DIcon}} About Zakhar...
+:::'''Agafya:''' Zakhar is an orphan. His parents died of illness long ago, and it is said that he led a difficult life for a long time. He then heard that the Fatui provided free meals, and decided to join them...
+::{{DIcon}} About the photo...
+:::'''Agafya:''' Well, that's my two brothers in the photo, both of whom have devoted their services to Snezhnaya. I've always been proud of them.
+::{{DIcon}} See you...
+
+<!-- The dialogue is not the same from the one in A Misplaced Conch. -->
+:;(Talk to Zakhar at the base camp) (Optional)
+::'''Zakhar:''' We are enemies, you know? We really shouldn't be chatting this much.
+::'''Zakhar:''' If you talk to the enemy too much, you will become close and your heart softens, which puts you at a disadvantage in battle...
+::'''Zakhar:''' That's what our instructor told us.
+
 :;(Approach the Electrohammer Vanguard)
 ::'''Paimon:''' Look, there's a Fatui member over there. They look a little odd...
 ::'''Paimon:''' That might be a squadmate Agafya mentioned. Let's go over and have a look, shall we?
-;(If the player has awaken the Electrohammer Vanguard in [[The Discarded Insignia]])
+;(If the player has awakened the Electrohammer Vanguard in [[The Discarded Insignia]])
 ::'''Zakhar:''' Is that true? Are you selling us out, Agafya!?
 ::'''Agafya:''' It's alright, Zakhar. We'll just palm them off with something like "we Fatui are hunting mysterious Medaka in these waters"... or whatnot.
 ::'''Paimon:''' What? Are you seriously talking openly about deceiving us? You're really underestimating us, huh?
@@ -254,7 +286,7 @@
 |fr      = La photo égarée
 |fr_tl   = The Misplaced Photo
 |ru      = Потерянная фотография
-|ru_tl   = 
+|ru_tl   = The Lost Photo
 |th      = ภาพหมู่ที่ถูกทำหาย
 |th_rm   = 
 |th_tl   = 
@@ -270,3 +302,6 @@
 
 ==Change History==
 {{Change History|2.8}}
+
+[[es:La imagen perdida]]
+[[pt-br:Uma Foto Perdida]]

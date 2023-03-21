@@ -1,4 +1,5 @@
-{{See also|Gauge Unit Theory}}
+{{For|Elemental Reactions in [[Genius Invokation TCG]]|Genius Invokation TCG/Rules#Elemental Reactions}}
+{{See also|Elemental Gauge Theory}}
 {{Terminology Infobox
 |image        = Reaction Burning.png
 |caption      = Elements that trigger the Burning reaction (Pyro and Dendro)
@@ -10,26 +11,51 @@
 
 Burning will apply a Burning aura, which appears as an animated version of the Pyro aura and will coexist with the underlying [[Pyro]] and [[Dendro]] auras. The Dendro aura will be steadily consumed while burning. The Burning state requires both the Burning and Dendro auras to maintain, and will end if one of them is depleted.
 
-Currently, players can only burn if they are inflicted with Dendro from a [[Dendro Samachurl]] or a poison status from a [[Large Dendro Slime]] and Pyro from another source. This damage is separate from the damage taken when standing on burning grass without being affected by Dendro.
+Burning cannot damage off-field characters. Switching to a different character while affected by Burning will temporarily pause the DoT ticks, but the Dendro consumption will continue. If the affected character becomes the active character again while still affected by Dendro, they will resume taking DMG.
 
 ==Damage==
 {{See also|Damage#Transformative Reaction Damage|Level Scaling/Reaction}}
 {{Transformative Reaction Damage}}
 
-==Environment==
-Note that in the open world, grass, haystacks, shrubs, small trees, crates, and barrels are all Dendro objects. Using Pyro abilities on them will ignite them as well as the surrounding area. After being burnt, grass will be charred and cannot be burned again until the area resets, while shrubs and trees will be temporarily destroyed. Units that are Burning will also spread fire to combustible objects that they touch such as grass.
+==Immunity==
+Some enemies, even ones not immune to {{Color|Pyro DMG}} itself, are immune to Burning DMG, including its [[Poise Damage]] and {{Pyro}} application. The list of enemies include:
 
-The amount of {{Color|Pyro DMG}} dealt to player by a fire depends on the player's [[World Level]]. At its minimum, Burning deals 2 {{Color|Pyro DMG}} every half second, and at its maximum, fire deals 100 {{Color|Pyro DMG}} every half second. If a [[Dendro]] construct like [[grass]] is set on fire, it will extinguish after the status expires or once it comes into contact with Electro, Cryo, or Hydro.
+* {{Enemy|Pyro Slime}}
+* {{Enemy|Large Pyro Slime}}
+* {{Enemy|Pyro Specter}}
+* {{Enemy|Pyro Hilichurl Shooter}}
+* {{Enemy|Hilichurl Berserker}}
+* {{Enemy|Hilichurl Grenadier}}
+* {{Enemy|Pyro Whopperflower}}
+* {{Enemy|Blazing Axe Mitachurl}}
+* {{Enemy|Pyro Abyss Mage}}
+* {{Enemy|Abyss Lector: Fathomless Flames}}
+* {{Enemy|Pyro Hypostasis}}
+* {{Enemy|Pyro Regisvine}}
+
+Note that all enemies that are immune to Burning DMG have the {{Pyro}} Element in some form, but not all Pyro enemies have Burning immunity (e.g. [[Fatui Skirmisher - Pyroslinger Bracer]]).
+
+==Environment==
+{{See also|Grass}}
+Burning can be inflicted on {{Wood}} objects by applying {{Pyro}} them. Burning can also be inflicted on {{Pyro}} objects, such as lit bonfires and stoves, by applying {{Dendro}} to them. Units that are Burning will also spread fire to combustible objects that they touch such as grass.
+
+In the open world, grass, haystacks, shrubs, small trees, crates, and barrels are all {{Wood}} objects. After being burned, grass will be charred and cannot be burned again until the area resets, while shrubs and small trees will be temporarily destroyed.
+
+The amount of {{Color|Pyro DMG}} dealt by Burning objects will vary:
+* Burning grass DMG will scale with the grass's own level.
+* Burning bushes will not deal DMG at all, but will still apply {{Pyro}}.
+* Burning inflicted on any other objects will deal DMG based on the stats of the character who triggered the reaction.
+
+Although [[Tri-Lakshana Creature]]s that are not enemies are {{Dendro}} objects and react normally with {{Hydro}} and {{Electro}} to produce the [[Bloom]] and [[Quicken]] reactions, they do not react normally with {{Pyro}}. Applying {{Pyro}} to them immediately removes their Dendro status and does not cause the Burning reaction.
 
 ==Artifacts==
 These artifact sets increase the damage from Burning reactions.
 
 {{Artifacts by Category Table|Burning DMG Increase Artifacts}}
 
-==Gallery==
+==Preview==
 {{Preview
-|file=Status Burning Enemy
-|caption=A [[Dendro Slime]] burning
+|file=Burning Preview
 }}
 
 ==Other Languages==
@@ -62,16 +88,20 @@ These artifact sets increase the damage from Burning reactions.
 |id      = Burning
 |pt      = Queimadura
 |pt_tl   = 
+|tr      = Yanma
+|tr_tl   = Burning
+|it      = Ustione
+|it_tl   = Burn
 }}
 
 ==Change History==
 {{Change History|1.0}}
-<!--
-==References==
-{{Reflist}}-->
 
 ==Navigation==
 {{Element Navbox}}
 
 [[es:Quemadura]]
+[[ja:燃焼]]
+[[pl:Płonięcie]]
 [[pt-br:Queimadura]]
+[[ru:Горение]]

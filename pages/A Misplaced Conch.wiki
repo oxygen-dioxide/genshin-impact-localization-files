@@ -1,5 +1,5 @@
-{{Stub|verify dialogue lines; watch out for talk again and open world lines}}
 {{Quest Infobox
+|id            = 79024
 |image         = Event Quest A Misplaced Conch.png
 |type          = World
 |event_name    = Summertime Odyssey
@@ -7,9 +7,9 @@
 |summary       = 
 |requirement   = 
 |characters    = Agafya; Chevka; Paimon; Traveler; Yakov; Zakhar
-|startLocation = [[Twinning Isle]], [[Golden Apple Archipelago]]
-|region        = Golden Apple Archipelago
-|area          = Twinning Isle
+|startLocation = [[Twinning Isle/2.8|Twinning Isle]], [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]]
+|area          = Golden Apple Archipelago
+|subarea       = Twinning Isle
 |prev          = The Discarded Insignia
 |prev2         = The Misplaced Photo
 |next          = 
@@ -18,7 +18,7 @@
 |primogems     = 50
 |other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}
 }}
-'''A Misplaced Conch''' is an event [[World Quest]] in [[Golden Apple Archipelago]] during the [[Summertime Odyssey]] event. The quest automatically starts after completing both [[The Discarded Insignia]] and [[The Misplaced Photo]].
+'''''A Misplaced Conch''''' is an event [[World Quest]] in [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]] during the [[Summertime Odyssey]] event. The quest automatically starts after completing both [[The Discarded Insignia]] and [[The Misplaced Photo]].
 
 ==Steps==
 # Talk to the [[Fatui]] at the camp
@@ -32,12 +32,11 @@
 #* Misplaced Conch 3 on red tablecloth
 # Wake Yakov up
 
-==Notes==
+==Gameplay Notes==
 * The misplaced conches can be picked up prior to starting this quest.
 * The step "Find the lost conches" will be skipped if the player has already collected all 3 conches.
 
 ==Dialogue==
-{{StubDialogue|Check the talk-again lines prior to picking the conches up}}
 {{Quest Description|The Fatui team members you've brought back to their senses have all returned to the camp on the central island. You wonder if the Geochanter Bracer named Yakov has regained his wits or not...}}
 {{Dialogue start}}
 ;(Talk to the Fatui)
@@ -75,7 +74,7 @@
 :'''Paimon:''' But how do we wake Yakov up, exactly?
 :'''Paimon:''' They look like they've been staying at this camp this whole time... (Traveler), why don't we rummage about and see what we can find?
 
-;(Talk to Agafya)
+;(Talk to Agafya again)
 :'''Agafya:''' Well, that's it. We've told you everything we know. Have you found some way to wake Yakov up?
 :{{DIcon}} About the signal testing...
 ::'''Agafya:''' Like I told you, I don't know much about it. They were probably just some simple tests, but running all over these islands was just... incredibly tiring.
@@ -85,16 +84,7 @@
 ::'''Agafya:''' Well that's my two brothers in the photo, both of whom have devoted their services to [[Snezhnaya]]. I've always been proud of them.
 :{{DIcon}} We're still investigating...
 
-;(Talk to Zakhar)
-:'''Zakhar:''' Ah... How much longer till Yakov regains his wits?
-:'''Zakhar:''' Our instructors taught us that we Fatui soldiers of [[Snezhnaya]] who should stand ready to sacrifice ourselves for a greater cause, and that we should not be too swayed by unnecessary emotions...
-:'''Zakhar:''' But we've spent so much time together as a team, day in and day out... I'mnot the brightest spark, I know that, but can anyone truly feel nothing at all for their comrades?
-
-;(Talk to Yakov)
-:'''Yakov:''' Why... Why did you leave me alone, Father... Why...
-:{{DIcon}} (He still doesn't seem to be in his right mind...)
-
-;(Talk to Chevka)
+;(Talk to Chevka again)
 :'''Chevka:''' *sigh* Oh, what are we going to do about Yakov... Do you have any clues, (Traveler)?
 :{{DIcon}} Why did you join the Fatui?
 ::'''Chevka:''' Why... I joined the Fatui?
@@ -103,10 +93,19 @@
 ::'''Chevka:''' *sigh* It seems Yakov is still delirious...
 :{{DIcon}} Nothing yet...
 
+;(Talk to Yakov again)
+:'''Yakov:''' Why... Why did you leave me alone, Father... Why...
+:{{DIcon}} (He still doesn't seem to be in his right mind...)
+
+;(Talk to Zakhar again)
+:'''Zakhar:''' Ah... How much longer till Yakov regains his wits?
+:'''Zakhar:''' Our instructors taught us that we Fatui soldiers of [[Snezhnaya]] who should stand ready to sacrifice ourselves for a greater cause, and that we should not be too swayed by unnecessary emotions...
+:'''Zakhar:''' But we've spent so much time together as a team, day in and day out... I'mnot the brightest spark, I know that, but can anyone truly feel nothing at all for their comrades?
+
 ;(Approach the Imaging conch)
 :'''Paimon:''' Hmm? Look at the conch on that crate, (Traveler)...
 :'''Paimon:''' It feels like we've seen this sorta thing before, haven't we? Let's go have a look.
-
+----
 ;(Activate the Imaging Conch)
 :'''Projection of Chevka:''' Well, look who's back. Pfft. Well, at least you didn't wreck the device or anything.
 :'''Projection of Yakov:''' But...
@@ -155,7 +154,7 @@
 :'''Chevka:''' Gah. If I knew what those conchs could do, I wouldn't have taken mine out of the camp.
 
 ;(Talk to Agafya prior to recovering Misplaced Conch 2)
-:'''Agafya:''' Can't find the conch? If I remember correctly, it should be in a watery cave on the{{color|buzzword|big island to the northwest}}.
+:'''Agafya:''' Can't find the conch? If I remember correctly, it should be in a watery cave on the {{color|buzzword|big island to the northwest}}.
 
 ;(Talk to Zakhar prior to recovering Misplaced Conch 3)
 :'''Zakhar:''' My conch? Well, I threw it into a well on the {{color|buzzword|great island to the northeast}}. That was one deep well.
@@ -232,6 +231,7 @@
 :'''Yakov:''' Well, the waves were really choppy, so I slipped and fell while carrying the device. Fortunately, I was quick enough to save it...
 :'''Yakov:''' But the commander still gave me an earful and ordered our squad to do signal reception tests. I mean, ugh, that's the toughest job around...
 :'''Zakhar:''' Oh come on, don't feel so down. We've done this stuff a hundred times before. Hey, chin up! Go get yourself something to eat!
+
 :'''Yakov:''' Agafya, Researcher Persikov has ordered us to perform some signal reception tests. Looks like all four of us have to go... Chevka will probably get mad at me.
 :'''Agafya:''' Come on, Yakov, orders are orders, Chevka isn't going to blame you for them!
 :'''Agafya:''' ...You know what, if you're that scared, I'll go with you to talk to Chevka, alright?
@@ -239,11 +239,14 @@
 :'''Chevka:''' Bah, it was just a signal reception test, not the end of the world.
 :'''Agafya:''' See? Chevka doesn't mind!
 :'''Yakov:''' Well... Guess I'll make preparations. We'll head out later!
+
 :'''Yakov:''' Two signal testing sets...
 :'''Chevka:''' You know, I honestly thought that he was in serious trouble this time. Who knew this was just about being assigned slightly more annoying work! So yeah, that was a relief.
 :'''Agafya:''' Hah! You should have seen how afraid he was of getting scolded by you. It was almost like watching a little brother cower at the thought of his older brother scolding him. Y'know... do you think he's just afraid of disappointing us?
 :'''Agafya:''' I mean, we're just squad-mates... but it does sometimes feel like we're family as well...
 :'''Chevka:''' Family, huh...
+
+;(Yakov woke up)
 :'''Yakov:''' Family... But I don't have any family now...
 :'''Yakov:''' My father stayed behind so I could get away and return to Snezhnaya. After confirming that he didn't make it, they sent me that insignia...
 :'''Yakov:''' But I don't want any accolades or honors. I... I just want my family back. Oh father, why did you leave me behind in this world?
@@ -269,19 +272,30 @@
 :'''Paimon:''' Hmm... Honestly, there's some stuff that Paimon still wants to know, but whatever. At least we've finished this "errands for intel" trade, eh?
 ;(Quest completes)
 
-;(Talk to Agafya)
+;(Talk to Agafya again)
 :'''Agafya:''' The bulk of the troops have already left, and we're just about ready to leave as well...
 
-;(Talk to Chevka)
+;(Talk to Chevka again)
 :'''Chevka:''' Hehehe, that researcher Persikov, bossing us around and making us do all the hard work...
 :'''Chevka:''' Now that this experiment has failed, there'll be a fine show to watch once we get back for sure.
 
-;(Talk to Yakov)
+;(Talk to Yakov again)
 :'''Yakov:''' I am extremely grateful to you all but... I think it might still be too embarrassing to admit that I need "family"...
 
-;(Talk to Zakhar)
+;(Talk to Zakhar again)
 :'''Zakhar:''' It's kind of weird to think that we may become enemies again in the future...
 :'''Zakhar:''' But, friends can also be made even from amongst foes, right?
+
+;(Interact with "A Note" in the camp after the Fatui left)
+::'''A Note'''
+::I heard about how you helped me from my teammates. Thank you very much. If one day we are no longer enemies and instead fight side by side, I think we would make good comrades-in-arms.
+::&mdash; Yakov
+::I hope you will find the method I taught you of obtaining intel useful. Come to think of it, it's the only useful thing I've said!
+::&mdash; Agafya
+::My father once taught me that a real man's worth is seen in battle, so let's fight justly and honorably next time — and may the vanquished not begrudge the victor their success.
+::&mdash; Chevka
+::I leave you these four apples.
+::&mdash; Zakhar
 {{Dialogue end}}
 
 ==Video Guides==
@@ -312,10 +326,10 @@
 |fr      = Une conque égarée
 |fr_tl   = A Misplaced Conch
 |ru      = Раковина не на месте
-|ru_tl   = 
+|ru_tl   = A Misplaced Conch
 |th      = หอยสังข์ที่ถูกวางผิดตำแหน่ง
-|th_rm   = 
-|th_tl   = 
+|th_rm   = Hoi-sang thi Thuk Wang Phit Tam-naeng
+|th_tl   = A Misplaced Conch
 |vi      = Ốc Biển Sai Vị Trí
 |vi_tl   = 
 |de      = Eine verlegte Meeresschnecke
@@ -328,3 +342,6 @@
 
 ==Change History==
 {{Change History|2.8}}
+
+[[es:Unas caracolas fuera de lugar]]
+[[pt-br:Uma Concha Fora do Lugar]]

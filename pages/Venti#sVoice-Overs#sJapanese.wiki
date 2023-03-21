@@ -1,10 +1,10 @@
 {{CharacterTabs}}
 {{LanguageTabs}}
-{{Stub|{{Meta/VO|tl=1|Japanese}}}}
+{{Stub|1={{Meta/VO|tl=1}}}}
 __TOC__
 ==Story==
 {{VO/Story
-|character           = {{ROOTPAGENAME}}
+|character           = Venti
 |language            = ja
 |name                = ウェンティ
 
@@ -13,7 +13,7 @@ __TOC__
 |vo_01_01_subtitle   = Hello
 |vo_01_01_file       = VO_{language}{character} Hello.ogg
 |vo_01_01_tx         = ファ…よく寝た。あっ、こんにちは、旅人さん、ボクたちまた会ったね。ん？覚えてない？エヘヘ、それじゃあボクをまた君の旅に加えておくれ。君の実績は、世界最高の吟遊詩人であるボクが歌うにもってこいなんだよ～
-|vo_01_01_rm         = Fa... Yoku neta. A', konnichiwa, Tabibito-san, boku-tachi mata atta ne. N? Oboetenai? Ehehe, sore jaa boku wo mata kimi no tabi ni kuwaete okure. Kimi no jisseki wa, sekai saikou no ginyuu-shijin de aru boku ga utau ni mottekoi nanda yo~
+|vo_01_01_rm         = Fa... Yoku neta. A', konnichiwa, Tabibito-san, boku-tachi mata atta ne. N? Oboetenai? Ehehe, sore jaa boku wo mata kimi no tabi ni kuwaete okure. Kimi no jisseki wa, sekai saikou no gin'yuu shijin de aru boku ga utau ni mottekoi nan da yo~
 |vo_01_01_tl         = 
 
 <!-- Chats -->
@@ -113,14 +113,17 @@ __TOC__
 
 |vo_06_02_title      = 勇者について…
 |vo_06_02_subtitle   = About Us: Heroes
-|vo_06_02_tx         = {{A|VO_{language}{character} About Us - Heroes (Hero).ogg}} {{A|VO_{language}{character} About Us - Heroes (Heroine).ogg}} うん…うん…なるほど！エヘヘ、勇者が(姫/王子)を救い出したら、真っ先に大陸中にこの歌を広めるんだ。
-|vo_06_02_rm         = Un... Un... Naruhodo! Ehehe, yuusha ga (hime/ouji) wo sukuidashitara, massaki ni tairiku-juu ni kono uta wo hiromeru nda.
-|vo_06_02_actualtx   = うん…うん…なるほど！エヘヘ、勇者が{{Highlight|(お姫様/王子様)}}を救い出したら、真っ先に大陸中にこの歌を広めるんだ。
-|vo_06_02_actualrm   = Un... Un... Naruhodo! Ehehe, yuusha ga {{Highlight|(ohime-sama/ouji-sama)}} wo sukuidashitara, massaki ni tairiku-juu ni kono uta wo hiromeru nda.
+|vo_06_02_friendship = 6
+|vo_06_02_tx         = {{A|VO JA Venti About Us - Heroes (A).ogg}} {{A|VO JA Venti About Us - Heroes (B).ogg}} うん…うん…なるほど！エヘヘ、勇者が{{MC|姫|王子}}を救い出したら、真っ先に大陸中にこの歌を広めるんだ。
+|vo_06_02_rm         = Un... Un... Naruhodo! Ehehe, yuusha ga {{MC|hime|ouji}} wo sukuidashitara, massaki ni tairiku-juu ni kono uta wo hiromeru nda.
+|vo_06_02_actualtx   = うん…うん…なるほど！エヘヘ、勇者が{{Highlight|{{MC|お姫様|王子様}}}}を救い出したら、真っ先に大陸中にこの歌を広めるんだ。
+|vo_06_02_actualrm   = Un... Un... Naruhodo! Ehehe, yuusha ga {{Highlight|{{MC|ohime-sama|ouji-sama}}}} wo sukuidashitara, massaki ni tairiku-juu ni kono uta wo hiromeru nda.
 |vo_06_02_tl         = 
 
 |vo_06_03_title      = 使徒について…
 |vo_06_03_subtitle   = About Us: Apostles
+|vo_06_03_friendship = 6
+|vo_06_03_quest      = Song of the Dragon and Freedom
 |vo_06_03_file       = VO_{language}{character} About Us - Apostles.ogg
 |vo_06_03_tx         = 夜風が涼しくて、神の使徒になるのにピッタリの気候だよ！じゃあ善は急げって言うし、早速ボクに貢物を捧げてよ。
 |vo_06_03_rm         = Yokaze ga suzushikute, kami no shito ni naru no ni pittari no kikou da yo! Jaa zen wa isoge tte iu shi, sassoku boku ni mitsugimono wo sasagete yo.
@@ -128,6 +131,8 @@ __TOC__
 
 |vo_06_04_title      = 請求について…
 |vo_06_04_subtitle   = About Us: Requests
+|vo_06_04_friendship = 6
+|vo_06_04_quest      = Song of the Dragon and Freedom
 |vo_06_04_file       = VO_{language}{character} About Us - Requests.ogg
 |vo_06_04_tx         = あれ、風の神のボクにもっと頑張れって？それなら君も誠意を見せなくちゃ。例えば、敬虔さ、情熱、または……
 |vo_06_04_rm         = Are, Kaze no Kami no boku ni motto ganbare tte? Sore nara kimi mo seii wo misenakucha. Tatoeba, keiken-sa, jounetsu, mata wa......
@@ -135,7 +140,8 @@ __TOC__
 
 <!-- Miscellany I -->
 |vo_07_01_title      = 「神の目」について…
-|vo_07_01_subtitle   = About the Vision
+|vo_07_01_subtitle   = About the [[Vision]]
+|vo_07_01_friendship = 4
 |vo_07_01_file       = VO_{language}{character} About the Vision.ogg
 |vo_07_01_tx         = えっ？ボクの「神の目」が気になるの？うん…はい、どうぞ。気に入ったなら、同じやつを作ってあげようか？エヘヘッ。
 |vo_07_01_rm         = E'? Boku no "Kami no Me" ga ki ni naru no? Un... Hai, douzo. Ki ni itta nara, onaji yatsu wo tsukutte ageyou ka? Ehehe'.
@@ -145,171 +151,196 @@ __TOC__
 |vo_07_02_subtitle   = Something to Share
 |vo_07_02_file       = VO_{language}{character} Something to Share.ogg
 |vo_07_02_tx         = Olah！エヘヘ、これはヒルチャールの挨拶の言葉なんだよ。そんなの覚えて何するのかって？もう、創作のためだよ。当然ながら知識は多いに越したことがないからね。あっ、そう言えばボク、まだヒルチャール語の歌は書いたことがない気がするな…
-|vo_07_02_rm         = Olah! Ehehe, kore wa hiruchaaru no aisatsu no kotoba nanda yo. Sonna no oboete nani suru no ka tte? Mou, sousaku no tame da yo. Touzen nagara chishiki wa ooi ni koshita koto ga nai kara ne. A', sou ieba boku, mada hiruchaaru-go no uta wa kaita koto ga nai ki ga suru na...
+|vo_07_02_rm         = Olah! Ehehe, kore wa hiruchaaru no aisatsu no kotoba nan da yo. Sonna no oboete nani suru no ka tte? Mou, sousaku no tame da yo. Touzen nagara chishiki wa ooi ni koshita koto ga nai kara ne. A', sou ieba boku, mada hiruchaaru-go no uta wa kaita koto ga nai ki ga suru na...
 |vo_07_02_tl         = 
 
 |vo_07_03_title      = 興味のあること…
 |vo_07_03_subtitle   = Interesting Things
 |vo_07_03_file       = VO_{language}{character} Interesting Things.ogg
 |vo_07_03_tx         = 旅人さん、セシリアを見たことある？静かな山岳の頂上に黙々と咲く白い花だよ。ボクはセシリアこそがテイワットで一番美しい花だと思うんだ。
-|vo_07_03_rm         = Tabibito-san, Seshiria wo mita koto aru? Shizukana sangaku no choujou ni mokumoku-to saku shiroi hana da yo. Boku wa Seshiria koso ga Teiwatto de ichiban utsukushii hana da to omou nda.
+|vo_07_03_rm         = Tabibito-san, Seshiria wo mita koto aru? Shizuka-na sangaku no choujou ni mokumoku-to saku shiroi hana da yo. Boku wa Seshiria koso ga Teiwatto de ichiban utsukushii hana da to omou nda.
 |vo_07_03_tl         = 
 
 <!-- About Teammates -->
 |vo_08_01_title      = ジンについて…
 |vo_08_01_subtitle   = About [[Jean]]
+|vo_08_01_friendship = 4
 |vo_08_01_file       = VO_{language}{character} About Jean.ogg
 |vo_08_01_tx         = 騎士団の代理団長…君は彼女をどんな人物だと思う？エヘヘ、ボクと同じこと考えているね。真面目、勇敢、優しさに溢れている。ボクのある友人と少し似ているんだ…
-|vo_08_01_rm         = Kishidan no Dairi Danchou... Kimi wa kanojo wo donna jinbutsu da to omou? Ehehe, boku to onaji koto kangaete iru ne. Majime, yuukan, yasashisa ni afurete iru. Boku no aru yuujin to sukoshi niteiru nda...
+|vo_08_01_rm         = Kishi-dan no Dairi Danchou... Kimi wa kanojo wo donna jinbutsu da to omou? Ehehe, boku to onaji koto kangaete iru ne. Majime, yuukan, yasashisa ni afurete iru. Boku no aru yuujin to sukoshi niteiru nda...
 |vo_08_01_tl         = 
 
 |vo_08_02_title      = ディルックについて…
 |vo_08_02_subtitle   = About [[Diluc]]
+|vo_08_02_friendship = 4
 |vo_08_02_file       = VO_{language}{character} About Diluc.ogg
 |vo_08_02_tx         = ディルックのところに行って仲良くしておくのはどう？考えてごらんよ。彼の家には秘蔵のお酒が、たっくさんあるんだよ！エヘヘ、エヘへへへ…あれ、何でお酒を飲みたがらないの？その…ちょっと香りを嗅ぐだけなら？香りだけ！香りを嗅ぐだけなら君も大丈夫だよ。
-|vo_08_02_rm         = Dirukku no tokoro ni itte nakayoku shite oku no wa dou? Kangaete goran yo. Kare no ie ni wa hizou no osake ga, takkusan aru nda yo! Ehehe, ehehehehe... Are, nande osake wo nomitagaranai no? Sono... Chotto kaori wo kagu dake nara? Kaori dake! Kaori wo kagu dake nara kimi mo daijoubu da yo.
+|vo_08_02_rm         = Dirukku no tokoro ni itte nakayoku shite oku no wa dou? Kangaete goran yo. Kare no ie ni wa hizou no o-sake ga, takkusan aru nda yo! Ehehe, ehehehehe... Are, nande o-sake wo nomitagaranai no? Sono... Chotto kaori wo kagu dake nara? Kaori dake! Kaori wo kagu dake nara kimi mo daijoubu da yo.
 |vo_08_02_tl         = 
 
 |vo_08_03_title      = バーバラについて…
 |vo_08_03_subtitle   = About [[Barbara]]
+|vo_08_03_friendship = 4
 |vo_08_03_file       = VO_{language}{character} About Barbara.ogg
 |vo_08_03_tx         = 歌の上手な牧師の少女を知ってる？…えっ、アイドル？…んと、握手会？…えーっと、単独ライブ？…そうなんだ。音楽ってやっぱり奥が深いね。
-|vo_08_03_rm         = Uta no jouzu na bokushi no shoujo wo shitteru? ...E', aidoru? ...Nto, akushukai? ...Eetto, tandoku raibu? ...Sou nanda. Ongaku tte yappari oku ga fukai ne.
+|vo_08_03_rm         = Uta no jouzu-na bokushi no shoujo wo shitteru? ...E', aidoru? ...Nto, akushukai? ...Eetto, tandoku raibu? ...Sou nan da. Ongaku tte yappari oku ga fukai ne.
 |vo_08_03_tl         = 
 
 |vo_08_04_title      = レザーについて…
 |vo_08_04_subtitle   = About [[Razor]]
+|vo_08_04_friendship = 4
 |vo_08_04_file       = VO_{language}{character} About Razor.ogg
 |vo_08_04_tx         = あの奔狼領の白髪の少年は、へえ、そうなんだ。狼に育てられたのか…道理で、彼の匂いを懐かしく感じるわけだ…
-|vo_08_04_rm         = Ano Honrou-ryou no hakuhatsu no shounen wa, hee, sou nanda. Ookami ni sodaterareta no ka... Douri de, kare no nioi wo natsukashiku kanjiru wake da...
+|vo_08_04_rm         = Ano Honrou-ryou no hakuhatsu no shounen wa, hee, sou nan da. Ookami ni sodaterareta no ka... Douri de, kare no nioi wo natsukashiku kanjiru wake da...
 |vo_08_04_tl         = 
 
 |vo_08_05_title      = モナについて…
 |vo_08_05_subtitle   = About [[Mona]]
+|vo_08_05_friendship = 4
 |vo_08_05_file       = VO_{language}{character} About Mona.ogg
 |vo_08_05_tx         = あっ、あの占星術師のことかい？そうだね、占いもボクの詩と同じで、酒代すら稼げないほど役立たない技術だね！…星占いは伝統文化だから、役立たずじゃないって？うっ、失礼だよ、それなら詩だって役立つよ！
-|vo_08_05_rm         = A', ano senseijutsushi no koto kai? Sou da ne, uranai mo boku no uta to onaji de, sakadai sura kasegenai hodo yakudatanai gijitsu da ne! ...Hoshiuranai wa dentou bunka dakara, yakutatazu janai tte? U', shitsurei dayo, sore nara uta datte yakudatsu yo!
+|vo_08_05_rm         = A', ano senseijutsushi no koto kai? Sou da ne, uranai mo boku no uta to onaji de, sakadai sura kasegenai hodo yakudatanai gijitsu da ne! ...Hoshiuranai wa dentou bunka da kara, yakutatazu ja nai tte? U', shitsurei da yo, sore nara uta da tte yakudatsu yo!
 |vo_08_05_tl         = 
 
 |vo_08_06_title      = ディオナについて…
 |vo_08_06_subtitle   = About [[Diona]]
+|vo_08_06_friendship = 4
 |vo_08_06_file       = VO_{language}{character} About Diona.ogg
 |vo_08_06_tx         = キャッツテールの人気特製カクテル！でも…うっ、くしゃみが。ボクの代わりにもらってきてくれないかい？感謝するよ。約束だよ。
-|vo_08_06_rm         = Kyattsu Teeru no ninki tokusei kakuteru! Demo... U', kushami ga. Boku no kawari ni moratte kite kurenai kai? Kansha suru yo. Yakusoku da yo.
+|vo_08_06_rm         = Kyattsu Teeru no ninki tokusei kakuteru! De mo... U', kushami ga. Boku no kawari ni moratte kite kurenai kai? Kansha suru yo. Yakusoku da yo.
 |vo_08_06_tl         = 
 
 |vo_08_07_title      = アルベドについて…
 |vo_08_07_subtitle   = About [[Albedo]]
+|vo_08_07_friendship = 4
 |vo_08_07_file       = VO_{language}{character} About Albedo.ogg
 |vo_08_07_tx         = 黒土と白亜、宇宙と地層、無垢なる土から原初の人間を創る…こんなあまりにも行き過ぎた能力は看過できないよね。もし危険な古の技術が城内で暴走でもしたら&mdash;&mdash;まっ、いっか、モンドの問題はモンドの人に解決してもらおう。
-|vo_08_07_rm         = Kokudo to hakua, uchuu to chisou, mukunaru tsuchi kara gensho no ningen wo tsukuru... Konna amari ni mo ikisugita nouryoku wa kanka dekinai yo ne. Moshi kiken na inishie no gijutsu ga jounai de bousou demo shitara{{lmdash}} Ma', ikka, Mondo no mondai wa Mondo no hito ni kaiketsu shite moraou.
+|vo_08_07_rm         = Kokudo to hakua, uchuu to chisou, muku naru tsuchi kara gensho no ningen wo tsukuru... Konna amari ni mo ikisugita nouryoku wa kanka dekinai yo ne. Moshi kiken-na inishie no gijutsu ga jounai de bousou de mo shitara{{lmdash}} Ma', ikka, Mondo no mondai wa Mondo no hito ni kaiketsu shite moraou.
 |vo_08_07_tl         = 
 
 |vo_08_08_title      = モラクスについて…
 |vo_08_08_subtitle   = About [[Morax]]
+|vo_08_08_friendship = 4
+|vo_08_08_quest      = A New Star Approaches
 |vo_08_08_file       = VO_{language}{character} About Morax.ogg
-|vo_08_08_tx         = あのじいさんに会ったのかい？彼は元気だった？えっ、「鍾離」という名前の一般人になってた？あの頑固頭からしたら、これは大きな変化だろうね。あ、ボクと一緒に彼に会いに行こうよ、この風立ちの地に埋められた酒も持ってさ。あっ、そうだ、彼はまだ強いのかい？力はあとどれくらい残ってる？ボクが会いに行ったら、吹き飛ばされたりしないよね？
-|vo_08_08_rm         = Ano jiisan ni atta no kai? Kare wa genki datta? E', "Shouri" to iu namae no ippan-jin ni natteta? Ano ganko-atama kara shitara, kore wa ookina henka darou ne. A, boku to issho ni kare ni ai ni ikou yo, kono Kaze-tachi no Chi ni umerareta sake mo motte sa. A', souda, kare wa mada tsuyoi no kai? Chikara wa ato dore kurai nokotteru? Boku ga ai ni ittara, fukitobasaretari shinai yo ne?
+|vo_08_08_tx         = あのじいさんに会ったのかい？彼は元気だった？えっ、「鍾離」という名前の一般人になってた？あの頑固頭からしたら、これは大きな変化だろうね。ボクと一緒に彼に会いに行こうよ、この風立ちの地に埋められた酒も持ってさ。あっ、そうだ、彼はまだ強いのかい？力はあとどれくらい残ってる？ボクが会いに行ったら、吹き飛ばされたりしないよね？
+|vo_08_08_rm         = Ano jii-san ni atta no kai? Kare wa genki datta? E', "Shouri" to iu namae no ippan-jin ni natteta? Ano ganko-atama kara shitara, kore wa ookina henka darou ne. Boku to issho ni kare ni ai ni ikou yo, kono Kaze-tachi no Chi ni umerareta sake mo motte sa. A', sou da, kare wa mada tsuyoi no kai? Chikara wa ato dore kurai nokotteru? Boku ga ai ni ittara, fukitobasaretari shinai yo ne?
 |vo_08_08_tl         = 
 
 |vo_08_09_title      = エウルアについて…
 |vo_08_09_subtitle   = About [[Eula]]
+|vo_08_09_friendship = 4
 |vo_08_09_file       = VO_{language}{character} About Eula.ogg
 |vo_08_09_tx         = エウルアのお酒の趣味はなかなか面白いものだよ。夏でも冬でも氷を入れた冷たいのを飲むんだ。彼女みたいなのは、今のモンドにそういないだろうね。彼女とはいい飲み友達になれそうだよ。ん？ボクの作ったローレンス家の歌が…彼女の耳にも？あははっ、それがどうしたの？もしかしたら僕たち、一緒に歌えるかもしれないね。
-|vo_08_09_rm         = Eurua no osake no shumi wa nakanaka omoshiroi mono da yo. Natsu demo fuyu demo koori wo ireta tsumetai no wo nomu nda. Kanojo mitai na no wa, ima no Mondo ni sou inai darou ne. Kanojo to wa ii nomi-tomodachi ni nare sou da yo. N? Boku no tsukutta Roorensu-ke no uta ga... Kanojo no mimi ni mo? Ahaha', sore ga dou shita no? Moshika shitara boku-tachi, issho ni utaeru kamo shirenai ne.
+|vo_08_09_rm         = Eurua no o-sake no shumi wa nakanaka omoshiroi mono da yo. Natsu de mo fuyu de mo koori wo ireta tsumetai no wo nomu nda. Kanojo mitai na no wa, ima no Mondo ni sou inai darou ne. Kanojo to wa ii nomi-tomodachi ni nare sou da yo. N? Boku no tsukutta Roorensu-ke no uta ga... Kanojo no mimi ni mo? Ahaha', sore ga dou shita no? Moshi ka shitara boku-tachi, issho ni utaeru ka mo shirenai ne.
 |vo_08_09_tl         = 
 
 |vo_08_10_title      = バアルについて…
 |vo_08_10_subtitle   = About [[Raiden Shogun|Baal]]
+|vo_08_10_friendship = 4
+|vo_08_10_quest      = Omnipresence Over Mortals
 |vo_08_10_file       = VO_{language}{character} About Baal.ogg
-|vo_08_10_tx         = あの偉そうにしている雷電将軍を倒したんだって？うーん…彼女は影武者をやっていた頃から究極の武道を追い求めていた。だから今、きっと色んな理由を駆使して君を稽古に誘うだろうね。よし、じゃあこっそり君に彼女の弱点を教えてあげよう。ちょっと耳貸して——それはね～「スイーツ」だよ！
-|vo_08_10_rm         = Ano erasou ni shite iru Raiden Shougun wo taoshita nda tte? Uun... Kanojo wa kagemusha wo yatte ita koro kara kyuukyoku no budou wo oimotomete ita. Dakara ima, kitto ironna riyuu o kushi shite kimi wo keiko ni sasou darou ne. Yoshi, jaa kossori kimi ni kanojo no jakuten wo oshiete ageyou. Chotto mimi kashite{{lmdash}} Sore wa ne~ "Suiitsu" da yo!
+|vo_08_10_tx         = あの偉そうにしている雷電将軍を倒したんだって？うーん…彼女は影武者をやっていた頃から究極の武道を追い求めていた。だから今、きっと色んな理由を駆使して君を稽古に誘うだろうね。よし、じゃあこっそり君に彼女の弱点を教えてあげよう。ちょっと耳貸して&mdash;&mdash;それはね～「スイーツ」だよ！
+|vo_08_10_rm         = Ano erasou ni shite iru Raiden Shougun wo taoshita nda tte? Uun... Kanojo wa kagemusha wo yatte ita koro kara kyuukyoku no budou wo oimotomete ita. Da kara ima, kitto ironna riyuu wo kushi shite kimi wo keiko ni sasou darou ne. Yoshi, jaa kossori kimi ni kanojo no jakuten wo oshiete ageyou. Chotto mimi kashite{{lmdash}} Sore wa ne~ "Suiitsu" da yo!
 |vo_08_10_tl         = 
 
+|vo_08_11_title      = ブエルについて…
+|vo_08_11_subtitle   = About [[Lesser Lord Kusanali|Buer]]
+|vo_08_11_friendship = 4
+|vo_08_11_quest      = Akasha Pulses, the Kalpa Flame Rises
+|vo_08_11_file       = VO_{language}{character} About Buer.ogg
+|vo_08_11_tx         = 草神のこと？草神と言ったら、真っ先に彼女の「夢境」に関する権能を思いつくでしょ？ボクの作る詩歌と同じように、彼女の創造する夢境も浪漫と想像力に満ち溢れているんだ。ボクたち、すっごく気が合うんだよ。
+|vo_08_11_rm         = Soushin no koto? Soushin to ittara, massaki ni kanojo no "mukyou" ni kansuru kennou wo omoitsuku desho? Boku no tsukuru shika to onaji you ni, kanojo no souzou suru mukyou mo roman to souzouryoku ni michiafurete iru nda. Boku-tachi, suggoku ki ni au nda yo.
+|vo_08_11_tl         = 
+
 <!-- More About -->
-|vo_09_01_title      = ウェンティを知る・1
+|vo_09_01_title      = {name}を知る・1
 |vo_09_01_subtitle   = More About {character}: I
 |vo_09_01_file       = VO_{language}{character} More About {character} - 01.ogg
 |vo_09_01_tx         = ちょうどいいところに来たね、旅人さん。君の願いが何か聞かせてほしいんだ。
 |vo_09_01_rm         = Choudo ii tokoro ni kita ne, Tabibito-san. Kimi no negai ga nani ka kikasete hoshii nda.
 |vo_09_01_tl         = 
 
-|vo_09_02_title      = ウェンティを知る・2
+|vo_09_02_title      = {name}を知る・2
 |vo_09_02_subtitle   = More About {character}: II
+|vo_09_02_friendship = 3
 |vo_09_02_file       = VO_{language}{character} More About {character} - 02.ogg
 |vo_09_02_tx         = 君と一緒に旅をするのは面白いよ。気がかりな点を挙げるとすれば、君の傍にいるあのチビかな。あんなによく食べるんじゃ、君たちの食費もバカにならないだろう？アハハ。
-|vo_09_02_rm         = Kimi to issho ni tabi wo suru no wa omoshiroi yo. Kigakarina ten wo ageru to sureba, kimi no soba ni iru ano chibi kana. Anna ni yoku taberun ja, kimi-tachi no shokuhi mo baka ni naranai darou? Ahaha.
+|vo_09_02_rm         = Kimi to issho ni tabi wo suru no wa omoshiroi yo. Kigakari-na ten wo ageru to sureba, kimi no soba ni iru ano chibi ka na. Anna ni yoku taberu nja, kimi-tachi no shokuhi mo baka ni naranai darou? Ahaha.
 |vo_09_02_tl         = 
 
-|vo_09_03_title      = ウェンティを知る・3
+|vo_09_03_title      = {name}を知る・3
 |vo_09_03_subtitle   = More About {character}: III
+|vo_09_03_friendship = 4
 |vo_09_03_file       = VO_{language}{character} More About {character} - 03.ogg
 |vo_09_03_tx         = 火の神は横暴で戦い好き、岩の神は人の心が分からない頑固者だよ。どうしてこんなことを知っているのかって？エヘヘ、叙事詩の中にはっきりと書いてあるからね。彼らの物語、あの時代の物語が。
-|vo_09_03_rm         = Hi no Kami wa oubou de tatakai-zuki, Iwa no Kami wa hito no kokoro ga wakaranai ganko-mono dayo. Doushite konna koto wo shitte iru no ka tte? Ehehe, jojishi no naka ni hakkiri to kaite aru kara ne. Karera no monogatari, ano jidai no monogatari ga.
+|vo_09_03_rm         = Hi no Kami wa oubou de tatakai-zuki, Iwa no Kami wa hito no kokoro ga wakaranai ganko-mono da yo. Doushite konna koto wo shitte iru no ka tte? Ehehe, jojishi no naka ni hakkiri to kaite aru kara ne. Karera no monogatari, ano jidai no monogatari ga.
 |vo_09_03_tl         = 
 
-|vo_09_04_title      = ウェンティを知る・4
+|vo_09_04_title      = {name}を知る・4
 |vo_09_04_subtitle   = More About {character}: IV
+|vo_09_04_friendship = 5
 |vo_09_04_file       = VO_{language}{character} More About {character} - 04.ogg
 |vo_09_04_tx         = 天空の島か。ボクでもあそこまで飛べるか分からないよ。それにあそこには美味しい水も、木の実もないんだ。美味しいお酒なんてもってのほかだよ？ヘヘッ、あそこには頼まれたって行きたくないね。
-|vo_09_04_rm         = Tenkuu no Shima ka. Boku demo asoko made toberu ka wakaranai yo. Sore ni asoko ni wa oishii mizu mo, kinomi mo nai nda. Oishii osake nante motte no hoka dayo? Hehe', asoko ni wa tanomareta tte ikitakunai ne.
+|vo_09_04_rm         = Tenkuu no Shima ka. Boku de mo asoko made toberu ka wakaranai yo. Sore ni asoko ni wa oishii mizu mo, kinomi mo nai nda. Oishii o-sake nante motte no hoka da yo? Hehe', asoko ni wa tanomareta tte ikitakunai ne.
 |vo_09_04_tl         = 
 
-|vo_09_05_title      = ウェンティを知る・5
+|vo_09_05_title      = {name}を知る・5
 |vo_09_05_subtitle   = More About {character}: V
+|vo_09_05_friendship = 6
 |vo_09_05_file       = VO_{language}{character} More About {character} - 05.ogg
 |vo_09_05_tx         = ボクの願い事？うん、昔はこの世界全体を巡りたいと思っていたよ。今も同じさ。ただ、条件が一つ増えただけ。それは君と一緒にってことさ。君がいてこそ完璧なんだ。やっぱり語り手は冒険者と一緒にいないと、エヘへへ！
-|vo_09_05_rm         = Boku no negaigoto? Un, mukashi wa kono sekai zentai wo meguritai to omotte ita yo. Ima mo onaji sa. Tada, jouken ga hitotsu fueta dake. Sore wa kimi to issho ni tte koto sa. Kimi ga ite koso kanpeki nanda. Yappari katarite wa bouken-sha to issho ni inai to, ehehehe!
+|vo_09_05_rm         = Boku no negaigoto? Un, mukashi wa kono sekai zentai wo meguritai to omotte ita yo. Ima mo onaji sa. Tada, jouken ga hitotsu fueta dake. Sore wa kimi to issho ni tte koto sa. Kimi ga ite koso kanpeki nan da. Yappari katarite wa bouken-sha to issho ni inai to, ehehehe!
 |vo_09_05_tl         = 
 
 <!-- Miscellany II -->
-|vo_10_01_title      = ウェンティの趣味…
+|vo_10_01_title      = {name}の趣味…
 |vo_10_01_subtitle   = {character}'s Hobbies
 |vo_10_01_file       = VO_{language}{character} Hobbies.ogg
 |vo_10_01_tx         = ボクはお酒が好きなんだ！あと風もね！うーん、風でできたお酒があったらいいのに。
-|vo_10_01_rm         = Boku wa osake ga suki nanda! Ato kaze mo ne! Uun, kaze de dekita osake ga attara ii no ni.
+|vo_10_01_rm         = Boku wa o-sake ga suki-na nda! Ato kaze mo ne! Uun, kaze de dekita o-sake ga attara ii no ni.
 |vo_10_01_tl         = 
-|vo_10_02_title      = ウェンティの悩み…
+|vo_10_02_title      = {name}の悩み…
 |vo_10_02_subtitle   = {character}'s Troubles
 |vo_10_02_file       = VO_{language}{character} Troubles.ogg
 |vo_10_02_tx         = 実は、猫が近くにいるだけでくしゃみが止まらなくなるんだ…ハ、ハハ、ハクションッ！うーん…想像するだけでもダメだ…もう、これってどうすれば治るか知らない？
-|vo_10_02_rm         = Jitsu wa, neko ga chikaku ni iru dake de kushami ga tomaranaku naru nda... Ha, haha, hakushon'! Uun... Souzou suru dake demo dame da... Mou, kore tte dou sureba naoru ka shiranai?
+|vo_10_02_rm         = Jitsu wa, neko ga chikaku ni iru dake de kushami ga tomaranaku naru nda... Ha, haha, hakushon'! Uun... Souzou suru dake de mo dame da... Mou, kore tte dou sureba naoru ka shiranai?
 |vo_10_02_tl         = 
 
 |vo_10_03_title      = 好きな食べ物…
 |vo_10_03_subtitle   = Favorite Food
 |vo_10_03_file       = VO_{language}{character} Favorite Food.ogg
 |vo_10_03_tx         = 君も一つリンゴをどう？もぎたてだよ。ガブッ、あぁ…シャクシャクしていて甘い。リンゴこそが神からの贈りものだよね！
-|vo_10_03_rm         = Kimi mo hitotsu ringo wo dou? Mogitate dayo. Gabu', aa... shakushaku shiteite amai. Ringo koso ga kami kara no okuri mono dayo ne!
+|vo_10_03_rm         = Kimi mo hitotsu ringo wo dou? Mogitate da yo. Gabu', aa... shakushaku shiteite amai. Ringo koso ga kami kara no okuri mono da yo ne!
 |vo_10_03_tl         = 
 
 |vo_10_04_title      = 嫌いな食べ物…
 |vo_10_04_subtitle   = Least Favorite Food
 |vo_10_04_file       = VO_{language}{character} Least Favorite Food.ogg
 |vo_10_04_tx         = 何か美味しいものを作っているのかい？おや～？チーズパンケーキ！これは…これはダメ。熱くてベタベタしていて。うー…ボクにはクドすぎるんだよ…
-|vo_10_04_rm         = Nani ka oishii mono wo tsukutte iru no kai? Oya~? Chiizu pankeeki! Kore wa... Kore wa dame. Atsukute betabeta shiteite. Uu... Boku ni wa kudosugiru nda yo.
+|vo_10_04_rm         = Nani ka oishii mono wo tsukutte iru no kai? Oya~? Chiizu pankeeki! Kore wa... Kore wa dame. Atsukute betabeta shiteite. Uu... Boku ni wa kudosugiru nda yo...
 |vo_10_04_tl         = 
 
 <!-- Receiving a Gift -->
-|vo_11_01_title      = 贈り物を受け取る·1
+|vo_11_01_title      = 贈り物を受け取る・1
 |vo_11_01_subtitle   = Receiving a Gift: I
 |vo_11_01_file       = VO_{language}{character} Receiving a Gift - 01.ogg
 |vo_11_01_tx         = ふぅ、満足、満足！明日もあるんだよね？それから明後日も！
 |vo_11_01_rm         = Fuu, manzoku, manzoku! Ashita mo aru nda yo ne? Sore kara asatte mo!
 |vo_11_01_tl         = 
 
-|vo_11_02_title      = 贈り物を受け取る·2
+|vo_11_02_title      = 贈り物を受け取る・2
 |vo_11_02_subtitle   = Receiving a Gift: II
 |vo_11_02_file       = VO_{language}{character} Receiving a Gift - 02.ogg
 |vo_11_02_tx         = ふぅ、お腹いっぱい。食後のフルーツも食べられそうにないや…
 |vo_11_02_rm         = Fuu, onaka-ippai. Shokugo no furuutsu mo taberaresou ni nai ya...
 |vo_11_02_tl         = 
 
-|vo_11_03_title      = 贈り物を受け取る·3
+|vo_11_03_title      = 贈り物を受け取る・3
 |vo_11_03_subtitle   = Receiving a Gift: III
 |vo_11_03_file       = VO_{language}{character} Receiving a Gift - 03.ogg
 |vo_11_03_tx         = このボクですら苦手な料理だなんて。うぅ…困っちゃったな。
-|vo_11_03_rm         = Kono boku de sura nigate na ryouri da nante. Uu... Komacchatta na.
+|vo_11_03_rm         = Kono boku de sura nigate-na ryouri da nante. Uu... Komacchatta na.
 |vo_11_03_tl         = 
 
 <!-- Birthday-->
@@ -317,39 +348,43 @@ __TOC__
 |vo_12_01_subtitle   = Birthday
 |vo_12_01_file       = VO_{language}{character} Birthday.ogg
 |vo_12_01_tx         = 以前、友達から誕生日はケーキを食べるって聞いたんだ…ほら、リンゴケーキだよ。はい、スプーン。焼き上げる時に少し崩れちゃったからアップルパイみたいだけどね。エヘ、スイーツって本当に難しいね。
-|vo_12_01_rm         = Izen, tomodachi kara tanjoubi wa keeki wo taberu tte kiita nda... Hora, ringo keeki dayo. Hai, supuun. Yakiageru toki ni sukoshi kuzurechatta kara appuru pai mitai dakedo ne. Ehe, suiitsu tte hontou ni muzukashii ne.
+|vo_12_01_rm         = Izen, tomodachi kara tanjoubi wa keeki wo taberu tte kiita nda... Hora, ringo keeki da yo. Hai, supuun. Yakiageru toki ni sukoshi kuzurechatta kara appuru pai mitai da kedo ne. Ehe, suiitsu tte hontou ni muzukashii ne.
 |vo_12_01_tl         = 
 
 <!-- Feelings About Ascension -->
 |vo_13_01_title      = 突破した感想・起
 |vo_13_01_subtitle   = Feelings About Ascension: Intro
-|vo_13_01_file       = VO_{language}{character} Feelings About Ascension -  01.ogg
+|vo_13_01_ascension  = 1
+|vo_13_01_file       = VO_{language}{character} Feelings About Ascension - 01.ogg
 |vo_13_01_tx         = えっ、今なにかあったの！？
 |vo_13_01_rm         = E', ima nani ka atta no!?
 |vo_13_01_tl         = 
 |vo_13_02_title      = 突破した感想・承
 |vo_13_02_subtitle   = Feelings About Ascension: Building Up
-|vo_13_02_file       = VO_{language}{character} Feelings About Ascension -  02.ogg
+|vo_13_02_ascension  = 2
+|vo_13_02_file       = VO_{language}{character} Feelings About Ascension - 02.ogg
 |vo_13_02_tx         = お疲れ～音楽を聴いてリラックスしようか？カプリチオがいい？それともセレナーデ？
-|vo_13_02_rm         = Otsukare~ Ongaku wo kiite rirakkusu shiyou ka? Kapurichio ga ii? Sore tomo serenaade?
+|vo_13_02_rm         = O-tsukare~ Ongaku wo kiite rirakkusu shiyou ka? Kapurichio ga ii? Sore tomo serenaade?
 |vo_13_02_tl         = 
 |vo_13_03_title      = 突破した感想・転
 |vo_13_03_subtitle   = Feelings About Ascension: Climax
-|vo_13_03_file       = VO_{language}{character} Feelings About Ascension -  03.ogg
+|vo_13_03_ascension  = 4
+|vo_13_03_file       = VO_{language}{character} Feelings About Ascension - 03.ogg
 |vo_13_03_tx         = さあ、こっちにおいで～新しい詩を作ったよ、タイトルは『旅人の風』にしようか。
 |vo_13_03_rm         = Saa, kocchi ni oide~ Atarashii uta wo tsukutta yo, taitoru wa "Tabibito no Kaze" ni shiyou ka.
 |vo_13_03_tl         = 
 |vo_13_04_title      = 突破した感想・結
 |vo_13_04_subtitle   = Feelings About Ascension: Conclusion
-|vo_13_04_file       = VO_{language}{character} Feelings About Ascension -  04.ogg
+|vo_13_04_ascension  = 6
+|vo_13_04_file       = VO_{language}{character} Feelings About Ascension - 04.ogg
 |vo_13_04_tx         = うーん…この景色は何度も目にしてきたのに、君が隣りにいるとまるで新しいものに見えるんだ。まさか君…不思議な力を隠し持ってたりしないよね？…あっ、それでもいいや、ボクの人を見る目が確かだってことだもんね、エヘヘッ！
-|vo_13_04_rm         = Uun... Kono keshiki wa nando mo me ni shite kita no ni, kimi ga tonari iru to maru de atarashii mono ni mieru nda. Masaka kimi... fushigi na chikara wo kakushimottetari shinai yo ne? ...A', sore demo ii ya, boku no hito wo miru me ga tashika da tte koto da mon ne, ehehe'!
+|vo_13_04_rm         = Uun... Kono keshiki wa nando mo me ni shite kita no ni, kimi ga tonari iru to maru de atarashii mono ni mieru nda. Masaka kimi... fushigi-na chikara wo kakushimottetari shinai yo ne? ...A', sore de mo ii ya, boku no hito wo miru me ga tashika da tte koto da mon ne, ehehe'!
 |vo_13_04_tl         = 
 }}
 
 ==Combat==
 {{Combat VO
-|character           = {{ROOTPAGENAME}}
+|character           = Venti
 |language            = ja
 |skill_1_tx          = ふぅ～
 |skill_1_tl          = Phew~
@@ -387,10 +422,10 @@ __TOC__
 |chest_1_rm          = Kohon', koko de ikkyoku, "Takarabako no Uta"!
 |chest_2_tx          = てへっ、「風神のご加護」ってやつ？
 |chest_2_tl          = Hehe, is this what you'd call "Barbatos' Blessing"?
-|chest_2_rm          = Tehe', "Fuujin no Gokago" tte yatsu?
+|chest_2_rm          = Tehe', "Fuujin no Go-kago" tte yatsu?
 |chest_3_tx          = お酒が何本も買えるね～
 |chest_3_tl          = You can buy many bottles of alcohol~
-|chest_3_rm          = Osake ga nanbon mo kaeru ne~
+|chest_3_rm          = O-sake ga nanbon mo kaeru ne~
 
 |low-hp_1_tx         = 待って、これじゃ面白くないよ！
 |low-hp_1_tl         = Wait, it's not fun like this!
@@ -402,6 +437,12 @@ __TOC__
 |low-hp_3_tl         = How terrible!
 |low-hp_3_rm         = Hidoi yo.
 
+|ally-low-hp_1_tx    = ボクに任せて～
+|ally-low-hp_1_tl    = Leave it to me~
+|ally-low-hp_1_rm    = Boku ni makasete~
+|ally-low-hp_2_tx    = まだ諦めちゃダメだよ。
+|ally-low-hp_2_tl    = You can't give up yet.
+|ally-low-hp_2_rm    = Mada akiramecha dame da yo.
 
 |fallen_1_tx         = 少し寝よう…
 |fallen_1_tl         = I'm gonna sleep for a bit...

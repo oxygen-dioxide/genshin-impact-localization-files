@@ -1,15 +1,26 @@
 {{Enemy Infobox
 |image    = Enemy Electro Cicin.png
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = no
 |type     = Common Enemies
 |family   = Mystical Beasts
 |group    = Cicins
 |location = Multiple
 }}
-{{Description|Little creatures that can ever so slightly manipulate Electro.<br />They and other such creatures are known collectively as Cicins, and though they are individually weak, they can cause significant damage under the right circumstances.|[[Archive]]}}
 {{Enemy Intro}}
+
 ==Drops==
-{{Drops|Cicins}}
+===Items===
+{{Drops Table|type=Cicins}}
+
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -21,13 +32,11 @@
 }}
 
 ==Abilities and Attacks==
-*'''Electro Bolt:''' Fires a bolt at the player, dealing '''100% ATK''' as {{Color|Electro DMG}}.
-
-===Preview===
-{{Preview
-|size=185px
-|file=Electro Cicin Bolt
-|caption=Electro Bolt
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Electro Bolt
+|desc_1 = Fires a bolt at the player, dealing '''100% ATK''' as {{Color|Electro DMG}}.
+|file_1 = Electro Cicin Bolt
 }}
 
 ==Locations==
@@ -35,8 +44,11 @@ Cicins' locations cannot be pinpointed by using the [[Adventurer Handbook]], as 
 *Electro Cicins can be found near [[Guyun Stone Forest]].
 *[[Fatui Electro Cicin Mage]]s always summon three Electro Cicins.
 
+==Descriptions==
+{{Description|Little creatures that can ever so slightly manipulate Electro.<br />They and other such creatures are known collectively as Cicins, and though they are individually weak, they can cause significant damage under the right circumstances.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Electro Cicin Icon.png|Icon
 </gallery>
 
@@ -68,6 +80,10 @@ Enemy Electro Cicin Icon.png|Icon
 |id      = Electro Cicin
 |pt      = Cicin Electro
 |pt_tl   = Electro Cicin
+|tr      = Elektrik Cicin
+|tr_tl   = 
+|it      = Cicin di Electro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -76,6 +92,9 @@ Enemy Electro Cicin Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Elektro-Cicin]]
 [[es:Cicin Electro]]
-[[ru:Электро цицин]]
+[[ja:雷蛍]]
 [[pt-br:Cicin Electro]]
+[[ru:Электро цицин]]
+[[vi:Cicin Lôi]]

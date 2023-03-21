@@ -1,2 +1,142 @@
-#redirect [[Auras]]
-[[Category:Redirect Pages]]
+{{About|special effects attached to enemies|elemental auras|Elemental Gauge Theory}}
+{{Terminology Infobox
+|image        = Tutorial Adventure Slowing Water.png
+|caption      = The Hydro special effect, Slowing Water
+|type         = Combat
+}}
+Within the [[Spiral Abyss]] and certain [[Domains]], monsters may have an aura that can cast special effects.
+
+==Debuff Abilities==
+{{See also|Ley Line Disorder|Domains|Status}}
+*The aura from enemies will apply its debuff to the in-range characters currently on the field. Once you switch the on-field character to next character, the debuff will be inherited by next character.
+**The effect of auras from enemies only influence the characters currently on the field.
+**When the element gauges of the aura is depleted, auras and debuffs on characters will disappear immediately.
+*The interval between each pulse is '''15''' seconds.
+**After starting the challenge, it takes 15 seconds for the enemy to release the first pulse.
+*Elemental debuffs are marked with the element in question inside of a prohibitory 🚫 symbol.
+
+The duration of the aura from enemies is '''not''' determined by the elemental gauge of the aura.
+*The durations of auras are  '''20''' seconds.
+*The [[Elemental Gauge Theory|gauges]] of the elemental status applied by the debuffs is '''1 unit'''.
+*Durations of auras from enemies '''cannot''' reduced by [[Elemental Resonance]] or [[Artifacts]].
+*The {{Color|Pyro DMG}} from Smoldering Flames has '''0''' Pyro.
+
+{| class="article-table tdc2"
+! Name !! Element !! Effect !! Applied Gauge Units !! Duration !! Application Interval
+|-
+| [[Smoldering Flames]] || {{Element|Pyro}} || Deals '''0.6 × [[Level Scaling/Reaction#Level Multiplier|Level Multiplier]]''' as {{Color|Pyro DMG}} per second. This DMG does not apply Pyro. || 1 || 20 || 15
+|-
+| [[Slowing Water]] || {{Element|Hydro}} || [[Elemental Skill]] and [[Elemental Burst]] [[CD]] '''+100%'''. || 1 || 20 || 15
+|-
+| [[Engulfing Storm]] || {{Element|Electro}} || Drains '''5''' [[Energy]] every 3 seconds. || 1 || 20 || 15
+|-
+| [[Condensed Ice]] || {{Element|Cryo}} || [[Stamina]] Consumption '''+100%'''. || 1 || 20 || 15
+|}
+
+==Damage Abilities==
+The names of these abilities come from the official update log.<ref>HoYoverse News: [https://genshin.mihoyo.com/m/en/news/detail/9368 Version 1.4 Update Details]</ref>
+
+* Damage is determined by the base multiplier of the ability, the [[Level Scaling/Reaction#Level Multiplier|Level Multiplier]], and the [[RES]] of the target to the damage type. The DMG dealt by these abilities is not affected by the target's [[DEF]] or [[DMG Reduction]].
+** For calculations,<br /><math>\text{Damage} = (\text{Base Multiplier} \times \text{Level Multiplier} \times \text{RES Multiplier})</math>
+* The durations of the elemental statuses applied on characters is determined by the [[gauge unit]], which functions identically to those applied by characters.
+* Defeating the enemy that cast the skill will immediately cause the skill's effects to despawn. (This does not include any damage or elements already afflicted by these effects; e.g., Pursuing Fireball will disappear, but any character who was previously hit by it will still be affected by Pyro.)
+* The skills have a fixed cooldown.
+
+{| class="article-table"
+|-
+! style="width:120px;" | Name
+! Element
+! Effect
+! Gauge Units of DMG
+! Base Multiplier
+! Cooldown
+|-
+| [[Tracking Fire Ball]]
+| style="text-align:center;" |{{Icon/Element|Pyro}}
+| A fireball will trace the on-field character and deal {{Color|Pyro DMG}} per 0.7 seconds to the character in range. The attack has 3 waves and the duration is 1.6 seconds per wave.
+| 2U
+| 150%
+| 20 s
+|-
+| [[Mist Bubble (Aura)|Mist Bubble]]
+| style="text-align:center;" |{{Icon/Element|Hydro}}
+| 4 bubbles will appear around and deal {{Color|Hydro DMG}} when a character touches them. When the character crosses the gap between any 2 bubbles, another 4 bubbles will appear outside.
+| 2U
+| 300%
+| 12 s
+|-
+| [[Lightning Bolt Matrix]]
+| style="text-align:center;" |{{Icon/Element|Electro}}
+| 2 lightning chains will appear and deal {{Color|Electro DMG}} per 0.2 seconds when a character touches them.
+| 1U
+| 60%
+| 12 s
+|-
+| [[Freezing Filament]]
+| style="text-align:center;" |{{Icon/Element|Cryo}}
+| A ice claw-shaped cage will appear from the foot of the on-field character and deal {{Color|Cryo DMG}} per second when a character touches them.
+| 1U
+| 400%
+| 12 s
+|-
+| [[Whirling Traction]]
+| style="text-align:center;" |{{Icon/Element|Anemo}}
+| A wind core will appear and will deal {{Color|Anemo DMG}} per 0.4 second to the character in range. After 1.6 seconds, the core will explode and deal {{Color|Anemo DMG}} to the character in range.
+| 1U (DoT) / 2U (Explosion)
+| 100% (DoT) / 300% (Explosion)
+| 12 s
+|-
+| [[Rumbling Stone]]
+| style="text-align:center;" |{{Icon/Element|Geo}}
+| 2 rock waves will cross the ground and deal {{Color|Geo DMG}} when a character touches them.
+| 1U
+| 200%
+| 15 s
+|-
+| [[Conductive]]
+| style="text-align:center;" |{{Icon/Element|Electro}}
+| Lightning attacks will occur around (enemy), dealing {{Color|Electro DMG}} to characters who are hit.
+| 1U
+| 400%
+| 
+|-
+| [[Discharge]]
+| style="text-align:center;" |{{Icon/Element|Hydro}} {{Icon/Element|Cryo}} {{Icon/Element|Electro}}
+| A shockwave will release and deal {{Color|Hydro DMG}}, {{Color|Cryo DMG}} or {{Color|Electro DMG}} when a character is hit. The element of the shockwave is fixed in each enemy.
+| 2U
+| 400%
+| 15 s
+|-
+| [[Wild Shriek]]
+| style="text-align:center;" |{{Icon/Element|Dendro}}
+| Creates Dendro vortexes that will deal {{Color|Dendro DMG}} per 0.3 seconds to characters they hit.
+| 1U
+| 200%
+|
+|}
+
+==Enemy Buffs==
+{| class="article-table"
+|-
+! Name
+! Effect
+|-
+| [[Self-Repair]]
+| (Enemies) have incredible regenerative capabilities. When their HP falls under (50/30/15)%, they will recover (40/50)% of their HP after (6/10)s. This effect can be triggered once by each (Enemy).
+|-
+| [[Attendants]]
+| Each Attendant will increase the Leader's Element RES and Physical RES by 10%. The Attendants will restore the Leader's HP every (12/20)s, with each Attendant restoring (5/10)% HP, When there are no Attendants. the Leader will not have any of the above enhancement and restoration effects.
+|}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist|1}}
+
+==Navigation==
+{{Element Navbox|state=collapsed}}
+{{Combat Navbox}}
+
+[[ja:オーラ]]
+[[pt-br:Auras]]

@@ -1,17 +1,35 @@
 {{Enemy Infobox
 |image    = Enemy Thunderhelm Lawachurl.png
-|element  = Electro
+|dmgtype  = Physical
+|dmgtype2 = Electro
+|weakpoint = yes
 |family   = Hilichurls
 |group    = Lawachurls
 |type     = Elite Enemies
 |title    = Storm-Sealed Lawachurl
 |ability1 = Shield
 }}
-{{Description|A mysterious "lord" of hilichurls that strides through the thunderstorm.<br />This huge hilichurl is referred to as "Lawa" by its brethren. Its giant body is saturated with Electro energy, while the Elemental Energy seeps through the cracks in its body in the form of Electro Crystal growths.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Lawachurls}}
+===Items===
+{{Drops Table|type=Lawachurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|p1    = 3
+|o1    = 1
+|hp2   = 50
+|p2    = 3
+|o2    = 1
+|hp3   = 25
+|p3    = 3
+|o3    = 1
+|hp4   = 0
+|p4    = 3
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -19,87 +37,84 @@
 |electro_res  = 70%
 |hp_type      = 1
 |hp_ratio     = 9
-|atk_ratio    = 6
+|atk_ratio    = 12
 }}
 
 ==Abilities and Attacks==
-* '''Punches:''' Roars and performs a punch with its left arm. It occasionally combos with both arms and slams the ground, dealing '''75% ATK''' and '''80% ATK''' as {{Color|AoE Electro DMG}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Electro Lawachurl
 
-* '''Electro Enhanced State:''' Generates an {{Electro}} shield, granting itself more powerful attacks. This shield will degrade over 90 seconds and can be further damaged using [[Elemental Reactions]]. {{Pyro}} and {{Cryo}} are most effective against the shield.
+|name_1 = Plama Lawa
+|file_1 = Electro Lawachurl Punches
+|desc_1 = Roars and performs a punch with its left arm. It occasionally combos with both arms and slams the ground, dealing '''37.5% ATK''' and '''40% ATK''' as {{Color|AoE Electro DMG}}.
 
-* '''Dash:''' Quickly charges at the player, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} to players in its path. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
+|name_2 = Infused Thunderhelm
+|file_2 = Electro Lawachurl Electro Enhanced State
+|desc_2 = Generates an {{Electro}} shield and enters an '''Electro Enhanced State''' for as long as the shield is active. Under this state, it will use more powerful attacks. This shield will degrade over 90 seconds and can be further damaged using [[Elemental Reactions]]. {{Pyro}}, {{Cryo}}, and {{Dendro}} are most effective against the shield.
+{{Elemental Shield Data|Electro|18}}
 
-* '''Charged Dash:''' Quickly charges at the player after charging, dealing '''125% ATK''' as {{Color|AoE Electro DMG}} to players in its path. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
+|name_3 = Thunder Berserker
+|desc_3 = When in its '''Electro Enhanced State''', the Thunderhelm Lawachurl may roar and proceed to use its attacks in much quicker succession. Starting with '''Upa Shato''', then following up with '''Surprise Dash''', and finishing up with '''Shockwave'''.
 
-* '''Charged Punch:''' Charges and swings its fist at the player with great force, dealing '''75% ATK''' as {{Color|AoE Electro DMG}}. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
+|name_4 = Movo Lawa
+|desc_4 = The Thunderhelm Lawachurl charges at its target, dealing damage along its path. The windup time and damage are different depending on the variant used and these attacks are only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
+* '''Charged Dash:''' Powers up before dashing at the player, dealing '''62.5% ATK''' as {{Color|AoE Electro DMG}} to players in its path.
+* '''Head Ram:''' Quickly dashes at the player, dealing '''50% ATK''' as {{Color|AoE Electro DMG}} to players in its path.
+|file_4 = Electro Lawachurl Charged Dash
+|caption_4 = Charged Dash
+|file_4_2 = Electro Lawachurl Head Ram
+|caption_4_2 = Head Ram
 
-* '''Shockwave:''' Roars and slams both hands into the ground twice, creating a shockwave and dealing '''100% ATK''' and '''125% ATK''' respectively as {{Color|AoE Electro DMG}} with each slam. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
+|name_5 = Charged Punch
+|desc_5 = Charges and swings its fist at the player with great force, dealing '''37.5% ATK''' as {{Color|AoE Electro DMG}}. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
+|file_5 = Electro Lawachurl Charged Punch
 
-* '''Jumping Slam:''' Roars and jumps into the air, slamming down at the player's position, dealing '''200% ATK''' as {{Color|AoE Physical DMG}}. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
+|name_6 = Shockwave
+|desc_6 = Roars and slams both hands into the ground twice, creating a shockwave and dealing '''50% ATK''' and '''62.5% ATK''' respectively as {{Color|AoE Electro DMG}} with each slam. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
 
-* '''Surprise Dash:''' The Thunderhelm Lawachurl suddenly charges at its target without any warning signs, dealing '''125% ATK''' as {{Color|Electro DMG}}. This attack is performed as a follow-up to '''Jumping Slam''' if the player is behind the Lawachurl after said attack. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
+|name_7 = Upa Shato
+|file_7 = Electro Lawachurl Jumping Slam
+|desc_7 = Roars and jumps into the air, slamming down at the player's position, dealing '''100% ATK''' as {{Color|AoE Physical DMG}}.
 
-* '''Slime Throw:''' If the player is at a higher elevation or too far away, the Lawachurl will roar and grab a [[Large Electro Slime]] or [[Mutant Electro Slime]] from the ground, throwing it at the player, dealing '''125% ATK''' as {{Color|AoE Electro DMG}}. If a Mutant Electro Slime is thrown, it will cause three subsequent explosions after the main one, each dealing '''100% ATK''' as {{Color|AoE Electro DMG}}. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
+|name_8 = Surprise Dash
+|desc_8 = The Thunderhelm Lawachurl will suddenly dash at its target without any warning signs, dealing '''62.5% ATK''' as {{Color|Electro DMG}}. This attack is only performed as a follow-up to '''Jumping Slam''' if its used when '''Thunder Berserker''' is casted. This attack is only performed when the Thunderhelm Lawachurl is in the '''Electro Enhanced State'''.
 
-* '''Electro Shards:''' While in the Electro Enhanced State, the Thunderhelm Lawachurl's attacks will leave Electro shards on the ground. These shards can be destroyed by Elemental Reactions and [[Blunt Attack|heavy attack]]s, and are particularly vulnerable to Pyro and Cryo attacks. If not destroyed after a certain period of time, the shards will explode, dealing '''100% ATK''' as {{Color|AoE Electro DMG}}.
+|name_9 = Slime Throw
+|desc_9 = If the player is at a higher elevation or too far away, the Lawachurl will roar and grab a [[Large Electro Slime]] or [[Mutant Electro Slime]] from the ground, throwing it at the player, dealing '''62.5% ATK''' as {{Color|AoE Electro DMG}}. If a Mutant Electro Slime is thrown, it will cause three subsequent explosions after the main one, each dealing '''50% ATK''' as {{Color|AoE Electro DMG}}. If the Thunderhelm Lawachurl is not in the '''Electro Enhanced State''', throws 1 [[Electro Slime|Electro Slime]] toward the player, dealing '''50% ATK''' as {{Color|AoE Electro DMG}}.
+|file_9 = Electro Lawachurl Slime Throw Large
+|caption_9 = Large Electro Slime
+|file_9_2 = Electro Lawachurl Slime Throw Mutant
+|caption_9_2 = Mutant Electro Slime
+|file_9_3 = Electro Lawachurl Slime Throw Small
+|caption_9_3 = Electro Slime
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Electro Lawachurl Punches
-|caption1 = Punches
-
-|file2    = Electro Lawachurl Electro Enhanced State
-|caption2 = Electro Enhanced State
-
-|file3    = Electro Lawachurl Dash
-|caption3 = Charged Dash
-
-|file4    = Electro Lawachurl Charged Punch
-|caption4 = Charged Punch
-
-|file5    = Electro Lawachurl Shockwave
-|caption5 = Shockwave
-
-|file6    = Electro Lawachurl Jumping Slam
-|caption6 = Jumping Slam
-
-|file7    = Electro Lawachurl Surprise Dash
-|caption7 = Surprise Dash
-
-|file8    = Electro Lawachurl Slime Throw Large
-|caption8 = Slime Throw (Large Electro Slime)
-
-|file9    = Electro Lawachurl Slime Throw Mutant
-|caption9 = Slime Throw (Mutant Electro Slime)
-
-|file10    = Electro Lawachurl Electro Shards
-|caption20 = Electro Shards
+|name_10 = Electro Shards
+|desc_10 = While in the Electro Enhanced State, the Thunderhelm Lawachurl's attacks will leave Electro shards on the ground. These shards are Electro objects that can be destroyed by Elemental Reactions, and are weakest to {{Pyro}}, {{Cryo}}, and {{Dendro}}. If not destroyed after a certain period of time, the shards will explode, dealing '''50% ATK''' as {{Color|AoE Electro DMG}}.
+{{Elemental Shield Data|Electro|3|noec=1}}
 }}
 
 ==Strategy==
-Its base stats are 50% Physical [[Resistance]], 70% Electro Resistance, and 10% Elemental Resistance to all other elements. The Thunderhelm Lawachurl's armor can be broken more easily with {{Cryo}} and {{Pyro}}.
+Its base stats are 50% Physical [[Resistance]], 70% Electro Resistance, and 10% Elemental Resistance to all other elements. The Thunderhelm Lawachurl's armor can be broken more easily with {{Pyro}}, {{Cryo}}, and {{Dendro}}.
 
-The armor will reduce the damage done to the Lawachurl but will not completely block it. See [[Shields/Shield Gauge Data]] for more info on enemy elemental shields.
+The armor grant the Lawachurl stronger attacks, but does not reduce DMG taken. See [[Shields/Shield Gauge Data]] for more info on enemy elemental shields.
 
-When the The Lawachurl performs '''Jumping Slam''', the player should either avoid dodging towards the back of the Lawachurl, or prepare for a follow-up attack in the form of '''Surprise Dash'''.
+When the The Lawachurl performs '''Jumping Slam''', the player should either avoid dodging towards the back of the Lawachurl, or prepare for a follow-up attack in the form of '''Surprise Dash''' if the Lawachurl uses '''Thunder Berserker'''.
 
 ==Achievements==
 {{Achievement Topic Table|topic=Thunderhelm Lawachurl}}
 
+==Descriptions==
+{{Description|A mysterious "lord" of hilichurls that strides through the thunderstorm.<br />This huge hilichurl is referred to as "Lawa" by its brethren. Its giant body is saturated with Electro energy, while the Elemental Energy seeps through the cracks in its body in the form of Electro Crystal growths.|[[Archive]]}}
+
 ==Trivia==
-*The Thunderhelm Lawachurl north of the [[Pyro Hypostasis]] has the title "Storm-Sealed Lawachurl" when fought. The other Thunderhelm Lawachurls scattered across Inazuma do not have any title.
+*The Thunderhelm Lawachurl north of the [[Pyro Hypostasis]] has the title "Storm-Sealed Lawachurl" when fought. The other Thunderhelm Lawachurls scattered elsewhere do not have any title.
+*If '''Slime Throw''' is used when the Thunderhelm Lawachurl is not in its '''Electro Infused State''', the slime can appear as a Small [[Mutant Electro Slime]]. There are no Small Mutant Electro Slimes anywhere else in the game and this is its only appearance.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Thunderhelm Lawachurl Icon.png|Icon
 </gallery>
-
-==Video Guides==
-{{EVT
-|video1   = https://youtu.be/fByQaQUX2-k
-|caption3 = How to Easily Beat the Thunderhelm Lawachurl
-}}
 
 ==Other Languages==
 {{Other Languages
@@ -116,11 +131,11 @@ Enemy Thunderhelm Lawachurl Icon.png|Icon
 |ko_rm   = Chyuchyu Beongaewang
 |ko_tl   = Hilichurl Lightning-king
 |es      = Lawachurl Electroyelmo
-|es_tl   = 
+|es_tl   = Electrohelm Lawachurl
 |fr      = Chef Brutoélectrique
 |fr_tl   = Hilictric Chieftain
 |ru      = Лавачурл с громовым шлемом
-|ru_tl   = 
+|ru_tl   = Lawachurl With Thunder Helmet
 |th      = Thunderhelm Lawachurl
 |vi      = Vua Giáp Lôi Hilichurl
 |vi_tl   = Lightning-armored Hilichurl King
@@ -129,6 +144,10 @@ Enemy Thunderhelm Lawachurl Icon.png|Icon
 |id      = Thunderhelm Lawachurl
 |pt      = Lawachurl da Trovoada
 |pt_tl   = 
+|tr      = Yıldırım Başlı Dağ Reisi
+|tr_tl   = 
+|it      = Lawachurl Elmodituono
+|it_tl   = 
 }}
 
 ==Change History==
@@ -137,5 +156,7 @@ Enemy Thunderhelm Lawachurl Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Blitzhelm-Lawachurl]]
 [[es:Lawachurl Electroyelmo]]
+[[ja:ヒルチャール・雷兜の王]]
 [[pt-br:Lawachurl da Trovoada]]

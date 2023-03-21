@@ -6,59 +6,62 @@
 |loc        = [[Dragonspine]]
 |characters = Traveler
 }}
-'''Cryptic Message in Dragonspine''' ''(unofficial name)'' is a [[Hidden Exploration Objective]] that takes place in [[Dragonspine]], [[Mondstadt]]. It involves finding the nine [[Record of Serial No.]] to unveil one last message.
+{{See also|Cryptic Message in Sumeru}}
+'''Cryptic Message in Dragonspine''' ''(unofficial name)'' is a [[Hidden Exploration Objective]] that takes place in [[Dragonspine]], [[Mondstadt]]. It involves finding the nine Record of Serial No. to unveil one last message.
 
-See [[Record of Serial No.]] for the message and how it was obtained.
+See the [[#Lore|lore section]] for the message and how it was obtained.
 
 ==Procedure==
 Interact with the nine buried ruin guards in the following locations, in any order:
 # Record of Serial No. HU-16180 and Record of Serial No. GN/Hu-68513
 #* On the South Eastern jutting out landmass.
-#: <gallery hideaddbutton="true" captionalign="center">
-Location Record of Serial No 1.png|Location
+#: <gallery>
+HEO Record of Serial 01 Location.png|Location
 Location Record of Serial No 1 Context.png|Additional context, HU-16180 on the left and GN/Hu-68513 on the right
 </gallery>
 # Record of Serial No. HU-21030 and Record of Serial No. HU-81122
 #* In the cavern to the left of [[Snow-Covered Path]]'s waypoint.
-#: <gallery hideaddbutton="true" captionalign="center">
-Location Record of Serial No 2.png|Location
+#: <gallery>
+HEO Record of Serial 02 Location.png|Location
 Location Record of Serial No 2 Context.png|Additional context, HU-21030 on the left and HU-81122 on the right
 </gallery>
 # Record of Serial No. HU-31122
 #* On the western edge of a cliff near a [[Hilichurls#Frostarm Lawachurls|Frostarm Lawachurl]], on the landmass where the waypoint East of [[Starglow Cavern]] is situated.
-#: <gallery hideaddbutton="true" captionalign="center">
-Location Record of Serial No 3.png|Location
+#: <gallery>
+HEO Record of Serial 03 Location.png|Location
 Location Record of Serial No 3 Context.png|Additional context
 </gallery>
 # Record of Serial No. HU-42318
 #* In the cavern below the [[Cryo Hypostasis]], behind the metal bars.
-#: <gallery hideaddbutton="true" captionalign="center">
-Location Record of Serial No 4.png|Location
+#: <gallery>
+HEO Record of Serial 04 Location.png|Location
 Location Record of Serial No 4 Context.png|Additional context
 </gallery>
 # Record of Serial No. HU-57104
 #* In the pit just west of the Dragonspine [[Statue of the Seven]]
-#: <gallery hideaddbutton="true" captionalign="center">
-Location Record of Serial No 5.png|Location
+#: <gallery>
+HEO Record of Serial 05 Location.png|Location
 Location Record of Serial No 5 Context.png|Additional context
 </gallery>
 # Record of Serial No. HU-73011
 #*  At the bottom of Starglow Cavern
-#: <gallery hideaddbutton="true" captionalign="center">
-Location Record of Serial No 6.png|Location
+#: <gallery>
+HEO Record of Serial 06 Location.png|Location
 Location Record of Serial No 6 Context.png|Additional context
 </gallery>
 # Record of Serial No. HU-96917
 #* On a cliff at Entombed City - Outskirts
-#: <gallery hideaddbutton="true" captionalign="center">
-Location Record of Serial No 7.png|Location
+#: <gallery>
+HEO Record of Serial 07 Location.png|Location
 Location Record of Serial No 7 Context.png|Additional context
 </gallery>
 
-==Notes==
-* Completing this Hidden Exploration Objective awards the ''[[Wonders of the World]]'' achievement "[[Futile Endeavor]]."
-
-==Recordings==
+==Lore==
+{{Quote
+|For the nation, we can't forgo this skyborne power, but we failed.
+|Decoded message
+}}
+===Recordings===
 {{Dialogue start}}
 :'''Record of Serial No. HU-16180:''' "3.2-..3-.23-.32-32.-3..-"
 :'''Record of Serial No. HU-21030:''' "..2-223-.32-322-..3-..2-"
@@ -71,14 +74,68 @@ Location Record of Serial No 7 Context.png|Additional context
 :'''Record of Serial No. HU-96917:''' "3.2-223-322-332-3..-233-"
 {{Dialogue end}}
 
+===Deciphering===
+#The messages are ordered by the serial number of the Ruin Guards in ascending order.
+#*This is based on the observation that the first digit of all the serial numbers are unique, and can be ordered from 1 to 9.
+#Dashes (-) separate the code into three-character strings.
+#*For example, the first three-character string would be "3.2".
+#".", "2", and "3" are converted into "0", "1", and "2" respectively, based on the ternary (base 3) numeral system.
+#*This is based on the observation that the highest three-digit number in ternary (222) is 26 in decimal, which is the number of letters in the English alphabet.
+#*For example, "3.2" becomes "201".
+#Those ternary numbers are converted into decimal.
+#*For example, converting the ternary number 201 into decimal, we get 2×3<sup>2</sup> + 0×3<sup>1</sup> + 1×3<sup>0</sup> = 19.
+#These decimal numbers are converted into letters, where A=1, B=2, C=3, and so on.
+#*For example, the decimal number 19 becomes "S".
+#The resulting message is further decoded by applying the ROT13 cipher: replacing each letter with the 13th letter after it in the alphabet.
+#*For example, the letter "S" becomes "F".
+<!--
+In JavaScript, this can be decoded using the following algorithm:
+{{Not a typo|<syntaxhighlight lang="javascript">
+function decodeCharacter(character) {
+  character = character.replace(/[.23]/g, s => ".23".indexOf(s)) // convert '.23' into '012'
+  var number = parseInt(character, 3);                           // convert from base-3 to base-10
+  number  = (number + 13) % 26;                                  // Caesar cipher
+  return String.fromCharCode(96 + number);                       // the ASCII character code of 'a' is 97
+}
+
+function convertRecord(record) {
+  return record
+    .replace(/-$/, "")     // remove trailing "-"
+    .split("-")            // break into characters on "-"
+    .map(decodeCharacter)  // decode each character
+    .join("");             // join characters into string
+}
+
+var records = [
+  "3.2-..3-.23-.32-32.-3..-",         // Record of Serial No. HU-16180
+  "..2-223-.32-322-..3-..2-",         // Record of Serial No. HU-21030
+  "2.2-3..-232-223-..2-.32-",         // Record of Serial No. HU-31122
+  "3.2-..3-.23-3.3-..3-",             // Record of Serial No. HU-42318
+  ".32-32.-322-.3.-",                 // Record of Serial No. HU-57104
+  ".3.-33.-22.-23.-..3-.23-..2-3..-", // Record of Serial No. GN/Hu-68513
+  ".2.-..3-2.2-3..-.23-",             // Record of Serial No. HU-73011
+  "23.-.33-.32-2.2-3..-",             // Record of Serial No. HU-81122
+  "3.2-223-322-332-3..-233-"          // Record of Serial No. HU-96917
+];
+
+console.log(records.map(convertRecord).join(" "));
+// forthe nation wecant forgo this skyborne power butwe failed
+</syntaxhighlight>}}
+-->
 ==Video Guides==
 {{EVT
 |video1   = 8DwX62FkxKU
 |caption1 = Cryptic Message - Complete Guide with message decryption
 }}
 
+==Gameplay Notes==
+* Completing this Hidden Exploration Objective awards the ''[[Wonders of the World]]'' achievement ''[[Futile Endeavor]]''.
+* Though it might have been thought that the records somehow relate to the fall of [[Sal Vindagnyr]] and have some connection to [[Celestia]] and the [[Skyfrost Nail]], Ruin Guards are in fact an invention of [[Khaenri'ah]], so the record may instead refer to the fall of that civilization and have nothing to do with Dragonspine at all.
+
 ==Change History==
 {{Change History|1.2}}
 
 ==Navigation==
 {{Hidden Exploration Objective Navbox|Unordered}}
+
+[[ja:コードHu-xxxxxの記録]]

@@ -7,12 +7,13 @@
 |act           = Perilous Trail
 |part          = 3
 |summary       = <!-- editor written summary. quest description goes to dialogue -->
-|characters    = Arataki Itto; Guangzhu; Kuki Shinobu; Paimon; Reiichi; Ruyi; Traveler; Xiao; Yanfei; Yelan
+|characters    = Arataki Itto; Guangzhu; Kuki Shinobu; Mrs. Kuki <!-- illusion -->; Paimon; Ushi; Reiichi; Ruyi; Traveler; Xiao; Yanfei; Yelan
 |startLocation = [[The Chasm's Bed]], [[The Chasm: Underground Mines]]
 |region        = Liyue
 |area          = The Chasm: Underground Mines
 |prev          = Chasmic Maze
-|next          = End of the Line
+|next          = End of the Line (Quest)
+|domain        = City of Hidden Runes
 |exp           = 1,125
 |mora          = 49,200
 |other         = {{Card|Hero's Wit|5}}{{Card|Mystic Enhancement Ore|9}}
@@ -21,12 +22,13 @@
 {{TeyvatQuest|I|2|3}}
 
 ==Steps==
+# Wait till the next day
 # Return to camp
 #* This step only shows if the player is not in [[The Chasm's Bed]] when the quest starts.
 # Wait till the next day
 # Talk to everyone
 # Continue exploring
-#*Enter the [[City of Hidden Runes]] domain.
+#* Enter the Quest Domain: [[City of Hidden Runes]]
 # Confirm the situation inside the Domain
 # Jump into the breach
 #* Only the Traveler will be in the party
@@ -45,12 +47,16 @@
 # Talk to [[Yelan]]
 # Talk to everyone (0/4)
 
-==Notes==
+==Gameplay Notes==
 * Completing the step "Talk to Xiao" grants the ''[[Wonders of the World]]'' Achievement "[[No Way Home]]."
 
 ==Dialogue==
 {{Quest Description|In order to escape from the underground, the party keeps searching for a way out after getting some rest...}}
 {{Dialogue start}}
+;(Wait till the next day)
+
+:'''After what feels like a long time has passed, everyone's concept of time has become hazy. No one can tell exactly how long they've been trapped...'''
+
 :{{A|vo cyaq003 1 paimon 01.ogg}} '''Paimon:''' Uhh, there's nothing for Paimon to do here. So boring...
 :{{A|vo cyaq003 1 paimon 02.ogg}} '''Paimon:''' Oh, how Paimon longs to stretch her legs and run free in the world outside again!
 :{{DIcon}} You mean, fly?
@@ -251,7 +257,7 @@
 :{{A|vo cyaq003 4 itto 22.ogg}} '''Arataki Itto:''' Not gonna lie, you don't sound like you have much of an imagination.
 :{{A|vo cyaq003 4 yanfei 06.ogg}} '''Yanfei:''' Alright, I'll try.
 :{{A|vo cyaq003 4 itto 23.ogg}} '''Arataki Itto:''' Yeah! My savior, show 'em what you're made of!
-:{{DIcon}} Do you have any phobias, Yanfei
+:{{DIcon}} Do you have any phobias, Yanfei?
 :{{A|vo cyaq003 4 yanfei 07.ogg}} '''Yanfei:''' I'm sure I probably do... But nothing springs to mind right now.
 :{{A|vo cyaq003 4 yanfei 08.ogg}} '''Yanfei:''' Anyway, I suppose I'll find out once I open the door.
 ;(Yanfei opens the door)
@@ -304,7 +310,7 @@
 ::{{DIcon}} Behind the door, I saw...
 :::{{DIcon}} The darkness of the Abyss that took my twin away.
 :{{A|vo cyaq003 5 paimon 03.ogg}} '''Paimon:''' Huh? How could that be?
-:{{A|vo cyaq003 5 paimon 04a.ogg}} {{A|vo cyaq003 5 paimon 04b.ogg}} '''Paimon:''' Aww, don't worry. Paimon will keep searching for (her/him) with you. Cheer up!
+:{{A|vo cyaq003 5 paimon 04a.ogg}} {{A|vo cyaq003 5 paimon 04b.ogg}} '''Paimon:''' Aww, don't worry. Paimon will keep searching for {{MC|her|him|mc=1}} with you. Cheer up!
 :{{A|vo cyaq003 5 itto 02.ogg}} '''Arataki Itto:''' Ugh, stupid door! I'll smash you to pieces!
 :{{A|vo cyaq003 5 paimon 05.ogg}} '''Paimon:''' If Paimon wasn't feeling so exhausted, she'd help out, too... *yawn*...
 :{{A|vo cyaq003 5 itto 03.ogg}} '''Arataki Itto:''' Hey, what is this, nap time?
@@ -572,6 +578,13 @@
 :'''(Traveler):''' (Xiao's eyes are tightly shut and he's not making a sound. No one has the heart to interrupt him.)
 {{Dialogue end}}
 
+==Tutorials==
+;About Symbols
+{{Transclude|Tutorial/About Symbols}}
+
+;About Lightshapers
+{{Transclude|Tutorial/About Lightshapers}}
+
 ==Video Guides==
 {{EVT
 |video1   = https://youtu.be/Gn4yFxRXTgM
@@ -605,10 +618,14 @@
 |vi_tl   = 
 |de      = Gefahren ringsum
 |de_tl   = Danger All Around
-|id      = Bahaya Dari Segala Arah
+|id      = Bahaya dari Segala Arah
 |id_tl   = Danger from All Ways
 |pt      = Cercado por Perigos
 |pt_tl   = 
+|tr      = Tehlike Her Yerde
+|tr_tl   = 
+|it      = Pericolo, pericolo, pericolo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -616,3 +633,6 @@
 
 ==Navigation==
 {{Archon Quest Navbox|Interlude Chapter}}
+
+[[es:El peligro se acerca]]
+[[vi:Nguy Hiểm Rình Rập]]

@@ -16,25 +16,26 @@ Pushing Vacuum Fields will push targets away from the center of the field. This 
 Most player-created vacuums have a [[Weight]] requirement. Enemies that do not match this requirement will not be affected by the Vacuum Field.
 
 ==Vacuum Data==
-Targets within the vacuum Pulling Radius will start to accelerate towards the vacuum center. Radii are measured in [[meter]]s.<ref name="monster-src">Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/MonsterAbilities Enemies]</ref><ref name="charactert-src">Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ Character]</ref><ref name="weapon-src">Source Data: [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/EquipAbilities Weapons]</ref><ref name="tornado-src">Source Data: [https://github.com/Dimbreath/GenshinData/blob/d633c8cfe5f1f383413a1f65f44d9bd018e5f9be/BinOutput/Ability/Temp/GadgetAbilities/ConfigAbility_Scene_Environment_WindField.json Tornado]</ref>
+Targets within the vacuum Pulling Radius will start to accelerate towards the vacuum center. Radii are measured in [[meter]]s.
 
 * "Inner Radius" refers to the area at the center of the Vacuum Field where the pulling effect stops.
 
 There are two parameters governing the pulling strength of the Vacuum Field (also labeled "Wind Zones" in the source code):
 *'''Strength:''' Positive Strength indicates a Pulling Vacuum Field; Negative Strength indicates a Pushing Vacuum Field.
-*'''Attenuation:''' If Attenuation is greater than 0, the pulling effect will be stronger the closer an entity is to the center of the Vacuum Field. If Attenuation is 0, the pulling effect will be the same anywhere inside the Vacuum Field.
+*'''Attenuation:''' If Attenuation is greater than 0, the pulling effect will be stronger the closer a target is to the center of the Vacuum Field. If Attenuation is 0, the pulling effect will be the same anywhere inside the Vacuum Field.
+** Certain vacuum fields have reversed Attenuation. These vacuum fields will have a stronger pulling effect the farther the target is from the center of the field.
 
 Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngabbs.com/read.php?tid=29563474 《聚怪效果学》- 风场参数与怪物重量对牵引效果影响的量化研究]</ref>
 {| class="fandom-table"
 |-
-!Condition
+!Attenuation Type
 !Formula
 |-
-|Target Weight < 64
-|<math>\text{Displacement Velocity (m/s)} = \frac{\exp (-{\frac{\text{Distance from Center}} {\text{Vacuum Radius}} \times 0.5 \times \text{Attenuation})} \times 5000 \times \text{Pulling Strength}} {50^2}</math>
+|Regular
+|<math>\text{Displacement Velocity (m/s)} = \frac{\exp ({\frac{\text{Distance from Center}} {\text{Vacuum Radius}} \times -0.5 \times \text{Attenuation})} \times 5000 \times \text{Pulling Strength}} {\max (50, (\text{Target Weight} - 14))^2}</math>
 |-
-|Target Weight ≥ 64
-|<math>\text{Displacement Velocity (m/s)} = \frac{\exp (-{\frac{\text{Distance from Center}} {\text{Vacuum Radius}} \times 0.5 \times \text{Attenuation})} \times 5000 \times \text{Pulling Strength}} {(\text{Target Weight - 14})^2}</math>
+|Reversed
+|<math>\text{Displacement Velocity (m/s)} = \frac{\exp ({(1 - \frac{\text{Distance from Center}} {\text{Vacuum Radius}}) \times -0.5 \times \text{Attenuation})} \times 5000 \times \text{Pulling Strength}} {\max (50, (\text{Target Weight} - 14))^2}</math>
 |}
 
 {| class="fandom-table sortable" width="100%"
@@ -66,7 +67,7 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 | 3
 | 4
 | 2
-| Weight < 100
+| Weight ≤ 100
 |-
 | {{Talent|Garyuu Bladework|20|nobr=1}} (Plunging Attack: Midare Ranzan)
 | 6
@@ -79,35 +80,35 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 | 6
 | 0.5
 | 4
-| 2
+| 2 (Reversed)
 | Weight < 100
 |-
 | {{Talent|Chihayaburu|20|nobr=1}} (Press, Against Large Enemies)
 | 6
 | 0.5
 | 4
-| 2
+| 2 (Reversed)
 | 100 ≤ Weight ≤ 150
 |-
 | {{Talent|Chihayaburu|20|nobr=1}} (While Holding)
 | 10
 | 3
 | 3.5
-| 2
+| 2 (Reversed)
 | Weight ≤ 150
 |-
 | {{Talent|Chihayaburu|20|nobr=1}} (After Hold, Against Small Enemies)
 | 10
 | 1.2
 | 10
-| 3
+| 3 (Reversed)
 | Weight < 100
 |-
 | {{Talent|Chihayaburu|20|nobr=1}} (After Hold, Against Large Enemies)
 | 10
 | 1
 | 20
-| 4
+| 4 (Reversed)
 | 100 ≤ Weight ≤ 150
 |-
 | {{Talent|Gale Blade|20|nobr=1}} (Hold)
@@ -156,15 +157,22 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 | 6
 | 0.5
 | 4
-| 2
+| 2 (Reversed)
 | Weight < 100
 |-
 | {{Talent|Windmuster Kick|20|nobr=1}} (C2, Against Large Enemies)
 | 6
 | 0.5
 | 10
-| 3
+| 3 (Reversed)
 | 100 ≤ Weight ≤ 150
+|-
+| {{Talent|Wind Realm of Nasamjnin|20|nobr=1}} (Pressurized Collapse)
+| 6
+| 1
+| 4
+| 2
+| None
 |-
 | {{Talent|Juuga: Forward Unto Victory|20|nobr=1}} (Against Crystallize Shards)
 | 8
@@ -194,7 +202,7 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 | 0
 | Weight ≤ 150
 |-
-| Activation pushing vacuum of the following abilities:<br />{{Talent|Foul Legacy: Raging Tide|20|nobr=1}}<br />{{Talent|Kazuha Slash|20|nobr=1}}<br />{{Talent|Kamisato Art: Soumetsu|20|nobr=1}}<br />{{Talent|Kamisato Art: Suiyuu|20|nobr=1}}<br />{{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1}}<br />{{Talent|Ryuukin Saxifrage|20|nobr=1}}<br />{{Talent|Prophecies of Dawn|20|nobr=1}}<br />{{Talent|Royal Descent: Behold, Itto the Evil!|20|nobr=1}}<br />{{Talent|Divine Maiden's Deliverance|20|nobr=1}}<br />{{Talent|Bane of All Evil|20|nobr=1}}<br />{{Talent|Depth-Clarion Dice|20|nobr=1}}
+| Activation pushing vacuum of the following abilities:<br />{{Talent|Foul Legacy: Raging Tide|20|nobr=1}}<br />{{Talent|Kazuha Slash|20|nobr=1}}<br />{{Talent|Kamisato Art: Soumetsu|20|nobr=1}}<br />{{Talent|Kamisato Art: Suiyuu|20|nobr=1}}<br />{{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1}}<br />{{Talent|Ryuukin Saxifrage|20|nobr=1}}<br />{{Talent|Prophecies of Dawn|20|nobr=1}}<br />{{Talent|Royal Descent: Behold, Itto the Evil!|20|nobr=1}}<br />{{Talent|Divine Maiden's Deliverance|20|nobr=1}}<br />{{Talent|Bane of All Evil|20|nobr=1}}<br />{{Talent|Depth-Clarion Dice|20|nobr=1}}<br />{{Talent|Fashioner's Tanglevine Shaft|20|nobr=1}}<br />{{Talent|Sacred Rite: Wagtail's Tide|20|nobr=1}}<br />{{Talent|Dance of Abzendegi: Distant Dreams, Listening Spring|20|nobr=1}}<br />{{Talent|Illusory Heart|20|nobr=1}}<br />{{Talent|Particular Field: Fetters of Phenomena|20|nobr=1}}<br />{{Talent|Leonine Bite|20|nobr=1}}
 | 3
 | 0
 | -3
@@ -413,6 +421,97 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 | 0.5
 | None
 |-
+| {{Enemy|Eremite Galehunter|20}} vacuum
+| 5
+| 1
+| 5
+| 0
+| None
+|-
+| {{Enemy|Spirit of Omen: Wind Glede|20}} vacuum
+| 6
+| 1
+| 5
+| 1
+| None
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} Hydrospout vacuum
+| 5
+| 1
+| 7.5
+| 1
+| None
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} Arm Slam pushing vacuum
+| 3
+| 0
+| -7.5
+| 0
+| None
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} Triple Earthshock pushing vacuum 1
+| 12.5
+| 0
+| -7.5
+| 0
+| None
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} Triple Earthshock pushing vacuum 2
+| 15
+| 0
+| -7.5
+| 0
+| None
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} Triple Earthshock pushing vacuum 3
+| 15
+| 0
+| -7.5
+| 0
+| None
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} Thunder Lance pushing vacuum
+| 20
+| 0
+| -7.5
+| 0
+| None
+|-
+| {{Enemy|Whirling Pyro Fungus|20}} vacuum
+| 8
+| 1.2
+| 3.75
+| 2.7
+| Weight ≤ 140
+|-
+| {{Enemy|Floating Anemo Fungus|20}} Honed Whirlwind vacuum
+| 5
+| 0.2
+| 4
+| 0.5
+| None
+|-
+| {{Enemy|Floating Anemo Fungus|20}} Vortex of Blades vacuum
+| 18
+| 3
+| 6
+| 1.2
+| None
+|-
+| {{Enemy|Consecrated Flying Serpent|20}} Melee Vacuum Trap vacuum
+| 5
+| 1
+| 5
+| 1
+| None
+|-
+| {{Enemy|Consecrated Flying Serpent|20}} Ranged Vacuum Trap vacuum
+| 5
+| 1
+| 4
+| 1
+| None
+|-
 !colspan="6" | Others
 |-
 | [[The Viridescent Hunt]] vacuum
@@ -479,6 +578,23 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 |
 |}
 
+==Vacuum Field Immunity==
+Certain enemies are immune to the displacement effect of Vacuum Fields:
+* {{Enemy|Cicin}}
+* {{Enemy|Childe}}
+* {{Enemy|La Signora}}
+* {{Enemy|Rifthound}}
+* {{Enemy|Sumpter Beast}}
+* {{Enemy|Spirit of Omen: Wind Glede}}
+* {{Enemy|Abyss Mage}} (While Shielded)
+* {{Enemy|Abyss Herald}} (While Shielded)
+* {{Enemy|Abyss Lector}} (While Shielded)
+* {{Enemy|Thunderhelm Lawachurl}} (While Shielded)
+* {{Enemy|Fatui Cicin Mage}} (While Shielded)
+* {{Enemy|Mirror Maiden}} (While in Polarization State)
+* {{Enemy|Specter}} (While at Max Fury)
+* {{Enemy|Primal Construct}} (While in Polarization State)
+
 ==Affected Entities==
 The following entities can be pulled into (some or all) player-created Vacuum Fields:
 * Many [[enemies]]
@@ -493,7 +609,7 @@ The following entities can be pulled into (some or all) player-created Vacuum Fi
 ** [[Xiangling]]'s [[Guoba Attack|Guoba]]
 
 ==Talents==
-The following character talents can create Vacuum Fields that can pull in enemies and/or objects. Some of these abilities can also lift enemies into the air only if they are no more than 20 levels higher than the character using the skill.
+The following character talents can create Vacuum Fields that can pull in enemies and/or objects.
 
 {{Talents by Category Table|Vacuum Field Talents}}
 
@@ -547,32 +663,36 @@ Some quests and events have special effects or objects that can create Vacuum Fi
 
 ==Other Languages==
 {{Other Languages
-|en       = Vacuum Field
-|zhs      = 真空吸引场
-|zhs_rm   = Zhēnkōng Xīyǐn-chǎng
-|zht      = 真空吸引場
-|zht_rm   = Zhēnkōng Xīyǐn-cháng
-|zh_tl    = Vacuum Suction Field
-|ja       = 真空フィールド
-|ja_rm    = Shinkuu Fiirudo{{Assumed}}
-|ja_tl    = Vacuum Field
-|ko       = {{tt|진공|真空}} {{tt|흡입|吸入}} 필드
-|ko_rm    = Jingong Heubip Pildeu
-|ko_tl    = Vacuum Suction Field
-|es       = Campo de vacío
-|es_tl    = Vacuum Field
-|fr       = Champ d'attraction
-|fr_tl    = Attraction Field
-|ru       = Зона вакуума
-|ru_tl    = 
-|th       = Vacuum Field
-|vi       = {{tt|Trường|場}} Hút {{tt|Chân Không|真空}}
-|vi_tl    = 
-|de       = Vakuumfeld
-|de_tl    = Vacuum Field
-|id       = Vacuum Field
-|pt       = Vácuo
-|pt_tl    = Vacuum
+|en      = Vacuum Field
+|zhs     = 真空吸引场
+|zhs_rm  = Zhēnkōng Xīyǐn-chǎng
+|zht     = 真空吸引場
+|zht_rm  = Zhēnkōng Xīyǐn-cháng
+|zh_tl   = Vacuum Suction Field
+|ja      = 真空フィールド
+|ja_rm   = Shinkuu Fiirudo{{Assumed}}
+|ja_tl   = Vacuum Field
+|ko      = {{tt|진공|真空}} {{tt|흡입|吸入}} 필드
+|ko_rm   = Jingong Heubip Pildeu
+|ko_tl   = Vacuum Suction Field
+|es      = Campo de vacío
+|es_tl   = Vacuum Field
+|fr      = Champ d'attraction
+|fr_tl   = Attraction Field
+|ru      = Зона вакуума
+|ru_tl   = Vacuum Zone
+|th      = Vacuum Field
+|vi      = {{tt|Trường|場}} Hút {{tt|Chân Không|真空}}
+|vi_tl   = Vacuum Suction Field
+|de      = Vakuumfeld
+|de_tl   = Vacuum Field
+|id      = Vacuum Field
+|pt      = Vácuo
+|pt_tl   = Vacuum
+|tr      = 
+|tr_tl   = 
+|it      = 
+|it_tl   = 
 }}
 
 ==Change History==
@@ -583,3 +703,6 @@ Some quests and events have special effects or objects that can create Vacuum Fi
 
 ==Navigation==
 {{Combat Navbox}}
+
+[[ja:真空フィールド]]
+[[th:สนามสุญญากาศ]]

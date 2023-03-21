@@ -1,62 +1,78 @@
 {{Enemy Infobox
 |image    = Enemy Mutant Electro Slime.png
-|element  = Electro
+|dmgtype  = Physical
+|dmgtype2 = Electro
+|weakpoint = no
 |type     = Common Enemies
 |family   = Elemental Lifeforms
 |group    = Slimes
 |location = Multiple
 |ability1 = Elemental Infusion
 }}
-{{Description|A monster created by the coalescing of Electro dispersed throughout nature.<br />Electro Slimes can undergo mutations to become a bright yellow. Due to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time, and it can even cause nearby Electro Slimes to release electric arcs. This arc lightning will not bounce between purple Electro Slimes, which shows that Electro Slimes have two different polarities.<br />One wonders if some great new science could emerge from the study of such phenomena...|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Slimes}}
+===Items===
+{{Drops Table|type=Slimes (Large)}}
+
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 66
+|p1    = 1
+|hp2   = 33
+|p2    = 1
+|hp3   = 0
+|o3    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|electro_res=Immune|hp_ratio=2|atk_ratio=1.4|hp_type=1}}
 
 ==Abilities and Attacks==
+''Most attack names are unofficial.''
 ===Electro Slimes Nearby===
-*'''Discharge:''' Periodically discharges a current between nearby [[Electro Slime]]s and [[Large Electro Slime]], forcing all of them to use their '''Shock''' attack simultaneously. The Mutant Electro Slime cannot use this ability on another Mutant Electro Slime.
-*'''Bump:''' Bumps into the player, dealing '''100% ATK''' as {{Color|Electro DMG}}.
+{{Enemy Attacks
+|name_1 = Discharge
+|desc_1 = Periodically discharges a current between nearby [[Electro Slime]]s and [[Large Electro Slime]], forcing all of them to use their '''Shock''' attack simultaneously. The Mutant Electro Slime cannot use this ability on another Mutant Electro Slime.
 
-====Preview====
-{{Preview
-|size=185px
-|file1=Mutant Electro Slime Discharge
-|caption1=Discharge
-
-|file2=Mutant Electro Slime Bump
-|caption2=Bump
+|name_2 = Bump
+|desc_2 = Bumps into the player, dealing '''100% ATK''' as {{Color|Electro DMG}}.
 }}
 
 ===No Electro Slimes Nearby===
-*'''Electricity:''' When electricity is present on a Mutant Electro Slime (indicated when its "antenna" is glowing), it will be inflicted with {{Electro}} at all times, and its attacks will deal {{Color|Electro DMG}}.
-**A Mutant Electro Slime starts with and can possess a maximum of 8 gauges of electricity.
-**Triggering [[Elemental Reactions]] on an Electro Slime will consume gauges of electricity. Every 1 [[Gauge Unit Theory|gauge]] of {{Cryo}}/{{Pyro}}, or 2 gauges of {{Geo}}/{{Anemo}} applied to the Electro Slime will consume 1 gauge of electricity.
-**Additionally, every time the slime takes {{Color|Electro DMG}}, it will gain 1 gauge of electricity, regardless of the amount of Electro gauges applied. Therefore, due to the [[Swirl]] and [[Electro-Charged]] reaction's ability to deal {{Color|Electro DMG}}, {{Anemo}} or {{Hydro}} on their own will never be able to deplete the Electro Slime's electricity.
-**'''Shock:''' Periodically consumes 1 gauge of '''electricity''' and releases a shockwave, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} around itself. This attack deals DMG to both enemies and allies.
-**'''Recharge:''' After a period of time has passed since '''electricity''' ran out, recharges to once again gain 8 gauges of '''electricity'''.
-*'''Bump:''' Bumps into the player, dealing '''100% ATK''' as {{Color|Electro DMG}} if '''electricity''' is present or {{Color|Physical DMG}} if '''electricity''' is not present.
-*'''Leap:''' Leaps high into the air before slamming down at the player's location, dealing '''300% ATK''' as {{Color|AoE Electro DMG}} if '''electricity''' is present or '''200% ATK''' as {{Color|AoE Physical DMG}} if '''electricity''' is not present. Additionally, if '''electricity''' is not present, this attack has a very limited range and will not highlight the impact area.
-** Certain enhanced Mutant Electro Slimes, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, have reduced [[Cooldown]] on this attack.
+{{Enemy Attacks
+|name_1 = Electricity
+|desc_1 = When electricity is present on a Mutant Electro Slime (indicated when its "antenna" is glowing), it will be inflicted with {{Electro}} at all times, and its attacks will deal {{Color|Electro DMG}}.
+* A Mutant Electro Slime starts with and can possess a maximum of 8 gauges of electricity.
+* Triggering [[Elemental Reactions]] on an Electro Slime will consume gauges of electricity. Every 1 [[Elemental Gauge Theory|gauge]] of {{Cryo}}/{{Pyro}}/{{Dendro}}, or 2 gauges of {{Geo}}/{{Anemo}} applied to the Electro Slime will consume 1 gauge of electricity.
+* Additionally, every time the slime takes {{Color|Electro DMG}}, it will gain 1 gauge of electricity, regardless of the amount of Electro gauges applied. Therefore, due to the [[Swirl]] and [[Electro-Charged]] reaction's ability to deal {{Color|Electro DMG}}, {{Anemo}} or {{Hydro}} on their own will never be able to deplete the Electro Slime's electricity.
+* '''Shock:''' Periodically consumes 1 gauge of '''electricity''' and releases a shockwave, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} around itself. This attack deals DMG to both enemies and allies.
+* '''Recharge:''' After a period of time has passed since '''electricity''' ran out, recharges to once again gain 8 gauges of '''electricity'''.
+|file_1 = Mutant Electro Slime Shock
+|caption_1 = Shock
+|file_1_2 = Mutant Electro Slime Recharge
+|caption_1_2 = Recharge
 
-====Preview====
-{{Preview
-|size=185px
-|file1=Mutant Electro Slime Shock
-|caption1=Shock
+|name_2 = Bump
+|desc_2 = Bumps into the player, dealing '''100% ATK''' as {{Color|Electro DMG}} if '''electricity''' is present or {{Color|Physical DMG}} if '''electricity''' is not present.
 
-|file2=Mutant Electro Slime Recharge
-|caption2=Recharge
-
-|file3=Mutant Electro Slime Leap
-|caption3=Leap
+|name_3 = Leap
+|desc_3 = Leaps high into the air before slamming down at the player's location, dealing '''300% ATK''' as {{Color|AoE Electro DMG}} if '''electricity''' is present or '''200% ATK''' as {{Color|AoE Physical DMG}} if '''electricity''' is not present. Additionally, if '''electricity''' is not present, this attack has a very limited range and will not highlight the impact area.
+* Certain enhanced Mutant Electro Slimes, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, have reduced [[Cooldown]] on this attack.
 }}
 
+==Descriptions==
+{{Description|A monster created by the coalescing of Electro dispersed throughout nature.<br />Electro Slimes can undergo mutations to become a bright yellow. Due to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time, and it can even cause nearby Electro Slimes to release electric arcs. This arc lightning will not bounce between purple Electro Slimes, which shows that Electro Slimes have two different polarities.<br />One wonders if some great new science could emerge from the study of such phenomena...|[[Archive]]}}
+
+==Trivia==
+* Although the small variant of the Mutant Electro Slime does not exist as an enemy, it can be seen dug up and thrown by the [[Thunderhelm Lawachurl]].<!--
+--><gallery>
+Small Mutant Electro Slime.png
+</gallery>
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Mutant Electro Slime Icon.png|Icon
 </gallery>
 
@@ -75,19 +91,23 @@ Enemy Mutant Electro Slime Icon.png|Icon
 |ko_rm   = Beongae Seullaim Dolyeonbyeoni
 |ko_tl   = {{Lex|Electro|ko}} Slime Mutant
 |es      = Slime Mutante Electro
-|es_tl   = 
+|es_tl   = Mutant Electro Slime
 |fr      = Électroblob mutant
 |fr_tl   = Mutant Electro Blob
 |ru      = Электро слайм-мутант
 |ru_tl   = Mutant Electro Slime
 |th      = Mutant Electro Slime
 |vi      = Slime Lôi Biến Dị
-|vi_tl   = 
+|vi_tl   = Mutant {{Lex|Electro|vi}} Slime
 |de      = Mutierter Elektro-Schleim
 |de_tl   = Mutated Electro Slime
 |id      = Mutant Electro Slime
 |pt      = Grande Slime Mutante
 |pt_tl   = 
+|tr      = Mutant Elektrik Bodurlopu
+|tr_tl   = 
+|it      = Melmoso di Electro mutante
+|it_tl   = 
 }}
 
 ==Change History==
@@ -96,5 +116,9 @@ Enemy Mutant Electro Slime Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Mutierter Elektro-Schleim]]
 [[es:Slime Mutante Electro]]
+[[fr:Électroblob mutant]]
+[[ja:変異雷スライム]]
 [[pt-br:Grande Slime Mutante]]
+[[zh:變異雷史萊姆]]

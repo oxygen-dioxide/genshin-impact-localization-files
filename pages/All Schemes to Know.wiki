@@ -1,0 +1,187 @@
+{{Talent Infobox
+|image         = Talent All Schemes to Know.png
+|character     = Nahida
+|type          = Elemental Skill
+|info          = Sends forth karmic bonds of wood and tree from her side, dealing {{Color|AoE Dendro DMG}} and marking up to 8 opponents hit with the Seed of Skandha.<br />When held, this skill will trigger differently.<br /><br />'''Hold'''<br />Enters Aiming Mode, which will allow you to select a limited number of opponents within a limited area. During this time, Nahida's [[Interruption Resistance|resistance to interruption]] will be increased.<br />When released, this skill deals {{Color|Dendro DMG}} to these opponents and marks them with the Seed of Skandha.<br />Aiming Mode will last up to 5s and can select a maximum of 8 opponents.<br /><br />'''Seed of Skandha'''<br />Opponents who have been marked by the Seed of Skandha will be linked to one another up till a certain distance.<br />After you trigger [[Elemental Reaction]]s on opponents who are affected by the Seeds of Skandha or when they take DMG from [[Dendro Core]]s (including Burgeon and Hyperbloom DMG), Nahida will unleash Tri-Karma Purification on the opponents and all connected opponents, dealing {{Color|Dendro DMG}} based on her ATK and Elemental Mastery.<br />You can trigger at most 1 Tri-Karma Purification within a short period of time.
+|CD            = 5s
+|CDHold        = 6s
+|scale_att1    = ATK
+|scale_att2    = Elemental Mastery
+|utility1      = Status to Enemy
+|utility2      = Interruption Resistance
+|attr1         = Press DMG
+|value1        = 98.4-209.1%
+|attr2         = Hold DMG
+|value2        = 130.4-277.1%
+|attr3         = Tri-Karma Purification DMG (% ATK + % Elemental Mastery)
+|value3        = 103.2 + 206.4-219.3 + 438.6%
+|attr4         = Tri-Karma Purification Trigger Interval
+|value4        = 2.5s
+|attr5         = Seed of Skandha Duration
+|value5        = 25s
+}}
+{{Description|Lo, the god of grass and trees shines her ultimate truth into the void, illuminating the origin and destruction of the three karmas.}}
+'''All Schemes to Know''' is [[Nahida]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{TalentNote|particles|Tri-Karma Purification|3}}
+** This particle generation has a cooldown of '''7''' seconds, which is shared with the particle generation from Nahida's [[The Fruit of Reason's Culmination|Tri-Karma Purification: Karmic Oblivion]] from her Level 6 Constellation.
+* Elemental Reactions triggered by enemies or the environment will also trigger Tri-Karma Purification.
+* {{TalentNote|no snapshot|Tri-Karma Purification DMG|character=Nahida|talent=All Schemes to Know}}
+* The "limited area" of the hold version of this skill refers to the viewfinder-like square that appears on the screen. The hold version of this skill marks any enemy that was in the square while the skill was being held, even if the enemy moved away or if Nahida turned away. As such, Nahida can turn while holding her skill to mark enemies who are far apart at the same time.
+* The hold version of this skill can only mark enemies, including most hostile [[wildlife]]. Objects such as [[Elemental Monument]]s, [[Regisvines]]' shields, [[Shouki no Kami]]'s Nirvana Engines, [[Spider]]s, and [[Defense Mechanism]]s will not be targeted or hit by it.
+** [[Wildlife]] and enemies that are in a state where they would not be [[Aggravation|aggravated]] upon approach will still be marked.
+** Hostile wildlife that does not cause the player to enter combat mode, such as [[Forest Boar]]s, cannot be marked.
+
+;<big>Passive Effects</big>
+* {{TalentNote|character=Nahida|ascension|2|Awakening Elucidated|talent=All Schemes to Know}}
+* Nahida's [[Utility Passive]], {{Talent|On All Things Meditated|20|nobr=1}}, allows All Schemes to Know to trigger special dialogue lines from [[NPC]]s in [[Sumeru]] and collect certain harvestable items. Up to five resources can be obtained in this manner.
+
+;<big>Constellation Effects</big>
+* {{TalentNote|constellation|2|The Root of All Fullness|}} "Opponents that are marked by Seeds of Skandha applied by Nahida herself will be affected by the following effects:
+** [[Burning]], [[Bloom]], [[Hyperbloom]], and [[Burgeon]] Reaction DMG can score [[CRIT Hit]]s. [[CRIT Rate]] and [[CRIT DMG]] are fixed at 20% and 100% respectively.
+** Within 8s of being affected by [[Quicken]], [[Aggravate]], [[Spread]], [[DEF]] is decreased by 30%."
+* {{TalentNote|constellation|3|The Shoot of Conscious Attainment}}
+* {{TalentNote|constellation|4|The Stem of Manifest Inference}}
+* {{TalentNote|constellation|6|The Fruit of Reason's Culmination}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Press DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 75
+|impulse = 2
+
+|title2   = Hold DMG
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 100
+|impulse2 = 2
+
+|title3   = Tri-Karma Purification DMG
+|gu3      = 1.5U
+|icdtag3  = Nahida Tri-Karma Purification
+|icdtype3 = 1s
+|poise3   = 30
+|impulse3 = 2
+}}
+
+==Preview==
+{{Preview
+|file1    = All Schemes to Know Press Preview
+|caption1 = Press
+
+|file2    = All Schemes to Know Hold Preview
+|caption2 = Hold
+
+|file3    = All Schemes to Know Seed of Skandha Preview
+|caption3 = Seed of Skandha
+}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|talentType=Elemental Skill
+|levels=13
+|order=pressdmg,holddmg,tri-karmapurificationdmg,tri-karmapurificationtriggerinterval,seedofskandhaduration,presscd,holdcd
+|titles=Press DMG (%),Hold DMG (%),Tri-Karma Purification DMG (% ATK + % Elemental Mastery),Tri-Karma Purification Trigger Interval,Seed of Skandha Duration,Press CD,Hold CD
+|pressdmg_1=98.4
+|pressdmg_2=105.78
+|pressdmg_3=113.16
+|pressdmg_4=123
+|pressdmg_5=130.38
+|pressdmg_6=137.76
+|pressdmg_7=147.6
+|pressdmg_8=157.44
+|pressdmg_9=167.28
+|pressdmg_10=177.12
+|pressdmg_11=186.96
+|pressdmg_12=196.8
+|pressdmg_13=209.1
+|holddmg_1=130.4
+|holddmg_2=140.18
+|holddmg_3=149.96
+|holddmg_4=163
+|holddmg_5=172.78
+|holddmg_6=182.56
+|holddmg_7=195.6
+|holddmg_8=208.64
+|holddmg_9=221.68
+|holddmg_10=234.72
+|holddmg_11=247.76
+|holddmg_12=260.8
+|holddmg_13=277.1
+|tri-karmapurificationdmg_1=103.2+206.4
+|tri-karmapurificationdmg_2=110.94+221.88
+|tri-karmapurificationdmg_3=118.68+237.36
+|tri-karmapurificationdmg_4=129+258
+|tri-karmapurificationdmg_5=136.74+273.48
+|tri-karmapurificationdmg_6=144.48+288.96
+|tri-karmapurificationdmg_7=154.8+309.6
+|tri-karmapurificationdmg_8=165.12+330.24
+|tri-karmapurificationdmg_9=175.44+350.88
+|tri-karmapurificationdmg_10=185.76+371.52
+|tri-karmapurificationdmg_11=196.08+392.16
+|tri-karmapurificationdmg_12=206.4+412.8
+|tri-karmapurificationdmg_13=219.3+438.6
+|tri-karmapurificationtriggerinterval=2.5s
+|seedofskandhaduration=25s
+|presscd=5s
+|holdcd=6s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Nahida}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Trivia==
+* {{TalentNote|clap}}
+** NPCs whose thoughts can be accessed with All Schemes to Know will not react when this skill is used near them, even if they clap when other talents are used near them.
+
+==Other Languages==
+{{Other Languages
+|en      = All Schemes to Know
+|zhs     = 所闻遍计
+|zhs_rm  = Suǒwén Biànjì
+|zht     = 所聞遍計
+|zht_rm  = Suǒwén Biànjì
+|zh_tl   = 
+|ja      = 所聞遍計
+|ja_rm   = Shobun Henge
+|ja_tl   = Omniscient Schemes
+|ko      = 너른 헤아림
+|ko_rm   = Neoreun Hearim
+|ko_tl   = Wide Understand
+|es      = Omnisciencia
+|es_tl   = Omniscience
+|fr      = Omniscience des plans
+|fr_tl   = Omniscience of Schemes
+|ru      = Пелена знаний
+|ru_tl   = Shroud of Knowledge
+|th      = All Schemes to Know
+|vi      = Lắng Nghe Thế Gian
+|vi_tl   = Listen to the Universe
+|de      = Kennerin aller Tricks
+|de_tl   = Expert of All Schemes
+|id      = All Schemes to Know
+|pt      = Esquemas Universais
+|pt_tl   = Universal Schemes
+|tr      = Tüm Planları Bilen
+|tr_tl   = 
+|it      = Karma vincolante
+|it_tl   = Binding Karma
+}}
+
+==Change History==
+{{Change History|3.2}}
+
+==Navigation==
+{{Talent Navbox|Nahida}}
+
+[[es:Omnisciencia]]
+[[fr:Omniscience des plans]]
+[[ru:Пелена знаний]]
+[[th:All Schemes to Know]]
+[[vi:Lắng Nghe Thế Gian]]

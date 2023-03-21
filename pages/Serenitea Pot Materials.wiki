@@ -10,9 +10,9 @@ Furnishing Materials are items used to create [[Furnishings]].
 {{#DPL:
 |namespace=
 |uses=Template:Item Infobox
-|include={Item Infobox}:%PAGE%:%PAGE%:rarity:source1
+|include={Item Infobox}:%PAGE%:%PAGE%:quality:source1
 |category=Item&Furnishing Materials
-|table=class="article-table sortable" style="width: 100%",-,Image,Name,Rarity,How to Obtain
+|table=class="article-table sortable" style="width: 100%",-,Image,Name,Quality,How to Obtain
 |tablerow=[[File:Item %PAGE%.png|45x45px]],[[%PAGE%]],²{Icon/Stars¦%%}²,%%
 |ordermethod=sortkey
 |noresultsfooter=\nNo Results
@@ -21,25 +21,60 @@ Furnishing Materials are items used to create [[Furnishings]].
 }}
 
 ===Wood Gathering Tips===
-<noinclude>{{See also|Wood}}</noinclude>
-* Each tree can yield up to three pieces of wood until its next refresh.
-**A tree will refresh after chopping ten other trees.
-**For example, hit the first tree, then go hit ten other trees, then come back to the first tree and it will spawn more wood.
-**If the player comes back to the first tree before hitting ten other trees, then the first tree's countdown will be reset back to ten.
-**Logging out and logging back in again will also cause trees to refresh.
-**With this in mind, the player can cycle between eleven or more trees and continuously farm wood.
-**Hit trees are tracked per player, so each player in the same world will need to hit trees in order to gather wood, but they can hit the same trees.
-* All attacks done with polearm, claymore, and sword users' Normal Attack talent (Normal, Charged, and Plunge Attacks) count as chops.
-**Slashes with [[Tartaglia]]'s Melee Stance do not count as chops.
-**Attacks affected by [[Elemental Infusion]] and Elemental Conversion do not count as chops.
-* Even if the player hits multiple trees in one attack, only one of them will drop wood.
-* There is a very short cooldown between chops that drop wood.
-** [[Keqing]], whose Normal Attack sequence is very fast, will only drop two wood with the first three hits in her Normal Attack if the player does not delay the hits.
-** Attacks that hit twice in a row, such as the third hit in [[Rosaria]]'s Normal Attack sequence, will likely only drop one wood.
-** The fourth hit in [[Xiangling]]'s Normal Attack sequence, which hits four times, can drop two wood.
-* Only 2000 of each type of wood can be chopped per day.<ref>KeqingMains Theorycrafting Library: [https://library.keqingmains.com/evidence/general-mechanics/resources-and-efficiency#wood-daily-drop-limit Wood Daily Drop Limit]</ref> Wood obtained from [[Arataki Itto]]'s passive talent [[Woodchuck Chucked]] do not count towards this cap.<ref>KeqingMains Theorycrafting Library: [https://library.keqingmains.com/evidence/characters/geo/itto#utility-passive-woodchuck-chucked Utility Passive: Woodchuck Chucked]</ref>
-* Chopping [[Cuihua Wood|Cuihua]] trees (which grow [[Sunsettia]]s, [[Apple]]s, or [[Lavender Melon]]s) allows the player to gather wood and knock fruit down at the same time.
-* Some trees can't be chopped, such as overly large trees and trees with twisted trunks.
+{{See also|Wood}}
+{{Transclude|Wood|Cutting Trees}}
+
+===Materials by Usage===
+The amount required is for a single crafting of every furnishing that uses the material.
+{| class="article-table tdl1 sortable alternating-colors-table" style="text-align: center"
+! Type
+! Furnishings<br />Used In
+! Amount<br />Required
+|-
+| {{Item|Iron Chunk}} || 97 || 554
+|-
+| {{Item|White Iron Chunk}} || 146 || 886
+|-
+| {{Item|Fabric}} || 158 || 796
+|-
+| {{Item|Red Dye}} || 95 || 449
+|-
+| {{Item|Blue Dye}} || 80 || 408
+|-
+| {{Item|Yellow Dye}} || 52 || 241
+|-
+| {{Item|Adhigama Wood}} || 48 || 377
+|-
+| {{Item|Aralia Wood}} || 28 || 242
+|-
+| {{Item|Athel Wood}} || 19 || 154
+|-
+| {{Item|Bamboo Segment}} || 13 || 88
+|-
+| {{Item|Birch Wood}} || 34 || 312
+|-
+| {{Item|Brightwood}} || 32 || 315
+|-
+| {{Item|Cuihua Wood}} || 23 || 232
+|-
+| {{Item|Fir Wood}} || 57 || 398
+|-
+| {{Item|Fragrant Cedar Wood}} || 18 || 166
+|-
+| {{Item|Karmaphala Wood}} || 26 || 238
+|-
+| {{Item|Maple Wood}} || 34 || 274
+|-
+| {{Item|Mountain Date Wood}} || 2 || 24
+|-
+| {{Item|Otogi Wood}} || 49 || 414
+|-
+| {{Item|Pine Wood}} || 47 || 314
+|-
+| {{Item|Sandbearer Wood}} || 49 || 384
+|-
+| {{Item|Yumemiru Wood}} || 24 || 246
+|}
 
 ==Gardening Materials==
 {{Main|Gardening}}
@@ -47,10 +82,10 @@ Gardening Materials are items used for growing plants.
 {{#DPL:
 |namespace=
 |uses=Template:Item Infobox
-|include={Item Infobox}:%PAGE%:%PAGE%:group:source1:source2
+|include={Item Infobox}:%PAGE%:%PAGE%:group,{Item Infobox¦Phantom Source}
 |category=Item&Gardening Materials
-|table=class="article-table sortable" style="width: 100%",-,Image,Name,Planted on,How to Obtain,Sold by
-|tablerow=[[File:Item %PAGE%.png|45x45px]],[[%PAGE%]],[[%%]],%%,%%
+|table=class="article-table sortable" style="width: 100%",-,Image,Name,Planted on,Source
+|tablerow=[[File:Item %PAGE%.png|45x45px]],[[%PAGE%]],[[%%]],%%
 |tablesortcol=3
 |ordermethod=sortkey
 |noresultsfooter=\nNo Results
@@ -66,3 +101,5 @@ Gardening Materials are items used for growing plants.
 
 ==Navigation==
 {{Material Navbox|type=Crafting Materials}}
+
+[[ja:塵歌壺素材]]

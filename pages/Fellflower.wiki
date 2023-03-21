@@ -5,7 +5,8 @@
 Enemy Fellflower.png|As Fellflower
 NPC Fellflower Albedo.png|Mimicking Albedo
 </gallery>
-|element  = Cryo
+|dmgtype  = Cryo
+|weakpoint = no
 |type     = Event Bosses
 |family   = Mystical Beasts
 |group    = Whopperflowers
@@ -13,7 +14,6 @@ NPC Fellflower Albedo.png|Mimicking Albedo
 |ability1 = Shield
 |ability2 = Invincibility Frames
 }}
-{{Description|Having absorbed the blood of the wicked dragon, this Whopperflower has undergone immense changes. Handle with care!|Map waypoint description}}
 The '''Fellflower''' is an event boss for the [[Shadows Amidst Snowstorms/Rise of the Fell Flower|Rise of the Fell Flower]] Challenge in Act II of the [[Shadows Amidst Snowstorms]] [[Event]].
 
 It is a [[Cryo Whopperflower]] created by [[Primordial Albedo]], using the alchemical notes he stole from Albedo and [[Durin]]'s blood; the mutations allow it to mimic humans, of which it attempted to impersonate [[Albedo]].
@@ -35,77 +35,54 @@ In the latter part of the story arc, he was referred to by Albedo as "'''Subject
 }}
 
 ==Abilities and Attacks==
+''Most attack names are unofficial.''
 ===Phase 1: Shielded===
-*'''Arcane Fruits:''' The Fellflower's "crystals" have mutated into arcane fruits, using them as a primary source of attack. These fruits have moderate durability; Once destroyed, they will be launched at the Fellflower and deal significant damage to its shield. There are three types of Arcane Fruits that will attack the player:
-**'''Type 1:''' Slams down at the player three times from above, dealing {{Color|AoE Cryo DMG}}.
-**'''Type 2:''' Suspends in midair and launches homing projectiles at the player, dealing {{Color|Cryo DMG}} on hit.
-**'''Type 3:''' Summons up to 2 [[Large Cryo Slime]]s.
+{{Elemental Shield Data|Cryo|100}}
+{{Enemy Attacks
+|name_1 = Arcane Fruits
+|desc_1 = The Fellflower's "crystals" have mutated into arcane fruits, using them as a primary source of attack. These fruits have moderate durability; Once destroyed, they will be launched at the Fellflower and deal significant damage to its shield. There are three types of Arcane Fruits that will attack the player:
+* '''Type 1:''' Slams down at the player three times from above, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+* '''Type 2:''' Suspends in midair and launches homing projectiles at the player, each dealing '''50% ATK''' as {{Color|Cryo DMG}} on hit.
+* '''Type 3:''' Summons up to 2 [[Large Cryo Slime]]s.
+|file_1 = Fellflower Arcane Fruit 1
+|caption_1 = Type 1
+|file_1_2 = Fellflower Arcane Fruit 2
+|caption_1_2 = Type 2
+|file_1_3 = Fellflower Arcane Fruit 3
+|caption_1_3 = Type 3
+|file_1_4 = Fellflower Arcane Fruit Destroyed
+|caption_1_4 = Destroyed
 
-*'''Arcane Essence:''' After being hit by an Arcane Fruit, summons Arcane Essence that will restore portions of the Fellflower's shield if not picked up by the player. If the player picks up an Arcane Essence, they will lose '''1.5% Max [[HP]]''' every second for 10 seconds. The HP loss effect will stack if multiple Arcane Essences are picked up.
-
-*'''Avalanche:''' Launches waves of massive snowballs at the player, dealing {{Color|Cryo DMG}} on hit.
-
-*'''Bombardment:''' Launches massive snowballs into the air that will fall onto the player's location, dealing {{Color|AoE Cryo DMG}}.
-
-*'''Spin:''' Flattens, stretching out its petals and spins, dealing {{Color|AoE Cryo DMG}}.
-
-====Preview====
-{{Preview
-|size=185px
-|file1=Fellflower Arcane Fruit 1
-|caption1=Arcane Fruit (Type 1)
-
-|file2=Fellflower Arcane Fruit 2
-|caption2=Arcane Fruit (Type 2)
-
-|file3=Fellflower Arcane Fruit 3
-|caption3=Arcane Fruit (Type 3)
-
-|file4=Fellflower Arcane Fruit Destroyed
-|caption4=Arcane Fruits (Destroyed)
-
-|file5=Fellflower Arcane Essence
-|caption5=Arcane Essence (Picked Up)
-
-|file6=Fellflower Arcane Essence Absorption
-|caption6=Arcane Essence (Absorbed)
-
-|file7=Fellflower Avalanche
-|caption7=Avalanche
-
-|file8=Fellflower Bombardment
-|caption8=Bombardment
-
-|file9=Fellflower Spin Shielded
-|caption9=Spin
+|name_2 = Arcane Essence
+|desc_2 = After being hit by an Arcane Fruit, summons Arcane Essence that will restore portions of the Fellflower's shield if not picked up by the player. If the player picks up an Arcane Essence, they will lose '''1.5% Max [[HP]]''' every second for 10 seconds. The HP loss effect will stack if multiple Arcane Essences are picked up.
+|caption_2 = (Picked Up)
+|file_2_2 = Fellflower Arcane Essence Absorption
+|caption_2_2 = Arcane Essence (Absorbed)
+|name_3 = Avalanche
+|desc_3 = Launches waves of massive snowballs at the player, each dealing '''100% ATK''' as {{Color|Cryo DMG}} on hit.
+|name_4 = Bombardment
+|desc_4 = Launches massive snowballs into the air that will fall onto the player's location, each dealing '''50% ATK''' as {{Color|AoE Cryo DMG}}.
+|name_5 = Spin
+|desc_5 = Flattens, stretching out its petals and spins, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+|file_5 = Fellflower Spin Shielded
 }}
 
 ===Phase 2: Unshielded===
-*'''Subterranean Burst:''' The Fellflower submerges underground before bursting out on the player's location, dealing {{Color|AoE Cryo DMG}} upon reappearance.
-
-*'''Frost Cannon:''' The Fellflower charges up and fires a rapid volley of projectiles, dealing {{Color|Cryo DMG}} on hit.
-
-*'''Spin:''' Flattens, stretching out its petals and spins, dealing {{Color|AoE Cryo DMG}}.
-
-*'''Snowball Strike:''' Launches smaller snowballs at the player, dealing {{Color|Cryo DMG}} on hit.
-
-====Preview====
-{{Preview
-|size=185px
-|file1=Fellflower Phase 2 Start
-|caption1=Phase Transition
-
-|file2=Fellflower Subterranean Burst
-|caption2=Subterranean Burst
-
-|file3=Fellflower Frost Cannon
-|caption3=Frost Cannon
-
-|file4=Fellflower Spin Unshielded
-|caption4=Spin
-
-|file5=Fellflower Snowballs
-|caption5=Snowball Strike
+{{Enemy Attacks
+|name_1 = 
+|desc_1 = After the Fellflower's shield is depleted, it will shrink down and become stunned for a period of time before resuming its attacks.
+|file_1 = Fellflower Phase 2 Start
+|caption_1 = Phase Transition
+|name_2 = Subterranean Burst
+|desc_2 = The Fellflower submerges underground before bursting out on the player's location, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}} upon reappearance.
+|name_3 = Frost Cannon
+|desc_3 = The Fellflower charges up and fires a rapid volley of projectiles, each dealing '''20% ATK''' as {{Color|Cryo DMG}} on hit.
+|name_4 = Spin
+|desc_4 = Flattens, stretching out its petals and spins, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+|file_4 = Fellflower Spin Unshielded
+|name_5 = Snowball Strike
+|desc_5 = Launches smaller snowballs at the player, each dealing '''60% ATK''' as {{Color|Cryo DMG}} on hit.
+|file_5 = Fellflower Snowballs
 }}
 
 ==Strategy==
@@ -114,6 +91,9 @@ When first fought, the Fellflower is massive and comes with a shield that reduce
 During the shielded phase, a [[Healing|healer]] is highly recommended, as Arcane Essence can deal a significant amount of true damage that ignores [[shields]] when picked up. A ranged character is also helpful for destroying the 2nd type of Arcane Fruits, which suspends in midair and is difficult to reach for melee characters.
 
 When the shield depletes, the Fellflower shrinks to a much smaller size and becomes much more manageable, acting like a normal Whopperflower. The Fellflower will be invincible for a short period of time while transitioning to the second phase.
+
+==Descriptions==
+{{Description|Having absorbed the blood of the wicked dragon, this Whopperflower has undergone immense changes. Handle with care!|Map waypoint description}}
 
 ==Trivia==
 *"Fell" is a word with various Old English to Proto-Germanic roots all roughly meaning "fierce", "wicked", "cruel", "savage". etc.
@@ -146,7 +126,7 @@ When the shield depletes, the Fellflower shrinks to a much smaller size and beco
 |es_tl   = Cursed Flower
 |fr      = Gangrefleur
 |fr_tl   = Gangreflower
-|fr_note = Portmanteau of {{Lang|mini=1|fr='''''gangrè'''ne''|fr_tl=gangrene}} + {{Lang|mini=1|fr='''''fleur'''''|fr_tl=flower}}.
+|fr_note = Portmanteau of {{Lang|mini=1|fr='''''gangrè'''ne''|fr_tl=gangrene}} + {{Lang|mini=1|fr='''''fleur'''''|fr_tl=flower.}}
 |ru      = Злоцвет
 |ru_tl   = Evilflower
 |th      = Fellflower
@@ -157,6 +137,10 @@ When the shield depletes, the Fellflower shrinks to a much smaller size and beco
 |id      = Fellflower
 |pt      = Flor Gigante Maldita
 |pt_tl   = Cursed Giant Flower
+|tr      = Düşen Çiçek
+|tr_tl   = 
+|it      = Demonfiore
+|it_tl   = 
 }}
 
 ==Change History==
@@ -165,5 +149,9 @@ When the shield depletes, the Fellflower shrinks to a much smaller size and beco
 ==Navigation==
 {{Enemy Navbox|Special}}
 
+[[de:„Teufelsblume“]]
+[[es:Flor maldita]]
+[[ja:「マジックフラワー」]]
 [[pt-br:Flor Gigante Maldita]]
+[[th:Fellflower]]
 [[vi:Hoa Quỷ]]

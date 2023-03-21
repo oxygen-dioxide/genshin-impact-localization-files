@@ -6,8 +6,10 @@
 |actNum        = III
 |act           = Song of the Dragon and Freedom
 |part          = 4
-|description   = The entrance to [[Stormterror's Lair]] is just ahead, but the light seals bar the way in. You must once again face a trial in order to break those seals.
 |startLocation = [[Stormterror's Lair]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Brightcrown Mountains
+|subarea       = Stormterror's Lair
 |prev          = Empty Abode
 |next          = Calm Before the Storm
 |exp           = 375
@@ -20,44 +22,40 @@
 {{TeyvatQuest|0|3|part=4}}
 
 ==Steps==
-# Investigate the seal at the top of the tower
+# Investigate the seal at the top of the [[Decarabian's Tower|tower]]
 #* Bring the "last part" to the light actuator to activate it.
-#* There is a teleport waypoint that can be unlocked and an Exquisite Chest near the light actuator.
-# Talk to Venti
+# Talk to [[Venti]]
 # Break the seal in Stormterror's Lair (0/3)
-#* Climb to the top of the tower to glide over the barrier around the tower. This will also grant the ''[[Wonders of the World]]'' achievement "[[The Remains of the Gale]]."
-#* The light actuator to the '''southwest''' has three parts. Activating the light actuator will trap you in a barrier with a Pyro Abyss Mage and two Samachurls. You have two minutes to defeat the enemies and break the seal on the light actuator. Collect the parts and bring it to the actuator.
-#* The light actuator to the '''northwest''' is unguarded, so go directly to the pillars of light. (They're all north of the actuator)
-#** One is in a hilichurl camp, but you can skip the battle by breaking the crates and collecting the part quickly.
-#** One is hidden behind a breakable rock wall, but approaching them will spawn a Giant Geo Slime and a Lesser Geo Slime. This battle can be skipped by breaking the wall and collecting the part.
+#* The light actuator to the '''southwest''' has three parts. Approaching the light actuator triggers a barrier and a combat time trial challenge, which involves defeating a [[Pyro Abyss Mage]] and two Samachurls in two minutes to defeat the enemies and break the seal on the light actuator. Collect the parts and bring it to the actuator.
+#* The light actuator to the '''northwest''' is unguarded, so go directly to the pillars of light.
+#** One is in a hilichurl camp, but combat can be skipped by breaking the crates and collecting the part quickly.
+#** One is hidden behind a large [[Rock Pile]]. Approaching it spawns a [[Large Geo Slime]] and a Geo Slime. This battle can be skipped by breaking the wall and collecting the part.
 #** One is inside a wind barrier. Climb the nearby pillars and glide over the barrier to collect the part.
 #** Bring the parts to the light actuator.
 #* The light actuator to the '''northeast''' is unguarded, and two of the parts are on top of the pillars. Fly up with nearby wind currents. Bring the parts to the actuator.
 
-==Notes==
-<gallery hideaddbutton="true" captionalign="center">
-Location Stormterror Actuators.png|Locations of Actuators
-</gallery>
-
 ==Dialogue==
+{{Quest Description|The entrance to [[Stormterror's Lair]] is just ahead, but the light seals bar the way in. You must once again face a trial in order to break those seals.}}
 {{Dialogue start}}
-;(Talk to Diluc again)
+;(Talk to Diluc, optional)
 :{{A|vo dialog mdaq067b diluc 01.ogg}} '''Diluc:''' What are you waiting for? Go unlock the {{Color|buzzword|light actuator}}.
 
-;(Talk to Jean again)
+;(Talk to Jean, optional)
 :{{A|vo dialog mdaq067b qin 01.ogg}} '''Jean:''' There's no time to waste. We need to get these {{Color|buzzword|light actuators}} unlocked.
 
-;(Talk to Venti again)
+;(Talk to Venti, optional)
 :{{A|vo dialog mdaq067b venti 01.ogg}} '''Venti:''' Okay! Give it a go!
 :{{A|vo dialog mdaq067b venti 02.ogg}} '''Venti:''' If you don't try, you'll never know.
+
 ----
-;(Talking to Venti after activating the actuator)
+
+;(Talk to Venti after activating the actuator)
 :{{A|vo mdaq067b 3 venti 01.ogg}} '''Venti:''' Looks like we're right.
 :{{A|vo mdaq067b 3 venti 02.ogg}} '''Venti:''' There are three more halos circling the tower...
 :{{A|vo mdaq067b 3 qin 01.ogg}} '''Jean:''' Which means, there are three more corresponding {{Color|buzzword|light actuators}} to activate.
 :{{A|vo mdaq067b 3 qin 02.ogg}} '''Jean:''' I can see one from here.
 :{{A|vo mdaq067b 3 qin 03.ogg}} '''Jean:''' The rest must be scattered within the ruins around here. Let's go find them.
-:{{A|vo mdaq067b 3 paimon 01.ogg}} '''Paimon:''' ...Why did Dvalin pick a place filled with puzzles and seals as his lair? Doesn't he get annoyed coming back home?
+:{{A|vo mdaq067b 3 paimon 01.ogg}} '''Paimon:''' ...Why did [[Dvalin]] pick a place filled with puzzles and seals as his lair? Doesn't he get annoyed coming back home?
 :{{A|vo mdaq067b 3 venti 03.ogg}} '''Venti:''' He doesn't walk in, he flies in.
 :{{A|vo mdaq067b 3 paimon 02.ogg}} '''Paimon:''' ...You do have a point.
 ----
@@ -71,16 +69,16 @@ Location Stormterror Actuators.png|Locations of Actuators
 :'''Venti:''' This light actuator is connecting to the others...
 :'''Venti:''' I've never encountered such annoying historical relics as these.
 ----
-;(After the first actuator)
+;(Activate the first actuator)
 :{{A|vo mdaq067b 4 paimon 01.ogg}} '''Paimon:''' Wow! This {{Color|buzzword|light actuating ceremony}} does work magic!
 :{{A|vo mdaq067b 4 paimon 02.ogg}} '''Paimon:''' It looks like one of the three halos above has now become solid ground!
 :{{A|vo mdaq067b 4 paimon 03.ogg}} '''Paimon:''' Let's start looking for the next {{Color|buzzword|puzzle}}!
 ----
-;(After the second actuator)
+;(Activate the second actuator)
 :{{A|vo mdaq067b 4 paimon 04.ogg}} '''Paimon:''' It seems two of the halos have become solid ground!
 :{{A|vo mdaq067b 4 paimon 05.ogg}} '''Paimon:''' One more and the {{Color|buzzword|seals}} at the top of the tower will be broken!
 ----
-;(After the third actuator)
+;(Activate the third actuator)
 :{{A|vo mdaq068 1 paimon 01.ogg}} '''Paimon:''' It's done!
 :{{A|vo mdaq068 1 paimon 02.ogg}} '''Paimon:''' It looks like {{Color|buzzword|that place}} leads deeper inside.
 {{Dialogue end}}
@@ -97,14 +95,14 @@ Location Stormterror Actuators.png|Locations of Actuators
 |ja_rm   = Doukou no Gishiki{{Assumed}}
 |ja_tl   = Guiding Light Ceremony
 |ko      = 빛 인도 의식
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Bit Indo Uisik
+|ko_tl   = Light Guiding Ceremony
 |es      = Ceremonia de luz
 |es_tl   = Ceremony of Light
 |fr      = Rite de lumière
 |fr_tl   = Rite of Light
 |ru      = Перенаправление света
-|ru_tl   = 
+|ru_tl   = Redirection of Light
 |th      = แสงแห่งการชี้นำ
 |th_rm   = 
 |th_tl   = Light of Guidance
@@ -116,6 +114,10 @@ Location Stormterror Actuators.png|Locations of Actuators
 |id_tl   = Light Ritual
 |pt      = Cerimônia de Luz
 |pt_tl   = Ceremony of Light
+|tr      = Işık Rehberliği Seremonisi
+|tr_tl   = 
+|it      = Rituale della Luce
+|it_tl   = Ritual of the Light
 }}
 
 ==Change History==
@@ -124,4 +126,7 @@ Location Stormterror Actuators.png|Locations of Actuators
 ==Navigation==
 {{Archon Quest Navbox|chapter=Prologue}}
 [[Category:Archon Prologue]]
+
+[[es:Ceremonia de luz]]
+[[ja:導光の儀式]]
 [[pt-br:Cerimônia de Luz]]

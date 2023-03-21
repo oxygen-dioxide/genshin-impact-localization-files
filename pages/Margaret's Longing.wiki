@@ -6,10 +6,14 @@
 |part          = 2
 |act           = Master's Day Off
 |character     = Jean
-|description   = While [[Jean]] is ill from overwork, you've been tasked with handling some citizens' commissions on her behalf. Where has [[Margaret]]'s pet cat Prince run off to this time?
-|startLocation = [[Mondstadt]], [[Mondstadt]]
+|startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|region        = Mondstadt
+|area          = Starfell Valley
+|subarea       = City of Mondstadt
 |prev          = When the West Wind Arises (Quest)
 |next          = Master's Day Off (Quest)
+|concurrent    = Charles' Troubles
+|concurrent2   = Sara's Worries
 |exp           = 300
 |mora          = 18,000
 |other         = {{Card|Hero's Wit|2}}{{Card|Mystic Enhancement Ore|4}}
@@ -27,7 +31,8 @@
 #Complete Margaret's commission
 
 ==Dialogue==
-{{StubDialogue|Needs figuring out the where the VO from the [[#Unsorted|Unsorted]] section needs to go.}}
+{{StubDialogue|Needs figuring out the where the VO from the [[#Unsorted Voice-Overs from v3.3|Unsorted]] section needs to go.}}
+{{Quest Description|While [[Jean]] is ill from overwork, you've been tasked with handling some citizens' commissions on her behalf. Where has [[Margaret]]'s pet cat Prince run off to this time?}}
 {{Dialogue start}}
 ;(Approach Margaret and Venti)
 :{{A|vo qinlq002 1 venti 01.ogg}} '''Venti:''' ...So, yours is the cat that went missing.
@@ -57,8 +62,8 @@
 :{{A|vo dialog qinlq002 margaret 01.ogg}} '''Margaret:''' Prince should be somewhere around the Marketplace. Remember, he's got black fur.
 
 ;(Talk to Margaret again after looking at wrong spot)
-{{A|vo qinlq002 3 margaret 01.ogg}} '''Margaret:''' Where have you been looking?
-{{A|vo qinlq002 3 margaret 02.ogg}} '''Margaret:''' Prince should be somewhere around the marketplace. Remember, he's got black fur.
+:{{A|vo qinlq002 3 margaret 01.ogg}} '''Margaret:''' Where have you been looking?
+:{{A|vo qinlq002 3 margaret 02.ogg}} '''Margaret:''' Prince should be somewhere around the marketplace. Remember, he's got black fur.
 ----
 ;(Upon approaching Prince)
 :{{A|vo qinlq002 2 paimon 01.ogg}} '''Paimon:''' Hey, look! Over there... it looks just like the cat Margaret was describing.
@@ -86,15 +91,14 @@
 ;(Talk to Margaret and Venti)
 ;(If you captured Prince)
 ::{{A|vo qinlq002 5 margaret 01a.ogg}} '''Margaret:''' Prince! Where did you go running off to? Thank goodness you're safe...
-::{{A|vo qinlq002 5 paimon 01a.ogg}} '''Paimon:''' He made sure we had our work cut out for us looking for him.
-<!--vo is inconsistent with the text in-game-->
+::{{A|vo qinlq002 5 paimon 01a.ogg}} '''Paimon:''' He made sure we had our work cut out for us looking for him.<!--vo is inconsistent with the text in-game-->
 ::{{A|vo qinlq002 5 margaret 01a 1.ogg}} '''Margaret:''' Oh Princey, how could you leave me like that...
 ::{{A|vo qinlq002 5 paimon 01a 1.ogg}} '''Paimon:''' Looks like those two need some time to themselves...
 ::{{A|vo qinlq002 5 paimon 01a 2.ogg}} '''Paimon:''' And here are your astral iron strings, Venti.
 ::{{A|vo qinlq002 5 venti 01a.ogg}} '''Venti:''' You found them! Wonderful! I was not optimistic they would turn up.
 ;(If you failed to capture Prince)
 ::{{A|vo qinlq002 5 margaret 01b.ogg}} '''Margaret:''' Prince! Good boy, that's my Prince, I knew you'd come home to me...
-::{{A|vo qinlq002 5 paimon 01b.ogg}} '''Paimon:''' *Panting* Gah! After all that searching...
+::{{A|vo qinlq002 5 paimon 01b.ogg}} '''Paimon:''' *panting* Gah! After all that searching...
 ::{{A|vo qinlq002 5 margaret 01b 1.ogg}} '''Margaret:''' Oh Princey, how could you leave me like that...
 ::{{A|vo qinlq002 5 paimon 01b 1.ogg}} '''Paimon:''' Looks like those two need some time to themselves...
 ::{{A|vo qinlq002 5 venti 01b.ogg}} '''Venti:''' Look at you... Did Prince take you on a bit of a wild goose chase, then?
@@ -108,19 +112,10 @@
 :{{A|vo qinlq002 5 venti 01a 4.ogg}} '''Venti:''' Hehe, anyway, thanks for the help, I'll be going now&mdash; a&mdash;achoo!
 {{Dialogue end}}
 
-===Unsorted===
-* {{A|vo qinlq002 3 paimon 01b.ogg}} '''Paimon:''' Which way are you going?
-* {{A|vo qinlq002 3 paimon 01b 1.ogg}} '''Paimon:''' You finally found Prince and now you're just gonna let him get away again? Come on, you're so sloppy!
-* {{A|vo qinlq002 4 paimon 01b.ogg}} '''Paimon:''' Oh, did you see him again? Make sure you get him this time.
-
-<!--List of VOs removed
-'5 venti 01b 3' was a copy of '5 venti 01a 1'
-'5 venti 01b 4' was a copy of '5 venti 01a 2'
-'5 venti 01b 5' was a copy of '5 venti 01a 3'
-'5 venti 01b 6' was a copy of '5 venti 01a 4'
-'5 paimon 01b 3' was a copy of '5 paimon 01a 3'
-'5 paimon 01b 4' was a copy of '5 paimon 01a 4'
--->
+===Unsorted Voice-Overs from v3.3===
+* {{A|vo qinlq002 1 paimon 09.ogg}} '''Paimon:''' Hey, look! That black cat looks really familiar. Haven't we seen it in The Cat's Tail before?
+* {{A|vo qinlq002 1 paimon 10.ogg}} '''Paimon:''' Yep, that's Prince alright!
+* {{A|vo qinlq002 1 margaret 05.ogg}} '''Margaret:''' Thank you all. Prince should be somewhere around the marketplace or the residential area. It's a black cat you're looking for.
 
 ==Other Languages==
 {{Other Languages
@@ -134,15 +129,15 @@
 |ja_rm   = Irainin Maagaretto no Omoi
 |ja_tl   = Hope of a Client Called Margaret
 |ko      = 의뢰인 마가렛의 그리움
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Uiroein Magaret-ui Geurium
+|ko_tl   = Client Margaret's Longing
 |es      = La intranquilidad de Margaret
-|es_tl   = 
+|es_tl   = Margaret's Restlessness
 |fr      = Le chat de Margaret
 |fr_tl   = Margaret's Cat
 |ru      = Тоска Маргариты
 |ru_tl   = Margaret's Longing
-|ru_note = {{Lang|mini=1|ru=Тоска|ru_rm=Toska}} is an extremely complicated word in the Russian language.<br /><br />"No single word in English renders all the shades of ''toska''.<br />At its deepest and most painful, it is a sensation of great spiritual anguish, often without any specific cause.<br />At less morbid levels, it is a dull ache of the soul, a longing with nothing to long for, a sick pining, a vague restlessness, mental throes, yearning.<br />In particular cases, it may be the desire for somebody or something specific, nostalgia, love-sickness.<br />At the lowest level, it grades into ennui, boredom."<br />&mdash;{{w|Vladimir Nabokov}}, the author of ''{{w|Lolita}}
+|ru_note = {{ru|Тоска}} is an untranslatable Russian word which describes the state of sadness, anguish, melancholia or longing of various intensity, depending on the context.
 |th      = ความคิดถึงของ Margaret
 |th_rm   = 
 |th_tl   = 
@@ -154,9 +149,14 @@
 |id_tl   = Margaret's Longing
 |pt      = Saudades da Solicitante Margaret
 |pt_tl   = 
+|tr      = Margaret'ın Hasreti
+|tr_tl   = 
+|it      = Il gatto di Margaret
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|1.0}}
 
 [[es:La intranquilidad de Margaret]]
+[[fr:Le chat de Margaret]]

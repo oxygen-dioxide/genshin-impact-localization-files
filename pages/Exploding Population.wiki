@@ -1,17 +1,18 @@
 {{Quest Infobox
-|id            = 
+|id            = 70661
 |image         = World Quest Exploding Population.png
 |type          = World
 |summary       = Learn how to [[Fishing|fish]].
 |requirement   = Unlocked the [[Serenitea Pot]] System
 |region        = Mondstadt
 |area          = Starfell Valley
+|subarea       = City of Mondstadt
 |startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
 |mora          = 30,000
 |other         = {{Card|Hero's Wit|3}}
 |characters    = Katheryne (Mondstadt); Nantuck; Paimon; Traveler
 }}
-'''Exploding Population''' is a [[World Quest]] in [[Mondstadt]]. Completing this quest unlocks the [[Fishing]] system.
+'''''Exploding Population''''' is a [[World Quest]] in [[Mondstadt]]. Completing this quest unlocks the [[Fishing]] system.
 
 ==Steps==
 #Talk to [[Katheryne]] in Mondstadt
@@ -23,6 +24,10 @@
 #Catch an [[Ornamental Fish]] in the [[Stormbearer Mountains]]
 #*[[Co-Op Mode]] is locked during this step
 #Show Nantuck the Ornamental Fish
+
+==Notes==
+* Step 4 does not progress if the player has only caught Ornamental Fish.
+* Steps 6 and 7 are skipped if an Ornamental Fish is caught prior to completing Step 5.
 
 ==Dialogue==
 {{Quest Description|The Mondstadt Adventurers' Guild seems to have posted a special commission...}}
@@ -52,7 +57,7 @@
 :'''Nantuck:''' And to be honest, with the manpower we have available...
 :'''Nantuck:''' We'd be hard-pressed to catch all the new fish species for research in a short time.
 :'''Nantuck:''' But on the flip side, I thought, isn't this also a great opportunity for the Fishing Association to grow?
-:'''Nantuck:''' So I put up a commission with the {{sic|Adventurer's Guild}}. Well, how about it? Interested in joining us?
+:'''Nantuck:''' So I put up a commission with the Adventurers' Guild. Well, how about it? Interested in joining us?
 :'''Nantuck:''' Fishing is a lot of fun, you know!
 :{{DIcon}} No problem, I'm good at fishing.
 ::'''Nantuck:''' Great, what an energetic youngster you are!
@@ -80,23 +85,41 @@
 :'''Nantuck:''' Start once you're ready. I'm looking forward to seeing what you might catch!
 
 <!--for paimon fishing dialogue, see [[Fishing]] voicelines section-->
-;(Talk to Nantuck after catching a fish)
-:'''Nantuck:''' How did it go? By the look on your face, I suppose you got a pretty good haul! Let me see.
-:'''Nantuck:''' Oh? It's a newly discovered species of fish! That's wonderful!
-:'''Nantuck:''' You're almost catching up with me back when I was in my glory days, hahaha!
-:{{DIcon}} Can you also catch fish with your bare hands?
-:'''Nantuck:''' Ahem... Seems like these ordinary little fish are a walk in the park for you. I should consider giving you something more challenging...
-:'''Nantuck:''' You might not know this, but even fish from the same species can have huge differences between individuals because of differences in living environment and food.
-:'''Nantuck:''' Even though they all look the same, some individuals are particularly active and energetic. They jump out of the water from time to time and are very eye-catching.
-:'''Nantuck:''' These individuals are superior by far in terms of both commercial and aesthetic value.
-:'''Nantuck:''' Many hobbyists buy them at high prices and keep them at home in their tanks for ornamental purposes. This is why such fish are also called "ornamental fish."
-:{{DIcon}} So that means, apart from "Emergency Paimon"...
-::{{DIcon}} There's also "Ornamental Paimon"!
-:'''Paimon:''' No, there isn't! How can there be so many kinds of Paimons!?
-:'''Nantuck:''' Yes, that's precisely how it works. Looks like you've gotten it already!
-:'''Nantuck:''' Recently, there have been many "ornamental fish" active in the waters near the Stormbearer Mountains, which I have marked on your map.
-:'''Nantuck:''' Let's go over and check it out.
-
+;(Talk to Nantuck after catching a fish, if no Ornamental Fish were caught)
+::'''Nantuck:''' How did it go? By the look on your face, I suppose you got a pretty good haul! Let me see.
+::'''Nantuck:''' Oh? It's a newly discovered species of fish! That's wonderful!
+::'''Nantuck:''' You're almost catching up with me back when I was in my glory days, hahaha!
+::{{DIcon}} Can you also catch fish with your bare hands?
+::'''Nantuck:''' Ahem... Seems like these ordinary little fish are a walk in the park for you. I should consider giving you something more challenging...
+::'''Nantuck:''' You might not know this, but even fish from the same species can have huge differences between individuals because of differences in living environment and food.
+::'''Nantuck:''' Even though they all look the same, some individuals are particularly active and energetic. They jump out of the water from time to time and are very eye-catching.
+::'''Nantuck:''' These individuals are superior by far in terms of both commercial and aesthetic value.
+::'''Nantuck:''' Many hobbyists buy them at high prices and keep them at home in their tanks for ornamental purposes. This is why such fish are also called "ornamental fish."
+::{{DIcon}} So that means, apart from "Emergency Paimon"...
+:::{{DIcon}} There's also "Ornamental Paimon"!
+::'''Paimon:''' No, there isn't! How can there be so many kinds of Paimons!?
+::'''Nantuck:''' Yes, that's precisely how it works. Looks like you've gotten it already!
+::'''Nantuck:''' Recently, there have been many "ornamental fish" active in the waters near the Stormbearer Mountains, which I have marked on your map.
+::'''Nantuck:''' Let's go over and check it out.
+::;(Continue to next section)
+;(Talk to Nantuck after catching a fish, if an Ornamental Fish was caught)
+::'''Nantuck:''' How did it go? By the look on your face, I suppose you got a pretty good haul! Let me see.
+::'''Nantuck:''' Oh? It's a newly discovered species of fish! Most stupendous... Hey, wait, what's that other fish in your bag?
+::'''Nantuck:''' Wow&mdash; That's amazing! Do you know what this is? It's an "ornamental fish"!
+::'''Nantuck:''' You might not know this, but even fish from the same species can have huge differences between individuals because of differences in living environment and food.
+::'''Nantuck:''' Even though they all look the same, some individuals are particularly active and energetic. They jump out of the water from time to time and are very eye-catching.
+::'''Nantuck:''' These individuals are superior by far in terms of both commercial and aesthetic value.
+::'''Nantuck:''' Many hobbyists buy them at high prices and keep them at home in their tanks for ornamental purposes.
+::'''Nantuck:''' This one in your bag is a true-blue "ornamental fish."
+::{{DIcon}} So that means, apart from "Emergency Paimon"...
+:::{{DIcon}} There's also "Ornamental Paimon"!
+::'''Paimon:''' No, there isn't! How can there be so many kinds of Paimons!?
+::'''Nantuck:''' Yes, that's precisely how it works. Looks like you've gotten it already!
+::'''Nantuck:''' I'm really sorry I underestimated you before... no! I underestimated the elites of the Adventurers' Guild!
+::'''Nantuck:''' Guess I should hurry up and put up more commissions. I have got to attract talent like you to join the Fishing Association, if that's the last thing I do!
+::'''Nantuck:''' By the way, if you need fishing gear in the future, you can drop by our Fishing Association to have a look. Our prices are very affordable!
+::'''Nantuck:''' Hehe, not to brag or anything, but we do have a good collection of fine goods!
+::;(Quest ends)
 ----
 ;(After catching the fish and showing it to Nantuck)
 :'''Nantuck:''' Back so soon, youngster? You're pretty quick, huh?
@@ -118,36 +141,41 @@
 {{Other Languages
 |en      = Exploding Population
 |zhs     = 鱼群大爆发
-|zhs_rm  = Yú Qún Dà Bàofā
+|zhs_rm  = Yúqún Dà Bàofā
 |zht     = 魚群大爆發
-|zht_rm  = Yú Qún Dà Bàofā
-|zh_tl   = 
+|zht_rm  = Yúqún Dà Bàofā
+|zh_tl   = Fish Explosion
 |ja      = 魚群大発生
 |ja_rm   = Gyogun Daihassei
 |ja_tl   = Explosive Increase of Fish
 |ko      = 고기떼 대폭발
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Gogitte Daepokbal
+|ko_tl   = Superexplosion of a Shoal of Fish
 |es      = Boom acuático
 |es_tl   = Aquatic Boom
 |fr      = Espèces en recrudescence
 |fr_tl   = Species in Resurgence
 |ru      = Взрывной рост популяции
-|ru_tl   = 
+|ru_tl   = Explosive Increase in Population
 |th      = การระเบิดปลาครั้งใหญ่
-|th_rm   = 
-|th_tl   = 
+|th_rm   = Kār rabeid plā khrậng h̄ıỵ̀
+|th_tl   = Big Fish Explosion
 |vi      = Đàn Cá Ồ Ạt
-|vi_tl   = 
+|vi_tl   = Flock of Fishes
 |de      = Fische in der Überzahl
 |de_tl   = Fish in the Superiority
 |id      = Ledakan Populasi Ikan
 |id_tl   = Fish Population Exploding
 |pt      = Grande Surto de Peixes
 |pt_tl   = Great Fish Outbreak
+|tr      = Patlayan Balık Popülasyonu
+|tr_tl   = Exploding Fish Population
+|it      = popolazione che esplode
+|it_tl   = Exploding Population
 }}
 
 ==Change History==
 {{Change History|2.1}}
 
+[[de:Fische in der Überzahl]]
 [[pt-br:Grande Surto de Peixes]]

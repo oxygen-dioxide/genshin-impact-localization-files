@@ -7,6 +7,7 @@
 |utility1      = Interruption Resistance
 |utility2      = Physical DMG
 |utility3      = Requires Staying on Field
+|utility4      = Effect Triggered by Normal Attack Hit
 |energyCost    = 80
 |CD            = 20s
 |attr1         = Skill DMG
@@ -22,14 +23,45 @@
 '''Glacial Illumination''' is [[Eula]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-*The Lightfall Sword can no longer gain energy stacks once its exploding animation begins.
-*{{TalentNote|character=Eula|talent=Glacial Illumination|no snapshot|Lightfall Sword's damage}}
+* {{TalentNote|energy frame|107}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|98}}<ref name="Genshin Academy burst info sheet" />
+* The initial slash does not grant energy stacks.
+* As the description mentions, attacks need to deal DMG to enemies to charge the Lightfall Sword. Thus, hitting shields from Abyss Mages, Shieldwall Mitachurls, etc. will not grant energy stacks.
+* The Lightfall Sword can no longer gain energy stacks once its exploding animation begins.
+* {{TalentNote|character=Eula|talent=Glacial Illumination|no snapshot|Lightfall Sword's damage}}
+
+;<big>Passive Effects</big>
 *{{TalentNote|character=Eula|talent=Glacial Illumination|ascension|2|Wellspring of War-Lust}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|3|Lawrence Pedigree}}
 *{{TalentNote|constellation|4|The Obstinacy of One's Inferiors}}
 *{{TalentNote|constellation|6|Noble Obligation}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Activation Knockback
+|gu      = —
+|icdtag  = —
+|icdtype = —
+|poise   = 400
+|impulse = 3
+
+|title2   = Skill DMG
+|gu2      = 2U
+|icdtag2  = none
+|poise2   = 0
+|impulse2 = Air, 0, 800
+|blunt2   = 1
+
+|title3   = Lightfall Sword DMG
+|gu3      = —
+|icdtag3  = —
+|icdtype3 = —
+|poise3   = 400
+|impulse3 = Air, 0, 800
+|blunt3   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -120,7 +152,7 @@
 |fr      = Lame de fond
 |fr_tl   = Groundswell
 |ru      = Сумеречный меч
-|ru_tl   = 
+|ru_tl   = Twilight Sword
 |th      = Glacial Illumination
 |vi      = Thanh Kiếm Sóng Nước
 |vi_tl   = Sword of Water Waves
@@ -129,10 +161,17 @@
 |id      = Glacial Illumination
 |pt      = Espada das Ondas Congeladas
 |pt_tl   = Sword of Frozen Waves
+|tr      = Buzul Aydınlık
+|tr_tl   = 
+|it      = Illuminazione glaciale
+|it_tl   = Glacial Illumination
 }}
 
 ==Change History==
 {{Change History|1.5}}
+
+==References==
+{{Reflist}}
 
 ==Navigation==
 {{Talent Navbox|Eula}}

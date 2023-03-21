@@ -5,7 +5,7 @@
 |info          = Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.<br /><br />'''Press'''<br />Accumulating the power of lightning, Beidou swings her blade forward fiercely, dealing {{Color|Electro DMG}}.<br /><br />'''Hold'''<br />Lifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.<br />Attacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing {{Color|Electro DMG}}. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.<br />The shield possesses the following properties:<br />
 * Has 250% {{Color|Electro DMG}} Absorption Efficiency.
 * Applies the {{Color|Electro element}} to Beidou upon activation.
-|scale_att1    = HP
+|scale_att1    = Max HP
 |scale_att2    = ATK
 |particles     = 2
 |particlesHold = 4
@@ -13,10 +13,10 @@
 |attr1         = Shield DMG Absorption
 |utility1      = Shield
 |utility2      = Electro Status to Self
-|value1        = 14.4–30.6% max HP + 1386–3,813
+|value1        = 14.4–30.6% Max HP + 1386–3,813
 |attr2         = Base DMG
 |value2        = 122–258%
-|attr3         = DMG Bonus% per Stack
+|attr3         = DMG Bonus on Hit Taken
 |value3        = 160–340%
 }}
 {{Description|Conquer the high seas! Pursue the waves and chase the storm!}}
@@ -27,13 +27,9 @@
 *The skill description is somewhat misleading. The Press skill has the same functionality as the Hold skill (including the shield and energy storing), but only during a very brief window.
 *After holding the skill for about 3 seconds, the attack will be released automatically.
 *If the shield breaks, the player will take the rest of the remaining damage used to break the shield.
-*The shield disappears upon release of the attack.
-*Pressing or holding the skill gains DMG bonus, a [[Interruption Resistance|Poise damage]] bonus, swing range bonus, and generates one extra elemental particle for each hit Beidou takes during the duration. Maximum bonuses are granted at 2 hits, or a "perfect counter" with [[Retribution|Passive Talent 1]].
-** The hits can be from any damage instance, including fire damage from burning grass.
-**When pressing or holding the skill, there will be a bubble around the character that lasts for a fraction of a second. If the player gets hit in the time frame the bubble is still up, it gives the maximum damage for the skill (same as if Beidou was hit twice).
-***After triggering this perfect counter, the player can continue to hold it, but it will not increase the damage further when hit.
-**The perfect counter can be instantly activated by pressing this skill while standing in damage over time environments like burning [[grass]], braziers, torches, or campfires.
-**A perfect counter will '''not''' negate all damage if the damage taken breaks the shield.
+*The shield created by this skill lasts for a short duration even after the skill button is released, allowing the skill's DMG to trigger the effects of [[Geo Resonance]].
+
+;<big>Passive Effects</big>
 *{{TalentNote|character=Beidou|talent=Tidecaller|ascension|1|Retribution}}
 *{{TalentNote|character=Beidou|talent=Tidecaller|ascension|2|Lightning Storm|enhances Beidou's attacks for 10 seconds after unleashing Tidecaller with its maximum DMG Bonus as follows:}}
 ** The DMG and Attack SPD of Beidou's Normal and Charged Attacks are increased by 15%.
@@ -41,6 +37,36 @@
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|3|Summoner of Storm}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Base DMG
+|gu      = 2U
+|icdtag  = none
+|poise   = 100
+|impulse = 4
+|blunt   = 1
+
+|title2   = Charge Level 1 DMG
+|gu2      = 2U
+|icdtag2  = none
+|poise2   = 200
+|impulse2 = 4
+|blunt2   = 1
+
+|title3   = Charge Level 2 DMG
+|gu3      = 2U
+|icdtag3  = none
+|poise3   = 300
+|impulse3 = 6
+|blunt3   = 1
+
+|title4   = Electro to Self
+|gu4      = 1U, 2s
+|icdtag4  = none
+|poise4   = —
+|impulse4 = —
+}}
 
 ==Preview==
 {{Preview
@@ -131,18 +157,22 @@
 |id      = Tidecaller
 |pt      = Invocadora da Maré
 |pt_tl   = 
+|tr      = Dalga Çağıran
+|tr_tl   = 
+|it      = Governamaree
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|1.0}}
-<!--
-==References==
-{{Reflist}}
--->
+
 ==Navigation==
 {{Talent Navbox|Beidou}}
 
 [[es:Invocadora de mareas]]
+[[fr:Invocation des marées]]
 [[pt-br:Invocadora da Maré]]
+[[ru:Призыв волны]]
 [[th:Tidecaller]]
 [[uk:Захоплення припливу]]
+[[vi:Bắt Sóng]]

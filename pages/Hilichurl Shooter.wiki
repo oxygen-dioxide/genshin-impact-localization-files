@@ -3,35 +3,44 @@
 Enemy Hilichurl Shooter.png|Archive
 Enemy Hilichurl Shooter Full Artwork.png|Full Art
 </gallery>
+|weakpoint = yes
 |family   = Hilichurls
 |type     = Common Enemies
 |group    = Hilichurl Shooters
 }}
-{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Hilichurl archers who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Hilichurl Shooters}}
+===Items===
+{{Drops Table|type=Hilichurl Shooters}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|hp_ratio=.8|atk_ratio=.9|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Aimed Shot:''' Fires an arrow at the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-**'''Enhanced:''' Some Hilichurl Shooters, mostly those in the [[Spiral Abyss]], [[Domains]], or overworld events/challenges, are capable of firing five bolts at a time, covering a ~45 degree arc in front of them.
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Hilichurl Shooter Aimed Shot
-|caption1=Aimed Shot
-
-|file2=Hilichurl Shooter Aimed Shot Enhanced
-|caption2=Aimed Shot (Enhanced)
+{{Enemy Attacks
+|name_1 = Shooting
+|file_1 = Hilichurl Shooter Aimed Shot
+|desc_1 = Fires an arrow at the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+* '''Multishot:''' Some Hilichurl Shooters, mostly those in the [[Spiral Abyss]], [[Domains]], or overworld events/challenges, are capable of firing five arrows at a time, covering a ~45 degree arc in front of them.
+|caption_1 = Normal
+|file_1_2 = Hilichurl Shooter Aimed Shot Enhanced
+|caption_1_2 = Multishot
 }}
 
+==Descriptions==
+{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Hilichurl archers who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Hilichurl Shooter Icon.png|Icon
 </gallery>
 
@@ -50,7 +59,7 @@ Enemy Hilichurl Shooter Icon.png|Icon
 |ko_rm   = Chyuchyu Gungsu
 |ko_tl   = Hilichurl Archer
 |es      = Hilichurl Ballestero
-|es_tl   = Hilichurl Crossbowman 
+|es_tl   = Hilichurl Crossbowman
 |fr      = Arbalétrier Brutocollinus
 |fr_tl   = Hilichurl Crossbowman
 |ru      = Хиличурл-стрелок
@@ -63,6 +72,10 @@ Enemy Hilichurl Shooter Icon.png|Icon
 |id      = Hilichurl Shooter
 |pt      = Hilichurl Atirador
 |pt_tl   = 
+|tr      = Nişancı Dağ Yabanisi
+|tr_tl   = 
+|it      = Hilichurl balestriere
+|it_tl   = 
 }}
 
 ==Change History==
@@ -71,8 +84,10 @@ Enemy Hilichurl Shooter Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Hilichurl-Schütze]]
 [[es:Hilichurl Ballestero]]
+[[fr:Arbalétrier Brutocollinus]]
 [[ja:ヒルチャール・射手]]
 [[pt-br:Hilichurl Atirador]]
-[[fr:Arbalétrier Brutocollinus]]
 [[ru:Хиличурл-стрелок]]
+[[th:Hilichurl Shooter]]

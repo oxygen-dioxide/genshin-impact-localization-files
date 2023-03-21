@@ -1,17 +1,25 @@
 {{Quest Infobox
 |id            = 01009
+|image         = Archon Quest C1A1 Custodian of Clouds.png
 |type          = Archon
 |chapter       = I
 |actNum        = I
 |act           = Of the Land Amidst Monoliths
 |part          = 3
-|description   = Following [[Moon Carver]]'s instructions, you arrive at [[Mt. Aocang]] in order to seek out [[Cloud Retainer]].
 |startLocation = [[Mt. Aocang]], [[Liyue]]
+|region        = Liyue
+|area          = Minlin
+|subarea       = Mt. Aocang
 |prev          = An Impromptu Change of Plan
 |next          = Dust to Dust
+|concurrent    = Wangshu
+|concurrent2   = Moulder of Mountains
+|domain        = Cloud Retainer's Abode
 |exp           = 400
 |mora          = 12,250
-|other         = {{Card|Adventurer's Experience|5}}{{Card|Mystic Enhancement Ore|3}}
+|other         = {{Card|Adventurer's Experience|5}}{{Card|Mystic Enhancement Ore|3}}<br />
+'''From looking for traces of food offerings'''<br />
+{{Card|Recipe: Jewelry Soup}}{{Card|Snapdragon|2}}{{Card|Tofu|4}}{{Card|Recipe: Matsutake Meat Rolls}}{{Card|Flour|2}}
 |characters    = Cloud Retainer;Paimon;Traveler
 |voiced        = yes
 }}
@@ -19,19 +27,26 @@
 
 ==Steps==
 # Search for [[Cloud Retainer]]
-#* Go to the round table in the middle of the lake.
+#* Go to the round table in the middle of the pond.
 # Look for traces of food offerings (0/3)
+#* Examining the northwestern pot yields [[Recipe: Jewelry Soup]], {{Item|Snapdragon|20|x=2}}, and {{Item|Tofu|20|x=4}}. Also located next to the pot are {{Item|Lotus Head|20|x=2}} and {{Item|Snapdragon|20|x=1}}.
+#* Examining the northeastern pot yields [[Recipe: Matsutake Meat Rolls]]. Also located next to the pot is {{Item|Matsutake|x=2}}.
+#* Examining the southeastern pot yields {{Item|Flour|x=2}} and, if not already obtained, [[Recipe: Mora Meat]].
 # Offer up food to Cloud Retainer
-#* Offer 1 Delicious [[Matsutake Meat Rolls]]
-#* Offer 1 Delicious [[Mora Meat]]
-#* Offer 1 Delicious [[Jewelry Soup]]
+## Offer the Delicious Matsutake Meat Rolls
+## Offer the Delicious Mora Meat
+## Offer the Delicious Jewelry Soup
 # Search for Cloud Retainer
-#* The story domain for this quest is [[Cloud Retainer's Abode]].
+#* Enter the Quest Domain: [[Cloud Retainer's Abode]]
 # Meet Cloud Retainer
 
 ==Dialogue==
+{{Quest Description|Following [[Moon Carver]]'s instructions, you arrive at [[Mt. Aocang]] in order to seek out Cloud Retainer.}}
 {{Dialogue start}}
-;(Approach the stone table at the top of Mt. Aocang)
+;(Interact with the large talisman at the top of Mt. Aocang, optional)
+:'''Mysterious Barrier:''' (Jueyun Karst is where the adepti dwell, so perhaps this is the abode of one. But there seems to be no way to enter...)
+
+;(Approach the stone table in the middle of the pond)
 :{{A|vo lyaq005 2 paimon 01.ogg}} '''Paimon:''' Hey, who put this table here? They've even set it ready for dinner, there's a wine jug and everything...
 :{{A|vo lyaq005 2 paimon 02.ogg}} '''Paimon:''' Ooh, they even have the guests' names carved into the seats! "Here sits Retainer..."
 :{{A|vo lyaq005 2 paimon 03.ogg}} '''Paimon:''' "Here sits [[Guizhong]]..." "Here sits Rex..."
@@ -43,7 +58,7 @@
 :{{A|vo lyaq005 2 paimon 09.ogg}} '''Paimon:''' Hmm, people must make offerings here all the time. Guess all we can do is look around the area for any leftovers, maybe that'll give us some ideas.
 :{{A|vo lyaq005 2 paimon 10.ogg}} '''Paimon:''' Do you think maybe it's at all possible that the adepti might like to try some... Sticky Honey Roast?
 ----
-;(Upon examining traces of cooking at northwest pot)
+;(Examine traces of cooking at northwestern pot)
 :{{A|vo lyaq005 4 paimon 01.ogg}} '''Paimon:''' Someone has definitely cooked here before. D'you think they were making an offering?
 :{{A|vo lyaq005 4 paimon 02.ogg}} '''Paimon:''' Looks like they didn't use all the ingredients. Let's see here... we got some Snapdragon, some Lotus Heads, some Tofu... Whatever they were cooking, it sounds complicated!
 :{{A|vo lyaq005 4 paimon 03.ogg}} '''Paimon:''' Hey, look over there... They left some notes, too.
@@ -52,37 +67,42 @@
 ;(Examine the traces again)
 :{{A|vo dialog lyaq005 paimon 01.ogg}} '''Paimon:''' What would you call a dish that's made from Snapdragon, Lotus Heads, and Tofu? Hmm...
 ----
-;(Upon examining traces of cooking at southeast pot)
+;(Examine traces of cooking at the northeastern pot)
+:{{A|vo lyaq005 8 paimon 01.ogg}} '''Paimon:''' It's very clean here. Whoever cooked here last obviously likes to keep things neat and tidy...
+:{{A|vo lyaq005 8 paimon 02.ogg}} '''Paimon:''' Paimon bets they were making an offering to the adepti...
+:{{A|vo lyaq005 8 paimon 03.ogg}} '''Paimon:''' Looks like we got us some Matsutake and some Raw Meat...
+:{{A|vo lyaq005 8 paimon 04.ogg}} '''Paimon:''' And what do you know, the recipe is right here. This chef was a super organized person...
+:;(Obtain [[Recipe: Matsutake Meat Rolls]])
+
+;(Examine the traces again)
+:{{A|vo dialog lyaq005 paimon 03.ogg}} '''Paimon:''' What do you get if you cross Matsutake and Raw Meat? Hmm...
+----
+;(Examine traces of cooking at the southeastern pot)
 :{{A|vo lyaq005 6 paimon 01.ogg}} '''Paimon:''' Whoa... The ground is covered in flour. *tsk* What a messy chef...
 :{{A|vo lyaq005 6 paimon 02.ogg}} '''Paimon:''' Hmm, seems there's meat in this pot, but Paimon can't tell which kind.
 :{{A|vo lyaq005 6 paimon 03.ogg}} '''Paimon:''' Do you think whoever cooked this made it as an offering to the adepti?
 :{{A|vo lyaq005 6 paimon 04.ogg}} '''Paimon:''' Hmm... Paimon can't quite imagine an offering made of flour and meat...
 :{{A|vo lyaq005 6 paimon 05.ogg}} '''Paimon:''' Huh? Our messy chef dropped a piece of paper on the floor... Ew, and there's a huge footprint on it too...
 :{{A|vo lyaq005 6 paimon 06.ogg}} '''Paimon:''' But footprint aside, maybe it has something to do with this mystery dish?
+:;(Obtain [[Flour]] ×2 and [[Recipe: Mora Meat]], if not already obtained)
 
 ;(Examine the traces again)
 :{{A|vo dialog lyaq005 paimon 02.ogg}} '''Paimon:''' Paimon's so curious, what kind of dish uses only flour and meat?
 ----
-;(Upon examining traces of cooking at northeast pot)
-:{{A|vo lyaq005 8 paimon 01.ogg}} '''Paimon:''' It's very clean here. Whoever cooked here last obviously likes to keep things neat and tidy...
-:{{A|vo lyaq005 8 paimon 02.ogg}} '''Paimon:''' Paimon bets they were making an offering to the adepti...
-:{{A|vo lyaq005 8 paimon 03.ogg}} '''Paimon:''' Looks like we got us some Matsutake and some Raw Meat...
-:{{A|vo lyaq005 8 paimon 04.ogg}} '''Paimon:''' And what do you know, the recipe is right here. This chef was a super organized person...
-
-;(Examine the traces again)
-:{{A|vo dialog lyaq005 paimon 03.ogg}} '''Paimon:''' What do you get if you cross Matsutake and Raw Meat? Hmm...
-----
-;(After offering the dishes, inside the domain)
-:{{A|vo lyaq005 13 cloudretainer 01.ogg}} '''Cloud Retainer:''' One senses the presence of a Sigil of Permission...
+;(After offering the dishes and entering the domain)
+:{{A|vo lyaq005 13 cloudretainer 01.ogg}} '''Cloud Retainer:''' One senses the presence of a [[Sigil of Permission]]...
 :{{A|vo lyaq005 13 cloudretainer 02.ogg}} '''Cloud Retainer:''' One knows not why you have come, though the sincerity of your offering is clear... Hence, you shall be granted an opportunity.
 :{{A|vo lyaq005 13 cloudretainer 03.ogg}} '''Cloud Retainer:''' Find your way through mine abode, and you shall receive an audience with the adeptus whom you seek.
+
 ;(After activating the first mechanism)
 :{{A|vo lyaq005 13 paimon 01.ogg}} '''Paimon:''' Look, that platform is moving!
 :{{A|vo lyaq005 13 paimon 02.ogg}} '''Paimon:''' So that's what this button is for...
-;(If you decide to go down the right path from the second mechanism before completing the Pyro puzzle)
+
+;(If the player attempts to go down the right-hand path from the second mechanism before completing the Pyro puzzle)
 :{{A|vo lyaq005 13 paimon 03.ogg}} '''Paimon:''' There's no way for you to get up there...
 :{{A|vo lyaq005 13 paimon 04.ogg}} '''Paimon:''' Where's a wind current when you need one...
-;(Upon failing the Pyro puzzle)
+
+;(If the player fails to solve the Pyro puzzle)
 :{{A|vo lyaq005 13 paimon 05.ogg}} '''Paimon:''' Paimon thinks that you're doing this all wrong!
 :{{A|vo lyaq005 13 paimon 06.ogg}} '''Paimon:''' Try activating the mechanisms again... but pay more attention this time!
 ----
@@ -100,10 +120,12 @@
 :{{A|vo lyaq005 14 cloudretainer 05.ogg}} '''Cloud Retainer:''' One is simply not partial to the tedium of social interaction, and wished to find some peace and quiet.
 :{{A|vo lyaq005 14 cloudretainer 06.ogg}} '''Cloud Retainer:''' Find it one did... Shortly after which, you arrived bearing your Sigil of Permission...
 :{{A|vo lyaq005 14 cloudretainer 07.ogg}} '''Cloud Retainer:''' But enough! State the matter which brings you here, at once! You have disturbed the tranquility of this place for long enough.
-:'''''(Traveler) explains what happened in Liyue Harbor.'''''
+
+:'''''You explain what happened in Liyue Harbor.'''''
+
 :{{A|vo lyaq005 14 cloudretainer 08.ogg}} '''Cloud Retainer:''' Rex Lapis... Assassinated!?
 :{{A|vo lyaq005 14 cloudretainer 09.ogg}} '''Cloud Retainer:''' How can this be!? Such a heinous crime... Who would dare?
-:{{A|vo lyaq005 14 cloudretainer 10.ogg}} '''Cloud Retainer:''' The notion is so preposterous as to be unbelieveable... one shall have to verify the truth of the matter independently...
+:{{A|vo lyaq005 14 cloudretainer 10.ogg}} '''Cloud Retainer:''' The notion is so preposterous as to be unbelievable... one shall have to verify the truth of the matter independently...
 :{{A|vo lyaq005 14 cloudretainer 11.ogg}} '''Cloud Retainer:''' ...Perhaps one shall squash Liyue first, then convene with the other adepti–
 :{{DIcon}} ...Excuse me!?
 :{{A|vo lyaq005 14 paimon 04.ogg}} '''Paimon:''' Wait, what!? Did you just say "squash Liyue Harbor"? Are you seriously gonna wipe out the whole city?
@@ -141,10 +163,11 @@
 |zhs_rm  = Liú Yún
 |zht     = 留雲
 |zht_rm  = Liú Yún
-|zh_tl   = 
+|zh_tl   = Retaining the Clouds
 |ja      = 留雲
-|ja_rm   = Ryuu'un{{Assumed}}
-|ja_tl   = Custodian of Clouds
+|ja_rm   = Ryuu'un
+|ja_tl   = Retaining the Clouds
+|zhja_note = Referring to [[Cloud Retainer]].
 |ko      = 류운
 |ko_rm   = Ryuun
 |ko_tl   = Custodian of Clouds
@@ -153,17 +176,21 @@
 |fr      = L'Adepte des nuages
 |fr_tl   = The Adeptus of the Clouds
 |ru      = Хранитель Облаков
-|ru_tl   = Cloud Retainer
+|ru_tl   = Cloud Keeper
 |th      = วังวนเมฆา
 |th_rm   = 
 |th_tl   = Cloud Retainer
-|vi      = Lưu Vân
-|vi_tl   = 
+|vi      = {{tt|Lưu Vân|留雲}}
+|vi_tl   = Retaining the Clouds{{Sino|vi}}
 |de      = Stehende Wolken
 |de_tl   = Standing Clouds
 |id      = Cloud Retainer
 |pt      = Retentora de Nuvem
 |pt_tl   = Cloud Retainer
+|tr      = Bulutlara Hükmeden
+|tr_tl   = 
+|it      = La custode delle nuvole
+|it_tl   = The Cloud Keeper
 }}
 
 ==Change History==
@@ -173,5 +200,7 @@
 {{Archon Quest Navbox|chapter=Chapter I}}
 [[Category:Archon Chapter 1]]
 
-[[es:Preservadora_de_Nubes_(misión)]]
+[[es:Preservadora de Nubes (misión)]]
+[[fr:L'Adepte des nuages]]
+[[ja:留雲]]
 [[pt-br:Retentora de Nuvem (Missão)]]

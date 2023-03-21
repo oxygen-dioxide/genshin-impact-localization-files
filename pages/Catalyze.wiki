@@ -1,7 +1,6 @@
-{{See Also|Gauge Unit Theory}}
-{{Upcoming}}
-{{Stub}}
-{{About|the elemental reaction|the weapon type|Catalysts}}
+{{|the Elemental Reaction|the weapon type|Catalyst|Elemental Reactions in [[Genius Invokation TCG]]|Genius Invokation TCG/Rules#Elemental Reactions}}
+{{Hatnote|'''''Aggravate''' redirects here. For the enemy threat mechanic, see [[Aggravation]].''}}
+{{See also|Elemental Gauge Theory}}
 {{Terminology Infobox
 |image        = Reaction Catalyze.png
 |caption      = Elements that trigger the Catalyze reaction (Dendro and Electro)
@@ -9,19 +8,111 @@
 |type2        = Combat
 |type3        = Game Systems
 }}
-'''Catalyze''' is an upcoming [[Elemental Reaction]] in [[Version/3.0|Version 3.0]]. It is triggered by inflicting {{Electro}} on a target that is already affected by {{Dendro}} or vice versa.<ref name="SumeruTeaser01">YouTube: [https://youtu.be/6DjVUfy_Lng Sumeru Preview Teaser 01: The Fascinating Dendro Element]</ref>
+{{Elemental Reaction Intro|element1=Dendro|element2=Electro}}
+
+==Duration==
+{{Main|Elemental Gauge Theory/Advanced Aura Mechanics#Quicken}}
+<math>\text{Duration (Seconds)}_\text{Quicken Aura} = \min(\text{Gauge}_\text{Origin Aura}, \text{Gauge}_\text{Trigger Element}) \times 5 + 6</math>
+
+==Damage Bonus==
+{{Main|Damage#Catalyze Damage Bonus}}
+{{See also|DMG Bonus#Additive Base DMG Bonus}}
+The Spread and Aggravate reactions add [[Additive Base DMG Bonus]] to attacks.
+
+The Base DMG Bonus is calculated as:
+* For {{Color|Electro|Aggravate}}, <math>1.15 \times \text{Level Multiplier}</math>.
+* For {{Color|Dendro|Spread}}, <math>1.25 \times \text{Level Multiplier}</math>.
+
+Level Multipliers for every level can be found in [[Level Scaling/Reaction#Level Multiplier]].
+
+{| class="article-table"
+|-
+!Level
+!1!!10!!20!!30!!40!!50!!60!!70!!80!!90!!100
+|-
+|'''Aggravate Base DMG Bonus'''<br />(Characters)
+|{{Round|19.7404469|2}}
+|{{Round|39.26484675|2}}
+|{{Round|92.672497|2}}
+|{{Round|156.7368465|2}}
+|{{Round|238.4893575|2}}
+|{{Round|372.14184|2}}
+|{{Round|566.817635|2}}
+|{{Round|880.486299|2}}
+|{{Round|1239.060255|2}}
+|{{Round|1663.881525|2}}
+|&mdash;
+|-
+|'''Aggravate Base DMG Bonus'''<br />(Enemies/Environment)
+|{{Round|19.7404469|2}}
+|{{Round|39.26484675|2}}
+|{{Round|92.672497|2}}
+|{{Round|156.7368465|2}}
+|{{Round|238.4893575|2}}
+|{{Round|372.14184|2}}
+|{{Round|564.053955|2}}
+|{{Round|828.195845|2}}
+|{{Round|1088.32573|2}}
+|{{Round|1383.235755|2}}
+|{{Round|1926.03058|2}}
+|-
+|'''Spread Base DMG Bonus'''<br />(Characters)
+|{{Round|21.4570075|2}}
+|{{Round|42.67918125|2}}
+|{{Round|100.730975|2}}
+|{{Round|170.3661375|2}}
+|{{Round|259.2275625|2}}
+|{{Round|404.502|2}}
+|{{Round|616.106125|2}}
+|{{Round|957.050325|2}}
+|{{Round|1346.804625|2}}
+|{{Round|1808.566875|2}}
+|&mdash;
+|-
+|'''Spread Base DMG Bonus'''<br />(Enemies/Environment)
+|{{Round|21.4570075|2}}
+|{{Round|42.67918125|2}}
+|{{Round|100.730975|2}}
+|{{Round|170.3661375|2}}
+|{{Round|259.2275625|2}}
+|{{Round|404.502|2}}
+|{{Round|613.102125|2}}
+|{{Round|900.212875|2}}
+|{{Round|1182.96275|2}}
+|{{Round|1503.517125|2}}
+|{{Round|2093.5115|2}}
+|}
+
+The Base DMG Bonus will then be multiplied by reaction multipliers provided by [[Elemental Mastery]] and [[Artifacts]] (the two sources stack additively), before finally being inserted into the damage calculation of the attack that triggered the reaction and will be further affected by [[DMG Bonus]]es, [[CRIT DMG]], [[DEF]] and [[RES]].
+
+==Artifacts==
+These artifact sets increase the DMG Bonus from Aggravate.
+
+{{Artifacts by Category Table|Aggravate DMG Bonus Increase Artifacts}}
+
+==Preview==
+{{Preview
+|file = Quickened Enemy
+|caption = An enemy affected by Quicken
+}}
 
 ==Trivia==
-* The reaction between Electro and Dendro is said to have a deep connection to the history of Sumeru.<ref name="SumeruTeaser01" />
+* The reaction between Electro and Dendro is said to have a deep connection to the history of Sumeru.<ref name="SumeruTeaser01">YouTube: [https://youtu.be/6DjVUfy_Lng Sumeru Preview Teaser 01: The Fascinating Dendro Element]</ref>
+** It is possible that this connection is related to the relationship between [[Greater Lord Rukkhadevata]] and [[Nabu Malikata]]. While no characters or written records have suggested any link between Nabu Malikata and any of the seven [[element]]s, environmental clues suggest that she was an {{Electro}} god or otherwise connected to Electro.
+*** During the {{Quest|The Dirge of Bilqis}}, in contrast to the other caves as well as the rest of the Great Red Sand, the cave representing the Goddess of Flowers is noticeably purple and filled with {{Electro}} enemies, [[Electro Crystal]]s, and large purple flowers, which are otherwise extremely rare in the Great Red Sand.
+*** Throughout the [[The Orchard of Pairidaeza]], there are flowers that appear to be purple-red versions of the [[Padisarah]] decorations shown during the {{Quest|The Morn a Thousand Roses Brings}}. These may be the original Padisarahs. The original Padisarahs' exact shade of purple was said to be {{zh|紫红色|tl=purple-red}} by [[Nilou]] during the {{Quest|The End of the Sabzeruz Festival}}, and an achievement obtainable in The Orchard of Pairidaeza, ''[[In Her Full Glory...]]'', mentions "fuchsia Padisarahs." The flowers' shade of purple also happens to be close to the colors of the {{Electro}} element, especially when compared to modern-day Padisarahs.
+*** Additionally, [[Sudabeh]] notes in the {{Quest|The Children of Vimara Village}} that "Electro is good for plants," which is reflected in the effect of applying Electro to [[Tri-Lakshana Creature]]s. While plants can also benefit from electricity in real life, such as after lightning strikes, zapping plants with a lot of electricity in real life will harm them, which does not seem to be the case when {{Electro}} is applied to plants in ''Genshin Impact''. This could be explained by Nabu Malikata, who was the Goddess of Flowers, having a connection to the Electro element.
 
 ==Other Languages==
+{{Flex|
+===Catalyze===
 {{Other Languages
 |en      = Catalyze
 |zhs     = 激化
 |zhs_rm  = Jīhuà
 |zht     = 激化
 |zht_rm  = Jīhuà
-|zh_tl   = Intensify
+|zh_tl   = Intensification
 |ja      = 激化
 |ja_rm   = Gekika
 |ja_tl   = Intensification
@@ -35,15 +126,128 @@
 |ru      = Катализ
 |ru_tl   = Catalysis
 |th      = การกระตุ้น
-|th_rm   = 
-|th_tl   = 
-|vi      = Xúc Tác
+|th_rm   = Kan Kratun
+|th_tl   = Activation
+|vi      = {{tt|Xúc Tác|触作}}
 |vi_tl   = Catalyze
 |de      = Wildwuchs
 |de_tl   = Uncontrolled Growth
 |id      = Catalyze
 |pt      = Intensificação
 |pt_tl   = Intensification
+|tr      = Dönüştürme
+|tr_tl   = Conversion
+|it      = Catalizzazione
+|it_tl   = Catalyzation
+}}
+|
+===Quicken===
+{{Other Languages
+|en      = Quicken
+|zhs     = 原激化
+|zhs_rm  = Yuán-jīhuà
+|zht     = 原激化
+|zht_rm  = Yuán-jīhuà
+|zh_tl   = Original-Intensification
+|ja      = 原激化
+|ja_rm   = Gen-Gekika {{Assumed}}
+|ja_tl   = Original-Intensification
+|ko      = {{tt|활성|活性}}
+|ko_rm   = Hwalseong
+|ko_tl   = Vitalization
+|es      = Aceleración
+|es_tl   = Acceleration
+|fr      = Stimulation
+|fr_tl   = Stimulation
+|ru      = Стимуляция
+|ru_tl   = Stimulation
+|th      = ปลุกเร้า
+|th_rm   = Pluk Rao
+|th_tl   = Quicken
+|vi      = {{tt|Sinh Trưởng|生長}}
+|vi_tl   = Grow
+|de      = Urwuchs
+|de_tl   = Primal Growth
+|id      = Quicken
+|pt      = Aceleração
+|pt_tl   = Acceleration
+|tr      = Hızlandı
+|tr_tl   = Quicken
+|it      = Vivificazione
+|it_tl   = Vivification
+}}
+|
+===Aggravate===
+{{Other Languages
+|en      = Aggravate
+|zhs     = 超激化
+|zhs_rm  = Chāo-jīhuà
+|zht     = 超激化
+|zht_rm  = Chāo-jīhuà
+|zh_tl   = Hyper-Intensification
+|ja      = 超激化
+|ja_rm   = Chou-Gekika
+|ja_tl   = Hyper-Intensification
+|ko      = {{tt|촉진|促進}}
+|ko_rm   = Chokjin
+|ko_tl   = Accelerate
+|es      = Intensificación
+|es_tl   = Intensification
+|fr      = Suractivation
+|fr_tl   = Overactivation
+|ru      = Обострение
+|ru_tl   = Exacerbation
+|th      = บีบอัด
+|th_rm   = Bipat
+|th_tl   = Compress
+|vi      = {{tt|Tăng Cường|增強}}
+|vi_tl   = Strengthen
+|de      = Suprawuchs
+|de_tl   = Supra Growth
+|id      = Aggravate
+|pt      = Intensificação
+|pt_tl   = Intensification
+|tr      = Şiddetlenme
+|tr_tl   = 
+|it      = Accentuazione
+|it_tl   = Accentuation
+}}
+|
+===Spread===
+{{Other Languages
+|en      = Spread
+|zhs     = 蔓激化
+|zhs_rm  = Màn-jīhuà
+|zht     = 蔓激化
+|zht_rm  = Màn-jīhuà
+|zh_tl   = Vine-Intensification
+|ja      = 草激化
+|ja_rm   = Sougekika {{Assumed}}
+|ja_tl   = Grass-Intensification
+|ko      = {{tt|발산|發散}}
+|ko_rm   = Balsan
+|ko_tl   = Emit
+|es      = Propagación
+|es_tl   = Propagation
+|fr      = Propagation
+|fr_tl   = Propagation
+|ru      = Разрастание
+|ru_tl   = Proliferation
+|th      = แพร่ขยาย
+|th_rm   = Phrae Khayai
+|th_tl   = Spread
+|vi      = Lan Tràn
+|vi_tl   = Overflow
+|de      = Rankenwuchs
+|de_tl   = Tendril Growth
+|id      = Spread
+|pt      = Propagação
+|pt_tl   = Propagation
+|tr      = Yayılma
+|tr_tl   = Spread
+|it      = Propagazione
+|it_tl   = Propagation
+}}
 }}
 
 ==Change History==
@@ -55,4 +259,6 @@
 ==Navigation==
 {{Element Navbox}}
 
+[[ja:激化]]
+[[pl:Kataliza]]
 [[vi:Xúc Tác]]

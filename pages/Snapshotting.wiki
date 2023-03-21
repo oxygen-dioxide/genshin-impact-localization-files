@@ -3,161 +3,138 @@ The term '''snapshotting''' refers to the state in which attributes are fixed on
 
 For example, [[Xiangling]]'s [[Pyronado]] will receive the [[Attack|ATK Bonus]] for the entirety of its duration when cast inside [[Bennett]]'s [[Fantastic Voyage]] field &mdash; even if Xiangling walks outside the buff's area of effect or it expires prematurely. However, the ATK Bonus will not affect Pyronado if cast before Bennett's Fantastic Voyage - regardless of whether Xiangling stays in the buff's area of effect.
 
-In some cases, weapons can also snapshot their own effects. For example, a bow that increases attack on a weak spot hit may increase the attack of the hit that triggered this effect.
-
 ==Buffs==
 Buffs are effects that improve a character's ability or attributes. While they can arise from character talents, constellations, artifact sets, weapon passives, or other external sources.
 
-* '''Static Buffs''' - The buff does not scale off any attribute, or if the attribute which the buff scales off changes during the buff's duration, the buff ''will not'' change.
-* '''Dynamic Buffs''' - If the attribute which the buff scales off changes during the buff's duration, the buff ''will'' change.
+* '''Static Buffs''' - A static buff is a buff that snapshots. The buff does not scale off any attribute, or if the attribute which the buff scales off changes during the buff's duration, the buff ''will not'' change.
+* '''Dynamic Buffs''' - A dynamic buff is a buff that does not snapshot. If the attribute which the buff scales off changes during the buff's duration, the buff ''will'' change.
 
 * '''Direct Buffs''' - Buffs that do not modify the damage dealer's attributes, and instead directly apply to real-time damage calculations. These buffs are completely unaffected by snapshotting. This is a separate concept from Static and Dynamic Buffs and coexists with them.
+** If a buff results in a visible change in the stat menu (e.g. ATK buffs, Elemental DMG Bonus buffs), it is not a direct buff. If a buff does ''not'' result in a visible change in stats (e.g. Elemental Burst DMG Bonus buffs, Additive Base DMG Bonus buffs), it is a direct buff.
 
 ===Static===
 ====Talents and Constellations====
 <!--Fill out notes on this section-->
-{| class="article-table sortable waffle no-grid" style = "text-align:center;"
+{| class="article-table sortable waffle no-grid"
 |-
 ! Character
 ! Ability
 ! Attribute
-! Notes
 |-
-| {{Card|Albedo}}
-| {{Talent|Homuncular Nature|60|text = 4th Ascension Passive: Homuncular Nature}}
+| {{Character|Albedo|20|nobr=1}}
+| {{Talent|Homuncular Nature|20|nobr=1|type=1}}
 | [[Elemental Mastery]]
-|
 |-
-| {{Card|Ayaka}}
-| {{Talent|Kanten Senmyou Blessing|60|text = 4th Ascension Passive: Kanten Senmyou Blessing}}
-| [[Damage Bonus/Cryo|Cryo DMG Bonus]]
-|
+| {{Character|Arataki Itto|20|nobr=1}}
+| {{Talent|Royal Descent: Behold, Itto the Evil!|20|nobr=1|type=1}}
+| [[ATK]]
 |-
-| {{Card|Ganyu}}
-| {{Talent|Harmony between Heaven and Earth|60|text = 4th Ascension Passive: Harmony between Heaven and Earth}}
-| [[Damage Bonus/Cryo|Cryo DMG Bonus]]
-|
+| {{Character|Ayaka|20|nobr=1}}
+| {{Talent|Kanten Senmyou Blessing|20|nobr=1|type=1}}
+| [[Cryo DMG Bonus]]
 |-
-| rowspan = "2"| {{Card|Hu Tao}}
-| {{Talent|Flutter By|60|text = 1st Ascension Passive: Flutter By}}
-|  rowspan = "2"|[[Critical Hit|Crit Rate]]
-|
+| {{Character|Ganyu|20|nobr=1}}
+| {{Talent|Harmony between Heaven and Earth|20|nobr=1|type=1}}
+| [[Cryo DMG Bonus]]
 |-
-| {{Constellation|Garden of Eternal Rest|60|text = 4th Constellation: Garden of Eternal Rest}}
-|
+| rowspan = "2"| {{Character|Hu Tao|20|nobr=1}}
+| {{Talent|Flutter By|20|nobr=1|type=1}}
+|  rowspan = "2"|[[CRIT Rate]]
 |-
-| rowspan = "2"| {{Card|Kaedehara Kazuha}}
-| {{Talent|Poetics of Fuubutsu|60|text = 4th Ascension Passive: Poetics of Fuubutsu}}
-| [[Damage Bonus|Elemental Damage Bonus]]
-|
+| {{Constellation|Garden of Eternal Rest|20|nobr=1|level=1}}
 |-
-| {{Constellation|Yamaarashi Tailwind|60|text = 2nd Constellation: Yamaarashi Tailwind}}
+| rowspan = "2"| {{Character|Kaedehara Kazuha|20|nobr=1}}
+| {{Talent|Poetics of Fuubutsu|20|nobr=1|type=1}}
+| Elemental [[DMG Bonus]]
+|-
+| {{Constellation|Yamaarashi Tailwind|20|nobr=1|level=1}}
 | [[Elemental Mastery]]
-|
 |-
-| {{Card|Klee}}
-| {{Constellation|Blazing Delight|60|text = 6th Constellation: Blazing Delight}}
-| [[Damage Bonus/Pyro|Pyro DMG Bonus]]
-|
+| {{Character|Klee|20|nobr=1}}
+| {{Constellation|Blazing Delight|20|nobr=1|level=1}}
+| [[Pyro DMG Bonus]]
 |-
-| {{Card|Kokomi}}
-| {{Constellation|Sango Isshin|60|text = 6th Constellation: Sango Isshin}}
-| [[Damage Bonus/Hydro|Hydro DMG Bonus]]
-|
+| {{Character|Kokomi|20|nobr=1}}
+| {{Constellation|Sango Isshin|20|nobr=1|level=1}}
+| [[Hydro DMG Bonus]]
 |-
-| {{Card|Mona}}
-| {{Constellation|Prophecy of Oblivion|60|text = 4th Constellation: Prophecy of Oblivion}}
-| [[Critical Hit|Crit Rate]]
-|
+| {{Character|Mona|20|nobr=1}}
+| {{Constellation|Prophecy of Oblivion|20|nobr=1|level=1}}
+| [[CRIT Rate]]
 |-
-| {{Card|Traveler (Geo)}}
-| {{Constellation|Invincible Stonewall|60|text = 1st Constellation: Invincible Stonewall}}
-| [[Critical Hit|Crit Rate]]
-|
+| {{Character|Nahida|20|nobr=1}}
+| {{Talent|Compassion Illuminated|20|nobr=1|type=1}}
+| [[Elemental Mastery]]
 |-
-| {{Card|Venti}}
-| {{Constellation|Hurricane of Freedom|60|text = 4th Constellation: Hurricane of Freedom}}
-| [[Damage Bonus/Anemo|Anemo DMG Bonus]]
-|
+| {{Character|Traveler (Geo)|20|nobr=1}}
+| {{Constellation|Invincible Stonewall|20|nobr=1|level=1}}
+| [[CRIT Rate]]
 |-
-| {{Card|Raiden Shogun}}
-| {{Talent|Transcendence: Baleful Omen|60|text =Elemental Skill: Transcendence: Baleful Omen}}
-| [[Damage Bonus|Elemental Burst Damage Bonus]]
-|
+| {{Character|Venti|20|nobr=1}}
+| {{Constellation|Hurricane of Freedom|20|nobr=1|level=1}}
+| [[Anemo DMG Bonus]]
 |-
-| {{Card|Shenhe}}
-| {{Talent|Spirit Communion Seal|60|text = 4th Ascension Passive: Spirit Communion Seal (Press)}}
-| Elemental Skill and Elemental Burst DMG Bonus
-|
+| {{Character|Raiden Shogun|20|nobr=1}}
+| {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}}
+| Elemental Burst [[DMG Bonus]]
 |-
-| {{Card|Yelan}}
-| {{Talent|Adapt With Ease|60|text = 4th Ascension Passive: Adapt With Ease}}
-| Damage Bonus
-|
+| {{Character|Shenhe|20|nobr=1}}
+| {{Talent|Spirit Communion Seal|20|nobr=1|type=1}}
+| Elemental Skill and Elemental Burst [[DMG Bonus]]
 |-
-| {{Card|Barbara}}
-| {{Constellation|Vitality Burst|60|text = 2nd Constellation: Vitality Burst}}
-| [[Damage Bonus/Hydro|Hydro DMG Bonus]]
-|
+| {{Character|Yelan|20|nobr=1}}
+| {{Constellation|Bait-and-Switch|20|nobr=1|level=1}}
+| [[HP]]
 |-
-| rowspan = 2| {{Card|Bennett}}
-| {{Talent|Fantastic Voyage|60|text = Elemental Burst: Fantastic Voyage}}
-| [[Attack|ATK Bonus]]
-|
+| {{Character|Barbara|20|nobr=1}}
+| {{Constellation|Vitality Burst|20|nobr=1|level=1}}
+| [[Hydro DMG Bonus]]
 |-
-| {{Constellation|Fire Ventures With Me|60|text = 6th Constellation: Fire Ventures With Me}}
-| [[Damage Bonus/Pyro|Pyro Damage Bonus]]
-|
+| rowspan = 2| {{Character|Bennett|20|nobr=1}}
+| {{Talent|Fantastic Voyage|20|nobr=1|type=1}}
+| [[ATK]]
 |-
-| {{Card|Diona}}
-| {{Constellation|Cat's Tail Closing Time|60|text = 6th Constellation: Cat's Tail Closing Time}}
-| [[Elemental Mastery|Elemental Mastery Bonus]]
-|
+| {{Constellation|Fire Ventures With Me|20|nobr=1|level=1}}
+| [[Pyro DMG Bonus]]
 |-
-| rowspan="2" | {{Card|Kujou Sara}}
-| {{Talent|Tengu Stormcall|60|text = Elemental Skill: Tengu Stormcall}}
-| [[Attack|ATK Bonus]]
-|
+| {{Character|Diona|20|nobr=1}}
+| {{Constellation|Cat's Tail Closing Time|20|nobr=1|level=1}}
+| [[Elemental Mastery]]
 |-
-| {{Constellation|Sin of Pride|60|text = 6th Constellation: Sin of Pride}}
-|[[Critical Hit|Electro CRIT Damage]]
-|
+| rowspan="2" | {{Character|Kujou Sara|20|nobr=1}}
+| {{Talent|Tengu Stormcall|20|nobr=1|type=1}}
+| [[ATK]]
 |-
-| {{Card|Ningguang}}
-| {{Talent|Strategic Reserve|60|text = 4th Ascension Passive: Strategic Reserve}}
-| [[Damage Bonus/Geo|Geo DMG Bonus]]
-|
+| {{Constellation|Sin of Pride|20|nobr=1|level=1}}
+| Electro [[CRIT DMG]]
 |-
-| rowspan = "2"|{{Card|Noelle}}
-| {{Talent|Sweeping Time|60|text = Elemental Burst: Sweeping Time}}
-|  rowspan = "2"|[[Attack|ATK Bonus]]
-|
+| {{Character|Ningguang|20|nobr=1}}
+| {{Talent|Strategic Reserve|20|nobr=1|type=1}}
+| [[Geo DMG Bonus]]
 |-
-| {{Constellation|Must Be Spotless|60|text = 6th Constellation: Must Be Spotless}}
-|
+| rowspan = "2"|{{Character|Noelle|20|nobr=1}}
+| {{Talent|Sweeping Time|20|nobr=1|type=1}}
+|  rowspan = "2"| [[ATK]]
 |-
-|rowspan = 2| {{Card|Rosaria}}
-| {{Talent|Regina Probationum|60|text = 1st Ascension Passive: Regina Probationum}}
-| [[Critical Hit|Crit Rate]]
-|
+| {{Constellation|Must Be Spotless|20|nobr=1|level=1}}
 |-
-| {{Talent|Shadow Samaritan|60|text = 4th Ascension Passive: Shadow Samaritan}}
-| [[Critical Hit|Crit Rate]]
-|
+|rowspan = 2| {{Character|Rosaria|20|nobr=1}}
+| {{Talent|Regina Probationum|20|nobr=1|type=1}}
+| [[CRIT Rate]]
 |-
-|rowspan = 2| {{Card|Sucrose}}
-| {{Talent|Catalyst Conversion|60|text = 1st Ascension Passive: Catalyst Conversion}}
-| [[Elemental Mastery|Elemental Mastery Bonus]]
-|
+| {{Talent|Shadow Samaritan|20|nobr=1|type=1}}
+| [[CRIT Rate]]
 |-
-| {{Talent|Mollis Favonius|60|text = 4th Ascension Passive: Mollis Favonius}}
-| [[Elemental Mastery|Elemental Mastery Bonus]]
-|
+|rowspan = 2| {{Character|Sucrose|20|nobr=1}}
+| {{Talent|Catalyst Conversion|20|nobr=1|type=1}}
+| [[Elemental Mastery]]
 |-
-| {{Card|Xinyan}}
-| {{Talent|"...Now That's Rock 'N' Roll!"|60|text = 4th Ascension Passive: "...Now That's Rock 'N' Roll!"}}
-| [[Damage Bonus/Physical|Phys DMG Bonus]]
-| As of 11/21/2021, there are no abilities that deal phys DMG and snapshot
+| {{Talent|Mollis Favonius|20|nobr=1|type=1}}
+| [[Elemental Mastery]]
+|-
+| {{Character|Xinyan|20|nobr=1}}
+| {{Talent|"...Now That's Rock 'N' Roll!"|20|nobr=1|type=1}}
+| [[Physical DMG Bonus]]
 |}
 
 ====Weapons====
@@ -174,100 +151,91 @@ Other Sources
 ! Source
 ! Type of Buff
 |-
-|[[Momiji-Dyed Court]] Floor Panels<ref group="Note">For example, if one casts Pyronado while standing on a Pyro panel, the Pyronado will retain the 60% {{Color|Pyro DMG Bonus}} for its whole duration, even if one steps outside of the Pyro panel. On the other hand, if one casts Pyronado while outside of a Pyro panel, then it cannot be buffed further during its duration even if one walks on to a Pyro panel.</ref>
-| Pyro / Cryo [[Damage Bonus]]
+| [[Momiji-Dyed Court]] Floor Panels
+| [[Pyro DMG Bonus]], [[Cryo DMG Bonus]]
 |-
 | [[Thrilling Tales of Dragon Slayers]]
-| ATK Bonus
+| [[ATK]]
 |-
 | 4-piece of [[Archaic Petra]]
-| Elemental DMG Bonus
+| Elemental [[DMG Bonus]]
 |-
 | 4-piece of [[Noblesse Oblige]]
-| ATK Bonus
+| [[ATK]]
 |-
 | 4-piece of [[Pale Flame]]
-| ATK Bonus and Phys DMG Bonus
+| [[ATK]] and [[Physical DMG Bonus]]
 |-
 | 4-piece of [[Tenacity of the Millelith]]
-| ATK Bonus
+| [[ATK]]
 |-
 | 4-piece of [[Instructor]]
-| Elemental Mastery for Vaporize and Melt Reactions
+| [[Elemental Mastery]]
 |-
 | 4-piece of [[Berserker]]
-| Crit Rate
+| [[ATK]]
 |-
 | [[Elemental Resonance|Enduring Rock]]
-| DMG and Shield Strength Bonus
+| [[DMG Bonus]] and [[Shield Strength]]
+|-
+| [[Elemental Resonance|Soothing Water]]
+| [[HP]]
 |}
 
 ===Dynamic===
 ====Talents and Constellations====
-{| class="article-table sortable waffle no-grid" style="text-align:center;"
+{| class="article-table sortable waffle no-grid"
 |-
 !Character
 !Ability
 !Attribute
-!Notes
 |-
-|{{Card|Shenhe}}
-|{{Talent|Spring Spirit Summoning|60|text = Elemental Skill: Spring Spirit Summoning}}
-|[[Damage Bonus|Damage Bonus of Cryo Attacks]]
-|
+|{{Character|Shenhe|20|nobr=1}}
+|{{Talent|Spring Spirit Summoning|20|nobr=1|type=1}}
+|[[Additive Base DMG Bonus]] for Cryo Attacks
 |-
-|{{Card|Yun Jin}}
-|{{Talent|Cliffbreaker's Banner|60|text = Elemental Burst: Cliffbreaker's Banner}}
-|[[Damage Bonus|Damage Bonus of Normal Attacks]]
-|
+|{{Character|Yun Jin|20|nobr=1}}
+|{{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}}
+|[[Additive Base DMG Bonus]] for Normal Attacks
 |}
 
 ===Direct===
 ====Talents and Constellations====
-{| class="article-table sortable waffle no-grid" style="text-align:center;"
+{| class="article-table sortable waffle no-grid"
 |-
 !Character
 !Ability
 !Attribute
-!Notes
 |-
-| {{Card|Raiden Shogun}}
-| {{Talent|Transcendence: Baleful Omen|60|text =Elemental Skill: Transcendence: Baleful Omen}}
-| [[Damage Bonus|Elemental Burst Damage Bonus]]
-|
+| {{Character|Raiden Shogun|20|nobr=1}}
+| {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}}
+| Elemental Burst [[DMG Bonus]]
 |-
-| rowspan="3" | {{Card|Shenhe}}
-| {{Talent|Spring Spirit Summoning|60|text = Elemental Skill: Spring Spirit Summoning}}
-| [[Damage Bonus|Damage Bonus of Cryo Attacks]]
-|
+| rowspan="3" | {{Character|Shenhe|20|nobr=1}}
+| {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}}
+| [[Additive Base DMG Bonus]] for Cryo Attacks
 |-
-| {{Talent|Spirit Communion Seal|60|text = 4th Ascension Passive: Spirit Communion Seal (Press)}}
-| Elemental Skill and Elemental Burst DMG Bonus
-|
+| {{Talent|Spirit Communion Seal|20|nobr=1|type=1}}
+| Elemental Skill and Elemental Burst [[DMG Bonus]]
 |-
-| {{Constellation|Centered Spirit|60|text = 2nd Constellation: Centered Spirit}}
-| [[Critical Hit|Cryo CRIT Damage]]
-|
+| {{Constellation|Centered Spirit|20|nobr=1|level=1}}
+| Cryo [[CRIT DMG]]
 |-
-| {{Card|Yelan}}
-| {{Talent|Adapt With Ease|60|text = 4th Ascension Passive: Adapt With Ease}}
-| Damage Bonus
-|
+| {{Character|Yelan|20|nobr=1}}
+| {{Talent|Adapt With Ease|20|nobr=1|type=1}}
+| [[DMG Bonus]]
 |-
-| {{Card|Gorou}}
-| {{Constellation|Valiant Hound: Mountainous Fealty|60|text = 6th Constellation: Valiant Hound: Mountainous Fealty}}
-| [[Critical Hit|Geo CRIT Damage]]
-|
+| {{Character|Gorou|20|nobr=1}}
+| {{Constellation|Valiant Hound: Mountainous Fealty|20|nobr=1|level=1}}
+| Geo [[CRIT DMG]]
 |-
-| {{Card|Kujou Sara}}
-| {{Constellation|Sin of Pride|60|text = 6th Constellation: Sin of Pride}}
-| [[Critical Hit|Electro CRIT Damage]]
-|
+| {{Character|Kujou Sara|20|nobr=1}}
+| {{Constellation|Sin of Pride|20|nobr=1|level=1}}
+| Electro [[CRIT DMG]]
 |-
-| {{Card|Yun Jin}}
-| {{Talent|Cliffbreaker's Banner|60|text = Elemental Burst: Cliffbreaker's Banner}}
-| [[Damage Bonus|Damage Bonus of Normal Attacks]]
-|
+| {{Character|Yun Jin|20|nobr=1}}
+| {{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}}
+| [[Additive Base DMG Bonus]] for Normal Attacks
 |}
 
 ====Other Sources====
@@ -276,251 +244,350 @@ Other Sources
 ! Type of Buff
 |-
 | 4-piece of [[Blizzard Strayer]]
-| Crit Rate
+| [[CRIT Rate]]
 |-
 | [[Elemental Resonance|Shattering Ice]]
-| Crit Rate
+| [[CRIT Rate]]
 |}
 
 ==Talents==
 Talents are character abilities that can receive static or dynamic buffs. While there are several talents that can be intuitively determined to be non-snapshottable, some are not - as such, it is important to clarify and distinguish the two types:
 
-*'''Snapshottable Talents''' - Attributes are fixed after an ability's activation.
+*'''Snapshottable Talents''' - Attributes are fixed after a certain point during the ability activation.
 *'''Non-Snapshottable Talents''' - Damage is recalculated during every instance of the ability's activation based on the character's current attributes.
 
 <u>Note:</u> Most talents that were not included do not have a delay on their damage or effects upon their activation. Non-Snapshottable talents isn't an exhaustive list but is used to provide clarity to some talents that may have similar mechanics but do not snapshot.
 
 ===Snapshottable===
-{| class="article-table sortable waffle no-grid" style="text-align:center;"
+{| class="article-table sortable waffle no-grid"
 |-
 !Character
 !Ability
+!Component
 !Notes
 |-
-|{{Card|Albedo}}
-|{{Talent|Abiogenesis: Solar Isotoma|60|text = Elemental Skill: Abiogenesis: Solar Isotoma}}
+|{{Character|Albedo|20|nobr=1}}
+|{{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}}
 |Transient Blossom DMG
+|
 |-
-|rowspan="2"|{{Card|Ayato}}
-|{{Talent|Kamisato Art: Kyouka|60|text = Elemental Skill: Kamisato Art: Kyouka}}
+|{{Character|Alhaitham|20|nobr=1}}
+|{{Talent|Particular Field: Fetters of Phenomena|20|nobr=1|type=1}}
+|Single-Instance DMG
+|
+|-
+|rowspan="2"|{{Character|Ayato|20|nobr=1}}
+|{{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}}
 |Water Illusion DMG
+|
 |-
-|{{Talent|Kamisato Art: Suiyuu|60|text = Elemental Burst: Kamisato Art: Suiyuu}}
+|{{Talent|Kamisato Art: Suiyuu|20|nobr=1|type=1}}
 |Bloomwater Blade DMG
+|
 |-
-|{{Card|Diluc}}
-|{{Talent|Dawn|60|text = Elemental Burst: Dawn}}
+|{{Character|Diluc|20|nobr=1}}
+|{{Talent|Dawn|20|nobr=1|type=1}}
 |DoT and Explosion DMG
+|
 |-
-|rowspan = 2| {{Card|Ganyu}}
-|{{Talent|Celestial Shower|60|text = Elemental Burst: Celestial Shower}}
+|{{Character|Dehya|20|nobr=1}}
+|{{Talent|Molten Inferno|20|nobr=1|type=1}}
+|Field DMG
+|
+|-
+|rowspan = 2| {{Character|Ganyu|20|nobr=1}}
+|{{Talent|Celestial Shower|20|nobr=1|type=1}}
 |Ice Shard DMG
+|
 |-
-|{{Talent|Trail of the Qilin|60|text Elemental Skill: Trail of the Qilin}}
+|{{Talent|Trail of the Qilin|20|nobr=1|type=1}}
 |Skill DMG
+|
 |-
-|{{Card|Jean}}
-|{{Talent|Dandelion Breeze|60|text = Elemental Burst: Dandelion Breeze}}
+|{{Character|Jean|20|nobr=1}}
+|{{Talent|Dandelion Breeze|20|nobr=1|type=1}}
 |Field Entering/Exiting DMG
+|
 |-
-| {{Card|Kaedehara Kazuha}}
-|{{Talent|Kazuha Slash|60|text = Elemental Burst: Kazuha Slash}}
-|DoT and Additional Elemental DMG
+| {{Character|Kaedehara Kazuha|20|nobr=1}}
+|{{Talent|Kazuha Slash|20|nobr=1|type=1}}
+|DoT; Additional Elemental DMG
+|
 |-
-|{{Card|Kamisato Ayaka}}
-|{{Talent|Kamisato Art: Soumetsu|60|text = Elemental Burst: Kamisato Art: Soumetsu}}
-|Cutting DMG and Bloom DMG
+|{{Character|Kamisato Ayaka|20|nobr=1}}
+|{{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}}
+|Cutting DMG; Bloom DMG
+|
 |-
-|{{Card|Klee}}
-|{{Talent|Jumpy Dumpty|60|text = Elemental Skill: Jumpty Dumpty}}
+|{{Character|Klee|20|nobr=1}}
+|{{Talent|Jumpy Dumpty|20|nobr=1|type=1}}
 |Mine DMG
+|
 |-
-|{{Card|Mona}}
-|{{Talent|Mirror Reflection of Doom|60|text = Elemental Skill: Mirror Reflection of Doom}}
-|Damage over Time and Explosion Damage
+|rowspan = 2| {{Character|Layla|20|nobr=1}}
+|{{Talent|Nights of Formal Focus|20|nobr=1|type=1}}
+|Shooting Star DMG
+|Snapshots when projectile is fired
 |-
-|{{Card|Qiqi}}
-|{{Talent|Adeptus Art: Herald of Frost|60|text = Elemental Skill: Adeptus Art: Herald of Frost}}
-|Herald of Frost DMG and Healing over time and on-hit
+|{{Talent|Dream of the Star-Stream Shaker|20|nobr=1|type=1}}
+|Starlight Slug DMG
+|
 |-
-|{{Card|Sangonomiya Kokomi}}
-|{{Talent|Kurage's Oath|60|text = Elemental Skill: Kurage's Oath}}
-|Regeneration and Ripple DMG
+|{{Character|Mona|20|nobr=1}}
+|{{Talent|Mirror Reflection of Doom|20|nobr=1|type=1}}
+|DoT; Explosion DMG
+|
 |-
-|{{Card|Venti}}
-|{{Talent|Wind's Grand Ode|60|text = Elemental Burst: Wind's Grand Ode}}
-|Damage over Time and Additional Elemental DMG
+|{{Character|Qiqi|20|nobr=1}}
+|{{Talent|Adeptus Art: Herald of Frost|20|nobr=1|type=1}}
+|Herald of Frost DMG; Healing
+|
 |-
-|{{Card|Yae Miko}}
-|{{Talent|Great Secret Art: Tenko Kenshin|60|text = Elemental Burst: Great Secret Art: Tenko Kenshin}}
-|Tenko Thunderbolt DMG
+|{{Character|Sangonomiya Kokomi|20|nobr=1}}
+|{{Talent|Kurage's Oath|20|nobr=1|type=1}}
+|Regeneration; Ripple DMG
+|
 |-
-|{{Card|Zhongli}}
-|{{Talent|Dominus Lapidis|60|text = Elemental Skill: Dominus Lapidis}}
+|{{Character|Venti|20|nobr=1}}
+|{{Talent|Wind's Grand Ode|20|nobr=1|type=1}}
+|DoT; Additional Elemental DMG
+|
+|-
+|{{Character|Zhongli|20|nobr=1}}
+|{{Talent|Dominus Lapidis|20|nobr=1|type=1}}
 |Stone Stele Resonance DMG
+|
 |-
-|rowspan = "2"| {{Card|Amber}}
-|{{Talent|Fiery Rain|60|text = Elemental Burst: Fiery Rain}}
-|Fiery Rain DMG Per Wave
+|rowspan = "2"| {{Character|Amber|20|nobr=1}}
+|{{Talent|Fiery Rain|20|nobr=1|type=1}}
+|Fiery Rain DMG
+|
 |-
-|{{Talent|Explosive Puppet|60|text Elemental Skill: Explosive Puppet}}
+|{{Talent|Explosive Puppet|20|nobr=1|type=1}}
 |Explosion DMG
+|
 |-
-|{{Card|Beidou}}
-|{{Talent|Stormbreaker|60|text = Elemental Burst: Stormbreaker}}
+|{{Character|Beidou|20|nobr=1}}
+|{{Talent|Stormbreaker|20|nobr=1|type=1}}
 |Lightning DMG
+|
 |-
-|{{Card|Diona}}
-|{{Talent|Signature Mix|60|text = Elemental Burst: Signature Mix}}
+|{{Character|Diona|20|nobr=1}}
+|{{Talent|Signature Mix|20|nobr=1|type=1}}
 |Continuous Field DMG
+|
 |-
-| {{Card|Fischl}}
-|{{Talent|Nightrider|60|text = Elemental Skill: Nightrider}}
+|{{Character|Dori|20|nobr=1}}
+|{{Talent|Alcazarzaray's Exactitude|20|nobr=1|type=1}}
+|Connector DMG
+|
+|-
+| {{Character|Fischl|20|nobr=1}}
+|{{Talent|Nightrider|20|nobr=1|type=1}}
 |Oz's ATK DMG
-|-
-|{{Card|Kaeya}}
-| {{Talent|Glacial Waltz|60|text = Elemental Burst: Glacial Waltz}}
 |
 |-
-| {{Card|Kuki Shinobu}}
-| {{Talent|Gyoei Narukami Kariyama Rite|60|text = Elemental Burst: Gyoei Narukami Kariyama Rite}}
+|{{Character|Kaeya|20|nobr=1}}
+|{{Talent|Glacial Waltz|20|nobr=1|type=1}}
+|Skill DMG
 |
 |-
-|rowspan = "2" |{{Card|Lisa}}
-|{{Talent|Lightning Rose|60|text = Elemental Burst: Lightning Rose}}
+|{{Character|Kuki Shinobu|20|nobr=1}}
+|{{Talent|Gyoei Narukami Kariyama Rite|20|nobr=1|type=1}}
+|DMG
 |
 |-
-|{{Talent|Violet Arc|60|text = Elemental Skill: Violet Arc}}
-|Snapshots at skill cast with Press DMG and at skill release on Hold DMG
+|rowspan = "2" |{{Character|Lisa|20|nobr=1}}
+|{{Talent|Lightning Rose|20|nobr=1|type=1}}
+|Discharge DMG
+|
 |-
-|{{Card|Rosaria}}
-|{{Talent|Rites of Termination|60|text = Elemental Burst: Rites of Termination}}
+|{{Talent|Violet Arc|20|nobr=1|type=1}}
+|Press DMG
+|
+|-
+|{{Character|Rosaria|20|nobr=1}}
+|{{Talent|Rites of Termination|20|nobr=1|type=1}}
 |Ice Lance DoT
-|-
-|rowspan="2" |{{Card|Sayu}}
-|{{Talent|Yoohoo Art: Mujina Flurry|60|text = Elemental Burst: Yoohoo Art: Mujina Flurry}}
-|DMG and healing
-|-
-|{{Talent|Yoohoo Art: Fuuin Dash|60|text = Elemental Skill: Yoohoo Art: Fuuin Dash}}
-|Windwheel and Whirlwind Kick DMG
-|-
-|{{Card|Shikanoin Heizou}}
-|{{Talent|Windmuster Kick|60|text = Elemental Burst: Windmuster Kick}}
-|Fudou Style Vacuum Slugger DMG and Windmuster Iris DMG
-|-
-|{{Card|Sucrose}}
-| {{Talent|Forbidden Creation - Isomer 75 / Type II|60|text = Elemental Burst: Forbidden Creation - Isomer 75 / Type II}}
-|DoT and Additional Elemental DMG
-|-
-| rowspan="2" |{{Card|Xiangling}}
-|{{Talent|Guoba Attack|60|text = Elemental Skill: Guoba Attack}}
 |
 |-
-| {{Talent|Pyronado|60|text = Elemental Burst: Pyronado}}
+|rowspan="2" |{{Character|Sayu|20|nobr=1}}
+|{{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}}
+|DMG; Healing
+|
+|-
+|{{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}}
+|Fuufuu Windwheel DMG; Fuufuu Whirlwind Kick DMG
+|
+|-
+|{{Character|Shikanoin Heizou|20|nobr=1}}
+|{{Talent|Windmuster Kick|20|nobr=1|type=1}}
+|Fudou Style Vacuum Slugger DMG; Windmuster Iris DMG
+|
+|-
+|{{Character|Sucrose|20|nobr=1}}
+|{{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1|type=1}}
+|DoT; Additional Elemental DMG
+|
+|-
+| rowspan="2" |{{Character|Xiangling|20|nobr=1}}
+|{{Talent|Guoba Attack|20|nobr=1|type=1}}
+|Flame DMG
+|
+|-
+| {{Talent|Pyronado|20|nobr=1|type=1}}
 |Pyronado DMG
+|
+|-
+| rowspan="2" |{{Character|Yaoyao|20|nobr=1}}
+| {{Talent|Raphanus Sky Cluster|20|nobr=1|type=1}}
+| White Jade Radish DMG
+|
+|-
+| {{Talent|Moonjade Descent|20|nobr=1|type=1}}
+| Adeptal Legacy White Jade Radish DMG
+| Each Yuegui snapshots individually when spawned
 |}
 
 ===Non-Snapshottable===
-{| class="article-table sortable waffle no-grid" style="text-align:center;"
+{| class="article-table sortable waffle no-grid"
 |-
 !Character
 !Ability
+!Component
 !Notes
 |-
-|{{Card|Eula}}
-|{{Talent|Glacial Illumination|60|text = Elemental Burst: Glacial Illumination}}
-|Lightfall Sword Base DMG and Stack DMG
+|{{Character|Alhaitham|20|nobr=1}}
+|{{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}}
+|Projection Attack DMG
+|
 |-
-|{{Card|Hu Tao}}
-|{{Talent|Guide to Afterlife|60|text = Elemental Skill: Guide to Afterlife}}
+|{{Character|Eula|20|nobr=1}}
+|{{Talent|Glacial Illumination|20|nobr=1|type=1}}
+|Lightfall Sword DMG
+|
+|-
+|{{Character|Hu Tao|20|nobr=1}}
+|{{Talent|Guide to Afterlife|20|nobr=1|type=1}}
 |Blood Blossom DMG
-|-
-|{{Card|Keqing}}
-|{{Talent|Starward Sword|60|text = Elemental Burst: Starward Sword}}
 |
 |-
-|{{Card|Mona}}
-|{{Talent|Stellaris Phantasm|60|text = Elemental Burst: Stellaris Phantasm}}
+|{{Character|Keqing|20|nobr=1}}
+|{{Talent|Starward Sword|20|nobr=1|type=1}}
+|All DMG
 |
 |-
-|rowspan="2" |{{Card|Raiden Shogun}}
-|{{Talent|Secret Art: Musou Shinsetsu|60|text = Elemental Burst: Secret art: Musou Shinsetsu}}
+|{{Character|Mona|20|nobr=1}}
+|{{Talent|Stellaris Phantasm|20|nobr=1|type=1}}
+|Illusory Bubble Explosion DMG
 |
 |-
-|{{Talent|Transcendence: Baleful Omen|60|text = Elemental Skill: Transcendence: Baleful Omen}}
+|{{Character|Nahida|20|nobr=1}}
+|{{Talent|All Schemes to Know|20|nobr=1|type=1}}
+|Tri-Karma Purification DMG
+|
+|-
+|rowspan="2" |{{Character|Raiden Shogun|20|nobr=1}}
+|{{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}}
+|All DMG
+|
+|-
+|{{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}}
 |Coordinated DMG
+|
 |-
-| rowspan="3" |{{Card|Tartaglia}}
-|{{Talent|Cutting Torrent|60|text = Normal Attack Skill: Cutting Torrent}}
-|Riptide Flash DMG and Riptide Burst DMG
+| rowspan="3" |{{Character|Tartaglia|20|nobr=1}}
+|{{Talent|Cutting Torrent|20|nobr=1|type=1}}
+|Riptide Flash DMG; Riptide Burst DMG
+|
 |-
-|{{Talent|Foul Legacy: Raging Tide|60|text = Elemental Skill: Foul Legacy: Raging Tide}}
+|{{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}}
 |Riptide Slash DMG
+|
 |-
-|{{Talent|Havoc: Obliteration|60|text =  Elemental Burst: Havoc: Obliteration}}
+|{{Talent|Havoc: Obliteration|20|nobr=1|type=1}}
 |Riptide Blast DMG
+|
 |-
-|{{Card|Yoimiya}}
-|{{Talent|Ryuukin Saxifrage|60|text = Elemental Burst: Ryuukin Saxifrage}}
+|{{Character|Yoimiya|20|nobr=1}}
+|{{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}}
 |Aurous Blaze Explosion DMG
+|
 |-
-|{{Card|Yae Miko}}
-|{{Talent|Yakan Evocation: Sesshou Sakura|60|text = Elemental Skill: Yakan Evocation: Sesshou Sakura}}
+| rowspan="2" | {{Character|Yae Miko|20|nobr=1}}
+|{{Talent|Yakan Evocation: Sesshou Sakura|20|nobr=1|type=1}}
 |Sesshou Sakura DMG
+|
 |-
-| {{Card|Yelan}}
-| {{Talent|Depth-Clarion Dice|60|text = Elemental Burst: Depth-Clarion Dice}}
-| Exquisite Throw DMG
+|{{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1|type=1}}
+|Tenko Thunderbolt DMG
+|
 |-
-|{{Card|Fischl}}
-|{{Talent|Midnight Phantasmagoria|60|text = Elemental Burst: Midnight Phantasmagoria}}
+|{{Character|Yelan|20|nobr=1}}
+|{{Talent|Depth-Clarion Dice|20|nobr=1|type=1}}
+|Exquisite Throw DMG
+|
+|-
+|{{Character|Fischl|20|nobr=1}}
+|{{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}}
 |Falling Thunder DMG
+|
 |-
-| {{Card|Kuki Shinobu}}
-| {{Talent|Sanctifying Ring|60|text = Elemental Skill: Sanctifying Ring}}
-| Grass Ring of Sanctification DMG
+|{{Character|Kuki Shinobu|20|nobr=1}}
+|{{Talent|Sanctifying Ring|20|nobr=1|type=1}}
+|Grass Ring of Sanctification DMG
+|
 |-
-|{{Card|Razor}}
-|{{Talent|Lightning Fang|60|text = Elemental Burst: Lightning Fang}}
+|{{Character|Razor|20|nobr=1}}
+|{{Talent|Lightning Fang|20|nobr=1|type=1}}
 |Soul Companion DMG
+|
 |-
-|{{Card|Thoma}}
-|{{Talent|Crimson Ooyoroi|60|text = Elemental Burst: Crimson Ooyoroi}}
+|{{Character|Thoma|20|nobr=1}}
+|{{Talent|Crimson Ooyoroi|20|nobr=1|type=1}}
 |Fiery Collapse DMG
+|
 |-
-|{{Card|Xingqiu}}
-|{{Talent|Guhua Sword: Raincutter|60|text = Elemental Burst: Guhua Sword: Raincutter}}
+|{{Character|Xingqiu|20|nobr=1}}
+|{{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}}
 |Rain Sword DMG
+|
 |-
-| rowspan="2" |{{Card|Xinyan}}
-|{{Talent|Riff Revolution|60|text = Elemental Burst: Riff Revolution}}
+| rowspan="2" |{{Character|Xinyan|20|nobr=1}}
+|{{Talent|Riff Revolution|20|nobr=1|type=1}}
 |Pyro DoT
+|
 |-
-|{{Talent|Sweeping Fervor|60|text = Elemental Skill: Sweeping Fervor}}
-|Shield's DoT
+|{{Talent|Sweeping Fervor|20|nobr=1|type=1}}
+|Shield DoT
+|
 |}
 
 ==Elemental Reactions==
-Primarily, the previous sections only take account physical or elemental damage from character abilities. Reactions have a dependency [[Elemental Mastery|elemental mastery]], but depending on its type it may or may not snapshot.
+[[Elemental Reaction]]s receive bonuses based on [[Elemental Mastery]]. While Elemental Mastery can be snapshotted, certain Elemental Reactions will ignore the snapshotted Elemental Mastery and instead use the Elemental Mastery stat of the character at the moment the reaction is triggered.
 
-Starting from [[Version 1.4]], the snapshotting of [[Elemental Mastery|elemental mastery]] for transformative reactions such as [[Electro-Charged]], [[Overloaded]], [[Shatter]], [[Superconduct]], and [[Swirl]] was removed, and replaced with real-time damage calculations. Therefore, transformative reaction damage bonus from elemental mastery buffs gained after an snapshottable talent's activation is still gained even after its activation - increasing damage of the talent. In short, order or timing is no longer an issue and is only limited by the buff's duration.
+{| class="wikitable"
+! Elemental Reaction !! Uses Snapshotted EM
+|-
+| [[Melt]]<br />[[Vaporize]] || {{check|yes}}
+|-
+| [[Overloaded]]<br />[[Shattered]]<br />[[Electro-Charged]]<br />[[Superconduct]]<br />[[Swirl]]<br />[[Burning]]<br />[[Bloom]]<br />[[Hyperbloom]]<br />[[Burgeon]]<br />[[Aggravate]]<br />[[Spread]] || {{check|no}}
+|}
 
-For example, the [[Superconduct]] damage triggered by [[Ganyu|Ganyu's]] [[Celestial Shower]] will be boosted by [[Sucrose|Sucrose's]] [[Catalyst Conversion]] even after Ganyu's talent is cast. Prior to the version changes, the Superconduct damage would only be boosted if Sucrose's talent was triggered before Ganyu's burst.<ref>HoYoLAB: [https://www.hoyolab.com/article/https://www.hoyolab.com/article/256800 Explanations of Some Fixes in the Version 1.4 Update]</ref>
-
-*'''Amplifying Reactions''' (Melt and Vaporize) - Bonus elemental mastery can be snapshotted to snapshottable talents, but are fully bound to its limitations.
-* '''Transformative Reactions''' (Electro-Charge, Overload, Shatter, Superconduct, and Swirl) - Bonus elemental mastery bypasses snapshotting entirely.
-
-In summary, the amplification reaction damage bonus resulting from buffs to elemental mastery can be considered to be a <u>static buff</u> while the transformative reaction damage bonus resulting from the same buffs can be considered to be a <u>dynamic buff</u>.
-
+For example, the [[Superconduct]] damage triggered by [[Ganyu]]'s [[Celestial Shower]] will be boosted by [[Sucrose]]'s [[Catalyst Conversion]] even after Ganyu's talent is cast. Prior to the version changes, the Superconduct damage would only be boosted if Sucrose's talent was triggered before Ganyu's burst.
+<!--
 ==Notes==
 {{Reflist|note=1}}
-
+-->
 ==Change History==
 {{Change History|1.0}}
-
+<!--
 ==References==
 {{Reflist}}
-
+-->
 ==Navigation==
 {{Combat Navbox}}
 [[Category:Combat]]
+
+[[ja:スナップショット]]
+[[th:ความเสียหายคงที่ตลอดระยะเวลาต่อเนื่อง]]

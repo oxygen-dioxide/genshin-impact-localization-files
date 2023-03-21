@@ -1,5 +1,7 @@
 {{Enemy Infobox
 |image    = Enemy Wooden Shieldwall Mitachurl.png
+|dmgtype  = Physical
+|weakpoint = yes
 |element  = Dendro
 |family   = Hilichurls
 |group    = Mitachurls
@@ -7,51 +9,52 @@
 |ability1 = Shield
 |ability2 = Directional Shield
 }}
-{{Description|A muscular hilichurl who has been forged in countless fights.<br />They know how to use Dendro Slimes to create tough shields which they wield in combat.<br />With their powerful muscles, glossy fur, and sturdy, reliable silhouettes, they help the hilichurls withstand the pitiless assaults of adventurers, and they hold a rather exalted rank amongst the tribes.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Mitachurls}}
+===Items===
+{{Drops Table|type=Mitachurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|phys_res=30%|hp_ratio=3|atk_ratio=2.4|hp_type=1}}
 
 ==Abilities and Attacks==
-* '''Shield Charge:''' Charges towards the player with its shield, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path. At the end of the charge, swings its shield at the player, dealing an additional '''100% ATK''' as {{Color|Black|Physical DMG}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Dendro Mitachurl
 
-* '''Charge:''' When without its shield, charges towards the player character with brute force, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path.
+|name_1 = Shield Charge
+|desc_1 = Charges towards the player with its shield, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path. At the end of the charge, swings its shield at the player, dealing an additional '''100% ATK''' as {{Color|Black|Physical DMG}}.
 
-* '''Smack:''' If the player strays too close, swings it shield or delivers a punch with its fist, dealing '''100% ATK''' or '''75% ATK''' as {{Color|Black|Physical DMG}}.
+|name_2 = Charge
+|desc_2 = When without its shield, charges towards the player character with brute force, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path.
 
-* '''Extinguish:''' When its shield is burning, swings its shield around before smacking it with its hand to put out the fire.
+|name_3 = Smack
+|desc_3 = If the player strays too close, swings it shield or delivers a punch with its fist, dealing '''100% ATK''' or '''75% ATK''' as {{Color|Black|Physical DMG}}.
+|caption_3 = Unshielded
+|file_3_2 = Dendro Mitachurl Smack Shielded
+|caption_3_2 = Shielded
 
-* '''Dendro Slime Throw:''' If the player is at a different elevation or is out of range, the Mitachurl roars before digging a [[Dendro Slime]] out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Black|Physical DMG}}.
+|name_4 = Extinguish
+|desc_4 = When its shield is burning, swings its shield around before smacking it with its hand to put out the fire.
 
-* '''Shield Recreation:''' When without its shield, digs a Dendro Slime out of the ground to create a new shield.
+|name_5 = Dendro Slime Throw
+|desc_5 = If the player is at a different elevation or is out of range, the Mitachurl roars before digging a [[Dendro Slime]] out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Black|Physical DMG}}.
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Dendro Mitachurl Shield Charge
-|caption1 = Shield Charge
-
-|file2    = Dendro Mitachurl Charge
-|caption2 = Charge
-
-|file3    = Dendro Mitachurl Smack
-|caption3 = Smack
-
-|file4    = Dendro Mitachurl Extinguish
-|caption4 = Extinguish
-
-|file5    = Dendro Mitachurl Smack Shielded
-|caption5 = Smack (Shielded)
-
-|file6    = Dendro Mitachurl Dendro Slime Throw
-|caption6 = Dendro Slime Throw
-
-|file7    = Dendro Mitachurl Shield Recreation
-|caption7 = Shield Recreation
+|name_6 = Shield Recreation
+|desc_6 = When without its shield, digs a Dendro Slime out of the ground to create a new shield.
 }}
 
 ==Strategy==
@@ -62,8 +65,14 @@ During rainy [[weather]], {{Cryo}} can be used to [[Frozen|freeze]] the Mitachur
 ==Achievements==
 {{Achievement Topic Table|topic=Wooden Shieldwall Mitachurl}}
 
+==Descriptions==
+{{Description|A muscular hilichurl who has been forged in countless fights.<br />They know how to use Dendro Slimes to create tough shields which they wield in combat.<br />With their powerful muscles, glossy fur, and sturdy, reliable silhouettes, they help the hilichurls withstand the pitiless assaults of adventurers, and they hold a rather exalted rank amongst the tribes.|[[Archive]]}}
+
+==Trivia==
+{{Transclude|Mitachurl|titles|section=1}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Wooden Shieldwall Mitachurl Icon.png|Icon
 </gallery>
 
@@ -82,7 +91,7 @@ Enemy Wooden Shieldwall Mitachurl Icon.png|Icon
 |ko_rm   = Namubangpae Chyuchyu Pokdo
 |ko_tl   = Wood-shield Hilichurl Rioter
 |es      = Mitachurl con Escudo de Madera
-|es_tl   = 
+|es_tl   = Mitachurl with Wooded Shield
 |fr      = Brutoviandu avec bouclier de bois
 |fr_tl   = Wooden Shield Hilimita
 |ru      = Митачурл с деревянным щитом
@@ -95,6 +104,10 @@ Enemy Wooden Shieldwall Mitachurl Icon.png|Icon
 |id      = Wooden Shieldwall Mitachurl
 |pt      = Mitachurl de Escudo de Madeira
 |pt_tl   = 
+|tr      = Ahşap Kalkanlı Dağ Azmanı
+|tr_tl   = 
+|it      = Mitachurl con scudo di legno
+|it_tl   = 
 }}
 
 ==Change History==
@@ -103,5 +116,7 @@ Enemy Wooden Shieldwall Mitachurl Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Mitachurl mit Holzschild]]
 [[es:Mitachurl con Escudo de Madera]]
+[[ja:ヒルチャール暴徒・木盾]]
 [[pt-br:Mitachurl de Escudo de Madeira]]

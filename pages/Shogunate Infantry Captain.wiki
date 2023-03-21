@@ -1,5 +1,6 @@
 {{Enemy Infobox
 |image    = Enemy Shogunate Infantry Captain Icon.png
+|weakpoint = yes
 |type     = Quest Enemies
 |group    = Shogunate Samurai
 |family   = Other Human Factions
@@ -16,53 +17,77 @@
 }}
 
 ==Abilities and Attacks==
-''Attack names are unofficial.''
+''Most attack names are unofficial.''
 
-* '''Stab''': Performs a quick stab with their spear, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-* '''Spear Combo''': Performs 3 stab combo with their spear, dealing '''100% ATK''' as {{Color|Physical DMG}} with each stab.
-* '''Dodge''': Jumps backwards away from the player.
-* '''Rally''': The Shogunate Infantry Captain rallies nearby Shogunate Infantries, causing them to perform 3-stab combo.
+{{Enemy Attacks
+|name_1 = Stab
+|desc_1 = Performs a quick stab with their spear, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Shogunate Infantry Captain Stab
-|caption1 = Stab
+|name_2 = Spear Combo
+|desc_2 = Performs 3 stab combo with their spear, dealing '''100% ATK''' as {{Color|Physical DMG}} with each stab.
 
-|file2    = Shogunate Infantry Captain Spear Combo
-|caption2 = Spear Combo
+|name_3 = Dodge
+|desc_3 = Jumps backwards away from the player.
 
-|file3    = Shogunate Infantry Captain Dodge
-|caption3 = Dodge
-
-|file4    = Shogunate Infantry Stab 2
-|caption4 = Rally
+|name_4 = Rally
+|desc_4 = The Shogunate Infantry Captain rallies nearby Shogunate Infantries, causing them to perform 3-stab combo.
+|file_4 = Shogunate Infantry Stab 2
 }}
 
-==Voicelines==
-{|class = wikitable
-!colspan="2"|Shogunate Infantry Captain
-|-
-! rowspan="2" width="20%"|Spotting the Traveler
-|Who goes there!?
-|-
-|Battle formations!
-|-
-!rowspan="2" width="20%"|Attacking
-|You cannot match my bravery!
-|-
-|Take this!
-|-
-!rowspan="2" width="20%"|Rallying
-|Soldiers, quick!
-|-
-|Get them!
-|-
-!rowspan="2" width="20%"|Defeated
-|I won't... forget this...
-|-
-|I've lost...
-|}
+==Voice-Overs==
+{{VO/Enemy
+|enemy                   = Shogunate Captain
+|vo_01_00_title          = Spotting the Player
+|vo_01_01_file           = VO {lang}{name} - Battle Formation.ogg
+|vo_01_01_tx_en          = Battle formation!
+|vo_01_01_tx_zh          = 
+|vo_01_01_tx_ja          = 
+|vo_01_01_tx_ko          = 
+|vo_01_02_file           = VO {lang}{name} - Who Goes There.ogg
+|vo_01_02_tx_en          = Who goes there!?
+|vo_01_02_tx_zh          = 
+|vo_01_02_tx_ja          = 
+|vo_01_02_tx_ko          = 
+
+|vo_02_00_title          = Spear Combo
+|vo_02_01_file           = VO {lang}{name} - You Cannot Match My Bravery.ogg
+|vo_02_01_tx_en          = You cannot match my bravery!
+|vo_02_01_tx_zh          = 
+|vo_02_01_tx_ja          = 
+|vo_02_01_tx_ko          = 
+|vo_02_02_file           = VO {lang}{name} - Take This.ogg
+|vo_02_02_tx_en          = Take this!
+|vo_02_02_tx_zh          = 
+|vo_02_02_tx_ja          = 
+|vo_02_02_tx_ko          = 
+
+|vo_03_00_title          = Rallying
+|vo_03_01_file           = VO {lang}{name} - Soldiers Quick.ogg
+|vo_03_01_tx_en          = Soldiers, quick!
+|vo_03_01_tx_zh          = 
+|vo_03_01_tx_ja          = 
+|vo_03_01_tx_ko          = 
+|vo_03_02_file           = VO {lang}{name} - Get Them.ogg
+|vo_03_02_tx_en          = Get them!
+|vo_03_02_tx_zh          = 
+|vo_03_02_tx_ja          = 
+|vo_03_02_tx_ko          = 
+
+|vo_04_00_title          = Staggered
+|vo_04_01_tx_en          = {{A|VO Shogunate Captain - Staggered 01.ogg}} {{A|VO Shogunate Captain - Staggered 02.ogg}} {{A|VO Shogunate Captain - Staggered 03.ogg}} {{A|VO Shogunate Captain - Staggered 04.ogg}} {{A|VO Shogunate Captain - Staggered 05.ogg}}
+
+|vo_05_00_title          = Defeated
+|vo_05_01_file           = VO {lang}{name} - I Wont Forget This.ogg
+|vo_05_01_tx_en          = I won't forget this...
+|vo_05_01_tx_zh          = 
+|vo_05_01_tx_ja          = 
+|vo_05_01_tx_ko          = 
+|vo_05_02_file           = VO {lang}{name} - Ive Lost.ogg
+|vo_05_02_tx_en          = I've lost...
+|vo_05_02_tx_zh          = 
+|vo_05_02_tx_ja          = 
+|vo_05_02_tx_ko          = 
+}}
 
 ==Other Languages==
 {{Other Languages
@@ -83,7 +108,7 @@
 |fr      = Ashigaru en chef du Shogunat
 |fr_tl   = Shogunate Ashigaru Chief
 |ru      = Капитан пехоты сёгуната
-|ru_tl   = 
+|ru_tl   = Shogunate Infantry Captain
 |th      = Shogunate Infantry Captain
 |vi      = Bộ Binh Trưởng Shogunate
 |vi_tl   = 
@@ -92,6 +117,10 @@
 |id      = Shogunate Infantry Captain
 |pt      = Capitão Ashigaru do Shogunato
 |pt_tl   = Shogunate Ashigaru Captain
+|tr      = Şogunluk Piyade Yüzbaşısı
+|tr_tl   = 
+|it      = Capitano della Fanteria dello Shogunato
+|it_tl   = 
 }}
 
 ==Change History==

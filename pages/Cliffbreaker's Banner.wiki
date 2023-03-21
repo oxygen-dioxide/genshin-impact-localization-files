@@ -18,24 +18,38 @@
 |scale_att2    = ATK
 |utility1      = AoE
 |utility2      = Normal Attack DMG Increase
-|utility3      = Flat DMG Increase
+|utility3      = Additive Base DMG Bonus
 |utility4      = Party Normal Attack DMG Increase
-|utility5      = Party Flat DMG Increase
+|utility5      = Party Additive Base DMG Bonus
 |utility6      = Hitlag Extendable
 }}
 {{Description|As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.<br />As the instruments on stage strum in unison, lo, see how she vanquishes these demons!}}
 '''Cliffbreaker's Banner''' is [[Yun Jin]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-*The resulting Flying Cloud Flag Formation DMG Increase is flat and is expressed as:<br /><math>DMG =</math><math>[(\% \text{ Skill} \times \text{Skill Attribute})</math><math>+\,(\% \text{ DMG Increase} \times \text{DEF}_\text{Yun Jin})]</math><math>\times\,(\text{DMG Multipliers})</math>
-*The Bonus DMG is applied every time a Normal Attack hits an enemy. For example, the 3-Hit of the Normal Attack sequence of [[Rosaria]] and [[Thoma]] hits the enemy twice, so Yun Jin's Bonus DMG will be applied twice for the 3-Hit of these characters.
-*{{TalentNote|character=Yun Jin|talent=Cliffbreaker's Banner|dynamic buff|DEF}}
-*{{TalentNote|character=Yun Jin|talent=Cliffbreaker’s Banner|ascension|2|Breaking Conventions}}
+* {{TalentNote|energy frame|8}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|1}}<ref name="Genshin Academy burst info sheet" />
+* The Normal Attack DMG increase provided by this talent is considered [[Additive Base DMG Bonus]] in the [[Damage#General Damage Formula|Damage Formula]].
+* The Bonus DMG is applied every time a Normal Attack hits an enemy. For example, the 3-Hit of the Normal Attack sequence of [[Rosaria]] and [[Thoma]] hits the enemy twice, so Yun Jin's Bonus DMG will be applied twice for the 3-Hit of these characters.
+* {{TalentNote|character=Yun Jin|talent=Cliffbreaker's Banner|dynamic buff|DEF}}
+
+;<big>Passive Effects</big>
+* {{TalentNote|character=Yun Jin|talent=Cliffbreaker’s Banner|ascension|2|Breaking Conventions}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|2|Myriad Mise-En-Scène}}
 *{{TalentNote|constellation|3|Seafaring General}}
 *{{TalentNote|constellation|6|Decorous Harmony}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Skill DMG
+|gu      = 2U
+|icdtag  = none
+|poise   = 200
+|impulse = 4
+|blunt   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -110,22 +124,33 @@
 |fr      = Bannière de rupture des falaises
 |fr_tl   = Cliff Breaking Banner
 |ru      = Стяг разрушителя скал
-|ru_tl   = 
+|ru_tl   = Cliffbreaker's Banner
 |th      = Cliffbreaker's Banner
 |vi      = {{tt|Phá Chướng Kiến Tinh Nghi|破嶂見旌儀}}
-|vi_tl   = {{Sino|vi}}[[Category:VI Translation Missing]]
+|vi_tl   = <!--{{Sino|vi}}-->
 |de      = Banner der brechenden Klippen
 |de_tl   = Banner of Breaking Cliffs
 |id      = Cliffbreaker's Banner
 |pt      = Bandeira Quebra-Rochas
 |pt_tl   = Rock-Cracker Flag
 |pt_note = ''Quebra-Rochas'' seems to be a reference to ''Quebra-Nozes'', which is the Portuguese name for {{w|The Nutcracker}}
+|tr      = Uçurum Yaran Sancak
+|tr_tl   = 
+|it      = Stendardo del Frantumarupi
+|it_tl   = Cliff Shatterer's Banner
 }}
 
 ==Change History==
 {{Change History|2.4}}
 
+==References==
+{{Reflist}}
+
 ==Navigation==
 {{Talent Navbox|Yun Jin}}
+
+[[es:Estandarte romperrocas]]
+[[fr:Bannière de rupture des falaises]]
 [[pt-br:Bandeira Quebra-Rochas]]
+[[ru:Стяг разрушителя скал]]
 [[th:Cliffbreaker's Banner]]

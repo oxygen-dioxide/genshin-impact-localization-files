@@ -1,2 +1,132 @@
-#REDIRECT [[Attack]]
-[[Category:Redirect Pages]]
+{{Terminology Infobox
+|image        = Icon Attribute Attack.png
+|type         = Attributes
+|type2        = Combat
+|type3        = Game Systems
+}}
+'''Attack''', abbreviated in-game as '''ATK''', is an attribute used to calculate how much [[damage]] a character (or enemy) does. All forms of damage calculation except specific [[Elemental Reactions]] scale linearly with ATK.
+
+The total ATK formula is:<ref>HoYoLAB: [https://www.hoyolab.com/article/14696 Attack power mechanics translated] (Also tested during Global CBT3)</ref>
+
+:<math>\text{ATK} = \big[(\text{ATK}_\text{Character} + \text{ATK}_\text{Weapon})\times(1 + \% \text{ ATK Bonus})\big]+\text{ATK Flat Bonus}</math>
+
+Where:
+
+* <math>{\textstyle \text{ATK}}</math> is the character's final attack value, which can be viewed from the character's attributes screen.
+* <math>{\textstyle \text{ATK}_\text{Character}}</math> is the <u>flat</u> attack value the character receives from leveling up and [[Character Ascensions|ascension]]s.
+* <math>{\textstyle \text{ATK}_\text{Weapon}}</math> is the weapon's <u>flat</u> attack value.
+* <math>{\textstyle \% \text{ATK Bonus}}</math> is the sum of ATK% bonuses obtained from all sources, including buffs from artifacts, weapon passives, skills, character ascensions, etc. Note ATK % is different from [[Damage Bonus]] (DMG %).
+* <math>{\textstyle \text{ATK Flat Bonus}}</math> is the <u>flat</u> attack value obtained from artifacts, skills, food, etc.
+
+In the Attribute menu screen, the base ATK (Character + Weapon ATK) of a character appears in white whereas all other ATK bonuses appear in green.
+
+==Ascension==
+{{Characters by Ascension Stat Table|ATK}}
+
+==Increasing ATK==
+===Elemental Resonance===
+{{Main|Elemental Resonance}}
+
+The {{Element|Pyro|24}} [[Fervent Flames]] Elemental Resonance increases ATK by 25%.
+
+===Talents===
+{{Talents by Category Table|ATK Increase Talents}}
+
+===Constellations===
+{{Constellations by Category Table|ATK Increase Constellations}}
+
+===Artifacts===
+{{Artifacts by Category Table|ATK Increase Artifacts}}
+
+===Weapons===
+====Substat====
+The following weapons have ATK as a substat.
+{{Weapons by Category Table|ATK Substat Weapons}}
+
+====Passives====
+The following weapons have ATK as a part of their passive effect.
+{{Weapons by Category Table|ATK Passive Weapons}}
+
+==Increasing Party ATK==
+===Talents===
+{{Talents by Category Table|Party ATK Increase Talents}}
+
+===Constellations===
+{{Constellations by Category Table|Party ATK Increase Constellations}}
+
+===Artifacts===
+{{Artifacts by Category Table|Party ATK Increase Artifacts}}
+
+===Weapons===
+{{Weapons by Category Table|Party ATK Increase Passive Weapons}}
+
+==ATK Scaling Abilities==
+===ATK Scaling Talents===
+{{Talents by Category Table|ATK Scaling Talents|collapsible=1}}
+
+===ATK Scaling Constellations===
+{{Constellations by Category Table|ATK Scaling Constellations}}
+
+==Base ATK Scaling Abilities==
+===Base ATK Scaling Talents===
+{{Talents by Category Table|Base ATK Scaling Talents|collapsible=1}}
+
+===Base ATK Scaling Constellations===
+{{Constellations by Category Table|Base ATK Scaling Constellations}}
+
+==Enemies==
+===Attack Decrease===
+The following abilities can decrease the ATK of enemies.
+{{Talents by Category Table|ATK Decrease Talents}}
+
+{{Constellations by Category Table|ATK Decrease Constellations}}
+
+==Other Languages==
+{{Other Languages
+|en      = {{tt|ATK|Attack}}
+|zhs     = 攻击力
+|zhs_rm  = Gōngjí-lì
+|zht     = 攻擊力
+|zht_rm  = Gōngjí-lì
+|zh_tl   = Attack Power
+|ja      = 攻撃力
+|ja_rm   = Kougeki-ryoku
+|ja_tl   = Attack Power
+|ko      = {{tt|공격력|攻擊力}}
+|ko_rm   = Gonggyeok-ryeok
+|ko_tl   = Attack Power
+|es      = {{tt|ATQ|Ataque}}
+|es_tl   = {{tt|ATK|Attack}}
+|fr      = {{tt|ATQ|Attaque}}
+|fr_tl   = {{tt|ATK|Attack}}
+|ru      = Сила атаки
+|ru_tl   = Attack Power
+|th      = พลังโจมตี
+|th_rm   = Phlang Chomti
+|th_tl   = Attack Power
+|vi      = Tấn Công
+|vi_tl   = Attack
+|de      = {{tt|ANG|Angriff}}
+|de_tl   = {{tt|ATK|Attack}}
+|id      = ATK
+|pt      = {{tt|ATQ|Ataque}}
+|pt_tl   = {{tt|ATK|Attack}}
+|tr      = Saldırı
+|tr_tl   = Attack
+|it      = {{tt|ATT|Attacco}}
+|it_tl   = {{tt|ATK|Attack}}
+}}
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist|1}}
+
+==Navigation==
+{{Attribute Navbox}}
+{{Combat Navbox|state=collapsed}}
+
+[[ja:攻撃力]]
+[[uk:Атака]]
+[[vi:Tấn Công]]

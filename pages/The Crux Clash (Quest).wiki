@@ -7,8 +7,10 @@
 |actNum        = Prologue
 |act           = Autumn Winds, Scarlet Leaves
 |part          = 2
-|description   = After meeting some of the contestants, you reckon that this will be a milk run. Still, your ticket to [[Inazuma]] is at stake here. Best not to let your guard down during the tournament.<br /><br />After witnessing [[Rongshi]]'s abilities in the semi-finals, you decide that some preparation is in order before the final. After speaking with [[Beidou]] and [[Kazuha]], Kazuha invites you to join him elsewhere in Guyun Stone Forest for some additional instruction.
 |startLocation = [[Guyun Stone Forest]], [[Liyue]]
+|region        = Liyue
+|area          = Sea of Clouds
+|subarea       = Guyun Stone Forest
 |prev          = A Path Through the Storm
 |next          = Follow the Wind
 |exp           = 750
@@ -43,18 +45,19 @@
 #** {{Enemy|Large Hydro Slime|x=1}}
 # Talk to Kazuha
 
-==Notes==
+==Gameplay Notes==
 * During The Clash, Traveler will retain their level, weapon, and artifacts during the fight.
 ** Their stats will increase by 12,000 [[HP]], 5,000 [[ATK]], and 800 [[DEF]]
 ** The player may consume food to heal or buff themselves
 ** The player may also level up their unaligned Normal Attack talent, [[Past Memories]]
 * Logging out in the middle of a fight or dying in a fight will bring the player back to the non-combat step prior to the fight (e.g. Speak to Zhuhan). If the player dies in a fight, they will revive at the nearest Teleport Waypoint as normal.
-* When a fight is ended by either logging out, dying, or winning, the Traveler will become aligned with {{Anemo}} even if they were previously aligned with {{Geo}}.
+* When a fight is ended by either logging out, dying, or winning, the Traveler will become aligned with {{Anemo}} even if they were previously aligned with another element.
 
 ==Achievements==
-* Defeating [[Jinyou]] during the fight will grant the ''[[Wonders of the World]]'' achievement "[[Ready, Fight!]]"
+* Defeating [[Jinyou]] during the fight will grant the ''[[Wonders of the World]]'' achievement ''[[Ready, Fight!]]''.
 
 ==Dialogue==
+{{Quest Description|After meeting some of the contestants, you reckon that this will be a milk run. Still, your ticket to [[Inazuma]] is at stake here. Best not to let your guard down during the tournament.<br /><br />After witnessing [[Rongshi]]'s abilities in the semi-finals, you decide that some preparation is in order before the final. After speaking with [[Beidou]] and [[Kazuha]], Kazuha invites you to join him elsewhere in Guyun Stone Forest for some additional instruction.}}
 {{Dialogue start}}
 ;(Talk to Zhuhan, if "Not quite" was chosen in the previous quest)
 :{{A|vo wylq001 14 zhuhan 01.ogg}} '''Zhuhan:''' You seem like you're raring to go. Are you ready to compete?
@@ -66,7 +69,7 @@
 :;(Does not start the fight)
 ----
 ;(After the first fight begins)
-:{{A|vo wylq002 1 beidou 01a.ogg}} '''Beidou:''' Our next competitor is seen by many as the favorite to win this tournament. (His/Her) first bout begins now!
+:{{A|vo wylq002 1 beidou 01a.ogg}} '''Beidou:''' Our next competitor is seen by many as the favorite to win this tournament. {{MC|His|Her|mc=1}} first bout begins now!
 :{{A|vo wylq002 1 jinyou 01.ogg}} '''Jinyou:''' Y&mdash;You... You're the hero they're talking about?
 :{{A|vo wylq002 1 jinyou 02.ogg}} '''Jinyou:''' Argh! How am I supposed to win now!?
 ;(After defeating the first opponent)
@@ -75,9 +78,9 @@
 ----
 ;(Talk to Beidou or Kazuha)
 :{{A|vo wylq002 3 beidou 01.ogg}} '''Beidou:''' Hahaha, I knew I wouldn't regret introducing you as the favorite!
-:{{A|vo wylq002 3 beidou 02a.ogg}} {{A|vo wylq002 3 beidou 02b.ogg}} '''Beidou:''' So what do you think, Kazuha? (He/She) totally dominated that guy, and did it with style, too.
+:{{A|vo wylq002 3 beidou 02a.ogg}} {{A|vo wylq002 3 beidou 02b.ogg}} '''Beidou:''' So what do you think, Kazuha? {{MC|He|She|mc=1}} totally dominated that guy, and did it with style, too.
 :{{A|vo wylq002 3 kazuha 01.ogg}} '''Kaedehara Kazuha:''' Impressive. But I also observed our favorite exercise some restraint, as if to protect the opponent from serious harm.
-:{{A|vo wylq002 3 beidou 03a.ogg}} {{A|vo wylq002 3 beidou 03b.ogg}} '''Beidou:''' Well, I've fought my fair share of battles, both big and small. And I say, after the show (he/she) put on just now, (he's/she's) more than convinced me of his ability.
+:{{A|vo wylq002 3 beidou 03a.ogg}} {{A|vo wylq002 3 beidou 03b.ogg}} '''Beidou:''' Well, I've fought my fair share of battles, both big and small. And I say, after the show {{MC|he|she|mc=1}} put on just now, {{MC|he|she|mc=1}}'s more than convinced me of his ability.
 :{{A|vo wylq002 3 beidou 04.ogg}} '''Beidou:''' So come on, we all know you've got a wide vocabulary in there &mdash; can't you spare a word or two to congratulate our up-and-coming champion?
 :{{A|vo wylq002 3 kazuha 02.ogg}} '''Kaedehara Kazuha:''' Alright... Let me think how to aptly phrase these words of praise...
 :{{A|vo wylq002 3 kazuha 03.ogg}} '''Kaedehara Kazuha:''' ...You fought well.
@@ -107,7 +110,7 @@
 ;(Talk to Zhuhan)
 :{{A|vo wylq002 4 zhuhan 01.ogg}} '''Zhuhan:''' Your opponent in the semi-finals is new to [[The Crux Clash]], but he has quickly become the dark horse of the tournament.
 :{{A|vo wylq002 4 zhuhan 02.ogg}} '''Zhuhan:''' I do not doubt your abilities, but I would suggest that you make sure you are fully prepared before you begin.
-:{{A|vo wylq002 4 paimon 01a.ogg}} {{A|vo wylq002 4 paimon 01b.ogg}} '''Paimon:''' Relax! My (guy/girl)'s at the top of (his/her) game, (he/she) ain't gonna lose!
+:{{A|vo wylq002 4 paimon 01a.ogg}} {{A|vo wylq002 4 paimon 01b.ogg}} '''Paimon:''' Relax! My {{MC|guy|girl|mc=1}}'s at the top of {{MC|his|her|mc=1}} game, {{MC|he|she|mc=1}} ain't gonna lose!
 :{{DIcon}} I'm ready.
 ::{{A|vo wylq002 4 zhuhan 03a.ogg}} '''Zhuhan:''' Okay. Follow me.
 :;(Advance to the fight)
@@ -238,8 +241,8 @@
 :{{A|vo wylq002 15 kazuha 13.ogg}} '''Kaedehara Kazuha:''' So then, might I be so bold as to inquire how exactly it is that you learned to channel elemental energy, and even wield it in combat?
 :{{DIcon}} It's all thanks to Paimon's knowledge.
 :{{DIcon}} It's all thanks to Paimon's companionship.
-:{{A|vo wylq002 15 paimon 04a.ogg}} {{A|vo wylq002 15 paimon 04b.ogg}} '''Paimon:''' Aw, it's nothing, really. Paimon just told (him/her) whatever came to mind.
-:{{A|vo wylq002 15 paimon 05a.ogg}} {{A|vo wylq002 15 paimon 05b.ogg}} '''Paimon:''' It's been a long journey, and many thing have happened along the way. Somehow, (he/she) just naturally learned to use the elements through it all...
+:{{A|vo wylq002 15 paimon 04a.ogg}} {{A|vo wylq002 15 paimon 04b.ogg}} '''Paimon:''' Aw, it's nothing, really. Paimon just told {{MC|him|her|mc=1}} whatever came to mind.
+:{{A|vo wylq002 15 paimon 05a.ogg}} {{A|vo wylq002 15 paimon 05b.ogg}} '''Paimon:''' It's been a long journey, and many thing have happened along the way. Somehow, {{MC|he|she|mc=1}} just naturally learned to use the elements through it all...
 :{{A|vo wylq002 15 paimon 06.ogg}} '''Paimon:''' Honestly, even Paimon doesn't understand how it all works.
 :{{A|vo wylq002 15 kazuha 14.ogg}} '''Kaedehara Kazuha:''' Perhaps such unfathomable things are the essence of the gods and the Visions they grant.
 :{{A|vo wylq002 15 kazuha 15.ogg}} '''Kaedehara Kazuha:''' However, I still wish to have the honor of seeing how you wield the elements, perhaps it may reveal something to me.
@@ -293,7 +296,7 @@
 {{Dialogue end}}
 
 ==Trivia==
-* Traveler will become Unaligned during The Clash. Their clothes will not glow the attributed element before the fight, and they will have access to their unaligned Normal Attack talent, Past Memories.
+* Traveler will become [[Unaligned]] during The Clash. Their clothes will not glow the attributed element before the fight, and they will have access to their unaligned Normal Attack talent, [[Past Memories]].
 
 ==Other Languages==
 {{Other Languages
@@ -327,14 +330,19 @@
 |id_tl   = Crux Clash Tournament
 |pt      = Torneio da Frota Crux
 |pt_tl   = Crux Fleet Tournament
+|tr      = Güneyhaçı Yarışması
+|tr_tl   = 
+|it      = Il Torneo della Crux
+|it_tl   = The Crux Tournament
 }}
 
 ==Change History==
 {{Change History|1.6}}
 
-[[ru:Бойцовский турнир Южного Креста]]
-
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
 [[Category:Archon Chapter 2]]
+
+[[ja:南十字武闘会 (任務)]]
 [[pt-br:Torneio da Frota Crux (Missão)]]
+[[ru:Бойцовский турнир Южного Креста]]

@@ -10,63 +10,47 @@
 |CDHold        = 9s
 |utility1      = Plunging
 |utility2      = Vacuum Field
-|utility3      = Elemental Conversion
+|utility3      = Conversion
 |utility4      = Midair Usable
 |utility5      = AoE
 |attr1         = Press Skill DMG
 |value1        = 192-408%
 |attr2         = Hold Skill DMG
 |value2        = 261-554%
-|attr3         = 
-|value3        = 
-|attr4         = 
-|value4        = 
-|attr5         = 
-|value5        = 
 |scale_att1    = ATK
 }}
 {{Description|"Wind in branches grieves<br />Bygone ages, gods of old<br />Withered autumn leaves"}}
 '''Chihayaburu''' is [[Kaedehara Kazuha]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
-*{{TalentNote|particles|3|4}}
-*The skill can be used mid-air to perform a double jump or while [[gliding]], aiding in [[exploration]].
-**It will also reset [[Fall Damage]] calculations.
-*The Normal Attack icon will change after Kazuha is launched into the air if he can perform Midare Ranzan.<!-- show pic -->
-*When Chihayaburu is cast, it will also make a slight beeping / chiming sound.
-*The skill will pull all monster drops inside its range to the center, making them easier to collect.
-**When used near water surface it will also pull drops which sank to the bottom of the ocean, regardless of distance between water surface and ocean floor. Pulled drops will stay floating after skill ends.
+* {{TalentNote|particles|3|4}}
+* When Chihayaburu is cast, it will also make a slight beeping/chiming sound.
+* While airborne (if Kazuha has not yet Plunging Attacked or landed on the ground), a special wind will encircle Kazuha, indicating the Midare Ranzan effect, in the color of the absorbed element, if any.
+** If Soumon Swordsmanship is unlocked, the wind will be the color of the absorbed element.
 
-;Elemental Absorption
-* With Kazuha's first passive [[Soumon Swordsmanship]], this also has the power of [[Elemental Absorption]].
-* While airborne (if Kazuha has not yet Plunge Attacked or landed on the ground), a special wind will encircle Kazuha, indicating the Midare Ranzan effect, in the color of the absorbed element, if any.
-* The element that will cause the absorption has its priorities: {{Pyro}} > {{Hydro}} > {{Electro}} > {{Cryo}}. If multiple elements came into contact with Chihayaburu, the element with the highest priority will be the one that is absorbed. This is also the same case for Kazuha's [[Elemental Burst]], [[Kazuha Slash]].
-** For example, if Chihayaburu came into contact with multiple enemies affected by either {{Pyro}} or {{Electro}}, since Pyro has the higher priority, it will the one that causes the Elemental Absorption.
-* The element that Kazuha is affected with can also be used as a source of absorption.
-
-;Wind Tunnel
-* Even though performing [[Plunging Attack]] after casting Chihayaburu can knock back enemies, the vacuum effects of Midare Ranzan can still pull and group them together.
-* The Wind Tunnel created by Midare Ranzan will affect
-** [[Aloy]]'s [[Chillwater Bomblet]]s
-** [[Amber]]'s [[Baron Bunny]]
-** [[Klee]]'s [[Jumpy Dumpty]] (both the bounce and the mines)
-** [[Sayu]]'s [[Muji-Muji Daruma]]
-** [[Xiangling]]'s [[Guoba Attack|Guoba]]
-
-;Midare Ranzan
-* This [[Plunging Attack]] still counts as a [[Blunt Attack|Heavy Attack]], thus making Chihayaburu an effective means of breaking [[Geo]] [[Shields]], Ores and [[Geo Constructs]].
-* It will also trigger Shatter on [[Frozen]] Enemies.
-* Since Midare Ranzan is an infused Plunging Attack, it cannot chop trees for [[wood]].
-* Unlike normal Plunging Attacks, Midare Ranzan does not have a minimum height requirement, meaning it can be performed even if Kazuha is extremely close to the ground.
-:<gallery hideaddbutton="true" captionalign="center" widths="100">
-Talent Garyuu Bladework 2.png|Midare Ranzan Icon
-</gallery>
+;<big>Passive Effects</big>
+* {{TalentNote|character=Kazuha|talent=Chihayaburu|ascension|2|Soumon Swordsmanship}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|1|Scarlet Hills}}
 *{{TalentNote|constellation|3|Maple Monogatari}}
 *{{TalentNote|constellation|4|Oozora Genpou|When Kazuha's [[energy]] is lower than 45, he regenerates 3 energy upon pressing Chihayaburu and 4 energy upon holding Chihayaburu, and he also regenerates 2 energy per second while gliding.}}
 *{{TalentNote|constellation|6|Crimson Momiji}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Press DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 150
+|impulse = Air, 100, 800
+
+|title2   = Hold DMG
+|gu2      = 2U
+|icdtag2  = none
+|poise2   = 300
+|impulse2 = Air, 0, 800
+}}
 
 ==Preview==
 {{Preview
@@ -81,9 +65,6 @@ Talent Garyuu Bladework 2.png|Midare Ranzan Icon
 
 |file4=Chihayaburu Midare Ranzan Effect Preview
 |caption4=Midare Ranzan Effect
-
-|file5=Chihayaburu Midare Ranzan Plunge Preview
-|caption5=Plunging Attack: Midare Ranzan
 }}
 {{clr}}
 
@@ -153,7 +134,6 @@ Talent Garyuu Bladework 2.png|Midare Ranzan Icon
 |ja_rm   = Chihayaburu
 |ko      = 치하야부루
 |ko_rm   = Chihayaburu
-|ko_tl   = Chihayaburu
 |es      = Vehemencia estremecedora
 |es_tl   = Shaking Vehemence
 |fr      = Véhémence divine
@@ -165,6 +145,8 @@ Talent Garyuu Bladework 2.png|Midare Ranzan Icon
 |de      = Chihayaburu
 |id      = Chihayaburu
 |pt      = Chihayaburu
+|tr      = Chihayaburu
+|it      = Chihayaburu
 }}
 
 ==Change History==
@@ -178,7 +160,10 @@ Talent Garyuu Bladework 2.png|Midare Ranzan Icon
 
 [[es:Vehemencia estremecedora]]
 [[fr:Véhémence divine]]
+[[ja:千早振る]]
 [[pt-br:Chihayaburu]]
-[[vi:Chihayaburu]]
-[[uk:Чіхаябуру]]
+[[ru:Тихаяфуру]]
 [[th:Chihayaburu]]
+[[uk:Чіхаябуру]]
+[[vi:Chihayaburu]]
+[[zh:千早振]]

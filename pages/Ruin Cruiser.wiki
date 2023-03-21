@@ -1,16 +1,26 @@
 {{Enemy Infobox
 |image    = Enemy Ruin Cruiser.png
+|weakpoint = yes
 |type     = Elite Enemies
 |family   = Automatons
 |group    = Ruin Sentinels
-|location = [[Inazuma]]
 |ability1 = Invincibility Frames
 }}
-{{Description|Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.<br />Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common [[Ruin Guard]]s, their design has greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seem to have come from honeybee colonies, rendering it able to change forms and to attack from different directions.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Ruin Sentinels}}
+===Items===
+{{Drops Table|type=Ruin Sentinels}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 66
+|p1    = 1
+|hp2   = 33
+|p2    = 1
+|hp3   = 0
+|p3    = 2
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -20,35 +30,32 @@
 |atk_ratio    = 4.2
 }}
 
+==Weak Point Location==
+<gallery>
+Ruin Cruiser Weak Point.png
+</gallery>
+* The Weak Point is only exposed while charging the '''Tri-Shot Blast''', '''Orb Lay''', and '''Stinger Bombardment''' attacks.
+
 ==Abilities and Attacks==
-''Names of attacks are unofficial''
-* '''Tri-Shot Blast:''' The three orbitals each charge an orb that is then shot from the main head, dealing '''100% ATK''' as {{Color|Black|Physical DMG}} on hit. The core is exposed during this attack.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Tri-Shot Blast
+|desc_1 = The three orbitals each charge an orb that is then shot from the main head, dealing '''100% ATK''' as {{Color|Black|Physical DMG}} on hit. The core is exposed during this attack.
 
-* '''Stinger Shot:''' Using the three orbitals as a scope, the main head fires a long and slender stinger that deals '''70% ATK''' as {{Color|Black|Physical DMG}} on hit. While charging, it will protect its core.
+|name_2 = Stinger Shot
+|desc_2 = Using the three orbitals as a scope, the main head fires a long and slender stinger that deals '''70% ATK''' as {{Color|Black|Physical DMG}} on hit. While charging, it will protect its core.
 
-* '''Orb Lay:''' By withdrawing its three orbitals and diverting all power to the head, it pushes itself back while also laying an energized orb. This attack is performed when the player is close to the Ruin Cruiser. The orb stays on the field for some time and deals '''30% ATK''' as {{Color|Black|Physical DMG}} to players that come in contact. It exposes its core during the charging of the orb.
+|name_3 = Orb Lay
+|desc_3 = By withdrawing its three orbitals and diverting all power to the head, it pushes itself back while also laying an energized orb. This attack is performed when the player is close to the Ruin Cruiser. The orb stays on the field for some time and deals '''30% ATK''' as {{Color|Black|Physical DMG}} to players that come in contact. It exposes its core during the charging of the orb.
 
-* '''Stinger Bombardment:''' Mimicking the shape of a flower, the Ruin Cruiser fires multiple stingers into the air before they all bombard the area in front of it four times, dealing '''40% ATK''' as {{Color|Black|AoE Physical DMG}} over a large area. While charging, its core is exposed. When firing, its core is protected.
+|name_4 = Stinger Bombardment
+|desc_4 = Mimicking the shape of a flower, the Ruin Cruiser fires multiple stingers into the air before they all bombard the area in front of it four times, dealing '''40% ATK''' as {{Color|Black|AoE Physical DMG}} over a large area. Before bombarding, it fires a light beam at the player quickly that deals '''30% ATK''' as {{Color|Black|Physical DMG}}. While charging, its core is exposed. When firing, its core is protected.
 
-* '''Deactivated:''' When the weak spot of the main head is hit twice while it is exposed, the Ruin Cruiser deactivates for a short time where it does not attack back.
-
-===Preview===
-{{Preview
-|size=185px
-|file1    = Ruin Cruiser Tri-Shot Blast
-|caption1 = Tri-Shot Blast
-
-|file2    = Ruin Cruiser Stinger Shot
-|caption2 = Stinger Shot
-
-|file3    = Ruin Cruiser Orb Lay
-|caption3 = Orb Lay
-
-|file4    = Ruin Cruiser Stinger Bombardment
-|caption4 = Stinger Bombardment
+|name_5 = Deactivated
+|desc_5 = When the weak spot of the main head is hit twice while it is exposed, the Ruin Cruiser deactivates for a short time where it does not attack back.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
 * An ability will only be used if they meet both of the following conditions:
 ** The ability is not on cooldown
@@ -70,8 +77,11 @@
 | Orb Lay || 0–4 || 15–30 || &mdash; || Ruin Sentinel Melee || 8 || {{check|no}}
 |}
 
+==Descriptions==
+{{Description|Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.<br />Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common [[Ruin Guard]]s, their design has greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seem to have come from honeybee colonies, rendering it able to change forms and to attack from different directions.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Ruin Cruiser Icon.png|Icon
 </gallery>
 
@@ -94,7 +104,7 @@ Enemy Ruin Cruiser Icon.png|Icon
 |fr      = Patrouilleur des ruines
 |fr_tl   = Ruin Patroller
 |ru      = Руинный патрульный
-|ru_tl   = 
+|ru_tl   = Ruin Patroller
 |th      = Ruin Cruiser
 |vi      = Tuần Tra Di Tích
 |vi_tl   = Ruin Patroller
@@ -103,6 +113,10 @@ Enemy Ruin Cruiser Icon.png|Icon
 |id      = Ruin Cruiser
 |pt      = Patrulhador das Ruínas
 |pt_tl   = Patroller of the Ruins
+|tr      = Harabe Devriyesi
+|tr_tl   = 
+|it      = Incrociatore delle rovine
+|it_tl   = 
 }}
 
 ==Change History==
@@ -111,5 +125,8 @@ Enemy Ruin Cruiser Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=elite}}
 
+[[de:Ruinenkreuzer]]
 [[es:Patrullero de las Ruinas]]
 [[pt-br:Patrulhador das Ruínas]]
+[[ru:Руинный патрульный]]
+[[th:Ruin Cruiser]]

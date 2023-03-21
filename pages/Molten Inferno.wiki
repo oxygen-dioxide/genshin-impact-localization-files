@@ -1,0 +1,228 @@
+{{Talent Infobox
+|image         = Talent Molten Inferno.png
+|character     = Dehya
+|type          = Elemental Skill
+|info          = This art of Dehya's own invention changes its method of use depending on the combat situation.<br /><br />'''Indomitable Flame'''<br />This skill will be unleashed should there be no Fiery Sanctum field created by Dehya herself present at the time.<br />Deals {{Color|AoE Pyro DMG}}, and creates a field known as Fiery Sanctum.<br /><br />'''Ranging Flame'''<br />This skill will be unleashed should a Fiery Sanctum field created by Dehya herself already exist.<br />Dehya will perform a leaping attack, dealing {{Color|AoE Pyro DMG}} before recreating a Fiery Sanctum field at her new position.<br />A Fiery Sanctum field created this way will inherit the remaining duration of the previous field.<br /><br />Ranging Flame can be used only once throughout a single Fiery Sanctum field's duration.<br /><br />'''Fiery Sanctum'''<br />When an opponent within a Fiery Sanctum field takes DMG, the field will unleash a coordinated attack, dealing {{Color|AoE Pyro DMG}} to them based on Dehya's [[ATK]] and [[Max HP]]. This effect can be triggered once every 2.5s.<br />Active characters within this field have their [[Interruption Resistance|resistance to interruption]] increased, and when such characters take DMG, a portion of that damage will be mitigated and flow into Redmane's Blood. Dehya will then take this DMG over 10s. When the mitigated DMG stored by Redmane's Blood reaches or goes over a certain percentage of Dehya's Max HP, she will stop mitigating DMG in this way.<br /><br />Only 1 Fiery Sanctum created by Dehya herself can exist at the same time.
+|CD            = 20s
+|Duration      = 12s
+|scale_att1    = ATK
+|scale_att2    = Max HP
+|utility1      = Interruption Resistance
+|utility2      = Ally DMG Mitigation
+|utility3      = DMG to Self
+|utility4      = AoE
+}}
+{{Description|Walk this fiery ordeal with me and purge all impurity, just as a beast of flames that must descend from the blaze.}}
+'''Molten Inferno''' is [[Dehya]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{TalentNote|particles|a coordinated attack|1}}
+* {{TalentNote|snapshot|Field DMG|character=Dehya|snapshottime=when casting Indomitable Flame or Ranging Flame}}
+* Every time this skill mitigates DMG, the mitigated DMG will be added to the Redmane's Blood total. For the next 10 seconds, Dehya will take {{Color|True Physical DMG}} equal to 10% of Redmane's Blood's initial total every second and deduct the DMG taken from Redmane's Blood. If the skill mitigates DMG again during this period, the DoT will be reset and re-calculated based on Redmane's Blood's new total.
+* It is possible for Dehya to [[Fallen Character|die]] from DMG taken from Redmane's Blood, even if she is off-field.
+* Redmane's Blood's DoT will trigger effects that require taking DMG, such as [[Serpent Spine]]'s stack loss.
+* Redmane's Blood's DoT can be mitigated by [[shield]]s.
+** If Dehya is off-field, only one-character shields (e.g. Noelle's [[Devotion|1st Ascension Passive]], [[The Bell]]'s passive) will be able to mitigate DMG. Party-wide shields (e.g. [[Zhongli]]'s [[Dominus Lapidis|Elemental Skill]]) will ''not'' mitigate DMG for Dehya if she is off-field.
+* Redmane's Blood's DoT can be nullified by [[Elemental Burst]] [[i-frames]]. However, [[dash]] i-frames are ineffective.
+* If a hit brings Redmane's Blood above its maximum, this hit will still receive full DMG mitigation and Dehya will take all of the mitigated DMG.
+:<gallery>
+Talent Molten Inferno 2.png|Ranging Flame Icon
+</gallery>
+
+;<big>Passive Effects</big>
+* {{TalentNote|ascension|1|Unstinting Succor|character=Dehya|talent=Molten Inferno}}
+
+;<big>Constellation Effects</big>
+* {{TalentNote|constellation|1|The Flame Incandescent|"Dehya's Max [[HP]] is increased by 20%, and she deals bonus DMG based on her Max HP when using the following attacks:
+** [[Molten Inferno]]'s DMG will be increased by 3.6% of her Max HP.
+** [[Leonine Bite]]'s DMG will be increased by 6% of her Max HP."}}
+* {{TalentNote|constellation|2|The Sand-Blades Glittering}}
+* {{TalentNote|constellation|5|The Alpha Unleashed}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Indomitable Flame DMG
+|gu      = 1
+|icdtag  = none
+|poise   = 50
+|impulse = 4
+|blunt   = 1
+
+|title2   = Ranging Flame DMG
+|gu2      = 1
+|icdtag2  = none
+|poise2   = 50
+|impulse2 = Air, 100, 600
+|blunt2   = 1
+
+|title3   = Field DMG
+|gu3      = 1
+|icdtag3  = none
+|poise3   = 50
+|impulse3 = 2
+
+|title4   = DMG to Self
+|gu4      = —
+|icdtag4  = none
+|poise4   = 0
+|impulse4 = 0
+}}
+
+==Preview==
+{{Preview
+|file1    = Molten Inferno Preview
+|caption1 = Indomitable Flame and Ranging Flame
+
+|file2    = Molten Inferno Ranging Flame Preview
+|caption2 = Fiery Sanctum Coordinated Attack
+
+|file3    = Molten Inferno Redmane's Blood Preview
+|caption3 = Redmane's Blood
+}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|levels=13
+|order=indomitableflamedmg,rangingflamedmg,fielddmg,mitigation,redmane'sbloodmaximum,fieldduration,cd
+|titles=Indomitable Flame DMG,Ranging Flame DMG,Field DMG,Mitigation,Redmane's Blood Maximum,Field Duration,CD
+|indomitableflamedmg_1=112.88
+|indomitableflamedmg_2=121.35
+|indomitableflamedmg_3=129.81
+|indomitableflamedmg_4=141.1
+|indomitableflamedmg_5=149.57
+|indomitableflamedmg_6=158.03
+|indomitableflamedmg_7=169.32
+|indomitableflamedmg_8=180.61
+|indomitableflamedmg_9=191.9
+|indomitableflamedmg_10=203.18
+|indomitableflamedmg_11=214.47
+|indomitableflamedmg_12=225.76
+|indomitableflamedmg_13=239.87
+|rangingflamedmg_1=132.8
+|rangingflamedmg_2=142.76
+|rangingflamedmg_3=152.72
+|rangingflamedmg_4=166
+|rangingflamedmg_5=175.96
+|rangingflamedmg_6=185.92
+|rangingflamedmg_7=199.2
+|rangingflamedmg_8=212.48
+|rangingflamedmg_9=225.76
+|rangingflamedmg_10=239.04
+|rangingflamedmg_11=252.32
+|rangingflamedmg_12=265.6
+|rangingflamedmg_13=282.2
+|fielddmg_1=60.2 ATK+1.03 Max HP
+|fielddmg_2=64.72 ATK+1.11 Max HP
+|fielddmg_3=69.23 ATK+1.19 Max HP
+|fielddmg_4=75.25 ATK+1.29 Max HP
+|fielddmg_5=79.77 ATK+1.37 Max HP
+|fielddmg_6=84.28 ATK+1.44 Max HP
+|fielddmg_7=90.3 ATK+1.55 Max HP
+|fielddmg_8=96.32 ATK+1.65 Max HP
+|fielddmg_9=102.34 ATK+1.75 Max HP
+|fielddmg_10=108.36 ATK+1.86 Max HP
+|fielddmg_11=114.38 ATK+1.96 Max HP
+|fielddmg_12=120.4 ATK+2.06 Max HP
+|fielddmg_13=127.92 ATK+2.19 Max HP
+|mitigation_1=32
+|mitigation_2=34
+|mitigation_3=36
+|mitigation_4=38
+|mitigation_5=40
+|mitigation_6=42
+|mitigation_7=44
+|mitigation_8=46
+|mitigation_9=48
+|mitigation_10=50
+|mitigation_11=52
+|mitigation_12=54
+|mitigation_13=56
+|redmane'sbloodmaximum_1=200 Max HP
+|redmane'sbloodmaximum_2=200 Max HP
+|redmane'sbloodmaximum_3=200 Max HP
+|redmane'sbloodmaximum_4=200 Max HP
+|redmane'sbloodmaximum_5=200 Max HP
+|redmane'sbloodmaximum_6=200 Max HP
+|redmane'sbloodmaximum_7=200 Max HP
+|redmane'sbloodmaximum_8=200 Max HP
+|redmane'sbloodmaximum_9=200 Max HP
+|redmane'sbloodmaximum_10=200 Max HP
+|redmane'sbloodmaximum_11=200 Max HP
+|redmane'sbloodmaximum_12=200 Max HP
+|redmane'sbloodmaximum_13=200 Max HP
+|fieldduration_1=12s
+|fieldduration_2=12s
+|fieldduration_3=12s
+|fieldduration_4=12s
+|fieldduration_5=12s
+|fieldduration_6=12s
+|fieldduration_7=12s
+|fieldduration_8=12s
+|fieldduration_9=12s
+|fieldduration_10=12s
+|fieldduration_11=12s
+|fieldduration_12=12s
+|fieldduration_13=12s
+|cd_1=20s
+|cd_2=20s
+|cd_3=20s
+|cd_4=20s
+|cd_5=20s
+|cd_6=20s
+|cd_7=20s
+|cd_8=20s
+|cd_9=20s
+|cd_10=20s
+|cd_11=20s
+|cd_12=20s
+|cd_13=20s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Dehya}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Other Languages==
+{{Other Languages
+|en      = Molten Inferno
+|zhs     = 熔铁流狱
+|zhs_rm  = Róngtiě Liúyù
+|zht     = 熔鐵流獄
+|zht_rm  = Róngtiě Liúyù
+|zh_tl   = Molten Iron Inferno
+|ja      = 熔鉄流獄
+|ja_rm   = Youtetsu Ryuugoku{{assumed}}
+|ja_tl   = Molten Iron Inferno
+|ko      = 지옥불 용광로
+|ko_tl   = Hellfire Blast Furnace
+|es      = Fundición infernal
+|es_tl   = Infernal Foundry
+|fr      = Enfer en fusion
+|fr_tl   = Molten Hell
+|ru      = Расплавленное пекло
+|ru_tl   = Molten Inferno
+|th      = Molten Inferno
+|vi      = Địa Ngục Nóng Chảy
+|vi_tl   = 
+|de      = Inferno geschmolzenen Eisens
+|de_tl   = 
+|id      = Molten Inferno
+|pt      = Inferno Derretido
+|pt_tl   = 
+|tr      = Ateşten Kafes
+|tr_tl   = 
+|it      = Inferno colante
+|it_tl   = Dripping Inferno
+}}
+
+==Change History==
+{{Change History|3.5}}
+
+==Navigation==
+{{Talent Navbox|Dehya}}
+
+[[es:Fundición infernal]]
+[[fr:Enfer en fusion]]
+[[vi:Địa Ngục Nóng Chảy]]

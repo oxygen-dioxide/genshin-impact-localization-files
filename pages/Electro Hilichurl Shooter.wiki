@@ -1,35 +1,44 @@
 {{Enemy Infobox
 |image    = Enemy Electro Hilichurl Shooter.png
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = yes
 |family   = Hilichurls
 |type     = Common Enemies
 |group    = Hilichurl Shooters
 }}
-{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />These archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that hilichurl archers of exceptional skill can fire five crossbow bolts at once–a most impressive feat indeed.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Hilichurl Shooters}}
+===Items===
+{{Drops Table|type=Hilichurl Shooters}}
 
-==Stats==
-{{Enemy Stats|hp_ratio=.8|atk_ratio=.9|hp_type=1}}
-
-==Abilities and Attacks==
-*'''Aimed Shot:''' Charges as Electro energy accumulates on their arrowhead, before firing an arrow at the player, dealing '''150% ATK''' as {{Color|Electro DMG}}.
-**'''Enhanced:''' Some Hilichurl Shooters, mostly those in the [[Spiral Abyss]], [[Domains]], or overworld events/challenges, are capable of firing five bolts at a time, covering a ~45 degree arc in front of them.
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Electro Hilichurl Shooter Aimed Shot
-|caption1=Aimed Shot
-
-|file2=Electro Hilichurl Shooter Aimed Shot Enhanced
-|caption2=Aimed Shot (Enhanced)
+===Energy===
+{{Energy Drops
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
 }}
 
+==Stats==
+{{Enemy Stats|hp_ratio=.8|atk_ratio=1.35|hp_type=1}}
+
+==Abilities and Attacks==
+{{Enemy Attacks
+|name_1 = Thunder Arrow
+|file_1 = Electro Hilichurl Shooter Aimed Shot
+|desc_1 = Charges as Electro energy accumulates on their arrowhead, before firing an arrow at the player, dealing '''100% ATK''' as {{Color|Electro DMG}}.
+* '''Multishot:''' Some Hilichurl Shooters, mostly those in the [[Spiral Abyss]], [[Domains]], or overworld events/challenges, are capable of firing five arrows at a time, covering a ~45 degree arc in front of them.
+|caption_1 = Normal
+|file_1_2 = Electro Hilichurl Shooter Aimed Shot Enhanced
+|caption_1_2 = Multishot
+}}
+
+==Descriptions==
+{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />These archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that hilichurl archers of exceptional skill can fire five crossbow bolts at once–a most impressive feat indeed.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Electro Hilichurl Shooter Icon.png|Icon
 </gallery>
 
@@ -61,6 +70,10 @@ Enemy Electro Hilichurl Shooter Icon.png|Icon
 |id      = Electro Hilichurl Shooter
 |pt      = Hilichurl Atirador Electro
 |pt_tl   = 
+|tr      = Elektrik Dağ Yabanisi Nişancısı
+|tr_tl   = 
+|it      = Hilichurl balestriere di Electro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -69,6 +82,9 @@ Enemy Electro Hilichurl Shooter Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Elektro-Hilichurl-Schütze]]
 [[es:Hilichurl Ballestero Electro]]
-[[ru:Электро хиличурл-стрелок]]
+[[ja:ヒルチャール・雷矢]]
 [[pt-br:Hilichurl Atirador Electro]]
+[[ru:Электро хиличурл-стрелок]]
+[[th:Electro Hilichurl Shooter]]

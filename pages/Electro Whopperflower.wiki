@@ -1,6 +1,7 @@
 {{Enemy Infobox
 |image    = Enemy Electro Whopperflower.png
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = yes
 |family   = Mystical Beasts
 |group    = Whopperflowers
 |type     = Common Enemies
@@ -8,59 +9,82 @@
 |ability1 = Shield
 |ability2 = Invincibility Frames
 }}
-{{Description|Energetic mimetic Plant monsters that use Electro to attack their prey.<br />When fully-charged with Electro energy, they can unleash a strong electric current from their crowns. As such, some researchers have tried to apply them in other areas...|[[Archive]]}}
 {{Enemy Intro}}
 They might ambush players walking too close to inactive [[Thunder Sakura Bough]]s, and activate them when defeated. They may spawn if their mimic plants are picked.
 
 ==Drops==
-{{Drops|Whopperflowers}}
+===Items===
+{{Drops Table|type=Whopperflowers}}
+
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
 |resglobal    = 35%
 |electro_res  = 75%
 
-|res2         = Staggered
+|res2         = Stunned
 |electro_res2 = 50%
 |atk_ratio    = 2
 |hp_ratio     = 3
 |hp_type      = 1
 }}
 
+==Weak Point Location==
+<gallery>
+Electro Whopperflower Weak Point.png
+</gallery>
+* The weak point is disabled while shielded.
+
 ==Abilities and Attacks==
-*'''Burrow:''' Sinks into the ground and emerges nearby.
-*'''Ambush:''' If the player interacts with a disguised Electro Whopperflower, bursts from the ground, dealing '''300% ATK''' as {{Color|AoE Electro DMG}}.
-*'''Spin:''' If the player is within melee range, flattens while spinning its petals to deal '''50% ATK * 3''' as {{Color|AoE Electro DMG}} around itself.
-*'''Normal Attack: Orb Lay:''' Lobs out 3 orbs next to it that stay on the ground for a few seconds, dealing '''33% ATK''' as {{Color|AoE Electro DMG}} on landing and '''10% ATK''' as {{Color|Electro DMG}} to players that come in contact.
-*'''Charged Attack: Focused Laser:''' Closes its petals, consuming one of the "fruits" orbiting around it and creating a {{Electro}} [[Shields|shield]], giving it ~5 seconds to charge up its attack. If allowed to fully charge, it will bend over, point its top at the player, and charge up a laser blast that explodes 4 times, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} with each hit; however, the shield can be broken to prevent its attack and stun the Whopperflower for ~15 seconds.
-*'''Recharge:''' Once all three "fruits" are consumed, the Whopperflower will burrow into the ground and restore all three creating a visual AoE but will not deal any damage.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Burrow
+|desc_1 = Sinks into the ground and emerges nearby.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Electro Whopperflower Spin
-|caption1=Spin
+|name_2 = Ambush
+|desc_2 = If the player interacts with a disguised Electro Whopperflower, bursts from the ground, dealing '''300% ATK''' as {{Color|AoE Electro DMG}}.
 
-|file2=Electro Whopperflower Normal Attack
-|caption2=Normal Attack
+|name_3 = Spin
+|desc_3 = If the player is within melee range, flattens while spinning its petals to deal '''50% ATK * 3''' as {{Color|AoE Electro DMG}} around itself.
 
-|file3=Electro Whopperflower Charged Attack
-|caption3=Charged Attack
+|name_4 = Normal Attack: Orb Lay
+|desc_4 = Lobs out 3 orbs next to it that stay on the ground for a few seconds, dealing '''33% ATK''' as {{Color|AoE Electro DMG}} on landing and '''10% ATK''' as {{Color|Electro DMG}} to players that come in contact.
+|file_4 = Electro Whopperflower Normal Attack
 
-|file4=Electro Whopperflower Stunned
-|caption4=Stunned
+|name_5 = Charged Attack: Focused Laser
+|desc_5 = Closes its petals, consuming one of the "fruits" orbiting around it and creating a {{Electro}} [[Shields|shield]], giving it ~5 seconds to charge up its attack. If allowed to fully charge, it will bend over, point its top at the player, and charge up a laser blast that explodes 4 times, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} with each hit; however, the shield can be broken to prevent its attack and stun the Whopperflower for ~15 seconds.
+{{Elemental Shield Data|Electro|0.4}}
+|file_5 = Electro Whopperflower Charged Attack
+|file_5_2 = Electro Whopperflower Stunned
+|caption_5_2 = Stunned
+|strat_5 = Use any {{Cryo}}/{{Hydro}}/{{Pyro}}/{{Dendro}}/{{Anemo}}/{{Geo}} attack to destroy the shield instantly.
 
-|file5=Electro Whopperflower Recharge
-|caption5=Recharge
+|name_6 = Recharge
+|desc_6 = Once all three "fruits" are consumed, the Whopperflower will burrow into the ground and restore all three creating a visual AoE but will not deal any damage.
 }}
 
-==Strategy==
-*Their shields can be destroyed by any form of damage, but {{Hydro}}, {{Cryo}} and {{Pyro}} can destroy their shields the quickest through the [[Electro-Charged]], [[Superconduct]] and [[Overloaded]] reactions respectively. They are not immune to any form of damage when they do not have their shields.
+==Descriptions==
+{{Description|Energetic mimetic Plant monsters that use Electro to attack their prey.<br />When fully-charged with Electro energy, they can unleash a strong electric current from their crowns. As such, some researchers have tried to apply them in other areas...|[[Archive]]}}
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Electro Whopperflower Icon.png|Icon
 </gallery>
+
+==Locations==
+{{Transclude|Whopperflower|Electro Whopperflower}}
 
 ==Other Languages==
 {{Other Languages
@@ -87,10 +111,14 @@ Enemy Electro Whopperflower Icon.png|Icon
 |vi_tl   = Deceitful Flower - Electro
 |de      = Elektro-Vaniloqua
 |de_tl   = Electro Vaniloqua
-|de_note = Vaniloqua is Latin and means deceitful. Noticably the Electro Vaniloqua is not called "Giant" as the Cyro and Pyro variants.
+|de_note = Vaniloqua is Latin and means deceitful. Noticeably the Electro Vaniloqua is not called "Giant" as the Cryo and Pyro variants.
 |id      = Electro Whopperflower
 |pt      = Flor Gigante Electro
 |pt_tl   = Giant Flower Electro
+|tr      = Yalancı Elektrik Çiçeği
+|tr_tl   = 
+|it      = Malefiore di Electro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -99,6 +127,8 @@ Enemy Electro Whopperflower Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Gigantische Elektro-Vaniloqua]]
 [[es:Megaflora Electro]]
+[[ja:トリックフラワー・雷]]
 [[pt-br:Flor Gigante Electro]]
 [[uk:Електро капосна квітка]]

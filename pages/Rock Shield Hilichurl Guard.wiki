@@ -1,54 +1,63 @@
 {{Enemy Infobox
 |image    = Enemy Rock Shield Hilichurl Guard.png
 |type     = Common Enemies
+|dmgtype  = Physical
+|weakpoint = yes
 |element  = Geo
 |family   = Hilichurls
 |group    = Hilichurl Guards
 |ability1 = Shield
 |ability2 = Directional Shield
 }}
-{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Hardy hilichurls who have congregated in a region where Geo energies are abundant. Their impregnable shields have layers of rocky growths on them.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Hilichurls}}
+===Items===
+{{Drops Table|type=Hilichurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|hp_ratio=1|atk_ratio=1.8|hp_type=1}}
 
 ==Abilities and Attacks==
-* '''Geo Shield:''' The Rock Shield Hilichurl Guard is equipped with a {{Geo}} [[shield]], which blocks incoming DMG from the direction that it is facing. This shield can be damaged by [[Poise Damage]], and is weakest to [[Blunt Attack]]s.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Geo Shield
+|desc_1 = The Rock Shield Hilichurl Guard is equipped with a {{Geo}} [[shield]], which blocks incoming DMG from the direction that it is facing. This shield can be damaged by [[Poise Damage]], and is weakest to [[Blunt Attack]]s.
+{{Elemental Shield Data|Geo|8|cryoonly=1}}
+}}
 
 ===Shield Intact===
-*'''Smack:''' Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-
-===Preview===
-{{Preview
-|size=185px
-|file    = Rock Shield Hilichurl Guard Smack
-|caption = Smack
+{{Enemy Attacks
+|name_1 = Smack
+|desc_1 = Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 }}
 
 ===Shield Destroyed===
-*'''Smack:''' Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-*'''Charged Smack:''' Charges and swings its club at the player powerfully, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back.
-*'''Rapid Swings:''' Performs 3 consecutive swings at the player, dealing '''100% ATK''', '''100% ATK''', '''125% ATK''' with each swing as {{Color|Physical DMG}}.
+{{Enemy Attacks
+|name_1 = Smack
+|desc_1 = Swings its club at the player once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+|file_1 = Rock Shield Hilichurl Guard Smack Unshielded
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Rock Shield Hilichurl Guard Smack Unshielded
-|caption1 = Smack
+|name_2 = Charged Smack
+|desc_2 = Charges and swings its club at the player powerfully, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back.
 
-|file2    = Rock Shield Hilichurl Guard Charged Smack
-|caption2 = Charged Smack
-
-|file3    = Rock Shield Hilichurl Guard Rapid Swings
-|caption3 = Rapid Swings
+|name_3 = Rapid Swings
+|desc_3 = Performs 3 consecutive swings at the player, dealing '''100% ATK''', '''100% ATK''', '''125% ATK''' with each swing as {{Color|Physical DMG}}.
 }}
 
+==Descriptions==
+{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />Hardy hilichurls who have congregated in a region where Geo energies are abundant. Their impregnable shields have layers of rocky growths on them.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Rock Shield Hilichurl Guard Icon.png|Icon
 </gallery>
 
@@ -67,7 +76,7 @@ Enemy Rock Shield Hilichurl Guard Icon.png|Icon
 |ko_rm   = Dolbangpae Chyuchyu
 |ko_tl   = Stone-shield Hilichurl
 |es      = Hilichurl con Escudo de Piedra
-|es_tl   = 
+|es_tl   = Hilichurl with Stone Shield
 |fr      = Brutocollinus avec bouclier de pierre
 |fr_tl   = Hilichurl with Stone Shield
 |ru      = Хиличурл с каменным щитом
@@ -80,6 +89,10 @@ Enemy Rock Shield Hilichurl Guard Icon.png|Icon
 |id      = Rock Shield Hilichurl Guard
 |pt      = Hilichurl Guarda de Escudo de Pedra
 |pt_tl   = 
+|tr      = Taş Kalkanlı Dağ Yabanisi Muhafızı
+|tr_tl   = 
+|it      = Guardia Hilichurl con scudo di roccia
+|it_tl   = 
 }}
 
 ==Change History==
@@ -88,5 +101,9 @@ Enemy Rock Shield Hilichurl Guard Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Hilichurl mit Steinschild]]
 [[es:Hilichurl con Escudo de Piedra]]
+[[ja:ヒルチャール・岩盾]]
 [[pt-br:Hilichurl Guarda de Escudo de Pedra]]
+[[ru:Хиличурл с каменным щитом]]
+[[th:Rock Shield Hilichurl Guard]]

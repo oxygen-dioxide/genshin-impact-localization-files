@@ -5,29 +5,39 @@
 |family   = Elemental Lifeforms
 |group    = Slimes
 |location = Multiple
-|element  = Geo
+|dmgtype  = Physical
+|weakpoint = no
 }}
-{{Description|Small monsters created through the buildup of Geo within the earth.<br />Generally speaking, the crust of the earth is filled with Geo energy. Geo [[Slimes]] that are formed this way have a similarly "down-to-earth" sort of feeling.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Slimes}}
+===Items===
+{{Drops Table|type=Slimes (Small)}}
+
+===Energy===
+{{Energy Drops
+|type  = Geo
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|geo_res=Immune|hp_ratio=0.8|atk_ratio=.6|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Bump:''' Bumps into the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-
-===Preview===
-{{Preview
-|size=185px
-|file=Geo Slime Bump
-|caption=Bump
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Bump
+|desc_1 = Bumps into the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 }}
 
+==Descriptions==
+{{Description|Small monsters created through the buildup of Geo within the earth.<br />Generally speaking, the crust of the earth is filled with Geo energy. Geo [[Slimes]] that are formed this way have a similarly "down-to-earth" sort of feeling.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Geo Slime Icon.png|Icon
 </gallery>
 
@@ -59,6 +69,10 @@ Enemy Geo Slime Icon.png|Icon
 |id      = Geo Slime
 |pt      = Slime Geo
 |pt_tl   = Geo Slime
+|tr      = Toprak Bodurlopu
+|tr_tl   = 
+|it      = Melmoso di Geo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -67,5 +81,9 @@ Enemy Geo Slime Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Geo-Schleim]]
 [[es:Slime Geo]]
+[[fr:Géoblob]]
+[[ja:岩スライム]]
 [[pt-br:Slime Geo]]
+[[zh:岩史萊姆]]

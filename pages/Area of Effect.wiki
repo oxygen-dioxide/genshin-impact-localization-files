@@ -1,494 +1,611 @@
-{{Cleanup|Tables need clarification and reorganization so they can be more easily understood}}{{Terminology Infobox
+{{Terminology Infobox
 |type         = Combat
 }}
-'''Area of Effect''' (AoE) is a term used to describe abilities that affect a wide spatial range. These abilities can affect multiple targets usually within a fixed radius.<ref>Wowpedia: [https://wowpedia.fandom.com/wiki/Area_of_Effect Area of Effect]</ref>
+'''Area of Effect''', known as '''AoE''' in-game, is a term used to describe abilities that affect a wide spatial range. These abilities can affect multiple targets usually within a fixed radius.
 
-Within the game's source code, many of these AoE skills will usually have a "radius" parameter indicating its circular or spherical size (in [[meter]]s).
+AoEs have 3 possible shapes: Sphere, Cylinder, or Box.
 
-Many AoE effects in the game also have a vertical height. For example, in [[Version 2.1]] a height limit was added to [[Thunderwood]]'s AoE.
+==Examples==
+===Cylinder===
+{{Preview
+|size=200px
 
-==Elemental Reactions==
-Some [[Elemental Reactions]] have AoE effects:<ref>Interruption Resistance: [[Interruption Resistance/Data|Data]]</ref><ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/ConfigAbility_Element.json Elemental Reactions]</ref>
+|f1=Fantastic Voyage Preview
+|c1=Fantastic Voyage Inspiration Field (6m Radius)
 
-*[[Superconduct]] deals {{Color|AoE Cryo DMG}} within a 5 [[meter]] radius
-*[[Swirl]] spreads elemental auras within a 6-meter radius
-*[[Overloaded]] creates an AoE explosion within a 5-meter radius
+|f2=Kazuha Slash Preview
+|c2=Kazuha Slash Autumn Whirlwind Field (9m Radius)
+}}
 
-==Shapes and Types==
-Many AoE abilities are circular, cylindrical, or spherical in shape. Some are more conical, spreading out within a certain angle rather than a full 360 degrees.
+===Box===
+{{Preview
+|size=200px
 
-;Circular / Cylindrical field
-<gallery captionalign="center" hideaddbutton="true" widths=150>
-Fantastic_Voyage Preview.gif|Fantastic Voyage (Inspiration Field)
-Spirit Blade Chonghua's Layered Frost Preview.gif|Spirit Blade: Chonghua's Layered Frost (Chonghua Frost Field)
-Yoohoo Art Mujina Flurry Preview.gif|Yoohoo Art: Mujina Flurry (Muji-Muji Daruma)
-Dandelion Breeze Preview.gif|Dandelion Breeze (Dandelion Field)
-Celestial Shower Preview.gif|Celestial Shower (Sacred Cryo Pearl)
-Kazuha Slash Preview.gif|Kazuha Slash (Autumn Whirlwind)
-</gallery>
+|f1=Frostgnaw Preview
+|c1=Frostgnaw (4m × 8m)
 
-;Conical / rectangular
-<gallery captionalign="center" hideaddbutton="true" widths="150">
-Theater Mechanicus Stage of Wonders Elemental Skill.gif|Frostgnaw (rectangular)
-Guoba Attack Preview.gif|Guoba Attack (conical)
-Dawn Preview.gif|Dawn (phoenix has rectangular hitbox)
-</gallery>
+|f2=Gale Blade Press Preview
+|c2=Gale Blade (4m × 4.1m)
+}}
 
-;AoE Increase (buffs that increase the AoE of the character's attacks; center usually the player)
-<gallery captionalign="center" hideaddbutton="true" widths="150">
-Bane of All Evil Plunge Preview.gif|Bane of All Evil (Plunging)
-Sweeping Time Preview.gif|Sweeping Time (Geo conversion)
-</gallery>
+===Sphere===
+{{Preview
+|size=200px
 
-;360 degrees (rotation)
-<gallery captionalign="center" hideaddbutton="true" widths="150">
-Havoc Obliteration Melee Preview.gif|Havoc: Obliteration
-Spirit Soother Preview.gif|Spirit Soother
-</gallery>
+|f1=Nightrider Hold Preview
+|c1=Nightrider Summon (2m Radius)
 
-;Circular (area in front of caster)
-<gallery captionalign="center" hideaddbutton="true" widths="150">
-Fiery Rain Preview.gif|Fiery Rain
-Ryuukin Saxifrage Preview.gif|Ryuukin Saxifrage
-Planet Befall Preview.gif|Planet Befall
-</gallery>
+|f2=Explosive Puppet Press Preview
+|c2=Explosive Puppet Explosion (3m Radius)
+}}
 
-;[[Vacuum Field]]
-<gallery captionalign="center" hideaddbutton="true" widths="150">
-Wind's Grand Ode Preview.gif|Wind's Grand Ode (Stormeye)
-Forbidden Creation - Isomer 75 Type II Preview.gif|Forbidden Creation - Isomer 75 / Type II (Large Wind Spirit)
-</gallery>
+==Elemental Reaction AoE==
+Certain [[Transformative Reactions]] have spherical AoEs.
 
-;Other
-<gallery captionalign="center" hideaddbutton="true" widths="150">
-Stormbreaker Preview.gif|Stormbreaker (chain lightning between multiple enemies)
-</gallery>
-
-==Size Comparison==
-===Less than 5-6 meters===
-Most AoE effects from character talents in the game are less than 5–6 meters in radius.
-
-===Around 6-10 meters===
-These include character-deployed fields like:
-
-* Inspiration Field (Fantastic Voyage, Bennett's Burst)
-* Chonghua Frost Field (Spirit Blade: Chonghua's Layered Frost, Chongyun's Skill)
-* Drunken Mist (Signature Mix, Diona's Burst)
-* Dandelion Field (Dandelion Breeze, Jean's Burst)
-
-The radius for some character's bursts like Havoc: Obliteration (ranged) are also around 6 meters.
-
-The radius for Xiao's High Plunge AoE during Bane of All Evil is also around 6 meters.
-
-Other skills include:
-* Abiogenesis: Solar Isotoma AoE
-* Celestial Shower AoE
-* Chihayaburu (Hold) pulling AoE
-* Yoohoo Art: Mujina Flurry field
-
-===More than 10 meters===
-These include:
-
-* Wind's Grand Ode [[Vacuum Field]] pulling radius
-* Forbidden Creation - Isomer 75 / Type II [[Vacuum Field]] pulling radius
-
-==Character AoE Table==
-The following table is compiled from the source data and in-game testing.<ref>Source Data: [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/AvatarAbilities Avatar Abilities]</ref>
-
-{| class="wikitable sortable"
-!Character
-!Ability
-!data-sort-type=number| Radius (meters)
-!Notes
+{| class="fandom-table"
+! Elemental Reaction !! Radius (m)
 |-
-|Albedo<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Albedo.json Albedo]</ref>
-|E
-|10
-|Size of field
+| [[Burning]] || 1
 |-
-|Albedo
-|Q
-|8
-|Conical fan angle is 120 degrees
+| [[Superconduct]] || 5
 |-
-|Aloy
-|Q
-|
-|
+| [[Overloaded]] || 5
 |-
-|Amber
-|E
-|5
-|Explosion and taunting radius
+| [[Swirl]] || 6
 |-
-|Amber
-|Q
-|2
-|Passive 1 widens AoE by 30%. Center is in front of caster.
+| [[Bloom]] (Dendro Core) || 5
 |-
-|Bennett
-|Q
-|6
-|field
+| [[Burgeon]] || 5
 |-
-|Beidou
-|E
-|
-|
+| [[Hyperbloom]] || 1
 |-
-|Chongyun
-|E
-|8
-|The infusion can linger a little outside the field<!--The cryo field visually appears 6m in radius like Bennett's field, but the infusion can still linger just a little bit outside the field.--><!--there are some screenshots where Chongyun's field appears larger than Bennett's field-->
-|-
-|Chongyun
-|Q
-|3.5
-|In front of the caster
-|-
-|Diluc<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Diluc.json Diluc]</ref>
-|Q (slash)
-|6
-|Initial slashing radius is 6m.
-|-
-|Diluc
-|Q (phoenix)
-|8
-|The phoenix has a wingspan of 16m and a hitbox of 16m x 4m x 6m.
-|-
-|Diona
-|Q
-|6
-|field
-|-
-|Eula<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Eula.json Eula]</ref>
-|E
-|3.5
-|
-|-
-|Eula
-|Q (initial)
-|8
-|Initial Cryo hit. The beginning animation also has a poise damage radius of 4m.
-|-
-|Eula
-|Q (final)
-|6.5
-|Final explosion blast radius
-|-
-|Ganyu<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Ganyu.json Ganyu]</ref>
-|CA Lv. 2
-|5
-|Frostflake bloom radius is 5m. The bloom area also has a vertical height of 7.5m (can hit targets underneath).
-|-
-|Ganyu
-|E
-|4
-|Both the initial hit and ending explosion have a 4m AoE radius. The taunting range radius is 5m.
-|-
-|Ganyu
-|Q (field)
-|10
-|spherical radius of field
-|-
-|Ganyu
-|Q (icicle)
-|2.5
-|icicle shard AoE radius
-|-
-|Hu Tao
-|Q
-|6
-|The AoE is a circle around the player.
-|-
-|Jean
-|Q
-|6
-|field
-|-
-|Kaedehara Kazuha
-|E (Press)
-|6
-|pulling radius
-|-
-|Kaedehara Kazuha
-|E (Hold)
-|10
-|pulling radius
-|-
-|Kaedehara Kazuha
-|Plunging Attack (wind tunnel)
-|6
-|pulling radius of the wind tunnel created after plunging
-|-
-|Kaedehara Kazuha
-|Q
-|~6-7
-|field
-|-
-|Kaeya
-|E
-|8
-|Can hit enemies 8m in front of Kaeya, hitbox is 4m x 2.2m x 8m
-|-
-|Kaeya
-|Q
-|2
-|The icicles orbiting Kaeya form a circular AoE
-|-
-|Kamisato Ayaka
-|E
-|~3
-|
-|-
-|Kamisato Ayaka
-|Q
-|~3
-|
-|-
-|Mona<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Mona.json Mona]</ref>
-|E
-|5
-|DoT, final explosion, and taunting radius
-|-
-|Mona
-|Q
-|10
-|Will apply omen to enemies within 10m radius
-|-
-|Ningguang<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Ningguang.json Ningguang]</ref>
-|C4
-|10
-|Characters within 10m radius will have +10% elemental [[Resistance|RES]]
-|-
-|Noelle<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Noel.json Noelle]</ref>
-|Q
-|~5-6.5
-|Slashing radius; AoE increase
-|-
-|Qiqi
-|E
-|
-|The eyeball has a circular AoE and inflicts Cryo to anything it touches
-|-
-|Qiqi
-|Q
-|7
-|Circular AoE that marks enemies
-|-
-|Raiden Shogun
-|Q
-|~6-8
-|initial slash from [[Musou no Hitotachi]]
-|-
-|Raiden Shogun
-|Q + CA
-|~6-10{{Verify}}
-|horizontal reach of charged attack during burst stance
-|-
-|Rosaria
-|Q
-|6-6.5
-|initial hit is 6m, subsequent pulse DoT is 6.5m
-|-
-|Sangonomiya Kokomi
-|E
-|5-6
-|healing/damage radius
-|-
-|Sayu
-|Q
-|~8
-|
-|-
-|Sucrose
-|E
-|6
-|
-|-
-|Sucrose
-|Q
-|15
-|pulling radius
-|-
-|Tartaglia<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Tartaglia.json Tartaglia]</ref>
-|Riptide Flash
-|3
-|use bow charged attack on riptide-affected opponent
-|-
-|Tartaglia
-|Riptide Slash
-|3
-|use melee attack on riptide-affected opponent
-|-
-|Tartaglia
-|Riptide Burst
-|5
-|when kill riptide-affected opponent, spreads riptide within 5m radius
-|-
-|Tartaglia
-|Riptide Blast
-|5
-|use melee burst on riptide-affected opponent
-|-
-|Tartaglia
-|E (stance change)
-|3
-|
-|-
-|Tartaglia
-|Q (ranged)
-|6
-|in front of caster
-|-
-|Tartaglia
-|Q (melee)
-|8
-|Burst AoE is larger in melee stance, full circle (360 degrees)
-|-
-|Venti<ref>Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Venti.json Venti]</ref>
-|E (Press)
-|3-4.5
-|
-|-
-|Venti
-|E (Hold)
-|~6
-|
-|-
-|Venti
-|Q
-|15
-|pulling radius
-|-
-|Xiangling
-|E
-|5
-|Flame range starts at 5m. Conical fan angle is 60 degrees.
-|-
-|Xiangling
-|E (C1)
-|8
-|C1 Xiangling increases Gouba's flame range to 8m.
-|-
-|Xiangling
-|Q
-|5.5
-|The Pyronado orbits around the caster. The orbit radius is ~3m. The disc radius is ~2.5m. So Pyronado can hit enemies within a 5.5m radius.
-|-
-|Xiao
-|E
-|~5-7.5
-|Xiao will cover ~7.5m horizontal distance per dash. The "force radius" is 5m.
-|-
-|Xiao<ref name="xiao">Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Xiao.json Xiao]</ref>
-|Q, Plunging
-|6
-|AoE increase
-|-
-|Xinyan
-|Q
-|
-|
-|-
-|Yanfei
-|E
-|
-|Explosion radius
-|-
-|Yanfel
-|Q
-|
-|Circular AoE, center is the caster
-|-
-|Yoimiya
-|Q
-|~5-6
-|In front of the caster.
-|-
-|Zhongli<ref name="zl">Source Data: [https://github.com/Dimbreath/GenshinData/blob/master/BinOutput/Ability/Temp/AvatarAbilities/ConfigAbility_Avatar_Zhongli.json Zhongli]</ref>
-|E (resonance)
-|8
-|resonance radius, stele height ~4m
-|-
-|Zhongli
-|E (shield)
-|10
-|Enemies within 10m radius will have their [[Resistance|RES]] decreased by 20%
-|-
-|Zhongli
-|Q
-|7.5
-|~5m in front of caster
+| [[Bloom]] (Bountiful Core) || 6.5
 |}
 
-Other Notes:
-*The [[Plunging Attack]] AoE is usually less than 5 meters. During [[Bane of All Evil|Xiao's Elemental Burst]], his Plunging AoE is increased up to ~6 meters for high plunges.<ref name="xiao" /> See [[Plunging Attack]] for more details.
-*Zhongli's stele has a height of ~4m and a resonance radius of ~8m, slightly less than the radius of Albedo's Solar Isotoma (~10m). The vertical resonance range is also around 8m, measured from the base of the stele.<ref name="zl" />
-<gallery captionalign="center" hideaddbutton="true" widths="200">
-Dominus Lapidis Resonance Preview.gif
-</gallery>
-*The AoE for many other abilities such as claymore/polearm swings, catalyst charged attacks, etc. is usually within a 3m radius.
-*The auto-targeting range for some bow and catalyst users (such as Diona, Yanfei or Kokomi) is 15 meters.
+==Character AoE==
+{{See also|Vacuum Field#Vacuum Data|Targeting/Data}}
+Note that in the Unity game engine, the Y axis is the vertical axis. Therefore, for rectangular AoEs, the Y size is the height.
 
-==Enemy AoE Table==
-Various [[Enemies]] also have AoE abilities:
-
-{| class="wikitable sortable"
-!Enemy
-!Ability
-!data-sort-type=number| Radius (meters)
-!Type
-!Notes
+===Elemental Skills===
+{| class="sortable fandom-table"
+! Character !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Y !! Box Z !! Height
 |-
-|Anemo Samachurl
-|Vacuum
-|5 (Initial), 7.5 (Final)
-|Spherical (dome)
-|Pulls characters in toward the center of the vacuum
+| rowspan="2" | {{Character|Albedo|20|nobr=1}} || {{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}} (Activation) || Cylinder || 5 ||  ||  ||  ||  || 4
 |-
-|Dendro Samachurl
-|Dendro Field
-|5
-|Circular
-|Applies the Dendro element to anything in the field
+| {{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}} (Transient Blossom) || Sphere || 3.4 ||  ||  ||  ||  ||
 |-
-|Hydro Samachurl
-|Healing Rain Field
-|5
-|Circular (cylindrical)
-|Applies the Wet status to anything in its field
+| rowspan="4" | {{Character|Alhaitham|20|nobr=1}} || {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (Rush Attack) || Sphere || 2.25 ||  ||  ||  ||  ||
 |-
-|Hydro Mimic Frog/Finch
-|Explosion
-|
-|
-|The water bomb created has a circular AoE
+| {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (1-Mirror Projection Attack) || Box ||  ||  || 7 || 2.2 || 3 ||
 |-
-|Maguu Kenki
-|Vacuum
-|7
-|
-|
+| {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (2-Mirror Projection Attack) || Cylinder || 5.5 || 180 ||  ||  ||  || 2.2
 |-
-|Childe (boss)
-|Thunderbolt
-|
-|
-|
+| {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (3-Mirror Projection Attack) || Cylinder || 4 ||  ||  ||  ||  || 3
 |-
-|Childe (boss)
-|Summon whale
-|?
-|
-|Massive AoE
+| rowspan="2" | {{Character|Aloy|20|nobr=1}} || {{Talent|Frozen Wilds|20|nobr=1|type=1}} (Freeze Bomb) || Sphere || 4 ||  ||  ||  ||  ||
+|-
+| {{Talent|Frozen Wilds|20|nobr=1|type=1}} (Chillwater Bomblets) || Sphere || 2 ||  ||  ||  ||  ||
+|-
+| {{Character|Amber|20|nobr=1}} || {{Talent|Explosive Puppet|20|nobr=1|type=1}} || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Character|Arataki Itto|20|nobr=1}} || {{Talent|Masatsu Zetsugi: Akaushi Burst!|20|nobr=1|type=1}} || Cylinder || 3.5 ||  ||  ||  ||  || 3
+|-
+| {{Character|Barbara|20|nobr=1}} || {{Talent|Let the Show Begin♪|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  ||  || 0
+|-
+| rowspan="3" | {{Character|Beidou|20|nobr=1}} || {{Talent|Tidecaller|20|nobr=1|type=1}} (Not Charged) || Cylinder || 6 ||  ||  ||  ||  || 1.5
+|-
+| {{Talent|Tidecaller|20|nobr=1|type=1}} (Charge Level 1) || Cylinder || 7 ||  ||  ||  ||  || 1.5
+|-
+| {{Talent|Tidecaller|20|nobr=1|type=1}} (Charge Level 2) || Cylinder || 8 ||  ||  ||  ||  || 1.5
+|-
+| rowspan="6" | {{Character|Bennett|20|nobr=1}} || {{Talent|Passion Overload|20|nobr=1|type=1}} (Press) || Cylinder || 2.5 || 270 ||  ||  ||  || 2.5
+|-
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 2 A) || Cylinder || 2.5 ||  ||  ||  ||  || 2.5
+|-
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 2 B) || Box ||  ||  || 3 || 3 || 3 ||
+|-
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 3 A) || Cylinder || 2.5 ||  ||  ||  ||  || 2.5
+|-
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 3 B) || Box ||  ||  || 3 || 4 || 3 ||
+|-
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 3 C) || Cylinder || 3.5 ||  ||  ||  ||  || 2.5
+|-
+| rowspan="2" | {{Character|Candace|20|nobr=1}} || {{Talent|Sacred Rite: Heron's Sanctum|20|nobr=1|type=1}} (Press) || Box ||  ||  || 3 || 3 || 4.5 ||
+|-
+| {{Talent|Sacred Rite: Heron's Sanctum|20|nobr=1|type=1}} (Hold) || Cylinder || 3 ||  ||  ||  ||  || 4
+|-
+| rowspan="2" | {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Chonghua's Layered Frost|20|nobr=1|type=1}} || Sphere || 2.5 ||  ||  ||  ||  ||
+|-
+| {{Talent|Spirit Blade: Chonghua's Layered Frost|20|nobr=1|type=1}} (Field) || Cylinder || 8 ||  ||  ||  ||  || Infinite
+|-
+| {{Character|Cyno|20|nobr=1}} || {{Talent|Secret Rite: Chasmic Soulfarer|20|nobr=1|type=1}} (Burst) || Cylinder || 3.5 ||  ||  ||  ||  || 6
+|-
+| rowspan="3" | {{Character|Dehya|20|nobr=1}} || {{Talent|Molten Inferno|20|nobr=1|type=1}} (Indomitable Flame) || Cylinder || 5 ||  ||  ||  ||  || 4
+|-
+| {{Talent|Molten Inferno|20|nobr=1|type=1}} (Ranging Flame) || Cylinder || 6 ||  ||  ||  ||  || 4
+|-
+| {{Talent|Molten Inferno|20|nobr=1|type=1}} (Field) || Cylinder || 4.5 ||  ||  ||  ||  || 3
+|-
+| rowspan="3" | {{Character|Diluc|20|nobr=1}} || {{Talent|Searing Onslaught|20|nobr=1|type=1}} (1) || Box ||  ||  || 3 || 3 || 3.5 ||
+|-
+| {{Talent|Searing Onslaught|20|nobr=1|type=1}} (2) || Cylinder || 2.2 || 300 ||  ||  ||  || 3
+|-
+| {{Talent|Searing Onslaught|20|nobr=1|type=1}} (3) || Box ||  ||  || 3.5 || 3 || 4 ||
+|-
+| {{Character|Diona|20|nobr=1}} || {{Talent|Icy Paws|20|nobr=1|type=1}} || Sphere || 0.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Dori|20|nobr=1}} || {{Talent|Spirit-Warding Lamp: Troubleshooter Cannon|20|nobr=1|type=1}} (Troubleshooter Shot) || Sphere || 1 ||  ||  ||  ||  ||
+|-
+| {{Talent|Spirit-Warding Lamp: Troubleshooter Cannon|20|nobr=1|type=1}} (After-Sales Service Round) || Sphere || 1 ||  ||  ||  ||  ||
+|-
+| rowspan="3" | {{Character|Eula|20|nobr=1}} || {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Press) || Cylinder || 3.5 ||  ||  ||  ||  || 1.8
+|-
+| {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Hold) || Cylinder || 5.5 ||  ||  ||  ||  || 1.8
+|-
+| {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Icewhirl Brand) || Sphere || 3.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Faruzan|20|nobr=1}} || {{Talent|Wind Realm of Nasamjnin|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  ||  || 2
+|-
+| {{Talent|Wind Realm of Nasamjnin|20|nobr=1|type=1}} (Pressurized Collapse) || Sphere || 6 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Fischl|20|nobr=1}} || {{Talent|Nightrider|20|nobr=1|type=1}} (Summoning) || Sphere || 2 ||  ||  ||  ||  ||
+|-
+| {{Talent|Nightrider|20|nobr=1|type=1}} (Oz ATK) || Box ||  ||  || 0.1 || 0.1 || 1 ||
+|-
+| {{Character|Ganyu|20|nobr=1}} || {{Talent|Trail of the Qilin|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  ||  || 4
+|-
+| {{Character|Gorou|20|nobr=1}} || {{Talent|Inuzaka All-Round Defense|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  ||  || 4
+|-
+| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} (Activation Knockback) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Character|Jean|20|nobr=1}} || {{Talent|Gale Blade|20|nobr=1|type=1}} || Box ||  ||  || 4 || 2.4 || 4.1 ||
+|-
+| rowspan="2" | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} (Press) || Cylinder || 5 ||  ||  ||  ||  || 4
+|-
+| {{Talent|Chihayaburu|20|nobr=1|type=1}} (Press) || Cylinder || 9 ||  ||  ||  ||  || 4
+|-
+| {{Character|Kaeya|20|nobr=1}} || {{Talent|Frostgnaw|20|nobr=1|type=1}} || Box ||  ||  || 4 || 2.2 || 8 ||
+|-
+| {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Hyouka|20|nobr=1|type=1}} || Cylinder || 4.5 ||  ||  ||  ||  || 2.5
+|-
+| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} (Water Illusion) || Sphere || 3.5 ||  ||  ||  ||  ||
+|-
+| rowspan="3" | {{Character|Keqing|20|nobr=1}} || {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Lightning Stiletto) || Sphere || 1.6 ||  ||  ||  ||  ||
+|-
+| {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Slashing) || Cylinder || 3 ||  ||  ||  ||  || 3
+|-
+| {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Thunderclap Slash) || Sphere || 2.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Klee|20|nobr=1}} || {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} (Bounce) || Sphere || 4 ||  ||  ||  ||  ||
+|-
+| {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} (Mine) || Sphere || 2 ||  ||  ||  ||  ||
+|-
+| {{Character|Kujou Sara|20|nobr=1}} || {{Talent|Tengu Stormcall|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 3
+|-
+| {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Sanctifying Ring|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  ||  || 2
+|-
+| rowspan="2" | {{Character|Layla|20|nobr=1}} || {{Talent|Nights of Formal Focus|20|nobr=1|type=1}} (Activation) || Cylinder || 2.5 ||  ||  ||  ||  || 1.5
+|-
+| {{Talent|Nights of Formal Focus|20|nobr=1|type=1}} (Star Jade) || Sphere || 0.8 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Lisa|20|nobr=1}} || {{Talent|Violet Arc|20|nobr=1|type=1}} (Press) || Sphere || 1 ||  ||  ||  ||  ||
+|-
+| {{Talent|Violet Arc|20|nobr=1|type=1}} (Hold) || Sphere || 0.2 ||  ||  ||  ||  ||
+|-
+| {{Character|Mona|20|nobr=1}} || {{Talent|Mirror Reflection of Doom|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  ||  ||
+|-
+| {{Character|Nahida|20|nobr=1}} || {{Talent|All Schemes to Know|20|nobr=1|type=1}} (Press) || Cylinder || 4.6 ||  ||  ||  ||  || 3
+|-
+| rowspan="7" | {{Character|Nilou|20|nobr=1}} || {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Activation) || Cylinder || 2.5 ||  ||  ||  ||  || 3
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Sword Dance 1) || Box ||  ||  || 1.75 || 2 || 2.2 ||
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Sword Dance 2) || Cylinder || 1.8 ||  ||  ||  ||  || 1.6
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Whirling Steps 1) || Cylinder || 2.7 ||  ||  ||  ||  || 3
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Whirling Steps 2) || Cylinder || 2.7 ||  ||  ||  ||  || 3
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Water Wheel) || Box ||  ||  || 2.7 || 4 || 5.2 ||
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Tranquility Aura) || Cylinder || 2.5 ||  ||  ||  ||  || 3
+|-
+| {{Character|Ningguang|20|nobr=1}} || {{Talent|Jade Screen|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  ||  || 1.5
+|-
+| {{Character|Noelle|20|nobr=1}} || {{Talent|Breastplate|20|nobr=1|type=1}} || Cylinder || 2 ||  ||  ||  ||  || 2
+|-
+| {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Herald of Frost|20|nobr=1|type=1}} || Cylinder || 2.5 ||  ||  ||  ||  || 1.5
+|-
+| rowspan="2" | {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  ||  ||
+|-
+| {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}} (Coordinated Attack) || Sphere || 4 ||  ||  ||  ||  ||
+|-
+| rowspan="3" | {{Character|Razor|20|nobr=1}} || {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Press) || Cylinder || 2.4 || 240 ||  ||  ||  || 1.6
+|-
+| {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Burst Press) || Cylinder || 3 || 240 ||  ||  ||  || 1.6
+|-
+| {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Hold) || Sphere || 5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Rosaria|20|nobr=1}} || {{Talent|Ravaging Confession|20|nobr=1|type=1}} (1) || Box ||  ||  || 2 || 2.4 || 4 ||
+|-
+| {{Talent|Ravaging Confession|20|nobr=1|type=1}} (2) || Cylinder || 2.8 ||  ||  ||  ||  || 3
+|-
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|Kurage's Oath|20|nobr=1|type=1}} || Sphere || 6 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Press Kick) || Cylinder || 2.5 ||  ||  ||  ||  || 1.8
+|-
+| {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Hold Kick) || Cylinder || 3 ||  ||  ||  ||  || 2.5
+|-
+| {{Character|Shenhe|20|nobr=1}} || {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}} (Hold) || Sphere || 4 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Heartstopper Strike|20|nobr=1|type=1}} (No Conviction) || Box ||  ||  || 3 || 3 || 5 ||
+|-
+| {{Talent|Heartstopper Strike|20|nobr=1|type=1}} (Conviction) || Box ||  ||  || 4 || 3.5 || 6 ||
+|-
+| {{Character|Sucrose|20|nobr=1}} || {{Talent|Astable Anemohypostasis Creation - 6308|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 6
+|-
+| rowspan="2" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Activation) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Riptide Slash) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Character|Thoma|20|nobr=1}} || {{Talent|Blazing Blessing|20|nobr=1|type=1}} || Cylinder || 3 || 270 ||  ||  ||  || 2.5
+|-
+| {{Character|Tighnari|20|nobr=1}} || {{Talent|Vijnana-Phala Mine|20|nobr=1|type=1}} || Cylinder || 6 || 270 ||  ||  ||  || 3
+|-
+| {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Palm Vortex|20|nobr=1|type=1}} || Cylinder || 6 || 100 ||  ||  ||  || 2
+|-
+| {{Character|Traveler (Dendro)|20|nobr=1}} || {{Talent|Razorgrass Blade|20|nobr=1|type=1}} || Cylinder || 6.5 || 130 ||  ||  ||  || 2
+|-
+| {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Lightning Blade|20|nobr=1|type=1}} || Box ||  ||  || 0.1 || 0.1 || 0.6 ||
+|-
+| {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Starfell Sword|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  ||  || 2
+|-
+| rowspan="2" | {{Character|Venti|20|nobr=1}} || {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Press) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Hold) || Sphere || 6 ||  ||  ||  ||  ||
+|-
+| {{Character|Wanderer|20|nobr=1}} || {{Talent|Hanega: Song of the Wind|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 8
+|-
+| {{Character|Xiangling|20|nobr=1}} || {{Talent|Guoba Attack|20|nobr=1|type=1}} || Cylinder || 5 || 60 ||  ||  ||  || 2
+|-
+| {{Character|Xiao|20|nobr=1}} || {{Talent|Lemniscatic Wind Cycling|20|nobr=1|type=1}} || Sphere || 0.8 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} (1) || Cylinder || 3 ||  ||  ||  ||  || 1.5
+|-
+| {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} (2) || Box ||  ||  || 3.5 || 5 || 4.5 ||
+|-
+| rowspan="2" | {{Character|Xinyan|20|nobr=1}} || {{Talent|Sweeping Fervor|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  ||  || 1.6
+|-
+| {{Talent|Sweeping Fervor|20|nobr=1|type=1}} (DoT) || Cylinder || 3 ||  ||  ||  ||  || 2.2
+|-
+| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Yakan Evocation: Sesshou Sakura|20|nobr=1|type=1}} || Cylinder || 0.5 ||  ||  ||  ||  || 4
+|-
+| {{Character|Yanfei|20|nobr=1}} || {{Talent|Signed Edict|20|nobr=1|type=1}} || Sphere || 3.5 ||  ||  ||  ||  ||
+|-
+| {{Character|Yaoyao|20|nobr=1}} || {{Talent|Raphanus Sky Cluster|20|nobr=1|type=1}} || Sphere || 2 ||  ||  ||  ||  ||
+|-
+| rowspan="3" | {{Character|Yun Jin|20|nobr=1}} || {{Talent|Opening Flourish|20|nobr=1|type=1}} (Press) || Cylinder || 4 ||  ||  ||  ||  || 1.5
+|-
+| {{Talent|Opening Flourish|20|nobr=1|type=1}} (Charge Level 1) || Cylinder || 6 ||  ||  ||  ||  || 1.5
+|-
+| {{Talent|Opening Flourish|20|nobr=1|type=1}} (Charge Level 2) || Cylinder || 8 ||  ||  ||  ||  || 1.5
+|-
+| rowspan="3" | {{Character|Zhongli|20|nobr=1}} || {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Pillar Spawn) || Sphere || 2 ||  ||  ||  ||  ||
+|-
+| {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Resonance) || Box ||  ||  || 8 || 4 || 8 ||
+|-
+| {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Hold) || Cylinder || 10 ||  ||  ||  ||  || 10
 |}
 
-===Area of Effect Markers===
-[[File:Large Geo Slime Leap.gif|thumb|100px|A Large Geo Slime leaping. When the inner circle touches the outer circle, DMG is dealt to the area marked with the circle.]]
-AoE markers are sometimes present to indicate when an enemy will have reached a particular attack point on the ground.
-* AoE circles deal DMG when the inner circle touches the border. For example, a [[Large Geo Slime]]'s leap will have dealt Geo DMG when the inner circle precisely touches the outer circle. Freezing enemies can delay, but not stop, the AoE attack at that point, but some enemies like the [[Hydro Mimic Frog]] deal AoE DMG ''before'' touching the ground. If the AoE is large enough, not even [[dash]] [[i-frames]] can negate DMG effects.
-* AoE rectangles deal DMG after showing their attack course. For example, the [[Thunder Manifestation]], when it casts its "Dive Bomb" attack, will have markers indicating the direction and AoE of the attack.
+===Elemental Bursts===
+{| class="sortable fandom-table"
+! Character !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Y !! Box Z !! Height
+|-
+| rowspan="2" | {{Character|Albedo|20|nobr=1}} || {{Talent|Rite of Progeniture: Tectonic Tide|20|nobr=1|type=1}} (Activation) || Cylinder || 8 || 120 ||  ||  ||  || 5.4
+|-
+| {{Talent|Rite of Progeniture: Tectonic Tide|20|nobr=1|type=1}} (Fatal Blossom) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Character|Alhaitham|20|nobr=1}} || {{Talent|Particular Field: Fetters of Phenomena|20|nobr=1|type=1}} || Cylinder || 6.8 ||  ||  ||  ||  || 8
+|-
+| {{Character|Aloy|20|nobr=1}} || {{Talent|Prophecies of Dawn|20|nobr=1|type=1}} || Sphere || 6.5 ||  ||  ||  ||  ||
+|-
+| {{Character|Amber|20|nobr=1}} || {{Talent|Fiery Rain|20|nobr=1|type=1}} || Sphere || 2 ||  ||  ||  ||  ||
+|-
+| {{Character|Beidou|20|nobr=1}} || {{Talent|Stormbreaker|20|nobr=1|type=1}} (Activation) || Cylinder || 4 ||  ||  ||  ||  || 2
+|-
+| rowspan="2" | {{Character|Bennett|20|nobr=1}} || {{Talent|Fantastic Voyage|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 0
+|-
+| {{Talent|Fantastic Voyage|20|nobr=1|type=1}} (Field) || Cylinder || 8 ||  ||  ||  ||  || Infinite
+|-
+| {{Character|Candace|20|nobr=1}} || {{Talent|Sacred Rite: Wagtail's Tide|20|nobr=1|type=1}} || Sphere || 3.5 ||  ||  ||  ||  ||
+|-
+| {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Cloud-Parting Star|20|nobr=1|type=1}} || Sphere || 3.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Collei|20|nobr=1}} || {{Talent|Trump-Card Kitty|20|nobr=1|type=1}} (Activation) || Cylinder || 5.5 ||  ||  ||  ||  || 6
+|-
+| {{Talent|Trump-Card Kitty|20|nobr=1|type=1}} (Leap) || Sphere || 4 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Dehya|20|nobr=1}} || {{Talent|Leonine Bite|20|nobr=1|type=1}} (Flame-Mane's Fist) || Box ||  ||  || 5 || 4 || 7.8 ||
+|-
+| {{Talent|Leonine Bite|20|nobr=1|type=1}} (Incineration Drive) || Cylinder || 6.5 ||  ||  ||  ||  || 4
+|-
+| rowspan="3" | {{Character|Diluc|20|nobr=1}} || {{Talent|Dawn|20|nobr=1|type=1}} (Slashing) || Box ||  ||  || 16 || 4 || 6 ||
+|-
+| {{Talent|Dawn|20|nobr=1|type=1}} (DoT) || Box ||  ||  || 16 || 4 || 8 ||
+|-
+| {{Talent|Dawn|20|nobr=1|type=1}} (Explosion) || Box ||  ||  || 16 || 6 || 10 ||
+|-
+| rowspan="3" | {{Character|Diona|20|nobr=1}} || {{Talent|Signature Mix|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  ||  || 0
+|-
+| {{Talent|Signature Mix|20|nobr=1|type=1}} (DoT) || Cylinder || 6.5 ||  ||  ||  ||  || 0
+|-
+| {{Talent|Signature Mix|20|nobr=1|type=1}} (Field) || Cylinder || 7 ||  ||  ||  ||  || Infinite
+|-
+| {{Character|Dori|20|nobr=1}} || {{Talent|Alcazarzaray's Exactitude|20|nobr=1|type=1}} || Box ||  ||  || 1 || 1 ||  ||
+|-
+| rowspan="2" | {{Character|Eula|20|nobr=1}} || {{Talent|Glacial Illumination|20|nobr=1|type=1}} (Activation) || Cylinder || 8 ||  ||  ||  ||  || 3
+|-
+| {{Talent|Glacial Illumination|20|nobr=1|type=1}} (Lightfall Sword) || Sphere || 6.5 ||  ||  ||  ||  ||
+|-
+| {{Character|Faruzan|20|nobr=1}} || {{Talent|The Wind's Secret Ways|20|nobr=1|type=1}} || Sphere || 6.3 ||  ||  ||  ||  ||
+|-
+| {{Character|Fischl|20|nobr=1}} || {{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}} (Falling Thunder) || Sphere || 0.5 ||  ||  ||  ||  ||
+|-
+| {{Character|Ganyu|20|nobr=1}} || {{Talent|Celestial Shower|20|nobr=1|type=1}} (Shards) || Sphere || 2.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Gorou|20|nobr=1}} || {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Activation) || Cylinder || 5 ||  ||  ||  ||  || 4
+|-
+| {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Crystal Collapse) || Cylinder || 3.5 ||  ||  ||  ||  || 3
+|-
+| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Spirit Soother|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 3
+|-
+| rowspan="2" | {{Character|Jean|20|nobr=1}} || {{Talent|Dandelion Breeze|20|nobr=1|type=1}} (Activation) || Cylinder || 6 ||  ||  ||  ||  || 0
+|-
+| {{Talent|Dandelion Breeze|20|nobr=1|type=1}} (Entering/Exiting) ||  ||  ||  ||  ||  ||  ||
+|-
+| {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Kazuha Slash|20|nobr=1|type=1}} || Cylinder || 9 ||  ||  ||  ||  || 4
+|-
+| {{Character|Kaeya|20|nobr=1}} || {{Talent|Glacial Waltz|20|nobr=1|type=1}} || Sphere || 2 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}} (Cutting) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}} (Bloom) || Sphere || 5 ||  ||  ||  ||  ||
+|-
+| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Suiyuu|20|nobr=1|type=1}} (Bloomwater Blade) || Cylinder || 3.5 ||  ||  ||  ||  || 2.5
+|-
+| {{Character|Keqing|20|nobr=1}} || {{Talent|Starward Sword|20|nobr=1|type=1}} || Cylinder || 8 ||  ||  ||  ||  || 4
+|-
+| {{Character|Klee|20|nobr=1}} || {{Talent|Sparks 'n' Splash|20|nobr=1|type=1}} || Sphere || 1.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Kujou Sara|20|nobr=1}} || {{Talent|Subjugation: Koukou Sendou|20|nobr=1|type=1}} (Titanbreaker) || Cylinder || 6 ||  ||  ||  ||  || 3
+|-
+| {{Talent|Subjugation: Koukou Sendou|20|nobr=1|type=1}} (Stormcluster) || Cylinder || 3 ||  ||  ||  ||  || 3
+|-
+| {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Gyoei Narukami Kariyama Rite|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  ||  || 4.5
+|-
+| {{Character|Layla|20|nobr=1}} || {{Talent|Dream of the Star-Stream Shaker|20|nobr=1|type=1}} || Sphere || 1.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Rose|20|nobr=1|type=1}} (Activation) || Cylinder || 7 ||  ||  ||  ||  || 0
+|-
+| {{Talent|Lightning Rose|20|nobr=1|type=1}} (DoT) || Sphere || 1 ||  ||  ||  ||  ||
+|-
+| {{Character|Mona|20|nobr=1}} || {{Talent|Stellaris Phantasm|20|nobr=1|type=1}} (Activation) || Sphere || 10 ||  ||  ||  ||  ||
+|-
+| {{Character|Ningguang|20|nobr=1}} || {{Talent|Starshatter|20|nobr=1|type=1}} || Sphere || 0.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Noelle|20|nobr=1}} || {{Talent|Sweeping Time|20|nobr=1|type=1}} (Hit 1) || Cylinder || 6.5 ||  ||  ||  ||  || 1.5
+|-
+| {{Talent|Sweeping Time|20|nobr=1|type=1}} (Hit 2) || Cylinder || 4 ||  ||  ||  ||  || 1.5
+|-
+| {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Preserver of Fortune|20|nobr=1|type=1}} || Cylinder || 7 ||  ||  ||  ||  || 0
+|-
+| {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Activation) || Box ||  ||  || 13 || 4.5 || 8 ||
+|-
+| {{Character|Razor|20|nobr=1}} || {{Talent|Lightning Fang|20|nobr=1|type=1}} (Activation) || Sphere || 5 ||  ||  ||  ||  ||
+|-
+| rowspan="3" | {{Character|Rosaria|20|nobr=1}} || {{Talent|Rites of Termination|20|nobr=1|type=1}} (Activation 1) || Cylinder || 3.5 ||  ||  ||  ||  || 2
+|-
+| {{Talent|Rites of Termination|20|nobr=1|type=1}} (Activation 2) || Cylinder || 6.5 ||  ||  ||  ||  || 3
+|-
+| {{Talent|Rites of Termination|20|nobr=1|type=1}} (DoT) || Cylinder || 6 ||  ||  ||  ||  || 4
+|-
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|Nereid's Ascension|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}} (Activation) || Cylinder || 4.5 ||  ||  ||  ||  || 3
+|-
+| {{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}} (DoT) || Cylinder || 3.5 ||  ||  ||  ||  || 2.5
+|-
+| rowspan="2" | {{Character|Shenhe|20|nobr=1}} || {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (Activation) || Cylinder || 8 || 120 ||  ||  ||  || 5.4
+|-
+| {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (DoT) || Cylinder || 7 ||  ||  ||  ||  || 6
+|-
+| rowspan="2" | {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Windmuster Kick|20|nobr=1|type=1}} (Fudou Style Vacuum Slugger) || Sphere || 6 ||  ||  ||  ||  ||
+|-
+| {{Talent|Windmuster Kick|20|nobr=1|type=1}} (Windmuster Iris) || Sphere || 2.5 ||  ||  ||  ||  ||
+|-
+| {{Character|Sucrose|20|nobr=1}} || {{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  ||  || 8
+|-
+| rowspan="3" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Ranged) || Cylinder || 6 ||  ||  ||  ||  || 4
+|-
+| {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Melee) || Cylinder || 8 ||  ||  ||  ||  || 5
+|-
+| {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Riptide Blast) || Sphere || 5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Thoma|20|nobr=1}} || {{Talent|Crimson Ooyoroi|20|nobr=1|type=1}} (Activation) || Cylinder || 4 ||  ||  ||  ||  || 0
+|-
+| {{Talent|Crimson Ooyoroi|20|nobr=1|type=1}} (Fiery Collapse) || Box ||  ||  || 4.5 || 2 || 8 ||
+|-
+| {{Character|Tighnari|20|nobr=1}} || {{Talent|Fashioner's Tanglevine Shaft|20|nobr=1|type=1}} || Sphere || 1 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Gust Surge|20|nobr=1|type=1}} (DoT) || Box ||  ||  || 3 || 7 || 3 ||
+|-
+| {{Talent|Gust Surge|20|nobr=1|type=1}} (DoT Absorbed Element) || Box ||  ||  || 2.5 || 7 || 2.5 ||
+|-
+| {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Wake of Earth|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 1.5
+|-
+| rowspan="3" | {{Character|Traveler (Dendro)|20|nobr=1}} || {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Normal/Electro) || Cylinder || 2 ||  ||  ||  ||  || 3.8
+|-
+| {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Hydro) ||  Cylinder || 4 ||  ||  ||  ||  || 3.8
+|-
+| {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Pyro) ||  Cylinder || 6.5 ||  ||  ||  ||  || 3
+|-
+| rowspan="2" | {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Bellowing Thunder|20|nobr=1|type=1}} (Activation) || Sphere || 5 ||  ||  ||  ||  ||
+|-
+| {{Talent|Bellowing Thunder|20|nobr=1|type=1}} (Falling Thunder) || Sphere || 2 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Venti|20|nobr=1}} || {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} (DoT) || Sphere || 4 ||  ||  ||  ||  ||
+|-
+| {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} (DoT Absorbed Element) || Sphere || 6 ||  ||  ||  ||  ||
+|-
+| {{Character|Wanderer|20|nobr=1}} || {{Talent|Kyougen: Five Ceremonial Plays|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  ||  || 10
+|-
+| rowspan="2" | {{Character|Xiangling|20|nobr=1}} || {{Talent|Pyronado|20|nobr=1|type=1}} (Activation 1, 2) || Cylinder || 2.5 ||  ||  ||  ||  || 0
+|-
+| {{Talent|Pyronado|20|nobr=1|type=1}} (Activation 3) || Cylinder || 3 ||  ||  ||  ||  || 0
+|-
+| {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}} || Sphere || 0.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Xinyan|20|nobr=1}} || {{Talent|Riff Revolution|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  ||  || 1.6
+|-
+| {{Talent|Riff Revolution|20|nobr=1|type=1}} (DoT) || Cylinder || 4 ||  ||  ||  ||  || 1.6
+|-
+| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1|type=1}} || Cylinder || 7 ||  ||  ||  ||  || 5
+|-
+| {{Character|Yanfei|20|nobr=1}} || {{Talent|Done Deal|20|nobr=1|type=1}} || Cylinder || 6.5 ||  ||  ||  ||  || 1.5
+|-
+| rowspan="2" | {{Character|Yaoyao|20|nobr=1}} || {{Talent|Moonjade Descent|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  ||  || 3
+|-
+| {{Talent|Moonjade Descent|20|nobr=1|type=1}} (Adeptal Legacy White Jade Radish) || Sphere || 2 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Depth-Clarion Dice|20|nobr=1|type=1}} (Activation) || Cylinder || 6 ||  ||  ||  ||  || 5
+|-
+| {{Talent|Depth-Clarion Dice|20|nobr=1|type=1}} (Coordinated Attacks) || Sphere || 0.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Yoimiya|20|nobr=1}} || {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} || Sphere || 6 ||  ||  ||  ||  ||
+|-
+| {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} (Aurous Blaze) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Character|Yun Jin|20|nobr=1}} || {{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 4
+|-
+| {{Character|Zhongli|20|nobr=1}} || {{Talent|Planet Befall|20|nobr=1|type=1}} || Sphere || 7.5 ||  ||  ||  ||  ||
+|}
+
+===Other Notable Abilities===
+{| class="sortable fandom-table"
+! Character !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Y !! Box Z !! Height
+|-
+| {{Character|Barbara|20|nobr=1}} || {{Talent|Whisper of Water|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Character|Ganyu|20|nobr=1}} || {{Talent|Liutian Archery|20|nobr=1|type=1}} (Frostflake Arrow Bloom) || Cylinder || 5 ||  ||  ||  ||  || 7.5
+|-
+| {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Touch|20|nobr=1|type=1}} (Charged Attack) || Cylinder || 10 || 40 ||  ||  ||  || 10
+|-
+| {{Character|Klee|20|nobr=1}} || {{Talent|Kaboom!|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Character|Mona|20|nobr=1}} || {{Talent|Ripple of Fate|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Character|Nahida|20|nobr=1}} || {{Talent|Akara|20|nobr=1|type=1}} (Charged Attack) || Box ||  ||  || 6 || 6 || 6 ||
+|-
+| rowspan="2" | {{Character|Ningguang|20|nobr=1}} || {{Talent|Sparkling Scatter|20|nobr=1|type=1}} (Charged Attack) || Sphere || 1.5 ||  ||  ||  ||  ||
+|-
+| {{Talent|Sparkling Scatter|20|nobr=1|type=1}} (Star Jade) || Sphere || 0.5 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|The Shape of Water|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3.5 ||  ||  ||  ||  ||
+|-
+| {{Talent|The Shape of Water|20|nobr=1|type=1}} (Charged Attack, During Burst) || Sphere || 4 ||  ||  ||  ||  ||
+|-
+| {{Character|Sucrose|20|nobr=1}} || {{Talent|Wind Spirit Creation|20|nobr=1|type=1}} (Charged Attack) || Box ||  ||  || 3.2 || 3 || 7.5 ||
+|-
+| rowspan="2" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Cutting Torrent|20|nobr=1|type=1}} (Riptide Flash) || Sphere || 3 ||  ||  ||  ||  ||
+|-
+| {{Talent|Cutting Torrent|20|nobr=1|type=1}} (Riptide Burst) || Sphere || 5 ||  ||  ||  ||  ||
+|-
+| {{Character|Tighnari|20|nobr=1}} || {{Talent|Khanda Barrier-Buster|20|nobr=1|type=1}} (Clusterbloom Arrows) || Sphere || 1 ||  ||  ||  ||  ||
+|-
+| rowspan="2" | {{Character|Wanderer|20|nobr=1}} || {{Talent|Yuuban Meigen|20|nobr=1|type=1}} (Charged Attack) || Cylinder || 2.5 ||  ||  ||  ||  || 7
+|-
+| {{Talent|Yuuban Meigen|20|nobr=1|type=1}} (Charged Attack, During Skill) || Cylinder || 3.5 ||  ||  ||  ||  || 8
+|-
+| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Spiritfox Sin-Eater|20|nobr=1|type=1}} (Charged Attack) || Box ||  ||  || 2 || 3.2 || 2 ||
+|-
+| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Stealthy Bowshot|20|nobr=1|type=1}} (Breakthrough Barb) || Sphere || 6 ||  ||  ||  ||  ||
+|-
+| {{Constellation|Winner Takes All|20|nobr=1|type=1}} (Special Breakthrough Barb) || Sphere || 4 ||  ||  ||  ||  ||
+|-
+| {{Character|Yoimiya|20|nobr=1}} || {{Talent|Firework Flare-Up|20|nobr=1|type=1}} (Kindling Arrow) || Sphere || 0.6 ||  ||  ||  ||  ||
+|}
+
+==Enemy AoE==
+Various [[Enemies]] also have AoE abilities. Due to the large amount of enemies, the table below will only list certain notable examples.
+
+{| class="sortable fandom-table"
+! Enemy !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Y !! Box Z !! Height
+|-
+| {{Enemy|Hydro Samachurl|20}} || Soothing Rain || Cylinder || 5 ||  ||  ||  ||  || Infinite
+|-
+| {{Enemy|Hydro Mimic Finch|20}}<br />{{Enemy|Hydro Mimic Frog|20}} || Water Bomb || Cylinder || 30 ||  ||  ||  ||  || 3
+|-
+| {{Enemy|Treasure Hoarder Potioneers|20}} || Molotov DoT || Sphere || 1.5 ||  ||  ||  ||  ||
+|-
+| {{Enemy|Slimes|20}} || Leap || Cylinder || 2 ||  ||  ||  ||  || 1.5
+|-
+| {{Enemy|Maguu Kenki|20}} || Exploding Mask || Cylinder || 5 ||  ||  ||  ||  || 3
+|-
+| {{Enemy|Perpetual Mechanical Array|20}} || Rocket Blast || Cylinder || 3.5 ||  ||  ||  ||  || 0
+|-
+| {{Enemy|Primo Geovishap|20}} || Primordial Shower || Cylinder || 20 ||  ||  ||  ||  || 3
+|-
+| {{Enemy|La Signora|20}} || Hailstorm || Box ||  ||  || 5 || 4 || 15 ||
+|}
+
+==Weapon AoE==
+{| class="sortable fandom-table"
+! Weapon !! Shape !! Radius !! Height
+|-
+| {{Item|Fillet Blade|20|type=Weapon}} || Direct Damage ||  ||
+|-
+| {{Item|The Flute|20|type=Weapon}} || Sphere || 4 ||
+|-
+| {{Item|Sword of Descension|20|type=Weapon}} || Cylinder || 1.5 || 0
+|-
+| {{Item|Aquila Favonia|20|type=Weapon}} || Cylinder || 6 || 0
+|-
+| {{Item|Skyward Blade|20|type=Weapon}} || Direct Damage ||  ||
+|-
+| {{Item|Debate Club|20|type=Weapon}} || Cylinder || 3 || 0
+|-
+| {{Item|Prototype Archaic|20|type=Weapon}} || Cylinder || 3 || 0
+|-
+| {{Item|Skyward Pride|20|type=Weapon}} || Direct Damage ||  ||
+|-
+| {{Item|Halberd|20|type=Weapon}} || Direct Damage ||  ||
+|-
+| {{Item|Crescent Pike|20|type=Weapon}} || Direct Damage ||  ||
+|-
+| {{Item|Skyward Spine|20|type=Weapon}} || Cylinder || 0.1 || 0
+|-
+| {{Item|Eye of Perception|20|type=Weapon}} || Sphere || 0.6 ||
+|-
+| {{Item|Dragonspine Spear|20|type=Weapon}} || Cylinder || 3 || 2
+|-
+| {{Item|Frostbearer|20|type=Weapon}} || Cylinder || 3 || 2
+|-
+| {{Item|Snow-Tombed Starsilver|20|type=Weapon}} || Cylinder || 3 || 2
+|-
+| {{Item|Skyward Atlas|20|type=Weapon}} || Sphere || 1.2 ||
+|-
+| {{Item|Messenger|20|type=Weapon}} || Direct Damage ||  ||
+|-
+| {{Item|The Viridescent Hunt|20|type=Weapon}} || Cylinder || 3 || 0
+|-
+| {{Item|Skyward Harp|20|type=Weapon}} || Direct Damage ||  ||
+|-
+| {{Item|Luxurious Sea-Lord|20|type=Weapon}} || Cylinder || 3 || 0
+|-
+| {{Item|Kagotsurube Isshin|20|type=Weapon}} || Cylinder || 3 || 0
+|-
+| {{Item|End of the Line|20|type=Weapon}} || Cylinder || 2.5 || 0
+|}
 
 ==Environmental Effects==
 Some [[Ley Line Disorders]] and other contraptions that appear in the environment, domains, or events have AoE effects as well.
@@ -521,76 +638,53 @@ Some [[Ley Line Disorders]] and other contraptions that appear in the environmen
 ===Constellations===
 {{Constellations by Category Table|AoE Increase Constellations}}
 
-==AoE DMG==
-Note that many [[Charged Attack]]s and [[Plunging Attack]]s can do AoE DMG. The following lists other talents that have AoE effects (usually explicitly stated in the description). Note that many other abilities can hit multiple enemies and have some local AoE as well (within a 1-3 meter radius).
-
-===Talents===
-{{Talents by Category Table|AoE Talents|collapsed=1}}
-
-===Constellations===
-{{Constellations by Category Table|AoE Constellations}}
-
-===Weapons===
+==Weapons==
 Some weapons have AoE passive effects.
 {{Weapons by Category Table|AoE Passive Weapons}}
 
-===Comparison===
-{{See also|Interruption Resistance/Data}}
-''Information sourced from [https://github.com/Dimbreath/GenshinData/tree/master/BinOutput/Ability/Temp/EquipAbilities Source Data for Weapon Abilities]''
-
-Meaning of terms:
-
-*'''Heavy, 500, 0''' means that the attack uses a special force, which has '''Heavy''' Stagger Level, '''500''' Horizontal Force and '''0''' Vertical Force.
-
-{| class="wikitable sortable"
-!Weapon!!Ability!!Poise Damage!!Force Level
-|-
-|Fillet Blade||Directly Damage||50||Default
-|-
-|The Flute||AoE (4 m)||100|| 2
-|-
-|Sword of Descension||AoE (1.5 m)||25||2
-|-
-|Aquila Favonia||AoE (6 m) || 25||3
-|-
-|Skyward Blade||Directly Damage||0|| Default
-|-
-| Debate Club|| AoE (3 m)|| 50|| 2
-|-
-|Prototype Archaic||AoE (3 m)||100||2
-|-
-|Aquila Favonia||AoE (3 m)||20||Heavy, 500, 0
-|-
-|Skyward Pride||Directly Damage||50||2
-|-
-|Halberd||Directly Damage||50||2
-|-
-|Crescent Pike||Directly Damage||30 ||Default
-|-
-|Dragon's Bane||AoE (3 m)||20||Heavy, 500, 0
-|-
-|Skyward Spine||AoE (0.1 m)|| 50||2
-|-
-|Eye of Perception||AoE (0.6 m)||36 || 2
-|-
-|Frostbearer||AoE (3 m)||20|| Heavy, 500, 0
-|-
-|Skyward Atlas||AoE (1.2 m)||20||2
-|-
-|Messenger|| Directly Damage||20||Default
-|-
-|The Viridescent Hunt||AoE (3 m) || 0||2
-|-
-|Skyward Harp||Directly Damage ||20||2
-|}
+==Other Languages==
+{{Other Languages
+|en      = {{tt|AoE|Area of Effect}}
+|zhs     = 影响范围
+|zhs_rm  = Yǐngxiǎng Fànwéi
+|zht     = 影響範圍
+|zht_rm  = Yǐngxiǎng Fànwéi
+|zh_tl   = Effect Range
+|ja      = 影響範囲
+|ja_rm   = Eikyou Han'i
+|ja_tl   = Effect Range
+|ko      = {{tt|영향|影響}} {{tt|범위|範圍}}
+|ko_rm   = Yeonghyang Beomwi
+|ko_tl   = Effect Range
+|es      = {{tt|AdE|Área de Efecto}}
+|es_tl   = {{tt|AoE|Area of Effect}}
+|fr      = Zone d'effet
+|fr_tl   = Area of Effect
+|ru      = Зона поражения
+|ru_tl   = Hit Area
+|th      = พื้นที่ผลกระทบ
+|th_rm   = 
+|th_tl   = 
+|vi      = Phạm Vi Ảnh Hưởng
+|vi_tl   = Effect Range
+|de      = Wirkungsbereich
+|de_tl   = Area of Effect
+|id      = Area
+|id_tl   = Area
+|pt      = {{tt|AdE|Área de Efeito}}
+|pt_tl   = {{tt|AoE|Area of Effect}}
+|tr      = Etki Alanı
+|tr_tl   = Area of Effect
+|it      = Area d'effetto
+|it_tl   = Area of Effect
+}}
 
 ==Change History==
 {{Change History|1.0}}
-
-==References==
-{{Reflist|2}}
 
 ==Navigation==
 {{Combat Navbox}}
 
 [[Category:AoE| ]]
+
+[[ja:効果範囲]]

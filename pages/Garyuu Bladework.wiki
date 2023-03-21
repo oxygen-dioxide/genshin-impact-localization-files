@@ -2,7 +2,7 @@
 |image         = Talent Garyuu Bladework.png
 |character     = Kaedehara Kazuha
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 5 rapid strikes.<br /><br />'''Charged Attack'''<br />Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing [[AoE]] DMG upon impact. If this Plunging Attack is triggered by [[Chihayaburu]], it will be converted to Plunging Attack: Midare Ranzan.<br /><br />'''Plunging Attack: Midare Ranzan'''<br />When a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to {{Color|Anemo DMG}} and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.
+|info          = '''Normal Attack'''<br />Performs up to 5 rapid strikes.<br /><br />'''Charged Attack'''<br />Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing [[AoE]] DMG upon impact. If this Plunging Attack is triggered by [[Chihayaburu]], it will be converted to Plunging Attack: Midare Ranzan.<br /><br />'''Plunging Attack: Midare Ranzan'''<br />When a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to {{Color|Anemo DMG}} and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.
 |hit1          = 45%–96.1%
 |hit2          = 45.2%–96.7%
 |hit3          = 25.8 + 31%–55.1+66.2%
@@ -19,12 +19,110 @@
 '''Garyuu Bladework''' is [[Kaedehara Kazuha]]'s [[Normal Attack]].
 
 ==Gameplay Notes==
-:<gallery hideaddbutton="true" captionalign="center" widths="100">
+* After using [[Chihayaburu]], Kazuha's Plunging Attack DMG will be converted to {{Color|Anemo DMG}} for if used within 10 seconds and before he reaches the ground.
+** This [[Plunging Attack]] still counts as a [[Blunt Attack|Heavy Attack]], thus making Chihayaburu an effective means of breaking [[Geo]] [[Shields]], Ores and [[Geo Constructs]].
+** It will also trigger Shatter on [[Frozen]] Enemies.
+** Since Midare Ranzan is an infused Plunging Attack, it cannot chop trees for [[wood]].
+** Unlike normal Plunging Attacks, Midare Ranzan does not have a minimum height requirement, meaning it can be performed even if Kazuha is extremely close to the ground.
+:<gallery>
 Talent Garyuu Bladework 2.png|Midare Ranzan Icon
 </gallery>
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|6|Crimson Momiji}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 47.7
+|impulse = 3
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 47.37
+|impulse2 = 3
+
+|title3   = Normal Attack 3-Hit A
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 29.7
+|impulse3 = 3
+
+|title4   = Normal Attack 3-Hit B
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 29.7
+|impulse4 = 3
+
+|title5   = Normal Attack 4-Hit
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 63.54
+|impulse5 = 3
+
+|title6   = Normal Attack 5-Hit A
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 26.55
+|impulse6 = 2
+
+|title7   = Normal Attack 5-Hit B
+|gu7      = 1U
+|icdtag7  = Normal Attack
+|icdtype7 = 2.5s/3 Hits
+|poise7   = 26.55
+|impulse7 = 2
+
+|title8   = Normal Attack 5-Hit C
+|gu8      = 1U
+|icdtag8  = Normal Attack
+|icdtype8 = 2.5s/3 Hits
+|poise8   = 26.55
+|impulse8 = 5
+
+|title9   = Charged Attack 1-Hit
+|gu9      = 1U
+|icdtag9  = Normal Attack
+|icdtype9 = 2.5s/3 Hits
+|poise9   = 60
+|impulse9 = 2
+
+|title10   = Charged Attack 2-Hit
+|gu10      = 1U
+|icdtag10  = Normal Attack
+|icdtype10 = 2.5s/3 Hits
+|poise10   = 60
+|impulse10 = 6
+
+|title11   = Plunging Attack Collision
+|gu11      = 0U
+|icdtag11  = none
+|poise11   = 25
+|impulse11 = 2
+
+|title12   = Low Plunge
+|gu12      = 1U
+|icdtag12  = none
+|poise12   = 100
+|impulse12 = 4
+|blunt12   = 1
+
+|title13   = High Plunge
+|gu13      = 1U
+|icdtag13  = none
+|poise13   = 150
+|impulse13 = 7
+|blunt13   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -35,10 +133,33 @@ Talent Garyuu Bladework 2.png|Midare Ranzan Icon
 |caption2=Charged Attack
 
 |file3=Garyuu Bladework Plunge Preview
-|caption3=Plunge Attack
+|caption3=Plunging Attack
+
+|file4=Chihayaburu Midare Ranzan Plunge Preview
+|caption4=Plunging Attack: Midare Ranzan
 }}
 
-{{Clr}}
+;Recovery Animations
+{{Preview
+|file1=Garyuu Bladework N1 Recovery Preview
+|caption1=Normal Attack 1
+
+|file2=Garyuu Bladework N2 Recovery Preview
+|caption2=Normal Attack 2
+
+|file3=Garyuu Bladework N3 Recovery Preview
+|caption3=Normal Attack 3
+
+|file4=Garyuu Bladework N4 Recovery Preview
+|caption4=Normal Attack 4
+
+|file5=Garyuu Bladework N5 Recovery Preview
+|caption5=Normal Attack 5
+
+|file6=Garyuu Bladework C Recovery Preview
+|caption6=Charged Attack
+}}
+
 ==Attribute Scaling==
 {{Talent Scaling
 |talentType=Normal Attack
@@ -172,15 +293,19 @@ Talent Garyuu Bladework 2.png|Midare Ranzan Icon
 |fr      = Escrime de Garyuu
 |fr_tl   = Garyuu Fencing
 |ru      = Фехтовальный стиль Гарю
-|ru_tl   = 
+|ru_tl   = Garyuu Swordstyle
 |th      = Garyuu Bladework
 |vi      = Kiếm Thuật Garyuu
-|vi_tl   = 
+|vi_tl   = Garyuu Swordsmanship
 |de      = Garyuu-Schwertkunst
 |de_tl   = Garyuu-Swordart
 |id      = Garyuu Bladework
 |pt      = Técnica da Espada de Garyuu
 |pt_tl   = Garyuu Sword Technique
+|tr      = Garyuu Kılıç Tekniği
+|tr_tl   = 
+|it      = Tecnica di Garyuu
+|it_tl   = Garyuu Technique
 }}
 
 ==Change History==
@@ -196,3 +321,4 @@ Talent Garyuu Bladework 2.png|Midare Ranzan Icon
 [[vi:Kiếm Thuật Garyuu]]
 [[uk:Фехтування Гарю]]
 [[th:Garyuu Bladework]]
+[[ja:我流剣術]]

@@ -7,10 +7,6 @@
 }}
 '''Cooking''' is a [[Crafting Method]] players can use to create [[Food]] and [[Processing|process]] [[Cooking Ingredient|ingredients]] at stoves.
 
-Cooking can be done at stoves located in cities like [[City of Mondstadt|Mondstadt]] and [[Liyue Harbor]], at campfires found in the open world, in the [[Serenitea Pot]] with [[:Category:Cooking Furnishings|cooking furnishings]], and with the one-use [[forged]] gadget [[Adepti Seeker's Stove]]. Campfires and stoves that are put out must be lit by [[Pyro]] in order to cook. [[Anemo]], [[Cryo]], [[Electro]], [[Geo]] and [[Hydro]] effects, including [[Weather#Rain|rainy]] [[weather]], (due to [[Swirl]], [[Melt]], [[Overloaded]], [[Crystallize]] and [[Vaporize]], respectively) can extinguish both campfires and stoves, preventing cooking.
-
-Some characters have special passive [[Talents]] that give them a chance to double the output received when they are the character selected and perform a perfect cook. Characters also have a specific character linked special dish they have a 25/20/15% chance to obtain depending on the rarity of the food (1/2/3 star respectively) while cooking a specific dish when they are the character selected.
-
 The [[Raiden Shogun]] is the only character that is unable to cook.
 
 ==Manual Cooking==
@@ -23,14 +19,12 @@ The location the indicator is stopped at affects the potency of the dish cooked:
 * The yellow section will result in a Regular Dish that gives an average effect.
 * The gray section will result in a Suspicious Dish that gives the lowest possible food effect.
 
-You can exit out of this minigame to avoid using the ingredients if you do not wish to cook.
+If the player exits the minigame, ingredients will not be consumed.
 
 ==Proficiency==
-Each food item has its own proficiency, once an item is cooked perfectly enough times the proficiency will max out and you will be able to auto cook. Auto bulk cooking cannot be cancelled and will always result in either the Delicious version of that item and also has the usual chance rolled individually multiple times for doubled output and special dishes if the correct character is used.
+Each food item has its own proficiency. Once an item is cooked perfectly enough times, proficiency will max out and Auto Cook will be unlocked for that dish, which allows up to 99 of a single type of food to be cooked at once. Auto Cook cannot be cancelled and will always produce a Delicious version of that item.
 
-The max number of dishes that can be auto-cooked at the same time is 99 (to cook more, the auto-cook function will have to be used more than once).
-
-Starting in [[Version 1.4]], players can switch back to manual cooking even after the proficiency is maxed out. This allows players to access dialogue and achievements that require Suspicious and normal dishes even if players have only cooked perfectly and already maxed out dishes' proficiencies.
+Manual cooking will still remain available even if proficiency is maxed out.
 
 The max proficiency for each dish depends on the rarity of the dish being made:
 
@@ -54,27 +48,33 @@ The max proficiency for each dish depends on the rarity of the dish being made:
 |25
 |}
 
-==Special Dishes==
-[[File:Cooking_Character_Select.png|200px|thumb|A character able to cook a special dish]]
-While cooking, the character selection screen may be opened to select a character that can make a special dish.
+==Places to Cook==
+The [[Main City]] of each region typically has an outdoor cooking stove very close to a food vendor.
 
-Characters' special dishes are of an even higher quality than Delicious dishes, giving even higher bonuses/stats when eaten, making them desirable.
+Campfires with a cooking pot are normally found in the wilderness outside of major cities, allowing for players to cook as they explore. Campfires and stoves that are put out must be lit by {{Pyro}} in order to cook. {{Anemo}}/{{Cryo}}/{{Electro}}/{{Geo}}/{{Hydro}} can extinguish campfires and stoves, preventing cooking.
 
-Special dishes have a low chance of being made through both automatic and manual cooking. This chance also applies to Normal and even Suspicious variants of the recipe. Thus, it is possible to get Special Dishes even when failing manual cooking.
+Players can also cook using a consumable cooking gadget, {{Item|Adepti Seeker's Stove}}, which can be [[Forging|forged]].
 
-===List of Special Dishes===
-{{#DPL:
-|namespace =
-|uses = Template:Food Infobox
-|category = Special Dishes
-|resultsheader= There are '''%PAGES%''' Special Dishes:\n
-|include = {Food Infobox}:%PAGE%:base:character
-|table = class="article-table sortable",-,Special Dish, Base Dish, Character
-|tablerow=²{#if:%%¦²{Item¦%%¦45}²}²,²{#if:%%¦²{Item¦%%¦45}²}²,style="text-align: center;"¦²{#if:%%¦²{Character¦%%¦45}²}²
-|noresultsfooter = No Results
-|allowcachedresults = true
-|tablesortcol=3
+The [[Serenitea Pot]] can also host a few cooking furnishings:
+{{#dpl:
+|namespace = 
+|category = Item&Furnishings&Exterior Furnishings&Cooking Furnishings
+|ordermethod = sortkey
+|resultsheader = \n* '''%PAGES%''' exterior furnishings:
+|format = ,\n** {{Item|%PAGE%}},,
 }}
+{{#dpl:
+|namespace = 
+|category = Item&Furnishings&Interior Furnishings&Cooking Furnishings
+|ordermethod = sortkey
+|resultsheader = \n* '''%PAGES%''' interior furnishings:
+|format = ,\n** {{Item|%PAGE%}},,
+}}
+
+==Special Dishes==
+{{Main|Special Dish}}
+Dishes, when cooked, have a certain chance to be made as a [[Special Dish]] variant depending on the rarity and quality of the food when cooked with the relevant character. These special dishes provide either a higher bonus or additional effect over their Delicious variant, as well as a separate icon, name and description.
+{{Transclude|Special Dish|Probability}}
 
 ==Character Bonuses==
 Certain characters have [[Talents]] that provides a bonus while performing cooking
@@ -96,13 +96,9 @@ Certain characters have [[Talents]] that provides a bonus while performing cooki
 
 ==Achievements==
 {{Achievement Topic Table|topic=Cooking}}
-
+<!--
 ==Video Guides==
-{{EVT
-|video1   = https://youtu.be/fbY1r8LcCvg
-|caption1 = Cooking Guide
-}}
-
+-->
 ==Change History==
 {{Change History|1.0}}
 
@@ -110,7 +106,10 @@ Certain characters have [[Talents]] that provides a bonus while performing cooki
 {{Game Systems Navbox|Other}}
 
 [[es:Cocina]]
-[[ja:料理]]
-[[pt-br:Culinária]]
-[[uk:Готування]]
 [[fr:Cuisine]]
+[[ja:調理]]
+[[pt-br:Culinária]]
+[[ru:Готовка]]
+[[th:การปรุงอาหาร/sandbox]]
+[[uk:Готування]]
+[[zh:烹飪]]

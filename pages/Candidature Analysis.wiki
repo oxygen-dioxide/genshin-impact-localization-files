@@ -1,5 +1,5 @@
 {{Quest Infobox
-|id            = 
+|id            = 11019
 |image         = Story Quest Candidature Analysis.png
 |type          = Story
 |chapter       = Umbrabilis Orchis Chapter
@@ -7,8 +7,10 @@
 |part          = 2
 |act           = Calculated Gambit
 |character     = Yelan
-|description   = 
 |startLocation = [[Liyue Harbor]], [[Liyue]]
+|region        = Liyue
+|area          = Sea of Clouds
+|subarea       = Liyue Harbor
 |prev          = Seven-Star Selection
 |next          = Foregone Conclusion
 |exp           = 575
@@ -21,19 +23,28 @@
 
 ==Steps==
 # Go to the North Wharf to look for [[Bolai]]
-# Listen to [[Zhiyi]] and [[Linlang]] chat
+# Talk to Bolai
+#Listen to [[Zhiyi]] and [[Linlang]] chat
+#* The [[Traveler]] will enter [[Stealth]]; Linlang ignores line of sight
 # Talk to [[Yelan]]
 # Go and check the South Wharf
 # Talk to [[Uncle Sun]]
 # Continue looking for clues at the wharf (0/2)
+#* Talk to [[Uncle Gao]]
+#* Talk to [[Dugu Shuo]]
 # Go back to [[Yanshang Teahouse]] and check the manifesto
 # Check the manifesto carefully
 # Go to [[Blackcliff Forge]] to investigate
+#* Pick up [[Worksite Records]]
 # Talk to [[Iron Shoulder]] about the newcomers at the forge
 # Follow the footprints
 # Investigate the abandoned camp (0/4)
+#*Investigate Strange Traces
+#*Investigate Compacted Mud
+#*Investigate Burned-Out Fire
+#*Investigate Pile of Leaves
 <!--
-==Notes==
+==Gameplay Notes==
 * something about stealth for step 2
 -->
 
@@ -44,13 +55,13 @@
 :{{A|vo yllq002 1 paimon 01.ogg}} '''Paimon:''' Huh, what's Bolai doing here today?
 
 ;(Talk to Bolai)
-:{{A|vo yllq002 2 bolai 01.ogg}} '''Bolai:''' Look, your asking price for this batch is just too high. I can't buy in at this price, how am I supposed to turn a profit?
+:{{A|vo yllq002 2 bolai 01.ogg}} '''Bolai:''' Look, your asking price for this batch is just too high. I can't buy in at this price. How am I supposed to turn a profit?
 :{{A|vo yllq002 2 qiping 01.ogg}} '''Qiping:''' Come on, hear me out. I'm telling you, this is the single best batch of Sunsettias ever. You won't find anyone who disputes that.
 :{{A|vo yllq002 2 qiping 02.ogg}} '''Qiping:''' I accidentally dropped one into a well, and even the water turned sweet!
 :{{A|vo yllq002 2 bolai 02.ogg}} '''Bolai:''' Even so...
 :{{A|vo yllq002 2 qiping 03.ogg}} '''Qiping:''' Shhh, alright, alright, I'll let you in on a little secret. The boss of Second Life also wants to buy from me, but I haven't responded yet.
 :{{A|vo yllq002 2 qiping 04.ogg}} '''Qiping:''' If you won't take them, I'll just have to partner with them instead, and neither of us wants that.
-:{{A|vo yllq002 2 bolai 03.ogg}} '''Bolai:''' Okay, well, when you put it that way... I'll accept your asking price. I'll take all your stock, don't sell a single one to Second Life!
+:{{A|vo yllq002 2 bolai 03.ogg}} '''Bolai:''' Okay, well, when you put it that way... I'll accept your asking price. I'll take all your stock. Don't sell a single one to Second Life!
 
 :'''The trader who was negotiating with Bolai leaves...'''
 
@@ -117,7 +128,7 @@
 :{{A|vo yllq002 7 unclesun 01.ogg}} '''Uncle Sun:''' Welcome, what would you like to buy today?
 :{{DIcon}} We're here to ask you about someone.
 :{{DIcon}} We're here to buy some... information.
-:{{A|vo yllq002 7 yelan 01.ogg}} '''Yelan:''' Sorry to interrupt, we're actually members of the uh... Liyue Anglers Association, and we just wanted to ask a few questions about someone.
+:{{A|vo yllq002 7 yelan 01.ogg}} '''Yelan:''' Sorry to interrupt. We're actually members of the, uh... Liyue Anglers Association, and we just wanted to ask a few questions about someone.
 :{{A|vo yllq002 7 yelan 02.ogg}} '''Yelan:''' We've heard about this young man called Zhiyi who's supposed to be a fantastic fisherman. Just wondering if you happened to have heard of him?
 :{{A|vo yllq002 7 paimon 01.ogg}} '''Paimon:''' Whoa... Yelan made up a whole fake identity without batting an eyelid...
 :{{A|vo yllq002 7 unclesun 02.ogg}} '''Uncle Sun:''' Ah yes, Zhiyi. He's been making quite a name for himself recently. I've got some friends who travel all over the place, and they tell me everywhere they go they meet someone who's heard of him.
@@ -130,13 +141,13 @@
 :{{A|vo yllq002 7 unclesun 07.ogg}} '''Uncle Sun:''' His catches are always mediocre. Not terrible, but equally nothing to write home about. If you're looking to recruit some new members, though, I do know a few top anglers I could put you in touch with...
 :{{A|vo yllq002 7 yelan 04.ogg}} '''Yelan:''' That sounds fantastic. I've got a couple of other things to attend to right now, though, so... why don't I come back some other time, and we can chat over a drink?
 :{{A|vo yllq002 7 unclesun 08.ogg}} '''Uncle Sun:''' Sure thing. See you!
-:{{A|vo yllq002 7 yelan 05.ogg}} '''Yelan:''' "Everywhere they go, they meet someone who's heard of him," hmm... C'mon, let's keep asking around.
+:{{A|vo yllq002 7 yelan 05.ogg}} '''Yelan:''' "Everywhere they go, they meet someone who's heard of him." Hmm... C'mon, let's keep asking around.
 ----
 ;(Talk to Uncle Gao)
 :{{A|vo yllq002 8 unclegao 01.ogg}} '''Uncle Gao:''' Here to buy some fish? It's 300 for one or 3 for 1,000!
 :{{A|vo yllq002 8 unclegao 02.ogg}} '''Uncle Gao:''' You better hurry, when they're gone, they're gone!
 :{{A|vo yllq002 8 yelan 01.ogg}} '''Yelan:''' Hello, we're from the Society for Fish Price Research. We'd just like to ask a few questions.
-:{{A|vo yllq002 8 paimon 01.ogg}} '''Paimon:''' Wow... she switched identity again...
+:{{A|vo yllq002 8 paimon 01.ogg}} '''Paimon:''' Wow... She switched identity again...
 :{{A|vo yllq002 8 unclegao 03.ogg}} '''Uncle Gao:''' Society for... Fish Price Research? I haven't done anything illegal, stay out of my business!
 :{{A|vo yllq002 8 yelan 02.ogg}} '''Yelan:''' Please don't worry, we're just here to conduct a simple survey.
 :{{A|vo yllq002 8 yelan 03.ogg}} '''Yelan:''' We've heard about a certain Zhiyi who's been selling fresh fish at low prices in this area recently. Do you know anything about this?
@@ -147,7 +158,7 @@
 :{{A|vo yllq002 8 unclegao 07.ogg}} '''Uncle Gao:''' He was still a kid when he first came to the wharf. His clothes were ragged, and he had a bandage wrapped around his head.
 :{{A|vo yllq002 8 unclegao 08.ogg}} '''Uncle Gao:''' He managed to survive thanks to Uncle Tian, who gave him some food. But still, to this day, he doesn't have a lot of Mora to his name.
 :{{A|vo yllq002 8 unclegao 09.ogg}} '''Uncle Gao:''' I mean, he can afford to eat and everything, but you'll often see him haggling with others over just a few Mora. So I wouldn't be surprised to find out he's been selling a few fish.
-:{{A|vo yllq002 8 unclegao 10.ogg}} '''Uncle Gao:''' It's not like he catches much anyway, so it's not going to affect my business. Oh... don't tell him I said that.
+:{{A|vo yllq002 8 unclegao 10.ogg}} '''Uncle Gao:''' It's not like he catches much anyway, so it's not going to affect my business. Oh... Don't tell him I said that.
 :{{A|vo yllq002 8 yelan 04.ogg}} '''Yelan:''' You'd rather he didn't know?
 :{{A|vo yllq002 8 unclegao 11.ogg}} '''Uncle Gao:''' Well... I spoke to him once, briefly, and I just had a feeling that he really cares what other people think of him.
 :{{A|vo yllq002 8 unclegao 12.ogg}} '''Uncle Gao:''' I think he has pretty low self-esteem... But hey, it's hardly my place to say anything. What he's achieved already puts most people to shame.
@@ -160,16 +171,16 @@
 ;(Talk to Dugu Shuo)
 :{{A|vo yllq002 9 dugushuo 01.ogg}} '''Dugu Shuo:''' Hey, it's you guys. Wait, what's the phrase... Oh yeah, "Honored to meet you!"
 :{{A|vo yllq002 9 dugushuo 02.ogg}} '''Dugu Shuo:''' What brings you to me?
-:{{A|vo yllq002 9 yelan 01.ogg}} '''Yelan:''' The truth is, we are but newcomers to this territory. We heard tell of a great martial artist, Master Dugu, who knows everything there is to know, hence we sought you out to ask for your guidance.
+:{{A|vo yllq002 9 yelan 01.ogg}} '''Yelan:''' The truth is, we are but newcomers to this territory. We heard tell of a great martial artist, Master Dugu, who knows everything there is to know. Hence, we sought you out to ask for your guidance.
 :{{A|vo yllq002 9 dugushuo 03.ogg}} '''Dugu Shuo:''' R&mdash;Really? People said... I know everything there is to know?
 :{{A|vo yllq002 9 yelan 02.ogg}} '''Yelan:''' But of course. We also heard that Master Dugu is a kind and virtuous swordsman who never turns away anyone who comes with questions.
 :{{A|vo yllq002 9 dugushuo 04.ogg}} '''Dugu Shuo:''' Great... Ahem, so, what do you wish to know? Nothing happens on this street that I don't know about.
-:{{A|vo yllq002 9 paimon 01.ogg}} '''Paimon:''' Ugh... now she's lying to a kid!
+:{{A|vo yllq002 9 paimon 01.ogg}} '''Paimon:''' Ugh... Now she's lying to a kid!
 :{{DIcon}} But it seems to have made his day...
 :{{DIcon}} I guess it's a white lie...
 :{{A|vo yllq002 9 yelan 03.ogg}} '''Yelan:''' So, Master Dugu. Have you heard of one by the name of Zhiyi?
 :{{A|vo yllq002 9 dugushuo 05.ogg}} '''Dugu Shuo:''' Sure have! You mean that guy that all the grownups are talking about these days?
-:{{A|vo yllq002 9 dugushuo 06.ogg}} '''Dugu Shuo:''' ...I've heard many tales of Zhiyi, for example... um... I can't remember...
+:{{A|vo yllq002 9 dugushuo 06.ogg}} '''Dugu Shuo:''' ...I've heard many tales of Zhiyi. For example... um... I can't remember...
 :{{A|vo yllq002 9 dugushuo 07.ogg}} '''Dugu Shuo:''' Probably 'cause it's nothing that important. I prefer stories about sword-fighting heroes!
 :{{A|vo yllq002 9 yelan 04.ogg}} '''Yelan:''' Oh, I can completely understand that. Then let me ask you this... Do you remember roughly when the grownups started talking about Zhiyi?
 :{{A|vo yllq002 9 dugushuo 08.ogg}} '''Dugu Shuo:''' Ooh, yeah, I know that! It was about two or three months ago!
@@ -196,7 +207,7 @@
 :{{A|vo yllq002 9 yelan 12.ogg}} '''Yelan:''' So he returns cruelty with kindness, and had to work to support his studies... These are the kinds of things that make someone well-known in their hometown. But Uncle Sun said even his friends who travel far and wide hear about him wherever they go. That's a little over the top, if you ask me.
 :{{A|vo yllq002 9 yelan 13.ogg}} '''Yelan:''' Do you remember what Dugu Shuo said about Zhiyi's stories? Clearly they left him with a good impression of the guy, but beyond that he wasn't interested in the details. That's the reaction I would expect from any normal person.
 :{{A|vo yllq002 9 yelan 14.ogg}} '''Yelan:''' Plus there's the fact that all this praise of Zhiyi has only been happening within the last two or three months.
-:{{A|vo yllq002 9 yelan 15.ogg}} '''Yelan:''' His childhood, his studies, the thing with his neighbor... none of these are recent events. So why are these stories only going around now?
+:{{A|vo yllq002 9 yelan 15.ogg}} '''Yelan:''' His childhood, his studies, the thing with his neighbor... None of these are recent events. So why are these stories only going around now?
 :{{A|vo yllq002 9 paimon 05.ogg}} '''Paimon:''' When you put it like that, it is kinda strange...
 :{{A|vo yllq002 9 yelan 16.ogg}} '''Yelan:''' Of course, if that's all there was to it, I wouldn't look into it any further.
 :{{A|vo yllq002 9 yelan 17.ogg}} '''Yelan:''' Zhiyi was born into a poor family. Paying people to get his stories out there is within the rules of the game, as far as I'm concerned.
@@ -216,7 +227,7 @@
 {{Dialogue start}}
 ;(Approach the Teahouse)
 :{{A|vo yllq002 10 yelan 01.ogg}} '''Yelan:''' Zhiyi's manifesto covers a huge range of topics. Looking for details that don't add up will be like trying to find a needle in a haystack.
-:{{A|vo yllq002 10 yelan 02.ogg}} '''Yelan:''' I'll divide the reports into two piles, you take one, I'll take the other. When we're finished, we'll put our heads together.
+:{{A|vo yllq002 10 yelan 02.ogg}} '''Yelan:''' I'll divide the reports into two piles. You take one, I'll take the other. When we're finished, we'll put our heads together.
 :{{A|vo yllq002 10 yelan 03.ogg}} '''Yelan:''' Officially, the assessment is already over, and I'll be expected to announce the results before long. So we have to get to the bottom of this as quickly as we can.
 :{{A|vo yllq002 10 paimon 01.ogg}} '''Paimon:''' Yikes! We'd better hurry.
 :{{A|vo yllq002 10 yelan 04.ogg}} '''Yelan:''' Whatever else Uncle Tian might think of Zhiyi, the fact remains that he's one of his favorite students.
@@ -227,7 +238,7 @@
 :{{A|vo dialog yllq002 paimon 01.ogg}} '''Paimon:''' Not so far... But we're still looking!
 
 ;(Examine the manifesto)
-:{{A|vo yllq002 11 paimon 01.ogg}} '''Paimon:''' Whew... even though Yelan took half, this is still a lot to get through...
+:{{A|vo yllq002 11 paimon 01.ogg}} '''Paimon:''' Whew... Even though Yelan took half, this is still a lot to get through...
 :{{A|vo yllq002 11 paimon 02.ogg}} '''Paimon:''' Well, we gotta start somewhere.
 :{{DIcon}} Read Chapter: "Sea"
 ::'''Zhiyi's Manifesto:''' Due to a variety of factors, sea storms have become stronger in recent years.
@@ -236,7 +247,7 @@
 :{{DIcon}} Read Chapter: "Rock"
 ::'''Zhiyi's Manifesto:''' Much of Liyue's folklore suggests that Rex Lapis left a great deal of wealth in the mountains of Liyue.
 ::'''Zhiyi's Manifesto:''' However, due to obstacles hindering the excavation operation at The Chasm, many projects have been called off.
-::'''Zhiyi's Manifesto:''' The workers of the Blackcliff Forge have been idle near the Golden House for a long time now. They should be given first refusal if any suitable projects arise...
+::'''Zhiyi's Manifesto:''' The workers of the Blackcliff Forge have been idle near the [[Golden House]] for a long time now. They should be given first refusal if any suitable projects arise...
 ::'''Zhiyi's Manifesto:''' (Covers mining, tunnel construction, and ruin exploration...)
 :{{DIcon}} Read Chapter: "Roads"
 ::'''Zhiyi's Manifesto:''' The treacherous terrain around Huaguang Stone Forest and Qingyun Peak means the area has weak transport links.
@@ -244,7 +255,7 @@
 ::'''Zhiyi's Manifesto:''' These areas are rich in medicinal herbs and ore deposits. Building a road network around the mountains would be beneficial for everyone...
 ::'''Zhiyi's Manifesto:''' (Covers plans to build roads and bridges.)
 ;(After reading all 3 sections)
-:{{DIcon}} Stop Reading
+:{{DIcon}} Stop reading.
 :{{A|vo yllq002 11 paimon 03d 1.ogg}} '''Paimon:''' All this reading is giving Paimon a headache...
 :{{A|vo yllq002 11 paimon 03d 2.ogg}} '''Paimon:''' Let's take a break.
 
@@ -252,10 +263,10 @@
 :{{A|vo yllq002 12 paimon 01.ogg}} '''Paimon:''' Oh, hey, it's one of Yelan's little helpers, Shanghua!
 :{{A|vo yllq002 12 paimon 02.ogg}} '''Paimon:''' If you're back, that means... that means you've finished investigating Qianwei, right?
 :{{A|vo yllq002 12 shanghua 02.ogg}} '''Shanghua:''' You betcha. I visited all the commerce guilds and gathered a wealth of information. Every time they asked me to leave, but I always had another trick up my sleeve...
-:{{A|vo yllq002 12 yelan 01.ogg}} '''Yelan:''' Don't drag this out, just tell us your findings.
+:{{A|vo yllq002 12 yelan 01.ogg}} '''Yelan:''' Don't drag this out. Just tell us your findings.
 :{{A|vo yllq002 12 shanghua 03.ogg}} '''Shanghua:''' Yes, Lady Yelan.
 :{{A|vo yllq002 12 shanghua 04.ogg}} '''Shanghua:''' To summarize my findings, most people who've had interactions with Qianwei will start out complaining about how proud and arrogant he is, but then go on to give a generally positive appraisal of him.
-:{{A|vo yllq002 12 shanghua 05.ogg}} '''Shanghua:''' The young master of the Feiyun Commerce Guild said that Qianwei appears arrogant but he's very scrupulous in the way he works.
+:{{A|vo yllq002 12 shanghua 05.ogg}} '''Shanghua:''' The young master of the [[Feiyun Commerce Guild]] said that Qianwei appears arrogant, but he's very scrupulous in the way he works.
 :{{A|vo yllq002 12 shanghua 06.ogg}} '''Shanghua:''' Once he signs a contract with somebody, he treats them fairly regardless of their background.
 :{{A|vo yllq002 12 paimon 03.ogg}} '''Paimon:''' Who'd have thought!
 :{{A|vo yllq002 12 yelan 02.ogg}} '''Yelan:''' Is it possible that his reputation is fake? Is there any way you can check the accounts of the businesses under his name?
@@ -266,7 +277,7 @@
 :{{A|vo yllq002 12 paimon 04.ogg}} '''Paimon:''' What a strange guy. It's like he's not doing business to make Mora, but instead...
 :{{A|vo yllq002 12 yelan 03.ogg}} '''Yelan:''' To validate his theories. No wonder his manifesto contains so many insights &mdash; it's all the result of his firsthand experimentation.
 :{{A|vo yllq002 12 wenyuan 01.ogg}} '''Wenyuan:''' I'm back... Huh? How come you're here?
-:{{A|vo yllq002 12 shanghua 11.ogg}} '''Shanghua:''' Why do you think? Obviously, because I possess superior skills and am always one step ahead of the competition... well, when you're the competition, at least.
+:{{A|vo yllq002 12 shanghua 11.ogg}} '''Shanghua:''' Why do you think? Obviously, because I possess superior skills and am always one step ahead of the competition... Well, when you're the competition, at least.
 :{{A|vo yllq002 12 wenyuan 02.ogg}} '''Wenyuan:''' You... Whatever, I'm not getting into an argument with you. If I hadn't had something else to take care of on the way, I would've been back long before you.
 :{{A|vo yllq002 12 wenyuan 03.ogg}} '''Wenyuan:''' Lady Yelan, I have finished investigating Mingbo.
 :{{A|vo yllq002 12 yelan 04.ogg}} '''Yelan:''' Well, we're all ears.
@@ -274,8 +285,8 @@
 :{{A|vo yllq002 12 wenyuan 05.ogg}} '''Wenyuan:''' But after a few days of getting to know him, you can pretty much have a normal conversation with him. On the whole, the feedback from the Ministry of Civil Affairs was very positive. He always considers the things that everyone else overlooks.
 :{{A|vo yllq002 12 yelan 05.ogg}} '''Yelan:''' In your opinion, was the Ministry of Civil Affairs' appraisal of Mingbo at all exaggerated?
 :{{A|vo yllq002 12 wenyuan 06.ogg}} '''Wenyuan:''' I don't believe so. Mingbo is someone who has slowly but surely earned the reputation he has today.
-:{{A|vo yllq002 12 wenyuan 07.ogg}} '''Wenyuan:''' According to Ms. Yu, the Ministry often gets Mingbo to take a final look at projects before they're implemented. People feel much more confident in something if it has his stamp of approval.
-:{{A|vo yllq002 12 wenyuan 08.ogg}} '''Wenyuan:''' Oh, and also, there was once someone in the Ministry who was lying and cheating to try and advance their career. Mingbo gave them the scolding of a lifetime. Apparently, he can be terrifying when he loses his temper... I haven't seen it for myself though.
+:{{A|vo yllq002 12 wenyuan 07.ogg}} '''Wenyuan:''' According to [[Ms. Yu]], the Ministry often gets Mingbo to take a final look at projects before they're implemented. People feel much more confident in something if it has his stamp of approval.
+:{{A|vo yllq002 12 wenyuan 08.ogg}} '''Wenyuan:''' Oh, and also, there was once someone in the Ministry who was lying and cheating to try to advance their career. Mingbo gave them the scolding of a lifetime. Apparently, he can be terrifying when he loses his temper... I haven't seen it for myself though.
 :{{A|vo yllq002 12 paimon 05.ogg}} '''Paimon:''' Whoa... That's hard to imagine...
 :{{A|vo yllq002 12 yelan 06.ogg}} '''Yelan:''' Like I said before: Things are not always as they appear.
 :{{A|vo yllq002 12 paimon 06.ogg}} '''Paimon:''' Ah, so that's what you meant by that. Paimon's starting to get it now...
@@ -288,7 +299,7 @@
 :{{A|vo yllq002 12 yelan 09.ogg}} '''Yelan:''' Hmm... I can't see any immediate problems looking at the individual entries.
 :{{A|vo yllq002 12 yelan 10.ogg}} '''Yelan:''' The only one that strikes me as a little unusual is the [[Qingxu Pool]] Redevelopment Plan.
 :{{DIcon}} What's that?
-:{{A|vo yllq002 12 yelan 11.ogg}} '''Yelan:''' Qingxu Pool has always been home to many secrets. Plus [[Azhdaha]] once wrought havoc there, so there are even more secrets buried deep underground.
+:{{A|vo yllq002 12 yelan 11.ogg}} '''Yelan:''' Qingxu Pool has always been home to many secrets. Plus, [[Azhdaha]] once wrought havoc there, so there are even more secrets buried deep underground.
 :{{A|vo yllq002 12 yelan 12.ogg}} '''Yelan:''' At some point, a rumor began to go around that there is great treasure buried beneath Qingxu Pool.
 :{{A|vo yllq002 12 yelan 13.ogg}} '''Yelan:''' A long time ago, with the approval of the Qixing, a mining team conducted an exploratory excavation there.
 :{{A|vo yllq002 12 paimon 08.ogg}} '''Paimon:''' So... did they find any treasure?
@@ -297,13 +308,13 @@
 :{{A|vo yllq002 12 yelan 16.ogg}} '''Yelan:''' Zhiyi's manifesto focuses on solving problems, and this treasure hunt seems extremely risky. It seems out of step with the rest of his plans.
 :{{A|vo yllq002 12 yelan 17.ogg}} '''Yelan:''' Still, this one fact alone doesn't tell us much. Everyone wants to get their hands on this treasure &mdash; the Treasure Hoarders, the Fatui, even local Liyue factions...
 :{{A|vo yllq002 12 yelan 18.ogg}} '''Yelan:''' Did you find anything?
-:{{A|vo yllq002 12 paimon 09.ogg}} '''Paimon:''' "Excavation", "project", "treasure"... did we read anything similar in our half of the manifesto, (Traveler)?
+:{{A|vo yllq002 12 paimon 09.ogg}} '''Paimon:''' "Excavation," "project," "treasure"... Did we read anything similar in our half of the manifesto, (Traveler)?
 :{{DIcon}} The Blackcliff Forge...
 :{{DIcon}} The "Rock" chapter.
 :{{A|vo yllq002 12 paimon 10.ogg}} '''Paimon:''' Oh yeah! Zhiyi said the Blackcliff Forge workers should get right of first refusal if any suitable projects come up!
 :{{A|vo yllq002 12 yelan 19.ogg}} '''Yelan:''' Did he now? Well, that makes everything much clearer... So Zhiyi wants the Blackcliff Forge to excavate the treasure of Qingxu Pool.
 :{{A|vo yllq002 12 paimon 11.ogg}} '''Paimon:''' Does that mean the Blackcliff Forge is Zhiyi's secret supporter?
-:{{A|vo yllq002 12 yelan 20.ogg}} '''Yelan:''' No, not likely. I've looked into the Blackcliff Forge before, they aren't involved with any powerful factions at present.
+:{{A|vo yllq002 12 yelan 20.ogg}} '''Yelan:''' No, not likely. I've looked into the Blackcliff Forge before. They aren't involved with any powerful factions at present.
 :{{A|vo yllq002 12 yelan 21.ogg}} '''Yelan:''' They do possess some specialized explosives, but it would seem more trouble than it's worth to put so many resources into a risky project like this.
 :{{A|vo yllq002 12 yelan 22.ogg}} '''Yelan:''' Still, since the clues are pointing toward the Blackcliff Forge, we should see where they lead. We may well find something new.
 
@@ -324,11 +335,11 @@
 :{{A|vo yllq002 14 yelan 01.ogg}} '''Yelan:''' I don't think we're going to get anywhere asking questions like that. Let's just take a look around.
 
 ;(Investigate the [[Worksite Records]])
-:{{A|vo yllq002 14 paimon 03.ogg}} '''Paimon:''' What's this... a diary?
+:{{A|vo yllq002 14 paimon 03.ogg}} '''Paimon:''' What's this? A diary?
 :{{A|vo yllq002 14 yelan 02.ogg}} '''Yelan:''' From the back, it looks like a ledger. But it seems they also use it as a site log.
-:{{A|vo yllq002 14 yelan 03.ogg}} '''Yelan:''' We don't know who wrote it, but it's interesting, don't you think? These newcomers... who could have sent them?
+:{{A|vo yllq002 14 yelan 03.ogg}} '''Yelan:''' We don't know who wrote it, but it's interesting, don't you think? These newcomers... Who could have sent them?
 :{{A|vo yllq002 14 paimon 04.ogg}} '''Paimon:''' You think they're suspicious?
-:{{A|vo yllq002 14 yelan 04.ogg}} '''Yelan:''' Yes. Look, it says right there, one of them's already been promoted to team leader.
+:{{A|vo yllq002 14 yelan 04.ogg}} '''Yelan:''' Yes. Look, it says right there: one of them's already been promoted to team leader.
 :{{A|vo yllq002 14 yelan 05.ogg}} '''Yelan:''' At this rate, by the time the Qingxu Pool Redevelopment Plan is ready to roll, they'll be the technical backbone of the team.
 :{{A|vo yllq002 14 yelan 06.ogg}} '''Yelan:''' That'll give them the chance to take a lot of liberties... They can copy any secret texts or steal any treasure they find underground.
 :{{A|vo yllq002 14 yelan 07.ogg}} '''Yelan:''' Imagine if we didn't suspect anything. By the time Zhiyi recommends the Blackcliff Forge for the excavation project, at most we would maybe do a fresh background check on the place.
@@ -337,15 +348,16 @@
 :{{A|vo yllq002 14 paimon 05.ogg}} '''Paimon:''' When you put it like that, it all makes sense... If we hadn't found this out, someone else would've stolen the treasure!
 :{{A|vo yllq002 14 paimon 06.ogg}} '''Paimon:''' So who's really behind all this?
 :{{A|vo yllq002 14 yelan 10.ogg}} '''Yelan:''' That's a question for the newcomers. But let's start with that worker over there for now.
+:;(Obtain [[Worksite Records]])
 
 ;(Talk to Iron Shoulder)
-:{{A|vo yllq002 15 paimon 01.ogg}} '''Paimon:''' Uh, excuse us... we wanna ask you about the newcomers!
+:{{A|vo yllq002 15 paimon 01.ogg}} '''Paimon:''' Uh, excuse us... We wanna ask you about the newcomers!
 :{{A|vo yllq002 15 ironshoulder 01.ogg}} '''Iron Shoulder:''' *sigh* You want them to teach you or something?
 :{{A|vo yllq002 15 ironshoulder 02.ogg}} '''Iron Shoulder:''' I gotta say, these newcomers are in tip-top shape. Fast learners, too. They're picking up all the skills unbelievably fast.
 :{{A|vo yllq002 15 ironshoulder 03.ogg}} '''Iron Shoulder:''' My only complaint is that they're always going out drinking at night, but they never let us join them.
 :{{A|vo yllq002 15 ironshoulder 04.ogg}} '''Iron Shoulder:''' I guess they just need some time to adjust. I'm sure we'll get to know each other over time.
-:{{A|vo yllq002 15 yelan 01.ogg}} '''Yelan:''' They go out drinking? This area isn't exactly renowned for the nightlife, I'm guessing it's a long trip to the nearest tavern?
-:{{A|vo yllq002 15 ironshoulder 05.ogg}} '''Iron Shoulder:''' You got that right. They tell me they go all the way back to Liyue Harbor to drink at Wanmin Restaurant.
+:{{A|vo yllq002 15 yelan 01.ogg}} '''Yelan:''' They go out drinking? This area isn't exactly renowned for the nightlife. I'm guessing it's a long trip to the nearest tavern?
+:{{A|vo yllq002 15 ironshoulder 05.ogg}} '''Iron Shoulder:''' You got that right. They tell me they go all the way back to Liyue Harbor to drink at [[Wanmin Restaurant]].
 :{{A|vo yllq002 15 ironshoulder 06.ogg}} '''Iron Shoulder:''' It rained after work today, so they actually stuck around at the site for a while. But as soon as the rain stopped, they went out drinking again right away.
 :{{A|vo yllq002 15 ironshoulder 07.ogg}} '''Iron Shoulder:''' Hey, you're only young once, right? I say, if they can hack it, let 'em at it, haha.
 :{{A|vo yllq002 15 yelan 02.ogg}} '''Yelan:''' Interesting. Let's go talk somewhere else, (Traveler).
@@ -360,7 +372,7 @@
 :{{A|vo yllq002 18 paimon 01.ogg}} '''Paimon:''' They went {{Not a typo|thataway}}! Hurry, we gotta catch up!
 
 ;(Continue following the footprints)
-:{{A|vo yllq002 19 paimon 01.ogg}} '''Paimon:''' Huh... these footprints are heading towards Liyue Harbor. Maybe we were wrong about them?
+:{{A|vo yllq002 19 paimon 01.ogg}} '''Paimon:''' Huh... These footprints are heading towards Liyue Harbor. Maybe we were wrong about them?
 
 ;(Continue following the footprints)
 :{{A|vo yllq002 20 yelan 01.ogg}} '''Yelan:''' Just as I thought. They didn't go to Liyue Harbor &mdash; they went that way.
@@ -392,7 +404,7 @@
 :{{A|vo yllq002 24 yelan 02.ogg}} '''Yelan:''' This has gotta be where the newcomers rendezvous with whoever they're working for. But all the evidence has been destroyed.
 :{{A|vo yllq002 24 yelan 03.ogg}} '''Yelan:''' Look at these ashes. Someone was burning documents not long before we arrived.
 :{{A|vo yllq002 24 paimon 01.ogg}} '''Paimon:''' Could there be anything left? Maybe the wind could've blown the fire out before everything was finished burning?
-:{{A|vo yllq002 24 yelan 04.ogg}} '''Yelan:''' The odds of that are very slim. It's practically impossible. I've checked &mdash; all the paper's been burned, there's only ash left now.
+:{{A|vo yllq002 24 yelan 04.ogg}} '''Yelan:''' The odds of that are very slim. It's practically impossible. I've checked &mdash; all the paper's been burned. There's only ash left now.
 :{{A|vo yllq002 24 paimon 02.ogg}} '''Paimon:''' Why don't we wait for them back at the Blackcliff Forge? They've gotta go back there sooner or later.
 :{{A|vo yllq002 24 yelan 05.ogg}} '''Yelan:''' We can't count on that. Clearly, they were based here at one point, but it's mysteriously abandoned now.
 :{{A|vo yllq002 24 yelan 06.ogg}} '''Yelan:''' To me, that says that whoever's behind this has moved them somewhere else to throw our investigation off course.
@@ -411,7 +423,7 @@
 :{{A|vo yllq002 24 yelan 14.ogg}} '''Yelan:''' But it's all I need. Now I know who we're dealing with, I can plan our next move.
 :{{A|vo yllq002 24 wupei 01.ogg}} '''???:''' Lady Yelan! Oh, thank goodness I finally found you! *sob* ...I thought I'd never see you again!
 :{{A|vo yllq002 24 paimon 05.ogg}} '''Paimon:''' ...Um, who are you?
-:{{A|vo yllq002 24 yelan 15.ogg}} '''Yelan:''' Don't be alarmed, this is Wupei. He's Wenyuan and Shanghua's colleague.
+:{{A|vo yllq002 24 yelan 15.ogg}} '''Yelan:''' Don't be alarmed, this is [[Wupei]]. He's Wenyuan and Shanghua's colleague.
 :{{A|vo yllq002 24 yelan 16.ogg}} '''Yelan:''' I sent him to look into Zhiyi's regular contacts. Since Zhiyi likes fishing, Wupei thought he might know some of the fishermen and sailors, so he took a boat out to sea to ask around.
 :{{A|vo yllq002 24 yelan 17.ogg}} '''Yelan:''' I left him a note at Yanshang Teahouse telling him to look for me at Blackcliff Forge when he got back. If there'd been an ambush waiting for us there, it means we'd have had some backup.
 :{{A|vo yllq002 24 yelan 18.ogg}} '''Yelan:''' So, what did you find out at sea?
@@ -444,10 +456,11 @@
 |zhs_rm  = Zhīrénzhīmiàn
 |zht     = 知人知面
 |zht_rm  = Zhīrénzhīmiàn
-|zh_tl   = 
+|zh_tl   = Know the Person, Know the Face
+|zh_note = Part of the idiom {{zh|知人知面不知心|tl=To know a person and their appearance, but not understand their true nature}}.
 |ja      = 人は見かけによる
 |ja_rm   = Hito wa Mikake niyoru
-|ja_tl   = 
+|ja_tl   = Based on Peoples' Appearance
 |ko      = 얼굴로는 알 수 없는 사람의 속마음
 |ko_rm   = Eolgulloneun Al Su Eomneun Saram-ui Songmaeum
 |ko_tl   = The Heart of a Person Who Cannot be Recognized by the Face
@@ -468,6 +481,10 @@
 |id_tl   = Candidate Judgement
 |pt      = A Face que as Pessoas Conhecem
 |pt_tl   = 
+|tr      = Adaylık İncelemesi
+|tr_tl   = 
+|it      = Analisi delle candidature
+|it_tl   = 
 }}
 
 ==Change History==

@@ -1,40 +1,49 @@
 {{Enemy Infobox
 |title    = Rolling Elemental
 |image    = Enemy Cryo Slime.png
-|element  = Cryo
+|dmgtype  = Cryo
+|weakpoint = no
 |type     = Common Enemies
 |family   = Elemental Lifeforms
 |group    = Slimes
 |location = Multiple
 }}
-{{Description|A small monster created through the coagulation of Cryo in the natural environment.<br />Competitors once spread malicious rumors that the Dawn Winery used Cryo [[Slimes]] to control the temperature of their wine cellar and preserve the quality of their alcohol.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Slimes}}
+===Items===
+{{Drops Table|type=Slimes (Small)}}
+
+===Energy===
+{{Energy Drops
+|type  = Cryo
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|cryo_res=Immune|hp_ratio=0.8|atk_ratio=.6|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Bump:''' Bumps into the player, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
-*'''Drowning Immunity:''' The Cryo Slime constantly [[Frozen|freezes]] surfaces of water below them, making them unable to drown.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Bump
+|desc_1 = Bumps into the player, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Cryo Slime Bump
-|caption1=Bump
-
-|file2=Cryo Slime Drowning Immunity
-|caption2=Drowning Immunity
+|name_2 = Drowning Immunity
+|desc_2 = The Cryo Slime constantly [[Frozen|freezes]] surfaces of water below them, making them unable to drown.
 }}
 
-==Notes==
-*Cryo slimes are immune to [[Frozen]], but they can be [[wet]]. This may occur from contact with Hydro slimes, Hydro-based attacks, and [[rain]]. When attacked with [[Anemo]] they will swirl [[Hydro]] (in preference) initially until that status is removed, after which they then swirl with Cryo. The wet status is only briefly indicated together with Anemo on a Swirl.
+==Gameplay Notes==
+*Cryo Slimes are immune to [[Frozen]], but they can be [[wet]]. This may occur from contact with Hydro Slimes, Hydro-based attacks, and [[rain]]. When attacked with [[Anemo]] they will swirl [[Hydro]] (in preference) initially until that status is removed, after which they then swirl with Cryo. The wet status is only briefly indicated together with Anemo on a Swirl.
+
+==Descriptions==
+{{Description|A small monster created through the coagulation of Cryo in the natural environment.<br />Competitors once spread malicious rumors that the Dawn Winery used Cryo [[Slimes]] to control the temperature of their wine cellar and preserve the quality of their alcohol.|[[Archive]]}}
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Cryo Slime Icon.png|Icon
 </gallery>
 
@@ -66,6 +75,10 @@ Enemy Cryo Slime Icon.png|Icon
 |id      = Cryo Slime
 |pt      = Slime Cryo
 |pt_tl   = Cryo Slime
+|tr      = Buz Bodurlopu
+|tr_tl   = 
+|it      = Melmoso di Cryo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -77,5 +90,10 @@ Enemy Cryo Slime Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Kryo-Schleim]]
 [[es:Slime Cryo]]
+[[fr:Cryoblob]]
+[[ja:氷スライム]]
 [[pt-br:Slime Cryo]]
+[[th:Cryo Slime]]
+[[zh:冰史萊姆]]

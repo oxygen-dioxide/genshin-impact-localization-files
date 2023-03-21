@@ -1,38 +1,53 @@
 {{Enemy Infobox
 |title    = Rolling Elemental
 |image    = Enemy Hydro Slime.png
-|element  = Hydro
+|dmgtype  = Hydro
+|weakpoint = no
 |type     = Common Enemies
 |family   = Elemental Lifeforms
 |group    = Slimes
 |location = Multiple
 }}
-{{Description|A small monster created by the sedimentation of Hydro dispersed throughout nature.<br />Legend has it that some people would use Hydro [[Slimes]] as an emergency water source, packing them in preparation for travels through dry regions or deep domains. But due to the high concentration of Hydro within these slimes, direct ingestion is, in fact, harmful to the human body.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Slimes}}
+===Items===
+{{Drops Table|type=Slimes (Small)}}
+
+===Energy===
+{{Energy Drops
+|type  = Hydro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|hydro_res=Immune|hp_ratio=0.8|atk_ratio=.6|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Wet Application:''' When attacked, the Hydro Slime applies the {{Color|Wet}} Status for 10 seconds to all players and enemies in a '''1m''' radius.
-*'''Bump:''' Bumps into the player, dealing '''100% ATK''' as {{Color|Hydro DMG}}.
-*'''Drowning Immunity:''' Hydro Slimes cannot be drowned.
+''Most attack names are unofficial.''
+{{Enemy Attacks
 
-===Preview===
-{{Preview
-|size=185px
-|file=Hydro Slime Bump
-|caption=Bump
+|name_1 = Wet Application
+|desc_1 = When attacked, the Hydro Slime applies the {{Color|Wet}} Status for 10 seconds to all players and enemies in a '''1m''' radius.
+
+|name_2 = Bump
+|desc_2 = Bumps into the player, dealing '''100% ATK''' as {{Color|Hydro DMG}}.
+
+|name_3 = Drowning Immunity
+|desc_3 = Hydro Slimes can hop on the surface of water, and are incapable of drowning.
 }}
+
+==Descriptions==
+{{Description|A small monster created by the sedimentation of Hydro dispersed throughout nature.<br />Legend has it that some people would use Hydro [[Slimes]] as an emergency water source, packing them in preparation for travels through dry regions or deep domains. But due to the high concentration of Hydro within these slimes, direct ingestion is, in fact, harmful to the human body.|[[Archive]]}}
 
 ==Trivia==
 *A Hydro Slime can be seen at [[Barbara]]'s [[Summertime Sparkle]] outfit splash art.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Hydro Slime Icon.png|Icon
 </gallery>
 
@@ -64,6 +79,10 @@ Enemy Hydro Slime Icon.png|Icon
 |id      = Hydro Slime
 |pt      = Slime Hydro
 |pt_tl   = Hydro Slime
+|tr      = Su Bodurlopu
+|tr_tl   = 
+|it      = Melmoso di Hydro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -72,6 +91,11 @@ Enemy Hydro Slime Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Hydro-Schleim]]
 [[es:Slime Hydro]]
 [[fr:Hydroblob]]
+[[id:Hydro Slime]]
+[[ja:水スライム]]
 [[pt-br:Slime Hydro]]
+[[th:Hydro Slime]]
+[[zh:水史萊姆]]

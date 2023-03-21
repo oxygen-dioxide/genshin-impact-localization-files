@@ -5,41 +5,52 @@
 |family   = Elemental Lifeforms
 |group    = Slimes
 |location = Multiple
-|element  = Pyro
+|dmgtype  = Physical
+|dmgtype2 = Pyro
+|weakpoint = no
 |ability1 = Elemental Infusion
 }}
-{{Description|A small monster created by the sedimentation of Pyro dispersed throughout nature.<br />Its intelligence is very basic, but its uses are just as broad–well, for hilichurls, that is.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Slimes}}
+===Items===
+{{Drops Table|type=Slimes (Small)}}
+
+===Energy===
+{{Energy Drops
+|type  = Pyro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|pyro_res=Immune|hp_ratio=0.8|atk_ratio=.6|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Ignited State:''' While in the ignited state, the Pyro Slime will be inflicted with the {{Pyro}} status indefinitely. Triggering certain [[Elemental Reactions]] on a Pyro Slime will extinguish it.
-**1 [[Gauge Unit Theory|gauge]] of {{Hydro}}, 2 gauges of {{Cryo}}/{{Electro}}, or 4 gauges of {{Anemo}}/{{Geo}} must be applied to extinguish the Pyro Slime.
-**Additionally, every time the Pyro Slime takes {{Color|Pyro DMG}}, it will immediately reignite, regardless of the amount of Pyro gauges applied or the amount of DMG dealt. Therefore, due to the [[Swirl]] and [[Overloaded]] reactions' ability to deal {{Color|Pyro DMG}}, {{Anemo}} or {{Electro}} on their own are unable to fully extinguish it.
-*'''Bump:''' Bumps into the player, dealing '''100% ATK''' as {{Color|Pyro DMG}} while ignited or {{Color|Physical DMG}} while extinguished.
-*'''Final Burst:''' When defeated in the ignited state, explodes after a short delay, dealing '''200% ATK''' as {{Color|AoE Pyro DMG}}.
-*'''Reignition:''' While extinguished, retreats away from the player until it reignites after a period of time.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Ignited State
+|desc_1 = While in the ignited state, the Pyro Slime will be inflicted with the {{Pyro}} status indefinitely. Triggering certain [[Elemental Reactions]] on a Pyro Slime will extinguish it.
+* 1 [[Elemental Gauge Theory|gauge]] of {{Hydro}}, 2 gauges of {{Cryo}}/{{Electro}}, or 4 gauges of {{Anemo}}/{{Geo}} must be applied to extinguish the Pyro Slime.
+* Additionally, every time the Pyro Slime takes {{Color|Pyro DMG}}, it will immediately reignite, regardless of the amount of Pyro gauges applied or the amount of DMG dealt. Therefore, due to the [[Swirl]] and [[Overloaded]] reactions' ability to deal {{Color|Pyro DMG}}, {{Anemo}} or {{Electro}} on their own are unable to fully extinguish it.
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Pyro Slime Bump
-|caption1 = Bump
+|name_2 = Bump
+|desc_2 = Bumps into the player, dealing '''100% ATK''' as {{Color|Pyro DMG}} while ignited or {{Color|Physical DMG}} while extinguished.
 
-|file2    = Pyro Slime Reignition
-|caption2 = Reignition
+|name_3 = Final Burst
+|desc_3 = When defeated in the ignited state, explodes after a short delay, dealing '''200% ATK''' as {{Color|AoE Pyro DMG}}.
 
-|file3    = Pyro Slime Final Burst
-|caption3 = Final Burst
+|name_4 = Reignition
+|desc_4 = While extinguished, retreats away from the player until it reignites after a period of time.
 }}
 
+==Descriptions==
+{{Description|A small monster created by the sedimentation of Pyro dispersed throughout nature.<br />Its intelligence is very basic, but its uses are just as broad–well, for hilichurls, that is.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Pyro Slime Icon.png|Icon
 </gallery>
 
@@ -71,6 +82,10 @@ Enemy Pyro Slime Icon.png|Icon
 |id      = Pyro Slime
 |pt      = Slime Pyro
 |pt_tl   = Pyro Slime
+|tr      = Ateş Bodurlopu
+|tr_tl   = 
+|it      = Melmoso di Pyro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -79,5 +94,9 @@ Enemy Pyro Slime Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Pyro-Schleim]]
 [[es:Slime Pyro]]
+[[fr:Pyroblob]]
+[[ja:炎スライム]]
 [[pt-br:Slime Pyro]]
+[[zh:火史萊姆]]

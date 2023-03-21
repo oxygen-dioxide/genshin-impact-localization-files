@@ -2,10 +2,7 @@
 |image         = Talent Liutian Archery.png
 |character     = Ganyu
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 6 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''Aimed Shot''' with increased DMG.<br />While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:<br />
-*Charge Level 1: Fires off an icy arrow that deals {{Color|Cryo DMG}}.
-*Charge Level 2: Fires off a Frostflake Arrow that deals {{Color|Cryo DMG}}. The Frostflake Arrow blooms after hitting its target, dealing {{Color|[[AoE]] Cryo DMG}}.
-'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 6 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''Aimed Shot''' with increased DMG.<br />While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:<ul><li>Charge Level 1: Fires off an icy arrow that deals {{Color|Cryo DMG}}.</li><li>Charge Level 2: Fires off a Frostflake Arrow that deals {{Color|Cryo DMG}}. The Frostflake Arrow blooms after hitting its target, dealing {{Color|[[AoE]] Cryo DMG}}.</li></ul><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.
 |utility1      = Charged Attack
 |utility2      = Charge Level
 |utility3      = AoE
@@ -30,13 +27,110 @@
 '''Liutian Archery''' is [[Ganyu]]'s [[Normal Attack]].
 
 ==Gameplay Notes==
-*[[Shieldwall Mitachurls]] and [[Hilichurl Guards|Shield Hilichurl Guards]] will block both bloom and the initial shot of Charge Level 2 Frostflake Arrows even when shot in the back, if their shield is up. However, they will not block Level 1 Charged Attacks from the back.
-*The bloom of a Charge Level 2 Frostflake Arrow is considered a Charged Attack and is affected by Charged Attack modifiers such as the [[Wanderer's Troupe]] 4-piece bonus.
 *{{TalentNote|character=Ganyu|talent=Liutian Archery|ascension|1|Undivided Heart}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|1|Dew-Drinker}}
 *{{TalentNote|constellation|6|The Clement}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = —
+|icdtag  = none
+|poise   = 11.07
+|impulse = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = —
+|icdtag2  = none
+|poise2   = 12.42
+|impulse2 = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = —
+|icdtag3  = none
+|poise3   = 15.87
+|impulse3 = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = —
+|icdtag4  = none
+|poise4   = 15.87
+|impulse4 = 1
+
+|title5   = Normal Attack 5-Hit
+|gu5      = —
+|icdtag5  = none
+|poise5   = 16.83
+|impulse5 = 1
+
+|title6   = Normal Attack 6-Hit
+|gu6      = —
+|icdtag6  = none
+|poise6   = 20.1
+|impulse6 = 1
+
+|title7   = Aimed Shot
+|gu7      = —
+|icdtag7  = none
+|poise7   = 10
+|impulse7 = 2
+
+|title8   = Aimed Shot (Hit Weak Spot)
+|gu8      = —
+|icdtag8  = none
+|poise8   = 30
+|impulse8 = 5
+
+|title9   = Fully-Charged Aimed Shot
+|gu9      = 1U<br /><small>(w/ [[Dropoff]])</small>
+|icdtag9  = none
+|poise9   = 20
+|impulse9 = 2
+
+|title10   = Fully-Charged Aimed Shot (Hit Weak Spot)
+|gu10      = 1U<br /><small>(w/ Dropoff)</small>
+|icdtag10  = none
+|poise10   = 60
+|impulse10 = 5
+
+|title11   = Frostflake Arrow
+|gu11      = 1U<br /><small>(w/ Dropoff)</small>
+|icdtag11  = none
+|poise11   = 20
+|impulse11 = 2
+
+|title12   = Frostflake Arrow (Hit Weak Spot)
+|gu12      = 1U<br /><small>(w/ Dropoff)</small>
+|icdtag12  = none
+|poise12   = 60
+|impulse12 = 5
+
+|title13   = Frostflake Arrow Bloom
+|gu13      = 1U
+|icdtag13  = none
+|poise13   = 40
+|impulse13 = 1
+
+|title14   = Plunging Attack Collision
+|gu14      = —
+|icdtag14  = none
+|poise14   = 10
+|impulse14 = 2
+
+|title15   = Low Plunge
+|gu15      = —
+|icdtag15  = none
+|poise15   = 50
+|impulse15 = 2
+
+|title16   = High Plunge
+|gu16      = —
+|icdtag16  = none
+|poise16   = 100
+|impulse16 = 3
+}}
 
 ==Preview==
 {{Preview
@@ -46,10 +140,12 @@
 |file2=Liutian Archery Charged Preview
 |caption2=Charged Attack
 
-|file3=Liutian Archery Plunge Preview
-|caption3=Plunge Attack
+|file3=Liutian Archery Frostflake Arrow Preview
+|caption3=Frostflake Arrow
+
+|file4=Liutian Archery Plunge Preview
+|caption4=Plunging Attack
 }}
-{{clr}}
 
 ==Attribute Scaling==
 {{Talent Scaling
@@ -236,6 +332,10 @@
 |id      = Liutian Archery
 |pt      = Disparo Liutian
 |pt_tl   = 
+|tr      = Liutian Okçuluğu
+|tr_tl   = 
+|it      = Arciere di Liutian
+|it_tl   = Archer of Liutian
 }}
 
 ==Change History==
@@ -249,3 +349,4 @@
 [[pt-br:Disparo Liutian]]
 [[ru:Небесная стрела]]
 [[th:Liutian Archery]]
+[[vi:Lưu Thiên Xạ Thuật]]

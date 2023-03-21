@@ -1,20 +1,30 @@
 {{Enemy Infobox
 |image    = Enemy Rockfond Rifthound Whelp.png
-|element  = Geo
+|dmgtype  = Geo
+|weakpoint = no
 |family   = The Abyss
 |group    = Riftwolves
 |type     = Elite Enemies
-|location = [[Tsurumi Island]], [[Inazuma]]<br />[[Wolvendom]], [[Mondstadt]]
+|location = [[Tsurumi Island]], [[Inazuma]]<br />[[Wolvendom]], [[Mondstadt]]<br />[[The Chasm: Main Mining Area]], [[Liyue]]
 |ability1 = Invincibility Frames
 |ability2 = Fury
 |ability3 = Corrosion
 |ability4 = Teleport
 }}
-{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. "Gold" classified them as "Alfisol."<br />They follow the encroaching abyss to devour the elements. Fortunately, there are few of them left now in this world.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Rifthounds}}
+===Items===
+{{Drops Table|type=Rifthound Whelps}}
+
+===Energy===
+{{Energy Drops
+|type  = Geo
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -32,35 +42,30 @@
 }}
 
 ==Abilities and Attacks==
-* '''Corrosion:''' All of the Thundercraven Rifthound Whelp's attacks apply [[Corrosion]] on hit.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Geo Rifthound Whelp
 
-* '''Bite:''' Lunges at the player and bites, dealing '''85% ATK''' as {{Color|Geo DMG}}.
+|name_1 = Corrosion
+|desc_1 = All of the Thundercraven Rifthound Whelp's attacks apply [[Corrosion]] on hit.
 
-* '''Slash:''' Teleports to the player and slashes with its claw, dealing '''100% ATK''' as {{Color|Geo DMG}}.
+|name_2 = Bite
+|desc_2 = Lunges at the player and bites, dealing '''85% ATK''' as {{Color|Geo DMG}}.
 
-* '''Double Slash:''' At melee range, quickly slashes twice at the player, dealing '''65% ATK''' as {{Color|Geo DMG}} with each slash.
+|name_3 = Slash
+|desc_3 = Teleports to the player and slashes with its claw, dealing '''100% ATK''' as {{Color|Geo DMG}}.
 
-* '''Elemental Devourer:''' Gains '''34%''' [[Fury]] whenever it takes {{Color|Geo DMG}}. When full, the Rifthound Whelp decreases its attack [[cooldown]]s and its {{Color|Geo [[Resistance|RES]]}}.
+|name_4 = Double Slash
+|desc_4 = At melee range, quickly slashes twice at the player, dealing '''65% ATK''' as {{Color|Geo DMG}} with each slash.
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Geo Rifthound Whelp Bite
-|caption1 = Bite
-
-|file2    = Geo Rifthound Whelp Slash
-|caption2 = Slash
-
-|file3    = Geo Rifthound Whelp Double Slash
-|caption3 = Double Slash
-
-|file4    = Geo Rifthound Whelp Elemental Devour
-|caption4 = Elemental Devour
+|name_5 = Elemental Devourer
+|desc_5 = Gains '''34%''' [[Fury]] whenever it takes {{Color|Geo DMG}}. When full, the Rifthound Whelp decreases its attack [[cooldown]]s and its {{Color|Geo [[Resistance|RES]]}}.
+|file_5 = Geo Rifthound Whelp Elemental Devour
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -79,8 +84,11 @@
 | Slash (Far) || 18.5–25 || 1 || 20.5–25.5 || 3–10.5
 |}
 
+==Descriptions==
+{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. "Gold" classified them as "Alfisol."<br />They follow the encroaching abyss to devour the elements. Fortunately, there are few of them left now in this world.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Rockfond Rifthound Whelp Icon.png|Icon
 Rockfond Rifthound Whelp (v2.2 sp).png|Card from Version 2.2 Special Program
 </gallery>
@@ -110,8 +118,10 @@ Rockfond Rifthound Whelp (v2.2 sp).png|Card from Version 2.2 Special Program
 |fr      = Chiot de faille géophile
 |fr_tl   = Geophilic Rift Puppy
 |ru      = Щенок Разрыва: Камнегрыз
-|ru_tl   = 
+|ru_tl   = Rift Whelp: Rockbiter
 |th      = Rockfond - Rifthound Whelp
+|th_rm   = 
+|th_tl   = 
 |vi      = Thể Nham - Ma Thú Con
 |vi_tl   = Geo - Beast Whelp
 |de      = Felsenfressender Garmwelpe
@@ -119,6 +129,10 @@ Rockfond Rifthound Whelp (v2.2 sp).png|Card from Version 2.2 Special Program
 |id      = Rockfond Rifthound Whelp
 |pt      = Filhote da Fenda - Geofito
 |pt_tl   = 
+|tr      = Taşlaşmış Hiçlik Kurdu Yavrusu
+|tr_tl   = 
+|it      = Segugio della Faglia Spaccaroccia cucciolo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -130,5 +144,6 @@ Rockfond Rifthound Whelp (v2.2 sp).png|Card from Version 2.2 Special Program
 ==Navigation==
 {{Enemy Navbox|type=elite}}
 
+[[de:Felsenfressender Garmwelpe]]
 [[es:Cachorro Acechador Lítico]]
 [[pt-br:Filhote da Fenda - Geofito]]

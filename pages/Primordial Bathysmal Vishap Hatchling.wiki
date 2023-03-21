@@ -4,14 +4,26 @@
 |family   = Mystical Beasts
 |group    = Bathysmal Vishaps
 |location = [[Enkanomiya]]
-|element  = Hydro
+|dmgtype  = Physical
+|dmgtype2 = Hydro
+|weakpoint = yes
 |ability1 = Energy Drain
 |ability2 = HP Loss
 }}
 '''Primordial Bathysmal Vishap Hatchling''' are immature [[Primordial Bathysmal Vishap]]s. Bathysmal Vishap Hatchlings are not listed in the [[Archive]].
 
 ==Drops==
-{{Drops|vishap hatchlings}}
+===Items===
+{{Drops Table|type=Vishap Hatchlings}}
+
+===Energy===
+{{Energy Drops
+|type  = Hydro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -23,30 +35,30 @@
 |atk_ratio = 2
 }}
 
+==Weak Point Location==
+<gallery>
+Primordial Bathysmal Vishap Hatchling Weak Point.png
+</gallery>
+
 ==Abilities and Attacks==
 ''Attack names are unofficial except for Cleansing Shower.''
 
-*'''Cleansing Shower:''' Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''50% ATK''' as {{Color|AoE Hydro DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
-**The HP Loss is calculated as:<br /><math>\text{HP Loss} = ( 14 \% \times \text{Character Max HP} + 200 ) \times ( 1 - \frac{\text{Remaining Energy}}{10} )</math>
-*'''Spinning Sweep:''' Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|AoE Hydro DMG}}.
-*'''Slash Combo:''' If the player is within melee range, performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
+{{Enemy Attacks
+|name_1 = Cleansing Shower
+|desc_1 = Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''50% ATK''' as {{Color|AoE Hydro DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
+* The HP Loss is calculated as:<br /><math>\begin{align} \text{HP Loss} = {} & ( 14 \% \times \text{Character Max HP} + 200 ) \\
+& \times ( 1 - \frac{\text{Remaining Energy}}{10} ) \end{align}</math>
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Primordial Bathysmal Vishap Hatchling Cleansing Shower
-|caption1=Cleansing Shower
+|name_2 = Spinning Sweep
+|desc_2 = Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|AoE Hydro DMG}}.
 
-|file2=Primordial Bathysmal Vishap Hatchling Spinning Sweep
-|caption2=Spinning Sweep
-
-|file3=Primordial Bathysmal Vishap Hatchling Slash Combo
-|caption3=Slash Combo
+|name_3 = Slash Combo
+|desc_3 = If the player is within melee range, performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -66,7 +78,7 @@
 |}
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Primordial Bathysmal Vishap Hatchling Icon.png|Icon
 </gallery>
 
@@ -77,27 +89,30 @@ Enemy Primordial Bathysmal Vishap Hatchling Icon.png|Icon
 |zhs_rm  = Shēnhǎi Lóngxī Yòutǐ - Yuánzhǒng
 |zht     = 深海龍蜥幼體・原種
 |zht_rm  = Shēnhǎi Lóngxī Yòutǐ - Yuánzhǒng
-|zh_tl   = Bathysmal Vishap Hatchling - Original Species
+|zh_tl   = Deep Sea {{Lex|Vishap|zh}} Hatchling - Original Species
 |ja      = アビサルヴィシャップの幼体・原種
 |ja_rm   = Abisaru Vishappu no Youtai - Genshu{{Assumed}}
 |ja_tl   = Abyssal Vishap Hatchling - Original Breed
 |ko      = 심해 용 도마뱀 유체・원종
-|ko_rm   = 
-|ko_tl   = 
+|ko_tl   = Deep Sea {{Lex|Vishap|ko}} Hatchling - Protoplast
 |es      = Cría de Dragarto de las Profundidades Primordial
-|es_tl   = 
+|es_tl   = {{Lex|Vishap|es}} Whelp of the Primordial Depths
 |fr      = Élémentosaure abyssal primordial : nouveau-né
-|fr_tl   = Primordial Abyssal Elementosaurus: Newborn
+|fr_tl   = Primordial Abyssal {{Lex|Vishap|fr}}: Newborn
 |ru      = Молодой вишап глубин: Исток
-|ru_tl   = 
+|ru_tl   = Young Vishap of the Depths: Origin
 |th      = Primordial Bathysmal Vishap Hatchling
 |vi      = Rồng Biển Sâu Con - Nguyên Thủy
-|vi_tl   = Deep Sea Dragon Hatchling -  Primordial
+|vi_tl   = Deep Sea {{Lex|Vishap|vi}} Hatchling -  Primordial
 |de      = Junge Tiefsee-Drachenechse – Urtyp
-|de_tl   = Young Deep Sea Dragon-Lizard - Original Type
+|de_tl   = Young Deep Sea {{Lex|Vishap|de}} - Original Type
 |id      = Primordial Bathysmal Vishap Hatchling
 |pt      = Cria de Dragarto das Profundezas Primordial
-|pt_tl   = 
+|pt_tl   = <!--use {{Lex|Vishap|pt}}-->
+|tr      = Ezeli Su Ejderi Yavrusu
+|tr_tl   = 
+|it      = Cucciolo di Elementosauro abissale primordiale
+|it_tl   = 
 }}
 
 ==Change History==
@@ -106,4 +121,6 @@ Enemy Primordial Bathysmal Vishap Hatchling Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|elite}}
 
+[[de:Junge Tiefsee-Drachenechse: Urtyp]]
+[[es:Cría de Dragarto de las Profundidades Primordial]]
 [[pt-br:Cria de Dragarto das Profundezas Primordial]]

@@ -2,44 +2,55 @@
 |image    = Enemy Hilichurl Berserker.png
 |family   = Hilichurls
 |type     = Common Enemies
-|element  = Pyro
+|dmgtype  = Physical
+|dmgtype2 = Pyro
+|weakpoint = yes
 |ability1 = Elemental Infusion
 }}
-{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />These hilichurls wield flaming clubs and charge with reckless abandon to chase intruding adventurers off. Most wildfires in the grasslands or forests are not actually caused by a [[Klee|certain special Knight]], but due to the actions of these hilichurls.}}
 {{Enemy Intro|hidegroup=1}}
 
 ==Drops==
-{{Drops|Hilichurls}}
+===Items===
+{{Drops Table|type=Hilichurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|hp_ratio=1|atk_ratio=1.8|hp_type=1}}
 
 ==Abilities and Attacks==
-*'''Rapid Swing Charge:''' Wildly swings its club around and charges straight towards the player. At the end of the charge, performs an extra powerful swing. The each of the charging swings and the final swing deals '''10% ATK''' and '''100% ATK''' respectively as {{Color|Pyro DMG}}. This attack is only used when the Hilichurl Berserker's club is ignited.
-*'''Smack:''' Swings its club at the player once, dealing '''125% ATK''' as {{Color|Pyro DMG}} when ignited and {{Color|Physical DMG}} when extinguished.
-*'''Reignition''': After some time, the Hilichurl Berserker will reignite their club.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Hit and Run
+|file_1 = Hilichurl Berserker Rapid Swing Charge
+|desc_1 = Wildly swings its club around and charges straight towards the player. At the end of the charge, performs an extra powerful swing. The each of the charging swings and the final swing deals '''10% ATK''' and '''100% ATK''' respectively as {{Color|Pyro DMG}}. This attack is only used when the Hilichurl Berserker's club is ignited.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Hilichurl Berserker Rapid Swing Charge
-|caption1=Rapid Swing Charge
+|name_2 = Torch Strike
+|file_2 = Hilichurl Berserker Smack
+|desc_2 = Swings its club at the player once, dealing '''125% ATK''' as {{Color|Pyro DMG}} when ignited and {{Color|Physical DMG}} when extinguished.
+|caption_2 = Smack (Ignited)
+|file_2_2 = Hilichurl Berserker Smack Extinguished
+|caption_2_2 = Smack (Extinguished)
 
-|file2=Hilichurl Berserker Smack
-|caption2=Smack (Ignited)
-
-|file3=Hilichurl Berserker Smack Extinguished
-|caption3=Smack (Extinguished)
-
-|file4=Hilichurl Berserker Extinguish
-|caption4=Extinguish
-
-|file5=Hilichurl Berserker Ignite
-|caption5=Reignite
+|name_3 = Reignition
+|desc_3 = Some time after its club is extinguished, the Hilichurl Berserker will reignite it.
+|file_3 = Hilichurl Berserker Extinguish
+|caption_3 = Extinguish
+|file_3_2 = Hilichurl Berserker Ignite
+|caption_3_2 = Reignite
 }}
 
+==Descriptions==
+{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />These hilichurls wield flaming clubs and charge with reckless abandon to chase intruding adventurers off. Most wildfires in the grasslands or forests are not actually caused by a [[Klee|certain special Knight]], but due to the actions of these hilichurls.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Hilichurl Berserker Icon.png|Icon
 </gallery>
 
@@ -66,8 +77,8 @@ Enemy Hilichurl Berserker Icon.png|Icon
 |es      = Hilichurl Berserker
 |fr      = Berserker Brutocollinus
 |fr_tl   = Hilichurl Berserker
-|ru      = Хиличурл берсерк
-|ru_tl   = 
+|ru      = Хиличурл-берсерк
+|ru_tl   = Hilichurl Berserker
 |th      = Hilichurl Berserker
 |vi      = Hilichurl Tiên Phong
 |vi_tl   = Hilichurl Pioneer
@@ -75,6 +86,9 @@ Enemy Hilichurl Berserker Icon.png|Icon
 |de_tl   = Hilichurl Berserker
 |id      = Hilichurl Berserker
 |pt      = Hilichurl Berserker
+|tr      = Dağ Yabanisi Vahşi Savaşçısı
+|tr_tl   = 
+|it      = Hilichurl berserker
 }}
 
 ==Change History==
@@ -83,5 +97,8 @@ Enemy Hilichurl Berserker Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Hilichurl-Berserker]]
 [[es:Hilichurl Berserker]]
+[[ja:ヒルチャール・突進]]
 [[pt-br:Hilichurl Berserker]]
+[[th:Hilichurl Berserker]]

@@ -2,12 +2,12 @@
 |image         = Talent Steel Fang.png
 |character     = Razor
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 4 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br />At the end of the sequence, perform a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 4 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br />At the end of the sequence, perform a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
 |hit1          = 95.9–181%
 |hit2          = 82.6–156%
 |hit3          = 103–195%
 |hit4          = 136–257%
-|attr5         = Charged Attack Spinning DMG
+|attr5         = Charged Attack Cyclic DMG
 |value5        = 62.5–132%
 |attr6         = Charged Attack Final DMG
 |value6        = 113–239%
@@ -29,6 +29,77 @@
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|6|Lupus Fulguris}}
 
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 112.93
+|impulse = 3
+|blunt   = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 97.27
+|impulse2 = 3
+|blunt2   = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 121.67
+|impulse3 = 3
+|blunt3   = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 160.19
+|impulse4 = 6
+|blunt4   = 1
+
+|title5   = Charged Attack Cyclic
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 60
+|impulse5 = 2
+|blunt5   = 1
+
+|title6   = Charged Attack Final Slash
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 120
+|impulse6 = 6
+|blunt6   = 1
+
+|title7   = Plunging Attack Collision
+|gu7      = 0U
+|icdtag7  = none
+|poise7   = 35
+|impulse7 = 2
+
+|title8   = Low Plunge
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 150
+|impulse8 = 4
+|blunt8   = 1
+
+|title9   = High Plunge
+|gu9      = 1U
+|icdtag9  = none
+|poise9   = 200
+|impulse9 = 7
+|blunt9   = 1
+}}
+
 ==Preview==
 {{Preview
 |file1    = Steel Fang Normal Preview
@@ -38,7 +109,7 @@
 |caption2 = Charged Attack
 
 |file3    = Steel Fang Plunge Preview
-|caption3 = Plunge Attack
+|caption3 = Plunging Attack
 }}
 {{clr}}
 
@@ -47,7 +118,7 @@
 |talentType=Normal Attack
 |levels=11
 |order=hit1,hit2,hit3,hit4,charged_title,chargedattackspinningdmg,chargedattackfinaldmg,stamina,maxduration,plunge_title,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Spinning DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Cyclic DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=95.92
 |hit1_2=102.46
 |hit1_3=109
@@ -173,7 +244,7 @@
 |fr      = Croc d'acier
 |fr_tl   = Steel Fang
 |ru      = Стальной клык
-|ru_tl   = 
+|ru_tl   = Steel Fang
 |th      = Steel Fang
 |vi      = Nanh Thép
 |vi_tl   = Steel Fang
@@ -182,6 +253,10 @@
 |id      = Steel Fang
 |pt      = Presa de Aço
 |pt_tl   = 
+|tr      = Çelik Diş
+|tr_tl   = 
+|it      = Zanna d'acciaio
+|it_tl   = Steel Fang
 }}
 
 ==Change History==
@@ -191,6 +266,7 @@
 {{Talent Navbox|Razor}}
 
 [[es:Colmillo de acero]]
+[[fr:Croc d'acier]]
 [[pt-br:Presa de Aço]]
 [[ru:Стальной клык]]
 [[th:Steel Fang]]

@@ -2,14 +2,11 @@
 |image         = Talent Done Deal.png
 |character     = Yanfei
 |type          = Elemental Burst
-|info          = Triggers a spray of intense flames that rush at nearby opponents, dealing {{Color|[[AoE]] Pyro DMG}}, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.<br /><br />'''Brilliance'''<br />Has the following effects:<br />
-* Grants Yanfei a Scarlet Seal at fixed intervals.
-* Increases the DMG dealt by her [[Charged Attack]]s.
-The effects of Brilliance will end if Yanfei leaves the field or falls in battle.
+|info          = Triggers a spray of intense flames that rush at nearby opponents, dealing {{Color|[[AoE]] Pyro DMG}}, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.<br /><br />'''Brilliance'''<br />Has the following effects:<ul><li>Grants Yanfei a Scarlet Seal at fixed intervals.</li><li>Increases the DMG dealt by her [[Charged Attack]]s.</li></ul>The effects of Brilliance will end if Yanfei leaves the field or falls in battle.
 |utility1      = Charged Attack
 |utility2      = AoE
 |utility3      = Requires Staying on Field
-|utility4      = Percentage DMG Increase
+|utility4      = DMG Bonus
 |utility5      = Charged Attack DMG Increase
 |energyCost    = 80
 |CD            = 20s
@@ -26,6 +23,8 @@ The effects of Brilliance will end if Yanfei leaves the field or falls in battle
 '''Done Deal''' is [[Yanfei]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
+* {{TalentNote|energy frame|8}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|2}}<ref name="Genshin Academy burst info sheet" />
 * At maximum Scarlet Seals, Yanfei has to consume the existing Scarlet Seals before another can be granted by '''Brilliance'''.
 * The Brilliance's effect lags behind the Elemental Burst by '''0.3s'''. Theoretically, Yanfei can gain the first Scarlet Seal after 1.3s of using Elemental Burst. However, Yanfei has to consume the existing Scarlet Seals first. The time required to do so exceeded 1.3s. Hence the first Scarlet Seal is granted at exactly '''2.3s''' after using Elemental Burst and a Charged Attack.
 * '''Brilliance''' ticks at exactly '''1.0s''' interval, granting one Scarlet Seal at every tick. The timing of the ticks cannot be influenced by any factors. If none of the ticks are wasted due to excess, Yanfei can gain a maximum of '''14''' Scarlet Seals through Brilliance.
@@ -34,6 +33,16 @@ The effects of Brilliance will end if Yanfei leaves the field or falls in battle
 *{{TalentNote|constellation|4|Supreme Amnesty}}
 *{{TalentNote|constellation|5|Abiding Affidavit}}
 *{{TalentNote|constellation|6|Extra Clause}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Skill DMG
+|gu      = 2U
+|icdtag  = none
+|poise   = 200
+|impulse = 3
+|blunt   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -116,14 +125,24 @@ The effects of Brilliance will end if Yanfei leaves the field or falls in battle
 |id      = Done Deal
 |pt      = Contrato Vinculativo
 |pt_tl   = Binding Contract
+|tr      = Son Karar
+|tr_tl   = 
+|it      = Affare fatto
+|it_tl   = Done Deal
 }}
 
 ==Change History==
 {{Change History|1.5}}
 
+==References==
+{{Reflist}}
+
 ==Navigation==
 {{Talent Navbox|Yanfei}}
 
 [[es:Contrato vinculante]]
+[[fr:Application des peines]]
 [[pt-br:Contrato Vinculativo]]
+[[ru:По рукам]]
 [[th:Done Deal]]
+[[zh:憑此結契]]

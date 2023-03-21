@@ -4,15 +4,30 @@
 |family   = Mystical Beasts
 |group    = Bathysmal Vishaps
 |location = [[Enkanomiya]]
-|element  = Hydro
+|dmgtype  = Physical
+|dmgtype2 = Hydro
+|weakpoint = yes
 |ability1 = Energy Drain
 |ability2 = HP Loss
 }}
-{{Description|A vishap that dwells deep beneath the oceans.<br />They were once the dominant race in the depths - and indeed, dragons were the overlords of the whole world in an even earlier age. But their former seven Sovereigns were defeated by a power from the heavens, withering one by one.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Vishaps}}
+===Items===
+{{Drops Table|type=Vishaps}}
+
+===Energy===
+{{Energy Drops
+|type  = Hydro
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|p4    = 2
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -24,38 +39,36 @@
 |atk_ratio = 4
 }}
 
+==Weak Point Location==
+<gallery>
+Primordial Bathysmal Vishap Weak Point.png
+</gallery>
+
 ==Abilities and Attacks==
 ''Attack names are unofficial except for Cleansing Shower.''
 
-*'''Cleansing Shower:''' Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''50% ATK''' as {{Color|Hydro DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
-** The HP Loss is calculated as:<br /><math>\text{HP Loss} = ( 14 \% \times \text{Character Max HP} + 200 ) \times ( 1 - \frac{\text{Remaining Energy}}{10} )</math>
-*'''Spinning Sweep:''' Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|AoE Hydro DMG}}.
-*'''Waterwheels:''' Forms 3 wheels of water at the tip of its tail before launching them in an arc at the player, dealing '''30% ATK''' as {{Color|Hydro DMG}} along their paths.
-*'''Spike Field:''' Plugs its tail into the ground, creating a large field, within which water splashes from the ground at random locations, dealing '''60% ATK''' as {{Color|AoE Hydro DMG}}.
-*'''Slash Combo:''' If the player is within melee range, performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
+{{Enemy Attacks
+|name_1 = Cleansing Shower
+|desc_1 = Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''50% ATK''' as {{Color|Hydro DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
+* The HP Loss is calculated as:<br /><math>\begin{align} \text{HP Loss} = {} & ( 14 \% \times \text{Max HP}_\text{Character} + 200 ) \\
+& \times ( 1 - \frac{\text{Remaining Energy}}{10} ) \end{align}</math>
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Primordial Bathysmal Vishap Cleansing Shower
-|caption1=Cleansing Shower
+|name_2 = Spinning Sweep
+|desc_2 = Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|AoE Hydro DMG}}.
 
-|file2=Primordial Bathysmal Vishap Spinning Sweep
-|caption2=Spinning Sweep
+|name_3 = Waterwheels
+|desc_3 = Forms 3 wheels of water at the tip of its tail before launching them in an arc at the player, dealing '''30% ATK''' as {{Color|Hydro DMG}} along their paths.
 
-|file3=Primordial Bathysmal Vishap Waterwheels
-|caption3=Waterwheels
+|name_4 = Spike Field
+|desc_4 = Plugs its tail into the ground, creating a large field, within which water splashes from the ground at random locations, dealing '''60% ATK''' as {{Color|AoE Hydro DMG}}.
 
-|file4=Primordial Bathysmal Vishap Spike Field
-|caption4=Spike Field
-
-|file5=Primordial Bathysmal Vishap Slash Combo
-|caption5=Slash Combo
+|name_5 = Slash Combo
+|desc_5 = If the player is within melee range, performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -83,8 +96,11 @@
 | Spike Field || 0–15 || 1 || 30–35 || 15 || colspan="2" | —
 |}
 
+==Descriptions==
+{{Description|A vishap that dwells deep beneath the oceans.<br />They were once the dominant race in the depths - and indeed, dragons were the overlords of the whole world in an even earlier age. But their former seven Sovereigns were defeated by a power from the heavens, withering one by one.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Primordial Bathysmal Vishap Icon.png|Icon
 </gallery>
 
@@ -95,28 +111,31 @@ Enemy Primordial Bathysmal Vishap Icon.png|Icon
 |zhs_rm  = Shēnhǎi Lóngxī - Yuánzhǒng
 |zht     = 深海龍蜥・原種
 |zht_rm  = Shēnhǎi Lóngxī - Yuánzhǒng
-|zh_tl   = Bathysmal Vishap - Original Species
+|zh_tl   = Deep Sea {{Lex|Vishap|zh}} - Original Species
 |ja      = アビサルヴィシャップ・原種
 |ja_rm   = Abisaru Vishappu - Genshu{{Assumed}}
 |ja_tl   = Abyssal Vishap - Original Breed
 |ko      = 심해 용 도마뱀・원종
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Simhae Yong Domabaem - Wonjong
+|ko_tl   = Deep Sea {{Lex|Vishap|ko}} - Protoplast
 |es      = Dragarto de las Profundidades Primordial
-|es_tl   = Primordial Dragard of the Depths
-|es_note = ''Dragarto'' is a portmanteau of {{Lang|mini=1|es=''dragón''|es_tl=dragon}} and {{Lang|mini=1|es=''lagarto''|es_tl=lizard.}}
+|es_tl   = Primordial {{Lex|Vishap|es}} of the Depths
 |fr      = Élémentosaure abyssal primordial
-|fr_tl   = Primordial Abyssal Elementosaurus
+|fr_tl   = Primordial Abyssal {{Lex|Vishap|fr}}
 |ru      = Вишап глубин: Исток
-|ru_tl   = 
+|ru_tl   = Vishap of the Depths: Origin
 |th      = Primordial Bathysmal Vishap
 |vi      = Rồng Biển Sâu - Nguyên Thủy
-|vi_tl   = Deep Sea Dragon - Primordial
+|vi_tl   = Deep Sea {{Lex|Vishap|vi}} - Primordial
 |de      = Tiefsee-Drachenechse – Urtyp
-|de_tl   = Deep Sea Dragon-Lizard - Original Type
+|de_tl   = Deep Sea {{Lex|Vishap|de}} - Original Type
 |id      = Primordial Bathysmal Vishap
 |pt      = Dragarto das Profundezas Primordial
-|pt_tl   = 
+|pt_tl   = <!--use {{Lex|Vishap|pt}}-->
+|tr      = Ezeli Su Ejderi
+|tr_tl   = 
+|it      = Elementosauro abissale primordiale
+|it_tl   = 
 }}
 
 ==Change History==
@@ -125,5 +144,8 @@ Enemy Primordial Bathysmal Vishap Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|elite}}
 
-[[vi:Rồng Biển Sâu - Nguyên Thủy]]
+[[de:Tiefsee-Drachenechse: Urtyp]]
+[[es:Dragarto de las Profundidades Primordial]]
 [[pt-br:Dragarto das Profundezas Primordial]]
+[[uk:Первісний вішап глибин]]
+[[vi:Rồng Biển Sâu - Nguyên Thủy]]

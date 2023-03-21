@@ -16,14 +16,34 @@
 '''Celestial Shower''' is [[Ganyu]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* This ability will drop up to 50 icicles over its duration, with each icicle targeting a random enemy that has not been targeted by the last 4 icicles. If there are ''n'' enemies [[Vacuum Field|grouped]] closely together, and each icicle hits ''n'' enemies, then over the duration there will be at most 50''n'' instances of damage per enemy, so the scaling for this ability is linear per enemy (bounded above by a linear function) and quadratic overall. This is, however, not the case while ''n'' is under 5 as the total number of targeted icicles does not equal to 50. Assuming none of the random icicles hit, this ability instead scales quadratically with the function of 10''n''^2.
-* {{TalentNote|icd|Ice Shard DMG}}
+* {{TalentNote|energy frame|8}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|1}}<ref name="Genshin Academy burst info sheet" />
+* This ability will drop up to 50 icicles over its duration, with each icicle targeting a random enemy that has not been targeted by the last 4 icicles.
 * {{TalentNote|snapshot|Ice Shard DMG|character=Ganyu}}
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Ganyu|talent=Celestial Shower|ascension|2|Harmony between Heaven and Earth}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|3|Cloud-Strider}}
 * {{TalentNote|constellation|4|Westward Sojourn|Enemies in Celestial Shower's field take increased DMG over time, starting from 5% and increasing by 5% every 3 seconds up to a maximum of 25% more DMG taken. Enemies retain this effect for 3 seconds after leaving the field.}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Activation Knockback
+|gu      = —
+|icdtag  = —
+|icdtype = —
+|poise   = 400
+|impulse = Heavy, 1200, 0
+
+|title2   = Ice Shard DMG
+|gu2      = 1U
+|icdtag2  = Elemental Burst
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 60
+|impulse2 = 2
+}}
 
 ==Preview==
 {{Preview
@@ -81,7 +101,7 @@
 |fr      = Baptême céleste
 |fr_tl   = Celestial Baptism
 |ru      = Небесный дождь
-|ru_tl   = 
+|ru_tl   = Heavenly Rain
 |th      = Celestial Shower
 |vi      = Thiên Hoa Hạ Phàm
 |vi_tl   = 
@@ -90,10 +110,17 @@
 |id      = Celestial Shower
 |pt      = Chuva Celestial
 |pt_tl   = 
+|tr      = Göklerin Görkemi
+|tr_tl   = 
+|it      = Pioggia celestiale
+|it_tl   = Celestial Rain
 }}
 
 ==Change History==
 {{Change History|1.2}}
+
+==References==
+{{Reflist}}
 
 ==Navigation==
 {{Talent Navbox|Ganyu}}
@@ -102,4 +129,4 @@
 [[fr:Baptême céleste]]
 [[pt-br:Chuva Celestial]]
 [[ru:Небесный дождь]]
-[[th:Undivided Heart]]
+[[th:Celestial Shower]]

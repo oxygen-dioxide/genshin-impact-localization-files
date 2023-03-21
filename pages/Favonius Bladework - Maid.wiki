@@ -3,34 +3,108 @@
 |character     = Noelle
 |type          = Normal Attack
 |info          = '''Normal Attack'''<br />Performs up to 4 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br />At the end of the sequence, performs a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
-|hit1          = 79.1-167%
-|hit2          = 73.4-155%
-|hit3          = 86.3-183%
-|hit4          = 113-240%
-|attr5         = Charged Attack Spinning DMG
-|value5        = 50.7-107%
+|hit1          = 79.1&ndash;167%
+|hit2          = 73.4&ndash;155%
+|hit3          = 86.3&ndash;183%
+|hit4          = 113&ndash;240%
+|attr5         = Charged Attack Cyclic DMG
+|value5        = 50.7&ndash;107%
 |attr6         = Charged Attack Final DMG
-|value6        = 90.5-191%
+|value6        = 90.5&ndash;191%
 |attr7         = Charged Attack Stamina Cost
 |value7        = 40/s
 |attr8         = Max Duration
 |value8        = 5s
 |attr9         = Plunge DMG
-|value9        = 74.6-158%
+|value9        = 74.6&ndash;158%
 |attr10        = Low Plunge DMG
-|value10       = 149-316%
+|value10       = 149&ndash;316%
 |attr11        = High Plunge DMG
-|value11       = 186-394%
+|value11       = 186&ndash;394%
 |scale_att1    = ATK
 }}
 '''Favonius Bladework - Maid''' is [[Noelle]]'s [[Normal Attack]].
 
 ==Gameplay Notes==
 *{{TalentNote|conversion|character=Noelle|talent=Sweeping Time|Geo|15}}
+
+;<big>Passive Effects</big>
 *{{TalentNote|character=Noelle|talent=Favonius Bladework - Maid|ascension|2|Nice and Clean}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|2|Combat Maid}}
+
+==Advanced Properties==
+{{For|Normal, Charged, and Plunging Attack properties under the effects of [[Sweeping Time]]|Sweeping Time#Advanced Properties}}
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 105.8
+|impulse = 3
+|blunt   = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 98.1
+|impulse2 = 3
+|blunt2   = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 115.34
+|impulse3 = 3
+|blunt3   = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 151.68
+|impulse4 = 6
+|blunt4   = 1
+
+|title5   = Charged Attack Cyclic
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 60
+|impulse5 = 3
+|blunt5   = 1
+
+|title6   = Charged Attack Final Slash
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 120
+|impulse6 = 6
+|blunt6   = 1
+
+|title7   = Plunging Attack Collision
+|gu7      = 0U
+|icdtag7  = none
+|poise7   = 35
+|impulse7 = 2
+
+|title8   = Low Plunge
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 150
+|impulse8 = 4
+|blunt8   = 1
+
+|title9   = High Plunge
+|gu9      = 1U
+|icdtag9  = none
+|poise9   = 200
+|impulse9 = 7
+|blunt9   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -41,7 +115,7 @@
 |caption2=Charged Attack
 
 |file3=Favonius Bladework - Maid Plunge Preview
-|caption3=Plunge Attack
+|caption3=Plunging Attack
 }}
 
 ==Attribute Scaling==
@@ -49,7 +123,7 @@
 |talentType=Normal Attack
 |levels=11
 |order=hit1,hit2,hit3,hit4,charged_title,chargedattackspinningdmg,chargedattackfinaldmg,stamina,maxduration,plunge_title,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Spinning DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Cyclic DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=79.12
 |hit1_2=85.56
 |hit1_3=92
@@ -160,12 +234,12 @@
 {{Other Languages
 |en      = Favonius Bladework - Maid
 |zhs     = 西风剑术・女仆
-|zhs_rm  = Xīfēng Jiànshù・Nǚpū
+|zhs_rm  = Xīfēng Jiànshù - Nǚpū
 |zht     = 西風劍術・女僕
-|zht_rm  = Xīfēng Jiànshù・Nǚpū
+|zht_rm  = Xīfēng Jiànshù - Nǚpū
 |zh_tl   = West Wind Swordsmanship - Maid
 |ja      = 西風剣術・メイド
-|ja_rm   = Sepyurosu Kenjutsu - Meido<ref>{{Ref/VO|Eula|Chat: Bladework|ja}}</ref>
+|ja_rm   = Sepyurosu Kenjutsu - Meido<ref>{{Ref/VO|Eula|世間話・剣技|ja|note=Chat: Bladework}}</ref>
 |ja_tl   = West Wind Swordmanship - Maid
 |ko      = 페보니우스 검술・메이드
 |ko_rm   = Peboniuseu Geomsul - Meideu
@@ -184,19 +258,26 @@
 |id      = Favonius Bladework - Maid
 |pt      = Técnica de Espada de Favonius - Empregada
 |pt_tl   = 
+|tr      = Favonius Kılıç Tekniği - Hizmetçi
+|tr_tl   = 
+|it      = Tecnica di Favonius - Domestica
+|it_tl   = Technique of Favonius - Maid
 }}
-
-==References==
-{{Reflist}}
 
 ==Change History==
 {{Change History|1.0}}
 
+==References==
+{{Reflist}}
+
 ==Navigation==
 {{Talent Navbox|Noelle}}
 
-[[uk:Стиль фехтування Лицарів західного вітру: Покоївка]]
 [[es:Técnica de espada Favonius - Criada]]
+[[fr:Escrime de Favonius - Servante]]
+[[ja:西風剣術・メイド]]
 [[pt-br:Técnica de Espada de Favonius - Empregada]]
 [[ru:Фехтовальный стиль Фавония: Горничная]]
 [[th:Favonius Bladework - Maid]]
+[[uk:Стиль фехтування Західного вітру: Покоївка]]
+[[vi:Tây Phong Kiếm Thuật - Hầu Gái]]

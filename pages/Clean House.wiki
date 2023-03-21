@@ -1,9 +1,10 @@
 {{Quest Infobox
 |id            = 72232
-|image         = NPC Location Shizuru Context.png
+|image         = World Quest Clean House Start Location Context.png
 |type          = World
 |region        = Inazuma
 |area          = Watatsumi Island
+|subarea       = Sangonomiya Shrine
 |startLocation = [[Sangonomiya Shrine]], [[Inazuma]]
 |prev          = 
 |next          = 
@@ -13,36 +14,35 @@
 |requirement   = Complete [[Orobashi's Legacy]] series<br />Complete [[Omnipresence Over Mortals]]
 |rep           = Inazuma
 |repAmt        = 20
+|repOrder      = 345
 |other         = {{Card|Hero's Wit|2}}
 |characters    = Borenka; Brutish Samurai; Shizuru; Traveler
 }}
-'''Clean House''' is a [[World Quest]] in [[Inazuma]].
+'''''Clean House''''' is a [[World Quest]] in [[Inazuma]].
+
+==Start Location==
+<gallery>
+NPC Location Shizuru.png|Start location
+World Quest Clean House Start Location Context.png|Additional context
+</gallery>
 
 ==Steps==
 Talk to [[Shizuru]] at [[Sangonomiya Shrine]] to receive the quest.
 
 # Go to [[Jakotsu Mine]] to negotiate with the Shogunate Samurai
 # Defeat the Brutish Samurai
-#* Wave 1:
-#** {{Enemy|Shogunate Infantry|x=4}}
-#* Wave 2:
-#** {{Enemy List|Shogunate Infantry*2;Shogunate Infantry Captain|#**}}
-#* Wave 3:
-#** {{Enemy List|Shogunate Infantry*2;Yoriki Samurai|#**}}
+#* Wave 1: {{Enemy List|Shogunate Infantry*4}}
+#* Wave 2: {{Enemy List|Shogunate Infantry*2;Shogunate Infantry Captain}}
+#* Wave 3: {{Enemy List|Shogunate Infantry*2;Yoriki Samurai}}
 # Read the notes that the samurai left behind
 # Go to the port to investigate the Fatui
 # Defeat Borenka and his minions
-#* Wave 1:
-#** {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|text=Borenka|x=1}}
-#** {{Enemy|Shogunate Infantry Captain|x=2}}
-#* Wave 2:
-#** {{Enemy List|Fatui Pyro Agent;Fatui Cryo Cicin Mage|#**}}
-#* Wave 3:
-#** {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|text=Borenka|x=1}}
-#** {{Enemy|Mirror Maiden|x=1}}
+#* Wave 1: {{Enemy List|Fatui Skirmisher - Electrohammer Vanguard|text=Borenka*1}} {{Enemy List|Shogunate Infantry Captain*2}}
+#* Wave 2: {{Enemy List|Fatui Pyro Agent;Fatui Cryo Cicin Mage}}
+#* Wave 3: {{Enemy List|Fatui Skirmisher - Electrohammer Vanguard|text=Borenka*1}} {{Enemy List|Mirror Maiden*1}}
 # Talk to Shizuru
 
-==Notes==
+==Gameplay Notes==
 *After defeating Borenka and his minions, an interactible titled Borenka's Orders can be read before speaking to Shizuru. It will disappear after talking to her.
 {{Dialogue start}}
 ;(Interact with Borenka's Orders)
@@ -212,7 +212,7 @@ Talk to [[Shizuru]] at [[Sangonomiya Shrine]] to receive the quest.
 :'''Shizuru:''' Ahem. In any case, I don't doubt that the Fatui will try to check on this lost outpost again, but I do doubt that they'll try to mess with us rashly any time soon...
 :'''Shizuru:''' But I'll defer to our Divine Priestess' judgment on these matters.
 :'''Shizuru:''' Anyway, enough of the sad stuff. That's the Fatui remnants cleaned up, yes?
-:'''Shizuru:''' You know what? I know of a good place for some grilled unagi. If you've got the time, we can go give it a try. Well? How about it... (sir/ma'am)?
+:'''Shizuru:''' You know what? I know of a good place for some grilled unagi. If you've got the time, we can go give it a try. Well? How about it... {{MC|sir|ma'am|mc=1}}?
 {{Dialogue end}}
 
 ==Video Guides==
@@ -233,14 +233,14 @@ Talk to [[Shizuru]] at [[Sangonomiya Shrine]] to receive the quest.
 |ja_rm   = Doguchi no Souji
 |ja_tl   = Doorway Cleaning
 |ko      = 앞마당 청소
-|ko_rm   = 
-|ko_tl   = 
+|ko_rm   = Apmadang Cheongso
+|ko_tl   = Front Yard Cleaning
 |es      = Limpieza a fondo
 |es_tl   = Deep-Clean
 |fr      = Le grand nettoyage
 |fr_tl   = The Big Cleaning
 |ru      = Чистый дом
-|ru_tl   = 
+|ru_tl   = Clean House
 |th      = ทำความสะอาดบ้าน
 |th_rm   = 
 |th_tl   = 
@@ -252,7 +252,13 @@ Talk to [[Shizuru]] at [[Sangonomiya Shrine]] to receive the quest.
 |id_tl   = House Cleaning
 |pt      = Casa Limpa
 |pt_tl   = Clean House
+|tr      = Temizlik Vakti
+|tr_tl   = 
+|it      = Pulizie di fondo
+|it_tl   = 
 }}
 
 ==Change History==
 {{Change History|2.2}}
+
+[[es:Limpieza a fondo]]

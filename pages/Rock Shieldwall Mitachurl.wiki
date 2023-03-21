@@ -1,57 +1,68 @@
 {{Enemy Infobox
 |image    = Enemy Rock Shieldwall Mitachurl.png
 |type     = Elite Enemies
-|element  = Geo
+|dmgtype  = Physical
+|dmgtype2 = Geo
+|weakpoint = yes
 |family   = Hilichurls
 |group    = Mitachurls
 |ability1 = Shield
 |ability2 = Directional Shield
 }}
-{{Description|A muscular hilichurl that uses a rock as a shield.<br />Fighting and eating meat are the two most important things to hilichurls, because those are what make them grow stronger.<br />All young hilichurls dream of growing up to become a big and strong mitachurl, because that way they can eat more meat, fight more battles, and wield those (almost) impregnable giant rock shields.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Mitachurls}}
+===Items===
+{{Drops Table|type=Mitachurls}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|o4    = 1
+}}
 
 ==Stats==
 {{Enemy Stats|phys_res=30%|hp_ratio=3|atk_ratio=2.4|hp_type=1}}
 
 ==Abilities and Attacks==
-* '''Shield Charge:''' Charges towards the player with its shield, rapidly dealing '''50% ATK''' as  {{Color|Black|Physical DMG}} to players in its path. At the end of the charge, swings its shield at the player, dealing an additional '''100% ATK''' as {{Color|Black|Physical DMG}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Geo Mitachurl
 
-* '''Charge:''' When without its shield, charges towards the player character with brute force, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path.
+|name_1 = Geo Shield
+|desc_1 = The Rock Shieldwall Mitachurl is equipped with a Geo Shield, which blocks incoming DMG from the direction that it is facing. This shield is weakest to [[Blunt Attack]]s.
+{{Elemental Shield Data|Geo|20|cryoonly=1}}
 
-* '''Smack:''' If the player strays too close, swings it shield or delivers a punch with its fist, dealing '''100% ATK''' or '''75% ATK''' as {{Color|Black|Physical DMG}}.
+|name_2 = Shield Charge
+|desc_2 = Charges towards the player with its shield, rapidly dealing '''50% ATK''' as  {{Color|Black|Physical DMG}} to players in its path. At the end of the charge, swings its shield at the player, dealing an additional '''100% ATK''' as {{Color|Black|Physical DMG}}.
 
-* '''Geo Slime Throw:''' If the player is at a different elevation, digs a [[Geo Slime]] out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Geo DMG}}.
+|name_3 = Charge
+|desc_3 = When without its shield, charges towards the player character with brute force, rapidly dealing '''50% ATK''' as {{Color|Black|Physical DMG}} to players in its path.
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Geo Mitachurl Shield Charge
-|caption1 = Shield Charge
+|name_4 = Smack
+|desc_4 = If the player strays too close, swings it shield or delivers a punch with its fist, dealing '''100% ATK''' or '''75% ATK''' as {{Color|Black|Physical DMG}}.
+|caption_4 = Unshielded
+|file_4_2 = Geo Mitachurl Smack Shielded
+|caption_4_2 = Shielded
 
-|file2    = Geo Mitachurl Charge
-|caption2 = Charge
-
-|file3    = Geo Mitachurl Smack
-|caption3 = Smack
-
-|file4    = Geo Mitachurl Smack Shielded
-|caption4 = Smack (Shielded)
-
-|file5    = Geo Mitachurl Geo Slime Throw
-|caption5 = Geo Slime Throw
+|name_5 = Geo Slime Throw
+|desc_5 = If the player is at a different elevation, digs a [[Geo Slime]] out of the ground and throws it at the player, dealing '''50% ATK''' as {{Color|Geo DMG}}.
 }}
 
-==Strategy==
-The Mitachurl's shield is a {{Geo}} object, so attacks that deal high [[Interruption Resistance#Poise Damage|Poise Damage]] can break them most effectively.
+==Descriptions==
+{{Description|A muscular hilichurl that uses a rock as a shield.<br />Fighting and eating meat are the two most important things to hilichurls, because those are what make them grow stronger.<br />All young hilichurls dream of growing up to become a big and strong mitachurl, because that way they can eat more meat, fight more battles, and wield those (almost) impregnable giant rock shields.|[[Archive]]}}
 
-==Location==
-They usually appear in [[Liyue]]. They are also found in [[Inazuma]].
+==Trivia==
+{{Transclude|Mitachurl|titles|section=1}}
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Rock Shieldwall Mitachurl Icon.png|Icon
 </gallery>
 
@@ -70,7 +81,7 @@ Enemy Rock Shieldwall Mitachurl Icon.png|Icon
 |ko_rm   = Dolbangpae Chyuchyu Pokdo
 |ko_tl   = Stone-shield Hilichurl Rioter
 |es      = Mitachurl con Escudo de Piedra
-|es_tl   = 
+|es_tl   = Mitachurl with Stone Shield
 |fr      = Brutoviandu avec bouclier de pierre
 |fr_tl   = Stoneshield Hilimita
 |ru      = Митачурл с каменным щитом
@@ -83,6 +94,10 @@ Enemy Rock Shieldwall Mitachurl Icon.png|Icon
 |id      = Rock Shieldwall Mitachurl
 |pt      = Mitachurl de Escudo de Pedra
 |pt_tl   = 
+|tr      = Taş Kalkanlı Dağ Azmanı
+|tr_tl   = 
+|it      = Mitachurl con scudo di roccia
+|it_tl   = 
 }}
 
 ==Change History==
@@ -91,5 +106,7 @@ Enemy Rock Shieldwall Mitachurl Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Mitachurl mit Steinschild]]
 [[es:Mitachurl con Escudo de Piedra]]
+[[ja:ヒルチャール暴徒・岩盾]]
 [[pt-br:Mitachurl de Escudo de Pedra]]

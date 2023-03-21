@@ -1,6 +1,7 @@
 {{Enemy Infobox
 |image    = Enemy Thundercraven Rifthound Whelp.png
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = no
 |family   = The Abyss
 |group    = Riftwolves
 |type     = Elite Enemies
@@ -10,11 +11,20 @@
 |ability3 = Corrosion
 |ability4 = Teleport
 }}
-{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. "Gold" classified them as "Alfisol."<br />The previous eras, when giant monstrous beasts descended, large swarms of these hounds would go before them to deliquesce the borders of the world and open the way.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Rifthounds}}
+===Items===
+{{Drops Table|type=Rifthound Whelps}}
+
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -32,31 +42,30 @@
 }}
 
 ==Abilities and Attacks==
-*'''Corrosion:''' All of the Thundercraven Rifthound Whelp's attacks apply [[Corrosion]] on hit.
-*'''Bite:''' Lunges at the player and bites, dealing '''85% ATK''' as {{Color|Electro DMG}}.
-*'''Slash:''' Teleports to the player and slashes with its claw, dealing '''100% ATK''' as {{Color|Electro DMG}}.
-*'''Double Slash:''' At melee range, quickly slashes twice at the player, dealing '''65% ATK''' as {{Color|Electro DMG}} with each slash.
-*'''Elemental Devourer:''' Gains '''34%''' [[Fury]] whenever it takes {{Color|Electro DMG}}. (Not including DMG from [[Electro-Charged]]) When full, the Rifthound Whelp decreases its attack [[cooldown]]s and its {{Color|Electro [[Resistance|RES]]}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|enemy = Electro Rifthound Whelp
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = Electro Rifthound Whelp Bite
-|caption1 = Bite
+|name_1 = Corrosion
+|desc_1 = All of the Thundercraven Rifthound Whelp's attacks apply [[Corrosion]] on hit.
 
-|file2    = Electro Rifthound Whelp Slash
-|caption2 = Slash
+|name_2 = Bite
+|desc_2 = Lunges at the player and bites, dealing '''85% ATK''' as {{Color|Electro DMG}}.
 
-|file3    = Electro Rifthound Whelp Double Slash
-|caption3 = Double Slash
+|name_3 = Slash
+|desc_3 = Teleports to the player and slashes with its claw, dealing '''100% ATK''' as {{Color|Electro DMG}}.
 
-|file4    = Electro Rifthound Whelp Elemental Devour
-|caption4 = Elemental Devour
+|name_4 = Double Slash
+|desc_4 = At melee range, quickly slashes twice at the player, dealing '''65% ATK''' as {{Color|Electro DMG}} with each slash.
+
+|name_5 = Elemental Devourer
+|desc_5 = Gains '''34%''' [[Fury]] whenever it takes {{Color|Electro DMG}}. (Not including DMG from [[Electro-Charged]]) When full, the Rifthound Whelp decreases its attack [[cooldown]]s and its {{Color|Electro [[Resistance|RES]]}}.
+|file_5 = Electro Rifthound Whelp Elemental Devour
 }}
 
-===Ability Logic===
+===AI Logic===
 {{See also|Cooldown#Enemy Cooldowns}}
-* An ability will only be used if they meet all of the following conditions:
+* An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
 ** The ability has the highest priority out of all that meet the previous 2 conditions
@@ -75,8 +84,11 @@
 | Slash (Far) || 18.5–25 || 1 || 20.5–25.5 || 3–10.5
 |}
 
+==Descriptions==
+{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. "Gold" classified them as "Alfisol."<br />The previous eras, when giant monstrous beasts descended, large swarms of these hounds would go before them to deliquesce the borders of the world and open the way.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Thundercraven Rifthound Whelp Icon.png|Icon
 Thundercraven Rifthound Whelp (v2.2 sp).png|Card from Version 2.2 Special Program
 </gallery>
@@ -106,8 +118,10 @@ Thundercraven Rifthound Whelp (v2.2 sp).png|Card from Version 2.2 Special Progra
 |fr      = Chiot de faille électrophile
 |fr_tl   = Electrophilic Rift Puppy
 |ru      = Щенок Разрыва: Громоед
-|ru_tl   = 
+|ru_tl   = Rift Whelp: Thundereater
 |th      = Thundercraven - Rifthound Whelp
+|th_rm   = 
+|th_tl   = 
 |vi      = Thể Lôi - Ma Thú Con
 |vi_tl   = Electro - Beast Whelp
 |de      = Donnerfressender Garmwelpe
@@ -115,6 +129,10 @@ Thundercraven Rifthound Whelp (v2.2 sp).png|Card from Version 2.2 Special Progra
 |id      = Thundercraven Rifthound Whelp
 |pt      = Filhote da Fenda - Electrofito
 |pt_tl   = 
+|tr      = Yıldırım Yutan Hiçlik Kurdu Yavrusu
+|tr_tl   = 
+|it      = Segugio della Faglia Viltuono cucciolo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -126,4 +144,6 @@ Thundercraven Rifthound Whelp (v2.2 sp).png|Card from Version 2.2 Special Progra
 ==Navigation==
 {{Enemy Navbox|type=elite}}
 
+[[de:Donnerfressender Garmwelpe]]
+[[es:Cachorro Acechador Eléctrico]]
 [[pt-br:Filhote da Fenda - Electrofito]]

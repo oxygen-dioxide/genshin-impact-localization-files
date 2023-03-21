@@ -9,9 +9,9 @@
 |duration      = 10s
 |attr1         = Blazing Arrow DMG
 |value1        = 137.9%-170.6% Normal Attack DMG
-|utility1      = Elemental Conversion
+|utility1      = Conversion
 |utility2      = Requires Staying on Field
-|utility3      = Multiplicative DMG Increase
+|utility3      = Base DMG Multiplier
 |utility4      = Normal Attack DMG Increase
 }}
 {{Description|"Niwabi" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preperation has made it a real hit. After many fire-related incidents, the [[Tenryou Commission]] ordered the use of "Niwabi" banned, but small bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.}}
@@ -21,19 +21,74 @@
 * {{TalentNote|particles|a converted attack|1}}
 ** This particle generation has a cooldown of 2 seconds.
 ** It can generate a total of '''4''' [[Elemental Particle]]s through its whole duration.
-* The talent scaling number is multiplicative with her Normal Attack damage. It is a separate independent multiplier from [[Damage Bonus]], CRIT, reactions, etc. is calculated using the following formula:<br /><math>\begin{align} & \text{Outgoing DMG} = \\ & \left[ \left( \text{ATK} \right) \times \left( \% \text{ Normal Attack}   \right) \times \left( \% \text{ Blazing Arrow DMG}   \right) + \left( \text{Flat DMG Bonus} \right) \right] \\ &\times \left( 1 + \% \text{ DMG Bonus}  \right) \end{align}</math>
-* Blazing Arrows do not burn grass unless at least two of them (which can be from the same attack in her Normal Attack sequence) land in the same place in a short period of time.
-* The cooldown of the skill starts when the skill is used. There is an 8-second downtime after the skill duration ends before the skill can be activated again.
-* Activation of this skill does not apply {{Pyro}} to nearby targets, but it may act like a {{Pyro}} application for certain objects. Activating this skill will melt [[Dragonspine#Ice Blocks|snow-covered ice blocks]] in Dragonspine, allow [[Mist Flower]]s to be harvested, set off Exploding Pyro Flowers, light torches, and explode [[Electro Crystal]]s. There is also a visual {{Pyro}} effect but no elemental reaction when activating this skill next to [[Dendro Vines]] and enemies. There is no reaction at all when activating this skill next to regular ice blocks, {{Cryo}} shields, [[Exploding Barrel]]s, or regular barrels and crates.
-* Activation of this skill next to the [[Unusual Hilichurl]] will [[aggravate]] it. (There is no {{Pyro}} application.)
-* Activation of this skill such that it contacts [[wildlife]] (possible with passives such as [[Sayu]]'s [[Yoohoo Art: Silencer's Secret]]) will [[startle]] them but will not kill them.
-* Activating this skill can also pop [[Mona]]'s [[Illusory Bubble]] and may stagger enemies next to Yoimiya, indicating that activation does some [[poise]] damage.
+* The talent scaling number is multiplicative with her Normal Attack damage. It is a separate independent multiplier from [[Damage Bonus]], CRIT, reactions, etc. is calculated using the following formula:<br /><math>\begin{align} & \text{Outgoing DMG} = \\ & \left[ \left( \text{ATK} \right) \times \left( \% \text{ Normal Attack}   \right) \times \left( \% \text{ Blazing Arrow DMG}   \right) + \left( \text{Additive Base DMG Bonus} \right) \right] \\ &\times \left( 1 + \% \text{ DMG Bonus}  \right) \end{align}</math>
+* This skill's activation produces a damageless [[0U]] {{Pyro}} attack around Yoimiya.
+
+;<big>Passive Effects</big>
 * {{TalentNote|character=Yoimiya|talent=Niwabi Fire-Dance|ascension|1|Tricks of the Trouble-Maker}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|3|Trickster's Flare}}
 *{{TalentNote|constellation|4|Pyrotechnic Professional}}
 *{{TalentNote|constellation|6|Naganohara Meteor Swarm}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Activation Damagless Hit
+|gu      = 0U
+|icdtag  = none
+|poise   = 60
+|impulse = 3
+
+|title2   = Converted Normal Attack 1-Hit A
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 8.1515
+|impulse2 = 2
+
+|title3   = Converted Normal Attack 1-Hit B
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 8.1515
+|impulse3 = 2
+
+|title4   = Converted Normal Attack 2-Hit
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 15.651
+|impulse4 = 2
+
+|title5   = Converted Normal Attack 3-Hit
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 19.98
+|impulse5 = 2
+
+|title6   = Converted Normal Attack 4-Hit A
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 10.656
+|impulse6 = 2
+
+|title7   = Converted Normal Attack 4-Hit B
+|gu7      = 1U
+|icdtag7  = Normal Attack
+|icdtype7 = 2.5s/3 Hits
+|poise7   = 10.656
+|impulse7 = 2
+
+|title8   = Converted Normal Attack 5-Hit
+|gu8      = 1U
+|icdtag8  = Normal Attack
+|icdtype8 = 2.5s/3 Hits
+|poise8   = 23.8428
+|impulse8 = 2
+}}
 
 ==Preview==
 {{Preview
@@ -109,6 +164,10 @@
 |id      = Niwabi Fire-Dance
 |pt      = Dança de Fogo Niwabi
 |pt_tl   = Fire Dance Niwabi
+|tr      = Niwabi Ateş Dansı
+|tr_tl   = Niwabi Fire-Dance
+|it      = Danza del fuoco Niwabi
+|it_tl   = Dance of the Fire Niwabi
 }}
 
 ==Change History==
@@ -121,7 +180,9 @@
 {{Talent Navbox|Yoimiya}}
 
 [[es:Danza de la pólvora]]
+[[fr:Danse du feu « Niwabi »]]
 [[ja:焔硝の庭火舞い]]
 [[pt-br:Dança de Fogo Niwabi]]
-[[th:Niwabi Fire-Dance]]
 [[ru:Огненный танец Ниваби]]
+[[th:Niwabi Fire-Dance]]
+[[vi:Điệu Nhảy Niwabi Cháy Bỏng]]

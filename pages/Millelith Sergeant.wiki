@@ -1,7 +1,8 @@
 {{Enemy Infobox
 |image    = Enemy Millelith Sergeant Icon.png
+|weakpoint = yes
 |type     = Quest Enemies
-|group    = Millelith Soldiers
+|group    = Millelith
 |family   = Other Human Factions
 |faction  = Millelith
 }}
@@ -17,11 +18,81 @@
 
 ==Abilities and Attacks==
 ''Attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Stab
+|desc_1 = Performs a quick stab with their Halberd, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
-* '''Stab''': Performs a quick stab with their spear, dealing '''100% ATK''' as {{Color|Physical DMG}}.
-* '''Spear Combo''': Performs 3 stab combo with their spear, dealing '''100% ATK''' as {{Color|Physical DMG}} with each stab.
-* '''Dodge''': Jumps backwards away from the player.
-* '''Rally''': The Millelith Sergeant rallies nearby Millelith Soldiers, causing them to perform 3-stab combo.
+|name_2 = Swing
+|desc_2 = Performs an sideway swing with their Halberd, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+
+|name_3 = Halberd Stab Combo
+|desc_3 = Performs 3 quick stabs with their Halberd, dealing '''100% ATK''' as {{Color|Physical DMG}} with each stab.
+
+|name_4 = Halberd Slash Combo
+|desc_4 = Winds up and performs 3 slashes with the axe blade of their Halberd, dealing '''???% ATK''' as {{Color|Physical DMG}} with each slash.
+
+|name_5 = Dodge
+|desc_5 = Jumps backwards away from the player.
+
+|name_6 = Rally
+|desc_6 = The Millelith Sergeant rallies nearby Millelith Soldiers, causing them to perform 3-stab combo.
+|file_6 = Millelith Soldier Stab 2
+}}
+
+==Voice-Overs==
+{{VO/Enemy
+|enemy                   = Millelith Sergeant
+|vo_01_00_title          = Spotting the Player
+|vo_01_01_file           = VO {lang}{name} - To Arms.ogg
+|vo_01_01_tx_en          = To arms!
+|vo_01_01_tx_zh          = 列阵，迎敌！
+|vo_01_01_tx_ja          = 陣を構え、迎撃開始！
+|vo_01_01_tx_ko          = {{tx}}
+|vo_01_02_file           = VO {lang}{name} - Who Goes There.ogg
+|vo_01_02_tx_en          = Who goes there!?
+|vo_01_02_tx_zh          = 谁在那里！
+|vo_01_02_tx_ja          = 誰だ！
+|vo_01_02_tx_ko          = 거기 누구냐!
+
+|vo_02_00_title          = Halberd Slash Combo
+|vo_02_01_file           = VO {lang}{name} - Take This.ogg
+|vo_02_01_tx_en          = Take this!
+|vo_02_01_tx_zh          = 看招！
+|vo_02_01_tx_ja          = くらえ！
+|vo_02_01_tx_ko          = 받아라!
+|vo_02_02_file           = VO {lang}{name} - Lithic Triad.ogg
+|vo_02_02_tx_en          = Lithic triad!
+|vo_02_02_tx_zh          = 千岩三式！
+|vo_02_02_tx_ja          = 千岩三式！
+|vo_02_02_tx_ko          = 천암삼식!
+
+|vo_03_00_title          = Dodging
+|vo_03_01_tx_en          = {{A|VO Millelith Sergeant - Dodging 01.ogg}} {{A|VO Millelith Sergeant - Dodging 02.ogg}} 
+
+|vo_04_00_title          = Rallying
+|vo_04_01_file           = VO {lang}{name} - Attack.ogg
+|vo_04_01_tx_en          = Attack!
+|vo_04_01_tx_zh          = 进攻！
+|vo_04_01_tx_ja          = 進め！
+|vo_04_01_tx_ko          = {{tx}}
+|vo_04_02_file           = VO {lang}{name} - Take The Target Alive.ogg
+|vo_04_02_tx_en          = Take the target alive!
+|vo_04_02_tx_zh          = 拿下目标！
+|vo_04_02_tx_ja          = 覚悟しろ！
+|vo_04_02_tx_ko          = {{tx}}
+
+|vo_05_00_title          = Defeated
+|vo_05_01_file           = VO {lang}{name} - Bested.ogg
+|vo_05_01_tx_en          = Bested...
+|vo_05_01_tx_zh          = 技不如人…
+|vo_05_01_tx_ja          = 敗れた…
+|vo_05_01_tx_ko          = 아직 실력이 부족해!
+|vo_05_02_file           = VO {lang}{name} - Beaten.ogg
+|vo_05_02_tx_en          = Beaten...
+|vo_05_02_tx_zh          = 战败了…
+|vo_05_02_tx_ja          = 俺の負けだ…
+|vo_05_02_tx_ko          = 패배했군...
+}}
 
 ==Other Languages==
 {{Other Languages
@@ -51,6 +122,10 @@
 |id      = Millelith Sergeant
 |pt      = Sargento Millelith
 |pt_tl   = Millelith Sergeant
+|tr      = Taşordu Çavuşu
+|tr_tl   = 
+|it      = Sergente dei Milleliti
+|it_tl   = 
 }}
 
 ==Change History==
@@ -59,4 +134,7 @@
 ==Navigation==
 {{Enemy Navbox|Special}}
 
+[[de:Millelithenausbilder]]
+[[ja:千岩軍隊長]]
 [[pt-br:Sargento Millelith]]
+[[vi:Giáo Đầu Thiên Nham Quân]]

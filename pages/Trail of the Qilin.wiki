@@ -6,7 +6,7 @@
 * Continuously taunts surrounding opponents, attracting them to attack it.
 * Endurance scales based on Ganyu's Max HP.
 * Blooms profusely when destroyed or once its duration ends, dealing {{Color|AoE Cryo DMG}}.
-|scale_att1    = HP
+|scale_att1    = Max HP
 |scale_att2    = ATK
 |particles     = 2×2
 |CD            = 10s
@@ -24,12 +24,26 @@
 
 ==Gameplay Notes==
 * This skill generates '''2''' elemental particles when the Ice Lotus hits at least 1 target, and '''2''' elemental particles when the explosion hits at least 1 target.
-* {{TalentNote|icd|All DMG dealt by this skill|0|plural=1}}
 
 ;<big>Constellation Effects</big>
 * {{TalentNote|constellation|2|The Auspicious}}
 * {{TalentNote|constellation|5|The Merciful}}
 * {{TalentNote|constellation|6|The Clement}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Activation DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 80
+|impulse = 3
+
+|title2   = Explosion DMG
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 80
+|impulse2 = 4
+}}
 
 ==Preview==
 {{Preview
@@ -91,7 +105,7 @@
 |zh_tl   = Tracks of Qilin at Mountain and River
 |ja      = 山沢麟跡
 |ja_rm   = Santaku Rinseki{{Assumed}}
-|ja_tl   = Mountain Grace of Qilin Trails{{Sino}}
+|ja_tl   = Qilin Tracks at the Mountain Stream
 |ko      = 산과 강의 기린 흔적
 |ko_rm   = Sangwa Gang-ui Girin Heunjeok
 |ko_tl   = Tracks of Qilin at Mountain and River
@@ -100,7 +114,7 @@
 |fr      = Trace de Qilin
 |fr_tl   = Qilin's Trail
 |ru      = След цилиня
-|ru_tl   = 
+|ru_tl   = Qilin's Trail
 |th      = Trail of the Qilin
 |vi      = Sơn Trạch Lân Tích
 |vi_tl   = 
@@ -109,6 +123,10 @@
 |id      = Trail of the Qilin
 |pt      = Rastros de Qilin
 |pt_tl   = Qilin Tracks
+|tr      = Qilin'in İzi
+|tr_tl   = 
+|it      = Scia del Qilin
+|it_tl   = Trail of the Qilin
 }}
 
 ==Change History==
@@ -122,3 +140,4 @@
 [[pt-br:Rastros de Qilin]]
 [[ru:След цилиня]]
 [[th:Trail of the Qilin]]
+[[vi:Sơn Trạch Lân Tích]]

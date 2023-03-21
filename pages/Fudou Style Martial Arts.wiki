@@ -21,6 +21,82 @@
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|1|Named Juvenile Casebook}}
 
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 42.16
+|impulse = 3
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 41.46
+|impulse2 = 3
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 57.44
+|impulse3 = 3
+
+|title4   = Normal Attack 4-Hit A
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 16.63
+|impulse4 = 3
+
+|title5   = Normal Attack 4-Hit B
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 18.29
+|impulse5 = 3
+
+|title6   = Normal Attack 4-Hit C
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 21.62
+|impulse6 = 3
+
+|title7   = Normal Attack 5-Hit
+|gu7      = 1U
+|icdtag7  = Normal Attack
+|icdtype7 = 2.5s/3 Hits
+|poise7   = 69.13
+|impulse7 = 5
+
+|title8   = Charged Attack
+|gu8      = 1U
+|icdtag8  = none
+|poise8   = 120
+|impulse8 = 5
+
+|title9   = Plunging Attack Collision
+|gu9      = 0U
+|icdtag9  = none
+|poise9   = 5
+|impulse9 = 2
+
+|title10   = Low Plunge
+|gu10      = 1U
+|icdtag10  = none
+|poise10   = 50
+|impulse10 = 3
+
+|title11   = High Plunge
+|gu11      = 1U
+|icdtag11  = none
+|poise11   = 100
+|impulse11 = 4
+}}
+
 ==Preview==
 {{Preview
 |file1=Fudou Style Martial Arts Normal Preview
@@ -35,9 +111,10 @@
 
 ==Attribute Scaling==
 {{Talent Scaling
+|talentType=Normal Attack
 |levels=11
-|order=hit1,hit2,hit3,hit4,hit5,chargedattack,stamina,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),5-Hit DMG (%),Charged Attack (%),Charged Attack Stamina Cost,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|order=hit1,hit2,hit3,hit4,hit5,charged_title,charged,stamina,plunge_title,plunge,plungelow,plungehigh
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),5-Hit DMG (%),Charged Attack,Charged Attack (%),Charged Attack Stamina Cost,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=37.47
 |hit1_2=40.28
 |hit1_3=43.09
@@ -93,17 +170,17 @@
 |hit5_9=104.46
 |hit5_10=110.61
 |hit5_11=116.75
-|chargedattack_1=73
-|chargedattack_2=78.47
-|chargedattack_3=83.95
-|chargedattack_4=91.25
-|chargedattack_5=96.73
-|chargedattack_6=102.2
-|chargedattack_7=109.5
-|chargedattack_8=116.8
-|chargedattack_9=124.1
-|chargedattack_10=131.4
-|chargedattack_11=138.7
+|charged_1=73
+|charged_2=78.47
+|charged_3=83.95
+|charged_4=91.25
+|charged_5=96.73
+|charged_6=102.2
+|charged_7=109.5
+|charged_8=116.8
+|charged_9=124.1
+|charged_10=131.4
+|charged_11=138.7
 |stamina=25
 |plunge_1=56.83
 |plunge_2=61.45
@@ -162,7 +239,7 @@
 |fr      = Arts martiaux style Fudou
 |fr_tl   = Fudou Style Martial Arts
 |ru      = Боевой стиль Фудо
-|ru_tl   = 
+|ru_tl   = Fudou Martial Style
 |vi      = {{tt|Võ Thuật|武術}} Fudou
 |vi_tl   = Fudou Martial Arts
 |de      = Kampf im Fudou-Stil
@@ -171,6 +248,10 @@
 |pt_tl   = 
 |id      = Fudou Style Martial Arts
 |th      = Fudou Style Martial Arts
+|tr      = Fudou Tarzı Dövüş Sanatı
+|tr_tl   = 
+|it      = Arti marziali stile Fudou
+|it_tl   = Fudou Style Martial Arts
 }}
 
 ==Change History==
@@ -180,5 +261,8 @@
 {{Talent Navbox|Shikanoin Heizou}}
 
 [[es:Artes marciales Fudou]]
-[[th:Fodou Style Martial Arts]]
+[[fr:Arts martiaux style Fudou]]
 [[pt-br:Arte Marcial Fudou]]
+[[ru:Боевой стиль Фудо]]
+[[th:Fudou Style Martial Arts]]
+[[vi:Võ Thuật Fudou]]

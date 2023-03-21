@@ -4,58 +4,70 @@
 |family   = Elemental Lifeforms
 |group    = Slimes
 |location = Multiple
-|element  = Pyro
+|dmgtype  = Physical
+|dmgtype2 = Pyro
+|weakpoint = no
 |ability1 = Elemental Infusion
 }}
-{{Description|A monster created by the sedimentation of Pyro dispersed throughout nature.<br />Though its intelligence has not increased with its size, it is very hot. During dry seasons, it can cause wildfires. It will spit forth blazing fireballs when angered, and will turn dark when it is feeling down. A most expressive slime, indeed.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Slimes}}
+===Items===
+{{Drops Table|type=Slimes (Large)}}
 
-==Stats==
-{{Enemy Stats|pyro_res=Immune|hp_ratio=2|atk_ratio=1.4|hp_type=1}}
-
-==Abilities and Attacks==
-*'''Ignited State:''' While in the ignited state, the Large Pyro Slime will be inflicted with the {{Pyro}} status indefinitely. Triggering certain [[Elemental Reactions]] on a Large Pyro Slime will extinguish it.
-**4 [[Gauge Unit Theory|gauges]] of {{Hydro}}, or 16 gauges of {{Anemo}}/{{Cryo}}/{{Electro}}/{{Geo}} must be applied to extinguish the Large Pyro Slime.
-**Additionally, every time the Large Pyro Slime takes {{Color|Pyro DMG}}, it will immediately reignite, regardless of the amount of Pyro gauges applied or the amount of DMG dealt. Therefore, due to the [[Swirl]] and [[Overloaded]] reactions' ability to deal {{Color|Pyro DMG}}, {{Anemo}} or {{Electro}} on their own are unable to fully extinguish it.
-*'''Bump:''' Bumps into the player, dealing '''100% ATK''' as {{Color|Pyro DMG}} while ignited or {{Color|Physical DMG}} while extinguished.
-*'''Leap:'''
-**While ignited, jumps high into the air before marking the impact area and slamming down at the player's location, dealing '''300% ATK''' as {{Color|AoE Pyro DMG}}.
-**While extinguished, performs a low jump with extremely limited range, dealing '''200% ATK''' as {{Color|AoE Physical DMG}} upon landing.
-** Certain enhanced Large Pyro Slimes, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, have reduced [[Cooldown]] on this attack.
-*'''Fireballs:''' Spews 3 consecutive fireballs at the player, dealing '''75% ATK''' as {{Color|AoE Pyro DMG}} on hit. Extinguishing the Large Pyro Slime during this attack will interrupt it.
-*'''Final Burst:''' When defeated in the ignited state, explodes after a short delay, dealing '''200% ATK''' as {{Color|AoE Pyro DMG}}.
-*'''Reignition:''' While extinguished, retreats away from the player until it reignites after a period of time.
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Large Pyro Slime Bump
-|caption1=Bump
-
-|file2=Large Pyro Slime Leap
-|caption2=Leap (Ignited)
-
-|file3=Large Pyro Slime Leap Extinguished
-|caption3=Leap (Extinguished)
-
-|file4=Large Pyro Slime Fireballs
-|caption4=Fireballs
-
-|file5=Large Pyro Slime Fireballs Interrupted
-|caption5=Fireballs (Interrupted)
-
-|file6=Large Pyro Slime Reignite
-|caption6=Reignition
-
-|file7=Large Pyro Slime Final Burst
-|caption7=Final Burst
+===Energy===
+{{Energy Drops
+|type  = Pyro
+|hp1   = 66
+|p1    = 1
+|hp2   = 33
+|p2    = 1
+|hp3   = 0
+|o3    = 1
 }}
 
+==Stats==
+{{Enemy Stats|pyro_res=Immune|hp_ratio=2|atk_ratio=4.2|hp_type=1}}
+
+==Abilities and Attacks==
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Ignited State
+|desc_1 = While in the ignited state, the Large Pyro Slime will be inflicted with the {{Pyro}} status indefinitely. Triggering certain [[Elemental Reactions]] on a Large Pyro Slime will extinguish it.
+* 4 [[Elemental Gauge Theory|gauges]] of {{Hydro}}, or 16 gauges of {{Anemo}}/{{Cryo}}/{{Electro}}/{{Geo}} must be applied to extinguish the Large Pyro Slime.
+* Additionally, every time the Large Pyro Slime takes {{Color|Pyro DMG}}, it will immediately reignite, regardless of the amount of Pyro gauges applied or the amount of DMG dealt. Therefore, due to the [[Swirl]] and [[Overloaded]] reactions' ability to deal {{Color|Pyro DMG}}, {{Anemo}} or {{Electro}} on their own are unable to fully extinguish it.
+
+|name_2 = Bump
+|desc_2 = Bumps into the player, dealing '''33.3% ATK''' as {{Color|Pyro DMG}} while ignited or {{Color|Physical DMG}} while extinguished.
+
+|name_3 = Leap
+|desc_3 = <ul><!--
+--><li>While ignited, jumps high into the air before marking the impact area and slamming down at the player's location, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}}.</li><!--
+--><li>While extinguished, performs a low jump with extremely limited range, dealing '''66.6% ATK''' as {{Color|AoE Physical DMG}} upon landing.</li><!--
+--><li>Certain enhanced Large Pyro Slimes, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, have reduced [[Cooldown]] on this attack.</li><!--
+--></ul>
+|caption_3 = Ignited
+|file_3_2 = Large Pyro Slime Leap Extinguished
+|caption_3_2 = Extinguished
+
+|name_4 = Fireballs
+|desc_4 = Spews 3 consecutive fireballs at the player, dealing '''25% ATK''' as {{Color|AoE Pyro DMG}} on hit. Extinguishing the Large Pyro Slime during this attack will interrupt it.
+|file_4_2 = Large Pyro Slime Fireballs Interrupted
+|caption_4_2 = Interrupted
+
+|name_5 = Final Burst
+|desc_5 = When defeated in the ignited state, explodes after a short delay, dealing '''66.6% ATK''' as {{Color|AoE Pyro DMG}}.
+
+|name_6 = Reignition
+|desc_6 = While extinguished, retreats away from the player until it reignites after a period of time.
+|file_6 = Large Pyro Slime Reignite
+}}
+
+==Descriptions==
+{{Description|A monster created by the sedimentation of Pyro dispersed throughout nature.<br />Though its intelligence has not increased with its size, it is very hot. During dry seasons, it can cause wildfires. It will spit forth blazing fireballs when angered, and will turn dark when it is feeling down. A most expressive slime, indeed.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Large Pyro Slime Icon.png|Icon
 </gallery>
 
@@ -74,7 +86,7 @@ Enemy Large Pyro Slime Icon.png|Icon
 |ko_rm   = Geodae Hwayeom Seulla'im
 |ko_tl   = Large {{Lex|Pyro|ko}} Slime
 |es      = Slime Gigante Pyro
-|es_tl   = 
+|es_tl   = Giant Pyro Slime
 |fr      = Pyroblob géant
 |fr_tl   = Giant Pyro Blob
 |ru      = Большой Пиро слайм
@@ -87,6 +99,10 @@ Enemy Large Pyro Slime Icon.png|Icon
 |id      = Large Pyro Slime
 |pt      = Grande Slime Pyro
 |pt_tl   = 
+|tr      = Büyük Ateş Bodurlopu
+|tr_tl   = 
+|it      = Melmoso di Pyro gigante
+|it_tl   = 
 }}
 
 ==Change History==
@@ -95,5 +111,9 @@ Enemy Large Pyro Slime Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Großer Pyro-Schleim]]
 [[es:Slime Gigante Pyro]]
+[[fr:Pyroblob géant]]
+[[ja:大型炎スライム]]
 [[pt-br:Grande Slime Pyro]]
+[[zh:大型火史萊姆]]

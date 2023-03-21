@@ -1,0 +1,126 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Advanced Aura Mechanics
+|tab3 = Simultaneous Reaction Priority
+|tab4 = Character Data
+}}
+{{Community}}
+If an element is applied to a target with multiple co-existing auras, multiple reactions may be triggered in order, which follows a certain priority sequence depending on the element applied.
+
+Higher priority reactions will be triggered first, and lower priority reactions will only be triggered if the applied element was not fully consumed after triggering higher priority reactions. Lower priority reactions will use the leftover gauges from the higher priority reactions.
+
+For example, when a target has '''1U''' of {{Hydro}} '''1U''' of {{Electro}} simultaneously:
+* If '''1U''' of {{Pyro}} is applied, it will trigger [[Overloaded]], which fully consumes the Electro aura and the applied Pyro, while the '''1U''' Hydro aura remains untouched.
+* If '''2U''' of {{Pyro}} is applied, it will first trigger Overloaded, fully consuming the Electro aura but leaving '''1U''' of the applied Pyro remaining. The remaining Pyro then continues to react with the Hydro aura, triggering [[Vaporize]], and leaving '''0.5U''' of Hydro on the target.
+* This is due to Overloaded having a higher reaction priority than Vaporize for Pyro.
+
+==Reaction Priority Table==
+The following table displays full reaction priority sequences for each type of applied element:<ref>NGA: [https://nga.178.com/read.php?tid=33235924 <nowiki>[</nowiki>心得交流<nowiki>]</nowiki> 草反应机制的个人汇总]</ref>
+{| class="wikitable"
+! rowspan="2" | Priority !! colspan="9" style="text-align:center;" | Applied Element
+|-
+! {{Pyro}} !! {{Hydro}} !! {{Dendro}} !! {{Electro}} !! {{Cryo}} !! {{Frozen}} !! {{Anemo}} !! {{Geo}} !! {{Color|Dendro|Quicken}}
+|-
+| 1 || Burgeon || Vaporize || Spread || Hyperbloom || Cryo Superconduct || Frozen Mark || Electro Swirl || Shattered || Burning
+|-
+| 2 || Overloaded || Hydro Swirl || Quicken || Aggravate || Cryo Melt || Frozen Superconduct || Pyro Swirl || Electro Crystallize || Quicken Bloom
+|-
+| 3 || Pyro Swirl || Frozen || Burning || Overloaded || Cryo Swirl || Frozen Melt || Hydro Swirl || Pyro Crystallize ||
+|-
+| 4 || Vaporize || Hydro Bloom || Dendro Bloom || Electro Swirl || Frozen || Frozen Swirl || Cryo Swirl || Hydro Crystallize ||
+|-
+| 5 || Pyro Melt || Hydro Aura || Dendro Aura || Electro-Charged || Cryo Aura || || Frozen Swirl || Cryo Crystallize ||
+|-
+| 6 || Burning || Electro-Charged || || Cryo Superconduct || || || Anemo Aura || Frozen Crystallize ||
+|-
+| 7 || Pyro Aura || Wet Mark || || Frozen Superconduct || || || || Geo Mark ||
+|-
+| 8 || || || || Quicken || || || || ||
+|-
+| 9 || || || || Electro Aura || || || || ||
+|}
+
+==Scenarios==
+In practice, the following multi-aura scenarios exist.
+
+Note that scenarios listed may not be exhaustive. For scenarios not listed, refer to the table above.
+
+===Electro + Hydro===
+* If {{Pyro}}/{{Cryo}}/{{Dendro}}/{{Anemo}}/{{Geo}} is applied, the Electro reaction will occur first, and the Hydro reaction will occur if the applied element was not fully consumed.
+* If {{Dendro}} is applied, the following may occur in sequence:
+*# Dendro and Electro react to cause Quicken
+*# Dendro and Hydro react to cause Bloom
+*# The Quicken aura previously produced reacts with Hydro to cause Bloom
+
+===Quicken + Electro===
+* If {{Dendro}} is applied, Spread will occur before Quicken.
+* If {{Hydro}} is applied, Bloom will occur first, and Electro-Charged will occur if Hydro was not fully consumed.
+* If {{Pyro}} is applied, Overloaded will occur first, and Burning will occur if Pyro was not fully consumed.
+
+===Quicken + Dendro===
+* If {{Electro}} is applied, Aggravate will occur before Quicken.
+* If {{Pyro}} is applied, Burning will occur and consume both Quicken and Dendro simultaneously.
+* If {{Hydro}} is applied, Bloom will occur and consume both Quicken and Dendro simultaneously.
+
+===Cryo + Dendro===
+* If {{Pyro}} is applied, Melt will occur first, and Burning will occur if Pyro was not fully consumed.
+* If {{Electro}} is applied, Superconduct will occur first, and Quicken will occur if Electro was not fully consumed.
+* If {{Hydro}} is applied, Frozen will occur first, and Bloom will occur if Hydro was not fully consumed.
+
+===Cryo + Quicken===
+* If {{Pyro}} is applied, Melt will occur first, and Burning will occur if Pyro was not fully consumed.
+* If {{Electro}} is applied, Aggravate will occur before Superconduct.
+* If {{Hydro}} is applied, Frozen will occur first, and Bloom will occur if Hydro was not fully consumed.<ref group="Note">A technique commonly referred to as "[[Glossary#F|Fridge]]" takes advantage of the Frozen > Bloom reaction priority to allow for more instances of Bloom to be triggered using the same Dendro aura.</ref>
+
+===Cryo + Quicken + Dendro===
+* If {{Pyro}} is applied, Melt will occur first, and Burning will occur if Pyro was not fully consumed, which consumes both Quicken and Dendro simultaneously.
+* If {{Electro}} is applied, the following will occur in order: Aggravate, Superconduct, Quicken. Quicken will only occur if Electro was not fully consumed when triggering Superconduct.
+* If {{Hydro}} is applied, Frozen will occur first, and Bloom will occur if Hydro was not fully consumed, which consumes both Quicken and Dendro simultaneously.
+
+===Freeze + Hydro===
+* If {{Pyro}} is applied, only Melt will occur.
+* If {{Electro}} is applied, only Superconduct will occur.
+* If {{Anemo}} is applied, Hydro Swirl will occur first, and Frozen Swirl will occur if Anemo was not fully consumed.
+* If {{Geo}} is applied, Shatter will occur before Hydro Crystallize.
+
+===Freeze + Cryo===
+* If {{Pyro}} is applied, Melt will occur and consume both Freeze and Cryo simultaneously.
+* If {{Electro}} is applied, Superconduct will occur. The Cryo gauge will be consumed first. If the Electro gauge is not fully consumed after depleting Cryo, it will continue to consume the Freeze gauge but will ''not'' trigger any extra reactions.
+* If {{Anemo}} is applied, Cryo Swirl will occur. The Cryo gauge will be consumed first. If the Anemo gauge is not fully consumed after depleting Cryo, it will continue to consume the Freeze gauge but will ''not'' trigger any extra reactions.
+* If {{Geo}} is applied, Shatter will occur before Cryo Crystallize.
+
+===Frozen + Hydro===
+* If {{Pyro}} is applied, only Melt will occur.
+* If {{Electro}} is applied, only Superconduct will occur.
+* If {{Anemo}} is applied, Hydro Swirl will occur first, and Frozen Swirl will occur if Anemo was not fully consumed.
+* If {{Geo}} is applied, Hydro Crystallize will occur. Leftover Geo gauge will ''not'' react with the Frozen aura.
+
+===Frozen + Cryo===
+* If {{Pyro}} is applied, Melt will occur and consume both Frozen and Cryo simultaneously.
+* If {{Electro}} is applied, Superconduct will occur. The Cryo gauge will be consumed first. If the Electro gauge is not fully consumed after depleting Cryo, it will continue to consume the Frozen gauge but will ''not'' trigger any extra reactions.
+* If {{Anemo}} is applied, Cryo Swirl will occur. The Cryo gauge will be consumed first. If the Anemo gauge is not fully consumed after depleting Cryo, it will continue to consume the Frozen gauge but will ''not'' trigger any extra reactions.
+* If {{Geo}} is applied, Cryo Crystallize will occur. The Cryo gauge will be consumed, and the Frozen gauge will ''not'' be consumed even if there is leftover Geo gauge after the reaction.
+
+===Frozen + Freeze===
+* If {{Pyro}}/{{Electro}}/{{Anemo}} is applied, the Cryo-related reaction will occur and consume both Frozen and Cryo equally.
+* If {{Geo}} is applied, Shatter will occur before Cryo Crystallize.
+
+===Burning + Pyro===
+* When {{Hydro}}/{{Electro}}/{{Anemo}}/{{Geo}} is applied, the Pyro-related reaction will occur and consume both Burning and Pyro equally.
+
+===Pyro/Burning + Dendro===
+* When {{Hydro}}/{{Electro}} is applied, the Pyro reaction will occur first, and the Dendro reaction will occur if the applied element was not fully consumed.
+
+===Pyro/Burning + Quicken===
+* When {{Hydro}} is applied, Vaporize will occur first, and Bloom will occur if Hydro was not fully consumed.
+* When {{Electro}} is applied, Aggravate will occur before Overloaded.
+
+==Notes==
+{{Reflist|note=1}}
+
+==References==
+{{Reflist}}
+
+[[Category:Elemental Gauge Theory]]
+
+[[vi:Thuyết Định Lượng Nguyên Tố/Trình Tự Phản Ứng]]

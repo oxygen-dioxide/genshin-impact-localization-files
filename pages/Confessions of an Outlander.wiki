@@ -6,16 +6,18 @@
 |actNum        = I
 |act           = The Immovable God and the Eternal Euthymia
 |part          = 2
-|description   = You arrive at Ritou in Inazuma smoothly and meet up with your contact, Thoma. But it seems that outlanders are far from welcome here...
 |requirement   = 
 |startLocation = [[Ritou]], [[Inazuma]]
+|region        = Inazuma
+|area          = Narukami Island
+|subarea       = Ritou
 |prev          = Setting Sail
 |next          = Ritou Escape Plan
 |exp           = 800
 |mora          = 38,100
 |primogems     = 30
 |other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|7}}
-|characters    = Harrison; Katsuie; Keijirou; Kurisu; Paimon; Thoma; Traveler; Werner
+|characters    = Harrison; Kageyama; Katsuie; Keijirou; Kurisu; Paimon; Ryouko; Thoma; Traveler; Werner; Yurika
 |voiced        = yes
 }}
 {{TeyvatQuest|title=Confessions of an Outlander|chapter=2|act=1|part=2}}
@@ -37,15 +39,16 @@
 #Talk to Thoma
 #*Obtain [[Komore Teahouse Invitation Letter]]
 
-==Notes==
+==Gameplay Notes==
 <!-- Any notes that will help complete the quest -->
-*This quest requires 1 Mondstadt specialty and 1 Liyue specialty
-*When following Keijirou, the player will enter [[Stealth]] mode and will have to avoid being caught.
-**Getting noticed while Keijirou is speaking will interrupt any dialogue and prevent it from playing.
-**If the Traveler is caught by Keijirou, he will call the Traveler to come out and the quest restarts.
-**If the Traveler loses sight of Keijirou, he will suddenly disappear. Paimon will make a comment about not making too much noise, and the quest restarts.
+* This quest requires 1 Mondstadt specialty and 1 Liyue specialty
+* When following Keijirou, the player will enter [[Stealth]] mode and will have to avoid being caught.
+** Getting noticed while Keijirou is speaking will interrupt any dialogue and prevent it from playing.
+** If the Traveler is caught by Keijirou, he will call the Traveler to come out and the quest restarts.
+** If the Traveler loses sight of Keijirou, he will suddenly disappear. Paimon will make a comment about not making too much noise, and the quest restarts.
 
 ==Dialogue==
+{{Quest Description|You arrive at Ritou in Inazuma smoothly and meet up with your contact, Thoma. But it seems that outlanders are far from welcome here...}}
 {{Dialogue start}}
 ===The Outlander Affairs Agency===
 ;(Talk to [[Kageyama]])
@@ -55,7 +58,7 @@
 :{{A|vo dqaq002 1 kageyama 03.ogg}} '''Kageyama:''' Excuse me? Please provide the information requested, and also declare any goods you are carrying with you.
 :{{DIcon}} We are here to... trade wine. And ore.
 ::{{A|vo dqaq002 1 kageyama 04a.ogg}} '''Kageyama:''' Currently, only members of the International Trade Association are authorized to engage in the import and export of goods. Do you have your trader's permits?
-:{{DIcon}} We are here to find my (sister/brother).
+:{{DIcon}} We are here to find my {{MC|sister|brother|mc=1}}.
 ::{{A|vo dqaq002 1 kageyama 04b.ogg}} '''Kageyama:''' Oh? Well, I'm sorry. We cannot approve entry for purely personal reasons. So, unless you have a valid reason for visiting in accordance with the rules...
 :{{A|vo dqaq002 1 paimon 02.ogg}} '''Paimon:''' Um... uh... w&mdash;we&mdash;uh...
 :{{A|vo dqaq002 1 kageyama 05.ogg}} '''Kageyama:''' My apologies, but I'll have to ask you to&mdash;
@@ -407,7 +410,7 @@
 :{{A|vo dqaq002 17 thoma 06.ogg}} '''Thoma:''' Let's get dinner one day soon, gentlemen. My treat. I insist.
 :{{A|vo dqaq002 17 thoma 07.ogg}} '''Thoma:''' Eh, no response, huh... I suppose that bridge is well and truly burned, then.
 :{{A|vo dqaq002 17 kurisu 12.ogg}} '''Kurisu:''' Thank you so much, Thoma... But I'm sorry your relationship with the Kanjou Commission had to suffer for our sake...
-:{{A|vo dqaq002 17 thoma 08a.ogg}} {{A|vo dqaq002 17 thoma 08b.ogg}} '''Thoma:''' Haha. Hey, hey, I was joking. It's a small price to pay and you're more than welcome. If there's anyone you should be thanking, it's the Traveler. (He/She)'s the one who found a way to turn things around.
+:{{A|vo dqaq002 17 thoma 08a.ogg}} {{A|vo dqaq002 17 thoma 08b.ogg}} '''Thoma:''' Haha. Hey, hey, I was joking. It's a small price to pay and you're more than welcome. If there's anyone you should be thanking, it's the Traveler. {{MC|He|She|mc=1}}'s the one who found a way to turn things around.
 :{{A|vo dqaq002 17 thoma 09.ogg}} '''Thoma:''' If nothing else, I'm sure the tax-collection ashigaru will tread a little more carefully in future.
 <!-- VO says in ''the'' future but line doesn't-->
 :{{A|vo dqaq002 17 paimon 06.ogg}} '''Paimon:''' Thoma... what was all that&mdash;
@@ -472,11 +475,6 @@
 :{{A|vo dqaq002 20 paimon 13.ogg}} '''Paimon:''' Ugh, well, guess we should give it a try. Let's head to the border and see how far we get.
 {{Dialogue end}}
 
-===Unsorted voice-over===
-*{{A|vo dqaq002 13 paimon 03.ogg|1}} {{tx}}
-*{{A|vo dqaq002 13 paimon 08.ogg|1}} We don't wanna lose him...
-*{{A|vo dqaq002 16 paimon 01.ogg|1}} Seems we got back just in time &mdash; Keijirou looks like he's about to collect more taxes. Quick, let's head over!
-
 ==Other Languages==
 {{Other Languages
 |en      = Confessions of an Outlander
@@ -484,7 +482,7 @@
 |zhs_rm  = Yìxiāng Rén de Chànhuǐ Lù
 |zht     = 異鄉人的懺悔錄
 |zht_rm  = Yìxiāng Rén de Chànhuǐ Lù
-|zh_tl   = 
+|zh_tl   = Confession Record of an Outlander
 |ja      = 異郷人の懺悔録
 |ja_rm   = Ikyoujin no Zangeroku{{Assumed}}
 |ja_tl   = Confession Record of a Foreigner
@@ -496,7 +494,7 @@
 |fr      = Confessions d'un étranger
 |fr_tl   = Confessions of an Outlander
 |ru      = Исповедь чужестранца
-|ru_tl   = 
+|ru_tl   = Confessions of an Outlander
 |th      = บันทึกคำสารภาพของคนแปลกหน้า
 |th_rm   = 
 |th_tl   = Confession Record of a Stranger
@@ -508,6 +506,10 @@
 |id_tl   = Foreigner Confession
 |pt      = Confissões de um Forasteiro
 |pt_tl   = Confessions of an Outsider
+|tr      = Bir Yabancının İtirafları
+|tr_tl   = 
+|it      = Confessioni di {{MC|m=uno straniero|f=una straniera}}?
+|it_tl   = Confessions of {{MC|a Foreigner|mf=1}}?
 }}
 
 ==Change History==
@@ -518,5 +520,6 @@
 [[Category:Archon Chapter 2]]
 
 [[fr:Confession d'un étranger]]
-[[ru:Исповедь чужестранца]]
+[[ja:異郷人の懺悔録]]
 [[pt-br:Confissões de um Forasteiro]]
+[[ru:Исповедь чужестранца]]

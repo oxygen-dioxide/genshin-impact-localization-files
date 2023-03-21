@@ -1,7 +1,8 @@
 {{Enemy Infobox
 |image    = Enemy Thunder Manifestation.png
 |title    = Raging Thunder of Amakumo Peak
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = yes
 |type     = Normal Bosses
 |family   = Elemental Lifeforms
 |location = [[Amakumo Peak]], [[Seirai Island]], [[Inazuma]]
@@ -9,14 +10,27 @@
 |ability2 = Teleport
 |drops    = Storm Beads
 }}
-{{Description|An abnormal Electro elemental life form. Although it might appear similar to an [[Oceanid]], it does not possess her intelligence or memories.<br />That which drives the Thunder Manifestation is a much more primal fury.<br />It is said that these life forms will only descend like lightning upon places that play host to great lingering resentment, such as the fragmented Amakumo Peak, where the storm clouds ever roil. As long as the grudges of the land do not fade, so will the roaring thunder persist.|[[Archive]]}}
-{{Enemy Intro}} It is the congealed "regret" of the deceased [[Kanna Kapatcir]].<ref>{{Ref/Weapon|Thundering Fury}}</ref><ref>{{Ref/Weapon|Hamayumi}}</ref>
+{{Enemy Intro}} It is unlocked by completing the ''[[Seirai Stormchasers]]'' [[World Quest]] series.
 
-==Rewards==
+==Drops==
+===Items===
 {{World Boss Rewards
 |gem         = Vajrada Amethyst
 |exclusive   = Storm Beads
 |sets        = Traveling Doctor,Instructor,The Exile,Prayers for Wisdom
+}}
+
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 75
+|o1    = 1
+|hp2   = 50
+|o2    = 1
+|hp3   = 25
+|o3    = 1
+|hp4   = 0
+|p4    = 2
 }}
 
 ==Stats==
@@ -24,67 +38,58 @@
 |electro_res =Immune
 |hp_ratio    = 14
 |hp_type     = 2
-|atk_ratio   = 4
-|atk_type     = 2
+|atk_ratio   = 7.2
+|atk_type    = 2
 }}
 
+==Weak Point Location==
+<gallery>
+Thunder Manifestation Weak Point.png
+</gallery>
+
 ==Abilities and Attacks==
-Note: Ability and attack names are unofficial except for '''Strike Probes''' and '''Homing Thunder Cage'''.
-
+''Most attack names are unofficial.''
 ===While not Enraged===
-*'''Strike Probes:''' Flies into the air and releases several Electro probes around the arena that pulse intermittently, dealing '''30% ATK''' as {{Color|AoE Electro DMG}} on landing. Upon entering the range of these sigils while it is pulsing, the Thunder Manifestation continuously gains [[Rage]], but will lose the accumulated Rage if the player exits the range.
-*'''Random Strikes:''' Performs several lightning strikes randomly around the arena that each deal '''78% ATK''' as {{Color|AoE Electro DMG}}.
-*'''Full Arena Strike:''' After reaching '''75%''' HP, if not enraged, unleashes a huge Electro shockwave that deals '''50% ATK''' as {{Color|AoE Electro DMG}} across the entire arena and automatically enraging the Manifestation.
-**This attack cannot be used in the [[Spiral Abyss]].
+{{Enemy Attacks
+|name_1 = Strike Probes
+|desc_1 = Flies into the air and releases several Electro probes around the arena that pulse intermittently, dealing '''16.6% ATK''' as {{Color|AoE Electro DMG}} on landing. Upon entering the range of these sigils while it is pulsing, the Thunder Manifestation continuously gains [[Rage]], but will lose the accumulated Rage if the player exits the range.
 
-====Preview====
-{{Preview
-|size=185px
-|file1    = Thunder Manifestation Strike Probes
-|caption1 = Strike Probes
+|name_2 = Random Strikes
+|desc_2 = Performs several lightning strikes randomly around the arena that each deal '''43.3% ATK''' as {{Color|AoE Electro DMG}}.
 
-|file2    = Thunder Manifestation Random Strikes
-|caption2 = Random Strikes
-
-|file3    = Thunder Manifestation Full Arena Strike
-|caption3 = Full Arena Strike
+|name_3 = Full Arena Strike
+|desc_3 = After reaching '''75%''' HP, if not enraged, unleashes a huge Electro shockwave that deals '''27.7% ATK''' as {{Color|AoE Electro DMG}} across the entire arena and automatically enraging the Manifestation.
+* This attack cannot be used in the [[Spiral Abyss]].
 }}
 
 ===While Enraged===
 When enranged, each of the Thunder Manifestation's attacks will target one of the marked players instead of all players. Other players can still take damage if they are within an attack's AoE.
 
-*'''Blink:''' Teleports to any point of the arena instantly.
-*'''Slicing Storm:''' Curls up and rotates its wings, spinning forward and rapidly slicing targets in its way, rapidly and randomly dealing '''50% ATK''', '''25% ATK''', '''12.5% ATK''', '''5% ATK''' as {{Color|Electro DMG}}.
-*'''Smack:''' Quickly raises one of its wings and smacks at its target, dealing '''100% ATK''' as {{Color|Electro DMG}}. Only triggered if in melee range.
-*'''Walls of Lightning:''' Summons two walls of lightning to the target's sides which quickly close in on them, rapidly and randomly dealing '''180% ATK''', '''90% ATK''', '''126% ATK''', '''36% ATK''' as {{Color|Electro DMG}} on contact.
-*'''Sundering Plumes:''' Forms five sets of electric feathers, and releases them against the target, each dealing '''52% ATK''', '''26% ATK''', '''13% ATK''', '''5.2% ATK''', '''5.2% ATK''' respectively as {{Color|Electro DMG}}.
-*'''Dive Bomb:''' Flies and repositions itself near the border of the arena, then it dives forward in a straight line, dealing '''150% ATK''' as {{Color|Electro DMG}}.
-*'''Torrential Descent:''' Flies up and calls forth several lightning bolts to descend upon the target. The bolts will strike in a circular area, and for every wave it will strike three times, each dealing '''78% ATK''' as {{Color|AoE Electro DMG}}.
-*'''Homing Thunder Cage:''' Charges up and marks the target with a thunder circle for a short duration. The circle will then stop and activate, unleashing an electrical prison that homes in on the target, dealing '''50% ATK''' as {{Color|Electro DoT}} if touched or inside of.
+{{Enemy Attacks
+|name_1 = Blink
+|desc_1 = Teleports to any point of the arena instantly.
 
-====Preview====
-{{Preview
-|size=185px
-|file1    = Thunder Manifestation Slicing Storm
-|caption1 = Slicing Storm
+|name_2 = Slicing Storm
+|desc_2 = Curls up and rotates its wings, spinning forward and rapidly slicing targets in its way, rapidly dealing '''27.7% ATK''' as {{Color|Electro DMG}}. This attack is affected by the [[Damage Sequence]].
 
-|file2    = Thunder Manifestation Smack
-|caption2 = Smack
+|name_3 = Smack
+|desc_3 = Quickly raises one of its wings and smacks at its target, dealing '''55.5% ATK''' as {{Color|Electro DMG}}. Only triggered if in melee range.
 
-|file3    = Thunder Manifestation Walls of Lightning
-|caption3 = Walls of Lightning
+|name_4 = Walls of Lightning
+|desc_4 = Summons two walls of lightning to the target's sides which quickly close in on them, rapidly and randomly dealing '''100% ATK''' as {{Color|Electro DMG}} on contact. This attack is affected by the [[Damage Sequence]].
 
-|file4    = Thunder Manifestation Sundering Plumes
-|caption4 = Sundering Plumes
+|name_5 = Sundering Plumes
+|desc_5 = Forms five sets of electric feathers, and releases them against the target, dealing '''28.8% ATK''' as {{Color|Electro DMG}}. This attack is affected by the [[Damage Sequence]].
 
-|file5    = Thunder Manifestation Dive Bomb
-|caption5 = Dive Bomb
+|name_6 = Dive Bomb
+|desc_6 = Flies and repositions itself near the border of the arena, then it dives forward in a straight line, dealing '''83.3% ATK''' as {{Color|Electro DMG}}.
 
-|file6    = Thunder Manifestation Torrential Descent
-|caption6 = Torrential Descent
+|name_7 = Torrential Descent
+|desc_7 = Flies up and calls forth several lightning bolts to descend upon the target. The bolts will strike in a circular area, and for every wave it will strike three times, each dealing '''43.3% ATK''' as {{Color|AoE Electro DMG}}.
 
-|file7    = Thunder Manifestation Oscillating Prison
-|caption7 = Homing Thunder Cage
+|name_8 = Homing Thunder Cage
+|desc_8 = Charges up and marks the target with a thunder circle for a short duration. The circle will then stop and activate, unleashing an electrical prison that homes in on the target, dealing '''27.7% ATK''' as {{Color|Electro DoT}} if touched or inside of.
+|file_8 = Thunder Manifestation Oscillating Prison
 }}
 
 ==Strategy==
@@ -95,8 +100,20 @@ Like [[Specters]], the Thunder Manifestation has a "Fury" buff which is initiall
 ==Achievements==
 {{Achievement Topic Table|topic=Thunder Manifestation|requirements=1}}
 
+==Descriptions==
+{{Description|Amidst the storms of Amakumo Peak, you hear a raging, thunderous cry...|[[Adventurer Handbook]], before completing [[Seirai Stormchasers]]}}
+{{Description|An unusual Electro life form that weaves thunder and lightning as a song unto the resentment that drives its every move.<br />Even though this creature may seem similar to the [[Oceanid]]s, it lacks their intelligence.<br />They say that this is an elemental being driven by pure regret.|Adventurer Handbook, after unlocking Thundering Manifestation}}
+{{Description|An abnormal Electro elemental life form. Although it might appear similar to an [[Oceanid]], it does not possess her intelligence or memories.<br />That which drives the Thunder Manifestation is a much more primal fury.<br />It is said that these life forms will only descend like lightning upon places that play host to great lingering resentment, such as the fragmented Amakumo Peak, where the storm clouds ever roil. As long as the grudges of the land do not fade, so will the roaring thunder persist.|[[Archive]]}}
+
+==Distant Storm==
+{{Description|Scale the broken Amakumo Peak and follow the song of a distant storm.<br />Manifest thunder weaves rebellious lightning from an overlooking vantage.}}
+[[File:Distant Storm.png|400px]]
+
+==Trivia==
+* The Thunder Manifestation is the congealed "regret" of the deceased [[Kanna Kapatcir]].<ref>{{Ref/Weapon|Thundering Fury}}</ref><ref>{{Ref/Weapon|Hamayumi}}</ref>
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Thunder Manifestation Icon.png|Icon
 The Inazuma Diaries Watatsumi Island & Seirai Island Thunder Manifestation.png
 The Inazuma Diaries Watatsumi Island & Seirai Island Thunder Manifestation 1.gif|Strike Probes ability
@@ -108,13 +125,9 @@ Seirai Stormchasers - Part IV.png|Arena as viewed from above
 
 ==Video Guides==
 {{EVT
-|video1   = https://youtu.be/QucM7PorDu8
-|caption1 = How to Easily Beat the Thunder Manifestation
+|video1   = https://youtu.be/oJSRhXwxipE
+|caption1 = Easy Thunder Manifestation Guide
 }}
-
-==Distant Storm==
-{{Description|Scale the broken Amakumo Peak and follow the song of a distant storm.<br />Manifest thunder weaves rebellious lightning from an overlooking vantage.}}
-[[File:Distant Storm.png|400px]]
 
 ==Other Languages==
 {{Other Languages
@@ -144,6 +157,10 @@ Seirai Stormchasers - Part IV.png|Arena as viewed from above
 |id      = Thunder Manifestation
 |pt      = Manifestação Trovejante
 |pt_tl   = Thunder Manifestation
+|tr      = Yıldırım Alameti
+|tr_tl   = 
+|it      = Manifestazione del tuono
+|it_tl   = 
 }}
 
 ==Change History==
@@ -155,6 +172,11 @@ Seirai Stormchasers - Part IV.png|Arena as viewed from above
 ==Navigation==
 {{Enemy Navbox|type=bosses}}
 
-[[es:Manifestación del trueno]]
+[[de:Verkörperung des Donners]]
+[[es:Manifestación del Trueno]]
+[[fr:Manifestation du tonnerre]]
+[[ja:雷音権現]]
 [[pt-br:Manifestação Trovejante]]
+[[ru:Манифестация грома]]
+[[th:Thunder Manifestation]]
 [[uk:Втілення грози]]

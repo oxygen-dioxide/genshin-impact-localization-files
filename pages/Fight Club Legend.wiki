@@ -2,7 +2,7 @@
 |image         = Talent Fight Club Legend.png
 |character     = Arataki Itto
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Perform up to 4 consecutive strikes.<br />When the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively.<br />Max 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.<br /><br />Additionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, "[[Masatsu Zetsugi: Akaushi Burst!]]"<br /><br />'''Charged Attack'''<br />When holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.<br />If no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br />Performs up to 4 consecutive strikes.<br />When the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively.<br />Max 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.<br /><br />Additionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, "[[Masatsu Zetsugi: Akaushi Burst!]]"<br /><br />'''Charged Attack'''<br />When holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.<br />If no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
 |hit1          = 79.2 - 156.6%
 |hit2          = 76.4 - 151%
 |hit3          = 91.6 - 181.2%
@@ -24,7 +24,7 @@
 |attr12        = High Plunge DMG
 |value12       = 204.4 - 404%
 |scale_att1    = ATK
-|utility1      = Effect Triggered by Normal Attack
+|utility1      = Effect Triggered by Normal Attack Hit
 }}
 '''Fight Club Legend''' is [[Arataki Itto]]'s [[Normal Attack]].
 
@@ -36,12 +36,101 @@
 *Superlative Strength Duration is refreshed for all stacks upon gaining a new stack, including when Itto already has 5 stacks.
 **Stacks are not lost when switching characters.
 *{{TalentNote|conversion|character=Itto|talent=Royal Descent: Behold, Itto the Evil!|Geo|10}} Additionally, when Itto is under the effects of [[Royal Descent: Behold, Itto the Evil!]], he also gains 1 stack of Superlative Superstrength upon landing a hit with his normal attack string's first and third attacks.
+
+;<big>Passive Effects</big>
 *{{TalentNote|character=Arataki Itto|talent=Fight Club Legend|ascension|1|Arataki Ichiban|grants the following effects when Arataki Itto uses consecutive Arataki Kesagiri: Each slash increases the ATK SPD of the next slash by 10% to up to 30% and increases his resistance to interruption.}}
 *{{TalentNote|character=Arataki Itto|talent=Fight Club Legend|ascension|4|Bloodline of the Crimson Oni}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|1|Stay a While and Listen Up}}
 *{{TalentNote|constellation|6|Arataki Itto, Present!}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Normal Attack 1-Hit
+|gu      = 1U
+|icdtag  = Normal Attack
+|icdtype = 2.5s/3 Hits
+|poise   = 82.9
+|impulse = 3
+|blunt   = 1
+
+|title2   = Normal Attack 2-Hit
+|gu2      = 1U
+|icdtag2  = Normal Attack
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 77.9
+|impulse2 = 3
+|blunt2   = 1
+
+|title3   = Normal Attack 3-Hit
+|gu3      = 1U
+|icdtag3  = Normal Attack
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 98.3
+|impulse3 = 3
+|blunt3   = 1
+
+|title4   = Normal Attack 4-Hit
+|gu4      = 1U
+|icdtag4  = Normal Attack
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 124.5
+|impulse4 = 6
+|blunt4   = 1
+
+|title5   = Saichimonji Slash
+|gu5      = 1U
+|icdtag5  = Normal Attack
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 120
+|impulse5 = 5
+|blunt5   = 1
+
+|title6   = Arataki Kesagiri First Slash
+|gu6      = 1U
+|icdtag6  = Normal Attack
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 143.4
+|impulse6 = Heavy, 250, 0
+|blunt6   = 1
+
+|title7   = Arataki Kesagiri Consecutive Slashes
+|gu7      = 1U
+|icdtag7  = Normal Attack
+|icdtype7 = 2.5s/3 Hits
+|poise7   = 81.7
+|impulse7 = Heavy, 250, 0
+|blunt7   = 1
+
+|title8   = Arataki Kesagiri Final Hit
+|gu8      = 1U
+|icdtag8  = Normal Attack
+|icdtype8 = 2.5s/3 Hits
+|poise8   = 143.4
+|impulse8 = Air, 100, 800
+|blunt8   = 1
+
+|title9   = Plunging Attack Collision
+|gu9      = 0U
+|icdtag9  = none
+|poise9   = 35
+|impulse9 = 2
+
+|title10   = Low Plunge
+|gu10      = 1U
+|icdtag10  = none
+|poise10   = 150
+|impulse10 = 4
+|blunt10   = 1
+
+|title11   = High Plunge
+|gu11      = 1U
+|icdtag11  = none
+|poise11   = 200
+|impulse11 = 7
+|blunt11   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -61,7 +150,7 @@
 |caption5=Superlative Superstrength, Max Stacks
 
 |file6=Fight Club Legend Plunge Preview
-|caption6=Plunge Attack
+|caption6=Plunging Attack
 }}
 {{clr}}
 
@@ -69,7 +158,7 @@
 {{Talent Scaling
 |talentType=Normal Attack
 |levels=11
-|order=hit1,hit2,hit3,hit4,charged_title,aratakikesagiricomboslashdmg,aratakikesagirifinalslashdmg,superlativesuperstrengthduration,saichimonjislashdmg,saichimonjislashstaminacost,plunge_title,plunge,plungelow,plungehigh
+|order=hit1,hit2,hit3,hit4,charged_title,aratakikesagiricomboslashdmg,aratakikesagirifinalslashdmg,superlativesuperstrengthduration,chargedattackfinaldmg,stamina,plunge_title,plunge,plungelow,plungehigh
 |titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Arataki Kesagiri Combo Slash DMG (%),Arataki Kesagiri Final Slash DMG (%),Superlative Superstrength Duration,Saichimonji Slash DMG (%),Saichimonji Slash Stamina Cost,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=79.23
 |hit1_2=85.68
@@ -138,18 +227,18 @@
 |aratakikesagirifinalslashdmg_10=377.4
 |aratakikesagirifinalslashdmg_11=407.93
 |superlativesuperstrengthduration=60s
-|saichimonjislashdmg_1=90.47
-|saichimonjislashdmg_2=97.84
-|saichimonjislashdmg_3=105.2
-|saichimonjislashdmg_4=115.72
-|saichimonjislashdmg_5=123.08
-|saichimonjislashdmg_6=131.5
-|saichimonjislashdmg_7=143.07
-|saichimonjislashdmg_8=154.64
-|saichimonjislashdmg_9=166.22
-|saichimonjislashdmg_10=178.84
-|saichimonjislashdmg_11=193.31
-|saichimonjislashstaminacost=20
+|chargedattackfinaldmg_1=90.47
+|chargedattackfinaldmg_2=97.84
+|chargedattackfinaldmg_3=105.2
+|chargedattackfinaldmg_4=115.72
+|chargedattackfinaldmg_5=123.08
+|chargedattackfinaldmg_6=131.5
+|chargedattackfinaldmg_7=143.07
+|chargedattackfinaldmg_8=154.64
+|chargedattackfinaldmg_9=166.22
+|chargedattackfinaldmg_10=178.84
+|chargedattackfinaldmg_11=193.31
+|stamina=20
 |plunge_1=81.83
 |plunge_2=88.49
 |plunge_3=95.16
@@ -216,6 +305,10 @@
 |id      = Fight Club Legend
 |pt      = Lenda do Combate
 |pt_tl   = Legend of Combat
+|tr      = Dövüş Kulübü Efsanesi
+|tr_tl   = 
+|it      = Leggenda della lotta
+|it_tl   = Fight Legend
 }}
 
 ==Change History==
@@ -225,5 +318,9 @@
 {{Talent Navbox|Arataki Itto}}
 
 [[es:Héroe del combate]]
+[[fr:Légende de la baston]]
+[[ja:喧嘩屋伝説]]
 [[pt-br:Lenda do Combate]]
+[[ru:Легенда бойцовского клуба]]
 [[th:Fight Club Legend]]
+[[vi:Huyền Thoại Đấm Nhau]]

@@ -2,12 +2,8 @@
 |image         = Talent Explosive Puppet.png
 |character     = Amber
 |type          = Elemental Skill
-|info          = The ever-reliable Baron Bunny takes the stage.<br /><br />'''Baron Bunny'''<br />
-* Continuously taunts the enemy, drawing their fire.
-* Baron Bunny's HP scales with Amber's Max HP.
-* When destroyed or when its timer expires, Baron Bunny explodes, dealing {{Color|[[AoE]] Pyro DMG}}.
-'''Hold'''<br />Adjusts the throwing direction of Baron Bunny.<br />The longer the button is held, the further the throw.
-|scale_att1    = HP
+|info          = The ever-reliable Baron Bunny takes the stage.<br /><br />'''Baron Bunny'''<ul><li>Continuously taunts the enemy, drawing their fire.</li><li>Baron Bunny's HP scales with Amber's Max HP.</li><li>When destroyed or when its timer expires, Baron Bunny explodes, dealing {{Color|[[AoE]] Pyro DMG}}.</li></ul><br />'''Hold'''<br />Adjusts the throwing direction of Baron Bunny.<br />The longer the button is held, the further the throw.
+|scale_att1    = Max HP
 |scale_att2    = ATK
 |energyGen     = This skill generates '''4''' elemental particles when the explosion hits at least 1 target.
 |particles     = 4
@@ -25,7 +21,6 @@
 
 ==Gameplay Notes==
 * {{TalentNote|particles|the explosion|4}}
-* {{TalentNote|icd|Explosion DMG|0}}
 * Upon landing, Baron Bunny dances and performs a total of four 180° turns, which lasts for 8 seconds.<ref>YouTube: [https://youtu.be/JuqF-VlCC40 Amber's Explosive Puppet Tests]</ref> If not detonated prematurely, it will explode after the last flip (facing away from the throwing direction), damaging and launching enemies backward.
 ** While the skill's cooldown starts immediately, Baron Bunny's 8-second countdown does not start until Baron Bunny lands.
 * Baron Bunny can be moved by [[gravity]], collision, attacks, [[Vacuum Field]]s, and combat talents that have the capability to move objects, such as [[Gust Surge]].
@@ -37,6 +32,16 @@
 *{{TalentNote|constellation|2|Bunny Triggered}}
 *{{TalentNote|constellation|4|It's Not Just Any Doll...}}
 *{{TalentNote|constellation|5|It's Baron Bunny!}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Explosion DMG
+|gu      = 2U
+|icdtag  = none
+|poise   = 260
+|impulse = 5
+|blunt   = 1
+}}
 
 ==Preview==
 {{Preview
@@ -123,6 +128,10 @@
 |id      = Explosive Puppet
 |pt      = Marionete Explosiva
 |pt_tl   = Explosive Marionette
+|tr      = Patlayıcı Kukla
+|tr_tl   = 
+|it      = Bambola esplosiva
+|it_tl   = Explosive Doll
 }}
 
 ==Change History==
@@ -135,9 +144,10 @@
 {{Talent Navbox|Amber}}
 
 [[es:Marioneta explosiva]]
+[[fr:Poupée explosive]]
 [[ja:爆弾人形]]
 [[pt-br:Marionete Explosiva]]
 [[ru:Барон Зайчик]]
-[[fr:Poupée explosive]]
-[[uk:Вибухонебезпечна іграшка]]
 [[th:Explosive Puppet]]
+[[uk:Вибухонебезпечна іграшка]]
+[[vi:Con Rối Nổ]]

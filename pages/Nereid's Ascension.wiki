@@ -2,15 +2,11 @@
 |image         = Talent Nereid's Ascension.png
 |character     = Sangonomiya Kokomi
 |type          = Elemental Burst
-|info          = Summons the might of Watatsumi, dealing {{Color|Hydro DMG}} to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.<br /><br />'''Ceremonial Garment'''<br />
-* Sangonomiya Kokomi's Normal Attack, Charged Attack and [[Kurage's Oath|Bake-Kurage]] DMG are increased based on her Max HP.
-* When [[The Shape of Water|her Normal and Charged Attacks]] hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.
-* Increases Sangonomiya Kokomi's [[resistance to interruption]] and allows her to walk on the [[water]]'s surface.
-These effects will be cleared once Sangonomiya Kokomi leaves the field.
+|info          = Summons the might of Watatsumi, dealing {{Color|Hydro DMG}} to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.<br /><br />'''Ceremonial Garment'''<ul><li>Sangonomiya Kokomi's Normal Attack, Charged Attack and [[Kurage's Oath|Bake-Kurage]] DMG are increased based on her Max HP.</li><li>When [[The Shape of Water|her Normal and Charged Attacks]] hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.</li><li>Increases Sangonomiya Kokomi's [[resistance to interruption]] and allows her to walk on the [[water]]'s surface.</li></ul><br />These effects will be cleared once Sangonomiya Kokomi leaves the field.
 |CD            = 18s
 |duration      = 10s
 |energyCost    = 70
-|scale_att1    = HP
+|scale_att1    = Max HP
 |attr1         = Skill DMG (% Max HP)
 |value1        = 10.4 – 22.1%
 |attr2         = Normal Attack DMG Bonus (% Max HP)
@@ -25,7 +21,7 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 |utility2      = AoE
 |utility3      = Normal Attack DMG Increase
 |utility4      = Charged Attack DMG Increase
-|utility5      = Flat DMG Increase
+|utility5      = Additive Base DMG Bonus
 |utility6      = Requires Staying on Field
 |utility7      = Interruption Resistance
 }}
@@ -33,8 +29,12 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 '''Nereid's Ascension''' is [[Sangonomiya Kokomi]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* Water essentially acts as if it were [[frozen]] for the duration of the burst. As such, while donning the Ceremonial Garment, Kokomi can take fall damage and even die if she jumps from a high distance onto water.
-* Kokomi will still take damage while walking on [[Electro Water]].
+* {{TalentNote|energy frame|57}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
+* {{TalentNote|cooldown frame|48}}<ref name="Genshin Academy burst info sheet" />
+* Water essentially acts as if it were normal solid terrain for the duration of the burst. As such, while donning the Ceremonial Garment, Kokomi can take fall damage and even die if she jumps from a high distance onto water.
+* Kokomi will still take damage while walking on [[Electro water]].
+
+;<big>Passive Effects</big>
 * {{TalentNote|ascension|1|Tamanooya's Casket|refreshes the duration of Kokomi's [[Kurage's Oath|Bake-Kurage]] upon casting Nereid's Ascension.|character=Kokomi|talent=Nereid's Ascension}}
 * {{TalentNote|ascension|2|Song of Pearls|increases the Normal and Charged Attack DMG Bonus from Nereid's Ascension by 15% of Kokomi's Healing Bonus.|character=Kokomi|talent=Nereid's Ascension}}
 
@@ -52,7 +52,7 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 \text{HP Ability Bonus }\% \times \text{Max HP}) \\
 &\times (1 + \text{DMG Bonus }\%)
 \end{align}</math>
-* The DMG Bonus at the end includes other damage bonuses like {{Color|Hydro DMG Bonus}}.
+* The DMG Bonus at the end includes damage bonuses like {{Color|Hydro DMG Bonus}} and Normal Attack DMG Bonuses.
 * The HP Ability Bonus is the DMG Bonus provided by the burst for the corresponding type of attack (Normal, Charged, Bake-Kurage).
 :<math>\begin{align}
 \text{HP Ability Bonus }\% = \text{Burst Ability Bonus }\%
@@ -62,27 +62,14 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 \text{HP Ability Bonus }\% = \text{Burst Ability Bonus }\% + 15\% \times \text{Healing Bonus }\%
 \end{align}</math>
 
-;Example Calculation
-At talent level 6 for both the Normal Attack and burst, with the 2nd passive, 30000 HP, 1000 attack, 40% [[Healing Bonus]], only 40% {{Color|Hydro DMG Bonus}}, no [[crit]], and no reactions, the damage done to a Mitachurl by the first Normal Attack (scaling 95.73%) without the burst active is roughly:
-{{Damage Calculator
-|atk = 1000
-|talent_scaling = 95.73
-|dmg_bonus = 40
-|crit_dmg = 0
-}}.
-
-When the burst is activated, at level 6 the burst Normal Attack bonus will be 6.78%, and she will gain the following additional outgoing damage
-:<math>((.0678+.15*.40) * 30000) * (1 + .4)</math>
-After applying the DEF and RES modifiers for a Mitachurl, the additional incoming damage is
-{{Damage Calculator
-|atk = 3834
-|talent_scaling = 100
-|dmg_bonus = 40
-|crit_dmg = 0
-}}.
-
-So the total damage of the first NA hit with the burst activated is the sum
-:<math>603.099+2415.42 = 3018.519</math>
+==Advanced Properties==
+{{Advanced Properties
+|title   = Skill DMG
+|gu      = 2U
+|icdtag  = none
+|poise   = 250
+|impulse = 3
+}}
 
 ==Preview==
 {{Preview
@@ -195,11 +182,11 @@ So the total damage of the first NA hit with the burst activated is the sum
 |zht     = 海人化羽
 |zht_rm  = Hǎirén Huàyǔ
 |zh_tl   = {{w|Kaijin_(folklore)|Kaijin}}'s Ascension
-|zh_note = {{Lang|mini=1|zh=化羽|zh_tl=transform into feather}} is a literary term of Daoist origin, which refers to the state of becoming as light as a feather and ascending to heaven.
+|zh_note = {{zh|化羽|tl=transform into feather}} is a literary term of Daoist origin, which refers to the state of becoming as light as a feather and ascending to heaven.
 |ja      = 海人の羽衣
 |ja_rm   = Kaijin no Hagoromo
 |ja_tl   = Kaijin's Feathered Veil
-|ja_note = {{Lang|mini=1|ja=羽衣|ja_tl=feather mantle}} is a literary term of Japanese Buddhism origin, which refers to the kimono worn by celestial beings ({{w|tennin}}) that grants them the ability to fly, and thus ascend to heaven.
+|ja_note = {{ja|羽衣|tl=feather mantle}} is a literary term of Japanese Buddhism origin, which refers to the kimono worn by celestial beings ({{w|tennin}}) that grants them the ability to fly, and thus ascend to heaven.
 |ko      = {{tt|해|海}}{{tt|인|人}}{{tt|화|化}}{{tt|우|羽}}
 |ko_rm   = Hae'inhwa'u
 |ko_tl   = Nereid's Ascension{{Sino|ko}}
@@ -211,12 +198,16 @@ So the total damage of the first NA hit with the burst activated is the sum
 |ru_tl   = Nereid's Ascension
 |th      = Nereid's Ascension
 |vi      = Nghi Lễ Nereid
-|vi_tl   = 
+|vi_tl   = Nereid's Ceremony
 |de      = Nereidenaufstieg
 |de_tl   = Nereid's Ascension
 |id      = Nereid's Ascension
 |pt      = Cerimônia Kaijin
 |pt_tl   = Kaijin Ceremony
+|tr      = Nereid'in Yükselişi
+|tr_tl   = 
+|it      = Ascensione della Nereide
+|it_tl   = Nereid's Ascension
 }}
 
 ==Change History==
@@ -228,5 +219,8 @@ So the total damage of the first NA hit with the burst activated is the sum
 ==Navigation==
 {{Talent Navbox|Sangonomiya Kokomi}}
 
+[[es:Encarnación de las nereidas]]
+[[fr:Ascension de la néréide]]
 [[pt-br:Cerimônia Kaijin]]
+[[ru:Вознесение нереиды]]
 [[th:Nereid's Ascension]]

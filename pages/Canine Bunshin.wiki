@@ -2,10 +2,10 @@
 {{Enemy Infobox
 |title    = Black Shadow
 |image    = Enemy Canine Bunshin.jpg
-|element  = Electro
-|element2 = Pyro
-|element3 = Geo
-|element4 = Dendro
+|dmgtype  = Physical
+|dmgtype2 = Electro
+|dmgtype3 = Pyro
+|weakpoint = no
 |type     = Event Enemies
 |family   = 
 |group    = 
@@ -23,25 +23,20 @@
 ==Abilities and Attacks==
 ''Attack names are unofficial except for Canine Art: Geo Bunshin and Canine Art: Plummeting Blade.''
 
-*'''Thunderwheels:''' Launches three spinning wheels in different directions, dealing '''50% ATK''', '''12.5% ATK''', '''5% ATK''' as {{Color|Electro DMG}} on hit.
-*'''Canine Art: Plummeting Blade:''' Teleports to the player's location and marks an area around it, calling down thunder and dealing '''100% ATK''' as {{Color|AoE Electro DMG}} in the marked area shortly after.
-*'''Canine Art: Geo Bunshin:''' When attacked, teleports away and leaves a {{Color|Geo}} Bunshin Bomb at its original location that marks an area around it before detonating, dealing '''75% ATK''' as {{Color|AoE Pyro DMG}} in the marked area.
-*'''Dendro Prison:''' Upon initiating a fight, summons a square {{Color|Dendro}} barrier around the player. The barrier does not deal DMG.
+{{Enemy Attacks
+|name_1 = Thunderwheels
+|desc_1 = Launches three spinning wheels in different directions, dealing '''50% ATK''', '''12.5% ATK''', '''5% ATK''' as {{Color|Electro DMG}} on hit.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Canine Bunshin Thunderwheels
-|caption1=Thunderwheels
+|name_2 = Canine Art: Plummeting Blade
+|desc_2 = Teleports to the player's location and marks an area around it, calling down thunder and dealing '''100% ATK''' as {{Color|AoE Electro DMG}} in the marked area shortly after.
+|file_2 = Canine Bunshin Thunder Caller
 
-|file2=Canine Bunshin Thunder Caller
-|caption2=Canine Art: Plummeting Blade
+|name_3 = Canine Art: Geo Bunshin
+|desc_3 = When attacked, teleports away and leaves a {{Color|Geo}} Bunshin Bomb at its original location that marks an area around it before detonating, dealing '''75% ATK''' as {{Color|AoE Pyro DMG}} in the marked area.
+|file_3 = Canine Bunshin Decoy Bomb
 
-|file3=Canine Bunshin Decoy Bomb
-|caption3=Canine Art: Geo Bunshin
-
-|file4=Canine Bunshin Dendro Prison
-|caption4=Dendro Prison
+|name_4 = Dendro Prison
+|desc_4 = Upon initiating a fight, summons a square {{Color|Dendro}} barrier around the player. The barrier does not deal DMG.
 }}
 
 ==Strategy==
@@ -81,6 +76,10 @@
 |id      = Canine Bunshin
 |pt      = Cão Bunshin
 |pt_tl   = Dog Bunshin
+|tr      = Köpek Klonu
+|tr_tl   = Dog Clone
+|it      = 
+|it_tl   = 
 }}
 
 ==Change History==
@@ -88,5 +87,9 @@
 
 ==Navigation==
 {{Enemy Navbox|Special}}
+
+[[de:Hunde-Bunshin]]
 [[es:Canes Bushin]]
+[[ja:幻犬分身]]
 [[pt-br:Sombra: Bunshin Canino]]
+[[vi:Phân Thân Ảo Khuyển]]

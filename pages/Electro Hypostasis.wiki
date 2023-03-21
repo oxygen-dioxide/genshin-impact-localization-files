@@ -1,6 +1,7 @@
 {{Enemy Infobox
 |title    = Aleph
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = no
 |type     = Normal Bosses
 |family   = Elemental Lifeforms
 |group    = Hypostases
@@ -11,20 +12,27 @@
 |ability3 = Energy Generation
 |drops    = Lightning Prism
 }}
-{{Description|Code Name: Aleph. A high-purity [[Electro]] entity.<br />
-Elemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.<br />Elemental hypostases have developed defensive mechanisms based on their elemental attributes.|[[Adventurer Handbook]]}}
+{{Enemy Intro}}
 
-The '''Electro Hypostasis''' is a [[Normal Boss]] in ''Genshin Impact'' and one of the elemental [[Hypostases]].
-
-It can be found in the south of [[Cape Oath]], [[Mondstadt]]. It takes the appearance of a large cube with a glowing core at its center and cannot take damage when its shell is intact, only when the core is exposed by itself.
-
-When defeated, the player must consume 40 [[Original Resin]] to claim its drops, which consists of [[Artifacts]] and [[Character Ascension Material]] for [[Characters]] using the Electro element.
-
-==Rewards==
+==Drops==
+===Items===
 {{World Boss Rewards
 |gem=Vajrada Amethyst
 |exclusive=Lightning Prism
 |sets=Traveling Doctor,Instructor,The Exile,Prayers for Wisdom
+}}
+
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 75
+|o1    = 1
+|hp2   = 50
+|o2    = 1
+|hp3   = 25
+|o3    = 1
+|hp4   = 0
+|o4    = 1
 }}
 
 ==Stats==
@@ -36,52 +44,43 @@ When defeated, the player must consume 40 [[Original Resin]] to claim its drops,
 }}
 
 ==Abilities and Attacks==
+''Most attack names are unofficial.''
 For most of the attacks below, the core will be exposed for a few seconds after the boss uses the attack. Use this opportunity to deal damage to the boss.
-*'''Missiles:''' Flies into the air and forms a rhombus with its shell pieces, firing two each for a total of four attacks, dealing '''25% ATK''' as {{Color|Electro DMG}} on hit. The core will be exposed during this attack.
-*'''Clap:''' Quickly flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} in front of the wall.
-*'''Rock, Scissors, Paper:''' Flies next to the player and turns into a giant fist, punching in the player's direction. Then, turns into giant scissors and deals damage in a "cutting" motion. Finally, turns into a giant hand and slaps the ground in front of it. Sometimes only performs 1 or 2 of the attacks, but will always perform them in the given order. This attack deals '''75% ATK''', '''75% ATK''', and '''100% ATK''' {{Color|AoE Electro DMG}}.
-*'''Drill:''' Turns into a giant drill and spins across the arena, dealing '''50% ATK''' as {{Color|Electro DMG}} and '''25% ATK''' as {{Color|Physical DMG}} continuously upon contact.
-*'''Tremors:''' Moves to the center of the arena and forms a spinning dome formation with its shell while sending out many small waves of shell pieces, dealing '''75% ATK''' as {{Color|Electro DMG}} on hit. When this attack ends, an Electro [[Energy|Energy Orb]] will be generated.
-*'''Cage:''' Sends shell pieces into the sky and rains them down in an octagon formation around the player, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} and trapping them, before raining lightning in the cage, dealing '''50% ATK''' as {{Color|AoE Electro DMG}}. The core will be exposed during this attack. Dash toward the first pillar, and then out of the cage before the complete cage is formed. The pillars can also be destroyed using elemental reactions as a means of escape. This attack is usually performed only when the player takes too long to defeat the Electro Hypostasis.
-*'''Rotating Lasers:''' Forms a ring around its core with its shell pieces and fires lasers out in 4 directions. The ring will then rotate, the lasers moving with it, dealing '''40% ATK''' as {{Color|Electro DMG}} on hit. When the lasers turn off, the shell pieces quickly converge on the core, dealing '''100% ATK''' as {{Color|AoE Electro DMG}}. Sprint in a circle close to the ring, or dash through the lasers to dodge them. Alternatively, stand '''inside''' the ring to dodge the lasers, but make sure to leave the ring before the pieces converge (indicated by the ground rune disappearing). The core will be exposed during this attack, allowing the player to safely continue damaging the Hypostasis for a duration. When this attack ends, an Electro [[Energy|Energy Orb]] will be generated.
-*'''Rebirth:''' When HP is low (approx. 5%), teleports to the center of the arena and forms 3 Rivival Prisms, which can only be damaged using elemental reactions. After 15 seconds, absorbs the Prisms and heals for '''15%/35%/50%''' of its HP for '''1/2/3''' prisms absorbed. If a Prism is destroyed, it does not add to the healing and does not respawn next time the Electro Hypostasis uses Rebirth. When the player destroys all three Electro Prisms, the Electro Hypostasis dies immediately. Destroying a Revival Prism will generate an Electro [[Energy|Energy Orb]].
+{{Enemy Attacks
+|name_1 = Missiles
+|desc_1 = Flies into the air and forms a rhombus with its shell pieces, firing two each for a total of four attacks, dealing '''25% ATK''' as {{Color|Electro DMG}} on hit. The core will be exposed during this attack.
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Electro Hypostasis Missiles
-|caption1=Missiles
+|name_2 = Clap
+|desc_2 = Quickly flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} in front of the wall.
 
-|file2=Electro Hypostasis Clap
-|caption2=Clap
+|name_3 = Rock, Scissors, Paper
+|desc_3 = Flies next to the player and turns into a giant fist, punching in the player's direction. Then, turns into giant scissors and deals damage in a "cutting" motion. Finally, turns into a giant hand and slaps the ground in front of it. Sometimes only performs 1 or 2 of the attacks, but will always perform them in the given order. This attack deals '''75% ATK''', '''75% ATK''', and '''100% ATK''' {{Color|AoE Electro DMG}}.
+|file_3 = Electro Hypostasis Rock Scissors Paper
 
-|file3=Electro Hypostasis Rock Scissors Paper
-|caption3=Rock, Scissors, Paper
+|name_4 = Drill
+|desc_4 = Turns into a giant drill and spins across the arena, dealing '''50% ATK''' as {{Color|Electro DMG}} and '''25% ATK''' as {{Color|Physical DMG}} continuously upon contact.
 
-|file4=Electro Hypostasis Drill
-|caption4=Drill
+|name_5 = Tremors
+|desc_5 = Moves to the center of the arena and forms a spinning dome formation with its shell while sending out many small waves of shell pieces, dealing '''75% ATK''' as {{Color|Electro DMG}} on hit. When this attack ends, an Electro [[Energy|Energy Orb]] will be generated.
 
-|file5=Electro Hypostasis Tremors
-|caption5=Tremors
+|name_6 = Cage
+|desc_6 = Sends shell pieces into the sky and rains them down in an octagon formation around the player, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} and trapping them, before raining lightning in the cage, dealing '''50% ATK''' as {{Color|AoE Electro DMG}}. The core will be exposed during this attack. Dash toward the first pillar, and then out of the cage before the complete cage is formed. The pillars can also be destroyed using elemental reactions as a means of escape. This attack is usually performed only when the player takes too long to defeat the Electro Hypostasis.
+{{Elemental Shield Data|Electro|4.4|Cage Pillar|noec=1}}
 
-|file6=Electro Hypostasis Cage
-|caption6=Cage
+|name_7 = Rotating Lasers
+|desc_7 = Forms a ring around its core with its shell pieces and fires lasers out in 4 directions. The ring will then rotate, the lasers moving with it, dealing '''40% ATK''' as {{Color|Electro DMG}} on hit. When the lasers turn off, the shell pieces quickly converge on the core, dealing '''100% ATK''' as {{Color|AoE Electro DMG}}. Sprint in a circle close to the ring, or dash through the lasers to dodge them. Alternatively, stand '''inside''' the ring to dodge the lasers, but make sure to leave the ring before the pieces converge (indicated by the ground rune disappearing). The core will be exposed during this attack, allowing the player to safely continue damaging the Hypostasis for a duration. When this attack ends, an Electro [[Energy|Energy Orb]] will be generated.
 
-|file7=Electro Hypostasis Rotating Lasers
-|caption7=Rotating Lasers
-
-|file8=Electro Hypostasis Rebirth
-|caption8=Rebirth
+|name_8 = Rebirth
+|desc_8 = When HP is low (approx. 5%), teleports to the center of the arena and forms 3 Revival Prisms, which can only be damaged using elemental reactions. After 15 seconds, absorbs the Prisms and heals for '''15%/35%/50%''' of its HP for '''1/2/3''' prisms absorbed. If a Prism is destroyed, it does not add to the healing and does not respawn next time the Electro Hypostasis uses Rebirth. When the player destroys all three Electro Prisms, the Electro Hypostasis dies immediately. Destroying a Revival Prism will generate an Electro [[Energy|Energy Orb]].
+{{Elemental Shield Data|Electro|3|Revival Prism|noec=1}}
 }}
 
 ==Strategy==
 The majority of the Electro Hypostasis' attacks are fairly easy to dodge. Being an elemental being of pure Electro energy, all of its attacks deal {{Color|Electro DMG}} and it itself is also permanently imbued with Electro.
 
-{{Pyro}} and {{Cryo}} are the most effective at breaking the Electro particles at the end of the fight.
-
 The fight itself is fairly simple and the boss can be defeated before it has a chance to use its cage attack. Players who get caught in the attack can either break one of the pillars with reactions or simply use height-increasing abilities (see [[Plunging Attack]]) such as a [[Geo Construct]].
 
-When the boss reaches critical health, it will create three Prisms in an attempt to revive itself. These Prisms can be broken with Pyro attacks (4 of 7 units of shields). A Pyro bow or catalyst user can easily destroy all three Prisms with charged/auto-attacks respectively before the boss can revive. Cryo (3 of 7 units) and Anemo/Geo (1 of 7 units) can also break the prisms. See [[Shields/Shield Gauge Data]] for more info on the gauge data.
+When the boss reaches critical health, it will create three Prisms in an attempt to revive itself. {{Pyro}}, {{Cryo}} and {{Dendro}} are the most effective at breaking the Revival Prisms, requiring a total of 3 [[gauge unit]]s for each Prism. See [[Shields/Shield Gauge Data]] for more info on the gauge data.
 
 ==Event Variant==
 {{Main|Pure Electro Hypostasis}}
@@ -89,20 +88,13 @@ When the boss reaches critical health, it will create three Prisms in an attempt
 ==Achievements==
 {{Achievement Topic Table|topic=Electro Hypostasis}}
 
+==Descriptions==
+{{Description|Code name: Aleph. A high-purity Electro entity.<br />Elemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.<br />Elemental hypostases have developed defensive mechanisms based on their elemental attributes.|[[Adventurer Handbook]]}}
+{{Description|Code name: Aleph. A high-purity [[Electro]] entity.<br />Elemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.<br />Elemental hypostases have developed various attacks based on their elemental attributes.|[[Archive]]}}
+
 ==Trivia==
 * Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Aleph"|he=א|he_rm=Alef}} being named after the first.
 * The Pure variant of the Electro Hypostasis makes an appearance in [[Kannazuka]], [[Inazuma]], during [[Sakura Arborism]].
-
-==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
-Monster Electro Hypostasis thumb.png|Icon
-</gallery>
-
-==Video Guides==
-{{EVT
-|video1   = https://youtu.be/nN94dzvAxf4
-|caption2 = How to Easily Beat the Electro Hypostasis
-}}
 
 ==Developer Insight==
 '''[https://genshin.hoyoverse.com/en/news/detail/2981 "Paper, Scissors, Rock" &mdash; Requires a turn-based approach]'''
@@ -110,7 +102,7 @@ Monster Electro Hypostasis thumb.png|Icon
 We hope Travelers will be able to adapt to the attack and fortification cycle and use the right moments during the fortification to deal damage. As such, Travelers will need to move fast while the Hypostasis is attacking, and then fiercely counter-attack afterward.
 
 In order to achieve this, we utilized close-range attack methods. During combat planning in July 2019, we decided to give it a "Rock, Scissors, Paper" close-range combo attack. Each of the three stages was to have a slightly varied range, direction, and preparation movement in order to make it harder for Travelers to grow accustomed to, and simultaneously require appropriate yet varied evasion maneuvers
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Developer Insight Electro Hypostasis 2.gif
 Developer Insight Electro Hypostasis 3.gif
 </gallery>
@@ -129,7 +121,7 @@ We hope this inherited design will get Travelers to try a methodical and tactica
 2. The lasers can be blocked by obstacles made from Geo.<br />
 3. Once the lasers have ended, and the cubic components have yet to come back together, the entire area becomes completely safe for a brief while.<br />
 4. The lasers do heavy damage, and may even launch Travelers, to prevent them from quickly dodging through the lasers.
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Developer Insight Flamethrower.gif
 Developer Insight Electro Hypostasis 4.gif
 </gallery>
@@ -146,6 +138,17 @@ It was October 2019 when the Electro Hypostasis first came off the production li
 3. Once all of its skills were used up and in cooldown, it would just sit where it was without moving (and subsequently giving no opening for the testing team to attack).
 
 What followed from this testing was rather torturous for the team. On the one hand we were implementing changes based on large volumes of internal feedback, on the other hand we had the beta fast approaching, and on the third hand (that we don't have) we were busily trying to work on new content as well.
+
+==Gallery==
+<gallery>
+Monster Electro Hypostasis thumb.png|Icon
+</gallery>
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/wAK0mbbYBSk
+|caption1 = EVERYTHING You Need to Know about Electro Hypostasis
+}}
 
 ==Other Languages==
 {{Other Languages
@@ -168,13 +171,17 @@ What followed from this testing was rather torturous for the team. On the one ha
 |ru      = Электро гипостазис
 |ru_tl   = Electro Hypostasis
 |th      = Electro Hypostasis
-|vi      = Lôi Nguyên Bản
-|vi_tl   = Prototype Electro
+|vi      = {{tt|Lôi|雷}} {{tt|Nguyên Bản|原本}}
+|vi_tl   = The Original Thunder
 |de      = Elektro-Hypostase
 |de_tl   = Electro Hypostasis
 |id      = Electro Hypostasis
 |pt      = Hypostasis Electro
 |pt_tl   = Electro Hypostasis
+|tr      = Elektrik Hipostazı
+|tr_tl   = 
+|it      = Ipostasi di Electro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -183,5 +190,11 @@ What followed from this testing was rather torturous for the team. On the one ha
 ==Navigation==
 {{Enemy Navbox|type=bosses}}
 
-[[es:Hipostasis Electro]]
+[[de:Elektro-Hypostase]]
+[[es:Hipóstasis Electro]]
+[[fr:Hypostase Électro]]
+[[ja:無相の雷]]
+[[pl:Electro Hypostasis]]
 [[pt-br:Hypostasis Electro]]
+[[ru:Электро гипостазис]]
+[[zh:無相之雷]]

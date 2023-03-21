@@ -17,7 +17,7 @@
 |attr4         = Shield DMG Absorption
 |value4        = 12% Max HP + 1155 - 25.5% Max HP + 3177
 |scale_att1    = DEF
-|scale_att2    = HP
+|scale_att2    = Max HP
 |utility1      = Charge Level
 |utility2      = Shield
 }}
@@ -27,11 +27,35 @@
 ==Gameplay Notes==
 *This skill generates '''2''' [[Elemental Particle]]s when pressed, '''2.5''' at Charge Level 1, and '''3''' at Charge Level 2, if it hits at least 1 target.
 *The button can be released before the final animation plays automatically, while retaining the effects of Charge Level 2.
+*The shield created by this skill lasts for a short duration even after the skill button is released, allowing the skill's DMG to trigger the effects of [[Geo Resonance]].
+
+;<big>Passive Effects</big>
 *{{TalentNote|character=Yun Jin|talent=Opening Flourish|ascension|1|True to Oneself}}
 
 ;<big>Constellation Effects</big>
 *{{TalentNote|constellation|1|Thespian Gallop}}
 *{{TalentNote|constellation|5|Famed Throughout the Land}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Press DMG
+|gu      = 2U
+|icdtag  = none
+|poise   = 100
+|impulse = 4
+
+|title2   = Charge Level 1 DMG
+|gu2      = 2U
+|icdtag2  = none
+|poise2   = 200
+|impulse2 = 4
+
+|title3   = Charge Level 2 DMG
+|gu3      = 4U
+|icdtag3  = none
+|poise3   = 300
+|impulse3 = 6
+}}
 
 ==Preview==
 {{Preview
@@ -135,7 +159,7 @@
 |fr      = Épanouissement ouvert
 |fr_tl   = Open Blossoming
 |ru      = Вихревое представление
-|ru_tl   = 
+|ru_tl   = Vortical Performance
 |th      = Opening Flourish
 |vi      = {{tt|Toàn Vân Khai Tương|旋雲開相}}
 |vi_tl   = Rotating Clouds Pose-Striking{{Sino|vi}}
@@ -144,6 +168,10 @@
 |id      = Opening Flourish
 |pt      = Abertura Deslumbrante
 |pt_tl   = Glamorous Opening
+|tr      = Gösterişli Açılış
+|tr_tl   = 
+|it      = Gesto d'apertura
+|it_tl   = Opening Gesture
 }}
 
 ==Change History==
@@ -151,5 +179,10 @@
 
 ==Navigation==
 {{Talent Navbox|Yun Jin}}
+
+[[es:Disipadora de nimbos]]
+[[fr:Épanouissement ouvert]]
 [[pt-br:Abertura Deslumbrante]]
+[[ru:Вихревое представление]]
 [[th:Opening Flourish]]
+[[vi:Toàn Vân Khai Tương]]

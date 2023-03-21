@@ -2,15 +2,10 @@
 |image         = Talent Guide to Afterlife.png
 |character     = Hu Tao
 |type          = Elemental Skill
-|info          = Only an unwavering flame can cleanse the impurities of this world.<br />Hu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.<br /><br />'''Paramita Papilio'''
-* Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.
-* [[Elemental Infusion|Converts]] attack DMG to {{Color|Pyro DMG}}, which cannot be overridden by any other elemental infusion.
-* Charged Attacks apply the Blood Blossom effect to the enemies hit.
-* Increases Hu Tao's resistance to interruption.
-'''Blood Blossom'''<br />Enemies affected by Blood Blossom will take {{Color|Pyro DMG}} every 4s. This DMG is considered Elemental Skill DMG.<br />Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.<br /><br />'''Paramita Papilio''' ends when its duration is over, or Hu Tao has left the battlefield or fallen.
-|scale_att1    = HP
+|info          = Only an unwavering flame can cleanse the impurities of this world.<br />Hu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.<br /><br />'''Paramita Papilio'''<ul><li>Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.</li><li>[[Elemental Infusion|Converts]] attack DMG to {{Color|Pyro DMG}}, which cannot be overridden by any other elemental infusion.</li><li>Charged Attacks apply the Blood Blossom effect to the enemies hit.</li><li>Increases Hu Tao's resistance to interruption.</li></ul><br />'''Blood Blossom'''<br />Enemies affected by Blood Blossom will take {{Color|Pyro DMG}} every 4s. This DMG is considered Elemental Skill DMG.<br />Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.<br /><br />'''Paramita Papilio''' ends when its duration is over, or Hu Tao has left the battlefield or fallen.
+|scale_att1    = Max HP
 |scale_att2    = ATK
-|utility1      = Elemental Conversion
+|utility1      = Conversion
 |utility2      = Health Depletion
 |utility3      = Charged Attack
 |utility4      = Interruption Resistance
@@ -36,20 +31,36 @@
 '''Guide to Afterlife''' is [[Hu Tao]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
-*{{TalentNote|particles|a converted attack|2.5}}
-**This particle generation has a cooldown of ~5 seconds.
-**Therefore, it can generate a total of '''4-6''' [[Elemental Particle]]s through its whole duration.
-*While Paramita Papilio State is active, Hu Tao doesn't step back before charging forward. This makes her Charged Attacks under this state faster than normal.
-*Although the activation of this skill does not deal DMG or apply an elemental status, it does interact with certain {{Pyro}}-related mechanics.
-**It lights torches, campfires, and [[Ruins Torch]]es.
-**It forces [[Dendro Slime]]s and [[Large Dendro Slime]]s out of their burrowed state, without causing them to [[Burning|burn]].
-*{{TalentNote|character=Hu Tao|talent=Guide to Afterlife|ascension|1|Flutter By}}
+* {{TalentNote|particles|a converted attack|2.5}}
+** This particle generation has a cooldown of ~5 seconds.
+** Therefore, it can generate a total of '''4-6''' [[Elemental Particle]]s through its whole duration.
+* While Paramita Papilio State is active, Hu Tao doesn't step back before charging forward. This makes her Charged Attacks under this state faster than normal.
+* This skill's activation produces a damageless [[0U]] {{Pyro}} attack around Hu Tao.
+* No HP will be consumed if Hu Tao has exactly 1 HP left when activating the skill.
+
+;<big>Passive Effects</big>
+* {{TalentNote|character=Hu Tao|talent=Guide to Afterlife|ascension|1|Flutter By}}
 
 ;<big>Constellation Effects</big>
-*{{TalentNote|constellation|1|Crimson Bouquet}}
-*{{TalentNote|constellation|2|Ominous Rainfall}}
-*{{TalentNote|constellation|3|Lingering Carmine}}
-*{{TalentNote|constellation|4|Garden of Eternal Rest}}
+* {{TalentNote|constellation|1|Crimson Bouquet}}
+* {{TalentNote|constellation|2|Ominous Rainfall}}
+* {{TalentNote|constellation|3|Lingering Carmine}}
+* {{TalentNote|constellation|4|Garden of Eternal Rest}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Activation Knockback
+|gu      = 0U
+|icdtag  = none
+|poise   = 120
+|impulse = 3
+
+|title2   = Blood Blossom DMG
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 1
+|impulse2 = 1
+}}
 
 ==Preview==
 {{Preview
@@ -144,6 +155,10 @@
 |id      = Guide to Afterlife
 |pt      = Guia do Além
 |pt_tl   = 
+|tr      = Öbür Dünya Rehberi
+|tr_tl   = 
+|it      = Guida all'aldilà
+|it_tl   = Guide to the Afterlife
 }}
 
 ==Change History==

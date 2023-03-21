@@ -1,44 +1,54 @@
 {{Enemy Infobox
 |image    = Enemy Dendro Samachurl.png
+|dmgtype  = Physical
+|weakpoint = yes
 |element  = Dendro
 |family   = Hilichurls
 |group    = Samachurls
 |type     = Common Enemies
 }}
-{{Description|A wizened, mumbling hilichurl, one that awakens the might of Dendro.<br />Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. A grudge stirs beneath that mask, and poison ivy sprouts as hateful whispers issue forth from it.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Samachurls}}
+===Items===
+{{Drops Table|type=Samachurls}}
+
+===Energy===
+{{Energy Drops
+|type  = Dendro
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
 |dendro_res   = 50%
 |hp_type      = 1
 |hp_ratio     = 1
-|atk_ratio    = 2
+|atk_ratio    = 4
 }}
 
 ==Abilities and Attacks==
-*'''Thorny Vines:''' Summons three thorny vines on the battlefield, blocking off a wide area and dealing extremely minor {{Color|Physical DMG}} to players that come in contact. The vines can be destroyed using {{Pyro}}.
-*'''Dendro Field:''' Summons a green field around the player that applies the {{Dendro}} status to any player or enemy within it, but does not deal DMG.
-*'''Smack:''' If the player is within melee range, swings its staff at the player, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back. The Samachurl also falls in the process due to the staff's weight.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Venomous Vines
+|desc_1 = Summons three thorny vines on the battlefield, blocking off a wide area and dealing extremely minor {{Color|Physical DMG}} to players that come in contact. The vines can be destroyed using {{Pyro}}.
+{{Elemental Shield Data|Wood|1.2}}
 
-===Preview===
-{{Preview
-|size=185px
-|file1=Dendro Samachurl Thorny Vines
-|caption1=Thorny Vines
+|name_2 = Dendro Field
+|desc_2 = Summons a green field around the player that applies '''1.6''' [[gauge unit]]s of {{Dendro}} every '''0.5s''' to any player or enemy within it, but does not deal DMG. This Dendro status lasts for 8 seconds.
 
-|file2=Dendro Samachurl Dendro Field
-|caption2=Dendro Field
-
-|file3=Dendro Samachurl Smack
-|caption3=Smack
+|name_3 = Staff Strike
+|desc_3 = If the player is within melee range, swings its staff at the player, dealing '''100% ATK''' as {{Color|Physical DMG}} and knocking the player back. The Samachurl also falls in the process due to the staff's weight.
 }}
 
+==Descriptions==
+{{Description|A wizened, mumbling hilichurl, one that awakens the might of Dendro.<br />Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. A grudge stirs beneath that mask, and poison ivy sprouts as hateful whispers issue forth from it.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Dendro Samachurl Icon.png|Icon
 </gallery>
 
@@ -70,6 +80,10 @@ Enemy Dendro Samachurl Icon.png|Icon
 |id      = Dendro Samachurl
 |pt      = Samachurl Dendro
 |pt_tl   = Dendro Samachurl
+|tr      = Doğa Dağ Şamanı
+|tr_tl   = 
+|it      = Sciamachurl di Dendro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -78,5 +92,8 @@ Enemy Dendro Samachurl Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Dendro-Samachurl]]
 [[es:Samachurl Dendro]]
+[[ja:ヒルチャールシャーマン・草]]
 [[pt-br:Samachurl Dendro]]
+[[th:Dendro Samachurl]]

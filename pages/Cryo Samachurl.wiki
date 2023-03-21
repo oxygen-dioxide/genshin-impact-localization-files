@@ -1,51 +1,59 @@
 {{Enemy Infobox
 |image    = Enemy Cryo Samachurl.png
-|element  = Cryo
+|dmgtype  = Physical
+|dmgtype2 = Cryo
+|weakpoint = yes
 |family   = Hilichurls
 |group    = Samachurls
 |type     = Common Enemies
 |location = [[Dragonspine]]
 }}
-{{Description|A wizened, mumbling hilichurl, one that calls upon the bite of Cryo.<br />Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. These shamans remember the frosty chants and are even more skilled in the art of using them to entrap their foes.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Samachurls}}
+===Items===
+{{Drops Table|type=Samachurls}}
+
+===Energy===
+{{Energy Drops
+|type  = Cryo
+|hp1   = 60
+|p1    = 1
+|hp2   = 0
+|p2    = 1
+}}
 
 ==Stats==
 {{Enemy Stats
 |cryo_res     = 50%
 |hp_type      = 1
 |hp_ratio     = 1
-|atk_ratio    = 2
+|atk_ratio    = 4
 }}
 
 ==Abilities and Attacks==
-*'''Icicle Spikes:''' Summons icicles that spike from the ground at the player's location, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}. Also leaves behind a frozen patch of ground that deals '''30% ATK''' as {{Color|Cryo DoT}} to players that step on it.
-*'''Ice Pillars:''' Summons pillars below itself and any nearby Samachurls, [[Hilichurl Shooters]], and [[Abyss Mages]], giving them a higher ground to attack. The pillars also periodically release blasts around it, dealing '''30% ATK''' as {{Color|AoE Cryo DMG}}. The pillars are considered Cryo Constructs, which can be effectively damaged with {{Pyro}} or [[Blunt Attack|Blunt]] attacks. Defeating the Samachurl will also destroy all its summoned pillars.
-*'''Smack:''' If the player is within melee range, swings its staff at the player, dealing '''200% ATK''' as {{Color|Physical DMG}} and knocking the player back. The Samachurl also falls in the process due to the staff's weight. The Samachurl will not perform this attack while it is on top of a pillar.
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Cryo Samachurl Icicle Spikes
-|caption1=Icicle Spikes
-
-|file2=Cryo Samachurl Ice Pillars
-|caption2=Ice Pillars
-
-|file3=Cryo Samachurl Ice Pillars Blast
-|caption3=Ice Pillars (Blast)
-
-|file4=Cryo Samachurl Smack
-|caption4=Smack
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Icicle Spikes
+|desc_1 = Summons icicles that spike from the ground at the player's location, dealing '''50% ATK''' as {{Color|AoE Cryo DMG}}. Also leaves behind a frozen patch of ground that deals '''15% ATK''' as {{Color|Cryo DoT}} to players that step on it.
+|name_2 = Ice Pillars
+|desc_2 = Summons pillars below itself and any nearby Samachurls, [[Hilichurl Shooters]], and [[Abyss Mages]], giving them a higher ground to attack. The pillars also periodically release blasts around it, dealing '''15% ATK''' as {{Color|AoE Cryo DMG}}. The pillars are Cryo objects and are weakest to Pyro. Defeating the Samachurl will also destroy all its summoned pillars.
+{{Elemental Shield Data|Cryo|12|Ice Pillar}}
+|caption_2 = Creation
+|file_2_2 = Cryo Samachurl Ice Pillars Blast
+|caption_2_2 = Blast
+|name_3 = Staff Strike
+|desc_3 = If the player is within melee range, swings its staff at the player, dealing '''100% ATK''' as {{Color|Physical DMG}} and knocking the player back. The Samachurl also falls in the process due to the staff's weight. The Samachurl will not perform this attack while it is on top of a pillar.
 }}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Cryo Samachurl}}
 
+==Descriptions==
+{{Description|A wizened, mumbling hilichurl, one that calls upon the bite of Cryo.<br />Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. These shamans remember the frosty chants and are even more skilled in the art of using them to entrap their foes.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Cryo Samachurl Icon.png|Icon
 </gallery>
 
@@ -77,6 +85,10 @@ Enemy Cryo Samachurl Icon.png|Icon
 |id      = Cryo Samachurl
 |pt      = Samachurl Cryo
 |pt_tl   = Cryo Samachurl
+|tr      = Buz Dağ Şamanı
+|tr_tl   = 
+|it      = Sciamachurl di Cryo
+|it_tl   = 
 }}
 
 ==Change History==
@@ -85,5 +97,8 @@ Enemy Cryo Samachurl Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Common}}
 
+[[de:Kryo-Samachurl]]
 [[es:Samachurl Cryo]]
+[[ja:ヒルチャールシャーマン・氷]]
 [[pt-br:Samachurl Cryo]]
+[[th:Cryo Samachurl]]

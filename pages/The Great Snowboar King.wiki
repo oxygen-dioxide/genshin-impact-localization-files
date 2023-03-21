@@ -1,23 +1,37 @@
 {{Enemy Infobox
 |image    = Enemy The Great Snowboar King Icon.png
-|element  = Cryo
+|dmgtype  = Physical
+|dmgtype2 = Cryo
+|weakpoint = no
 |type     = Elite Enemies
 |family   = Beasts
 |group    = Boars
 |location = [[Dragonspine]]
 |title    = The true ruler of Dragonspine?
 }}
-{{Description|Amidst the snow and ice dwells an ancient king waiting to be awakened by its ice-entombed brethren.<br />In the distant past beyond memory, a certain legend circulated among hunters out in the wild: when the land sealed by ice returns to life and when an uninvited guest disturbs the deep, frozen silence, the lord and leader of the snowboars unto greatness will awaken from slumber, shake off the ice that shackles it, and bring judgment upon those disrespectful interlopers.|[[Archive]]}}
-
 '''The Great Snowboar King''' &mdash; ''The true ruler of Dragonspine?'' is a special enemy and {{w|miniboss}} in [[Dragonspine]], located to the East of [[Entombed City - Ancient Palace]], south of the word "Ancient" on the map, and is part of the "[[Ah, Fresh Meat!]]" World Quest. It appears when all the snowboars in the area have been felled. There are warming areas to cure frostbite to the far North and South of the area if players need them.
 
 ==Drops==
-{{Card|Chilled Meat|6-10|caption=1}}
+===Items===
+{{Card|Chilled Meat|6-10|show_caption=1}}
 The Great Snowboar King respawns every 12 hours, providing a consistent supply of 14-18 chilled meat (6-10 from the Boar King, 6 from the frozen boars, 2 from the frozen boar near the [[Ruin Brazier]]) from each encounter.
 
 The Great Snowboar King also drops Quest Items during certain [[Quest]]s.
 *[[Great Snowboar King Meat]] ("[[Ah, Fresh Meat!]]" World Quest)
 *[[Chilled Meat (Quest Item)|Chilled Meat]] ("[[Only Half-Frozen]]" Commission)
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|o1    = 1
+|p1    = 3
+|hp2   = 50
+|o2    = 1
+|p2    = 3
+|hp3   = 25
+|o3    = 1
+|p3    = 3
+}}
 
 ==Stats==
 {{Enemy Stats
@@ -29,28 +43,22 @@ The Great Snowboar King also drops Quest Items during certain [[Quest]]s.
 }}
 
 ==Abilities and Attacks==
-*'''Charge:''' Charges towards the player up to three (Normal State) or four ('''Berserker State''') times, dealing '''100% ATK''' as {{Color|Physical DMG}} on hit. The Great Snowboar King will be stunned if it charges into a wall in its normal state.
-*'''Royal Family:''' Summons four small snowboars, who will dig snow from the ground along with the Great Snowboar King and launch one or multiple snowballs at the player, dealing '''100% ATK''' as {{Color|Cryo DMG}} and temporarily obscuring the player's vision on hit.
-*'''Berserker State:''' Enters Berserker State after it charges into a wall three times, increasing its ATK by '''30%''' and enabling it to use '''The King's Rage'''.
-*'''The King's Rage:''' Jumps up and down repeatedly, dealing '''100% ATK''' as {{Color|AoE Physical DMG}} when slamming down, and causing snowballs to fall from the sky, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|name_1 = Charge
+|desc_1 = Charges towards the player up to three (Normal State) or four ('''Berserker State''') times, dealing '''100% ATK''' as {{Color|Physical DMG}} on hit. The Great Snowboar King will be stunned if it charges into a wall in its normal state.
+|file_1_2 = The Great Snowboar King Stunned
+|caption_1_2 = Stunned
 
-===Preview===
-{{Preview
-|size=185px
-|file1    = The Great Snowboar King Charge
-|caption1 = Charge
+|name_2 = Royal Family
+|desc_2 = Summons four small snowboars, who will dig snow from the ground along with the Great Snowboar King and launch one or multiple snowballs at the player, dealing '''100% ATK''' as {{Color|Cryo DMG}} and temporarily obscuring the player's vision on hit.
+|file_2 = The Great Snowboar King Summon Piglets
 
-|file2    = The Great Snowboar King Stunned
-|caption2 = Stunned
+|name_3 = Berserker State
+|desc_3 = Enters Berserker State after it charges into a wall three times, increasing its ATK by '''30%''' and enabling it to use '''The King's Rage'''.
 
-|file3    = The Great Snowboar King Summon Piglets
-|caption3 = Royal Family
-
-|file4    = The Great Snowboar King Berserker State
-|caption4 = Berserker State
-
-|file5    = The Great Snowboar King The King's Rage
-|caption5 = The King's Rage
+|name_4 = The King's Rage
+|desc_4 = Jumps up and down repeatedly, dealing '''100% ATK''' as {{Color|AoE Physical DMG}} when slamming down, and causing snowballs to fall from the sky, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
 }}
 
 ==Strategy==
@@ -69,8 +77,11 @@ Try to make him charge at the wall, for it will leave him in a stunned state. Ta
 ==Achievements==
 {{Achievement Topic Table|topic=The Great Snowboar King}}
 
+==Descriptions==
+{{Description|Amidst the snow and ice dwells an ancient king waiting to be awakened by its ice-entombed brethren.<br />In the distant past beyond memory, a certain legend circulated among hunters out in the wild: when the land sealed by ice returns to life and when an uninvited guest disturbs the deep, frozen silence, the lord and leader of the snowboars unto greatness will awaken from slumber, shake off the ice that shackles it, and bring judgment upon those disrespectful interlopers.|[[Archive]]}}
+
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
  Wildlife Great Snowboar King Archive.png|Archive Image
 </gallery>
 
@@ -89,12 +100,14 @@ Try to make him charge at the wall, for it will leave him in a stunned state. Ta
 |ko_rm   = Seolsan Metdwaeji Wang
 |ko_tl   = Snow Mountain Wildboar King
 |es      = Rey Jabalí de las Nieves
-|es_tl   = 
+|es_tl   = King Snow Boar
 |fr      = Roi sanglier des neiges
 |fr_tl   = Snow Boar King
 |ru      = Король снежных кабанов
 |ru_tl   = Snow Boar King
 |th      = Great Snowboar King
+|th_rm   = 
+|th_tl   = 
 |vi      = Vua Heo Tuyết
 |vi_tl   = Snow Pig King
 |de      = Großer Schnee-Eber
@@ -102,6 +115,10 @@ Try to make him charge at the wall, for it will leave him in a stunned state. Ta
 |id      = Great Snowboar King
 |pt      = Grande Rei Javali da Neve
 |pt_tl   = 
+|tr      = Kral Kar Domuzu
+|tr_tl   = 
+|it      = Il Grande re dei cinghiali
+|it_tl   = 
 }}
 
 ==Change History==
@@ -111,7 +128,10 @@ Try to make him charge at the wall, for it will leave him in a stunned state. Ta
 {{Wildlife Navbox|state=collapsed}}
 {{Enemy Navbox|type=elite}}
 
+[[de:Großer Schnee-Eber]]
 [[es:Rey Jabalí de las Nieves]]
-[[ja:「雪のイノシシ王」]]
+[[fr:Roi sanglier des neiges]]
+[[ja:雪のイノシシ王]]
 [[pt-br:Grande Rei Javali da Neve]]
 [[ru:Король снежных кабанов]]
+[[zh:大雪猪王]]

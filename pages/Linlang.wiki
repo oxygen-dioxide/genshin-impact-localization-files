@@ -1,6 +1,7 @@
 {{Meta
 <!-- REMOVE THIS TEMPLATE AFTER ADDING MISSING INFO -->
 |missing_NPC_profile  = yes
+|missing_NPC_location = yes
 }}
 {{Character Infobox
 |type             = NPC
@@ -26,9 +27,11 @@ She also exchanges the three [[Nameless Treasure]]s for 350 [[Adventure EXP]], 4
 {{Shop/Footer|note=&#32;|total=10,000}}
 
 ==Location==
-<gallery hideaddbutton="true" captionalign="center">
-Linlang's Shop.jpeg|Xigu Antiques, Linlang's shop
-NPC Location Qiming (Nighttime).png|Location of Xigu Antiques
+<gallery>
+NPC Location Linlang (Daytime).png|Linlang's location ''(Daytime)''
+NPC Location Linlang (Daytime) Context.png|Additional context
+NPC Location Qiming (Nighttime).png|Linlang's location ''(Nighttime)''
+NPC Location Qiming (Nighttime) Context.png|Additional context
 </gallery>
 
 ==Profile==
@@ -42,27 +45,36 @@ NPC Location Qiming (Nighttime).png|Location of Xigu Antiques
 ''(To be added.)''
 
 ==Quests and Events==
-{{Quest Appearances}}
-
-===Events===
-* [[Lantern Rite]] (unique idle quotes and dialogue)
-* [[Moonlight Merriment]] (unique idle quote and introductory dialogue)
-
-===Hidden Exploration Objectives===
-* [[Hidden in Nameless Treasures]]
-* [[Selling the Dragonbone Orb]]
+{{Quests and Events}}
 
 ==Idle Quotes==
-*{{A|VO Linlang 01.ogg}} "...*hums a tune*" ''(Daytime)''
-*"...Take a look around." ''(Nighttime)''
-**{{A|VO Linlang 02.ogg}} "Feel free to take a look around." ''(Voice-Over)''
+{{Dialogue start}}
+;(Daytime)
+:: {{A|VO Linlang 01.ogg}} "...*hums a tune*"
 
-'''During Lantern Rite:'''
-* {{A|VO Linlang 01 (Lantern Rite).ogg}} "Isn't it great...?" ''(Daytime)''
+;(Nighttime)
+: {{DIcon|Idle}} ...Take a look around.
+:: {{A|VO Linlang 02.ogg}} "Feel free to take a look around."
+{{Dialogue end}}
 
-'''During Moonlight Merriment'''
-* "In pursuit of the moon..."
-** {{A|VO Linlang 01 (Moonlight Merriment).ogg}} "How many of Liyue's ancients have followed the Adepti footsteps in pursuit of the moon?" ''(Voice-Over)''
+;During Lantern Rite
+{{Dialogue start}}
+;(Daytime)
+:: {{A|VO Linlang Lantern Rite 01.ogg}} "Isn't it great...?"
+{{Dialogue end}}
+
+;During Moonlight Merriment
+{{Dialogue start}}
+: {{DIcon|Idle}} In pursuit of the moon...
+:: {{A|VO Linlang Moonlight Merriment 01.ogg}} "How many of Liyue's ancients have followed the Adepti footsteps in pursuit of the moon?"
+{{Dialogue end}}
+
+;During The Exquisite Night Chimes
+{{Dialogue start}}
+;(Daytime)
+: {{DIcon|Idle}} Antique instruments...
+:: {{A|VO Linlang Lantern Rite 02.ogg}} "Hmm... Antique instruments should be popular nowadays."
+{{Dialogue end}}
 
 ==Dialogue==
 ===Daytime===
@@ -103,7 +115,7 @@ NPC Location Qiming (Nighttime).png|Location of Xigu Antiques
 ::'''Linlang:''' Or this fossilized wood. It is a runner from a primordial tree, and legend says that this tree was so gigantic its root system spread throughout the entire world.
 ::'''Linlang:''' You might also consider this bottle, which contains the venomous blood of an evil dragon that once wrought havoc on a neighboring land. Due to exposure to the air, the blood has now dried and turned to dust...
 ::'''Linlang:''' ...However, the venom is so strong that one pinch of it would suffice to take out all the strongest men in a village. Heh.
-::'''Linlang:''' Beyond these, there are many other rarities and oddities in store, too. Feel free to peruse them at your leisure.
+::'''Linlang:''' Beyond these, there are many other qualities and oddities in store, too. Feel free to peruse them at your leisure.
 ::{{DIcon}} Sounds dubious to me...
 ::'''Linlang:''' Well, the value of an antique is whatever you make of it.
 ::'''Linlang:''' There is a saying, "An antique's credibility is borne of its owner's credulity." It is one's belief in an item as a historical relic that imbues it with meaning.
@@ -140,23 +152,33 @@ NPC Location Qiming (Nighttime).png|Location of Xigu Antiques
 :'''Linlang:''' I should really start collecting some antiques related to the festival...
 {{Dialogue end}}
 
+===The Exquisite Night Chimes===
+{{Dialogue start}}
+;(Talk to Linlang during daytime)
+:'''Linlang:''' Hi, I'm Linlang. I run an antiques shop called Xigu Antiques... How may I help you?
+:{{DIcon}} About the Lantern Rite music festival...
+::'''Linlang:''' There's usually a familiar sense of nostalgia in the air during the Lantern Rite, and it complements my store perfectly.
+::'''Linlang:''' This year's Lantern Rite music festival, however, has brought along some new ideas.
+::'''Linlang:''' People may become interested in music-related antiques, so I should probably read up on related legends too...
+::'''Linlang:''' After all, every ancient object that has weathered the ages has a fascinating story to tell.
+{{Dialogue end}}
 ==Trivia==
-*While the dialogue branch "About Rex Lapis' death..." is unlocked after completing the Archon Quest [[Chapter I]] Act II: [[Rite of Descension]], which was available at the game's initial release, Linlang's dialogue branch was not added until [[Version 1.1]].
+* While the dialogue branch "About Rex Lapis' death..." is unlocked after completing the Archon Quest [[Chapter I]] Act II: [[Rite of Descension]], which was available at the game's initial release, Linlang's dialogue branch was not added until [[Version 1.1]].
 
 ==Gallery==
 ===Cameos===
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Collected Miscellany - "Zhongli- Dominance of Earth" - Genshin Impact
 </gallery>
 
 ==Other Languages==
-{{Other Languages|default_hidden=1
+{{Other Languages
+|default_hidden = 1
 |en      = Linlang
 |zhs     = 琳琅
 |zhs_rm  = Línláng
 |zht     = 琳琅
 |zht_rm  = Línláng
-<!-- |zh_tl   = Glittering Jewels -->
 |ja      = 琳琅
 |ja_rm   = Rinrou{{Assumed}}
 |ko      = {{tt|임랑|琳琅}}
@@ -169,6 +191,8 @@ Collected Miscellany - "Zhongli- Dominance of Earth" - Genshin Impact
 |de      = Linlang
 |id      = Linlang
 |pt      = Linlang
+|tr      = Linlang
+|it      = Linlang
 }}
 
 ==Change History==
@@ -177,5 +201,7 @@ Collected Miscellany - "Zhongli- Dominance of Earth" - Genshin Impact
 ==References==
 {{Reflist}}
 -->
+
 [[es:Linlang]]
-[[pt-br:Lianglang]]
+[[pt-br:Linlang]]
+[[ru:Линь Лан]]

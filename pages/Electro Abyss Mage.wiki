@@ -1,6 +1,7 @@
 {{Enemy Infobox
 |image    = Enemy Electro Abyss Mage.png
-|element  = Electro
+|dmgtype  = Electro
+|weakpoint = yes
 |family   = The Abyss
 |type     = Elite Enemies
 |faction  = Abyss Order
@@ -9,57 +10,74 @@
 |ability1 = Shield
 |ability2 = Interruption Resistance
 |ability3 = Teleport
-|voiceJP  = [http://amuleto.jp/talents/福間竣兵.html Fukuma Shunpei (福間竣兵)]<ref>Twitter: [https://twitter.com/fkmshunp/status/1478711928671588359 JP VA Self Announcement]</ref>
-|voiceKR  = [https://namu.wiki/w/남도형 Nam Dohyeong (남도형)]<ref>YouTube: [https://youtu.be/6OoHaXl_hdY?t=209 KR VA Self Announcement]</ref>
-}}{{Description|Abyss creatures that utilise Electro in battles. While studying at the Academia, researcher Alva Nikola once conducted a systematic study of the methods by which Electro Abyss Mage manipulate Electro and came up with a theoretical weapon known as the Nikola Coil. However, it has yet to be put into practice. Some say that his research materials were eaten during a fungal infestation.|[[Archive]]}}
+|voiceJP  = [http://amuleto.jp/talents/福間竣兵.html Fukuma Shunpei ({{ja|福間竣兵}})]<ref>Twitter: [https://twitter.com/fkmshunp/status/1478711928671588359 JP VA Self Announcement]</ref>
+|voiceKR  = [https://namu.wiki/w/남도형 Nam Dohyeong ({{ko|남도형}})]<ref>YouTube: [https://youtu.be/6OoHaXl_hdY?t=209 KR VA Self Announcement]</ref>
+}}{{Description|Abyss creatures that utilize Electro in battles.<br />While studying at the [[Sumeru Akademiya|Akademiya]], researcher [[Alva Nikola]] once conducted a systematic study of the methods by which Electro Abyss Mages manipulate Electro and came up with a theoretical weapon known as the Nikola Coil. However, it has yet to be put into practice. Some say that his research materials were eaten during a fungal infestation.|[[Archive]]}}
 {{Enemy Intro}}
 
 ==Drops==
-{{Drops|Abyss Mages}}
+===Items===
+{{Drops Table|type=Abyss Mages}}
 
-==Stats==
-{{Enemy Stats|hp_ratio=2|atk_ratio=3|hp_type=1}}
-
-==Abilities and Attacks==
-*The '''Electro Abyss Mage''' has these unique properties compared to its counterparts:
-**Prioritizes '''Special Attacks''' over '''Normal Attacks'''.
-**When using '''Teleportation''' in its shielded state, reappears extremely close to the target.
-*'''Electro Shield:''' Upon initiating combat, the Electro Abyss Mage immediately gains an {{Electro}} [[Shields|Shield]], protecting it from damage. The shield takes damage from certain [[Elemental Reactions]] and suffers additional damage based on the strength of the attacks it receives.
-*'''Normal Attack:''' Shoots an Electro projectile at the target, dealing '''75% ATK''' as {{Color|Electro DMG}}
-*'''Special Attack: Electro Ring:''' Summons a large Electro ring around itself and deals one instance of '''100% ATK''' as {{Color|Electro DMG}} to targets anywhere inside the ring's AoE. Afterwards, the ring itself will deal '''100% ATK''' as {{Color|Electro DMG}} to targets upon contact.
-*'''Teleportation:''' If the target is too far from the mage, it clutches its mask and teleports directly in front of the target, dealing '''125% ATK''' as {{Color|AoE Electro DMG}} at its location upon reappearance. The mage can also teleport away from the player to avoid attacks when vulnerable.
-*'''Revival:''' If the mage is left alone after its shield is destroyed, repeatedly shoots out 4 medium-sized orbs in different directions around it, dealing '''50% ATK''' as {{Color|Electro DMG}}. During this attack, the mage's [[Interruption Resistance]] is increased. If the mage is not staggered or defeated within 10 seconds, it regains an Electro Shield, dealing '''150% ATK''' and '''200% ATK''' as {{Color|AoE Electro DMG}}.
-*'''Enhancement:''' Certain enhanced Electro Abyss Mages can be found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges. There are 2 possible types of enhancements: Attack and Shield.
-**'''Attack Enhancement:''' While using '''Teleportation''', automatically generates an '''Electro Ring''' upon reappearance.
-**'''Shield Enhancement:''' The '''Electro Shield''' becomes twice as durable. When a character's attack hits the shield, 1 [[gauge unit]] of Electro will be applied to the character.
-
-===Preview===
-{{Preview
-|size=185px
-|file1=Electro Abyss Mage Normal Attack
-|caption1=Normal Attack
-
-|file2=Electro Abyss Mage Special Attack
-|caption2=Special Attack
-
-|file3=Electro Abyss Mage Teleportation
-|caption3=Teleportation
-
-|file4=Electro Abyss Mage Revival
-|caption4=Revival
+===Energy===
+{{Energy Drops
+|type  = Electro
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|o4    = 1
 }}
 
-==Strategy==
-*{{Pyro}} and {{Cryo}} attacks are both the most effective at destroying the {{Electro}} shield by triggering [[Overloaded]] and [[Superconduct]] respectively.
-*{{Hydro}} attacks can deal continuous but low damage to the Electro shield by causing the [[Electro-Charged]] reaction.
-*As Electro Abyss Mages deal {{Color|Electro DMG}}, any active characters may take increased damage if they are currently affected by {{Hydro}}, {{Cryo}} or {{Pyro}}, causing the Electro-Charged, Superconduct and Overloaded reactions respectively against the active character. Electro-Charged deals continuous damage; Superconduct and Overloaded deal an instance of damage.
-*Abyss Mages have no innate elemental resistance to their corresponding element while unshielded. Electro attacks against the mage during this state will be just as effective as any other element.
+==Stats==
+{{Enemy Stats|hp_ratio=2|atk_ratio=3.75|hp_type=1}}
+
+==Weak Point Location==
+<gallery>
+Electro Abyss Mage Weak Point.png
+</gallery>
+* The Weak Point is only exposed while unshielded.
+
+==Abilities and Attacks==
+''Most attack names are unofficial.''
+{{Enemy Attacks
+|desc_1 = The Electro Abyss Mage has the following unique properties compared to its counterparts:
+* Prioritizes '''Special Attacks''' over '''Normal Attacks'''.
+* When using '''Teleportation''' in its shielded state, reappears extremely close to the target.
+
+|name_2 = Electro Shield
+|desc_2 = Upon initiating combat, the Electro Abyss Mage immediately gains an {{Electro}} [[Shield]], protecting it from damage. The shield takes damage from certain [[Elemental Reactions]] and suffers additional damage based on the strength of the attacks it receives.
+{{Elemental Shield Data|Electro|8}}
+|strat_2 = {{Pyro}}, {{Cryo}}, and {{Dendro}} attacks are both the most effective at destroying the {{Electro}} shield by triggering [[Overloaded]], [[Superconduct]], and [[Quicken]] respectively.
+
+|name_3 = Normal Attack
+|desc_3 = Shoots an Electro projectile at the target, dealing '''60% ATK''' as {{Color|Electro DMG}}
+|file_3 = Electro Abyss Mage Normal Attack
+
+|name_4 = Special Attack: Electro Ring
+|desc_4 = Summons a large Electro ring around itself and deals one instance of '''80% ATK''' as {{Color|Electro DMG}} to targets anywhere inside the ring's AoE. Afterwards, the ring itself will deal '''80% ATK''' as {{Color|Electro DMG}} to targets upon contact.
+|file_4 = Electro Abyss Mage Special Attack
+
+|name_5 = Teleportation
+|desc_5 = If the target is too far from the mage, it clutches its mask and teleports directly in front of the target, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} at its location upon reappearance. The mage can also teleport away from the player to avoid attacks when vulnerable.
+
+|name_6 = Rite of the Radiant Lightning
+|desc_6 = If the mage is left alone after its shield is destroyed, repeatedly shoots out 4 medium-sized orbs in different directions around it, dealing '''40% ATK''' as {{Color|Electro DMG}}. During this attack, the mage's [[Interruption Resistance]] is increased. If the mage is not staggered or defeated within 10 seconds, it regains an Electro Shield, dealing '''120% ATK''' and '''160% ATK''' as {{Color|AoE Electro DMG}}.
+
+|name_7 = Enhancement
+|desc_7 = Certain enhanced Electro Abyss Mages can be found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges. There are 2 possible types of enhancements: Attack and Shield.
+* '''Attack Enhancement:''' While using '''Teleportation''', automatically generates an '''Electro Ring''' upon reappearance.
+* '''Shield Enhancement:''' The '''Electro Shield''' becomes twice as durable. When a character's attack hits the shield, 1 [[gauge unit]] of Electro will be applied to the character.
+}}
 
 ==Trivia==
 *Alva Nikola and the Nikola Coil mentioned in the Electro Abyss Mage's description is a reference to {{w|Nikola Tesla}} and the {{w|Tesla coil}}.
 
 ==Gallery==
-<gallery hideaddbutton="true" captionalign="center">
+<gallery>
 Enemy Electro Abyss Mage Icon.png|Icon
 </gallery>
 
@@ -76,7 +94,7 @@ Enemy Electro Abyss Mage Icon.png|Icon
 |ja_tl   = Abyss Mage - Electro
 |ko      = 번개의 심연 메이지
 |ko_rm   = Beongae-ui Simyeon Meiji
-|ko_tl   = Abyss Mage of Electro
+|ko_tl   = Abyss Mage of Lightning
 |es      = Mago del Abismo Electro
 |es_tl   = Electro Abyss Mage
 |fr      = Électromage de l'Abîme
@@ -91,6 +109,10 @@ Enemy Electro Abyss Mage Icon.png|Icon
 |id      = Electro Abyss Mage
 |pt      = Feiticeiro do Abismo Electro
 |pt_tl   = Electro Abyss Sorcerer
+|tr      = Hiçlik Elektrik Büyücüsü
+|tr_tl   = 
+|it      = Mago dell'Abisso di Electro
+|it_tl   = 
 }}
 
 ==Change History==
@@ -102,5 +124,7 @@ Enemy Electro Abyss Mage Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
+[[de:Elektro-Abgrundmagier]]
 [[es:Mago del Abismo Electro]]
+[[ja:アビスの魔術師・雷]]
 [[pt-br:Feiticeiro do Abismo Electro]]
