@@ -3,19 +3,18 @@
 |image         = Event Quest Phantom of the Past.png
 |type          = World
 |event_name    = Hidden Strife
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 * Reach [[Adventure Rank]] 25 or above
-* Complete [[Song of the Dragon and Freedom]]
-* Complete [[Darknight Hero's Alibi]]
+* Complete {{Quest|Song of the Dragon and Freedom|showType=0}}
+* Complete {{Quest|Darknight Hero's Alibi|showType=0}}
 |characters    = Adelinde; Diluc; Paimon; Traveler
 |startLocation = [[Dawn Winery]], [[Mondstadt]]
 |region        = Mondstadt
 |area          = Windwail Highland
 |subarea       = Dawn Winery
 |next          = All's Well That Ends Well (Quest)
-|mora          = 20,000
-|other         = {{Card|Hero's Wit|2}}
+|rewards       = Mora*20,000;Hero's Wit*2
+|otherRewards  = 
 * Unlocks the [[Hidden Strife]] event
 |voiced        = yes
 }}
@@ -67,13 +66,13 @@
 
 ==Dialogue==
 {{Quest Description|The weather is starting to get hot. Paimon wants to buy some fruit juice from Dawn Winery to cool off...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Upon login or unlocking quest)
 :{{A|vo hyeq001 1 paimon 01.ogg}} '''Paimon:''' What a hot day. It sure feels like summer now!
 :{{A|vo hyeq001 1 paimon 02.ogg}} '''Paimon:''' A glass of ice-cold fruit juice would be the perfect thing to cool down with... just saying...
 :{{A|vo hyeq001 1 paimon 03.ogg}} '''Paimon:''' Speaking of which, we seem to keep missing out on the discount grape juice at Dawn Winery.
 :{{A|vo hyeq001 1 paimon 04.ogg}} '''Paimon:''' Paimon has a hunch that today will be the day... If we leave right now, maybe we'll get there in time!
-:{{A|vo hyeq001 1 paimon 05.ogg}} '''Paimon:''' Shall we get going, (Traveler)?
+:{{A|vo hyeq001 1 paimon 05.ogg}} '''Paimon:''' Shall we get going, {{Traveler}}?
 ----
 ;(Approach the front door of the manor)
 :{{A|vo hyeq001 2 adelinde 01.ogg}} '''Adelinde:''' Good day to you both. It's been quite a long time. You're looking well, as ever.
@@ -116,7 +115,7 @@
 :{{A|vo hyeq001 2 adelinde 17.ogg}} '''Adelinde:''' If you're happy to help, that would be wonderful. Master trusts you, after all, and you're both very capable.
 :{{A|vo hyeq001 2 adelinde 18.ogg}} '''Adelinde:''' I know he'd appreciate a helping hand.
 :{{A|vo hyeq001 2 paimon 10.ogg}} '''Paimon:''' No biggie! The sooner Master Diluc is free, the sooner we can get a taste of that delicious grape juice, hehe.
-:{{A|vo hyeq001 2 paimon 11.ogg}} '''Paimon:''' Come on, (Traveler), let's go to the Falcon Coast!
+:{{A|vo hyeq001 2 paimon 11.ogg}} '''Paimon:''' Come on, {{Traveler}}, let's go to the Falcon Coast!
 
 ;(Talk to Adelinde again)
 :{{A|vo dialog hyeq001 adelinde 01.ogg}} '''Adelinde:''' Please send Master Diluc my regards when you find him.
@@ -141,7 +140,7 @@
 :{{A|vo hyeq001 4 paimon 06.ogg}} '''Paimon:''' Mmm... Now that Paimon thinks about it... you know that strange ley line deposit on the beach?
 :{{DIcon}} I bet that's the "phenomenon" he was talking about.
 :{{A|vo hyeq001 4 paimon 07.ogg}} '''Paimon:''' Other than that, everything seems fine here... not a monster in sight.
-:{{A|vo hyeq001 4 paimon 08.ogg}} '''Paimon:''' (Traveler), do you wanna read Diluc's friend's notebook, too?
+:{{A|vo hyeq001 4 paimon 08.ogg}} '''Paimon:''' {{Traveler}}, do you wanna read Diluc's friend's notebook, too?
 :{{A|vo hyeq001 4 paimon 09.ogg}} '''Paimon:''' If not, let's head over and take a closer look at the ley line deposit.
 
 ;(Interact with the book again)
@@ -171,7 +170,7 @@
 :{{A|vo hyeq001 5 paimon 05.ogg}} '''Paimon:''' Hey, you're right! Now that Paimon looks more closely, this Diluc does look younger than usual.
 :{{A|vo hyeq001 5 paimon 06.ogg}} '''Paimon:''' But what happened back then? Why was he fighting here?
 :{{A|vo hyeq001 5 paimon 07.ogg}} '''Paimon:''' Hmm. Guess we can just ask him about it when we see him.
-:{{A|vo hyeq001 5 paimon 08.ogg}} '''Paimon:''' What should we do now, (Traveler)?
+:{{A|vo hyeq001 5 paimon 08.ogg}} '''Paimon:''' What should we do now, {{Traveler}}?
 :{{DIcon}} We shouldn't act rashly.
 :{{DIcon}} Let's observe for now.
 :{{A|vo hyeq001 5 paimon 09.ogg}} '''Paimon:''' Okay, let's see how young Diluc used to fight.
@@ -193,7 +192,7 @@
 :{{A|vo hyeq001 6 paimon 09.ogg}} '''Paimon:''' Anyway, we came here to help Diluc, didn't we? So let's stick around a little longer and make sure this place is completely safe before we head back.
 :{{DIcon}} You've got a strong sense of responsibility.
 :{{A|vo hyeq001 6 paimon 10.ogg}} '''Paimon:''' Hehe... Not really. Paimon just wants some fancy grape juice.
-:{{A|vo hyeq001 6 paimon 11.ogg}} '''Paimon:''' Come on, (Traveler), let's finish what we came for. When we get the grape juice, you can have some of Paimon's half!
+:{{A|vo hyeq001 6 paimon 11.ogg}} '''Paimon:''' Come on, {{Traveler}}, let's finish what we came for. When we get the grape juice, you can have some of Paimon's half!
 ;(Quest ends)
 ----
 ;(Talk to Adelinde at Dawn Winery again)
@@ -205,7 +204,7 @@
 :{{A|vo dialog hyeq001 adelinde 06.ogg}} '''Adelinde:''' Fair enough. Well, I don't know the first thing about combat situations anyway, so you can spare yourselves the ordeal of trying to explain it all to me.
 :{{A|vo dialog hyeq001 adelinde 07.ogg}} '''Adelinde:''' If there's anything you need, let me know, and I'll sort it out.
 :{{A|vo dialog hyeq001 adelinde 08.ogg}} '''Adelinde:''' I'll be right here when you need me.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -245,5 +244,6 @@
 
 [[es:Ilusiones del pasado]]
 [[fr:Fantôme du passé]]
-[[ru:Призраки прошлого]]
+[[ja:謎に包まれし過去の影]]
 [[pt-br:Miragem do Passado]]
+[[ru:Призраки прошлого]]

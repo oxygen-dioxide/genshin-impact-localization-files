@@ -4,7 +4,6 @@
 |type          = World
 |chapter       = Her Foes Rage Like Great Waters...
 |part          = 3
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Babel; Jeht; Nayram; Paimon; Private Hudson; Rezki; Traveler; Yuften; Mendas; Hugeweh
 |startLocation = [[Wadi Al-Majuj]], [[Sumeru]]
@@ -14,74 +13,68 @@
 |subarea       = Wadi Al-Majuj
 |prev          = [[Make Bright the Arrows, Gather the Shields...]]
 |next          = 
-|exp           = 400
-|mora          = 30,000
-|primogems     = 50
-|other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}
+|rewards       = Adventure EXP*400;Primogem*50;Mora*30,000;Hero's Wit*3;Mystic Enhancement Ore*6
 |rep           = 
 |repAmt        = 
 |repOrder      = 
 }}
-'''''For Her Judgment Reaches to the Skies...''''' is the third part of the ''[[Her Foes Rage Like Great Waters...]]'' [[World Quest]] series. The quest starts automatically at the end of ''[[Make Bright the Arrows, Gather the Shields...]]''.
+'''''For Her Judgment Reaches to the Skies...''''' is the third part of the {{Quest|Her Foes Rage Like Great Waters...}}.
+
+The quest starts automatically at the end of {{Quest|Make Bright the Arrows, Gather the Shields...|showType=0}}.
 
 ==Steps==
 # Go to the location mentioned in the Fatui's documents
 # Look for [[Jeht]]
 # Chase the sounds to their source
 # Enter the Fatui hideout
-#* Wave 1: {{Enemy List|Fatui Skirmisher - Anemoboxer Vanguard*2}}
-#* Wave 2: {{Enemy List|Fatui Skirmisher - Cryogunner Legionnaire*1}}
+#* Wave 1: {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|x=2}}
+#* Wave 2: {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|x=1}}
 # Find the injured Jeht
 # Calm Jeht down
-#* Wave 1:
-#** {{Enemy|Eremite Desert Clearwater|text=Jeht — Rage Born of Betrayal}} ×1
+#* {{Enemy|Eremite Desert Clearwater|text=Jeht &mdash; Rage Born of Betrayal|x=1}}
 # Defeat the attacking assassin(s)
-#* Wave 1:
-#** {{Enemy|Eremite Axe Vanguard|text=Nayram — Tanit Falcon}} ×1
-#* Wave 2:
-#** {{Enemy|Eremite Sunfrost|text=Rezki — Tanit Falcon}} ×1
+#* Wave 1: {{Enemy|Eremite Axe Vanguard|text=Nayram &mdash; Tanit Falcon|x=1}}
+#* Wave 2: {{Enemy|Eremite Sunfrost|text=Rezki &mdash; Tanit Falcon|x=1}}
 # Talk to Jeht
 # Go and confront [[Babel]]
-# Defeat Babel and her underlings
-#* Wave 1: {{Enemy List|Eremite Ravenbeak Halberdier *2}}
-#** {{Enemy|Eremite Scorching Loremaster|text=Babel — Tanit Matriarch}} ×1
+# Defeat Babel and her underlings {{Enemy List|delim=;;|1=Eremite Ravenbeak Halberdier*2;;Eremite Scorching Loremaster{text=Babel &mdash; Tanit Matriarch} }}
 # Defeat the forces of the Tanit tribe
 #* Wave 1: {{Enemy List|Eremite Ravenbeak Halberdier *1;Eremite Linebreaker *1;Eremite Sword-Dancer*1}}
 #* Wave 2: {{Enemy List|Eremite Linebreaker *1;Eremite Sword-Dancer*1}}
 #* Wave 3: {{Enemy List|Eremite Crossbow *1;Eremite Linebreaker*1}}
 #* Wave 4: {{Enemy List|Eremite Sword-Dancer*1;Eremite Daythunder*1}}
 #* Wave 5: {{Enemy List|Eremite Ravenbeak Halberdier *1;Eremite Sword-Dancer*1}}
-#* Wave 6: {{Enemy List|Eremite Sword-Dancer*1;}}
-#* Wave 7: {{Enemy List|Eremite Sword-Dancer*2;Eremite Axe Vanguard*1}}
-#** {{Enemy|Eremite Sword-Dancer|text=Yuften — Tanit Farmer}} ×1
+#* Wave 6: {{Enemy List|Eremite Sword-Dancer|x=1}}
+#* Wave 7: {{Enemy List|delim=;;|1=Eremite Sword-Dancer*2;;Eremite Axe Vanguard*1;;Eremite Sword-Dancer{text=Yuften &mdash; Tanit Farmer} }}
 # Catch up with Babel
 # Defeat Babel
-#* Wave 1:
-#** {{Enemy|Eremite Scorching Loremaster|text=Babel — Tanit Matriarch}} ×1
-#* The following enemies will infinitely respawn until Babel is defeated: {{Enemy List|Eremite Ravenbeak Halberdier *1;Eremite Crossbow *1}}
+#* {{Enemy|Eremite Scorching Loremaster|text=Babel &mdash; Tanit Matriarch|x=1}}
+#* The following enemies will infinitely respawn until Babel is defeated: {{Enemy List|Eremite Ravenbeak Halberdier;Eremite Crossbow}}
 # Follow Jeht out of this place
 
 ==Gameplay Notes==
+* The Fatui soldiers fought during step 4 begin combat with approximately 30% HP.
 * When fighting Jeht to calm her down, she begins with approximately 70% HP and enters her Enhanced State immediately. The quest proceeds when Jeht has been brought down to approximately 30% HP.
-* Completing this quest awards the [[Wonders of the World]] [[Achievement]] - [["...For She Shall Surely Requite."]]
-* Returning to the [[Tanit Camps]], the player can find 1&times; [[Ancient Stone Key]] where Babel used to be found, which can be used to open a vault below, that contains four [[Chest|Precious Chests]], each containing 50,000 [[Mora]].
-* When picking up the '''Ancient Stone Key''', the player may also receive 1&times; [[Transfer Notification]], however it will not end up in the player's inventory. This is likely due to a bug. 
-* After the quest is completed, the Tanit Camps will be completely empty. [[Yuften]] may appear at his usual location due to a bug, however the player will not be able to interact with him. After reloading the game, he will also disappear.
-** If player has completed {{Quest|Akasha Pulses, the Kalpa Flame Rises}} and waited for a daily reset{{Verify}}, [[Tanjiyy]] will appear on behalf of [[Cyno]] and comment on the aftermath landscape of the camp.
+* [[Jeht]] will fight alongside the player during steps 7 & 10 to 13 as an {{enemy|Eremite Desert Clearwater}}.
+* During step 10, Babel will flee from combat once she is reduced to approximately 75% HP.
+** During step 13, Babel starts combat at approximately 75% HP.
+* Completing this quest awards the {{Achievement|"...For She Shall Surely Requite."}}
+* Returning to the [[Tanit Camps]], the player can find 1 [[Ancient Stone Key]] where Babel used to be found, which can be used to open a vault below that contains four [[Precious Chest]]s, each containing 50,000 [[Mora]].
+* When picking up the '''Ancient Stone Key''', the player may also receive ×1 [[Make Bright the Arrows, Gather the Shields...|Transfer Notification]], although it will not end up in the player's inventory. This is likely due to a bug.
+* After the quest is completed, the Tanit Camps will be completely empty. [[Yuften]] may appear at his usual location due to a bug; however, the player will not be able to interact with him. After reloading the game, he will also disappear.
+** If the player has completed {{Quest|Akasha Pulses, the Kalpa Flame Rises}} and waited for a daily reset, [[Tanjiyy]] will appear at the tent near Babel's former position and comment on the aftermath landscape of the camp. He will also play [[Genius Invokation TCG]], using the decks of [[Azariq]], [[Masseira]], and Yuften.
 * After this quest, a note from Jeht is posted on her tent in the Tanit Camps, saying she is "out on business." The [[Crumpled Namelist]] of her targets that was previously found inside disappears. It can be found again in a tent in the canyon past [[Liloupar's Cell]], below [[Wadi Al-Majuj]]'s western [[Teleport Waypoint]].
 * Players who asked for a toast to Jeht on the Traveler's behalf at the end of ''[[The Eternal Dream, Ever Lush]]'' will receive both the 4-Star [[Amethyst Crown]] and 10,000 [[Mora]] that they would have received from the other options as part of the rewards for clearing this quest.
 
 ==Dialogue==
 {{Quest Description|Sometimes, the best way to deal with schemes is by brutal force &mdash; a knot that cannot be undone can be ripped apart.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Go to the location mentioned in the Fatui's documents)
 :'''Paimon:''' No sign of the Fatui... Hmm, but look at the things scattered around this place. Someone must've been here before.
 
 ;(Look for Jeht)
 :'''Investigate:''' (Scattered, messy footprints both deep and shallow mark the area. There are even signs of a person tumbling across the sands... It is apparent that someone ran for their lives not long ago, leaving these footprints behind.)
 :'''Paimon:''' Wow... What a mess of footprints... It looks... terrifying... Let's just get going.
-:{{DIcon}} Relax, there's nothing scary here.
-:'''Paimon:''' That's exactly what makes this place creepy...
 
 :'''Investigate:''' (A smashed crate, with traces suggesting that it once contained something that was alive... But whatever it was, it is now free.)
 :'''Paimon:''' Ugh, the smell... This isn't good...
@@ -119,7 +112,7 @@
 :'''Jeht:''' [[Uzad]]... [[Tafreh]]...
 :'''Paimon:''' Are those... names?
 :'''Jeht:''' ...?
-:'''Jeht:''' You're here, (Traveler)...
+:'''Jeht:''' You're here, {{Traveler}}...
 :'''Jeht:''' Sorry, I might have lost my head a little back there... And sorry for getting caught as well.
 :'''Paimon:''' That's not important! Are you hurt? Is it serious?
 :'''Jeht:''' Come here. I've something to tell you two.
@@ -136,7 +129,7 @@
 :'''Jeht:''' These northerners... If it wasn't you who told them about the [[Eternal Oasis]], why are they targeting Tanit?
 :'''Paimon:''' What are you talking about!? We don't know anything!
 :'''Jeht:''' Matriarch Babel told me everything! She asked me to track you down because Yuften saw your deal with the northerners! And Masseira...
-:'''Paimon:''' W-What!? (Traveler), it was Babel all along! She fooled us all!
+:'''Paimon:''' W&mdash;What!? {{Traveler}}, it was Babel all along! She fooled us all!
 :'''Jeht:''' Silence! I shall make this quick!
 :'''Paimon:''' Jeht, please calm down! It was Babel! Babel told us to look for you!
 :'''Jeht:''' Lies!
@@ -190,7 +183,7 @@
 :'''Jeht:''' ...
 
 ;(While fighting Nayram)
-:'''Jeht:''' Be careful, (Traveler)!
+:'''Jeht:''' Be careful, {{Traveler}}!
 :'''Nayram:''' You're so slow! Have you been injured?
 :'''Jeht:''' Hmph! Thanks for your concern.
 
@@ -206,6 +199,9 @@
 ;(Upon defeating Rezki)
 :'''Rezki:''' Argh... Curses! I really shouldn't have... taken... this... job...
 :'''Jeht:''' Okay, guess we can properly talk now, yeah?
+
+;(Use [[Nahida]]'s [[All Schemes to Know]] on Jeht, optional)
+:'''Jeht:''' (...I won't believe it, even if that's what Matriarch Babel said... I know you didn't betray me, but I... I just get so angry when I see you...)
 
 ;(Defeat Nayram and Rezki)
 :'''Jeht:''' Matriarch Babel sent them... What do you think they will do?
@@ -226,15 +222,11 @@
 :'''Jeht:''' My wounds? Where? Pfft... That's right. They're everywhere! ...Seriously though, I can keep going.
 :{{DIcon}} Don't try to downplay it. Let us have a look.
 :'''Jeht:''' {{MC|m=*sigh*... Okay. Sorry...|f=Mm... Okay...}}
-
-:'''And so, you all decide to rest briefly and start a campfire...'''
-
-:'''{{MC|m=After carefully tending to Jeht's wounds, you get some rest together with her by the campfire.<br />Though no words are spoken, you both know what must happen next.|f=After carefully tending to Jeht's wound, you get some rest together with her by the campfire...<br />Jeht sleeps peacefully by your side. The mixed odors of blood, sweat, and burning poplar branches cannot fully mask the scent of spices she carries.<br />Light snoring and raving nonsense intertwine in her dreams &mdash; she must truly be tired.<br />Even without speaking to one another, you both know what must happen once she awakes.}}'''
+:{{Black Screen|And so, you all decide to rest briefly and start a campfire...}}
+:{{Black Screen|{{MC|m=After carefully tending to Jeht's wounds, you get some rest together with her by the campfire.<br>Though no words are spoken, you both know what must happen next.|f=After carefully tending to Jeht's wound, you get some rest together with her by the campfire...<br>Jeht sleeps peacefully by your side. The mixed odors of blood, sweat, and burning poplar branches cannot fully mask the scent of spices she carries.<br>Light snoring and raving nonsense intertwine in her dreams &mdash; she must truly be tired.<br>Even without speaking to one another, you both know what must happen once she awakes.}}}}
 ----
 :'''Jeht:''' ...Let's go. Let's find Babel and have her explain everything to us.
-
-:'''You and Jeht arrive at the entrance to the canyon, where Matriarch Babel happens to be waiting for her subordinates.'''
-
+:{{Black Screen|You and Jeht arrive at the entrance to the canyon, where Matriarch Babel happens to be waiting for her subordinates.}}
 ;(Approaching Babel)
 :'''Jeht:''' There she is... probably waiting for Nayram and Rezki.
 :'''Paimon:''' Who are they again...
@@ -242,6 +234,12 @@
 
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Babel, optional)
 :'''Babel:''' (...Sure enough, they're still alive, like poisonous insects...!)
+
+;(Use [[Nahida]]'s [[All Schemes to Know]] on Hugeweh, optional)
+:'''Hugeweh:''' (Sorry... Jeht.)
+
+;(Use [[Nahida]]'s [[All Schemes to Know]] on Mendas, optional)
+:'''Mendas:''' (There's only two people... and a Jinni?)
 
 ;(Talk to Babel)
 :'''Babel:''' ...It's you, Jeht! You're... You're back.
@@ -285,7 +283,7 @@
 :'''Babel:''' ...
 :'''Jeht:''' Elder Gwaffah was such an eyesore to you, and you were that to him, too. And sadly, it was me in the end with a Sumpter Beast's jawbone. Again, and again, and again, and again...
 :'''Jeht:''' That was the first time I had ever been scared to tears. I was so afraid of myself. I still remember how you wiped my tears away...
-:'''Paimon:''' Hold on... Are you saying...!? ... How could that be...
+:'''Paimon:''' Hold on... Are you saying...!? ...&nbsp;How could that be...
 :'''Babel:''' Wait. Why are you bringing this up? Why do you have to bring this up in front of them?
 :'''Jeht:''' Ah, and there was also Elder Teyya. She was young and beautiful, and she was the head of the hunting party... a more capable competitor than you.
 :'''Jeht:''' She thought I adored her, but I was loyal to you, for I believed that you alone were my true family. I believed that you could wipe my tears away once more and give me a home.
@@ -294,8 +292,8 @@
 :'''Jeht:''' You are the "sole oracle of the goddess" and my "mother." Why should there be any secrets between us?
 :'''Jeht:''' If you wish to hear more, I can spell every one of my deeds out to you, and to all the Tanit.
 :'''Jeht:''' Everything I've done for you, my mother, and for this family.
-:'''Jeht:''' I've done enough, and I'm fed up with it. I won't betray (Traveler).
-:'''Babel:''' You're mad... How dare you slander me, your matriarch! You've forgotten your mother's name! Silence &mdash; I bid you be silent now, before it is too late!
+:'''Jeht:''' I've done enough, and I'm fed up with it. I won't betray {{Traveler}}.
+:'''Babel:''' You're mad... How dare you slander me, your Matriarch! You've forgotten your mother's name! Silence &mdash; I bid you be silent now, before it is too late!
 :'''Jeht:''' My mother's name is [[Ufairah]] &mdash; Ufairah Hindi. She was an honest person.
 :'''Babel:''' ...
 :'''Babel:''' Ah, so it was true, then. The traitor's daughter could never be anything but a half-grown mongrel... just like her father.
@@ -304,19 +302,19 @@
 :'''Babel:''' Traitor! All my teachings were for nothing! May the desert mark your treachery!
 :'''Babel:''' Enough! My kin, you know what to do.
 :'''Babel:''' She has angered... and saddened me.
-:'''Paimon:''' Huh...! Hold on! Don't get so worked up! Didn't you just say that you see Jeht as your daughter... Besides, (Traveler) has helped you so many times...
+:'''Paimon:''' Huh...! Hold on! Don't get so worked up! Didn't you just say that you see Jeht as your daughter... Besides, {{Traveler}} has helped you so many times...
 :'''Paimon:''' A&mdash;Anyway, there's still gotta be a way to come to an understanding, right?
 :'''Jeht:''' Paimon, hide yourself.
 :'''Jeht:''' Keep your eyes closed... and don't dirty your white clothes.
 
 ;(Defeat Babel and her underlings)
-:'''Babel''' You lying cur! Tanit will never stop pursuing you and the outsiders who collude with you!
-:'''Jeht''' I'd shut up if I were you, Babel! Save your energy for your last words!
-:'''Babel''' Protect me! Protect me! You're going against all of Tanit! Do you think we'll ever forgive you?
-:'''Jeht''' I don't want your forgiveness!
+:'''Babel:''' You lying cur! Tanit will never stop pursuing you and the outsiders who collude with you!
+:'''Jeht:''' I'd shut up if I were you, Babel! Save your energy for your last words!
+:'''Babel:''' Protect me! Protect me! You're going against all of Tanit! Do you think we'll ever forgive you?
+:'''Jeht:''' I don't want your forgiveness!
 
-;(After defeating Babel)
-:'''Jeht:''' Ugh! She got away! Let's chase her down! 
+;(When Babel is below 75% HP){{Verify|Exact hp threshold}}
+:'''Jeht:''' Ugh! She got away! Let's chase her down!
 :'''Jeht:''' Come out, Babel!
 :'''Jeht:''' You're all trying to stop me right here, aren't you!?
 :'''Jeht:''' Sniveling, insufferable dog!
@@ -351,7 +349,7 @@
 :'''Jeht:''' Why? Because you're evil and I'm not. I see no reason why I must explain myself to you.
 :'''Babel:''' ...
 :'''Jeht:''' *sigh* Alright... Babel, let me tell you...
-:'''Jeht:''' It's because (Traveler) is {{MC|m=my best friend.|f=my best friend!}}
+:'''Jeht:''' It's because {{Traveler}} is {{MC|m=my best friend.|f=my best friend!}}
 :{{DIcon}} ...
 :'''Jeht:''' You wanted to get rid of {{MC|m=him|f=her}}, but I refused to be part of it, and so you decided to get rid of me too.
 :'''Jeht:''' No, you're more despicable than that... You wanted to pit us against each other!
@@ -372,10 +370,10 @@
 :'''Jeht:''' But you said before that you wanted to give me a chance to repent... Was that also a lie?
 :'''Babel:''' I thought... you'd soften... it'd make it easier to get rid of you...
 :'''Jeht:''' ...
+:;(Metal on metal can be heard as Jeht draws her weapons.)
 :'''Jeht:''' You disgust me. All of you.
-
-:'''You and the group reached the entrance to the canyon, and Jeht has sorted out her feelings.'''
-
+:;(A diagonal slash flashes on the screen as Jeht executes Babel.)
+:{{Black Screen|You and the group reached the entrance to the canyon, and Jeht has sorted out her feelings.}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Jeht, optional)
 :'''Jeht:''' (...It's all over... or is it?)
 
@@ -405,13 +403,10 @@
 :'''Jeht:''' Anyway, if you ever feel tired or want to take a breather... I believe that our paths will converge one day.
 :'''Jeht:''' At that time, I might even invite you to go on a crazy adventure with me again.
 :'''Jeht:''' Phew... I've done enough talking... It's time to leave. There's nothing left here but heartbreak.
-
-:'''{{MC|m=You hug Jeht before parting ways with her in the desert.<br />She holds you tightly, and you notice that she seems to be holding back sobs...<br />However, she quickly draws back and rubs her wet eyes before smiling broadly at you once more.|f=You hug Jeht before parting ways with her in the desert.<br />She holds you tightly, almost as if afraid that a blinding sandstorm would sweep you away. You notice that she seems to be holding back sobs...<br />Then she pushes you away lightly and rubs her wet eyes before smiling broadly at you once more.}}'''
-
-:'''"May we meet again under a lovelier sun," she says.'''
-
-:'''Jeht turns away and leaves.<br />You see [[Benben]], only now emerging out of the ruined camp, hurry to catch up with Jeht.'''
-{{Dialogue end}}
+:{{Black Screen|{{MC|m=You hug Jeht before parting ways with her in the desert.<br>She holds you tightly, and you notice that she seems to be holding back sobs...<br>However, she quickly draws back and rubs her wet eyes before smiling broadly at you once more.|f=You hug Jeht before parting ways with her in the desert.<br>She holds you tightly, almost as if afraid that a blinding sandstorm would sweep you away. You notice that she seems to be holding back sobs...<br>Then she pushes you away lightly and rubs her wet eyes before smiling broadly at you once more.}}}}
+:{{Black Screen|"May we meet again under a lovelier sun," she says.}}
+:{{Black Screen|Jeht turns away and leaves.<br>You see [[Benben]], only now emerging out of the ruined camp, hurry to catch up with Jeht.}}
+{{Dialogue End}}
 
 ==Trivia==
 *Private Hudson, the Cryogunner Legionnaire fought after entering the Fatui hideout, is a reference to {{w|Hudson (Aliens)|Private Hudson}} from the movie ''Aliens'', and more specifically to his famous quote ''"Game over, man! Game over! What [...] are we gonna do now?"'' (expletives omitted).
@@ -420,7 +415,7 @@
 ===Etymology===
 * Like the other quests and Achievements in ''Her Foes Rage Like Great Waters...'', the quest name has biblical origins. The quotes come from passages about the fall of {{w|Babylon}}, called ''Babel'' in the Hebrew Bible.
 ** The English title is derived from {{w|Jeremiah 51|Jeremiah 51:9}} (New International Version): ''"We would have healed Babylon, but she cannot be healed; let us leave her and each go to our own land, for her judgment reaches to the skies, it rises as high as the heavens."''
-** The original Chinese title is derived from {{w|Revelation 18|Revelation 18:5}} (Chinese New Version and New International Version): {{Zh|因为她的罪恶滔天，神已经想起她的不义来。|tl=''For her [Babylon's] sins are piled up to heaven, and God has remembered her crimes.''}}
+** The original Chinese title is derived from {{w|Revelation 18|Revelation 18:5}} (Chinese New Version and New International Version): {{zh|因为她的罪恶滔天，神已经想起她的不义来。|tl=''For her [Babylon's] sins are piled up to heaven, and God has remembered her crimes.''}}
 
 ==Other Languages==
 {{Other Languages
@@ -456,7 +451,7 @@
 |tr      = Yargısı Göklere Erişiyor...
 |tr_tl   = 
 |it      = Poiché la sua punizione arriva fino al cielo...
-|it_tl   = 
+|it_tl   = As Her Punishment Reaches Up to the Sky...
 }}
 
 ==Change History==

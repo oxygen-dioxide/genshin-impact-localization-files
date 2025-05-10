@@ -18,7 +18,7 @@
 |characters    = Alia; Anis; Faruzan; Kamal; Mamdouh; Nadwah; Nazenin; Qasit; Ruhi; Servan; Tighnari; Traveler
 |voiced        = yes
 }}
-'''Early Learning Mechanism''' is a quest in [[Faruzan]]'s [[Hangout Event]], Act I: [[A Confounding Conundrum]].
+'''''Early Learning Mechanism''''' is a quest in {{Quest|A Confounding Conundrum}}.
 
 ==Steps==
 # Go to [[Port Ormos]] and look for Anis
@@ -28,14 +28,14 @@
 # Head to the conference
 
 ==Gameplay Notes==
-* The ''[[Memories of the Heart]]'' achievement ''[[Mechanics: From Beginner to...?]]'' is granted for correctly answering Faruzan's question about the lowest number of steps needed to complete a seven-layer "Pagoda Stack"
-** The "Pagoda Stack" game is based on the {{w|Tower of Hanoi}} puzzle. The minimal number of moves required to solve the puzzle is calculated as <code>2<sup><i>n</i></sup> - 1</code> where <i><code>n</code></i> is the number of disks. 
-** The solution to Faruzan's question can be calculated as: <code>2<sup>7</sup> - 1 = <b>127</b></code>
+* The {{Achievement|Mechanics: From Beginner to...?}} is granted for correctly answering Faruzan's question about the lowest number of steps needed to complete a seven-layer "Pagoda Stack"
+** The "Pagoda Stack" game is based on the {{w|Tower of Hanoi}} puzzle. The minimal number of moves required to solve the puzzle is calculated as <math>2^n-1</math> where <math>n</math> is the number of disks. 
+** The solution to Faruzan's question can be calculated as: <math>2^7-1=127</math>
 
 ==Dialogue==
 ===Toys and How to Play With Them===
 {{Quest Description|Faruzan decides to come to the aid of Acara Crafts for the sake of the children and the Akademiya's future...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Nadwah again at the Akademiya, optional)
 :{{A|vo frzcop001 1917202 nadwah 01.ogg}} '''Nadwah:''' Archon be praised, I can finally send a report to my superiors! Thank you so much!
 :{{A|vo frzcop001 1917202 nadwah 02.ogg}} '''Nadwah:''' I have no idea how we might have persuaded her otherwise...
@@ -48,7 +48,7 @@
 :{{A|vo frzcop001 1917202 faruzan 01.ogg}} '''Faruzan:''' Alright, calm down. Let me be clear: I'm still not all that interested in Kshahrewar. I'm just here to see how the project is going.
 :{{A|vo frzcop001 1917202 faruzan 02.ogg}} '''Faruzan:''' After all, you're here as representatives of the Akademiya in this collaboration. The reputation of all researchers is at stake here, so I will not simply stand by should mistakes get made.
 :{{A|vo frzcop001 1917202 anis 02.ogg}} '''Anis:''' Haha... Either way, it's good that you were willing to come.
-:{{A|vo frzcop001 1917202 anis 03.ogg}} '''Anis:''' Now, we've given Acara Crafts many ideas over the past couple of days. However, their owner thinks that our designs are too complicated, which will drive production costs too far up...
+:{{A|vo frzcop001 1917202 anis 03.ogg}} '''Anis:''' Now, we've given [[Acara Crafts]] many ideas over the past couple of days. However, their owner thinks that our designs are too complicated, which will drive production costs too far up...
 :{{A|vo frzcop001 1917202 faruzan 03.ogg}} '''Faruzan:''' That's expected. Students who have never had to deal with budgetary constraints probably don't understand how important it is to keep costs low. How enviable... Ahem!
 :{{DIcon}} By any chance, has it been very difficult for you...
 :{{DIcon}} ...To get funding for your research?
@@ -56,7 +56,7 @@
 :{{A|vo frzcop001 1917202 faruzan 04.ogg}} '''Faruzan:''' That's enough. I will not repeat myself. Take me to Acara Crafts' owner first, if you please.
 :{{A|vo frzcop001 1917202 anis 05.ogg}} '''Anis:''' *sigh* ...Alright. He's usually at the slope up ahead recruiting volunteers to test out his toys. Let's just head over.
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Mamdouh, optional)
+;(Use Nahida's All Schemes to Know on Mamdouh, optional)
 :{{A|vo frzcop001 1917301 mamdouh 01.ogg}} '''Mamdouh:''' (Surely the kids will like this one...?)
 
 ;(Talk to the staff at [[Acara Crafts]])
@@ -71,10 +71,8 @@
 :{{A|vo frzcop001 1917203 anis 03.ogg}} '''Anis:''' I remember that, in your notes, many contraptions have managed to fulfill complex functions despite using simple parts. Maybe we can do something similar with these early learning toys...
 :{{A|vo frzcop001 1917203 faruzan 03.ogg}} '''Faruzan:''' The contraptions in my notes? I didn't create those. I simply took the contraptions in the ruins apart and analyzed them.
 :{{A|vo frzcop001 1917203 faruzan 04.ogg}} '''Faruzan:''' But now that you mention it, the ruins did have things like that. Do you have a pen, paper, and scissors? I'll make a paper prototype.
-:{{A|vo frzcop001 1917203 mamdouh 05.ogg}} '''Mamdouh:''' You have an idea already? ... I suppose I should have expected as much of a respected Akademiya senior researcher. We do have those, yes. Please, help yourself!
-
-:'''Faruzan starts to sketch and cut...'''
-
+:{{A|vo frzcop001 1917203 mamdouh 05.ogg}} '''Mamdouh:''' You have an idea already? ...&nbsp;I suppose I should have expected as much of a respected Akademiya senior researcher. We do have those, yes. Please, help yourself!
+:{{Black Screen|Faruzan starts to sketch and cut...}}
 :{{A|vo frzcop001 1917203 mamdouh 06.ogg}} '''Mamdouh:''' Oh, you're done already?
 ::[[File:Early Learning Mechanism Pagoda 1.png|300px]]
 :{{A|vo frzcop001 1917203 faruzan 05.ogg}} '''Faruzan:''' Let me explain. These three thick lines represent three poles.
@@ -90,9 +88,7 @@
 :{{A|vo frzcop001 1917203 mamdouh 09.ogg}} '''Mamdouh:''' It's such a simple toy. There's no need to...
 :{{A|vo frzcop001 1917203 anis 06.ogg}} '''Anis:''' Mamdouh, let's just do as she says.
 :{{A|vo frzcop001 1917203 mamdouh 10.ogg}} '''Mamdouh:''' Huh? Okay then...
-
-:'''Mamdouh gathers the nearby volunteers over, and Faruzan explains the rules to them...'''
-
+:{{Black Screen|Mamdouh gathers the nearby volunteers over, and Faruzan explains the rules to them...}}
 :{{A|vo frzcop001 1917203 faruzan 11.ogg}} '''Faruzan:''' And that's how you play this game. You can all give it a try. Let's see who's able to move the "tower" to another pole in the smallest number of steps.
 :{{A|vo frzcop001 1917203 qasit 01.ogg}} '''Qasit:''' You called everyone here for such a simple toy?
 :{{A|vo frzcop001 1917203 alia 01.ogg}} '''Alia:''' It doesn't look like it'll take that many steps...
@@ -100,9 +96,7 @@
 :{{DIcon}} So they were lured in by the promise of a different toy...
 :{{DIcon}} So they were lured in by the promise of new cards...
 :{{A|vo frzcop001 1917203 qasit 02.ogg}} '''Qasit:''' Ugh... fine. Let's get this over and done with so we can head back and play cards.
-
-:'''The children start to play with Pagoda Stack...'''
-
+:{{Black Screen|The children start to play with Pagoda Stack...}}
 :{{A|vo frzcop001 1917203 ruhi 02.ogg}} '''Ruhi:''' ...Done. It took me 19 steps.
 :{{A|vo frzcop001 1917203 alia 02.ogg}} '''Alia:''' Huh? It took me over 20 steps!
 :{{A|vo frzcop001 1917203 qasit 03.ogg}} '''Qasit:''' Hehe, I only needed 18 steps!
@@ -110,7 +104,7 @@
 :{{A|vo frzcop001 1917203 faruzan 13.ogg}} '''Faruzan:''' Then, let's increase the difficulty. The next "tower" will be five layers tall. Now then, give it a shot.
 ::[[File:Early Learning Mechanism Pagoda 2.png|300px]]
 :{{A|vo frzcop001 1917203 alia 03.ogg}} '''Alia:''' Wait, there's more?
-:{{A|vo frzcop001 1917203 qasit 04.ogg}} '''Qasit:''' Since we're already here, why don't we just give it a try?
+:{{A|vo frzcop001 1917203 qasit 04.ogg}} '''Qasit:''' Well, since we're already here, why don't we just give it a try?
 :{{A|vo frzcop001 1917203 ruhi 03.ogg}} '''Ruhi:''' An extra layer shouldn't make it that much harder, right?
 
 :{{A|vo frzcop001 1917203 qasit 05.ogg}} '''Qasit:''' ...What's going on? I've already moved over 30 steps, but I'm still not done yet.
@@ -127,7 +121,7 @@
 :{{A|vo frzcop001 1917203 anis 08.ogg}} '''Anis:''' I... think so?
 :{{A|vo frzcop001 1917203 faruzan 17.ogg}} '''Faruzan:''' If you want to test out your hypothesis, you'll just have to play and find out!
 :{{A|vo frzcop001 1917203 anis 09.ogg}} '''Anis:''' Got it!
-:{{A|vo frzcop001 1917203 faruzan 18.ogg}} '''Faruzan:''' Ah. We don't have enough paper strips left for you, (Traveler). However, by the looks of things, you seem to have the game figured out.
+:{{A|vo frzcop001 1917203 faruzan 18.ogg}} '''Faruzan:''' Ah. We don't have enough paper strips left for you, {{Traveler}}. However, by the looks of things, you seem to have the game figured out.
 :{{DIcon}} Somewhat.
 :{{DIcon}} Just about.
 :{{A|vo frzcop001 1917203 faruzan 19.ogg}} '''Faruzan:''' Why don't you guess what the lowest number of steps needed to solve a seven-layer "Pagoda Stack" is?
@@ -140,9 +134,7 @@
 :{{DIcon}} 136 steps.
 ::{{A|vo frzcop001 1917203 faruzan 21.ogg}} '''Faruzan:''' What a shame. You were close. However, you did well for someone seeing "Pagoda Stack" for the first time.
 :{{A|vo frzcop001 1917203 faruzan 22.ogg}} '''Faruzan:''' Let's see how well they do, then.
-
-:'''After some time...'''
-
+:{{Black Screen|After some time...}}
 :{{A|vo frzcop001 1917203 mamdouh 12.ogg}} '''Mamdouh:''' If I move this small ring, then the big one won't be able to go on top of it. This is going to take more steps than I expected...
 :{{A|vo frzcop001 1917203 qasit 07.ogg}} '''Qasit:''' I&mdash;I've lost count of how many steps I've taken! Can I restart?
 :{{A|vo frzcop001 1917203 alia 05.ogg}} '''Alia:''' This got a lot harder...
@@ -174,7 +166,7 @@
 :{{A|vo frzcop001 1917204 anis 01.ogg}} '''Anis:''' Is Madam Faruzan really going to mentor me? What an honor!
 :{{A|vo frzcop001 1917204 anis 02.ogg}} '''Anis:''' Ah, I'm sure she'll say "helping with illustrations isn't mentoring"... So, ah, don't tell her I said that.
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Anis, optional)
+;(Use Nahida's All Schemes to Know on Anis, optional)
 :{{A|vo frzcop001 1917301 anis 01.ogg}} '''Anis:''' (Ah, if only Madam Faruzan were willing to switch to Kshahrewar... *sigh*)
 
 ;(Talk to Qasit, Ruhi, or Alia again)
@@ -182,21 +174,21 @@
 :{{A|vo frzcop001 1917204 ruhi 01.ogg}} '''Ruhi:''' It might just be all reference stuff. It'll be a loooong time before we can play with the real toys.
 :{{A|vo frzcop001 1917204 alia 01.ogg}} '''Alia:''' Guess all we can do is play [[Genius Invokation TCG]] in the meantime...
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Anis, optional)
+;(Use Nahida's All Schemes to Know on Anis, optional)
 :{{A|vo frzcop001 1917301 alia 01.ogg}} '''Alia:''' (This new game's not bad, but Genius Invokation TCG is better...)
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Qasit, optional)
+;(Use Nahida's All Schemes to Know on Qasit, optional)
 :{{A|vo frzcop001 1917301 qasit 01.ogg}} '''Qasit:''' (This new game's fun, like Genius Invokation TCG.)
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Ruhi, optional)
+;(Use Nahida's All Schemes to Know on Ruhi, optional)
 :{{A|vo frzcop001 1917301 ruhi 01.ogg}} '''Ruhi:''' (This new game is even more fun than Genius Invokation TCG!)
 
 ;(Continue to [[#Question and Answer Time|Question and Answer Time]])
-{{Dialogue start}}
+{{Dialogue End}}
 
 ===Question and Answer Time===
 {{Quest Description|update|Faruzan decides to come to the aid of Acara Crafts for the sake of the children and the Akademiya's future...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{A|vo frzcop001 1917204 faruzan 01.ogg}} '''Faruzan:''' I'll be going then. Say hi to Tighnari and Collei for me if you can. Once everything here is settled, I'll make my way over to Pardis Dhyai as quickly as I can.
 :{{DIcon}} So, about Kshahrewar...
 ::{{A|vo frzcop001 1917204 faruzan 02.ogg}} '''Faruzan:''' You want to ask why I'm unwilling to join them, yes?
@@ -205,11 +197,11 @@
 ::{{A|vo frzcop001 1917204 faruzan 05.ogg}} '''Faruzan:''' No matter what corner of the unknown they shed light on, it's a step forward for us all.
 ::{{DIcon}} Then why do you refuse to join them?
 ::{{A|vo frzcop001 1917204 faruzan 06.ogg}} '''Faruzan:''' Because I believe wholeheartedly in that principle.
-::{{A|vo frzcop001 1917204 faruzan 07.ogg}} '''Faruzan:''' Even if others call my research "useless," as long as the knowledge I gain from it is accurate, it could become useful in the future.
+::{{A|vo frzcop001 1917204 faruzan 07.ogg}} '''Faruzan:''' Even if the others call my research "useless," as long as the knowledge I gain from it is accurate, it could become useful in the future.
 ::{{A|vo frzcop001 1917204 faruzan 08.ogg}} '''Faruzan:''' In the end, "useful" and "useless" are concepts that shouldn't be used to evaluate knowledge.
 ::{{A|vo frzcop001 1917204 faruzan 09.ogg}} '''Faruzan:''' When I first started deciphering ancient documents, I didn't think about how it'd be "useful" to Kshahrewar.
 ::{{A|vo frzcop001 1917204 faruzan 10.ogg}} '''Faruzan:''' That's why there's no need for me to join them to do "useful" research. I'd rather stay in Haravatat. It's much more convenient for me to access the materials I need for my research here.
-::{{A|vo frzcop001 1917204 faruzan 11.ogg}} '''Faruzan:''' *sigh* ... Still, the funding that Kshahrewar has offered me is so hard to get in Haravatat...
+::{{A|vo frzcop001 1917204 faruzan 11.ogg}} '''Faruzan:''' *sigh* ...&nbsp;Still, the funding that Kshahrewar has offered me is so hard to get in Haravatat...
 :{{DIcon}} Oh yeah, about Anis...
 ::{{A|vo frzcop001 1917204 faruzan 12.ogg}} '''Faruzan:''' Anis? We haven't had much time to get to know each other, but she seems like a good kid.
 ::{{A|vo frzcop001 1917204 faruzan 13.ogg}} '''Faruzan:''' She's able to calmly figure out the basic principles behind something without being influenced by others.
@@ -230,31 +222,35 @@
 ::{{A|vo frzcop001 1917204 faruzan 23.ogg}} '''Faruzan:''' You're right. Explanations are a core part of early development, too.
 ::{{A|vo frzcop001 1917204 faruzan 24.ogg}} '''Faruzan:''' By using detailed and accurate illustrations, we can impart knowledge more effectively. It would also make it easier for me to recruit students.
 ::{{A|vo frzcop001 1917204 faruzan 25.ogg}} '''Faruzan:''' Thank you! I'll take your opinion into account. See you in two days.
-:;(Proceed to [[#A Failed Reference Book...?|A Failed Reference Book...?]]
+:;(Proceed to [[#A Failed Reference Book...?|A Failed Reference Book...?]])
 :{{DIcon}} Try to keep it simple and fun?
 ::{{A|vo frzcop001 1917204 faruzan 26.ogg}} '''Faruzan:''' You're right. If no one understands the reference book, it doesn't matter how detailed it is.
 ::{{A|vo frzcop001 1917204 faruzan 27.ogg}} '''Faruzan:''' It's better to make it simpler and fun so that children will be interested in the subject. It'll also make it easier for me to recruit students in the long run...
 ::{{A|vo frzcop001 1917204 faruzan 28.ogg}} '''Faruzan:''' Thank you! I'll take your opinion into account. See you in two days.
 :;(Proceed to [[#Potential Students...?|Potential Students...?]])
 
-;(Talk to Tighnari at Pardis Dhyai wefore waiting until 2 days later, optional)
+;(Talk to Tighnari at Pardis Dhyai before waiting until 2 days later, optional)
 :{{A|vo frzcop001 1917205 tighnari 01.ogg}} '''Tighnari:''' Have you met with Madam Faruzan yet?
 :{{DIcon}} Yes. She's still kinda busy...
 :{{DIcon}} She needs about two more days...
 :{{A|vo frzcop001 1917205 tighnari 02.ogg}} '''Tighnari:''' It's fine. Collei has already filled me in, more or less.
 :{{A|vo frzcop001 1917205 tighnari 03.ogg}} '''Tighnari:''' I've also managed to settle some of the problems on my side, so I've got time to wait for Madam Faruzan to arrive.
 :{{A|vo frzcop001 1917205 tighnari 04.ogg}} '''Tighnari:''' Can you help me find out how she's faring in two days' time?
-{{Dialogue end}}
+
+;(Use Nahida's All Schemes to Know on Tighnari, optional)
+:{{A|vo frzcop001 1917301 tighnari 01.ogg}} '''Tighnari:''' (I do hope Madam Faruzan is able to find time as soon as possible...)
+{{Dialogue End}}
 
 ===A Failed Reference Book...?===
 {{Quest Description|update|Faruzan decided to make the reference book as detailed as possible... Will she be able to pique the children's interest?}}
-{{Dialogue start}}
+{{Dialogue Start}}
+;(Use Nahida's All Schemes to Know on Faruzan, optional)
+:{{A|vo frzcop001 1917301 faruzan 03.ogg}} '''Faruzan:''' (Will I finally be able to attract some students?)
+
 :{{A|vo frzcop001 1917205 anis 01.ogg}} '''Anis:''' Oh? You're here! We're just starting to set up the venue.
 :{{A|vo frzcop001 1917205 mamdouh 01.ogg}} '''Mamdouh:''' We've called up everyone we possibly could have. This is going to be quite the event!
 :{{A|vo frzcop001 1917205 faruzan 01.ogg}} '''Faruzan:''' Hehe. My masterpiece is going to be exhibited, after all. Let's see what the Akademiya shall say about it this time!
-
-:'''The grand and lively event gets underway...'''
-
+:{{Black Screen|The grand and lively event gets underway...}}
 :{{A|vo frzcop001 1917205 faruzan 02.ogg}} '''Faruzan:''' ...To sum up, the 24 forms of pressure-based puzzle mechanisms were used in various ruins...
 :{{A|vo frzcop001 1917205 faruzan 03.ogg}} '''Faruzan:''' Alright, let's go to the next page. Now, I'll explain the base layer design of Elemental Monuments.
 :{{DIcon}} How did things turn out like this?
@@ -272,9 +268,7 @@
 :{{A|vo frzcop001 1917205 servan 02.ogg}} '''Servan:''' Forget it. I don't think anyone would be interested...
 :{{A|vo frzcop001 1917205 nazenin 02.ogg}} '''Nazenin:''' I should go home and take care of my children...
 :{{A|vo frzcop001 1917205 kamal 02.ogg}} '''Kamal:''' Hmm...
-
-:'''The launch event ends on that note...'''
-
+:{{Black Screen|The launch event ends on that note...}}
 :{{A|vo frzcop001 1917205 mamdouh 03.ogg}} '''Mamdouh:''' How did this happen...? Forget about getting opinions from others. No one even wanted to stay and try them out...
 :{{A|vo frzcop001 1917205 anis 02.ogg}} '''Anis:''' I'm sorry. I think we miscalculated...
 :{{DIcon}} I must apologize, too...
@@ -305,8 +299,8 @@
 :{{A|vo frzcop001 1917205 kamal 14.ogg}} '''Kamal:''' Then let's cut to the chase and discuss the details of our first order. The amount we're offering to pay in advance is...
 :{{A|vo frzcop001 1917205 kamal 15.ogg}} '''Kamal:''' ...This much.
 :{{A|vo frzcop001 1917205 faruzan 09.ogg}} '''Faruzan:''' !
-;(Proceed to [[#Ending: Knowledge is Wealth!|Ending: Knowledge is Wealth!]]
-{{Dialogue end}}
+;(Proceed to [[#Ending: Knowledge is Wealth!|Ending: Knowledge is Wealth!]])
+{{Dialogue End}}
 
 ====Ending: Knowledge is Wealth!====
 {{Hangout Ending
@@ -318,13 +312,14 @@
 
 ===Potential Students...?===
 {{Quest Description|update|Faruzan has decided to make the book as simple and interesting as possible... Will she be able to get a student that she wants?}}
-{{Dialogue start}}
+{{Dialogue Start}}
+;(Use Nahida's All Schemes to Know on Faruzan, optional)
+:{{A|vo frzcop001 1917301 faruzan 03.ogg}} '''Faruzan:''' (Will I finally be able to attract some students?)
+
 :{{A|vo frzcop001 1917206 anis 01.ogg}} '''Anis:''' Oh? You're here! We're just starting to set up the venue.
 :{{A|vo frzcop001 1917206 mamdouh 01.ogg}} '''Mamdouh:''' We've called up everyone we possibly could have. This is going to be quite the event!
 :{{A|vo frzcop001 1917206 faruzan 01.ogg}} '''Faruzan:''' Hehe. My masterpiece is going to be exhibited, after all. Let's see what the Akademiya shall say about it this time!
-
-:'''The grand and lively event gets underway...'''
-
+:{{Black Screen|The grand and lively event gets underway...}}
 :{{A|vo frzcop001 1917206 faruzan 02.ogg}} '''Faruzan:''' And if we activate this little mechanism, just like that...
 :{{A|vo frzcop001 1917206 faruzan 03.ogg}} '''Faruzan:''' ...A Sumeru Rose will appear at the top of the cane!
 :{{A|vo frzcop001 1917206 qasit 01.ogg}} '''Qasit:''' Oh, I see!
@@ -341,9 +336,7 @@
 :{{A|vo frzcop001 1917206 servan 02.ogg}} '''Servan:''' This is such a well-prepared event! I'll give it a go.
 :{{A|vo frzcop001 1917206 ruhi 03.ogg}} '''Ruhi:''' But we want to play, too...
 :{{A|vo frzcop001 1917206 mamdouh 03.ogg}} '''Mamdouh:''' It's fine! We have a lot of paper prototypes and craft materials! All feedback is also welcomed!
-
-:'''The popular and lively event continues...'''
-
+:{{Black Screen|The popular and lively event continues...}}
 :{{A|vo frzcop001 1917206 qasit 03.ogg}} '''Qasit:''' Oh! My origami bird flew further this time!
 :{{A|vo frzcop001 1917206 ruhi 04.ogg}} '''Ruhi:''' Uhh, Professor Faruzan, how can I make mine fly farther?
 :{{A|vo frzcop001 1917206 faruzan 07.ogg}} '''Faruzan:''' Ahem! Just "Madam" will do. Maybe, in the future, you may indeed get the chance to call me "Professor"...
@@ -371,15 +364,19 @@
 :{{A|vo frzcop001 1917206 faruzan 18.ogg}} '''Faruzan:''' Heh. It's alright. You still have a long road ahead of you. Now, do you want to learn about some other machines?
 :{{A|vo frzcop001 1917206 faruzan 19.ogg}} '''Faruzan:''' Let me tell you a story about pressure-based mechanisms and Elemental Monuments.
 :;(Proceed to [[#Ending: The Gardener and the Nursery|Ending: The Gardener and the Nursery]])
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Ending: The Gardener and the Nursery====
 {{Hangout Ending
 |ending name     = The Gardener and the Nursery
 |character       = Faruzan
 |act             = 1
-|description     = "So long as the pursuit of knowledge brings you joy, I'm fine with it...<br />But won't you reconsider? Haravatat's classes are very interesting too!"
+|description     = "So long as the pursuit of knowledge brings you joy, I'm fine with it...<br>But won't you reconsider? Haravatat's classes are very interesting too!"
 }}
+
+===Unsorted Voice-Overs===
+:{{A|vo frzcop001 1917301 collei 01.ogg}} '''Collei:''' (Ugh... I still haven't finished my homework for today...)
+:{{A|vo frzcop001 1917301 faruzan 01.ogg}} '''Faruzan:''' (What a nuisance...)
 
 ==Trivia==
 * The "Pagoda Stack" game is based on the {{w|Tower of Hanoi}} puzzle.
@@ -391,7 +388,7 @@
 |zhs_rm  = Zǎojiào Jīguān
 |zht     = 學前機關
 |zht_rm  = Xuéqián Jīguān
-|zh_tl   = 
+|zh_tl   = Early Education Mechanism
 |ja      = 知育ギミック
 |ja_rm   = Chi'iku Gimikku
 |ja_tl   = Intellectual Training Gimmick
@@ -409,7 +406,7 @@
 |vi      = Cơ Quan Giáo Dục Sớm
 |vi_tl   = 
 |de      = Früherziehungs-Vorrichtung
-|de_tl   = 
+|de_tl   = Early Education Device
 |id      = Pembelajaran Sejak Dini
 |id_tl   = Early Learning
 |pt      = Mecanismo de Educação Inicial

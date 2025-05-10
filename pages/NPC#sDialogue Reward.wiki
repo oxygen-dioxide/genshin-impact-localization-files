@@ -3,14 +3,15 @@
 |tab2 = List
 |tab3 = Dialogue Reward
 }}
-'''NPC Dialogue Rewards''' ''(unofficial name)'' are items given to the player by following a certain dialogue route when talking to an [[NPC]]. In some cases, the correct dialogue option may be locked behind completing a [[Quest]].
+'''NPC Dialogue Rewards''' ''(unofficial name)'' are items given to the player by following a certain dialogue route when talking to an [[NPC]]. In some cases, the correct dialogue option may be locked behind completing a [[Quest]]. In a [[Yvette|special case]], completing a Quest may lock the player out of the reward.
 
 NPC dialogue rewards are referred to as "Resident Conversation Gifts" when viewing the source of [[Furnishing]]s.
 
 ==Unique Rewards==
 There are only some NPCs which give unique dialogue rewards that are not obtainable anywhere else. These include:
-* [[Weapon]]s:
-** {{Item|Dark Iron Sword|type=Weapon}} - [[Chen the Sharp]]
+* [[Artifact]]s:
+** {{Item|Scholar's Clock}} 2★ - [[Timaeus]]
+** {{Item|Berserker's Indigo Feather}} 2★ - [[Carpe Diem]]
 * [[Quest Item]]s:
 ** {{Item|Nameless Sketch}} - [[Vermeer]]
 ** {{Item|Teyvat Wilderness Survivalist's Recipes}} - [[Lynn]]
@@ -38,14 +39,14 @@ There are only some NPCs which give unique dialogue rewards that are not obtaina
 |namespace          = 
 |uses               = Template:Character Infobox
 |category           = NPCs with Rewards
-|include            = {Character Infobox}:location,{Character Infobox}:region,{Character Infobox}:dialoguereward,#Location
-|table              = class="article-table sortable alternating-colors-table",Name,Region,Dialogue Reward,²{#if:²{IsDesktop}²¦Location}²
-|tablerow           = ²{#if:%%¦[[%%]]¦«!--,--»[[%%]]}²,%%,²{#if:²{IsDesktop}²¦«div class="mw-collapsible mw-collapsed" data-expandtext="Display Location" data-collapsetext="Hide Location"»%%«/div»}²
+|include            = {Character Infobox}:location,{Character Infobox}:region,{Character Infobox}:dialoguereward{{#if:{{IsDesktop}}|,#Location}}
+|table              = class="article-table sortable alternating-colors-table",Name,Region,Dialogue Reward{{#if:{{IsDesktop}}|,style="min-width: 120px"¦Location}}
+|tablerow           = ²{#if:%%¦[[%%]]¦«!--,--»[[%%]]}²,%%{{#if:{{IsDesktop}}|,<div class="giw-collapsible mw-collapsible mw-collapsed" data-expandtext="Show Location" data-collapsetext="Hide Location">%%</div>}}
 |noresultsfooter    = \nNo Results
 |tablesortcol       = 1
 |resultsheader      = There are currently '''%PAGES%''' NPCs that give dialogue rewards:\n
-|allowcachedresults = true
 }}
 [[Category:NPCs with Rewards| ]]
 
-[[ja:NPCギフト]]
+[[ja:NPC/対話報酬]]
+[[pt-br:Presentes de NPC]]

@@ -7,8 +7,9 @@
 |group    = The Eremites
 |type     = Common Enemies
 |ability1 = Summoning
+|ability2 = Teleport
 |voiceEN  = [[imdb:nm6212511|Daisy Guevara]]<ref>Twitter: [https://twitter.com/DaisyG_VA/status/1615782776808304640 EN VA Self Announcement]</ref>
-|voiceJP  = [http://amuleto.jp/talents/watanabechihiro.html Watanabe Chihiro ({{ja|渡辺 千絢}})]<ref name="Watanabe Chihiro">Twitter: [https://twitter.com/w_chihiro00/status/1615708053625790465 JP VA Self Announcement]</ref>
+|voiceJP  = [http://amuleto.jp/talents/watanabechihiro.html Watanabe Chihiro ({{ja|渡辺 千絢}})]<ref name="Watanabe Chihiro Twitter">Twitter: [https://twitter.com/w_chihiro00/status/1615708053625790465 JP VA Self Announcement]</ref>
 }}
 {{Enemy Intro}}
 
@@ -31,15 +32,15 @@
 
 ==Stats==
 {{Enemy Stats
-|phys_res     = -20%
+|phys_res     = &minus;20%
 
 |res2         = Enhanced
 |resglobal2   = 60%
-|phys_res2    = 40%
+|phys_res2    = 30%
 
 |res3         = Stunned
-|phys_res3    = -20%
-|dendro_res3  = -50%
+|phys_res3    = &minus;20%
+|dendro_res3  = &minus;50%
 
 |hp_ratio     = 5
 |hp_type      = 2
@@ -47,29 +48,32 @@
 |atk_type     = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
-|name_1      = Melee Combo
+|name_1      = Floral-Ring Caress
+|file_1      = Eremite Floral Ring-Dancer Melee Combo
 |desc_1      = Performs a 2-part or 3-part combo with her chakram, dealing '''80% ATK''', '''100% ATK''', '''35% ATK × 3''' as {{Color|Dendro DMG}}.
 |caption_1   = 2-Part
 |file_1_2    = Eremite Floral Ring-Dancer Melee Combo 2
 |caption_1_2 = 3-Part
 
-|name_2      = Dendronado
+|name_2      = Spiraling Whirl
+|file_2      = Eremite Floral Ring-Dancer Dendronado
 |desc_2      = Summons 2 chakrams to orbit herself, dealing '''35% ATK''' as {{Color|Dendro DMG}} on hit.
 
 |name_3      = Returning Ringblade
 |desc_3      = Throws her chakram at the player, which travels a certain distance before returning, dealing '''80% ATK''' as {{Color|Dendro DMG}} on hit.
 
 |name_4      = Teleport
-|desc_4      = If not in the '''Enhanced State''', teleports to the player's location and performs a single slash, dealing '''100% ATK''' as {{Color|Dendro DMG}}. If in the '''Enhanced State''', teleports to approach or move away from the player but does not attack.
+|desc_4      = If not in the '''Enhanced State''', teleports to the player's location and performs a single slash, dealing '''100% ATK''' as {{Color|Dendro DMG}}. If in or after leaving the '''Enhanced State''', teleports to approach or move away from the player, substituting the single slash with '''Returning Ringblade'''.
 
-|name_5      = Enhanced State
-|desc_5      = When the Eremite Floral Ring-Dancer's [[HP]] is lower than '''70%''' (or immediately upon entering combat in the [[Spiral Abyss]]), she will enter an enhanced state by summoning a [[Spirit of Omen: Dendro Spirit-Serpent]] to assist in battle, gaining increased [[RES]] and high [[Interruption Resistance]].<br /><br />When the Spirit of Omen: Dendro Spirit-Serpent is defeated, the enhanced state will end, and the Eremite Floral Ring-Dancer will take {{Color|True Dendro DMG}} equal to '''37.5%''' of her current [[HP]], then becomes stunned for 10 seconds with decreased [[Dendro RES]]. An Eremite Floral Ring-Dancer can only enter her enhanced state once.
+|name_5      = Spirit of Omen's Awakening: Dendro Spirit-Serpent
+|file_5      = Eremite Floral Ring-Dancer Enhanced State
+|desc_5      = When the Eremite Floral Ring-Dancer's [[HP]] is lower than '''70%''' (or immediately upon entering combat in the [[Spiral Abyss]]), she will enter an enhanced state by summoning a [[Spirit of Omen: Dendro Spirit-Serpent]] to assist in battle, gaining increased [[RES]] and high [[Interruption Resistance]].<br><br>When the Spirit of Omen: Dendro Spirit-Serpent is defeated, the enhanced state will end, and the Eremite Floral Ring-Dancer will take {{Color|True Dendro DMG}} equal to '''37.5%''' of her current [[HP]], then becomes stunned for 10 seconds with decreased [[Dendro RES]]. An Eremite Floral Ring-Dancer can only enter her enhanced state once.
 
 |name_6      = Spirit Combo: Prismfall Prison
-|desc_6      = The Eremite Floral Ring-Dancer forms a barrier that traps players inside, while the Spirit of Omen: Dendro Spirit-Serpent conjures 6 prisms before firing them at the player, each dealing '''30% Spirit's ATK''' as {{Color|Dendro DMG}}.
+|desc_6      = The Eremite Floral Ring-Dancer forms a barrier that traps players inside, while the Spirit of Omen: Dendro Spirit-Serpent conjures 7 prisms before firing them at the player, each dealing '''30% Spirit's ATK''' as {{Color|Dendro DMG}}.
 |file_6      = Eremite Floral Ring-Dancer Spirit Combo Prismfall Prison
 |strat_6     = It is possible to run out of the barrier's coverage before it is created.
 }}
@@ -86,31 +90,31 @@
 * '''Spirit Combo: Prismfall Prison''' is controlled by the Spirit of Omen's AI. For more information, see [[Spirit of Omen: Dendro Spirit-Serpent#AI Logic]].
 {| class="wikitable"
 ! Action Interval (s)
-| colspan="7" | 0 (Yet to Enhance)<br />5 (Enhanced; Enhanced State Ended)
+| colspan="7" | 0 (Yet to Enhance)<br>5 (Enhanced; Enhanced State Ended)
 |-
 ! Ability !! Priority !! Range Req. (m) !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD (s) !! Triggers Act. Int. !! Ignores Act. Int. !! State Req.
 |-
-| Returning Ringblade (Pre-Enhancement) || 5 || 5–16 || 5–7 || 3 || — || {{Check|yes}} || {{Check|no}} || Yet To Enhance
+| Returning Ringblade (Pre-Enhancement) || 5 || 5–16 || 5–7 || 3 || &mdash; || {{Check|yes}} || {{Check|no}} || Yet To Enhance
 |-
-| Teleport (Pre-Enhancement) || 5 || 7–25 || 10–13 || 5–8 || — || {{Check|no}} || {{Check|yes}} || Yet To Enhance
+| Teleport (Pre-Enhancement) || 5 || 7–25 || 10–13 || 5–8 || &mdash; || {{Check|no}} || {{Check|yes}} || Yet To Enhance
 |-
-| Dendronado || 2 || 0–8 || 15–17 || 5 || rowspan="4" | 3 || {{Check|yes}} || {{Check|no}} || Yet To Enhance
+| Spiraling Whirl || 2 || 0–8 || 15–17 || 5 || rowspan="4" | 3 || {{Check|yes}} || {{Check|no}} || Yet To Enhance
 |-
-| 3-Part Melee Combo || 5 || 0–5 || 10–12 || 0 || {{Check|yes}} || {{Check|no}} || Yet To Enhance
+| 3-Part Floral-Ring Caress || 5 || 0–5 || 10–12 || 0 || {{Check|yes}} || {{Check|no}} || Yet To Enhance
 |-
-| 2-Part Melee Combo || 5 || 0–5 || 5–7 || 0 || {{Check|yes}} || {{Check|no}} || Yet To Enhance; Enhanced; Enhanced State Ended
+| 2-Part Floral-Ring Caress || 5 || 0–5 || 5–7 || 0 || {{Check|yes}} || {{Check|no}} || Yet To Enhance; Enhanced; Enhanced State Ended
 |-
 | Returning Ringblade (Post-Enhancement) || 5 || 0–16 || 6–8 || 0 || {{Check|yes}} || {{Check|no}} || Enhanced; Enhanced State Ended
 |-
-| Teleport Away || 2 || 0–3 || 10–13 || 5–8 || — || {{Check|yes}} || {{Check|no}} || Enhanced; Enhanced State Ended
+| Teleport Away || 2 || 0–3 || 10–13 || 5–8 || &mdash; || {{Check|yes}} || {{Check|no}} || Enhanced; Enhanced State Ended
 |-
-| Teleport Towards Player || 2 || 20–50 || 10–13 || 5–8 || — || {{Check|yes}} || {{Check|no}} || Enhanced; Enhanced State Ended
+| Teleport Towards Player || 2 || 20–50 || 10–13 || 5–8 || &mdash; || {{Check|yes}} || {{Check|no}} || Enhanced; Enhanced State Ended
 |}
 
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Eremite Floral Ring-Dancer
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Care For A Dance.ogg
 |vo_01_01_tx_en          = Care for a dance?
 |vo_01_01_tx_zh          = 你也想和我共舞吗？
@@ -130,7 +134,7 @@
 |vo_02_01_tx_ko          = 받아봐!
 |vo_02_01_rm_ko          = Badabwa!
 
-|vo_03_00_title          = Dendronado
+|vo_03_00_title          = Spiraling Whirl
 |vo_03_01_file           = VO {lang}{name} - Dendronado.ogg
 |vo_03_01_tx_en          = &nbsp;
 |vo_03_01_tx_zh          = &nbsp;
@@ -140,12 +144,12 @@
 |vo_03_01_tx_ko          = &nbsp;
 |vo_03_01_rm_ko          = 
 
-|vo_04_00_title          = Melee Combo
+|vo_04_00_title          = 3-Part Floral-Ring Caress
 |vo_04_01_tx_en          = {{A|VO Eremite Floral Ring-Dancer - Melee Combo 1.ogg}} {{A|VO Eremite Floral Ring-Dancer - Melee Combo 2.ogg}}
 |vo_04_01_tx_zh          = {{A|VO ZH Eremite Floral Ring-Dancer - Melee Combo 1.ogg}} {{A|VO ZH Eremite Floral Ring-Dancer - Melee Combo 2.ogg}} |vo_04_01_tx_ja          = {{A|VO JA Eremite Floral Ring-Dancer - Melee Combo 1.ogg}} {{A|VO JA Eremite Floral Ring-Dancer - Melee Combo 2.ogg}}
 |vo_04_01_tx_ko          = {{A|VO KO Eremite Floral Ring-Dancer - Melee Combo 1.ogg}} {{A|VO KO Eremite Floral Ring-Dancer - Melee Combo 2.ogg}}
 
-|vo_05_00_title          = Enhanced State
+|vo_05_00_title          = Spirit of Omen's Awakening
 |vo_05_01_file           = VO {lang}{name} - Dance With Me.ogg
 |vo_05_01_tx_en          = Dance with me!
 |vo_05_01_tx_zh          = 一同起舞吧！
@@ -184,21 +188,21 @@
 |vo_07_01_tx_ko          = 스텝은 가벼워야 해!
 |vo_07_01_rm_ko          = Seutebeun gabyeowoya hae!
 
-|vo_08_00_title          = Staggered
-|vo_08_01_tx_en          = {{A|VO Eremite Floral Ring-Dancer - Hit Taken 1.ogg}} {{A|VO Eremite Floral Ring-Dancer - Hit Taken 2.ogg}} {{A|VO Eremite Floral Ring-Dancer - Hit Taken 3.ogg}}
-|vo_08_01_tx_zh          = {{A|VO ZH Eremite Floral Ring-Dancer - Hit Taken 1.ogg}} {{A|VO ZH Eremite Floral Ring-Dancer - Hit Taken 2.ogg}} {{A|VO ZH Eremite Floral Ring-Dancer - Hit Taken 3.ogg}}
-|vo_08_01_tx_ja          = {{A|VO JA Eremite Floral Ring-Dancer - Hit Taken 1.ogg}} {{A|VO JA Eremite Floral Ring-Dancer - Hit Taken 2.ogg}} {{A|VO JA Eremite Floral Ring-Dancer - Hit Taken 3.ogg}}
-|vo_08_01_tx_ko          = {{A|VO KO Eremite Floral Ring-Dancer - Hit Taken 1.ogg}} {{A|VO KO Eremite Floral Ring-Dancer - Hit Taken 2.ogg}} {{A|VO KO Eremite Floral Ring-Dancer - Hit Taken 3.ogg}}
+|vo_08_00_title          = Stunned
+|vo_08_01_file           = VO {lang}{name} - Im Not Done Yet.ogg
+|vo_08_01_tx_en          = I'm... not done yet!
+|vo_08_01_tx_zh          = 我…还没有…
+|vo_08_01_rm_zh          = Wǒ... hái méiyǒu...
+|vo_08_01_tx_ja          = まだまだ…これから…
+|vo_08_01_rm_ja          = Madamada... kore kara...
+|vo_08_01_tx_ko          = 아니… 아직이야…
+|vo_08_01_rm_ko          = Ani... ajigiya...
 
-|vo_09_00_title          = Stunned
-|vo_09_01_file           = VO {lang}{name} - Im Not Done Yet.ogg
-|vo_09_01_tx_en          = I'm... not done yet!
-|vo_09_01_tx_zh          = 我…还没有…
-|vo_09_01_rm_zh          = Wǒ... hái méiyǒu...
-|vo_09_01_tx_ja          = まだまだ…これから…
-|vo_09_01_rm_ja          = Madamada... kore kara...
-|vo_09_01_tx_ko          = 아니… 아직이야…
-|vo_09_01_rm_ko          = Ani... ajigiya...
+|vo_09_00_title          = Staggered
+|vo_09_01_tx_en          = {{A|VO Eremite Floral Ring-Dancer - Hit Taken 1.ogg}} {{A|VO Eremite Floral Ring-Dancer - Hit Taken 2.ogg}} {{A|VO Eremite Floral Ring-Dancer - Hit Taken 3.ogg}}
+|vo_09_01_tx_zh          = {{A|VO ZH Eremite Floral Ring-Dancer - Hit Taken 1.ogg}} {{A|VO ZH Eremite Floral Ring-Dancer - Hit Taken 2.ogg}} {{A|VO ZH Eremite Floral Ring-Dancer - Hit Taken 3.ogg}}
+|vo_09_01_tx_ja          = {{A|VO JA Eremite Floral Ring-Dancer - Hit Taken 1.ogg}} {{A|VO JA Eremite Floral Ring-Dancer - Hit Taken 2.ogg}} {{A|VO JA Eremite Floral Ring-Dancer - Hit Taken 3.ogg}}
+|vo_09_01_tx_ko          = {{A|VO KO Eremite Floral Ring-Dancer - Hit Taken 1.ogg}} {{A|VO KO Eremite Floral Ring-Dancer - Hit Taken 2.ogg}} {{A|VO KO Eremite Floral Ring-Dancer - Hit Taken 3.ogg}}
 
 |vo_10_00_title          = Defeated
 |vo_10_01_file           = VO {lang}{name} - The Curtain Falls.ogg
@@ -220,8 +224,11 @@
 |vo_10_02_rm_ko          = Jeogeodo... gwan'gaek han myeong'eun inne...
 }}
 
+==Tutorials==
+{{Tutorial|Eremite Floral Ring-Dancer}}
+
 ==Descriptions==
-{{Description|A person hailing from the loosely-organized mercenary bands of the desert. They will work for anyone as long as the pay is good.<br />The children of the desert have a rich tradition of song and dance. Originally used to praise and serve the gods, the crafts were later adapted for battle and the seduction of kings. Many tales of the sands feature dancers who murdered kings relaxed in their beds or standing atop high towers. Even though all such gods and kings have now faded into the flowing sands, the memory of dance yet persists in the desert-dwellers' veins.<br />Ominous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.|[[Archive]]}}
+{{Description|A person hailing from the loosely-organized mercenary bands of the desert. They will work for anyone as long as the pay is good.<br>The children of the desert have a rich tradition of song and dance. Originally used to praise and serve the gods, the crafts were later adapted for battle and the seduction of kings. Many tales of the sands feature dancers who murdered kings relaxed in their beds or [[Badanah|standing atop high towers]]. Even though all such gods and kings have now faded into the flowing sands, the memory of dance yet persists in the desert-dwellers' veins.<br>Ominous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished &mdash; whether that be their wielders or their wielders' foes.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -233,6 +240,13 @@ Eremite Floral Ring-Dancer Icon.png|Icon
 |file1    = Eremite Floral Ring-Dancer Swinging
 |caption1 = Swinging
 }}
+
+==Trivia==
+* The Eremite Floral Ring-Dancer shares many similarities with [[w:c:honkaiimpact3:Ai Hyperion Λ|Ai Hyperion Λ]] from ''Honkai Impact 3rd''.
+** They both have long green hair styled into pig tails.
+** They both wield chakrams as their primary weapon.
+** They both swing on their chakrams as an idle animation.
+* The Eremite Floral Ring-Dancer is the only [[The Eremites|Eremite]] unit with two Defeated voicelines.
 
 ==Other Languages==
 {{Other Languages
@@ -252,7 +266,7 @@ Eremite Floral Ring-Dancer Icon.png|Icon
 |fr      = Pirouettière florale des Érémites
 |fr_tl   = Floral Pirouettewoman of the Eremites
 |ru      = Пустынник: Танцовщица лиственного круга
-|ru_tl   = {{Lex|Eremite|ru}}: Leaf Circle Dancer
+|ru_tl   = {{Lex|Eremite|ru}}: Foliar Ring Dancer
 |th      = Eremite Floral Ring-Dancer
 |vi      = Eremite Diệp Luân Vũ Giả
 |vi_tl   = 
@@ -262,7 +276,7 @@ Eremite Floral Ring-Dancer Icon.png|Icon
 |pt      = Eremita - Dançarina Floral
 |pt_tl   = 
 |tr      = Münzevi Yaprak Tacı Dansçısı
-|tr_tl   = 
+|tr_tl   = {{Lex|Eremite|tr}} Leaf Crown Dancer
 |it      = Eremita danzatrice di spade dell'Anello floreale
 |it_tl   = Eremite Dancer of Swords of the Floral Ring
 }}
@@ -277,4 +291,6 @@ Eremite Floral Ring-Dancer Icon.png|Icon
 {{Enemy Navbox|Common}}
 
 [[es:Eremita Danzacróbata]]
+[[fr:Pirouettière florale des Érémites]]
+[[ja:エルマイト旅団・フローラルリングダンサー]]
 [[pt-br:Eremita - Dançarina Floral]]

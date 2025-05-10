@@ -6,7 +6,6 @@
 |actNum        = I
 |act           = Through Mists of Smoke and Forests Dark
 |part          = 4
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Collei; Ghulam; Haypasia; Khajeh; Tighnari; Traveler; Paimon
 |startLocation = [[Avidya Forest]], [[Sumeru]]
@@ -15,47 +14,37 @@
 |prev          = Chronic Illness
 |next          = The Trail of the God of Wisdom
 |domain        = Silent Seeker of Knowledge (Domain)
-|exp           = 625
-|mora          = 25,450
-|primogems     = 30
-|other         = {{Card|Hero's Wit|2}} {{Card|Mystic Enhancement Ore|4}}{{Card|Recipe: Pita Pocket|1}}
+|rewards       = Adventure EXP*625;Primogem*30;Mora*25,450;Recipe: Pita Pocket*1;Hero's Wit*2;Mystic Enhancement Ore*4
 |voiced        = yes
 }}
 {{TeyvatQuest|title=Silent Seeker of Knowledge|chapter=3|act=1|part=4}}
 
 ==Steps==
 # Search for [[Haypasia]]
-#* This step only occurs if the player leaves the Quest Domain: [[Silent Seeker of Knowledge (Domain)|Silent Seeker of Knowledge]]
+#* This step only occurs if the player leaves the Quest Domain: Silent Seeker of Knowledge
 # Go through the mist
+#* Transitions to Quest Domain: [[Silent Seeker of Knowledge (Domain)|Silent Seeker of Knowledge]]
+#* See domain page for domain specifics (enemies, chests, etc.)
 # Proceed onward and go through the tree hollow
 # Try to get to the special cave
-#* There are 2 [[Common Chest]]s and 1 [[Exquisite Chest]] which can be obtained by this step
 # Investigate the quaint room
-#* There is 1 [[Common Chest]] in this room
 # Keep looking for a path to the upper level of the tree hollow
 # Investigate the courtyard far down the corridor
-#* Stand in front of the marked spot on the floor and align the flower on the rocks (see [[#Gameplay Notes|Gameplay Notes]])
 # Investigate the corridor on the other side
 # Go to the upper platform
 # Defeat the [[Abyss Herald]]
 #* {{Enemy|Abyss Herald: Wicked Torrents}} &mdash; Confidante to the "Omen"
-#* The Abyss Herald's shield does not take damage<!--the party has to survive like 10 - 20 seconds? and it's not required to even attempt to damage the shield-->
 # Make some food by the fireside
 # Give Haypasia [[Box Lunch from the Traveler|the food you made for her]]
 # Return to [[Gandharva Ville]]
 # Say goodbye to [[Collei]]
 
 ==Gameplay Notes==
-* The player cannot change their party or enter [[Co-Op Mode]] while in the domain at the start of the quest.
-* If the player accidentally leaves the location after defeating the hilichurls, they may go back once they enter the special cave again and retrace their steps for Step 5.
-* Stand at the right side of the courtyard and move the camera to form the flower on the rocks.
-*: <gallery>
-Archon Quest C3A1 Courtyard Petal.png
-</gallery>
+* The player cannot change their party or enter [[Co-Op Mode]] once they enter Haypasia's cave at the start of the quest.
 
 ==Dialogue==
 {{Quest Description|According to Tighnari, the [[Akademiya]] researcher Haypasia, who lives alone in the forest, is the real ideal person to direct [[Irminsul]]-related queries to.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Enter the cave)
 :{{A|vo xmaq004 2 paimon 01.ogg}} '''Paimon:''' Hellooo? Haypasia? Hey, there's nobody here...
 :{{A|vo xmaq004 2 paimon 02.ogg}} '''Paimon:''' Hmm, maybe she went out to look for some food. Let's try looking around the area!
@@ -64,10 +53,10 @@ Archon Quest C3A1 Courtyard Petal.png
 :{{DIcon}} (What was that sound?)
 :{{DIcon}} (It sounds like it's coming from inside the cave...)
 ;(Traveler walks further into the cave and looks around)
-:'''(Traveler):''' (It's Haypasia! Is she okay?)
+:'''{{Traveler}}:''' (It's Haypasia! Is she okay?)
 ;(The Traveler and [[Aranara|a mysterious little creature]] walk toward Haypasia at the same time from different angles and see each other upon nearing Haypasia)
 :{{color|menu|You run into the curious being again and have given it quite a fright.}}
-:{{A|vo xmaq004 2 aranaraa 02.ogg}} '''???:''' !?
+:{{A|vo xmaq004 2 aranaraa 02.ogg}} '''[[Aranara|???]]:''' !?
 ;(The mysterious little creature leaps into the air)
 :;(A scene transition occurs<!--entering domain-->)
 ;(Paimon returns)
@@ -95,7 +84,7 @@ Archon Quest C3A1 Courtyard Petal.png
 :{{A|vo xmaq004 4 paimon 05.ogg}} '''Paimon:''' Paimon knew there's something off about that cave! Let's think of a way to get over there and have a closer look. Who knows, maybe we'll find a lead of some kind!
 
 ;(Approach the marked location)
-:;(A scene transition with a starry sky occurs, bringing the player to an Inazuma-styled building)
+:;(A scene transition with a starry sky occurs, bringing the player to an [[Inazuma]]-styled building)
 :{{A|vo xmaq004 4 paimon 06.ogg}} '''Paimon:''' Uh, what happened just now? Why did everything around us suddenly change?
 
 ;(Approach the room at the end of the hall)
@@ -127,8 +116,8 @@ Archon Quest C3A1 Courtyard Petal.png
 :{{A|vo xmaq004 4 heraldwater 07.ogg}} '''Abyss Herald:''' But don't you fret now. Today will be your last. Now die!
 :;(A scene transition occurs)
 ----
-:'''(Traveler):''' Ugh! Huh...
-:'''(Traveler):''' (What was all that just now? Strange... It feels like I was just dreaming for a moment there, but I can't remember what I saw...)
+:'''{{Traveler}}:''' Ugh! Huh...
+:'''{{Traveler}}:''' (What was all that just now? Strange... It feels like I was just dreaming for a moment there, but I can't remember what I saw...)
 ;(Paimon returns)
 :{{A|vo xmaq004 5 paimon 01.ogg}} '''Paimon:''' Hmm, what do we do? We haven't seen Haypasia anywhere out here...
 :{{A|vo xmaq004 5 paimon 02.ogg}} '''Paimon:''' Oh, there she is! Quick, let's see how she's doing.
@@ -140,15 +129,11 @@ Archon Quest C3A1 Courtyard Petal.png
 ::{{A|vo xmaq004 5 paimon 04b.ogg}} '''Paimon:''' Oh, guess that makes sense... She does look kinda rough at the moment.
 :{{A|vo xmaq004 5 paimon 05.ogg}} '''Paimon:''' Anyways, we can talk about this later. We'd better make sure she's alright first.
 :{{A|vo xmaq004 5 paimon 06.ogg}} '''Paimon:''' Whoa, wait a sec! Look at all this fruit lying around her. We can put that to good use!
-
-:'''After giving the semi-conscious Haypasia some water and fruit juice...'''
-
+:{{Black Screen|After giving the semi-conscious Haypasia some water and fruit juice...}}
 :{{A|vo xmaq004 5 haypasia 02.ogg}} '''Haypasia:''' Ugh... Who's there!? [[Tighnari]], is that you? Ah!
 :{{A|vo xmaq004 5 haypasia 03.ogg}} '''Haypasia:''' Huh?
 :{{A|vo xmaq004 5 paimon 07.ogg}} '''Paimon:''' It's okay, you can relax, Haypasia. Tighnari sent us here to bring you some food and water. Here, we have a letter that he asked us to give you.
-
-:'''You give Haypasia the letter from Tighnari.'''
-
+:{{Black Screen|You give Haypasia the letter from Tighnari.}}
 :{{A|vo xmaq004 5 haypasia 04.ogg}} '''Haypasia:''' I see, so you're friends of Tighnari. I apologize for all the trouble I've caused you.
 :{{A|vo xmaq004 5 haypasia 05.ogg}} '''Haypasia:''' I'm grateful that you came so quickly to save me. You even brought all this fruit.
 :{{A|vo xmaq004 5 paimon 08.ogg}} '''Paimon:''' Uh well, actually, we didn't bring the fruit. It was already here when we arrived.
@@ -159,8 +144,7 @@ Archon Quest C3A1 Courtyard Petal.png
 :{{DIcon}} Is it a little round creature?
 :{{DIcon}} Kind of like... a cabbage?
 :{{A|vo xmaq004 5 haypasia 08.ogg}} '''Haypasia:''' Oh? So you're able to see them, too?
-
-:'''You tell Haypasia and Paimon everything that happened after entering the cave.'''
+:{{Black Screen|You tell Haypasia and Paimon everything that happened after entering the cave.}}
 <!-- the branch below does not seem to exist in-game; please leave it commented out until proof that it exists in-game is found
 
 the branch starts with "So you came across an Aranara here, ..." and ends with "Really? How could you sense that?"
@@ -211,8 +195,7 @@ the branch starts with "Oh, Paimon gets it, ..." and ends with "Thank you, I hop
 :{{A|vo xmaq004 5 haypasia 28.ogg}} '''Haypasia:''' *drooling* Oh, I've never tried any dishes from other nations before. I certainly look forward to it! It's been so long since I've had a decent meal, too. To be honest, the last time had to be when Tighnari came to visit.
 ----
 ;(Interact with the campfire pot)
-:'''You cook up some dishes over the fire.'''
-
+:{{Black Screen|You cook up some dishes over the fire.}}
 :{{A|vo xmaq004 6 paimon 01.ogg}} '''Paimon:''' All done! Let's use the empty box that Tighnari gave us since we already washed it.
 :{{A|vo xmaq004 6 paimon 02.ogg}} '''Paimon:''' Ohhh, it smells amazing! And the box is a nice touch, too. Let's go serve this up and start eating with Haypasia!
 ;(Obtain [[Box Lunch from the Traveler]])
@@ -220,9 +203,7 @@ the branch starts with "Oh, Paimon gets it, ..." and ends with "Thank you, I hop
 ;(Talk to Haypasia)<!-- can also be done before you cook, and yes she still says it smells delicious without you cooking -->
 :{{A|vo xmaq004 7 haypasia 01.ogg}} '''Haypasia:''' Are you already finished cooking? Mmmm, smells delectable! I'm truly thankful whenever I can enjoy a proper meal like this. Cooking really isn't my forte...
 ;(Open item menu)
-
-:'''After a delicious meal together, you tell Haypasia about connecting with Irminsul...'''
-
+:{{Black Screen|After a delicious meal together, you tell Haypasia about connecting with Irminsul...}}
 :{{A|vo xmaq004 7 haypasia 02.ogg}} '''Haypasia:''' Even though everything you mentioned was in Tighnari's letter, it's still hard to believe you were able to connect with Irminsul... immediately after smelling [[Spirit Borneol]] for the first time.
 :{{A|vo xmaq004 7 haypasia 03.ogg}} '''Haypasia:''' It took me nearly three years before I could do so... And everyone at the [[Akademiya]] even lauded me as a genius.
 :{{A|vo xmaq004 7 haypasia 04.ogg}} '''Haypasia:''' You should know that some researchers spend their entire lives without ever successfully connecting with Irminsul as you have.
@@ -281,9 +262,7 @@ the branch starts with "Oh, Paimon gets it, ..." and ends with "Thank you, I hop
 :{{DIcon}} Thanks, Haypasia!
 :{{DIcon}} We wish you luck in your endeavors.
 :{{A|vo xmaq004 7 haypasia 39.ogg}} '''Haypasia:''' There's no need to be thanking me, you two are my saviors! Besides, I'm already looking forward to tasting some more of your cooking, hehe.
-
-:'''You continue chatting before settling down for a good night's rest.'''
-
+:{{Black Screen|You continue chatting before settling down for a good night's rest.}}
 :{{A|vo xmaq004 7 paimon 09.ogg}} '''Paimon:''' Now that we know Haypasia is alright and had the chance to ask her some questions, Paimon thinks it's about time to head back to [[Gandharva Ville]].
 
 ;(Talk to Haypasia)
@@ -317,7 +296,7 @@ the branch starts with "Oh, Paimon gets it, ..." and ends with "Thank you, I hop
 :{{A|vo xmaq004 8 tighnari 01.ogg}} '''Tighnari:''' Sage Khajeh, I am truly honored that you came here in person, but I'm afraid I must still decline your invitation.
 :{{A|vo xmaq004 8 tighnari 02.ogg}} '''Tighnari:''' I am merely a Forest Watcher. How could the great minds of the [[Haravatat]] have any need of someone like me?
 :{{A|vo xmaq004 8 khajeh 02.ogg}} '''Khajeh:''' Haha, well it turns out that your refusal letter had some implications on your master's reputation. He is a renowned Sage of the [[Amurta]], after all. So now, I've come here in his stead.
-:{{A|vo xmaq004 8 tighnari 03.ogg}} '''Tighnari:''' I see. Huh, and I figured that, given his temper, he would come here and berate me personally.
+:{{A|vo xmaq004 8 tighnari 03.ogg}} '''Tighnari:''' I see. Huh... Well, I figured that, given his temper, he would come here and berate me personally.
 :{{A|vo xmaq004 8 khajeh 03.ogg}} '''Khajeh:''' Tighnari, your master is an integral part of this effort, and now he requires your assistance.
 :{{A|vo xmaq004 8 tighnari 04.ogg}} '''Tighnari:''' And what exactly does my master need of me, Sage Khajeh?
 ;(Khajeh and Ghulam exchange looks)
@@ -328,21 +307,21 @@ the branch starts with "Oh, Paimon gets it, ..." and ends with "Thank you, I hop
 :{{A|vo xmaq004 8 tighnari 07.ogg}} '''Tighnari:''' If that's the case, then I'm afraid I cannot give you a definite answer either.
 :{{A|vo xmaq004 8 ghulam 04.ogg}} '''Ghulam:''' Tighnari! But you&mdash;
 :{{A|vo xmaq004 8 khajeh 06.ogg}} '''Khajeh:''' *sigh* So be it... Come, Ghulam, we're leaving.
-:{{color|menu|Ghulam, Khajeh, and others take their leave.}}
+:{{color|menu|Ghulam, Khajeh, and the others take their leave.}}
 ;(The Traveler walks past the departing group as only Khajeh and Ghulam look at the Traveler)
 :{{A|vo xmaq004 8 paimon 01.ogg}} '''Paimon:''' Uh Tighnari, what was that all about?
 :{{A|vo xmaq004 8 tighnari 08.ogg}} '''Tighnari:''' It's nothing. Some people from the Akademiya wanted me to go to Sumeru City to assist them with a project, but I had to refuse on account of all my responsibilities here.
 :{{A|vo xmaq004 8 tighnari 09.ogg}} '''Tighnari:''' But all that can wait, how did things go with Haypasia?
 :{{A|vo xmaq004 8 paimon 02.ogg}} '''Paimon:''' It was quite the eventful trip! But the main thing is that she's safe and sound. She answered a bunch of questions for us, too.
-:{{A|vo xmaq004 8 tighnari 10.ogg}} '''Tighnari:''' Very good. Now that (Traveler) has made a full recovery, there shouldn't be any reason for you to tarry here longer. I assume you will be heading to Sumeru City, correct?
+:{{A|vo xmaq004 8 tighnari 10.ogg}} '''Tighnari:''' Very good. Now that {{Traveler}} has made a full recovery, there shouldn't be any reason for you to tarry here longer. I assume you will be heading to Sumeru City, correct?
 :{{A|vo xmaq004 8 paimon 03.ogg}} '''Paimon:''' That's right! We want to meet [[Lesser Lord Kusanali]] and ask her for advice. Do you have any idea on how we can find her?
 :{{A|vo xmaq004 8 tighnari 11.ogg}} '''Tighnari:''' Sorry, I'm afraid I don't have any advice for you there.
 :{{A|vo xmaq004 8 paimon 04.ogg}} '''Paimon:''' Well, do you at least know anyone we can try asking in Sumeru City?
 :{{A|vo xmaq004 8 tighnari 12.ogg}} '''Tighnari:''' Hmm, let me think... My trips to Sumeru City have been fairly short, and most of my acquaintances are researchers...
-:{{A|vo xmaq004 8 tighnari 13.ogg}} '''Tighnari:''' How about this... I'll write you a letter of introduction that you can give to a researcher I know. He's from the Amurta Darshan and is adept at gathering information. Asking him might prove worthwhile.
+:{{A|vo xmaq004 8 tighnari 13.ogg}} '''Tighnari:''' Oh, how about this... I'll write you a letter of introduction that you can give to a researcher I know. He's from the Amurta Darshan and is adept at gathering information. Asking him might prove worthwhile.
 :{{A|vo xmaq004 8 tighnari 14.ogg}} '''Tighnari:''' Also, when you enter Sumeru City, you'll probably end up receiving something like this item here. I'm not sure if it will ever come in handy for you, but maybe you can give it a try.
 :{{A|vo xmaq004 8 paimon 05.ogg}} '''Paimon:''' Oh? What is it?
-:{{A|vo xmaq004 8 tighnari 15.ogg}} '''Tighnari:''' It's called an [[Akasha Terminal]]. It's a tool produced by the Akademiya that utilizes the legacy of Greater Lord Rukkhadevata. Some say that this very item is the basis of Sumeru's reputation as the City of Wisdom.
+:{{A|vo xmaq004 8 tighnari 15.ogg}} '''Tighnari:''' It's called an [[Akasha Terminal]]. It's a tool produced by the Akademiya that utilizes the legacy of Greater Lord Rukkhadevata. Some say that this item is the very basis of Sumeru's reputation as the City of Wisdom.
 :{{A|vo xmaq004 8 tighnari 16.ogg}} '''Tighnari:''' Needless to say, this device and its usage fall under the Akademiya's expertise, so I'll leave it to them to show you how to use it.
 :{{A|vo xmaq004 8 paimon 06.ogg}} '''Paimon:''' Great! Next stop, Sumeru City! Ah, but wait, before that...
 :{{DIcon}} We need to say goodbye to Collei.
@@ -362,7 +341,7 @@ the branch starts with "Oh, Paimon gets it, ..." and ends with "Thank you, I hop
 :{{DIcon}} About the Akademiya's invitation...
 ::{{A|vo xmaq004 8 tighnari 20b.ogg}} '''Tighnari:''' It seems there's a major project underway at the Akademiya, and my master has also joined the effort.
 ::{{A|vo xmaq004 8 tighnari 20b 1.ogg}} '''Tighnari:''' But I can't afford to leave Gandharva Ville now. Things are not going well here in the rainforest, and Collei needs someone to watch over her. Besides, I never was one for all the pomp and circumstance of life at the Akademiya.
-::{{A|vo xmaq004 8 tighnari 20b 2.ogg}} '''Tighnari:''' Given that my master hasn't come to give me an earful personally, it seems that my presence is not as sorely needed as they make it out to be. In fact, the letter he sent to me was uncharacteristically polite...
+::{{A|vo xmaq004 8 tighnari 20b 2.ogg}} '''Tighnari:''' Given that my master hasn't come to give me an earful personally, it seems that my presence is not as sorely needed as they make it out to be. In fact, the letter he sent me was uncharacteristically polite...
 :;(Dialogue returns to option selection)
 :{{DIcon}} See you.
 ::{{A|vo xmaq004 8 tighnari 20c.ogg}} '''Tighnari:''' Farewell, Traveler.
@@ -405,14 +384,16 @@ the branch starts with "Oh, Paimon gets it, ..." and ends with "Thank you, I hop
 :;(Dialogue returns to option selection)
 :{{DIcon}} Goodbye, Collei.
 ::{{A|vo xmaq005 1 collei 02c.ogg}} '''Collei:''' See you later. Be sure to come back often. Even though Master didn't admit it, I'm sure he wants to see you again.
-{{Dialogue end}}
+{{Dialogue End}}
 
 == Trivia ==
 * While in the domain, footsteps on grass and dirt will leave behind green dust particles.
+* During Step 7 (Investigate the courtyard far down the corridor), the Inazuma-themed area reuses the final room from the domain in the {{Quest|Away With Obsessions and Falsehood}}.
 * The campfire does not need to be lit to make the food for Haypasia.
 * Certain lines that mention the Aranara by name seem to erroneously appear for all players, including players who have not yet started [[Aranyaka]], both during this quest and in the [[Travel Log]]:
 ** "{{DIcon}} Reminds me of the dream I saw from the Aranara..."
 ** "'''Haypasia:''' But then, on the day I scared the little Aranara... I suddenly saw a dream again."
+**Even if the player has started the quest line, the traveler and Paimon seem to have mostly forgotten about the Aranara.
 
 ==Video Guides==
 {{EVT
@@ -454,7 +435,7 @@ the branch starts with "Oh, Paimon gets it, ..." and ends with "Thank you, I hop
 |pt      = Erudita Solitária
 |pt_tl   = 
 |tr      = Sessizce Bilginin İzinden Gitmek
-|tr_tl   = 
+|tr_tl   = Silently Following the Footsteps of Knowledge
 |it      = Il silenzioso cercatore di conoscenza
 |it_tl   = The Silent Seeker of Knowledge
 }}
@@ -464,6 +445,7 @@ the branch starts with "Oh, Paimon gets it, ..." and ends with "Thank you, I hop
 
 ==Navigation==
 {{Archon Quest Navbox|chapter=Chapter III}}
-[[Category:Archon Chapter 3]]
 
 [[es:La silenciosa buscadora del conocimiento]]
+[[ja:沈黙する知の探求者]]
+[[vi:Người Mưu Cầu Tri Thức Trầm Lặng]]

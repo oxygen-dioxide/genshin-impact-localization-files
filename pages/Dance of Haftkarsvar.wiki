@@ -2,20 +2,21 @@
 |image         = Talent Dance of Haftkarsvar.png
 |character     = Nilou
 |type          = Elemental Skill
-|info          = Nilou will enter the Pirouette state, dealing {{Color|Hydro DMG}} to nearby opponents based on her Max HP.<br />While she is in the Pirouette state, Nilou's Normal Attacks and Elemental Attacks will cause her to enter the Sword Dance and Whirling Steps stances respectively, causing DMG she deals to be converted to {{Color|Hydro DMG}} that cannot be overridden and that is considered Elemental Skill DMG.<br /><br />In these stances, Nilou's third dance step will end Pirouette, and has the following effects:<ul><li>Sword Dance: unleashes a Luminous Illusion that deals {{Color|Hydro DMG}} to opponents it touches and grants Nilou the Lunar Prayer effect. This effect converts Nilou's Normal Attacks into Sword Dance techniques, and her final hit will unleash a Luminous Illusion.</li><li>Whirling Steps: Nilou unleashes a Whirling Water Wheel that deals AoE {{Color|Hydro DMG}} and creates a Tranquility Aura that follows your active character around and applies Wet to opponents within its AoE.</li></ul><br />Nilou is unable to perform Charged Attacks when under the effect of Pirouette or Lunar Prayer. These effects will be removed once she leaves the field.
+|info          = Enters the Pirouette state, dealing {{Color|Hydro DMG}} to nearby opponents based on Nilou's Max HP.<br>While she is in the Pirouette state, Nilou's Normal Attacks and Elemental Skill will cause her to enter the Sword Dance and Whirling Steps stances respectively, causing DMG she deals to be converted to {{Color|Hydro DMG}} that cannot be overridden and that is considered Elemental Skill DMG.<br><br>In these stances, Nilou's third dance step will end Pirouette, and has the following effects:<ul><li>Sword Dance: unleashes a Luminous Illusion that deals {{Color|Hydro DMG}} to opponents it touches and grants Nilou the Lunar Prayer effect. This effect converts Nilou's Normal Attacks into Sword Dance techniques, and her final hit will unleash a Luminous Illusion.</li><li>Whirling Steps: Nilou unleashes a Whirling Water Wheel that deals {{Color|AoE Hydro DMG}} and creates a Tranquility Aura that follows your active character around and applies {{color|Hydro|Wet}} to opponents within its AoE.</li></ul><br>Nilou is unable to perform Charged Attacks when under the effect of Pirouette or Lunar Prayer. These effects will be removed once she leaves the field.
 |CD            = 18s
 |scale_att1    = Max HP
 |utility1      = Conversion
 |utility2      = Interruption Resistance
 |utility3      = Requires Staying on Field
-|attr1         = Skill DMG (% Max HP)
-|value1        = 3.3-7.1%
-|attr2         = Sword Dance/Whirling Steps 1-Hit DMG (% Max HP)
-|value2        = 4.6/3.3-9.7/6.9%
-|attr3         = Sword Dance/Whirling Steps 2-Hit DMG (% Max HP)
-|value3        = 5.1/4-10.9/8.4%
-|attr4         = Luminous Illusion/Water Wheel DMG (% Max HP)
-|value4        = 7.2/6.1-15.2/10.8%
+|utility4      = Charged Attack Disabled
+|attr1         = Skill DMG
+|value1        = 3.34–7.1% Max HP
+|attr2         = Sword Dance/Whirling Steps 1-Hit DMG
+|value2        = 4.55–9.7%/3.26–6.9% Max HP
+|attr3         = Sword Dance/Whirling Steps 2-Hit DMG
+|value3        = 5.14–10.9%/3.96–8.4% Max HP
+|attr4         = Luminous Illusion/Water Wheel DMG
+|value4        = 7.17–15.2%/5.06–10.8% Max HP
 |attr5         = Pirouette Duration
 |value5        = 10s
 |attr6         = Lunar Prayer Duration
@@ -27,11 +28,11 @@
 '''Dance of Haftkarsvar''' is [[Nilou]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
-* {{TalentNote|cooldown|immediate}}
-* {{TalentNote|particles|Skill DMG|1.5}}
-* {{TalentNote|particles|Sword Dance, Whirling Steps, Luminous Illusion, or Water Wheel during the Pirouette state|1}}
+* {{Talent Note|cooldown|immediate}}
+* {{Talent Note|particles|Skill DMG|1.5}}
+* {{Talent Note|particles|Sword Dance, Whirling Steps, Luminous Illusion, or Water Wheel during the Pirouette state|1}}
 * The state Nilou enters with her third dance step in the Pirouette state is unaffected by her first two dance steps.
-* Tranquility Aura will apply {{Wet}} in a 2.5m radius every '''0.5''' seconds. Due to its [[Internal Cooldown]], it can only apply Wet to the same target once every 2 seconds.
+* Tranquility Aura will apply {{Hydro}} in a 2.5&nbsp;m radius every '''0.5''' seconds. Due to its [[Internal Cooldown]], it can only apply Wet to the same target once every 2 seconds.
 * While under the Pirouette or Lunar Prayer effects, Nilou's [[Interruption Resistance]] is increased. If a Sword Dance or Water Wheel attack is used under these states, Interruption Resistance will be increased even further.
 * While under the Pirouette or Lunar Prayer effects, Nilou's Normal Attack string will not be reset.
 <gallery>
@@ -41,13 +42,14 @@ Talent Dance of Haftkarsvar 4.png|Luminous Illusion Icon
 </gallery>
 
 ;<big>Passive Effects</big>
-* {{TalentNote|ascension|1|Court of Dancing Petals|character=Nilou|talent=Dance of Haftkarsvar|affects Dance of Haftkarsvar as follows:}}
-** When all characters in the party are all {{Color|Dendro}} or {{Color|Hydro}}, and there are at least one Dendro character and one Hydro character:<br />The completion of the third dance step of Nilou's Dance of Haftkarsvar will grant all nearby characters the Golden Chalice's Bounty for 30s.<br />Characters under the effect of Golden Chalice's Bounty will increase the [[Elemental Mastery]] of all nearby characters by 100 for 10s whenever they are hit by {{Color|Dendro attacks}}. Also, triggering the [[Bloom]] reaction will create Bountiful Cores instead of Dendro Cores.<br />Such Cores will burst very quickly after being created, and they have larger AoEs.<br />Bountiful Cores cannot trigger [[Hyperbloom]] or [[Burgeon]], and they share an upper numerical limit with Dendro Cores. Bountiful Core DMG is considered DMG dealt by Dendro Cores produced by Bloom.<br />Should the party not meet the conditions for this Passive Talent, any existing Golden Chalice's Bounty effects will be canceled.
+* {{Talent Note|character=Nilou|talent=Dance of Haftkarsvar|ascension|1|Court of Dancing Petals|When there are at least one {{Dendro}} character and one {{Hydro}} character in the party and no characters of any other elements, then upon completion of the third dance step of Nilou's Dance of Haftkarsvar, all nearby characters gain the Golden Chalice's Bounty for 30s. This effect increases the [[Elemental Mastery]] of all nearby characters by 100 for 10s when affected characters are hit by {{Color|Dendro attacks}} and also causes them to create Bountiful Cores instead of Dendro Cores upon triggering the [[Bloom]] reaction.}} Bountiful Cores deal the same kind of damage as Dendro Cores but burst very quickly, have larger AoEs than Dendro Cores do, and cannot trigger [[Hyperbloom]] or [[Burgeon]].
+** Court of Dancing Petals is also affected by Nilou's {{Talent Note|ascension|2|Dreamy Dance of Aeons|character=Nilou|talent=Court of Dancing Petals}}
+** Court of Dancing Petals is also affected by Nilou's {{Talent Note|constellation|2|The Starry Skies Their Flowers Rain}}
 
 ;<big>Constellation Effects</big>
-* {{TalentNote|constellation|1|Dance of the Waning Moon|Increases Luminous Illusion DMG by 65%, and extends the Tranquility Aura's duration by 6s.}}
-* {{TalentNote|constellation|4|Fricative Pulse}}
-* {{TalentNote|constellation|5|Twirling Light}}
+* {{Talent Note|constellation|1|Dance of the Waning Moon|Increases Luminous Illusion DMG by 65%, and extends the Tranquility Aura's duration by 6s.}}
+* {{Talent Note|constellation|4|Fricative Pulse}}
+* {{Talent Note|constellation|5|Twirling Light}}
 
 ==Advanced Properties==
 {{Advanced Properties
@@ -123,7 +125,7 @@ Talent Dance of Haftkarsvar 4.png|Luminous Illusion Icon
 |talentType=Elemental Skill
 |levels=13
 |order=skilldmg,sworddance/whirlingsteps1-hitdmg,sworddance/whirlingsteps2-hitdmg,luminousillusion/waterwheeldmg,pirouetteduration,lunarprayerduration,tranquilityauraduration,cd
-|titles=Skill DMG (% Max HP),Sword Dance/Whirling Steps 1-Hit DMG (% Max HP),Sword Dance/Whirling Steps 2-Hit DMG (% Max HP),Luminous Illusion/Water Wheel DMG (% Max HP),Pirouette Duration,Lunar Prayer Duration,Tranquility Aura Duration,CD
+|titles=Skill DMG (%&nbsp;Max HP),Sword Dance/Whirling Steps 1-Hit DMG (%&nbsp;Max HP),Sword Dance/Whirling Steps 2-Hit DMG (%&nbsp;Max HP),Luminous Illusion/Water Wheel DMG (%&nbsp;Max HP),Pirouette Duration,Lunar Prayer Duration,Tranquility Aura Duration,CD
 |skilldmg_1=3.34
 |skilldmg_2=3.59
 |skilldmg_3=3.84
@@ -222,7 +224,7 @@ Talent Dance of Haftkarsvar 4.png|Luminous Illusion Icon
 |pt      = Dança dos Sete Reinos
 |pt_tl   = Dance of the Seven Realms
 |tr      = Haftkarsvar Dansı
-|tr_tl   = 
+|tr_tl   = Haftkarsvar Dance
 |it      = Danza di Haftkarsvar
 |it_tl   = Dance of Haftkarsvar
 }}
@@ -235,6 +237,8 @@ Talent Dance of Haftkarsvar 4.png|Luminous Illusion Icon
 
 [[es:Danza de los siete reinos]]
 [[fr:Danse des haftkarsvars]]
+[[pt-br:Dança dos Sete Reinos]]
 [[ru:Танец Хафткаршвар]]
-[[vi:Vũ Điệu Haftkarsvar]]
 [[th:Dance of Haftkarsvar]]
+[[tr:Haftkarsvar Dansı]]
+[[vi:Vũ Điệu Haftkarsvar]]

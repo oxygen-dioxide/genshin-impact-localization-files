@@ -1,20 +1,18 @@
 {{Quest Infobox
+|id            = 70665
 |image         = World Quest Come Try Genius Invokation TCG!.png
 |type          = World
 |chapter       = Battlefield of Dice, Cats, and Cards
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 * Reach [[Adventure Rank]] 32
 * Complete [[Archon Quest]] [[Prologue]]: Act III - [[Song of the Dragon and Freedom]]
 |characters    = Traveler; Paimon; Sucrose; Timaeus; Margaret; Prince; Shuyun; Diona; Diluc; Swan; Fischl; Oz
-|startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|startLocation = [[Mondstadt City|Mondstadt]], [[Mondstadt]]
 |region        = Mondstadt
 |area          = Starfell Valley
-|subarea       = City of Mondstadt
-|exp           = 
-|mora          = 20,000
-|primogems     = 60
-|other         = {{Card|Hero's Wit|2}}{{Card|Beginner Player Badge|1}}{{Card|Casket of Tomes|1}}
+|subarea       = Mondstadt City
+|rewards       = Primogem*60;Beginner Player Badge*1;Hero's Wit*2;Mora*20,000;Casket of Tomes*1
+|voiced        = yes
 }}
 '''''Come Try Genius Invokation TCG!''''' is a [[World Quest]] in [[Mondstadt]].
 
@@ -38,20 +36,38 @@
 # Talk to Shuyun
 
 ==Gameplay Notes==
-* Completing the quest grants the ''[[Genius Invokation TCG (Achievement)|Genius Invokation TCG]]'' achievement ''[[Visible, Yet Invisible]]''.
+* Completing the quest grants the {{Achievement|Visible, Yet Invisible}}.
 
 ==Dialogue==
 {{Quest Description|Someone in Mondstadt's alchemy store seems to be talking about a strange package they received recently. Go check it out.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Timaeus and Sucrose)
 :{{A|vo tips tcg001 1 timaeus 01.ogg}} '''Timaeus:''' So, Sucrose, the package you mentioned that you received before... It's not dangerous, is it?
 :{{A|vo tips tcg001 1 timaeus 02.ogg}} '''Timaeus:''' You need to be careful when you're opening packages. I once had a friend mail me some research materials, and all the bouncing around in transit caused a reaction...
 :{{A|vo tips tcg001 1 timaeus 03.ogg}} '''Timaeus:''' Once I opened it, it let out a stench that could wake the dead.
 :{{A|vo tips tcg001 1 timaeus 04.ogg}} '''Timaeus:''' If your package contains anything like that, then maybe you should check with Albedo first and see what he thinks.
 :{{A|vo tips tcg001 1 sucrose 01.ogg}} '''Sucrose:''' No, this package didn't contain any hazardous materials...
-:{{Introductory Note|Sucrose}}
-:{{A|vo tips tcg001 1 paimon 01.ogg}} '''Paimon:''' Timaeus, Sucrose! What are you two chatting about?
-:{{A|vo tips tcg001 1 timaeus 05.ogg}} '''Timaeus:''' Oh, hey you two! We're just talking about a strange package that Sucrose received recently.
+;(If the player has not yet met Sucrose)
+::'''Paimon:''' Hey, Timaeus! What are you chatting about?
+::'''Paimon:''' And... who might this be?
+::'''Timaeus:''' Oh, hello you two. This is Sucrose.
+::'''Sucrose:''' Hi, I'm Sucrose, Albedo's assistant. If you have any alchemy-related queries, you could always ask me. I'd... do my best to help...
+::{{DIcon}} You don't have to be so nervous!
+::'''Sucrose:''' Huh? Do I look nervous?
+::'''Surcose:''' M&mdash;My apologies, I don't get out too often. I'm usually in the laboratory, where there aren't many others to talk to.
+::'''Paimon:''' That's okay, you don't have to force yourself! Paimon's sure that once we get to know each other better, we'll become really good friends!
+::'''Sucrose:''' {{Traveler}}... Hey, aren't you the legendary Traveler? The one who repelled Stormterror?
+::{{DIcon}} "Legendary" is a bit much.
+::{{DIcon}} I don't even charge for autographs.
+::'''Surcrose:''' Ah! Thank you!
+::'''Sucrose:''' I've heard so many stories about you! Always wanted an opportunity to research you up close!
+::'''Paimon:''' Uhh, what do you mean "research"...?
+::'''Sucrose:''' Ah! Sorry, don't mind me. What am I saying...
+::'''Paimon:''' Well, never mind. So, what were you two talking about just now?
+::'''Timaeus:''' Sucrose received a strange package recently...
+;(If the player has met Sucrose)
+::{{A|vo tips tcg001 1 paimon 01.ogg}} '''Paimon:''' Timaeus, Sucrose! What are you two chatting about?
+::{{A|vo tips tcg001 1 timaeus 05.ogg}} '''Timaeus:''' Oh, hey you two! We're just talking about a strange package that Sucrose received recently.
 :{{A|vo tips tcg001 1 paimon 02.ogg}} '''Paimon:''' A strange package?
 :{{A|vo tips tcg001 1 sucrose 02.ogg}} '''Sucrose:''' Yes. I believe it's from a Sumeru scholar who came here to study in Mondstadt. It's most likely a thank-you gift for collaborating on some research together.
 :{{A|vo tips tcg001 1 paimon 03.ogg}} '''Paimon:''' Huh, a package from an Akademiya scholar? Then there could be anything inside.
@@ -95,13 +111,13 @@
 :{{DIcon}} That's [[Margaret]]'s place...
 :{{A|vo tips tcg001 1 timaeus 18.ogg}} '''Timaeus:''' Yep, that's the place. It's where everyone in the community goes to play when they have time. They gather there, trade cards... and they're very welcoming to new players.
 :{{A|vo tips tcg001 1 timaeus 19.ogg}} '''Timaeus:''' Trying to learn the rules can be intimidating at first, but it's a lot of fun once you get the hang of it.
-:{{A|vo tips tcg001 1 sucrose 11.ogg}} '''Sucrose:''' Understood. (Traveler), Paimon, let's go to The Cat's Tail and try asking around.
+:{{A|vo tips tcg001 1 sucrose 11.ogg}} '''Sucrose:''' Understood. {{Traveler}}, Paimon, let's go to The Cat's Tail and try asking around.
 :{{A|vo tips tcg001 1 sucrose 12.ogg}} '''Sucrose:''' To be honest, hearing Timaeus talking about the game has also piqued my curiosity.
 :{{A|vo tips tcg001 1 paimon 10.ogg}} '''Paimon:''' Well, what are we waiting for? Let's get going!
 ----
 {{Quest Description|update|So the cards Sucrose received are Genius Invokation TCG cards. Why not try the Genius Invokation TCG and become a player yourself?}}
 ;(Enter The Cat's Tail)
-:{{A|vo tips tcg001 2 margaret 01.ogg}} '''Margaret:''' Welcome to The Cat's Tail. Ah, it's (Traveler) and Paimon, what a nice surprise!
+:{{A|vo tips tcg001 2 margaret 01.ogg}} '''Margaret:''' Welcome to The Cat's Tail. Ah, it's {{Traveler}} and Paimon, what a nice surprise!
 :{{A|vo tips tcg001 2 margaret 02.ogg}} '''Margaret:''' Oh, and Sucrose the alchemist. It's been a while, hasn't it?
 :{{A|vo tips tcg001 2 sucrose 01.ogg}} '''Sucrose:''' Heh...
 :{{A|vo tips tcg001 2 margaret 03.ogg}} '''Margaret:''' I'm afraid I've already told you before: Fur from The Cat's Tail staff is not for sale, no matter how much Mora you offer.
@@ -111,9 +127,7 @@
 :{{A|vo tips tcg001 2 paimon 01.ogg}} '''Paimon:''' Uh, Sucrose... what kind of experiment were you trying to do at The Cat's Tail?
 :{{A|vo tips tcg001 2 sucrose 03.ogg}} '''Sucrose:''' Oh, I just wanted to test out some hypotheses, and I needed some materials... But, uh, we can talk about that later.
 :{{A|vo tips tcg001 2 sucrose 04.ogg}} '''Sucrose:''' Actually, Margaret, we're here to learn more about Genius Invokation TCG.
-
-:'''Sucrose explains everything to Margaret...'''
-
+:{{Black Screen|Sucrose explains everything to Margaret...}}
 :{{A|vo tips tcg001 2 margaret 04.ogg}} '''Margaret:''' Ah, Genius Invokation TCG... We were just talking about that game.
 :{{A|vo tips tcg001 2 margaret 05.ogg}} '''Margaret:''' You see, more and more people have been gathering at The Cat's Tail to play, so I thought: Why not have a dedicated staff to serve the new customers?
 ;(If ''[[Margaret's Longing]]'' has been completed)
@@ -226,19 +240,17 @@
 ::{{A|vo dialog tips tcg001 diona 02a 1.ogg}} '''Diona:''' Alright, let's get started.
 :{{DIcon}} Not just yet, I need a moment...
 ::{{A|vo dialog tips tcg001 diona 02b 1.ogg}} '''Diona:''' Sure, just let me know once you're ready. Hmph, but don't keep me waiting too long!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Genius Invokation TCG Basics (I): Character Cards and Attack Types===
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{A|vo tips tcg002 9 diona 01.ogg}} '''Diona:''' Haha! Welcome &mdash; welcome to the world of Genius Invokation TCG!
 :{{A|vo tips tcg002 9 diona 02.ogg}} '''Diona:''' Simply put, this is a game where you control {{Color|bp|Character Cards}} to duke it out with your opponent! Pew pew pew!
 :{{A|vo tips tcg002 9 diona 03.ogg}} '''Diona:''' Once you've {{Color|bp|defeated all of your opponent's Character Cards}}, victory shall be yours!
 :{{A|vo tips tcg002 9 diona 04.ogg}} '''Diona:''' Now then, you're gonna need a character on the field to {{Color|bp|start}} with.
 ::Select Diluc as your first active character
 ::Confirm your selection
-
-:'''You attack first &mdash; Round 1'''
-
+:{{Black Screen|You attack first &mdash; Round 1}}
 ;(Roll Phase)
 :{{A|vo tips tcg002 9 diona 05.ogg}} '''Diona:''' First, we {{Color|bp|roll 8 Elemental Dice}} at the start of every Round.
 :;(The player rolls two Omni Dice, four Pyro Dice, one Hydro Die, and one Electro Die)
@@ -266,7 +278,7 @@
 :{{A|vo tips tcg002 9 diona 15.ogg}} '''Diona:''' So we're gonna use them to pay for the Pyro Dice needed for this Skill. Go on, give it a try.
 ::You can also click the Skill button again to use the Skill
 :;(Diluc uses Searing Onslaught on the Hilichurl Fighter and defeats it)
-:{{A|vo tips tcg002 9 diona 16.ogg}} '''Diona:''' Haha, that was pretty good. That's one opponent down for the count! Kabam!
+:{{A|vo tips tcg002 9 diona 16.ogg}} '''Diona:''' Haha, that was pretty good. That's one opponent down for the count! Kabam{{sic|！<!--This is a full-width exclamation mark.-->}}
 :{{A|vo tips tcg002 9 diona 17.ogg}} '''Diona:''' But the game has only just begun, remember? You have to {{Color|bp|defeat all opponents}} to win.
 :;(Diona's Blazing Axe Mitachurl uses Du Plama on Diluc)
 :{{A|vo tips tcg002 9 diona 18.ogg}} '''Diona:''' Hmm, as much as we'd like to attack again, seems like we've run out of usable dice...
@@ -276,9 +288,7 @@
 ::End Round
 ::Confirm the end of your actions
 :;(Diona declares the end of her Round)
-
-:'''You attack first &mdash; Round 2'''
-
+:{{Black Screen|You attack first &mdash; Round 2}}
 :{{A|vo tips tcg002 9 diona 22.ogg}} '''Diona:''' Alright! Here we are, {{Color|bp|a fresh new Round}}, woohoo!
 :{{A|vo tips tcg002 9 diona 23.ogg}} '''Diona:''' And a fresh new Round means time to {{Color|bp|roll the dice again}}! That's how we're gonna get the elemental energy we need, after all.
 
@@ -319,12 +329,11 @@
 ::{{A|vo dialog tips tcg001 diona 04a 1.ogg}} '''Diona:''' Alright, let's get started.
 :{{DIcon}} Not just yet, I need a moment...
 ::{{A|vo dialog tips tcg001 diona 05.ogg}} '''Diona:''' Sure, just let me know once you're ready. Hmph, but don't keep me waiting too long!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Genius Invokation TCG Basics (II): Switching Characters and Elemental Reactions===
-{{Dialogue start}}
-:'''You attack first &mdash; Round 1'''
-
+{{Dialogue Start}}
+:{{Black Screen|You attack first &mdash; Round 1}}
 :{{A|vo tips tcg002 9 diona 37.ogg}} '''Diona:''' In an actual game of Genius Invokation TCG, you need to use {{Color|bp|multiple Character Cards}} to form a party.
 :{{A|vo tips tcg002 9 diona 38.ogg}} '''Diona:''' Next up, it's time for your second Character Card, Kaeya, to take the stage!
 
@@ -367,16 +376,14 @@
 :{{A|vo tips tcg002 9 diona 55.ogg}} '''Diona:''' This will allow you to deal loads of damage in one go! Haha! Genius Invokation's Elemental Reaction system is pretty cool, huh?
 ::Now, use an Elemental Reaction to defeat your opponent!
 :;(Diluc uses Searing Onslaught on Diona's Blazing Axe Mitachurl and defeats it)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Genius Invokation TCG Basics (III): Action Cards and Support Effects===
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{A|vo tips tcg002 9 diona 56.ogg}} '''Diona:''' Alright, haha. Next up, let's learn how to use card types other than Character Cards.
 :{{A|vo tips tcg002 9 diona 57.ogg}} '''Diona:''' These Cards are all known as {{Color|bp|Action Cards}}.
 :{{A|vo tips tcg002 9 diona 58.ogg}} '''Diona:''' Each time a match starts, you have to {{Color|bp|draw 5 Action Cards to form your starting hand}}.
-
-:'''You attack first &mdash; Round 1'''
-
+:{{Black Screen|You attack first &mdash; Round 1}}
 ;(Roll Phase)
 :;(The player rolls three Dendro Dice, two Geo Dice, two Anemo Dice, and one Hydro Die)
 :{{A|vo tips tcg002 9 diona 59.ogg}} '''Diona:''' Uh-oh, looks like we don't have any Elemental Dice we can spend to make an attack...
@@ -423,10 +430,10 @@
 :{{A|vo tips tcg002 9 diona 78.ogg}} '''Diona:''' Because you have the {{Color|bp|White Iron Greatsword}} equipped, {{Color|bp|Searing Onslaught}} will deal 1 extra DMG. What!?
 ::Luckily, that's just enough to defeat your opponent!
 :;(Diluc uses Searing Onslaught on Diona's Hilichurl Berserker and defeats it)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Genius Invokation TCG Basics (IV): Intent and Final Test===
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{A|vo tips tcg002 9 diona 79.ogg}} '''Diona:''' Now comes the final part! Booyah! In a real match, you can {{Color|bp|make adjustments to your initial hand}}.
 :{{A|vo tips tcg002 9 diona 80.ogg}} '''Diona:''' At this time, we can {{Color|bp|select any number of cards in our hand to shuffle back into the Draw Pile}}, and then draw the same number of new cards. Whaat?
 ::Select Sweet Madame and Favonius Cathedral
@@ -434,11 +441,9 @@
 :{{A|vo tips tcg002 9 diona 81.ogg}} '''Diona:''' Once you have confirmed any adjustments you wish to make to your starting hand, both players have to {{Color|bp|select their starting active character at the same time}}!
 :{{A|vo tips tcg002 9 diona 82.ogg}} '''Diona:''' Oh boy, this one's a real doozy. We've got to take it out pronto!
 :{{A|vo tips tcg002 9 diona 83.ogg}} '''Diona:''' Let's see how you do this time... Remember, start by {{Color|bp|selecting your initial starting character}}!
-
-:'''You attack first &mdash; Round 1'''
-
+:{{Black Screen|You attack first &mdash; Round 1}}
 ;(Action Phase)
-:{{A|vo tips tcg002 9 diona 84.ogg}} '''Diona:''' H-hey! Look at you. You sure are getting the hang of these rolls. Now, lemme teach you one last trick, free of charge!
+:{{A|vo tips tcg002 9 diona 84.ogg}} '''Diona:''' {{sic|H-hey<!--Should be H&mdash;Hey-->}}! Look at you. You sure are getting the hang of these rolls. Now, lemme teach you one last trick, free of charge!
 :{{A|vo tips tcg002 9 diona 85.ogg}} '''Diona:''' You can preview your opponents actions... I mean, that is to say, you can read their {{Color|bp|Intent}}.
 ::Check your opponent's Intent
 :{{A|vo tips tcg002 9 diona 86.ogg}} '''Diona:''' Check it out &mdash; so here's where you can see all your opponent's intentions for this Round!
@@ -509,7 +514,7 @@
 :{{A|vo dialog tips tcg001 diona 07.ogg}} '''Diona:''' Now, I trained you myself, so you'd better not go down without a fight, okay! Huh, what? ...Well, yeah, I suppose I did train Sucrose, too... Hmm...
 
 ;(Talk to Sucrose if the player selected "Hold on")
-:{{A|vo dialog tips tcg001 sucrose 02.ogg}} '''Sucrose:''' Ready for our duel, (Traveler)?
+:{{A|vo dialog tips tcg001 sucrose 02.ogg}} '''Sucrose:''' Ready for our duel, {{Traveler}}?
 :{{DIcon|TCG}} Let's play some Genius Invokation TCG!
 ::{{A|vo dialog tips tcg001 sucrose 03a 1.ogg}} '''Sucrose:''' Alright, let the duel begin!
 :{{DIcon}} Not just yet, I need a moment...
@@ -556,7 +561,7 @@
 :{{A|vo tips tcg001 19 diona 07.ogg}} '''Diona:''' Good. Having fun is the main thing. If you ever wanna play again in the future, feel free to come by The Cat's Tail... Ah, but don't expect me to play with you, I just mean this place probably has the right atmosphere...
 :{{A|vo tips tcg001 19 sucrose 10.ogg}} '''Sucrose:''' I'll definitely be back.
 :{{A|vo tips tcg001 19 diona 08.ogg}} '''Diona:''' Alright, I think you should have the basics down by now. I need to get back to bartending &mdash; Shuyun's likely been busy making this tavern more popular with his delicious cocktails... Phooey, phooey, phooey! And we can't have that.
-:{{A|vo tips tcg001 19 diona 09.ogg}} '''Diona:''' Hmph! Burning Mondstadt's wine industry to the ground keeps me prettay busy, y'know! So if you need any more help, go bother Shuyun!
+:{{A|vo tips tcg001 19 diona 09.ogg}} '''Diona:''' Hmph! Burning Mondstadt's wine industry to the ground keeps me pretty busy, y'know! So if you need any more help, go bother Shuyun!
 
 ;(Talk to Diona again)
 :{{A|vo dialog tips tcg001 diona 08.ogg}} '''Diona:''' I have to make drinks for the customers now...
@@ -564,11 +569,11 @@
 
 ;(Talk to Shuyun or Prince)
 :{{A|vo tips tcg001 21 suyun 01.ogg}} '''Shuyun:''' I see, so you have now grasped the rules of Genius Invokation TCG.
-:{{A|vo tips tcg001 21 paimon 01.ogg}} '''Paimon:''' Hehehe, that's right! (Traveler), Sucrose, and Paimon are TCG players now!
+:{{A|vo tips tcg001 21 paimon 01.ogg}} '''Paimon:''' Hehehe, that's right! {{Traveler}}, Sucrose, and Paimon are TCG players now!
 :{{DIcon}} I didn't notice you play any matches, Paimon...
 :{{A|vo tips tcg001 21 paimon 02.ogg}} '''Paimon:''' Uh... Paimon picked it up from watching you and Sucrose!
 :{{A|vo tips tcg001 21 suyun 02.ogg}} '''Shuyun:''' Meow... "Becoming a TCG player is not as simple as that. You cannot call yourselves true TCG players until you have passed the test."
-:{{A|vo tips tcg001 21 suyun 03.ogg}} '''Shuyun:''' Sobering words from Prince there... But I'm afraid he's right. To become official players recognized by the Genius Invokation TCG Society, you have to pass the test.
+:{{A|vo tips tcg001 21 suyun 03.ogg}} '''Shuyun:''' Sobering words from Prince there... But I'm afraid he's right. To become official players recognized by the [[Genius Invokation TCG Society]], you have to pass the test.
 :{{DIcon}} There's really a test?
 ::{{A|vo tips tcg001 21 suyun 04a 1.ogg}} '''Shuyun:''' Yes, although to be honest, it's not that difficult...
 :{{DIcon}} What does it entail? Sealing a Samachurl within a deck of cards?
@@ -578,7 +583,7 @@
 :{{A|vo tips tcg001 21 suyun 06.ogg}} '''Shuyun:''' Meow... "The duel you just played can count towards this tally..."
 :{{A|vo tips tcg001 21 suyun 07.ogg}} '''Shuyun:''' I agree. Although I didn't get to observe the match myself, I did listen along. And from what I could hear, you both performed at a rather high level.
 :{{A|vo tips tcg001 21 paimon 03.ogg}} '''Paimon:''' Same way you can "hear" what Prince says...?
-:{{A|vo tips tcg001 21 suyun 08.ogg}} '''Shuyun:''' A well-trained ear is a basic skill expected of anyone hoping to become a TCG master. But back to the matter at hand &mdash; (Traveler) only needs to beat two more opponents to become an official TCG player.
+:{{A|vo tips tcg001 21 suyun 08.ogg}} '''Shuyun:''' A well-trained ear is a basic skill expected of anyone hoping to become a TCG master. But back to the matter at hand &mdash; {{Traveler}} only needs to beat two more opponents to become an official TCG player.
 :{{A|vo tips tcg001 21 suyun 09.ogg}} '''Shuyun:''' Sucrose, you may have lost the last duel, but don't be disheartened. I can assure you that winning three games is well within your ability.
 :{{A|vo tips tcg001 21 suyun 10.ogg}} '''Shuyun:''' Meow... "But first things first, Shuyun. Before that, our TCG newcomers should receive their free gift..."
 :{{A|vo tips tcg001 21 suyun 11.ogg}} '''Shuyun:''' Ah yes, my goodness. Completely slipped my mind &mdash; I'm lucky to have Prince here to remind me. Everyone who wants to start playing Genius Invokation TCG is entitled to claim a free Casket of Tomes.
@@ -597,7 +602,7 @@
 :{{A|vo tips tcg001 21 suyun 14.ogg}} '''Shuyun:''' "Meow! All Caskets of Tomes are issued by Margaret, so you will need to see her to claim yours..."
 :{{A|vo tips tcg001 21 suyun 15.ogg}} '''Shuyun:''' Probably for the best. If Prince and I were responsible for handing them out, knowing how eager we both are to promote the game, we'd probably have dished them all out by now...
 :{{A|vo tips tcg001 21 suyun 16.ogg}} '''Shuyun:''' Okay, so go and see Margaret to claim your Casket of Tomes, use it to find another player, beat them in a duel, and then come back here.
-:{{A|vo tips tcg001 21 sucrose 03.ogg}} '''Sucrose:''' But even for (Traveler), that's only two wins in total. What about the last one?
+:{{A|vo tips tcg001 21 sucrose 03.ogg}} '''Sucrose:''' But even for {{Traveler}}, that's only two wins in total. What about the last one?
 :{{A|vo tips tcg001 21 suyun 17a.ogg}} {{A|vo tips tcg001 21 suyun 17b.ogg}} '''Shuyun:''' Meow... "I shall choose the final contestant {{MC|m=he|f=she}} must beat in order to become an official TCG player, for it must be one of comparable prowess."
 :{{A|vo tips tcg001 21 suyun 18.ogg}} '''Shuyun:''' Excellent plan, Prince! Happy dueling, both of you.
 
@@ -624,7 +629,7 @@
 :{{DIcon}} Trust in your cards.
 :{{DIcon}} You can win this.
 :{{A|vo tips tcg001 24 sucrose 03.ogg}} '''Sucrose:''' Thanks. I'll do my best.
-:;(Obtain [[Casket of Tomes]])
+:;(Obtain {{Item|Casket of Tomes}})
 
 ;(Approach the Mondstadt city entrance)
 :{{A|vo tips tcg001 25 paimon 01.ogg}} '''Paimon:''' Hmm, there's a player nearby... That way! Let's go see!
@@ -666,10 +671,10 @@
 :{{A|vo tips tcg001 29 swan 02.ogg}} '''Swan:''' Let's play again when you have some time. But... ideally not when I'm on duty...
 ----
 ;(Talk to Prince or Shuyun)
-:{{A|vo tips tcg001 31 suyun 01a.ogg}} {{A|vo tips tcg001 31 suyun 01b.ogg}} '''Shuyun:''' Meow... "I sensed that (Traveler) had what it took to become an official TCG player, but {{MC|m=he|f=she}} has returned to the tavern more quickly than I had expected."
+:{{A|vo tips tcg001 31 suyun 01a.ogg}} {{A|vo tips tcg001 31 suyun 01b.ogg}} '''Shuyun:''' Meow... "I sensed that {{Traveler}} had what it took to become an official TCG player, but {{MC|m=he|f=she}} has returned to the tavern more quickly than I had expected."
 :{{A|vo tips tcg001 31 suyun 02.ogg}} '''Shuyun:''' Meow... "Defeat the opponent I have arranged for you, and you shall become an official TCG player. I look forward to watching this game immensely."
 :{{A|vo tips tcg001 31 suyun 03.ogg}} '''Shuyun:''' Not just Prince. I can't wait either. Come, your opponent is waiting for you in one of the private rooms.
-:{{A|vo tips tcg001 31 paimon 01a.ogg}} {{A|vo tips tcg001 31 paimon 01b.ogg}} '''Paimon:''' {{MC|m=He|f=She}} won't lose to them, whoever it is! Right, (Traveler)?
+:{{A|vo tips tcg001 31 paimon 01a.ogg}} {{A|vo tips tcg001 31 paimon 01b.ogg}} '''Paimon:''' {{MC|m=He|f=She}} won't lose to them, whoever it is! Right, {{Traveler}}?
 :{{DIcon}} Naturally.
 :{{A|vo tips tcg001 31 fischl 01.ogg}} '''???:''' What ho, fellow voyager of the stellar void. Yes, even I was briefly discountenanced when I heard the tidings of your sworn oath to become the Thrice Victorious... But so be it! You who are enslaved by dueling desire, be released from your shackles into the glorious arena of gladiatorial combat!
 :{{A|vo tips tcg001 31 fischl 02.ogg}} '''???:''' Step forth, O brave challenger, your Prinzessin grants you an audience. Hmph, hearken well! The wretched clock chimes yet again, as the declining light of the day grows dimmer still...
@@ -679,8 +684,8 @@
 :{{A|vo tips tcg001 31 suyun 05.ogg}} '''Shuyun:''' That's what Prince said... Please enter, and enjoy your Genius Invokation TCG duel!
 
 ;(Talk to Prince or Shuyun again)
-:{{A|vo dialog tips tcg001 suyun 07.ogg}} '''Shuyun:''' Meow... "(Traveler) shows greater skill than most beginners, but Fischl displays greater prowess still..."
-:{{A|vo dialog tips tcg001 suyun 08.ogg}} '''Shuyun:''' Oh, you really think so? I think (Traveler) has the edge, personally...
+:{{A|vo dialog tips tcg001 suyun 07.ogg}} '''Shuyun:''' Meow... "{{Traveler}} shows greater skill than most beginners, but Fischl displays greater prowess still..."
+:{{A|vo dialog tips tcg001 suyun 08.ogg}} '''Shuyun:''' Oh, you really think so? I think {{Traveler}} has the edge, personally...
 ----
 ;(Enter the room)
 :{{A|vo tips tcg001 32 paimon 01.ogg}} '''Paimon:''' Paimon knew it, it's Fischl and Oz!
@@ -695,7 +700,7 @@
 :{{A|vo tips tcg001 32 paimon 04.ogg}} '''Paimon:''' Ahh, this makes sense now. Prince did say that he was gonna pair us with someone of a similar skill level... Guess that means Fischl hasn't been playing that long either!
 :{{A|vo tips tcg001 32 fischl 04.ogg}} '''Fischl:''' Hmph, the Prinzessin needed but a single glance at these mere machinations of mankind to discern their working principles. Thus, with speed and brilliance paralleled by lightning alone do I now arrive here at the gateway to yonder circle of secrets...
 :{{A|vo tips tcg001 32 oz 02.ogg}} '''Oz:''' Mein Fräulein, too, has bested two opponents thus far, and is therefore one step away from becoming an official TCG player.
-:{{A|vo tips tcg001 32 paimon 05.ogg}} '''Paimon:''' So there's a lot on the line, huh? Either Fischl or (Traveler) is gonna come out of this duel as an official TCG player...
+:{{A|vo tips tcg001 32 paimon 05.ogg}} '''Paimon:''' So there's a lot on the line, huh? Either Fischl or {{Traveler}} is gonna come out of this duel as an official TCG player...
 :{{A|vo tips tcg001 32 oz 03.ogg}} '''Oz:''' Indeed.
 :{{A|vo tips tcg001 32 fischl 05.ogg}} '''Fischl:''' Hmph! The Prinzessin herself heeds the call of fate and descends to this realm from the Immernachtreich, yet still you dare to doubt the inevitability of the inevitable. Your stubborn foolishness is contemptible.
 :{{A|vo tips tcg001 32 oz 04.ogg}} '''Oz:''' Mein Fräulein, I implore you to consider less odious turns of phrase, lest you be forced to feast on your words in the fullness of time.
@@ -755,7 +760,7 @@
 :{{DIcon}} Hopefully an instant victory card?
 ::{{A|vo tips tcg001 36 paimon 04b 1.ogg}} '''Paimon:''' No card game in the world has a card like that. Paimon bets it's some kind of prize for making it as an official TCG player!
 :{{A|vo tips tcg001 36 paimon 05.ogg}} '''Paimon:''' Let's go get our prize!
-:;(Obtain [[Fischl (Character Card)]] ×1)
+:;(Obtain {{Item|Fischl (Character Card)}})
 
 ;(After the cutscene)
 :{{A|vo tips tcg001 38 fischl 01.ogg}} '''Fischl:''' With three Electro Dice, I summon my eternal familiar, Ozvaldo Hrafnavins, to my side. Heed my invokation!
@@ -780,8 +785,8 @@
 :{{A|vo tips tcg001 37 suyun 08.ogg}} '''Shuyun:''' That's it, really. If there's anything you didn't quite understand, you can always come and ask me.
 :{{A|vo tips tcg001 37 littleprince 01.ogg}} '''Prince:''' Meow...
 :{{A|vo tips tcg001 37 suyun 09.ogg}} '''Shuyun:''' Yes indeed, I'm quite sure they will. ...Oh, sorry, I forgot to translate for you. Prince would like to say:
-:{{A|vo tips tcg001 37 suyun 10.ogg}} '''Shuyun:''' "(Traveler), hope you'll have fun playing Genius Invokation TCG!"
-{{Dialogue end}}
+:{{A|vo tips tcg001 37 suyun 10.ogg}} '''Shuyun:''' "{{Traveler}}, hope you'll have fun playing Genius Invokation TCG!"
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -823,4 +828,6 @@
 ==Change History==
 {{Change History|3.3}}
 
+[[ja:「七聖召喚」をやってみよう！]]
 [[pt-br:Venha experimentar o Chamado Sagrado dos Sete!]]
+[[ru:Приходите сыграть в «Священный призыв семерых»!]]

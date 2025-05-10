@@ -10,7 +10,7 @@
 
 ==Drops==
 ===Items===
-{{Drops Table|type=The Eremites (Low-Tier)}}
+{{Drops Table|type=The Eremites (Mid-Tier)}}
 
 ===Energy===
 {{Energy Drops
@@ -27,11 +27,11 @@
 
 ==Stats==
 {{Enemy Stats
-|phys_res     = -20%
+|phys_res     = &minus;20%
 
 |res2         = Stunned
-|phys_res2    = -20%
-|electro_res2 = -50%
+|phys_res2    = &minus;20%
+|electro_res2 = &minus;50%
 
 |hp_ratio     = 4
 |hp_type      = 2
@@ -39,34 +39,37 @@
 |atk_type     = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1      = Spinning Sweep
-|desc_1      = Performs a single overhead sweep, dealing '''75% ATK''' as {{Color|AoE Electro DMG}}.
+|desc_1      = Performs a single overhead sweep, dealing '''75% ATK''' as {{Color|Electro DMG}}.
 
-|name_2      = Melee Combo
-|desc_2      = Swings his polearm three times, dealing '''60% ATK''', '''50% ATK''', '''50% ATK''' as {{Color|AoE Electro DMG}}.
+|name_2      = Axe Swipe
+|file_2      = Eremite Daythunder Melee Combo
+|desc_2      = Swings his axe once, then again twice, dealing '''60% ATK''', '''50% ATK''', '''50% ATK''' as {{Color|Electro DMG}}.
 * '''Enhanced:''' AoE increased, DMG increased to '''80% ATK''', '''70% ATK''', '''70% ATK'''.
 |caption_2   = Normal
 |file_2_2    = Eremite Daythunder Melee Combo 2
 |caption_2_2 = Enhanced
 
-|name_3      = Jumping Sweep
-|desc_3      = If the player is far away, jumps towards the player and performs two spinning sweeps, dealing '''40% ATK''', '''50% ATK''' as {{Color|AoE Electro DMG}}.
-* '''Enhanced:''' AoE increased, DMG increased to '''75% ATK''', '''75% ATK'''. Thunder will strike down after the spinning sweep, dealing '''75% ATK''' as {{Color|AoE Electro DMG}}.
+|name_3      = Whirling Cleave
+|file_3      = Eremite Daythunder Jumping Sweep
+|desc_3      = If the player is far away, jumps towards the player and performs two spinning sweeps, dealing '''40% ATK''', '''50% ATK''' as {{Color|Electro DMG}}.
+* '''Enhanced:''' AoE increased, DMG increased to '''75% ATK''', '''75% ATK'''. Thunder will strike down after the spinning sweep, dealing '''75% ATK''' as {{Color|Electro DMG}}.
 |caption_3   = Normal
 |file_3_2    = Eremite Daythunder Jumping Sweep 2
 |caption_3_2 = Enhanced
 
-|name_4      = Enhanced State
+|name_4      = Ominous Spirit Unleashed
+|file_4      = Eremite Daythunder Enhanced State
 |desc_4      = When his [[HP]] is lower than '''70%''', he may enter an enhanced state, gaining enhanced attacks and high [[Interruption Resistance]]. This state lasts for 20 seconds. When the duration ends, any ongoing attack will be cancelled and he will be stunned for 8 seconds with decreased [[Electro RES]].
 }}
 
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Eremite Daythunder
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - You Are Not Welcome Here.ogg
 |vo_01_01_tx_en          = You are not welcome here.
 |vo_01_01_tx_zh          = 不速之客！
@@ -75,38 +78,54 @@
 |vo_01_01_tx_ko          = 불청객이군
 
 |vo_02_00_title          = Jumping Sweep
-|vo_02_01_file           = VO {lang}{name} - Pulverize.ogg
-|vo_02_01_tx_en          = Pulverize!
-|vo_02_01_tx_zh          = 粉碎吧！
-|vo_02_01_rm_zh          = Fěnsuì ba!
-|vo_02_01_tx_ja          = 砕けろ！
-|vo_02_01_tx_ko          = 박살나라!
+|vo_02_01_tx_en          = {{A|VO Eremite Daythunder - Jumping Sweep.ogg}}
+|vo_02_01_tx_zh          = {{A|VO ZH Eremite Daythunder - Jumping Sweep.ogg}}
+|vo_02_01_rm_zh          = 
+|vo_02_01_tx_ja          = {{A|VO JA Eremite Daythunder - Jumping Sweep.ogg}}
+|vo_02_01_tx_ko          = {{A|VO KO Eremite Daythunder - Jumping Sweep.ogg}}
 
-|vo_03_00_title          = Enhanced State
+|vo_03_00_title          = Ominous Spirit Unleashed
 |vo_03_01_file           = VO {lang}{name} - Grunt 1.ogg
 |vo_03_01_tx_en          = (Grunt)
 |vo_03_01_tx_zh          = (Grunt)
 |vo_03_01_tx_ja          = (Grunt)
 |vo_03_01_tx_ko          = (Grunt)
 
-|vo_04_00_title          = Stunned
-|vo_04_01_file           = VO {lang}{name} - Grunt 2.ogg
-|vo_04_01_tx_en          = (Grunt)
-|vo_04_01_tx_zh          = (Grunt)
-|vo_04_01_tx_ja          = (Grunt)
-|vo_04_01_tx_ko          = (Grunt)
+|vo_04_00_title          = Enhanced Jumping Sweep
+|vo_04_01_file           = VO {lang}{name} - Pulverize.ogg
+|vo_04_01_tx_en          = Pulverize!
+|vo_04_01_tx_zh          = 粉碎吧！
+|vo_04_01_rm_zh          = Fěnsuì ba!
+|vo_04_01_tx_ja          = 砕けろ！
+|vo_04_01_tx_ko          = 박살나라!
 
-|vo_05_00_title          = Defeated
-|vo_05_01_file           = VO {lang}{name} - How Regretful.ogg
-|vo_05_01_tx_en          = How... regretful...
-|vo_05_01_tx_zh          = 呃…遗憾！
-|vo_05_01_rm_zh          = È... yíhàn!
-|vo_05_01_tx_ja          = 無念だ…
-|vo_05_01_tx_ko          = 아쉽군…
+|vo_05_00_title          = Stunned
+|vo_05_01_file           = VO {lang}{name} - Grunt 2.ogg
+|vo_05_01_tx_en          = (Grunt)
+|vo_05_01_tx_zh          = (Grunt)
+|vo_05_01_tx_ja          = (Grunt)
+|vo_05_01_tx_ko          = (Grunt)
+
+|vo_06_00_title          = Staggered
+|vo_06_01_tx_en          = {{A|VO Eremite Daythunder - Staggered 01.ogg}} {{A|VO Eremite Daythunder - Staggered 02.ogg}} {{A|VO Eremite Daythunder - Staggered 03.ogg}}
+|vo_06_01_tx_zh          = {{A|VO ZH Eremite Daythunder - Staggered 01.ogg}} {{A|VO ZH Eremite Daythunder - Staggered 02.ogg}} {{A|VO ZH Eremite Daythunder - Staggered 03.ogg}}
+|vo_06_01_tx_ja          = {{A|VO JA Eremite Daythunder - Staggered 01.ogg}} {{A|VO JA Eremite Daythunder - Staggered 02.ogg}} {{A|VO JA Eremite Daythunder - Staggered 03.ogg}}
+|vo_06_01_tx_ko          = {{A|VO KO Eremite Daythunder - Staggered 01.ogg}} {{A|VO KO Eremite Daythunder - Staggered 02.ogg}} {{A|VO KO Eremite Daythunder - Staggered 03.ogg}}
+
+|vo_07_00_title          = Defeated
+|vo_07_01_file           = VO {lang}{name} - How Regretful.ogg
+|vo_07_01_tx_en          = How... regretful...
+|vo_07_01_tx_zh          = 呃…遗憾！
+|vo_07_01_rm_zh          = È... yíhàn!
+|vo_07_01_tx_ja          = 無念だ…
+|vo_07_01_tx_ko          = 아쉽군…
 }}
 
+==Tutorials==
+{{Tutorial|Eremite Daythunder}}
+
 ==Descriptions==
-{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br />A true scion of a warrior tribe, such warriors see battle as their ordained purpose, and unlike some barbarian who wields a large ax with ease, these tribespeople are also quite well-versed in the lore and songs of the desert ruins.<br />An ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.|[[Archive]]}}
+{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br>A true scion of a warrior tribe, such warriors see battle as their ordained purpose, and unlike some barbarian who wields a large ax with ease, these tribespeople are also quite well-versed in the lore and songs of the desert ruins.<br>An ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished &mdash; whether that be its wielder, or its wielder's foe.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -118,6 +137,9 @@ Enemy Eremite Daythunder Icon.png|Icon
 |file1    = Eremite Daythunder Club Exercise
 |caption1 = Club Exercise
 }}
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Other Languages==
 {{Other Languages
@@ -148,13 +170,18 @@ Enemy Eremite Daythunder Icon.png|Icon
 |pt      = Eremita - Invocador de Trovões
 |pt_tl   = Eremite - Thunder Summoner
 |tr      = Münzevi Gündüz Fırtınası
-|tr_tl   = 
+|tr_tl   = {{Lex|Eremite|tr}} Day Storm
 |it      = Eremita Fulmine diurno
 |it_tl   = 
 }}
+
+==Change History==
+{{Change History|3.0}}
 
 ==Navigation==
 {{Enemy Navbox|Common}}
 
 [[es:Eremita Invocatruenos]]
+[[fr:Foudre diurne des Érémites]]
+[[ja:エルマイト旅団・デイサンダー]]
 [[pt-br:Eremita - Invocador de Trovões]]

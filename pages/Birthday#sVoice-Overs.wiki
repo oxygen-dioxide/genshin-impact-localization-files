@@ -4,31 +4,40 @@
 |tab3 = Voice-Overs
 }}
 
-<table class="article-table sortable alternating-colors-table tdc1 thc1"><!--
+<table class="article-table fandom-table alternating-colors-table tdc1 thc1"><!--
 --><tr><!--
    --><th>Character</th><!--
    --><th>Birthday Voice-Over</th><!--
 --></tr><!--
--->{{#DPL:
+-->{{VO Search by Title|{{#DPL:
 |namespace=
 |uses=Template:Character Infobox
 |nottitlematch=%Traveler%
 |category=Playable Characters
 |nottitlematch=Sandbox/%
 |ordermethod=sortkey
-|format=,<tr><!--
-   --><td>{{Character|%PAGE%}}</td><!--
-   --><td><!--
-      -->²{#switch:%PAGE%<!--
-         -->¦Ningguang=²{VO Search by Title¦%PAGE%¦Birthday (Aether Version)}²<hr />²{VO Search by Title¦%PAGE%¦Birthday (Lumine Version)}²<!--
-         -->¦Raiden Shogun=²{VO Search by Title¦%PAGE%¦Birth Date}²<hr />²{VO Search by Title¦%PAGE%¦Birthday}²<!--
-         -->¦Xingqiu=²{VO Search by Title¦%PAGE%¦Birthday: Wishing}²<hr />²{VO Search by Title¦%PAGE%¦Birthday: Customs}²<!--
-         -->¦Yae Miko=²{VO Search by Title¦%PAGE%¦Birth Date}²<!--
-         -->¦#default=²{VO Search by Title¦%PAGE%¦Birthday}²<!--
-      -->}²<!--
-   --></td><!--
---></tr>,,
-}}<!--
+|format=,%PAGE%;,,
+}}|<!--
+possible voice-lines
+-->Birthday;<!-- default name
+-->Birth Date;<!--
+-->Birthday: Wishing;<!--
+-->Birthday: Customs;<!--
+-->Birthday (Aether Version);<!--
+-->Birthday (Lumine Version)<!--
+
+-->|Ningguang_after_5_before_6=<hr /><!--
+
+-->|Raiden Shogun_after_2=<hr />{{VO Search by Title|Raiden Shogun|Birthday|story2=1}}<!--
+
+-->|Xingqiu_after_3_before_4=<hr /><!--
+
+-->|format=<tr><td>%CC%</td><td>;;;;;;</td></tr><!--
+-->}}<!--
 --></table>
 
 [[Category:Voice-Overs]]
+
+[[ja:誕生日/ボイス]]
+[[tr:Doğum günü/Replikler]]
+[[vi:Sinh Nhật/Lồng Tiếng]]

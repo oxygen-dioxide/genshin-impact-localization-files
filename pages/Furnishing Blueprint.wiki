@@ -1,7 +1,7 @@
 {{about|Furnishing Blueprints|other uses|Blueprint (Disambiguation)}}
 {{Terminology Infobox
 |type         = Furnishing Blueprints
-|description  = Detailed step-by-step instructions for making a <[[Furnishing]]>.<br />After using this item, you can view it in the Creation Screen.
+|description  = Detailed step-by-step instructions for making a <[[Furnishing]]>.<br>After using this item, you can view it in the Creation Screen.
 }}
 '''Blueprints''' or '''Furnishing (Set) Blueprints''' are similar to [[recipe]]s, [[diagram]]s or [[instructions]], but are used for [[furnishing]]s or [[Furnishing Sets|furnishing sets]]. Once used, the player will be able to create the associated furnishing.
 
@@ -19,7 +19,6 @@ Blueprints can primarily be purchased from [[Tubby]] using [[Realm Currency]]. T
 |ordermethod = sortkey
 |resultsheader= There are '''%PAGES%''' Adeptal Mirror Blueprints:\n
 |noresultsfooter = \nNo Results
-|allowcachedresults = true
 }}
 
 ==Trust Rank==
@@ -34,46 +33,54 @@ Blueprints can primarily be purchased from [[Tubby]] using [[Realm Currency]]. T
 |ordermethod = sortkey
 |resultsheader= There are '''%PAGES%''' Trust Rank Blueprints:\n
 |noresultsfooter = \nNo Results
-|allowcachedresults = true
 |tablesortcol=2
 }}
 
 ==Remarkable Chests==
 {{Main|Remarkable Chests}}
-{{#DPL:
-|namespace=
-|category=Remarkable Chest Furnishings
-|redirects=include
-|include={Furnishing Infobox}:category
-|format=,\n*,,
-|secseparators=²{Item¦%PAGE%¦text=Blueprint: %PAGE%¦link=Blueprint: %PAGE%¦blueprint=²{#if:²{#pos:,¦Set}²¦0¦1}²}²
-|resultsheader=There are '''%PAGES%''' Remarkable Chest Blueprints:\n
-|noresultsfooter=\nNo Results
-|ordermethod=sortkey
-|allowcachedresults=true
+{{Furnishing Blueprints by Category List
+|Remarkable Chest Furnishings
+|columns=1
 }}
 
 ==Teyvat Vendors==
 ===Goth===
-{{Vendor|Goth|shop=The}}
+{{Vendor|Goth|shop=Goth}}
 
 ===Master Lu===
-{{Vendor|Master Lu|shop=The}}
+{{Vendor|Master Lu|shop=Fanmu Carpenter}}
 
 ===Mikoshi Genichirou===
 Unlocking [[Netsuke no Gen Crafts]] requires leveling the [[Sacred Sakura's Favor]] to level 50.
-{{Vendor|Mikoshi Genichirou|Blueprints|shop=The}}
+{{Vendor|Mikoshi Genichirou|Blueprints|shop=Netsuke no Gen Crafts}}
 
 ===Jiawei===
 The [[shop]] menu can be accessed by speaking to [[Jiawei]].
 {{Shop/Header|currency=Fish|vendor=Jiawei}}
-{{Shop|Pool of Sapphire Grace|specific=Blueprint: Pool of Sapphire Grace|{{Card|Medaka|10}}|1|blueprint=1}}
+{{Shop|Pool of Sapphire Grace|specific=Blueprint: Pool of Sapphire Grace|Medaka*10|1|blueprint=1}}
 {{Shop/Footer}}
 
 ===Loumelat===
 The [[shop]] menu can be accessed by speaking to [[Loumelat]].
 {{Shop/Header|currency=Fish|vendor=Loumelat}}
-{{Shop|Shaded Clarity|specific=Blueprint: Shaded Clarity|{{Card|Medaka|10}}|1|blueprint=1}}
+{{Shop|Shaded Clarity|specific=Blueprint: Shaded Clarity|Medaka*10|1|blueprint=1}}
+{{Shop/Footer}}
+
+===Delaroche===
+The [[shop]] menu can be accessed by speaking to [[Delaroche]].
+{{Shop/Header|currency=Fish|vendor=Delaroche}}
+{{Shop|Maintenance Mek: Technical Demo Type|specific=Blueprint: Maintenance Mek: Technical Demo Type|Maintenance Mek: Water Body Cleaner*5; Maintenance Mek: Situation Controller*5|1|blueprint=1}}
+{{Shop/Footer}}
+
+===Khalid===
+Unlocking [[Menakeri's Treasure Shop]] requires leveling [[Vanarana's Favor]] to level 50.
+{{Vendor|Khalid|Blueprints|shop=Menakeri's Treasure Shop}}
+
+===Alvard===
+The [[shop]] menu can be accessed by speaking to [[Alvard]].
+{{Shop/Header|currency=Credit Coupons|vendor=Alvard}}
+{{Shop|"Majesty of the Forbidden Fortress"|blueprint=1|500|1|total=1}}
+{{Shop|Linden Wood "Sturdy" Bunk|blueprint=1|250|1|total=1}}
 {{Shop/Footer}}
 
 ==Reputation==
@@ -97,11 +104,43 @@ The [[shop]] menu can be accessed by speaking to [[Loumelat]].
 |-
 |{{Item|Brightwood Pottery Worktable|text=Blueprint: Brightwood Pottery Worktable|link=Blueprint: Brightwood Pottery Worktable|blueprint=1}}||2
 |-
-|{{Item|Plain Brightwood Shelf|text= Blueprint: Plain Brightwood Shelf|link=Blueprint: Plain Brightwood Shelf|blueprint=1}}||2
+|{{Item|Plain Brightwood Shelf|text=Blueprint: Plain Brightwood Shelf|link=Blueprint: Plain Brightwood Shelf|blueprint=1}}||2
 |-
 |{{Item|Brightwood Grocery Stall|text=Blueprint: Brightwood Grocery Stall|link=Blueprint: Brightwood Grocery Stall|blueprint=1}}||6
 |-
 |{{Item|Brightwood Kebab Cart|text=Blueprint: Brightwood Kebab Cart|link=Blueprint: Brightwood Kebab Cart|blueprint=1}}||6
+|}
+
+===Fontaine Reputation===
+{|class="article-table sortable tdc2"
+!Item!!Reputation level
+|-
+|{{Item|Distributed Forward Supply Depot|text=Blueprint: Distributed Forward Supply Depot|link=Blueprint: Distributed Forward Supply Depot|blueprint=1}}||2
+|-
+|{{Item|Meka Luminaire: Radiant Countryside|text=Blueprint: Meka Luminaire: Radiant Countryside|link=Blueprint: Meka Luminaire: Radiant Countryside|blueprint=1}}||2
+|-
+|{{Item|Court of Justice's Leisure|text=Blueprint: Court of Justice's Leisure|link=Blueprint: Court of Justice's Leisure|blueprint=1}}||7
+|-
+|{{Item|Court of Justice's Prosperity|text=Blueprint: Court of Justice's Prosperity|link=Blueprint: Court of Justice's Prosperity|blueprint=1}}||7
+|}
+
+===Natlan Reputation===
+{| class="fandom-table"
+!Item
+!Tribe
+!Reputation level
+|-
+|{{Item|Stonehut of Echoes: High-Top Boots|text=Blueprint: Stonehut of Echoes: High-Top Boots|link=Stonehut of Echoes: High-Top Boots|blueprint=1}}
+|[[Children of Echoes]]
+|3
+|-
+|{{Item|Huitztlan Campground: Companions' Connection|text=Blueprint: Huitztlan Campground: Companions' Connection|blueprint=1}}
+|[[Scions of the Canopy]]
+|3
+|-
+|{{Item|Hot Spring Retreat: Top Choice|text=Blueprint: Hot Spring Retreat: Top Choice|blueprint=1}}
+|[[People of the Springs]]
+|3
 |}
 
 ==Quests==
@@ -134,17 +173,16 @@ Some blueprints are given as [[quest]] rewards, or become accessible during a qu
 ==Events==
 Some blueprints are only obtainable through [[Events]].
 {{#DPL:
-|namespace= 
+|namespace = 
 |uses = Template:Furnishing Infobox
 |include = {Furnishing Infobox}:%PAGE%:event
 |category = Item&Event-Exclusive Furnishings&Furnishings with Blueprint
 |notcategory = Battle Pass Exclusive Furnishings
-|table=class="article-table sortable",-,Item,Event
-|tablerow= {{Item|%%|text=Blueprint: %PAGE%|link=Blueprint: %PAGE%|blueprint=1}},[[%%]]
+|table = class="article-table sortable",-,Item,Event
+|tablerow = {{Item|%%|text=Blueprint: %PAGE%|link=Blueprint: %PAGE%|blueprint=1}},[[%%]]
 |ordermethod = sortkey
 |resultsheader= There are '''%PAGES%''' Event-Exclusive Furnishing Blueprints:\n
 |noresultsfooter = \nNo Results
-|allowcachedresults = true
 |tablesortcol = 2
 }}
 
@@ -159,22 +197,15 @@ Some blueprints are only obtainable through [[Events]].
 |ordermethod = sortkey
 |resultsheader= There are '''%PAGES%''' Battle Pass Exclusive Furnishing Blueprints:\n
 |noresultsfooter = \nNo Results
-|allowcachedresults = true
 |tablesortcol=3
 }}
 
 ==Tubby - Realm Depot==
-{{Main|Tubby#Furnishing Blueprints|Serenitea Pot/Realm Depot/Furnishing Blueprints}}
-{{#dpl:
-|namespace = 
-|category = Item&Realm Depot Furnishing Blueprints
-|include = {Furnishing Infobox}:category
-|format = ,\n*,,
-|secseparators = ²{Item¦%PAGE%¦text=Blueprint: %PAGE%¦link=Blueprint: %PAGE%¦blueprint=²{#if:²{#pos:,¦Set}²¦0¦1}²}²
-|resultsheader = There are '''%PAGES%''' blueprints available from the Realm Depot:\n
-|noresultsfooter = \nNo Results
-|ordermethod = sortkey
-|allowcachedresults = true
+{{Main|Tubby#Furnishing Blueprints|Serenitea Pot/Realm Depot}}
+{{Furnishing Blueprints by Category List
+|Realm Depot Furnishing Blueprints
+|columns=1
+|resultsheader=blueprints available from the Realm Depot
 }}
 
 ==Change History==
@@ -185,5 +216,7 @@ Some blueprints are only obtainable through [[Events]].
 [[Category:Furnishing Blueprints| ]]
 [[Category:Furnishing Set Blueprints| ]]
 
+[[fr:Plan de décoration]]
 [[ja:設計図]]
-[[pt-br:Diagrama de Decorações]]
+[[pt-br:Diagrama de Decoração]]
+[[th:แบบแปลนเฟอร์นิเจอร์]]

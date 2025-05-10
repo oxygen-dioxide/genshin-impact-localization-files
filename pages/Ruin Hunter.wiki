@@ -6,7 +6,7 @@
 |type     = Elite Enemies
 |family   = Automatons
 |group    = Humanoid Ruin Machines
-|location = [[Liyue]]<br />[[Inazuma]]<br />[[Sumeru]]
+|location = [[Liyue]]<br>[[Inazuma]]<br>[[Enkanomiya]]<br>[[Sumeru]]<br>[[Fontaine]]
 |ability1 = Pushing Vacuum Field
 }}
 {{Enemy Intro}}
@@ -44,36 +44,36 @@ Ruin Hunter Weak Point.png
 </gallery>
 * Weak point is only exposed when airborne.
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1 = Blade Slash
-|desc_1 = Transforms its left arm into a blade and raises it up, then quickly slashes once in front of it, dealing '''15% ATK''' and '''25% ATK''' as {{Color|Black|Physical DMG}}.
+|desc_1 = Transforms its two left arms into blades and raises them up, then quickly slashes once in front of it with both arms, dealing '''15% ATK''' and '''25% ATK''' as {{Color|Black|Physical DMG}}.
 
 |name_2 = Slash Combo
-|desc_2 = Transforms and raise its right arm, then attacks twice forward, followed by a spinning slash, ended by one final slash, dealing '''15% ATK''', '''15% ATK''', '''10% ATK * 2''', '''20% ATK''' respectively as {{Color|Black|Physical DMG}} with each hit.
-* '''Whirling Slash:''' On occasions where they end '''Slash Combo''', they have a chance to perform a far-reaching sideways spin at the end of '''Slash Combo''', dealing heavy {{Color|Black|Physical DMG}}.
-** This follow-up attack appears to have been removed as of the current version, but it is unclear when the change was made.
+|desc_2 = Brandishes its forearms before attacking twice, followed by a spinning slash, ended by one final cross-slash, dealing '''15% ATK''', '''15% ATK''', '''10% ATK * 2''', '''20% ATK''' respectively as {{Color|Black|Physical DMG}} with each hit.
+* '''Whirling Slash:''' Occasionally, after using this attack, they have a chance to perform a far-reaching upright or sideways spin, dealing '''15% ATK''' as {{Color|Black|Physical DMG}}.
+** In the current version, only the slashing effects of the sideways spin will appear, dealing DMG to the character should they be inside them. The sideways spin attack will not have a special animation, nor will the Ruin Hunter travel any distance during it. It is unknown why this is the case.
 
 |name_3 = Drill Thrust
-|desc_3 = If the player roams too far, the Ruin Hunter will change its right hand into a drill and prepare to strike, after 2 seconds it will instantly charge towards the player, covering tons of distance in the process, dealing '''100% ATK''' as {{Color|Black|Physical DMG}}.
+|desc_3 = If the player roams too far, the Ruin Hunter will transform its two right arms into lances and charge for a long while. After 2 seconds, it will instantly charge towards the player, covering a massive distance in the process, dealing '''100% ATK''' as {{Color|Black|Physical DMG}}.
 
 |name_4 = Airborne State
-|desc_4 = If the player runs too far, is at a different elevation, or after '''3''' minutes have passed since entering combat, The Ruin Hunter may occasionally enter an airborne state by detaching its limbs which then serve as its propulsion, [[Vacuum Field|pushing]] all nearby players away, and becoming airborne for a while or until its core is hit. It will immediately enter this mode of attack if its current target is too high or low in elevation. While airborne, its core weak spot is exposed, and may perform one of the four following attacks:
+|desc_4 = If the player runs too far, is at a different elevation, or after '''3''' minutes have passed since entering combat, the Ruin Hunter may occasionally enter an airborne state by detaching its limbs which then serve as its propulsion, [[Vacuum Field|pushing]] all nearby players away, and becoming airborne for a while or until its core is hit. It will immediately enter this mode of attack if its current target is too high or low in elevation. While airborne, its core weak spot is exposed. Attacking this weak spot with a single attack that deals '''80''' or higher [[Poise Damage]] will cause it to fall out of the sky and become stunned for a period of time.
 |file_4_2 = Ruin Hunter Stunned
 |caption_4_2 = Stunned
 
 |name_5 = Bombardment
-|desc_5 = All thrusters point skyward and fire a barrage of 8 missiles into the air which shortly after, strike the ground randomly in a grid-like fashion. These missiles each deals '''50% ATK''' as {{Color|Black|AoE Physical DMG}}. This attack can be performed up to 10 times.
+|desc_5 = All thrusters point skyward and fire a barrage of 8 missiles into the air which shortly after, strike the ground randomly in a grid-like fashion. These missiles each deals '''50% ATK''' as {{Color|Black|AoE Physical DMG}}. This attack can be performed up to 10 times, and can only performed while the Hunter is airborne.
 
 |name_6 = Rapid Fire
-|desc_6 = If the player roams too far, the Ruins Hunter will fire 4 quick volleys of bullets toward its target, each dealing '''10% ATK''' as {{Color|Black|Physical DMG}}.
+|desc_6 = If the player roams too far, the Ruins Hunter will fire 4 quick volleys of bullets toward its target, each dealing '''10% ATK''' as {{Color|Black|Physical DMG}}. This attack can only be performed while the Hunter is airborne.
 
 |name_7 = Focused Beam
-|desc_7 = If the player roams too far, the Ruins Hunter will shoot multiple homing missiles that each deals '''5% ATK''' as {{Color|Black|Physical DMG}} on hit, then charges up for a few seconds to unleash a focused beam attack, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}}.
+|desc_7 = If the player roams too far, the Ruins Hunter will shoot multiple homing missiles that each deals '''5% ATK''' as {{Color|Black|Physical DMG}} on hit, then charges up for a few seconds to unleash a focused beam attack, dealing '''100% ATK''' as {{Color|Pyro DMG}}. This attack can only be performed while the Hunter is airborne.
 
 |name_8 = Quad Lasers
-|desc_8 = All four thrusters face downward and quickly spin before unleashing four simultaneous laser blasts, directly below itself, dealing '''50% ATK''' as {{Color|Black|AoE Physical DMG}}. After this attack is performed, it will exit Bombardment Mode and return to the ground.
+|desc_8 = All four thrusters face downward and quickly spin before unleashing four simultaneous laser blasts, directly below itself, dealing '''50% ATK''' as {{Color|Black|AoE Physical DMG}}. This attack can only be performed while the Hunter is airborne, and after it is performed the Hunter will return to the ground.
 }}
 
 ===AI Logic===
@@ -120,7 +120,7 @@ Ruin Hunter Weak Point.png
 ==Strategy==
 Ruin Hunters are significantly faster and pack a stronger punch compared to Ruin Guards. To make up for this, they possess lower physical resistance, but it is still recommended to use elemental attacks against them. Note that while they are hovering on the ground, they cannot be disabled at all.
 
-If too much time has passed or the player is at a higher elevation than it on ground level, the Ruin Hunter will enter Bombardment mode. This includes being airborne (e.g., [[Venti]]'s held [[Skyward Sonnet]]), gliding, climbing, or being on drastically higher ground (or a [[Geo Constructs|Geo Construct]]). In this state, the Ruin Hunter's eye will glow brightly, turning it into a weak spot. Because it flies up even higher in this state, [[Bow]] and [[Catalyst]] users are the only ones capable of damaging it. The Ruin Hunter remains in this state unless struck in the eye or it uses its Quad Lasers attack, the latter signifying the end of Bombardment Mode.
+If too much time has passed or the player is at a higher elevation than it on ground level, the Ruin Hunter will enter Bombardment mode. This includes being airborne (e.g., [[Venti]]'s held [[Skyward Sonnet]] or [[Wanderer]] entering the Windfavored state from [[Hanega: Song of the Wind]]), jumping with increased jump height (e.g. [[Xiao]] while under the effects of [[Bane of All Evil]]), gliding, climbing, or being on drastically higher ground (or a [[Geo Constructs|Geo Construct]]). In this state, the Ruin Hunter's eye will glow brightly, turning it into a weak spot. Because it flies up even higher in this state, [[Bow]] and [[Catalyst]] users are the only ones capable of consistently damaging it. The Ruin Hunter remains in this state unless struck in the eye or it uses its Quad Lasers attack, the latter signifying the end of Bombardment Mode.
 
 Only one successful strike on the glowing eye is needed to bring it crashing down &mdash; a follow-up hit is not required as with the Ruin Guards. The Ruin Hunter will be disabled in a manner similar to Ruin Guards, but no protective rune appears after it recovers, meaning that Bombardment Mode can be abused to greatly weaken its offense.
 
@@ -128,9 +128,12 @@ When the Ruin Hunter is preparing to use its move Blade Slash, be aware that it 
 
 Ruin Hunters can be [[Frozen]], so permafreeze teams that can repeatedly apply Frozen can be very effective.
 
+==Tutorials==
+{{Tutorial|Ruin Hunter}}
+
 ==Descriptions==
-{{Description|A giant alien war machine.<br />They are said to be remnants from a [[Khaenri'ah|lost ancient nation]]. Apparently, the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat.<br />Considering these mere relics possess such extraordinary power, one cannot help but wonder what the civilization that produced them must have looked like at its height.|[[Adventurer Handbook]]}}
-{{Description|A giant alien-looking war machine.<br />They are said to be remnants from a lost ancient nation. It seems that the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat.<br />Considering these mere relics possess such extraordinary power, one cannot help but wonder what the civilization that produced them must have looked like at its height.|[[Archive]]}}
+{{Description|A giant alien war machine.<br>They are said to be remnants from a [[Khaenri'ah|lost ancient nation]]. Apparently, the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat.<br>Considering these mere relics possess such extraordinary power, one cannot help but wonder what the civilization that produced them must have looked like at its height.|[[Adventurer Handbook]]}}
+{{Description|A giant alien-looking war machine.<br>They are said to be remnants from a lost ancient nation. It seems that the creators opted to forgo the low-performing humanoid-design in pursuit of improved combat effectiveness. They are extremely dangerous both in melee and ranged combat.<br>Considering these mere relics possess such extraordinary power, one cannot help but wonder what the civilization that produced them must have looked like at its height.|[[Archive]]}}
 
 ==Trivia==
 * Ruin Hunters sometimes go by names like Fo-62012, beginning with the prefix Fo- and ending in a numeric code. This is demonstrated in certain boss fights like the ones in the quest "[[Where is the Unseen Razor?]]".
@@ -157,11 +160,10 @@ Enemy_Ruin_Hunter_Idle.png|Inactive Ruin Hunter
 |zht     = 遺蹟獵者
 |zht_rm  = Yíjī Lièzhě
 |zh_tl   = Ruin Hunter
-|ja      = {{Rubi|遺|い|跡|せき}}ハンター
+|ja      = 遺跡ハンター
 |ja_rm   = Iseki Hantaa
 |ja_tl   = Ruin Hunter
 |ko      = {{tt|유적|遺蹟}} 헌터
-|ko_rm   = Yujeok Heonteo
 |ko_tl   = Ruin Hunter
 |es      = Cazador de las Ruinas
 |es_tl   = Hunter of the Ruins
@@ -178,9 +180,9 @@ Enemy_Ruin_Hunter_Idle.png|Inactive Ruin Hunter
 |pt      = Caçador das Ruínas
 |pt_tl   = Hunter of the Ruins
 |tr      = Harabe Avcısı
-|tr_tl   = 
+|tr_tl   = Ruin Hunter
 |it      = Cacciatore delle rovine
-|it_tl   = 
+|it_tl   = Ruin Hunter
 }}
 
 ==Change History==
@@ -191,6 +193,8 @@ Enemy_Ruin_Hunter_Idle.png|Inactive Ruin Hunter
 
 [[de:Ruinenjäger]]
 [[es:Cazador de las Ruinas]]
+[[fr:Chasseur des ruines]]
+[[ja:遺跡ハンター]]
 [[pt-br:Caçador das Ruínas]]
 [[ru:Руинный охотник]]
 [[th:Ruin Hunter]]

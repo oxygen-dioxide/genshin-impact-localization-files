@@ -1,9 +1,11 @@
+{{About|the normal variant|the quest-exclusive variant|Abyss-Corroded Golden Wolflord}}
 {{Enemy Infobox
 |image    = Enemy Golden Wolflord.png
 |type     = Normal Bosses
 |family   = The Abyss
 |group    = Riftwolves
-|location = [[Tsurumi Island]], [[Inazuma]]
+|area     = Tsurumi Island
+|region   = Inazuma
 |title    = Nameless King of the Rift
 |dmgtype  = Physical
 |dmgtype2 = Geo
@@ -12,6 +14,7 @@
 |ability2 = Corrosion
 |ability3 = Pushing Vacuum Field
 |drops    = Riftborn Regalia
+|variants = Abyss-Corroded Golden Wolflord
 }}
 {{Enemy Intro}}
 
@@ -46,7 +49,7 @@
 
 |res2        = Elemental Devourer
 |resglobal2  = 25%
-|geo_res2    = -20%
+|geo_res2    = &minus;20%
 
 |res3        = Beginning of Fight
 |resglobal3  = 225%
@@ -58,29 +61,29 @@
 |res_title = State
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1 = Corrosion
 |desc_1 = As with all Riftwolves, the Golden Wolflord is capable of inflicting stacks of [[Corrosion]] with its attacks.
 
 |name_2 = Tornado
-|desc_2 = The Golden Wolflord generates a massive tornado that moves around the arena, randomly and rapidly dealing '''50% ATK''', '''12.5% ATK''' as {{Color|AoE Geo DMG}}. The Golden Wolflord will be stunned after this attack.
+|desc_2 = The Golden Wolflord generates a massive tornado that moves around the arena, randomly and rapidly dealing '''50% ATK''' as {{Color|Geo DMG}}. Repeated hits will have their DMG reduced according to its [[Damage Sequence]]. The Golden Wolflord will be stunned after this attack is used.
 
 |name_3 = Laser Beam
-|desc_3 = The Golden Wolflord fires a laser beam from its mouth, raking across the arena, randomly and rapidly dealing '''50% ATK''', '''12.5% ATK''', '''5% ATK''' as {{Color|Geo DMG}} to players caught in the beam.
+|desc_3 = The Golden Wolflord fires a laser beam from its mouth, raking across the arena, randomly and rapidly dealing '''50% ATK''' as {{Color|Geo DMG}} to players caught in the beam. Repeated hits will have their DMG reduced according to its [[Damage Sequence]].
 
 |name_4 = Ramming Attack
 |desc_4 = The Golden Wolflord rams the player with its mass, dealing '''50% ATK''' as {{Color|Geo DMG}} on hit. The Golden Wolflord will be stunned after this attack.
 
 |name_5 = Skull Strike
-|desc_5 = The Golden Wolflord sends its skulls to attack the player in sets of three, one at a time, each dealing '''25% ATK''' as {{Color|AoE Geo DMG}} on impact.
+|desc_5 = The Golden Wolflord sends its skulls to attack the player in sets of three, one at a time, each dealing '''25% ATK''' as {{Color|Geo DMG}} on impact.
 
 |name_6 = Sweep
-|desc_6 = Sweeps the surrounding area with its tail, dealing '''50% ATK''' as {{Color|AoE Geo DMG}}.
+|desc_6 = Sweeps the surrounding area with its tail, dealing '''50% ATK''' as {{Color|Geo DMG}}.
 
-|name_7 = Rifthound Skulls
-|desc_7 = Upon reaching '''70%''' HP, the Golden Wolflord generates a shield, [[Vacuum Field|pushes]] nearby players away, and summons 3 Rifthound Skulls.<ref group="Note">Zach Aguilar calls these "Rifthound Alphas" in the [https://youtu.be/sgAvJlOL0Gg Version 2.3 Special Program]. The ''English (United States)'' closed captioning corrects this at ~23:14.<br />"It will summon *Rifthound Skulls to provide it with shields."</ref> When the Golden Wolflord is protected by a shield, it is fully immune to damage. The Rifthound Skulls will periodically shoot projectiles that home towards the player, dealing '''12.5% ATK''' as {{Color|Black|Physical DMG}} on hit. Each Rifthound Skull can be fully charged by 3 [[Elemental Gauge Theory|gauges]] of {{Geo}} application (affected by [[Internal Cooldown|ICD]]), or 38 instances of non-Geo elemental DMG (unaffected by gauge units or ICD). Once at max charge, they will launch themselves towards the Golden Wolflord and deal damage to its shield. Once its shield is destroyed, the Golden Wolflord will be stunned. Upon waking up, it will deal {{Color|Black|Physical DMG}} without triggering corrosion if the player is too close. This phase can be skipped if the Golden Wolflord is defeated before it can generate its shield.
+|name_7 = Rifthound Skulls + Elemental Devourer
+|desc_7 = Upon reaching '''70%''' HP, the Golden Wolflord enters the Elemental Devourer state and generates a shield, [[Vacuum Field|pushing]] nearby players away, and summoning 3 Rifthound Skulls to the edges of the arena that deal '''50% ATK''' as {{Color|Geo DMG}} on landing.<ref group="Note">Zach Aguilar calls these "Rifthound Alphas" in the [https://youtu.be/sgAvJlOL0Gg Version 2.3 Special Program]. The ''English (United States)'' closed captioning corrects this at ~23:14.<br>"It will summon *Rifthound Skulls to provide it with shields."</ref> Until it is defeated, the Golden Wolflord will gain '''30%''' increased ATK, but will also possess '''45%''' less {{Color|Geo RES}}. When the Golden Wolflord is protected by a shield, it is fully immune to damage, and the shield itself also cannot be damaged by normal means. The Rifthound Skulls will periodically shoot projectiles that home towards the player, dealing '''12.5% ATK''' as {{Color|Physical DMG}} on hit. Each Rifthound Skull can be fully charged by 3 [[Elemental Gauge Theory|gauges]] of {{Geo}} application (affected by [[Internal Cooldown|ICD]]), or 38 instances of non-Geo elemental DMG (unaffected by gauge units or ICD). Once at max charge, they will launch themselves towards the Golden Wolflord and cause the shield to lose '''1/3''' of its durability. Once its shield is destroyed, the Golden Wolflord will be stunned for an extended period of time. Upon waking up, it will deal '''10% ATK''' as {{Color|Physical DMG}} to players close to it without applying Corrosion to them. This phase can be skipped if the Golden Wolflord is defeated before it can generate its shield.
 |file_7 = Golden Wolflord Minions Spawn
 |caption_7 = Spawn
 |file_7_2 = Golden Wolflord Minions Projectile
@@ -89,11 +92,8 @@
 |caption_7_3 = Stun
 
 |name_8 = Earthshaking Dive
-|desc_8 = Flies up and dives into the ground with great force, dealing '''100% ATK''' as {{Color|AoE Geo DMG}} in a massive area covering the majority of the arena. After it resurfaces, 8 massive explosions will follow that again cover the majority of the arena, each dealing '''25% ATK''' as {{Color|AoE Geo DMG}}. This attack is only performed during and after the Golden Wolflord's shielded phase, not before.
+|desc_8 = Flies up and dives into the ground with great force, dealing '''100% ATK''' as {{Color|Geo DMG}} in a massive area covering the majority of the arena. After it resurfaces, 9 massive explosions will follow that again cover the majority of the arena, each dealing '''25% ATK''' as {{Color|Geo DMG}}. This attack is only performed while the Wolflord is in the Elemental Devourer state.
 |file_8 = Golden Wolflord Dive
-
-|name_9 = Elemental Devourer
-|desc_9 = Upon starting the shielded phase, the Golden Wolflord empowers itself &mdash; increasing its ATK by '''30%''', but decreasing its {{Color|Geo RES}} in the process.
 }}
 
 ==Strategy==
@@ -106,15 +106,21 @@ Once fully charged, the skulls will launch themselves at the Golden Wolflord and
 During and after its shielded phase, the Golden Wolflord can utilize a devastating AoE attack that covers the majority of the arena. It is advisable to stay near the edge of the arena in order to evade it with relative ease.
 
 ==Beastly Rift==
-{{Description|On an island on which no humans dwell, a golden king of beasts has commanded its pack of followers to pave the way through space for it.<br />One can only wonder: what dreams might be woven from the sharp claws and fangs of these hidden beasts? And what impulses drive them to invade this world?}}
+{{Description|On an island on which no humans dwell, a golden king of beasts has commanded its pack of followers to pave the way through space for it.<br>One can only wonder: what dreams might be woven from the sharp claws and fangs of these hidden beasts? And what impulses drive them to invade this world?}}
 [[File:Beastly Rift.png|400px]]
 
 ==Achievements==
 {{Achievement Topic Table|topic=Golden Wolflord}}
 
+==Tutorials==
+{{Tutorial|Golden Wolflord}}
+
 ==Descriptions==
-{{Description|A twisted beast from another world.<br />This creature is the ruler of the [[Riftwolves]], and wields the power to command them to dissolve space itself.|[[Adventurer Handbook]]}}
-{{Description|Hailing from a dark world, this ruler of the black wolves has the power to call upon its followers, its hidden claws, to dissolve space itself and forge a rift through which it may enter.<br />The Wolflord has no name, for it was but one of "[[Gold]]"'s unintentional creations, and that is precisely why it is obsessed with invading worlds that do not belong to it and making a name for itself.<br />That said, the wolf pack is far from unintelligent. After suffering a defeat in its previous invasion, a deserted island where no humans or protectors dwell has been selected for them to prepare for their lord's descent.|[[Archive]]}}
+{{Description|A twisted beast from another world.<br>This creature is the ruler of the [[Riftwolves]], and wields the power to command them to dissolve space itself.|[[Adventurer Handbook]]}}
+{{Description|Hailing from a dark world, this ruler of the black wolves has the power to call upon its followers, its hidden claws, to dissolve space itself and forge a rift through which it may enter.<br>The Wolflord has no name, for it was but one of "[[Gold]]"'s unintentional creations, and that is precisely why it is obsessed with invading worlds that do not belong to it and making a name for itself.<br>That said, the wolf pack is far from unintelligent. After suffering a defeat in its previous invasion, a deserted island where no humans or protectors dwell has been selected for them to prepare for their lord's descent.|[[Archive]]}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=combat}}
 
 ==Gallery==
 <gallery>
@@ -159,9 +165,9 @@ Enemy Golden Wolflord Icon.png|Icon
 |pt      = Rei Canino Dourado
 |pt_tl   = Golden Canine King
 |tr      = Kurtların Altın Efendisi
-|tr_tl   = 
+|tr_tl   = The Wolves' Golden Lord
 |it      = Signore dei lupi dorato
-|it_tl   = 
+|it_tl   = Golden Wolflord
 }}
 
 ==Change History==
@@ -172,8 +178,10 @@ Enemy Golden Wolflord Icon.png|Icon
 
 [[de:Goldener Garmfürst]]
 [[es:Rey Acechador Dorado]]
+[[fr:Loup alpha doré]]
 [[ja:黄金王獣]]
 [[pt-br:Rei Canino Dourado]]
+[[ru:Золотой волчий вожак]]
 [[th:Golden Wolflord]]
 [[vi:Vua Thú Hoàng Kim]]
-[[ru:Золотой волчий вожак]]
+[[zh:黃金王獸]]

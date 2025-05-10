@@ -1,2 +1,681 @@
-#REDIRECT [[Joururi Workshop]]
-[[Category:Redirect Pages]]
+{{About|the Weekly Boss|the quest-exclusive character|Scaramouche|the playable character|Wanderer}}
+{{Enemy Infobox
+|name      = Everlasting Lord of Arcane Wisdom
+|image     = <gallery>
+Enemy Everlasting Lord of Arcane Wisdom.png|Archive
+Enemy Everlasting Lord of Arcane Wisdom Full Artwork.png|Full Art
+</gallery>
+|type      = Weekly Bosses
+|title     = Shouki no Kami, the Prodigal
+|family    = Enemies of Note
+|dmgtype   = Anemo
+|dmgtype2  = Cryo
+|dmgtype3  = Electro
+|dmgtype4  = Hydro
+|dmgtype5  = Pyro
+|weakpoint = no
+|ability1  = Shield
+|ability2  = Energy Drain
+|ability3  = Vacuum Field
+|ability4  = HP Loss
+|ability5  = Self HP Loss
+|ability6  = Teleport
+|location  = [[Joururi Workshop]]
+|voiceEN   = [[imdb:nm2533639|Patrick Pedraza]]<ref>Twitter: [https://twitter.com/Pat_Pedraza/status/1587151056277950464 EN VA Self Announcement]</ref>
+|voiceCN   = [https://zh.moegirl.org.cn/鹿喑 Luyin ({{zh|鹿喑}})]<ref>Bilibili: [https://www.bilibili.com/video/BV1xg411G7i2 {{zh|《原神》3.3版本PV：「六入尽明，诸相皆无」}}] (Video Description)</ref>
+|voiceJP   = {{w|Tetsuya Kakihara|Kakihara Tetsuya ({{ja|柿原 徹也}})}}<ref>Twitter: [https://twitter.com/Genshin_7/status/1595990853553557506 JP VA Announcement]</ref>
+|voiceKR   = {{w|ko:민승우|Min Seung-woo ({{ko|민승우}})}}<ref>Twitter: [https://twitter.com/genshinimpactkr/status/1599282355574915073 KR VA Announcement]</ref>
+}}
+{{Enemy Intro}}
+
+==Rules==
+{{Transclude|Joururi Workshop|Rules}}
+
+==Ley Line Disorder==
+{{Transclude|Joururi Workshop|Ley Line Disorder}}
+
+==Rewards==
+{{Transclude|Joururi Workshop|Rewards}}
+
+==Stats==
+===Phase 1===
+{{Enemy Stats
+|electro_res = 50%
+
+|hp_ratio  = 20
+|hp_type   = 2
+|atk_ratio = 5
+|atk_type  = 2
+}}
+
+===Phase 2===
+{{Enemy Stats
+|resglobal   = 30%
+|electro_res = 90%
+
+|res2         = Shielded
+|resglobal2   = 230%
+|electro_res2 = 290%
+
+|res3         = Hits Against Chest While Paralyzed
+|resglobal3   = &minus;140%
+|electro_res3 = &minus;80%
+
+|hp_ratio  = 18
+|hp_type   = 2
+|atk_ratio = 6
+|atk_type  = 2
+}}
+
+==Abilities==
+''Most ability names are unofficial.''
+===Phase 1===
+In Phase 1, small and large Energy Blocks will charge the Neo Akasha Terminal by '''50%''' and '''100%''' respectively. When the Neo Akasha Terminal's energy is full, it can be used to activate elemental matrices on the ground.
+* Other than producing the effects described by the [[#Ley Line Disorder|Ley Line Disorder]], elemental matrices will also generate 5 [[Energy]] particles of the corresponding element upon activation.
+* Elemental matrices will enter cooldown once activated.
+::{| class="wikitable"
+! Matrix Element !! Cooldown
+|-
+| {{Cryo}}/{{Pyro}} || 10s
+|-
+| {{Anemo}}/{{Hydro}} || 15s
+|-
+| {{Electro}} || 75s
+|}
+{{Enemy Attacks
+|enemy = Everlasting Lord of Arcane Wisdom
+
+|name_1 = Raw Frost/Remnant Flame
+|desc_1 = When Shouki no Kami uses {{Cryo}} or {{Pyro}} attacks, they will cover tiles of the floor with the Raw Frost or Remnant Flame effect. Affected floor tiles will deal '''5% ATK''' as {{Color|Cryo DMG}} or '''15% ATK''' as {{Color|Pyro DMG}} every 0.5s when stepped on.
+|strat_1 = Activate the {{Pyro}} or {{Cryo}} matrices to clear the Raw Frost or Remnant Flame effects respectively.
+
+|name_2 = Arm Slam
+|desc_2 = Slams one arm down and creates a shockwave, dealing '''75% ATK''', '''100% ATK''' as {{Color|Pyro DMG}} or {{Color|Cryo DMG}}. After some time, swipes his arm across the arena, dealing '''100% ATK''' as {{Color|Pyro DMG}} or {{Color|Cryo DMG}} to players in its path. A large Energy Block will spawn after this attack.
+|file_2 = Everlasting Lord of Arcane Wisdom Arm Slam Left
+|caption_2 = Left Arm Version
+|file_2_2 = Everlasting Lord of Arcane Wisdom Arm Slam Right
+|caption_2_2 = Right Arm Version
+
+|name_3 = Arm Combo
+|desc_3 = Moves one arm across the arena while continuously spraying ice or fire from the palm, dealing '''100% ATK''' as {{Color|Cryo DMG}} or {{Color|Pyro DMG}} every 0.1s, then slams his other arm down, dealing '''66% ATK''' as {{Color|Pyro DMG}} or {{Color|Cryo DMG}}. A large Energy Block will spawn after this attack.
+|file_3 = Everlasting Lord of Arcane Wisdom Arm Combo Left
+|caption_3 = Left Arm Version
+|file_3_2 = Everlasting Lord of Arcane Wisdom Arm Combo Right
+|caption_3_2 = Right Arm Version
+
+|name_4 = Waterspout
+|desc_4 = Summons 3 vortexes that pull nearby players in while dealing '''33% ATK''' as {{Color|Anemo DMG}} every 0.5s, then transforms them into waterspouts that move around the arena and deal '''50% ATK''' as {{Color|Hydro DMG}} every 0.5s. Each waterspout will leave a small Energy block at its location after disappearing.
+
+|name_5 = Electrostreak
+|desc_5 = Shoots a massive beam at the floor, dealing '''50% ATK''' as {{Color|Electro DMG}} every 0.5s across the entire arena. At the end of the attack, unleashes a more powerful shockwave, dealing '''100% ATK''' as {{Color|Electro DMG}} across the entire arena. A large Energy Block will spawn after this attack.
+|strat_5 = Use the [[Wind Current]] created by the Anemo matrix to avoid this attack entirely.
+
+|name_6 = Shard Rain
+|desc_6 = Summons countless Electro shards to rain down, each dealing '''100% ATK''' as {{Color|Electro DMG}}. Afterwards, forms 2 large prisms that travel towards the player, each dealing '''50% ATK''' as {{Color|Electro DMG}} upon landing. 2 small Energy Blocks will spawn after this attack.
+
+|name_7 = Laser Array
+|desc_7 = Summons an array of of laser cannons to surround himself, continuously rotating and firing off many large laser beams that deal '''100% ATK''' as {{Color|Electro DMG}} on hit. A large Energy Block will spawn after this attack.
+
+|name_8 = Partial Paralysis Recovery
+|desc_8 = If one of the Electro matrices is activated, Shouki no Kami will raise one of his hands and summon thunderbolts to strike down, dealing '''66% ATK''' as {{Color|Electro DMG}}. Some thunderbolts will target randomly and spawn a small Energy Block upon landing, while some directly target the player and do not spawn Energy Blocks. If the second Electro matrix is not activated after ~15 seconds, Shouki no Kami will recover from this partially paralyzed state.
+}}
+
+===Phase 2===
+In Phase 2, small and large Energy Blocks will charge the Neo Akasha Terminal by '''25%''' and '''50%''' respectively. When fully charged, its aimed attack will become available. Additionally, [[Four-Leaf Sigil]]s will spawn together with Energy Blocks in this phase. In this phase, when a character attack hits Shouki no Kami, it will generate 3 orbs with a 50% chance for a 4th. Each orb will charge the Neo Akasha Terminal by '''2.5%'''. The orb generation has a cooldown of 3.5 seconds.
+
+Shouki no Kami will start with a shield that increases his [[RES]] by '''200%'''. The Neo Akasha Terminal will continuously fire at Shouki no Kami and slowly deplete his shield. The Neo Akasha Terminal's aimed attack will significantly damage the shield.
+
+When the shield is depleted, Shouki no Kami will slowly lose [[HP]] due to the Neo Akasha Terminal's attacks. If hit by the aimed attack while not shielded, Shouki no Kami will lose HP equal to '''20%''' of his Max HP.
+{{Enemy Attacks
+|enemy = Everlasting Lord of Arcane Wisdom
+
+|name_1 = Triple Earthshock
+|desc_1 = Performs a 3-part combo consisting of a stomp with his foot and 2 slams with his arm, dealing '''75% ATK''', '''75% ATK''', '''100% ATK''' as {{Color|Electro DMG}}. The final slam sends out an expanding wave that deals '''50% ATK''' as {{Color|Electro DMG}}. A small Energy Block will spawn after this attack.
+
+|name_2 = Thunder Lance
+|desc_2 = Thrusts two pairs of massive lances into the ground. Each deals '''100% ATK''' as {{Color|Electro DMG}} on landing and will continue to deal '''25% ATK''' as {{Color|Electro DMG}} every 0.5s in the impacted area. A large Energy Block will spawn after this attack.
+
+|name_3 = Bomb Scatter
+|desc_3 = Scatters many Cryo, Hydro, and Pyro bombs on the floor, each dealing '''50% ATK''' as {{Color|Cryo DMG}}, {{Color|Hydro DMG}}, or {{Color|Pyro DMG}} upon landing, then conjures countless sparks that strike the ground randomly, each dealing '''100% ATK''' as {{Color|Cryo DMG}}, {{Color|Hydro DMG}}, or {{Color|Pyro DMG}}.
+* If destroyed using [[Elemental Reaction]]s, a large Energy Block will spawn at the bomb's location.
+* If not destroyed, the bombs will explode after a period of time, dealing '''100% ATK''' as {{Color|Cryo DMG}}, {{Color|Hydro DMG}}, or {{Color|Pyro DMG}}.
+{{Elemental Shield Data
+|title   = Cryo Bomb
+|element = Cryo
+|gu      = 2
+|realcryo = 1
+
+|title2   = Hydro Bomb
+|element2 = Hydro
+|gu2      = 2
+|noec2    = 1
+
+|title3   = Pyro Bomb
+|element3 = Pyro
+|gu3      = 2
+}}
+|file_3_2 = Everlasting Lord of Arcane Wisdom Bomb Scatter 2
+|caption_3_2 = Bomb Explosion
+
+|name_4 = Cosmic Bombardment
+|desc_4 = Forms an array of orbs that continuously fires projectiles targeting a large strike zone, each dealing '''100% ATK''' as {{Color|Electro DMG}}. Afterwards, summons many thunderous beams to strike straight down across the entire arena, each dealing '''100% ATK''' as {{Color|Electro DMG}}. A small Energy Block and a large Energy Block will spawn after this attack.
+
+|name_5 = Double Charge
+|desc_5 = Charges twice at the player, dealing '''50% ATK''' and '''62.5% ATK''' as {{Color|Pyro DMG}}, '''50% ATK''' as {{Color|Cryo DMG}} and leaving the floor burnt or frosted for a short period of time in his wake. The affected floor deals '''25% ATK''' as {{Color|Pyro DMG}} or {{Color|Cryo DMG}} every second. A small Energy Block will spawn after this attack.
+
+|name_6 = Thunder Sphere
+|desc_6 = If the player is behind Shouki no Kami, turns around and conjures 5 thunder spheres that are then shot at the player, each dealing '''50% ATK''' as {{Color|Electro DMG}} on hit.
+
+|name_7 = Eruption Trails
+|desc_7 = Marks a cross-shaped area on the floor and sets off a trail of Hydro explosions and a trail of Anemo explosions, dealing '''75% ATK''' as {{Color|Hydro DMG}} or {{Color|Anemo DMG}}. A small Energy Block will spawn after this attack.
+
+|name_8 = Setsuna Shoumetsu
+|desc_8 = When his shield is depleted, Shouki no Kami deploys 4 Nirvana Engines at the center of the arena. Nirvana Engines will attack the player while Shouki no Kami charges his attack. The center Nirvana Engine fires volleys of bullets that each deal '''25% ATK''' as {{Color|Electro DMG}}, while the 3 airborne Nirvana Engines periodically fire beams at the player that deal '''37.5% ATK''' as {{Color|Electro DMG}}.
+* When Setsuna Shoumetsu begins charging, the charging progress of Neo Akasha Terminals will be reset to 0%.
+* Nirvana Engines are weakest to {{Cryo}}, {{Dendro}}, and {{Pyro}}.
+* When destroyed, a Nirvana Engine will spawn a small Energy Block which will charge the Neo Akasha Terminal.
+* When the Neo Akasha Terminal is fully charged, the player can use its aimed attack on Shouki no Kami to paralyze him for 30 seconds.
+* While paralyzed, Shouki no Kami's chest becomes vulnerable. Shouki no Kami's [[RES]] against attacks that hit the chest will be decreased by '''170%'''. However, attacks that do not hit the chest will not receive this RES decrease.
+* After Shouki no Kami is paralyzed, all party members will gain full [[Energy]].
+* If the player fails to paralyze Shouki no Kami within '''40''' seconds, Setsuna Shoumetsu will land and instantly kill the active character. This ignores any defensive stats as well as [[shield]]s. In [[Co-Op Mode]], only one player will be killed, while the rest will be dealt '''100% ATK''' as {{Color|Electro DMG}}.
+* Before the landing of Setsuna Shoumetsu, all party members will have their [[Energy]] fully drained, and the active character will be frozen in place.
+* It is possible to dodge Setsuna Shoumetsu using the [[Invincibility Frame|i-frames]] provided by the hold version of [[Mona]]'s [[Mirror Reflection of Doom]].
+** To achieve this, the player must use an [[Elemental Burst]] around 4 seconds after the chains visual effect around the character appears to bypass the freezing effect. This will allow the player to hold Mona's Elemental Skill and i-frame Setsuna Shoumetsu with precise timing when it lands.
+{{Elemental Shield Data
+|title   = Nirvana Engine<br><small>(Grounded)</small>
+|element = Electro
+|gu      = 5
+|noec    = 1
+
+|title2   = Nirvana Engine<br><small>(Airborne)</small>
+|element2 = Electro
+|gu2      = 1
+|noec2    = 1
+}}
+|caption_8 = Initiating Setsuna Shoumetsu
+|file_8_2 = Everlasting Lord of Arcane Wisdom Setsuna Shoumetsu 2
+|caption_8_2 = Successful Setsuna Shoumetsu
+|file_8_3 = Everlasting Lord of Arcane Wisdom Setsuna Shoumetsu 3
+|caption_8_3 = Paralyzed
+|file_8_4 = Everlasting Lord of Arcane Wisdom Setsuna Shoumetsu 4
+|caption_8_4 = Nirvana Engines
+|file_8_5 = Everlasting Lord of Arcane Wisdom Setsuna Shoumetsu 5
+|caption_8_5 = Dodged Using Mirror Reflection of Doom
+|strat_8 = Bring a ranged {{Cryo}}/{{Dendro}}/{{Pyro}} character to easily destroy the airborne Nirvana Engines. Note that the hold version of [[Nahida]]'s [[All Schemes to Know]] cannot lock onto Nirvana Engines.
+}}
+
+===AI Logic===
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if all of the following conditions have been met:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+* Certain abilities with extra trigger conditions may defy regular ability logic.
+
+====Phase 1====
+{| class="wikitable"
+! Ability !! Priority !! Range Req. (m) !! Angle Req. (°) !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD (s)
+|-
+| Arm Slam 1 || 4 || 0–50 || >10 || 7.5–12.5 || 0 || rowspan="2" | 10
+|-
+| Arm Slam 2 || 3 || 0–50 || >10 || 15–22.5 || 0
+|-
+| Arm Combo 1 || 4 || 0–50 || >10 || 10–17.5 || 0 || rowspan="2" | 15
+|-
+| Arm Combo 2 || 3 || 0–50 || >10 || 15–22.5 || 0
+|-
+| Shard Rain || 4 || 0–50 || &mdash; || 20–27.5 || 0 || &mdash;
+|-
+| Hydrospout || 4 || 0–50 || &mdash; || 15–22.5 || 0 || &mdash;
+|-
+| Electrostreak 1 || 1 || 0–50 || &mdash; || 75–90 || 30–35 || &mdash;
+|-
+| Electrostreak 2 || 1 || 0–50 || &mdash; || 90–100 || 25–30 || &mdash;
+|-
+| Laser Array 1 || 1 || 0–50 || &mdash; || 75–90 || 30–35 || &mdash;
+|-
+| Laser Array 2 || 1 || 0–50 || &mdash; || 95–110 || 60–65 || &mdash;
+|}
+
+====Phase 2====
+{| class="wikitable"
+! Ability !! Priority !! Range Req. (m) !! Angle Req. (°) !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD (s) !! Additional Req.
+|-
+| Bomb Scatter 1 || 4 || 0–100 || &mdash; || 35–45 || 2 || rowspan="4" | 35 || <21m away from center
+|-
+| Bomb Scatter 2 || 4 || 0–100 || &mdash; || 75–90 || 2 || <21m away from center
+|-
+| Return to Center + Bomb Scatter 1 || 4 || 0–100 || &mdash; || 35–45 || 2 || >20m away from center
+|-
+| Return to Center + Bomb Scatter 2 || 4 || 0–100 || &mdash; || 75–90 || 2 || >20m away from center
+|-
+| Triple Earthshock || 5 || 0–70 || &mdash; || 12.5–20 || 2 || rowspan="2" | 15 || <40m away from center
+|-
+| Return to Center + Triple Earthshock || 4 || >40 || &mdash; || 999999 || 2 || >40m away from center
+|-
+| Double Charge || 4 || &mdash; || &mdash; || 42.5–47.5 || 22.5–27.5 || &mdash; || &mdash;
+|-
+| Eruption Trails 1 || 5 || &mdash; || &mdash; || 17.5–22.5 || 2 || rowspan="2" | 20 || &mdash;
+|-
+| Eruption Trails 2 || 4 || 40–70 || 0–150 || 17.5–22.5 || 2 || &mdash;
+|-
+| Thunder Lance 1 || 4 || 0–25 || &mdash; || 12.5–17.5 || 2 || rowspan="2" | 20 || &mdash;
+|-
+| Thunder Lance 2 || 5 || 25–40 || &mdash; || 12.5–17.5 || 2 || &mdash;
+|-
+| Cosmic Bombardment || 3 || &mdash; || &mdash; || 50–60 || 42.5–50 || &mdash; || &mdash;
+|-
+| Thunder Sphere || 4 || &mdash; || >135 || 17.5–25 || 2 || &mdash; || &mdash;
+|}
+
+==Achievements==
+{{Achievement Topic Table|topic=Everlasting Lord of Arcane Wisdom|requirements=1}}
+
+==Voice-Overs==
+===Phase 1===
+{{VO/Enemy
+|enemy                   = Everlasting Lord of Arcane Wisdom
+|vo_01_00_title          = Fight Start
+|vo_01_01_file           = VO {lang}{name} - Bow Before Me Worm.ogg
+|vo_01_01_tx_en          = Bow before me, worm!
+|vo_01_01_tx_zh          = 微小虫孑，岂敢视神？
+|vo_01_01_rm_zh          = Wēixiǎo chóngjié, qǐ gǎn shì shén?
+|vo_01_01_tx_ja          = 虫けらが神を見ようとはね。
+|vo_01_01_rm_ja          = Mushikera ga kami wo miyou to wa ne.
+|vo_01_01_tx_ko          = 벌레가 어찌 신을 눈에 담고자 하는가
+|vo_01_01_rm_ko          = Beollega eojji sineul nune damkkoja haneun'ga
+|vo_01_02_file           = VO {lang}{name} - Let It Be Known That Divinity Is Mine.ogg
+|vo_01_02_tx_en          = Let it be known that divinity is mine.
+|vo_01_02_tx_zh          = 伟力如此，皆为神诞。
+|vo_01_02_rm_zh          = Wěilì rúcǐ, jiē wéi shén dàn.
+|vo_01_02_tx_ja          = この偉大なる力は、神誕のため。
+|vo_01_02_rm_ja          = Kono idai naru chikara wa, shintan no tame.
+|vo_01_02_tx_ko          = 이것은 신을 위해 탄생한 힘이다
+|vo_01_02_rm_ko          = Igeoseun sineul wihae tansaenghan himida
+
+|vo_02_00_title          = One Electro Matrix Activated
+|vo_02_01_file           = VO {lang}{name} - Ugh.ogg
+|vo_02_01_tx_en          = Ugh...
+|vo_02_01_tx_zh          = 呃…
+|vo_02_01_rm_zh          = È...
+|vo_02_01_tx_ja          = ぐあっ…
+|vo_02_01_rm_ja          = Gua'...
+|vo_02_01_tx_ko          = 윽…
+|vo_02_01_rm_ko          = Euk...
+
+|vo_03_00_title          = Paralyzed
+|vo_03_01_file           = VO {lang}{name} - My Body Its Ugh.ogg
+|vo_03_01_tx_en          = My body... it's... ugh...
+|vo_03_01_tx_zh          = 这具…躯体…
+|vo_03_01_rm_zh          = Zhèjù... qūtǐ...
+|vo_03_01_tx_ja          = くっ…体が…
+|vo_03_01_rm_ja          = Ku'... karada ga...
+|vo_03_01_tx_ko          = 이… 몸은…
+|vo_03_01_rm_ko          = I... momeun...
+|vo_03_02_file           = VO {lang}{name} - Need More Power.ogg
+|vo_03_02_tx_en          = Need more... power...
+|vo_03_02_tx_zh          = 神力…尚未…
+|vo_03_02_rm_zh          = Shénlì... shàngwèi...
+|vo_03_02_tx_ja          = 神の力は…まだ…
+|vo_03_02_rm_ja          = Kami no chikara wa... mada...
+|vo_03_02_tx_ko          = 신력이… 아직…
+|vo_03_02_rm_ko          = Sillyeogi... ajik...
+
+|vo_04_00_title          = Recovered from Paralysis
+|vo_04_01_file           = VO {lang}{name} - You Cannot Defy Me Mortal.ogg
+|vo_04_01_tx_en          = You cannot defy me, mortal!
+|vo_04_01_tx_zh          = 渎神…大罪！
+|vo_04_01_rm_zh          = Dúshén... dàzuì!
+|vo_04_01_tx_ja          = 涜神の…大罪！
+|vo_04_01_rm_ja          = Tokushin no... taizai!
+|vo_04_01_tx_ko          = 신성 모독은… 대죄다!
+|vo_04_01_rm_ko          = Sinseong modogeun... daejoeda!
+
+|vo_05_00_title          = Arm Slam
+|vo_05_01_file           = VO {lang}{name} - Insignificant Pest.ogg
+|vo_05_01_tx_en          = Insignificant pest!
+|vo_05_01_tx_zh          = 像只虫子！
+|vo_05_01_rm_zh          = Xiàng zhī chóngzi!
+|vo_05_01_tx_ja          = 虫けらが！
+|vo_05_01_rm_ja          = Mushikera ga!
+|vo_05_01_tx_ko          = 벌레같구나!
+|vo_05_01_rm_ko          = Beollegatkkuna!
+
+|vo_06_00_title          = Arm Slam (Follow-Up Swipe)
+|vo_06_01_tx_en          = {{A|VO Everlasting Lord of Arcane Wisdom - Arm Swipe 1.ogg}} {{A|VO Everlasting Lord of Arcane Wisdom - Arm Swipe 2.ogg}} {{A|VO Everlasting Lord of Arcane Wisdom - Arm Swipe 3.ogg}}
+|vo_06_01_tx_zh          = {{A|VO ZH Everlasting Lord of Arcane Wisdom - Arm Swipe 1.ogg}} {{A|VO ZH Everlasting Lord of Arcane Wisdom - Arm Swipe 2.ogg}} {{A|VO ZH Everlasting Lord of Arcane Wisdom - Arm Swipe 3.ogg}}
+|vo_06_01_tx_ja          = {{A|VO JA Everlasting Lord of Arcane Wisdom - Arm Swipe 1.ogg}} {{A|VO JA Everlasting Lord of Arcane Wisdom - Arm Swipe 2.ogg}} {{A|VO JA Everlasting Lord of Arcane Wisdom - Arm Swipe 3.ogg}}
+|vo_06_01_tx_ko          = {{A|VO KO Everlasting Lord of Arcane Wisdom - Arm Swipe 1.ogg}} {{A|VO KO Everlasting Lord of Arcane Wisdom - Arm Swipe 2.ogg}} {{A|VO KO Everlasting Lord of Arcane Wisdom - Arm Swipe 3.ogg}}
+
+|vo_07_00_title          = Arm Combo
+|vo_07_01_file           = VO {lang}{name} - Feeble Human.ogg
+|vo_07_01_tx_en          = Feeble human!
+|vo_07_01_tx_zh          = 无力凡众！
+|vo_07_01_rm_zh          = Wúlì fánzhòng!
+|vo_07_01_tx_ja          = 無力な凡衆め！
+|vo_07_01_rm_ja          = Muryoku-na bonshuu me!
+|vo_07_01_tx_ko          = {{tt|무력|無力}}한 {{tt|범중|凡眾}}이군!
+|vo_07_01_rm_ko          = Muryeokan beomjung-igun!
+
+|vo_08_00_title          = Shard Rain
+|vo_08_01_file           = VO {lang}{name} - Perish.ogg
+|vo_08_01_tx_en          = Perish!
+|vo_08_01_tx_zh          = 覆灭！
+|vo_08_01_rm_zh          = Fùmiè!
+|vo_08_01_tx_ja          = 覆滅！
+|vo_08_01_rm_ja          = Fukumetsu!
+|vo_08_01_tx_ko          = {{tt|멸망|滅亡}}하라!
+|vo_08_01_rm_ko          = Myeolmanghara!
+
+|vo_09_00_title          = Electrostreak
+|vo_09_01_file           = VO {lang}{name} - At My Command You Shall Fall.ogg
+|vo_09_01_tx_en          = At my command, you shall fall!
+|vo_09_01_tx_zh          = 你也将…无处立足！
+|vo_09_01_rm_zh          = Nǐ yě jiāng... wúchù lìzú!
+|vo_09_01_tx_ja          = 君は、居場所を失う。
+|vo_09_01_rm_ja          = Kimi wa, ibasho wo ushinau.
+|vo_09_01_tx_ko          = 네가… 설 자리는 없다!
+|vo_09_01_rm_ko          = Nega... seol jarineun eoptta!
+
+|vo_10_00_title          = Laser Array
+|vo_10_01_file           = VO {lang}{name} - My Endless Cycle Begins.ogg
+|vo_10_01_tx_en          = My endless cycle begins!
+|vo_10_01_tx_zh          = 轮转百劫！
+|vo_10_01_rm_zh          = Lúnzhuǎn-bǎijié!
+|vo_10_01_tx_ja          = 輪転百劫！
+|vo_10_01_rm_ja          = Rinten-hyakugou!
+|vo_10_01_tx_ko          = {{tt|윤회|輪廻}}의 {{tt|업겁|業劫}}!
+|vo_10_01_rm_ko          = Yunhoe-ui Eopkkeop!
+
+|vo_11_00_title          = Waterspouts
+|vo_11_01_file           = VO {lang}{name} - Churn.ogg
+|vo_11_01_tx_en          = Churn!
+|vo_11_01_tx_zh          = 旋流…涡转！
+|vo_11_01_rm_zh          = Xuánliú... wōzhuǎn!
+|vo_11_01_tx_ja          = 渦潮よ、逆巻け！
+|vo_11_01_rm_ja          = Uzushio yo, sakamake!
+|vo_11_01_tx_ko          = 소용돌이, 회전하라!
+|vo_11_01_rm_ko          = Soyongdori, hoejeonhara!
+
+|vo_12_00_title          = Defeating Most Playable Characters
+|vo_12_01_file           = VO {lang}{name} - Worthless Insect.ogg
+|vo_12_01_tx_en          = Worthless insect...
+|vo_12_01_tx_zh          = 蝼蚁之众…
+|vo_12_01_rm_zh          = Lóuyǐ zhī zhòng...
+|vo_12_01_tx_ja          = 虫けらどもが…
+|vo_12_01_rm_ja          = Mushikera-domo ga...
+|vo_12_01_tx_ko          = 하등한 무리들…
+|vo_12_01_rm_ko          = Hadeunghan murideul...
+
+|vo_13_00_title          = Defeating [[Raiden Shogun]]
+|vo_13_01_file           = VO {lang}{name} - Your Shadow Has Faded Beelzebul.ogg
+|vo_13_01_tx_en          = Your shadow has faded, Beelzebul.
+|vo_13_01_tx_zh          = 巴尔泽布，你已无心无力。
+|vo_13_01_rm_zh          = Bā'ěrzébù, nǐ yǐ wú xīn wú lì.
+|vo_13_01_tx_ja          = バアルゼブル、君にはもう何もできない。
+|vo_13_01_rm_ja          = Baaruzeburu, kimi ni wa mou nani mo dekinai.
+|vo_13_01_tx_ko          = 바알세불, 넌 이제 아무런 힘도 없다
+|vo_13_01_rm_ko          = Baalsebul, neon ije amureon himdo eoptta
+}}
+
+===Phase 2===
+{{VO/Enemy
+|enemy                   = Everlasting Lord of Arcane Wisdom
+|vo_01_00_title          = Fight Start
+|vo_01_01_file           = VO {lang}{name} - I Am The All Knowing God.ogg
+|vo_01_01_tx_en          = I am the all-knowing god!
+|vo_01_01_tx_zh          = 寂照万物！
+|vo_01_01_rm_zh          = Jìzhào wànwù!
+|vo_01_01_tx_ja          = 寂照万物！
+|vo_01_01_rm_ja          = Jakushou banbutsu!
+|vo_01_01_tx_ko          = 만물을 비추리!
+|vo_01_01_rm_ko          = Manmureul bichuri!
+|vo_01_02_file           = VO {lang}{name} - A Thousand Eons Mine To Dominate.ogg
+|vo_01_02_tx_en          = A thousand eons, mine to dominate!
+|vo_01_02_tx_zh          = 七叶之下，唯我长存！
+|vo_01_02_rm_zh          = Qīyè zhī xià, wéi wǒ chángcún!
+|vo_01_02_tx_ja          = 七葉の下、生き永らえるのは僕だけだ！
+|vo_01_02_rm_ja          = Shichiyou no moto, ikinagaraeru no wa boku dake da!
+|vo_01_02_tx_ko          = 칠엽 아래 나만이 영원하리!
+|vo_01_02_rm_ko          = Chiryeop arae namani yeong'wonhari!
+|vo_02_00_title          = Initiating Setsuna Shoumetsu
+|vo_02_01_file           = VO {lang}{name} - Good Riddance Cruel World.ogg
+|vo_02_01_tx_en          = Good riddance, cruel world!
+|vo_02_01_tx_zh          = 十惑消去！
+|vo_02_01_rm_zh          = Shíhuò xiāoqù!
+|vo_02_01_tx_ja          = 十惑消却！
+|vo_02_01_rm_ja          = Juuwaku shoukyaku!
+|vo_02_01_tx_ko          = {{tt|십혹|十惡}}을 {{tt|멸|滅}}하노라!
+|vo_02_01_rm_ko          = Sipogeul myeolhanora!
+|vo_03_00_title          = Setsuna Shoumetsu
+|vo_03_01_file           = VO {lang}{name} - Your New God Awakens.ogg
+|vo_03_01_tx_en          = Your new god awakens!
+|vo_03_01_tx_zh          = 正名神诞！
+|vo_03_01_rm_zh          = Zhèngmíng shéndàn!
+|vo_03_01_tx_ja          = 正名神誕！
+|vo_03_01_rm_ja          = Seimei shintan!
+|vo_03_01_tx_ko          = 탄신의 이름을 바로잡으리라!
+|vo_03_01_rm_ko          = Tansin-ui ireumeul barojabeurira!
+|vo_04_00_title          = Paralyzed
+|vo_04_01_file           = VO {lang}{name} - Not Possible.ogg
+|vo_04_01_tx_en          = Not... possible...
+|vo_04_01_tx_zh          = 怎么…可能…
+|vo_04_01_rm_zh          = Zěnme... kěnéng...
+|vo_04_01_tx_ja          = そんな…はず…
+|vo_04_01_rm_ja          = Sonna... hazu...
+|vo_04_01_tx_ko          = 이럴… 수가…
+|vo_04_01_rm_ko          = Ireol... ssu-ga...
+|vo_05_00_title          = Triple Earthshock
+|vo_05_01_tx_en          = {{A|VO Everlasting Lord of Arcane Wisdom - Stomp 1.ogg}} {{A|VO Everlasting Lord of Arcane Wisdom - Stomp 2.ogg}} {{A|VO Everlasting Lord of Arcane Wisdom - Stomp 3.ogg}}
+|vo_05_01_tx_zh          = {{A|VO ZH Everlasting Lord of Arcane Wisdom - Stomp 1.ogg}} {{A|VO ZH Everlasting Lord of Arcane Wisdom - Stomp 2.ogg}} {{A|VO ZH Everlasting Lord of Arcane Wisdom - Stomp 3.ogg}}
+|vo_05_01_tx_ja          = {{A|VO JA Everlasting Lord of Arcane Wisdom - Stomp 1.ogg}} {{A|VO JA Everlasting Lord of Arcane Wisdom - Stomp 2.ogg}} {{A|VO JA Everlasting Lord of Arcane Wisdom - Stomp 3.ogg}}
+|vo_05_01_tx_ko          = {{A|VO KO Everlasting Lord of Arcane Wisdom - Stomp 1.ogg}} {{A|VO KO Everlasting Lord of Arcane Wisdom - Stomp 2.ogg}} {{A|VO KO Everlasting Lord of Arcane Wisdom - Stomp 3.ogg}}
+|vo_06_00_title          = Thunder Lance
+|vo_06_01_file           = VO {lang}{name} - Kneel.ogg
+|vo_06_01_tx_en          = Kneel!
+|vo_06_01_tx_zh          = 镇压！
+|vo_06_01_rm_zh          = Zhènyā!
+|vo_06_01_tx_ja          = 鎮圧！
+|vo_06_01_rm_ja          = Chin'atsu!
+|vo_06_01_tx_ko          = {{tt|진압|鎭壓}}!
+|vo_06_01_rm_ko          = Jinap!
+|vo_07_00_title          = Bomb Scatter
+|vo_07_01_file           = VO {lang}{name} - Burn To Oblivion.ogg
+|vo_07_01_tx_en          = Burn to oblivion!
+|vo_07_01_tx_zh          = 焚毁！
+|vo_07_01_rm_zh          = Fénhuǐ!
+|vo_07_01_tx_ja          = 焚毀！
+|vo_07_01_rm_ja          = Funki!
+|vo_07_01_tx_ko          = 불태워라!
+|vo_07_01_rm_ko          = Bultaewora!
+|vo_08_00_title          = Double Charge
+|vo_08_01_tx_en          = {{A|VO Everlasting Lord of Arcane Wisdom - Double Charge 1.ogg}} {{A|VO Everlasting Lord of Arcane Wisdom - Double Charge 2.ogg}} {{A|VO Everlasting Lord of Arcane Wisdom - Double Charge 3.ogg}}
+|vo_08_01_tx_zh          = {{A|VO ZH Everlasting Lord of Arcane Wisdom - Double Charge 1.ogg}} {{A|VO ZH Everlasting Lord of Arcane Wisdom - Double Charge 2.ogg}} {{A|VO ZH Everlasting Lord of Arcane Wisdom - Double Charge 3.ogg}}
+|vo_08_01_tx_ja          = {{A|VO JA Everlasting Lord of Arcane Wisdom - Double Charge 1.ogg}} {{A|VO JA Everlasting Lord of Arcane Wisdom - Double Charge 2.ogg}} {{A|VO JA Everlasting Lord of Arcane Wisdom - Double Charge 3.ogg}}
+|vo_08_01_tx_ko          = {{A|VO KO Everlasting Lord of Arcane Wisdom - Double Charge 1.ogg}} {{A|VO KO Everlasting Lord of Arcane Wisdom - Double Charge 2.ogg}} {{A|VO KO Everlasting Lord of Arcane Wisdom - Double Charge 3.ogg}}
+|vo_09_00_title          = Cosmic Bombardment
+|vo_09_01_file           = VO {lang}{name} - Reality Is Pain.ogg
+|vo_09_01_tx_en          = Reality is pain!
+|vo_09_01_tx_zh          = 涤净诸相！
+|vo_09_01_rm_zh          = Díjìng zhūxiàng!
+|vo_09_01_tx_ja          = 諸相浄化！
+|vo_09_01_rm_ja          = Shosou jouka!
+|vo_09_01_tx_ko          = {{tt|중생|衆生}}을 {{tt|정화|淨化}}한다!
+|vo_09_01_rm_ko          = Jungsaengeul jeonghwahanda!
+|vo_10_00_title          = Eruption Trails
+|vo_10_01_file           = VO {lang}{name} - Tremble.ogg
+|vo_10_01_tx_en          = Tremble!
+|vo_10_01_tx_zh          = 雷…殛！
+|vo_10_01_rm_zh          = Léi... jí!
+|vo_10_01_tx_ja          = 雷殛！
+|vo_10_01_rm_ja          = Raikyoku!
+|vo_10_01_tx_ko          = {{tt|뇌극|雷殛}}!
+|vo_10_01_rm_ko          = Noegeuk!
+|vo_11_00_title          = Thunder Sphere
+|vo_11_01_file           = VO {lang}{name} - You Filth.ogg
+|vo_11_01_tx_en          = You filth!
+|vo_11_01_tx_zh          = 扫拭六尘！
+|vo_11_01_rm_zh          = Sǎoshì liùchén!
+|vo_11_01_tx_ja          = 六塵一拭！
+|vo_11_01_rm_ja          = Rokujin isshiki!
+|vo_11_01_tx_ko          = {{tt|육진|六塵}}을 씻어내리!
+|vo_11_01_rm_ko          = Yukjjineul ssiseonaeri!
+|vo_12_00_title          = Defeating Most Playable Characters
+|vo_12_01_file           = VO {lang}{name} - Now Your Eyes Have Been Opened.ogg
+|vo_12_01_tx_en          = Now, your eyes have been opened.
+|vo_12_01_tx_zh          = 你也算是个见证者了。
+|vo_12_01_rm_zh          = Nǐ yě suànshì gè jiànzhèng-zhě le.
+|vo_12_01_tx_ja          = 君も見届けし者だ。
+|vo_12_01_rm_ja          = Kimi mo mitodokeshi-mono da.
+|vo_12_01_tx_ko          = 너도 이제 증인이군
+|vo_12_01_rm_ko          = Neodo ije jeung'inigun
+|vo_13_00_title          = Defeating [[Raiden Shogun]]
+|vo_13_01_file           = VO {lang}{name} - Godhood Is Mine Now Beelzebul.ogg
+|vo_13_01_tx_en          = Godhood is mine now, Beelzebul.
+|vo_13_01_tx_zh          = 巴尔泽布，我已登神。
+|vo_13_01_rm_zh          = Bā'ěrzébù, wǒ yǐ dēngshén.
+|vo_13_01_tx_ja          = バアルゼブル、僕はもう神になった。
+|vo_13_01_rm_ja          = Baaruzeburu, boku wa mou kami ni natta.
+|vo_13_01_tx_ko          = 바알세불, 난 신의 경지에 올랐다
+|vo_13_01_rm_ko          = Baalsebul, nan sinui gyeongjie ollattta
+|vo_14_00_title          = Defeated
+|vo_14_01_file           = VO {lang}{name} - I Cant Lose It All Again.ogg
+|vo_14_01_tx_en          = I can't... lose it all again...
+|vo_14_01_tx_zh          = 怎能…再次失去…
+|vo_14_01_rm_zh          = Zěnnéng... zàicì shīqù...
+|vo_14_01_tx_ja          = また…失うなんて…
+|vo_14_01_rm_ja          = Mata... ushinau nante...
+|vo_14_01_tx_ko          = 또… 잃을 수는…
+|vo_14_01_rm_ko          = Tto... ireul ssuneun...
+|vo_14_02_file           = VO {lang}{name} - I Was Destined For More.ogg
+|vo_14_02_tx_en          = I was... destined for more...
+|vo_14_02_tx_zh          = 我…还没有…
+|vo_14_02_rm_zh          = Wǒ... hái méiyǒu...
+|vo_14_02_tx_ja          = 僕は…まだ…
+|vo_14_02_rm_ja          = Boku wa... mada...
+|vo_14_02_tx_ko          = 난… 아직…
+|vo_14_02_rm_ko          = Nan... ajik...
+}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=combat}}
+
+==Boss Description==
+{{Description|Shouki no Kami, as an artificial divinity created using all the might of [[Sumeru]]'s [[Six Darshans]], has power that rivals that of true [[god]]s.<br>But those of this world who call such a being a "false deity" misunderstand the true meaning of the word.<br>Shouki no Kami now understands countless things and shoulders unassailable might, and may be said to surpass mortals.<br>If gods must love mortals,<br>Then Shouki no Kami, who grants failure in equal measure to humanity, loves them also.<br>If gods must watch over humanity,<br>...<br>...<br>Then Shouki no Kami, who has borne witness to infinite love, hatred, partings, grudges, and maddening anger &mdash; thus does he watch over mortals.<br><br>''"Too much happiness you have had!"''<br>''"It has made you foolish. Arrogant. Horrifying in your greed."''<br>''"Let this era end!"''<br>''"Let the new god announce the defeat of the old."''<br>''"Foolish mortal... There is yet time for you to kneel."''|[[Archive]]}}
+
+==Trivia==
+* Some achievements related to this boss reference the anime and manga series {{w|Neon Genesis Evangelion}}, those achievements being ''[[Dance Like You Want to Win!]]'' and ''[[It All Comes Tumbling Down]]''.
+* Prior to [[Version 3.4]], this was the only Weekly Boss with a Phase 1 to Phase 2 cutscene that had a skip dialog in addition to a skip button.
+
+===Etymology===
+* {{w|Jōruri (music)|''Joururi''}} is a form of traditional Japanese narrative music, often used to accompany ''{{w|bunraku}}'', traditional Japanese puppet theater.
+* The ''ki'' in {{Lang|''shouki''|ja=正機}} is short for ''kikon'' (<u>Japanese</u>: {{ja|{{w|ja:機根|機根}}|kikon}}, also known as {{ja|根機|konki}}), which is the ability to understand and practice Buddhist teachings.
+* In English and many other localizations, Shouki no Kami's title has an additional name attached, "the Prodigal." It is a reference to the {{w|Parable of the Prodigal Son}}, one of the parables of {{w|Jesus Christ}} in the {{w|Bible}}, appearing in {{w|Luke 15#Parable of the Prodigal Son|Luke 15:11–32}}.
+** The father, the older son, and the prodigal son bear a resemblance to the Electro Archon [[Beelzebul]] and her two "children," her creations: [[The Shogun]] and [[Scaramouche]].
+*** The older son works based on law, merit, and rewards. He opposed the father due to his treatment of the returned son and lamented about how he always worked under his father's orders. This is paralleled by the puppet Shogun, who governed [[Inazuma]] based on the guidance of Eternity that Ei proclaimed, and opposed her during the events of {{Quest|Transient Dreams}} due to Ei's renewed idea of Eternity.
+*** The prodigal son is paralleled by Scaramouche, who left Inazuma and experienced his own suffering at the hands of [[Dottore]], and later, [[Nahida]] and the [[Traveler]] when they defeated him.
+* The term {{lang|{{zh|十惑}}|zh=十惑|ja=十惑|ko=십혹|zh_rm=shíhuò|ja_rm=juuwaku|ko_rm=sipok|sort=zh,ja,ko}} in Phase 2 Voice-Overs refers to the 10 agonies in Buddhism. The five agonies of greed, anger, stupidity, arrogance, and doubt are added to the five wrong views of identity view, extreme view, evil view, view of obsessing over evil views, and view of rigid attachment to the precepts to form it.
+
+==Gallery==
+<gallery>
+Enemy Everlasting Lord of Arcane Wisdom Icon.png|Icon
+</gallery>
+
+===Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal===
+<gallery>
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Announcement.png|Announcement<ref>HoYoLAB: [https://www.hoyolab.com/article/13335735 Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal]</ref>
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Neo Akasha Terminal.png|Neo Akasha Terminal
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Energy Blocks.png|Energy Blocks
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Elemental Matrices.png|Elemental Matrices
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Elemental Matrices.gif|Elemental Matrices
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Shield and Energy Blocks.gif|Shield and Energy Blocks
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Aimed Shot and Summons.gif|Aimed Shot and Summons
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Charging Up Energy.gif|Charging Up Energy
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Elemental Reactions.gif|Elemental Reactions
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Immobilize.gif|Immobilize
+Everlasting Lord of Arcane Wisdom — Shouki no Kami, the Prodigal Four-Leaf Sigils.gif|Four-Leaf Sigils
+</gallery>
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/1EM_Mj3qntY
+|caption1 = EVERYTHING You Need to Know about Scaramouche Boss
+}}
+
+==Other Languages==
+{{Other Languages
+|1_en     = Everlasting Lord of Arcane Wisdom
+|1_zhs    = 七叶寂照秘密主
+|1_zhs_rm = Qīyè Jìzhào Mìmì-zhǔ
+|1_zht    = 七葉寂照秘密主
+|1_zht_rm = Qīyè Jìzhào Mìmì-zhǔ
+|1_zh_tl  = Everlasting, Omniscient, Lord of Wisdom and Mercy
+|1_ja     = 七葉寂照秘密主
+|1_ja_rm  = Shichiyou Jakushou Himitsu-shu
+|1_ja_tl  = Everlasting, Omniscient, Lord of Wisdom and Mercy
+|1_zhja_note = {{lang|zh=七葉|ja=七葉|zh_rm=Qīyè|ja_rm=Shichiyou|sort=zh,ja}} is an alias of {{w|sal tree}} in Buddhist mythology. It is believed that the Buddha himself spent three months living under the Sattapanni tree in seclusion before his death. One of [[Scaramouche]]'s voiceline during the boss battle (Phase 2 - Fight Start II) is also a reference to this: "{{zh|七葉之下，唯我長存！|ja=七葉の下、生き永らえるのは僕だけだ！}} ''Under the Sattapanni, only me lives forever!''"<br>{{zh|寂照|rm=Jìzhào; Jakushou}} means to discern the true form of all things with correct wisdom, in other words, "omniscience."<br>{{lang|zh=秘密主|ja=秘密主|zh_rm=Mìmì-zhǔ|ja_rm=Himitsu-shu|sort=zh,ja}} is an alias of {{zh|普賢菩薩}}{{Lang|sa={{w|Samantabhadra (Bodhisattva)|Samantabhadra}}}}, a {{w|bodhisattva}} that saves people with wisdom and mercy.
+|1_ko     = 칠엽 적조<->의 비밀주
+|1_ko_tl  = Everlasting and Omniscient {{w|Vajrapani}}
+|1_es     = Protector Eterno de la Sabiduría Arcana
+|1_es_tl  = Eternal Protector of Arcane Wisdom
+|1_fr     = Seigneur éternel de la sagesse arcanique
+|1_fr_tl  = Everlasting Lord of Arcane Wisdom
+|1_ru     = Вечный владыка сокровенной мудрости
+|1_ru_tl  = Everlasting Lord of Hidden Wisdom
+|1_th     = อินทรแห่งอนันตปัญญาเร้นลับ
+|1_th_rm  = Inthara haeng Ananta Panya Ren Lub
+|1_th_tl  = Lord of Everlasting Mysterious Wisdom
+|1_vi     = Vị Thần Bất Diệt Của Trí Tuệ Ẩn Mật
+|1_vi_tl  = Undying Lord of Arcane Wisdom
+|1_de     = Ewiger Herr der geheimen Weisheit
+|1_de_tl  = Eternal Lord of Secret Wisdom
+|1_id     = Everlasting Lord of Arcane Wisdom
+|1_pt     = Mestre Eterno da Sabedoria Arcana
+|1_pt_tl  = Eternal Master of Arcane Wisdom
+|1_tr     = Saklı Bilgeliğin Ebedi Efendisi
+|1_tr_tl  = Eternal Lord of Hidden Wisdom
+|1_it     = Divinità eterna dell'Arcana Saggezza
+|1_it_tl  = Eternal Deity of Arcana Wisdom
+|2_en     = Shouki no Kami, the Prodigal
+|2_zhs    = 「正机之神」
+|2_zhs_rm = "Zhèngjī zhī Shén"
+|2_zht    = 「正機之神」
+|2_zht_rm = "Zhèngjī zhī Shén"
+|2_zh_tl  = "The God to Be Saved"{{Sino|zh|ja}}
+|2_ja     = 「正機の神」
+|2_ja_rm  = "Shouki no Kami"
+|2_ja_tl  = "The God to Be Saved"
+|2_ja_note = "Shouki" most likely refers to the {{w|Jōdo Shinshū|True Pure Land Buddhism}} belief of {{Lang|''akunin-shouki''|ja={{w|ja:悪人正機|悪人正機}}}}. According to this belief, sinners are the proper objects of salvation based on {{w|Amida|Amitābha}}'s {{w|Primal Vow}}. Thus, the title "Shouki no Kami" refers to the fact that he is a god who is a proper object of salvation. However, it should be noted that Shouki (正気)  more literally means Sanity, and comes from Shou 正 - Correct or Just and Ki 気 - Mind, Spirit, and Air, which definitely colors some of the scenes leading up to the boss reveal.
+|2_ko     = 「정기(正機)<->의 {{tt|신|神}}」
+|2_ko_tl  = "The God to Be Redeemed"
+|2_es     = Dios Mecánico, el Pródigo
+|2_es_tl  = Mechanical God, the Prodigal
+|2_fr     = Shouki no Kami, le prodige
+|2_fr_tl  = Shouki no Kami, the Prodigy
+|2_ru     = Сёки но Ками
+|2_th     = Shouki no Kami
+|2_vi     = Shouki no Kami, Kẻ Hoang Đàng
+|2_vi_tl  = Shouki no Kami, the Prodigal
+|2_de     = „Shouki no Kami“
+|2_id     = Shouki no Kami, the Prodigal
+|2_pt     = Shouki no Kami, o Prodígio
+|2_pt_tl  = Shouki no Kami, the Prodigy
+|2_tr     = Shouki no Kami
+|2_it     = Il prodigo Shouki no Kami
+|2_it_tl  = The Prodigal Shouki no Kami
+}}
+
+==Change History==
+{{Change History|3.2}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Enemy Navbox|bosses}}
+
+[[es:Protector Eterno de la Sabiduría Arcana]]
+[[fr:Shouki no Kami, le prodige]]
+[[ja:七葉寂照秘密主]]

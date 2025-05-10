@@ -1,22 +1,19 @@
 {{Quest Infobox
 |id            = 02000
+|image         = Archon Quest A Path Through the Storm.png
 |type          = Archon
 |chapter       = II
 |actNum        = Prologue
 |act           = Autumn Winds, Scarlet Leaves
 |part          = 1
-|requirement   = 
-Reach [[Adventure Rank]] 30
-Complete [[We Will Be Reunited]]
+|requirement   = Reach [[Adventure Rank]] 30
 |startLocation = [[Liyue Harbor]], [[Liyue]]
 |region        = Liyue
 |area          = Sea of Clouds
 |subarea       = Liyue Harbor
 |prev          = A Soul Set Apart
 |next          = The Crux Clash (Quest)
-|exp           = 700
-|mora          = 34,075
-|other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}
+|rewards       = Adventure EXP*700;Mora*34,075;Hero's Wit*3;Mystic Enhancement Ore*6
 |characters    = Atsuko; Beidou; Chai Yi; Jinyou; Kaedehara Kazuha; Liang; Paimon; Traveler; Uncle Yun; Zhuhan
 |voiced        = yes
 }}
@@ -32,16 +29,16 @@ Complete [[We Will Be Reunited]]
 # Talk to [[Zhuhan]], who is in charge of registration for [[The Crux Clash]]
 
 ==Gameplay Notes==
-* Step 4 will grant the ''[[Wonders of the World]]'' achievement ''[[The Gathering Storm]]''.
+* Step 4 will grant the {{Achievement|The Gathering Storm}}.
 
 ==Dialogue==
-{{Quest Description|You share your feelings with [[Paimon]] before embarking on the next phase of your journey.<br /><br />After collecting your thoughts, you prepare for your journey to [[Inazuma]]. The way to the islands is blocked by a veil of thunderstorms, so you need to come up with a means of traveling there.<br /><br />You meet with Beidou and she agrees to grant you passage to Inazuma as a reward for winning The Crux Clash. Time to check out the competition.}}
-{{Dialogue start}}
+{{Quest Description|You share your feelings with Paimon before embarking on the next phase of your journey.<br><br>After collecting your thoughts, you prepare for your journey to Inazuma. The way to the islands is blocked by a veil of thunderstorms, so you need to come up with a means of traveling there.<br><br>You meet with Beidou and she agrees to grant you passage to Inazuma as a reward for winning The Crux Clash. Time to check out the competition.}}
+{{Dialogue Start}}
 ;(Approach the Teleport Waypoint north of Liyue Harbor)
 :{{A|vo wylq001 1 paimon 01a.ogg}} {{A|vo wylq001 1 paimon 01b.ogg}} '''Paimon:''' Are you okay? Paimon never imagined your {{MC|sister|brother|mc=1}} would have sided with [[the Abyss]]...
 :{{DIcon}} I'm feeling a bit better.
 :{{DIcon}} I still can't accept it...
-:{{A|vo wylq001 1 paimon 02.ogg}} '''Paimon:''' Well, keep your chin up, (Traveler)!
+:{{A|vo wylq001 1 paimon 02.ogg}} '''Paimon:''' Well, keep your chin up, {{Traveler}}!
 :{{A|vo wylq001 1 paimon 03a.ogg}} '''Paimon:''' Paimon believes in both of you.
 :{{A|vo wylq001 1 paimon 04.ogg}} '''Paimon:''' And when the going gets tough, the tough get going! Right?
 :{{DIcon}} Yeah. You're right.
@@ -57,12 +54,12 @@ Complete [[We Will Be Reunited]]
 :{{A|vo wylq001 1 paimon 09a.ogg}} {{A|vo wylq001 1 paimon 09b.ogg}} '''Paimon:''' Oh! You mean the god that took your {{MC|sister|brother|mc=1}} away in the first place...
 :{{A|vo wylq001 1 paimon 10.ogg}} '''Paimon:''' ...You're right. After all, everything that followed... all this confusion... it all started with her.
 :{{DIcon}} I need answers from her.
-::{{A|vo wylq001 1 paimon 11b.ogg}} '''Paimon:''' Yeah, Paimon bets she's the key to understanding this whole mystery.
+::{{A|vo wylq001 1 paimon 11a.ogg}} '''Paimon:''' Yeah, Paimon bets she's the key to understanding this whole mystery.
 :{{DIcon}} I need to teach her a lesson she won't forget.
 ::{{A|vo wylq001 1 paimon 11b.ogg}} '''Paimon:''' Ooh, Paimon supports that idea! Just the thought of it is so satisfying!
 :{{A|vo wylq001 1 paimon 12.ogg}} '''Paimon:''' Well, we've ruled out two gods so far &mdash; the Anemo and Geo Archons. So, next...
 :{{DIcon}} Let's go to Inazuma.
-:{{DIcon}} Let's find the Electro Archon.
+:{{DIcon}} Let's find the [[Ei|Electro Archon]].
 :{{A|vo wylq001 1 paimon 13.ogg}} '''Paimon:''' Hmm... Paimon doesn't think we can simply walk into Inazuma. Zhongli said it was a closed nation. We'll have to find some other way in...
 :{{A|vo wylq001 1 paimon 14.ogg}} '''Paimon:''' Why don't we ask someone from Inazuma how to gain entrance?
 :{{DIcon}} Let me try and think of someone...
@@ -70,7 +67,7 @@ Complete [[We Will Be Reunited]]
 :{{A|vo wylq001 1 paimon 15.ogg}} '''Paimon:''' Oh, Paimon's thought of someone already &mdash; Atsuko, in Liyue Harbor! She's from Inazuma.
 :{{A|vo wylq001 1 paimon 16.ogg}} '''Paimon:''' Let's see what she has to say.
 ----
-;(Talk to [[Atsuko]])
+;(Talk to Atsuko)
 :{{A|vo wylq001 2 atsuko 01.ogg}} '''Atsuko:''' Hello... Oh! I&mdash;I mean, good fortune... right? *sigh* I'm still learning to talk like a local, haha...
 :{{A|vo wylq001 2 atsuko 02.ogg}} '''Atsuko:''' Is there anything I can hep you with?
 :{{A|vo wylq001 2 paimon 01.ogg}} '''Paimon:''' We wanted ask... how do we get into Inazuma?
@@ -104,22 +101,34 @@ Complete [[We Will Be Reunited]]
 :{{A|vo wylq001 2 paimon 07.ogg}} '''Paimon:''' Uh... The raft idea sounds a little on the dangerous side... plus Paimon would definitely get seasick.
 :{{A|vo wylq001 2 atsuko 20.ogg}} '''Atsuko:''' That's not what I meant. You could ask someone from The [[Crux Fleet]] if they have some way of getting you to Inazuma, they're well-known in Liyue.
 :{{A|vo wylq001 2 atsuko 21.ogg}} '''Atsuko:''' Voyaging far and wide has made them a well-traveled group with a wide range of experiences. They may just know how to break through the storm.
-:{{A|vo wylq001 2 paimon 08.ogg}} '''Paimon:''' But... it's an armed fleet, right? Why would they agree to a request like this?
-:{{A|vo wylq001 2 atsuko 22.ogg}} '''Atsuko:''' That part is up to you! If you're able to persuade their captain, Beidou, then the hardest part would be out of the way.
-:{{DIcon}} Let's give it a try.
-:{{DIcon}} It seems like our only option.
-:{{A|vo wylq001 2 atsuko 23.ogg}} '''Atsuko:''' The [[Alcor]] is the flagship of The Crux Fleet. I heard that it's currently anchored by [[Guyun Stone Forest]] on a supply run. This might be your best chance.
-:{{A|vo wylq001 2 paimon 09.ogg}} '''Paimon:''' Then there's no time to lose! Let's go find Captain Beidou!
+;(If the player has not met Beidou before)
+::{{A|vo wylq001 2 paimon 08.ogg}} '''Paimon:''' But... it's an armed fleet, right? Why would they agree to a request like this?
+::{{A|vo wylq001 2 atsuko 22.ogg}} '''Atsuko:''' That part is up to you! If you're able to persuade their captain, Beidou, then the hardest part would be out of the way.
+::{{DIcon}} Let's give it a try.
+::{{DIcon}} It seems like our only option.
+::{{A|vo wylq001 2 atsuko 23.ogg}} '''Atsuko:''' The Alcor is the flagship of The Crux Fleet. I heard that it's currently anchored by [[Guyun Stone Forest]] on a supply run. This might be your best chance.
+::{{A|vo wylq001 2 paimon 09.ogg}} '''Paimon:''' Then there's no time to lose! Let's go find Captain Beidou!
+;(If the player has met Beidou before)
+::{{A|vo wylq001 2 paimon 10.ogg}} '''Paimon:''' You're right! I'm sure if we can get Beidou's help, she'll certainly find a way out of this mess. Her crew is super strong!
+::{{A|vo wylq001 2 paimon 11.ogg}} '''Paimon:''' Paimon wonders if she'll be willing to take this risk...
+::{{DIcon}} Let's give it a try.
+::{{DIcon}} It seems like our only option.
+::{{A|vo wylq001 2 atsuko 24.ogg}} '''Atsuko:''' The Alcor is the flagship of The Crux Fleet. I heard that it's currently anchored by Guyun Stone Forest on a supply run. This might be your best chance.
+::{{A|vo wylq001 2 paimon 12.ogg}} '''Paimon:''' What are we waiting for? Let's go find Beidou right away!
+
 ----
-;(Approach [[Beidou]])
-:{{A|vo wylq001 3 beidou 01.ogg}} '''Beidou:''' Hmm? Who've we got here... Wait, I know you. You're that traveler, (Traveler), aren't you? The one who fought against the Fatui and Osial, right?
-:{{DIcon}} Have we met?
-:{{DIcon}} My reputation precedes me...
-:{{A|vo wylq001 3 beidou 02.ogg}} '''Beidou:''' Haha, Ningguang told me about you. "A traveler of great insight and remarkable skill has saved Liyue," she said.
-:{{A|vo wylq001 3 beidou 03.ogg}} '''Beidou:''' She's a hard one to please... so praise from her is high praise indeed. I remember thinking at the time that it'd be good to meet you in person.
-:{{A|vo wylq001 3 beidou 04.ogg}} '''Beidou:''' Judging by the clothes on your back and this floating thing, I guess that time has come.
-:{{A|vo wylq001 3 paimon 01.ogg}} '''Paimon:''' Hey! The name's not "floating thing," it's PAIMON!
-:{{A|vo wylq001 3 kazuha 01.ogg}} '''???:''' Paimon... hmm... What a fascinating being. You two give off not only the essence of wind and earth, but also of... yes... the stars...
+;(Approach Beidou, if the player has not met Beidou before)
+::{{A|vo wylq001 3 beidou 01.ogg}} '''Beidou:''' Hmm? Who've we got here... Wait, I know you. You're that traveler, {{Traveler}}, aren't you? The one who fought against the Fatui and Osial, right?
+::{{DIcon}} Have we met?
+::{{DIcon}} My reputation precedes me...
+::{{A|vo wylq001 3 beidou 02.ogg}} '''Beidou:''' Haha, Ningguang told me about you. "A traveler of great insight and remarkable skill has saved Liyue," she said.
+::{{A|vo wylq001 3 beidou 03.ogg}} '''Beidou:''' She's a hard one to please... so praise from her is high praise indeed. I remember thinking at the time that it'd be good to meet you in person.
+::{{A|vo wylq001 3 beidou 04.ogg}} '''Beidou:''' Judging by the clothes on your back and this floating thing, I guess that time has come.
+::{{A|vo wylq001 3 paimon 01.ogg}} '''Paimon:''' Hey! The name's not "floating thing," it's PAIMON!
+;(Approach Beidou, if the player has met Beidou before)
+::{{A|vo wylq001 3 beidou 10.ogg}} '''Beidou:''' Oh? If it isn't {{Traveler}} and Paimon!
+::{{A|vo wylq001 3 beidou 11.ogg}} '''Beidou:''' I knew you guys would come, hahaha!
+:{{A|vo wylq001 3 kazuha 01.ogg}} '''???:''' Paimon... hmm... What a fascinating being. You two give off not only the essence of [[Anemo|wind]] and [[Geo|earth]], but also of... yes... the stars...
 :{{A|vo wylq001 3 paimon 02.ogg}} '''Paimon:''' Eh? The fragrance of what now? That's the weirdest compliment Paimon's ever heard...
 :{{A|vo wylq001 3 kazuha 02.ogg}} '''???:''' Pay it no heed... I mean only to say I am certain... that it is by fate, not chance alone, that we should meet... and that gives our encounter meaning.
 :{{DIcon}} Is this guy a bard, by any chance?
@@ -127,13 +136,13 @@ Complete [[We Will Be Reunited]]
 :{{DIcon}} ...And this must be your bard-for-hire?
 ::{{A|vo wylq001 3 beidou 05b.ogg}} '''Beidou:''' Uh, I prefer... other means of entertainment.
 :{{A|vo wylq001 3 beidou 05a 1.ogg}} '''Beidou:''' This young man is Kaedehara Kazuha, a temporary addition to my crew for reasons I won't bore you with. Occasionally, he opens his mouth and flowers come out instead of words.
-:{{A|vo wylq001 3 kazuha 02a.ogg}} '''Kaedehara Kazuha:''' With this fine ship and the soft breeze... would it not be romantically irresponsible of me not to acknowledge it with a line or two of poetry?
+:{{A|vo wylq001 3 kazuha 02a.ogg}} '''Kaedehara Kazuha:''' With this fine ship and the soft sea breeze... would it not be romantically irresponsible of me not to acknowledge it with a line or two of poetry?
 :{{A|vo wylq001 3 beidou 05a 2.ogg}} '''Beidou:''' Haha, can't argue with that... Okay then, once The Clash is underway, I'll give you a chance to perform.
 :{{A|vo wylq001 3 kazuha 02a 1.ogg}} '''Kaedehara Kazuha:''' Only if the mood takes me, of course. Poetry for poetry's sake tends to lack meaning.
 :{{A|vo wylq001 3 beidou 05a 3.ogg}} '''Beidou:''' Hey, you don't wanna pass this opportunity up too easily, especially seeing as our great hero might be in attendance.
 :{{A|vo wylq001 3 paimon 02a.ogg}} '''Paimon:''' Wait a minute, what's The Clash? Also, just to clarify, by "great hero"... do you mean...
 :{{A|vo wylq001 3 beidou 05a 4.ogg}} '''Beidou:''' Huh? I thought you might be here to sign up... You're telling me you've never even heard of it?
-:{{A|vo wylq001 3 beidou 05a 5.ogg}} '''Beidou:''' [[The Crux Clash]] is a martial arts tournament that I hold. There'll be a whole bunch of folks taking part to showcase their talents.
+:{{A|vo wylq001 3 beidou 05a 5.ogg}} '''Beidou:''' The Crux Clash is a martial arts tournament that I hold. There'll be a whole bunch of folks taking part to showcase their talents.
 :{{A|vo wylq001 3 beidou 05a 6.ogg}} '''Beidou:''' There are two important rules. One &mdash; competitors must be renowned fighters. We want those with real martial arts ability, not just people taking part for the fun of it.
 :{{A|vo wylq001 3 beidou 05a 7.ogg}} '''Beidou:''' So, you've got nothing to worry about there. I don't think there's anyone out there who hasn't heard of you.
 :{{A|vo wylq001 3 beidou 05a 8.ogg}} '''Beidou:''' Two &mdash; you can't take part if you've got a [[Vision]]. Otherwise, things get a little... one-sided.
@@ -160,7 +169,7 @@ Complete [[We Will Be Reunited]]
 :{{DIcon}} That was easy!
 :{{A|vo wylq001 3 paimon 04a.ogg}} {{A|vo wylq001 3 paimon 04b.ogg}} '''Paimon:''' You just want {{MC|him|her|mc=1}} to take part in your tournament!
 :{{A|vo wylq001 3 beidou 08.ogg}} '''Beidou:''' Hahaha, what's wrong with that? The more talent we have, the better the tournament will be. I couldn't let a competitor like you fall through the net.
-:{{A|vo wylq001 3 paimon 05.ogg}} '''Paimon:''' What're we gonna do, (Traveler)? *sigh* Looks like we pretty much have to do this tournament if we want to get to Inazuma, huh?
+:{{A|vo wylq001 3 paimon 05.ogg}} '''Paimon:''' What're we gonna do, {{Traveler}}? *sigh* Looks like we pretty much have to do this tournament if we want to get to Inazuma, huh?
 :{{DIcon}} I'm not worried.
 :{{DIcon}} Let's give this a shot.
 :{{A|vo wylq001 3 beidou 09.ogg}} '''Beidou:''' Great, then, let's get you signed up! Head to the tournament arena in Guyun Stone Forest. Kazuha and I will be over soon.
@@ -273,21 +282,21 @@ Complete [[We Will Be Reunited]]
 
 ;(After talking to all three)
 :{{A|vo wylq001 12 paimon 01.ogg}} '''Paimon:''' So to recap... we're up against an inflated ego, some gullible guys paying way too much for their kung fu classes, and another guy who's just... really average.
-:{{A|vo wylq001 12 paimon 02.ogg}} '''Paimon:''' Hmm.... Seems like you've got a pretty good chance of winning this thing, (Traveler)!
+:{{A|vo wylq001 12 paimon 02.ogg}} '''Paimon:''' Hmm.... Seems like you've got a pretty good chance of winning this thing, {{Traveler}}!
 :{{A|vo wylq001 12 paimon 03.ogg}} '''Paimon:''' C'mon, let's go sign up!
 ----
-;(Talk to [[Zhuhan]])
+;(Talk to Zhuhan)
 :{{A|vo wylq001 13 zhuhan 01.ogg}} '''Zhuhan:''' Qingce Village Armwrestling Champion, huh... *sigh* Alright, you're signed up...
 :{{A|vo wylq001 13 zhuhan 02.ogg}} '''Zhuhan:''' Next please... what's your name?
-:{{DIcon}} I'm (Traveler).
-:{{A|vo wylq001 13 zhuhan 03.ogg}} '''Zhuhan:''' (Traveler)... Wait! A&mdash;Aren't you...!?
-:{{A|vo wylq001 13 competitora 01.ogg}} '''Clash Competitor:''' Did I hear that right? (Traveler)?
+:{{DIcon}} I'm {{Traveler}}.
+:{{A|vo wylq001 13 zhuhan 03.ogg}} '''Zhuhan:''' {{Traveler}}... Wait! A&mdash;Aren't you...!?
+:{{A|vo wylq001 13 competitora 01.ogg}} '''Clash Competitor:''' Did I hear that right? {{Traveler}}?
 :{{A|vo wylq001 13 competitorb 01.ogg}} '''Clash Competitor:''' Is it really them?
 :{{A|vo wylq001 13 competitorc 01.ogg}} '''Clash Competitor:''' ...Huh? Aren't they a Vision bearer, though? Why are they trying to enter the Clash?
 :{{A|vo wylq001 13 zhuhan 04.ogg}} '''Zhuhan:''' Uh... I&mdash;I have to ask... aren't you the traveler that helped Liyue fight off that ancient god...?
 :{{DIcon}} Correct.
 :{{A|vo wylq001 13 competitora 02a.ogg}} {{A|vo wylq001 13 competitora 02b.ogg}} '''Clash Competitor:''' It's really {{MC|him|her|mc=1}}!
-:{{A|vo wylq001 13 competitorb 02.ogg}} '''Clash Competitor:''' The one that spoke with [[Keqing|Lady Keqing]] at the [[Rite of Parting]]!
+:{{A|vo wylq001 13 competitorb 02.ogg}} '''Clash Competitor:''' The one that spoke with Lady [[Keqing]] at the [[Rite of Parting]]!
 :{{A|vo wylq001 13 competitorc 02a.ogg}} {{A|vo wylq001 13 competitorc 02b.ogg}} '''Clash Competitor:''' Oh! Oh! I wonder if I can get {{MC|his|her|mc=1}} autograph later?
 :{{A|vo wylq001 13 zhuhan 05.ogg}} '''Zhuhan:''' I&mdash;I trust you are aware that... only those without Visions can enter the tournament?
 :{{DIcon}} I don't have a Vision.
@@ -331,7 +340,7 @@ Complete [[We Will Be Reunited]]
 :{{DIcon}} Not quite.
 ::{{A|vo wylq001 14 zhuhan 02b.ogg}} '''Zhuhan:''' Not a problem, there's still time. Make sure you're fully prepared!
 :;(Quest complete)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -365,7 +374,7 @@ Complete [[We Will Be Reunited]]
 |pt      = Rompendo a Tempestade
 |pt_tl   = Breaking the Storm
 |tr      = Fırtınanın İçinden Bir Yol
-|tr_tl   = 
+|tr_tl   = A Path Through the Storm
 |it      = Una via attraverso la tempesta
 |it_tl   = A Way Through the Storm
 }}
@@ -375,9 +384,9 @@ Complete [[We Will Be Reunited]]
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
-[[Category:Archon Chapter 2]]
 
 [[es:Cómo superar una tempestad]]
 [[ja:嵐を突破する方法]]
 [[pt-br:Rompendo a Tempestade]]
 [[ru:Путь сквозь шторм]]
+[[vi:Thuật Phá Lôi Bạo]]

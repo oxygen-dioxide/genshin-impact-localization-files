@@ -2,10 +2,10 @@
 |image         = Talent Shuumatsuban Ninja Blade.png
 |character     = Sayu
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Performs up to 4 consecutive strikes.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br />At the end of the sequence, perform a more powerful slash.<br /><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br>Performs up to 4 consecutive strikes.<br><br>'''Charged Attack'''<br>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br>At the end of the sequence, performs a more powerful slash.<br><br>'''Plunging Attack'''<br>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing [[AoE]] DMG upon impact.
 |hit1          = 72.2–154.35%
 |hit2          = 71.4–152.51%
-|hit3          = 43.4%+43.4%–92.79%+92.79%
+|hit3          = 43.4–92.79%+43.4–92.79%
 |hit4          = 98.1–209.66%
 |attr5         = Charged Attack Cyclic DMG
 |value5        = 62.5–133.64%
@@ -24,8 +24,7 @@
 |scale_att1    = ATK
 }}
 '''Shuumatsuban Ninja Blade''' is [[Sayu]]'s [[Normal Attack]].
-__TOC__
-{{Clr}}
+
 ==Advanced Properties==
 {{Advanced Properties
 |title   = Normal Attack 1-Hit
@@ -113,18 +112,17 @@ __TOC__
 |file2    = Shuumatsuban Ninja Blade Charged Preview
 |caption2 = Charged Attack
 
-|file3    = Shuumatsuban Ninja Blade Plunge Preview
+|file3    = Shuumatsuban Ninja Blade Plunging Preview
 |caption3 = Plunging Attack
 }}
 
 ==Attribute Scaling==
 {{Talent Scaling
-|talentType=Normal Attack
 |levels=11
-|order=hit1,hit2,hit3,hit4,charged_title,chargedattackspinningdmg,chargedattackfinaldmg,stamina,maxduration,plunge_title,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Cyclic DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
-|hit1_1=72.2
-|hit1_2=78.1
+|order=hit1,hit2,hit3,hit4,chargedattackspinningdmg,chargedattackfinaldmg,stamina,maxduration,plunge_title,plunge,plungelow,plungehigh
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack Spinning DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|hit1_1=72.24
+|hit1_2=78.12
 |hit1_3=84
 |hit1_4=92.4
 |hit1_5=98.28
@@ -134,8 +132,8 @@ __TOC__
 |hit1_9=132.72
 |hit1_10=142.8
 |hit1_11=154.35
-|hit2_1=71.4
-|hit2_2=77.2
+|hit2_1=71.38
+|hit2_2=77.19
 |hit2_3=83
 |hit2_4=91.3
 |hit2_5=97.11
@@ -145,8 +143,8 @@ __TOC__
 |hit2_9=131.14
 |hit2_10=141.1
 |hit2_11=152.51
-|hit3_1=43.4+43.4
-|hit3_2=47+47
+|hit3_1=43.43+43.43
+|hit3_2=46.97+46.97
 |hit3_3=50.5+50.5
 |hit3_4=55.55+55.55
 |hit3_5=59.09+59.09
@@ -156,8 +154,8 @@ __TOC__
 |hit3_9=79.79+79.79
 |hit3_10=85.85+85.85
 |hit3_11=92.79+92.79
-|hit4_1=98.1
-|hit4_2=106.1
+|hit4_1=98.13
+|hit4_2=106.11
 |hit4_3=114.1
 |hit4_4=125.51
 |hit4_5=133.5
@@ -167,9 +165,9 @@ __TOC__
 |hit4_9=180.28
 |hit4_10=193.97
 |hit4_11=209.66
-|chargedattackspinningdmg_1=62.5
-|chargedattackspinningdmg_2=67.6
-|chargedattackspinningdmg_3=72.7
+|chargedattackspinningdmg_1=62.55
+|chargedattackspinningdmg_2=67.64
+|chargedattackspinningdmg_3=72.73
 |chargedattackspinningdmg_4=80
 |chargedattackspinningdmg_5=85.09
 |chargedattackspinningdmg_6=90.91
@@ -178,9 +176,9 @@ __TOC__
 |chargedattackspinningdmg_9=114.91
 |chargedattackspinningdmg_10=123.64
 |chargedattackspinningdmg_11=133.64
-|chargedattackfinaldmg_1=113
-|chargedattackfinaldmg_2=122
-|chargedattackfinaldmg_3=132
+|chargedattackfinaldmg_1=113.09
+|chargedattackfinaldmg_2=122.3
+|chargedattackfinaldmg_3=131.5
 |chargedattackfinaldmg_4=144.65
 |chargedattackfinaldmg_5=153.86
 |chargedattackfinaldmg_6=164.38
@@ -191,9 +189,9 @@ __TOC__
 |chargedattackfinaldmg_11=241.63
 |stamina=40/s
 |maxduration=5s
-|plunge_1=74.6
-|plunge_2=80.7
-|plunge_3=86.7
+|plunge_1=74.59
+|plunge_2=80.66
+|plunge_3=86.73
 |plunge_4=95.4
 |plunge_5=101.47
 |plunge_6=108.41
@@ -202,9 +200,9 @@ __TOC__
 |plunge_9=137.03
 |plunge_10=147.44
 |plunge_11=157.85
-|plungelow_1=149
-|plungelow_2=161
-|plungelow_3=173
+|plungelow_1=149.14
+|plungelow_2=161.28
+|plungelow_3=173.42
 |plungelow_4=190.77
 |plungelow_5=202.91
 |plungelow_6=216.78
@@ -213,9 +211,9 @@ __TOC__
 |plungelow_9=274.01
 |plungelow_10=294.82
 |plungelow_11=315.63
-|plungehigh_1=186
-|plungehigh_2=201
-|plungehigh_3=217
+|plungehigh_1=186.29
+|plungehigh_2=201.45
+|plungehigh_3=216.62
 |plungehigh_4=238.28
 |plungehigh_5=253.44
 |plungehigh_6=270.77
@@ -241,7 +239,6 @@ __TOC__
 |ja_rm   = Nintou - Shuumatsuban
 |ja_tl   = Ninja Blade - Shuumatsuban
 |ko      = 인도(忍刀)・종말번대
-|ko_rm   = Indo - Jongmalbeondae
 |ko_tl   = Ninja Blade - Shuumatsuban
 |es      = Sable ninja de Los Ocelos
 |es_tl   = Ninja Saber of the Ocelos
@@ -258,7 +255,7 @@ __TOC__
 |pt      = Lâmina de Ninja Shiyuumatsu-Ban
 |pt_tl   = 
 |tr      = Shuumatsuban Ninja Kılıcı
-|tr_tl   = 
+|tr_tl   = Shuumatsuban Ninja Sword
 |it      = Lama ninja della Shuumatsuban
 |it_tl   = Shuumatsuban Ninja Blade
 }}
@@ -274,6 +271,8 @@ __TOC__
 
 [[es:Sable ninja de Los Ocelos]]
 [[fr:Lame ninja du Shuumatsuban]]
+[[ja:忍刀・終末番]]
 [[pt-br:Lâmina de Ninja Shiyuumatsu-Ban]]
-[[ru:Ниндзюцу Сиюмацу-бан]]
+[[ru:Ниндзюцу Сюмацубан]]
 [[th:Shuumatsuban Ninja Blade]]
+[[vi:Lưỡi Đao Ninja - Shuumatsuban]]

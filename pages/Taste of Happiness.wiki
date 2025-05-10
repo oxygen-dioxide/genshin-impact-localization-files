@@ -7,17 +7,17 @@
 |actType       = Part
 |actNum        = II
 |part          = 
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = Complete step 1 of [[Festival Utsava]]
 |characters    = Arachatora; Arapacati; Arapas; Araphala; Arasaka; Paimon; Traveler
-|startLocation = [[Vanarana]], [[Sumeru]]
+|startLocation = [[Vanarana (Subarea)]], [[Vanarana (Area)]], [[Sumeru]]
 |region        = Sumeru
-|area          = Vanarana
-|next          = 
-|exp           = 150
-|mora          = 20,000
-|primogems     = 20
-|other         = {{Card|The Siblings' Flowers|1}}
+|area          = Vanarana (Area)
+|subarea       = Vanarana (Subarea)
+|parent        = Festival Utsava
+|concurrent    = Delicious Riddle
+|concurrent2   = Garden Fairies
+|concurrent3   = Rishboland Tiger, Roaaar
+|rewards       = Adventure EXP*150;Primogem*20;Mora*20,000;The Siblings' Flowers*1
 }}
 '''''Taste of Happiness''''' is a [[World Quest]] in the series [[Aranyaka]]: Part II - [[Dream Nursery]]. It takes place during ''[[Festival Utsava]]''.
 
@@ -25,13 +25,13 @@
 # Talk to the "brothers" (0/4)
 #* Help [[Arachatora]] adjust the flame
 #* Get some water for [[Arapas]]
-#** The location is next to [[Aramani]], who is actually at the south of [[Vanarana]]
+#** The location is next to [[Aramani]], who is actually at the south of [[Vanarana (Subarea)|Vanarana]]
 #* Give the water to Arapas
 # Give a bowl of [[Radish Veggie Soup|Delicious Radish Veggie Soup]] to [[Arapacati]]
 
 ==Dialogue==
 {{Quest Description|Time to witness the results of the "cooking training" of Arapacati's brothers.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Arapacati:''' My brothers have all done some self-reflection. Festival Utsava is a happy occasion, so Arapacati shouldn't get mad.
 :'''Arasaka:''' That's right, Arapacati. Don't get mad. Happy occasions should be celebrated with the "taste of happiness"!
 :'''Arachatora:''' It's time to show off the results of our cooking training!
@@ -40,28 +40,28 @@
 :{{DIcon}} Alright! The Festival Utsava Feast!
 :{{DIcon}} Best we not get our hopes too high...
 :'''Arapas:''' Water from Vanarana is the best water and makes the best soup. Nara will love it for sure.
-:'''Arapacati:''' I shall deliver the "taste of happiness" to Nara (Traveler) and Paimon, and let them "teach" my brothers.
+:'''Arapacati:''' I shall deliver the "taste of happiness" to Nara {{Traveler}} and Paimon, and let them "teach" my brothers.
 :'''Arapacati:''' It's the only way to make food Nara will like. That's how guests should be treated.
-:'''Arapacati:''' Would you mind teaching them to cook, Nara (Traveler)?
+:'''Arapacati:''' Would you mind teaching them to cook, Nara {{Traveler}}?
 :{{DIcon}} Sure.
 ::'''Arapacati:''' They're all ready. We can start now.
 :{{DIcon}} Maybe later.
-::'''Arapacati:''' You must come, Nara (Traveler).
+::'''Arapacati:''' You must come, Nara {{Traveler}}.
 
 ;(Talk to Arapacati again, if "Maybe Later" was chosen)
-:'''Arapacati:''' Would you mind teaching them to cook, Nara (Traveler)?
+:'''Arapacati:''' Would you mind teaching them to cook, Nara {{Traveler}}?
 :{{DIcon}} Sure.
 ::'''Arapacati:''' They're all ready. We can start now.
 :{{DIcon}} Maybe later.
-::'''Arapacati:''' You must come, Nara (Traveler).
+::'''Arapacati:''' You must come, Nara {{Traveler}}.
 
 ;(Talk to Araphala)
-:'''Araphala:''' Don't you worry, Nara (Traveler), Araphala has prepared the Unrivaled Fresh Fruit for the festival!
+:'''Araphala:''' Don't you worry, Nara {{Traveler}}, Araphala has prepared the Unrivaled Fresh Fruit for the festival!
 :'''Paimon:''' Araphala sure moves fast, huh? Let's go check elsewhere.
 
 ;(Talk to Arachatora)
 :'''Arachatora:''' The Head Mushroom has been ready for a while now! My super fragrant Head Mushroom...
-:'''Arachatora:''' But I'm not very good at gauging the heat, so please come take a look, Nara (Traveler)...
+:'''Arachatora:''' But I'm not very good at gauging the heat, so please come take a look, Nara {{Traveler}}...
 :'''Paimon:''' Fire is kinda dangerous to Aranara, so let's go help to control it.
 
 ;(Adjust the flame)
@@ -75,15 +75,15 @@
 :'''Paimon:''' There you go. That should do.
 
 ;(Talk to Arapas)
-:'''Arapas:''' The Best Water... But there's nothing's left of it after my practice runs. Would Nara (Traveler) mind getting some water from the north of Vanarana for Arapas?
-:'''Paimon:''' Well, guess we ought to help out, (Traveler).
+:'''Arapas:''' The Best Water... But there's nothing's left of it after my practice runs. Would Nara {{Traveler}} mind getting some water from the north of Vanarana for Arapas?
+:'''Paimon:''' Well, guess we ought to help out, {{Traveler}}.
 
 ;(Obtain [["The Best Water"]])
 :'''Paimon:''' Paimon wonders if the water in Vanarana really tastes any different from water in other places...
 
 ;(Talk to Arapas after obtaining "The Best Water")
 :'''Paimon:''' We're back, Arapas! This is the Best Water!
-:'''Arapas:''' Terrific! I can make the Best Soup so long as I have the Best Water. Nara (Traveler) will love it for sure!
+:'''Arapas:''' Terrific! I can make the Best Soup so long as I have the Best Water. Nara {{Traveler}} will love it for sure!
 
 ----
 ;(After talking to and helping the 4 brothers)
@@ -93,12 +93,10 @@
 ;(Talk to Arapacati)
 :'''Paimon:''' Woohoo! And that's our piping-hot Radish Veggie Soup all ready to go! The Aranara should be done with their dishes too.
 :;(Open item menu)
-:'''Paimon:''' You still have to ask (Traveler) to help, or you will end up cooking the same dishes as before.
-
-:'''According to the improvement method from Paimon, Aranara finishes the dish under your guidance.<br />After that, you enjoy the dish with Aranara...'''
-
+:'''Paimon:''' You still have to ask {{Traveler}} to help, or you will end up cooking the same dishes as before.
+:{{Black Screen|According to the improvement method from Paimon, Aranara finishes the dish under your guidance.<br>After that, you enjoy the dish with Aranara...}}
 :'''Paimon:''' How's the taste of true-blue gourmet Nara food, eh?
-:'''Arapacati:''' Hmm... While it was Arapacati's suggestion for Nara (Traveler) to teach my brothers...
+:'''Arapacati:''' Hmm... While it was Arapacati's suggestion for Nara {{Traveler}} to teach my brothers...
 :'''Arachatora:''' Nara dishes... Is this what Nara call "the taste of happiness"?
 :'''Arasaka:''' Happiness is fleeing from me...
 :'''Arapas:''' Vanarana's water is obviously the Best Water, so how did something like this get made from it?
@@ -106,18 +104,18 @@
 :'''Paimon:''' Eh? You Aranara think it's awful? Paimon thought it was pretty yummy, though...
 :'''Arapacati:''' I have no idea how "awful" is supposed to taste, but the flavor of this dish... has "impact." You know, like the kind you get from running full-speed into a tree...
 :'''Paimon:''' Wow... This has gotta be a massive case of culture clash.
-:'''Arapacati:''' Still, it's rude to say that, my brothers. You should be thanking Nara (Traveler) instead!
+:'''Arapacati:''' Still, it's rude to say that, my brothers. You should be thanking Nara {{Traveler}} instead!
 :'''Arachatora:''' *whimper* I'm sorry...
 :'''Arapacati:''' Don't say "sorry"! Say "Thank you!"
-:'''"Brothers":''' Thank you, Nara (Traveler)...
-:'''Arapacati:''' But it's okay as long as Nara (Traveler) and Paimon enjoy the food! Don't mind them. If our Nara friends are happy, we're happy.
-:'''Arapacati:''' That said, Nara (Traveler) is totally different from [[Nara Varuna]], who told us a lot of things about "{{MC|m=brothers|f=sisters}}."
-:'''Arapacati:''' But Nara (Traveler) is very quiet. Are you feeling unwell?
-:'''Paimon:''' Uh, say something, (Traveler).
+:'''"Brothers":''' Thank you, Nara {{Traveler}}...
+:'''Arapacati:''' But it's okay as long as Nara {{Traveler}} and Paimon enjoy the food! Don't mind them. If our Nara friends are happy, we're happy.
+:'''Arapacati:''' That said, Nara {{Traveler}} is totally different from [[Nara Varuna]], who told us a lot of things about "{{MC|m=brothers|f=sisters}}."
+:'''Arapacati:''' But Nara {{Traveler}} is very quiet. Are you feeling unwell?
+:'''Paimon:''' Uh, say something, {{Traveler}}.
 :{{DIcon}} Thanks for your concern.
 :{{DIcon}} (Remain silent.)
-::'''Paimon:''' Anyway, no need to worry, Arapacati! (Traveler)'s fine!
-:'''Arapacati:''' Is that so? I'm glad. Once again, thank you. These petals are from Arapacati and her brothers. They're for you, Nara (Traveler) and Paimon.
+::'''Paimon:''' Anyway, no need to worry, Arapacati! {{Traveler}}'s fine!
+:'''Arapacati:''' Is that so? I'm glad. Once again, thank you. These petals are from Arapacati and her brothers. They're for you, Nara {{Traveler}} and Paimon.
 :'''Arapacati:''' We hope the two of you will enjoy more of the "taste of happiness" here in Vanarana!
 ;(Obtain [[The Siblings' Flowers]])
 
@@ -127,7 +125,7 @@
 :'''Arachatora:''' The Head Mushroom helped too! The Head Mushroom I've always dreamed about! Its aroma... Ahh!
 :'''Araphala:''' And don't... don't forget about the Unrivaled Fresh Fruit...
 :'''Arapas:''' Water from Vanarana too! Soup with "the taste of happiness" can only be made with the best water!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages

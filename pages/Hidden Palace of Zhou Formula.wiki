@@ -1,15 +1,15 @@
+{{About|the Domain|the Achievement|Hidden Palace of Zhou Formula (Achievement)}}
 {{Domain Infobox
 |image        = Domain Hidden Palace of Zhou Formula.png
 |type         = Blessing
-|description  = There is a secret ritual that can conceal one gate out of eight, cutting off the route for evil to escape. This ritual was performed here long ago, sealing demons within this labyrinth. Rumor has it that the Method to fit Pillars with Zhou Formula presently seals an evil [[Chi]].
+|description  = There is a [[Seven-and-Eight-Gates Method|secret ritual]] that can conceal one gate out of eight, cutting off the route for evil to escape. This ritual was performed here long ago, sealing demons within this labyrinth. Rumor has it that the Method to fit Pillars with Zhou Formula presently seals an evil [[Chi]].
 |requiredAR   = 30/35/40/45
 |recLevel     = 59/69/80/90
-|recElements  = Cryo
+|recElements  = Hydro
 |region       = Liyue
 |area         = Bishui Plain
 |subarea      = Wuwang Hill
 }}
-{{Description|This ancient blessed altar is filled with monsters that fear the power of Cryo.<br />You shall earn priceless Artifacts, if — and only if — you can pass the trial.}}
 '''Hidden Palace of Zhou Formula''' is a [[Domain of Blessing]] located atop [[Wuwang Hill]] in [[Liyue]]. Clearing this domain gives [[artifacts]]. Challenge domains with higher levels to get better rewards.
 
 ==Unlocking the Domain==
@@ -26,45 +26,8 @@ Each level in this domain has the following Ley Line Disorder, respectively:
 !Level
 !Ley Line Disorder
 |-
-! rowspan="2" align="center" | I
-|| The duration of the [[Frozen]] status effect is greatly increased.
-|-
-|When [[Superconduct]] is triggered, an [[Energy Blast]] will occur dealing DMG to surrounding enemies.
-|-
-! rowspan="2" align="center" | II
-|| When [[Elements#Elemental Reactions|Melt]] is triggered, an Energy Blast will occur, dealing DMG to surrounding enemies.
-|-
-|When [[Elements#Elemental Reactions|Overloaded]] is triggered, you will be hit by a powerful blast, causing your character to take DMG.
-|-
-! rowspan="2" align="center" | III
-||When [[Superconduct]] is triggered, an Energy Blast will occur dealing DMG to surrounding enemies.
-|-
-|When [[Elements#Elemental Reactions|Overloaded]] is triggered, you will be hit by a powerful blast, causing your character to take DMG.
-|-
-! rowspan="2" align="center" | IV
-||When [[Elements#Elemental Reactions|Melt]] is triggered, an Energy Blast will occur dealing DMG to surrounding enemies.
-|-
-|When [[Elements#Elemental Reactions|Overloaded]] is triggered, you will be hit by a powerful blast, causing your character to take DMG.
-|}
-
-===Damage===
-{{See also|Level Scaling/Reaction#Level Multiplier}}
-The {{Color|Physical DMG}} dealt by Energy Blasts and powerful blasts is calculated as <math>4 \times \text{Level Multiplier}</math>. This DMG is affected by the target [[Physical RES]], but unaffected by [[DEF]]. The final result is rounded down.
-
-{| class="wikitable" style="text-align: center;"
-! Level !! Base Damage
-|-
-! I
-| 1885.72
-|-
-! II
-| 2791.12
-|-
-! III
-| 3785.48
-|-
-! IV
-| 4811.24
+!I-IV
+|All party members gain a 75% Hydro DMG Bonus.
 |}
 
 ==Domain Mechanics==
@@ -74,13 +37,13 @@ Each level in this domain has the following Domain Mechanics:
 !Challenge Features
 |-
 !II
-|· This stage contains a Pyro Elemental Node: it will apply a Pyro buff to nearby opponents at intervals, which will increase their offensive capabilities and durability. This Pyro buff can be removed using Elemental Reactions.
+|<li>This stage contains a Pyro Elemental Node: it will apply a Pyro buff to nearby opponents at intervals, which will increase their offensive capabilities and durability. This Pyro buff can be removed using Elemental Reactions.</li>
 |-
 !III
-|· This stage contains an Electro Elemental Node: it will apply an Electro buff to nearby opponents at intervals, which will increase their offensive capabilities and durability. This Electro buff can be removed using Elemental Reactions.
+|<li>This stage contains an Electro Elemental Node: it will apply an Electro buff to nearby opponents at intervals, which will increase their offensive capabilities and durability. This Electro buff can be removed using Elemental Reactions.</li>
 |-
 !IV
-|· This stage contains a Pyro Elemental Node: it will apply a Pyro buff to nearby opponents at intervals, which will increase their offensive capabilities and durability. This Pyro buff can be removed using Elemental Reactions.
+|<li>This stage contains a Pyro Elemental Node: it will apply a Pyro buff to nearby opponents at intervals, which will increase their offensive capabilities and durability. This Pyro buff can be removed using Elemental Reactions.</li>
 |}
 
 ==Challenge Features==
@@ -89,11 +52,8 @@ Each level in this domain has the following Challenge Features:
 !Level
 !Challenge Features
 |-
-!III
-|· The Elemental Node in this challenge will apply an Electro buff to nearby opponents at intervals. Cryo attacks can remove this buff effectively through the Superconduct reaction and deal more DMG using the Ley Line Disorder here.
-|-
-!IV
-|· The Elemental Node in this challenge will apply a Pyro buff to nearby opponents at intervals. Cryo attacks can remove this buff effectively through the Melt reaction and deal more DMG using the Ley Line Disorder here.
+!III-IV
+|<li>The Elemental Node in this challenge will apply a Pyro buff to nearby opponents at intervals. Hydro attacks can remove this buff effectively through the Vaporize reaction and deal more DMG using the Ley Line Disorder here.</li><li>All party members gain a Hydro DMG Bonus</li><li>Place Hydro characters into the party to defeat your opponents more effectively.</li>
 |}
 
 ==Rewards==
@@ -104,33 +64,35 @@ Each level in this domain has the following Challenge Features:
 
 ==Enemies==
 {{Domain Enemies
-|target1=Defeat 20 enemies while protecting [[Domain Monolith]]
-|enemies1=Large Electro Slime*6;Hydro Slime*8;Large Hydro Slime*6
+|domain=Roaring Fire
+|target1=Defeat 20 opponent(s)<br>Protect the [[Domain Monolith|target]] from being destroyed
+|enemies1=Pyro Slime*13//Large Pyro Slime*7
 
-|target2=Defeat 8 enemies within 6:00 minutes
-|enemies2=Large Pyro Slime*4;Blazing Axe Mitachurl*2;Pyro Abyss Mage*2
-|note2=<br />
+|target2=Defeat 6 opponent(s) within 360 second(s)
+|enemies2=Hilichurl Berserker*4//Blazing Axe Mitachurl*2
+|note2=<br>
 *There is a {{Pyro}} Elemental Node in the center that will periodically imbue enemies with Pyro, applying a massive [[RES]] and [[ATK]] buff until the Pyro status is removed.
-|target3=Defeat 16 enemies within 360 seconds
-|enemies3=Large Electro Slime*3;Hilichurl Fighter*2//Large Electro Slime*3;Hilichurl Fighter*2//Large Electro Slime*5//Fatui Electro Cicin Mage
-|note3=<br />
-* There is an {{Electro}} Elemental Node in the center that will periodically imbue enemies with Electro, applying a massive resistance buff and reducing enemy cooldowns until the Electro status is removed.
-* In the second wave, the '''Mutant Electro Slime''' closest to the entrance has a '''[[Lightning Bolt Matrix]]''' aura.
-* In the third wave, the '''Mutant Electro Slime''' on the top left has a '''Lightning Bolt Matrix''' aura.
-* In the fourth wave, the '''Fatui Electro Cicin Mage''' is has a '''Lightning Bolt Matrix''' aura.
-|target4=Defeat 6 opponents within 60 seconds (time is added after each kill)
-|enemies4=Large Pyro Slime*2;Blazing Axe Mitachurl*2;Pyro Abyss Mage*2
-|note4=<br />
+|target3=Defeat 10 opponent(s) / Complete this challenge within 360 second(s)
+|enemies3=Hilichurl Fighter*5//Hilichurl Fighter*2;Hilichurl Berserker*2;Blazing Axe Mitachurl
+|note3=<br>
+* There is a {{Pyro}} Elemental Node in the center that will periodically imbue enemies with Pyro, applying a massive [[RES]] and [[ATK]] buff until the Pyro status is removed.
+|target4=Defeat all opponents within 60 seconds<br>Additional time will be gained after each kill
+|enemies4=Blazing Axe Mitachurl*2//Dendro Samachurl;Pyro Abyss Mage*1/{{Aura|Tracking Fire Ball}}
+|note4=<br>
 * There is a {{Pyro}} Elemental Node in the center that will periodically imbue enemies with Pyro, applying a massive RES and ATK buff until the Pyro status is removed.
-* The '''Large Pyro Slime''' on the right has a '''[[Tracking Fire Ball]]''' aura.
-* The second '''Pyro Abyss Mage''' has a '''Tracking Fire Ball''' aura.
 }}
 
+==Description==
+{{Description|The Ley Line Monolith inside this ancient Ley Line Altar is coveted by the monsters crowding the altar.<br>You shall earn priceless Artifacts if you protect the Ley Line Monolith from the monsters by using the power of Hydro to extinguish their raging blaze.|Roaring Fire I}}
+{{Description|This ancient blessed altar is filled with monsters that fear the power of Hydro.<br>You shall earn priceless Artifacts, if &mdash; and only if &mdash; you can pass the trial.|Domain Entrance}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=domain}}
+
 ==Trivia==
-* According to Issue 2 of the [[Teyvat Times]], Domain of Blessing: Frost II is the domain that travelers have been most likely to fail in both [[Co-Op Mode]] and Single Player.
+* According to Issue 2 of the [[Teyvat Times]], Domain of Blessing: Frost II<ref group="Note">Frost was the name of the Domains of Blessing until it was renamed to Roaring Fire in 4.8.</ref> is the domain that travelers have been most likely to fail in both [[Co-Op Mode]] and Single Player.
 * The Achievement to unlock this Domain is also called ''[[Hidden Palace of Zhou Formula (Achievement)|Hidden Palace of Zhou Formula]]''.
 * This is one of two regular domain entrances that does not have a [[Solomon's knot]] above it, the other being [[Cecilia Garden]].
-* The level names of this domain are all "Frost," referring to the Cryo-favoring Ley Line Disorder.
 
 ===Etymology===
 *{{Lang|"{{w|Guicang}}"|zh=归藏|zh_tl=Return to the Hidden}}, {{Lang|"{{w|zh:連山易|Lianshan}}"|zh=连山}}, and {{Lang|"{{w|Zhou Yi}}"|zh=周易|zh_tl=Changes of Zhou}} were three independent ancient Chinese arts of divination collectively known as the {{Lang|"Three Changes"|zh=三易|zh_rm=Sānyì}}. These names are the basis for the three "Hidden Palace of [Name] Formula" domains: [[Hidden Palace of Guizang Formula]], [[Hidden Palace of Lianshan Formula]], and Hidden Palace of Zhou Formula.
@@ -148,6 +110,9 @@ Hidden Palace of Zhou Formula IV Pyro Elemental Node Open.png|Open Pyro Elementa
 |video1   = https://youtu.be/Te_ehKUMWrM
 |caption1 = Unlock Hidden Palace of Zhou Formula Guide
 }}
+
+==Notes==
+{{Reflist|note=1}}
 
 ==Other Languages==
 {{Other Languages
@@ -180,7 +145,7 @@ Hidden Palace of Zhou Formula IV Pyro Elemental Node Open.png|Open Pyro Elementa
 |pt      = Palácio Oculto da Fórmula Zhou
 |pt_tl   = Hidden Palace of the Zhou Formula
 |tr      = Zhou Kaidesinin Gizli Sarayı
-|tr_tl   = 
+|tr_tl   = Zhou Pedestal's Hidden Palace
 |it      = Palazzo nascosto di Zhou
 |it_tl   = 
 }}
@@ -190,7 +155,10 @@ Hidden Palace of Zhou Formula IV Pyro Elemental Node Open.png|Open Pyro Elementa
 
 ==Navigation==
 {{Domain Navbox|Permanent}}
-[[ru:Скрытый дворец Уван]]
+
 [[es:Palacio oculto de la fórmula Zhou]]
-[[vi:Mật Cung Vô Vọng]]
+[[fr:Palais secret de la Formule Zhou]]
 [[ja:無妄引責密宮]]
+[[ru:Скрытый дворец Уван]]
+[[vi:Mật Cung Vô Vọng]]
+[[zh:無妄引咎密宮]]

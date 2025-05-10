@@ -1,34 +1,64 @@
 {{Terminology Infobox
 |type = Combat
 }}
-'''Elemental Absorption''' is a mechanic found on certain {{Anemo}} abilities which allows the ability to absorb one of the four elements {{Electro}}, {{Pyro}}, {{Hydro}} or {{Cryo}} on its first contact and become infused with that element, dealing DMG of that type in addition to {{Color|Anemo DMG}} or providing additional effects based on the element absorbed.
+'''Elemental Absorption''' is a mechanic found on certain {{Anemo}} abilities which allows the ability to absorb one of the four elements {{Pyro}}, {{Hydro}}, {{Electro}}, or {{Cryo}} on its first contact and become infused with that element, dealing DMG of that type in addition to {{Color|Anemo DMG}} or providing additional effects based on the element absorbed.
 
-Generally, only one element can be absorbed per use. If multiple elements are present, there is a priority for which element is absorbed.
+Generally, only one element can be absorbed per use. If multiple elements are present, there is a priority for which element is absorbed. A select few abilities are able to absorb more than one element.
 
-Additional elemental damage dealt by skills that have absorbed an element should not be confused with [[Swirl]] damage. Swirl damage is fixed damage based only on character level and [[Elemental Mastery]], while additional elemental damage from elemental absorption is regular damage and is thus affected by the stats that normally affect [[damage]], including [[ATK]], [[CRIT]] Rate and DMG, and [[Damage Bonus]]es.
+Additional elemental damage dealt by skills that have absorbed an element should not be confused with [[Swirl]] damage. Swirl damage is fixed damage based only on character level and [[Elemental Mastery]], while additional elemental damage from elemental absorption is regular damage and is thus affected by the stats that normally affect [[damage]], including [[ATK]], [[CRIT]] Rate and DMG, and [[DMG Bonus]]es.
 
 ==Elemental Sources==
-All characters, enemies, or objects affected by an [[Elemental Gauge Theory|elemental status]] can serve as sources of Elemental Absorption. This also includes [[Elemental Gauge Theory/Advanced Aura Mechanics#Self Auras|self-applied elemental statuses]]. In [[Co-Op Mode]], elements that teammates are affected with can also be absorbed. Most character elemental abilities do not serve as sources of Elemental Absorption, with the only exception being [[Guoba Attack]] where Guoba himself is infused with Pyro when he spits fire.
+All characters, enemies, or objects affected by an [[Elemental Gauge Theory|elemental status]] can serve as sources of Elemental Absorption. This also includes [[Elemental Gauge Theory/Advanced Mechanics#Self Auras|self-applied elemental statuses]]. In [[Co-Op Mode]], elements that teammates are affected with can also be absorbed. 
+
+Most character elemental abilities do not serve as sources of Elemental Absorption, with the only exception being [[Guoba Attack]] where Guoba himself is infused with Pyro when he spits fire.
 
 The absorbed element can apply an aura or trigger an reaction. The number of times absorbed elements are applied will depend on the respective talent's [[Internal Cooldown]].
 
 ==Absorption Priority==
 In cases where more than one element can be absorbed, Elemental Absorption will follow a priority.
 
-For the [[Anemo Traveler]], the priority is:
-*{{Cryo}} / {{Color|Cryo|Frozen}} > {{Pyro}} > {{Hydro}} > {{Electro}}
+For [[Lynette]] and the [[Anemo Traveler]], the priority is:
+* {{Cryo}} > {{Pyro}} > {{Hydro}} > {{Electro}}
 
 For other Anemo characters, the priority is:
-*{{Pyro}} > {{Hydro}} > {{Electro}} > {{Cryo}} / {{Color|Cryo|Frozen}}
+* {{Pyro}} > {{Hydro}} > {{Electro}} > {{Cryo}}
 
 ==Aura Check==
-When Elemental Absorption occurs, all targets in its range, including allies, will be hit with a damageless hit. This damageless hit is used by the game to determine what elements are available to be absorbed, and is therefore commonly referred to as '''Aura Check'''. Aura Checks can can trigger certain on-hit effects, such as those of [[Beidou]]'s [[Stunning Revenge|4th Constellation Level]] and [[Thoma]]'s [[A Comrade's Duty|1st Constellation Level]].
+When Elemental Absorption occurs, all targets in its AoE, including allies, will be hit with a damageless hit. This damageless hit is used by the game to determine what elements are available to be absorbed, and is therefore commonly referred to as '''Aura Check'''. Aura Checks can can trigger certain on-hit effects, such as those of [[Beidou]]'s [[Stunning Revenge|4th Constellation Level]] and [[Thoma]]'s [[A Comrade's Duty|1st Constellation Level]].
 {{Preview
 |f1 = Aura Check Thoma C4
 |c1 = Aura Check activating Thoma's Constellation 1
 |f2 = Aura Check Sunsettia
 |c2 = Aura Check knocking off an additional Sunsettia from a Cuihua tree
 }}
+
+The [[AoE]] of Aura Check is often independent of the ability's other AoEs. For example, the Aura Check AoE for Sucrose's [[Forbidden Creation - Isomer 75 / Type II|Elemental Burst]] is much smaller than the AoE in which DMG is dealt, and targets must be near the center of the Large Wind Spirit in order to cause Elemental Absorption.
+{| class="sortable fandom-table"
+|+ Aura Check Data
+! Character !! Ability !! Interval (s) !! Shape !! Radius (m) !! Fan Angle (°) !! Box X (m) !! Box Z (m) !! Height (m)
+|-
+| {{Character|Sucrose|20|nobr=1}} || {{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1|type=1}} || 0.3 || Box ||  ||  || 2.5 || 2.5 || 5
+|-
+| rowspan="2" | {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Palm Vortex|20|nobr=1|type=1}} || 0.2 || Sphere || 3 ||  ||  ||  || 
+|-
+| {{Talent|Gust Surge|20|nobr=1|type=1}} || 0.3 || Box ||  ||  || 2.5 || 2.5 || 7
+|-
+| {{Character|Wanderer|20|nobr=1}} || {{Talent|Jade-Claimed Flower|20|nobr=1|type=1}} || &mdash; || Cylinder || 6 ||  ||  ||  || 8
+|-
+| rowspan="2" | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Kazuha Slash|20|nobr=1|type=1}} || 0.3 || Cylinder || 9 ||  ||  ||  || 4
+|-
+| {{Talent|Soumon Swordsmanship|20|nobr=1|type=1}} || &mdash; || Cylinder || 8 ||  ||  ||  || 4
+|-
+| {{Character|Venti|20|nobr=1}} || {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} || 0.3 || Box ||  ||  || 2.5 || 2.5 || 5
+|-
+| {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Windmuster Kick|20|nobr=1|type=1}} || colspan="7" | (Uses Fudou Style Vacuum Slugger DMG to detect elements, has no additional Aura Check)
+|-
+| {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} || 0.2 || Cylinder || 1.2 ||  ||  ||  || 1.5
+|-
+| {{Character|Lan Yan|20|nobr=1}} || {{Talent|Four Sealing Divination Charms|20|nobr=1|type=1}} || &mdash; || Sphere || 4 ||  ||  ||  || 
+|-
+| {{Character|Lynette|20|nobr=1}} || {{Talent|Magic Trick: Astonishing Shift|20|nobr=1|type=1}} || 0.3 || Cylinder || 0.48 ||  ||  ||  || 1.6
+|}
 
 ==Abilities==
 ===Talents===
@@ -47,9 +77,6 @@ Like with talents, only one element can be absorbed per use. Enemies with access
 ==Change History==
 {{Change History|1.0}}
 
-==References==
-{{Reflist}}
-
 ==Navigation==
 {{Element Navbox|state=collapsed}}
 {{Combat Navbox}}
@@ -57,3 +84,4 @@ Like with talents, only one element can be absorbed per use. Enemies with access
 [[ja:元素変化]]
 [[pt-br:Absorção Elemental]]
 [[th:การเปลี่ยนแปลงธาตุ]]
+[[vi:Hấp Thụ Nguyên Tố]]

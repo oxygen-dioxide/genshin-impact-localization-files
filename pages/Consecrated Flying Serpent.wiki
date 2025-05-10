@@ -40,8 +40,8 @@
 Consecrated Flying Serpent Weak Point.png
 </gallery>
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1      = Phagocytic Form
 |desc_1      = Enters Phagocytic Form immediately when in combat, increasing its Anemo RES by '''60%''' and all other RES by '''30%'''.
@@ -56,16 +56,16 @@ Consecrated Flying Serpent Weak Point.png
 |desc_4      = Fires a spinning disc at the player with its tail that deals '''50% ATK''' as {{Color|Anemo DMG}} on hit.
 
 |name_5      = Melee Vacuum Trap
-|desc_5      = Summons a [[Vacuum Field]] at the player's location that continuously pulls them towards the center and deals '''10% ATK''' as {{Color|AoE Anemo DMG}} every 0.5s, before lunging forward at the player, dealing '''70% ATK''' as {{Color|Anemo DMG}}.
+|desc_5      = Summons a [[Vacuum Field]] at the player's location that continuously pulls them towards the center and deals '''10% ATK''' as {{Color|Anemo DMG}} every 0.5s, before lunging forward at the player, dealing '''70% ATK''' as {{Color|Anemo DMG}}.
 
 |name_6      = Ranged Vacuum Trap
-|desc_6      = Summons a [[Vacuum Field]] at the player's location that continuously pulls them towards the center and deals '''10% ATK''' as {{Color|AoE Anemo DMG}} every 0.5s, before teleporting to the field's location, dealing '''90% ATK''' as {{Color|AoE Anemo DMG}}.
+|desc_6      = Summons a [[Vacuum Field]] at the player's location that continuously pulls them towards the center and deals '''10% ATK''' as {{Color|Anemo DMG}} every 0.5s, before teleporting to the field's location, dealing '''90% ATK''' as {{Color|Anemo DMG}}.
 
 |name_7      = Tail Smash
 |desc_7      = If the player is behind the Consecrated Flying Serpent, flips around and smashes its tail down, dealing '''70% ATK''' as {{Color|Anemo DMG}}.
 
-|name_8      = Phagocytic Vortex
-|desc_8      = Conjures a large orb that slowly travels towards the player and explodes, dealing '''100% ATK''' as {{Color|AoE Anemo DMG}}.
+|name_8      = Scattershot Vortex
+|desc_8      = Conjures a large orb that slowly travels towards the player and explodes, dealing '''100% ATK''' as {{Color|Anemo DMG}}.
 * During this attack, the Consecrated Flying Serpent will temporarily exit '''Phagocytic Form''' and spawn a Phagocytic Energy Block that lasts for '''6''' seconds.
 ** The Phagocytic Energy Block can be destroyed using a single {{Anemo}} attack or 6 non-Anemo elemental attacks.
 ** If destroyed, the active character will obtain a status that lasts for 10 seconds:
@@ -73,6 +73,7 @@ Consecrated Flying Serpent Weak Point.png
 *** The next time a [[Normal Attack|Normal]]/[[Charged Attack|Charged]]/[[Plunging Attack|Plunging]] Attack, [[Elemental Skill]] or [[Elemental Burst]] hits the Consecrated Flying Serpent, the status is consumed and it will lose '''15%''' of its Max HP and become paralyzed.
 *** If the status expires after 10 seconds, the Consecrated Flying Serpent will re-enter '''Phagocytic Form'''.
 ** If not destroyed in time, the Consecrated Flying Serpent will reabsorb the Phagocytic Energy Block and re-enter '''Phagocytic Form'''.
+|file_8      = Consecrated Flying Serpent Phagocytic Vortex
 |file_8_2    = Consecrated Flying Serpent Phagocytic Vortex 2
 |caption_8_2 = Paralyzed
 
@@ -94,29 +95,35 @@ Consecrated Flying Serpent Weak Point.png
 |-
 ! Group !! CD (s)
 |-
-| Melee Combo || 5 || 0–8 || 0–90 || 3–4 || 0 || colspan="2" | — || rowspan="10" | 0 || Phagocytic Form
+| Melee Combo || 5 || 0–8 || 0–90 || 3–4 || 0 || colspan="2" | &mdash; || rowspan="10" | 0 || Phagocytic Form
 |-
-| Ranged Combo || 5 || 10–35 || — || 4–6 || 0 || colspan="2" | — || Phagocytic Form
+| Ranged Combo || 5 || 10–35 || &mdash; || 4–6 || 0 || colspan="2" | &mdash; || Phagocytic Form
 |-
-| Tail Shot || 6 || 0–15 || 0–90 || 2–3 || 0 || colspan="2" | — || Phagocytic Form
+| Tail Shot || 6 || 0–15 || 0–90 || 2–3 || 0 || colspan="2" | &mdash; || Phagocytic Form
 |-
-| Melee Vacuum Trap || 5 || 0–5 || — || 2–3 || 0 || colspan="2" | — || Phagocytic Form
+| Melee Vacuum Trap || 5 || 0–5 || &mdash; || 2–3 || 0 || colspan="2" | &mdash; || Phagocytic Form
 |-
-| Ranged Vacuum Trap || 5 || 0–35 || — || 8–10 || 4.5 || colspan="2" | — || Phagocytic Form
+| Ranged Vacuum Trap || 5 || 0–35 || &mdash; || 8–10 || 4.5 || colspan="2" | &mdash; || Phagocytic Form
 |-
-| Tail Smash || 5 || 0–6 || 150–180 || 3–4 || 2.5 || colspan="2" | — || Phagocytic Form
+| Tail Smash || 5 || 0–6 || 150–180 || 3–4 || 2.5 || colspan="2" | &mdash; || Phagocytic Form
 |-
-| Phagocytic Vortex || 2 || 0–20 || — || 30 || 25 || Consecrated Beast Phagocytic Attack || 15 || Phagocytic Form
+| Scattershot Vortex || 2 || 0–20 || &mdash; || 30 || 25 || Consecrated Beast Phagocytic Attack || 15 || Phagocytic Form
 |-
-| Melee Vaccum Trap || 5 || 0–5 || — || 2–3 || 4 || colspan="2" | — || Non-Phagocytic Form
+| Melee Vacuum Trap || 5 || 0–5 || &mdash; || 2–3 || 4 || colspan="2" | &mdash; || Non-Phagocytic Form
 |-
-| Tail Shot || 5 || 0–15 || 0–90 || 3–4 || 4 || colspan="2" | — || Non-Phagocytic Form
+| Tail Shot || 5 || 0–15 || 0–90 || 3–4 || 4 || colspan="2" | &mdash; || Non-Phagocytic Form
 |-
-| Tail Smash || 5 || 0–6 || 150–180 || 3–4 || 4 || colspan="2" | — || Non-Phagocytic Form
+| Tail Smash || 5 || 0–6 || 150–180 || 3–4 || 4 || colspan="2" | &mdash; || Non-Phagocytic Form
 |}
 
+==Achievements==
+{{Achievement Topic Table|topic=Consecrated Flying Serpent}}
+
+==Tutorials==
+{{Tutorial|Consecrated Flying Serpent}}
+
 ==Descriptions==
-{{Description|A reptile that has mutated after feeding from greater lifeforms.<br />Though now imbued with the power of elemental manipulation, the Consecrated Beasts themselves still cannot fully digest the pieces of flesh they devoured from the immortal carcasses that they ate. Instead, the pieces slowly fused with the beasts themselves, weaving a bony shell over their body, one that shares a similar composition to a [[Crystal Marrow|certain type of smelting material from Inazuma]].|[[Archive]]}}
+{{Description|A reptile that has mutated after feeding from greater lifeforms.<br>Though now imbued with the power of elemental manipulation, the Consecrated Beasts themselves still cannot fully digest the pieces of flesh they devoured from the immortal carcasses that they ate. Instead, the pieces slowly fused with the beasts themselves, weaving a bony shell over their body, one that shares a similar composition to a [[Crystal Marrow|certain type of smelting material from Inazuma]].|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -144,21 +151,21 @@ Consecrated Flying Serpent Icon.png|Icon
 |ko_tl   = {{Lex|Consecrated|ko}} Flying Snake
 |es      = Aerofidio Sacróseo
 |es_tl   = Sacred Aeroserpent
-|es_note = ''Aerofidio'' is an adjective form of a portmanteau of "aero" (aerial) and "ophidia" (the taxonomic clade for snakes).
+|es_note = {{es|Aerofidio}} is an adjective form of a portmanteau of {{es|aero|aerial}} and ''ophidia'' (the taxonomic clade for snakes).
 |fr      = Serpent volant sacralisé
-|fr_tl   = Consecrated Flying Serpent
+|fr_tl   = {{Lex|Consecrated|fr}} Flying Serpent
 |ru      = Священный летучий змей
-|ru_tl   = Sacred Flying Snake
+|ru_tl   = {{Lex|Consecrated|ru}} Flying Serpent
 |th      = Consecrated Flying Serpent
 |vi      = Rắn Bay Thánh Hóa
 |vi_tl   = 
 |de      = Flugschlange der heiligen Knochen
-|de_tl   = Flying Snake of Holy Bones
+|de_tl   = Flying Snake of Sacred Bones
 |id      = Consecrated Flying Serpent
 |pt      = Cobra Voadora da Ossada Sagrada
 |pt_tl   = 
 |tr      = Kutsanmış Uçan Yılan
-|tr_tl   = 
+|tr_tl   = Sacred Flying Snake
 |it      = Serpente volante delle ossa sacre
 |it_tl   = Flying Snake of the Sacred Bones
 }}
@@ -170,4 +177,5 @@ Consecrated Flying Serpent Icon.png|Icon
 {{Enemy Navbox|Elite}}
 
 [[es:Aerofidio Sacróseo]]
+[[fr:Serpent volant sacralisé]]
 [[pt-br:Cobra Voadora da Ossada Sagrada]]

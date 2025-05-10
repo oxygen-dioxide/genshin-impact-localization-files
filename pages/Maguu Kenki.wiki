@@ -3,7 +3,10 @@
 |image    = Enemy Maguu Kenki.png
 |title    = Ingenious Machine: Marionette Swordmaster
 |type     = Normal Bosses
-|location = [[Serpent's Head]], [[Yashiori Island]], [[Inazuma]]<br />[[Twinning Isle/1.6|Twinning Isle]], [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] <small>([[Version 1.6]])</small>
+|location = [[Serpent's Head]], [[Yashiori Island]], [[Inazuma]]<br>[[Twinning Isle/1.6|Twinning Isle]], [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] <small>([[Version 1.6]])</small>
+|subarea  = Serpent's Head
+|area     = Yashiori Island
+|region   = Inazuma
 |family   = Automatons
 |dmgtype  = Physical
 |dmgtype2 = Anemo
@@ -13,12 +16,9 @@
 |ability2 = Invincibility Frames
 |ability3 = Elemental Conversion
 |drops    = Marionette Core
+|variants = Maguu Kenki: Lone Gale;Maguu Kenki: Galloping Frost;Maguu Kenki: Mask of Terror;Machine Marionette: Heart of the Blade
 }}
-{{Enemy Intro|name={{Lang|'''Maguu Kenki'''|ja=魔偶剣鬼|ja_tl=Magic Puppet Sword Demon}}|location=[[Yashiori Island]], [[Inazuma]]}}
-
-==Types==
-* {{Enemy|Maguu Kenki}}
-* [[Dual Maguu Kenki]] {{Enemy List|Maguu Kenki: Lone Gale;Maguu Kenki: Galloping Frost;Maguu Kenki: Mask of Terror}}
+{{Enemy Intro|name={{Lang|'''Maguu Kenki'''|ja=魔偶剣鬼|ja_rm=Maguu Kenki|ja_tl=Magic Puppet Sword Demon}}|location=[[Serpent's Head]],  [[Yashiori Island]], [[Inazuma]]}}
 
 ==Drops==
 ===Items===
@@ -64,24 +64,24 @@
 Maguu Kenki Weak Point.png
 </gallery>
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 
 ===Normal===
 ====Unconditional====
 {{Enemy Attacks
 |name_1 = Oushi no Omote
-|desc_1 = Summons an oni mask to protect it from ranged attacks if it is not performing one of its other attacks if the player is '''7m''' or farther away.
+|desc_1 = Summons an oni mask to protect it from ranged attacks if it is not performing one of its other attacks if the player is '''7&nbsp;m''' or farther away.
 |strat_1 = This ability is triggered by distance to the player rather than attack type. Damage dealt when the player is in melee range will not trigger the parry, even if the damage is dealt by an attack capable of range.
 
 |name_2 = Pushing Mask
-|desc_2 = Summons a large oni mask in front of it before pushing it forward to deal '''100% ATK''' as {{Color|AoE Anemo DMG}}.
+|desc_2 = Summons a large oni mask in front of it before pushing it forward to deal '''100% ATK''' as {{Color|Anemo DMG}}.
 
 |name_3 = Exploding Mask
-|desc_3 = Summons a large oni mask at the player's position that swirls uncontrollably before exploding, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+|desc_3 = Summons a large oni mask at the player's position that swirls uncontrollably before exploding, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
 
 |name_4 = Dash
-|desc_4 = Performs up to 5 short dashes creating afterimage behind to approach the player.
+|desc_4 = Performs up to 5 short dashes, creating afterimages behind itself to approach the player.
 
 |name_5 = Taunt
 |desc_5 = The Maguu Kenki will clench and raise its fist to taunt its opponent if they are far away from it after an attack. It is vulnerable to attacks while in this state.
@@ -91,15 +91,15 @@ Maguu Kenki Weak Point.png
 {{Enemy Attacks
 |name_1 = Ichimonji
 |file_1 = Maguu Kenki Slashes
-|desc_1 = Slashes at the player three times, dealing '''50% ATK''' as {{Color|Black|Physical DMG}} with each slash.
+|desc_1 = Slashes at the player three times, dealing '''50% ATK''' as {{Color|Physical DMG}} with each slash.
 
 |name_2 = Iai: Shadowrush
-|desc_2 = Enters Iai stance and rushes toward the player while drawing its sword, dealing '''60% ATK''' as {{Color|Black|Physical DMG}}.
+|desc_2 = Enters Iai stance and rushes toward the player while drawing its sword, dealing '''60% ATK''' as {{Color|Physical DMG}}.
 |file_2 = Maguu Kenki Iai Shadowrush
 
 |name_3 = Pseudo Tengu Sweeper
 |file_3 = Maguu Kenki Whirlwind Slash
-|desc_3 = Enters Iai stance and charges for a while before quickly slashing around itself once, dealing '''100% ATK''' as {{Color|Black|AoE Physical DMG}}.
+|desc_3 = Enters Iai stance and charges for a while before quickly slashing around itself once, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 }}
 
 ====At 71% HP or Lower====
@@ -107,7 +107,7 @@ After reaching '''71%''' of Max [[HP]], Maguu Kenki will immediately perform '''
 {{Enemy Attacks
 |name_1 = Dual Sword Burst
 |file_1 = Maguu Kenki Frost Dive
-|desc_1 = Summons an additional sword, charging up before slamming the ground for a wide [[AoE]], dealing '''80% ATK''' as both {{Color|AoE Anemo DMG}} and {{Color|AoE Cryo DMG}}.
+|desc_1 = Summons an additional sword, charging up before slamming the ground for a wide [[AoE]], dealing '''80% ATK''' as both {{Color|Anemo DMG}} and {{Color|Cryo DMG}}.
 |strat_1 = [[Dash]] [[Invincibility Frame|i-frame]] as soon as Maguu Kenki enters downward motion, or use skills that elevate the player off the ground to avoid DMG.
 
 |name_2 = Blustering Blade
@@ -115,20 +115,20 @@ After reaching '''71%''' of Max [[HP]], Maguu Kenki will immediately perform '''
 
 |name_3 = Iai: Shadowrush (Enhanced)
 |desc_3 = Enters Iai stance and rushes toward the player while drawing its sword, dealing '''60% ATK''' as {{Color|Anemo DMG}}.
-* If the player is '''7m''' or farther from the Maguu Kenki after the initial attack, follows up with '''Blustering Blade'''.
-* If the player is less than '''7m''' from the Maguu Kenki after the initial attack, follows up with the Cryo version of '''Shadowsword: Ichimonji''' and '''Pushing Mask'''.
+* If the player is '''7&nbsp;m''' or farther from the Maguu Kenki after the initial attack, follows up with '''Blustering Blade'''.
+* If the player is less than '''7&nbsp;m''' from the Maguu Kenki after the initial attack, follows up with the {{Cryo}} version of '''Shadowsword: Ichimonji''' and '''Pushing Mask'''.
 |file_3 = Maguu Kenki Iai Shadowrush Enhanced Flowing Water Followup
 |caption_3 = Followed by Blustering Blade
 |file_3_2 = Maguu Kenki Iai Shadowrush Enhanced Slashes Pushing Mask Followup
 |caption_3_2 = Followed by Shadowsword: Ichimonji
 
 |name_4 = Shadowsword: Ichimonji
-|desc_4 = Maguu Kenki and a phantom each performs up to 3 consecutive sword slashes at the player. With each slash, the Maguu Kenki deals '''50% ATK''' as {{Color|Anemo DMG}} while the phantom deals '''30% ATK''' as {{Color|Anemo DMG}} or {{Color|Cryo DMG}}.
-* If the player runs '''7m''' or farther away from the Maguu Kenki, performs 2 consecutive slashes and a follow-up attack.
-** If the Phantom is {{Anemo}}, Maguu Kenki may follow up with '''Blustering Blade'''.
-** If the Phantom is {{Cryo}}, Maguu Kenki may follow up with '''Iai: Shadowrush'''.
+|desc_4 = Maguu Kenki and a Shadowsword each performs up to 3 consecutive sword slashes at the player. With each slash, the Maguu Kenki deals '''50% ATK''' as {{Color|Anemo DMG}} while the Shadowsword deals '''30% ATK''' as {{Color|Anemo DMG}} or {{Color|Cryo DMG}}.
+* If the player runs '''7&nbsp;m''' or farther away from the Maguu Kenki, performs 2 consecutive slashes and a follow-up attack.
+** If the Shadowsword is {{Anemo}}, Maguu Kenki may follow up with '''Blustering Blade'''.
+** If the Shadowsword is {{Cryo}}, Maguu Kenki may follow up with '''Iai: Shadowrush'''.
 ** If '''Shadowsword: Ichimonji''' is used as a follow up to '''Iai: Shadowrush''', follows up with '''Pushing Mask'''.
-* If the Phantom is {{Anemo}} and the player runs '''7m''' or farther away before the 2nd slash, also follows up with '''Iai: Shadowrush'''.
+* If the Shadowsword is {{Anemo}} and the player runs '''7&nbsp;m''' or farther away before the 2nd slash, also follows up with '''Iai: Shadowrush'''.
 |file_4 = Maguu Kenki Slashes Anemo Phantom Full
 |caption_4 = Anemo Full Combo
 |file_4_2 = Maguu Kenki Slashes Anemo Phantom Flowing Water Followup
@@ -142,8 +142,8 @@ After reaching '''71%''' of Max [[HP]], Maguu Kenki will immediately perform '''
 
 |name_5 = Shadowsword: Pseudo Tengu Sweeper
 |desc_5 = <ul><!--
---><li>'''Variant 1:''' Enters Iai stance and charges, [[Vacuum Field|dragging]] the player into its area of effect, before quickly slashing around itself, dealing '''100% ATK''' as {{Color|AoE Anemo DMG}}. The phantom appears close to the Maguu Kenki and slashes over a larger area, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.</li><!--
---><li>'''Variant 2:''' Teleports and leaves a {{Cryo}} phantom in its original location. Maguu Kenki and the phantom charge simultaneously before quickly slashing around themselves. Maguu Kenki deals '''100% ATK''' as {{Color|AoE Anemo DMG}} while the phantom deals '''60% ATK''' as {{Color|AoE Cryo DMG}} over a much larger area. This attack will only be used if the Maguu Kenki is hit while not performing an attack.</li><!--
+--><li>'''Variant 1:''' Enters Iai stance and charges, [[Vacuum Field|dragging]] the player into its area of effect, before quickly slashing around itself, dealing '''100% ATK''' as {{Color|Anemo DMG}}. The Shadowsword then appears from Maguu Kenki and slashes over a larger ring-shaped area, dealing '''100% ATK''' as {{Color|Cryo DMG}}.</li><!--
+--><li>'''Variant 2:''' Teleports and leaves a {{Cryo}} Shadowsword in its original location. Maguu Kenki and the Shadowsword charge simultaneously before quickly slashing around themselves. Maguu Kenki will also [[vacuum Field|draw]] nearby players into its area of effect. Then, both will slash simultaneously around themselves. Maguu Kenki itself will deal '''100% ATK''' as {{Color|Anemo DMG}} while the Shadowsword deals '''60% ATK''' as {{Color|Cryo DMG}} over a much larger area. This attack will only be used if the Maguu Kenki is hit while not performing an attack.</li><!--
 --></ul>
 |file_5 = Maguu Kenki Whirlwind Slash Phantom 1
 |caption_5 = Variant 1
@@ -151,7 +151,7 @@ After reaching '''71%''' of Max [[HP]], Maguu Kenki will immediately perform '''
 |caption_5_2 = Variant 2
 
 |name_6 = Shadowsword: Blustering Blade
-|desc_6 = Teleports and leaves an {{Anemo}} phantom in its original location. The phantom performs a single '''Blustering Blade''' slash before Maguu Kenki performs 3 or 4 '''Blustering Blade''' slashes in quick succession at the player.
+|desc_6 = Teleports and leaves an {{Anemo}} Shadowsword in its original location. The Shadowsword performs a single '''Blustering Blade''' slash before Maguu Kenki performs 3 or 4 '''Blustering Blade''' slashes in quick succession at the player.
 |file_6 = Maguu Kenki Flowing Water Phantom
 }}
 
@@ -177,19 +177,19 @@ After reaching '''71%''' of Max [[HP]], Maguu Kenki will immediately perform '''
 |-
 | Ichimonji 2 || 0–5 || 0–90 || 4 || 0–2.5 || 1 || {{check|yes}} || {{check|no}}
 |-
-| rowspan="8" | Phase 2 || Phantom: Ichimonji 1 || 0–10 || 0–90 || 4 || 0–2.5 || 1 || {{check|yes}} || {{check|no}}
+| rowspan="8" | Phase 2 || Shadowsword: Ichimonji 1 || 0–10 || 0–90 || 4 || 0–2.5 || 1 || {{check|yes}} || {{check|no}}
 |-
-| Phantom: Ichimonji 2 || 0–5 || 0–90 || 4 || 0–2.5 || 1 || {{check|yes}} || {{check|no}}
+| Shadowsword: Ichimonji 2 || 0–5 || 0–90 || 4 || 0–2.5 || 1 || {{check|yes}} || {{check|no}}
 |-
 | Iai: Shadowrush || 5–15 || 0–90 || 3 || 10–15 || 1 || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Phantom: Pseudo Tengu Sweeper Variant 1 || 0–7 || &mdash; || 1 || 15–20 || 1 || &mdash; || {{check|yes}} || {{check|no}}
+| Shadowsword: Pseudo Tengu Sweeper Variant 1 || 0–7 || &mdash; || 1 || 15–20 || 1 || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Phantom: Flowing Water 1 || 15–50 || 0–90 || 2 || 0–10 || 1 || 15 || {{check|yes}} || {{check|no}}
+| Shadowsword: Blustering Blade 1 || 15–50 || 0–90 || 2 || 0–10 || 1 || 15 || {{check|yes}} || {{check|no}}
 |-
-| Phantom: Flowing Water 2<ref group="Note">This version of Phantom: Flowing Water only triggers when far from spawn location and will always teleport the Maguu Kenki towards spawn. It is likely a measure put in place to prevent the Maguu Kenki from moving out of its arena and resetting aggro.</ref> || 0–999 || &mdash; || 1 || 1 || 1 || &mdash; || {{check|yes}} || {{check|no}}
+| Shadowsword: Blustering Blade 2<ref group="Note">This version of Shadowsword: Blustering Blade only triggers when far from spawn location and will always teleport the Maguu Kenki towards spawn. It is likely a measure put in place to prevent the Maguu Kenki from moving out of its arena and resetting aggro.</ref> || 0–999 || &mdash; || 1 || 1 || 1 || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Phantom: Pseudo Tengu Sweeper Variant 2<ref group="Note">Only triggers upon being hit.</ref> || 5–10 || &mdash; || 2 || 5–7.5 || 1 || &mdash; || {{check|no}} || {{check|yes}}
+| Shadowsword: Pseudo Tengu Sweeper Variant 2<ref group="Note">Only triggers upon being hit.</ref> || 5–10 || &mdash; || 2 || 5–7.5 || 1 || &mdash; || {{check|no}} || {{check|yes}}
 |-
 | Dual Sword Burst || 0–10 || &mdash; || 1 || 20–30 || 20 || &mdash; || {{check|no}} || {{check|yes}}
 |-
@@ -205,7 +205,7 @@ After reaching '''71%''' of Max [[HP]], Maguu Kenki will immediately perform '''
 |}
 
 ===Warrior's Spirit===
-In the [[Warrior's Spirit]] event, the event-exclusive variant titled '''"Maguu Kengou — The Instructor"''' is fought on Round 6. Its moveset are as follows:
+In the [[Warrior's Spirit]] event, the event-exclusive variant titled '''"Maguu Kengou &mdash; The Instructor"''' is fought on Round 6. Its moveset are as follows:
 {{Enemy Attacks
 |enemy = Maguu Kenki Event
 
@@ -213,26 +213,26 @@ In the [[Warrior's Spirit]] event, the event-exclusive variant titled '''"Maguu 
 |desc_1 = When attacked, summons an oni mask to protect itself. This ability will be disabled for '''15''' seconds if hit by the player's Perfect [[Parry]] counterattack. This ability can only defend against 1 hit per 0.2s.
 
 |name_2 = Blustering Blade
-|desc_2 = Performs a slash, sending a wind blade towards the player's current location, dealing '''50% ATK''' as {{Color|Anemo DMG}}. This attack is repeated 1/3/5 times in quick succession in Normal/Hard/Pro difficulties respectively. If the player Perfect [[Parry|Parries]] a wind blade, the wind blade will be deflected towards Maguu Kenki, dealing '''525% Traveler's ATK''' as {{Color|Anemo CRIT DMG}} on hit.
+|desc_2 = Performs a slash, sending a wind blade towards the player's current location, dealing '''50% ATK''' as {{Color|Anemo DMG}}. This attack is repeated 1/3/5 times in quick succession in Normal/Hard/Pro difficulties respectively. If the player Perfect [[Parry|Parries]] a wind blade, the wind blade will be deflected towards Maguu Kengou, dealing '''525% Traveler's ATK''' as {{Color|Anemo CRIT DMG}} on hit.
 |file_2_2 = Maguu Kenki Event Blustering Blade 2
 |caption_2_2 = Parried
 
 |name_3 = Iai: Shadowrush
 |desc_3 = Enters Iai stance and rushes toward the player while drawing its sword, dealing '''60% ATK''' as {{Color|Anemo DMG}}.
-* If the player is '''7m''' or farther from the Maguu Kenki after the initial attack, follows up with '''Blustering Blade'''.
-* If the player is less than '''7m''' from the Maguu Kenki after the initial attack, follows up with the Cryo version of '''Shadowsword: Ichimonji''' and '''Pushing Mask'''.
+* If the player is '''7&nbsp;m''' or farther from Maguu Kengou after the initial attack, follows up with '''Blustering Blade'''.
+* If the player is less than '''7&nbsp;m''' from Maguu Kengou after the initial attack, follows up with the {{Cryo}} version of '''Shadowsword: Ichimonji''' and '''Pushing Mask'''.
 |file_3 = Maguu Kenki Event Iai Shadowrush Blustering Blade Followup
 |caption_3 = Followed by Blustering Blade
 |file_3_2 = Maguu Kenki Event Iai Shadowrush Slashes Pushing Mask Followup
 |caption_3_2 = Followed by Shadowsword: Ichimonji
 
 |name_4 = Shadowsword: Ichimonji
-|desc_4 = Maguu Kenki and a phantom each performs up to 3 consecutive sword slashes at the player. With each slash, the Maguu Kenki deals '''50% ATK''' as {{Color|Anemo DMG}} while the phantom deals '''30% ATK''' as {{Color|Anemo DMG}} or {{Color|Cryo DMG}}.
-* If the player runs '''7m''' or farther away from the Maguu Kenki, performs 2 consecutive slashes and a follow-up attack.
-** If the Phantom is {{Anemo}}, Maguu Kenki may follow up with '''Blustering Blade'''.
-** If the Phantom is {{Cryo}}, Maguu Kenki may follow up with '''Iai: Shadowrush'''.
+|desc_4 = Maguu Kengou and a Shadowsword each performs up to 3 consecutive sword slashes at the player. With each slash, Maguu Kengou deals '''50% ATK''' as {{Color|Anemo DMG}} while the Shadowsword deals '''30% ATK''' as {{Color|Anemo DMG}} or {{Color|Cryo DMG}}.
+* If the player runs '''7&nbsp;m''' or farther away from Maguu Kengou, performs 2 consecutive slashes and a follow-up attack.
+** If the Shadowsword is {{Anemo}}, Maguu Kengou may follow up with '''Blustering Blade'''.
+** If the Shadowsword is {{Cryo}}, Maguu Kengou may follow up with '''Iai: Shadowrush'''.
 ** If '''Shadowsword: Ichimonji''' is used as a follow up to '''Iai: Shadowrush''', follows up with '''Pushing Mask'''.
-* If the Phantom is {{Anemo}} and the player runs '''7m''' or farther away before the 2nd slash, also follows up with '''Iai: Shadowrush'''.
+* If the Shadowsword is {{Anemo}} and the player runs '''7&nbsp;m''' or farther away before the 2nd slash, also follows up with '''Iai: Shadowrush'''.
 |file_4 = Maguu Kenki Event Ichimonji Anemo Full
 |caption_4 = Anemo Full Combo
 |file_4_2 = Maguu Kenki Event Ichimonji Anemo Followup
@@ -245,28 +245,28 @@ In the [[Warrior's Spirit]] event, the event-exclusive variant titled '''"Maguu 
 |caption_4_5 = Cryo Followed by Iai: Shadowrush
 
 |name_5 = Pushing Mask
-|desc_5 = Summons a large oni mask in front of it before pushing it forward to deal '''100% ATK''' as {{Color|AoE Anemo DMG}}.
+|desc_5 = Summons a large oni mask in front of it before pushing it forward to deal '''100% ATK''' as {{Color|Anemo DMG}}.
 
 |name_6 = Exploding Mask
-|desc_6 = Summons a large oni mask at the player's position that swirls uncontrollably before exploding, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+|desc_6 = Summons a large oni mask at the player's position that swirls uncontrollably before exploding, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
 
 |name_7 = Dual Sword Burst
-|desc_7 = Summons an additional sword, charging up before slamming the ground for a wide [[AoE]], dealing '''80% ATK''' as both {{Color|AoE Anemo DMG}} and {{Color|AoE Cryo DMG}}. This attack is only used in Pro difficulty.
+|desc_7 = Summons an additional sword, charging up before slamming the ground for a wide [[AoE]], dealing '''80% ATK''' as both {{Color|Anemo DMG}} and {{Color|Cryo DMG}}. This attack is only used in Pro difficulty.
 |file_7 = Maguu Kenki Event Frost Dive
 
 |name_8 = Pseudo Tengu Sweeper
-|desc_8 = Maguu Kenki has a [[Fury]] meter that fills by '''1''' point when hit by the player's attacks.
+|desc_8 = Maguu Kengou has a [[Fury]] meter that fills by '''1''' point when hit by the player's attacks.
 * The Fury meter's maximum will change depending on the difficulty:
 ** Normal: '''8''' points
 ** Hard: '''12''' points
 ** Pro: '''20''' points
-* In Pro difficulty only, if the player stops hitting Maguu Kenki for 5 seconds, the Fury meter will deplete by '''3''' points every '''3s'''.
-If the Fury meter reaches its maximum, enters Iai stance and charges, [[Vacuum Field|dragging]] the player into its area of effect, before quickly slashing around itself, dealing '''100% ATK''' as {{Color|AoE Anemo DMG}}. The phantom appears close to the Maguu Kenki and slashes over a larger area, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+* In Pro difficulty only, if the player stops hitting Maguu Kengou for 5 seconds, the Fury meter will deplete by '''3''' points every '''3s'''.
+If the Fury meter reaches its maximum, enters Iai stance and charges, [[Vacuum Field|dragging]] the player into its area of effect, before quickly slashing around itself, dealing '''100% ATK''' as {{Color|Anemo DMG}}. The Shadowsword appears close to Maguu Kengou and slashes over a larger area, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
 |file_8_2 = Maguu Kenki Event Pseudo Tengu Sweeper 2
 |caption_8_2 = Parried
 
 |name_9 = Dash
-|desc_9 = Performs up to 5 short dashes creating afterimage behind to approach the player.
+|desc_9 = Performs up to 5 short dashes creating afterimages behind itself to approach the player.
 
 |name_10 = Ichimonji
 |desc_10 = Slashes at the player three times, dealing '''50% ATK''' as {{Color|Physical DMG}} with each slash. This attack is only used after being hit by the player's Perfect Parry counterattack.
@@ -289,12 +289,15 @@ While Maguu Kenki's high mobility in its 2nd phase may hinder the player's abili
 {{Achievement Topic Table|topic=Maguu Kenki}}
 
 ==Descriptions==
-{{Description|An autonomous humanoid swordsman. It is said that this machine was made using the culminative memory of the first-generation master of a certain sword technique known for its secret technique, the Tengu Sweeper. However, it malfunctioned, lost control, and was ultimately discarded. Some sing that this blade-ghost wanders about in a place where fate was severed.|[[Adventurer Handbook]]}}
-{{Description|A disciplined mechanical swordsman.<br />Doesn't seem to have the ability nor will to speak, but instead only seeks to communicate with crossed swords.<br />It is said that this machine was made using the memories of the first-generation master of a certain sword school. However, it malfunctioned, lost control, and was ultimately discarded.<br />Some sing that the machine's spirit still lingers in the place where its fate was ended. They also say that the vicious mask that serves as its guard was inspired by a famous [[oni]] from that era.|[[Archive]]}}
+{{Description|An autonomous humanoid swordsman. It is said that this machine was made using the culminative memory of the [[Iwakura Michihiro|first-generation master]] of a certain sword technique known for its secret technique, the Tengu Sweeper. However, it malfunctioned, lost control, and was ultimately discarded. Some sing that this blade-ghost wanders about in a place where fate was severed.|[[Adventurer Handbook]]}}
+{{Description|A disciplined mechanical swordsman.<br>Doesn't seem to have the ability nor will to speak, but instead only seeks to communicate with crossed swords.<br>It is said that this machine was made using the memories of the first-generation master of a [[Iwakura Clan|certain sword school]]. However, it malfunctioned, lost control, and was ultimately discarded.<br>Some sing that the machine's spirit still lingers in the place where its fate was ended. They also say that the vicious mask that serves as its guard was inspired by a famous [[oni]] from that era.|[[Archive]]}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=combat}}
 
 ==Trivia==
 * The Maguu Kenki in the [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]]'s title is ''Humanoid Automaton of Unknown Origin''.
-* Maguu Kenki is the "General" mentioned in the Conch Retrospection series [[Echoing Tales/Story#IV: My .22Hero.22|"My Hero"]], from the [[Echoing Tales]] event. During [[Dodo-King of the Sea: Lying in Wait]], it is suggested that it may have defended the inhabitants of the islands from [[hilichurls]].<ref>{{Ref/Quest|Dodo-King of the Sea: Lying in Wait|quote='''Diluc''': Hmm... There is a hilichurl presence here. Perhaps this machine's indiscriminate attack is actually supposed to be targeted at hilichurls... to protect the inhabitants.}}</ref>
+* Maguu Kenki is the "General" mentioned in the Conch Retrospection series [[Echoing Tales/Story#IV: My "Hero"|"My Hero"]], from the [[Echoing Tales]] event. During ''[[Dodo-King of the Sea: Lying in Wait]]'', it is suggested that it may have defended the inhabitants of the islands from [[hilichurls]].<ref>{{Ref/Quest|Dodo-King of the Sea: Lying in Wait|quote='''Diluc:''' Hmm... There is a hilichurl presence here. Perhaps this machine's indiscriminate attack is actually supposed to be targeted at hilichurls... to protect the inhabitants.}}</ref>
 * True to its name, Maguu Kenki appears to have puppet strings attached to various parts of its body.
 * The Maguu Kenki on the Golden Apple Archipelago was stolen by [[Ako Domeki]]'s crew, who had it with them when they got shipwrecked on the Golden Apple Archipelago 500 years ago.
 * Despite being released in [[Version 1.6]], Maguu Kenki did not appear in the "Living Beings" section of the [[Archive]] until [[Version 2.0]] when Inazuma was released. The boss could not be reviewed even if the player had defeated it before in the Golden Apple Archipelago, until the player found and defeated it in Inazuma.
@@ -335,12 +338,12 @@ Golden Apple Archipelago Central Platform 1.png|Far shot of the Maguu Kenki site
 |zht     = 魔偶劍鬼
 |zht_rm  = Mó'ǒu Jiàn'guǐ
 |zh_tl   = Magic Puppet Sword Demon
-|ja      = {{Rubi|魔|ま|偶|ぐう|剣|けん|鬼|き}}
+|ja      = 魔偶剣鬼
 |ja_rm   = Maguu Kenki
 |ja_tl   = Magic Puppet Sword Demon
-|ko      = 꼭두각시 {{Rubi|검|劍|귀|鬼}}
+|ko      = 꼭두각시 {{tt|검귀|劍鬼}}
 |ko_rm   = Kkokdugaksi Geomgwi
-|ko_tl   = Puppet Sword Oni
+|ko_tl   = Puppet Sword Demon
 |es      = Oni Espadachín
 |es_tl   = Oni Swordsman
 |fr      = Lame oni
@@ -366,7 +369,9 @@ Golden Apple Archipelago Central Platform 1.png|Far shot of the Maguu Kenki site
 
 [[de:Maguu Kenki]]
 [[es:Oni Espadachín]]
+[[fr:Lame oni]]
 [[ja:魔偶剣鬼]]
 [[pt-br:Maguu Kenki]]
 [[ru:Магу кэнки]]
 [[th:Maguu Kenki]]
+[[zh:魔偶劍鬼]]

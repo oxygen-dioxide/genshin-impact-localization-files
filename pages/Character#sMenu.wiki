@@ -1,10 +1,4 @@
-{{CustomTabs
-|tab1 = Overview
-|tab2 = List
-|tab3 = Comparison
-|tab4 = Menu
-|tab5 = Gallery
-}}
+{{CharacterSystemTabs}}
 {{Terminology Infobox
 |title = Character Menu
 |image = Icon Character.png
@@ -13,9 +7,9 @@
 }}
 The '''Character Menu''' is the place where the player can view their current character configuration, it is unlocked by default upon starting the game. There are several key aspects of the character menu that the player should be aware of that will optimize the character experience. The character menu can be opened via the white icon in the upper right that looks like the [[Traveler]]'s head. It can also accessed from [[Paimon Menu]] > [[Character]]. The default keybind for opening the Character Menu is {{key|C}}.
 
-A scrollable list of characters the player currently owns as well as any [[Character Trial|trial characters]] currently in the party will be at the top or the left of the screen, depending on the device. Clicking on the bottom left button [[File:Icon List.png|20px|link=]] with four squares will display a tiled list of all of the owned characters and to quick-select a character.
+A scrollable list of characters the player currently owns as well as any [[Character Trial|trial characters]] currently in the party will be at the top or the left of the screen, depending on the device. Clicking on the bottom left button [[File:Icon List.png|20px|link=]] with four squares will display the "Character Selection" screen, a tiled list of all of the owned characters and to quick-select a character. Filters include Element and Weapons. In this menu, the star button at the bottom right of the screen can toggle the "Astral Mark Status". Characters with this mark appear at the top of the list and can be filtered in or out.
 
-The character's element and [[Vision]] is in the upper left corner, showing the character's [[region]] as well as the element the character resonates with. This element color will also be in the background and the element in question will fill the background both visually and aurally in the form of [[Electro|lightning]], [[Hydro|water bubbles]], [[Cryo|snow]], [[Pyro|ash]], [[Anemo|wind]], [[Dendro|leaves]], or [[Geo|rocks]].
+An icon in the upper left corner shows a [[Vision]] that reflects the selected character's [[region]] and [[element]] as well as [[Arkhe]] alignment if applicable. The Vision icon is purely representative of gameplay mechanics and does not reflect the character's actual Vision object on their model. The character's element also fills the background of the character menu both visually and aurally in the form of {{Color|Electro|lightning}}, {{Color|Hydro|water bubbles}}, {{Color|Cryo|snow}}, {{Color|Pyro|ash}}, {{Color|Anemo|wind}}, {{Color|Dendro|leaves}}, or {{Color|Geo|rocks}}.
 
 ==Attributes==
 The '''[[Attributes]]''' menu lists the various attributes a character has. It is also the menu by which the player levels up characters (and claim level-up rewards) and access the [[Dressing Room]] to change their [[Character Outfit|outfits]] and [[Wind Glider]]. Directly underneath the character level is a quick summary of character stats, including Max HP, ATK, DEF, Elemental Mastery and Max Stamina. Clicking on the "Details" button will show more character stats. Underneath this button are the [[Friendship Level]] of the character and a brief description of them.
@@ -23,14 +17,28 @@ The '''[[Attributes]]''' menu lists the various attributes a character has. It i
 The "Level Up" or "Ascend" button will allow the player to level up or ascend the character. To ascend, a certain amount [[Character Ascension Material]]s are needed. To level up the character, [[Character EXP]] materials (like [[Wanderer's Advice]], [[Adventurer's Experience]], or [[Hero's Wit]]) are needed. Future ascensions' required materials and rewards can be previewed via the button that has a four-pointed star with an up arrow.
 
 ==Weapons==
-The '''[[Weapons]]''' menu shows the current weapon a character has equipped. Selecting "Switch" or "Enhance" will allow the character's weapon to be changed to another one. A certain [[Weapon Ascension Material]]s are required to ascend a weapon.
+The '''[[Weapons]]''' menu shows the current weapon a character has equipped. Selecting "Switch" or "Enhance" will allow the character's weapon to be changed to another one. Certain [[Weapon Ascension Material]]s are required to ascend a weapon.
 
-The name of the weapon is at the top in the side panel, alongside the base ATK and main affix. The rarity is listed next, then the current weapon level. The refinement level is listed underneath, alongside its weapon buff.
+The name of the weapon is at the top in the side panel, alongside the base ATK and main affix. The quality is listed next, then the current weapon level. The refinement level is listed underneath, alongside its weapon buff.
 
 ==Artifacts==
-The '''[[Artifacts]]''' menu shows the currently applied artifacts to a character. If a number is listed by it, it means that the character has that many empty artifact slots that have artifacts available to equip.
+The '''[[Artifact]]s''' menu shows the currently equipped artifacts that a character has. If a number is listed by it, it means that the character has that many empty artifact slots that have artifacts available to equip.
 
-Artifacts can be leveled up by choosing "Enhance" and switched to by selecting "Equip" or "Switch". Artifacts consume other artifacts as well as [[Artifact EXP]] materials to level up. Details as to the buffs the artifacts are provide can be found by clicking on "Artifact Details". A few basic artifact buffs are listed above that button.
+Artifacts can be leveled up by choosing "Enhance" and switched to by selecting "Equip" or "Switch." Artifacts consume other artifacts as well as [[Artifact EXP]] materials to level up. Details as to the buffs the artifacts provide can be found by clicking on "Artifact Details." A few basic artifact buffs are listed above that button. If the character is equipped with 2, 4 or more artifacts of the same set, the Artifact Set Bonus(es) will be shown beneath the basic artifact buffs listed on the screen.
+
+===Recommendations===
+Select {{Icon|Artifact Set Recommendation}} to display three recommended artifact set combinations for the current character.
+
+In the Switch menu, select "Recommended Affixes" to display the recommended main affix and pick rate for the current artifact piece for the current character.
+
+Recommendations are based on data sourced from recently active players.
+
+===Fast Equip===
+Quick Configuration will automatically generate a lineup of artifacts based on recent active player data. The lineup of artifacts will be generated from those that are not equipped on any other characters.
+
+Custom Configuration can be filtered based on settings laid out for each character. Settings include "Main Affix" for Sands of Eon, Goblet of Eonothem, and Circlet of Logos, "Set Type" from 1 artifact set for 4-piece set or 2 artifact sets for two 2-piece sets, "Minor Affixes" from up to 3 priority and 3 secondary, and "Other Options" to generate from only artifacts that are not equipped or all. After filtering artifacts, a lineup will be generated. If the generated lineup is unsatisfactory, alternative artifacts that match the filters can be checked to be switched. The filters and generated lineup are saved for each character.
+
+Before equipping the artifact lineup, the Set Bonus and Attribute Preview is available to see the changes from the currently equipped artifacts.
 
 ==Constellation==
 The '''[[Constellation]]''' menu gives details on a character's [[constellation]]. The character's constellation shape is shown along with the constellations themselves. All characters start at Constellation Level 0. Each additional [[Stella Fortuna]] (or [[Memories]] in the [[Traveler]]'s case) will activate the next constellation level. After reaching Constellation Level 6, a character will have reached its maximum constellation level.
@@ -39,7 +47,121 @@ The '''[[Constellation]]''' menu gives details on a character's [[constellation]
 The '''[[Talents]]''' menu provides information on a character's [[talents]]. Clicking on an individual talent will show a preview of the next level's effects and level up the talent if applicable, provided that the players has sufficient [[Talent Level-Up Material]]s. All characters have a [[Normal Attack]], an [[Elemental Skill]], an [[Elemental Burst]], a [[1st Ascension Passive]], and a [[4th Ascension Passive]] talent. All characters except the [[Traveler]] have a [[Utility Passive]]. Some characters have additional talents like an [[Alternate Sprint]] or a secondary Utility Passive.
 
 ==Profile==
-The '''Profile''' menu displays additional character details, stories, and [[voice-over]]s for a character. Additional character details include voice actor credits for the chosen audio language, [[birthday]], affiliation, [[Vision]]/[[Gnosis]] [[element]], and [[Constellation/Gallery|Constellation]] name. Clicking on "Story" and "Voice-Over" will show a character's stories and voice-overs. Stories and voice-overs that have not yet been unlocked cannot be accessed, but their names can be viewed. There are two lists of voice-overs for story and combat.
+The '''Profile''' menu displays additional character details, stories, and [[voice-over]]s for a character. Additional character details include voice actor credits for the chosen audio language, [[birthday]], affiliation, [[Vision]]/[[Gnosis]] [[element]], and [[Constellation/Gallery|Constellation]] name. Clicking on "Story" and "Voice-Over" will show a character's stories and voice-overs. Stories and voice-overs that have not yet been unlocked cannot be accessed, but their names can be viewed. There are two lists of voice-overs for story and combat. [[Neuvillette]], on the other hand, has a special counterpart of the Vision/Gnosis, that being the Ancient Dragon's Authority on his Profile menu.
+
+==Tutorial==
+{{Tutorial
+|image1 = Tutorial Character Menu Affix.png
+|text1  = When you view an [[artifact]] in the Character Menu, the Main Affix and Minor Affixes on said artifact that suit this [[character]] will be {{Color|help|highlighted}}.<br>{{Color|help|This function can be toggled on and off in your [[Settings]].}}
+}}
+
+==Gallery==
+===Nation and Element Icons===
+====Mondstadt====
+<gallery widths="150" spacing="small">
+Vision Mondstadt Anemo.png|{{Anemo}}
+Vision Mondstadt Geo.png|{{Geo}}
+Vision Mondstadt Electro.png|{{Electro}}
+<!--Vision Mondstadt Dendro.png|{{Dendro}}-->
+Vision Mondstadt Hydro.png|{{Hydro}}
+Vision Mondstadt Pyro.png|{{Pyro}}
+Vision Mondstadt Cryo.png|{{Cryo}}
+</gallery>
+
+====Liyue====
+<gallery widths="150" spacing="small">
+Vision Liyue Anemo.png|{{Anemo}}
+Vision Liyue Geo.png|{{Geo}}
+Vision Liyue Electro.png|{{Electro}}
+Vision Liyue Dendro.png|{{Dendro}}
+Vision Liyue Hydro.png|{{Hydro}}
+Vision Liyue Pyro.png|{{Pyro}}
+Vision Liyue Cryo.png|{{Cryo}}
+</gallery>
+
+====Inazuma====
+<gallery widths="150" spacing="small">
+Vision Inazuma Anemo.png|{{Anemo}}
+Vision Inazuma Geo.png|{{Geo}}
+Vision Inazuma Electro.png|{{Electro}}
+Vision Inazuma Dendro.png|{{Dendro}}
+Vision Inazuma Hydro.png|{{Hydro}}
+Vision Inazuma Pyro.png|{{Pyro}}
+Vision Inazuma Cryo.png|{{Cryo}}
+</gallery>
+
+====Sumeru====
+<gallery widths="150" spacing="small">
+Vision Sumeru Anemo.png|{{Anemo}}
+<!--Vision Sumeru Geo.png|{{Geo}}-->
+Vision Sumeru Electro.png|{{Electro}}
+Vision Sumeru Dendro.png|{{Dendro}}
+Vision Sumeru Hydro.png|{{Hydro}}
+Vision Sumeru Pyro.png|{{Pyro}}
+Vision Sumeru Cryo.png|{{Cryo}}
+</gallery>
+
+====Fontaine====
+;Pneuma
+<gallery widths="150" spacing="small">
+<!--Vision Fontaine Anemo Pneuma.png|{{Anemo}}-->
+<!--Vision Fontaine Geo Pneuma.png|{{Geo}}-->
+<!--Vision Fontaine Electro Pneuma.png|{{Electro}}-->
+Vision Fontaine Dendro Pneuma.png|{{Dendro}}
+Vision Fontaine Hydro Pneuma.png|{{Hydro}}
+Vision Fontaine Pyro Pneuma.png|{{Pyro}}
+Vision Fontaine Cryo Pneuma.png|{{Cryo}}
+</gallery>
+
+;Ousia
+<gallery widths="150" spacing="small">
+Vision Fontaine Anemo Ousia.png|{{Anemo}}
+Vision Fontaine Geo Ousia.png|{{Geo}}
+Vision Fontaine Electro Ousia.png|{{Electro}}
+<!--Vision Fontaine Dendro Ousia.png|{{Dendro}}-->
+Vision Fontaine Hydro Ousia.png|{{Hydro}}
+Vision Fontaine Pyro Ousia.png|{{Pyro}}
+Vision Fontaine Cryo Ousia.png|{{Cryo}}
+</gallery>
+
+====Natlan====
+<gallery widths="150" spacing="small">
+Vision Natlan Anemo.png|{{Anemo}}
+Vision Natlan Geo.png|{{Geo}}
+Vision Natlan Electro.png|{{Electro}}
+Vision Natlan Dendro.png|{{Dendro}}
+Vision Natlan Hydro.png|{{Hydro}}
+Vision Natlan Pyro.png|{{Pyro}}
+Vision Natlan Cryo.png|{{Cryo}}
+</gallery>
+
+====Snezhnaya====
+<gallery widths="150" spacing="small">
+<!--Vision Snezhnaya Anemo.png|{{Anemo}}-->
+<!--Vision Snezhnaya Geo.png|{{Geo}}-->
+<!--Vision Snezhnaya Electro.png|{{Electro}}-->
+<!--Vision Snezhnaya Dendro.png|{{Dendro}}-->
+Vision Snezhnaya Hydro.png|{{Hydro}}
+Vision Snezhnaya Pyro.png|{{Pyro}}
+<!--Vision Snezhnaya Cryo.png|{{Cryo}}-->
+</gallery>
+
+====Traveler's Alignment====
+<gallery widths="150" spacing="small">
+Vision Traveler None.png|[[Unaligned]]
+Vision Traveler Anemo.png|{{Anemo}}
+Vision Traveler Geo.png|{{Geo}}
+Vision Traveler Electro.png|{{Electro}}
+Vision Traveler Dendro.png|{{Dendro}}
+Vision Traveler Hydro.png|{{Hydro}}
+Vision Traveler Pyro.png|{{Pyro}}
+<!--Vision Traveler Cryo.png|{{Cryo}}-->
+</gallery>
+
+====Others====
+<gallery widths="150" spacing="small">
+Vision Aloy Cryo.png|[[Aloy]]'s {{Cryo}} Vision
+</gallery>
 
 ==Change History==
 {{Change History|1.0}}
@@ -49,4 +171,4 @@ The '''Profile''' menu displays additional character details, stories, and [[voi
 
 [[ja:キャラクター/メニュー]]
 [[ru:Персонажи/Меню]]
-[[tr:Karakterler/Menü]]
+[[uk:Персонажі/Меню]]

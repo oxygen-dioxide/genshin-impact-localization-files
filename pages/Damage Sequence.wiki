@@ -9,10 +9,10 @@ This mechanic is commonly used by fast-hitting [[enemy]] attacks to improve the 
 __TOC__
 ==Overview==
 Similar to [[Internal Cooldown]]'s Gauge Sequence, Damage Sequence is handled by two properties: '''Reset Interval''' and '''Hit Sequence'''.
-* The '''Hit Sequence''' adds an additional multiplier to damage instances based on the amount of times the corresponding type of damage has been dealt. For example, if a Hit Sequence is [1, 0.5, 0.25, 0.1], the second instance of damage will be multiplied by 0.5, the third instance of damage will be multiplied by 0.25, and all remaining instances of damage will be multiplied by 0.1 until the sequence is reset.
+* The '''Hit Sequence''' adds an additional multiplier to damage instances based on the number of times the corresponding type of damage has been dealt. For example, if a Hit Sequence is [1, 0.5, 0.25, 0.1], the second instance of damage will be multiplied by 0.5, the third instance of damage will be multiplied by 0.25, and all remaining instances of damage will be multiplied by 0.1 until the sequence is reset.
 * The '''Reset Interval''' is a timer that starts when the first instance of damage is dealt and will reset the Hit Sequence when it reaches 0.
 
-Note that Damage Sequence is counted separately for each target.
+Note that Damage Sequence is counted separately for each source and each target.
 {{Preview
 |f1 = Damage Sequence Preview
 }}
@@ -26,37 +26,37 @@ For example, the [[Thunder Manifestation]]'s "Slicing Storm" attack has a Hit Se
 {| class="fandom-table"
 ! Reset Interval (s) !! Hit Sequence !! Affected Attacks
 |-
-| 0.5 || 1, 0 || [[Electro-Charged]]<br />[[Overloaded]]<br />{{Character|Yae Miko|20|nobr=1}}: {{Talent|Spiritfox Sin-Eater|text=Charged Attack|20|nobr=1}}<br />{{Enemy|Cryo Hypostasis|20}}: Icicle Barrage, Frost Wheel<br />{{Enemy|Cryo Regisvine|20}}: Faceplant (Ice Waves)<br />{{Enemy|Cryo Whopperflower|20}}: Crystalline Spikes<br />{{Enemy|Electro Whopperflower|20}}: Orb Lay (Contact DMG), Focused Laser<br />{{Enemy|Pyro Regisvine|20}}: Faceplant (Explosion Waves)<br />{{Enemy|Primo Geovishap|20}}: Pyro-Infused Stone (DoT)<br />{{Enemy|Pyro Hypostasis|20}}: Fire Ball<br />{{Enemy|Jadeplume Terrorshroom|20}}: Volatile Spore Cloud, Summon Fungi<br />{{Enemy|Ruin Drake: Skywatch|20}}: Tail Slice<br />{{Enemy|Grounded Geoshroom|20}}: Head Slam Explosion<br />{{Enemy|Aeonblight Drake|20}}: Machine Gun Volley<br />{{Enemy|Dendro Hypostasis|20}}: Mucky Orbs Residual
+| 0.5 || 1, 0 || [[Electro-Charged]]<br>[[Overloaded]]<br>{{Character|Yae Miko|20|nobr=1}}: {{Talent|Spiritfox Sin-Eater|text=Charged Attack|20|nobr=1}}<br>{{Enemy|Cryo Hypostasis|20}}: Icicle Barrage, Frost Wheel<br>{{Enemy|Cryo Regisvine|20}}: Faceplant (Ice Waves)<br>{{Enemy|Cryo Whopperflower|20}}: Crystalline Spikes<br>{{Enemy|Electro Whopperflower|20}}: Orb Lay (Contact DMG), Focused Laser<br>{{Enemy|Pyro Regisvine|20}}: Faceplant (Explosion Waves)<br>{{Enemy|Primo Geovishap|20}}: Pyro-Infused Stone (DoT)<br>{{Enemy|Pyro Hypostasis|20}}: Fire Ball<br>{{Enemy|Jadeplume Terrorshroom|20}}: Volatile Spore Cloud, Summon Fungi<br>{{Enemy|Ruin Drake: Skywatch|20}}: Tail Slice<br>{{Enemy|Grounded Geoshroom|20}}: Head Slam Explosion<br>{{Enemy|Aeonblight Drake|20}}: Machine Gun Volley<br>{{Enemy|Dendro Hypostasis|20}}: Mucky Orbs Residual<br>{{Enemy|Anemo Hilichurl Rogue|20}}: Shuriken Throw
 |-
-| 0.5 || 1, 1, 0 || [[Shattered]]<br />[[Superconduct]]<br />[[Swirl]]<br />[[Bloom]]<br />[[Hyperbloom]]<br />[[Burgeon]]
+| 0.5 || 1, 1, 0 || [[Shattered]]<br>[[Superconduct]]<br>[[Swirl]]<br>[[Bloom]]<br>[[Hyperbloom]]<br>[[Burgeon]]
 |-
 | 0.5 || 1, 1, 1, 0 || {{Character|Kamisato Ayaka|20|nobr=1}}: {{Talent|Kamisato Art: Kabuki|text=Charged Attack|20|nobr=1}}
 |-
-| 1 || 1, 0.5, 0.25, 0.1 || {{Enemy|Coral Defenders|20}}: Homing Shards, Critical Assist, Double Beams, Spike Field<br />{{Enemy|Fatui Skirmisher - Geochanter Bracer|20}}: Rock Strike (Enhanced)<br />{{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}}: Rifle Shot (Enhanced)<br />{{Enemy|Primordial Bathysmal Vishap|20}}: Waterwheels, Spike Field<br />{{Enemy|Stonehide Lawachurl|20}}: Explosion Trails<br />{{Enemy|The Great Snowboar King|20}}: Royal Family<br />{{Enemy|Thunder Manifestation|20}}: Slicing Storm, Sundering Plumes<br />{{Enemy|Azhdaha|20}}: Fractal Lance, The King's Roar (Hydro)<br />{{Enemy|Hydro Hypostasis|20}}: Wave Slam<br />{{Enemy|Cryo Regisvine|20}}: Rotary Spray<br />{{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}}: Laser Zone, Tracking Laser, Laser Barrage, Reshaper Parts Beam, Repulse<br />{{Enemy|Primal Construct: Reshaper|20}}: Invisible State Beam<br />{{Enemy|Primal Construct: Repulsor|20}}: Repulse<br />{{Enemy|Eremite Floral Ring-Dancer|20}}: Melee Combo Part 3
+| 1 || 1, 0.5, 0.25, 0.1 || {{Enemy|Coral Defenders|20}}: Homing Shards, Critical Assist, Double Beams, Spike Field<br>{{Enemy|Fatui Skirmisher - Geochanter Bracer|20}}: Rock Strike (Enhanced)<br>{{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}}: Rifle Shot (Enhanced)<br>{{Enemy|Primordial Bathysmal Vishap|20}}: Waterwheels, Spike Field<br>{{Enemy|Stonehide Lawachurl|20}}: Explosion Trails<br>{{Enemy|The Great Snowboar King|20}}: Royal Family<br>{{Enemy|Thunder Manifestation|20}}: Slicing Storm, Sundering Plumes<br>{{Enemy|Azhdaha|20}}: Fractal Lance, The King's Roar (Hydro)<br>{{Enemy|Hydro Hypostasis|20}}: Wave Slam<br>{{Enemy|Cryo Regisvine|20}}: Rotary Spray<br>{{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}}: Laser Zone, Tracking Laser, Laser Barrage, Reshaper Parts Beam, Repulse<br>{{Enemy|Primal Construct: Reshaper|20}}: Invisible State Beam<br>{{Enemy|Primal Construct: Repulsor|20}}: Repulse<br>{{Enemy|Eremite Floral Ring-Dancer|20}}: Melee Combo Part 3<br>{{Enemy|Construction Specialist Mek|20}}: Rapid Frostfire<br>{{Enemy|Tainted Water-Spouting Phantasm|20}}: Raging Stream
 |-
-| 1 || 1, 0.25, 0.1 || {{Enemy|Black Shadow: Hayate no Gotoku|20}}: Thunderblades, Thunderwheels<br />{{Enemy|Canine Bunshin|20}}: Thunderwheels<br />{{Enemy|Taroumaru|link=Taroumaru/Enemy|20}}: Thunderblades<br />{{Enemy|Golden Wolflord|link=Taroumaru/Enemy|20}}: Laser Beam, Tornado
+| 1 || 1, 0.25, 0.1 || {{Enemy|Black Shadow: Hayate no Gotoku|20}}: Thunderblades, Thunderwheels<br>{{Enemy|Canine Bunshin|20}}: Thunderwheels<br>{{Enemy|Taroumaru|link=Taroumaru/Enemy|20}}: Thunderblades<br>{{Enemy|Golden Wolflord|link=Taroumaru/Enemy|20}}: Laser Beam, Tornado
 |-
-| 1 || 1, 0 || {{Enemy|Geovishap Hatchling|20}}: Spinning Attack<br />{{Enemy|Pyro Hypostasis|20}}: Molten Fist
+| 1 || 1, 0 || {{Enemy|Geovishap Hatchling|20}}: Spinning Attack<br>{{Enemy|Pyro Hypostasis|20}}: Molten Fist
 |-
-| 0.4 || 1, 0 || {{Enemy|Ruin Cruiser|20}}: Orb Lay<br />{{Enemy|Ruin Destroyer|20}}: Energy Field<br />{{Enemy|Ruin Scout|20}}: Orb Lay, Headbutt<br />{{Enemy|Ruin Grader|20}}: Orb Attack, Focused Laser, Clap (Laser)<br />{{Enemy|Geovishap|20}}: Electro Orbs<br />{{Enemy|Perpetual Mechanical Array|20}}: Energy Cannon
+| 0.4 || 1, 0 || {{Enemy|Ruin Cruiser|20}}: Orb Lay<br>{{Enemy|Ruin Destroyer|20}}: Energy Field<br>{{Enemy|Ruin Scout|20}}: Orb Lay, Headbutt<br>{{Enemy|Ruin Grader|20}}: Orb Attack, Focused Laser, Clap (Laser)<br>{{Enemy|Geovishap|20}}: Electro Orbs<br>{{Enemy|Perpetual Mechanical Array|20}}: Energy Cannon
 |-
 | 1 || 1, 0.7, 0.5, 0.2, 0.1 || {{Enemy|Thunder Manifestation|20}}: Walls of Lightning
 |-
-| 0.5 || 1, 0.5, 0.25, 0 || {{Enemy|Primo Geovishap|20}}: Elemental Breath<br />{{Enemy|Abyss Lector: Violet Lightning|20}}: Thunder Wave
+| 0.5 || 1, 0.5, 0.25, 0 || {{Enemy|Primo Geovishap|20}}: Elemental Breath<br>{{Enemy|Abyss Lector: Violet Lightning|20}}: Thunder Wave
 |-
-| 1 || 1, 0.5, 0.25, 0 || {{Enemy|Abyss Lector: Violet Lightning|20}}: Abyssal Light, The Violet Lightning
+| 1 || 1, 0.5, 0.25, 0 || {{Enemy|Abyss Lector: Violet Lightning|20}}: Abyssal Light, The Violet Lightning<br>{{Enemy|Abyss Herald: Frost Fall|20}}: The Dark Frost Falls<br>{{Enemy|Iniquitous Baptist|20}}: Abyssal Light
 |-
-| 1 || 1, 0.5, 0.25 || {{Enemy|Abyss Herald: Wicked Torrents|20}}: Abyssal Roar<br />{{Enemy|Coral Defenders|20}}: Rapid Fire
+| 1 || 1, 0.5, 0.25 || {{Enemy|Abyss Herald: Wicked Torrents|20}}: Abyssal Roar<br>{{Enemy|Coral Defenders|20}}: Rapid Fire
 |-
-| 1 || 1, 1, 1, 0 || {{Enemy|Cryo Hypostasis|20}}: Homing Icicles<br />{{Enemy|Pyro Hypostasis|20}}: Fire Serpent, Missiles<br />{{Enemy|Stretchy Geo Fungus|20}}: Roll<br />{{Enemy|Grounded Geoshroom|20}}: Charge
+| 1 || 1, 1, 1, 0 || {{Enemy|Cryo Hypostasis|20}}: Homing Icicles<br>{{Enemy|Pyro Hypostasis|20}}: Fire Serpent, Missiles<br>{{Enemy|Stretchy Geo Fungus|20}}: Roll<br>{{Enemy|Grounded Geoshroom|20}}: Charge
 |-
 | 1 || 1, 0, 0, 0, 0, 1, 0 || {{Enemy|Electro Abyss Mage|20}}: Electro Ring
 |-
 | 0.5 || 1, 0, 0, 1, 0, 0, 1, 0 || {{Enemy|Shadowy Husk: Line Breaker|20}}: Impaling Torrent
 |-
-| 0.3 || 1, 0.5, 0.2, 0 || {{Enemy|Ruin Drake: Earthguard|20}}: Charge<br />{{Enemy|Aeonblight Drake|20}}: Airborne Charge
+| 0.3 || 1, 0.5, 0.2, 0 || {{Enemy|Ruin Drake: Earthguard|20}}: Charge<br>{{Enemy|Aeonblight Drake|20}}: Airborne Charge
 |-
-| 0.5 || 1, 0.3, 0.1 || {{Enemy|Ruin Drake: Skywatch|20}}: Confetti<br />{{Enemy|Ruin Drake: Earthguard|20}}: Confetti<br />{{Enemy|Aeonblight Drake|20}}: Confetti
+| 0.5 || 1, 0.3, 0.1 || {{Enemy|Ruin Drake: Skywatch|20}}: Confetti<br>{{Enemy|Ruin Drake: Earthguard|20}}: Confetti<br>{{Enemy|Aeonblight Drake|20}}: Confetti
 |-
 | 0.3 || 1, 0.3, 0.1 || {{Enemy|Ruin Drake: Skywatch|20}}: Machine Gun Volley
 |-
@@ -68,15 +68,17 @@ For example, the [[Thunder Manifestation]]'s "Slicing Storm" attack has a Hit Se
 |-
 | 1 || 1, 0.5, 0.1, 0.1, 0.1, 0.01 || {{Enemy|Jadeplume Terrorshroom|20}}: Spore Rain
 |-
-| 2 || 1, 0.1 || {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}}: Laser Zone Final Attacks<br />{{Enemy|Primal Construct: Prospector|20}}: Prospect
+| 6 || 1, 0.5, 0 || {{Enemy|Jadeplume Terrorshroom|20}}: Rapid Pecks
+|-
+| 2 || 1, 0.1 || {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}}: Laser Zone Final Attacks<br>{{Enemy|Primal Construct: Prospector|20}}: Prospect
 |-
 | 2 || 1, 0.3, 0.1, 0.1, 0.1, 0.1, 0.1, 0.01 || {{Enemy|Aeonblight Drake|20}}: Missile Barrage
 |-
-| 2 || 1, 0.5, 0.25, 0.1 || {{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Arm Combo Spray<br />{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Shard Rain<br />{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Eruption Trails<br />{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Bomb Scatter<br />{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Cosmic Bombardment<br />{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Ground Nirvana Engine
+| 2 || 1, 0.5, 0.25, 0.1 || {{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Arm Combo Spray<br>{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Shard Rain<br>{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Eruption Trails<br>{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Bomb Scatter<br>{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Cosmic Bombardment<br>{{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Ground Nirvana Engine
 |-
 | 1.6 || 1, 0.5, 0.25 || {{Enemy|Everlasting Lord of Arcane Wisdom|20}}: Laser Array
 |-
-| 2 || 1, 0.5, 0.2, 0.1 || {{Enemy|Pyro Hypostasis|20}}: Fire Serpent
+| 2 || 1, 0.5, 0.2, 0.1 || {{Enemy|Pyro Hypostasis|20}}: Fire Serpent<br>{{Enemy|Overgrown Breacher Primus|20}}: Stressed State Lushmissiles<br>{{Enemy|Large Overgrown Breacher Primus|20}}: Stressed State Lushmissiles
 |-
 | 0.5 || 1, 0.25 || {{Enemy|Eremite Floral Ring-Dancer|20}}: Returning Ringblade
 |-
@@ -86,7 +88,7 @@ For example, the [[Thunder Manifestation]]'s "Slicing Storm" attack has a Hit Se
 |-
 | 3 || 1, 1, 0.5, 0.5, 0.01 || {{Enemy|Setekh Wenut|20}}: Spit
 |-
-| 4 || 1, 0.25, 0.125, 0.125, 0.01 || {{Enemy|Setekh Wenut|20}}: Stormbreath
+| 4 || 1, 0.25, 0.125, 0.125, 0.01 || {{Enemy|Setekh Wenut|20}}: Stormbreath<br>{{Enemy|Sky-Searing Pyro Regisvine|20}}: Flamethrower
 |-
 | 2 || 1, 0.25, 0.125, 0.125, 0.01 || {{Enemy|Setekh Wenut|20}}: Pressurized Beam
 |-
@@ -95,6 +97,64 @@ For example, the [[Thunder Manifestation]]'s "Slicing Storm" attack has a Hit Se
 | 7 || 1, 0.5, 0.2, 0.1, 0.1, 0.1, 0.01 || {{Enemy|Setekh Wenut|20}}: Floating State
 |-
 | 2 || 1, 1, 0.5, 0.25, 0.1 || {{Enemy|Consecrated Red Vulture|20}}: Phagocytic Barrage
+|-
+| 4 || 1, 0.15 || {{Enemy|Black Serpent Knight: Rockbreaker Ax|20}}: Frenzied Spin
+|-
+| 5 || 1, 0.5, 0.1, 0.1 || {{Enemy|Guardian of Apep's Oasis|20}}: Remote Crusher
+|-
+| 5 || 1, 0.5, 0.25, 0.1 || {{Enemy|Guardian of Apep's Oasis|20}}: Triple Slam, Helix Shower
+|-
+| 3 || 1, 0 || {{Enemy|Guardian of Apep's Oasis|20}}: Aftershocks of the Apocalypse
+|-
+| 2 || 1, 0.5, 0.3, 0.2 || {{Enemy|Predatory Proliferating Organism|20}}: Repeated Bite
+|-
+| 1 || 1, 0.5, 0.25, 0 || {{Enemy|Hydro Hilichurl Rogue|20}}: Slime Throw
+|-
+| 0.2 || 1, 0 || {{Enemy|Hydro Hilichurl Rogue|20}}: Bubble Cannon Bubble DMG<br>{{Enemy|Anemo Hilichurl Rogue|20}}: Floating State
+|-
+| 2 || 1, 0.5, 0.2, 0.1 || {{Enemy|Consecrated Fanged Beast|20}}: Combo Attack 1 Vine Trails
+|-
+| 2 || 1, 0.5, 0.2 || {{Enemy|Iniquitous Baptist|20}}: Orbs of Cleansing, Orbs of Incineration
+|-
+| 3 || 1, 0.5, 0.25, 0.1 || {{Enemy|Emperor of Fire and Iron|20}}: Volcanic Eruption
+|-
+| 3 || 1, 0.1 || {{Enemy|Emperor of Fire and Iron|20}}: Molten Trail Explosions
+|-
+| 1 || 1, 0.3, 0.2 || {{Enemy|Blubberbeast|20}}: Belly Drum
+|-
+| 2 || 1, 0.25, 0.1 || {{Enemy|Nimble Harvester Mek|20}}: Charge
+|-
+| 2 || 1, 0.3, 0.1 || {{Enemy|Annihilation Specialist Mek|20}}: Thundercall
+|-
+| 2.5 || 1, 0.5, 0.2, 0.1 || {{Enemy|Annihilation Specialist Mek|20}}: Slashing Pirouette
+|-
+| 1 || 1, 0.5 || {{Enemy|Construction Specialist Mek|20}}: Pizza Cutter First and Final
+|-
+| 2 || 1, 0.2, 0.1, 0.1, 0.01 || {{Enemy|Construction Specialist Mek|20}}: Pizza Cutter Cutting<br>{{Enemy|Construction Specialist Mek|20}}: Spin
+|-
+| 2 || 1, 0.3, 0.1 || {{Enemy|Construction Specialist Mek|20}}: Triple Melee
+|-
+| 2 || 1, 1, 0.5, 0.25, 0.1 || {{Enemy|Icewind Suite|20}}: Coppelia Spin
+|-
+| 1 || 1, 0.1 || {{Enemy|Icewind Suite|20}}: Coppelia's Climax: Wind Pulses
+|-
+| 1 || 1, 0.25 || {{Enemy|Icewind Suite|20}}: Coppelia's Climax: Coppelius Ice Blades
+|-
+| 1 || 1, 0.5, 0.1 || {{Enemy|Geological Survey Mek|20}}: Shockwaves
+|-
+| 2 || 1, 0.5, 0.2, 0.1, 0.1, 0.1, 0.01 || {{Enemy|Suppression Specialist Mek|20}}: Suppressive Fire
+|-
+| 2 || 1, 0.7, 0.5, 0.2 || {{Enemy|Suppression Specialist Mek|20}}: Missile Barrage
+|-
+| 3 || 1, 1, 0.5, 0.5, 0.2, 0.2, 0.1 || {{Enemy|Large Overgrown Breacher Primus|20}}: Abyssal Barrage
+|-
+| 1 || 1, 1, 1, 1, 0.1 || {{Enemy|Tainted Water-Splitting Phantasm|20}}: Local Legend Splashes<br>{{Enemy|Tainted Water-Spouting Phantasm|20}}: Local Legend Splashes
+|-
+| 5 || 1, 0.5 || {{Enemy|All-Devouring Narwhal|20}}: Astral Downpour (Beam Initial DMG)
+|-
+| 1 || 1, 0.5, 0.5, 0.25 || {{Enemy|The Knave|20}}: Bloodtide Banquet Phase 2 Version 2 (6 × 40% ATK DMG)
+|-
+| 1 || 1, 0.25 || {{Enemy|The Knave|20}}: Sundering Convergence (2 × 50% ATK DMG), Slash and Hook Follow-Up (3 × 30% ATK DMG)
 |}
 
 ==Navigation==

@@ -1,0 +1,200 @@
+{{Talent Infobox
+|image         = Talent Surfshark Wavebreaker.png
+|character     = Mualani
+|type          = Elemental Skill
+|info          = Combining her mastery of speed and the waves and water, Mualani can surf anytime, anywhere.<br>After using this skill, Mualani will gain 60 Nightsoul points and enter the [[Nightsoul's Blessing]] state.<br><br>'''Nightsoul's Blessing: Mualani'''<br>Continuously consume Nightsoul points. When they are depleted or when the skill is used again, Mualani's Nightsoul's Blessing will end. The state itself has the following traits:<br><ul><li>Mualani mounts her Sharky Surfboard, increasing Mualani's [[Movement SPD]] and [[interruption resistance]]. Mualani can move on [[water]] and [[Liquid Phlogiston]] while this state is active, and she will take no DMG from the latter.</li><li>Normal Attacks will be converted to Sharky's Bites, dealing Nightsoul-aligned {{Color|Hydro DMG}} based on Mualani's [[Max HP]]. Sharky's Bites can be used in mid-air. DMG dealt this way is considered Normal Attack DMG.</li><li>When she makes contact with opponents in this state, Mualani applies "Marked as Prey" to them and gains 1 Wave Momentum stack. Max 3 stacks. 1 stack can be gained from the same opponent every 0.7s.</li></ul><br>'''Wave Momentum and Marked as Prey'''<br>When Mualani uses Sharky's Bite, her DMG dealt increases based on Wave Momentum stacks. When she has 3 stacks, a Normal Attack will use Sharky's Surging Bite instead, further increasing her DMG and removing all her stacks afterward.<br>When Sharky's Bites hit opponents Marked as Prey, that mark is removed, and she will fire Shark Missiles at up to 5 nearby opponents Marked as Prey, dealing DMG to them equal to this Sharky's Bite instance and clearing their Marks. If more than 1 opponent is the target of Sharky's Bite and Shark Missiles, the DMG dealt will decrease, with 28% being the maximum decrease when at least 3 opponents are targeted.
+|CD            = 6s
+|energyCost    = 
+|scale_att1    = Max HP
+|scale_att2    = 
+|utility1      = Movement SPD
+|utility2      = Interruption Resistance
+|utility3      = Nightsoul's Blessing
+|utility4      = Nightsoul Point
+|utility5      = Water Traversing
+|utility6      = Plunging Attack Disabled
+|utility7      = Charged Attack Disabled
+|arkhe         = 
+}}
+{{Description|First off, Sharky is a freshwater shark on top of being a surfboard. Second, it's not that it wants to eat for real, just that it definitely bites for real.}}
+'''Surfshark Wavebreaker''' is [[Mualani]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{Talent Note|particles|Sharky's Bite or Sharky's Surging Bite|4.5}}
+** This particle generation can only be triggered once per surf.
+* The '''6s''' cooldown starts once Mualani's Nightsoul's Blessing state ends and not upon the Elemental Skill cast.
+* While Mualani is surfing, the [[Fall DMG]] she takes is reduced by '''50%'''.
+* {{Point Consumption|<!--
+-->Base:10/s;<!--
+-->Dash:10;<!--
+-->Hold Sprint:16/s;<!--
+-->Jump:2;<!--
+-->Dash Jump:24
+}}
+* {{Point Consumption|name=[[Phlogiston]]|<!--
+-->Base:8/s;<!--
+-->Dash:8;<!--
+-->Hold Sprint:12.8/s;<!--
+-->Jump:1.6;<!--
+-->Dash Jump:16
+}}
+* Each enemy will enter a '''0.7s''' CD before they can be contacted again for another Wave Momentum stack.
+* Sharky's Surging Bite is a projectile attack, and it may hit an enemy other than the one originally targeted upon input. If this occurs, the accidentally-hit target will still be hit by a Shark Missile, while the intended target will not take any DMG at all.
+
+:<gallery>
+Talent Surfshark Wavebreaker 2.png|Normal Attack
+Talent Surfshark Wavebreaker 3.png|Jump
+Talent Surfshark Wavebreaker 4.png|Sprint
+</gallery>
+
+;<big>Passive Effects</big>
+* {{Talent Note|ascension|1|Heat-Resistant Freshwater Floater}}
+
+;<big>Constellation Effects</big>
+* {{Talent Note|constellation|1|The Leisurely "Meztli"...}}
+* {{Talent Note|constellation|2|Mualani, Going All Out!}}
+* {{Talent Note|constellation|3|Surfing Atop Joyous Seas}}
+* {{Talent Note|constellation|6|Spirit of the Springs' People}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Sharky's Bite
+|gu      = 1U
+|icdtag  = none
+|poise   = 80
+|impulse = 2
+
+|title2   = Sharky's Surging Bite
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 150
+|impulse2 = 2
+
+|title3   = Shark Missile
+|gu3      = 1U
+|icdtag3  = none
+|poise3   = 80
+|impulse3 = 2
+
+|title4   = Surging Shark Missile
+|gu4      = 1U
+|icdtag4  = none
+|poise4   = 150
+|impulse4 = 2
+
+|title5   = Surfing Collision (Damageless)
+|gu5      = &mdash;
+|icdtag5  = none
+|poise5   = 25
+|impulse5 = 3
+}}
+
+==Preview==
+{{Preview
+|file1    = Surfshark Wavebreaker Movement Preview
+|caption1 = Movement
+
+|file2    = Surfshark Wavebreaker Combat Preview
+|caption2 = Combat
+}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|levels=13
+|order=sharky'sbitebasedmg,wavemomentumdmgbonus,sharky'ssurgingbiteadditionaldmgbonus,sharky'sbitecd,nightsoulpointlimit,cd
+|titles=Sharky's Bite Base DMG (Max HP%),Wave Momentum DMG Bonus (Max HP%/Stack),Sharky's Surging Bite Additional DMG Bonus (Max HP%),Sharky's Bite CD,Nightsoul Point Limit,CD
+|sharky'sbitebasedmg_1=8.68
+|sharky'sbitebasedmg_2=9.33
+|sharky'sbitebasedmg_3=9.98
+|sharky'sbitebasedmg_4=10.85
+|sharky'sbitebasedmg_5=11.5
+|sharky'sbitebasedmg_6=12.15
+|sharky'sbitebasedmg_7=13.02
+|sharky'sbitebasedmg_8=13.89
+|sharky'sbitebasedmg_9=14.76
+|sharky'sbitebasedmg_10=15.62
+|sharky'sbitebasedmg_11=16.49
+|sharky'sbitebasedmg_12=17.36
+|sharky'sbitebasedmg_13=18.45
+|wavemomentumdmgbonus_1=4.34
+|wavemomentumdmgbonus_2=4.67
+|wavemomentumdmgbonus_3=4.99
+|wavemomentumdmgbonus_4=5.42
+|wavemomentumdmgbonus_5=5.75
+|wavemomentumdmgbonus_6=6.08
+|wavemomentumdmgbonus_7=6.51
+|wavemomentumdmgbonus_8=6.94
+|wavemomentumdmgbonus_9=7.38
+|wavemomentumdmgbonus_10=7.81
+|wavemomentumdmgbonus_11=8.25
+|wavemomentumdmgbonus_12=8.68
+|wavemomentumdmgbonus_13=9.22
+|sharky'ssurgingbiteadditionaldmgbonus_1=21.7
+|sharky'ssurgingbiteadditionaldmgbonus_2=23.33
+|sharky'ssurgingbiteadditionaldmgbonus_3=24.95
+|sharky'ssurgingbiteadditionaldmgbonus_4=27.13
+|sharky'ssurgingbiteadditionaldmgbonus_5=28.75
+|sharky'ssurgingbiteadditionaldmgbonus_6=30.38
+|sharky'ssurgingbiteadditionaldmgbonus_7=32.55
+|sharky'ssurgingbiteadditionaldmgbonus_8=34.72
+|sharky'ssurgingbiteadditionaldmgbonus_9=36.89
+|sharky'ssurgingbiteadditionaldmgbonus_10=39.06
+|sharky'ssurgingbiteadditionaldmgbonus_11=41.23
+|sharky'ssurgingbiteadditionaldmgbonus_12=43.4
+|sharky'ssurgingbiteadditionaldmgbonus_13=46.11
+|sharky'sbitecd=1.8s
+|nightsoulpointlimit=60
+|cd=6s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Mualani}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Other Languages==
+{{Other Languages
+|en      = Surfshark Wavebreaker
+|zhs     = 踏鲨破浪
+|zhs_rm  = Tàshā Pòlàng
+|zht     = 踏鯊破浪
+|zht_rm  = Tàshā Pòlàng
+|zh_tl   = Step on the Shark, Break the Waves
+|ja      = サメサメウェーブブレイカー
+|ja_rm   = Same-Same Weebu-Bureikaa
+|ja_tl   = Shark-Shark Wavebreaker
+|ko      = 파도를 가르는 샤크
+|ko_tl   = 
+|es      = Escualosurf rompeolas
+|es_tl   = Wavebreaker Sharksurf
+|fr      = Squalisurf brise-vagues
+|fr_tl   = Wave-Breaking Sharksurfing
+|ru      = Волнорезная сёрф-акула
+|ru_tl   = Wavebreaking Surf-Shark
+|th      = Surfshark Wavebreaker
+|vi      = Cá Mập Xuyên Sóng
+|vi_tl   = 
+|de      = Haifischreitende Wellenspalterin
+|de_tl   = Sharkriding Wavesplitter
+|id      = Surfshark Wavebreaker
+|pt      = Tubarão Surfista das Ondas
+|pt_tl   = 
+|tr      = Dalgakıran Köpek Balığı
+|tr_tl   = 
+|it      = Squalo spaccaonde
+|it_tl   = 
+}}
+
+==Change History==
+{{Change History|5.0}}
+
+==Navigation==
+{{Talent Navbox|Mualani}}
+
+[[es:Escualosurf rompeolas]]
+[[fr:Squalisurf brise-vagues]]
+[[ru:Волнорезная сёрф-акула]]
+[[th:Surfshark Wavebreaker]]
+[[tr:Dalgakıran Köpek Balığı]]
+[[vi:Cá Mập Xuyên Sóng]]

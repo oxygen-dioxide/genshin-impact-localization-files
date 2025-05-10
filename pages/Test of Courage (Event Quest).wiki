@@ -9,19 +9,17 @@
 |actType       = Part
 |actNum        = I
 |part          = 1
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 * Reach [[Adventure Rank]] 30
 * Complete [[Ritou Escape Plan]]
-|characters    = Arataki Itto; Ei; Gorou; Hanyuuda Chizuru; Kaedehara Kazuha; Kamisato Ayaka; Kamisato Ayato; Paimon; Shikanoin Heizou; Traveler; Hitomi<!-- as Shrine Maiden-->; Yoshiharu; Hitotsume Kozou; Kappa; Youko
+|characters    = Arataki Itto; Ei; Gorou; Hanyuuda Chizuru; Kaedehara Kazuha; Kamisato Ayaka; Kamisato Ayato; Paimon; Shikanoin Heizou; Traveler; Hitomi (Inazuma)<!-- as Shrine Maiden-->; Yoshiharu; Hitotsume Kozou; Kappa; Youko
 |startLocation = [[Kamisato Estate]], [[Inazuma]]
 |region        = Inazuma
 |area          = Narukami Island
 |subarea       = Kamisato Estate
 |next          = Akitsu Yuugei
-|mora          = 20,000
-|primogems     = 30
-|other         = {{Card|Hero's Wit|2}}{{Card|Mystic Enhancement Ore|4}}
+|rewards       = Primogem*30;Mora*20,000;Hero's Wit*2;Mystic Enhancement Ore*4
+|otherRewards  = 
 * Unlocks the [[Akitsu Kimodameshi]] Event
 |voiced        = yes
 }}
@@ -42,13 +40,13 @@
 
 ==Gameplay Notes==
 * During the ''Test of Courage'' step, the party will be limited to only the Traveler, and the chosen partner will follow behind the player. Some functions, such as [[Normal Attack]], [[Jump]], and [[Co-Op Mode]] will be disabled.
-** The player can get separated from their partner during this quest. When this happens, '''"You get separated from your partner during the Test of Courage"''' text will appear on screen and the player will be brought back near the [[Hitomi|Shrine Maiden]], restarting the quest with their chosen partner.
+** The player can get separated from their partner during this quest. When this happens, '''"You get separated from your partner during the Test of Courage"''' text will appear on screen and the player will be brought back near the [[Hitomi (Inazuma)|Shrine Maiden]], restarting the quest with their chosen partner.
 
 ==Dialogue==
 {{Quest Description|You heard that the Test of Courage is being held. Maybe you should head to the Yashiro Commission to have a look...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(On obtaining quest)
-:{{A|Vo sdeq001 1 paimon 01.ogg}} '''Paimon:''' Hey (Traveler), you'll never guess what Paimon just heard!
+:{{A|Vo sdeq001 1 paimon 01.ogg}} '''Paimon:''' Hey {{Traveler}}, you'll never guess what Paimon just heard!
 :{{A|Vo sdeq001 1 paimon 02.ogg}} '''Paimon:''' The [[Yashiro Commission]] is holding a Test of Courage event! They've even prepared rewards for participants who can pass the event's challenges!
 :{{A|Vo sdeq001 1 paimon 03.ogg}} '''Paimon:''' But uh, if it's a "Test of Courage," that means it's probably gonna be scary, right? So, if we join, Paimon's gonna let you go first...
 
@@ -77,7 +75,7 @@
 :{{A|vo sdeq001 2 ayato 11.ogg}} '''Kamisato Ayato:''' The first person to locate the specified item will be declared the winner of that round.
 :{{A|vo sdeq001 2 paimon 08.ogg}} '''Paimon:''' "The winner of that round"? Huh, so there's gonna be multiple rounds to the Test of Courage?
 :{{A|vo sdeq001 2 ayato 12.ogg}} '''Kamisato Ayato:''' Precisely. There will be a total of three rounds in the Test of Courage because the event was actually orchestrated by three different parties.
-:{{A|vo sdeq001 2 ayato 13.ogg}} '''Kamisato Ayato:''' Merchants raised event funding, the [[Kamisato Clan]] provided the grounds, and the [[Grand Narukami Shrine]] provided consulting services.
+:{{A|vo sdeq001 2 ayato 13.ogg}} '''Kamisato Ayato:''' Merchants raised event funding, the [[Kamisato Clan]] provided the grounds, and the [[Grand Narukami Shrine (Faction)|Grand Narukami Shrine]] provided consulting services.
 :{{A|vo sdeq001 2 ayato 14.ogg}} '''Kamisato Ayato:''' As such, each of these three parties have selected one item for participants to find, so naturally, the event will require three rounds to determine the winners.
 :{{A|vo sdeq001 2 paimon 09.ogg}} '''Paimon:''' Ah, Paimon gets it. So basically, it boils down to searching for stuff in Chinju Forest.
 :{{A|vo sdeq001 2 paimon 10.ogg}} '''Paimon:''' We'll need to find one item each round, for a total of three items after three rounds. Simple enough for Paimon!
@@ -88,7 +86,7 @@
 :{{A|vo sdeq001 2 ayato 18.ogg}} '''Kamisato Ayato:''' Of course, this event is intended to measure your courage. If you withdraw from the event because you become too frightened, then you might as well forget about seeing any rewards.
 :{{A|vo sdeq001 2 ayato 19.ogg}} '''Kamisato Ayato:''' I'm curious myself how many people will be brave enough to make it to the end. It'll be most disappointing if nobody claims the prizes we've prepared.
 :{{A|vo sdeq001 2 paimon 12.ogg}} '''Paimon:''' Don't worry, those prizes are as good as ours!
-:{{A|vo sdeq001 2 paimon 13.ogg}} '''Paimon:''' Even though just the thought of this event sends shivers down Paimon's little spine, (Traveler) will be brave enough, no doubt about that!
+:{{A|vo sdeq001 2 paimon 13.ogg}} '''Paimon:''' Even though just the thought of this event sends shivers down Paimon's little spine, {{Traveler}} will be brave enough, no doubt about that!
 :{{DIcon}} That's right!
 ::{{A|vo sdeq001 2 ayato 20a 1.ogg}} '''Kamisato Ayato:''' I appreciate your enthusiasm. Hehe, I look forward to seeing how you perform.
 :{{DIcon}} I'm not really that amazing...
@@ -102,9 +100,9 @@
 :{{DIcon}} He's just pulling your leg.
 ::{{A|vo sdeq001 2 paimon 15b 1.ogg}} '''Paimon:''' Heh, Paimon thought so, too... Well, in that case, there's nothing to be scared of!
 :{{A|vo sdeq001 2 paimon 16.ogg}} '''Paimon:''' Anyway, we've got an event to win... Grand prize, here we come!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You spoke with Ayato about the rules of the Test of Courage. Go to the site and check it out.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Leave the Yashiro Commission)
 :{{A|vo sdeq001 3 itto 01.ogg}} '''Arataki Itto:''' Hold it right there! Haha, well if it isn't my compadres! Didn't expect to see you here.
 :{{Introductory Note|character=Arataki Itto}}
@@ -147,12 +145,12 @@
 :{{A|vo sdeq001 3 paimon 12.ogg}} '''Paimon:''' Huh, maybe laughter is the key to making fear go away! If things get scary later, we can all start laughing at the top of our lungs!
 :{{DIcon}} Okay.
 :{{DIcon}} Pretty sure that would just make things even scarier...
-:{{A|vo sdeq001 3 itto 25.ogg}} '''Arataki Itto:''' Hey! (Traveler), Paimon, enough chitchat! We're gonna miss the event!
+:{{A|vo sdeq001 3 itto 25.ogg}} '''Arataki Itto:''' Hey! {{Traveler}}, Paimon, enough chitchat! We're gonna miss the event!
 :{{A|vo sdeq001 3 paimon 13.ogg}} '''Paimon:''' Ah! Coming!
 :;(Heizou watches from a distance)
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You encountered Itto outside the Yashiro Commission. He decided to "spice up" the Test of Courage for himself, but you don't know what will happen...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo sdeq001 4 paimon 01.ogg}} '''Paimon:''' Alright, this looks like the place.
 :{{A|vo sdeq001 4 paimon 02.ogg}} '''Paimon:''' Uh, is it just Paimon, or does it look a lot scarier than usual here?
@@ -170,9 +168,9 @@
 :{{A|vo sdeq001 4 paimon 06.ogg}} '''Paimon:''' And there he goes, running off and still talking to himself...
 :{{A|vo sdeq001 4 paimon 07.ogg}} '''Paimon:''' Well, we were here to join the event anyway. Guess we'll just have to pass Itto's little "test" along with whatever else the event throws at us.
 :{{A|vo sdeq001 4 paimon 08.ogg}} '''Paimon:''' Oh, seems one of the event staff is over there. Let's go talk to her.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Itto suggested that as you proceed with the Test of Courage as usual, he will hide in the shadows and scare people from time to time. You should ask the member of staff for details.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to the Shrine Maiden)
 :{{A|vo sdeq001 5 hitomi 01.ogg}} '''Shrine Maiden:''' Aha, you must be here to participate in the Test of Courage?
 :{{A|vo sdeq001 5 paimon 01.ogg}} '''Paimon:''' Yep, that's right! Uh, judging from your outfit, you must be one of the shrine maidens from the Grand Narukami Shrine!
@@ -186,7 +184,7 @@
 :{{A|vo sdeq001 5 hitomi 07.ogg}} '''Shrine Maiden:''' Just enjoy the calm before the storm... The first round is about to begin. Have you already decided on your partner?
 :{{A|vo sdeq001 5 paimon 03.ogg}} '''Paimon:''' Ah, you finally said something that Paimon can understand! Yep, the two of us will be partners! We always make the best team!
 :{{A|vo sdeq001 5 hitomi 08.ogg}} '''Shrine Maiden:''' ...Hmm?
-:{{A|vo sdeq001 5 hitomi 09.ogg}} '''Shrine Maiden:''' But it appears your names were written together as a single participant... "(Traveler) and Paimon."
+:{{A|vo sdeq001 5 hitomi 09.ogg}} '''Shrine Maiden:''' But it appears your names were written together as a single participant... "{{Traveler}} and Paimon."
 :{{A|vo sdeq001 5 hitomi 10.ogg}} '''Shrine Maiden:''' Which means, you'll have to find yourselves another partner in order to join the event.
 :{{A|vo sdeq001 5 paimon 04.ogg}} '''Paimon:''' Wait, are you serious!?
 :{{A|vo sdeq001 5 paimon 05.ogg}} '''Paimon:''' Ugh, if only Itto hadn't gone running off on his own, we could have had a partner! Now what should we do?
@@ -196,11 +194,11 @@
 
 ;(Talk to the Shrine Maiden again)
 :{{A|vo dialog sdeq001 hitomi 01.ogg}} '''Shrine Maiden:''' Have you found a partner yet?
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The staff said you needed another partner. Who will it be...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Kamisato Ayaka)
-:{{A|vo sdeq001 7 ayaka 01.ogg}} '''Kamisato Ayaka:''' Oh, (Traveler) and Paimon! Greetings!
+:{{A|vo sdeq001 7 ayaka 01.ogg}} '''Kamisato Ayaka:''' Oh, {{Traveler}} and Paimon! Greetings!
 :{{A|vo sdeq001 7 paimon 01.ogg}} '''Paimon:''' Huh, it's Ayaka! Are you here for the Test of Courage, too?
 :{{A|vo sdeq001 7 ayaka 02.ogg}} '''Kamisato Ayaka:''' Yes, my brother told me that the event would be "most interesting," and suggested that I personally participate.
 :{{A|vo sdeq001 7 ayaka 03.ogg}} '''Kamisato Ayaka:''' I have never experienced a Test of Courage event, so I don't really know what to expect.
@@ -228,7 +226,7 @@
 
 ;(Talk to Gorou)
 :{{A|vo sdeq001 8 paimon 01.ogg}} '''Paimon:''' Gorou!
-:{{A|vo sdeq001 8 gorou 01.ogg}} '''Gorou:''' Ah (Traveler), Paimon! I didn't expect to run into you here!
+:{{A|vo sdeq001 8 gorou 01.ogg}} '''Gorou:''' Ah {{Traveler}}, Paimon! I didn't expect to run into you here!
 :{{Introductory Note|Gorou}}
 :{{A|vo sdeq001 8 paimon 02.ogg}} '''Paimon:''' We're here for the Test of Courage! How about you?
 :{{A|vo sdeq001 8 gorou 02.ogg}} '''Gorou:''' Well... I was originally headed to Yae Publishing House to hand in responses for this month's issue of That's Life.
@@ -288,9 +286,9 @@
 :{{DIcon}} I still need to give it some more thought.
 ::{{A|vo dialog sdeq001 kazuha 02b 1.ogg}} '''Kaedehara Kazuha:''' Sure, please don't worry about me.
 ::{{A|vo dialog sdeq001 kazuha 02b 2.ogg}} '''Kaedehara Kazuha:''' The point of friends gathering is to have a good time. Worrying will only dampen the mood.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Time to go meet the staff with your partner.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to the Shrine Maiden)
 :{{A|vo sdeq001 13 hitomi 01.ogg}} '''Shrine Maiden:''' Ah, it looks like you've found yourselves a partner.
 :{{A|vo sdeq001 13 hitomi 02.ogg}} '''Shrine Maiden:''' The event is just about to start. I will now reveal the item you'll be looking for in the first round.
@@ -308,7 +306,7 @@
 :{{A|vo sdeq001 14 ayaka 02.ogg}} '''Kamisato Ayaka:''' There was a wandering samurai who, while crossing the forest at night, noticed that the familiar scenery was beginning to change right in front of him.
 :{{A|vo sdeq001 14 ayaka 03.ogg}} '''Kamisato Ayaka:''' The man stopped and realized that it was as if he was in another world. Strange creatures that didn't appear to be human were all staring at him...
 :{{A|vo sdeq001 14 paimon 01.ogg}} '''Paimon:''' Whaa! That's super scary! Paimon doesn't even dare look at all these trees after hearing that story!
-:{{A|vo sdeq001 14 paimon 02.ogg}} '''Paimon:''' Will we really be okay...? If anything weird jumps out at us, teach it a lesson, (Traveler)!
+:{{A|vo sdeq001 14 paimon 02.ogg}} '''Paimon:''' Will we really be okay...? If anything weird jumps out at us, teach it a lesson, {{Traveler}}!
 
 ;(If the Traveler idles)
 :{{A|vo sdeq001 23 ayaka 01.ogg}} '''Kamisato Ayaka:''' Would you like to stop for a rest?
@@ -359,9 +357,7 @@
 :{{DIcon}} Let's try not to scare ourselves.
 :{{DIcon}} You're getting scared over nothing.
 :{{A|vo sdeq001 19 paimon 05.ogg}} '''Paimon:''' Oh, maybe you're right, Paimon will try to calm down... Let's try some together!
-
-:'''You drink some Dango Milk with Ayaka...'''
-
+:{{Black Screen|You drink some Dango Milk with Ayaka...}}
 :{{A|vo sdeq001 19 paimon 06.ogg}} '''Paimon:''' Mmm, tastes great!
 :{{A|vo sdeq001 19 ayaka 04.ogg}} '''Kamisato Ayaka:''' Indeed. Any fears I had a moment ago seem to have been dissipated by the Dango Milk.
 :{{A|vo sdeq001 19 ayaka 05.ogg}} '''Kamisato Ayaka:''' And now that I look around, this is Chinju Forest as I have always known it. After making it here, it doesn't seem nearly as frightening.
@@ -426,16 +422,14 @@
 :{{A|Vo sdeq001 29 gorou 01.ogg}} '''Gorou:''' *sniff* *sniff* That's the scent of Dango Milk &mdash; we've found it!
 :{{A|Vo sdeq001 29 paimon 01.ogg}} '''Paimon:''' Oh! It really is Dango Milk! A lot of it, too.
 :{{A|Vo sdeq001 29 paimon 02.ogg}} '''Paimon:''' And look there's a scarecrow here. Now who could have knocked it over&mdash; W&mdash; Whaa!!! It's standing up!
-:{{A|Vo sdeq001 29 paimon 03.ogg}} '''Paimon:''' Ghost! It's a ghost! (Traveler), save Paimon!
+:{{A|Vo sdeq001 29 paimon 03.ogg}} '''Paimon:''' Ghost! It's a ghost! {{Traveler}}, save Paimon!
 :{{DIcon}} It's only a trick meant to scare people.
 :{{DIcon}} There's nothing to be scared of.
 :{{A|Vo sdeq001 29 paimon 04.ogg}} '''Paimon:''' Huh, really? Whew, that almost scared Paimon's socks right off.
 :{{A|Vo sdeq001 29 paimon 05.ogg}} '''Paimon:''' Oh, looks like we managed to be the first ones here! Hehe, with so much Dango Milk, it wouldn't hurt if we drink a couple of bottles, right?
 :{{A|Vo sdeq001 29 gorou 02.ogg}} '''Gorou:''' Is that permitted?
 :{{A|Vo sdeq001 29 paimon 06.ogg}} '''Paimon:''' Everyone knows that Dango Milk spoils quickly if it's left out. Besides, we should try some!
-
-:'''You drink some Dango Milk with Gorou...'''
-
+:{{Black Screen|You drink some Dango Milk with Gorou...}}
 :{{A|Vo sdeq001 29 gorou 03.ogg}} '''Gorou:''' Mmm, that's delicious! I would like to buy some to bring back to Watatsumi Island.
 :{{A|Vo sdeq001 29 gorou 04.ogg}} '''Gorou:''' I bet the troops would be happy to have such a good-tasting drink. It's unfortunate that it spoils easily...
 :{{A|Vo sdeq001 29 gorou 05.ogg}} '''Gorou:''' Let's split the remaining bottles and start heading back. Ready?
@@ -564,14 +558,14 @@
 :{{A|vo sdeq001 44 paimon 13.ogg}} '''Paimon:''' Paimon doesn't remember hearing anything about a game on the beach from Ayato... You think that activity's also planned by the Yashiro Commission?
 :{{A|vo sdeq001 44 paimon 14.ogg}} '''Paimon:''' Oh, the more Paimon thinks about it, the scarier it feels... Ugh, this whole Test of Courage thing is keeping Paimon on edge!
 :{{A|vo sdeq001 44 paimon 15.ogg}} '''Paimon:''' Anyway, the first round of the event should be finished by now, so let's head back!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You heard about mysterious games on the beach from Ei. But it doesn't seem to be open yet. You should go back and have a look first.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo sdeq001 45 itto 01.ogg}} '''Arataki Itto:''' So? What'd you think? Do I know how to scare people or what!?
 :{{A|vo sdeq001 45 paimon 01.ogg}} '''Paimon:''' Oh uh, let Paimon think...
 :{{A|vo sdeq001 45 paimon 02.ogg}} '''Paimon:''' Uh... Paimon was hiding behind you the entire time, so Paimon didn't really notice Itto scaring us at all...
-:{{A|vo sdeq001 45 paimon 03.ogg}} '''Paimon:''' Uh, Paimon will leave this one to (Traveler)! So, was Itto scary or not?
+:{{A|vo sdeq001 45 paimon 03.ogg}} '''Paimon:''' Uh, Paimon will leave this one to {{Traveler}}! So, was Itto scary or not?
 :{{DIcon}} He was very subtle...
 ::{{A|vo sdeq001 45 itto 02a 1.ogg}} '''Arataki Itto:''' What? No way! Listen, every time I made my move, I scared the living daylights out of everyone!
 :{{DIcon}} You're the scariest oni ever.
@@ -579,9 +573,9 @@
 :{{A|vo sdeq001 45 itto 03.ogg}} '''Arataki Itto:''' Even I had no idea I possessed such talent... But this is just what I needed to hear! Now I'll show 'em &mdash; the gang will know just how terrifying their leader can be!
 :{{A|vo sdeq001 45 itto 04.ogg}} '''Arataki Itto:''' Anyway, I already figured out which path they'll be taking, so let's wait nearby and scare the pants off 'em!
 :{{A|vo sdeq001 45 itto 05.ogg}} '''Arataki Itto:''' Hahaha, now things are getting interesting! You ready? We've got people to scare!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|After you commented on Itto's scaring techniques, he decides to hide and scare the Arataki Gang's members a little...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo sdeq001 46 itto 01.ogg}} '''Arataki Itto:''' Shh... I think we're getting close.
 :{{A|vo sdeq001 46 itto 02.ogg}} '''Arataki Itto:''' C'mon c'mon c'mon!!! Can't let them see us!
@@ -625,7 +619,7 @@
 :{{A|vo sdeq001 46 paimon 09.ogg}} '''Paimon:''' Huh? Now you wanna go back?
 :{{A|vo sdeq001 46 paimon 10.ogg}} '''Paimon:''' B&mdash;But... th&mdash;there's still a chance that they were real spirits, right?
 :{{A|vo sdeq001 46 paimon 11.ogg}} '''Paimon:''' If we go back now, they might try to eat us...
-:{{A|vo sdeq001 46 itto 24.ogg}} '''Arataki Itto:''' It's alright, Paimon. If you're scared, you can stay here. (Traveler) and I will go investigate.
+:{{A|vo sdeq001 46 itto 24.ogg}} '''Arataki Itto:''' It's alright, Paimon. If you're scared, you can stay here. {{Traveler}} and I will go investigate.
 :{{A|vo sdeq001 46 paimon 12.ogg}} '''Paimon:''' Really? Whew, that'd be great!
 :{{DIcon}} But wouldn't it be more dangerous to stay here alone?
 :{{A|vo sdeq001 46 paimon 13.ogg}} '''Paimon:''' Oh, right! The last mystery novel Paimon bought from Yae Publishing House had a plot just like that...
@@ -644,9 +638,9 @@
 :{{DIcon}} Just sitting here won't accomplish anything.
 :{{A|vo sdeq001 46 paimon 20.ogg}} '''Paimon:''' Ugh fine, let's go take a look then.
 :{{A|vo sdeq001 46 paimon 21.ogg}} '''Paimon:''' But the second we see anything scary, we make a run for it! Got it?
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|After you jumped out of the grass, you found out that the people on the other side weren't from the Arataki Gang. Both sides were startled by this encounter. After calming down, Itto decided to track down the three mysterious children...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo sdeq001 47 paimon 01.ogg}} '''Paimon:''' Well, we've already walked all the way here...
 :{{A|vo sdeq001 47 paimon 02.ogg}} '''Paimon:''' Hmm, wonder where those three went... Paimon didn't see them anywhere.
@@ -667,9 +661,7 @@
 :{{A|vo sdeq001 47 chizuru 07.ogg}} '''???:''' You have no business coming here. You shouldn't be anywhere near me...
 :{{A|vo sdeq001 47 chizuru 08.ogg}} '''???:''' If you value your lives, you must leave immediately. Otherwise, your souls will be trapped here forever.
 :{{A|vo sdeq001 47 chizuru 09.ogg}} '''???:''' I won't warn you again. Now, away with you... be gone...!
-
-:'''The air is permeated with strange fragrance of flowers, which makes you drowsy...'''
-
+:{{Black Screen|The air is permeated with strange fragrance of flowers, which makes you drowsy...}}
 :{{A|vo sdeq001 47 heizou 01.ogg}} '''???:''' Wake up. Hey, Traveler... wake up!
 :{{DIcon}} ...
 :{{DIcon}} Wh&mdash;What happened...?
@@ -690,9 +682,7 @@
 :{{A|vo sdeq001 47 heizou 05.ogg}} '''Shikanoin Heizou:''' Okay, I see...
 :{{A|vo sdeq001 47 heizou 06.ogg}} '''Shikanoin Heizou:''' I only found the two of you passed out here when I arrived. There was no one else around.
 :{{A|vo sdeq001 47 heizou 07.ogg}} '''Shikanoin Heizou:''' What happened? Tell me all the details.
-
-:'''You tell Heizou everything that just happened...'''
-
+:{{Black Screen|You tell Heizou everything that just happened...}}
 :{{A|vo sdeq001 47 heizou 08.ogg}} '''Shikanoin Heizou:''' As I suspected, there appears to be something more behind this Test of Courage event.
 :{{A|vo sdeq001 47 heizou 09.ogg}} '''Shikanoin Heizou:''' But let's get back to your original question, I haven't told you the reason I'm here.
 :{{A|vo sdeq001 47 heizou 10.ogg}} '''Shikanoin Heizou:''' The truth is, I was commissioned to come here for an investigation.
@@ -720,7 +710,10 @@
 :{{A|vo sdeq001 47 heizou 26.ogg}} '''Shikanoin Heizou:''' I need to uncover the truth, so I'm here to investigate.
 :{{A|vo sdeq001 47 heizou 27.ogg}} '''Shikanoin Heizou:''' Anyway, don't mind me. Working together will only raise suspicion, so I'll undertake my own investigation for the time being.
 :{{A|vo sdeq001 47 heizou 28.ogg}} '''Shikanoin Heizou:''' However, please proceed with caution. Based on my observations, most people are still unaware of anything happening here. Telling people that something's amiss might cause quite a stir.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -734,7 +727,6 @@
 |ja_rm   = Kimodameshi Taikai
 |ja_tl   = Gathering for Test of Courage
 |ko      = 담력 시험
-|ko_rm   = Damnyeok Siheom
 |ko_tl   = Courage Test
 |es      = Prueba de valor
 |es_tl   = Test of Courage

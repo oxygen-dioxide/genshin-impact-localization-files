@@ -10,39 +10,39 @@
 |act           = Troublesome Work
 |character     = Lisa
 |requirement   = Complete [[The Outlander Who Caught the Wind]] and reach [[Adventure Rank]] 15
-|startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|startLocation = [[Mondstadt City|Mondstadt]], [[Mondstadt]]
 |region        = Mondstadt
 |area          = Starfell Valley
-|subarea       = City of Mondstadt
+|subarea       = Mondstadt City
 |next          = Lost Book
-|exp           = 425
-|mora          = 9,475
-|other         = {{Card|Adventurer's Experience|5}}{{Card|Mystic Enhancement Ore|3}}
+|rewards       = Adventure EXP*425;Mora*9,475;Adventurer's Experience*5;Mystic Enhancement Ore*3
 |characters    = Donna;Flora;Lisa;Marjorie;Paimon;Sara;Traveler
 |voiced        = yes
 }}
-'''Troublesome Work''' is the first part of [[Lisa]]'s [[Story Quest]] [[Tempus Fugit Chapter]]: Act I - [[Troublesome Work]].
+'''''Troublesome Work''''' is the first part of {{Quest|Troublesome Work}}.
 
 ==Steps==
-# Find Lisa in the Library
+# Find [[Lisa]] in the [[Mondstadt Library|Library]]
 # Talk to Lisa
-# Talk to Marjorie about returning the library book
+# Talk to [[Marjorie]] about returning the library book
 # Pick a souvenir for Lisa
-#* Best option: '''Ragged Old Scroll'''
-# Talk to Sara about returning the library book
+# Talk to [[Sara]] about returning the library book
 # Order a dish Lisa would like
-#* Best option: '''Radish Veggie Soup'''. To unlock it, ask Sara first about her opinion.
-#* Even better option, but requires you to either have Jean or receive [[Birthday/Jean|her birthday mail]]: '''Invigorating Pizza'''. Details at the [[#Unlocking the Invigorating Pizza dialogue option|bottom]] of the page.
 # Sit down and dine with Lisa
-# Talk to Donna and find out what happened
-#* Options from best to worst: '''Cecilia'''>'''Rose'''>'''Dandelion'''>Mist Flower
-#** Cecilia: Unlocked after asking for Flora's opinion (06:00 – 19:00)
-#** Rose: Unlocked after asking for Donna's opinion
+# Talk to [[Donna]] and find out what happened
 # Search for the book's elemental marks
 
+==Gameplay Notes==
+* All item selections affect Lisa's responses, but have no other result on the storyline. For the most positive reactions:
+** Souvenir: Ragged old scroll
+** Dish: [[Invigorating Pizza]] (hidden option; see below for details), otherwise [[Radish Veggie Soup]]
+** Flower: [[Cecilia]] (unlocked by asking for [[Flora]]'s opinion; Flora only appears between 06:00 &mdash; 19:00)
+* During Step 6, the Invigorating Pizza option can only unlocked be if the player has at least one Invigorating Pizza ([[Jean]]'s [[Special Dish]]). Invigorating Pizza obtained through [[Birthday|Birthday Mail]] counts.{{Verify|Does it need to be in Inventory, or does having it unlocked in the Archive count?}}
+** To unlock the dialogue option, select "[[Steak]]," then return to the selection screen.
+
 ==Dialogue==
-{{Quest Description|Librarian [[Lisa]] seems annoyed about her work...}}
-{{Dialogue start}}
+{{Quest Description|Librarian Lisa seems annoyed about her work...}}
+{{Dialogue Start}}
 ;(Talk to Lisa)
 :{{a|vo lslq001 2 lisa 01.ogg}} '''Lisa:''' *yawn* If you're borrowing a book, please register it in the log. The restricted section is currently not lending any books...
 :{{a|vo lslq001 2 lisa 02.ogg}} '''Lisa:''' Oh? It's you, little cutie.
@@ -61,7 +61,7 @@
 :{{a|vo lslq001 2 paimon 02.ogg}} '''Paimon:''' So Miss Librarian, got any books to recommend?
 :{{a|vo lslq001 2 lisa 08.ogg}} '''Lisa:''' Hmm... Recommended books... Sadly, everything I'd personally recommend is all in the restricted section, which we're not currently lending out.
 :{{a|vo lslq001 2 paimon 03.ogg}} '''Paimon:''' What's with her ominous tone?
-:{{a|vo lslq001 2 lisa 09.ogg}} '''Lisa:''' Oh, right. Would you be interested in checking out the {{Color|buzzword|Teyvat Travel Guide}}?
+:{{a|vo lslq001 2 lisa 09.ogg}} '''Lisa:''' Oh, right. Would you be interested in checking out the {{Color|buzzword|Teyvat Travel Guide|link=1}}?
 :{{a|vo lslq001 2 lisa 10.ogg}} '''Lisa:''' I think it would be quite helpful for you as travelers here.
 :{{a|vo lslq001 2 paimon 04.ogg}} '''Paimon:''' Ooh! Sounds like it could be helpful!
 :{{a|vo lslq001 2 paimon 05.ogg}} '''Paimon:''' Do you think we could take a peek?
@@ -78,12 +78,10 @@
 :{{DIcon}} Oh, ah, yes... YES!
 :{{a|vo lslq001 2 lisa 17.ogg}} '''Lisa:''' You really are such a considerate cutie. Let's see, first we can go to...
 :{{a|vo lslq001 2 lisa 18.ogg}} '''Lisa:''' The {{Color|buzzword|souvenir shop}}. It's called "With Wind Comes Glory." So let's meet there shortly.
-
 ----
-
-;(At With Wind Comes Glory)
+;(Talk to Lisa or Marjorie)
 :{{a|vo lslq001 3 lisa 01.ogg}} '''Lisa:''' Traveler, you're here! Let's begin, shall we?
-:{{DIcon}} Marjorie, regarding the book you borrowed–
+:{{DIcon}} Marjorie, regarding the book you borrowed&mdash;
 :{{a|vo lslq001 3 lisa 02.ogg}} '''Lisa:''' Hello Marjorie, any exciting new items in stock?
 :{{a|vo lslq001 3 lisa 03.ogg}} '''Lisa:''' Why so surprised? Today is such a special day, it's only natural that I'd want a souvenir to remember it by.
 :{{DIcon}} Today is just an ordinary day...
@@ -99,41 +97,52 @@
 :{{a|vo lslq001 3 marjorie 02.ogg}} '''Marjorie:''' Or could let your new friend pick something out for you... make it more of an occasion?
 :{{a|vo lslq001 3 paimon 02.ogg}} '''Paimon:''' Yes, yes! Let Traveler pick!
 :{{DIcon}} Alright then.
+
+;(Selection screen)
 :{{a|vo lslq001 3 marjorie 03.ogg}} '''Marjorie:''' Take a look around, there's sure to be something she'll love. {{Color|buzzword|(Choose a gift for Lisa.)}}
+:{{DIcon}} What does Marjorie think? ''<small>(Only appears after selecting "Voodoo doll," then returning to dialogue options)</small>''
+::{{a|vo lslq001 4 marjorie 01d.ogg}} '''Marjorie:''' Me? You're asking me? Erm... I feel like Lisa is the well-educated type.
+::{{a|vo lslq001 4 marjorie 01d 1.ogg}} '''Marjorie:''' Ah, that's right &mdash; I heard she enjoys {{Color|buzzword|items of historical interest}}.
+:;(Returns to selection screen)
 :{{DIcon}} Bloomers
-::{{a|vo lslq001 4 marjorie 01a.ogg}} '''Marjorie:''' This pair? Soft, puffy, and very comfortable. Certain to make a little girl – well, in this case, a woman – look quite adorable.
+::{{a|vo lslq001 4 marjorie 01a.ogg}} '''Marjorie:''' This pair? Soft, puffy, and very comfortable. Certain to make a little girl &mdash; well, in this case, a woman &mdash; look quite adorable.
 ::{{a|vo lslq001 4 marjorie 01a 1.ogg}} '''Marjorie:''' After all, they're the same kind worn by toy dolls. They're practically a badge of cuteness.
 ::{{a|vo lslq001 4 lisa 01a.ogg}} '''Lisa:''' Bloomers? I'm sure to attract some strange looks if I dress up like a small child in public. Do you have some strange... hobby you're not telling me about?
-:{{DIcon}} Ragged Old Scroll
-::{{a|vo lslq001 4 marjorie 01b.ogg}} '''Marjorie:''' This is a historical relic retrieved from some ruins by one of the Adventurers' Guild.
+:;(Proceeds to confirmation)
+:{{DIcon}} Ragged old scroll.
+::{{a|vo lslq001 4 marjorie 01b.ogg}} '''Marjorie:''' This is a historical relic retrieved from some ruins by one of the [[Adventurers' Guild]].
 ::{{a|vo lslq001 4 marjorie 01b 1.ogg}} '''Marjorie:''' Sure, there's a bit of wear and tear, but this thing in the painting must be well over a thousand years old... though it doesn't make much sense to me.
 ::{{a|vo lslq001 4 lisa 01b.ogg}} '''Lisa:''' My goodness... This is one of the three lost scrolls that make up the "Northern Border Wind Investigation"... What is it doing here!?
-:{{DIcon}} ??? (Voodoo Doll) ''<small>(unlocked after asking information about "Bloomers" or "Ragged Old Scroll")</small>''
-::{{a|vo lslq001 4 marjorie 01c.ogg}} '''Marjorie:''' This is the toy doll I was talking about earlier – doesn't she look lovely in those shorts?
+:;(Proceeds to confirmation)
+:{{DIcon}} ??? (Voodoo doll.) ''<small>(Unlocks upon returning to the selection screen after selecting Bloomers or Ragged Old Scroll)</small>''
+::{{a|vo lslq001 4 marjorie 01c.ogg}} '''Marjorie:''' This is the toy doll I was talking about earlier &mdash; doesn't she look lovely in those shorts?
 ::{{a|vo lslq001 4 marjorie 01c 1.ogg}} '''Marjorie:''' Hmm... It does look a little bit terrifying, doesn't it? I wonder if you could find some other use for it...
 ::{{a|vo lslq001 4 lisa 01c.ogg}} '''Lisa:''' Voodoo doll? Have you lost your mind? What could I have possibly done to deserve this?
-:{{DIcon}} What does Marjorie think? ''<small>(unlocked after asking information about "Voodoo Doll")</small>''
-::{{a|vo lslq001 4 marjorie 01d.ogg}} '''Marjorie:''' Me? You're asking me? Erm... I feel like Lisa is the well-educated type.
-::{{a|vo lslq001 4 marjorie 01d 1.ogg}} '''Marjorie:''' Ah, that's right – I heard she enjoys {{Color|buzzword|items of historical interest}}.
-:{{DIcon}} ??? (Rusty Sword) ''<small>(unlocked after asking for Marjorie's opinion)</small>''
+:;(Proceeds to confirmation)
+:{{DIcon}} ??? (Rusty sword.) ''<small>(Unlocks after selecting "What does Marjorie think?")</small>''
 ::{{a|vo lslq001 4 marjorie 01d 2.ogg}} '''Marjorie:''' This is a new arrival. It took three Adventurers to carry this big boy back from the ruins where they found it.
 ::{{a|vo lslq001 4 marjorie 01d 3.ogg}} '''Marjorie:''' It comes with a lot of history as well as a lot of weight.
 ::{{a|vo lslq001 4 lisa 01d.ogg}} '''Lisa:''' Hmm... You do have strange tastes. If this is your way of saying that you want to be my knight in shining armor, I'd rather you just say the words instead.
+:;(Proceeds to confirmation)
 :{{DIcon}} Maybe later.
-:;(Right before deciding on a gift)
-:{{a|vo lslq001 4 paimon 01.ogg}} '''Paimon:''' You sure you wanna pick the {{Color|buzzword|<item>}}? {{Color|buzzword|Can't change again}} once you've made your mind up!
-;(If you choose Bloomers)
-:{{a|vo lslq001 4 lisa 01a 1.ogg}} '''Lisa:''' *sigh* Well, if you insist... I will just use them as an extra pair of pajamas.
-;(If you choose Ragged Old Scroll)
-:{{a|vo lslq001 4 lisa 01b 1.ogg}} '''Lisa:''' My my, you clearly know a treasure when you see it. This is a work of unparalleled significance for the research of ancient people's understanding of the elements. I will gladly accept it.
-;(If you choose Voodoo Doll)
-:{{a|vo lslq001 4 lisa 01c 1.ogg}} '''Lisa:''' It is said that the gift of a voodoo doll is certain to curse its recipient. Although, magic of this level certainly wouldn't have any effect on me.
-:{{a|vo lslq001 4 lisa 01c 2.ogg}} '''Lisa:''' But you're probably innocent to such things. Since you're just a traveler, I will pretend that none of this ever happened.
-;(If you choose Rusty Sword)
-:{{a|vo lslq001 4 lisa 01d 1.ogg}} '''Lisa:''' I suppose it's not completely useless... I'll let Razor borrow it when it's time for his enhancement training.
+:;(Exits selection screen){{Verify}}
 
-:{{a|vo lslq001 4 lisa 02.ogg}} '''Lisa:''' Goodness, is that the time? Marjorie, one last thing – about "The Legend of Vennessa"–
-:{{a|vo lslq001 4 marjorie 02.ogg}} '''Marjorie:''' Oh, so you're a fan of the gallant Lady Vennessa too? Why didn't you say so? I have all sorts of items I could recommend...
+;(Confirmation)
+:{{a|vo lslq001 4 paimon 01.ogg}} '''Paimon:''' You sure you wanna pick the {{Color|buzzword|<item>}}? {{Color|buzzword|Can't change again}} once you've made your mind up!
+:{{DIcon}} Yes
+:;(Choose "Bloomers")
+:::{{a|vo lslq001 4 lisa 01a 1.ogg}} '''Lisa:''' *sigh* Well, if you insist... I will just use them as an extra pair of pajamas.
+:;(Choose "Ragged old scroll")
+:::{{a|vo lslq001 4 lisa 01b 1.ogg}} '''Lisa:''' My my, you clearly know a treasure when you see it. This is a work of unparalleled significance for the research of ancient people's understanding of the elements. I will gladly accept it.
+:;(Choose "Voodoo doll")
+:::{{a|vo lslq001 4 lisa 01c 1.ogg}} '''Lisa:''' It is said that the gift of a voodoo doll is certain to curse its recipient. Although, magic of this level certainly wouldn't have any effect on me.
+:::{{a|vo lslq001 4 lisa 01c 2.ogg}} '''Lisa:''' But you're probably innocent to such things. Since you're just a traveler, I will pretend that none of this ever happened.
+:;(Choose "Rusty sword")
+:::{{a|vo lslq001 4 lisa 01d 1.ogg}} '''Lisa:''' I suppose it's not completely useless... I'll let [[Razor]] borrow it when it's time for his enhancement training.
+:{{DIcon}} No
+:;(Returns to selection screen)
+:{{a|vo lslq001 4 lisa 02.ogg}} '''Lisa:''' Goodness, is that the time? Marjorie, one last thing &mdash; about "[[The Legend of Vennessa]]"&mdash;
+:{{a|vo lslq001 4 marjorie 02.ogg}} '''Marjorie:''' Oh, so you're a fan of the gallant [[Vennessa|Lady Vennessa]] too? Why didn't you say so? I have all sorts of items I could recommend...
 :{{a|vo lslq001 4 marjorie 03.ogg}} '''Marjorie:''' For example, this lion's tooth pendant with Vennessa's name carved into it. It was once a medal awarded to a knight by the great lady herself!
 :{{a|vo lslq001 4 lisa 03.ogg}} '''Lisa:''' ...
 :{{DIcon}} The library book you borrowed.
@@ -143,18 +152,17 @@
 :{{a|vo lslq001 4 lisa 04.ogg}} '''Lisa:''' *sigh* Well, since you look up to Lady Vennessa so very much... Please be more punctual next time.
 :{{a|vo lslq001 4 marjorie 07.ogg}} '''Marjorie:''' Yes, Lisa. I will be, Lisa.
 :{{a|vo lslq001 4 lisa 05.ogg}} '''Lisa:''' Let's go and find the next overdue book.
-
 ----
-
-;(At Good Hunter)
-:{{a|vo lslq001 5 sara 01.ogg}} '''Sara:''' Welcome to Good Hunter. Table for two?
+;(Talk to Sara)
+:{{a|vo lslq001 5 sara 01.ogg}} '''Sara:''' Welcome to [[Good Hunter]]. Table for two?
 :{{a|vo lslq001 5 paimon 01.ogg}} '''Paimon:''' THREE!
 :{{a|vo lslq001 5 sara 02.ogg}} '''Sara:''' Oh, haha! My apologies... Please sit wherever you like and call me over once you're ready to order.
 :{{a|vo lslq001 5 paimon 02.ogg}} '''Paimon:''' So we're gonna eat first and bring up the book situation later?
 :{{a|vo lslq001 5 lisa 01.ogg}} '''Lisa:''' Why, of course. The stress of work really takes the pleasure out of eating, don't you think?
 :{{a|vo lslq001 5 paimon 03.ogg}} '''Paimon:''' Work is that bad, huh?
+:;(Dialogue ends, and Lisa walks over to a nearby table and sits down)
 
-;(Talk to Sara)
+;(Talk to Sara, optional)
 :{{DIcon|Quest}} Regarding Lisa's taste in food...
 :{{a|vo lslq001 6 sara 01.ogg}} '''Sara:''' What does Lisa like to eat?
 :{{a|vo lslq001 6 sara 02.ogg}} '''Sara:''' She's been here a few times with Master Jean for afternoon tea before. I think she normally orders {{Color|buzzword|something vegetarian}}.
@@ -164,45 +172,53 @@
 :{{a|vo lslq001 6 lisa 01.ogg}} '''Lisa:''' *yawn*... Why don't you order us something, Traveler? I'm ever so curious to know what your tastes are. {{Color|buzzword|(Pick a dish that Lisa will like)}}
 :{{DIcon}} Steak
 ::{{a|vo lslq001 6 lisa 02a.ogg}} '''Lisa:''' Good Hunter's signature dish. If it's what you want, I'll try anything once.
-:{{DIcon}} Northern Smoked Chicken
+:;(Proceeds to confirmation)
+:{{DIcon}} [[Northern Smoked Chicken]]
 ::{{a|vo lslq001 6 lisa 02b.ogg}} '''Lisa:''' This seems like the sort of stable bar food you'd find at the tavern. It has an extremely strong flavor, so drinkers love it because they can actually taste it.
-:{{DIcon}} Invigorating Pizza ''<small>(unlock method described at the bottom of the page)</small>''
+:;(Proceeds to confirmation)
+:{{DIcon}} Invigorating Pizza
 ::{{a|vo lslq001 6 lisa 02e.ogg}} '''Lisa:''' *gasp* It's like you read my mind... Do you have some magical powers you're not telling me about, Outlander?
-:{{DIcon}} ??? (Radish Veggie Soup) ''<small>(unlocked after asking for Sara's opinion)</small>''
+:;(Proceeds to confirmation)
+:{{DIcon}} ??? (Radish Veggie Soup) ''<small>(Unlocks after selecting Sara's optional dialogue)</small>''
 ::{{a|vo lslq001 6 lisa 02c.ogg}} '''Lisa:''' I imagine that making a good vegetable soup takes good quality ingredients cooked in the right order at the right heat for the right length of time.
 ::{{a|vo lslq001 6 lisa 02c 1.ogg}} '''Lisa:''' At least, those are the principles that apply when one is making potions. But from what I've heard, soup-making was a popular pastime among the witches of the past.
-:{{DIcon}} ??? (Satisfying Salad) ''<small>(unlocked after asking information about "Radish Veggie Soup")</small>''
+:;(Proceeds to confirmation)
+:{{DIcon}} ??? ([[Satisfying Salad]]) ''<small>(Unlocks upon returning to the selection screen after selecting Radish Veggie Soup)</small>''
 ::{{a|vo lslq001 6 lisa 02d.ogg}} '''Lisa:''' Eating salad is like piling on more and more elemental power. Raw, unfettered energy applied indiscriminately, with no elegance or control.
 ::{{a|vo lslq001 6 lisa 02d 1.ogg}} '''Lisa:''' It's the first mistake all magic users make when they're learning. But then again... if one genuinely had so much pure elemental power that they could solve any problem they wanted... that would be a different matter entirely.
+:;(Proceeds to confirmation)
 :{{DIcon}} Wait a moment...
-:;(Right before deciding on a dish)
+:;(Exits selection screen)
+
+;(Confirmation)
 :{{a|vo lslq001 6 paimon 01.ogg}} '''Paimon:''' You sure you wanna pick the {{Color|buzzword|<dish>}}? {{Color|buzzword|Can't change again}} once you've made your mind up!
-:;(After deciding on a dish)
-:{{a|vo lslq001 7 lisa 01.ogg}} '''Lisa:''' Finished ordering? Sit here, let's dine together.
+:{{DIcon}} Yes
+::{{a|vo lslq001 7 lisa 01.ogg}} '''Lisa:''' Finished ordering? Sit here, let's dine together.
+:{{DIcon}} No
+:;(Returns to selection screen)
 
-:'''You enjoyed a relaxing mealtime...'''
-
-;(If you choose Steak)
-:{{a|vo lslq001 7 lisa 02a.ogg}} '''Lisa:''' Mm... beautifully tender and cooked to perfection. No wonder it's their signature dish. It's a shame I can't have more, but a witch must watch her physique.
-;(If you choose Northern Smoked Chicken)
-:{{a|vo lslq001 7 lisa 02b.ogg}} '''Lisa:''' Hmm, such a potent aroma... It's almost suffocating. I never thought someone your age would go for a dish like this...
-:{{a|vo lslq001 7 lisa 02b 1.ogg}} '''Lisa:''' I always had you down as a little cutie... Now I'm not so sure.
-;(If you choose Radish Veggie Soup)
-:{{a|vo lslq001 7 lisa 02c.ogg}} '''Lisa:''' A fine choice! I'm pleasantly surprised.
-:{{a|vo lslq001 7 lisa 02c 1.ogg}} '''Lisa:''' A truly enchanting dish, certainly a good fit for a witch. I am simply brimming with elemental energy after that.
-;(If you choose Satisfying Salad)
-:{{a|vo lslq001 7 lisa 02d.ogg}} '''Lisa:''' The ingredients are fresh  the Good Hunter certainly lives up to its reputation in that respect. Salad as a meal is a little bland, though – it always feels like there's something missing.
-;(If you choose Invigorating Pizza)
-:{{a|vo lslq001 7 lisa 02e.ogg}} '''Lisa:''' Wow, Jean must have given you some pointers? Such extraordinary lengths to prepare for a delicious meal... I'd almost say that's cheating.
-:{{a|vo lslq001 7 lisa 02e 1.ogg}} '''Lisa:''' I didn't know you and Jean got on so well. She used to make this for me once in a while too.
-:{{a|vo lslq001 7 lisa 02e 2.ogg}} '''Lisa:''' As it happens, this is exactly what I was craving - the perfect treat after a tiresome day of work. You've outdone yourself.
-
+;(After sitting down)
+:{{Black Screen|You enjoyed a relaxing mealtime...}}
+:;(If Steak was selected)
+:::{{a|vo lslq001 7 lisa 02a.ogg}} '''Lisa:''' Mm... beautifully tender and cooked to perfection. No wonder it's their signature dish. It's a shame I can't have more, but a witch must watch her physique.
+:;(If Northern Smoked Chicken was selected)
+:::{{a|vo lslq001 7 lisa 02b.ogg}} '''Lisa:''' Hmm, such a potent aroma... It's almost suffocating. I never thought someone your age would go for a dish like this...
+:::{{a|vo lslq001 7 lisa 02b 1.ogg}} '''Lisa:''' I always had you down as a little cutie... Now I'm not so sure.
+:;(If Radish Veggie Soup was selected)
+:::{{a|vo lslq001 7 lisa 02c.ogg}} '''Lisa:''' A fine choice! I'm pleasantly surprised.
+:::{{a|vo lslq001 7 lisa 02c 1.ogg}} '''Lisa:''' A truly enchanting dish, certainly a good fit for a witch. I am simply brimming with elemental energy after that.
+:;(If Satisfying Salad was selected)
+:::{{a|vo lslq001 7 lisa 02d.ogg}} '''Lisa:''' The ingredients are fresh  the Good Hunter certainly lives up to its reputation in that respect. Salad as a meal is a little bland, though &mdash; it always feels like there's something missing.
+:;(If Invigorating Pizza was selected)
+:::{{a|vo lslq001 7 lisa 02e.ogg}} '''Lisa:''' Wow, Jean must have given you some pointers? Such extraordinary lengths to prepare for a delicious meal... I'd almost say that's cheating.
+:::{{a|vo lslq001 7 lisa 02e 1.ogg}} '''Lisa:''' I didn't know you and Jean got on so well. She used to make this for me once in a while too.
+:::{{a|vo lslq001 7 lisa 02e 2.ogg}} '''Lisa:''' As it happens, this is exactly what I was craving &mdash; the perfect treat after a tiresome day of work. You've outdone yourself.
 :{{a|vo lslq001 7 paimon 01.ogg}} '''Paimon:''' Oof... Paimon's so full...
 :{{a|vo lslq001 7 lisa 03.ogg}} '''Lisa:''' Time is getting on. I suppose I should carry on with this ghastly thing called work.
 :{{a|vo lslq001 7 lisa 04.ogg}} '''Lisa:''' Let's have a little chat with Sara about her library book.
-:;(Talking to Sara)
+:;(Scene transitions to Lisa and Traveler in front of Sara)
 :{{a|vo lslq001 7 sara 01.ogg}} '''Sara:''' Would you like to order something else?
-:{{a|vo lslq001 7 lisa 05.ogg}} '''Lisa:''' No thank you, we're quite satisfied. But I'm afraid I must ask you about "The Boar Princess"–
+:{{a|vo lslq001 7 lisa 05.ogg}} '''Lisa:''' No thank you, we're quite satisfied. But I'm afraid I must ask you about "[[The Boar Princess]]"&mdash;
 :{{a|vo lslq001 7 sara 02.ogg}} '''Sara:''' The Boar Brisket? I'm sorry, I think we took that off the menu.
 :{{a|vo lslq001 7 lisa 06.ogg}} '''Lisa:''' ...
 :{{a|vo lslq001 7 paimon 02.ogg}} '''Paimon:''' She means the book you borrowed!
@@ -210,11 +226,10 @@
 :{{a|vo lslq001 7 sara 04.ogg}} '''Sara:''' I'm so sorry Lisa, I will bring it to the library myself as soon as I finish work.
 :{{a|vo lslq001 7 lisa 07.ogg}} '''Lisa:''' Mm... Okay then. But make sure you don't forget this time.
 :{{a|vo lslq001 7 lisa 08.ogg}} '''Lisa:''' Right, onto our next stop then, Traveler.
-
 ----
-
+;(Talk to Donna)
 :{{a|vo lslq001 8 lisa 01.ogg}} '''Lisa:''' This is our final call for the day.
-:{{a|vo lslq001 8 donna 01.ogg}} '''Donna:''' Welcome...! Uh... c–couples are our specialty! Let me know what you'd like and I'll wrap them up nicely for you.
+:{{a|vo lslq001 8 donna 01.ogg}} '''Donna:''' Welcome...! Uh... c&mdash;couples are our specialty! Let me know what you'd like and I'll wrap them up nicely for you.
 :{{a|vo lslq001 8 lisa 02.ogg}} '''Lisa:''' Ah yes... Now which book was it that has the line, "a date without flowers is a date without romance"?
 :{{DIcon}} Would you by any chance care for some flowers, milady?
 ::{{a|vo lslq001 8 lisa 03a.ogg}} '''Lisa:''' Why, it just so happens that I would, my kindest cutie.
@@ -222,54 +237,65 @@
 ::{{a|vo lslq001 8 paimon 01.ogg}} '''Paimon:''' Ugh, Traveler. Take. The. Hint.
 ::{{a|vo lslq001 8 lisa 03b.ogg}} '''Lisa:''' Hehe, never mind, your ignorance is somehow rather adorable.
 ::{{a|vo lslq001 8 paimon 02.ogg}} '''Paimon:''' Since you're here, and Lisa is here, and this is a flower shop... You might as well get a bunch of flowers, right? It only makes sense.
+
+;(Selection screen)
 :{{a|vo lslq001 8 donna 02.ogg}} '''Donna:''' Some flowers for Miss Lisa? What would you like? {{Color|buzzword|(Pick a kind that Lisa will like)}}
-:{{DIcon}} Dandelion
+:{{DIcon}} [[Dandelion]]
 ::{{a|vo lslq001 8 donna 03a.ogg}} '''Donna:''' Dandelions are one of our classics, and a personal favorite of Miss Flora, the shop owner.
 ::{{a|vo lslq001 8 donna 03a 1.ogg}} '''Donna:''' I know what you're thinking: Most flower shops don't sell dandelions, they're a nuisance to care for... Perhaps Miss Flora likes the sense of floating away to a faraway land that the dandelion evokes?
 ::{{a|vo lslq001 8 donna 03a 2.ogg}} '''Donna:''' Come to think of it, Miss Flora herself gives people the same impression.
-:{{DIcon}} Mist Flower
+:;(Proceeds to confirmation)
+:{{DIcon}} [[Mist Flower]]
 ::{{a|vo lslq001 8 donna 03c 2.ogg}} '''Donna:''' Mist Flowers? Over there in the corner... but don't touch them with your bare hands. You'll get frostbite.
 ::{{a|vo lslq001 8 donna 03d.ogg}} '''Donna:''' You want them? You're sure? What an unusual choice...
-::{{a|vo lslq001 8 donna 03d 1.ogg}} '''Donna:''' It's just that Lisa seems to use Electro quite a lot. Things could get a little bit dangerous...
-:{{DIcon}} What does Donna think? ''<small>(unlocked after asking information about "Dandelion" and "Mist Flower")</small>''
+::{{a|vo lslq001 8 donna 03d 1.ogg}} '''Donna:''' It's just that Lisa seems to use [[Electro]] quite a lot. Things could get a little bit dangerous...
+:;(Proceeds to confirmation)
+:{{DIcon}} What does Donna think? ''<small>(Unlocks upon returning to the selection screen after selecting both Dandelion and Mist Flower)</small>''
 ::{{a|vo lslq001 8 donna 03e.ogg}} '''Donna:''' You want my help? I don't know if I have the best taste in flowers... Why don't you go ask Miss {{Color|buzzword|Flora}}, the shop owner?
-::{{a|vo lslq001 8 donna 03e 1.ogg}} '''Donna:''' I couldn't help but notice the flower on Miss Lisa's hat though – I think it's a {{Color|buzzword|Rose}}.
-:{{DIcon}} ??? (Rose) ''<small>(unlocked after asking for Donna's opinion)</small>''
+::{{a|vo lslq001 8 donna 03e 1.ogg}} '''Donna:''' I couldn't help but notice the flower on Miss Lisa's hat though &mdash; I think it's a {{Color|buzzword|Rose}}.
+:;(Returns to selection screen)
+:{{DIcon}} ??? (Rose) ''<small>(Unlocks after getting Donna's opinion)</small>''
 ::{{a|vo lslq001 8 donna 03c.ogg}} '''Donna:''' These roses were bought from a traveling merchant a few days ago.
 ::{{a|vo lslq001 8 donna 03c 1.ogg}} '''Donna:''' Miss Flora thought maybe someone would like them... This is the only bunch.
-:{{DIcon}} ??? (Cecilia) ''<small>(unlocked after asking for Flora's opinion)</small>''
+:;(Proceeds to confirmation)
+:{{DIcon}} ??? (Cecilia) ''<small>(Unlocks after getting Flora's opinion)</small>''
 ::{{a|vo lslq001 8 donna 03b.ogg}} '''Donna:''' Ah, the Cecilia. Did Miss Flora recommend it to you?
 ::{{a|vo lslq001 8 donna 03b 1.ogg}} '''Donna:''' This flower is a lot of effort to care for. I hope that I've been doing it right, otherwise they won't last long.
 ::{{a|vo lslq001 8 donna 03b 2.ogg}} '''Donna:''' But part of the Cecilia's charm is how precious and fragile each one is...
+:;(Proceeds to confirmation)
 :{{DIcon}} I'll be back shortly.
+:;(Exits selection screen)
 
-;(Talk to Flora)
-:{{DIcon|Quest}}: What kind of flowers does Lisa like?
+;(Talk to Flora, optional)
+:{{DIcon|Quest}} What kind of flowers does Lisa like?
 :{{a|vo lslq001 8 flora 01.ogg}} '''Flora:''' You want to know what flowers to get for Miss Lisa?
 :{{a|vo lslq001 8 flora 02.ogg}} '''Flora:''' We're not particularly close, but she strikes me as a classy lady!
 :{{a|vo lslq001 8 flora 03.ogg}} '''Flora:''' Hmm... Yep, it can only be the {{Color|buzzword|Cecilia}}!
-;(Right before deciding on a flower)
-:{{A|vo lslq001 8 paimon 03.ogg}} '''Paimon:''' You sure you wanna pick the {{Color|buzzword|<flower>}}? {{Color|buzzword|Can't change again}} once you've made your mind up!
-;(If you choose Dandelion)
-:{{a|vo lslq001 8 lisa 04a.ogg}} '''Lisa:''' Dandelions? They actually sell dandelions?
-:{{a|vo lslq001 8 lisa 04a 1.ogg}} '''Lisa:''' They have a refreshing scent, similar to the one Jean wears. Thank you.
-;(If you choose Cecilia)
-:{{a|vo lslq001 8 lisa 04b.ogg}} '''Lisa:''' Ohh la-la, such fine taste.
-:{{a|vo lslq001 8 lisa 04b 1.ogg}} '''Lisa:''' This rare flower is only found in Mondstadt's very highest mountains.
-:{{a|vo lslq001 8 lisa 04b 2.ogg}} '''Lisa:''' If only you had picked them for me with your own hands... They would have had twice the sentimental value.
-;(If you choose Rose)
-:{{a|vo lslq001 8 lisa 04c.ogg}} '''Lisa:''' I can see you put a lot of thought into this, have you ever heard of the Witch of Purple Rose before?
-:{{a|vo lslq001 8 lisa 04c 1.ogg}} '''Lisa:''' I thought that after returning to Mondstadt I wouldn't have the chance to see fresh roses again.
-:{{a|vo lslq001 8 lisa 04c 2.ogg}} '''Lisa:''' This seems like a good sign.
-;(If you choose Mist Flower)
-:{{a|vo lslq001 8 lisa 04d.ogg}} '''Lisa:''' Huh? These flowers are saturated with Cryo energy. They could be very dangerous for me.
-:{{a|vo lslq001 8 lisa 04d 1.ogg}} '''Lisa:''' Don't you know what happens when Cryo meets Electro? *Tut-tut* You certainly haven't been doing your homework.
-:{{a|vo lslq001 8 lisa 04d 2.ogg}} '''Lisa:''' Meet me at the library after work and I will give you some training on elemental reactions. If you still find it hard to memorize... Maybe I'll have you give you a little taste of what it feels like to superconduct.
 
+;(Confirmation)
+:{{A|vo lslq001 8 paimon 03.ogg}} '''Paimon:''' You sure you wanna pick the {{Color|buzzword|<flower>}}? {{Color|buzzword|Can't change again}} once you've made your mind up!
+:{{DIcon}} Yes
+:;(Choose Dandelion)
+:::{{a|vo lslq001 8 lisa 04a.ogg}} '''Lisa:''' Dandelions? They actually sell dandelions?
+:::{{a|vo lslq001 8 lisa 04a 1.ogg}} '''Lisa:''' They have a refreshing scent, similar to the one Jean wears. Thank you.
+:;(Choose Cecilia)
+:::{{a|vo lslq001 8 lisa 04b.ogg}} '''Lisa:''' Ooh la-la, such fine taste.
+:::{{a|vo lslq001 8 lisa 04b 1.ogg}} '''Lisa:''' This rare flower is only found in Mondstadt's very highest mountains.
+:::{{a|vo lslq001 8 lisa 04b 2.ogg}} '''Lisa:''' If only you had picked them for me with your own hands... They would have had twice the sentimental value.
+:;(Choose Rose)
+:::{{a|vo lslq001 8 lisa 04c.ogg}} '''Lisa:''' I can see you put a lot of thought into this, have you ever heard of the Witch of Purple Rose before?
+:::{{a|vo lslq001 8 lisa 04c 1.ogg}} '''Lisa:''' I thought that after returning to Mondstadt I wouldn't have the chance to see fresh roses again.
+:::{{a|vo lslq001 8 lisa 04c 2.ogg}} '''Lisa:''' This seems like a good sign.
+:;(Choose Mist Flower)
+:::{{a|vo lslq001 8 lisa 04d.ogg}} '''Lisa:''' Huh? These flowers are saturated with [[Cryo]] energy. They could be very dangerous for me.
+:::{{a|vo lslq001 8 lisa 04d 1.ogg}} '''Lisa:''' Don't you know what happens when Cryo meets Electro? *Tut-tut* You certainly haven't been doing your homework.
+:::{{a|vo lslq001 8 lisa 04d 2.ogg}} '''Lisa:''' Meet me at the library after work and I will give you some training on elemental reactions. If you still find it hard to memorize... Maybe I'll have you give you a little taste of what it feels like to [[superconduct]].
+:{{DIcon}} No
+:;(Returns to selection screen)
 :{{a|vo lslq001 9 lisa 01.ogg}} '''Lisa:''' Okay, time to get back to business. Donna, do you know why we're here?
 :{{a|vo lslq001 9 donna 01.ogg}} '''Donna:''' Back to business? My business is selling flowers!
 :{{a|vo lslq001 9 lisa 02.ogg}} '''Lisa:''' *sigh* Once again, we see a total lack of respect for literature...
-:{{a|vo lslq001 9 lisa 03.ogg}} '''Lisa:''' {{Color|buzzword|The Pale Princess and the Six Pygmies}}. Ring a bell?
+:{{a|vo lslq001 9 lisa 03.ogg}} '''Lisa:''' {{Color|buzzword|The Pale Princess and the Six Pygmies|link=1}}. Ring a bell?
 :{{a|vo lslq001 9 donna 02.ogg}} '''Donna:''' Oh! Ahh, yes, well, what happened was... was...
 :{{a|vo lslq001 9 donna 03.ogg}} '''Donna:''' Oh no, what am I gonna do?
 :{{DIcon}} Donna seems frantic.
@@ -277,14 +303,14 @@
 :{{a|vo lslq001 9 donna 04.ogg}} '''Donna:''' I... I lost the book.
 :{{a|vo lslq001 9 lisa 04.ogg}} '''Lisa:''' ...
 :{{a|vo lslq001 9 donna 05.ogg}} '''Donna:''' A while back, I realized it was almost due and I was getting ready to bring it back to the library.
-:{{a|vo lslq001 9 donna 06.ogg}} '''Donna:''' But I couldn't find it anywhere. I looked for days – but nothing.
+:{{a|vo lslq001 9 donna 06.ogg}} '''Donna:''' But I couldn't find it anywhere. I looked for days &mdash; but nothing.
 :{{a|vo lslq001 9 donna 07.ogg}} '''Donna:''' It's like somebody stole it... It should have been there, on my bedside table. Right where I left it.
 :{{a|vo lslq001 9 paimon 01.ogg}} '''Paimon:''' Uh-oh... Bet Lisa does some crazy things when she gets mad!
 :{{a|vo lslq001 9 lisa 05.ogg}} '''Lisa:''' I heard that!
 :{{a|vo lslq001 9 paimon 02.ogg}} '''Paimon:''' Eek!
 :{{a|vo lslq001 9 lisa 06.ogg}} '''Lisa:''' Well, if it really was stolen, Donna's done nothing wrong.
 :{{a|vo lslq001 9 lisa 07.ogg}} '''Lisa:''' The blame lies with the book thief.
-:{{a|vo lslq001 9 lisa 08.ogg}} '''Lisa:''' And their punishment will be three– No, ten times worse than stealing my book.
+:{{a|vo lslq001 9 lisa 08.ogg}} '''Lisa:''' And their punishment will be three&mdash; No, ten times worse than stealing my book.
 :{{a|vo lslq001 9 paimon 03.ogg}} '''Paimon:''' Like Paimon said! Totally crazy!
 :{{DIcon}} How do we find the lost book though?
 :{{a|vo lslq001 9 lisa 09.ogg}} '''Lisa:''' Oh, don't worry about that. As long as I remain librarian, not a single book will go missing for good.
@@ -293,9 +319,7 @@
 :{{a|vo lslq001 9 lisa 11.ogg}} '''Lisa:''' Hey sweetie, I've heard your elemental sensitivity is very strong... Why not see what you can do?
 :{{a|vo lslq001 9 paimon 05.ogg}} '''Paimon:''' Elemental sensitivity? Oh! Paimon's got it!
 :{{a|vo lslq001 9 paimon 06.ogg}} '''Paimon:''' Traveler, use your {{Color|buzzword|Elemental Sight}} to look for clues!
-
 ----
-
 ;(Investigating the elemental mark)
 :{{a|vo lslq001 11 lisa 01.ogg}} '''Lisa:''' Looking at the elemental traces, it does seem likely that the book was stolen.
 :{{a|vo lslq001 11 paimon 01.ogg}} '''Paimon:''' So Donna didn't do anything wrong after all.
@@ -305,7 +329,7 @@
 :{{a|vo lslq001 11 lisa 04.ogg}} '''Lisa:''' The {{Color|buzzword|elemental traces}} are very faint, but I can tell that the thief took it beyond the city walls.
 :{{a|vo lslq001 11 lisa 05.ogg}} '''Lisa:''' You must see it too, right, Traveler?
 :{{a|vo lslq001 11 lisa 06.ogg}} '''Lisa:''' Let's follow the trail and have a little look where our thief was headed, shall we?
-{{Dialogue end}}
+{{Dialogue End}}
 <!--
 ===Unsorted===
 * {{A|vo dialog lslq001 donna 01.ogg}} *sigh* How could I lose it...
@@ -313,27 +337,11 @@
 * {{A|vo dialog lslq001 lisa 02.ogg}} I would love a slice of {{Color|buzzword|Invigorating Pizza}} right about now...
 * {{A|vo lslq001 8 flora 04.ogg}} Graceful and refined &mdash; just like Lisa! Of course, those are just my thoughts. *giggle*
 -->
-
-==Unlocking the Invigorating Pizza dialogue option==
-# Obtain [[Invigorating Pizza]] either via [[Birthday/Jean|Jean's Birthday Mail]] or through the following method:
-## Have [[Jean]]
-## Do not do the quest before AR18
-## Once you reach AR18, complete the quest [[Hurdle]] to unlock [[Stormterror's Lair]] and obtain the [[Mushroom Pizza]] Recipe there
-## Cook Mushroom Pizzas with Jean until you receive her signature dish, Invigorating Pizza
-# Start Lisa's quest
-# Choose 'Steak' first and then 'No' in order to unlock the dialogue option
-
 ==Trivia==
-* When choosing a flower for Lisa, the option simply titled "Rose", described as a purple rose purchased from a traveling merchant, is likely a [[Sumeru Rose]]. 
-
-==Video Guides==
-{{EVT
-|video1   = https://youtu.be/uRmltm_5qec
-|caption1 = Invigorating Pizza option easter egg
-}}
+* [[Sumeru Rose]], which was added to the game in [[Version 3.0]] with the release of the [[Sumeru]] region, was likely designed with this quest's dialogue in mind. Donna states that their roses were purchased from a traveling merchant, while Lisa says she didn't expect to see fresh roses again "after returning to Mondstadt," indicating that the purple roses Lisa wears are not native to Mondstadt. Lisa's [[Lisa/Lore#Character Stories|Character Stories]] reveal that before becoming the Knights of Favonius' Librarian, she attended [[Sumeru Akademiya]] for two years but returned to Mondstadt after graduation.
 
 ==Other Languages==
-{{Transclude|Troublesome Work|Other Languages}}
+{{Other Languages|Troublesome Work}}
 
 ==Change History==
 {{Change History|1.0}}
@@ -341,3 +349,4 @@
 [[es:Un trabajo problemático (misión)]]
 [[fr:Tâche ingrate (Quête)]]
 [[ja:面倒な仕事 (任務)]]
+[[pt-br:Trabalho Problemático (Missão)]]

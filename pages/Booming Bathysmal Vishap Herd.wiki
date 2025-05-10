@@ -1,0 +1,156 @@
+{{About|the [[Feast of the Departed Warriors]] variant|the normal variant|Coral Defenders|the [[Three Realms Gateway Offering]] variant|The Call of Ice and Thunder}}
+{{Enemy Infobox
+|title    = 
+|image    = Enemy Bathysmal Vishap Herd.png
+|dmgtype  = Physical
+|dmgtype2 = Cryo
+|dmgtype3 = Electro
+|element  = Geo
+|weakpoint = yes
+|type     = Event Bosses
+|family   = Mystical Beasts
+|group    = Bathysmal Vishaps
+|ability1 = Energy Drain
+|ability2 = HP Loss
+}}
+'''Booming Bathysmal Vishap Herd''' is an event-exclusive enemy encountered during the [[Feast of the Departed Warriors]] event. The pair consists of a [[Frostshrieker Bathysmal Vishap]] and a [[Blitzroarer Bathysmal Vishap]].
+
+==Drops==
+===Energy===
+{{Energy Drops
+|type  = Cryo
+|type2 = Electro
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|o4    = 1
+}}
+
+==Stats==
+{{Enemy Stats
+|res1         = Frostshrieker
+|phys_res     = 30%
+|cryo_res     = 30%
+
+|res2         = Blitzroarer
+|phys_res2    = 30%
+|electro_res2 = 30%
+
+|res_title = 
+|hp_ratio  = 13.6325824499
+|hp_type   = 2
+|atk_ratio = 5
+|atk_type  = 2
+}}
+
+==Weak Point Location==
+<gallery>
+Coral Defenders Weak Point.png
+Coral Defenders Weak Point 2.png
+</gallery>
+
+==Abilities==
+''Ability names are unofficial except for Cleansing Shower; This section is based on the highest-difficulty version available in the event. Some information may be inaccurate in lower difficulties.''
+
+===Shared===
+{{Enemy Attacks
+|name_1 = ATK Bonus
+|desc_1 = The Frostshrieker and Blitzroarer Bathysmal Vishaps have a '''25%''' [[ATK]] Bonus at all times. This stacks additively with other sources of ATK% buffs or debuffs.
+
+|name_2 = Cleansing Shower
+|desc_2 = Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''5% ATK''' as {{Color|Cryo DMG}} or {{Color|Electro DMG}} and drains 30 (or optionally 45) [[Energy]] from the active character. If the active character has less Energy than the attack is capable of draining, the rest of the drain is converted to [[HP Loss]].
+* The HP Loss is calculated as:
+** If the optional setting that increases the Energy drain is disabled:<br><math>\begin{align} \text{HP Loss} = {} & ( 17 \% \times \text{Character Max HP} + 600 ) \\
+& \times ( 1 - \frac{\text{Remaining Energy}}{30} ) \end{align}</math>
+** If the optional setting that increases the Energy drain is enabled:<br><math>\begin{align} \text{HP Loss} = {} & ( 17 \% \times \text{Character Max HP} + 900 ) \\
+& \times ( 1 - \frac{\text{Remaining Energy}}{45} ) \end{align}</math>
+|file_1_2 = Bathysmal Vishap Herd Cleansing Shower Energy Drain
+|caption_1_2 = Energy Drain
+|file_1_3 = Bathysmal Vishap Herd Cleansing Shower HP Drain
+|caption_1_3 = HP Drain
+
+|name_3 = [[Paired Opponents|Revival]]
+|desc_3 = A visible link connects the two Vishaps. If one Vishap's HP reaches '''1.2%''' and the other Vishap is not defeated within the next 10 seconds, the defeated Vishap will be revived with '''50%/25%/10%''' of its Max HP if revived '''1/2/3+''' time(s).
+}}
+
+===Combo===
+{{Enemy Attacks
+|name_1 = Rapid Fire
+|desc_1 = The vishaps connect their tails and fire a barrage of alternating {{Cryo}} and {{Electro}} shards at the player, each dealing '''20% ATK''' as {{Color|Cryo DMG}} or {{Color|Electro DMG}}. Additionally, spawns a large stone pillar at the center of the arena the first time this attack is used. This pillar is a {{Geo}} object and is most effectively destroyed using [[Blunt Attack]]s.
+{{Elemental Shield Data|Geo|8|cryoonly=1}}
+
+|name_2 = Cleansing From Above
+|desc_2 = If the stone pillar spawned during '''Rapid Fire''' is not destroyed, both vishaps climb up the pillar and repeatedly launch '''Cleansing Shower''' orbs at the player. Orbs launched this way have the same Energy or HP draining effects, although with a minor homing property and a slower travel speed. Destroying the pillar during this attack will cause the vishaps to fall, temporarily incapacitating them.
+|file_2_2 = Booming Bathysmal Vishap Herd Cleansing From Above 2
+|caption_2_2 = Pillar Destroyed
+
+|name_3 = Double Beams
+|desc_3 = Both vishaps join their tails at the center of the arena, forms a circular field below them that deals '''100% ATK''' as {{Color|Cryo DoT}} and {{Color|Electro DoT}} simultaneously, and each fires a laser beam from its mouth, raking across the arena, randomly rapidly dealing '''100% ATK''', as {{Color|Cryo DMG}} or {{Color|Electro DMG}} to players caught in the beam.
+
+|name_4 = Frigid Thunderstorm
+|desc_4 = Both vishaps insert their tails into the ground at the center of the arena and repeatedly launch attacks. The Frostshrieker Bathysmal Vishaps marks circular areas on the ground in which it will produce ice spikes, dealing '''67% ATK''' as {{Color|Cryo DMG}}; The Blitzroarer Bathysmal Vishap marks cone-shaped areas on the ground in which it will rain down lightning, dealing '''66.6% ATK''' as {{Color|Electro DMG}}.
+}}
+
+===Frostshrieker-Exclusive===
+{{Enemy Attacks
+|name_1 = Slash Combo
+|desc_1 = If the player is within melee range, the Frostshrieker Vishap performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
+
+|name_2 = Spinning Sweep
+|desc_2 = Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|Cryo DMG}}.
+}}
+
+===Blitzroarer-Exclusive===
+{{Enemy Attacks
+|name_1 = Spike Field
+|desc_1 = Plugs its tail into the ground, creating a large field, within which Electro energy frequently spikes from the ground at random locations, dealing '''60% ATK''' as {{Color|Electro DMG}}. If a player is within the field, a spike will appear at the player's exact location every 2 seconds.
+
+|name_2 = Homing Shards
+|desc_2 = Shoots three shards from the tip of its tail, which home towards the player at high speed, each dealing '''30% ATK''' as {{Color|Electro DMG}}.
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = Booming Bathysmal Vishap Herd
+|zhs     = 深海龙蜥之群・轰旋
+|zhs_rm  = Shēnhǎi Lóngxī zhī Qún - Hōngxuán
+|zht     = 深海龍蜥之群・轟旋
+|zht_rm  = Shēnhǎi Lóngxī zhī Qún - Hōngxuán
+|zh_tl   = 
+|ja      = アビサルヴィシャップの群れ・轟旋
+|ja_rm   = Abisaru Vishappu no Mure - Gousen{{Assumed}}
+|ja_tl   = 
+|ko      = 심해 용 도마뱀 무리・회전
+|ko_rm   = 
+|ko_tl   = Herd of Deep Sea Vishap - Turn
+|es      = Manada de Dragartos de las Profundidades&nbsp;-&nbsp;Rotación fulminante
+|es_tl   = Pack of {{Lex|Vishap|es}}s of the Depths&nbsp;-&nbsp;Fulminating Rotation
+|fr      = Harde explosive d'Élémentosaures abyssaux
+|fr_tl   = Booming Abyssal {{Lex|Vishap|fr}} Herd
+|ru      = Стая вишапов глубин: Гулкий вихрь
+|ru_tl   = {{Lex|Bathysmal Vishap|ru}} Herd: Booming Whirlwind
+|th      = Booming Bathysmal Vishap Herd
+|vi      = Đàn Rồng Biển Sâu - Oanh Tạc
+|vi_tl   = 
+|de      = Knallende Tiefsee-Drachenechsen-Herde
+|de_tl   = Banging Deep Sea Dragon-Lizard Herd
+|id      = Booming Bathysmal Vishap Herd
+|pt      = Bando de Dragartos das Profundezas Estrondosos
+|pt_tl   = 
+|tr      = Gürleyen Su Ejderi Sürüsü
+|tr_tl   = 
+|it      = Mandria fragorosa di Elementosauri abissali
+|it_tl   = Thunderous Herd of Abyssal {{Lex|Vishap|it}}s
+}}
+
+==Change History==
+{{Change History|3.7}}
+
+==Navigation==
+{{Enemy Navbox|Special}}
+
+[[pt-br:Bando de Dragartos das Profundezas Estrondosos]]

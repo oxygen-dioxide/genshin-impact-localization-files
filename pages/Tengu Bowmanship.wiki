@@ -2,7 +2,7 @@
 |image         = Talent Tengu Bowmanship.png
 |character     = Kujou Sara
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Performs up to 5 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''Aimed Shot''' with increased DMG.<br />While aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal {{Color|Electro DMG}}.<br />When in the [[Crowfeather Cover]] state, a fully-charged arrow will leave a Crowfeather behind after it hits.<br /><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
+|info          = '''Normal Attack'''<br>Performs up to 5 consecutive shots with a bow.<br><br>'''Charged Attack'''<br>Perform a more precise '''Aimed Shot''' with increased DMG.<br>While aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal {{Color|Electro DMG}}.<br>When in the [[Crowfeather Cover]] state, a fully-charged arrow will leave a Crowfeather behind after it hits.<br><br>'''Plunging Attack'''<br>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
 |hit1          = 36.9–78.08%
 |hit2          = 38.7–81.9%
 |hit3          = 48.5–102.65%
@@ -12,84 +12,86 @@
 |charged       = 124–235.6%
 |plunge        = 56.8–120.27%
 |plungeLow     = 114–240.48%
-|plungeHig     = 142–300.37%
+|plungeHigh    = 142–300.37%
 |scale_att1    = ATK
 }}
 '''Tengu Bowmanship''' is [[Kujou Sara]]'s [[Normal Attack]].
 
-==Gameplay Notes== 
-*{{TalentNote|character=Kujou Sara|talent=Tengu Stormcall|ascension|1|Immovable Will}}
+==Gameplay Notes==
+;<big>Passive Effects</big>
+*{{Talent Note|character=Kujou Sara|talent=Tengu Stormcall|ascension|1|Immovable Will}}
+
 {{Clr}}
 ==Advanced Properties==
 {{Advanced Properties
 |title   = Normal Attack 1-Hit
-|gu      = —
+|gu      = &mdash;
 |icdtag  = none
 |poise   = 12.87
 |impulse = 1
 
 |title2   = Normal Attack 2-Hit
-|gu2      = —
+|gu2      = &mdash;
 |icdtag2  = none
 |poise2   = 13.5
 |impulse2 = 1
 
 |title3   = Normal Attack 3-Hit
-|gu3      = —
+|gu3      = &mdash;
 |icdtag3  = none
 |poise3   = 16.92
 |impulse3 = 1
 
 |title4   = Normal Attack 4-Hit
-|gu4      = —
+|gu4      = &mdash;
 |icdtag4  = none
 |poise4   = 17.58
 |impulse4 = 1
 
 |title5   = Normal Attack 5-Hit
-|gu5      = —
+|gu5      = &mdash;
 |icdtag5  = none
 |poise5   = 20.25
 |impulse5 = 1
 
 |title6   = Aimed Shot
-|gu6      = —
+|gu6      = &mdash;
 |icdtag6  = none
 |poise6   = 10
 |impulse6 = 2
 
 |title7   = Aimed Shot (Hit Weak Spot)
-|gu7      = —
+|gu7      = &mdash;
 |icdtag7  = none
 |poise7   = 30
 |impulse7 = 5
 
 |title8   = Fully-Charged Aimed Shot
-|gu8      = 1U<br /><small>(w/ [[Dropoff]])</small>
+|gu8      = 1U<br><small>(w/ [[Dropoff]])</small>
 |icdtag8  = none
 |poise8   = 20
 |impulse8 = 2
 
 |title9   = Fully-Charged Aimed Shot (Hit Weak Spot)
-|gu9      = 1U<br /><small>(w/ Dropoff)</small>
+|gu9      = 1U<br><small>(w/ Dropoff)</small>
 |icdtag9  = none
 |poise9   = 60
 |impulse9 = 5
 
 |title10   = Plunging Attack Collision
-|gu10      = —
+|gu10      = &mdash;
 |icdtag10  = none
 |poise10   = 10
 |impulse10 = 2
 
 |title11   = Low Plunge
-|gu11      = —
+|gu11      = &mdash;
 |icdtag11  = none
 |poise11   = 50
 |impulse11 = 2
 
 |title12   = High Plunge
-|gu12      = —
+|gu12      = &mdash;
 |icdtag12  = none
 |poise12   = 100
 |impulse12 = 3
@@ -103,7 +105,7 @@
 |file2    = Tengu Bowmanship Charged Preview
 |caption2 = Charged Attack
 
-|file3    = Tengu Bowmanship Plunge Preview
+|file3    = Tengu Bowmanship Plunging Preview
 |caption3 = Plunging Attack
 }}
 
@@ -127,40 +129,39 @@
 
 ==Attribute Scaling==
 {{Talent Scaling
-|talentType=Normal Attack
 |levels=11
 |order=hit1,hit2,hit3,hit4,hit5,charged_title,aimed,fully-chargedaimedshot,plunge_title,plunge,plungelow,plungehigh
-|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),5-Hit DMG (%),Charged Attack (Aimed Shot),Aimed Shot (%),Fully-Charged Aimed Shot (%),Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
-|hit1_1=36.9
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),5-Hit DMG (%),Charged Attack,Aimed Shot (%),Fully-Charged Aimed Shot (%),Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
+|hit1_1=36.89
 |hit1_2=39.9
 |hit1_3=42.9
 |hit1_4=47.19
 |hit1_5=50.19
-|hit1_6=53.6
+|hit1_6=53.63
 |hit1_7=58.34
-|hit1_8=63.1
+|hit1_8=63.06
 |hit1_9=67.78
 |hit1_10=72.93
 |hit1_11=78.08
 |hit2_1=38.7
-|hit2_2=41.9
+|hit2_2=41.85
 |hit2_3=45
 |hit2_4=49.5
 |hit2_5=52.65
-|hit2_6=56.3
+|hit2_6=56.25
 |hit2_7=61.2
-|hit2_8=66.2
+|hit2_8=66.15
 |hit2_9=71.1
 |hit2_10=76.5
 |hit2_11=81.9
 |hit3_1=48.5
-|hit3_2=52.5
+|hit3_2=52.45
 |hit3_3=56.4
 |hit3_4=62.04
 |hit3_5=65.99
 |hit3_6=70.5
 |hit3_7=76.7
-|hit3_8=82.9
+|hit3_8=82.91
 |hit3_9=89.11
 |hit3_10=95.88
 |hit3_11=102.65
@@ -169,29 +170,29 @@
 |hit4_3=58.6
 |hit4_4=64.46
 |hit4_5=68.56
-|hit4_6=73.3
+|hit4_6=73.25
 |hit4_7=79.7
-|hit4_8=86.1
+|hit4_8=86.14
 |hit4_9=92.59
 |hit4_10=99.62
 |hit4_11=106.65
-|hit5_1=58.1
-|hit5_2=62.8
+|hit5_1=58.05
+|hit5_2=62.78
 |hit5_3=67.5
 |hit5_4=74.25
 |hit5_5=78.97
-|hit5_6=84.4
+|hit5_6=84.38
 |hit5_7=91.8
-|hit5_8=99.2
+|hit5_8=99.22
 |hit5_9=106.65
 |hit5_10=114.75
 |hit5_11=122.85
-|aimed_1=43.9
-|aimed_2=47.4
+|aimed_1=43.86
+|aimed_2=47.43
 |aimed_3=51
 |aimed_4=56.1
 |aimed_5=59.67
-|aimed_6=63.8
+|aimed_6=63.75
 |aimed_7=69.36
 |aimed_8=74.97
 |aimed_9=80.58
@@ -202,14 +203,14 @@
 |fully-chargedaimedshot_3=142.6
 |fully-chargedaimedshot_4=155
 |fully-chargedaimedshot_5=164.3
-|fully-chargedaimedshot_6=174
+|fully-chargedaimedshot_6=173.6
 |fully-chargedaimedshot_7=186
 |fully-chargedaimedshot_8=198.4
 |fully-chargedaimedshot_9=210.8
 |fully-chargedaimedshot_10=223.2
 |fully-chargedaimedshot_11=235.6
-|plunge_1=56.8
-|plunge_2=61.5
+|plunge_1=56.83
+|plunge_2=61.45
 |plunge_3=66.08
 |plunge_4=72.69
 |plunge_5=77.31
@@ -219,23 +220,23 @@
 |plunge_9=104.41
 |plunge_10=112.34
 |plunge_11=120.27
-|plungelow_1=114
+|plungelow_1=113.63
 |plungelow_2=122.88
 |plungelow_3=132.13
 |plungelow_4=145.35
 |plungelow_5=154.59
-|plungelow_6=165
+|plungelow_6=165.17
 |plungelow_7=179.7
 |plungelow_8=194.23
 |plungelow_9=208.77
 |plungelow_10=224.62
 |plungelow_11=240.48
-|plungehigh_1=142
+|plungehigh_1=141.93
 |plungehigh_2=153.49
 |plungehigh_3=165.04
 |plungehigh_4=181.54
 |plungehigh_5=193.1
-|plungehigh_6=206
+|plungehigh_6=206.3
 |plungehigh_7=224.45
 |plungehigh_8=242.61
 |plungehigh_9=260.76
@@ -275,7 +276,7 @@
 |pt      = Tiro com Arco Tengu
 |pt_tl   = Shot with a Tengu Bow
 |tr      = Tengu Okçuluğu
-|tr_tl   = 
+|tr_tl   = Tengu Archery
 |it      = Arcieria tengu
 |it_tl   = Tengu Bowmanship
 }}
@@ -286,8 +287,9 @@
 ==Navigation==
 {{Talent Navbox|Kujou Sara}}
 
-[[es:Técnica de arco tengu]]
+[[es:Técnica de arco Tengu]]
 [[fr:Archerie tengu]]
+[[ja:天狗伝弓術]]
 [[pt-br:Tiro com Arco Tengu]]
 [[ru:Стрелковое искусство тэнгу]]
 [[th:Tengu Bowmanship]]

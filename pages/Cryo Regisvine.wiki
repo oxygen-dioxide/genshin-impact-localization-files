@@ -1,17 +1,16 @@
 {{Enemy Infobox
-|image    = <gallery>
-Enemy Cryo Regisvine.png|Screenshot
-Enemy Cryo Regisvine Icon.png|Icon
-</gallery>
+|image    = Enemy Cryo Regisvine.png
 |dmgtype  = Cryo
 |weakpoint = yes
 |family   = Mystical Beasts
 |group    = Regisvines
 |type     = Normal Bosses
-|location = [[Falcon Coast]], [[Mondstadt]]
+|area     = Starfell Valley
+|region   = Mondstadt
 |ability1 = Shield
 |drops    = Hoarfrost Core
 |title    = Giant Frostbreath Calamus;Evercold Iceflower;Silent Frost Bloom
+|variants = Resurgent Cryo Regisvine
 }}
 {{Enemy Intro}}
 
@@ -57,8 +56,8 @@ Cryo Regisvine Weak Point.png
 </gallery>
 * The Weak Point is only exposed after the player has destroyed the shield at its corolla once. When the Weak Point is exposed, the appearance of the corolla will change.
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 ===Roots Phase===
 The Cryo Regisvine enters this phase when the boss fight begins, or when it wakes up from its paralyzed state after its corolla core is destroyed. Its core will be located at its roots. Breaking its core using elemental reactions will paralyze the Cryo Regisvine. If the Regisvine has already entered Corolla before returning to Roots Phase, the '''Flail''' and '''Half Flail''' attacks may also be used in Phase 1.
 {{Elemental Shield Data|Cryo|12|Roots Core}}
@@ -69,23 +68,28 @@ The Cryo Regisvine enters this phase when the boss fight begins, or when it wake
 |file_1 = Cryo Regisvine Stun
 
 |name_2 = Ice Beams
-|desc_2 = Flings two ice beams into an overlapping cross pattern, dealing '''50% ATK''' as {{Color|Cryo DMG}}. Dodge this attack by dashing to the side.
+|desc_2 = Flings two ice beams into an overlapping cross pattern, dealing '''50% ATK''' as {{Color|Cryo DMG}}. It may follow up with another two beams in an outward cross pattern.
+* This attack may be used in the Corolla phase if a player is within the area of the ground frozen by '''Rotary Spray'''.
 * Indicated by its two lashes starting to glow brightly.
 
 |name_3 = Homing Icicles
 |desc_3 = Fires 2, 4, or 6 barrages of icicles that home toward the player, dealing '''12.5% ATK''' as {{Color|Cryo DMG}} on hit. These icicles will follow the character for a few seconds before losing their homing attribute.
+* This attack may be used in the Corolla phase if a player is within the area of the ground frozen by '''Rotary Spray'''.
 * Indicated when the Regisvine raises its lashes less high and a glowing effect traveling through its lashes.
 
 |name_4 = Faceplant
-|desc_4 = Charges and slams itself into the ground, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}} and causing three trails of ice to spike from the ground, with each spike dealing '''50% ATK''' as {{Color|AoE Cryo DMG}}.
-* Indicated by raising its body upwards and a glow travelling up its stem.
+|desc_4 = Charges and slams itself into the ground, dealing '''100% ATK''' as {{Color|Cryo DMG}} and causing three trails of ice to spike from the ground, with each spike dealing '''50% ATK''' as {{Color|Cryo DMG}}.
+* There is a small chance that the Regisvine may chain this attack three times consecutively if the player moves to the side. In the Corolla phase, the chance of triggering the chained version is greatly increased.
 |file_4 = Cryo Regisvine Body Slam Single
+|caption_4 = Single
+|file_4_2 = Cryo Regisvine Body Slam Triple
+|caption_4_2 = Triple
 
 |name_5 = Spin
-|desc_5 = A circle appears around the Regisvine indicating the radius of the attack. It will then flatten and stretch out its petals and spin, dealing '''100% ATK''' as {{Color|Cryo DMG}} within the previously marked radius, knocking any characters back and infusing the ground in the radius with {{Cryo}}. The infused ground will deal '''30% ATK''' as {{Color|Cryo DoT}} to characters who step on it until it dissipates.
+|desc_5 = A circle appears around the Regisvine indicating the radius of the attack. It will then flatten and stretch out its petals and spin, dealing '''100% ATK''' as {{Color|Cryo DMG}} within the previously marked radius, knocking any characters back and infusing the ground in the radius with {{Cryo}}. The infused ground will deal '''30% ATK''' as {{Color|Cryo DMG}} to characters who step on it every second.
 
 |name_6 = Blizzard
-|desc_6 = This attack is used if the Regisvine's core is not broken after a long period of time. The Regisvine channels its Cryo powers and lets ice rain from the air, aiming at where the player is currently standing and also aiming slightly ahead of where the player is currently moving, dealing '''50% ATK''' as {{Color|Cryo DMG}} on appearance and when they explode shortly after. The fallen ice bolts will also explode and leave behind a patch of Cryo that deals '''30% ATK''' as {{Color|Cryo DoT}} to characters who step on it until it dissipates. This attack can be dodged by simply running around the arena, sprinting is not required.
+|desc_6 = This attack is used if the Regisvine's core is not broken after a long period of time, and is always preceded by '''Spin'''. The Regisvine channels its Cryo powers and lets ice rain from the air, aiming at where the player is currently standing and also aiming slightly ahead of where the player is currently moving, dealing '''50% ATK''' as {{Color|Cryo DMG}} on appearance and when they explode shortly after. Ice bolts will never spawn near the base and can also appear uncommonly in random positions around the arena. The fallen ice bolts will also leave behind a patch of Cryo that deals '''30% ATK''' as {{Color|Cryo DMG}} to characters who step on it every second after exploding. This attack can be dodged by simply running around the arena, sprinting is not required.
 }}
 
 ===Corolla Phase===
@@ -97,33 +101,23 @@ The Cryo Regisvine enters this phase when it wakes up from its paralyzed state a
 |desc_1 = Smashes its head on the floor and swings 360 degrees around its roots, dealing '''100% ATK''' as {{Color|Cryo DMG}} and knocking players away.
 
 |name_2 = Half Flail
-|desc_2 = Smashes its head on the floor and swings 180 degrees around its roots, dealing '''100% ATK''' as {{Color|Cryo DMG}} and knocking players away.
-* This attack can be chained up to two times, and may be followed up by '''Faceplant'''.
+|desc_2 = If the player is behind the Regisvine, performs a sweep with its head to face the player, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
 
-|name_3 = Rotary Spray
-|desc_3 = The Cryo Regisvine will lean its head forward at the player, with its buds (arms) spread, and, after locking onto the players location, will fire a huge beam of Cryo from its corolla while slowly turn around 360 degrees, rapidly dealing '''50% ATK''' as {{Color|Cryo DoT}} to any players caught in the beam and infusing the outer ring of the arena with {{Cryo}}. The infused ground will deal '''30% ATK''' as {{Color|Cryo DoT}} to characters who step on it until it dissipates.
+|name_3 = Half Flail Combo
+|desc_3 = Performs the following twice: Smashes its head on the floor and swings 180 degrees around its roots two times consecutively, dealing '''100% ATK''', '''100% ATK''' as {{Color|Cryo DMG}} on the head smash and the swing respectively.<br>Then follows with '''Faceplant'''. After performing Faceplant, the corolla will linger on the ground for an extended period of time.
 
-|name_4 = Faceplant
-|desc_4 = Charges and slams itself into the ground, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}} and causing three trails of ice to spike from the ground, with each spike dealing '''50% ATK''' as {{Color|AoE Cryo DMG}}.
-* In Phase 2, this attack may be chained rapidly three times.
-|file_4 = Cryo Regisvine Body Slam Triple
+|name_4 = Rotary Spray
+|desc_4 = Leans its head forward at the player, and after locking onto the players location, fires a huge beam of Cryo from its corolla while slowly turn around 360 degrees, rapidly dealing '''50% ATK''' as {{Color|Cryo DMG}} every '''0.2''' seconds to any players caught in the beam and infusing the outer ring of the arena with {{Cryo}}. Repeated DMG dealt by the beam is reduced according to the [[Damage Sequence]]. The infused ground will deal '''30% ATK''' as {{Color|Cryo DMG}} to characters who step on it every second.
 }}
-
-==Strategy==
-During the fight, it is necessary to destroy the Regisvine's core to allow large amounts of damage to be dealt upon it. While {{Pyro}}, {{Electro}}, {{Anemo}}, {{Geo}} can all deal damage to the core, {{Pyro}} is the most effective. Therefore, a {{Pyro}} character is highly recommended.
-
-In Phase 2, while the corolla core is normally hard to reach using non-[[Bows|bow]]-wielding characters, the Regisvine will expose it during the '''Faceplant''' attack by smashing its corolla into the ground, allowing non-bow-wielding characters to damage it.
-
-While the '''Blizzard''' attack may be visually menacing, it can be dodged easily by simply running around the arena in one direction, in which case none of the ice bolts will be able to hit the player. It is not necessary to sprint during this attack.
-
-==Event Variant==
-{{Main|Resurgent Cryo Regisvine}}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Cryo Regisvine}}
 
+==Tutorials==
+{{Tutorial|Cryo Regisvine}}
+
 ==Descriptions==
-{{Description|A monster formed from a vine that was imbued with the essence of biting frost within the [[ley line]]s.<br />Some studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the ley lines. Concrete examples of this phenomena are [[Mist Flower]]s, [[Whopperflower]]s, and the like, which brim over with elemental energy.<br />In certain circumstances, certain plants will turn into creatures of monstrous size and intent &mdash; such as the Cryo Regisvines &mdash; in the course of many years.|[[Adventurer Handbook]] and [[Archive]]}}
+{{Description|A monster formed from a vine that was imbued with the essence of biting frost within the [[ley line]]s.<br>Some studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the ley lines. Concrete examples of this phenomena are [[Mist Flower]]s, [[Whopperflower]]s, and the like, which brim over with elemental energy.<br>In certain circumstances, certain plants will turn into creatures of monstrous size and intent &mdash; such as the Cryo Regisvines &mdash; in the course of many years.|[[Adventurer Handbook]] and [[Archive]]}}
 
 ==Trivia==
 * In {{Quest|Secret Ingredient}}, the Cryo Regisvine is titled "We Could Make A Cold Dish?"
@@ -168,9 +162,9 @@ Enemy Cryo Regisvine Icon.png|Icon
 |pt      = Regisvine Cryo
 |pt_tl   = Cryo Regisvine
 |tr      = Yalancı Buz Ağacı
-|tr_tl   = 
+|tr_tl   = Deceptive Ice Tree
 |it      = Regisreptus di Cryo
-|it_tl   = 
+|it_tl   = Cryo {{Lex|Regisvine|it}}
 }}
 
 ==Change History==
@@ -181,7 +175,9 @@ Enemy Cryo Regisvine Icon.png|Icon
 
 [[de:Fluxeisbaum]]
 [[es:Regisvid Cryo]]
+[[fr:Arbre congelé]]
 [[ja:急凍樹]]
+[[pl:Królorośl Cryo]]
 [[pt-br:Regisvine Cryo]]
 [[ru:Крио папоротник]]
 [[zh:急凍樹]]

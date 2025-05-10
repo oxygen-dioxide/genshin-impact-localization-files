@@ -1,13 +1,13 @@
 {{Location Infobox
 |image        = <gallery>
 Mt. Aocang.png|In-game
-Location Mt. Aocang.jpeg|Map
+Mt. Aocang Map.png|Map
 </gallery>
 |type         = Subarea
 |region       = Liyue
 |area         = Minlin
 }}
-{{Location Intro|{{Lang|'''Mt. Aocang'''|zh=奥藏山|zh_rm=Àocáng-shān}}|description=<p>It is the home of the [[Adeptus]] [[Cloud Retainer]].</p>}}
+{{Location Intro|{{Lang|'''Mt. Aocang'''|zh=奥藏山|zh_rm=Àocáng-shān}}|description=<p>{{If Self|Mt. Aocang|It|Mt. Aocang}} was the domain of the [[adeptus]] [[Xianyun|Cloud Retainer]] while she lived in isolation, following the [[Archon War]] and until the events of ''[[A Thousand Moonlit Miles]]''.</p>}}
 
 ==Quests==
 {{Quests by Category List|heo=1}}
@@ -35,28 +35,29 @@ Location Mt. Aocang.jpeg|Map
 * [[Treasure Hoarder Diary]]
 * Observe the Stone Chair
 ** In the middle of the lake, a stone table is set up with seats for Cloud Retainer, [[Guizhong]], and [[Rex Lapis]].
-{{Dialogue start}}
+{{Dialogue Start}}
 ::'''Observe the Stone Chair:''' (There are three stone chairs around the stone table, and each one has a line of text engraved on it...)
 ::'''Observe the Stone Chair:''' (There is a wine jar in front of the chair on the south-west side. Engraved on this chair is: "Here sits Retainer.")
 ::'''Observe the Stone Chair:''' (There is a bowl and a pair of chopsticks in front of the chair on the north side. Engraved on this chair is: "Here sits Guizhong.")
 ::'''Observe the Stone Chair:''' (There is nothing on the table in front of the chair on the south-east side. Engraved on the chair is: "Here sits Rex.")
-{{Dialogue end}}
+{{Dialogue End}}
 * Stone Tablet
 ** Found on the mountain above the stairs leading to Cloud Retainer's abode, near a [[Windmill Mechanism]].
-{{Dialogue start}}
+{{Dialogue Start}}
 ::'''Read:''' "Tranquility of mind and purity of heart &mdash; the Free Adeptus, The Unfettered &mdash; performs no action and sets no rule. Their presence is beyond mere mortals."
-{{Dialogue end}}
+{{Dialogue End}}
+* [[Fishing/Fishing Point|Mt. Aocang]] fishing point
 
 ==Puzzles==
 ===Ruins Treasure===
-{{Dialogue start}}
+{{Dialogue Start}}
 Near the [[Clear Pool and Mountain Cavern]] domain is a Ruins Treasure. From a distance, you can see a pillar of light above it. This ruins treasure is related to the one in [[Guyun Stone Forest]], and tells the story of the disciple who received a Vision.
 *The ruins treasure puzzle has a set order of completion. If you attempt to activate a monument out of order, the description reads:
 :''To the one who views this monument: Seek ye first the monuments in the mountain, and only then return to the one erected here.''
 :''Any who earnestly seeks to resolve my perplexion should seek first the monuments in the mountain, and view them in order.''
 
 ====First Ruins Treasure====
-''My fellow disciple and I trained in the martial arts from childhood. Our quest was to fight the forces of evil and protect all that is sacred in this world. But this was no easy task without the aid of a {{Color|buzzword|Vision}}.''<br />
+''My fellow disciple and I trained in the martial arts from childhood. Our quest was to fight the forces of evil and protect all that is sacred in this world. But this was no easy task without the aid of a {{Color|buzzword|Vision}}.''<br>
 ''We two sought refuge here to train ourselves further and to seek the {{Color|buzzword|Visions}} that we desired. We erected this monument in testament to our endeavors.''
 
 :{{DIcon}} Touch the monument.
@@ -66,8 +67,8 @@ Near the [[Clear Pool and Mountain Cavern]] domain is a Ruins Treasure. From a d
 :{{DIcon}} Leave for Now.
 
 ====Second Ruins Treasure====
-''{{Color|buzzword|Visions}}... They truly hail from a realm beyond. People say that they are a gift from the divine, but none can say who will receive one and why.''<br />
-''Ancient texts hold that the divine looks down with compassion on the mortal realm, and bestows Visions upon the worthy to help them fight against evil and protect the world. But I... I no longer burn with a desire to banish monsters. I just want to communicate with them. To understand them.''<br />
+''{{Color|buzzword|Visions}}... They truly hail from a realm beyond. People say that they are a gift from the divine, but none can say who will receive one and why.''<br>
+''Ancient texts hold that the divine looks down with compassion on the mortal realm, and bestows Visions upon the worthy to help them fight against evil and protect the world. But I... I no longer burn with a desire to banish monsters. I just want to communicate with them. To understand them.''<br>
 ''This {{Color|buzzword|Vision}}... It is of no use to me.''
 
 :{{DIcon}} Touch the monument.
@@ -76,7 +77,7 @@ Near the [[Clear Pool and Mountain Cavern]] domain is a Ruins Treasure. From a d
 :{{DIcon}} Leave for Now.
 
 ====Third Ruins Treasure====
-''I was fortunate enough to receive my {{Color|buzzword|Vision}}. But still, there was doubt in my mind: Is it truly within the power of mere mortals to one day cleanse the world of the monsters that have long plagued it? And how different from mankind are these monsters to begin with, save in outward appearance? Is it not so that just like us, they, too, speak; they, too, build; and they, too, feel love and hate, joy and grief...''<br />
+''I was fortunate enough to receive my {{Color|buzzword|Vision}}. But still, there was doubt in my mind: Is it truly within the power of mere mortals to one day cleanse the world of the monsters that have long plagued it? And how different from mankind are these monsters to begin with, save in outward appearance? Is it not so that just like us, they, too, speak; they, too, build; and they, too, feel love and hate, joy and grief...''<br>
 ''I hereby inscribe my mind's greatest perplexion onto this monument. O, reader in the far-flung future, will you be the one to resolve this riddle?''
 
 :Are monsters truly evil by nature?
@@ -89,32 +90,12 @@ Near the [[Clear Pool and Mountain Cavern]] domain is a Ruins Treasure. From a d
 :{{DIcon}} No
 :{{DIcon}} Yes
 
-Your answers to the above will affect whether you must fight for the Exquisite Chest or not.
+Your answers to the above will affect whether you must fight for the Exquisite Chest or not: answering yes to at least two questions will skip the fight while answering no to at least two questions will trigger it.
 
-{| class="wikitable" style="text-align:center;"
-! Question 1 !! Question 2 !! Question 3 !! Result
-|-
-| rowspan="4"|Yes || rowspan="2"|Yes || Yes || rowspan="3"|{{Color|Dendro|No Fight}}
-|-
-| No
-|-
-| rowspan="2"|No || Yes
-|-
-| No || {{Color|Pyro|Fight}}
-|-
-| rowspan="4"|No || rowspan="2"|Yes || Yes || {{Color|Dendro|No Fight}}
-|-
-| No || rowspan="3"|{{Color|Pyro|Fight}}
-|-
-| rowspan="2"|No || Yes
-|-
-| No
-|}
-
-(Interact with the Ruins Treasure again, No Fight)<br />
-''Future reader, I know not whether you bear the answers to my questions.''<br />
-''Anyone who reads these words must surely be of the same nature as I.''<br />
-''{{Color|buzzword|If it is of interest to you, I have buried what few treasures I own by the pool. Retrieve them with my blessing.}}''<br />
+(Interact with the Ruins Treasure again, No Fight)<br>
+''Future reader, I know not whether you bear the answers to my questions.''<br>
+''Anyone who reads these words must surely be of the same nature as I.''<br>
+''{{Color|buzzword|If it is of interest to you, I have buried what few treasures I own by the pool. Retrieve them with my blessing.}}''<br>
 ''But please never forget these questions three. I pray that there will come a day when you are equipped to answer them.''
 
 (A fourth Ruins Treasure spawns in the middle of the lake)
@@ -123,11 +104,14 @@ Your answers to the above will affect whether you must fight for the Exquisite C
 :*The reward is an Exquisite Chest.
 ----
 (Interact with the Ruins Treasure again, Fight)
-:'''(Traveler):''' Monsters wreak havoc all across this world, and we who seek to protect it would do well to remember: Monsters deserve nothing more than the merciless slaughter they will get!
+:'''{{Traveler}}:''' Monsters wreak havoc all across this world, and we who seek to protect it would do well to remember: Monsters deserve nothing more than the merciless slaughter they will get!
 :{{DIcon}} Touch the monument
 :*Defeat all enemies within 90 second(s)
 :**Defeat the Stonehide Lawachurl to receive an Exquisite Chest.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=location}}
 
 ==Other Languages==
 {{Other Languages
@@ -137,12 +121,11 @@ Your answers to the above will affect whether you must fight for the Exquisite C
 |zht     = 奧藏山
 |zht_rm  = Àocáng-shān
 |zh_tl   = Deep-Hiding Mountain
-|zh_note = Refers to the deeply hidden wonders of the mountain.<ref>{{Ref/Domain|Clear Pool and Mountain Cavern|note=chinese localization}}</ref>
+|zh_note = Refers to the deeply hidden wonders of the mountain.<ref>{{Ref/Domain|Clear Pool and Mountain Cavern|note=Chinese localization}}</ref>
 |ja      = {{Rubi|奥|おく|蔵|ぞう|山|さん}}
-|ja_rm   = Okuzou-zan<ref>[[Map]], Label: Mt. Aocang (Japanese)</ref>
+|ja_rm   = Okuzou-san<ref>[[Map]], Label: Mt. Aocang (Japanese)</ref>
 |ja_tl   = Deep-Hiding Mountain{{Sino|ja}}
-|ko      = {{tt|오장산|奧藏山}}
-|ko_rm   = Ojangsan
+|ko      = {{tt|오장<->산|奧藏山}}
 |ko_tl   = Deep-Hiding Mountain{{Sino|ko}}
 |es      = Montaña Aozang
 |es_tl   = Aozang Mountain
@@ -152,15 +135,15 @@ Your answers to the above will affect whether you must fight for the Exquisite C
 |ru_tl   = Mt. Aocang
 |th      = Mt. Aocang
 |vi      = Âu {{tt|Tàng Sơn|藏山}}
-|vi_tl   = Deep-Hiding Mountain
-|vi_note = From Sino-Vietnamese reading of Chinese name. 奧 ''áo'' has been replaced by ''âu''.
+|vi_tl   = Deep-Hiding Mountain{{Sino|vi|part=1}}
+|vi_note = From Sino-Vietnamese reading of Chinese name. {{vi|Áo}} ({{zh|t=奧}}) has been replaced by {{vi|âu}}.
 |de      = Aocang-Berg
 |de_tl   = Aocang Mountain
 |id      = Mt. Aocang
 |pt      = Montanha Aozang
 |pt_tl   = Aozang Mountain
 |tr      = Aocang Dağı
-|tr_tl   = 
+|tr_tl   = Aocang Mountain
 |it      = Monte Aocang
 |it_tl   = Mount Aocang
 }}
@@ -175,6 +158,9 @@ Your answers to the above will affect whether you must fight for the Exquisite C
 {{Area Navbox|Liyue}}
 
 [[es:Montaña Aozang]]
+[[fr:Mont Aozang]]
 [[ja:奥蔵山]]
 [[pt-br:Montanha Aozang]]
 [[ru:Гора Аоцан]]
+[[vi:Âu Tàng Sơn]]
+[[zh:奧藏山]]

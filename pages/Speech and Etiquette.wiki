@@ -1,5 +1,6 @@
 {{Quest Infobox
 |id            = 10121
+|image         = Story Quest Speech and Etiquette.png
 |type          = Story
 |chapter       = Aphros Delos Chapter
 |actNum        = I
@@ -9,41 +10,44 @@
 |startLocation = [[Knights of Favonius Headquarters]], [[City of Mondstadt]], [[Mondstadt]]
 |region        = Mondstadt
 |area          = Starfell Valley
-|subarea       = City of Mondstadt
+|subarea       = Mondstadt City
 |prev          = Shadow of the Past
 |next          = Through the Motions, to the Heart
-|exp           = 625
-|mora          = 38,100
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
+|rewards       = Adventure EXP*625;Mora*38,100;Hero's Wit*4;Mystic Enhancement Ore*8
 |characters    = Amber; Eula; Leno; Norman; Paimon; Randall; Sara; Traveler
 |voiced        = yes
 }}
-'''Speech and Etiquette''' is the second part of [[Eula]]'s [[Story Quest]] [[Aphros Delos Chapter]]: Act I - [[The Spindrift Shall Never Return to the Sea]].
+'''Speech and Etiquette''' is the second part of {{Quest|The Spindrift Shall Never Return to the Sea}}.
 
 ==Steps==
-#Go to the plaza in front of the [[Favonius Cathedral|Cathedral]]
-#Talk to the locals and observe Eula's demonstration
-#Continue talking to the locals
-#Go to [[Dragonspine]] for aristocratic conduct training
-#Complete the aristocratic etiquette training
-##Reach the objective without being launched or taking any damage
-##*Enemies: 2× [[Cryo Hilichurl Grenadier]], 2× [[Cryo Hilichurl Shooter]], along with various hazards.
-##*(If failed the challenge) Talk to Eula to learn how the training will proceed
-##Talk to Eula
-##Go to the training location and activate the [[Ley Line Monolith]]
-##Defeat the opponents without being launched or Frozen
-##*Enemies:
-##**Wave 1: 1× [[Large Cryo Slime]], 2× [[Hydro Slime]]
-##**Wave 2: 1× Large Cryo Slime, 1× [[Large Hydro Slime]] - the Large Hydro Slime is [[Auras|empowered]].
-##**Wave 3: 2× [[Ice Shield Hilichurl Guard]], 1× [[Hydro Samachurl]], 1× Cryo Hilichurl Shooter, 1× [[Electro Hilichurl Shooter]]
-##*(If failed the challenge) Talk to Eula to learn how the training will proceed
-##Talk to Eula
-#Go to [[Good Hunter]] and get a greeting gift
+# Go to the plaza in front of the [[Favonius Cathedral|Cathedral]]
+# Talk to the locals and observe [[Eula]]'s demonstration
+# Continue talking to the locals
+# Go to [[Dragonspine]] for aristocratic conduct training
+# Complete the aristocratic etiquette training
+## Reach the objective without being launched or taking any damage
+##* Enemies:{{Enemy List|Cryo Hilichurl Grenadier*2;Cryo Hilichurl Shooter*2}}
+##* (If failed the challenge) Talk to Eula to learn how the training will proceed
+# Talk to Eula
+# Go to the training location and activate the [[Ley Line Monolith]]
+## Defeat the opponents without being launched or Frozen
+##* Enemies:
+##** Wave 1:{{Enemy List|Large Cryo Slime;Hydro Slime*2}}
+##** Wave 2:{{Enemy List|Large Cryo Slime;Large Hydro Slime}}
+##*** The Large Hydro Slime has the [[Mist Bubble (Aura)|Mist Bubble]] aura.
+##** Wave 3:{{Enemy List|Ice Shield Hilichurl Guard*2;Hydro Samachurl;Cryo Hilichurl Shooter;Electro Hilichurl Shooter}}
+##* (If failed the challenge) Talk to Eula to learn how the training will proceed
+# Talk to Eula
+# Go to [[Good Hunter]] and get a greeting gift
 #* Obtain [[Well-Packaged Gebratenes Fleisch mit Sauerkraut]]
 
+== Gameplay Notes ==
+
+# During Step 5 & Step 7, using a Shield, even if the Player was Launched/Pushed, he can continue the quest
+
 ==Dialogue==
-{{Quest Description|You successfully locate [[Eula]], who agrees to teach you the customs of the [[Lawrence Clan]]. To fulfill the task given to you by Master Jean, it seems you will need to undergo quite the rigorous training program...}}
-{{Dialogue start}}
+{{Quest Description|You successfully locate Eula, who agrees to teach you the customs of the [[Lawrence Clan]]. To fulfill the task given to you by Master [[Jean]], it seems you will need to undergo quite the rigorous training program...}}
+{{Dialogue Start}}
 ;(Approach Eula in the plaza)
 :{{A|vo ellq002 1 eula 01.ogg}} '''Eula:''' Ah, you've finally arrived. There's no time to spare, so we'll begin with our first lesson...
 :{{A|vo ellq002 1 paimon 01.ogg}} '''Paimon:''' Wait, hold on! There's something we need to clear up first, otherwise it'll keep bugging us!
@@ -55,7 +59,7 @@
 :{{A|vo ellq002 1 eula 04.ogg}} '''Eula:''' I already have a long list of vengeance to exact. Even if I wanted to begin now, I'd have to start in the right order.
 :{{A|vo ellq002 1 eula 05.ogg}} '''Eula:''' Who knows how long it will be before I get to you.
 :{{A|vo ellq002 1 paimon 03.ogg}} '''Paimon:''' Hehe, well... if you have so much to take care of, wouldn't it just be easier to give us a clean slate?
-:{{A|vo ellq002 1 eula 06.ogg}} '''Eula:''' Absolutely not! Stealing my targets, calling me a "ruthless ruler," and suspecting my uncle... all worthy of vengeance in my eyes!
+:{{A|vo ellq002 1 eula 06.ogg}} '''Eula:''' Absolutely not! Stealing my targets, calling me a "ruthless ruler," and suspecting my [[Schubert|uncle]]... all worthy of vengeance in my eyes!
 :{{DIcon}} She's definitely counting...
 :{{DIcon}} She wasn't kidding.
 :{{A|vo ellq002 1 eula 07.ogg}} '''Eula:''' But you needn't worry, at least, not whilst we're investigating this matter. I'm sure you're familiar with the phrase: "A man of moral integrity fears no slanderous attack."
@@ -100,7 +104,7 @@
 :{{A|vo ellq002 2 eula 03.ogg}} '''Eula:''' *sigh* Hold on, what did they always teach me...?
 :{{A|vo ellq002 2 eula 04.ogg}} '''Eula:''' "Whenever a dispute arises, protection of your family's prestige and dignity always takes precedence."
 :{{A|vo ellq002 2 eula 05.ogg}} '''Eula:''' Got it. Ahem! As a lowly commoner, you shall maintain absolute reverence when speaking with those under which you graciously toil. How dare you speak in such a manner?
-:{{A|vo ellq002 2 norman 03.ogg}} '''[[Norman]]:''' Ugh, is everyone from the Lawrence Clan so strange?
+:{{A|vo ellq002 2 norman 03.ogg}} '''Norman:''' Ugh, is everyone from the Lawrence Clan so strange?
 :{{A|vo ellq002 2 norman 04.ogg}} '''Norman:''' The days of the Lawrence Clan's tyranny have long passed. I don't care what you're trying to do, just beat it.
 :{{DIcon}} I think you misunderstood her...
 :{{DIcon}} She's just giving us a demonstration, that's all.
@@ -116,7 +120,7 @@
 ;(Talk to [[Leno]])
 :{{A|vo ellq002 3 eula 01.ogg}} '''Eula:''' Ahem! You there, lowly toiler. You stand in the presence of a member of the illustrious Lawrence Clan. I have words for you.
 :{{A|vo ellq002 3 eula 02.ogg}} '''Eula:''' Please acknowledge the glory bestowed upon thee by the nobility, and solemnly kneel to the ground with utmost sincerity.
-:{{A|vo ellq002 3 leno 01.ogg}} '''[[Leno]]:''' ...
+:{{A|vo ellq002 3 leno 01.ogg}} '''Leno:''' ...
 :{{A|vo ellq002 3 eula 03.ogg}} '''Eula:''' Huh? Why don't you respond? According to the custom, I must wait until you kneel completely before I can say the next words.
 :{{A|vo ellq002 3 eula 04.ogg}} '''Eula:''' Ah, right! I musn't look at you too long, or I'll be drawing more attention to our differences in status... Oh dear, I've already stared at you for quite a while.
 :{{A|vo ellq002 3 leno 02.ogg}} '''Leno:''' ...
@@ -129,17 +133,17 @@
 :{{A|vo ellq002 3 eula 06.ogg}} '''Eula:''' Yes, I don't think his attitude will change. If I keep grandstanding like this, the outcome won't be good. Let's try to find someone else to talk to.
 :{{A|vo ellq002 3 eula 07.ogg}} '''Eula:''' Hmph! I'll remember your unwillingness to comply! Mark my words, vengeance will be mine!
 
-;(Talk to Leno again)
+;(Talk to Leno again, optional)
 :{{A|vo dialog ellq002 leno 01.ogg}} '''Leno:''' Listen, I have no idea what she's trying to do... But trust me, you two should just keep away from her.
 
 ----
 
 ;(Talk to [[Randall]])
 :{{A|vo ellq002 4 eula 01.ogg}} '''Eula:''' You there, lowly worker, I&mdash;
-:{{A|vo ellq002 4 randall 01.ogg}} '''[[Randall]]:''' Yeah, I've already heard it all before. Look, just spare me the time, our answer is always the same. We've got nothing to say to the likes of you.
+:{{A|vo ellq002 4 randall 01.ogg}} '''Randall:''' Yeah, I've already heard it all before. Look, just spare me the time, our answer is always the same. We've got nothing to say to the likes of you.
 :{{A|vo ellq002 4 randall 02.ogg}} '''Randall:''' I mean, seriously, can't you just take a hint?
 :{{A|vo ellq002 4 paimon 01.ogg}} '''Paimon:''' Please calm down, we don't want to cause any trouble.
-:{{A|vo ellq002 4 randall 03.ogg}} '''Randall:''' *sigh* I know she's a Knight of Favonius, and that the Knights wouldn't misplace their trust, but the name Lawrence carries too much weight with it.
+:{{A|vo ellq002 4 randall 03.ogg}} '''Randall:''' *sigh* I know she's a [[Knight of Favonius]], and that the Knights wouldn't misplace their trust, but the name Lawrence carries too much weight with it.
 :{{A|vo ellq002 4 randall 04.ogg}} '''Randall:''' Even to this very day, the descendants of the Lawrence Clan are still scheming to reclaim Mondstadt and reinstate their aristocratic rule.
 :{{A|vo ellq002 4 randall 05.ogg}} '''Randall:''' And if that wasn't enough, here you are purposefully using their awkward way of speaking just to put on an act? Don't you care for the feelings of us ordinary folk?
 :{{A|vo ellq002 4 eula 02.ogg}} '''Eula:''' You have a point.
@@ -179,7 +183,7 @@
 :{{A|vo ellq002 4 eula 17.ogg}} '''Eula:''' But we must also practice your bearing.
 :{{A|vo ellq002 4 eula 18.ogg}} '''Eula:''' I have a very effective way of training for this. Come with me to Dragonspine.
 
-;(Talk to Randall again)
+;(Talk to Randall again, optional)
 :{{A|vo dialog ellq002 randall 01.ogg}} '''Randall:''' So it seems you've finally given up on the idea of finding more people to talk to.
 :{{A|vo dialog ellq002 randall 02.ogg}} '''Randall:''' Believe me, that's in everyone's best interest.
 
@@ -191,7 +195,7 @@
 :{{A|vo ellq002 5 eula 02.ogg}} '''Eula:''' For example, you can see that part of the path up ahead is quite difficult to traverse.
 :{{A|vo ellq002 5 eula 03.ogg}} '''Eula:''' But a well-trained aristocrat would not only effortlessly proceed forward, but do so without a stain on their garment and their elegance fully intact.
 :{{A|vo ellq002 5 paimon 02.ogg}} '''Paimon:''' Paimon thinks we've let the realm of aristocrats and entered the realm of adventuring.
-:{{A|vo ellq002 5 paimon 03.ogg}} '''Paimon:''' Compared to what we've already seen, (Traveler), this should be a piece of cake.
+:{{A|vo ellq002 5 paimon 03.ogg}} '''Paimon:''' Compared to what we've already seen, {{Traveler}}, this should be a piece of cake.
 :{{DIcon}} Yeah, I'm used to this kind of challenge.
 ::{{A|vo ellq002 5 paimon 04a.ogg}} '''Paimon:''' Uh-huh, this is where you can finally apply some of your adventuring knowledge.
 :{{DIcon}} Should be way easier than making conversation, at least.
@@ -199,7 +203,7 @@
 :{{A|vo ellq002 5 eula 04.ogg}} '''Eula:''' Haha, you look pretty confident this time.
 :{{A|vo ellq002 5 eula 05.ogg}} '''Eula:''' Alright, let's get started. Remember, you must be graceful and elegant. Don't get knocked or launched into the air, that would be most unsightly.
 
-;(Talk to Eula again)
+;(Talk to Eula again, optional)
 :{{A|vo dialog ellq002 eula 01.ogg}} '''Eula:''' Good luck! Just remember, don't get knocked or launched into the air. That would be most inelegant.
 
 ;(Upon taking damage)
@@ -238,7 +242,7 @@
 :{{A|vo ellq002 8 eula 03.ogg}} '''Eula:''' Given such an outstanding performance, it seems there is little left for me to teach you.
 :{{A|vo ellq002 8 paimon 01a.ogg}} {{A|vo ellq002 8 paimon 01b.ogg}} '''Paimon:''' Like Paimon said, adventuring is our specialty!
 :{{A|vo ellq002 8 paimon 02.ogg}} '''Paimon:''' Hehe... So that's it for our training, right? Then let's get out of Dragonspine before Paimon turns into a popsicle! *shivers*
-:{{A|vo ellq002 8 eula 04a.ogg}} {{A|vo ellq002 8 eula 04b.ogg}} '''Eula:''' Hold on. I was commending (Traveler)'s performance just now. You, on the other hand, seem to have made no progress at all!
+:{{A|vo ellq002 8 eula 04a.ogg}} {{A|vo ellq002 8 eula 04b.ogg}} '''Eula:''' Hold on. I was commending {{Traveler}}'s performance just now. You, on the other hand, seem to have made no progress at all!
 :{{A|vo ellq002 8 paimon 03.ogg}} '''Paimon:''' What? You mean, Paimon was also part of the training!?
 :{{A|vo ellq002 8 eula 05.ogg}} '''Eula:''' Yes, of course. You were frantically flying and dashing about throughout the entire thing. Not an elegant sight at all.
 :{{A|vo ellq002 8 eula 06.ogg}} '''Eula:''' Did you even listen to anything I was trying to teach you?
@@ -268,9 +272,7 @@
 :{{A|vo ellq002 9 ambor 02.ogg}} '''Amber:''' Well, I just got back and was thinking about grabbing a bite at Good Hunter. But now that you're here, why don't we all eat together?
 :{{A|vo ellq002 9 eula 01.ogg}} '''Eula:''' Very well. It's been some time since we've last shared a meal together.
 :{{A|vo ellq002 9 eula 02.ogg}} '''Eula:''' Come, take a seat. We can discuss my uncle's gift while we eat.
-
-:'''''Accepting Amber's invitation, you and Eula sit at the table.'''''
-
+:{{Black Screen|''Accepting Amber's invitation, you and Eula sit at the table.''}}
 :{{A|vo ellq002 9 sara 01.ogg}} '''[[Sara]]:''' Yes, is there something else you'd like to order?
 :{{A|vo ellq002 9 eula 03.ogg}} '''Eula:''' Could you please prepare a serving of my uncle's favorite, Gebratenes Fleisch mit Sauerkraut? We'll take it as a gift to him later.
 :{{A|vo ellq002 9 sara 02.ogg}} '''Sara:''' Coming right up! It'll take some time to prepare, I'll have it here at the counter once it's ready.
@@ -297,11 +299,9 @@
 :{{A|vo ellq002 9 paimon 06.ogg}} '''Paimon:''' What... well... no...?
 :{{A|vo ellq002 9 eula 12.ogg}} '''Eula:''' So that's why you wouldn't understand how hard it is for a bad person to try to be good. It's impossible for me, and I have no intention of acting like a good person.
 :{{A|vo ellq002 9 eula 13.ogg}} '''Eula:''' Alright, no need to look so sullen... I'm just kidding. Come on, let's eat. The food is getting cold.
-
-:'''''After an awkward pause, everyone resumes cheerfully chatting and enjoys the meal.'''''
-
+:{{Black Screen|''After an awkward pause, everyone resumes cheerfully chatting and enjoys the meal.''}}
 :{{A|vo ellq002 9 ambor 07.ogg}} '''Amber:''' Ooh, I'm stuffed. I'll see Sara about the bill.
-:{{A|vo ellq002 9 eula 14.ogg}} '''Eula:''' No need, I've left the Mora under the plate. If you try to settle it with her in person, she won't accept payment for the salad.
+:{{A|vo ellq002 9 eula 14.ogg}} '''Eula:''' No need, I've left the [[Mora]] under the plate. If you try to settle it with her in person, she won't accept payment for the salad.
 :{{A|vo ellq002 9 eula 15.ogg}} '''Eula:''' Don't underestimate my ability to exact revenge. Hah! Sara won't get the upper hand this time!
 :{{A|vo ellq002 9 eula 16.ogg}} '''Eula:''' Alright, next you should pay my uncle a visit. He has a small camp at the top of the mountain near [[Springvale]]. He usually whiles his time away there when there's nothing else to do.
 :{{A|vo ellq002 9 paimon 07.ogg}} '''Paimon:''' Uh... Aren't you coming with us, Eula?
@@ -338,10 +338,10 @@
 :{{A|vo ellq002 10 sara 16.ogg}} '''Sara:''' Take care. Please come again!
 :;(Obtain [[Well-Packaged Gebratenes Fleisch mit Sauerkraut]] ×1)
 
-;(Talk to Sara again)
+;(Talk to Sara again, optional)
 :{{A|vo dialog ellq002 sara 01.ogg}} '''Sara:''' Please don't tell Eula a word of what I've said.
 :{{A|vo dialog ellq002 sara 02.ogg}} '''Sara:''' She might think I'm being too nosy.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Gallery==
 <gallery>
@@ -362,7 +362,6 @@ Speech and Etiquette Table.png|The table at Good Hunter set up with dishes
 |ja_rm   = Kotobatsukai to Shosa
 |ja_tl   = Speech and Behavior
 |ko      = 말투와 애티튜드
-|ko_rm   = Maltuwa Aetityudeu
 |ko_tl   = Speech and Attitude
 |es      = Oratoria y etiqueta
 |es_tl   = Speech and Etiquette
@@ -391,3 +390,4 @@ Speech and Etiquette Table.png|The table at Good Hunter set up with dishes
 {{Change History|1.5}}
 
 [[es:Oratoria y etiqueta]]
+[[pt-br:Tom e Atitude]]

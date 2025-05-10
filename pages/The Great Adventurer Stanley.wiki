@@ -1,7 +1,7 @@
 {{Domain Infobox
 |image        = Domain Temple of the Lion.png
 |type         = Quest
-|description  = [[Ellin]] asked you to search for the greenhorn adventurer [[Jack]] within the [[Temple of the Lion]].<br />It seems he is traveling together with the legendary adventurer, [[Stanley]].
+|description  = [[Ellin]] asked you to search for the greenhorn adventurer [[Jack]] within the [[Temple of the Lion]].<br>It seems he is traveling together with the legendary adventurer, [[Stanley]].
 |quest        = The South Wind Brings Adventure
 |quest_type   = Story
 |region       = Mondstadt
@@ -9,11 +9,11 @@
 |subarea      = Falcon Coast
 |domain       = Temple of the Lion
 |requiredAR   = 36
-|recLevel     = 28
+|recLevel     = WL-dependent
 |recElements  = Pyro, Electro, Cryo, Anemo
 |trial        = Venti
 }}
-'''The Great Adventurer Stanley''' is a [[Quest Domain]] during [[Venti]]'s [[Story Quest]] [[Carmen Dei Chapter]] Act I - [[Should You Be Trapped in a Windless Land]] quest ''[[The South Wind Brings Adventure]]''. It takes place in the [[Temple of the Lion]].
+'''The Great Adventurer Stanley''' is a [[Quest Domain]] during {{Quest|The South Wind Brings Adventure}}. It takes place in the [[Temple of the Lion]].
 
 ==Trial Character==
 {{Trial Character
@@ -21,25 +21,46 @@
 
 |character_name          = Venti
 |character_level5        = 68
-<!-- The constellation seems always 3 for trial characters. Below data is probably incorrect. -->
-|constellation4          = 4
-|constellation5          = 3
 |weapon_name             = Elegy for the End
+<!-- The constellation seems always 3 for trial characters. Below data is probably incorrect. -->
+|character_level4        = 58
+|constellation4          = 3
+
+|weapon_level4           = 58
+|refinement4             = 1
+
+|artifact_flower4        = Medal of the Brave
+|artifact_feather4       = Prospect of the Brave
+|artifact_sands4         = Fortitude of the Brave
+|artifact_goblet4        = Outset of the Brave
+|artifact_circlet4       = Crown of the Brave
+|set1_4                  = Brave Heart
+|set1_piece_bonus_4      = 4
+|artifact_level4         = 16
+
+|normal_attack_talent4   = 4
+|elemental_skill_talent4 = 4
+|elemental_burst_talent4 = 7
+
+|hp4                     = 14,868
+|atk4                    = 1,351
+|def4                    = 425
+|em4                     = 94
+|er4                     = 158.8%
+|crit_rate4              = 50.6%
+|crit_dmg4               = 72.4%
+
+
+
+|constellation5          = 3
 |weapon_level5           = 68
 |refinement5             = 1
-|artifact_flower4        = Medal of the Brave
 |artifact_flower5        = Royal Flora
-|artifact_feather4       = Prospect of the Brave
 |artifact_feather5       = Royal Plume
-|artifact_sands4         = Fortitude of the Brave
 |artifact_sands5         = Royal Pocket Watch
-|artifact_goblet4        = Outset of the Brave
 |artifact_goblet5        = Royal Silver Urn
-|artifact_circlet4       = Crown of the Brave
 |artifact_circlet5       = Royal Masque
-|set1_4                  = Brave Heart
 |set1_5                  = Noblesse Oblige
-|set1_piece_bonus_4      = 4
 |set1_piece_bonus_5      = 4
 |artifact_level5         = 16
 |normal_attack_talent5   = 5
@@ -52,6 +73,8 @@
 |er5                     = 194.0%
 |crit_rate5              = 51.8%
 |crit_dmg5               = 91.9%
+
+
 
 |character_level7        = 87
 |constellation7          = 3
@@ -108,28 +131,40 @@
 |crit_rate8              = 57.1%
 |crit_dmg8               = 91.9%
 |er8                     = 219.7%
-
 }}
 
 ==Walkthrough==
-# Use Venti's Elemental Skill (Hold) to generate a wind current and glide onto the elevator, moving up to the next room.
-# Activate the device to open the door. There is a Common Chest near the Door of Resurrection.
-# Defeat the Hilichurls before the next door.
-# Defeat the Samachurl and Hilichurls in the next room. There is a Common Chest in the northern corner of the room.
-# Defeat the Cryo Abyss Mage and Hilichurls in the next room.
-# Talk to Jack and Stanley. There is a Common Chest behind them.
+# Hold [[Venti's Elemental Skill]] to generate a [[wind current]] and glide onto the elevator, moving up to the next room.
+# Activate the device to open the door.
+#* There is a [[Common Chest]] north of the [[Door of Resurrection]].
+# Defeat the [[Hilichurls]] before the next door.{{Enemy List|Hilichurl Fighter*2}}
+# Defeat the Hilichurls in the next room.
+#* Wave 1:{{Enemy List|Hilichurl Fighter*2;Wooden Shield Hilichurl Guard;Hydro Samachurl;Hilichurl Shooter}}
+#* Wave 2:{{Enemy List|Hilichurl Fighter;Wooden Shield Hilichurl Guard;Electro Hilichurl Shooter}}
+#* Wave 3:{{Enemy List|Hilichurl Berserker*2;Pyro Hilichurl Shooter}}
+#* There is a Common Chest in the northern corner of the room.
+# Defeat the enemies in the next room.{{Enemy List|Hilichurl Fighter*2;Wooden Shield Hilichurl Guard*2;Hydro Slime;Cryo Abyss Mage}}
+# Talk to Jack and Stanley.
+#* There is a Common Chest behind them.
 # Use the wind current to glide up to the next room.
-# Activate the 4 Anemo totems at the same time by using Venti's skill to generate a wind current next to the locked device. A Common Chest spawns next to the Anemo totems after unlocking the device.
+# Activate 4 Anemo [[Elemental Monument]]s in quick succession.
+#* Stand in the middle and use Venti's Elemental Skill (Hold) to light all of them at once.
+#* A Common Chest will spawn next to the Elemental Monuments after unlocking the device.
 # Activate the unlocked device to open the door.
-# Defeat the Mitachurl and Hilichurls in the next room.
-# Use Venti's skill to generate a wind current, glide up, and go through the white rings in the air to reach the final room.
-# Defeat the Pyro Abyss Mage and Hydro Abyss Mage. There is a Precious Chest between the mages.
+# Defeat the Hilichurls in the next room.{{Enemy List|Hilichurl Fighter;Wooden Shield Hilichurl Guard;Cryo Hilichurl Shooter;Pyro Hilichurl Shooter;Blazing Axe Mitachurl}}
+# Hold Venti's Elemental Skill to generate a wind current, glide up, and go through the [[Anemo Ring]]s in the air to reach the final room.
+# Defeat two Abyss Mages in the final room.{{Enemy List|Cryo Abyss Mage;Pyro Abyss Mage}}
+#* The Cryo Abyss Mage has the [[Freezing Filament]] aura.
+#* A [[Precious Chest]] will be unlocked after defeating all opponents.
 
 ==Completion Rewards==
 {{Card|Mora|10,000}}
 {{Card|Adventurer's Experience|2}}
 {{Card|Mystic Enhancement Ore|2}}
 {{Card|Vayuda Turquoise Fragment|1}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=domain}}
 
 ==Video Guides==
 {{EVT
@@ -161,7 +196,7 @@
 |th_rm   = Nak Phachon Phai Phu Ying Yai Stanley
 |th_tl   = The Great Adventurer Stanley
 |vi      = Nhà Mạo Hiểm Stanley
-|vi_tl   = 
+|vi_tl   =Adventurer Stanley 
 |de      = Großer Abenteurer Stanley
 |de_tl   = Great Adventurer Stanley
 |id      = Petualang Legendaris Stanley
@@ -179,3 +214,5 @@
 
 ==Navigation==
 {{Domain Navbox|Temporary}}
+
+[[ja:大冒険者スタンレー]]

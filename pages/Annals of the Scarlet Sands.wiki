@@ -14,41 +14,75 @@
 |subarea       = Sumeru City
 |prev          = Shade Upon Red Silk
 |next          = Sincerity's Facade
-|exp           = 525
-|mora          = 34,075
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|7}}
+|rewards       = Adventure EXP*525;Mora*34,075;Hero's Wit*4;Mystic Enhancement Ore*7
 |voiced        = yes
 }}
-'''''Annals of the Scarlet Sands''''' is the second part of [[Dehya]]'s [[Story Quest]] [[Mantichora Chapter]]: Act I - [[Lionsblood]].
+'''''Annals of the Scarlet Sands''''' is the second part of {{Quest|Lionsblood}}.
 
 ==Steps==
-# Return to Sumeru City to talk to Dunyarzad
+# Return to [[Sumeru City]] to talk to [[Dunyarzad]]
 # Wait for Dunyarzad at the usual place
-# Go look for {{color|buzzword|Jawad}} outside the tavern {{color|buzzword|at night}}
+# Go look for {{Color|buzzword|[[Jawad]]}} outside the tavern {{Color|buzzword|at night}}
 # Go to the location of Dakan Al-Ahmar
 # Smash through all obstructions
 #* Wave 1:
 #** {{Enemy|Eremite Linebreaker|text=Tikriti &mdash; Dakan Al-Ahmar Member}}
-#** {{Enemy List|Eremite Ravenbeak Halberdier*2;Eremite Linebreaker;Eremite Crossbow}}
+#** {{Enemy|Eremite Ravenbeak Halberdier}}
+#** {{Enemy|Eremite Ravenbeak Halberdier}}
+#** {{Enemy|Eremite Linebreaker}}
+#** {{Enemy|Eremite Crossbow}}
 #* Wave 2:
-#** {{Enemy|Eremite Sword-Dancer|text=Bashar}}
-#** {{Enemy|Eremite Crossbow|text=Idrisi}}
-#** {{Enemy List|Eremite Ravenbeak Halberdier*2}}
-# Talk to Idrisi and the others
+#** {{Enemy|Eremite Sword-Dancer|text=Bashar &mdash; Dakan Al-Ahmar Member}}
+#** {{Enemy|Eremite Crossbow|text=Idrisi &mdash; Dakan Al-Ahmar Member}}
+#** {{Enemy|Eremite Ravenbeak Halberdier}}
+#** {{Enemy|Eremite Ravenbeak Halberdier}}
+# Talk to [[Idrisi]] and the others
 
 ==Gameplay Notes==
-* During Step 5, a trial Dehya will join the party
+* During Step 5, a trial Dehya will join the party.
 
 ==Trial Character==
 {{Trial Character
 <!-- World Levels -->
-|wl                      = 8
+|wl                      = 5, 8
 <!-- Character -->
 |character_name          = Dehya
+|weapon_name             = Beacon of the Reed Sea
+
+<!-- WL 5 -->
+
+|character_level5        = 71
+|constellation5          = 3
+
+|weapon_level5           = 71
+|refinement5             = 1
+
+|artifact_flower5        = Royal Flora
+|artifact_feather5       = Royal Plume
+|artifact_sands5         = Royal Pocket Watch
+|artifact_goblet5        = Royal Silver Urn
+|artifact_circlet5       = Royal Masque
+|artifact_level5         = 16
+|set1_5                  = Noblesse Oblige
+|set1_piece_bonus_5      = 4
+
+|normal_attack_talent5   = 5
+|elemental_skill_talent5 = 5
+|elemental_burst_talent5 = 8
+
+|hp5                     = 35,956
+|atk5                    = 1,599
+|def5                    = 685
+|em5                     = 92
+|er5                     = 135.0%
+|crit_rate5              = 79.1%
+|crit_dmg5               = 91.9%
+
+<!-- WL 8 -->
+
 |character_level8        = 90
 |constellation8          = 3
 
-|weapon_name             = Beacon of the Reed Sea
 |weapon_level8           = 90
 |refinement8             = 1
 
@@ -76,9 +110,9 @@
 
 ==Dialogue==
 {{Quest Description|During your investigation, you accidentally stumbled upon Dunyarzad's father's name. After discussing the matter with Dehya, she decides that Dunyarzad should be informed of all that has transpired...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Dunyarzad, optional)
-:{{A|vo dhylq001 1 dunyarzad 23a.ogg}}<!--{{A|vo dhylq001 1 dunyarzad 23b.ogg}}--> '''Dunyarzad:''' (I sure hope they'll be okay...)
+:{{A|vo dhylq002 5 dunyarzad 01.ogg}} '''Dunyarzad:''' (Can there still possibly be a good ending to all of this? They are father and daughter, after all...)
 
 ;(Talk to Dunyarzad)
 :{{A|vo dhylq002 5 dehya 01.ogg}} '''Dehya:''' We're back, my lady.
@@ -96,9 +130,7 @@
 :{{A|vo dhylq002 5 dehya 05.ogg}} '''Dehya:''' My lady, please prepare yourself for what we're going to tell you next. It concerns the master...
 :{{A|vo dhylq002 5 dunyarzad 09.ogg}} '''Dunyarzad:''' The master... You mean my father?
 :{{A|vo dhylq002 5 dunyarzad 10.ogg}} '''Dunyarzad:''' Okay, I understand. Don't worry about me, I'll listen as attentively as I can.
-
-:'''Dehya manages to explain the results of the investigation to Dunyarzad.'''
-
+:{{Black Screen|Dehya manages to explain the results of the investigation to Dunyarzad.}}
 :{{A|vo dhylq002 5 dunyarzad 11.ogg}} '''Dunyarzad:''' My father... has been supplying goods to Dakan Al-Ahmar?
 :{{A|vo dhylq002 5 dehya 06.ogg}} '''Dehya:''' Yeah. It makes as little sense to us as it does to you.
 :{{A|vo dhylq002 5 dehya 07.ogg}} '''Dehya:''' I've never doubted the master's integrity, so I'm having a real hard time rationalizing how he could ever support an infamous brigade like them.
@@ -110,7 +142,7 @@
 :{{A|vo dhylq002 5 dunyarzad 14.ogg}} '''Dunyarzad:''' Since you've told me everything you know... I should also tell you about some doubts that I've been harboring for quite a while.
 :{{A|vo dhylq002 5 dunyarzad 15.ogg}} '''Dunyarzad:''' In the past, I thought that my father hired a bodyguard for me so that I wouldn't run away and get lost.
 :{{A|vo dhylq002 5 dunyarzad 16.ogg}} '''Dunyarzad:''' However, there are plenty of capable mercenaries in the Corps of Thirty. Why did my father go out of his way to hire Dehya?
-:{{A|vo dhylq002 5 dehya 09.ogg}} '''Dehya:''' Ah, about that... well, the {{sic|Homyanis}} really needed bodyguards, so they reached out to the Blazing Beasts.
+:{{A|vo dhylq002 5 dehya 09.ogg}} '''Dehya:''' Ah, about that... well, the Homayanis really needed bodyguards, so they reached out to the Blazing Beasts.
 :{{A|vo dhylq002 5 dehya 10.ogg}} '''Dehya:''' Later, the master told me that I was one of the best mercenaries he'd ever seen, and that I should stick around to become one of his bodyguards.
 :{{A|vo dhylq002 5 dehya 11.ogg}} '''Dehya:''' He offered me a pile of Mora, so I just signed on...
 :{{A|vo dhylq002 5 dunyarzad 17.ogg}} '''Dunyarzad:''' Well, but that didn't really answer my question. Just think about it... why did my father specifically reach out to the Blazing Beasts?
@@ -147,13 +179,11 @@
 ----
 ;(Approach the marked area)
 :{{A|vo dhylq002 6 dehya 01.ogg}} '''Dehya:''' Thank you for coming, sir.
-:{{A|vo dhylq002 6 dehya 02a.ogg}} {{A|vo dhylq002 6 dehya 02b.ogg}} '''Dehya:''' Please allow me to introduce these two. This is (Traveler), and next to {{MC|m=him|f=her}} is {{MC|m=his|f=her}} travel companion, Paimon.
+:{{A|vo dhylq002 6 dehya 02a.ogg}} {{A|vo dhylq002 6 dehya 02b.ogg}} '''Dehya:''' Please allow me to introduce these two. This is {{Traveler}}, and next to {{MC|m=him|f=her}} is {{MC|m=his|f=her}} travel companion, Paimon.
 :{{A|vo dhylq002 6 sahzaman 01a.ogg}}<!--{{A|vo dhylq002 6 sahzaman 01b.ogg}}--> '''Shahzaman:''' Ah yes, my daughter has mentioned them from time to time. It's a privilege to finally meet them in person.
 :{{A|vo dhylq002 6 sahzaman 02.ogg}} '''Shahzaman:''' But we may skip all the pleasantries for now, what is the important matter you wished to discuss with me today?
 :{{A|vo dhylq002 6 dehya 03.ogg}} '''Dehya:''' Well, we wanted to bring this transaction record to your attention. There's something on this record that we're all pretty curious about...
-
-:'''Dehya explains the issue to Shahzaman, and admits her doubts to him.'''
-
+:{{Black Screen|Dehya explains the issue to Shahzaman, and admits her doubts to him.}}
 :{{A|vo dhylq002 6 sahzaman 03.ogg}} '''Shahzaman:''' So that's what you've found, huh... Seems like I can't keep everything from you much longer.
 :{{A|vo dhylq002 6 dehya 04.ogg}} '''Dehya:''' If you wouldn't mind, we'd like an explanation.
 :{{A|vo dhylq002 6 sahzaman 04.ogg}} '''Shahzaman:''' Well, it's a long and difficult story, and to be perfectly honest, I'm not sure if I'm doing the right thing.
@@ -180,14 +210,14 @@
 :{{A|vo dhylq002 6 sahzaman 19.ogg}} '''Shahzaman:''' We started talking about our children, and I sensed that he was a devoted father.
 :{{A|vo dhylq002 6 sahzaman 20.ogg}} '''Shahzaman:''' To repay his kindness, I hired his brigade to help out at our estate for a time, and offered everyone generous remuneration.
 :{{A|vo dhylq002 6 dehya 10.ogg}} '''Dehya:''' So that's what happened...
-<!-- Flashback -->
+:;(A flashback begins)
 :{{A|vo dhylq002 6 sahzaman 21.ogg}} '''Shahzaman:''' It was many years before I saw him again. I almost didn't recognize him the next time he came knocking on my door.
 :{{A|vo dhylq002 6 sahzaman 22.ogg}} '''Shahzaman:''' The man I knew to be strong and healthy had been reduced to a... shell of himself. He couldn't even walk anymore without his cane.
-<!-- end flashback -->
+:;(Flashback ends)
 :{{A|vo dhylq002 6 dehya 11.ogg}} '''Dehya:''' So what happened to him? He was perfectly fine when I left the brigade...
 :{{A|vo dhylq002 6 sahzaman 23.ogg}} '''Shahzaman:''' I'm not too sure myself. The only thing that didn't change was his cheery disposition. He said there was absolutely nothing to worry about and that he had gotten into a fight, that was all.
 :{{A|vo dhylq002 6 sahzaman 24.ogg}} '''Shahzaman:''' He then suddenly asked me if Dunyarzad, now that she had grown, would need a bodyguard of her own.
-:{{A|vo dhylq002 6 sahzaman 25.ogg}} '''Shahzaman:''' At the time, Dunyarzad was going through a particularly severe bout of her Eleazar. There was no need for her to have a bodyguard when she could barely leave the house...
+:{{A|vo dhylq002 6 sahzaman 25.ogg}} '''Shahzaman:''' At the time, Dunyarzad was going through a particularly severe bout of her [[Eleazar]]. There was no need for her to have a bodyguard when she could barely leave the house...
 :{{A|vo dhylq002 6 sahzaman 26.ogg}} '''Shahzaman:''' But he kept coming back to the topic... "C'mon, it never hurts to be safe." "How do you know a bodyguard won't come in handy one day?"
 :{{A|vo dhylq002 6 sahzaman 27.ogg}} '''Shahzaman:''' I was completely lost at first, until he recommended the "Blazing Beasts," and in particular, a mercenary named Dehya.
 :{{A|vo dhylq002 6 paimon 01.ogg}} '''Paimon:''' So he was the one who recommended Dehya to you!
@@ -197,7 +227,7 @@
 :{{A|vo dhylq002 6 dunyarzad 02.ogg}} '''Dunyarzad:''' And that's why you offered her such generous compensation?
 :{{A|vo dhylq002 6 sahzaman 31.ogg}} '''Shahzaman:''' Yes, but not just because of that. From the moment that he asked me for that favor, I also began to see Dehya as my own daughter.
 :{{A|vo dhylq002 6 sahzaman 32.ogg}} '''Shahzaman:''' And that's also why I tried to persuade you to stay when you asked for permission to leave. I was willing to spend however much it took...
-:{{A|vo dhylq002 6 sahzaman 33.ogg}} '''Shahzaman:''' Kusayla saved my daughter and I all those years ago in the desert. I could never refuse him entrusting his daughter to me.
+:{{A|vo dhylq002 6 sahzaman 33.ogg}} '''Shahzaman:''' Kusayla saved my daughter and me all those years ago in the desert. I could never refuse him entrusting his daughter to me.
 :{{A|vo dhylq002 6 dehya 12.ogg}} '''Dehya:''' Ugh, he was always like that... Acting like he's oh-so-smart and self-righteous...
 :{{A|vo dhylq002 6 sahzaman 34.ogg}} '''Shahzaman:''' Kusayla said that he'd reimburse me for a portion of Dehya's fees. I refused to take any Mora from him, but he'd always send me funds anyway.
 :{{A|vo dhylq002 6 sahzaman 35.ogg}} '''Shahzaman:''' Eventually, I just accepted them as a token of his gratitude. That went on for a while, until I received another letter from him a few years ago.
@@ -231,10 +261,13 @@
 :{{A|vo dhylq002 6 dunyarzad 05.ogg}} '''Dunyarzad:''' I feel like... our only course of action is to turn everything we know over to the Corps of Thirty, and let them render judgment...
 :{{A|vo dhylq002 6 sahzaman 48.ogg}} '''Shahzaman:''' Yes. I am prepared to accept whatever verdict they choose.
 :{{A|vo dhylq002 6 sahzaman 49.ogg}} '''Shahzaman:''' It's time to face my mistakes...
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|As it turns out, Dehya's and Dunyarzad's fathers were old acquaintances. Desperate to keep Dehya from the life of a mercenary, her father worked himself to the bone. Yet, his repeated acts of savagery remain a mystery...}}
-{{Dialogue start}}
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Jawad, optional)
+{{Dialogue Start}}
+;(Check objective)
+:Word is that Jawad will be coming for drinks outside the {{color|buzzword|tavern tonight}}.
+
+;(Use Nahida's All Schemes to Know on Jawad, optional)
 :{{A|vo dhylq002 7 jawad 01.ogg}} '''Jawad:''' (Ah, that's the good stuff! Nothin' tastes better.)
 
 ;(Talk to Jawad)
@@ -264,14 +297,17 @@
 :{{A|vo dhylq002 7 dehya 09.ogg}} '''Dehya:''' Now that's more like it. Let's move.
 :{{A|vo dhylq002 7 dehya 10.ogg}} '''Dehya:''' And as for you... try to stick around the city until we get back. You don't want us to call the folks from the Corps and have them drag you back to the city.
 
+;(Talk to Jawad again)
 :{{A|vo dialog dhylq002 jawad 01.ogg}} '''Jawad:''' Oh, don't worry, I'm not goin' anywhere...
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Jawad, optional)
+;(Use Nahida's All Schemes to Know on Jawad, optional)
 :{{A|vo dhylq002 7 jawad 15.ogg}} '''Jawad:''' (Ugh, just my luck. How did I get caught by her of all people?)
 ----
 ;(Approach the marked area)
 :{{A|vo dhylq002 8 dehya 01.ogg}} '''Dehya:''' Hmm, seems like we're in luck. That should be their camp right up ahead.
 :{{A|vo dhylq002 8 dehya 02.ogg}} '''Dehya:''' Let's go. We'll finally get to the bottom of this ourselves.
+
+;(After the cutscene)
 :{{A|vo dhylq002 8 dehya 03.ogg}} '''Dehya:''' I'm here to see Kusayla. Tell him to get out here!
 :{{A|vo dhylq002 8 tikriti 01.ogg}} '''Tikriti:''' Huh? Dehya? Why are you here?
 
@@ -319,10 +355,19 @@
 :{{A|vo dhylq002 9 idrisi 12.ogg}} '''Idrisi:''' When you left home after that final argument with him, he seemed to age by a decade overnight. Even his hair went gray.
 :{{A|vo dhylq002 9 dehya 09.ogg}} '''Dehya:''' So, even the Blazing Beasts were...
 :{{A|vo dhylq002 9 bashar 08.ogg}} '''Bashar:''' Yep, it was all his doing. Had he not arranged them to come to you, you probably would have been reduced to a pulp before you ever left the desert.
-:{{A|vo dhylq002 9 idrisi 13.ogg}} '''Idrisi:''' A few years ago, boss said he needed to make another trip to headquarters. He was already pretty weak then, and we all assumed he was going to get beaten again.
-:{{A|vo dhylq002 9 idrisi 14.ogg}} '''Idrisi:''' I suggested that he hand the role of leadership over to me, but he said there was no longer any need, since Dakan Al-Ahmar would soon be no more.
-:{{A|vo dhylq002 9 idrisi 15.ogg}} '''Idrisi:''' His words made no sense to me, but that night, we heard that a massive fire tore through headquarters, and razed everyone's "records" to ash.
-:{{A|vo dhylq002 9 tikriti 04.ogg}} '''Tikriti:''' Everyone gained their freedom that night. Many members fled... not just from our ranks, but from the other brigades as well.
+;(Illustrations of Idrisi's meeting with Kusayla and Kusayla's arson of the Dakan Al-Ahmar headquarters appear as Idrisi and Tikriti narrate)
+::{|
+| rowspan="2" |[[File:Annals of the Scarlet Sands Graphic 1.png|180px]]
+|{{A|vo dhylq002 9 idrisi 13.ogg}} '''Idrisi:''' A few years ago, boss said he needed to make another trip to headquarters. He was already pretty weak then, and we all assumed he was going to get beaten again.
+|-
+|{{A|vo dhylq002 9 idrisi 14.ogg}} '''Idrisi:''' I suggested that he hand the role of leadership over to me, but he said there was no longer any need, since Dakan Al-Ahmar would soon be no more.
+|-
+| rowspan="2" |[[File:Annals of the Scarlet Sands Graphic 2.png|180px]]
+|{{A|vo dhylq002 9 idrisi 15.ogg}} '''Idrisi:''' His words made no sense to me, but that night, we heard that a massive fire tore through headquarters, and razed everyone's "records" to ash.
+|-
+|{{A|vo dhylq002 9 tikriti 04.ogg}} '''Tikriti:''' Everyone gained their freedom that night. Many members fled... not just from our ranks, but from the other brigades as well.
+|}
+:;(End of illustrations)
 :{{A|vo dhylq002 9 tikriti 05.ogg}} '''Tikriti:''' But how could we leave with a clear conscience? All of us, who knew exactly what had happened...
 :{{A|vo dhylq002 9 bashar 09.ogg}} '''Bashar:''' The boss can't have just died for nothing! Those heartless jerks at headquarters took him from us!
 :{{A|vo dhylq002 9 idrisi 16.ogg}} '''Idrisi:''' From that point on, the sole purpose of Dakan Al-Ahmar became revenge.
@@ -361,7 +406,13 @@
 :{{A|vo dhylq002 9 tikriti 06.ogg}} '''Tikriti:''' Considering all the losses and injuries we've sustained... We can't afford to turn down someone as powerful as you.
 :{{A|vo dhylq002 9 dehya 17.ogg}} '''Dehya:''' He can think whatever he wants...
 :{{A|vo dhylq002 9 dehya 18.ogg}} '''Dehya:''' ...But the fact is, I owe him this much.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Gallery==
+<gallery>
+Annals of the Scarlet Sands Graphic 1.png
+Annals of the Scarlet Sands Graphic 2.png
+</gallery>
 
 ==Other Languages==
 {{Other Languages
@@ -374,8 +425,7 @@
 |ja      = 赤砂旧事
 |ja_rm   = Sekiza Kyuuji{{Assumed}}
 |ja_tl   = Bygone Events of Red Sands
-|ko      = 적색 사막의 과거사
-|ko_rm   = Jeoksaek Samak-ui Gwageosa
+|ko      = 적색 사막<->의 과거사
 |ko_tl   = Bygones of the Red Desert
 |es      = Los anales de las dunas escarlatas
 |es_tl   = Annals of the Scarlet Dunes
@@ -389,7 +439,7 @@
 |vi      = Chuyện Cũ Của Cát Đỏ
 |vi_tl   = 
 |de      = Es war einmal im Roten Sand
-|de_tl   = 
+|de_tl   = Once Upon a Time in the Red Sand
 |id      = Tawarikh Pasir Merah
 |id_tl   = Chronicles of the Red Sands
 |pt      = Anais das Areias Escarlates
@@ -402,3 +452,6 @@
 
 ==Change History==
 {{Change History|3.5}}
+
+[[es:Los anales de las dunas escarlatas]]
+[[pt-br:Anais das Areias Escarlates]]

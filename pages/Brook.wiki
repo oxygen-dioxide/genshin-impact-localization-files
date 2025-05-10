@@ -3,13 +3,14 @@
 |missing_NPC_profile  = yes
 }}
 {{Character Infobox
-|type             = NPC
+|type             = Open-World NPC
 |image            = NPC Brook.png
 |region           = Mondstadt
+|location         = Mondstadt
 |title            = Chef
 |dialoguereward   = {{Card|Delicious Steak|4}}
 }}
-'''Brook''' is an [[NPC]] in [[Springvale]], [[Mondstadt]], who sells cooked food. She can be found near a campfire from 06:00 – 19:00. Her stock refreshes every day.
+'''Brook''' is an open-world [[NPC]] in [[Springvale]], [[Mondstadt]], who sells cooked food. She can be found near a campfire from 06:00 – 19:00. Her stock refreshes every day.
 
 Following a certain dialogue branch for the first time gives the player four [[Delicious Steak]]s.
 
@@ -30,9 +31,6 @@ NPC Location Brook Context.png|Additional context
 <!--detailed story/lore information goes here-->
 Brook is a chef residing in Springvale. According to Brook, her meat-based dishes are very well known in [[Mondstadt]]. She moved to Springvale so she could obtain the freshest meat for cooking.
 
-===Personality===
-''(To be added.)''
-
 ===Appearance===
 ''(To be added.)''
 
@@ -43,23 +41,31 @@ Brook is a chef residing in Springvale. According to Brook, her meat-based dishe
 * [[Unreconciled Stars]] (unique introductory dialogue)
 
 ==Idle Quotes==
-{{Dialogue start}}
-:: {{A|VO Brook 01.ogg}} "Meat is the meaning of life."
-{{Dialogue end}}
+{{Dialogue Start}}
+::{{A|VO Brook 01.ogg}} "Meat is the meaning of life."
+{{Dialogue End}}
+
+;During ''Windblume's Breath''
+{{Dialogue Start}}
+:{{DIcon|Idle}} [[Philanemo Mushroom]]s?
+::{{A|VO Brook Windblume's Breath 01.ogg}} "Cooking with Philanemo Mushrooms? Hmph! At most, they can accent the meat."
+{{Dialogue End}}
 
 ==Dialogue==
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Brook:''' Hi, did the beautiful fragrance of my cooking entice you over here? Hehehe.
 :{{DIcon|Shop}} I would like to buy something to eat.
 ::'''Brook:''' Sure thing. How about a fresh steak? There's nothing better in all of Mondstadt.
 :;(Opens shop menu)
-:{{DIcon}} We meet again! ''(Only available after completing Mondstadt Gastronomy Trip)''
-::'''Brook:''' Hey, aren't you the assistant for [[Xiangling]], the chef from Liyue?
+:{{DIcon}} Who are you? ''(Only available before completing Mondstadt Gastronomy Trip)''
+::'''Brook:''' You don't know who I am? I'm Brook. My meat-based recipes are very well known in Mondstadt.
+:{{DIcon}} We meet again! ''(After completing Mondstadt Gastronomy Trip)''
+::'''Brook:''' Hey, aren't you the assistant for [[Xiangling]], the chef from [[Liyue]]?
 ::'''Brook:''' You couldn't possibly be here by coincidence. I've got it! She must want to challenge me again. I am "Mondstadt's Rotisseur Queen," after all.
 ::'''Brook:''' Oh... That's not it, huh? Well seeing as she already beat me last time, I guess challenging me again wouldn't prove much.
 :{{DIcon}} What are you doing?
 ::'''Brook:''' If you want the absolutely freshest meat possible, it has to go straight from the hunt to the kitchen with not a moment wasted.
-::'''Brook:''' That's the reason I moved to Springvale.
+::'''Brook:''' That's the reason I moved to [[Springvale]].
 ::'''Brook:''' Of course, I do sell the vast majority of my cooking...
 ::'''Brook:''' But the single freshest piece of meat in the day? I normally keep it as a treat for myself.
 ::{{DIcon|Reward}} That smells great...
@@ -67,18 +73,27 @@ Brook is a chef residing in Springvale. According to Brook, her meat-based dishe
 :::'''Brook:''' I can say with confidence that I make the best steaks in Mondstadt.
 :::'''Brook:''' Have you tried some before? If you haven't, you can get a sample now.
 :::'''Brook:''' Don't be shy. This is flavor that will revolutionize your taste buds!
-::;(Obtain [[Steak|Delicious Steak]] ×4)
+::;(Obtain {{Item|Delicious Steak|20|x=4}})
 :{{DIcon}} Goodbye.
 ::'''Brook:''' Bon appétit... I mean, goodbye!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Event Dialogue==
 ===Unreconciled Stars===
-{{Dialogue start}}
-:'''Brook:''' Have you made any progress in your investigation into the meteorite strikes yet? You'll get to the bottom of it. I'm sure of it.
+{{Dialogue Start}}
+:'''Brook:''' Have you made any progress in your investigation into the meteorite strike yet? You'll get to the bottom of it. I'm sure of it.
 :'''Brook:''' The victims will probably be ravenous when they do eventually wake up, won't they? So, I'd better start preparing some meals for them.
 :;(Dialogue options and responses are the same as normal)
-{{Dialogue end}}
+{{Dialogue End}}
+
+===Windblume's Breath===
+{{Dialogue Start}}
+:'''Brook:''' Oh, did the wondrous fragrance of my cooked meat draw another? Hehehe.
+:'''Brook:''' You can really tell it's the holidays when the streets are full in this little town. Even outlanders have come to visit.
+:'''Brook:''' I thought [[Tighnari|he]] was here to ask for directions, but instead he surprised me when he inquired if I knew how to make any dishes using [[Philanemo Mushroom]]s.
+:'''Brook:''' Cooking with Philanemo Mushrooms... isn't impossible. But at most, they just accent the meat.
+:;(Dialogue options and responses are the same as normal)
+{{Dialogue End}}
 
 ==Gallery==
 <gallery>
@@ -96,7 +111,6 @@ Brook Icon.png|Request icon
 |ja      = ブロック
 |ja_rm   = Burokku
 |ko      = 브룩
-|ko_rm   = Beuruk
 |es      = Brook
 |fr      = Brooke
 |ru      = Брук

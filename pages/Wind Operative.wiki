@@ -1,0 +1,330 @@
+{{Enemy Infobox
+|title    = 
+|dmgtype  = Anemo
+|image    = Enemy Wind Operative.png
+|type     = Elite Enemies
+|family   = Fatui
+|group    = Fatui Operatives
+|weakpoint = yes
+|ability1 = Life Bond
+|ability2 = Corrosion
+|ability3 = Teleport
+}}
+{{Enemy Intro}}
+
+One [[Local Legend]] Wind Operative, '''Deianeira of Snezhevna''', can be found in the Hidden Lab, [[Morte Region]] after completing the [[World Quest]] ''[[An Expected Lie]]''.
+
+==Drops==
+===Items===
+{{Drops Table|type=Fatui Operatives}}
+
+===Energy===
+{{Energy Drops
+|type  = Anemo
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|p4    = 2
+}}
+
+==Stats==
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div style="width:min-content;">
+===Normal===
+{{Enemy Stats
+|phys_res     = -20%
+|anemo_res    = 50%
+
+|hp_ratio     = 7
+|hp_type      = 2
+|atk_ratio    = 6
+|atk_type     = 2
+}}
+</div><!--
+--><div style="width:min-content;">
+===Local Legend===
+{{Enemy Stats
+|phys_res     = -20%
+|anemo_res    = 50%
+
+|hp_ratio     = 62.6
+|hp_type      = 2
+|atk_ratio    = 10
+|atk_type     = 2
+}}
+</div><!--
+--><div style="width:min-content;">
+===Veteran===
+{{Enemy Stats
+|phys_res     = -20%
+|anemo_res    = 50%
+
+|hp_ratio     = 12.52
+|hp_type      = 2
+|atk_ratio    = 3
+|atk_type     = 2
+}}
+</div></div>
+
+==Abilities==
+{{Enemy Attacks
+|name_1      = Fakeout
+|desc_1      = Raises a barrier in front of herself. If attacked from the front while the barrier is active, the DMG dealt will be nullified and the Operative will teleport to the player's location and strike down with her cane, dealing '''70% ATK''' as {{Color|Anemo DMG}}.
+* The strike down can also be triggered if the Wind Operative is attacked multiple times.
+* '''Veteran/Local Legend''': Will not raise the barrier unless approached during '''Galeshot'''. A '''Spikefield''' will spawn immediately following the strike down.
+|caption_1   = Normal
+|file_1_2    = Wind Operative Local Legend Fakeout
+|caption_1_2 = Veteran/Local Legend
+
+|name_2      = Spikefield
+|desc_2      = Marks an area around the player and deals '''100% ATK''' as {{Color|Anemo DMG}} in that area.
+* '''Veteran/Local Legend''': This will be used 3 times in quick succession.
+
+|name_3      = Galeshot
+|desc_3      = Consecutively fires 1, 1, and 2 wind orbs at the player. Each orbs deals '''50% ATK''' in the first 2 waves and '''60% ATK''' in the final wave respectively as {{Color|Anemo DMG}} on hit. If the player gets too close during the first shot, the Wind Operative will follow up with '''Spikefield'''.
+* '''Veteran/Local Legend''': Fires 3, 3, and 5 wind orbs instead. If the player gets too close during the attack, will use '''Fakeout''' instead of '''Spikefield'''.
+|caption_3   = Normal
+|file_3_2    = Wind Operative Local Legend Galeshot
+|caption_3_2 = Veteran/Local Legend
+
+|name_4      = Hunt Down
+|desc_4      = Sacrifices 5% of her Max [[HP]] (or 25% of current HP if HP percentage is under 20%) to initiate Hunt Down: Locks onto the player, teleports her cane above the player which then strikes down, dealing '''90% ATK''' as {{Color|Anemo DMG}}. If the first hit connects, the cane will then release a wind blast, dealing '''100% ATK''' as {{Color|Anemo DMG}}.
+* If the player is hit by the first hit of this attack, they will receive a [[Life Bond]] equal to '''16%''' of the Operative's ATK.
+** As long as this Life Bond is active, they will also be affected by a [[Corrosion]] status which drains '''0.4% Max HP + 72''' every second.
+*** If the affected character is off-field, they cannot be brought below '''5% Max HP''' by this Corrosion. However, on-field characters can die to it.
+** If the Hunt Down attack hits a character affected by this Life Bond, it will deal '''250%''' of its original DMG.
+** This Life Bond is stackable.
+** This Life Bond lasts for 10 minutes if not cleared.
+* '''Veteran/Local Legend''': The follow-up wind blast will always occur regardless of whether the first hit lands.
+}}
+
+==Achievements==
+{{Achievement Topic Table|topic=Wind Operative}}
+
+==Voice-Overs==
+{{Stub|Missing Korean transcriptions.[[Category:VO Korean Romanization Missing]]}}
+{{VO/Enemy
+|enemy                   = Wind Operative
+|vo_01_00_title          = Entering Battle
+|vo_01_01_file           = VO {lang}{name} - Another Rude Lout.ogg
+|vo_01_01_tx_en          = Another rude lout!
+|vo_01_01_tx_zh          = 又是个无礼之徒。
+|vo_01_01_rm_zh          = Yòu shìgè wúlǐ zhī tú.
+|vo_01_01_tx_ja          = またしても無礼者か。
+|vo_01_01_rm_ja          = Mata shite mo bureimono ka.
+|vo_01_01_tx_ko          = 또 무례한 자로군
+|vo_01_01_rm_ko          = Tto muryehan jarogun
+
+|vo_01_02_file           = VO {lang}{name} - Ignorant And Vulgar.ogg
+|vo_01_02_tx_en          = Ignorant and vulgar.
+|vo_01_02_tx_zh          = 无知又粗鲁。
+|vo_01_02_rm_zh          = Wúzhī yòu cūlǔ.
+|vo_01_02_tx_ja          = 無知で野蛮。
+|vo_01_02_rm_ja          = Muchi de yaban.
+|vo_01_02_tx_ko          = 무지하고 난폭하고
+|vo_01_02_rm_ko          = Mujihago nanpokhago
+
+|vo_02_00_title          = Entering Battle (Local Legend/Veteran)
+|vo_02_01_file           = VO {lang}{name} - We Meet At Last Meddler.ogg
+|vo_02_01_tx_en          = We meet at last, meddler.
+|vo_02_01_tx_zh          = 坏事的果然是你。
+|vo_02_01_rm_zh          = Huàishì de guǒrán shì nǐ.
+|vo_02_01_tx_ja          = 事を荒立ってたのはやはり君だったか。
+|vo_02_01_rm_ja          = Koto wo aradateta no wa yahari kimi datta ka.
+|vo_02_01_tx_ko          = 이를 망치는 건 늘 당신이죠
+|vo_02_01_rm_ko          = Ireul mangchineun geon neul dangsinijyo
+
+|vo_03_00_title          = Fakeout
+|vo_03_01_file           = VO {lang}{name} - Did I Scare You.ogg
+|vo_03_01_tx_en          = Did I scare you?
+|vo_03_01_tx_zh          = 吓到你了吗？
+|vo_03_01_rm_zh          = Xiàdào nǐ le ma?
+|vo_03_01_tx_ja          = 驚かせてしまったか？
+|vo_03_01_rm_ja          = Odorokasete shimatta ka?
+|vo_03_01_tx_ko          = 놀라셨나요?
+|vo_03_01_rm_ko          = Nollasyeonnayo?
+
+|vo_03_02_file           = VO {lang}{name} - How Inconsiderate Of Me.ogg
+|vo_03_02_tx_en          = How inconsiderate of me!
+|vo_03_02_tx_zh          = 哎呀，真失礼。
+|vo_03_02_rm_zh          = Aiya, zhēn shīlǐ.
+|vo_03_02_tx_ja          = おっと、失礼。
+|vo_03_02_rm_ja          = Otto, shitsurei.
+|vo_03_02_tx_ko          = 이거 실례했군요
+|vo_03_02_rm_ko          = Igeo sillyehaetgunyo
+
+|vo_04_00_title          = Spikefield
+|vo_04_01_file           = VO {lang}{name} - Watch Your Footing.ogg
+|vo_04_01_tx_en          = Watch your footing.
+|vo_04_01_tx_zh          = 注意脚下。
+|vo_04_01_rm_zh          = Zhùyì jiǎoxià.
+|vo_04_01_tx_ja          = 足元に気をつけろ。
+|vo_04_01_rm_ja          = Ashimoto ni ki wo tsukero.
+|vo_04_01_tx_ko          = 발밑을 조심하세요
+|vo_04_01_rm_ko          = Balmit-eul josimhaseyo
+
+|vo_04_02_file           = VO {lang}{name} - I've Warned You.ogg
+|vo_04_02_tx_en          = I've warned you!
+|vo_04_02_tx_zh          = 我已经提醒过你了。
+|vo_04_02_rm_zh          = Wǒ yǐjīng tíxǐngguò nǐ le.
+|vo_04_02_tx_ja          = 注意はしたぞ。
+|vo_04_02_rm_ja          = Chuui wa shita zo.
+|vo_04_02_tx_ko          = 전 분명 경고했습니다
+|vo_04_02_rm_ko          = Jeon bunmyeong gyeonggohaesseupnida
+
+|vo_05_00_title          = Galeshot
+|vo_05_01_file           = VO {lang}{name} - Let My Magic Begin.ogg
+|vo_05_01_tx_en          = Let my magic begin!
+|vo_05_01_tx_zh          = 来场魔术表演。
+|vo_05_01_rm_zh          = Lái chǎng móshù biǎoyǎn.
+|vo_05_01_tx_ja          = マジックショーと行こう。
+|vo_05_01_rm_ja          = Majikku shoo to ikou.
+|vo_05_01_tx_ko          = 마술을 보여 드리죠
+|vo_05_01_rm_ko          = Masureul boyeo deurijyo
+
+|vo_05_02_file           = VO {lang}{name} - Savor The Show In Peace.ogg
+|vo_05_02_tx_en          = Savor the show in peace!
+|vo_05_02_tx_zh          = 安静欣赏吧。
+|vo_05_02_rm_zh          = Ānjìng xīnshǎng ba.
+|vo_05_02_tx_ja          = 静かに観賞するといい。
+|vo_05_02_rm_ja          = Shizuka ni kanshou suru to ii.
+|vo_05_02_tx_ko          = 조용히 감상하시죠
+|vo_05_02_rm_ko          = Joyonghi gamsanghasijyo
+
+|vo_06_00_title          = Hunt Down Initiation (Version 1)
+|vo_06_01_file           = VO {lang}{name} - Having Fun.ogg
+|vo_06_01_tx_en          = Having fun?
+|vo_06_01_tx_zh          = 有趣吗？
+|vo_06_01_rm_zh          = Yǒuqù ma?
+|vo_06_01_tx_ja          = 楽しんでいるか？
+|vo_06_01_rm_ja          = Tanoshinde iru ka?
+|vo_06_01_tx_ko          = 흥미로운가요?
+|vo_06_01_rm_ko          = Heungmiroun'gayo?
+
+|vo_07_00_title          = Hunt Down Follow-Up (Version 1)
+|vo_07_01_file           = VO {lang}{name} - Enjoy.ogg
+|vo_07_01_tx_en          = Enjoy.
+|vo_07_01_tx_zh          = 祝你愉快。
+|vo_07_01_rm_zh          = Zhù nǐ yúkuài.
+|vo_07_01_tx_ja          = 良い一日を。
+|vo_07_01_rm_ja          = Yoi ichinichi wo.
+|vo_07_01_tx_ko          = 즐기세요!
+|vo_07_01_rm_ko          = Jeulgiseyo!
+
+|vo_08_00_title          = Hunt Down Initiation (Version 2)
+|vo_08_01_file           = VO {lang}{name} - A Gift For You.ogg
+|vo_08_01_tx_en          = A gift for you! 
+|vo_08_01_tx_zh          = 小礼物…
+|vo_08_01_rm_zh          = Xiǎo-lǐwù...
+|vo_08_01_tx_ja          = ささやかなプレゼントだ。
+|vo_08_01_rm_ja          = Sasayaka na purezento da.
+|vo_08_01_tx_ko          = 작은 선물입니다
+|vo_08_01_rm_ko          = Jageun seonmurimnida
+
+|vo_09_00_title          = Hunt Down Follow-Up (Version 2)
+|vo_09_01_file           = VO {lang}{name} - A Grand Surprise.ogg
+|vo_09_01_tx_en          = A grand surprise!
+|vo_09_01_tx_zh          = 大惊喜。
+|vo_09_01_rm_zh          = Dà-jīngxǐ.
+|vo_09_01_tx_ja          = 盛大なサプライズを。
+|vo_09_01_rm_ja          = Seidai na sapuraizu wo.
+|vo_09_01_tx_ko          = 서프라이즈!
+|vo_09_01_rm_ko          = Seopeuraijeu!
+
+|vo_10_00_title          = Defeating Player (Local Legend)
+|vo_10_01_file           = VO {lang}{name} - Hmph And I Was Told You Were A Fearsome Warrior.ogg
+|vo_10_01_tx_en          = Hmph. And I was told you were a fearsome warrior.
+|vo_10_01_tx_zh          = 什么啊？没有传闻那么厉害嘛。
+|vo_10_01_rm_zh          = Shénme a? Méiyǒu chuánwén nàme lìhài ma.
+|vo_10_01_tx_ja          = 何？噂に聞くほどの腕でもなかったな。
+|vo_10_01_rm_ja          = Nani? Uwasa ni kiku hodo no ude de mo nakatta na.
+|vo_10_01_tx_ko          = {{tx}}
+|vo_10_01_rm_ko          = 
+
+|vo_11_00_title          = Defeated
+|vo_11_01_file           = VO {lang}{name} - I Can Still Let Me Try.ogg
+|vo_11_01_tx_en          = I can still...! Let me try...
+|vo_11_01_tx_zh          = 我还能…我还可以…！
+|vo_11_01_rm_zh          = Wǒ hái néng... Wǒ hái kěyǐ...!
+|vo_11_01_tx_ja          = まだだ…私はまだ！
+|vo_11_01_rm_ja          = Mada da... Watashi wa mada!
+|vo_11_01_tx_ko          = 아직… 아직 끝나지 않았어!
+|vo_11_01_rm_ko          = Ajik... Ajik kkeunnaji anasseo!
+|vo_11_02_file           = VO {lang}{name} - Ugh Impossible.ogg
+|vo_11_02_tx_en          = Ugh... I&mdash;Impossible...
+|vo_11_02_tx_zh          = 不可…不可能！
+|vo_11_02_rm_zh          = Bù kě... bù kěnéng!
+|vo_11_02_tx_ja          = ありえ…ない…
+|vo_11_02_rm_ja          = Arie... nai...
+|vo_11_02_tx_ko          = 이건 말도 안 돼
+|vo_11_02_rm_ko          = Igeon maldo an dwae
+
+|vo_12_00_title          = Defeated (Local Legend/Veteran)
+|vo_12_01_file           = VO {lang}{name} - Ugh The Shame.ogg
+|vo_12_01_tx_en          = Ugh! The shame...
+|vo_12_01_tx_zh          = 真是难堪…
+|vo_12_01_rm_zh          = Zhēn shì nánkān...
+|vo_12_01_tx_ja          = 面目…ない…！
+|vo_12_01_rm_ja          = Menboku... nai...!
+|vo_12_01_tx_ko          = {{tx}}
+|vo_12_01_rm_ko          = 
+}}
+
+==Tutorial==
+{{Tutorial|Wind Operative}}
+
+==Descriptions==
+{{Description|An elite agent among the Fatui.<br>"Operatives" have no ordinary military rank among the Fatui. Based on their orders and the content of their missions, they can work in concert with other soldiers, work alone, or in tandem with the "tacks" hidden and scattered across the world. They spy, conduct counter-espionage, protect, assassinate, and conduct other tasks. In order to effectively carry out missions of a more special nature, "Operatives" also need to master all kinds of other skills and even various arts and talents.|[[Archive]]}}
+
+==Gallery==
+<gallery>
+Wind Operative Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Wind Operative
+|zhs     = 愚人众・风役人
+|zhs_rm  = Yúrén-zhòng &ndash; Fēng Yìrén
+|zht     = 愚人眾・風役人
+|zht_rm  = Yúrén-zhòng &ndash; Fēng Yìrén
+|zh_tl   = {{Lex|Fatui|zh}} &ndash; Wind Servant
+|ja      = ファデュイ・烈風の従者
+|ja_rm   = Fadyui &ndash; Reppuu no Juusha
+|ja_tl   = Fatui &ndash; Servant of Gales
+|ko      = 우인단・바람 심부름꾼
+|ko_tl   = Fatui - Wind Messenger
+|es      = Soldado Fatui: Senescal Anemo
+|es_tl   = Fatui Solider: Anemo {{wt|seneschal|Seneschal}}
+|fr      = Opérateur Fatui du vent
+|fr_tl   = Wind Fatui Operator
+|ru      = Оперативник ветра
+|ru_tl   = Wind Operative
+|th      = Fatui &ndash; Wind Operative
+|vi      = Fatui &ndash; Đặc Vụ Gió
+|vi_tl   = 
+|de      = Fatui &ndash; Winddienerin
+|de_tl   = Fatui &ndash; Wind Servant
+|de_note = Notably the female form of Servant is used.
+|id      = Wind Operative
+|pt      = Fatui Oficial do Vento
+|pt_tl   = 
+|tr      = Rüzgar Ajanı
+|tr_tl   = Wind Agent 
+|it      = Operativo del Vento
+|it_tl   = Wind Operative
+}}
+
+==Change History==
+{{Change History|4.1}}
+
+==Navigation==
+{{Enemy Navbox|Elite}}
+{{Enemy Navbox|Special}}
+
+[[es:Soldado Fatui - Senescal Anemo]]
+[[fr:Opérateur Fatui du vent]]
+[[ja:ファデュイ・烈風の従者]]

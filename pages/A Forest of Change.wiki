@@ -6,18 +6,15 @@
 |actNum        = I
 |act           = Through Mists of Smoke and Forests Dark
 |part          = 1
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Collei; Haypasia; Nasrin; Tighnari; Traveler; Paimon
 |startLocation = [[Avidya Forest]], [[Sumeru]]
 |region        = Sumeru
 |area          = Avidya Forest
+|domain        = A Forest of Change (Domain)
 |prev          = The Black Serpent Knights' Glory
 |next          = Further Observation
-|exp           = 625
-|mora          = 25,450
-|primogems     = 
-|other         = {{Card|Hero's Wit|2}} {{Card|Mystic Enhancement Ore|4}}
+|rewards       = Adventure EXP*625;Mora*25,450;Hero's Wit*2;Mystic Enhancement Ore*4
 |voiced        = yes
 }}
 {{TeyvatQuest|title=A Forest of Change|chapter=3|act=1|part=1}}
@@ -26,20 +23,22 @@
 # Go to the land of the [[Dendro Archon]]
 # Continue through the forest
 # Follow the [[Haypasia|unresponsive person]] discreetly
+#* The player will be teleported into the Quest Domain [[A Forest of Change (Domain)|A Forest of Change]]
 # Follow the voice
-#* Only the [[Traveler]] will be in the party from this step onwards, and only movement keys can be controlled
+#* Only the [[Traveler]] will be in the party from this step onwards, and only movement keys can be controlled.
+#* The player can only walk at this point.
 # Continue following the voice
 
 ==Gameplay Notes==
-* During steps 4 and 5, all game menus are unavailable. The instance can only be exited by force-closing the game or dying in the instance from [[Fall Damage]] or repeatedly falling into the abyss until the [[Fallen Character#Game Over Screen|Game Over screen]] is triggered, which will provide a button to exit the instance as usual.
-* Exiting the instance resets the quest to step 3.
+* During steps 4 and 5, all game menus are unavailable. The domain can only be exited by force-closing the game or dying in the domain from [[Fall Damage]] or repeatedly falling into the abyss until the [[Fallen Character#Game Over Screen|Game Over screen]] is triggered, which will provide a button to exit the domain as usual.
+* Exiting the domain resets the quest to step 3.
 
 ==Dialogue==
 {{Quest Description|You and Paimon arrive in Sumeru, and you prepare to find a way to get an audience with [[Lesser Lord Kusanali]]...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo xmaq001 1 paimon 01.ogg}} '''Paimon:''' Now that we've made it to Sumeru, our next objective should be to head to [[Sumeru City]] and find a way to meet with Lesser Lord Kusanali.
-:{{A|vo xmaq001 1 paimon 02a.ogg}} {{A|vo xmaq001 1 paimon 02b.ogg}} '''Paimon:''' And speaking of [[Lesser Lord Kusanali]], even though we haven't heard too much about her, she doesn't seem to be the same deity who abducted your {{MC|sister|brother|mc=1}}...
+:{{A|vo xmaq001 1 paimon 02a.ogg}} {{A|vo xmaq001 1 paimon 02b.ogg}} '''Paimon:''' And speaking of Lesser Lord Kusanali, even though we haven't heard too much about her, she doesn't seem to be the same deity who abducted your {{MC|sister|brother|mc=1}}...
 :{{A|vo xmaq001 1 paimon 03.ogg}} '''Paimon:''' But even so, people call Sumeru the "Nation of Wisdom," you know. If we can get a chance to meet the God of Wisdom, maybe she can give us some useful information.
 :{{DIcon}} Alright, sounds like a plan.
 :{{A|vo xmaq001 1 paimon 04.ogg}} '''Paimon:''' But, uh... Paimon doesn't know the way to Sumeru City... Maybe we can climb up to that spot with the [[Statue of The Seven]] on it? That'll give us a way better view of things!
@@ -70,25 +69,25 @@
 ::{{A|vo xmaq001 3 paimon 05b.ogg}} '''Paimon:''' Hmm, it looks like she's meditating or something. If we bother her now, she probably wouldn't let us off very lightly...
 :{{A|vo xmaq001 3 paimon 06.ogg}} '''Paimon:''' Oh? Mmm! What a lovely smell!
 :{{A|vo xmaq001 3 paimon 07.ogg}} '''Paimon:''' It's coming from that censer over there. This is definitely not your typical place to call home, but at least it smells nice! Hmm, maybe living here wouldn't be too bad after all...
-:'''(Traveler):''' Ugh! Uh oh...
+:'''{{Traveler}}:''' Ugh! Uh oh...
 :{{A|vo xmaq001 3 paimon 08.ogg}} '''Paimon:''' Huh, what's the matter? You don't look too good.
 :{{DIcon}} This smell, it's...
 :{{DIcon}} Something's... not right!
 :{{A|vo xmaq001 3 paimon 09.ogg}} '''Paimon:''' What? Is the smell making you feel sick? Strange, Paimon doesn't feel anything...
-:'''(Traveler):''' (I've got to get out of here!)
+:'''{{Traveler}}:''' (I've got to get out of here!)
 ;(The Traveler turns around, but another headache stops them)
-:'''(Traveler):''' (I think I'm gonna pass... out...)
-:{{A|vo xmaq001 3 paimon 10.ogg}} '''Paimon:''' What's happening? (Traveler)? This is no time for a nap! C'mon, wake up...
+:'''{{Traveler}}:''' (I think I'm gonna pass... out...)
+:{{A|vo xmaq001 3 paimon 10.ogg}} '''Paimon:''' What's happening? {{Traveler}}? This is no time for a nap! C'mon, wake up...
 ;(Paimon's voice fades out)
 ----
-:{{Cutscene Description|Your vision blurs...<br />You walk under the eerie sky, your vision blurred.<br />You see a giant tree standing in the center of the world. When you get close to it, you hear some incoherent utterances: "World... forget me."<br />A searing pain in your head renders you unconscious...}}
+:{{Cutscene Description|Your vision blurs...<br>You walk under the eerie sky, your vision blurred.<br>You see a giant tree standing in the center of the world. When you get close to it, you hear some incoherent utterances: "World... forget me."<br>A searing pain in your head renders you unconscious...}}
 ::{{A|vo xmaq001 cs2 rukkhadevata 01.ogg}} '''...World... Forget me...'''
 ----
 ;(Paimon's voice fades in)
 :{{A|vo xmaq001 4 paimon 01.ogg}} '''Paimon:''' ...Are you sure it's not serious? The Traveler's been out for a long time now...
 :{{A|vo xmaq001 4 collei 01a.ogg}} {{A|vo xmaq001 4 collei 01b.ogg}} '''???:''' Yes, you can relax... Believe me, Master is extremely knowledgeable. If he says that {{MC|he|she|mc=1}}'s going to be alright, then there's absolutely nothing to worry about.
 :{{A|vo xmaq001 4 collei 02.ogg}} '''???:''' Oh, are you awake now?
-:{{A|vo xmaq001 4 paimon 02.ogg}} '''Paimon:''' Oh, thank goodness! (Traveler), you're finally awake!
+:{{A|vo xmaq001 4 paimon 02.ogg}} '''Paimon:''' Oh, thank goodness! {{Traveler}}, you're finally awake!
 :{{DIcon}} Where am I?
 :{{A|vo xmaq001 4 paimon 03.ogg}} '''Paimon:''' Well, we're at... uh... Good question, where are we!? Paimon was in such a panic when you passed out that she even forgot to ask what place this is.
 :{{A|vo xmaq001 4 collei 03.ogg}} '''???:''' This is [[Gandharva Ville]]. It was originally built by scholars from Sumeru as a place to rest in the rainforest. Now it's mainly used by the Forest Rangers as a base of operations.
@@ -101,7 +100,7 @@
 :{{A|vo xmaq001 4 collei 07.ogg}} '''Collei:''' Before I forget, Master mentioned you should take more medicine once you wake up.
 ;(Collei walks to a nearby desk, picks something up, and turns back around, only to drop the item)
 :{{A|vo xmaq001 4 collei 08.ogg}} '''Collei:''' Ah, whoops!
-:{{A|vo xmaq001 4 tighnari 01.ogg}} '''Tighnari:''' Collei, what's the matter? Were you trying to retrieve the medicine? As I've already told you, you must be careful with these... Alright, I'll get it for you once I'm finished here.
+:{{A|vo xmaq001 4 tighnari 01.ogg}} '''Tighnari:''' Collei, what's the matter? Were you trying to retrieve the medicine? As I've already told you, you must be careful with these... I'll get it for you once I'm finished here.
 :{{A|vo xmaq001 4 collei 09.ogg}} '''Collei:''' Ah, sorry, Master...
 :{{A|vo xmaq001 4 tighnari 02.ogg}} '''Tighnari:''' *sigh* Now, the "Guide to Avidya Forest's Edible Fungi" is clearly posted on our bulletin board. But, if [[Farbod]] forgets which mushrooms to avoid one more time, I'll have no choice but to leave the guide somewhere a little more visible &mdash; like right smack on his forehead so others can remind him to be careful.
 :{{A|vo xmaq001 4 nasrin 01.ogg}} '''Nasrin:''' Right, this is the second time he's come down with food poisoning this month. I'll be sure to give him a good talking-to!
@@ -115,10 +114,8 @@
 :{{A|vo xmaq001 4 tighnari 07.ogg}} '''Tighnari:''' In hopes of asking directions, you two followed a scholar named [[Haypasia]] into her cave. The incense you smelled inside was the Spirit Borneol I just mentioned.
 :{{A|vo xmaq001 4 tighnari 08.ogg}} '''Tighnari:''' That incense typically has no effect on most people. But, for a very select few, it can have profound effects on one's cognition, as you experienced firsthand. Does that make sense?
 :{{DIcon}} Yes, that all makes sense.
-:{{A|vo xmaq001 4 tighnari 09.ogg}} '''Tighnari:''' Very good. Now, answer me this: did you feel anything after passing out? Say, any out-of-body experiences? Or did you see anything while unconscious?
-
-:'''You describe what you saw while unconscious...'''
-
+:{{A|vo xmaq001 4 tighnari 09.ogg}} '''Tighnari:''' Very good. Now, answer me this, did you feel anything after passing out? Say, any out-of-body experiences, or did you see anything while unconscious?
+:{{Black Screen|You describe what you saw while unconscious...}}
 :{{A|vo xmaq001 4 tighnari 10.ogg}} '''Tighnari:''' Hmm...
 :{{A|vo xmaq001 4 tighnari 11.ogg}} '''Tighnari:''' Collei, let the others know to stop bringing their patrol logs here for now.
 :{{A|vo xmaq001 4 collei 11.ogg}} '''Collei:''' Huh? W&mdash;Why?
@@ -128,18 +125,18 @@
 :{{A|vo xmaq001 4 paimon 04.ogg}} '''Paimon:''' Wait, hold on a second! Can you tell us what's going on?
 :{{A|vo xmaq001 4 tighnari 13.ogg}} '''Tighnari:''' Sure, let me fill you in. I originally planned to send you on your way once you finished your medicine. However, it appears now that you should stay a while longer in Gandharva Ville for further observation while you recuperate.
 :{{A|vo xmaq001 4 paimon 05.ogg}} '''Paimon:''' Further observation?
-:{{DIcon}} But we need to get to [[Sumeru City]]...
+:{{DIcon}} But we need to get to Sumeru City...
 :{{A|vo xmaq001 4 tighnari 14.ogg}} '''Tighnari:''' No need to be hasty. As long as you have the capacity to judge between right and wrong, I promise that you'll understand the gravity of the situation once I explain everything to you.
 :{{A|vo xmaq001 4 tighnari 15.ogg}} '''Tighnari:''' Based on what you saw after smelling the incense and losing consciousness, we can conclude that you experienced a powerful hallucination, which suggests your mental state is not in the best of shape.
 :{{A|vo xmaq001 4 tighnari 16.ogg}} '''Tighnari:''' If you're skeptical, have a whiff of this.
 :{{DIcon}} Wha&mdash;!
 :{{A|vo xmaq001 4 paimon 06.ogg}} '''Paimon:''' Whoa, are you okay?
 :{{A|vo xmaq001 4 tighnari 17.ogg}} '''Tighnari:''' You're experiencing a similar sensation as when you passed out, aren't you?
-:{{A|vo xmaq001 4 tighnari 18.ogg}} '''Tighnari:''' So even though your condition is stable as of now, if I were to haphazardly let you leave, it's highly likely that you'd suddenly pass out again somewhere else...
+:{{A|vo xmaq001 4 tighnari 18.ogg}} '''Tighnari:''' So even though your condition is stable as of now, if I were to haphazardly let you leave, it's highly likely that you'd suddenly pass out again somewhere else.
 :{{A|vo xmaq001 4 tighnari 19.ogg}} '''Tighnari:''' The rainforest is home to many fierce animals and hazardous areas. If something were to happen to you again, I'm afraid you might not be so lucky.
 :{{A|vo xmaq001 4 tighnari 20.ogg}} '''Tighnari:''' For now, I suggest you continue taking your medicine each day and avoid wandering off on your own, at least until you stop having adverse reactions to this kind of smell, okay?
 :{{DIcon}} Alright...
-:{{A|vo xmaq001 4 tighnari 21.ogg}} '''Tighnari:''' Good. Now continue resting while I fire up another bowl of medicine for you.
+:{{A|vo xmaq001 4 tighnari 21.ogg}} '''Tighnari:''' Mmm, good. Now continue resting while I fire up another bowl of medicine for you.
 ;(Tighnari leaves)
 :{{A|vo xmaq001 4 paimon 07.ogg}} '''Paimon:''' *sigh* Seriously, we just arrived in Sumeru. We're already having problems left and right...
 :{{A|vo xmaq001 4 paimon 08.ogg}} '''Paimon:''' Paimon knows we were set on meeting Lesser Lord Kusanali as soon as possible, but you really don't look too good... It'd probably be best to let you recover first.
@@ -150,7 +147,7 @@
 :{{DIcon}} I don't think what I saw were hallucinations.
 :{{A|vo xmaq001 4 paimon 11.ogg}} '''Paimon:''' You mean the vision of tree roots and red skies you saw? But if those weren't hallucinations, what could they be?
 :{{DIcon}} I'm not sure.
-:'''(Traveler):''' (When I saw the vision, it felt as if I was standing deep underground. But the red sky... Could it have been [[Khaenri'ah]]?)
+:'''{{Traveler}}:''' (When I saw the vision, it felt as if I was standing deep underground. But the red sky... Could it have been [[Khaenri'ah]]?)
 :{{A|vo xmaq001 4 paimon 12.ogg}} '''Paimon:''' Well, considering how unique you are, Paimon trusts your judgment here. But why didn't you say anything about it to Tighnari?
 :{{A|vo xmaq001 4 paimon 13.ogg}} '''Paimon:''' If he misjudged your condition, then there's a chance you could get worse, right?
 :{{DIcon}} I don't think that's the case.
@@ -162,9 +159,11 @@
 :{{A|vo xmaq001 4 paimon 17.ogg}} '''Paimon:''' But it seems like asking Tighnari might not be an option anymore... What do you think we should do?
 :{{DIcon}} Let's start by having a chat with Collei.
 :{{A|vo xmaq001 4 paimon 18.ogg}} '''Paimon:''' Good idea. Collei's pretty friendly... We can ask her tomorrow about what she knows regarding the Dendro Archon and customs in Sumeru.
+:{{Black Screen|You get a night of rest...}}
+{{Dialogue End}}
 
-:'''You get a night of rest...'''
-{{Dialogue end}}
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -208,7 +207,6 @@
 
 ==Navigation==
 {{Archon Quest Navbox|chapter=Chapter III}}
-[[Category:Archon Chapter 3]]
 
 [[es:Un bosque en transformación]]
 [[ja:森での遭遇]]

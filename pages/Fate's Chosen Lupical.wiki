@@ -11,32 +11,31 @@
 |region        = Mondstadt
 |area          = Windwail Highland
 |prev          = Ravaged by Wolves
-|exp           = 400
-|mora          = 14,150
-|primogems     = 60
-|other         = {{Card|Teachings of Resistance|5}}{{Card|Adventurer's Experience|7}}{{Card|Mystic Enhancement Ore|3}}
+|rewards       = Adventure EXP*400;Primogem*60;Mora*14,150;Teachings of Resistance*5;Adventurer's Experience*7;Mystic Enhancement Ore*3
+|otherRewards  = 
 *Unlocks [[Wolf of the North Challenge]]
-|characters    = Amber;Hopkins the Marvelous;Jotun;Andrius;Paimon;Razor;Traveler
+|characters    = Amber;Hopkins the Marvelous;Jotun;Boreas;Paimon;Razor;Traveler
 |voiced        = yes
 }}
-'''''Fate's Chosen Lupical''''' is the fourth and final part of [[Razor]]'s [[Story Quest]] [[Lupus Minor Chapter]]: Act I - [[The Meaning of Lupical]].
+'''''Fate's Chosen Lupical''''' is the fourth and final part of {{Quest|The Meaning of Lupical}}.
 
 ==Steps==
-#Go to [[Wolvendom]]
-#Talk to Razor
-#Check for strange things along the way
-#Investigate the blood print
-#Catch up to Razor
-#Talk to Razor
-#Go deeper into Wolvendom
-#Talk to Razor about how to help the injured wolf
-#Collect [[Wolfhook]] (0/1)
-#Give a Wolfhook to Razor
-#Challenge the [[Andrius|Wolf of the North]]<br />{{Card|Wolf of the North Challenge|type=Enemy|text=Andrius}}<br />Fight will end after the [[Wolf of the North Challenge#Interlude Phase|Interlude Phase]].
+# Go to [[Wolvendom]]
+# Talk to Razor
+# Check for strange things along the way
+# Investigate the blood print
+# Catch up to Razor
+# Talk to Razor
+# Go deeper into Wolvendom
+# Talk to Razor about how to help the injured wolf
+# Collect [[Wolfhook]] (0/1)
+# Give a Wolfhook to Razor
+# Challenge the [[Boreas|Wolf of the North]]
+#* {{Enemy|Andrius|text=Boreas &mdash; Great Wolf King of the North}}<br>Fight will end after the [[Wolf of the North Challenge#Interlude Phase|Interlude Phase]].
 
 ==Trial Character==
 {{Trial Character
-|wl                      = 1,4
+|wl                      = 1,2,3,4
 |character_name          = Razor
 
 |character_level1        = 30
@@ -61,6 +60,55 @@
 |er1                     = 103.5%
 |crit_rate1              = 28.8%
 |crit_dmg1               = 66.8%
+
+|character_level2        = 35
+|constellation2          = 2
+|weapon_name2            = Snow-Tombed Starsilver
+|weapon_level2           = 35
+|artifact_flower2        = Medal of the Brave
+|artifact_feather2       = Prospect of the Brave
+|artifact_sands2         = Fortitude of the Brave
+|artifact_goblet2        = Outset of the Brave
+|artifact_circlet2       = Crown of the Brave
+|set1_2                  = Brave Heart
+|set1_piece_bonus_2      = 4
+|artifact_level2         = 12
+|normal_attack_talent2   = 1
+|elemental_skill_talent2 = 1
+|elemental_burst_talent2 = 1
+|hp2                     = 8,176
+|atk2                    = 625
+|def2                    = 287
+|em2                     = 13
+|er2                     = 123.5%
+|crit_rate2              = 28.8%
+|crit_dmg2               = 66.8%
+|phy_dmg2                = 17.8%
+
+|character_level3        = 45
+|constellation3          = 3
+|weapon_name3            = Snow-Tombed Starsilver
+|weapon_level3           = 45
+|refinement3             = 1
+|artifact_flower3        = Medal of the Brave
+|artifact_feather3       = Prospect of the Brave
+|artifact_sands3         = Fortitude of the Brave
+|artifact_goblet3        = Outset of the Brave
+|artifact_circlet3       = Crown of the Brave
+|artifact_level3         = 14
+|set1_3                  = Brave Heart
+|set1_piece_bonus_3      = 4
+|normal_attack_talent3   = 2
+|elemental_skill_talent3 = 2
+|elemental_burst_talent3 = 5
+|hp3                     = 13,208
+|atk3                    = 934
+|def3                    = 372
+|em3                     = 17
+|crit_rate3              = 37.0%
+|crit_dmg3               = 72.4%
+|er3                     = 104.7%
+|phy_dmg3                = 28.3%
 
 |character_level4        = 57
 |constellation4          = 3
@@ -89,16 +137,16 @@
 }}
 
 ==Dialogue==
-{{Quest Description|You are yet again led to [[Wolvendom]]. Are these [[Wolfhook]] seeds solid evidence? Are [[Razor]] and his wolf pack really behind the attack? Or are the Wolfhooks indicative of something else?}}
-{{Dialogue start}}
+{{Quest Description|You are yet again led to Wolvendom. Are these Wolfhook seeds solid evidence? Are Razor and his wolf pack really behind the attack? Or are the Wolfhooks indicative of something else?}}
+{{Dialogue Start}}
 ;(Talk to Razor)
 :{{A|vo rzlq004 2 razor 01.ogg}} '''Razor:''' Who's there?
 :{{A|vo rzlq004 2 paimon 01.ogg}} '''Paimon:''' Chill out Razor, it's only us.
 :{{A|vo rzlq004 2 razor 02.ogg}} '''Razor:''' You... are also knight?
 :{{A|vo rzlq004 2 paimon 02.ogg}} '''Paimon:''' ...So you don't know each other after all?
 :{{DIcon}} "The red one, burny girl..."
-:{{DIcon}} That wasn't Amber?
-:{{A|vo rzlq004 2 razor 03.ogg}} '''Razor:''' No. This girl is also red, but no so burny like other girl.
+:{{DIcon}} That wasn't [[Amber]]?
+:{{A|vo rzlq004 2 razor 03.ogg}} '''Razor:''' No. This girl is also red, but no so burny like [[Klee|other girl]].
 :{{A|vo rzlq004 2 ambor 01.ogg}} '''Amber:''' This is starting to make sense. Is this the wolf boy you were talking about?
 :{{A|vo rzlq004 2 paimon 03.ogg}} '''Paimon:''' Correct! His name is Razor.
 :{{A|vo rzlq004 2 razor 04.ogg}} '''Razor:''' Help me out.
@@ -121,7 +169,7 @@
 :{{A|vo rzlq004 4 razor 03.ogg}} '''Razor:''' It's just the name he gave.
 :{{A|vo rzlq004 4 ambor 03.ogg}} '''Amber:''' ...Who's "he"?
 :{{A|vo rzlq004 4 razor 04.ogg}} '''Razor:''' Guardian of this land.
-:{{A|vo rzlq004 4 paimon 03.ogg}} '''Paimon:''' Wouldn't that be Barbatos though? He is the ruler of Mondstadt.
+:{{A|vo rzlq004 4 paimon 03.ogg}} '''Paimon:''' Wouldn't that be [[Barbatos]] though? He is the ruler of Mondstadt.
 :{{A|vo rzlq004 4 razor 05.ogg}} '''Razor:''' Enough. Another clue. Follow me.
 :{{A|vo rzlq004 4 ambor 04.ogg}} '''Amber:''' Hey, wait! This is your chance to prove your innocence!
 :{{A|vo rzlq004 4 paimon 04.ogg}} '''Paimon:''' He's already gone!
@@ -147,7 +195,7 @@
 
 ;(Talk to Razor about how to help the injured wolf)
 :{{A|vo rzlq004 10 paimon 01.ogg}} '''Paimon:''' Where are we?
-:{{A|vo rzlq004 10 razor 01.ogg}} '''Razor:''' (Traveler), help me. Collect these.
+:{{A|vo rzlq004 10 razor 01.ogg}} '''Razor:''' {{Traveler}}, help me. Collect these.
 :{{A|vo rzlq004 10 paimon 02.ogg}} '''Paimon:''' Aren't those wolfhook seeds?
 :{{A|vo rzlq004 10 razor 02.ogg}} '''Razor:''' Crush them. Put on wound. Bleeding stop.
 :{{A|vo rzlq004 10 ambor 01.ogg}} '''Amber:''' It's true. Wolfhook seeds have a liquid coating that not only functions as a mild painkiller, but also has a hemostatic effect...
@@ -158,13 +206,13 @@
 :{{A|vo rzlq004 10 razor 04.ogg}} '''Razor:''' Animal doesn't feel hooks, they take seeds far away.
 :{{A|vo rzlq004 10 razor 05.ogg}} '''Razor:''' ...[[Lisa|Purple teacher]] told me so.
 :{{A|vo rzlq004 10 razor 06.ogg}} '''Razor:''' I stay here, take care of this one. I answer red girl's questions.
-:{{A|vo rzlq004 10 ambor 04.ogg}} '''Amber:''' Right. And if that lot does come back, I doubt they will try their luck against a member of the Knights of Favonius.
-:{{A|vo rzlq004 10 ambor 05.ogg}} '''Amber:''' Your wolf friend is not clear of my suspicion just yet. But (Traveler), we'll still need you to fetch those seeds.
+:{{A|vo rzlq004 10 ambor 04.ogg}} '''Amber:''' Right. And if that lot does come back, I doubt they will try their luck against a member of the [[Knights of Favonius]].
+:{{A|vo rzlq004 10 ambor 05.ogg}} '''Amber:''' Your wolf friend is not clear of my suspicion just yet. But {{Traveler}}, we'll still need you to fetch those seeds.
 
-;(Talk to Amber)
+;(Talk to Amber, optional)
 :{{A|vo dialog rzlq004 ambor 01.ogg}} '''Amber:''' Traveler, go and find some Wolfhooks. I need to talk with Razor.
 
-;(Talk to Razor)
+;(Talk to Razor again, optional)
 :{{A|vo dialog rzlq004 razor 01.ogg}} '''Razor:''' Looks like this. Can be used to stop bleeding.
 
 ----
@@ -175,9 +223,9 @@
 :{{A|vo rzlq004 12 ambor 01.ogg}} '''Amber:''' Razor was just telling me about the wolven code of conduct. Mind-blowing stuff.
 :{{A|vo rzlq004 12 razor 02.ogg}} '''Razor:''' Thank you.
 
-;(While you are talking, Hopkins and company turn up...)
+;(While you are talking, [[Hopkins the Marvelous|Hopkins]] and company turn up...)
 :{{A|vo rzlq004 12 hopkinsthemarvelous 01.ogg}} '''Hopkins the Marvelous:''' We've looked everywhere and haven't seen any other wolves.
-:{{A|vo rzlq004 12 jotun 01.ogg}} '''Jotun:''' Yep, that's wolves for you. The one we managed to capture must have been sick or something.
+:{{A|vo rzlq004 12 jotun 01.ogg}} '''[[Jotun]]:''' Yep, that's wolves for you. The one we managed to capture must have been sick or something.
 :{{A|vo rzlq004 12 hopkinsthemarvelous 02.ogg}} '''Hopkins the Marvelous:''' Wh&mdash;What are you doing here?
 :{{A|vo rzlq004 12 razor 03.ogg}} '''Razor:''' Revenge.
 :{{A|vo rzlq004 12 jotun 02.ogg}} '''Jotun:''' It's him! The one who was raised by wolves!
@@ -200,9 +248,10 @@
 :{{A|vo rzlq004 13 lupiboreas 02.ogg}} '''Wolf of the North:''' You cannot tame my fury.
 :{{A|vo rzlq004 13 lupiboreas 03.ogg}} '''Wolf of the North:''' You must clear their name with your sword.
 :{{A|vo rzlq004 13 lupiboreas 04.ogg}} '''Wolf of the North:''' Show me what your humans have taught you. Bare your claws of steel.
-
-;(You engage in a fierce battle with the Wolf of the North...)
-:{{A|vo rzlq004 cs razor 01.ogg}} '''Razor:''' Please! Calm!
+{{Cutscene Description|You engage in a fierce battle with the Wolf of the North...}}
+;(A cutscene plays)
+::{{A|vo rzlq004 cs razor 01.ogg}} '''Razor:''' Please! Calm!
+:;(Cutscene ends)
 :{{A|vo rzlq004 14 razor 01.ogg}} '''Razor:''' Please. Calm down.
 :{{A|vo rzlq004 14 lupiboreas 01.ogg}} '''Boreas:''' Hmph...
 :{{A|vo rzlq004 14 lupiboreas 02.ogg}} '''Boreas:''' It's just like he said. An outside wolf pack coming in and breaking the rules. They will reap what they have sown.
@@ -224,10 +273,13 @@
 :{{A|vo rzlq004 14 razor 04.ogg}} '''Razor:''' But also not wolf...
 :{{DIcon}} Razor...
 :{{DIcon}} Cheer up...
-:{{A|vo rzlq004 14 razor 05.ogg}} '''Razor:''' Thank you. (Traveler), Paimon and... other red girl.
+:{{A|vo rzlq004 14 razor 05.ogg}} '''Razor:''' Thank you. {{Traveler}}, Paimon and... other red girl.
 :{{A|vo rzlq004 14 ambor 03.ogg}} '''Amber:''' Hey!? We've been with you all this time, and you still don't even know my name!?
 :{{A|vo rzlq004 14 razor 06.ogg}} '''Razor:''' Goodbye.
-{{dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -271,3 +323,4 @@
 
 [[es:Lupical, una cuestión del destino]]
 [[ja:ルピカ、すなわち運命の選択]]
+[[vi:Lupical, Kỳ Thực Là Sự Lựa Chọn Của Vận Mệnh]]

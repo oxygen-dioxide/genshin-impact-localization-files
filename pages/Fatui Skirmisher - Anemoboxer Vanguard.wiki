@@ -16,7 +16,7 @@
 |ability2 = Vacuum Field
 |ability3 = Elemental Absorption
 |ability4 = Interruption Resistance
-|voiceEN  = [https://www.danfostervo.com/ Dan Foster]<ref name="Dan Foster">Twitter: [https://twitter.com/DanFosterVO/status/1355268775608688641 EN VA Self Announcement]</ref>
+|voiceEN  = [https://www.danfostervo.com/ Dan Foster]<ref name="Dan Foster">Twitter: [https://web.archive.org/web/20210129213724/https://twitter.com/DanFosterVO/status/1355268775608688641 EN VA Self Announcement] (Archived)</ref>
 }}
 {{Enemy Intro}}
 
@@ -37,14 +37,14 @@
 
 ==Stats==
 {{Enemy Stats
-|phys_res  = -20%
+|phys_res  = &minus;20%
 |hp_ratio  = 3
 |hp_type   = 1
 |atk_ratio = 6
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |enemy = Anemoboxer Vanguard
 
@@ -54,21 +54,21 @@
 |name_2 = Hurricane Jab
 |desc_2 = Performs a powerful punch with their gauntlets, dealing '''33.3% ATK''' as {{Color|Physical DMG}}.
 
-|name_3 = Gathering the Winds
-|desc_3 = Generates an {{Anemo}} shield in front of them capable of blocking attacks from the direction they're facing. If the shield comes in contact with {{Anemo}}, {{Hydro}}, {{Pyro}}, {{Cryo}} or {{Electro}}, an [[Elemental Absorption]] will occur, after which they immediately lifts the shield while charging up their gloves, [[Vacuum Field|sucking]] players in before punching them and dealing '''100% ATK''' as DMG of the absorbed element. If other enemies are present, the Anemoboxer Vanguard will dash over and use this ability next to their allies to protect them.
+|name_3 = Gathering the Winds and Avenging Squall
+|desc_3 = Generates a Stormwind Barrier in front of them capable of blocking attacks from the direction they're facing. If the Stormwind Barrier comes in contact with {{Anemo}}, {{Hydro}}, {{Pyro}}, {{Cryo}} or {{Electro}}, an [[Elemental Absorption]] will occur, after which they immediately lift the Stormwind Barrier while charging up their gloves, [[Vacuum Field|sucking]] players in before punching them and dealing '''100% ATK''' as DMG of the absorbed element. If other Fatui are present, the Anemoboxer Vanguard will sometimes dash over and use this ability next to their allies to protect them.
 |file_3 = Anemoboxer Vanguard Anemo Shield Anemo
-|caption_3 = Anemo Shield {{Color|Anemo}} Absorption
+|caption_3 = Stormwind Barrier {{Color|Anemo}} Absorption
 |file_3_2 = Anemoboxer Vanguard Anemo Shield Pyro
-|caption_3_2 = Anemo Shield {{Color|Pyro}} Absorption
+|caption_3_2 = Stormwind Barrier {{Color|Pyro}} Absorption
 |file_3_3 = Anemoboxer Vanguard Anemo Shield Hydro
-|caption_3_3 = Anemo Shield {{Color|Hydro}} Absorption
+|caption_3_3 = Stormwind Barrier {{Color|Hydro}} Absorption
 |file_3_4 = Anemoboxer Vanguard Anemo Shield Electro
-|caption_3_4 = Anemo Shield {{Color|Electro}} Absorption
+|caption_3_4 = Stormwind Barrier {{Color|Electro}} Absorption
 |file_3_5 = Anemoboxer Vanguard Anemo Shield Cryo
-|caption_3_5 = Anemo Shield {{Color|Cryo}} Absorption
+|caption_3_5 = Stormwind Barrier {{Color|Cryo}} Absorption
 
 |name_4 = Galeforce Agitation
-|desc_4 = The Anemoboxer Vanguard will recuperate any nearby Skirmisher that has been stunned from the forced removal of their elemental armor. Most times allowing them to reactivate it quickly.
+|desc_4 = The Anemoboxer Vanguard will recuperate any nearby Skirmisher that has been stunned from the forced removal of their elemental armor, most times allowing them to reactivate it quickly.
 }}
 
 ===AI Logic===
@@ -84,34 +84,37 @@
 {| class="wikitable"
 ! Ability !! Range Req. (m) !! Priority !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int.
 |-
-| Punch || 0–5 || 4 || 5–7.5 || 1 || — || rowspan="10" | 3 || {{check|yes}} || {{check|no}}
+| Hurricane Jab || 0–5 || 4 || 5–7.5 || 1 || &mdash; || rowspan="10" | 3 || {{check|yes}} || {{check|no}}
 |-
-| Anemo Shield || 0–20 || 2 || 8–13 || 7.5–15 || 15 || {{check|no}} || {{check|no}}
+| Gathering the Winds || 0–20 || 2 || 8–13 || 7.5–15 || 15 || {{check|no}} || {{check|no}} <!---Should Avenging Squall be included in the naming?--->
 |-
-| Recuperation || 0–999 || 2 || 10–15 || 7.5–15 || 15 || {{check|no}} || {{check|no}}
+| Galeforce Agitation || 0–999 || 2 || 10–15 || 7.5–15 || 15 || {{check|no}} || {{check|no}}
 |}
 
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Anemoboxer Vanguard
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Ha Come At Me.ogg
 |vo_01_01_tx_en          = Ha! Come at me!
 |vo_01_01_tx_zh          = 嘿，来对手了。
 |vo_01_01_tx_ja          = 来たっ！
 |vo_01_01_tx_ko          = 적이다!
+
 |vo_01_02_file           = VO {lang}{name} - Hah Well Met.ogg
 |vo_01_02_tx_en          = Hah! Well met.
 |vo_01_02_tx_zh          = 哈哈！来得正好！
 |vo_01_02_tx_ja          = はっ！ちょうどいい！
 |vo_01_02_tx_ko          = 하, 마침 잘 왔군!
 
-|vo_02_00_title          = Activating Shield
+
+|vo_02_00_title          = Gathering the Winds
 |vo_02_01_file           = VO {lang}{name} - Heh I See Through You.ogg
 |vo_02_01_tx_en          = Heh, I see through you!
 |vo_02_01_tx_zh          = 看穿你了！
 |vo_02_01_tx_ja          = 見抜いた！
 |vo_02_01_tx_ko          = 이런 건 안 통해!
+
 |vo_02_02_file           = VO {lang}{name} - Hah That All You Got.ogg
 |vo_02_02_tx_en          = Hah, that all you got!?
 |vo_02_02_tx_zh          = 嘿！就这么点本事吗？
@@ -124,27 +127,32 @@
 |vo_03_01_tx_zh          = 才刚刚开始！别扫人兴致！
 |vo_03_01_tx_ja          = まだ始まったばかりだ！興ざめさせるなよ！
 |vo_03_01_tx_ko          = 이제 시작이야! 김 빠지게 하지 마!
+
 |vo_03_02_file           = VO {lang}{name} - You Cant Run Well Neither Can I.ogg
 |vo_03_02_tx_en          = You can't run! Well... Neither can I.
 |vo_03_02_tx_zh          = 你逃不掉了！呃，我也是…
-|vo_03_02_tx_ja          = 逃げられないぞ！えっ、俺もだ…
+|vo_03_02_tx_ja          = 逃げられねえぞ！えっ、俺もだ…
 |vo_03_02_tx_ko          = 도망칠 수 없을걸! 어… 나도네…
 
-|vo_04_00_title          = Reviving Comrades
+
+|vo_04_00_title          = Galeforce Agitation
 |vo_04_01_file           = VO {lang}{name} - This Isnt Over.ogg
 |vo_04_01_tx_en          = This isn't over!
 |vo_04_01_tx_zh          = 战斗还没有结束！
 |vo_04_01_tx_ja          = 戦闘はまだ終わってない！
 |vo_04_01_tx_ko          = 전투는 끝나지 않았어!
+
 |vo_04_02_file           = VO {lang}{name} - Get It Together.ogg
 |vo_04_02_tx_en          = Get it together!
 |vo_04_02_tx_zh          = 嘿…都给我打起精神来！
 |vo_04_02_tx_ja          = 元気出せ！
 |vo_04_02_tx_ko          = 다들 정신 차려!
 
+
 |vo_05_00_title          = Staggered
 |vo_05_01_tx_en          = {{A|VO Anemoboxer Vanguard - Staggered 01.ogg}} {{A|VO Anemoboxer Vanguard - Staggered 02.ogg}} {{A|VO Anemoboxer Vanguard - Staggered 03.ogg}} 
 |vo_05_01_tx_zh          = 
+
 
 |vo_06_00_title          = Defeated
 |vo_06_01_file           = VO {lang}{name} - Ugh Looks Like I Went Too Far.ogg
@@ -152,23 +160,66 @@
 |vo_06_01_tx_zh          = 好像…用力过猛…
 |vo_06_01_tx_ja          = 少し…力を…出しすぎた…
 |vo_06_01_tx_ko          = 너무… 오버 했어…
+
 |vo_06_02_file           = VO {lang}{name} - Tch I Miscalculated.ogg
 |vo_06_02_tx_en          = Tch! I... miscalculated...
 |vo_06_02_tx_zh          = 这下…失算了…
 |vo_06_02_tx_ja          = 誤算が…
 |vo_06_02_tx_ko          = 계산… 착오다…
+
+|vo_07_00_title          = Eruption Start
+|vo_07_01_file           = VO {lang}Fatui Skirmisher - Anemoboxer Vanguard - Eruption Start.ogg
+|vo_07_01_tx_en          = Ugh, this is becoming a joke.
+|vo_07_01_tx_zh          = 受不了，这火山怎么又喷发了？
+|vo_07_01_rm_zh          = 
+|vo_07_01_tx_ja          = くそ！また噴火するのか？
+|vo_07_01_rm_ja          = 
+|vo_07_01_tx_ko          = {{tx}}
+|vo_07_01_rm_ko          = 
+|vo_07_02_file           = VO {lang}Fatui Skirmisher - Anemoboxer Vanguard - Eruption Start 2.ogg
+|vo_07_02_tx_en          = You know the drill — find cover.
+|vo_07_02_tx_zh          = 又来？靠近掩体吧…
+|vo_07_02_rm_zh          = 
+|vo_07_02_tx_ja          = またか！隠れる所を探さないと…
+|vo_07_02_rm_ja          = 
+|vo_07_02_tx_ko          = {{tx}}
+|vo_07_02_rm_ko          = 
+    
+|vo_08_00_title          = Eruption End
+|vo_08_01_file           = VO {lang}Fatui Skirmisher - Anemoboxer Vanguard - Eruption End.ogg
+|vo_08_01_tx_en          = How do the Natlanese put up with this thing?
+|vo_08_01_tx_zh          = 纳塔人到底怎么忍受这玩意儿的？
+|vo_08_01_rm_zh          = 
+|vo_08_01_tx_ja          = ナタ人はどうやってこいつと付き合ってるんだ？
+|vo_08_01_rm_ja          = 
+|vo_08_01_tx_ko          = {{tx}}
+|vo_08_01_rm_ko          = 
+|vo_08_02_file           = VO {lang}Fatui Skirmisher - Anemoboxer Vanguard - Eruption End 2.ogg
+|vo_08_02_tx_en          = Seems like there's an eruption every other day. Well, at least it's settled down for now.
+|vo_08_02_tx_zh          = 三天两头喷发一次。总算喷完了。
+|vo_08_02_rm_zh          = 
+|vo_08_02_tx_ja          = 噴火しまくりやがって…やっと終わった。
+|vo_08_02_rm_ja          = 
+|vo_08_02_tx_ko          = {{tx}}
+|vo_08_02_rm_ko          = 
 }}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Fatui Skirmisher - Anemoboxer Vanguard}}
 
+==Tutorials==
+{{Tutorial|Fatui Skirmisher - Anemoboxer Vanguard}}
+
 ==Descriptions==
-{{Description|A skirmisher armed with the ability to manipulate Anemo and heal their comrades.<br />They departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.<br />&mdash;Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.|[[Archive]]}}
+{{Description|A skirmisher armed with the ability to manipulate Anemo and heal their comrades.<br>They departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.<br>&mdash;Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
 Enemy Fatui Skirmisher - Anemoboxer Vanguard Icon.png|Icon
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Other Languages==
 {{Other Languages
@@ -179,10 +230,10 @@ Enemy Fatui Skirmisher - Anemoboxer Vanguard Icon.png|Icon
 |zht_rm  = Yúrénzhòng Xiānqiǎn Duì - Fēng Quán Qiánfēng Jūn
 |zh_tl   = {{lex|Fatui|zh}} Advance Party - {{lex|Anemo|zh}} Fist Vanguard Troop
 |ja      = ファデュイ先遣隊・前鋒軍・風拳
-|ja_rm   = Fadyui Senkentai・Zenpou-gun・Kaze Ken
-|ja_tl   = Fatui Advance Party: Vanguard Troop - {{lex|Anemo|ja}} Fist
+|ja_rm   = Fadyui Senkentai - Zenpou-gun - Kaze Ken
+|ja_tl   = Fatui Advance Party - Vanguard Troop - {{lex|Anemo|ja}} Fist
 |ko      = 우인단 선발대・풍권 돌격대
-|ko_rm   = U'indan Seonbaldae - Punggwon Dolgyeokdae
+|ko_rm   = U'in-dan Seonbaldae - Punggwon Dolgyeokdae
 |ko_tl   = Fatui Advance Party - Wind Fist Shock Troops
 |es      = Soldado Fatui - Boxeador Anemo de Vanguardia
 |es_tl   = Fatui Soldier - Anemoboxer Vanguard
@@ -199,7 +250,7 @@ Enemy Fatui Skirmisher - Anemoboxer Vanguard Icon.png|Icon
 |pt      = Soldado dos Fatui - Boxeador da Vanguarda Anemo
 |pt_tl   = Fatui Soldier - Anemoboxer Vanguard
 |tr      = Fatui Avcı Eri - Öncü Rüzgar Boksörü
-|tr_tl   = 
+|tr_tl   = Fatui Skirmisher - Vanguard {{Lex|Anemo|tr}} Boxer
 |it      = Schermagliatore dei Fatui Anemopugile d'assalto
 |it_tl   = 
 }}
@@ -214,6 +265,8 @@ Enemy Fatui Skirmisher - Anemoboxer Vanguard Icon.png|Icon
 {{Enemy Navbox|type=Common}}
 
 [[es:Boxeador Anemo de Vanguardia]]
+[[fr:Tirailleur Fatui – Frappeur Anémo]]
+[[ja:ファデュイ先遣隊・前鋒軍・風拳]]
 [[pt-br:Soldado dos Fatui - Boxeador da Vanguarda Anemo]]
 [[th:Anemoboxer Vanguard]]
 [[vi:Quân Tiên Phong Tay Đấm Phong]]

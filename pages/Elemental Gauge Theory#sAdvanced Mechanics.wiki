@@ -1,0 +1,449 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Advanced Mechanics
+|tab3 = Simultaneous Reaction Priority
+|tab4 = Character Data
+}}
+{{Community}}
+{{See also|Internal Cooldown/Data}}
+This page contains advanced mechanics related to elemental Auras, such as the calculation of the gauges and durations of special Auras created as a result of elemental reactions, and the behaviors of Self Auras.
+
+==Aura Tax==
+If an aura is created from an elemental attack, there will be an Aura Tax, which reduces 20% of the gauge.
+
+<math>\text{Gauges}_\text{Aura} = 0.8 \times \text{Gauges}_\text{Elemental Attack}</math>
+
+==Calculating Origin Aura Decay==
+In the following sections, many calculations will involve the gauge of the Origin Aura at the moment of triggering a reaction, which should consider the aura's natural decay if it was applied by an external source. This step is not necessary for innate auras.
+
+For calculating the gauge units of a decayed attack-inflicted aura, the following formula can be used:
+<div style="overflow-x:auto;">
+:<math>
+\text{Gauge}_\text{Decayed Origin Aura} = (0.8 \times \text{Gauge}_\text{Origin Element}) \times (1 - \frac{\text{Time Between Applications of Origin and Trigger Elements}}{2.5 \times \text{Gauge}_\text{Origin Element} + 7})
+</math>
+</div>
+
+Derivation of formula: this accounts for the aura tax (multiply by 0.8) and assumes linear decay of the initial aura for the time between Origin and Trigger application. <math>{2.5 \times \text{Gauge}_\text{Origin Element} + 7}</math> is the duration for attack-inflicted Origin Auras. Dividing the time between Origin and Trigger application by the duration gives the portion of the gauge depleted. The portion of the gauge remaining is 1 minus that (assuming a linear decay model).
+
+==Swirl Elemental Application==
+===Swirl Application Gauges===
+There is a special feature for the gauges of swirl attack:
+<math>\text{Gauges}_\text{Swirl Attack} = (\text{Gauges}_\text{Reaction} - 0.04) \times 1.25 + 1</math>
+<div style="overflow-x:auto;">
+<math>\text{Gauges}_\text{Reaction} =
+  \begin{cases}
+    \text{Gauges}_\text{Anemo} & \text{Gauges}_\text{Origin Aura} \ge 0.5 \times \text{Gauges}_\text{Anemo} \\
+    \text{Gauges}_\text{Origin Aura} & \text{Gauges}_\text{Origin Aura} < 0.5 \times \text{Gauges}_\text{Anemo}
+  \end{cases}</math>
+</div>
+*'''Origin Aura''' means the Pyro/Hydro/Electro/Cryo aura considering the gauge decay.
+
+As a regular elemental attack, Swirl-inflicted auras are affected by Aura Tax.
+
+<math>\text{Gauges}_\text{Swirl Aura} = 0.8 \times \text{Gauges}_\text{Swirl Attack}</math>
+
+===Swirl-Inflicted Aura Duration===
+As a regular elemental attack, the duration for Swirl-inflicted auras follows the regular aura duration formula:
+
+<math>\text{Duration (Seconds)}_\text{Swirl Aura} = 2.5 \times \text{Gauges}_\text{Swirl Attack} + 7 </math>
+
+==Frozen==
+The state created by the [[Frozen]] reaction is maintained by the '''Freeze Aura'''.
+
+The Freeze Aura is a sibling aura to Cryo and Frozen, but it has certain special properties:
+#Freeze doesn't react with Hydro
+#An enemy with the Freeze Aura can be [[Shattered]] by [[Blunt Attack|Blunt]] or [[Geo]] attacks.
+
+Note that the Freeze Aura is not the same as the regular Cryo aura or the [[Cryo#Frozen|Frozen aura]] caused by elemental shields or innate auras, and can coexist with them. Certain reaction priorities will be followed if another element is applied. See [[Elemental Gauge Theory/Simultaneous Reaction Priority]] for more details.
+
+===Freeze Aura Gauges===
+<math>\text{Gauge}_\text{Freeze Aura} = 2 \times \text{Gauge}_\text{Reaction}</math>
+
+<div style="overflow-x:auto;">
+<math>\text{Gauge}_\text{Reaction} =
+\min(\text{Gauge}_\text{Origin Aura}, \text{Gauge}_\text{Trigger Element})
+</math>
+</div>
+* '''Origin Aura''' means the Hydro or Cryo aura initially applied to the target. It considers the gauge decay.
+
+===Freeze Aura Duration===
+<div style="overflow-x:auto;">
+:<math>\text{Freeze Duration (Seconds)} = 2\sqrt{5\times \text{Gauge}_\text{Freeze Aura} \times (1 - \text{Freeze Resistance}_\text{Target}) + 4} - 4</math>
+</div>
+
+====Freeze Resistance====
+'''Freeze Resistance''' reduces the Freeze Aura's duration. Currently, the following enemies have Freeze Resistance:
+* {{Enemy|Abyss Herald: Wicked Torrents}} (While Shielded): '''80%'''
+* {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon}} (Revival Phase): '''40%'''
+* {{Enemy|Canine Bunshin}}: '''80%'''
+* {{Enemy|Consecrated Beast}}: '''50%'''
+* Most Land [[Local Legend]]s: '''90%'''
+
+===Blunt Attack Poise DMG Cost===
+When a target with the Freeze Aura is hit by a [[Blunt Attack]], it will reduce the Freeze Aura's gauge based on a convesion ratio of '''0.006U Per [[Poise DMG]]'''. For example, the hold version of [[Razor]]'s [[Claw and Thunder|Elemental Skill]], which deals 300 Poise DMG, will consume '''1.8U''' from the Freeze Aura.
+
+After this consumption has been applied, if there is still leftover Freeze Aura, Shatter will trigger.
+
+===Shatter===
+When a target with the Freeze Aura is hit by a [[Blunt Attack|Blunt]] or {{Geo}} attack, Shatter will be triggered.
+
+Note that the shatter check occurs ''after'' the Poise DMG Cost has been applied. If the Freeze Aura is fully depleted through Poise DMG Cost, Shatter will ''not'' trigger.
+
+When Shatter occurs, the gauge of Freeze Aura will decrease by 8. When the Freeze Aura gauge hits 0, the target will no longer be frozen.
+<div style="overflow-x:auto;">
+<math>\text{Gauge}_\text{Freeze Aura} =
+(\text{Initial Gauge}_\text{Freeze Aura} - 8)_+
+</math>
+</div>
+
+* The + denotes the positive part of the expression (it is 0 if the expression is non-positive).
+* '''Initial Gauge''' considers the gauge decay.
+
+==Quicken==
+The '''Quicken''' Aura is applied by triggering the [[Quicken]] reaction that decays over time. The Quicken Aura can react with and be consumed by {{Pyro}} and {{Hydro}}.
+
+Applying Electro or Dendro on a Quicken Aura will trigger [[Aggravate]] or [[Spread]] which add Additive Base DMG Bonus to the attacks that trigger them. However, this does ''not'' consume the Quicken Aura.
+
+The Quicken Aura can coexist with Electro and Dendro auras. Certain reaction priorities will be followed if another element is applied. See [[Elemental Gauge Theory/Simultaneous Reaction Priority]] for more details.
+
+===Quicken Aura Gauges===
+<math>\text{Gauge}_\text{Quicken Aura} = \min(\text{Gauge}_\text{Origin Aura}, \text{Gauge}_\text{Trigger Element})</math>
+
+===Quicken Aura Duration===
+<math>\text{Duration (Seconds)}_\text{Quicken Aura} = \text{Gauge}_\text{Quicken Aura} \times 5 + 6</math>
+
+If Quicken is triggered again on a target with an existing Quicken aura:
+* If the resulting Quicken Aura has a higher gauge than the remaining Quicken Aura, the resulting Quicken Aura will replace the existing one, and the duration and decay rate will be recalculated based on the new Quicken gauge.
+* If the resulting Quicken Aura has a lower gauge than the remaining Quicken Aura, the existing aura will not change.
+
+==Electro-Charged==
+Shock is a state created by [[Electro-Charged]]. Shock is maintained by Electro Aura and Hydro Aura. Once one of auras is depleted, the shock state will '''not''' exist.
+
+During the Shock state, Electro and Hydro will coexist and decay at their regular rates. Certain reaction priorities will be followed if a third element is applied. See [[Elemental Gauge Theory/Simultaneous Reaction Priority]] for more details.
+
+===Special Decay===
+Besides the normal decaying, there is a special decaying for both auras in Shock State. Both auras will lose '''0.4U''' gauges '''per tick''' of DoT.
+
+==Burning==
+The [[Burning]] reaction produces a '''2U''' Burning Aura (unaffected by Aura Tax) regardless of the gauges of Pyro/Dendro used to trigger it, which can react with and be consumed by Hydro/Electro/Anemo/Geo. The Burning Aura does ''not'' decay.
+
+While Burning, all three auras will coexist. The Burning state appears to require both the Burning Aura and the Dendro Aura to maintain, and will end if either is depleted. If the Dendro Aura is depleted, the Burning Aura will be automatically removed. Note that the Pyro Aura is ''not'' required for maintaining Burning: Depleting the Underlying Pyro Aura without depleting the Burning Aura will not extinguish the Burning state, and it is possible to extinguish the Burning state without removing the Pyro Aura.
+
+Burning DMG also applies 1U of Pyro. This application follows an [[Internal Cooldown]] of 2 seconds.
+
+===Burning Refresh===
+While a target is already in the Burning state, if Dendro or Pyro is applied again:
+* The Burning Aura will ''not'' be altered.
+* Burning DMG from this point on will be calculated based on the stats of the character responsible for the latest instance of Dendro or Pyro application.
+* If Dendro is reapplied, the new Dendro gauge will overwrite the existing aura, even if the existing aura has a higher gauge.
+
+===Special Decay===
+While Burning, the Pyro aura will decay at its regular rate, while the Dendro Aura will be consumed at a special rate and will not use natural decay.
+
+The special Dendro consumption rate (gauge units/second) is:
+:<math>
+\text{Dendro Consumption} = \max(0.4, \text{Natural Decay Rate}_\text{Dendro Aura} \times 2)
+</math>
+
+==Self Aura==
+Self Auras or Elemental Effect Auras refer to elements applied to a target ''without'' an elemental attack. These include the Pyro Aura from Bennett's Burst, the Hydro Aura from [[water]], the Cryo Aura from [[Condensed Ice]], etc. [[Shield|Elemental Shields]] used by enemies are also a form of Self Aura.
+
+These auras have some different features from the auras of elemental attacks:
+# Their decay rates are fixed and are not determined by gauges.
+# Some self auras may not decay at all, like the auras from most Elemental Shields and [[Elemental Nodes]].
+# There is '''no''' Aura Tax on them.
+
+Moreover:
+* When a self aura application triggers a reaction, if it has a higher gauge unit value than the existing aura, excess gauges will not be lost, and the aura will transition directly to the self aura.
+* Self Auras can serve as sources for [[Elemental Absorption]].
+
+Below is a non-exhaustive list of Self Auras:
+{| class="wikitable"
+|-
+! Source
+! Element
+! Gauge Units
+! Duration (Seconds)
+|-
+| {{Talent|Dandelion Breeze|20|nobr=1}}
+| {{Color|Anemo}}
+| 1
+| 0.2
+|-
+| {{Talent|Meow-teor Kick|20|nobr=1}}
+| {{Color|Dendro}}
+| 1
+| 0.1
+|-
+| {{Enemy|Dendro Samachurl|20}} Dendro Field
+| {{Color|Dendro}}
+| 1.6
+| 8
+|-
+| {{Enemy|Large Dendro Slime|20}} Toxic Seeds
+| {{Color|Dendro}}
+| 4
+| 5
+|-
+| [[Electro Seelie]]
+| {{Color|Electro}}
+| 4
+| 10
+|-
+| [[Thunder Sphere]]
+| {{Color|Electro}}
+| 2.4
+| 10
+|-
+| [[Thunderwood]]<ref group="Note">Applies a status lasting 10 seconds that applies Electro every second.</ref>
+| {{Color|Electro}}
+| 1
+| 2
+|-
+| {{Enemy|Azhdaha|20}} Electro Mark
+| {{Color|Electro}}
+| 1
+| ∞<ref group="Note" name="debuffmark">GU does not decay, but is forcibly removed when the mark's duration ends.</ref>
+|-
+| {{Enemy|Childe|20}} Electro Riptide Mark
+| {{Color|Electro}}
+| 2
+| ∞<ref group="Note" name="debuffmark" />
+|-
+| {{Talent|Lightning Fang|20|nobr=1}}
+| {{Color|Electro}}
+| 1
+| 2.1
+|-
+| {{Talent|Tidecaller|20|nobr=1}}
+| {{Color|Electro}}
+| 1
+| 2
+|-
+| {{Enemy|Azhdaha|20}} Cryo Mark
+| {{Color|Cryo}}
+| 1
+| ∞<ref group="Note" name="debuffmark" />
+|-
+| {{Talent|Icy Paws|20|nobr=1}}
+| {{Color|Cryo|Frozen}}
+| 2
+| 0.1
+|-
+| {{Talent|Nights of Formal Focus|20|nobr=1}}
+| {{Color|Cryo|Frozen}}
+| 1
+| 0.1
+|-
+| {{Enemy|Azhdaha|20}} Pyro Mark
+| {{Color|Pyro}}
+| 1
+| ∞<ref group="Note" name="debuffmark" />
+|-
+| {{Enemy|Enter the Golden House|20}} Arena Barrier
+| {{Color|Pyro}}
+| 2
+| 0.5
+|-
+| {{Talent|Blazing Blessing|20|nobr=1}}
+| {{Color|Pyro}}
+| 1
+| 1
+|-
+| {{Talent|Fantastic Voyage|20|nobr=1}}
+| {{Color|Pyro}}
+| 1
+| 2.1
+|-
+| {{Talent|Sweeping Fervor|20|nobr=1}}
+| {{Color|Pyro}}
+| 1
+| 1
+|-
+| {{Talent|Suanni's Gilded Dance|20|nobr=1}}
+| {{Color|Pyro}}
+| 1
+| 0.2
+|-
+| [[Water]]
+| {{Color|Hydro}}
+| 0.4&ndash;2<ref group="Note">Increases by 0.4GU every 0.25s, maximum 2GU.</ref>
+| 8
+|-
+| [[Rain]]
+| {{Color|Hydro}}
+| 0&ndash;1.2<ref group="Note">Increases by 0.32GU every 0.5s, maximum 1.2GU; Aura will remain even if Hydro GU is fully consumed.</ref>
+| 15<ref group="Note">Forcibly removed when exiting rain.</ref>
+|-
+| [[Hydro Amber]]
+| {{Color|Hydro}}
+| 1
+| 3
+|-
+| {{Enemy|Azhdaha|20}} Hydro Mark
+| {{Color|Hydro}}
+| 1
+| ∞<ref group="Note" name="debuffmark" />
+|-
+| {{Enemy|Childe|20}} Hydro Riptide Mark
+| {{Color|Hydro}}
+| 1
+| ∞<ref group="Note" name="debuffmark" />
+|-
+| {{Enemy|Hydro Samachurl|20}} Soothing Rain
+| {{Color|Hydro}}
+| 2
+| 8
+|-
+| {{Enemy|Hydro Slime|20}} application to nearby targets when attacked
+| {{Color|Hydro}}
+| 1
+| 10
+|-
+| {{Enemy|Large Hydro Slime|20}} application to nearby targets when attacked
+| {{Color|Hydro}}
+| 2
+| 10
+|-
+| {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1}}
+| rowspan="2"| {{Color|Hydro}}
+| rowspan="2"|1
+| rowspan="2"|0.5
+|-
+| {{Talent|Guhua Sword: Raincutter|20|nobr=1}}
+|-
+| {{Talent|Kurage's Oath|20|nobr=1}}
+| {{Color|Hydro}}
+| 1
+| 0.2
+|-
+| {{Talent|Let the Show Begin♪|20|nobr=1}}
+| {{Color|Hydro}}
+| 1
+| 0.3
+|-
+| {{Character|Neuvillette|20|nobr=1}} idle animation
+| {{Color|Hydro}}
+| 1
+| 2.5<ref group="Note">If idle animation is not interrupted, reapplies once every 2s, up to 3 times.</ref>
+|}
+
+Note that [[Dori]]'s self Electro application is special and ''not'' a Self Aura. Instead, it is an elemental attack on the active character, which is affected by Aura Tax and uses standard decay.
+
+==Weapon Aura==
+{{Main|Elemental Infusion#Overriding Infusions}}
+Weapon Auras are applied to Swords, Claymores, and Polearms in the process of Elemental Infusions. They have similar properties to Self Auras.
+
+==Immutable Aura==
+Some enemies or objects can have an '''immutable aura'''. Immutable auras cannot be consumed by Elemental Reactions, but still have a set gauge unit value that will be taken into account when triggering Elemental Reactions.
+
+When an element is applied to a target with an immutable aura, if the applied element still has leftover gauge units after reacting with the immutable aura, the remaining gauge units can continue to react with a coexisting aura, while the immutable aura stays unaffected.
+
+For example, if {{Dendro}} coexists with a '''2U''' immutable {{Frozen}} aura on a [[Cryo Slime]], and '''4U''' of {{Electro}} is applied using [[Beidou]]'s [[Stormbreaker|Elemental Burst]], '''2U''' of the applied Electro will be consumed first to cause [[Superconduct]] with the immutable Frozen aura, and the remaining '''2U''' Electro will continue to react with the underlying Dendro aura to cause [[Quicken]]. However, the same will not occur on a [[Cryo Hypostasis]], as it has a higher '''4U''' immutable Frozen aura, which will fully consume the Electro applied and prevent further reactions with underlying Dendro.
+
+{| class="wikitable"
+|+ Immutable Aura Data
+! Source !! Element !! Gauge Units
+|-
+| [[Water]] Bodies || {{Hydro}} || 3.2
+|-
+| {{Talent|Planet Befall|20|nobr=1}} Petrification Geo Aura || {{Geo}} || 0.04
+|-
+| {{Enemy|Cryo Slime|20}} Innate Aura || {{Frozen}} || 2
+|-
+| {{Enemy|Hydro Slime|20}} Innate Aura || {{Hydro}} || 1
+|-
+| {{Enemy|Large Hydro Slime|20}} Innate Aura || {{Hydro}} || 2
+|-
+| {{Enemy|Geovishap|20}} Infused State Innate Aura || {{Frozen}}/{{Electro}}/{{Hydro}}/{{Pyro}} || 4
+|-
+| {{Enemy|Electro Hypostasis|20}} Exposed Core Innate Aura || {{Electro}} || 4
+|-
+| {{Enemy|Pyro Hypostasis|20}} Exposed Core Innate Aura || {{Pyro}} || 4
+|-
+| {{Enemy|Cryo Hypostasis|20}} Exposed Core Innate Aura || {{Frozen}} || 4
+|-
+| {{Enemy|Geo Hypostasis|20}} Exposed Core Innate Aura || {{Geo}} || 4
+|-
+| {{Enemy|Hydro Hypostasis|20}} Exposed Core Innate Aura || {{Hydro}} || 4
+|-
+| {{Enemy|Anemo Hypostasis|20}} Exposed Core Innate Aura || {{Anemo}} || 1
+|-
+| {{Enemy|Thunder Manifestation|20}} Innate Aura || {{Electro}} || 4
+|-
+| {{Enemy|Primal Construct|20}} Parts While Repairing || {{Dendro}} || 4
+|-
+| {{Enemy|Rhodeia of Loch|text=Oceanid|20}} Innate Aura || {{Hydro}} || 4
+|-
+| {{Enemy|Hydro Mimic|20}} Innate Aura || {{Hydro}} || 4
+|-
+| {{Enemy|Tainted Hydro Phantasm|20}} Innate Aura || {{Hydro}} || 4
+|-
+| {{Enemy|Hydro Tulpa|20}} Innate Aura || {{Hydro}} || 4
+|-
+| {{Enemy|Fluid Avatar of Lava|20}} Innate Aura || {{Pyro}} || 1
+|}
+
+==Reaction Coefficient Exceptions==
+When certain special states are activated, such as Fatui Skirmishers' elemental shields, Reaction Coefficients may change. This may also include reactions that do not involve the shield's element.
+
+The following tables list the special Reaction Coefficients under different special states. Reactions not listed either retain their normal Reaction Coefficients, or are impossible to trigger.
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div>
+{| class="article-table"
+|+ {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|text=Cryogunner}} Shielded State
+! Reaction Type !! Special Reaction Coefficient
+|-
+| Cryo [[Swirl]]<br>Cryo [[Crystallize]]<br>Electro [[Superconduct]]
+| style="text-align:center" | 0.1
+|-
+| Hydro Swirl<br>Hydro Crystallize<br>Hydro Bloom<br>Dendro Bloom<br>Pyro Vaporize
+| style="text-align:center" | 1
+|}
+</div><!--
+--><div>
+{| class="article-table"
+|+ {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|text=Electrohammer}} Shielded State
+! Reaction Type !! Special Reaction Coefficient
+|-
+| Electro [[Swirl]]<br>Electro [[Crystallize]]<br>Pyro [[Overloaded]]<br>Dendro [[Quicken]]
+| style="text-align:center" | 0.1
+|-
+| Cryo [[Superconduct]]
+| style="text-align:center" | 2
+|-
+| Hydro [[Bloom]]<br>Dendro Bloom
+| style="text-align:center" | 1
+|}
+</div><!--
+--><div>
+{| class="article-table"
+|+ {{Enemy|Fatui Skirmisher - Hydrogunner Legionnaire|text=Hydrogunner}} Shielded State
+! Reaction Type !! Special Reaction Coefficient
+|-
+| Hydro [[Swirl]]<br>Hydro [[Crystallize]]<br>Pyro [[Vaporize]]<br>Cryo [[Frozen]]<br>Dendro [[Bloom]]
+| style="text-align:center" | 0.05
+|-
+| Electro [[Swirl]]<br>Electro [[Crystallize]]<br>Pyro [[Melt]]
+| style="text-align:center" | 1
+|}</div><!--
+--><div>
+{| class="article-table"
+|+ {{Enemy|Fatui Skirmisher - Pyroslinger Bracer|text=Pyroslinger}} Shielded State
+! Reaction Type !! Special Reaction Coefficient
+|-
+| Pyro [[Swirl]]<br>Pyro [[Crystallize]]<br>Electro [[Overloaded]]<br>Cryo [[Melt]]
+| style="text-align:center" | 0.1
+|}
+</div></div>
+
+For example, if '''1.6U''' of {{Hydro}} is applied onto a Cryogunner Legionnaire's shield to coexist with the {{Frozen}} element, then '''1U''' of {{Dendro}} is applied, the Dendro application will not be able to fully clear the Hydro aura, as the reaction coefficient for Dendro Bloom under the effect of the Cryogunner's shield is '''1''', instead of the usual '''2'''.
+
+==Notes==
+{{Reflist|note=1}}
+<!--
+==References==
+{{Reflist}}
+-->
+[[Category:Elemental Gauge Theory]]
+
+[[vi:Thuyết Định Lượng Nguyên Tố/Cơ Chế Nâng Cao]]

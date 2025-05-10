@@ -1,0 +1,221 @@
+{{Enemy Infobox
+|title     = Visitor from the Far Side of the Sea of Stars
+|dmgtype   = Electro
+|dmgtype2  = Hydro
+|dmgtype3  = Pyro
+|image     = <gallery>
+Enemy All-Devouring Narwhal.png|Archive
+Enemy All-Devouring Narwhal Full Artwork.png|Full Art
+</gallery>
+|location  = [[Shadow of Another World]]
+|ability1  = Fury
+|ability2  = Vacuum Field
+|ability3  = Energy Generation
+|ability4  = Teleport
+|type      = Weekly Bosses
+|family    = Enemies of Note
+|drops     = Lightless Silk String,Lightless Eye of the Maelstrom,Lightless Mass
+|weakpoint = no 
+}}
+{{Enemy Intro}}
+
+==Rules==
+{{Transclude|Shadow of Another World|Rules}}
+
+==Ley Line Disorder==
+{{Transclude|Shadow of Another World|Ley Line Disorder}}
+
+==Rewards==
+{{Transclude|Shadow of Another World|Rewards}}
+
+==Stats==
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div style="width:min-content;">
+===All-Devouring Narwhal===
+{{Enemy Stats
+|hydro_res    = 70%
+
+|hp_ratio     = 40
+|hp_type      = 2
+|atk_ratio    = 10
+|atk_type     = 2
+}}
+</div><!--
+--><div style="width:min-content;">
+===Dark Shadow===
+{{Enemy Stats
+|electro_res    = 70%
+
+|hp_ratio     = 24
+|hp_type      = 2
+|atk_ratio    = 8
+|atk_type     = 2
+}}
+</div></div>
+
+==Abilities==
+''Most ability names are unofficial.''
+
+===All-Devouring Narwhal===
+{{Enemy Attacks
+|name_1      = Leap
+|desc_1      = Leaps out of the ground and slams down towards the player, dealing '''100% ATK''' as {{Color|Hydro DMG}}. Cracks form on the ground around the impact area, transforming into a splash after a delay, dealing '''50% ATK''' as {{Color|Hydro DMG}}. It may continue to swim forward then dive back into the ground, dealing '''100% ATK''' as {{Color|Hydro DMG}} and causing another wave of cracks to form and explode.
+|caption_1   = Short Version
+|file_1_2    = All-Devouring Narwhal Leap 2
+|caption_1_2 = Long Version
+
+|name_2      = Penetrate
+|desc_2      = Cracks form on the ground below the player. The narwhal then penetrates through the ground, dealing '''100% ATK''' as {{Color|Hydro DMG}}. Several splashes then occur around the impacted area, each dealing '''50% ATK''' as {{Color|Hydro DMG}}.
+
+|name_3      = Dive
+|desc_3      = Dives down from above, dealing '''100% ATK''' as {{Color|Hydro DMG}}. Several splashes then occur around the impacted area, each dealing '''50% ATK''' as {{Color|Hydro DMG}}.
+
+|name_4      = Starfall Shower
+|desc_4      = Summons crystals to rain down from the sky across the arena, each dealing '''30% ATK''' as {{Color|Hydro DMG}}.
+|file_4      = All-Devouring Narwhal Crystal Rain
+
+|name_5      = Astral Downpour
+|desc_5      = Summons many beams of light to fall from the sky, each dealing '''50% ATK''' as {{Color|Hydro DMG}} on appearance and '''12.5% ATK''' as {{Color|Hydro DoT}} to characters standing in them. Repeated instances of the on-appearance DMG may be reduced down to '''25% ATK''' due to the [[Damage Sequence]].
+
+|name_6      = Eye of Maelstrom
+|desc_6      = Summons an Eye of Maelstrom at the center of the arena. The eye will charge as it slowly pulls nearby players in, eventually exploding, dealing '''50% ATK''' as {{Color|Hydro DMG}}. The eye will be destroyed if hit 8 times by regular attacks or hit once by an [[Arkhe]]-aligned attack.
+
+|name_7      = Ravaging Devourer
+|desc_7      = The narwhal starts the fight with an empty [[Fury]] bar:
+* For the first 80 seconds of the fight, it accumulates 1 point of Fury per second.
+* After 80 seconds, it will accumulate 2 points of Fury per second.
+* Each time it takes DMG, it will accumulate 1 point of Fury for every 1% Max HP lost.
+* When the '''Eye of Maelstrom''' is destroyed, it accumulates 30 points of Fury.
+* After the narwhal accumulates '''120''' points of Fury, it will devour the player, causing them to enter its belly and engage in battle with the Dark Shadow.
+** Defeating the Dark Shadow will cause the narwhal to lose '''20%''' of its Max HP and paralyze it. All party members will also gain maximum [[Energy]].
+** If the player is devoured multiple times, the Dark Shadow will start with half HP from the second time onward.
+** Once the narwhal's HP drops below '''20%''' of its Max HP, it will no longer devour the player.
+|file_7      = All-Devouring Narwhal Devour
+|file_7_2    = All-Devouring Narwhal Paralyzed
+|caption_7_2 = Paralyzed
+}}
+
+===Dark Shadow===
+The Dark Shadow's health bar is the white bar underneath the narwhal's own health bar.
+
+{{Enemy Attacks
+|name_1      = Greatsword Strike
+|desc_1      = The Dark Shadow can perform 4 different attacks with its greatsword. All greatsword attacks can be chained consecutively in various sequences.
+* '''Variant 1:''' Performs a clockwise sweep, dealing '''100% ATK''' as {{Color|Electro DMG}} and leaving behind a crack in space, which explodes after a delay, dealing '''50% ATK''' as {{Color|Electro DMG}}.
+* '''Variant 2:''' Performs a counterclockwise sweep, dealing '''80% ATK''' as {{Color|Electro DMG}} and leaving behind a crack in space, which explodes after a delay, dealing '''50% ATK''' as {{Color|Electro DMG}}.
+* '''Variant 3:''' Performs a downward cleave, dealing '''90% ATK''' as {{Color|Electro DMG}}, then pulls it from the ground, dealing '''50% ATK''' as {{Color|Electro DMG}}.
+* '''Variant 4:''' Throws a rapidly spinning greatsword forward, dealing '''100% ATK''' as {{Color|Electro DMG}} to players in its path.
+|caption_1   = A combo consisting of all 4 greatsword attacks
+
+|name_2      = Eye of Maelstrom
+|desc_2      = Charges an attack using Pneumousia energy. If hit by an [[Arkhe]]-aligned attack while charging, the attack will be interrupted and the Dark Shadow will lose '''25%''' of its Max HP. If the attack finishes charging uninterrupted, one of three possible attacks will be unleashed:
+* Summons 2 [[Geovishap]]s that consecutively leap and slam down at the player, each dealing '''100% ATK''' as {{Color|Pyro DMG}}.
+* Summons 4 [[Consecrated Fanged Beast]]s at the corners of the arena. The beasts will roll towards the player, dealing '''50% ATK''' as {{Color|Electro DMG}} on hit.
+* Summons 4 [[Hat Jellyfish]] at the corners of the arena. Each jellyfish will fire a bubble at the player, dealing '''50% ATK''' as {{Color|Hydro DMG}} on hit.
+After the summons finish their attack, the Dark Shadow will reappear at the player's location follow up with another greatsword sweep, dealing '''100% ATK''' as {{Color|Electro DMG}}.
+|file_2      = All-Devouring Narwhal Eye of Maelstrom Charging
+|caption_2   = Charging
+|file_2_2    = All-Devouring Narwhal Eye of Maelstrom Geovishap
+|caption_2_2 = Geovishap
+|file_2_3    = All-Devouring Narwhal Eye of Maelstrom Consecrated Fanged Beast
+|caption_2_3 = Consecrated Fanged Beast
+|file_2_4    = All-Devouring Narwhal Eye of Maelstrom Hat Jellyfish
+|caption_2_4 = Hat Jellyfish
+|file_2_5    = All-Devouring Narwhal Eye of Abyssal Maelstrom Finisher
+|caption_2_5 = Finisher
+|file_2_6    = All-Devouring Narwhal Eye of Maelstrom Interrupted
+|caption_2_6 = Interrupted
+
+|name_3      = Falling Thunder
+|desc_3      = Waves of lightning strikes will periodically land around the arena, dealing '''50% ATK''' as {{Color|Electro DMG}}.
+}}
+
+==Achievements==
+{{Achievement Topic Table|topic=All-Devouring Narwhal}}
+
+==Descriptions==
+{{Description|A mysterious and gargantuan creature from another world.|[[Archive]], before {{Quest|Finale}}}}
+{{Description|A mysterious and gargantuan creature from another world.<br>Poets often liken the starry sky to the ocean. They've seen or dreamt of countless bioluminescent plankton floating on a moonless sea, resembling a galaxy, or the moonlight ripped apart by waves on the sea's surface, like shimmering stars. In the most fantastical stories or outrageous lies, the stars found in the depths of the cosmos might be teeming with life, much like [[Teyvat]], and the universe itself is akin to an ocean. Realistically speaking, however, if a profound universe full of life exists, why hasn't any of that life made contact with Teyvat?<br>Maybe the universe has been constantly trying to infiltrate Teyvat, or maybe a [[Heavenly Principles|higher power]] created [[False Sky|borders]] to protect this world.|Archive, after {{Quest|Finale}}}}
+
+==Lore==
+The All-Devouring Narwhal is a "whale" that does not belong to Teyvat,<ref name="apoc">{{Ref/Quest|Apocalypse}}</ref> and the pet of [[Skirk]]'s master, [[Surtalogi]].<ref name="opera">{{Ref/Quest|The Opera of Noirceur and Blancheur}}</ref> When [[Childe]] fell into the [[Abyss]] at the age of 14, he encountered the whale and "awakened" it. This encounter inspired him to incorporate the shape of a whale into his [[Childe#Abilities|combat moveset]].<ref>{{Ref/Quest|The City of Rains and Remembrance}}</ref> At an unknown point in time, the All-Devouring Narwhal came to Teyvat and started consuming energy from the [[Primordial Sea]], causing the sea levels around [[Fontaine]] to rise. Surtalogi may have intentionally brought it to Teyvat to feed on Primordial Seawater;<ref>{{Ref/Quest|The Opera of Noirceur and Blancheur|quote = '''Skirk:''' [...] It's a strange use of a planet's primordial waters just to raise an All-Devouring Narwhal.}}</ref> however, a more likely possibility is that it followed Childe back to Teyvat after being awakened by him.<ref>{{Ref/Quest|Finale|quote = '''Neuvillette:''' But, whether it be by sentiment or reason, that should not have been enough to consider him the root cause of the disaster. At most, he would have had tangential liability.}}</ref>
+
+Attracted to the "blood" of Fontainians, the whale broke into the [[Opera Epiclese]] during [[Furina]]'s trial, but was fended off by Childe in his [[Foul Legacy Transformation]], who had been fighting it for a long time &mdash; ever since he entered the Primordial Sea upon his escape from the [[Fortress of Meropide]].<ref name="apoc"/> It is implied that the [[Oratrice Mecanique d'Analyse Cardinale|Oratrice]] falsely sentenced Childe<ref>{{Ref/Quest|When All Return to the Waters}}</ref> because [[Focalors]] knew he would escape Meropide and delay the whale.<ref>{{Ref/Quest|Finale|quote = '''Neuvillette:''' Whether it was due to that liability by association, or Focalors deliberately using him to buy time for us on the assumption that he would be able to hold the creature off... I cannot say.}}</ref> [[Neuvillette]] and the [[Traveler]] followed the whale back into the Primordial Sea and managed to defeat it, though its prior consumption of energy, plus the power it expended during the battle, caused an upheaval on the surface and triggered the [[Prophecy of Fontaine|prophesied flooding of Fontaine]]. Skirk arrived shortly after its defeat, compressing it into a small orb before throwing it into another rift. She revealed that she had intended to deal with it herself until it began fighting her disciple.<ref name="opera"/>
+
+According to Skirk, the All-Devouring Narwhal is uncooperative, eats too much, and overall fails as a pet.<ref name="opera"/>
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=combat}}
+
+==Gallery==
+<gallery>
+All-Devouring Narwhal Icon.png|Icon
+Namecard Background Achievement Whalewrangler.png|[[Achievement: Whalewrangler]]
+</gallery>
+
+===New Boss: All-Devouring Narwhal===
+<gallery>
+New Boss All-Devouring Narwhal 0.png|[https://genshin.hoyoverse.com/en/news/detail/113556 New Boss: All-Devouring Narwhal]
+New Boss All-Devouring Narwhal 1.gif|Unlock Criteria and [[Character Level-Up Material]]s
+New Boss All-Devouring Narwhal 2.gif|Hostility
+New Boss All-Devouring Narwhal 3.gif|Dark Shadow
+New Boss All-Devouring Narwhal 4.gif|Weakened State
+All-Devouring Narwhal Wallpaper.png|Wallpaper
+</gallery>
+
+==Trivia==
+*The All-Devouring Narwhal is the first [[Weekly Boss]] to have a Weak Point. While the Narwhal itself does not have one, the Dark Shadow inside it does.
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/2irK5uOQ6hY
+|caption2 = How to EASILY Beat All-Devouring Narwhal in Genshin Impact - Free to Play Friendly!
+}}
+
+==Other Languages==
+{{Other Languages
+|en      = All-Devouring Narwhal
+|zhs     = 吞星之鲸
+|zhs_rm  = Tūnxīng zhī Jīng
+|zht     = 吞星之鯨
+|zht_rm  = Tūnxīng zhī Jīng
+|zh_tl   = Star-Swallowing Whale
+|ja      = 呑星の鯨
+|ja_rm   = Donsei no Kujira<ref>YouTube: [https://youtu.be/e0mDLJjCfII Ver.4.2{{ja|「罪人の円舞曲」予告番組}}]</ref>
+|ja_tl   = Star-Swallowing Whale
+|ko      = 별을 삼킨 고래
+|ko_tl   = Whale that Swallowed a Star
+|es      = Narval Devoraestrellas
+|es_tl   = Star-Devouring Narwhal
+|fr      = Narval stellavore
+|fr_tl   = Stellavorous Narwhal
+|fr_note = {{Fr|Stellavore}} is a coined adjective made of {{Fr|stella-|star}} and {{Fr|-vore|{{wt|-vorous}}.}}
+|ru      = Всепожирающий нарвал
+|ru_tl   = All-Devouring Narwhal
+|th      = All-Devouring Narwhal
+|vi      = Thôn Tinh Kình Ngư
+|vi_tl   = Star-Swallowing Whale
+|de      = Sternenverschlingender Narwal
+|de_tl   = Stars-Devouring Narwhal
+|id      = All-Devouring Narwhal
+|pt      = Baleia Devoradora
+|pt_tl   = Devouring Whale
+|tr      = Yıldız Yutan Narval
+|tr_tl   = Star-Swallowing Narwhal
+|it      = Narvalo Divoramondi
+|it_tl   = Worldseater Narwhal
+}}
+
+==Change History==
+{{Change History|4.2}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Enemy Navbox|Bosses}}
+
+[[es:Narval Devoraestrellas]]
+[[fr:Narval stellavore]]
+[[ja:呑星の鯨]]
+[[pt-br:Baleia Devoradora]]
+[[zh:吞星之鯨]]

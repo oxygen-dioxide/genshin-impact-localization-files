@@ -6,13 +6,13 @@
 |family   = Fatui
 |group    = Fatui Cicin Mages
 |faction  = Fatui
-|location = [[Dragonspine]]<br />[[Inazuma]]
+|location = [[Dragonspine]]<br>[[Inazuma]]
 |ability1 = Shield
 |ability2 = Interruption Resistance
 |ability3 = Summoning
 |ability4 = Teleport
 |voiceCN  = [https://zh.moegirl.org.cn/诺亚(配音演员) Nuoya ({{zh|诺亚}})]<ref name="Nuoya">Bilibili: [https://www.bilibili.com/video/BV18Z4y1V7rB Version 1.1 Chinese Special Program] (Timestamp: 10m)</ref>
-|voiceJP  = [http://amuleto.jp/talents/aotohiroka.html Aoto Hiroka ({{ja|青戸浩香}})]<ref>Twitter: [https://twitter.com/aotohirohiro/status/1344270633555746825 JP VA Self Announcement]</ref>
+|voiceJP  = [http://amuleto.jp/talents/aotohiroka.html Aoto Hiroka ({{ja|青戸浩香}})]<ref name="Aoto Hiroka">Twitter: [https://twitter.com/aotohirohiro/status/1344270633555746825 JP VA Self Announcement]</ref>
 }}
 {{Enemy Intro}}
 
@@ -39,34 +39,39 @@
 |atk_ratio    = 4
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
-|enemy = Cryo Cicin Mage
+|enemy       = Cryo Cicin Mage
 
-|name_1 = Summon Cryo Cicin
-|desc_1 = Summons three [[Cryo Cicin]]s. Summoned Cicins will despawn when the Cryo Cicin Mage is defeated. The mage will only use this ability when no Cicins are summoned. While summoning Cicins, the mage's [[Interruption Resistance]] is greatly increased.
-|file_1 = Cryo Cicin Mage Summon Cicins
+|name_1      = Misty Summons
+|desc_1      = Summons three [[Cryo Cicin]]s. Summoned Cicins will despawn when the Cryo Cicin Mage is defeated. The mage will only use this ability when no Cicins are summoned. While summoning Cicins, the mage's [[Interruption Resistance]] is greatly increased.
+|file_1      = Cryo Cicin Mage Summon Cicins
 
-|name_2 = Cicin Encirclement
-|desc_2 = Commands summoned Cicins to quickly surround the target and simultaneously release a burst, dealing '''100% Cicin's ATK''' as {{Color|[[AoE]] Cryo DMG}} after a brief delay. After the attack, the Cicins become immobilized briefly.
+|name_2      = Cicin Pyramid
+|desc_2      = Commands summoned Cicins to quickly surround the target and simultaneously release a burst, dealing '''100% Cicin's ATK''' as {{Color|[[AoE]] Cryo DMG}} after a brief delay. After the attack, the Cicins become immobilized briefly.
+|file_2      = Cryo Cicin Mage Cicin Encirclement
 
-|name_3 = Cicin Disruption
-|desc_3 = Teleports summoned Cicins somewhere around the target, then commands them to sequentially charge to the target and release a burst, dealing '''100% Cicin's ATK''' as {{Color|AoE Cryo DMG}} after a brief delay. While charging, Cicins deal {{Color|Cryo DMG}} on contact.
+|name_3      = Cicin Icicle
+|desc_3      = Teleports summoned Cicins somewhere around the target, then commands them to sequentially charge to the target and release a burst, dealing '''100% Cicin's ATK''' as {{Color|Cryo DMG}} after a brief delay. While charging, Cicins deal {{Color|Cryo DMG}} on contact.
+|file_3      = Cryo Cicin Mage Cicin Disruption
 
-|name_4 = Decoy
-|desc_4 = Swaps positions with summoned Cicin(s).
+|name_4      = Cicin Decoy
+|desc_4      = Swaps positions with summoned Cicin(s), causing them to release a burst afterwards, dealing '''100% Cicin's ATK''' as {{Color|Cryo DMG}}.
+|file_4      = Cryo Cicin Mage Decoy
 
-|name_5 = Frozen Shield
-|desc_5 = Conjures or completely replenishes a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[shield]] with energy from summoned Cryo Cicin(s). The shield is weakest to {{Pyro}} and can be damaged further with [[Poise Damage]]. The shield disappears when all Cryo Cicins are defeated. While generating a shield, the mage's Interruption Resistance is greatly increased.
+|name_5      = Flowing Cicin Shield
+|desc_5      = Conjures or completely replenishes a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[shield]] with energy from summoned Cryo Cicin(s). The shield is weakest to {{Pyro}} and can be damaged further with [[Poise Damage]]. The shield's durability is multiplied by the amount of summoned Cryo Cicins currently on the field, and disappears when all Cryo Cicins are defeated. While generating a shield, the mage's Interruption Resistance is greatly increased.
 * The energy projectile sent from Cicins does not deal DMG and will travel through obstacles.
 * The mage often uses this ability immediately after a Cicin Encirclement or Disruption attack.
 * If the final summoned Cicin is defeated immediately after sending energy to the mage, the mage will lose her {{Color|Cryo|Shield}} but immediately re-conjure it.
-|file_5 = Cryo Cicin Mage Cryo Shield
+{{Elemental Shield Data|Cryo|4|Cryo Cicin Shield (Base)}}
+|file_5      = Cryo Cicin Mage Cryo Shield
 
-|name_6 = Cryo Blast
-|desc_6 = Channels Cryo energy to disgorge ice shards from the ground, dealing '''75% ATK''' as {{Color|AoE Cryo DMG}} to surrounding targets.
+|name_6      = Blizzard, Branch, Blossom
+|desc_6      = Channels Cryo energy to disgorge ice shards from the ground, dealing '''75% ATK''' as {{Color|Cryo DMG}} to surrounding targets.
 * Certain enhanced Fatui Cryo Cicin Mages, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, will create a blast that expands outwards in 4 directions.
+|file_6      = Cryo Cicin Mage Cryo Blast
 }}
 
 ===AI Logic===
@@ -81,23 +86,23 @@
 {| class="wikitable"
 ! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Initial CD (s) !! Shared CD (s) !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int.
 |-
-| rowspan="2" | No Cicins || Summon Cryo Cicin (Initial) || 0–999 || 1 || 999999–1000001.5 || &mdash; || &mdash; || rowspan="9" | 2 || {{check|yes}} || {{check|yes}}
+| rowspan="2" | No Cicins || Misty Summons (Initial) || 0–999 || 1 || 999999–1000001.5 || &mdash; || &mdash; || rowspan="9" | 2 || {{check|yes}} || {{check|yes}}
 |-
-| Summon Cryo Cicin (Subsequent) || 0–999 || 1 || 10 || 10 || &mdash; || {{check|yes}} || {{check|yes}}
+| Misty Summons (Subsequent) || 0–999 || 1 || 10 || 10 || &mdash; || {{check|yes}} || {{check|yes}}
 |-
-| rowspan="3" | Any || Cryo Blast (Normal) || 0–4 || 4 || 5–7 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
+| rowspan="3" | Any || Blizzard, Branch, Blossom (Normal) || 0–4 || 4 || 5–7 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Cryo Blast (Enhanced, Close) || 0–4 || 2 || 5–7 || &mdash; || rowspan="2" | 5 || {{check|yes}} || {{check|no}}
+| Blizzard, Branch, Blossom (Enhanced, Close) || 0–4 || 2 || 5–7 || &mdash; || rowspan="2" | 5 || {{check|yes}} || {{check|no}}
 |-
-| Cryo Blast (Enhanced, Far) || 4–6 || 3 || 5–7 || &mdash; || {{check|yes}} || {{check|no}}
+| Blizzard, Branch, Blossom (Enhanced, Far) || 4–6 || 3 || 5–7 || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| rowspan="4" | Has Cicins || Decoy || 0–4 || 3 || 7–12 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
+| rowspan="4" | Has Cicins || Cicin Decoy || 0–4 || 3 || 7–12 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Cicin Encirclement || 0–20 || 3 || 10–15 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
+| Cicin Pyramid || 0–20 || 3 || 10–15 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Cicin Disruption || 0–20 || 3 || 20–25 || 30 || &mdash; || {{check|yes}} || {{check|no}}
+| Cicin Icicle || 0–20 || 3 || 20–25 || 30 || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| Frozen Shield || 0–50 || 4 || 5 || 30 || &mdash; || {{check|no}} || {{check|yes}}
+| Flowing Cicin Shield || 0–50 || 4 || 5 || 30 || &mdash; || {{check|no}} || {{check|yes}}
 |}
 
 ==Strategy==
@@ -114,33 +119,41 @@ Fatui Cryo Cicin Mage Dragonspine Locations.png|Dragonspine
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Fatui Cryo Cicin Mage
-|vo_01_00_title          = Spotting The Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Frosty Huh.ogg
 |vo_01_01_tx_en          = Frosty, huh?
 |vo_01_01_tx_zh          = 冰冰凉凉的…
 |vo_01_01_rm_zh          = Bīngbīngliángliáng de...
 |vo_01_01_tx_ja          = 冷たーーい。
+|vo_01_01_rm_ja          = Tsumetaaai.
 |vo_01_01_tx_ko          = 얼음처럼 차가워
+|vo_01_01_rm_ko          = Eoreumcheoreom chagawo
 |vo_01_02_file           = VO {lang}{name} - Come To Play.ogg
 |vo_01_02_tx_en          = Come to play?
 |vo_01_02_tx_zh          = 你是来和我作伴的？
 |vo_01_02_rm_zh          = Nǐ shì lái hé wǒ zuòbàn de?
 |vo_01_02_tx_ja          = あたしと仲良くしたい？
+|vo_01_02_rm_ja          = Atashi to nakayoku shitai?
 |vo_01_02_tx_ko          = 나랑 같이 있어주는 거야?
+|vo_01_02_rm_ko          = Narang gati isseojuneun geoya?
 
-|vo_02_00_title          = Summoning Cicins
+|vo_02_00_title          = Misty Summons
 |vo_02_01_file           = VO {lang}{name} - One After Another.ogg
 |vo_02_01_tx_en          = One after another.
 |vo_02_01_tx_zh          = 一个接一个！
 |vo_02_01_rm_zh          = Yīgè jiē yīgè!
 |vo_02_01_tx_ja          = 次から次に。
+|vo_02_01_rm_ja          = Tsugi kara tsugi ni.
 |vo_02_01_tx_ko          = 하나, 그리고 둘…!
+|vo_02_01_rm_ko          = Hana, geurigo dul...!
 |vo_02_02_file           = VO {lang}{name} - Now My Pretties.ogg
 |vo_02_02_tx_en          = Now, my pretties!
 |vo_02_02_tx_zh          = 去吧，漂亮的小宝贝们！
 |vo_02_02_rm_zh          = Qù ba, piàoliang de xiǎobǎobèi men!
 |vo_02_02_tx_ja          = 行って、あたしのかわいこちゃんたち。
+|vo_02_02_rm_ja          = Itte, atashi no kawaikochan-tachi.
 |vo_02_02_tx_ko          = 예쁜이들, 가자!
+|vo_02_02_rm_ko          = Yeppeunideul, gaja!
 
 |vo_03_00_title          = Attacking
 |vo_03_01_file           = VO {lang}{name} - This Could Hurt.ogg
@@ -148,15 +161,19 @@ Fatui Cryo Cicin Mage Dragonspine Locations.png|Dragonspine
 |vo_03_01_tx_zh          = 也许…有点痛！
 |vo_03_01_rm_zh          = Yěxǔ... Yǒudiǎn tòng!
 |vo_03_01_tx_ja          = ちょっと…痛いかも。
+|vo_03_01_rm_ja          = Chotto... Itai ka mo.
 |vo_03_01_tx_ko          = 조금 아플 거야~
+|vo_03_01_rm_ko          = Jogeum apeul geoya~
 |vo_03_02_file           = VO {lang}{name} - Hup Ugh.ogg
 |vo_03_02_tx_en          = Hup-ugh!
 |vo_03_02_tx_zh          = 咻~ 啪！
 |vo_03_02_rm_zh          = Xiū~ Pā!
 |vo_03_02_tx_ja          = よーーい…と！
+|vo_03_02_rm_ja          = Yoooi... To!
 |vo_03_02_tx_ko          = 차앗!
+|vo_03_02_rm_ko          = Chaat!
 
-|vo_04_00_title          = Cryo Blast
+|vo_04_00_title          = Blizzard, Branch, Blossom
 |vo_04_01_file           = VO {lang}{name} - Hmm Not This Time.ogg
 |vo_04_01_tx_en          = Hmmm...? Not this time!
 |vo_04_01_tx_zh          = 啊~这次还不行！
@@ -164,12 +181,15 @@ Fatui Cryo Cicin Mage Dragonspine Locations.png|Dragonspine
 |vo_04_01_tx_ja          = ん～まだダメ。
 |vo_04_01_rm_ja          = N~ Mada dame.
 |vo_04_01_tx_ko          = 음~ 이번엔 안 돼!
+|vo_04_01_rm_ko          = Eum~ Ibeonen an dwae!
 |vo_04_02_file           = VO {lang}{name} - Come to See Me.ogg
 |vo_04_02_tx_en          = Come to see me?
 |vo_04_02_tx_zh          = 光顾着看我了吗？
 |vo_04_02_rm_zh          = Guānggùzhe kàn wǒle ma?
 |vo_04_02_tx_ja          = あたしに見とれてた？
+|vo_04_02_rm_ja          = Atashi ni mitoreteta?
 |vo_04_02_tx_ko          = 보고만 있을 거야?
+|vo_04_02_rm_ko          = Bogoman isseul geoya?
 
 |vo_05_00_title          = Activating Shield
 |vo_05_01_file           = VO {lang}{name} - Getting A Little Cold.ogg
@@ -177,13 +197,17 @@ Fatui Cryo Cicin Mage Dragonspine Locations.png|Dragonspine
 |vo_05_01_tx_zh          = 你能接受…这种温度吗？
 |vo_05_01_rm_zh          = Nǐ néng jiēshòu... Zhèzhǒng wēndù ma?
 |vo_05_01_tx_ja          = この温度…耐えられる?
+|vo_05_01_rm_ja          = Kono ondo... Taerareru?
 |vo_05_01_tx_ko          = 이 온도를 감당할 수 있겠어?
+|vo_05_01_rm_ko          = I ondoreul gamdanghal su itgess-eo?
 |vo_05_02_file           = VO {lang}{name} - Wanna Get A Little Closer.ogg
 |vo_05_02_tx_en          = Wanna get a little closer?
 |vo_05_02_tx_zh          = 想再靠近我一点吗？
 |vo_05_02_rm_zh          = Xiǎng zài kàojìn wǒ yīdiǎn ma?
 |vo_05_02_tx_ja          = あたしに近づきたい？
+|vo_05_02_rm_ja          = Atashi ni chikadzukitai?
 |vo_05_02_tx_ko          = 나랑 더 가까워지고 싶다고?
+|vo_05_02_rm_ko          = Narang deo gakkawojigo sipdago?
 |vo_05_03_file           = VO {lang}{name} - Ehehehehehe.ogg
 |vo_05_03_tx_en          = Ehehehehehe!
 |vo_05_03_tx_zh          = 呵呵呵呵…啊哈哈哈哈哈哈！
@@ -191,32 +215,46 @@ Fatui Cryo Cicin Mage Dragonspine Locations.png|Dragonspine
 |vo_05_03_tx_ja          = ッハハハ！
 |vo_05_03_rm_ja          = 'hahaha!
 |vo_05_03_tx_ko          = 에흐흐흣!
+|vo_05_03_rm_ko          = Eheuheuheut!
 
-|vo_06_00_title          = Defeated
-|vo_06_01_file           = VO {lang}{name} - Melting Away.ogg
-|vo_06_01_tx_en          = Melting away...
-|vo_06_01_tx_zh          = 孤独地…融化…
-|vo_06_01_rm_zh          = Gūdú de... Rónghuà...
-|vo_06_01_tx_ja          = 孤独に…溶けてく…
-|vo_06_01_tx_ko          = 외로이… 녹는구나…
-|vo_06_02_file           = VO {lang}{name} - Alone Again.ogg
-|vo_06_02_tx_en          = Alone... Again...
-|vo_06_02_tx_zh          = 又是…一个人…
-|vo_06_02_rm_zh          = Yòu shì... Yīgèrén...
-|vo_06_02_tx_ja          = また、一人…
-|vo_06_02_tx_ko          = 또 혼자…
+|vo_06_00_title          = Staggered
+|vo_06_01_tx_en          = {{A|VO Fatui Cryo Cicin Mage - Staggered 01.ogg}} {{A|VO Fatui Cryo Cicin Mage - Staggered 02.ogg}} {{A|VO Fatui Cryo Cicin Mage - Staggered 03.ogg}} {{A|VO Fatui Cryo Cicin Mage - Staggered 04.ogg}} {{A|VO Fatui Cryo Cicin Mage - Staggered 05.ogg}}
+
+|vo_07_00_title          = Knocked Down
+|vo_07_01_tx_en          = {{A|VO Fatui Cryo Cicin Mage - Knocked Back 01.ogg}} {{A|VO Fatui Cryo Cicin Mage - Knocked Back 02.ogg}} {{A|VO Fatui Cryo Cicin Mage - Knocked Back 03.ogg}} {{A|VO Fatui Cryo Cicin Mage - Knocked Back 04.ogg}} {{A|VO Fatui Cryo Cicin Mage - Knocked Back 05.ogg}}
+
+|vo_08_00_title          = Defeated
+|vo_08_01_file           = VO {lang}{name} - Melting Away.ogg
+|vo_08_01_tx_en          = Melting away...
+|vo_08_01_tx_zh          = 孤独地…融化…
+|vo_08_01_rm_zh          = Gūdú de... Rónghuà...
+|vo_08_01_tx_ja          = 孤独に…溶けてく…
+|vo_08_01_rm_ja          = Kodoku ni... Toketeku...
+|vo_08_01_tx_ko          = 외로이… 녹는구나…
+|vo_08_01_rm_ko          = Oeroi... Nongneun'guna...
+|vo_08_02_file           = VO {lang}{name} - Alone Again.ogg
+|vo_08_02_tx_en          = Alone... Again...
+|vo_08_02_tx_zh          = 又是…一个人…
+|vo_08_02_rm_zh          = Yòu shì... Yīgèrén...
+|vo_08_02_tx_ja          = また、一人…
+|vo_08_02_rm_ja          = Mata, hitori...
+|vo_08_02_tx_ko          = 또 혼자…
+|vo_08_02_rm_ko          = Tto honja...
 }}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Cryo Cicin Mage}}
 
 ==Descriptions==
-{{Description|A Fatui mage who can command Cryo Cicins in battle. Their origins and what they look like under that mask are both mysteries.<br />Reason dictates that those who lack Visions should not be able to control the elements as these mages do. However, in addition to using Mist Grass to control the Cryo Cicins, they also boldly wield the might of frost. Seeing them as they wander the land in their seemingly aimless way, one can't help but wonder about the duty that must compel them.|[[Archive]]}}
+{{Description|A Fatui mage who can command Cryo Cicins in battle. Their origins and what they look like under that mask are both mysteries.<br>Reason dictates that those who lack Visions should not be able to control the elements as these mages do. However, in addition to using Mist Grass to control the Cryo Cicins, they also boldly wield the might of frost. Seeing them as they wander the land in their seemingly aimless way, one can't help but wonder about the duty that must compel them.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
 Enemy Fatui Cryo Cicin Mage Icon.png|Icon
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Other Languages==
 {{Other Languages
@@ -226,7 +264,7 @@ Enemy Fatui Cryo Cicin Mage Icon.png|Icon
 |zht     = 愚人眾・冰螢術士
 |zht_rm  = Yúrénzhòng - Bīngyíng Shùshì
 |zh_tl   = Fatui - Cryo Cicin Mage
-|ja      = ファデュイ・{{Rubi|氷|ひょう|蛍|けい|術|じゅつ|師|し}}
+|ja      = ファデュイ・氷蛍術師
 |ja_rm   = Fadyui - Hyoukei Jutsushi
 |ja_tl   = Fatui - Cryo Cicin Mage
 |ko      = {{tt|우인단|愚人團}}・얼음 치친 {{tt|술사|術師}}
@@ -235,7 +273,7 @@ Enemy Fatui Cryo Cicin Mage Icon.png|Icon
 |es      = Soldado Fatui - Maga de Cicin Cryo
 |es_tl   = Fatui Soldier - Cryo Cicin Mage
 |fr      = Mage cryoluciole des Fatui
-|fr_tl   = Fatui Cryofirefly Mage
+|fr_tl   = Fatui Cryo {{Lex|Cicin|fr}} Mage
 |ru      = Фатуи: Маг Крио цицинов
 |ru_tl   = Fatui: Cryo Cicin Mage
 |th      = Fatui - Cryo Cicin Mage
@@ -247,9 +285,9 @@ Enemy Fatui Cryo Cicin Mage Icon.png|Icon
 |pt      = Fatui - Feiticeira Cicin Cryo
 |pt_tl   = Fatui - Cryo Cicin Sorceress
 |tr      = Fatui Buz Cicin Büyücüsü
-|tr_tl   = 
+|tr_tl   = Fatui Ice Cicin Mage
 |it      = Maga Cicin di Cryo dei Fatui
-|it_tl   = 
+|it_tl   = Fatui Cryo Cicin Mage
 }}
 
 ==Change History==
@@ -261,6 +299,8 @@ Enemy Fatui Cryo Cicin Mage Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
 
-[[es:Maga de Cicin Cryo]]
+[[es:Soldado Fatui - Maga de Cicin Cryo]]
+[[fr:Mage cryoluciole des Fatui]]
+[[ja:ファデュイ・氷蛍術師]]
 [[pt-br:Fatui - Feiticeira Cicin Cryo]]
 [[vi:Fatui - Thuật Sĩ Cicin Băng]]

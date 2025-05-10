@@ -5,79 +5,97 @@
 |invCategory  = Character Development Items
 |quality      = 5
 |description  = Once a medium for the storage and transfer of wisdom in ancient times. Now wisdom is found in ancient texts and in profound speech. Nevertheless, this Crown of Insight must still be able to impart some transcendent power and wisdom to its bearer.
-|source1      = [[Events]]
-|source2      = [[Offering Systems]]
+|source1      = [[Event]]s
+|source2      = [[Offering System]]s
+|source3      = [[Paimon's Bargains]]
 }}
-The '''Crown of Insight''' is a [[Character Talent Material]] used when leveling [[Combat Talent]]s from base Level 9 to 10. One Crown of Insight, in addition to the usual Character Talent Materials, is required to upgrade one Combat Talent from base Level 9 to 10. Additional talent levels from [[Constellation]]s or [[Utility Passive]]s do not affect the base level nor upgrade cost.
-
-Upgrading a [[Talent]] to base Level 10 is colloquially referred to as "crowning" a talent.
+'''Crown of Insight''' is a [[Character Talent Material]] used, along with other materials, to level a [[Combat Talent|Combat Talent']]s final upgrade from a base level of 9 to 10. Additional talent levels from [[Constellation]]s or [[Utility Passive]]s do not affect the base level nor upgrade cost.
 
 ==How to Obtain==
-Crown of Insight can be obtained through [[Offering System]]s or rewards from Limited Time [[Event]]s. A total of 32 Crowns of Insight have been obtainable since the launch of the game.
+Crowns of Insight can be obtained from [[Offering System]]s, purchased from [[Paimon's Bargains]], or rewarded from Limited Time [[Event]]s. Additionally, one is obtainable from the [[Imaginarium Theater#Debut Performance Rewards|debut performance rewards]] in the [[Imaginarium Theater]]. 
+
+A total of 72 Crowns of Insight have been obtainable since the launch of the game.
 
 ===Currently Obtainable===
-11 Crowns of Insight are permanently obtainable through Offerings:
-*1× from upgrading the [[Frostbearing Tree's Gratitude]] to Level 11.
-*5× from upgrading the [[Sacred Sakura's Favor|Sacred Sakura]] to Levels 5, 15, 25, 35 and 45.
-*1× from upgrading the [[Enhance the Lumenstone Adjuvant|Lumenstone Adjuvant]] to Level 4.
-*4× from upgrading the [[Vanarana's Favor|Tree of Dreams]] to Levels 5, 15, 25, and 35.
+1 Crown of Insight can be purchased each month from Paimon's Bargains for {{Item|Masterless Starglitter|20|x=50}}.
+
+1 Crown of Insight can be obtained by reaching Act 10 in the Imaginarium Theater for the first time.
+
+21 Crowns of Insight are permanently obtainable through Offerings:
+* 1&times; from upgrading the [[Frostbearing Tree's Gratitude]] to Level 11.
+* 5&times; from upgrading the [[Sacred Sakura's Favor|Sacred Sakura]] to Levels 5, 15, 25, 35, and 45.
+* 1&times; from upgrading the [[Enhance the Lumenstone Adjuvant|Lumenstone Adjuvant]] to Level 4.
+* 5&times; from upgrading the [[Vanarana's Favor|Tree of Dreams]] to Levels 5, 15, 25, 35, and 45.
+* 5&times; from upgrading the [[Fountain of Lucine's Accolades|Fountain of Lucine]] to Levels 5, 15, 25, 35, and 45.
+* 1&times; from upgrading the [[Rainjade's Benediction|Votive Rainjade]] to Level 3.
+* 4&times; from upgrading the [[Tona's Flame's Restitution|Tablet of Tona]] to Levels 5, 15, 25, and 35 (45 will be unlocked in a later update.)
 {{#vardefine:currentcrowns|{{#DPL:
-|category=Event Rewards Crown of Insight
-|notcategory=Upcoming Content
-|notcategory=Removed
-|oneresultheader=1 Crown of Insight is currently obtainable from Limited Time Events:\n
-|include={Change History}:1
-|format=,\n* 1× from [[%PAGE%|²{#titleparts:%PAGE%¦1}²]] in [[Version ,]]
+|category        = Event&Event Rewards Crown of Insight
+|notcategory     = Upcoming Content
+|notcategory     = Removed
+|include         = {Event}:name,{Event}:name,{Change History}:1
+|format          = ,,,
+|secseparators   = \n* 1&times; from [[%PAGE%|²{#if:,¦,,¦²{#titleparts:¦1}²}²]] in [[Version ,,]]
+|oneresultheader = 1 Crown of Insight is currently obtainable from a Limited Time Event:\n
+|resultsheader   = %PAGES% Crowns of Insight are currently obtainable from Limited Time Events:\n
+|ordermethod     = sortkey
 }}}}<!--
--->{{#var:currentcrowns|
-}}<!--
+-->{{#var:currentcrowns|}}<!--
 -->{{#if:{{#vardefineecho:upcomingcrowns|{{#DPL:
-|category=Event Rewards Crown of Insight
-|category=Upcoming Content
-|oneresultheader=%PAGES% Crown of Insight will be obtainable from upcoming sources:\n
-|resultsheader=%PAGES% Crowns of Insight will be obtainable from upcoming sources:\n
-|include={Change History}:1
-|format=,\n* 1× from the event [[%PAGE%|²{#titleparts:%PAGE%¦1}²]] in [[Version ,]]
-}}}}|
+|category        = Event&Event Rewards Crown of Insight&Upcoming Content
+|include         = {Event}:name,{Event}:name,{Change History}:1
+|format          = ,,,
+|secseparators   = \n* 1&times; from [[%PAGE%|²{#if:,¦,,¦²{#titleparts:¦1}²}²]] in [[Version ,,]]
+|oneresultheader = 1 Crown of Insight will be obtainable from a Limited Time Event:\n
+|resultsheader   = %PAGES% Crowns of Insight will be obtainable from Limited Time Events:\n
+|ordermethod     = sortkey
+}}}}|<nowiki />
 ===Upcoming===
 {{#var:upcomingcrowns}}
 }}
 ===Previously Obtainable===
+{{Time Ago|2024-08-01|last=month|hidelabel=1}} Crowns of Insight were obtainable from Paimon's Bargains, one each month, beginning from [[Version 5.0]] in August 2024.
+
 {{#DPL:
-|category=Event Rewards Crown of Insight&Removed
-|notcategory=Sub Events
-|include={Change History}:1,{Event}:name,{Event}:name
-|format=,\n*,,
-|secseparators=[[Version ,]]: [[%PAGE%|²{#if:,,¦,,¦%PAGE%}²]]
-|resultsheader=%PAGES% Crowns of Insight were obtainable from Limited Time Events, with 1× Crown of Insight available per event:\n
+|category      = Event&Event Rewards Crown of Insight&Removed
+|notcategory   = Sub Events
+|include       = {Change History}:1,{Event}:name,{Event}:name
+|format        = ,\n*,,
+|secseparators = [[Version ,]]: [[%PAGE%|²{#if:,,¦,,¦%PAGE%}²]]
+|resultsheader = %PAGES% Crowns of Insight were obtainable from Limited Time Events, with 1&times; Crown of Insight available per event:\n
+|ordermethod   = sortkey
 }}
 
 ==Usage==
 {{Main|Character Talent Material}}
-The Crown of Insight is only needed when leveling a talent from Level 9 to Level 10 (on top of the usual Character Talent Materials).
-{| class="wikitable" style="text-align:center;"
+The Crown of Insight is only needed when leveling a talent from Level 9 to Level 10 (in addition to the usual Character Talent Materials).
+{| class="wikitable align-center"
 ! colspan="7" |Talent Upgrade Costs
 |-
-| rowspan="2" |'''Talent<br />Level'''
-| rowspan="2" |'''Required<br />Ascension'''
-| rowspan="2" |'''{{Icon/Mora}}<br />[[Mora]]'''
-| rowspan="2" |'''[[Character and Weapon Enhancement Material|Enhancement<br />Materials]]'''
-| colspan="3" |'''[[Character Talent Material]]s'''
+! rowspan="2" |Talent<br>Level
+! rowspan="2" |Required<br>Ascension
+! rowspan="2" |{{Icon/Mora}}<br>[[Mora]]
+! rowspan="2" |[[Character and Weapon Enhancement Material|Enhancement<br>Materials]]
+! colspan="3" |[[Character Talent Material]]s
 |-
-|'''[[Talent Books]]'''
-| '''[[Weekly Boss Drop]]'''
-|'''{{Item|Crown of Insight|22}}'''
+![[Talent Books]]
+![[Weekly Boss Drop]]
+!{{Item|Crown of Insight|22}}
 |-
 |9 → 10
 |6✦
 |700,000
-|{{Icon/Stars|3}}×12
-|{{Icon/Stars|4}}×16
-|{{Icon/Stars|5}}×2
-|{{Icon/Stars|5}}×1
+|{{Icon/Stars|3}}&times;12
+|{{Icon/Stars|4}}&times;16
+|{{Icon/Stars|5}}&times;2
+|{{Icon/Stars|5}}&times;1
 |}
 For example, [[Xiangling]] would need the following to level a talent from Level 9 to Level 10:
-{{Card|Mora|700,000}}{{Card|Slime Concentrate|12}}{{Card|Philosophies of Diligence|16}}{{Card|Dvalin's Claw|2}}{{Card|Crown of Insight|1}}
+{{Card List|Mora*700000,Slime Concentrate*12,Philosophies of Diligence*16,Dvalin's Claw*2,Crown of Insight*1|show_caption=1}}
+
+==Trivia==
+* Upgrading a [[Talent]] to base Level 10 is colloquially referred to as "crowning" a talent.
+* The symbol on the front of the crown is a {{w|triquetra}}, a [[Symbols in Teyvat#Triquetra|recurring icon]] in ''Genshin Impact''.
 
 ==Other Languages==
 {{Other Languages
@@ -108,7 +126,7 @@ For example, [[Xiangling]] would need the following to level a talent from Level
 |pt      = Coroa da Sabedoria
 |pt_tl   = Crown of Wisdom
 |tr      = Bilgelik Tacı
-|tr_tl   = 
+|tr_tl   = Wisdom Crown
 |it      = Corona della saggezza
 |it_tl   = Crown of Wisdom
 }}
@@ -125,6 +143,7 @@ For example, [[Xiangling]] would need the following to level a talent from Level
 [[pt-br:Coroa da Sabedoria]]
 [[ru:Корона прозрения]]
 [[th:Crown of Insight]]
+[[tr:Bilgelik Tacı]]
 [[uk:Вінець мудрості]]
 [[vi:Vương Miện Trí Thức]]
 [[zh:智識之冕]]

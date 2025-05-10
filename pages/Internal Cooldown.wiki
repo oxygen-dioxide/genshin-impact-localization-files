@@ -2,12 +2,13 @@
 |tab1 = Overview
 |tab2 = Data
 }}
+{{About|the cooldown on elemental application|the talent cooldown|Cooldown}}
 {{Community}}
 {{Terminology Infobox
 |type = Elemental Gauge Theory
 |type2 = Game Systems
 }}
-'''Internal Cooldown''' (ICD) is a mechanism that regulates how often an ability can apply an element for elemental reactions or elemental auras on a target.
+'''Internal Cooldown''' ('''ICD''') is a mechanism that regulates how often an ability can apply an element for elemental reactions or elemental auras on a target.
 
 ==Overview==
 ICD is counted based on a timer and a hit counter.
@@ -23,8 +24,10 @@ Note that ICD is counted separately for each attacker and each target.
 For an in-depth explanation of the properties that handle ICD, see [[Internal Cooldown/Data]].
 
 {{Preview
-|file=Internal Cooldown Demonstration
-|caption=As per the 3-hit rule, the 1st, 4th, and 7th shots proc the Melt reaction (dealing 297, 1180, and 1485 damage respectively).
+|file    = Internal Cooldown Demonstration
+|size    = 250px
+|caption = As per the 3-hit rule, the 1st, 4th, and 7th shots proc the Melt reaction (dealing 297, 1180, and 1485 damage respectively).
+|class   = preview-right
 }}
 
 For example, in [[Yoimiya]]'s Normal Attack sequence, she will shoot 7 arrows over the course of around 2.5 seconds,<!--the 7th shot can occur after the 2.5 second timer, depending on attack speed--> and she can infuse her attacks with Pyro by casting her Elemental Skill. When she attacks a [[Cryo Hypostasis]], which has a permanent Cryo aura, because of the ICD, not every shot will trigger a [[Melt]] reaction: only the 1st, 4th, and 7th will trigger Melt, as per the 3-hit rule.
@@ -32,6 +35,7 @@ For example, in [[Yoimiya]]'s Normal Attack sequence, she will shoot 7 arrows ov
 Note that the 1st Melt shot will start the ICD 2.5 second timer. The 2nd and 3rd shots do not melt because they were made in less than 2.5 seconds since the 1st shot. Although the 4th shot was also within the 2.5 second window, it melts because of the 3 hit rule (it is the third hit made after the 1st shot).
 
 Moreover, ''after'' the 2.5 second timer expires, the next shot Yoimiya makes will Melt, regardless of where in the 3-hit attack sequence Yoimiya is, and start a new 2.5 second timer.
+{{Clr}}
 
 ==General Patterns==
 {{Main|Internal Cooldown/Data}}

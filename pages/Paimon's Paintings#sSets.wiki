@@ -1,0 +1,21 @@
+{{CustomTabs
+|tab1=Overview
+|tab2=Sets
+|tab3=Gallery
+}}
+
+==List of Sets==
+{{#dpl:
+|namespace     =
+|category      = Paimon's Paintings Sets
+|titlematch    = Paimon's Paintings/Set %
+|uses          = Template:Paimon's Paintings Infobox
+|include       = {Paimon's Paintings Infobox}:icon,{Paimon's Paintings Infobox}:set
+|resultsheader = There are %PAGES% Paimon's Paintings sets:
+|format        = ²{#tag:gallery¦\n,,,¦spacing=small¦bordersize=none¦widths=100}²
+|tablerow      = ²{#if:%%¦%%¦Item Unknown.png}²²{!}²link=%PAGE%²{!}²,²{#if:%%¦[[Paimon's Paintings/Set %%¦Set %%]]¦[[%PAGE%]]}²\n
+|ordermethod   = sortkey
+}}
+
+[[ja:パイモンの絵/Vol]]
+[[vi:Tranh Của Paimon/Bộ]]

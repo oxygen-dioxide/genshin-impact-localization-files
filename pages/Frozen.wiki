@@ -4,36 +4,85 @@
 |image        = Reaction Frozen.png
 |caption      = Elements that trigger the Frozen reaction (Hydro and Cryo)
 |type         = Elemental Reactions
-|type2        = Combat
-|type3        = Game Systems
 }}
 {{Elemental Reaction Intro|element1=Cryo|element2=Hydro}}
 
 ==Duration==
-{{Main|Elemental Gauge Theory/Advanced Aura Mechanics#Frozen}}
+{{Main|Elemental Gauge Theory/Advanced Mechanics#Frozen}}
 <div style="overflow-x:auto;">
 :<math>\begin{align}
-\text{Gauge}_\text{Freeze Aura} &= 2\min(\text{Gauge}_\text{Origin Aura}, \text{Gauge}_\text{Trigger Element}) \times (1 - \text{Freeze Resistance}_\text{Target})\\
-\text{Freeze Duration (Seconds)} &= 2\sqrt{5\times \text{Gauge}_\text{Freeze Aura} + 4} - 4
+\text{Gauge}_\text{Freeze Aura} &= 2\min(\text{Gauge}_\text{Origin Aura}, \text{Gauge}_\text{Trigger Element})\\
+\text{Freeze Duration (Seconds)} &= 2\sqrt{5\times \text{Gauge}_\text{Freeze Aura} \times (1 - \text{Freeze Resistance}_\text{Target}) + 4} - 4
 \end{align}</math>
 </div>
 
 ===Freeze Resistance===
-'''Freeze Resistance''' reduces the Freeze Aura gauge by a certain percentage. Currently, the following enemies have Freeze Resistance:
+'''Freeze Resistance''' reduces the Freeze Aura's duration. Currently, the following enemies have Freeze Resistance:
 * {{Enemy|Abyss Herald: Wicked Torrents}} (While Shielded): '''80%'''
 * {{Enemy|Hydro Hypostasis|text=Hydro Hypostasis Summon}} (Revival Phase): '''40%'''
 * {{Enemy|Canine Bunshin}}: '''80%'''
-* {{Enemy|Consecrated Flying Serpent}}: '''50%'''
-* {{Enemy|Consecrated Red Vulture}}: '''50%'''
-* {{Enemy|Consecrated Scorpion}}: '''50%'''
+* {{Enemy|Consecrated Beast}}: '''50%'''
+* Most Land [[Local Legend]]s: '''90%'''
 
 ==Shatter==
-{{main|Damage#Transformative Reaction Damage}}
+{{Main|Damage#Transformative Reaction Damage}}
+{{See Also|Elemental Gauge Theory/Advanced Mechanics#Frozen}}
 '''Shatter''' is triggered when a Frozen target is hit by a [[Blunt Attack|Blunt]] or {{Geo}} attack.
+
+Note that when a Blunt Attack triggers shatter, it will first consume the Freeze Aura based on the attack's [[Poise DMG]]. Shatter will only trigger if there is still leftover Freeze Aura after this consumption has occurred.
 
 Shattered occurs before any elemental damage, potentially preventing some reactions. However, an underlying element can still persist or be reapplied under the Freeze aura, allowing another reaction to occur after Shatter (ex. [[Let the Show Begin]] > [[Frostgnaw]] > [[Starfell Sword]] will remove the freeze through '''Shatter''' then [[Crystallize]] the [[Hydro]] effect underneath). See [[Elemental Gauge Theory/Simultaneous Reaction Priority]] for more information.
 
 {{Transformative Reaction Damage|Shatter}}
+
+==Immunity==
+Under some circumstances, targets may become immune to being frozen. On these targets, the Frozen reaction can still be triggered, but the Freeze Aura will not apply and they will not be immobilized.
+
+===Characters===
+{| class="wikitable"
+! Character !! Condition
+|-
+| All [[Character]]s || During [[Elemental Burst]] [[i-frames]]
+|-
+| {{Character|Fischl|20|nobr=1}} || During {{Talent|Midnight Phantasmagoria|20|type=1|nobr=1}}
+|-
+| {{Character|Mona|20|nobr=1}} || During {{Talent|Mirror Reflection of Doom|20|type=1|nobr=1}} hold i-frames
+|-
+| {{Character|Wanderer|20|nobr=1}} || During {{Talent|Hanega: Song of the Wind|20|type=1|nobr=1}} activation
+|-
+| {{Character|Chasca|20|nobr=1}} || During {{Talent|Spirit Reins, Shadow Hunt|20|text=Nightsoul's Blessing|nobr=1}}
+|}
+
+===Enemies===
+{| class="wikitable"
+! Enemy !! Condition
+|-
+| Most [[Boss]]es || Always
+|-
+| {{Enemy|Flow-Inverted Wayob Manifestation|text="Chimalli's Shade"|20}} || Shielded
+|-
+| {{Enemy|Abyss Herald: Frost Fall|20}} || Shielded
+|-
+| {{Enemy|Consecrated Beast|20}} || During Phagocytic Energy Block attack
+|-
+| {{Enemy|Cryo Abyss Mage|20}} || Always
+|-
+| {{Enemy|Cryo Slime|20}} || Always
+|-
+| {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|20}} || Shielded; During charged punch
+|-
+| {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|20}} || Shielded
+|-
+| {{Enemy|Geovishap|20}} || Cryo converted state
+|-
+| {{Enemy|Kairagi|20}} || Final Frenzy state
+|-
+| {{Enemy|Large Cryo Slime|20}} || Always
+|-
+| {{Enemy|Solitary Suanni|20}} || Always except when performing Lunge and Spirittide Deluge
+|-
+| {{Enemy|Tainted Hydro Phantasm|20}} || Enraged State
+|}
 
 ==Environment==
 ===Water===
@@ -51,11 +100,13 @@ Certain other entities can also be Frozen. Entities that originate from a charac
 
 ==Tutorial==
 {{See also|Elemental Trial}}
-[[File:Tutorial Elemental Trial Frozen 1.png|200px|thumb|left]]
-When {{Cryo}} meets {{Hydro}}, the Frozen reaction is triggered. Frozen beings are rendered immobile.
-[[File:Tutorial Elemental Trial Frozen 2.png|200px|thumb|left]][[File:Tutorial Elemental Trial Frozen 3.png|200px|thumb|left]]
-Use {{Hydro}} attacks in battle to make opponents Wet. Then, switch to a {{Cryo}} character and use {{Cryo}} attacks to trigger Frozen to control your opponents effectively.
-{{Clr}}
+{{Tutorial
+|image1 = Tutorial Elemental Trial Frozen 1.png
+|text1  = When {{Color|help|Cryo}} meets {{Color|help|Hydro}}, the {{Color|help|Frozen}} reaction is triggered. Frozen beings are rendered immobile.
+|image2 = Tutorial Elemental Trial Frozen 2.png
+|text2  = Use Hydro attacks in battle to {{Color|help|make opponents Wet}}. Then, switch to a Cryo character and use {{Color|help|Cryo attacks to trigger Frozen}} to control your opponents effectively.
+|image3 = Tutorial Elemental Trial Frozen 3.png
+}}
 
 ==Preview==
 {{Preview
@@ -70,78 +121,71 @@ Use {{Hydro}} attacks in battle to make opponents Wet. Then, switch to a {{Cryo}
 }}
 
 ==Other Languages==
-{{Flex|
-===Frozen===
 {{Other Languages
-|en      = Frozen
-|zhs     = 冻结
-|zhs_rm  = Dòngjié
-|zht     = 凍結
-|zht_rm  = Dòngjié
-|zh_tl   = Freeze
-|ja      = 凍結
-|ja_rm   = Touketsu
-|ja_tl   = Freezing
-|ko      = 빙결
-|ko_rm   = Binggyeol
-|ko_tl   = Frozen
-|es      = Congelado
-|es_tl   = Frozen
-|fr      = Gel
-|fr_tl   = Freeze
-|ru      = Заморозка
-|ru_tl   = Freezing
-|th      = แช่แข็ง
-|th_rm   = Chae Khaeng
-|th_tl   = Frozen
-|vi      = Đóng Băng
-|vi_tl   = Freeze
-|de      = Gefroren
-|de_tl   = Frozen
-|id      = Frozen
-|pt      = Congelado
-|pt_tl   = Frozen
-|tr      = Donma
-|tr_tl   = Freeze
-|it      = Congelamento
-|it_tl   = Freezing
-}}
-|
-===Shatter===
-{{Other Languages
-|en      = Shatter
-|zhs     = 碎冰
-|zhs_rm  = Suìbīng
-|zht     = 碎冰
-|zht_rm  = Suìbīng
-|zh_tl   = 
-|ja      = 氷砕き
-|ja_rm   = Koori Kudaki{{Assumed}}
-|ja_tl   = Ice-Shattering
-|ko      = 쇄빙
-|ko_rm   = Swaebing
-|ko_tl   = Ice Break
-|es      = Rompehielo
-|es_tl   = Ice Breaker
-|fr      = Brise-glace
-|fr_tl   = Ice Break
-|ru      = Разбит
-|ru_tl   = Shattered
-|th      = น้ำแข็งแตก
-|th_rm   = 
-|th_tl   = 
-|vi      = Phá Băng
-|vi_tl   = 
-|de      = Eisbrecher
-|de_tl   = Ice Breaker
-|id      = Shatter
-|pt      = Quebrar Gelo
-|pt_tl   = 
-|tr      = Tuzla Buz
-|tr_tl   = 
-|it      = Rompigelo
-|it_tl   = Frostbreak
-}}
+|1_en      = Frozen
+|1_zhs     = 冻结
+|1_zhs_rm  = Dòngjié
+|1_zht     = 凍結
+|1_zht_rm  = Dòngjié
+|1_zh_tl   = Freeze
+|1_ja      = 凍結
+|1_ja_rm   = Touketsu
+|1_ja_tl   = Freezing
+|1_ko      = 빙결
+|1_ko_tl   = Frozen
+|1_es      = Congelado
+|1_es_tl   = Frozen
+|1_fr      = Gel
+|1_fr_tl   = Freeze
+|1_ru      = Заморозка
+|1_ru_tl   = Freezing
+|1_th      = แช่แข็ง
+|1_th_rm   = Chae Khaeng
+|1_th_tl   = Frozen
+|1_vi      = Đóng Băng
+|1_vi_tl   = Freeze
+|1_de      = Gefroren
+|1_de_tl   = Frozen
+|1_id      = Frozen
+|1_pt      = Congelado
+|1_pt_tl   = Frozen
+|1_tr      = Donma
+|1_tr_tl   = Freeze
+|1_it      = Congelamento
+|1_it_tl   = Freezing
+
+|2_en      = Shatter
+|2_zhs     = 碎冰
+|2_zhs_rm  = Suìbīng
+|2_zht     = 碎冰
+|2_zht_rm  = Suìbīng
+|2_zh_tl   = 
+|2_ja      = 氷砕き
+|2_ja_rm   = Koori Kudaki{{Assumed}}
+|2_ja_tl   = Ice-Shattering
+|2_ko      = 쇄빙
+|2_ko_tl   = Ice Break
+|2_es      = Rompehielo
+|2_es_tl   = Ice Breaker
+|2_fr      = Brise-glace
+|2_fr_tl   = Ice Break
+|2_ru      = Разбит
+|2_ru_tl   = Shattered
+|2_th      = น้ำแข็งแตก
+|2_th_rm   = 
+|2_th_tl   = 
+|2_vi      = Phá Băng
+|2_vi_tl   = 
+|2_de      = Eisbrecher
+|2_de_tl   = Ice Breaker
+|2_id      = Shatter
+|2_pt      = Quebrar Gelo
+|2_pt_tl   = 
+|2_tr      = Tuzla Buz
+|2_tr_tl   = Shatter
+|2_tr_note = {{tr|tuzla buz etmek}} is a turkish phrase for destroying something beyond repair, like shattering glass.
+|2_it      = Rompigelo
+|2_it_tl   = Frostbreak
 }}
 
 ==Change History==
@@ -154,3 +198,5 @@ Use {{Hydro}} attacks in battle to make opponents Wet. Then, switch to a {{Cryo}
 [[ja:凍結]]
 [[pl:Zamrożenie]]
 [[pt-br:Congelado]]
+[[ru:Заморозка]]
+[[vi:Đóng Băng]]

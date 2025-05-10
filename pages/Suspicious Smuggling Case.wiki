@@ -7,25 +7,22 @@
 |part          = 1
 |act           = Sands of Solitude
 |character     = Cyno
-|requirement   = 
-* Reach [[Adventure Rank]] 40
+|requirement   = * Reach [[Adventure Rank]] 40
 * Complete Archon Quest [[King Deshret and the Three Magi]]
-* Spend 1 [[Story Key]]
 |startLocation = [[The Akademiya]], [[Sumeru]]
 |region        = Sumeru
 |area          = Avidya Forest
 |subarea       = Sumeru City
 |next          = Chain of Interests
-|exp           = 525
-|mora          = 31,125
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|7}}
+|rewards       = Adventure EXP*525;Mora*31,125;Hero's Wit*4;Mystic Enhancement Ore*7
 |characters    = Amainu; Amenzu; Cyno; Dori; Jhuba; Mutair; Nabil; Paimon; Traveler
 |voiced        = yes
 }}
-'''''Suspicious Smuggling Case''''' is the first part of [[Cyno]]'s [[Story Quest]] [[Lupus Aureus Chapter]]: Act I - [[Sands of Solitude]].
+'''''Suspicious Smuggling Case''''' is the first part of {{Quest|Sands of Solitude}}.
 
 ==Steps==
 # Take a look around the [[Akademiya]]
+# Look for clues around the Akademiya
 # Look for clues outside the city
 # Work with [[Cyno]] to arrest the suspects
 # Ask [[Dori]] for information
@@ -37,17 +34,49 @@
 # Talk to Cyno
 
 ==Gameplay Notes==
-* During Step 7, [[Cyno]] joins the party as a trial character.
+* During Step 8, [[Cyno]] joins the party as a trial character.
 
 ==Trial Character==
 {{Trial Character
-|wl                      = 8
+|wl                      = 5, 8, 9
 
 |character_name          = Cyno
+|weapon_name             = Staff of the Scarlet Sands
+
+<!-- WL5 -->
+
+|character_level5        = 71
+|constellation5          = 3
+
+|weapon_level5           = 71
+|refinement5             = 1
+
+|artifact_flower5        = Royal Flora
+|artifact_feather5       = Royal Plume
+|artifact_sands5         = Royal Pocket Watch
+|artifact_goblet5        = Royal Silver Urn
+|artifact_circlet5       = Royal Masque
+|artifact_level5         = 16
+|set1_5                  = Noblesse Oblige
+|set1_piece_bonus_5      = 4
+
+|normal_attack_talent5   = 5
+|elemental_skill_talent5 = 5
+|elemental_burst_talent5 = 8
+
+|hp5                     = 260,315
+|atk5                    = 1,495
+|def5                    = 796
+|em5                     = 92
+|er5                     = 135.0%
+|crit_rate5              = 88.1%
+|crit_dmg5               = 120.7%
+
+<!-- WL8 -->
+
 |character_level8        = 90
 |constellation8          = 3
 
-|weapon_name             = Staff of the Scarlet Sands
 |weapon_level8           = 90
 |refinement8             = 1
 
@@ -71,11 +100,40 @@
 |er8                     = 135.0%
 |crit_rate8              = 101.2%
 |crit_dmg8               = 130.3%
+
+<!-- WL9 -->
+
+|character_level9        = 90
+|constellation9          = 3
+
+|weapon_level9           = 90
+|refinement9             = 3
+
+|artifact_flower9        = Royal Flora
+|artifact_feather9       = Royal Plume
+|artifact_sands9         = Royal Pocket Watch
+|artifact_goblet9        = Royal Silver Urn
+|artifact_circlet9       = Royal Masque
+|artifact_level9         = 20
+|set1_9                  = Noblesse Oblige
+|set1_piece_bonus_9      = 4
+
+|normal_attack_talent9   = 10
+|elemental_skill_talent9 = 10
+|elemental_burst_talent9 = 13
+
+|hp9                     = 29,127
+|atk9                    = 1,909
+|def9                    = 1,110
+|em9                     = 47
+|er9                     = 138.9%
+|crit_rate9              = 111.3%
+|crit_dmg9               = 205.0%
 }}
 
 ==Dialogue==
 {{Quest Description|You decide to take a look around the Akademiya...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area in the Akademiya)
 ;(If the player has not completed ''[[Where the Boat of Consciousness Lies]]'')
 ::{{A|vo cnlq001 1 nabil 01.ogg}} '''???:''' What should I do now? *sigh* If only Cyno was still around...
@@ -97,7 +155,7 @@
 ::{{A|vo cnlq001 1 paimon 04.ogg}} '''Paimon:''' You can count on us, let's go!
 ;(If the player has completed ''Where the Boat of Consciousness Lies'')
 ::{{A|vo cnlq001 3 nabil 01.ogg}} '''???:''' Wait, you two! Just a moment, please!
-::{{A|vo cnlq001 3 nabil 02.ogg}} '''???:''' You're (Traveler) and Paimon, right? I thought you two looked familiar. People have been talking all about you.
+::{{A|vo cnlq001 3 nabil 02.ogg}} '''???:''' You're {{Traveler}} and Paimon, right? I thought you two looked familiar. People have been talking all about you.
 ::{{A|vo cnlq001 3 nabil 03.ogg}} '''???:''' It's a pleasure to meet you. Do you have a moment? There's something I'd like to discuss with you.
 ::{{DIcon}} Umm, who are you?
 ::{{DIcon}} Have we met before?
@@ -116,9 +174,9 @@
 
 ;(Talk to Nabil again)
 :{{A|vo dialog cnlq001 nabil 01.ogg}} '''Nabil:''' How's the case coming? Any progress?
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|After listening to Nabil's account of the recent case of Canned Knowledge smuggling, you decide to go outside the city to investigate.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 ;(If the player has not completed ''[[Where the Boat of Consciousness Lies]])
 ::{{A|vo cnlq001 2 paimon 01.ogg}} '''Paimon:''' Huh? It's Cyno! Uh, what are you doing here?
@@ -144,9 +202,9 @@
 ::{{A|vo cnlq001 4 cyno 05.ogg}} '''Cyno:''' Long story short, I was able to learn of the secret location where the Canned Knowledge is being sold. You're welcome to accompany me if you're interested.
 ::{{A|vo cnlq001 4 paimon 03.ogg}} '''Paimon:''' Whoa, sounds pretty complicated. But having a chance to catch bad guys with Cyno, it's like we're a part of the matra!
 ::{{A|vo cnlq001 4 paimon 04.ogg}} '''Paimon:''' Alright, sign us up!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You didn't expect to meet Cyno during the investigation. Cyno seems to have some information and is preparing to arrest some suspects.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the group of scholars)
 :{{A|vo cnlq001 6 mutair 01.ogg}} '''Mutair:''' Is this all you got? Hmm, seems even less than last time.
 :{{A|vo cnlq001 6 amainu 01.ogg}} '''Amainu:''' What difference does it make? If you see somethin' you like, buy it. If not, then keep walkin'.
@@ -199,16 +257,15 @@
 :{{A|vo cnlq001 6 cyno 16.ogg}} '''Cyno:''' The Akademiya has clearly published the potential dangers of Canned Knowledge. I don't like having to repeat things, and besides, I'm sure you wouldn't listen anyway.
 :{{A|vo cnlq001 6 cyno 17.ogg}} '''Cyno:''' I just hope you understand that your actions are what fuels the smuggling of Canned Knowledge.
 :{{A|vo cnlq001 6 cyno 18.ogg}} '''Cyno:''' If I ever catch you again, I will personally see to it that you are punished.
-:{{A|vo cnlq001 6 cyno 19.ogg}} '''Cyno:''' Alright, (Traveler), I need to go now.
+:{{A|vo cnlq001 6 cyno 19.ogg}} '''Cyno:''' Alright, {{Traveler}}, I need to go now.
 :{{A|vo cnlq001 6 mutair 07.ogg}} '''Mutair:''' Hah! Y&mdash;You think you can scare me?
-:{{A|vo cnlq001 6 paimon 07.ogg}} '''Paimon:''' Phew... (Traveler), why don't we go talk to Dori? She's got loads of connections and might be able to tell us something about all this.
+:{{A|vo cnlq001 6 paimon 07.ogg}} '''Paimon:''' Phew... {{Traveler}}, why don't we go talk to Dori? She's got loads of connections and might be able to tell us something about all this.
 :{{A|vo cnlq001 6 paimon 08.ogg}} '''Paimon:''' If Paimon remembers correctly, she's usually at the Palace of Alcazarzaray. Let's go!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Although several people selling Canned Knowledge were caught, not much information was gained. Will Dori know anything about the Canned Knowledge?}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Dori)
-:'''You tell Dori about what happened with Cyno.'''
-
+:{{Black Screen|You tell Dori about what happened with Cyno.}}
 :{{A|vo cnlq001 7 dori 01.ogg}} '''Dori:''' I see, I see... So that's the latest scoop! Heh, good thing you didn't rat me out. Otherwise, who knows where I'd have to be hiding to avoid attention.
 :{{DIcon}} Do you know who is smuggling the Canned Knowledge?
 :{{A|vo cnlq001 7 dori 02.ogg}} '''Dori:''' No idea, sorry. I've already cashed out of the Canned Knowledge business.
@@ -231,7 +288,7 @@
 :{{A|vo cnlq001 7 dori 14.ogg}} '''Dori:''' But with Canned Knowledge, one may simply skip all the hassle and get whatever they need to know immediately. That inherently leads to at least two potential problems...
 :{{A|vo cnlq001 7 dori 15.ogg}} '''Dori:''' First, you'll accept the knowledge as factual without a second thought, and you will find it very hard to forget. This means that if the knowledge is flawed, then it'll be very difficult to correct.
 :{{A|vo cnlq001 7 dori 16.ogg}} '''Dori:''' And second, excess use of Knowledge Capsules over an extended time diminishes your ability to think. You'll end up becoming like a library that can only store knowledge.
-:{{A|vo cnlq001 7 paimon 05.ogg}} '''Paimon:''' Whoa, that does sound pretty dangerous! (Traveler), you used Canned Knowledge before. Did you feel any negative effects?
+:{{A|vo cnlq001 7 paimon 05.ogg}} '''Paimon:''' Whoa, that does sound pretty dangerous! {{Traveler}}, you used Canned Knowledge before. Did you feel any negative effects?
 :{{DIcon}} Not in particular...
 :{{A|vo cnlq001 7 dori 17.ogg}} '''Dori:''' Of course, using it sparingly is not an issue, which is exactly why I used to sell it.
 :{{A|vo cnlq001 7 dori 18.ogg}} '''Dori:''' It's just like how medicine can be used to cure diseases, but can also do harm when overused. It all comes down to balancing the right amount.
@@ -259,7 +316,7 @@
 ::{{A|vo cnlq001 7 dori 33.ogg}} '''Dori:''' I'm sure the former General Mahamatra of the Akademiya would never leave any debt unpaid. Oh, the Mora... I can see it already, loads of shiny Mora coming Dori's way!
 ;(If the player has completed ''Where the Boat of Consciousness Lies'')
 ::{{A|vo cnlq001 7 dori 34.ogg}} '''Dori:''' I'm sure the General Mahamatra of the Akademiya would never leave any debt unpaid, and I can only imagine the funds he's allocated for investigations... Oh, maybe I should charge him more!
-:{{A|vo cnlq001 7 paimon 09.ogg}} '''Paimon:''' (Traveler), we'd better get going. If Dori keeps at it, we'll be out of Mora!
+:{{A|vo cnlq001 7 paimon 09.ogg}} '''Paimon:''' {{Traveler}}, we'd better get going. If Dori keeps at it, we'll be out of Mora!
 ;(Obtain [[Auction Information]] and [[Limited Edition Desert Special Travel Pack]] ×3)
 
 ;(Talk to Dori again, optional)
@@ -271,9 +328,9 @@
 :{{A|vo dialog cnlq001 dori 05.ogg}} '''Dori:''' As for the long-term consequences that lie ahead... Most people can't see them, nor would they even believe them. So if you think about it, you're setting yourself up to be targeted by everyone.
 :{{A|vo dialog cnlq001 dori 06.ogg}} '''Dori:''' You've got quite the challenge ahead of you. I can only imagine how stressed you'll feel... How about I recommend a book for you? It's called One Hundred Ways to De-Stress and Live Your Best! I'll offer you a 30% discount right now!
 :{{A|vo dialog cnlq001 paimon 02.ogg}} '''Paimon:''' Ah! Again!? No way we're falling for that!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You learned about the Court of Desolation and the desert auction from Dori. Now go to Caravan Ribat and inform Cyno of your findings.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Cyno)
 :{{A|vo cnlq001 9 paimon 01.ogg}} '''Paimon:''' Cyno! We've got news for you! What the smugglers are really after is a chance to research the Court of Desolation!
 :{{A|vo cnlq001 9 paimon 02.ogg}} '''Paimon:''' They are hosting an auction in the desert to sell Canned Knowledge about those ruins!
@@ -297,9 +354,9 @@
 :{{A|vo cnlq001 9 cyno 12.ogg}} '''Cyno:''' That's right. Let's begin to leave town and see what happens. I'm sure they'll reveal themselves as soon as we make a move.
 :{{A|vo cnlq001 9 cyno 13.ogg}} '''Cyno:''' Don't worry. I'll make short work of them.
 :{{A|vo cnlq001 9 paimon 05.ogg}} '''Paimon:''' That's Cyno for ya... but we can lend a hand too, you know!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Before leaving for the desert, Cyno wants to get rid of the people tailing you.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo cnlq001 10 jhuba 01.ogg}} '''Jhuba:''' Hold it right there. Heading to the desert, are we? I would think twice if I were you.
 :{{A|vo cnlq001 10 paimon 01.ogg}} '''Paimon:''' Huh? Who are you?
@@ -340,7 +397,7 @@
 :{{DIcon}} Let's all do our best.
 :{{A|vo cnlq001 11 cyno 13.ogg}} '''Cyno:''' Good. Don't worry, it won't be long till we're at the bottom of this.
 :{{A|vo cnlq001 11 cyno 14.ogg}} '''Cyno:''' And once this is all over, I'll sweep away any other hidden dangers.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -349,12 +406,11 @@
 |zhs_rm  = Zǒusī Yí'àn
 |zht     = 走私疑案
 |zht_rm  = Zǒusī Yí'àn
-|zh_tl   = 
+|zh_tl   = Suspicious Smuggling Case
 |ja      = 密輸懸案
 |ja_rm   = Mitsuyu Ken'an
 |ja_tl   = Unresolved Smuggling Problem
 |ko      = 밀수 사건
-|ko_rm   = Milsu Sageon
 |ko_tl   = Smuggling Case
 |es      = Un caso de contrabando sospechoso
 |es_tl   = A Suspicious Case of Contraband
@@ -383,3 +439,5 @@
 {{Change History|3.1}}
 
 [[es:Un caso de contrabando sospechoso]]
+[[pt-br:Caso de Contrabando Suspeito]]
+[[vi:Kỳ Án Buôn Lậu]]

@@ -2,14 +2,13 @@
 |image         = Talent Kurage's Oath.png
 |character     = Sangonomiya Kokomi
 |type          = Elemental Skill
-|info          = Summons a "Bake-Kurage" created from water that can heal her allies.<br />Using this skill will apply the {{Hydro|Wet}} status to Sangonomiya Kokomi.<br /><br />'''Bake-Kurage'''<br />Deals {{Color|Hydro DMG}} to surrounding opponents and heal nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.
-|energyGen     = Bake-Kurage has '''~2/3''' chance to generate an elemental particle when it hits at least 1 enemy, excepte at the last damage tick.
+|info          = Summons a "Bake-Kurage" created from water that can heal her allies.<br>Using this skill will apply the {{Hydro|Wet}} status to Sangonomiya Kokomi.<br><br>'''Bake-Kurage'''<br>Deals {{Color|Hydro DMG}} to surrounding opponents and heal nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.
 |CD            = 20s
 |duration      = 12s
 |attr1         = Regeneration
-|value1        = 4.4% Max HP+424 – 9.35% Max HP+1165
+|value1        = 4.4–9.35% Max HP+424–1,165
 |attr2         = Ripple DMG
-|value2        = 109.2% – 232.0%
+|value2        = 109.2–232.0%
 |utility1      = Healing
 |utility2      = Wet Status to Self
 |scale_att1    = Max HP
@@ -19,17 +18,20 @@
 '''Kurage's Oath''' is [[Sangonomiya Kokomi]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
-* {{TalentNote|particles|each of the first 6 hits|{{Not a typo|0.67}}}}
-** Generate on average 0.67 × 6 = '''{{Not a typo|4.02}}''' elemental particles if all ticks hit an enemy.
+* {{Talent Note|particles|each of the first 6 hits|{{Not a Typo|0.67}}}}
+** Generate on average 0.67 × 6 = '''{{Not a Typo|4.02}}''' elemental particles if all ticks hit an enemy.
 * The Bake-Kurage ticks every 2 seconds, for a total of '''7''' times before its 12s duration ends. (including the initial hit)
-* Only one Bake-Kurage can exist at a time
+* Only one Bake-Kurage can exist at a time.
+* {{Talent Note|snapshot|Ripple DMG|character=Sangonomiya Kokomi}}
+** This will ''not'' be updated when the Bake-Kurage's duration is refreshed by her Passive Talent 1, [[Tamakushi Casket]].
+* In most cases, the Additive Base DMG Bonus from [[Nereid's Ascension]] cannot be snapshotted by the Bake-Kurage; however, if Kurage's Oath is cast while Nereid's Ascension is active, and Kokomi leaves the field before the first Bake-Kurage tick, the Additive Base DMG Bonus can be snapshotted.
 
 ;<big>Passive Effects</big>
-* {{TalentNote|character=Sangonomiya Kokomi|talent=Kurage's Oath|ascension|1|Tamanooya's Casket}}
+* {{Talent Note|character=Sangonomiya Kokomi|talent=Kurage's Oath|ascension|1|Tamakushi Casket}}
 
 ;<big>Constellation Effects</big>
-* {{TalentNote|constellation|2|The Clouds Like Waves Rippling|Increases the healing that nearby party members under 50% HP receive from the Bake-Kurage.}}
-* {{TalentNote|constellation|5|All Streams Flow to the Sea}}
+* {{Talent Note|constellation|2|The Clouds Like Waves Rippling|Increases the healing that nearby party members under 50% HP receive from the Bake-Kurage.}}
+* {{Talent Note|constellation|5|All Streams Flow to the Sea}}
 
 ==Advanced Properties==
 {{Advanced Properties
@@ -48,8 +50,8 @@
 |title3   = Wet to Self
 |gu3      = 1U, 0.2s
 |icdtag3  = none
-|poise3   = —
-|impulse3 = —
+|poise3   = &mdash;
+|impulse3 = &mdash;
 }}
 
 ==Preview==
@@ -74,9 +76,9 @@
 |regeneration_8=7.04% Max HP+794.50
 |regeneration_9=7.48% Max HP+861.59
 |regeneration_10=7.92% Max HP+932.22
-|regeneration_11=8.36% Max HP+1006.38
-|regeneration_12=8.8% Max HP+1084.07
-|regeneration_13=9.35% Max HP+1165.29
+|regeneration_11=8.36% Max HP+1,006.38
+|regeneration_12=8.8% Max HP+1,084.07
+|regeneration_13=9.35% Max HP+1,165.29
 |rippledmg_1=109.19
 |rippledmg_2=117.38
 |rippledmg_3=125.57
@@ -101,8 +103,8 @@
 {{Talent VO}}
 
 ==Trivia==
-* {{TalentNote|clap}}
-* {{Lang|''Bake-kurage''|ja={{rubi|化|ばけ|海月|くらげ}}}} means "monster jellyfish" in Japanese, where ''kurage'' (jellyfish) is written using the kanji for {{Lang|"sea moon"|ja=海月}}.
+* {{Talent Note|clap}}
+* {{Lang|''Bake-kurage''|ja=化海月}} means "{{w|Bakemono|transformed}} jellyfish" in Japanese, where ''kurage'' (jellyfish) is written using the kanji for {{Lang|"sea moon"|ja=海月}}.
 
 ==Other Languages==
 {{Other Languages
@@ -125,15 +127,15 @@
 |ru      = Клятва курагэ
 |ru_tl   = Kurage's Oath
 |th      = Kurage's Oath
-|vi      = Lời Thề Ánh Trăng Biển
-|vi_tl   = Oath of the Sea's Moonlight
+|vi      = Lời Thề Kurage
+|vi_tl   = Kurage's Oath
 |de      = Eid des Kurage
 |de_tl   = Kurage's Oath
 |id      = Kurage's Oath
 |pt      = Juramento de Kurage
 |pt_tl   = Kurage's Oath
 |tr      = Kurage Yemini
-|tr_tl   = 
+|tr_tl   = Kurage's Oath
 |it      = Giuramento di Kurage
 |it_tl   = Kurage's Oath
 }}
@@ -146,6 +148,8 @@
 
 [[es:Juramento de la medusa]]
 [[fr:Serment de Kurage]]
+[[ja:海月の誓い]]
 [[pt-br:Juramento de Kurage]]
 [[ru:Клятва курагэ]]
 [[th:Kurage's Oath]]
+[[vi:Lời Thề Kurage]]

@@ -8,7 +8,7 @@
 |type         = Game Systems
 |type2        = Combat
 }}
-'''Aggravation''', also known as '''aggro''', is an enemy {{w|Hate (video games)|threat mechanic}}. Aggravation in Genshin Impact is a complex system with two major components: the [[#Detection|Detection]] system which alerts [[enemies]] and causes [[wildlife]] to become '''startled''', and the [[#Aggression|Aggression]] system which determines the primary target of enemies while in combat.<ref>NGA: [https://bbs.nga.cn/read.php?tid=31040011 NGA Forum Post: 《原魔嘲讽学》- 敌人与动物的威胁系统简述]</ref><ref>NGA: [https://bbs.nga.cn/read.php?tid=31020495 NGA Forum Post: 《原魔侦测学》- 敌人与动物的感知系统简述]</ref>
+'''Aggravation''', also known as '''aggro''', is an enemy {{w|Hate (video games)|threat mechanic}}. Aggravation in ''Genshin Impact'' is a complex system with two major components: the [[#Detection|Detection]] system which alerts [[enemies]] and causes [[wildlife]] to become '''startled''', and the [[#Aggression|Aggression]] system which determines the primary target of enemies while in combat.<ref>NGA: [https://bbs.nga.cn/read.php?tid=31040011 NGA Forum Post: {{zh|《原魔嘲讽学》- 敌人与动物的威胁系统简述}}]</ref><ref>NGA: [https://bbs.nga.cn/read.php?tid=31020495 NGA Forum Post: {{zh|《原魔侦测学》- 敌人与动物的感知系统简述}}]</ref>
 
 '''Taunting''' refers to special character abilities that can aggravate enemies and change their target. All bosses are immune to taunt skills.
 
@@ -50,13 +50,15 @@ When Awareness is below 100, it will decrease over time at a certain rate, but t
 When Awareness is 0, targets have a Threat Level of 0. Targets who cause Awareness to increase have a Threat Level of 1 until Awareness is 100. When Awareness is 100, targets have a Threat Level of 2.
 
 ===Adjustments===
-[[:Category:Wildlife Talents|Wildlife Talents]] directly modify the detection ranges of enemies and wildlife by an ''Adjustment Factor''. So far, these passives only modify the view and proximity ranges of wildlife, and nothing modifies the hearing ranges of wildlife or any of the ranges of enemies.
+Certain talents can directly modify the detection ranges of enemies and wildlife by an ''Adjustment Factor''. So far nothing modifies the hearing ranges of wildlife or any of the ranges of enemies.
+
+{{Talents by Category Table|Wildlife Talents|shortheader=modify the view and proximity ranges of wildlife}}
 
 ===Enemy States===
 Enemy states, such as whether hilichurls are asleep, relaxing, or alert, can affect their detection ranges.<!-- in its own section because hopefully we'll have more info on this eventually -->
 
 ===Spotting a Target===
-Nearly all enemies and most wildlife can see targets, or ''detect targets by view''. Enemies and wildlife who detect targets by view can only do so in their ''Field of View'', which differs per entity but is often 120 degrees horizontally and 60 degrees vertically. The ''View Range'' of enemies and wildlife often 30 meters by default and will increase to 200 while in combat or fleeing.
+Nearly all enemies and most wildlife can see targets, or ''detect targets by view''. Enemies and wildlife who detect targets by view can only do so in their ''Field of View'', which differs per entity but is often 120 degrees horizontally and 60 degrees vertically. The ''View Range'' of enemies and wildlife often 30&nbsp;meters by default and will increase to 200 while in combat or fleeing.
 
 Awareness increases when a target is detected by view and while the target remains in view. For some enemies and wildlife, the closer the target is, the faster Awareness accumulates.
 
@@ -72,13 +74,13 @@ If a character or Taunt is present within the enemy or wildlife's view, at every
 * Destroyable bushes and trees
 
 ===Hearing a Target===
-Nearly all enemies and wildlife can hear targets, or ''detect targets by sound''. This is unrelated to the game's audio that players hear. Nearly all enemies and wildlife have a ''Hearing Range'' of 20 meters from their location. Most sounds that can be heard by enemies and wildlife have a volume of 50 with no fall-off.
+Nearly all enemies and wildlife can hear targets, or ''detect targets by sound''. This is unrelated to the game's audio that players hear. Nearly all enemies and wildlife have a ''Hearing Range'' of 20&nbsp;meters from their location. Most sounds that can be heard by enemies and wildlife have a volume of 50 with no fall-off.
 
 Certain wildlife have increased ''Hearing Sensitivity'', which effectively increases the ''Volume'' of sounds that they hear. All enemies and wildlife will also have 50% more sensitive hearing if a target with a Threat Level of 1 is within range.
 
 When enemies and wildlife hear sounds, their Awareness is increased by the volume they hear, including additional volume due to higher sensitivity.
 
-When Awareness reaches 100, an alarm that all nearby enemies and wildlife can hear will be sounded once with a volume of 100. The range in which the alarm can be heard from its location, or the ''Alarm Range'', is 12 meters for all enemies and most wildlife, with the rest of wildlife only sounding alarms that can be heard by entities no more than 5 meters away.
+When Awareness reaches 100, an alarm that all nearby enemies and wildlife can hear will be sounded once with a volume of 100. The range in which the alarm can be heard from its location, or the ''Alarm Range'', is 12&nbsp;meters for all enemies and most wildlife, with the rest of wildlife only sounding alarms that can be heard by entities no more than 5&nbsp;meters away.
 
 Specific parameters for detecting targets by sound include ''Volume'', ''Hearing Sensitivity'', ''Hearing Range'', and ''Alarm Range''.
 
@@ -89,21 +91,23 @@ When a sound occurs within the Hearing Range:
 
 ====Sounds====
 * Enemy alarms
-* Almost all arrows upon landing
-** Arrows that deal different kinds of damage appear to produce different levels of noise. For example, {{Pyro}}, {{Cryo}}, and {{Hydro}} arrows will alert enemies about as easily as Physical arrows, while {{Anemo}}, {{Electro}}, and {{Geo}} arrows appear unable to.
+* All {{Physical}} arrows upon landing
+* The following characters' [[element]]al arrows upon landing:
+** [[Aloy]], [[Amber]], [[Collei]], [[Sara]] in the Crowfeather Cover state from [[Tengu Stormcall]] (however, the Tengu Juurai: Ambush explosion from her Crowfeather seems to have negligible or no volume), [[Tartaglia]], [[Tighnari]], [[Yelan]]<!-- both her Breakthrough Barb and her normal, non-Barb CA -->, [[Yoimiya]]
 * Radishes from [[Raphanus Sky Cluster|Yaoyao's Elemental Skill]] and [[Moonjade Descent|Yaoyao's Elemental Burst]]
 ** These seem to make about the same amount of noise as the arrows that make noise.
 * [[Stealth]] mode only: footsteps
 
 ====Negligible or No Volume====
+* The following characters' [[element]]al arrows upon landing:
+** [[Diona]], [[Fischl]], [[Gorou]], [[Sara]] when ''not'' in the Crowfeather Cover state from [[Tengu Stormcall]], [[Venti]]
 * Hits on terrain from [[Catalyst]] characters, including those with projectile attacks
 * Collection of resources and loot
 * Hits from melee weapons, including the breaking of [[ore]]s
-* Arrows that deal {{Anemo}}, {{Electro}}, and {{Geo}} damage
 * Enemy voices
 * Enemy footsteps
 * Enemy hits on player characters
-* All non-combat player character movement, such as [[sprinting]], [[climbing]], [[swimming]], idle voice-overs
+* All non-combat player character movement and noises, such as [[sprinting]], [[climbing]], [[swimming]], idle voice-overs, idle animations
 
 ====Footsteps====
 ''Detection by footsteps'' is exclusively used by NPCs in certain [[Stealth]] quest objectives. Awareness accumulates while the active character is within hearing range, even if the character is not actually moving, and the rate is based on the character's distance from the NPC.
@@ -114,7 +118,7 @@ If a character is present within the Footstep Hearing Range, at every Time Inter
 <div style="overflow-x:auto"><math>\text{New Awareness} = \text{Old Awareness} + \text{Footstep Hearing Coefficient} \times \text{Deviation Coefficient} \times 0.016 \times \text{Footstep Hearing Fall-Off Coefficient}</math></div>
 
 ===Sensing a Target===
-Nearly all enemies and wildlife can sense very close targets, or ''detect targets by proximity'', without having to see or hear them. Targets that can be sensed and increase Awareness include characters and taunts. The range in which a target is considered to be very close, or the ''Proximity Range'', varies greatly across all enemies and wildlife. It is typically 8 meters for [[Common Enemies]] and wildlife and 15 meters for [[Elite Enemies]].
+Nearly all enemies and wildlife can sense very close targets, or ''detect targets by proximity'', without having to see or hear them. Targets that can be sensed and increase Awareness include characters and taunts. The range in which a target is considered to be very close, or the ''Proximity Range'', varies greatly across all enemies and wildlife. It is typically 8&nbsp;meters for [[Common Enemies]] and wildlife and 15&nbsp;meters for [[Elite Enemies]].
 
 When a target is within the proximity range, Awareness accumulates very rapidly and maxes out in about 0.2 seconds for most enemies, with a select few enemies taking up to about 1 second.<!-- calculated using equation and data -->
 
@@ -126,9 +130,9 @@ If a character or Taunt is present within the Proximity Range, at every Time Int
 ===Hit by a Target===
 Enemies and wildlife that are hit will find their attacker, or ''detect targets by hit''. Hits do not need to deal damage. Damageless applications of elements ([[Xingqiu]]'s orbiting Rain Swords, [[Barbara]]'s Melody Loop, etc.) or damageless instances of [[Interruption Resistance|poise damage]] ([[Yoimiya]]'s [[Niwabi Fire-Dance]] activation, [[Hu Tao]]'s [[Guide to Afterlife]] activation, etc.) also count as hits, as wildlife may be startled and the [[Unusual Hilichurl]] can become aggravated when they receive such hits.
 
-Some damage from separate sources, such as [[lightning]],  [[Aloy]]'s [[Chillwater Bomblet]]s, [[Kujou Sara]]'s [[Tengu Stormcall|Tengu Juurai: Ambush]], etc. will not aggravate enemies under normal conditions. However, this behavior is observed to be inconsistent depending on the player's frame rate.
+Some damage from separate sources, such as [[lightning]], [[Aloy]]'s [[Chillwater Bomblet]]s, [[Kujou Sara]]'s [[Tengu Stormcall|Tengu Juurai: Ambush]], etc. will not aggravate enemies under normal conditions. However, this behavior is observed to be inconsistent depending on the player's frame rate.
 
-When enemies and wildlife are hit by a player attack, Awareness is immediately increased to 100, and Aggression toward the closest target within hearing range is increased by 20. (For the [[Unusual Hilichurl]], which has no hearing range, the range is 20 meters.)
+When enemies and wildlife are hit by a player attack, Awareness is immediately increased to 100, and Aggression toward the closest target within hearing range is increased by 20. (For the [[Unusual Hilichurl]], which has no hearing range, the range is 20&nbsp;meters.)
 
 Specific parameters for detecting targets by hit include ''Sourceless Hit Range'' (currently only used by the Unusual Hilichurl due to no hearing range) and ''On Hit Scan Range''.
 
@@ -145,7 +149,7 @@ The target with the highest Aggression is selected in the following cases:
 If an enemy has the same Aggression towards multiple targets, the first target to enter combat will be targeted.
 
 ===Taunting===
-Every enemy has a ''Taunt Resistance'' level, and every taunt has a ''Taunt Level''. When an enemy is within range of a taunt and does not have a higher Taunt Resistance level than the taunt's Taunt Level, the enemy is taunted, and their Aggression toward the taunt is increased by a set amount. Generally, taunting entities can taunt enemies up to 5-6 meters away horizontally and either 10 meters or infinitely far away vertically.
+Every enemy has a ''Taunt Resistance'' level, and every taunt has a ''Taunt Level''. When an enemy is within range of a taunt and does not have a higher Taunt Resistance level than the taunt's Taunt Level, the enemy is taunted, and their Aggression toward the taunt is increased by a set amount. Generally, taunting entities can taunt enemies up to 5&ndash;6&nbsp;meters away horizontally and either 10&nbsp;meters or infinitely far away vertically.
 
 Currently, all [[Common Enemies]] and [[Elite Enemies]] can be taunted, and it is impossible to taunt [[bosses]].
 
@@ -181,6 +185,10 @@ If Condition 5 becomes unfulfilled before Combat clears, the Out of Zone Timer w
 ==Special Mechanics==
 In [[Phantasmal Gate]] challenges, players who stand near [[Dream Flower]]s that are neither Activated nor Scorched will not aggravate enemies and will de-aggravate any already aggravated enemies.
 
+Many [[Natlan]]ese enemies do not immediately become aggravated when they become aware of the player's presence, instead taunting the player or telling them to go away. If the player attacks, gets too close, or refuses to leave within a certain amount of time, the enemy becomes aggravated as normal.
+
+If the player is [[Saurian Indwelling|indwelling]] a [[Saurian]] at the time that they approach another Saurian, the enemy will only become aggravated if attacked or if a nearby non-Saurian enemy becomes aggravated. Indwelling a Saurian during combat mode does not exit combat mode unless the indwelled Saurian was the only aggravated enemy.
+
 ==Other Observations==
 * Enemies may not become aggravated when they receive damage from [[Defense Mechanism]]s.
 * [[Displacement]] from [[Vacuum Field]]s alone will not aggravate enemies.
@@ -198,8 +206,10 @@ The following character skills can taunt the enemy and change their aggro target
 * [[Canine Bunshin]] do not aggro from arrows that land near them.
 * During [[Version 2.8]], relaxing and dancing [[hilichurls]] that did not aggro when players approached could be found on the center island of the [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]]. (The center island is technically located in [[Twinning Isle/2.8#Trivia|Twinning Isle]].)
 * Some hilichurls in the [[Great Red Sand]], released in [[Version 3.1]], have unusually low or nonexistent aggro requirements if they are not hit by the player.
+* [[Armored Crab]]s will aggro if attacked, but do not place the player into combat mode. They are currently the only enemies with this trait.
+
 ===Etymology===
-* The term ''aggro'' is short for ''aggravate'' but is commonly thought to be short for ''aggression'' or ''aggressive''. The term predates video games, but it may be mostly known as a video game term in present day. ''Aggro'' is used as both a verb and a noun, and the verb's active form ''to aggro'' and passive form ''to be aggro'd'' are interchangeable, with the meanings inferred from context.<ref>Stack Exchange: [https://gaming.stackexchange.com/questions/17608/what-does-aggro-mean/17618 What does Aggro mean?]</ref><ref>Wikitionary: [[wiktionary:aggro|aggro]]</ref>
+* The term ''aggro'' is short for ''aggravate'' but is commonly thought to be short for ''aggression'' or ''aggressive''. The term predates video games, but it may be mostly known as a video game term in present day. ''Aggro'' is used as both a verb and a noun, and the verb's active form ''to aggro'' and passive form ''to be aggro'd'' are interchangeable, with the meanings inferred from context.<ref>Stack Exchange: [https://gaming.stackexchange.com/questions/17608/what-does-aggro-mean/17618 What does Aggro mean?]</ref><ref>Wikitionary: {{wt|aggro}}</ref>
 
 ==See Also==
 * [[Stealth]]
@@ -209,3 +219,5 @@ The following character skills can taunt the enemy and change their aggro target
 
 ==Navigation==
 {{Combat Navbox}}
+
+[[ja:アグロ]]

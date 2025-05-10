@@ -1,5 +1,6 @@
 {{Quest Infobox
-|id            = 
+|id            = 19015
+|image         = Hangout Event Operation Substitution.png
 |type          = Story
 |group         = Hangout Event
 |chapter       = Sayu
@@ -14,7 +15,7 @@
 |characters    = Kano Nana; Sayu; Traveler
 |voiced        = yes
 }}
-'''Operation Substitution''' is a quest in [[Sayu]]'s [[Hangout Event]] Act I: [[Yoohoo Art: Seichou no Jutsu]].
+'''''Operation Substitution''''' is a quest in {{Quest|Yoohoo Art: Seichou no Jutsu}}.
 
 ==Steps==
 # Go to the ninjutsu training ground
@@ -25,27 +26,48 @@
 # Defeat the slimes
 #* Wave 1: {{Enemy List|Large Pyro Slime;Hydro Slime*2}}
 #* Wave 2: {{Enemy List|Large Electro Slime;Cryo Slime*2}}
-#*The rest of the party will be disabled during the fight. Only Sayu is available as a trial character.
+#* The rest of the party will be disabled during the fight. Only Sayu is available as a trial character.
 # Talk to Sayu
 # Follow Sayu to her resting spot
 
 ==Trial Character==
 {{Trial Character
-|wl                     = 8
+|wl                      = 5, 8
 |character_name          = Sayu
-|character_level8        = 88
-|constellation8          = 3
 |weapon_name             = Favonius Greatsword
-|weapon_level8           = 88
-|refinement8             = 1
 |artifact_flower         = Royal Flora
 |artifact_feather        = Royal Plume
 |artifact_sands          = Royal Pocket Watch
 |artifact_goblet         = Royal Silver Urn
 |artifact_circlet        = Royal Masque
-|artifact_level8         = 20
 |set1                    = Noblesse Oblige
 |set1_piece_bonus        = 4
+
+<!-- WL 5 -->
+
+|character_level5        = 67
+|constellation5          = 3
+|weapon_level5           = 67
+|refinement5             = 1
+|artifact_level5         = 16
+|normal_attack_talent5   = 5
+|elemental_skill_talent5 = 5
+|elemental_burst_talent5 = 8
+|hp5                     = 18,478
+|atk5                    = 1,177
+|def5                    = 633
+|em5                     = 90
+|er5                     = 182.8%
+|crit_rate5              = 51.8%
+|crit_dmg5               = 91.9%
+
+<!-- WL 8 -->
+
+|character_level8        = 88
+|constellation8          = 3
+|weapon_level8           = 88
+|refinement8             = 1
+|artifact_level8         = 20
 |normal_attack_talent8   = 8
 |elemental_skill_talent8 = 8
 |elemental_burst_talent8 = 11
@@ -59,13 +81,12 @@
 }}
 
 ==Gameplay Notes==
-* Receiving Sayu's rating of being "a strong, fast mujina" during the agility training grants the ''[[Memories of the Heart]]'' achievement ''[[Mujina-Class Ninja]]''.
+* Receiving Sayu's rating of being "a strong, fast mujina" during the agility training grants the {{Achievement|Mujina-Class Ninja}}.
 
 ==Dialogue==
 {{Quest Description|So Sayu wanted you to learn ninjutsu so that you could replace her at work...}}
 ===Twinjutsu===
-{{StubDialogue|What's the hidden time limit for different Sayu's dialogue after the time limit challenge...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the location)
 :{{A|vo zycop001 1901501 sayu 01.ogg}} '''Sayu:''' I'll show you my favorite skill to practice. Basically, it's an escape technique &mdash; I use it to make a quick getaway whenever the shrine maiden's after me.
 :{{A|vo zycop001 1901501 kanonana 01.ogg}} '''Kano Nana:''' *sigh* Alright, Sayu, just leave the explanation to me. This is a technique to help ninja train their agility.
@@ -79,35 +100,33 @@
 :{{A|vo zycop001 1901501 sayu 05.ogg}} '''Sayu:''' Aw...
 :{{A|vo zycop001 1901501 kanonana 06a.ogg}}<!--{{A|vo zycop001 1901501 kanonana 06b.ogg}}--> '''Kano Nana:''' Come now, no stalling. Give the Traveler a proper demonstration.
 :{{A|vo zycop001 1901501 sayu 06.ogg}} '''Sayu:''' Alright, alright. Leave it to me.
-
-:'''''Sayu agilely comes upstream and reaches the destination.'''''
-
+:{{Black Screen|''Sayu agilely comes upstream and reaches the destination.''}}
 :{{A|vo zycop001 1901501 kanonana 07.ogg}} '''Kano Nana:''' Although Sayu doesn't usually exert her best effort, she does have strong ninja fundamentals.
-:{{A|vo zycop001 1901501 kanonana 08.ogg}} '''Kano Nana:''' Do your best. I'll be waiting at the finish, (Traveler).
+:{{A|vo zycop001 1901501 kanonana 08.ogg}} '''Kano Nana:''' Do your best. I'll be waiting at the finish, {{Traveler}}.
 ----
 ;(If time runs out)
-:'''''You could not complete the training within the time limit...'''''
+:{{Black Screen|''You could not complete the training within the time limit...''}}
 :;(Return to the previous step)
 
 ;(If you're out of the track)
-:'''''You left the training area, thus failing the training.'''''
+:{{Black Screen|''You left the training area, thus failing the training.''}}
 :;(Return to the previous step)
 
 ;(Redo the challenge)
-:{{A|vo zycop001 1901501 kanonana 08.ogg}} '''Kano Nana:''' Do your best. I'll be waiting at the finish, (Traveler).
+:{{A|vo zycop001 1901501 kanonana 08.ogg}} '''Kano Nana:''' Do your best. I'll be waiting at the finish, {{Traveler}}.
 ----
 ;(After finishing the training)
-:;(If you finished it within a short time)<!--What is the hidden time limit for this dialogue?-->
+:;(If you finished it within 30 seconds)
 :{{A|vo zycop001 1901503 sayu 01.ogg}} '''Sayu:''' Wow, impressive. You've really got some talent.
 :{{A|vo zycop001 1901503 sayu 02.ogg}} '''Sayu:''' If I were to rate your performance, I'd say you're like... a strong, fast mujina.
 :{{A|vo zycop001 1901503 sayu 03.ogg}} '''Sayu:''' Anyway, nicely done. I was *yawn* ...rooting for you.
 
-:;(If you finished it within a medium amount of time)<!--What is the hidden time limit for this dialogue?-->
+:;(If you finished it within 30—60 seconds)
 :{{A|vo zycop001 1901503 sayu 04.ogg}} '''Sayu:''' You're still a way off from my personal record, but don't worry, just keep it up.
 :{{A|vo zycop001 1901503 sayu 05.ogg}} '''Sayu:''' If I were to rate your performance, I'd say you're like... an average, everyday kitsune.
 :{{A|vo zycop001 1901503 sayu 06.ogg}} '''Sayu:''' A kitsune is pretty good, you know...
 
-:;(If you finished it within a long time)<!--What is the hidden time limit for this dialogue?-->
+:;(If you finished it within 60—90 seconds)
 :{{A|vo zycop001 1901503 sayu 07.ogg}} '''Sayu:''' Ouch, that was... a little unfortunate.
 :{{A|vo zycop001 1901503 sayu 08.ogg}} '''Sayu:''' If I were to rate your performance, I'd say you're like... a slow, arthritic turtle.
 :{{A|vo zycop001 1901503 sayu 09.ogg}} '''Sayu:''' But don't let that bother you, more practice is all you need.
@@ -129,10 +148,10 @@
 :{{A|vo zycop001 1901503 sayu 16.ogg}} '''Sayu:''' Sure thing, just leave it to me. Let my example illuminate your path to ninjutsu.
 :{{A|vo zycop001 1901503 kanonana 06.ogg}} '''Kano Nana:''' *sigh* There you go again, Sayu. You know, imitating what other people say is a poor habit.
 :{{A|vo zycop001 1901503 sayu 17.ogg}} '''Sayu:''' S&mdash;Sorry...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Live Combat Observation===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the location)
 :{{A|vo zycop001 1901504 kanonana 01.ogg}} '''Kano Nana:''' Here we are. Now, please carefully observe Sayu's skills in combat.
 :{{A|vo zycop001 1901504 sayu 01.ogg}} '''Sayu:''' I'll do my best to make my ninjutsu a little easier to understand.
@@ -169,15 +188,15 @@
 :{{A|vo zycop001 1901506 sayu 19.ogg}} '''Sayu:''' We agreed on a break after every two exercises, didn't we? Remember, to keep training from being too forceful...
 :{{A|vo zycop001 1901506 kanonana 03.ogg}} '''Kano Nana:''' Fine. Even if I did push you, I suppose you would end up napping on the field anyway.
 :{{A|vo zycop001 1901506 kanonana 04.ogg}} '''Kano Nana:''' Go, have a rest. I shall wait for you here. Remember, no running off.
-:{{A|vo zycop001 1901506 sayu 20.ogg}} '''Sayu:''' Got it. Come with me, (Traveler). I'll take you to a nice place to relax a bit.
+:{{A|vo zycop001 1901506 sayu 20.ogg}} '''Sayu:''' Got it. Come with me, {{Traveler}}. I'll take you to a nice place to relax a bit.
 :{{A|vo zycop001 1901506 sayu 21.ogg}} '''Sayu:''' Whew. Finally, time for a break!
 
 ;(Talk to Kano Nana again)
 :{{A|vo zycop001 1901505 kanonana 01.ogg}} '''Kano Nana:''' You may go have a break with Sayu. It's important to recover your stamina and stay hydrated.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Break Time!===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the location)
 :{{A|vo zycop001 1901507 sayu 01.ogg}} '''Sayu:''' Just as I thought, exactly the same as before...
 :{{DIcon}} What is the rope there used for?
@@ -204,9 +223,7 @@
 :{{DIcon}} I believe Sensei hoped that one day you would provide for someone in the same way.
 :{{A|vo zycop001 1901507 sayu 15.ogg}} '''Sayu:''' I see...
 :{{A|vo zycop001 1901507 sayu 16.ogg}} '''Sayu:''' Okay, just wait here. Don't worry, I'll be right back.
-
-:'''''Sayu swiftly fetches a pile of fruit and returns.'''''
-
+:{{Black Screen|''Sayu swiftly fetches a pile of fruit and returns.''}}
 :{{A|vo zycop001 1901507 sayu 17.ogg}} '''Sayu:''' These fruits are for you.
 :{{DIcon}} I think you're taking this a little too literally.
 :{{DIcon}} Seems you haven't grasped the deeper meaning at all.
@@ -227,7 +244,7 @@
 :{{A|vo zycop001 1901507 sayu 29.ogg}} '''Sayu:''' Oh yeah, you're right. Hehe, I was getting a little carried away.
 :{{A|vo zycop001 1901507 sayu 30.ogg}} '''Sayu:''' Why don't we go practice a little more ninjutsu after our break is up? Today is one of those rare days when I feel super motivated!
 :{{A|vo zycop001 1901507 sayu 31.ogg}} '''Sayu:''' But never mind that for now, we've got lots of fruit to eat. C'mon, take whichever you like, hehe.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Ending: With the Trees===
 {{Hangout Ending
@@ -236,6 +253,9 @@
 |act             = 1
 |description     = You can somewhat understand her feelings. Someday, she will be able to live up to all the expectations on her...
 }}
+
+==Trivia==
+* {{ja|変わり身|Kawarimi}} in the Japanese name is likely a reference to the fictional ninja technique {{Lang|{{w|ja:忍法#錯覚を起こさせる術|Kawarimi no Jutsu}}|ja=変わり身の術|ja_tl=changed body technique}} in which a ninja disguises and substitutes their body for an inanimate object.
 
 ==Other Languages==
 {{Other Languages
@@ -248,9 +268,7 @@
 |ja      = 変わり身計画
 |ja_rm   = Kawarimi Keikaku
 |ja_tl   = Body Substitution Plan
-|ja_note = {{ja|変わり身|Kawarimi}} is likely a reference to the fictional ninja technique {{Lang|{{w|ja:忍法#錯覚を起こさせる術|Kawarimi no Jutsu}}|ja=変わり身の術|ja_tl=changed body technique}} in which a ninja disguises and substitutes their body for an inanimate object.
 |ko      = 대타 양성 계획
-|ko_rm   = Daeta Yangseong Gyehoek
 |ko_tl   = Substitute Training Plan
 |es      = Plan de sustitución
 |es_tl   = Substitution Plan

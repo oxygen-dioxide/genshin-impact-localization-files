@@ -1,5 +1,6 @@
 {{Quest Infobox
 |id            = 19136
+|image         = Hangout Event Starting From Zero.png
 |type          = Story
 |group         = Hangout Event
 |chapter       = Ningguang
@@ -14,22 +15,16 @@
 |characters    = Bolai; Gou San'er; Ningguang; Traveler
 |voiced        = yes
 }}
-'''Starting From Zero''' is a quest in [[Ningguang]]'s [[Hangout Event]], Act I: [[The Jade Chamber's Returning Guest]].
+'''''Starting From Zero''''' is a quest in {{Quest|The Jade Chamber's Returning Guest}}.
 
 ==Steps==
 # Go to the wharf to search for abandoned goods
 # Sell the material to the merchant
 # Go out and search for treasure
-# Defeat the monsters and open the treasure chest
-#* {{Enemy|Large Pyro Slime|x=1}}
-#* {{Enemy|Pyro Slime|x=1}}
-#* {{Enemy|Electro Slime|x=2}}
-# Talk to Ningguang
+# Defeat the monsters and open the treasure chest {{Enemy List|Large Pyro Slime; Pyro Slime; Electro Slime*2}}
+# Talk to [[Ningguang]]
 # Continue looking for chests
-# Defeat the monsters and open the treasure chest
-#* {{Enemy|Rock Shieldwall Mitachurl|x=1}}
-#* {{Enemy|Hilichurl Shooter|x=1}}
-#* {{Enemy|Hilichurl|x=2}}
+# Defeat the monsters and open the treasure chest {{Enemy List|Rock Shieldwall Mitachurl; Hilichurl Shooter; Hilichurl*2}}
 # Talk to Ningguang
 # Look for the [[Weasel Thief]]'s tracks
 # Check the hole that the Weasel Thief left behind
@@ -38,12 +33,56 @@
 # Catch fish by the river (0/3)
 # Grill the fish by the shore with Ningguang
 
+==Trial Character==
+{{Trial Character
+<!--World Levels-->
+|wl                     = 8
+
+<!--Character-->
+|character_name          = Ningguang
+
+|character_level8        = 88
+|constellation8          = 3
+
+<!--Weapon-->
+|weapon_name             = The Widsith
+
+|weapon_level8           = 88
+|refinement8             = 1
+
+<!--Artifacts-->
+|artifact_flower         = Royal Flora
+|artifact_feather        = Royal Plume
+|artifact_sands          = Royal Pocket Watch
+|artifact_goblet         = Royal Silver Urn
+|artifact_circlet        = Royal Masque
+|set1                    = Noblesse Oblige
+|set1_piece_bonus        = 4
+
+|artifact_level8         = 20
+
+<!--Talents-->
+|normal_attack_talent8   = 8
+|elemental_skill_talent8 = 11
+|elemental_burst_talent8 = 8
+
+<!--Attributes-->
+|hp8                     = 21,824
+|atk8                    = 1,572
+|def8                    = 681
+|em8                     = 105
+|er8                     = 135.0%
+|crit_rate8              = 57.1%
+|crit_dmg8               = 144.6%
+}}
+
 ==Gameplay Notes==
-* Catching 4 extra Plump Fish (total 7) grants the ''[[Memories of the Heart]]'' achievement ''[[You've Got to Have Reserves]]''.
+* A trial Ningguang joins the player's party during step 4.
+* Catching 4 extra Plump Fish (total 7) grants the {{Achievement|You've Got to Have Reserves}}.
 
 ==Dialogue==
 {{Quest Description|Ningguang would like to relive the experiences she had when she was just starting out. She thus invites you to play a game of starting from the very bottom. You head to the wharf together...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Go to the wharf to search for abandoned goods)
 :{{A|vo ngcop001 1913601 gousaner 01.ogg}} '''Gou San'er:''' L&mdash;Lady Ningguang, to what do I owe the honor?
 :{{A|vo ngcop001 1913601 gousaner 02.ogg}} '''Gou San'er:''' Are you here to inspect the goods in the warehouse? You may have to wait a moment, I, uh, must have not gotten the message...
@@ -68,9 +107,7 @@
 :{{A|vo ngcop001 1913601 ningguang 04.ogg}} '''Ningguang:''' I don't think he has quite grasped the nature of this situation.
 :{{DIcon}} It's like he was reporting on his work.
 :{{DIcon}} Can't really blame him.
-
-:'''After waiting for a while, Gou San'er comes back, panting for breath.'''
-
+:{{Black Screen|After waiting for a while, Gou San'er comes back, panting for breath.}}
 :{{A|vo ngcop001 1913601 gousaner 15.ogg}} '''Gou San'er:''' Lady Ningguang... I... I had a quick run through the list, and... cleared out some more... items. Please... inspect them... at your leisure...
 :{{A|vo ngcop001 1913601 ningguang 05.ogg}} '''Ningguang:''' Let me see here... soggy food, an odd shoe, a broken mirror, small wooden toy...
 :{{DIcon}} They're in terrible shape. No wonder no one wants them.
@@ -133,10 +170,10 @@
 ;(Talk to Bolai again)
 :{{A|vo ngcop001 1913603 bolai 01.ogg}} '''Bolai:''' What in the heck has gotten into Lady Ningguang today...
 :{{A|vo ngcop001 1913603 bolai 02.ogg}} '''Bolai:''' Did I say that aloud? Never mind.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Adventurer's Survival Handbook===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Go out and search for treasure)
 :{{A|vo ngcop001 1913603 ningguang 01.ogg}} '''Ningguang:''' This must be the place. Let's do this.
 
@@ -178,10 +215,10 @@
 :{{A|vo ngcop001 1913609 ningguang 01.ogg}} '''Ningguang:''' There it is! After it!
 
 ;(Find the Mora that the Weasel Thief was hiding)
-{{Dialogue end}}
+{{Dialogue End}}
 
-===Opera Resourcer, Thrifty Expenditure===
-{{Dialogue start}}
+===Open Resourcer, Thrifty Expenditure===
+{{Dialogue Start}}
 :{{A|vo ngcop001 1913603 ningguang 02.ogg}} '''Ningguang:''' Goodness. This reminds me of fishing... not an easy catch.
 :{{A|vo ngcop001 1913603 ningguang 03.ogg}} '''Ningguang:''' But we didn't let it slip away, and the haul is now ours. That's what counts.
 :{{DIcon}} How much did we make?
@@ -203,8 +240,7 @@
 :{{A|vo ngcop001 1913612 ningguang 01.ogg}} '''Ningguang:''' This should be enough. Let's head back to land and grill them.
 
 ;(Grill the fish by the shore with Ningguang)
-:'''Ningguang grills the fish like a pro.'''
-
+:{{Black Screen|Ningguang grills the fish like a pro.}}
 :{{A|vo ngcop001 1913604 ningguang 01.ogg}} '''Ningguang:''' Here. Have a taste of my cooking.
 :{{A|vo ngcop001 1913604 ningguang 02.ogg}} '''Ningguang:''' A fresh catch can go straight on the grill with minimal preparation and it tastes delicious, even with no seasoning.
 :{{A|vo ngcop001 1913604 ningguang 03.ogg}} '''Ningguang:''' It's a little charred, that's on purpose. I just like how it tastes.
@@ -225,14 +261,14 @@
 :{{DIcon}} Next time, I'll grill fish for you.
 :{{A|vo ngcop001 1913604 ningguang 14.ogg}} '''Ningguang:''' Hehe, that sounds great. I'm looking forward to it.
 :{{A|vo ngcop001 1913604 ningguang 15.ogg}} '''Ningguang:''' But a word of warning, I am very picky about my grilled fish... I can be a tough lady to impress.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Ending: Fortunes Shared===
 {{Hangout Ending
 |ending name     = Fortunes Shared
 |character       = Ningguang
 |act             = 1
-}}
+|description=After a short rest, it is time once more to convert your previous efforts into future motivation.}}
 
 ==Other Languages==
 {{Other Languages

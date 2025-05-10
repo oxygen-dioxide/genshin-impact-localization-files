@@ -1,0 +1,625 @@
+{{Enemy Infobox
+|title    = The Guide to the Dark Paradise
+|dmgtype  = Cryo
+|dmgtype2 = Electro
+|dmgtype3 = Hydro
+|dmgtype4 = Pyro
+|weakpoint = yes
+|image    = Enemy Iniquitous Baptist.png
+|area     = Gavireh Lajavard
+|region   = Sumeru
+|voiceEN  = {{w|Chris Hackney}}<ref>Twitter: [https://twitter.com/ChrisHackneyGGK/status/1646215984473325568 EN VA Self Announcement]</ref>
+|type     = Normal Bosses
+|family   = The Abyss
+|drops    = Evergloom Ring
+|ability1 = Shield
+|ability2 = Stamina Consumption
+|ability3 = Energy Drain
+|ability4 = CD Increase
+|ability5 = HP Loss
+|subarea  = Gate of Zulqarnain
+}}
+{{Enemy Intro}}
+
+==Drops==
+===Items===
+{{World Boss Rewards
+|gem         = Vajrada Amethyst,Shivada Jade,Agnidus Agate,Varunada Lazurite
+|exclusive   = Evergloom Ring
+|sets        = Berserker,Instructor,The Exile,Prayers for Wisdom,Prayers to Springtime,Prayers for Illumination,Prayers for Destiny
+}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|o1    = 1
+|hp2   = 50
+|o2    = 1
+|hp3   = 25
+|o3    = 1
+|hp4   = 0
+|o4    = 1
+}}
+
+==Stats==
+{{Enemy Stats
+|res2         = During Entrance Animation<br>or Elemental Rings
+|resglobal2   = 210%
+
+|hp_ratio     = 10
+|hp_type      = 2
+|atk_ratio    = 8
+|atk_type     = 2
+}}
+
+==Abilities==
+''Most ability names are unofficial.''
+
+The Iniquitous Baptist may use a combination of 3 of the following elements at once: {{Cryo}}, {{Electro}}, {{Hydro}} and {{Pyro}}.
+* In the overworld, its elemental combination:
+** Is indicated before the fight begins by the swirling crystals at its spawn point.
+** Rotates every day on Asia server's [[Reset|daily reset]], regardless of which server the player is in.
+** Is the same across different players' worlds.
+* In [[domain]]s such as [[Spiral Abyss]] and [[Imaginarium Theater]], its elemental combination during a given period is fixed and titled in the Monster List.
+<section begin="schedule" /><!-- Rotates at 20:00 UTC -->
+{| class="wikitable" style="text-align: center; vertical-align: middle;"
+!rowspan=2|Monster List Title
+!colspan=3|Elements
+!rowspan=2|Overworld
+|-
+!First!!Second!!Third
+|-
+|Invoker of {{Color|Pyro|Fire}}, {{Color|Cryo|Frost}}, and {{Color|Electro|Fulmination}}
+|{{Element|Pyro}}||{{Element|Cryo}}||{{Element|Electro}}
+|{{#ifexpr:{{#time:U|now+4 hours}}/86400 mod 4 = 0|{{check|yes}}|{{check|no}}}}
+|-
+|Bringer of {{Color|Hydro|Flood}}, {{Color|Pyro|Flame}}, and {{Color|Cryo|Frost}}
+|{{Element|Cryo}}||{{Element|Hydro}}||{{Element|Pyro}}
+|{{#ifexpr:{{#time:U|now+4 hours}}/86400 mod 4 = 1|{{check|yes}}|{{check|no}}}}
+|-
+|Caller of {{Color|Hydro|Flood}}, {{Color|Pyro|Flame}}, and {{Color|Electro|Fulmination}}
+|{{Element|Electro}}||{{Element|Pyro}}||{{Element|Hydro}}
+|{{#ifexpr:{{#time:U|now+4 hours}}/86400 mod 4 = 2|{{check|yes}}|{{check|no}}}}
+|-
+|—
+|{{Element|Hydro}}||{{Element|Cryo}}||{{Element|Electro}}
+|{{#ifexpr:{{#time:U|now+4 hours}}/86400 mod 4 = 3|{{check|yes}}|{{check|no}}}}
+|}<section end="schedule" />
+
+{{Enemy Attacks
+|name_1      = Elemental Rings
+|desc_1      = Conjures nodes that charge up and form elemental rings, which explode and each deal '''200% ATK''' as '''DMG''' of their respective elemental type if allowed to fully charge. This is indicated with a marker that rotates clockwise. During this attack, the Iniquitous Baptist's RES are increased by '''200%'''. Destroying all nodes before they fully charge will briefly paralyze the Iniquitous Baptist. This attack is only used in the overworld.
+{{Elemental Shield Data
+|title    = Cryo Node
+|element  = Cryo
+|gu       = 2
+
+|title2   = Electro Node
+|element2 = Electro
+|gu2      = 1
+|noec2    = 1
+
+|title3   = Hydro Node
+|element3 = Hydro
+|gu3      = 2
+|noec3    = 1
+
+|title4   = Pyro Node
+|element4 = Pyro
+|gu4      = 2
+}}
+
+|name_2      = Phase Cycle
+|desc_2      = After using '''Elemental Rings''' for the first time, the Iniquitous Baptist will begin cycling through 3 elemental [[Shield/Enemy|shields]]. The Iniquitous Baptist will perform different attacks depending on which shield is active.
+* Depending on the Elemental Combination, the shields will be cycled through in one of the following four fixed orders:
+** {{Pyro}}, {{Frozen}}, {{Electro}}
+** {{Frozen}}, {{Hydro}}, {{Pyro}}
+** {{Electro}}, {{Pyro}}, {{Hydro}}
+** {{Hydro}}, {{Frozen}}, {{Electro}}
+* The shield cycle order is also indicated by the 3 elemental crystals behind the Iniquitous Baptist. The crystals at the top indicates the currently active element, and the crystals will rotate counterclockwise when a shield swap occurs. A crystals will disappear if the corresponding shield is destroyed.
+* If a shield is destroyed, the Iniquitous Baptist will be paralyzed for a short period of time, and the destroyed shield becomes unavailable. If all 3 shields are destroyed, it will be paralyzed for a longer period of time and recover all shields afterwards.
+* If the 1st or 2nd shields are not destroyed after 30 seconds, the Iniquitous Baptist will channel energy into 2 elemental orb to detonate them, each dealing '''100% ATK''' as '''DMG''' matching the elemental types of the current and next shields. Afterwards, switches to the next shield.
+* If the 3rd shield onwards is not destroyed after 25 seconds, or if a shield is destroyed but the next shield in the cycle is unavailable, the Iniquitous Baptist will perform '''Elemental Rings''' using the available element(s).
+* For the overworld variant only, every time the Iniquitous Baptist is fully paralyzed, or has successfully performed '''Elemental Rings''' twice, the durability of its shields will be halved, up to twice.
+{{Elemental Shield Data
+|title    = Cryo Shield
+|element  = Cryo
+|gu       = 12
+
+|title2   = Electro Shield
+|element2 = Electro
+|gu2      = 8
+
+|title3   = Hydro Shield
+|element3 = Hydro
+|gu3      = 12
+
+|title4   = Pyro Shield
+|element4 = Pyro
+|gu4      = 12
+}}
+|caption_2   = Shield Swap (Electro & Pyro)
+|file_2_2    = Iniquitous Baptist Phase Cycle 2
+|caption_2_2 = Shield Swap (Cryo & Hydro)
+}}
+
+===Cryo Phase===
+{{Enemy Attacks
+|name_1      = Dark Frost Icicles
+|desc_1      = Conjures 4 icicles and fires them at the player one by one, each dealing '''78% ATK''' as {{Color|Cryo DMG}}. If this attack deals DMG to the player, '''80''' [[Stamina]] will be drained. Successive hits within 3 seconds of the first one will only drain '''25''' Stamina.
+
+|name_2      = Icy Blades
+|desc_2      = Shoots 2 to 4 ice blades at the player followed by a double blade, dealing '''50% ATK''' with each ice blade and '''70% ATK''' with the double blade as {{Color|Cryo DMG}}.
+
+|name_3      = Shattering Blast
+|desc_3      = If the player is close to the Iniquitous Baptist, causes an explosion around itself, dealing '''100% ATK''' as {{Color|Cryo DMG}}.
+}}
+
+===Electro Phase===
+{{Enemy Attacks
+|name_1      = Abyssal Light
+|desc_1      = Fires 3 orbs at the player, each dealing '''50% ATK''' as {{Color|Electro DMG}}. If this attack deals DMG to the player, drains 20 [[Energy]] from each party member.
+
+|name_2      = Violet Beam
+|desc_2      = Fires a charged laser beam at the player, dealing '''100% ATK''' as {{Color|Electro DMG}}.
+
+|name_3      = Lances of Retribution
+|desc_3      = Throws 2 lances consecutively at the player, each dealing  '''70% ATK''' as {{Color|Electro DMG}}.
+
+|name_4      = Teleport
+|desc_4      = If the player is close to the Iniquitous Baptist, teleports away from the player.
+}}
+
+===Hydro Phase===
+{{Enemy Attacks
+|name_1 = Surging Tide
+|desc_1 = Shoots 2 to 6 water blades at the player followed by a double blade, dealing '''50% ATK''' with each water blade and '''70% ATK''' with the double blade as {{Color|Hydro DMG}}. If this attack deals DMG to the player, extends ongoing [[cooldown]]s of all party members by 6 seconds.
+|name_2 = Orbs of Cleansing
+|desc_2 = Conjures 4 water bombs which home toward the player, each dealing '''80% ATK''' as {{Color|Hydro DMG}}.
+}}
+
+===Pyro Phase===
+{{Enemy Attacks
+|name_1 = Searing Precept
+|desc_1 = Summons a total of 7 bursts of flame from the ground in 3 waves, each dealing '''50% ATK''' as {{Color|Pyro DMG}} and applying the Brand of the Abyssal Flame status to players damaged. Shortly after being applied, Brand of the Abyssal Flame will expire and drain [[HP]] from all party members.
+* Although [[shields]] and [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]] can stop the status from being applied, they cannot negate the DMG dealt once it has already been applied. The on-field character can negate this HP Loss to themselves using [[Elemental Burst]] i-frames, but off-field characters will be affected regardless.
+* Off-field characters will not be drained below 15% Max HP by this ability.
+* The HP Loss dealt by the Brand of the Abyssal Flame is calculated as:<br><math>\text{HP Loss} = 0.133 \times \text{ATK}_\text{Iniquitous Baptist} + 0.15 \times \text{Max HP}_\text{Character}</math>
+|file_1 = Iniquitous Baptist Abyssal Flame
+
+|name_2 = Orbs of Incineration
+|desc_2 = Conjures 4 fire bombs which home toward the player, each dealing '''80% ATK''' as {{Color|Pyro DMG}}.
+}}
+
+==Achievements==
+{{Achievement Topic Table|topic=Iniquitous Baptist}}
+
+==Cleansing of Sin==
+{{Description|A seeker of truths once caught a glimpse of the pitch-dark world beyond the skies. They continue to whisper accursed prayers, guiding mortals toward the path to the paradise of truth.}}
+[[File:Cleansing of Sin.png|400px]]
+
+==Voice-Overs==
+{{Stub|Missing Korean transcriptions.[[Category:VO Korean Romanization Missing]]}}
+{{VO/Enemy
+|enemy                   = Iniquitous Baptist
+|vo_01_00_title          = Entering Battle
+|vo_01_01_file           = VO {lang}{name} - Ah Heheheheheh A Lost Lamb.ogg
+|vo_01_01_tx_en          = Ah... Heheheheheh. A lost lamb.
+|vo_01_01_tx_zh          = 啊…迷途的旅者。
+|vo_01_01_rm_zh          = A... Mítú de lǚzhě.
+|vo_01_01_tx_ja          = ああ…迷える旅人よ。
+|vo_01_01_rm_ja          = Aa... Mayoeru tabibito yo.
+|vo_01_01_tx_ko          = 아... 길잃은 여행자여
+|vo_01_01_rm_ko          = A... Girireun yeohaengja-yeo
+
+|vo_01_02_file           = VO {lang}{name} - I Will Cleanse You Of Your Sins.ogg
+|vo_01_02_tx_en          = I will cleanse you of your sins.
+|vo_01_02_tx_zh          = 由我…为你净罪。
+|vo_01_02_rm_zh          = Yóu wǒ... wèi nǐ jìngzuì.
+|vo_01_02_tx_ja          = 我が罪過を浄めて進ぜよう。
+|vo_01_02_rm_ja          = Ware ga zaika wo kiyomete shinzeyou.
+|vo_01_02_tx_ko          = 내가 그대의 죄를 사하노라
+|vo_01_02_rm_ko          = Naega geudae-ui joereul sahanora
+
+|vo_02_00_title          = Elemental Rings
+|vo_02_01_file           = VO {lang}{name} - Salvation Belongs To The Abyss.ogg
+|vo_02_01_tx_en          = Salvation belongs to the Abyss!
+|vo_02_01_tx_zh          = 深渊之理，赦救万物！
+|vo_02_01_rm_zh          = Shēnyuān zhī lǐ, shèjiù wànwù!
+|vo_02_01_tx_ja          = アビスの理は万物を許す、救う！
+|vo_02_01_rm_ja          = Abisu no kotowari wa banbutsu wo yurusu, sukuu!
+|vo_02_01_tx_ko          = {{tx}}
+|vo_02_01_rm_ko          = 
+
+|vo_02_02_file           = VO {lang}{name} - Give Thanks And Receive Thy Blessing.ogg
+|vo_02_02_tx_en          = Give thanks and receive thy blessing!
+|vo_02_02_tx_zh          = 颂我真眷，领受至福！
+|vo_02_02_rm_zh          = Sòng wǒ zhēnjuàn, lǐngshòu zhìfú!
+|vo_02_02_tx_ja          = 我が真なる恩恵を称えよ！至福を賜るのだ！
+|vo_02_02_rm_ja          = Waga shin-naru onkei wo tataeyo! Shifuku wo tamawaru no da!
+|vo_02_02_tx_ko          = {{tx}}
+|vo_02_02_rm_ko          = 
+
+|vo_03_00_title          = Shield Swap
+|vo_03_01_file           = VO {lang}{name} - Let The Blind See.ogg
+|vo_03_01_tx_en          = Let the blind see!
+|vo_03_01_tx_zh          = 真典示现！
+|vo_03_01_rm_zh          = Zhēndiǎn shìxiàn!
+|vo_03_01_tx_ja          = 真典顕現！
+|vo_03_01_rm_ja          = Shinten kengen!
+|vo_03_01_tx_ko          = {{tx}}
+|vo_03_01_rm_ko          = 
+
+|vo_03_02_file           = VO {lang}{name} - False Laws Begone.ogg
+|vo_03_02_tx_en          = False laws begone!
+|vo_03_02_tx_zh          = 卷涤外法！
+|vo_03_02_rm_zh          = Juǎndí wàifǎ!
+|vo_03_02_tx_ja          = 外法浄化！
+|vo_03_02_rm_ja          = Gehou jouka!
+|vo_03_02_tx_ko          = {{tt|이단|異端}}은 전부 쓸어버린다!
+|vo_03_02_rm_ko          = Idaneun jeonbu sseureobeorinda!
+
+|vo_04_00_title          = Icy Blades
+|vo_04_01_file           = VO {lang}{name} - Scour Thy Soul.ogg
+|vo_04_01_tx_en          = Scour thy soul!
+|vo_04_01_tx_zh          = 冥风刑受！
+|vo_04_01_rm_zh          = Míngfēng xíng shòu!
+|vo_04_01_tx_ja          = 冥風の刑を受けよ。
+|vo_04_01_rm_ja          = Meifuu no kei wo ukeyo.
+|vo_04_01_tx_ko          = 어둠의 형벌!
+|vo_04_01_rm_ko          = Eodum-ui hyeongbeol!
+
+|vo_05_00_title          = Shattering Blast
+|vo_05_01_file           = VO {lang}{name} - Be Still And Know.ogg
+|vo_05_01_tx_en          = Be still and know!
+|vo_05_01_tx_zh          = 寂苦行悟！
+|vo_05_01_rm_zh          = Jìkǔ xíngwù!
+|vo_05_01_tx_ja          = 苦しみ、すなわち悟り！
+|vo_05_01_rm_ja          = Kurushimi, sunawachi satori!
+|vo_05_01_tx_ko          = {{tx}}
+|vo_05_01_rm_ko          = 
+
+|vo_05_02_file           = VO {lang}{name} - All Who Have Sinned Must Pay.ogg
+|vo_05_02_tx_en          = All who have sinned must pay!
+|vo_05_02_tx_zh          = 皆有报偿！
+|vo_05_02_rm_zh          = Jiē yǒu bàocháng!
+|vo_05_02_tx_ja          = 報いは訪れる！
+|vo_05_02_rm_ja          = Mukui wa otozureru!
+|vo_05_02_tx_ko          = {{tx}}
+|vo_05_02_rm_ko          = 
+
+|vo_06_00_title          = Abyssal Light
+|vo_06_01_file           = VO {lang}{name} - Come To The Light.ogg
+|vo_06_01_tx_en          = Come to the light!
+|vo_06_01_tx_zh          = 震耳的启迪！
+|vo_06_01_rm_zh          = Zhèn'ěr de qǐdí!
+|vo_06_01_tx_ja          = 耳を穿つ啓発！
+|vo_06_01_rm_ja          = Mimi wo ugatsu keihatsu!
+|vo_06_01_tx_ko          = {{tx}}
+|vo_06_01_rm_ko          = 
+
+|vo_07_00_title          = Violet Beam
+|vo_07_01_file           = VO {lang}{name} - Your Penance Is Due.ogg
+|vo_07_01_tx_en          = Your penance is due!
+|vo_07_01_tx_zh          = 明鉴复孽！
+|vo_07_01_rm_zh          = Míngjiàn fùniè!
+|vo_07_01_tx_ja          = 汝の罪忌を見たり！
+|vo_07_01_rm_ja          = Nanji no zaiki wo mitari!
+|vo_07_01_tx_ko          = {{tx}}
+|vo_07_01_rm_ko          = 
+
+|vo_07_02_file           = VO {lang}{name} - Sin Lies Within You.ogg
+|vo_07_02_tx_en          = Sin lies within you!
+|vo_07_02_tx_zh          = 汝非无罪！
+|vo_07_02_rm_zh          = Rǔ fēi wúzuì!
+|vo_07_02_tx_ja          = 汝、潔白に非ず！
+|vo_07_02_rm_ja          = Nanji, keppaku ni arazu!
+|vo_07_02_tx_ko          = 그대는 결과 무고하지 않다!
+|vo_07_02_rm_ko          = Geudaeneun gyeolgwa mugohaji anta!
+
+|vo_08_00_title          = Lances of Retribution
+|vo_08_01_file           = VO {lang}{name} - Pine Ye For Redemption.ogg
+|vo_08_01_tx_en          = Pine ye for redemption!
+|vo_08_01_tx_zh          = 痛悟真眷！
+|vo_08_01_rm_zh          = Tòngwù zhēnjuàn!
+|vo_08_01_tx_ja          = その身で恩恵を知れ！
+|vo_08_01_rm_ja          = Sono mi de onkei wo shire!
+|vo_08_01_tx_ko          = 고통 속에서 참된 자비를 느끼거라!
+|vo_08_01_rm_ko          = Gotong sogeseo chamdoen jabireul neukkigeora!
+
+|vo_08_02_file           = VO {lang}{name} - Righteous Retribution.ogg
+|vo_08_02_tx_en          = Righteous retribution!
+|vo_08_02_tx_zh          = 赐受谪罚！
+|vo_08_02_rm_zh          = Cìshòu zhéfá!
+|vo_08_02_tx_ja          = 磔刑を拝領せよ！
+|vo_08_02_rm_ja          = Takkei wo hairyou seyo!
+|vo_08_02_tx_ko          = {{tx}}
+|vo_08_02_rm_ko          = 
+
+|vo_09_00_title          = Surging Tide
+|vo_09_01_file           = VO {lang}{name} - Your Sins Are Forgiven.ogg
+|vo_09_01_tx_en          = Your sins are forgiven!
+|vo_09_01_tx_zh          = 为你除罪。
+|vo_09_01_rm_zh          = Wèi nǐ chúzuì!
+|vo_09_01_tx_ja          = 汝の罪を許そう。
+|vo_09_01_rm_ja          = Nanji no tsumi wo yurusou.
+|vo_09_01_tx_ko          = 그대의 죄를 없애어라!
+|vo_09_01_rm_ko          = Geudae-ui joereul eopsaeeora!
+
+|vo_10_00_title          = Orbs of Cleansing
+|vo_10_01_file           = VO {lang}{name} - Sin Be Washed Away.ogg
+|vo_10_01_tx_en          = Sin... be washed away!
+|vo_10_01_tx_zh          = 赦洗诸恶！
+|vo_10_01_rm_zh          = Shèxǐ zhū è!
+|vo_10_01_tx_ja          = 諸悪を洗い流さん！
+|vo_10_01_rm_ja          = Shoaku wo arainagasan!
+|vo_10_01_tx_ko          = 모든 악을 씻어내리!
+|vo_10_01_rm_ko          = Modeun ageul ssiseonaeri!
+
+|vo_11_00_title          = Searing Precept
+|vo_11_01_file           = VO {lang}{name} - Burn This Barren Wasteland.ogg
+|vo_11_01_tx_en          = Burn this barren wasteland!
+|vo_11_01_tx_zh          = 焦恶废土！
+|vo_11_01_rm_zh          = Jiāo'è fèitǔ!
+|vo_11_01_tx_ja          = 焼け焦げた荒れ野よ！
+|vo_11_01_rm_ja          = Yakekogeta areno yo!
+|vo_11_01_tx_ko          = {{tx}}
+|vo_11_01_rm_ko          = 
+
+|vo_11_02_file           = VO {lang}{name} - The Road To Redemption.ogg
+|vo_11_02_tx_en          = The road to redemption!
+|vo_11_02_tx_zh          = 赎罪之路！
+|vo_11_02_rm_zh          = Shǔzuì zhī lù!
+|vo_11_02_tx_ja          = 贖罪の道！
+|vo_11_02_rm_ja          = Shokuzai no michi!
+|vo_11_02_tx_ko          = 속죄의 길!
+|vo_11_02_rm_ko          = Sokjoe-ui gil!
+
+|vo_12_00_title          = Orbs of Incineration
+|vo_12_01_file           = VO {lang}{name} - Burn The Unholy Dross.ogg
+|vo_12_01_tx_en          = Burn the unholy dross!
+|vo_12_01_tx_zh          = 燃除恶孽！
+|vo_12_01_rm_zh          = Ránchú èniè!
+|vo_12_01_tx_ja          = 罪悪を燃やし尽くせ！
+|vo_12_01_rm_ja          = Zaiaku wo moyashitsukuse!
+|vo_12_01_tx_ko          = {{tx}}
+|vo_12_01_rm_ko          = 
+
+|vo_13_00_title          = Short Paralysis
+|vo_13_01_file           = VO {lang}{name} - Do Not Fight Your Salvation.ogg
+|vo_13_01_tx_en          = Do not fight your salvation!
+|vo_13_01_tx_zh          = 抗受…真眷！
+|vo_13_01_rm_zh          = Kàngshòu... zhēnjuàn!
+|vo_13_01_tx_ja          = 真なる恩恵を拒むとは…！
+|vo_13_01_rm_ja          = Shin-naru onkei wo kobamu to wa...!
+|vo_13_01_tx_ko          = {{tx}}
+|vo_13_01_rm_ko          = 
+
+|vo_13_02_file           = VO {lang}{name} - One More Sin Upon Your Soul.ogg
+|vo_13_02_tx_en          = One more sin upon your soul!
+|vo_13_02_tx_zh          = 罪加…一等！
+|vo_13_02_rm_zh          = Zuì jiā... yī děng!
+|vo_13_02_tx_ja          = 罪を一つ加えよ！
+|vo_13_02_rm_ja          = Tsumi wo hitotsu kuwaeyo!
+|vo_13_02_tx_ko          = {{tx}}
+|vo_13_02_rm_ko          = 
+
+|vo_14_00_title          = Full Paralysis
+|vo_14_01_file           = VO {lang}{name} - Your Atonement Has Barely Begun.ogg
+|vo_14_01_tx_en          = Your atonement has barely begun.
+|vo_14_01_tx_zh          = 判罚…未终…
+|vo_14_01_rm_zh          = Pànfá... wèi zhōng...
+|vo_14_01_tx_ja          = 裁定は…終わっておらぬ！
+|vo_14_01_rm_ja          = Saitei wa... owatte oranu!
+|vo_14_01_tx_ko          = {{tx}}
+|vo_14_01_rm_ko          = 
+
+|vo_14_02_file           = VO {lang}{name} - Repent Of Your Sins.ogg
+|vo_14_02_tx_en          = Repent... of your sins!
+|vo_14_02_tx_zh          = 必须…导正…
+|vo_14_02_rm_zh          = Bìxū... dǎozhèng...
+|vo_14_02_tx_ja          = 導きが…必要なのだ！
+|vo_14_02_rm_ja          = Michibiki wa... hitsuyou na no da!
+|vo_14_02_tx_ko          = {{tx}}
+|vo_14_02_rm_ko          = 
+
+|vo_15_00_title          = Defeated
+|vo_15_01_file           = VO {lang}{name} - Wander Not Astray.ogg
+|vo_15_01_tx_en          = Wander not... astray.
+|vo_15_01_tx_zh          = 依旧…迷途未返…
+|vo_15_01_rm_zh          = Yījiù... mítú wèi fǎn...
+|vo_15_01_tx_ja          = 道に迷えど…未だ引き返すことなし…
+|vo_15_01_rm_ja          = Michi ni mayoedo... imada hikikaesu koto nashi...
+|vo_15_01_tx_ko          = {{tx}}
+|vo_15_01_rm_ko          = 
+
+|vo_15_02_file           = VO {lang}{name} - In The End All Shall Return.ogg
+|vo_15_02_tx_en          = In the end... all shall return.
+|vo_15_02_tx_zh          = 终会…归去一处。
+|vo_15_02_rm_zh          = Zhōnghuì... guīqù yī chù.
+|vo_15_02_tx_ja          = いずれ…そこへ帰る…
+|vo_15_02_rm_ja          = Izure... soko he kaeru...
+|vo_15_02_tx_ko          = {{tx}}
+|vo_15_02_rm_ko          = 
+
+<!--
+|vo_16_00_title          = ???
+|vo_16_01_file           = VO {lang}{name} - Heed The Flames.ogg
+|vo_16_01_tx_en          = Heed the flames!
+|vo_16_01_tx_zh          = 炽烈的告诫！
+|vo_16_01_rm_zh          = Chìliè de gàojiè!
+|vo_16_01_tx_ja          = 熾烈なる訓戒！
+|vo_16_01_rm_ja          = Shiretsu-naru kunkai!
+|vo_16_01_tx_ko          = {{tx}}
+|vo_16_01_rm_ko          = 
+-->
+}}
+
+==Tutorials==
+{{Tutorial|Iniquitous Baptist}}
+
+==Descriptions==
+{{Description|A monster from the Abyss that wields multiple types of [[Element|Elemental Power]] and has gained extra limbs from its "evolution."<br><br>''"The nature of the 'Abyss' is essentially irreconcilable with the elements. However, even the elements of [[god]]s can be entrapped and distorted before they are subsumed to become tools of the abyssal will. Just judging from outcomes and practical use, "Abyssal powers" seem little different from elemental items, from ones as paltry as the [[Treasure Hoarders]]' elemental containers to those as powerful as [[Vision]]s..."''<br>&mdash;Notes left behind in [[Hangeh Afrasiyab]] by someone.|[[Archive]]}}
+{{Description|A creature of the Abyss that, through the dark's stygian powers, has gained additional appendages via "evolution."<br>It is capable of wielding multiple types of elemental powers.|[[Adventurer Handbook]]}}
+
+==Trivia==
+* The Fontainian [[Jakob Ingold]] gained the ability to transform into an Iniquitous Baptist through experimentation with Abyssal power, as revealed in ''[[Limner, Dreamer, and Robotic Dog]]''.
+
+==Gallery==
+<gallery>
+Iniquitous Baptist Icon.png|Icon
+</gallery>
+<!--
+==Video Guides==
+{{EVT
+|video1   = 
+|caption1 = 
+}}
+-->
+==Other Languages==
+{{Other Languages
+|1_en      = Iniquitous Baptist
+|1_zhs     = 深罪浸礼者
+|1_zhs_rm  = Shēnzuì Jìnlǐ-zhě
+|1_zht     = 深罪浸禮者
+|1_zht_rm  = Shēnzuì Jìnlǐ-zhě
+|1_zh_tl   = Baptist of Great Sin
+|1_ja      = 深罪の浸礼者
+|1_ja_rm   = Shinzai no Shinreisha<ref>YouTube: [https://youtu.be/5jrz_Z3kmSk {{ja|Ver.3.6「盛典と慧業」予告番組}}]</ref>
+|1_ja_tl   = Baptist of Great Sin
+|1_ko      = 죄 깊은 침례자
+|1_ko_tl   = Sinful Baptist
+|1_es      = Bautista Sacrílego
+|1_es_tl   = Sacrilegious Baptist
+|1_fr      = Lustrateur inique
+|1_fr_tl   = Iniquitous Lustrator
+|1_ru      = Чудовищный креститель
+|1_ru_tl   = Monstrous Baptist
+|1_th      = Iniquitous Baptist
+|1_vi      = Kẻ Rửa Tội Tàn Ác
+|1_vi_tl   = 
+|1_de      = Lasterhafter Täufer
+|1_de_tl   = Vicious Baptist
+|1_de_note = {{de|lasterhaft|lit=vicious}} refers to vice and immorality, rather than malicious or savage behaviour.
+|1_id      = Iniquitous Baptist
+|1_pt      = Batizador Iníquo
+|1_pt_tl   = 
+|1_tr      = Günahkar Arındıran
+|1_tr_tl   = Sinful Purifier
+|1_it      = Battezzante maligno
+|1_it_tl   = Malicious Baptizer
+
+|2_en       = Iniquitous Baptist - Bringer of Flood, Flame, and Frost
+|2_zhs      = 深罪浸礼者・水火冰驱役者
+|2_zhs_rm   = 
+|2_zht      = 深罪浸禮者・水火冰驅役者
+|2_zht_rm   = 
+|2_zh_tl    = 
+|2_ja       = 深罪の浸礼者・水炎氷の導き手
+|2_ja_rm    = Shinzai no Shinreisha - Suienpyou no Michibikite{{Assumed}}
+|2_ja_tl    = Baptist of Great Sin - Guide of Water, Fire and Ice
+|2_ko       = 죄 깊은 침례자・물 불 얼음 사역자
+|2_ko_rm    = 
+|2_ko_tl    = 
+|2_es       = Bautista Sacrílego: Invocador de agua, fuego y hielo
+|2_es_tl    = Sacrilegious Baptist: Summoner of Water, Fire and Ice
+|2_fr       = Lustrateur inique : Invocateur de l'eau, du feu et du givre
+|2_fr_tl    = Iniquitous Lustrator: Summoner of Water, Fire, and Frost
+|2_ru       = Чудовищный креститель: Несущий потоп, пламя и льды
+|2_ru_tl    = Monstrous Baptist: Bringer of Flood, Flame and Ice
+|2_th       = Iniquitous Baptist: ผู้ควบคุมสายน้ำ, เปลวเพลิง และน้ำแข็ง
+|2_th_rm    = 
+|2_th_tl    = 
+|2_vi       = Kẻ Rửa Tội Tàn Ác - Người Điều Khiển Thủy, Hỏa, Băng
+|2_vi_tl    = 
+|2_de       = Lasterhafter Täufer &ndash; Beschwörer der Hydro-, Pyro- und Kryo-Kraft
+|2_de_tl    = Vicious Baptist &ndash; Summoner of Hydro, Pyro and Cryo Powers
+|2_id       = Iniquitous Baptist - Bringer of Flood, Flame, and Frost
+|2_pt       = Batizador Iníquo: Invocador do Dilúvio, Fogo e Gelo
+|2_pt_tl    = 
+|2_tr       = Günahkar Arındıran - Taşkın, Yangın ve Ayazın Tezahürü
+|2_tr_tl    = 
+|2_it       = Battezzante maligno - Portatore di alluvioni, fiamme e gelo
+|2_it_tl    = 
+
+|3_en       = Iniquitous Baptist - Caller of Flood, Flame, and Fulmination
+|3_zhs      = 深罪浸礼者・水火雷驱役者
+|3_zhs_rm   = 
+|3_zht      = 深罪浸禮者・水火雷驅役者
+|3_zht_rm   = 
+|3_zh_tl    = 
+|3_ja       = 深罪の浸礼者・水炎雷の命じ手
+|3_ja_rm    = Shinzai no Shinreisha - Suienrai no Meijite{{Assumed}}
+|3_ja_tl    = 
+|3_ko       = 죄 깊은 침례자・물 불 번개 사역자
+|3_ko_tl    = 
+|3_es       = Bautista Sacrílego: Invocador de agua, fuego y rayo
+|3_es_tl    = Sacrilegious Baptist: Summoner of Water, Fire and Thunder
+|3_fr       = Lustrateur inique : Invocateur de l'eau, du feu et de la fulmination
+|3_fr_tl    = Iniquitous Lustrator: Summoner of Water, Fire and Fulmination
+|3_ru       = Чудовищный креститель: Заклинатель потопа, пламени и молний
+|3_ru_tl    = 
+|3_th       = Iniquitous Baptist: ผู้ควบคุมสายน้ำ, เปลวเพลิง และสายฟ้า
+|3_th_rm    = 
+|3_th_tl    = 
+|3_vi       = Kẻ Rửa Tội Tàn Ác - Người Điều Khiển Thủy, Hỏa, Lôi
+|3_vi_tl    = 
+|3_de       = Lasterhafter Täufer &ndash; Beschwörer der Hydro-, Pyro- und Elektro-Kraft
+|3_de_tl    = Vicious Baptist &ndash; Summoner of Hydro, Pyro and Electro Powers
+|3_id       = Iniquitous Baptist - Caller of Flood, Flame, and Fulmination
+|3_pt       = Batizador Iníquo: Invocador do Dilúvio, Fogo e Raios
+|3_pt_tl    = 
+|3_tr       = Günahkar Arındıran - Taşkın, Yangın ve İnfilakın Çağrısı
+|3_tr_tl    = 
+|3_it       = Battezzante maligno - Araldo di alluvioni, fiamme e folgorazione
+|3_it_tl    = 
+
+
+|4_en       = Iniquitous Baptist - Invoker of Fire, Frost, and Fulmination
+|4_zhs      = 深罪浸礼者・火冰雷驱役者
+|4_zhs_rm   = 
+|4_zht      = 深罪浸禮者・火冰雷驅役者
+|4_zht_rm   = 
+|4_zh_tl    = 
+|4_ja       = 深罪の浸礼者・炎氷雷の使い手
+|4_ja_rm    = Shinzai no Shinreisha - Enpyourai no Tsukaite{{Assumed}}
+|4_ja_tl    = Baptist of Great Sin - Master of Fire, Ice and Thunder
+|4_ko       = 죄 깊은 침례자・불 얼음 번개 사역자
+|4_ko_rm    = 
+|4_ko_tl    = 
+|4_es       = Bautista Sacrílego: Invocador de fuego, hielo y rayo
+|4_es_tl    = Sacrilegious Baptist: Summoner of Fire, Ice and Thunder
+|4_fr       = Lustrateur inique : Invocateur du feu, du givre et de la fulmination
+|4_fr_tl    = Iniquitous Lustrator: Summoner of Fire, Frost, and Fulmination
+|4_ru       = Чудовищный креститель: Призывающий пламя, льды и молнии
+|4_ru_tl    = Monstrous Baptist: Summoner of Flame, Ice and Lightning
+|4_th       = Iniquitous Baptist: ผู้ควบคุมเปลวเพลิง, น้ำแข็ง และสายฟ้า
+|4_th_rm    = 
+|4_th_tl    = 
+|4_vi       = Kẻ Rửa Tội Tàn Ác - Người Điều Khiển Hỏa, Băng, Lôi
+|4_vi_tl    = 
+|4_de       = Lasterhafter Täufer &ndash; Beschwörer der Pyro-, Kryo- und Elektro-Kraft
+|4_de_tl    = Vicious Baptist &ndash; Summoner of Pyro, Cryo and Electro Powers
+|4_id       = Iniquitous Baptist - Invoker of Flame, Frost, and Fulmination
+|4_pt       = Batizador Iníquo: Invocador do Fogo, Gelo e Raios
+|4_pt_tl    = 
+|4_tr       = Günahkar Arındıran - Yangın, Ayaz ve İnfilakın Yakarışı
+|4_tr_tl    = 
+|4_it       = Battezzante maligno - Invocatore di fiamma, gelo e folgorazione
+|4_it_tl    = 
+}}
+
+==Change History==
+{{Change History|3.6}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Enemy Navbox|Bosses}}
+
+[[es:Bautista Sacrílego]]
+[[fr:Lustrateur inique]]
+[[ja:深罪の浸礼者]]
+[[pt-br:Batizador Iníquo]]
+[[zh:深罪浸禮者]]

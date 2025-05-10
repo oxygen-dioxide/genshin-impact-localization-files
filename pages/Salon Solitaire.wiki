@@ -1,0 +1,243 @@
+{{Talent Infobox
+|image         = Talent Salon Solitaire.png
+|character     = Furina
+|type          = Elemental Skill
+|info          = Invites the guests of the Salon Solitaire to come forth and aid in Furina's performance. Will summon either the Salon Members or the Singer of Many Waters based on Furina's current [[Arkhe]] alignment.<br><br>'''Ousia'''<br>Foaming bubbles like celebrants shall dance, dealing {{Color|AoE Hydro DMG}} based on Furina's [[Max HP]] and summoning 3 Salon Members: the Ball Octopus-shaped Gentilhomme Usher, the Bubbly Seahorse-shaped Surintendante Chevalmarin, and the Armored Crab-shaped Mademoiselle Crabaletta.<br>They will attack nearby opponents at intervals, prioritizing the target of the active character, dealing {{Color|Hydro}} DMG based on Max HP.<br>When they attack, if character(s) with more than 50% HP are nearby, the Members will increase their current attack's power based on the number of such characters, and consume said characters' HP. If the characters who meet these requirements are 1/2/3/4 (or more), the Members' attacks will deal 110%/120%/130%/140% of their original DMG.<br><br>'''Pneuma'''<br>Summons the Singer of Many Waters, who will [[heal]] nearby active character(s) based on Max HP at intervals.<br><br>The Salon Members and Singer of Many Waters share a duration, and when Furina uses her [[Soloist's Solicitation|Charged Attack]] to change the guest type, the new guests will inherit the initial duration.<br>While the Salon Members and the Singer of Many Waters are on the field, Furina can move on the [[water]]'s surface.
+|CD            = 20s
+|duration      = 30s
+|scale_att1    = Max HP
+|utility1      = Healing
+|utility2      = Health Depletion
+|utility3      = Water Traversing
+|utility4      = Base DMG Multiplier
+}}
+{{Description|A fixed roster of regulars frequent Furina's Salon Solitaire. At other times, Mademoiselle Crabaletta, Surintendante Chevalmarin, and Gentilhomme Usher shall visit, and on gloomy Wednesdays, it is the singer who comes by.}}
+'''Salon Solitaire''' is [[Furina]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{Talent Note|particles|a Salon Member's attack|1}}
+** This particle generation has a cooldown of '''2.5''' seconds.
+* In [[Co-Op Mode]], only one instance of Furina's Elemental Skill can exist at a time. The last player to use this skill will replace the already existing instance. Overriding another player's Elemental Skill will also remove their ability to walk on water. Only the last player to use this skill can change which version of the skill is active via Furina's Arkhe alignment.
+* The Singer of Many Waters will heal nearby active characters every 2s.
+* Salon Members drain HP when they attack, not when they hit a target. The HP drain will still occur even if the attack misses.
+* Salon Members will attack non-enemy targetable objects like campfires and [[Pneumousia Relay]]s.
+* Salon Members have the same AI mechanics as enemies. See [[Cooldown#Enemy Cooldowns]] for more information on how their cooldowns function.<!--
+--><table class="wikitable"><!--
+--><tr><!--
+--><th>Salon Member</th><!--
+--><th>AI Logic</th><!--
+--></tr><!--
+--><tr><!--
+--><td>Gentilhomme Usher</td><!--
+--><td><ul><!--
+--><li>Will attack if target is within '''6m''', with '''2.9s''' CD.</li><!--
+--><li>Will teleport near target if out of range, with '''1.5s''' CD.</li><!--
+--></ul></td><!--
+--></tr><!--
+--><tr><!--
+--><td>Surintendante Chevalmarin</td><!--
+--><td><ul><!--
+--><li>Will attack if target is within '''9.5m''', with '''1.19s''' CD.</li><!--
+--><li>Will teleport near target if out of range, with '''1.5s''' CD.</li><!--
+--><li>Has '''0.5s''' global CD for both teleporting and attacking.</li><!--
+--></ul></td><!--
+--></tr><!--
+--><tr><!--
+--><td>Mademoiselle Crabaletta</td><!--
+--><td><ul><!--
+--><li>Will attack if target is within '''20m''', with '''4.8s''' CD.</li><!--
+--><li>Will teleport near target if out of range, with '''1.5s''' CD.</li><!--
+--></ul></td><!--
+--></tr><!--
+--></table>
+:<gallery>
+Talent Salon Solitaire 2.png|Pneuma Icon
+</gallery>
+
+;<big>Passive Effects</big>
+* {{Talent Note|ascension|2|Unheard Confession|character=Furina|talent=Salon Solitaire}}
+
+;<big>Constellation Effects</big>
+* {{Talent Note|constellation|4|"They Know Not Life, Who Dwelt in the Netherworld Not!"}}
+* {{Talent Note|constellation|5|"His Name I Now Know, It Is...!"}}
+* {{Talent Note|constellation|6|"Hear Me — Let Us Raise the Chalice of Love!"|During the first 10 seconds after using Salon Solitaire, Furina's first six Normal, Charged, or Plunging Attacks are [[converted]] into {{Color|Hydro DMG}}, have their damage increased based on Furina's Max HP, and grant different effects based on Furina's Arkhe alignment when each attack is {{tx}}{{Verify|started or completed? relevant for CA}}:}}
+** If Furina is aligned with Ousia, all nearby characters are briefly healed over time.
+** If Furina is aligned with Pneuma, all nearby characters lose 1% of their current HP and the attack's damage receives another increase based on Furina's Max HP.
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Ousia Bubble DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 20
+|impulse = 2
+
+|title2   = Gentilhomme Usher DMG
+|gu2      = 1U
+|icdtag2  = Octopus
+|icdtype2 = 30s/2 Hits
+|poise2   = 15
+|impulse2 = 2
+
+|title3   = Surintendante Chevalmarin DMG
+|gu3      = 1U
+|icdtag3  = Seahorse
+|icdtype3 = 30s/2 Hits
+|poise3   = 10
+|impulse3 = 2
+
+|title4   = Mademoiselle Crabaletta DMG
+|gu4      = 1U
+|icdtag4  = none
+|poise4   = 30
+|impulse4 = 3
+}}
+
+==Preview==
+{{Preview
+|file1    = Salon Solitaire Ousia Preview
+|caption1 = Ousia
+
+|file2    = Salon Solitaire Pneuma Preview
+|caption2 = Pneuma
+
+|file3    = Salon Solitaire Salon Members Preview
+|caption3 = Salon Members
+
+|file4    = Salon Solitaire Water Walk Preview
+|caption4 = Walking on Water
+}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|levels=13
+|order=ousiabubbledmg,duration,gentilhommeusherdmg,surintendantechevalmarindmg,mademoisellecrabalettadmg,gentilhommeusherhpconsumption,surintendantechevalmarinhpconsumption,mademoisellecrabalettahpconsumption,singerofmanywatershealing,cd
+|titles=Ousia Bubble DMG (% Max HP),Duration,Gentilhomme Usher DMG (% Max HP),Surintendante Chevalmarin DMG (% Max HP),Mademoiselle Crabaletta DMG (% Max HP),Gentilhomme Usher HP Consumption (% Max HP),Surintendante Chevalmarin HP Consumption (% Max HP),Mademoiselle Crabaletta HP Consumption (% Max HP),Singer of Many Waters Healing,CD
+|ousiabubbledmg_1=7.86
+|ousiabubbledmg_2=8.45
+|ousiabubbledmg_3=9.04
+|ousiabubbledmg_4=9.83
+|ousiabubbledmg_5=10.42
+|ousiabubbledmg_6=11.01
+|ousiabubbledmg_7=11.8
+|ousiabubbledmg_8=12.58
+|ousiabubbledmg_9=13.37
+|ousiabubbledmg_10=14.16
+|ousiabubbledmg_11=14.94
+|ousiabubbledmg_12=15.73
+|ousiabubbledmg_13=16.71
+|duration=30s
+|gentilhommeusherdmg_1=5.96
+|gentilhommeusherdmg_2=6.41
+|gentilhommeusherdmg_3=6.85
+|gentilhommeusherdmg_4=7.45
+|gentilhommeusherdmg_5=7.9
+|gentilhommeusherdmg_6=8.34
+|gentilhommeusherdmg_7=8.94
+|gentilhommeusherdmg_8=9.54
+|gentilhommeusherdmg_9=10.13
+|gentilhommeusherdmg_10=10.73
+|gentilhommeusherdmg_11=11.32
+|gentilhommeusherdmg_12=11.92
+|gentilhommeusherdmg_13=12.67
+|surintendantechevalmarindmg_1=3.23
+|surintendantechevalmarindmg_2=3.47
+|surintendantechevalmarindmg_3=3.72
+|surintendantechevalmarindmg_4=4.04
+|surintendantechevalmarindmg_5=4.28
+|surintendantechevalmarindmg_6=4.52
+|surintendantechevalmarindmg_7=4.85
+|surintendantechevalmarindmg_8=5.17
+|surintendantechevalmarindmg_9=5.49
+|surintendantechevalmarindmg_10=5.82
+|surintendantechevalmarindmg_11=6.14
+|surintendantechevalmarindmg_12=6.46
+|surintendantechevalmarindmg_13=6.87
+|mademoisellecrabalettadmg_1=8.29
+|mademoisellecrabalettadmg_2=8.91
+|mademoisellecrabalettadmg_3=9.53
+|mademoisellecrabalettadmg_4=10.36
+|mademoisellecrabalettadmg_5=10.98
+|mademoisellecrabalettadmg_6=11.6
+|mademoisellecrabalettadmg_7=12.43
+|mademoisellecrabalettadmg_8=13.26
+|mademoisellecrabalettadmg_9=14.09
+|mademoisellecrabalettadmg_10=14.92
+|mademoisellecrabalettadmg_11=15.75
+|mademoisellecrabalettadmg_12=16.58
+|mademoisellecrabalettadmg_13=17.61
+|gentilhommeusherhpconsumption=2.4
+|surintendantechevalmarinhpconsumption=1.6
+|mademoisellecrabalettahpconsumption=3.6
+|singerofmanywatershealing_1=4.8% Max HP+462
+|singerofmanywatershealing_2=5.16% Max HP+508
+|singerofmanywatershealing_3=5.5% Max HP+559
+|singerofmanywatershealing_4=6% Max HP+612
+|singerofmanywatershealing_5=6.36% Max HP+670
+|singerofmanywatershealing_6=6.72% Max HP+732
+|singerofmanywatershealing_7=7.2% Max HP+797
+|singerofmanywatershealing_8=7.68% Max HP+867
+|singerofmanywatershealing_9=8.16% Max HP+940
+|singerofmanywatershealing_10=8.64% Max HP+1017
+|singerofmanywatershealing_11=9.12% Max HP+1098
+|singerofmanywatershealing_12=9.6% Max HP+1183
+|singerofmanywatershealing_13=10.2% Max HP+1271
+|cd=20s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Furina}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Trivia==
+* {{Talent Note|clap|the {{Pneuma}} version of this talent}} Using the {{Ousia}} version of this talent will cause NPCs to flinch instead.
+* The salon members all have names of French origin:
+** Gentilhomme Usher means "Gentleman Usher."
+** Mademoiselle Crabaletta means "Miss Crabaletta."
+** Surintendante Chevalmarin means "Superintendant Sea Horse." Note that {{Fr|surintendante}} is the feminine form and the French for seahorse is {{Fr|hippocampe}}.
+
+==Other Languages==
+{{Other Languages
+|en      = Salon Solitaire
+|en_lang = fr
+|en_tl   = Solitary {{w|Salon (gathering)|Salon}}
+|zhs     = 孤心沙龙
+|zhs_rm  = Gūxīn Shālóng
+|zht     = 孤心沙龍
+|zht_rm  = Gūxīn Shālóng
+|zh_tl   = Solitary Heart Salon
+|ja      = サロン・ソリティア
+|ja_rm   = Saron - Soritia
+|ja_tl   = Salon Solitaire
+|ko      = 고고한 살롱
+|ko_rm   = 
+|ko_tl   = 
+|es      = Salón Solitaire
+|fr      = Salon solitaire
+|ru      = Салон одиноких сердец
+|ru_tl   = Solitary Hearts Salon
+|th      = Salon Solitaire
+|vi      = Salon Cô Độc
+|vi_tl   = Lonely Salon
+|de      = Salon Solitaire
+|id      = Salon Solitaire
+|pt      = Salon Solitaire
+|tr      = Yalnızlık Salonu
+|tr_tl   = Solitary Salon
+|it      = Salon Solitaire
+}}
+
+==Change History==
+{{Change History|4.2}}
+
+==Navigation==
+{{Talent Navbox|Furina}}
+
+[[es:Salón Solitaire]]
+[[fr:Salon solitaire]]
+[[ru:Салон одиноких сердец]]
+[[th:Salon Solitaire]]
+[[tr:Yalnızlık Salonu]]
+[[vi:Salon Cô Độc]]

@@ -2,45 +2,44 @@
 |image         = Talent Stellaris Phantasm.png
 |character     = Mona
 |type          = Elemental Burst
-|info          = Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large [[AoE]].<br /><br />'''Illusory Bubble'''<br />Traps opponents inside a pocket of destiny and also makes them {{Color|Hydro|Wet}}.<br />Renders weaker opponents [[Immobilization|immobile]].<br />When an opponent affected by Illusory Bubble sustains DMG, it has the following effects:<ul><li>Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.</li><li>Removes the Illusory Bubble, dealing {{Color|Hydro}} DMG in the process.</li></ul><br />'''Omen'''<br />During its duration, increases DMG taken by opponents.
+|info          = Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large [[AoE]].<br><br>'''Illusory Bubble'''<br>Traps opponents inside a pocket of destiny and also makes them {{Color|Hydro|Wet}}.<br>Renders weaker opponents immobile.<br>When an opponent affected by Illusory Bubble sustains DMG, it has the following effects:<ul><li>Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.</li><li>Removes the Illusory Bubble, dealing {{Color|Hydro}} DMG in the process.</li></ul><br>'''Omen'''<br>During its duration, increases DMG taken by opponents.
 |energyCost    = 60
 |CD            = 15s
 |attr1         = Illusory Bubble Duration
 |value1        = 8s
 |attr2         = Illusory Bubble Explosion DMG
-|value2        = 442-940%
+|value2        = 442–940%
 |attr3         = DMG Bonus
-|value3        = 42-60%
+|value3        = 42–60%
 |attr4         = Omen Duration
-|value4        = 4.0-5.0s
+|value4        = 4.0–5.0s
 |utility1      = DMG Bonus
 |utility2      = Wet Status to Opponents
-|utility3      = Immobilization
-|utility4      = AoE
-|utility5      = Effects Retained Character Fallen
-|utility6      = Status to Enemy
-|utility7      = Enemy DMG Reduction Decrease
+|utility3      = Effects Retained Character Fallen
+|utility4      = Status to Enemy
+|utility5      = Enemy DMG Reduction Decrease
+|utility6      = Struggle State
 |scale_att1    = ATK
 }}
 {{Description|It was from the time that gods first traced the lights in the heavens with their eyes that the notion of "fate" was born.}}
 '''Stellaris Phantasm''' is [[Mona]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* {{TalentNote|energy frame|13}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
-* {{TalentNote|cooldown frame|2}}<ref name="Genshin Academy burst info sheet" />
 * Illusory Bubble and Omen are both applied upon casting Stellaris Phantasm.
 * When Illusory Bubble is active on an enemy, there is a constellation-like marking on that enemy. When Omen is active on an enemy, there is a starry purple aura around that enemy.
-* Stellaris Phantasm applies {{Color|Wet}} twice: once when cast, and once when the Illusory Bubble bursts.
-* Hits that do not deal [[Poise Damage]] will not burst the bubble.
+* Stellaris Phantasm is able to apply {{Color|Wet}} up to twice: once when cast, and once when the Illusory Bubble bursts. However, standard [[ICD]] applies for the two applications.
 * If no outside source bursts the bubble, it automatically bursts after 8 seconds.
 * Omen status timer only starts after the bubble bursts. Since Omen is applied from the initial cast of the skill, if the bubble lasts for its whole duration (8s), Omen can have a maximum duration of 13s.
-* {{TalentNote|character=Mona|talent=Stellaris Phantasm|no snapshot|Illusory Bubble Explosion DMG}}
+* Illusory Bubble bursts when the affected target is hit by an attack that deals more than 0 [[Poise Damage]]. This means that attacks that deal no damage but do deal Poise Damage (e.g. [[Hu Tao]]'s [[Guide to Afterlife|Elemental Skill]] activation) will burst the bubble, while hits that deal no Poise Damage will not burst it.
+** This mechanic can be used as a means to extend the effective duration of Omen, such as when combined with the [[Frozen]] Elemental Reaction: Frozen targets are immune to Poise Damage, so any attacks against them will not burst the Illusory Bubble until they unfreeze. As a result, the start of Omen's duration countdown is delayed while characters attacking the Frozen target still benefit from the DMG Bonus.
+* {{Talent Note|character=Mona|talent=Stellaris Phantasm|no snapshot|Illusory Bubble Explosion DMG}}
 * The [[Damage Bonus|DMG Bonus]] is additive to other sources of DMG Bonus, such as Mona's [[4th Ascension Passive]] passive, [[Waterborne Destiny]].
+* The Illusory Bubble applies a [[Struggle]] state to enemies whose [[weight]] is less than or equal to '''100''', preventing them from performing any actions. However, the Struggle state will not be applied to enemies more than 20 levels higher than Mona.
 
 ;<big>Constellation Effects</big>
-*{{TalentNote|constellation|1|Prophecy of Submersion|increases Electro-Charged DMG, Vaporize DMG, Hydro Swirl DMG, and Frozen duration by 15% when any of the player's own party members hits an opponent affected by Omen.}}
-*{{TalentNote|constellation|3|Restless Revolution}}
-*{{TalentNote|constellation|4|Prophecy of Oblivion}}
+*{{Talent Note|constellation|1|Prophecy of Submersion|increases Electro-Charged DMG, Vaporize DMG, Hydro Swirl DMG, and Frozen duration by 15% when any of the player's own party members hits an opponent affected by Omen.}}
+*{{Talent Note|constellation|3|Restless Revolution}}
+*{{Talent Note|constellation|4|Prophecy of Oblivion}}
 
 ==Advanced Properties==
 {{Advanced Properties
@@ -66,8 +65,8 @@
 
 ==Gallery==
 <gallery>
-Omen-status-marking.png|Visible marking on an enemy affected by Omen (right)
-Illusory Bubble Marking.PNG|Constallation-like markings on enemies affected by Illusory Bubble
+Omen Status Mark.png|Visible marking on an enemy affected by Omen (right)
+Illusory Bubble Marking.PNG|Constellation-like markings on enemies affected by Illusory Bubble
 </gallery>
 {{clr}}
 
@@ -131,7 +130,7 @@ Illusory Bubble Marking.PNG|Constallation-like markings on enemies affected by I
 {{Talent VO}}
 
 ==Trivia==
-* {{TalentNote|clap}}
+* {{Talent Note|clap}}
 * While wearing her default outfit, [[Flowing Fate]], or her alternate outfit, [[Pact of Stars and Moon]], when Mona's Elemental Burst is ready, the red parts of the ornaments on her hat, leg, and pigtails will glow along with her Vision.
 
 ==Other Languages==
@@ -163,17 +162,17 @@ Illusory Bubble Marking.PNG|Constallation-like markings on enemies affected by I
 |pt      = Órbita Divina
 |pt_tl   = Divine Orbit
 |tr      = Kaderin Yıldızı
-|tr_tl   = 
+|tr_tl   = Star of Destiny
 |it      = Fantasma stellaris
 |it_tl   = Stellaris Phantasm
 }}
 
 ==Change History==
 {{Change History|1.0}}
-
+<!--
 ==References==
 {{Reflist}}
-
+-->
 ==Navigation==
 {{Talent Navbox|Mona}}
 
@@ -183,4 +182,5 @@ Illusory Bubble Marking.PNG|Constallation-like markings on enemies affected by I
 [[pt-br:Órbita Divina]]
 [[ru:Звёздный фантазм]]
 [[th:Stellaris Phantasm]]
+[[uk:Зоряний фантазм]]
 [[vi:Quỹ Đạo Tinh Mệnh]]

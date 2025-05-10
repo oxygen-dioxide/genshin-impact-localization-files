@@ -2,10 +2,7 @@
 |image         = Talent Icy Paws.png
 |character     = Diona
 |type          = Elemental Skill
-|info          = Fires an Icy Paw that deals {{Color|Cryo DMG}} to opponents and forms a shield on hit.<br />The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.<br /><br />'''Press'''<br />Rapidly fires off 2 Icy Paws.<br /><br />'''Hold'''<br />Dashes back quickly before firing five Icy Paws.<br />The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.<br /><br />The shield has a 250% {{Color|Cryo DMG}} Absorption Bonus, and will cause your active character to become affected by {{Cryo}} at the point of formation for a short duration.
-|energyGen     = Each Icy Paw which hits an opponent generates approximately '''0.8''' Elemental Particles.
-|particles     = 0.8×2
-|particlesHold = 0.8×5
+|info          = Fires an Icy Paw that deals {{Color|Cryo DMG}} to opponents and forms a shield on hit.<br>The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.<br><br>'''{{Control|Tap|Press|Press}}'''<br>Rapidly fires off 2 Icy Paws.<br><br>'''Hold'''<br>Dashes back quickly before firing 5 Icy Paws.<br>The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.<br><br>The shield has a 250% {{Color|Cryo DMG}} Absorption Bonus, and will cause your active character to become affected by {{Cryo}} at the point of formation for a short duration.
 |scale_att1    = Max HP
 |scale_att2    = ATK
 |utility1      = Shield
@@ -14,26 +11,28 @@
 |CD            = 6s
 |CDHold        = 15s
 |attr1         = Icy Paw DMG
-|value1        = 41.9–89.1% per paw
+|value1        = 41.9–89.1% per Paw
 |attr2         = Base Shield DMG Absorption
-|value2        = 7.2–15.3% Max HP+693–1905
+|value2        = 7.2–15.3% Max HP+693–1,905
+|duration      = 1.8–2.4s per Paw
 }}
 {{Description|When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her [[Vision]] &mdash; now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!}}
 '''Icy Paws''' is [[Diona]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
-* {{TalentNote|particles|an Icy Paw|~0.8}}
+* {{Talent Note|particles|an Icy Paw|~0.8}}
 ** On average, when all Icy Paws hit an opponent, they generate '''1.6''' Elemental Particles on press, and '''4''' Elemental Particles on hold.
 * Using this talent will inflict the {{Color|Cryo|Frozen}} status on the character for 0.1s when the shield is created.
 ** This status does not interact with the {{Color|Wet}} status, nor will it freeze the player in place like its name implies.
 * Icy Paws does not need to have to hit enemies in order to have hit a "target"; surfaces and other obstacles are regarded as targets as well.
-* Total Shield DMG Absorption can be calculated using the formula below.
-:<math>\text{Total Shield Absorption} =  \text{Base Shield Absorption}</math><math> \times (1 + 0.75 \text{ when hold}) \times \text{Shields Effectiveness} \times</math><math> (1 + 1.5 \text{ against Cryo DM}) \times (1 + 0.15 \text{ at Constellation 2})</math>
-* {{TalentNote|character=Diona|talent=Icy Paws|ascension|1|Cat's Tail Secret Menu}}
+* Total Shield DMG Absorption can be calculated using the following formula:<math>\text{Total Shield Absorption} =  \text{Base Shield Absorption}</math><math> \times (1 + 0.75 \text{ when held}) \times \text{Shield Strength} \times</math><math> (2.5 \text{ against Cryo DMG}) \times (1 + 0.15 \text{ at Constellation 2})</math>
+
+;<big>Passive Effects</big>
+* {{Talent Note|character=Diona|talent=Icy Paws|ascension|1|Cat's Tail Secret Menu}}
 
 ;<big>Constellation Effects</big>
-* {{TalentNote|constellation|2|Shaken, Not Purred}}
-* {{TalentNote|constellation|5|Double Shot, on the Rocks}}
+* {{Talent Note|constellation|2|Shaken, Not Purred}}
+* {{Talent Note|constellation|5|Double Shot, on the Rocks}}
 
 ==Advanced Properties==
 {{Advanced Properties
@@ -47,8 +46,8 @@
 |title2   = Frozen to Self
 |gu2      = 2U, 0.1s
 |icdtag2  = none
-|poise2   = —
-|impulse2 = —
+|poise2   = &mdash;
+|impulse2 = &mdash;
 }}
 
 ==Preview==
@@ -85,16 +84,16 @@
 |baseshielddmgabsorption_2=7.74% Max HP+762
 |baseshielddmgabsorption_3=8.28% Max HP+837.16
 |baseshielddmgabsorption_4=9% Max HP+918
-|baseshielddmgabsorption_5=9.54% Max HP+1004
-|baseshielddmgabsorption_6=10.08% Max HP+1096
-|baseshielddmgabsorption_7=10.8% Max HP+1195
-|baseshielddmgabsorption_8=11.52% Max HP+1299
-|baseshielddmgabsorption_9=12.24% Max HP+1408
-|baseshielddmgabsorption_10=12.96% Max HP+1524
-|baseshielddmgabsorption_11=13.68% Max HP+1645
-|baseshielddmgabsorption_12=14.4% Max HP+1772
-|baseshielddmgabsorption_13=15.3% Max HP+1905
-|baseshielddmgabsorption_14=16.2% Max HP+2044
+|baseshielddmgabsorption_5=9.54% Max HP+1,004
+|baseshielddmgabsorption_6=10.08% Max HP+1,096
+|baseshielddmgabsorption_7=10.8% Max HP+1,195
+|baseshielddmgabsorption_8=11.52% Max HP+1,299
+|baseshielddmgabsorption_9=12.24% Max HP+1,408
+|baseshielddmgabsorption_10=12.96% Max HP+1,524
+|baseshielddmgabsorption_11=13.68% Max HP+1,645
+|baseshielddmgabsorption_12=14.4% Max HP+1,772
+|baseshielddmgabsorption_13=15.3% Max HP+1,905
+|baseshielddmgabsorption_14=16.2% Max HP+2,044
 |duration_1=1.8s per Paw
 |duration_2=1.9s per Paw
 |duration_3=2s per Paw
@@ -120,7 +119,7 @@
 {{Talent VO}}
 
 ==Trivia==
-*{{TalentNote|clap}}
+*{{Talent Note|clap}}
 
 ==Other Languages==
 {{Other Languages
@@ -131,12 +130,11 @@
 |zht_rm  = Māo zhǎo dòngdong
 |zh_tl   = Frozen Cat's Claw
 |ja      = フリーズキャッツクロー
-|ja_rm   = Furiizu kyattsu kuroo
+|ja_rm   = Furiizu Kyattsu Kuroo
 |ja_tl   = Frozen Cat's Claw
 |ko      = 꽁꽁젤리
-|ko_rm   = Kkongkkongjelli
 |ko_tl   = Freezing Jelly
-|ko_note = In Korea, Koreans call the Cat's paw pad cutely and call it 냥젤리(Nyangjelly).
+|ko_note = In Korea, Koreans call the cat's paw pad cutely and call it {{ko|냥젤리|tl=Nyangjelly.}}
 |es      = Zarpazo helado
 |es_tl   = Frozen Claw
 |fr      = Griffes Cryo
@@ -152,7 +150,7 @@
 |pt      = Garra de Gato Gelada
 |pt_tl   = 
 |tr      = Buz Patisi
-|tr_tl   = 
+|tr_tl   = Ice Paw
 |it      = Zampe glaciali
 |it_tl   = Icy Paws
 }}
@@ -168,6 +166,7 @@
 
 [[es:Zarpazo helado]]
 [[fr:Griffes Cryo]]
+[[ja:フリーズキャッツクロー]]
 [[pt-br:Garra de Gato Gelada]]
 [[ru:Морозные коготочки]]
 [[th:Icy Paws]]

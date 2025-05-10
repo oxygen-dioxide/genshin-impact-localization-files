@@ -1,10 +1,9 @@
 {{Quest Infobox
-|id            = 73601
+|id            = 73061
 |image         = World Quest Starry Night Chapter.png
 |type          = World
 |chapter       = Agnihotra Sutra
 |part          = 
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = [[The World of Aranara]]
 |characters    = Anqa; Aranakin; Isan; Lunja; Minum; Paimon; Traveler; Ziri
 |startLocation = [[Avidya Forest]], [[Sumeru]]
@@ -12,19 +11,16 @@
 |area          = Avidya Forest
 |next          = The Final Chapter
 |concurrent    = Risen Moon Chapter
-|exp           = 300
-|mora          = 30,000
-|primogems     = 40
-|other         = {{Card|Hero's Wit|3}}
+|rewards       = Adventure EXP*300;Primogem*40;Mora*30,000;Hero's Wit*3
 }}
-'''''Starry Night Chapter''''' is a part of the [[Agnihotra Sutra]] [[World Quest]] series.
+'''''Starry Night Chapter''''' is a part of the [[Agnihotra Sutra]] [[World Quest]] series. The {{Quest|The World of Aranara}} must be completed before this quest can be started.
 
 ==Steps==
-The quest will start by approaching the three [[The Eremites|Eremites]] located in [[Gandha Hill]], east of [[Gandharva Ville]], [[Sumeru]], or after completing ''[[Risen Moon Chapter]]''. You must complete ''[[The World of Aranara]]'' quest first.
-# Find [[Aranakin]] ''(if [[Risen Moon Chapter]] was completed first)''
+The quest will start by approaching the three [[The Eremites|Eremites]] located in [[Gandha Hill]], east of [[Gandharva Ville]], [[Sumeru]], or after completing the {{Quest|Risen Moon Chapter}}.
+# Find [[Aranakin]] ''(if ''Risen Moon Chapter'' was completed first)''
 # Go probe the [[Eremite]]s
 # Talk to the [[Aranara]]
-# Use the [[Kusava]] to open up the path
+# Use the [["Kusava"|Kusava]] to open up the path
 # Enter the cave
 # Talk to Aranakin
 # Lower the water level in the cave
@@ -56,26 +52,36 @@ The quest will start by approaching the three [[The Eremites|Eremites]] located 
 * Using the Kusava for the first time grants the [[Wonders of the World]] Achievement ''[[The Bitter Fruit of Dreams]].''
 * Completing this quest allows you to use the [[Vintage Lyre]] to repair broken [[Elemental Monument]]s.
 <gallery>
-Starry Night Chapter Map.jpg|Starting Map Location
+Starry Night Chapter Map.png|Starting Map Location
 Starry Night Chapter Context.jpg|Starting Location Context
 Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 </gallery>
 
 ==Dialogue==
-;(If [[Risen Moon Chapter]] has not been completed)
+{{Dialogue Start}}
+;(If ''Risen Moon Chapter'' has not been completed)
 {{Quest Description|A group of Eremites are wandering through the forest, looking like they are up to no good. Approach them and inquire about their intentions.}}
-;(If [[Risen Moon Chapter]] was completed first)
-{{Quest Description|Look for Aranakin upon Aragaru's request.}}
-{{Dialogue start}}
+;(If ''Risen Moon Chapter'' was completed first)
+{{Quest Description|Look for Aranakin upon [[Aragaru]]'s request.}}
+
 ;(Approach the Eremites)
 :'''Paimon:''' What are these guys doing here?
 :'''Paimon:''' Paimon wonders what scheme they're up to...
 
+;(Use [[Nahida]]'s [[All Schemes to Know]] on Lunja, optional)
+:'''???:''' (Ugh... It's so humid here. Feels awful.)
+
+;(Use Nahida's All Schemes to Know on [[Minum]], optional)
+:'''???:''' (Ugh, I've got water in my shoes...)
+
+;(Use Nahida's All Schemes to Know on [[Ziri]], optional)
+:'''???:''' (*sigh* If the boss hadn't lost all our Mora in [[Genius Invokation TCG|card games]]...)
+
 ;(Talk to the Eremites)
 :'''???:''' Ha, friends! How nice to see someone alive in this dump!
-:'''Lunja:''' Hi, call me [[Lunja]], of The Farrokhzadan, even though technically, I'm a Farrokhdokht, haha! These are my boys...
-:'''Minum:''' ...[[Minum]].
-:'''Ziri:''' [[Ziri]].
+:'''Lunja:''' Hi, call me Lunja, of [[Farrokhzadan|The Farrokhzadan]], even though technically, I'm a Farrokhdokht, haha! These are my boys...
+:'''Minum:''' ...Minum.
+:'''Ziri:''' Ziri.
 :'''Lunja:''' Very good, very upbeat! As you can see, me and the boys welcome you here. Please help yourself to a hot meal!
 :'''Lunja:''' Ahem, right, Minum, Ziri?
 :'''Minum:''' ...
@@ -88,14 +94,14 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :'''Lunja:''' You probably know we have three thousand terms to classify sand, and tens of thousands of ways to deal with it.
 :'''Lunja:''' But moisture and plants? I'm out. They make me uncomfortable the whole time, and I feel like I'll never be able to deal with them.
 :'''Lunja:''' That's enough of my nagging. Job comes first... And too much complaining hurts morale! After all, life is life, but business is still business, right?
-:'''Paimon:''' (Hey, (Traveler), Paimon thinks we just ran into a bunch of weirdos.)
+:'''Paimon:''' (Hey, {{Traveler}}, Paimon thinks we just ran into a bunch of weirdos.)
 :{{DIcon}} (They are weird.)
 :{{DIcon}} (We should leave as soon as we can.)
 :'''Lunja:''' Ahem, excuse me, but I didn't get your names. Where did you come from and what are you doing here?
-:{{DIcon}} Just call me (Traveler).
-;(If [[Risen Moon Chapter]] has not been completed)
+:{{DIcon}} Just call me {{Traveler}}.
+;(If ''Risen Moon Chapter'' has not been completed)
 ::'''Paimon:''' Paimon's name is Paimon! We're here to...
-;(If [[Risen Moon Chapter]] was completed first)
+;(If ''Risen Moon Chapter'' was completed first)
 ::'''Paimon:''' Paimon's name is Paimon! Ara...
 ::'''Lunja:''' Ara...?
 :{{DIcon}} We're adventurers just passing by.
@@ -130,9 +136,9 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :'''Ziri:''' The pot...!
 :'''Lunja:''' Just leave it there for our new friends! Let's go!
 ;(A scene transition occurs)
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|After Lunja and her group left, a little Aranara pops his head out, looking desperate for help. see what he needs help with.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Paimon:''' These guys are weird, so eager to get chummy...
 :{{DIcon}} We'd better be careful.
 :'''???:''' Yes, yes, you should be careful.
@@ -142,7 +148,7 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :'''???:''' Hey! You startled me!!
 :'''Paimon:''' That's Paimon's line!
 :'''Paimon:''' Hm... Speaking of which, little one, who are you?
-:'''Aranakin:''' [[Aranakin]] isn't a "little one," Aranakin is Aranakin!
+:'''Aranakin:''' Aranakin isn't a "little one," Aranakin is Aranakin!
 :'''Aranakin:''' You can't listen to those sand grains. They're liars with bad minds who are here for the Aranara!
 :{{DIcon}} Bad minds...?
 ::'''Aranakin:''' Bad minds, bad bad minds!
@@ -153,21 +159,21 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :'''Paimon:''' Wha&mdash; Hey!
 :{{DIcon}} He's talking about those people from just now.
 :{{DIcon}} They must have some sort of a scheme.
-:'''Aranakin:''' Nara (Traveler) smart, that's what Aranakin means.
+:'''Aranakin:''' Nara {{Traveler}} smart, that's what Aranakin means.
 :'''Paimon:''' Huh? You know our names?
-:'''Aranakin:''' Aranakin smart. When you talked to them, I listened. I heard that Nara's name is "(Traveler)" and that your name is "Paimon."
+:'''Aranakin:''' Aranakin smart. When you talked to them, I listened. I heard that Nara's name is "{{Traveler}}" and that your name is "Paimon."
 :'''Aranakin:''' But Floaty Paimon is silly and doesn't understand Aranakin.
-;(If [[Risen Moon Chapter]] has not been completed)
+;(If ''Risen Moon Chapter'' has not been completed)
 ::{{DIcon}} Floaty Paimon is like that, it's true.
 :::'''Paimon:''' Hey! Paimon's not silly!
 ::{{DIcon}} Is there something we can do for you?
 :::'''Aranakin:''' Yes, something very important! So very important! [[Mawtiyima]] is in great danger, the grass and trees in the forest... Everyone is worried! She asked us to find you. We waited for so long.
-::'''Aranakin:''' First, we need to find [[Zohrah Mushroom]]. Zohrah Mushroom, is little shiny spots, just like my songs!
-::'''Aranakin:''' But to find Zohrah Mushroom, you need "[[Kusava]]."
+::'''Aranakin:''' First, we need to find Zohrah Mushroom. Zohrah Mushroom, is little shiny spots, just like my songs!
+::'''Aranakin:''' But to find Zohrah Mushroom, you need "Kusava."
 ::'''Aranakin:''' Um, that's fine. You guys are great. Aranakin can entrust Kusava to you.
 ::'''Paimon:''' Hmm... it comes again, things Paimon can't understand. Kusawan? What is that?
 ::'''Aranakin:''' Fatty fruit, bitter fruit. Temporary home of Aranara memories. Kusava makes Aranara strong.
-;(If [[Risen Moon Chapter]] was completed first)
+;(If ''Risen Moon Chapter'' was completed first)
 ::{{DIcon}} Floaty Paimon is like that, it's true.
 :::'''Paimon:''' Hey! Paimon's not silly!
 ::{{DIcon}} Aragaru sent us here.
@@ -177,21 +183,21 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :'''Aranakin:''' Zohrah Mushroom! We need Zohrah Mushroom, to prepare [[Arahaoma]]. We need Arahaoma, to help Mawtiyima be lively again!
 :'''Aranakin:''' I know where Zohrah Mushroom is, I take you there!
 :'''Paimon:''' Alright... Hey, wait for us!
-;(Obtain [["Kusava"]] if not already acquired)
-{{Dialogue end}}
+;(Obtain "Kusava" if not already acquired)
+{{Dialogue End}}
 {{Quest Description|update|A little one named Aranakin entrusts you with the "Kusava," which is said to have the power to repair broken stones. Use it to get rid of obstacles and solve puzzles along your way.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the broken elemental monument)
 :'''Aranakin:''' This is it... Quick, let's put it together!
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Use the Kusava to repair the ancient stones, and let the water drain away... Well, at least Aranakin says so.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area in the cave)
-:'''Aranakin:''' Over here, Nara (Traveler), Floaty Paimon!
+:'''Aranakin:''' Over here, Nara {{Traveler}}, Floaty Paimon!
 :'''Paimon:''' There's water everywhere. That "Zohrah Mushroom" you mentioned... Is it really here?
 :'''Aranakin:''' Here, underwater. Rocks and vines protect and cover him, so he's safe in water.
-:'''Aranakin:''' Rocks blessed by Nara Varuna broke apart by themselves after many many moonsets.
+:'''Aranakin:''' Rocks blessed by [[Nara Varuna]] broke apart by themselves after many many moonsets.
 :'''Aranakin:''' Broken rocks sealed off the path to Zohrah Mushroom and protected him.
 :'''Aranakin:''' Aranakin can repair the rocks and make the water leave, so we can find Zohrah Mushroom.
 :'''Aranakin:''' Use the Kusava to summon Aranakin's power. Aranakin... trusts you will treat the Kusava well?
@@ -209,10 +215,10 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 ;(Approaching the next broken elemental monument)
 :'''Aranakin:''' There's the last one. Let's use the Kusava on it!
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|According to Aranakin, the plants and Shroom-Kin in the cave know where the Zohrah Mushroom is.}}
-{{Dialogue start}}
-;(Approach the Rukkhashava Mushrooms)
+{{Dialogue Start}}
+;(Approach the [[Rukkhashava Mushrooms]])
 :'''Paimon:''' Is this the Zohrah Mushroom? It looks so... mundane.
 :'''Aranakin:''' Mm, this is...
 :'''Paimon:''' Eh?
@@ -222,32 +228,37 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :{{DIcon}} Is the Zohrah Mushroom not here?
 :'''Aranakin:''' Zohrah Mushroom is no ordinary mushroom, thus more cunning and clever. He's probably escaped by now.
 :'''Paimon:''' ...Mushrooms can run away too?
-:'''Aranakin:''' Of course! They don't have roots but can absorb nutrients in rocks. They don't have legs but can run, for they are mushrooms, not plants! But don't fret, Nara (Traveler), let me ask this fellow.
-
-:'''Aranakin and the mushroom speak in whispers.'''
-
+:'''Aranakin:''' Of course! They don't have roots but can absorb nutrients in rocks. They don't have legs but can run, for they are mushrooms, not plants! But don't fret, Nara {{Traveler}}, let me ask this fellow.
+:{{Black Screen|Aranakin and the mushroom speak in whispers.}}
 :'''Aranakin:''' It said, Zohrah Mushroom went to a cave that has Marana, which has dissolved in the water. It's very dangerous.
 :'''Paimon:''' But why would the Zohrah Mushroom go there?
 :'''Aranakin:''' Because Marana moves too fast and must be stopped. Zohrah Mushroom can stop Marana, but won't hold up for long.
 :'''Paimon:''' Mmm... Then we better get going and save the mushroom!
 :'''Aranakin:''' Yes, we must hurry!
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Follow the guidance and head over to the exit of the cave.}}
 {{Quest Description|update|Leave the cave and go to the mountain cavern where the Zohrah Mushroom is located.}}
 {{Quest Description|update|The Kusava holds the power to repair broken stones. Use it to get rid of obstacles and mysteries along your way.}}
 {{Quest Description|update|Based on the clue provided by the mushroom, head over to the mountain cave containing the Zohrah Mushroom together with Aranakin.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Leave the cave)
 :'''Paimon:''' Phew... We are finally out! Let's look for the cave where the Zohrah Mushroom is!
 
 ;(Approach the cave entrance)
 :'''Paimon:''' Eh!? Them again!?
 :'''Paimon:''' Aranakin...? Where did he go all of a sudden...
+
+;(Use Nahida's All Schemes to Know on Minum, optional)
+<!-- It's "he" even when MC is Lumine. Probably a bug. -->
+:'''Minum:''' (What is he doing here?)
+
+;(Use Nahida's All Schemes to Know on Ziri, optional)
+:'''Ziri:''' (Should I stop them? Um... Forget it... I'd better not talk to them unless spoken to.)
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You arrived at the cave containing the Zohrah Mushroom. However, the entrance to the cave seems to be blocked by some familiar &mdash; but unpleasant &mdash; people...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the Eremites)
 :'''Minum:''' Stop.
 :'''Ziri:''' You can't enter.
@@ -284,13 +295,25 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :'''Minum:''' ...
 :'''Lunja:''' Ahem, let's go!
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Lunja, optional)
+;(Use Nahida's All Schemes to Know on Lunja, optional)
 :'''Lunja:''' (Who threw a frog into the pot? ...Uh, does it taste good?)
 
-;(Talk to Lunja again while in front of her)
+;(Use Nahida's All Schemes to Know on Minum, optional)
+:'''Minum:''' (There is a... frog in the pot. Should I remind the boss of it...)
+
+;(Use Nahida's All Schemes to Know on Ziri, optional)
+:'''Ziri:''' (Little do they know that... I was to blame for the frog in the pot...)
+
+;(Talk to Lunja)
 :'''Lunja:''' You're our guests. Make yourselves at home.
 
-;(Talk to Lunja again while behind her)
+;(Talk to Minum)
+:'''Minum:''' ...
+
+;(Talk to Ziri)
+:'''Ziri:''' Be careful in the cave.
+
+;(Talk to Lunja again after talking to each of the Farrokhzadan)
 :'''Lunja:''' Come, my friends, sit down and have some tea! So, did whatever it was in the cave scare you away?
 :'''Lunja:''' Haha, it's fine, really! You're still alive, aren't you? Nothing matters more than that. Some things you just have to let go.
 :{{DIcon}} I'm not done yet.
@@ -299,32 +322,20 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :'''Minum:''' To courage...
 :'''Ziri:''' To health.
 :'''Lunja:''' To the bleak paths ahead and the treacherous exits to come! Cheers!
-
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Minum, optional)
-:'''Minum:''' (There is a... frog in the pot. Should I remind the boss of it...)
-
-;(Talk to Minum again)
-:'''Minum:''' ...
-
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Ziri, optional)
-:'''Ziri:''' (Little do they know that... I was to blame for the frog in the pot...)
-
-;(Talk to Ziri again)
-:'''Ziri:''' Be careful in the cave.
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|After having a not-so-pleasant talk with Lunja and her gang, you finally resume your search for the Zohrah Mushroom. The target you're after should be in the cave.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the cave)
-:'''Aranakin:''' I'm here! Nara (Traveler), and White Floaty!
+:'''Aranakin:''' I'm here! Nara {{Traveler}}, and White Floaty!
 :'''Paimon:''' Whoa, where have you been?
 :'''Aranakin:''' Some bad "sand grains" were here. They were up to no good, so I didn't want to come out.
 :'''Paimon:''' Are you referring to those Eremite mercenaries? Are you afraid of them?
 :'''Aranakin:''' White Floaty wrong! I'm not afraid! They're weak, I'm strong!
 :{{DIcon}} Strong to the point of hiding?
-::'''Aranakin:''' No, no! Hmph! Nara (Traveler) only says irritating things!
+::'''Aranakin:''' No, no! Hmph! Nara {{Traveler}} only says irritating things!
 :{{DIcon}} We have to be careful from now on.
-::'''Aranakin:''' Nara (Traveler) is right. Be careful of those bad "sand grains" and their wicked thoughts.
+::'''Aranakin:''' Nara {{Traveler}} is right. Be careful of those bad "sand grains" and their wicked thoughts.
 :'''Paimon:''' Anyway, the water here... It's showing some strange colors. Do you think it's because of...
 :{{DIcon}} The Withering.
 :{{DIcon}} Marana.
@@ -335,9 +346,9 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :'''Paimon:''' But... even if we can drain the water, what are we going to do with The Withering here?
 :'''Aranakin:''' Well... We'll worry about that later! We also have to break the seal protecting Zohrah Mushroom to let him join us!
 :'''Paimon:''' Okay, got it. Let's get to work then!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Use the Kusava to repair the ancient broken stone to drain the water... Looks like you'll have to repeat the process again.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Aranakin:''' The Kusava can temporarily wake up plants tainted by Marana... And also let them sprout new vines, but very painful, very uncomfortable...
 :'''Aranakin:''' It's okay, though, I can take it...!
 
@@ -347,14 +358,14 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 ;(Approach the mushroom)
 :'''Aranakin:''' Hmm... It's sealed. We need to look around for the stones that can lift the seal. Use the Kusava!
 :'''Paimon:''' Well, nothing comes easy...
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Next, you just need to drain the water, and you should be able to obtain the Zohrah Mushroom.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After activating the elemental monument)
 :'''Aranakin:''' More water has been drained. And Marana has been revealed!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Use the Kusava to break the seal on the Zohrah Mushroom.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach one of the three stones)
 :'''Aranakin:''' This stone is beautifully cracked. We should be able to fix it...
 
@@ -363,12 +374,12 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 
 ;(Approach the last of the three stones)
 :'''Aranakin:''' Here, here! The stone left by Nara Varuna!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The Zohrah Mushroom seal has been lifted, but some Eremite assassins have suddenly appeared...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Activate all three stones)
-:'''Anqa:''' I apologize, but please stop here.
-:'''Isan:''' I'm sorry for what's to come, my friend!
+:'''[[Anqa]]:''' I apologize, but please stop here.
+:'''[[Isan]]:''' I'm sorry for what's to come, my friend!
 
 ;(Defeat the Eremites)
 :'''Anqa:''' Darn it! We've got to get outta here!
@@ -378,20 +389,29 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 ;(Approach the mushroom)
 :'''Paimon:''' The Zohrah Mushroom is gone! Look, over there...
 :'''Aranakin:''' The awful "sand grains"! Follow them!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|So Lunja was behind all this after all! Seize the Zohrah Mushroom back from her.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :'''Paimon:''' Let's catch up with her from here!
 
 ;(Approaching one of the traps)
 :'''Paimon:''' Watch out for traps!
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You finally caught up with Lunja after great effort. It is time to get the Zohrah Mushroom back.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Leave the cave)
 :'''Paimon:''' These guys really are sly as foxes.
+
+;(Use Nahida's All Schemes to Know on Lunja, optional)
+:'''Lunja:''' (These two idiots! Time to move...)
+
+;(Use Nahida's All Schemes to Know on Minum, optional)
+:'''Minum:''' (Oh no...)
+
+;(Use Nahida's All Schemes to Know on Ziri, optional)
+:'''Ziri:''' (Why are they still alive...)
 
 ;(Approach the Eremites)
 :'''Lunja:''' Minum, Ziri, I got it! Find a messenger to inform the client! And we're leaving now!
@@ -484,33 +504,34 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 ::'''Lunja:''' Hmph... Your tenacity is so infuriating! We're deep in the red for this one! All right, boys, get ready to fight!
 :;(Engage in combat)
 ----
-{{Dialogue end}}
+{{Dialogue End}}
+;(If the player engages the Eremites in combat)
 {{Quest Description|update|Defeat Lunja and her flunkies.}}
-{{Dialogue start}}
-;(The quest description above only is only applicable should the player engage the Eremites in combat)
+{{Dialogue Start}}
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Talk to Aranakin}}
-{{Dialogue start}}
-;(After defeating the Eremites - if the player engaged in combat)
+{{Dialogue Start}}
+;(After defeating the Eremites, if the player engaged in combat)
 ::'''Paimon:''' Well, you picked on the wrong person! The Zohrah Mushroom is ours now!
-::'''Aranakin:''' Impressive! Nara (Traveler) made those bad "sand grains" run off in a couple of moves! Pow! Smash!
-::'''Paimon:''' That's super fighter Nara (Traveler) for you!
-;(If the player got the Eremites to leave without combat)
+::'''Aranakin:''' Impressive! Nara {{Traveler}} made those bad "sand grains" run off in a couple of moves! Pow! Smash!
+::'''Paimon:''' That's super fighter Nara {{Traveler}} for you!
+
+;(If the player negotiated with Lunja)
 ::'''Paimon:''' They're gone... They better not try to scam us again next time. Anyway, we got the Zohrah Mushroom!
-::'''Aranakin:''' The bad "sand grains" are terrifying, but Nara (Traveler) is even more so sometimes... Scaring people away with strange words.
-::'''Paimon:''' Well, yeah, (Traveler) is like that sometimes.
-:'''Aranakin:''' Aranakin's right to trust you. Nara (Traveler) is no sand grain but a mighty seed! Aranakin must sing about it and let everyone in the woods know!
+::'''Aranakin:''' The bad "sand grains" are terrifying, but Nara {{Traveler}} is even more so sometimes... Scaring people away with strange words.
+::'''Paimon:''' Well, yeah, {{Traveler}} is like that sometimes.
+:'''Aranakin:''' Aranakin's right to trust you. Nara {{Traveler}} is no sand grain but a mighty seed! Aranakin must sing about it and let everyone in the woods know!
 :'''Aranakin:''' Yay~ Kusava~ Kusava~♪
 :'''Paimon:''' Cool~seek~wan~♪
 :{{DIcon}} Ko~se~han~♪
 :'''Aranakin:''' Ku! Sa! Va! Happy!
 :'''Aranakin:''' Aranakin is going to the Mawtiyima Forest and meet up with friends. You must come see us and join the ritual coming up!
-;(If [[Risen Moon Chapter]] was completed first)
-::'''Aranakin:''' Speaking of the Mawtiyima Forest, Aranaga is waiting for you there. He presides over the Arahaoma ritual. Go see him!
-;(If [[Risen Moon Chapter]] has not been completed)
+;(If ''Risen Moon Chapter'' has not been completed)
 ::'''Aranakin:''' Oh yeah, friend Aragaru is waiting for you too. I'll tell the plants along the way to inform him that you're coming.
 ::'''Aranakin:''' He'll be waiting for you in the cave where the moon falls. He'll guide you to the dead Nara's old home. The walking Shroom-Kin now live there. Be careful.
+;(If ''Risen Moon Chapter'' was completed first)
+::'''Aranakin:''' Speaking of the Mawtiyima Forest, Aranaga is waiting for you there. He presides over the Arahaoma ritual. Go see him!
 :{{DIcon}} I'll bear that in mind.
 :'''Aranakin:''' Oh, and... Uh, don't go yet...
 :'''Aranakin:''' Aranakin loves to sing and share songs with friends. But Aranakin doesn't know if Nara could hear Aranara's songs.
@@ -522,7 +543,10 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 :{{DIcon}} Thank you, I'll cherish it.
 :{{DIcon}} We can sing it together sometime.
 :'''Aranakin:''' Yes, together!
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Trivia==
+*Aranakin's "I don't like sand, it's coarse, rough, and irritating. And it gets everywhere..." line is a reference to a quote from Anakin Skywalker in ''{{w|Star Wars: Episode II – Attack of the Clones}}''.
 
 ==Other Languages==
 {{Other Languages
@@ -536,7 +560,6 @@ Starry Night Chapter Zohrah Seals.jpg|Zohrah Seals Context
 |ja_rm   = Seiya no Shou
 |ja_tl   = Starry Night Chapter
 |ko      = 별이 빛나는 밤
-|ko_rm   = Byeori Binnaneun Bam
 |ko_tl   = The Starry Night
 |es      = La noche estrellada
 |es_tl   = The Starry Night

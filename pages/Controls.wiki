@@ -2,22 +2,23 @@
 {{Terminology Infobox
 |type         = Game Systems
 }}
-'''Controls''' in ''[[Genshin Impact]]'' differs depending on the device. Mobile devices are primarily touch based controls (with one instance of Gyro input), PlayStation has controller inputs, and PC has mouse and keyboard inputs, or controller inputs.
+'''Controls''' in ''[[Genshin Impact]]'' differs depending on the device. Mobile devices are primarily touch based controls (with one instance of Gyro input), PlayStation has controller inputs, and PC has mouse and keyboard inputs, or controller inputs. The changing of controls can be done from the [[Settings]] menu.
 
 ==PC and Controllers==
+{{Stub|add Xbox and PS controls for the listed unlisted functions (assuming you can't rebind them, but do fix that too if that happens to not be the case)}}
 [[File:Diagram Control Xbox.png|thumb|Xbox diagram]]
 [[File:Diagram Control PS4.png|thumb|PS4 diagram]]
-Since PC is a flexible device, it can take both the standard Keyboard Inputs, as well as Controller Inputs. Touch is not supported on PC. Plugging in any brand of controller (Xbox and PlayStation) will result in a map of the respective controller, with critical actions mapped to each button. However, connecting a Switch controller to the PC doesn't seem to be fully supported, even though the game detects it as a controller.
+PC players can use either the standard Keyboard Inputs or the Controller Inputs. Touch is not supported on PC. Plugging in any brand of controller (Xbox and PlayStation) will result in a map of the respective controller, with critical actions mapped to each button. However, connecting a Switch controller to the PC doesn't seem to be fully supported, even though the game detects it as a controller.
 
 If the player disconnects the controller without swapping back to Keyboard Inputs, the game will require them to either reconnect the controller or restart the game to exit the controller control scheme.
 
 Any {{w|DirectInput}} (or [https://docs.microsoft.com/en-us/windows/win32/xinput/getting-started-with-xinput XInput]) supported {{w|HID}} game controller (USB or Bluetooth) will be recognized by the game as a valid controller, as the game runs on {{w|DirectX}}.
 
-As with all types of controls, you can tweak the camera sensitivity for normal gameplay as well as Aimed Shot Mode. However, the game does not have the invert Y-axis option on mouse and keyboard. Inverting the Y-axis as well as the X-axis is possible only on a controller.
+As with all types of controls, the camera sensitivity can be adjusted for normal gameplay as well as Aimed Shot Mode. However, the game does not have the invert Y-axis option on mouse and keyboard. Inverting the Y-axis in addition to the X-axis is possible only on a controller.
 
 PlayStation consoles share the same controls as when using a PlayStation controller with PC.
 
-{| style="text-align:center;" class="wikitable"
+{| style="text-align:center; max-width:60em" class="fandom-table"
 |-
 !style="width: 25%"|Function
 !style="width: 25%"|Default PC Binding
@@ -46,12 +47,12 @@ PlayStation consoles share the same controls as when using a PlayStation control
 |{{key|mouse}}
 |colspan=2|{{key|r-none}}
 |-
-|Switch Walk/Run
+| Switch to Walk/Run. Or crouch downward in specific operating mode(s)
 |{{key|Left Ctrl}}
 |colspan=2|N/A
 |-
 |[[Normal Attack]]
-|class="warningbox"|{{key|lclick}}<span style="display: none">*</span>
+|class="warningbox"|{{key|lclick}}*
 |{{key|xb-b}}
 |{{key|ps-c}}
 |-
@@ -70,14 +71,14 @@ PlayStation consoles share the same controls as when using a PlayStation control
 |rowspan=2|{{key|xb-rb}}
 |rowspan=2|{{key|ps-r1}}
 |-
-|class="warningbox"|{{key|rclick}}<span style="display: none">*</span>
+|class="warningbox"|{{key|rclick}}*
 |-
-|Switch [[Bows#Charged Attacks|Aiming Mode]]
+| Switch [[Aiming Mode]]
 |{{key|R}}
-|class="warningbox"|{{key|xb-lt}}
-|class="warningbox"|{{key|ps-l2}}
+|class="warningbox"|{{key|xb-lt}}*
+|class="warningbox"|{{key|ps-l2}}*
 |-
-|Jump
+| Jump, or move upward in specific operating mode(s)
 |{{key|Space}}
 |{{key|xb-a}}
 |{{key|ps-x}}
@@ -94,39 +95,45 @@ PlayStation consoles share the same controls as when using a PlayStation control
 |-
 |Quick-Use [[Gadget]]
 |{{key|Z}}
-|class="warningbox"|{{key|xb-lb|xb-b}}
-|class="warningbox"|{{key|ps-l1|ps-c}}
+|class="warningbox"|{{key|xb-lb|xb-b}}*
+|class="warningbox"|{{key|ps-l1|ps-c}}*
+|-
+|Gadget Quickswap
+|colspan=3 class="warningbox"|Hold ''Quick-Use Gadget''*
 |-
 |Interaction in Certain Gameplay Modes
 |{{key|T}}
-|class="warningbox"|{{key|xb-lb|xb-x}}
-|class="warningbox"|{{key|ps-l1|ps-s}}
+|class="warningbox"|{{key|xb-lb|xb-x}}*
+|class="warningbox"|{{key|ps-l1|ps-s}}*
 |-
 |[[Quest]] Navigation
 |{{key|V}}
-|class="warningbox"|{{key|xb-ls}}
-|class="warningbox"|{{key|ps-l3}}
+|class="warningbox"|{{key|xb-ls}}*
+|class="warningbox"|{{key|ps-l3}}*
+|-
+|Show objective for this phase of the quest
+|colspan=3 class="warningbox"|Hold ''Quest Navigation''*
 |-
 |Abandon Challenge
 |{{key|P}}
-|class="warningbox"|{{keys|xb-ls|xb-rs}}
-|class="warningbox"|{{keys|ps-l3|ps-r3}}
+|class="warningbox"|{{keys|xb-ls|xb-rs}}*
+|class="warningbox"|{{keys|ps-l3|ps-r3}}*
 |-
 |Switch to Party Member 1
 |{{key|1}}
-|colspan=2 class="warningbox"|{{key|d-up}}
+|colspan=2 class="warningbox"|{{key|d-up}}*
 |-
 |Switch to Party Member 2
 |{{key|2}}
-|colspan=2 class="warningbox"|{{key|d-right}}
+|colspan=2 class="warningbox"|{{key|d-right}}*
 |-
 |Switch to Party Member 3
 |{{key|3}}
-|colspan=2 class="warningbox"|{{key|d-left}}
+|colspan=2 class="warningbox"|{{key|d-left}}*
 |-
 |Switch to Party Member 4
 |{{key|4}}
-|colspan=2 class="warningbox"|{{key|d-down}}
+|colspan=2 class="warningbox"|{{key|d-down}}*
 |-
 |Switch to Party Member 5
 |{{key|5}}
@@ -134,66 +141,43 @@ PlayStation consoles share the same controls as when using a PlayStation control
 |{{key|ps-l1|ps-t}}
 |-
 |Switch to Party Member and Use Elemental Burst
-|class="warningbox"|{{keys|Left Alt|}}Switch to Party Member<span style="display: none">*</span>
+|class="warningbox"|{{keys|Left Alt|}}Switch to Party Member*
 |colspan=2|N/A
 |-
 |Open Shortcut Wheel
 |{{key|Tab}}
-|class="warningbox"|{{key|xb-lb}}
-|class="warningbox"|{{key|ps-l1}}
+|class="warningbox"|{{key|xb-lb}}*
+|class="warningbox"|{{key|ps-l1}}*
 |-
 !colspan=4|Menus
 |-
-|Open [[Paimon Menu]]
-|class="warningbox"|{{key|Esc}}<span style="display: none">*</span>
-|class="warningbox"|{{key|xb-start}}
-|class="warningbox"|{{key|ps-options}}
-|-
-|[[Elemental Sight]]
-|class="warningbox"|{{key|mclick}}<span style="display: none">*</span>
-|class="warningbox"|{{key|xb-lb|d-left}}
-|class="warningbox"|{{key|ps-l1|d-left}}
-|-
-|Open [[Co-Op Mode|Co-Op]] Screen
-|{{key|F2}}
-|class="warningbox"|{{keys|xb-lb|d-right}}
-|class="warningbox"|{{keys|ps-l1|d-right}}
-|-
-|Check [[Tutorial]] Details
-|{{key|G}}
-|class="warningbox"|{{key|xb-lb|d-up}}
-|class="warningbox"|{{key|ps-l1|d-up}}
-|-
-|Open Environment Information
-|{{key|U}}
-|class="warningbox"|{{key|xb-lb|d-down}}
-|class="warningbox"|{{key|ps-l1|d-down}}
-|-
-|Open [[Chat]] Screen
-|{{key|Enter}}
-|class="warningbox"|{{key|xb-back}}
-|class="warningbox"|{{key|ps-tp}}
-|-
-|Open the [[Furnishing]] Screen (inside [[Serenitea Pot]])
-|{{key|F6}}
-|class="warningbox"|{{key|xb-lb|xb-a}}
-|class="warningbox"|{{key|ps-l1|ps-x}}
-|-
 |Open [[Inventory]]
 |{{key|B}}
-|rowspan=11 colspan=2 | Accessible via [[Shortcut Wheel]] or [[Paimon Menu]]
+|rowspan=2 colspan=2 class="warningbox"| Accessible via [[Shortcut Wheel]] or [[Paimon Menu]]
 |-
 |Open [[Characters/Menu|Character Screen]]
 |{{key|C}}
 |-
+|Open [[Paimon Menu]]
+|class="warningbox"|{{key|Esc}}*
+|class="warningbox"|{{key|xb-start}}*
+|class="warningbox"|{{key|ps-options}}*
+|-
 |Open [[Map]]
 |{{key|M}}
+|rowspan=2 colspan=2 class="warningbox"| Accessible via [[Shortcut Wheel]] or [[Paimon Menu]]
 |-
 |Open [[Adventurer Handbook]] Screen
 |{{key|F1}}
 |-
+|Open [[Co-Op Mode|Co-Op]] Screen
+|{{key|F2}}
+|class="warningbox"|{{keys|xb-lb|d-right}}*
+|class="warningbox"|{{keys|ps-l1|d-right}}*
+|-
 |Open [[Wish]] Screen
 |{{key|F3}}
+|rowspan=3 colspan=2 class="warningbox"| Accessible via [[Shortcut Wheel]] or [[Paimon Menu]]
 |-
 |Open [[Battle Pass]] Screen
 |{{key|F4}}
@@ -201,44 +185,119 @@ PlayStation consoles share the same controls as when using a PlayStation control
 |Open the [[Events]] Menu
 |{{key|F5}}
 |-
-|Open the [[Adeptal Mirror]] (inside [[Serenitea Pot]])
+|Open the settings menu (within [[Serenitea Pot]]/[[The Cat's Tail]])
+|{{key|F6}}
+|class="warningbox"|{{key|xb-lb|xb-a}}*
+|class="warningbox"|{{key|ps-l1|ps-x}}*
+|-
+|Open the [[Furnishing]] Screen (inside [[Serenitea Pot]])
 |{{key|F7}}
+|colspan=2 class="warningbox"| Accessible via [[Shortcut Wheel]] or [[Paimon Menu]]
+|-
+|Open [[Stellar Reunion]] (Only active when conditions are met)
+|{{key|F8}}
+|class="warningbox"|{{key|xb-lb|xb-rb}}*
+|class="warningbox"|{{key|ps-l1|ps-r1}}*
 |-
 |Open [[Quest]] Menu
 |{{key|J}}
+|colspan=2 class="warningbox"| Accessible via [[Shortcut Wheel]] or [[Paimon Menu]]
+|-
+|Open Notification Details
+|{{key|Y}}
+|class="warningbox"|{{key|xb-ls}}*
+|class="warningbox"|{{key|ps-l3}}*
+|-
+|Open [[Chat]] Screen
+|{{key|Enter}}
+|class="warningbox"|{{key|xb-back}}*
+|class="warningbox"|{{key|ps-tp}}*
+|-
+|Open [[Special Environment]] Information
+|{{key|U}}
+|class="warningbox"|{{key|xb-lb|d-down}}*
+|class="warningbox"|{{key|ps-l1|d-down}}*
+|-
+|Check [[Tutorial]] Details
+|{{key|G}}
+|class="warningbox"|{{key|xb-lb|d-up}}*
+|class="warningbox"|{{key|ps-l1|d-up}}*
+|-
+|[[Elemental Sight]] (Hold)
+|class="warningbox"|{{key|mclick}}*
+|class="warningbox"|{{key|xb-lb|d-left}}*
+|class="warningbox"|{{key|ps-l1|d-left}}*
+|-
+|Show Cursor
+|class="warningbox"|{{key|Left Alt}}*
+|colspan=2 | N/A
 |-
 |Open [[Party]] Setup Screen
 |{{key|L}}
+|rowspan=2 colspan=2 class="warningbox"| Accessible via [[Shortcut Wheel]] or [[Paimon Menu]]
 |-
 |Open [[Friends]] Screen
 |{{key|O}}
 |-
-|Open Notification Details
-|{{key|Y}}
-|class="warningbox"|{{key|xb-ls}}
-|class="warningbox"|{{key|ps-l3}}
-|-
-|Show Cursor
-|class="warningbox"|{{key|Left Alt}}<span style="display: none">*</span>
+|Hide Main Menu
+|{{key|\}}
 |colspan=2 | N/A
+|-
+!colspan=4|Unlisted
+|-
+| Open dialogue box to exit [[domain]] or [[Special Story Mode]]
+| class="warningbox" | {{key|Esc}}*<br>(same as "Open Paimon Menu")
+| class="warningbox" |
+| class="warningbox" |
+|-
+| Reset camera angle
+| class="warningbox" | {{key|mclick}}*<br>(same as "Elemental Sight (Hold)")
+| class="warningbox" |
+| class="warningbox" |
+|-
+| [[Photo Mode]]: Picture settings
+| class="warningbox" | {{key|F1}}*<br>(independent of "Open Adventurer Handbook Screen")
+| class="warningbox" |
+| class="warningbox" |
+|-
+| Photo Mode: Character pose
+| class="warningbox" | {{key|F2}}*<br>(independent of "Open Co-Op Screen")
+| class="warningbox" |
+| class="warningbox" |
+|-
+| Photo Mode: Character expression
+| class="warningbox" | {{key|F3}}*<br>(independent of "Open Wish Screen")
+| class="warningbox" |
+| class="warningbox" |
+|-
+| Photo Mode: Hide UI
+| class="warningbox" | {{keys|Ctrl|H}}*
+| class="warningbox" |
+| class="warningbox" |
+|-
+| Photo Mode: Take Photo
+| class="warningbox" | {{key|Enter}}*<br>(independent of "Open Chat Screen")
+| class="warningbox" |
+| class="warningbox" |
+|-
+| colspan=4 class="warningbox" | * ''Cannot change input method for this function''
 |}
-<span class="warningbox" style="width: 0.5rem; height: 0.5rem"></span><span style="display: none"><nowiki>*</nowiki></span> Cannot change keybind for this function.
 
 ==Mobile==
-Mobile devices lack buttons to be mapped to certain functionality; all actions are done by tapping the screen. However, there is an extra feature called "Gyro Aiming". With Gyro Aiming enabled, you can use the gyroscope in your mobile device for '''Aimed Shot'''.
+Mobile devices lack buttons to be mapped to certain functionality; all actions are done by tapping the screen. However, there is an extra feature called "Gyro Aiming." With Gyro Aiming enabled, you can use the gyroscope in your mobile device for '''Aimed Shot'''.
 
 The following controls can be changed under Settings.
 
-{| class="wikitable" style="text-align:center;"
+{| class="wikitable align-center"
 ! Control !! Possible Settings !! Notes
 |-
-| Camera Sensitivity || 1 – 5 ||
+| Camera Sensitivity || 1–5 ||
 |-
-| Camera Sensitivity ([[Bows#Charged Attacks|Aimed Shot]] Mode) || 1 – 5 ||
+| Camera Sensitivity ([[Bows#Charged Attacks|Aimed Shot]] Mode) || 1–5 ||
 |-
-| Gyro Aiming || On / Off ||style="text-align:left;"| Affects Aimed Shot Mode.<br />On: You can tilt your phone to move the camera.<br />Off: Keeps the camera fixed and you can manually move it by touching and dragging the screen.
+| Gyro Aiming || On / Off ||style="text-align:left;"| Affects Aimed Shot Mode.<br>On: You can tilt your phone to move the camera.<br>Off: Keeps the camera fixed and you can manually move it by touching and dragging the screen.
 |-
-| Mode: Walk || Default or Use the button to switch ||style="text-align:left;"| Default: While moving, you can switch between walking and running based on your finger's position relative to the center of the touchpad.<br />Use button: Adds a small button on the lower right side of the screen, right above your UID. Clicking on it toggles between walking and running.
+| Mode: Walk || Default or Use the button to switch ||style="text-align:left;"| Default: While moving, you can switch between walking and running based on your finger's position relative to the center of the touchpad.<br>Use button: Adds a small button on the lower right side of the screen, right above your UID. Clicking on it toggles between walking and running.
 |}
 
 ==Change History==
@@ -248,3 +307,4 @@ The following controls can be changed under Settings.
 {{Game Systems Navbox|type=Other}}
 
 [[ja:キーコンフィグ]]
+[[vi:Điều Khiển]]

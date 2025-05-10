@@ -2,17 +2,15 @@
 |id            = 20006; 20016; 20026
 |type          = Commission
 |npc           = Sara
-|summary       = Sara asks the Traveler to deliver food for her to customers outside the [[City of Mondstadt]].
-|startLocation = [[City of Mondstadt|Mondstadt]], [[Mondstadt]]
+|startLocation = [[Mondstadt City|Mondstadt]], [[Mondstadt]]
 |region        = Mondstadt
 |area          = Starfell Valley
-|subarea       = City of Mondstadt
+|subarea       = Mondstadt City
 |characters    = Ernest; Lively Orlean; Paimon; Reckless Pallad; Sara; Terrified Schuster; Timid Morrow; Traveler
-|other         = 
-*Eating the food gives the achievement [[Get Your Own Emergency Food!]]
-*AR-Dependent Rewards
-*Additional Rewards:
-{{Card|Delicious Crab, Ham & Veggie Bake|1}}{{Card|Recipe: Crab, Ham & Veggie Bake|1|caption=Lively Orlean Version}}{{Card|Recipe: Sticky Honey Roast|1|caption=Dawn Winery Version}}
+|rewards       = Delicious Crab, Ham & Veggie Bake*1;Recipe: Crab, Ham & Veggie Bake*1/Lively Orlean Version;Recipe: Sticky Honey Roast*1/Dawn Winery Version
+|otherRewards  = 
+* AR-Dependent Rewards
+* Eating the food gives the {{Achievement|Get Your Own Emergency Food!}}
 }}
 '''''Food Delivery''''' is a repeatable [[Daily Commission]] that occurs in [[Mondstadt]].
 
@@ -34,7 +32,7 @@ There are three versions of this quest: one where the player needs to deliver to
 #Give the fee to Sara
 
 ==Gameplay Notes==
-* If the player eats the food instead of delivering it, the ''[[Wonders of the World]]'' achievement ''[[Get Your Own Emergency Food!]]'' is granted. Eating the food will cause the quest to reset, and the player has to talk to Sara again to continue the quest.
+* If the player eats the food instead of delivering it, the {{Achievement|Get Your Own Emergency Food!}} is granted. Eating the food will cause the quest to reset, and the player has to talk to Sara again to continue the quest.
 * The food item, while identical to other delicious meals, is stored separately under the Quest Item section of the player's inventory. However, it grants the same buffs as the normal food item if it is eaten.
 * If the player receives the Meal Fee Pouch but does not return to Sara quickly enough or disconnects, they may have to redeliver the meal.<!-- not always; was this patched? partially patched? -->
 ** If this happens in the Springvale version, the delivery target may change.
@@ -48,23 +46,23 @@ There are three versions of this quest: one where the player needs to deliver to
 ==Dialogue==
 {{Quest Description|[[Good Hunter]] has a delivery service in order to fulfill customers' requests, but due to its popularity, the service is heavily understaffed. Sara is looking for someone to lend a hand.}}
 ===Lively Orlean Version===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
 :{{DIcon|Quest}} Order for delivery
 :'''Sara:''' Welcome to Good Hunter&mdash; Oh, hello Traveler! You've come just at the right time.
-:'''Sara:''' Sorry, I know you must be hungry – but could you do something for me?
-:'''Sara:''' Miss Orlean from Springvale ordered a {{Color|buzzword|Sticky Honey Roast}}, but I hear Springvale's crawling with slimes these days...
-:'''Sara:''' I don't dare attempt the journey myself... Could you deliver this order to {{Color|buzzword|Orlean in Springvale}} for me?
+:'''Sara:''' Sorry, I know you must be hungry, but could you do something for me?
+:'''Sara:''' Miss Orlean from Springvale ordered a {{color|buzzword|Sticky Honey Roast}}, but I hear Springvale's crawling with slimes these days...
+:'''Sara:''' I don't dare attempt the journey myself... Could you deliver this order to {{color|buzzword|Orlean in Springvale}} for me?
 :{{DIcon}} I guess, but...
 ::'''Sara:''' Rest assured there'll be a hearty meal waiting for you on your return!
 ::'''Sara:''' I'm counting on you!
-:;(Obtain Delicious Sticky Honey Roast ×1)
+:;(Obtain {{Item|Delicious Sticky Honey Roast}})
 :{{DIcon}} I only came here to eat; I'm starving!
 ::'''Sara:''' Once you've done what I ask, I'll treat you to something from the Good Hunter special menu! Much obliged.
-:;(Obtain Delicious Sticky Honey Roast ×1)
+:;(Obtain {{Item|Delicious Sticky Honey Roast}})
 ----
 ;(Eat the meal)
-:'''Paimon:''' Hey! That was supposed to be for a customer... do you have no self-control? Go get another batch from Sara now. You'd better hope she's in a good mood!
+:'''Paimon:''' Hey! That was supposed to be for a customer... do you have no self-control!? Go get another batch from Sara now. You'd better hope she's in a good mood!
 ----
 ;(Ran out of time)
 :'''Paimon:''' The food has gone cold, no one will want to eat this now! Go back and get a fresh batch from Sara &mdash; if you're lucky, she won't be too upset with you...
@@ -75,124 +73,124 @@ There are three versions of this quest: one where the player needs to deliver to
 :{{DIcon}} Your meal, ma'am.
 :'''Lively Orlean:''' Mmm... Smells carroty and meaty... It's a shame it didn't get here sooner, I would have sent those slimes flying if I'd been fighting on a full stomach!
 :'''Lively Orlean:''' Can't be helped I suppose. Here's the money, take it back to Sara for me.
-;(Obtain [[Meal Fee Pouch]] ×1)
+;(Obtain {{Item|Meal Fee Pouch}})
 
 ;(Return to Sara)
 :{{DIcon|Quest}} Deliver meal fee
-:'''Sara''': You're back! Did the delivery go okay?
+:'''Sara:''' You're back! Did the delivery go okay?
 :{{DIcon}} Here's the fee.
-:'''Sara''': Let me check... Yep! Thanks!
-:'''Sara''': Here, this {{Color|buzzword|Delicious Crab, Ham & Veggie Bake}} is for you. It's fresh out of the oven, eat it while it's hot.
-;(Obtain [[Delicious Crab, Ham & Veggie Bake]] ×1)
-{{Dialogue end}}
+:'''Sara:''' Let me check... Yep! Thanks!
+:'''Sara:''' Here, this {{color|buzzword|Delicious Crab, Ham & Veggie Bake}} is for you. It's fresh out of the oven, eat it while it's hot.
+;(Obtain {{Item|Delicious Crab, Ham & Veggie Bake}})
+{{Dialogue End}}
 
 ===Springvale Version===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
 :{{DIcon|Quest}} Order for delivery
 :'''Sara:''' Traveler! Perfect timing...
-:'''Sara:''' Sorry, I know you must be hungry &mdash; but could you do something for me?
+:'''Sara:''' Sorry, I know you must be hungry, but could you do something for me?
 :'''Sara:''' There's been a steady increase in volume of delivery orders recently. I tend to divide them up by region and then label each dish with the name of the person who ordered it.
-:'''Sara:''' But I've lost the label for this {{Color|buzzword|Calla Lily Seafood Soup}}. All I know is that it's for someone in Springvale.
-:'''Sara:''' Could you take this {{Color|buzzword|Calla Lily Seafood Soup}} over to Springvale for me and find out who ordered it?
+:'''Sara:''' But I've lost the label for this {{color|buzzword|Calla Lily Seafood Soup}}. All I know is that it's for someone in Springvale.
+:'''Sara:''' Could you take this {{color|buzzword|Calla Lily Seafood Soup}} over to Springvale for me and find out who ordered it?
 :{{DIcon}} I guess, but...
 ::'''Sara:''' Rest assured there'll be a hearty meal waiting for you on your return!
 ::'''Sara:''' I'm counting on you!
-:;(Obtain [[Delicious Calla Lily Seafood Soup]] ×1)
+:;(Obtain {{Item|Delicious Calla Lily Seafood Soup}})
 :{{DIcon}} I only came here to eat; I'm starving!
 ::'''Sara:''' Once you've done what I ask, I'll treat you to something from the Good Hunter special menu! Much obliged.
-:;(Obtain Delicious Calla Lily Seafood Soup ×1)
+:;(Obtain {{Item|Delicious Calla Lily Seafood Soup}})
 
 ;(Talk to Morrow)
 :'''Timid Morrow:''' I wish every day didn't have to be a hunting day...
 ;(If it's his order)
 ::{{DIcon}} Hello there. Is this your food?
-::'''Timid Morrow''': Um... is it Calla Lily Seafood Soup?
-::'''Timid Morrow''': Yay, it is mine then. But I'm not sure what took you so long...
-::'''Timid Morrow''': Any later and Draff would have dragged me out on a hunt by now.
-::'''Timid Morrow''': Ugh, whatever. Here's your money. Now get outta here, let me eat my food in peace.
-:;(Obtain [[Meal Fee Pouch]] ×1)
+::'''Timid Morrow:''' Um... is it Calla Lily Seafood Soup?
+::'''Timid Morrow:''' Yay, it is mine then. But I'm not sure what took you so long...
+::'''Timid Morrow:''' Any later and Draff would have dragged me out on a hunt by now.
+::'''Timid Morrow:''' Ugh, whatever. Here's your money. Now get outta here, let me eat my food in peace.
+:;(Obtain {{Item|Meal Fee Pouch}})
 ;(If not)
 ::{{DIcon}} Hello, did you order food?
-::'''Timid Morrow''': Um... Not this, this one isn't mine.
+::'''Timid Morrow:''' Um... Not this, this one isn't mine.
 
 ;(Talk to Morrow again or after finding the correct customer)
-:'''Timid Morrow''': Yikes... I need to eat up, Draff has nearly finished drinking.
+:'''Timid Morrow:''' Yikes... I need to eat up, Draff has nearly finished drinking.
 
 ;(Talk to Pallad)
-:'''Reckless Pallad''': Where is the treasure hiding...
+:'''Reckless Pallad:''' Where is the treasure hiding...
 ;(If it's his order)
 ::{{DIcon}} Excuse me, did you order some takeout?
-::'''Reckless Pallad''': Yes, a long time ago! Took you long enough! There'll be no treasure left if I wait much longer.
-::'''Reckless Pallad''': Mmm, this does smell delicious though...
-::'''Reckless Pallad''': Well, I guess food is also a treasure worth waiting for. I'm sure I've got time to eat before treasure hunting.
-::'''Reckless Pallad''': Thank you. Here's the cash.
-:;(Obtain [[Meal Fee Pouch]] ×1)
+::'''Reckless Pallad:''' Yes, a long time ago! Took you long enough! There'll be no treasure left if I wait much longer.
+::'''Reckless Pallad:''' Mmm, this does smell delicious though...
+::'''Reckless Pallad:''' Well, I guess good food is also a treasure worth waiting for. I'm sure I've got time to eat before treasure hunting.
+::'''Reckless Pallad:''' Thank you. Here's the cash.
+:;(Obtain {{Item|Meal Fee Pouch}})
 ;(If not)
 ::{{DIcon}} Takeout, get your takeout here...
-::'''Reckless Pallad''': Takeout? Not mine.
+::'''Reckless Pallad:''' Takeout? Not mine.
 
 ;(Talk to Pallad again or after finding the correct customer)
-:'''Reckless Pallad''': I'm sure there's time for me to eat before treasure hunting.
+:'''Reckless Pallad:''' I'm sure there's time for me to eat before treasure hunting.
 
 ;(Talk to Schuster)
-:'''Terrified Schuster''': I wonder if there's anywhere safe to go adventuring...
+:'''Terrified Schuster:''' I wonder if there's anywhere safe to go adventuring...
 ;(If it's his order)
 ::{{DIcon}} Excuse me, did you order takeout?
-::'''Terrified Schuster''': Wow, that was fast. I thought it would take longer.
-::'''Terrified Schuster''': Here's what I owe you. Mmm, smells gooood!
-::'''Terrified Schuster''': I mustn't go adventuring on an empty stomach. Now, I'm going to savor every last bite of this...
-:;(Obtain [[Meal Fee Pouch]] ×1)
+::'''Terrified Schuster:''' Wow, that was fast. I thought it would take longer.
+::'''Terrified Schuster:''' Here's what I owe you. Mmm, smells gooood!
+::'''Terrified Schuster:''' I mustn't go adventuring on an empty stomach. Now, I'm going to savor every last bite of this...
+:;(Obtain {{Item|Meal Fee Pouch}})
 ;(If not)
-::{{DIcon}} Sorry to bother you – did you order takeout?
-::'''Terrified Schuster''': I did! ...Oh, but this one isn't mine.
+::{{DIcon}} Sorry to bother you &mdash; did you order takeout?
+::'''Terrified Schuster:''' I did! ...Oh, but this one isn't mine.
 
 ;(Talk to Schuster again or after finding the correct customer)
-:'''Terrified Schuster''': Once I've finished eating I can get on with my adventure...
+:'''Terrified Schuster:''' Once I've finished eating I can get on with my adventure...
 ----
 ;(Return to Sara)
 :{{DIcon|Quest}} Deliver meal fee
-:'''Sara''': You're back! Did you manage to deliver it?
+:'''Sara:''' You're back! Did you manage to deliver it?
 :{{DIcon}} Here's the fee.
-:'''Sara''': Let me check... Perfect! Thanks!
-:'''Sara''': Here, this {{Color|buzzword|Crab, Ham & Veggie Bake}} is for you. It's fresh out of the oven, eat it while it's hot.
-;(Obtain [[Crab, Ham & Veggie Bake]] ×1)
+:'''Sara:''' Let me check... Perfect! Thanks!
+:'''Sara:''' Here, this {{color|buzzword|Crab, Ham & Veggie Bake}} is for you. It's fresh out of the oven, eat it while it's hot.
+;(Obtain {{Item|Crab, Ham & Veggie Bake}})
+{{Dialogue End}}
 
 ===Dawn Winery Version===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
 :{{DIcon|Quest}} Order for delivery
-:'''Sara:''' Hey Traveler! What's happening&mdash;
+:'''Sara:''' Hey, Traveler! What's happening&mdash;
 :'''Sara:''' ...Oh, you're just here to eat, you say?
 :'''Sara:''' I understand, really I do... But I promise you I will make you the best meal you ever tasted if you just lend me a hand first.
 :'''Sara:''' Ernest from the Dawn Winery often orders food from here to pair with his wine, and his orders always come with special requests.
-:'''Sara:''' This time he wants {{Color|buzzword|Fried Radish Balls}} but with egg added in. Unfortunately, I'm fresh out of eggs!
+:'''Sara:''' This time he wants {{color|buzzword|Fried Radish Balls}} but with egg added in. Unfortunately, I'm fresh out of eggs!
 :'''Sara:''' So if you could just go ahead and grab me a couple of Bird Eggs, that would be great.
 :{{DIcon}} If you insist...
-::'''Sara:''' There must be plenty around Windrise.
+::'''Sara:''' There must be plenty of Bird Eggs around Windrise.
 ::'''Sara:''' I appreciate it!
 :{{DIcon}} I only came here to eat; I'm starving!
 ::'''Sara:''' There must be plenty of Bird Eggs around Windrise.
 ::'''Sara:''' Once you've done what I ask, I'll treat you to something from the Good Hunter special menu! Much obliged.
 
 ;(Talk to Sara)
-:{{DIcon|Quest}} I come bearing ingredients.
+:{{DIcon}} I come bearing ingredients.
 :'''Sara:''' That'll do it. One moment...
-:'''Sara:''' It's ready! Now, get these {{Color|buzzword|Fried Radish Balls}} to Ernest, pronto!
+:'''Sara:''' It's ready! Now, get these {{color|buzzword|Fried Radish Balls}} to Ernest, pronto!
 :'''Sara:''' ...Don't give me that look, I know you're famished.
 :'''Sara:''' There'll be a special Good Hunter surprise waiting for you when you get back!
-;(Removes [[Bird Egg]] ×2 from inventory; a timer starts for 120 seconds)
-;(Obtain [[Delicious Fried Radish Balls]] ×1)
-{{Dialogue end}}
+;(Removes {{Item|Bird Egg|x=2}} from inventory; a timer starts for 120 seconds)
+;(Obtain {{Item|Delicious Fried Radish Balls}})
 
 ;(Talk to Ernest)
 :'''Ernest:''' Huh? Where did you come from? What do you want with me?
-:{{DIcon|Quest}} Your meal, sir.
-:'''Ernest:''' Aha! My {{Color|buzzword|Fried Radish Balls}}... and prepared just as I requested!
+:{{DIcon}} Your meal, sir.
+:'''Ernest:''' Aha! My {{color|buzzword|Fried Radish Balls}}... and prepared just as I requested!
 :'''Ernest:''' Mmm... Yes, the addition of eggs does indeed do wonders for the texture and aroma.
 :'''Ernest:''' Oh yeah! I know what I'm doing when it comes to food. *mwah!*
 :'''Ernest:''' Oh, and this is for you. Many thanks!
-;(Obtain [[Meal Fee Pouch]] ×1)
+;(Obtain {{Item|Meal Fee Pouch}})
 
 ;(Talk to Ernest again)
 :'''Ernest:''' Mmm... Yes, that rich eggy aroma just hits you straight away, but it's not overpowering thanks to the freshness of the carrot. I've missed my calling, should have been a chef!
@@ -201,10 +199,10 @@ There are three versions of this quest: one where the player needs to deliver to
 :{{DIcon|Quest}} Deliver meal fee
 :'''Sara:''' You're back! Did you make the delivery?
 :{{DIcon}} Here's the fee.
-:'''Sara''': Let's see... Excellent! Thank you.
-:'''Sara''': Here, this {{Color|buzzword|Crab, Ham & Veggie Bake}} is for you. It's fresh out of the oven, eat it while it's hot.
-;(Obtain [[Delicious Crab, Ham & Veggie Bake]] ×1)
-{{Dialogue end}}
+:'''Sara:''' Let's see... Excellent! Thank you.
+:'''Sara:''' Here, this {{color|buzzword|Crab, Ham & Veggie Bake}} is for you. It's fresh out of the oven, eat it while it's hot.
+;(Obtain {{Item|Delicious Crab, Ham & Veggie Bake}})
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -218,7 +216,6 @@ There are three versions of this quest: one where the player needs to deliver to
 |ja_rm   = Demae Saabisu
 |ja_tl   = Home Delivery Service
 |ko      = 음식 주문서
-|ko_rm   = Eumsik Jumunseo
 |ko_tl   = Food Order Sheet
 |es      = Entrega de comida
 |es_tl   = Food Delivery
@@ -238,7 +235,7 @@ There are three versions of this quest: one where the player needs to deliver to
 |pt      = Comanda de Pedidos
 |pt_tl   = 
 |tr      = Yiyecek Teslimatı
-|tr_tl   = 
+|tr_tl   = Food Delivery
 |it      = Consegna a domicilio
 |it_tl   = 
 }}
@@ -251,5 +248,6 @@ There are three versions of this quest: one where the player needs to deliver to
 
 [[es:Entrega de comida]]
 [[fr:Livraison à domicile]]
+[[ja:出前サービス]]
 [[pt-br:Comanda de Pedidos]]
 [[ru:Доставка еды]]

@@ -3,15 +3,14 @@
 |image         = Event Quest Charity Event? Securing Funds.png
 |type          = World
 |event_name    = Of Ballads and Brews
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
-|requirement   = [[Sounds From Afar (Quest)|Sounds From Afar]]
+|requirement   = Complete {{Quest|Sounds From Afar (Quest)|showType=0}}
 |characters    = Barbara; Bernhard; Georg; Paimon; Traveler
 |startLocation = [[Springvale]], [[Mondstadt]]
 |next          = Favonian Goodies
 |region        = Mondstadt
 |area          = Windwail Highland
 |subarea       = Springvale
-|other         = {{Card|Wanderer's Advice|4}}{{Card|Adventurer's Experience|2}}
+|rewards       = Adventurer's Experience*2;Wanderer's Advice*4
 |voiced        = yes
 }}
 '''''Charity Event? Securing Funds?''''' is an [[Event Quest]] during the [[Of Ballads and Brews]] Event.
@@ -26,7 +25,7 @@
 
 ==Dialogue==
 {{Quest Description|Bernhard, a Knight of Favonius, appears to have encountered some trouble this Weinlesefest...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Upon logging in)
 :{{A|vo jyeq001 1 paimon 01.ogg}} '''Paimon:''' So, there are a ton of sellers at the Weinlesefest. Should be some pretty cool stuff to check out, right?
 :{{A|vo jyeq001 1 paimon 02.ogg}} '''Paimon:''' Let's go and browse while we still have the chance!
@@ -51,7 +50,7 @@
 :{{DIcon}} Everyone has things that they struggle with.
 :{{A|vo jyeq001 1 paimon 06.ogg}} '''Paimon:''' Yeah! Also, no need to be so formal.
 :{{A|vo jyeq001 1 paimon 07.ogg}} '''Paimon:''' So, you said this is to help out the kids and old folks of Mondstadt, right? Sounds like a great cause!
-:{{A|vo jyeq001 1 paimon 08a.ogg}} {{A|vo jyeq001 1 paimon 08b.ogg}} '''Paimon:''' (Traveler) is an Honorary Knight, and Paimon's a longtime friend of Favonius. We'll be more than happy to do our part.
+:{{A|vo jyeq001 1 paimon 08a.ogg}} {{A|vo jyeq001 1 paimon 08b.ogg}} '''Paimon:''' {{Traveler}} is an Honorary Knight, and Paimon's a longtime friend of Favonius. We'll be more than happy to do our part.
 :{{DIcon}} As Paimon says, we are happy to help.
 :{{DIcon}} What do you need from us?
 :{{A|vo jyeq001 1 bernhard 11.ogg}} '''Bernhard:''' Oh, I can't thank you enough! Right, let me get down to brass tacks...
@@ -72,7 +71,7 @@
 :{{A|vo jyeq001 1 bernhard 23.ogg}} '''Bernhard:''' I'm already in contact with the suppliers, and they'll send everything over once the funds are in place.
 :{{A|vo jyeq001 1 paimon 11.ogg}} '''Paimon:''' Alright, sounds good! We'll find the funds and you sort out the shop.
 :{{A|vo jyeq001 1 bernhard 24.ogg}} '''Bernhard:''' This is an enormous help. Thank you both ever so much!
-:;(Obtain [[Shevirme's Funds]] × 17,000)
+:;(Obtain {{Item|Business Earnings|20|text=Shevirme's Funds|link=Shevirme's Funds|x=17,000}})
 
 ;(Talk to Bernhard again)
 :'''Bernhard:''' I'll take care of the shop's set-up. You two can focus on preparing the necessary funds!
@@ -90,20 +89,20 @@
 :{{A|vo jyeq001 2 paimon 02.ogg}} '''Paimon:''' Hi there, Georg. We're Shevirme's agents. He's asked us to order 50 crates of Fruits of the Festival for him.
 :{{A|vo jyeq001 2 georg 01.ogg}} '''Georg:''' Oh? Did you say Shevirme? He's a regular customer of mine. Always orders around the same amount each time...
 :{{A|vo jyeq001 2 georg 02.ogg}} '''Georg:''' But I digress &mdash; what price are you offering this year?
-:;(A Mood gauge appears starting at a random value of 4.25–4.75 Hearts, and negotiations begin at the default maximum amount of 14,000 Fairbrew Jellies)
-;(If the price is 11,500–12,500 Fairbrew Jellies)
+:;(A Mood gauge appears starting at a random value of 4.25&ndash;4.75 Hearts, and negotiations begin at the default maximum amount of 14,000&nbsp;Fairbrew Jellies)
+;(If the price is 11,500&ndash;12,500 Fairbrew Jellies)
 ::{{A|vo jyeq001 2 georg 03.ogg}} '''Georg:''' I'm sorry &mdash; Did you even speak to Shevirme before deciding on a price? You must be joking, that's much too low.
-:;(Lose 1.5 Hearts)
-;(If the price is 12,501–12,809 Fairbrew Jellies)
+:;(&minus;1.5 Hearts)
+;(If the price is 12,501&ndash;12,809 Fairbrew Jellies)
 ::{{A|vo jyeq001 2 georg 04.ogg}} '''Georg:''' Look, I know we've had a great harvest this year and our production costs have gone down a fair amount, but even then... I'm afraid this price is just not doable.
-:;(Lose 1.5 Hearts)
-;(If the price is 12,900–13,700 Fairbrew Jellies)
+:;(&minus;1.5 Hearts)
+;(If the price is 12,900&ndash;13,700 Fairbrew Jellies)
 ::{{A|vo jyeq001 2 georg 06.ogg}} '''Georg:''' Hmm... A little lower than I was hoping for. But he's a reliable customer. I think I can make it work.
 :;(Continue to next part)
-;(If the price is 13,701–14,000 Fairbrew Jellies)
+;(If the price is 13,701&ndash;14,000 Fairbrew Jellies)
 ::{{A|vo jyeq001 2 georg 05.ogg}} '''Georg:''' Sounds good to me, that's around the same price we've agreed in previous years, too. We have a deal!
 :;(Continue to next part)
-;(If the Mood gauge reaches zero Hearts)
+;(If the Mood gauge reaches 0 Hearts)
 ::{{A|vo jyeq001 2 georg 07.ogg}} '''Georg:''' I'm sorry, but I just can't consider going that low. If you're serious about placing an order, please, just take my price.
 ----
 ;(After negotiating the price)
@@ -113,10 +112,10 @@
 :{{A|vo jyeq001 2 paimon 04.ogg}} '''Paimon:''' Bernhard says we can approach this however we want, just as long as we raise all the funds we need...
 :{{A|vo jyeq001 2 paimon 05.ogg}} '''Paimon:''' We get a commission for every order we help place for an international customer. So maybe it's not worth trying to sell loads of ingredients to the wine merchants...
 :{{A|vo jyeq001 2 paimon 06.ogg}} '''Paimon:''' Still... just to make sure we've covered everything, let's take a look at the other wine merchants.
-:;(Obtain [[Shevirme's Invoice]])
+:;(Obtain {{Item|Quest Letter|20|text=Shevirme's Invoice|link=Shevirme's Invoice}})
 ----
 ;(Approach Bernhard)
-:{{A|vo jyeq001 3 barbara 01.ogg}} '''Barbara:''' (Traveler), Paimon! You're here!
+:{{A|vo jyeq001 3 barbara 01.ogg}} '''Barbara:''' {{Traveler}}, Paimon! You're here!
 :{{A|vo jyeq001 3 paimon 01.ogg}} '''Paimon:''' Hey! It's Barbara!
 :{{DIcon}} Hi, Barbara.
 :{{DIcon}} Happy Weinlesefest!
@@ -151,11 +150,11 @@
 :{{DIcon}} Sounds like a lot of effort...
 :{{DIcon}} You have so much on your plate already.
 :{{A|vo jyeq001 3 barbara 20.ogg}} '''Barbara:''' It's fine, really! It won't take me too long. Now I feel a little embarrassed, heh...
-:{{A|vo jyeq001 3 barbara 21.ogg}} '''Barbara:''' Let me think about it a little more and talk to some other people about their marketing experience! (Traveler), Paimon, I'll see you later~
+:{{A|vo jyeq001 3 barbara 21.ogg}} '''Barbara:''' Let me think about it a little more and talk to some other people about their marketing experience! {{Traveler}}, Paimon, I'll see you later~
 :{{A|vo jyeq001 3 barbara 22.ogg}} '''Barbara:''' And, um... the Knights and the Church of Favonius are really proud of you!
 :{{A|vo jyeq001 3 paimon 08.ogg}} '''Paimon:''' Aww, thanks! We'll do our best.
-:{{A|vo jyeq001 3 paimon 09.ogg}} '''Paimon:''' Paimon's even more motivated than ever now! (Traveler), we gotta make sure we do a really great job here!
-{{Dialogue end}}
+:{{A|vo jyeq001 3 paimon 09.ogg}} '''Paimon:''' Paimon's even more motivated than ever now! {{Traveler}}, we gotta make sure we do a really great job here!
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -169,7 +168,6 @@
 |ja_rm   = Charitii Ibento? Shikin Choutatsu?
 |ja_tl   = Charity Event? Fundraising?
 |ko      = 자선 판매 행사? 자금 준비?
-|ko_rm   = Jaseon Panmae Haengsa? Jageum Junbi?
 |ko_tl   = Charity Sale Event? Securing Funds?
 |es      = Recaudación de fondos para un evento benéfico
 |es_tl   = Fundraising for a Charity Event
@@ -196,3 +194,4 @@
 [[es:Recaudación de fondos para un evento benéfico]]
 [[id:Kegiatan Amal? Menggalang Dana?]]
 [[pt-br:Evento Beneficente? Arrecadação de Fundos?]]
+[[ru:Благотворительная ярмарка? Сбор средств?]]

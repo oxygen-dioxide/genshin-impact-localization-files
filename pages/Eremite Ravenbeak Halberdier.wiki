@@ -22,7 +22,7 @@
 
 ==Stats==
 {{Enemy Stats
-|phys_res     = -20%
+|phys_res     = &minus;20%
 
 |hp_ratio     = 1.2
 |hp_type      = 2
@@ -30,8 +30,8 @@
 |atk_type     = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1      = Sweep Combo
 |desc_1      = When in melee range, performs a sweep and a jumping slam with his halberd, dealing '''20% ATK''', '''100% ATK''' as {{Color|Physical DMG}}.
@@ -44,7 +44,7 @@
 ===Normal===
 {{VO/Enemy
 |enemy                   = Eremite Ravenbeak Halberdier
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Hah Lookin For Trouble.ogg
 |vo_01_01_tx_en          = Hah. Lookin' for trouble?
 |vo_01_01_tx_zh          = 不请自来！
@@ -72,6 +72,7 @@
 }}
 
 ===Taj Radkani===
+This enemy is found during {{Quest|All Returns to Silence}}.
 {{VO/Enemy
 |enemy                   = Eremite Ravenbeak Halberdier
 |vo_01_00_title          = Battle Start
@@ -81,16 +82,23 @@
 |vo_01_01_tx_ja          = この力、使わせてもらう！
 |vo_01_01_tx_ko          = 이 힘을 한번 써보도록 하지!
 
-|vo_02_00_title          = Attacking
+|vo_02_00_title          = First Attack
 |vo_02_01_file           = VO {lang}{name} - I Will Set Things Right No Matter What The Cost.ogg
-|vo_02_01_tx_en          = I will set things right, no matter what the cost.
+|vo_02_01_tx_en          = I will set things right, no matter what the cost. <!---He will only say this once in the entire fight, and then never again. Idk why--->
 |vo_02_01_tx_zh          = 我想弥补过去的遗憾，无论付出什么代价。
 |vo_02_01_tx_ja          = どんな代価を払っても、過去の無念を晴らすつもりだ。
 |vo_02_01_tx_ko          = 어떤 대가를 치르더라도, 과거의 아쉬움을 메꾸고 싶어
+
+|vo_03_00_title          = Defeated
+|vo_03_01_file           = VO {lang}{name} - Hmph As I Thought.ogg
+|vo_03_01_tx_en          = Hmph, as I thought.
+|vo_03_01_tx_zh          = TBD
+|vo_03_01_tx_ja          = TBD
+|vo_03_01_tx_ko          = TBD
 }}
 
 ==Descriptions==
-{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br />These warriors use Ravenbeak Halberds in battle. It is said that ascetics who served the deity of the desert would carry these halberds as symbols of their office. These weapons once had a true name, but it has long been lost to the desert sands.|[[Archive]]}}
+{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br>These warriors use Ravenbeak Halberds in battle. It is said that ascetics who served the [[King Deshret|deity of the desert]] would carry these halberds as symbols of their office. These weapons once had a true name, but it has long been lost to the desert sands.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -119,14 +127,13 @@ Enemy Eremite Ravenbeak Halberdier Icon.png|Icon
 |ja_rm   = Erumaito Ryodan - Bekudokoruban
 |ja_tl   = Eremite Brigade - {{w|Bec de Corbin}}
 |ko      = {{tt|도금|鍍金}} {{tt|여단|旅團}}・까마귀 부리 창병
-|ko_rm   = Dogeum Yeodan - Kkamagwi Buri Changbyeong
 |ko_tl   = {{Lex|Eremite|ko}} - Crowbeak Spearman
 |es      = Eremita Alabardero
 |es_tl   = Eremite Halberdier
 |fr      = Hallebardier des Érémites
 |fr_tl   = Halberdier of the Eremites
 |ru      = Алебардщик Пустынников
-|ru_tl   = Halberdier of the {{Lexicon|Eremite|ru}}s
+|ru_tl   = Halberdier of the {{Lex|Eremites|ru}}
 |th      = Eremite Ravenbeak Halberdier
 |vi      = Eremite - Kích Thủ
 |vi_tl   = 
@@ -136,7 +143,7 @@ Enemy Eremite Ravenbeak Halberdier Icon.png|Icon
 |pt      = Eremita - Alabardeiro
 |pt_tl   = Eremite - Halberdier
 |tr      = Münzevi Kargaburnu Baltalı Mızrakçı
-|tr_tl   = 
+|tr_tl   = {{Lex|Eremite|tr}} Korvid Halberdier
 |it      = Eremita con mazzapicchio
 |it_tl   = 
 }}
@@ -145,4 +152,6 @@ Enemy Eremite Ravenbeak Halberdier Icon.png|Icon
 {{Enemy Navbox|Common}}
 
 [[es:Eremita Alabardero]]
+[[fr:Hallebardier des Érémites]]
+[[ja:エルマイト旅団・ベクドコルバン]]
 [[pt-br:Eremita - Alabardeiro]]

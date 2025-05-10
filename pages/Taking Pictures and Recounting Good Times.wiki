@@ -1,18 +1,18 @@
-{{EventTabs}}
-{{ChinaOnly}} <!--currently available to cn players only-->
+{{Event Tabs|story=no}}
+{{China Only}}
 {{Event
 |name              = Taking Pictures and Recounting Good Times
 |image             = Taking Pictures and Recounting Good Times.png
 |type              = Web
-|type2             = Indefinite
 |time_known        = yes
 |time_start        = 2022-03-03 00:00:00
 |time_start_offset = GMT+8
-|time_end          = none
+|time_end          = 2024-03-01 00:00:00
+|time_end_offset   = GMT+8
 |link              = https://ys.mihoyo.com/main/news/detail/20339
 |link2             = https://webstatic.mihoyo.com/ys/event/e20220303-birthday/index.html
 |link2name         = Event Page
-|characters        = Qiqi;Shenhe;Cloud Retainer;Barbara;Klee;Jean;Traveler;Paimon;Noelle;Xiao;Diluc;Gorou;Yun Jin;Fischl;Arataki Itto;Lisa;Venti;Raiden Shogun;Yae Miko;Okazaki Rikuto;Kujou Sara;Shikanoin Heizou;Kuki Shinobu;Yanfei;Genta;Mamoru
+|characters        = Qiqi;Shenhe;Xianyun;Barbara;Klee;Jean;Traveler;Paimon;Noelle;Xiao;Diluc;Gorou;Yun Jin;Fischl;Arataki Itto;Lisa;Venti;Raiden Shogun;Yae Miko;Okazaki Rikuto;Kujou Sara;Shikanoin Heizou;Kuki Shinobu;Yanfei;Genta;Mamoru
 }}
 
 {{Lang|'''Taking Pictures and Recounting Good Times''' ''(unofficial name)''|zh=留影叙佳期|zh_rm=Liúyǐng Xù Jiāqī}} is a Chinese-exclusive [[Web Event]] celebrating ''Genshin Impact'' characters' birthdays.
@@ -27,12 +27,74 @@
 ===Summary===
 * Players may select either [[Traveler]], talk to the featured ''Genshin Impact'' character, and take photos with them on their [[birthday]].
 
+===Event Notes===
+* If the player misses a character's birthday, the respective page in {{Lang|mini=1|zh=我的画片}} ("My Photos") will contain a blurry photo instead of the normal one and will not have a {{Lang|mini=1|zh=回看对白}} ("Dialogue Review").
+* The next birthday is shown in a pop-up message:
+** {{Lang|mini=1|zh={M}月{D}日，我们不见不散~}} ("See you on {date}~")
+* When multiple characters share the same birthday, this message is displayed:
+::{| class="wikitable" width="100%"
+! width="50%" | Chinese
+! width="50%" | Translation
+|-
+|{{Dialogue Start|lang=zh}}
+;今天是{Character 1}和{Character 2}的生日，我们先为谁庆祝呢？
+:{{DIcon}} {Character 1}
+:;接下来我们去为{Character 2}庆祝吧！
+:{{DIcon}} {Character 2}
+:;接下来我们去为{Character 1}庆祝吧！
+;有新的画片收录进来啦！快去看看吧~
+{{Dialogue End}}
+|{{Dialogue Start}}
+;Today is {Character 1} and {Character 2}'s birthday, who should we celebrate with first?
+:{{DIcon}} {Character 1}
+:;Let's celebrate with {Character 2} next!
+:{{DIcon}} {Character 2}
+:;Let's celebrate with {Character 1} next!
+;New photos have been recorded! Let's check it out~
+{{Dialogue End}}
+|}
+* On [[Kamisato Ayato]]'s birthday in 2022, this pop-up message appeared, as he would not be released until several days later:
+** {{zh|欸，3月26日，好像错过了什么…}} ("Um... feels like we missed something on March 26th...")
+* [[Aloy]] is not featured in this event.
+
+==List of Stories==
+{{#DPL:
+|namespace=
+|ordermethod=title
+|titlematch=Taking Pictures and Recounting Good Times%
+|uses=Template:TPRGT Stories by Category Table
+|format=²{Card List¦delim=;¦1=,{²{Replace¦%PAGE%¦s1=Taking Pictures and Recounting Good Times/¦s2=/%d+%-%d+%-%d+}² $link=%PAGE%};,,}²
+}}
+
+==Recent Stories==
+{{#DPL:
+|count         = 5
+|namespace     = 
+|category      = TPRGT Stories by Date
+|ordermethod   = sortkey
+|order         = descending
+|uses          = Template:TPRGT Story
+|include       = {TPRGT Story}:date,{TPRGT Story¦TPRGT Story}
+|format        = ,²{,}²²{Reflist¦note=1}²,<!-- braces have to be here due to the way phantoms are included -->
+|tablerow      = <!--
+-->#if:<!--
+   -->²{#if:²{#var:_DATE¦}²<!--
+      -->¦²{#ifeq:²{#var:_DATE¦}²¦%%<!--
+         -->¦yes<!--
+         -->¦<!--
+      -->}²<!--
+      -->¦²{#vardefine:_DATE¦%%}²yes<!--
+   -->}²<!--
+  -->¦²{Main¦%PAGE%}²,<!--
+-->
+}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=eventgameplay}}
+
 ==Change History==
 {{Change History|2.5}}
-<!--
-==References==
-{{Reflist}}
--->
 
 [[ja:楽しい時間を思い出に残す写真]]
 [[uk:Фотографії та розповіді про гарні часи]]
+[[vi:Bức Ảnh Lưu Giữ Ngày Hẹn Hò]]

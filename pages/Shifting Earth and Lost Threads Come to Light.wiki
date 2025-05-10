@@ -1,5 +1,6 @@
 {{Quest Infobox
 |id            = 11122
+|image         = Story Quest Shifting Earth and Lost Threads Come to Light.png
 |type          = Story
 |chapter       = Historia Antiqua Chapter
 |actNum        = II
@@ -13,13 +14,11 @@
 |subarea       = Lingju Pass
 |prev          = Truth in the Stones
 |next          = Amidst Chaos, the Rock Is Unmoved
-|exp           = 625
-|mora          = 38,100
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}{{Card|Archaic Stone|1|rarity=4}}
+|rewards       = Adventure EXP*625;Mora*38,100;Hero's Wit*4;Mystic Enhancement Ore*8;Archaic Stone*1
 |characters    = Kun Jun; Ling; Missing Miners; Paimon; Traveler; Wanyu; Wei (No Mere Stone); Yonggui; Zhongli
 |voiced        = yes
 }}
-'''Shifting Earth and Lost Threads Come to Light''' is the third part of [[Zhongli]]'s [[Story Quest]] [[Historia Antiqua Chapter]]: Act II - [[No Mere Stone]].
+'''''Shifting Earth and Lost Threads Come to Light''''' is the third part of {{Quest|No Mere Stone}}.
 
 ==Steps==
 # Head to [[Lingju Pass]] to investigate
@@ -30,16 +29,15 @@
 # Follow the road and keep up the pursuit
 # Save the ambushed scholar
 #* Defeat opponents
-#* {{Enemy|Geovishap Hatchling|x=2}}
-#* {{Enemy|Pyro Slime|x=3}}
+#* {{Enemy List|Geovishap Hatchling*2;Pyro Slime*3}}
 # Talk to the scholar
 # Head to [[Nantianmen]] and look for clues
 # Take the miner to a nearby camp to rest
 #* Obtain [[Archaic Stone]]
 
 ==Dialogue==
-{{Quest Description|The evidence at the mining site suggests that the miners followed the road north. You follow the trail, gradually closing in on them.<br /><br />All manner of clues guide you along the way, including footprints, witnesses, and memories embedded in stone...}}
-{{Dialogue start}}
+{{Quest Description|The evidence at the mining site suggests that the miners followed the road north. You follow the trail, gradually closing in on them.<br><br>All manner of clues guide you along the way, including footprints, witnesses, and memories embedded in stone...}}
+{{Dialogue Start}}
 ;(Head to Lingju Pass to investigate)
 :{{A|vo zllq103 1 paimon 01.ogg}} '''Paimon:''' Wait, there are tracks here!
 :{{A|vo zllq103 1 paimon 02.ogg}} '''Paimon:''' These must have been left by the miners!
@@ -53,16 +51,14 @@
 ;(Follow the footprints)
 :{{A|vo zllq103 3 paimon 01.ogg}} '''Paimon:''' Oh no! The footprints end here!
 :{{A|vo zllq103 3 zhongli 01.ogg}} '''Zhongli:''' We should inquire with anyone nearby. If the miners came through here, they may well have seen them.
-
 ----
-
 ;(Ask people nearby for information)
 
 ;(Talk to [[Yonggui]])
 :{{A|vo zllq103 4 paimon 01.ogg}} '''Paimon:''' Hi there, have you seen anyone dressed like a miner around here?
 :{{A|vo zllq103 4 yonggui 01.ogg}} '''Yonggui:''' A miner? I'm afraid not.
 :{{A|vo zllq103 4 paimon 02.ogg}} '''Paimon:''' *sigh* Let's try someone else.
-;(Talk to Yonggui again)
+;(Talk to Yonggui again, optional)
 :{{A|vo dialog zllq103 yonggui 01.ogg}} '''Yonggui:''' *sigh* My legs don't work like they used to... Guess my age is catching up with me...
 
 ;(Talk to [[Wei (No Mere Stone)|Wei]])
@@ -70,7 +66,7 @@
 :{{A|vo zllq103 4 wei 01.ogg}} '''Wei:''' Stop bothering me! Can't you see I'm cloud-watching?
 :{{A|vo zllq103 4 paimon 04.ogg}} '''Paimon:''' Geez! A little grumpy, aren't we?
 :{{A|vo zllq103 4 paimon 05.ogg}} '''Paimon:''' Whatever, let's go ask someone else.
-;(Talk to Wei again)
+;(Talk to Wei again, optional)
 :{{A|vo dialog zllq103 wei 01.ogg}} '''Wei:''' You again... I'm busy!
 
 ;(Talk to [[Ling]])
@@ -84,11 +80,9 @@
 :{{A|vo zllq103 4 zhongli 03.ogg}} '''Zhongli:''' And they took this road?
 :{{A|vo zllq103 4 ling 04.ogg}} '''Ling:''' Yes, they followed it straight from here.
 :{{A|vo zllq103 4 paimon 08.ogg}} '''Paimon:''' Let's go after them!
-;(Talk to Ling again)
+;(Talk to Ling again, optional)
 :{{A|vo dialog zllq103 ling 01.ogg}} '''Ling:''' I've never seen anything like it... Were they sleepwalking? So bizarre...
-
 ----
-
 ;(Follow the road and keep up the pursuit)
 
 ;(Save the ambushed scholar)
@@ -98,7 +92,7 @@
 
 ;(Talk to the [[Wanyu|scholar]])
 :{{A|vo zllq103 7 wanyu 01.ogg}} '''Wanyu:''' Those monsters were so aggressive &mdash; they must have noticed me walking through! Before I knew it they were all over me... Thank you all for saving me.
-:{{A|vo zllq103 7 wanyu 02.ogg}} '''Wanyu:''' My name is Wanyu, I belong to Liyue's Shenglu Hall. I head up our human culture and civilization research.
+:{{A|vo zllq103 7 wanyu 02.ogg}} '''Wanyu:''' My name is Wanyu, I belong to Liyue's [[Shenglu Hall]]. I head up our human culture and civilization research.
 :{{A|vo zllq103 7 paimon 01.ogg}} '''Paimon:''' Huh? You sure you're not... a miner?
 :{{A|vo zllq103 7 wanyu 03.ogg}} '''Wanyu:''' A miner?
 :{{A|vo zllq103 7 paimon 02.ogg}} '''Paimon:''' Yeah. We're looking for a group of four strong fellas carrying mining equipment.
@@ -111,14 +105,16 @@
 :{{A|vo zllq103 7 wanyu 07.ogg}} '''Wanyu:''' I hope it's useful to you!
 :{{A|vo zllq103 7 wanyu 08.ogg}} '''Wanyu:''' I'd better get going, there's a conference I need to attend. Again, thank you all for your help.
 :{{A|vo zllq103 7 paimon 04.ogg}} '''Paimon:''' According to this scholar, the miners were heading for Nantianmen.
-:{{A|vo zllq103 7 kunjun 01.ogg}} '''Kun Jun:''' Can we be absolutely sure that it was the men that we're looking for?
+:{{A|vo zllq103 7 kunjun 01.ogg}} '''[[Kun Jun]]:''' Can we be absolutely sure that it was the men that we're looking for?
 :{{A|vo zllq103 7 paimon 05.ogg}} '''Paimon:''' A child with a group of adults! Sounds pretty close to Paimon!
 :{{DIcon}} It could easily have been a different group.
 :{{A|vo zllq103 7 paimon 06.ogg}} '''Paimon:''' Uh... but...
 :{{A|vo zllq103 7 kunjun 02.ogg}} '''Kun Jun:''' Hey, perhaps that rock over there can tell us more!
 :{{A|vo zllq103 7 paimon 07.ogg}} '''Paimon:''' Aha! Paimon nearly forgot about our secret weapon!
 :{{A|vo zllq103 7 kunjun 03.ogg}} '''Kun Jun:''' It looks promising, I'll do my best.
+;(Kun Jun walks over to the rock)
 :{{A|vo zllq103 7 kunjun 04.ogg}} '''Kun Jun:''' Hmm...
+;(Kun Jun sees a vision of four men walking along the road)
 :{{A|vo zllq103 7 kunjun 05.ogg}} '''Kun Jun:''' ...
 :{{A|vo zllq103 7 kunjun 06.ogg}} '''Kun Jun:''' It's the same group alright. They followed this road.
 :{{A|vo zllq103 7 zhongli 02.ogg}} '''Zhongli:''' Haha, Mr. Kun Jun, your stone-seeing is something I won't forget in a hurry.
@@ -133,17 +129,16 @@
 :{{A|vo zllq103 7 zhongli 06.ogg}} '''Zhongli:''' We have encountered many clues along the way. So far they've pointed us in the right direction.
 :{{A|vo zllq103 7 zhongli 07.ogg}} '''Zhongli:''' Hmm, the miners headed in the direction of Nantianmen the day before yesterday. From here they would have had to navigate a perilous mountain road. If their destination is indeed Nantianmen, we should be able to catch up with them.
 :{{A|vo zllq103 7 paimon 09.ogg}} '''Paimon:''' Great! No time to lose!
-:{{A|vo zllq103 7 zhongli 08.ogg}} '''Zhongli:''' I left a mark in the vicinity just now. If Uncle Dai does pass through here, it should guide him to us.
+:{{A|vo zllq103 7 zhongli 08.ogg}} '''Zhongli:''' I left a mark in the vicinity just now. If [[Uncle Dai]] does pass through here, it should guide him to us.
 :{{A|vo zllq103 7 paimon 10.ogg}} '''Paimon:''' Clever thinking! A classic Zhongli move.
 
-;(Observe Stone)
-:'''Observe Stone:''' (This rock is no different from ordinary Cor Lapis... and yet, Kun Jun was able to see a memory through it.)
+;(Observe Stone, optional)
+:'''Observe Stone:''' (This rock is no different from ordinary [[Cor Lapis]]... and yet, Kun Jun was able to see a memory through it.)
 :'''Observe Stone:''' (It was thanks to this sort of rock that we were able to find some clues.)
-
 ----
-
 ;(Head to Nantianmen and look for clues)
 :{{A|vo zllq103 8 paimon 01.ogg}} '''Paimon:''' Hey! Over here on the ground! Is this one of the missing people?
+
 :{{A|vo zllq103 8 kunjun 01.ogg}} '''Kun Jun:''' There's a basket lying here too... This must be one of the miners.
 :{{A|vo zllq103 8 paimon 02.ogg}} '''Paimon:''' Hey! Hello? Can you hear us?
 :{{A|vo zllq103 8 zhongli 01.ogg}} '''Zhongli:''' Judging by his appearance, he must have collapsed from exhaustion.
@@ -167,6 +162,7 @@
 :{{A|vo zllq103 9 kunjun 01.ogg}} '''Kun Jun:''' Hm? It looks like there's something in his pocket...
 :{{A|vo zllq103 9 kunjun 02.ogg}} '''Kun Jun:''' Are these... ore fragments?
 :{{A|vo zllq103 9 kunjun 03.ogg}} '''Kun Jun:''' ...
+;(Kun Jun sees a vision of the man picking up the ore fragments)
 :{{A|vo zllq103 9 kunjun 04.ogg}} '''Kun Jun:''' I just witnessed the memories within these ore fragments. This person brought these fragments out of the mine. He's one of the four that we're searching for.
 :{{A|vo zllq103 9 zhongli 04.ogg}} '''Zhongli:''' How he came to be here is what we need to understand.
 :{{A|vo zllq103 9 paimon 03.ogg}} '''Paimon:''' So he was kidnapped, and then... abandoned here...
@@ -194,6 +190,7 @@
 :{{A|vo zllq103 9 paimon 09.ogg}} '''Paimon:''' You sure like rocks, huh Kun Jun...
 :{{A|vo zllq103 9 kunjun 14.ogg}} '''Kun Jun:''' Ores are the crystals of the earth, the sediment of time itself. I feel at peace among them.
 :{{A|vo zllq103 9 kunjun 15.ogg}} '''Kun Jun:''' Get some rest, and call me when you're ready to set off. I won't be far.
+;(Kun Jun walks away)
 :{{DIcon}} He'll be okay on his own, right?
 :{{A|vo zllq103 9 zhongli 10.ogg}} '''Zhongli:''' Rest easy, I surveyed the area. There's no danger here.
 :{{A|vo zllq103 9 zhongli 11.ogg}} '''Zhongli:''' Oh, however, there is something I wanted to discuss with you.
@@ -220,10 +217,10 @@
 :{{A|vo zllq103 9 zhongli 23.ogg}} '''Zhongli:''' We should ensure this miner is settled here at the camp. Once we've brought this matter to a close, we can return and attend to him. I suggest we leave a note for Uncle Dai. If he does find the camp he'll know what to do.
 ;(Obtain [[Archaic Stone]] ×1)
 
-;(Interact with Mao the miner)
+;(Interact with Mao the miner, optional)
 :{{A|vo dialog zllq104 garymao 01.ogg}} '''Miner:''' Ugh... Oh...
 :'''Miner:''' (He looks exhausted.)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Trivia==
 * Differences between voice-overs and their official transcription:

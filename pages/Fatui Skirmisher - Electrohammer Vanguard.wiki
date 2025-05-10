@@ -10,9 +10,11 @@
 |location = Multiple
 |ability1 = Shield
 |ability2 = Elemental Conversion
-|voiceEN  = [https://www.danfostervo.com/ Dan Foster]<ref name="Dan Foster">Twitter: [https://twitter.com/DanFosterVO/status/1355268775608688641 EN VA Self Announcement]</ref>
+|voiceEN  = [https://www.danfostervo.com/ Dan Foster]<ref name="Dan Foster">Twitter: [https://web.archive.org/web/20210129213724/https://twitter.com/DanFosterVO/status/1355268775608688641 EN VA Self Announcement] (Archived)</ref>
 }}
 {{Enemy Intro}}
+
+One [[Local Legend]] '''Electrohammer Vanguard''', called '''Polychrome Tri-Stars: Nomokonov''', can be found in [[Huitztli Hill]], [[Basin of Unnumbered Flames]], [[Natlan]], along with his fellow Polychrome Tri-Stars [[Fatui Skirmisher - Pyroslinger Bracer|Vasily]] and [[Fatui Skirmisher - Cryogunner Legionnaire|Sidorenko]].
 
 ==Drops==
 ===Items===
@@ -30,9 +32,11 @@
 }}
 
 ==Stats==
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div style="width:min-content;">
+===Normal===
 {{Enemy Stats
 |res1     = Unshielded
-|phys_res = -20%
+|phys_res = &minus;20%
 
 |res2         = Shielded
 |resglobal2   = 110%
@@ -43,20 +47,40 @@
 |hp_type   = 1
 |atk_ratio = 6
 }}
+</div><!--
+--><div style="width:min-content;">
+===Local Legend===
+{{Enemy Stats
+|res1     = Unshielded
+|phys_res = &minus;20%
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+|res2         = Shielded
+|resglobal2   = 110%
+|phys_res2    = 80%
+
+|res_title = State
+|hp_ratio  = 33
+|hp_type   = 2
+|atk_ratio = 10
+|atk_type  = 2
+}}
+</div></div>
+
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |enemy = Electrohammer Vanguard
 
-|name_1 = 3-Swing Combo
-|desc_1 = Performs a combo attack that consists of an upward hammer swing, a downward slam, and a sideways swing, dealing '''66.6% ATK''', '''66.6% ATK''', '''100% ATK''' as {{Color|AoE Physical DMG}} or {{Color|AoE Electro DMG}}.
+|name_1 = Rapid Hammer Strike
+|desc_1 = Performs a combo attack that consists of an upward hammer swing, a downward slam, and a sideways swing, dealing '''66.6% ATK''', '''66.6% ATK''', '''100% ATK''' as {{Color|Physical DMG}} or {{Color|Electro DMG}}.
+|file_1 = Electrohammer Vanguard 3-Swing Combo
 |caption_1 = Normal
 |file_1_2 = Electrohammer Vanguard 3-Swing Combo Infused
 |caption_1_2 = Infused
 
-|name_2 = Charge Slam
-|desc_2 = Charges at the player and performs a powerful downward slam, dealing '''33.3% ATK''' as {{Color|Physical DMG}} on collision and '''100% ATK''' as {{Color|AoE Physical DMG}} or {{Color|AoE Electro DMG}} with the slam. If the player is close enough they will not charge and just slam immediately.
+|name_2 = Raging Charge
+|desc_2 = Charges at the player and performs a powerful downward slam, dealing '''33.3% ATK''' as {{Color|Physical DMG}} on collision and '''100% ATK''' as {{Color|Physical DMG}} or {{Color|Electro DMG}} with the slam. If the player is close enough they will not charge and just slam down immediately.
+|file_2 = Electrohammer Vanguard Charge Slam
 |caption_2 = Normal
 |file_2_2 = Electrohammer Vanguard Charge Slam Infused
 |caption_2_2 = Infused
@@ -64,9 +88,16 @@
 |name_3 = Elemental Buff: Electro
 |file_3 = Electrohammer Vanguard Electro Armor
 |desc_3 = Upon reaching '''50%''' HP or after some time has passed, generates an {{Electro}} [[Shields|shield]], granting them a massive increase in [[Resistance]]s, infusing their hammer with {{Electro}} and making their attacks Faster. The shield is weakest to {{Color|Cryo}}. Breaking the shield will leave them stunned and vulnerable to attack.
+* '''Local Legend:''' Will quickly generate an {{Electro}} shield upon initiating combat.
 {{Elemental Shield Data|Electro|8|skirmisher=1}}
 |file_3_2 = Electrohammer Vanguard Stunned
 |caption_3_2 = Stunned
+}}
+
+===Local Legend-Exclusive===
+{{Enemy Attacks
+|name_1 = Vengeance
+|desc_1 = Upon being defeated, drops an explosive which after a short delay, deals '''300% ATK''' as {{Color|Electro DMG}} and fully restores shields for remaining allies.
 }}
 
 ===AI Logic===
@@ -82,124 +113,199 @@
 {| class="wikitable"
 ! Ability !! Range Req. (m) !! Priority !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int. !! State Req.
 |-
-| 3-Swing Combo || 0–7.5 || 5 || 5–10 || 3 || — || rowspan="12" | 4 || {{check|yes}} || {{check|no}} || Not Armored
+| Rapid Hammer Strike || 0–7.5 || 5 || 5–10 || 3 || &mdash; || rowspan="12" | 4 || {{check|yes}} || {{check|no}} || Not Armored
 |-
-| Downward Slam || 0–7.5 || 5 || 5–10 || 3 || — || {{check|yes}} || {{check|no}} || Not Armored
+| Raging Charge (Close Up) || 0–7.5 || 5 || 5–10 || 3 || &mdash; || {{check|yes}} || {{check|no}} || Not Armored
 |-
-| Charge Slam || 7.5–25 || 5 || 10–15 || 5–12.5 || — || {{check|yes}} || {{check|no}} || Not Armored
+| Raging Charge || 7.5–25 || 5 || 10–15 || 5–12.5 || &mdash; || {{check|yes}} || {{check|no}} || Not Armored
 |-
-| Elemental Buff: Electro 1 || 0–999 || 1 || 100000000 || 10–15 || — || {{check|no}} || {{check|yes}} || Not Armored, Above 50% HP
+| Elemental Buff: Electro 1 || 0–999 || 1 || 100000000 || 10–15 || &mdash; || {{check|no}} || {{check|yes}} || Not Armored, Above 50% HP
 |-
-| Elemental Buff: Electro 2 || 0–999 || 2 || 25–30 || 25–30 || — || {{check|no}} || {{check|yes}} || Not Armored
+| Elemental Buff: Electro 2 || 0–999 || 2 || 25–30 || 25–30 || &mdash; || {{check|no}} || {{check|yes}} || Not Armored
 |-
-| Elemental Buff: Electro 3 || 0–999 || 1 || 100000000 || 0 || — || {{check|no}} || {{check|yes}} || Not Armored, Below 50% HP
+| Elemental Buff: Electro 3 || 0–999 || 1 || 100000000 || 0 || &mdash; || {{check|no}} || {{check|yes}} || Not Armored, Below 50% HP
 |-
-| 3-Swing Combo (Infused) 1 || 0–7.5 || 5 || 5–10 || 0 || rowspan="2" | 7.5 || {{check|yes}} || {{check|no}} || Armored
+| Rapid Hammer Strike (Infused) 1 || 0–7.5 || 5 || 5–10 || 0 || rowspan="2" | 7.5 || {{check|yes}} || {{check|no}} || Armored
 |-
-| 3-Swing Combo (Infused) 2 || 0–7.5 || 4 || 5–10 || 0 || {{check|yes}} || {{check|yes}} || Armored
+| Rapid Hammer Strike (Infused) 2 || 0–7.5 || 4 || 5–10 || 0 || {{check|yes}} || {{check|yes}} || Armored
 |-
-| Downward Slam (Infused) 1 || 0–7.5 || 5 || 5–10 || 0 || rowspan="2" | 7.5 || {{check|yes}} || {{check|no}} || Armored
+| Raging Charge (Close Up, Infused) 1 || 0–7.5 || 5 || 5–10 || 0 || rowspan="2" | 7.5 || {{check|yes}} || {{check|no}} || Armored
 |-
-| Downward Slam (Infused) 2 || 0–7.5 || 4 || 5–10 || 0 || {{check|yes}} || {{check|yes}} || Armored
+| Raging Charge (Close Up, Infused) 2 || 0–7.5 || 4 || 5–10 || 0 || {{check|yes}} || {{check|yes}} || Armored
 |-
-| Charge Slam (Infused) 1 || 7.5–25 || 5 || 10–15 || 5–12.5 || rowspan="2" | 12.5 || {{check|yes}} || {{check|no}} || Armored
+| Raging Charge (Infused) 1 || 7.5–25 || 5 || 10–15 || 5–12.5 || rowspan="2" | 12.5 || {{check|yes}} || {{check|no}} || Armored
 |-
-| Charge Slam (Infused) 2 || 7.5–25 || 5 || 10–17.5 || 5–12.5 || {{check|yes}} || {{check|yes}} || Armored
+| Raging Charge (Infused) 2 || 7.5–25 || 5 || 10–17.5 || 5–12.5 || {{check|yes}} || {{check|yes}} || Armored
 |}
 
 ==Voice-Overs==
+{{Stub|Missing Chinese, Japanese and Korean transcriptions.[[Category:VO Chinese Romanization Missing]][[Category:VO Japanese Romanization Missing]][[Category:VO Korean Romanization Missing]]}}
 {{VO/Enemy
 |enemy                   = Electrohammer Vanguard
-|vo_01_00_title          = Spotting the Traveler
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - No More Words.ogg
 |vo_01_01_tx_en          = No more words.
 |vo_01_01_tx_zh          = 多说无益！
 |vo_01_01_tx_ja          = 言葉は不要だ。
-|vo_01_01_tx_ko          = 
+|vo_01_01_tx_ko          = {{tx}}
 |vo_01_02_file           = VO {lang}{name} - Lets Begin.ogg
 |vo_01_02_tx_en          = Let's begin.
 |vo_01_02_tx_zh          = 开始吧！
 |vo_01_02_tx_ja          = 始めよう！
-|vo_01_02_tx_ko          = 
+|vo_01_02_tx_ko          = {{tx}}
 
-|vo_02_00_title          = Activating Shield
-|vo_02_01_file           = VO {lang}{name} - I Will End You.ogg
-|vo_02_01_tx_en          = I will end you.
-|vo_02_01_tx_zh          = 马上了结你！
-|vo_02_01_tx_ja          = すぐに終わらせる。
-|vo_02_01_tx_ko          = 
-|vo_02_02_file           = VO {lang}{name} - Stay Right There.ogg
-|vo_02_02_tx_en          = Stay... right there.
-|vo_02_02_tx_zh          = 站在那，别动！
-|vo_02_02_tx_ja          = 動くなよ。
-|vo_02_02_tx_ko          = 
+|vo_02_00_title          = Entering Battle (Local Legend)
+|vo_02_01_file           = VO {lang}Fatui Skirmisher - Electrohammer Vanguard - Entering Battle (Local Legend).ogg
+|vo_02_01_tx_en          = Uninvited guests aren't welcome here.
+|vo_02_01_tx_zh          = 这里不欢迎不请自来的客人。
+|vo_02_01_rm_zh          = 
+|vo_02_01_tx_ja          = 招かれざる客は歓迎しないぞ。
+|vo_02_01_rm_ja          = 
+|vo_02_01_tx_ko          = {{tx}}
+|vo_02_01_rm_ko          = 
 
-|vo_03_00_title          = Attacking
-|vo_03_01_file           = VO {lang}{name} - Three Hammer Swing.ogg
-|vo_03_01_tx_en          = Hmh! Hoh! Hah!
-|vo_03_01_tx_zh          = 
-|vo_03_01_tx_ja          = 
-|vo_03_01_tx_ko          = 
-|vo_03_02_file           = VO {lang}{name} - Mmhragh.ogg
-|vo_03_02_tx_en          = Mmhragh!
-|vo_03_02_tx_zh          = Mmhragh!
-|vo_03_02_tx_ja          = 
-|vo_03_02_tx_ko          = 
-|vo_03_03_file           = VO {lang}{name} - Lets End This Quickly.ogg
-|vo_03_03_tx_en          = Let's end this quickly!
-|vo_03_03_tx_zh          = 速战速决吧！
-|vo_03_03_tx_ja          = 速戦即決！
-|vo_03_03_tx_ko          = 
+|vo_03_00_title          = Activating Buff
+|vo_03_01_file           = VO {lang}{name} - I Will End You.ogg
+|vo_03_01_tx_en          = I will end you.
+|vo_03_01_tx_zh          = 马上了结你！
+|vo_03_01_tx_ja          = すぐに終わらせる。
+|vo_03_01_tx_ko          = {{tx}}
+|vo_03_02_file           = VO {lang}{name} - Stay Right There.ogg
+|vo_03_02_tx_en          = Stay... right there.
+|vo_03_02_tx_zh          = 站在那，别动！
+|vo_03_02_tx_ja          = 動くなよ。
+|vo_03_02_tx_ko          = {{tx}}
 
-|vo_04_00_title          = Charging
-|vo_04_01_file           = VO {lang}{name} - Lets Not Waste Time.ogg
-|vo_04_01_tx_en          = Let's not waste time.
-|vo_04_01_tx_zh          = 别浪费时间了！
-|vo_04_01_tx_ja          = 時間がない！
-|vo_04_01_tx_ko          = 
-|vo_04_02_file           = VO {lang}{name} - Almost.ogg
-|vo_04_02_tx_en          = Almost...
-|vo_04_02_tx_zh          = 差不多了！
-|vo_04_02_tx_ja          = そろそろだ！
-|vo_04_02_tx_ko          = 
+|vo_04_00_title          = Rapid Hammer Strike
+|vo_04_01_file           = VO {lang}{name} - Three Hammer Swing.ogg
+|vo_04_01_tx_en          = Hmh! Hoh! Hah!
+|vo_04_01_tx_zh          = {{tx}}
+|vo_04_01_tx_ja          = {{tx}}
+|vo_04_01_tx_ko          = {{tx}}
 
-|vo_05_00_title          = Shield Broken
-|vo_05_01_file           = VO {lang}{name} - This Is Bad.ogg
-|vo_05_01_tx_en          = This is bad!
-|vo_05_01_tx_zh          = 呃！糟糕…
-|vo_05_01_tx_ja          = 予想外だ…
-|vo_05_01_tx_ko          = 
-|vo_05_02_file           = VO {lang}{name} - Egh I Slipped Up.ogg
-|vo_05_02_tx_en          = Egh! I slipped up...!
-|vo_05_02_tx_zh          = 呃啊！大意了…
-|vo_05_02_tx_ja          = ちぇ！油断した…
-|vo_05_02_tx_ko          = 
+|vo_05_00_title          = Raging Charge (Close Up)
+|vo_05_02_file           = VO {lang}{name} - Mmhragh.ogg
+|vo_05_02_tx_en          = Mmhragh!
+|vo_05_02_tx_zh          = Mmhragh!
+|vo_05_02_tx_ja          = {{tx}}
+|vo_05_02_tx_ko          = {{tx}}
+|vo_05_03_file           = VO {lang}{name} - Lets End This Quickly.ogg
+|vo_05_03_tx_en          = Let's end this quickly!
+|vo_05_03_tx_zh          = 速战速决吧！
+|vo_05_03_tx_ja          = 速戦即決！
+|vo_05_03_tx_ko          = {{tx}}
 
-|vo_06_00_title          = Staggered
-|vo_06_01_tx_en          = {{A|VO Electrohammer Vanguard - Staggered 01.ogg}} {{A|VO Electrohammer Vanguard - Staggered 02.ogg}} {{A|VO Electrohammer Vanguard - Staggered 03.ogg}}
+|vo_06_00_title          = Raging Charge
+|vo_06_01_file           = VO {lang}{name} - Lets Not Waste Time.ogg
+|vo_06_01_tx_en          = Let's not waste time.
+|vo_06_01_tx_zh          = 别浪费时间了！
+|vo_06_01_tx_ja          = 時間がない！
+|vo_06_01_tx_ko          = 시간 낭비는 그만 하지
+|vo_06_02_file           = VO {lang}{name} - Almost.ogg
+|vo_06_02_tx_en          = Almost...
+|vo_06_02_tx_zh          = 差不多了！
+|vo_06_02_tx_ja          = そろそろだ！
+|vo_06_02_tx_ko          = 거의 다 왔어
 
-|vo_07_00_title          = Defeated
-|vo_07_01_file           = VO {lang}{name} - Ughh This Isnt Good.ogg
-|vo_07_01_tx_en          = Ugh... this isn't good...
-|vo_07_01_tx_zh          = 糟…糕…
-|vo_07_01_tx_ja          = まずい！
-|vo_07_01_tx_ko          = 
-|vo_07_02_file           = VO {lang}{name} - I Guess This Is It.ogg
-|vo_07_02_tx_en          = I guess... this is it...
-|vo_07_02_tx_zh          = 这样…也好…
-|vo_07_02_tx_ja          = これで…いい…
-|vo_07_02_tx_ko          = 
+|vo_07_00_title          = Buff Broken
+|vo_07_01_file           = VO {lang}{name} - This Is Bad.ogg
+|vo_07_01_tx_en          = This is bad!
+|vo_07_01_tx_zh          = 呃！糟糕…
+|vo_07_01_tx_ja          = 予想外だ…
+|vo_07_01_tx_ko          = {{tx}}
+|vo_07_02_file           = VO {lang}{name} - Egh I Slipped Up.ogg
+|vo_07_02_tx_en          = Egh! I slipped up...!
+|vo_07_02_tx_zh          = 呃啊！大意了…
+|vo_07_02_tx_ja          = ちぇ！油断した…
+|vo_07_02_tx_ko          = {{tx}}
+
+|vo_08_00_title          = Defeating the Player (Local Legend)
+|vo_08_01_file           = VO {lang}Fatui Skirmisher - Electrohammer Vanguard - Defeating the Player (Local Legend).ogg
+|vo_08_01_tx_en          = That was even quicker than I expected.
+|vo_08_01_tx_zh          = 战斗…比我想象中结束得要快。
+|vo_08_01_rm_zh          = 
+|vo_08_01_tx_ja          = あっけない戦いだったな。
+|vo_08_01_rm_ja          = 
+|vo_08_01_tx_ko          = {{tx}}
+|vo_08_01_rm_ko          = 
+
+|vo_09_00_title          = Staggered
+|vo_09_01_tx_en          = {{A|VO Electrohammer Vanguard - Staggered 01.ogg}} {{A|VO Electrohammer Vanguard - Staggered 02.ogg}} {{A|VO Electrohammer Vanguard - Staggered 03.ogg}}
+
+|vo_10_00_title          = Defeated
+|vo_10_01_file           = VO {lang}{name} - Ughh This Isnt Good.ogg
+|vo_10_01_tx_en          = Ugh... this isn't good...
+|vo_10_01_tx_zh          = 糟…糕…
+|vo_10_01_tx_ja          = まずい！
+|vo_10_01_tx_ko          = {{tx}}
+|vo_10_02_file           = VO {lang}{name} - I Guess This Is It.ogg
+|vo_10_02_tx_en          = I guess... this is it...
+|vo_10_02_tx_zh          = 这样…也好…
+|vo_10_02_tx_ja          = これで…いい…
+|vo_10_02_tx_ko          = {{tx}}
+
+|vo_11_00_title          = Defeated (Local Legend)
+|vo_11_01_file           = VO {lang}Fatui Skirmisher - Electrohammer Vanguard - Defeated (Local Legend).ogg
+|vo_11_01_tx_en          = My life... for the Tsaritsa...
+|vo_11_01_tx_zh          = 为女皇…尽忠…！
+|vo_11_01_rm_zh          = 
+|vo_11_01_tx_ja          = 全てを…女皇様のために…！
+|vo_11_01_rm_ja          = 
+|vo_11_01_tx_ko          = {{tx}}
+|vo_11_01_rm_ko          = 
+
+|vo_12_00_title          = Eruption Start
+|vo_12_01_file           = VO {lang}Fatui Skirmisher - Electrohammer Vanguard - Eruption Start.ogg
+|vo_12_01_tx_en          = Quick, hide!
+|vo_12_01_tx_zh          = 快，躲起来！
+|vo_12_01_rm_zh          = 
+|vo_12_01_tx_ja          = 早く隠れろ！
+|vo_12_01_rm_ja          = 
+|vo_12_01_tx_ko          = {{tx}}
+|vo_12_01_rm_ko          = 
+|vo_12_02_file           = VO {lang}Fatui Skirmisher - Electrohammer Vanguard - Eruption Start 2.ogg
+|vo_12_02_tx_en          = Watch out! The volcano's erupting!
+|vo_12_02_tx_zh          = 小心！火山喷发了！
+|vo_12_02_rm_zh          = 
+|vo_12_02_tx_ja          = 気をつけろ！火山が噴火する！
+|vo_12_02_rm_ja          = 
+|vo_12_02_tx_ko          = {{tx}}
+|vo_12_02_rm_ko          = 
+    
+|vo_13_00_title          = Eruption End
+|vo_13_01_file           = VO {lang}Fatui Skirmisher - Electrohammer Vanguard - Eruption End.ogg
+|vo_13_01_tx_en          = The eruption is over. Resume normal operations.
+|vo_13_01_tx_zh          = 结束啦。继续行动。
+|vo_13_01_rm_zh          = 
+|vo_13_01_tx_ja          = 終わったか。引き続き行動だ。
+|vo_13_01_rm_ja          = 
+|vo_13_01_tx_ko          = {{tx}}
+|vo_13_01_rm_ko          = 
+|vo_13_02_file           = VO {lang}Fatui Skirmisher - Electrohammer Vanguard - Eruption End 2.ogg
+|vo_13_02_tx_en          = Sigh, these eruptions are really hindering our progress.
+|vo_13_02_tx_zh          = 哎，又浪费了时间。
+|vo_13_02_rm_zh          = 
+|vo_13_02_tx_ja          = また時間を無駄にしてしまった。
+|vo_13_02_rm_ja          = 
+|vo_13_02_tx_ko          = {{tx}}
+|vo_13_02_rm_ko          = 
 }}
 
+==Achievements==
+{{Achievement Topic Table|topic=Fatui Skirmisher - Electrohammer Vanguard}}
+
+==Tutorials==
+{{Tutorial|Fatui Skirmisher - Electrohammer Vanguard}}
+
 ==Descriptions==
-{{Description|A sturdily-build skirmisher armed with an Electro-powered war-hammer.<br />As a Fatui soldier, one has access to munificent resources: salaries, armaments, and supplies.<br />But at the same time, it also means much time away from home and family and putting one's life in the hands of comrades one has never met.|[[Archive]]}}
+{{Description|A sturdily-build skirmisher armed with an Electro-powered war-hammer.<br>As a Fatui soldier, one has access to munificent resources: salaries, armaments, and supplies.<br>But at the same time, it also means much time away from home and family and putting one's life in the hands of comrades one has never met.|[[Archive]]}}
 
 ==Notable Fatui Skirmisher - Electrohammer Vanguards==
 ===Vitaly===
-Named "Too Long a Pencil Pusher", Vitaly appears on [[Jinren Island]] during the World Quest ''[[The Farmer's Treasure]]'' alongside a group of other Fatui soldiers and must be defeated before [[Saimon Jirou]] can be rescued.
+Named "Too Long a Pencil Pusher," Vitaly appears on [[Jinren Island]] during the World Quest ''[[The Farmer's Treasure]]'' alongside a group of other Fatui soldiers and must be defeated before [[Saimon Jirou]] can be rescued.
 
 ===Corporal Mashkov===
-Titled "Bloated From Hunger", Corporal Mashkov is encountered during the World Quest ''[[A Company Vanishing Into the Deep]]''. He attacks [[Anton]]'s group alongside two of his men for the supplies the Traveler gave them. The Traveler drives them away. When fighting him, he and his men all lose a small portion of their HP due to hunger.
+Titled "Bloated From Hunger," Corporal Mashkov is encountered during the World Quest ''[[A Company Vanishing Into the Deep]]''. He attacks [[Anton]]'s group alongside two of his men for the supplies the Traveler gave them. The Traveler drives them away. When fighting him, he and his men all lose a small portion of their HP due to hunger.
 
 ==Gallery==
 <gallery>
@@ -212,6 +318,11 @@ Enemy Fatui Skirmisher - Electrohammer Vanguard Icon.png|Icon
 |caption1 = Flexing
 }}
 
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
+
+==Trivia==
+*{{Lang|{{w|Semyon Nomokonov}}|ru=Семён Номоконов|ru_rm={{#invoke:ru-rm|main|Семён Номоконов}}}} was a Soviet sniper during World War II.
 ==Other Languages==
 {{Other Languages
 |en      = Fatui Skirmisher - Electrohammer Vanguard
@@ -219,12 +330,12 @@ Enemy Fatui Skirmisher - Electrohammer Vanguard Icon.png|Icon
 |zhs_rm  = Yúrénzhòng Xiānqiǎn Duì - Léi Chuí Qiánfēng Jūn
 |zht     = 愚人眾先遣隊・雷錘前鋒軍
 |zht_rm  = Yúrénzhòng Xiānqiǎn Duì - Léi Chuí Qiánfēng Jūn
-|zh_tl   = Fatui Skirmisher: Electro Hammer Vanguard
-|ja      = ファデュイ{{Rubi|先|せん|遣|けん|隊|たい|・|&nbsp;|前|ぜん|鋒|ほこさき|軍|ぐん|・|&nbsp;|雷|かみなり}}ハンマー
-|ja_rm   = Fadyui Senkentai・Zen Hokosaki-gun・Kaminari Hanmaa
-|ja_tl   = Fatui Skirmisher: Vanguard - Electro Hammer
+|zh_tl   = Fatui Skirmisher - Electro Hammer Vanguard
+|ja      = ファデュイ先遣隊・前鋒軍・雷ハンマー
+|ja_rm   = Fadyui Senkentai - Zen Hokosaki-gun - Kaminari Hanmaa
+|ja_tl   = Fatui Skirmisher - Vanguard - Electro Hammer
 |ko      = 우인단 선발대・번개 해머 돌격대
-|ko_rm   = U'indan Seonbaldae - Beongae Haemeo Dolgyeokdae
+|ko_rm   = U'in-dan Seonbaldae - Beongae Haemeo Dolgyeokdae
 |ko_tl   = Fatui Advance Party - Lightning Hammer Shock Troops
 |es      = Soldado Fatui - Electromartillador de Vanguardia
 |es_tl   = Fatui Soldier - Electrohammerer Vanguard
@@ -241,7 +352,7 @@ Enemy Fatui Skirmisher - Electrohammer Vanguard Icon.png|Icon
 |pt      = Soldado dos Fatui - Vanguarda de Martelo Electro
 |pt_tl   = 
 |tr      = Fatui Avcı Eri - Öncü Elektrik Balyoz
-|tr_tl   = 
+|tr_tl   = Fatui Skirmisher - Vanguard {{Lex|Electro|tr}} Sledgehammer
 |it      = Schermagliatore dei Fatui Electromartello d'assalto
 |it_tl   = 
 }}
@@ -254,8 +365,11 @@ Enemy Fatui Skirmisher - Electrohammer Vanguard Icon.png|Icon
 
 ==Navigation==
 {{Enemy Navbox|type=Common}}
+{{Enemy Navbox|Special}}
 
 [[es:Electromartillador de Vanguardia]]
+[[fr:Tirailleur Fatui – Frappeur Électro]]
+[[ja:ファデュイ先遣隊・前鋒軍・雷ハンマー]]
 [[pt-br:Soldado dos Fatui - Vanguarda de Martelo Electro]]
 [[ru:Застрельщик Фатуи: Электро молотобоец]]
 [[th:Electrohammer Vanguard]]

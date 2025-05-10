@@ -5,8 +5,8 @@
 |family   = Other Human Factions
 |group    = The Eremites
 |type     = Common Enemies
-|voiceEN  = [[imdb:nm9098554|Chloe Eves]]<ref name="ChloeEves">Twitter: [https://twitter.com/ChloeEvesVA/status/1562465377984335872 EN VA Self Announcement]</ref>
-|voiceJP  = {{w|ja:漆山ゆうき|Urushiyama Yuuki ({{ja|漆山ゆうき}})}}<ref>Twitter: [https://twitter.com/urushiyamayuuki/status/1573243554906116096 JP VA Self Announcement]</ref>
+|voiceEN  = [[imdb:nm9098554|Chloe Eves]]<ref name="ChloeEves">Twitter: [https://twitter.com/ChloeEvesVA/status/1562465377984335872 EN VA Self Announcement] ([https://web.archive.org/web/20221118213136/https://twitter.com/ChloeEvesVA/status/1562465377984335872 Archived])</ref>
+|voiceJP  = {{w|ja:漆山ゆうき|Urushiyama Yuuki ({{ja|漆山ゆうき}})}}<ref>Twitter: [https://twitter.com/urushiyamayuuki/status/1573243554906116096 JP VA Self Announcement] ([https://web.archive.org/web/20221115003802/https://twitter.com/urushiyamayuuki/status/1573243554906116096 Archived])</ref>
 |ability1 = Interruption Resistance
 }}
 {{Enemy Intro}}
@@ -30,11 +30,11 @@
 
 ==Stats==
 {{Enemy Stats
-|phys_res     = -20%
+|phys_res     = &minus;20%
 
 |res2         = Stunned
-|phys_res2    = -20%
-|hydro_res2   = -50%
+|phys_res2    = &minus;20%
+|hydro_res2   = &minus;50%
 
 |hp_ratio     = 3.6
 |hp_type      = 2
@@ -42,35 +42,40 @@
 |atk_type     = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
-|name_1      = Slash and Stab
-|desc_1      = Performs a two part combo, dealing '''40% ATK''' and '''50% ATK''' as {{Color|Hydro DMG}}.
+|name_1      = Agile Thrust
+|file_1      = Eremite Desert Clearwater Slash and Stab
+|desc_1      = Performs a two part combo consisting of a quick slash and a thrusting jab, dealing '''40% ATK''' and '''50% ATK''' as {{Color|Hydro DMG}}.
 
-|name_2      = Cross Slash
+|name_2      = Blitz Strike
+|file_2      = Eremite Desert Clearwater Cross Slash
 |desc_2      = Performs a cross slash, dealing '''50% ATK''' as {{Color|Hydro DMG}}.
 
 |name_3      = Waterwheel
 |desc_3      = If the player is far away, charges towards the player and transforms into a rolling wheel, dealing '''50% ATK  × 2''' as {{Color|Hydro DMG}}.
 
-|name_4      = Enhanced State
+|name_4      = Ominous Spirit Unleashed
 |desc_4      = When her [[HP]] is lower than '''70%''', she may enter an enhanced state, gaining enhanced attacks and high [[Interruption Resistance]]. This state lasts for 20 seconds. When the duration ends, any ongoing attack will be cancelled and she will be stunned for 8 seconds with decreased [[Hydro RES]].
+|file_4      = Eremite Desert Clearwater Enhanced State
 
-|name_5      = Enhanced Melee Combo 1
-|desc_5      = Performs '''Slash and Stab''' followed by '''Cross Slash''', dealing '''60% ATK''', '''50% ATK''', '''75% ATK''' as {{Color|Hydro DMG}}.
+|name_5      = Enhanced Melee Combo
+|file_5      = Eremite Desert Clearwater Enhanced Melee Combo 1
+|desc_5      = Performs '''Agile Thrust''' followed by '''Blitz Strike''', dealing '''60% ATK''', '''50% ATK''', '''75% ATK''' as {{Color|Hydro DMG}}.
 
-|name_6      = Enhanced Melee Combo 2
-|desc_6      = Performs a vertical slash and a horizontal slash followed by a '''Cross Slash''', dealing '''50% ATK''', '''50% ATK''', '''75% ATK''' as {{Color|Hydro DMG}}.
+|name_6      = Whirling Slashes
+|file_6      = Eremite Desert Clearwater Enhanced Melee Combo 2
+|desc_6      = Winds up before unleashing a vertical slash and a horizontal slash followed by a '''Blitz Strike''', dealing '''50% ATK''', '''50% ATK''', '''75% ATK''' as {{Color|Hydro DMG}}.
 
 |name_7      = Enhanced Ranged Combo
-|desc_7      = Performs '''Waterwheel''' followed by '''Cross Slash''', dealing '''70% ATK  × 2''', '''75% ATK''' as {{Color|Hydro DMG}}.
+|desc_7      = Performs '''Waterwheel''' followed by '''Blitz Strike''', dealing '''70% ATK  × 2''', '''75% ATK''' as {{Color|Hydro DMG}}.
 }}
 
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Eremite Desert Clearwater
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Welcome Welcome.ogg
 |vo_01_01_tx_en          = Welcome, welcome!
 |vo_01_01_tx_zh          = 嘿呀，客人来了。
@@ -78,7 +83,7 @@
 |vo_01_01_tx_ja          = あれれ？お客さんが来たみたい。
 |vo_01_01_tx_ko          = 이런, 손님이 왔군
 
-|vo_02_00_title          = Enhanced State
+|vo_02_00_title          = Ominous Spirit Unleashed
 |vo_02_01_file           = VO {lang}{name} - Im Getting Sick Of This Game.ogg
 |vo_02_01_tx_en          = I'm getting sick of this game!
 |vo_02_01_tx_zh          = 我，已经玩腻了！
@@ -94,7 +99,7 @@
 |vo_03_01_tx_ja          = あっは！行くよ！
 |vo_03_01_tx_ko          = 간다!
 
-|vo_04_00_title          = Enhanced Melee Combo 2
+|vo_04_00_title          = Whirling Slashes
 |vo_04_01_file           = VO {lang}{name} - Dont Get Swept Away.ogg
 |vo_04_01_tx_en          = Don't get swept away!
 |vo_04_01_tx_zh          = 水形流转！
@@ -127,13 +132,19 @@
 |vo_08_01_tx_ko          = 정말… 독하군…
 }}
 
+==Tutorials==
+{{Tutorial|Eremite Desert Clearwater}}
+
 ==Descriptions==
-{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br />A young lady lost in the ancient dream of the desert songs. To her, the thrill of bloody battle is her true reward. Legend has it that the women of this tribe are often afflicted by the wandering spirits of the desert, a condition that leads many of them to an early end. Perhaps this one can only be free of these apparitions when her blood is up in combat.<br />An ominous, fragmented spirit is sealed within the weapon she uses, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.|[[Archive]]}}
+{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br>A young lady lost in the ancient dream of the desert songs. To her, the thrill of bloody battle is her true reward. Legend has it that the women of this tribe are often afflicted by the wandering spirits of the desert, a condition that leads many of them to an early end. Perhaps this one can only be free of these apparitions when her blood is up in combat.<br>An ominous, fragmented spirit is sealed within the weapon she uses, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished &mdash; whether that be its wielder, or its wielder's foe.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
 Enemy Eremite Desert Clearwater Icon.png|Icon
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Other Languages==
 {{Other Languages
@@ -158,13 +169,13 @@ Enemy Eremite Desert Clearwater Icon.png|Icon
 |th      = Eremite Desert Clearwater
 |vi      = Eremite Nước Giữa Sa Mạc
 |vi_tl   = Eremite Water in the Middle of the Desert
-|de      = Goldbrigade - Wüstenwasser
+|de      = Goldbrigade – Wüstenwasser
 |de_tl   = {{Lex|Eremite|de}} - Desertwater
 |id      = Eremite Desert Clearwater
 |pt      = Eremita - Águas Cristalinas
 |pt_tl   = Eremite - Crystal Clear Water
 |tr      = Münzevi Berrak Su
-|tr_tl   = 
+|tr_tl   = {{Lex|Eremite|tr}} Clear Water
 |it      = Eremita Acquachiara del deserto
 |it_tl   = 
 }}
@@ -179,4 +190,6 @@ Enemy Eremite Desert Clearwater Icon.png|Icon
 {{Enemy Navbox|Common}}
 
 [[es:Eremita Ablucionadora]]
+[[fr:Ablutionneuse des Érémites]]
+[[ja:エルマイト旅団・サンドウォーター]]
 [[pt-br:Eremita - Águas Cristalinas]]

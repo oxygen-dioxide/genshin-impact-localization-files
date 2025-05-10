@@ -4,13 +4,43 @@
 |type         = Very Special Item
 |invCategory  = Precious Items
 |quality      = 4
-|description  = The brush with which you may bestow a new name upon a certain person.<br />Once the new name has been given, it cannot be changed.
+|description  = The brush with which you may bestow a new name upon a certain person.<br>Once the new name has been given, it cannot be changed.
+|reusable     = No
 |source1      = [[As Though Morning Dew]]
+|source2      = [[Mail/"Eons Adrift" Wanderer (Anemo) Name Reset Notice|"Eons Adrift" Wanderer (Anemo) Name Reset Notice]] Mail
+|source3      = [[Mail/Compensation for Abnormal Resetting of Wanderer's Name|Compensation for Abnormal Resetting of Wanderer's Name]] Mail
 }}
-'''An Appellative Stroke''' is a Very Special Item obtained after completing the {{Quest|As Though Morning Dew}}. It allows the player to rename the [[Wanderer]] for one time only.
+'''An Appellative Stroke''' is a [[Very Special Item]] obtained after completing the {{Quest|As Though Morning Dew}}. It allows the player to rename the [[Wanderer]]. It is consumed upon use.
 
 ==Gameplay Notes==
-{{Transclude|As Though Morning Dew|Gameplay Notes}}
+* The following names (and their equivalents in all localizations) are not accepted when naming the Wanderer:
+** <span id=RaidenNames><!--...This is a bad idea.--></span>Names related to [[Raiden Shogun]], rejected by the Wanderer with "...This is a bad idea.": {{F|RaidenShogun}}, {{F|RaidenEi}}, {{F|RaidenMakoto}}, {{F|Beelzebul}}, {{F|Baal}}
+*** {{F|Ei}} and {{F|Makoto}} are accepted.
+** <span id=HarbingerNames1><!--You can't be serious.--></span>Some of the names related to the [[Fatui Harbingers]], mainly their codenames, rejected by the Wanderer with "You can't be serious.": {{F|Jester}}, {{F|Captain}}, {{F|Doctor}}, {{F|Dottore}}, {{F|Damselette}}, {{F|Knave}}, {{F|Rooster}}, {{F|Marionette}}, {{F|FairLady}}, {{F|Signora}}, {{F|Regrator}}, {{F|Childe}}.
+*** Adding a {{w|definite article}} will make the name accepted: {{F|TheDoctor}}, {{F|IlDottore}}.
+** <span id=HarbingerNames2><!--Is this supposed to be your attempt at a joke?--></span>Other names related to the Fatui Harbingers, mainly their ''{{w|commedia dell'arte}}'' names, rejected by the Wanderer with "Is this supposed to be your attempt at a joke?": {{F|Pierro}}, {{F|Capitano}}, {{F|Zandik}}, {{F|Columbina}}, {{F|Arlecchino}}, {{F|Pulcinella}}, {{F|Sandrone}}, {{F|Rosalyne}}, {{F|Kruzchka}}, {{F|Lohefalter}}, {{F|Pantalone}}, {{F|Tartaglia}}, {{F|Ajax}}
+*** {{F|Peruere}} and {{F|Crucabena}} are accepted.
+** <span id=WandererOldAliases><!--...Hmph. I have no need for these names anymore.--></span>Any of the Wanderer's old aliases, rejected by the Wanderer with "...Hmph. I have no need for these names anymore.": {{F|Scaramouche}}, {{F|Balladeer}}, {{F|Kabukimono}}, {{F|Kunikuzushi}}
+*** Localizations of [[Shouki no Kami, the Prodigal]] and [[Everlasting Lord of Arcane Wisdom]] which do not exceed the character limit are accepted.
+** <span id=MajorAndPlayableCharacters><!--That won't work.--></span>The names of playable characters released before [[Version 3.7]] and certain major NPCs, rejected by the Wanderer with "That won't work.": e.g., {{F|KamisatoAyaka}}, {{F|Aloy}}, {{F|Baizhu}}, {{F|Kaveh}}, {{F|Dainsleif}}, {{F|Dain}}, {{F|Paimon}}
+*** Variations of these names other than the official name are accepted if they are not already listed above. (e.g., {{F|Ayaka}}, {{F|Raiden}}, {{F|KaeyaAlberich}})
+** A name identical to that given to [[Little One]], rejected by a system message that says "Name cannot be the same as {{Little One}}"
+** <span id=UnavailableNames><!--Name Unavailable--></span>The following names or titles, rejected by a system message that says "Name Unavailable": {{F|Traveler}}, {{F|Morax}}, {{F|RexLapis}}, {{F|Kirara}}, {{F|Lyney}}, {{F|Lynette}}, {{F|Neuvillette}}, {{F|Iansan}}
+*** {{F|Aether}} and {{F|Lumine}} are accepted.
+*** The Traveler's player-chosen name is also accepted, which will cause the Wanderer to respond with "You want to share your name with me? Huh, not a bad choice."
+*** The names of many other Archons and gods are accepted. (e.g., {{F|Barbatos}}, {{F|Buer}}, {{F|Focalors}}, {{F|Kusanali}}, {{F|Tsaritsa}}, {{F|Havria}}, {{F|Egeria}})
+* <span id=NewPlayableCharacters><!--Using this name may affect your experience in specific quests.--></span>The names of playable characters released from [[Version 4.0]] to the current version that are not otherwise prohibited will cause the following warning to appear: "''Someone already owns the name you have chosen. {{Color|Help|Using this name may affect your experience in specific quests}}.<!-- period is not colored --> Are {{sic|you sure you sure}} of your choice?''" If the player presses "Confirm," they proceed to the Wanderer's normal "Are you sure?" dialogue for an accepted name.<!-- Confirmed names that trigger the pop-up: {{F|Freminet}}, {{F|Wriothesley}}, {{F|Charlotte}}, {{F|Furina}}, {{F|Navia}}, {{F|Chevreuse}}, {{F|Gaming}}, {{F|Xianyun}}, {{F|Chiori}}, {{F|Clorinde}}, {{F|Sethos}}, {{F|Sigewinne}} -->
+* The names of most NPCs are accepted when naming the Wanderer.
+* The naming of the Wanderer is subject to the same censor filter as the Traveler's nickname and signature. If the player attempts to submit a name with an offending word, they will receive the error "Content contains invalid characters."{{If Self|An Appellative Stroke||
+* If the player is dissatisfied with the name given during {{If Self|As Though Morning Dew|this quest|the quest ''[[As Though Morning Dew]]''}}, they may rename the Wanderer with the item An Appellative Stroke, but may only do so once.}}
+* If the Wanderer is found to have a disallowed name, the name will be reset and the player will receive [[Mail/"Eons Adrift" Wanderer (Anemo) Name Reset Notice|a notice mail]] alongside an extra {{If Self|An Appellative Stroke|copy of this|An Appellative Stroke}} item.
+
+==Mail==
+{{Mails by Category Table|Mail Attachments with An Appellative Stroke}}
+
+==Trivia==
+* It is possible to have two copies of An Appellative Stroke in the [[Inventory]] at the same time, as the [[Mail/"Eons Adrift" Wanderer (Anemo) Name Reset Notice|"Eons Adrift" Wanderer (Anemo) Name Reset Notice]] contains An Appellative Stroke as an attachment regardless of whether or not the player has already used the one they received from ''As Though Morning Dew''. However, it is ''not'' recommended to give the Wanderer a name that violates the Rules and Disclaimers for Name Modification in order to do this.
+** Due to the [[Version 3.7#Post-patch Optimization & Fixes|erroneous resetting]] of the names given to some players' Wanderers and the additional copy of this item included in the [[Mail/Compensation for Abnormal Resetting of Wanderer's Name|Compensation for Abnormal Resetting of Wanderer's Name]], players who named their Wanderer during ''As Though Morning Dew'' with a name that was erroneously reset and who did not use either copy of An Appellative Stroke may have three copies of the item in their Inventory at the same time.
 
 ==Other Languages==
 {{Other Languages
@@ -19,15 +49,15 @@
 |zhs_rm  = Xīnmíng Zhuànyǔ
 |zht     = 新名撰聿
 |zht_rm  = Xīnmíng Zhuànyǔ
-|zh_tl   = 
+|zh_tl   = New Name Writing Brush
 |ja      = 新名撰筆
 |ja_rm   = Shinmei Senhitsu{{Assumed}}
-|ja_tl   = 
+|ja_tl   = New Name Writing Brush
 |ko      = 새 이름의 붓
 |ko_rm   = Sae Ireum-ui But
 |ko_tl   = A Brush of a New Name
 |es      = Pincel de la resignificación
-|es_tl   = Brush of Resignation
+|es_tl   = Redefining Brush
 |fr      = Plume d'appellation
 |fr_tl   = Appellation Quill
 |ru      = Перо наречения
@@ -38,12 +68,12 @@
 |vi      = Bút Đổi Tên
 |vi_tl   = 
 |de      = Umschreibungspinsel
-|de_tl   = 
+|de_tl   = Rewriting Brush
 |id      = An Appellative Stroke
 |pt      = Pena de Apelação
 |pt_tl   = 
 |tr      = İsimlendirme Fırçası
-|tr_tl   = 
+|tr_tl   = Naming Brush
 |it      = Tratto di appellazione
 |it_tl   = Appellation Stroke
 }}
@@ -54,5 +84,8 @@
 ==Navigation==
 {{Precious Navbox|Item}}
 
+[[es:Pincel de la resignificación]]
+[[fr:Plume d'appellation]]
 [[ja:新名撰筆]]
 [[ru:Перо наречения]]
+[[zh:新名撰聿]]

@@ -2,15 +2,16 @@
 |missing_NPC_profile  = yes
 }}
 {{Character Infobox
-|type             = NPC
+|type             = Open-World NPC
 |image            = NPC Marla.png
 |region           = Mondstadt
+|location         = Mondstadt
 |dialoguereward   = {{Card|The Boar Princess|vol=7}}
-|voiceEN          = [[imdb:nm7116087|Christie Cate]]<ref>Image: [[:File:Email Christie Cate NPC Confirmation.png|EN VA Self Announcement]]</ref>
+|voiceEN          = [[imdb:nm7116087|Christie Cate]]<ref name="Christie Cate">Image: [[:File:Email Christie Cate NPC Confirmation.png|EN VA Self Announcement]]</ref>
 }}
-'''Marla''' is an [[NPC]] who can be found near the teleport waypoint in [[Springvale]], [[Mondstadt]]. Sleepy during the day, then leaving Springvale at 19:00 and meeting with her lover [[Marvin]] during the night.
+'''Marla''' is an open-world [[NPC]] who can be found near the teleport waypoint in [[Springvale]], [[Mondstadt]]. She leaves Springvale at 19:00 and meets with her lover [[Marvin]] during the night.
 
-Talking with her at Springvale will gives the player [[The Boar Princess]] Vol. VII.
+Talking with her in Springvale will gives the player [[The Boar Princess]] Vol. VII.
 
 ==Location==
 <gallery>
@@ -23,9 +24,6 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 ==Profile==
 ''(To be added.)''
 
-===Personality===
-''(To be added.)''
-
 ===Appearance===
 ''(To be added.)''
 
@@ -33,14 +31,14 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 {{Quests and Events}}
 -->
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Daytime)
 : {{DIcon|Idle}} So... Sleepy
 :: {{A|VO Marla 01.ogg}} "Ahhh... ugh, I'm so sleepy."
-{{Dialogue end}}
+{{Dialogue End}}
 
 ;During Invitation of Windblume
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Daytime)
 : {{DIcon|Idle}} I guess it'll be dandelions...
 :: {{A|VO Marla Invitation of Windblume 01.ogg}} "Speaking of Windblume, I guess it'll be dandelions again."
@@ -48,11 +46,11 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 ;(Nighttime)
 : {{DIcon|Idle}} Oh, Marvin...
 :: {{A|VO Marla Invitation of Windblume 02.ogg}} "Oh, Marvin... my love."
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Dialogue==
 ===Daytime===
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Marla:''' Hello... Can I help you with something?
 :{{DIcon}} You look sleepy.
 ::'''Marla:''' *yawn* Yeah... I feel like I'm about to fall asleep any second. So if you've got something to say, tell me quick...
@@ -63,10 +61,10 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 :::'''Marla:''' The other reason is that I've been reading the Boar Princess series lately. I just finished the grand finale.
 :::'''Marla:''' The ending is a bit strange, but it's so wonderful that the Boar Princess and the wolf pup could be together!
 :::'''Marla:''' Have you read it? If you haven't, please do... and please help me return it to the library when you've finished it, thanks.
-::;(Obtain [[The Boar Princess (VII)]] ×1)
+::;(Obtain {{Item|The Boar Princess (VII)|type=Book}})
 :{{DIcon}} I'll leave you alone...
 ::'''Marla:''' *snoring*
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Nighttime===
 {{Transclude|Marvin|Nighttime}}
@@ -74,16 +72,16 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 ==Event Dialogue==
 ===Invitation of Windblume===
 ====Daytime====
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Marla:''' It's [[Windblume Festival]] again... I suppose the Windblumes must be dandelions, after all.
 :'''Marla:''' No matter how strong the wind, it can only blow dandelions away, but it will never cause them to perish.
 :'''Marla:''' But this is just my opinion. But it may be for this reason that dandelions became the symbols of love.
 :'''Marla:''' I hope... I hope that our love will be just as resilient.
 :;(Dialogue options and responses are the same as normal)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Nighttime====
-<section begin="IoW" />{{Dialogue start}}
+<section begin="IoW" />{{Dialogue Start}}
 :'''Marvin:''' Marla, the Windblume Festival is here, and yet, it holds no meaning for me...
 :'''Marla:''' Oh, Marvin, say not that!
 :'''Marla:''' We do not have your father's approval, but this time for lovers is ours also...
@@ -94,9 +92,11 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 :'''Marla:''' Dandelion Seeds will fly to distant places, take root, and sprout there... One day, they will cover the length and breadth of Teyvat.
 :'''Marvin:''' Oh, my darling Marla...
 :'''Marla:''' Oh, Marvin! My love...
-{{Dialogue end}}<section end="IoW" />
+{{Dialogue End}}<section end="IoW" />
+
 ===Of Ballads and Brews===
-''After [[Aroma of the Past]]{{Verify}}''
+{{Dialogue Start}}
+;(Nighttime; After [[Aroma of the Past]]){{Verify}}
 :'''Marla:''' There you are, dear Marvin.
 :'''Marvin:''' Oh, Marla! I can't turn my back on you, not when you're inviting me to Weinlesefest!
 :'''Marla:''' No matter what your father thinks of us, my love... is like wine made from Mist Flowers...
@@ -107,8 +107,11 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 :'''Marvin:''' No. I mean that, I don't want you out of my sight, not even for a moment. I want to turn into a full season of Mondstadt's wind, always by your side...
 :'''Marla:''' Oh, Marvin!
 :'''Marvin:''' Oh, Marla!
+{{Dialogue End}}
 
 ===Windblume's Breath===
+{{Dialogue Start}}
+;(Nighttime)
 :'''Marvin:''' Marla, the Windblume Festival is here, and yet, it holds no meaning for me...
 :'''Marla:''' Oh, Marvin, say not that!
 :'''Marla:''' We do not have your father's approval, but this time for lovers is ours also...
@@ -119,6 +122,10 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 :'''Marla:''' Dandelion Seeds will fly to distant places, take root, and sprout there... One day, they will cover the length and breadth of Teyvat.
 :'''Marvin:''' Oh, my darling Marla...
 :'''Marla:''' Oh, Marvin! My love...
+{{Dialogue End}}
+
+==Gallery==
+{{Files by Character Gallery|Official Media}}
 
 ==Other Languages==
 {{Other Languages
@@ -131,7 +138,6 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 |ja      = マーラ
 |ja_rm   = Maara
 |ko      = 말라
-|ko_rm   = Malla
 |es      = Marla
 |fr      = Marla
 |ru      = Марла
@@ -151,3 +157,5 @@ NPC Location Marla & Marvin Context.png|Marla & [[Marvin]] at [[Starsnatch Cliff
 {{Reflist}}
 
 [[es:Marla]]
+[[pt-br:Marla]]
+[[ru:Марла]]

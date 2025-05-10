@@ -1,19 +1,17 @@
-{{Meta
-<!-- REMOVE THIS TEMPLATE AFTER ADDING MISSING INFO -->
-|missing_NPC_profile  = yes
-}}
 {{Character Infobox
 |image            = NPC Jifang.png
 |region           = Liyue
+|location         = Liyue
 |affiliation      = Wanwen Bookhouse
 |title            = Boss, Wanwen Bookhouse
 |dialoguereward   = {{Card|Records of Jueyun|vol=1}}
-|type             = NPC
+|type             = Open-World NPC
+|spouse           = Langqing
 |voiceEN          = {{w|Erica Mendez}}<ref>YouTube: [https://youtu.be/NkR-C694T8k?t=2222 EN VA Self Announcement] (Timestamp: 37m 2s)</ref>
 }}
-'''Jifang''' {{Lang|zh=纪芳|zh_rm=Jìfāng}} in an [[NPC]] in [[Liyue Harbor]]. She is the boss of [[Wanwen Bookhouse]].
+{{Lang|'''Jifang'''|zh=纪芳|zh_rm=Jìfāng}} is an [[NPC]] in [[Liyue Harbor]]. She is the boss of [[Wanwen Bookhouse]].
 
-Following a certain dialogue branch for the first time gives the player [[Records of Jueyun]] - Vol. I, Stone Beasts.
+Following a certain dialogue branch for the first time gives the player [[Records of Jueyun|Records of Jueyun - Vol. I, Stone Beasts]].
 
 ==Shop==
 {{Shop/Header|total=1|vendor=Jifang}}
@@ -28,12 +26,17 @@ Following a certain dialogue branch for the first time gives the player [[Record
 {{Shop|String of Pearls|specific=String of Pearls (III)|1,500|1|total=1|type=Book}}
 {{Shop|Records of Jueyun|specific=Records of Jueyun: Qilin|1,500|1|total=1|type=Book}}
 {{Shop|Records of Jueyun|specific=Records of Jueyun: Hidden Jade|1,500|1|total=1|type=Book}}
+{{shop|Mt. Lingmeng Gossip|specific=Mt. Lingmeng Gossip (I)|3,000|1|total=1|type=Book}}
+{{shop|Mt. Lingmeng Gossip|specific=Mt. Lingmeng Gossip (II)|3,000|1|total=1|type=Book}}
+{{shop|Mt. Lingmeng Gossip|specific=Mt. Lingmeng Gossip (III)|3,000|1|total=1|type=Book}}
 {{Shop|Legend of the Lone Sword|specific=Legend of the Lone Sword (IV)|3,000|1|total=1|type=Book}}
 {{Shop|Legend of the Shattered Halberd|specific=Legend of the Shattered Halberd (I)|3,000|1|total=1|type=Book}}
 {{Shop|Legend of the Shattered Halberd|specific=Legend of the Shattered Halberd (IV)|3,000|1|total=1|type=Book}}
 {{Shop|Legend of the Shattered Halberd|specific=Legend of the Shattered Halberd (V)|3,000|1|total=1|type=Book}}
 {{Shop|Heart's Desire|specific=Heart's Desire: Sapphire|3,000|1|total=1|type=Book}}
-{{Shop/Footer|total=31,500}}
+{{shop|Springs of Hidden Jade|specific=Springs of Hidden Jade (I)|3,000|1|total=1|type=Book}}
+{{shop|Springs of Hidden Jade|specific=Springs of Hidden Jade (II)|3,000|1|total=1|type=Book}}
+{{Shop/Footer|total=46,500}}
 
 ==Location==
 <gallery>
@@ -43,25 +46,22 @@ NPC Location Jifang Context.png|Additional context
 
 ==Profile==
 <!-- detailed story/lore information goes here -->
-Jifang has a husband who enjoys collecting old books. However, he could not make money. In order to make a proper living, she opened [[Wanwen Bookhouse]] so they could make an income.
-
-===Personality===
-''(To be added.)''
+Jifang has a husband named [[Langqing]] who enjoys collecting old books. However, he could not make money. In order to make a proper living, she opened [[Wanwen Bookhouse]] so they could make an income.
 
 ===Appearance===
-''(To be added.)''
+Jifang has black hair and dons a blue dress.
 
 ==Quests and Events==
 {{Quests and Events}}
 
 ==Idle Quotes==
-{{Dialogue start}}
-: {{DIcon|Idle}} ...You buying or not?
-:: {{A|VO Jifang 01.ogg}} "So, are you buying or not?"
-{{Dialogue end}}
+{{Dialogue Start}}
+:{{DIcon|Idle}} ...You buying or not?
+::{{A|VO Jifang 01.ogg}} "So, are you buying or not?"
+{{Dialogue End}}
 
 ==Dialogue==
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Jifang:''' Found one you like? Please pay over here.
 :{{DIcon|Shop}} I'm looking to buy some books.
 ::'''Jifang:''' Pick them out yourself. When you find one you like, pay here.
@@ -82,11 +82,39 @@ Jifang has a husband who enjoys collecting old books. However, he could not make
 ::{{DIcon|Reward}} "Records of Jueyun"?
 :::'''Jifang:''' You seem like you could handle it. See what you think of this one: Records of Jueyun - Stone Beasts.
 :::'''Jifang:''' Take it with you if you want. Just bring it back when you get sick of it.
-:::'''Jifang:''' ...I won't hold my breath, though. I've had plenty of customers who borrow books and don't return them.
-::;(Obtain [[Records of Jueyun]] - Vol. I, Stone Beasts)
+:::'''Jifang:''' ...I won't hold my breath, though, I've had plenty of customers who borrow books and don't return them.
+::;(Obtain {{Item|Records of Jueyun|20|text=Records of Jueyun - Vol. I, Stone Beasts|type=Book}})
 :{{DIcon}} Goodbye.
 ::'''Jifang:''' Typical. You sit there reading the book in-store, then as soon as I ask if you want to buy it you're all, "Oh, I'm just browsing" and "Oh, I might come back tomorrow..."
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Event Dialogue==
+===Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness===
+{{Dialogue Start}}
+:{{DIcon|Music Score}} {{Color|help|We'd like to invite you to attend this music festival.}}
+::'''Jifang:''' A music festival, you say? You know, I actually met my husband because of a song. Quite the coincidence, eh?
+::'''Paimon:''' Ooh! Which song was it? Bet we can play it for you &mdash; we're super serious about music!
+::'''Jifang:''' Oh, in that case, could you play it if I were to hum the tune?
+::{{DIcon}} Sure, I'll give it a go.
+::'''Jifang:''' Haha, how exciting!
+
+;(After performing)
+:'''Jifang:''' What a wonderfully nostalgic feeling. I was immediately reminded of my studies in Fontaine.
+:'''Jifang:''' I would often go to cafes in Vasari Passage to read, and when I heard this song one day, I asked the barista what it was called.
+:'''Jifang:''' They didn't know, but a large fellow having some cake nearby told me that it was named "Le Souvenir avec le crepuscule." And yeah, later on, he became my husband.
+:'''Jifang:''' He was at the cafe meeting with his friends from a literary club back then. Ah, how nostalgic. We were all so young!
+:'''Jifang:''' Oh, right! Your music festival... I fear I shan't be able to attend, but if needed, I can get my husband to go.
+:'''Jifang:''' He's been fiddling with some old books that haven't been selling well all day, and I haven't been able to dissuade him from doing so.
+:'''Jifang:''' But I'm sure such cultural exchanges would interest him. I'll ask him to bring some souvenirs along that he can give out to boot.
+
+;(Talk to Jifang again, optional)
+:{{DIcon|Music Score}} How was that?
+:;(Same as ''After performing'')
+
+==Trivia==
+* Jifang shares her English voice actress, {{w|Erica Mendez}}, with [[Ayaka]].
+* Jifang and Langqing first met each other at [[Court of Fontaine: Vasari Passage]], over the song ''[[Le Souvenir avec le crepuscule]]''.<ref>{{Ref/NPC|Jifang|s=Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness}}</ref>
+* She is affectionately called "Fangfang" by her husband Langqing.<ref>{{Ref/NPC|Langqing}}</ref>
 
 ==Other Languages==
 {{Other Languages
@@ -99,7 +127,6 @@ Jifang has a husband who enjoys collecting old books. However, he could not make
 |ja      = 紀芳
 |ja_rm   = Kihou{{Assumed}}
 |ko      = {{tt|기|紀}}향
-|ko_rm   = Gihyang
 |es      = Jifang
 |fr      = Jifang
 |ru      = Цзи Фан

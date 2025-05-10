@@ -2,7 +2,6 @@
 |id            = 73500
 |image         = Event Quest The Unappreciated Carving.png
 |type          = World
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Alia; Collei; Fayez; Mamdouh; Paimon; Qasit; Razi; Ruhi; Tanger; Traveler
 |startLocation = [[Port Ormos]], [[Sumeru]]
@@ -10,10 +9,8 @@
 |area          = Ardravi Valley
 |subarea       = Port Ormos
 |next          = Selling Like Hot Carvings
-|exp           = 
-|mora          = 20,000
-|primogems     = 80
-|other         = {{Card|Hero's Wit|2}}{{Card|Exquisite Kamera|1}}
+|rewards       = Primogem*80;Mora*20,000;Exquisite Kamera*1;Hero's Wit*2
+|otherRewards  = 
 * Unlocks the [[Graven Innocence]] event
 |event_name    = Graven Innocence
 |part          = 1
@@ -42,7 +39,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 -->
 ==Dialogue==
 {{Quest Description|For reasons unknown, two craftsmen are sighing over a unique carving in the open market of Port Ormos...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the artisan)
 :{{A|vo mkeq001 1 paimon 01.ogg}} '''Paimon:''' [[Port Ormos]] is pretty great! There's so many new and interesting things, not to mention all the tasty food!
 :{{A|vo mkeq001 1 paimon 02.ogg}} '''Paimon:''' Sumeru's largest commercial port sure lives up to its name! Look at all the merchants, and everyone seems excited just to be here.
@@ -55,7 +52,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{A|vo mkeq001 1 mamdouh 03.ogg}} '''Mamdouh:''' *sigh* What should we do...
 :{{DIcon}} There we go. They sound distinctly less than excited.
 :{{A|vo mkeq001 1 paimon 03.ogg}} '''Paimon:''' Whoa, yeah, compared to everyone else, they seem really down in the dumps! Let's go find out what's going on.
-:{{A|vo mkeq001 1 paimon 04a.ogg}} {{A|vo mkeq001 1 paimon 04b.ogg}} '''Paimon:''' Hey there! Paimon's name's Paimon, and (Traveler)'s a traveler who was just passing by. Is there something bothering you?
+:{{A|vo mkeq001 1 paimon 04a.ogg}} {{A|vo mkeq001 1 paimon 04b.ogg}} '''Paimon:''' Hey there! Paimon's name's Paimon, and {{Traveler}}'s a traveler who was just passing by. Is there something bothering you?
 :{{A|vo mkeq001 1 mamdouh 04.ogg}} '''Mamdouh:''' Oh! I noticed you two a moment ago. Welcome to [[Acara Crafts]], the best toy store in Port Ormos... at least for now.
 :{{A|vo mkeq001 1 mamdouh 05.ogg}} '''Mamdouh:''' What's bothering us is this Prototype Aranara... To start with, could I get your opinion on it?
 :{{A|vo mkeq001 1 paimon 05.ogg}} '''Paimon:''' "Prototype Aranara"? Uh, you mean this wood-carving here? Looks like a mushroom monster to Paimon.
@@ -101,7 +98,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{A|vo mkeq001 1 mamdouh 13.ogg}} '''Mamdouh:''' Hey, since you're the famous Traveler, could you do us a favor and look for Tanger in Gandharva Ville?
 :{{A|vo mkeq001 1 mamdouh 14.ogg}} '''Mamdouh:''' He doesn't have to come in person if he's too busy. Just ask him to write down his suggestions and bring his notes back to us, if you could.
 :{{A|vo mkeq001 1 mamdouh 15.ogg}} '''Mamdouh:''' Please, if only to put a smile on the children's faces... And of course, you'll be well compensated for doing us the favor!
-:{{A|vo mkeq001 1 paimon 14.ogg}} '''Paimon:''' They seem pretty desperate. (Traveler), let's help them out to see the kids' smiles and also for our reward.
+:{{A|vo mkeq001 1 paimon 14.ogg}} '''Paimon:''' They seem pretty desperate. {{Traveler}}, let's help them out to see the kids' smiles and also for our reward.
 :{{DIcon}} Okay, we'll do it to see the kids smile.
 ::{{A|vo mkeq001 1 paimon 15a.ogg}} '''Paimon:''' Yup! Let's do it!
 :{{DIcon}} Okay, we'll do it so that Paimon can get her rewards.
@@ -134,7 +131,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{A|vo mkeq001 4 paimon 04.ogg}} '''Paimon:''' Ohhh, it's Collei! And a child who seems to be upset. Let's go say hi.
 :;(The Traveler and Paimon walk up to Collei and Razi)
 :{{A|vo mkeq001 4 paimon 05.ogg}} '''Paimon:''' Hi, Collei! How have you been?
-:{{A|vo mkeq001 4 collei 05.ogg}} '''Collei:''' Ah, Paimon and (Traveler)! I've been doing pretty well, thanks for asking. I'm helping Master [[Tighnari]] patrol the forest. What brings you here?
+:{{A|vo mkeq001 4 collei 05.ogg}} '''Collei:''' Ah, Paimon and {{Traveler}}! I've been doing pretty well, thanks for asking. I'm helping Master [[Tighnari]] patrol the forest. What brings you here?
 :{{Introductory Note|Collei}}
 :{{A|vo mkeq001 4 paimon 06.ogg}} '''Paimon:''' We're here on an errand. We heard your voice, so we thought we'd come ask you for help.
 :{{A|vo mkeq001 4 paimon 07.ogg}} '''Paimon:''' You seem kinda busy though...
@@ -161,9 +158,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{A|vo mkeq001 4 collei 15.ogg}} '''Collei:''' So, what was it you wanted help with? You're not lost too, are you?
 :{{DIcon}} No, no.
 :{{DIcon}} We actually wanna go deeper into the forest.
-
-:'''You tell Collei about the situation at Acara Crafts.'''
-
+:{{Black Screen|You tell Collei about the situation at Acara Crafts.}}
 :{{A|vo mkeq001 4 collei 16.ogg}} '''Collei:''' Okay, so you're looking for a children's author from Port Ormos called Tanger... and he's here in Gandharva Ville looking for inspiration...
 :{{A|vo mkeq001 4 collei 17.ogg}} '''Collei:''' Wait. When you say Tanger... Do you mean "the" Tanger?
 :{{A|vo mkeq001 4 paimon 10.ogg}} '''Paimon:''' That's right, Uncle Tanger!
@@ -218,9 +213,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{A|vo mkeq001 9 paimon 02.ogg}} '''Paimon:''' Umm... Seems like Tanger has a slightly exaggerated view of what it means to be a children's author...
 :{{A|vo mkeq001 9 paimon 03.ogg}} '''Paimon:''' Also, Paimon's not a finch! That's nothing to get excited about.
 :{{DIcon}} Let's put the jokes aside and get down to business.
-
-:'''You tell Tanger about the situation at Acara Crafts.'''
-
+:{{Black Screen|You tell Tanger about the situation at Acara Crafts.}}
 :{{A|vo mkeq001 9 tanger 08.ogg}} '''Tanger:''' Acara Crafts... Acara Crafts...
 :{{A|vo mkeq001 9 tanger 09.ogg}} '''Tanger:''' Oh! Oh right, right! I remember now. That small boat once sailed into the sea of my memory, but before long, it floated away over the horizon, never to be seen again.
 :{{A|vo mkeq001 9 tanger 10.ogg}} '''Tanger:''' Perhaps for the best: After all, a wild tempest was a-raging in Tanger Harbor.
@@ -307,7 +300,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{A|vo mkeq001 17 tanger 14.ogg}} '''Tanger:''' In that case, let's go back to camp and call it a day. We'll continue our search for evidence first thing in the morning.
 
 ;(Approach the camp at 00{{Colon}}00 – 04{{Colon}}00)
-:{{A|vo mkeq001 18 paimon 01.ogg}} '''Paimon:''' (Traveler), (Traveler), wake up.
+:{{A|vo mkeq001 18 paimon 01.ogg}} '''Paimon:''' {{Traveler}}, {{Traveler}}, wake up.
 :{{DIcon}} What's wrong?
 :{{DIcon}} Did the Aranara show up?
 :{{A|vo mkeq001 18 paimon 02.ogg}} '''Paimon:''' It's not the Aranara, it's Collei... She's gone!
@@ -321,7 +314,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 
 ;(Approach the tree hollow)
 :{{A|vo mkeq001 22 paimon 01.ogg}} '''Paimon:''' So Collei came back here alone. Is she waiting for the Aranara to show up?
-:{{A|vo mkeq001 22 collei 01.ogg}} '''Collei:''' *sniff* And I thought this was a place nobody knew about... I never thought Tanger would find it, or that I would run into (Traveler) and Paimon...
+:{{A|vo mkeq001 22 collei 01.ogg}} '''Collei:''' *sniff* And I thought this was a place nobody knew about... I never thought Tanger would find it, or that I would run into {{Traveler}} and Paimon...
 :{{A|vo mkeq001 22 collei 02.ogg}} '''Collei:''' *sob* If I'd known, I would have just told the tree hollow instead of writing it down! There must be another way to practice my handwriting...
 :{{A|vo mkeq001 22 collei 03.ogg}} '''Collei:''' Now I've created a whole new problem for myself... What do I do now, dress up as an Aranara...?
 :{{A|vo mkeq001 22 collei 04.ogg}} '''Collei:''' No, that won't work. I should be writing something that an Aranara would never say so that Tanger won't mistake me for one of them.
@@ -334,9 +327,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{DIcon}} Collei must have her reasons.
 :{{A|vo mkeq001 22 paimon 05.ogg}} '''Paimon:''' Yeah, you're right. We'll keep her secret for her!
 :{{A|vo mkeq001 22 paimon 06.ogg}} '''Paimon:''' Looks like she's almost done writing. Let's head back.
-
-:'''Early the next morning, Tanger excitedly takes everyone back to the tree hollow.'''
-
+:{{Black Screen|Early the next morning, Tanger excitedly takes everyone back to the tree hollow.}}
 ;(Talk to Tanger or Razi)
 :{{A|vo mkeq001 23 tanger 01.ogg}} '''Tanger:''' Aha! There's a new note, just as I expected.
 :{{A|vo mkeq001 23 tanger 02.ogg}} '''Tanger:''' Yes, yes! It's the same handwriting, which means it must've been written by the same Aranara.
@@ -350,9 +341,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{A|vo mkeq001 23 paimon 02.ogg}} '''Paimon:''' So in other words, the notes can't have been left by an Aranara.
 :{{A|vo mkeq001 23 collei 01.ogg}} '''Collei:''' Yeah! If you ask me, they were probably left by a passing merchant from Mondstadt or something. Definitely not an Aranara.
 :{{A|vo mkeq001 23 tanger 08.ogg}} '''Tanger:''' No! No, I refuse to believe it!
-
-:'''Despite his denial, Tanger falls into a deep silence when faced by the facts.'''
-
+:{{Black Screen|Despite his denial, Tanger falls into a deep silence when faced by the facts.}}
 :{{A|vo mkeq001 23 tanger 09.ogg}} '''Tanger:''' ...
 :{{DIcon}} Please help Acara Crafts.
 :{{A|vo mkeq001 23 tanger 10.ogg}} '''Tanger:''' I can't...
@@ -368,7 +357,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{A|vo mkeq001 23 razi 01.ogg}} '''Razi:''' Really? Can I?
 :{{A|vo mkeq001 23 tanger 16.ogg}} '''Tanger:''' Yes, it's fine. Tell them, I know this is the moment you've been waiting for.
 :{{A|vo mkeq001 23 razi 02.ogg}} '''Razi:''' Okay.
-:{{A|vo mkeq001 23 razi 03a.ogg}} '''Razi:''' Collei, (Traveler), Paimon. Do you remember when I said that there was a secret I didn't wanna tell anyone?
+:{{A|vo mkeq001 23 razi 03a.ogg}} '''Razi:''' Collei, {{Traveler}}, Paimon. Do you remember when I said that there was a secret I didn't wanna tell anyone?
 :{{DIcon}} Yup, I do.
 :{{A|vo mkeq001 23 razi 04.ogg}} '''Razi:''' I didn't want to tell anyone the secret, but it made me feel very sad and also turned Dad into a completely different person.
 :{{A|vo mkeq001 23 razi 05.ogg}} '''Razi:''' So... I think I should tell you.
@@ -411,7 +400,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{DIcon}} It's up to Razi.
 :{{A|vo mkeq001 23 razi 27.ogg}} '''Razi:''' You want me to help Acara Crafts with their carving?
 :{{A|vo mkeq001 23 razi 28.ogg}} '''Razi:''' I did mention what the Aranara look like in my stories, but to make a carving, we might need more details...
-:{{A|vo mkeq001 23 razi 29a.ogg}} '''Razi:''' Collei, (Traveler), and Paimon, I might need your help on this one.
+:{{A|vo mkeq001 23 razi 29a.ogg}} '''Razi:''' Collei, {{Traveler}}, and Paimon, I might need your help on this one.
 :{{A|vo mkeq001 23 razi 30.ogg}} '''Razi:''' I've never really left Port Ormos before. This is my first time in Gandharva Ville... well, it's my first time being so far from home.
 :{{A|vo mkeq001 23 razi 31.ogg}} '''Razi:''' Sumeru is so much bigger than I thought. Seeing new places has given me loads of new ideas for my Aranara stories.
 :{{A|vo mkeq001 23 razi 32.ogg}} '''Razi:''' So I wanna visit more places in Sumeru. That way, I can help Acara Crafts create an Aranara carving that everyone will love.
@@ -435,7 +424,7 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 :{{DIcon}} Looks like everyone's in good spirits.
 :{{DIcon}} Let's catch up with them!
 :{{A|vo mkeq001 23 paimon 09.ogg}} '''Paimon:''' Yeah!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -473,5 +462,6 @@ The quest automatically starts after completing the [[Archon Quest]], [[The Trai
 ==Change History==
 {{Change History|3.0}}
 
+[[es:La figura de madera menospreciada]]
 [[pt-br:A Escultura Não Apreciada]]
 [[ru:Отвергнутая игрушка]]

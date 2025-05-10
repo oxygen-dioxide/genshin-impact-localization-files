@@ -4,14 +4,13 @@
 |type          = World
 |region        = Liyue
 |area          = Bishui Plain
-|summary       = 
+|subarea       = Qingce Village
+|poi           = Vault of Qingce
 |startLocation = [[Bishui Plain]], [[Liyue]]
-|exp           = 500
-|primogems     = 60
+|rewards       = Adventure EXP*500;Primogem*60;Liyue Shrine of Depths Key*1
 |rep           = Liyue
 |repAmt        = 20
 |repOrder      = 177
-|other         = {{Card|Liyue Shrine of Depths Key|1}}
 |characters    = Granny Ruoxin; Little Liu; Little Xing; Little You; Little Zuo; Master Lu; Paimon; Pops Kai; Traveler; Yan'er; Zhi
 }}
 '''''The Chi of Yore''''' is a [[World Quest]] that occurs in [[Bishui Plain]], [[Liyue]].
@@ -23,53 +22,54 @@ World Quest The Chi of Yore Start Location Context.png|Additional context
 </gallery>
 
 ==Steps==
-Start the quest by talking to [[Yan'er]] near the ruin in [[Bishui Plain]].
+Start the quest by talking to [[Yan'er]] near the ruin in [[Bishui Plain]], or by obtaining any of the 3 [[Collected Fragment]]s.{{verify}}
 #Investigate the ruin
-##Defeat the [[Ruin Hunter]] in the ruin then read the "Incomplete writing"
-##Find the 3 strange stones near the ruin. There will be large chunks of amber near them
-##Open the Precious Chest that spawns close to the "Incomplete writing"
-##*Obtain Collected Fragment
+#*Defeat enemies (optional): {{Enemy List|Ruin Hunter}}
+#*Activate the 3 "strange stones" near the giant amber rocks
+#*Open the [[Precious Chest]]
+#**Obtain Collected Fragment (1/3)
 #Ask the locals of [[Qingce Village]] about the fragments
 #Ask [[Granny Ruoxin]] about the fragments
 #Search for fragments near the Geo Statues
-##[[#Gameplay Notes|Location]]
-##Activate the statues in order: North, South East, North West, North East, South West
-##(the directions listed in the "Incomplete writing")
-##*Obtain Collected Fragment
-#Go to the highest point of Qingce Village to search for fragments
-##[[#Gameplay Notes|Location]]
-##Activate the statues in order, starting from the one facing [[Stormterror's Lair]] as the 1st, then go clockwise for the 3rd, 4th, and 6th
-##*Obtain Collected Fragment
+#*[[#Gameplay Notes|Location]]
+#*Activate the statues in order: North, South East, North West, North East, South West
+#*Open the Precious Chest
+#**Obtain Collected Fragment (2/3)
+#Go to the highest point of Qingce Village to search for fragments.<!-- yes, there is a period here -->
+#*[[#Gameplay Notes|Location]]
+#*Activate the statues in order: Start with the one facing [[Stormterror's Lair]], then go clockwise to the 3rd, 4th, and 6th
+#*Open the Precious Chest
+#**Obtain Collected Fragment (3/3)
 #Decipher the fragment
 #Find a way into the vault
 #Search the vault
-##Two Common [[Chest]]s can be found inside the vault.
-##[[Treasure Hoarders]] spawn as you get closer to the mechanism in the center of the room.
-##After interacting with the Qingce Cache mechanism, waves of monsters will attack while rocks fall down from the ceiling, dealing {{Color|AoE Geo DMG}}. Your goal is to prevent them from destroying the structure.
-##There is a pool of water in the room so you can use that to cause [[elemental reactions]] on the enemies (Frozen, Electro-Charged, Vaporize and Bloom)
-##*First Wave: {{Enemy|Ruin Guard|x=1}}
-##*Second Wave: {{Enemy|Ruin Guard|x=3}}
-##*Third Wave: {{Enemy|Ruin Hunter|x=1}}
+#*Defeat enemies near the mechanism: {{Enemy List|Treasure Hoarders: Gravedigger;Treasure Hoarders: Marksman*2;Treasure Hoarders: Scout*2;Treasure Hoarders: Electro Potioneer}}
+#*Complete the Qingce Cache challenge:
+#**Objective(s): Defeat 5 monster(s), protect the Qingce Cache from being destroyed
+#**Large rocks will fall periodically, dealing {{Color|AoE Geo DMG}}.
+#**Wave 1: {{Enemy List|Ruin Guard}}
+#**Wave 2: {{Enemy List|Ruin Guard*3}}
+#**Wave 3:
+#***{{Enemy|Ruin Hunter|text=Ruin Hunter &mdash; Fo-94553}}
 #Find the treasure
-##Continue towards the back of the room to find 1 Luxurious, 1 Precious, 2 Exquisite, and 2 Common Chests. There is also a [[Geoculus]] and a [[Seelie]] in the room.
+#*The room at the back of the cave contains 6 Chests (1 Luxurious, 1 Precious, 2 Exquisite, 2 Common), a [[Geoculus]], and a [[Seelie]]
 #Head to Qingce Village and report to Granny Ruoxin
 
 ==Gameplay Notes==
-*Completing this quest grants the ''[[Wonders of the World]]'' achievement ''[[Crouching Dragon, Hidden Chi]]''.
-*The Qingce Cache challenge can be initiated in Co-op Mode.
-*The quest can be activated by doing any of the three steps which grants a fragment.
-*The mechanism can be reactivated after completing the quest, which initiates the same challenge. However, there is no additional reward for completing it more than once.
+*This quest can be completed in [[Co-Op Mode]].
+*In step 2, talking to any one of the locals is sufficient.
+*Completing this quest grants the {{Achievement|Crouching Dragon, Hidden Chi}}.
 
 <gallery>
-Item Collected Fragment 03 Location.PNG|3rd Fragment
-Location Chi of Guyun geo statues.png|Location of the Geo Statues
-Item Collected Fragment 02 Location.png|Highest Point
+Item Collected Fragment 03 Location.PNG|Fragment 1 (ruins)
+Location Chi of Guyun geo statues.png|Fragment 2 (west of the village)
+Item Collected Fragment 02 Location.png|Fragment 3 (highest point)
 </gallery>
 
 ==Dialogue==
 {{Quest Description|It seems Mt. Qingce is hiding some secrets...}}
-{{Dialogue start}}
-;(Talking to Yan'er)
+{{Dialogue Start}}
+;(Talk to Yan'er)
 :'''Yan'er:''' Agh, what terrible luck...
 :{{DIcon}} What happened?
 :'''Yan'er:''' Oh, Traveler. You've come at the right time. I was just doing some, uh, research.
@@ -80,7 +80,7 @@ Item Collected Fragment 02 Location.png|Highest Point
 :{{DIcon}} It's pretty unique.
 ::'''Yan'er:''' That's it? "It's pretty unique"? So uncultured...
 :'''Yan'er:''' Do you know about the [[Chi]]? According to legend, the Chi was a dragon-like monster that once forcibly occupied this place.
-:'''Yan'er:''' When Rex Lapis &mdash; or, Morax &mdash;defeated it, the Chi's body twisted into rock, its blood turned into water, and its scales became the terraced fields.
+:'''Yan'er:''' When [[Rex Lapis]] &mdash; or, Morax &mdash;defeated it, the Chi's body twisted into rock, its blood turned into water, and its scales became the terraced fields.
 :'''Yan'er:''' And in times long past, the word "Chi" also used to mean "Qingce."
 :'''Yan'er:''' And, through my long, earnest and rigorous research...
 :'''Yan'er:''' I believe that the Chi's corpse may still be on this mountain.
@@ -97,79 +97,79 @@ Item Collected Fragment 02 Location.png|Highest Point
 :'''Yan'er:''' I say that, but the truth is that I don't have a lot of leads.
 :'''Yan'er:''' It is, after all, an antediluvian legend. It's likely that barely anyone even remembers the legend anymore.
 :'''Yan'er:''' After all the effort I put into finding these ruins, thinking that I might be able to find something in here...
-:'''Yan'er:''' ...It turned out that there's a Ruin Hunter standing guard inside. That's why I said that my luck was terrible.
+:'''Yan'er:''' ...It turned out that there's a {{Color|buzzword|Ruin Hunter}} standing guard inside. That's why I said that my luck was terrible.
 :'''Yan'er:''' I'd really like to go in and have a look, but it's far too dangerous. I'll probably wait until it leave before giving this a go.
 :'''Yan'er:''' Are you looking to go inside and explore, by any chance? Not that I'd stop you, no, but...
 :'''Yan'er:''' Please be mindful of your safety. This might be the clue to some treasure, but it's just a legend in the end. Don't pay it too much mind.
-----
-;(Talk to Yan'er again)
+
+;(Talk to Yan'er again, optional)
 :'''Yan'er:''' This way, I can... Whoa! Y&mdash;You're still here?
 :'''Yan'er:''' I'm going to rest for a while, and then... then I'll be going.
 :'''Yan'er:''' Take care of yourself now, and don't push yourself too much. For all we know, it really is just a legend.
 ----
-;(When reaching the Ruin Hunter)
+;(Interact with a Geo Statue prior to starting the quest, optional){{verify}}
+:'''Paimon:''' What's this? Did someone put this up here?
+
+;(Approach the Ruin Hunter, optional)
 :'''Paimon:''' Yikes! It's a Ruin Hunter!
 :'''Paimon:''' Guess we're gonna have to go through this guy if we wanna search in this area.
-----
-;(Interacting with the incomplete writing)
-:'''Incomplete writing:''' "With the evil serpent gone from Qingce, the magic formula that subdued it was no longer in effect. ..."
+
+;(Interact with the "Incomplete writing", optional)
+:'''Incomplete writing:''' "With the evil serpent gone from Qingce, the [[Hidden Palace of Zhou Formula|magic formula]] that subdued it was no longer in effect. ..."
 :'''Incomplete writing:''' "...But the serpent did not perish, and its foul blood congealed within the earth and formed stone, poisoning the world..."
 :'''Incomplete writing:''' "...Thus three statues were used to subdue it..."
 :'''Paimon:''' ...Just three lines and Paimon's head is hurting. Why are all Liyue's stories written like this?
 :'''Paimon:''' But anyway, that bit that goes {{Color|buzzword|"foul blood something something formed stone"}}... does that mean there's {{Color|buzzword|strange stone}} around here?
 :'''Paimon:''' Let's take a look around at the {{Color|buzzword|stones}} around here and see if we can find some leads.
-----
-;(Interact with a strange stone) (probably before activating the quest)
-:'''Paimon:''' What's this? Did someone put this up here?
 
-;(After interacting with the three strange stones, upon opening the Precious Chest)
+;(Open the Precious Chest after solving the puzzle)
 :'''Paimon:''' Wow... Paimon can't make any sense of this at all.
 :'''Paimon:''' Paimon can't tell if it's supposed to be a drawing, or writing, or... some other kind of thing.
 :'''Paimon:''' Maybe the locals will have an idea.
 :'''Paimon:''' Let's ask around in Qingce Village.
 ----
-;(Talking to [[Little Liu]])
+<!-- interacting with any one of these NPCs will progress the quest -->
+;(Talk to [[Little Liu]])
 :{{DIcon|Quest}} Look at this fragment!
 :'''Little Liu:''' Ah! You scared me! ...What fragment?
 :'''Little Liu:''' What is it? ...You don't know? Go ask Granny Ruoxin, she knows everything.
-----
-;(Talking to [[Little Xing]])
+
+;(Talk to [[Little Xing]])
 :{{DIcon|Quest}} Excuse me, know anything about fragments?
 :'''Little Xing:''' Fragments? Mm... I don't know.
 :'''Little Xing:''' You should go ask Granny Ruoxin, she might know.
-----
-;(Talking to [[Little You]])
+
+;(Talk to [[Little You]])
 :{{DIcon|Quest}} What do you make of this fragment?
 :'''Little You:''' A fragment? Uh...
 :'''Little You:''' Lemme see... Wow. I have no idea. I've never seen one of these before.
 :'''Little You:''' Why don't you go ask Granny Ruoxin?
-----
-;(Talking to [[Little Zuo]])
+
+;(Talk to [[Little Zuo]])
 :{{DIcon|Quest}} Can you read this fragment?
 :'''Little Zuo:''' A fragment? Hmm... No, I can't read it.
 :'''Little Zuo:''' As a matter of fact, I've never seen one in my life.
 :'''Little Zuo:''' You should go ask Granny Ruoxin, she might know something about it.
-----
-;(Talking to [[Master Lu]])
+
+;(Talk to [[Master Lu]])
 :{{DIcon|Quest}} Take a look at this fragment?
 :'''Master Lu:''' Fragment? What fragment, is it from some toy that was broken?
 :'''Master Lu:''' I have never encountered a fragment of this kind before.
 :'''Master Lu:''' Perhaps you should ask the village chief. Perhaps she might know something.
-----
-;(Talking to [[Pops Kai]])
+
+;(Talk to [[Pops Kai]])
 :{{DIcon|Quest}} I have this fragment...
 :'''Pops Kai:''' A fragment, you say? Show me.
 :'''Pops Kai:''' This writing... or maybe it's not writing at all. I can't read it, anyway.
 :'''Pops Kai:''' Ask the village chief, she's gotta know something.
-----
-;(Talking to [[Zhi]])
+
+;(Talk to [[Zhi]])
 :{{DIcon|Quest}} Can you read this fragment?
 :'''Zhi:''' A fragment? Hmm... No, I can't read it.
 :'''Zhi:''' As a matter of fact, I've never seen one in my life.
 :'''Zhi:''' You should go ask Granny Ruoxin, she might know something about it.
 ----
-<!--Villagers without unique dialogue: Chang the Ninth, Dongdong, Hanfeng, Jiangcheng, Little Luo, Little Yi, Ms. Bai, Uncle Ghast, Yundan -->
-;(Talking to [[Granny Ruoxin]])
+;(Talk to [[Granny Ruoxin]])
 :{{DIcon|Quest}} I have this fragment...
 :'''Granny Ruoxin:''' A fragment of...? Found something curious, have you? Let me see...
 :'''Granny Ruoxin:''' Heh... No wonder you can't make head or tail of it. This isn't writing on here &mdash; it's a drawing.
@@ -191,7 +191,7 @@ Item Collected Fragment 02 Location.png|Highest Point
 ----
 {{Quest Description|update|You received some clues regarding the mysterious fragments from Granny Ruoxin. One fragment is in "the highest point" in Qingce Village, another is in a nearby "ruin," and the clue to yet another may be found in the Geo Statue to the west of Qingce Village.}}
 
-;(Talking to Granny Ruoxin again)
+;(Talk to Granny Ruoxin again, optional)
 :{{DIcon}} Remind me about the fragments?
 ::'''Granny Ruoxin:''' Forgotten already? Well, I do have a habit of rambling on and on I suppose...
 ::'''Granny Ruoxin:''' If you're looking for fragments connected to the great war, you may have more luck searching in high-altitude places.
@@ -204,16 +204,19 @@ Item Collected Fragment 02 Location.png|Highest Point
 ::'''Granny Ruoxin:''' But some people say that even the Geo Lord himself couldn't wipe out the Chi completely, and so Geo Statues were used to press it down, slowly crushing it to death over time.
 ::'''Granny Ruoxin:''' Haha. But of course, it's just an old story. If there was really a chance the Chi is still alive, we would hardly feel safe living here in Qingce Village.
 ----
-;(Interacting with the incomplete writing near the Geo Statues)
+;(Interact with the "incomplete writing" near the Geo Statues, optional)
 :'''Incomplete writing:''' "...Rex Lapis overcame the Chi, but the Chi could not perish in its entirety. Thus did Rex Lapis conquer each of its facets in turn: its spirit was bound in the {{Color|buzzword|north}}, its bones were pinned in the {{Color|buzzword|south-east}}, its flesh was incarcerated in the {{Color|buzzword|north-west}}, its soul was fettered in the {{Color|buzzword|north-east}}, and its form was crushed in the {{Color|buzzword|south-west}}..."
 
-;(Fail to solved the puzzle)
+;(If the statues are activated in the wrong order)
 :'''Paimon:''' All the lights went out... Did we do it in the wrong order?
 ----
-;(Interacting with the incomplete writing at the highest point of Qingce Village)
+;(Interact with the "incomplete writing" at the highest point of Qingce Village, optional)
 :'''Incomplete writing:''' "...Its bones pierced, its spirit faded, its form and soul both decimated... still did its flesh survive..."
 :'''Incomplete writing:''' Here stands this statue, to {{Color|buzzword|watch in each direction}}: the {{Color|buzzword|[[Stormterror's Lair|wind-swept ruin]]}}, the {{Color|buzzword|[[Dragonspine|snow-capped peak]]}}, the {{Color|buzzword|[[Mt. Aocang|adepti's abode]]}}, and the {{Color|buzzword|[[Liyue Harbor|city of Liyue]]}}...
-----
+
+;(If the statues are activated in the wrong order)
+:'''Paimon:''' All the lights went out! Did we light up the wrong Geo Statue? ...There's so many, how do we find the right one?
+
 ;(Upon obtaining all 3 fragments)
 :'''Paimon:''' That makes three fragments we've found. And it looks like they match up...
 :'''Paimon:''' So we just need to put them together, and... Nope. Still makes no sense to Paimon.
@@ -221,14 +224,14 @@ Item Collected Fragment 02 Location.png|Highest Point
 ----
 {{Quest Description|update|You found the three fragments after searching the area around Qingce Village. These three fragments seem to combine to form a complete picture... but you may need to find someone to decipher the picture if you want to understand its hidden meaning.}}
 
-;(Returning to Granny Ruoxin)
+;(Talk to Granny Ruoxin)
 :{{DIcon|Quest}} I have some fragments...
 :'''Granny Ruoxin:''' Let's see now... Why, these fragments all fit together.
 :'''Granny Ruoxin:''' See here, this is the symbol for a Chi, and this Chi was defeated in a major battle.
 :'''Granny Ruoxin:''' Afterward, it was pinned down in a deep place.
 :{{DIcon}} What's a Chi?
 :'''Granny Ruoxin:''' In the legends, the Chi was a dragon-like monster, and Mt. Qingce was once its lair.
-:'''Granny Ruoxin:''' <!--Thanks to Rex Lapis defeating it <- the dialogue in the previous edit. The dialogue in-game isn't like this, did the quest change, or was this added wrongly?-->When Rex Lapis &mdash; or, Morax &mdash;defeated it, the Chi's body twisted into rock, its blood turned into water, and its scales became the terraced fields.
+:'''Granny Ruoxin:''' <!--"Thanks to Rex Lapis defeating it" <- the dialogue in the previous edit. The dialogue in-game isn't like this, did the quest change, or was this added wrongly?-->When Rex Lapis &mdash; or, Morax &mdash;defeated{{sic}} it, the Chi's body twisted into rock, its blood turned into water, and its scales became the terraced fields.
 :'''Granny Ruoxin:''' Do you see those sturdy trees near Qingce Village? Those are Blood-Fed Trees, said to have been nourished by the blood of the Chi.
 :'''Granny Ruoxin:''' But a legend is a legend. After all, who would be able to find traces of the Chi today?
 :{{DIcon}} What happened after that?
@@ -247,52 +250,57 @@ Item Collected Fragment 02 Location.png|Highest Point
 :{{DIcon}} Is it a pool...?
 :'''Granny Ruoxin:''' Let me think... Come to think of it, there is a sizable waterfall northwest of Qingce Village. I wonder if it has something to do with that vault...
 :'''Granny Ruoxin:''' Well, that's all I know. As for the rest, you'll have to mull it over yourself.
-;(Talking to her again)
+
+;(Talk to Granny Ruoxin again, optional)
 :'''Granny Ruoxin:''' The Chi remains a shadow that haunts us. To think that someone would have designs on its corpse!
 :'''Granny Ruoxin:''' ...Well, I can only hope that it's just that bunch of two-bit crooks. But if there truly is something down there...
 :'''Granny Ruoxin:''' ...ah, Geo Lord, protect us...
 ----
 {{Quest Description|update|According to Granny Ruoxin, if Qingce Village really houses treasure, a clue for that may be found near the waterfall north of the village...}}
 
-;(At the Hidden Gate of Qingce)
+;(Approach the gate)
 :'''Paimon:''' Wait, there's some kind of indent in the door...
 :'''Paimon:''' Is something supposed to go in there?
+
+;(Interact with the gate)
 :'''The Hidden Gate of Qingce:''' (The stone gates are tightly shut, and there are three strange grooves on its surface. Perhaps they are the key to opening the gate...)
-----
-;(After opening the vault)
+
+;(Enter the vault)
 :'''Paimon:''' Is this... That place in the fragment? The one where the Chi's corpse is?
 :'''Paimon:''' Wh–What's that? It looks dangerous... Feels like if we don't tread carefully, we'll set something off...
-----
-;(Inside the vault)
+
+;(Approach the mechanism)
 :'''Paimon:''' Uh-oh, behind you! It's the Treasure Hoarders!
 :'''Paimon:''' Ugh. We seem to run into these guys every single time there's treasure involved...
-----
-;(After defeating all the enemies)
+
+;(After completing the Qingce Cache challenge)
 :'''Paimon:''' ...So that's it? Aw, but what about our monster corpse? And our treasure?
 :'''Paimon:''' Surely a place this big can't be completely empty? And think of all the effort we've put into this...
 :'''Paimon:''' Hmm... Shall we give it another once-over, just to be sure?
+<!-- camera pans towards room at the back of the cave -->
 ----
 {{Quest Description|update|The gates of the vault have opened. Who knows what treasures lie in wait within...}}
 
-;(Reporting back to Granny Ruoxin)
+;(Talk to Granny Ruoxin)
 :'''Granny Ruoxin:''' You're back. So, did you find anything?
 :{{DIcon}} Not a thing.
 ::'''Granny Ruoxin:''' Hahaha. It's alright, not to worry, there is nothing wrong with a bit of extra running around while you're young enough to handle it.
 :{{DIcon}} We found a whole bunch of Treasure Hoarders outside.
 ::'''Granny Ruoxin:''' Treasure Hoarders? Did you chase them off?
 ::'''Granny Ruoxin:''' Those low-down, no-good crooks, always skulking about. They're so annoying. It's high time someone taught them a lesson.
-::'''Granny Ruoxin:''' And there was... nothing inside? Hahaha, no matter, no matter at all. there<!--the "t" is lowercase in-game--> is nothing wrong with a bit of extra running around while you're young enough to handle it.
+::'''Granny Ruoxin:''' And there was... nothing inside? Hahaha, no matter, no matter at all. {{sic|there}} is nothing wrong with a bit of extra running around while you're young enough to handle it.
 :'''Granny Ruoxin:''' Here, these are for you. You've been out and about all day. Go buy something nice to eat, and rest your legs a bit.
 :'''Granny Ruoxin:''' So there was nothing inside... That's good, that's good...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Trivia==
-*Before Version 1.6, the quest was named "The Chi of Guyun," erroneously giving the impression that the quest was related to [[Guyun Stone Forest]], which is located on the other end of Liyue. However, the Chinese quest name uses {{Lang|mini=1|zh=古云|zh_rm=Gǔyún|zh_tl=ancient tales, sayings}} whereas Guyun Stone Forest uses {{Lang|mini=1|zh=孤云|zh_rm=Gūyún|zh_tl=lone cloud}}; they are two different terms and shouldn't be conflated. The quest was renamed in English to "The Chi of Yore" to correct this.
-**In Version 1.6, the Traditional Chinese version of the game also updated the quest name to use {{Lang|mini=1|zh=古云|zh_tl=ancient tales}} instead of {{Lang|mini=1|zh=古雲|zh_tl=ancient cloud}}. While Traditional Chinese distinguishes between {{Lang|mini=1|zh=雲|zh_rm=yún|zh_tl=cloud}} and {{Lang|mini=1|zh=云|zh_rm=yún|zh_tl=to talk, to say}}, Simplified Chinese &mdash; which is the game's original language &mdash; uses {{Lang|mini=1|zh=云}} for both definitions. The Traditional Chinese translation interpreted the name to use the more common definition, "cloud," but chose incorrectly and corrected it in Version 1.6.
+* The Qingce Cache challenge can be repeated freely after completing this quest, but there are no additional rewards.
+* Before Version 1.6, the quest was named "The Chi of Guyun," erroneously giving the impression that the quest was related to [[Guyun Stone Forest]], which is located on the other end of Liyue. However, the Chinese quest name uses {{zh|古云|rm=Gǔyún|tl=ancient tales, sayings,}} whereas Guyun Stone Forest uses {{zh|孤云|rm=Gūyún|tl=lone cloud}}; they are two different terms and shouldn't be conflated. The quest was renamed in English to "The Chi of Yore" to correct this.
+** In Version 1.6, the Traditional Chinese version of the game also updated the quest name to use {{zh|t=古云|tl=ancient tales}} instead of {{zh|t=古雲|tl=ancient cloud.}} While Traditional Chinese distinguishes between {{zh|t=雲|rm=yún|tl=cloud}} and {{zh|t=云|rm=yún|tl=to talk, to say,}} Simplified Chinese &mdash; which is the game's original language &mdash; uses {{zh|云}} for both definitions. The Traditional Chinese translation interpreted the name to use the more common definition, "cloud," but chose incorrectly and corrected it in Version 1.6.
 
 ==Gallery==
 <gallery>
-Chi of Guyun strange stone.png|One of the strange stones
+Chi of Guyun strange stone.png|A "strange stone" (Geo Statue)
 Screenshot Chi of Guyun - Inside Vault.png|Inside the Vault
 </gallery>
 
@@ -314,7 +322,6 @@ Screenshot Chi of Guyun - Inside Vault.png|Inside the Vault
 |ja_rm   = "Chi" no Hanashi{{Assumed}}
 |ja_tl   = The Tale of Chi
 |ko      = 「교룡」 이야기
-|ko_rm   = "Gyoryong" Iyagi
 |ko_tl   = "{{w|Jiaolong}}" Story
 |es      = El Chi de antaño
 |es_tl   = The Chi of Old
@@ -343,4 +350,5 @@ Screenshot Chi of Guyun - Inside Vault.png|Inside the Vault
 {{Change History|1.0}}
 
 [[es:El Chi de antaño]]
+[[ja:「螭」の話]]
 [[ru:Секрет Чи]]

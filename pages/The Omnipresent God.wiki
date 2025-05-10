@@ -1,6 +1,6 @@
 {{Quest Infobox
 |id            = 02020
-|image         = Archon Quest C2A3 The Omnipresent God.png
+|image         = Archon Quest The Omnipresent God.png
 |type          = Archon
 |chapter       = II
 |actNum        = III
@@ -12,11 +12,8 @@
 |subarea       = Inazuma City
 |prev          = Duel Before the Throne
 |next          = Wishes (Quest)
-|domain        = Plane of Euthymia
-|exp           = 925
-|mora          = 44,000
-|primogems     = 30
-|other         = {{Card|Memory of Violet Flash|1}}{{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
+|domain        = The Omnipresent God (Domain)
+|rewards       = Adventure EXP*925;Primogem*30;Mora*44,000;Memory of Violet Flash*1;Hero's Wit*4;Mystic Enhancement Ore*8
 |characters    = Domon <!-- cinematic -->; Ei; Gorou; Kaedehara Kazuha; Paimon; Traveler; Yae Miko; Kamisato Ayaka <!-- cinematic -->; Sangonomiya Kokomi <!-- cinematic -->; Sayu <!-- cinematic -->; Thoma <!-- cinematic -->; Makoto <!-- cinematic -->; Tejima <!-- cinematic -->; Teppei <!-- cinematic -->; Kurosawa Kyounosuke <!-- cinematic -->; Kazuha's Friend <!-- cinematic voice -->
 |voiced        = yes
 }}
@@ -26,8 +23,9 @@
 # Leave [[Tenshukaku]]
 # Clash of [[Watatsumi Army|Rebels]]
 # Talk to the [[Raiden Shogun]] within the Plane of Euthymia
-#* Enter the Quest Domain: [[Plane of Euthymia]]
+#* Enter the Quest Domain: [[The Omnipresent God (Domain)|The Omnipresent God]]
 # Defeat the Electro Archon
+#* {{Enemy|Ei (Quest Boss)|text=Ei &mdash; Master of the Euthymic Plane}}
 # Talk to the Raiden Shogun
 # Talk to [[Paimon]]
 
@@ -38,48 +36,40 @@
 ** The Raiden Shogun is immune to {{Color|Electro DMG}}.
 ** At about 75% HP or when 3 party members are fallen, she will enact the [[Vision Hunt Decree]], preventing the use of [[Elemental Skill]] and [[Elemental Burst]] except for the Traveler's. This does not prematurely end existing effects from Skills and Bursts, nor does it prevent [[Passive Talents]] such as [[Jean]]'s [[Wind Companion]] from activating. About 40 seconds after this, a cutscene will begin.
 ** In the cutscene, the Traveler reveals the ambitions laid upon the [[Statue of the Omnipresent God]]:
-*** The ''[[Wonders of the World]]'' achievement ''[[Their Wishes]]'' is granted.
+*** The {{Achievement|Their Wishes}} is granted.
 *** Four glowing orbs appear around the active character. Every time a party member falls, they will use one of the orbs and be automatically revived with full health.
-*** All characters passively regenerate energy and have greatly increased damage.
+*** All characters passively regenerate energy and health and have greatly increased damage.
 
 ==Dialogue==
 {{Quest Description|Before the [[Raiden Shogun]]'s martial might, you sense that initiating [[Yae Miko]]'s plan may not be as easy as you thought. It might be best to leave the [[Tenshukaku]] and make further plans from there...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Leave Tenshukaku)
 :{{A|vo dqaq107 1 paimon 01.ogg}} '''Paimon:''' The Raiden Shogun isn't gonna let us off just like that, right?
 :{{A|vo dqaq107 1 paimon 02.ogg}} '''Paimon:''' The air feels suffocating... it must be the Raiden Shogun's almightiness...
-
-:'''''Signora... is slain.'''''
-
+:{{Black Screen|''Signora... is slain.''}}
 :{{A|vo dqaq107 1 paimon 03.ogg}} '''Paimon:''' One strike from the Shogun, and now [[Signora]]'s gone...
 :{{A|vo dqaq107 1 paimon 04.ogg}} '''Paimon:''' She got what she deserved, but Paimon still can't help but feel upset.
 :{{A|vo dqaq107 1 paimon 05.ogg}} '''Paimon:''' Why are they doing it... Why are the [[Harbingers]] collecting all the [[Gnosis|Gnoses]]?
 :;(The Traveler staves off a headache)
 :{{A|vo dqaq107 1 paimon 12.ogg}} '''Paimon:''' Hmm? Traveler, you got a headache?
 :{{A|vo dqaq107 1 paimon 13.ogg}} '''Paimon:''' Chin up... let's get out of this place, Paimon feels... unsettled.
-
-:'''''The Musou no Hitotachi...'''''
-
+:{{Black Screen|''The Musou no Hitotachi...''}}
 :{{A|vo dqaq107 1 paimon 06.ogg}} '''Paimon:''' Also... when the Shogun executed Signora with the [[Musou no Hitotachi]]... it was unbelievably powerful...
 :{{A|vo dqaq107 1 paimon 07.ogg}} '''Paimon:''' It seems impossible to defend against... and if so, we've got no hope whatsoever of defeating her in combat...
-
-:'''''Yae Miko's plan...'''''
-
+:{{Black Screen|''Yae Miko's plan...''}}
 :{{A|vo dqaq107 1 paimon 08.ogg}} '''Paimon:''' So to recap, [[Yae Miko]] wants us to go back inside the Plane of Euthymia by the Statue of the Omnipresent God...
 :{{A|vo dqaq107 1 paimon 09.ogg}} '''Paimon:''' But... we'll be like lambs to the slaughter, won't we? M&mdash;Maybe we could put this plan on hold for a while...
 :{{A|vo dqaq107 1 paimon 14.ogg}} '''Paimon:''' There's the sound of [[Electro]] zapping in the air... Paimon can barely breathe...
 :;(The Traveler staves off another headache)
 :{{A|vo dqaq107 1 paimon 15.ogg}} '''Paimon:''' Traveler, are you okay? You're so silent...
-
-:'''''It's so... noisy outside...'''''
-
+:{{Black Screen|''It's so... noisy outside...''}}
 :{{A|vo dqaq107 1 paimon 10.ogg}} '''Paimon:''' It sounds like there's a lot of noise coming from outside Tenshukaku... Has a fight broken out or something?
 :{{A|vo dqaq107 1 paimon 11.ogg}} '''Paimon:''' The guards seem really nervous... Let's go see what the situation is, shall we?
 ----
 {{Cutscene Description|You stumble out of Tenshukaku gloomily. By chance, the resistance forces have broken through the leaderless Shogunate troops, arriving beneath Tenshukaku. Having not met them in some time, you step forward, but just then, the Raiden Shogun appears behind you, unleashing her legendary Musou no Hitotachi. Just as it seems that divine punishment will be meted out, the [[Masterless Vision]] [[Kazuha]] carries crackles to life. Wielding his sword, he meets &mdash; and miraculously blocks &mdash; that strike head-on. Encouraged by his bravery, the resistance troops charge at the Raiden Shogun, and the [[Visions]] inlaid upon the [[Statue of the Omnipresent God]] glow in response to their former masters' courage. Yet you know that their valiant effort will not avail them against the Raiden Shogun and that this may yet be the moment to execute Yae Miko's plan, and so you turn to strike the Shogun. As expected, the Plane of Euthymia opens before you once more.}}
 ;(Cutscene starts)
 :;(The Masterless Vision on Kazuha crackles and gains the Electro color and symbol)
-::'''[[Kazuha's Friend]]:'''<ref>Twitter: [https://twitter.com/BWincklerVA/status/1433505053516705794 EN VA Self Announcement]</ref> "There will always be those who dare to brave the lightning's glow"
+::'''[[Kazuha's friend]]:'''<ref>Twitter: [https://twitter.com/BWincklerVA/status/1433505053516705794 EN VA Self Announcement]</ref> "There will always be those who dare to brave the lightning's glow"
 
 :;(The Masterless Vision lands on the ground still crackling, and its color fades away)
 ::'''Sanogonomiya Resistance Member:''' Charge!
@@ -154,9 +144,7 @@
 :;(The people's ambitions begin to shine through into the Plane of Euthymia and illuminates the realm)
 :;([[Teppei]], in a flash, appears briefly in the position of the Traveler)
 :;(The Traveler is imbued with a golden aura as the Traveler takes on the ambitions of the people)
-
-:'''''Abolish the Vision Hunt Decree'''''
-
+:{{Black Screen|''Abolish the Vision Hunt Decree''}}
 :;(The Electro Archon smiles and the fight resumes)
 ----
 ;(Upon defeating the Raiden Shogun)
@@ -182,7 +170,7 @@
 :'''Ei:''' With my blade, I purged all obstacles to progress
 :'''Ei:''' And yet... something was lost
 :'''Ei:''' With each step forward
-:'''Ei:''' In the end, I even lost her
+:'''Ei:''' In the end, I even lost [[Makoto|her]]
 :'''Ei:''' The tales are still retold
 :'''Ei:''' In the shade of every Thunder Sakura
 :'''Ei:''' But the wounds left on our nation by that terrible loss
@@ -264,12 +252,15 @@
 :{{DIcon}} We conveyed the wishes of the people.
 :{{A|vo dqaq109 1 paimon 03.ogg}} '''Paimon:''' Oh, gotcha... Paimon was super worried, y'know.
 :{{A|vo dqaq109 1 paimon 04.ogg}} '''Paimon:''' So maybe the reason Yae Miko is looking for us now is 'cause she wants to thank us? Let's go find her.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Cutscene==
 <gallery>
 Story Teaser- Promise of a People's Dream - Genshin Impact
 </gallery>
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Notes==
 {{Reflist|note=1}}
@@ -303,7 +294,7 @@ Story Teaser- Promise of a People's Dream - Genshin Impact
 |pt      = A Deusa Onipresente
 |pt_tl   = The Omnipresent Goddess
 |tr      = Alemüstü Tanrı
-|tr_tl   = 
+|tr_tl   = Realm-Transcending God
 |it      = La divinità onnipresente
 |it_tl   = The Omnipresent Divinity
 }}
@@ -317,6 +308,8 @@ Story Teaser- Promise of a People's Dream - Genshin Impact
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
 
+[[es:La Diosa Omnipresente]]
 [[ja:千手百目]]
 [[pt-br:A Deusa Onipresente]]
 [[th:The Omnipresent God]]
+[[vi:Trăm Mắt Nghìn Tay]]

@@ -64,498 +64,715 @@ Certain [[Transformative Reactions]] have spherical AoEs.
 
 ==Character AoE==
 {{See also|Vacuum Field#Vacuum Data|Targeting/Data}}
-Note that in the Unity game engine, the Y axis is the vertical axis. Therefore, for rectangular AoEs, the Y size is the height.
 
 ===Elemental Skills===
 {| class="sortable fandom-table"
-! Character !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Y !! Box Z !! Height
+! Character !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Z !! Height
 |-
-| rowspan="2" | {{Character|Albedo|20|nobr=1}} || {{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}} (Activation) || Cylinder || 5 ||  ||  ||  ||  || 4
+| rowspan="2" | {{Character|Albedo|20|nobr=1}} || {{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}} (Activation) || Cylinder || 5 ||  ||  ||  || 4
 |-
-| {{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}} (Transient Blossom) || Sphere || 3.4 ||  ||  ||  ||  ||
+| {{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}} (Transient Blossom) || Sphere || 3.4 ||  ||  ||  || 
 |-
-| rowspan="4" | {{Character|Alhaitham|20|nobr=1}} || {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (Rush Attack) || Sphere || 2.25 ||  ||  ||  ||  ||
+| rowspan="4" | {{Character|Alhaitham|20|nobr=1}} || {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (Rush Attack) || Sphere || 2.25 ||  ||  ||  || 
 |-
-| {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (1-Mirror Projection Attack) || Box ||  ||  || 7 || 2.2 || 3 ||
+| {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (1-Mirror Projection Attack) || Box ||  ||  || 7 || 3 || 2.2
 |-
-| {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (2-Mirror Projection Attack) || Cylinder || 5.5 || 180 ||  ||  ||  || 2.2
+| {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (2-Mirror Projection Attack) || Cylinder || 5.5 || 180 ||  ||  || 2.2
 |-
-| {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (3-Mirror Projection Attack) || Cylinder || 4 ||  ||  ||  ||  || 3
+| {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} (3-Mirror Projection Attack) || Cylinder || 4 ||  ||  ||  || 3
 |-
-| rowspan="2" | {{Character|Aloy|20|nobr=1}} || {{Talent|Frozen Wilds|20|nobr=1|type=1}} (Freeze Bomb) || Sphere || 4 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Aloy|20|nobr=1}} || {{Talent|Frozen Wilds|20|nobr=1|type=1}} (Freeze Bomb) || Sphere || 4 ||  ||  ||  || 
 |-
-| {{Talent|Frozen Wilds|20|nobr=1|type=1}} (Chillwater Bomblets) || Sphere || 2 ||  ||  ||  ||  ||
+| {{Talent|Frozen Wilds|20|nobr=1|type=1}} (Chillwater Bomblets) || Sphere || 2 ||  ||  ||  || 
 |-
-| {{Character|Amber|20|nobr=1}} || {{Talent|Explosive Puppet|20|nobr=1|type=1}} || Sphere || 3 ||  ||  ||  ||  ||
+| {{Character|Amber|20|nobr=1}} || {{Talent|Explosive Puppet|20|nobr=1|type=1}} || Sphere || 3 ||  ||  ||  || 
 |-
-| {{Character|Arataki Itto|20|nobr=1}} || {{Talent|Masatsu Zetsugi: Akaushi Burst!|20|nobr=1|type=1}} || Cylinder || 3.5 ||  ||  ||  ||  || 3
+| {{Character|Arataki Itto|20|nobr=1}} || {{Talent|Masatsu Zetsugi: Akaushi Burst!|20|nobr=1|type=1}} || Cylinder || 3.5 ||  ||  ||  || 3
 |-
-| {{Character|Barbara|20|nobr=1}} || {{Talent|Let the Show Begin♪|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  ||  || 0
+| rowspan="2" | {{Character|Arlecchino|20|nobr=1}} || {{Talent|All Is Ash|20|nobr=1|type=1}} (Spike DMG) || Cylinder || 0.5 ||  ||  ||  || 2.2
 |-
-| rowspan="3" | {{Character|Beidou|20|nobr=1}} || {{Talent|Tidecaller|20|nobr=1|type=1}} (Not Charged) || Cylinder || 6 ||  ||  ||  ||  || 1.5
+| {{Talent|All Is Ash|20|nobr=1|type=1}} (Cleave DMG) || Cylinder || 6 ||  ||  ||  || 3.5
 |-
-| {{Talent|Tidecaller|20|nobr=1|type=1}} (Charge Level 1) || Cylinder || 7 ||  ||  ||  ||  || 1.5
+| {{Character|Baizhu|20|nobr=1}} || {{Talent|Universal Diagnosis|20|nobr=1|type=1}} || Sphere || 0.6 ||  ||  ||  || 
 |-
-| {{Talent|Tidecaller|20|nobr=1|type=1}} (Charge Level 2) || Cylinder || 8 ||  ||  ||  ||  || 1.5
+| {{Character|Barbara|20|nobr=1}} || {{Talent|Let the Show Begin♪|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  || 0
 |-
-| rowspan="6" | {{Character|Bennett|20|nobr=1}} || {{Talent|Passion Overload|20|nobr=1|type=1}} (Press) || Cylinder || 2.5 || 270 ||  ||  ||  || 2.5
+| rowspan="3" | {{Character|Beidou|20|nobr=1}} || {{Talent|Tidecaller|20|nobr=1|type=1}} (Not Charged) || Cylinder || 6 ||  ||  ||  || 1.5
 |-
-| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 2 A) || Cylinder || 2.5 ||  ||  ||  ||  || 2.5
+| {{Talent|Tidecaller|20|nobr=1|type=1}} (Charge Level 1) || Cylinder || 7 ||  ||  ||  || 1.5
 |-
-| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 2 B) || Box ||  ||  || 3 || 3 || 3 ||
+| {{Talent|Tidecaller|20|nobr=1|type=1}} (Charge Level 2) || Cylinder || 8 ||  ||  ||  || 1.5
 |-
-| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 3 A) || Cylinder || 2.5 ||  ||  ||  ||  || 2.5
+| rowspan="6" | {{Character|Bennett|20|nobr=1}} || {{Talent|Passion Overload|20|nobr=1|type=1}} (Press) || Cylinder || 2.5 || 270 ||  ||  || 2.5
 |-
-| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 3 B) || Box ||  ||  || 3 || 4 || 3 ||
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 2 A) || Cylinder || 2.5 ||  ||  ||  || 2.5
 |-
-| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 3 C) || Cylinder || 3.5 ||  ||  ||  ||  || 2.5
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 2 B) || Box ||  ||  || 3 || 3 || 3
 |-
-| rowspan="2" | {{Character|Candace|20|nobr=1}} || {{Talent|Sacred Rite: Heron's Sanctum|20|nobr=1|type=1}} (Press) || Box ||  ||  || 3 || 3 || 4.5 ||
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 3 A) || Cylinder || 2.5 ||  ||  ||  || 2.5
 |-
-| {{Talent|Sacred Rite: Heron's Sanctum|20|nobr=1|type=1}} (Hold) || Cylinder || 3 ||  ||  ||  ||  || 4
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 3 B) || Box ||  ||  || 3 || 3 || 4
 |-
-| rowspan="2" | {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Chonghua's Layered Frost|20|nobr=1|type=1}} || Sphere || 2.5 ||  ||  ||  ||  ||
+| {{Talent|Passion Overload|20|nobr=1|type=1}} (Charge Level 3 C) || Cylinder || 3.5 ||  ||  ||  || 2.5
 |-
-| {{Talent|Spirit Blade: Chonghua's Layered Frost|20|nobr=1|type=1}} (Field) || Cylinder || 8 ||  ||  ||  ||  || Infinite
+| rowspan="2" | {{Character|Candace|20|nobr=1}} || {{Talent|Sacred Rite: Heron's Sanctum|20|nobr=1|type=1}} (Press) || Box ||  ||  || 3 || 4.5 || 3
 |-
-| {{Character|Cyno|20|nobr=1}} || {{Talent|Secret Rite: Chasmic Soulfarer|20|nobr=1|type=1}} (Burst) || Cylinder || 3.5 ||  ||  ||  ||  || 6
+| {{Talent|Sacred Rite: Heron's Sanctum|20|nobr=1|type=1}} (Hold) || Cylinder || 3 ||  ||  ||  || 4
 |-
-| rowspan="3" | {{Character|Dehya|20|nobr=1}} || {{Talent|Molten Inferno|20|nobr=1|type=1}} (Indomitable Flame) || Cylinder || 5 ||  ||  ||  ||  || 4
+| {{Character|Charlotte|20|nobr=1}} || {{Talent|Framing: Freezing Point Composition|20|nobr=1|type=1}} (Press) || Box ||  ||  || 4 || 8 || 2.2
 |-
-| {{Talent|Molten Inferno|20|nobr=1|type=1}} (Ranging Flame) || Cylinder || 6 ||  ||  ||  ||  || 4
+| {{Character|Chasca|20|nobr=1}} || {{Talent|Spirit Reins, Shadow Hunt|20|nobr=1|type=1}} (Activation) || Sphere || 5.5 ||  ||  ||  || 
 |-
-| {{Talent|Molten Inferno|20|nobr=1|type=1}} (Field) || Cylinder || 4.5 ||  ||  ||  ||  || 3
+| rowspan="4" | {{Character|Chevreuse|20|nobr=1}} || {{Talent|Short-Range Rapid Interdiction Fire|20|nobr=1|type=1}} (Press) || Box ||  ||  || 2 || 6 || 1.5
 |-
-| rowspan="3" | {{Character|Diluc|20|nobr=1}} || {{Talent|Searing Onslaught|20|nobr=1|type=1}} (1) || Box ||  ||  || 3 || 3 || 3.5 ||
+| {{Talent|Short-Range Rapid Interdiction Fire|20|nobr=1|type=1}} (Hold) || Box ||  ||  || 3 || 7 || 2.5
 |-
-| {{Talent|Searing Onslaught|20|nobr=1|type=1}} (2) || Cylinder || 2.2 || 300 ||  ||  ||  || 3
+| {{Talent|Short-Range Rapid Interdiction Fire|20|nobr=1|type=1}} (Overcharged Ball) || Sphere || 5 ||  ||  ||  || 
 |-
-| {{Talent|Searing Onslaught|20|nobr=1|type=1}} (3) || Box ||  ||  || 3.5 || 3 || 4 ||
+| {{Talent|Short-Range Rapid Interdiction Fire|20|nobr=1|type=1}} (Surging Blade) || Sphere || 2 ||  ||  ||  || 
 |-
-| {{Character|Diona|20|nobr=1}} || {{Talent|Icy Paws|20|nobr=1|type=1}} || Sphere || 0.5 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Chiori|20|nobr=1}} || {{Talent|Fluttering Hasode|20|nobr=1|type=1}} (Upward Sweep Attack) || Box ||  ||  || 5.5 || 3.5 || 3
 |-
-| rowspan="2" | {{Character|Dori|20|nobr=1}} || {{Talent|Spirit-Warding Lamp: Troubleshooter Cannon|20|nobr=1|type=1}} (Troubleshooter Shot) || Sphere || 1 ||  ||  ||  ||  ||
+| {{Talent|Fluttering Hasode|20|nobr=1|type=1}} (Tamoto) || Sphere || 1.2 ||  ||  ||  || 
 |-
-| {{Talent|Spirit-Warding Lamp: Troubleshooter Cannon|20|nobr=1|type=1}} (After-Sales Service Round) || Sphere || 1 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Chonghua's Layered Frost|20|nobr=1|type=1}} || Sphere || 2.5 ||  ||  ||  || 
 |-
-| rowspan="3" | {{Character|Eula|20|nobr=1}} || {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Press) || Cylinder || 3.5 ||  ||  ||  ||  || 1.8
+| {{Talent|Spirit Blade: Chonghua's Layered Frost|20|nobr=1|type=1}} (Field) || Cylinder || 8 ||  ||  ||  || Infinite
 |-
-| {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Hold) || Cylinder || 5.5 ||  ||  ||  ||  || 1.8
+| rowspan="2" | {{Character|Citlali|20|nobr=1}} || {{Talent|Dawnfrost Darkstar|20|nobr=1|type=1}} (Activation) || Cylinder || 6 ||  ||  ||  || 3
 |-
-| {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Icewhirl Brand) || Sphere || 3.5 ||  ||  ||  ||  ||
+| {{Talent|Dawnfrost Darkstar|20|nobr=1|type=1}} (Forstfall Storm) || Cylinder || 6 ||  ||  ||  || 6
 |-
-| rowspan="2" | {{Character|Faruzan|20|nobr=1}} || {{Talent|Wind Realm of Nasamjnin|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  ||  || 2
+| {{Character|Clorinde|20|nobr=1}} || {{Talent|Hunter's Vigil|20|nobr=1|type=1}} (Swift Hunt Lv. 1) || Sphere || 0.6 ||  ||  ||  || 
 |-
-| {{Talent|Wind Realm of Nasamjnin|20|nobr=1|type=1}} (Pressurized Collapse) || Sphere || 6 ||  ||  ||  ||  ||
+| {{Character|Cyno|20|nobr=1}} || {{Talent|Secret Rite: Chasmic Soulfarer|20|nobr=1|type=1}} (Burst) || Cylinder || 3.5 ||  ||  ||  || 6
 |-
-| rowspan="2" | {{Character|Fischl|20|nobr=1}} || {{Talent|Nightrider|20|nobr=1|type=1}} (Summoning) || Sphere || 2 ||  ||  ||  ||  ||
+| rowspan="3" | {{Character|Dehya|20|nobr=1}} || {{Talent|Molten Inferno|20|nobr=1|type=1}} (Indomitable Flame) || Cylinder || 5 ||  ||  ||  || 4
 |-
-| {{Talent|Nightrider|20|nobr=1|type=1}} (Oz ATK) || Box ||  ||  || 0.1 || 0.1 || 1 ||
+| {{Talent|Molten Inferno|20|nobr=1|type=1}} (Ranging Flame) || Cylinder || 6 ||  ||  ||  || 4
 |-
-| {{Character|Ganyu|20|nobr=1}} || {{Talent|Trail of the Qilin|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  ||  || 4
+| {{Talent|Molten Inferno|20|nobr=1|type=1}} (Field) || Cylinder || 4.5 ||  ||  ||  || 3
 |-
-| {{Character|Gorou|20|nobr=1}} || {{Talent|Inuzaka All-Round Defense|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  ||  || 4
+| rowspan="3" | {{Character|Diluc|20|nobr=1}} || {{Talent|Searing Onslaught|20|nobr=1|type=1}} (1) || Box ||  ||  || 3 || 3.5 || 3
 |-
-| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} (Activation Knockback) || Sphere || 3 ||  ||  ||  ||  ||
+| {{Talent|Searing Onslaught|20|nobr=1|type=1}} (2) || Cylinder || 2.2 || 300 ||  ||  || 3
 |-
-| {{Character|Jean|20|nobr=1}} || {{Talent|Gale Blade|20|nobr=1|type=1}} || Box ||  ||  || 4 || 2.4 || 4.1 ||
+| {{Talent|Searing Onslaught|20|nobr=1|type=1}} (3) || Box ||  ||  || 3.5 || 4 || 3
 |-
-| rowspan="2" | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} (Press) || Cylinder || 5 ||  ||  ||  ||  || 4
+| {{Character|Diona|20|nobr=1}} || {{Talent|Icy Paws|20|nobr=1|type=1}} || Sphere || 0.5 ||  ||  ||  || 
 |-
-| {{Talent|Chihayaburu|20|nobr=1|type=1}} (Press) || Cylinder || 9 ||  ||  ||  ||  || 4
+| rowspan="2" | {{Character|Dori|20|nobr=1}} || {{Talent|Spirit-Warding Lamp: Troubleshooter Cannon|20|nobr=1|type=1}} (Troubleshooter Shot) || Sphere || 1 ||  ||  ||  || 
 |-
-| {{Character|Kaeya|20|nobr=1}} || {{Talent|Frostgnaw|20|nobr=1|type=1}} || Box ||  ||  || 4 || 2.2 || 8 ||
+| {{Talent|Spirit-Warding Lamp: Troubleshooter Cannon|20|nobr=1|type=1}} (After-Sales Service Round) || Sphere || 1 ||  ||  ||  || 
 |-
-| {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Hyouka|20|nobr=1|type=1}} || Cylinder || 4.5 ||  ||  ||  ||  || 2.5
+| rowspan="2" | {{Character|Emilie|20|nobr=1}} || {{Talent|Fragrance Extraction|20|nobr=1|type=1}} (Activation) || Cylinder || 4.5 ||  ||  ||  || 3
 |-
-| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} (Water Illusion) || Sphere || 3.5 ||  ||  ||  ||  ||
+| {{Talent|Fragrance Extraction|20|nobr=1|type=1}} (Lumidouce Case) || Sphere || 1 ||  ||  ||  || 
 |-
-| rowspan="3" | {{Character|Keqing|20|nobr=1}} || {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Lightning Stiletto) || Sphere || 1.6 ||  ||  ||  ||  ||
+| rowspan="3" | {{Character|Eula|20|nobr=1}} || {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Press) || Cylinder || 3.5 ||  ||  ||  || 1.8
 |-
-| {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Slashing) || Cylinder || 3 ||  ||  ||  ||  || 3
+| {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Hold) || Cylinder || 5.5 ||  ||  ||  || 1.8
 |-
-| {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Thunderclap Slash) || Sphere || 2.5 ||  ||  ||  ||  ||
+| {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Icewhirl Brand) || Sphere || 3.5 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Klee|20|nobr=1}} || {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} (Bounce) || Sphere || 4 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Faruzan|20|nobr=1}} || {{Talent|Wind Realm of Nasamjnin|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  || 2
 |-
-| {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} (Mine) || Sphere || 2 ||  ||  ||  ||  ||
+| {{Talent|Wind Realm of Nasamjnin|20|nobr=1|type=1}} (Pressurized Collapse) || Sphere || 6 ||  ||  ||  || 
 |-
-| {{Character|Kujou Sara|20|nobr=1}} || {{Talent|Tengu Stormcall|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 3
+| rowspan="2" | {{Character|Fischl|20|nobr=1}} || {{Talent|Nightrider|20|nobr=1|type=1}} (Summoning) || Sphere || 2 ||  ||  ||  || 
 |-
-| {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Sanctifying Ring|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  ||  || 2
+| {{Talent|Nightrider|20|nobr=1|type=1}} (Oz ATK) || Box ||  ||  || 0.1 || 1 || 0.1
 |-
-| rowspan="2" | {{Character|Layla|20|nobr=1}} || {{Talent|Nights of Formal Focus|20|nobr=1|type=1}} (Activation) || Cylinder || 2.5 ||  ||  ||  ||  || 1.5
+| rowspan="4" | {{Character|Freminet|20|nobr=1}} || {{Talent|Pressurized Floe|20|nobr=1|type=1}} (Upward Thrust) || Cylinder || 2.5 ||  ||  ||  || 2.5
 |-
-| {{Talent|Nights of Formal Focus|20|nobr=1|type=1}} (Star Jade) || Sphere || 0.8 ||  ||  ||  ||  ||
+| {{Talent|Pressurized Floe|20|nobr=1|type=1}} (Level 1/2/3 Shattering Pressure) || Cylinder || 2.5 ||  ||  ||  || 2.5
 |-
-| rowspan="2" | {{Character|Lisa|20|nobr=1}} || {{Talent|Violet Arc|20|nobr=1|type=1}} (Press) || Sphere || 1 ||  ||  ||  ||  ||
+| {{Talent|Pressurized Floe|20|nobr=1|type=1}} (Level 4 Shattering Pressure) || Box ||  ||  || 3 || 7 || 3 
 |-
-| {{Talent|Violet Arc|20|nobr=1|type=1}} (Hold) || Sphere || 0.2 ||  ||  ||  ||  ||
+| {{Talent|Pressurized Floe|20|nobr=1|type=1}} (Spiritbreath Thorn) || Cylinder || 2.5 ||  ||  ||  || 2.5
 |-
-| {{Character|Mona|20|nobr=1}} || {{Talent|Mirror Reflection of Doom|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  ||  ||
+| rowspan="4" | {{Character|Furina|20|nobr=1}} || {{Talent|Salon Solitaire|20|nobr=1|type=1}} (Activation) || Sphere || 5 ||  ||  ||  || 
 |-
-| {{Character|Nahida|20|nobr=1}} || {{Talent|All Schemes to Know|20|nobr=1|type=1}} (Press) || Cylinder || 4.6 ||  ||  ||  ||  || 3
+| {{Talent|Salon Solitaire|20|nobr=1|type=1}} (Gentilhomme Usher) || Sphere || 2.5 ||  ||  ||  || 
 |-
-| rowspan="7" | {{Character|Nilou|20|nobr=1}} || {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Activation) || Cylinder || 2.5 ||  ||  ||  ||  || 3
+| {{Talent|Salon Solitaire|20|nobr=1|type=1}} (Surintendante Chevalmarin) || Sphere || 0.5 ||  ||  ||  || 
 |-
-| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Sword Dance 1) || Box ||  ||  || 1.75 || 2 || 2.2 ||
+| {{Talent|Salon Solitaire|20|nobr=1|type=1}} (Mademoiselle Crabaletta) || Sphere || 3.5 ||  ||  ||  || 
 |-
-| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Sword Dance 2) || Cylinder || 1.8 ||  ||  ||  ||  || 1.6
+| rowspan="2" | {{Character|Gaming|20|nobr=1}} || {{Talent|Bestial Ascent|20|nobr=1|type=1}} (Charmed Cloudstrider) || Cylinder || 4 ||  ||  ||  || 2
 |-
-| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Whirling Steps 1) || Cylinder || 2.7 ||  ||  ||  ||  || 3
+| {{Talent|Bestial Ascent|20|nobr=1|type=1}} (C6 Charmed Cloudstrider) || Cylinder || 6 ||  ||  ||  || 2
 |-
-| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Whirling Steps 2) || Cylinder || 2.7 ||  ||  ||  ||  || 3
+| {{Character|Ganyu|20|nobr=1}} || {{Talent|Trail of the Qilin|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  || 4
 |-
-| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Water Wheel) || Box ||  ||  || 2.7 || 4 || 5.2 ||
+| {{Character|Gorou|20|nobr=1}} || {{Talent|Inuzaka All-Round Defense|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  || 4
 |-
-| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Tranquility Aura) || Cylinder || 2.5 ||  ||  ||  ||  || 3
+| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} (Activation Knockback) || Sphere || 3 ||  ||  ||  || 
 |-
-| {{Character|Ningguang|20|nobr=1}} || {{Talent|Jade Screen|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  ||  || 1.5
+| {{Character|Jean|20|nobr=1}} || {{Talent|Gale Blade|20|nobr=1|type=1}} || Box ||  ||  || 4 || 4.1 || 2.4
 |-
-| {{Character|Noelle|20|nobr=1}} || {{Talent|Breastplate|20|nobr=1|type=1}} || Cylinder || 2 ||  ||  ||  ||  || 2
+| rowspan="2" | {{Character|Kachina|20|nobr=1}} || {{Talent|Go, Go Turbo Twirly!|20|nobr=1|type=1}} (Normal) || Cylinder || 4 ||  ||  ||  || 2.5
 |-
-| {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Herald of Frost|20|nobr=1|type=1}} || Cylinder || 2.5 ||  ||  ||  ||  || 1.5
+| {{Talent|Go, Go Turbo Twirly!|20|nobr=1|type=1}} (Enhanced) || Cylinder || 5.2 ||  ||  ||  || 3
 |-
-| rowspan="2" | {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} (Press) || Cylinder || 5 ||  ||  ||  || 4
 |-
-| {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}} (Coordinated Attack) || Sphere || 4 ||  ||  ||  ||  ||
+| {{Talent|Chihayaburu|20|nobr=1|type=1}} (Hold) || Cylinder || 9 ||  ||  ||  || 4
 |-
-| rowspan="3" | {{Character|Razor|20|nobr=1}} || {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Press) || Cylinder || 2.4 || 240 ||  ||  ||  || 1.6
+| {{Character|Kaeya|20|nobr=1}} || {{Talent|Frostgnaw|20|nobr=1|type=1}} || Box ||  ||  || 4 || 8 || 2.2
 |-
-| {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Burst Press) || Cylinder || 3 || 240 ||  ||  ||  || 1.6
+| {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Hyouka|20|nobr=1|type=1}} || Cylinder || 4.5 ||  ||  ||  || 2.5
 |-
-| {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Hold) || Sphere || 5 ||  ||  ||  ||  ||
+| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} (Water Illusion) || Sphere || 3.5 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Rosaria|20|nobr=1}} || {{Talent|Ravaging Confession|20|nobr=1|type=1}} (1) || Box ||  ||  || 2 || 2.4 || 4 ||
+| {{Character|Kaveh|20|nobr=1}} || {{Talent|Artistic Ingenuity|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  || 4
 |-
-| {{Talent|Ravaging Confession|20|nobr=1|type=1}} (2) || Cylinder || 2.8 ||  ||  ||  ||  || 3
+| rowspan="3" | {{Character|Keqing|20|nobr=1}} || {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Lightning Stiletto) || Sphere || 1.6 ||  ||  ||  || 
 |-
-| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|Kurage's Oath|20|nobr=1|type=1}} || Sphere || 6 ||  ||  ||  ||  ||
+| {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Slashing) || Cylinder || 3 ||  ||  ||  || 3
 |-
-| rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Press Kick) || Cylinder || 2.5 ||  ||  ||  ||  || 1.8
+| {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Thunderclap Slash) || Sphere || 2.5 ||  ||  ||  || 
 |-
-| {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Hold Kick) || Cylinder || 3 ||  ||  ||  ||  || 2.5
+| rowspan="3" | {{Character|Kinich|20|nobr=1}} || {{Talent|Canopy Hunter: Riding High|20|nobr=1|type=1}} (Loop Shot) || Sphere || 0.5 ||  ||  ||  || 
 |-
-| {{Character|Shenhe|20|nobr=1}} || {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}} (Hold) || Sphere || 4 ||  ||  ||  ||  ||
+| {{Talent|Canopy Hunter: Riding High|20|nobr=1|type=1}} (Scalespiker Cannon) || Sphere || 3 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Heartstopper Strike|20|nobr=1|type=1}} (No Conviction) || Box ||  ||  || 3 || 3 || 5 ||
+| {{Talent|Canopy Hunter: Riding High|20|nobr=1|type=1}} (Scalespiker Cannon w/C2) || Sphere || 5 ||  ||  ||  || 
 |-
-| {{Talent|Heartstopper Strike|20|nobr=1|type=1}} (Conviction) || Box ||  ||  || 4 || 3.5 || 6 ||
+| rowspan="2" | {{Character|Kirara|20|nobr=1}} || {{Talent|Meow-teor Kick|20|nobr=1|type=1}} (Press) || Cylinder || 2.5 || 270 ||  ||  || 2.8
 |-
-| {{Character|Sucrose|20|nobr=1}} || {{Talent|Astable Anemohypostasis Creation - 6308|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 6
+| {{Talent|Meow-teor Kick|20|nobr=1|type=1}} (Hold End) || Cylinder || 2.6 ||  ||  ||  || 3.2
 |-
-| rowspan="2" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Activation) || Sphere || 3 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Klee|20|nobr=1}} || {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} (Bounce) || Sphere || 4 ||  ||  ||  || 
 |-
-| {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Riptide Slash) || Sphere || 3 ||  ||  ||  ||  ||
+| {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} (Mine) || Sphere || 2 ||  ||  ||  || 
 |-
-| {{Character|Thoma|20|nobr=1}} || {{Talent|Blazing Blessing|20|nobr=1|type=1}} || Cylinder || 3 || 270 ||  ||  ||  || 2.5
+| {{Character|Kujou Sara|20|nobr=1}} || {{Talent|Tengu Stormcall|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 3
 |-
-| {{Character|Tighnari|20|nobr=1}} || {{Talent|Vijnana-Phala Mine|20|nobr=1|type=1}} || Cylinder || 6 || 270 ||  ||  ||  || 3
+| {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Sanctifying Ring|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  || 2
 |-
-| {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Palm Vortex|20|nobr=1|type=1}} || Cylinder || 6 || 100 ||  ||  ||  || 2
+| rowspan="2" | {{Character|Layla|20|nobr=1}} || {{Talent|Nights of Formal Focus|20|nobr=1|type=1}} (Activation) || Cylinder || 2.5 ||  ||  ||  || 1.5
 |-
-| {{Character|Traveler (Dendro)|20|nobr=1}} || {{Talent|Razorgrass Blade|20|nobr=1|type=1}} || Cylinder || 6.5 || 130 ||  ||  ||  || 2
+| {{Talent|Nights of Formal Focus|20|nobr=1|type=1}} (Star Jade) || Sphere || 0.8 ||  ||  ||  || 
 |-
-| {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Lightning Blade|20|nobr=1|type=1}} || Box ||  ||  || 0.1 || 0.1 || 0.6 ||
+| rowspan="2" | {{Character|Lisa|20|nobr=1}} || {{Talent|Violet Arc|20|nobr=1|type=1}} (Press) || Sphere || 1 ||  ||  ||  || 
 |-
-| {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Starfell Sword|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  ||  || 2
+| {{Talent|Violet Arc|20|nobr=1|type=1}} (Hold) || Sphere || 0.2 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Venti|20|nobr=1}} || {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Press) || Sphere || 3 ||  ||  ||  ||  ||
+| rowspan="3" | {{Character|Lynette|20|nobr=1}} || {{Talent|Enigmatic Feint|20|nobr=1|type=1}} (Press) || Box ||  ||  || 1.8 || 4.5 || 2.8 
 |-
-| {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Hold) || Sphere || 6 ||  ||  ||  ||  ||
+| {{Talent|Enigmatic Feint|20|nobr=1|type=1}} (Hold) || Box ||  ||  || 1.8 || 5 || 2.8 
 |-
-| {{Character|Wanderer|20|nobr=1}} || {{Talent|Hanega: Song of the Wind|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 8
+| {{Talent|Enigmatic Feint|20|nobr=1|type=1}} (Surging Blade) || Box ||  ||  || 1.2 || 4.5 || 2.8 
 |-
-| {{Character|Xiangling|20|nobr=1}} || {{Talent|Guoba Attack|20|nobr=1|type=1}} || Cylinder || 5 || 60 ||  ||  ||  || 2
+| rowspan="2" | {{Character|Lyney|20|nobr=1}} || {{Talent|Bewildering Lights|20|nobr=1|type=1}} (Activation) || Cylinder || 5.5 ||  ||  ||  || 4
 |-
-| {{Character|Xiao|20|nobr=1}} || {{Talent|Lemniscatic Wind Cycling|20|nobr=1|type=1}} || Sphere || 0.8 ||  ||  ||  ||  ||
+| {{Talent|Bewildering Lights|20|nobr=1|type=1}} (Grin-Malkin Hat Explosion) || Sphere || 3.5 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} (1) || Cylinder || 3 ||  ||  ||  ||  || 1.5
+| rowspan="7" | {{Character|Mavuika|20|nobr=1}} || {{Talent|The Named Moment|20|nobr=1|type=1}} (Press) || Cylinder || 7 ||  ||  ||  || 5
 |-
-| {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} (2) || Box ||  ||  || 3.5 || 5 || 4.5 ||
+| {{Talent|The Named Moment|20|nobr=1|type=1}} (Converted Normal Attack 1) || Cylinder || 3.7 ||  ||  ||  || 3.5
 |-
-| rowspan="2" | {{Character|Xinyan|20|nobr=1}} || {{Talent|Sweeping Fervor|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  ||  || 1.6
+| {{Talent|The Named Moment|20|nobr=1|type=1}} (Converted Normal Attack 2) || Cylinder || 4 ||  ||  ||  || 3.5
 |-
-| {{Talent|Sweeping Fervor|20|nobr=1|type=1}} (DoT) || Cylinder || 3 ||  ||  ||  ||  || 2.2
+| {{Talent|The Named Moment|20|nobr=1|type=1}} (Converted Normal Attack 3) || Cylinder || 3.7 ||  ||  ||  || 3
 |-
-| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Yakan Evocation: Sesshou Sakura|20|nobr=1|type=1}} || Cylinder || 0.5 ||  ||  ||  ||  || 4
+| {{Talent|The Named Moment|20|nobr=1|type=1}} (Converted Normal Attack 4) || Box ||  ||  || 4.5 || 5.5 || 3.5
 |-
-| {{Character|Yanfei|20|nobr=1}} || {{Talent|Signed Edict|20|nobr=1|type=1}} || Sphere || 3.5 ||  ||  ||  ||  ||
+| {{Talent|The Named Moment|20|nobr=1|type=1}} (Converted Normal Attack 5) || Cylinder || 4.7 ||  ||  ||  || 3.8
 |-
-| {{Character|Yaoyao|20|nobr=1}} || {{Talent|Raphanus Sky Cluster|20|nobr=1|type=1}} || Sphere || 2 ||  ||  ||  ||  ||
+| {{Talent|The Named Moment|20|nobr=1|type=1}} (Converted Charged Attack Final) || Cylinder || 4 ||  ||  ||  || 3
 |-
-| rowspan="3" | {{Character|Yun Jin|20|nobr=1}} || {{Talent|Opening Flourish|20|nobr=1|type=1}} (Press) || Cylinder || 4 ||  ||  ||  ||  || 1.5
+| rowspan="3" | {{Character|Mika|20|nobr=1}} || {{Talent|Starfrost Swirl|20|nobr=1|type=1}} (Flowfrost Arrow) || Box ||  ||  || 2.5 || 10 || 3.5
 |-
-| {{Talent|Opening Flourish|20|nobr=1|type=1}} (Charge Level 1) || Cylinder || 6 ||  ||  ||  ||  || 1.5
+| {{Talent|Starfrost Swirl|20|nobr=1|type=1}} (Rimestar Flare) || Box ||  ||  || 0.3 || 1.3 || 0.3
 |-
-| {{Talent|Opening Flourish|20|nobr=1|type=1}} (Charge Level 2) || Cylinder || 8 ||  ||  ||  ||  || 1.5
+| {{Talent|Starfrost Swirl|20|nobr=1|type=1}} (Rimestar Shard) || Box ||  ||  || 0.2 || 1.2 || 0.2
 |-
-| rowspan="3" | {{Character|Zhongli|20|nobr=1}} || {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Pillar Spawn) || Sphere || 2 ||  ||  ||  ||  ||
+| {{Character|Mona|20|nobr=1}} || {{Talent|Mirror Reflection of Doom|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  || 
 |-
-| {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Resonance) || Box ||  ||  || 8 || 4 || 8 ||
+| {{Character|Nahida|20|nobr=1}} || {{Talent|All Schemes to Know|20|nobr=1|type=1}} (Press) || Cylinder || 4.6 ||  ||  ||  || 3
 |-
-| {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Hold) || Cylinder || 10 ||  ||  ||  ||  || 10
+| {{Character|Navia|20|nobr=1}} || {{Talent|Ceremonial Crystalshot|20|nobr=1|type=1}} (Surging Blade) || Sphere || 3 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Neuvillette|20|nobr=1}} || {{Talent|O Tears, I Shall Repay|20|nobr=1|type=1}} (Activation) || Cylinder || 6 ||  ||  ||  || 4.5
+|-
+| {{Talent|O Tears, I Shall Repay|20|nobr=1|type=1}} (Spiritbreath Thorn) || Cylinder || 4.5 ||  ||  ||  || 4
+|-
+| rowspan="7" | {{Character|Nilou|20|nobr=1}} || {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Activation) || Cylinder || 2.5 ||  ||  ||  || 3
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Sword Dance 1) || Box ||  ||  || 1.75 || 2.2 || 2
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Sword Dance 2) || Cylinder || 1.8 ||  ||  ||  || 1.6
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Whirling Steps 1) || Cylinder || 2.7 ||  ||  ||  || 3
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Whirling Steps 2) || Cylinder || 2.7 ||  ||  ||  || 3
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Water Wheel) || Box ||  ||  || 2.7 || 5.2 || 4
+|-
+| {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Tranquility Aura) || Cylinder || 2.5 ||  ||  ||  || 3
+|-
+| {{Character|Ningguang|20|nobr=1}} || {{Talent|Jade Screen|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  || 1.5
+|-
+| {{Character|Noelle|20|nobr=1}} || {{Talent|Breastplate|20|nobr=1|type=1}} || Cylinder || 2 ||  ||  ||  || 2
+|-
+| {{Character|Ororon|20|nobr=1}} || {{Talent|Night's Sling|20|nobr=1|type=1}} || Sphere || 0.6 ||  ||  ||  || 
+|-
+| {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Herald of Frost|20|nobr=1|type=1}} || Cylinder || 2.5 ||  ||  ||  || 1.5
+|-
+| rowspan="2" | {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  || 
+|-
+| {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}} (Coordinated Attack) || Sphere || 4 ||  ||  ||  || 
+|-
+| rowspan="3" | {{Character|Razor|20|nobr=1}} || {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Press) || Cylinder || 2.4 || 240 ||  ||  || 1.6
+|-
+| {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Burst Press) || Cylinder || 3 || 240 ||  ||  || 1.6
+|-
+| {{Talent|Claw and Thunder|20|nobr=1|type=1}} (Hold) || Sphere || 5 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Rosaria|20|nobr=1}} || {{Talent|Ravaging Confession|20|nobr=1|type=1}} (1) || Box ||  ||  || 2 || 4 || 2.4
+|-
+| {{Talent|Ravaging Confession|20|nobr=1|type=1}} (2) || Cylinder || 2.8 ||  ||  ||  || 3
+|-
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|Kurage's Oath|20|nobr=1|type=1}} || Sphere || 6 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Press Kick) || Cylinder || 2.5 ||  ||  ||  || 1.8
+|-
+| {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Hold Kick) || Cylinder || 3 ||  ||  ||  || 2.5
+|-
+| {{Character|Sethos|20|nobr=1}} || {{Talent|Ancient Rite: The Thundering Sands|20|nobr=1|type=1}} || Sphere || 4.5 ||  ||  ||  || 
+|-
+| {{Character|Shenhe|20|nobr=1}} || {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}} (Hold) || Sphere || 4 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Heartstopper Strike|20|nobr=1|type=1}} (No Conviction) || Box ||  ||  || 3 || 5 || 3
+|-
+| {{Talent|Heartstopper Strike|20|nobr=1|type=1}} (Conviction) || Box ||  ||  || 4 || 6 || 3.5
+|-
+| rowspan="2" | {{Character|Sigewinne|20|nobr=1}} || {{Talent|Rebound Hydrotherapy|20|nobr=1|type=1}} (Bolstering Bubblebalm) || Sphere || 1 ||  ||  ||  || 
+|-
+| {{Talent|Rebound Hydrotherapy|20|nobr=1|type=1}} (Surging Blade) || Sphere || 3 ||  ||  ||  || 
+|-
+| {{Character|Sucrose|20|nobr=1}} || {{Talent|Astable Anemohypostasis Creation - 6308|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 6
+|-
+| rowspan="2" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Activation) || Sphere || 3 ||  ||  ||  || 
+|-
+| {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Riptide Slash) || Sphere || 3 ||  ||  ||  || 
+|-
+| {{Character|Thoma|20|nobr=1}} || {{Talent|Blazing Blessing|20|nobr=1|type=1}} || Cylinder || 3 || 270 ||  ||  || 2.5
+|-
+| {{Character|Tighnari|20|nobr=1}} || {{Talent|Vijnana-Phala Mine|20|nobr=1|type=1}} || Cylinder || 6 || 270 ||  ||  || 3
+|-
+| {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Palm Vortex|20|nobr=1|type=1}} || Cylinder || 6 || 100 ||  ||  || 2
+|-
+| {{Character|Traveler (Dendro)|20|nobr=1}} || {{Talent|Razorgrass Blade|20|nobr=1|type=1}} || Cylinder || 6.5 || 130 ||  ||  || 2
+|-
+| {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Lightning Blade|20|nobr=1|type=1}} || Box ||  ||  || 0.1 || 0.6 || 0.1
+|-
+| {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Starfell Sword|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  || 2
+|-
+| rowspan="3" | {{Character|Traveler (Hydro)|20|nobr=1}} || {{Talent|Aquacrest Saber|20|nobr=1|type=1}} (Torrent Surge) || Box ||  ||  || 1.2 || 15 || 1.2
+|-
+| {{Talent|Aquacrest Saber|20|nobr=1|type=1}} (Dewdrop) || Box ||  ||  || 1.3 || 0.3 || 0.3
+|-
+| {{Talent|Aquacrest Saber|20|nobr=1|type=1}} (Spiritbreath Thorn) || Box ||  ||  || 1.2 || 15 || 1.2
+|-
+| rowspan="5" | {{Character|Traveler (Pyro)|20|nobr=1}} || {{Talent|Flowfire Blade|20|nobr=1|type=1}} (Blazing Threshold) || Sphere || 0.5 ||  ||  ||  || 
+|-
+| {{Talent|Flowfire Blade|20|nobr=1|type=1}} (Blazing Threshold, {{Talent|True Flame of Incineration|20|nobr=1|text=Enhanced}}) || Sphere || 3 ||  ||  ||  || 
+|-
+| {{Talent|Flowfire Blade|20|nobr=1|type=1}} (Hold DMG) || Cylinder || 3 ||  ||  ||  || 2
+|-
+| {{Talent|Flowfire Blade|20|nobr=1|type=1}} (Scorching Threshold) || Sphere || 1.5 ||  ||  ||  || 
+|-
+| {{Talent|Flowfire Blade|20|nobr=1|type=1}} (Scorching Threshold, {{Talent|True Flame of Incineration|20|nobr=1|text=Enhanced}}) || Sphere || 4 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Venti|20|nobr=1}} || {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Press) || Sphere || 3 ||  ||  ||  || 
+|-
+| {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Hold) || Sphere || 6 ||  ||  ||  || 
+|-
+| {{Character|Wanderer|20|nobr=1}} || {{Talent|Hanega: Song of the Wind|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 8
+|-
+| {{Character|Xiangling|20|nobr=1}} || {{Talent|Guoba Attack|20|nobr=1|type=1}} || Cylinder || 5 || 60 ||  ||  || 2
+|-
+| rowspan="3" | {{Character|Xianyun|20|nobr=1}} || {{Talent|White Clouds at Dawn|20|nobr=1|type=1}} (Driftcloud Wave Lv.1) || Cylinder || 4 ||  ||  ||  || 3
+|-
+| {{Talent|White Clouds at Dawn|20|nobr=1|type=1}} (Driftcloud Wave Lv.2) || Cylinder || 5 ||  ||  ||  || 4
+|-
+| {{Talent|White Clouds at Dawn|20|nobr=1|type=1}} (Driftcloud Wave Lv.3) || Cylinder || 6.5 ||  ||  ||  || 5
+|-
+| {{Character|Xiao|20|nobr=1}} || {{Talent|Lemniscatic Wind Cycling|20|nobr=1|type=1}} || Sphere || 0.8 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} (1) || Cylinder || 3 ||  ||  ||  || 1.5
+|-
+| {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} (2) || Box ||  ||  || 3.5 || 4.5 || 5
+|-
+| rowspan="2" | {{Character|Xinyan|20|nobr=1}} || {{Talent|Sweeping Fervor|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  || 1.6
+|-
+| {{Talent|Sweeping Fervor|20|nobr=1|type=1}} (DoT) || Cylinder || 3 ||  ||  ||  || 2.2
+|-
+| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Yakan Evocation: Sesshou Sakura|20|nobr=1|type=1}} || Cylinder || 0.5 ||  ||  ||  || 4
+|-
+| {{Character|Yanfei|20|nobr=1}} || {{Talent|Signed Edict|20|nobr=1|type=1}} || Sphere || 3.5 ||  ||  ||  || 
+|-
+| {{Character|Yaoyao|20|nobr=1}} || {{Talent|Raphanus Sky Cluster|20|nobr=1|type=1}} || Sphere || 2 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Yumemizuki Mizuki|20|nobr=1}} || {{Talent|Aisa Utamakura Pilgrimage|20|nobr=1|type=1}} (Activation) || Sphere || 5.5 ||  ||  ||  || 
+|-
+| {{Talent|Aisa Utamakura Pilgrimage|20|nobr=1|type=1}} (Continuous Attack) || Sphere || 4 ||  ||  ||  || 
+|-
+| rowspan="3" | {{Character|Yun Jin|20|nobr=1}} || {{Talent|Opening Flourish|20|nobr=1|type=1}} (Press) || Cylinder || 4 ||  ||  ||  || 1.5
+|-
+| {{Talent|Opening Flourish|20|nobr=1|type=1}} (Charge Level 1) || Cylinder || 6 ||  ||  ||  || 1.5
+|-
+| {{Talent|Opening Flourish|20|nobr=1|type=1}} (Charge Level 2) || Cylinder || 8 ||  ||  ||  || 1.5
+|-
+| rowspan="3" | {{Character|Zhongli|20|nobr=1}} || {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Pillar Spawn) || Sphere || 2 ||  ||  ||  || 
+|-
+| {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Resonance) || Box ||  ||  || 8 || 8 || 4
+|-
+| {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Hold) || Cylinder || 10 ||  ||  ||  || 10
 |}
 
 ===Elemental Bursts===
 {| class="sortable fandom-table"
-! Character !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Y !! Box Z !! Height
+! Character !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Z !! Height
 |-
-| rowspan="2" | {{Character|Albedo|20|nobr=1}} || {{Talent|Rite of Progeniture: Tectonic Tide|20|nobr=1|type=1}} (Activation) || Cylinder || 8 || 120 ||  ||  ||  || 5.4
+| rowspan="2" | {{Character|Albedo|20|nobr=1}} || {{Talent|Rite of Progeniture: Tectonic Tide|20|nobr=1|type=1}} (Activation) || Cylinder || 8 || 120 ||  ||  || 5.4
 |-
-| {{Talent|Rite of Progeniture: Tectonic Tide|20|nobr=1|type=1}} (Fatal Blossom) || Sphere || 3 ||  ||  ||  ||  ||
+| {{Talent|Rite of Progeniture: Tectonic Tide|20|nobr=1|type=1}} (Fatal Blossom) || Sphere || 3 ||  ||  ||  || 
 |-
-| {{Character|Alhaitham|20|nobr=1}} || {{Talent|Particular Field: Fetters of Phenomena|20|nobr=1|type=1}} || Cylinder || 6.8 ||  ||  ||  ||  || 8
+| {{Character|Alhaitham|20|nobr=1}} || {{Talent|Particular Field: Fetters of Phenomena|20|nobr=1|type=1}} || Cylinder || 6.8 ||  ||  ||  || 8
 |-
-| {{Character|Aloy|20|nobr=1}} || {{Talent|Prophecies of Dawn|20|nobr=1|type=1}} || Sphere || 6.5 ||  ||  ||  ||  ||
+| {{Character|Aloy|20|nobr=1}} || {{Talent|Prophecies of Dawn|20|nobr=1|type=1}} || Sphere || 6.5 ||  ||  ||  || 
 |-
-| {{Character|Amber|20|nobr=1}} || {{Talent|Fiery Rain|20|nobr=1|type=1}} || Sphere || 2 ||  ||  ||  ||  ||
+| {{Character|Amber|20|nobr=1}} || {{Talent|Fiery Rain|20|nobr=1|type=1}} || Sphere || 2 ||  ||  ||  || 
 |-
-| {{Character|Beidou|20|nobr=1}} || {{Talent|Stormbreaker|20|nobr=1|type=1}} (Activation) || Cylinder || 4 ||  ||  ||  ||  || 2
+| {{Character|Arlecchino|20|nobr=1}} || {{Talent|Balemoon Rising|20|nobr=1|type=1}} || Cylinder || 6.5 ||  ||  ||  || 5
 |-
-| rowspan="2" | {{Character|Bennett|20|nobr=1}} || {{Talent|Fantastic Voyage|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 0
+| {{Character|Baizhu|20|nobr=1}} || {{Talent|Holistic Revivification|20|nobr=1|type=1}} || Sphere || 1.5 ||  ||  ||  || 
 |-
-| {{Talent|Fantastic Voyage|20|nobr=1|type=1}} (Field) || Cylinder || 8 ||  ||  ||  ||  || Infinite
+| {{Character|Beidou|20|nobr=1}} || {{Talent|Stormbreaker|20|nobr=1|type=1}} (Activation) || Cylinder || 4 ||  ||  ||  || 2
 |-
-| {{Character|Candace|20|nobr=1}} || {{Talent|Sacred Rite: Wagtail's Tide|20|nobr=1|type=1}} || Sphere || 3.5 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Bennett|20|nobr=1}} || {{Talent|Fantastic Voyage|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 0
 |-
-| {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Cloud-Parting Star|20|nobr=1|type=1}} || Sphere || 3.5 ||  ||  ||  ||  ||
+| {{Talent|Fantastic Voyage|20|nobr=1|type=1}} (Field) || Cylinder || 6 ||  ||  ||  || Infinite
 |-
-| rowspan="2" | {{Character|Collei|20|nobr=1}} || {{Talent|Trump-Card Kitty|20|nobr=1|type=1}} (Activation) || Cylinder || 5.5 ||  ||  ||  ||  || 6
+| {{Character|Candace|20|nobr=1}} || {{Talent|Sacred Rite: Wagtail's Tide|20|nobr=1|type=1}} || Sphere || 3.5 ||  ||  ||  || 
 |-
-| {{Talent|Trump-Card Kitty|20|nobr=1|type=1}} (Leap) || Sphere || 4 ||  ||  ||  ||  ||
+| {{Character|Charlotte|20|nobr=1}} || {{Talent|Still Photo: Comprehensive Confirmation|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 4.5
 |-
-| rowspan="2" | {{Character|Dehya|20|nobr=1}} || {{Talent|Leonine Bite|20|nobr=1|type=1}} (Flame-Mane's Fist) || Box ||  ||  || 5 || 4 || 7.8 ||
+| {{Character|Chasca|20|nobr=1}} || {{Talent|Soul Reaper's Fatal Round|20|nobr=1|type=1}} (Galesplitting Soulseeker Shell) || Sphere || 6 ||  ||  ||  || 
 |-
-| {{Talent|Leonine Bite|20|nobr=1|type=1}} (Incineration Drive) || Cylinder || 6.5 ||  ||  ||  ||  || 4
+| rowspan="2" | {{Character|Chevreuse|20|nobr=1}} || {{Talent|Ring of Bursting Grenades|20|nobr=1|type=1}} (Activation) || Cylinder || 6 ||  ||  ||  || 4
 |-
-| rowspan="3" | {{Character|Diluc|20|nobr=1}} || {{Talent|Dawn|20|nobr=1|type=1}} (Slashing) || Box ||  ||  || 16 || 4 || 6 ||
+| {{Talent|Ring of Bursting Grenades|20|nobr=1|type=1}} (Activation) || Cylinder || 6 || 60 ||  ||  || 4
 |-
-| {{Talent|Dawn|20|nobr=1|type=1}} (DoT) || Box ||  ||  || 16 || 4 || 8 ||
+| {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Cloud-Parting Star|20|nobr=1|type=1}} || Sphere || 3.5 ||  ||  ||  || 
 |-
-| {{Talent|Dawn|20|nobr=1|type=1}} (Explosion) || Box ||  ||  || 16 || 6 || 10 ||
+| rowspan="2" | {{Character|Citlali|20|nobr=1}} || {{Talent|Edict of Entwined Splendor|20|nobr=1|type=1}} (Activation) || Cylinder || 6.5 ||  ||  ||  || 4
 |-
-| rowspan="3" | {{Character|Diona|20|nobr=1}} || {{Talent|Signature Mix|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  ||  || 0
+| {{Talent|Edict of Entwined Splendor|20|nobr=1|type=1}} (Spiritvessel Skull) || Cylinder || 3.5 ||  ||  ||  || 3
 |-
-| {{Talent|Signature Mix|20|nobr=1|type=1}} (DoT) || Cylinder || 6.5 ||  ||  ||  ||  || 0
+| {{Character|Clorinde|20|nobr=1}} || {{Talent|Last Lightfall|20|nobr=1|type=1}} || Box ||  ||  || 11.2 || 9 || 6
 |-
-| {{Talent|Signature Mix|20|nobr=1|type=1}} (Field) || Cylinder || 7 ||  ||  ||  ||  || Infinite
+| rowspan="2" | {{Character|Collei|20|nobr=1}} || {{Talent|Trump-Card Kitty|20|nobr=1|type=1}} (Activation) || Cylinder || 5.5 ||  ||  ||  || 6
 |-
-| {{Character|Dori|20|nobr=1}} || {{Talent|Alcazarzaray's Exactitude|20|nobr=1|type=1}} || Box ||  ||  || 1 || 1 ||  ||
+| {{Talent|Trump-Card Kitty|20|nobr=1|type=1}} (Leap) || Sphere || 4 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Eula|20|nobr=1}} || {{Talent|Glacial Illumination|20|nobr=1|type=1}} (Activation) || Cylinder || 8 ||  ||  ||  ||  || 3
+| rowspan="2" | {{Character|Dehya|20|nobr=1}} || {{Talent|Leonine Bite|20|nobr=1|type=1}} (Flame-Mane's Fist) || Box ||  ||  || 5 || 7.8 || 4
 |-
-| {{Talent|Glacial Illumination|20|nobr=1|type=1}} (Lightfall Sword) || Sphere || 6.5 ||  ||  ||  ||  ||
+| {{Talent|Leonine Bite|20|nobr=1|type=1}} (Incineration Drive) || Cylinder || 6.5 ||  ||  ||  || 4
 |-
-| {{Character|Faruzan|20|nobr=1}} || {{Talent|The Wind's Secret Ways|20|nobr=1|type=1}} || Sphere || 6.3 ||  ||  ||  ||  ||
+| rowspan="3" | {{Character|Diluc|20|nobr=1}} || {{Talent|Dawn|20|nobr=1|type=1}} (Slashing) || Box ||  ||  || 16 || 6 || 4
 |-
-| {{Character|Fischl|20|nobr=1}} || {{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}} (Falling Thunder) || Sphere || 0.5 ||  ||  ||  ||  ||
+| {{Talent|Dawn|20|nobr=1|type=1}} (DoT) || Box ||  ||  || 16 || 8 || 4
 |-
-| {{Character|Ganyu|20|nobr=1}} || {{Talent|Celestial Shower|20|nobr=1|type=1}} (Shards) || Sphere || 2.5 ||  ||  ||  ||  ||
+| {{Talent|Dawn|20|nobr=1|type=1}} (Explosion) || Box ||  ||  || 16 || 10 || 6
 |-
-| rowspan="2" | {{Character|Gorou|20|nobr=1}} || {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Activation) || Cylinder || 5 ||  ||  ||  ||  || 4
+| rowspan="3" | {{Character|Diona|20|nobr=1}} || {{Talent|Signature Mix|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  || 0
 |-
-| {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Crystal Collapse) || Cylinder || 3.5 ||  ||  ||  ||  || 3
+| {{Talent|Signature Mix|20|nobr=1|type=1}} (DoT) || Cylinder || 6.5 ||  ||  ||  || 0
 |-
-| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Spirit Soother|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 3
+| {{Talent|Signature Mix|20|nobr=1|type=1}} (Field) || Cylinder || 7 ||  ||  ||  || Infinite
 |-
-| rowspan="2" | {{Character|Jean|20|nobr=1}} || {{Talent|Dandelion Breeze|20|nobr=1|type=1}} (Activation) || Cylinder || 6 ||  ||  ||  ||  || 0
+| rowspan="2" | {{Character|Dori|20|nobr=1}} || {{Talent|Alcazarzaray's Exactitude|20|nobr=1|type=1}} (Latching Search Field) || Cylinder || 10 ||  ||  ||  || 10
 |-
-| {{Talent|Dandelion Breeze|20|nobr=1|type=1}} (Entering/Exiting) ||  ||  ||  ||  ||  ||  ||
+| {{Talent|Alcazarzaray's Exactitude|20|nobr=1|type=1}} (Tether) || Box ||  ||  || 1 || 10 || 1
 |-
-| {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Kazuha Slash|20|nobr=1|type=1}} || Cylinder || 9 ||  ||  ||  ||  || 4
+| {{Character|Emilie|20|nobr=1}} || {{Talent|Aromatic Explication|20|nobr=1|type=1}} || Cylinder || 2.5 ||  ||  ||  || 4.5
 |-
-| {{Character|Kaeya|20|nobr=1}} || {{Talent|Glacial Waltz|20|nobr=1|type=1}} || Sphere || 2 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Eula|20|nobr=1}} || {{Talent|Glacial Illumination|20|nobr=1|type=1}} (Activation) || Cylinder || 8 ||  ||  ||  || 3
 |-
-| rowspan="2" | {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}} (Cutting) || Sphere || 3 ||  ||  ||  ||  ||
+| {{Talent|Glacial Illumination|20|nobr=1|type=1}} (Lightfall Sword) || Sphere || 6.5 ||  ||  ||  || 
 |-
-| {{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}} (Bloom) || Sphere || 5 ||  ||  ||  ||  ||
+| {{Character|Faruzan|20|nobr=1}} || {{Talent|The Wind's Secret Ways|20|nobr=1|type=1}} || Sphere || 6.3 ||  ||  ||  || 
 |-
-| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Suiyuu|20|nobr=1|type=1}} (Bloomwater Blade) || Cylinder || 3.5 ||  ||  ||  ||  || 2.5
+| {{Character|Fischl|20|nobr=1}} || {{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}} (Falling Thunder) || Sphere || 0.5 ||  ||  ||  || 
 |-
-| {{Character|Keqing|20|nobr=1}} || {{Talent|Starward Sword|20|nobr=1|type=1}} || Cylinder || 8 ||  ||  ||  ||  || 4
+| {{Character|Freminet|20|nobr=1}} || {{Talent|Shadowhunter's Ambush|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  || 2.5
 |-
-| {{Character|Klee|20|nobr=1}} || {{Talent|Sparks 'n' Splash|20|nobr=1|type=1}} || Sphere || 1.5 ||  ||  ||  ||  ||
+| {{Character|Furina|20|nobr=1}} || {{Talent|Let the People Rejoice|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Kujou Sara|20|nobr=1}} || {{Talent|Subjugation: Koukou Sendou|20|nobr=1|type=1}} (Titanbreaker) || Cylinder || 6 ||  ||  ||  ||  || 3
+| {{Character|Gaming|20|nobr=1}} || {{Talent|Suanni's Gilded Dance|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  || 4
 |-
-| {{Talent|Subjugation: Koukou Sendou|20|nobr=1|type=1}} (Stormcluster) || Cylinder || 3 ||  ||  ||  ||  || 3
+| {{Character|Ganyu|20|nobr=1}} || {{Talent|Celestial Shower|20|nobr=1|type=1}} (Shards) || Sphere || 2.5 ||  ||  ||  || 
 |-
-| {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Gyoei Narukami Kariyama Rite|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  ||  || 4.5
+| rowspan="2" | {{Character|Gorou|20|nobr=1}} || {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Activation) || Cylinder || 5 ||  ||  ||  || 4
 |-
-| {{Character|Layla|20|nobr=1}} || {{Talent|Dream of the Star-Stream Shaker|20|nobr=1|type=1}} || Sphere || 1.5 ||  ||  ||  ||  ||
+| {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Crystal Collapse) || Cylinder || 3.5 ||  ||  ||  || 3
 |-
-| rowspan="2" | {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Rose|20|nobr=1|type=1}} (Activation) || Cylinder || 7 ||  ||  ||  ||  || 0
+| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Spirit Soother|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 3
 |-
-| {{Talent|Lightning Rose|20|nobr=1|type=1}} (DoT) || Sphere || 1 ||  ||  ||  ||  ||
+| {{Character|Jean|20|nobr=1}} || {{Talent|Dandelion Breeze|20|nobr=1|type=1}} (Activation) || Cylinder || 6 ||  ||  ||  || 0
 |-
-| {{Character|Mona|20|nobr=1}} || {{Talent|Stellaris Phantasm|20|nobr=1|type=1}} (Activation) || Sphere || 10 ||  ||  ||  ||  ||
+| {{Character|Kachina|20|nobr=1}} || {{Talent|Time to Get Serious!|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 3
 |-
-| {{Character|Ningguang|20|nobr=1}} || {{Talent|Starshatter|20|nobr=1|type=1}} || Sphere || 0.5 ||  ||  ||  ||  ||
+| {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Kazuha Slash|20|nobr=1|type=1}} || Cylinder || 9 ||  ||  ||  || 4
 |-
-| rowspan="2" | {{Character|Noelle|20|nobr=1}} || {{Talent|Sweeping Time|20|nobr=1|type=1}} (Hit 1) || Cylinder || 6.5 ||  ||  ||  ||  || 1.5
+| {{Character|Kaeya|20|nobr=1}} || {{Talent|Glacial Waltz|20|nobr=1|type=1}} || Sphere || 2 ||  ||  ||  || 
 |-
-| {{Talent|Sweeping Time|20|nobr=1|type=1}} (Hit 2) || Cylinder || 4 ||  ||  ||  ||  || 1.5
+| rowspan="2" | {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}} (Cutting) || Sphere || 3 ||  ||  ||  || 
 |-
-| {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Preserver of Fortune|20|nobr=1|type=1}} || Cylinder || 7 ||  ||  ||  ||  || 0
+| {{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}} (Bloom) || Sphere || 5 ||  ||  ||  || 
 |-
-| {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Activation) || Box ||  ||  || 13 || 4.5 || 8 ||
+| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Suiyuu|20|nobr=1|type=1}} (Bloomwater Blade) || Cylinder || 3.5 ||  ||  ||  || 2.5
 |-
-| {{Character|Razor|20|nobr=1}} || {{Talent|Lightning Fang|20|nobr=1|type=1}} (Activation) || Sphere || 5 ||  ||  ||  ||  ||
+| {{Character|Kaveh|20|nobr=1}} || {{Talent|Painted Dome|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  || 5
 |-
-| rowspan="3" | {{Character|Rosaria|20|nobr=1}} || {{Talent|Rites of Termination|20|nobr=1|type=1}} (Activation 1) || Cylinder || 3.5 ||  ||  ||  ||  || 2
+| {{Character|Keqing|20|nobr=1}} || {{Talent|Starward Sword|20|nobr=1|type=1}} || Cylinder || 8 ||  ||  ||  || 4
 |-
-| {{Talent|Rites of Termination|20|nobr=1|type=1}} (Activation 2) || Cylinder || 6.5 ||  ||  ||  ||  || 3
+| {{Character|Kinich|20|nobr=1}} || {{Talent|Hail to the Almighty Dragonlord|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  || 8.5
 |-
-| {{Talent|Rites of Termination|20|nobr=1|type=1}} (DoT) || Cylinder || 6 ||  ||  ||  ||  || 4
+| rowspan="2" | {{Character|Kirara|20|nobr=1}} || {{Talent|Secret Art: Surprise Dispatch|20|nobr=1|type=1}} (Activation) || Cylinder || 6.5 ||  ||  ||  || 3.5
 |-
-| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|Nereid's Ascension|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  ||  ||
+| {{Talent|Secret Art: Surprise Dispatch|20|nobr=1|type=1}} (Cat Grass Cardamom) || Sphere || 2 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}} (Activation) || Cylinder || 4.5 ||  ||  ||  ||  || 3
+| {{Character|Klee|20|nobr=1}} || {{Talent|Sparks 'n' Splash|20|nobr=1|type=1}} || Sphere || 1.5 ||  ||  ||  || 
 |-
-| {{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}} (DoT) || Cylinder || 3.5 ||  ||  ||  ||  || 2.5
+| rowspan="2" | {{Character|Kujou Sara|20|nobr=1}} || {{Talent|Subjugation: Koukou Sendou|20|nobr=1|type=1}} (Titanbreaker) || Cylinder || 6 ||  ||  ||  || 3
 |-
-| rowspan="2" | {{Character|Shenhe|20|nobr=1}} || {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (Activation) || Cylinder || 8 || 120 ||  ||  ||  || 5.4
+| {{Talent|Subjugation: Koukou Sendou|20|nobr=1|type=1}} (Stormcluster) || Cylinder || 3 ||  ||  ||  || 3
 |-
-| {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (DoT) || Cylinder || 7 ||  ||  ||  ||  || 6
+| {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Gyoei Narukami Kariyama Rite|20|nobr=1|type=1}} || Cylinder || 4 ||  ||  ||  || 4.5
 |-
-| rowspan="2" | {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Windmuster Kick|20|nobr=1|type=1}} (Fudou Style Vacuum Slugger) || Sphere || 6 ||  ||  ||  ||  ||
+| {{Character|Lan Yan|20|nobr=1}} || {{Talent|Lustrous Moonrise|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 3
 |-
-| {{Talent|Windmuster Kick|20|nobr=1|type=1}} (Windmuster Iris) || Sphere || 2.5 ||  ||  ||  ||  ||
+| {{Character|Layla|20|nobr=1}} || {{Talent|Dream of the Star-Stream Shaker|20|nobr=1|type=1}} || Sphere || 1.5 ||  ||  ||  || 
 |-
-| {{Character|Sucrose|20|nobr=1}} || {{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  ||  || 8
+| rowspan="2" | {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Rose|20|nobr=1|type=1}} (Activation) || Cylinder || 7 ||  ||  ||  || 0
 |-
-| rowspan="3" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Ranged) || Cylinder || 6 ||  ||  ||  ||  || 4
+| {{Talent|Lightning Rose|20|nobr=1|type=1}} (DoT) || Sphere || 1 ||  ||  ||  || 
 |-
-| {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Melee) || Cylinder || 8 ||  ||  ||  ||  || 5
+| rowspan="3" | {{Character|Lynette|20|nobr=1}} || {{Talent|Magic Trick: Astonishing Shift|20|nobr=1|type=1}} (Activation) || Cylinder || 4.5 ||  ||  ||  || 2.5
 |-
-| {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Riptide Blast) || Sphere || 5 ||  ||  ||  ||  ||
+| {{Talent|Magic Trick: Astonishing Shift|20|nobr=1|type=1}} (Bogglecat Box) || Cylinder || 4.6 ||  ||  ||  || 2
 |-
-| rowspan="2" | {{Character|Thoma|20|nobr=1}} || {{Talent|Crimson Ooyoroi|20|nobr=1|type=1}} (Activation) || Cylinder || 4 ||  ||  ||  ||  || 0
+| {{Talent|Magic Trick: Astonishing Shift|20|nobr=1|type=1}} (Vivid Shot) || Sphere || 1 ||  ||  ||  || 
 |-
-| {{Talent|Crimson Ooyoroi|20|nobr=1|type=1}} (Fiery Collapse) || Box ||  ||  || 4.5 || 2 || 8 ||
+| {{Character|Lyney|20|nobr=1}} || {{Talent|Wondrous Trick: Miracle Parade|20|nobr=1|type=1}} (Explosive Firework) || Sphere || 6 ||  ||  ||  || 
 |-
-| {{Character|Tighnari|20|nobr=1}} || {{Talent|Fashioner's Tanglevine Shaft|20|nobr=1|type=1}} || Sphere || 1 ||  ||  ||  ||  ||
+| {{Character|Mavuika|20|nobr=1}} || {{Talent|Hour of Burning Skies|20|nobr=1|type=1}} || Cylinder || 7 ||  ||  ||  || 5
 |-
-| rowspan="2" | {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Gust Surge|20|nobr=1|type=1}} (DoT) || Box ||  ||  || 3 || 7 || 3 ||
+| {{Character|Mona|20|nobr=1}} || {{Talent|Stellaris Phantasm|20|nobr=1|type=1}} (Activation) || Sphere || 10 ||  ||  ||  || 
 |-
-| {{Talent|Gust Surge|20|nobr=1|type=1}} (DoT Absorbed Element) || Box ||  ||  || 2.5 || 7 || 2.5 ||
+| {{Character|Mualani|20|nobr=1}} || {{Talent|Boomsharka-laka|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  || 
 |-
-| {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Wake of Earth|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 1.5
+| rowspan="2" | {{Character|Navia|20|nobr=1}} || {{Talent|As the Sunlit Sky's Singing Salute|20|nobr=1|type=1}} (Activation) || Box ||  ||  || 5 || 12 || 5
 |-
-| rowspan="3" | {{Character|Traveler (Dendro)|20|nobr=1}} || {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Normal/Electro) || Cylinder || 2 ||  ||  ||  ||  || 3.8
+| {{Talent|As the Sunlit Sky's Singing Salute|20|nobr=1|type=1}} (Cannon Fire Support) || Cylinder || 3 ||  ||  ||  || 3.8
 |-
-| {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Hydro) ||  Cylinder || 4 ||  ||  ||  ||  || 3.8
+| rowspan="2" | {{Character|Neuvillette|20|nobr=1}} || {{Talent|O Tides, I Have Returned|20|nobr=1|type=1}} (Activation) || Cylinder || 8 ||  ||  ||  || 5
 |-
-| {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Pyro) ||  Cylinder || 6.5 ||  ||  ||  ||  || 3
+| {{Talent|O Tides, I Have Returned|20|nobr=1|type=1}} (Waterfall) || Cylinder || 5 ||  ||  ||  || 4
 |-
-| rowspan="2" | {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Bellowing Thunder|20|nobr=1|type=1}} (Activation) || Sphere || 5 ||  ||  ||  ||  ||
+| {{Character|Ningguang|20|nobr=1}} || {{Talent|Starshatter|20|nobr=1|type=1}} || Sphere || 0.5 ||  ||  ||  || 
 |-
-| {{Talent|Bellowing Thunder|20|nobr=1|type=1}} (Falling Thunder) || Sphere || 2 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Noelle|20|nobr=1}} || {{Talent|Sweeping Time|20|nobr=1|type=1}} (Hit 1) || Cylinder || 6.5 ||  ||  ||  || 1.5
 |-
-| rowspan="2" | {{Character|Venti|20|nobr=1}} || {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} (DoT) || Sphere || 4 ||  ||  ||  ||  ||
+| {{Talent|Sweeping Time|20|nobr=1|type=1}} (Hit 2) || Cylinder || 4 ||  ||  ||  || 1.5
 |-
-| {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} (DoT Absorbed Element) || Sphere || 6 ||  ||  ||  ||  ||
+| {{Character|Ororon|20|nobr=1}} || {{Talent|Dark Voices Echo|20|nobr=1|type=1}} (Activation) || Cylinder || 6.5 ||  ||  ||  || 4.5
 |-
-| {{Character|Wanderer|20|nobr=1}} || {{Talent|Kyougen: Five Ceremonial Plays|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  ||  || 10
+| {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Preserver of Fortune|20|nobr=1|type=1}} || Cylinder || 7 ||  ||  ||  || 0
 |-
-| rowspan="2" | {{Character|Xiangling|20|nobr=1}} || {{Talent|Pyronado|20|nobr=1|type=1}} (Activation 1, 2) || Cylinder || 2.5 ||  ||  ||  ||  || 0
+| {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Activation) || Box ||  ||  || 13 || 8 || 4.5
 |-
-| {{Talent|Pyronado|20|nobr=1|type=1}} (Activation 3) || Cylinder || 3 ||  ||  ||  ||  || 0
+| {{Character|Razor|20|nobr=1}} || {{Talent|Lightning Fang|20|nobr=1|type=1}} (Activation) || Sphere || 5 ||  ||  ||  || 
 |-
-| {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}} || Sphere || 0.5 ||  ||  ||  ||  ||
+| rowspan="3" | {{Character|Rosaria|20|nobr=1}} || {{Talent|Rites of Termination|20|nobr=1|type=1}} (Activation 1) || Cylinder || 3.5 ||  ||  ||  || 2
 |-
-| rowspan="2" | {{Character|Xinyan|20|nobr=1}} || {{Talent|Riff Revolution|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  ||  || 1.6
+| {{Talent|Rites of Termination|20|nobr=1|type=1}} (Activation 2) || Cylinder || 6.5 ||  ||  ||  || 3
 |-
-| {{Talent|Riff Revolution|20|nobr=1|type=1}} (DoT) || Cylinder || 4 ||  ||  ||  ||  || 1.6
+| {{Talent|Rites of Termination|20|nobr=1|type=1}} (DoT) || Cylinder || 6 ||  ||  ||  || 4
 |-
-| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1|type=1}} || Cylinder || 7 ||  ||  ||  ||  || 5
+| {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|Nereid's Ascension|20|nobr=1|type=1}} || Sphere || 5 ||  ||  ||  || 
 |-
-| {{Character|Yanfei|20|nobr=1}} || {{Talent|Done Deal|20|nobr=1|type=1}} || Cylinder || 6.5 ||  ||  ||  ||  || 1.5
+| rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}} (Activation) || Cylinder || 4.5 ||  ||  ||  || 3
 |-
-| rowspan="2" | {{Character|Yaoyao|20|nobr=1}} || {{Talent|Moonjade Descent|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  ||  || 3
+| {{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}} (DoT) || Cylinder || 3.5 ||  ||  ||  || 2.5
 |-
-| {{Talent|Moonjade Descent|20|nobr=1|type=1}} (Adeptal Legacy White Jade Radish) || Sphere || 2 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Shenhe|20|nobr=1}} || {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (Activation) || Cylinder || 8 || 120 ||  ||  || 5.4
 |-
-| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Depth-Clarion Dice|20|nobr=1|type=1}} (Activation) || Cylinder || 6 ||  ||  ||  ||  || 5
+| {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (DoT) || Cylinder || 7 ||  ||  ||  || 6
 |-
-| {{Talent|Depth-Clarion Dice|20|nobr=1|type=1}} (Coordinated Attacks) || Sphere || 0.5 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Windmuster Kick|20|nobr=1|type=1}} (Fudou Style Vacuum Slugger) || Sphere || 6 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Yoimiya|20|nobr=1}} || {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} || Sphere || 6 ||  ||  ||  ||  ||
+| {{Talent|Windmuster Kick|20|nobr=1|type=1}} (Windmuster Iris) || Sphere || 2.5 ||  ||  ||  || 
 |-
-| {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} (Aurous Blaze) || Sphere || 3 ||  ||  ||  ||  ||
+| {{Character|Sucrose|20|nobr=1}} || {{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  || 8
 |-
-| {{Character|Yun Jin|20|nobr=1}} || {{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  ||  || 4
+| rowspan="3" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Ranged) || Cylinder || 6 ||  ||  ||  || 4
 |-
-| {{Character|Zhongli|20|nobr=1}} || {{Talent|Planet Befall|20|nobr=1|type=1}} || Sphere || 7.5 ||  ||  ||  ||  ||
+| {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Melee) || Cylinder || 8 ||  ||  ||  || 5
+|-
+| {{Talent|Havoc: Obliteration|20|nobr=1|type=1}} (Riptide Blast) || Sphere || 5 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Thoma|20|nobr=1}} || {{Talent|Crimson Ooyoroi|20|nobr=1|type=1}} (Activation) || Cylinder || 4 ||  ||  ||  || 0
+|-
+| {{Talent|Crimson Ooyoroi|20|nobr=1|type=1}} (Fiery Collapse) || Box ||  ||  || 4.5 || 8 || 2
+|-
+| {{Character|Tighnari|20|nobr=1}} || {{Talent|Fashioner's Tanglevine Shaft|20|nobr=1|type=1}} || Sphere || 1 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Gust Surge|20|nobr=1|type=1}} (DoT) || Box ||  ||  || 3 || 3 || 7
+|-
+| {{Talent|Gust Surge|20|nobr=1|type=1}} (DoT Absorbed Element) || Box ||  ||  || 2.5 || 2.5 || 7
+|-
+| {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Wake of Earth|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 1.5
+|-
+| rowspan="3" | {{Character|Traveler (Dendro)|20|nobr=1}} || {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Normal/Electro) || Cylinder || 2 ||  ||  ||  || 3.8
+|-
+| {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Hydro) ||  Cylinder || 4 ||  ||  ||  || 3.8
+|-
+| {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Pyro) ||  Cylinder || 6.5 ||  ||  ||  || 3
+|-
+| rowspan="2" | {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Bellowing Thunder|20|nobr=1|type=1}} (Activation) || Sphere || 5 ||  ||  ||  || 
+|-
+| {{Talent|Bellowing Thunder|20|nobr=1|type=1}} (Falling Thunder) || Sphere || 2 ||  ||  ||  || 
+|-
+| {{Character|Traveler (Pyro)|20|nobr=1}} || {{Talent|Plains Scorcher|20|nobr=1|type=1}} || Cylinder || 4.5 ||  ||  ||  || 2
+|-
+| rowspan="2" | {{Character|Venti|20|nobr=1}} || {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} (DoT) || Sphere || 4 ||  ||  ||  || 
+|-
+| {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} (DoT Absorbed Element) || Sphere || 6 ||  ||  ||  || 
+|-
+| {{Character|Wanderer|20|nobr=1}} || {{Talent|Kyougen: Five Ceremonial Plays|20|nobr=1|type=1}} || Cylinder || 5 ||  ||  ||  || 10
+|-
+| rowspan="2" | {{Character|Wriothesley|20|nobr=1}} || {{Talent|Darkgold Wolfbite|20|nobr=1|type=1}} (Skill DMG) || Box ||  ||  || 8 || 16 || 5
+|-
+| {{Talent|Darkgold Wolfbite|20|nobr=1|type=1}} (Surging Blade) || Box ||  ||  || 10 || 16 || 5
+|-
+| rowspan="2" | {{Character|Xiangling|20|nobr=1}} || {{Talent|Pyronado|20|nobr=1|type=1}} (Activation 1, 2) || Cylinder || 2.5 ||  ||  ||  || 0
+|-
+| {{Talent|Pyronado|20|nobr=1|type=1}} (Activation 3) || Cylinder || 3 ||  ||  ||  || 0
+|-
+| rowspan="2" | {{Character|Xianyun|20|nobr=1}} || {{Talent|Stars Gather at Dusk|20|nobr=1|type=1}} (Activation) || Cylinder || 7 ||  ||  ||  || 4
+|-
+| {{Talent|Stars Gather at Dusk|20|nobr=1|type=1}} (Starwicker) || Cylinder || 4.8 ||  ||  ||  || 3.2
+|-
+| {{Character|Xilonen|20|nobr=1}} || {{Talent|Ocelotlicue Point!|20|nobr=1|type=1}} || Cylinder || 7 ||  ||  ||  || 2
+|-
+| {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}} || Sphere || 0.5 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Xinyan|20|nobr=1}} || {{Talent|Riff Revolution|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  || 1.6
+|-
+| {{Talent|Riff Revolution|20|nobr=1|type=1}} (DoT) || Cylinder || 4 ||  ||  ||  || 1.6
+|-
+| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1|type=1}} || Cylinder || 7 ||  ||  ||  || 5
+|-
+| {{Character|Yanfei|20|nobr=1}} || {{Talent|Done Deal|20|nobr=1|type=1}} || Cylinder || 6.5 ||  ||  ||  || 1.5
+|-
+| rowspan="2" | {{Character|Yaoyao|20|nobr=1}} || {{Talent|Moonjade Descent|20|nobr=1|type=1}} (Activation) || Cylinder || 3 ||  ||  ||  || 3
+|-
+| {{Talent|Moonjade Descent|20|nobr=1|type=1}} (Adeptal Legacy White Jade Radish) || Sphere || 2 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Depth-Clarion Dice|20|nobr=1|type=1}} (Activation) || Cylinder || 6 ||  ||  ||  || 5
+|-
+| {{Talent|Depth-Clarion Dice|20|nobr=1|type=1}} (Coordinated Attacks) || Sphere || 0.5 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Yoimiya|20|nobr=1}} || {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} || Sphere || 6 ||  ||  ||  || 
+|-
+| {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} (Aurous Blaze) || Sphere || 3 ||  ||  ||  || 
+|-
+| rowspan="2" | {{Character|Yumemizuki Mizuki|20|nobr=1}} || {{Talent|Anraku Secret Spring Therapy|20|nobr=1|type=1}} (Activation) || Sphere || 8 ||  ||  ||  || 
+|-
+| {{Talent|Anraku Secret Spring Therapy|20|nobr=1|type=1}} (Munen Shockwave) || Sphere || 4 ||  ||  ||  || 
+|-
+| {{Character|Yun Jin|20|nobr=1}} || {{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}} || Cylinder || 6 ||  ||  ||  || 4
+|-
+| {{Character|Zhongli|20|nobr=1}} || {{Talent|Planet Befall|20|nobr=1|type=1}} || Sphere || 7.5 ||  ||  ||  || 
 |}
 
 ===Other Notable Abilities===
 {| class="sortable fandom-table"
-! Character !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Y !! Box Z !! Height
+! Character !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Z !! Height
 |-
-| {{Character|Barbara|20|nobr=1}} || {{Talent|Whisper of Water|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3 ||  ||  ||  ||  ||
+| {{Character|Barbara|20|nobr=1}} || {{Talent|Whisper of Water|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3 ||  ||  ||  || 
 |-
-| {{Character|Ganyu|20|nobr=1}} || {{Talent|Liutian Archery|20|nobr=1|type=1}} (Frostflake Arrow Bloom) || Cylinder || 5 ||  ||  ||  ||  || 7.5
+| {{Character|Emilie|20|nobr=1}} || {{Talent|Lingering Fragrance|20|nobr=1|type=1}} || Cylinder || 3 ||  ||  ||  || 4.5
 |-
-| {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Touch|20|nobr=1|type=1}} (Charged Attack) || Cylinder || 10 || 40 ||  ||  ||  || 10
+| {{Character|Ganyu|20|nobr=1}} || {{Talent|Liutian Archery|20|nobr=1|type=1}} (Frostflake Arrow Bloom) || Cylinder || 5 ||  ||  ||  || 7.5
 |-
-| {{Character|Klee|20|nobr=1}} || {{Talent|Kaboom!|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3 ||  ||  ||  ||  ||
+| {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Touch|20|nobr=1|type=1}} (Charged Attack) || Cylinder || 10 || 40 ||  ||  || 10
 |-
-| {{Character|Mona|20|nobr=1}} || {{Talent|Ripple of Fate|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3 ||  ||  ||  ||  ||
+| {{Character|Klee|20|nobr=1}} || {{Talent|Kaboom!|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3 ||  ||  ||  || 
 |-
-| {{Character|Nahida|20|nobr=1}} || {{Talent|Akara|20|nobr=1|type=1}} (Charged Attack) || Box ||  ||  || 6 || 6 || 6 ||
+| {{Character|Mona|20|nobr=1}} || {{Talent|Ripple of Fate|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Ningguang|20|nobr=1}} || {{Talent|Sparkling Scatter|20|nobr=1|type=1}} (Charged Attack) || Sphere || 1.5 ||  ||  ||  ||  ||
+| {{Character|Nahida|20|nobr=1}} || {{Talent|Akara|20|nobr=1|type=1}} (Charged Attack) || Box ||  ||  || 6 || 6 || 6
 |-
-| {{Talent|Sparkling Scatter|20|nobr=1|type=1}} (Star Jade) || Sphere || 0.5 ||  ||  ||  ||  ||
+| {{Character|Neuvillette|20|nobr=1}} || {{Talent|As Water Seeks Equilibrium|20|nobr=1|type=1}} (Charged Attack: Equitable Judgment) || Box ||  ||  || 3.5 || 15 || 3
 |-
-| rowspan="2" | {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|The Shape of Water|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3.5 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Ningguang|20|nobr=1}} || {{Talent|Sparkling Scatter|20|nobr=1|type=1}} (Charged Attack) || Sphere || 1.5 ||  ||  ||  || 
 |-
-| {{Talent|The Shape of Water|20|nobr=1|type=1}} (Charged Attack, During Burst) || Sphere || 4 ||  ||  ||  ||  ||
+| {{Talent|Sparkling Scatter|20|nobr=1|type=1}} (Star Jade) || Sphere || 0.5 ||  ||  ||  || 
 |-
-| {{Character|Sucrose|20|nobr=1}} || {{Talent|Wind Spirit Creation|20|nobr=1|type=1}} (Charged Attack) || Box ||  ||  || 3.2 || 3 || 7.5 ||
+| rowspan="2" | {{Character|Sangonomiya Kokomi|20|nobr=1}} || {{Talent|The Shape of Water|20|nobr=1|type=1}} (Charged Attack) || Sphere || 3.5 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Cutting Torrent|20|nobr=1|type=1}} (Riptide Flash) || Sphere || 3 ||  ||  ||  ||  ||
+| {{Talent|The Shape of Water|20|nobr=1|type=1}} (Charged Attack, During Burst) || Sphere || 4 ||  ||  ||  || 
 |-
-| {{Talent|Cutting Torrent|20|nobr=1|type=1}} (Riptide Burst) || Sphere || 5 ||  ||  ||  ||  ||
+| {{Character|Sucrose|20|nobr=1}} || {{Talent|Wind Spirit Creation|20|nobr=1|type=1}} (Charged Attack) || Box ||  ||  || 3.2 || 7.5 || 3
 |-
-| {{Character|Tighnari|20|nobr=1}} || {{Talent|Khanda Barrier-Buster|20|nobr=1|type=1}} (Clusterbloom Arrows) || Sphere || 1 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Cutting Torrent|20|nobr=1|type=1}} (Riptide Flash) || Sphere || 3 ||  ||  ||  || 
 |-
-| rowspan="2" | {{Character|Wanderer|20|nobr=1}} || {{Talent|Yuuban Meigen|20|nobr=1|type=1}} (Charged Attack) || Cylinder || 2.5 ||  ||  ||  ||  || 7
+| {{Talent|Cutting Torrent|20|nobr=1|type=1}} (Riptide Burst) || Sphere || 5 ||  ||  ||  || 
 |-
-| {{Talent|Yuuban Meigen|20|nobr=1|type=1}} (Charged Attack, During Skill) || Cylinder || 3.5 ||  ||  ||  ||  || 8
+| {{Character|Tighnari|20|nobr=1}} || {{Talent|Khanda Barrier-Buster|20|nobr=1|type=1}} (Clusterbloom Arrows) || Sphere || 1 ||  ||  ||  || 
 |-
-| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Spiritfox Sin-Eater|20|nobr=1|type=1}} (Charged Attack) || Box ||  ||  || 2 || 3.2 || 2 ||
+| rowspan="2" | {{Character|Wanderer|20|nobr=1}} || {{Talent|Yuuban Meigen|20|nobr=1|type=1}} (Charged Attack) || Cylinder || 2.5 ||  ||  ||  || 7
 |-
-| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Stealthy Bowshot|20|nobr=1|type=1}} (Breakthrough Barb) || Sphere || 6 ||  ||  ||  ||  ||
+| {{Talent|Yuuban Meigen|20|nobr=1|type=1}} (Charged Attack, During Skill) || Cylinder || 3.5 ||  ||  ||  || 8
 |-
-| {{Constellation|Winner Takes All|20|nobr=1|type=1}} (Special Breakthrough Barb) || Sphere || 4 ||  ||  ||  ||  ||
+| {{Character|Yae Miko|20|nobr=1}} || {{Talent|Spiritfox Sin-Eater|20|nobr=1|type=1}} (Charged Attack) || Box ||  ||  || 2 || 2 || 3.2
 |-
-| {{Character|Yoimiya|20|nobr=1}} || {{Talent|Firework Flare-Up|20|nobr=1|type=1}} (Kindling Arrow) || Sphere || 0.6 ||  ||  ||  ||  ||
+| rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Stealthy Bowshot|20|nobr=1|type=1}} (Breakthrough Barb) || Sphere || 6 ||  ||  ||  || 
+|-
+| {{Constellation|Winner Takes All|20|nobr=1|type=1}} (Special Breakthrough Barb) || Sphere || 4 ||  ||  ||  || 
+|-
+| {{Character|Yoimiya|20|nobr=1}} || {{Talent|Firework Flare-Up|20|nobr=1|type=1}} (Kindling Arrow) || Sphere || 0.6 ||  ||  ||  || 
 |}
 
 ==Enemy AoE==
 Various [[Enemies]] also have AoE abilities. Due to the large amount of enemies, the table below will only list certain notable examples.
 
 {| class="sortable fandom-table"
-! Enemy !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Y !! Box Z !! Height
+! Enemy !! Ability !! Shape !! Radius !! Fan Angle !! Box X !! Box Z !! Height
 |-
-| {{Enemy|Hydro Samachurl|20}} || Soothing Rain || Cylinder || 5 ||  ||  ||  ||  || Infinite
+| {{Enemy|Hydro Samachurl|20}} || Soothing Rain || Cylinder || 5 ||  ||  ||  || Infinite
 |-
-| {{Enemy|Hydro Mimic Finch|20}}<br />{{Enemy|Hydro Mimic Frog|20}} || Water Bomb || Cylinder || 30 ||  ||  ||  ||  || 3
+| {{Enemy|Hydro Mimic Finch|20}}<br>{{Enemy|Hydro Mimic Frog|20}} || Water Bomb || Cylinder || 30 ||  ||  ||  || 3
 |-
-| {{Enemy|Treasure Hoarder Potioneers|20}} || Molotov DoT || Sphere || 1.5 ||  ||  ||  ||  ||
+| {{Enemy|Treasure Hoarder Potioneer|20}} || Molotov DoT || Sphere || 1.5 ||  ||  ||  || 
 |-
-| {{Enemy|Slimes|20}} || Leap || Cylinder || 2 ||  ||  ||  ||  || 1.5
+| {{Enemy|Slime|20}} || Leap || Cylinder || 2 ||  ||  ||  || 1.5
 |-
-| {{Enemy|Maguu Kenki|20}} || Exploding Mask || Cylinder || 5 ||  ||  ||  ||  || 3
+| {{Enemy|Maguu Kenki|20}} || Exploding Mask || Cylinder || 5 ||  ||  ||  || 3
 |-
-| {{Enemy|Perpetual Mechanical Array|20}} || Rocket Blast || Cylinder || 3.5 ||  ||  ||  ||  || 0
+| {{Enemy|Perpetual Mechanical Array|20}} || Rocket Blast || Cylinder || 3.5 ||  ||  ||  || 0
 |-
-| {{Enemy|Primo Geovishap|20}} || Primordial Shower || Cylinder || 20 ||  ||  ||  ||  || 3
+| {{Enemy|Primo Geovishap|20}} || Primordial Shower || Cylinder || 20 ||  ||  ||  || 3
 |-
-| {{Enemy|La Signora|20}} || Hailstorm || Box ||  ||  || 5 || 4 || 15 ||
+| {{Enemy|La Signora|20}} || Hailstorm || Box ||  ||  || 5 || 15 || 4
 |}
 
 ==Weapon AoE==
@@ -598,7 +815,7 @@ Various [[Enemies]] also have AoE abilities. Due to the large amount of enemies,
 |-
 | {{Item|The Viridescent Hunt|20|type=Weapon}} || Cylinder || 3 || 0
 |-
-| {{Item|Skyward Harp|20|type=Weapon}} || Direct Damage ||  ||
+| {{Item|Skyward Harp|20|type=Weapon}} || Cylinder || 3 || 0
 |-
 | {{Item|Luxurious Sea-Lord|20|type=Weapon}} || Cylinder || 3 || 0
 |-
@@ -654,7 +871,6 @@ Some weapons have AoE passive effects.
 |ja_rm   = Eikyou Han'i
 |ja_tl   = Effect Range
 |ko      = {{tt|영향|影響}} {{tt|범위|範圍}}
-|ko_rm   = Yeonghyang Beomwi
 |ko_tl   = Effect Range
 |es      = {{tt|AdE|Área de Efecto}}
 |es_tl   = {{tt|AoE|Area of Effect}}
@@ -688,3 +904,4 @@ Some weapons have AoE passive effects.
 [[Category:AoE| ]]
 
 [[ja:効果範囲]]
+[[vi:Phạm Vi]]

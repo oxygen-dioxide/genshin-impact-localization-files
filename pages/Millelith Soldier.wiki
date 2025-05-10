@@ -16,38 +16,41 @@
 |atk_ratio = 1.6
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 
 |name_1 = Stab
-|desc_1 = Performs a quick forward stab with their [[White Tassel]], dealing '''100% ATK''' as {{Color|Physical DMG}}. This attack may be performed 3 times in really quick succession if under the command of a [[Millelith Sergeant]].
-|caption_1 = Normal
-|file_1_2 = Millelith Soldier Stab 2
-|caption_1_2 = Triple
+|desc_1 = Performs a quick forward stab with their [[White Tassel]], dealing '''100% ATK''' as {{Color|Physical DMG}}.
+* '''3-Stab Combo:''' Performs 3 quick stabs with their White Tassel, dealing '''100% ATK''' as {{Color|Physical DMG}} with each stab. This attack is only used when under the command of a [[Millelith Sergeant]].
+|caption_1 = Normal<!--
+|file_1_2 = Millelith Soldier 3-Stab Combo
+|caption_1_2 = 3-Stab Combo-->
 
 |name_2 = Swing
 |desc_2 = Performs an sideway swing with their White Tassel, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 }}
 
-==Voicelines==
-{|class = wikitable
-!colspan="2"|Millelith Soldier
-|-
-!width="20%" |Spotting the Traveler
-|
-|-
-! width="20%"|Attacking
-|Huwah!
-|-
-!width="20%" rowspan="2"|Taking Hit
-|Argh!
-|-
-|Nyugh!
-|-
-!width="20%"|Defeated
-|Tactical... retreat...!
-|}
+==Voice-Overs==
+{{VO/Enemy
+|enemy                   = Millelith Soldier
+|vo_01_00_title          = Stab
+|vo_01_01_tx_en          = {{A|VO Millelith Soldier - Stab 01.ogg}} {{A|VO Millelith Soldier - Stab 02.ogg}} {{A|VO Millelith Soldier - Stab 03.ogg}} {{A|VO Millelith Soldier - Stab 04.ogg}} {{A|VO Millelith Soldier - Stab 05.ogg}}
+
+|vo_02_00_title          = Swing
+|vo_02_01_tx_en          = {{A|VO Millelith Soldier - Swing 01.ogg}} {{A|VO Millelith Soldier - Swing 02.ogg}} {{A|VO Millelith Soldier - Swing 03.ogg}} {{A|VO Millelith Soldier - Swing 04.ogg}} {{A|VO Millelith Soldier - Swing 05.ogg}}
+
+|vo_03_00_title          = Staggered (Heavy)
+|vo_03_01_tx_en          = {{A|VO Millelith Soldier - Staggered Heavy 01.ogg}} {{A|VO Millelith Soldier - Staggered Heavy 02.ogg}} {{A|VO Millelith Soldier - Staggered Heavy 03.ogg}} {{A|VO Millelith Soldier - Staggered Heavy 04.ogg}} {{A|VO Millelith Soldier - Staggered Heavy 05.ogg}}
+
+|vo_04_00_title          = Staggered (Light)
+|vo_04_01_tx_en          = {{A|VO Millelith Soldier - Staggered Light 01.ogg}} {{A|VO Millelith Soldier - Staggered Light 02.ogg}} {{A|VO Millelith Soldier - Staggered Light 03.ogg}} {{A|VO Millelith Soldier - Staggered Light 04.ogg}} {{A|VO Millelith Soldier - Staggered Light 05.ogg}}
+
+|vo_05_00_title          = Defeated
+|vo_05_01_file           = VO {lang}{name} - Tactical Retreat.ogg
+|vo_05_01_tx_en          = Tactical... retreat...!
+|vo_05_02_tx_en          = {{A|VO Millelith Soldier - Defeated 01.ogg}}
+}}
 
 ==Other Languages==
 {{Other Languages
@@ -56,22 +59,21 @@
 |zhs_rm  = Qiānyánjūn Shìbīng
 |zht     = 千岩軍士兵
 |zht_rm  = Qiānyánjūn Shìbīng
-|zh_tl   = Millelith Soldier
+|zh_tl   = {{Lex|Millelith|zh}} Soldier
 |ja      = 千岩軍兵士
 |ja_rm   = Sengangun Heishi
-|ja_tl   = Millelith Soldier
+|ja_tl   = {{Lex|Millelith|ja}} Soldier
 |ko      = 천암군 병사
-|ko_rm   = Cheon'amgun Byeongsa
-|ko_tl   = Millelith Soldier
+|ko_tl   = {{Lex|Millelith|ko}} Soldier
 |es      = Soldado de la Geoarmada
-|es_tl   = Geoarmy Soldier
+|es_tl   = {{Lex|Millelith|es}} Soldier
 |fr      = Soldat des Millelithes
 |fr_tl   = Millelith Soldier
 |ru      = Солдат Миллелитов
 |ru_tl   = Millelith Soldier
 |th      = Millelith Soldier
-|vi      = {{tt|Binh Sĩ|兵士}} {{tt|Thiên Nham Quân|千岩军}}
-|vi_tl   = Millelith Soldier
+|vi      = {{tt|Binh Sĩ|兵士}} {{tt|Thiên Nham Quân|千岩軍}}
+|vi_tl   = {{Lex|Millelith|vi}} Soldier
 |de      = Millelithensoldat
 |de_tl   = Millelith Soldier
 |id      = Prajurit Millelith
@@ -79,7 +81,7 @@
 |pt      = Soldado Millelith
 |pt_tl   = Millelith Soldier
 |tr      = Taşordu Askeri
-|tr_tl   = 
+|tr_tl   = <!--use {{Lex|Millelith|tr}}-->
 |it      = Soldato dei Milleliti
 |it_tl   = 
 }}
@@ -94,3 +96,4 @@
 [[de:Millelithensoldat]]
 [[ja:千岩軍兵士]]
 [[pt-br:Soldado Millelith]]
+[[vi:Binh Sĩ Thiên Nham Quân]]

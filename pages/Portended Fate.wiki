@@ -1,24 +1,21 @@
+{{Stub|Can the player go ahead and approach the Forest Rangers without investigating Caribert's scarf?}}
 {{Quest Infobox
-|id            = 8012
-|image         = Archon Quest C3A6 Portended Fate.png
+|id            = 08012
+|image         = Archon Quest Portended Fate.png
 |type          = Archon
 |chapter       = III
 |act           = Caribert
 |actNum        = VI
 |part          = 4
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
-|characters    = Caribert; Eide; Paimon; Dainsleif; Traveler; Traveler's Sibling
+|characters    = Caribert (NPC); Eide; Paimon; Dainsleif; Traveler; Traveler's Sibling
 |startLocation = 
 |region        = Sumeru
 |area          = Avidya Forest
 |subarea       = 
 |prev          = A Lamenter at Fate's End
-|next          = 
-|exp           = 775
-|mora          = 31,175
-|primogems     = 60
-|other         = {{Card|Guide to Admonition|2}}{{Card|Guide to Ingenuity|2}}{{Card|Guide to Praxis|2}}{{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|5}}
+|next          = Soloist's Prologue
+|rewards       = Adventure EXP*775;Primogem*60;Mora*31,175;Guide to Admonition*2;Guide to Ingenuity*2;Guide to Praxis*2;Hero's Wit*3;Mystic Enhancement Ore*5
 |voiced        = yes
 }}
 {{TeyvatQuest|title=Portended Fate|chapter=3|act=6|part=4}}
@@ -26,6 +23,13 @@
 ==Steps==
 # Enter the cavern again
 #* Enter the Quest Domain: [[Unknown Sanctuary]]
+#* If the player leaves the Domain, their quest progress will be reset to this step, and they will be transported to the Domain's entrance in the normal Teyvat map. The Domain can be re-entered from both there, which allows the player to adjust their party as usual, and the special story mode.<!-- there are actually two "Enter the cavern again" steps; the first one's marker is near the Statue of The Seven, and the second one's marker is at the domain entrance; completely unnecessary full details:
+- if you leave the domain, you are teleported to the domain's location in the normal Teyvat map, and the quest is effectively reset to the second "Enter the cavern again" step (see last bullet for why it's "effectively")
+- if you re-enter the special story mode from the hut, the quest is reset to the first "Enter the cavern again" step even if you were on the second one; leaving the special story mode afterward without entering the domain (both before and after the first time you actually enter the domain) will keep your quest step at whichever one you were at while in the special story mode (keeps you at second one if you advanced there, keeps you at first one if you didn't)
+- both "Enter the cavern again" steps can be completed on the normal Teyvat map
+- first "Enter the cavern again" step's marker exists in the normal Teyvat map and is thus completable there
+- first "Enter the cavern again" step is also completed if you approach the domain entrance from the Chasm side on the normal Teyvat map
+-->
 # Go to the mysterious statue
 # Return to [[Eide]]'s house
 # Look for clues outside
@@ -33,16 +37,15 @@
 # Talk to the Forest Rangers
 # Use the clue to continue searching for Caribert
 # Talk to [[Dainsleif]]
-
-==Achievements==
-* Completing the quest grants the ''[[Wonders of the World]]'' achievement ''[[Caribert (Achievement)|Caribert]]''.
+# Light the bonfire
 
 ==Gameplay Notes==
 {{Transclude|Fortune-Mocking Pedigree|Gameplay Notes}}
+* Completing the quest grants the {{Achievement|Caribert (Achievement)}}.
 
 ==Dialogue==
 {{Quest Description|The previous events might have been mysterious, but miraculous. Caribert's consciousness has returned, and his mind is whole again. However, might this achievement bear a price yet unknown...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the location of the crystal in the [[Unknown Sanctuary]])
 :{{A|vo szaq204 1 eide 01.ogg}} '''Eide:''' No, impossible... What happened?
 :{{DIcon}} It's gone...
@@ -56,10 +59,8 @@
 :{{A|vo szaq204 1 eide 06.ogg}} '''Eide:''' ...Let's go, Traveler. There is surely a reason for its disappearance... And I do believe that some day in the future, we shall see it again.
 :{{DIcon}} You're turning into a zealot...
 :{{DIcon}} Let's just get back.
-:{{A|vo szaq204 1 eide 07.ogg}} '''Eide:''' Could he really have been a "Sinner," and not a god...?
-
-:'''You take Eide, who seems to be in a trance, back to the small house...'''
-
+:{{A|vo szaq204 1 eide 07.ogg}} '''Eide:''' Could he really have been a "[[Sinner]]," and not a god...?
+:{{Black Screen|You take Eide, who seems to be in a trance, back to the small house...}}
 :{{A|vo szaq204 2 eide 01.ogg}} '''Eide:''' Caribert? Where has he gone!?
 :{{DIcon}} He's not in here...
 :{{DIcon}} Uh-oh...
@@ -75,8 +76,8 @@
 :{{A|vo szaq204 2 eide 06.ogg}} '''Eide:''' Oh no, did he...
 :;(A mirror is face-down on the floor)
 :{{A|vo szaq204 2 eide 07.ogg}} '''Eide:''' ...
-:{{A|vo szaq204 2 eide 08.ogg}} '''Eide:''' The mirror... it's broken...
-:'''(Traveler):''' (Hmm? But... hasn't the mirror been broken this whole time?)
+:{{A|vo szaq204 2 eide 08.ogg}} '''Eide:''' The mirror... It's broken...
+:'''{{Traveler}}:''' (Hmm? But... hasn't the mirror been broken this whole time?)
 :{{DIcon}} What does the broken mirror mean?
 :{{A|vo szaq204 2 eide 09.ogg}} '''Eide:''' He must've taken his mask off... and seen what he looks like beneath it...
 :{{A|vo szaq204 2 eide 10.ogg}} '''Eide:''' Ugh, if he'd just done as he was told... We have to find him!
@@ -90,7 +91,7 @@
 ----
 ;(Approach the Forest Rangers)
 :{{A|vo szaq204 5 eide 01.ogg}} '''Eide:''' Curses... Forest Rangers.
-:{{A|vo szaq204 5 ranger 01.ogg}} '''Forest Ranger:''' Hey! Who are you? We haven't seen you around before. What's your business here?
+:{{A|vo szaq204 5 ranger 01.ogg}} '''Forest Ranger:''' Hey! Who are you? We haven't seen you around here before. What's your business here?
 :{{A|vo szaq204 5 eide 02.ogg}} '''Eide:''' Have you seen a hilichurl? A hilichurl should have come past this way... have you seen it?
 :{{A|vo szaq204 5 ranger 02.ogg}} '''Forest Ranger:''' I asked you first... Don't make this more difficult than it needs to be!
 :{{A|vo szaq204 5 eide 03.ogg}} '''Eide:''' I said... have you seen... a HILICHURL!!!
@@ -104,9 +105,7 @@
 :{{A|vo szaq204 7 eide 01.ogg}} '''Eide:''' Curse you all, Forest Rangers...
 :{{DIcon}} Stop it, Eide!
 :{{DIcon}} Stop. Or the Forest Rangers and I will have to make you.
-
-:'''Both sides calm down for now, thanks to your urging...'''
-
+:{{Black Screen|Both sides calm down for now, thanks to your urging...}}
 :{{A|vo szaq204 7 rangerguard 01.ogg}} '''Ranger Guard:''' I don't get it. Why make such a huge fuss over a few hilichurls...? It makes no sense...
 :{{A|vo szaq204 7 eide 02.ogg}} '''Eide:''' You...
 :{{A|vo szaq204 7 eide 03.ogg}} '''Eide:''' He'd only just regained his mind. How could you do this to him...
@@ -137,19 +136,19 @@
 ;(A cinematic plays)
 {{Cutscene Description|Caribert cannot accept the cruel revelation and takes off his mask in utter grief. Then, some immense energy impacts your psyche, and thus, you pass out...}}
 :;(Caribert begins to glow with purple energy)
-::'''Caribert:''' Papa...
-::'''Eide:''' Caribert...
-::'''Caribert:''' ...
-::'''Caribert:''' Papa, I can't take it...
-::'''Eide:''' Please, Caribert, it's my fault. I'm so sorry... If only I'd known...
-::'''Caribert:''' It's all... it's all too much, Papa...
+::{{A|vo szaq204 8 cs caribert 01.ogg}} '''Caribert:''' Papa...
+::{{A|vo szaq204 8 cs eide 01.ogg}} '''Eide:''' Caribert...
+::{{A|vo szaq204 8 cs caribert 02.ogg}} '''Caribert:''' ...
+::{{A|vo szaq204 8 cs caribert 03.ogg}} '''Caribert:''' Papa, I can't take it...
+::{{A|vo szaq204 8 cs eide 02.ogg}} '''Eide:''' Please, Caribert, it's my fault. I'm so sorry... If only I'd known...
+::{{A|vo szaq204 8 cs caribert 04.ogg}} '''Caribert:''' It's all... it's all too much, Papa...
 :;(Caribert pulls off his mask and purple energy bursts out)
 :;(Cinematic ends)
 :;(Back in the house)
 :{{A|vo szaq204 9 eide 01.ogg}} '''Eide:''' ...Haha, I see, I understand now...
 :{{A|vo szaq204 9 eide 02.ogg}} '''Eide:''' Finally, it all makes sense...
 :;(The Traveler awakes and sits up on the bed)
-:'''(Traveler):''' (What happened... did I faint? I remember Caribert taking his mask off, but then...)
+:'''{{Traveler}}:''' (What happened... did I faint? I remember Caribert taking his mask off, but then...)
 :{{A|vo szaq204 9 eide 03.ogg}} '''Eide:''' Aha, Traveler, you're awake... Finally, we can rejoice together!
 :{{A|vo szaq204 9 eide 04.ogg}} '''Eide:''' Wait, no... Why am I still calling you "Traveler"? I have known your true identity for some time now.
 :{{DIcon}} What do you mean, "true identity"?
@@ -159,7 +158,7 @@
 :{{A|vo szaq204 9 eide 06.ogg}} '''Eide:''' Oh, of course you haven't. With your status? You can hardly be expected to know all of us.
 :{{A|vo szaq204 9 eide 07.ogg}} '''Eide:''' In any case... I've been using a fake name this entire time. "Eide" is the name of a servant I once had...
 :{{A|vo szaq204 9 eide 08.ogg}} '''Eide:''' My real name is Chlothar...
-:{{A|vo szaq204 9 eide 09.ogg}} '''Chlothar:''' ...Chlothar Alberich.
+:{{A|vo szaq204 9 eide 09.ogg}} '''Chlothar:''' ...[[Chlothar Alberich]].
 :{{DIcon}} Alberich!?
 :{{DIcon}} You can't be!?
 :{{A|vo szaq204 9 eide 10.ogg}} '''Chlothar:''' You saw it too, didn't you? Unmistakable... The power inside Caribert and the power of the one you call a "Sinner," it was one and the same...
@@ -172,8 +171,8 @@
 :{{A|vo szaq204 9 eide 14.ogg}} '''Chlothar:''' A sinner... Yes, salvation for a sinner can only come from a sinner...
 :{{A|vo szaq204 9 eide 15.ogg}} '''Chlothar:''' Caribert did not deserve his fate, but now... It's wonderful &mdash; he will be able to weave his own destiny anew.
 :{{A|vo szaq204 9 eide 16.ogg}} '''Chlothar:''' Born into abject sorrow, he shall now become...
-:{{A|vo szaq204 9 eide 17.ogg}} '''Chlothar:''' ..."The Loom of Fate."
-:'''(Traveler):''' (There's that term again... the "Loom of Fate"...)
+:{{A|vo szaq204 9 eide 17.ogg}} '''Chlothar:''' ..."The [[Loom of Fate]]."
+:'''{{Traveler}}:''' (There's that term again... the "Loom of Fate"...)
 :{{DIcon}} You're right about this being from the Abyss...
 :{{DIcon}} But the Abyss is sinister and dangerous...
 :{{A|vo szaq204 9 eide 18.ogg}} '''Chlothar:''' ...
@@ -188,7 +187,7 @@
 ;(A cinematic plays)
 {{Cutscene Description|You are bewildered by how Chlothar just addressed you. You pick up the mirror on the table, only to see the face of your sibling reflected in the shattered glass. Only then do you realize that everything you witnessed previously was the experience of your twin. Then you hear Dainsleif calling from outside the door. It's time for you to wake up.}}
 :;(The Traveler stumbles back)
-::'''(Traveler):''' What did he just... call me?
+::'''{{Traveler}}:''' What did he just... call me?
 :;(The Traveler picks up the mirror from the table only to see their sibling's reflection)
 :;(The Traveler, now appearing as their sibling drops the mirror in shock and recalls all the events with Eide as the sibling)
 ::'''Dainsleif:''' ...Traveler...
@@ -197,8 +196,8 @@
 ::'''Dainsleif:''' Traveler!
 :;(Cinematic ends)
 :{{A|vo szaq204 10 paimon 01.ogg}} '''Paimon:''' ...You're awake! Oh, thank goodness, you're awake!
-:{{A|vo szaq204 10 paimon 02.ogg}} '''Paimon:''' Paimon was worried sick! ...Uh, (Traveler)? (Traveler)?
-:'''(Traveler):''' ...
+:{{A|vo szaq204 10 paimon 02.ogg}} '''Paimon:''' Paimon was worried sick! ...Uh, {{Traveler}}? {{Traveler}}?
+:'''{{Traveler}}:''' ...
 :{{A|vo szaq204 10 dainslaif 01.ogg}} '''Dainsleif:''' What happened while you were unconscious?
 :{{A|vo szaq204 10 dainslaif 02.ogg}} '''Dainsleif:''' I checked the Ley Lines nearby. It appears that the Abyss tampered with them, and they've been in turmoil ever since...
 :{{A|vo szaq204 10 dainslaif 03.ogg}} '''Dainsleif:''' Information and memories flow within the Ley Lines... What did you witness?
@@ -208,16 +207,14 @@
 :{{A|vo szaq204 10 dainslaif 05.ogg}} '''Dainsleif:''' After founding the Abyss Order, his faith in the Abyss led him to do a great many things.
 :{{A|vo szaq204 10 dainslaif 06.ogg}} '''Dainsleif:''' But the curse of immortality continued to torment his body and mind, and in the end, neither his faith nor the Abyss he worshiped could save him.
 :{{A|vo szaq204 10 dainslaif 07.ogg}} '''Dainsleif:''' After a hundred years, he lost his mind completely, and was never seen again.
-:{{A|vo szaq204 10 dainslaif 08.ogg}} '''Dainsleif:''' Yet his dark legacy lived on... The Defiled Statue that we encountered previously was just one perverse product of his use of Abyssal power during his life.
+:{{A|vo szaq204 10 dainslaif 08.ogg}} '''Dainsleif:''' Yet his dark legacy lived on... The [[Defiled Statue]] that we encountered previously was just one perverse product of his use of Abyssal power during his life.
 :{{DIcon}} And despite that...
 :{{DIcon}} My {{MC|m=sister|f=brother}} ultimately sided with him, didn't {{MC|m=she|f=he}}?
 :{{A|vo szaq204 10 dainslaif 09a.ogg}} {{A|vo szaq204 10 dainslaif 09b.ogg}} '''Dainsleif:''' You could say that. {{MC|m=She|f=He}} wouldn't be the Abyss Order's {{MC|m=Princess|f=Prince}} otherwise.
 :{{A|vo szaq204 10 paimon 03.ogg}} '''Paimon:''' Are you alright? You have a troubled look on your face... What happened?
 :{{DIcon}} I... have a story to tell you.
 :{{A|vo szaq204 10 dainslaif 10.ogg}} '''Dainsleif:''' ...
-
-:'''Your words send Dainsleif deep into thought...'''
-
+:{{Black Screen|Your words send Dainsleif deep into thought...}}
 :{{A|vo szaq204 10 dainslaif 11a.ogg}} {{A|vo szaq204 10 dainslaif 11b.ogg}} '''Dainsleif:''' So, you saw {{MC|m=her|f=his}} memories from centuries ago... through your own eyes. It all but defies belief.
 :{{A|vo szaq204 10 dainslaif 12.ogg}} '''Dainsleif:''' Still, as I'd suspected, the notion of the "Loom of Fate" did indeed rear its head during that time...
 :{{A|vo szaq204 10 dainslaif 13.ogg}} '''Dainsleif:''' And it seems closely connected to Chlothar Alberich's son, Caribert, and what happened to him...
@@ -235,9 +232,7 @@
 :{{DIcon}} I need to know what lies buried in this field.
 :{{A|vo szaq204 10 paimon 04.ogg}} '''Paimon:''' The field? What does that have to do with anything...
 :{{A|vo szaq204 10 dainslaif 17.ogg}} '''Dainsleif:''' ...You mean, here? Well, let's start digging and see.
-
-:'''After some time, you and Dainsleif discover what is buried in the field...'''
-
+:{{Black Screen|After some time, you and Dainsleif discover what is buried in the field...}}
 :{{A|vo szaq204 10 paimon 05.ogg}} '''Paimon:''' ...You scared the dook outta Paimon. D&mdash;Did you re-bury them yet?
 :{{DIcon}} We're done. You can open your eyes now.
 :{{A|vo szaq204 10 dainslaif 18.ogg}} '''Dainsleif:''' A male and female skeleton, buried together...
@@ -258,7 +253,7 @@
 :{{DIcon}} The voice that I heard inside my head?
 :{{A|vo szaq204 10 dainslaif 27.ogg}} '''Dainsleif:''' Yes. I have my suspicions as to his identity, but I need to confirm some other details before I can be sure.
 :{{A|vo szaq204 10 dainslaif 28.ogg}} '''Dainsleif:''' If the time is right, I will tell you when we next meet.
-:{{A|vo szaq204 10 paimon 08.ogg}} '''Paimon:''' But what do you mean that he "saw" (Traveler)? How is that possible?
+:{{A|vo szaq204 10 paimon 08.ogg}} '''Paimon:''' But what do you mean that he "saw" {{Traveler}}? How is that possible?
 :{{DIcon}} It was just a memory...
 :{{DIcon}} It all happened hundreds of years in the past...
 :{{A|vo szaq204 10 dainslaif 29.ogg}} '''Dainsleif:''' I fear that while these things would limit anyone else... they are no obstacle to him.
@@ -271,7 +266,15 @@
 :{{DIcon}} ...I missed you.
 :;(The Traveler hugs Paimon)
 :{{A|vo szaq204 10 paimon 12.ogg}} '''Paimon:''' Huh!?
-{{Dialogue end}}
+{{Dialogue End}}
+
+===Unsorted Voice-Overs===
+:{{A|vo szaq204 5 rangerguard 02.ogg}} '''Ranger Guard:''' There's no talking sense with this guy, let's teach him a lesson!
+:{{A|vo szaq204 6 hero 01.ogg}} {{A|vo szaq204 6 heroine 01.ogg}} '''{{Traveler}}:''' Eide's out of control. I have to end this fight...
+:{{A|vo szaq204 7 ranger 01.ogg}} '''Forest Ranger:''' Don't go thinking this is over! Our superiors are gonna hear of this when we get back to Gandharva Ville!
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Trivia==
 ===Translation Notes===
@@ -302,13 +305,13 @@
 |vi      = Vận Mệnh Đã Được Ghi Lại
 |vi_tl   = Written Destiny
 |de      = Das geschriebene Schicksal
-|de_tl   = 
+|de_tl   = The Written Destiny
 |id      = Takdir Tertulis
 |id_tl   = Written Fate
 |pt      = Destino Anunciado
 |pt_tl   = 
 |tr      = Kaderin Alameti
-|tr_tl   = 
+|tr_tl   = Destiny's Sign
 |it      = Destino preannunciato
 |it_tl   = Foretold Fate
 }}
@@ -320,3 +323,5 @@
 {{Archon Quest Navbox|Chapter III}}
 
 [[es:Nuestro sino está escrito]]
+[[ja:既に記された運命]]
+[[vi:Vận Mệnh Đã Được Ghi Lại]]

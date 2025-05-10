@@ -1,0 +1,204 @@
+{{Terminology Infobox
+|image  = Xenochromatic Jellyfish.png
+|type   = Exploration
+|region = Fontaine
+}}
+'''Xenochromatic Creatures''' are [[Fontemer Aberrant]]s that the player can borrow abilities from in [[Fontaine]] to solve underwater puzzles while [[Diving]]. Xenocromatic Creatures will not attack the player and cannot be killed.
+
+==Abilities==
+{{See also|Elemental Reaction/Level Scaling}}
+{| class="wikitable tdc3 tdc4"
+! style="width:60px;" | Icon !! style="width:130px;" | Ability !! style="width:80px;" | Cooldown !! style="width:80px;" | Charges !! Source
+|-
+| id="Xenochromatic Armored Crab" | [[File:Talent Armored Shield.png|50px]] || Armored Shield || 2s || 1 || Xenochromatic [[Armored Crab]]
+|-
+| colspan="5" | Creates a shield and unleashes shockwaves.<br><br><!--
+-->'''Press'''<br><!--
+-->Unleashes a shockwave around the character, dealing {{Color|AoE True Physical DMG}} equal to {{#tag:math|11.6889 \times \text{Level Multiplier} }} and creates a shield.<br><br><!--
+-->'''Hold'''<br><!--
+-->Enters aiming mode, and unleashes a forward blast upon releasing, dealing {{Color|AoE True Physical DMG}} equal to {{#tag:math|12.4681 \times \text{Level Multiplier} }} and creates a shield. If the character is hit by an attack while holding this ability, a counterattack will be unleashed upon releasing in the form of a projectile, which has its DMG increased to {{#tag:math|46.8202 \times \text{Level Multiplier} }}.<br><br><!--
+-->The shield created by this ability can absorb DMG equal to {{#tag:math|3.2 \times \text{Level Multiplier} }}.
+{{Environmental Damage|11.6889||12.4681|46.8202|3.2|header=Press DMG|header2=Hold DMG|header3=Counterattack DMG|header4=Shield HP|tableonly=1}}
+{{Collapsible|2=Advanced Properties|collapsed=1|{{Advanced Properties
+|title   = Press DMG/Hold DMG
+|gu      = &mdash;
+|icdtag  = none
+|poise   = 90
+|impulse = 5
+|blunt   = 1
+
+|title2   = Counterattack DMG
+|gu2      = &mdash;
+|icdtag2  = none
+|poise2   = 50
+|impulse2 = 2
+}}}}
+{{Collapsible|2=Preview|collapsed=1|{{Preview
+|file1    = Xenochromatic Creature Armored Shield
+|caption1 = Press
+
+|file2    = Xenochromatic Creature Armored Shield 2
+|caption2 = Hold
+
+|file3    = Xenochromatic Creature Armored Shield 3
+|caption3 = Hold Counterattack
+}}}}
+|-
+| id="Xenochromatic Hunter's Ray" | [[File:Talent Water Blades.png|50px]] || Water Blades || 4s || 2 || Xenochromatic [[Hunter's Ray]]
+|-
+| colspan="5" | Unleashes water blades that deal DMG and can cut through [[Fontemer Seagrass]].<br><br><!--
+-->'''Press'''<br><!--
+-->Unleashes a water blade that deals {{Color|True Physical DMG}} equal to {{#tag:math|19.3515 \times \text{Level Multiplier} }}.<br><br><!--
+-->'''Hold'''<br><!--
+-->Enters aiming mode, and unleashes a bigger water blade that can pierce through targets upon releasing, dealing {{Color|True Physical DMG}} equal to {{#tag:math|24.1569 \times \text{Level Multiplier} }}.
+{{Environmental Damage|19.3515||24.1569|header=Press DMG|header2=Hold DMG|tableonly=1}}
+{{Collapsible|2=Advanced Properties|collapsed=1|{{Advanced Properties
+|title   = Press DMG
+|gu      = &mdash;
+|icdtag  = none
+|poise   = 120
+|impulse = 2
+
+|title2   = Hold DMG
+|gu2      = &mdash;
+|icdtag2  = none
+|poise2   = 120
+|impulse2 = 5
+}}}}
+{{Collapsible|2=Preview|collapsed=1|{{Preview
+|file1    = Xenochromatic Creature Water Blades
+|caption1 = Press
+
+|file2    = Xenochromatic Creature Water Blades 2
+|caption2 = Hold
+}}}}
+|-
+| id="Xenochromatic Blubberbeast" | [[File:Talent Sonar Waves.png|50px]] || Sonar Waves || 1s || 1 || Xenochromatic [[Blubberbeast]]
+|-
+| colspan="5" | Releases pulsing sonar waves that deal DMG and can resonate with objects to mark their location.<br><br><!--
+-->'''Press'''<br><!--
+-->Unleashes a sonar wave that deals {{Color|True Physical DMG}} equal to {{#tag:math|7.0133 \times \text{Level Multiplier} }}.<br><br><!--
+-->'''Hold'''<br><!--
+-->Enters aiming mode and continuously releases sonar waves, each dealing {{Color|True Physical DMG}} equal to {{#tag:math|5.0652 \times \text{Level Multiplier} }}.
+{{Environmental Damage|7.0133||5.0652|header=Press DMG|header2=Hold DMG|tableonly=1}}
+{{Collapsible|2=Advanced Properties|collapsed=1|{{Advanced Properties
+|title   = Sonar Wave
+|gu      = &mdash;
+|icdtag  = none
+|poise   = 0
+|impulse = 0
+|blunt   = 1
+}}}}
+{{Collapsible|2=Preview|collapsed=1|{{Preview
+|file1    = Xenochromatic Creature Sonar Waves
+|caption1 = Press
+
+|file2    = Xenochromatic Creature Sonar Waves 2
+|caption2 = Hold
+}}}}
+|-
+| id="Xenochromatic Jellyfish" | [[File:Talent Hat-Shaped Bombs.png|50px]] || Hat-Shaped Bombs || 1.5s || 1 || Xenochromatic [[Hat Jellyfish|Jellyfish]]
+|-
+| colspan="5" | Creates hat-shaped bombs. Once a bomb is created, using this ability again will detonate the bomb. Cooldown starts after the detonation.<br><br><!--
+-->'''Press'''<br><!--
+-->Creates a bomb at the player's location. Upon detonation, deals {{Color|AoE True Physical DMG}} equal to {{#tag:math|15.5851 \times \text{Level Multiplier} }}.<br><br><!--
+-->'''Hold'''<br><!--
+-->Enters aiming mode. Upon release, throws a bomb that travels forward until it hits an enemy or the environment. Upon detonation, deals {{Color|True AoE Physical DMG}} across a larger area equal to {{#tag:math|23.3777 \times \text{Level Multiplier} }}.
+{{Environmental Damage|15.5851||23.3777|header=Press DMG|header2=Hold DMG|tableonly=1}}
+{{Collapsible|2=Advanced Properties|collapsed=1|{{Advanced Properties
+|title   = Hat-Shaped Bomb
+|gu      = &mdash;
+|icdtag  = none
+|poise   = 90
+|impulse = 5
+|blunt   = 1
+}}}}
+{{Collapsible|2=Preview|collapsed=1|{{Preview
+|file1    = Xenochromatic Creature Hat-Shaped Bombs
+|caption1 = Press
+
+|file2    = Xenochromatic Creature Hat-Shaped Bombs 2
+|caption2 = Hold
+}}}}
+|-
+| id="Xenochromatic Ball Octopus" | [[File:Talent Energy Spout.png|50px]] || Energy Spout || 0.5s || 1 || Xenochromatic [[Ball Octopus]]
+|-
+| colspan="5" | Used to cleanse away the contamination clots and contamination cores from the bacterial mats. Also used to solve certain puzzles and powering certain objects. Can be used on the surface with help from a special device.<br><br><!--
+-->'''Hold'''<br><!--
+-->Enters aiming mode. When valid targets come into range, fires off a laser that automatically targets them, repeatedly dealing {{Color|True Physical DMG}} equal to {{#tag:math|3.8963 \times \text{Level Multiplier} }}.
+{{Environmental Damage|3.8963||header=DoT|tableonly=1}}
+{{Collapsible|2=Advanced Properties|collapsed=1|{{Advanced Properties
+|title   = Energy Spout
+|gu      = &mdash;
+|icdtag  = none
+|poise   = 10
+|impulse = 1
+}}}}
+{{Collapsible|2=Preview|collapsed=1|{{Preview
+|file = Xenochromatic Creature Energy Spout
+}}}}
+|}
+Note that the Level Multiplier used by underwater abilities is the environmental Level Multiplier, not the character's Level Multiplier. The environment's level is equal to that of nearby enemies. Level Multipliers for each level can be found in [[Elemental Reaction/Level Scaling#Level Multiplier|Elemental Reaction/Level Scaling § Level Multiplier]].
+
+==Tutorials==
+{{Tutorial|Abilities of the Transoceanic Sourcewater and Xenochromatic Creatures; Xenochromatic Hunter's Ray's Ability; Xenochromatic Blubberbeast's Ability; Xenochromatic Armored Crab's Ability; Xenochromatic Jellyfish's Ability; The Abilities of the Xenochromatic Ball Octopus; A Machine With Xenochromatic Ball Octopus Abilities?}}
+
+==Trivia==
+* It is said that Xenochromatic Creatures are ocean spirits who "bestow blessings upon those accepted by the [[Fontemer]]" and those who can "control it." This is considered "groundless speculation" by "those that have a deeper understanding of natural philosophy."<ref>{{Ref/Enemy|Hunter's Ray}}</ref>
+* Xenochromatic Creatures are considered opponents by the game, as hitting them triggers [[Baizhu]]'s second constellation, [[Incisive Discernment]].
+
+==Gallery==
+<gallery>
+Xenochromatic Hunter's Ray.png|Xenochromatic Hunter's Ray
+Xenochromatic Blubberbeast.png|Xenochromatic Blubberbeast
+Xenochromatic Armored Crab.png|Xenochromatic Armored Crab
+Xenochromatic Jellyfish.png|Xenochromatic Jellyfish
+Xenochromatic Ball Octopus.png|Xenochromatic Ball Octopus
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Xenochromatic Creature
+|zhs     = 异色生物
+|zhs_rm  = Yìsè Shēngwù
+|zht     = 異色生物
+|zht_rm  = Yìsè Shēngwù
+|zh_tl   = Different-Colored Organism
+|ja      = 亜種生物
+|ja_rm   = Ashu Seibutsu
+|ja_tl   = 
+|ko      = 이색 생물
+|ko_tl   = Different-Colored Organism
+|es      = Criatura cromática
+|es_tl   = Chromatic Creature
+|fr      = Créature xénochromatique
+|fr_tl   = Xenochromatic Creature
+|ru      = Ксенохромное существо
+|ru_tl   = Xenochrome Creature
+|th      = สิ่งมีชีวิตสีพิเศษ
+|th_rm   = 
+|th_tl   = 
+|vi      = {{tt|Sinh Vật|生物}} {{tt|Dị Sắc|异色}}
+|vi_tl   = Different-Colored Organism{{Sino|vi|part=1}}
+|de      = Xenochromatische Kreatur
+|de_tl   = Xenochromatic Creature
+|id      = Makhluk Xenochromatic
+|id_tl   = Xenochromatic Creature
+|pt      = Criatura Heterocromática
+|pt_tl   = 
+|tr      = Alacalı Canlı
+|tr_tl   = Variegated Living
+|it      = Creature xenocromatiche
+|it_tl   = 
+}}
+
+==Change History==
+{{Change History|4.0}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Exploration Navbox|Fontaine}}
+
+[[es:Criatura cromática]]

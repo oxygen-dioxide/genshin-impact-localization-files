@@ -5,7 +5,7 @@
 |family   = The Abyss
 |group    = Riftwolves
 |type     = Elite Enemies
-|location = [[Inazuma]]<br />[[Sumeru]]
+|location = [[Inazuma]]<br>[[Sumeru]]
 |ability1 = Invincibility Frames
 |ability2 = Fury
 |ability3 = Corrosion
@@ -43,21 +43,24 @@
 |geo_res2     = -40%
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |enemy = Geo Rifthound
 
 |name_1 = Corrosion
 |desc_1 = All of the Rockfond Rifthound's attacks apply [[Corrosion]] on hit.
 
-|name_2 = Bite
+|name_2 = Devouring Bite
+|file_2 = Geo Rifthound Bite
 |desc_2 = Backs away and readies itself to lunge at the player and bite, dealing '''90% ATK''' as {{Color|Geo DMG}}.
 
-|name_3 = Double Swipe
+|name_3 = Corrosive Claws
+|file_3 = Geo Rifthound Double Swipe
 |desc_3 = Swipes at the player twice with its claws, dealing '''85% ATK''' as {{Color|Geo DMG}} with each swipe.
 
-|name_4 = Rock Spit
+|name_4 = Crystal Cracker
+|file_4 = Geo Rifthound Rock Spit
 |desc_4 = If the player is far away, the Rifthound generates a rock in its mouth before launching it towards the player, dealing '''95% ATK''' {{Color|Geo DMG}}.
 
 |name_5 = Tail Swipe
@@ -67,7 +70,8 @@
 |desc_6 = Gains '''20%''' [[Fury]] whenever it takes {{Color|Geo DMG}}. When full, the Rifthound gains enhanced attacks at the cost of lower {{Color|Geo [[Resistance|RES]]}}.
 |file_6 = Geo Rifthound Elemental Devour
 
-|name_7 = Charge
+|name_7 = Pursuer's Mark
+|file_7 = Geo Rifthound Charge
 |desc_7 = Quickly lunges at the player 2–4 times, dealing '''85% ATK''' as {{Color|Geo DMG}}. This attack is only performed while the Rifthound is in the Elemental Devour state.
 
 |name_8 = Roar
@@ -86,11 +90,11 @@
 {| class="wikitable"
 ! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Initial CD (s)
 |-
-| rowspan="6" | Normal || Bite || 1–7.5 || 3 || 9.5–11.5 || &mdash;
+| rowspan="6" | Normal || Devouring Bite || 1–7.5 || 3 || 9.5–11.5 || &mdash;
 |-
-| Double Swipe || 0–4.5 || 3 || 10.5–11.5 || &mdash;
+| Corrosive Claws || 0–4.5 || 3 || 10.5–11.5 || &mdash;
 |-
-| Rock Spit || 7.5–22.5 || 3 || 12.5–15.5 || 20
+| Crystal Cracker || 7.5–22.5 || 3 || 12.5–15.5 || 20
 |-
 | Tail Swipe (Close) || 0–7.5 || 4 || 18.5–22.5 || 2–7
 |-
@@ -98,11 +102,11 @@
 |-
 | Tail Swipe (Far) || 15.5–25.5 || 3 || 8.5–12.5 || 2–5
 |-
-| rowspan="7" | Elemental Devourer || Bite || 1–7.5 || 4 || 7.5–9.5 || &mdash;
+| rowspan="7" | Elemental Devourer || Devouring Bite || 1–7.5 || 4 || 7.5–9.5 || &mdash;
 |-
-| Double Swipe || 0–4.5 || 4 || 7.5–8.5 || &mdash;
+| Corrosive Claws || 0–4.5 || 4 || 7.5–8.5 || &mdash;
 |-
-| Rock Spit || 7.5–22.5 || 2 || 10–13 || 5
+| Crystal Cracker || 7.5–22.5 || 2 || 10–13 || 5
 |-
 | Tail Swipe (Close) || 0–7.5 || 4 || 16.5–20.5 || 2–7
 |-
@@ -110,20 +114,26 @@
 |-
 | Tail Swipe (Far) || 15.5–25.5 || 3 || 8.5–12.5 || 2–5
 |-
-| Charge || 5–10.5 || 2 || 15–18 || &mdash;
+| Pursuer's Mark || 5–10.5 || 2 || 15–18 || &mdash;
 |}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Rifthounds}}
 
+==Tutorials==
+{{Tutorial|Rockfond Rifthound}}
+
 ==Descriptions==
-{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by "Gold."<br />They do display certain biological behaviors similar to those of real wolves. Perhaps they feel jealousy towards these their "next of kin," and dream of replacing them someday.|[[Archive]]}}
+{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by [[Rhinedottir|"Gold"]].<br>They do display certain biological behaviors similar to those of real wolves. Perhaps they feel jealousy towards these their "next of kin," and dream of replacing them someday.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
 Enemy Rockfond Rifthound Icon.png|Icon
 Rockfond Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Video Guides==
 {{EVT
@@ -139,7 +149,7 @@ Rockfond Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 |zht     = 嗜岩・獸境獵犬
 |zht_rm  = Shìyán - Shòujìng Lièquǎn
 |zh_tl   = Rock-Fond - Beast-Realm Hound
-|ja      = {{Rubi|獣|じゅう|域|いき}}ハウンド・{{Rubi|岩|いわ}}
+|ja      = 獣域ハウンド・岩
 |ja_rm   = Juuiki Haundo - Iwa<ref>YouTube: [https://youtu.be/uw-b54nYqi8 【原神】Ver.2.2「霧の海と謎の秘境」予告番組inTGS2021]</ref>
 |ja_tl   = Beast-Realm Hound - Geo
 |ko      = {{tt|기암|嗜岩}}・수계(獸界) 사냥개
@@ -150,7 +160,8 @@ Rockfond Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 |fr      = Limier de faille géophile
 |fr_tl   = Geophilic Rift Bloodhound
 |ru      = Гончая Разрыва: Камнегрыз
-|ru_tl   = Rift Hound: Rockbiter
+|ru_tl   = Rift Hound: Rock-Gnawer
+|ru_note = {{ru|Камнегрыз}} is a portmanteau of {{ru|камень|rock}} and {{ru|грызть|to gnaw.}}
 |th      = Rockfond - Rifthound
 |th_rm   = 
 |th_tl   = 
@@ -162,9 +173,9 @@ Rockfond Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 |pt      = Cão da Fenda - Geofito
 |pt_tl   = 
 |tr      = Taşlaşmış Hiçlik Kurdu
-|tr_tl   = 
+|tr_tl   = Petrified Abyss Wolf
 |it      = Segugio della Faglia Spaccaroccia
-|it_tl   = 
+|it_tl   = Rockcrushing Rifthound
 }}
 
 ==Change History==
@@ -178,4 +189,6 @@ Rockfond Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 
 [[de:Felsenfressender Garm]]
 [[es:Sabueso Acechador Lítico]]
+[[fr:Limier de faille géophile]]
+[[ja:獣域ハウンド・岩]]
 [[pt-br:Cão da Fenda - Geofito]]

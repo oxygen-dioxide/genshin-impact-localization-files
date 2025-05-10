@@ -1,77 +1,70 @@
+{{See also|Subzero Climate}}
 {{Terminology Infobox
 |type         = Game Systems
 |type2        = Exploration
-}}'''Sheer Cold''' is a gauge that appears in very cold areas, such as in open-world areas and domains affected by [[Subzero Climate]] and during certain challenges.
+|type3        = Ley Line Disorders
+|domain       = Peak of Vindagnyr
+|domain2      = Spiral Abyss
+}}
+'''Sheer Cold''' is a gauge that appears in very cold areas, such as in [[Dragonspine]]'s [[Subzero Climate]] and during certain challenges.
 
 ==Overview==
-<section begin="sheercold"/>
-Similar to [[Stamina]], Sheer Cold is shared between characters for each player.
+Similar to [[Stamina]], Sheer Cold is shared between characters for each player. It appears as a gauge over the active character's HP bar. When the gauge is at least 70% full, the gauge pulses and beeps, and the player's peripheral vision is reduced. When the gauge is full, the active character [[#HP Loss|loses HP]].
 
-When Sheer Cold begins to accumulate, a sound effect plays and a gauge appears over the active character's HP bar. When the gauge is 70% full, it begins to beep every 2 seconds and pulse with a red glow. In addition, the edges of the screen become frosty, reducing the player's peripheral vision. When the gauge is full, the gauge takes on a steady red glow, the beeping stops, the edges of the screen frost over more to further reduce the player's peripheral vision, and the player begins to [[#HP Loss|lose HP]].
+Sheer Cold's accumulation and health loss from Sheer Cold may pause while the player is engaged in dialogue with an NPC or an object. They are not paused during [[Photo Mode]], during which [[time]] passes normally.
 
-Sheer Cold's accumulation and health loss from Sheer Cold pause while the player is engaged in dialogue with an NPC or an object. They are not paused during [[Photo Mode]], during which [[time]] passes normally.
-
-The Sheer Cold gauge depletes quickly over time when leaving a Subzero Climate, including entering a [[Test Run]] instance or the [[Serenitea Pot]].
-
-===Accumulation Rate===
+==Accumulation Rate==
 {| class="wikitable sortable"
 |-
-! Conditions !! Accumulation Rate !! Time to fill an empty Sheer Cold gauge
+! Conditions !! Base Rate !! Fully fills gauge in...
 |-
-| Default || 1% per second || 100 seconds<br />(1 minute and 40 seconds)
+| In a [[Subzero Climate]] || 1%/s || 100s<br>(1m 40s)
 |-
-| In combat against [[Narukami Island: Tenshukaku|Signora]] || 3% per second || 33 seconds
+| In combat against [[Narukami Island: Tenshukaku|Signora]] || 3%/s || 33s
 |-
-| Taking {{Color|Cryo DMG}} from Signora's weak attacks || 2% per hit || 50 hits
+| Taking {{Color|Cryo DMG}} from Signora's weak attacks || 2%/hit || 50 hits
 |-
-| Taking {{Color|Cryo DMG}} from Signora's Frosted Floor || 2.5% per hit || 40 hits
+| Taking {{Color|Cryo DMG}} from Signora's Frosted Floor || 2.5%/hit || 40 hits
 |-
-| Taking {{Color|Cryo DMG}} from Signora's strong attacks || 5% per hit || 20 hits
+| Taking {{Color|Cryo DMG}} from Signora's strong attacks || 5%/hit || 20 hits
 |-
-| Counterstruck by Signora || 100% || —
+| Counterstruck by Signora || 100% || &mdash;
 |}
 
 ===Modifiers===
-Certain statuses will boost or reduce the accumulation rate of Sheer Cold. Different modifiers stack additively.
+Certain statuses will boost or reduce the accumulation rate of Sheer Cold. Different modifiers stack additively. An accumulation modifier of -100% or lower prevents Sheer Cold from accumulating but does not [[#Depletion|deplete]] the gauge.
 
 {| class="wikitable sortable"
 |-
-! Conditions !! Accumulation Modifier
+! Conditions !! Modifier
 |-
-| Delicious Goulash || -50%
+| Delicious [[Goulash]] || &minus;50%
 |-
-| Normal Goulash || -40%
+| Normal Goulash || &minus;40%
 |-
-| Suspicious Goulash || -30%
+| Suspicious Goulash || &minus;30%
 |-
-| Colder Environments<br />([[Snowstorm]]s, [[Cryo Hypostasis]] arena, cold platforms in [[Peak of Vindagnyr]]) || +200%
+| Colder environments<br>([[Snowstorm]]s, [[Cryo Hypostasis]] arena, cold platforms in [[Peak of Vindagnyr]]) || +200%
 |-
 | Swimming || +180%
 |-
-| Inside Wind Current Created by Cryo [[Anemograna]] || +50%
+| Inside [[wind current]] created by Cryo [[Anemograna]] || +50%
 |-
 | Affected by {{Cryo}} or {{Hydro}} || +20%
 |-
-| Affected by {{Pyro}} || -20%
+| Affected by {{Pyro}} || &minus;20%
 |-
-| Near A Source of Warmth || -999%
+| Near a [[source of warmth]] || &minus;99900%
+|-
+| Imbued with [[Scarlet Quartz]] || &minus;99900%
 |}
 
-===HP Loss===
-When the Sheer Cold gauge is full, the active character will lose HP at a rate of '''1% Max HP + 150 HP''' per second (or '''3% Max HP + 150 HP''' per second in the [[Narukami Island: Tenshukaku]] Trouce Domain).<ref>NGA: [https://ngabbs.com/read.php?tid=25244647 Research on the damage of Sheer Cold] (in Chinese)</ref> If not mitigated, then the active character will die to Sheer Cold in roughly one minute, give or take as much as half a minute depending on how much HP a character has.
-
-HP loss from Sheer Cold is unaffected by the conditions that increase and decrease the Sheer Cold accumulation rate if the Sheer Cold gauge remains full. HP loss only stops once the Sheer Cold gauge is no longer full.
-
-Some max HP thresholds and how long it takes for all HP to be depleted by Sheer Cold:
-* 30 seconds - 6,428 HP
-* 40 seconds - 10,000 HP
-* 50 seconds - 15,000 HP
-* 60 seconds - 22,500 HP
-* 70 seconds - 35,000 HP
-* 80 seconds - 60,000 HP
-
+==Depletion==
 ===Sources of Warmth===
-Sources of warmth include:
+Sources of warmth are the primary method for depleting the Sheer Cold gauge. Standing near them provides a buff every '''0.5s''' that lasts '''1s''' and reduces the Sheer Cold gauge.
+
+====Subzero Climate====
+Sources of warmth in Subzero Climates reduce the Sheer Cold gauge at a rate of '''5%''' per '''0.2s''' ('''4''' seconds to completely deplete a full gauge). Sources of warmth in Subzero Climates include:
 {{Column|2|
 * Campfires
 * Torches
@@ -85,17 +78,45 @@ Sources of warmth include:
 * The top of the [[Skyfrost Nail]] (the object floating in the sky, not the entire subarea)
 * The [[Frostbearing Tree]] (once thawed)
 }}
-* Hearts of Flame in [[Narukami Island: Tenshukaku]]
 
-Characters who are near one of the above sources of warmth will receive a buff every '''0.5s''' which lasts '''1s''' and reduces the Sheer Cold gauge at a rate of '''5%''' per '''0.2s''' ('''4''' seconds to completely deplete a full gauge).
+[[Scarlet Quartz]] is not a source of warmth.
 
-When player stay outside of Subzero Climates, their Sheer Cold gauge reduces at a rate of 5% per second (20 seconds to completely deplete a full gauge).
+====Narukami Island: Tenshukaku====
+The only sources of warmth during the [[Narukami Island: Tenshukaku]] Trounce Domain are Hearts of Flame. One is located at each corner of the room at the start of the fight. Standing near one reduces the Sheer Cold gauge at a rate of '''4%''' per '''0.2s''' ('''5''' seconds to completely deplete a full gauge). Destroying one reduces the Sheer Cold gauge by '''100%''' immediately, though the animation takes a few seconds to play.
 
-[[Scarlet Quartz]] reduces '''5%''' of the Sheer Cold gauge and then pauses Sheer Cold accumulation. Additional Scarlet Quartz that are picked up will refresh the duration and reduce another 5% of the Sheer Cold gauge. Scarlet Quartz has no effect until it is picked up.
-<section end="sheercold"/>
+===Scarlet Quartz===
+Each [[Scarlet Quartz]] that is picked up reduces '''5%''' of the Sheer Cold gauge.
+
+Scarlet Quartz are only available in [[Dragonspine]].
+
+===Leaving the Area===
+When players leave areas that have a Sheer Cold gauge, it reduces at a rate of '''5%''' per second ('''20''' seconds to completely deplete a full gauge).
+
+==HP Loss==
+[[HP Loss]] occurs while the Sheer Cold gauge is full. It is unaffected by the conditions that increase and decrease the Sheer Cold accumulation rate. The HP Loss only stops once the Sheer Cold gauge is no longer full.
+
+===Subzero Climate===
+The active character will lose HP at a rate of '''1% Max HP + 150 HP''' per second.<ref>NGA: [https://ngabbs.com/read.php?tid=25244647 Research on the damage of Sheer Cold] (in Chinese)</ref>
+
+Some max HP thresholds and how long it takes for all HP to be depleted by Sheer Cold:
+* 30 seconds &mdash; 6,428 HP
+* 40 seconds &mdash; 10,000 HP
+* 50 seconds &mdash; 15,000 HP
+* 60 seconds &mdash; 22,500 HP
+* 70 seconds &mdash; 35,000 HP
+* 80 seconds &mdash; 60,000 HP
+
+===Narukami Island: Tenshukaku===
+The active character will lose HP at a rate of '''3% Max HP + 150 HP''' per second.
+
+Some max HP thresholds and how long it takes for all HP to be depleted by Sheer Cold:
+* 22 seconds &mdash; 10,000 HP
+* 27 seconds &mdash; 22,500 HP
+* 31 seconds &mdash; 60,000 HP
+
 ==Trivia==
 * The frosty edges that appear when affected by Sheer Cold show up in pictures taken with the [[Kamera]] or [[Special Kamera]] but do not show up in pictures taken in [[Photo Mode]].
-* When a character falls to Sheer Cold, the player will be granted the ''[[Wonders of the World]]'' achievement "[[The Bleak Midwinter]]".
+* When a character falls to Sheer Cold, the player will be granted the {{Achievement|The Bleak Midwinter}}.
 
 ==Gallery==
 <gallery>
@@ -133,9 +154,9 @@ Sheer Cold - Full.png|Sheer Cold after the gauge is full
 |id      = Sheer Cold
 |pt      = Frio Extremo
 |pt_tl   = Extreme Cold
-|tr      = 
-|tr_tl   = 
-|it      = 
+|tr      = Dondurucu soğuk
+|tr_tl   = Freezing Cold
+|it      = Freddo Estremo
 |it_tl   = 
 }}
 
@@ -149,5 +170,7 @@ Sheer Cold - Full.png|Sheer Cold after the gauge is full
 {{Ley Line Disorder Navbox|state=collapsed}}
 {{Exploration Navbox|Mondstadt}}
 
+[[fr:Grand froid]]
 [[ja:極寒]]
+[[pt-br:Frio Extremo]]
 [[th:ความหนาว]]

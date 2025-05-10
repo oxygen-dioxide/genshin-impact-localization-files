@@ -5,7 +5,7 @@
 }}
 '''Crafting''' is a [[Crafting Method]] available at [[Crafting Benches]] to perform [[Alchemy]].
 
-It allows players to craft higher rarity [[Character and Weapon Enhancement Material]]s, [[Weapon Ascension Material]]s, [[Talent Level-Up Material]]s, [[Potion]]s, and [[Character Ascension Material]]s. [[Gadget]]s can also be crafted after obtaining their [[Instructions]].
+It allows players to craft higher quality [[Character and Weapon Enhancement Material]]s, [[Weapon Ascension Material]]s, [[Talent Level-Up Material]]s, [[Potion]]s, and [[Character Ascension Material]]s. [[Gadget]]s can also be crafted after obtaining their [[Instructions]].
 
 ==List of Crafting Recipes==
 Ascension Materials are crafted from three units of the same material of one tier lower.
@@ -34,6 +34,9 @@ Ascension Materials are crafted from three units of the same material of one tie
 ===Bait===
 {{Alchemy Recipes|type=Bait}}
 
+===Food===
+{{Alchemy Recipes|type=Food&Food with Instructions|text=[[Food]]|infobox=Food}}
+
 ===Quest and Event Items===
 {{Alchemy Recipes|type=Lantern Rite Materials¦Quest Items¦Event Items|text=Quest and Event Items}}
 
@@ -50,12 +53,12 @@ The bonuses from talents when crafting [[Character Talent Material]]s, [[Weapon 
 Over time, '''the 10% chance to double the product bonus will yield slightly more products''' than the 25% chance to refund one material:
 
 In terms of the number of additional products, these bonuses are effectively:
-* 25% chance to refund one count of one material used:<br />On average, for every three materials used, ~0.09 products can be obtained additionally if the refunded materials are also used up
-* 10% chance to double the product:<br />On average, for every three materials used, 0.10 products can be obtained additionally
+* 25% chance to refund one count of one material used:<br>On average, for every three materials used, {{Not a Typo|~0.09}} products can be obtained additionally if the refunded materials are also used up
+* 10% chance to double the product:<br>On average, for every three materials used, 0.10 products can be obtained additionally
 
 In terms of the materials used per products, these bonuses are effectively:
-* 25% chance to refund one count of one material used:<br />On average, 0.25 fewer materials required per product
-* 10% chance to double the product:<br />On average, ~0.27 fewer materials required per product
+* 25% chance to refund one count of one material used:<br>On average, 0.25 fewer materials required per product
+* 10% chance to double the product:<br>On average, {{Not a Typo|~0.27}} fewer materials required per product
 
 ====Derivations====
 ;25% chance refund
@@ -72,11 +75,19 @@ For characters which have a 10% chance of yielding double the product, 10% more 
 
 So if one starts with <math>x_0</math> materials, they can gain <math>\tfrac{11x_0}{30}</math> products on average. With this passive, the amount of materials used per product is <math>\tfrac{30}{11}</math> so <math>3-\tfrac{30}{11} \approx 0.27</math> fewer materials per product are used on average.
 
+==Tutorial==
+{{Tutorial
+|image1   = Tutorial Crafting Calculate.png
+|text1    = After you select the level-up direction you wish to take, the maximum level(s) you can reach using the items in your [[Inventory]] will be {{Color|help|automatically selected}} for you.<br>After selecting the necessary Transmutation Materials, the relevant Transmutation(s) will be {{Color|help|automatically selected}} based on your level-up direction and [[Character Development Item|Level-Up Materials]] in your Inventory.
+}}
 ==Change History==
 {{Change History|1.0}}
 
 ==Navigation==
 {{Game Systems Navbox}}
 
+[[fr:Synthétiser]]
 [[ja:合成]]
+[[tr:Üretim]]
 [[uk:Ремесло]]
+[[vi:Ghép]]

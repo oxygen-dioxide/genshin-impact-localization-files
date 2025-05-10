@@ -1,6 +1,6 @@
 {{Quest Infobox
 |id            = 00394
-|image         = Archon Quest C0A3 A Long Shot.png
+|image         = Archon Quest A Long Shot.png
 |type          = Archon
 |chapter       = Prologue
 |actNum        = III
@@ -13,10 +13,7 @@
 |prev          = Calm Before the Storm
 |next          = When the Wind Dies Down
 |domain        = Storming Terror
-|exp           = 425
-|mora          = 12,400
-|primogems     = 30
-|other         = {{Card|Barbara}}{{Card|Favonius Warbow}}{{Card|Adventurer's Experience|5}}{{Card|Mystic Enhancement Ore|3}}{{Card|Tainted Blood|1}}
+|rewards       = Adventure EXP*425;Primogem*30;Mora*12,400;Favonius Warbow*1;Tainted Blood*1;Adventurer's Experience*5;Mystic Enhancement Ore*3;Barbara*1
 |characters    = Diluc;Dvalin;Jean;Paimon;Traveler;Venti
 |voiced        = yes
 }}
@@ -26,22 +23,22 @@
 # Venture beyond the seal
 #* Enter [[Confront Stormterror]]'s Quest Domain: [[Storming Terror]]
 #* The battle is split into two parts for the two crystals [[Dvalin]] has on his back.
-# Ride the winds to defeat [[Dvalin]]
+# Ride the winds to defeat Dvalin
+#* {{Enemy|Stormterror Dvalin|text=Stormterror Dvalin &mdash; Tyrant of the Skies}}
 #* The party is fixed to the [[Traveler]] for this part, even if they are not in the party.
 # Defeat Dvalin
+#* {{Enemy|Stormterror Dvalin|text=Stormterror Dvalin &mdash; Erstwhile King of the Skies}}
 #* [[Venti]] will be added to the party as a Trial Character
 
 ==Gameplay Notes==
 * Healing foods can be used even during the aerial battle.
 * [[Barbara]] is not directly awarded from this quest, but rather from [[Baptism of Song]], which can be found in the [[Events]] menu.
-* The Trounce Domain [[Confront Stormterror|Memories: Confront Stormterror]] is already available at the start of this quest, despite the domain being a repeat of the second half of the Storming Terror domain. Completing Confront Stormterror first does not progress the quest.
-
-==Achievements==
-* Completing this quest grants the ''[[Wonders of the World]]'' Achievement ''[[Winds Change Their Course]]''.
+* The Trounce Domain Memories: Confront Stormterror is already available at the start of this quest, despite the domain being a repeat of the second half of the Storming Terror domain. Completing Confront Stormterror first does not progress the quest.
+* Completing this quest grants the {{Achievement|Winds Change Their Course}}.
 
 ==Dialogue==
 {{Quest Description|After a long and daring pursuit of Dvalin, who has been led astray by the Abyss Mages, you are about to finally confront him once and for all.}}
-{{dialogue start}}
+{{Dialogue Start}}
 ;(During the first phase of the fight)
 :{{A|vo mdaq069 2 venti 01.ogg}} '''Venti:''' Look! There are {{Color|buzzword|two shiny spots}} on Dvalin's back!
 :{{A|vo mdaq069 2 venti 02.ogg}} '''Venti:''' They appear to be poisonous blood clots that have coagulated on his wounds...
@@ -67,7 +64,7 @@
 ;(After Dvalin's shield bar is depleted and Dvalin becomes vulnerable)
 :{{A|vo mdaq069 3 venti 08.ogg}} '''Venti:''' Now is our chance! Aim for the tainted blood clot on his neck!
 
-;(If Dvalin uses [[Confront Stormterror#Abilities and Attacks|Caelestinum Finale Termini]])
+;(If Dvalin uses [[Stormterror Dvalin#Abilities and Attacks|Caelestinum Finale Termini]])
 :{{A|vo mdaq069 3 venti 04.ogg}} '''Venti:''' A-ha, this is Dvalin's ace in the hole: Caelestinum Finale Termini!
 :{{A|vo mdaq069 3 paimon 01.ogg}} '''Paimon:''' ...This dragon has strange taste when it comes to naming things.
 :{{A|vo mdaq069 3 venti 05.ogg}} '''Venti:''' I named it for him just now.
@@ -97,44 +94,46 @@
 :{{A|vo mdaq071 1 cs venti 01.ogg}} '''Venti:''' However, winds change their course.
 :{{A|vo mdaq071 1 cs venti 02.ogg}} '''Venti:''' Someday, they will blow towards a brighter future.
 :;(Cutscene ends)
+:{{Black Screen|One day later...}}
+{{Dialogue End}}
 
-:'''One day later...'''
-{{Dialogue end}}
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
-|en      = A Long Shot
-|zhs     = 为了青色的身影
-|zhs_rm  = Wèile Qīngsè de Shēnyǐng
-|zht     = 為了青色的身影
-|zht_rm  = Wèile Qīngsè de Shēnyǐng
-|zh_tl   = For the Green Figure
-|ja      = 青の姿のために
-|ja_rm   = Ao no Sugata no Tame ni
-|ja_tl   = For the One in Green
-|ko      = 푸른 그림자를 위해
-|ko_tl   = For the Blue Shadow
-|es      = Para la sombra índigo
-|es_tl   = For the Indigo Shadow
-|fr      = Pour l'ombre cyan
-|fr_tl   = For the Cyan Shadow
-|ru      = Синяя тень
-|ru_tl   = A Deep Blue Shadow
-|th      = เพื่อเงาสีฟ้านั่น
-|th_rm   = Phuea Ngao Si Fa Nan
-|th_tl   = For That Sky-Blue Shadow
-|vi      = Vì Bóng Hình Màu Xanh
-|vi_tl   = For the Green Shadow
-|de      = Für einen dunklen Schatten
-|de_tl   = For a Dark Shadow
-|id      = Demi Bayang-bayang Hijau
-|id_tl   = For the Green Shadow
-|pt      = Uma Sombra Azul
-|pt_tl   = A Blue Shadow
-|tr      = Zorlu Görev
-|tr_tl   = Challenging Task
-|it      = L'ombra azzurra
-|it_tl   = The Azure Shadow
+|en        = A Long Shot
+|zhs       = 为了青色的身影
+|zhs_rm    = Wèile Qīngsè de Shēnyǐng
+|zht       = 為了青色的身影
+|zht_rm    = Wèile Qīngsè de Shēnyǐng
+|zh_tl     = For the Green Figure
+|ja        = 青の姿のために
+|ja_rm     = Ao no Sugata no Tame ni
+|ja_tl     = For the One in Green
+|ko        = 푸른 그림자를 위해
+|ko_tl     = For the Blue Shadow
+|es        = Para la sombra índigo
+|es_tl     = For the Indigo Shadow
+|fr        = Pour l'ombre cyan
+|fr_tl     = For the Cyan Shadow
+|ru        = Синяя тень
+|ru_tl     = A Blue Shadow
+|th        = เพื่อเงาสีฟ้านั่น
+|th_rm     = Phuea Ngao Si Fa Nan
+|th_tl     = For That Sky-Blue Shadow
+|vi        = Vì Bóng Hình Màu Xanh
+|vi_tl     = For the Green Shadow
+|de        = Für einen dunklen Schatten
+|de_tl     = For a Dark Shadow
+|id        = Demi Bayang-bayang Hijau
+|id_tl     = For the Green Shadow
+|pt        = Uma Sombra Azul
+|pt_tl     = A Blue Shadow
+|tr        = Zorlu Görev
+|tr_tl     = Challenging Task
+|it        = L'ombra azzurra
+|it_tl     = The Azure Shadow
 }}
 
 ==Change History==
@@ -142,8 +141,9 @@
 
 ==Navigation==
 {{Archon Quest Navbox|chapter=Prologue}}
-[[Category:Archon Prologue]]
 
 [[es:Para la sombra índigo]]
 [[ja:青の姿のために]]
 [[pt-br:Uma Sombra Azul]]
+[[tr:Zorlu Görev]]
+[[vi:Vì Bóng Hình Màu Xanh]]

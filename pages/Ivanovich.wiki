@@ -3,16 +3,16 @@
 |missing_NPC_profile  = yes
 }}
 {{Character Infobox
-|type             = NPC
+|type             = Open-World NPC
 |image            = NPC Ivanovich.png
-|region           = Liyue
-|region2          = Snezhnaya
+|region           = Snezhnaya
+|location         = Liyue
 |title            = Traveling Merchant
 |voiceEN          = 
 |voiceJP          = [http://amuleto.jp/talents/美藤-優.html Mitou Yutaka ({{ja|美藤 優}})]<ref>Amuleto: [http://amuleto.jp/talents/美藤-優.html JP VA's Profile]</ref>
 |dialoguereward   = {{Card|Shivada Jade Fragment|1}}
 }}
-'''Ivanovich''' {{Lang|ru=Иванович|ru_rm=Ivanovich}} is an [[NPC]] in [[Liyue Harbor]]. He can be found near the left side of the docks. He is a [[Snezhnaya]]n merchant stationed in [[Liyue]].
+{{Lang|'''Ivanovich'''|ru=Иванович|ru_rm=Ivanovich}} is an open-world [[NPC]] in [[Liyue Harbor]]. He can be found near the left side of the docks. He is a [[Snezhnaya]]n merchant stationed in [[Liyue]].
 
 Following a certain dialogue branch for the first time gives the player one [[Shivada Jade Fragment]].
 
@@ -25,9 +25,6 @@ NPC Location Ivanovich Context.png|Additional context
 ==Profile==
 Ivanovich considers himself a distributor, selling everyday items produced in Snezhnaya. He also procures [[Cor Lapis]] to send back to Snezhnaya for their yet-unknown purpose in their factories.
 
-===Personality===
-A businessman to the core, Ivanovich tends to go with the flow and seeks out business opportunities even in the midst of danger. He proves unruffled by [[Rex Lapis]]' assassination at the Rite of Descension despite being at the scene when it occurred, and he continues trying to find a way to repurpose meteorite fragments into jewelry even though he knew the meteorites sent people into deep sleep.
-
 ===Appearance===
 ''(To be added.)''
 
@@ -35,31 +32,38 @@ A businessman to the core, Ivanovich tends to go with the flow and seeks out bus
 {{Quests and Events}}
 
 ==Idle Quotes==
-{{Dialogue start}}
-:: {{A|VO Ivanovich 01.ogg}} "I should open a store here."
-{{Dialogue end}}
+{{Dialogue Start}}
+:{{DIcon|Idle}} Open a store here...
+::{{A|VO Ivanovich 01.ogg}} "I should open a store here."
+{{Dialogue End}}
 
 ;During Lantern Rite
-{{Dialogue start}}
-: {{DIcon|Idle}} I'm sure they'd sell well in Snezhnaya...
-:: {{A|VO Ivanovich Lantern Rite 01.ogg}} "These [[Xiao Lantern]]s are very warm. I'm sure they'd sell well in Snezhnaya."
-{{Dialogue end}}
+{{Dialogue Start}}
+:{{DIcon|Idle}} I'm sure they'd sell well in Snezhnaya...
+::{{A|VO Ivanovich Lantern Rite 01.ogg}} "These [[Xiao Lantern]]s are very warm. I'm sure they'd sell well in Snezhnaya."
+{{Dialogue End}}
 
 ;During Moonlight Merriment
-{{Dialogue start}}
-: {{DIcon|Idle}} New business ideas...
-:: {{A|VO Ivanovich Moonlight Merriment 01.ogg}} "I have to come up with some new business ideas for the Moonchase Festival..."
-{{Dialogue end}}
+{{Dialogue Start}}
+:{{DIcon|Idle}} New business ideas...
+::{{A|VO Ivanovich Moonlight Merriment 01.ogg}} "I have to come up with some new business ideas for the Moonchase Festival..."
+{{Dialogue End}}
 
 ;During The Exquisite Night Chimes
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Nighttime)
-: {{DIcon|Idle}} The bright Xiao Lanterns...
-:: {{A|VO Ivanovich Lantern Rite 02.ogg}} "I feel like the Xiao Lanterns are burning even brighter this year."
-{{Dialogue end}}
+:{{DIcon|Idle}} The bright Xiao Lanterns...
+::{{A|VO Ivanovich Lantern Rite 02.ogg}} "I feel like the Xiao Lanterns are burning even brighter this year."
+{{Dialogue End}}
+
+;During Vibrant Harriers Aloft in Spring Breeze
+{{Dialogue Start}}
+:{{DIcon|Idle}} So many styles...
+::{{A|VO Ivanovich Lantern Rite 03.ogg}} "I never knew kites came in so many styles..."
+{{Dialogue End}}
 
 ==Dialogue==
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Ivanovich:''' Good day, my friend! My apologies, but I am out of stock at the moment. Please try again next time.
 :{{DIcon}} Who are you...?
 ::'''Ivanovich:''' I am Ivanovich, pleasure to meet you! I am a businessman from Snezhnaya. I am now waiting for my next delivery.
@@ -67,7 +71,7 @@ A businessman to the core, Ivanovich tends to go with the flow and seeks out bus
 ::'''Ivanovich:''' If I had known sooner, I would have opened my own store here so I could sell directly to consumers. That way I would not have to oversee the deliveries myself.
 :{{DIcon}} What do you sell?
 ::'''Ivanovich:''' Technically I am a distributor, selling everyday items produced in Snezhnaya. As well as that, I also act as an agent for Cor Lapis merchants selling to Snezhnayan factories.
-::'''Ivanovich:''' The [[Liyue Qixing|Qixing]] have been keeping a close eye on Snezhnaya's senior officials recently...
+::'''Ivanovich:''' The Qixing have been keeping a close eye on Snezhnaya's senior officials recently...
 ::'''Ivanovich:''' Some people say that the only reason we are able to buy Cor Lapis from Liyue merchants is because they were mediating behind the scenes...
 ::'''Ivanovich:''' But I am not privy to the details. So please excuse me from withholding judgment.
 ::'''Ivanovich:''' Although our goods are produced in high quantities, they are by no means cheap.
@@ -77,35 +81,43 @@ A businessman to the core, Ivanovich tends to go with the flow and seeks out bus
 :::'''Ivanovich:''' I'm wearing plenty of layers, but somehow I'm so cold that I can't stop shivering. Let me see what's going on...
 :::'''Ivanovich:''' Aha! Turns out I had this stone in my pocket all along. Hmm, must have slipped in there somehow while I was back home...
 :::'''Ivanovich:''' Hmm? Piqued your curiosity, has it? Well, it's not classed as ore, and I certainly can't sell it here... So, I may as well let you have it.
-::;(Obtain [[Shivada Jade Fragment]] ×1)
+::;(Obtain {{Item|Shivada Jade Fragment|20|x=1}})
 :{{DIcon}} See you.
 ::'''Ivanovich:''' Take care. Hope to see you again when we are fully stocked.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Event Dialogue==
 ===Lantern Rite===
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Ivanovich:''' The glow of the Xiao Lanterns feels so warm...
 :'''Ivanovich:''' Even as a stranger in this foreign city, seeing the brightly lit streets and Xiao Lanterns above in the night sky still brings some indescribable warmth to my heart.
 :'''Ivanovich:''' Such a warm feeling reminds me of our "[[Krsnik Noc]]" in Snezhnaya.
 :'''Ivanovich:''' If you ever have the chance, you must visit Snezhnaya and participate in one of our festivals.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Moonlight Merriment===
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Ivanovich:''' The Moonchase Festival really is a busy time. Looking at all the locals running about preparing food, I can't help but be tempted to try my hand at it myself.
 :'''Ivanovich:''' Do you think some Snezhnayan fare and some grilled pies and such would sell well?
 :;(Dialogue options and responses are the same as normal)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===The Exquisite Night Chimes===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After completing [[A Single Harmony for an Irreplaceable Soul]])
 :'''Ivanovich:''' The glow of the Xiao Lanterns feels so warm...
 :'''Ivanovich:''' And I don't know if it's because of the music festival performance, but the stage lights made the lantern even brighter.
 :'''Ivanovich:''' This blazing heat ignites a nostalgic flame in me...
 ;(Continue non-event dialogue)
-{{Dialogue end}}
+{{Dialogue End}}
+
+===Vibrant Harriers Aloft in Spring Breeze===
+{{Dialogue Start}}
+:'''Ivanovich:''' I never knew kites came in so many styles...
+:'''Ivanovich:''' Ah, don't worry, I didn't mean anything untoward by that.
+:'''Ivanovich:''' Variety and novelty are a merchant's great loves, after all!
+:'''Ivanovich:''' If we could use such stylizations in other products... Hmm, perhaps bring in some of those Fontainian machines we're importing... Yes, that could be a promising new market.
+{{Dialogue End}}
 
 ==Gallery==
 ===Cameos===
@@ -124,11 +136,10 @@ Fleeting Colors in Flight Event Cutscene Animation- "Age of Flowing Hues" - Gens
 |ja      = イヴァノヴィチ
 |ja_rm   = Ivanovichi
 |ko      = 이바노비치
-|ko_rm   = Ibanobichi
 |es      = Ivanovich
 |fr      = Ivanovich
 |ru      = Иванович
-|ru_note = {{Lang|mini=1|ru={{wt|Иванович}}|ru_rm=Ivanovich}} means "the son of Ivan." This is an example of a {{w|Patronymic#Russian|patronymic}}; therefore, it is not a valid name on its own.
+|ru_note = {{ru|{{wt|Иванович}}}} means "the son of Ivan." This is an example of a {{w|Patronymic#Russian|patronymic}}; therefore, it is not a valid name on its own.
 |th      = Ivanovich
 |vi      = Ivanovich
 |de      = Ivanovich
@@ -145,4 +156,5 @@ Fleeting Colors in Flight Event Cutscene Animation- "Age of Flowing Hues" - Gens
 {{Reflist}}
 
 [[es:Ivanovich]]
+[[pt-br:Ivanovich]]
 [[ru:Иванович]]

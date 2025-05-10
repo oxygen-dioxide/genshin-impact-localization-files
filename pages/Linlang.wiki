@@ -1,17 +1,17 @@
 {{Meta
 <!-- REMOVE THIS TEMPLATE AFTER ADDING MISSING INFO -->
 |missing_NPC_profile  = yes
-|missing_NPC_location = yes
 }}
 {{Character Infobox
-|type             = NPC
+|type             = Open-World NPC
 |image            = NPC Linlang.png
 |region           = Liyue
+|location         = Liyue
 |affiliation      = Xigu Antiques
 |title            = Owner, Xigu Antiques
 |dialoguereward   = {{Card|Fine Enhancement Ore|3}}
 }}
-'''Linlang''' {{Lang|zh=琳琅|zh_rm=Línláng}} is a [[shop]] [[NPC]] in [[Liyue Harbor]], [[Liyue]]. She can be found perusing some stalls by the northern end of Liyue Harbor during daytime and tending her [[shop]], [[Xigu Antiques]], at nighttime (19:00 – 06:00). Her stock refreshes every 7 days.
+'''Linlang''' {{Lang|zh=琳琅|zh_rm=Línláng}} is a [[shop]] [[NPC]] in [[Liyue Harbor]], [[Liyue]]. She can be found perusing some stalls by the northern end of Liyue Harbor during daytime and tending her [[shop]], [[Xigu Antiques]], at nighttime (19:00&ndash;06:00). Her stock refreshes every 7 days.
 
 Following a certain dialogue branch for the first time gives the player three [[Fine Enhancement Ore]]s.
 
@@ -28,17 +28,14 @@ She also exchanges the three [[Nameless Treasure]]s for 350 [[Adventure EXP]], 4
 
 ==Location==
 <gallery>
-NPC Location Linlang (Daytime).png|Linlang's location ''(Daytime)''
-NPC Location Linlang (Daytime) Context.png|Additional context
-NPC Location Qiming (Nighttime).png|Linlang's location ''(Nighttime)''
-NPC Location Qiming (Nighttime) Context.png|Additional context
+NPC Location Linlang Daytime.png|Linlang's location ''(Daytime)''
+NPC Location Linlang Daytime Context.png|Additional context
+NPC Location Qiming Nighttime.png|Linlang's location ''(Nighttime)''
+NPC Location Qiming Nighttime Context.png|Additional context
 </gallery>
 
 ==Profile==
 <!-- detailed story/lore information goes here -->
-''(To be added.)''
-
-===Personality===
 ''(To be added.)''
 
 ===Appearance===
@@ -48,45 +45,54 @@ NPC Location Qiming (Nighttime) Context.png|Additional context
 {{Quests and Events}}
 
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Daytime)
-:: {{A|VO Linlang 01.ogg}} "...*hums a tune*"
+::{{A|VO Linlang 01.ogg}} "...*hums a tune*"
 
 ;(Nighttime)
-: {{DIcon|Idle}} ...Take a look around.
-:: {{A|VO Linlang 02.ogg}} "Feel free to take a look around."
-{{Dialogue end}}
+:{{DIcon|Idle}} ...Take a look around.
+::{{A|VO Linlang 02.ogg}} "Feel free to take a look around."
+{{Dialogue End}}
 
 ;During Lantern Rite
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Daytime)
-:: {{A|VO Linlang Lantern Rite 01.ogg}} "Isn't it great...?"
-{{Dialogue end}}
+:{{DIcon|Idle}} Isn't it great...?
+::{{A|VO Linlang Lantern Rite 01.ogg}} "You can just feel the history all around us! Isn't it great...?"
+{{Dialogue End}}
 
 ;During Moonlight Merriment
-{{Dialogue start}}
-: {{DIcon|Idle}} In pursuit of the moon...
-:: {{A|VO Linlang Moonlight Merriment 01.ogg}} "How many of Liyue's ancients have followed the Adepti footsteps in pursuit of the moon?"
-{{Dialogue end}}
+{{Dialogue Start}}
+:{{DIcon|Idle}} In pursuit of the moon...
+::{{A|VO Linlang Moonlight Merriment 01.ogg}} "How many of Liyue's ancients have followed the Adepti footsteps in pursuit of the moon?"
+{{Dialogue End}}
 
 ;During The Exquisite Night Chimes
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Daytime)
-: {{DIcon|Idle}} Antique instruments...
-:: {{A|VO Linlang Lantern Rite 02.ogg}} "Hmm... Antique instruments should be popular nowadays."
-{{Dialogue end}}
+:{{DIcon|Idle}} Antique instruments...
+::{{A|VO Linlang Lantern Rite 02.ogg}} "Hmm... Antique instruments should be popular nowadays."
+{{Dialogue End}}
+
+;During Vibrant Harriers Aloft in Spring Breeze
+{{Dialogue Start}}
+;(Daytime)
+:{{DIcon|Idle}} Antique kites...
+::{{A|VO Linlang Lantern Rite 03.ogg}} "Hmm... Keeping an antique kite flying after all these years is quite a feat!"
+{{Dialogue End}}
 
 ==Dialogue==
 ===Daytime===
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Linlang:''' Hello! Can I help you?
-:{{DIcon}} About Rex Lapis' death...
+:{{DIcon}} About [[Rex Lapis]]' death...
+:;(Available after completing ''[[Rite of Descension]]'')
 ::'''Linlang:''' Impressive, wasn't it? Even in death, the gods pass in glory, unlike the surreptitious departure of mortals... I'm glad I was able to witness an event of such magnificence.
-::'''Linlang:''' It's just a shame that I couldn't have met him, or talked to him, about my dreams...
+::'''Linlang:''' It's just a shame that I couldn't have met him, or talked to him about my dreams...
 ::'''Linlang:''' Ah, what I am saying? Sorry about that.
 :{{DIcon}} You are...?
-::'''Linlang:''' I am Linlang, the owner of Xigu Antiques.
-::'''Linlang:''' I'm very sorry but the shop is not open yet. If you want to browse the shop, please find me at Xigu Antiques later.
+::'''Linlang:''' I am Linlang, the owner of [[Xigu Antiques]].
+::'''Linlang:''' I'm very sorry, but the shop is not open yet. If you want to browse the shop, please find me at Xigu Antiques later.
 ::{{DIcon}} Tell me about Xigu Antiques.
 ::'''Linlang:''' A fellow antique collector, are you?
 ::'''Linlang:''' In that case, I do hope you will come to the store tonight.
@@ -94,14 +100,14 @@ NPC Location Qiming (Nighttime) Context.png|Additional context
 :{{DIcon}} What are you doing?
 ::'''Linlang:''' Oh, I'm just taking a stroll nearby to relax. I'd like to admire the scenery one more time before the sun sets.
 ::'''Linlang:''' This land has remained at peace for a thousand years now. But sometimes, I wonder &mdash; how did the people who walked this land a thousand years ago feel?
-::'''Linlang:''' I cannot know, yes, but our Lord certainly does &mdash; [[Rex Lapis]], who has gently watched over this land for a millennium...
+::'''Linlang:''' I cannot know, yes, but our Lord certainly does &mdash; Rex Lapis, who has gently watched over this land for a millennium...
 ::'''Linlang:''' ...I wonder, has there been anyone at all who has been privy to his feelings across this long period?
 :{{DIcon}} Goodbye.
 ::'''Linlang:''' Bye. It was a pleasure meeting you.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Nighttime===
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Linlang:''' Welcome to my humble shop! We have some new items in store, if you would be so kind as to take a look at them.
 :{{DIcon|Shop}} I'd like to buy some antiques.
 ::'''Linlang:''' Yes, please browse as you like. You'll find that our antiques here are worth every Mora.
@@ -115,27 +121,28 @@ NPC Location Qiming (Nighttime) Context.png|Additional context
 ::'''Linlang:''' Or this fossilized wood. It is a runner from a primordial tree, and legend says that this tree was so gigantic its root system spread throughout the entire world.
 ::'''Linlang:''' You might also consider this bottle, which contains the venomous blood of an evil dragon that once wrought havoc on a neighboring land. Due to exposure to the air, the blood has now dried and turned to dust...
 ::'''Linlang:''' ...However, the venom is so strong that one pinch of it would suffice to take out all the strongest men in a village. Heh.
-::'''Linlang:''' Beyond these, there are many other qualities and oddities in store, too. Feel free to peruse them at your leisure.
+::'''Linlang:''' Beyond these, there are many other rarities and oddities in store, too. Feel free to peruse them at your leisure.
 ::{{DIcon}} Sounds dubious to me...
 ::'''Linlang:''' Well, the value of an antique is whatever you make of it.
-::'''Linlang:''' There is a saying, "An antique's credibility is borne of its owner's credulity." It is one's belief in an item as a historical relic that imbues it with meaning.
-::'''Linlang:''' By contrast, when you believe than an antique is fake, your denial of the item's value does not change the item in any way.
+::'''Linlang:''' There is a saying: "An antique's credibility is born of its owner's credulity." It is one's belief in an item as a historical relic that imbues it with meaning.
+::'''Linlang:''' By contrast, when you believe that an antique is fake, your denial of the item's value does not change the item in any way.
 ::'''Linlang:''' The fact is, the items themselves hold no value for my customers. It is the stories attached to the items that hold the real value.
-::'''Linlang:''' There's another saying, how does it go... "As long as you have a good story to tell, you'll always find a way forward"... The same principle applies to antiques.
+::'''Linlang:''' There's another saying, how does it go... "As long as you have a good story to tell, you'll always find a way forward..." The same principle applies to antiques.
 ::{{DIcon|Reward}} Do you have anything else?
 :::'''Linlang:''' Well, take this chunk of rock, for example. Looks perfectly ordinary, but in fact it came from a star.
 :::'''Linlang:''' A very long time ago, a star fell from the sky. The force of the impact when it hit the ground is what turned it this color on the outside.
 :::'''Linlang:''' Hmm? What do you mean, looks like a regular chunk of ore?
-:::'''Linlang:''' ...Wait, no, you're right, sorry. I grabbed the wrong ore. This is just a regular chunk of ore.
+:::'''Linlang:''' ...Wait, no, you're right, sorry. I grabbed the wrong one. This is just a regular chunk of ore.
 :::'''Linlang:''' Ugh, must be the suppliers. They're always trying to sneak the odd dud into the mix... so frustrating...
 :::'''Linlang:''' Please, take it off my hands would you? I never want to see it again.
-::;(Obtain [[Fine Enhancement Ore]] ×3)
+::;(Obtain {{Item|Fine Enhancement Ore|20|x=3}})
 :{{DIcon}} Goodbye.
-{{Dialogue end}}
+::'''Linlang:''' Goodbye. Come back any time.
+{{Dialogue End}}
 
 ==Event Dialogue==
 ===Lantern Rite===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Linlang during daytime)
 :'''Linlang:''' Hi, I'm Linlang. I run an antiques shop called Xigu Antiques... How may I help you?
 :{{DIcon}} Please tell me about [[Lantern Rite Festival|the Lantern Rite]].
@@ -144,16 +151,17 @@ NPC Location Qiming (Nighttime) Context.png|Additional context
 ::'''Linlang:''' Antiquity has real value. I should know, I make my living off that fact. So make the most of this very precious time of year.
 :{{DIcon}} Goodbye.
 ::'''Linlang:''' Please enjoy this special time filled with the splendor of antiquity.
-{{Dialogue end}}
+{{Dialogue End}}
+
 ===Moonlight Merriment===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Linlang during daytime)
 :'''Linlang:''' Welcoming the bright moonlight to illuminate the adeptal path &mdash; what a romantic scene!
 :'''Linlang:''' I should really start collecting some antiques related to the festival...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===The Exquisite Night Chimes===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Linlang during daytime)
 :'''Linlang:''' Hi, I'm Linlang. I run an antiques shop called Xigu Antiques... How may I help you?
 :{{DIcon}} About the Lantern Rite music festival...
@@ -161,9 +169,41 @@ NPC Location Qiming (Nighttime) Context.png|Additional context
 ::'''Linlang:''' This year's Lantern Rite music festival, however, has brought along some new ideas.
 ::'''Linlang:''' People may become interested in music-related antiques, so I should probably read up on related legends too...
 ::'''Linlang:''' After all, every ancient object that has weathered the ages has a fascinating story to tell.
-{{Dialogue end}}
+{{Dialogue End}}
+
+===Vibrant Harriers Aloft in Spring Breeze===
+{{Dialogue Start}}
+;(Talk to Linlang during daytime)
+:'''Linlang:''' Hi, I'm Linlang. I run an antiques shop called Xigu Antiques... How may I help you?
+:{{DIcon}} About kites...
+::'''Linlang:''' They carry peoples' thoughts into the skies. Don't you think that's quite similar to how Xiao Lanterns work?
+::'''Linlang:''' This year's theme is kites, which connects with the idea of those lanterns in interesting ways.
+::'''Linlang:''' I wonder if there're any legends that also link the two... Should there be any link to ancient relics, that would make for a most captivating story.
+{{Dialogue End}}
+
+===Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness===
+{{Dialogue Start}}
+:{{DIcon|Music Score}} {{Color|help|We'd like to invite you to attend this music festival.}}
+::'''Linlang:''' Mm? An invitation? As in, a date?
+::'''Paimon:''' Erm, no, this is about musical exchange! By the way, do you have any songs that you like? We can play them for you &mdash; just to show you we're legit, y'know?
+::'''Linlang:''' I see... Well, I do have something in mind. I'll hum, and you play. How does that sound?
+::{{DIcon}} Sure, I'll give it a go.
+::'''Linlang:''' I'm listening.
+;(After performing)
+:'''Linlang:''' My dear guest, it would be no exaggeration to compare your performance to an adeptal hymn.
+:'''Linlang:''' When I was just starting in this line of work, I went to Minlin to purchase some ancient jade. On the way there, I heard music coming from Qingyun Peak.
+:'''Linlang:''' I was so enraptured that I wondered if it might be the music of the adepti themselves, you know? Haha. Thank you &mdash; I thought I'd never get the opportunity to hear it again.
+:'''Linlang:''' As for the music festival, I must say that I wouldn't call myself any kind of music enthusiast &mdash; I simply happen to like this tune. So forgive me if I must decline.
+:'''Linlang:''' But allow me to let slip from my lips this tidbit of gossip: I believe [[Mingxing Jewelry]]'s boss, [[Xingxi]], is a closet fan of music. Perhaps you could ask her?
+:'''Linlang:''' Last but not least, I wish you the best of luck with your festival.
+
+;(Talk to Linlang again, optional)
+:{{DIcon|Music Score}} How was that?
+:;(Same as ''After performing'')
+{{Dialogue End}}
+
 ==Trivia==
-* While the dialogue branch "About Rex Lapis' death..." is unlocked after completing the Archon Quest [[Chapter I]] Act II: [[Rite of Descension]], which was available at the game's initial release, Linlang's dialogue branch was not added until [[Version 1.1]].
+* While the dialogue branch "About Rex Lapis' death..." is unlocked after completing the {{Quest|Rite of Descension}}, which was available at the game's initial release, Linlang's dialogue branch was not added until [[Version 1.1]].
 
 ==Gallery==
 ===Cameos===
@@ -203,5 +243,6 @@ Collected Miscellany - "Zhongli- Dominance of Earth" - Genshin Impact
 -->
 
 [[es:Linlang]]
+[[ja:琳琅]]
 [[pt-br:Linlang]]
 [[ru:Линь Лан]]

@@ -1,5 +1,6 @@
 {{Quest Infobox
 |id            = 02002
+|image         = Archon Quest C2A0 Follow the Wind.png
 |type          = Archon
 |chapter       = II
 |actNum        = Prologue
@@ -11,20 +12,17 @@
 |subarea       = Guyun Stone Forest
 |prev          = The Crux Clash (Quest)
 |next          = Setting Sail
-|exp           = 700
-|primogems     = 60
-|mora          = 34,075
-|other         = {{Card|Guide to Prosperity|2}}{{Card|Guide to Diligence|2}}{{Card|Guide to Gold|2}}{{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}{{Card|The Crux Clash Champion Medal|1}}
+|rewards       = Adventure EXP*700;Primogem*60;Mora*34,075;Guide to Prosperity*2;Guide to Diligence*2;Guide to Gold*2;Hero's Wit*3;Mystic Enhancement Ore*6;The Crux Clash Champion Medal*1
 |characters    = Baiwen;Fei the Flyer;Kaedehara Kazuha;Kazuha's Friend;Kujou Sara;Little De;Paimon;Raiden Shogun;Rongjiang;The Shogun;Traveler;Uncle Yun;Xinxiu;Zhuhan
 |voiced        = yes
 }}
 {{TeyvatQuest|title=Follow the Wind|chapter=2|act=0|part=3}}
 
 ==Steps==
-# Go to the wind current location
 # Enter the arena to fight the final round
 # Go check the box containing the [[Vision]]
 # Follow [[Kazuha]] to track down the Vision
+# Go to the wind current location
 # Proceed to the small island ahead and search for clues
 # Confirm the clues with Kazuha
 # Continue the pursuit
@@ -32,16 +30,16 @@
 # Defeat the Treasure Hoarders blocking the way {{Enemy List|Treasure Hoarders: Scout;Treasure Hoarders: Marksman;Treasure Hoarders: Cryo Potioneer}}
 # Talk to the Treasure Hoarder who stole the Vision
 # Defeat the Treasure Hoarder
-#* The Treasure Hoarder acts identically similar to [[Raptor]]
+#* {{Enemy|Treasure Hoarders: Raptor|text=Fei the Flyer &ndash; Swift Dispatch}}
 # Talk to the Treasure Hoarder again
 # Return to the [[Guyun Stone Forest]] arena
 
-==Achievements==
-* Completing this quest will grant the ''[[Wonders of the World]]'' achievement ''[[Autumn Winds, Scarlet Leaves (Achievement)|Autumn Winds, Scarlet Leaves]]''.
+==Gameplay Notes==
+* Completing this quest will grant the {{Achievement|Autumn Winds, Scarlet Leaves (Achievement)}}.
 
 ==Dialogue==
-{{Quest Description|The grand final of the Crux Clash is about to begin, and you will soon meet your opponent. Victory is but one step away...<br /><br />After some delay, it seems that not only is your opponent for the final round a no-show, but that the Masterless Vision has been suddenly stolen. [[Kazuha]] seems to have caught wind of a clue in the matter and formulates a plan to recover the Vision with your help.}}
-{{Dialogue start}}
+{{Quest Description|The grand final of the Crux Clash is about to begin, and you will soon meet your opponent. Victory is but one step away...<br><br>After some delay, it seems that not only is your opponent for the final round a no-show, but that the Masterless Vision has been suddenly stolen. [[Kazuha]] seems to have caught wind of a clue in the matter and formulates a plan to recover the Vision with your help.}}
+{{Dialogue Start}}
 ;(Talk to [[Little De]])
 :{{A|vo dialog wylq003 littlede 01.ogg}} '''Little De:''' Your opponent is certainly no pushover, be sure to not underestimate him.
 
@@ -65,26 +63,25 @@
 
 ;(Upon entering the arena)
 :{{A|vo wylq003 7 beidou 01.ogg}} '''Beidou:''' Huh, why isn't he here yet...
-:{{A|vo wylq003 7 beidou 02.ogg}} '''Beidou:''' Never mind, we can start by making your entrance first, (Traveler).
+:{{A|vo wylq003 7 beidou 02.ogg}} '''Beidou:''' Never mind, we can start by making your entrance first, {{Traveler}}.
 :{{A|vo wylq003 7 beidou 03.ogg}} '''Beidou:''' Everyone, listen up. Your attention, please!
 :{{A|vo wylq003 7 beidou 04.ogg}} '''Beidou:''' We've reached the climax of [[The Crux Clash]]. This is the final match!
 :{{A|vo wylq003 7 beidou 05.ogg}} '''Beidou:''' We've seen many exciting battles today, and now, at long last, the two finalists have emerged.
-:{{A|vo wylq003 7 beidou 06a.ogg}} {{A|vo wylq003 7 beidou 06b.ogg}} '''Beidou:''' Now, I'd like to introduce our first combatant. Though few have seen {{MC|him|her|mc=1}}, {{MC|his|her|mc=1}} reputation knows no bounds.
-:{{A|vo wylq003 7 beidou 07a.ogg}} {{A|vo wylq003 7 beidou 07b.ogg}} '''Beidou:''' {{MC|He|She|mc=1}} strikes fear into the heart of Osial and the mere mention of {{MC|his|her|mc=1}} name causes even Fatui Harbingers to turn pale in the face... Introducing Liyue's traveling hero, (Traveler)!
-<!-- check to see if this line is influenced by the option the Traveler chooses when asked for their achievements-->
+:{{A|vo wylq003 7 beidou 06a.ogg}} {{A|vo wylq003 7 beidou 06b.ogg}} '''Beidou:''' Now, I'd like to introduce our first combatant. Though few have seen {{MC|m=him|f=her}}, {{MC|m=his|f=her}} reputation knows no bounds.
+:{{A|vo wylq003 7 beidou 07a.ogg}} {{A|vo wylq003 7 beidou 07b.ogg}} '''Beidou:''' {{MC|m=He|f=She}} strikes fear into the heart of Osial and the mere mention of {{MC|m=his|f=her}} name causes even Fatui Harbingers to turn pale in the face... Introducing Liyue's traveling hero, {{Traveler}}!
 :{{A|vo wylq003 7 competitorb 01.ogg}} '''Clash Competitor:''' Wooooow!!!
 :{{A|vo wylq003 7 competitora 01.ogg}} '''Clash Competitor:''' I've been waiting for this moment!
-:{{A|vo wylq003 7 beidou 08a.ogg}} {{A|vo wylq003 7 beidou 08b.ogg}} '''Beidou:''' I'm sure everyone witnessed {{MC|his|her|mc=1}} thrilling match in the semi-finals.
-:{{A|vo wylq003 7 beidou 09.ogg}} '''Beidou:''' But today's final round will surly take things up a notch!
+:{{A|vo wylq003 7 beidou 08a.ogg}} {{A|vo wylq003 7 beidou 08b.ogg}} '''Beidou:''' I'm sure everyone witnessed {{MC|m=his|f=her}} thrilling match in the semi-finals.
+:{{A|vo wylq003 7 beidou 09.ogg}} '''Beidou:''' But today's final round will surely take things up a notch!
 :{{A|vo wylq003 7 beidou 10.ogg}} '''Beidou:''' As for our other combatant... Uh, he still hasn't arrived.
 :{{A|vo wylq003 7 beidou 11.ogg}} '''Beidou:''' C'mon, what could be taking him so long? You can't just forfeit for not showing up like in previous rounds... This is the finals!
 :{{A|vo wylq003 7 beidou 12.ogg}} '''Beidou:''' Apologies! Everyone just sit tight!
 :{{DIcon}} Maybe they got the match time mixed up?
 :{{DIcon}} Maybe they're too intimidated to show up for the finals?
-:{{A|vo wylq003 7 beidou 13.ogg}} '''Beidou:''' We've got no other choice.... If he doesn't show up we'll just have to postpone the match.
+:{{A|vo wylq003 7 beidou 13.ogg}} '''Beidou:''' We've got no other choice... If he doesn't show up we'll just have to postpone the match.
 :{{A|vo wylq003 7 kazuha 01.ogg}} '''Kaedehara Kazuha:''' Wait a moment. Something doesn't seem right about this.
 :{{A|vo wylq003 7 kazuha 02.ogg}} '''Kaedehara Kazuha:''' Captain Beidou, perhaps we should check on the prize.
-:{{A|vo wylq003 7 kazuha 03.ogg}} '''Kaedehara Kazuha:''' (Traveler), come with us.
+:{{A|vo wylq003 7 kazuha 03.ogg}} '''Kaedehara Kazuha:''' {{Traveler}}, come with us.
 ----
 ;(Upon checking the vision box)
 :{{A|vo wylq003 8 beidou 01.ogg}} '''Beidou:''' Let me see...
@@ -97,14 +94,14 @@
 :{{A|vo wylq003 8 kazuha 03.ogg}} '''Kaedehara Kazuha:''' The Vision was the prize that I had offered, and it will be my responsibility to look after it. I will be certain to get it back.
 :{{A|vo wylq003 8 beidou 05.ogg}} '''Beidou:''' Well, if you insist. I'll leave the matter to you then.
 :{{A|vo wylq003 8 beidou 06.ogg}} '''Beidou:''' I'll stay here and try to offer some explanation to all the spectators that came to see the match.
-:{{A|vo wylq003 8 kazuha 04.ogg}} '''Kaedehara Kazuha:''' If you would, please come with me, (Traveler).
+:{{A|vo wylq003 8 kazuha 04.ogg}} '''Kaedehara Kazuha:''' If you would, please come with me, {{Traveler}}.
 :{{DIcon}} Seems there's nothing else we can do.
 :{{DIcon}} My opponent was a no-show anyway.
 :{{A|vo wylq003 8 paimon 02.ogg}} '''Paimon:''' Umm, but we're on an island, where could he have possibly run to?
 :{{A|vo wylq003 8 kazuha 05.ogg}} '''Kaedehara Kazuha:''' Come with me. I can sense the winds are coming.
 
 ;(Talk to Beidou)
-:{{A|vo dialog wylq003 beidou 01.ogg}} '''Beidou:''' I'll stay behind and explain the situation here. Just get the [[Vision]] back.
+:{{A|vo dialog wylq003 beidou 01.ogg}} '''Beidou:''' I'll stay behind and explain the situation here. Just get the Vision back.
 :{{A|vo dialog wylq003 beidou 02.ogg}} '''Beidou:''' The spectators were all geared up to see an exciting match. I can't let them return disappointed.
 
 ;(Talk to Zhuhan)
@@ -146,7 +143,7 @@
 :{{A|vo wylq003 18 kazuha 02.ogg}} '''Kaedehara Kazuha:''' In which case... please stand back.
 ----
 ;(Approach the Treasure Hoarder who stole the Vision)
-:{{A|vo wylq003 19 fei-the-flyer 01.ogg}} '''[[Fei the Flyer]]:''' You caught up with me... How is that possible!?
+:{{A|vo wylq003 19 fei-the-flyer 01.ogg}} '''Fei the Flyer:''' You caught up with me... How is that possible!?
 :{{A|vo wylq003 19 fei-the-flyer 02.ogg}} '''Fei the Flyer:''' I had even prepared a boat to ensure a quick getaway, and still, you caught up to me.
 :{{A|vo wylq003 19 kazuha 01.ogg}} '''Kaedehara Kazuha:''' No boat could ever match the speed of the wind.
 :{{A|vo wylq003 19 fei-the-flyer 03.ogg}} '''Fei the Flyer:''' The wind? What are you talking about? Oh, I get it... your Vision!
@@ -193,7 +190,7 @@
 :{{A|vo wylq003 20 kazuha 03.ogg}} '''Kaedehara Kazuha:''' What's wrong? Are you asking for more punishment?
 :{{A|vo wylq003 20 kazuha 04.ogg}} '''Kaedehara Kazuha:''' It's up to you. Such willingness is commendable and fits the way of the samurai.
 :{{A|vo wylq003 20 fei-the-flyer 04.ogg}} '''Fei the Flyer:''' N&mdash;No, no need for that. Thank you for releasing me. You truly are generous!
-'''''The Treasure Hoarder leaves in a frenzy.'''''
+:{{Black Screen|The Treasure Hoarder leaves in a frenzy.}}
 :{{A|vo wylq003 20 paimon 01.ogg}} '''Paimon:''' Huh, Paimon doesn't get it. Were you just trying to scare him?
 :{{A|vo wylq003 20 kazuha 05.ogg}} '''Kaedehara Kazuha:''' I take no pleasure in frightening others. I was just testing all possibilities while the Vision remained in his hands.
 :{{A|vo wylq003 20 kazuha 06.ogg}} '''Kaedehara Kazuha:''' When people are forced into a corner, that is when their greatest strength will appear. I thought it may be an opportunity for him to awaken the Vision.
@@ -215,42 +212,42 @@
 :{{A|vo wylq003 20 paimon 03.ogg}} '''Paimon:''' Yeah, what's the story behind this Vision, anyway?
 :{{A|vo wylq003 20 kazuha 16.ogg}} '''Kaedehara Kazuha:''' The story begins with an [[Kazuha's Friend|old friend]]...
 ----
-{{Cutscene Description|Kazuha recalls a friend he had in Inazuma who stepped forward to oppose the Vison Hunt Decree, only to be defeated and lose his Vison in duel before the throne...}}
-;(A [[#Cutscene|cinematic]] begins)
-::He was once a good friend of mine
-::One day, he asked me about a sword art of which he had heard
-::The [[Musou no Hitotachi]]
-::I told him
-::It can only be witnessed when "divine punishment" is administered
-::It is the pinnacle of the Raiden Shogun's skill
-::A symbol of ultimate power
-::But he replied: "There must be one who can withstand it"
-::"There will always be those who dare to brave the lightning's glow"
-::Then, the Vision Hunt Decree arrived
-::People's aspirations were stripped away
-::As the [[Raiden Shogun]] began to construct her ideal of "eternity"
-::While I was fleeing from place to place
-::I heard that my friend had challenged the [[Vision Hunt Decree|Vision Hunters]]
-::To a duel before the throne
-::A solemn yet brutal challenge
-::The defeated face divine punishment, while the victors gain a second chance
-::Perhaps he thought he of all people should make a stand
-::Coming face to face with the Musou No Hitotachi
-::Was all that he truly desired, after all
-::When I arrived at [[Tenshukaku]]
-::The duel was over
-::I heard his sentence of divine punishment
-::His severed blade hitting the ground
-::Perhaps that was the glory he had yearned to witness
-::In his last moments
-::What expression was on his face?
-::Before I knew it
-::I had stepped forward and snatched the dying Vision
-::And was running from the scene
-::All I knew was that I mustn't let his hope which burned so brightly
-::Become buried among the ice-cold statue of a god
+;(A cinematic plays)
+:{{Cutscene Description|Kazuha recalls a friend he had in Inazuma who stepped forward to oppose the Vison Hunt Decree, only to be defeated and lose his Vison in duel before the throne...}}
+::'''Kaedehara Kazuha:''' He was once a good friend of mine
+::'''Kaedehara Kazuha:''' One day, he asked me about a sword art of which he had heard
+::'''Kaedehara Kazuha:''' The Musou no Hitotachi
+::'''Kaedehara Kazuha:''' I told him
+::'''Kaedehara Kazuha:''' It can only be witnessed when "divine punishment" is administered
+::'''Kaedehara Kazuha:''' It is the pinnacle of the [[Raiden Shogun]]'s skill
+::'''Kaedehara Kazuha:''' A symbol of ultimate power
+::'''Kaedehara Kazuha:''' But he replied: "There must be one who can withstand it"
+::'''Kaedehara Kazuha:''' "There will always be those who dare to brave the lightning's glow"
+::'''Kaedehara Kazuha:''' Then, the Vision Hunt Decree arrived
+::'''Kaedehara Kazuha:''' Peoples' aspirations were stripped away
+::'''Kaedehara Kazuha:''' As the Raiden Shogun began to construct her ideal of "eternity"
+::'''Kaedehara Kazuha:''' While I was fleeing from place to place
+::'''Kaedehara Kazuha:''' I heard that my friend had challenged the Vision Hunters
+::'''Kaedehara Kazuha:''' To a duel before the throne
+::'''Kaedehara Kazuha:''' A solemn yet brutal challenge
+::'''Kaedehara Kazuha:''' The defeated face divine punishment, while the victors gain a second chance
+::'''Kaedehara Kazuha:''' Perhaps he thought he of all people should make a stand
+::'''Kaedehara Kazuha:''' Coming face to face with the Musou No Hitotachi
+::'''Kaedehara Kazuha:''' Was all that he truly desired, after all
+::'''Kaedehara Kazuha:''' When I arrived at Tenshukaku
+::'''Kaedehara Kazuha:''' The duel was over
+::'''Kaedehara Kazuha:''' I heard his sentence of divine punishment
+::'''Kaedehara Kazuha:''' His severed blade hitting the ground
+::'''Kaedehara Kazuha:''' Perhaps that was the glory he had yearned to witness
+::'''Kaedehara Kazuha:''' In his last moments
+::'''Kaedehara Kazuha:''' What expression was on his face?
+::'''Kaedehara Kazuha:''' Before I knew it
+::'''Kaedehara Kazuha:''' I had stepped forward and snatched the dying Vision
+::'''Kaedehara Kazuha:''' And was running from the scene
+::'''Kaedehara Kazuha:''' All I knew was that I mustn't let his hope which burned so brightly
+::'''Kaedehara Kazuha:''' Become buried among the ice-cold statue of a god
+:;(Cinematic ends)
 ----
-;(After the cinematic)
 :{{A|vo wylq003 21 kazuha 01.ogg}} '''Kaedehara Kazuha:''' Perhaps one day I may come to find that all I have done is meaningless.
 :{{A|vo wylq003 21 kazuha 02.ogg}} '''Kaedehara Kazuha:''' But as a wandering samurai, I find meaning in traveling and the sprawling beauty of nature that lies along the way, while still retaining the "warrior way" in my heart.
 :{{A|vo wylq003 21 paimon 01.ogg}} '''Paimon:''' Kazuha...
@@ -285,18 +282,21 @@
 :{{A|vo wylq003 23 kazuha 06.ogg}} '''Kaedehara Kazuha:''' But the voyage to Inazuma is a treacherous one. You will be plagued by a perpetual tempest the entire trip.
 :{{A|vo wylq003 23 kazuha 07.ogg}} '''Kaedehara Kazuha:''' In fact, the relentless rain and wind are also an embodiment of the Raiden Shogun's will to close the nation.
 :{{A|vo wylq003 23 paimon 03.ogg}} '''Paimon:''' Hold on a second, you're saying she can change the weather just with the power of her mind!?
-:{{A|vo wylq003 23 kazuha 08.ogg}} '''Kaedehara Kazuha:''' Let us not forget that this is one of the [[The Seven|Seven Archons]]. If Liyue's [[Morax]] could form [[Guyun Stone Forest]] by casting down his stone spears, then it should come as no great surprise that the Raiden Shogun is capable of summoning an eternal tempest.
+:{{A|vo wylq003 23 kazuha 08.ogg}} '''Kaedehara Kazuha:''' Let us not forget that this is one of the [[Seven Archons]]. If Liyue's [[Morax]] could form [[Guyun Stone Forest]] by casting down his stone spears, then it should come as no great surprise that the Raiden Shogun is capable of summoning an eternal tempest.
 :{{A|vo wylq003 23 kazuha 09.ogg}} '''Kaedehara Kazuha:''' Suffice it to say that if you wish to journey to Inazuma, the [[Alcor]] will need some time. You will be notified once all the preparations have been made.
 :{{A|vo wylq003 23 kazuha 10.ogg}} '''Kaedehara Kazuha:''' In the meantime, I intend to embark on a journey of my own. I will travel all across the vast lands of Liyue, in the hope of finding a way to reawaken the Vision.
 :{{A|vo wylq003 23 paimon 04.ogg}} '''Paimon:''' Paimon believes you'll find a way for sure!
 :{{A|vo wylq003 23 kazuha 11.ogg}} '''Kaedehara Kazuha:''' Thank you. May both our journeys prove meaningful.
 :{{A|vo wylq003 23 kazuha 12.ogg}} '''Kaedehara Kazuha:''' One final word of warning. The part of your journey that lies after the storm may well prove to be the most arduous.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Cutscene==
 <gallery>
 Story Teaser- The Solitary Pursuit of Lightning - Genshin Impact
 </gallery>
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -330,7 +330,7 @@ Story Teaser- The Solitary Pursuit of Lightning - Genshin Impact
 |pt      = Seguindo o Vento
 |pt_tl   = Following the Wind
 |tr      = Rüzgarı Takip Et
-|tr_tl   = 
+|tr_tl   = Follow the Wind
 |it      = Segui il vento
 |it_tl   = Follow the Wind
 }}
@@ -340,8 +340,9 @@ Story Teaser- The Solitary Pursuit of Lightning - Genshin Impact
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
-[[Category:Archon Chapter 2]]
 
+[[es:Viento en popa]]
 [[ja:風に乗って]]
 [[pt-br:Seguindo o Vento]]
 [[ru:По пути ветра]]
+[[vi:Thuận Buồm Xuôi Gió]]

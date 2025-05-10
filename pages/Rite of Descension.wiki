@@ -1,5 +1,5 @@
 {{Quest Infobox
-|id            = 01000
+|id            = 01000; 01001; 01007
 |image         = Archon Quest C1A1 Rite of Descension.png
 |type          = Archon
 |chapter       = I
@@ -13,9 +13,7 @@
 |subarea       = Liyue Harbor
 |prev          = Ending Note
 |next          = An Impromptu Change of Plan
-|exp           = 375
-|mora          = 11,550
-|other         = {{Card|Adventurer's Experience|4}}{{Card|Mystic Enhancement Ore|3}}{{Card|Sigil of Permission|1}}
+|rewards       = Adventure EXP*375;Mora*11,550;Adventurer's Experience*4;Mystic Enhancement Ore*3;Sigil of Permission*1
 |characters    = Bolai;Changshun;Fan Er'ye;Gentry De'an;Guanhai;Ivanovich;Jiangzhou;Jifang;Linlang;Tea Master Liu Su; Nervous An;Ningguang;Paimon;Tartaglia;Traveler
 |voiced        = yes
 }}
@@ -33,12 +31,12 @@
 #* This will involve another [[Stealth]] mission where the objective is to avoid being spotted by the NPCs.
 # Talk to [[Childe]] at the [[Northland Bank]]
 
-==Achievements==
-* Completing this quest will grant the ''[[Wonders of the World]]'' achievement ''[[Outlandish Behavior]]''.
+==Gameplay Notes==
+* Completing this quest will grant the {{Achievement|Outlandish Behavior}}.
 
 ==Dialogue==
 {{Quest Description|In the land of [[Liyue]] by the sea, a city sits atop the solid bedrock. That city is Liyue Harbor, and it has flourished under the protection of its guardian [[Morax]] &mdash; also known as "Rex Lapis," the [[Geo]] [[Archon]] you have been looking for. You could not have arrived at a more fortuitous time, as the annual "Rite of Descension" has just begun. Every year on this day, Rex Lapis graces this land with his prophecy, giving guidance on the economic path Liyue should follow in the coming year.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(At Liyue Harbor)
 :{{A|vo lyaq001 1 paimon 01.ogg}} '''Paimon:''' If you wanna find the Geo Archon, this is the only chance you'll get all year.
 :{{A|vo lyaq001 1 paimon 02.ogg}} '''Paimon:''' Guess it's a good thing [[Venti]] brought it up earlier, otherwise we definitely would've missed this year's Rite of Descension.
@@ -122,7 +120,7 @@
 :{{A|vo dialog lyaq001 jifang 02.ogg}} '''Jifang:''' How come he gets to go and have fun while I have to watch the shop?
 ----
 ;(At Yujing Terrace)
-:{{A|vo lyaq001 5 paimon 01.ogg}} '''Paimon:''' Paimon heard that the best time to make a wish is today, during the Rite of Descension. (Traveler), wanna give it a try?
+:{{A|vo lyaq001 5 paimon 01.ogg}} '''Paimon:''' Paimon heard that the best time to make a wish is today, during the Rite of Descension. {{Traveler}}, wanna give it a try?
 
 ;(Approach the altar)
 :{{A|vo lyaq001 7 assistantofcb 01.ogg}} {{A|vo lyaq001 7 millelithsoldier 01.ogg}} '''Assistant of the Tianquan/Millelith Guard:''' Halt. Those not involved in the proceedings are not permitted to go any further!
@@ -156,7 +154,7 @@
 :{{A|vo lyaq001 7 paimon 02.ogg}} '''Paimon:''' Hmm, who knows how long that Ms. Ningguang lady is gonna take.
 ----
 ;(Approach the crowd)
-:'''''You and Paimon wait for the Rite of Descension to begin.'''''
+:{{Black Screen|''You and Paimon wait for the Rite of Descension to begin.''}}
 {{Cutscene Description|Under Ningguang's direction, the Rite begins right on time, and Liyue's deity shows up as promised. But as the clouds disperse, the crowds watch in horror as the lifeless body of their lord drops onto the offering table. After inspecting the scene for a brief moment, Ningguang utters the unfathomable words: "Rex Lapis has been killed! Seal the exits!"}}
 ;(A cinematic begins)
 ::{{A|vo lyaq001 8 cs paimon 01.ogg}} '''Paimon:''' Whoa! Look at all the people...
@@ -178,7 +176,7 @@
 :{{DIcon}} (We can't fall into their hands...)
 ----
 ;(Escape from the Millelith)
-:{{A|vo lyaq001 10 paimon 01.ogg}} '''Paimon:''' Oh no... (Traveler), there's a whole bunch of soldiers out there too!
+:{{A|vo lyaq001 10 paimon 01.ogg}} '''Paimon:''' Oh no... {{Traveler}}, there's a whole bunch of soldiers out there too!
 :{{A|vo lyaq001 10 paimon 02.ogg}} '''Paimon:''' Your identity... You may not be the killer, but we can't let them get you!
 :{{A|vo lyaq001 10 paimon 03.ogg}} '''Paimon:''' But... can we even get out of here safely?
 
@@ -277,7 +275,8 @@
 :{{A|vo lyaq001 13 tartaglia 18.ogg}} '''Childe:''' Liyue was founded by the Geo Archon and the adepti &mdash; of course, it was built by force.
 :{{A|vo lyaq001 13 tartaglia 19.ogg}} '''Childe:''' Look for them. And be faster than the Qixing's messengers, so you may give your version of events first.
 :{{A|vo lyaq001 13 tartaglia 20.ogg}} '''Childe:''' If there is anyone that can help you in Liyue now, it can only be the mighty and illuminated adepti.
-{{Dialogue end}}
+;(Obtain {{Item|Sigil of Permission}})
+{{Dialogue End}}
 <!--
 Probably unused VOs:
 ===To be checked===
@@ -286,6 +285,9 @@ Probably unused VOs:
 * {{A|vo lyaq001 9 millelithsoldier 03.ogg}} '''Millelith Soldier:''' Just what exactly happened!?
 * {{A|vo lyaq001 9 millelithsoldier 04.ogg}} '''Millelith Soldier:''' In broad daylight! What kind of dark magic is this?
 * {{A|vo lyaq001 9 people 04.ogg}} '''People:''' Rex Lapis... Rex Lapis... How...--><!--Jiangzhou?--> <!--Stood next to her for over 2 minutes and she didn't speak, neither did Liu Su and Nervous An>-->
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -299,7 +301,6 @@ Probably unused VOs:
 |ja_rm   = Geisen{{Assumed}}
 |ja_tl   = Greeting Adepti
 |ko      = 청신
-|ko_rm   = Cheongsin
 |ko_tl   = Request Adepti
 |es      = Rito del Descenso
 |es_tl   = Rite of Descension
@@ -318,7 +319,7 @@ Probably unused VOs:
 |pt      = Ritual de Descensão
 |pt_tl   = Ritual of Descension
 |tr      = Zuhur Ayini
-|tr_tl   = 
+|tr_tl   = Rite of Manifestation
 |it      = Il Rito della discensione
 |it_tl   = The Rite of the Descension
 }}
@@ -328,9 +329,9 @@ Probably unused VOs:
 
 ==Navigation==
 {{Archon Quest Navbox|chapter=Chapter I}}
-[[Category:Archon Chapter 1]]
 
 [[es:Rito del Descenso]]
 [[fr:Rituel de la descente]]
 [[ja:迎仙]]
 [[pt-br:Ritual de Descensão]]
+[[vi:Thỉnh Tiên]]

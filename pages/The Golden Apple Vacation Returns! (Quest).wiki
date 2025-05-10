@@ -8,7 +8,6 @@
 |actNum        = I
 |actType       = None
 |part          = 1
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 * Reach [[Adventure Rank]] 32
 * Complete [[Autumn Winds, Scarlet Leaves]]
@@ -17,15 +16,13 @@
 |startLocation = [[City of Mondstadt]], [[Mondstadt]]
 |region        = Mondstadt
 |area          = Starfell Valley
-|subarea       = City of Mondstadt
+|subarea       = Mondstadt City
 |next          = As the Courtyard in Spring Once Appeared (Part 1)
-|mora          = 20,000
-|primogems     = 30
-|other         = {{Card|Hero's Wit|2}}
+|otherRewards  = 
 * Unlocks the [[Summertime Odyssey]] event and the [[Golden Apple Archipelago/2.8|Golden Apple Archipelago]]
 |voiced        = yes
 }}
-'''The Golden Apple Vacation Returns!''' is an [[Event Quest]] that unlocks the [[Summertime Odyssey]] Event.
+'''''The Golden Apple Vacation Returns!''''' is an [[Event Quest]] that unlocks the [[Summertime Odyssey]] Event.
 
 ==Steps==
 # Go to the Adventurers' Guild in Mondstadt
@@ -34,14 +31,14 @@
 #*If the quest cannot be progressed further, make sure you've completed [[Should You Be Trapped in a Windless Land (Quest)|Should You Be Trapped in a Windless Land]], as [[Nelson]], [[Quinn]] and [[Jack]] are busy.
 # Talk to everyone
 # Talk to [[Venti]] on the second floor of the tavern
-# Wait till the next morning (08:00 – 10:00)
+# Wait till the next morning (08:00&ndash;10:00)
 # Go to the city gate
 # Go to the location Paimon mentioned
 # Talk to everyone
 # Go to the island that [[Kazuha]] mentioned
 # Use Elemental Sight to follow the traces
 # Defeat the Fatui soldier
-#* {{Enemy|Cryogunner Legionnaire|x=1}}
+#* {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|x=1}}
 # Talk to the Fatui soldier
 # Return to camp
 # Contact Venti in a less conspicuous place
@@ -50,8 +47,8 @@
 * If the player attempts to go activate any of the other Waypoints outside of the island mentioned in Step 10, there is a chance that they will be forced to teleport further away. This behavior is inconsistent and not guaranteed, as players may be able to activate most or all Teleport Waypoints during this step without ever being teleported away.
 
 ==Dialogue==
-{{Quest Description|As summer comes into its own, you receive a mysterious letter. "To Whomsoever Finds This Letter" — the sender seems to be waiting for someone...}}
-{{Dialogue start}}
+{{Quest Description|As summer comes into its own, you receive a mysterious letter. "To Whomsoever Finds This Letter" &mdash; the sender seems to be waiting for someone...}}
+{{Dialogue Start}}
 ;(Talk to Katheryne)
 :{{A|vo yqeq101 1 katheryne 01.ogg}} '''Katheryne:''' Ah, Traveler. It so happens that a friend of yours asked me to pass on a voice message when I saw you.
 :{{A|vo yqeq101 1 paimon 01.ogg}} '''Paimon:''' Someone left a message for us? Who could it be?
@@ -82,13 +79,13 @@
 :{{A|vo yqeq101 2 paimon 03.ogg}} '''Paimon:''' Paimon wants to say a proper hello too, but Paimon has no idea how to, uh... partake...
 :{{A|vo yqeq101 2 mona 02.ogg}} '''Mona:''' A normal person in this situation would simply say: "Hi Traveler, how have you been?"
 :{{DIcon}} Fine, thanks.
-:{{A|vo yqeq101 2 fischl 03a.ogg}} '''Fischl:''' Hmph! (Traveler) and I are like intertwined stars in the vast galaxy. You of all people should very well know the fate foretold by this meeting!
+:{{A|vo yqeq101 2 fischl 03a.ogg}} '''Fischl:''' Hmph! {{Traveler}} and I are like intertwined stars in the vast galaxy. You of all people should very well know the fate foretold by this meeting!
 :{{A|vo yqeq101 2 oz 03.ogg}} '''Oz:''' Precisely! Lady Megistus, please refrain from such unimaginative utterances.
 :{{A|vo yqeq101 2 paimon 04.ogg}} '''Paimon:''' ...Lady M&mdash;Meg...? What now?
 :{{DIcon}} Is that your new nickname?
 :{{A|vo yqeq101 2 fischl 04.ogg}} '''Fischl:''' Hehe, Lady Megistus has long since become a citizen of the Immernachtreich. She has been serving as Court Archmage under one's command for some time now.
 :{{A|vo yqeq101 2 mona 03.ogg}} '''Mona:''' Ahem! That's just my surname, don't mind that... This is so embarrassing, hahaha...
-:{{A|vo yqeq101 2 mona 04.ogg}} '''Mona:''' (Traveler), you're here because Fischl asked Katheryne to ask you to come, right?
+:{{A|vo yqeq101 2 mona 04.ogg}} '''Mona:''' {{Traveler}}, you're here because Fischl asked Katheryne to ask you to come, right?
 :{{A|vo yqeq101 2 fischl 05.ogg}} '''Fischl:''' Indeed so, my Archmage. Did even this appear in thy divination? Why, your powers are truly dangerous.
 :{{A|vo yqeq101 2 mona 05.ogg}} '''Mona:''' Oh for the love of... No, of course not! You told me yourself that you'd left a message with Katheryne!
 :{{A|vo yqeq101 2 mona 06.ogg}} '''Mona:''' Ahem! Excuse me... Anyway, in my case she practically beat the door down to get me to come along... Whatever she says, please don't be too astonished.
@@ -113,7 +110,7 @@
 :{{A|vo yqeq101 2 paimon 08.ogg}} '''Paimon:''' Could you cut the re-enactment and just get to the point!
 :{{A|vo yqeq101 2 mona 13.ogg}} '''Mona:''' In short, Klee gave Fischl an island to serve as the promised land where the Immernachtreich will reappear. I didn't believe it either at first, but then I saw this letter.
 :;(Open Mysterious Letter)
-::'''Mysterious Letter'''
+::{{Black Screen|Mysterious Letter}}
 ::Esteemed Prinzessin of the Immernachtreich,
 ::I am a witch who travels amidst the mountains and rivers of Teyvat.
 ::I write to you, having heard from my young daughter that your kingdom has fallen and that you are searching for a way to restore it.
@@ -133,13 +130,11 @@
 :{{DIcon}} I knew it...
 :{{A|vo yqeq101 2 paimon 12.ogg}} '''Paimon:''' Hehehe, since thou askethed for our help, Paimon can telleth you that we are good friends with the Spark Knight, Klee: The Guides of Destiny!
 :{{DIcon}} Paimon, seriously...
-:{{A|vo yqeq101 2 paimon 13.ogg}} '''Paimon:''' (Traveler), come on, just play along!
+:{{A|vo yqeq101 2 paimon 13.ogg}} '''Paimon:''' {{Traveler}}, come on, just play along!
 :{{DIcon}} Very well! I am the one whomst hath traveled here from beyond the stars!
-:{{A|vo yqeq101 2 mona 16.ogg}} '''Mona:''' Behold, the watcher, the guide, the weaver of dreams... (Traveler)!
+:{{A|vo yqeq101 2 mona 16.ogg}} '''Mona:''' Behold, the watcher, the guide, the weaver of dreams... {{Traveler}}!
 :{{A|vo yqeq101 2 fischl 13.ogg}} '''Fischl:''' Hahahaha! Excellent, most excellent!
-
-:'''A crowd of bemused Mondstadters watches on as this spectacle continues for another half hour...'''
-
+:{{Black Screen|A crowd of bemused Mondstadters watches on as this spectacle continues for another half hour...}}
 :{{A|vo yqeq101 2 mona 17.ogg}} '''Mona:''' ...To sum up, Traveler, since you say you know the way, we'll let you take us to the island&mdash; I mean, the promised land.
 :{{DIcon}} For the Prinzessin!
 :{{DIcon}} Lady Megistus, leave it to me.
@@ -157,9 +152,9 @@
 ----
 ;(Enter Angel's Share)
 :{{A|vo yqeq101 3 paimon 01.ogg}} '''Paimon:''' We're here! Tone-Deaf Bard! ...Huh!?
-:{{A|vo yqeq101 3 paimon 02.ogg}} '''Paimon:''' (Traveler), what are they doing in Mondstadt!?
+:{{A|vo yqeq101 3 paimon 02.ogg}} '''Paimon:''' {{Traveler}}, what are they doing in Mondstadt!?
 :{{A|vo yqeq101 3 venti 01.ogg}} '''Venti:''' Well look at that, you're really here! Come on, take a seat and join our delightful conversation!
-:{{A|vo yqeq101 3 xinyan 01.ogg}} '''Xinyan:''' Wow, (Traveler), Paimon! Speak of the devil, we were literally just talking about you!
+:{{A|vo yqeq101 3 xinyan 01.ogg}} '''Xinyan:''' Wow, {{Traveler}}, Paimon! Speak of the devil, we were literally just talking about you!
 :{{Introductory Note|Xinyan}}
 :{{A|vo yqeq101 3 kazuha 01.ogg}} '''Kaedehara Kazuha:''' Haha, truly a curious coincidence.
 :{{A|vo yqeq101 3 paimon 03.ogg}} '''Paimon:''' Kazuha, [[Xinyan]], what are you doing here in a Mondstadt tavern? And how'd you end up having to share a table with the Tone-Deaf Bard...?
@@ -176,7 +171,7 @@
 :{{A|vo yqeq101 3 paimon 04.ogg}} '''Paimon:''' Oh! Yeah, we know the one. [[Diluc|Our friend]] owns that place.
 :{{A|vo yqeq101 3 xinyan 07.ogg}} '''Xinyan:''' Really? Y'all sure have a lot of friends! Well, whoever it is that lives in that fine place must really be lovin' life, huh?
 :{{A|vo yqeq101 3 paimon 05.ogg}} '''Paimon:''' Uh... guess so, heh...
-:{{A|vo yqeq101 3 kazuha 03.ogg}} '''Kaedehara Kazuha:''' Similar souls tend to attract each other. (Traveler) and Paimon, you must have exceptional taste, just like that friend of yours.
+:{{A|vo yqeq101 3 kazuha 03.ogg}} '''Kaedehara Kazuha:''' Similar souls tend to attract each other. {{Traveler}} and Paimon, you must have exceptional taste, just like that friend of yours.
 :{{A|vo yqeq101 3 paimon 06.ogg}} '''Paimon:''' Wow, you're too nice! Unlike some people who only ever seem to poke fun at Paimon, ahem!
 :{{A|vo yqeq101 3 xinyan 08.ogg}} '''Xinyan:''' By the way, do you know anything about the "[[Iridescence Tour]]"? It's supposed to be huge. Rumor has it that all seven nations of Teyvat are gonna be involved.
 :{{DIcon}} I remember.
@@ -197,21 +192,19 @@
 :{{A|vo yqeq101 3 venti 13.ogg}} '''Venti:''' "There was no trial, by fire or interrogation. The little knight's mother, who was a mage, had built an entire summer city there as a gift to her daughter along with this message:"
 :{{A|vo yqeq101 3 venti 14.ogg}} '''Venti:''' "Summer is the season of love. It is the time for freedom and fun. So everyone, please sing, dance, and enjoy yourselves here."
 :{{A|vo yqeq101 3 venti 15.ogg}} '''Venti:''' ...The end.
-:'''(Traveler):''' (Strange, I was just about to ask about the island...)
+:'''{{Traveler}}:''' (Strange, I was just about to ask about the island...)
 :{{A|vo yqeq101 3 kazuha 05.ogg}} '''Kaedehara Kazuha:''' How interesting. I now have the urge to visit that island myself... This is the thing about traveling. You can't plan ahead, better to leave when the mood takes you and go where the heart leads.
 :{{A|vo yqeq101 3 venti 16.ogg}} '''Venti:''' Haha, I'm glad you liked it. Well, there's wine on the table, and I have stories to tell... seems like fate is feeling kind today.
-:{{A|vo yqeq101 3 xinyan 13.ogg}} '''Xinyan:''' Here's to music! Come on, (Traveler)!
+:{{A|vo yqeq101 3 xinyan 13.ogg}} '''Xinyan:''' Here's to music! Come on, {{Traveler}}!
 :{{A|vo yqeq101 3 venti 17.ogg}} '''Venti:''' Don't worry, if you don't like wine, there's juice as well.
 :{{A|vo yqeq101 3 kazuha 06.ogg}} '''Kaedehara Kazuha:''' In that case, I'll have a glass of juice. Hmm... this one. I like the color.
-
-:'''Somehow, you get dragged into drinking one glass after another until... Suddenly, you notice someone is feeling very tipsy.'''
-
+:{{Black Screen|Somehow, you get dragged into drinking one glass after another until... Suddenly, you notice someone is feeling very tipsy.}}
 :{{A|vo yqeq101 3 paimon 07.ogg}} '''Paimon:''' Oh no! Kazuha!
 :{{A|vo yqeq101 3 xinyan 14.ogg}} '''Xinyan:''' Uh-oh, this fella's drunk... But wasn't he drinking fruit juice?
 :{{A|vo yqeq101 3 kazuha 07.ogg}} '''Kaedehara Kazuha:''' More... please more...
 :{{A|vo yqeq101 3 venti 18.ogg}} '''Venti:''' Oops, I think I accidentally placed some fruity cocktails out there... Ehe, my bad.
 :{{A|vo yqeq101 3 paimon 08.ogg}} '''Paimon:''' Seriously!?
-:{{A|vo yqeq101 3 venti 19.ogg}} '''Venti:''' Anyway, guess it's time to talk about business after all that drinking. (Traveler), you came here because you need my help, I presume?
+:{{A|vo yqeq101 3 venti 19.ogg}} '''Venti:''' Anyway, guess it's time to talk about business after all that drinking. {{Traveler}}, you came here because you need my help, I presume?
 :{{A|vo yqeq101 3 paimon 09.ogg}} '''Paimon:''' Oh, yeah, that's a good point... We didn't come here to drink...
 :{{DIcon}} Venti, come with me.
 
@@ -221,9 +214,7 @@
 
 ;(Go to the top of the tavern)
 :{{A|vo yqeq101 4 venti 01.ogg}} '''Venti:''' Look where we are... Yup, I can sense that you're about to tell me something very interesting.
-
-:'''You tell Venti about the Spark Knight giving an island to Fischl, and Fischl's plans to head there...'''
-
+:{{Black Screen|You tell Venti about the Spark Knight giving an island to Fischl, and Fischl's plans to head there...}}
 :{{A|vo yqeq101 4 venti 02.ogg}} '''Venti:''' Klee gave a special gift from her mother to an adventurer friend? She's such a kindhearted child.
 :{{A|vo yqeq101 4 venti 03.ogg}} '''Venti:''' As I'm sure you've already guessed, that letter is most definitely written by Alice.
 :{{A|vo yqeq101 4 paimon 01.ogg}} '''Paimon:''' Yeah, thought so...
@@ -233,7 +224,7 @@
 :{{A|vo yqeq101 4 paimon 03.ogg}} '''Paimon:''' Alice and Klee!?
 :{{A|vo yqeq101 4 venti 06.ogg}} '''Venti:''' Ding-ding-ding! Correct answer!
 :{{A|vo yqeq101 4 venti 07.ogg}} '''Venti:''' The unaging mage was taking her teeny-tiny knight on a vacation, and I happened to run into them. As a friendly greeting, the mysterious woman gave me a gift...
-:{{A|vo yqeq101 4 venti 08.ogg}} '''Venti:''' She also said that if I meet any fun friends, I should share this gift with them. So now, it's yours to keep, (Traveler).
+:{{A|vo yqeq101 4 venti 08.ogg}} '''Venti:''' She also said that if I meet any fun friends, I should share this gift with them. So now, it's yours to keep, {{Traveler}}.
 :{{A|vo yqeq101 4 paimon 04.ogg}} '''Paimon:''' Ahh! It's a bomb!
 :{{A|vo yqeq101 4 venti 09.ogg}} '''Venti:''' Minus the fuse &mdash; so don't worry, it's not going to explode. Come on, take it. This way, we can talk to each other just like this even when we're apart.
 :{{DIcon}} Wow, that sounds impressive.
@@ -243,7 +234,7 @@
 :{{A|vo yqeq101 4 venti 13.ogg}} '''Venti:''' Don't worry about how to get there. The organizers of this vacation have made arrangements. Turn right after you exit the city gates, and you'll see something that will make you very happy.
 :{{A|vo yqeq101 4 paimon 05.ogg}} '''Paimon:''' Sounds like the two of you are in cahoots over this...
 :{{A|vo yqeq101 4 venti 14.ogg}} '''Venti:''' Haha, of course not. Is that really the sort of person you think I am?
-:{{A|vo yqeq101 4 venti 15.ogg}} '''Venti:''' (Traveler), you're my friend. And as your friend, I just want to give you something that will make you happy. How can you think this of me?
+:{{A|vo yqeq101 4 venti 15.ogg}} '''Venti:''' {{Traveler}}, you're my friend. And as your friend, I just want to give you something that will make you happy. How can you think this of me?
 :{{DIcon}} Alright, I'll go.
 :{{A|vo yqeq101 4 paimon 06.ogg}} '''Paimon:''' Fair enough... the Tone-Deaf Bard does like to joke around, but he's still one of our best friends. Besides, a vacation sounds great, hehe...
 :{{A|vo yqeq101 4 paimon 07.ogg}} '''Paimon:''' Actually, Kazuha and Xinyan seemed pretty interested in coming on this trip, too. Let's ask them if they wanna join us!
@@ -255,10 +246,10 @@
 :{{A|vo yqeq101 4 kazuha 02.ogg}} '''Kaedehara Kazuha:''' Can't... miss... the adventure...
 :{{A|vo yqeq101 4 xinyan 03.ogg}} '''Xinyan:''' Hahahaha, Kazuha might act mature, but deep down he's just another youngster eager for new experiences. That must be why he didn't think anything of the "fruit juice" earlier.
 :{{A|vo yqeq101 4 venti 16.ogg}} '''Venti:''' Well, all the more reason for you to join the island trip! You know, a lot of people have praised the beautiful scenery there &mdash; even bards.
-:{{A|vo yqeq101 4 xinyan 04.ogg}} '''Xinyan:''' Okay! Sounds like a plan! (Traveler), how do we get there?
+:{{A|vo yqeq101 4 xinyan 04.ogg}} '''Xinyan:''' Okay! Sounds like a plan! {{Traveler}}, how do we get there?
 :{{A|vo yqeq101 4 paimon 09.ogg}} '''Paimon:''' Someone's got it covered, apparently. There'll be a few others joining us on this trip, and we're meeting at the city gate tomorrow morning. We'll wait for you.
 :{{DIcon}} Kazuha, wake up! We're going wandering!
-:{{A|vo yqeq101 4 kazuha 03.ogg}} '''Kaedehara Kazuha:''' ...Hm? (Traveler)?
+:{{A|vo yqeq101 4 kazuha 03.ogg}} '''Kaedehara Kazuha:''' ...Hm? {{Traveler}}?
 :{{A|vo yqeq101 4 paimon 10.ogg}} '''Paimon:''' Oh yeah, they don't know Fischl yet, do they! Okay, so here's the deal, there's a princess from a faraway land and her retinue, who're also coming on this trip...
 :{{A|vo yqeq101 4 xinyan 05.ogg}} '''Xinyan:''' ...?
 :{{A|vo yqeq101 4 xinyan 06.ogg}} '''Xinyan:''' Uh, Paimon, don't get me wrong, I'm just askin' to make sure... but from the way you're plugging this trip so hard... did the Iridescence Tour folks put you up to this?
@@ -311,15 +302,15 @@
 :{{A|vo yqeq101 5 paimon 05.ogg}} '''Paimon:''' By the way, Lady Megistus, we found out how to get to the promised land.
 :{{A|vo yqeq101 5 paimon 06.ogg}} '''Paimon:''' A legendary great mage gave us a big hint. Come on, everyone follow Paimon!
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|As summer comes into its own, you receive a mysterious letter from Fischl, who seems enthusiastic about inviting everyone to the Golden Apple Archipelago. With Venti and Alice's help, several friends have joined you. Now is the time to set off on your new adventure to the mysterious islands you are visiting for the first time... or not.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo yqeq101 6 paimon 01.ogg}} '''Paimon:''' Look, everyone! Here's our vehicle.
 :{{A|vo yqeq101 6 mona 01.ogg}} '''Mona:''' ...
 :{{A|vo yqeq101 6 mona 02.ogg}} '''Mona:''' Somehow, I suddenly don't feel like going anymore.
 :{{A|vo yqeq101 6 xinyan 01.ogg}} '''Xinyan:''' What a... unique little thing. Looks kinda like Guoba, doesn't it?
-:{{DIcon}} ?
+:{{DIcon|space=1}}?
 :{{A|vo yqeq101 6 kazuha 01.ogg}} '''Kaedehara Kazuha:''' Guoba... is he the magical creature at Wanmin Restaurant? Now that you mention it... it does look quite similar.
 :{{A|vo yqeq101 6 paimon 02.ogg}} '''Paimon:''' Uh... to be honest, even Paimon isn't so sure this can take us to the island after all...
 :{{A|vo yqeq101 6 fischl 01.ogg}} '''Fischl:''' ...Hm.
@@ -331,11 +322,8 @@
 :{{A|vo yqeq101 6 mona 03.ogg}} '''Mona:''' Maybe I should just do a quick reading for safety...
 :{{A|vo yqeq101 6 paimon 04.ogg}} '''Paimon:''' Lady Megistus, it's fine! This is Alice's creation, it's totally safe! Spare yourself the trouble, just come with us.
 :{{A|vo yqeq101 6 mona 04.ogg}} '''Mona:''' Oh right! I completely forgot...*sigh* Alright.
-
-:'''Everyone exchanges glances before, one by one, stepping nervously but excitedly into the "Dodofortress"...'''
-
-:'''The journey is an eventful one... and maybe a little crowded...?'''
-
+:{{Black Screen|Everyone exchanges glances before, one by one, stepping nervously but excitedly into the "Dodofortress"...}}
+:{{Black Screen|The journey is an eventful one... and maybe a little crowded...?}}
 :{{A|vo yqeq101 6 paimon 05.ogg}} '''Paimon:''' It's so dark in here. Um, can someone turn on a light? Hey! Quit pushing!
 :{{A|vo yqeq101 6 mona 05.ogg}} '''Mona:''' Come on now, let's all try and stay... Ow! Fischl! You're treading on my hair!
 :{{A|vo yqeq101 6 fischl 05.ogg}} '''Fischl:''' I thought it was a snake!
@@ -369,7 +357,7 @@
 :{{A|vo yqeq101 7 mona 07.ogg}} '''Mona:''' Ridiculous. I've never lost a single swimming race in my life. Bring it on! First one to run to the beach wins!
 :{{A|vo yqeq101 7 xinyan 04.ogg}} '''Xinyan:''' Are they serious? Running? I thought they were gonna swim.
 :{{DIcon}} Never mind, looks like they're enjoying this.
-:{{A|vo yqeq101 7 kazuha 03.ogg}} '''Kaedehara Kazuha:''' I take it you have no present plans, (Traveler)? I want to start by surveying the area first. Want to come along?
+:{{A|vo yqeq101 7 kazuha 03.ogg}} '''Kaedehara Kazuha:''' I take it you have no present plans, {{Traveler}}? I want to start by surveying the area first. Want to come along?
 :{{DIcon}} Oh Kazuha, it's good we can count on you.<!--
 random missing line, I think
 :{{A|vo yqeq101 7 kazuha 04.ogg}} '''Kaedehara Kazuha:''' I saw an island in the northwest, far in the distance. It looked very distinctive. I'd like to take a look.-->
@@ -393,10 +381,10 @@ random missing line, I think
 :{{A|vo yqeq101 8 kazuha 04.ogg}} '''Kaedehara Kazuha:''' ...
 ;(Kazuha examines the footsteps)
 :{{A|vo yqeq101 8 kazuha 05.ogg}} '''Kaedehara Kazuha:''' ...
-:{{A|vo yqeq101 8 kazuha 06.ogg}} '''Kaedehara Kazuha:''' (Traveler), Paimon, stay alert.
+:{{A|vo yqeq101 8 kazuha 06.ogg}} '''Kaedehara Kazuha:''' {{Traveler}}, Paimon, stay alert.
 :{{A|vo yqeq101 8 paimon 03.ogg}} '''Paimon:''' Why? Did you see something?
 :{{A|vo yqeq101 8 kazuha 07.ogg}} '''Kaedehara Kazuha:''' Someone was here... and they're still nearby. Judging from the scent... they are visitors here, like us.
-:{{A|vo yqeq101 8 paimon 04.ogg}} '''Paimon:''' There's other people here? Oh, Paimon's scared now...Come on, (Traveler), we need to track 'em down!
+:{{A|vo yqeq101 8 paimon 04.ogg}} '''Paimon:''' There's other people here? Oh, Paimon's scared now...Come on, {{Traveler}}, we need to track 'em down!
 
 :{{A|vo yqeq101 8 paimon 05.ogg}} '''Paimon:''' You said the cap had traces of Hydro on it? Then let's follow the traces of elemental energy!
 
@@ -416,9 +404,7 @@ random missing line, I think
 :{{A|vo yqeq101 9 strangesoldier 03.ogg}} '''Strange Soldier:''' Ah! I don't know anything... Gimme back cappy-cap... *sob*
 :{{A|vo yqeq101 9 kazuha 02.ogg}} '''Kaedehara Kazuha:''' Is this the cap you're looking for?
 :{{A|vo yqeq101 9 strangesoldier 04.ogg}} '''Strange Soldier:''' My brother's cappy-cap! Gimme, gimme, gimme!
-
-:'''You return the cap to the Fatuus.'''
-
+:{{Black Screen|You return the cap to the Fatuus.}}
 :{{A|vo yqeq101 9 paimon 03.ogg}} '''Paimon:''' Uh, this guy is not the sharpest sword in the sheath...
 :{{A|vo yqeq101 9 strangesoldier 05.ogg}} '''Strange Soldier:''' Don't bully me! Or I'll punch you in the... Aah! Monster, monster! *sob*
 :{{A|vo yqeq101 9 persikov 01.ogg}} '''???:''' Stop right there! What are you doing here?
@@ -445,10 +431,10 @@ random missing line, I think
 :{{A|vo yqeq101 9 strangesoldier 08.ogg}} '''Strange Soldier:''' O&mdash;Okay...
 :{{A|vo yqeq101 9 paimon 09.ogg}} '''Paimon:''' Paimon can't believe we have to deal with the Fatui during our vacation...
 :{{A|vo yqeq101 9 kazuha 04.ogg}} '''Kaedehara Kazuha:''' Why would the Fatui appear in such an isolated corner of the world... Whatever their reasons, it's likely more complicated than we might think.
-:{{A|vo yqeq101 9 kazuha 05.ogg}} '''Kaedehara Kazuha:''' Even though we're on vacation, we should stay vigilant, (Traveler).
+:{{A|vo yqeq101 9 kazuha 05.ogg}} '''Kaedehara Kazuha:''' Even though we're on vacation, we should stay vigilant, {{Traveler}}.
 :{{DIcon}} I agree.
 :{{A|vo yqeq101 9 kazuha 06.ogg}} '''Kaedehara Kazuha:''' Also, in the interests of keeping the ladies in good spirits, I have a suggestion.
-:{{A|vo yqeq101 9 kazuha 07.ogg}} '''Kaedehara Kazuha:''' Let's keep this between us for now. Let them enjoy their vacation while (Traveler) and I deal with any potential threats. What do you think?
+:{{A|vo yqeq101 9 kazuha 07.ogg}} '''Kaedehara Kazuha:''' Let's keep this between us for now. Let them enjoy their vacation while {{Traveler}} and I deal with any potential threats. What do you think?
 :{{DIcon}} Makes sense. I'm in.
 :{{A|vo yqeq101 9 paimon 10.ogg}} '''Paimon:''' You're so considerate, Kazuha.
 :{{A|vo yqeq101 9 kazuha 08.ogg}} '''Kaedehara Kazuha:''' Paimon, you flatter me. I simply don't think it's worth ruining anyone's vacation over a trivial matter like this.
@@ -460,7 +446,7 @@ random missing line, I think
 ----
 ;(Returning to the camp)
 :{{A|vo yqeq101 10 paimon 01.ogg}} '''Paimon:''' We're back!
-:{{A|vo yqeq101 10 mona 01.ogg}} '''Mona:''' Just in time! So (Traveler), Paimon, who do you think the real swimming champion is? Me or Fischl?
+:{{A|vo yqeq101 10 mona 01.ogg}} '''Mona:''' Just in time! So {{Traveler}}, Paimon, who do you think the real swimming champion is? Me or Fischl?
 :{{A|vo yqeq101 10 fischl 01.ogg}} '''Fischl:''' Haha! Utter my supreme name, and see how Lady Megistus the presumptuous is reduced to bitter tears!
 :{{DIcon}} Uh, I'll go with whoever Paimon says is the winner.
 :{{A|vo yqeq101 10 paimon 02.ogg}} '''Paimon:''' Oh no you don't! Don't put this on Paimon!
@@ -481,7 +467,7 @@ random missing line, I think
 :{{A|vo yqeq101 10 kazuha 02.ogg}} '''Kaedehara Kazuha:''' Since Xinyan made dinner for us, allow me to take charge of breakfast tomorrow.
 :{{DIcon}} Great! Looking forward to it already!
 :{{A|vo yqeq101 10 paimon 06.ogg}} '''Paimon:''' Paimon too!
-:{{A|vo yqeq101 10 paimon 07.ogg}} '''Paimon:''' Oh, (Traveler), you forgot about something!
+:{{A|vo yqeq101 10 paimon 07.ogg}} '''Paimon:''' Oh, {{Traveler}}, you forgot about something!
 :{{A|vo yqeq101 10 paimon 08.ogg}} '''Paimon:''' Uh, let's talk over there.
 
 ;(Go to the top of the hill)
@@ -490,7 +476,7 @@ random missing line, I think
 :{{A|vo yqeq101 11 paimon 03.ogg}} '''Paimon:''' Yeah, let's ask Venti if he knows anything. He always seems clued-in on everything, so if there's any intel floating around, he'll definitely know about it!
 :'''Dodocommunication Device:''' Dodo! Dodo! Dodoco!
 :{{A|vo yqeq101 11 venti 01.ogg}} '''Venti:''' Achoo! Ugh...
-:{{A|vo yqeq101 11 venti 02.ogg}} '''Venti:''' Heya! Miss me already, (Traveler)?
+:{{A|vo yqeq101 11 venti 02.ogg}} '''Venti:''' Heya! Miss me already, {{Traveler}}?
 :{{DIcon}} Hi Venti, it's me.
 :{{A|vo yqeq101 11 venti 03.ogg}} '''Venti:''' Haha, I know that. You're the only person who can contact me on this thing.
 :{{A|vo yqeq101 11 paimon 04.ogg}} '''Paimon:''' How come you're sneezing?
@@ -518,28 +504,28 @@ random missing line, I think
 :{{A|vo yqeq101 11 paimon 12.ogg}} '''Paimon:''' Well, if that's what the Tone-Deaf Bard says... then fingers crossed we'll have a peaceful and relaxing vacation where nothing weird happens at all.
 :{{A|vo yqeq101 11 paimon 13.ogg}} '''Paimon:''' When you go off on a long trip with your friends, the important thing is to have fun!
 ;(Quest completes)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Post-Quest==
 ===Not Time-Limited===
 ====Venti====
 Venti can be found on the roof of [[Cat's Tail]] starting from before the quest ends<!-- confirmed as early as... the final step; is it possible to see him earlier? note the following sentence, though -->. However, it is possible for him to not appear until at least one server reset happens after he speaks of his work in Step 5.
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Venti on the roof of [[Cat's Tail]])
 :{{A|vo dialog yqeq101 venti 01.ogg}} '''Venti:''' Achoo!
 :{{A|vo dialog yqeq101 venti 02.ogg}} '''Venti:''' Ugh... Guess I shouldn't get too close to the cats after all... I'll just stay on the roof.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Interactables====
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Check the book on a nearby stone)
 :'''Swimming Race That Must Have A Result Today:''' Archmage Megistus Versus Fischl the Prinzessin der Verurteilung, 10:7
-:'''(Traveler):''' (The number "10" has been struck out haphazardly. It is very obvious who did this. There are also some complaints scribbled next to it &mdash; something like "How dare you hold back. I need no sympathy from my opponent!" as you take a closer look.)
-:'''(Traveler):''' (It looks like the two competitors are on good terms. But it is a surprise that Mona should hold back in a contest against Fischl.)
-{{Dialogue end}}
+:'''{{Traveler}}:''' (The number "10" has been struck out haphazardly. It is very obvious who did this. There are also some complaints scribbled next to it &mdash; something like "How dare you hold back. I need no sympathy from my opponent!" as you take a closer look.)
+:'''{{Traveler}}:''' (It looks like the two competitors are on good terms. But it is a surprise that Mona should hold back in a contest against Fischl.)
+{{Dialogue End}}
 
 ===Time-Limited===
-{{Dialogue start}}
+{{Dialogue Start}}
 These dialogue lines were only available to players who completed ''The Golden Apple Vacation Returns!'' before ''As the Courtyard in Spring Once Appeared'' became unlockable.
 ;(Talk to Kazuha or Xinyan)
 :{{A|vo dialog yqeq101 kazuha 02.ogg}} '''Kaedehara Kazuha:''' It was a great pleasure to enjoy a delicious meal to the gentle whisper of the sea breeze. Thank you for making dinner for everyone, Xinyan.
@@ -554,51 +540,27 @@ These dialogue lines were only available to players who completed ''The Golden A
 ;(Talk to Mona or Fischl)
 :{{A|vo dialog yqeq101 fischl 01.ogg}} '''Fischl:''' The mortal temptations stopped the truth in its tracks, denying the verdict of my victory the chance to be announced in my presence.
 :{{A|vo dialog yqeq101 mona 01.ogg}} '''Mona:''' Wow, I'm surprised you have the nerve to bring that up again.
-:{{A|vo dialog yqeq101 mona 02.ogg}} '''Mona:''' You and Oz are like two peas in a pod, trying desperately to convince (Traveler) and Paimon that you were the victor. I hardly see how that's fair.
+:{{A|vo dialog yqeq101 mona 02.ogg}} '''Mona:''' You and Oz are like two peas in a pod, trying desperately to convince {{Traveler}} and Paimon that you were the victor. I hardly see how that's fair.
 :{{A|vo dialog yqeq101 mona 03.ogg}} '''Mona:''' Besides, only the loser would want to get&mdash;
 :{{A|vo dialog yqeq101 fischl 02.ogg}} '''Fischl:''' Say that again?
 :{{A|vo dialog yqeq101 oz 01.ogg}} '''Oz:''' Mein Fräulein, she means to say that you are the loser.
 :{{A|vo dialog yqeq101 fischl 03.ogg}} '''Fischl:''' Silence, Oz!
 :{{A|vo dialog yqeq101 fischl 04.ogg}} '''Fischl:''' Ahem... Lady Megistus, let us put aside the sacred matter of our trial for now. Once I have reclaimed my throne in the Immernachtreich, we shall settle this for good in the Garten Sanssouci!
 :{{A|vo dialog yqeq101 mona 04.ogg}} '''Mona:''' Oh, that's fine by me, I'll beat you no matter how many times you ask for a rematch... wait, but what is that place, exactly?
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
-{{Other Languages
-|en      = The Golden Apple Vacation Returns!
-|zhs     = 再临！金苹果假日
-|zhs_rm  = Zàilín! Jīn Píngguǒ Jiàrì
-|zht     = 再臨！金蘋果假日
-|zht_rm  = Zàilín! Jīn Píngguǒ Jiàrì
-|zh_tl   = Returns! The Golden Apple Vacation
-|ja      = 再臨！金リンゴバカンス
-|ja_rm   = Sairin! Kin Ringo Bakansu
-|ja_tl   = Returns! The Golden Apple Vacation
-|ko      = 다시 찾아온 금사과의 휴일!
-|ko_rm   = Dasi Chajaon Geumsagwa-ui Hyuil!
-|ko_tl   = The Golden Apple Vacation Returns!
-|es      = ¡Otras vacaciones en Manzana Dorada!
-|es_tl   = Another Vacation at Golden Apple!
-|fr      = Vacances à la pomme dorée, le retour&nbsp;!
-|fr_tl   = Vacation in the Golden Apple, the Return!
-|ru      = Ещё один отпуск на архипелаге Золотого яблока!
-|ru_tl   = One More Holiday on the Golden Apple Archipelago!
-|th      = กลับมาอีกครั้ง! วันหยุดใน Golden Apple Archipelago
-|th_rm   = 
-|th_tl   = 
-|vi      = Kỳ Nghỉ Táo Vàng! Tái Xuất!
-|vi_tl   = The Golden Apple Vacation! Returns!
-|de      = Nochmal! Urlaub auf dem Goldapfelarchipel!
-|de_tl   = Again! Holiday in the Golden Apple Archipelago!
-|id      = Lagi! Liburan di Golden Apple Archipelago!
-|id_tl   = Again! Holiday in the Golden Apple Archipelago!
-|pt      = As Férias da Maçã Dourada Voltaram!
-|pt_tl   = 
-}}
+{{Other Languages|Transclude=The Golden Apple Vacation Returns!}}
 
 ==Change History==
 {{Change History|2.8}}
 
+
+[[pt-br:As Férias da Maçã Dourada Voltaram! (Missão)]]
 [[es:¡Otras vacaciones en Manzana Dorada!]]
 [[fr:Vacances à la pomme dorée, le retour !]]
+[[ja:再臨！金リンゴバカンス (任務)]]
 [[ru:Ещё один отпуск на архипелаге Золотого яблока!]]

@@ -1,6 +1,6 @@
 {{Quest Infobox
 |id            = 12038
-|image         = Story Through the Mist a Name Unveiled.png
+|image         = Story Quest Through the Mist a Name Unveiled.png
 |type          = Story
 |chapter       = Acer Palmatum Chapter
 |actNum        = I
@@ -14,13 +14,11 @@
 |subarea       = Inazuma City
 |prev          = Upon the Plain, a Purple Shadow
 |next          = Ere the End, a Glance Back
-|exp           = 675
-|mora          = 44,000
-|other         = {{Card|Hero's Wit|5}}{{Card|Mystic Enhancement Ore|10}}
+|rewards       = Adventure EXP*675;Mora*44,000;Hero's Wit*5;Mystic Enhancement Ore*10
 |characters    = Amenoma Tougo; Kaedehara Kazuha; Nagato Sachiko; Paimon; Ryuuji; Traveler
 |voiced        = yes
 }}
-'''Through the Mist, a Name Unveiled''' is the second part of [[Kaedehara Kazuha]]'s [[Story Quest]] [[Acer Palmatum Chapter]]: Act I - [[A Strange and Friendless Road]].
+'''''Through the Mist, a Name Unveiled''''' is the second part of {{Quest|A Strange and Friendless Road}}.
 
 ==Steps==
 # Ask [[Ryuuji]] for information
@@ -37,6 +35,7 @@
 # Defeat the attacker
 #* {{Enemy|Yoriki Samurai|text=Amenoma Yuuya? - Re-Emergent Attacker}}
 #* Kaedehara Kazuha joins as a trial character
+# Talk to [[Kazuha]]
 
 ==Trial Character==
 {{Trial Character
@@ -147,29 +146,30 @@
 |constellation8          = 3
 |weapon_level8           = 90
 |refinement8             = 1
-|artifact_flower8        = Royal Flora
-|artifact_feather8       = Royal Plume
-|artifact_sands8         = Royal Pocket Watch
-|artifact_goblet8        = Royal Silver Urn
-|artifact_circlet8       = Royal Masque
+|artifact_flower8        = In Remembrance of Viridescent Fields
+|artifact_feather8       = Viridescent Arrow Feather
+|artifact_sands8         = Viridescent Venerer's Determination
+|artifact_goblet8        = Viridescent Venerer's Vessel
+|artifact_circlet8       = Viridescent Venerer's Diadem
 |artifact_level8         = 20
-|set1_8                  = Noblesse Oblige
+|set1_8                  = Viridescent Venerer
 |set1_piece_bonus_8      = 4
 |normal_attack_talent8   = 8
 |elemental_skill_talent8 = 11
 |elemental_burst_talent8 = 8
-|hp8                     = 27,632
-|atk8                    = 1,795
+|hp8                     = 21,412
+|atk8                    = 1,469
 |def8                    = 955
-|em8                     = 220
+|em8                     = 593
 |er8                     = 135.0%
-|crit_rate8              = 57.1%
+|crit_rate8              = 26.0%
 |crit_dmg8               = 91.9%
+|anemo_dmg8              = 61.6%
 }}
 
 ==Dialogue==
 {{Quest Description|To prevent the attacker from causing more harm, you and Kazuha decide to investigate his identity.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After the previous quest)
 :{{A|vo wylq101 14 paimon 01.ogg}} '''Paimon:''' The Detective Agency knows the most about what goes on in town.
 :{{A|vo wylq101 14 paimon 02.ogg}} '''Paimon:''' Let's see what Ryuuji has to say!
@@ -220,9 +220,9 @@
 :{{A|vo wylq102 1 paimon 08.ogg}} '''Paimon:''' Sure, can't hurt! We never know what we might find out along the way.
 :{{A|vo wylq102 1 kazuha 13.ogg}} '''Kaedehara Kazuha:''' Thank you, Ryuuji. We'll start by making some inquiries at the Amenoma Smithy.
 :{{A|vo wylq102 1 ryuji 20.ogg}} '''Ryuuji:''' Sounds good. All the best with your investigation. I'll get moving shortly myself.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|To prevent the attacker from causing more harm, you and Kazuha decide to investigate his identity. With few leads to follow, you start from the missing person case that Ryuuji metioned.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Amenoma Tougo)
 :{{A|vo wylq102 2 amenomatoogo 01.ogg}} '''Amenoma Tougo:''' Ah, if it isn't Kaedehara Kazuha! What brings you here today?
 :{{A|vo wylq102 2 paimon 01.ogg}} '''Paimon:''' Huh? You two know each other?
@@ -424,7 +424,7 @@
 :{{A|vo wylq102 10 kazuha 02.ogg}} '''Kaedehara Kazuha:''' By the looks of it, a letter, written on a piece of torn clothing. The ink is bone-dry... it must have been written quite some time ago.
 :{{A|vo wylq102 10 kazuha 03.ogg}} '''Kaedehara Kazuha:''' Well, let's take a look.
 :{{color|menu|You reveal the strip of clothing and begin to read. The words seem to have been penned by Nagato, and according to him, Amenoma Yuuya was thet one who took his blade. But Nagato himself seems to have disappeared as well...}}
-:'''Red-Dyed Fabric'''
+:{{Black Screen|Red-Dyed Fabric}}
 ::I am Nagato. I was wounded by Amenoma Yuuya. He took my most precious blade. I chased him, but could not catch him. I lay down here to rest on account of my exhaustion. I thought that I might croak right here &mdash; my stomach kept on bleeding! But it seems that some strange power has sustained me...
 ::Why did he steal that blade? I was going to sell it to him! He even burned my warehouse down!
 ::Agh, it hurts. It hurts! But for some reason, I can't fall unconscious, so all I can do to distract from the pain is write.
@@ -461,7 +461,7 @@
 :{{A|vo wylq102 11 kazuha 04.ogg}} '''Kaedehara Kazuha:''' Show yourself! It's no use hiding anymore!
 :{{A|vo wylq102 11 kagotsurubeisshin 01.ogg}} '''???:''' Hmph.
 :{{A|vo wylq102 11 kagotsurubeisshin 02.ogg}} '''???:''' Kaedehara Kazuha... it's you, at last.
-:{{A|vo wylq102 11 paimon 02.ogg}} '''Paimon:''' Aha! So it {{Not a typo|IS}} the same guy from before!
+:{{A|vo wylq102 11 paimon 02.ogg}} '''Paimon:''' Aha! So it {{Not a Typo|IS}} the same guy from before!
 :{{A|vo wylq102 11 paimon 03.ogg}} '''Paimon:''' What's your problem, huh? What could you possibly have against Kazuha!?
 :{{A|vo wylq102 11 kazuha 05.ogg}} '''Kaedehara Kazuha:''' Indeed, there should be no enmity between us... if it is Amenoma Yuuya that stands before us.
 :{{A|vo wylq102 11 kazuha 06.ogg}} '''Kaedehara Kazuha:''' But what if instead of facing Amenoma Yuuya... we are in fact facing the blade in his hand?
@@ -493,16 +493,6 @@
 :{{A|vo wylq102 11 kagotsurubeisshin 17.ogg}} '''Prized Isshin Blade:''' At long last, I am approaching my journey's destination. By Amenoma Yuuya's body I have found you, and by your hand I shall defeat the Raiden Shogun!
 :{{A|vo wylq102 11 kagotsurubeisshin 18.ogg}} '''Prized Isshin Blade:''' Kaedehara Kazuha, you stood against the Raiden Shogun's Musou no Hitotachi. There can be no other to serve as my host for what is to come.
 :{{A|vo wylq102 11 kagotsurubeisshin 19.ogg}} '''Prized Isshin Blade:''' Now, give your body over to me!
-----
-<!-- Attack VOs don't seem to be for any specific attack type, seems random -->
-;(Prized Isshin Blade &mdash; Attack Voiceline 1)
-:{{A|vo wylq102 12 kagotsurubeisshin 01.ogg}} '''Prized Isshin Blade:''' Submit to me!
-
-;(Prized Isshin Blade &mdash; Attack Voiceline 2)
-:{{A|vo wylq102 12 kagotsurubeisshin 02.ogg}} '''Prized Isshin Blade:''' We shall rewrite history!
-
-;(Prized Isshin Blade &mdash; Attack Voiceline 3)
-:{{A|vo wylq102 12 kagotsurubeisshin 03.ogg}} '''Prized Isshin Blade:''' Join me, and sever that divine light!
 ----
 ;(After defeating the opponent)
 :{{A|vo wylq102 15 kagotsurubeisshin 01.ogg}} '''Prized Isshin Blade:''' Do not stand in my way, or I will strike you down too!
@@ -590,7 +580,10 @@
 :{{A|vo wylq102 15 kazuha 38.ogg}} '''Kaedehara Kazuha:''' The blade says he'll let Amenoma Yuuya trail us silently. Although he hasn't regained his own consciousness yet, he is not in any immediate danger.
 :{{A|vo wylq102 15 paimon 12.ogg}} '''Paimon:''' Are we sure this is a good idea? It's a pretty treacherous journey...
 :{{A|vo wylq102 15 paimon 13.ogg}} '''Paimon:''' Okay fine... just be careful.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -602,7 +595,7 @@
 |zh_tl   = 
 |ja      = 混乱が導く正体
 |ja_rm   = Konran ga Michibiku Shoutai{{assumed}}
-|ja_tl   = 
+|ja_tl   = The Identity to Which Chaos Leads
 |ko      = 혼란 속 밝혀진 진실
 |ko_rm   = Hollan Ssok Balkyeojin Jinsil
 |ko_tl   = The Truth Revealed from the Confusion
@@ -633,3 +626,4 @@
 {{Change History|2.8}}
 
 [[es:Una revelación entre el caos]]
+[[pt-br:Através da Névoa, Um Nome Revelado]]

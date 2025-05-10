@@ -1,5 +1,5 @@
 {{Quest Infobox
-|id            = 13011
+|id            = 13011; 13012
 |image         = Story Quest All Returns to Silence.png
 |type          = Story
 |chapter       = Lupus Aureus Chapter
@@ -14,14 +14,11 @@
 |subarea       = Sumeru City
 |prev          = Chain of Interests
 |next          = 
-|exp           = 625
-|primogems     = 60
-|mora          = 38,100
-|other         = {{Card|Guide to Admonition|5}}{{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}{{Card|The General Mahamatra on Duty|1}}
+|rewards       = Adventure EXP*625;Primogem*60;Mora*38,100;Guide to Admonition*5;The General Mahamatra on Duty*1;Hero's Wit*4;Mystic Enhancement Ore*8
 |characters    = Badr; Cyno; Jehnam; Murtada Radkani; Nabil; Paimon; Payam; Taj Radkani; Tighnari; Traveler; Usem; Utayba
 |voiced        = yes
 }}
-'''''All Returns to Silence''''' is the third part of [[Cyno]]'s [[Story Quest]] [[Lupus Aureus Chapter]]: Act I - [[Sands of Solitude]].
+'''''All Returns to Silence''''' is the third and final part of {{Quest|Sands of Solitude}}.
 
 ==Steps==
 # Bring [[Cyno's Introduction Letter]] to [[Nabil]]
@@ -34,12 +31,13 @@
 # Meet up with Cyno
 # Find the Court of Desolation according to the instructions on the map
 # Enter the Court of Desolation
-#* Enter the Quest Domain: [[Court of Desolation]]
+#* Enter the [[Quest Domain]]: [[Court of Desolation]]
 # Reach the depths of the Court of Desolation
-# Defeat Taj
-#* {{Enemy|Eremite Ravenbeak Halberdier|text=Taj Radkani &mdash; Erstwhile Fellow Matra}}
-#* {{Enemy|Spirit of Omen: Stone Drake}}
-#* {{Enemy|Spirit of Omen: Wind Glede}}
+#* Wave 1: {{Enemy|Primal Construct: Prospector}}
+#* Wave 2: {{Enemy|Scorpion|x=2}}
+#* Wave 3: {{Enemy|Scorpion|x=3}}
+#* Wave 4: {{Enemy|Primal Construct: Reshaper}}
+# Defeat Taj {{Enemy List|1=Eremite Ravenbeak Halberdier{ text = Taj Radkani — Erstwhile Fellow Matra };Spirit of Omen: Stone Drake/optional;Spirit of Omen: Wind Glede/optional}}
 # Talk to Cyno
 # Wait until four days later
 # Go to [[Caravan Ribat]]
@@ -47,51 +45,19 @@
 
 ==Gameplay Notes==
 * During Steps 11 and 12, [[Cyno]] joins the party as a trial character.
+* Defeating Taj Radkani first will instantly defeat the Spirits of Omen.
 
 ==Trial Character==
-{{Trial Character
-|wl                      = 8
-
-|character_name          = Cyno
-|character_level8        = 90
-|constellation8          = 3
-
-|weapon_name             = Staff of the Scarlet Sands
-|weapon_level8           = 90
-|refinement8             = 1
-
-|artifact_flower8        = Royal Flora
-|artifact_feather8       = Royal Plume
-|artifact_sands8         = Royal Pocket Watch
-|artifact_goblet8        = Royal Silver Urn
-|artifact_circlet8       = Royal Masque
-|artifact_level8         = 20
-|set1_8                  = Noblesse Oblige
-|set1_piece_bonus_8      = 4
-
-|normal_attack_talent8   = 8
-|elemental_skill_talent8 = 8
-|elemental_burst_talent8 = 8
-
-|hp8                     = 26,285
-|atk8                    = 1,888
-|def8                    = 1,014
-|em8                     = 145
-|er8                     = 135.0%
-|crit_rate8              = 101.2%
-|crit_dmg8               = 130.3%
-}}
+{{Transclude|Suspicious Smuggling Case|Trial Character}}
 
 ==Dialogue==
 {{Quest Description|It seems that even a Matra is involved in the Canned Knowledge smuggling. Cyno decided to let you take the secret letter back to the Akademiya and enter the Restricted Repository to procure information.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Nabil)
 ;(If the player has not completed ''[[Where the Boat of Consciousness Lies]]'')
 ::{{A|Vo cnlq003 1 nabil 01.ogg}} '''Nabil:''' Hello, we meet again.
 ::{{A|vo cnlq003 1 nabil 02.ogg}} '''Nabil:''' How's the investigation going?
-
-::'''You give Nabil the letter from Cyno.'''
-
+::{{Black Screen|You give Nabil the letter from Cyno.}}
 ::{{A|vo cnlq003 1 nabil 03.ogg}} '''Nabil:''' Oh, so you were able to find Cyno, after all! I hope he's doing alright.
 ::{{DIcon}} He seemed pretty okay.
 ::{{DIcon}} He's the same as always.
@@ -106,9 +72,7 @@
 ;(If the player has completed ''Where the Boat of Consciousness Lies'')
 ::{{A|vo cnlq003 2 nabil 01.ogg}} '''Nabil:''' Hello, we meet again.
 ::{{A|vo cnlq003 2 nabil 02.ogg}} '''Nabil:''' Have you managed to find Cyno? If so, how's he doing?
-
-::'''You give Nabil the letter from Cyno.'''
-
+::{{Black Screen|You give Nabil the letter from Cyno.}}
 ::{{A|vo cnlq003 2 nabil 03.ogg}} '''Nabil:''' I read the letter, and must admit that I hadn't expected things to be so serious... Sorry, had I known it would be so dangerous, I never would have gotten you two involved.
 ::{{A|vo cnlq003 2 paimon 01.ogg}} '''Paimon:''' It's alright, we wanted to help Cyno, too.
 ::{{A|vo cnlq003 2 nabil 04.ogg}} '''Nabil:''' Haha, I can tell that he really trusts you. The research files stored away in the Restricted Repository are far from ordinary. Everything there is essentially about dangerous research that's forbidden by the Akademiya.
@@ -121,14 +85,11 @@
 ::{{A|vo cnlq003 2 paimon 02.ogg}} '''Paimon:''' The Restricted Repository... Uh, sounds kinda dangerous. We'd better keep an eye out.
 
 ;(Talk to Utayba)
-:'''Nabil explains the situation to the repository's manager...'''
-
+:{{Black Screen|Nabil explains the situation to the repository's manager...}}
 :{{A|vo cnlq003 3 utayba 01.ogg}} '''Utayba:''' Okay, I understand.
 :{{A|vo cnlq003 3 utayba 02.ogg}} '''Utayba:''' Since Cyno is vouching for you, I suppose we can trust you. You may browse the information regarding the Court of Desolation. Ask me if you have any questions.
 :{{A|vo cnlq003 3 utayba 03.ogg}} '''Utayba:''' But I'd suggest avoiding any other research files. Sometimes the less you know, the better.
-
-:'''Utayba activates the device, and a secret door opens in the wall...'''
-
+:{{Black Screen|Utayba activates the device, and a secret door opens in the wall...}}
 :{{A|vo cnlq003 3 nabil 01.ogg}} '''Nabil:''' Huh, so this is the Restricted Repository... I never thought I'd see the inside of it. This is a first for both you and me.
 :{{DIcon}} All thanks to Cyno.
 :{{DIcon}} Do you also know Cyno, Utayba?
@@ -143,10 +104,10 @@
 :'''Secret Text Interpretation Manual:''' (Records an account of a Haravatat Researcher being sentenced to prison for deciphering forbidden documents.)
 
 ;(Investigate the Mechanical Life Forms Research Data, optional)
-:'''Mechanical Life Forms Research Data:''' (Records an account of a Spantamad researcher who was expelled from the Akademiya for studying mechanical life forms.)
+:'''Mechanical Life Forms Research Data:''' (Records an account of a [[Abattouy|Spantamad researcher]] who was expelled from the Akademiya for studying mechanical life forms.)
 
 ;(Investigate Sealed Materials{{Colon}} The Court of Desolation)
-::'''Sealed Materials: Court of Desolation'''
+::{{Black Screen|Sealed Materials: Court of Desolation}}
 ::Despite repeated prohibitions, research on the Court of Desolation in the past decade has increased without ceasing.
 ::Researchers who study the history of the Court of Desolation mainly go through three stages: Discovery, Investigation, and Fanaticism.
 ::The earliest stage of research is the relatively basic "Discovery" phase, which causes little to no harm. The results of their discoveries will show that treasures related to life and death may be hidden within the Court of Desolation. This is also where the rumor of "bringing the dead back to life" may begin.
@@ -155,7 +116,7 @@
 ::Two different interpretations of the line have quickly emerged as a result. Some believe that "the price of one's life" is the key to entering the Court of Desolation, while others asserted that it was a requirement for the Court to appear. Because the Court of Desolation has never been discovered, the latter view gradually became mainstream.
 ::As a result, many researchers went in a short period of time. Overtaken by their fervent desire to make the Court of Desolation appear, they attempted to sacrifice their lives. Relevant research became increasingly dangerous and was eventually banned.
 ::But even after that, many Akademiya scholars secretly continued their research. It was not until seven scholars &mdash; including [[Murtada Radkani]] &mdash; were arrested that research into the Court of Desolation entered a period of stagnation once again...
-:{{A|vo cnlq003 5 paimon 01.ogg}} '''Paimon:''' Whoa, there's a lot to read here... (Traveler), have you found anything yet?
+:{{A|vo cnlq003 5 paimon 01.ogg}} '''Paimon:''' Whoa, there's a lot to read here... {{Traveler}}, have you found anything yet?
 :{{DIcon}} Murtada Radkani...
 :{{DIcon}} This researcher's name sounds familiar...
 :{{A|vo cnlq003 5 paimon 02.ogg}} '''Paimon:''' Huh, it reminds Paimon of Cyno's former partner!
@@ -177,7 +138,7 @@
 :{{A|vo cnlq003 5 utayba 10.ogg}} '''Utayba:''' Shortly after, Murtada slit his own throat with the pieces of a broken bowl... By the time Taj arrived at the scene, it was already too late. He never had a last chance to see his son.
 :{{A|vo cnlq003 5 utayba 11.ogg}} '''Utayba:''' Since then, Taj has been periodically coming to the repository. He'll hold the files from his son's research with a remorseful look on his face. I guess that's why he chose to move to administrative work.
 :{{A|vo cnlq003 5 nabil 05.ogg}} '''Nabil:''' I had no idea that happened. That must be really hard for Taj. I've never heard him mention that to anyone...
-:{{A|vo cnlq003 5 paimon 04.ogg}} '''Paimon:''' Aww, that's awful, Paimon feels terrible now... Are you okay, (Traveler)?
+:{{A|vo cnlq003 5 paimon 04.ogg}} '''Paimon:''' Aww, that's awful, Paimon feels terrible now... Are you okay, {{Traveler}}?
 :{{DIcon}} You said Taj comes to the repository?
 :{{DIcon}} Taj has gone through Murtada's research files?
 :{{A|vo cnlq003 5 nabil 06.ogg}} '''Nabil:''' Wait, don't tell me you're starting to suspect Taj now!
@@ -191,7 +152,7 @@
 :{{A|vo cnlq003 5 utayba 16.ogg}} '''Utayba:''' According to the legends, the treasures inside the Court of Desolation could allow someone {{sic|see<!--audio: "to see"-->}} beyond life and death, or even bring the dead back to life, right? So maybe Taj is trying to bring Murtada back.
 :{{A|vo cnlq003 5 utayba 17.ogg}} '''Utayba:''' Though, I don't really believe Taj would ever try to do something like that. I'm just telling you what I know. It's the job of the matra to find the truth and track down criminals.
 :{{A|vo cnlq003 5 utayba 18.ogg}} '''Utayba:''' Do you have any questions? If not, it'd be best if you would leave now.
-:{{A|vo cnlq003 5 paimon 05.ogg}} '''Paimon:''' Uh, Paimon's kinda confused... (Traveler), what should we do from here?
+:{{A|vo cnlq003 5 paimon 05.ogg}} '''Paimon:''' Uh, Paimon's kinda confused... {{Traveler}}, what should we do from here?
 :{{DIcon}} Let's go ask around somewhere else.
 :{{A|vo cnlq003 5 nabil 10.ogg}} '''Nabil:''' Oh! Now that I think about it, Cyno suspected that the Canned Knowledge was coming from within the Akademiya, right?
 :{{A|vo cnlq003 5 nabil 11.ogg}} '''Nabil:''' There's no way so many boxes could ever get through without drawing any attention. Maybe we could try asking people around the gate of the Akademiya and see what we can find.
@@ -200,9 +161,9 @@
 
 ;(Talk to Utayba again, optional)
 :{{A|vo dialog cnlq003 utayba 02.ogg}} '''Utayba:''' Hmm? Do you have any other questions?
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The clue points to Cyno's former partner, Taj, but Nabil doesn't believe it. You decide to go to the gate of the Akademiya to look for more information.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Badr)
 :{{A|vo cnlq003 11 nabil 01.ogg}} '''Nabil:''' Excuse me, have you seen any large shipments of goods leaving the Akademiya recently?
 :{{A|vo cnlq003 11 badr 01.ogg}} '''Badr:''' Huh? Well, yes, but isn't that pretty normal?
@@ -236,9 +197,7 @@
 :{{DIcon}} Just calm down, everyone.
 :{{A|vo cnlq003 13 nabil 05.ogg}} '''Nabil:''' No, I won't believe it! Taj is an honorable man. Someone must be trying to frame him!
 :{{A|vo cnlq003 13 nabil 06.ogg}} '''Nabil:''' Wait, I know another matra who works with Taj. I can ask him to let us speak with Taj!
-
-:'''Nabil runs off and returns with someone shortly later.'''
-
+:{{Black Screen|Nabil runs off and returns with someone shortly later.}}
 :{{A|vo cnlq003 13 usem 01.ogg}} '''Usem:''' *sigh* As I've already told you, I don't have any way to contact Taj.
 :{{A|vo cnlq003 13 usem 02.ogg}} '''Usem:''' A few Eremites showed up looking for Taj yesterday, and he met with them in his office. I was standing outside of the door, and I vaguely heard them say, "found it."
 :{{A|vo cnlq003 13 usem 03.ogg}} '''Usem:''' Before I realized it, the door opened and Taj left with the group of them. I noticed that he had also changed into Eremite attire.
@@ -254,9 +213,9 @@
 
 ;(Talk to Usem again, optional)
 :{{A|vo dialog cnlq003 usem 01.ogg}} '''Usem:''' Taj lives on the outskirts of Sumeru City. You can try looking for him there.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The words of the guard proved that Taj is indeed suspicious, and Nabil decides to search Taj's home.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Taj's house)
 :{{A|vo cnlq003 16 nabil 01.ogg}} '''Nabil:''' So this is Taj's place... Hmm, there doesn't seem to be anyone here.
 :{{A|vo cnlq003 16 paimon 01.ogg}} '''Paimon:''' Well, what should we do then? Do we break in?
@@ -265,9 +224,7 @@
 :{{DIcon}} There's no other option, though.
 :{{DIcon}} We have to do this in order to clear his name.
 :{{A|vo cnlq003 16 nabil 04.ogg}} '''Nabil:''' *sigh* You're right. Even if we apply for a warrant now, we won't be able to do anything until tomorrow at the earliest. This is an emergency. I just hope Taj doesn't mind.
-
-:'''You enter Taj's home and search around...'''
-
+:{{Black Screen|You enter Taj's home and search around...}}
 :{{A|vo cnlq003 16 nabil 05.ogg}} '''Nabil:''' What's this...?
 :{{A|vo cnlq003 16 paimon 02.ogg}} '''Paimon:''' It's a paper full of names written on it. Oh, and a map... Nabil, can you make any sense of this?
 :{{A|vo cnlq003 16 nabil 06.ogg}} '''Nabil:''' Hmm, yes, this is definitely Taj's handwriting. These papers look like records...
@@ -282,16 +239,15 @@
 :{{A|vo cnlq003 16 nabil 12.ogg}} '''Nabil:''' If Taj really has turned on his honor and committed these terrible acts... then I suspect that he might already be at the Court of Desolation as we speak.
 :{{A|vo cnlq003 16 nabil 13.ogg}} '''Nabil:''' I don't wanna suspect him, but I also don't know him very well. Maybe Cyno will know what to do.
 :{{A|vo cnlq003 16 paimon 03.ogg}} '''Paimon:''' Alright, we'll give these to Cyno and see! Let's go!
-:;(Obtain Ancient Map)
+:;(Obtain {{Item|Ancient Map}})
 
 ;(Talk to Nabil again, optional)
 :{{A|vo cnlq003 16 nabil 13.ogg}} '''Nabil:''' I don't wanna suspect him, but I also don't know him very well. Maybe Cyno will know what to do.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Clues to the Court of Desolation and a suspicious list were found from Taj's home. Although you don't know why Taj keeps such important information at home, you decide to go back and meet Cyno first.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Cyno)
-:'''You tell Cyno everything that's happened.'''
-
+:{{Black Screen|You tell Cyno everything that's happened.}}
 :{{A|vo cnlq003 17 paimon 01.ogg}} '''Paimon:''' Well, Cyno, what do you make of it?
 :{{A|vo cnlq003 17 cyno 01.ogg}} '''Cyno:''' Hmm, Taj... It's been a while since I last saw him.
 :{{A|vo cnlq003 17 cyno 02.ogg}} '''Cyno:''' From what I remember, he is a straitlaced man. Although he would resort to extreme measures from time to time, he would never do anything against his beliefs.
@@ -303,9 +259,9 @@
 :{{A|vo cnlq003 17 cyno 06.ogg}} '''Cyno:''' That's right. It's clear that he had a hand in this case, yet he made no report of it. There's no doubting that.
 :{{A|vo cnlq003 17 cyno 07.ogg}} '''Cyno:''' That's also why I need to see him. I must ask his reasoning and judge him myself.
 :{{A|vo cnlq003 17 cyno 08.ogg}} '''Cyno:''' Time is ticking. Let's go.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Cyno decides to go to the Court of Desolation and ask Taj to get it straight.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Enter the [[Court of Desolation|domain]])
 :{{A|vo cnlq003 18 paimon 01.ogg}} '''Paimon:''' So this is the Court of Desolation. Are there really any treasures buried here?
 :{{A|vo cnlq003 18 paimon 02.ogg}} '''Paimon:''' Ooh, Paimon's kinda nervous... Could it be dangerous?
@@ -403,10 +359,10 @@
 :{{A|vo cnlq003 24 cyno 13.ogg}} '''Cyno:''' There's nothing to be sorry for. We are partners.
 :{{A|vo cnlq003 24 cyno 14.ogg}} '''Cyno:''' If you see Murtada... send him my greetings. Goodbye, old friend.
 ;(A cinematic plays)
-{{Cutscene Description|Quicksand keeps pouring in. The Court of Desolation is about to be engulfed by the desert. In the last moments of his life, Taj is caught up in memories of his son... Because of him, Murtada had been carefully scrutinized ever since he was a child; When the boy was young, they had the worst relationship possible; And when he went to arrest Murtada, his son begged him to make an exception...<br />On the other end, you and Cyno are running desperately for "life," whereas behind you, the elderly Matra Taj Radkani, who is ready to face "death," utters his last words:<br />Because... We are Matra.}}
+{{Cutscene Description|Quicksand keeps pouring in. The Court of Desolation is about to be engulfed by the desert. In the last moments of his life, Taj is caught up in memories of his son... Because of him, Murtada had been carefully scrutinized ever since he was a child; When the boy was young, they had the worst relationship possible; And when he went to arrest Murtada, his son begged him to make an exception...<br>On the other end, you and Cyno are running desperately for "life," whereas behind you, the elderly Matra Taj Radkani, who is ready to face "death," utters his last words:<br>Because... We are Matra.}}
 :;(The entire Court of Desolation begins to shake and fall apart)
 :;(Taj moves to sit on the ground, while the Traveler, Paimon, and Cyno frantically looks around)
-:;(The Traveler, Paimon and Cyno turn back to the entrance and start to escape, while Taj sits calmly on the ground and starts to reminisce)
+:;(The Traveler, Paimon and Cyno turn back towards the entrance and flee, while Taj sits crosslegged and starts to reminisce)
 ::'''Murtada Radkani (child, voice only):''' Dad
 ::'''Murtada Radkani (child, voice only):''' Why are they so strict with me?
 ::'''Murtada Radkani (child, voice only):''' I'm always the only one
@@ -418,13 +374,13 @@
 :;(Sand starts engulfing Taj as well, as he continues to reminisce)
 ::'''Murtada Radkani (adult, voice only):''' Alright, Dad
 ::'''Murtada Radkani (adult, voice only):''' Let's start over
-:;(The Traveler, Paimon, and Cyno keep running for their lives, while sand rushes close behind them)
+:;(The Traveler, Paimon, and Cyno keep running for their lives, while sand rushes close behind them in an earthen wave)
 ::'''Murtada Radkani (adult, voice only):''' By the way, I've finally found an area of research I wish to pursue
-:;(Cyno grabs the Traveler's hand while running and rushes forward, with Paimon flying close behind)
+:;(Seeing the Traveler falling a little behind him, Cyno grabs the Traveler's wrist while running and rushes forward, with Paimon flying close behind)
 ::'''Murtada Radkani (adult, voice only):''' Why can't you show even a little leniency?
-:;(Cyno suddenly notices an opening with light entering from above, then jumps with the Traveler, while Paimon maneuvers her flight in zig-zag right behind them)
+:;(Cyno suddenly notices the outer entrance ahead with the light outside entering from above, then leaps over the growing mounds of sand with the Traveler, while Paimon maneuvers her flight in a zig-zag right behind them)
 ::'''Murtada Radkani (adult, voice only):''' Why...?
-:;(Taj, now engulfed in sand up to his torso and still quickly being buried, looks at the ceiling and utters his last words)
+:;(Taj, now engulfed in sand up to his torso and still quickly being buried, looks at the ceiling and utters his last words as he bows his head and closes his eyes)
 ::'''Taj Radkani:''' Because...
 ::'''Taj Radkani:''' We are Matra
 :;(Sand pours in, completely burying Taj and the rest of the Court of Desolation)
@@ -441,11 +397,11 @@
 :{{A|vo cnlq003 25 cyno 06.ogg}} '''Cyno:''' Thank you, but you've already done enough.
 :{{A|vo cnlq003 25 cyno 07.ogg}} '''Cyno:''' Just leave the rest to me. I will bring them to justice myself. Besides, I promised you that I would sweep away any potential danger.
 :{{A|vo cnlq003 25 cyno 08.ogg}} '''Cyno:''' So that's what I'm going to do. Wait for me at Caravan Ribat four days from now.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Taj was destroyed together with the Court of Desolation and fulfilled his final wish. Cyno took the list he left behind and decided to complete the arrest alone. You agreed to meet at Caravan Ribat in four days.}}
 {{Quest Description|update|It's about time. Go to Caravan Ribat and have a look.}}
-{{Dialogue start}}
-;(Apporach the marked location at Caravan Ribat)
+{{Dialogue Start}}
+;(Approach the marked location at Caravan Ribat)
 ;(If the player has not completed ''[[Where the Boat of Consciousness Lies]]'')
 ::{{A|vo cnlq003 26 nabil 01.ogg}} '''Nabil:''' We meet again! Thank you so much for all your help!
 ::{{A|vo cnlq003 26 paimon 01.ogg}} '''Paimon:''' Nabil, what are you doing here?
@@ -490,9 +446,9 @@
 ::{{A|vo cnlq003 27 nabil 14.ogg}} '''Nabil:''' He was walking with someone I didn't recognize, and then before I knew it, they were nowhere to be seen. If you happen to see him, please send my regards.
 ::{{A|vo cnlq003 27 paimon 04.ogg}} '''Paimon:''' Sure thing, Nabil! You be careful too. Don't let any of those bad guys escape!
 ::{{A|vo cnlq003 27 nabil 15.ogg}} '''Nabil:''' Don't worry about me. If anything happens, you can find me at the Akademiya anytime! Farewell then.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You have learned from Nabil what happened in the last four days. Now go and see Cyno.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Cyno and Tighnari)
 :{{A|vo cnlq003 28 tighnari 01.ogg}} '''Tighnari:''' Trying to single-handedly bring 300 people to justice must feel pretty exhilarating. But I can assure you this is certainly not the best solution.
 :{{A|vo cnlq003 28 cyno 01.ogg}} '''Cyno:''' I'm aware.
@@ -506,7 +462,7 @@
 :{{A|vo cnlq003 28 paimon 02.ogg}} '''Paimon:''' Oh, so Tighnari must be who Nabil saw earlier! Are you also here to see Cyno?
 :{{A|vo cnlq003 28 tighnari 04.ogg}} '''Tighnari:''' That's right. Cyno asked me to collect some medicinal herbs to treat a girl named Simin.
 :{{A|vo cnlq003 28 tighnari 05.ogg}} '''Tighnari:''' I also dropped by just to check for any injuries. He seems to be fine physically, but he looks a little more lonely than I remember.
-:{{A|vo cnlq003 28 tighnari 06.ogg}} '''Tighnari:''' And Cyno, relax! You don't always have to look so serious, you know. Why don't you play more [[Genius Invokation TCG]]? Collei has always been a little wary of you, and your stern expression certainly isn't helping.
+:{{A|vo cnlq003 28 tighnari 06.ogg}} '''Tighnari:''' And Cyno, relax! You don't always have to look so serious, you know. Why don't you play more [[Genius Invokation TCG]], huh? Collei has always been a little wary of you, and your stern expression certainly isn't helping.
 :{{A|vo cnlq003 28 cyno 06.ogg}} '''Cyno:''' How is Collei these days?
 :{{A|vo cnlq003 28 tighnari 07.ogg}} '''Tighnari:''' She has grown a bit taller, but her grades could use some improvement. She still made many mistakes on her last test, even after I had marked all the important content in the book for her.
 ;(If the player has not completed ''[[Where the Boat of Consciousness Lies]]'')
@@ -515,7 +471,7 @@
 ::{{A|vo cnlq003 28 tighnari 09.ogg}} '''Tighnari:''' After some time, I plan on having her go outside more. It just so happens that I have something she can help me with...
 :{{A|vo cnlq003 28 paimon 03.ogg}} '''Paimon:''' Huh? You mean Collei is leaving Avidya Forest? What happened?
 :{{A|vo cnlq003 28 tighnari 10.ogg}} '''Tighnari:''' I've asked her to host some ad hoc lectures to teach the dangers of Canned Knowledge, as well as how to use it safely.
-:{{A|vo cnlq003 28 tighnari 11.ogg}} '''Tighnari:''' Although we've apprehended all the criminals behind the recent smuggling case, there are many people who are still curious and seek after Canned Knowledge.
+:{{A|vo cnlq003 28 tighnari 11.ogg}} '''Tighnari:''' Although we've apprehended all the criminals behind the recent smuggling case, there are many people who are still curious and seek Canned Knowledge.
 :{{A|vo cnlq003 28 tighnari 12.ogg}} '''Tighnari:''' So I decided to ask her to work on increasing knowledge and awareness on the topic. Please be sure to keep an eye on her.
 :{{A|vo cnlq003 28 cyno 07.ogg}} '''Cyno:''' I will.
 :{{A|vo cnlq003 28 tighnari 13.ogg}} '''Tighnari:''' If anything else happens, the three of you can find me in the Avidya Forest. Take care.
@@ -542,7 +498,10 @@
 :{{A|vo dialog cnlq003 cyno 03.ogg}} '''Cyno:''' I didn't remember owing anyone Mora, especially not that kind of amount. So I arrested the merchant on charges of provocation and disturbing the peace.
 :{{A|vo dialog cnlq003 cyno 04.ogg}} '''Cyno:''' Do you know anything about this?
 :{{A|vo dialog cnlq003 paimon 01.ogg}} '''Paimon:''' Uh, no&mdash;nope... Paimon has no idea what that could be!
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Trivia==
 * The Spantamad researcher mentioned in Mechanical Life Forms Research Data is most likely [[Abattouy]].
@@ -581,10 +540,12 @@
 |tr      = Sessizliğe Dönüş
 |tr_tl   = 
 |it      = Tutto torna al silenzio
-|it_tl   = 
+|it_tl   = All Goes Back to Silence
 }}
 
 ==Change History==
 {{Change History|3.1}}
 
 [[es:Silencio final]]
+[[pt-br:Silêncio Final]]
+[[vi:Trở Về Tĩnh Lặng]]

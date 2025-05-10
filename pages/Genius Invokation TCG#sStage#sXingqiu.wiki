@@ -4,16 +4,16 @@
 {{Genius Invokation TCG Stages/Detailed|Xingqiu}}
 
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{DIcon|Idle}} So that's how it is...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Dialogue==
 ===Friendly Fracas===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Xingqiu)
 :{{A|vo card xingqiu invite easy 01.ogg}} '''Xingqiu:''' Very well. I was just reading about this game. It seems straightforward enough.
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG match interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
@@ -36,13 +36,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card xingqiu invite easy 03.ogg}} '''Xingqiu:''' Huh!? But I went by the book...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Serious Showdown===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Xingqiu)
 :{{A|vo card xingqiu invite hard 01.ogg}} '''Xingqiu:''' Hmm... Are you sure you don't want me to play with a handicap?
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG match interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
@@ -65,13 +65,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card xingqiu invite hard 03.ogg}} '''Xingqiu:''' Over-reliance on book knowledge is worse than no book knowledge at all...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Guest Challenge===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Xingqiu)
 :{{A|vo card xingqiu freetalk 01.ogg}} '''Xingqiu:''' It all comes down to luck in the end, and you know I'm not one to cheat. Hehe, so bring it on...
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG challenge interface)
 :{{DIcon}} I've got other things to do right now...
 ::{{A|vo card xingqiu leave 01.ogg}} '''Xingqiu:''' Oh, done already? I still have so many more decks I want to try.
@@ -81,7 +81,39 @@
 
 ;(If the player wins the match)
 :{{A|vo card xingqiu endofgame fail 01.ogg}} '''Xingqiu:''' Impressive, you made some amazing plays there.
-{{Dialogue end}}
+{{Dialogue End}}
+
+===Zero Hour Invokation: Hong'yu===
+{{Dialogue Start}}
+;(Talk to Xingqiu)
+:{{A|vo card xingqiu event invite start 01.ogg}} '''Xingqiu:''' Seems like you'll be playing against me this time... Great! I was just looking got a worthy opponent.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
+:;(Open [[Duel! The Summoners' Summit!/Zero Hour Invokation|Zero Hour Invokation]] interface)
+:{{DIcon}} I've got other things to do right now...
+::{{A|vo card xingqiu event invite leave 01.ogg}} '''Xingqiu:''' A decisive victory is rather difficult to achieve in this tournament.
+
+;(When the player defeats one of Xingqiu's Character Cards)
+:{{A|vo card xingqiu event ingame 02.ogg}} '''Xingqiu:''' Well played.
+
+;(When the player defeats two of Xingqiu's Character Cards)
+:{{A|vo card xingqiu event ingame 03.ogg}} '''Xingqiu:''' Wait! Let me think for a second...
+
+;(When Xingqiu defeats one of the player's Character Cards)
+:{{A|vo card xingqiu event ingame 01.ogg}} '''Xingqiu:''' How about this?
+
+;(When Xingqiu uses an Elemental Burst)
+:{{A|vo card xingqiu event ingame 04.ogg}} '''Xingqiu:''' No more holding back!
+
+;(If the player loses the match)
+:{{A|vo card xingqiu event invite win 01.ogg}} '''Xingqiu:''' You truly were a worthy opponent.
+
+;(If the player wins the match)
+:{{A|vo card xingqiu event invite fail 01.ogg}} '''Xingqiu:''' *sigh* Turns our I couldn't just place all of my trust in the guide...
+{{Dialogue End}}
+
+==Change History==
+{{Change History|3.3}}
 
 ==Navigation==
 {{Genius Invokation TCG Stages Navbox}}
+[[pt-br:Chamado Sagrado dos Sete:Desafios/Xingqiu]]

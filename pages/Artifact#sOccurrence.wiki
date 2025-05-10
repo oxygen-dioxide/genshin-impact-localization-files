@@ -6,492 +6,178 @@
 |tab5 = Occurrence
 |tab6 = Scaling
 }}
+
 ==Occurrence==
-While the rolling chance of a specific sub-stat is useful, the probability of occurrence of that specific sub-stat with respect to the 4 possible sub-stats of an artifact is a more practical application of its [[Artifact/Distribution|distribution]].
+While the occurrence probability of a specific minor affix is useful, the probability of occurrence of that specific minor affix with respect to the 4 possible minor affixes of an artifact is a more practical application of its [[Artifact/Distribution|distribution]].
 
-The probabilities show that while gap between the rolling chances of some sub-stats are relatively large, this is compensated by having 4 sub-stat slots, bridging some of the gap between sub-stats that have a low rolling chances. In short, this show the probability of a given an artifact with 4 sub-stats that a specific sub-stat is one of them.
+While the gap between the occurrence probabilities of some minor affixes are relatively large, it is compensated by having 4 minor affix slots, bridging some of the gap between minor affixes that have a low rolling chances. In short, this indicates the probability of an artifact with 4 minor affixes that a specific minor affix is one of them.
 
-The rate of the most common Crit Rate and Crit Damage pair is also especially shown to highlight the large decrease of probability as more sub-stats out of the 4 are specified.
+The rate of the most common CRIT Rate and CRIT DMG pair is also especially shown to highlight the large decrease of probability as more minor affixes out of the 4 are specified.
 
 ==Mathematical Treatment==
-Consider the collection of substats, <math>S_1,S_2,S_3,...,S_n</math> each with a probability of <math>p_1,p_2,p_3,...,p_n</math>, respectively.
-The probability of a specific substat being rolled first is:
-:<math>P(S_1) = p_1</math>
-The probabability of a specific substat being rolled second given 1 preceding substat is:
-:<math>P(S_1,S_2) = p_1 \times \frac{p_2}{1 - p_1}</math>
-The probabability of a specific substat being rolled third given 2 preceding substat is:
-:<math>P(S_1,S_2,S_3) = p_1 \times \frac{p_2}{1 - p_1} \times \frac{p_3}{1 - p_1 - p_2}</math>
-The probabability of a specific substat being rolled fourth given 3 preceding substat is:
-:<math>P(S_1,S_2,S_3,S_4) = p_1 \times \frac{p_2}{1 - p_1} \times \frac{p_3}{1 - p_1 - p_2} \times \frac{p_4}{1 - p_1 - p_2 - p_3}</math>
+Consider a collection of at most 4 occurrable minor affixes, each respectively with a probability of <math>p_1,p_2,p_3,p_4</math>.
+The specific minor affixes occurrence probability is <math>\prod_{i=1}^4\frac{p_i}{1+(\sum_{j=0}^{i-1}-p_j)}</math>
+{|class="fandom-table"
+|+ Specific Minor Affixes Occurrence Probabilities
+! Specific Minor Affix Count
+! Occurrence Probability
+|-
+| 1
+| <math>\frac{p_1}{1}</math>
+|-
+| 2
+| <math>\frac{p_1}{1}\times\frac{p_2}{1-p_1}</math>
+|-
+| 3
+| <math>\frac{p_1}{1}\times\frac{p_2}{1-p_1}\times\frac{p_3}{1-p_1-p_2}</math>
+|-
+| 4
+| <math>\frac{p_1}{1}\times\frac{p_2}{1-p_1}\times\frac{p_3}{1-p_1-p_2}\times\frac{p_4}{1-p_1-p_2-p_3}</math>
+|}
 
-The <math>P(S_1,S_2,S_3,S_4)</math> or <math>A_{1234}</math> for a much better notation - is just an artifact with substats. Considering permutation, <math>A_{4321}</math> or <math>A_{2143}</math> can occur as well. The occurrence rate then is the sum of all the probabilities which contain a specific substat as one of the 4 substats of an artifact.
-
-==Sub Stat Occurrences==
+==Minor Affix Occurrences==
 ===[[File:Icon Flower of Life.png|35x35px]] Flower of Life===
-{| class="wikitable sortable"
-!Attribute!!Scaled Chance
+{|class="wikitable sortable"
+! Minor Affix  !!  Scaled Chance
 |-
-|ATK||57.8%
+| ATK  ||  57.8%
 |-
-|DEF||57.8%
+| DEF  ||  57.8%
 |-
-|HP%||43.2%
+| HP%  ||  43.2%
 |-
-|ATK%||43.2%
+| ATK%  ||  43.2%
 |-
-|DEF%||43.2%
+| DEF%  ||  43.2%
 |-
-|Energy Recharge%||43.2%
+| Energy Recharge%  ||  43.2%
 |-
-|Elemental Mastery||43.2%
+| Elemental Mastery  ||  43.2%
 |-
-|CRIT Rate%||34.2%
+| CRIT Rate%  ||  34.2%
 |-
-|CRIT DMG%||34.2%
+| CRIT DMG%  ||  34.2%
 |-
-|CRIT Rate% & CRIT DMG%||9.2%
+| CRIT Rate% & CRIT DMG%  ||  9.2%
 |}
+
 ===[[File:Icon Plume of Death.png|35x35px]] Plume of Death===
-{| class="wikitable sortable"
-!Attribute!!Scaled Chance
+{|class="wikitable sortable"
+! Minor Affix !! Scaled Chance
 |-
-|HP||57.8%
+| HP || 57.8%
 |-
-|DEF||57.8%
+| DEF || 57.8%
 |-
-|HP%||43.2%
+| HP% || 43.2%
 |-
-|ATK%||43.2%
+| ATK% || 43.2%
 |-
-|DEF%||43.2%
+| DEF% || 43.2%
 |-
-|Energy Recharge%||43.2%
+| Energy Recharge% || 43.2%
 |-
-|Elemental Mastery||43.2%
+| Elemental Mastery  || 43.2%
 |-
-|CRIT Rate%||34.2%
+| CRIT Rate% || 34.2%
 |-
-|CRIT DMG%||34.2%
+| CRIT DMG% || 34.2%
 |-
-|CRIT Rate% & CRIT DMG%||9.2%
+| CRIT Rate% & CRIT DMG% || 9.2%
 |}
+
 ===[[File:Icon Sands of Eon.png|35x35px]] Sands of Eon===
-The distribution changes based on the main stat:<tabber>
-|-|HP%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
+The distribution is dependent on the main affix.
+{|class="wikitable sortable"
+! rowspan="2" | Minor Affix !! colspan="5" | Scaled Chance
+|-
+! HP% !! ATK% !! DEF% !! Elemental Mastery !! Energy Recharge%
 |-
 | HP || 56.0%
+| 56.0% || 56.0% || 56.0% || 56.0%
 |-
-| ATK || 56.0%
+| ATK || 56.0% || 56.0% || 56.0% || 56.0% || 56.0%
 |-
-| DEF || 56.0%
+| DEF || 56.0% || 56.0% || 56.0% || 56.0% || 56.0%
 |-
-| ATK% || 41.6%
+| HP% || 0 || 41.6% || 41.6% || 41.6% || 41.6%
 |-
-| DEF% || 41.6%
+| ATK% || 41.6% || 0 || 41.6% || 41.6% || 41.6%
 |-
-| Energy Recharge% || 41.6%
+| DEF% || 41.6% || 41.6% || 0 || 41.6% || 41.6%
 |-
-| Elemental Mastery || 41.6%
+| Elemental Mastery || 41.6% || 41.6% || 41.6% || 0 || 41.6%
 |-
-| CRIT Rate% || 32.8%
+| Energy Recharge% || 41.6% || 41.6% || 41.6% || 41.6% || 0
 |-
-| CRIT DMG% || 32.8%
+| CRIT Rate% || 32.8% || 32.8% || 32.8% || 32.8% || 32.8%
 |-
-| CRIT Rate% & CRIT DMG% || 8.3%
+| CRIT DMG% || 32.8% || 32.8% || 32.8% || 32.8% || 32.8%
+|-
+| CRIT Rate% & CRIT DMG% || 8.3% || 8.3% || 8.3% || 8.3% || 8.3%
 |}
-|-|ATK%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| DEF% || 41.6%
-|-
-| Energy Recharge% || 41.6%
-|-
-| Elemental Mastery || 41.6%
-|-
-| CRIT Rate% || 32.8%
-|-
-| CRIT DMG% || 32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-|-|DEF%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| ATK% || 41.6%
-|-
-| Energy Recharge% || 41.6%
-|-
-| Elemental Mastery || 41.6%
-|-
-| CRIT Rate% || 32.8%
-|-
-| CRIT DMG% ||  32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-|-|Energy Recharge%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| ATK% || 41.6%
-|-
-| DEF% || 41.6%
-|-
-| Elemental Mastery || 41.6%
-|-
-| CRIT Rate% ||  32.8%
-|-
-| CRIT DMG% ||  32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-|-|Elemental Mastery=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| ATK% || 41.6%
-|-
-| DEF% || 41.6%
-|-
-| Energy Recharge% || 41.6%
-|-
-| CRIT Rate% || 32.8%
-|-
-| CRIT DMG% || 32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-</tabber>
+
 ===[[File:Icon Goblet of Eonothem.png|35x35px]] Goblet of Eonothem===
-The distribution changes based on the main stat:<tabber>
-|-|HP%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
+The distribution is dependent on the main affix.
+{|class="wikitable sortable"
+! rowspan="2" | Minor Affix !! colspan="6" | Scaled Chance
 |-
-| HP || 56.0%
+! HP% !! ATK% !! DEF% !! Elemental Mastery !! Elemental/Physical DMG Bonus%
 |-
-| ATK || 56.0%
+| HP || 56.0% || 56.0% || 56.0% || 56.0% || 51.2%
 |-
-| DEF || 56.0%
+| ATK || 56.0% || 56.0% || 56.0% || 56.0% || 51.2%
 |-
-| ATK% || 41.6%
+| DEF || 56.0% || 56.0% || 56.0% || 56.0% || 51.2%
 |-
-| DEF% || 41.6%
+| HP% || 0 || 41.6% || 41.6% || 41.6% || 37.5%
 |-
-| Energy Recharge% || 41.6%
+| ATK% || 41.6% || 0 || 41.6% || 41.6% || 37.5%
 |-
-| Elemental Mastery || 41.6%
+| DEF% || 41.6% || 41.6% || 0 || 41.6% || 37.5%
 |-
-| CRIT Rate% || 32.8%
+| Elemental Mastery || 41.6% || 41.6% || 41.6% || 0 || 37.5%
 |-
-| CRIT DMG% || 32.8%
+| Energy Recharge% || 41.6% || 41.6% || 41.6% || 41.6% || 37.5%
 |-
-| CRIT Rate% & CRIT DMG% || 8.3%
+| CRIT Rate% || 32.8% || 32.8% || 32.8% || 32.8% || 29.4%
+|-
+| CRIT DMG% || 32.8% || 32.8% || 32.8% || 32.8% || 29.4%
+|-
+| CRIT Rate% & CRIT DMG% || 8.3% || 8.3% || 8.3% || 8.3% || 6.7%
 |}
-|-|ATK%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| DEF% || 41.6%
-|-
-| Energy Recharge% || 41.6%
-|-
-| Elemental Mastery || 41.6%
-|-
-| CRIT Rate% || 32.8%
-|-
-| CRIT DMG% || 32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-|-|DEF%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| ATK% || 41.6%
-|-
-| Energy Recharge% || 41.6%
-|-
-| Elemental Mastery || 41.6%
-|-
-| CRIT Rate% || 32.8%
-|-
-| CRIT DMG% || 32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-|-|Elemental/Physical DMG Bonus%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 51.2%
-|-
-| ATK || 51.2%
-|-
-| DEF || 51.2%
-|-
-| HP% || 37.5%
-|-
-| ATK% || 37.5%
-|-
-| DEF% || 37.5%
-|-
-| Energy Recharge% || 37.5%
-|-
-| Elemental Mastery || 37.5%
-|-
-| CRIT Rate% || 29.4%
-|-
-| CRIT DMG% || 29.4%
-|-
-| CRIT Rate% & CRIT DMG% || 6.7%
-|}
-|-|Elemental Mastery=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| ATK% || 41.6%
-|-
-| DEF% || 41.6%
-|-
-| Energy Recharge% || 41.6%
-|-
-| CRIT Rate% || 32.8%
-|-
-| CRIT DMG% || 32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-</tabber>
+
 ===[[File:Icon Circlet of Logos.png|35x35px]] Circlet of Logos===
-The distribution changes based on the main stat:<tabber>
-|-|HP%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
+The distribution is dependent on the main affix.
+{|class="wikitable sortable"
+! rowspan="2" | Minor Affix !! colspan="7" | Scaled Chance
+|-
+! HP% !! ATK% !! DEF% !! Elemental Mastery !! CRIT Rate% !! CRIT DMG% !! Healing Bonus%
 |-
 | HP || 56.0%
+| 56.0% || 56.0% || 56.0% || 54.9% || 54.9% || 51.2%
 |-
-| ATK || 56.0%
+| ATK || 56.0% || 56.0% || 56.0% || 56.0% || 54.9% || 54.9% || 51.2%
 |-
-| DEF || 56.0%
+| DEF || 56.0% || 56.0%
+| 56.0% || 56.0% || 54.9% || 54.9% || 51.2%
 |-
-| ATK% || 41.6%
+| HP% || 0 || 41.6% || 41.6% || 41.6% || 40.7% || 40.7% || 37.5%
 |-
-| DEF% || 41.6%
+| ATK% || 41.6% || 0 || 41.6% || 41.6% || 40.7% || 40.7% || 37.5%
 |-
-| Energy Recharge% || 41.6%
+| DEF% || 41.6% || 41.6% || 0 || 41.6% || 40.7% || 40.7% || 37.5%
 |-
-| Elemental Mastery || 41.6%
+| Elemental Mastery || 41.6% || 41.6% || 41.6% || 0 || 40.7% || 40.7% || 37.5%
 |-
-| CRIT Rate% || 32.8%
+| Energy Recharge% || 41.6% || 41.6% || 41.6% || 41.6% || 40.7% || 40.7% || 37.5%
 |-
-| CRIT DMG% || 32.8%
+| CRIT Rate% || 32.8% || 32.8% || 32.8% || 32.8% || 0 || 32.0% || 29.4%
 |-
-| CRIT Rate% & CRIT DMG% || 8.3%
+| CRIT DMG% || 32.8% || 32.8% || 32.8% || 32.8% || 32.0% || 0 || 29.4%
+|-
+| CRIT Rate% & CRIT DMG% || 8.3% || 8.3% || 8.3% || 8.3% || 0 || 0 || 6.7%
 |}
-|-|ATK%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| DEF% || 41.6%
-|-
-| Energy Recharge% || 41.6%
-|-
-| Elemental Mastery || 41.6%
-|-
-| CRIT Rate% || 32.8%
-|-
-| CRIT DMG% || 32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-|-|DEF%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| ATK% || 41.6%
-|-
-| Energy Recharge% || 41.6%
-|-
-| Elemental Mastery || 41.6%
-|-
-| CRIT Rate% || 32.8%
-|-
-| CRIT DMG% || 32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-|-|CRIT Rate%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 54.9%
-|-
-| ATK || 54.9%
-|-
-| DEF || 54.9%
-|-
-| HP% || 40.7%
-|-
-| ATK% || 40.7%
-|-
-| DEF% || 40.7%
-|-
-| Energy Recharge% || 40.7%
-|-
-| Elemental Mastery || 40.7%
-|-
-| CRIT DMG% || 32.0%
-|}
-|-|CRIT DMG%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 54.9%
-|-
-| ATK || 54.9%
-|-
-| DEF || 54.9%
-|-
-| HP% || 40.7%
-|-
-| ATK% || 40.7%
-|-
-| DEF% || 40.7%
-|-
-| Energy Recharge% || 40.7%
-|-
-| Elemental Mastery || 40.7%
-|-
-| CRIT Rate% || 32.0%
-|}
-|-|Healing Bonus%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 51.2%
-|-
-| ATK || 51.2%
-|-
-| DEF || 51.2%
-|-
-| HP% || 37.5%
-|-
-| ATK% || 37.5%
-|-
-| DEF% || 37.5%
-|-
-| Energy Recharge% || 37.5%
-|-
-| Elemental Mastery || 37.5%
-|-
-| CRIT Rate% || 29.4%
-|-
-| CRIT DMG% || 29.4%
-|-
-| CRIT Rate% & CRIT DMG% || 6.7%
-|}
-|-|Elemental Mastery=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 56.0%
-|-
-| ATK || 56.0%
-|-
-| DEF || 56.0%
-|-
-| HP% || 41.6%
-|-
-| ATK% || 41.6%
-|-
-| DEF% || 41.6%
-|-
-| Energy Recharge% || 41.6%
-|-
-| CRIT Rate% || 32.8%
-|-
-| CRIT DMG% || 32.8%
-|-
-| CRIT Rate% & CRIT DMG% || 8.3%
-|}
-</tabber>
 
 ==Navigation==
 {{Genshin Navbox}}
@@ -499,3 +185,4 @@ The distribution changes based on the main stat:<tabber>
 [[Category:Game System Subpages]]
 
 [[pt-br:Artefatos/Ocorrência]]
+[[uk:Артефакти/Ймовірності]]

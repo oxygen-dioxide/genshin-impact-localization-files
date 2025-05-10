@@ -1,4 +1,4 @@
-{{About|the talent cooldown|the the cooldown on elemental application|Internal Cooldown}}
+{{About|the talent cooldown|the cooldown on elemental application|Internal Cooldown}}
 {{Terminology Infobox
 |image        = Icon Attribute Cooldown Reduction.png
 |type         = Attributes
@@ -12,17 +12,17 @@ Cooldown can be reduced via the {{Element|Anemo|24}} [[Impetuous Winds]] Element
 The cooldowns for many character's skills are fixed, but in rare cases it may vary depending on how long the ability was used; examples include [[Tartaglia]]'s [[Foul Legacy: Raging Tide]] and [[Sayu]]'s [[Yoohoo Art: Fuuin Dash]].
 
 ==CD Reduction==
-Reduce CD, commonly known as cooldown reduction, is a percentage decrease on the cooldowns after using your Elemental Skill or Elemental Burst before you can use them again. For example, if your Elemental Skill normally has a cooldown of 10 seconds, and you have 10% cooldown reduction, your skill can be used every 9 seconds.
+Cooldown reduction is a decrease on the cooldowns after using an Elemental Skill or Burst before they can be used again.
+
+[[Charge]]s of a single Talent have independent cooldowns.
 
 The Reduce CD attribute stacks additively and is affected by any effect that reduces all cooldowns, but any effects that reduce cooldowns of particular talents will stack multiplicatively.
 
 For example, if [[Bennett]]
-
 * is in a party with the {{Element|Anemo|24}} [[Impetuous Winds]] Elemental Resonance (5% cooldown reduction)
 * and stands in the Chonghua Frost Field from a constellation-level-2 [[Chongyun]]'s Elemental Skill (15% cooldown reduction)
 
 then he will have a Reduce CD of 20%. Furthermore, if Bennett is at ascension level 4 or higher (and thus has all of his Passive Talents unlocked), his Elemental Skill...
-
 * gains a 20% cooldown reduction
 * and gains another 50% reduction while he stands in his Elemental Burst's AoE.
 
@@ -100,76 +100,68 @@ Enemies have '''5''' separate cooldown timers for their skills. A skill can only
 The buff provided by [[Electro]] [[Elemental Nodes]] reduces the Regular Cooldown, Initial Cooldown, and Local Shared Cooldown of enemy skills. Global Shared Cooldown and Action Interval are not affected.
 
 ==Other Languages==
-{{Flex|
-===CD===
 {{Other Languages
-|en      = CD
-|zhs     = 冷却时间
-|zhs_rm  = Lěngquè Shíjiān
-|zht     = 冷卻時間
-|zht_rm  = Lěngquè Shíjiān
-|zh_tl   = Cooldown Time
-|ja      = クールタイム
-|ja_rm   = Kuurutaimu
-|ko      = 재사용 대기시간
-|ko_rm   = Jaesayong Daegisigan
-|ko_tl   = Cooldown
-|es      = {{tt|TdE|Tiempo de Espera}}
-|es_tl   = Waiting Time
-|fr      = Temps de recharge
-|fr_tl   = Recharge Time
-|ru      = Время отката
-|ru_tl   = Recoil Time
-|th      = คูลดาวน์
-|th_rm   = 
-|th_tl   = 
-|vi      = CD
-|de      = Abklingzeit
-|de_tl   = Attenuation Time
-|id      = Cooldown
-|pt      = Tempo de Recarga
-|pt_tl   = Recharge Times
-|tr      = {{tt|BS|Bekleme Süresi}}
-|tr_tl   = 
-|it      = {{tt|TdR|Tempi di Ricarica}}
-|it_tl   = Time of Recharge
-}}
-|
-===CD Reduction===
-{{Other Languages
-|en      = CD Reduction
-|zhs     = 冷却缩减
-|zhs_rm  = Lěngquè Suōjiǎn
-|zht     = 冷卻縮減
-|zht_rm  = Lěngquè Suōjiǎn
-|zh_tl   = Cooldown Reduction
-|ja      = クールタイム短縮
-|ja_rm   = Kuurutaimu Tanshuku
-|ja_tl   = Cooldown Reduction
-|ko      = 재사용 대기시간 감소
-|ko_rm   = Jaesayong Daegisigan Gamso
-|ko_tl   = Cooldown Reduction
-|es      = Disminución de {{tt|TdE|Tiempo de Espera}}
-|es_tl   = Waiting Time Reduction
-|fr      = Réduction du {{tt|TdR|Temps de Recharge}}
-|fr_tl   = Reduction of Recharge Time
-|ru      = Снижение времени отката
-|ru_tl   = Recoil Time Reduction
-|th      = ลดการคูลดาวน์
-|th_rm   = 
-|th_tl   = 
-|vi      = Giảm CD
-|vi_tl   = CD Reduction
-|de      = Schnelles Abklingen
-|de_tl   = Fast Attenuation
-|id      = Reduce CD
-|pt      = Redução de Recarga
-|pt_tl   = 
-|tr      = {{tt|BS|Bekleme Süresi}} Azaltımı
-|tr_tl   = 
-|it      = Riduzione {{tt|TdR|Tempi di Ricarica}}
-|it_tl   = Time of Recharge Reduction
-}}
+|1_en      = CD
+|1_zhs     = 冷却时间
+|1_zhs_rm  = Lěngquè Shíjiān
+|1_zht     = 冷卻時間
+|1_zht_rm  = Lěngquè Shíjiān
+|1_zh_tl   = Cooldown Time
+|1_ja      = クールタイム
+|1_ja_rm   = Kuurutaimu
+|1_ko      = 재사용 대기시간
+|1_ko_tl   = Cooldown
+|1_es      = {{tt|TdE|Tiempo de Espera}}
+|1_es_tl   = Waiting Time
+|1_fr      = Temps de recharge
+|1_fr_tl   = Recharge Time
+|1_ru      = Время отката
+|1_ru_tl   = Recoil Time
+|1_th      = คูลดาวน์
+|1_th_rm   = 
+|1_th_tl   = 
+|1_vi      = CD
+|1_de      = Abklingzeit
+|1_de_tl   = Cooldown Time
+|1_id      = Cooldown
+|1_pt      = Tempo de Recarga
+|1_pt_tl   = Recharge Times
+|1_tr      = {{tt|BS|Bekleme Süresi}}
+|1_tr_tl   = {{tt|WT|Waiting Time}}
+|1_it      = {{tt|TdR|Tempi di Ricarica}}
+|1_it_tl   = Time of Recharge
+
+|2_en      = CD Reduction
+|2_zhs     = 冷却缩减
+|2_zhs_rm  = Lěngquè Suōjiǎn
+|2_zht     = 冷卻縮減
+|2_zht_rm  = Lěngquè Suōjiǎn
+|2_zh_tl   = Cooldown Reduction
+|2_ja      = クールタイム短縮
+|2_ja_rm   = Kuurutaimu Tanshuku
+|2_ja_tl   = Cooldown Reduction
+|2_ko      = 재사용 대기시간 감소
+|2_ko_tl   = Cooldown Reduction
+|2_es      = Disminución de {{tt|TdE|Tiempo de Espera}}
+|2_es_tl   = Waiting Time Reduction
+|2_fr      = Réduction du {{tt|TdR|Temps de Recharge}}
+|2_fr_tl   = Reduction of Recharge Time
+|2_ru      = Снижение времени отката
+|2_ru_tl   = Recoil Time Reduction
+|2_th      = ลดการคูลดาวน์
+|2_th_rm   = 
+|2_th_tl   = 
+|2_vi      = Giảm CD
+|2_vi_tl   = CD Reduction
+|2_de      = Schnelles Abklingen
+|2_de_tl   = Fast Cooldown
+|2_id      = Reduce CD
+|2_pt      = Redução de Recarga
+|2_pt_tl   = 
+|2_tr      = {{tt|BS|Bekleme Süresi}} Azaltımı
+|2_tr_tl   = {{tt|WT|Waiting Time}} Reduction
+|2_it      = Riduzione {{tt|TdR|Tempi di Ricarica}}
+|2_it_tl   = Time of Recharge Reduction
 }}
 
 ==Change History==
@@ -182,3 +174,4 @@ The buff provided by [[Electro]] [[Elemental Nodes]] reduces the Regular Cooldow
 {{Combat Navbox}}
 
 [[ja:クールタイム]]
+[[vi:CD]]

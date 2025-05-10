@@ -1,6 +1,6 @@
 {{Quest Infobox
 |id            = 02013
-|image         = Archon Quest C2A1 Ritou Escape Plan.png
+|image         = Archon Quest Ritou Escape Plan.png
 |type          = Archon
 |chapter       = II
 |actNum        = I
@@ -13,10 +13,7 @@
 |subarea       = Ritou
 |prev          = Confessions of an Outlander
 |next          = Three Wishes
-|exp           = 800
-|mora          = 38,100
-|primogems     = 
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|7}}
+|rewards       = Adventure EXP*800;Mora*38,100;Hero's Wit*4;Mystic Enhancement Ore*7;Lightly-Perfumed Letter*1;A Love Letter(?)*1
 |characters    = Hiiragi Chisato; Hiiragi Shinsuke; Kenzaburou; Kobayashi; Paimon; Shinnojou; Traveler; Yokoyama
 |voiced        = yes
 }}
@@ -26,10 +23,10 @@
 #Go to the Kanjou Commissioner's Office to ask about a way to leave Ritou
 #Talk to [[Hiiragi Shinsuke|Shinsuke]] of the Kanjou Commission
 #Leave the Kanjou Commissioner's Office
-#*Obtain [[Lightly-Perfumed Letter]]
+#*Obtain {{Item|Lightly-Perfumed Letter}}
 #Meet [[Hiiragi Chisato|Ms. Hiiragi]] at the appointed time (18:00 - 24:00)
 #Meet Hiiragi Chisato
-#*Obtain [[A Love Letter(?)]]
+#*Obtain {{Item|A Love Letter(?)}}
 #Go to Ritou's borders to carry out Chisato's plan
 #*Co-Op Mode is locked until the escort is successful.
 #Escort the goods and leave Ritou
@@ -38,15 +35,13 @@
 <!-- Any notes that will help complete the quest -->
 * Escorting the goods involves protecting a [[Transport Balloon]].
 * Completion of this quest also starts the side quest, [[Chisato's Letter]].
-
-==Achievements==
-* Completing this quest will grant the ''[[Wonders of the World]]'' achievement ''[[Hiiragi Sanjuuro]]''.
+* Completing this quest will grant the {{Achievement|Hiiragi Sanjuuro}}.
 
 ==Dialogue==
 {{Quest Description|[[Thoma]] has set you a test to leave [[Ritou]] by your own power, lest your journey end here...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach [[Kobayashi]])
-:{{A|vo dqaq003 1 kobayashi 01.ogg}} '''Kobayashi:''' Stop there! Present your Travel Permits!
+:{{A|vo dqaq003 1 kobayashi 01.ogg}} '''[[Kobayashi]]:''' Stop there! Present your Travel Permits!
 :{{A|vo dqaq003 1 paimon 01.ogg}} '''Paimon:''' Sorry, but we've really gotta get to Narukami Island, it's kinda urgent...
 :{{A|vo dqaq003 1 kobayashi 02.ogg}} '''Kobayashi:''' If you don't have a Travel Permit, this is as far as you'll get. Those are the rules.
 :{{A|vo dqaq003 1 paimon 02.ogg}} '''Paimon:''' Huh... as expected.
@@ -59,10 +54,10 @@
 ----
 
 ;(Upon arriving at the Kanjou Commission's entrance)
-:{{A|vo dqaq003 2 yokoyama 01.ogg}} '''Yokoyama:''' Halt! This is the Kanjou Commissioner's Office. No trespassers!
+:{{A|vo dqaq003 2 yokoyama 01.ogg}} '''[[Yokoyama]]:''' Halt! This is the Kanjou Commissioner's Office. No trespassers!
 :{{A|vo dqaq003 2 paimon 01.ogg}} '''Paimon:''' We're here to see, uh... y'know, um... the Kanjou Commissioner!
 :{{A|vo dqaq003 2 yokoyama 02.ogg}} '''Yokoyama:''' The Kanjou Commissioner seldom entertains outlanders. Leave, now or we'll be forced to&mdash;
-:{{A|vo dqaq003 2 hiiragishinsuke 01.ogg}} '''Hiiragi Shinsuke:''' Ah... Wait, wait, wait...
+:{{A|vo dqaq003 2 hiiragishinsuke 01.ogg}} '''[[Hiiragi Shinsuke]]:''' Ah... Wait, wait, wait...
 :{{A|vo dqaq003 2 yokoyama 03.ogg}} '''Yokoyama:''' Oh! Commissioner!
 :{{A|vo dqaq003 2 hiiragishinsuke 02.ogg}} '''Hiiragi Shinsuke:''' These two are honored guests from afar, no need to give them the usual spiel.
 :{{A|vo dqaq003 2 hiiragishinsuke 03.ogg}} '''Hiiragi Shinsuke:''' Come on in, let's see what we can do for you.
@@ -90,7 +85,7 @@
 :{{DIcon}} Ultimately, they still got their way.
 :{{A|vo dqaq003 3 hiiragishinsuke 07.ogg}} '''Hiiragi Shinsuke:''' ...Ritou is greatly honored to have you visit us.
 :{{A|vo dqaq003 3 hiiragishinsuke 08.ogg}} '''Hiiragi Shinsuke:''' One other thing I heard about you is your great zeal for helping other people. This makes me wonder... whether you might be so kind as to render your assistance to the Kanjou Commission?
-:{{A|vo dqaq003 3 paimon 07.ogg}} '''Paimon:''' Sure, no problem! Whatever you need &mdash; right, (Traveler)?
+:{{A|vo dqaq003 3 paimon 07.ogg}} '''Paimon:''' Sure, no problem! Whatever you need &mdash; right, {{Traveler}}?
 :{{DIcon}} Time to run some errands again?
 :{{DIcon}} This is my forte.
 :{{A|vo dqaq003 3 hiiragishinsuke 09.ogg}} '''Hiiragi Shinsuke:''' Excellent. Well, then...
@@ -108,7 +103,7 @@
 :{{A|vo dqaq003 3 hiiragishinsuke 15.ogg}} '''Hiiragi Shinsuke:''' Terribly sorry, we're just a little short on people lately...
 :{{A|vo dqaq003 3 paimon 12.ogg}} '''Paimon:''' What sort of an explanation is that!?
 :{{DIcon}} ...
-:'''''(As you speak to Hiiragi Shinsuke, an unfamiliar lady appears not far behind Shinsuke. She carefully exchanges glances with you...)'''''
+:{{Black Screen|''(As you speak to Hiiragi Shinsuke, an unfamiliar lady appears not far behind Shinsuke. She carefully exchanges glances with you...)''}}
 :{{A|vo dqaq003 3 paimon 13.ogg}} '''Paimon:''' Traveler, what're we gonna do? Should we really help this guy?
 :{{DIcon}} I'll consider it.
 :{{DIcon}} I'll need to look into it more first.
@@ -147,13 +142,14 @@
 :{{DIcon}} Shinsuke has no intention of letting us leave.
 ::{{A|vo dqaq003 6 paimon 05b.ogg}} '''Paimon:''' Paimon knew something just didn't seem right about him!
 :{{A|vo dqaq003 6 paimon 06.ogg}} '''Paimon:''' Hmm... let's ask her tonight and see what she has to say.
+;(Obtain {{Item|Lightly-Perfumed Letter}})
 
 ----
 
 ;(Approach the meeting area)
-:{{A|vo dqaq003 7 hiiragichisato 01.ogg}} '''Hiiragi Chisato:''' Ah, you've finally arrived... Allow me to introduce myself, I am Hiiragi Chisato.
+:{{A|vo dqaq003 7 hiiragichisato 01.ogg}} '''[[Hiiragi Chisato]]:''' Ah, you've finally arrived... Allow me to introduce myself, I am Hiiragi Chisato.
 :{{A|vo dqaq003 7 hiiragichisato 02.ogg}} '''Hiiragi Chisato:''' This is... technically the second time we have met. It's a pleasure to see you again.
-:{{A|vo dqaq003 7 paimon 01.ogg}} '''Paimon:''' Wow, she's the daughter of the Hiiragi Clan alright...
+:{{A|vo dqaq003 7 paimon 01.ogg}} '''Paimon:''' Wow, she's the daughter of the [[Hiiragi Clan]] alright...
 :{{DIcon}} The pleasure is mine.
 :{{DIcon}} I'm delighted to see you again.
 :{{A|vo dqaq003 7 hiiragichisato 03.ogg}} '''Hiiragi Chisato:''' N&mdash;No need to be so formal &mdash; I've long marveled at your accomplishments... and at last we have the chance to meet.
@@ -179,9 +175,9 @@
 :{{DIcon}} An arrogant-sounding woman...
 :{{DIcon}} Seems we need to get off Ritou as fast as we can.
 :{{A|vo dqaq003 7 hiiragichisato 14.ogg}} '''Hiiragi Chisato:''' We don't have much time. I'll tell you my plans to help you off the island. It just so happens that a shipment of goods is...
-:'''''(Hiiragi Chisato tells the Traveler her plans.)'''''
+:{{Black Screen|''(Hiiragi Chisato tells the Traveler her plans.)''}}
 :{{A|vo dqaq003 7 hiiragichisato 15.ogg}} '''Hiiragi Chisato:''' Very well, I'll be waiting for you at the border. I'm counting on you to deliver my letter.
-;(Obtain [[A Love Letter(?)]])
+;(Obtain {{Item|A Love Letter(?)}})
 
 ----
 
@@ -219,7 +215,7 @@
 :{{A|vo dqaq003 9 shinnojou 03.ogg}} '''Shinnojou:''' Lady Hiiragi, stay close.
 
 ;(If you ran out of time, the transport balloon is destroyed, or you stray too far from it)
-:'''''Escort failed, the cargo was intercepted...'''''
+:{{Black Screen|''Escort failed, the cargo was intercepted...''}}
 :;(Return to the start of this step)
 
 ;(After successfully escorting the transport balloon)
@@ -246,11 +242,11 @@
 :{{A|vo dqaq003 10 shinnojou 06.ogg}} '''Shinnojou:''' *whimpers* Al&mdash;Alright... *sobs*
 
 ;(Unlocks the [[Teleport Waypoint]] just outside of Ritou)
-;(Unlocks [[Sacred Sakura's Favor]] &mdash; Offer the [[Electro Sigil]]s to the [[Sacred Sakura]] of the [[Grand Narukami Shrine]] in exchange for its favor.)
+;(Unlocks [[Sacred Sakura's Favor]] &mdash; Offer the [[Electro Sigil]]s to the [[Sacred Sakura]] of the [[Grand Narukami Shrine (Subarea)|Grand Narukami Shrine]] in exchange for its favor.)
 
 :{{A|vo dqaq003 11 paimon 01.ogg}} '''Paimon:''' Whew, we're finally on our own way again!
 :{{A|vo dqaq003 11 paimon 02.ogg}} '''Paimon:''' I suppose it's time we find Thoma. Now where did he say he would meet us again... Right, Komore Teahouse!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -264,7 +260,6 @@
 |ja_rm   = Ritou Dasshutsu Keikaku
 |ja_tl   = Ritou Escape Plan
 |ko      = 이도 탈출 계획
-|ko_rm   = Ido Talchul Gyehoek
 |ko_tl   = Ritou Escape Plan
 |es      = El plan de huida de Ritou
 |es_tl   = The Plan to Flee From Ritou
@@ -284,7 +279,7 @@
 |pt      = Plano de Fuga de Ritou
 |pt_tl   = Ritou Escape Plan
 |tr      = Ritou Kaçış Planı
-|tr_tl   = 
+|tr_tl   = Ritou Escape Plan
 |it      = Fuga da Ritou
 |it_tl   = Escape from Ritou
 }}
@@ -294,10 +289,10 @@
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
-[[Category:Archon Chapter 2]]
 
 [[es:El plan de huida de Ritou]]
 [[fr:Plan d'évasion de Ritou]]
 [[ja:離島脱出計画]]
 [[pt-br:Plano de Fuga de Ritou]]
 [[ru:Побег с острова Рито]]
+[[vi:Kế Hoạch Thoát Khỏi Đảo Ritou]]

@@ -1,10 +1,10 @@
 {{Quest Infobox
-|id            = 12039
-|image         = Story Ere the End a Glance Back.png
+|id            = 12039; 12043
+|image         = Story Quest Ere the End a Glance Back.png
 |type          = Story
 |chapter       = Acer Palmatum Chapter
 |actNum        = I
-|part          = 2
+|part          = 3
 |act           = A Strange and Friendless Road
 |character     = Kaedehara Kazuha
 |requirement   = 
@@ -14,14 +14,11 @@
 |subarea       = Mt. Yougou
 |prev          = Through the Mist, a Name Unveiled
 |domain        = Occupied Hold
-|exp           = 575
-|mora          = 38,100
-|primogems     = 60
-|other         = {{Card|Guide to Diligence|5}}{{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}{{Card|Kagotsurube Isshin|1}}
+|rewards       = Adventure EXP*575;Primogem*60;Mora*38,100;Guide to Diligence*5;Kagotsurube Isshin*1;Hero's Wit*4;Mystic Enhancement Ore*8
 |characters    = Amenoma Yuuya; Kaedehara Kazuha; Kujou Kamaji; Murayama; Paimon; Traveler
 |voiced        = yes
 }}
-'''Ere the End, a Glance Back''' is the third and final part of [[Kaedehara Kazuha]]'s [[Story Quest]] [[Acer Palmatum Chapter]]: Act I - [[A Strange and Friendless Road]].
+'''''Ere the End, a Glance Back''''' is the third and final part of {{Quest|A Strange and Friendless Road}}.
 
 ==Steps==
 # Go to the blade-testing venue
@@ -49,7 +46,7 @@
 * The weapon attributes change upon completing different rooms in the [[Occupied Hold]] Quest Domain. Kazuha will switch his weapon to [[Fillet Blade]] for the final fight in the domain.
 * The weapon shown here is during the duel with Amenoma Yuuya.
 {{Trial Character
-|wl                      = 4,6,8
+|wl                      = 4,5,6,8
 |character_name          = Kaedehara Kazuha
 
 <!--WL 4 stats-->
@@ -81,6 +78,7 @@
 |crit_dmg4               = 72.4%
 |er4                     = 104.7%
 
+<!--WL 6 stats-->
 |character_level6        = 82
 |constellation6          = 3
 
@@ -109,6 +107,35 @@
 |crit_dmg6               = 91.9%
 |er6                     = 135.0%
 
+<!--WL 5 stats-->
+|character_level5        = 71
+|constellation5          = 3
+
+|weapon_name5            = Prized Isshin Blade (Shattered)
+|weapon_level5           = 71
+|refinement5             = 1
+
+|artifact_flower5        = Royal Flora
+|artifact_feather5       = Royal Plume
+|artifact_sands5         = Royal Pocket Watch
+|artifact_goblet5        = Royal Silver Urn
+|artifact_circlet5       = Royal Masque
+|artifact_level5         = 16
+|set1_5                  = Noblesse Oblige
+|set1_piece_bonus_5      = 4
+
+|normal_attack_talent5   = 5
+|elemental_skill_talent5 = 8
+|elemental_burst_talent5 = 5
+
+|hp5                     = 21,289
+|atk5                    = 1,383
+|def5                    = 748
+|em5                     = 128
+|crit_rate5              = 51.8%
+|crit_dmg5               = 91.9%
+|er5                     = 135%
+
 <!-- WL 8 Stats-->
 |character_level8        = 90
 |constellation8          = 3
@@ -117,26 +144,27 @@
 |weapon_level8           = 90
 |refinement8             = 1
 
-|artifact_flower8        = Royal Flora
-|artifact_feather8       = Royal Plume
-|artifact_sands8         = Royal Pocket Watch
-|artifact_goblet8        = Royal Silver Urn
-|artifact_circlet8       = Royal Masque
+|artifact_flower8        = In Remembrance of Viridescent Fields
+|artifact_feather8       = Viridescent Arrow Feather
+|artifact_sands8         = Viridescent Venerer's Determination
+|artifact_goblet8        = Viridescent Venerer's Vessel
+|artifact_circlet8       = Viridescent Venerer's Diadem
 |artifact_level8         = 20
-|set1_8                  = Noblesse Oblige
+|set1_8                  = Viridescent Venerer
 |set1_piece_bonus_8      = 4
 
 |normal_attack_talent8   = 8
 |elemental_skill_talent8 = 11
 |elemental_burst_talent8 = 8
 
-|hp8                     = 27,632
-|atk8                    = 1,725
+|hp8                     = 21,412
+|atk8                    = 1,349
 |def8                    = 955
-|em8                     = 220
-|crit_rate8              = 57.1%
-|crit_dmg8               = 91.9%
+|em8                     = 593
 |er8                     = 135.0%
+|crit_rate8              = 26.0%
+|crit_dmg8               = 91.9%
+|anemo_dmg8              = 61.6%
 }}
 
 ==Gameplay Notes==
@@ -145,7 +173,7 @@
 
 ==Dialogue==
 {{Quest Description|As it turns out, the one behind the missing-person case is a cursed blade that has possessed Amenoma Yuuya's body. To save the latter and to prove the absurdity of the blade's fixation, Kazuha eventually takes up the cursed blade himself.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the first room in the Domain)
 :{{A|vo wylq103 1 kazuha 01.ogg}} '''Kaedehara Kazuha:''' Leave everything on this journey to me.
 
@@ -280,9 +308,7 @@
 :{{A|vo wylq103 9 kagotsurubeisshin 15.ogg}} '''Prized Isshin Blade:''' I will release Amenoma Yuuya, and restore his consciousness. Perhaps after that, you can convince him to commit to a fight with you.
 :{{A|vo wylq103 9 kagotsurubeisshin 16.ogg}} '''Prized Isshin Blade:''' He must have plenty of reasons to both hate me and desire a good fight.
 :{{A|vo wylq103 9 kazuha 04.ogg}} '''Kaedehara Kazuha:''' Understood. Then let's start by waking him up and seeing if he has the stamina and will to fight.
-
-:'''Amenoma Yuuya finally regains consciousness. The party explains the situation to him.'''
-
+:{{Black Screen|Amenoma Yuuya finally regains consciousness. The party explains the situation to him.}}
 :{{A|vo wylq103 9 amenomayuuya 01.ogg}} '''Amenoma Yuuya:''' I see. He used my body... to inflict harm on others.
 :{{A|vo wylq103 9 amenomayuuya 02.ogg}} '''Amenoma Yuuya:''' I utterly despise him and his actions, but since he stayed true to your agreement by releasing me, he must still have some remaining semblance of honor.
 :{{A|vo wylq103 9 amenomayuuya 03.ogg}} '''Amenoma Yuuya:''' If a duel can help to set this state of affairs in order, I am willing to put myself forward.
@@ -292,9 +318,9 @@
 :{{A|vo wylq103 9 kazuha 05.ogg}} '''Kaedehara Kazuha:''' Alright, then let's move on.
 :{{A|vo wylq103 9 kazuha 06.ogg}} '''Kaedehara Kazuha:''' More ronin could appear at any moment. We can't stay here.
 :{{A|vo wylq103 9 kazuha 07.ogg}} '''Kaedehara Kazuha:''' In any case, for a final duel, I think we should aim for a greater sense of ceremony.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Having recognized that he is not on the same level as Kazuha, the cursed blade releases Amenoma Yuuya and seems to have contained his malice for now, though his obsession has not thus diminished...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked location)
 :{{A|vo wylq103 10 paimon 01.ogg}} '''Paimon:''' This reminds Paimon a bit of The Crux Clash.
 :{{DIcon}} That was a much more relaxed occasion.
@@ -330,9 +356,7 @@
 ;(Approach Amenoma Smithy)
 :{{A|vo wylq103 12 amenomatoogo 01.ogg}} '''Amenoma Tougo:''' Ah, it's Yuuya! You have returned!
 :{{A|vo wylq103 12 amenomayuuya 01.ogg}} '''Amenoma Yuuya:''' I am sorry to have troubled you. It's all thanks to them that I was able to return safely.
-
-:'''You tell Amenoma Tougo about the various things that happened.'''
-
+:{{Black Screen|You tell Amenoma Tougo about the various things that happened.}}
 :{{A|vo wylq103 12 amenomatoogo 02.ogg}} '''Amenoma Tougo:''' A prized Isshin blade, turned weapon that controls the human mind...
 :{{A|vo wylq103 12 amenomatoogo 03.ogg}} '''Amenoma Tougo:''' *sigh* Considering their forging philosophy, this was indeed within the realm of possibility. This is a great pity.
 :{{A|vo wylq103 12 amenomatoogo 04.ogg}} '''Amenoma Tougo:''' But I have some good news as well. Ryuuji from the Bantan Sango Detective Agency tells me that they've found the missing Mr. Nagato.
@@ -351,33 +375,31 @@
 :{{A|vo wylq103 12 kazuha 05.ogg}} '''Kaedehara Kazuha:''' Thank you. I will explain my reasons later.
 :{{A|vo wylq103 12 kazuha 06.ogg}} '''Kaedehara Kazuha:''' Okay, I am ready. Let us begin, please stay true to your promise.
 {{Cutscene Description|Putting forth the last remnants of its power, the prized Isshin blade exhorts Kaedehara Kazuha to go to the anvil in the smithy. Its final wish is to be reforged at the cost of everything that comprises its present consciousness. At its instruction, Kazuha hammers and forges, and the red blade slowly regains its luster. In this manner is the Isshin Art at last revived and continued...}}
-;(A cinematic begins)
+:;(A cinematic begins)
 :;(Kazuha picks up the Prized Isshin Blade and a purple glow takes over Kazuha's eyes)
 :;(He awakes in a [[Realm of Consciousness|realm of consciousness]])
-:{{A|vo wylq103 cs kagotsurubeisshin 01.ogg}} '''Prized Isshin Blade:''' My power is almost spent. Without him, my eventual demise is inevitable
-:{{A|vo wylq103 cs kagotsurubeisshin 02.ogg}} '''Prized Isshin Blade:''' But if I abandon the future to give everything I have in this moment, my physical form can be forged anew
-:{{A|vo wylq103 cs kazuha 01.ogg}} '''Kaedehara Kazuha:''' "Everything"... you mean...?
-:{{A|vo wylq103 cs kagotsurubeisshin 03.ogg}} '''Prized Isshin Blade:''' Yes, the cost is my entire consciousness
+::{{A|vo wylq103 cs kagotsurubeisshin 01.ogg}} '''Prized Isshin Blade:''' My power is almost spent. Without him, my eventual demise is inevitable
+::{{A|vo wylq103 cs kagotsurubeisshin 02.ogg}} '''Prized Isshin Blade:''' But if I abandon the future to give everything I have in this moment, my physical form can be forged anew
+::{{A|vo wylq103 cs kazuha 01.ogg}} '''Kaedehara Kazuha:''' "Everything"... you mean...?
+::{{A|vo wylq103 cs kagotsurubeisshin 03.ogg}} '''Prized Isshin Blade:''' Yes, the cost is my entire consciousness
 :;(The Prized Isshin Blade, as Kazuha, awakes in the real world and begins to reforge the sword)
-:{{A|vo wylq103 cs kagotsurubeisshin 04.ogg}} '''Prized Isshin Blade:''' You were right, there's nothing that I can accomplish now
-:{{A|vo wylq103 cs kagotsurubeisshin 05.ogg}} '''Prized Isshin Blade:''' But there's still a chance for Isshin Art
-:{{A|vo wylq103 cs kagotsurubeisshin 06.ogg}} '''Prized Isshin Blade:''' Once remade, I will be a valuable resource for your studies
-:{{A|vo wylq103 cs kagotsurubeisshin 07.ogg}} '''Prized Isshin Blade:''' Isshin lives on, and its finest hour is yet to come
-:{{A|vo wylq103 cs kagotsurubeisshin 08.ogg}} '''Prized Isshin Blade:''' Even if I am not the one to prove its might to the Shogun...
-:{{A|vo wylq103 cs kagotsurubeisshin 09.ogg}} '''Prized Isshin Blade:''' As long as it is an Isshin blade, crafted by Kaedehara hands...
-:{{A|vo wylq103 cs kagotsurubeisshin 10.ogg}} '''Prized Isshin Blade:''' It will still fulfill his final wish
+::{{A|vo wylq103 cs kagotsurubeisshin 04.ogg}} '''Prized Isshin Blade:''' You were right, there's nothing that I can accomplish now
+::{{A|vo wylq103 cs kagotsurubeisshin 05.ogg}} '''Prized Isshin Blade:''' But there's still a chance for Isshin Art
+::{{A|vo wylq103 cs kagotsurubeisshin 06.ogg}} '''Prized Isshin Blade:''' Once remade, I will be a valuable resource for your studies
+::{{A|vo wylq103 cs kagotsurubeisshin 07.ogg}} '''Prized Isshin Blade:''' Isshin lives on, and its finest hour is yet to come
+::{{A|vo wylq103 cs kagotsurubeisshin 08.ogg}} '''Prized Isshin Blade:''' Even if I am not the one to prove its might to the Shogun...
+::{{A|vo wylq103 cs kagotsurubeisshin 09.ogg}} '''Prized Isshin Blade:''' As long as it is an Isshin blade, crafted by Kaedehara hands...
+::{{A|vo wylq103 cs kagotsurubeisshin 10.ogg}} '''Prized Isshin Blade:''' It will still fulfill his final wish
 :;(In the realm of consciousness)
-:{{A|vo wylq103 cs kagotsurubeisshin 11.ogg}} '''Prized Isshin Blade:''' Thank you, son of the Kaedehara Clan
-:{{A|vo wylq103 cs kagotsurubeisshin 12.ogg}} '''Prized Isshin Blade:''' Over the years, my real name has been forgotten by all. I'm ashamed to utter it, yet it remains strong in my mind:
-:{{A|vo wylq103 cs kagotsurubeisshin 13.ogg}} '''Prized Isshin Blade:''' "Kagotsurube Isshin"
-:{{A|vo wylq103 cs kagotsurubeisshin 14.ogg}} '''Prized Isshin Blade:''' This name is now yours to keep...
+::{{A|vo wylq103 cs kagotsurubeisshin 11.ogg}} '''Prized Isshin Blade:''' Thank you, son of the Kaedehara Clan
+::{{A|vo wylq103 cs kagotsurubeisshin 12.ogg}} '''Prized Isshin Blade:''' Over the years, my real name has been forgotten by all. I'm ashamed to utter it, yet it remains strong in my mind:
+::{{A|vo wylq103 cs kagotsurubeisshin 13.ogg}} '''Prized Isshin Blade:''' "Kagotsurube Isshin"
+::{{A|vo wylq103 cs kagotsurubeisshin 14.ogg}} '''Prized Isshin Blade:''' This name is now yours to keep...
 :;(The purple glow in Kazuha's eyes fades away)
-:{{A|vo wylq103 cs kazuha 02.ogg}} '''Kaedehara Kazuha:''' Hm
-:{{A|vo wylq103 cs kazuha 03.ogg}} '''Kaedehara Kazuha:''' Rest in peace
+::{{A|vo wylq103 cs kazuha 02.ogg}} '''Kaedehara Kazuha:''' Hm
+::{{A|vo wylq103 cs kazuha 03.ogg}} '''Kaedehara Kazuha:''' Rest in peace
 :;(Cinematic ends)
-
-:'''After leaving the Amenoma Smithy, you learn of the blade's final words from Kazuha.'''
-
+:{{Black Screen|After leaving the Amenoma Smithy, you learn of the blade's final words from Kazuha.}}
 :{{A|vo wylq103 13 paimon 01.ogg}} '''Paimon:''' So that's why he said it had to be done in that order...
 :{{A|vo wylq103 13 paimon 02.ogg}} '''Paimon:''' His consciousness will disappear forever after fulfilling the bladesmith's wish.
 :{{A|vo wylq103 13 kazuha 01.ogg}} '''Kaedehara Kazuha:''' "Kagotsurube Isshin"... It was the first time I ever heard his name.
@@ -426,7 +448,10 @@
 ;(Talk to Kujou Kamaji again)
 :{{A|vo dialog wylq103 kujoukamaji 01.ogg}} '''Kujou Kamaji:''' Mr. Nagato's survival is the one silver lining in this whole catastrophe.
 :{{A|vo dialog wylq103 kujoukamaji 02.ogg}} '''Kujou Kamaji:''' We will continue to monitor his condition, and hope he recovers soon.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Video Guides==
 {{EVT
@@ -446,7 +471,6 @@
 |ja_rm   = Kyuuto ni Kiro wo Motomete{{Assumed}}
 |ja_tl   = Wishing to Go Back Home by the Dead End Road
 |ko      = 궁지에서 나오는 길
-|ko_rm   = Gungjieseo Naoneun Gil
 |ko_tl   = Way to Get out of the Corner
 |es      = Una mirada atrás al final del camino
 |es_tl   = A Glance Back At the End of the Road
@@ -475,3 +499,4 @@
 {{Change History|2.8}}
 
 [[es:Una mirada atrás al final del camino]]
+[[pt-br:Um Olhar para Trás Antes do Fim]]

@@ -2,13 +2,13 @@
 |character     = Venti
 |image         = Talent Divine Marksmanship.png
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Performs up to 6 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Perform a more precise '''Aimed Shot''' with increased DMG.<br />While aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal {{Color|Anemo DMG}}.<br /><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
-|hit1          = 20.4+20.4–40%+40%
+|info          = '''Normal Attack'''<br>Performs up to 6 consecutive shots with a bow.<br><br>'''Charged Attack'''<br>Perform a more precise [[Aimed Shot]] with increased DMG.<br>While aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal {{Color|Anemo DMG}}.<br><br>'''Plunging Attack'''<br>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing [[AoE]] DMG upon impact.
+|hit1          = 20.4–40%+20.4–40%
 |hit2          = 44.4–88%
 |hit3          = 52.4–104%
-|hit4          = 26.1+26.1–52%+52%
+|hit4          = 26.1–52%+26.1–52%
 |hit5          = 50.7–100%
-|hit6          = 71–140%
+|hit6          = 71.0–140%
 |aimed         = 43.9–87%
 |charged       = 124–223%
 |plunge        = 56.8–120.3%
@@ -19,100 +19,99 @@
 '''Divine Marksmanship''' is [[Venti]]'s [[Normal Attack]].
 
 ==Gameplay Notes==
-* {{TalentNote|icd|Fully-Charged Aimed Shot DMG|1|3}}
-** This ICD is shared with the extra arrows at [[Splitting Gales|Constellation 1]].
-
 ;<big>Constellation Effects</big>
-*{{TalentNote|constellation|1|Splitting Gales}}
+*{{Talent Note|constellation|1|Splitting Gales}}
 
 ==Advanced Properties==
 {{Advanced Properties
 |title   = Normal Attack 1-Hit A
-|gu      = —
+|gu      = &mdash;
 |icdtag  = none
 |poise   = 6
 |impulse = 1
 
 |title2   = Normal Attack 1-Hit B
-|gu2      = —
+|gu2      = &mdash;
 |icdtag2  = none
 |poise2   = 6
 |impulse2 = 1
 
 |title3   = Normal Attack 2-Hit
-|gu3      = —
+|gu3      = &mdash;
 |icdtag3  = none
 |poise3   = 13.8
 |impulse3 = 1
 
 |title4   = Normal Attack 3-Hit
-|gu4      = —
+|gu4      = &mdash;
 |icdtag4  = none
 |poise4   = 15.6
 |impulse4 = 1
 
 |title5   = Normal Attack 4-Hit A
-|gu5      = —
+|gu5      = &mdash;
 |icdtag5  = none
 |poise5   = 7.68
 |impulse5 = 1
 
 |title6   = Normal Attack 4-Hit B
-|gu6      = —
+|gu6      = &mdash;
 |icdtag6  = none
 |poise6   = 7.68
 |impulse6 = 1
 
 |title7   = Normal Attack 5-Hit
-|gu7      = —
+|gu7      = &mdash;
 |icdtag7  = none
 |poise7   = 15
 |impulse7 = 1
 
 |title8   = Normal Attack 6-Hit
-|gu8      = —
+|gu8      = &mdash;
 |icdtag8  = none
 |poise8   = 20.4
 |impulse8 = 1
 
 |title9   = Aimed Shot
-|gu9      = —
+|gu9      = &mdash;
 |icdtag9  = none
 |poise9   = 10
 |impulse9 = 2
 
 |title10   = Aimed Shot (Hit Weak Spot)
-|gu10      = —
+|gu10      = &mdash;
 |icdtag10  = none
 |poise10   = 30
 |impulse10 = 5
 
 |title11   = Fully-Charged Aimed Shot
-|gu11      = 1U<br /><small>(w/ [[Dropoff]])</small>
-|icdtag11  = none
+|gu11      = 1U<br><small>(w/ [[Dropoff]])</small>
+|icdtag11  = Charged Attack
+|icdtype11 = 1s/3 Hits
 |poise11   = 20
 |impulse11 = 2
 
 |title12   = Fully-Charged Aimed Shot (Hit Weak Spot)
-|gu12      = 1U<br /><small>(w/ Dropoff)</small>
-|icdtag12  = none
+|gu12      = 1U<br><small>(w/ Dropoff)</small>
+|icdtag12  = Charged Attack
+|icdtype12 = 1s/3 Hits
 |poise12   = 60
 |impulse12 = 5
 
 |title13   = Plunging Attack Collision
-|gu13      = —
+|gu13      = &mdash;
 |icdtag13  = none
 |poise13   = 10
 |impulse13 = 2
 
 |title14   = Low Plunge
-|gu14      = —
+|gu14      = &mdash;
 |icdtag14  = none
 |poise14   = 50
 |impulse14 = 2
 
 |title15   = High Plunge
-|gu15      = —
+|gu15      = &mdash;
 |icdtag15  = none
 |poise15   = 100
 |impulse15 = 3
@@ -126,7 +125,7 @@
 |file2=Divine Marksmanship Charged Preview
 |caption2=Charged Attack
 
-|file3=Divine Marksmanship Plunge Preview
+|file3=Divine Marksmanship Plunging Preview
 |caption3=Plunging Attack
 }}
 {{clr}}
@@ -272,10 +271,9 @@
 |zht_rm  = Shéndài Shèshù
 |zh_tl   = Divine Shooting Technique
 |ja      = 神代の射術
-|ja_rm   = Kamiyo no Shajutsu{{Assumed}}
+|ja_rm   = Kamiyo no Shajutsu
 |ja_tl   = Archery of Ancient Times
 |ko      = 신성한 사격술
-|ko_rm   = Sinseonghan Sagyeoksul
 |ko_tl   = Divine Marksmanship
 |es      = Puntería divina
 |es_tl   = Divine Aim
@@ -292,7 +290,7 @@
 |pt      = Tiro com Arco Divino
 |pt_tl   = Shot with a Divine Bow
 |tr      = Kutsal Nişancı
-|tr_tl   = 
+|tr_tl   = Divine Marksman
 |it      = Precisione divina
 |it_tl   = Divine Precision
 }}
@@ -305,7 +303,9 @@
 
 [[es:Puntería divina]]
 [[fr:Archerie divine]]
+[[ja:神代の射術]]
 [[pt-br:Tiro com Arco Divino]]
 [[ru:Божественная точность]]
 [[th:Divine Marksmanship]]
+[[uk:Божественна стрільба з лука]]
 [[vi:Xạ Thuật Của Thần]]

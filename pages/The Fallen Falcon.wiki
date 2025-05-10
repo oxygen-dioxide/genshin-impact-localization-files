@@ -1,10 +1,9 @@
 {{Quest Infobox
-|id            = 
+|id            = 73282
 |image         = World Quest The Fallen Falcon.png
 |type          = World
 |chapter       = 
 |part          = 
-|summary       = 
 |requirement   = 
 |characters    = Masseira; Tadhla; Liloupar
 |startLocation = [[Tanit Camps]]
@@ -14,12 +13,9 @@
 |subarea       = Tanit Camps
 |prev          = [["The Falcon's Hunt"]]
 |next          = [[Memories of Gurabad]]
-|exp           = 250
-|mora          = 25,000
-|primogems     = 30
-|other         = {{Card|Hero's Wit|3}}
+|rewards       = Adventure EXP*250;Primogem*30;Mora*25,000;Hero's Wit*3;Tadhla's Feather*1
 }}
-'''''The Fallen Falcon''''' is a world quest that can be started in [[Tanit Camps]]. The quest can be obtained by waiting one in-game day after the completion of ''[["The Falcon's Hunt"]]'' and speaking to [[Masseira]].
+'''''The Fallen Falcon''''' is a World Quest that can be started in [[Tanit Camps]]. The quest can be obtained by waiting one in-game day after the completion of the {{Quest|"The Falcon's Hunt"}} and speaking to [[Masseira]].
 
 ==Steps==
 * Start the quest by talking to Masseira
@@ -30,12 +26,12 @@
 # Confront Masseira
 
 ==Gameplay Notes==
-* Completing the quest grants the ''[[Wonders of the World]]'' achievement ''[[Hunter's Mercy]]''.
-* Finding the "chess piece" in the Temple of Gurabad unlocks the world quest series ''[[Apocalypse Lost]]''.
+* Completing the quest grants the {{Achievement|Hunter's Mercy}}.
+* Finding the "chess piece" in the Temple of Gurabad unlocks the World Quest series ''[[Apocalypse Lost]]''.
 
 ==Dialogue==
 {{Quest Description|Masseira tells you that Tadhla is waiting for you in the place where you first met. Sounds like Tadhla has something urgent to talk to you about...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Masseira)
 :'''Masseira:''' Ah, you've come. A moment, if you please. This should be the last time that I ask a favor of you.
 :{{DIcon}} Well then, what do you need help with?
@@ -55,14 +51,15 @@
 
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Masseira, optional)
 :'''Masseira:''' (...Before the mist of the morning, before the mirage of the noon, my Falcon takes off...)
-
 ----
 ;(Approach Tadhla)
+:;(Tadhla looks out to the west at the setting sun as the Traveler approaches from behind her.)
 :'''Tadhla:''' Here you are. I am happy that you came.
 :{{DIcon}} I heard you wanted to talk to me.
 :{{DIcon}} How's it going?
 :'''Tadhla:''' I've always liked the desert at this time of the day. It's beautiful. It's my favorite sight.
 :'''Tadhla:''' Only it is a shame that I never had the chance to watch the sunset with my friends.
+:;(With the sun below the horizon, the stars begin appearing in the night sky.)
 :'''Paimon:''' Yeah... The desert is all dyed with the color of the sunset. So peaceful and quiet...
 :'''Paimon:''' But, Tadhla, did you ask us to come here just for that?
 :'''Tadhla:''' ...
@@ -71,29 +68,30 @@
 :'''Tadhla:''' So, I am sorry.
 
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Tadhla, optional)
-:'''Tadhla:''' (…My heartbeat hasn't slowed down… Is this excitement? Or fear? I'm scared, but also very excited…)
+:'''Tadhla:''' (...My heartbeat hasn't slowed down... Is this excitement? Or fear? I'm scared, but also very excited…)
 
 ;(While fighting Tadhla)
 :'''Tadhla:''' Ugh! It hurts, but I'm happy nonetheless!
 
 ;(After defeating Tadhla)
 :'''Tadhla:''' Please... do not... forget me!
-:'''Paimon:''' Tadhla? Tadhla! Uh, she—
+:'''Paimon:''' Tadhla? Tadhla! Uh, she&mdash;
 :'''Liloupar:''' This is the choice of her own will: To no longer live as a Falcon, but as a friend.
+;(Obtain {{Item|Tadhla's Feather}})
 
-;(Obtain [[Tadhla's Feather]])
 ----
 ;(Interact with the letter near Masseira's tent)
 :'''Paimon:''' Darn it, Masseira is gone!
 :'''Liloupar:''' He left a note. Hmph, that sly old fox.
 ;(Open Neat Note)
-::'''Neat Note'''
-::By the time you see this note, I should already have ensconced myself in a safehouse within the valley.
-::If your head is still on your shoulders, do not weep for Tadhla's choice.<br /><br />
-::This hunt is not yet over. This is just the beginning of the storm.
-::Thus does Masseira the Hunter, elder of Tanit, warn you.
+::'''Neat Note'''<br>By the time you see this note, I should already have ensconced myself in a safehouse within the valley.<br>If your head is still on your shoulders, do not weep for Tadhla's choice.<br><br>This hunt is not yet over. This is just the beginning of the storm.<br>Thus does Masseira the Hunter, elder of Tanit, warn you.
 :'''Paimon:''' Huh? What does he mean by all this? Paimon doesn't get it.
-:'''Liloupar:''' Seems like he fled the tribe under certain pressure and left this note for you. Hmph, the Tanit sure are not as peaceful as they seem.{{Dialogue end}}
+:'''Liloupar:''' Seems like he fled the tribe under certain pressure and left this note for you. Hmph, the Tanit sure are not as peaceful as they seem.
+----
+;(Return to Safhe Shatranj after completing the quest, without all chess pieces placed)
+:'''Paimon:''' These tiles on the ground... Feels like there's something missing.
+:'''Liloupar:''' Good catch... What we lack are some "chess pieces."
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -113,14 +111,14 @@
 |fr      = Le faucon déchu
 |fr_tl   = The Fallen Falcon
 |ru      = Сложивший крылья сокол
-|ru_tl   = Falcon with Folded Wings
+|ru_tl   = Falcon With Folded Wings
 |th      = เหยี่ยวนักล่าปีกหัก
 |th_rm   = 
 |th_tl   = 
 |vi      = "Chim Ưng" Gãy Cánh
 |vi_tl   = 
 |de      = „Jagdfalke“ mit gestutzten Flügeln
-|de_tl   = 
+|de_tl   = "Hunting Falcon" With Clipped Wings
 |id      = Elang yang Patah Sayapnya
 |id_tl   = Falcon Whose Wings are Broken
 |pt      = Falcão de Asas Quebradas

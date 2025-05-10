@@ -1,26 +1,23 @@
 {{Stub|Verify unlock requirements for pictures / chests}}
 {{Quest Infobox
+|id            = 73098
 |image         = World Quest Static Views.png
 |type          = World
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = [[The World of Aranara]]
 |characters    = Traveler; Paimon
 |startLocation = 
 |region        = Sumeru
-|area          = Vanarana
+|area          = Vanarana (Area)
+|subarea       = Vanarana (Subarea)
 |prev          = 
 |next          = Static Views, Part 2
-|exp           = 
-|mora          = 
-|primogems     = 
-|other         = 
 }}
-'''''Static Views''''' is a [[World Quest]] in [[Vanarana]]. After finishing the quest ''[[The World of Aranara]]'', the [[Aranyaka (Gadget)|Aranyaka]] gadget will feature more photographs of treasure locations.
+'''''Static Views''''' is a [[World Quest]] in [[Vanarana (Subarea)|Vanarana]]. After finishing the quest ''[[The World of Aranara]]'', the [[Aranyaka (Gadget)|Aranyaka]] gadget will feature more photographs of treasure locations.
 
 ==Start Location==
-Start the quest by approaching the mailbox in [[Mahavanaranapna]], the dream version of [[Vanarana]].
+Start the quest by approaching the mailbox in [[Mahavanaranapna]], the dream version of Vanarana.
 <gallery>
-World Quest Static Views Start Location.jpg|Starting Map Location
+World Quest Static Views Start Location.png|Starting Map Location
 World Quest Static Views Start Location Context.png|Starting Location Context
 </gallery>
 
@@ -28,7 +25,7 @@ World Quest Static Views Start Location Context.png|Starting Location Context
 # Claim the painting in mailbox
 #* The painting is added to the [[Aranyaka (Gadget)#Mysterious Clipboard|Mysterious Clipboard]] in [[Aranyaka (Gadget)|Aranyaka]].
 # Proceed to the location shown in the painting
-#* Proceed to the [[Statue of the Seven]] in the reality version of Vanarana. Dig at the spot shown in the photo in the Mysterious Clipboard.
+#* Proceed to the [[Statue of The Seven]] in the reality version of Vanarana. Dig at the spot shown in the photo in the Mysterious Clipboard.
 #* This completes Picture 1 in the Mysterious Clipboard.
 # Go back to Aranara's cabin
 #* Here, the mailbox can be accessed in both reality and dream version of Vanarana.
@@ -36,18 +33,36 @@ World Quest Static Views Start Location Context.png|Starting Location Context
 
 ==Gameplay Notes==
 * Completing this quest adds Pictures 2 to 10 to the [[Aranyaka (Gadget)#Mysterious Clipboard|Mysterious Clipboard]].
-* Some pictures{{Verify|which?}} require access to areas unlocked by ''[[Agnihotra Sutra]]'', ''[[Vimana Agama]]'', and ''[[Varuna Gatha]]'' quests to complete.
-* Approaching the location of Picture 4 starts the ''[[Courage is in the Heart]]'' quest.
-* Although Picture 9 is added, it cannot be completed until the next quest, ''[[Static Views, Part 2]]''.{{Verify}} Paimon comments about it.
-{{Dialogue start}}
+** Checking the mailbox at a later time will trigger the following dialogue. Afterwards, Pictures 9 and 10 are marked as new.<!-- The exact time is unknown. It's near the end of Children of the Forest. The only remaining quest is The Final Chapter of Agnihotra Sutra. -->
+{{Dialogue Start}}
+:'''Paimon:''' Hey, check out the painting! Paimon wonders what kind of treasure we'll find this time.
+:'''Paimon:''' Hmm... This picture is different from the previous ones! It has more Aranara in it...
+:'''Paimon:''' Wait, why is there a seed in the place depicted in this drawing?
+{{Dialogue End}}
+
+{| class="wikitable"
+! Picture(s) !! Additional Notes
+|-
+| <center>3</center> || Requires access to areas unlocked through {{Quest|Varuna Gatha}}
+|-
+| <center>4</center>  || Approaching it will start the {{Quest|Courage Is in the Heart}}
+|-
+| <center>5</center>  || Requires access to areas unlocked through {{Quest|Agnihotra Sutra}} 
+|-
+| <center>7 & 8</center>  || Requires access to areas unlocked through {{Quest|Vimana Agama}}
+|-
+| <center>9</center>  || Added during this quest, but can only be obtained after completing the next quest, ''[[Static Views, Part 2]]''. If the location is reached before completing ''Static Views, Part 2'', Paimon comments about it:
+{{Dialogue Start}}
 :'''Paimon:''' Eh? There doesn't seem to be any treasure here...
 :'''Paimon:''' How should Paimon put it... Let's come back later. This seems to be an important place.
-{{Dialogue end}}
-*<li value=2> Completing the ''[[Seed from the Valley of Life]]'' hidden exploration objective in [[The Chasm]] will complete Picture 10.
+{{Dialogue End}}
+|-
+| <center>10</center>  || Obtained by completing the ''[[Seed from the Valley of Life]]'' hidden exploration objective in [[The Chasm: Underground Mines]]
+|}
 
 ==Dialogue==
 {{Quest Description|Paimon found a painting in Vanarana that could be a treasure map...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the mailbox)
 :'''Paimon:''' Let Paimon see... Hmm? Is this an Aranara painting...?
 :{{DIcon}} It's rude to tamper around...
@@ -56,7 +71,7 @@ World Quest Static Views Start Location Context.png|Starting Location Context
 :{{DIcon}} You're right.
 :{{DIcon}} Hmm. That makes total sense.
 :'''Paimon:''' Of course! Anyway, seems like the painting depicts some views near here, right? Ah, maybe it's a treasure map...
-:'''Paimon:''' (Traveler), we should go to the spot shown in the painting! Maybe we'll find some treasure left by the Aranara!
+:'''Paimon:''' {{Traveler}}, we should go to the spot shown in the painting! Maybe we'll find some treasure left by the Aranara!
 
 :'''Paimon:''' Treasure~ Treasure~
 :'''Paimon:''' Ahem, Paimon means... "possibly trapped Aranara," we're coming to help!
@@ -73,7 +88,7 @@ World Quest Static Views Start Location Context.png|Starting Location Context
 ;(Go back to Aranara's cabin)
 :'''Paimon:''' Hmm... Let's take a look. It seems like a new treasure map!
 :{{DIcon}} Aren't we going to help "the trapped Aranara"?
-:'''Paimon:''' Ahem! We haven't found the house owner. This is worrying! So, (Traveler), why don't we check some other places shown in the painting?
+:'''Paimon:''' Ahem! We haven't found the house owner. This is worrying! So, {{Traveler}}, why don't we check some other places shown in the painting?
 :'''Paimon:''' After we get there, we could...
 :{{DIcon}} Find more treasure?
 ::'''Paimon:''' Yes! Wait, Paimon means... no! Find the trapped Aranara!
@@ -85,8 +100,8 @@ World Quest Static Views Start Location Context.png|Starting Location Context
 ;(View the mailbox)
 :'''Paimon:''' Paintings~ Aranara paintings~ Lead us to the treasure~♪
 :'''Paimon:''' Hmm... This picture is different from the previous ones! It has more Aranara in it...<!--May have unknown prerequisite to trigger this line-->
-:'''Paimon:''' Let's go treasure-hunting, (Traveler)!
-{{Dialogue end}}
+:'''Paimon:''' Let's go treasure-hunting, {{Traveler}}!
+{{Dialogue End}}
 
 ==Video Guides==
 {{EVT

@@ -3,16 +3,20 @@
 |character     = Yoimiya
 |type          = Utility Passive
 |info          = When Yoimiya crafts [[Decoration]], [[Ornament]], and [[Landscape]]-type [[Furnishings]], she has a 100% chance to refund a portion of the materials used.
-|utility1      = Crafting Refund
-|utility2      = Creation
-|utility3      = Decoration Creation Refund
-|utility4      = Ornament Creation Refund
-|utility5      = Landscape Creation Refund
+|utility1      = Creation
+|utility2      = Refund
+|utility3      = Furnishing Creation Refund
+|utility4      = Decoration Creation Refund
+|utility5      = Ornament Creation Refund
+|utility6      = Landscape Creation Refund
 }}
+{{Description|"Yoimiya's handiwork is exquisite, and she dabbles in many other crafts besides firework-making, always adding her unique touch to all her work."|2=[[Dainsleif]] in [https://youtu.be/b4QN9epy680 Collected Miscellany - "Yoimiya: Whispers of the Flames"]}}
 '''Blazing Match''' is [[Yoimiya]]'s [[Utility Passive]].
 
 ==Gameplay Notes==
-* Yoimiya refunds 25% of each different material used. If the quantity of a material used is not a multiple of 4, then the quantity refunded is randomly rounded either up or down. For example, if 6 of a material is used, then Yoimiya will refund either 1 or 2 of that material.
+* Yoimiya refunds 25% of the materials used. On average over time, she refunds 25% of each material used.
+** The 25% is first calculated on the total number of rewards and rounded down. Then the refunded materials are re-distributed among the different materials used according to their original ratios, with decimals randomly rounded without changing the total quantity of refunded materials.{{Verify}} This means that if the quantity of any material used is not a multiple of 4, then there will be fluctuations in the amount of materials refunded.
+*** For example, a furnishing that requires 12 of one material and 6 of another material has two possible distributions of refunded materials: 3 of the first material and 1 of the second material, or 2 of each material.<!-- verified in-game, this is what prompted the whole investigation that resulted in this wordy explanation--which is still ongoing and also encompasses expedition bonus and weapon forging refund talents -->
 
 ==Preview==
 {{Preview
@@ -20,7 +24,7 @@
 }}
 
 ==Trivia==
-* In Japanese and Chinese, the name of the talent can be translated as "The Art of Combining Flame Colors" {{Lang|zh=炎色配比法|ja=炎色の配合法|sort=ja,zh}}. This may be a reference to the chemical {{w|Flame test|flame tests}} conducted by pyrotechnicians in order to obtain certain desired colors for fireworks.
+* In Japanese and Chinese, the name of the talent can be translated as "The Art of Combining Flame Colors" {{Lang|zh=炎色配比法|ja=炎色の配合法|sort=ja,zh}}. This may be a reference to the chemical {{w|flame test}}s conducted by pyrotechnicians in order to obtain certain desired colors for fireworks.
 
 ==Other Languages==
 {{Other Languages
@@ -34,7 +38,6 @@
 |ja_rm   = Enshoku no Haigouhou{{Assumed}}
 |ja_tl   = The Art of Combining Flame Colors
 |ko      = 불꽃색 배합법
-|ko_rm   = Bulkkotsaek Baehapbeop
 |ko_tl   = Flame Color Mixing Rule
 |es      = Ornamentación flagrante
 |es_tl   = Blatant Ornamentation
@@ -51,7 +54,7 @@
 |pt      = Correspondência Flamejante
 |pt_tl   = 
 |tr      = Alevli Kibrit
-|tr_tl   = 
+|tr_tl   = Flaming Match
 |it      = Abbinamento incandescente
 |it_tl   = White-Hot Matching
 }}

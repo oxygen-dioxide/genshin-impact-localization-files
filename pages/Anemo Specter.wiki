@@ -5,7 +5,7 @@
 |weakpoint = no
 |family   = Elemental Lifeforms
 |group    = Specters
-|location = [[Seirai Island]], [[Inazuma]]<br />[[Watatsumi Island]], Inazuma
+|location = [[Seirai Island]], [[Inazuma]]<br>[[Watatsumi Island]], Inazuma
 |ability1 = Vacuum Field
 |ability2 = Fury
 }}
@@ -33,30 +33,30 @@
 |atk_type  = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
-|name_1 = Fury
-|desc_1 = Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
+|name_1      = Fury
+|desc_1      = Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75–31.25</td><td>20</td></tr><tr><td>31.25–43.75</td><td>40</td></tr><tr><td>43.75–56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
 
-|name_2 = Wind Blast
-|desc_2 = Shoots two consecutive homing wind bolts that each deals '''80% ATK''' as {{Color|Anemo DMG}}. If at max Fury, instead shoots three non-homing bolts in a spread pattern, each dealing '''100% ATK''' as {{Color|Anemo DMG}} and becomes its only attack.
-|caption_2 = Normal
-|file_2_2 = Anemo Specter Wind Blast Fury
+|name_2      = Wind Blast
+|desc_2      = Shoots two consecutive homing wind bolts that each deals '''80% ATK''' as {{Color|Anemo DMG}}. If at max Fury, instead shoots three non-homing bolts in a spread pattern, each dealing '''100% ATK''' as {{Color|Anemo DMG}} and becomes its only attack.
+|caption_2   = Normal
+|file_2_2    = Anemo Specter Wind Blast Fury
 |caption_2_2 = Max Fury
 
-|name_3 = Puff Blow
-|desc_3 = Spins, puffs up, then releases a {{not a typo|swirl}} of wind dealing '''100% ATK''' as {{Color|[[AoE]] Anemo DMG}}.
+|name_3      = Puff Blow
+|desc_3      = Spins, puffs up, then releases a swirl of wind dealing '''100% ATK''' as {{Color|[[AoE]] Anemo DMG}}.
 
-|name_4 = Final Burst
-|desc_4 = Explodes after a short pause when defeated dealing '''100% ATK''' as {{Color|AoE Anemo DMG}}. If at max Fury, DMG is increased to '''120% ATK''', and leaves behind a [[Vacuum Field]] for 10 seconds that sucks in players and items while dealing '''40% ATK''' as {{Color|Anemo DoT}}.
-|caption_4 = Normal
-|file_4_2 = Anemo Specter Final Burst Fury
+|name_4      = Final Burst
+|desc_4      = Explodes after a short pause when defeated dealing '''100% ATK''' as {{Color|Anemo DMG}}. If at max Fury, DMG is increased to '''120% ATK''', and leaves behind a [[Vacuum Field]] for 10 seconds that sucks in players and items while dealing '''40% ATK''' as {{Color|Anemo DoT}}.
+|caption_4   = Normal
+|file_4_2    = Anemo Specter Final Burst Fury
 |caption_4_2 = Max Fury
 }}
 
 ===AI Logic===
-{{See also|Cooldown#Enemy Cooldowns}}
+{{See Also|Cooldown#Enemy Cooldowns}}
 * An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
 ** The target is within the range required by the ability
@@ -72,11 +72,14 @@
 |-
 | Puff Blow || 0–3.5 || 2 || 5
 |-
-| Max Fury || Wind Blast || 0–9.5 || — || 3
+| Max Fury || Wind Blast || 0–9.5 || &mdash; || 3
 |}
 
+==Tutorials==
+{{Tutorial|Anemo Specter}}
+
 ==Descriptions==
-{{Description|A monster birthed from a high concentration of Anemo that can float in the air.<br />As reason might dictate, monsters made from coalesced Anemo already come equipped with the ability to float. As such, their petal-like wings are most likely to be a mimetic organ first and foremost.|[[Archive]]}}
+{{Description|A monster birthed from a high concentration of Anemo that can float in the air.<br>As reason might dictate, monsters made from coalesced Anemo already come equipped with the ability to float. As such, their petal-like wings are most likely to be a mimetic organ first and foremost.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -112,7 +115,7 @@ Anemo Specter Icon.png|Icon
 |pt      = Espectro Anemo
 |pt_tl   = 
 |tr      = Rüzgar Uçarlopu
-|tr_tl   = 
+|tr_tl   = {{Lex|Anemo|tr}} {{Lex|Specter|tr}}
 |it      = Spettro di Anemo
 |it_tl   = Anemo Specter
 }}

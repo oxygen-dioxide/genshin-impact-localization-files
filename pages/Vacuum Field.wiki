@@ -16,7 +16,7 @@ Pushing Vacuum Fields will push targets away from the center of the field. This 
 Most player-created vacuums have a [[Weight]] requirement. Enemies that do not match this requirement will not be affected by the Vacuum Field.
 
 ==Vacuum Data==
-Targets within the vacuum Pulling Radius will start to accelerate towards the vacuum center. Radii are measured in [[meter]]s.
+Targets within the vacuum Pulling Radius will start to accelerate towards the vacuum center. Radii are measured in meters.
 
 * "Inner Radius" refers to the area at the center of the Vacuum Field where the pulling effect stops.
 
@@ -39,14 +39,14 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 |}
 
 {| class="fandom-table sortable" width="100%"
-!width="50%" |Vacuum
-!width="10%" |Pulling Radius (meters)
-!width="10%" |Inner Radius (meters)
-!width="10%" |Strength
-!width="10%" |Attenuation
-!width="10%" |[[Weight]] Requirement
+! width="50%" |Vacuum
+! width="10%" |Pulling Radius (m)
+! width="10%" |Inner Radius (m)
+! width="10%" |Strength
+! width="10%" |Attenuation
+! width="10%" |[[Weight]] Requirement
 |-
-!colspan="6" | Characters
+! colspan="6" | Characters
 |-
 | {{Talent|Wind's Grand Ode|20|nobr=1}}
 | 15
@@ -118,7 +118,7 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 | 2
 | Weight ≤ 150
 |-
-| {{Talent|Gale Blade|20|nobr=1}} (Hold, C2 Unlocked)
+| {{Talent|Gale Blade|20|nobr=1}} (Hold, C1 Unlocked)
 | 10
 | 0
 | 4
@@ -174,6 +174,41 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 | 2
 | None
 |-
+| {{Constellation|A Cold Blade Like a Shadow|20|nobr=1}}
+| 6
+| 1
+| 10
+| 3
+| None
+|-
+| {{Talent|Lustrous Moonrise|20|nobr=1}} (Against Small Enemies)
+| 6
+| 0.5
+| 4
+| 2 (Reversed)
+| Weight < 100
+|-
+| {{Talent|Lustrous Moonrise|20|nobr=1}} (Against Large Enemies)
+| 6
+| 0.5
+| 10
+| 3 (Reversed)
+| 100 ≤ Weight ≤ 150
+|-
+| {{Talent|Anraku Secret Spring Therapy|20|nobr=1}} (Against Small Enemies)
+| 6
+| 0.5
+| 8
+| 2 (Reversed)
+| Weight < 100
+|-
+| {{Talent|Anraku Secret Spring Therapy|20|nobr=1}} (Against Large Enemies)
+| 6
+| 0.5
+| 12
+| 3 (Reversed)
+| 100 ≤ Weight ≤ 150
+|-
 | {{Talent|Juuga: Forward Unto Victory|20|nobr=1}} (Against Crystallize Shards)
 | 8
 | 0.1
@@ -181,28 +216,42 @@ Displacement velocity of a Vacuum Field is calculated as:<ref>NGA: [https://ngab
 | 0
 | None
 |-
-| Activation pushing vacuum of the following abilities:<br />{{Talent|Guide to Afterlife|20|nobr=1}}
+| {{Talent|Ceremonial Crystalshot|20|nobr=1}} (Against Crystallize Shards)
+| 12
+| 0.1
+| 15
+| 0
+| None
+|-
+| {{Constellation|Shards Are Gems Too|20|nobr=1}} (Against Crystallize Shards)
+| 10
+| 0.1
+| 30
+| 0
+| None
+|-
+| Activation pushing vacuum of the following abilities:<br>{{Talent|Guide to Afterlife|20|nobr=1}}
 | 2
 | 0
 | -3
 | 2
 | Weight ≤ 250
 |-
-| Activation pushing vacuum of the following abilities:<br />{{Talent|Stellaris Phantasm|20|nobr=1}}
+| Activation pushing vacuum of the following abilities:<br>{{Talent|Stellaris Phantasm|20|nobr=1}}
 | 2
 | 0
 | -2
 | 0
 | Weight ≤ 100
 |-
-| Activation pushing vacuum of the following abilities:<br />{{Talent|Starward Sword|20|nobr=1}}<br />{{Talent|Dandelion Breeze|20|nobr=1}}
+| Activation pushing vacuum of the following abilities:<br>{{Talent|Starward Sword|20|nobr=1}}<br>{{Talent|Dandelion Breeze|20|nobr=1}}
 | 2
 | 0
 | -2
 | 0
 | Weight ≤ 150
 |-
-| Activation pushing vacuum of the following abilities:<br />{{Talent|Foul Legacy: Raging Tide|20|nobr=1}}<br />{{Talent|Kazuha Slash|20|nobr=1}}<br />{{Talent|Kamisato Art: Soumetsu|20|nobr=1}}<br />{{Talent|Kamisato Art: Suiyuu|20|nobr=1}}<br />{{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1}}<br />{{Talent|Ryuukin Saxifrage|20|nobr=1}}<br />{{Talent|Prophecies of Dawn|20|nobr=1}}<br />{{Talent|Royal Descent: Behold, Itto the Evil!|20|nobr=1}}<br />{{Talent|Divine Maiden's Deliverance|20|nobr=1}}<br />{{Talent|Bane of All Evil|20|nobr=1}}<br />{{Talent|Depth-Clarion Dice|20|nobr=1}}<br />{{Talent|Fashioner's Tanglevine Shaft|20|nobr=1}}<br />{{Talent|Sacred Rite: Wagtail's Tide|20|nobr=1}}<br />{{Talent|Dance of Abzendegi: Distant Dreams, Listening Spring|20|nobr=1}}<br />{{Talent|Illusory Heart|20|nobr=1}}<br />{{Talent|Particular Field: Fetters of Phenomena|20|nobr=1}}<br />{{Talent|Leonine Bite|20|nobr=1}}
+| Activation pushing vacuum of the following abilities:<br>{{Talent|Foul Legacy: Raging Tide|20|nobr=1}}<br>{{Talent|Kazuha Slash|20|nobr=1}}<br>{{Talent|Kamisato Art: Soumetsu|20|nobr=1}}<br>{{Talent|Kamisato Art: Suiyuu|20|nobr=1}}<br>{{Talent|Great Secret Art: Tenko Kenshin|20|nobr=1}}<br>{{Talent|Ryuukin Saxifrage|20|nobr=1}}<br>{{Talent|Prophecies of Dawn|20|nobr=1}}<br>{{Talent|Royal Descent: Behold, Itto the Evil!|20|nobr=1}}<br>{{Talent|Divine Maiden's Deliverance|20|nobr=1}}<br>{{Talent|Bane of All Evil|20|nobr=1}}<br>{{Talent|Depth-Clarion Dice|20|nobr=1}}<br>{{Talent|Fashioner's Tanglevine Shaft|20|nobr=1}}<br>{{Talent|Sacred Rite: Wagtail's Tide|20|nobr=1}}<br>{{Talent|Dance of Abzendegi: Distant Dreams, Listening Spring|20|nobr=1}}<br>{{Talent|Illusory Heart|20|nobr=1}}<br>{{Talent|Particular Field: Fetters of Phenomena|20|nobr=1}}<br>{{Talent|Leonine Bite|20|nobr=1}}<br>{{Talent|Holistic Revivification|20|nobr=1}}<br>{{Talent|Wondrous Trick: Miracle Parade|20|nobr=1}}<br>{{Talent|O Tides, I Have Returned|20|nobr=1}}<br>{{Talent|Let the People Rejoice|20|nobr=1}}<br>{{Talent|As the Sunlit Sky's Singing Salute|20|nobr=1}}<br>{{Talent|Stars Gather at Dusk|20|nobr=1}}<br>{{Talent|Balemoon Rising|20|nobr=1}}<br>{{Talent|Super Saturated Syringing|20|nobr=1}}<br>{{Talent|Aromatic Explication|20|nobr=1}}<br>{{Talent|Hail to the Almighty Dragonlord|20|nobr=1|type=1}}<br>{{Talent|Hour of Burning Skies|20|nobr=1|type=1}}<br>{{Talent|Edict of Entwined Splendor|20|nobr=1|type=1}}<br>{{Talent|Anraku Secret Spring Therapy|20|nobr=1}}
 | 3
 | 0
 | -3
@@ -689,10 +738,10 @@ Some quests and events have special effects or objects that can create Vacuum Fi
 |id      = Vacuum Field
 |pt      = Vácuo
 |pt_tl   = Vacuum
-|tr      = 
-|tr_tl   = 
-|it      = 
-|it_tl   = 
+|tr      = Vakum
+|tr_tl   = Vacuum
+|it      = Vuoto gravitazionale
+|it_tl   = Gravitational Vacuum
 }}
 
 ==Change History==

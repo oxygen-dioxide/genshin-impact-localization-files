@@ -1,12 +1,11 @@
 {{Quest Infobox
-|id            = 8010
+|id            = 08010
 |image         = Archon Quest C3A6 Fortune-Mocking Pedigree.png
 |type          = Archon
 |chapter       = III
 |act           = Caribert
 |actNum        = VI
 |part          = 2
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Caribert (NPC); Eide; Traveler; Hajjan; Fateh
 |startLocation = 
@@ -15,9 +14,7 @@
 |subarea       = 
 |prev          = Destined Encounter
 |next          = A Lamenter at Fate's End
-|exp           = 775
-|mora          = 31,175
-|other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|5}}
+|rewards       = Adventure EXP*775;Mora*31,175;Hero's Wit*3;Mystic Enhancement Ore*5
 |voiced        = yes
 }}
 {{TeyvatQuest|title=Fortune-Mocking Pedigree|chapter=3|act=6|part=2}}
@@ -42,25 +39,49 @@
 # Go to the nearby Statue of The Seven
 
 ==Gameplay Notes==
-* Starting from the beginning of <noinclude>the quest</noinclude><includeonly>[[Fortune-Mocking Pedigree]]</includeonly>, the player will be in a "special story mode." If the player leaves this mode, they may return by entering the hut where Caribert stays.
-** The [[Paimon Menu]] button is replaced with an exit button (as in Domains) which displays a notice when used:
+* Starting from the beginning of {{If Self|Fortune-Mocking Pedigree|the quest|''[[Fortune-Mocking Pedigree]]''}}, the player will be in a [[Special Story Mode]].
+** If the player leaves this mode, they will be teleported to the main overworld outside of the hut where Caribert stays, and the active quest step will change to "Go inside" with the quest marker at the entrance to the hut, unless otherwise noted in [[#Steps|the quest steps]]. Entering the hut will return the player to the special story mode, even if the latest quest checkpoint appears to be different.
+** The [[Paimon Menu]] button is replaced with an exit button (as in [[Domain]]s) which displays a notice when used:
 *** ''Hint: You are currently in a special story mode. You will be able to continue it even if you leave. Do you wish to leave?''
-** Most other menus are not accessible through hotkeys either, including the [[Party Setup]] and [[Map]] menus.
-** The minimap will display a temporary red world border. 
-*** When approaching it, the Traveler will stop by themselves and return on their own (as Paimon is not present during this quest sequence).
-*** The tunnel entrance from the forest to the Chasm is blocked off by a solid fog wall.
-*** The cavern below the [[Spire of Solitary Enlightenment]] is flooded regardless of whether the player has drained the water or not.
-** Most enemies, NPCs, and interactables (such as [[Cooking#Places to Cook|cooking pots]], [[Elemental Monument]]s, [[Bouncy Mushroom]]s, and [[Clusterleaves of Cultivation]]) are removed.
-** [[Hayyan]] and [[Futuh]] are replaced with [[Hajjan]] and [[Fateh]].
+** Most other menus are also not accessible through the UI, hotkeys, or Shortcut Wheel, including the [[Party Setup]], [[Map]], [[Time]], and [[Settings]] menus.
+** The minimap:
+*** Displays a temporary red world border.
+**** When approaching the border, the player's character will stop by themselves and return on their own with a voiced line from the Traveler (as Paimon is not present during this quest sequence).
+*** Will always be lit up, regardless of whether or not the player has unlocked the [[Statue of The Seven]].
+*** Does not show the map icons for [[Spire of Solitary Enlightenment]] or [[Teleport Waypoint]]s, including the Teleport Waypoint located within the bounded area, even though they are present (but unusable) in the world.
+*** Does not show the player's map pins, even if they have some set in the bounded area on the normal map.
+*** Does not show the "Hidden Cavern: I" or "Hidden Cavern: II" map layers.
+** The tunnel coming from the Chasm is blocked off by a solid fog wall at the Sumeru-Liyue border within the tunnel.
+** The cavern below the [[Spire of Solitary Enlightenment]] (the "Hidden Cavern: I" map layer) is accessible from both entrances, regardless of whether or not the player has removed the vines. It is also flooded, regardless of whether or not the player has drained the water.
+** This mode has its own set of collectible items ([[Kalpalata Lotus]], [[Harra Fruit]], etc.), [[enemies]], and [[wildlife]], independent of those found in the main overworld. Some entities are only found in either the special story mode or the main overworld, while others are present in both.
+*** Collecting items or killing enemies or wildlife in one will not affect the presence of any entities in the other.
+*** Enemies and wildlife do not drop anything other than their normal amount of [[Energy|energy particles and orbs]].
+*** Enemies respawn when the special story mode is re-entered. No items respawn.
+*** There are no [[ore]]s.
+** Most NPCs and interactables (such as [[Cooking#Places to Cook|cooking pots]], [[Investigation]] spots, [[Elemental Monument]]s, [[Bouncy Mushroom]]s, and [[Clusterleaves of Cultivation]]) are removed.
+*** [[Hayyan]] and [[Futuh]] are replaced with [[Hajjan]] and [[Fateh]].
 ** There is [[Fortune-Mocking Pedigree#Special Story Mode Dialogue|special dialogue]] in this mode.
-** The [[Statue of The Seven]] acts as if the player were in [[Co-Op Mode]] and displays in the dilapidated Level 1 style, regardless of how much it has been repaired by the player.
-** Enemies and wildlife do not drop anything.
-** Most gadgets cannot be used. Gadgets that can be used include: [[Memento Lens]], [[Peculiar Pinion]], [[Red Feather Fan]], [[Windblume Festival Commemorative Balloon]], [[Jumpy Dumpty Party Popper]], [[Adepti Seeker's Stove]], and [[Warming Bottle]].
-** The time of day only advances as the story advances and cannot be changed as the [[Time]] menu is inaccessible.
+** The Statue of The Seven:
+*** Only has the "Leave" dialogue option.
+**** As there is no "Resonate with [[Dendro]]" dialogue option when non-Dendro [[Traveler]] is the active character, it is impossible to switch the Traveler's element while in the special story mode.
+*** Displays in the dilapidated Level 1 style, regardless of how much it has been repaired by the player.
+*** Has its own pool of Restorative Power, which appears to hold an infinite amount of HP.
+*** Will auto-recover the player's characters to 100% HP, regardless of what auto-recover maximum the player has set and whether or not the player has auto-recover turned on.
+**** Characters who are healed to 100% HP by the Statue of The Seven trigger overhealing effects such as [[Furina's 1st Ascension Passive]], which does not happen with normal Statues of The Seven.<!-- Does the Statue here heal a large amount of fixed HP? If so, testing needs to be done with a character who has over 66k HP since healing at least that amount on a single character has already been verified -->
+*** Does not continuously heal nearby characters who lose HP after the initial heal from the Statue.
+*** Restores 10% of the Max HP of fallen characters when reviving them upon approaching the Statue of The Seven. (Characters are still healed by the usual 35% of their Max HP when revived after the whole party falls.)
+*** Serves as the respawn location when the player's party [[Fallen Character|falls]].
+** Hitting trees will not yield [[wood]].
+** Most gadgets cannot be used. Gadgets that can be used include: [[Wind Catcher]], [[NRE (Menu 30)]], [[Memento Lens]], [[Peculiar Pinion]], [[Red Feather Fan]], [[Windblume Festival Commemorative Balloon]], [[Jumpy Dumpty Party Popper]], [[Adepti Seeker's Stove]], [[Warming Bottle]], [["Special Analysis Zoom Lens"|"Special Analysis Zoom Lens,"]] most [[:Category:Equipment_Gadgets|"equipment" gadgets]], and gadgets that are not located in the "Gadgets" tab of the Inventory,{{verify|[[Scarlet Sand Slate]]?}} such as the [[Aranyaka (Gadget)|Aranyaka gadget]].
+*** Although the [[Seed Dispensary]] cannot be "used," its contents can still be viewed (which is what "using" the Seed Dispensary does) from the Inventory screen. Additionally, having the Seed Dispensary equipped will still allow the player to obtain seeds as usual.
+*** Unlike other "equipment" gadgets, [[Jinni in the Magic Bottle — Liloupar|Liloupar]]{{verify}} and [[Sorush (Gadget)|Sorush]] cannot be equipped.
+** No character can be targeted by Nahida's [[All Schemes to Know]].
+** As the [[Time]] menu is inaccessible, the time of day during some parts of the quest cannot be changed until the story advances.
+** Other quests that take place in this area, such as the {{Quest|Starry Night Chapter}}, cannot be started or progressed, although the "Trackable Quest(s) Nearby" notice will still appear.
 
 ==Dialogue==
 {{Quest Description|As night passes and you awaken next to the bonfire, you realize that Paimon is missing. As you search for her, you come upon a wandering father by chance...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the house)
 :{{A|vo szaq202 2 eide 01.ogg}} '''Intimidating Man:''' Halt! What do you think you're doing!?
 :{{DIcon}} Agh!
@@ -70,13 +91,13 @@
 :{{DIcon}} I'm only here to look for my traveling companion.
 :{{A|vo szaq202 2 eide 03.ogg}} '''Intimidating Man:''' Your travel companion? ...You mean the one that was keeping watch by your side last night?
 :{{A|vo szaq202 2 eide 04.ogg}} '''Intimidating Man:''' Your companion departed for the forest early this morning. That much I saw with my own eyes.
-:'''(Traveler):''' (I thought so... Still, I don't know if I can trust this person's word just yet.)
+:'''{{Traveler}}:''' (I thought so... Still, I don't know if I can trust this person's word just yet.)
 :{{DIcon}} So you mean to say that...
 :{{DIcon}} You were nearby last night?
 :{{A|vo szaq202 2 eide 05.ogg}} '''Intimidating Man:''' What business is that of yours? All you need to know is that I claimed this place first &mdash; and what I do here is none of your concern.
 :{{A|vo szaq202 2 eide 06.ogg}} '''Intimidating Man:''' Do I make myself quite clear? Leave!
-:'''(Traveler):'''  ...
-:'''(Traveler):'''  (There's something strange about this person. I need to find out what he's hiding...)
+:'''{{Traveler}}:'''  ...
+:'''{{Traveler}}:'''  (There's something strange about this person. I need to find out what he's hiding...)
 :{{A|vo szaq202 2 eide 07.ogg}} '''Intimidating Man:''' Well? What are you waiting for?
 :{{DIcon}} I don't think I'll have much luck trying to find my companion in the woods...
 :{{DIcon}} I think I'm better off waiting here for them to come back.
@@ -127,7 +148,7 @@
 :{{A|vo szaq202 3 eide 13.ogg}} '''Eide:''' The curse? Huh, it was a little gift given to the people of Khaenri'ah by those vile gods...
 :{{A|vo szaq202 3 eide 14.ogg}} '''Eide:''' We lost our home, our loved ones, everything... The agony of the cataclysm itself was already too much to bear... but then came the curse, robbing us any chance of release.
 :{{A|vo szaq202 3 eide 15.ogg}} '''Eide:''' All we can do is watch helplessly as our souls erode and our bodies decay.
-:'''(Traveler):''' (So Eide is just like [[Dainsleif|Dain]], someone who bears the curse of immortality.)
+:'''{{Traveler}}:''' (So Eide is just like [[Dainsleif|Dain]], someone who bears the curse of immortality.)
 :{{DIcon}} So why did some people turn into [[hilichurls]]...
 :{{DIcon}} ...While you were afflicted by this curse instead?
 :{{A|vo szaq202 3 eide 16.ogg}} '''Eide:''' Because although Khaenri'ah began with a single bloodline, it was a home to others, too...
@@ -137,7 +158,7 @@
 :{{DIcon}} So... who is this hilichurl to you?
 :{{A|vo szaq202 3 eide 20.ogg}} '''Eide:''' He is [[Caribert (NPC)|Caribert]]... my illegitimate son.
 :{{A|vo szaq202 3 eide 21.ogg}} '''Eide:''' *sigh* How times have changed. I can say that out loud with no consequence now, but... it was once a matter of unspeakable shame.
-:{{A|vo szaq202 3 eide 22.ogg}} '''Eide:''' I was a noble of Khaenri'ah... I resented the life that my family had arranged for me.
+:{{A|vo szaq202 3 eide 22.ogg}} '''Eide:''' I was a noble of Khaenri'ah by blood... but I resented the life that my family had arranged for me.
 :{{A|vo szaq202 3 eide 23.ogg}} '''Eide:''' Then one day, I met a beautiful woman amongst the people. Her roots were in [[Mondstadt]]... but that mattered not to me. It was love at first sight.
 :{{A|vo szaq202 3 eide 24.ogg}} '''Eide:''' ...Caribert faced great hardship from the very moment of his birth, all due to my selfish desires... and I was never able to be there by his side for any of it.
 :{{A|vo szaq202 3 eide 25.ogg}} '''Eide:''' ...After all that, he turned into a hilichurl right before my very eyes.
@@ -150,7 +171,7 @@
 :{{A|vo szaq202 3 eide 29.ogg}} '''Eide:''' ...It could be worse. I suffer the pain of loss because I once had everything I could wish for.
 :{{A|vo szaq202 3 eide 30.ogg}} '''Eide:''' And now... now that I have lost almost everything, the little that remains I see with new clarity.
 :{{A|vo szaq202 3 eide 31.ogg}} '''Eide:''' If nothing else... At least I still have Caribert.
-:'''(Traveler):''' ...
+:'''{{Traveler}}:''' ...
 :{{DIcon}} What do you plan to do now?
 :{{DIcon}} What were you planning to do around here?
 :{{A|vo szaq202 3 eide 32.ogg}} '''Eide:''' Ah, yes, that reminds me. I only returned here to check on Caribert, but I do have other things I wish to do... You may come with me, if you're so inclined.
@@ -166,9 +187,9 @@
 :{{A|vo szaq202 5 eide 03.ogg}} '''Eide:''' Well, it's because he needs a medicine that can only be made here...
 :{{A|vo szaq202 5 eide 04.ogg}} '''Eide:''' One which will help him to recover his clarity of mind.
 :{{DIcon}} Recover his clarity of mind?
-:'''(Traveler):''' (When we were in [[The Chasm]], Dain said that the curse could not be undone... Is recovery really possible?)
+:'''{{Traveler}}:''' (When we were in [[The Chasm]], Dain said that the curse could not be undone... Is recovery really possible?)
 :{{A|vo szaq202 5 eide 05.ogg}} '''Eide:''' I do not hope to break the curse. I am well aware of my powerlessness against the punishment of the gods.
-:{{A|vo szaq202 5 eide 06.ogg}} '''Eide:''' But it's said that this medicine is imbued with the power of Sumeru's [[God of Wisdom]], and can awaken the mind from a state of deep stupor... It has been used in the past to treat cases of mania.
+:{{A|vo szaq202 5 eide 06.ogg}} '''Eide:''' But it's said that this medicine is imbued with the power of Sumeru's [[Lesser Lord Kusanali|God of Wisdom]], and can awaken the mind from a state of deep stupor... It has been used in the past to treat cases of mania.
 :{{A|vo szaq202 5 eide 07.ogg}} '''Eide:''' I believe that it might just work...
 :{{DIcon}} Where did you hear of this?
 :{{A|vo szaq202 5 eide 08.ogg}} '''Eide:''' ...I read about it in a book from the Royal Library of Khaenri'ah. It was banned, since this medicine requires the power of The Seven to work.
@@ -194,7 +215,7 @@
 ::{{DIcon}} No, but I can go out and get some.
 ::{{A|vo szaq202 7 eide 01b 1.ogg}} '''Eide:''' Could you really? Much obliged.
 :{{A|vo szaq202 8 eide 01.ogg}} '''Eide:''' This is the method for making the medicine. You just need to follow the steps.
-:;(Obtain [[Strange Mushroom]] ×2)
+:;(Obtain {{Item|Strange Mushroom|x=2}})
 
 ;(Talk to Eide again, optional)
 :{{A|vo dialog szaq202 eide 01.ogg}} '''Eide:''' Without your help, goodness knows how long this would take me...
@@ -211,11 +232,11 @@
 :{{A|vo szaq202 10 eide 06.ogg}} '''Eide:''' Which means... we must pay a visit to a Statue of The Seven.
 :{{DIcon}} Ouch... that can't be easy for someone from Khaenri'ah...
 :{{DIcon}} I understand your reluctance.
-:'''(Traveler):''' (Since he needs the God of Wisdom's power, should I get [[Nahida]] to help?)
-:'''(Traveler):''' (...Forget it. Eide hates the gods &mdash; it could complicate things. I'll just do it his way.)
+:'''{{Traveler}}:''' (Since he needs the God of Wisdom's power, should I get [[Nahida]] to help?)
+:'''{{Traveler}}:''' (...Forget it. Eide hates the gods &mdash; it could complicate things. I'll just do it his way.)
 :{{A|vo szaq202 10 eide 07.ogg}} '''Eide:''' Let's go. Bring the medicine with you.
 ----
-;(Approach the Statue of the Seven)
+;(Approach the Statue of The Seven)
 :{{A|vo szaq202 11 eide 01.ogg}} '''Eide:''' Look at this statue... How can I bow before this thing...
 :{{A|vo szaq202 11 eide 02.ogg}} '''Eide:''' God of Wisdom. Look at me.
 :{{A|vo szaq202 11 eide 03.ogg}} '''Eide:''' I will utter no prayer, nor will I sing your praises.
@@ -229,9 +250,9 @@
 :{{A|vo szaq202 11 eide 11.ogg}} '''Eide:''' I have given up all I ever stood for...
 :{{A|vo szaq202 11 eide 12.ogg}} '''Eide:''' All I ask for is a tiny miracle. For Caribert to see this world once more.
 :{{A|vo szaq202 11 eide 13.ogg}} '''Eide:''' Please, god... I beg of you.
-:'''(Traveler):''' ...
-:'''(Traveler):''' (I may not know the whole truth behind the cataclysm, but the people of Khaenri'ah have truly suffered...)
-:'''(Traveler):''' (Why could Khaenri'ah and The Seven not coexist in peace?)
+:'''{{Traveler}}:''' ...
+:'''{{Traveler}}:''' (I may not know the whole truth behind the cataclysm, but the people of Khaenri'ah have truly suffered...)
+:'''{{Traveler}}:''' (Why could Khaenri'ah and The Seven not coexist in peace?)
 :{{A|vo szaq202 11 eide 14.ogg}} '''Eide:''' I have made quite enough of a fool of myself for one day. Let's go.
 :{{DIcon}} Things will get better.
 :{{A|vo szaq202 11 eide 15.ogg}} '''Eide:''' ...Hm.
@@ -239,11 +260,9 @@
 ;(Talk to Caribert)
 :{{A|vo szaq202 12 eide 01.ogg}} '''Eide:''' Caribert?
 :'''Caribert:''' ...
-:'''(Traveler):''' (The hilichurl seems almost lifeless. Its reactions to everything are incredibly weak...)
+:'''{{Traveler}}:''' (The hilichurl seems almost lifeless. Its reactions to everything are incredibly weak...)
 :{{A|vo szaq202 12 eide 02.ogg}} '''Eide:''' Well, we've prepared the medicine. We might as well try it.
-
-:'''With your help, Eide feeds the newly made medicine to the hilichurl.'''
-
+:{{Black Screen|With your help, Eide feeds the newly made medicine to the hilichurl.}}
 :{{A|vo szaq202 12 eide 03.ogg}} '''Eide:''' Caribert? It's me... It's your father. Caribert?
 :{{DIcon}} Anything?
 :{{A|vo szaq202 12 eide 04.ogg}} '''Eide:''' Caribert... Please, say something.
@@ -258,7 +277,7 @@
 :{{DIcon}} It didn't work.
 :{{A|vo szaq202 12 eide 11.ogg}} '''Eide:''' Aah!
 :{{A|vo szaq202 12 eide 12.ogg}} '''Eide:''' Gods above! What more do you want from me!?
-:{{A|vo szaq202 12 eide 13.ogg}} '''Eide:''' You took everything from here, and still I bowed to you!
+:{{A|vo szaq202 12 eide 13.ogg}} '''Eide:''' You took everything from here, and I still bowed to you!
 :{{A|vo szaq202 12 eide 14.ogg}} '''Eide:''' I'd give you my very life if only you cared to take it! But you won't even let me die!
 :{{A|vo szaq202 12 eide 15.ogg}} '''Eide:''' ...I knew it. I should never have trusted anything that had to do with the gods. I was just deluding myself...
 :{{A|vo szaq202 12 eide 16.ogg}} '''Eide:''' The gods of this world have never stood with humanity... Not even for a moment!
@@ -274,7 +293,7 @@
 :{{A|vo szaq202 12 eide 20.ogg}} '''Eide:''' Even if I must stay here with him for... fifty years? A hundred? What difference does it make? I do not lack for time...
 :{{DIcon}} That's the spirit.
 :{{DIcon}} I'll keep helping you.
-:'''(Traveler):''' (To have infinite time, yet no hope... can only be called torture.)
+:'''{{Traveler}}:''' (To have infinite time, yet no hope... can only be called torture.)
 :{{A|vo szaq202 12 eide 21.ogg}} '''Eide:''' Let's go. We'll make another dose.
 :{{A|vo szaq202 12 eide 22.ogg}} '''Eide:''' The most crucial ingredient in this medicine is the unusual mushroom, which makes things complicated... but not impossible.
 :{{DIcon}} Where did you get those mushrooms from, anyway?
@@ -287,9 +306,7 @@
 :{{A|vo szaq202 12 eide 26.ogg}} '''Eide:''' I'll be here watching Caribert. Once you're back, I will make some fertilizer for the mushrooms.
 :{{DIcon}} Got it.
 :{{A|vo szaq202 12 eide 27.ogg}} '''Eide:''' Good. Then please head over when the time comes.
-
-:'''Time passes quickly. Before you know it, it is two in the afternoon...'''
-
+:{{Black Screen|Time passes quickly. Before you know it, it is two in the afternoon...}}
 ;(Talk to Eide again, optional)
 :{{A|vo dialog szaq202 eide 03.ogg}} '''Eide:''' Please fetch the water. I'll be waiting here.
 ----
@@ -297,27 +314,21 @@
 :{{A|vo szaq202 14 eide 01.ogg}} '''Eide:''' Ah, you're back. Caribert's condition is stable...
 :{{A|vo szaq202 14 eide 02.ogg}} '''Eide:''' By which I mean... he still isn't responding.
 :{{A|vo szaq202 14 eide 03.ogg}} '''Eide:''' Anyway. Give me the water.
-:;(Submit [[Strange Mushroom-Watering Water]])
-
-:'''Eide carefully waters his field...'''
-
+:;(Submit {{Item|Strange Mushroom-Watering Water}})
+:{{Black Screen|Eide carefully waters his field...}}
 :{{A|vo szaq202 14 eide 04.ogg}} '''Eide:''' I need you to stand guard here for a while. Whatever you do, don't let any Forest Rangers approach the house. Understand?
 :{{DIcon}} Of course...
 :{{DIcon}} Your secret is safe with me.
 :{{A|vo szaq202 14 eide 05.ogg}} '''Eide:''' Good. I'll be back soon, the fertilizer won't take but a moment to make.
-
-:'''You wait in the field for Eide to return. After a while...'''
-
-:'''(Traveler):''' (Monsters! And so many of them... It looks like they're coming for this field...)
-:'''(Traveler):''' (Does watering the field somehow attract monsters? Hmm, better fend them off.)
+:{{Black Screen|You wait in the field for Eide to return. After a while...}}
+:'''{{Traveler}}:''' (Monsters! And so many of them... It looks like they're coming for this field...)
+:'''{{Traveler}}:''' (Does watering the field somehow attract monsters? Hmm, better fend them off.)
 
 ;(After defeating the Fungi)
 :{{A|vo szaq202 15 eide 01.ogg}} '''Eide:''' What happened? Was it monsters?
-:{{A|vo szaq202 15 eide 02.ogg}} '''Eide:''' Thank goodness you were here. I couldn't have taken them on all by myself... I'd have had to hide and wait until they were gone.
+:{{A|vo szaq202 15 eide 02.ogg}} '''Eide:''' Thank goodness you were here. I couldn't have taken them on all by myself... I'd have to hide and wait until they were gone.
 :{{A|vo szaq202 15 eide 03.ogg}} '''Eide:''' Oh yes &mdash; I've got the fertilizer. The effects can take some time to kick in, so let's get on with it.
-
-:'''Eide spreads the fertilizer evenly. Before long, the elemental energy within starts to take effect...'''
-
+:{{Black Screen|Eide spreads the fertilizer evenly. Before long, the elemental energy within starts to take effect...}}
 :{{A|vo szaq202 15 eide 04.ogg}} '''Eide:''' Next, we pick the mushrooms and repeat the same steps as before to make another dose. I trust you still remember the method?
 
 ;(Talk to Eide again, optional)
@@ -333,7 +344,7 @@
 :{{DIcon}} You still have Caribert.
 :{{A|vo szaq202 17 eide 04.ogg}} '''Eide:''' Hehe, I do indeed, that's why it was just a fleeting thought... Thank you for your help once again. Now for the final step... Back to the Statue of The Seven.
 ----
-;(Approach the Statue of the Seven)
+;(Approach the Statue of The Seven)
 :{{A|vo szaq202 18 eide 01.ogg}} '''Eide:''' We're here. Let's begin...
 :;(Eide notices a Hilichurl walking below)
 :{{A|vo szaq202 18 eide 02.ogg}} '''Eide:''' Wait a moment... Hey, what was that? ...Caribert?
@@ -341,18 +352,18 @@
 :{{DIcon}} He left the house?
 :{{A|vo szaq202 18 eide 03.ogg}} '''Eide:''' Oh no... He must have left while we were too busy preparing the medicine to notice...
 :{{A|vo szaq202 18 eide 04.ogg}} '''Eide:''' Come on! We have to catch up with him!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Special Story Mode Dialogue===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Hajjan or Fateh, optional)
 :{{A|vo dialog szaq202 hajjan 01.ogg}} '''Hajjan:''' The ecological issues in this area require further observation and analysis...
 :{{A|vo dialog szaq202 fateh 01.ogg}} '''Fateh:''' You scholars and your big words... You know what would really impress me? Fixing the humidity in this forest...
 :{{A|vo dialog szaq202 fateh 02.ogg}} '''Fateh:''' My whole family's having a hard time with this climate... Seriously, all my old injuries are acting up.
 
 ;(Approach the temporary world border)
-:{{A|vo szaq204 11 hero 01.ogg}} {{A|vo szaq204 11 heroine 01.ogg}} '''(Traveler):''' I shouldn't stray too far. Dain and Paimon still aren't back...
-{{Dialogue end}}
+:{{A|vo szaq204 11 hero 01.ogg}} {{A|vo szaq204 11 heroine 01.ogg}} '''{{Traveler}}:''' I shouldn't stray too far. Dain and Paimon still aren't back...
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -379,13 +390,13 @@
 |vi      = Tư Cách Giễu Cợt Vận Mệnh
 |vi_tl   = 
 |de      = Das Recht zum Verspotten des Schicksals
-|de_tl   = 
+|de_tl   = The Right to Mocking of Fate
 |id      = Layak Menghina Takdir
 |id_tl   = Worthy of Insulting Fate
 |pt      = Linhagem Para Zombar do Destino
 |pt_tl   = 
 |tr      = Talihle Alay Eden Soy
-|tr_tl   = 
+|tr_tl   = The Fortune Mocking Lineage
 |it      = Stirpe che si fa beffe della fortuna
 |it_tl   = Lineage That Mocks Good Fortune
 }}
@@ -397,3 +408,5 @@
 {{Archon Quest Navbox|Chapter III}}
 
 [[es:El derecho a burlarse del destino]]
+[[ja:運命を嘲弄する資格]]
+[[vi:Tư Cách Giễu Cợt Vận Mệnh]]

@@ -1,7 +1,7 @@
 {{Domain Infobox
 |image        = Domain Hidden Mountain Base.png
 |type         = Quest
-|description  = Following the intelligence you got from Ippei, you discover the Takatsukasa Clan's hidden base.<br />The Tenryou Commission is in a precarious state, and Kujou Kamaji has not returned. You do not yet know what has happened in this place...
+|description  = Following the intelligence you got from [[Ippei]], you discover the [[Takatsukasa Clan]]'s hidden base.<br>The [[Tenryou Commission]] is in a precarious state, and [[Kujou Kamaji]] has not returned. You do not yet know what has happened in this place...
 |quest        = To Hear Mortal Hearts
 |quest_type   = Story
 |region       = Inazuma
@@ -12,54 +12,79 @@
 |recElements  = <!--none-->
 |trial        = Raiden Shogun
 }}
-'''Hidden Mountain Base''' is a [[Quest Domain]] during [[Raiden Shogun]]'s [[Story Quest]] [[Imperatrix Umbrosa Chapter]]: Act I - [[Reflections of Mortality]] quest "[[To Hear Mortal Hearts]]".
+'''Hidden Mountain Base''' is a [[Quest Domain]] during {{Quest|To Hear Mortal Hearts}}.
 
 ==Trial Character==
+{{Stub|Add Electro DMG Bonus for WL4 and 8}}
 {{Trial Character
-<!--World Levels-->
-|wl                     = 5, 8
+<!--World Levels-->|wl                      = 4, 5, 6, 8
 
-<!--Character-->
-|character_name          = Raiden Shogun
-
+<!--Character-->|character_name          = Raiden Shogun
+|character_level4        = 61
+|constellation4          = 3
 |character_level5        = 71
 |constellation5          = 3
-
+|character_level6        = 82
+|constellation6          = 3
 |character_level8        = 90
 |constellation8          = 3
 
-<!--Weapom-->
-|weapon_name             = Engulfing Lightning
-
+<!--Weapom-->|weapon_name             = Engulfing Lightning
+|weapon_level4           = 61
+|refinement4             = 1
 |weapon_level5           = 71
 |refinement5             = 1
-
+|weapon_level6           = 82
+|refinement6             = 1
 |weapon_level8           = 90
 |refinement8             = 1
 
-<!--Artifacts-->
-|artifact_flower         = Royal Flora
+<!--Artifacts-->|artifact_flower         = Royal Flora
 |artifact_feather        = Royal Plume
 |artifact_sands          = Royal Pocket Watch
 |artifact_goblet         = Royal Silver Urn
 |artifact_circlet        = Royal Masque
 |set1                    = Noblesse Oblige
 |set1_piece_bonus        = 4
-
 |artifact_level5         = 16
-
+|artifact_level6         = 20
 |artifact_level8         = 20
+|artifact_flower4        = Medal of the Brave
+|artifact_feather4       = Prospect of the Brave
+|artifact_sands4         = Fortitude of the Brave
+|artifact_goblet4        = Outset of the Brave
+|artifact_circlet4       = Crown of the Brave
+|set1_4                  = Brave Heart
+|set4_piece_bonus        = 4
+|artifact_level4         = 16
+|artifact_flower8        = Magnificent Tsuba
+|artifact_feather8       = Sundered Feather
+|artifact_sands8         = Storm Cage
+|artifact_goblet8        = Scarlet Vessel
+|artifact_circlet8       = Ornate Kabuto
+|set1_8                  = Emblem of Severed Fate
 
-<!--Talents-->
+<!--Talents-->|normal_attack_talent4   = 4
+|elemental_skill_talent4 = 4
+|elemental_burst_talent4 = 7
 |normal_attack_talent5   = 5
 |elemental_skill_talent5 = 5
 |elemental_burst_talent5 = 8
-
+|normal_attack_talent6   = 6
+|elemental_skill_talent6 = 6
+|elemental_burst_talent6 = 9
 |normal_attack_talent8   = 8
 |elemental_skill_talent8 = 8
 |elemental_burst_talent8 = 11
 
-<!--Stats-->
+<!--Stats-->|hp4                     = 18,285
+|atk4                    = 1,512
+|def4                    = 555
+|em4                     = 34
+|er4                     = 162.1%
+|crit_rate4              = 50.6%
+|crit_dmg4               = 72.4%
+|electro_dmg4            = 
 |hp5                     = 20,788
 |atk5                    = 1,770
 |def5                    = 732
@@ -67,14 +92,23 @@
 |er5                     = 204.4%
 |crit_rate5              = 51.8%
 |crit_dmg5               = 91.9%
-
-|hp8                     = 26,939
-|atk8                    = 2,274
+|electro_dmg5            = 41.8%
+|hp6                     = 25,798
+|atk6                    = 2,154
+|def6                    = 884
+|em6                     = 105
+|er6                     = 217.3%
+|crit_rate6              = 57.1%
+|crit_dmg6               = 91.9%
+|electro_dmg6            = 46.9%
+|hp8                     = 20,925
+|atk8                    = 2,024
 |def8                    = 935
 |em8                     = 105
-|er8                     = 222.1%
+|er8                     = 293.9%
 |crit_rate8              = 57.1%
 |crit_dmg8               = 91.9%
+|electro_dmg8            = 124.2%
 }}
 
 ==Walkthrough==
@@ -107,6 +141,9 @@
 ==Rewards==
 {{Card|Vajrada Amethyst Fragment|1}}{{Card|Adventurer's Experience|2}}{{Card|Mystic Enhancement Ore|2}}{{Card|Mora|10,000}}
 
+==Soundtracks==
+{{Soundtracks by Category Table|type=domain}}
+
 ==Video Guides==
 {{EVT
 |video1   = https://youtu.be/GxuHjWEqZMI
@@ -137,7 +174,7 @@
 |th_rm   = 
 |th_tl   = Hidden Place in the Mountain
 |vi      = Khu Bí Ẩn Trong Núi
-|vi_tl   = 
+|vi_tl   =Mysterious Area in the Mountain 
 |de      = Verborgene Ecke im Berg
 |de_tl   = Hidden Corner in the Mountain
 |id      = Hidden Mountain Base

@@ -22,7 +22,7 @@
 
 ==Stats==
 {{Enemy Stats
-|phys_res     = -20%
+|phys_res     = &minus;20%
 
 |hp_ratio     = 1.6
 |hp_type      = 2
@@ -30,8 +30,8 @@
 |atk_type     = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1      = Slash and Dodge
 |desc_1      = Slashes once, dealing '''100% ATK''' as {{Color|Physical DMG}}, then jumps backwards.
@@ -41,6 +41,14 @@
 
 |name_2      = Rapid Swing Approach
 |desc_2      = Repeatedly swings his sword while slowly approaching the player, dealing '''15% ATK''' as {{Color|Physical DMG}}. If this attack hits the player, immediately follows up with '''Slash and Dodge'''.
+
+|name_3      = Taunt
+|desc_3      = Either points their sword at the player or shows off their handling of it. During the sword trick variant of the taunt, hitting the Sword-Dancer with a projectile or lunging attack will cause them to be knocked down.
+|caption_3   = Sword Point
+|file_3_2    = Eremite Sword-Dancer Taunt 2
+|caption_3_2 = Sword Trick
+|file_3_3    = Eremite Sword-Dancer Taunt 3
+|caption_3_3 = Sword Trick (Knocked Down)
 }}
 
 ==Achievements==
@@ -49,7 +57,7 @@
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Eremite Sword-Dancer
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Hrah Feeling Lucky Today.ogg
 |vo_01_01_tx_en          = Hrah! Feeling lucky today!?
 |vo_01_01_tx_zh          = 要跟我赌吗？
@@ -89,7 +97,7 @@
 }}
 
 ==Descriptions==
-{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br />This desert warrior wields a large curved blade in battle. The skills such fighters boast of have been passed down since the days when their now-lost civilization was still extant, and are not only techniques to be used in battle, but also serve well as a performing art popular in various lands.<br />It is said that this sword art was once practiced from horseback.|[[Archive]]}}
+{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br>This desert warrior wields a large curved blade in battle. The skills such fighters boast of have been passed down since the days when their now-lost civilization was still extant, and are not only techniques to be used in battle, but also serve well as a performing art popular in various lands.<br>It is said that this sword art was once practiced from horseback.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -118,14 +126,13 @@ Enemy Eremite Sword-Dancer Icon.png|Icon
 |ja_rm   = Erumaito Ryodan - Soododansaa
 |ja_tl   = Eremite Brigade - Sword-Dancer
 |ko      = {{tt|도금|鍍金}} {{tt|여단|旅團}}・춤추는 칼
-|ko_rm   = Dogeum Yeodan - Chumchuneun Kal
 |ko_tl   = {{Lex|Eremite|ko}} - Dancing Sword
 |es      = Eremita Espadachín
 |es_tl   = Eremite Swordsman
 |fr      = Épéiste des Érémites
 |fr_tl   = Swordsman of the Eremites
 |ru      = Мечник Пустынников
-|ru_tl   = Sword-Wielder of the {{Lexicon|Eremite|ru}}s
+|ru_tl   = Swordsman of the {{Lex|Eremites|ru}}
 |th      = Eremite Sword-Dancer
 |vi      = Eremite - Đao Vũ
 |vi_tl   = Eremite - Sword Dance
@@ -135,7 +142,7 @@ Enemy Eremite Sword-Dancer Icon.png|Icon
 |pt      = Eremita - Dançarino Espadachim
 |pt_tl   = 
 |tr      = Münzevi Kılıç Dansçısı
-|tr_tl   = 
+|tr_tl   = {{Lex|Eremite|tr}} Sword Dancer
 |it      = Eremita danzatore di spade
 |it_tl   = 
 }}
@@ -144,4 +151,6 @@ Enemy Eremite Sword-Dancer Icon.png|Icon
 {{Enemy Navbox|Common}}
 
 [[es:Eremita Espadachín]]
+[[fr:Épéiste des Érémites]]
+[[ja:エルマイト旅団・ソードダンサー]]
 [[pt-br:Eremita - Dançarino Espadachim]]

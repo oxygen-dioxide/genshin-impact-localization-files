@@ -1,5 +1,6 @@
 {{Quest Infobox
-|id            = 11123
+|id            = 11123; 11124
+|image         = Story Quest Amidst Chaos the Rock Is Unmoved.png
 |type          = Story
 |chapter       = Historia Antiqua Chapter
 |actNum        = II
@@ -12,14 +13,11 @@
 |subarea       = Nantianmen
 |prev          = Shifting Earth and Lost Threads Come to Light
 |domain        = Beneath the Ancient Tree
-|exp           = 625
-|primogems     = 60
-|mora          = 38,100
-|other         = {{Card|Guide to Gold|5}}{{Card|Dream Solvent|1|rarity=4}}{{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
-|characters    = Azhdaha; Jiu; Kun Jun; Missing Miners; Paimon; Traveler; Uncle Dai; Zhongli
+|rewards       = Adventure EXP*625;Primogem*60;Mora*38,100;Guide to Gold*5;Dream Solvent*1;Hero's Wit*4;Mystic Enhancement Ore*8
+|characters    = Azhdaha;Jiu;Kun Jun;Missing Miners;Paimon;Traveler;Uncle Dai;Zhongli
 |voiced        = yes
 }}
-'''Amidst Chaos, the Rock Is Unmoved''' is the fourth and final part of [[Zhongli]]'s [[Story Quest]] [[Historia Antiqua Chapter]]: Act II - [[No Mere Stone]].
+'''''Amidst Chaos, the Rock Is Unmoved''''' is the fourth and final part of {{Quest|No Mere Stone}}.
 
 ==Steps==
 # Rendezvous with [[Kun Jun]]
@@ -30,14 +28,16 @@
 #* Enter the Quest Domain: [[Beneath the Ancient Tree]]
 #* The player is automatically entered into the domain, but it can be exited and/or retried.
 # Defeat [[Azhdaha]]
+#* {{Enemy|Azhdaha|text=Azhdaha &mdash; Sealed Lord of Vishaps}}
 # Learn the truth of the situation
 # Return to the ancient tree
 # Talk to Zhongli
 
 ==Dialogue==
-{{Quest Description|Finally, you reach Nantianmen. A curious ancient tree has quietly stood here throughout the ages, bearing witness to all that has come to pass. To rescue the miners and solve this puzzle once and for all, you proceed to the ancient site that holds all the answers...}}
+{{Quest Description|Finally, you reach [[Nantianmen]]. A curious ancient tree has quietly stood here throughout the ages, bearing witness to all that has come to pass. To rescue the [[Missing Miners|miners]] and solve this puzzle once and for all, you proceed to the ancient site that holds all the answers...}}
+
 ===Before the Fight===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Kun Jun)
 :{{A|vo zllq104 1 paimon 01.ogg}} '''Paimon:''' Kun Jun! We need to get going!
 :{{A|vo zllq104 1 kunjun 01.ogg}} '''Kun Jun:''' No problem! I'm done here.
@@ -50,9 +50,7 @@
 :{{A|vo zllq104 1 kunjun 05.ogg}} '''Kun Jun:''' Rocks endure, but as eons pass their memories are erased. Those memories that survive are rooted in powerful emotion or thought.
 :{{A|vo zllq104 1 paimon 03.ogg}} '''Paimon:''' That makes sense &mdash; it is the same for people!
 :{{A|vo zllq104 1 kunjun 06.ogg}} '''Kun Jun:''' Indeed... Let's keep going.
-
 ----
-
 ;(Head to the ancient tree and investigate)
 :{{A|vo zllq104 2 kunjun 01.ogg}} '''Kun Jun:''' Wow, such an immense tree!
 :{{A|vo zllq104 2 paimon 01.ogg}} '''Paimon:''' And there's so many mysterious-looking crystals up there too... amazing.
@@ -73,7 +71,7 @@
 :{{A|vo zllq104 2 kunjun 07.ogg}} '''Kun Jun:''' ...Just a bit light-headed... It's passed, nothing to worry about.
 :{{DIcon}} Did you see anything?
 :{{A|vo zllq104 2 kunjun 08.ogg}} '''Kun Jun:''' Not... hmm... not yet...
-:{{A|vo zllq104 2 paimon 05.ogg}} '''Paimon:''' *sigh* Whatever, Paimon's going to investigate over there. Why don't you climb the tree and have a look, (Traveler)?
+:{{A|vo zllq104 2 paimon 05.ogg}} '''Paimon:''' *sigh* Whatever, Paimon's going to investigate over there. Why don't you climb the tree and have a look, {{Traveler}}?
 :{{DIcon}} You're sure there'll be clues in the tree?
 :{{A|vo zllq104 2 paimon 06.ogg}} '''Paimon:''' If you don't try you don't know! Anyway, you'll be able to get a good look at our surroundings from up there!
 :{{A|vo zllq104 2 kunjun 09.ogg}} '''Kun Jun:''' ...
@@ -85,7 +83,7 @@
 :{{A|vo zllq104 2 paimon 10.ogg}} '''Paimon:''' Quick, let's go see! Maybe he found another miner!
 
 ;(Read the tablet)
-:'''Stone Monolith:''' "Life endures in Heaven and Earth thanks to the merciful Adeptus. On this site lies an evil dragon, please do not disturb it."
+:'''Stone Monolith:''' "Life endures in Heaven and Earth thanks to the merciful [[Adeptus]]. On this site lies an evil [[dragon]], please do not disturb it."
 
 ;(Approach Zhongli)
 :{{A|vo zllq104 3 zhongli 01.ogg}} '''Zhongli:''' This has been newly dug. It would appear our answer is up ahead.
@@ -93,42 +91,38 @@
 :{{A|vo zllq104 3 zhongli 02.ogg}} '''Zhongli:''' Compose yourselves. I will lead us in.
 :{{A|vo zllq104 3 kunjun 01.ogg}} '''Kun Jun:''' ...
 :{{A|vo zllq104 3 zhongli 03.ogg}} '''Zhongli:''' There is an unusual presence emanating from inside the tunnel. Prepare yourselves, and tread lightly.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Beneath the Ancient Tree===
 {{Main|Beneath the Ancient Tree}}
-<section begin=domaindialogue/>
-{{Dialogue start}}
+<section begin="domaindialogue"/>
+{{Dialogue Start}}
 ;(Enter the Domain at the end of the underground tunnel)
-:{{Color|menu|The missing miners doggedly dig away inside the tunnel, at the end of which an ancient seal starts to come into view. The miners seem to have been somehow seduced into tunneling here... Just when you start to realize something is amiss, the miners and the rumored blue-haired child suddenly attack you. Chaos ensures, the ground begins to blow, and you are all sucked through the sealed door...}}
-
-;(Cinematic)
-:{{A|vo zllq104 cs zhongli 01.ogg}} '''Zhongli:''' This is...
-:{{A|vo zllq104 cs paimon 01.ogg}} '''Paimon:''' The missing miners are here!
-:{{A|vo zllq104 cs paimon 02.ogg}} '''Paimon:''' Wh&mdash;What are they digging for?
-:{{A|vo zllq104 cs zhongli 02.ogg}} '''Zhongli:''' I'm afraid that this whole tunnel
-:{{A|vo zllq104 cs zhongli 03.ogg}} '''Zhongli:''' Is the fruit of their strenuous labor
-:{{A|vo zllq104 cs paimon 03.ogg}} '''Paimon:''' That gate...
-:{{A|vo zllq104 cs paimon 04.ogg}} '''Paimon:''' Has it been there all along?
-:{{A|vo zllq104 cs zhongli 04.ogg}} '''Zhongli:''' Digging a tunnel to this ancient seal
-:{{A|vo zllq104 cs zhongli 05.ogg}} '''Zhongli:''' Had they not been discovered
-:{{A|vo zllq104 cs zhongli 06.ogg}} '''Zhongli:''' They would undoubtedly persevere
-:{{A|vo zllq104 cs zhongli 07.ogg}} '''Zhongli:''' Until they opened the gate.
-:{{A|vo zllq104 cs paimon 05.ogg}} '''Paimon:''' ...So behind this seal, there's...
+{{Cutscene Description|The missing miners doggedly dig away inside the tunnel, at the end of which an ancient seal starts to come into view. The miners seem to have been somehow seduced into tunneling here... Just when you start to realize something is amiss, the miners and the rumored blue-haired child suddenly attack you. Chaos ensures, the ground begins to blow, and you are all sucked through the sealed door...}}
+:;(A cutscene plays)
+::{{A|vo zllq104 cs zhongli 01.ogg}} '''Zhongli:''' This is...
+::{{A|vo zllq104 cs paimon 01.ogg}} '''Paimon:''' The missing miners are here!
+::{{A|vo zllq104 cs paimon 02.ogg}} '''Paimon:''' Wh&mdash;What are they digging for?
+::{{A|vo zllq104 cs zhongli 02.ogg}} '''Zhongli:''' I'm afraid that this whole tunnel
+::{{A|vo zllq104 cs zhongli 03.ogg}} '''Zhongli:''' Is the fruit of their strenuous labor
+::{{A|vo zllq104 cs paimon 03.ogg}} '''Paimon:''' That gate...
+::{{A|vo zllq104 cs paimon 04.ogg}} '''Paimon:''' Has it been there all along?
+::{{A|vo zllq104 cs zhongli 04.ogg}} '''Zhongli:''' Digging a tunnel to this ancient seal
+::{{A|vo zllq104 cs zhongli 05.ogg}} '''Zhongli:''' Had they not been discovered
+::{{A|vo zllq104 cs zhongli 06.ogg}} '''Zhongli:''' They would undoubtedly persevere
+::{{A|vo zllq104 cs zhongli 07.ogg}} '''Zhongli:''' Until they opened the gate.
+::{{A|vo zllq104 cs paimon 05.ogg}} '''Paimon:''' ...So behind this seal, there's...
 :;(The miners rush towards Paimon with pickaxes)
-:{{A|vo zllq104 cs paimon 06.ogg}} '''Paimon:''' Aah!!!
+::{{A|vo zllq104 cs paimon 06.ogg}} '''Paimon:''' Aah!!!
 :;(Zhongli conjures a shield around everyone)
-:{{A|vo zllq104 cs paimon 07.ogg}} '''Paimon:''' What do we do? We can't hurt them!
-:;(As Zhongli pushes the shield forward, black smoke gathers behind him)
-:;(The blue-haired girl appears out of the smoke and launches an attack)
-:;(Kun Jun notices and blocks the attack from hitting Zhongli)
-:;(The seal breaks and a strong gust of wind blows everyone into the cavern)
+::{{A|vo zllq104 cs paimon 07.ogg}} '''Paimon:''' What do we do? We can't hurt them!
+:;(Cutscene ends)
 
-{{Color|menu|On the other side of the door, you are greeted by the daunting sight of an enormous dragon &mdash; the cause of all the strange events that have occurred. Having torn away the seal, he now proceeds to vent his fury upon you...}}
+;{{Color|menu|On the other side of the door, you are greeted by the daunting sight of an enormous dragon &mdash; the cause of all the strange events that have occurred. Having torn away the seal, he now proceeds to vent his fury upon you...}}
 
 ;(A battle with Azhdaha begins)
 :{{A|vo zllq104 6 paimon 01.ogg}} '''Paimon:''' What type of monster is this!?
-:{{A|vo zllq104 6 dahaka 01.ogg}} '''Azhdaha:''' Morax... you arrive at my doorstep of your own volition. Excellent... taking revenge for sealing me away will be all the easier!
+:{{A|vo zllq104 6 dahaka 01.ogg}} '''Azhdaha:''' [[Morax]]... you arrive at my doorstep of your own volition. Excellent... taking revenge for sealing me away will be all the easier!
 :{{A|vo zllq104 6 zhongli 01.ogg}} '''Zhongli:''' So.... the little girl is your power incarnate.
 :{{A|vo zllq104 6 zhongli 02.ogg}} '''Zhongli:''' But if you recall, Azhdaha... this is not how we intended for events to transpire.
 :{{A|vo zllq104 6 dahaka 02.ogg}} '''Azhdaha:''' Waste not your words! Your life is mine!
@@ -150,17 +144,14 @@
 
 ;(Defeat Azhdaha)
 :{{A|vo zllq104 6 dahaka 05.ogg}} '''Azhdaha:''' Ah...!
-
 ----
-
 ;(After defeating Azhdaha)
-:;(Jiu bears the title "Azhdaha")
-:{{A|vo zllq104 7 jiu 01.ogg}} '''Jiu:''' Morax! A thousand years after you sealed me underground... you return for the second time...
+:{{A|vo zllq104 7 jiu 01.ogg}} '''[[Jiu]]:''' Morax! A thousand years after you sealed me underground... you return for the second time...
 :{{A|vo zllq104 7 zhongli 01.ogg}} '''Zhongli:''' ...
 :{{A|vo zllq104 7 zhongli 02.ogg}} '''Zhongli:''' You should call it by its name, Azhdaha... fate.
 :{{A|vo zllq104 7 jiu 02.ogg}} '''Jiu:''' Fate?
 :{{A|vo zllq104 7 jiu 03.ogg}} '''Jiu:''' Fate!!! Hahahaha!
-:{{A|vo zllq104 7 jiu 04.ogg}} '''Jiu:''' So here lies the wisdom of the gods? Destroy all deemed redundant, enlist tyrants to ravage the wilderness!
+:{{A|vo zllq104 7 jiu 04.ogg}} '''Jiu:''' So here lies the wisdom of the [[god]]s? Destroy all deemed redundant, enlist tyrants to ravage the wilderness!
 :{{A|vo zllq104 7 kunjun 01.ogg}} '''???:''' No. You have forgotten.
 :{{A|vo zllq104 7 paimon 01.ogg}} '''Paimon:''' ...That... that voice...
 :{{A|vo zllq104 7 zhongli 03.ogg}} '''Zhongli:''' Azhdaha...
@@ -191,10 +182,10 @@
 :{{A|vo zllq104 7 kunjun 15.ogg}} '''Kun Jun:''' Azhdaha was once a friend and ally of the Geo Archon, Morax, with a lifespan far exceeding that of mankind. However, that which is derived of the earth is no more or less than the earth itself...
 :{{A|vo zllq104 7 kunjun 16.ogg}} '''Kun Jun:''' The memories of rocks do not last long. Those memories that survive are rooted in powerful emotion. But as time passes, so these memories fade into obscurity. [[Erosion]] is the world's greatest destroyer of memories.
 :{{DIcon}} Erosion...?
-:{{A|vo zllq104 7 kunjun 17.ogg}} '''Kun Jun:''' Erosion ground Azhdaha's consciousness into oblivion. Slowly, he forgot the face of his old friend, and his memories of defending Liyue Harbor disintegrated.
+:{{A|vo zllq104 7 kunjun 17.ogg}} '''Kun Jun:''' Erosion ground Azhdaha's consciousness into oblivion. Slowly, he forgot the face of his old friend, and his memories of defending [[Liyue Harbor]] disintegrated.
 :{{A|vo zllq104 7 kunjun 18.ogg}} '''Kun Jun:''' Azhdaha, now incomplete, became irascible... aggressive.
-:{{A|vo zllq104 7 jiu 08.ogg}} '''Jiu:''' What would you expect!? It was humanity that attacked the Ley Lines that sustained me!
-:{{A|vo zllq104 7 kunjun 19.ogg}} '''Kun Jun:''' This much is true. Which is why "you" attacked The Chasm... why "you" waged war against Morax.
+:{{A|vo zllq104 7 jiu 08.ogg}} '''Jiu:''' What would you expect!? It was humanity that attacked the [[Ley Line]]s that sustained me!
+:{{A|vo zllq104 7 kunjun 19.ogg}} '''Kun Jun:''' This much is true. Which is why "you" attacked [[The Chasm (Subregion)|The Chasm]]... why "you" waged war against Morax.
 :{{A|vo zllq104 7 kunjun 20.ogg}} '''Kun Jun:''' In the beginning, in order to open up new territory and increase production, the citizens of Liyue came to the mountains to mine. Overexploitation caused the Ley Lines to quake, which brought untold suffering to "us."
 :{{A|vo zllq104 7 kunjun 21.ogg}} '''Kun Jun:''' Erosion made "us" even more savage. No matter how we struggled, we lost the ability to coexist with humanity... we lost all reason.
 :{{A|vo zllq104 7 kunjun 22.ogg}} '''Kun Jun:''' Morax shared with us some of his power, to prevent further erosion. But... it was futile. Everything returns to dust. It is the natural order, an unstoppable force.
@@ -208,7 +199,7 @@
 :{{A|vo zllq104 7 jiu 12.ogg}} '''Jiu:''' A lord over insects is nothing but an insect in turn!
 :{{A|vo zllq104 7 kunjun 27.ogg}} '''Kun Jun:''' You forgot yourself. Nobody held Morax in higher regard than you or I.
 :{{A|vo zllq104 7 kunjun 28.ogg}} '''Kun Jun:''' That which you have forgotten, I hold here in my heart. If you are the memory of the earth... then I am the memory of coexistence... of coexistence with humanity.
-:{{A|vo zllq104 7 kunjun 29.ogg}} '''Kun Jun:''' All powers under heaven,<ref group="Note">{{Lang|zh=天动万象|zh_rm=tiān dòng wàn xiàng|zh_tl=all powers under heaven}} is Zhongli's signature elemental burst voice-over in Chinese, being the voice-over used in his [https://www.bilibili.com/video/BV1hD4y1X7Rm Character Demo]. The [https://youtu.be/4oBpaBEMBIM English version] uses "I will have order!" for Zhongli's elemental burst voice-over, which is not a direct translation of the CN version. The translation used by Kun Jun is a more accurate translation.</ref> rise and fall of land and sea...
+:{{A|vo zllq104 7 kunjun 29.ogg}} '''Kun Jun:''' All powers under heaven,<ref group="Note">{{zh|天动万象|rm=tiān dòng wàn xiàng|tl=all powers under heaven}} is Zhongli's signature elemental burst voice-over in Chinese, being the voice-over used in his [https://www.bilibili.com/video/BV1hD4y1X7Rm Character Demo]. The [https://youtu.be/4oBpaBEMBIM English version] uses "I will have order!" for Zhongli's elemental burst voice-over, which is not a direct translation of the CN version. The translation used by Kun Jun is a more accurate translation.</ref> rise and fall of land and sea...
 :{{A|vo zllq104 7 jiu 13.ogg}} '''Jiu:''' ...A star appears within the wild... a sun ascends as bright as... jade...
 :{{A|vo zllq104 7 zhongli 07.ogg}} '''Zhongli:''' ...
 :{{A|vo zllq104 7 jiu 14.ogg}} '''Jiu:''' Strange... What... what is this feeling? And all this...
@@ -236,10 +227,11 @@
 :{{A|vo zllq104 7 kunjun 40.ogg}} '''Kun Jun:''' Surely the pressing matter is still that of the miners trapped outside the seal?
 :{{A|vo zllq104 7 zhongli 14.ogg}} '''Zhongli:''' Indeed. Hence the need to get going, to fix the damage left in your wake.
 :{{A|vo zllq104 7 kunjun 41.ogg}} '''Kun Jun:''' Ha... straight down to business, as always. Let's go.
-{{Dialogue end}}
-<section end=domaindialogue/>
+{{Dialogue End}}
+<section end="domaindialogue"/>
+
 ===After the Fight===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Leave the domain)
 :{{A|vo zllq104 8 paimon 01.ogg}} '''Paimon:''' Huh? How did we get here? We need to go back and check on the miners!
 
@@ -249,7 +241,7 @@
 :{{A|vo dialog zllq104 cenone 01.ogg}} '''Miner:''' Oh...
 
 ;(Return to the ancient tree)
-:{{A|vo zllq104 8 uncledai 01.ogg}} '''Uncle Dai:''' So there you are! My men and I found your clues and followed them straight here.
+:{{A|vo zllq104 8 uncledai 01.ogg}} '''[[Uncle Dai]]:''' So there you are! My men and I found your clues and followed them straight here.
 :{{A|vo zllq104 8 uncledai 02.ogg}} '''Uncle Dai:''' We found Mao in a tent at the campsite unconscious! It seems he'll be okay. Sadly, we found no trace of the other three...
 :{{A|vo zllq104 8 uncledai 03.ogg}} '''Uncle Dai:''' Huh? Young Kun, wh&mdash;what is...?
 :{{A|vo zllq104 8 kunjun 01.ogg}} '''Kun Jun:''' Nothing, pay it no mind. Those three miners are over in that cave there.
@@ -292,7 +284,7 @@
 :{{A|vo zllq104 8 zhongli 13.ogg}} '''Zhongli:''' You're leaving?
 :{{A|vo zllq104 8 kunjun 21.ogg}} '''Kun Jun:''' If it is fated, Morax... we will meet again.
 
-:{{Color|menu|A ray of light flies from Kun Jun's body, and just like that, Azhdaha is gone...}}
+;{{Color|menu|A ray of light flies from Kun Jun's body, and just like that, Azhdaha is gone...}}
 
 :{{A|vo zllq104 8 paimon 03.ogg}} '''Paimon:''' Huh!?
 :{{DIcon}} So is this...
@@ -304,26 +296,26 @@
 ::{{DIcon}} He was a great friend of yours.<!--Two-liner, not two options-->
 :{{A|vo zllq104 8 zhongli 16.ogg}} '''Zhongli:''' He was.
 :{{A|vo zllq104 8 zhongli 17.ogg}} '''Zhongli:''' Centuries may have passed since then... but events from a thousand years ago... remain crystal clear in my mind.
+----
+{{Cutscene Description|You listen to the story of how Zhongli &mdash; while he yet walked the earth as Morax &mdash; discovered the elemental being Azhdaha and gave him eyes. This giant dragon signed a contract with Morax and accompanied him on many campaigns throughout the land, leaving many legends behind.}}
+:;(A [[#Cinematic|cinematic]] starts)
+::'''[[Iron Tongue Tian]]:''' In our last tale, Rex Lapis was walking alone in the mountains. He heard a remote voice unlike any other coming from a crack in the earth.
+::'''Zhongli:''' Most of the ancient [[Geo]] life forms that live below Liyue are blind, having not seen the sunlight for an age.
+::'''Iron Tongue Tian:''' The voice was sometimes sad and songlike, other times it was loud and thunderous. The Lord of Geo searched here and there before finally unearthing a strange stone from the bedrock.
+::'''Zhongli:''' That's how Azhdaha was. I answered his wish, and took him above ground.
+::'''Iron Tongue Tian:''' The Lord of Geo took pity on the rock's spirit and carved it into a magnificent work of craftsmanship &mdash; a vivid representation of a dragon.
+::'''Zhongli:''' I bestowed him with a pair of eyes to see the world and came to an agreement with him.
+::'''Iron Tongue Tian:''' With his fingers, he made two eyes. Quicker than words could tell, lightning flashed and thunder roared, and a living, breathing dragon soared into the clouds!
+::'''Zhongli:''' I agreed to let him live among the people above ground, but if the day ever came when he brought ruin to order, he would once again be sealed in the dark.
+::'''Iron Tongue Tian:''' The dragon accompanied the Lord of Geo, fighting campaigns alongside him in the four corners of the world. We have a saying to eulogize these events:
+::'''Iron Tongue Tian:''' "The crash of a spear brought billowing dust"
+::'''Iron Tongue Tian:''' "The mountains and waters made way at the sound"
+::'''Iron Tongue Tian:''' "The sight of a dragon bestowed with a touch"
+::'''Iron Tongue Tian:''' "The promise of rainwater blessing the ground"
+:;(Cinematic ends)
 
 ----
-
-:{{Color|menu|You listen to the story of how Zhongli &mdash; while he yet walked the earth as Morax &mdash; discovered the elemental being Azhdaha and gave him eyes. This giant dragon signed a contract with Morax and accompanied him on many campaigns throughout the land, leaving many legends behind.}}
-
-;(A [[#Cinematic|cinematic]] starts)
-:'''Iron Tongue Tian:''' In our last tale, Rex Lapis was walking alone in the mountains. He heard a remote voice unlike any other coming from a crack in the earth.
-:'''Zhongli:''' Most of the ancient Geo life forms that live below Liyue are blind, having not seen the sunlight for an age.
-:'''Iron Tongue Tian:''' The voice was sometimes sad and songlike, other times it was loud and thunderous. The Lord of Geo searched here and there before finally unearthing a strange stone from the bedrock.
-:'''Zhongli:''' That's how Azhdaha was. I answered his wish, and took him above ground.
-:'''Iron Tongue Tian:''' The Lord of Geo took pity on the rock's spirit and carved it into a magnificent work of craftsmanship &mdash; a vivid representation of a dragon.
-:'''Zhongli:''' I bestowed him with a pair of eyes to see the world and came to an agreement with him.
-:'''Iron Tongue Tian:''' With his fingers, he made two eyes. Quicker than words could tell, lightning flashed and thunder roared, and a living, breathing dragon soared into the clouds!
-:'''Zhongli:''' I agreed to let him live among the people above ground, but if the day ever came when he brought ruin to order, he would once again be sealed in the dark.
-:'''Iron Tongue Tian:''' The dragon accompanied the Lord of Geo, fighting campaigns alongside him in the four corners of the world. We have a saying the eulogize these events:<br />"The crash of a spear brought billowing dust"<br />"The mountains and waters made way at the sound"<br />"The sight of a dragon bestowed with a touch"<br />"The promise of rainwater blessing the ground."
-
-----
-
-:'''''Shortly afterward, Uncle Dai volunteers to take unconscious Kun Jun back to the city along with the miners.<br />The people left behind seem like they have more to say...'''''
-
+:{{Black Screen|''Shortly afterward, Uncle Dai volunteers to take unconscious Kun Jun back to the city along with the miners.<br>The people left behind seem like they have more to say...''}}
 ;(Talk to Zhongli)
 :{{A|vo zllq104 9 zhongli 01.ogg}} '''Zhongli:''' A thousand years ago, Azhdaha attacked The Chasm. I tried to obstruct him, fighting him tooth and nail down the length and breadth of the mine. Finally, I brought him down, and sealed him underground.
 :{{A|vo zllq104 9 zhongli 02.ogg}} '''Zhongli:''' During that battle, Dragonfall was born. Azhdaha could sense the stone. Subconsciously, he wanted to use it to find me.
@@ -343,13 +335,13 @@
 :{{A|vo zllq104 9 zhongli 11.ogg}} '''Zhongli:''' I must thank you both.
 :{{A|vo zllq104 9 paimon 02.ogg}} '''Paimon:''' No worries!
 :{{DIcon}} Hold on.
-:{{DIcon}} I want to ask you something.
+::{{DIcon}} I want to ask you something.<!--Two-liner, not two options-->
 :{{A|vo zllq104 9 zhongli 12.ogg}} '''Zhongli:''' Oh? About what?
 :{{DIcon}} About my {{MC|sister|brother|mc=1}}.
 :{{A|vo zllq104 9 paimon 03.ogg}} '''Paimon:''' Oh yeah! Paimon nearly forgot!
-:{{A|vo zllq104 9 paimon 04.ogg}} '''Paimon:''' So, not long ago we met a guy called Dain.
-:{{A|vo zllq104 9 paimon 05.ogg}} '''Paimon:''' He told us about Khaenri'ah and the punishment of the gods... That's when we realized that those events... were connected to the person we're searching for.
-:{{DIcon}} My sibling.
+:{{A|vo zllq104 9 paimon 04.ogg}} '''Paimon:''' So, not long ago we met a guy called [[Dainsleif|Dain]].
+:{{A|vo zllq104 9 paimon 05.ogg}} '''Paimon:''' He told us about [[Khaenri'ah]] and the [[Cataclysm|punishment of the gods]]... That's when we realized that those events... were connected to the person we're searching for.
+:{{DIcon}} [[Traveler's Sibling|My sibling]].
 :{{DIcon}} This is crucial for me.
 :{{A|vo zllq104 9 paimon 06.ogg}} '''Paimon:''' Zhongli, you're a god. You've lived through thousands of years of history. Surely you experienced the incident.
 :{{A|vo zllq104 9 zhongli 13.ogg}} '''Zhongli:''' ...
@@ -376,7 +368,7 @@
 :;(Quest ends)
 ----
 ;(Talk to Zhongli after the quest ends)
-:{{A|vo dialog zllq105 zhongli 01.ogg}} '''Zhongli:''' This tablet was erected by Mountain Shaper. It names Azhdaha as a terrible dragon, and serves as a warning for later generations to stay away from this place... from the seal.
+:{{A|vo dialog zllq105 zhongli 01.ogg}} '''Zhongli:''' This tablet was erected by [[Mountain Shaper]]. It names Azhdaha as a terrible dragon, and serves as a warning for later generations to stay away from this place... from the seal.
 :{{A|vo dialog zllq105 zhongli 02.ogg}} '''Zhongli:''' It's a shame... There is a fine line between good and evil. If the good and evil within him could be summarized in a single sentence... well, never mind.
 :{{DIcon}} (You gaze quietly at Zhongli as he stands beneath the tree...)
 :'''Zhongli says nothing more...''' (Amidst the quiet, only the soft sound of the wind can be heard. Time seems to transform into an invisible river, trickling away...)
@@ -388,17 +380,20 @@
 
 ;(Read the tablet)
 :'''Stone Monolith:''' "Life endures in Heaven and Earth thanks to the merciful Adeptus. On this site lies an evil dragon, please do not disturb it."
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Cinematic==
 <gallery>
 Story Teaser- Through the Eyes of a Dragon - Genshin Impact
 </gallery>
 
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
+
 ==Trivia==
 * Differences between voice-overs and their official transcription:
 ** When Paimon has the line "If you don't try you don't know! Anyway, you'll be able to get a good look at our surroundings from up there!" her voice-over is "If you don't try you won't know! Anyway, you'll be able to get a good look at our surroundings from up there!"
-**When Kun Jun has the line "Those three miners are over in that cave there." his voice-over is "Those three miners are over there in that cave."
+** When Kun Jun has the line "Those three miners are over in that cave there." his voice-over is "Those three miners are over there in that cave."
 
 ==Notes==
 {{Reflist|note=1}}
@@ -415,7 +410,6 @@ Story Teaser- Through the Eyes of a Dragon - Genshin Impact
 |ja_rm   = Konton no Naka, Iwa wa Ugokazu
 |ja_tl   = Amidst the Chaos, the Rock Does Not Move
 |ko      = 움직이지 않는 {{tt|반석|磐石}}
-|ko_rm   = Umjigiji Anneun Banseok
 |ko_tl   = Immovable Rock
 |es      = La roca permanece inmutable en el caos
 |es_tl   = The Rock Remains Unchanged In Chaos
@@ -437,8 +431,10 @@ Story Teaser- Through the Eyes of a Dragon - Genshin Impact
 |tr      = Kargaşanın Ortasında Sarsılmayan Bir Kaya
 |tr_tl   = 
 |it      = Nel mezzo del caos la roccia è immota
-|it_tl   = 
+|it_tl   = Amidst the Chaos, the Rock Is Unmoved
 }}
 
 ==Change History==
 {{Change History|1.5}}
+
+[[ja:混沌の中、岩は動かず]]

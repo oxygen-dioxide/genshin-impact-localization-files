@@ -7,16 +7,13 @@
 |act           = Stillness, the Sublimation of Shadow
 |part          = 2
 |requirement   = 
-|startLocation = [[Tatarasuna]], [[Inazuma]]
+|startLocation = [[Kannazuka]], [[Inazuma]]
 |region        = Inazuma
 |area          = Kannazuka
-|subarea       = Tatarasuna
+|subarea       = Kujou Encampment
 |prev          = Amidst Stormy Judgment
 |next          = Sword, Fish, Resistance
-|exp           = 1125
-|mora          = 53,900
-|primogems     = 30
-|other         = {{Card|Memory of Violet Flash|1}}{{Card|Hero's Wit|5}}{{Card|Mystic Enhancement Ore|10}}
+|rewards       = Adventure EXP*1,125;Primogem*30;Mora*53,900;Memory of Violet Flash*1;Hero's Wit*5;Mystic Enhancement Ore*10
 |characters    = Beidou; Gorou; Hisahiko; Ishihara; Jiichirou; Kaedehara Kazuha; Kaida Ryouma; Kujou Sara; Masashi; Message-Runner; Paimon; Sakamoto; Sangonomiya Kokomi; Shouji; Takayama; Teppei; Thoma; Tokuda; Traveler; Fujita Sanshirou; Kayama Tadao; Takasaka Izumi
 |voiced        = yes
 }}
@@ -27,6 +24,7 @@
 # Continue exploring
 # Hurry to the front line
 # Rescue the surrounded resistance soldier
+#*{{Enemy|Yoriki Samurai|x=2}}
 # Talk with members of the resistance
 # Go and meet [[Gorou]], the resistance general
 #*He will be located in [[Fort Fujitou]]
@@ -35,8 +33,7 @@
 #*Give either 1 [[Wolfhook]] or 1 [[Onikabuto]].
 # Follow Teppei and help the resistance
 # Demonstrate archery techniques to the resistance
-# Defeat the Shogunate Army squad attempting a sneak attack
-#*There will be several [[Shogunate Samurai]]
+# Defeat the Shogunate Army squad attempting a sneak attack{{Enemy List|Shogunate Infantry *3; Shogunate Infantry Captain *2}}
 # Collect nearby repair materials (0/1)
 #*It will be labeled "Plank and Rope"
 # Repair the walls around the encampment
@@ -44,19 +41,21 @@
 # Go to the front lines
 #*This will be in [[Nazuchi Beach]]
 # Defeat the Shogunate forces
-#*The player will fight 3 rounds of combat against single soldiers
+#*The player will fight 3 rounds of combat against single soldiers.
+#*Round 1: {{Enemy|Shogunate Infantry|text=Fujita Sanshirou &mdash; "Spear Demon Fujita"}}
+#*Round 2: {{Enemy|Shogunate Infantry Captain|text=Kayama Tadao &mdash; "Bamboo-Breaking Tiger"}}
+#*Round 3: {{Enemy|Yoriki Samurai|text=Takasaka Izumi &mdash; "Kujou's Right Hand"}}
 
 ==Gameplay Notes==
 * This quest will be blocked if the [[International Travel Log]] has been accepted but not completed.
 * It is recommended to do at least [[Orobashi's Legacy: Part I]] so that the weather is clear and no lightning interferes with the archery.
-* The fight against the Shogunate forces is in an area with a barrier
-** Fight #1: Fujita Sanshirou - "Spear Demon Fujita"
-** Fight #2: Kayama Tadao - "Bamboo-Breaking Tiger"
-** Fight #3: Takasaka Izumi - "Kujou's Right Hand"
+* Approaching the front lines will cause any nearby [[Local Specialty|Local Specialties]], harvestable ingredients or [[Random Event]]s to despawn. They will respawn once a sufficient distance from the objective.
+* During Step 16, the fight against the Shogunate forces is in an area with a barrier.
+* Finishing the cutscene after the archery demonstration will grant the {{Achievement|Revolutionary Outlander}}.
 
 ==Dialogue==
 {{Quest Description|Your first meeting with the [[Raiden Shogun]] leads to a clash beyond your expectations. With a warrant out for you, your only option to reverse the situation now is to throw your lot in with the Sangonomiya resistance.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After escaping from Raiden Shogun)
 :{{A|vo dqaq010 1 paimon 01.ogg}} '''Paimon:''' Wh&mdash;Why have we stopped here?
 :{{A|vo dqaq010 1 thoma 01.ogg}} '''Thoma:''' In case you've forgotten, the Komore Teahouse is the safest place for me to hide in this area.
@@ -310,7 +309,7 @@
 :{{A|vo dqaq010 14 teppei 04.ogg}} '''Teppei:''' We mustn't let Tatarasuna fall to the enemy!
 ----
 ;(Upon arriving at the location)
-{{color|menu|You speed toward the front lines, and are just in time to see Kujou Sara, commander of the Shogun's army, trading barbs with Gorou.}}
+;{{color|menu|You speed toward the front lines, and are just in time to see Kujou Sara, commander of the Shogun's army, trading barbs with Gorou.}}
 :{{A|vo dqaq010 15 kujousara 01.ogg}} '''Kujou Sara:''' So you are the only one here? Hm... I thought I might get to meet your grand strategist.
 :{{A|vo dqaq010 15 kujousara 02.ogg}} '''Kujou Sara:''' She is the one that's been causing our forces so much trouble. The fact the resistance has even held out for this long is thanks to her.
 :{{A|vo dqaq010 15 kujousara 03.ogg}} '''Kujou Sara:''' But soon, the resistance will fall. They are no match for the might of the Shogun's Army... Her schemes mean nothing now.
@@ -360,26 +359,24 @@
 :{{A|vo dqaq010 16 kujousara 03.ogg}} '''Kujou Sara:''' Glory to the Shogun and her everlasting reign!
 :{{A|vo dqaq010 16 gorou 01.ogg}} '''Gorou:''' Prepare to engage!
 :{{A|vo dqaq010 16 gorou 02.ogg}} '''Gorou:''' All of you, with me!
-
-:Cutscene's Archive Summary:
-:;{{Color|menu|The cries of battle rise high into the sky. The resistance is at a disadvantage, leaving Gorou fretful and frustrated. Just then, the core of the resistance, Sangonomiya Kokomi, appears like timely rain from the heavens. The reinforcements who have long lain in ambush emerge and charge at her signal, flooding over the battlefield, with Beidou and Kazuha in their midst serving as mercenaries. Seeing that the moment has passed, Kujou Sara is forced to order a retreat}}
-;(Cutscene plays)
-:'''Kujou Sara:''' Now!
-:'''Tenryou Soldiers:''' Chaaaarge!!!
-:'''Gorou:''' Stand firm, hold the line!
-:'''Gorou:''' Her Excellency!
-:'''Sangonomiya Kokomi:''' The wait is over my comrades
-:'''Sangonomiya Kokomi:''' Now is our moment!
-:'''Kaedehara Kazuha:''' Heh, calm as the breeze, my lady
-:'''Beidou:''' I just hope you can afford all these mercs you've gathered
-:'''Gorou:''' Kazuha!
-:'''Kaedehara Kazuha:''' We meet again, old friend
-:'''Gorou:''' *nods*
-:'''Kujou Sara:''' Tch... All forces, retreat!
-;(Cutscene ends)
+{{Cutscene Description|The cries of battle rise high into the sky. The resistance is at a disadvantage, leaving Gorou fretful and frustrated. Just then, the core of the resistance, Sangonomiya Kokomi, appears like timely rain from the heavens. The reinforcements who have long lain in ambush emerge and charge at her signal, flooding over the battlefield, with Beidou and Kazuha in their midst serving as mercenaries. Seeing that the moment has passed, Kujou Sara is forced to order a retreat.}}
+;(A cutscene plays)
+::'''Kujou Sara:''' Now!
+::'''Tenryou Soldiers:''' Chaaaarge!!!
+::'''Gorou:''' Stand firm, hold the line!
+::'''Gorou:''' Her Excellency!
+::'''Sangonomiya Kokomi:''' The wait is over my comrades
+::'''Sangonomiya Kokomi:''' Now is our moment!
+::'''Kaedehara Kazuha:''' Heh, calm as the breeze, my lady
+::'''Beidou:''' I just hope you can afford all these mercs you've gathered
+::'''Gorou:''' Kazuha!
+::'''Kaedehara Kazuha:''' We meet again, old friend
+::'''Gorou:''' *nods*
+::'''Kujou Sara:''' Tch... All forces, retreat!
+:;(Cutscene ends)
 
 ;(After the battle)
-:{{A|vo dqaq010 16 kokomi 01.ogg}} '''Sangonomiya Kokomi:''' Greetings, (Traveler). This is the first time we've met, please allow me to introduce myself.
+:{{A|vo dqaq010 16 kokomi 01.ogg}} '''Sangonomiya Kokomi:''' Greetings, {{Traveler}}. This is the first time we've met, please allow me to introduce myself.
 :{{A|vo dqaq010 16 kokomi 02.ogg}} '''Sangonomiya Kokomi:''' I am Sangonomiya Kokomi, organizer of the resistance, and also the Divine Priestess of Watatsumi Island.
 :{{A|vo dqaq010 16 kokomi 03.ogg}} '''Sangonomiya Kokomi:''' Perhaps it's the first time you're hearing that title... To put it simply, I'm the person currently in charge on Watatsumi Island, which is also the home front of the resistance.
 :{{A|vo dqaq010 16 kokomi 04.ogg}} '''Sangonomiya Kokomi:''' I've actually heard all about you from Beidou and Kazuha. I hadn't expected to find you'd joined the resistance, though.
@@ -397,7 +394,7 @@
 :{{A|vo dqaq010 16 kokomi 11.ogg}} '''Sangonomiya Kokomi:''' Our forces are weaker than the Shogun's Army, and my absence can only have made the recent days all the more trying for you.
 :{{A|vo dqaq010 16 kokomi 12.ogg}} '''Sangonomiya Kokomi:''' I'm afraid I must still ask you to stay a while longer, to keep eyes on the Shogun's Army and also to see to the wounded. Mm... But I will ask the mercenaries to remain stationed here, and Kazuha is here too. Hopefully, this will serve to reduce the pressure you are under.
 :{{A|vo dqaq010 16 gorou 03.ogg}} '''Gorou:''' Well received, Your Excellency!
-:{{A|vo dqaq010 16 kokomi 13.ogg}} '''Sangonomiya Kokomi:''' ...I must return to Sangonomiya now, I have a few things to attend to... Once you're ready, (Traveler), please rendezvous with Teppei. He will escort you there.
+:{{A|vo dqaq010 16 kokomi 13.ogg}} '''Sangonomiya Kokomi:''' ...I must return to Sangonomiya now, I have a few things to attend to... Once you're ready, {{Traveler}}, please rendezvous with Teppei. He will escort you there.
 :{{A|vo dqaq010 16 kokomi 14.ogg}} '''Sangonomiya Kokomi:''' Thank you for all your efforts so far. From this day on, I fight alongside you.
 :{{A|vo dqaq010 16 kokomi 15.ogg}} '''Sangonomiya Kokomi:''' Fight... for the future of Inazuma.
 
@@ -418,7 +415,10 @@
 :{{A|vo dialog dqaq010 gorou 02.ogg}} '''Gorou:''' I must say, I was certainly surprised to look out and see Kazuha joining the fray. It's been quite some time since we last fought side-by-side...
 :{{A|vo dialog dqaq010 gorou 03.ogg}} '''Gorou:''' At that time, his friend was defeated in a duel before the throne... and executed by the Raiden Shogun. Kazuha came to visit the resistance as he was fleeing Inazuma with his friend's Vision.
 :{{A|vo dialog dqaq010 gorou 04.ogg}} '''Gorou:''' ...Hard to believe it's been so long.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -452,7 +452,7 @@
 |pt      = Em Nome da Resistência
 |pt_tl   = In the Name of the Resistance
 |tr      = Direniş Adına
-|tr_tl   = 
+|tr_tl   = In the Name of the Resistance
 |it      = Nel nome della Resistenza
 |it_tl   = In the Name of the Resistance
 }}
@@ -462,8 +462,8 @@
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
-[[Category:Archon Chapter 2]]
 
 [[es:En nombre de la resistencia]]
 [[ja:抵抗する者の名において]]
 [[pt-br:Em Nome da Resistência]]
+[[vi:Nhân Danh Quân Kháng Chiến]]

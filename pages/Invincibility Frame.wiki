@@ -7,16 +7,22 @@
 
 ==Types==
 ===Hitbox Removal===
-Hitbox-removing i-frames work by temporarily disabling your character's hitbox (invisible model used for collision detection) to most attacks, making them unable to hit the character. Some attacks however cannot be avoided using hitbox-removing i-frames, such as [[Beneath the Dragon-Queller|Azhdaha]]'s Body Slam attack.
+Hitbox-removing i-frames work by temporarily disabling the active character's hitbox (invisible model used for collision detection) to most attacks, making them unable to hit the character. However, the damage from some attacks cannot be avoided using hitbox-removing i-frames, such as [[Beneath the Dragon-Queller|Azhdaha]]'s Body Slam attack.
 
-Hitbox-removing i-frames are granted to players after [[Sprinting#Dash|Dashing]] (including using an [[Alternate Sprint]]). Dash i-frames start '''40ms''' after pressing the dash button and last for '''300ms'''.
+Hitbox-removing i-frames are granted to players after [[Sprinting#Dash|Dashing]] (including using an [[Alternate Sprint]]) or using [[Arlecchino]]'s [[All Is Ash|Elemental Skill]]. Dash i-frames start '''40ms''' after pressing the dash button and last for '''300ms'''.
 
-Although some [[Normal Attack]]s and [[Elemental Skill]]s can make the character briefly disappear, they do not grant i-frames.
+Although some [[Normal Attack]]s and [[Elemental Skill]]s can make the character briefly disappear, they are purely visual and do not grant i-frames, with the exception of any that are mentioned on this page.
 
-===Damage Nullification===
-Damage-nullifying i-frames temporarily grant your character full invulnerability, nullifying all incoming damage, including those that cannot be avoided using hitbox-removing i-frames, and those from status effects such as [[Sheer Cold]] and [[Corrosion]]. However, due to your character's hitbox still being present, most status effects such as Corrosion, [[Beneath the Dragon-Queller#Ley Line Disorder|Azhdaha's Ley Line Disorder]], [[Enter the Golden House|Childe's Riptide]], and most elemental statuses will apply as normal on hit. The only exceptions are the {{Cryo}} and {{Hydro}} statuses, which cannot apply during damage-nullifying i-frames.
+===HP Locking===
+HP-locking i-frames temporarily grant the active character full invulnerability, nullifying nearly all sources of incoming damage and [[HP loss]], including those that cannot be avoided using hitbox-removing i-frames and those from status effects such as [[Sheer Cold]] and [[Corrosion]]. However, due to the character's hitbox still being present, most status effects such as Corrosion, [[Beneath the Dragon-Queller#Ley Line Disorder|Azhdaha's Ley Line Disorder]], [[Enter the Golden House|Childe's Riptide]], and most elemental statuses will be applied to the character as normal on hit. The only exceptions are the {{Cryo}} and {{Hydro}} statuses, which cannot apply during HP-locking i-frames.
 
-Damage-nullifying i-frames can be granted to players by casting any [[Elemental Burst]], casting the hold version of [[Mona]]'s [[Mirror Reflection of Doom]], or tapping [[Parry]] near the precise moment of an incoming hit. Damage-nullifying i-frames are also granted for about three seconds after a forced switch due to a character death. The duration of the i-frames vary between talents.
+HP-locking i-frames can be granted to players by casting any [[Elemental Burst]], casting the hold version of [[Mona]]'s [[Mirror Reflection of Doom]], or tapping [[Parry]] near the precise moment of an incoming hit. HP-locking i-frames are also granted for about three seconds after a forced switch due to a character death. The duration of the i-frames vary between talents.
+
+HP-locking i-frames cannot protect characters from the following:
+* Damage that is taken before using HP-locking i-frames but is delayed in actually affecting the character's HP due to ping, connection, etc.
+* The Local Legend [["Potapo's Solidarity"]]'s Penetrating Chill attack, which completely bypasses HP-locking i-frames
+
+Characters can still receive [[healing]] during HP-locking i-frames.
 
 ==Previews==
 ===Hitbox Removal===
@@ -29,7 +35,7 @@ Damage-nullifying i-frames can be granted to players by casting any [[Elemental 
 |caption2=Alternate Sprint i-frames
 }}
 
-===Damage Nullification===
+===HP Locking===
 {{Preview
 |size=185px
 |file1=Mona Hold E I-Frame
@@ -48,7 +54,7 @@ Damage-nullifying i-frames can be granted to players by casting any [[Elemental 
 ==Enemies==
 Certain enemies can also grant themselves invincibility frames, while performing certain attacks or transitioning to a new phase.
 
-When enemies are in an invincible state, characters can still generate [[Energy]] particles by casting their [[Elemental Skill]]s, or trigger certain passive effects that require hits to land, such as that of [[The Black Sword]]. However, you will not be able to score [[Critical Hit]]s, therefore passives such as that of the [[Favonius Series]] weapons cannot trigger. Exceptions to this rule include all [[Ruin Machines]] while activating from their idle state, during which hits on them will not register at all.
+When enemies are in an invincible state, characters can still generate [[Energy]] particles by casting their [[Elemental Skill]]s, or trigger certain passive effects that require hits to land, such as that of [[The Black Sword]]. However, you will not be able to score [[Critical Hit]]s, therefore passives such as that of the [[Favonius Series]] weapons cannot trigger. Exceptions to this rule include many types of [[Ruin Machines]] while activating from their idle state, during which hits on them will not register at all, even if they can receive marks such as from [[Nahida's Elemental Skill]].
 
 Enemies that utilize i-frames include:
 

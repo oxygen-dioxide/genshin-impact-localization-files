@@ -7,7 +7,6 @@
 |act           = The Unanswerable Problems
 |actNum        = I
 |part          = 2
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Jasar; Karkata; Paimon; Tighnari; Traveler
 |startLocation = [[Chinvat Ravine]], [[Sumeru]]
@@ -16,13 +15,10 @@
 |subarea       = Chinvat Ravine
 |prev          = The Start of Contamination
 |next          = Heart of the Machine
-|exp           = 600
-|mora          = 38,100
-|primogems     = 
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
+|rewards       = Adventure EXP*600;Mora*38,100;Hero's Wit*4;Mystic Enhancement Ore*8
 |voiced        = yes
 }}
-'''Into the Hinterland''' is the second part of [[Tighnari]]'s [[Story Quest]]: [[Vulpes Zerda Chapter]]: Act I - [[The Unanswerable Problems]].
+'''''Into the Hinterland''''' is the second part of {{Quest|The Unanswerable Problems}}.
 
 ==Steps==
 # Look for the [[Karkata|mechanical crab]]
@@ -30,23 +26,19 @@
 #* The contaminated region contains [[Strange Sumeru Rose]]s which can be harvested.
 # Head toward the depths of the contaminated region
 # Install a Purification Device
-# Defeat the attracted monsters
-#* {{Item|Spinocrocodile|x=2|type=Wildlife}}
-# Defeat the nearby mechanical monsters
-#* {{Enemy|Ruin Scout|x=2}}
+# Defeat the attracted monsters {{Enemy List|Spinocrocodile*2}}
+# Defeat the nearby mechanical monsters {{Enemy List|Ruin Scout*2}}
 # Talk to the trapped person
 # Look for a spot to set up a tent
 # Go into the tent to rest
 # Retrieve the pest-repelling devices (0/2)
 # Prepare to set off{{sic|.|hide=1}}
-# Go to the depths of the contaminated region
-# Defeat the monsters in your path
-#* Wave 1: {{Enemy|Ruin Cruiser|x=2}}
-#* Wave 2: {{Enemy|Ruin Scout|x=2}}
+# Go to the depths of the contaminated region {{Enemy List|Ruin Scout*2}}
+# Defeat the monsters in your path {{Enemy List|Ruin Cruiser*2;Ruin Scout*2}}
 
 ==Dialogue==
 {{Quest Description|With the mechanical crab as your guide, it is time to head to the contaminated region.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo tnllq002 1 paimon 01.ogg}} '''Paimon:''' We're here! This should be... Huh? Where's the crab?
 :{{A|vo tnllq002 1 paimon 02.ogg}} '''Paimon:''' Did it secretly scuttle away?
@@ -77,9 +69,9 @@
 :{{A|vo tnllq002 2 paimon 04.ogg}} '''Paimon:''' You're saying that the contamination here is coming from Ley Lines?
 :{{A|vo tnllq002 2 tighnari 08.ogg}} '''Tighnari:''' I can't confirm that right now, but I think that is the case.
 :{{A|vo tnllq002 2 tighnari 09.ogg}} '''Tighnari:''' Let's take another look around and see if we can discover more clues.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Tighnari theorizes that the contaminated region was formed on account of a Ley Line effluence. Continue searching for clues nearby.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo tnllq002 3 paimon 01.ogg}} '''Paimon:''' You know, we haven't seen any animals this entire time!
 :{{A|vo tnllq002 3 paimon 02.ogg}} '''Paimon:''' The birds used to chirp really loudly, and there were a lot of foxes...
@@ -92,7 +84,7 @@
 :{{A|vo tnllq002 3 tighnari 06.ogg}} '''Tighnari:''' If normal fluctuations in temperature occur, then our bodies automatically adjust. However, the average person cannot adapt to changes in Ley Line energy, and so they fall ill.
 :{{DIcon}} Ah, I see.
 :{{A|vo tnllq002 3 paimon 04.ogg}} '''Paimon:''' Then why are we okay?
-:{{A|vo tnllq002 3 tighnari 07a.ogg}}<!--{{A|vo tnllq002 3 tighnari 07b.ogg}}--> '''Tighnari:''' I'm not sure why you are, but (Traveler) and I are fine because our elemental capabilities allow us to adapt to this kind of change.
+:{{A|vo tnllq002 3 tighnari 07a.ogg}} {{A|vo tnllq002 3 tighnari 07b.ogg}} '''Tighnari:''' I'm not sure why you are, but {{Traveler}} and I are fine because our elemental capabilities allow us to adapt to this kind of change.
 :{{A|vo tnllq002 3 tighnari 08.ogg}} '''Tighnari:''' Of course, it's not a good idea to spend too much time in areas with concentrated Ley Line energy. The only one who can freely traverse this place is probably the mechanical crab.
 :{{A|vo tnllq001 karkata doubt 01.ogg}} '''Mechanical Crab:''' Kulilu?
 :{{A|vo tnllq002 3 tighnari 09.ogg}} '''Tighnari:''' That's about it for the investigation. Help me find an open space. I want to test something.
@@ -101,7 +93,7 @@
 :{{A|vo tnllq002 4 tighnari 01.ogg}} '''Tighnari:''' Environment... No wind... Target parameters... Normal...
 :{{A|vo tnllq002 4 tighnari 02.ogg}} '''Tighnari:''' Setup complete. Excellent &mdash; looks like it's working.
 :{{A|vo tnllq002 4 paimon 01.ogg}} '''Paimon:''' What's this?
-:{{A|vo tnllq002 4 tighnari 03.ogg}} '''Tighnari:''' A Purification Device that I made. It can absorb excess Ley Line energy and temporarily stabilize an area.
+:{{A|vo tnllq002 4 tighnari 03.ogg}} '''Tighnari:''' A Purification Device I made. It can absorb excess Ley Line energy and temporarily stabilize an area.
 :{{A|vo tnllq002 4 paimon 02.ogg}} '''Paimon:''' What a neat thing! Let's set up more and cover the entire region!
 :{{A|vo tnllq002 4 tighnari 04.ogg}} '''Tighnari:''' I wouldn't mind if that would actually work. Unfortunately, once this "contamination" is present, it isn't something that a few Purification Devices can fix.
 :{{A|vo tnllq002 4 tighnari 05.ogg}} '''Tighnari:''' The Purification Devices have their limits. At best, they can only prevent the contaminated region from expanding temporarily.
@@ -120,18 +112,18 @@
 :{{A|vo tnllq001 karkata happy 01.ogg}} '''Mechanical Crab:''' Kolu!
 :{{A|vo tnllq001 karkata happy 01.ogg}} '''Mechanical Crab:''' Kolu!
 :{{A|vo tnllq002 6 paimon 02.ogg}} '''Paimon:''' Hey, where are you&mdash; Wait for us!
-:{{A|vo tnllq002 6 paimon 03.ogg}} '''Paimon:''' Let's hurry and keep up, (Traveler)!
+:{{A|vo tnllq002 6 paimon 03.ogg}} '''Paimon:''' Let's hurry and keep up, {{Traveler}}!
 
 ;(After the cutscene)
 :{{A|vo tnllq002 1 paimon 03.ogg}} '''Paimon:''' The mechanical crab went that way. Let's keep up!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|After you defeat the gathered monsters, the mechanical crab suddenly starts to run wild.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the location)
 :{{A|vo tnllq002 7 jasar 01.ogg}} '''Jasar:''' Help! Heeelp!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|As it turns out, the mechanical crab had heard someone's cries for help and wanted to help. It seems to be quite different from the "ferocious" machine creatures as the people see them...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Jasar)
 :{{A|vo tnllq002 7 jasar 02.ogg}} '''Jasar:''' Aaah... Spare me, please spare me!
 :{{A|vo tnllq002 7 paimon 01.ogg}} '''Paimon:''' Hey, are you okay?
@@ -156,7 +148,7 @@
 :{{A|vo tnllq002 7 tighnari 03.ogg}} '''Tighnari:''' His inarticulate speech and bodily tremors indicate psyche disruption. He's been inside the contaminated region for too long.
 :{{A|vo tnllq002 7 tighnari 04.ogg}} '''Tighnari:''' We've purified the Ley Line energy over there. Follow this path out and you'll soon see the village.
 :;(Jasar runs off)
-:{{A|vo tnllq002 7 tighnari 05.ogg}} '''Tighnari:''' At that point, someone will bring him to Collei for help. I already prepared medication that will return him to normal.
+:{{A|vo tnllq002 7 tighnari 05.ogg}} '''Tighnari:''' When he gets to the village, someone will bring him to Collei for help. I already prepared medication that will return him to normal.
 :{{A|vo tnllq001 karkata happy 01.ogg}} '''Mechanical Crab:''' Kolu!
 :{{DIcon}} It looks like it's...
 :{{DIcon}} Expecting something?
@@ -172,7 +164,7 @@
 :{{A|vo tnllq002 7 paimon 07.ogg}} '''Paimon:''' Okay, it definitely doesn't understand you.
 :{{A|vo tnllq002 7 tighnari 11.ogg}} '''Tighnari:''' It seems like it possesses limited understanding only towards matters related to mechanical components.
 :{{A|vo tnllq002 7 tighnari 12.ogg}} '''Tighnari:''' "Help others to get parts." That's probably its thought process. As for why it &mdash; rather, its owner &mdash; is collecting so many components, I'm not sure.
-:{{A|vo tnllq002 7 tighnari 13.ogg}} '''Tighnari:''' It's getting late, so let's set up camp for the night. We'll explore further tomorrow after a night's rest.
+:{{A|vo tnllq002 7 tighnari 13.ogg}} '''Tighnari:''' It's getting late. Let's set up camp for the night. We'll explore further tomorrow after a night's rest.
 
 ;(Approach the marked location)
 :{{A|vo tnllq002 7 tighnari 14.ogg}} '''Tighnari:''' Hey! Over here!
@@ -190,12 +182,10 @@
 :{{A|vo tnllq002 10 tighnari 05.ogg}} '''Tighnari:''' For the next tasks at hand, let's divide and conquer. I'll set up the tent, you'll be in charge of making the fire, and Paimon will forage for edibles nearby.
 :{{A|vo tnllq002 10 paimon 04.ogg}} '''Paimon:''' Leave it to Paimon! Paimon's a pro!
 :{{A|vo tnllq002 10 tighnari 06.ogg}} '''Tighnari:''' I'm not expecting that much. Just do what you can.
-
-:'''Thanks to Tighnari's guidance, you safely start a fire...'''
-
+:{{Black Screen|Thanks to Tighnari's guidance, you safely start a fire...}}
 :{{A|vo tnllq002 10 tighnari 07.ogg}} '''Tighnari:''' That's right. You can use rushes to start a fire in the wilderness.
 :{{A|vo tnllq002 10 tighnari 08.ogg}} '''Tighnari:''' Their piths are relatively dry and can be readily set aflame. The downside is that they produce a lot of smoke.
-:{{A|vo tnllq002 10 paimon 05.ogg}} '''Paimon:''' *sob* (Traveler), Tighnari... Paimon couldn't find any food.
+:{{A|vo tnllq002 10 paimon 05.ogg}} '''Paimon:''' *sob* {{Traveler}}, Tighnari... Paimon couldn't find any food.
 :{{A|vo tnllq002 10 paimon 06.ogg}} '''Paimon:''' Paimon didn't know that rainforests had so many interesting plants until we came here! There were all sorts of weird-looking mushrooms, but Paimon didn't know which ones were edible.
 :{{A|vo tnllq002 10 paimon 07.ogg}} '''Paimon:''' Paimon also saw wild berries on the ground, and Paimon was gonna fly over and pick them up, but the dead leaves on top suddenly started moving! It freaked Paimon out!
 :{{A|vo tnllq002 10 tighnari 09.ogg}} '''Tighnari:''' Those were probably Deadleaf Butterflies. They camouflage as dead leaves to evade predators.
@@ -227,19 +217,17 @@
 
 ;(Talk to Tighnari again)
 :{{A|vo dialog tnllq002 tighnari 06.ogg}} '''Tighnari:''' Hm? You're still awake?
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You and Tighnari agree to trade guard shifts. It is your turn to rest first...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Rest at the tent)
 :{{A|vo tnllq002 11 paimon 01.ogg}} '''Paimon:''' Paimon's getting sleepy... Ah! Is this because of the Ley Lines?
 :{{A|vo tnllq002 11 paimon 02.ogg}} '''Paimon:''' It's been a while since we camped outside like this!
-:{{A|vo tnllq002 11 paimon 03.ogg}} '''Paimon:''' Hehe... This feels like when we just started adventuring together! Nighty night! (Traveler)!
-
-:'''Paimon gradually falls asleep while reminiscing...'''
-
+:{{A|vo tnllq002 11 paimon 03.ogg}} '''Paimon:''' Hehe... This feels like when we just started adventuring together! Nighty night! {{Traveler}}!
+:{{Black Screen|Paimon gradually falls asleep while reminiscing...}}
 :{{A|vo tnllq002 11 tighnari 01.ogg}} '''Tighnari:''' Hm? You're awake earlier than I expected. Did you sleep well?
 :{{DIcon}} Very well.
-::{{A|vo tnllq002 11 tighnari 02a.ogg}} '''Tighnari:''' That's good. I was worried that you two wouldn't be able to sleep, so I specially used two of my homemade incenses.
+::{{A|vo tnllq002 11 tighnari 02a.ogg}} '''Tighnari:''' That's good. I was worried that you two wouldn't be able to sleep, so I used two of my homemade incenses.
 ::{{A|vo tnllq002 11 tighnari 02a 1.ogg}} '''Tighnari:''' Don't worry, they're made from all-natural ingredients. They have a light fragrance and aren't harmful to the body.
 :{{DIcon}} I'm still a little sleepy.
 ::{{A|vo tnllq002 11 tighnari 02b.ogg}} '''Tighnari:''' You have to maintain constant vigilance in dangerous places like this. Yawning all the time like that is no good.
@@ -268,7 +256,7 @@
 :{{A|vo tnllq002 11 tighnari 16.ogg}} '''Tighnari:''' My ancestors and the Valuka Shuna of the desert coexisted together and supported one another. The bloodline of my people was born from this symbiotic relationship.
 :{{A|vo tnllq002 11 tighnari 17.ogg}} '''Tighnari:''' So to me, all life is important. To understand life, you must first respect it.
 :{{A|vo tnllq002 11 tighnari 18.ogg}} '''Tighnari:''' Life is not an expendable commodity, and knowledge should not be wielded like a scepter. These are the points of contention I have with some researchers, and why I left the Akademiya.
-:{{A|vo tnllq002 11 tighnari 19.ogg}} '''Tighnari:''' By placing yourself above other life forms, what kind of results do you expect to get from researching pure life with impure intentions?
+:{{A|vo tnllq002 11 tighnari 19.ogg}} '''Tighnari:''' Once you start placing yourself above other life forms, I mean... What kind of results do you expect to get from researching pure life with impure intentions?
 :{{DIcon}} I understand what you mean.
 :{{A|vo tnllq002 11 tighnari 20.ogg}} '''Tighnari:''' Really? Well, I'm glad to hear it.
 :{{A|vo tnllq001 karkata upset 01.ogg}} '''Mechanical Crab:''' Kuli...
@@ -279,15 +267,15 @@
 :{{A|vo tnllq002 11 tighnari 22.ogg}} '''Tighnari:''' Alright, seeing that you're working so hard to help out, I'll give you another part.
 :{{A|vo tnllq002 11 tighnari 23.ogg}} '''Tighnari:''' You're not planning on using it? Many of your own parts are critically degraded, and you're running low on power.
 :{{A|vo tnllq001 karkata refuse 01.ogg}} '''Mechanical Crab:''' Kelukulo.
-:{{A|vo tnllq002 11 tighnari 24a.ogg}}<!--{{A|vo tnllq002 11 tighnari 24b.ogg}}--> '''Tighnari:''' Alright, suit yourself. Oh and thanks for the coffee, but I'm about to go to sleep. Leave it with (Traveler).
+:{{A|vo tnllq002 11 tighnari 24a.ogg}} {{A|vo tnllq002 11 tighnari 24b.ogg}} '''Tighnari:''' Alright, suit yourself. Oh and thanks for the coffee, but I'm about to go to sleep. Leave it with {{Traveler}}.
 :{{A|vo tnllq002 11 tighnari 25.ogg}} '''Tighnari:''' The night watch is yours. Stay safe.
 :;(Time skips ahead to daylight)
-:{{A|vo tnllq002 11 paimon 04.ogg}} '''Paimon:''' S&mdash;Sorry, (Traveler), Paimon slept through the entire night...
+:{{A|vo tnllq002 11 paimon 04.ogg}} '''Paimon:''' S&mdash;Sorry, {{Traveler}}, Paimon slept through the entire night...
 :{{DIcon}} It's okay.
 ::{{A|vo tnllq002 11 paimon 05a.ogg}} '''Paimon:''' Really? You're not mad?
 :{{DIcon}} Your punishment is solo watch duty.
 ::{{A|vo tnllq002 11 paimon 05b.ogg}} '''Paimon:''' Hehe. Don't worry, Paimon will be sure to stay awake next time!
-:{{A|vo tnllq002 11 tighnari 26.ogg}} '''Tighnari:''' Good morning, (Traveler) and Paimon. Quick question, do you feel off at all?
+:{{A|vo tnllq002 11 tighnari 26.ogg}} '''Tighnari:''' Good morning, {{Traveler}} and Paimon. Quick question, do you feel off at all?
 :{{DIcon}} I'm a little dizzy.
 :{{A|vo tnllq002 11 tighnari 27.ogg}} '''Tighnari:''' Me too. The farther in we go, the closer we get to the source of the Ley Line effluence. We'll be heading out earlier today. I'll take down the tent.
 :{{A|vo tnllq002 11 paimon 06.ogg}} '''Paimon:''' Is there something we can do?
@@ -310,22 +298,23 @@
 :{{DIcon}} ...Nope, I don't see it.
 :{{A|vo dialog tnllq002 tighnari 04.ogg}} '''Tighnari:''' Hmm... Perhaps one night doesn't make too much of a difference.
 :{{A|vo dialog tnllq002 tighnari 05.ogg}} '''Tighnari:''' I'll make a new blend when we get back. It should make up for last night. I should have some leftover herbs from last month...
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Now you understand how Tighnari feels. Make sure to retrieve all the camping equipment before you set out.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Collect both pest-repelling devices)
-
-:'''Last night's pest-repelling devices are recovered...'''
-
+:{{Black Screen|Last night's pest-repelling devices are recovered...}}
 :{{A|vo tnllq002 14 tighnari 01.ogg}} '''Tighnari:''' Alright, it's about time to head out. As we go further in, we may encounter more berserk machines.
 :{{A|vo tnllq002 14 tighnari 02.ogg}} '''Tighnari:''' The effects of the Ley Lines will also increase. If you're struggling, it would be wise to avoid conflict.
 :{{A|vo tnllq002 14 tighnari 03.ogg}} '''Tighnari:''' Try to conserve as much energy as possible until we reach the source of the contamination.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Your preparations are complete. It's time to go to the heart of the contaminated region.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area)
 :{{A|vo tnllq002 14 tighnari 04.ogg}} '''Tighnari:''' As I thought. The closer we get to the contamination's source, the more mechanical monsters that appear...
-{{Dialogue end}}
+{{Dialogue End}}
+
+== Trivia ==
+* [[Strange Sumeru Rose]]s collected along the path will respawn after the completion of this quest.
 
 ==Other Languages==
 {{Other Languages

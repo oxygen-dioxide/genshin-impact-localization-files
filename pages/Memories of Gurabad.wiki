@@ -1,9 +1,9 @@
+{{About|the World Quest|the Soundtrack|Memories of Gurabad (Soundtrack)}}
 {{Quest Infobox
 |id            = 73305
 |image         = World Quest Memories of Gurabad.png
 |type          = World
 |chapter       = Apocalypse Lost
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Liloupar; Paimon; Traveler
 |startLocation = [[Safhe Shatranj]], [[Sumeru]]
@@ -12,31 +12,37 @@
 |subarea       = Safhe Shatranj
 |prev          = The Fallen Falcon
 |next          = Behold, the Sign Comes Like A Thief...
-|exp           = 300
-|mora          = 20,000
-|primogems     = 40
-|other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|3}}
+|rewards       = Adventure EXP*300;Primogem*40;Mora*20,000;Hero's Wit*3;Mystic Enhancement Ore*3
 }}
-'''''Memories of Gurabad''''' is a [[World Quest]] in the [[Desert of Hadramaveth]], Sumeru.
+'''''Memories of Gurabad''''' is a [[World Quest]] in the [[Desert of Hadramaveth]], [[Sumeru]].
 
 ==Steps==
-* Start the quest by placing the 5 [[Chess Piece]]s on the chessboard in [[Safhe Shatranj]] and after having finished [[The Fallen Falcon]].
-# Talk to Liloupar
+* Start the quest by placing the 5 [[Chess Piece]]s on the chessboard in [[Safhe Shatranj]] and after having finished the {{Quest|The Fallen Falcon}}.
+# Talk to [[Liloupar]]
+# Defeat the Primal Construct
+#* Wave 1: {{Enemy|Primal Construct: Reshaper|x=2}}
+#* Wave 2: {{Enemy|Primal Construct: Repulsor|x=2}}
+#* Wave 3: {{Enemy|Primal Construct: Prospector|x=2}}
 # Investigate Chess Piece
 # Trigger Chess Piece
-# Open the gate to Gurabad
+# Open the gate to [[Gurabad]]
+# Defeat the Primal Construct
+#* {{Enemy|Primal Construct: Reshaper|x=2}}
 # Obtain Liloupar's fragment
 
 ==Gameplay Notes==
-* Completing the quest grants the ''[[Wonders of the World]]'' achievement ''[["If They Had Known the Unseen..."]]''.
+* After completing Step 1 of the quest:
+<!-- This change was made based on the description on the "Chessboard of Safhe Shatranj" page. If the HEO indeed becomes available after finishing the quest, then revert accordingly. -->
+** The [[Hidden Exploration Objective]] ''[[Chessboard of Safhe Shatranj]]'' can be started which involves finding every [[Activation Device]] and placing it in the corresponding chess piece.
+* Completing the quest grants the {{Achievement|"If They Had Known the Unseen..."}}
 * After completing this quest:
-**The [[Hidden Exploration Objective]] ''[[Chessboard of Safhe Shatranj]]'' can be started which involves finding every [[Activation Device]] and placing it in the corresponding chess piece.
-**The [[Viewpoint]] ''[[Viewpoint/Safhe Shatranj|Safhe Shatranj]]'' becomes accessible.
-**The previously illegible "Stone Tablets" found throughout the ruins of the [[Desert of Hadramaveth]] become readable.
+** The [[Viewpoint]] [[Viewpoint/Safhe Shatranj|Safhe Shatranj]] becomes accessible.
+** The previously illegible "[[Nameless Tablet|Stone Tablets]]" found throughout the ruins of the Desert of Hadramaveth become readable.
+** [[Liloupar]] abandons her bottle to reunite with her children in Gurabad. However, [[Jinni in the Magic Bottle — Liloupar|her gadget]] still provides the same benefits.
 
 ==Dialogue==
 {{Quest Description|There was a strange vibration in the ancient "training field" which, according to Liloupar, may have something to do with Gurabad's long past...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Liloupar)
 :'''Liloupar:''' ...Be careful. I feel some strange tremors from deep underground.
 :'''Paimon:''' Eh? What did you feel?
@@ -69,11 +75,8 @@
 :{{DIcon}} Shh!
 :{{DIcon}} Liloupar?
 :'''Paimon:''' Wait... Look. She's glowing. Well, differently from normal, anyway...
-
-:'''The Jinni's bottle shimmers, seemingly in tune with the vibration of the chess piece.<br />You can hear the passing of time like drops of water in a prison... It seems to last a lifetime, or perhaps just for a moment.<br />Liloupar doesn't say a word.'''
-
-:'''Then, out of the mist, you see a great city, big, bloated, and cold.<br />The earth opens up, swallowing everything in Gurabad...<br />And there stands its gate, set in the mountain wall. It is loathsome, seeming almost to contain all the filth of the ancient world that somehow escaped the people's gaze...'''
-
+:{{Black Screen|The [[Jinni]]'s bottle shimmers, seemingly in tune with the vibration of the chess piece.<br>You can hear the passing of time like drops of water in a prison... It seems to last a lifetime, or perhaps just for a moment.<br>Liloupar doesn't say a word.}}
+:{{Black Screen|Then, out of the mist, you see a great city, big, bloated, and cold.<br>The earth opens up, swallowing everything in Gurabad...<br>And there stands its gate, set in the mountain wall. It is loathsome, seeming almost to contain all the filth of the ancient world that somehow escaped the people's gaze...}}
 :'''Liloupar:''' That's Gurabad over there. I remember it now.
 :{{DIcon}} My head really hurts...
 :'''Paimon:''' Whoa, what's the matter with you guys... Can't you let Paimon know in advance next time? These surprises are bad for Paimon's heart!
@@ -113,28 +116,22 @@
 :'''Liloupar:''' You ask too many questions, little one.
 :'''Liloupar:''' Strange... It was supposed to be here... Ah, here it is!
 :;(Liloupar tears down part of the cave wall to reveal a larger cavern)
-:'''Liloupar:''' Behold Gurabad. Once, it was swallowed by the very earth itself — now, it lies before you.
+:'''Liloupar:''' Behold Gurabad. Once, it was swallowed by the very earth itself &mdash; now, it lies before you.
 :'''Liloupar:''' Ah. It would seem that this place has some new tenants. Please do get rid of them, my master.
+{{Quest Description|update|You have arrived at the ancient gates of Gurabad, and Liloupar is here to close a chapter of the past...}}
 
 ;(Defeat the Primal Constructs and obtain Liloupar's fragment)
-:'''As the shard of light merges with Liloupar's magic bottle, you feel a little of your own power being pulled away...'''
-
-:'''"Shiruyeh is Khorramdin."<br />Thus says the man in the brass mask.'''
-
-:'''"There will be no heirs to your name. I will do away with the many idols in your temples. I will consign you to your grave, for such does one as despicable as you deserve."<br />Says the man in the brass mask.'''
-
-:'''Through the Jinni's entranced eyes, you bear witness to Gurabad as it is engulfed in darkness...<br />The city of Gurabad has long been a reservoir of water, but now its inhabitants scatter like a torrent.<br />The Jinn, devoid of intellect, pour out from cold machine husks, from the soldiers' weapons... And the scarlet wine, the juice of the pomegranate, bursts forth...'''
-
-:'''The pomegranates are crushed and cracked, and they are trampled into a mass of mud... Plump or withered, rich or humble... The scarlet fruits, with hue and cry, tell of the Khorramdin's coming &mdash; the joy of life and the joy of vengeance.<br />The juice tastes as sweet and mellow as sweet wine, and flows through the city, turning the reservoir into a vast red sea...<br />The sea first drowns the slaves, and then their masters howl as they flounder amidst the roiling waves of night.'''
-
-:'''Finally, you see the brass-masked king. He flees into the shadows &mdash; into Shirin's arms...<br />Her face is old and dim, all traces of life and reason having vanished from it like dust in the night's wind.<br />And then there is King Kisra, who turned into a dark monster... they all are your flesh and blood, yet you rejoice, and you exult in that retribution.'''
-
-:'''O Gurabad, you are mortally stricken, your shame shown to all...<br />All who receive these tidings shall clap and shout for joy...<br />For is there anyone who has not felt your unending tyranny?'''
-
+:{{Black Screen|As the shard of light merges with Liloupar's magic bottle, you feel a little of your own power being pulled away...}}
+:{{Black Screen|"[[Shiruyeh]] is Khorramdin."<br>Thus says the man in the brass mask.}}
+:{{Black Screen|"There will be no heirs to your name. I will do away with the many idols in your temples. I will consign you to your grave, for such does one as despicable as you deserve."<br>Says the man in the brass mask.}}
+:{{Black Screen|Through the Jinni's entranced eyes, you bear witness to Gurabad as it is engulfed in darkness...<br>The city of Gurabad has long been a reservoir of water, but now its inhabitants scatter like a torrent.<br>The Jinn, devoid of intellect, pour out from cold machine husks, from the soldiers' weapons... And the scarlet wine, the juice of the pomegranate, bursts forth...}}
+:{{Black Screen|The pomegranates are crushed and cracked, and they are trampled into a mass of mud... Plump or withered, rich or humble... The scarlet fruits, with hue and cry, tell of the Khorramdin's coming &mdash; the joy of life and the joy of vengeance.<br>The juice tastes as sweet and mellow as sweet wine, and flows through the city, turning the reservoir into a vast red sea...<br>The sea first drowns the slaves, and then their masters howl as they flounder amidst the roiling waves of night.}}
+:{{Black Screen|Finally, you see the brass-masked king. He flees into the shadows &mdash; into [[Shirin]]'s arms...<br>Her face is old and dim, all traces of life and reason having vanished from it like dust in the night's wind.<br>And then there is King [[Parvezravan|Kisra]], who turned into a dark monster... they all are your flesh and blood, yet you rejoice, and you exult in that retribution.}}
+:{{Black Screen|O Gurabad, you are mortally stricken, your shame shown to all...<br>All who receive these tidings shall clap and shout for joy...<br>For is there anyone who has not felt your unending tyranny?}}
 :'''Liloupar:''' "O Gurabad, you are mortally stricken, your shame shown to all..."
 :{{DIcon}} ...
 :{{DIcon}} So...
-:'''Liloupar:''' Ormazd was once the lover of the one called Liloupar. It was by the Jinni's love that he rose from a lowly shepherd to become a king amongst mortals.
+:'''Liloupar:''' [[Ormazd]] was once the lover of the one called Liloupar. It was by the Jinni's love that he rose from a lowly shepherd to become a king amongst mortals.
 :'''Liloupar:''' I once believed that he was no mere mortal companion. Foolishly, I fell for those eyes of his... But the vanity and selfishness that kings are wont to have seized him in the end.
 :'''Liloupar:''' He turned out to be no different from those mortal rulers who live one day and die the next, wandering amidst dreams of conquest and persecution, building their palaces upon quicksand.
 :{{DIcon}} So, you brought him low...
@@ -178,11 +175,8 @@
 :'''Liloupar:''' Generally speaking, the master doesn't choose the Jinni. Instead, the Jinni chooses their master. Even should we part ways here, I doubt our connection will be easily severed.
 :'''Liloupar:''' So... please accept this final gift.
 :'''Liloupar:''' Please... hold me close to your ear once more.
-
-:'''You hold the magic bottle to your ear...<br />There is a chuckle, and you hear someone whispering in your ear in a gentle and delicate language...<br />She speaks of things as unknowable as a deep spring, but you comprehend it all.<br />And at last, the words dissipate, leaving only a cool tingling in your ear...'''
-
-:'''Through her guidance, you have become familiar with the ancient verses...<br />But she speaks no more.'''
-
+:{{Black Screen|You hold the magic bottle to your ear...<br>There is a chuckle, and you hear someone whispering in your ear in a gentle and delicate language...<br>She speaks of things as unknowable as a deep spring, but you comprehend it all.<br>And at last, the words dissipate, leaving only a cool tingling in your ear...}}
+:{{Black Screen|Through her guidance, you have become familiar with the ancient verses...<br>But she speaks no more.}}
 :'''Paimon:''' Eh, look! The light in the bottle has dimmed... Liloupar! Are you alright?
 :'''Paimon:''' Liloupar? Liloupar?
 :'''Liloupar:''' (The light of the bottle fades, then the flickering gradually returns &mdash; but she speaks no more.)
@@ -190,7 +184,13 @@
 :{{DIcon}} Gurabad... It awaits her.
 :'''Paimon:''' Is that how it is... Seems like it really was goodbye... Will we ever see her again...?
 :'''Paimon:''' And uh, should we... go now?
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/c50J7X-1vjA
+|caption1 = Memories of Gurabad Guide
+}}
 
 ==Other Languages==
 {{Other Languages
@@ -199,7 +199,7 @@
 |zhs_rm  = Jū'ěr-chéng de Jìyì
 |zht     = 居爾城的記憶
 |zht_rm  = Jū'ěr-chéng de Jìyì
-|zh_tl   = 
+|zh_tl   = Gurabad's Memories
 |ja      = ジュラバドの記憶
 |ja_rm   = Jurabado no Kioku
 |ja_tl   = Memories of Gurabad
@@ -218,7 +218,7 @@
 |vi      = Ký Ức Của Gurabad
 |vi_tl   = 
 |de      = Erinnerungen an Gurabad
-|de_tl   = 
+|de_tl   = Memories of Gurabad
 |id      = Kenangan Gurabad
 |id_tl   = Memories of Gurabad
 |pt      = Memórias de Gurabad
@@ -226,8 +226,10 @@
 |tr      = Gurabad Hatıraları
 |tr_tl   = 
 |it      = Ricordi di Gurabad
-|it_tl   = 
+|it_tl   = Memories of Gurabad
 }}
 
 ==Change History==
 {{Change History|3.4}}
+
+[[es:Recuerdos de Gurabad]]

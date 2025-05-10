@@ -3,10 +3,12 @@
 |type         = Game Systems
 |group        = Menus
 }}
-'''Settings''' are where one goes to configure various games options, and is accessible from the [[Paimon Menu]]. Settings are globalized on a device, meaning that if another person logs on with the same device they will have the same settings as what the other player already set them to, as settings are device specific.
+'''Settings''' are where one goes to configure various games options, and is accessible from the [[Paimon Menu]]. A limited version can be accessed on the [[Login Menu]] after reaching the door. Settings are globalized on a device, meaning that if another person logs on with the same device they will have the same settings as what the other player already set them to, as settings are device specific.
 
 ==Controls==
 {{Main|Controls}}
+
+===Controls===
 {| class="article-table"
 !Setting
 !Options
@@ -16,13 +18,24 @@
 |-
 |Vibration (Controller Only)
 |
+|}
+
+===Camera===
+{| class="article-table"
+!Setting
+!Options
 |-
-|Camera Sensitivity
-|1-5
+|Horizontal Camera Sensitivity
+|1–5
 |-
-|Camera Sensitivity (Aimed Shot Mode)
-|1-5 (Keyboard/Controller)
-1-8 (Touchscreen)
+|Vertical Camera Sensitivity
+|1–5
+|-
+|Horizontal Camera Sensitivity (Aimed Shot Mode)
+|1–5 (Keyboard/Controller)<br>1–8 (Touchscreen){{Verify|Was Camera sensitivity split into horizontal and vertical on all platforms}}
+|-
+|Vertical Camera Sensitivity (Aimed Shot Mode)
+|1–5 (Keyboard/Controller)<br>1–8 (Touchscreen)
 |-
 |Invert X-axis (Controller Only)
 |
@@ -43,19 +56,18 @@
 |Use the button to switch, Default
 |-
 |Camera Y-Axis Resets Automatically
-| On: The camera's Y-Axis will adjust itself follow that of the terrain, such as by panning up or down when climbing or descending slopes to attempt to give a better view.
-Off: The camera's Y-Axis will not adjust itself when climbing or descending slopes.
+|On: The camera's Y-Axis will adjust itself follow that of the terrain, such as by panning up or down when climbing or descending slopes to attempt to give a better view.<br>Off: The camera's Y-Axis will not adjust itself when climbing or descending slopes.
 |-
 |Combat Camera Settings
-|On: The camera will pan around automatically during combat to give the best cinematic view.
-Off: The camera will not pan around automatically during combat.
+|On: The camera will pan around automatically during combat to give the best cinematic view.<br>Off: The camera will not pan around automatically during combat.
 |-
 |Default Camera Distance
-|Sets the distance the camera defaults to after it has been manually changed and after combat and after teleporting to another waypoint. The further the distance, the further the camera will default to from the character.
+|4.5–6.0: Sets the distance the camera defaults to after it has been manually changed and after combat and after teleporting to another waypoint. The further the distance, the further the camera will default to from the character.{{Verify|values available for pc verify if other platforms have the same}}
 |-
 |Automatic Boat Camera Angle Correction (Sailing)
 |Yes, No, Only active when not in combat
 |}
+{{Verify|settings are split in Controls and Camera categories on pc verify if other platforms follow the same convention}}
 
 ==Key Bindings==
 {{Main|Controls}}
@@ -66,9 +78,9 @@ Off: The camera will not pan around automatically during combat.
 ==Controller Setup==
 {| class="article-table"
 !Setting
-!colspan=2|Options
+!colspan="2"|Options
 |-
-!colspan=3|Combat
+!colspan="3"|Combat
 |-
 |Normal Attack
 |{{key|ps-r2}}, {{key|ps-r1}}, {{key|ps-c}}, {{key|ps-x}}, {{key|ps-s}}, {{key|ps-t}}
@@ -94,7 +106,7 @@ Off: The camera will not pan around automatically during combat.
 |{{key|ps-r2}}, {{key|ps-r1}}, {{key|ps-c}}, {{key|ps-x}}, {{key|ps-s}}, {{key|ps-t}}
 |{{key|xb-rt}}, {{key|xb-rb}}, {{key|xb-b}}, {{key|xb-a}}, {{key|xb-x}}, {{key|xb-y}}
 |-
-!colspan=3|System
+!colspan="3"|System
 |-
 |Confirm / Cancel
 |{{key|ps-x}} Confirm / {{key|ps-c}} Cancel, {{key|ps-c}} Confirm / {{key|ps-x}} Cancel
@@ -102,21 +114,28 @@ Off: The camera will not pan around automatically during combat.
 |}
 
 ==Graphics==
+===Graphics===
 {| class="article-table"
 !Setting
 !Options
 |-
-|Graphics Quality
+|Graphics Quality<ref group="Note" name="loginMenu">Available on the [[Login Menu]].</ref>
 |Lowest, Low, Medium, High, Custom
 |-
 |Display Mode
-|
+|''[Game Resolution]'' (Fullscreen / Borderless / Windowed)
 |-
 |Adjust Brightness
-|
+|(opens previews of [[Mondstadt City]] and [[Ad-Hoc Main Tunnel]] with Darker and Lighter slider)
+|}
+
+===Custom===
+{| class="article-table"
+!Setting
+!Options
 |-
-|FPS
-|24, 30, 45, 60, 120 (depends on framerates compatible with the screen and graphics card)
+|FPS<ref group="Note" name="loginMenu" />
+|24, 30, 45, 60, 120 (depends on framerates compatible with the screen and graphics card, 120 exclusive to select iOS devices)
 |-
 |V-Sync
 |Off, On
@@ -126,6 +145,9 @@ Off: The camera will not pan around automatically during combat.
 |-
 |Shadow Quality
 |Lowest, Low, Medium, High
+|-
+|Global Illumination<ref group="Note" name="loginMenu" />
+|Off, Medium, High, Extreme (some PCs/Console only)
 |-
 |Visual Effects
 |Lowest, Low, Medium, High
@@ -137,15 +159,15 @@ Off: The camera will not pan around automatically during combat.
 |Lowest, Low, Medium, High, Highest
 |-
 |Anti-Aliasing
-|Off, TAA, SMAA (PC/console only)
+|Off, FSR2, SMAA (PC/Console only)
 |-
 |Volumetric Fog
-|Off, On
+|Off, On (Requires Shadow Quality of Medium or above)
 |-
 |Reflections
 |Off, On
 |-
-|Motion Blur
+| Motion Blur
 |Off, Low, High, Extreme (only Off/On in mobile platform)
 |-
 |Bloom
@@ -155,37 +177,66 @@ Off: The camera will not pan around automatically during combat.
 |Low, High
 |-
 |Co-Op Teammate Effects
-|On, Partially Off, Off
+|Off, Partially Off, On
 |-
 |Subsurface Scattering
 |Off, Medium, High
 |-
 |Anisotropic Filtering
 |1x, 2x, 4x, 8x, 16x
+|-
+|Dynamic Character Resolution<ref group="Note" name="loginMenu" />
+|Off, On (not available on all devices)
+|}
+
+===Other Settings===
+{| class="article-table"
+!Setting
+!Options
+|-
+|-
+|Compatibility Mode<ref group="Note" name="loginMenu" />
+|(opens a Hint modal with the following message and buttons to Confirm or Cancel: "After enabling Compatibility Mode, the graphics quality will be adjusted to the minimum settings to improve the game's performance on your current device. Enable Compatibility Mode?")
 |}
 
 ==Audio==
+===Audio Settings===
 {| class="article-table"
 !Setting
 !Options
 |-
 |Volume
-|1-10: Adjusts the overall volume.
+|1–10: Adjusts the overall volume.
+|}
+
+===Audio Balance===
+{| class="article-table"
+!Setting
+!Options
 |-
 |Music Volume
-|1-10:  Adjusts the volume of background music individually.
+|1–10:  Adjusts the volume of background music individually.
 |-
 |Dialogue Volume
-|1-10:  Adjusts the volume of verbal sounds individually.
+|1–10:  Adjusts the volume of verbal sounds individually.
 |-
 |SFX Volume
-|1-10: Adjusts the volume of system sound effects individually.
+|1–10: Adjusts the volume of system sound effects individually.
+|}
+
+===Other Settings===
+{| class="article-table"
+!Setting
+!Options
 |-
 |Dynamic Range
 |Full, Limited
 |-
-|Output Settings
+|Output Settings<ref group="Note" name="loginMenu" />
 |Stereo Sound, Surround Sound
+|-
+|Mute when minimized (PC only)
+|Off, On
 |}
 
 ==Messages==
@@ -201,6 +252,7 @@ Off: The camera will not pan around automatically during combat.
 |}
 
 ==Language==
+===Language===
 {| class="article-table"
 !Setting
 !Options
@@ -216,13 +268,16 @@ Off: The camera will not pan around automatically during combat.
 *French
 *Russian
 *Thai
-*Vietnamese
+* Vietnamese
 *German
 *Indonesian
+*Portuguese
+*Turkish
+*Italian
 |-
 |Voice-Over Language
 |The language that is spoken in audio can be one of the following:
-*Chinese
+* Chinese
 *English
 *Japanese
 *Korean
@@ -230,6 +285,7 @@ Off: The camera will not pan around automatically during combat.
 Select "Manage Voice-Over Files" to Uninstall specific language audio files.
 
 ==Account==
+===Account===
 {| class="article-table"
 !Setting
 !Options
@@ -244,29 +300,61 @@ Select "Manage Voice-Over Files" to Uninstall specific language audio files.
 |Press to proceed: Opens up the privacy policy via the ingame browser.
 |}
 
+==Resources==
+===Quest Resources===
+{| class="article-table"
+!Setting
+!Options
+|-
+|Past Quest Resource Management (Mobile Only)
+|Quest Resource Management: Gives the option to delete audio and video files from past completed quests. Travel Log audio voicelines cannot be played when resources are deleted. Only audio resources can be downloaded from the settings again. When logging in with an account that would need the resources, the player will be returned to the login menu and the game will redownload all needed missing resources.
+|}
+
+===Other===
+{| class="article-table"
+!Setting
+!Options
+|-
+|Verify File Integrity
+|Start Verification: Starts the ingame file integrity check. Takes around 1m 15s on an SSD. Returns "All files verified, no repair needed" on normal completion.
+|}
+
 ==Other==
 {| class="article-table"
 !Setting
 !Options
 |-
-|Mini-Map Settings
-|Rotating: Rotates the Mini-Map where the top is your current view.
-Fixed: Locks the Mini-Map where the top always faces North.
+|[[Mini-Map]] Settings
+|Rotating: Rotates the Mini-Map where the top is your current view.<br>Fixed: Locks the Mini-Map where the top always faces North.
 |-
 |Auto-Play Story
-|On: Automatically scrolls the story dialogue until the option is turned off.
-Off: Does not scroll the story dialogue until the option is turned on.
+|On: Automatically scrolls the story dialogue until the option is turned off.<br>Off: Does not scroll the story dialogue until the option is turned on.
 |-
-|Verify File Integrity
-|Start Verification: Starts the ingame file integrity check. Takes around 1m 15s on an SSD. Returns "All files verified, no repair needed" on normal completion.
+|Auto-Lock 4-Star [[Weapon]]s
+|On, Off
 |-
-|Auto-Lock 4-Star Weapons
+|The background of the Party Setup screen will change based on your current region
+|''See [[Party#Party Setup|Party § Party Setup]] for specific background images used in Party Screen.''
+On: Party Setup screen changes based on your active characters' current location, specifically nation. If your active characters are not situated in a specific nation (e.g. Serenitea Pot or event areas), the "Default" background is displayed instead.
+
+Off: Show "Default" Party Setup screen at all times when accessing Party Setup screen.
+|-
+|Allow Auto Adding 5-Star [[Artifact]]s as Enhancement Materials
+|On, Off
+|-
+|Hide Main Menu
+|On, Off
+|-
+|Highlight recommended affixes on the [[Character/Menu|Character Screen]]
 |On, Off
 |}
 
+==Notes==
+{{Reflist|note=1}}
+
 ==External Links==
-* [https://www.reddit.com/r/Genshin_Impact/comments/j9lmwt/graphics_settings_full_guide/ Graphics Settings Full Guide]
-* [https://www.reddit.com/r/Genshin_Impact/comments/js2i2u/graphics_settings_guide_patch_11/ Graphics Settings Guide Patch 1.1]
+*[https://www.reddit.com/r/Genshin_Impact/comments/j9lmwt/graphics_settings_full_guide/ Graphics Settings Full Guide]
+*[https://www.reddit.com/r/Genshin_Impact/comments/js2i2u/graphics_settings_guide_patch_11/ Graphics Settings Guide Patch 1.1]
 
 ==Change History==
 {{Change History|1.0}}
@@ -276,3 +364,4 @@ Off: Does not scroll the story dialogue until the option is turned on.
 
 [[ja:オプション]]
 [[ru:Настройки]]
+[[vi:Cài Đặt]]

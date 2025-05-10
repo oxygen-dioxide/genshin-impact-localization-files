@@ -4,17 +4,17 @@
 {{Genius Invokation TCG Stages/Detailed|Kamisato Ayaka}}
 
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{DIcon|Idle}} Different from chess games...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Dialogue==
 ===Friendly Fracas===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Kamisato Ayaka)
 :{{A|vo card ayaka invite easy 01.ogg}} '''Kamisato Ayaka:''' I am honored to have the opportunity to exchange techniques with you.
-:{{DIcon}} Let's play Genius Invokation TCG.
-:;(Open Genius Invokation TCG match interface)
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
+:;(Open [[Duel! The Summoners' Summit!/Zero Hour Invokation|Zero Hour Invokation]] interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
 :{{DIcon}} I've got other things to do right now...
@@ -36,13 +36,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card ayaka invite easy 03.ogg}} '''Kamisato Ayaka:''' I'm happy to have played such a good match.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Serious Showdown===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Kamisato Ayaka)
 :{{A|vo card ayaka invite hard 01.ogg}} '''Kamisato Ayaka:''' Hehe, please allow me to learn from your skills.
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG match interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
@@ -65,13 +65,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card ayaka invite hard 03.ogg}} '''Kamisato Ayaka:''' What an astonishing play.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Guest Challenge===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Kamisato Ayaka)
 :{{A|vo card ayaka freetalk 01.ogg}} '''Kamisato Ayaka:''' I've heard that Genius Invokation TCG is a lot of fun and that the cards are exquisitely illustrated. Perhaps they would make good collector's items.
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG challenge interface)
 :{{DIcon}} I've got other things to do right now...
 ::{{A|vo card ayaka leave 01.ogg}} '''Kamisato Ayaka:''' Oh, are you leaving now? Um... would you wait a moment? I'll go with you.
@@ -81,7 +81,39 @@
 
 ;(If the player wins the match)
 :{{A|vo card ayaka endofgame fail 01.ogg}} '''Kamisato Ayaka:''' I admire your impressive card skills.
-{{Dialogue end}}
+{{Dialogue End}}
+
+===Zero Hour Invokation: Secchu Tou===
+{{Dialogue Start}}
+;(Talk to Kamisato Ayaka)
+:{{A|vo card ayaka event invite start 01.ogg}}  '''Kamisato Ayaka:''' We're in a real competition, so please don't feel obliged to go easy on me.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
+:;(Open Zero Hour Invokation interface)
+:{{DIcon}} I've got other things to do right now...
+::{{A|vo card ayaka event invite leave 01.ogg}} '''Kamisato Ayaka:''' I'll be looking into building a more optimal deck. It's a formal competition after all, and I shouldn't make a fool of myself.
+
+;(When the player defeats one of Kamisato Ayaka's Character Cards)
+:{{A|vo card ayaka event ingame 02.ogg}} '''Kamisato Ayaka:''' I see you've improved significantly.
+
+;(When the player defeats two of Kamisato Ayaka's Character Cards)
+:{{A|vo card ayaka event ingame 03.ogg}} '''Kamisato Ayaka:''' It's not over yet...
+
+;(When Kamisato Ayaka defeats one of the player's Character Cards)
+:{{A|vo card ayaka event ingame 01.ogg}} '''Kamisato Ayaka:''' I will not allow myself to fall behind today.
+
+;(When Kamisato Ayaka uses an Elemental Burst)
+:{{A|vo card ayaka event ingame 04.ogg}} '''Kamisato Ayaka:''' I'll finish with... this!
+
+;(If the player loses the match)
+:{{A|vo card ayaka event invite win 01.ogg}} '''Kamisato Ayaka:''' Were you distracted during our match? Hehe, I could tell.
+
+;(If the player wins the match)
+:{{A|vo card ayaka event invite fail 01.ogg}} '''Kamisato Ayaka:''' Phew... I really was beaten by the best.
+{{Dialogue End}}
+
+==Change History==
+{{Change History|3.3}}
 
 ==Navigation==
 {{Genius Invokation TCG Stages Navbox}}
+[[pt-br:Chamado Sagrado dos Sete:Desafios/Kamisato Ayaka]]

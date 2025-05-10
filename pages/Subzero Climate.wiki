@@ -1,22 +1,87 @@
-{{Status Infobox
+{{See also|Sheer Cold}}
+{{Terminology Infobox
+|image    = Subzero Climate.png
 |type     = Climates
-|type2    = Ley Line Disorders
 |area     = Dragonspine
 |region   = Mondstadt
-|domain   = Peak of Vindagnyr
-|domain2  = Spiral Abyss
-|effect   = 
-* Characters in Subzero Climate will continuously accumulate [[Sheer Cold]]. When Sheer Cold reaches its limit, they will start losing HP.
-* Bonfires and other sources of heat will diminish Sheer Cold.
-* Certain conditions like Snowstorms and actions like swimming will accelerate Sheer Cold's accumulation.
-|image    = Subzero Climate.png
 }}
-'''Subzero Climate''' is a climate effect that appears in areas high in {{Cryo}} concentrations, such as [[Dragonspine]]. In Subzero Climate, grass does not burn, and players can gain the [[Sheer Cold]] gauge.
+'''Subzero Climate''' is a [[climate]] that appears in [[Dragonspine]].
 
 Although Subzero Climate is represented with a [[Cryo]] icon, the climate by itself never applies {{Cryo}} to the player or other targets. Targets will be affected by {{Cryo}} only from other sources, such as {{Color|Cryo DMG}}.
 
+==Overview==
+In Subzero Climate, [[grass]] cannot [[Burning|burn]], and players can gain the [[Sheer Cold]] gauge.
+
 ==Sheer Cold==
-{{Transclude|section=1|Sheer Cold|sheercold}}
+{{Transclude|Sheer Cold|Overview|main=1|top=1}}
+
+===Accumulation Rate and Modifiers===
+The base accumulation rate of Sheer Cold in Subzero Climates is 1% per second.
+
+{{Transclude|Sheer Cold|Modifiers}}
+
+===Depletion===
+====Sources of Warmth====
+Sources of warmth are the primary method for depleting the Sheer Cold gauge. Standing near them provides a buff every '''0.5s''' that lasts '''1s''' and reduces the Sheer Cold gauge. 
+{{Transclude|Sheer Cold|Subzero Climate|lua=1}}
+
+As campfires and torches are not always lit or need to be relit, it is essential for a Pyro Bow user like [[Amber]] to be available. Other good characters to also have on hand are Pyro Catalyst users, as both types do not require their Elemental Skills to apply Pyro. This can make a difference in Subzero Climate when a fire needs to be ignited in a timely manner.
+
+====Scarlet Quartz====
+{{Transclude|Sheer Cold|Scarlet Quartz}}
+
+====Leaving the Area====
+{{Transclude|Sheer Cold|Leaving the Area}}
+
+===HP Loss===
+[[HP Loss]] occurs while the Sheer Cold gauge is full. It is unaffected by the conditions that increase and decrease the Sheer Cold accumulation rate. The HP Loss only stops once the Sheer Cold gauge is no longer full.
+
+{{Transclude|Sheer Cold|Subzero Climate 2|lua=1}}
+
+==Lore==
+The subzero climate on Dragonspine is tied to the [[Skyfrost Nail]] that descended there. It is implied that the damage caused to the [[Ley Lines]] in the area from the Skyfrost Nail's descent is the reason for the abnormally cold temperatures.<!-- far too many sources, none of which clearly state or can be put together to get a clear picture of cause and effect -->
+
+==Description==
+{{Description|'''Subzero Climate...'''
+* Characters in Subzero Climate will continuously accumulate [[Sheer Cold]]. When Sheer Cold reaches its limit, they will start losing HP.
+* Bonfires and other sources of heat will diminish Sheer Cold.
+* Certain conditions like Snowstorms and actions like swimming will accelerate Sheer Cold's accumulation.}}
+
+==Other Languages==
+{{Other Languages
+|en      = Subzero Climate
+|zhs     = 极寒环境
+|zhs_rm  = Jíhán Huánjìng
+|zht     = 極寒環境
+|zht_rm  = Jíhán Huánjìng
+|zh_tl   = Extreme Cold Climate
+|ja      = 極寒環境
+|ja_rm   = Gokkan Kankyou
+|ja_tl   = Extreme Cold Climate
+|ko      = 혹한 환경
+|ko_tl   = 
+|es      = Clima glacial
+|es_tl   = Icy Climate
+|fr      = Chute de température
+|fr_tl   = Temperature Drop
+|ru      = Холодный климат
+|ru_tl   = Cold Climate
+|th      = สภาพแวดล้อมที่เย็นยะเยือก
+|th_rm   = 
+|th_tl   = 
+|vi      = Môi Trường Cực Hàn
+|vi_tl   = 
+|de      = Extrem kalte Umgebung
+|de_tl   = Extremely Cold Environment
+|id      = Area Subzero
+|id_tl   = Subzero Area
+|pt      = Clima Glacial
+|pt_tl   = 
+|tr      = Soğuk İklim
+|tr_tl   = Cold Climate
+|it      = Clima glaciale
+|it_tl   = 
+}}
 
 ==Change History==
 {{Change History|1.2}}

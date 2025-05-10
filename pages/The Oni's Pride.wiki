@@ -1,5 +1,5 @@
 {{Quest Infobox
-|id            = 12026
+|id            = 12026; 12027
 |image         = Story Quest Arataki Itto A1 The Oni's Pride.png
 |type          = Story
 |chapter       = Taurus Iracundus Chapter
@@ -15,14 +15,11 @@
 |subarea       = Fort Fujitou
 |prev          = The Oni's Justice
 |next          = 
-|exp           = 700
-|primogems     = 60
-|mora          = 44,000
-|other         = {{Card|Guide to Elegance|5}}{{Card|Hero's Wit|5}}{{Card|Mystic Enhancement Ore|10}}
+|rewards       = Adventure EXP*700;Primogem*60;Mora*44,000;Guide to Elegance*5;Hero's Wit*5;Mystic Enhancement Ore*10
 |characters    = Aka <!-- cinematic -->; Ao <!-- cinematic -->; Akira; Arataki Itto; Daisuke; Genta; Granny Oni; Ishizaki; Paimon; Mamoru; Masato; Misuzu; Nogata; Sugimoto; Takuya; Traveler
 |voiced        = yes
 }}
-'''The Oni's Pride''' is the third and final part of [[Arataki Itto]]'s [[Story Quest]] [[Taurus Iracundus Chapter]]: Act I - [[Rise Up, Golden Soul]].
+'''The Oni's Pride''' is the third and final part of {{Quest|Rise Up, Golden Soul}}.
 
 ==Steps==
 # Go to check on the victim
@@ -32,11 +29,11 @@
 #* {{Enemy|Nobushi: Hitsukeban|x=2}}
 #* {{Enemy|Nobushi: Jintouban|x=3}}
 # Talk to the Blue Oni
-# Defeat the Tenryou Commission members
+# Defeat the [[Tenryou Commission]] members
 #* {{Enemy|Shogunate Infantry Captain|x=1|text=Ishizaki}}
 #* {{Enemy|Shogunate Infantry|x=2}}
 #* You control only Arataki Itto for this fight.
-#* Ishizaki will summon more Shogunate Infantries until you defeat him.
+#* [[Ishizaki]] will summon more Shogunate Infantries until you defeat him.
 # Square off against the Tenryou Commission members
 # Follow the footprints and chase Takuya
 # Search for Takuya's trail
@@ -58,17 +55,21 @@
 
 ==Trial Character==
 {{Trial Character
-|wl                     = 5, 8
+|wl                      = 5, 6, 8
 
 |character_name          = Arataki Itto
 |character_level5        = 71
+|character_level6        = 82
 |character_level8        = 90
 |constellation5          = 3
+|constellation6          = 3
 |constellation8          = 3
 |weapon_name             = Redhorn Stonethresher
 |weapon_level5           = 71
+|weapon_level6           = 82
 |weapon_level8           = 90
 |refinement5             = 1
+|refinement6             = 1
 |refinement8             = 1
 |artifact_flower         = Royal Flora
 |artifact_feather        = Royal Plume
@@ -76,37 +77,48 @@
 |artifact_goblet         = Royal Silver Urn
 |artifact_circlet        = Royal Masque
 |artifact_level5         = 16
+|artifact_level6         = 20
 |artifact_level8         = 20
 |set1                    = Noblesse Oblige
 |set1_piece_bonus        = 4
 |normal_attack_talent5   = 5
+|normal_attack_talent6   = 6
 |normal_attack_talent8   = 8
 |elemental_skill_talent5 = 8
+|elemental_skill_talent6 = 9
 |elemental_skill_talent8 = 11
 |elemental_burst_talent5 = 5
+|elemental_burst_talent6 = 6
 |elemental_burst_talent8 = 8
 |hp5                     = 20,732
+|hp6                     = 25,725
 |hp8                     = 26,862
 |atk5                    = 1,336
+|atk6                    = 1,597
 |atk8                    = 1,665
 |def5                    = 1,109
+|def6                    = 1,319
 |def8                    = 1,395
 |em5                     = 42
+|em6                     = 105
 |em8                     = 105
 |er5                     = 135.0%
+|er6                     = 135.0%
 |er8                     = 135.0%
 |crit_rate5              = 66.2%
+|crit_rate6              = 76.3%
 |crit_rate8              = 76.3%
 |crit_dmg5               = 164.6%
+|crit_dmg6               = 172.4%
 |crit_dmg8               = 180.1%
 }}
 
 ==Dialogue==
 {{Quest Description|After [[Daisuke]] points out the inconsistencies in his story, Arataki Itto is forced to reveal to you that he is currently acting to protect the blue oni. To ascertain the truth, you agree to set out with Itto once again.}}
-{{Dialogue start}}
-;(Upon reaching Masato at the Watatsumi Army camp at [[Fort Fujitou]])
+{{Dialogue Start}}
+;(Upon reaching Masato at the [[Watatsumi Army]] camp at [[Fort Fujitou]])
 :{{A|vo ydlq003 1 itto 01.ogg}} '''Arataki Itto:''' Yo! You must be Masato?
-:{{A|vo ydlq003 1 masato 01.ogg}} '''Masato:''' A&mdash;An oni!? Oh no, not another one...
+:{{A|vo ydlq003 1 masato 01.ogg}} '''Masato:''' A&mdash;An [[oni]]!? Oh no, not another one...
 :{{A|vo ydlq003 1 itto 02.ogg}} '''Arataki Itto:''' Oh &mdash; uh, yeah, not the one that robbed you though. So chill. I contacted you before, remember? I need your help.
 :{{A|vo ydlq003 1 masato 02.ogg}} '''Masato:''' Oh, right... Sorry, I'm still a bit on edge after the incident. Ahem, so anyway here's what happened. I was just out transporting some goods when a group of ronin suddenly attacked me.
 :{{A|vo ydlq003 1 masato 03.ogg}} '''Masato:''' It's not the first time that's happened to me. Usually, you just hand over some Mora and they'll leave you alone. At least you don't lose your goods that way.
@@ -122,16 +134,16 @@
 :{{A|vo ydlq003 1 masato 10.ogg}} '''Masato:''' Luckily, they let me escape with my life in the end, and I scrambled to get myself here, where I'd be safe. *sigh* I never want to set foot outside of here again.
 :{{A|vo ydlq003 1 itto 03.ogg}} '''Arataki Itto:''' So he'll steal, but he won't harm people. Hmph, seems he has some sort of standards.
 :{{A|vo ydlq003 1 itto 04.ogg}} '''Arataki Itto:''' Did he say why they were robbing you?
-:{{A|vo ydlq003 1 masato 11.ogg}} '''Masato:''' ...Surely it was Mora, right? What else could they have wanted with me?
+:{{A|vo ydlq003 1 masato 11.ogg}} '''Masato:''' ...Surely it was [[Mora]], right? What else could they have wanted with me?
 :{{A|vo ydlq003 1 masato 12.ogg}} '''Masato:''' I mean, I can't say for sure. It's not like I asked... But what I did hear them say was, "The goods are worth more than the merchant's life," or something like that.
 :{{A|vo ydlq003 1 itto 05.ogg}} '''Arataki Itto:''' Ugh, that idiot oni...
 :{{A|vo ydlq003 1 itto 06.ogg}} '''Arataki Itto:''' Do you have any idea where they went after they robbed you?
-:{{A|vo ydlq003 1 masato 13.ogg}} '''Masato:''' I have no clue, but I think they're pretty active in the Tatarasuna area.
+:{{A|vo ydlq003 1 masato 13.ogg}} '''Masato:''' I have no clue, but I think they're pretty active in the [[Tatarasuna]] area.
 :{{A|vo ydlq003 1 masato 14.ogg}} '''Masato:''' You aren't gonna go after them, are you? Seriously, I'd advise against it... There are too many of them, and they're all heavily armed.
 :{{A|vo ydlq003 1 itto 07.ogg}} '''Arataki Itto:''' Ah, don't worry, it's just a bunch of no-name scumbags. I got a whole laundry list of scores to settle with them.
 :{{A|vo ydlq003 1 itto 08.ogg}} '''Arataki Itto:''' If these two islands are where they tend to hang around, we're sure to run into them at {{Color|buzzword|Nazuchi Beach}} sooner or later.
 
-;(Talk to Masato again)
+;(Talk to Masato again, optional)
 :{{A|vo dialog ydlq003 masato 01.ogg}} '''Masato:''' I still think you should leave it alone... they're too dangerous.
 :{{A|vo dialog ydlq003 masato 02.ogg}} '''Masato:''' Never mind the goods, I'm lucky just to have escaped with my life.
 
@@ -141,9 +153,7 @@
 :{{A|vo ydlq003 3 itto 01.ogg}} '''Arataki Itto:''' They gotta pass through here some time. So let's just hang tight for a while.
 :{{A|vo ydlq003 3 itto 02.ogg}} '''Arataki Itto:''' If I'm not mistaken, they'll be showing up any time now.
 :{{A|vo ydlq003 3 paimon 01.ogg}} '''Paimon:''' Yeah, things might get a little rough, so we'd better be prepared.
-
-:'''''After you wait for a while, the suspicious people finally emerge.'''''
-
+:{{Black Screen|''After you wait for a while, the suspicious people finally emerge.''}}
 :{{A|vo ydlq003 3 paimon 02.ogg}} '''Paimon:''' Oh, here they come!
 :{{A|vo ydlq003 3 itto 03.ogg}} '''Arataki Itto:''' Yeah, there they are. And one of them has horns.
 :{{A|vo ydlq003 3 itto 04.ogg}} '''Arataki Itto:''' Alright, it's go time. Let's get 'em!
@@ -167,7 +177,7 @@
 :{{A|vo ydlq003 5 takuya 06.ogg}} '''Takuya:''' Heh, who are you to talk about pride and oaths with me?
 :{{A|vo ydlq003 5 takuya 07.ogg}} '''Takuya:''' The blue oni gave up everything! Just so the crimson oni could live peacefully in human society!
 :{{A|vo ydlq003 5 takuya 08.ogg}} '''Takuya:''' But let me ask you, Arataki Itto, what exactly do you contribute to human society?
-:{{A|vo ydlq003 5 takuya 09.ogg}} '''Takuya:''' You're a blundering fool who can't hold down a real job, a laughingstock of the town, and worse still, you let them get your Vision during the Vision Hunt Decree. Protecting the oni pride? Hah! You wouldn't know how if you tried!
+:{{A|vo ydlq003 5 takuya 09.ogg}} '''Takuya:''' You're a blundering fool who can't hold down a real job, a laughingstock of the town, and worse still, you let them get your [[Vision]] during the [[Vision Hunt Decree]]. Protecting the oni pride? Hah! You wouldn't know how if you tried!
 :{{A|vo ydlq003 5 takuya 10.ogg}} '''Takuya:''' You're a disgrace to the oni kind!
 :{{A|vo ydlq003 5 itto 07.ogg}} '''Arataki Itto:''' Hey, come on, none of that stuffs a big deal, I mean... heh, y&mdash;you're, uh, really hangin' me out to dry here, man...
 :{{A|vo ydlq003 5 takuya 11.ogg}} '''Takuya:''' Since when do you care what other people think? You just do whatever you want. It's not like anyone can stop you.
@@ -215,9 +225,9 @@
 :{{A|vo ydlq003 7 itto 04.ogg}} '''Arataki Itto:''' All that would do is send them after our blue oni friend instead. But, I have to settle things with him first, man to man!
 :{{A|vo ydlq003 7 paimon 01.ogg}} '''Paimon:''' Then what should we do!? The Tenryou Commission's about to arrest you!
 :{{A|vo ydlq003 7 itto 05.ogg}} '''Arataki Itto:''' Ugh, no choice but to keep kicking some Tenryou butt!
-:{{A|vo ydlq003 7 akira 01.ogg}} '''Akira:''' Hey Boss! Thought you'd have all the fun without us, huh?
-:{{A|vo ydlq003 7 genta 01.ogg}} '''Genta:''' Granny Oni sent us. We're here to lend a hand!
-:{{A|vo ydlq003 7 mamoru 01.ogg}} '''Mamoru:''' Maybe we can't take 'em, but we can sure slow 'em down. Now's your chance &mdash; go!
+:{{A|vo ydlq003 7 akira 01.ogg}} '''[[Akira]]:''' Hey Boss! Thought you'd have all the fun without us, huh?
+:{{A|vo ydlq003 7 genta 01.ogg}} '''[[Genta]]:''' Granny Oni sent us. We're here to lend a hand!
+:{{A|vo ydlq003 7 mamoru 01.ogg}} '''[[Mamoru]]:''' Maybe we can't take 'em, but we can sure slow 'em down. Now's your chance &mdash; go!
 :{{A|vo ydlq003 7 itto 06.ogg}} '''Arataki Itto:''' Hey! I told you to stay outta this one!
 :{{A|vo ydlq003 7 akira 02.ogg}} '''Akira:''' Well, we're in it now. C'mon, there's no time!
 :{{A|vo ydlq003 7 genta 02.ogg}} '''Genta:''' Go do what you gotta do, Boss!
@@ -229,10 +239,8 @@
 :{{A|vo ydlq003 7 genta 03.ogg}} '''Genta:''' Run for it, Boss!
 
 ----
-
-:'''''You manage to escape with the help of Arataki's gang'''''
-
-:{{A|vo ydlq003 8 itto 01.ogg}} '''Arataki Itto:''' As boss of the Arataki Gang, being rescued by my own boys feels... pretty humiliating.
+:{{Black Screen|''You manage to escape with the help of Arataki's gang''}}
+:{{A|vo ydlq003 8 itto 01.ogg}} '''Arataki Itto:''' As boss of the [[Arataki Gang]], being rescued by my own boys feels... pretty humiliating.
 :{{A|vo ydlq003 8 itto 02.ogg}} '''Arataki Itto:''' I promise never to let you down, boys! Alright, we got some footprints to follow. Let's find Takuya!
 :{{A|vo ydlq003 8 paimon 01.ogg}} '''Paimon:''' It was real touching and all, what they did, but those few guys weren't much of a gang...
 :{{A|vo ydlq003 8 itto 03.ogg}} '''Arataki Itto:''' Hey, it takes Mora to run a gang, okay? They're all I got for now.
@@ -284,16 +292,14 @@
 ;(Upon reaching the room with the imprisoned hostages)
 :{{A|vo ydlq003 15 paimon 01.ogg}} '''Paimon:''' Huh! Look at all the people locked up in here!
 :{{A|vo ydlq003 15 itto 01.ogg}} '''Arataki Itto:''' They must be holding onto them for leverage. Alright, let's get them out of here.
-
-:'''''You free everyone inside.'''''
-
+:{{Black Screen|''You free everyone inside.''}}
 :{{A|vo ydlq003 16 paimon 01.ogg}} '''Paimon:''' Alright, you're all free to go now! Quick, get to safety!
-:{{A|vo ydlq003 16 misuzu 01.ogg}} '''Misuzu:''' Sorry, but have you seen our little boy? We're awfully worried about him!
-:{{A|vo ydlq003 16 sugimoto 01.ogg}} '''Sugimoto:''' Calm down, dear. We don't even know if he was taken here or not.
+:{{A|vo ydlq003 16 misuzu 01.ogg}} '''[[Misuzu]]:''' Sorry, but have you seen our little boy? We're awfully worried about him!
+:{{A|vo ydlq003 16 sugimoto 01.ogg}} '''[[Sugimoto]]:''' Calm down, dear. We don't even know if he was taken here or not.
 :{{A|vo ydlq003 16 misuzu 02.ogg}} '''Misuzu:''' B&mdash;but... Oh, my little Daisuke...
 :{{A|vo ydlq003 16 paimon 02.ogg}} '''Paimon:''' Oh, you must be Daisuke's parents!
 :{{A|vo ydlq003 16 misuzu 03.ogg}} '''Misuzu:''' Yes, that's right! Have you seen him? Where is he? Is he all right?
-:{{A|vo ydlq003 16 itto 01.ogg}} '''Arataki Itto:''' Don't worry, he's safe and sound. Someone's looking after him now on Yashiori Island. Here, lemme show you on the map.
+:{{A|vo ydlq003 16 itto 01.ogg}} '''Arataki Itto:''' Don't worry, he's safe and sound. Someone's looking after him now on [[Yashiori Island]]. Here, lemme show you on the map.
 :{{A|vo ydlq003 16 itto 02.ogg}} '''Arataki Itto:''' He's been worried about you, I bet he'll be relieved to see you.
 :{{A|vo ydlq003 16 misuzu 04.ogg}} '''Misuzu:''' You were the one who saved him? Oh, thank you, thank you!
 :{{DIcon}} He's the one you should be thanking.
@@ -325,7 +331,7 @@
 ;(Upon reaching the final room)
 :{{A|vo ydlq003 17 itto 01.ogg}} '''Arataki Itto:''' This is the place. The jig's up, surrender while you can!
 
-;(After defeating the Nobushi and Nogata)
+;(After defeating the Nobushi and [[Nogata]])
 :{{A|vo ydlq003 18 nogata 01.ogg}} '''Nogata:''' Bet you think you've won, don't ya?
 :{{A|vo ydlq003 18 nogata 02.ogg}} '''Nogata:''' Haha, so naive! This is my home turf!
 :{{A|vo ydlq003 18 nogata 03.ogg}} '''Nogata:''' I'll let you in on a little secret. A long time ago, I picked up this rare paper charm. It's very precious to me.
@@ -381,14 +387,15 @@
 :{{A|vo ydlq003 18 itto 16.ogg}} '''Arataki Itto:''' Fate hasn't been kind to the oni? Well then, let's tear it up and start over!
 :{{A|vo ydlq003 18 itto 17.ogg}} '''Arataki Itto:''' But before any of that can happen, you need to get yourself behind me and forget about all of that self-sacrifice stuff!
 :{{A|vo ydlq003 18 itto 18.ogg}} '''Arataki Itto:''' Now, let's go. But we're not done talking about this. Takuya!!!
+{{Cutscene Description|Takuya is shaken by Itto's words and fails to notice the now-conscious Nogata. Nogata lunges at Takuya to snatch the paper charm and it is torn in the struggle, resulting in a massive explosion. As it looks like the place is going to collapse, Itto yells at you to save the other people before charging towards Takuya.}}
 ;(Cutscene plays)
 ::'''Arataki Itto:''' I'll take care of this
 ::'''Arataki Itto:''' There are still people in danger
 ::'''Arataki Itto:''' Go, help them!
 ::'''Paimon:''' But...!
 ::'''Arataki Itto:''' Hey, I got this!
-::'''Ishizaku:''' Come on!
-:;(Paimon, Traveler, Ishizaku and the other Tenryou Commission members flee the hideout)
+::'''Ishizaki:''' Come on!
+:;(Paimon, Traveler, Ishizaki and the other Tenryou Commission members flee the hideout)
 ::'''Takuya:''' Forget about me!
 ::'''Takuya:''' Just go!
 ::'''Takuya:''' It's what I deserve...
@@ -417,7 +424,7 @@
 :{{A|vo ydlq003 19 takuya 04.ogg}} '''Takuya:''' The blue oni disappeared so that they wouldn't bring trouble to the crimson oni. If I came to you for help, wouldn't that just undo everything the blue oni have done?
 :{{A|vo ydlq003 19 itto 08.ogg}} '''Arataki Itto:''' Not to me! I've always respected the blue oni for their sacrifice. Nothing they did was in vain.
 :{{A|vo ydlq003 19 itto 09.ogg}} '''Arataki Itto:''' It's only because of them that we have survived to see today, and built a world where oni and humans can live side by side.
-:{{A|vo ydlq003 19 itto 10.ogg}} '''Arataki Itto:''' Honestly, everything that I have now, II owe to the blue oni. And lemme tell you, the Inazuma of today wouldn't see you as a villain just because of the color of your horns.
+:{{A|vo ydlq003 19 itto 10.ogg}} '''Arataki Itto:''' Honestly, everything that I have now, I owe to the blue oni. And lemme tell you, the Inazuma of today wouldn't see you as a villain just because of the color of your horns.
 :{{A|vo ydlq003 19 takuya 05.ogg}} '''Takuya:''' You say all that, but... in spite of everything, you're barely getting by...
 :{{A|vo ydlq003 19 itto 11.ogg}} '''Arataki Itto:''' Hahaha, that's just how I roll, man.
 :{{A|vo ydlq003 19 itto 12.ogg}} '''Arataki Itto:''' You remember the pact, don't ya? We're not supposed to suck up to the humans. We're supposed to earn their respect.
@@ -427,7 +434,7 @@
 :{{A|vo ydlq003 19 itto 16.ogg}} '''Arataki Itto:''' You wanna talk about pride? Well, in our gang, we're proud to welcome anyone who's been through adversity with open arms.
 :{{A|vo ydlq003 19 takuya 06.ogg}} '''Takuya:''' But... I...
 :{{A|vo ydlq003 19 itto 17.ogg}} '''Arataki Itto:''' Ah, don't worry! The Arataki Gang's already a bunch of misfits. You really think you could cramp our style?
-:{{A|vo ydlq003 19 ishizaki 01.ogg}} '''Ishizaki:''' We've dealt with the Kairagi and the people they took captive. I assume the two of you are finished talking?
+:{{A|vo ydlq003 19 ishizaki 01.ogg}} '''Ishizaki:''' We've dealt with the [[Kairagi]] and the people they took captive. I assume the two of you are finished talking?
 :{{A|vo ydlq003 19 ishizaki 02.ogg}} '''Ishizaki:''' Takuya, based on the findings of our investigation... I hereby announce that you are officially under arrest for forceful seizure of people and property. Please do not attempt to resist.
 :{{A|vo ydlq003 19 ishizaki 03.ogg}} '''Ishizaki:''' All stolen articles will be reclaimed. That means we'll be seizing all the goods you passed on to your kin.
 :{{A|vo ydlq003 19 takuya 07.ogg}} '''Takuya:''' N&mdash;No, please don't! Without those goods, they'll...
@@ -458,22 +465,20 @@
 
 ----
 ;(Approach Granny Oni)
-
-:'''''You tell Granny Oni everything that happened to you along the way.'''''
-
+:{{Black Screen|''You tell Granny Oni everything that happened to you along the way.''}}
 :{{A|vo ydlq003 20 onibaaya 01.ogg}} '''Granny Oni:''' Ahh yes, that does sounds like my Itto.
 :{{A|vo ydlq003 20 daisuke 01.ogg}} '''Daisuke:''' So... did they take Uncle Itto away?
 :{{A|vo ydlq003 20 misuzu 01.ogg}} '''Misuzu:''' Yes, they did. But don't be too upset, Daisuke. We will have the chance to see him again.
 :{{A|vo ydlq003 20 misuzu 02.ogg}} '''Misuzu:''' He and his gang may have acted recklessly, but the fact remains that he still helped us.
 :{{A|vo ydlq003 20 daisuke 02.ogg}} '''Daisuke:''' Yeah, I knew it! Uncle Itto helped us, and he's awesome!
 :{{A|vo ydlq003 20 onibaaya 02.ogg}} '''Granny Oni:''' Now don't get any ideas, Daisuke. Itto is a far cry from "awesome." He still caused a lot of trouble for a lot of people.
-:{{A|vo ydlq003 20 onibaaya 03.ogg}} '''Granny Oni:''' If you ask me, I'd say he's like one of those little Onikabuto you kids are playing with all the time.
+:{{A|vo ydlq003 20 onibaaya 03.ogg}} '''Granny Oni:''' If you ask me, I'd say he's like one of those little [[Onikabuto]] you kids are playing with all the time.
 :{{A|vo ydlq003 20 onibaaya 04.ogg}} '''Granny Oni:''' Though he looks fierce on the outside, he has a kind heart. He's not a delinquent, but he will never back down from a fight.
 :{{A|vo ydlq003 20 daisuke 03.ogg}} '''Daisuke:''' Uh, I don't really get it, but it sounds like a compliment. I can't wait for my next beetle fight with Uncle Itto!
 :{{A|vo ydlq003 20 sugimoto 01.ogg}} '''Sugimoto:''' Thank you, Granny, for taking care of our little boy. I hope that Itto and his friends will be released as quickly as possible.
 :{{A|vo ydlq003 20 onibaaya 05.ogg}} '''Granny Oni:''' Yes, you needn't worry. The officials in the Tenryou Commission will certainly exercise sound judgment.
 :{{A|vo ydlq003 20 sugimoto 02.ogg}} '''Sugimoto:''' It's time we started heading back. We'll be sure to visit again soon.
-;(Sugimoto, Daisuke, Misuzu leave)
+;(Sugimoto, Daisuke, and Misuzu leave)
 :{{A|vo ydlq003 20 onibaaya 06.ogg}} '''Granny Oni:''' Ah, I'm glad that everything was resolved in the end. Things were looking quite dire, but now the future looks bright. Wonderful, wonderful.
 :{{A|vo ydlq003 20 onibaaya 07.ogg}} '''Granny Oni:''' As for the blue oni, just leave them to me. If there's one thing an old granny like myself can do, it's caring for others.
 :{{A|vo ydlq003 20 paimon 01.ogg}} '''Paimon:''' Do you need our help?
@@ -485,7 +490,7 @@
 :{{A|vo ydlq003 20 onibaaya 12.ogg}} '''Granny Oni:''' Back when I took him in, everyone thought I was most unusual indeed. They started calling me Granny Oni.
 :{{A|vo ydlq003 20 onibaaya 13.ogg}} '''Granny Oni:''' But I've never been ashamed of this name. On the contrary, I'm quite proud of it.
 :{{A|vo ydlq003 20 onibaaya 14.ogg}} '''Granny Oni:''' Because Itto is my pride and joy.
-
+{{Cutscene Description|The Crimson Oni greatly missed his friend, the Blue Oni, after the latter's departure. He scaled mountains, crossed rivers, and he searched everywhere before finally discovering the Blue Oni's trail. Knowing that his friend was trying to hide from him, the Crimson Oni left a letter inviting the Blue Oni to join a meeting of friends, saying that he didn't need to show his face. After much thought, the Blue Oni eventually decided to go. Watching the warm bonfire from afar, he was at once comforted and envious... At this moment, the Crimson Oni appeared behind him. After all, this was a meeting of the Crimson Oni's friends &mdash; and what sort of meeting would that be without his best friend?}}
 ;(A [[#Cinematic|cinematic]] starts)
 ::A long, long time ago, in a village lost to time
 ::There lived a crimson oni and a blue oni
@@ -519,11 +524,14 @@
 ;(Talk to Granny Oni again after the quest ends)
 :{{A|vo dialog ydlq003 onibaaya 01.ogg}} '''Granny Oni:''' Just leave everything to me now.
 :{{A|vo dialog ydlq003 onibaaya 02.ogg}} '''Granny Oni:''' It looks like Granny Oni's about to get a few more oni to look after.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Gallery==
 <gallery>
-Story Teaser- The Reunion of Best Friends - Genshin Impact
+Story Teaser - The Reunion of Best Friends - Genshin Impact
 </gallery>
 
 ==Other Languages==
@@ -570,3 +578,5 @@ Story Teaser- The Reunion of Best Friends - Genshin Impact
 {{Reflist}}-->
 
 [[es:El orgullo de un oni]]
+[[pt-br:Orgulho Oni]]
+[[vi:Kiêu Hãnh Của Quỷ]]

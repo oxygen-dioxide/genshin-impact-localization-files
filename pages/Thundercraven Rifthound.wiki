@@ -43,22 +43,25 @@
 |electro_res2 = -40%
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |enemy = Electro Rifthound
 
 |name_1 = Corrosion
 |desc_1 = All of the Thundercraven Rifthound's attacks apply [[Corrosion]] on hit.
 
-|name_2 = Bite
+|name_2 = Devouring Bite
+|file_2 = Electro Rifthound Bite
 |desc_2 = Backs away and readies itself to lunge at the player and bite, dealing '''90% ATK''' as {{Color|Electro DMG}}.
 
-|name_3 = Double Swipe
+|name_3 = Cankering Claws
+|file_3 = Electro Rifthound Double Swipe
 |desc_3 = Swipes at the player twice with its claws, dealing '''85% ATK''' {{Color|Electro DMG}} with each swipe.
 
-|name_4 = Tail Shot
-|desc_4 = If the player is far away, the Rifthound generates a spinning projectile on its tail before launching it towards them, dealing '''95% ATK''' {{Color|Electro DMG}} on hit.
+|name_4 = Corrosive Electro Glaive
+|file_4 = Electro Rifthound Tail Shot
+|desc_4 = If the player is far away, the Rifthound generates a spinning electro crystal glaive on its tail before launching it towards them, dealing '''95% ATK''' {{Color|Electro DMG}} on hit.
 
 |name_5 = Tail Swipe
 |desc_5 = Teleports behind the player and swipes with its tail, dealing '''100% ATK''' as {{Color|Electro DMG}}.
@@ -67,7 +70,8 @@
 |desc_6 = Gains '''20%''' [[Fury]] whenever it takes {{Color|Electro DMG}}. (Not including DMG from [[Electro-Charged]]) When full, the Rifthound gains enhanced attacks at the cost of lower {{Color|Electro [[Resistance|RES]]}}.
 |file_6 = Electro Rifthound Elemental Devour
 
-|name_7 = Charge
+|name_7 = Pursuer's Mark
+|file_7 = Electro Rifthound Charge
 |desc_7 = Quickly lunges at the player 2–4 times, dealing '''85% ATK''' as {{Color|Electro DMG}} on hit. This attack is only performed while the Rifthound is in the Elemental Devourer state.
 
 |name_8 = Roar
@@ -75,19 +79,61 @@
 }}
 
 ===AI Logic===
-{{Transclude|Rockfond Rifthound|AI Logic}}
+{{See also|Cooldown#Enemy Cooldowns}}
+* An ability will only be used if all of the following conditions have been met:
+** The ability is not on cooldown
+** The target is within the range required by the ability
+** The ability has the highest priority out of all that meet the previous 2 conditions
+*** A lower priority number indicates a higher priority.
+*** If multiple abilities share the highest priority, one will be chosen at random.
+
+{| class="wikitable"
+! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Initial CD (s)
+|-
+| rowspan="6" | Normal || Devouring Bite || 1–7.5 || 3 || 9.5–11.5 || &mdash;
+|-
+| Cankering Claws || 0–4.5 || 3 || 10.5–11.5 || &mdash;
+|-
+| Corrosive Electro Glaive || 7.5–22.5 || 3 || 12.5–15.5 || 20
+|-
+| Tail Swipe (Close) || 0–7.5 || 4 || 18.5–22.5 || 2–7
+|-
+| Tail Swipe (Medium) || 7.5–15.5 || 2 || 14.5–18.5 || 2–7
+|-
+| Tail Swipe (Far) || 15.5–25.5 || 3 || 8.5–12.5 || 2–5
+|-
+| rowspan="7" | Elemental Devourer || Devouring Bite || 1–7.5 || 4 || 7.5–9.5 || &mdash;
+|-
+| Cankering Claws || 0–4.5 || 4 || 7.5–8.5 || &mdash;
+|-
+| Corrosive Electro Glaive || 7.5–22.5 || 2 || 10–13 || 5
+|-
+| Tail Swipe (Close) || 0–7.5 || 4 || 16.5–20.5 || 2–7
+|-
+| Tail Swipe (Medium) || 7.5–15.5 || 2 || 12.5–16.5 || 2–7
+|-
+| Tail Swipe (Far) || 15.5–25.5 || 3 || 8.5–12.5 || 2–5
+|-
+| Pursuer's Mark || 5–10.5 || 2 || 15–18 || &mdash;
+|}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Rifthounds}}
 
+==Tutorials==
+{{Tutorial|Thundercraven Rifthound}}
+
 ==Descriptions==
-{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by "Gold."<br />Once upon a time, they ran riot across the continent, but they went extinct for a time due to resistance and mass hunts. Recently, however, they have re-emerged. The pack of black wolves that now threaten Springvale and Wolvendom are such creatures.|[[Archive]]}}
+{{Description|A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by [[Rhinedottir|"Gold"]]. <br>Once upon a time, they ran riot across the continent, but they went extinct for a time due to resistance and mass hunts. Recently, however, they have re-emerged. The pack of black wolves that now threaten [[Springvale]] and [[Wolvendom]] are such creatures.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
 Enemy Thundercraven Rifthound Icon.png|Icon
 Thundercraven Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Video Guides==
 {{EVT
@@ -103,7 +149,7 @@ Thundercraven Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 |zht     = 嗜雷・獸境獵犬
 |zht_rm  = Shìléi - Shòujìng Lièquǎn
 |zh_tl   = Thunder-Fond - Beast-Realm Hound
-|ja      = {{Rubi|獣|じゅう|域|いき}}ハウンド・{{Rubi|雷|かみなり}}
+|ja      = 獣域ハウンド・雷
 |ja_rm   = Juuiki Haundo - Kaminari<ref>YouTube: [https://youtu.be/uw-b54nYqi8 {{Ja|【原神】}}Ver.2.2{{Ja|「霧の海と謎の秘境」予告番組}}inTGS2021]</ref>
 |ja_tl   = Beast-Realm Hound - Electro
 |ko      = {{tt|기뢰|嗜雷}}・수계(獸界) 사냥개
@@ -114,7 +160,8 @@ Thundercraven Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 |fr      = Limier de faille électrophile
 |fr_tl   = Electrophilic Rift Bloodhound
 |ru      = Гончая Разрыва: Громоед
-|ru_tl   = Rift Hound: Thundereater
+|ru_tl   = Rift Hound: Thunder-Eater
+|ru_note = {{ru|Громоед}} is a portmanteau of the word {{ru|гром|thunder}} and the suffix {{ru|-ед|eater.}}
 |th      = Thundercraven - Rifthound
 |th_rm   = 
 |th_tl   = 
@@ -126,9 +173,9 @@ Thundercraven Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 |pt      = Cão da Fenda - Electrofito
 |pt_tl   = 
 |tr      = Yıldırım Yutan Hiçlik Kurdu
-|tr_tl   = 
+|tr_tl   = Lightning Devouring Abyss Wolf
 |it      = Segugio della Faglia Viltuono
-|it_tl   = 
+|it_tl   = Fel Thunder Rifthound
 }}
 
 ==Change History==
@@ -142,4 +189,6 @@ Thundercraven Rifthound (v2.2 sp).png|Card from Version 2.2 Special Program
 
 [[de:Donnerfressender Garm]]
 [[es:Sabueso Acechador Eléctrico]]
+[[fr:Limier de faille électrophile]]
+[[ja:獣域ハウンド・雷]]
 [[pt-br:Cão da Fenda - Electrofito]]

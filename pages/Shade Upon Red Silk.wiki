@@ -7,42 +7,72 @@
 |part          = 1
 |act           = Lionsblood
 |character     = Dehya
-|requirement   = 
-* Reach [[Adventure Rank]] 40
+|requirement   = * Reach [[Adventure Rank]] 40
 * Complete Archon Quest [[A Toast to Victory]]
-* Spend 1 [[Story Key]]
 |characters    = Dehya; Dunyarzad; Harun; Hisham; Khalaf; Paimon; Sattar; Traveler
 |startLocation = [[Grand Bazaar]], [[Sumeru]]
 |region        = Sumeru
 |area          = Avidya Forest
 |subarea       = Sumeru City
 |next          = Annals of the Scarlet Sands
-|exp           = 525
-|mora          = 34,075
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|7}}
+|rewards       = Adventure EXP*525;Mora*34,075;Hero's Wit*4;Mystic Enhancement Ore*7
 |voiced        = yes
 }}
-'''''Shade Upon Red Silk''''' is the first part of [[Dehya]]'s [[Story Quest]] [[Mantichora Chapter]]: Act I - [[Lionsblood]].
+'''''Shade Upon Red Silk''''' is the first part of {{Quest|Lionsblood}}.
 
 ==Steps==
 # Go to the [[Grand Bazaar]]
 # Go to [[Caravan Ribat]] to learn more about the situation
 # Watch over the trade route and wait for your moment
-# Intercept the caravan and search for clues
+# Intercept the caravan and search for clues {{Enemy List|Eremite Sword-Dancer;Eremite Crossbow*2;Eremite Ravenbeak Halberdier; Shaggy Sumpter Beast}}
 #* A trial [[Dehya]] will join the party for this step.
 # Talk to [[Sattar]]
 # Look for clues among the goods
 
+Note: Doing this quest before {{Ref/Quest|Soloist's Prologue}} will result in NPC conflict for step 2 that can only be resolved by advancing the Archon Quest 'past' the conflict.
+
 ==Trial Character==
 {{Trial Character
 <!-- World Levels -->
-|wl                      = 8
+|wl                      = 5, 8
 <!-- Character -->
 |character_name          = Dehya
+|weapon_name             = Beacon of the Reed Sea
+
+<!-- WL 5 -->
+
+|character_level5        = 71
+|constellation5          = 3
+
+|weapon_level5           = 71
+|refinement5             = 1
+
+|artifact_flower5        = Royal Flora
+|artifact_feather5       = Royal Plume
+|artifact_sands5         = Royal Pocket Watch
+|artifact_goblet5        = Royal Silver Urn
+|artifact_circlet5       = Royal Masque
+|artifact_level5         = 16
+|set1_5                  = Noblesse Oblige
+|set1_piece_bonus_5      = 4
+
+|normal_attack_talent5   = 5
+|elemental_skill_talent5 = 5
+|elemental_burst_talent5 = 8
+
+|hp5                     = 35,956
+|atk5                    = 1,599
+|def5                    = 685
+|em5                     = 92
+|er5                     = 135.0%
+|crit_rate5              = 79.1%
+|crit_dmg5               = 91.9%
+
+<!-- WL 8 -->
+
 |character_level8        = 90
 |constellation8          = 3
 
-|weapon_name             = Beacon of the Reed Sea
 |weapon_level8           = 90
 |refinement8             = 1
 
@@ -69,15 +99,14 @@
 }}
 
 ==Dialogue==
-{{StubDialogue|check for ASTK lines}}
+{{Dialogue Start}}
 {{Quest Description|One day, you and Paimon stop by the Grand Bazaar...}}
-{{Dialogue start}}
 ;(Enter the Grand Bazaar)
 :{{A|vo dhylq001 1 paimon 01.ogg}} '''Paimon:''' Hmm, Paimon's trying to remember... what else did we put on our shopping list...?
 :{{A|vo dhylq001 1 paimon 02.ogg}} '''Paimon:''' *sniff* Oh, what a mouthwatering smell! Paimon would know the aroma of [[Biryani]] anywhere! Let's go get some!
 :{{DIcon}} That wasn't on our list, was it?
 :{{A|vo dhylq001 1 paimon 03.ogg}} '''Paimon:''' Uh, we can still add it to the list!
-:{{A|vo dhylq001 1 dehya 01.ogg}} '''Dehya:''' Well, if it isn't (Traveler) and Paimon. Wasn't expecting to see you here.
+:{{A|vo dhylq001 1 dehya 01.ogg}} '''Dehya:''' Well, if it isn't {{Traveler}} and Paimon. Wasn't expecting to see you here.
 :{{A|vo dhylq001 1 dunyarzad 01.ogg}} '''Dunyarzad:''' Hello there! It's been quite a while.
 :{{A|vo dhylq001 1 paimon 04.ogg}} '''Paimon:''' Huh, so you two are still hanging out together! Dehya, didn't you say last time that you were gonna head back to the desert?
 :{{A|vo dhylq001 1 dehya 02.ogg}} '''Dehya:''' Haha, I said I was going to resign from being her bodyguard, not that our friendship was over. We're still the best of friends.
@@ -173,7 +202,7 @@
 :{{A|vo dhylq001 1 paimon 17.ogg}} '''Paimon:''' What should we do? They both have valid concerns...
 :{{DIcon}} I'll go back to the desert with Dehya.
 :{{A|vo dhylq001 1 dehya 55.ogg}} '''Dehya:''' Huh? But there's no need for you to get caught up in this mess, too.
-:{{A|vo dhylq001 1 paimon 18a.ogg}} {{A|vo dhylq001 1 paimon 18b.ogg}} '''Paimon:''' Well, {{MC|m=he's|f=she's}} super tough, so if {{MC|m=he|f=she}} went to the desert with you, then Paimon bets the problem would be solved in no time!
+:{{A|vo dhylq001 1 paimon 18a.ogg}} {{A|vo dhylq001 1 paimon 18b.ogg}} '''Paimon:''' Well, {{MC|m=he|f=she}}'s super tough, so if {{MC|m=he|f=she}} went to the desert with you, then Paimon bets the problem would be solved in no time!
 :{{A|vo dhylq001 1 dunyarzad 21a.ogg}} {{A|vo dhylq001 1 dunyarzad 21b.ogg}} '''Dunyarzad:''' Hmm... I'm inclined to agree. I'd feel a lot more at ease if you took {{MC|m=him|f=her}} along to help.
 :{{DIcon}} You can count on me!
 :{{DIcon}} I'll do my best.
@@ -187,17 +216,18 @@
 
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Dunyarzad, optional)
 :{{A|vo dhylq001 1 dunyarzad 23a.ogg}}<!--{{A|vo dhylq001 1 dunyarzad 23b.ogg}}--> '''Dunyarzad:''' (I sure hope they'll be okay...)
-{{Dialogue end}}
-{{Quest Description|update|While at the Grand Bazaar, you and Paimon encountered Dehya and Dunyarzad. Through conversation, you learned that Dehya's father had committed a great many wrongs, spurring Dehya to see an end to this familial disgrace. To prevent Dunyarzad from worrying too much, you and Paimon decide to accompany Dehya on her task.}}
 ----
-{{Dialogue start}}
+{{Quest Description|update|While at the Grand Bazaar, you and Paimon encountered Dehya and Dunyarzad. Through conversation, you learned that Dehya's father had committed a great many wrongs, spurring Dehya to see an end to this familial disgrace. To prevent Dunyarzad from worrying too much, you and Paimon decide to accompany Dehya on her task.}}
+;(Use Nahida's All Schemes to Know on Harun, optional)
+:{{A|vo dhylq001 2 harun 01.ogg}} '''Harun:''' (I think something's definitely up with Dakan Al-Ahmar.)
+
 ;(Approach [[Harun]] in Caravan Ribat)
 :{{A|vo dhylq001 2 harun 02.ogg}} '''Harun:''' Hey, Dehya, you're back! Are these two friends of yours?
 :{{DIcon}} It's a pleasure to meet you.
 ::{{A|vo dhylq001 2 harun 03a 1.ogg}} '''Harun:''' Hahaha, likewise. There's no need to be so formal with us. We're a pretty casual crew.
 :{{DIcon}} I'd trust Dehya with my life.
 ::{{A|vo dhylq001 2 harun 03b 1.ogg}} '''Harun:''' Oh? So you've already become like one of us then, haha. That's good to know.
-:{{A|vo dhylq001 2 harun 04.ogg}} '''Harun:''' Anyway, since we've got a newcomer, let me fill you in on what Dakan Al-Ahmar's been up to lately.
+:{{A|vo dhylq001 2 harun 04.ogg}} '''Harun:''' Anyway, since we've got newcomers, let me fill you in on what Dakan Al-Ahmar's been up to lately.
 :{{A|vo dhylq001 2 harun 05.ogg}} '''Harun:''' They've become extremely aggressive. Apparently even their own now have become acceptable targets.
 :{{A|vo dhylq001 2 harun 06.ogg}} '''Harun:''' They even attack other Relics brigades just the same as any other mercenary brigade.
 :{{A|vo dhylq001 2 dehya 01.ogg}} '''Dehya:''' Even the most ferocious beasts still protect their own. It sounds like they've thrown that straight to the wind.
@@ -222,7 +252,7 @@
 :{{A|vo dhylq001 2 khalaf 02.ogg}} '''???:''' Any survivors of the attack were already long gone. There was nothing of value left in the camp.
 :{{A|vo dhylq001 2 dehya 05.ogg}} '''Dehya:''' Ah, Hisham and [[Khalaf]], you're here too.
 :{{A|vo dhylq001 2 hisham 02.ogg}} '''Hisham:''' We rushed over as soon as we saw you come into Caravan Ribat.
-:{{A|vo dhylq001 2 hisham 03a.ogg}} {{A|vo dhylq001 2 hisham 03b.ogg}} '''Hisham:''' Although this new friend of yours looks a little green behind the ears, I'm sensing a special vibe from {{MC|m=him.|f=her.}}
+:{{A|vo dhylq001 2 hisham 03a.ogg}} {{A|vo dhylq001 2 hisham 03b.ogg}} '''Hisham:''' Although this new friend of yours looks a little green behind the ears, I'm sensing a special vibe from {{MC|m=him|f=her}}.
 :{{A|vo dhylq001 2 hisham 04.ogg}} '''Hisham:''' Now that we know you'll have a capable partner with you, we can also rest easy.
 :{{A|vo dhylq001 2 paimon 02.ogg}} '''Paimon:''' Hey, what about Paimon? Feel anything special?
 :{{A|vo dhylq001 2 hisham 05.ogg}} '''Hisham:''' Oh, uh... You're also planning to tag along with them?
@@ -263,17 +293,26 @@
 :{{A|vo dialog dhylq001 harun 02.ogg}} '''Harun:''' You should have seen it, the aura of the two of 'em when they were standing together... it was incredible! I was just at a loss for words, that's all!
 :{{A|vo dialog dhylq001 khalaf 01.ogg}} '''Khalaf:''' So pathetic...
 :{{A|vo dialog dhylq001 harun 03.ogg}} '''Harun:''' H&mdash;Hey, shut up!
+
+;(Use Nahida's All Schemes to Know on Khalaf, optional)
+:{{A|vo dhylq001 3 khalaf 01.ogg}} '''Khalaf:''' (How could I have missed a moment like that!?)
+
+;(Use Nahida's All Schemes to Know on Harun, optional)
+:{{A|vo dhylq001 3 harun 01.ogg}} '''Harun:''' (C'mon, you can only trash us like this because you weren't there...)
+
+;(Use Nahida's All Schemes to Know on Hisham, optional)
+:{{A|vo dhylq001 3 hisham 01.ogg}} '''Hisham:''' (Admit it, you would have frozen up just like everyone else if you were there...)
 ----
 ;(Approach the marked area)
 :{{A|vo dhylq001 3 dehya 01.ogg}} '''Dehya:''' This should be the place. Let's find a spot to hide and bide our time.
 :{{A|vo dhylq001 3 dehya 02.ogg}} '''Dehya:''' It's gonna come down to a fight one way or another, so let's all be careful.
 :{{A|vo dhylq001 3 paimon 01a.ogg}} {{A|vo dhylq001 3 paimon 01b.ogg}} '''Paimon:''' No need to worry! {{MC|m=He|f=She}} knows {{MC|m=his|f=her}} way around a fight.
 :{{A|vo dhylq001 3 dehya 03.ogg}} '''Dehya:''' Haha, I'm not worried about that! What I meant is that we probably shouldn't go too hard on the enemy. After all, we still need to get information out of them.
-<!-- Time changes to night -->
+:;(Time passes)
 :{{A|vo dhylq001 3 dehya 04.ogg}} '''Dehya:''' Ah, here they come! You ready?
 :{{A|vo dhylq001 3 dehya 05.ogg}} '''Dehya:''' Let's not give them a chance to react and end this quickly.
 
-;(After defeating the Eremites)
+;(Defeat the Eremites)
 :{{A|vo dhylq001 3 sattar 01.ogg}} '''Sattar:''' A&mdash;Argh!
 :{{A|vo dhylq001 3 sattar 02.ogg}} '''Sattar:''' Y&mdash;You're... the Flame-Mane!
 :{{A|vo dhylq001 3 dehya 06.ogg}} '''Dehya:''' Good, that saves me an introduction. Alright, time for a little talk. Are you buddies with Dakan Al-Ahmar now? Tell me, what're they after?
@@ -289,9 +328,7 @@
 :{{A|vo dhylq001 3 sattar 04.ogg}} '''Sattar:''' I'll save you the trouble... Hmph!
 :{{A|vo dhylq001 3 dehya 12.ogg}} '''Dehya:''' Huh!? Are you crazy!?
 :{{A|vo dhylq001 3 dehya 13.ogg}} '''Dehya:''' He tried to bite off his own tongue! Quick, search the area for any first aid supplies!
-
-:'''With Dehya's emergency treatment, the bleeding in Sattar's mouth is brought under control...'''
-
+:{{Black Screen|With Dehya's emergency treatment, the bleeding in Sattar's mouth is brought under control...}}
 :{{A|vo dhylq001 3 dehya 14.ogg}} '''Dehya:''' Ugh, I definitely didn't expect him to go that far. Thankfully, the wound wasn't too deep, and he just passed out from the pain.
 :{{A|vo dhylq001 3 paimon 03.ogg}} '''Paimon:''' But why would he be so extreme...?
 :{{A|vo dhylq001 3 dehya 15.ogg}} '''Dehya:''' I just wanted to test his mettle. You can get a lot of mercenaries to talk just by threatening them.
@@ -301,13 +338,13 @@
 :{{A|vo dhylq001 3 dehya 18.ogg}} '''Dehya:''' There are lots of goods around here. Let's search the area, maybe we'll be able to find something.
 :{{A|vo dhylq001 3 dehya 19.ogg}} '''Dehya:''' ...I'm really sorry.
 
-;(Interact with Sattar, optional)
+;(Interact with Sattar, optional)<!--no ASTK-->
 :'''Observe:''' (Sattar is not gravely injured, and will probably wake up soon. It should be okay to leave him here for a little while.)
 
-;(Investigate the box<!--, optional?-->)
+;(Investigate the box, optional)
 :'''Observe:''' (There are some weapons in the boxes, as well as a bunch of medicine and bandages. It seems like Dakan Al-Ahmar is really up to no good.)
 
-;(Investigate the wagon<!--, optional?-->)
+;(Investigate the wagon, optional)
 :'''Observe:''' (There are a lot of daily necessities like food and water in the boxes. It doesn't seem like there's anything noteworthy.)
 
 ;(Investigate the backpack)
@@ -362,7 +399,10 @@
 :{{DIcon}} I hope we'll be of help to her.
 :{{A|vo dhylq001 4 dehya 32.ogg}} '''Dehya:''' Yeah. Let's pay another visit to Sumeru City.
 :;(Obtain [[Caravan Accounts]])
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -371,9 +411,9 @@
 |zhs_rm  = Hēirǎn Hóngchóu
 |zht     = 黑染紅綢
 |zht_rm  = Hēirǎn Hóngchóu
-|zh_tl   = 
+|zh_tl   = Red Silk Dyed Black
 |ja      = 黒く染まった赤い絹
-|ja_rm   = Kuroku Somatta Akai Kinu{{assumed}}
+|ja_rm   = Kuroku Somatta Akai Kinu{{Assumed}}
 |ja_tl   = Blackened Red Silk
 |ko      = 검게 물든 붉은 비단
 |ko_tl   = Red Silk Dyed Black
@@ -389,7 +429,7 @@
 |vi      = Băng Đỏ Nhuộm Đen
 |vi_tl   = 
 |de      = Geschwärzte rote Seide
-|de_tl   = 
+|de_tl   = Blackened Red Silk
 |id      = Bayangan di Sutra Merah
 |id_tl   = Shadows on the Red Silk
 |pt      = Sombra Sobre Seda Rubra
@@ -402,3 +442,6 @@
 
 ==Change History==
 {{Change History|3.5}}
+
+[[es:Sombras que se ciernen sobre un sedoso escarlata]]
+[[pt-br:Sombra Sobre Seda Rubra]]

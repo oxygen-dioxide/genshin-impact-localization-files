@@ -5,7 +5,9 @@
 |icon     = Icon Corrosion
 |effect   = Characters being Corroded will lose a fraction of their HP every second. Active characters can be brought down by Corrosion. When a non-active character's HP is less than 15%, they will no longer lose HP due to Corrosion.
 }}
-'''Corrosion''' is a Status Effect and [[Ley Line Disorder]] where characters Corroded will lose [[HP]] every second. Corrosion can stack, and the duration for each stack is counted independently. Active characters can be brought down by Corrosion. When a non-active character's HP is less than 15%, they will no longer lose HP from Corrosion.
+'''Corrosion''' is a Status Effect and [[Ley Line Disorder]] where characters Corroded will lose [[HP]] at intervals. Corrosion can stack, and the duration for each stack is counted independently. There are two different types of corrosion used by enemies; a party-wide version exclusively used by [[riftwolf|riftwolves]], and a single-target version used by [[Fatui Operatives]] and [[The Knave]].
+
+Active characters can be brought down by Corrosion. When a non-active character's HP is less than a certain percentage, they will no longer lose HP from Corrosion.
 
 Corrosion ignores [[Shields]], [[DEF]] and [[RES]].
 
@@ -14,17 +16,21 @@ The HP Loss and Duration of Corrosion vary by source. HP Loss will be inflicted 
 :<math>\text{HP Loss (Per Tick)} = \text{Base HP Loss} + \text{Additional HP Loss}</math>
 
 {| class="article-table sortable"
-! Source !! Base HP Loss<br />(%Character Max HP) !! Additional HP Loss !! Duration<br />(Seconds)
+! Source !! Base HP Loss<br>(%Character Max HP) !! Additional HP Loss !! Duration<br>(Seconds) !! Interval<br>(Seconds) !! Off-Field Minimum
 |-
-| [[Riftwolves]] (Elite Enemies) || 0.5 || 0 || 9.5
+| {{Enemy|Riftwolf|20}} (Elite Enemies) || 0.5 || 0 || 9.5 || 1 || 15%
 |-
-| {{Enemy|Golden Wolflord|20}} || 1 || 25 || 9.5
+| {{Enemy|Golden Wolflord|20}} || 1 || 25 || 9.5 || 1 || 15%
 |-
-| [[A Study in Potions/Solitary Rampart|A Study in Potions: Solitary Rampart]] || 1 || 100 || 8
+| {{Enemy|Fatui Operative|20}} || 0.4 || 72 || 600 || 1 || 5%
 |-
-| [[Vibro-Crystal Research/Harmonics Research Facility#Fluid Principles|Vibro-Crystal Research: Fluid Principles]] || 0.25 || 25 || 8
+| {{Enemy|The Knave|20}} || 1.25 || 200 || 600 || 2.5 || 5%
 |-
-| [[Spiral Abyss/Floors/2021-09-16#Floor 11|Spiral Abyss Floor 11 (2021-09-16)]] || 0.5 || 75 || 9.5
+| [[A Study in Potions/Solitary Rampart|A Study in Potions: Solitary Rampart]] || 1 || 100 || 8 || 1 || 15%
+|-
+| [[Vibro-Crystal/2022-04-21/Harmonics Research Facility#Fluid Principles|Vibro-Crystal Research: Fluid Principles]] || 0.25 || 25 || 8 || 1 || 15%
+|-
+| [[Spiral Abyss/Floors/2021-09-16#Floor 11|Spiral Abyss Floor 11 (2021-09-16)]] || 0.5 || 75 || 9.5 || 1 || 15%
 |}
 
 ==Enemies==
@@ -36,7 +42,7 @@ The following domains had a [[Ley Line Disorder]] which applied a stack of Corro
 * [[A Study in Potions/Solitary Rampart|A Study in Potions: Solitary Rampart]]
 
 The following domain had a Ley Line Disorder which applied a stack of "Bloodletting Curse" (Corrosion) to the entire party when a character uses an [[Elemental Skill]] or [[Elemental Burst]]:
-* [[Vibro-Crystal Research/Harmonics Research Facility#Fluid Principles|Vibro-Crystal Research: Fluid Principles]]
+* [[Vibro-Crystal/2022-04-21/Harmonics Research Facility#Fluid Principles|Vibro-Crystal Research: Fluid Principles]]
 
 ==Strategy==
 * [[Healing]] is the direct counter of Corrosion.
@@ -51,10 +57,9 @@ The following domain had a Ley Line Disorder which applied a stack of "Bloodlett
 |zht_rm   = Qīnshí
 |zh_tl    = Corrosion
 |ja       = 侵蝕
-|ja_rm    = Shinshoku{{Assumed}}
+|ja_rm    = Shinshoku
 |ja_tl    = Corrosion
 |ko       = {{tt|침식|侵蝕}}
-|ko_rm    = Chimsik
 |ko_tl    = Erosion
 |es       = Corrosión
 |es_tl    = Corrosion
@@ -62,24 +67,27 @@ The following domain had a Ley Line Disorder which applied a stack of "Bloodlett
 |fr_tl    = Corrosion
 |ru       = Разложение
 |ru_tl    = Decay
-|th       = Corrosion / สึกกร่อน
+|th       = Corrosion<ref name="rifthound tutorial">Tutorial: [[Tutorial/Rockfond Rifthound|Rockfond Rifthound]]</ref> / สึกกร่อน<ref name="2.1 abyss F11">[[Spiral Abyss/Floors/2021-09-16#Floor 11|Version 2.1 Spiral Abyss Floor 11]]</ref>
 |th_rm    = Corrosion / Suek Kron
 |th_tl    = 
-|vi       = Ăn Mòn / {{tt|Bào|刨}} Mòn
+|vi       = Ăn Mòn<ref name="rifthound tutorial" /> / {{tt|Bào|刨}} Mòn<ref name="2.1 abyss F11" />
 |vi_tl    = Corrosion / Abrasion
 |de       = Korrosion
 |de_tl    = Corrosion
 |id       = Corrosion
 |pt       = Corrosão
 |pt_tl    = Corrosion
-|tr       = 
+|tr       = Aşınma
 |tr_tl    = 
-|it       = 
+|it       = Corrosione
 |it_tl    = 
 }}
 
 ==Change History==
 {{Change History|2.1}}
+
+==References==
+{{Reflist}}
 
 ==Navigation==
 {{Combat Navbox}}

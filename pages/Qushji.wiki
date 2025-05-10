@@ -3,9 +3,10 @@
 |missing_NPC_profile  = yes
 }}
 {{Character Infobox
-|type             = NPC
+|type             = Open-World NPC
 |image            = NPC Qushji.png
 |region           = Sumeru
+|location         = Sumeru
 |affiliation      = Rtawahist
 |title            = Researcher
 |voiceEN          = 
@@ -13,7 +14,7 @@
 |voiceJP          = 
 |dialoguereward   = {{Card|Carrot|10}}
 }}
-'''Qushji''' is an [[NPC]] located in [[Razan Garden]], [[Sumeru City]], [[Sumeru]]. He is a member of the [[Rtawahist]] [[Darshan]].
+'''Qushji''' is an open-world [[NPC]] located in [[Razan Garden]], [[Sumeru City]], [[Sumeru]]. He is a member of the [[Rtawahist]] [[Darshan]].
 
 Following a certain dialogue branch for the first time gives the player ten [[Carrot]]s.
 
@@ -27,9 +28,6 @@ NPC Location Qushji Context.png|Additional context
 <!~~ Detailed story/lore information goes here. ~~>
 ''(To be added.)''
 
-===Personality===
-''(To be added.)''
-
 ===Appearance===
 <!~~ Keep appearance section short and concise. Limit to 2 paragraphs with 3-4 sentences each. ~~>
 ''(To be added.)''
@@ -38,17 +36,25 @@ NPC Location Qushji Context.png|Additional context
 {{Quests and Events}}
 -->
 ==Idle Quotes==
-{{Dialogue start}}
-: {{DIcon|Idle}} My neck hurts...
-:: {{A|VO Qushji 01.ogg}} "*groans* My neck hurts from staring at the stars all the time..."
-{{Dialogue end}}
+{{Dialogue Start}}
+:{{DIcon|Idle}} My neck hurts...
+::{{A|VO Qushji 01.ogg}} "*groans* My neck hurts from staring at the stars all the time..."
+{{Dialogue End}}
+
+;During ''Chromatic Ode of Candies and Roses''
+{{Dialogue Start}}
+:{{DIcon|Idle}} Sabzeruz Festival...
+::{{A|VO Qushji Chromatic Ode of Candies and Roses 01.ogg}} "*groans* It's the Sabzeruz Festival again! I wonder if there will be any wonderous sights in the night sky..."
+{{Dialogue End}}
 
 ==Thoughts==
 {{All Schemes to Know Explanation|name=Qushji}}
+{{Dialogue Start}}
 :{{A|VO Qushji All Schemes to Know 01.ogg}} '''Qushji:''' (I just want to lay on my back and stargaze.)
+{{Dialogue End}}
 
 ==Dialogue==
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Qushji:''' I guess my neck is going to snap before I even solve this.
 :{{DIcon}} Are you alright?
 ::'''Qushji:''' My neck... It hurts...
@@ -61,7 +67,7 @@ NPC Location Qushji Context.png|Additional context
 :::'''Qushji:''' The only consolation is that now that the Akademiya has started to work on a much more important project, they have lowered their expectations on our research productivity.
 :::'''Qushji:''' I'll also have more time to take better care of myself now.
 :::'''Qushji:''' Neck pain may be difficult to cure, but a healthy diet is said to be able to improve one's vision. Well, there are worse things to suffer through for a good cause...
-::;(Obtain [[Carrot]] ×10)
+::;(Obtain {{Item|Carrot|20|x=10}})
 ::{{DIcon}} The new Grand Conservator?
 :::'''Qushji:''' Yes... A youngster like you should be better informed than me.
 :::'''Qushji:''' Everyone in Sumeru City is paying close attention to the matter, be it an ordinary researcher like myself or a barber in the downtown area.
@@ -70,17 +76,21 @@ NPC Location Qushji Context.png|Additional context
 :::'''Qushji:''' So that means... I'd prefer to have [[Rifaet]] be the next Grand Conservator.
 :{{DIcon}} See you.
 ::'''Qushji:''' Farewell. I'll have a break.
-{{Dialogue end}}
-<!--
+{{Dialogue End}}
+
 ==Event Dialogue==
-===Event Name===
-{{Dialogue start}}
-:'''{{subst:PAGENAME}}:'''
-{{Dialogue end}}
+===Chromatic Ode of Candies and Roses===
+{{Dialogue Start}}
+:'''Qushji:''' May the [[Dendro Archon]] watch over the stars during the [[Sabzeruz Festival]], that no abnormal incidents should befall...
+:'''Qushji:''' And of course, please watch over my neck too...
+:{{DIcon}} Are you alright?
+:;(Same as above)
+:{{DIcon}} See you.
+:;(Same as above)
+{{Dialogue End}}
 
 ==Trivia==
-*
--->
+*{{w|Ali Qushji}} was a {{w|Timurid Empire|Timurid}} theologian, jurist, astronomer, mathematician and physicist, who settled in the {{w|Ottoman Empire}} some time before 1472.
 
 ==Other Languages==
 {{Other Languages
@@ -93,7 +103,6 @@ NPC Location Qushji Context.png|Additional context
 |ja      = クシュジ
 |ja_rm   = Kushuji
 |ko      = 쿠시지
-|ko_rm   = Kusiji
 |es      = Qushji
 |fr      = Qushji
 |ru      = Кушдзи

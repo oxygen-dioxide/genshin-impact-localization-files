@@ -1,6 +1,6 @@
 {{Quest Infobox
 |id            = 11013
-|image         = Archon Quest ICA1 Seagaze Sunset.png
+|image         = Archon Quest Seagaze Sunset.png
 |type          = Archon
 |chapter       = Interlude Chapter
 |actNum        = I
@@ -13,10 +13,8 @@
 |prev          = Jade Chamber Rising
 |next          = Bygones Times Like Dust Passing
 |domain        = Sea Gazer's Abode
-|exp           = 750
-|mora          = 28,000
-|other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|5}}
-|characters    = Anshun; Baiwen; Changfeng; Cloud Retainer; Ju'an; Keqing; Leming; Liang (Seagaze Sunset); Lizheng; Paimon; Shenhe; Siqin; Traveler; Xingqiu; Xu
+|rewards       = Adventure EXP*750;Mora*28,000;Hero's Wit*3;Mystic Enhancement Ore*5
+|characters    = Anshun; Baiwen; Changfeng; Xianyun; Ju'an; Keqing; Leming; Liang (Seagaze Sunset); Lizheng; Paimon; Shenhe; Siqin; Traveler; Xingqiu; Xu
 |voiced        = yes
 }}
 {{TeyvatQuest|I|1|2}}
@@ -38,14 +36,14 @@
 # Bring Shenhe to a nearby makeshift hotel to take a break
 # Talk to the hotel owner
 # Talk to [[Cloud Retainer]]
-# Wait until the following day (08:00 – 12:00)
+# Wait until the following day (08:00&ndash;12:00)
 <!--
 ==Gameplay Notes==
 -->
 
 ==Dialogue==
 {{Quest Description|You hear about Sunset Vermillionite from [[Baizhu]] and decide to hit up [[Feiyun Commerce Guild]] for some information.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the Feiyun Commerce Guild)
 :{{A|vo shlq002 1 xu 01.ogg}} '''Xu:''' Master Xingqiu! Thank goodness you're finally back!
 :{{A|vo shlq002 1 xingqiu 01.ogg}} '''Xingqiu:''' Oh? Why do I detect an urgency in your voice?
@@ -89,12 +87,12 @@
 
 ;(Talk to Xingqiu again)
 :{{A|vo dialog shlq002 xingqiu 01.ogg}} '''Xingqiu:''' It looks like the [[Jade Chamber]] rebuilding project will be fiercely competitive. It's difficult to say who will emerge as the winner.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ----
 {{Quest Description|update|According to Xingqiu, Sea Gazer's abode should contain Sunset Vermillionite. Time to try your luck.}}
 <section begin=domaindialogue/>
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked spot)
 :{{A|vo shlq002 2 paimon 01.ogg}} '''Paimon:''' Let's see... Xingqiu said it should be around here. But Paimon doesn't see anything...
 ;(Shenhe performs sigil magic<!-- what is it called? -->)
@@ -126,9 +124,8 @@
 :{{A|vo shlq002 5 shenhe 02.ogg}} '''Shenhe:''' The core of the mechanism is exposed. Now's our chance!
 
 ;(After destroying the core)
-:'''The mechanism is broken and the fog clears along with it...'''
-
-:{{A|vo shlq002 5 paimon 01.ogg}} '''Paimon:''' Whoa, w—we're going to faaaall!!
+:{{Black Screen|The mechanism is broken and the fog clears along with it...}}
+:{{A|vo shlq002 5 paimon 01.ogg}} '''Paimon:''' Whoa, w&mdash;we're going to faaaall!!
 :{{A|vo shlq002 6 paimon 01.ogg}} '''Paimon:''' Is everyone okay?
 :{{A|vo shlq002 6 paimon 02.ogg}} '''Paimon:''' Look, the Seelie has disappeared beneath the clouds again!
 :{{A|vo shlq002 6 shenhe 01.ogg}} '''Shenhe:''' It looks like we need to go further down. But before that, let's destroy the guard mechanisms on this level first.
@@ -173,16 +170,14 @@
 :{{A|vo shlq002 10 paimon 10.ogg}} '''Paimon:''' You gotta be extra careful when lifting heavy objects. It's just common sense!
 :{{A|vo shlq002 10 shenhe 08.ogg}} '''Shenhe:''' Is it, now... Well then, thank you.
 :{{A|vo shlq002 10 shenhe 09.ogg}} '''Shenhe:''' I'll go on ahead with the Plaustrite. Let's meet at the building site later.
-
-:'''Shenhe lifts up the Plaustrite and leaves.'''
-
+:{{Black Screen|Shenhe lifts up the Plaustrite and leaves.}}
 :{{A|vo shlq002 11 paimon 01.ogg}} '''Paimon:''' How was Shenhe able to carry that huge rock all by herself!? Hmm... adepti super-strength, much?
-:{{A|vo shlq002 11 paimon 02.ogg}} '''Paimon:''' (Traveler), we can't slow down yet. Let's go meet her at the building site!
-{{Dialogue end}}
+:{{A|vo shlq002 11 paimon 02.ogg}} '''Paimon:''' {{Traveler}}, we can't slow down yet. Let's go meet her at the building site!
+{{Dialogue End}}
 <section end=domaindialogue/>
 ----
 {{Quest Description|update|Shenhe has gone on ahead with the Sunset Vermillionite. Time to return to the worksite and meet up with her.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Optional, talk to Siqin)
 :{{A|vo dialog shlq002 siqin 01.ogg}} '''Siqin:''' We had a handful of scoundrels try to sneak in and steal some supplies earlier. I caught them, and they'll be dealt with according to the law.
 
@@ -253,12 +248,12 @@
 :{{DIcon}} Paimon is right!
 :{{DIcon}} Guest accommodations are far more comfortable than the wilderness.
 :{{A|vo shlq002 12 shenhe 09.ogg}} '''Shenhe:''' ...Okay. If you insist.
-:{{A|vo shlq002 12 paimon 11.ogg}} '''Paimon:''' Great, now we're talking. Let's head to our hotel, (Traveler)!
-{{Dialogue end}}
+:{{A|vo shlq002 12 paimon 11.ogg}} '''Paimon:''' Great, now we're talking. Let's head to our hotel, {{Traveler}}!
+{{Dialogue End}}
 
 ----
 {{Quest Description|update|Having been through an adventure and a half in the adeptus' abode, Shenhe seems a little tired. Time to have a rest at a nearby hotel.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to [[Ju'an]])
 :{{A|vo shlq002 13 juan 01.ogg}} '''Ju'an:''' Hi there! Checking in, are we? You're just in time &mdash; we only have two rooms left.
 :{{A|vo shlq002 13 juan 02.ogg}} '''Ju'an:''' Since this was chosen as the building site for the new Jade Chamber, we've had a constant stream of people in this area. And not just workers, either &mdash; visitors, business people, tea sellers, all sorts.
@@ -278,11 +273,11 @@
 ;(Cloud Retainer lands on a nearby summit)
 :{{A|vo shlq002 13 paimon 05.ogg}} '''Paimon:''' Hey, isn't that [[Cloud Retainer]]? What's she doing here?
 :{{A|vo shlq002 13 paimon 06.ogg}} '''Paimon:''' Let's go and say hi!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ----
 {{Quest Description|update|Cloud Retainer suddenly drops by on a nearby summit. What is her purpose here?}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Cloud Retainer)
 :{{A|vo shlq002 13 cloudretainer 01.ogg}} '''Cloud Retainer:''' One trusts you have met Shenhe. So, are you getting along quite well?
 :{{A|vo shlq002 13 paimon 07.ogg}} '''Paimon:''' So far so good, yeah... So you know Shenhe, too, Cloud Retainer?
@@ -294,7 +289,7 @@
 :{{A|vo shlq002 13 cloudretainer 04.ogg}} '''Cloud Retainer:''' On this latter point, you are correct. However... Shenhe is human.
 :{{A|vo shlq002 13 paimon 11.ogg}} '''Paimon:''' Oh, oh, right... Wait, what!?
 :{{DIcon}} I thought so.
-::{{A|vo shlq002 13 paimon 12a.ogg}} '''Paimon:''' What? You knew already, (Traveler)? ...Ugh, so is Paimon the only one who didn't know?
+::{{A|vo shlq002 13 paimon 12a.ogg}} '''Paimon:''' What? You knew already, {{Traveler}}? ...Ugh, so is Paimon the only one who didn't know?
 :{{DIcon}} Never would have guessed!
 ::{{A|vo shlq002 13 paimon 12b.ogg}} '''Paimon:''' Paimon neither! This is a real surprise...
 :{{A|vo shlq002 13 cloudretainer 05.ogg}} '''Cloud Retainer:''' Do you mean to say that she presents differently from ordinary human beings?
@@ -359,11 +354,12 @@
 :{{A|vo shlq002 14 paimon 11.ogg}} '''Paimon:''' Oh! And another thing, we bought some Grilled Chicken Drumsticks on the way back last night! There was a place just outside.
 :{{A|vo shlq002 14 paimon 12.ogg}} '''Paimon:''' Here's one for you, Shenhe! Try it, they're so good!
 :{{A|vo shlq002 14 shenhe 11.ogg}} '''Shenhe:''' ...I concur. It has a rich flavor, far more agreeable than those I've cooked for myself in the wilderness in the past.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Trivia==
-* Rainy [[weather]] begins when the player is talking to Cloud Retainer. This rainy weather is present in [[Mondstadt]], [[Liyue]], and [[Inazuma]], including in areas that normally never have rainy weather such as the cities ([[City of Mondstadt]], [[Liyue Harbor]], [[Inazuma City]]), [[Watatsumi Island]], and [[Andrius]]'s arena prior to defeat.<!-- Dragonspine and most of Inazuma was not checked -->
+* Rainy [[weather]] begins when the player is talking to Cloud Retainer. This rainy weather is present in [[Mondstadt]], [[Liyue]], and [[Inazuma]], including in areas that normally never have rainy weather such as the cities ([[City of Mondstadt]], [[Liyue Harbor]], [[Inazuma City]]), [[Watatsumi Island]], and [[Andrius]]'s arena prior to defeat.<!-- Dragonspine, most of Inazuma, and any areas that released after 2.4 were not checked -->
 ** The rainy weather is cleared upon spawning Andrius and then ending the battle either by defeating him<!-- assumption --> or leaving the arena<!-- confirmed -->.
+* As {{Quest|Bookworm Swordsman}} is not required for ''The Crane Returns on the Wind'', players may meet Xingqiu for the first time during this quest. However, there is no alternate dialogue if that happens.
 
 ==Gallery==
 <gallery>
@@ -383,7 +379,6 @@ Seagaze Sunset NPC Location Keqing Context.png|Keqing at Guyun Stone Forest
 |ja_rm   = Meikaiseika{{Assumed}}
 |ja_tl   = Sea-Resounding, Rosy Clouds-Perching{{Sino|ja}}
 |ko      = 명해서하
-|ko_rm   = Myeonghaeseoha
 |ko_tl   = Sunset Nestled in the Resounding Sea
 |es      = Observador del Océano
 |es_tl   = [[Sea Gazer]]
@@ -403,7 +398,7 @@ Seagaze Sunset NPC Location Keqing Context.png|Keqing at Guyun Stone Forest
 |pt      = Observador do Oceano
 |pt_tl   = [[Sea Gazer]]
 |tr      = Gün Batımı Deryası
-|tr_tl   = 
+|tr_tl   = Sunset Sea
 |it      = Un crepuscolo sull'oceano
 |it_tl   = 
 }}
@@ -413,7 +408,7 @@ Seagaze Sunset NPC Location Keqing Context.png|Keqing at Guyun Stone Forest
 
 ==Navigation==
 {{Archon Quest Navbox|chapter=Interlude Chapter}}
-[[Category:Archon Interlude Chapter]]
 
 [[es:Observador del Océano (misión)]]
+[[ja:鳴海栖霞]]
 [[pt-br:Observador do Oceano (Missão)]]

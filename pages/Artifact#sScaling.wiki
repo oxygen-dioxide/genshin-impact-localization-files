@@ -6,7 +6,7 @@
 |tab5 = Occurrence
 |tab6 = Scaling
 }}
-==Main Stat Values at Each Level==
+==Main Affix Values at Each Level==
 {{T|Artifact Main Stats}} should remain updated with the data here.
 ===5-Star Artifacts===
 {| class="wikitable"
@@ -284,7 +284,7 @@
 |51.6
 |54.2
 |56.9
-|59.6
+|59.5
 |62.2
 |-
 !Healing Bonus%
@@ -949,48 +949,60 @@
 |6.1
 |}
 
-==Main Stat Differences==
-===Difference between Rarities===
-====4-Star to 5-Star====
-The Base Main Stat going from a 4-Star Artifact to a 5-Star Artifact is increased by:
-*~11.162% for all '''Main Stats'''.
-
-====3-Star to 4-Star====
-The Base Main Stat going from a 3-Star Artifact to a 4-Star Artifact is increased by:
-*50% for '''HP''' and '''ATK'''.
-*~20% for every other '''Main Stat'''.
-
-====2-Star to 3-Star====
-The Base Main Stat going from a 2-Star Artifact to a 3-Star Artifact is increased by:
-*66.66% for '''HP''' and '''ATK'''.
-*~23.5% for every other '''Main Stat'''.
-
-====1-Star to 2-Star====
-The Base Main Stat going from a 1-Star Artifact to a 2-Star Artifact is increased by:
-*112.5% for '''ATK'''.
-*100% for '''HP'''.
-*~35.5% for every other '''Main Stat'''.
+==Main Affix Differences==
+{| class="fandom-table"
+|+ Main Affix Base Value Increase between Qualities
+! colspan=2 | Quality
+! colspan=3 | Main Affix
+|-
+! From
+! To
+! HP
+! ATK
+! Others
+|-
+| {{Icon/Stars|1}}
+| {{Icon/Stars|2}}
+| 100%
+| 112.5%
+| ~35.5%
+|-
+| {{Icon/Stars|2}}
+| {{Icon/Stars|3}}
+| colspan=2 | ~66.66%
+| ~23.5%
+|-
+| {{Icon/Stars|3}}
+| {{Icon/Stars|4}} 
+| colspan=2 | 50%
+| ~20%
+|-
+| {{Icon/Stars|4}}
+| {{Icon/Stars|5}} 
+| colspan="3" | ~11.162%
+|}
 
 ===Per Level Increase===
-Whenever an artifact gains a level the following calculation is applied to its main stat:
+Whenever an artifact gains a level the following calculation is applied to its main affix:
 
-'''CurrentStatValue = PreviousStatValue + ( BaseMainStatValue x StatMultiplier )'''
+<math>\text{AffixValue}_\text{Current} = \text{AffixValue}_\text{Previous} + (\text{AffixValue}_\text{MainBase} \times \text{AffixMultiplier})</math>
 
-The '''StatMultiplier''' is unique to each specific quality and Main Stat in question, and varies between 0.28 and 0.29.
-Also, each stat is rounded in the UI view.
 
-===Identical Stat Values===
-The following Main Stats share values:
+The '''AffixMultiplier''' is unique to each specific quality and Main Affix in question, and varies between 0.28 and 0.29.
+Also, each attribute is rounded in the UI view.
+
+===Identical Affix Values===
+The following Main Affixes share values:
 *'''HP%''', '''ATK%''' and '''Elemental DMG%'''.
 *'''DEF%''' and '''Physical DMG%'''.
 
-==Sub Stat Theoretical Maximums==
-These are theoretical max sub-stat values that any artifact can have. This requires the artifact to have the max number of sub-stats possible at level 0, so that a roll is not "wasted" on a new sub-stat, with the sub-stat of interest also having the max possible initial value. To obtain the maximum theoretical value, the artifact must then only roll into the sub-stat of interest, while also rolling the max possible upgrade value.
+==Minor Affix Theoretical Maximums==
+These are theoretical max minor affix values that any artifact can have. This requires the artifact to have the max number of minor affixes possible at level 0 (see [[Loot System/Artifact Drop Distribution#Initial Sub Stat Number Distribution|Initial Minor Affix Number Distribution]]), so that a roll is not "wasted" on a new minor affix, with the minor affix of interest also having the max possible initial value. To obtain the maximum theoretical value, the artifact must then only roll into the minor affix of interest, while also rolling the max possible upgrade value.
 
-<table class="wikitable" style="text-align:center;">
+<table class="wikitable align-center">
  <caption>Theoretical Maximums</caption>
  <tr>
-    <th>Rarity</th>{{#switch:{{{1s|hide}}}|hide=|
+    <th>Quality</th>{{#switch:{{{1s|hide}}}|hide=|
     <th>{{Icon/Stars|1}}</th>}}{{#switch:{{{2s|hide}}}|hide=|
     <th>{{Icon/Stars|2}}</th>}}{{#switch:{{{3s}}}|hide=|
     <th>{{Icon/Stars|3}}</th>}}{{#switch:{{{4s}}}|hide=|

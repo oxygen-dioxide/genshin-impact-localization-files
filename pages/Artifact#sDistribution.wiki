@@ -6,12 +6,14 @@
 |tab5 = Occurrence
 |tab6 = Scaling
 }}
-{{See also|Loot System/Artifact Drop Distribution}}
+{{See Also|Loot System/Artifact Drop Distribution}}
+{{Community}}
+The following are data related to Artifact affix distribution. In summary, main affixes and initial minor affixes use a weighted distribution system, while minor affixes values and minor affix upgrades when enhanced to the next tier are distributed evenly.<ref>NGA Forum: [https://nga.178.com/read.php?tid=33220261 {{Zh|圣遗物词条分布汇总一图流}}]</ref>
 
-==Main Stat==
-The main stat is always HP for the '''Flower of Life''' and always ATK for the '''Plume of Death'''.
+==Main Affix==
+The main affix is always HP for the '''Flower of Life''' and always ATK for the '''Plume of Death'''.
 
-For all other artifacts of any rarity:
+For all other artifacts of any quality:
 
 ==={{Item|Sands of Eon|35|type=Icon|notext=1}} Sands of Eon===
 {| class="wikitable sortable"
@@ -36,7 +38,7 @@ For all other artifacts of any rarity:
 |-
 | ATK% || 19.25%
 |-
-| DEF% || 19%
+| DEF% || 19.00%
 |-
 | {{Color|Pyro DMG Bonus}}% || 5.00%
 |-
@@ -77,452 +79,45 @@ For all other artifacts of any rarity:
 | Elemental Mastery || 4.00%
 |}
 
-==Sub Stat Attribute==
-For all artifacts of any rarity:
+==Minor Affix Attribute==
+When rolling the initial minor affixes or adding a minor affix upon a new tier, the probabilities for getting each minor affix is dependent on the pool of available minor affixes and calculated based on each minor affix's fixed weight. Minor affixes identical to the main affix and already-existing minor affixes are omitted from the pool. The probability for a specific minor affix is: <math>\frac{\text{Weight}_\text{Minor Affix}}{\sum\text{Weight}_\text{Available Minor Affix}}</math>
 
-==={{Item|Flower of Life|35|type=Icon|notext=1}} Flower of Life===
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| ATK || 15.79%
-|-
-| DEF || 15.79%
-|-
-| HP% || 10.53%
-|-
-| ATK% || 10.53%
-|-
-| DEF% || 10.53%
-|-
-| Energy Recharge% || 10.53%
-|-
-| Elemental Mastery || 10.53%
-|-
-| CRIT Rate% || 7.89%
-|-
-| CRIT DMG% || 7.89%
-|}
+For example, if a 5-Star Plume of Death already has ATK%, Energy Recharge%, and CRIT Rate% minor affixes when it reaches level 4, the probability of obtaining CRIT DMG% as a 4<sup>th</sup> minor affix is as follows:
 
-==={{Item|Plume of Death|35|type=Icon|notext=1}} Plume of Death===
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
+<math>\begin{align}
+\text{Probability}_\text{CRIT DMG} &= \frac{\text{Weight}_\text{CRIT DMG}}{\text{Weight}_\text{HP + DEF + HP Percent + DEF Percent + EM + CRIT DMG}} \\
+&= \frac{3}{6 + 6 + 4 + 4 + 4 + 3} \\
+&= 11.\overline{1} \%
+\end{align}</math>
+
+{| class="wikitable"
+! Attribute !! Weight
 |-
-| HP || 15.79%
+| HP || 6
 |-
-| DEF || 15.79%
+| ATK || 6
 |-
-| HP% || 10.53%
+| DEF || 6
 |-
-| ATK% || 10.53%
+| HP% || 4
 |-
-| DEF% || 10.53%
+| ATK% || 4
 |-
-| Energy Recharge% || 10.53%
+| DEF% || 4
 |-
-| Elemental Mastery || 10.53%
+| Energy Recharge% || 4
 |-
-| CRIT Rate% || 7.89%
+| Elemental Mastery || 4
 |-
-| CRIT DMG% || 7.89%
+| CRIT Rate% || 3
+|-
+| CRIT DMG% || 3
 |}
 
-==={{Item|Sands of Eon|35|type=Icon|notext=1}} Sands of Eon===
-The distribution changes based on the main stat:
-<tabber>
-|-|HP%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| ATK% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|ATK%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|DEF%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| ATK% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|Energy Recharge%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| ATK% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|Elemental Mastery=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| ATK% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-</tabber>
-
-==={{Item|Goblet of Eonothem|35|type=Icon|notext=1}} Goblet of Eonothem===
-The distribution changes based on the main stat:
-<tabber>
-|-|HP%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| ATK% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|ATK%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|DEF%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| ATK% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|Elemental/Physical DMG Bonus%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 13.64%
-|-
-| ATK || 13.64%
-|-
-| DEF || 13.64%
-|-
-| HP% || 9.09%
-|-
-| ATK% || 9.09%
-|-
-| DEF% || 9.09%
-|-
-| Energy Recharge% || 9.09%
-|-
-| Elemental Mastery || 9.09%
-|-
-| CRIT Rate% || 6.82%
-|-
-| CRIT DMG% || 6.82%
-|}
-|-|Elemental Mastery=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| ATK% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-</tabber>
-
-==={{Item|Circlet of Logos|35|type=Icon|notext=1}} Circlet of Logos===
-The distribution changes based on the main stat:
-<tabber>
-|-|HP%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| ATK% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|ATK%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|DEF%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| ATK% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| Elemental Mastery || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-|-|CRIT Rate%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 14.63%
-|-
-| ATK || 14.63%
-|-
-| DEF || 14.63%
-|-
-| HP% || 9.76%
-|-
-| ATK% || 9.76%
-|-
-| DEF% || 9.76%
-|-
-| Energy Recharge% || 9.76%
-|-
-| Elemental Mastery || 9.76%
-|-
-| CRIT DMG% || 7.32%
-|}
-|-|CRIT DMG%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 14.63%
-|-
-| ATK || 14.63%
-|-
-| DEF || 14.63%
-|-
-| HP% || 9.76%
-|-
-| ATK% || 9.76%
-|-
-| DEF% || 9.76%
-|-
-| Energy Recharge% || 9.76%
-|-
-| Elemental Mastery || 9.76%
-|-
-| CRIT Rate% || 7.32%
-|}
-|-|Healing Bonus%=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 13.64%
-|-
-| ATK || 13.64%
-|-
-| DEF || 13.64%
-|-
-| HP% || 9.09%
-|-
-| ATK% || 9.09%
-|-
-| DEF% || 9.09%
-|-
-| Energy Recharge% || 9.09%
-|-
-| Elemental Mastery || 9.09%
-|-
-| CRIT Rate% || 6.82%
-|-
-| CRIT DMG% || 6.82%
-|}
-|-|Elemental Mastery=
-{| class="wikitable sortable"
-! Attribute !! Scaled Chance
-|-
-| HP || 15.00%
-|-
-| ATK || 15.00%
-|-
-| DEF || 15.00%
-|-
-| HP% || 10.00%
-|-
-| ATK% || 10.00%
-|-
-| DEF% || 10.00%
-|-
-| Energy Recharge% || 10.00%
-|-
-| CRIT Rate% || 7.50%
-|-
-| CRIT DMG% || 7.50%
-|}
-</tabber>
-
-==Sub Stat Value==
-{{See also|Artifact/Stats#Sub Stats}}
-Possibilities for initial values and upgrades of sub-stats:
-{| class="wikitable" style="text-align:center;"
+==Minor Affix Value==
+{{See Also|Artifact/Stats#Minor Affix}}
+Possibilities for initial values and upgrades of minor affixes:
+{| class="wikitable align-center"
 ! Value !! Chance
 |-
 ! colspan="2" | {{Icon/Stars|1}}
@@ -559,8 +154,8 @@ Possibilities for initial values and upgrades of sub-stats:
 | 25%
 |}
 
-==Sub Stat Slot Upgrade==
-When the artifact already has four sub-stats:
+==Minor Affix Slot Upgrade==
+When the artifact already has 4 minor affixes:
 {| class="wikitable sortable"
 ! Slot !! Chance
 |-
@@ -573,12 +168,12 @@ When the artifact already has four sub-stats:
 | Slot 4 || 25%
 |}
 
-==Sub Stat Slot Upgrade Times==
-When the artifact already has four sub-stats, the chance a selected substat can be upgraded n times is:
+==Minor Affix Slot Upgrade Times==
+When the artifact already has 4 minor affixes, the chance a selected minor affix can be upgraded n times is:
 {| class="wikitable sortable"
 ! Slot !! Chance
 |-
-| 0 time || 23.73%
+| 0 times || 23.73%
 |-
 | 1 time || 39.55%
 |-
@@ -599,7 +194,9 @@ When the artifact already has four sub-stats, the chance a selected substat can 
 
 [[Category:Game System Subpages]]
 
+[[fr:Artéfact/Distribution]]
 [[pt-br:Artefatos/Distribuição]]
+[[ru:Артефакты/Распределение]]
 [[th:อาร์ติแฟกต์/การกระจาย]]
 [[uk:Артефакти/Розподіл]]
-[[vi:Thánh Di Vật/Phân Bổ]]
+[[vi:Thánh Di Vật/Phân Phối]]

@@ -1,3 +1,4 @@
+{{Stub|Added text marked below as being present when you complete [[A Dance of Destruction]] before doing this quest. Please verify that the text and condition are both correct}}
 {{Quest Infobox
 |id            = 72114
 |part          = 1
@@ -8,14 +9,10 @@
 |region        = Inazuma
 |area          = Kannazuka
 |subarea       = Kujou Encampment
-|summary       = 
 |startLocation = [[Kujou Encampment]], [[Inazuma]]
-|requirement   = Complete [[Ritou Escape Plan]]
+|requirement   = 
 |next          = Tatara Tales: Priority Investigation
-|exp           = 400
-|mora          = 40,000
-|primogems     = 50
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|4}}
+|rewards       = Adventure EXP*400;Primogem*50;Hero's Wit*4;Mystic Enhancement Ore*4;Mora*40,000
 |characters    = Miyuki; Paimon; Toranosuke; Traveler; Xavier
 }}
 '''''Tatara Tales''''' is the first quest in the [[Tatara Tales]] World Quest series.
@@ -46,17 +43,17 @@ Start the quest by approaching [[Toranosuke]] and [[Miyuki]] at [[Kujou Encampme
 # Report back to Xavier
 
 ==Gameplay Notes==
-* Destroying the Mikage Furnace Emergency Containment Dome grants the ''[[Wonders of the World]]'' achievement ''[[Knock Knock]]''.
-*Attempting to use Quest Navigation during Step 5 will show the following message: "Open your inventory to view the Kamuijima Cannon Map."
+* Destroying the Mikage Furnace Emergency Containment Dome grants the {{Achievement|Knock Knock}}.
+* Attempting to use Quest Navigation during Step 5 will show the following message: "Open your inventory to view the Kamuijima Cannon Map."
 
 ==Dialogue==
 {{Quest Description|Something ominous seems to have occurred at Inazuma's [[Tatarasuna]]...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Listen to Toranosuke and Miyuki at the Kujou Encampment)
 :'''Miyuki:''' You cannot afford to delay any longer.
 :'''Miyuki:''' Almost everyone has been evacuated now. Is this not the perfect time to sort everything out?
 :'''Toranosuke:''' Mind your own business! [[Tatarasuna]]'s safety and the smithing operations are our business. Don't you have shrine duties to attend to?
-:'''Toranosuke:''' Or are you trying to tell me that metalwork is under the authority of the [[Grand Narukami Shrine]] now?
+:'''Toranosuke:''' Or are you trying to tell me that metalwork is under the authority of the [[Grand Narukami Shrine (Faction)|Grand Narukami Shrine]] now?
 :'''Miyuki:''' Don't you lecture me! You really think I'd be here talking to you if I didn't have to be?
 :'''Miyuki:''' It's because you aren't doing your job! The [[Tatarigami]]'s influence is now being felt even by the [[Sacred Sakura]] at the Grand Shrine!
 :'''Miyuki:''' That's the only reason [[Yae Miko|Lady Miko]] sent me out here. To exorcise it.
@@ -92,9 +89,14 @@ Start the quest by approaching [[Toranosuke]] and [[Miyuki]] at [[Kujou Encampme
 
 ;(Ask Miyuki about the situation)
 :'''Miyuki:''' *sigh* How did it come to this...
-:{{DIcon}} {{Sic|What}} this "Mikage Furnace" that you guys were talking about earlier?
-:'''Miyuki:''' You're an outlander, aren't you? You've got some terrible luck to have traveled to Inazuma at this time...
-:'''Miyuki:''' That island is called Tatarasuna. It's a smelting plant for [[Jade Steel]], which is used to forge weaponry.
+;(If {{Quest|In the Aftermath (Hangout Event)}} has not been completed)
+::{{DIcon}} {{sic|What}} this "Mikage Furnace" that you guys were talking about earlier?
+::'''Miyuki:''' You're an outlander, aren't you? You've got some terrible luck to have traveled to Inazuma at this time...
+::'''Miyuki:''' That island is called Tatarasuna. It's a smelting plant for [[Jade Steel]], which is used to forge weaponry.
+;(If ''In the Aftermath'' has been completed)
+::{{DIcon}} What is this "Mikage Furnace" that you guys were talking about earlier?
+::'''Miyuki:''' Ah, it's you, Traveler. You've got some terrible luck to have traveled to Tatarasuna at this time...
+::'''Miyuki:''' Tatarasuna is a smelting plant for Jade Steel, which is used to forge weaponry.
 :'''Miyuki:''' Are you aware of the legends of Inazuman swords?
 :'''Miyuki:''' The Jade Steel manufactured here is the reason that Inazuman swords are as sharp and durable as they are.
 :{{DIcon}} So it's a weapon material?
@@ -105,7 +107,10 @@ Start the quest by approaching [[Toranosuke]] and [[Miyuki]] at [[Kujou Encampme
 :'''Miyuki:''' A few years ago, for the purpose of expanding production capacity, they hired a team of consultants from [[Fontaine]]. They built the Mikage Furnace, a machine that can fully harvest the powers of the Tatarigami.
 :'''Miyuki:''' We've warned them countless times not to let their guard down when it comes to the Tatarigami, but they decided to go ahead with the project anyway.
 :'''Miyuki:''' After the Mikage Furnace started production, most of the consultant team returned to Fontaine. Only Xavier, who we just mentioned, stayed behind in Inazuma.
-:'''Miyuki:''' But during one of the previous battles, something went wrong with the furnace. The part that stored the corrupt Tatarigami energy became extremely unstable...
+;(If ''In the Aftermath'' has not been completed)
+::'''Miyuki:''' But during one of the previous battles, something went wrong with the furnace. The part that stored the corrupt Tatarigami energy became extremely unstable...
+;(If ''In the Aftermath'' has been completed)
+::'''Miyuki:''' But during one of the battles, something went wrong with the furnace. The part that stored the corrupt Tatarigami energy became extremely unstable...
 :'''Miyuki:''' Work was halted in Tatarasuna and everyone was evacuated shortly after.
 :'''Miyuki:''' Xavier took emergency action, and he seems to have set up a containment dome around the Mikage Furnace.
 :'''Miyuki:''' It's only a temporary solution, though. He's probably still on the island now, trying to figure out a way to solve the problem for good.
@@ -138,31 +143,57 @@ Start the quest by approaching [[Toranosuke]] and [[Miyuki]] at [[Kujou Encampme
 ----
 ;(Talk to Xavier)
 :'''Xavier:''' It's hopeless...
-:{{DIcon}} Hello, are you Xavier?
-:'''Xavier:''' That's right! Xavier's the name and the name's mine! But is it fate fair or foul that we should meet at this time and place? Pray tell, fine {{MC|lad|lass|mc=1}}, who are you?
-:{{DIcon}} I'm just a helpful adventurer.
-::'''Xavier:''' Adventurer? Ah, a grand adventurer, en route to the stars, the abyss, and beyond, arrives here on the island of conflict and Tatarigami!
-:{{DIcon}} I'm here to help out.
-::'''Xavier:''' To help out, you say? I say, from the looks of your attire, we two are fellow Inazumaphiles on a pilgrimage of passion! A rare pleasure, my friend.
-::'''Xavier:''' I must say, I am touched by your kind intentions. But I must also apologize for being frank in saying that I don't believe there is any help you can offer...
-:'''Xavier:''' On the way here, did you happen to see a protective cover that looks like... a bubble?
-:{{DIcon}} No, I didn't.
-:'''Xavier:''' Oh... Okay then. No, that makes sense, the containment dome's not usually visible &mdash; if you want to view it from a distance, you have to employ a specific observation technique...
-:{{DIcon}} So how do you do it?
-:{{DIcon}} Surely you can't see it either?
-:'''Xavier:''' Not with my eyes, that's for sure. I... "view" it by availing myself of this work: the "Mikage Furnace Emergency Response Procedures (Trial Version)."
-:'''Xavier:''' I've followed the instructions to the letter. Based on the readings given by the instrument, it seems that the dome has been successfully activated.
-:'''Xavier:''' Ah, one other thing I should mention is that, technically speaking, its official name is the Mikage Furnace Emergency Containment Dome.
-:'''Xavier:''' Now, as for the Mikage Furnace&mdash;
-:{{DIcon}} Miyuki already explained.
+;(If the {{Quest|A Dance of Destruction}} has not been completed)
+::{{DIcon}} Hello, are you Xavier?
+::'''Xavier:''' That's right! Xavier's the name and the name's mine! But is it fate fair or foul that we should meet at this time and place? Pray tell, fine {{MC|m=lad|f=lass}}, who are you?
+::{{DIcon}} I'm just a helpful adventurer.
+:::'''Xavier:''' Adventurer? Ah, a grand adventurer, en route to the stars, the abyss, and beyond, arrives here on the island of conflict and Tatarigami!
+::{{DIcon}} I'm here to help out.
+:::'''Xavier:''' To help out, you say? I say, from the looks of your attire, we two are fellow Inazumaphiles on a pilgrimage of passion! A rare pleasure, my friend.
+:::'''Xavier:''' I must say, I am touched by your kind intentions. But I must also apologize for being frank in saying that I don't believe there is any help you can offer...
+::'''Xavier:''' On the way here, did you happen to see a protective cover that looks like... a bubble?
+::{{DIcon}} No, I didn't.
+::'''Xavier:''' Oh... Okay then. No, that makes sense, the containment dome's not usually visible &mdash; if you want to view it from a distance, you have to employ a specific observation technique...
+::{{DIcon}} So how do you do it?
+::{{DIcon}} Surely you can't see it either?
+::'''Xavier:''' Not with my eyes, that's for sure. I... "view" it by availing myself of this work: the "Mikage Furnace Emergency Response Procedures (Trial Version)."
+::'''Xavier:''' I've followed the instructions to the letter. Based on the readings given by the instrument, it seems that the dome has been successfully activated.
+::'''Xavier:''' Ah, one other thing I should mention is that, technically speaking, its official name is the Mikage Furnace Emergency Containment Dome.
+::'''Xavier:''' Now, as for the Mikage Furnace&mdash;
+::{{DIcon}} Miyuki already explained.
+:::'''Xavier:''' Fantastic! She is a considerate and capable young lady. Ah, what a blessing it is to become acquainted with one such as her.
+::{{DIcon}} Please give me the short version.
+:::'''Xavier:''' ...Basically, it's a super-smelter built using Fontaine technology, powered by a Tatarigami core brought over from [[Yashiori Island]].
+:::'''Xavier:''' Due to the impact of the war, the Mikage Furnace is now in an extremely unstable state...
+::'''Xavier:''' But whatever happens, I've now sealed it following the Mikage Furnace Emergency Response Procedures (Trial Version), so the problem is almost certainly contained, to a certain extent...
+::{{DIcon}} "To a certain extent"?
+::'''Xavier:''' Well, it might be 893 pages long, but the trial version has no information on the emergency measures applicable in a wartime scenario...
+::'''Xavier:''' We need to form an editors' group for a Trial Version: Expanded Edition (1st Issue) and have a detailed discussion on additional emergency scenarios...
+;(If ''A Dance of Destruction'' has been completed)
+::{{DIcon}} What's the matter?
+::'''Xavier:''' {{Traveler}}! I never expected to see you here. What a wonderful surprise!
+::{{DIcon}} I'm here to help out.
+::'''Xavier:''' To help out, you say? Well... I'm truly grateful for your kindness, and it's nothing short of a blessing to meet a {{MC|m=good gentleman|f=fair lady}} like you right here and now.
+::'''Xavier:''' But, with all due respect, as for the problem I'm facing right now... even though you look quite skilled, I don't believe there is any help you can offer...
+::'''Xavier:''' After all, we cannot fix the Mikage Furnace with just two very kind hearts...
+::'''Xavier:''' On the way here, did you happen to see a protective cover that looks like... a bubble?
+::{{DIcon}} Not really.
+::'''Xavier:''' Oh... Okay then. No, that makes sense, the containment dome's not usually visible &mdash; if you want to view it from a distance, you have to employ a specific observation technique...
+::{{DIcon}} So how do you do it?
+::{{DIcon}} Surely you can't see it either?
+::'''Xavier:''' Not with my eyes, that's for sure. I... "see" it by availing myself of the "Mikage Furnace Emergency Response Procedures (Trial Version)."
+::'''Xavier:''' I've followed the instructions to the letter. Based on the readings provided by the instrument, it seems that the dome has been successfully activated.
+::'''Xavier:''' Ah, one other thing I should mention is that, technically speaking, its official name is the Mikage Furnace Emergency Containment Dome.
+::'''Xavier:''' Now, as for the Mikage Furnace&mdash;
+::{{DIcon}} Miyuki's already explained.
 ::'''Xavier:''' Fantastic! She is a considerate and capable young lady. Ah, what a blessing it is to become acquainted with one such as her.
-:{{DIcon}} Please give me the short version.
-::'''Xavier:''' ...Basically, it's a super-smelter built using Fontaine technology, powered by a Tatarigami core brought over from [[Yashiori Island]].
+::{{DIcon}} Please give me the short version.
+::'''Xavier:''' ...Basically, it's a super-smelter built using Fontaine technology, powered by a Tatarigami core brought over from Yashiori Island.
 ::'''Xavier:''' Due to the impact of the war, the Mikage Furnace is now in an extremely unstable state...
-:'''Xavier:''' But whatever happens, I've now sealed it following the Mikage Furnace Emergency Response Procedures (Trial Version), so the problem is almost certainly contained, to a certain extent...
-:{{DIcon}} "To a certain extent"?
-:'''Xavier:''' Well, it might be 893 pages long, but the trial version has no information on the emergency measures applicable in a wartime scenario...
-:'''Xavier:''' We need to form an editors' group for a Trial Version: Expanded Edition (1st Issue) and have a detailed discussion on additional emergency scenarios...
+::'''Xavier:''' But whatever happens, I've now sealed it following the "Mikage Furnace Emergency Response Procedures (Trial Version)," so the problem is almost certainly contained, to some extent...
+::{{DIcon}} "To some extent"?
+::'''Xavier:''' Well, it might be 893 pages long, but the trial version has no information on the emergency measures applicable in a wartime scenario...
+::'''Xavier:''' We need to form an editors' group for the "Trial Version: Expanded Edition (1st Issue)" and have a detailed discussion on additional emergency scenarios...
 :'''Xavier:''' Anyway, point being, even though I have followed the emergency response measures, they aren't the most complete... and the environment within the containment dome has turned... hmm... less than ideal, shall we say.
 :'''Xavier:''' The Mikage Furnace has now ceased operation indefinitely, and that soldier is getting incredibly antsy about it.
 :'''Xavier:''' Allegedly, Miyuki recently borrowed some of his people to arrange for the evacuation of the civilians. Now that really got him riled up, hahaha...
@@ -176,15 +207,22 @@ Start the quest by approaching [[Toranosuke]] and [[Miyuki]] at [[Kujou Encampme
 :'''Xavier:''' Back in my beautiful homeland of Fontaine, we would normally have a [[Vision]]-wielding expert diagnose the problem.
 :'''Xavier:''' Then, we would form a dedicated review panel to discuss and raise proposals, approve a solution, then organize the remedial work.
 :'''Xavier:''' But with Inazuma being the way it is right now, all I can do is try to determine what might be going on through naked-eye observations and my imagination.
-:{{DIcon}} In short, you're taking a best guess?
-:'''Xavier:''' "Best guess"!? My dear {{MC|boy|girl|mc=1}}, please! That is a woefully inadequate representation of what goes on. A fairer description would be "observation and inference drawing on a wealth of professional experience, including analogous previous cases."
+;(If ''A Dance of Destruction'' has not been completed)
+::{{DIcon}} In short, you're taking a best guess?
+::'''Xavier:''' "Best guess"!? My dear {{MC|m=boy|f=girl}}, please! That is a woefully inadequate representation of what goes on. A fairer description would be "observation and inference drawing on a wealth of professional experience, including analogous previous cases."
+;(If ''A Dance of Destruction'' has been completed)
+::{{DIcon}} In short, you're guesstimating?
+::'''Xavier:''' "Guesstimating"!? My dear {{MC|m=boy|f=girl}}, please! That is a woefully inadequate representation of what goes on. A fairer description would be "observation and inference drawing on a wealth of professional experience, including analogous previous cases."
 :{{DIcon}} Okay, so an educated guess.
 :'''Xavier:''' Precisely.
 :'''Xavier:''' So my... ahem, guess is that it could conceivably... potentially? Possibly? Probably be an issue with the device containing the Tatarigami core that is having a knock-on effect on the containment dome I installed.
 :'''Xavier:''' But even if that's the case, the readings given by this instrument seem off... Something must have happened outside the dome as well...
 :{{DIcon}} So you're just missing your Vision bearer, yes?
 :{{DIcon}} So you're lacking someone capable of investigating?
-:'''Xavier:''' Um, yes, that's it. Under the current circumstance, in the area around the Mikage Furnace, only a Vision bearer would be... well, safe.
+;(If ''A Dance of Destruction'' has not been completed)
+::'''Xavier:''' Um, yes, that's it. Under the current circumstance, in the area around the Mikage Furnace, only a Vision bearer would be... well, safe.
+;(If ''A Dance of Destruction'' has been completed)
+::'''Xavier:''' Um, yes, that's it. Under the current circumstances, in the area around the Mikage Furnace, only a Vision bearer would be... well, safe.
 :'''Xavier:''' Anyone else would probably make it around three paces.
 :'''Xavier:''' Except for me, I'm a special case, haha... I'd have croaked about halfway through taking my first step.
 :'''Xavier:''' In short, if we only knew what exactly was going on with the Mikage Furnace, I'd likely be able to formulate a repair plan. But we'd still need a review panel to approve it...
@@ -323,7 +361,7 @@ Start the quest by approaching [[Toranosuke]] and [[Miyuki]] at [[Kujou Encampme
 ::'''Xavier:''' To be honest, my real reason for being here was to shoot a "dokumentari film" on-site at the Mikage Furnace for the purpose of promoting our nation's technologies.
 ::'''Xavier:''' But seeing the furnace's current state, I think it's best if I didn't shoot that film...
 :{{DIcon}} What is Fontaine like?
-::'''Xavier:''' Ah, my fine lass, that's a splendiferous question!
+::'''Xavier:''' Ah, my fine {{MC|m=lad|f=lass}}, that's a splendiferous question!
 ::'''Xavier:''' Indeed, I often ask myself how I might describe the charm of my country to others, even with my limited knowledge and vocabulary.
 ::'''Xavier:''' Now, what should I speak of first?
 ::'''Xavier:''' For instance, I could tell you of the majestic waterfall that made a deep impression on my soul as I worked in my study in [[Petrichor]].
@@ -376,7 +414,7 @@ Start the quest by approaching [[Toranosuke]] and [[Miyuki]] at [[Kujou Encampme
 :'''Xavier:''' If all the other emergency systems are working normally, most of the energy circuits inside the device should have been cut off already. That I would consider great fortune, even amidst our many miseries.
 :'''Xavier:''' Hmmm... I have a few more preparations to make, and I also need to give the problems we face here at the Mikage Furnace some thought...
 :'''Xavier:''' Come find me after a while. We still have a lot of work to do here.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Gallery==
 <gallery>
@@ -390,17 +428,8 @@ Tatara Tales Kamuijima Cannon East.png|Kamuijima Cannon pointing towards the eas
 Tatara Tales Mikage Furnace Storage Device.png|Mikage Furnace storage device
 </gallery>
 
-==Video Guides==
-{{EVT
-|video1   = https://youtu.be/ruLDrz8JoTA
-|caption1 = 
-
-|video2   = https://youtu.be/SbthUfs9RGI
-|caption2 = Tatara Tales Guide
-}}
-
 ==Other Languages==
-{{Transclude|Tatara Tales|Other Languages}}
+{{Other Languages|Tatara Tales}}
 
 ==Change History==
 {{Change History|2.0}}

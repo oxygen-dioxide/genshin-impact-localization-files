@@ -2,10 +2,10 @@
 |image         = Talent Gust Surge.png
 |character     = Traveler (Anemo)
 |type          = Elemental Burst
-|info          = Guiding the path of the wind currents, you summon a forward-moving [[Vacuum Field|tornado]] that pulls objects and opponents towards itself, dealing continuous {{Color|Anemo DMG}}.<br /><br />'''[[Elemental Absorption]]'''<br />If the tornado comes into contact with {{Color|Hydro}}/<wbr>{{Color|Pyro}}/<wbr>{{Color|Cryo}}/<wbr>{{Color|Electro}}, it will deal additional {{Color|Black|Elemental DMG}} of that type.<br />Elemental Absorption may only occur once per use.
+|info          = Guiding the path of the wind currents, you summon a forward-moving [[Vacuum Field|tornado]] that pulls objects and opponents towards itself, dealing continuous {{Color|Anemo DMG}}.<br><br>'''Elemental Absorption'''<br>If the tornado comes into contact with {{Color|Hydro}}/{{Color|Pyro}}/{{Color|Cryo}}/{{Color|Electro}}, it will deal additional {{Color|Black|Elemental DMG}} of that type.<br>[[Elemental Absorption]] may only occur once per use.
 |utility1      = Elemental Absorption
 |utility2      = Vacuum Field
-|utility3      = AoE
+|utility3      = Struggle State
 |energyCost    = 60
 |CD            = 15s
 |duration      = 6s
@@ -19,14 +19,14 @@
 '''Gust Surge''' is [[Traveler (Anemo)]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* {{TalentNote|energy frame|8}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
-* {{TalentNote|cooldown frame|2}}<ref name="Genshin Academy burst info sheet" />
 * Tornado DMG and Additional Elemental DMG can strike up to '''9''' times: once every 0.5 seconds from 2 to 6 seconds after activating Gust Surge.
 * Unlike other Talents with Elemental Absorption, Anemo Traveler's absorption priority is {{Cryo}} > {{Pyro}} > {{Hydro}} > {{Electro}}.
+* The tornado will continuously apply a [[Struggle]] state to enemies near it whose [[weight]] is less than or equal to '''100''', preventing them from performing any actions and allowing them to be lifted into the air by the Vacuum Field.
+** However, the Struggle state will not be applied to enemies more than 20 levels higher than Traveler.
 
 ;<big>Constellation Effects</big>
-* {{TalentNote|constellation|3|Sweeping Gust}}
-* {{TalentNote|constellation|6|Intertwined Winds}}
+* {{Talent Note|constellation|3|Sweeping Gust}}
+* {{Talent Note|constellation|6|Intertwined Winds}}
 
 ==Advanced Properties==
 {{Advanced Properties
@@ -129,8 +129,8 @@
 {{Talent VO/Traveler|character=Lumine}}
 
 ==Trivia==
-* {{Transclude|Rising Star|Glowing Ornaments|section=1}}
-* {{Transclude|Rising Star|Projection of Elemental Symbol|section=1}}
+* {{Transclude|Rising Star|Glowing Ornaments}}
+* {{Transclude|Rising Star|Projection of Elemental Symbols}}
 
 ==Other Languages==
 {{Other Languages
@@ -139,7 +139,7 @@
 |zhs_rm  = Fēng Xī Jīdàng
 |zht     = 風息激盪
 |zht_rm  = Fēng Xí Jīdàng
-|zh_tl   = Surge of Wind-Breath
+|zh_tl   = Surging Wind Breath
 |ja      = 激風の息
 |ja_rm   = Gekifuu no Iki{{Assumed}}
 |ja_tl   = Breath of Surging Wind
@@ -161,17 +161,17 @@
 |pt      = Ondas de Rajadas
 |pt_tl   = 
 |tr      = Ani Rüzgar Dalgası
-|tr_tl   = 
+|tr_tl   = Sudden Wind Surge
 |it      = Raffica di vento
 |it_tl   = Gust of Wind
 }}
 
 ==Change History==
 {{Change History|1.0}}
-
+<!--
 ==References==
 {{Reflist}}
-
+-->
 ==Navigation==
 {{Talent Navbox|Traveler (Anemo)}}
 
@@ -181,4 +181,5 @@
 [[pt-br:Ondas de Rajadas]]
 [[ru:Взрывное торнадо]]
 [[th:Gust Surge]]
+[[uk:Затишшя перед бурею]]
 [[vi:Khuấy Động Gió Tàn]]

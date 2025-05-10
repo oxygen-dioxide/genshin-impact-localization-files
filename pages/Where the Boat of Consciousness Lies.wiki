@@ -6,9 +6,8 @@
 |act           = Akasha Pulses, the Kalpa Flame Rises
 |actNum        = V
 |part          = 4
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
-|characters    = Greater Lord Rukkhadevata; Il Dottore; Nahida; Paimon; Traveler; Scaramouche <!-- cutscene -->; Tighnari <!-- cutscene -->; Alhaitham <!-- cutscene -->; Nilou <!-- cutscene -->; Cyno <!-- cutscene -->
+|characters    = Greater Lord Rukkhadevata; Dottore; Nahida; Paimon; Traveler; Scaramouche <!-- cutscene -->; Tighnari <!-- cutscene -->; Alhaitham <!-- cutscene -->; Nilou <!-- cutscene -->; Collei <!-- cutscene -->; Cyno <!-- cutscene -->; Dunyarzad <!-- cutscene -->; Khalil <!-- cutscene -->
 |startLocation = [[Sanctuary of Surasthana]], [[Sumeru]]
 |region        = Sumeru
 |area          = Avidya Forest
@@ -19,10 +18,7 @@
 |domain2       = The Shrine of Shouki no Kami
 |domain3       = The Greater Lord's Remaining Consciousness
 |domain4       = That Day Under Irminsul
-|exp           = 1,150
-|mora          = 45,525
-|primogems     = 30
-|other         = {{Card|Memory of Flourishing Green|1}}{{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
+|rewards       = Adventure EXP*1,150;Primogem*30;Mora*45,525;Memory of Flourishing Green*1;Hero's Wit*4;Mystic Enhancement Ore*8
 |voiced        = yes
 }}
 {{TeyvatQuest|title=Where the Boat of Consciousness Lies|chapter=3|act=5|part=4}}
@@ -35,6 +31,7 @@
 #* Upon exiting the elevator, the player will be teleported into the Quest Domain [[The Shrine of Shouki no Kami]].
 # Talk to The Balladeer
 # Defeat the [[Everlasting Lord of Arcane Wisdom]]
+#* {{Enemy|Everlasting Lord of Arcane Wisdom|text=Everlasting Lord of Arcane Wisdom &mdash; Shouki no Kami, the Prodigal}}
 # Enter Greater Lord Rukkhadevata's last memory
 #* The player will be teleported into the Quest Domain [[The Greater Lord's Remaining Consciousness]].
 # Talk to Nahida
@@ -50,11 +47,10 @@
 * During Step 5, Nahida will join the party as a trial character.
 * The first time players fight Shouki no Kami's second phase, players are not required to deal damage and only need to survive until the cinematic begins.
 * Two major events occur in this quest that result in significant changes to the game world at its conclusion:
-** [[Greater Lord Rukkhadevata]] is removed from [[Irminsul]], effectively erasing her from the history of [[Teyvat]]. Nearly all texts, descriptions, and voice-overs that reference her are changed to reflect this. (A more detailed list can be found in [[Irminsul#Greater Lord Rukkhadevata|Irminsul § Greater Lord Rukkhadevata]].)
+** [[Greater Lord Rukkhadevata]] is removed from [[Irminsul]], effectively erasing her from the history of [[Teyvat]]. Nearly all texts, descriptions, and voice-overs that reference her are changed to reflect this. (A more detailed list can be found in {{S|Irminsul/Modifications#Greater Lord Rukkhadevata}}.)
 ** [[Lesser Lord Kusanali]] shuts down the [[Akasha System|Akasha]]. Characters previously shown to wear Akasha Terminals no longer do so, as they have been rendered useless.
-
-==Achievements==
-* Completing Step 7 grants the ''[[Wonders of the World]]'' achievement ''[[...I'm Sorry, Sir, But You're Ineligible]]''.
+* This quest may be blocked by [[Tighnari]]'s Story Quest because of a shared location until the 3rd step of [[Into the Hinterland]] is completed.
+* Completing Step 7 grants the {{Achievement|...I'm Sorry, Sir, But You're Ineligible}}.
 
 ==Trial Character==
 {{Trial Character
@@ -94,9 +90,9 @@
 
 ==Dialogue==
 {{Quest Description|Although you have saved Lesser Lord Kusanali, there is no time to celebrate or rest, for there is a nascent god to stop and Irminsul to save... Now, the fate of Teyvat is in your hands.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After the previous quest)
-:{{A|vo xmaq304 1 paimon 01.ogg}} '''Paimon:''' We might as well prepare for a fight, (Traveler).
+:{{A|vo xmaq304 1 paimon 01.ogg}} '''Paimon:''' We might as well prepare for a fight, {{Traveler}}.
 :{{A|vo xmaq304 1 paimon 02.ogg}} '''Paimon:''' When we're done, we can take a walk around. After all, we missed out on a lot of stuff when we were locked up.
 
 ;(Talk to Viraf outside the Sanctuary of Surasthana, optional)
@@ -133,8 +129,8 @@
 :{{DIcon}} Are you actually upset...?
 :{{DIcon}} It looks completely different from you!
 :{{A|vo xmaq304 4 nahida 06.ogg}} '''Nahida:''' It's alright, Paimon. It can't replace you.
-:{{A|vo xmaq304 4 nahida 07.ogg}} '''Nahida:''' It's only a flying device, but you're (Traveler)'s irreplaceable friend.
-:{{A|vo xmaq304 4 paimon 06.ogg}} '''Paimon:''' Waah, you're so good at comforting people, Nahida. If only (Traveler) was as smart as you...
+:{{A|vo xmaq304 4 nahida 07.ogg}} '''Nahida:''' It's only a flying device, but you're {{Traveler}}'s irreplaceable friend.
+:{{A|vo xmaq304 4 paimon 06.ogg}} '''Paimon:''' Waah, you're so good at comforting people, Nahida. If only {{Traveler}} was as smart as you...
 :{{DIcon}} Hmm...
 :{{A|vo xmaq304 4 nahida 08.ogg}} '''Nahida:''' Hm? I was simply telling you what I feel to be the truth. I wasn't trying to comfort you.
 :{{A|vo xmaq304 4 paimon 07.ogg}} '''Paimon:''' Nahida, you're a natural at this! What you just said made Paimon even happier!
@@ -172,9 +168,7 @@
 :{{DIcon}} But none of them were pleasant.
 :{{A|vo xmaq304 5 nahida 12.ogg}} '''Nahida:''' I see. Tell me more about him and what he's like...
 :{{A|vo xmaq304 5 nahida 13.ogg}} '''Nahida:''' The more we know now, the better we can plan for and react to any future situation.
-
-:'''You tell Nahida everything you know about The Balladeer...'''
-
+:{{Black Screen|You tell Nahida everything you know about The Balladeer...}}
 :{{A|vo xmaq304 5 nahida 14.ogg}} '''Nahida:''' Ah... I see. How fascinating.
 :{{A|vo xmaq304 5 nahida 15.ogg}} '''Nahida:''' Alright, time to go. Let's get through here and meet him in person.
 
@@ -235,8 +229,7 @@
 ::'''The Balladeer:''' Looking back
 ::'''The Balladeer:''' The existence of what once called itself "Kunikuzushi" appears infinitely small
 ::'''The Balladeer:''' And ugly
-
-::'''Shouki no Kami, the Prodigal<br />Everlasting Lord of Arcane Wisdom'''
+::{{Black Screen|Shouki no Kami, the Prodigal<br>Everlasting Lord of Arcane Wisdom}}
 :;(Cinematic ends)
 :{{A|vo xmaq304 7 paimon 01.ogg}} '''Paimon:''' This imposing aura... It really feels like a god's...
 :{{A|vo xmaq304 7 nahida 01.ogg}} '''Nahida:''' A body that capitalizes on The Balladeer's original construction as a mechanical puppet, with the Gnosis serving as a constant power supply...
@@ -268,22 +261,24 @@
 :{{A|vo xmaq304 7 scaramouche 11.ogg}} '''Everlasting Lord of Arcane Wisdom:''' Let us reenact a scene of the Archon War. Come and inaugurate my birth as a god.
 ----
 ;(A [[#Gallery|cinematic]] plays a certain amount of time after entering the second phase)
-{{Cutscene Description|Despite your best efforts, you are no match for Shouki no Kami. Seeing that you are losing, Nahida throws herself in front of you. Shouki no Kami's giant limb grabs Nahida, and The Balladeer, beneath his mechanical shell, reaches out to seize her Gnosis. As you look upon what seems like a destined defeat, you somehow feel a strong sense of déjà vu. Your surroundings start to collapse as Nahida uses her power. As it turns out, all your previous fights were in a samsara dream.<br />According to Nahida, this is the 168th loop. Now, she's sending you all the battle experience collected previously in the form of Canned Knowledge. Meanwhile, Nahida also sends everything that happened just now to the people of Sumeru in the form of knowledge and asks them to help you find a way to defeat this false god.<br />Now, all of Sumeru's wisdom is at your disposal. As the First Sage of the God of Wisdom Buer, you begin the true battle against Shouki no Kami.}}
+{{Cutscene Description|Despite your best efforts, you are no match for Shouki no Kami. Seeing that you are losing, Nahida throws herself in front of you. Shouki no Kami's giant limb grabs Nahida, and The Balladeer, beneath his mechanical shell, reaches out to seize her Gnosis. As you look upon what seems like a destined defeat, you somehow feel a strong sense of déjà vu. Your surroundings start to collapse as Nahida uses her power. As it turns out, all your previous fights were in a samsara dream.<br>According to Nahida, this is the 168th loop. Now, she's sending you all the battle experience collected previously in the form of Canned Knowledge. Meanwhile, Nahida also sends everything that happened just now to the people of Sumeru in the form of knowledge and asks them to help you find a way to defeat this false god.<br>Now, all of Sumeru's wisdom is at your disposal. As the First Sage of the God of Wisdom Buer, you begin the true battle against Shouki no Kami.}}
 ::'''The Balladeer:''' This is supposed to be a battle between gods, yet you choose to hide behind a mortal
 ::'''The Balladeer:''' And now, you're acting like you'd sacrifice yourself for a human...
 ::'''The Balladeer:''' Are you having fun proving a false sense of heroism to yourself, Buer?
 :;(The Balladeer rams his hand through Nahida's chest, to the Traveler's horror)
 ::'''Nahida:''' The data collection is almost complete
 ::'''Nahida:''' Do you even know how many times you've tried to take my Gnosis from me?
-:;(Their surroundings shatter and Nahida, the Traveler, and Paimon are located back in the positions they were in before the fight began)
+:;(Their surroundings shatter and Nahida, the Traveler, and Paimon are relocated to the positions they were in before the fight began)
 ::'''Nahida:''' We just concluded the 168th loop
 ::'''Nahida:''' Did you know that, in the effort to create you
 ::'''Nahida:''' The people of Sumeru were forced to live through the exact same number of Sabzeruz Festivals and samsara cycles?
 ::'''The Balladeer:''' The power of dreams... When did you use it on me...
+:;(The Traveler remembers Nahida using her power on the Balladeer earlier, which was stored in the Neo Akasha Terminal)
 ::'''The Balladeer:''' You can't even defeat me in a dream
 ::'''The Balladeer:''' What do you hope to achieve with this little trick?
 ::'''Nahida:''' Come, Traveler, just like before
 ::'''Nahida:''' Allow me to awaken the memories in your dreams
+:;(Nahida bestows canned knowledge of the past samara cycles unto the Traveler)
 ::'''Paimon:''' All that battle experience!
 ::'''Nahida:''' It's more than that
 ::'''Nahida:''' "Compile everyone's wisdom in the name of the archon"
@@ -292,8 +287,10 @@
 ::'''Nahida:''' I've sent everything that happened just now
 ::'''Nahida:''' To the people of Sumeru in the form of knowledge
 ::'''Nahida:''' I've asked them... to help you find a way to defeat the false god
+:;(Nahida links the people of Sumeru through the Neo Akasha Terminal, charging it to its maximum level)
 ::'''Nahida:''' Now, all of Sumeru's wisdom is at your disposal
 ::'''The Balladeer:''' Meaningless tricks won't save you!
+:;(The Shouki no Kami violently slams against the Traveler and the others, quaking the entire shrine, then unleashes the Electro beam to them. However, the attacks the Balladeer had used while stuck inside the samsara cycle were easily evaded)
 ::'''The Balladeer:''' Heh... Are you done with your tricks?
 ::'''The Balladeer:''' Can I finally take this as a real battle between gods?
 ::'''Nahida:''' Mm, I'll leave this to you
@@ -302,9 +299,9 @@
 ----
 ;(After defeating Everlasting Lord of Arcane Wisdom)
 ;(A cinematic plays)
-{{Cutscene Description|You manage to defeat Shouki no Kami with Nahida's help. She walks forward and takes the Gnosis away from The Balladeer. Having lost the Gnosis, which now houses all his strong obsessions, The Balladeer falls out of his giant mechanical shell in despair and drops to the ground.<br />Now, with the power of another Gnosis in her hands, Nahida can finally understand the final memory of Greater Lord Rukkhadevata. A Divine Knowledge Capsule materializes in her hand &mdash; this is the last memory of the Greater Lord.}}
+{{Cutscene Description|You manage to defeat Shouki no Kami with Nahida's help. She walks forward and takes the Gnosis away from The Balladeer. Having lost the Gnosis, which now houses all his strong obsessions, The Balladeer falls out of his giant mechanical shell in despair and drops to the ground.<br>Now, with the power of another Gnosis in her hands, Nahida can finally understand the final memory of Greater Lord Rukkhadevata. A Divine Knowledge Capsule materializes in her hand &mdash; this is the last memory of the Greater Lord.}}
 ::'''The Balladeer:''' Humans... filthy humans...!
-:;(Nahida floats up to Shouki no Kami's core and begins extracting the Gnosis)
+:;(Nahida floats up to Shouki no Kami's core and begins extracting the Electro Gnosis)
 ::'''The Balladeer:''' No!
 ::'''The Balladeer:''' Wait!
 ::'''The Balladeer:''' Please
@@ -330,9 +327,7 @@
 ::{{DIcon}} Surely not...
 ::{{DIcon}} It must be due to forbidden knowledge.
 :{{A|vo xmaq304 8 nahida 02.ogg}} '''Nahida:''' Forbidden knowledge? Hmm, it seems you know about a concept that even I don't completely understand. Could you tell me what you know?
-
-:'''You tell Nahida all about what you had learned in the desert.'''
-
+:{{Black Screen|You tell Nahida all about what you had learned in the desert.}}
 :{{A|vo xmaq304 8 nahida 03.ogg}} '''Nahida:''' Your inference seems logical enough...
 :{{A|vo xmaq304 8 nahida 04.ogg}} '''Nahida:''' Forbidden knowledge once polluted the desert thousands of years ago, but was successfully repelled thanks to King Deshret's self-sacrifice and Greater Lord Rukkhadevata nearly exhausting her power.
 :{{A|vo xmaq304 8 nahida 05.ogg}} '''Nahida:''' Then a second instance of forbidden knowledge pollution occurred during the Khaenri'ah cataclysm five hundred years ago.
@@ -477,8 +472,8 @@
 :{{A|vo xmaq304 10 rukkhadevata 50.ogg}} '''Greater Lord Rukkhadevata:''' These are the words in their entirety... the answer you've been seeking all along.
 :{{A|vo xmaq304 10 rukkhadevata 51.ogg}} '''Greater Lord Rukkhadevata:''' "Let the world completely forget me."
 ;(A [[#Gallery|cinematic]] plays)
-{{Cutscene Description|Lesser Lord Kusanali embraces Greater Lord Rukkhadevata tearfully. At this sorrowful moment of parting, the last consciousness of the Greater Lord gradually dissipates into beautiful light that illuminates the night sky. All dreams shall now be returned to the people of Sumeru.<br />"We all nestle under the great tree of wisdom, peering out to perceive the world."<br />"From the earth, and from the rain, we perceive its wonders until we become a white bird to perch atop a branch..."<br />"And finally snap off the most important leaf."<br />"Once upon a time, I alone dreamed in this world."<br />"In my dreams, everybody would also dream after they fell asleep."<br />"Wild and wonderful thoughts would emerge from their minds."<br />"Some tumbled to the ground, and others floated to the sky."<br />"Connecting all things in the world into one dazzling net."<br />"Amongst the plethora of worlds were numerous smaller worlds."<br />"All of fate finding within the tapestry their brilliant glow."<br />"I gradually understood that these indescribable and constantly changing things"<br />"Are the most profound things in the world."<br />"Only they can completely repel the madness."<br />"Only dreams can awaken consciousness from the deepest darkness."<br />"I'm the one who posed this question, yet also the one who sought a solution"<br />"Saving the world with the dreams of the people used to be my answer."<br />"And now you've also found your own answer."<br />"And I shall return all the dreams to the people."<br />"Goodbye, people of Sumeru."<br />"May you be blessed tonight with the sweetest of dreams."}}
-:;(Greater Lord Rukkhadevata walks over to Nahida and hugs her)
+{{Cutscene Description|Lesser Lord Kusanali embraces Greater Lord Rukkhadevata tearfully. At this sorrowful moment of parting, the last consciousness of the Greater Lord gradually dissipates into beautiful light that illuminates the night sky. All dreams shall now be returned to the people of Sumeru.<br>"We all nestle under the great tree of wisdom, peering out to perceive the world."<br>"From the earth, and from the rain, we perceive its wonders until we become a white bird to perch atop a branch..."<br>"And finally snap off the most important leaf."<br>"Once upon a time, I alone dreamed in this world."<br>"In my dreams, everybody would also dream after they fell asleep."<br>"Wild and wonderful thoughts would emerge from their minds."<br>"Some tumbled to the ground, and others floated to the sky."<br>"Connecting all things in the world into one dazzling net."<br>"Amongst the plethora of worlds were numerous smaller worlds."<br>"All of fate finding within the tapestry their brilliant glow."<br>"I gradually understood that these indescribable and constantly changing things"<br>"Are the most profound things in the world."<br>"Only they can completely repel the madness."<br>"Only dreams can awaken consciousness from the deepest darkness."<br>"I'm the one who posed this question, yet also the one who sought a solution"<br>"Saving the world with the dreams of the people used to be my answer."<br>"And now you've also found your own answer."<br>"And I shall return all the dreams to the people."<br>"Goodbye, people of Sumeru."<br>"May you be blessed tonight with the sweetest of dreams."}}
+:;(Greater Lord Rukkhadevata walks over to Nahida, raises the younger archon's tear-filled face to meet her gaze and lovingly embraces her)
 ::'''Greater Lord Rukkhadevata:''' We all nestle under the great tree of wisdom
 ::'''Greater Lord Rukkhadevata:''' Peering out to perceive the world
 ::'''Greater Lord Rukkhadevata:''' From the earth
@@ -500,7 +495,7 @@
 ::'''Greater Lord Rukkhadevata:''' Were numerous smaller worlds
 ::'''Greater Lord Rukkhadevata:''' All of fate
 ::'''Greater Lord Rukkhadevata:''' Finding within the tapestry their brilliant glow
-:;(With tears in her eyes, Lesser Lord Kusanali summons her Dendro powers before returning Greater Lord Rukkhadevata's hug, causing the Greater Lord to fade away before finally shattering into glowing green petals)
+:;(The tears in her eyes cascading down her cheeks, Lesser Lord Kusanali painfully clenches her fists, then opening them to summon her Dendro powers before returning Greater Lord Rukkhadevata's hug as she weeps, causing the Greater Lord to fade away before finally shattering into glowing green petals)
 ::'''Greater Lord Rukkhadevata:''' I gradually understood
 ::'''Greater Lord Rukkhadevata:''' That these indescribable
 ::'''Greater Lord Rukkhadevata:''' And constantly changing things
@@ -510,7 +505,7 @@
 ::'''Greater Lord Rukkhadevata:''' Only dreams
 ::'''Greater Lord Rukkhadevata:''' Can awaken consciousness
 ::'''Greater Lord Rukkhadevata:''' From the deepest darkness
-:;(The green petals float over Sumeru as dreams are returned to the people, falling on various people afflicted by Eleazar or went mad after connecting their minds with the Irminsul)
+:;(Nahida falls to her knees, devastated, her shoulders wracked with sobs. She looks up as the petals flow upward together in a gentle wind towards the crown of Irminsul. The green petals float over Sumeru as dreams are returned to the people, falling on various people afflicted by Eleazar or who went mad after connecting their minds with the Irminsul)
 ::'''Greater Lord Rukkhadevata:''' I'm the one who posed this question
 ::'''Greater Lord Rukkhadevata:''' Yet also the one who sought a solution
 ::'''Greater Lord Rukkhadevata:''' Saving the world with the dreams of the people
@@ -527,7 +522,7 @@
 :{{A|vo xmaq304 11 nahida 01.ogg}} '''Nahida:''' ...
 :{{DIcon}} Nahida?
 :{{DIcon}} ...Are you alright?
-:{{A|vo xmaq304 11 nahida 02.ogg}} '''Nahida:''' Ah, (Traveler), I&mdash;I'm all right. I'm just a little confused...
+:{{A|vo xmaq304 11 nahida 02.ogg}} '''Nahida:''' Ah, {{Traveler}}, I&mdash;I'm all right. I'm just a little confused...
 :{{DIcon}} What are you confused about?
 :{{A|vo xmaq304 11 nahida 03.ogg}} '''Nahida:''' We've just saved the world, right?
 :{{A|vo xmaq304 11 nahida 04.ogg}} '''Nahida:''' So why... why am I crying?
@@ -539,13 +534,13 @@
 :{{A|vo xmaq304 11 nahida 07.ogg}} '''Nahida:''' Then, we removed the remaining pollution from Irminsul...
 :{{DIcon}} (She's forgotten her...)
 :{{DIcon}} (Did I manage to remember because I'm not from this world?)
-:{{A|vo xmaq304 11 paimon 01.ogg}} '''Paimon:''' Yeah, what's wrong? (Traveler), weren't you there just now?
-:'''(Traveler):''' (Paimon doesn't seem to remember either. Has everybody really forgotten Greater Lord Rukkhadevata?)
-:'''(Traveler):''' (Should I... tell them the truth?)
+:{{A|vo xmaq304 11 paimon 01.ogg}} '''Paimon:''' Yeah, what's wrong? {{Traveler}}, weren't you there just now?
+:'''{{Traveler}}:''' (Paimon doesn't seem to remember either. Has everybody really forgotten Greater Lord Rukkhadevata?)
+:'''{{Traveler}}:''' (Should I... tell them the truth?)
 :'''???:''' *Buzzing*
-:'''(Traveler):''' (What's that sound...? I feel... super... sleepy...)
+:'''{{Traveler}}:''' (What's that sound...? I feel... super... sleepy...)
 :;(The Traveler and Paimon fall unconscious)
-:{{A|vo xmaq304 11 nahida 08.ogg}} '''Nahida:''' Huh, that sound... (Traveler)? Paimon?
+:{{A|vo xmaq304 11 nahida 08.ogg}} '''Nahida:''' Huh, that sound... {{Traveler}}? Paimon?
 :{{A|vo xmaq304 11 dottore 01.ogg}} '''The Doctor:''' I've been waiting here far too long... But finally, I have the chance to be alone with you. All the precious time I wasted has finally paid off.
 :{{A|vo xmaq304 11 nahida 09.ogg}} '''Nahida:''' The Doctor... What have you done!?
 :{{A|vo xmaq304 11 dottore 02.ogg}} '''The Doctor:''' Just a type of sound wave that can quickly put defenseless people into a dream. As I expected... it doesn't have any effect on gods.
@@ -640,33 +635,33 @@
 :{{A|vo xmaq304 11 dottore 56.ogg}} '''The Doctor:''' Oh? Judging from your expression, you don't seem to find the idea very agreeable. Then let's think of it this way... Since you're the God of Wisdom, how about I exchange some knowledge with you?
 :{{A|vo xmaq304 11 nahida 39.ogg}} '''Nahida:''' People exchanging knowledge with the God of Wisdom is the stuff of legends, yet here you wish to exchange knowledge for the God of Wisdom's property...
 :{{A|vo xmaq304 11 nahida 40.ogg}} '''Nahida:''' Arrogant as that is, it has piqued my interest.
-:{{A|vo xmaq304 11 dottore 57.ogg}} '''The Doctor:''' Let me ask you... Have you in all your mighty knowledge ever heard the rumor that "the skies of Teyvat are fake"?
+:{{A|vo xmaq304 11 dottore 57.ogg}} '''The Doctor:''' Let me ask you... Have you in all your mighty knowledge ever heard the rumor that [[False Sky|"the skies of Teyvat are fake"]]?
 :{{A|vo xmaq304 11 nahida 41.ogg}} '''Nahida:''' ...Huh?
 :{{A|vo xmaq304 11 dottore 58.ogg}} '''The Doctor:''' That's the secret hidden by Irminsul concerning the "truth" of this world...
 :'''Nahida:''' ...
 :{{A|vo xmaq304 11 dottore 59.ogg}} '''The Doctor:''' Once I finish telling you about this, it will be time for me to say goodbye.
 :{{A|vo xmaq304 11 dottore 60.ogg}} '''The Doctor:''' With negotiations, we've all gotten what we wanted. I'm very glad I got to meet you like this.
 :{{A|vo xmaq304 11 nahida 43.ogg}} '''Nahida:''' Your arrogance may know no bounds, and convictions may mean nothing to you, but I'll still listen to what you have to say.
-
-:'''Secrets and dark truths flow to the mind of the wise. Then... everything falls silent.'''
-
-:'''Several days later...'''
-
+:{{Black Screen|Secrets and dark truths flow to the mind of the wise. Then... everything falls silent.}}
+:{{Black Screen|Several days later...}}
 :{{A|vo xmaq305 1 paimon 01a.ogg}} '''Paimon:''' ...Wait for... together... Okay... Wake... up.
-:'''(Traveler):''' (Hmm...)
+:'''{{Traveler}}:''' (Hmm...)
 :{{A|vo xmaq305 1 paimon 02.ogg}} '''Paimon:''' Are you awake? Collei says it's time for breakfast. C'mon, get up!
 :{{DIcon}} Good morning, Paimon.
 :{{A|vo xmaq305 1 paimon 03.ogg}} '''Paimon:''' Good morning! How're you feeling today?
 :{{DIcon}} Pretty good.
 :{{A|vo xmaq305 1 paimon 04.ogg}} '''Paimon:''' Good to hear. It looks like we've recovered pretty well. Not even Tighnari can stop us from going out now, right?
 :{{DIcon}} That's right.
-:'''(Traveler):''' (On that day, we lost consciousness in battle... When we woke up, we found ourselves in Gandharva Ville, and Tighnari and Collei were looking after us.)
-:'''(Traveler):''' (I heard that it was Cyno who brought us here. Tighnari complained that Cyno was always sending people to him, but he has taken great care of us.)
-:'''(Traveler):''' (After completely exhausting ourselves, we had a good rest here. After a few days, we finally recovered enough to be able to go back out.)
-:'''(Traveler):''' (From what Tighnari and Collei have said, the Akasha has been turned off completely, and the people of Sumeru will no longer rely on it.)
-:'''(Traveler):''' (Such a big change will certainly affect people's lives... But it will definitely be a good thing.)
+:'''{{Traveler}}:''' (On that day, we lost consciousness in battle... When we woke up, we found ourselves in Gandharva Ville, and Tighnari and Collei were looking after us.)
+:'''{{Traveler}}:''' (I heard that it was Cyno who brought us here. Tighnari complained that Cyno was always sending people to him, but he has taken great care of us.)
+:'''{{Traveler}}:''' (After completely exhausting ourselves, we had a good rest here. After a few days, we finally recovered enough to be able to go back out.)
+:'''{{Traveler}}:''' (From what Tighnari and Collei have said, the Akasha has been turned off completely, and the people of Sumeru will no longer rely on it.)
+:'''{{Traveler}}:''' (Such a big change will certainly affect people's lives... But it will definitely be a good thing.)
 :{{A|vo xmaq305 1 paimon 05.ogg}} '''Paimon:''' C'mon, Traveler! Let's go!
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Gallery==
 <gallery>
@@ -704,15 +699,15 @@ Cutscene Animation- "A Dream of Falling Branches" - Genshin Impact
 |vi      = Đích Đến Của Con Thuyền Ý Thức
 |vi_tl   = The Destination of the Boat of Consciousness
 |de      = Wo das Schiff des Bewusstseins hingeht
-|de_tl   = Where the Ship of Consciousness Goes Forth
+|de_tl   = Where the Ship of Consciousness Goes
 |id      = Pergi ke lokasi Kapal Kesadaran
 |id_tl   = Go to the Location of the Boat of Consciousness
 |pt      = Para onde vai o Barco da Consciência
 |pt_tl   = Where Will the Boat of Consciousness Go?
 |tr      = Bilinç Gemisinin Çapa Attığı Yer
-|tr_tl   = 
+|tr_tl   = The Boat of Consciousness' Anchored Place
 |it      = Dove giace la Barca della coscienza
-|it_tl   = 
+|it_tl   = Where the Boat of Consciousness Lies
 }}
 
 ==Change History==
@@ -720,4 +715,7 @@ Cutscene Animation- "A Dream of Falling Branches" - Genshin Impact
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter III}}
+
 [[es:¿Dónde estará el Barco de la Consciencia?]]
+[[ja:意識の舟が行き着く処]]
+[[vi:Đích Đến Của Con Thuyền Ý Thức]]

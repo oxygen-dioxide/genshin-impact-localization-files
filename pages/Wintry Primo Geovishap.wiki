@@ -1,0 +1,163 @@
+{{About|the event-exclusive variant|the normal variant|Primo Geovishap}}
+{{Enemy Infobox
+|title    = Round Tummy Tum Tum
+|dmgtype  = Cryo
+|dmgtype2 = Geo
+|dmgtype3 = Hydro
+|image    = Enemy Wintry Primo Geovishap.png
+|type     = Event Bosses
+|family   = Mystical Beasts
+|group    = 
+|weakpoint = yes
+}}
+'''Wintry Primo Geovishap''' is an enemy encountered in the [[Specially-Shaped Saurian Search]] event.
+
+==Drops==
+===Energy===
+{{Energy Drops
+|hp1   = 66
+|o1    = 1
+|hp2   = 33
+|o2    = 1
+|hp3   = 0
+|p3    = 2
+}}
+
+==Stats==
+{{Enemy Stats
+|res1      = Normal
+|phys_res  = 30%
+|cryo_res  = 70%
+|geo_res   = 70%
+|hydro_res = 70%
+
+|res2       = Countered (Lasts 5s)
+|resglobal2 = -40%
+|phys_res2  = -20%
+|cryo_res2  = 20%
+|geo_res2   = 20%
+|hydro_res2 = 20%
+
+|res3       = Beginning of Fight
+|resglobal3 = 210%
+|phys_res3  = 230%
+|cryo_res3  = 270%
+|geo_res3   = 270%
+|hydro_res3 = 270%
+
+|res_title = State
+|hp_ratio  = 25.5150176678
+|hp_type   = 2
+|atk_ratio = 12.9378980892
+|atk_type  = 2
+|note      = The Wintry Primo Geovishap gains '''100<nowiki>%</nowiki>''' RES to its currently infused element.
+}}
+
+==Abilities==
+{{Enemy Attacks
+|enemy = Primo Geovishap
+
+|name_1 = Left Claw
+|desc_1 = Claws at the player, inserting its left claw into the ground, dealing '''35% ATK''' as {{Color|Cryo DMG}}/{{Color|Hydro DMG}} on impact and '''15% ATK''' as {{Color|Cryo DMG}}/{{Color|Hydro DMG}} when it pulls its claw out of the ground.
+|file_1 = Primo Geovishap Left Claw Cryo
+|caption_1 = Cryo
+|file_1_2 = Primo Geovishap Left Claw Hydro
+|caption_1_2 = Hydro
+
+|name_2 = Right Claw
+|desc_2 = Claws in front of itself once with its right claw, dealing '''40% ATK''' as {{Color|Cryo DMG}}/{{Color|Hydro DMG}}.
+|file_2 = Primo Geovishap Right Claw Cryo
+|caption_2 = Cryo
+|file_2_2 = Primo Geovishap Right Claw Hydro
+|caption_2_2 = Hydro
+
+|name_3 = Slash Combo
+|desc_3 = Performs 2 horizontal slashes followed by a downward smash, dealing '''40% ATK''', '''50% ATK''', '''62.5% ATK''' respectively as {{Color|Cryo DMG}}/{{Color|Hydro DMG}} with each hit.
+|file_3 = Primo Geovishap Slash Combo Cryo
+|caption_3 = Cryo
+|file_3_2 = Primo Geovishap Slash Combo Hydro
+|caption_3_2 = Hydro
+
+|name_4 = Whirlwind
+|desc_4 = If the player is behind the Primo Geovishap, looks behind itself, then performs a quick spinning attack, dealing '''80% ATK''' as {{Color|Geo DMG}}. This attack ignores [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
+
+|name_5 = Elemental Breath
+|desc_5 = Unleash a breath of pure elemental power, whilst arcing the attack in a cone-like area in front of itself, rapidly dealing '''40% ATK''' as {{Color|Cryo DMG}}/{{Color|Hydro DMG}} every '''0.1''' seconds. Repeated DMG is reduced according to the [[Damage Sequence]].
+|file_5 = Primo Geovishap Elemental Breath Cryo
+|caption_5 = Cryo
+|file_5_2 = Primo Geovishap Elemental Breath Hydro
+|caption_5_2 = Hydro
+
+|name_6 = Jumping Slam
+|desc_6 = Leaps high into the air and slams down at the player's location, dealing '''70% ATK''' as {{Color|Cryo DMG}}/{{Color|Hydro DMG}}.
+|file_6 = Primo Geovishap Jumping Slam Cryo
+|caption_6 = Cryo
+|file_6_2 = Primo Geovishap Jumping Slam Hydro
+|caption_6_2 = Hydro
+
+|name_7 = Primordial Shower
+|desc_7 = Unleashes a blast of pure elemental power in a huge [[AoE]] around it, dealing '''200% ATK''' as DMG of the currently infused element. DMG is greatly reduced to '''40% ATK''' when protected by a shield (independent from shield multipliers). This attack ignores [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
+* If all DMG is absorbed, the attack will rebound and the Primo Geovishap itself will lose HP.
+** If the shield's element is {{Geo}} or the Primo Geovishap's currently infused element, it will lose '''10%''' Max HP
+** A non-Geo shield not of the corresponding element will only cause it to lose '''3%''' Max HP.
+|file_7 = Primo Geovishap Primordial Shower Hydro
+|caption_7 = Hydro
+|file_7_2 = Primo Geovishap Primordial Shower Cryo
+|caption_7_2 = Cryo
+
+|name_8 = Primeval Spring
+|desc_8 = Scatters 8 '''Elemental-Infused Stones''' around itself. It then changes its infused element and slams the ground, dealing '''80% ATK''' as {{Color|Cryo DMG}}/{{Color|Hydro DMG}}. When entering battle, the initial infused element is {{Cryo}}.
+|file_8 = Primo Geovishap Primeval Spring Cryo
+|caption_8 = Cryo to Hydro
+|file_8_2 = Primo Geovishap Primeval Spring Hydro
+|caption_8_2 = Hydro to Cryo
+
+|name_9 = Elemental-Infused Stones
+|desc_9 = Stones created by '''Primeval Spring''' will detonate if a player comes in close proximity, creating different effects based on their element. The stones will not be destroyed and can be triggered repeatedly. Stones on the field will disappear when the Primo Geovishap uses '''Primordial Shower''' or '''Primeval Spring'''.
+* '''{{Color|Hydro}}:''' Cause 6 small eruptions that follow the player, each dealing '''16% ATK''' as {{Color|Hydro DMG}}.
+* '''{{Color|Cryo}}:''' Generates a ring of ice spikes that starts from the center of the stone and propagate 2 times outward, dealing '''25% ATK''', '''25% ATK''', '''37.5% ATK''' as {{Color|Cryo DMG}} within a moderate area.
+|file_9 = Primo Geovishap Infused Stone Cryo 2
+|caption_9 = Cryo
+|file_9_2 = Primo Geovishap Infused Stone Hydro 2
+|caption_9_2 = Hydro
+}}
+
+==Other Languages==
+{{Other Languages
+|en       = Wintry Primo Geovishap
+|zhs      = 古岩龙蜥・溟冬
+|zhs_rm   = 
+|zht      = 古岩龍蜥・溟冬
+|zht_rm   = 
+|zh_tl    = 
+|ja       = エンシェントヴィシャップ・岩・冥冬
+|ja_rm    = Enshento Vishappu - Iwa - Meitou{{Assumed}}
+|ja_tl    = 
+|ko       = 고대 바위 용 도마뱀・겨울 바다
+|ko_rm    = 
+|ko_tl    = 
+|es       = Protodragarto Geo Invernal
+|es_tl    = Winter Geo Proto-{{Lex|Vishap|es}}
+|fr       = Géosaure antique hivernal
+|fr_tl    = Wintry {{Lex|Primo Geovishap|fr}}
+|ru       = Ледяной древний геовишап
+|ru_tl    = 
+|th       = Wintry Primo Geovishap
+|vi       = Rồng Đất Cổ Nham Lạnh Giá
+|vi_tl    = 
+|de       = Winterliche alte Geo-Drachenechse
+|de_tl    = Wintry Ancient Geo {{Lex|Vishap|de}}
+|id       = Wintry Primo Geovishap
+|pt       = Dragarto Geo Primordial Frio
+|pt_tl    = 
+|tr       = Soğuk Kadim Toprak Ejderi
+|tr_tl    = 
+|it       = Geosauro primordiale gelido
+|it_tl    = 
+}}
+
+==Change History==
+{{Change History|4.6}}
+
+==Navigation==
+{{Enemy Navbox|Special}}

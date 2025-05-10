@@ -6,7 +6,6 @@
 |actNum        = II
 |part          = 1
 |act           = Transient Dreams
-|summary       = 
 |character     = Raiden Shogun
 |startLocation = [[Inazuma City]], [[Inazuma]]
 |region        = Inazuma
@@ -15,13 +14,11 @@
 |requirement   = 
 |prev          = To Hear Mortal Hearts
 |next          = Farewell to the Past
-|exp           = 525
-|mora          = 38,100
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
+|rewards       = Adventure EXP*525;Mora*38,100;Hero's Wit*4;Mystic Enhancement Ore*8
 |characters    = Ei; Furuyama; Hirano; Katheryne (Inazuma); Kitamura; Paimon; Traveler
 |voiced        = yes
 }}
-'''Cleansing Light''' is the first part of [[Raiden Shogun]]'s [[Story Quest]]: [[Imperatrix Umbrosa Chapter]]: Act II - [[Transient Dreams]].
+'''Cleansing Light''' is the first part of {{Quest|Transient Dreams}}.
 
 ==Steps==
 # Talk to Katheryne
@@ -47,13 +44,16 @@
 ==Trial Character==
 {{Trial Character
 <!--World Levels-->
-|wl                     = 5, 8
+|wl                      = 5, 6, 8
 
 <!--Character-->
 |character_name          = Raiden Shogun
 
 |character_level5        = 71
 |constellation5          = 3
+
+|character_level6        = 82
+|constellation6          = 3
 
 |character_level8        = 90
 |constellation8          = 3
@@ -63,6 +63,9 @@
 
 |weapon_level5           = 71
 |refinement5             = 1
+
+|weapon_level6           = 82
+|refinement6             = 1
 
 |weapon_level8           = 90
 |refinement8             = 1
@@ -75,14 +78,25 @@
 |artifact_circlet        = Royal Masque
 |set1                    = Noblesse Oblige
 |set1_piece_bonus        = 4
+|artifact_flower8        = Magnificent Tsuba
+|artifact_feather8       = Sundered Feather
+|artifact_sands8         = Storm Cage
+|artifact_goblet8        = Scarlet Vessel
+|artifact_circlet8       = Ornate Kabuto
+|set1_8                  = Emblem of Severed Fate
 
 |artifact_level5         = 16
+|artifact_level6         = 20
 |artifact_level8         = 20
 
 <!--Talents-->
 |normal_attack_talent5   = 5
 |elemental_skill_talent5 = 5
 |elemental_burst_talent5 = 8
+
+|normal_attack_talent6   = 6
+|elemental_skill_talent6 = 6
+|elemental_burst_talent6 = 9
 
 |normal_attack_talent8   = 8
 |elemental_skill_talent8 = 8
@@ -96,21 +110,32 @@
 |er5                     = 204.4%
 |crit_rate5              = 51.8%
 |crit_dmg5               = 91.9%
+|electro_dmg5            = 
 
-|hp8                     = 26,939
-|atk8                    = 2,274
+|hp6                     = 25,798
+|atk6                    = 2,154
+|def6                    = 884
+|em6                     = 105
+|er6                     = 217.3%
+|crit_rate6              = 57.1%
+|crit_dmg6               = 91.9%
+|electro_dmg6            = 46.9%
+
+|hp8                     = 20,925
+|atk8                    = 2,024
 |def8                    = 935
 |em8                     = 105
-|er8                     = 222.1%
+|er8                     = 293.9%
 |crit_rate8              = 57.1%
 |crit_dmg8               = 91.9%
+|electro_dmg8            = 124.2%
 }}
 
 ==Dialogue==
 {{Quest Description|The Adventurers' Guild in Inazuma seems to have a commission concerning the Sacred Sakura...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Katheryne at the Inazuma Adventurers' Guild)
-:{{A|vo sglq101 1 katheryne 01.ogg}} '''Katheryne:''' Ad astra abyssosque, (Traveler).
+:{{A|vo sglq101 1 katheryne 01.ogg}} '''Katheryne:''' Ad astra abyssosque, {{Traveler}}.
 :{{A|vo sglq101 1 katheryne 02.ogg}} '''Katheryne:''' Recently, the Adventurers' Guild has received an unusual commission, and after careful consideration, we believe that&mdash;
 :{{A|vo sglq101 1 paimon 01.ogg}} '''Paimon:''' "The traveler would be the most suitable candidate." Right?
 :{{A|vo sglq101 1 katheryne 03.ogg}} '''Katheryne:''' Hehe, indeed. As ever.
@@ -145,7 +170,7 @@
 
 ;(After defeating the second wave of Rifthounds)
 :{{A|vo sglq101 2 paimon 02.ogg}} '''Paimon:''' Wow, there are so many of them! No wonder the Tenryou Commission needed help...
-:{{A|vo sglq101 2 paimon 03.ogg}} '''Paimon:''' Come on, (Traveler)! You can take 'em!
+:{{A|vo sglq101 2 paimon 03.ogg}} '''Paimon:''' Come on, {{Traveler}}! You can take 'em!
 
 ;(After defeating the third wave of Rifthounds, two more Thundercraven Rifthound Whelps approach the Traveler)
 ;(And just as they attack...)
@@ -174,7 +199,7 @@
 :{{A|vo sglq101 2 raidenei 11.ogg}} '''Ei:''' Precisely. According to the rules I designed for her, matters of this nature are to be delegated to the [[Tri-Commission]].
 :{{A|vo sglq101 2 raidenei 12.ogg}} '''Ei:''' But rifthounds attacking the Sacred Sakura... it brings back bad memories of that terrible disaster...
 :{{A|vo sglq101 2 paimon 09.ogg}} '''Paimon:''' A disaster?
-:{{A|vo sglq101 2 raidenei 13.ogg}} '''Ei:''' Yes. Five hundred years ago, a great catastrophe befell Inazuma.
+:{{A|vo sglq101 2 raidenei 13.ogg}} '''Ei:''' Yes. Five hundred years ago, a [[Cataclysm|great catastrophe]] befell Inazuma.
 :{{A|vo sglq101 2 raidenei 14.ogg}} '''Ei:''' Everything was engulfed in a pitch-black fog and monsters ravaged the land... Countless lives were lost, and this homeland that the people had worked so hard to build barely escaped being obliterated entirely.
 :{{A|vo sglq101 2 raidenei 15.ogg}} '''Ei:''' The monsters committed many atrocities on Inazuman soil. And the rifthounds were always their advance guard.
 :{{A|vo sglq101 2 raidenei 16.ogg}} '''Ei:''' Their duty was to tear open a passage through space with their claws and teeth, and then call in even more powerful beasts.
@@ -188,10 +213,10 @@
 :{{DIcon}} Let's go.
 :{{A|vo sglq101 2 paimon 11.ogg}} '''Paimon:''' Paimon feels so safe when we're in Ei's company! Having someone uber-powerful on your team kinda makes you feel invincible, doesn't it?
 :{{A|vo sglq101 2 paimon 12.ogg}} '''Paimon:''' Oh, yeah &mdash; after we've dealt with the monsters, we should ask her to tell us more about Khaenri'ah.
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 {{Quest Description|update|The Adventurers' Guild has noticed that the Rifthounds are attacking the Sacred Sakura. As you head to resolve this incident, you encounter Raiden Ei. After speaking with her, you decide to travel together.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Look for the marks left behind)
 :{{A|vo sglq101 3 paimon 01.ogg}} '''Paimon:''' This color... It's similar to the color when the Sacred Sakura takes damage!
 :{{A|vo sglq101 3 paimon 02.ogg}} '''Paimon:''' Let's follow it, it should be this way.
@@ -285,7 +310,7 @@
 :{{A|vo sglq101 4 raidenei 31.ogg}} '''Ei:''' Come on. Let's keep investigating the damage to the Sacred Sakura.
 
 ----
-;(Continue the pursuit and defeat the Rifthounds)
+;(Approach the location)
 :{{A|vo sglq101 4 paimon 15.ogg}} '''Paimon:''' As expected, there are a load of rifthounds here, too.
 :{{A|vo sglq101 4 raidenei 32.ogg}} '''Ei:''' Leave them to me.
 
@@ -293,7 +318,7 @@
 :{{A|vo sglq101 5 paimon 01.ogg}} '''Paimon:''' Hmm, something seems wrong with Ei...
 :{{DIcon}} Are you feeling okay?
 :{{A|vo sglq101 5 raidenei 01.ogg}} '''Ei:''' Why would you ask that?
-:{{A|vo sglq101 5 paimon 02.ogg}} '''Paimon:''' Well, usually, you'd pull out your sword and "swish," vaporize them all in one go, no?
+:{{A|vo sglq101 5 paimon 02.ogg}} '''Paimon:''' Well, usually, you'd pull out your sword and "swish," {{Not a Typo|vaporize}} them all in one go, no?
 :{{A|vo sglq101 5 raidenei 02.ogg}} '''Ei:''' You are unduly concerned. I'm simply conserving my energy.
 :{{A|vo sglq101 5 raidenei 03.ogg}} '''Ei:''' Although I have some understanding of the situation already, it could take an unexpected turn at any time.
 :{{A|vo sglq101 5 raidenei 04.ogg}} '''Ei:''' I must be prepared for anything. If there are more formidable monsters lying in wait in this area, I must make sure I have the strength to face them.
@@ -424,9 +449,7 @@
 :{{DIcon}} Let's make our own tea.
 :{{A|vo sglq101 7 raidenei 03.ogg}} '''Ei:''' Well, this chance won't come often, and we do have a tea set. Perhaps I should try my hand at making us a pot of tea.
 :{{A|vo sglq101 7 raidenei 04.ogg}} '''Ei:''' I've watched Furuyama brew tea on many occasions... I doubt I should have any major problems doing it myself.
-
-:'''Ei brews a piping-hot pot of tea with the tea set.'''
-
+:{{Black Screen|Ei brews a piping-hot pot of tea with the tea set.}}
 :{{A|vo sglq101 7 raidenei 05.ogg}} '''Ei:''' The tea is ready, please give it a try.
 :{{A|vo sglq101 7 raidenei 06.ogg}} '''Ei:''' So many thoughts were racing through my head as I was brewing it, I... I'm not sure how to explain it...
 :{{DIcon}} You don't need to. I understand.
@@ -477,7 +500,7 @@
 ;(Observe the teacup after the quest ends)
 :'''Observe Teacup:''' (A cup of tea has been left for Furuyama.)
 :'''Observe Teacup:''' (How much did he actually perceive, and how much did he let on?)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -491,7 +514,6 @@
 |ja_rm   = Fujou Haraishi Meikou
 |ja_tl   = Light That Purifies Filth
 |ko      = 오염된 빛 정화
-|ko_rm   = Oyeomdoen Bit Jeonghwa
 |ko_tl   = Purifying Polluted Light
 |es      = Luz purificadora
 |es_tl   = Cleansing Light

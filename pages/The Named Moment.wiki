@@ -1,0 +1,371 @@
+{{Talent Infobox
+|image         = Talent The Named Moment.png
+|character     = Mavuika
+|type          = Elemental Skill
+|info          = Calling upon her authority over "conflict," Mavuika summons the All-Fire Armaments passed down through the line of human Archons, dealing Nightsoul-aligned {{Color|Pyro DMG}}<br>After using this, Mavuika's [[Nightsoul point]]s are restored to max value, and she enters the [[Nightsoul's Blessing]] state.<br><br>'''All-Fire Armaments'''<br>Has different forms when Tapped or Held.<br><br>'''{{Control|Tap|Press|Press}}'''<br>"Divine Name Unleashed": The All-Fire Armaments manifest as a Ring of Searing Radiance. The Ring follows the current active character and attacks nearby opponents at intervals, dealing Nightsoul-aligned {{Color|Pyro DMG}}.<br><br>'''Hold'''<br>"Ancient Name Unbound": The All-Fire Armaments manifest as a Flamestrider. In this state, Mavuika can ride the Flamestrider at high speed, or activate its hidden backup propulsion module to temporarily cross various terrain types and glide in mid-air. Mavuika's [[Normal Attack|Normal]], [[Charged Attack|Charged]], and [[Plunging Attack|Plunging]] Attacks will also be converted to deal Nightsoul-aligned {{Color|Pyro DMG}} which cannot be overridden. When [[sprinting]], she also deals Nightsoul-aligned {{Color|Pyro DMG}} to opponents along her path.<br><br>While in the Nightsoul's Blessing state, Tapping the Elemental Skill can switch the All-Fire Armaments' form. The Armaments will disappear once Mavuika's Nightsoul's Blessing state ends.<br><br>'''Nightsoul's Blessing: Mavuika'''<br>Continuously consumes Nightsoul points according to the All-Fire Armaments' form. Mavuika's Nightsoul's Blessing state ends once her Nightsoul points are exhausted.
+|CD            = 15s
+|energyCost    = 
+|scale_att1    = ATK
+|scale_att2    = 
+|utility1      = Nightsoul Point
+|utility2      = Nightsoul's Blessing
+|utility3      = Conversion
+|utility4      = Water Traversing
+|arkhe         = 
+}}
+{{Description|If you told Mavuika that in another world vehicles like the Flamestrider required license plates for identification, that would make her happy too:<br>"Well, mine's the only one that exists here. Guess that means I get to pick whatever plate number I want, huh?"}}
+'''The Named Moment''' is [[Mavuika]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{Talent Note|particles|Skill DMG|5}}
+* Ring of Searing Radiance can attack up to '''10''' targets at once. Interactable objects such as [[Dendro Core]]s are also targeted, but have a lower priority than enemies.
+* While Mavuika is in the Nightsoul's Blessing state and is riding the Flamestrider, the [[Fall DMG]] Mavuika takes is reduced by '''50%'''. This also stacks additively with the Fall DMG reduction from performing a [[Plunging Attack]], causing her to take no Fall DMG plunging from any height.
+* If Nightsoul's Blessing ends while Mavuika is in the middle of a Normal Attack string, the combo count will not reset.
+** As Mavuika's converted Normal Attack string consists of 5 hits while her unconverted one only has 4 hits, if Nightsoul's Blessing ends after Mavuika completes her fourth converted Normal Attack, then she will still perform her fourth and final regular Normal Attack next, not her first one.
+* {{Point Consumption|<!--
+-->Ring of Searing Radiance Base:5/s;<!--
+-->Ring of Searing Radiance Hit:3;<!--
+-->Flamestrider Base:9/s;<!--
+-->Charged Attack:2/s;<!--
+-->Normal Attack Hit:1;<!--
+-->Climbing:8/s;<!--
+-->Over Water:5/s;<!--
+-->Flying:3/s;<!--
+-->Dash:10;<!--
+-->Sprint:20/s
+}}
+* {{Point Consumption|name=[[Phlogiston]]|<!--
+-->Flamestrider Base:8/s;<!--
+-->Charged Attack:1.2/s;<!--
+-->Normal Attack Hit:0.8;<!--
+-->Climbing:4/s;<!--
+-->Over Water:2.5/s;<!--
+-->Flying:1.5/s;<!--
+-->Dash:8;<!--
+-->Sprint:12/s
+}}
+* Mavuika has additional three separate meters when [[climbing]], traveling over water, and [[gliding]].
+** When the meter runs out, regardless of remaining Nightsoul Points, she cannot continue. However, if applicable, she can switch to the other alternatives and use a separate meter from the previous one.
+** The climbing, traveling over water, and gliding meters have time limits of 1s, 3s, and 3s, respectively. [["Humanity's Name" Unfettered|Constellation 6]] doubles these time limits.
+** All three meters will be refilled when the Flamestrider stands on solid ground. 
+** When Mavuika triggers [[Nightsoul Transmission]], the meter of the current action can be refilled by her Elemental Skill button, with a different icon.
+<gallery>
+Talent The Named Moment 2.png|Special Icon
+</gallery>
+
+;<big>Constellation Effects</big>
+* {{Talent Note|constellation|1|The Night-Lord's Explication}}
+* {{Talent Note|constellation|2|The Ashen Price}}
+* {{Talent Note|constellation|5|The Meaning of Truth}}
+* {{Talent Note|constellation|6|"Humanity's Name" Unfettered}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Skill DMG (Press)
+|gu      = 1U
+|icdtag  = none
+|poise   = 75
+|impulse = Heavy, 200, 0
+
+|title2   = Skill DMG (Hold)
+|gu2      = 1U
+|icdtag2  = none
+|poise2   = 75
+|impulse2 = Air, 200, 700
+|blunt2   = 1
+
+|title3   = Ring of Searing Radiance DMG
+|gu3      = 1U
+|icdtag3  = none
+|poise3   = 50
+|impulse3 = Heavy, 200, 0
+
+|title4   = Flamestrider 1-Hit
+|gu4      = 1U
+|icdtag4  = Flamestrider
+|icdtype4 = 2.5s/3 Hits
+|poise4   = 76.6
+|impulse4 = Heavy, 200, 0
+|blunt4   = 1
+
+|title5   = Flamestrider 2-Hit
+|gu5      = 1U
+|icdtag5  = Flamestrider
+|icdtype5 = 2.5s/3 Hits
+|poise5   = 79.1
+|impulse5 = Heavy, 200, 0
+|blunt5   = 1
+
+|title6   = Flamestrider 3-Hit
+|gu6      = 1U
+|icdtag6  = Flamestrider
+|icdtype6 = 2.5s/3 Hits
+|poise6   = 93.6
+|impulse6 = Heavy, 200, 0
+|blunt6   = 1
+
+|title7   = Flamestrider 4-Hit
+|gu7      = 1U
+|icdtag7  = Flamestrider
+|icdtype7 = 2.5s/3 Hits
+|poise7   = 93.2
+|impulse7 = Heavy, 200, 0
+|blunt7   = 1
+
+|title8   = Flamestrider 5-Hit
+|gu8      = 1U
+|icdtag8  = Flamestrider
+|icdtype8 = 2.5s/3 Hits
+|poise8   = 121.7
+|impulse8 = Air, 100, 800
+|blunt8   = 1
+
+|title9   = Flamestrider Sprint DMG
+|gu9      = 1U
+|icdtag9  = Flamestrider
+|icdtype9 = 2.5s/3 Hits
+|poise9   = 75
+|impulse9 = Air, 200, 700
+|blunt9   = 1
+
+|title10   = Flamestrider Charged Attack Cyclic DMG
+|gu10      = 1U
+|icdtag10  = Flamestrider
+|icdtype10 = 2.5s/3 Hits
+|poise10   = 60
+|impulse10 = Air, 5, 600
+|blunt10   = 1
+
+|title11   = Flamestrider Charged Attack Final DMG
+|gu11      = 1U
+|icdtag11  = Flamestrider
+|icdtype11 = 2.5s/3 Hits
+|poise11   = 120
+|impulse11 = Air, 20, 800
+|blunt11   = 1
+
+|title12   = Flamestrider Plunge DMG
+|gu12      = 1U
+|icdtag12  = Flamestrider
+|icdtype12 = 2.5s/3 Hits
+|poise12   = 150
+|impulse12 = 7
+|blunt12   = 1
+}}
+
+==Preview==
+{{Preview
+|file1    = The Named Moment Off-Field DMG Preview
+|caption1 = Attach Method 1: Off-Field DMG
+
+|file2    = The Named Moment On-Field DMG Preview
+|caption2 = Attach Method 2: On-Field DMG
+
+|file3    = The Named Moment Movement Preview
+|caption3 = Movement
+}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|levels=13
+|order=skilldmg,ringofsearingradiancedmg,ringofsearingradianceattackinterval,flamestridernormalattack1-hitdmg,flamestridernormalattack2-hitdmg,flamestridernormalattack3-hitdmg,flamestridernormalattack4-hitdmg,flamestridernormalattack5-hitdmg,flamestridersprintdmg,flamestriderchargedattackcyclicdmg,flamestriderchargedattackfinaldmg,flamestriderplungedmg,nightsoulpointlimit,cd
+|titles=Skill DMG (%),Ring of Searing Radiance DMG (%),Ring of Searing Radiance Attack Interval,Flamestrider Normal Attack 1-Hit DMG (%),Flamestrider Normal Attack 2-Hit DMG (%),Flamestrider Normal Attack 3-Hit DMG (%),Flamestrider Normal Attack 4-Hit DMG (%),Flamestrider Normal Attack 5-Hit DMG (%),Flamestrider Sprint DMG (%),Flamestrider Charged Attack Cyclic DMG (%),Flamestrider Charged Attack Final DMG (%),Flamestrider Plunge DMG (%),Nightsoul Point Limit,CD
+|skilldmg_1=74.4
+|skilldmg_2=79.98
+|skilldmg_3=85.56
+|skilldmg_4=93
+|skilldmg_5=98.58
+|skilldmg_6=104.16
+|skilldmg_7=111.6
+|skilldmg_8=119.04
+|skilldmg_9=126.48
+|skilldmg_10=133.92
+|skilldmg_11=141.36
+|skilldmg_12=148.8
+|skilldmg_13=158.1
+|ringofsearingradiancedmg_1=128
+|ringofsearingradiancedmg_2=137.6
+|ringofsearingradiancedmg_3=147.2
+|ringofsearingradiancedmg_4=160
+|ringofsearingradiancedmg_5=169.6
+|ringofsearingradiancedmg_6=179.2
+|ringofsearingradiancedmg_7=192
+|ringofsearingradiancedmg_8=204.8
+|ringofsearingradiancedmg_9=217.6
+|ringofsearingradiancedmg_10=230.4
+|ringofsearingradiancedmg_11=243.2
+|ringofsearingradiancedmg_12=256
+|ringofsearingradiancedmg_13=272
+|ringofsearingradianceattackinterval=2s
+|flamestridernormalattack1-hitdmg_1=57.26
+|flamestridernormalattack1-hitdmg_2=61.93
+|flamestridernormalattack1-hitdmg_3=66.59
+|flamestridernormalattack1-hitdmg_4=73.25
+|flamestridernormalattack1-hitdmg_5=77.91
+|flamestridernormalattack1-hitdmg_6=83.23
+|flamestridernormalattack1-hitdmg_7=90.56
+|flamestridernormalattack1-hitdmg_8=97.88
+|flamestridernormalattack1-hitdmg_9=105.21
+|flamestridernormalattack1-hitdmg_10=113.2
+|flamestridernormalattack1-hitdmg_11=121.19
+|flamestridernormalattack1-hitdmg_12=129.18
+|flamestridernormalattack1-hitdmg_13=137.17
+|flamestridernormalattack2-hitdmg_1=59.13
+|flamestridernormalattack2-hitdmg_2=63.95
+|flamestridernormalattack2-hitdmg_3=68.76
+|flamestridernormalattack2-hitdmg_4=75.63
+|flamestridernormalattack2-hitdmg_5=80.45
+|flamestridernormalattack2-hitdmg_6=85.95
+|flamestridernormalattack2-hitdmg_7=93.51
+|flamestridernormalattack2-hitdmg_8=101.08
+|flamestridernormalattack2-hitdmg_9=108.64
+|flamestridernormalattack2-hitdmg_10=116.89
+|flamestridernormalattack2-hitdmg_11=125.14
+|flamestridernormalattack2-hitdmg_12=133.39
+|flamestridernormalattack2-hitdmg_13=141.64
+|flamestridernormalattack3-hitdmg_1=69.99
+|flamestridernormalattack3-hitdmg_2=75.68
+|flamestridernormalattack3-hitdmg_3=81.38
+|flamestridernormalattack3-hitdmg_4=89.52
+|flamestridernormalattack3-hitdmg_5=95.21
+|flamestridernormalattack3-hitdmg_6=101.72
+|flamestridernormalattack3-hitdmg_7=110.68
+|flamestridernormalattack3-hitdmg_8=119.63
+|flamestridernormalattack3-hitdmg_9=128.58
+|flamestridernormalattack3-hitdmg_10=138.35
+|flamestridernormalattack3-hitdmg_11=148.11
+|flamestridernormalattack3-hitdmg_12=157.88
+|flamestridernormalattack3-hitdmg_13=167.64
+|flamestridernormalattack4-hitdmg_1=69.7
+|flamestridernormalattack4-hitdmg_2=75.38
+|flamestridernormalattack4-hitdmg_3=81.05
+|flamestridernormalattack4-hitdmg_4=89.16
+|flamestridernormalattack4-hitdmg_5=94.83
+|flamestridernormalattack4-hitdmg_6=101.31
+|flamestridernormalattack4-hitdmg_7=110.23
+|flamestridernormalattack4-hitdmg_8=119.15
+|flamestridernormalattack4-hitdmg_9=128.06
+|flamestridernormalattack4-hitdmg_10=137.79
+|flamestridernormalattack4-hitdmg_11=147.51
+|flamestridernormalattack4-hitdmg_12=157.24
+|flamestridernormalattack4-hitdmg_13=166.97
+|flamestridernormalattack5-hitdmg_1=91
+|flamestridernormalattack5-hitdmg_2=98.41
+|flamestridernormalattack5-hitdmg_3=105.82
+|flamestridernormalattack5-hitdmg_4=116.4
+|flamestridernormalattack5-hitdmg_5=123.81
+|flamestridernormalattack5-hitdmg_6=132.27
+|flamestridernormalattack5-hitdmg_7=143.91
+|flamestridernormalattack5-hitdmg_8=155.55
+|flamestridernormalattack5-hitdmg_9=167.19
+|flamestridernormalattack5-hitdmg_10=179.89
+|flamestridernormalattack5-hitdmg_11=192.59
+|flamestridernormalattack5-hitdmg_12=205.29
+|flamestridernormalattack5-hitdmg_13=217.99
+|flamestridersprintdmg_1=80.84
+|flamestridersprintdmg_2=87.42
+|flamestridersprintdmg_3=94
+|flamestridersprintdmg_4=103.4
+|flamestridersprintdmg_5=109.98
+|flamestridersprintdmg_6=117.5
+|flamestridersprintdmg_7=127.84
+|flamestridersprintdmg_8=138.18
+|flamestridersprintdmg_9=148.52
+|flamestridersprintdmg_10=159.8
+|flamestridersprintdmg_11=171.08
+|flamestridersprintdmg_12=182.36
+|flamestridersprintdmg_13=193.64
+|flamestriderchargedattackcyclicdmg_1=98.9
+|flamestriderchargedattackcyclicdmg_2=106.95
+|flamestriderchargedattackcyclicdmg_3=115
+|flamestriderchargedattackcyclicdmg_4=126.5
+|flamestriderchargedattackcyclicdmg_5=134.55
+|flamestriderchargedattackcyclicdmg_6=143.75
+|flamestriderchargedattackcyclicdmg_7=156.4
+|flamestriderchargedattackcyclicdmg_8=169.05
+|flamestriderchargedattackcyclicdmg_9=181.7
+|flamestriderchargedattackcyclicdmg_10=195.5
+|flamestriderchargedattackcyclicdmg_11=209.3
+|flamestriderchargedattackcyclicdmg_12=223.1
+|flamestriderchargedattackcyclicdmg_13=236.9
+|flamestriderchargedattackfinaldmg_1=137.6
+|flamestriderchargedattackfinaldmg_2=148.8
+|flamestriderchargedattackfinaldmg_3=160
+|flamestriderchargedattackfinaldmg_4=176
+|flamestriderchargedattackfinaldmg_5=187.2
+|flamestriderchargedattackfinaldmg_6=200
+|flamestriderchargedattackfinaldmg_7=217.6
+|flamestriderchargedattackfinaldmg_8=235.2
+|flamestriderchargedattackfinaldmg_9=252.8
+|flamestriderchargedattackfinaldmg_10=272
+|flamestriderchargedattackfinaldmg_11=291.2
+|flamestriderchargedattackfinaldmg_12=310.4
+|flamestriderchargedattackfinaldmg_13=329.6
+|flamestriderplungedmg_1=159.96
+|flamestriderplungedmg_2=172.98
+|flamestriderplungedmg_3=186
+|flamestriderplungedmg_4=204.6
+|flamestriderplungedmg_5=217.62
+|flamestriderplungedmg_6=232.5
+|flamestriderplungedmg_7=252.96
+|flamestriderplungedmg_8=273.42
+|flamestriderplungedmg_9=293.88
+|flamestriderplungedmg_10=316.2
+|flamestriderplungedmg_11=338.52
+|flamestriderplungedmg_12=360.84
+|flamestriderplungedmg_13=383.16
+|nightsoulpointlimit=80
+|cd=15s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Mavuika}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Other Languages==
+{{Other Languages
+|en       = The Named Moment
+|zhs      = 称名之刻
+|zhs_rm   = Chēngmíng zhī Kè
+|zht      = 稱名之刻
+|zht_rm   = Chēngmíng zhī Kè
+|zh_tl    = 
+|ja       = 名を称える刻
+|ja_rm    = Na wo Tataeru Toki
+|ja_tl    = 
+|ko       = 해방의 순간
+|ko_rm    = 
+|ko_tl    = 
+|es       = Denominación
+|es_tl    = Name
+|fr       = Moment nommant
+|fr_tl    = Naming Moment
+|ru       = Именованное мгновение
+|ru_tl    = 
+|th       = The Named Moment
+|vi       = Thời Khắc Lưu Danh
+|vi_tl    = 
+|de       = Moment des Benennens
+|de_tl    = Moment of Naming
+|id       = The Named Moment
+|pt       = Momento do Nome
+|pt_tl    = 
+|tr       = Adı Konulmuş An
+|tr_tl    = 
+|it       = Nomen omen
+|it_tl    = 
+}}
+
+==Change History==
+{{Change History|5.3}}
+
+==Navigation==
+{{Talent Navbox|Mavuika}}
+
+[[es:Denominación]]
+[[fr:Moment nomenclateur]]
+[[ru:Именованное мгновение]]
+[[th:The Named Moment]]
+[[vi:Thời Khắc Lưu Danh]]

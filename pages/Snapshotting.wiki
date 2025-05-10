@@ -3,209 +3,45 @@ The term '''snapshotting''' refers to the state in which attributes are fixed on
 
 For example, [[Xiangling]]'s [[Pyronado]] will receive the [[Attack|ATK Bonus]] for the entirety of its duration when cast inside [[Bennett]]'s [[Fantastic Voyage]] field &mdash; even if Xiangling walks outside the buff's area of effect or it expires prematurely. However, the ATK Bonus will not affect Pyronado if cast before Bennett's Fantastic Voyage - regardless of whether Xiangling stays in the buff's area of effect.
 
-==Buffs==
-Buffs are effects that improve a character's ability or attributes. While they can arise from character talents, constellations, artifact sets, weapon passives, or other external sources.
+==Non-Snapshottable Buffs==
+While most buffs function by modifying the target character's stats and can be snapshotted by the correct abilities, there are certain exceptions.
 
-* '''Static Buffs''' - A static buff is a buff that snapshots. The buff does not scale off any attribute, or if the attribute which the buff scales off changes during the buff's duration, the buff ''will not'' change.
-* '''Dynamic Buffs''' - A dynamic buff is a buff that does not snapshot. If the attribute which the buff scales off changes during the buff's duration, the buff ''will'' change.
+Such buffs do not modify the damage dealer's attributes, and instead directly apply to real-time damage calculations. Therefore, these buffs are ''unable to be snapshotted''.
 
-* '''Direct Buffs''' - Buffs that do not modify the damage dealer's attributes, and instead directly apply to real-time damage calculations. These buffs are completely unaffected by snapshotting. This is a separate concept from Static and Dynamic Buffs and coexists with them.
-** If a buff results in a visible change in the stat menu (e.g. ATK buffs, Elemental DMG Bonus buffs), it is not a direct buff. If a buff does ''not'' result in a visible change in stats (e.g. Elemental Burst DMG Bonus buffs, Additive Base DMG Bonus buffs), it is a direct buff.
+As a general rule, if a buff results in a visible change in the target character's stat menu (e.g. ATK buffs, Elemental DMG Bonus buffs), it is snapshottable. If a buff does ''not'' result in a visible change in stats (e.g. Elemental Burst DMG Bonus buffs, Additive Base DMG Bonus buffs), it is non-snapshottable.
+* Exceptions include the All DMG buffs provided by {{Item|Serpent Spine|20|type=weapon}}, {{Item|Iron Sting|20|type=weapon}}, {{Item|Primordial Jade Winged-Spear|20|type=weapon}}, {{Item|The Alley Flash|20|type=weapon}}, {{Item|Song of Stillness|20|type=weapon}}, {{Item|Fragment of Harmonic Whimsy|20}}, and {{Item|Unfinished Reverie|20}}, which are snapshottable despite not appearing in the menu.
 
-===Static===
-====Talents and Constellations====
-<!--Fill out notes on this section-->
+The following tables are an exhaustive list of non-snapshottable buffs provided by character abilities and equipments. Any buffs not listed here are snapshottable.
+
+===Talents and Constellations===
 {| class="article-table sortable waffle no-grid"
 |-
-! Character
-! Ability
-! Attribute
+!Character
+!Ability
+!Attribute
 |-
-| {{Character|Albedo|20|nobr=1}}
-| {{Talent|Homuncular Nature|20|nobr=1|type=1}}
-| [[Elemental Mastery]]
+| rowspan="2" | {{Character|Faruzan|20|nobr=1}}
+| {{Talent|Lost Wisdom of the Seven Caverns|20|nobr=1|type=1}}
+| [[Additive Base DMG Bonus]] for Anemo Attacks
 |-
-| {{Character|Arataki Itto|20|nobr=1}}
-| {{Talent|Royal Descent: Behold, Itto the Evil!|20|nobr=1|type=1}}
-| [[ATK]]
+| {{Constellation|The Wondrous Path of Truth|20|nobr=1|level=1}}
+| Anemo [[CRIT DMG]]
 |-
-| {{Character|Ayaka|20|nobr=1}}
-| {{Talent|Kanten Senmyou Blessing|20|nobr=1|type=1}}
-| [[Cryo DMG Bonus]]
+| {{Character|Furina|20|nobr=1}}
+| {{Talent|Let the People Rejoice|20|nobr=1|type=1}}
+| [[DMG Bonus]]
 |-
-| {{Character|Ganyu|20|nobr=1}}
-| {{Talent|Harmony between Heaven and Earth|20|nobr=1|type=1}}
-| [[Cryo DMG Bonus]]
+| {{Character|Gorou|20|nobr=1}}
+| {{Constellation|Valiant Hound: Mountainous Fealty|20|nobr=1|level=1}}
+| Geo [[CRIT DMG]]
 |-
-| rowspan = "2"| {{Character|Hu Tao|20|nobr=1}}
-| {{Talent|Flutter By|20|nobr=1|type=1}}
-|  rowspan = "2"|[[CRIT Rate]]
-|-
-| {{Constellation|Garden of Eternal Rest|20|nobr=1|level=1}}
-|-
-| rowspan = "2"| {{Character|Kaedehara Kazuha|20|nobr=1}}
-| {{Talent|Poetics of Fuubutsu|20|nobr=1|type=1}}
-| Elemental [[DMG Bonus]]
-|-
-| {{Constellation|Yamaarashi Tailwind|20|nobr=1|level=1}}
-| [[Elemental Mastery]]
-|-
-| {{Character|Klee|20|nobr=1}}
-| {{Constellation|Blazing Delight|20|nobr=1|level=1}}
-| [[Pyro DMG Bonus]]
-|-
-| {{Character|Kokomi|20|nobr=1}}
-| {{Constellation|Sango Isshin|20|nobr=1|level=1}}
-| [[Hydro DMG Bonus]]
-|-
-| {{Character|Mona|20|nobr=1}}
-| {{Constellation|Prophecy of Oblivion|20|nobr=1|level=1}}
-| [[CRIT Rate]]
-|-
-| {{Character|Nahida|20|nobr=1}}
-| {{Talent|Compassion Illuminated|20|nobr=1|type=1}}
-| [[Elemental Mastery]]
-|-
-| {{Character|Traveler (Geo)|20|nobr=1}}
-| {{Constellation|Invincible Stonewall|20|nobr=1|level=1}}
-| [[CRIT Rate]]
-|-
-| {{Character|Venti|20|nobr=1}}
-| {{Constellation|Hurricane of Freedom|20|nobr=1|level=1}}
-| [[Anemo DMG Bonus]]
-|-
-| {{Character|Raiden Shogun|20|nobr=1}}
-| {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}}
-| Elemental Burst [[DMG Bonus]]
-|-
-| {{Character|Shenhe|20|nobr=1}}
-| {{Talent|Spirit Communion Seal|20|nobr=1|type=1}}
-| Elemental Skill and Elemental Burst [[DMG Bonus]]
-|-
-| {{Character|Yelan|20|nobr=1}}
-| {{Constellation|Bait-and-Switch|20|nobr=1|level=1}}
-| [[HP]]
-|-
-| {{Character|Barbara|20|nobr=1}}
-| {{Constellation|Vitality Burst|20|nobr=1|level=1}}
-| [[Hydro DMG Bonus]]
-|-
-| rowspan = 2| {{Character|Bennett|20|nobr=1}}
-| {{Talent|Fantastic Voyage|20|nobr=1|type=1}}
-| [[ATK]]
-|-
-| {{Constellation|Fire Ventures With Me|20|nobr=1|level=1}}
-| [[Pyro DMG Bonus]]
-|-
-| {{Character|Diona|20|nobr=1}}
-| {{Constellation|Cat's Tail Closing Time|20|nobr=1|level=1}}
-| [[Elemental Mastery]]
-|-
-| rowspan="2" | {{Character|Kujou Sara|20|nobr=1}}
-| {{Talent|Tengu Stormcall|20|nobr=1|type=1}}
-| [[ATK]]
-|-
+| {{Character|Kujou Sara|20|nobr=1}}
 | {{Constellation|Sin of Pride|20|nobr=1|level=1}}
 | Electro [[CRIT DMG]]
 |-
-| {{Character|Ningguang|20|nobr=1}}
-| {{Talent|Strategic Reserve|20|nobr=1|type=1}}
-| [[Geo DMG Bonus]]
-|-
-| rowspan = "2"|{{Character|Noelle|20|nobr=1}}
-| {{Talent|Sweeping Time|20|nobr=1|type=1}}
-|  rowspan = "2"| [[ATK]]
-|-
-| {{Constellation|Must Be Spotless|20|nobr=1|level=1}}
-|-
-|rowspan = 2| {{Character|Rosaria|20|nobr=1}}
-| {{Talent|Regina Probationum|20|nobr=1|type=1}}
-| [[CRIT Rate]]
-|-
-| {{Talent|Shadow Samaritan|20|nobr=1|type=1}}
-| [[CRIT Rate]]
-|-
-|rowspan = 2| {{Character|Sucrose|20|nobr=1}}
-| {{Talent|Catalyst Conversion|20|nobr=1|type=1}}
-| [[Elemental Mastery]]
-|-
-| {{Talent|Mollis Favonius|20|nobr=1|type=1}}
-| [[Elemental Mastery]]
-|-
-| {{Character|Xinyan|20|nobr=1}}
-| {{Talent|"...Now That's Rock 'N' Roll!"|20|nobr=1|type=1}}
-| [[Physical DMG Bonus]]
-|}
-
-====Weapons====
-Weapons can offer static buffs in the following ways:
-* [[Elemental Mastery]] Bonus
-* [[Damage Bonus|DMG Bonus]] of any type
-* [[Healing Bonus]]
-* [[Attack#Weapons|ATK]] Bonus
-* [[Defense#Weapons|DEF]] Bonus
-* [[Health#Weapons|HP]] Bonus
-
-Other Sources
-{| class="article-table"
-! Source
-! Type of Buff
-|-
-| [[Momiji-Dyed Court]] Floor Panels
-| [[Pyro DMG Bonus]], [[Cryo DMG Bonus]]
-|-
-| [[Thrilling Tales of Dragon Slayers]]
-| [[ATK]]
-|-
-| 4-piece of [[Archaic Petra]]
-| Elemental [[DMG Bonus]]
-|-
-| 4-piece of [[Noblesse Oblige]]
-| [[ATK]]
-|-
-| 4-piece of [[Pale Flame]]
-| [[ATK]] and [[Physical DMG Bonus]]
-|-
-| 4-piece of [[Tenacity of the Millelith]]
-| [[ATK]]
-|-
-| 4-piece of [[Instructor]]
-| [[Elemental Mastery]]
-|-
-| 4-piece of [[Berserker]]
-| [[ATK]]
-|-
-| [[Elemental Resonance|Enduring Rock]]
-| [[DMG Bonus]] and [[Shield Strength]]
-|-
-| [[Elemental Resonance|Soothing Water]]
-| [[HP]]
-|}
-
-===Dynamic===
-====Talents and Constellations====
-{| class="article-table sortable waffle no-grid"
-|-
-!Character
-!Ability
-!Attribute
-|-
-|{{Character|Shenhe|20|nobr=1}}
-|{{Talent|Spring Spirit Summoning|20|nobr=1|type=1}}
-|[[Additive Base DMG Bonus]] for Cryo Attacks
-|-
-|{{Character|Yun Jin|20|nobr=1}}
-|{{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}}
-|[[Additive Base DMG Bonus]] for Normal Attacks
-|}
-
-===Direct===
-====Talents and Constellations====
-{| class="article-table sortable waffle no-grid"
-|-
-!Character
-!Ability
-!Attribute
+| {{Character|Mika|20|nobr=1}}
+| {{Constellation|Companion's Counsel|20|nobr=1|level=1}}
+| Physical [[CRIT DMG]]
 |-
 | {{Character|Raiden Shogun|20|nobr=1}}
 | {{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}}
@@ -225,20 +61,156 @@ Other Sources
 | {{Talent|Adapt With Ease|20|nobr=1|type=1}}
 | [[DMG Bonus]]
 |-
-| {{Character|Gorou|20|nobr=1}}
-| {{Constellation|Valiant Hound: Mountainous Fealty|20|nobr=1|level=1}}
-| Geo [[CRIT DMG]]
-|-
-| {{Character|Kujou Sara|20|nobr=1}}
-| {{Constellation|Sin of Pride|20|nobr=1|level=1}}
-| Electro [[CRIT DMG]]
-|-
 | {{Character|Yun Jin|20|nobr=1}}
 | {{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}}
 | [[Additive Base DMG Bonus]] for Normal Attacks
 |}
 
-====Other Sources====
+===Weapons===
+{| class="sortable mw-collapsible mw-collapsed article-table"
+! Source
+! Type of Buff
+|-
+| {{Item|Amos' Bow|20|type=weapon}}
+| Normal/Charged Attack DMG Bonus
+|-
+| {{Item|Aqua Simulacra|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Hunter's Path|20|type=weapon}}
+| Charged Attack Additive Base DMG Bonus
+|-
+| {{Item|Polar Star|20|type=weapon}}
+| Elemental Skill/Burst DMG Bonus
+|-
+| {{Item|Thundering Pulse|20|type=weapon}}
+| Normal Attack DMG Bonus
+|-
+| {{Item|Alley Hunter|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Fading Twilight|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Hamayumi|20|type=weapon}}
+| Normal/Charged Attack DMG Bonus
+|-
+| {{Item|Mitternachts Waltz|20|type=weapon}}
+| Elemental Skill DMG Bonus, Normal Attack DMG Bonus
+|-
+| {{Item|Mouun's Moon|20|type=weapon}}
+| Elemental Burst DMG Bonus
+|-
+| {{Item|Predator|20|type=weapon}}
+| Normal/Charged Attack DMG Bonus
+|-
+| {{Item|Rust|20|type=weapon}}
+| Normal/Charged Attack DMG Bonus
+|-
+| {{Item|The Stringless|20|type=weapon}}
+| Elemental Skill/Burst DMG Bonus
+|-
+| {{Item|Raven Bow|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Sharpshooter's Oath|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Slingshot|20|type=weapon}}
+| Normal/Charged Attack DMG Bonus
+|-
+| {{Item|Everlasting Moonglow|20|type=weapon}}
+| Normal Attack Additive Base DMG Bonus
+|-
+| {{Item|Kagura's Verity|20|type=weapon}}
+| Elemental Skill DMG Bonus
+|-
+| {{Item|Tulaytullah's Remembrance|20|type=weapon}}
+| Normal Attack DMG Bonus
+|-
+| {{Item|Dodoco Tales|20|type=weapon}}
+| Charged Attack DMG Bonus
+|-
+| {{Item|Solar Pearl|20|type=weapon}}
+| Elemental Skill/Burst DMG Bonus, Normal Attack DMG Bonus
+|-
+| {{Item|Magic Guide|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Redhorn Stonethresher|20|type=weapon}}
+| Normal/Charged Attack Additive Base DMG Bonus
+|-
+| {{Item|Skyward Pride|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Akuoumaru|20|type=weapon}}
+| Elemental Burst DMG Bonus
+|-
+| {{Item|Katsuragikiri Nagamasa|20|type=weapon}}
+| Elemental Skill DMG Bonus
+|-
+| {{Item|Luxurious Sea-Lord|20|type=weapon}}
+| Elemental Burst DMG Bonus
+|-
+| {{Item|Rainslasher|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Bloodtainted Greatsword|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Ferrous Shadow|20|type=weapon}}
+| Charged Attack DMG Bonus
+|-
+| {{Item|"The Catch"|20|type=weapon}}
+| Elemental Burst DMG Bonus, Elemental Burst [[CRIT Rate]]
+|-
+| {{Item|Dragon's Bane|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Kitain Cross Spear|20|type=weapon}}
+| Elemental Skill DMG Bonus
+|-
+| {{Item|Prototype Starglitter|20|type=weapon}}
+| Normal/Charged Attack DMG Bonus
+|-
+| {{Item|Black Tassel|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Halberd|20|type=weapon}}
+| Normal Attack DMG Bonus
+|-
+| {{Item|White Tassel|20|type=weapon}}
+| Normal Attack DMG Bonus
+|-
+| {{Item|Freedom-Sworn|20|type=weapon}}
+| All DMG Bonus, Normal/Charged/Plunging Attack DMG Bonus
+|-
+| {{Item|Haran Geppaku Futsu|20|type=weapon}}
+| Normal Attack DMG Bonus
+|-
+| {{Item|Light of Foliar Incision|20|type=weapon}}
+| Normal Attack/Elemental Skill Additive Base DMG Bonus
+|-
+| {{Item|Cinnabar Spindle|20|type=weapon}}
+| Elemental Skill Additive Base DMG Bonus
+|-
+| {{Item|Festering Desire|20|type=weapon}}
+| Elemental Skill DMG Bonus, Elemental Skill [[CRIT Rate]]
+|-
+| {{Item|Lion's Roar|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|The Black Sword|20|type=weapon}}
+| Normal/Charged Attack DMG Bonus
+|-
+| {{Item|Toukabou Shigure|20|type=weapon}}
+| All DMG Bonus
+|-
+| {{Item|Cool Steel|20|type=weapon}}
+| All DMG Bonus
+|}
+
+===Other Sources===
 {| class="article-table"
 ! Source
 ! Type of Buff
@@ -248,10 +220,13 @@ Other Sources
 |-
 | [[Elemental Resonance|Shattering Ice]]
 | [[CRIT Rate]]
+|-
+| 4-piece of [[Golden Troupe]]
+| [[Elemental Skill DMG Bonus]]
 |}
 
 ==Talents==
-Talents are character abilities that can receive static or dynamic buffs. While there are several talents that can be intuitively determined to be non-snapshottable, some are not - as such, it is important to clarify and distinguish the two types:
+There are several talents that can be intuitively determined to be non-snapshottable, some are not - as such, it is important to clarify and distinguish the two types:
 
 *'''Snapshottable Talents''' - Attributes are fixed after a certain point during the ability activation.
 *'''Non-Snapshottable Talents''' - Damage is recalculated during every instance of the ability's activation based on the character's current attributes.
@@ -264,189 +239,192 @@ Talents are character abilities that can receive static or dynamic buffs. While 
 !Character
 !Ability
 !Component
-!Notes
 |-
 |{{Character|Albedo|20|nobr=1}}
 |{{Talent|Abiogenesis: Solar Isotoma|20|nobr=1|type=1}}
 |Transient Blossom DMG
-|
 |-
 |{{Character|Alhaitham|20|nobr=1}}
 |{{Talent|Particular Field: Fetters of Phenomena|20|nobr=1|type=1}}
 |Single-Instance DMG
-|
-|-
-|rowspan="2"|{{Character|Ayato|20|nobr=1}}
-|{{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}}
-|Water Illusion DMG
-|
-|-
-|{{Talent|Kamisato Art: Suiyuu|20|nobr=1|type=1}}
-|Bloomwater Blade DMG
-|
-|-
-|{{Character|Diluc|20|nobr=1}}
-|{{Talent|Dawn|20|nobr=1|type=1}}
-|DoT and Explosion DMG
-|
-|-
-|{{Character|Dehya|20|nobr=1}}
-|{{Talent|Molten Inferno|20|nobr=1|type=1}}
-|Field DMG
-|
-|-
-|rowspan = 2| {{Character|Ganyu|20|nobr=1}}
-|{{Talent|Celestial Shower|20|nobr=1|type=1}}
-|Ice Shard DMG
-|
-|-
-|{{Talent|Trail of the Qilin|20|nobr=1|type=1}}
-|Skill DMG
-|
-|-
-|{{Character|Jean|20|nobr=1}}
-|{{Talent|Dandelion Breeze|20|nobr=1|type=1}}
-|Field Entering/Exiting DMG
-|
-|-
-| {{Character|Kaedehara Kazuha|20|nobr=1}}
-|{{Talent|Kazuha Slash|20|nobr=1|type=1}}
-|DoT; Additional Elemental DMG
-|
-|-
-|{{Character|Kamisato Ayaka|20|nobr=1}}
-|{{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}}
-|Cutting DMG; Bloom DMG
-|
-|-
-|{{Character|Klee|20|nobr=1}}
-|{{Talent|Jumpy Dumpty|20|nobr=1|type=1}}
-|Mine DMG
-|
-|-
-|rowspan = 2| {{Character|Layla|20|nobr=1}}
-|{{Talent|Nights of Formal Focus|20|nobr=1|type=1}}
-|Shooting Star DMG
-|Snapshots when projectile is fired
-|-
-|{{Talent|Dream of the Star-Stream Shaker|20|nobr=1|type=1}}
-|Starlight Slug DMG
-|
-|-
-|{{Character|Mona|20|nobr=1}}
-|{{Talent|Mirror Reflection of Doom|20|nobr=1|type=1}}
-|DoT; Explosion DMG
-|
-|-
-|{{Character|Qiqi|20|nobr=1}}
-|{{Talent|Adeptus Art: Herald of Frost|20|nobr=1|type=1}}
-|Herald of Frost DMG; Healing
-|
-|-
-|{{Character|Sangonomiya Kokomi|20|nobr=1}}
-|{{Talent|Kurage's Oath|20|nobr=1|type=1}}
-|Regeneration; Ripple DMG
-|
-|-
-|{{Character|Venti|20|nobr=1}}
-|{{Talent|Wind's Grand Ode|20|nobr=1|type=1}}
-|DoT; Additional Elemental DMG
-|
-|-
-|{{Character|Zhongli|20|nobr=1}}
-|{{Talent|Dominus Lapidis|20|nobr=1|type=1}}
-|Stone Stele Resonance DMG
-|
 |-
 |rowspan = "2"| {{Character|Amber|20|nobr=1}}
-|{{Talent|Fiery Rain|20|nobr=1|type=1}}
-|Fiery Rain DMG
-|
-|-
 |{{Talent|Explosive Puppet|20|nobr=1|type=1}}
 |Explosion DMG
-|
+|-
+|{{Talent|Fiery Rain|20|nobr=1|type=1}}
+|Fiery Rain DMG
 |-
 |{{Character|Beidou|20|nobr=1}}
 |{{Talent|Stormbreaker|20|nobr=1|type=1}}
 |Lightning DMG
-|
+|-
+|{{Character|Charlotte|20|nobr=1}}
+|{{Talent|Still Photo: Comprehensive Confirmation|20|nobr=1|type=1}}
+|AoE DMG and Healing
+|-
+|{{Character|Dehya|20|nobr=1}}
+|{{Talent|Molten Inferno|20|nobr=1|type=1}}
+|Field DMG
+|-
+|{{Character|Diluc|20|nobr=1}}
+|{{Talent|Dawn|20|nobr=1|type=1}}
+|DoT and Explosion DMG
 |-
 |{{Character|Diona|20|nobr=1}}
 |{{Talent|Signature Mix|20|nobr=1|type=1}}
 |Continuous Field DMG
-|
 |-
 |{{Character|Dori|20|nobr=1}}
 |{{Talent|Alcazarzaray's Exactitude|20|nobr=1|type=1}}
 |Connector DMG
-|
 |-
 | {{Character|Fischl|20|nobr=1}}
 |{{Talent|Nightrider|20|nobr=1|type=1}}
 |Oz's ATK DMG
-|
+|-
+|rowspan = 2| {{Character|Ganyu|20|nobr=1}}
+|{{Talent|Trail of the Qilin|20|nobr=1|type=1}}
+|Skill DMG
+|-
+|{{Talent|Celestial Shower|20|nobr=1|type=1}}
+|Ice Shard DMG
+|-
+|{{Character|Jean|20|nobr=1}}
+|{{Talent|Dandelion Breeze|20|nobr=1|type=1}}
+|Field Entering/Exiting DMG
+|-
+| {{Character|Kaedehara Kazuha|20|nobr=1}}
+|{{Talent|Kazuha Slash|20|nobr=1|type=1}}
+|DoT; Additional Elemental DMG
 |-
 |{{Character|Kaeya|20|nobr=1}}
 |{{Talent|Glacial Waltz|20|nobr=1|type=1}}
 |Skill DMG
-|
+|-
+|{{Character|Kamisato Ayaka|20|nobr=1}}
+|{{Talent|Kamisato Art: Soumetsu|20|nobr=1|type=1}}
+|Cutting DMG; Bloom DMG
+|-
+|rowspan="2"|{{Character|Kamisato Ayato|20|nobr=1}}
+|{{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}}
+|Water Illusion DMG
+|-
+|{{Talent|Kamisato Art: Suiyuu|20|nobr=1|type=1}}
+|Bloomwater Blade DMG
+|-
+|rowspan="2"|{{Character|Kirara|20|nobr=1}}
+|{{Talent|Meow-teor Kick|20|nobr=1|type=1}}
+|Urgent Neko Parcel Hit DMG
+|-
+|{{Talent|Secret Art: Surprise Dispatch|20|nobr=1|type=1}}
+|Cat Grass Cardamom Explosion DMG
+|-
+|{{Character|Klee|20|nobr=1}}
+|{{Talent|Jumpy Dumpty|20|nobr=1|type=1}}
+|Mine DMG
 |-
 |{{Character|Kuki Shinobu|20|nobr=1}}
 |{{Talent|Gyoei Narukami Kariyama Rite|20|nobr=1|type=1}}
 |DMG
-|
+|-
+|rowspan = 2| {{Character|Layla|20|nobr=1}}
+|{{Talent|Nights of Formal Focus|20|nobr=1|type=1}}
+|Shooting Star DMG<ref group="Note">Snapshots when projectile is fired.</ref>
+|-
+|{{Talent|Dream of the Star-Stream Shaker|20|nobr=1|type=1}}
+|Starlight Slug DMG
 |-
 |rowspan = "2" |{{Character|Lisa|20|nobr=1}}
-|{{Talent|Lightning Rose|20|nobr=1|type=1}}
-|Discharge DMG
-|
-|-
 |{{Talent|Violet Arc|20|nobr=1|type=1}}
 |Press DMG
-|
+|-
+|{{Talent|Lightning Rose|20|nobr=1|type=1}}
+|Discharge DMG
+|-
+|{{Character|Lyney|20|nobr=1}}
+|{{Talent|Card Force Translocation|20|nobr=1|type=1}}
+|Pyrotechnic Strike DMG
+|-
+|{{Character|Mona|20|nobr=1}}
+|{{Talent|Mirror Reflection of Doom|20|nobr=1|type=1}}
+|DoT; Explosion DMG
+|-
+| rowspan="2" |{{Character|Ningguang|20|nobr=1}}
+|{{Talent|Jade Screen|20|nobr=1|type=1}}
+|Skill DMG; Additional Gem Projectiles
+|-
+|{{Talent|Starshatter|20|nobr=1|type=1}}
+|Starshatter DMG
+|-
+|{{Character|Qiqi|20|nobr=1}}
+|{{Talent|Adeptus Art: Herald of Frost|20|nobr=1|type=1}}
+|Herald of Frost DMG; Healing
 |-
 |{{Character|Rosaria|20|nobr=1}}
 |{{Talent|Rites of Termination|20|nobr=1|type=1}}
 |Ice Lance DoT
-|
+|-
+|{{Character|Sangonomiya Kokomi|20|nobr=1}}
+|{{Talent|Kurage's Oath|20|nobr=1|type=1}}
+|Regeneration; Ripple DMG
 |-
 |rowspan="2" |{{Character|Sayu|20|nobr=1}}
-|{{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}}
-|DMG; Healing
-|
-|-
 |{{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}}
 |Fuufuu Windwheel DMG; Fuufuu Whirlwind Kick DMG
-|
+|-
+|{{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}}
+|DMG; Healing
 |-
 |{{Character|Shikanoin Heizou|20|nobr=1}}
 |{{Talent|Windmuster Kick|20|nobr=1|type=1}}
 |Fudou Style Vacuum Slugger DMG; Windmuster Iris DMG
-|
 |-
 |{{Character|Sucrose|20|nobr=1}}
 |{{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1|type=1}}
 |DoT; Additional Elemental DMG
-|
+|-
+| rowspan="5" |{{Character|Traveler|20|nobr=1}}
+|{{Talent|Gust Surge|20|nobr=1|type=1}}
+|Tornado DMG; Additional Elemental DMG
+|-
+|{{Talent|Starfell Sword|20|nobr=1|type=1}}
+|Rockcore Meltdown DMG
+|-
+|{{Talent|Bellowing Thunder|20|nobr=1|type=1}}
+|Falling Thunder DMG
+|-
+|{{Talent|Surgent Manifestation|20|nobr=1|type=1}}
+|Lea Lotus Lamp Attack DMG; Explosion DMG
+|-
+|{{Talent|Rising Waters|20|nobr=1|type=1}}
+|Skill DMG
+|-
+|{{Character|Venti|20|nobr=1}}
+|{{Talent|Wind's Grand Ode|20|nobr=1|type=1}}
+|DoT; Additional Elemental DMG
+|-
+|{{Character|Wanderer|20|nobr=1}}
+|{{Talent|Kyougen: Five Ceremonial Plays|20|nobr=1|type=1}}
+|Skill DMG
 |-
 | rowspan="2" |{{Character|Xiangling|20|nobr=1}}
 |{{Talent|Guoba Attack|20|nobr=1|type=1}}
 |Flame DMG
-|
 |-
 | {{Talent|Pyronado|20|nobr=1|type=1}}
 |Pyronado DMG
-|
 |-
 | rowspan="2" |{{Character|Yaoyao|20|nobr=1}}
 | {{Talent|Raphanus Sky Cluster|20|nobr=1|type=1}}
 | White Jade Radish DMG
-|
 |-
 | {{Talent|Moonjade Descent|20|nobr=1|type=1}}
-| Adeptal Legacy White Jade Radish DMG
-| Each Yuegui snapshots individually when spawned
+| Adeptal Legacy White Jade Radish DMG<ref group="Note">Each Yuegui snapshots individually when spawned.</ref>
+|-
+|{{Character|Zhongli|20|nobr=1}}
+|{{Talent|Dominus Lapidis|20|nobr=1|type=1}}
+|Stone Stele Resonance DMG
 |}
 
 ===Non-Snapshottable===
@@ -462,9 +440,33 @@ Talents are character abilities that can receive static or dynamic buffs. While 
 |Projection Attack DMG
 |
 |-
+|{{Character|Arlecchino|20|nobr=1}}
+|{{Talent|All Is Ash|20|nobr=1|type=1}}
+|Blood-Debt Directive DMG
+|
+|-
+|{{Character|Chiori|20|nobr=1}}
+|{{Talent|Fluttering Hasode|20|nobr=1|type=1}}
+|Tamoto DMG
+|
+|-
+|rowspan="2" |{{Character|Emilie|20|nobr=1}}
+|{{Talent|Fragrance Extraction|20|nobr=1|type=1}}
+|Lumidouce Case Attack DMG
+|
+|-
+|{{Talent|Aromatic Explication|20|nobr=1|type=1}}
+|Lumidouce Case Attack DMG
+|
+|-
 |{{Character|Eula|20|nobr=1}}
 |{{Talent|Glacial Illumination|20|nobr=1|type=1}}
 |Lightfall Sword DMG
+|
+|-
+|{{Character|Fischl|20|nobr=1}}
+|{{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}}
+|Falling Thunder DMG
 |
 |-
 |{{Character|Hu Tao|20|nobr=1}}
@@ -474,6 +476,16 @@ Talents are character abilities that can receive static or dynamic buffs. While 
 |-
 |{{Character|Keqing|20|nobr=1}}
 |{{Talent|Starward Sword|20|nobr=1|type=1}}
+|All DMG
+|
+|-
+|{{Character|Kuki Shinobu|20|nobr=1}}
+|{{Talent|Sanctifying Ring|20|nobr=1|type=1}}
+|Grass Ring of Sanctification DMG
+|
+|-
+|{{Character|Lynette|20|nobr=1}}
+|{{Talent|Magic Trick: Astonishing Shift|20|nobr=1|type=1}}
 |All DMG
 |
 |-
@@ -487,13 +499,23 @@ Talents are character abilities that can receive static or dynamic buffs. While 
 |Tri-Karma Purification DMG
 |
 |-
+|{{Character|Navia|20|nobr=1}}
+|{{Talent|As the Sunlit Sky's Singing Salute|20|nobr=1|type=1}}
+|Cannon Fire Support DMG
+|
+|-
 |rowspan="2" |{{Character|Raiden Shogun|20|nobr=1}}
+|{{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}}
+|Coordinated DMG
+|
+|-
 |{{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}}
 |All DMG
 |
 |-
-|{{Talent|Transcendence: Baleful Omen|20|nobr=1|type=1}}
-|Coordinated DMG
+|{{Character|Razor|20|nobr=1}}
+|{{Talent|Lightning Fang|20|nobr=1|type=1}}
+|Soul Companion DMG
 |
 |-
 | rowspan="3" |{{Character|Tartaglia|20|nobr=1}}
@@ -509,9 +531,28 @@ Talents are character abilities that can receive static or dynamic buffs. While 
 |Riptide Blast DMG
 |
 |-
-|{{Character|Yoimiya|20|nobr=1}}
-|{{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}}
-|Aurous Blaze Explosion DMG
+|{{Character|Thoma|20|nobr=1}}
+|{{Talent|Crimson Ooyoroi|20|nobr=1|type=1}}
+|Fiery Collapse DMG
+|
+|-
+|{{Character|Traveler|20|nobr=1}}
+|{{Talent|Aquacrest Saber|20|nobr=1|type=1}}
+|Dewdrop DMG
+|
+|-
+|{{Character|Xingqiu|20|nobr=1}}
+|{{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}}
+|Rain Sword DMG
+|
+|-
+| rowspan="2" |{{Character|Xinyan|20|nobr=1}}
+|{{Talent|Sweeping Fervor|20|nobr=1|type=1}}
+|Shield DoT
+|
+|-
+|{{Talent|Riff Revolution|20|nobr=1|type=1}}
+|Pyro DoT
 |
 |-
 | rowspan="2" | {{Character|Yae Miko|20|nobr=1}}
@@ -528,38 +569,9 @@ Talents are character abilities that can receive static or dynamic buffs. While 
 |Exquisite Throw DMG
 |
 |-
-|{{Character|Fischl|20|nobr=1}}
-|{{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}}
-|Falling Thunder DMG
-|
-|-
-|{{Character|Kuki Shinobu|20|nobr=1}}
-|{{Talent|Sanctifying Ring|20|nobr=1|type=1}}
-|Grass Ring of Sanctification DMG
-|
-|-
-|{{Character|Razor|20|nobr=1}}
-|{{Talent|Lightning Fang|20|nobr=1|type=1}}
-|Soul Companion DMG
-|
-|-
-|{{Character|Thoma|20|nobr=1}}
-|{{Talent|Crimson Ooyoroi|20|nobr=1|type=1}}
-|Fiery Collapse DMG
-|
-|-
-|{{Character|Xingqiu|20|nobr=1}}
-|{{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}}
-|Rain Sword DMG
-|
-|-
-| rowspan="2" |{{Character|Xinyan|20|nobr=1}}
-|{{Talent|Riff Revolution|20|nobr=1|type=1}}
-|Pyro DoT
-|
-|-
-|{{Talent|Sweeping Fervor|20|nobr=1|type=1}}
-|Shield DoT
+|{{Character|Yoimiya|20|nobr=1}}
+|{{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}}
+|Aurous Blaze Explosion DMG
 |
 |}
 
@@ -569,16 +581,16 @@ Talents are character abilities that can receive static or dynamic buffs. While 
 {| class="wikitable"
 ! Elemental Reaction !! Uses Snapshotted EM
 |-
-| [[Melt]]<br />[[Vaporize]] || {{check|yes}}
+| [[Melt]]<br>[[Vaporize]] || {{check|yes}}
 |-
-| [[Overloaded]]<br />[[Shattered]]<br />[[Electro-Charged]]<br />[[Superconduct]]<br />[[Swirl]]<br />[[Burning]]<br />[[Bloom]]<br />[[Hyperbloom]]<br />[[Burgeon]]<br />[[Aggravate]]<br />[[Spread]] || {{check|no}}
+| [[Overloaded]]<br>[[Shattered]]<br>[[Electro-Charged]]<br>[[Superconduct]]<br>[[Swirl]]<br>[[Burning]]<br>[[Bloom]]<br>[[Hyperbloom]]<br>[[Burgeon]]<br>[[Aggravate]]<br>[[Spread]] || {{check|no}}
 |}
 
-For example, the [[Superconduct]] damage triggered by [[Ganyu]]'s [[Celestial Shower]] will be boosted by [[Sucrose]]'s [[Catalyst Conversion]] even after Ganyu's talent is cast. Prior to the version changes, the Superconduct damage would only be boosted if Sucrose's talent was triggered before Ganyu's burst.
-<!--
+For example, the [[Superconduct]] damage triggered by [[Ganyu]]'s [[Celestial Shower]] will be boosted by [[Sucrose]]'s [[Catalyst Conversion]] even after Ganyu's talent is cast.
+
 ==Notes==
 {{Reflist|note=1}}
--->
+
 ==Change History==
 {{Change History|1.0}}
 <!--
@@ -591,3 +603,4 @@ For example, the [[Superconduct]] damage triggered by [[Ganyu]]'s [[Celestial Sh
 
 [[ja:スナップショット]]
 [[th:ความเสียหายคงที่ตลอดระยะเวลาต่อเนื่อง]]
+[[vi:Snapshot]]

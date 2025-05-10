@@ -40,20 +40,20 @@
 Bolteater Bathysmal Vishap Hatchling Weak Point.png
 </gallery>
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 
 |name_1 = Cleansing Shower
-|desc_1 = Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''5% ATK''' as {{Color|AoE Electro DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
-* The HP Loss is calculated as:<br /><math>\begin{align} \text{HP Loss} = {} & ( 14 \% \times \text{Max HP}_\text{Character} + 200 ) \\
+|desc_1 = Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''5% ATK''' as {{Color|Electro DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
+* The HP Loss is calculated as:<br><math>\begin{align} \text{HP Loss} = {} & ( 14 \% \times \text{Max HP}_\text{Character} + 200 ) \\
 & \times ( 1 - \frac{\text{Remaining Energy}}{10} ) \end{align}</math>
 
 |name_2 = Spinning Sweep
-|desc_2 = Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|AoE Electro DMG}}.
+|desc_2 = Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|Electro DMG}}.
 
 |name_3 = Homing Shards
-|desc_3 = Launches three shards from its tail that home towards the player at high speed, dealing '''30% ATK''', '''15% ATK''', '''7.5% ATK''' respectively as {{Color|Electro DMG}}.
+|desc_3 = Forms an orb in front of it that fires a spread of three bolts after a moment. The bolts will then shoot themselves towards the player's position, dealing '''30% ATK''' as {{Color|Electro DMG}}. Repeated DMG instances will have their DMG reduced according to its [[Damage Sequence]].
 
 |name_4 = Slash Combo
 |desc_4 = If the player is within melee range, performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
@@ -77,13 +77,10 @@ Bolteater Bathysmal Vishap Hatchling Weak Point.png
 |-
 | Slash Combo || 0–5 || 3 || 15 || 5
 |-
-| Spinning Sweep || 0–5 || 2 || 5–7.5 || —
+| Spinning Sweep || 0–5 || 2 || 5–7.5 || &mdash;
 |-
 | Homing Shards || 7–30 || 1 || 10–15 || 3
 |}
-
-==Descriptions==
-{{Description|A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Electro element.<br />Following the fading of the Seven Sovereigns' power, a new generation of Sovereigns is presently being born. But now that the Bathysmal Vishaps have evolved in this manner, they have lost their purity. As such, the Dragon of Water will no longer be born from among their ranks. Prophecy holds that the new Dragon of Water will definitely descend in the form of a human.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -108,20 +105,20 @@ Enemy Bolteater Bathysmal Vishap Hatchling Icon.png|Icon
 |fr      = Élémentosaure abyssal mangéclair : nouveau-né
 |fr_tl   = Lightning-Eater Abyssal {{Lex|Vishap|fr}}: Newborn
 |ru      = Молодой вишап глубин: Громоглот
-|ru_tl   = Young Vishap of the Depths: Thunder-Swallower
-|ru_note = {{Lang|mini=1|ru=Громоглот|ru_rm=Gromoglot}} is a compound word made of the noun {{Lang|mini=1|ru=гром|ru_rm=grom|ru_tl=thunder; thunderbolt}} and the verb {{Lang|mini=1|ru=глотать|ru_rm=glotat'|ru_tl=to swallow}}, joined by the interfix "{{Lang|mini=1|ru=-о-}}".
+|ru_tl   = Young {{Lex|Bathysmal Vishap|ru}}: Thunder-Swallower
+|ru_note = {{ru|Громоглот}} is a compound word made of the noun {{ru|гром|tl=thunder; thunderbolt}} and the verb {{ru|глотать|tl=to swallow,}} joined by the interfix {{ru|-о-}}.
 |th      = Bolteater Bathysmal Vishap Hatchling
 |vi      = Rồng Biển Sâu Con - Thôn Lôi
 |vi_tl   = Deep Sea {{Lex|Vishap|vi}} Hatchling - Electro Swallowing
 |de      = Junge Tiefsee-Drachenechse – Donnerverschlinger
 |de_tl   = Young Deep Sea {{Lex|Vishap|de}} - Thunder-Devourer
 |id      = Bolteater Bathysmal Vishap Hatchling
-|pt      = Cria de Dragarto das Profundezas — Trovão Engolidor
+|pt      = Cria de Dragarto das Profundezas &mdash; Trovão Engolidor
 |pt_tl   = <!--use {{Lex|Vishap|pt}}-->
 |tr      = Yıldırımyutan Su Ejderi Yavrusu
-|tr_tl   = 
+|tr_tl   = Lightning Devouring Water Dragon Cub
 |it      = Cucciolo di Elementosauro abissale Divoratuono
-|it_tl   = 
+|it_tl   = Cub Abyssal {{Lex|Vishap|it}} Thunder-Devourer
 }}
 
 ==Change History==
@@ -131,4 +128,6 @@ Enemy Bolteater Bathysmal Vishap Hatchling Icon.png|Icon
 {{Enemy Navbox|type=elite}}
 
 [[de:Junge Tiefsee-Drachenechse: Donnerverschlinger]]
+[[ja:アビサルヴィシャップの幼体・吞雷]]
 [[pt-br:Cria de Dragarto das Profundezas - Trovão Engolidor]]
+[[vi:Rồng Biển Sâu Con - Thôn Lôi]]

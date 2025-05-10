@@ -5,7 +5,7 @@
 |weakpoint = no
 |family   = Elemental Lifeforms
 |group    = Specters
-|location = [[Seirai Island]], [[Inazuma]]<br />[[Watatsumi Island]], Inazuma
+|location = [[Seirai Island]], [[Inazuma]]<br>[[Watatsumi Island]], Inazuma
 |ability1 = Fury
 }}
 {{Enemy Intro}}
@@ -32,11 +32,11 @@
 |atk_type  = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1 = Fury
-|desc_1 = Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
+|desc_1 = Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75–31.25</td><td>20</td></tr><tr><td>31.25–43.75</td><td>40</td></tr><tr><td>43.75–56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
 
 |name_2 = Rock Spit
 |desc_2 = Shoots three small homing rocks that deal '''80% ATK''' as {{Color|Geo DMG}}. The shots also knock the Specter backwards.
@@ -45,10 +45,10 @@
 |desc_3 = Spins before knocking into the player, dealing '''100% ATK''' as {{Color|Geo DMG}}.
 
 |name_4 = Earthquake
-|desc_4 = Shoots a projectile at the ground under it that bursts into an earthquake that deals '''100% ATK''' as {{Color|[[AoE]] Geo DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
+|desc_4 = Shoots a projectile at the ground under it that bursts into an earthquake that deals '''100% ATK''' as {{Color|Geo DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
 
 |name_5 = Final Burst
-|desc_5 = Explodes after a short pause when defeated dealing '''100% ATK''' as {{Color|AoE Geo DMG}}. If at max Fury, DMG is increased to '''120% ATK'''.
+|desc_5 = Explodes after a short pause when defeated dealing '''100% ATK''' as {{Color|Geo DMG}}. If at max Fury, DMG is increased to '''120% ATK'''.
 }}
 
 ===AI Logic===
@@ -68,11 +68,14 @@
 |-
 | Propeller Bump (Twice) || 0–10.5 || 3 || 7
 |-
-| Max Fury || Earthquake || 0–5.5 || — || 0.5
+| Max Fury || Earthquake || 0–5.5 || &mdash; || 0.5
 |}
 
+==Tutorials==
+{{Tutorial|Geo Specter}}
+
 ==Descriptions==
-{{Description|A monster birthed from a high concentration of Geo that can float in the air.<br />Geo Specters mimic the fruit of certain plants when their wings are closed together. As such, they are held by some ancient tales to be the fruit of a giant tree in the sky, and are regarded as having mysterious medical value.|[[Archive]]}}
+{{Description|A monster birthed from a high concentration of Geo that can float in the air.<br>Geo Specters mimic the fruit of certain plants when their wings are closed together. As such, they are held by some ancient tales to be the fruit of a giant tree in the sky, and are regarded as having mysterious medical value.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -108,7 +111,7 @@ Enemy Geo Specter Icon.png|Icon
 |pt      = Espectro Geo
 |pt_tl   = Geo Specter
 |tr      = Toprak Uçarlopu
-|tr_tl   = 
+|tr_tl   = {{Lex|Geo|tr}} {{Lex|Specter|tr}}
 |it      = Spettro di Geo
 |it_tl   = 
 }}

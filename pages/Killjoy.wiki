@@ -1,5 +1,6 @@
 {{Quest Infobox
 |id            = 19035
+|image         = Hangout Event Killjoy.png
 |type          = Story
 |group         = Hangout Event
 |chapter       = Chongyun
@@ -12,11 +13,11 @@
 |prev          = Sudden Discomfort
 |prev2         = Ever Deeper
 |next          = Independent Actions
-|other         = *Small Regrets
+|otherRewards  = *Small Regrets
 |characters    = Chongyun; Traveler
 |voiced        = yes
 }}
-'''''Killjoy''''' is a quest in the second branch of [[Chongyun]]'s [[Hangout Event]] Act I: [[Signs of Evil]].
+'''''Killjoy''''' is a quest in the second branch of {{Quest|Signs of Evil}}.
 
 ==Steps==
 # Tell [[Chongyun]] the truth
@@ -25,23 +26,24 @@
 * Branches
 ** Branch 1: As Yet Undersigned (''Remember that strange mist we found earlier? I would like to investigate that further.'')
 *** Follows up
-** Branch 2: '''Ending''' (''Right let's head back.'')
+** Branch 2: '''Ending''' (''Right, let's head back.'')
 *** This ends this route.
 **** Gives the Memory "Small Regrets"
 
 ==Dialogue==
 {{Quest Description|After a conversation with the [[Test of Courage]] staff, you discover that the spooky things happening there are all instigated by humans. While you expected as much, you imagine that Chongyun would be quite disappointed if you told him so...}}
-{{Dialogue start}}
+
 ===Nothing Going Bump After All...===
+{{Dialogue Start}}
 ;(Talk to Chongyun)
 ;(If coming from [[Ever Deeper]])
 ::{{A|vo cycop001 1903110 chongyun 01.ogg}} '''Chongyun:''' You're back! How did it go? Did you see an evil spirit...?
 ::{{DIcon}} No, I only saw an [[Zhouliang|event staff member]] pretending to be a ghost.
 ::{{A|vo cycop001 1903110 chongyun 02.ogg}} '''Chongyun:''' Huh...? So that's what's going on here!?
 ::{{A|vo cycop001 1903110 chongyun 03.ogg}} '''Chongyun:''' No evil spirits...? No danger...? It's all just a setup...?
-::{{DIcon}} It's just for entertainment, you took it way too seriously.
 ::{{DIcon}} I'm sorry, but that seems to be the truth.
 ::{{DIcon}} That's all there is to the [[Test of Courage]].
+::{{DIcon}} It's just for entertainment, you took it way too seriously.
 ;(If coming from [[Sudden Discomfort]])
 ::{{A|vo cycop001 1903202 chongyun 01.ogg}} '''Chongyun:''' Thanks for finding these ingredients for me. I feel much better now.
 ::{{A|vo cycop001 1903202 chongyun 02.ogg}} '''Chongyun:''' Although I still feel the yang energy stirring, at least I won't need to worry about it getting out of control.
@@ -49,9 +51,9 @@
 ::{{DIcon}} No, I only saw an [[Fu San'er|event staff member]] pretending to be a ghost.
 ::{{A|vo cycop001 1903202 chongyun 04.ogg}} '''Chongyun:''' Huh...? So that's what's going on here!?
 ::{{A|vo cycop001 1903202 chongyun 05.ogg}} '''Chongyun:''' Does that mean that all the strange things here are just a hoax?
-::{{DIcon}} It's just for entertainment, you took it way too seriously.
 ::{{DIcon}} I'm sorry, but that seems to be the truth.
 ::{{DIcon}} That's all there is to the [[Test of Courage]].
+::{{DIcon}} It's just for entertainment, you took it way too seriously.
 
 :<!--{{A|vo cycop001 1903110 chongyun 04.ogg}}-->{{A|vo cycop001 1903202 chongyun 06.ogg}} '''Chongyun:''' I&mdash;I see... So I was wrong again.
 :<!--{{A|vo cycop001 1903110 chongyun 05.ogg}}-->{{A|vo cycop001 1903202 chongyun 07.ogg}} '''Chongyun:''' *sigh* In that case, I suppose there's no reason for us to linger here any longer.
@@ -59,8 +61,10 @@
 :;(Go to [[#Branch 1|Branch 1]])
 :{{DIcon}} Right, let's head back.
 :;(Go to [[#Branch 2|Branch 2]])
+{{Dialogue End}}
 
 ===Branch 1===
+{{Dialogue Start}}
 :{{DIcon}} Remember that strange mist we found earlier? I would like to investigate that further.
 :{{A|vo cycop001 1903202 chongyun 12.ogg}} '''Chongyun:''' Yes, that was proof of an evil spirit's presence, but we can't be sure that the spirits still exist.
 :{{A|vo cycop001 1903202 chongyun 13.ogg}} '''Chongyun:''' Actually, I would also like to investigate that further...
@@ -75,8 +79,10 @@
 ::{{A|vo cycop001 1903202 chongyun 19.ogg}} '''Chongyun:''' Another means to the same end. Don't worry about me, purging it is the priority.
 :{{A|vo cycop001 1903202 chongyun 20.ogg}} '''Chongyun:''' I'll take this side, you take the other side. Let's move.
 ;(Continues to [[Independent Actions]])
+{{Dialogue End}}
 
 ===Branch 2===
+{{Dialogue Start}}
 :{{DIcon}} Right, let's head back.
 :{{A|vo cycop001 1903202 chongyun 08.ogg}} '''Chongyun:''' I'm sorry, this has all been a waste of your precious time...
 :{{DIcon}} Don't take it to heart.
@@ -84,7 +90,7 @@
 :{{A|vo cycop001 1903202 chongyun 09.ogg}} '''Chongyun:''' Hehe, you are very kind.
 :{{A|vo cycop001 1903202 chongyun 10.ogg}} '''Chongyun:''' At least we checked the Test of Courage together and verified that the place is clear of danger...
 :{{A|vo cycop001 1903202 chongyun 11.ogg}} '''Chongyun:''' *sigh* But if only we had found some evil spirits, then it all would have been worthwhile...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Ending: Small Regrets====
 {{Hangout Ending
@@ -103,10 +109,9 @@
 |zht_rm  = Sǎoxìng Ér Guī
 |zh_tl   = Returning Disappointed
 |ja      = 興ざめで帰る
-|ja_rm   = Kyouzamede Kaeru
-|ja_tl   = Lost Interest and Return
+|ja_rm   = Kyouzame de Kaeru
+|ja_tl   = Returning With Lost Interest
 |ko      = 수확 제로
-|ko_rm   = Suhwak Jero
 |ko_tl   = Outcome Zero
 |es      = Aguando la fiesta
 |es_tl   = Watering the Party

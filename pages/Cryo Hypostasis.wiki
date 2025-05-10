@@ -6,13 +6,16 @@
 |group    = Hypostases
 |image    = Enemy Cryo Hypostasis.png
 |weakpoint = no
-|location = [[Dragonspine]], [[Mondstadt]]
+|area     = Dragonspine
+|region   = Mondstadt
 |ability1 = Healing
 |ability2 = Shield
 |ability3 = Invincibility Frames
+|ability4 = Teleport
 |drops    = Crystalline Bloom
+|subarea  = Entombed City - Outskirts
 }}
-{{Enemy Intro|name='''Cryo Hypostasis''' (Code Name: Daleth)}} In order to challenge the Cryo Hypostasis, players must complete the quest ''[[In the Mountains]]''. After it is completed, the boss will spawn over the ice where the elemental monuments, automatons, and switches used to be.
+{{Enemy Intro|name='''Cryo Hypostasis''' (Code Name: Daleth)}} In order to challenge the Cryo Hypostasis, players must complete the {{Quest|In the Mountains}}. After it is completed, the boss will spawn over the ice where the elemental monuments, automatons, and switches used to be.
 
 ==Drops==
 ===Items===
@@ -42,31 +45,37 @@
 |atk_type     = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 For most of the attacks below, the core will be exposed for a few seconds after the boss uses the attack. Use this opportunity to deal damage to the boss.
 
 {{Enemy Attacks
 |name_1 = Sheer Cold Acceleration
 |desc_1 = Being near the Cryo Hypostasis accelerates the rate of [[Sheer Cold]] accumulation by '''200%'''.
 
-|name_2 = Icy Spikes
-|desc_2 = Creates a barrier of detonating icicles around itself while spawning icicles where the player is standing with a short delay, dealing '''50% ATK''' as {{Color|Cryo DMG}}. Dodge by either periodically dashing around the edge of the arena or running towards the exposed core.
+|name_2 = Plunging Ice Shards
+|file_2 = Cryo Hypostasis Icy Spikes
+|desc_2 = Creates a barrier of piercing icicles around itself while spawning icicles where the player is standing with a short delay, dealing '''50% ATK''' as {{Color|Cryo DMG}}. Icicles do not target the player while inside the barrier. Dodge by either periodically dashing around the edge of the arena or running inside the barrier.
 
-|name_3 = Frost Wheel
+|name_3 = Ice Ring Waltz
+|file_3 = Cryo Hypostasis Frost Wheel
 |desc_3 = Transforms into a wheel that travels in a straight line towards the player and deals '''50% ATK''' as {{Color|Cryo DMG}} on hit. This attack may turn up to three times.
 
-|name_4 = Homing Icicles
+|name_4 = Icespike Shot
+|file_4 = Cryo Hypostasis Homing Icicles
 |desc_4 = Flies into the air and forms a rhombus with its shell pieces before firing each of them at the player, dealing '''50% ATK''' as {{Color|Cryo DMG}}. The trajectory of these projectiles is curved, but can be dodged by dashing under the Hypostasis during the attack. The core is exposed during this attack.
 
 |name_5 = Crystalline Skirt
-|desc_5 = Forms a "skirt" of icicles which it shoots in three rings of increasing diameter, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}}.
+|desc_5 = Forms a "skirt" of icicles which it shoots out in three rings of increasing diameter, dealing '''100% ATK''' as {{Color|Cryo DMG}}. The final ring leaves behind a short-lived ring of frost that deals '''30% ATK''' as {{Color|Cryo DMG}} to characters stepping on it.
 
 |name_6 = Clap
-|desc_6 = Flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Cryo DMG}} in front of the wall.
+|desc_6 = Flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|Cryo DMG}} in front of the wall.
 
-|name_7 = Glacial Shield
-|desc_7 = When HP is low (5%), teleports to the center of the arena and forms a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} shield around itself. While maintaining this state, summons several Frostfruits around it, dealing '''25% ATK''' as  {{Color|AoE Cryo DMG}} on landing. while regenerating a percentage of HP every second. '''Homing Icicles''' will be fired periodically during this phase. Players are able to use [[Charged Attack]]s against the fallen Frostfruits to destroy the shield and expose the core and defeat it while it is exposed. The revival state will end when the Hypostasis heals to 50% HP and it will resume attacking.
+|name_7 = Sternfrost Prism
+|file_7 = Cryo Hypostasis Glacial Shield
+|desc_7 = When HP is low (5%), teleports to the center of the arena and forms a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} shield around itself. While maintaining this state, lobs several Frostfruits around the arena, dealing '''25% ATK''' as  {{Color|Cryo DMG}} on landing. while regenerating '''5%''' of its Max HP every 3s. '''Homing Icicles''' will be fired periodically during this phase. If a [[Charged Attack]] is used on a Frostfruit, it will be sent rolling towards the Cryo Hypostasis to damage the Hypostasis' shield by '''40''' GU. When the Hypostasis has recovered '''50%''' of its Max HP, it will stop healing. It will resume attacking after it has launched one more wave of icicles once it has ceased healing.
+* If this is the second time it is using this ability, it will only recover '''2.5%''' of its Max HP every 3s, and it will stop healing after recovering '''25%''' of its Max HP. From the third time onwards, it will only recover '''1%''' of its Max HP every 3s, and it will stop healing after recovering '''10%''' of its Max HP.
+* If the Shield is destroyed, the Cryo Hypostasis will be stunned for 15s with its core exposed. If its HP drop below 5% during this period, it will be automatically defeated regardless of whether it had HP remaining.
 {{Elemental Shield Data|Cryo|88}}
 
 |name_8 = Icicle Barrage
@@ -78,16 +87,19 @@ In the [[Hypostatic Symphony: Dissonant Verse]] Event, the Cryo Hypostasis gains
 {{Enemy Attacks
 |enemy  = Cryo Hypostasis Event
 
-|name_1 = Icy Spikes
+|name_1 = Plunging Ice Shards
+|file_1 = Cryo Hypostasis Event Icy Spikes
 |desc_1 = Icicle spikes will spawn much more rapidly.
 
-|name_2 = Homing Icicles
+|name_2 = Icespike Shot
+|file_2 = Cryo Hypostasis Event Homing Icicles
 |desc_2 = Each icicle will split into 3 mini icicles shortly after being fired, each dealing '''25% ATK''' as {{Color|Cryo DMG}} on hit.
 
 |name_3 = Crystalline Skirt
 |desc_3 = In addition to the original attack, homing icicles will be fired, each dealing '''25% ATK''' as {{Color|Cryo DMG}} on hit.
 
-|name_4 = Glacial Shield
+|name_4 = Sternfrost Prism
+|file_4 = Cryo Hypostasis Event Glacial Shield
 |desc_4 = The Cryo Hypostasis will shoot 5 Frostfruits per wave instead of 3. 1 or 2 layers of 3 protective barriers capable of blocking Frostfruits will appear and rotate around the Hypostasis. The defensive barriers are {{Frozen}} objects that can be damaged by [[Elemental Reactions]] or [[Blunt Attack]]s, and are weakest to {{Pyro}}. Additionally, hitting a defensive barrier with a Frostfruit will also damage it by 6 Gauge Units.
 {{Elemental Shield Data|Cryo|6|Defensive Barrier}}
 |caption_4 = 1 Layer
@@ -112,21 +124,21 @@ In the [[Hypostatic Symphony: Dissonant Verse]] Event, the Cryo Hypostasis gains
 |-
 | Crystalline Skirt || 10–50 || 4 || 20–25 || &mdash; || &mdash;
 |-
-| Frost Wheel (Once) || 8–20 || 4 || 30–35 || &mdash; || rowspan="3" | 30
+| Ice Ring Waltz (Once) || 8–20 || 4 || 30–35 || &mdash; || rowspan="3" | 30
 |-
-| Frost Wheel (Twice) || 8–20 || 4 || 30–35 || &mdash;
+| Ice Ring Waltz (Twice) || 8–20 || 4 || 30–35 || &mdash;
 |-
-| Frost Wheel (Thrice) || 8–20 || 4 || 30–45 || &mdash;
+| Ice Ring Waltz (Thrice) || 8–20 || 4 || 30–45 || &mdash;
 |-
-| Homing Icicles || 5–12 || 4 || 20–25 || &mdash; || &mdash;
+| Icespike Shot || 5–12 || 4 || 20–25 || &mdash; || &mdash;
 |-
-| Icy Spikes || 5–50 || 4 || 20–25 || &mdash; || &mdash;
+| Plunging Ice Shards || 5–50 || 4 || 20–25 || &mdash; || &mdash;
 |-
 | rowspan="3" | Reviving || Frostfruit Throw || 0–30 || 5 || 5 || 2 || &mdash;
 |-
 | Icicle Barrage || 0–8 || 5 || 2 || 5 || rowspan="2" | 2
 |-
-| Homing Icicles || 8–30 || 5 || 2 || 5
+| Icespike Shot || 8–30 || 5 || 2 || 5
 |}
 
 ==Strategy==
@@ -139,15 +151,17 @@ In the [[Hypostatic Symphony: Dissonant Verse]] Event, the Cryo Hypostasis gains
 ==Achievements==
 {{Achievement Topic Table|topic=Cryo Hypostasis}}
 
+==Tutorials==
+{{Tutorial|Cryo Hypostasis}}
+
 ==Descriptions==
 {{Description|A [[Skyfrost Nail|great nail]] fell down to Dragonspine in a bygone era, and has been pouring energy into the Ley Lines here ever since. Who knows what strange new phenomena might occur on the mountain when the nail is dislodged?|[[Adventurer Handbook]], before unlocking Cryo Hypostasis}}
-{{Description|Code name: Daleth. A high-purity [[Cryo]] entity.<br />Research suggests that there are subtle differences between elemental hypostases and other elemental life forms in terms of their physical composition. Perhaps these differences can account for their high level of homeostasis and their almost mechanical movements.|[[Adventurer Handbook]] and [[Archive]]}}
+{{Description|Code name: Daleth. A high-purity [[Cryo]] entity.<br>Research suggests that there are subtle differences between elemental hypostases and other elemental life forms in terms of their physical composition. Perhaps these differences can account for their high level of homeostasis and their almost mechanical movements.|[[Adventurer Handbook]] and [[Archive]]}}
 
 ==Trivia==
-* Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Daleth"|he=דּ|he_rm=Dalet}} being named after the fourth.
-* Firing a [[Frostflake Arrow]] with [[Ganyu]] at the ceiling of the cavern underneath will trigger the Cryo Hypostasis battle. This is believed to be a bug, though.
-* Unlike its other brethren, the Cryo Hypostasis has rounded edges on its cube-like form.
-** Both the [[Pyro Hypostasis]] and the [[Hydro Hypostasis]] share the same rounded corners.
+* Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Daleth"|he=דּ|he_rm=Dalet}} being named after the fourth letter.
+* Firing a [[Frostflake Arrow]] with [[Ganyu]] at the ceiling of the cavern underneath will trigger the Cryo Hypostasis battle. However, this is believed to be a bug.
+* The Cryo, [[Hydro Hypostasis|Hydro]] and [[Pyro Hypostasis]] have rounded corners and appear intact as opposed to the sharp corners and decayed state of the rest.
 
 ==Gallery==
 <gallery>
@@ -156,11 +170,15 @@ Version 1.5 "Beneath the Light of Jadeite" Trailer - Genshin Impact
 Chilled to the Bone.png|Chilled to the Bone Promotional Event
 </gallery>
 
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
+<!--
 ==Video Guides==
 {{EVT
-|video1   = https://youtu.be/LR7SqraXcqY
-|caption1 = Easy Cryo Hypostasis Guide (All attacks Explained)
+|video1   = 
+|caption1 = 
 }}
+-->
 
 ==Other Languages==
 {{Other Languages
@@ -170,7 +188,7 @@ Chilled to the Bone.png|Chilled to the Bone Promotional Event
 |zht     = 無相之冰
 |zht_rm  = Wúxiàng zhī Bīng
 |zh_tl   = Signless Ice
-|ja      = {{Rubi|無|む|相|そう|の|&nbsp;|氷|こおり}}
+|ja      = 無相の氷
 |ja_rm   = Musou no Koori
 |ja_tl   = Signless Ice
 |ko      = 무상의 얼음
@@ -191,9 +209,9 @@ Chilled to the Bone.png|Chilled to the Bone Promotional Event
 |pt      = Hypostasis Cryo
 |pt_tl   = Cryo Hypostasis
 |tr      = Buz Hipostazı
-|tr_tl   = 
+|tr_tl   = {{lex|Cryo|tr}}  Hypostasis
 |it      = Ipostasi di Cryo
-|it_tl   = 
+|it_tl   = Cryo Hypostasis
 }}
 
 ==Change History==
@@ -208,3 +226,4 @@ Chilled to the Bone.png|Chilled to the Bone Promotional Event
 [[ja:無相の氷]]
 [[pt-br:Hypostasis Cryo]]
 [[ru:Крио гипостазис]]
+[[zh:無相之冰]]

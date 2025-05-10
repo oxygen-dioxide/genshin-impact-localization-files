@@ -1,115 +1,205 @@
 {{Terminology Infobox
-|image        = Item Sanctifying Essence.png
+|image        = Item Artifact EXP.png
 |type         = Experience
-|rarity       = 
 |description  = Artifact EXP, used to level up artifacts.
 |source1      = [[Artifacts]]
-|source2      = [[Artifact EXP Material]]
+|source2      = [[Artifact Enhancement Material]]s
 }}
-'''Artifact EXP''' can be gained by using [[Artifact EXP Material]]s or using other [[Artifacts]] as fodder.
+'''Artifact EXP''' is a resource used to enhance an [[artifact]] to its next level. It is sourced from [[Artifact Enhancement Material|artifact EXP material]]<nowiki/>s and [[artifact]]<nowiki/>s.
 
-==Artifact EXP Materials==
-Sanctifying Oils can be used to upgrade artifacts.
+==EXP per Level==
+{| class="wikitable align-center"
+|+Cumulative EXP - ''EXP Required Until Next Level''
+! rowspan="2" |Level
+! colspan="10" |Quality
+|-
+! colspan="2" |{{Icon/Stars|1}}!! colspan="2" |{{Icon/Stars|2}}!! colspan="2" |{{Icon/Stars|3}}!! colspan="2" |{{Icon/Stars|4}}!! colspan="2" |{{Icon/Stars|5}}
+|-
+!0
+|0
+|''600''||0
+|''1,200''||0
+|''1,800''||0
+|''2,400''||0 
+|''3,000''
+|-
+!1
+|600
+|''750''||1,200
+|''1,500''||1,800
+|''2,225''||2,400
+|''2,975''||3,000
+|''3,725''
+|-
+!2
+|1,350
+|''875''||2,700
+|''1,775''||4,025
+|''2,650''||5,375
+|''3,550''||6,725
+|''4,425''
+|-
+!3
+|2,225
+|''1,025''||4,475
+|''2,050''||6,675
+|''3,100''||8,925
+|''4,125''||11,150
+|''5,150''
+|-
+!4
+|3,250
+| ||6,525
+| ||9,775
+|''3,550''||13,050
+|''4,725''||16,300
+|''5,900''
+|-
+!5
+| colspan="2" rowspan="16" |
+| colspan="2" rowspan="16" | ||13,325
+|''4,000''||17,775
+|''5,350''||22,200
+|''6,675''
+|-
+!6
+|17,325
+|''4,500''||23,125
+|''6,000''||28,875
+|''7,500''
+|-
+!7
+|21,825
+|''5,000''||29,125
+|''6,675''||36,375
+|''8,350''
+|-
+!8
+|26,825
+|''5,525''||35,800
+|''7,375''||44,725
+|''9,225''
+|-
+!9
+|32,350
+|''6,075''||43,175
+|''8,100''||53,950
+|''10,125''
+|-
+!10
+|38,425
+|''6,625''||51,275
+|''8,850''||64,075
+|''11,050''
+|-
+!11
+|45,050
+|''7,225''||60,125
+|''9,625''||75,125
+|''12,025''
+|-
+!12
+|52,275
+| ||69,750
+|''10,425''||87,150
+|''13,025''
+|-
+!13
+| colspan="2" rowspan="8" | ||80,175
+|''12,125''||100,175
+|''15,150''
+|-
+!14
+|92,300
+|''14,075''||115,325
+|''17,600''
+|-
+!15
+|106,375
+|''16,300''||132,925
+|''20,375''
+|-
+!16
+|122,675
+| ||153,300
+|''23,500''
+|-
+!17
+| colspan="2" rowspan="4" | ||176,800
+|''27,050''
+|-
+!18
+|203,850
+|''31,050''
+|-
+!19
+|234,900
+|''35,575''
+|-
+!20
+|270,475
+|
+|}
+Upon artifact enhancement, every point of EXP costs 1 [[Mora]] except when recycling an enhanced artifact (see below).
+
+Upgrading a set of 5{{star}} [[artifact]]<nowiki/>s will cost <math>270475\times5=1352375</math> EXP & [[Mora]].
+
+==Enhancement Materials==
+There are 2 types of enhancement materials:
+
+===EXP Material===
+{{Main|Artifact Enhancement Material}}
 {{Card|Sanctifying Unction|2,500EXP|show_caption=1|stars=1}}
 {{Card|Sanctifying Essence|10,000EXP|show_caption=1|stars=1}}
 
-==Artifact Leveling Table==
-While leveling artifacts, 1 point of EXP costs 1 [[Mora]] except when recycling an already-leveled artifact (See Below).
+===Artifact===
+Upon artifact consumption, the EXP provided is calculated as:
 
-Upgrading a Set of 5{{star}} [[Artifacts]] will cost 270,475 × 5 = 1,352,375 EXP & [[Mora]].
-
-{| class="wikitable" style="text-align:center;"
-!Current<br />Level
-! colspan="5" |EXP to Next Level<br />(Cumulative EXP)
+<math>\text{EXP}_{\text{base}}+(\text{EXP}_{\text{enhanced}}\times\frac{4}{5})</math>
+{| class="wikitable align-center"
+!Quality!!Base EXP
 |-
-!Rarity!!{{Icon/Stars|5}}!!{{Icon/Stars|4}}!!{{Icon/Stars|3}}!!{{Icon/Stars|2}}!!{{Icon/Stars|1}}
+|{{Icon/Stars|1}}||420
 |-
-|0||3,000 ||2,400||1,800||1,200||600
+|{{Icon/Stars|2}}||840
 |-
-|1||3,725<br />(3,000)||2,975<br />(2,400)||2,225<br />(1,800)||1,500<br />(1,200)||750<br />(600)
+|{{Icon/Stars|3}}||1,260
 |-
-|2||4,425<br />(6,725)||3,550<br />(5,375)||2,650<br />(4,025)||1,775<br />(2,700)||875<br />(1,350)
+|{{Icon/Stars|4}}||2,520
 |-
-|3||5,150<br />(11,150)||4,125<br />(8,925)||3,100<br />(6,675)||2,050<br />(4,475)||1,025<br />(2,225)
-|-
-|4||5,900<br />(16,300)||4,725<br />(13,050)||3,550<br />(9,775)||'''MAXED<br />(6,525)'''||'''MAXED<br />(3,250)'''
-|-
-|5||6,675<br />(22,200)||5,350<br />(17,775)||4,000<br />(13,325)|| rowspan="16" |  || rowspan="16" |
-|-
-|6||7,500<br />(28,875)||6,000<br />(23,125)||4,500<br />(17,325)
-|-
-|7||8,350<br />(36,375)||6,675<br />(29,125)||5,000<br />(21,825)
-|-
-|8||9,225<br />(44,725)||7,375<br />(35,800)||5,525<br />(26,825)
-|-
-|9||10,125<br />(53,950)||8,100<br />(43,175)||6,075<br />(32,350)
-|-
-|10||11,050<br />(64,075)||8,850<br />(51,275)||6,625<br />(38,425)
-|-
-|11||12,025<br />(75,125)||9,625<br />(60,125)||7,225<br />(45,050)
-|-
-|12||13,025<br />(87,150)||10,425<br />(69,750)||'''MAXED<br />(52,275)'''
-|-
-|13||15,150<br />(100,175)||12,125<br />(80,175)|| rowspan="8" |
-|-
-|14||17,600<br />(115,325)||14,075<br />(92,300)
-|-
-|15||20,375<br />(132,925)||16,300<br />(106,375)
-|-
-|16||23,500<br />(153,300)||'''MAXED<br />(122,675)'''
-|-
-|17||27,050<br />(176,800)|| rowspan="4" |
-|-
-|18||31,050<br />(203,850)
-|-
-|19||35,575<br />(234,900)
-|-
-|20||'''MAXED<br />(270,475)'''
+|{{Icon/Stars|5}}||3,780
 |}
+For example, consuming a {{Icon/Stars|4}} artifact at level 16 provides <math>2520+(122675\times\frac{4}{5})=100660</math> EXP.
 
-==Using Artifacts as Artifact EXP==
-When consuming an enhanced artifact, in addition to the Base EXP granted, 80% of the EXP used for its upgrades will be recovered at no extra Mora. For example, using a {{Icon/Stars|4}} Level 16 artifact is worth 100,660 EXP (2,520 + 0.8 × 122,675), and costs 2,520 Mora.
+==Enhancement Cost==
+Upon [[artifact]] enhancement, an amount of [[Mora]] equal to the EXP value gained is spent, except if the enhancement material is an enhanced [[artifact]], then the cost is equal to the base EXP which is equivalent to consuming a non-enhanced [[artifact]]. 
 
-A consumed artifact's EXP value is based on its rarity:
-{| class="wikitable" style="text-align:center;"
-!Rarity!!Base EXP!!Mora Cost
+==EXP Bonus==
+Upon [[artifact]] enhancement, there is a probability that the EXP provided will be multiplied by a certain factor: 
+
+{| class="wikitable align-center"
+!EXP Multiplier!!Probability
 |-
-|{{Icon/Stars|1}}||420|| 420
+| 1 || 90%
 |-
-|{{Icon/Stars|2}}||840||840
+| 2 || 9%
 |-
-|{{Icon/Stars|3}}||1,260||1,260
-|-
-|{{Icon/Stars|4}}||2,520||2,520
-|-
-|{{Icon/Stars|5}}||3,780||3,780
+| 5 || 1%
 |}
-
-==EXP Bonus Multipliers==
-Upon enhancing an artifact, there is a small chance that the artifact will receive ×2–5 the normal amount of EXP. This results in an average of 113% of the normal EXP if there is no wasted overflow (before the 20% tax).
-
-{| class="wikitable" style="text-align:center;"
-!EXP Multiplier!!Chance
-|-
-| ×1 || 90%
-|-
-| ×2 || 9%
-|-
-| ×5 || 1%
-|}
+Therefore, if there is no wasted overflow (before the 20% tax), an average of 113% of the regular EXP value is provided.
 
 ==Farming Artifacts for Artifact EXP==
 ===Artifacts from Domains===
-At the highest domain level, a single domain run has a mean artifact exp equivalent to '''{{nowrap|14,767 EXP}}'''.<ref name="GDGT">Genshin Data Gathering Team: [https://docs.google.com/spreadsheets/d/1RcuniapqS6nOP05OCH0ui10Vo3bWu0AvFbhgcHzTybY Drop Rates]</ref> With mean artifact exp of '''738''' per resin, '''19 runs''' are required to have enough artifact exp to fully upgrade a single 5★ artifact, without accounting bonus multipliers or artifact exclusions.
+At the highest domain level, a single domain run has a mean artifact EXP equivalent to '''{{nowrap|14,767 EXP}}'''.<ref name="GDGT">Genshin Data Gathering Team: [https://docs.google.com/spreadsheets/d/1RcuniapqS6nOP05OCH0ui10Vo3bWu0AvFbhgcHzTybY Drop Rates]</ref> With mean artifact exp of '''738''' per resin, '''19 runs''' are required to have enough [[artifact]] EXP to fully upgrade a single 5★ [[artifact]], without accounting bonus multipliers or artifact exclusions.
 
-At the highest world level, a single trounce domain run has a mean artifact exp equivalent to '''{{nowrap|17,098 EXP}}'''.<ref name="GDGT" /> With 6 trounce domains per week, they contribute a mean artifact exp of '''380''' per resin.
+At the highest world level, a single trounce domain run has a mean [[artifact]] EXP equivalent to '''{{nowrap|17,098 EXP}}'''.<ref name="GDGT" /> With 6 trounce domains per week, they contribute a mean artifact EXP of '''380''' per resin.
 
 ===Artifacts from Investigation===
-By using daily resetting [[investigation]] in places that drop artifacts, it is possible to gather each day without resin around 20× 2★ Artifacts and 100× 1★ Artifacts for around '''{{nowrap|60,000 EXP}}''', which is worth 4 Domains worth of Artifact EXP or 80 [[Original Resin]].<!-- Average for different days of farming by only investigating artifacts drop spots in Liyue/Dragonspine and Inazuma. Due to the daily investigation cap, the number shouldn't evolve considerably in the future. -->
+By using daily resetting [[investigation]] in places that drop [[artifact]]<nowiki/>s, it is possible to gather each day without resin around 20× 2★ Artifacts and 100× 1★ [[artifact]]<nowiki/>s for around '''{{nowrap|60,000 EXP}}''', which is worth 4 Domains worth of Artifact EXP or 80 [[Original Resin]].<!-- Average for different days of farming by only investigating artifacts drop spots in Liyue/Dragonspine and Inazuma. Due to the daily investigation cap, the number shouldn't evolve considerably in the future. -->
 
 ===Artifacts from Shops===
 {{Main|Shops#Artifacts}}
-As of [[Version 3.0]], a total of 25× 2★ artifacts are available for purchase from NPCs every week. As they cost 2,000 Mora each (50,000 Mora total for 25 artifacts per week) and amount to a total of '''{{nowrap|21,000 EXP}}''', buying artifacts from shops provides 70% more EXP per [[Original Resin]] (assuming 16.66 Resin spent to get 50,000 Mora from [[Ley Line Outcrops|Blossoms of Wealth]]) than domain runs.
+As of [[Version/5.0|Version 5.0]], a total of 35× 2★ [[artifact]]<nowiki/>s are available for purchase from NPCs every week. As they cost 2,000 Mora each (70,000 Mora total for 35 [[artifact]]<nowiki/>s per week) and amount to a total of '''{{nowrap|29,400 EXP}}''', buying [[artifact]]<nowiki/>s from shops provides 70% more EXP per [[Original Resin]] (assuming the equivalent of 23.33 Resin spent to get 70,000 Mora from [[Ley Line Outcrops|Blossoms of Wealth]]) than domain runs.
 
 ==References==
 {{Reflist}}
@@ -117,5 +207,6 @@ As of [[Version 3.0]], a total of 25× 2★ artifacts are available for purchase
 ==Navigation==
 {{EXP Navbox|Item Sources}}
 
+[[ja:聖遺物経験値]]
 [[pt-br:EXP de Artefato]]
 [[vi:EXP Thánh Di Vật]]

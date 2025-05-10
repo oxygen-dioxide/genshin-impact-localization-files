@@ -1,8 +1,10 @@
-{{About|the [[Normal Boss]]|the [[Genius Invokation TCG]] Character Card|Rhodeia of Loch (Character Card)|the other entities known as "Oceanids"|Lochfolk}}
+{{About|the [[Normal Boss]]|the [[Genius Invokation TCG]] Character Card|Rhodeia of Loch (Character Card)|the species|Oceanid}}
 {{Enemy Infobox
-|image    = Enemy Oceanid.png
+|image    = Enemy Rhodeia of Loch.png
 |type     = Normal Bosses
-|location = [[Bishui Plain]], [[Liyue]]
+|subarea  = Wuwang Hill
+|area     = Bishui Plain
+|region   = Liyue
 |family   = Elemental Lifeforms
 |title    = Oceanid of Qingce
 |dmgtype  = Hydro
@@ -31,6 +33,8 @@
 }}
 
 ==Stats==
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div style="width:min-content;">
+===Normal===
 {{Enemy Stats
 |phys_res    = N/A
 |pyro_res    = N/A
@@ -46,10 +50,24 @@
 |atk_ratio   = 6
 |res_title   = State
 }}
+</div><!--
+--><div style="width:min-content;">
+===Special===
+{{Enemy Stats
+|hp_ratio  = 14
+|atk_ratio = 9
+}}
+</div></div>
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
-===Oceanid===
+==Weak Point Location==
+<gallery>
+Oceanid Weak Point.png
+</gallery>
+* Weak Point is only present on the special variant.
+
+==Abilities==
+''Most ability names are unofficial.''
+===Normal===
 {{Enemy Attacks
 |enemy  = Oceanid
 
@@ -57,10 +75,10 @@
 |desc_1 = Sends out 1 or 2 water orbs which each target a random platform. Upon landing, the orb transforms into a group of [[Hydro Mimics]].
 
 |name_2 = Sinking Platform
-|desc_2 = After clearing two waves of Hydro Mimics, the Oceanid will select two random tiles in the 3×3 grid, dive upon them, dealing '''50% ATK''' as {{Color|AoE Hydro DMG}} and sinking them. The central arena tile will never be selected and is therefore a safe spot for players to stand on during this ability.
+|desc_2 = After clearing two waves of Hydro Mimics, the Oceanid will select two random tiles in the 3×3 grid, dive upon them, dealing '''50% ATK''' as {{Color|Hydro DMG}} and sinking them. The central arena tile will never be selected and is therefore a safe spot for players to stand on during this ability.
 
 |name_3 = Tide and Torrent
-|desc_3 = If the Hydro Mimics are not defeated in a certain amount of time, the Oceanid creates a whirlpool below the player that follows them, deals '''50% ATK''' as {{Color|Hydro DoT}}, and explodes after a while, dealing '''200% ATK''' as {{Color|AoE Hydro DMG}}.
+|desc_3 = If the Hydro Mimics are not defeated in a certain amount of time, the Oceanid creates a whirlpool below the player that follows them, deals '''50% ATK''' as {{Color|Hydro DoT}}, and explodes after a while, dealing '''200% ATK''' as {{Color|Hydro DMG}}.
 }}
 
 ===Hydro Mimics===
@@ -82,7 +100,7 @@ These mimics appear two at a time. There are two groups of these mimics. These m
 
 {{Color|Pyro RES}} decreased:
 * [[Hydro Mimic Boar]] &mdash; Rams the player up close or charges at the player from afar. Continuously heals itself.
-* [[Hydro Mimic Ferret]] &mdash; Performs rapid swipes against the player. Continuously heals itself.
+* [[Hydro Mimic Squirrel]] &mdash; Performs powerful swipes against the player. Continuously heals itself.
 
 ====Solo Mimics====
 These mimics appear one at a time when summoned by Rhodeia. They have decreased {{Color|Geo RES}}. When killed, they transform into a bomb that covers a wide area and deals massive {{Color|Hydro DMG}} upon detonation. These mimics may only spawn on the edge tiles of the arena.
@@ -115,10 +133,10 @@ These mimics appear one at a time when summoned by Rhodeia. They have decreased 
 |caption7 = Hydro Mimic Boar: Charge
 
 |file8    = Mimic Ferret Sweep
-|caption8 = Hydro Mimic Ferret: Sweep
+|caption8 = Hydro Mimic Squirrel: Sweep
 
 |file9    = Mimic Ferret Slam
-|caption9 = Hydro Mimic Ferret: Slam
+|caption9 = Hydro Mimic Squirrel: Slam
 
 |file10    = Mimic Frog Torrential Waves
 |caption10 = Hydro Mimic Frog: Torrential Waves
@@ -136,6 +154,41 @@ These mimics appear one at a time when summoned by Rhodeia. They have decreased 
 |caption14 = Water Bomb
 }}
 
+===Special===
+{{Enemy Attacks
+|enemy  = Oceanid Special
+
+|name_1 = Fin Slash
+|desc_1 = Slashes at the player with her fins in either a vertical or horizontal motion, dealing '''66.6% ATK''' as {{Color|Hydro DMG}}.
+
+|name_2 = Fin Slam
+|desc_2 = Slams her fin in front of her, dealing '''66.6% ATK''' as {{Color|Hydro DMG}}. If in second phase, generates a Hydro explosion in front of her, dealing '''66.6% ATK''' as {{Color|Hydro DMG}}.
+
+|name_3 = Tail Slam
+|desc_3 = Slams her tail down on the ground, dealing '''100% ATK''' as {{Color|Hydro DMG}}. If in second phase, generates three Hydro explosions in front of her, dealing '''66.6% ATK''' as {{Color|Hydro DMG}}.
+
+|name_4 = Surging Torrents
+|file_4 = Oceanid Special Tide and Torrent
+|desc_4 = Creates whirlpools on random spots on the arena that act as obstacles, limiting the player's movements and consecutively dealing '''13.3% ATK''' as {{Color|Hydro DMG}} over time.
+
+|name_5 = Hydro Missiles
+|desc_5 = Fires 2 (first phase) or 4 (second phase) missiles that home in on the player, dealing '''100% ATK''' as {{Color|Hydro DMG}}. The missiles can be destroyed by a player's attack.
+|file_5_2 = Oceanid Special Hydro Missiles 2
+|caption_5_2 = Destroyed
+
+|name_6 = Hydro Bombs
+|desc_6 = Creates 1-2 orbs of water that chase after the player before exploding in a short time, each dealing '''80% ATK''' as {{Color|Hydro DMG}}. The bombs can be destroyed by a player's attack.
+
+|name_7 = The Myriad Wilds
+|desc_7 = After reaching '''75%''' of her Max HP, retreats from the battlefield and summons Hydro Mimics to attack the player. Unlike the normal Oceanid fight, only Boars, Ferrets, and Crabs will be summoned. Defeating the Boars and Ferrets will cause the Oceanid to lose '''5%''' of its Max HP.
+
+|name_8 = Surge of Vengeance
+|desc_8 = Moves to the center of the arena and conjure a large ball of Hydro that she will throw to the ground, dealing '''133% ATK''' as {{Color|Hydro DMG}} for 2 times that throughout whole arena. Can be avoided by either using the '''Fitful Rapids''' or by diving into the water around the arena.
+
+|name_9 = River-Carving Rapids
+|desc_9 = Rhodeia targets the player with a lock-on before firing a massive stream of water from her eye, consecutively dealing '''33.3% ATK''' as {{Color|Hydro DMG}}. Can be avoided using the '''Fitful Rapids'''.
+}}
+
 ==Strategy==
 Before starting the fight, having a [[Bow]] or [[Catalyst]] user is highly recommended in case Rhodeia summons raptors, as they are particularly troublesome to hit without them. [[Geo Constructs]] such as [[Zhongli]]'s [[Stone Stele]]s and [[Albedo]]'s [[Solar Isotoma]] skills will not work in the arena.
 
@@ -149,23 +202,15 @@ After the first two waves of mimics have been cleared, Rhodeia will slam two ran
 
 When the next two waves of mimics are cleared, she will slam two more random tiles, before summoning two more sets of Hydro Mimics for the last wave. After the last mimic is destroyed, she will fall into the water, defeated.
 
-==Event Variant==
-===Rhodeia's Rage===
-{{Main|Rhodeia's Rage}}
-'''Rhodeia's Rage''' is the boss variant of '''Rhodeia of Loch''' during the event [[Wishful Drops]].
-
-===Hateful Oceanid===
-{{Main|Hateful Oceanid}}
-The '''Hateful Oceanid''', also known as '''Urania''', is the boss variant of '''Rhodeia of Loch''' during the specific event called [[Legend of the Vagabond Sword]].
-
 ==Voice-Overs==
+===Normal===
 {{VO/Enemy
 |enemy                   = Oceanid
-|vo_01_00_title          = Battle Start
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - An Assassin From Our Homeland Or A Fool Who Trespasses Upon The Waters Of Qingce.ogg
 |vo_01_01_tx_en          = An assassin from our [[Fontaine|homeland]]? Or a fool who trespasses upon the waters of Qingce?
 |vo_01_01_tx_zh          = 究竟是来自故土的刺客，还是妄图侵扰轻策之水的人…
-|vo_01_01_rm_zh          = Jiùjìng shì láizì gùtǔ de cìkè, háishì wàngtú qīnrǎo qīngcè zhī shuǐ de rén...
+|vo_01_01_rm_zh          = Jiùjìng shì láizì gùtǔ de cìkè, háishì wàngtú qīnrǎo Qīngcè zhī shuǐ de rén...
 |vo_01_01_tx_ja          = 故郷からの刺客か、それとも軽策の水を侵す者か…
 |vo_01_01_rm_ja          = Kokyou kara no shikaku ka, soretomo Keisaku no mizu wo okasu mono ka...
 |vo_01_01_tx_ko          = 고향에서 온 자객인가, 아니면 경책의 물을 더럽히려는 자인가…
@@ -227,7 +272,7 @@ The '''Hateful Oceanid''', also known as '''Urania''', is the boss variant of ''
 |vo_05_01_tx_zh          = 仅仅是寻求一方静水，也不行吗…
 |vo_05_01_rm_zh          = Jǐnjǐn shì xúnqiú yīfāng jìngshuǐ, yě bùxíng ma...
 |vo_05_01_tx_ja          = 静かな水を求めることも、許されぬのか…
-|vo_05_01_rm_ja          = Shizuka na mizu wo motomeru koto mo, yurusarenu no ka...
+|vo_05_01_rm_ja          = Shizuka-na mizu wo motomeru koto mo, yurusarenu no ka...
 |vo_05_01_tx_ko          = 잔잔한 물을 찾는 것조차 허락되지 않는 건가…
 
 |vo_05_02_file           = VO {lang}{name} - As Long As Rain Falls And Rivers Flow Water Will Exist Forever.ogg
@@ -239,23 +284,72 @@ The '''Hateful Oceanid''', also known as '''Urania''', is the boss variant of ''
 |vo_05_02_tx_ko          = 하지만, 강과 계곡이 흐르고 비가 그치지 않는 한, 물은 사라지지 않아…
 }}
 
+===Wishful Drops===
+Voicelines that previously played for the Event variant of Rhodeia. As of [[Version/4.0|Version 4.0]], these voicelines are no longer heard.
+{{VO/Enemy
+|enemy                   = Oceanid
+|vo_01_00_title          = Battle Start
+|vo_01_01_file           = VO {lang}{name} - An Assassin From Our Homeland Or A Fool Who Trespasses Upon The Waters Of Qingce.ogg
+|vo_01_01_tx_en          = An assassin from our [[Fontaine|homeland]]? Or a fool who trespasses upon the waters of Qingce?
+
+|vo_02_00_title          = Fin Slash
+|vo_02_01_tx_en          = {{A|VO Oceanid - Fin Slash 01.ogg}} {{A|VO Oceanid - Fin Slash 02.ogg}}
+
+|vo_03_00_title          = Fin Slam
+|vo_03_01_tx_en          =  {{A|VO Oceanid - Fin Slam 01.ogg}} {{A|VO Oceanid - Fin Slam 02.ogg}} {{A|VO Oceanid - Fin Slam 03.ogg}} {{A|VO Oceanid - Fin Slam 04.ogg}} {{A|VO Oceanid - Fin Slam 05.ogg}}
+
+|vo_04_00_title          = Tail Slam
+|vo_04_01_tx_en          = {{A|VO Oceanid - Tail Slam 01.ogg}} {{A|VO Oceanid - Tail Slam 02.ogg}}
+
+|vo_05_00_title          = Surging Torrents
+|vo_05_01_file           = VO {lang}{name} - Tide and Torrent.ogg
+|vo_05_01_tx_en          = Let the torrent surge fourth!
+
+|vo_06_00_title          = Rising Floods
+|vo_06_01_file           = Vo_gcg_monster_oceanid_elementalburst_01.ogg
+|vo_06_01_tx_en          = The rising floods.
+
+|vo_07_00_title          = Hydro Missiles
+|vo_07_01_file           = VO {lang}{name} - There Is No Escape.ogg
+|vo_07_01_tx_en          = There is no escape!
+
+|vo_08_00_title          = Hydro Bombs
+|vo_08_01_file           = Vo_gcg_monster_oceanid_selectonstage_02.ogg
+|vo_08_01_tx_en          = Contamination must be washed away.
+
+|vo_09_00_title          = The Myriad Wilds
+|vo_09_01_file           = Vo_gcg_monster_oceanid_elementalart_01.ogg
+|vo_09_01_tx_en          = In the image of the wilderness.
+
+|vo_10_00_title          = Surge of Vengeance
+|vo_10_01_file           = VO {lang}{name} - Surge of Vengeance.ogg
+|vo_10_01_tx_en          = Surge of vengeance!
+
+|vo_11_00_title          = River-Carving Rapids
+|vo_11_01_file           = Vo_gcg_monster_oceanid_elementalburst_02.ogg
+|vo_11_01_tx_en          = River-carving rapids!
+}}
+
 ==Achievements==
 {{Achievement Topic Table|topic=Oceanid}}
 
+==Tutorials==
+{{Tutorial|Oceanids}}
+
 ==Descriptions==
-{{Description|A life-form created from condensed [[Hydro]] elements of incredible purity.<br />Often attached to bodies of water. It is said that as water bodies become purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful.<br />It is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...|[[Adventurer Handbook]]}}
-{{Description|A life-form created from condensed Hydro elements of incredible purity. Often attached to bodies of water.<br />It is said that as water bodies become purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful. It is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...|[[Archive]]}}
+{{Description|A life-form created from condensed [[Hydro]] elements of incredible purity.<br>Often attached to bodies of water. It is said that as water bodies become purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful.<br>It is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a [[Egeria|long-dead god]] to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...|[[Adventurer Handbook]] and [[Archive]]}}
 
 ==Lore==
-Rhodeia is a [[Lochfolk]], who came from the Hydro nation, [[Fontaine]]. She was the greatest and strongest Lochfolk scout admired by many. As a Lochfolk, she swore allegiance to the previous Hydro Archon and lived in the bodies of water of Fontaine, acting as an informant or spy for her [[Archon]] and providing a connection for the people of her land. However, the Lochfolk at large do not agree with the plans and ideals of the current Hydro Archon, the [[God of Justice]], and so refuse to acknowledge or support her.<ref name="endoraII">{{Ref/Quest|Life Flows On (II)}}</ref>
+Before the [[cataclysm]] 500 years ago, Rhodeia was the greatest and strongest [[Oceanid]] scout, admired by many, and was among those who acted as the Hydro Archon [[Egeria]]'s agents in other nations and provided a connection for the people of her land. However, after Egeria and many Oceanids perished during the cataclysm, those who survived were at odds with her successor, [[Focalors]], and refused to acknowledge or support her.<ref name="endoraII">{{Ref/Quest|Life Flows On (II)}}</ref> After making a futile pilgrimage to the [[Vourukasha Oasis]] in [[Sumeru]], where Egeria perished and was transformed into the Amrita, the Oceanids went their separate ways,<ref>{{Ref/Quest|Pale Fire (Quest)}}</ref> each searching for their own haven of pure, tranquil waters.
 
-Wanting for a small haven of tranquil waters, Rhodeia left her hometown and settled into a lake in Bishui, Plain. Sometime after her self-imposed exile, she sensed [[Endora]] who she believed was an assassin sent from Fontaine. Her enmity towards the young lochfolk turned the waters sources on the border between Mondstadt and Liyue bitter.<ref name="endoraI">{{Ref/Quest|Life Flows On (I)}}</ref> The bitter water killed fishes and greatly affected  the [[Dawn Winery]] which uses the nearby [[Bishui River|river]] for brewing wine.<ref name="endoraI" /> With the help of the Traveler, Endora faced Rhodeia in a fight and reached an understanding. Still, Rhodeia remains unhappy and is waiting for the pure waters to become corrupted.<ref name="endoraII" />
+After a long search, Rhodeia settled into a lake east of [[Qingce Village]], far from Fontaine. During the events after her self-imposed exile, she sensed the young Oceanid [[Endora (NPC)|Endora]], whom she believed was an assassin sent from Fontaine. Her enmity towards the young Oceanid turned the water in the [[Bishui River]] between Mondstadt and Liyue bitter.<ref name="endoraI">{{Ref/Quest|Life Flows On (I)}}</ref> The bitter water killed fishes and greatly affected the [[Dawn Winery]], which uses the nearby Bishui River for brewing wine.<ref name="endoraI" /> With the help of the Traveler, Endora faced Rhodeia in a fight and reached an understanding. Still, Rhodeia remains unhappy and is waiting for the pure waters to become corrupted.<ref name="endoraII" />
 
 ==Trivia==
-* In Greek mythology, the {{w|List of Oceanids|Oceanids}} were the nymph daughters of the Titan Oceanus. Rhodeia (also known as Rhodea or Rhodia) is one of them.
+* In Greek mythology, the {{w|List of Oceanids|Oceanids}} were the three thousand nymph daughters of the Titan Oceanus. Rhodeia (also known as Rhodea or Rhodia) is one of them.
 * During [[The First Experiment: Elements|Albedo's Story Quest]], he pronounces Oceanid as "O-'''cee'''-a-nid" (/oʊˈsiːənɪd/), which is an established pronunciation of the mythological being, in addition to "'''Oh'''-shen-id" (/ˈoʊʃənɪd/).
 * Unlike the other Normal Bosses, which are simply present and become aggressive when approached or attacked, Rhodeia is not initially present in her arena, with the player having to interact with her pool of water to begin the fight. She is also the only Normal Boss that appears in a random spot each time the player comes to challenge her, as said pool of water appears in one of the four corners of her arena.
 * When approaching the platform that consists as her arena, the weather will automatically change to rain regardless of the surrounding climate. This special weather will persist until the player leaves the area if she is still present or is defeated.
+* In [[Version 4.0]], [[Tainted Hydro Phantasms]] were added to [[Wuwang Hill]] and [[Qingce Village]]. They do not actively attack players. The Tainted Hydro Phantasms on Wuwang Hill spawn gazing at Rhodeia's platform at the bottom of the hill.
 
 ==Gallery==
 <gallery>
@@ -268,7 +362,7 @@ Enemy Hydro Mimic Finch.png|[[Hydro Mimic Finch]]
 Enemy Hydro Mimic Frog.png|[[Hydro Mimic Frog]]
 Enemy Hydro Mimic Mallard.png|[[Hydro Mimic Mallard]]
 Enemy Hydro Mimic Raptor.png|[[Hydro Mimic Raptor]]
-Enemy Hydro Mimic Ferret.png|[[Hydro Mimic Ferret]]
+Enemy Hydro Mimic Squirrel.png|[[Hydro Mimic Squirrel]]
 </gallery>
 
 ===Namecards===
@@ -278,8 +372,11 @@ Namecard Background Celebration Battlesong.png|Oceanid in the [[Celebration: Bat
 
 ===Comics===
 <gallery>
-Character Kaeya Comic Preview Chap 2.jpg|[https://twitter.com/GenshinImpact/status/1306186069449211905 Genshin Impact Preview Manga - Chap 2]
+Character Kaeya Comic Preview Chap 2.png|[https://www.hoyolab.com/article/16645 Genshin Impact Preview Manga - Chap 2]
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Video Guides==
 {{EVT
@@ -291,16 +388,16 @@ Character Kaeya Comic Preview Chap 2.jpg|[https://twitter.com/GenshinImpact/stat
 {{Other Languages
 |en      = Rhodeia of Loch
 |zhs     = 纯水精灵・洛蒂娅
-|zhs_rm  = Chúnshuǐ-jīnglíng・Luòdìyà
+|zhs_rm  = Chúnshuǐ Jīnglíng - Luòdìyà
 |zht     = 純水精靈・洛蒂婭
-|zht_rm  = Chúnshuǐ-jīnglíng・Luòdìyà
-|zh_tl   = Pure Water Spirit: Rhodia
-|ja      = {{Rubi|純|じゅん|水|すい|精|せい|霊|れい}}・ローデシア
-|ja_rm   = Junsui-seirei・Roodeshia
-|ja_tl   = Pure Water Spirit: Rhodesia
+|zht_rm  = Chúnshuǐ Jīnglíng - Luòdìyà
+|zh_tl   = Pure Water Spirit - Rhodia
+|ja      = 純水精霊・ローデシア
+|ja_rm   = Junsui Seirei - Roodeshia
+|ja_tl   = Pure Water Spirit - Rhodesia
 |ko      = 물의 정령・로데이아
-|ko_rm   = Mul'ui Jeongryeong: Rodeia
-|ko_tl   = Water Spirit: Rhodeia
+|ko_rm   = Mul'ui Jeongryeong - Rodeia
+|ko_tl   = Water Spirit - Rhodeia
 |es      = Oceánida - Rhodeia
 |es_tl   = Oceanid - Rhodeia
 |fr      = Océanide - Rhodeia
@@ -316,7 +413,7 @@ Character Kaeya Comic Preview Chap 2.jpg|[https://twitter.com/GenshinImpact/stat
 |pt      = Oceanids - Rhodeia
 |pt_tl   = Oceanid - Rhodeia
 |tr      = Lochlu Rhodeia
-|tr_tl   = 
+|tr_tl   = Rhodeia of Loch
 |it      = Rhodeia di Loch
 |it_tl   = Rhodeia of Loch
 }}
@@ -330,12 +427,13 @@ Character Kaeya Comic Preview Chap 2.jpg|[https://twitter.com/GenshinImpact/stat
 ==Navigation==
 {{Enemy Navbox|Bosses}}
 
-[[Category:Lochfolk]]
+[[Category:Oceanid]]
 
 [[de:Okeanide Rhodeia]]
-[[es:Rhodeia]]
+[[es:Oceánida]]
 [[fr:Océanide]]
-[[ja:純水精霊・ローデシア ]]
+[[ja:純水精霊・ローデシア]]
 [[pt-br:Oceanids - Rhodeia]]
-[[ru:Океанид]]
+[[ru:Родия]]
+[[tr:Lochlu Rhodeia]]
 [[zh:純水精靈]]

@@ -1,24 +1,19 @@
 {{Quest Infobox
-|id            = 
+|id            = 72199
 |type          = World
 |region        = Inazuma
 |area          = Narukami Island
 |subarea       = Jinren Island
 |image         = World Quest The Farmer's Treasure.png
-|summary       = 
-|requirement   = Complete [[Ritou Escape Plan]] and [[Searching for Saimon Jirou]]
-|exp           = 500
-|primogems     = 60
+|requirement   = Complete [[Searching for Saimon Jirou]]
+|rewards       = Adventure EXP*500;Primogem*60;Saimon Heirloom Blade Diagram*1;Northlander Sword Billet*1
 |startLocation = [[Jinren Island]], [[Narukami Island]], [[Inazuma]]
 |rep           = Inazuma
 |repAmt        = 20
 |repOrder      = 364
-|other         = 
-{{Card|Diagram|1|link=Saimon Heirloom Blade Diagram|rarity=4|show_caption=1}}
-{{Card|Northlander Sword Billet|1|link=Northlander Sword Billet|show_caption=1}}
 |characters    = Paimon; Saimon Eri; Saimon Jirou; Saimon Katsumi; Traveler
 }}
-'''''The Farmer's Treasure''''' is a [[World Quest]] in [[Inazuma]]. It is unlocked by completing the [[Archon Quest]] "[[Ritou Escape Plan]]" and the [[Hidden Exploration Objective]] "[[Searching for Saimon Jirou]]."
+'''''The Farmer's Treasure''''' is a [[World Quest]] in [[Inazuma]]. It is unlocked by completing the {{Quest|Ritou Escape Plan}} and the [[Hidden Exploration Objective]] "[[Searching for Saimon Jirou]]."
 
 ==Preliminary Steps==
 {{Transclude|Searching for Saimon Jirou|Steps|main=1|top=1}}
@@ -27,23 +22,31 @@
 Upon picking up the 4th Old Stone Slate:
 # Report back to Saimon Jirou
 # Find the fifth Old Stone Slate
-#* This will be on the west coast of [[Araumi]] as marked on the map. Use elemental sight within the quest area to see where to dig.
+#* This will be on the west coast of [[Araumi]] as marked on the map. Use [[Elemental Sight]] within the quest area to see where to dig.
 # Confront Saimon Jirou
 # Find Saimon Jirou on Jinren Island
 # Confront the [[Kairagi]] leader
 # Defeat all opponents:
 #* Wave 1:
-#** 1× {{Enemy|Kairagi: Fiery Might}}, 1× {{Enemy|Nobushi: Kikouban}}, 1× {{Enemy|Nobushi: Hitsukeban}}, 1× {{Enemy|Nobushi: Jintouban}}
-#** One will be named "Forgot to Name Himself: Nameless Bandit Leader"
+#** {{Enemy|Kairagi: Fiery Might|x=1|text=Forgot to Name Himself &mdash; Nameless Bandit Leader}}
+#** {{Enemy|Nobushi: Kikouban|x=1}}
+#** {{Enemy|Nobushi: Hitsukeban|x=1}}
+#** {{Enemy|Nobushi: Jintouban|x=1}}
 #* Wave 2:
-#** 2× {{Enemy|Treasure Hoarders: Scout}}, 1× {{Enemy|Treasure Hoarders: Electro Potioneer}}, 1× {{Enemy|Treasure Hoarders: Pyro Potioneer}}
-#** One will be named 'Koichirou: "I've Been Waiting For You!"'
+#** {{Enemy|Treasure Hoarders: Pyro Potioneer|x=1|text=Koichirou &mdash; "I've Been Waiting For You!"}}
+#** {{Enemy|Treasure Hoarders: Electro Potioneer|x=1}}
+#** {{Enemy|Treasure Hoarders: Scout|x=2}}
 #* Wave 3:
-#** 2× {{Enemy|Treasure Hoarders: Seaman}}, 1× {{Enemy|Treasure Hoarders: Crusher}}, 1× {{Enemy|Treasure Hoarders: Gravedigger}}
-#** One will be named 'Kojirou: "Is This Feeling Loss?"'
+#** {{Enemy|Treasure Hoarders: Crusher|x=1|text=Kojirou &mdash; "Is This Feeling Loss?"}}
+#** {{Enemy|Treasure Hoarders: Gravedigger|x=1}}
+#** {{Enemy|Treasure Hoarders: Seaman|x=2}}
 #* Wave 4:
-#** 1× {{Enemy|Fatui Geochanter Bracer}}, 1× {{Enemy|Fatui Pyroslinger Bracer}}, 1× {{Enemy|Fatui Cryogunner Legionnaire}}, 1× {{Enemy|Fatui Hydrogunner Legionnaire}}, 1× {{Enemy|Fatui Anemoboxer Vanguard}}, 1× {{Enemy|Fatui Electrohammer Vanguard}}
-#** One will be named "Vitaly: Too Long a Pencil Pusher"
+#** {{Enemy|Fatui Electrohammer Vanguard|x=1|text=Vitaly &mdash; Too Long a Pencil Pusher}}
+#** {{Enemy|Fatui Anemoboxer Vanguard|x=1}}
+#** {{Enemy|Fatui Geochanter Bracer|x=1}}
+#** {{Enemy|Fatui Pyroslinger Bracer|x=1}}
+#** {{Enemy|Fatui Cryogunner Legionnaire|x=1}}
+#** {{Enemy|Fatui Hydrogunner Legionnaire|x=1}}
 # Open the "treasury" front door using the key
 #* Use the [["Treasury" Key]].
 # Open the stone gate of the "treasury"
@@ -55,11 +58,11 @@ Upon picking up the 4th Old Stone Slate:
 # Report back to [[Saimon Katsumi]] in [[Konda Village]]
 
 ==Gameplay Notes==
-*Completing this quest grants the ''[[Wonders of the World]]'' [[Achievement]] "[[Underground... Overrated?]]"
+* Completing this quest grants the {{Achievement|Underground... Overrated?}}
 
 ==Dialogue==
 {{Quest Description|Saimon Jirou, a son of a farming family, dreams of finding treasure, but has met with an unexpected crisis instead...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Dialogue prior to starting '''The Farmer's Treasure''' can be found on [[Searching for Saimon Jirou]] page)
 
 ;(After finding all 4 [[Old Stone Slate]]s)
@@ -80,7 +83,7 @@ Upon picking up the 4th Old Stone Slate:
 ::'''Saimon Jirou:''' There won't be, don't worry.
 ::'''Saimon Jirou:''' See, if I didn't have that last slate, I wouldn't be able to get to the treasure either, would I?
 ::{{DIcon}} Then why didn't you tell us from the start?
-::'''Saimon Jirou:''' Well, I didn't trust you all as much then. But since you've both helped me so much, there {{sic}} no reason for me to hide anymore.
+::'''Saimon Jirou:''' Well, I didn't trust you all as much then. But since you've both helped me so much, there's no reason for me to hide anymore.
 ::'''Paimon:''' ...You do have a point.
 ::'''Saimon Jirou:''' I'll leave it to you two, then. I'll be resting here. Just look for me again once you've found it.
 ::'''Paimon:''' Hmph. Aren't you a pair of idle hands.
@@ -150,27 +153,26 @@ Upon picking up the 4th Old Stone Slate:
 ::'''Paimon:''' Thanks!
 ::{{DIcon}} *cough*
 ::'''Paimon:''' Hmph. Looks like you've got your uses, huh?
-
 ----
-;(Upon arriving at the location of the 5th Old Stone Slate)
+;(Upon arriving at the location of the fifth Old Stone Slate)
 :'''Paimon:''' This is the place Jirou was talking about, right? Now then, where are those stone slates~
 :'''Paimon:''' Hm-Hm-Hm~, Oh slatey slatey slatey~ Where are you?
-;(Dig)
+;(Dig in the first location)
 :'''Paimon:''' There's nothing here... Let's look somewhere else, shall we?
-;(Dig ×2)
+;(Dig in the second location)
 :'''Paimon:''' There's nothing here...!
-;(Dig ×3)
+;(Dig in the third location)
 :'''Paimon:''' What's going on? Ooh, Paimon's starting to get mad!
-;(Dig ×4)
+;(Dig in the fourth location)
 :'''Paimon:''' Eh? There's nothing here! That guy must have tricked us!
 ----
-;(Confront Jirou)
+;(Approach Jirou's camp)
 :'''Paimon:''' Jirou's gone! That lying...!
 
-;(Confront Jirou on Jinren Island)
+;(Approach Jirou on Jinren Island)
 :'''Saimon Jirou:''' Help me! Help me, please!
 
-;(Confront the Kairagi leader)
+;(Approach the [[Kairagi: Fiery Might]] and [[Nobushi: Hitsukeban]])
 :'''Bandit Leader:''' Who are you? Name yourselves!
 :{{DIcon}} That's our line. Who are you?
 :'''Bandit Leader:''' What's that got to do with you?
@@ -181,7 +183,7 @@ Upon picking up the 4th Old Stone Slate:
 :{{DIcon}} Silence, you.
 :'''Saimon Jirou:''' Uh, okay...
 :'''Bandit Leader:''' You've come to save this kid?
-:'''Saimon Jirou:''' No, he/she hasn't...
+:'''Saimon Jirou:''' No, {{MC|m=he|f=she}} hasn't...
 :'''Bandit Leader:''' Silence, you!
 :'''Saimon Jirou:''' A&mdash;Alright, you speak first.
 :'''Paimon:''' We're here to settle a score with him!
@@ -203,7 +205,7 @@ Upon picking up the 4th Old Stone Slate:
 :'''Bandit Leader:''' From the looks of you, you aren't with the [[Shogunate]]. That suits me just fine. I'd sooner trust an outlander than one of those lackeys.
 :'''Bandit Leader:''' And if you can prove your ability, I'll let you into my group. It's a good deal for you!
 :{{DIcon}} What about Jirou?
-:'''Bandit Leader:''' Oh, him? I'll have the dogs tear him to shreds. We'll pack the pieces up and chuck'em into the sea.
+:'''Bandit Leader:''' Oh, him? I'll have the dogs tear him to shreds. We'll pack the pieces up and chuck 'em into the sea.
 :'''Saimon Jirou:''' You have other dogs?
 :'''Bandit Leader:''' What do you mean by that?
 :'''Saimon Jirou:''' I mean that [[Toratarou]] doesn't bite.
@@ -245,7 +247,6 @@ Upon picking up the 4th Old Stone Slate:
 :{{DIcon}} I'll take both him and the treasure.
 :'''Paimon:''' Alright!
 :'''Bandit Leader:''' Is that so... Well, that's a shame. A real shame.
-;(Enter fight)
 ----
 ;(Defeat Forgot to Name Himself)
 :'''Bandit Leader:''' W&mdash;Wait! I... haven't figured out my... exit lines...
@@ -261,7 +262,7 @@ Upon picking up the 4th Old Stone Slate:
 :'''Fatui Skirmisher:''' What's that? Did you&mdash; This is bad, someone found us!
 :'''Paimon:''' Paimon thinks you'll be the one needing a doctor soon enough!
 
-;(Defeat all of Fatui)
+;(Defeat the Fatui)
 :'''Fatui Skirmisher:''' Why am I always singled out first...
 ----
 ;(After defeating the enemies)
@@ -329,7 +330,7 @@ Upon picking up the 4th Old Stone Slate:
 ::'''Saimon Jirou:''' That's more like it! Here's the key. Don't lose it, now.
 ;(Obtain [["Treasury" Key]])
 ----
-;(Unlock the treasure)
+;(Open the [[Common Chest]])
 :'''Paimon:''' What in the world is all this...
 :'''Paimon:''' *cough* Pah...! So much ash!
 :'''Saimon Jirou:''' We've looked all over the place. Nothing but rotten provisions and old pottery...
@@ -355,7 +356,7 @@ Upon picking up the 4th Old Stone Slate:
 :'''Saimon Jirou:''' Let's go home, Jirou.
 :'''Paimon:''' (Yay! We did it!)
 ----
-;(Return to Konda Village)
+;(Approach Saimon Katsumi and Saimon Eri)
 :'''Saimon Katsumi:''' Haha! My Jirou's back!
 :'''Saimon Katsumi:''' You little brat! Bet you've been slacking off instead of fighting for Her Excellency like you ought to have, eh? And to top it off, you didn't even have time to write to me!
 :{{DIcon}} Jirou's been working hard.
@@ -371,13 +372,11 @@ Upon picking up the 4th Old Stone Slate:
 :'''Saimon Katsumi:''' Hey! Why'd you start trashing me all of a sudden?
 :'''Saimon Katsumi:''' Let him speak for himself! What happened?
 :'''Saimon Jirou:''' Well... It's a long story...
-
-:'''Saimon Jirou recounts his recent experience.'''
-
+:{{Black Screen|Saimon Jirou recounts his recent experience.}}
 :'''Saimon Katsumi:''' Hahahahaha! You're... You're an embarrassment!
 :'''Saimon Katsumi:''' Hahahahahaha! The what to the what now? What is this nonsense? Hahaha!
 :'''Saimon Katsumi:''' I'm ashamed to call you my son!
-:'''Saimon Katsumi:''' You should just sod off to be a comedian in the city&mdash; and don't come back, you hear?
+:'''Saimon Katsumi:''' Just go and be a comedian in the city&mdash; and don't come back, you hear?
 :'''Saimon Eri:''' Hehe, I'm just glad that you didn't lose a limb, Jirou.
 :'''Saimon Eri:''' Though to be honest, we'd be more relieved if you did...
 :'''Paimon:''' Whoa. That's a guy's real parents for you, huh...?
@@ -413,8 +412,8 @@ Upon picking up the 4th Old Stone Slate:
 ::'''Saimon Katsumi:''' Did I ever mention that the place where you found the "treasure"...
 ::'''Saimon Katsumi:''' Was actually a granary where ancient farmers stored their surplus grain? Back when I was a kid, it was common knowledge that such things existed.
 ::'''Saimon Katsumi:''' But over time, ignorant adventurers and city people mispronounced its name...
-::'''Saimon Katsumi:''' One wrong name snowballed into another, and eventually a "granary" became a "treasury".
-::'''Saimon Katsumi:''' Not that this didn't make sense&mdash;food is priceless treasure to us in times of war, after all.
+::'''Saimon Katsumi:''' One wrong name snowballed into another, and eventually a "granary" became a "treasury."
+::'''Saimon Katsumi:''' Not that this didn't make sense &mdash; food is priceless treasure to us in times of war, after all.
 ::'''Saimon Katsumi:''' The principle we'll follow for this whole deserter business is the same.
 ::'''Paimon:''' How exactly can these two things be treated the same?
 ::'''Saimon Katsumi:''' Metaphorically, of course!
@@ -425,7 +424,7 @@ Upon picking up the 4th Old Stone Slate:
 :'''Saimon Katsumi:''' Well, since my own son isn't worth pinning my hopes on... I'll hand our heirloom blade over to you!
 :'''Saimon Katsumi:''' Please accept this priceless family heirloom of ours as weregild for his life.
 :'''Saimon Katsumi:''' I hope that the path ahead won't render this blade bloodstained, youngster...
-:'''Saimon Eri:''' Hah! I wouldn't worry about that&mdash;this blade's so blunt, it's nearly turned back into a billet!
+:'''Saimon Eri:''' Hah! I wouldn't worry about that &mdash; this blade's so blunt, it's nearly turned back into a billet!
 :'''Saimon Katsumi:''' Tch, old woman! Don't show such disrespect to our heirloom blade!
 :'''Saimon Katsumi:''' Come, take this drawing with you as well.
 :'''Saimon Katsumi:''' See? This is how our blade used to look like...
@@ -435,14 +434,14 @@ Upon picking up the 4th Old Stone Slate:
 :'''Saimon Eri:''' Alright, alright. How long are you going to caress that artwork, huh? Give them the gift already!
 :'''Saimon Katsumi:''' Hmph...!
 :'''Saimon Katsumi:''' Take good care of them, youngster.
-:'''Saimon Katsumi:''' Oh, right! Take our heirloom armor too! I was gonna give it to [[Ichirou]], but he's also good for nothing... so it's yours!
+:'''Saimon Katsumi:''' Oh, right! Take our heirloom armor too! I was gonna give it to [[Saimon Ichirou|Ichirou]], but he's also good for nothing... so it's yours!
 :'''Saimon Eri:''' Geez, stop it! Can't you see how this armor's practically dripping rust!? You're embarrassing yourself!
 :{{DIcon}} You're too kind...
 :{{DIcon}} But your gifts are more than enough already...
 :'''Saimon Katsumi:''' Alright, alright then...
 :'''Saimon Katsumi:''' Thank you once again, youngster from a foreign land...
 :'''Saimon Katsumi:''' I wish you good fortune in your adventure ahead.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Video Guides==
 {{EVT
@@ -451,7 +450,7 @@ Upon picking up the 4th Old Stone Slate:
 }}
 
 ==Trivia==
-Upon completion of the quest, the [[Missing Person Bulletin Board]] can no longer be interacted with.
+Upon completion of the quest, the [[Missing Person Bulletin Board]]s can no longer be interacted with.
 
 ==Other Languages==
 {{Other Languages
@@ -474,8 +473,8 @@ Upon completion of the quest, the [[Missing Person Bulletin Board]] can no longe
 |ru      = Сокровище фермера
 |ru_tl   = The Farmer's Treasure
 |th      = สมบัติของชาวสวน
-|th_rm   = 
-|th_tl   = 
+|th_rm   = Som-but kong chao suan
+|th_tl   = The Farmer's Treasure
 |vi      = Kho Báu Nông Dân
 |vi_tl   = 
 |de      = Bauernschatz
@@ -485,7 +484,7 @@ Upon completion of the quest, the [[Missing Person Bulletin Board]] can no longe
 |pt      = Tesouro dos Camponeses
 |pt_tl   = 
 |tr      = Çiftçinin Hazinesi
-|tr_tl   = 
+|tr_tl   = The Farmer's Treasure
 |it      = Il tesoro del contadino
 |it_tl   = 
 }}

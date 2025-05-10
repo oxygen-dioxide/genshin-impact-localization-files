@@ -9,9 +9,11 @@
 |faction  = Fatui
 |location = Multiple
 |ability1 = Shield
-|voiceEN  = [https://www.danfostervo.com/ Dan Foster]<ref name="Dan Foster">Twitter: [https://twitter.com/DanFosterVO/status/1355268775608688641 EN VA Self Announcement]</ref>
+|voiceEN  = [https://www.danfostervo.com/ Dan Foster]<ref name="Dan Foster">Twitter: [https://web.archive.org/web/20210129213724/https://twitter.com/DanFosterVO/status/1355268775608688641 EN VA Self Announcement] (Archived)</ref>
 }}
 {{Enemy Intro}}
+
+One [[Local Legend]] '''Cryogunner Legionnaire''', called '''Polychrome Tri-Stars: Sidorenko''', can be found in [[Huitztli Hill]], [[Basin of Unnumbered Flames]], [[Natlan]], along with his fellow Polychrome Tri-Stars [[Fatui Skirmisher - Pyroslinger Bracer|Vasily]] and [[Fatui Skirmisher - Electrohammer Vanguard|Nomokonov]].
 
 ==Drops==
 ===Items===
@@ -29,9 +31,11 @@
 }}
 
 ==Stats==
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div style="width:min-content;">
+===Normal===
 {{Enemy Stats
 |res1     = Unshielded
-|phys_res = -20%
+|phys_res = &minus;20%
 
 |res2         = Shielded
 |resglobal2   = 110%
@@ -42,13 +46,32 @@
 |hp_type   = 1
 |atk_ratio = 3
 }}
+</div><!--
+--><div style="width:min-content;">
+===Local Legend===
+{{Enemy Stats
+|res1     = Unshielded
+|phys_res = &minus;20%
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+|res2         = Shielded
+|resglobal2   = 110%
+|phys_res2    = 80%
+
+|res_title = State
+|hp_ratio  = 37
+|hp_type   = 2
+|atk_ratio = 8
+|atk_type  = 2
+}}
+</div></div>
+===Veteran===
+
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |enemy = Cryogunner Legionnaire
 
-|name_1 = Flash Frost
+|name_1 = Freezing Spray
 |file_1 = Cryogunner Legionnaire Frost Cannon
 |desc_1 = Sprays frost from their cannon in an arc in front of them, continuously dealing '''30% ATK''' as  {{Color|Cryo DMG}}.
 * '''Enhanced:''' While their '''Elemental Buff''' is active, the Cryogunner Legionnaire will walk slowly towards the target while continuously spraying for a greatly extended duration.
@@ -58,18 +81,24 @@
 
 |name_2 = Frozen Descent
 |file_2 = Cryogunner Legionnaire Leap
-|desc_2 = Leaps into the air and smashes down at the player's location, dealing '''50% ATK''' as {{Color|AoE Cryo DMG}}.
+|desc_2 = Leaps into the air and smashes down at the player's location, dealing '''50% ATK''' as {{Color|Cryo DMG}}.
 
-|name_3 = Skilled Charge
+|name_3 = Close-Range Charge
 |file_3 = Cryogunner Legionnaire Ram
 |desc_3 = If the player strays too near, rams the player with their belly, dealing '''100% ATK''' as {{Color|Physical DMG}}. This attack is only used when the '''Elemental Buff''' is inactive.
 
 |name_4 = Elemental Buff: Cryo
-|desc_4 = Upon reaching '''50%''' HP or after some time has passed, generates a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[Shields|shield]], granting them a massive increase in [[Resistance]]s and enhancing their '''Flash Frost''' attack. The shield is weakest to {{Color|Pyro}}. Breaking the shield will leave them stunned and vulnerable to attack. Unlike most Frozen shields, this [[Poise Damage]] cannot damage this shield.
+|desc_4 = Upon reaching '''50%''' HP or after some time has passed, generates a {{Color|Cryo|[[Frozen#Frozen Element|Frozen]]}} [[Shields|shield]], granting them a massive increase in [[Resistance]]s and enhancing their '''Freezing Spray''' attack. The shield is weakest to {{Color|Pyro}}. Breaking the shield will leave them stunned and vulnerable to attack. Unlike most Frozen shields, this [[Poise Damage]] cannot damage this shield.
 {{Elemental Shield Data|Cryo|8|skirmisher=1}}
 |file_4 = Cryogunner Legionnaire Cryo Armor
 |file_4_2 = Cryogunner Legionnaire Stunned
 |caption_4_2 = Stunned
+}}
+
+===Local Legend-Exclusive===
+{{Enemy Attacks
+|name_1 = Vengeance
+|desc_1 = Upon being defeated, leaves behind a large ice field which, deals '''40% ATK''' as {{Color|Cryo DMG}} every '''0.2''' seconds. [[Fatui Skirmisher - Pyroslinger Bracer|Vasily]] will be attracted to the field.
 }}
 
 ===AI Logic===
@@ -85,33 +114,34 @@
 {| class="wikitable"
 ! Ability !! Range Req. (m) !! Priority !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD !! Action Interval (s) !! Triggers Act. Int. !! Ignores Act. Int. !! State Req.
 |-
-| Flash Frost 1 || 0–9 || 4 || 5–7.5 || 3 || rowspan="2" | 5 || rowspan="11" | 3 || {{check|yes}} || {{check|no}} || Not Armored
+| Freezing Spray 1 || 0–9 || 4 || 5–7.5 || 3 || rowspan="2" | 5 || rowspan="11" | 3 || {{check|yes}} || {{check|no}} || Not Armored
 |-
-| Flash Frost 2 || 0–9 || 3 || 5–7.5 || 0 || {{check|yes}} || {{check|yes}} || Not Armored
+| Freezing Spray 2 || 0–9 || 3 || 5–7.5 || 0 || {{check|yes}} || {{check|yes}} || Not Armored
 |-
-| Skilled Charge || 0–3.5 || 5 || 5–7.5 || 3 || — || {{check|yes}} || {{check|yes}} || Not Armored
+| Close-Range Charge || 0–3.5 || 5 || 5–7.5 || 3 || &mdash; || {{check|yes}} || {{check|yes}} || Not Armored
 |-
 | Frozen Descent 1 || 9–30 || 4 || 10–15 || 5–10 || rowspan="2" | 15 || {{check|no}} || {{check|no}} || Any
 |-
 | Frozen Descent 2 || 9–30 || 3 || 10–15 || 5–10 || {{check|no}} || {{check|yes}} || Any
 |-
-| Frozen Descent 3 || 0–30 || 4 || 5 || 0 || — || {{check|yes}} || {{check|yes}} || Any
+| Frozen Descent 3 || 0–30 || 4 || 5 || 0 || &mdash; || {{check|yes}} || {{check|yes}} || Any
 |-
-| Elemental Buff: Cryo 1 || 0–999 || 1 || 100000000 || 10–15 || — || {{check|no}} || {{check|yes}} || Not Armored, Above 50% HP
+| Elemental Buff: Cryo 1 || 0–999 || 1 || 100000000 || 10–15 || &mdash; || {{check|no}} || {{check|yes}} || Not Armored, Above 50% HP
 |-
-| Elemental Buff: Cryo 2 || 0–999 || 2 || 25–30 || 25–30 || — || {{check|no}} || {{check|yes}} || Not Armored
+| Elemental Buff: Cryo 2 || 0–999 || 2 || 25–30 || 25–30 || &mdash; || {{check|no}} || {{check|yes}} || Not Armored
 |-
-| Elemental Buff: Cryo 3 || 0–999 || 1 || 100000000 || 0 || — || {{check|no}} || {{check|yes}} || Not Armored, Below 50% HP
+| Elemental Buff: Cryo 3 || 0–999 || 1 || 100000000 || 0 || &mdash; || {{check|no}} || {{check|yes}} || Not Armored, Below 50% HP
 |-
-| Flash Frost (Enhanced) 1 || 0–10 || 4 || 5–7.5 || 0 || rowspan="2" | 5 || {{check|yes}} || {{check|no}} || Armored
+| Freezing Spray (Enhanced) 1 || 0–10 || 4 || 5–7.5 || 0 || rowspan="2" | 5 || {{check|yes}} || {{check|no}} || Armored
 |-
-| Flash Frost (Enhanced) 2 || 0–10 || 3 || 5–7.5 || 3 || {{check|yes}} || {{check|yes}} || Armored
+| Freezing Spray (Enhanced) 2 || 0–10 || 3 || 5–7.5 || 3 || {{check|yes}} || {{check|yes}} || Armored
 |}
 
 ==Voice-Overs==
+{{Stub|Missing Korean transcriptions.[[Category:VO Korean Romanization Missing]]}}
 {{VO/Enemy
 |enemy                   = Cryogunner Legionnaire
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle (Normal/Local Legend)
 |vo_01_01_file           = VO {lang}{name} - Youll Get Frostbite.ogg
 |vo_01_01_tx_en          = You'll get frostbite.
 |vo_01_01_tx_zh          = 你要凉了。
@@ -123,98 +153,181 @@
 |vo_01_02_tx_ja          = 冷たく、サクサク！
 |vo_01_02_tx_ko          = 얼음, 와드득!
 
-|vo_02_00_title          = Activating Buff
-|vo_02_01_file           = VO {lang}{name} - Freshness Preserved.ogg
-|vo_02_01_tx_en          = Freshness preserved.
-|vo_02_01_tx_zh          = 冰冻保鲜！
-|vo_02_01_tx_ja          = 冷凍保存！
-|vo_02_01_tx_ko          = 얼려서, 신선하게!
-|vo_02_02_file           = VO {lang}{name} - Its Time For A Flash Freeze.ogg
-|vo_02_02_tx_en          = It's time for a flash freeze!
-|vo_02_02_tx_zh          = 急冻时间到了！
-|vo_02_02_tx_ja          = 冷凍の時間だよ！
-|vo_02_02_tx_ko          = 모두 얼려버릴 시간이다!
+|vo_02_00_title          = Entering Battle (Local Legend Rare/Veteran)
+|vo_02_01_file           = VO {lang}Fatui Skirmisher - Cryogunner Legionnaire - Entering Battle (Veteran).ogg
+|vo_02_01_tx_en          = Hmph, another self-righteous soul, huh?
+|vo_02_01_tx_zh          = {{tx}}
+|vo_02_01_tx_ja          = {{tx}}
+|vo_02_01_tx_ko          = {{tx}}
 
-|vo_03_00_title          = Attacking
-|vo_03_01_file           = VO {lang}{name} - Aha Frozen Food.ogg
-|vo_03_01_tx_en          = Aha! Frozen food.
-|vo_03_01_tx_zh          = 哈哈哈！速冻食品！
-|vo_03_01_tx_ja          = はは、冷凍食品だ！
-|vo_03_01_tx_ko          = 하하! 냉동식품!
-|vo_03_02_file           = VO {lang}{name} - Chill To The Bone.ogg
-|vo_03_02_tx_en          = Chill to the bone.
-|vo_03_02_tx_zh          = 凛风刺骨！
-|vo_03_02_tx_ja          = 骨を刺す風。
-|vo_03_02_tx_ko          = 찬바람은 뼈가 시린 법
-|vo_03_03_file           = VO {lang}{name} - Flash Frost.ogg
-|vo_03_03_tx_en          = Flash frost!
-|vo_03_03_tx_zh          = 美妙的寒霜！
-|vo_03_03_tx_ja          = 美しい霜だ。
-|vo_03_03_tx_ko          = 아름다운 서리!
-|vo_03_04_file           = VO {lang}{name} - Hahahahahaha.ogg
-|vo_03_04_tx_en          = Hahahahahaha!
-|vo_03_04_tx_zh          = 唔哈哈哈哈哈哈哈哈！
-|vo_03_04_tx_ja          = えへへへへへへへ！
-|vo_03_04_rm_ja          = Ehehehehehehehe!
-|vo_03_04_tx_ko          = 이히히히히히히, 으히히히히히히~
-|vo_03_05_file           = VO {lang}{name} - Now Youre Not Going Anywhere.ogg
-|vo_03_05_tx_en          = Now you're not going anywhere!
-|vo_03_05_tx_zh          = 这样可逃不掉！
-|vo_03_05_tx_ja          = 逃げられないよ。
-|vo_03_05_tx_ko          = 도망 칠 수 없을 걸!
-|vo_03_06_file           = VO {lang}{name} - Frozen Descent.ogg
-|vo_03_06_tx_en          = Frozen descent!
-|vo_03_06_tx_zh          = 极寒天降！
-|vo_03_06_tx_ja          = 極寒、降臨！
-|vo_03_06_tx_ko          = 하늘에서 내려 온 추위!
-|vo_03_07_file           = VO {lang}{name} - Cold Cut Platter.ogg
-|vo_03_07_tx_en          = Cold cut platter!
-|vo_03_07_tx_zh          = 冷肉拼盘！
-|vo_03_07_tx_ja          = 冷製肉の盛り合わせだ。
-|vo_03_07_tx_ko          = 냉육 모듬!
-|vo_03_08_file           = VO {lang}{name} - Dont Get In The Way.ogg
-|vo_03_08_tx_en          = Don't get in the way!
-|vo_03_08_tx_zh          = 嘿！别挡道！
-|vo_03_08_tx_ja          = おい、邪魔だ！
-|vo_03_08_tx_ko          = 이봐, 길 막지 마!
+|vo_03_00_title          = Activating Buff
+|vo_03_01_file           = VO {lang}{name} - Freshness Preserved.ogg
+|vo_03_01_tx_en          = Freshness preserved.
+|vo_03_01_tx_zh          = 冰冻保鲜！
+|vo_03_01_tx_ja          = 冷凍保存！
+|vo_03_01_tx_ko          = 얼려서, 신선하게!
+|vo_03_02_file           = VO {lang}{name} - Its Time For A Flash Freeze.ogg
+|vo_03_02_tx_en          = It's time for a flash freeze!
+|vo_03_02_tx_zh          = 急冻时间到了！
+|vo_03_02_tx_ja          = 冷凍の時間だよ！
+|vo_03_02_tx_ko          = 모두 얼려버릴 시간이다!
 
-|vo_04_00_title          = Shield Broken
-|vo_04_01_file           = VO {lang}{name} - Oww Oh No.ogg
-|vo_04_01_tx_en          = Oww, oh no!
-|vo_04_01_tx_zh          = 啊，糟了…
-|vo_04_01_tx_ja          = ああ、まずい！
-|vo_04_01_rm_ja          = Aa, mazui!
-|vo_04_01_tx_ko          = 앗, 이런…
-|vo_04_02_file           = VO {lang}{name} - Ugh Its No Problem.ogg
-|vo_04_02_tx_en          = Ugh, it's no problem...
-|vo_04_02_tx_zh          = 啊，小问题…
-|vo_04_02_tx_ja          = んっ、しまった…
-|vo_04_02_rm_ja          = N', shimatta...
-|vo_04_02_tx_ko          = 이 정도… 쯤이야…
+|vo_04_00_title          = Freezing Spray
+|vo_04_01_file           = VO {lang}{name} - Flash Frost.ogg
+|vo_04_01_tx_en          = Flash Frost!
+|vo_04_01_tx_zh          = 美妙的寒霜！
+|vo_04_01_tx_ja          = 美しい霜だ。
+|vo_04_01_tx_ko          = 아름다운 서리!
+|vo_04_02_file           = VO {lang}{name} - Hahahahahaha.ogg
+|vo_04_02_tx_en          = Hahahahahaha!
+|vo_04_02_tx_zh          = 唔哈哈哈哈哈哈哈哈！
+|vo_04_02_tx_ja          = えへへへへへへへ！
+|vo_04_02_rm_ja          = Ehehehehehehehe!
+|vo_04_02_tx_ko          = 이히히히히히히, 으히히히히히히~
 
-|vo_05_00_title          = Staggered
-|vo_05_01_tx_en          = {{A|VO Cryogunner Legionnaire - Staggered 01.ogg}} {{A|VO Cryogunner Legionnaire - Staggered 02.ogg}} {{A|VO Cryogunner Legionnaire - Staggered 03.ogg}}
+|vo_05_00_title          = Freezing Spray (Enhanced)
+|vo_05_01_file           = VO {lang}{name} - Aha Frozen Food.ogg
+|vo_05_01_tx_en          = Aha! Frozen food.
+|vo_05_01_tx_zh          = 哈哈哈！速冻食品！
+|vo_05_01_tx_ja          = はは、冷凍食品だ！
+|vo_05_01_tx_ko          = 하하! 냉동식품!
+|vo_05_02_file           = VO {lang}{name} - Chill To The Bone.ogg
+|vo_05_02_tx_en          = Chill to the bone.
+|vo_05_02_tx_zh          = 凛风刺骨！
+|vo_05_02_tx_ja          = 骨を刺す風。
+|vo_05_02_tx_ko          = 찬바람은 뼈가 시린 법
 
-|vo_06_00_title          = Defeated
-|vo_06_01_file           = VO {lang}{name} - Ngghhh Too Warm.ogg
-|vo_06_01_tx_en          = Ngghhh... too... warm...
-|vo_06_01_tx_zh          = 温度太高了…
-|vo_06_01_tx_ja          = 温度が…高い…
-|vo_06_01_tx_ko          = 온도가… 너무 높아…
-|vo_06_02_file           = VO {lang}{name} - Cooked Food Disgusting.ogg
-|vo_06_02_tx_en          = Cooked food... disgusting...
-|vo_06_02_tx_zh          = 见鬼的熟食…
-|vo_06_02_tx_ja          = 熟食め…
-|vo_06_02_tx_ko          = 불에 익힌 음식 따위…
+|vo_06_00_title          = Frozen Descent
+|vo_06_01_file           = VO {lang}{name} - Now Youre Not Going Anywhere.ogg
+|vo_06_01_tx_en          = Now you're not going anywhere!
+|vo_06_01_tx_zh          = 这样可逃不掉！
+|vo_06_01_tx_ja          = 逃げられないよ。
+|vo_06_01_tx_ko          = 도망 칠 수 없을 걸!
+|vo_06_02_file           = VO {lang}{name} - Frozen Descent.ogg
+|vo_06_02_tx_en          = Frozen descent!
+|vo_06_02_tx_zh          = 极寒天降！
+|vo_06_02_tx_ja          = 極寒、降臨！
+|vo_06_02_tx_ko          = 하늘에서 내려 온 추위!
+
+|vo_07_00_title          = Close-Range Charge
+|vo_07_01_file           = VO {lang}{name} - Cold Cut Platter.ogg
+|vo_07_01_tx_en          = Cold cut platter!
+|vo_07_01_tx_zh          = 冷肉拼盘！
+|vo_07_01_tx_ja          = 冷製肉の盛り合わせだ。
+|vo_07_01_tx_ko          = 냉육 모듬!
+|vo_07_02_file           = VO {lang}{name} - Dont Get In The Way.ogg
+|vo_07_02_tx_en          = Don't get in the way!
+|vo_07_02_tx_zh          = 嘿！别挡道！
+|vo_07_02_tx_ja          = おい、邪魔だ！
+|vo_07_02_tx_ko          = 이봐, 길 막지 마!
+
+|vo_08_00_title          = Buff Broken
+|vo_08_01_file           = VO {lang}{name} - Oww Oh No.ogg
+|vo_08_01_tx_en          = Oww, oh no!
+|vo_08_01_tx_zh          = 啊，糟了…
+|vo_08_01_tx_ja          = ああ、まずい！
+|vo_08_01_rm_ja          = Aa, mazui!
+|vo_08_01_tx_ko          = 앗, 이런…
+|vo_08_02_file           = VO {lang}{name} - Ugh Its No Problem.ogg
+|vo_08_02_tx_en          = Ugh, it's no problem...
+|vo_08_02_tx_zh          = 啊，小问题…
+|vo_08_02_tx_ja          = んっ、しまった…
+|vo_08_02_rm_ja          = N', shimatta...
+|vo_08_02_tx_ko          = 이 정도… 쯤이야…
+
+|vo_09_00_title          = Defeating Player (Local Legend)
+|vo_09_01_file           = VO {lang}Fatui Skirmisher - Cryogunner Legionnaire - Defeating the Player (Local Legend).ogg
+|vo_09_01_tx_en          = Hmph. What a waste of time.
+|vo_09_01_tx_zh          = 真是浪费时间。
+|vo_09_01_rm_zh          = 
+|vo_09_01_tx_ja          = ただの時間の無駄だったな。
+|vo_09_01_rm_ja          = 
+|vo_09_01_tx_ko          = {{tx}}
+|vo_09_01_rm_ko          = 
+
+|vo_10_00_title          = Staggered
+|vo_10_01_tx_en          = {{A|VO Cryogunner Legionnaire - Staggered 01.ogg}} {{A|VO Cryogunner Legionnaire - Staggered 02.ogg}} {{A|VO Cryogunner Legionnaire - Staggered 03.ogg}}
+
+|vo_11_00_title          = Defeated
+|vo_11_01_file           = VO {lang}{name} - Ngghhh Too Warm.ogg
+|vo_11_01_tx_en          = Ngghhh... too... warm...
+|vo_11_01_tx_zh          = 温度太高了…
+|vo_11_01_tx_ja          = 温度が…高い…
+|vo_11_01_tx_ko          = 온도가… 너무 높아…
+|vo_11_02_file           = VO {lang}{name} - Cooked Food Disgusting.ogg
+|vo_11_02_tx_en          = Cooked food... disgusting...
+|vo_11_02_tx_zh          = 见鬼的熟食…
+|vo_11_02_tx_ja          = 熟食め…
+|vo_11_02_tx_ko          = 불에 익힌 음식 따위…
+
+|vo_12_00_title          = Defeated (Local Legend/Veteran)
+|vo_12_01_file           = VO {lang}Fatui Skirmisher - Cryogunner Legionnaire - Defeated (Local Legend).ogg
+|vo_12_01_tx_en          = Our cause is as unyielding as ice.
+|vo_12_01_tx_zh          = 我们的事业刚如坚冰！
+|vo_12_01_rm_zh          = 
+|vo_12_01_tx_ja          = 我らの所行は堅氷の如く！
+|vo_12_01_rm_ja          = 
+|vo_12_01_tx_ko          = {{tx}}
+|vo_12_01_rm_ko          = 
+
+|vo_13_00_title          = Eruption Start
+|vo_13_01_file           = VO {lang}Fatui Skirmisher - Cryogunner Legionnaire - Eruption Start.ogg
+|vo_13_01_tx_en          = Heheheheh, this mountain's got some serious firepower.
+|vo_13_01_tx_zh          = 咳，这火山可真够劲儿的。
+|vo_13_01_rm_zh          = 
+|vo_13_01_tx_ja          = はっ！火山め、なかなかやるな。
+|vo_13_01_rm_ja          = 
+|vo_13_01_tx_ko          = {{tx}}
+|vo_13_01_rm_ko          = 
+|vo_13_02_file           = VO {lang}Fatui Skirmisher - Cryogunner Legionnaire - Eruption Start 2.ogg
+|vo_13_02_tx_en          = Sigh, feel like I'm in an oven. Better scram before I get cooked.
+|vo_13_02_tx_zh          = 温度可真高啊，我可不想变全熟啊。
+|vo_13_02_rm_zh          = 
+|vo_13_02_tx_ja          = ずいぶん高い温度だな！ウェルドンはごめんだぜ。
+|vo_13_02_rm_ja          = 
+|vo_13_02_tx_ko          = {{tx}}
+|vo_13_02_rm_ko          = 
+    
+|vo_14_00_title          = Eruption End
+|vo_14_01_file           = VO {lang}Fatui Skirmisher - Cryogunner Legionnaire - Eruption End.ogg
+|vo_14_01_tx_en          = That was too close for comfort.
+|vo_14_01_tx_zh          = 啊，真是躲过一劫啊。
+|vo_14_01_rm_zh          = 
+|vo_14_01_tx_ja          = なんとか助かったか。
+|vo_14_01_rm_ja          = 
+|vo_14_01_tx_ko          = {{tx}}
+|vo_14_01_rm_ko          = 
+|vo_14_02_file           = VO {lang}Fatui Skirmisher - Cryogunner Legionnaire - Eruption End 2.ogg
+|vo_14_02_tx_en          = If I'd gotten hit, all this gear would be done for.
+|vo_14_02_tx_zh          = 要是被砸中，这些装备可就完蛋了。
+|vo_14_02_rm_zh          = 
+|vo_14_02_tx_ja          = {{tx}}したら、装備はだめになっちゃうよ。
+|vo_14_02_rm_ja          = 
+|vo_14_02_tx_ko          = {{tx}}
+|vo_14_02_rm_ko          = 
 }}
 
+==Achievements==
+{{Achievement Topic Table|topic=Fatui Skirmisher - Cryogunner Legionnaire}}
+
+==Tutorials==
+{{Tutorial|Fatui Skirmisher - Cryogunner Legionnaire}}
+
 ==Descriptions==
-{{Description|A soldier encased within a Fatui war machine.<br />Armed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of frost. Though this may confer elemental power beyond the ken of ordinary humans, that power may yet to come at a price...|[[Archive]]}}
+{{Description|A soldier encased within a Fatui war machine.<br>Armed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of frost. Though this may confer elemental power beyond the ken of ordinary humans, that power may yet to come at a price...|[[Archive]]}}
 
 ==Gallery==
 <gallery>
 Enemy Fatui Skirmisher - Cryogunner Legionnaire Icon.png|Icon
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
+
+==Trivia==
+*{{Lang|1={{w|Ivan Sidorenko}}|ru=Иван Сидоренко|ru_rm={{#invoke:ru-rm|main|Иван Сидоренко}}}} was a Red Army officer and a Hero of the Soviet Union, who served during World War II.
+*Sidorenko is the only member of the [[Polychrome Tri-Stars]] to not always say his unique '''Entering Battle''' voiceline.
+**The unique line can still be heard from the '''Veteran Fatui Skirmisher - Cryogunner Legionnaire'''.
 
 ==Other Languages==
 {{Other Languages
@@ -224,7 +337,7 @@ Enemy Fatui Skirmisher - Cryogunner Legionnaire Icon.png|Icon
 |zht     = 愚人眾先遣隊・冰銃重衛士
 |zht_rm  = Yúrénzhòng Xiānqiǎn Duì - Bīng Chòng Zhòngwèishì
 |zh_tl   = Fatui Skirmisher - Cryo Gun Heavy Guard
-|ja      = ファデュイ{{Rubi|先|せん|遣|けん|隊|たい|・|&nbsp;|重|じゅう|衛|え|士|じ|・|&nbsp;|氷|こおり|銃|じゅう}}
+|ja      = ファデュイ先遣隊・重衛士・氷銃
 |ja_rm   = Fadyui Senkentai - Juu Eji - Koori Juu
 |ja_tl   = Fatui Skirmisher - Heavy Guard - Cryo Gun
 |ko      = 우인단 선발대・얼음총 중보병
@@ -245,7 +358,7 @@ Enemy Fatui Skirmisher - Cryogunner Legionnaire Icon.png|Icon
 |pt      = Soldado dos Fatui - Guarda de Canhão Cryo
 |pt_tl   = 
 |tr      = Fatui Avcı Eri - Lejyoner Buz Topçusu
-|tr_tl   = 
+|tr_tl   = Fatui Skirmisher - Legionnaire {{Lex|Cryo|tr}} Gunner
 |it      = Schermagliatore dei Fatui Cryoartigliere corazzato
 |it_tl   = 
 }}
@@ -258,8 +371,11 @@ Enemy Fatui Skirmisher - Cryogunner Legionnaire Icon.png|Icon
 
 ==Navigation==
 {{Enemy Navbox|type=Common}}
+{{Enemy Navbox|Special}}
 
 [[es:Guardia con Cañón Cryo]]
+[[fr:Tirailleur Fatui – Mitrailleur Cryo]]
+[[ja:ファデュイ先遣隊・重衛士・氷銃]]
 [[pt-br:Soldado dos Fatui - Guarda de Canhão Cryo]]
 [[th:Cryogunner Legionnaire]]
 [[vi:Vệ Binh Băng Hạng Nặng]]

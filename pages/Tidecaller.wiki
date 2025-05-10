@@ -2,18 +2,14 @@
 |image         = Talent Tidecaller.png
 |character     = Beidou
 |type          = Elemental Skill
-|info          = Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.<br /><br />'''Press'''<br />Accumulating the power of lightning, Beidou swings her blade forward fiercely, dealing {{Color|Electro DMG}}.<br /><br />'''Hold'''<br />Lifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.<br />Attacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing {{Color|Electro DMG}}. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.<br />The shield possesses the following properties:<br />
-* Has 250% {{Color|Electro DMG}} Absorption Efficiency.
-* Applies the {{Color|Electro element}} to Beidou upon activation.
+|info          = Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.<br><br>'''{{Control|Tap|Press|Press}}'''<br>Accumulating the power of lightning, Beidou swings her blade forward fiercely, dealing {{Color|Electro DMG}}.<br><br>'''Hold'''<br>Lifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.<br>Attacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing {{Color|Electro DMG}}. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.<br>The shield possesses the following properties:<ul><li>Has 250% {{Color|Electro DMG}} Absorption Efficiency.</li><li>Applies the {{Color|Electro element}} to Beidou upon activation.</li></ul>
 |scale_att1    = Max HP
 |scale_att2    = ATK
-|particles     = 2
-|particlesHold = 4
 |CD            = 7.5s
 |attr1         = Shield DMG Absorption
 |utility1      = Shield
 |utility2      = Electro Status to Self
-|value1        = 14.4–30.6% Max HP + 1386–3,813
+|value1        = 14.4–30.6% Max HP+1,386–3,813
 |attr2         = Base DMG
 |value2        = 122–258%
 |attr3         = DMG Bonus on Hit Taken
@@ -24,19 +20,17 @@
 
 ==Gameplay Notes==
 * This skill generates '''2''' [[Elemental Particle]]s when it hits at least 1 target, or up to '''4''' when it hits with energy stored.
-*The skill description is somewhat misleading. The Press skill has the same functionality as the Hold skill (including the shield and energy storing), but only during a very brief window.
-*After holding the skill for about 3 seconds, the attack will be released automatically.
-*If the shield breaks, the player will take the rest of the remaining damage used to break the shield.
-*The shield created by this skill lasts for a short duration even after the skill button is released, allowing the skill's DMG to trigger the effects of [[Geo Resonance]].
+* The skill description is somewhat misleading. The Press skill has the same functionality as the Hold skill (including the shield and energy storing), but only during a very brief window.
+* This skill can be held for up to 3s {{Verify}}
+** The shield created by this skill lasts for a short duration even after the skill button is released, allowing the skill's DMG to trigger the effects of [[Geo Resonance]].
+* The "DMG Bonus on Hit Taken" Talent multiplier listed in the Skill Attributes is additive to the "Base DMG" Talent multiplier. For example, taking 2 hits while holding this skill will cause it to deal (122% + 160% × 2) = 442% ATK as DMG at Talent Level 1.
 
 ;<big>Passive Effects</big>
-*{{TalentNote|character=Beidou|talent=Tidecaller|ascension|1|Retribution}}
-*{{TalentNote|character=Beidou|talent=Tidecaller|ascension|2|Lightning Storm|enhances Beidou's attacks for 10 seconds after unleashing Tidecaller with its maximum DMG Bonus as follows:}}
-** The DMG and Attack SPD of Beidou's Normal and Charged Attacks are increased by 15%.
-** The wind-up before Beidou begins Charged Attacks is reduced.
+*{{Talent Note|character=Beidou|talent=Tidecaller|ascension|1|Retribution}}
+*{{Talent Note|character=Beidou|talent=Tidecaller|ascension|2|Lightning Storm|For 10 seconds after unleashing Tidecaller with its maximum DMG Bonus, the DMG and Attack SPD of Beidou's Normal and Charged Attacks are increased by 15%, and the wind-up before Beidou begins Charged Attacks is reduced.}}
 
 ;<big>Constellation Effects</big>
-*{{TalentNote|constellation|3|Summoner of Storm}}
+*{{Talent Note|constellation|3|Summoner of Storm}}
 
 ==Advanced Properties==
 {{Advanced Properties
@@ -64,8 +58,8 @@
 |title4   = Electro to Self
 |gu4      = 1U, 2s
 |icdtag4  = none
-|poise4   = —
-|impulse4 = —
+|poise4   = &mdash;
+|impulse4 = &mdash;
 }}
 
 ==Preview==
@@ -81,19 +75,19 @@
 |levels=13
 |order=shielddmgabsorption,basedmg,dmgbonusonhittaken,cd
 |titles=Shield DMG Absorption,Base DMG (%),DMG Bonus on Hit Taken (%),CD
-|shielddmgabsorption_1=14.4% Max HP+1386
-|shielddmgabsorption_2=15.48% Max HP+1525
-|shielddmgabsorption_3=16.56% Max HP+1675
-|shielddmgabsorption_4=18% Max HP+1837
-|shielddmgabsorption_5=19.08% Max HP+2010
-|shielddmgabsorption_6=20.16% Max HP+2195
-|shielddmgabsorption_7=21.6% Max HP+2391
-|shielddmgabsorption_8=23.04% Max HP+2599
-|shielddmgabsorption_9=24.48% Max HP+2819
-|shielddmgabsorption_10=25.92% Max HP+3050
-|shielddmgabsorption_11=27.36% Max HP+3292
-|shielddmgabsorption_12=28.8% Max HP+3547
-|shielddmgabsorption_13=30.6% Max HP+3812
+|shielddmgabsorption_1=14.4% Max HP+1,386
+|shielddmgabsorption_2=15.48% Max HP+1,525
+|shielddmgabsorption_3=16.56% Max HP+1,675
+|shielddmgabsorption_4=18% Max HP+1,837
+|shielddmgabsorption_5=19.08% Max HP+2,010
+|shielddmgabsorption_6=20.16% Max HP+2,195
+|shielddmgabsorption_7=21.6% Max HP+2,391
+|shielddmgabsorption_8=23.04% Max HP+2,599
+|shielddmgabsorption_9=24.48% Max HP+2,819
+|shielddmgabsorption_10=25.92% Max HP+3,050
+|shielddmgabsorption_11=27.36% Max HP+3,292
+|shielddmgabsorption_12=28.8% Max HP+3,547
+|shielddmgabsorption_13=30.6% Max HP+3,812
 |basedmg_1=121.6
 |basedmg_2=130.72
 |basedmg_3=139.84
@@ -129,6 +123,11 @@
 ==Voice-Overs==
 {{Talent VO}}
 
+==Trivia==
+* This skill has a parry mechanic similar to:
+** [[Candace]]'s {{Talent|Sacred Rite: Heron's Sanctum|nobr=1|20}}
+** [[Yun Jin]]'s {{Talent|Opening Flourish|nobr=1|20}}
+
 ==Other Languages==
 {{Other Languages
 |en      = Tidecaller
@@ -136,11 +135,11 @@
 |zhs_rm  = Zhuō Làng
 |zht     = 捉浪
 |zht_rm  = Zhuō Làng
-|zh_tl   = Wave Catching
+|zh_tl   = Wavecatcher
 |ja      = 浪追い
 |ja_rm   = Nami Oi
 |ja_tl   = Wave-Chaser
-|ko      = 파도잡이
+|ko      = {{tt|파도|波濤}}잡이
 |ko_rm   = Padojap'i
 |ko_tl   = Wave-Catcher
 |es      = Invocadora de mareas
@@ -148,7 +147,7 @@
 |fr      = Invocation des marées
 |fr_tl   = Invocation of the Tides
 |ru      = Призыв волны
-|ru_tl   = Tidecaller
+|ru_tl   = Wave Call
 |th      = Tidecaller
 |vi      = Bắt Sóng
 |vi_tl   = Wave Catching
@@ -158,7 +157,7 @@
 |pt      = Invocadora da Maré
 |pt_tl   = 
 |tr      = Dalga Çağıran
-|tr_tl   = 
+|tr_tl   = Wave Caller
 |it      = Governamaree
 |it_tl   = 
 }}
@@ -171,6 +170,7 @@
 
 [[es:Invocadora de mareas]]
 [[fr:Invocation des marées]]
+[[ja:浪追い]]
 [[pt-br:Invocadora da Maré]]
 [[ru:Призыв волны]]
 [[th:Tidecaller]]

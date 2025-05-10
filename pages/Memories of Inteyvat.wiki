@@ -11,9 +11,7 @@
 |area          = The Chasm: Underground Mines
 |prev          = [[The Grave of the Guarded]]
 |next          = [[The Black Serpent Knights' Glory]]
-|exp           = 575
-|mora          = 19,800
-|other         = {{Card|Adventurer's Experience|7}}{{Card|Mystic Enhancement Ore|4}}
+|rewards       = Adventure EXP*575;Mora*19,800;Adventurer's Experience*7;Mystic Enhancement Ore*4
 |characters    = Dainsleif; Halfdan; Paimon; Traveler; Traveler's Sibling
 |voiced        = yes
 }}
@@ -24,6 +22,7 @@
 # Follow the path and continue exploring
 # Head to the hilichurl camp
 # Look for clues in the hilichurl camp (0/4)
+#* [[Co-Op Mode]] disabled
 #* Investigating the flower will skip any unread dialogue of the other clues.
 # Leave the hilichurl camp
 # Defeat the Abyss Herald
@@ -31,11 +30,11 @@
 # Talk to Dainsleif
 
 ==Gameplay Notes==
-* Completing this quest grants the ''[[Wonders of the World]]'' achievement ''[[The Will to Live and the Depths of Lamentation]]''.
+* Completing this quest grants the {{Achievement|The Will to Live and the Depths of Lamentation}}.
 
 ==Dialogue==
 {{Quest Description|The Black Serpent Knights present here do not, in truth, mean you ill. They are simply driven by their remaining instincts to defend those hilichurls. After you discover some of the secrets of this strange city, the Black Serpent Knight Halfdan seems to have something to show you...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Upon approaching the ledge outside of the chamber)
 :{{A|vo szaq102 10 paimon 12.ogg}} '''Paimon:''' Halfdan jumped down over there. Let's follow him.
 
@@ -83,35 +82,32 @@
 :{{A|vo szaq103 6 dainsleif 02.ogg}} '''Dainsleif:''' It would only last two weeks before wilting. But if you were to pluck one and take it out of Khaenri'ah, the petals would stop growing and turn hard.
 :{{A|vo szaq103 6 dainsleif 03.ogg}} '''Dainsleif:''' Only when it finally returned to its home soil would the petals grow soft once more, and finally turn to dust...
 :{{A|vo szaq103 6 dainsleif 04.ogg}} '''Dainsleif:''' So the Inteyvat is a symbol for a wanderer far from home, signifying the tenderness of the homeland.
-;(This single dialogue option is different depending on the Traveler chosen)
-::{{DIcon}} {{MC|That's the flower my sister was wearing in her hair.|That's the flower I've been wearing in my hair since I woke up.|mc=1}}
+:{{DIcon}} {{MC|That's the flower my sister was wearing in her hair.|That's the flower I've been wearing in my hair since I woke up.}}
 :{{A|vo szaq103 6 paimon 04.ogg}} '''Paimon:''' *gasp* So for this flower to get here, it must have been brought from...
 :{{Color|menu|You reach out and touch the flower, and as you do, things that happened before flash before your eyes once again...}}
 :{{A|vo szaq103 6 invokerwater 01a.ogg}}<!--{{A|vo szaq103 6 invokerwater 01b.ogg}}--> '''Abyss Herald:''' Your Highness... so the proposal finally has your blessing?
-:{{A|vo szaq103 6 heroine 01.ogg}} {{A|vo szaq103 6 hero 01.ogg}} '''(Traveler's Sibling):''' In focusing single-mindedly on confronting the Heavenly Principles, we neglected our original mission: the revival of the homeland.
-:{{A|vo szaq103 6 heroine 02.ogg}} {{A|vo szaq103 6 hero 02.ogg}} '''(Traveler's Sibling):''' I should not have been so indecisive.
+:{{A|vo szaq103 6 heroine 01.ogg}} {{A|vo szaq103 6 hero 01.ogg}} '''{{Traveler's Sibling}}:''' In focusing single-mindedly on confronting the Heavenly Principles, we neglected our original mission: the revival of the homeland.
+:{{A|vo szaq103 6 heroine 02.ogg}} {{A|vo szaq103 6 hero 02.ogg}} '''{{Traveler's Sibling}}:''' I should not have been so indecisive.
 :{{A|vo szaq103 6 invokerwater 02.ogg}} '''Abyss Herald:''' The device is almost ready. We await your command.
-:{{A|vo szaq103 6 heroine 03.ogg}} {{A|vo szaq103 6 hero 03.ogg}} '''(Traveler's Sibling):''' What are the chances of succeeding?
+:{{A|vo szaq103 6 heroine 03.ogg}} {{A|vo szaq103 6 hero 03.ogg}} '''{{Traveler's Sibling}}:''' What are the chances of succeeding?
 :{{A|vo szaq103 6 invokerwater 03.ogg}} '''Abyss Herald:''' Theoretically speaking... approximately&mdash;
-:{{A|vo szaq103 6 heroine 04.ogg}} {{A|vo szaq103 6 hero 04.ogg}} '''(Traveler's Sibling):''' Forget it. Even a one-percent chance is enough...
-:{{A|vo szaq103 6 heroine 05.ogg}} {{A|vo szaq103 6 hero 05.ogg}} '''(Traveler's Sibling):''' For too long have we dwelt in the Abyss.
-:{{A|vo szaq103 6 heroine 06.ogg}} {{A|vo szaq103 6 hero 06.ogg}} '''(Traveler's Sibling):''' Surely, they would rather return to the natural cycle of life and death as soon as possible than continue to exist as they are, without a shred of dignity.
-:{{A|vo szaq103 6 heroine 07.ogg}} {{A|vo szaq103 6 hero 07.ogg}} '''(Traveler's Sibling):''' They cannot be made to continue paying the price... for those so-called sins.
+:{{A|vo szaq103 6 heroine 04.ogg}} {{A|vo szaq103 6 hero 04.ogg}} '''{{Traveler's Sibling}}:''' Forget it. Even a one-percent chance is enough...
+:{{A|vo szaq103 6 heroine 05.ogg}} {{A|vo szaq103 6 hero 05.ogg}} '''{{Traveler's Sibling}}:''' For too long have we dwelt in the Abyss.
+:{{A|vo szaq103 6 heroine 06.ogg}} {{A|vo szaq103 6 hero 06.ogg}} '''{{Traveler's Sibling}}:''' Surely, they would rather return to the natural cycle of life and death as soon as possible than continue to exist as they are, without a shred of dignity.
+:{{A|vo szaq103 6 heroine 07.ogg}} {{A|vo szaq103 6 hero 07.ogg}} '''{{Traveler's Sibling}}:''' They cannot be made to continue paying the price... for those so-called sins.
 :{{A|vo szaq103 6 invokerwater 04.ogg}} '''Abyss Herald:''' The Order is most fortunate to be graced with your decision.
-;(The Abyss Herald leaves)
-;(The Traveler's Sibling walks toward the Traveler and disappears as the Traveler reaches out)
-:{{A|vo szaq103 6 hero 08.ogg}} {{A|vo szaq103 6 heroine 08.ogg}} '''(Traveler):''' {{MC|Lumine|Aether|mc=1}}...
+:;(The Abyss Herald leaves)
+:;(The Traveler's Sibling walks toward the Traveler and disappears as the Traveler reaches out)
+:{{A|vo szaq103 6 hero 08.ogg}} {{A|vo szaq103 6 heroine 08.ogg}} '''{{Traveler}}:''' {{MC|Lumine|Aether}}...
 :{{color|menu|The vision ends.}}
 :{{A|vo szaq103 6 dainsleif 05.ogg}} '''Dainsleif:''' You saw something, didn't you? Can you tell me what it was?
 :{{A|vo szaq103 6 paimon 05.ogg}} '''Paimon:''' Yeah, you zoned out for quite a while there.
-
-:'''You relate the scene you just saw to Dainsleif...'''
-
+:{{Black Screen|You relate the scene you just saw to Dainsleif...}}
 :{{A|vo szaq103 6 dainsleif 06.ogg}} '''Dainsleif:''' Huh. Well, people do say that twins have a special connection...
 :{{A|vo szaq103 6 dainsleif 07.ogg}} '''Dainsleif:''' It sounds as if they are attempting to make use of certain equipment to cleanse the curse. It could well be the device we saw earlier.
-:{{A|vo szaq103 6 dainsleif 08a.ogg}} {{A|vo szaq103 6 dainsleif 08b.ogg}} '''Dainsleif:''' And... you say {{MC|she|he|mc=1}} mentioned the "revival of the homeland," correct?
+:{{A|vo szaq103 6 dainsleif 08a.ogg}} {{A|vo szaq103 6 dainsleif 08b.ogg}} '''Dainsleif:''' And... you say {{MC|she|he}} mentioned the "revival of the homeland," correct?
 :{{DIcon}} Yes.
-:{{DIcon}} {{MC|She|He|mc=1}} said it was {{MC|her|his|mc=1}} mission.
+:{{DIcon}} {{MC|She|He}} said it was {{MC|her|his}} mission.
 :{{A|vo szaq103 6 dainsleif 09.ogg}} '''Dainsleif:''' No surprise there. Stubborn as ever.
 :{{A|vo szaq103 6 dainsleif 10.ogg}} '''Dainsleif:''' It appears as if the Abyss Order plans to use this location to cleanse the hilichurls of their curse and restore them to the way they once were... Then, they will serve as the foundation for reviving the nation of Khaenri'ah.
 :{{A|vo szaq103 6 dainsleif 11.ogg}} '''Dainsleif:''' After all, there can be no nation without a people.
@@ -125,21 +121,20 @@
 :{{A|vo szaq103 6 dainsleif 17.ogg}} '''Dainsleif:''' Save your strength for something worth saving.
 :{{DIcon}} Why should I believe you?
 :{{A|vo szaq103 6 dainsleif 18.ogg}} '''Dainsleif:''' Oh?
-:{{A|vo szaq103 6 dainsleif 19a.ogg}} {{A|vo szaq103 6 dainsleif 19b.ogg}} '''Dainsleif:''' Haha... But of course. I am merely someone you hired for a task, while {{MC|she|he|mc=1}} is your {{MC|sister|brother|mc=1}}.
-:{{A|vo szaq103 6 dainsleif 20a.ogg}} {{A|vo szaq103 6 dainsleif 20b.ogg}} '''Dainsleif:''' It is only natural for you to side with {{MC|her|him|mc=1}}.
+:{{A|vo szaq103 6 dainsleif 19a.ogg}} {{A|vo szaq103 6 dainsleif 19b.ogg}} '''Dainsleif:''' Haha... But of course. I am merely someone you hired for a task, while {{MC|she|he}} is your {{MC|sister|brother}}.
+:{{A|vo szaq103 6 dainsleif 20a.ogg}} {{A|vo szaq103 6 dainsleif 20b.ogg}} '''Dainsleif:''' It is only natural for you to side with {{MC|her|him}}.
 :{{A|vo szaq103 6 dainsleif 21.ogg}} '''Dainsleif:''' But whatever decision you make cannot deter me from mine. My chosen path is to stop the Abyss. If we have reached an impasse, then perhaps this is where we should say&mdash;
 :{{DIcon}} I choose to believe you.
 ::{{DIcon}} But that doesn't mean I completely trust you.
-::{{DIcon}} It just means that I don't approve of my {{MC|sister|brother|mc=1}}'s methods.
+::{{DIcon}} It just means that I don't approve of my {{MC|sister|brother}}'s methods.
 :{{A|vo szaq103 6 dainsleif 22.ogg}} '''Dainsleif:''' I see.
-
 :{{DIcon}} A 1% chance of redemption...
 :{{DIcon}} ...versus a 99% chance of suffering and death.
-
-:{{DIcon}} Nobody has the right... <!-- separate dialogue options -->
+----
+:{{DIcon}} Nobody has the right...
 :{{DIcon}} ...to make that choice on another living being's behalf.
-
-:{{DIcon}} Especially not when these hilichurls... <!-- separate dialogue options -->
+----
+:{{DIcon}} Especially not when these hilichurls...
 :{{DIcon}} ...have already chosen the end that they desire.
 :{{A|vo szaq103 6 dainsleif 23.ogg}} '''Dainsleif:''' It seems that the three questions I put to you on our first meeting were worthwhile. You have developed your own individual views on this world.
 :{{A|vo szaq103 6 dainsleif 24.ogg}} '''Dainsleif:''' Very well. Since you have volunteered your true thoughts on this matter, I shall not hide mine from you.
@@ -148,15 +143,11 @@
 :{{DIcon}} I can understand that.
 :{{DIcon}} Then let's stick together for this one.
 :{{A|vo szaq103 6 dainsleif 27.ogg}} '''Dainsleif:''' The Abyss may appear at any moment. Be on your guard at all times as we proceed.
-
 ----
-
 ;(After leaving the hilichurl camp)
 :{{A|vo szaq103 7 paimon 01.ogg}} '''Paimon:''' We can see the upside-down city from here, too.
 :{{A|vo szaq103 7 dainsleif 01.ogg}} '''Dainsleif:''' Wait... Watch out!
-
 :{{color|menu|The sudden bright light pierces your eyes.}}
-
 :{{A|vo szaq103 7 paimon 02.ogg}} '''Paimon:''' Aaaah!
 :{{A|vo szaq103 7 paimon 03.ogg}} '''Paimon:''' Wh&mdash;What's going on!? Is that light coming from the room in the center? Ow, it's too bright!
 :{{A|vo szaq103 7 dainsleif 02.ogg}} '''Dainsleif:''' The mutation is continuing... Has the Abyss made its move already?
@@ -179,7 +170,10 @@
 :{{A|vo szaq103 8 paimon 01.ogg}} '''Paimon:''' Whew! You've been hunting this Abyss Herald for aaages &mdash; now you finally got him!
 :{{A|vo szaq103 8 dainsleif 01.ogg}} '''Dainsleif:''' There's no time to celebrate. The Abyss Order's device is activating, but there's still time to destroy it.
 :{{A|vo szaq103 8 paimon 02.ogg}} '''Paimon:''' Alright! Let's go!
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -213,7 +207,7 @@
 |pt      = Lembranças de Inteyvat
 |pt_tl   = 
 |tr      = Inteyvat'ın Anıları
-|tr_tl   = 
+|tr_tl   = Inteyvat's Memories
 |it      = Ricordi di Inteyvat
 |it_tl   = Memories of Inteyvat
 }}
@@ -226,3 +220,4 @@
 
 [[es:Recuerdos de las inteyvat]]
 [[ja:インテイワットの記憶]]
+[[vi:Ký Ức Của Inteyvat]]

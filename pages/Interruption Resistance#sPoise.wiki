@@ -9,7 +9,7 @@
 
 ==Poise==
 ===Poise Bar Length===
-The length of the poise bar is different between Single-Player Mode and Co-Op Mode.<ref>NGA: [https://bbs.nga.cn/read.php?tid=31352168 《韧性力学》第三版 - 抗打断和冲击效果的原理]</ref>
+The length of the poise bar is different between Single-Player Mode and Co-Op Mode.<ref>NGA: [https://bbs.nga.cn/read.php?tid=31352168 {{zh|《韧性力学》第三版 - 抗打断和冲击效果的原理}}]</ref>
 
 In Single-Player Mode,
 
@@ -31,23 +31,23 @@ Generally, Co-Op Coefficient is determined by the number of players
 | 4 || 4
 |}
 
-===Poise Bar Draining===
-When the bar is filled, it will start slowly drain away until the bar backs to empty.
+===Poise Bar Refilling===
+When the bar is partially drained, it will start slowly refill until the bar backs to empty.
 
-The bar will drain per frame.
+The bar will refill per frame.
 
-<math>\text{Draining Gauge In a Frame} = \text{Drain Speed} \times \text{Frame Time}</math>
+<math>\text{Refill Gauge Per Frame} = \text{Refill Speed} \times \text{Frame Time}</math>
 
-For example, if the game can stay 60 Frame Per Second in a while,
+For example, if the game stays at 60FPS,
 
-<math>\text{Draining Gauge Per Frame} = \text{Drain Speed} \times \frac{1}{60}</math>
+<math>\text{Refill Gauge Per Frame} = \text{Refill Speed} \times \frac{1}{60}</math>
 
 ===Poise Reset Time===
 When the defender is poise broken,
 
-If Poise Reset Time > 0, the bar will stop draining. After a few seconds, the bar will reset to the empty and the defender will recover from poise broken.
+If Poise Reset Time > 0, the bar will stop refilling. After a few seconds, the bar will reset to full and the defender will recover from the poise-broken state.
 
-If Poise Reset Time = 0, the bar will continue draining slowly.
+If Poise Reset Time = 0, the bar will continue refilling slowly.
 
 ===Poise Forced Reset===
 Some enemies have special abilities to force resetting poise.
@@ -57,7 +57,7 @@ Some enemies have special abilities to force resetting poise.
 Poise Type is a setting for poise in a specific character or enemy and determines their poise characteristic.
 
 {| class="wikitable sortable"
-! Poise Type !! Standard Length !! Drain Speed !! Endurance !! Poise Reset Time
+! Poise Type !! Standard Length !! Refill Speed !! Endurance !! Poise Reset Time
 |-
 | Melee Character || 100 || 5 || 1 || 2s
 |-
@@ -92,11 +92,13 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 |-
 | [[:Category:Polearm Characters|Polearm Characters]] || Melee Character
 |-
-| Most [[:Category:Catalyst Characters|Catalyst Characters]] || Ranged Character
+| [[:Category:Catalyst Characters|Catalyst Characters]] (Most) || Ranged Character
 |-
 | [[:Category:Bow Characters|Bow Characters]] || Ranged Character
 |-
-| [[Shikanoin Heizou]] || Melee Character
+| {{Character|Shikanoin Heizou|nobr=1|20}} || Melee Character
+|-
+| {{Character|Wriothesley|nobr=1|20}} || Melee Character
 |}
 
 ===Enemy Poise===
@@ -157,6 +159,66 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 | {{Enemy|The Eremites|20}} (Mid Tier) || Grunt Other
 |-
 | {{Enemy|The Eremites|20}} (High Tier) || Humanoid Demiboss
+|-
+| {{Enemy|Clockwork Meka|20}} (Most) || Humanoid Demiboss
+|-
+| {{Enemy|Geological Survey Mek|20}} || Minion
+|-
+| {{Enemy|Nimble Harvester Mek|20}} || Minion
+|-
+| {{Enemy|Underwater Patrol Mek|20}} || Other Grunt
+|-
+| {{Enemy|Construction Specialist Mek|20}} || Boss
+|-
+| {{Enemy|Fontemer Aberrant|20}} (Most) || Minion
+|-
+| {{Enemy|Sternshield Crab|20}} || Humanoid Demiboss
+|-
+| {{Enemy|Bubbler Seahorse|20}} || Humanoid Demiboss
+|-
+| {{Enemy|Deepwater Assault Mek|20}} || Other Grunt
+|-
+| {{Enemy|Sauroform Tribal Warrior|20}} (Low Tier) || Minion
+|-
+| {{Enemy|Koholasaurus Warrior: Reefsplitter|20}} || Other Grunt
+|-
+| {{Enemy|Koholasaurus Warrior: Waveshuttler|20}} || Other Grunt
+|-
+| {{Enemy|Tepetlisaurus Warrior: Rockbreaker Blade|20}} || Humanoid Demiboss
+|-
+| {{Enemy|Tepetlisaurus Warrior: Shard Striker|20}} || Other Grunt
+|-
+| {{Enemy|Yumkasaurus Warrior: Flowing Skyfire|20}} || Other Grunt
+|-
+| {{Enemy|Yumkasaurus Warrior: Whirling Leaves|20}} || Other Grunt
+|-
+| {{Enemy|Qucusaurus Warrior: Heartstar Hammer|20}} || Humanoid Demiboss
+|-
+| {{Enemy|Qucusaurus Warrior: Blazing Sky|20}} || Other Grunt
+|-
+| {{Enemy|Iktomisaurus Warrior: Icy Tidebearer|20}} || Other Grunt
+|-
+| {{Enemy|Iktomisaurus Warrior: Cryocrystal Cannon|20}} || Other Grunt
+|-
+| {{Enemy|Koholasaurus|20}} || Other Grunt
+|-
+| {{Enemy|Koholasaur Whelp|20}} || Slime
+|-
+| {{Enemy|Tepetlisaurus|20}} || Humanoid Grunt
+|-
+| {{Enemy|Tepetlisaur Whelp|20}} || Slime
+|-
+| {{Enemy|Yumkasaurus|20}} || Other Grunt
+|-
+| {{Enemy|Yumkasaur Whelp|20}} || Minion
+|-
+| {{Enemy|Qucusaurus|20}} || Other Grunt
+|-
+| {{Enemy|Qucusaurus Chick|20}} || Minion
+|-
+| {{Enemy|Iktomisaurus|20}} || Other Grunt
+|-
+| {{Enemy|Iktomisaurus Chick|20}} || Minion
 |}
 
 ====Elite Enemies====
@@ -208,6 +270,26 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 | {{Enemy|Primal Construct|20}} || Other Demiboss
 |-
 | {{Enemy|Consecrated Beast|20}} || Other Demiboss
+|-
+| {{Enemy|Hilichurl Rogue|20}} || Humanoid Demiboss
+|-
+| {{Enemy|Tainted Hydro Phantasm|20}} || Other Demiboss
+|-
+| {{Enemy|Breacher Primus|20}} (Small) || Minion
+|-
+| {{Enemy|Breacher Primus|20}} (Large) || Other Grunt
+|-
+| {{Enemy|Fatui Operative|20}} || Humanoid Grunt
+|-
+| {{Enemy|Xuanwen Beast|20}} || Other Grunt
+|-
+| {{Enemy|Praetorian Golem|20}} || Boss
+|-
+| {{Enemy|Avatar of Lava|20}} || Other Grunt
+|-
+| {{Enemy|Secret Source Automaton: Hunter-Seeker|20}} || Boss
+|-
+| {{Enemy|Wayob Manifestation|20}} || Humanoid Demiboss
 |}
 
 ====Normal Bosses====
@@ -245,6 +327,32 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 | {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}} || Other Demiboss
 |-
 | {{Enemy|Setekh Wenut|20}} || Boss
+|-
+| {{Enemy|Iniquitous Baptist|20}} || Other Demiboss
+|-
+| {{Enemy|Emperor of Fire and Iron|20}} || Boss
+|-
+| {{Enemy|Icewind Suite|20}} || Boss
+|-
+| {{Enemy|Millennial Pearl Seahorse|20}} || Other Demiboss
+|-
+| {{Enemy|Prototype Cal. Breguet|20}} || Boss
+|-
+| {{Enemy|Hydro Tulpa|20}} || Boss
+|-
+| {{Enemy|Solitary Suanni|20}} || Boss
+|-
+| {{Enemy|"Statue of Marble and Brass"|20}} || Boss
+|-
+| {{Enemy|Kongamato|20}} || Boss
+|-
+| {{Enemy|Holawaqa Ngoubou|20}} || Boss
+|-
+| {{Enemy|Secret Source Automaton: Configuration Device|20}} || Boss
+|-
+| {{Enemy|Tenebrous Papilla|20}} || Boss
+|-
+| {{Enemy|Wayward Hermetic Spiritspeaker|20}} || Boss
 |}
 
 ====Weekly Bosses====
@@ -270,6 +378,12 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 | {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Baleful Shadowlord) || Boss
 |-
 | {{Enemy|Everlasting Lord of Arcane Wisdom|20}} || Boss
+|-
+| {{Enemy|Guardian of Apep's Oasis|20}} || Boss
+|-
+| {{Enemy|All-Devouring Narwhal|20}} || Boss
+|-
+| {{Enemy|The Knave|20}} || Boss
 |}
 
 ====Special Enemies====
@@ -317,6 +431,18 @@ Poise Type is a setting for poise in a specific character or enemy and determine
 | {{Enemy|Spirit of Omen: Pyro Scorpion|20}} || Other Demiboss
 |-
 | {{Enemy|Spirit of Omen: Dendro Spirit-Serpent|20}} || Other Demiboss
+|-
+| {{Enemy|Preliminary Proliferating Organism|20}} || Minion
+|-
+| {{Enemy|Protective Proliferating Organism|20}} || Other Demiboss
+|-
+| {{Enemy|Pernicious Proliferating Organism|20}} || Other Demiboss
+|-
+| {{Enemy|Predatory Proliferating Organism|20}} || Other Demiboss
+|-
+| {{Enemy|Provender Proliferating Organism|20}} || Other Demiboss
+|-
+| {{Enemy|Perch Proliferating Organism|20}} || Other Demiboss
 |}
 
 ==Poise Damage==
@@ -367,9 +493,19 @@ The stacking of Ability Hyperarmor is multiplicative.
 |-
 | {{Character|Arataki Itto|20|nobr=1}} || Self || {{Talent|Arataki Ichiban|20|nobr=1|type=1}} (Arataki Kesagiri Charged Attack: Pre-Cast; Mid-Cast; Post-Cast) || 0
 |-
+| rowspan="2" | {{Character|Arlecchino|20|nobr=1}} || Self || {{Talent|All Is Ash|20|nobr=1|type=1}} (Pre-Cast; Mid-Cast) || 0
+|-
+| Self || {{Constellation|"All Reprisals and Arrears, Mine to Bear..."|20|nobr=1|level=1}} (Converted Normal/Charged Attack) || 0
+|-
 | rowspan="2" | {{Character|Beidou|20|nobr=1}} || Self || {{Talent|Tidecaller|20|nobr=1|type=1}} (Pre-Cast; Mid-Cast; Post-Cast) || 0
 |-
-| Team || {{Talent|Stormbreaker|20|nobr=1|Elemental Burst|type=1}} (Thunderbeast's Targe Effect) || 0.5
+| Team || {{Talent|Stormbreaker|20|nobr=1|type=1}} (Thunderbeast's Targe Effect) || 0.5
+|-
+| {{Character|Chasca|20|nobr=1}} || Self || {{Talent|Spirit Reins, Shadow Hunt|20|nobr=1|type=1}} (Nightsoul's Blessing State) || 0.3
+|-
+| rowspan="2" | {{Character|Clorinde|20|nobr=1}} || Self || {{Constellation|"Now, As We Face the Perils of the Long Night"|20|nobr=1|level=1}} (3 Stacks) || 0.3
+|-
+| Self || {{Constellation|"And So Shall I Never Despair"|20|nobr=1|level=1}} (Night Vigil State) || 0
 |-
 | {{Character|Cyno|20|nobr=1}} || Self || {{Talent|Sacred Rite: Wolf's Swiftness|20|nobr=1|type=1}} (Pactsworn Pathclearer State) || 0.5
 |-
@@ -381,23 +517,41 @@ The stacking of Ability Hyperarmor is multiplicative.
 |-
 | Self|| {{Talent|Glacial Illumination|20|nobr=1|type=1}} (Lightfall Sword Present) || 0
 |-
+| {{Character|Fischl|20|nobr=1}} || Self || {{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}} (While in Oz's Form) || 0
+|-
+| {{Character|Freminet|20|nobr=1}} || Self || {{Talent|Shadowhunter's Ambush|20|nobr=1|type=1}} (Subnautical Hunter) || 0.5
+|-
+| {{Character|Gaming|20|nobr=1}} || Self || {{Talent|Suanni's Gilded Dance|20|nobr=1|type=1}} (Wushou Stance) || 0.5
+|-
+| {{Character|Gorou|20|nobr=1}} || Team || {{Talent|Inuzaka All-Round Defense|20|nobr=1|type=1}} or {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Impregnable or Crunch State) || 0.5
+|-
 | rowspan="2" | {{Character|Hu Tao|20|nobr=1}} || Self || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} (Paramita Papilio State) || 0.5
 |-
 | Self || {{Constellation|Butterfly's Embrace|20|nobr=1|level=1}} || 0
 |-
-| {{Character|Fischl|20|nobr=1}} || Self || {{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}} (While in Oz's Form) || 0
-|-
-| {{Character|Gorou|20|nobr=1}} || Team || {{Talent|Inuzaka All-Round Defense|20|nobr=1|type=1}} or {{Talent|Juuga: Forward Unto Victory|20|nobr=1|type=1}} (Impregnable or Crunch State) || 0.5
-|-
 | {{Character|Kamisato Ayato|20|nobr=1}} || Self || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} (Takimeguri Kanka State) || 0.5
 |-
+| {{Character|Kaveh|20|nobr=1}} || Self || {{Talent|Painted Dome|20|nobr=1|type=1}} (State) || 0.5
+|-
 | {{Character|Keqing|20|nobr=1}} || Self || {{Talent|Stellar Restoration|20|nobr=1|type=1}} (While Teleporting to Airborne Stiletto) || 0
+|-
+| {{Character|Kinich|20|nobr=1}} || Self || {{Talent|Canopy Hunter: Riding High|20|nobr=1|type=1}} (Performing Loop Shot or Scalespiker Cannon) || 0.5
 |-
 | {{Character|Klee|20|nobr=1}} || Self || {{Talent|Pounding Surprise|20|nobr=1|type=1}} (Charged Attack With Spark: Pre-Cast; Mid-Cast; Post-Cast) || 0
 |-
 | {{Character|Lisa|20|nobr=1}} || Self || {{Constellation|Electromagnetic Field|20|nobr=1|level=1}} (Hold: Pre-Cast) || 0.5
 |-
-| {{Character|Nilou|20|nobr=1}} || Self || {{Talent|Dance of Haftkarsvar|20|nobr=1|level=1|type=1}} (Attacking While Under Pirouette/Lunar Prayer State) || 0.5
+| {{Character|Lyney|20|nobr=1}} || Self || {{Talent|Wondrous Trick: Miracle Parade|20|nobr=1|type=1}} (Grin-Malkin Cat State) || 0
+|-
+| {{Character|Mavuika|20|nobr=1}} || Self || {{Talent|Hour of Burning Skies|20|nobr=1|type=1}} (Crucible of Death and Life State) || 0
+|-
+| {{Character|Mualani|20|nobr=1}} || Self || {{Talent|Surfshark Wavebreaker|20|nobr=1|type=1}} (While Surfing) || 0.15
+|-
+| {{Character|Neuvillette|20|nobr=1}} || Self || {{Constellation|Venerable Institution|20|nobr=1|level=1}} (Charged Attack: Equitable Judgment) || 0
+|-
+| {{Character|Nilou|20|nobr=1}} || Self || {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Attacking While Under Pirouette/Lunar Prayer State) || 0.5
+|-
+| {{Character|Ororon|20|nobr=1}} || Self || {{Talent|Flowing Fog, Spritely Shadows|20|nobr=1|type=1}} (During Special Jump) || 0
 |-
 | {{Character|Raiden Shogun|20|nobr=1}} || Self || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Musou Isshin State) || 0
 |-
@@ -405,19 +559,35 @@ The stacking of Ability Hyperarmor is multiplicative.
 |-
 | {{Character|Sangonomiya Kokomi|20|nobr=1}} || Self || {{Talent|Nereid's Ascension|20|nobr=1|type=1}} (Ceremonial Garment Effect) || 0.25
 |-
+| rowspan="2" | {{Character|Sigewinne|20|nobr=1}} || Self || {{Talent|Rebound Hydrotherapy|20|nobr=1|type=1}} (While Holding) || 0.5
+|-
+| Self || {{Talent|Super Saturated Syringing|20|nobr=1|type=1}} (While Spraying) || 0
+|-
 | {{Character|Tartaglia|20|nobr=1}} || Self || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Melee Stance) || 0.5
 |-
 | {{Character|Traveler (Anemo)|20|nobr=1}} || Self || {{Constellation|Cherishing Breezes|20|nobr=1|level=1}}, {{Talent|Palm Vortex|20|nobr=1|type=1}} (Pre-Cast; Mid-Cast; Post-Cast) || 0.5
 |-
 | {{Character|Traveler (Geo)|20|nobr=1}} || Team || {{Constellation|Invincible Stonewall|20|nobr=1|level=1}}, {{Talent|Wake of Earth|20|nobr=1|type=1}} || 0.7
 |-
+| {{Character|Traveler (Hydro)|20|nobr=1}} || Self || {{Talent|Aquacrest Saber|20|nobr=1|type=1}} (Aiming Mode) || 0.5
+|-
+| {{Character|Wanderer|20|nobr=1}} || Self || {{Talent|Hanega: Song of the Wind|20|nobr=1|type=1}} (Activation) || 0
+|-
+| {{Character|Wriothesley|20|nobr=1}} || Self || {{Talent|Icefang Rush|20|nobr=1|type=1}} (Chilling Penalty State) || 0.5
+|-
 | {{Character|Xiao|20|nobr=1}} || Self || {{Talent|Bane of All Evil|20|nobr=1|type=1}} (Yaksha's Mask Effect) || 0.5
+|-
+| rowspan="2" | {{Character|Xilonen|20|nobr=1}} || Self || {{Talent|Yohual's Scratch|20|nobr=1|type=1}} (Nightsoul's Blessing State) || 0.5
+|-
+| Team || {{Constellation|Sabbatical Phrase|20|nobr=1|level=1}} (Active Source Samples) || 0.5
 |-
 | {{Character|Xingqiu|20|nobr=1}} || Team || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} or {{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}} (Rain Sword Effect) || 0.3
 |-
 | {{Character|Yanfei|20|nobr=1}} || Self || {{Constellation|The Law Knows No Kindness|20|nobr=1|level=1}} (Charged Attack With Seal: Pre-Cast; Mid-Cast; Post-Cast) || 1 - 0.1 × Seal Count
 |-
 | {{Character|Yun Jin|20|nobr=1}} || Self || {{Talent|Opening Flourish|20|nobr=1|type=1}} (Pre-Cast; Mid-Cast; Post-Cast) || 0
+|-
+| {{Item|type=Weapon|Ferrous Shadow|20}} || Self || Charged Attack Under 70%-90% HP (R1-R5) || 0.5
 |}
 
 ===Character Motion Hyperarmor===
@@ -450,6 +620,8 @@ Motion Hyperarmors are attached to certain character animations, instead of bein
 |-
 | {{Character|Jean|20|nobr=1}} || {{Talent|Favonius Bladework|20|nobr=1|text=Charged Attack}} (Mid-Cast) || 0.6
 |-
+| {{Character|Kachina|20|nobr=1}} || {{Talent|Go, Go Turbo Twirly!|20|nobr=1|type=1}} (Riding Turbo Twirly) || 0.3
+|-
 | rowspan="3" | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} (Press: Pre-Cast; Airborne) || 0.4
 |-
 | {{Talent|Chihayaburu|20|nobr=1|type=1}} (Hold: Pre-Cast; Charging; Mid-Cast) || 0
@@ -458,7 +630,11 @@ Motion Hyperarmors are attached to certain character animations, instead of bein
 |-
 | {{Character|Lisa|20|nobr=1}} || {{Talent|Violet Arc|20|nobr=1|type=1}} (Charging) || 0.2
 |-
-| {{Character|Nahida|20|nobr=1}} || {{Talent|All Schemes to Know|20|nobr=1|level=1|type=1}} (Pre-Cast; Aiming Mode) || 0
+| {{Character|Lynette|20|nobr=1}} || {{Talent|Enigmatic Feint|20|nobr=1|type=1}} (Pre-Cast, Pilfering Shadow State, Enigma Thrust) || 0.2
+|-
+| {{Character|Neuvillette|20|nobr=1}} || {{Talent|As Water Seeks Equilibrium|20|nobr=1|level=1|text=Charged Attack: Equitable Judgment}} (Pre-Cast; Charging; Mid-Cast; Post-Cast) || 0.5
+|-
+| {{Character|Nahida|20|nobr=1}} || {{Talent|All Schemes to Know|20|nobr=1|type=1}} (Pre-Cast; Aiming Mode) || 0
 |-
 | rowspan="2" | {{Character|Sayu|20|nobr=1}} || {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Pre-Cast; Mid-Cast) || 0.3
 |-
@@ -473,6 +649,8 @@ Motion Hyperarmors are attached to certain character animations, instead of bein
 | rowspan="2" | {{Character|Yelan|20|nobr=1}} || {{Talent|Lingering Lifeline|20|nobr=1|type=1}} (Pre-Cast; Hold State) || 0.2
 |-
 | {{Talent|Lingering Lifeline|20|nobr=1|type=1}} (Post-Cast) || 0.6
+|-
+| {{Character|Yumemizuki Mizuki|20|nobr=1}} || {{Talent|Aisa Utamakura Pilgrimage|20|nobr=1|type=1}} (Dreamdrifter State) || 0.6
 |-
 | rowspan="2" | {{Character|Zhongli|20|nobr=1}} || {{Talent|Dominus Lapidis|20|nobr=1|type=1}} (Pre-Cast) || 0
 |-
@@ -497,3 +675,5 @@ Some attacks from bosses will have stronger poise damage.
 ==Navigation==
 {{Combat Navbox|state=collapsed}}
 {{Attribute Navbox}}
+
+[[vi:Kháng Gián Đoạn/Chỉ Số Cân Bằng]]

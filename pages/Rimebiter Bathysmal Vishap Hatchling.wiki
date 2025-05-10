@@ -40,20 +40,20 @@
 Rimebiter Bathysmal Vishap Hatchling Weak Point.png
 </gallery>
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 
 {{Enemy Attacks
 |name_1 = Cleansing Shower
-|desc_1 = Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''5% ATK''' as {{Color|AoE Cryo DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
-* The HP Loss is calculated as:<br /><math>\begin{align} \text{HP Loss} = {} & ( 14 \% \times \text{Character Max HP} + 200 ) \\
+|desc_1 = Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''5% ATK''' as {{Color|Cryo DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
+* The HP Loss is calculated as:<br><math>\begin{align} \text{HP Loss} = {} & ( 14 \% \times \text{Character Max HP} + 200 ) \\
 & \times ( 1 - \frac{\text{Remaining Energy}}{10} ) \end{align}</math>
 
 |name_2 = Spinning Sweep
-|desc_2 = Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|AoE Cryo DMG}}.
+|desc_2 = Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|Cryo DMG}}.
 
 |name_3 = Homing Shards
-|desc_3 = Launches three shards from its tail that home towards the player at high speed, dealing '''30% ATK''', '''15% ATK''', '''7.5% ATK''' respectively as {{Color|Cryo DMG}}.
+|desc_3 = Launches three shards from its tail that travel in an arching trajectory, dealing '''30% ATK''' as {{Color|Cryo DMG}}. Repeated DMG instances have their DMG reduced according to the [[Damage Sequence]].
 
 |name_4 = Slash Combo
 |desc_4 = If the player is within melee range, performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
@@ -77,13 +77,10 @@ Rimebiter Bathysmal Vishap Hatchling Weak Point.png
 |-
 | Slash Combo || 0–5 || 3 || 15 || 5
 |-
-| Spinning Sweep || 0–5 || 2 || 5–7.5 || —
+| Spinning Sweep || 0–5 || 2 || 5–7.5 || &mdash;
 |-
 | Homing Shards || 7–30 || 1 || 10–15 || 3
 |}
-
-==Descriptions==
-{{Description|A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Cryo element.<br />The coming of humans sparked a conflict and a resultant evolution within the Bathysmal Vishaps, just as ants might divide up labor and biological characteristics, thus appearing in different forms.<br />These vishaps are stronger than their ordinary kin.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -101,27 +98,27 @@ Enemy Rimebiter Bathysmal Vishap Hatchling Icon.png|Icon
 |ja      = アビサルヴィシャップの幼体・噛氷
 |ja_rm   = Abisaru Vishappu no Youtai - Kouhyou{{Assumed}}
 |ja_tl   = Abyssal Vishap Hatchling - Frostbiter
-|ko      = 얼음을 짓씹는 심해 용 도마뱀 유체
+|ko      = 얼음을 짓씹는 새끼 심해 용 도마뱀
 |ko_tl   = Ice-Crunching Deep Sea {{Lex|Vishap|ko}} Hatchling
 |es      = Cría de Dragarto de las Profundidades - Hielo mordaz
 |es_tl   = {{Lex|Vishap|es}} Whelp of the Depths - Biting Ice
-|fr      = Élémentosaure abyssal morgivre : nouveau-né
+|fr      = Élémentosaure abyssal morgivre&nbsp;: nouveau-né
 |fr_tl   = Rimebiting Abyssal {{Lex|Vishap|fr}}: Newborn
 |ru      = Молодой вишап глубин: Ледогрыз
-|ru_tl   = Young Vishap of the Depths: Ice-Gnawer
-|ru_note = {{Lang|mini=1|ru=Ледогрыз|ru_rm=Ledogryz}} is a compound word made of the noun {{Lang|mini=1|ru=лёд|ru_rm=lyod|ru_tl=ice}} and the verb {{Lang|mini=1|ru=грызть|ru_rm=gryzt'|ru_tl=to gnaw}}, joined by the interfix "{{Lang|mini=1|ru=-о-}}".
+|ru_tl   = Young {{Lex|Bathysmal Vishap|ru}}: Ice-Gnawer
+|ru_note = {{ru|Ледогрыз}} is a compound word made of the noun {{ru|лёд|tl=ice}} and the verb {{ru|грызть|tl=to gnaw,}} joined by the interfix {{ru|-о-}}.
 |th      = Rimebiter Bathysmal Vishap Hatchling
 |vi      = Rồng Biển Sâu Con - Nanh Băng
 |vi_tl   = Deep Sea {{Lex|Vishap|vi}} Hatchling - Ice Biting
 |de      = Junge Tiefsee-Drachenechse – Eisbeißer
 |de_tl   = Young Deep Sea {{Lex|Vishap|de}} - Ice-Biter
 |id      = Rimebiter Bathysmal Vishap Hatchling
-|pt      = Dragarto das Profundezas — Gelo Perfurante
+|pt      = Cria de Dragarto das Profundezas &mdash; Gelo Perfurante
 |pt_tl   = <!--use {{Lex|Vishap|pt}}-->
 |tr      = Buzkıran Su Ejderi Yavrusu
-|tr_tl   = 
+|tr_tl   = Ice Breaking Water Dragon Cub
 |it      = Cucciolo di Elementosauro abissale Azzannabrina
-|it_tl   = 
+|it_tl   = Frostbiting Abyssal {{Lex|Vishap|it}} Cub
 }}
 
 ==Change History==
@@ -130,6 +127,7 @@ Enemy Rimebiter Bathysmal Vishap Hatchling Icon.png|Icon
 ==Navigation==
 {{Enemy Navbox|elite}}
 
-[[es:Dragarto de las Profundidades - Hielo mordaz]]
-[[vi:Rồng Biển Sâu Con - Nanh Băng]]
+[[de:Junge Tiefsee-Drachenechse: Eisbeißer]]
+[[ja:アビサルヴィシャップの幼体・噛氷]]
 [[pt-br:Cria de Dragarto das Profundezas - Gelo Perfurante]]
+[[vi:Rồng Biển Sâu Con - Nanh Băng]]

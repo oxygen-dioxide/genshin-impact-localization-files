@@ -6,7 +6,9 @@
 }}
 When [[characters]] or [[enemies]] attack their targets, they deal '''damage''' (abbreviated as '''DMG''') based on their own and their target's [[attributes]].
 
-Characters who are off-field cannot receive damage, including the damage over time from [[Burning]] and [[Electro-Charged]].
+There are eight damage types, seven of them are ''[[Element]]al'', one is ''[[Physical]]''.
+
+A single instance of damage cannot exceed 20,000,000.
 
 ==General Damage Formula==
 For DMG dealt by [[Talents]], [[Constellations]], [[Weapon]] passives, and [[enemy]] attacks, the DMG calculation factors in the following components:
@@ -22,15 +24,15 @@ For DMG dealt by [[Talents]], [[Constellations]], [[Weapon]] passives, and [[ene
 *[[CRIT Hit]]
 
 DMG is calculated as:
-:<math>\begin{align} \text{DMG} ={} & \big( \Sigma (\text{Base DMG} \times \text{Base DMG Multiplier}) + \text{Additive Base DMG Bonus}\big) \\ & \times (1 + \text{DMG Bonus} - \text{DMG Reduction}_\text{Target}) \\ & \times \text{DEF Multiplier}_\text{Target} \times \text{RES Multiplier}_\text{Target} \\ & \times \text{Amplifying Multiplier} \end{align}</math>
+:<math>\begin{align} \text{DMG} ={} & \big( \Sigma (\text{Base DMG} \times \text{Base DMG Multiplier}) + \text{Additive Base DMG Bonus}\big) \\ & \times \text{DMG Bonus Multiplier} \\ & \times \text{DEF Multiplier}_\text{Target} \times \text{RES Multiplier}_\text{Target} \\ & \times \text{Amplifying Multiplier} \end{align}</math>
 
-If the damage scores a Critical Hit, the CRIT DMG multiplier is also applied.
-:<math>\text{DMG}_\text{CRIT} = \text{DMG} \times (1 + \%\text{CRIT DMG})</math>
+If the damage scores a Critical Hit, then the CRIT DMG multiplier will be applied.
+:<math>\text{DMG}_\text{CRIT Multiplier} = \text{DMG} \times (1 + \%\text{CRIT DMG})</math>
 
 ===Base DMG===
-'''Base DMG''' is the amount of DMG resulted from multiplying the ability's scaling with the corresponding stat, before accounting for any damage modifiers. 
+'''Base DMG''' is the amount of DMG resulted from multiplying the ability's scaling with the corresponding stat, before accounting for any damage modifiers.
 
-Unless otherwise specified in the skill attributes, abilities will scale with ATK. Some abilities may scale with more than one stat. 
+Unless otherwise specified in the skill attributes, abilities will scale with ATK. Some abilities may scale with more than one stat.
 :<math>
 \text{Base DMG} = \begin{cases}
 \% \text{Ability} \times \text{ATK} & \text{if ability scales with ATK}\\
@@ -41,23 +43,30 @@ Unless otherwise specified in the skill attributes, abilities will scale with AT
 </math>
 
 ===Base DMG Multiplier===
-'''Base DMG Multiplier''' is directly multiplicative with Base DMG. It can be obtained through:
-* {{Talents by Category Table|Base DMG Multiplier Talents|collapsed=1|shortheader=1}}
-* {{Constellations by Category Table|Base DMG Multiplier Constellations|collapsed=1|shortheader=1}}
+'''Base DMG Multiplier''' is directly multiplicative with Base DMG. It can be obtained through:<!--
+This section uses HTML because of the poor handling of bullet syntax in MediaWiki.
+--><ul>
+<li>{{Talents by Category Table|Base DMG Multiplier Talents|collapsed=1|shortheader=1}}</li>
+<li>{{Constellations by Category Table|Base DMG Multiplier Constellations|collapsed=1|shortheader=1}}</li>
+</ul>
 
 ===Additive Base DMG Bonus===
 '''Additive Base DMG Bonus''' is a fixed amount of bonus DMG added to the base DMG.
 
-It can be obtained through:
-* [[Spread]] and [[Aggravate]] Elemental Reactions
-* {{Talents by Category Table|Additive Base DMG Bonus Talents|collapsed=1|shortheader=1}}
-* {{Constellations by Category Table|Additive Base DMG Bonus Constellations|collapsed=1|shortheader=1}}
-* {{Weapons by Category Table|Additive Base DMG Bonus Passive Weapons|collapsed=1|shortheader=1}}
-* {{Artifacts by Category Table|Additive Base DMG Bonus Artifacts|collapsed=1|shortheader=1}}
+It can be obtained through:<!--
+This section uses HTML because of the poor handling of bullet syntax in MediaWiki.
+--><ul>
+<li>[[Spread]] and [[Aggravate]] Elemental Reactions</li>
+<li>{{Talents by Category Table|Additive Base DMG Bonus Talents|collapsed=1|shortheader=1}}</li>
+<li>{{Constellations by Category Table|Additive Base DMG Bonus Constellations|collapsed=1|shortheader=1}}</li>
+<li>{{Weapons by Category Table|Additive Base DMG Bonus Passive Weapons|collapsed=1|shortheader=1}}</li>
+<li>{{Artifacts by Category Table|Additive Base DMG Bonus Artifacts|collapsed=1|shortheader=1}}</li>
+</ul>
 
 ===DMG Bonus===
 {{Main|DMG Bonus}}
-'''DMG Bonus''' refers to all percentage-based DMG bonuses, which include Elemental and Physical DMG Bonuses listed in the stats screen, as well as all other special percentage-based DMG bonuses which may affect Normal/Charged/Plunging Attack, Elemental Skill, Elemental Burst, all DMG, etc.
+'''DMG Bonus''' refers to all percentage-based DMG bonuses, which include Elemental and Physical DMG Bonuses listed in the stats screen, as well as all other special percentage-based DMG bonuses which may affect Normal/Charged/Plunging Attack, Elemental Skill, Elemental Burst, all DMG, etc. [[DMG Reduction]] of the target effectively reduces DMG Bonus.
+:<math>\text{DMG Bonus Multiplier} = (1 + \text{DMG Bonus} - \text{DMG Reduction}_\text{Target})</math>
 
 ===DEF===
 {{Main|DEF}}
@@ -78,33 +87,30 @@ Alternatively, for enemies only:
 
 ===RES===
 {{Main|RES}}
-[[File:resistance multiplier graph.png|thumb|right|400px|Resistance Multiplier vs. RES%]]
-Targets have different '''Resistances''' (abbreviated '''RES''') to [[Elemental]] and [[Physical]] DMG. There are further ways to increase or decrease these resistances. RES is the actual resistance [[attribute]]. Its formula is:
+[[File:RES Multiplier vs RES Graph.png|thumb|right|400px|RES Multiplier vs RES]]
+Targets have different '''Resistances''' (abbreviated as '''RES''') to [[Elemental]] and [[Physical]] DMG. There are ways to increase or decrease these resistances. Total RES is calculated as:
 
 :<math>\%\text{RES} = \%\text{RES Base} + \%\text{RES Bonus} - \% \text{RES Debuffs}</math>
 
-The Resistance multiplier varies non-linearly with the RES percentage. Depending on the value of <math>\% \text{ RES}</math> in the interval below, the corresponding <math>\text{RES Multiplier}</math> is as follows:
+The RES multiplier varies non-linearly with the RES percentage. Depending on the value of <math>\% \text{RES}</math> in the interval below, the corresponding <math>\text{RES Multiplier}</math> is as follows:
 {| class="article-table sortable waffle no-grid"
 |-
 !Formula
 !Interval
 |-
-|
- <math>1 - \biggl( \frac{\mathsf{RES}}{2} \biggr)</math>
+|<math>1 - \biggl( \frac{\mathsf{RES}}{2} \biggr)</math>
 |RES < 0
 |-
-|
- <math>1 - \mathsf{RES}</math>
+|<math>1 - \mathsf{RES}</math>
 | 0 ≤ RES < 0.75
 |-
-|
- <math>\frac{1}{4 \times \mathsf{RES} + 1}</math>
+|<math>\frac{1}{4 \times \mathsf{RES} + 1}</math>
 |RES ≥ 0.75
 |}
 
 For example, an enemy with 10% RES (i.e., 0.1) will have a <math>1 - 0.1 = 0.9</math> RES multiplier.
 
-For a table of enemy resistances, see [[Resistance#Base Enemy Resistances]].
+For a table of enemy RES, see [[Resistance#Enemy RES]].
 
 ==Elemental Reaction Damage==
 [[Elemental Reactions]] may be categorized into three groups:
@@ -115,13 +121,13 @@ For a table of enemy resistances, see [[Resistance#Base Enemy Resistances]].
 Note that triggering multiple reactions in quick succession can cause the reaction's pop-up text to be hidden by the game, even though the reaction occurred and dealt damage successfully.
 
 ===Transformative Reaction Damage===
-The transformative reactions are [[Overloaded]], [[Shattered]], [[Electro-Charged]], [[Superconduct]], [[Swirl]], [[Bloom]], [[Hyperbloom]], and [[Burgeon]].
+The transformative reactions are [[Overloaded]], [[Shattered]], [[Electro-Charged]], [[Superconduct]], [[Swirl]], [[Burning]], [[Bloom]], [[Hyperbloom]], and [[Burgeon]].
 
-The damage dealt by such reactions scales with the triggering party's level and [[Elemental Mastery]] (EM), and is reduced by the target's [[Resistance]]s. Unlike normal damage, this damage is not based on the triggering party's ATK, cannot score CRIT Hits by default, and ignores target's [[DEF]]<ref group="Note">Transformative Reactions do have a DMG multiplier based on DEF:<br /><math>\text{DEF Multiplier}_\text{Transformative} = \frac{99999999}{99999999 + \text{DEF}_\text{Target}}</math><br />However, the difference it causes is so extremely minuscule that it is usually ignored.</ref>.
+The damage dealt by such reactions scales with the triggering party's level and [[Elemental Mastery]] (EM), and is reduced by the target's [[Resistance]]s. Unlike normal damage, this damage is not based on the triggering party's ATK, cannot score CRIT Hits by default, and ignores target's [[DEF]].<ref group="Note">Transformative Reactions do have a DMG multiplier based on DEF:<br><math>\text{DEF Multiplier}_\text{Transformative} = \frac{99999999}{99999999 + \text{DEF}_\text{Target}}</math><br>However, the difference it causes is so extremely minuscule that it is usually ignored.</ref>
 
 Certain effects such as the 4-piece set bonuses of the [[Crimson Witch of Flames]] and [[Thundering Fury]] [[Artifact]] sets can also increase the reaction damage (% Reaction Bonus).
 
-Additionally, the stats of the party that applies the initial element do ''not'' affect the reaction damage; the only party taken into account is the one that applies the second element which triggers the reaction.
+Additionally, the stats of the party that applies the initial element do ''not'' affect the reaction damage; the only party taken into account is the one that applies the second element (or third element with Hyperbloom, Burgeon) which triggers the reaction.
 
 Transformative Reaction DMG is calculated as:
 
@@ -132,14 +138,14 @@ Transformative Reaction DMG is calculated as:
 
 :<math>\text{Reaction Multiplier} = \begin{cases}\begin{align}
 0.25 &\text{, for Burning } \\
-0.5 &\text{, for Superconduct } \\
 0.6 &\text{, for Swirl } \\
-1.2 &\text{, for Electro-Charged } \\
-1.5 &\text{, for Shattered } \\
-2.0 &\text{, for Overloaded } \\
+1.5 &\text{, for Superconduct } \\
+2.0 &\text{, for Electro-Charged } \\
 2.0 &\text{, for Bloom } \\
+2.75 &\text{, for Overloaded } \\
 3.0 &\text{, for Burgeon } \\
 3.0 &\text{, for Hyperbloom } \\
+3.0 &\text{, for Shatter } \\
 \end{align}\end{cases}</math>
 
 If the damage scores a Critical Hit, the CRIT DMG multiplier is also applied.<ref group="Note">This is currently only achievable with [[Nahida]]'s [[The Root of All Fullness|2nd Constellation]].</ref>
@@ -148,9 +154,9 @@ If the damage scores a Critical Hit, the CRIT DMG multiplier is also applied.<re
 The amount of EM can also increase the damage of transformative reactions by a certain percentage (% EM Bonus). (See [[Elemental Mastery]] for more details.) EM Bonus is calculated as:
 :<math>\% \text{EM Bonus}_\text{Transformative} = 16 \times \frac{\text{EM}}{\text{EM} + 2000} \times 100 \%</math>
 
-It is possible for transformative reactions that further apply an element ([[Swirl]] and [[Burning]]) to further trigger amplifying reactions. For example, when {{Color|Anemo}} is applied to a target affected by {{Color|Pyro}}, a Pyro Swirl is triggered and this can hit nearby targets that are affected by {{Color|Hydro}}. In this case, the amplifying reaction adds an additional multiplier ("Amplifying Multiplier") to the outgoing damage dealt to the target affected by Hydro, as calculated in the [[#Amplifying Reaction Damage|next section]].
+It is possible for transformative reactions that further apply an element ([[Swirl]] and [[Burning]]) to further trigger reactions. For example, when {{Color|Anemo}} is applied to a target affected by {{Color|Pyro}}, a Pyro Swirl is triggered and this can hit nearby targets that are affected by {{Color|Hydro}}. In this case, the amplifying reaction adds an additional multiplier ("Amplifying Multiplier") to the outgoing damage dealt to the target affected by Hydro. For amplifying and additive reactions, the damage is calculated based on the original reaction's damage as described in [[#Swirl/Burning-Induced Reaction Damage|a later section]].
 
-For the base damages of transformative reactions per Level, see [[Level Scaling/Reaction]].
+For the base damages of transformative reactions per Level, see [[Elemental Reaction/Level Scaling]].
 
 ===Amplifying Reaction Damage===
 The amplifying reactions are [[Vaporize]] and [[Melt]]. Amplifying reactions add extra multipliers to the damage of the attack that triggered the reaction based on the triggering element and the elemental mastery of the triggering character.
@@ -180,7 +186,9 @@ The level of EM can also increase the damage of amplifying reactions by a certai
 Talents that only apply the elemental status will deal no damage upon triggering an amplifying reaction.
 
 ===Catalyze Damage Bonus===
-The [[Spread]] and [[Aggravate]] reactions add Additive Base DMG Bonus to attacks. The Additive Base DMG Bonus is calculated as:
+The [[Spread]] and [[Aggravate]] reactions add Additive Base DMG Bonus to attacks. Similar to transformative reactions, the damage bonus scales with the triggering party's level and Elemental Mastery.
+
+The Additive Base DMG Bonus is calculated as:
 
 :<math>\begin{align}\text{Additive Base DMG Bonus}_\text{Quicken} = {} &\text{Reaction Multiplier} \times \text{Level Multiplier}_\text{Character}
 \\ & \times (1 + \% \text{EM Bonus}_\text{Quicken} + \% \text{Reaction Bonus})
@@ -214,6 +222,21 @@ The following abilities or equipments provide reaction bonuses. These bonuses ar
 ! Amount
 ! Reaction
 |-
+| [[Baizhu]]: 4th Ascension Passive
+| {{Talent|All Things Are of the Earth|60}}
+| Up to +100%
+| {{Color|Dendro|[[Bloom]]}}, {{Color|Pyro|[[Burgeon]]}}, {{Color|Electro|[[Hyperbloom]]}}
+|-
+| [[Baizhu]]: 4th Ascension Passive
+| {{Talent|All Things Are of the Earth|60}}
+| Up to +40%
+| {{Color|Electro|[[Aggravate]]}}, {{Color|Dendro|[[Spread]]}}
+|-
+| [[Kaveh]]: Constellation 4
+| {{Constellation|Feast of Apadana|60}}
+| +60%
+| {{Color|Dendro|[[Bloom]]}}
+|-
 | [[Mona]]: Constellation 1
 | {{Constellation|Prophecy of Submersion|60}}
 | +15%
@@ -221,7 +244,7 @@ The following abilities or equipments provide reaction bonuses. These bonuses ar
 |-
 | [[Nilou]]: 4th Ascension Passive
 | {{Talent|Dreamy Dance of Aeons|60}}
-| +400% (Max)
+| Up to +400%
 | {{Color|Dendro|[[Bloom]] (Bountiful Core)}}
 |-
 | [[Crimson Witch of Flames]]: 4-Piece Bonus
@@ -256,7 +279,7 @@ The following abilities or equipments provide reaction bonuses. These bonuses ar
 |}
 
 ==True DMG==
-True DMG<ref group="Note">Term introduced in [[Version/2.3|Version 2.3]].</ref> is DMG that ignores the target's [[DEF]], [[RES]], and [[Damage Reduction]], but does not ignore [[shield]]s. However, True DMG can still be increased by [[Melt]], [[Vaporize]], [[Spread]], and [[Aggravate]].
+True DMG<ref group="Note">Term introduced in [[Version/2.3|Version 2.3]].</ref> is DMG that ignores the target's [[DEF]], [[RES]], and [[Damage Reduction]], but does not ignore [[shield]]s. However, True DMG can be increased by [[Melt]] and [[Vaporize]],  but not [[Spread]] and [[Aggravate]].
 
 Note that True DMG is not to be confused with [[HP Loss]], as HP Loss is not considered damage at all.
 
@@ -267,13 +290,17 @@ Notable sources of True DMG include:
 * [[Kamuijima Cannon]]s
 * [[Mountainator]]s
 * [[Unique Rock Pillar]]s
+* [[Xenochromatic Creature]] abilities
+
+==Other Damage-Modifying Effects==
+Other than those specified above, there are certain less common mechanics that will affect damage:
+* [[Bow]] users have [[Bow#Damage Dropoff|damage dropoff]] on their aimed shots based on the amount of time that an arrow travels in the air. The damage dropoff multiplier is applied multiplicatively with the entire damage formula.
+* [[Dehya]]'s [[Molten Inferno|Elemental Skill]] multiplicatively reduces DMG that characters receive. This also applies to Transformative Reaction DMG and True DMG.
+* [[Narukami Island: Tenshukaku|La Signora]] has a mechanic that prevents her from taking a single instance of DMG that exceeds a percentage of her Max HP. DMG exceeding that threshold will be nullified.
 
 ==Snapshotting==
 {{Main|Snapshotting}}
 Snapshotting refers to the ability of certain abilities to retain their buffs from the time they are cast. For example, [[Xiangling]]'s Pyronado will be buffed for its whole duration when cast inside Bennett's Fantastic Voyage field, even if one walks outside the field or the field expires.
-
-==Attack Speed==
-The attribute [[Attack Speed]] (ATK SPD) increases Damage per Second (DPS) and so acts as an indirect and separate multiplier to damage. Generally, attack speed boosts only affect Normal and Charged Attacks.
 
 ==Sample Calculation==
 Consider the following sequence of events:

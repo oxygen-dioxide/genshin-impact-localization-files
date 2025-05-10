@@ -8,15 +8,21 @@
 }}
 '''Versions''' (or '''Updates'''/'''Patches''') are significant updates in ''[[Genshin Impact]]''. Each version normally lasts 6 weeks or 42 days.<ref>HoYoLAB: [https://www.hoyolab.com/article/38231 Future Versions and Events]</ref>
 
-Versions are labeled through a {{w|Software versioning#Sequence-based identifiers|sequence-based identifier}} versioning scheme which reflects change significance. ''Genshin Impact''{{'}}s version numbers follow the format of many other versioning sequences, incrementing the left-most number for major updates and the right-most number for bug fixes; for most 6-week version updates, the second number in the version tag is the one that is incremented. For very significant or large version updates, such as the introduction of a new primary region in [[Teyvat]], the first number may be incremented instead.
+Versions are labeled using a {{w|Software versioning#Sequence-based identifiers|sequence-based identifier}} versioning scheme that reflects the significance of the changes. ''Genshin Impact''{{'}}s version numbers follow a common format found in many versioning systems in which the left-most number increases for major updates, while the right-most number increases for bug fixes. For the majority of 6-week version updates, it is the second number in the version tag that is incremented. However, for very significant updates, such as the introduction of a new primary region in [[Teyvat]], the first number may be increased instead. 
 
-The first patch in each version has the version number X.Y.0 and future patches (X.Y.1, X.Y.2, etc.) fix major problems with the game that require a client update through the Game Launcher or App Store.
+The first patch in each version is labeled as X.Y.0, and subsequent patches (X.Y.1, X.Y.2, etc.) address major issues that require a client update through the Game Launcher or App Store.
 
 ==Latest Version==
-{{Transclude|Version/3.5|main=1}}
+{{Transclude|Version/{{Trim|{{CurrentVersion|version=no}}}}|main=1}}
 
 ==Version History==
 Patch Note, Post-patch Optimizations, and Bug Fixes are listed on each version's subpage.
+
+===Version 5===
+{{Versions|5}}
+
+===Version 4===
+{{Versions|4}}
 
 ===Version 3===
 {{Versions|3}}
@@ -29,16 +35,20 @@ Patch Note, Post-patch Optimizations, and Bug Fixes are listed on each version's
 
 ===Version 0 (Prerelease)===
 {{Versions|0}}
+{{Versions|CB}}
 
 ==Maintenance==
-All maintenances except for the Version 1.0.1 maintenance were scheduled to last 5 hours. The Version 1.0.1 maintenance was scheduled to last 4 hours. They usually start at 06:00 UTC+8. Compensation for maintenance is {{Item|Primogem|30|x=60}} for each hour the server is down and the minimum compensation is determined by the expected maintenance duration (ex. scheduled 5 hour maintenance means at least {{Item|Primogem|30|x=300}} even if it only lasts 4 hours). Sometimes bug fixes give a compensation of {{Item|Primogem|30|x=300}}.
+All maintenance periods, except for the [[Version/1.0|Version 1.0.1]] maintenance, are usually scheduled to last 5 hours, typically starting at 06:00 UTC+8. The Version 1.0.1 maintenance was scheduled to last for 4 hours. Players will receive compensation of {{Item|Primogem|30|x=60}}  for each hour the server is down, with a minimum compensation determined by the expected maintenance duration. For example, a scheduled 5-hour maintenance guarantees at least  {{Item|Primogem|30|x=300}} even if it only lasts 4 hours. To be eligible for the compensation [[Mail]], players must be [[Adventure Rank]] 5 or above before the maintenance begins. Compensation must be claimed before the end of the Version. If any bug fixes or issues are to be discovered within the game before maintenance, players will be compensated with {{Item|Primogem|30|x=300}}.
 
-Starting one hour prior to maintenance, scrolling banners will periodically appear in-game at the top of the screen. The banners appear at 60, 50, 40, 30, 20, 15, 10, 5, 4, 3, 2, and 1 minute(s) prior the scheduled maintenance time. The banners state:
-*Dear Travelers, ''Genshin Impact'' servers will be down for maintenance in about ''{X}''m. Please plan your game time and progress accordingly. For more details, see the in-game notice.
+Starting one hour before maintenance, scrolling banners will periodically appear in-game at the top of the screen. These banners will display a message at 60, 50, 40, 30, 20, 15, 10, 5, 4, 3, 2, and ''1 minute(s)'' before the scheduled maintenance time, stating:  
+* Dear Travelers, ''Genshin Impact'' servers will be down for maintenance in about {X} minutes. Please plan your game time and progress accordingly. For more details, see the in-game notice.
+Players who remain in-game until the start of maintenance will be disconnected and sent to the login screen. If users attempt to log in during maintenance, they will see a maintenance notice displaying the times for the maintenance.
+
+Players may use the pre-download feature to obtain the latest version of ''Genshin Impact'' up to 48 hours before its official release. This allows users to download the new update resources in advance, ensuring quicker access to the game once the version goes live. To pre-install an update, players can navigate to the [[Paimon Menu]] and access the [[Settings]], use the [[HoYoPlay|launcher]], or pre-download on the main login screen. Announcements regarding pre-installation are typically included in the Version Update Maintenance notice for each version 48 hours before the update maintenance.
 
 ===Durations===
 Durations prior to Version 2.4 in the table below are rounded to the nearest 5-minute mark.
-{| class="article-table sortable" style="text-align: center"
+{| class="article-table sortable alternating-colors-table align-center"
 !Version !! Duration (hh:mm)
 |-
 |1.0.1 || 03:35
@@ -84,29 +94,66 @@ Durations prior to Version 2.4 in the table below are rounded to the nearest 5-m
 |3.4 || 03:55
 |-
 |3.5 || 04:41
+|-
+|3.6 || 04:00
+|-
+|3.7 || 04:18
+|-
+|3.8 || 04:35
+|-
+|4.0 || 04:11
+|-
+|4.1 || 04:12
+|-
+|4.2 || 04:39
+|-
+|4.3 || 03:54
+|-
+|4.4 || 03:58
+|-
+|4.5 || 03:41
+|-
+|4.6 || 03:52
+|-
+|4.7 || 04:01
+|-
+|4.8 || 04:30
+|-
+|5.0 || 03:40
+|-
+|5.1 || 03:31
+|-
+|5.2 || 04:30
+|-
+|5.3 || 04:02
+|-
+|5.4 || 03:36
+|-
+|5.5 || 03:37
 |}
 
 ==Trivia==
 * Most of the Version names in Chinese, from Versions 1.1–1.5, 2.3–2.7, are composed of five {{w|Chinese characters|characters}}.
-** Versions 1.6 and 2.8 feature summer theme, and their Version names are composed of seven characters in the form of "XX! XX? XXX!"
-** Versions 2.0 and 2.1 feature Inazuma archon quests, and their Version names are wordplay of the quest names, in the form of "XXXX, XXXX."
+** Versions 1.6, 2.8, 3.8 and 4.8 feature a summer theme, and their Version names are composed of seven characters in the form of "XX! XX? XXX!"
+** Versions 2.0 and 2.1 feature Inazuma Archon Quests, and their Version names are wordplay of the quest names, in the form of "XXXX, XXXX."
 * It is possible to remain within the game for a few minutes after the scheduled maintenance time, but the player will be returned to the title screen after.
 * [[Version 1.0]], [[Version 2.6]], and [[Version 2.7]] are the only versions that have lasted longer than 6 weeks.
 ** Version 1.0 lasted approximately 6 weeks and 2 days.
 ** Version 2.6 lasted almost 9 weeks.
 ** Version 2.7 lasted 6 weeks and 1 day, as its update happened 24 hours earlier than the usual day of the week for maintenances.
 * [[Version 3.0]], [[Version 3.1]], and [[Version 3.2]] are the only versions that have lasted 5 weeks.<ref>HoYoLAB: [https://www.hoyolab.com/article/6947169 Versions 3.0 – 3.2 Duration Details]</ref>
-** This was likely due to the the extended duration of [[Version 2.6]] to get back to original schedule.
+** This was likely due to the extended duration of [[Version 2.6]] to get back to the original schedule.
 * [[Version 1.3]] is currently the only version which had three [[Character Event Wishes]] not overlapping with one another. For the PC version, the time during the [[Dance of Lanterns]] wish did not have a unique splashscreen within the game's launcher.
 * For the [[Version 2.0]] update, the maintenance banner showed the following due to the [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] being a temporary addition of [[Version 1.6]]:
 ** Dear Traveler, the game servers will be down for maintenance at around ''XX''m. After the maintenance, you will no longer be able to head to the island, so please plan your game progress to avoid missing out. For more details, please refer to the in-game announcement.
 * During the versions near Chinese New Year, announcements for [[Event]]s and [[Event Wishes]] were made prior the start of the version.
-** This is likely to make all announcements before the holidays to allow people to plan their activities better, or for the developers have time off.
+** This is likely to make all announcements before the holidays to allow people to plan their activities better, or for the developers to have time off.
+* [[Version 3.8]] was the first version without a new character or weapon released.
 
 ==References==
 {{Reflist}}
 
-==See also==
+==See Also==
 * [[Special Program]]
 * [[Developers Discussion]]
 * [[Developer Insight]]
@@ -118,9 +165,11 @@ Durations prior to Version 2.4 in the table below are rounded to the nearest 5-m
 [[es:Versiones]]
 [[fr:Version]]
 [[ja:バージョン]]
+[[pl:Wersja]]
 [[pt-br:Versão]]
 [[ru:Версия]]
 [[th:เวอร์ชัน]]
 [[tr:Sürüm]]
+[[uk:Версія]]
 [[vi:Phiên Bản]]
 [[zh:版本]]

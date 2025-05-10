@@ -1,13 +1,17 @@
 {{Terminology Infobox
-|image = Icon Quick Start.png
-|type  = Game Systems
-|event = Event
+|image  = Icon Quick Start.png
+|type   = Game Systems
+|group  = Event Terminology
+|group2 = Quest Terminology
 }}
-'''Quick Start''' is a feature introduced in [[Version 2.6]] that allows players to skip certain prerequisite [[Quest]]s to start an [[Event]]'s story and gameplay to earn rewards.<ref>Twitter: [https://twitter.com/GenshinImpact/status/1619908266879864835 Tips for Travelers]</ref>
+'''Quick Start''' is a feature introduced in [[Version 2.6]] that allows players to skip certain prerequisite [[Quest]]s to start another Quest, allowing them to still experience the gameplay and earn rewards.<ref>Twitter: [https://twitter.com/GenshinImpact/status/1619908266879864835 Tips for Travelers]</ref> It is currently available for a limited time for certain Quests released during or after [[Version 5.0]], and it was used in many [[Event]]s before [[Version 4.0]].
 
+==Overview==
 Using the Quick Start feature may impact the player's experience, as the story and dialogue do not change based on whether the player has completed the recommended prerequisite quests or not. As a result, for players who enter an event using Quick Start, the event story may be incongruous with their progression outside of the event, and the event story may have spoilers for the quests they have not yet completed.
 
 Not all quest requirements can be skipped with the Quick Start feature. For example, the Quick Start feature during [[Graven Innocence]] allowed players to participate in the event without completing the {{Quest|The Trail of the God of Wisdom}}, but players still needed to have completed the {{Quest|The Outlander Who Caught the Wind}}.
+
+No events released after [[Secret Summer Paradise]] in [[Version 3.8]] utilize Quick Start, despite several events having Recommended Quests.
 
 ==List of Events==
 {{#DPL:
@@ -16,15 +20,26 @@ Not all quest requirements can be skipped with the Quick Start feature. For exam
 |uses=Template:Event
 |include={Event}:image:name:quick_start:no_quick_start
 |table=class="fandom-table sortable",-,style="width: 200px"¦Event,Quest Prerequisites Skipped,Unskippable Quest Prerequisites
-|tablerow=[[File:%%|200px|link=%PAGE%]]<br />«!--,--»[[%PAGE%|²{#if:%%¦%%¦%PAGE%}²]],²{Quest¦%%¦display=bullet}²,²{#if:%%¦²{Quest¦%%¦display=bullet}²¦None}²
+|tablerow=[[File:%%|200px|link=%PAGE%]]<br>«!--,--»[[%PAGE%|²{#if:%%¦%%¦%PAGE%}²]],²{Quest¦%%¦display=bullet}²,²{#if:%%¦²{Quest¦%%¦display=bullet}²¦None}²
 |ordermethod=sortkey
 |resultsheader=There are '''%PAGES%''' [[Event]]s with the Quick Start feature:\n
-|allowcachedresults=true
+}}
+
+==List of Quests==
+{{#DPL:
+|namespace=
+|category=Quick Start Acts
+|uses=Template:Act Infobox
+|include={Act Infobox}:quick_start_event:title:ARReq:prev:archonQuestReq:storyQuestReq:worldQuestReq:quick_start
+|table=class="fandom-table sortable",-,style="width: 200px"¦Quest,Quest Prerequisites Skipped,Unskippable Quest Prerequisites
+|tablerow=[[File:%%.png|200px|link=%%]]<br>«!--,--»[[%PAGE%|²{#if:%%¦%%¦%PAGE%}²]],²{#if:%%¦²{Quest¦%%«!--,--»;%%«!--,--»;%%«!--,--»;%%«!--,--»;%%¦display=bullet}²¦None}²,²{Quest¦%%¦display=bullet}²
+|ordermethod=sortkey
+|resultsheader=There are '''%PAGES%'''  [[Quest]]s with the Quick Start feature:\n
 }}
 
 ==Trivia==
 * Not all quests that may enhance a player's experience are listed as recommended prerequisite quests.
-** [[Hangout Event]]s have never been recommended prerequisite quests even when the Traveler and Paimon are shown to have already been acquainted with a character that is only encounterable in a Hangout Event, such as [[Shikanoin Heizou]] during [[Akitsu Kimodameshi]].
+** Prior to [[Version 5.4]], [[Hangout Event]]s have never been recommended prerequisite quests even when the Traveler and Paimon are shown to have already been acquainted with a character that is only encounterable in a Hangout Event, such as [[Shikanoin Heizou]] during [[Akitsu Kimodameshi]].
 ** Story Quests that would have been needed solely to acquaint the Traveler and Paimon with a character have also never been recommended prerequisite quests, even if they are the only way for the Traveler and Paimon to meet a character for the first time outside of events.
 *** For example, the Traveler and Paimon were already familiar with [[Hu Tao]] during [[The Exquisite Night Chimes]], but her Story Quest was not listed as a requirement even though it was the only way to meet Hu Tao outside of events.
 *** Similarly, the Traveler and Paimon were already familiar with Klee, Albedo, and Xingqiu during [[Hues of the Violet Garden]], but none of their Story Quests were listed as requirements even though they were the only way to meet Klee, Albedo, and Xingqiu outside of events.<!-- there are a TON of examples; please avoid listing more! -->

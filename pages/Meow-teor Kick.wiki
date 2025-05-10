@@ -1,0 +1,212 @@
+{{Talent Infobox
+|image         = Talent Meow-teor Kick.png
+|character     = Kirara
+|type          = Elemental Skill
+|info          = '''{{Control|Tap|Press|Press}}'''<br>Leaps into the air with all the agility of a cat passing through the bushes, and thwacks her foes with a flying kick that deals {{Color|AoE Dendro DMG}} while creating a Shield of Safe Transport. This will also briefly apply {{Dendro}} to Kirara.<br>The shield will absorb {{Color|Dendro DMG}} with 250% effectiveness. The shield's DMG absorption will be based on Kirara's Max [[HP]] and will not exceed a certain percentage of that Max HP. The remaining DMG absorption on a Shield of Safe Transport will stack on a new one when it is created, and its duration will reset.<br><br>'''Hold'''<br>Out of her desire to "deliver within half a day," Kirara deploys a Shield of Safe Transport identical to the one that can be created by {{Control|tapping|pressing|pressing}} the skill. She will also curl up into a special express delivery box, entering the Urgent Neko Parcel state in order to move and fight more swiftly.<br><br>'''Urgent Neko Parcel'''<ul><li>Deals Dendro DMG to opponents she crashes into. This effect can be triggered once on each opponent every 0.5s.</li><li>When in this state, Kirara's movement speed, climbing speed, and jumping power are all increased, and her Stamina Consumption from climbing is increased.</li><li>When the duration ends or the skill is used again, a Flipclaw Strike more powerful than the attack in the {{Control|Tap|Press|Press}} Mode will be unleashed, dealing {{Color|AoE Dendro DMG}}.</li><li>The Urgent Neko Parcel state lasts a maximum of 10s. When the state ends, the skill will enter CD. The longer Kirara spends in this state, the longer the CD will be.</li><li>Sprinting or actively canceling climbing will end this state early.</li></ul>
+|CD            = 8–12s
+|scale_att1    = Max HP
+|scale_att2    = ATK
+|utility1      = Shield
+|utility2      = Dendro Status to Self
+|utility3      = Plunging Attack Disabled
+|utility4      = Charged Attack Disabled
+}}
+{{Description|"So you wanna know the secret to speedy deliveries? Well, it's all in the legs!"}}
+'''Meow-teor Kick''' is [[Kirara]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* This skill generates '''3''' [[elemental particles]] when pressed and with the final hit when held, if it hits at least 1 target. Additionally, when held, '''1''' particle is generated when it hits an enemy, with a cooldown of 4s.
+* {{Talent Note|snapshot|Urgent Neko Parcel Hit DMG|character=Kirara}}
+** This does not apply to Flipclaw Strike DMG upon exiting the Urgent Neko Parcel state.
+* While in the Urgent Neko Parcel state:
+** Kirara must be moving in order to deal DMG, even if she is contacting an enemy.
+** Kirara's movement is not affected by [[Movement Speed]]. However, if Kirara is in Walking Mode, the parcel will move slower too.
+** Climbing Stamina cost is increased by '''140%'''.
+** Kirara cannot [[Climbing#Climb Jump|climb jump]] or perform [[Plunging Attack]]s.
+** If Kirara reaches a certain speed while falling, she will exit the Urgent Neko Parcel state.
+** Opening the [[Wind Glider]] or interacting with certain exploration objects (e.g. [[Thunder Sphere]]s, [[Four-Leaf Sigil]]s) will end the Urgent Neko Parcel state.
+
+:<gallery>
+Talent Meow-teor Kick 2.png|Exit Hold State Icon
+</gallery>
+
+;<big>Passive Effects</big>
+* {{Talent Note|ascension|1|Bewitching, Betwitching Tails|character=Kirara|talent=Meow-teor Kick}}
+* {{Talent Note|ascension|2|Pupillary Variance|character=Kirara|talent=Meow-teor Kick}}
+
+;<big>Constellation Effects</big>
+* {{Talent Note|constellation|2|Perfectly Packaged}}
+* {{Talent Note|constellation|3|Universal Recognition}}
+* {{Talent Note|constellation|4|Steed of Skanda}}
+* {{Talent Note|constellation|6|Countless Sights to See}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Tail-Flicking Flying Kick DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 100
+|impulse = Air, 100, 800
+
+|title2   = Urgent Neko Parcel Hit DMG 
+|gu2      = 1U
+|icdtag2  = Elemental Skill
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 25
+|impulse2 = Heavy, 250, 0
+
+|title3   = Flipclaw Strike DMG 
+|gu3      = 1U
+|icdtag3  = none
+|poise3   = 200
+|impulse3 = Air, 100, 800
+
+|title4   = Dendro to Self
+|gu4      = 1U, 0.1s
+|icdtag4  = &mdash;
+|icdtype4 = &mdash;
+|poise4   = &mdash;
+|impulse4 = &mdash;
+}}
+
+==Preview==
+{{Preview
+|file1=Meow-teor Kick Press Preview
+|caption1=Press
+
+|file2=Meow-teor Kick Hold Preview
+|caption2=Hold
+
+|file3=Meow-teor Kick Jump Preview
+|caption3=Hold (Jumping)
+
+|file4=Meow-teor Kick Climb Preview
+|caption4=Hold (Climbing)
+}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|levels=13
+|order=tail-flickingflyingkickdmg,shielddmgabsorption,maxshielddmgabsorption,shieldduration,urgentnekoparcelhitdmg,maxurgentnekoparcelduration,flipclawstrikedmg,cd
+|titles=Tail-Flicking Flying Kick DMG,Shield DMG Absorption,Max Shield DMG Absorption,Shield Duration,Urgent Neko Parcel Hit DMG,Max Urgent Neko Parcel Duration,Flipclaw Strike DMG,CD
+|tail-flickingflyingkickdmg_1=104
+|tail-flickingflyingkickdmg_2=111.8
+|tail-flickingflyingkickdmg_3=119.6
+|tail-flickingflyingkickdmg_4=130
+|tail-flickingflyingkickdmg_5=137.8
+|tail-flickingflyingkickdmg_6=145.6
+|tail-flickingflyingkickdmg_7=156
+|tail-flickingflyingkickdmg_8=166.4
+|tail-flickingflyingkickdmg_9=176.8
+|tail-flickingflyingkickdmg_10=187.2
+|tail-flickingflyingkickdmg_11=197.6
+|tail-flickingflyingkickdmg_12=208
+|tail-flickingflyingkickdmg_13=221
+|shielddmgabsorption_1=10% Max HP+962.2313
+|shielddmgabsorption_2=10.75% Max HP+1058.4679
+|shielddmgabsorption_3=11.5% Max HP+1162.7241
+|shielddmgabsorption_4=12.5% Max HP+1275
+|shielddmgabsorption_5=13.25% Max HP+1395.2957
+|shielddmgabsorption_6=14% Max HP+1523.611
+|shielddmgabsorption_7=15% Max HP+1659.946
+|shielddmgabsorption_8=16% Max HP+1804.3008
+|shielddmgabsorption_9=17% Max HP+1956.6753
+|shielddmgabsorption_10=18% Max HP+2117.0693
+|shielddmgabsorption_11=19% Max HP+2285.4834
+|shielddmgabsorption_12=20% Max HP+2461.917
+|shielddmgabsorption_13=21.25% Max HP+2646.3704
+|maxshielddmgabsorption_1=16% Max HP+1541.0796
+|maxshielddmgabsorption_2=17.2% Max HP+1695.2089
+|maxshielddmgabsorption_3=18.4% Max HP+1862.1824
+|maxshielddmgabsorption_4=20% Max HP+2042
+|maxshielddmgabsorption_5=21.2% Max HP+2234.6616
+|maxshielddmgabsorption_6=22.4% Max HP+2440.1675
+|maxshielddmgabsorption_7=24% Max HP+2658.5176
+|maxshielddmgabsorption_8=25.6% Max HP+2889.7117
+|maxshielddmgabsorption_9=27.2% Max HP+3133.7498
+|maxshielddmgabsorption_10=28.8% Max HP+3390.632
+|maxshielddmgabsorption_11=30.4% Max HP+3660.3584
+|maxshielddmgabsorption_12=32% Max HP+3942.929
+|maxshielddmgabsorption_13=34% Max HP+4238.3438
+|shieldduration=12s
+|urgentnekoparcelhitdmg_1=33.6
+|urgentnekoparcelhitdmg_2=36.12
+|urgentnekoparcelhitdmg_3=38.64
+|urgentnekoparcelhitdmg_4=42
+|urgentnekoparcelhitdmg_5=44.52
+|urgentnekoparcelhitdmg_6=47.04
+|urgentnekoparcelhitdmg_7=50.4
+|urgentnekoparcelhitdmg_8=53.76
+|urgentnekoparcelhitdmg_9=57.12
+|urgentnekoparcelhitdmg_10=60.48
+|urgentnekoparcelhitdmg_11=63.84
+|urgentnekoparcelhitdmg_12=67.2
+|urgentnekoparcelhitdmg_13=71.4
+|maxurgentnekoparcelduration=10s
+|flipclawstrikedmg_1=144
+|flipclawstrikedmg_2=154.8
+|flipclawstrikedmg_3=165.6
+|flipclawstrikedmg_4=180
+|flipclawstrikedmg_5=190.8
+|flipclawstrikedmg_6=201.6
+|flipclawstrikedmg_7=216
+|flipclawstrikedmg_8=230.4
+|flipclawstrikedmg_9=244.8
+|flipclawstrikedmg_10=259.2
+|flipclawstrikedmg_11=273.6
+|flipclawstrikedmg_12=288
+|flipclawstrikedmg_13=306
+|cd=8s – 12s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Kirara}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Other Languages==
+{{Other Languages
+|en      = Meow-teor Kick
+|zhs     = 呜喵町飞足
+|zhs_rm  = Wūmiāodīng Fēizú
+|zht     = 嗚喵町飛足
+|zht_rm  = Wūmiāodīng Fēizú
+|zh_tl   = 
+|ja      = にゃんにゃん町飛脚
+|ja_rm   = Nyan Nyan Machibikyaku
+|ja_tl   = 
+|ko      = 냥냥 골목 누비기
+|ko_tl   = Meow-meow Criscrossing Alleys
+|es      = Nekopatada voladora
+|es_tl   = Flying Nekokick
+|fr      = Coup de patte miaou-téorite
+|fr_tl   = Meow-teor Paw Swipe
+|ru      = Мяутеоритный удар
+|ru_tl   = Meowteorite Kick
+|th      = Meow-teor Kick
+|vi      = Mèo Tung Cước
+|vi_tl   = Kicking Cat
+|de      = Miauteoritentritt
+|de_tl   = Meow-teorite Kick
+|id      = Meow-teor Kick
+|pt      = Chute Miauteoro
+|pt_tl   = 
+|tr      = Miyav Jitsu
+|tr_tl   = Meow Jitsu
+|tr_note = A pun on Jiu-Jitsu
+|it      = Calcio Miaoteoritico
+|it_tl   = 
+}}
+
+==Change History==
+{{Change History|3.7}}
+
+==Navigation==
+{{Talent Navbox|Kirara}}
+
+[[es:Nekopatada voladora]]
+[[fr:Coup de patte miaou-téorite]]
+[[ru:Мяутеоритный удар]]
+[[th:Meow-teor Kick]]
+[[vi:Mèo Tung Cước]]

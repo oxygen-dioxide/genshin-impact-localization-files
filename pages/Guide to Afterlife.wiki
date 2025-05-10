@@ -2,28 +2,25 @@
 |image         = Talent Guide to Afterlife.png
 |character     = Hu Tao
 |type          = Elemental Skill
-|info          = Only an unwavering flame can cleanse the impurities of this world.<br />Hu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.<br /><br />'''Paramita Papilio'''<ul><li>Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.</li><li>[[Elemental Infusion|Converts]] attack DMG to {{Color|Pyro DMG}}, which cannot be overridden by any other elemental infusion.</li><li>Charged Attacks apply the Blood Blossom effect to the enemies hit.</li><li>Increases Hu Tao's resistance to interruption.</li></ul><br />'''Blood Blossom'''<br />Enemies affected by Blood Blossom will take {{Color|Pyro DMG}} every 4s. This DMG is considered Elemental Skill DMG.<br />Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.<br /><br />'''Paramita Papilio''' ends when its duration is over, or Hu Tao has left the battlefield or fallen.
+|info          = Only an unwavering flame can cleanse the impurities of this world.<br>Hu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.<br><br>'''Paramita Papilio'''<ul><li>Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.</li><li>[[Elemental Infusion|Converts]] attack DMG to {{Color|Pyro DMG}}, which cannot be overridden by any other elemental infusion.</li><li>Charged Attacks apply the Blood Blossom effect to the enemies hit.</li><li>Increases Hu Tao's resistance to interruption.</li></ul><br>'''Blood Blossom'''<br>Enemies affected by Blood Blossom will take {{Color|Pyro DMG}} every 4s. This DMG is considered Elemental Skill DMG.<br>Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.<br><br>'''Paramita Papilio''' ends when its duration is over, or Hu Tao has left the battlefield or fallen.
 |scale_att1    = Max HP
 |scale_att2    = ATK
 |utility1      = Conversion
 |utility2      = Health Depletion
 |utility3      = Charged Attack
 |utility4      = Interruption Resistance
-|utility5      = Knockback
-|utility6      = Requires Staying on Field
-|utility7      = Hitlag Extendable
-|utility8      = ATK Increase
-|utility9      = Status to Enemy
-|energyGen     = The first buffed attack that hit an enemies generate '''2.5''' elemental particles. {{not a typo|~5s}} after this first attack, the next buffed attack that hit an enemies generate '''2.5''' elemental particles.
+|utility5      = Requires Staying on Field
+|utility6      = Hitlag Extendable
+|utility7      = ATK Increase
+|utility8      = Status to Enemy
 |CD            = 16s
 |duration      = 9s
-|particles     = 2.5×2
 |attr1         = Activation Cost
 |value1        = 30% Current HP
 |attr2         = ATK Increase
-|value2        = 3.84 – 6.26% Max HP
+|value2        = 3.84–6.26% Max HP
 |attr3         = Blood Blossom DMG
-|value3        = 64 – 115%
+|value3        = 64–115%
 |attr4         = Blood Blossom Duration
 |value4        = 8s
 }}
@@ -31,21 +28,23 @@
 '''Guide to Afterlife''' is [[Hu Tao]]'s [[Elemental Skill]].
 
 ==Gameplay Notes==
-* {{TalentNote|particles|a converted attack|2.5}}
+* {{Talent Note|particles|a converted attack|2.5}}
 ** This particle generation has a cooldown of ~5 seconds.
-** Therefore, it can generate a total of '''4-6''' [[Elemental Particle]]s through its whole duration.
-* While Paramita Papilio State is active, Hu Tao doesn't step back before charging forward. This makes her Charged Attacks under this state faster than normal.
+** Therefore, it can generate a total of '''4–6''' [[Elemental Particle]]s through its whole duration.
+** Converted [[Plunging Attack]]s do not generate particles.
+* While the Paramita Papilio state is active, Hu Tao does not step back before charging forward. This makes her Charged Attacks under this state faster and travel further from her starting position.<!-- distance covered may be the same as measured from the start of each CA, but the distance covered is 100% in front of her starting position in the state instead of also covering distance behind her starting position -->
 * This skill's activation produces a damageless [[0U]] {{Pyro}} attack around Hu Tao.
 * No HP will be consumed if Hu Tao has exactly 1 HP left when activating the skill.
+* The Paramita Papilio State does not expire during the animation of a Charged Attack.
 
 ;<big>Passive Effects</big>
-* {{TalentNote|character=Hu Tao|talent=Guide to Afterlife|ascension|1|Flutter By}}
+* {{Talent Note|character=Hu Tao|talent=Guide to Afterlife|ascension|1|Flutter By}}
 
 ;<big>Constellation Effects</big>
-* {{TalentNote|constellation|1|Crimson Bouquet}}
-* {{TalentNote|constellation|2|Ominous Rainfall}}
-* {{TalentNote|constellation|3|Lingering Carmine}}
-* {{TalentNote|constellation|4|Garden of Eternal Rest}}
+* {{Talent Note|constellation|1|Crimson Bouquet}}
+* {{Talent Note|constellation|2|Ominous Rainfall}}
+* {{Talent Note|constellation|3|Lingering Carmine}}
+* {{Talent Note|constellation|4|Garden of Eternal Rest}}
 
 ==Advanced Properties==
 {{Advanced Properties
@@ -80,7 +79,7 @@
 |talentType=Elemental Skill
 |levels=14
 |order=activationcost,atkincrease,bloodblossomdmg,bloodblossomduration,duration,cd
-|titles=Activation Cost,ATK Increase (% Max HP),Blood Blossom DMG (%),Blood Blossom Duration,Duration,CD
+|titles=Activation Cost,ATK Increase (%&nbsp;Max HP),Blood Blossom DMG (%),Blood Blossom Duration,Duration,CD
 |activationcost=30% Current HP
 
 |atkincrease_1=3.84
@@ -142,7 +141,7 @@
 |ko_tl   = Book of Butterfly
 |es      = Guía hacia el más allá
 |es_tl   = Guide to the Afterlife
-|es_note = "El más allá", while literally meaning "the beyond", is a phrase used when referring to the afterlife.
+|es_note = {{es|El más allá|lit=the beyond}} is a phrase used when referring to the afterlife.
 |fr      = Chaperon de la renaissance
 |fr_tl   = {{w|Chaperone (social)|Chaperone}} of Rebirth
 |ru      = Путеводитель по загробной жизни
@@ -156,7 +155,8 @@
 |pt      = Guia do Além
 |pt_tl   = 
 |tr      = Öbür Dünya Rehberi
-|tr_tl   = 
+|tr_note = {{tr|Öbür Dünya|lit=Other World}} is a phrase used when referring to the afterlife.
+|tr_tl   = Guide to the Afterlife
 |it      = Guida all'aldilà
 |it_tl   = Guide to the Afterlife
 }}
@@ -169,8 +169,9 @@
 
 [[es:Guía hacia el más allá]]
 [[fr:Chaperon de la renaissance]]
+[[ja:蝶導来世]]
 [[pt-br:Guia do Além]]
 [[ru:Путеводитель по загробной жизни]]
-[[vi:Điệp Dẫn Lai Sinh]]
 [[th:Guide to Afterlife]]
 [[uk:Провідник в потойбіччя]]
+[[vi:Điệp Dẫn Lai Sinh]]

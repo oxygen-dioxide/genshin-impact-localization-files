@@ -1,0 +1,67 @@
+{{Stub|Needs research on the exact formula for fall damage (as a function of impact speed/any other variables).}}
+{{Terminology Infobox
+|type         = Exploration
+}}
+'''Fall Damage''', shortened as '''Fall DMG''' in some in-game displays, is an [[Exploration]] mechanic where characters [[HP Loss|lose HP]] from falling from a great height. Fall Damage scales with the height of the fall and the horizontal velocity upon impact.
+
+Fall Damage can be mostly reduced or negated using a Plunging Attack at any point or opening one's [[Wind Glider]] periodically to safely reset fall damage. If given the option, falling into water with level above the character's waist height (resulting in wading) will also negate all Fall Damage. Also, if one plunge attacks with [[Xiao]] at any height, they will not take damage.
+
+Some characters with [[Talents]] that allow them and/or their entire party to temporarily or permanently walk on water will also take fall damage from hitting the water's surface, as if there was ice on them.
+
+Enemies and certain objects are vulnerable to a similar mechanic, [[#Collision Damage|Collision Damage]], which occurs upon colliding with a solid surface at high speed, which includes but is not limited to falling. Collision Damage is calculated differently from player Fall Damage, and is treated as [[True Damage]] instead of HP Loss.
+
+==Fall Damage Reduction==
+Under certain conditions, Fall Damage will be reduced by a fixed percentage.
+{| class="article-table"
+! Condition !! Fall Damage Reduction
+|-
+| Plunging Attack as [[Xiao]] || rowspan="7" | 100%
+|-
+| Under effect of [[Spoutrock]]<ref group="Note">Only when hitting the floor without performing a Plunging Attack or opening the Wind Glider.</ref>
+|-
+| Within 3 seconds after bouncing off a [[Bouncy Mushroom]]
+|-
+| Within 5 seconds after performing [[Kinich]]'s {{Talent|Canopy Hunter: Riding High|20|nobr=1}}
+|-
+| During [[Windtrace]]
+|-
+| Inside [[Divine Ingenuity]] domains
+|-
+| Plunging Attack from {{nowrap|0–40 m}}
+|-
+| Plunging Attack from {{nowrap|40–60 m}} || 90%
+|-
+| Plunging Attack from {{nowrap|60–100 m}} || 80%
+|-
+| Plunging Attack from Above {{nowrap|100 m}} || 60%
+|-
+| During [[Mualani]]'s {{Talent|Surfshark Wavebreaker|text=Nightsoul's Blessing|20|nobr=1}} || rowspan="3" | 50%
+|-
+| During [[Xilonen]]'s {{Talent|Yohual's Scratch|text=Nightsoul's Blessing|20|nobr=1}}
+|-
+| While riding [[Mavuika]]'s {{Talent|The Named Moment|text=Flamestrider|20|nobr=1}}
+|}
+
+==Collision Damage==
+{{See also|Interruption Resistance}}
+'''Collision Damage''' is a type of environmental damage that exclusively affects enemies and certain objects (e.g., [[Baron Bunny]]). It occurs when an enemy or object collides with the environment at velocities greater than '''{{nowrap|10 m/s}}'''. Collision Damage is {{Color|True Physical DMG}} which ignores the target's [[DEF]], [[RES]], and [[Damage Reduction]]. Note that Collision Damage should not be confused with Fall Damage taken by player characters.<ref name="NGA">NGA: [https://ngabbs.com/read.php?tid=31063049 {{zh|《原神碰撞学》- 碰撞伤害的拓展研究}}]</ref>
+
+If Collision Damage is triggered, it is calculated as:<ref name="NGA" />
+<math>\text{Collision DMG} = (0.4 - \frac{4}{2 + \text{Collision Velocity}}) \times \text{Target Max HP}</math>
+
+==Trivia==
+* [[Shields]] do not affect nor reduce the damage taken.
+* Breaking your fall into multiple chunks or dragging against a steep cliff face can greatly reduce the damage taken.
+* One can use [[Jean]]'s [[Elemental Skill]] to launch smaller enemies in the air and deal Collision Damage against them repeatedly.
+* Plunging Attack fall damage is calculated from the start of a Plunge Attack, not total fall.
+
+==Notes==
+{{Reflist|note=1}}
+
+==References==
+{{Reflist|1}}
+
+==Navigation==
+{{Exploration Navbox}}
+
+[[ja:落下ダメージ]]

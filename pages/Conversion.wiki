@@ -8,41 +8,75 @@
 
 Conversions are not to be confused with Elemental Infusions, as the latter does not replace characters' attacks, and instead only changes the damage type of existing Normal/Charged/Plunging Attacks.
 
-Converted attacks can range from being completely different from the default attacks (e.g. [[Tartaglia]]'s [[Foul Legacy: Raging Tide|Elemental Skill]], [[Cyno]]'s [[Sacred Rite: Wolf's Swiftness|Elemental Burst]]) to being visually similar (e.g. [[Alhaitham]]'s [[Universality: An Elaboration on Form|Elemental Skill]], [[Aloy]]'s [[Frozen Wilds|Elemental Skill]]). However, even if converted attacks are visually similar, it is possible to tell them apart from regular Elemental Infusions using [[Elemental Sight]], as characters affected by a conversion will ''not'' have their weapon highlighted in the element's corresponding color.
+Converted attacks can range from being completely different from the default attacks (e.g., [[Tartaglia]]'s [[Foul Legacy: Raging Tide|Elemental Skill]], [[Cyno]]'s [[Sacred Rite: Wolf's Swiftness|Elemental Burst]]) to being visually similar (e.g., [[Alhaitham]]'s Chisel-Light Mirrors, [[Aloy]]'s [[Frozen Wilds|Elemental Skill]]). However, even if converted attacks are visually similar, it is possible to tell them apart from regular Elemental Infusions using [[Elemental Sight]], as characters affected by a conversion will ''not'' have their weapon highlighted in the element's corresponding color.
 
 ==Comparison==
-{| class="wikitable sortable tdl1 tdl2 thl1 thl2" style="text-align: center"
-! Character !! Ability !! Element !! Remains<br />When<br />Switched<br />Out !! Resets<br />Attack<br />String !! Modifies<br />[[AoE]] !! Modifies<br />[[Poise DMG]] !! Modifies<br />[[Stagger]]<br />Effect !! Modifies<br />[[ICD]]
+Due to how Conversions function, it is possible for them to change many properties of a character's attack in ways that Elemental Infusions cannot. The following table is a comparison of different Conversions and their in-depth effects.
+
+{| class="wikitable sortable tdl1 tdl2 thl1 thl2 nowrap alternating-colors-table align-center"
+! Character !! Ability !! Element !! Remains<br>When<br>Switched<br>Out !! Resets<br>Attack<br>String !! Modifies<br>[[AoE]] !! Modifies<br>[[Poise DMG]] !! Modifies<br>[[Stagger]]<br>Effect !! Modifies<br>[[ICD]] !! Modifies<br>[[Hitlag]] !! Modifies<br>DMG<br>Type
 |-
-| {{Character|Aloy|20|nobr=1}} || {{Talent|Frozen Wilds|20|nobr=1|type=1}} || {{Element|Cryo}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|yes}}
+| {{Character|Aloy|20|nobr=1}} || {{Talent|Frozen Wilds|20|nobr=1|type=1}} || {{Element|Cryo}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|no}} || {{Check|no}}
 |-
-| {{Character|Alhaitham|20|nobr=1}} || {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} || {{Element|Dendro}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
+| {{Character|Alhaitham|20|nobr=1}} || {{Talent|Universality: An Elaboration on Form|20|nobr=1|type=1}} || {{Element|Dendro}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
 |-
-| {{Character|Arataki Itto|20|nobr=1}} || {{Talent|Royal Descent: Behold, Itto the Evil!|20|nobr=1|type=1}} || {{Element|Geo}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
+| {{Character|Arataki Itto|text=Itto|20|nobr=1}} || {{Talent|Royal Descent: Behold, Itto the Evil!|20|nobr=1|type=1}} || {{Element|Geo}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
 |-
-| {{Character|Cyno|20|nobr=1}} || {{Talent|Sacred Rite: Wolf's Swiftness|20|nobr=1|type=1}} || {{Element|Electro}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}}
+| {{Character|Arlecchino|20|nobr=1}} || {{Talent|Invitation to a Beheading|20|nobr=1|type=1}} || {{Element|Pyro}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
 |-
-| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} || {{Element|Pyro}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
+| {{Character|Chasca|20|nobr=1}} || {{Talent|Spirit Reins, Shadow Hunt|20|nobr=1|type=1}} || {{Element|Anemo}} || &mdash; || &mdash; || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|no}}
 |-
-| {{Character|Kaedehara Kazuha|20|nobr=1|type=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} || {{Element|Anemo}} || — || — || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
+| {{Character|Clorinde|20|nobr=1}} || {{Talent|Hunter's Vigil|20|nobr=1|type=1}} || {{Element|Electro}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|no}}
 |-
-| {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} || {{Element|Hydro}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}}
+| {{Character|Cyno|20|nobr=1}} || {{Talent|Sacred Rite: Wolf's Swiftness|20|nobr=1|type=1}} || {{Element|Electro}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|no}}
 |-
-| {{Character|Nilou|20|nobr=1}} || {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} || {{Element|Hydro}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}}
+| {{Character|Emilie|20|nobr=1}} || {{Constellation|Marcotte Sillage|20|nobr=1|level=1}} || {{Element|Dendro}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
 |-
-| {{Character|Noelle|20|nobr=1}} || {{Talent|Sweeping Time|20|nobr=1|type=1}} || {{Element|Geo}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}}
+| {{Character|Furina|20|nobr=1}} || {{Constellation|"Hear Me — Let Us Raise the Chalice of Love!"|20|nobr=1|level=1}} || {{Element|Hydro}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
 |-
-| {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} || {{Element|Electro}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}}
+| {{Character|Gaming|20|nobr=1}} || {{Talent|Bestial Ascent|20|nobr=1|type=1}} || {{Element|Pyro}} || &mdash; || &mdash; || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
 |-
-| {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} || {{Element|Hydro}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}}
+| {{Character|Hu Tao|20|nobr=1}} || {{Talent|Guide to Afterlife|20|nobr=1|type=1}} || {{Element|Pyro}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|no}}
 |-
-| {{Character|Wanderer|20|nobr=1}} || {{Talent|Hanega: Song of the Wind|20|nobr=1|type=1}} || {{Element|Anemo}} || — || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|no}}
+| {{Character|Kachina|20|nobr=1}} || {{Talent|Go, Go Turbo Twirly!|20|nobr=1|type=1}} || {{Element|Geo}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}}
 |-
-| {{Character|Xiao|20|nobr=1}} || {{Talent|Bane of All Evil|20|nobr=1|type=1}} || {{Element|Anemo}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|no}}
+| {{Character|Kaedehara Kazuha|text=Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} || {{Element|Anemo}} || &mdash; || &mdash; || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
 |-
-| {{Character|Yelan|20|nobr=1}} || {{Constellation|Winner Takes All|20|nobr=1|level=1}} || {{Element|Hydro}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}}
+| {{Character|Kamisato Ayato|text=Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} || {{Element|Hydro}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|no}}
 |-
-| {{Character|Yoimiya|20|nobr=1}} || {{Talent|Niwabi Fire-Dance|20|nobr=1|type=1}} || {{Element|Pyro}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}}
+| {{Character|Kaveh|20|nobr=1}} || {{Talent|Painted Dome|20|nobr=1|type=1}} || {{Element|Dendro}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
+|-
+| {{Character|Kinich|20|nobr=1}} || {{Talent|Canopy Hunter: Riding High|20|nobr=1|type=1}} || {{Element|Dendro}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}}
+|-
+| {{Character|Mavuika|20|nobr=1}} || {{Talent|The Named Moment|20|nobr=1|type=1}} || {{Element|Pyro}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}}
+|-
+| {{Character|Mualani|20|nobr=1}} || {{Talent|Surfshark Wavebreaker|20|nobr=1|type=1}} || {{Element|Hydro}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|no}}
+|-
+| {{Character|Navia|20|nobr=1}} || {{Talent|Undisclosed Distribution Channels|20|nobr=1|type=1}} || {{Element|Geo}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
+|-
+| {{Character|Nilou|20|nobr=1}} || {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} || {{Element|Hydro}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}}
+|-
+| {{Character|Noelle|20|nobr=1}} || {{Talent|Sweeping Time|20|nobr=1|type=1}} || {{Element|Geo}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}}
+|-
+| {{Character|Raiden Shogun|text=Raiden|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} || {{Element|Electro}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}}
+|-
+| {{Character|Sethos|20|nobr=1}} || {{Talent|Secret Rite: Twilight Shadowpiercer|20|nobr=1|type=1}} || {{Element|Electro}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}}
+|-
+| {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} || {{Element|Hydro}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}}
+|-
+| {{Character|Traveler (Pyro)|20|nobr=1}} || {{Constellation|The Sacred Flame Imperishable|20|nobr=1|level=1}} || {{Element|Pyro}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
+|-
+| {{Character|Wanderer|20|nobr=1}} || {{Talent|Hanega: Song of the Wind|20|nobr=1|type=1}} || {{Element|Anemo}} || &mdash; || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
+|-
+| {{Character|Xianyun|20|nobr=1}} || {{Talent|White Clouds at Dawn|20|nobr=1|type=1}} || {{Element|Anemo}} || &mdash; || &mdash; || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|no}}
+|-
+| {{Character|Xiao|20|nobr=1}} || {{Talent|Bane of All Evil|20|nobr=1|type=1}} || {{Element|Anemo}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|no}}
+|-
+| {{Character|Xilonen|20|nobr=1}} || {{Talent|Yohual's Scratch|20|nobr=1|type=1}} || {{Element|Geo}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}}
+|-
+| {{Character|Yelan|20|nobr=1}} || {{Constellation|Winner Takes All|20|nobr=1|level=1}} || {{Element|Hydro}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|yes}}
+|-
+| {{Character|Yoimiya|20|nobr=1}} || {{Talent|Niwabi Fire-Dance|20|nobr=1|type=1}} || {{Element|Pyro}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|no}} || {{Check|yes}} || {{Check|yes}} || {{Check|no}} || {{Check|no}}
 |}
 
 ==Talents==
@@ -52,13 +86,14 @@ Converted attacks can range from being completely different from the default att
 {{Constellations by Category Table|Conversion Constellations}}
 
 ==Enemies==
-Enemies that utilize Elemental Conversion can convert their existing attacks to a different element. However, they or their weapons will not be inflicted with an element, and are unable to react with other elements, unlike in the case of an infusion. Such enemies include:
+Certain enemies have abilities with effects similar to Conversions that can convert their existing attacks to a different element. However, they or their weapons will not be inflicted with an element, and are unable to react with other elements, unlike in the case of an infusion. Such enemies include:
 
 {{Enemies by Category List|Elemental Conversion Enemies|header=1|h=4}}
 <!--
 ==References==
 {{Reflist}}
 -->
+
 ==Navigation==
 {{Combat Navbox}}
 

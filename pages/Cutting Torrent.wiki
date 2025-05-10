@@ -2,12 +2,11 @@
 |character     = Tartaglia
 |type          = Normal Attack
 |image         = Talent Cutting Torrent.png
-|info          = '''Normal Attack'''<br />Performs up to 6 consecutive shots with a bow.<br /><br />'''Charged Attack'''<br />Performs a more precise [[Aimed Shot]] with increased DMG.<br />While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal {{Color|Hydro DMG}} and apply the Riptide [[status]].<br /><br />'''Riptide'''<br />Opponents affected by Riptide will suffer from {{Color|[[AoE]] Hydro DMG}} effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.<ul><li>Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.</li><li>Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.</li></ul><br />'''Plunging Attack'''<br />Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.<br />When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.
+|info          = '''Normal Attack'''<br>Performs up to 6 consecutive shots with a bow.<br><br>'''Charged Attack'''<br>Performs a more precise [[Aimed Shot]] with increased DMG.<br>While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal {{Color|Hydro DMG}} and apply the Riptide [[status]].<br><br>'''Riptide'''<br>Opponents affected by Riptide will suffer from {{Color|[[AoE]] Hydro DMG}} effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.<ul><li>Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.</li><li>Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.</li></ul><br>'''Plunging Attack'''<br>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.<br>When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.
 |utility1      = Charged Attack
-|utility2      = AoE
-|utility3      = Effects End Character Fallen<!--riptide marks seems to disappear when fallen-->
-|utility4      = Hitlag Extendable
-|utility5      = Status to Enemy
+|utility2      = Effects End Character Fallen<!--riptide marks seems to disappear when fallen-->
+|utility3      = Hitlag Extendable
+|utility4      = Status to Enemy
 |hit1          = 41.3–87.4%
 |hit2          = 46.3–97.9%
 |hit3          = 55.4–117.2%
@@ -19,8 +18,8 @@
 |plunge        = 63.9–135%
 |plungeLow     = 128–271%
 |plungeHigh    = 160–338%
-|attr9         = Riptide Flash DMG (×3)
-|value9        = 12.4–23.6%
+|attr9         = Riptide Flash DMG
+|value9        = 12.4–23.6%×3
 |attr10        = Riptide Burst DMG
 |value10       = 62.0–117.8%
 |attr11        = Riptide Duration
@@ -30,73 +29,70 @@
 '''Cutting Torrent''' is [[Tartaglia]]'s [[Normal Attack]].
 
 ==Gameplay Notes==
-* {{TalentNote|particles|Riptide Flash|1}}
+* {{Talent Note|particles|Riptide Flash|1}}
 ** This particle generation has a cooldown of 3 seconds. This cooldown is shared with the [[Riptide Slash]] particle generation.
-** It is the first and currently only non-Elemental Skill with a generation of elemental particles.
 * [[Normal Attack]] bonuses from artifacts or weapons affect the damage of Riptide Flash and Riptide Burst.
-* The Riptide AoE has quadratic scaling against mobs of enemies that are [[Vacuum Field|grouped]] together.
-** That is, suppose there are n enemies each affected by Riptide grouped close together. If Tartaglia uses his Elemental Skill to attack the n enemies in the cluster at once, it will trigger Riptide Slash for each enemy.
-** Each Riptide Slash will do local [[AoE]] damage hitting surrounding enemies. So there will be n Riptide Slashes, each hitting n-1 enemies.
-** In total, there will be <math>n + n(n-1) = n^2</math> instances of damage against n enemies for each time Tartaglia procs Riptide Slash in melee stance. So for mobs grouped close together (e.g. via Crowd Control abilities of [[Sucrose]], [[Kazuha]], [[The Viridescent Hunt]]), Tartaglia's Riptide damage will scale quadratically with the number of enemies in the cluster.
+* Riptide Flash is not affected by damage fall off due to being not a part of the Fully Charged Aimed Shot.
+* If an attack that would apply Riptide (e.g., Fully Charged Aimed Shot, Riptide Burst, 4th ascension passive Swords of Torrent triggering, and Havoc: Obliteration Ranged Stance version) to an enemy who is not affected by Riptide, would deal enough damage to kill it, Riptide will still be applied, causing Riptide Burst to trigger immediately.
 
 ==Advanced Properties==
 {{Advanced Properties
 |title   = Normal Attack 1
-|gu      = —
+|gu      = &mdash;
 |icdtag  = none
 |poise   = 14.4
 |impulse = 1
 
 |title2   = Normal Attack 2
-|gu2      = —
+|gu2      = &mdash;
 |icdtag2  = none
 |poise2   = 16.46
 |impulse2 = 1
 
 |title3   = Normal Attack 3
-|gu3      = —
+|gu3      = &mdash;
 |icdtag3  = none
 |poise3   = 19.32
 |impulse3 = 1
 
 |title4   = Normal Attack 4
-|gu4      = —
+|gu4      = &mdash;
 |icdtag4  = none
 |poise4   = 19.89
 |impulse4 = 1
 
 |title5   = Normal Attack 5
-|gu5      = —
+|gu5      = &mdash;
 |icdtag5  = none
 |poise5   = 21.24
 |impulse5 = 1
 
 |title6   = Normal Attack 6
-|gu6      = —
+|gu6      = &mdash;
 |icdtag6  = none
 |poise6   = 25.38
 |impulse6 = 1
 
 |title7   = Aimed Shot
-|gu7      = —
+|gu7      = &mdash;
 |icdtag7  = none
 |poise7   = 10
 |impulse7 = 2
 
 |title8   = Aimed Shot (Hit Weak Spot)
-|gu8      = —
+|gu8      = &mdash;
 |icdtag8  = none
 |poise8   = 30
 |impulse8 = 5
 
 |title9   = Fully-Charged Aimed Shot
-|gu9      = 1U<br /><small>(w/ [[Dropoff]])</small>
+|gu9      = 1U<br><small>(w/ [[Dropoff]])</small>
 |icdtag9  = none
 |poise9   = 20
 |impulse9 = 2
 
 |title10   = Fully-Charged Aimed Shot (Hit Weak Spot)
-|gu10      = 1U<br /><small>(w/ Dropoff)</small>
+|gu10      = 1U<br><small>(w/ Dropoff)</small>
 |icdtag10  = none
 |poise10   = 60
 |impulse10 = 5
@@ -115,19 +111,19 @@
 |impulse12 = 5
 
 |title13   = Plunging Attack Collision
-|gu13      = —
+|gu13      = &mdash;
 |icdtag13  = none
 |poise13   = 10
 |impulse13 = 2
 
 |title14   = Low Plunge
-|gu14      = —
+|gu14      = &mdash;
 |icdtag14  = none
 |poise14   = 50
 |impulse14 = 2
 
 |title15   = High Plunge
-|gu15      = —
+|gu15      = &mdash;
 |icdtag15  = none
 |poise15   = 100
 |impulse15 = 3
@@ -141,7 +137,7 @@
 |file2=Cutting Torrent Charged Preview
 |caption2=Charged Attack
 
-|file3=Cutting Torrent Plunge Preview
+|file3=Cutting Torrent Plunging Preview
 |caption3=Plunging Attack
 }}
 {{clr}}
@@ -301,6 +297,9 @@
 ==Talent Leveling==
 {{Talent Upgrade|Tartaglia}}
 
+==Trivia==
+* This was the first non-Elemental Skill Combat Talent with the ability to generate elemental particles, and the only one until [[Wriothesley]]'s release.
+
 ==Other Languages==
 {{Other Languages
 |en      = Cutting Torrent
@@ -313,7 +312,6 @@
 |ja_rm   = Dan'u
 |ja_tl   = Cutting Rain
 |ko      = 단우
-|ko_rm   = Dan'u
 |ko_tl   = Cutting Rain
 |es      = Torrente cortante
 |es_tl   = Cutting Torrent
@@ -330,7 +328,7 @@
 |pt      = Intercepção de Chuva
 |pt_tl   = 
 |tr      = Keskin Sel
-|tr_tl   = 
+|tr_tl   = Cutting Torrent
 |it      = Torrente acuminato
 |it_tl   = Sharp Torrent
 }}
@@ -343,6 +341,7 @@
 
 [[es:Torrente cortante]]
 [[fr:Taille du torrent]]
+[[ja:断雨]]
 [[pt-br:Intercepção de Chuva]]
 [[ru:Дождь расставаний]]
 [[th:Cutting Torrent]]

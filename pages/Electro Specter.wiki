@@ -32,23 +32,23 @@
 |atk_type    = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1 = Fury
-|desc_1 = Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75-31.25</td><td>20</td></tr><tr><td>31.25-43.75</td><td>40</td></tr><tr><td>43.75-56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
+|desc_1 = Taking high DMG from a single attack will charge Fury. The higher the DMG dealt, the more Fury will be accumulated. When they have a full Fury bar, they will grow bigger and gain access to enhanced attacks.<table class="fandom-table"><tr><th>DMG Taken (%Max HP)</th><th>Fury Accumulated (%)</th></tr><tr><td>18.75–31.25</td><td>20</td></tr><tr><td>31.25–43.75</td><td>40</td></tr><tr><td>43.75–56.25</td><td>70</td></tr><tr><td>56.25+</td><td>100</td></tr></table>
 
 |name_2 = Thunderstrike
-|desc_2 = Floats a bit before summoning three lightning bolts to strike down around the player, each dealing '''50% ATK''' as {{Color|AoE Electro DMG}}.
+|desc_2 = Floats a bit before summoning three lightning bolts to strike down around the player, each dealing '''50% ATK''' as {{Color|Electro DMG}}.
 
 |name_3 = Blitz Bump
 |desc_3 = Spins and charges towards the player in a shaky manner, dealing '''62.5% ATK''' as {{Color|Electro DMG}}.
 
 |name_4 = Zip Zap Bash
-|desc_4 = Zips about a few times, dealing '''15% ATK''' as {{Color|Electro DMG}} to players caught in its electricity, before slamming downwards dealing '''100% ATK''' as {{Color|AoE Electro DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
+|desc_4 = Zips about a few times, dealing '''15% ATK''' as {{Color|Electro DMG}} to players caught in its electricity, before slamming downwards dealing '''100% ATK''' as {{Color|Electro DMG}}. This attack will only occur at max Fury and will be the only attack it uses in that state.
 
 |name_5 = Final Burst
-|desc_5 = Explodes after a short pause when defeated dealing '''62.5% ATK''' as  {{Color|AoE Electro DMG}}. If at max Fury, it will follow the player before it explodes, dealing '''75% ATK''' as {{Color|AoE Electro DMG}}.
+|desc_5 = Explodes after a short pause when defeated dealing '''62.5% ATK''' as  {{Color|Electro DMG}}. If at max Fury, it will follow the player before it explodes, dealing '''75% ATK''' as {{Color|Electro DMG}}.
 |caption_5 = Normal
 |file_5_2 = Electro Specter Final Burst Fury
 |caption_5_2 = Max Fury
@@ -67,15 +67,18 @@
 {| class="wikitable"
 ! State !! Ability !! Range Req. (m) !! Priority !! CD (s) !! Initial CD (s) !! Action Interval (s)
 |-
-| rowspan="2" | Normal || Thunderstrike || 2.5–22 || 2 || 5–7.5 || — || rowspan="3" | 3.5
+| rowspan="2" | Normal || Thunderstrike || 2.5–22 || 2 || 5–7.5 || &mdash; || rowspan="3" | 3.5
 |-
 | Blitz Bump || 0–4.5 || 3 || 2.5–5 || 5
 |-
-| Max Fury || Zip Zap Bash || 0–12.5 || — || 5–7 || —
+| Max Fury || Zip Zap Bash || 0–12.5 || &mdash; || 5–7 || &mdash;
 |}
 
+==Tutorials==
+{{Tutorial|Electro Specter}}
+
 ==Descriptions==
-{{Description|A monster born from hightly-concentrated Electro elements that can float in the air.<br />A certain researcher once studied these creatures. He believed they must be [[Hypostases]] of some kind. After all, both had elemental peculiarties and were birthed from areas saturated with elemental energy, right? By the way, he was later investigated for academic corruption.|[[Archive]]}}
+{{Description|A monster born from hightly-concentrated Electro elements that can float in the air.<br>A certain researcher once studied these creatures. He believed they must be [[Hypostases]] of some kind. After all, both had elemental peculiarties and were birthed from areas saturated with elemental energy, right? By the way, he was later investigated for academic corruption.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -111,7 +114,7 @@ Enemy Electro Specter Icon.png|Icon
 |pt      = Espectro Electro
 |pt_tl   = Electro Specter
 |tr      = Elektrik Uçarlopu
-|tr_tl   = 
+|tr_tl   = {{Lex|Electro|tr}} {{Lex|Specter|tr}}
 |it      = Spettro di Electro
 |it_tl   = 
 }}

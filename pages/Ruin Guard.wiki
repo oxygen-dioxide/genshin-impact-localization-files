@@ -43,25 +43,27 @@ Ruin Guard Weak Point 2.png
 </gallery>
 * Weak points are not exposed when the Ruin Guard is paralyzed.
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
+|name_1 = Paralyzed
 |desc_1 = Striking the Ruin Guard's exposed weak point twice with attacks that deal more than 80 [[poise damage]] will stun the Ruin Guard, leaving it vulnerable for a long period of time.
 |file_1 = Ruin Guard Stunned
 
 |name_2 = Stomp and Clap
-|desc_2 = Raises one of its feet and stomps the ground, dealing '''62.5% ATK''' as {{Color|Black|AoE Physical DMG}}. If a player is still within melee range after the stomp, the Ruin Guard may lean down and clap powerfully using its hands, dealing '''87.5% ATK''' as {{Color|Black|AoE Physical DMG}} in front of itself.
+|desc_2 = Raises one of its feet and stomps the ground, dealing '''62.5% ATK''' as {{Color|Physical DMG}}. If a player is still within melee range after the stomp, the Ruin Guard may lean down and clap powerfully using its hands, dealing '''87.5% ATK''' as {{Color|Physical DMG}} in front of itself.
 |file_2 = Ruin Guard Stomp Clap
 
 |name_3 = Punch and Jump Combo
-|desc_3 = Bringing both fists together before performing, it will do spinning punches twice, dealing '''50% ATK''' and '''75% ATK''' as {{Color|Black|Physical DMG}}, before jumping into the air and landing onto the player's location (telegraphed by a red circle) and dealing '''100% ATK''' as {{Color|Black|AoE Physical DMG}}.
+|desc_3 = Bringing both fists together before performing, it will do spinning punches twice, dealing '''50% ATK''' and '''75% ATK''' as {{Color|Physical DMG}}, before jumping into the air and landing onto the player's location (telegraphed by a red circle) and dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
-|name_4 = Spin
-|desc_4 = Begins to spin its upper body and further extend their arms' reach. While spinning, it will slowly march towards the player. This attack lasts for ~7 seconds and rapidly deals '''75% ATK''' as {{Color|Black|Physical DMG}} to players caught in the attack.
+|name_4 = Spiral Close-In
+|desc_4 = Begins to spin its upper body and further extend their arms' reach. While spinning, it will slowly march towards the player. This attack lasts for ~7 seconds and rapidly deals '''75% ATK''' as {{Color|Physical DMG}} to players caught in the attack.
 |file_4 = Ruin Guard Beyblade
 
-|name_5 = Missiles
-|desc_5 = Players outside of the Ruin Guard's melee range will force the Ruin Guard to quickly swivel their upper body around 180° and become stationary, exposing their core on the back with missile cannons towards the player. Shortly after, a red crosshair will appear on the Ruin Guard's target, and will then fire a swarm of homing missiles (6 each). These missiles each deal '''31.25% ATK''' as {{Color|Black|Physical DMG}} on hit. Although the missiles are somewhat slow, they are able to change direction almost instantly, while locked onto their target. Once the crosshair disappears, the missiles no longer pursue their target and continue moving in a straight path.
+|name_5 = Suppressive Volley
+|file_5 = Ruin Guard Missiles
+|desc_5 = Players outside of the Ruin Guard's melee range will force the Ruin Guard to quickly swivel their upper body around 180° and become stationary, exposing their core on the back with missile cannons towards the player. Shortly after, a red crosshair will appear on the Ruin Guard's target, and will then fire a swarm of Seeking Missiles (6 each). These missiles each deal '''31.25% ATK''' as {{Color|Physical DMG}} on hit. Although the missiles are somewhat slow, they are able to change direction almost instantly, while locked onto their target. Once the crosshair disappears, the missiles no longer pursue their target and continue moving in a straight path.
 }}
 
 ===AI Logic===
@@ -86,58 +88,65 @@ Ruin Guard Weak Point 2.png
 |-
 | Stomp 4 || 0–4 || 0–90 || 5 || 2–4 || &mdash; || {{check|no}}
 |-
-| Spin || 0–15 || &mdash; || 5 || 30–60 || 30–60 || {{check|yes}}
+| Spiral Close-In || 0–15 || &mdash; || 5 || 30–60 || 30–60 || {{check|yes}}
 |-
-| Missiles 1 || 15–50 || 0–90 || 5 || 5–10 || 0 || {{check|yes}}
+| Suppressive Volley 1 || 15–50 || 0–90 || 5 || 5–10 || 0 || {{check|yes}}
 |-
-| Missiles 2 || 7–15 || 0–90 || 5 || 20–60 || 20–60 || {{check|yes}}
+| Suppressive Volley 2 || 7–15 || 0–90 || 5 || 20–60 || 20–60 || {{check|yes}}
 |-
-| Missiles 3 || 4–50 || 0–90 || 5 || 5–10 || 0 || {{check|yes}}
+| Suppressive Volley 3 || 4–50 || 0–90 || 5 || 5–10 || 0 || {{check|yes}}
 |-
-| Missiles 4 || 4–50 || 0–90 || 5 || 5–10 || 0 || {{check|yes}}
+| Suppressive Volley 4 || 4–50 || 0–90 || 5 || 5–10 || 0 || {{check|yes}}
 |-
-| Missiles 5 || 4–50 || 0–90 || 5 || 5–10 || 0 || {{check|yes}}
+| Suppressive Volley 5 || 4–50 || 0–90 || 5 || 5–10 || 0 || {{check|yes}}
 |}
 
 ==Strategy==
-Ruin Guards are either active or inactive when they appear. Inactive Ruin Guards are still hostile when the player gets close to them; these can be detected with [[Elemental Sight]] and glow white like other non-elemental enemies. If they do not glow white, these are simply scenery and are harmless.
+Ruin Guards are either active or inactive when they appear. Inactive Ruin Guards are still hostile when the player gets close to them; these can be detected with [[Elemental Sight]] and glow white like other non-elemental enemies. If they do not glow white, these are simply scenery and are harmless. They can also be marked by certain Talents while inactive, such as [[Nahida's Elemental Skill]]; Ruin Guards that are simply scenery cannot be marked.
+
+<gallery>
+Ruin Guards Without Elemental Sight.png|Three sitting Ruin Guards, viewed without Elemental Sight
+Ruin Guards With Elemental Sight.png|Elemental Sight reveals that only one Ruin Guard is an enemy
+</gallery>
 
 Ruin Guards possess two weak points; their glowing eye, and a small socket at their back. When either spot is hit, the Ruin Guard will stagger briefly. If a second follow-up attack is launched quickly at the weak point, the Ruin Guard will collapse and deactivate for a short duration, allowing for damage to be stacked safely without fear of reprisal. In the event that the rear weak spot is hit, it will swivel face-front towards the player's direction.
 
-If the first hit on their weak point is successful but the player does not follow-up with a second hit, the Ruin Guard will return to normal. Regardless if fully disabled or not, protective runes will appear on both weak points, preventing them from being disabled again until the rune fades away. While any character can hit the weak spots, [[Bows|bow]] users are far better due to being able to consistently and precisely hit them. Bow users will need to perform Charged Attacks in order to cripple the Ruin Guard.
+If the first hit on their weak point is successful but the player does not follow-up with a second hit, the Ruin Guard will return to normal. Regardless if fully disabled or not, protective runes will appear on both weak points, preventing them from being disabled again until the rune fades away, but still acting as normal weak points. While any character can hit the weak spots, [[bow]] users are far better due to being able to consistently and precisely hit them. Bow users will need to perform Charged Attacks in order to cripple the Ruin Guard.
 
 Due to the Ruin Guard's high [[Resistance]] to {{Color|Physical DMG}}, elemental attacks are generally recommended when fighting them.
 
-Whenever they perform their Bombardment attack, there is an opening for a bow user to disable them before the missiles can be launched. If the missiles are successfully launched, one can dash out of the missiles' path when they're close to hitting.
+Whenever they perform their Suppressive Volley attack, there is an opening for a bow user to disable them before the missiles can be launched. If the missiles are successfully launched, one can dash out of the missiles' path when they're close to hitting.
 
-The spinning attack is by far the most dangerous attack, as it deals high damage to anyone caught in its range while continuously staggering them for long periods of time. Therefore, it is advisable to stay out of its range and pay attention to one's surroundings to avoid being cornered. Note that in this state, the Ruin Guard can still be stunned if its weak points are struck.
-
-==Locations==
-'''You can pinpoint Ruin Guard locations in [[Mondstadt]] on the map using the [[Adventurer Handbook]].''' According to the [[Teyvat Travel Guide - Mondstadt]], they can be found in [[Brightcrown Canyon]], which is on a ''"valley I found at the northeast coast of Cider Lake".'
+The Spiral Close-In attack is by far the most dangerous attack, as it deals high damage to anyone caught in its range while continuously staggering them for long periods of time. Therefore, it is advisable to stay out of its range and pay attention to one's surroundings to avoid being cornered. Note that in this state, the Ruin Guard can still be stunned if its weak points are struck.
 
 ==Achievements==
 {{Achievement Topic Table|topic=Ruin Guard}}
 
+==Tutorials==
+{{Tutorial|Ruin Guard}}
+
 ==Descriptions==
-{{Description|An ancient humanoid war machine.<br />Legend has it that these machines were combat automatons created by a long-destroyed nation. They now wander ruins and ancient detritus, attacking offending travelers. Research indicates that the Ruin Guards and the ruins they operate in do not originate from the same source, suggesting that there may be a difference of as much as several thousand years between them on the timeline. So why then do the Ruin Guards continue staying among these ruins, using their "explosive firepower" to protect the crumbling walls and broken tiles?|[[Archive]]}}
+{{Description|An ancient humanoid war machine.<br>Legend has it that these machines were combat automatons created by a long-destroyed nation. They now wander ruins and ancient detritus, attacking offending travelers. Research indicates that the Ruin Guards and the ruins they operate in do not originate from the same source, suggesting that there may be a difference of as much as several thousand years between them on the timeline. So why then do the Ruin Guards continue staying among these ruins, using their "explosive firepower" to protect the crumbling walls and broken tiles?|[[Archive]]}}
 
 ==Trivia==
 * According to the [[Teyvat Travel Guide - Mondstadt]], the valley in which a Ruin Guard is found ([[Brightcrown Canyon]]) is guarded by mechanisms, but the soldiers responsible for holding the pass for the King of Gales were nowhere to be found now. All the winds of time had left behind were the unintelligent Hilichurls and silent mechanical guards. There was an attempt by [[Alice]] to control the Ruin Guards with Hilichurls, but it "horrifically" failed.
 * According to Dainsleif,<ref>{{Ref/Quest|A Herald Without Adherents}}</ref> the Ruin Guards were weapons of war codenamed by people of Khaenri'ah as "Field Tillers". These came about because "the land is not to be tilled with farming tools, but rather is to be fought for with steel and blood." After the destruction of Khaenri'ah, the Field Tillers were left without masters and went out of control, spreading to every corner of Teyvat. As many ended up in ruins and history of Khaenri'ah is virtually unknown by most, present-day people called them "Ruin Guards", believing them to be protectors of the ruins. While many have since fallen into disrepair, a few remain active but dormant, while even fewer continue to wander aimlessly across Teyvat.
 * Ruin Guards sometimes go by names like Hu-41013, beginning with the prefix Hu and ending with a numeric code. This is demonstrated in certain boss fights and in the [[Record of Serial No.]] in [[Dragonspine]].
 ** Possible names for most Ruin Guards include Hu-04510, Hu-11037, Hu-11226, Hu-11307, Hu-13086, Hu-21258, Hu-23532, Hu-24601, Hu-25173, Hu-2734, Hu-36226, Hu-39091, Hu-41013, Hu-41125, Hu-41822, Hu-51789, Hu-57113, Hu-58515, Hu-61412, Hu-63321, Hu-63616, Hu-68914, Hu-71419, Hu-77514, Hu-82419, Hu-89488, Hu-91943, Hu-93439, Hu-93511, Hu-93736, Hu-95710, Hu-95912, and Hu-96988.
-** The Ruin Guard in the [[Thousand Winds Temple]] is always named GN/Hu-24601.
+** The Ruin Guard in the [[Thousand Winds Temple]] is always named GN/Hu-24601. This number is possibly a reference to {{w|Les Misérables}}, with {{w|Jean Valjean}}'s prisoner number famously being the same.
 ** The Record of Serial No. Ruin Guard remnants, which are simply dialogue targets rather than enemies, are named Hu-16180, Hu-21030, Hu-31122, Hu-42318, Hu-57104, GN/Hu-68513, Hu-73011, Hu-81122, and Hu-96917.
-*The Ruin Guards at the Thousand Winds Temple and [[Nameless Island]] are the only two respawnable Ruin Guards with a title.
-
+* The Ruin Guards at the Thousand Winds Temple and [[Nameless Island]] are the only two respawnable Ruin Guards with a title.
+{{Clr}}
 ==Gallery==
 <gallery>
 Enemy Ruin Guard Icon.png|Icon
-Enemy Hilichurl Slime Ruin Guard.jpg|[https://genshin.mihoyo.com/de/news/detail/6110 Q&A with the developers (DE)] <!--2020&mdash;11&mdash;22-->
+Developers Discussion Ruin Guard Hilichurl Slime.png|[https://genshin.mihoyo.com/de/news/detail/6110 Q&A with the developers (DE)] <!--2020 11 22-->
 </gallery>
 
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
+
 ==Other Languages==
-===Ruin Guard===
 {{Other Languages
 |en      = Ruin Guard
 |zhs     = 遗迹守卫
@@ -145,11 +154,10 @@ Enemy Hilichurl Slime Ruin Guard.jpg|[https://genshin.mihoyo.com/de/news/detail/
 |zht     = 遺蹟守衛
 |zht_rm  = Yíjī Shǒuwèi
 |zh_tl   = Ruin Guardian
-|ja      = {{Rubi|遺|い|跡|せき|守|しゅ|衛|えい}}
-|ja_rm   = Iseki Shu'ei
+|ja      = 遺跡守衛
+|ja_rm   = Iseki Shuei
 |ja_tl   = Ruin Guard
 |ko      = {{tt|유적|遺蹟}} 가디언
-|ko_rm   = Yujeok Gadieon
 |ko_tl   = Ruin Guardian
 |es      = Guardián de las Ruinas
 |es_tl   = Guardian of the Ruins
@@ -166,13 +174,10 @@ Enemy Hilichurl Slime Ruin Guard.jpg|[https://genshin.mihoyo.com/de/news/detail/
 |pt      = Guarda das Ruínas
 |pt_tl   = Guard of the Ruins
 |tr      = Harabe Muhafızı
-|tr_tl   = 
+|tr_tl   = Ruin Guard
 |it      = Guardia delle rovine
-|it_tl   = 
+|it_tl   = Ruin Guard
 }}
-
-===Field Tiller===
-{{Transclude|Field Tiller|Field Tiller}}
 
 ==Change History==
 {{Change History|1.0}}
@@ -185,6 +190,7 @@ Enemy Hilichurl Slime Ruin Guard.jpg|[https://genshin.mihoyo.com/de/news/detail/
 
 [[de:Ruinenwächter]]
 [[es:Guardián de las Ruinas]]
+[[fr:Gardien des ruines]]
 [[ja:遺跡守衛]]
 [[pt-br:Guarda das Ruínas]]
 [[ru:Страж руин]]

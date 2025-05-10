@@ -8,7 +8,7 @@
 
 ==Stagger==
 ===Stagger Level===
-When the target is poise broken, it can be staggered by attacks. The extent of the stagger effects are determined by the stagger level of the attack.<ref>NGA: [https://bbs.nga.cn/read.php?tid=31352168 《韧性力学》第三版 - 抗打断和冲击效果的原理]</ref>
+When the target is poise broken, it can be staggered by attacks. The extent of the stagger effects is determined by the stagger level of the attack.<ref>NGA: [https://bbs.nga.cn/read.php?tid=31352168 {{zh|《韧性力学》第三版 - 抗打断和冲击效果的原理}}]</ref>
 
 Some stagger effects can interrupt motions of the target and force them to shift. Other stagger effects can't.
 
@@ -17,13 +17,13 @@ Some stagger effects can interrupt motions of the target and force them to shift
 |-
 | Mute || No || No visual effect
 |-
-| Shake || No || Defender will have a mild stagger animations
+| Shake || No || Defender will have a mild stagger animation
 |-
-| Light || Yes || Defender will have an obvious stagger animations
+| Light || Yes || Defender will have an obvious stagger animation
 |-
 | Heavy || Yes || Defender will be knocked back
 |-
-| Air || Yes || Defender will be knocked away
+| Air || Yes || Defender will be knocked airborne
 |}
 
 ===Real Stagger Level===
@@ -99,8 +99,52 @@ Some enemies are immune to specific stagger effects.
 
 Characters and enemies can be immune to all stagger effects when they are in the [[Invincibility Frames#Damage Nullification|invincible]] state.
 
+==Impulse==
+===Impulse Type===
+Impulse Type is a property for attacks that determines their stagger characteristics. It will determine the attack's Stagger Level, as well as vertical and horizontal forces which will determine the direction and velocity of travel.
+
+Most attacks use a common impulse type, while some may use special impulse type.
+
+{| class="wikitable sortable"
+!Common Impulse Type!!Stagger Level!!Horizontal Force!!Vertical Force
+|-
+| Default || Mute || 0 || 0
+|-
+| Level 0 || Mute || 0 || 0
+|-
+| Level 1 || Shake || 0 || 0
+|-
+| Level 2 || Light || 200 || 0
+|-
+| Level 3 || Heavy || 200 || 0
+|-
+| Level 4 || Heavy || 800 || 0
+|-
+| Level 5 || Air || 480 || 600
+|-
+| Level 6 || Air || 655 || 800
+|-
+| Level 7 || Air || 0 || 800
+|-
+| Level 8 || Air || 795 || 900
+|-
+| Level 9 || Air || 1200 || 600
+|}
+
+===Character Attacks===
+{{Main|Interruption Resistance/Data#Poise Damage And Stagger Effect}}
+
+===Enemy Attacks===
+Enemy attacks also have forces.
+
+Most attacks use Level 4, Level 5 or Level 6 Impulse Type.
+
+Some consecutive attacks will have mild stagger and forces.
+
+Some attacks from bosses will have stronger stagger and forces.
+
 ==Weight==
-Weight is a hidden attribute related to some physics systems in Genshin Impact.
+Weight is a hidden attribute related to some physics systems in ''Genshin Impact''.
 
 ===Real Weight===
 Weight can be effected by special abilities. For example, some enemies will increase their weight when they have elemental shields.
@@ -174,6 +218,58 @@ The weight of all characters is 75.
 | {{Enemy|Eremite Scorching Loremaster|20}} || 80
 |-
 | {{Enemy|Eremite Floral Ring-Dancer|20}} || 80
+|-
+| {{Enemy|Clockwork Meka|20}} (Most) || 150
+|-
+| {{Enemy|Construction Specialist Mek|20}} || 300
+|-
+| {{Enemy|Underwater Survey Mek|20}} || 125
+|-
+| {{Enemy|Blubberbeast|20}} (Small) || 150
+|-
+| {{Enemy|Blubberbeast|20}} (Large) || 300
+|-
+| {{Enemy|Hunter's Ray|20}} || 80
+|-
+| {{Enemy|Armored Crab|20}} || 75
+|-
+| {{Enemy|Hat Jellyfish|20}} || 80
+|-
+| {{Enemy|Bubbly Seahorse|20}} || 60
+|-
+| {{Enemy|Angelic Sea Hare|20}} || 60
+|-
+| {{Enemy|Sternshield Crab|20}} || 125
+|-
+| {{Enemy|Bubbler Seahorse|20}} || 125
+|-
+| {{Enemy|Cherubic Sea Hare|20}} || 60
+|-
+| {{Enemy|Deepwater Assault Mek|20}} || 150
+|-
+| {{Enemy|Sauroform Tribal Warrior|20}} (Low Tier) || 70
+|-
+| {{Enemy|Sauroform Tribal Warrior|20}} (High Tier) || 100
+|-
+| {{Enemy|Koholasaurus|20}} || 120
+|-
+| {{Enemy|Koholasaur Whelp|20}} || 75
+|-
+| {{Enemy|Tepetlisaurus|20}} || 150
+|-
+| {{Enemy|Tepetlisaur Whelp|20}} || 75
+|-
+| {{Enemy|Yumkasaurus|20}} || 110
+|-
+| {{Enemy|Yumkasaur Whelp|20}} || 75
+|-
+| {{Enemy|Qucusaurus|20}} || 110
+|-
+| {{Enemy|Qucusaurus Chick|20}} || 75
+|-
+| {{Enemy|Iktomisaurus|20}} || 110
+|-
+| {{Enemy|Iktomisaurus Chick|20}} || 75
 |}
 
 ====Elite Enemies====
@@ -223,6 +319,26 @@ The weight of all characters is 75.
 | {{Enemy|Primal Construct|20}} || 101
 |-
 | {{Enemy|Consecrated Beast|20}} || 150
+|-
+| {{Enemy|Hilichurl Rogue|20}} || 150
+|-
+| {{Enemy|Tainted Hydro Phantasm|20}} || 101
+|-
+| {{Enemy|Breacher Primus|20}} (Small) || 100
+|-
+| {{Enemy|Breacher Primus|20}} (Large) || 150
+|-
+| {{Enemy|Fatui Operative|20}} || 85
+|-
+| {{Enemy|Xuanwen Beast|20}} || 150
+|-
+| {{Enemy|Praetorian Golem|20}} || 500
+|-
+| {{Enemy|Avatar of Lava|20}} || 150
+|-
+| {{Enemy|Secret Source Automaton: Hunter-Seeker|20}} || 300
+|-
+| {{Enemy|Wayob Manifestation|20}} || 150
 |}
 
 ====Normal Bosses====
@@ -260,6 +376,32 @@ The weight of all characters is 75.
 | {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}} || 200
 |-
 | {{Enemy|Setekh Wenut|20}} || 500
+|-
+| {{Enemy|Iniquitous Baptist|20}} || 200
+|-
+| {{Enemy|Emperor of Fire and Iron|20}} || 20000
+|-
+| {{Enemy|Icewind Suite|20}} || 300
+|-
+| {{Enemy|Millennial Pearl Seahorse|20}} || 250
+|-
+| {{Enemy|Prototype Cal. Breguet|20}} || 300
+|-
+| {{Enemy|Hydro Tulpa|20}} || 20000
+|-
+| {{Enemy|Solitary Suanni|20}} || 150
+|-
+| {{Enemy|"Statue of Marble and Brass"|20}} || 500
+|-
+| {{Enemy|Kongamato|20}} || 20000
+|-
+| {{Enemy|Holawaqa Ngoubou|20}} || 300
+|-
+| {{Enemy|Secret Source Automaton: Configuration Device|20}} || 300
+|-
+| {{Enemy|Tenebrous Papilla|20}} || 300
+|-
+| {{Enemy|Wayward Hermetic Spiritspeaker|20}} || 300
 |}
 
 ====Weekly Bosses====
@@ -285,6 +427,14 @@ The weight of all characters is 75.
 | {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Phase 2) || 450
 |-
 | {{Enemy|Everlasting Lord of Arcane Wisdom|20}} || 20000
+|-
+| {{Enemy|Guardian of Apep's Oasis|20}} || 20000
+|-
+| {{Enemy|All-Devouring Narwhal|20}} || 20000
+|-
+| {{Enemy|All-Devouring Narwhal|20}} (Phantom) || 150
+|-
+| {{Enemy|The Knave|20}} || 500
 |}
 
 ====Special Enemies====
@@ -332,6 +482,18 @@ The weight of all characters is 75.
 | {{Enemy|Spirit of Omen: Pyro Scorpion|20}} || 150
 |-
 | {{Enemy|Spirit of Omen: Dendro Spirit-Serpent|20}} || 150
+|-
+| {{Enemy|Preliminary Proliferating Organism|20}} || 75
+|-
+| {{Enemy|Protective Proliferating Organism|20}} || 300
+|-
+| {{Enemy|Pernicious Proliferating Organism|20}} || 100
+|-
+| {{Enemy|Predatory Proliferating Organism|20}} || 100
+|-
+| {{Enemy|Provender Proliferating Organism|20}} || 300
+|-
+| {{Enemy|Perch Proliferating Organism|20}} || 100
 |}
 
 ===Weight Modifiers===
@@ -359,53 +521,11 @@ The weight of all characters is 75.
 | {{Enemy|Magatsu Mitake Narukami no Mikoto|20}} (Baleful Shadowlord State) || 5
 |}
 
-==Impulse==
-===Impulse Type===
-Impulse Type is a setting for stagger in attacks and determines their stagger characteristic.
-
-Most attacks use common impulse type. Other attacks use special impulse type.
-
-{| class="wikitable sortable"
-!Common Impulse Type!!Stagger Level!!Horizontal Force!!Vertical Force
-|-
-| Default||Mute ||0 ||0
-|-
-| Level 0||Mute ||0 ||0
-|-
-| Level 1||Shake||0||0
-|-
-| Level 2||Light||200|| 0
-|-
-| Level 3||Heavy||200|| 0
-|-
-| Level 4||Heavy||800|| 0
-|-
-| Level 5||Air|| 480|| 600
-|-
-| Level 6||Air|| 655|| 800
-|-
-| Level 7||Air|| 0||800
-|-
-| Level 8||Air|| 795|| 900
-|-
-| Level 9||Air|| 1200||600
-|}
-
-===Character Attacks===
-{{Main|Interruption Resistance/Data#Poise Damage And Stagger Effect}}
-
-===Enemy Attacks===
-Enemy attacks also have forces.
-
-Most attacks use Level 4, Level 5 or Level 6 Impulse Type.
-
-Some consecutive attacks will have mild stagger and forces.
-
-Some attacks from bosses will have stronger stagger and forces.
-
 ==References==
 {{Reflist}}
 
 ==Navigation==
 {{Combat Navbox|state=collapsed}}
 {{Attribute Navbox}}
+
+[[vi:Kháng Gián Đoạn/Choáng]]

@@ -1,8 +1,6 @@
 {{Terminology Infobox
 |image        = Icon Attribute Stamina.png
 |type         = Attributes
-|type2        = Combat
-|type3        = Game Systems
 }}
 '''Stamina''' is a resource/attribute that is used in various combat and movement techniques like [[Sprinting]] (or Dodging), [[Climbing]], [[Swimming]], [[Gliding]], and [[Charged Attack]]s. After not performing any of these actions for 1.5 seconds, Stamina will naturally regenerate at a rate of 25 Stamina per second. The Stamina meter is displayed as a yellow bar to the right of the character in the center of the screen when either depleting or recharging and will automatically hide itself when fully charged. Visually the meter is divided into sections, each representing 100 Stamina each.
 
@@ -11,9 +9,9 @@ It is important to note that Stamina is a shared pool for the entire party and n
 Various characters' passive talents and food items can help decrease the consumption of Stamina in conditional situations, such as [[Kaeya]]'s [[Hidden Strength]] (Sprinting Stamina consumption reduction) or [[Amber]]'s [[Gliding Champion]] (Gliding Stamina consumption reduction).
 
 ==Maximum Stamina==
-The player starts with 100 base Stamina. Each [[Statue of The Seven]] upgrade in [[Mondstadt]] and [[Liyue]] raises maximum Stamina by 7 for the first and second upgrade, and then 8 for the seven remaining upgrades for a total of 70 additional Stamina by Level 10.
+The player starts with 100 base Stamina.
 
-The maximum possible Stamina is 240 (70 from Mondstadt's Statues of the Seven and 70 from Liyue's Statues of the Seven).
+Upgrading a nation's [[Statue of The Seven]] raises maximum Stamina by 7 for the first and second upgrades and then 8 for the seven remaining upgrades, for a total of 70 additional Stamina from a single statue at Level 10.
 {| class="wikitable"
 |-
 ! Statue Level!! Cumulative Stamina Bonus
@@ -38,6 +36,7 @@ The maximum possible Stamina is 240 (70 from Mondstadt's Statues of the Seven an
 |-
 |10||+70
 |}
+The maximum possible Stamina is 240, achievable with 18 upgrades in any two nations' Statues of The Seven or a total of at least 19 upgrades across six nations' Statues.<!-- 19 across 6 nations, but expecting 20 across 7 nations -->
 
 ==Stamina Consumption Reduction==
 ===Elemental Resonance===
@@ -70,6 +69,7 @@ Certain characters have [[Talents]] that modify Stamina consumption.
 ===Talents===
 {{Talents by Category Table|Stamina Recovery Talents}}
 
+===Food===
 When consumed, the character instantly recovers a set amount of Stamina.
 {{Food by Category Table|Stamina Increase Dishes}}
 
@@ -155,6 +155,14 @@ All numbers are before Passive Talents or Constellations that modify Stamina cos
 | Charged Attack
 | 25
 |-
+| [[Tartaglia]]
+| [[Foul Legacy: Raging Tide]] Charged Attack
+| 20
+|-
+| [[Raiden Shogun]]
+| [[Secret Art: Musou Shinsetsu]] Charged Attack
+| 20
+|-
 | [[Arataki Itto]]
 | Charged Attack
 | 20
@@ -163,9 +171,33 @@ All numbers are before Passive Talents or Constellations that modify Stamina cos
 | Charged Attack
 | 25
 |-
+| [[Arlecchino]]
+| High-Speed Movement
+| 40 per second
+|-
+| [[Kinich]]
+| Charged Attack
+| 50
+|-
+| [[Ororon]]
+| [[Flowing Fog, Spritely Shadows]]
+| 75 for holding jump, 20 Stamina per second while using Aiming Mode mid-air
+|-
+| [[Citlali]]
+| [[Smoke, Mirrors, and the Flowing Winds]]
+| 75 for holding jump, 20 Stamina per second while using Aiming Mode mid-air
+|-
+| [[Mavuika]]
+| Charged Attack
+| 50
+|-
 | [[Abyss Herald: Frost Fall]]
 | Darkfrost Enchantment
 | 50 upon activation, 20 for subsequent activation 3s after first activation
+|-
+| [[Iniquitous Baptist]]
+| Dark Frost Icicles
+| 80 on first successful hit, 25 for follow-up hits 3s after first activation
 |}
 
 ==Stamina Consumption Reduction Calculation==
@@ -186,7 +218,6 @@ For example, if the party is under the effects of [[Impetuous Winds]] (-15%), [[
 |ja       = スタミナ
 |ja_rm    = Sutamina
 |ko       = 스태미나
-|ko_rm    = Seutaemina
 |es       = Aguante
 |es_tl    = Endurance
 |fr       = Endurance
@@ -199,11 +230,11 @@ For example, if the party is under the effects of [[Impetuous Winds]] (-15%), [[
 |vi       = {{tt|Thể Lực|体力}}
 |vi_tl    = Physical Strength
 |de       = Ausdauer
-|de_tl    = Stamina
+|de_tl    = Endurance
 |id       = Stamina
 |pt       = Stamina
 |tr       = Dayanıklılık
-|tr_tl    = 
+|tr_tl    = Endurance
 |it       = Vigore
 |it_tl    = Vigor
 }}

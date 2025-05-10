@@ -1,16 +1,19 @@
 {{ResistanceTabs}}
 {{About|an attribute|the Inazuman faction commonly known as "the resistance"|Watatsumi Army}}
-{{See also|Defense|Damage Reduction}}
+{{See also|DEF|DMG Reduction}}
 {{Terminology Infobox
-|type         = Attributes
+|type         = Combat
+|type2        = Game Systems
 }}
-Characters and enemies can have different '''resistances''' to [[elemental]] and [[physical]] [[damage]]. There are further ways to increase or decrease these resistances. The resistance [[attribute]] is denoted by RES in-game. Its formula is:
+'''Resistances''', abbreviated in-game as '''RES''', are [[attribute]]s that reduces incoming [[DMG]] of specific types.
+
+Base RES of playable characters is always 0%, while Base RES for enemies vary greatly. There are ways to increase or decrease RES. Total RES is calculated as:
 
 :<math>\%\text{ RES} = \%\text{ RES Base} + \%\text{ RES Bonus} - \% \text{ RES Debuffs}</math>
 
 ==RES Multiplier==
-[[File:Resistance multiplier graph.png|thumb|right|400px|Resistance Multiplier vs. RES%]]
-The Resistance multiplier varies nonlinearly with the RES percentage. Depending on the value of <math>\% \text{ RES}</math> in the interval below, the corresponding <math>\text{RES Multiplier}</math> is as follows:<ref name="Chinese forum post">Chinese HoYoLAB: [https://bbs.mihoyo.com/ys/article/2160993 【空荧酒馆】怪物全元素抗性及抗性测算（已更1.6相关）]</ref>
+[[File:RES_Multiplier_vs_RES_Graph.png|thumb|right|400px|RES Multiplier vs RES]]
+The DMG multiplier provided by RES varies nonlinearly with the RES percentage. Depending on the value of <math>\% \text{RES}</math> in the interval below, the corresponding <math>\text{RES Multiplier}</math> is as follows:<ref name="Chinese forum post">Chinese HoYoLAB: [https://bbs.mihoyo.com/ys/article/2160993 【空荧酒馆】怪物全元素抗性及抗性测算（已更1.6相关）]</ref>
 
 {| class="article-table sortable waffle no-grid"
 |-
@@ -31,32 +34,32 @@ For example, an enemy with 10% RES (0.1) will have a <math>\text{1}-\text{0.1}=\
 
 In general, since the RES multiplier decreases with RES percentage, the lower the target's RES percentage, the more damage one can do to it.
 
-==Resistance Types==
-There are 8 types of resistances corresponding to the 7 [[Elements]] and {{Color|Physical DMG}}.
+==RES Types==
+There are 8 types of RES corresponding to the 7 [[Elements]] and {{Color|Physical DMG}}.
 
 Specific details for the abilities, items, reactions, and other effects that modify a character's or enemy's resistance are listed on these separate pages.
 
 {| class="article-table tdc1"
-! [[Element]] !! Resistance
+! [[Element]] !! RES
 |-
-| {{Element|Anemo| 30}} || [[Anemo Resistance]]
+| {{Element|Anemo|30}} || [[Anemo RES]]
 |-
-| {{Element|Cryo| 30}} || [[Cryo Resistance]]
+| {{Element|Cryo|30}} || [[Cryo RES]]
 |-
-| {{Element|Dendro| 30}} || [[Dendro Resistance]]
+| {{Element|Dendro|30}} || [[Dendro RES]]
 |-
-| {{Element|Electro| 30}} || [[Electro Resistance]]
+| {{Element|Electro|30}} || [[Electro RES]]
 |-
-| {{Element|Geo| 30}} || [[Geo Resistance]]
+| {{Element|Geo|30}} || [[Geo RES]]
 |-
-| {{Element|Hydro| 30}} || [[Hydro Resistance]]
+| {{Element|Hydro|30}} || [[Hydro RES]]
 |-
-| {{Element|Pyro| 30}} || [[Pyro Resistance]]
+| {{Element|Pyro|30}} || [[Pyro RES]]
 |-
-| {{Element|Physical| 30}} || [[Physical Resistance]]
+| {{Element|Physical|30}} || [[Physical RES]]
 |}
 
-==Enemy Resistances==
+==Enemy RES==
 {| class="article-table sortable"
 |-
 ! [[Enemy]]
@@ -67,7 +70,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Slime|20}}
 | 10%
 | 10%
-| Immune to corresponding element
+| Immune to own element
 |-
 | {{Enemy|Hilichurls|20}}
 | 10%
@@ -82,12 +85,12 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Samachurl|20}}
 | 10%
 | 10%
-| +40% RES to corresponding element
+| +40% RES to own element
 |-
 | {{Enemy|Lawachurl|20}}
 | 10%
 | 50%
-| +60% RES to corresponding element
+| +60% RES to own element
 |-
 | {{Enemy|Ruin Guard|20}}
 | 10%
@@ -107,7 +110,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | rowspan="2" | {{Enemy|Whopperflower|20}}
 | rowspan="2" | 35%
 | rowspan="2" | 35%
-| +40% RES to corresponding element
+| +40% RES to own element
 |-
 | -25% All RES when stunned
 |-
@@ -124,7 +127,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Fatui Cicin Mage|20}}
 | 10%
 | -20%
-| +40% RES to corresponding element
+| +40% RES to own element
 |-
 | {{Enemy|Treasure Hoarder|20}}
 | 10%
@@ -146,7 +149,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | rowspan="2" | 30%
 | +40% Geo RES
 |-
-| +20% RES to corresponding element after infusing
+| +20% RES to own element after infusing
 |-
 | {{Enemy|Abyss Mage|20}}
 | 10%
@@ -171,7 +174,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Cicin|20}}
 | 10%
 | -50%
-| +40% RES to corresponding element
+| +40% RES to own element
 |-
 | {{Enemy|The Great Snowboar King|20}}
 | 10%
@@ -181,9 +184,9 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Hypostasis|20}}
 | 10%
 | 10%
-| Immune to corresponding element
+| Immune to own element
 |-
-| {{Enemy|Oceanid|20}}
+| {{Enemy|Rhodeia of Loch|text=Oceanid|20}}
 | 10%
 | 10%
 |
@@ -193,7 +196,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | rowspan="5" | 15%
 | Immune to Hydro
 |-
-| Boar and Ferret -55% Pyro RES
+| Boar and Squirrel -55% Pyro RES
 |-
 | Crane and Raptor -55% Electro RES
 |-
@@ -232,7 +235,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | rowspan="4" | 30%
 | +40% Geo RES
 |-
-| +20% RES to corresponding element
+| +20% RES to own element
 |-
 | +200% All RES when awaking
 |-
@@ -251,11 +254,11 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | rowspan="3" | {{Enemy|Childe|20}}
 | rowspan="3" | 0%
 | rowspan="3" | 0%
-| Phase 1:<br />+50% Hydro RES<br />-30% All RES when stunned
+| Phase 1:<br>+50% Hydro RES<br>-30% All RES when stunned
 |-
-| Phase 2:<br />+50% Electro RES<br />-50% All RES when stunned
+| Phase 2:<br>+50% Electro RES<br>-50% All RES when stunned
 |-
-| Phase 3:<br />+70% Hydro RES<br />+70% Electro RES
+| Phase 3:<br>+70% Hydro RES<br>+70% Electro RES
 |-
 | rowspan="3" | {{Enemy|Azhdaha|20}}
 | rowspan="3" | 10%
@@ -274,7 +277,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Dual Maguu Kenki|20}}
 | 10%
 | 10%
-| +20% RES to corresponding element
+| +20% RES to own element
 |-
 | {{Enemy|Ruin Cruiser|20}}
 | 10%
@@ -319,7 +322,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Specter|20}}
 | 10%
 | 10%
-| Immune to corresponding element
+| Immune to own element
 |-
 | {{Enemy|Thunder Manifestation|20}}
 | 10%
@@ -329,62 +332,62 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|La Signora|20}}
 | 10%
 | 10%
-| Phase 1: +40% Cryo RES<br />Phase 2: +60% Pyro RES
+| Phase 1: +40% Cryo RES<br>Phase 2: +60% Pyro RES
 |-
 | {{Enemy|Rifthound|20}}
 | 25%
 | 25%
-| -65% RES to corresponding element in Elemental Devourer state
+| -65% RES to own element in Elemental Devourer state
 |-
 | {{Enemy|Rifthound Whelp|20}}
 | 20%
 | 20%
-| -30% RES to corresponding element in Elemental Devourer state
+| -30% RES to own element in Elemental Devourer state
 |-
 | {{Enemy|Golden Wolflord|20}}
 | 25%
 | 25%
-| +200% All RES at the beginning of the fight<br />-45% Geo RES in Elemental Devourer state
+| +200% All RES at the beginning of battle<br>-45% Geo RES in Elemental Devourer state
 |-
 | {{Enemy|Fellflower|20}} (Event Boss)
 | 210%
 | 210%
-| +60% Cryo RES<br />-200% All RES after the shield is destroyed
+| +60% Cryo RES<br>-200% All RES after the shield is destroyed
 |-
 | {{Enemy|Bathysmal Vishap|20}} (Hatchling)
 | 10%
 | 30%
-| +10% RES to corresponding element
+| +10% RES to own element
 |-
 | {{Enemy|Bathysmal Vishap|20}} (Large)
 | 10%
 | 30%
-| +20% RES to corresponding element
+| +20% RES to own element
 |-
 | {{Enemy|Magatsu Mitake Narukami no Mikoto|20}}
 | 10%
 | 10%
-| +200% All RES when in the Baleful Shadowlord phase<br />-60% All RES when stunned after the Baleful Shadowlord phase ends
+| +200% All RES when in the Baleful Shadowlord phase<br>-60% All RES when stunned after the Baleful Shadowlord phase ends
 |-
 | {{Enemy|Shadowy Husk|20}}
 | 10%
 | 30%
-| +20% RES to corresponding element
+| +20% RES to own element
 |-
 | {{Enemy|Black Serpent Knight: Windcutter|20}}
 | 10%
 | 30%
-| +40% Anemo RES<!---
+| +40% Anemo RES
 |-
 | {{Enemy|Black Serpent Knight: Rockbreaker Ax|20}}
 | 10%
-| 10%
-| +40% Geo RES-->
+| 30%
+| +40% Geo RES<br>+50% All RES during rampage
 |-
 | {{Enemy|Fungus|20}} (Small, Except Dendro)
 | 10%
 | 10%
-| +10% RES to corresponding element<br />+10% Dendro RES
+| +10% RES to own element<br>+10% Dendro RES
 |-
 | {{Enemy|Floating Dendro Fungus|20}}
 | 10%
@@ -394,7 +397,7 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Fungus|20}} (Large, Except Dendro)
 | 10%
 | 10%
-| +20% RES to corresponding element<br />+20% Dendro RES
+| +20% RES to own element<br>+20% Dendro RES
 |-
 | {{Enemy|Winged Dendroshroom|20}}
 | 10%
@@ -414,12 +417,12 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|The Eremites|20}} (Mid Tier)
 | 10%
 | -20%
-| -60% RES to corresponding element while stunned
+| -60% RES to own element while stunned
 |-
 | {{Enemy|The Eremites|20}} (High Tier)
 | 10%
 | -20%
-| +50% All RES while enhanced<br />-60% RES to corresponding element while stunned
+| +50% All RES while enhanced<br>-60% RES to own element while stunned
 |-
 | {{Enemy|Ruin Drake|20}}
 | 10%
@@ -429,12 +432,27 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Jadeplume Terrorshroom|20}}
 | 25%
 | 25%
-| +55% Dendro RES<br />-25% All RES while stunned
+| +55% Dendro RES<br>-25% All RES while stunned
+|-
+| {{Enemy|Sumpter Beast|20}}
+| 10%
+| 10%
+| 
+|-
+| {{Enemy|Rishboland Tiger|20}}
+| 10%
+| 10%
+| 
+|-
+| {{Enemy|Spinocrocodile|20}}
+| 10%
+| 10%
+| 
 |-
 | {{Enemy|Aeonblight Drake|20}}
 | 10%
 | 70%
-| +60% RES to absorbed element<br />+100% All RES at the beginning of the fight
+| +60% RES to absorbed element<br>+100% All RES at the beginning of battle
 |-
 | {{Enemy|Primal Construct|20}} (Elite Enemy)
 | 10%
@@ -444,7 +462,17 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}}
 | 10%
 | 10%
-| +200% All RES while invisible<br />+100% All RES at the beginning of the fight
+| +200% All RES while invisible<br>+100% All RES at the beginning of battle
+|-
+| {{Enemy|Red Vulture|20}}
+| 10%
+| 10%
+| 
+|-
+| {{Enemy|Scorpion|20}}
+| 10%
+| 10%
+| 
 |-
 | {{Enemy|Everlasting Lord of Arcane Wisdom|20|text=Everlasting Lord of Arcane Wisdom (Phase 1)}}
 | 10%
@@ -454,17 +482,202 @@ Specific details for the abilities, items, reactions, and other effects that mod
 | {{Enemy|Everlasting Lord of Arcane Wisdom|20|text=Everlasting Lord of Arcane Wisdom (Phase 2)}}
 | 30%
 | 30%
-| +60% Electro RES<br />+200% All RES while shielded<br />-170% All RES while stunned
+| +60% Electro RES<br>+200% All RES while shielded<br>-170% All RES while stunned against attacks that hit chest
 |-
 | {{Enemy|Consecrated Beast|20}}
 | 40%
 | 40%
-| +30% RES to corresponding element<br />-30% All RES while stunned<br />-30% RES to corresponding element while stunned
+| +30% RES to own element<br>-30% All RES while stunned<br>-30% RES to own element while stunned
 |-
 | {{Enemy|Setekh Wenut|20}}
 | 25%
 | 25%
-| +35% Anemo RES<br />-45% RES to elements that its Windbite Bullets were destroyed by while paralyzed.
+| +35% Anemo RES<br>-45% RES to elements that its Windbite Bullets were destroyed by while paralyzed<br>+30% All RES in the [[Spiral Abyss]]
+|-
+| {{Enemy|Flying Serpent|20}}
+| 10%
+| 10%
+| 
+|-
+| {{Enemy|Hilichurl Rogue|20}}
+| 10%
+| 10%
+| +40% RES to own element
+|-
+| {{Enemy|Iniquitous Baptist|20}}
+| 10%
+| 10%
+| 
+|-
+| {{Enemy|Guardian of Apep's Oasis|20}}
+| 10%
+| 10%
+| +60% Dendro RES
+|-
+| {{Enemy|Tainted Hydro Phantasm|20}}
+| 10%
+| 10%
+| Immune to Hydro
+|-
+| {{Enemy|Breacher Primus|20}} (Small)
+| 10%
+| 10%
+| +20% RES to own element
+|-
+| {{Enemy|Breacher Primus|20}} (Large)
+| 10%
+| 10%
+| +40% RES to own element
+|-
+| {{Enemy|Fontemer Aberrant|20}}
+| 10%
+| 10%
+| +60% All RES while shielded
+|-
+| {{Enemy|Clockwork Meka|20}}
+| 10%
+| 10%
+| 
+|-
+| {{Enemy|Emperor of Fire and Iron|20}}
+| 10%
+| 10%
+| +50% Pyro RES<br>+60% All RES while shielded (in overworld)<br>+80% All RES while shielded (in [[Spiral Abyss]])
+|-
+| {{Enemy|Icewind Suite|20}}
+| 10%
+| 10%
+| +60% Anemo RES<br>+60% Cryo RES<br>+300% All RES at the beginning of battle<br>+25% All RES during Coppelia's Climax
+|-
+| {{Enemy|Fatui Operative|20}}
+| 10%
+| -20%
+| +40% RES to own element
+|-
+| {{Enemy|Millennial Pearl Seahorse|20}}
+| 10%
+| 10%
+| +50% Electro RES<br>+60% All RES while shielded (in overworld)<br>+80% All RES while shielded (in [[Spiral Abyss]])
+|-
+| {{Enemy|Prototype Cal. Breguet|20}}
+| 10%
+| 10%
+| +60% Geo RES
+|-
+| {{Enemy|Hydro Tulpa|20}}
+| 10%
+| 10%
+| Immune to Hydro<br>+45% All RES during rage
+|-
+| {{Enemy|All-Devouring Narwhal|20}}
+| 10%
+| 10%
+| +60% Hydro RES
+|-
+| {{Enemy|All-Devouring Narwhal|20}} (Phantom)
+| 10%
+| 10%
+| +60% Electro RES
+|-
+| {{Enemy|Xuanwen Beast|20}}
+| 10%
+| 10%
+| +40% Anemo RES<br>+40% Hydro RES
+|-
+| {{Enemy|Solitary Suanni|20}}
+| 10%
+| 10%
+| +60% Anemo RES<br>+60% Hydro RES<br>+200% All RES at the beginning of battle<br>+200% All RES when gathering adeptal energy
+|-
+| {{Enemy|Praetorian Golem|20}}
+| 10%
+| 10%
+| +50% All RES while shielded
+|-
+| {{Enemy|"Statue of Marble and Brass"|20}}
+| 10%
+| 10%
+| +60% All RES while shielded<br>-80% All RES while paralyzed
+|-
+| {{Enemy|Sauroform Tribal Warrior|20}}
+| 10%
+| -20%
+| 
+|-
+| {{Enemy|Natlan Saurian|20}} (Adult)
+| 10%
+| 10%
+| +40% RES to own element
+|-
+| {{Enemy|Natlan Saurian|20}} (Whelp)
+| 10%
+| 10%
+| +20% RES to own element
+|-
+| {{Enemy|Natlan Saurian|20}} (Normal Boss)
+| 10%
+| 10%
+| +60% RES to own element
+|-
+| {{Enemy|Eroding Avatar of Lava|20}}
+| 10%
+| 10%
+| 
+|-
+| {{Enemy|Fluid Avatar of Lava|20}}
+| 10%
+| 10%
+| +60% Pyro RES
+|-
+| {{Enemy|Secret Source Automaton: Hunter-Seeker|20}}
+| 50%
+| 50%
+| -40% All RES while weakened or in laser state
+|-
+| {{Enemy|Wayob Manifestation|20}}
+| 10%
+| 10%
+| +40% RES to own element
+|-
+| {{Enemy|Secret Source Automaton: Configuration Device|20}}
+| 60%
+| 60%
+| -90% All RES while weakened
+|-
+| {{Enemy|Tenebrous Mimiflora|20}}
+| 10%
+| 10%
+| 
+|-
+| {{Enemy|Tenebrous Papilla|20}} (Normal)
+| 20%
+| 20%
+| -70% All RES during paralysis<br>-35% All RES after recovering from paralysis
+|-
+| {{Enemy|Tenebrous Papilla|20}} (Spiral Abyss)
+| 70%
+| 70%
+| -70% All RES during paralysis<br>-35% All RES after recovering from paralysis
+|-
+| {{Enemy|Wayward Hermetic Spiritspeaker|20}}
+| 10%
+| 10%
+| +60% Cryo RES<br>-40% All RES while paralyzed
+|-
+| {{Enemy|Lord of Eroded Primal Fire|20}}
+| 10%
+| 10%
+| 
+|-
+| {{Enemy|Furnace Shell Mountain Weasel|20}}
+| 10%
+| 10%
+| +40% Pyro RES
+|-
+| {{Enemy|Lava Dragon Statue|20}}
+| 70%
+| 70%
+| -25% All RES except Pyro RES in Molten Dragon form<br>-120% All RES while paralyzed
 |}
 
 ===Enemy Resistance Modifiers===
@@ -498,7 +711,7 @@ Enemy Resistance can be affected by various other effects:
 |
 |}
 
-==Decreasing Enemy Resistance==
+==Decreasing Enemy RES==
 Several character abilities can decrease the base enemy resistances listed above. For specific details, see the individual Resistance pages.
 
 ===Talents===
@@ -514,7 +727,7 @@ Several character abilities can decrease the base enemy resistances listed above
 {{Main|Elemental Resonance}}
 The {{Element|Geo|24}} [[Enduring Rock]] Elemental Resonance decreases the {{Color|Geo RES}} by 20% for 15s of enemies who take DMG from characters protected by a shield.
 
-==Increasing Character Resistance==
+==Increasing Character RES==
 This list some general ways to increase character resistance. For specific details, see the individual Resistance pages.
 
 ===Talents===
@@ -533,18 +746,18 @@ This list some general ways to increase character resistance. For specific detai
 {{Main|Elemental Resonance}}
 When in a party of 4 different elements, the Elemental Resonance [[Protective Canopy]] increases All Elemental RES and Physical RES by 15%.
 
-==Decreasing Character Resistance==
+==Decreasing Character RES==
 ===Talents===
 The following decreases elemental and physical RES.
 
 {{Talents by Category Table|Universal RES Decrease Talents}}
 
-==Benefit of Resistance Reduction==
-The Resistance multiplier varies nonlinearly with the RES percentage, so the Exact Relative Damage Bonus (i.e. Benefit) of Resistance Reduction is also piecewise with the RES percentage.
+==Benefit of RES Reduction==
+As the RES multiplier varies nonlinearly with the RES percentage, the Exact Relative Damage Bonus (i.e. Benefit) of RES Reduction is also piecewise with the RES percentage.
 
-<math>\text{Benefit of Resistance Reduction} = \frac{\text{RES Multiplier}_\text{After} - \text{RES Multiplier}_\text{Before}}{\text{RES Multiplier}_\text{Before}} = \frac{\text{RES Multiplier}_\text{After}}{\text{RES Multiplier}_\text{Before}} - 1</math>
+<math>\text{Benefit of RES Reduction} = \frac{\text{RES Multiplier}_\text{After} - \text{RES Multiplier}_\text{Before}}{\text{RES Multiplier}_\text{Before}} = \frac{\text{RES Multiplier}_\text{After}}{\text{RES Multiplier}_\text{Before}} - 1</math>
 
-Depending on the value of Target Resistance <math>\% \text{RES}</math> and the value of Resistance Reduction <math>\% \text{RR}</math> in the interval below, the corresponding Benefit of Resistance Reduction <math>\text{Benefit}_{RR}</math> is as follows:<ref>NGA: [https://bbs.nga.cn/read.php?tid=23633102 伤害加成公式以及类型汇总]</ref>
+Depending on the value of Target RES <math>\% \text{RES}</math> and the value of Resistance Reduction <math>\% \text{RR}</math> in the interval below, the corresponding Benefit of Resistance Reduction <math>\text{Benefit}_{RR}</math> is as follows:<ref>NGA: [https://bbs.nga.cn/read.php?tid=23633102 伤害加成公式以及类型汇总]</ref>
 
 {| class="article-table sortable waffle no-grid"
 |-
@@ -569,6 +782,40 @@ Depending on the value of Target Resistance <math>\% \text{RES}</math> and the v
 |<math>\frac{\text{4} \times \mathsf{RES} + \text{1}}{\text{4} \times ( \mathsf{RES} - \mathsf{RR} ) + \text{1}} - \text{1}</math>
 | RES > 0.75, RES - RR > 0.75
 |}
+
+==Other Languages==
+{{Other Languages
+|en      = {{tt|RES|Resistance}}
+|zhs     = 抗性
+|zhs_rm  = Kàngxìng
+|zht     = 抗性
+|zht_rm  = Kàngxìng
+|zh_tl   = Resistance
+|ja      = 耐性
+|ja_rm   = Taisei
+|ja_tl   = Resistance
+|ko      = {{tt|내성|耐性}}
+|ko_tl   = 
+|es      = {{tt|RES|<!--Resistencia-->}}
+|fr      = {{tt|RÉS|Résistance}}
+|fr_tl   = {{tt|RES|Resistance}}
+|ru      = Cопротивление
+|ru_tl   = 
+|th      = ความต้านทาน
+|th_rm   = 
+|th_tl   = 
+|vi      = Kháng
+|vi_tl   = 
+|de      = {{tt|WDS|Widerstand}}
+|de_tl   = {{tt|RES|Resistance}}
+|id      = {{tt|RES|Resistance}}
+|pt      = {{tt|RES|<!--Resistência-->}}
+|pt_tl   = 
+|tr      = Direnç
+|tr_tl   = Resistance
+|it      = {{tt|RES|<!--Resistenza-->}}
+|it_tl   = 
+}}
 
 ==References==
 {{Reflist}}

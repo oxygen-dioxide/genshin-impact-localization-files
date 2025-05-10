@@ -16,33 +16,37 @@
 |atk_ratio = 2
 }}
 
-==Abilities and Attacks==
-''Attack names are unofficial.''
+==Abilities==
+''Ability names are unofficial.''
 {{Enemy Attacks
 |name_1 = Stab
-|desc_1 = Performs a quick stab with their Halberd, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+|desc_1 = Performs a quick stab with their [[Halberd]], dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
 |name_2 = Swing
 |desc_2 = Performs an sideway swing with their Halberd, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
-|name_3 = Halberd Stab Combo
-|desc_3 = Performs 3 quick stabs with their Halberd, dealing '''100% ATK''' as {{Color|Physical DMG}} with each stab.
+|name_3 = 3-Stab Combo
+|desc_3 = Performs 3 quick stabs with their Halberd, dealing '''100% ATK''' as {{Color|Physical DMG}} with each stab. This attack is only used as an occasional follow-up to '''Dodge'''.
 
-|name_4 = Halberd Slash Combo
-|desc_4 = Winds up and performs 3 slashes with the axe blade of their Halberd, dealing '''???% ATK''' as {{Color|Physical DMG}} with each slash.
+|name_4 = Lithic Triad
+|desc_4 = Winds up and performs 3 slashes with the axe blade of their Halberd, dealing '''100% ATK''' as {{Color|Physical DMG}} with each slash.
 
 |name_5 = Dodge
 |desc_5 = Jumps backwards away from the player.
 
 |name_6 = Rally
-|desc_6 = The Millelith Sergeant rallies nearby Millelith Soldiers, causing them to perform 3-stab combo.
-|file_6 = Millelith Soldier Stab 2
+|desc_6 = The Millelith Sergeant rallies nearby [[Millelith Soldier]]s, causing them to perform '''3-Stab Combo'''.
+* '''Taunt''': If there are no Millelith Soldiers actively present, the Millelith Sergeant will do one of two taunting gestures. Leaving him vulnerable for a brief moment.
+|caption_6 = Taunt Version 1
+|file_6_2 = Millelith Sergeant Rally 2
+|caption_6_2 = Taunt Version 2
 }}
 
 ==Voice-Overs==
+{{Stub|Missing Korean transcriptions.[[Category:VO Korean Romanization Missing]]}}
 {{VO/Enemy
 |enemy                   = Millelith Sergeant
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - To Arms.ogg
 |vo_01_01_tx_en          = To arms!
 |vo_01_01_tx_zh          = 列阵，迎敌！
@@ -54,44 +58,59 @@
 |vo_01_02_tx_ja          = 誰だ！
 |vo_01_02_tx_ko          = 거기 누구냐!
 
-|vo_02_00_title          = Halberd Slash Combo
-|vo_02_01_file           = VO {lang}{name} - Take This.ogg
-|vo_02_01_tx_en          = Take this!
-|vo_02_01_tx_zh          = 看招！
-|vo_02_01_tx_ja          = くらえ！
-|vo_02_01_tx_ko          = 받아라!
-|vo_02_02_file           = VO {lang}{name} - Lithic Triad.ogg
-|vo_02_02_tx_en          = Lithic triad!
-|vo_02_02_tx_zh          = 千岩三式！
-|vo_02_02_tx_ja          = 千岩三式！
-|vo_02_02_tx_ko          = 천암삼식!
+|vo_02_00_title          = Stab
+|vo_02_01_tx_en          = {{A|VO Millelith Sergeant - Stab 01.ogg}} {{A|VO Millelith Sergeant - Stab 02.ogg}}  {{A|VO Millelith Sergeant - Stab 03.ogg}} {{A|VO Millelith Sergeant - Stab 04.ogg}} {{A|VO Millelith Sergeant - Stab 05.ogg}} 
 
-|vo_03_00_title          = Dodging
-|vo_03_01_tx_en          = {{A|VO Millelith Sergeant - Dodging 01.ogg}} {{A|VO Millelith Sergeant - Dodging 02.ogg}} 
+|vo_03_00_title          = Lithic Triad Initiation
+|vo_03_01_file           = VO {lang}{name} - Take This.ogg
+|vo_03_01_tx_en          = Take this!
+|vo_03_01_tx_zh          = 看招！
+|vo_03_01_tx_ja          = くらえ！
+|vo_03_01_tx_ko          = 받아라!
+|vo_03_02_file           = VO {lang}{name} - Lithic Triad.ogg
+|vo_03_02_tx_en          = Lithic triad!
+|vo_03_02_tx_zh          = 千岩三式！
+|vo_03_02_tx_ja          = 千岩三式！
+|vo_03_02_tx_ko          = 천암삼식!
 
-|vo_04_00_title          = Rallying
-|vo_04_01_file           = VO {lang}{name} - Attack.ogg
-|vo_04_01_tx_en          = Attack!
-|vo_04_01_tx_zh          = 进攻！
-|vo_04_01_tx_ja          = 進め！
-|vo_04_01_tx_ko          = {{tx}}
-|vo_04_02_file           = VO {lang}{name} - Take The Target Alive.ogg
-|vo_04_02_tx_en          = Take the target alive!
-|vo_04_02_tx_zh          = 拿下目标！
-|vo_04_02_tx_ja          = 覚悟しろ！
-|vo_04_02_tx_ko          = {{tx}}
+|vo_04_00_title          = Lithic Triad Final Swing/Swing
+|vo_04_01_tx_en          = {{A|VO Millelith Sergeant - Lithic Triad Final Swing 01.ogg}} {{A|VO Millelith Sergeant - Lithic Triad Final Swing 02.ogg}}  {{A|VO Millelith Sergeant - Lithic Triad Final Swing 03.ogg}} {{A|VO Millelith Sergeant - Lithic Triad Final Swing 04.ogg}} {{A|VO Millelith Sergeant - Lithic Triad Final Swing 05.ogg}} 
 
-|vo_05_00_title          = Defeated
-|vo_05_01_file           = VO {lang}{name} - Bested.ogg
-|vo_05_01_tx_en          = Bested...
-|vo_05_01_tx_zh          = 技不如人…
-|vo_05_01_tx_ja          = 敗れた…
-|vo_05_01_tx_ko          = 아직 실력이 부족해!
-|vo_05_02_file           = VO {lang}{name} - Beaten.ogg
-|vo_05_02_tx_en          = Beaten...
-|vo_05_02_tx_zh          = 战败了…
-|vo_05_02_tx_ja          = 俺の負けだ…
-|vo_05_02_tx_ko          = 패배했군...
+|vo_05_00_title          = Dodging
+|vo_05_01_tx_en          = {{A|VO Millelith Sergeant - Dodging 01.ogg}} {{A|VO Millelith Sergeant - Dodging 02.ogg}} 
+|vo_05_01_tx_zh          = {{A|VO ZH Millelith Sergeant - Dodging 01.ogg}} {{A|VO ZH Millelith Sergeant - Dodging 02.ogg}} 
+|vo_05_01_tx_ja          = {{A|VO JA Millelith Sergeant - Dodging 01.ogg}} {{A|VO JA Millelith Sergeant - Dodging 02.ogg}} 
+|vo_05_01_tx_ko          = {{A|VO KO Millelith Sergeant - Dodging 01.ogg}} {{A|VO KO Millelith Sergeant - Dodging 02.ogg}} 
+
+|vo_06_00_title          = Rallying/Taunting
+|vo_06_01_file           = VO {lang}{name} - Attack.ogg
+|vo_06_01_tx_en          = Attack!
+|vo_06_01_tx_zh          = 进攻！
+|vo_06_01_tx_ja          = 進め！
+|vo_06_01_tx_ko          = {{tx}}
+|vo_06_02_file           = VO {lang}{name} - Take The Target Alive.ogg
+|vo_06_02_tx_en          = Take the target alive!
+|vo_06_02_tx_zh          = 拿下目标！
+|vo_06_02_tx_ja          = 覚悟しろ！
+|vo_06_02_tx_ko          = {{tx}}
+
+|vo_07_00_title          = Staggered (Heavy)
+|vo_07_01_tx_en          = {{A|VO Millelith Sergeant - Staggered Heavy 01.ogg}} {{A|VO Millelith Sergeant - Staggered Heavy 02.ogg}}  {{A|VO Millelith Sergeant - Staggered Heavy 03.ogg}} {{A|VO Millelith Sergeant - Staggered Heavy 04.ogg}} {{A|VO Millelith Sergeant - Staggered Heavy 05.ogg}}
+
+|vo_08_00_title          = Staggered (Light)
+|vo_08_01_tx_en          = {{A|VO Millelith Sergeant - Staggered Light 01.ogg}} {{A|VO Millelith Sergeant - Staggered Light 02.ogg}}  {{A|VO Millelith Sergeant - Staggered Light 03.ogg}} {{A|VO Millelith Sergeant - Staggered Light 04.ogg}} {{A|VO Millelith Sergeant - Staggered Light 05.ogg}} 
+
+|vo_09_00_title          = Defeated
+|vo_09_01_file           = VO {lang}{name} - Bested.ogg
+|vo_09_01_tx_en          = Bested...
+|vo_09_01_tx_zh          = 技不如人…
+|vo_09_01_tx_ja          = 敗れた…
+|vo_09_01_tx_ko          = 아직 실력이 부족해!
+|vo_09_02_file           = VO {lang}{name} - Beaten.ogg
+|vo_09_02_tx_en          = Beaten...
+|vo_09_02_tx_zh          = 战败了…
+|vo_09_02_tx_ja          = 俺の負けだ…
+|vo_09_02_tx_ko          = 패배했군…
 }}
 
 ==Other Languages==
@@ -101,29 +120,28 @@
 |zhs_rm  = Qiānyánjūn Jiàotóu
 |zht     = 千岩軍教頭
 |zht_rm  = Qiānyánjūn Jiàotóu
-|zh_tl   = Millelith Instructor
+|zh_tl   = {{Lex|Millelith|zh}} Instructor
 |ja      = 千岩軍隊長
 |ja_rm   = Sengangun Taichou
-|ja_tl   = Millelith Commander
+|ja_tl   = {{Lex|Millelith|ja}} Commander
 |ko      = 천암군 교관
-|ko_rm   = Cheon'amgun Gyogwan
-|ko_tl   = Millelith Instructor
+|ko_tl   = {{Lex|Millelith|ko}} Instructor
 |es      = Sargento de la Geoarmada
-|es_tl   = Geoarmy Sergeant
+|es_tl   = {{Lex|Millelith|es}} Sergeant
 |fr      = Instructeur des Millelithes
 |fr_tl   = Millelith Instructor
 |ru      = Сержант Миллелитов
 |ru_tl   = Millelith Sergeant
 |th      = Millelith Sergeant
-|vi      = {{tt|Giáo Đầu|教头}} {{tt|Thiên Nham Quân|千岩军}}
-|vi_tl   = Millelith Instructor
+|vi      = {{tt|Giáo Đầu|教頭}} {{tt|Thiên Nham Quân|千岩軍}}
+|vi_tl   = {{Lex|Millelith|vi}} Instructor
 |de      = Millelithenausbilder
 |de_tl   = Millelith Instructor
 |id      = Millelith Sergeant
 |pt      = Sargento Millelith
 |pt_tl   = Millelith Sergeant
 |tr      = Taşordu Çavuşu
-|tr_tl   = 
+|tr_tl   = <!--use {{Lex|Millelith|tr}}-->
 |it      = Sergente dei Milleliti
 |it_tl   = 
 }}

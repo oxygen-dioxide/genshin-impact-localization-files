@@ -2,7 +2,6 @@
 |id            = 73281
 |image         = World Quest The Falcons Hunt.png
 |type          = World
-|summary       = 
 |characters    = Liloupar; Masseira; Paimon; Tadhla; Traveler
 |startLocation = [[Tanit Camps]]
 |region        = Sumeru
@@ -11,43 +10,66 @@
 |subarea       = Tanit Camps
 |prev          = [[Tadhla the Falcon]]
 |next          = [[The Fallen Falcon]]
-|exp           = 250
-|mora          = 40,000
-|primogems     = 40
-|other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|3}}
+|rewards       = Adventure EXP*350;Primogem*40;Mora*40,000;Hero's Wit*3;Mystic Enhancement Ore*3
 }}
-'''''"The Falcon's Hunt"''''' is a world quest that can be started in [[Tanit Camps]] and will be given immediately upon completing the [[Tadhla the Falcon]] world quest.
+'''''"The Falcon's Hunt"''''' is a World Quest that can be started in [[Tanit Camps]] and will be given immediately upon completing the {{Quest|Tadhla the Falcon}}.
 
 ==Steps==
-# Wait till the next morning (08:00 - 12:00)
+# Wait till the next morning (08:00 – 12:00)
 # Talk to [[Masseira]]
 # Talk to [[Tadhla]]
 # Go to the Red Vulture's lair
 # Search for traces of the [[Red Vulture]] on the way
 # Go to the Red Vulture's lair
 # Enter the Red Vulture's lair
-# Wait till the next morning (01:00 - 03:00)
-# Hunt the Red Vulture
+# Wait till the next morning (01:00 – 03:00)
+# Go to the hiding place and wait until the Red Vulture returns to the lair
+#* This step occurs if the player leaves the area before the next morning comes
+# Hunt the Red Vulture/Hunt the Enraged Red Vulture
+#* Version 1:
+#** {{Enemy|Consecrated Red Vulture|text=Red Vulture &mdash; Hunter from on High}}
+#* Version 2:
+#** {{Enemy|Consecrated Red Vulture|text=Enraged Red Vulture &mdash; "My Precious!"}}
+# Rest for a night and talk to Tadhla
 # Go to the [[Scorpion]]'s lair
+# Enter the Scorpion's lair
 # Conceal yourself in the hiding place
-# Hunt the Scorpion
+# Hunt the stunned Scorpion/Hunt the poisoned Scorpion/Hunt the Scorpion
+#* Wave 1:
+#** Version 1:
+#*** {{Enemy|Consecrated Scorpion|text=Stunned Scorpion &mdash; Savage, Not Shrewd...}}
+#** Version 2:
+#*** {{Enemy|Consecrated Scorpion|text=Poisoned Scorpion &mdash; Is This About Revenge?}}
+#** Version 3:
+#*** {{Enemy|Consecrated Scorpion|text=Scorpion &mdash; Lethal Ambusher}}
+#* Wave 2:
+#** {{Enemy|Consecrated Scorpion|text=Necrotic Scorpion &mdash; The Hunter's Twin}}
 # Enter the [[Flying Serpent]]'s cave
 # Hunt the Flying Serpent
+#* {{Enemy|Consecrated Flying Serpent|text=Flying Serpent &mdash; Fallen Envoy}}
 # Obtain [[Liloupar]]'s fragment
 # Report back to Masseira
-<!--
+
 ==Gameplay Notes==
--->
+* [[Tadhla]] will fight alongside the player during steps 10 & 15 as an {{Enemy|Eremite Galehunter}}.
+* If the player interacts with the shiny stuff in the Red Vulture's lair instead of waiting, the enraged version of the vulture will be fought.
+* If the player chooses the viper venom bait when hunting the Scorpion, the Poisoned Scorpion will spawn with less health.
+
 ==Dialogue==
 {{Quest Description|After the previous adventure, it seems that Masseira still has some favor to ask of you...}}
-{{Dialogue start}}
-;(Pass time)
+{{Dialogue Start}}
+;(Talk to Tadhla, optional)
+:'''Tadhla:''' Hello, the Master of the Jinni.
+:{{DIcon}} How is your wound? Is it getting better?
+::'''Tadhla:''' Nothing to worry about. No need to worry about me.
+:{{DIcon}} Bye.
+::'''Tadhla:''' Goodbye.
 
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Masseira, optional)
 :'''Masseira:''' (...Tadhla... your growth is... too slow...)
 
 ;(Talk to Masseira)
-:'''Masseira:''' Ah! If it isn't the esteemed Master of the Jinni, savior of my little Falcon.
+:'''Masseira:''' Ah! If it isn't the esteemed Master of the [[Jinni]], savior of my little Falcon.
 :'''Masseira:''' I'm embarrassed to ask but could you do me another favor? It's a hunting task.
 :'''Masseira:''' Simply put, this is about Tadhla's coming-of-age ceremony. Please witness her growth for me.
 :'''Masseira:''' She could be a bit of a handful, but I promise you will be well compensated. So I'm wondering if you would like to...
@@ -62,6 +84,9 @@
 ::'''Masseira:''' It's very kind of you. Please find Tadhla. She'll give you the details of this hunt.
 :{{DIcon}} I have other plans.
 ::'''Masseira:''' Well then, I shall leave you alone.
+
+;(Talk to Masseira again, optional)
+:'''Masseira:''' Prey won't hunt themselves for us. Please go find Tadhla to learn what needs to be done.
 
 ;(Use Nahida's All Schemes to Know on Tadhla, optional)
 :'''Tadhla:''' (...Why can't you let me finish my coming-of-age ceremony on my own...)
@@ -84,16 +109,38 @@
 ::'''Tadhla:''' Please follow me.
 :{{DIcon}} I have to finish something else first.
 ::'''Tadhla:''' Don't worry, I'll be here waiting for you.
-:'''Tadhla:''' Please follow me. We have already confirmed its whereabouts. All that needs to be done is to track it down.
 
+;(Talk to Tadhla again, if the conversation was exited)
+:'''Tadhla:''' Hello. Are you ready to go?
+:{{DIcon}} Let's go.
+::'''Tadhla:''' Please follow me.
+:{{DIcon}} I'm just passing by.
+::'''Tadhla:''' Okay... I'll wait for you.
+
+:'''Tadhla:''' Please follow me. We have already confirmed its whereabouts. All that needs to be done is to track it down.
 :'''Tadhla:''' By the way, are you wearing any perfume?
 :'''Paimon:''' No, why'd you ask?
 :'''Tadhla:''' Great, neither am I.
 
-;(Investigate the first glowing area)
+;(Talk to Masseira, optional)
+:'''Masseira:''' Ah, you're back. Is there something else you want to talk about? Or are you just looking to chat?
+:{{DIcon}} About Tadhla...
+::'''Masseira:''' I believe she will be a real Falcon after training with you.
+:{{DIcon}} About the "coming-of-age ceremony"...
+::'''Masseira:''' Act alone or with company and hunt formidable targets, become a qualified "Falcon" for the tribe, and deal with prey and enemies...
+::'''Masseira:''' Simple.
+:{{DIcon}} Bye.
+::'''Masseira:''' Good luck with the hunt.
+----
+;(Approach the first glowing area)
 :'''Tadhla:''' What is that over there?
+
+;(Investigate the first glowing area)
 :'''Tadhla:''' She must have dropped these while fighting over food... Female, smelling of carrion... She's had a good meal and should be back in the nest soon.
 :'''Tadhla:''' Let's follow her back to the nest.
+
+;(Approach the second glowing area)
+:'''Tadhla:''' We're on the right track. There's more debris ahead.
 
 ;(Investigate the second glowing area)
 :'''Tadhla:''' Droppings and weasel fur... There's still a little moisture. She's not too far away.
@@ -102,17 +149,27 @@
 :'''Paimon:''' Paimon doesn't want it!
 :'''Tadhla:''' You can use them to cover your own scent. It will help.
 
-;(Investigate the third glowing area)
+;(Approach the third glowing area)
 :'''Tadhla:''' What is that? Let's take a closer look.
+
+;(Investigate the third glowing area)
 :'''Tadhla:''' Paw prints... Ah, it's covered with sand. She landed here, apparently noticing that someone was following her...
 :'''Paimon:''' Tadhla really has good eyesight.
+:'''Tadhla:''' Shh... We could bump into her at any moment. Best not to startle her.
 
 ;(After investigating all 3 areas)
 :'''Tadhla:''' I can smell the lair. Yes, it is right there.
 :'''Tadhla:''' Well then, let's go.
+
+;(If the player approaches the lair without investigating all areas){{Verify}}
+:'''Tadhla:''' Wait, we should follow the trail&mdash; hmm?
+:'''Tadhla:''' Please slow down, you'll alert the Red Vulture.
 ----
-;(Apprach the Red Vulture's lair)
+;(Approach the Red Vulture's lair)
 :'''Tadhla:''' This is her lair.
+:;(If the player did not investigate all areas){{Verify}}
+::'''Tadhla:''' ...
+::'''Tadhla:''' I don't know if you're purely reckless, or highly instinctual... But we still have time.
 :'''Tadhla:''' Red Vultures are careful and wicked by nature. She's probably sensed the danger and fled already, leaving us an empty lair.
 :'''Tadhla:''' Now we must wait with patience.
 :{{DIcon}} When will the Red Vulture return?
@@ -139,32 +196,37 @@
 :'''Tadhla:''' Let's go.
 
 ;(After defeating the Red Vulture)
-:'''Tadhla:''' You are such a talented hunter. No wonder Father commissioned you to help me with this hunt.
+;(If all areas were investigated)
+::'''Tadhla:''' You are such a talented hunter. No wonder Father commissioned you to help me with this hunt.
+;(If not all areas were investigated)
+::'''Tadhla:''' Please forgive me for having doubted you. You have proven that you are a talented hunter.
+::'''Tadhla:''' We may operate under different approaches, but I must say you have amazing instincts...
 :'''Tadhla:''' Please leave the rest to me. If you really are interested in this, I can teach you step by step.
 :{{DIcon}} Please teach me.
 ::'''Tadhla:''' Very well.
-
-::'''Tadhla demonstrates how to dissect a prey. You and Paimon seem to have learned a new skill that you probably will never actually put into practice.'''
-
-::'''After the demonstration, Tadhla shows you her hands soaked by the blood of her prey, a faint smile appearing on her lips.<br />This is the first time that she has revealed any trace of her emotions.'''
+::{{Black Screen|Tadhla demonstrates how to dissect a prey. You and Paimon seem to have learned a new skill that you probably will never actually put into practice.}}
+::{{Black Screen|After the demonstration, Tadhla shows you her hands soaked by the blood of her prey, a faint smile appearing on her lips.<br>This is the first time that she has revealed any trace of her emotions.}}
 :{{DIcon}} Uh... I'll pass.
 ::'''Tadhla:''' Suit yourselves.
-
-::'''Tadhla dissects the prey with great proficiency and wraps it up in a package.'''
+::{{Black Screen|Tadhla dissects the prey with great proficiency and wraps it up in a package.}}
 :'''Tadhla:''' Hmm... The smell of blood. Good.
-:'''Paimon:''' Paimon can smell it, too! Uh... Such a strong smell... Aren't you going to wash it off?
+;(If all areas were investigated)
+::'''Paimon:''' Paimon can smell it, too! Uh... Such a strong smell... Aren't you going to wash it off?
+;(If not all areas were investigated){{Verify}}
+::'''Paimon:''' Uh... The smell of blood is really strong! Aren't you going to wash it off or something?
 :'''Tadhla:''' No, because we are going to hunt the Scorpion now.
 :'''Liloupar:''' Scorpions are predators. They relish the smell of fresh blood.
 :'''Tadhla:''' That's right.
 :'''Paimon:''' Ohh... Alright... Paimon will hold her breath anyway!
 :'''Tadhla:''' Do you need more rest or should we set out right now?
 :'''Tadhla:''' It's decently chilly in this lair, our prey's meat should be able to stay overnight and not go bad... We could spend the night here to avoid the cold outside.
-:'''Paimon:''' Sounds good to Paimon! The temperature feels just right in here. Let's all just get some good rest for the night!
+;(If all areas were investigated)
+::'''Paimon:''' Sounds good to Paimon! The temperature feels just right in here. Let's all just get some good rest for the night!
+;(If not all areas were investigated){{Verify}}
+::'''Paimon:''' Yep yep, let's get some good rest while it's still chilly and cozy in here.
 :'''Liloupar:''' It appears that the little one desires to be slothful again.
 :'''Paimon:''' Hmph, Paimon knows when she feels cold and tired! Not everyone is immune to temperature changes like you!
-
-:'''Tadhla fetches some desert poplar branches and dried feces. Soon, a simple campfire is built.<br />Sitting and bathing in its warm light, you all share filling quantities of food and water with each other.<br />Watching the campfire dancing and crackling, you find yourselves absent of any topics to discuss...'''
-
+:{{Black Screen|Tadhla fetches some desert poplar branches and dried feces. Soon, a simple campfire is built.<br>Sitting and bathing in its warm light, you all share filling quantities of food and water with each other.<br>Watching the campfire dancing and crackling, you find yourselves absent of any topics to discuss...}}
 :'''Tadhla:''' ...
 :{{DIcon}} About Masseira...
 ::'''Tadhla:''' He is my father. I am his "Falcon."
@@ -188,12 +250,12 @@
 ::'''Tadhla:''' Please follow me.
 :{{DIcon}} I have some other things to do. I'll be back later.
 ::'''Tadhla:''' Suit yourselves.
-;(Obtain [[Red Vulture's Feather]])
+;(Obtain {{Item|Red Vulture's Feather}})
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Tadhla, optional)
+;(Use Nahida's All Schemes to Know on Tadhla, optional)
 :'''Tadhla:''' (...Don't think about it too much, Tadhla, you're just a Falcon...)
 ----
-;(Approach the makred area)
+;(Approach the marked area)
 :'''Liloupar:''' Paimon, you've been holding your nose the whole time.
 :'''Paimon:''' Because it stinks of blood...
 :'''Liloupar:''' But all the scents that greet me are from wild creatures... Ah, it is not so foul.
@@ -213,15 +275,11 @@
 :'''Tadhla:''' Oh, one more thing. When fighting with the Scorpion, we must be very careful. Its toxin can be lethal.
 :{{DIcon}} Let's use the paralyzing poisonous bait.
 ::'''Tadhla:''' Very well... Are there any cuts or scratches on your hands?
-
-::'''Tadhla prepares the poisonous bait carefully as you wait patiently in the cave until the moon rises...'''
-
+::{{Black Screen|Tadhla prepares the poisonous bait carefully as you wait patiently in the cave until the moon rises...}}
 ::'''Tadhla:''' It's working. Let's go!
 :{{DIcon}} Let's use the viper venom bait.
 ::'''Tadhla:''' Be careful and don't cut yourself. It'll be a disaster if viper venom gets into your body.
-
-::'''Tadhla prepares the poisonous bait carefully as you wait patiently in the cave until the moon rises...'''
-
+::{{Black Screen|Tadhla prepares the poisonous bait carefully as you wait patiently in the cave until the moon rises...}}
 ::'''Tadhla:''' It has been weakened. Let's go!
 :{{DIcon}} I don't need any bait.
 ::'''Tadhla:''' Then I will watch your back.
@@ -256,22 +314,20 @@
 ::{{DIcon}} I'm just worried that your hands might shake.
 ::'''Tadhla:''' They do not shake when I hunt. Nor will they shake when I harvest my prey.
 ::'''Tadhla:''' No need to worry. I am a "Falcon," after all...
-
-::'''Tadhla slowly cuts the Scorpion open, harvests its poison glands, and removes the useless organs, and carefully wraps them up in separate packages.<br />While doing this, her hands are nimble and steady, as if playing a soundless musical instrument that is made of blood and chitin.<br />...It is only a short while before she finishes the dissection.'''
-
-::'''After all this work, Tadhla lets out a long breath.<br />Her forehead is dotted with tiny beads of sweat, her breaths tremulous... Her fresh wound must really hurt.'''
+::{{Black Screen|Tadhla slowly cuts the Scorpion open, harvests its poison glands, and removes the useless organs, and carefully wraps them up in separate packages.<br>While doing this, her hands are nimble and steady, as if playing a soundless musical instrument that is made of blood and chitin.<br>...It is only a short while before she finishes the dissection.}}
+::{{Black Screen|After all this work, Tadhla lets out a long breath.<br>Her forehead is dotted with tiny beads of sweat, her breaths tremulous... Her fresh wound must really hurt.}}
 :{{DIcon}} You should take a break.
 ::'''Tadhla:''' No... If not preserved properly, the poison glands will spoil in the air and become useless.
-
-::'''Tadhla harvests the Scorpion with ease, removing its poison glands and useless organs, then carefully wraps them up in separate packages.<br />After that, she shows you her stained hands without a change of expression on her face. Somehow you feel that she is trying to prove something to you...'''
+::{{Black Screen|Tadhla harvests the Scorpion with ease, removing its poison glands and useless organs, then carefully wraps them up in separate packages.<br>After that, she shows you her stained hands without a change of expression on her face. Somehow you feel that she is trying to prove something to you...}}
 :'''Tadhla:''' See? It's just a scratch. For a Falcon, it's nothing to worry about.
 :'''Tadhla:''' Alright, we still need to hunt the Flying Serpent. Let's go.
+;(Obtain {{Item|Scorpion's Sting}})
+
 :'''Tadhla:''' ...
 :'''Paimon:''' Tadhla, you don't look so well. Do you need some rest?
 :'''Tadhla:''' I'm fine.
 :'''Liloupar:''' Falcons get injured, too. There's no need to be ashamed of such facts, little one.
 :'''Tadhla:''' I'm not.
-;(Obtain [[Scorpion's Sting]])
 ----
 ;(Enter the Flying Serpent's cave)
 :'''Liloupar:''' Wait... I feel it... The familiar... pain.
@@ -290,17 +346,17 @@
 :{{DIcon}} It's okay. Let me do it.
 ::'''Paimon:''' Yes, you should get some rest!
 :{{DIcon}} Leave the rest to me.
-::'''Paimon:''' Yes, from now on, you can totally count on us! Umm, Paimon means you can totally count on (Traveler)!
+::'''Paimon:''' Yes, from now on, you can totally count on us! Umm, Paimon means you can totally count on {{Traveler}}!
 :'''Tadhla:''' ...
 
-;(Talk to Tadhla - optional)
+;(Talk to Tadhla, optional)
 :'''Tadhla:''' *pant* If you need my assistance... please let me know, anytime.
 :{{DIcon}}You should have a rest here.
 ::'''Tadhla:''' ...
 :{{DIcon}}Your condition is not suitable for hunting.
 ::'''Tadhla:''' Hmph...
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Tadhla, optional)
+;(Use Nahida's All Schemes to Know on Tadhla, optional)
 :'''Tadhla:''' (...So thirsty... and hurting... and cold...)
 
 ;(After defeating the Flying Serpent)
@@ -315,25 +371,22 @@
 ::'''Tadhla:''' Thank you.
 :'''Liloupar:''' Ah... Pardon me, my master, but I... sense my fragment nearby.
 :'''Tadhla:''' ...It's okay. I'll go take care of our prey.
-;(Obtain [[Flying Serpent's Horn]])
+;(Obtain {{Item|Flying Serpent's Horn}})
 
-;(Use [[Nahida]]'s [[All Schemes to Know]] on Tadhla, optional)
+;(Use Nahida's All Schemes to Know on Tadhla, optional)
 :'''Tadhla:''' (...I must not show weakness, or look afraid...)
 
-;(Talk to Tadhla - optional)
+;(Talk to Tadhla, optional)
 :'''Tadhla:''' Did you finish dealing with the Jinn matter?
-:{{DIcon}}Not yet...
+:{{DIcon}} Not yet...
 ::'''Tadhla:''' Please don't worry about me. I'm still busy with something...
-:{{DIcon}}How is your wound? Is it getting better?
+:{{DIcon}} How is your wound? Is it getting better?
 ::'''Tadhla:''' Yes, it doesn't hurt anymore. *grunt* It's okay now.
 
 ;(Obtain Liloupar's fragment)
-:'''As the shard of light merges with Liloupar's magic bottle, you feel a little of your own power being pulled away...'''
-
-:'''Through the Jinni's entranced eyes, you see a vortex of decay and betrayal...<br />The Spirit of Victory fell into madness due to a signet ring most dark, and in a series of tragedies, Queen Shirin brewed the honey-colored catastrophe before her mind yielded to hysteria...<br />The people turned against each other, and the Jinn scattered across the lands... Broken souls became fuel to a titanic machine, and the mindless descendants of the Seelie were degraded into slaves of infinite power...'''
-
-:'''Then, the merciless era of the Spirit of Victory began... The crazed king and the nobles rejoiced in their superiority...<br />Yet none were aware that all the happenings within Gurabad were created by the scheming hands of the Mother of the Jinn...'''
-
+:{{Black Screen|As the shard of light merges with Liloupar's magic bottle, you feel a little of your own power being pulled away...}}
+:{{Black Screen|Through the Jinni's entranced eyes, you see a vortex of decay and betrayal...<br>The [[Parvezravan|Spirit of Victory]] fell into madness due to a signet ring most dark, and in a series of tragedies, Queen [[Shirin of Gurabad|Shirin]] brewed the honey-colored catastrophe before her mind yielded to hysteria...<br>The people turned against each other, and the Jinn scattered across the lands... Broken souls became fuel to a titanic machine, and the mindless descendants of the [[Seelie]] were degraded into slaves of infinite power...}}
+:{{Black Screen|Then, the merciless era of the Spirit of Victory began... The crazed king and the nobles rejoiced in their superiority...<br>Yet none were aware that all the happenings within [[Gurabad]] were created by the scheming hands of the Mother of the Jinn...}}
 :'''Liloupar:''' My master, are you feeling alright?
 :{{DIcon}} It's... Gurabad. Again...
 :{{DIcon}} My head really hurts...
@@ -369,11 +422,8 @@
 :'''Paimon:''' There is no need to apologize! This cave should be able to block out the cold winds at night. Let's set up a campfire right here!
 :'''Tadhla:''' Good idea... Let me help... *grunt*
 :'''Paimon:''' Don't worry, we got this. We're experts when it comes to building a campfire!
-
-:'''You build a simple campfire and cook some food together with Paimon.<br />Tadhla drinks some water and falls asleep soon...<br />Her body is mildly over-warm. Under the influence of the dehydration and fatigue inflicted by the Scorpion's venom, Tadhla sinks into a deep slumber. You can tell that the pain is wearing off on her...'''
-
-:'''After some time, the morning sun lights up the scarlet desert...<br />The sun is up, and you all wake up as the morning dew dries up in sunlight's heat.'''
-
+:{{Black Screen|You build a simple campfire and cook some food together with Paimon.<br>Tadhla drinks some water and falls asleep soon...<br>Her body is mildly over-warm. Under the influence of the dehydration and fatigue inflicted by the Scorpion's venom, Tadhla sinks into a deep slumber. You can tell that the pain is wearing off on her...}}
+:{{Black Screen|After some time, the morning sun lights up the scarlet desert...<br>The sun is up, and you all wake up as the morning dew dries up in sunlight's heat.}}
 :'''Tadhla:''' Time to get up. Let's go.
 :'''Paimon:''' You look a lot better, Tadhla. How are you feeling?
 :'''Tadhla:''' I'm feeling much better now... Come on, let's go.
@@ -412,17 +462,55 @@
 :'''Masseira:''' I will deal with you later.
 :'''Masseira:''' Haha, please, don't get me wrong! I am most happy that my little Falcon has made some new friends! Truly, I am.
 :'''Masseira:''' Here, this is your payment. Please do come find me later. I'll probably have other commissions for you.
+;(The Traveler and Paimon leave)
 :'''Tadhla:''' ...
 :'''Masseira:''' ...
 :'''Masseira:''' My little Falcon, let's talk about your next "hunt," shall we?
 
+
+;(Talk to Masseira, optional)
+:'''Masseira:''' Ah, if it isn't the esteemed Master of the Jinni. What can I do for you?
+:{{DIcon}} About Tadhla...
+::'''Masseira:''' She likes you, I can see that.
+::'''Masseira:''' Don't worry, I'll leave her be. To be young... Right?
+::'''Masseira:''' I'll encourage her to express her feelings. As her elder and her father, this is a duty to which I am bound. There's no need for you to worry about her. Truly.
+:{{DIcon}} About the "coming-of-age ceremony"...
+::'''Masseira:''' Thank you for helping her complete her coming-of-age ceremony. I was right to trust you.
+::'''Masseira:''' Next she will accept her first hunting mission as a qualified Falcon.
+::'''Masseira:''' By then, hehe, please witness her growth in person.
+
 ;(Use Nahida's All Schemes to Know on Masseira, optional)
 :'''Masseira:''' (...Before the mist of the morning, before the mirage of the noon, my Falcon takes off...)
 
+;(Talk to Tadhla, optional)
+:'''Tadhla:''' (Tadhla avoids eye contact and lowers her head nervously).
+:{{DIcon}} Are you alright?
+::'''Tadhla:''' Sorry, the hunt is over. I am Father's "Falcon."
+::'''Tadhla:''' But I'm feeling great. Don't worry about me.
+::;(Proceed to next dialogue set)
+:{{DIcon}} About your relationship with Masseira...
+::'''Tadhla:''' As I said, he is my father, and I am his Falcon. I follow his orders. I hunt for him, risk my life for him, as he is the will of the Tanit.
+::'''Tadhla:''' When the day comes that I cannot fully execute my Father's orders, then my life as a Falcon will end.
+::;(Proceed to next dialogue set)
+
+;(Continue from previous dialogue set)
+:{{DIcon}} That's pretty extreme...
+::'''Tadhla:''' Extreme, huh? I'm not sure about that. I've always lived like this ever since I was a child.
+:{{DIcon}} Haven't you ever thought about living for yourself?
+::'''Tadhla:''' ...
+::'''Tadhla:''' No. Never. I never had such thoughts, or expectations.
+::'''Tadhla:''' The desert is a place of indifference and brutality, where I have no time to think for my own good. Without me, my tribe lives on just the same. However, without my tribe, there is no way I will survive.
+:'''Tadhla:''' Well... But, the stories of you and Paimon, and the adventures that you two experienced...
+:'''Tadhla:''' Should there be a chance, I would really want to hear more of them.
+:'''Paimon:''' No problem! We have tons of stories to tell!
+:{{DIcon}} Yes, I'll tell you all of them.
+:{{DIcon}} We can talk about them any time you want.
+:'''Tadhla:''' Pfft...
+:'''Tadhla:''' Ahem, sorry. I'm just very happy. Thank you, the Master of the Jinni. Um, I mean, thank you, {{Traveler}}.
+
 ;(Use Nahida's All Schemes to Know on Tadhla, optional)
 :'''Tadhla:''' (...The next hunt, huh...)
-
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Video Guides==
 {{EVT
@@ -431,6 +519,9 @@
 Guide
 }}
 
+==Trivia==
+* The Enraged Red Vulture's title is a reference to {{W|Gollum}} from ''{{W|The Lord of the Rings}}''.
+
 ==Other Languages==
 {{Other Languages
 |en      = "The Falcon's Hunt"
@@ -438,7 +529,7 @@ Guide
 |zhs_rm  = "Yīngliè"
 |zht     = 「鷹獵」
 |zht_rm  = "Yīngliè"
-|zh_tl   = 
+|zh_tl   = "Falcon Hunt"
 |ja      = 「鷹猟」
 |ja_rm   = "Youryou"{{Assumed}}
 |ja_tl   = "The Falcon's Hunt"
@@ -451,12 +542,12 @@ Guide
 |ru      = Соколиная охота
 |ru_tl   = The Falcon's Hunt
 |th      = "การล่าของเหยี่ยว"
-|th_rm   = "Kan La Khong Yiao"
+|th_rm   = "Kan La khong Yiao"
 |th_tl   = "The Falcon's Hunt"
 |vi      = Ưng Săn Mồi
 |vi_tl   = 
 |de      = „Falkenjagd“
-|de_tl   = 
+|de_tl   = "Falcon Hunt"
 |id      = Saatnya Elang Berburu
 |id_tl   = Time for the Falcon to Hunt
 |pt      = "Falcão"

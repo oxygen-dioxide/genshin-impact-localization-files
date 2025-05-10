@@ -1,9 +1,7 @@
-{{See also|Resistance|Damage Reduction}}
+{{See also|RES|DMG Reduction}}
 {{Terminology Infobox
 |image        = Icon Attribute Defense.png
 |type         = Attributes
-|type2        = Combat
-|type3        = Game Systems
 }}
 '''Defense''', abbreviated in-game as '''DEF''', is a measure of how much incoming damage to a character or enemy is reduced.
 
@@ -15,7 +13,7 @@ The higher the defense, the less damage is taken from attacks. Defense can be mo
 *other environmental factors such as [[Infusion Stone]]s
 
 Defense is calculated as:
-:<math>\text{DEF} = \text{DEF}_\text{Character} \times (1 + \% \text{ DEF Bonus}) + \text{DEF Flat Bonus}</math>
+:<math>\text{DEF} = \text{DEF}_\text{Character} \times (1 + \% \text{DEF Bonus}) + \text{DEF Flat Bonus}</math>
 
 For both characters and enemies, defense reduces incoming damage based on this formula:<ref name="NGA1">NGA: [https://ngabbs.com/read.php?tid=23708327 <nowiki>[数据讨论]</nowiki> 防御力(等级)乘区对伤害影响公式出炉&mdash;&mdash;实际上等级压制与防御力是一回事！(更新完毕)]</ref>
 
@@ -25,26 +23,28 @@ The incoming damage will then be multiplied by
 
 :<math>\text{DEF Multiplier}=1 - \text{DEF DMG Reduction}</math>
 
+%DEF debuffs are applied as negative %DEF Bonuses. Note that the total %DEF Bonus cannot go lower than -90%.
+
 ==Enemy Defense==
 <!--keep important calculation stuff up here-->
-[[File:damage vs defense graph.png|thumb|280px|Defense Multiplier (%) vs Attacker's level for a <font color=blue>Lv. 10</font> (blue) and <font color=red>Lv. 90</font> (red) defender.<br />In both cases damage is halved (50%) relative to attack power when attacker and defender levels are equal [any DEF reduction ignored]]]
-Characters have defense attributes based on their base stats, levels, weapons, artifacts, and any buffs (e.g. [[Food]]).
+[[File:damage vs defense graph.png|thumb|280px|Defense Multiplier (%) vs Attacker's level for a <font color=blue>Lv. 10</font> (blue) and <font color=red>Lv. 90</font> (red) defender.<br>In both cases damage is halved (50%) relative to attack power when attacker and defender levels are equal [any DEF reduction ignored]]]
+Characters have DEF attributes based on their base stats, levels, weapons, artifacts, and any buffs (e.g., [[Food]]).
 
-Enemy defense is given as:
+Enemy DEF is given as:
 :<math>\text{DEF}_\text{Enemy} = 5 \times \text{Level}_\text{Enemy} + 500</math>
 
-Defense reduces incoming damage, but its effectiveness is dependent on the attacker's level:<ref name="NGA1" />
+DEF reduces incoming damage, but its effectiveness is dependent on the attacker's level:<ref name="NGA1" />
 
 :<math>\text{DEF Multiplier} = \frac{\text{Level}_\text{Character} + 100}{\text{Level}_\text{Character} + \text{Level}_\text{Enemy} + 200}</math>
 
 *In general this means that damage received is  half (50%) of the attack power (also '''Incoming Damage''' used in the equations) at equal foe levels.
 *The change in damage due to differences in level is relatively small, less than a 10% relative difference for a level difference of 20 (and far less at high levels).
 
-For enemies with debuffed defense:
+For enemies with debuffed DEF:
 <div style="overflow-x:auto;"><math>\text{DEF Multiplier}_\text{(Debuffed)} = \frac{\text{Level}_\text{Character} + 100}
     {\left[ 1 - \% \text{ DEF Reduction} \right] \left[ 1 - \% \text{ DEF Ignored} \right] (\text{Level}_\text{Enemy} + 100) + \text{Level}_\text{Character} + 100}</math></div>
 
-*The key difference of skills that decrease or reduce defense to the skills that ignored defense is that the former changes the actual attribute's values, increasing <u>all</u> damage that factors in defense while the latter is only applicable to a specific skill/attack of the character that triggers it.
+*The key difference of skills that decrease or reduce DEF to the skills that ignored DEF is that the former changes the actual attribute's values, increasing <u>all</u> damage that factors in DEF while the latter is only applicable to a specific skill/attack of the character that triggers it.
 
 {|class="wikitable mw-collapsible mw-collapsed" data-expandtext="+" data-collapsetext="-" style="width: 100%"
 !Intermediate Equations
@@ -67,7 +67,7 @@ Plug in enemy defense to produce the damage reduction for enemies:
     {\text{Level}_\text{Enemy} + 100 + \text{Level}_\text{Character} + 100}
 \\&= \frac{\text{Level}_\text{Enemy} + 100}
     {\text{Level}_\text{Enemy} + \text{Level}_\text{Character} + 200}
-\end{align}</math><br />
+\end{align}</math><br>
 Subtract the damage reduction from 1 to get a defense multiplier for incoming damage.
 
 <math display="block">\begin{align}
@@ -81,7 +81,7 @@ Subtract the damage reduction from 1 to get a defense multiplier for incoming da
     {\text{Level}_\text{Enemy} + \text{Level}_\text{Character} + 200}
 \end{align}</math>
 
-[[File:damage vs defense debuff graph.png|thumb|Damage received vs. Defense reduction (at equal foe and character levels).<br />(At 100% defense reduction 100% of potential damage is received)]]
+[[File:damage vs defense debuff graph.png|thumb|Damage received vs. Defense reduction (at equal foe and character levels).<br>(At 100% defense reduction 100% of potential damage is received)]]
 To consider debuffs that decrease an enemy's defense, multiply the enemy defense accordingly.
 
 <math display="block">\begin{align}
@@ -107,10 +107,12 @@ To consider debuffs that decrease an enemy's defense, multiply the enemy defense
 {{Artifacts by Category Table|DEF Increase Artifacts}}
 
 ===Weapons===
-====Substat====
+====Secondary Attribute====
+The following weapons have DEF as a Secondary Attribute.
 {{Weapons by Category Table|DEF Substat Weapons}}
 
 ====Passive====
+The following weapons have DEF as part of their passive effect.
 {{Weapons by Category Table|DEF Passive Weapons}}
 
 ===Food===
@@ -155,7 +157,7 @@ Enemy Defense can be increased via {{Cryo}} [[Infusion Stone]]s.
 |zht_rm   = Fángyù-lì
 |zh_tl    = Defensive Power
 |ja       = 防御力
-|ja_rm    = Bougyo-ryoku{{Assumed}}
+|ja_rm    = Bougyo-ryoku
 |ja_tl    = Defensive Power
 |ko       = {{tt|방어력|防禦力}}
 |ko_rm    = Bang'eo-ryeok
@@ -177,7 +179,7 @@ Enemy Defense can be increased via {{Cryo}} [[Infusion Stone]]s.
 |pt       = {{tt|DEF|Defesa}}
 |pt_tl    = {{tt|DEF|Defense}}
 |tr       = Savunma
-|tr_tl    = 
+|tr_tl    = Defense
 |it       = {{tt|DIF|Difesa}}
 |it_tl    = {{tt|DEF|Defense}}
 }}
@@ -188,5 +190,7 @@ Enemy Defense can be increased via {{Cryo}} [[Infusion Stone]]s.
 ==Navigation==
 {{Attribute Navbox}}
 {{Combat Navbox|state=collapsed}}
-[[pt-br:Defesa]]
+
 [[ja:防御力]]
+[[pt-br:Defesa]]
+[[vi:Phòng Ngự]]

@@ -1,5 +1,6 @@
 {{Quest Infobox
 |id            = 11030
+|image         = Story Quest The Illuminated Beast of the Sea of Clouds.png
 |type          = Story
 |chapter       = Sinae Unicornis Chapter
 |actNum        = I
@@ -12,30 +13,31 @@
 |area          = Sea of Clouds
 |subarea       = Liyue Harbor
 |next          = A Secretary in a Sea of Humanity
-|exp           = 625
-|mora          = 38,100
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
-|characters    = Cloud Retainer; Baishi; Baiwen; Baixiao; Ganyu; Paimon; Traveler; Xiao; Xin Cheng
+|rewards       = Adventure EXP*625;Mora*38,100;Hero's Wit*4;Mystic Enhancement Ore*8
+|characters    = Xianyun; Baishi; Baiwen; Baixiao; Ganyu; Paimon; Traveler; Xiao; Xin Cheng
 |voiced        = yes
 }}
-'''The Illuminated Beast of the Sea of Clouds''' is the first part of [[Ganyu]]'s [[Story Quest]] [[Sinae Unicornis Chapter]]: Act I - [[Sea of Clouds, Sea of People]].
+'''''The Illuminated Beast of the Sea of Clouds''''' is the first part of {{Quest|Sea of Clouds, Sea of People}}.
 
 ==Steps==
-#Talk to the [[Jade Chamber]] secretaries
-#Head near [[Mt. Aocang]] to look for [[Ganyu]]
-#Find and talk to Ganyu
-#Head to the site of Ganyu's trial and speak to her
-#Complete [[Cloud Retainer]]'s trial
-#*Activate 12 [[Elemental Monument|Cryo Totems]] within the time limit. Ganyu will join your party for this task.
-#Talk to Ganyu
-#Go to [[Nantianmen]] and speak with [[Xiao]]
-#Complete Xiao's trial
-#*Protect the [[Ley Line Monolith]] from 26 monsters. Ganyu will temporarily join you for this task.
-#Talk to Xiao
+# Talk to the [[Jade Chamber]] secretaries
+# Head near [[Mt. Aocang]] to look for [[Ganyu]]
+# Find and talk to Ganyu
+# Head to the site of Ganyu's trial and speak to her
+# Complete [[Cloud Retainer]]'s trial
+#* Activate 12 [[Elemental Monument|Cryo Totems]] within the time limit.
+# Talk to Ganyu
+# Go to [[Nantianmen]] and speak with [[Xiao]]
+# Complete Xiao's trial
+#* Protect the [[Ley Line Monolith]] from 26 monsters.
+# Talk to Xiao
+
+==Gameplay Notes==
+* During Step 5 and 8, Ganyu will join the current party as a trial character.
 
 ==Trial Character==
 {{Trial Character
-|wl                     = 5
+|wl                      = 5,8
 |character_name          = Ganyu
 |character_level5        = 71
 |constellation5          = 3
@@ -50,6 +52,30 @@
 |set1                    = Noblesse Oblige
 |set1_piece_bonus        = 4
 |artifact_level5         = 16
+|character_level8        = 90
+|constellation8          = 3
+|weapon_name8            = Amos' Bow
+|weapon_level8           = 90
+|refinement8             = 1
+|normal_attack_talent8   = 8
+|elemental_skill_talent8 = 8
+|elemental_burst_talent8 = 11
+|hp8                     = 19,447
+|atk8                    = 2,603
+|def8                    = 881
+|em8                     = 105
+|crit_rate8              = 57.1%
+|crit_dmg8               = 130.3%
+|er8                     = 135%
+|cryo_dmg8               = 61.6%
+|artifact_flower8        = Snowswept Memory
+|artifact_feather8       = Icebreaker's Resolve
+|artifact_sands8         = Frozen Homeland's Demise
+|artifact_goblet8        = Frost-Weaved Dignity
+|artifact_circlet8       = Broken Rime's Echo
+|artifact_level8         = 20
+|set1_8                  = Blizzard Strayer
+|set1_piece_bonus_8      = 4
 |normal_attack_talent5   = 5
 |elemental_skill_talent5 = 5
 |elemental_burst_talent5 = 8
@@ -63,16 +89,16 @@
 }}
 
 ==Dialogue==
-{{Quest Description|The three secretaries who originally worked at the [[Jade Chamber]] have appeared at Yujing Terrace. It looks like something has them tearing their hair out...<br /><br />You accept a commission to head to [[Jueyun Karst]] and go to meet [[Ganyu]], who has yet to return from her trip there. When you arrive, you discover that she mistakenly believes herself dismissed on account of her half-adeptus blood. Now, she has returned to Jueyun Karst and is trying to regain the feeling of being an adeptus through training...}}
-{{Dialogue start}}
+{{Quest Description|The three secretaries who originally worked at the Jade Chamber have appeared at [[Yujing Terrace]]. It looks like something has them tearing their hair out...<br><br>You accept a commission to head to [[Jueyun Karst]] and go to meet Ganyu, who has yet to return from her trip there. When you arrive, you discover that she mistakenly believes herself dismissed on account of her half-[[adeptus]] blood. Now, she has returned to Jueyun Karst and is trying to regain the feeling of being an adeptus through training...}}
+{{Dialogue Start}}
 ;(Approach the secretaries)
 :{{A|vo gylq001 1 baixiao 01.ogg}} '''[[Baixiao]]:''' It's shocking how much work there is to do, even for the three of us...
-:{{A|vo gylq001 1 baishi 01.ogg}} '''[[Baishi]]:''' And she's been handling it alone all along... The Qixing's secretary clearly isn't an ordinary person. It's so frustrating...
+:{{A|vo gylq001 1 baishi 01.ogg}} '''[[Baishi]]:''' And she's been handling it alone all along... The [[Liyue Qixing|Qixing's]] secretary clearly isn't an ordinary person. It's so frustrating...
 :{{A|vo gylq001 1 baiwen 01.ogg}} '''[[Baiwen]]:''' Huh. You're...
-:{{A|vo gylq001 1 paimon 01.ogg}} '''Paimon:''' Aren't you Ningguang's servants? How come you're here?
-:{{A|vo gylq001 1 baixiao 02.ogg}} '''Baixiao:''' Ahem... We are Ms. [[Ningguang]]'s private secretaries, not servants.
+:{{A|vo gylq001 1 paimon 01.ogg}} '''Paimon:''' Aren't you [[Ningguang]]'s servants? How come you're here?
+:{{A|vo gylq001 1 baixiao 02.ogg}} '''Baixiao:''' Ahem... We are Ms. Ningguang's private secretaries, not servants.
 :{{A|vo gylq001 1 baiwen 02.ogg}} '''Baiwen:''' Have you seen Ms. Ganyu, Traveler?
-:{{A|vo gylq001 1 baiwen 03.ogg}} '''Baiwen:''' It has been several days since Ganyu left for Jueyun Karst. She's the General Secretary of the Liyue Qixing, we've only taken over her responsibilities until she gets back...
+:{{A|vo gylq001 1 baiwen 03.ogg}} '''Baiwen:''' It has been several days since Ganyu left for Jueyun Karst. She's the General Secretary of the Liyue Qixing. We've only taken over her responsibilities until she gets back...
 :{{DIcon}} What happened?
 :{{DIcon}} Why did she go to Jueyun Karst?
 :{{A|vo gylq001 1 baixiao 03.ogg}} '''Baixiao:''' Ah, even though the Qixing have made peace with the adepti after the latter had denounced Liyue, they still want to pay their respects to the illuminated ones...
@@ -86,21 +112,21 @@
 :{{A|vo gylq001 1 baishi 02.ogg}} '''Baishi:''' Well... It's because of this absurd workload of hers!
 :{{A|vo gylq001 1 baishi 03.ogg}} '''Baishi:''' *sigh* When we first heard the three of us would be taking over for Ms. Ganyu, we thought it would simply be a matter of changing our work environment.
 :{{A|vo gylq001 1 baixiao 06.ogg}} '''Baixiao:''' We couldn't have imagined that Ms. Ganyu's daily workload far exceeds what the three of us are used to doing.
+:{{DIcon}} The adeptus lineage is truly remarkable.
 :{{DIcon}} Shouldn't you get back to work?
 ::{{A|vo gylq001 1 baiwen 07.ogg}} '''Baiwen:''' We don't even know how long we've been working... We feel guilty for taking even a short breather like we are now.
 ::{{A|vo gylq001 1 paimon 04.ogg}} '''Paimon:''' Looks like you've got a serious emergency on your hands.
-:{{DIcon}} The adeptus lineage is truly remarkable.
-:{{A|vo gylq001 1 baiwen 08.ogg}} '''Baiwen:''' Speaking of [[Jueyun Karst]], Traveler, I've heard that you can go in and out of there as you please.
+:{{A|vo gylq001 1 baiwen 08.ogg}} '''Baiwen:''' Speaking of Jueyun Karst, Traveler, I've heard that you can go in and out of there as you please.
 :{{A|vo gylq001 1 paimon 05.ogg}} '''Paimon:''' Of course! We've been there lots of times.
 :{{A|vo gylq001 1 baixiao 07.ogg}} '''Baixiao:''' Ah, that's good news... Could you go to Jueyun Karst and find Ms. Ganyu for us? Preferably before we collapse under this workload...
 :{{DIcon}} Seems like I'm the only one who can do it, indeed...
 :{{DIcon}} I'll do it. Lives are at stake here.
-:{{A|vo gylq001 1 baixiao 08.ogg}} '''Baixiao:''' Phew... We're saved. I remember Ms. Ganyu said that she'd be visiting Cloud Retainer's abode, you might as well start looking for her there.
+:{{A|vo gylq001 1 baixiao 08.ogg}} '''Baixiao:''' Phew... We're saved. I remember Ms. Ganyu said that she'd be visiting Cloud Retainer's abode. You might as well start looking for her there.
 :{{A|vo gylq001 1 baiwen 09.ogg}} '''Baiwen:''' It's about time she came back to work, otherwise... *sigh*
 :{{A|vo gylq001 1 baishi 04.ogg}} '''Baishi:''' No. Perhaps we should go to Lady Ningguang first and bring up our overtime pay again.
 
 ;(After cutscene ends)
-:{{A|vo gylq001 1 paimon 06.ogg}} '''Paimon:''' So, Ganyu left to visit Cloud Retainer. Doesn't she live in [[Mt. Aocang]]?
+:{{A|vo gylq001 1 paimon 06.ogg}} '''Paimon:''' So, Ganyu left to visit Cloud Retainer. Doesn't she live in Mt. Aocang?
 :{{A|vo gylq001 1 paimon 07.ogg}} '''Paimon:''' We should hurry up, Paimon hopes we can find her there!
 
 ----
@@ -113,14 +139,14 @@
 :{{A|vo gylq001 2 ganyu 02.ogg}} '''Ganyu:''' Ah, I shouldn't... I have left the human world. Please contact the Yuehai Pavilion regarding matters concerning the commercial port.
 :{{DIcon}} Left the human world?
 :{{DIcon}} You seem different...
-:{{A|vo gylq001 2 paimon 03.ogg}} '''Paimon:''' Huh, you don't want to be the [[Liyue Qixing|Qixing]]'s secretary anymore? But they're all waiting for you to come back...
+:{{A|vo gylq001 2 paimon 03.ogg}} '''Paimon:''' Huh, you don't want to be the Qixing's secretary anymore? But they're all waiting for you to come back...
 :{{A|vo gylq001 2 ganyu 03.ogg}} '''Ganyu:''' That's why you're here? You want me to come back? I'm afraid you came here in vain.
 :{{A|vo gylq001 2 paimon 04.ogg}} '''Paimon:''' What? Did something happen?
 :{{A|vo gylq001 2 ganyu 04.ogg}} '''Ganyu:''' The clouds fold and unfold, the tide ebbs and flows. It was meant to be.
-:{{A|vo gylq001 2 ganyu 05.ogg}} '''Ganyu:''' When the [[adepti]] entrusted humans with overseeing Liyue, I knew it was only a matter of time until I had to leave.
+:{{A|vo gylq001 2 ganyu 05.ogg}} '''Ganyu:''' When the adepti entrusted humans with overseeing Liyue, I knew it was only a matter of time until I had to leave.
 :{{A|vo gylq001 2 ganyu 06.ogg}} '''Ganyu:''' My adepti blood makes me unwelcome in Liyue Harbor.
-:{{A|vo gylq001 2 ganyu 08.ogg}} '''Ganyu:''' I delivered the letter and came back to Liyue Harbor only to discover that I had been replaced by Baiwen, Baixiao, and Baishi...
-:{{A|vo gylq001 2 ganyu 07.ogg}} '''Ganyu:''' Perhaps that mission of mine was just a pretext to remove me. Since the Qixing gave me a chance to leave with dignity, I decided to be tactful, as well.
+:{{A|vo gylq001 2 ganyu 07.ogg}} '''Ganyu:''' I delivered the letter and came back to Liyue Harbor only to discover that I had been replaced by Baiwen, Baixiao, and Baishi...
+:{{A|vo gylq001 2 ganyu 08.ogg}} '''Ganyu:''' Perhaps that mission of mine was just a pretext to remove me. Since the Qixing gave me a chance to leave with dignity, I decided to be tactful, as well.
 :{{DIcon}} I believe there's been a huge misunderstanding.
 :{{DIcon}} Nobody wants to get rid of you...
 :{{A|vo gylq001 2 ganyu 09.ogg}} '''Ganyu:''' I appreciate your kindness but there's no need for your words of comfort.
@@ -135,10 +161,10 @@
 :{{DIcon}} Get along?
 :{{A|vo gylq001 2 ganyu 11.ogg}} '''Ganyu:''' ...
 :{{A|vo gylq001 2 cloudretainer 04.ogg}} '''Cloud Retainer:''' Ah... A matter leaves you at an impasse, then?
-:{{A|vo gylq001 2 cloudretainer 05.ogg}} '''Cloud Retainer:''' Not to worry, one is exceptional at avenues for conversation. One has been one's own companion in idle talk for many a year.
+:{{A|vo gylq001 2 cloudretainer 05.ogg}} '''Cloud Retainer:''' Not to worry, one is exceptional at seeking avenues for conversation. One has been one's own companion in idle talk for many a year.
 :{{A|vo gylq001 2 cloudretainer 06.ogg}} '''Cloud Retainer:''' Ah, yes. Since you are Ganyu's friends, tales from her youth shall one apprise you of, perhaps...
 :{{A|vo gylq001 2 ganyu 12.ogg}} '''Ganyu:''' Cloud Retainer!
-:{{A|vo gylq001 2 cloudretainer 07.ogg}} '''Cloud Retainer:''' Hahaha... Nothing to be ashamed of! You were so cute as a child, one is most certain that your friends would like to hear it.
+:{{A|vo gylq001 2 cloudretainer 07.ogg}} '''Cloud Retainer:''' Hahaha... Nothing to be ashamed of! You were so cute as a child, one is most certain that your friends would like to hear of it.
 :{{DIcon}} I'm a bit curious, indeed...
 :{{DIcon}} Now that's a good topic.
 :{{A|vo gylq001 2 paimon 08.ogg}} '''Paimon:''' Ooh, Paimon wants to hear it!
@@ -161,7 +187,8 @@
 :{{A|vo gylq001 2 cloudretainer 15.ogg}} '''Cloud Retainer:''' But returning to Ganyu, most gladdened one is of your arrival.
 :{{A|vo gylq001 2 cloudretainer 16.ogg}} '''Cloud Retainer:''' One cannot help but feel that remaining in Jueyun Karst shall not be good for her...
 :{{A|vo gylq001 2 cloudretainer 17.ogg}} '''Cloud Retainer:''' One will tell you more about her, if you should permit it.
-;([[#Cutscene|Cutscene]] plays)
+{{Cutscene Description|The [[Qilin]] is an illuminated beast, aloof from mortal trifles. So for Ganyu, her qilin and human sides often find themselves in conflict with each other. The inescapable loneliness that this causes is something that Cloud Retainer can relate to. She once tried to help Ganyu reconcile herself with the mortal realm but was met with these words from Ganyu:<br>"When I step into the sea of people in Liyue, I feel the loneliness of an inhuman that doesn't belong in the human world."}}
+:;(A [[#Cutscene|cutscene]] plays)
 ::Most benevolent among all adepti are the Qilin
 ::They drink only spring water and eat only whole grain
 ::But perhaps the mountainous dwellings of adepti in Jueyun Karst
@@ -183,15 +210,16 @@
 ::"When I step into the sea of people in Liyue"
 ::"I feel the loneliness of an inhuman"
 ::"That doesn't belong in the human world"
+:;(Cutscene ends)
 :{{A|vo gylq001 3 cloudretainer 01.ogg}} '''Cloud Retainer:''' One did, by chance, hear this much of Ganyu's thoughts.
 :{{A|vo gylq001 3 cloudretainer 02.ogg}} '''Cloud Retainer:''' Alone, she will find her predicament hard to conquer. One hopes that you will accompany her...
 :{{A|vo gylq001 3 paimon 01.ogg}} '''Paimon:''' Oh, Retainer's right! We can't leave Ganyu depressed like that. Besides, Liyue hasn't given up on her, she's got it all wrong...
 :{{A|vo gylq001 3 paimon 02.ogg}} '''Paimon:''' Anyways, what's that "training" Ganyu was talking about?
 :{{A|vo gylq001 3 cloudretainer 03.ogg}} '''Cloud Retainer:''' She has sought to reclaim her adeptus side since returning to Jueyun Karst. At her behest, one has organized training for her to achieve that end...
 :{{A|vo gylq001 3 cloudretainer 04.ogg}} '''Cloud Retainer:''' She should be in the southern part of Mt. Aocang right now, preparing for the trial.
-:{{A|vo gylq001 3 paimon 03.ogg}} '''Paimon:''' Huh, is that so? Let's go take a look then!
+:{{A|vo gylq001 3 paimon 03.ogg}} '''Paimon:''' Huh, is that so? Let's go take a look, then!
 
-;(Talk to Cloud Retainer again)
+;(Talk to Cloud Retainer again, optional)
 :{{A|vo dialog gylq001 cloudretainer 01.ogg}} '''Cloud Retainer:''' This trial will test her spirit.
 :{{A|vo dialog gylq001 cloudretainer 02.ogg}} '''Cloud Retainer:''' Even so, one hopes that it shall trouble her little...
 
@@ -204,7 +232,7 @@
 ::{{A|vo gylq001 4 ganyu 02a 2.ogg}} '''Ganyu:''' Hmm... Considering the kindness you have shown me, I can let you stay for the adeptus training.
 ::{{A|vo gylq001 4 paimon 02a.ogg}} '''Paimon:''' Yay~!
 :{{DIcon}} I'd like to try this adeptus training.
-::{{A|vo gylq001 4 ganyu 02b.ogg}} '''Ganyu:''' Is that so? You really are interested in the ways of the adepti.
+::{{A|vo gylq001 4 ganyu 02b.ogg}} '''Ganyu:''' Is that so? You really are interested in the ways of adepti.
 :{{A|vo gylq001 4 ganyu 03.ogg}} '''Ganyu:''' This trial was prepared by Cloud Retainer. Its goal is to help me feel like an adeptus again.
 :{{A|vo gylq001 4 ganyu 04.ogg}} '''Ganyu:''' The training is much to her signature style... I hope it won't make it seem like she is too unaware of the abilities of others.
 :{{A|vo gylq001 4 paimon 03.ogg}} '''Paimon:''' I&mdash;Is it difficult?
@@ -226,20 +254,20 @@
 :{{A|vo gylq001 6 paimon 01.ogg}} '''Paimon:''' Ganyu, what were you planning to do once your training was over?
 :{{A|vo gylq001 6 ganyu 03.ogg}} '''Ganyu:''' The training's not over yet. The part prepared by Cloud Retainer is only the first trial.
 :{{A|vo gylq001 6 paimon 02.ogg}} '''Paimon:''' Huh? So there are more trials, prepared by other adepti?
-:{{DIcon}} Is Mountain Shaper next?
-:{{DIcon}} Is it Moon Carver?
+:{{DIcon}} Is [[Mountain Shaper]] next?
+:{{DIcon}} Is it [[Moon Carver]]?
 :{{A|vo gylq001 6 ganyu 04.ogg}} '''Ganyu:''' No. The only adeptus who can unlock my true potential is...
 :{{A|vo gylq001 6 paimon 03.ogg}} '''Paimon:''' Who is it?
-:{{A|vo gylq001 6 ganyu 05.ogg}} '''Ganyu:''' [[Conqueror of Demons]].
+:{{A|vo gylq001 6 ganyu 05.ogg}} '''Ganyu:''' Conqueror of Demons.
 :{{A|vo gylq001 6 paimon 04.ogg}} '''Paimon:''' Huh! So it's Xiao! That cold-hearted loner? How come he's prepared a trial for you?
 :{{DIcon}} What a surprise...
 :{{DIcon}} How interesting...
 :{{A|vo gylq001 6 ganyu 06.ogg}} '''Ganyu:''' I found him unapproachable at first, too. But I believe... that being able to face him is an important part of my "homecoming."
 :{{A|vo gylq001 6 ganyu 07.ogg}} '''Ganyu:''' He's already waiting for me. Come along if you're interested.
-:{{A|vo gylq001 6 paimon 05.ogg}} '''Paimon:''' Of course we are! Let's go, (Traveler)!
+:{{A|vo gylq001 6 paimon 05.ogg}} '''Paimon:''' Of course we are! Let's go, {{Traveler}}!
 
 ----
-;(Talk to Xiao at [[Nantianmen]])
+;(Talk to Xiao at Nantianmen)
 :{{A|vo gylq001 7 xiao 01.ogg}} '''Xiao:''' You're half an hour late... I see you still haven't abandoned the wrongful ways of humankind.
 :{{A|vo gylq001 7 ganyu 01.ogg}} '''Ganyu:''' I'm sorry, I had a meeting with Cloud Retainer, I...
 :{{A|vo gylq001 7 xiao 02.ogg}} '''Xiao:''' I don't need your explanations and don't require any mutual understanding between us. I'm just helping you with your training, that's all.
@@ -253,7 +281,7 @@
 :{{A|vo gylq001 7 xiao 06.ogg}} '''Xiao:''' The trial I've prepared for you will explore the true potential of your body.
 :{{A|vo gylq001 7 ganyu 03.ogg}} '''Ganyu:''' Yes, I'm ready.
 
-;(Talk to Xiao again)
+;(Talk to Xiao again, optional)
 :{{A|vo dialog gylq001 xiao 01.ogg}} '''Xiao:''' Focus on the trial. I'm not here for idle chatter.
 
 ----
@@ -275,7 +303,7 @@
 :{{A|vo gylq001 8 xiao 05.ogg}} '''Xiao:''' Huh... Another one of those pesky visitors...
 :{{A|vo gylq001 8 xiao 06.ogg}} '''Xiao:''' I'll leave him to you, Ganyu. It's also a part of your training.
 :{{A|vo gylq001 8 paimon 03.ogg}} '''Paimon:''' Pesky visitor? So even here there are those that Xiao can't deal with?
-:{{A|vo gylq001 8 xincheng 01.ogg}} '''Xin Cheng:''' Oh&mdash;Oh heavens! Blessed be [[Rex Lapis]], I've finally come upon the adepti!
+:{{A|vo gylq001 8 xincheng 01.ogg}} '''[[Xin Cheng]]:''' Oh&mdash;Oh heavens! Blessed be [[Rex Lapis]], I've finally come upon the adepti!
 :{{A|vo gylq001 8 xincheng 02.ogg}} '''Xin Cheng:''' Are all of you the adepti of this mountain?
 :{{A|vo gylq001 8 xincheng 03.ogg}} '''Xin Cheng:''' Great! My name's Xin Cheng. I came to ask for your merciful blessings, O adepti! I beg of you, please grant me luck, wealth, and a good career!
 :{{A|vo gylq001 8 paimon 04.ogg}} '''Paimon:''' Oh, so it's a pilgrim.
@@ -297,7 +325,7 @@
 :{{A|vo gylq001 8 xincheng 09.ogg}} '''Xin Cheng:''' You sure you're not one of those swindlers who pose as an adeptus to cheat people out of their money?
 :{{DIcon}} He just can't take criticism.
 :{{DIcon}} Show some respect!
-::{{A|vo gylq001 8 xincheng 10b.ogg}}  '''Xin Cheng:''' Ugh... How dare you reprove me! I bet you came here looking for the adepti yourself!
+::{{A|vo gylq001 8 xincheng 10b.ogg}} '''Xin Cheng:''' Ugh... How dare you reprove me! I bet you came here looking for the adepti yourself!
 ::{{A|vo gylq001 8 paimon 07b.ogg}} '''Paimon:''' Hmm, he might sorta have a point. We did come here looking for Ganyu, after all.
 :{{A|vo gylq001 8 xincheng 11.ogg}} '''Xin Cheng:''' Eh, enough. Doesn't matter if you're a real adeptus or not, you're useless. I'm leaving.
 :{{A|vo gylq001 8 paimon 08.ogg}} '''Paimon:''' Hmph! Nobody's stopping you!
@@ -316,12 +344,15 @@
 :{{A|vo gylq001 8 ganyu 15.ogg}} '''Ganyu:''' Alright, I'll go with you to Liyue Harbor. That said, I still trust my initial judgment.
 :{{A|vo gylq001 8 ganyu 16.ogg}} '''Ganyu:''' If I'm proven right, I'll return to Jueyun Karst once again.
 :{{A|vo gylq001 8 paimon 11.ogg}} '''Paimon:''' It's a step in the right direction. Let's go!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Cutscene==
 <gallery>
 Genshin Impact - Ganyu Cutscene - The Lonely Qilin And Her Growing Sadness
 </gallery>
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -330,10 +361,10 @@ Genshin Impact - Ganyu Cutscene - The Lonely Qilin And Her Growing Sadness
 |zhs_rm  = Yúnzhīhǎi de Xiānshòu
 |zht     = 雲之海的仙獸
 |zht_rm  = Yúnzhīhǎi de Xiānshòu
-|zh_tl   = The [[Illuminated Beasts|Illuminated Beast]] of the Sea of Clouds
+|zh_tl   = The [[Illuminated Beast]] of the Sea of Clouds
 |ja      = 雲の海の仙獣
 |ja_rm   = Kumo no Umi no Senjuu
-|ja_tl   = The [[Illuminated Beasts|Illuminated Beast]] of the Sea of Clouds
+|ja_tl   = The [[Illuminated Beast]] of the Sea of Clouds
 |ko      = 구름바다의 신수
 |ko_rm   = Gureumbada-ui Sinsu
 |ko_tl   = The Adeptus Animal of the Sea of Clouds
@@ -365,3 +396,5 @@ Genshin Impact - Ganyu Cutscene - The Lonely Qilin And Her Growing Sadness
 
 [[es:La bestia iluminada del Mar de Nubes]]
 [[fr:La bête sacrée de la mer de nuages]]
+[[ja:雲の海の仙獣]]
+[[pt-br:A Besta Iluminada do Mar de Nuvens]]

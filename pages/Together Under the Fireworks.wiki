@@ -1,5 +1,5 @@
 {{Quest Infobox
-|id            = 12014
+|id            = 12013; 12014
 |image         = Story Quest Yoimiya A1 Together Under the Fireworks.png
 |type          = Story
 |chapter       = Carassius Auratus Chapter
@@ -9,20 +9,16 @@
 |character     = Yoimiya
 |requirement   = 
 |characters    = Imatani Keisuke; Iwao; Matsuzaka; Morihiko; Naganohara Ryuunosuke; Paimon; Saika; Sakujirou; Traveler; Yoimiya; Yoshitaka
-|startLocation = [[Inazuma City]], [[Inazuma]]
+|startLocation = [[Byakko Plain]], [[Inazuma]]
 |region        = Inazuma
 |area          = Narukami Island
-|subarea       = Inazuma City
+|subarea       = Byakko Plain
 |prev          = A Sliver of Hope
-|next          = 
-|exp           = 600
-|mora          = 36,825
-|primogems     = 60
-|other         = {{Card|Guide to Transience|5}}{{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
+|next          = The Seeker of a Meteor Shower
+|rewards       = Adventure EXP*600;Primogem*60;Mora*36,825;Guide to Transience*5;Hero's Wit*4;Mystic Enhancement Ore*8
 |voiced        = yes
 }}
-
-'''Together Under the Fireworks''' is the fourth and final part of [[Yoimiya]]'s [[Story Quest]] [[Carassius Auratus Chapter]]: Act I - [[Dreamlike Timelessness]].
+'''''Together Under the Fireworks''''' is the fourth and final part of {{Quest|Dreamlike Timelessness}}.
 
 ==Steps==
 #Follow the road out of the city to look for clues
@@ -30,9 +26,14 @@
 #Follow the direction indicated by the children
 #Approach the [[Tenryou Commission]] officers who are blocking the road
 #Defeat the Tenryou Commission officers
+#* Wave 1: {{Enemy List|Shogunate Infantry *3}}
+#* Wave 2: {{Enemy List|Shogunate Infantry *4}}
+#* Wave 3: {{Enemy List|Shogunate Infantry *3}}
 #Talk to the panicking Tenryou Commission officers
 #Proceed deeper within to find [[Sakujirou]]
 #Defeat [[Imatani Keisuke]]
+#* {{Enemy|Shogunate Infantry Captain|text=Imatani Keisuke &mdash; Sakujirou's Old Friend}}
+#* The following enemies will infinitely respawn until Imatani Keisuke is defeated: {{Enemy List|Shogunate Infantry *3}}
 #Talk to Imatani Keisuke and Sakujirou
 #Go to a place to watch the [[Naganohara Fireworks Show|Fireworks Show]]
 #*Obtain [[Naganohara Fireworks Note]]
@@ -40,13 +41,16 @@
 ==Trial Character==
 {{Trial Character
 <!--World Level-->
-|wl                     = 3, 8
+|wl                     = 3, 6, 8
 
 <!--Character-->
 |character_name          = Yoimiya
 
 |character_level3        = 45
 |constellation3          = 3
+
+|character_level6        = 78
+|constellation6          = 3
 
 |character_level8        = 88
 |constellation8          = 3
@@ -56,6 +60,9 @@
 
 |weapon_level3           = 45
 |refinement3             = 1
+
+|weapon_level6           = 78
+|refinement6             = 1
 
 |weapon_level8           = 88
 |refinement8             = 1
@@ -69,6 +76,15 @@
 |set1_3                  = Brave Heart
 |set1_piece_bonus_3      = 4
 |artifact_level3         = 14
+
+|artifact_flower6        = Royal Flora
+|artifact_feather6       = Royal Plume
+|artifact_sands6         = Royal Pocket Watch
+|artifact_goblet6        = Royal Silver Urn
+|artifact_circlet6       = Royal Masque
+|set1_6                  = Noblesse Oblige
+|set1_piece_bonus_6      = 4
+|artifact_level6         = 20
 
 |artifact_flower8        = Royal Flora
 |artifact_feather8       = Royal Plume
@@ -84,6 +100,10 @@
 |elemental_skill_talent3 = 5
 |elemental_burst_talent3 = 2
 
+|normal_attack_talent6   = 6
+|elemental_skill_talent6 = 9
+|elemental_burst_talent6 = 6
+
 |normal_attack_talent8   = 6
 |elemental_skill_talent8 = 9
 |elemental_burst_talent8 = 6
@@ -97,6 +117,14 @@
 |crit_rate3              = 41.8%
 |crit_dmg3               = 112.4%
 
+|hp6                     = 20,526
+|atk6                    = 1,882
+|def6                    = 646
+|em6                     = 105
+|er6                     = 135.0%
+|crit_rate6              = 71.5%
+|crit_dmg6               = 149.4%
+
 |hp8                     = 22,405
 |atk8                    = 2,089
 |def8                    = 727
@@ -108,13 +136,13 @@
 
 ==Dialogue==
 {{Quest Description|Unexpectedly, this old couple's child is the [[Tenryou Commission]]'s [[Imatani Keisuke]], an old acquaintance of [[Sakujirou]]'s. However, the two of them once had a sharp disagreement, and so [[Yoimiya]] is unable to use this prior relationship to help Sakujirou out of his bind. As the Tenryou Commission closes in on [[Naganohara Fireworks]], Yoimiya fears that Sakujirou will forever forfeit his chance to fulfill his wish...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to [[Naganohara Ryuunosuke]])
 :{{A|vo dialog xglq004 naganohararyuunosuke 01.ogg}} '''Naganohara Ryuunosuke:''' Things aren't boding well for Sakujirou.
 :{{A|vo dialog xglq004 naganohararyuunosuke 02.ogg}} '''Naganohara Ryuunosuke:''' If only there was something we could do...
 
 ;(Talk to [[Morihiko]])
-:{{A|vo dialog xglq004 morihiko 01.ogg}} '''Morihiko:''' ... Be careful.
+:{{A|vo dialog xglq004 morihiko 01.ogg}} '''Morihiko:''' ...&nbsp;Be careful.
 :{{A|vo dialog xglq004 morihiko 02.ogg}} '''Morihiko:''' This is the Tenryou Commission we're talking about. Please, don't do anything you might live to regret.
 
 ----
@@ -202,9 +230,7 @@
 :{{A|vo xglq004 7 yoshitaka 02.ogg}} '''Yoshitaka:''' Wh&mdash;What?
 :{{A|vo xglq004 7 imatanikeisuke 02.ogg}} '''Imatani Keisuke:''' I thought I told you to stay away! Now, stand down!
 :{{A|vo xglq004 7 yoshitaka 03.ogg}} '''Yoshitaka:''' Y&mdash;Yes, Sir... Sorry!
-
-:'''''Yoshitaka leaves in a panic.'''''
-
+:{{Black Screen|''Yoshitaka leaves in a panic.''}}
 :{{A|vo xglq004 7 imatanikeisuke 03.ogg}} '''Imatani Keisuke:''' Young lady, you are just as obstinate as Sakujirou was back then.
 :{{A|vo xglq004 7 imatanikeisuke 04.ogg}} '''Imatani Keisuke:''' Why were you so convinced that we had things to say to each other?
 :{{A|vo xglq004 7 yoimiya 01.ogg}} '''Yoimiya:''' Because... Sakujirou may not have told me about you when he came back, but he did order a firework from me.
@@ -240,9 +266,7 @@
 :{{A|vo xglq004 7 sakujirou 13.ogg}} '''Sakujirou:''' Don't worry, Keisuke.
 :{{A|vo xglq004 7 sakujirou 14.ogg}} '''Sakujirou:''' Any chance we could watch the fireworks together?
 :{{A|vo xglq004 7 imatanikeisuke 19.ogg}} '''Imatani Keisuke:''' Mm. Maybe next time.
-
-:'''''Sakujirou's boat departs in inscrutable silence...'''''
-
+:{{Black Screen|''Sakujirou's boat departs in inscrutable silence...''}}
 :{{A|vo xglq004 7 imatanikeisuke 20.ogg}} '''Imatani Keisuke:''' *sigh* I'll be demoted for sure...
 :{{A|vo xglq004 7 imatanikeisuke 21.ogg}} '''Imatani Keisuke:''' It's not like me to give in to childish sentiment like this. I can't explain why I went through with it.
 :{{DIcon}} That boat...
@@ -261,32 +285,28 @@
 :{{A|vo xglq004 7 yoimiya 09.ogg}} '''Yoimiya:''' I can't make another one, but I'm guessing Sakujirou probably won't be needing his anymore... It'd be a shame for it to go to waste, so I'll make an exception and let you set it off instead.
 :{{A|vo xglq004 7 imatanikeisuke 30.ogg}} '''Imatani Keisuke:''' ...Thank you very much.
 :{{A|vo xglq004 7 yoimiya 10.ogg}} '''Yoimiya:''' No worries. And don't miss out on the start of the fireworks show.
-
-:'''''Imatani Keisuke also leaves.'''''
-
+:{{Black Screen|''Imatani Keisuke also leaves.''}}
 :{{A|vo xglq004 7 paimon 01.ogg}} '''Paimon:''' Yoimiya, the way you took command of that whole situation was amazing!
 :{{A|vo xglq004 7 yoimiya 11.ogg}} '''Yoimiya:''' What can I say &mdash; I like to talk. I'm a strong believer in the power of words.
 :{{A|vo xglq004 7 yoimiya 12.ogg}} '''Yoimiya:''' If you're not willing to communicate, then the problem just sits there. If you just keep staring at it without doing anything, eventually you'll watch every last opportunity to resolve it slip away before your eyes.
 :{{A|vo xglq004 7 yoimiya 13.ogg}} '''Yoimiya:''' Sakujirou and Keisuke can't turn back the clock in their relationship, but... that's no reason to live with remorse.
 :{{A|vo xglq004 7 yoimiya 14.ogg}} '''Yoimiya:''' Anyway, follow me. I'll bring you to the perfect place to watch the fireworks.
 :{{A|vo xglq004 7 yoimiya 15.ogg}} '''Yoimiya:''' My pops will set off the firework that I wanted to give to you.
-----
-;(A cinematic plays)
+{{Cutscene Description|The fireworks blossom profusely in the skies over Inazuma City. Sakujirou, rowing his small boat alone, cannot help but weep as his gaze chances upon a familiar fire-flower. The instigator of this affair, Yoimiya, ever the chatterbox on the road here, is uncharacteristically silent, observing the fleeting panorama of beauty thoughtfully.}}
+;(A cutscene plays)
 :;(Sakujirou paddles away in his small boat)
 :;(There is a flash of light and he turns around to see a firework display)
-:{{A|vo xglq004 cs sakujirou 01.ogg}} '''Sakujirou:''' It's...!
+::{{A|vo xglq004 cs sakujirou 01.ogg}} '''Sakujirou:''' It's...!
 :;(A familiar firework sets off)
-:{{A|vo xglq004 cs sakujirou 02.ogg}} '''Sakujirou:''' Keisuke...
+::{{A|vo xglq004 cs sakujirou 02.ogg}} '''Sakujirou:''' Keisuke...
 :;(He begins to weep)
 :;(Yoimiya, the Traveler and Paimon watch the fireworks from Amakane Island)
-:{{A|vo xglq004 cs paimon 01.ogg}} '''Paimon:''' So, Yoimiya. These fireworks, what do they mean to you?
+::{{A|vo xglq004 cs paimon 01.ogg}} '''Paimon:''' So, Yoimiya. These fireworks, what do they mean to you?
 :;(Yoimiya is captivated by the show and does not respond)
-:{{A|vo xglq004 cs paimon 02.ogg}} '''Paimon:''' Yoimiya?
+::{{A|vo xglq004 cs paimon 02.ogg}} '''Paimon:''' Yoimiya?
 :;(The Traveler shushes Paimon)
 :;(Paimon nods)
-----
-;(After the cinematic)
-;({{Color|menu|The fireworks blossom profusely in the skies over Inazuma City. Sakujirou, rowing his small boat alone, cannot help but weep as his gaze chances upon a familiar fire-flower. The instigator of this affair, Yoimiya, ever the chatterbox on the road here, is uncharacteristically silent, observing the fleeting panorama of beauty thoughtfully.}})
+:;(Cutscene ends)
 :{{A|vo xglq004 9 yoimiya 01.ogg}} '''Yoimiya:''' Ahh, that was amazing. It was so beautiful I could weep.
 :{{A|vo xglq004 9 yoimiya 02.ogg}} '''Yoimiya:''' Uh, I didn't actually cry, though, right? I just feel a bit misty-eyed.
 :{{DIcon}} It was very pretty.
@@ -321,8 +341,9 @@
 :{{DIcon}} That's another kind of eternity.
 :{{A|vo xglq004 9 yoimiya 19.ogg}} '''Yoimiya:''' Also, consider this: You have to have the Naganoharas, because so many people are emotionally invested in the existence of fireworks.
 :{{A|vo xglq004 9 yoimiya 20.ogg}} '''Yoimiya:''' If we didn't exist, their wishes would go unfulfilled, wouldn't they?
-:{{A|vo xglq004 9 yoimiya 21.ogg}} '''Yoimiya:''' You know, (Traveler), I don't really think about complicated things like this very often...
+:{{A|vo xglq004 9 yoimiya 21.ogg}} '''Yoimiya:''' You know, {{Traveler}}, I don't really think about complicated things like this very often...
 :{{A|vo xglq004 9 yoimiya 22.ogg}} '''Yoimiya:''' But I'm proud that I was born into the [[Naganohara family]], and have the chance to make so many pretty fireworks.
+;(Obtain {{Item|Naganohara Fireworks Note}})
 ----
 ;(Talk to Yoimiya after the end of the quest)
 :{{A|vo dialog xglq004 yoimiya 01.ogg}} '''Yoimiya:''' I think I'll stay here for a bit longer. The show is still not quite over in my heart.
@@ -337,18 +358,21 @@
 ::{{A|vo xglq004 9 yoimiya 23b 1.ogg}} '''Yoimiya:''' I'll do it for free!
 ::{{A|vo xglq004 9 yoimiya 23b 2.ogg}} '''Yoimiya:''' I did kind of force it on you, after all. Not to mention that I dragged you along with me and gave you all sorts of trouble along the way. Hehe, I'd feel bad if I charged you any Mora.
 ::{{DIcon}} Are you sure? I feel bad...
-::{{A|vo xglq004 9 yoimiya 23b 3a.ogg}} {{A|vo xglq004 9 yoimiya 23b 3b.ogg}} '''Yoimiya:''' It's fine. ...Look, how about we make a deal: After you find your {{MC|sister|brother|mc=1}}, tell {{MC|her|him|mc=1}} to come to Naganohara Fireworks for all {{MC|her|his|mc=1}} fireworks needs. That way, I'll get another customer. Sound fair?
-::{{A|vo xglq004 9 yoimiya 23b 4a.ogg}} {{A|vo xglq004 9 yoimiya 23b 4b.ogg}} '''Yoimiya:''' Also, it'd be nice to meet {{MC|her|him|mc=1}}.
+::{{A|vo xglq004 9 yoimiya 23b 3a.ogg}} {{A|vo xglq004 9 yoimiya 23b 3b.ogg}} '''Yoimiya:''' It's fine. ...Look, how about we make a deal: After you find your {{MC|m=sister|f=brother}}, tell {{MC|m=her|f=him}} to come to Naganohara Fireworks for all {{MC|m=her|f=his}} fireworks needs. That way, I'll get another customer. Sound fair?
+::{{A|vo xglq004 9 yoimiya 23b 4a.ogg}} {{A|vo xglq004 9 yoimiya 23b 4b.ogg}} '''Yoimiya:''' Also, it'd be nice to meet {{MC|m=her|f=him}}.
 :{{DIcon}} What if the Tenryou Commission causes you more trouble...
 ::{{A|vo xglq004 9 yoimiya 23c.ogg}} '''Yoimiya:''' I'll kick their butts again!
 ::{{A|vo xglq004 9 yoimiya 23c 1.ogg}} '''Yoimiya:''' Hahaha, I'm joking. Didn't I tell you that my family deal with the Commissions quite a bit?
 ::{{A|vo xglq004 9 yoimiya 23c 2.ogg}} '''Yoimiya:''' We have an easy enough time of it. At the worst, we'd have to apologize, smile, and pay a fine. It wouldn't be the end of the world.
 ::{{A|vo xglq004 9 yoimiya 23c 3.ogg}} '''Yoimiya:''' You two should be careful, though. Without the same connections, you can't afford to be as reckless as me, hee-hee.
-{{Dialogue end}}
+{{Dialogue End}}
 <!--duplicate
 * {{A|vo xglq004 7 yoshitaka 01a.ogg|1}}
 * {{A|vo xglq004 7 yoshitaka 01b.ogg|1}}
 -->
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -362,7 +386,6 @@
 |ja_rm   = Hanabi no Shita de Tomo ni{{Assumed}}
 |ja_tl   = Together Under the Fireworks
 |ko      = 같은 불꽃 아래
-|ko_rm   = Gateun Bulkkot Arae
 |ko_tl   = Under the Same Fireworks
 |es      = Juntos bajo los fuegos artificiales
 |es_tl   = Together Under the Fireworks

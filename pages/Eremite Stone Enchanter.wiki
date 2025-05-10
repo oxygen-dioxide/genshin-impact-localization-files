@@ -32,15 +32,15 @@
 ==Stats==
 ===Normal===
 {{Enemy Stats
-|phys_res     = -20%
+|phys_res     = &minus;20%
 
 |res2         = Enhanced
 |resglobal2   = 60%
-|phys_res2    = 40%
+|phys_res2    = 30%
 
 |res3         = Stunned
-|phys_res3    = -20%
-|geo_res3     = -50%
+|phys_res3    = &minus;20%
+|geo_res3     = &minus;50%
 
 |hp_ratio     = 5
 |hp_type      = 2
@@ -50,7 +50,7 @@
 
 ===Warrior's Spirit===
 {{Enemy Stats
-|phys_res     = -20%
+|phys_res     = &minus;20%
 
 |hp_ratio     = 10.1884570082
 |hp_type      = 2
@@ -59,8 +59,8 @@
 |hide_notes   = 1
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 
 ===Normal===
 {{Enemy Attacks
@@ -73,11 +73,13 @@
 |name_3      = Spinning Charge
 |desc_3      = Spins his weapon wildly and charges at the player, dealing '''50% ATK''' as {{Color|Geo DMG}} with each spin. At the end of the charge, performs an additional slash, dealing '''75% ATK''' as {{Color|Geo DMG}}.
 
-|name_4      = Jumping Slam
-|desc_4      = Jumps into the air and slams down at the player's location, dealing '''80% ATK''' as {{Color|AoE Geo DMG}}.
+|name_4      = Splitrock Slam
+|desc_4      = Jumps into the air and slams down at the player's location, dealing '''80% ATK''' as {{Color|Geo DMG}}.
+|file_4      = Eremite Stone Enchanter Jumping Slam
 
-|name_5      = Enhanced State
-|desc_5      = When the Eremite Stone Enchanter's [[HP]] is lower than '''70%''' (or immediately upon entering combat in the [[Spiral Abyss]]), he will enter an enhanced state by summoning a [[Spirit of Omen: Stone Drake]] to assist in battle, gaining increased [[RES]] and high [[Interruption Resistance]].<br /><br />When the Spirit of Omen: Stone Drake is defeated, the enhanced state will end, and the Eremite Stone Enchanter will take {{Color|True Geo DMG}} equal to '''37.5%''' of his current [[HP]], then becomes stunned for 10 seconds with decreased [[Geo RES]]. An Eremite Stone Enchanter can only enter his enhanced state once.
+|name_5      = Ominous Spirit Unleashed
+|desc_5      = When the Eremite Stone Enchanter's [[HP]] is lower than '''70%''' (or immediately upon entering combat in the [[Spiral Abyss]]), he will enter an enhanced state by summoning a [[Spirit of Omen: Stone Drake]] to assist in battle, gaining increased [[RES]] and high [[Interruption Resistance]].<br><br>When the Spirit of Omen: Stone Drake is defeated, the enhanced state will end, and the Eremite Stone Enchanter will take {{Color|True Geo DMG}} equal to '''37.5%''' of his current [[HP]], then becomes stunned for 10 seconds with decreased [[Geo RES]]. An Eremite Stone Enchanter can only enter his enhanced state once.
+|file_5      = Eremite Stone Enchanter Enhanced State
 
 |name_6      = Single Slash
 |desc_6      = Performs a single slash, dealing '''75% ATK''' as {{Color|Geo DMG}}. This attack is only used in the '''Enhanced State'''.
@@ -86,7 +88,7 @@
 |desc_7      = Forms a shield that blocks attacks from the direction that he is facing. This ability is only used in the '''Enhanced State'''.
 
 |name_8      = Spirit Combo: Triple Quake
-|desc_8      = The Eremite Stone Enchanter performs '''Jumping Slam''', while the Spirit of Omen: Stone Drake dives into the ground, dealing '''35% Spirit's ATK''' {{Color|Geo DMG}}, then resurfaces at the player's location, and slams down once again, dealing '''80% Spirit's ATK''', '''100% Spirit's ATK''' as {{Color|AoE Geo DMG}}.
+|desc_8      = The Eremite Stone Enchanter performs '''Splitrock Slam''', while the Spirit of Omen: Stone Drake dives into the ground, dealing '''35% Spirit's ATK''' {{Color|Geo DMG}}, then resurfaces at the player's location, and slams down once again, dealing '''80% Spirit's ATK''', '''100% Spirit's ATK''' as {{Color|Geo DMG}}.
 |file_8      = Eremite Stone Enchanter Spirit Combo Triple Quake
 }}
 
@@ -102,7 +104,7 @@
 * '''Spirit Combo: Triple Quake''' is controlled by the Spirit of Omen's AI. For more information, see [[Spirit of Omen: Stone Drake#AI Logic]].
 {| class="wikitable"
 ! Action Interval (s)
-| colspan="7" | 0 (Yet to Enhance)<br />5 (Enhanced; Enhanced State Ended)
+| colspan="7" | 0 (Yet to Enhance)<br>5 (Enhanced; Enhanced State Ended)
 |-
 ! Ability !! Priority !! Range Req. (m) !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD (s) !! State Req.
 |-
@@ -112,11 +114,11 @@
 |-
 | Single Slash || 5 || 0–4 || 6–8 || 0 || Enhanced; Enhanced State Ended
 |-
-| Jumping Slam || 2 || 0–15 || 15–17 || 5–7 || — || Yet To Enhance
+| Splitrock Slam || 2 || 0–15 || 15–17 || 5–7 || &mdash; || Yet To Enhance
 |-
-| Spinning Charge || 5 || 0–15 || 15–17 || 5–7 || — || Yet To Enhance
+| Spinning Charge || 5 || 0–15 || 15–17 || 5–7 || &mdash; || Yet To Enhance
 |-
-| Block || 5 || 0–3 || 15–17 || 0 || — || Enhanced
+| Block || 5 || 0–3 || 15–17 || 0 || &mdash; || Enhanced
 |}
 
 ===Warrior's Spirit===
@@ -130,8 +132,9 @@ In the [[Warrior's Spirit]] event, the event exclusive character [[Younan]] is f
 |name_2      = Melee Combo
 |desc_2      = Performs two melee strikes, dealing '''75% ATK''', '''75% ATK''' as {{Color|Geo DMG}}. The 2nd strike will not be used in Normal and Hard difficulties.
 
-|name_3      = Jumping Slam
-|desc_3      = Jumps into the air and slams down at the player's location, dealing '''80% ATK''' as {{Color|AoE Geo DMG}}. This attack is only used in Hard difficulty.
+|name_3      = Splitrock Slam
+|file_3      = Eremite Stone Enchanter Event Jumping Slam
+|desc_3      = Jumps into the air and slams down at the player's location, dealing '''80% ATK''' as {{Color|Geo DMG}}. This attack is only used in Hard difficulty.
 
 |name_4      = Ultimate Technique: Spinning Charge
 |desc_4      = The Eremite Stone Enchanter has a [[Fury]] meter that fills by '''1''' point when hit by the player's attacks.
@@ -149,7 +152,7 @@ In the [[Warrior's Spirit]] event, the event exclusive character [[Younan]] is f
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Eremite Stone Enchanter
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Your Journey Ends Here.ogg
 |vo_01_01_tx_en          = Your journey ends here.
 |vo_01_01_tx_zh          = 你的旅途到此为止！
@@ -159,51 +162,63 @@ In the [[Warrior's Spirit]] event, the event exclusive character [[Younan]] is f
 |vo_01_01_tx_ko          = 너희의 여정은 여기까지다!
 |vo_01_01_rm_ko          = 
 
-|vo_02_00_title          = Jumping Slam
-|vo_02_01_file           = VO {lang}{name} - Pounded To The Ground.ogg
-|vo_02_01_tx_en          = Pound into the ground!
-|vo_02_01_tx_zh          = 化作沙尘吧！
-|vo_02_01_rm_zh          = Huàzuò shāchén ba!
-|vo_02_01_tx_ja          = 砂塵と成れ！
-|vo_02_01_rm_ja          = 
-|vo_02_01_tx_ko          = 모래가 되어라!
-|vo_02_01_rm_ko          = 
+|vo_02_00_title          = Tremors
+|vo_02_01_tx_en          = {{A|VO Eremite Stone Enchanter - Attack Grunt.ogg}}
 
-|vo_03_00_title          = Enhanced State
-|vo_03_01_file           = VO {lang}{name} - Lord Of Sand Your Sacrifice Is Ready.ogg
-|vo_03_01_tx_en          = Lord of Sand... your sacrifice is ready!
-|vo_03_01_tx_zh          = 沙之王，你的祭品已经准备好了！
-|vo_03_01_rm_zh          = Shā zhī Wáng, nǐ de jìpǐn yǐjīng zhǔnbèi hǎo le!
-|vo_03_01_tx_ja          = 砂の王よ、あなた様のために生贄を用意した！
+|vo_03_00_title          = Splitrock Slam
+|vo_03_01_file           = VO {lang}{name} - Pounded To The Ground.ogg
+|vo_03_01_tx_en          = Pound into the ground!
+|vo_03_01_tx_zh          = 化作沙尘吧！
+|vo_03_01_rm_zh          = Huàzuò shāchén ba!
+|vo_03_01_tx_ja          = 砂塵と成れ！
 |vo_03_01_rm_ja          = 
-|vo_03_01_tx_ko          = 사막의 왕께 제물을 바치리!
+|vo_03_01_tx_ko          = 모래가 되어라!
 |vo_03_01_rm_ko          = 
 
-|vo_04_00_title          = Stunned
-|vo_04_01_file           = VO {lang}{name} - Grunt.ogg
-|vo_04_01_tx_en          = (Grunt)
-|vo_04_01_tx_zh          = (Grunt)
-|vo_04_01_tx_ja          = (Grunt)
-|vo_04_01_tx_ko          = (Grunt)
+|vo_04_00_title          = Ominous Spirit Unleashed
+|vo_04_01_file           = VO {lang}{name} - Lord Of Sand Your Sacrifice Is Ready.ogg
+|vo_04_01_tx_en          = Lord of Sand... your sacrifice is ready!
+|vo_04_01_tx_zh          = 沙之王，你的祭品已经准备好了！
+|vo_04_01_rm_zh          = Shā zhī Wáng, nǐ de jìpǐn yǐjīng zhǔnbèi hǎo le!
+|vo_04_01_tx_ja          = 砂の王よ、あなた様のために生贄を用意した！
+|vo_04_01_rm_ja          = 
+|vo_04_01_tx_ko          = 사막의 왕께 제물을 바치리!
+|vo_04_01_rm_ko          = 
 
-|vo_05_00_title          = Defeated
-|vo_05_01_file           = VO {lang}{name} - Ugh The Golden Slumber.ogg
-|vo_05_01_tx_en          = Ugh! The Golden Slumber...
-|vo_05_01_tx_zh          = 黄金的梦乡，在召唤！
-|vo_05_01_rm_zh          = Huángjīn de mèngxiāng, zài zhàohuàn!
-|vo_05_01_tx_ja          = 黄金の眠りが…呼んでいる…
-|vo_05_01_rm_ja          = 
-|vo_05_01_tx_ko          = 황금의 품이 날 소환하고 있어…
-|vo_05_01_rm_ko          = 
+|vo_05_00_title          = Stunned
+|vo_05_01_file           = VO {lang}{name} - Grunt.ogg
+|vo_05_01_tx_en          = (Grunt)
+|vo_05_01_tx_zh          = (Grunt)
+|vo_05_01_tx_ja          = (Grunt)
+|vo_05_01_tx_ko          = (Grunt)
+
+|vo_06_00_title          = Staggered
+|vo_06_01_tx_en          = {{A|VO Eremite Stone Enchanter - Staggered 01.ogg}} {{A|VO Eremite Stone Enchanter - Staggered 02.ogg}} {{A|VO Eremite Stone Enchanter - Staggered 03.ogg}}
+
+|vo_07_00_title          = Defeated
+|vo_07_01_file           = VO {lang}{name} - Ugh The Golden Slumber.ogg
+|vo_07_01_tx_en          = Ugh! The Golden Slumber...
+|vo_07_01_tx_zh          = 黄金的梦乡，在召唤！
+|vo_07_01_rm_zh          = Huángjīn de mèngxiāng, zài zhàohuàn!
+|vo_07_01_tx_ja          = 黄金の眠りが…呼んでいる…
+|vo_07_01_rm_ja          = 
+|vo_07_01_tx_ko          = 황금의 품이 날 소환하고 있어…
+|vo_07_01_rm_ko          = 
 }}
 
+==Tutorials==
+{{Tutorial|Eremite Stone Enchanter}}
+
 ==Descriptions==
-{{Description|A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good.<br />In ancient days, these heavily-equipped warriors were the domain of the personal, trusted guards of the Lord of the Blazing Sun. It is perhaps on this account that they gleam like the golden sun itself to this day.<br />Ominous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.|[[Archive]]}}
+{{Description|A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good.<br>In ancient days, these heavily-equipped warriors were the domain of the personal, trusted guards of the [[King Deshret|Lord of the Blazing Sun]]. It is perhaps on this account that they gleam like the golden sun itself to this day.<br>Ominous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished &mdash; whether that be their wielders or their wielders' foes.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
 Enemy Eremite Stone Enchanter Icon.png|Icon
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Other Languages==
 {{Other Languages
@@ -229,12 +244,12 @@ Enemy Eremite Stone Enchanter Icon.png|Icon
 |vi      = Eremite - Kẻ Gọi Đá
 |vi_tl   = 
 |de      = Goldbrigade – Felszauberer
-|de_tl   = {{Lex|Eremite|de}} - Rock Magician
+|de_tl   = {{Lex|Eremite|de}} - Rock Wizard
 |id      = Eremite Stone Enchanter
 |pt      = Eremita Encantador de Pedras
 |pt_tl   = 
 |tr      = Münzevi Taş Üfürükçüsü
-|tr_tl   = 
+|tr_tl   = {{Lex|Eremite|tr}} Stone Enchanter
 |it      = Eremita Litoincantatore
 |it_tl   = 
 }}
@@ -246,4 +261,6 @@ Enemy Eremite Stone Enchanter Icon.png|Icon
 {{Enemy Navbox|Common}}
 
 [[es:Eremita Hechizarrocas]]
+[[fr:Enchanteur graveleux des Érémites]]
+[[ja:エルマイト旅団・ストーンエンチャンター]]
 [[pt-br:Eremita Encantador de Pedras]]

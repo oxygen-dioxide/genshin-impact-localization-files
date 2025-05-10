@@ -6,11 +6,8 @@
 |invCategory = Materials
 |description = A fresh fillet of fish. Handled properly, it can make a rich dish.
 |quality     = 1
-|source1     = Dropped by
-*[[Black-Back Bass]]
-*[[Blue-Fin Bass]]
-*[[Golden Bass]]
-|source2     = {{Sold By}}
+|source1     = Dropped by [[:Category:Bass|Basses]]
+|source2     = {{Sold By|Fish}}
 |source3     = [[Processing]]
 }}
 '''Fish''' is a [[Cooking Ingredient]] item used in recipes to create [[Food]] items.
@@ -27,6 +24,7 @@ Additionally, the following NPCs give Fish after following a certain dialogue br
 *[[Obata]] in [[Ritou]], [[Inazuma]] (10 Fish)
 *[[Uncle Tian]] in [[Liyue Harbor]], [[Liyue]] (5 Fish)
 *[[Will]] at [[Falcon Coast]], [[Mondstadt]] (4 Fish)
+*[[Shana]] at [[Stadium of the Sacred Flame]], [[Natlan]] (5 Fish)
 
 ===Shop Availability===
 {{Shop Availability}}
@@ -37,15 +35,15 @@ Additionally, the following NPCs give Fish after following a certain dialogue br
 |-
 |{{Card|Fish|1}}
 |1 minute
-|{{Card|Medaka|1}}{{Card|Glaze Medaka|1}}{{Card|Sweet-Flower Medaka|1}}{{Card|Aizen Medaka|1}}{{Card|Dawncatcher|1}}{{Card|Crystalfish|1}}
+|{{Card List|delim=;|Medaka;Glaze Medaka;Sweet-Flower Medaka;Aizen Medaka;Dawncatcher;Crystalfish|text=1}}
 |-
 |{{Card|Fish|2}}
 |2 minutes
-|{{Card|Lunged Stickleback|1}}{{Card|Betta|1}}{{Card|Venomspine Fish|1}}{{Card|Akai Maou|1}}{{Card|Snowstrider|1}}{{Card|Brown Shirakodai|1}}{{Card|Tea-Colored Shirakodai|1}}{{Card|Abiding Angelfish|1}}{{Card|Raimei Angelfish|1}}
+|{{Card List|delim=;|Lunged Stickleback;Betta;Venomspine Fish;Akai Maou;Snowstrider;Brown Shirakodai;Purple Shirakodai;Tea-Colored Shirakodai;Abiding Angelfish;Raimei Angelfish;True Fruit Angler;Sandstorm Angler;Sunset Cloud Angler;Peach of the Deep Waves;Lazurite Axe Marlin;Halcyon Jade Axe Marlin;Streaming Axe Marlin;Rippling Heartfeather Bass;Blazing Heartfeather Bass;Jade Heartfeather Bass;Greenwave Sunfish;Dusk Sunfish;Pseudoshark Unihornfish;Phony Phlogiston Unihornfish|text=1}}
 |-
 |{{Card|Fish|3}}
 |3 minutes
-|{{Card|Golden Koi|1}}{{Card|Rusty Koi|1}}{{Card|Bitter Pufferfish|1}}{{Card|Pufferfish|1}}{{Card|Divda Ray|1}}{{Card|Formalo Ray|1}}
+|{{Card List|delim=;|Golden Koi;Rusty Koi;Bitter Pufferfish;Pufferfish;Divda Ray;Formalo Ray;Floral Rapidfighting Fish;Diving Rapidfighting Fish;Magma Rapidfighting Fish|text=1}}
 |-
 |}
 <!-- The above table looks better, but the {{Recipe}} template usage below is needed for DPL usage for pages like [[Processing]] and other templates like {{Craft Usage}}. The "hidden" and "mobileHide" classes hide the content from both mobile and desktop. -->
@@ -73,6 +71,14 @@ Additionally, the following NPCs give Fish after following a certain dialogue br
 {{Recipe|type=Processing|time=2|yield=2|True Fruit Angler=1|sort=True Fruit Angler}}
 {{Recipe|type=Processing|time=2|yield=2|Sunset Cloud Angler=1|sort=Sunset Cloud Angler}}
 {{Recipe|type=Processing|time=2|yield=2|Peach of the Deep Waves=1|sort=Peach of the Deep Waves}}
+{{Recipe|type=Processing|time=2|yield=2|Streaming Axe Marlin=1|sort=Streaming Axe Marlin}}
+{{Recipe|type=Processing|time=2|yield=2|Rippling Heartfeather Bass=1|sort=Rippling Heartfeather Bass}}
+{{Recipe|type=Processing|time=2|yield=2|Blazing Heartfeather Bass=1|sort=Blazing Heartfeather Bass}}
+{{Recipe|type=Processing|time=2|yield=2|Jade Heartfeather Bass=1|sort=Jade Heartfeather Bass}}
+{{Recipe|type=Processing|time=2|yield=2|Greenwave Sunfish=1|sort=Greenwave Sunfish}}
+{{Recipe|type=Processing|time=2|yield=2|Dusk Sunfish=1|sort=Dusk Sunfish}}
+{{Recipe|type=Processing|time=2|yield=2|Pseudoshark Unihornfish=1|sort=Pseudoshark Unihornfish}}
+{{Recipe|type=Processing|time=2|yield=2|Phony Phlogiston Unihornfish=1|sort=Phony Phlogiston Unihornfish}}
 
 {{Recipe|type=Processing|time=3|yield=3|Golden Koi=1|sort=Golden Koi}}
 {{Recipe|type=Processing|time=3|yield=3|Rusty Koi=1|sort=Rusty Koi}}
@@ -80,6 +86,9 @@ Additionally, the following NPCs give Fish after following a certain dialogue br
 {{Recipe|type=Processing|time=3|yield=3|Bitter Pufferfish=1|sort=Bitter Pufferfish}}
 {{Recipe|type=Processing|time=3|yield=3|Divda Ray=1|sort=Divda Ray}}
 {{Recipe|type=Processing|time=3|yield=3|Formalo Ray=1|sort=Formalo Ray}}
+{{Recipe|type=Processing|time=3|yield=3|Floral Rapidfighting Fish=1|sort=Floral Rapidfighting Fish}}
+{{Recipe|type=Processing|time=3|yield=3|Diving Rapidfighting Fish=1|sort=Diving Rapidfighting Fish}}
+{{Recipe|type=Processing|time=3|yield=3|Magma Rapidfighting Fish=1|sort=Magma Rapidfighting Fish}}
 </div>
 
 ==Craft Usage==
@@ -114,7 +123,6 @@ Item Fish Dead.png|Dead
 |ja      = 魚肉
 |ja_rm   = Gyoniku
 |ko      = 생선 살코기
-|ko_rm   = Saengseon Salkogi
 |es      = Pescado
 |fr      = Poisson
 |ru      = Рыба
@@ -140,3 +148,4 @@ Item Fish Dead.png|Dead
 [[ru:Рыба]]
 [[zh:魚肉]]
 [[uk:Риба]]
+[[vi:Thịt Cá]]

@@ -1,45 +1,43 @@
 {{Quest Infobox
 |image         = Archon Quest C0A1 Wind-Riding Knight.png
-|id            = 00355
+|id            = 00354
 |type          = Archon
 |chapter       = Prologue
 |actNum        = I
 |act           = The Outlander Who Caught the Wind
 |part          = 4
-|summary       = After exiting the woods, the Traveler and Paimon run into Amber. After Paimon explains about the Traveler's lost sibling, Amber volunteers to help them.
 |startLocation = [[Whispering Woods]], [[Mondstadt]]
 |region        = Mondstadt
 |area          = Starfell Valley
 |subarea       = Whispering Woods
 |prev          = Forest Rendezvous
 |next          = Going Upon the Breeze
-|exp           = 275
-|mora          = 1,200
-|primogems     = 20
-|other         = {{Card|Character EXP|625}}{{Card|Amber}}
+|rewards       = Adventure EXP*275;Mora*1,200;Character EXP*625;Amber*1
 |characters    = Amber;Paimon;Traveler
 |voiced        = yes
 }}
-
 {{TeyvatQuest|0|1|part=4}}
 
 ==Steps==
-#Keep heading towards [[Mondstadt]]
-#Talk to [[Amber|the perky girl]]
-#Use Amber to defeat the airborne slimes
-#Go to the location designated by Amber
+# Keep heading towards [[Mondstadt]]
+# Talk to [[Amber|the perky girl]]
+# Use Amber to defeat the airborne slimes
+#* {{Enemy|Anemo Slime|x=1}}
+# Go to the location designated by Amber
 
 ==Dialogue==
-{{Quest Description|On the path to Mondstadt, you inadvertently eavesdropped on a meeting between a [[Dvalin|huge dragon]] and a [[Venti|mysterious figure]]. As you proceeded with various doubts in your mind, a perky young girl showed up to block your path.}}
-{{dialogue start}}
-;(As the player leaves the forest)
-:{{A|vo mdaq015 1 cs ambor 01.ogg}} '''???:''' Hey, you! Stop right there!
+{{Quest Description|On the path to Mondstadt, you inadvertently eavesdropped on a meeting between a [[Dvalin|huge dragon]] and a [[Venti|mysterious figure]]. As you proceeded with various doubts in mind, a perky young girl showed up to block your path.}}
+{{Dialogue Start}}
+;(A cinematic plays)
+::{{A|vo mdaq015 1 cs ambor 01.ogg}} '''???:''' Hey, you! Stop right there!
+:;(As the Traveler and Paimon walk through the forest, a mysterious girl in red jumps and landed in front of their path.)
+:;(Cinematic ends)
 :{{A|vo mdaq016 2 ambor 01.ogg}} '''???:''' May the Anemo God protect you, stranger!
 :{{A|vo mdaq016 2 ambor 02.ogg}} '''Amber:''' I am Amber, Outrider for the Knights of Favonius.
 :{{A|vo mdaq016 2 ambor 03.ogg}} '''Amber:''' You don't look like citizens of Mondstadt. Explain yourselves!
 :{{A|vo mdaq016 2 paimon 01.ogg}} '''Paimon:''' We're not looking for trouble.
 :{{A|vo mdaq016 2 ambor 04.ogg}} '''Amber:''' That's what all the troublemakers say.
-:{{DIcon}} Hello, I'm (Traveler).
+:{{DIcon}} Hello, I'm {{Traveler}}.
 :{{A|vo mdaq016 2 ambor 05.ogg}} '''Amber:''' ...Doesn't sound like a local name to me.
 :{{A|vo mdaq016 2 ambor 06.ogg}} '''Amber:''' And this... mascot, what's the deal with it?
 :{{DIcon}} We're friends.
@@ -63,14 +61,17 @@
 ----
 ;(As the player goes to the designated location)
 :{{A|vo mdaq016 4 ambor 01.ogg}} '''Amber:''' So, suspicious travelers, what are you doing in Mondstadt?
-:{{A|vo mdaq016 4 paimon 01a.ogg}} {{A|vo mdaq016 4 paimon 01b.ogg}} '''Paimon:''' (Traveler) got separated from {{MC|his sister|her brother|mc=1}} during a really, really long journey.
-:{{A|vo mdaq016 4 paimon 02a.ogg}} {{A|vo mdaq016 4 paimon 02b.ogg}} '''Paimon:''' Paimon is {{MC|his|her|mc=1}} travel buddy, helping {{MC|him|her|mc=1}} to find {{MC|his sister|her brother|mc=1}}.
+:{{A|vo mdaq016 4 paimon 01a.ogg}} {{A|vo mdaq016 4 paimon 01b.ogg}} '''Paimon:''' {{Traveler}} got separated from {{MC|m=his sister|f=her brother}} during a really, really long journey.
+:{{A|vo mdaq016 4 paimon 02a.ogg}} {{A|vo mdaq016 4 paimon 02b.ogg}} '''Paimon:''' Paimon is {{MC|m=his|f=her}} travel buddy, helping {{MC|m=him|f=her}} to find {{MC|m=his sister|f=her brother}}.
 :{{A|vo mdaq016 4 ambor 02.ogg}} '''Amber:''' Oh, looking for your family... Huh.
 :{{A|vo mdaq016 4 ambor 03.ogg}} '''Amber:''' Ah...
 :{{A|vo mdaq016 4 ambor 04.ogg}} '''Amber:''' Okay! Let me finish my other stuff first, and then I can help you put up posters around the city...
 :{{A|vo mdaq016 4 paimon 03.ogg}} '''Paimon:''' What exactly is it you need to finish doing first?
 :{{A|vo mdaq016 4 ambor 05.ogg}} '''Amber:''' It's simple. You'll understand in a bit.
-{{dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -94,7 +95,7 @@
 |ru      = Скаут, принесённый ветром
 |ru_tl   = Scout, Carried by the Wind
 |th      = อัศวินผู้มากับสายลม
-|th_rm   = Atsawin phu ma kap sailom
+|th_rm   = Atsawin Phu Ma kap Sailom
 |th_tl   = A Knight Comes With the Wind
 |vi      = {{tt|Kỵ Sĩ|騎士}} Đến Từ Ngọn Gió
 |vi_tl   = The Knight Who Comes From the Wind
@@ -106,7 +107,7 @@
 |pt_tl   = Knight Mounted on the Wind
 |pt_note = {{pt|Cavaleiro}} is specifically the male version of the word "Knight", even though it's referring to Amber
 |tr      = Rüzgarların Şövalyesi
-|tr_tl   = 
+|tr_tl   = The Winds' Knight
 |it      = Cavalcando il vento
 |it_tl   = Riding the Wind
 }}
@@ -116,7 +117,6 @@
 
 ==Navigation==
 {{Archon Quest Navbox|chapter=Prologue}}
-[[Category:Archon Prologue]]
 
 [[es:El caballero del viento]]
 [[fr:Chevalier du vent]]
@@ -124,4 +124,6 @@
 [[ja:風と共に来た騎士]]
 [[pl:Rycerz na wietrze]]
 [[pt-br:Cavaleiro Montado no Vento]]
+[[ru:Скаут, принесённый ветром]]
+[[th:อัศวินผู้มากับสายลม]]
 [[vi:Kỵ Sĩ Đến Từ Ngọn Gió]]

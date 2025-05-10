@@ -1,0 +1,531 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Gauge Data
+}}
+{{Community}}
+This page contains comprehensive data for elemental wards, including their Gauge Units, HP Ratios, Damage Ratios, as well as the amounts of Gauge Units of different elements required to break them. For an explanation of elemental ward mechanics, see [[Ward]].
+
+==Elemental Wards in Co-Op==
+Some wards will increase their elemental gauges in [[Co-Op Mode]].
+
+<math>\text{Gauge}_\text{Elemental Ward} = \text{Base Gauge} \times \text{Co-Op Multiplier}</math>
+
+The '''Co-Op Multiplier''' is determined by the amount of players in the same scene.
+{| class="article-table"
+! Players !! Multiplier
+|-
+| 2 || 1.5
+|-
+| 3 || 1.7
+|-
+| 4 || 2
+|}
+
+==Ward Data==
+;Notes
+* When [[Electro-Charged]] is triggered, {{Hydro}} and {{Electro}} auras will coexist on the target. Every tick of Electro-Charged reduces the ward and the applied aura by 0.4GU until one of them is depleted. Due to the fact that the amount of ticks per Electro-Charged reaction is ''not'' consistent based on the Gauge Unit of the element applied, the below table will only show the amount of ticks required instead of Gauge Units required to break the ward.
+* When [[Burning]] is triggered, {{Dendro}}/{{Wood}} will be steadily consumed at a rate of 0.4GU per second. Due to the fact that Burning duration does ''not'' scale based on the Gauge Unit of the element applied, the below table will only show the amount of time required instead of Gauge Units required to break the ward.
+* To break {{Geo}} wards using Cryo/Electro/Hydro/Pyro, it is required to apply Cryo/Electro/Hydro/Pyro first and manually applying Geo to trigger [[Crystallize]]. The actual consumption will scale with the amount of GUs left on the Cryo/Electro/Hydro/Pyro aura at the moment Crystallize is triggered, which means it will take into account decay and aura tax.
+
+===DMG-Nullifying Wards===
+<span class="mw-customtoggle-10 wds-button" style="margin:3px 0px 3px;">Toggle Ward Element/GU</span><br>
+<span class="mw-customtoggle-11 wds-button" style="margin:3px 0px 3px;>Toggle GU/Poise DMG Required to Break</span><br>
+<span class="mw-customtoggle-12 wds-button" style="margin:3px 0px 0px;>Toggle HP Ratio/DMG Ratio/Multiplied in Co-Op</span>
+{| class="wikitable sortable"
+! rowspan="2" | Ward !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-10" | Element !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-10" style="text-align:center;" | Ward<br>GU !! colspan="7" class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | GU Required to Break !! colspan="2" class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | Poise DMG<br>Required to Break !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-12" style="text-align:center;" | HP<br>Ratio !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-12" style="text-align:center;" | DMG<br>Ratio !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-12" style="text-align:center;" | Multiplied<br>in Co-Op
+|-
+! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | {{Icon/Element|Anemo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | {{Icon/Element|Geo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | {{Icon/Element|Electro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | {{Icon/Element|Hydro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | {{Icon/Element|Pyro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | {{Icon/Element|Cryo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | {{Icon/Element|Dendro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | [[Blunt Attack|Blunt]] !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-11" style="text-align:center;" | Melee
+|-
+| {{Enemy|Large Cryo Slime|20}}
+{{Shield Gauge Data Row|section=1|Frozen|8|16|16|8| |{{Color|Pyro|4}}| | |1333| |1|0.2|yes}}
+|-
+| {{Enemy|Large Geo Slime|20}}
+{{Shield Gauge Data Row|section=1|Geo|8| | |{{Color|Electro|4}}|{{Color|Hydro|4}}|{{Color|Pyro|4}}|{{Color|Cryo|4}}| |571|4000|1|0.2|yes}}
+|-
+| {{Enemy|Pyro Abyss Mage|20}}
+{{Shield Gauge Data Row|section=1|Pyro|12|24|24|12|{{Color|Hydro|6}}| |24| | | |1|0.2|yes}}
+|-
+| {{Enemy|Cryo Abyss Mage|20}}
+{{Shield Gauge Data Row|section=1|Frozen|12|24|24|12| |{{Color|Pyro|6}}| | |2000| |1|0.2|yes}}
+|-
+| {{Enemy|Hydro Abyss Mage|20}}
+{{Shield Gauge Data Row|section=1|Hydro|12|24|24|30 Ticks| |24|12|{{Color|Dendro|6}}| | |1|0.2|yes}}
+|-
+| {{Enemy|Electro Abyss Mage|20}}
+{{Shield Gauge Data Row|section=1|Electro|8|16|16| |20 Ticks|{{Color|Pyro|8}}|{{Color|Cryo|8}}|{{Color|Dendro|8}}| | |1|0.2|yes}}
+|-
+| {{Enemy|Abyss Herald: Wicked Torrents|20}}
+{{Shield Gauge Data Row|section=1|Hydro|36|72|72|90 Ticks| |72|36|{{Color|Dendro|18}}| | |1|0.2|yes}}
+|-
+| {{Enemy|Abyss Herald: Frost Fall|20}}
+{{Shield Gauge Data Row|section=1|Frozen|56|112|112|56| |{{Color|Pyro|28}}| | |9333| |1|0.2|yes}}
+|-
+| {{Enemy|Abyss Lector: Violet Lightning|20}}
+{{Shield Gauge Data Row|section=1|Electro|36|72|72| |90 Ticks|{{Color|Pyro|36}}|{{Color|Cryo|36}}|{{Color|Dendro|36}}| | |1|0.2|yes}}
+|-
+| {{Enemy|Abyss Lector: Fathomless Flames|20}}
+{{Shield Gauge Data Row|section=1|Pyro|72<ref group="Note">Reduced by 12GU when Darkfire Furnace is destroyed.</ref>|144|144|72|{{Color|Hydro|36}}| |144| | | |1|0.2|yes}}
+|-
+| {{Enemy|Fatui Electro Cicin Mage|20}}
+{{Shield Gauge Data Row|section=1|Electro|8<ref group="Note">Decays over 12.5 seconds.</ref>|16|16| |20 Ticks|{{Color|Pyro|8}}|{{Color|Cryo|8}}|{{Color|Dendro|8}}| | |1|0.2|no}}
+|-
+| {{Enemy|Fatui Cryo Cicin Mage|20}} (1 Cicin)
+{{Shield Gauge Data Row|section=1|Frozen|4|8|8|4| |{{Color|Pyro|2}}| | |667| |1|0.2|no}}
+|-
+| {{Enemy|Fatui Cryo Cicin Mage|20}} (2 Cicins)
+{{Shield Gauge Data Row|section=1|Frozen|8|16|16|8| |{{Color|Pyro|4}}| | |1333| |1|0.2|no}}
+|-
+| {{Enemy|Fatui Cryo Cicin Mage|20}} (3 Cicins)
+{{Shield Gauge Data Row|section=1|Frozen|12|24|24|12| |{{Color|Pyro|6}}| | |2000| |1|0.2|no}}
+|-
+| {{Enemy|Cryo Hypostasis|20}} (Revival Ward)
+{{Shield Gauge Data Row|section=1|Frozen|88|176|176|88| |{{Color|Pyro|44}}| | |14667| | | |no}}
+|-
+| {{Enemy|Pyro Hypostasis|20}} (Ward)
+{{Shield Gauge Data Row|section=1|Pyro|28|56|56|28|{{Color|Hydro|14}}| |56| | | | | |no}}
+|-
+| {{Enemy|Pyro Hypostasis|20}} (Ward, Event Extreme Difficulty)
+{{Shield Gauge Data Row|section=1|Pyro|48|96|96|48|{{Color|Hydro|24}}| |96| | | | | |no}}
+|-
+| {{Enemy|Hydro Hypostasis|20}} (Healing Droplet)
+{{Shield Gauge Data Row|section=1|Hydro|2|4|4|5 Ticks| |4|2|{{Color|Dendro|1}}| | | | |no}}
+|-
+| {{Enemy|Hydro Hypostasis|20}} (Exploding Droplet)
+{{Shield Gauge Data Row|section=1|Hydro|1|2|2|3 Ticks| |2|1|{{Color|Dendro|0.5}}| | | | |no}}
+|-
+| {{Enemy|Hydro Hypostasis|20}} (Revival Droplet)
+{{Shield Gauge Data Row|section=1|Hydro|2|4|4|5 Ticks| |4|2|{{Color|Dendro|1}}| | | | |no}}
+|-
+| {{Enemy|Hydro Hypostasis|20}} (Healing Droplet, Event Extreme Difficulty)
+{{Shield Gauge Data Row|section=1|Hydro|4|8|8|10 Ticks| |8|4|{{Color|Dendro|2}}| | | | |no}}
+|-
+| {{Enemy|Hydro Hypostasis|20}} (Exploding Droplet, Event)
+{{Shield Gauge Data Row|section=1|Hydro|2|4|4|5 Ticks| |4|2|{{Color|Dendro|1}}| | | | |no}}
+|-
+| {{Enemy|Hydro Hypostasis|20}} (Exploding Droplet, Event Extreme Difficulty)
+{{Shield Gauge Data Row|section=1|Hydro|3|6|6|8 Ticks| |6|3|{{Color|Dendro|1.5}}| | | | |no}}
+|-
+| {{Enemy|Hydro Hypostasis|20}} (Bouncing Droplet, Event)
+{{Shield Gauge Data Row|section=1|Hydro|2|4|4|5 Ticks| |4|2|{{Color|Dendro|1}}| | | | |no}}
+|-
+| {{Enemy|Hydro Hypostasis|20}} (Bouncing Droplet, Event Extreme Difficulty)
+{{Shield Gauge Data Row|section=1|Hydro|4|8|8|10 Ticks| |8|4|{{Color|Dendro|2}}| | | | |no}}
+|-
+| {{Enemy|Hydro Hypostasis|20}} (Revival Droplet, Event Extreme Difficulty)
+{{Shield Gauge Data Row|section=1|Hydro|3|6|6|8 Ticks| |6|3|{{Color|Dendro|1.5}}| | | | |no}}
+|-
+| {{Enemy|La Signora|20}}
+{{Shield Gauge Data Row|section=1|Frozen|60|120|120|60| |{{Color|Pyro|30}}| | |10000| | | |no}}
+|-
+| {{Enemy|Shadowy Husk: Standard Bearer|20}}
+{{Shield Gauge Data Row|section=1|Pyro|6<ref group="Note">Decays over 15 seconds.</ref>|12|12|6|{{Color|Hydro|3}}| |12| | | |1|0.2|no}}
+|-
+| {{Enemy|Mechanicus: Water Mirror|20}}
+{{Shield Gauge Data Row|section=1|Hydro|4|8|8|10 Ticks| |8|4|{{Color|Dendro|2}}| | | | |no}}
+|-
+| {{Enemy|Iniquitous Baptist|20}} (Cryo Ward)
+{{Shield Gauge Data Row|section=1|Frozen|12|24|24|12| |{{Color|Pyro|6}}| | |2000| | | |yes}}
+|-
+| {{Enemy|Iniquitous Baptist|20}} (Electro Ward)
+{{Shield Gauge Data Row|section=1|Electro|8|16|16| |20 Ticks|{{Color|Pyro|8}}|{{Color|Cryo|8}}|{{Color|Dendro|8}}| | | | |yes}}
+|-
+| {{Enemy|Iniquitous Baptist|20}} (Hydro Ward)
+{{Shield Gauge Data Row|section=1|Hydro|12|24|24|30 Ticks| |24|12|{{Color|Dendro|6}}| | | | |yes}}
+|-
+| {{Enemy|Iniquitous Baptist|20}} (Pyro Ward)
+{{Shield Gauge Data Row|section=1|Pyro|12|24|24|12|{{Color|Hydro|6}}| |24| | | | | |yes}}
+|-
+| {{Enemy|Icewind Suite|20}}
+{{Shield Gauge Data Row|section=1|Frozen|8|16|16|8| |{{Color|Pyro|4}}| | |1333| |1|0.2|no}}
+|-
+| {{Enemy|Half-Tulpa|20}}
+{{Shield Gauge Data Row|section=1|Hydro|1|2|2|3 Ticks| |2|1|{{Color|Dendro|0.5}}| | | | |no}}
+|-
+| {{Enemy|Flow-Inverted Wayob Manifestation|20}}
+{{Shield Gauge Data Row|section=1|Hydro|48|96|96|120 Ticks| |96|48|{{Color|Dendro|24}}| | |1|0.2|no}}
+|-
+| {{Enemy|Foliar-Swift Wayob Manifestation|20}}
+{{Shield Gauge Data Row|section=1|Dendro|24| | |{{Color|Electro|24}}|48|60s| | | | |1|0.2|no}}
+|-
+| {{Enemy|Rock-Cavernous Wayob Manifestation|20}}
+{{Shield Gauge Data Row|section=1|Geo|24| | |{{Color|Electro|12}}|{{Color|Hydro|12}}|{{Color|Pyro|12}}|{{Color|Cryo|12}}| |1714|12000|1|0.2|no}}
+|-
+| {{Enemy|Biting-Cold Wayob Manifestation|20}}
+{{Shield Gauge Data Row|section=1|Frozen|48|96|96|48| |{{Color|Pyro|24}}| | |8000| |1|0.2|no}}
+|-
+| {{Enemy|Burning-Aflame Wayob Manifestation|20}}
+{{Shield Gauge Data Row|section=1|Pyro|48|96|96|48|{{Color|Hydro|24}}| |96| | | |1|0.2|no}}
+|-
+| {{Enemy|Holawaqa Ngoubou|20}} (Golden Flame Form)
+{{Shield Gauge Data Row|section=1|Pyro|24|48|48|24|{{Color|Hydro|12}}| |48| | | | | |no}}
+|-
+| {{Enemy|Flow-Inverted Wayob Manifestation|20}} (Local Legend)
+{{Shield Gauge Data Row|section=1|Hydro|320|640|640|800 Ticks| |640|320|{{Color|Dendro|160}}| | | | |no}}
+|-
+| {{Enemy|Cocijo|20}}
+{{Shield Gauge Data Row|section=1|Electro|16|32|32| |40 Ticks|{{Color|Pyro|16}}|{{Color|Cryo|16}}|{{Color|Dendro|16}}| | | | |no}}
+|}
+
+===Penetrable Wards===
+<span class="mw-customtoggle-20 wds-button" style="margin:3px 0px 3px;">Toggle Ward Element/GU</span><br>
+<span class="mw-customtoggle-21 wds-button" style="margin:3px 0px 3px;>Toggle GU/Poise DMG Required to Break</span><br>
+<span class="mw-customtoggle-22 wds-button" style="margin:3px 0px 0px;>Toggle HP Ratio/DMG Ratio/Multiplied in Co-Op</span>
+{| class="wikitable sortable"
+! rowspan="2" | Ward !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-20" | Element !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-20" style="text-align:center;" | Ward<br>GU !! colspan="7" class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | GU Required to Break !! colspan="2" class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | Poise DMG<br>Required to Break !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-22" style="text-align:center;" | HP<br>Ratio !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-22" style="text-align:center;" | DMG<br>Ratio !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-22" style="text-align:center;" | Multiplied<br>in Co-Op
+|-
+! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | {{Icon/Element|Anemo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | {{Icon/Element|Geo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | {{Icon/Element|Electro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | {{Icon/Element|Hydro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | {{Icon/Element|Pyro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | {{Icon/Element|Cryo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | {{Icon/Element|Dendro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | [[Blunt Attack|Blunt]] !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-21" style="text-align:center;" | Melee
+|-
+| {{Enemy|Dendro Slime|20}} (Leaves)
+{{Shield Gauge Data Row|section=2|Dendro|2| | |{{Color|Electro|2}}|4|5s| | | | | | |no}}
+|-
+| {{Enemy|Large Dendro Slime|20}} (Flower)
+{{Shield Gauge Data Row|section=2|Dendro|8| | |{{Color|Electro|8}}|16|20s| | | | | | |no}}
+|-
+| {{Enemy|Electro Slime|20}} ([[Electro Slime#Abilities and Attacks|Electricity]])
+{{Shield Gauge Data Row|section=2|Electro|4| |8| | |{{Color|Pyro|4}}|{{Color|Cryo|4}}|{{Color|Dendro|4}}| | | | |no}}
+|-
+| {{Enemy|Large Electro Slime|20}} ([[Large Electro Slime#Abilities and Attacks|Electricity]])
+{{Shield Gauge Data Row|section=2|Electro|8| |16| | |{{Color|Pyro|8}}|{{Color|Cryo|8}}|{{Color|Dendro|8}}| | | | |no}}
+|-
+| {{Enemy|Mutant Electro Slime|20}} ([[Mutant Electro Slime#Abilities and Attacks|Electricity]])
+{{Shield Gauge Data Row|section=2|Electro|8| |16| | |{{Color|Pyro|8}}|{{Color|Cryo|8}}|{{Color|Dendro|8}}| | | | |no}}
+|-
+| {{Enemy|Cryo Whopperflower|20}}
+{{Shield Gauge Data Row|section=2|Frozen|2|4|4|2| |{{Color|Pyro|1}}| | |333| | | |no}}
+|-
+| {{Enemy|Pyro Whopperflower|20}}
+{{Shield Gauge Data Row|section=2|Pyro|2|4|4|2|{{Color|Hydro|1}}| |4| | | | | |no}}
+|-
+| {{Enemy|Electro Whopperflower|20}}
+{{Shield Gauge Data Row|section=2|Electro|0.4|0.8|0.8| |1 Tick|{{Color|Pyro|0.4}}|{{Color|Cryo|0.4}}|{{Color|Dendro|0.4}}| | | | |no}}
+|-
+| {{Enemy|Stonehide Lawachurl|20}}
+{{Shield Gauge Data Row|section=2|Geo|20<ref group="Note" name="decay90">Decays over 90 seconds.</ref>| | |{{Color|Electro|10}}|{{Color|Hydro|10}}|{{Color|Pyro|10}}|{{Color|Cryo|10}}| |1429|10000| | |no}}
+|-
+| {{Enemy|Frostarm Lawachurl|20}}
+{{Shield Gauge Data Row|section=2|Frozen|30<ref group="Note" name="decay90"/>|60|60|30| |{{Color|Pyro|15}}| | |5000| | | |no}}
+|-
+| {{Enemy|Thunderhelm Lawachurl|20}}
+{{Shield Gauge Data Row|section=2|Electro|18<ref group="Note" name="decay90"/>|36|36| |45 Tick|{{Color|Pyro|18}}|{{Color|Cryo|18}}|{{Color|Dendro|18}}| | | | |no}}
+|-
+| {{Enemy|Fatui Skirmisher - Pyroslinger Bracer|20}}
+{{Shield Gauge Data Row|section=2|Pyro|8<ref group="Note" name="fatui">Uses the special Fatui Skirmisher reaction coefficients.</ref>|80|80|80|{{Color|Hydro|4}}| |80| | | | | |no}}
+|-
+| {{Enemy|Fatui Skirmisher - Cryogunner Legionnaire|20}}
+{{Shield Gauge Data Row|section=2|Frozen|8<ref group="Note" name="fatui"/>|80|80|80| |{{Color|Pyro|4}}| | | | | | |no}}
+|-
+| {{Enemy|Fatui Skirmisher - Hydrogunner Legionnaire|20}}
+{{Shield Gauge Data Row|section=2|Hydro|4<ref group="Note" name="fatui"/>|80|80|{{Color|Electro|10 Ticks}}| |80|80|80| | | | |no}}
+|-
+| {{Enemy|Fatui Skirmisher - Electrohammer Vanguard|20}}
+{{Shield Gauge Data Row|section=2|Electro|8<ref group="Note" name="fatui"/>|80|80| | |80|{{Color|Cryo|4}}|80| | | | |no}}
+|-
+| {{Enemy|Fatui Skirmisher - Geochanter Bracer|20}}
+{{Shield Gauge Data Row|section=2|Geo|8| | |{{Color|Electro|4}}|{{Color|Hydro|4}}|{{Color|Pyro|4}}|{{Color|Cryo|4}}| |571|4000| | |no}}
+|-
+| {{Enemy|Fellflower|20}}
+{{Shield Gauge Data Row|section=2|Frozen|100|200|200|100| |{{Color|Pyro|50}}| | |16667| | | |no}}
+|-
+| {{Enemy|Magatsu Mitake Narukami no Mikoto|20}}
+{{Shield Gauge Data Row|section=2|Electro|96<ref group="Note">Loses 8GU every 10 seconds.</ref>|192|192| |240 Ticks|{{Color|Pyro|96}}|{{Color|Cryo|96}}|{{Color|Dendro|96}}| | | | |no}}
+|-
+| {{Enemy|Sternshield Crab|20}}
+{{Shield Gauge Data Row|section=2|Pyro|10.8|21.6|21.6|10.8|{{Color|Hydro|5.4}}| |21.6| | | | | |no}}
+|-
+| {{Enemy|Bubbler Seahorse|20}}
+{{Shield Gauge Data Row|section=2|Electro|7.2|14.4|14.4| |18 Ticks|{{Color|Pyro|7.2}}|{{Color|Cryo|7.2}}|{{Color|Dendro|7.2}}| | | | |no}}
+|-
+| {{Enemy|Cherubic Sea Hare|20}}
+{{Shield Gauge Data Row|section=2|Frozen|10.8|21.6|21.6|10.8| |{{Color|Pyro|5.4}}| | |1800| | | |no}}
+|-
+| {{Enemy|Large Shatterstone Breacher Primus|20}}
+{{Shield Gauge Data Row|section=2|Geo|6| | |{{Color|Electro|3}}|{{Color|Hydro|3}}|{{Color|Pyro|3}}|{{Color|Cryo|3}}| |429|3000| | |no}}
+|-
+| {{Enemy|Shatterstone Breacher Primus|20}}
+{{Shield Gauge Data Row|section=2|Geo|2| | |{{Color|Electro|1}}|{{Color|Hydro|1}}|{{Color|Pyro|1}}|{{Color|Cryo|1}}| |143|1000| | |no}}
+|-
+| {{Enemy|Large Overgrown Breacher Primus|20}}
+{{Shield Gauge Data Row|section=2|Dendro|4| | |{{Color|Electro|4}}|8|10s| | | | | | |no}}
+|-
+| {{Enemy|Overgrown Breacher Primus|20}}
+{{Shield Gauge Data Row|section=2|Dendro|2| | |{{Color|Electro|2}}|4|5s| | | | | | |no}}
+|-
+| {{Enemy|Arithmetic Enhancer Mek|20}} (Local Legend)
+{{Shield Gauge Data Row|section=2|Geo|20| | |{{Color|Electro|10}}|{{Color|Hydro|10}}|{{Color|Pyro|10}}|{{Color|Cryo|10}}| |1429|10000| | |no}}
+|-
+| {{Enemy|Praetorian Golem|20}}
+{{Shield Gauge Data Row|section=2|Geo|12| | |{{Color|Electro|6}}|{{Color|Hydro|6}}|{{Color|Pyro|6}}|{{Color|Cryo|6}}| |857|6000| | |no}}
+|-
+| {{Enemy|"Statue of Marble and Brass"|20}}
+{{Shield Gauge Data Row|section=2|Geo|32| | |{{Color|Electro|16}}|{{Color|Hydro|16}}|{{Color|Pyro|16}}|{{Color|Cryo|16}}| |2286|16000| | |no}}
+|-
+| {{Enemy|Primordial Bathysmal Vishap|20}} (Local Legend)
+{{Shield Gauge Data Row|section=2|Hydro|16|32|32|40 Ticks| |32|16|{{Color|Dendro|8}}| | | | |no}}
+|}
+
+===Enemy Warded Objects===
+<span class="mw-customtoggle-40 wds-button" style="margin:3px 0px 3px;">Toggle Ward Element/GU</span><br>
+<span class="mw-customtoggle-41 wds-button" style="margin:3px 0px 3px;>Toggle GU/Poise DMG Required to Break</span><br>
+<span class="mw-customtoggle-42 wds-button" style="margin:3px 0px 0px;>Toggle HP Ratio/DMG Ratio/Multiplied in Co-Op</span>
+{| class="wikitable sortable"
+! rowspan="2" | Ward !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-40" | Element !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-40" style="text-align:center;" | Ward<br>GU !! colspan="7" class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | GU Required to Break !! colspan="2" class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | Poise DMG<br>Required to Break !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-42" style="text-align:center;" | HP<br>Ratio !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-42" style="text-align:center;" | DMG<br>Ratio !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-42" style="text-align:center;" | Multiplied<br>in Co-Op
+|-
+! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | {{Icon/Element|Anemo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | {{Icon/Element|Geo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | {{Icon/Element|Electro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | {{Icon/Element|Hydro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | {{Icon/Element|Pyro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | {{Icon/Element|Cryo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | {{Icon/Element|Dendro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | [[Blunt Attack|Blunt]] !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-41" style="text-align:center;" | Melee
+|-
+| {{Enemy|Hilichurl Grenadier|20}} (Dug Up Pyro Slime)
+{{Shield Gauge Data Row|section=4|Pyro|1|2|2|1|{{Color|Hydro|0.5}}| |2| | | | | |no}}
+|-
+| {{Enemy|Wooden Shield Hilichurl Guard|20}}
+{{Shield Gauge Data Row|section=4|Wood|2| | | | |5s| | | | |1|0.2|no}}
+|-
+| {{Enemy|Rock Shield Hilichurl Guard|20}}
+{{Shield Gauge Data Row|section=4|Geo|8| | | | | |{{Color|Cryo|4}}| |571|4000|1|0.2|no}}
+|-
+| {{Enemy|Ice Shield Hilichurl Guard|20}}
+{{Shield Gauge Data Row|section=4|Frozen|8<ref group="Note" name="sheercold">The elemental gauge of the shield will slowly recover overtime.</ref>|16|16|8| |{{Color|Pyro|4}}| | |1333| |1|0.2|no}}
+|-
+| {{Enemy|Blazing Axe Mitachurl|20}} (Infused Axe)
+{{Shield Gauge Data Row|section=4|Pyro|4|8|8|4|{{Color|Hydro|2}}| |8| | | | | |no}}
+|-
+| {{Enemy|Crackling Axe Mitachurl|20}} (Infused Axe)
+{{Shield Gauge Data Row|section=4|Electro|3|6|6| | |{{Color|Pyro|3}}|{{Color|Cryo|3}}|{{Color|Dendro|3}}| | | | |no}}
+|-
+| {{Enemy|Wooden Shieldwall Mitachurl|20}}
+{{Shield Gauge Data Row|section=4|Wood|4| | | | |10s| | | | |1|0.2|no}}
+|-
+| {{Enemy|Rock Shieldwall Mitachurl|20}}
+{{Shield Gauge Data Row|section=4|Geo|20| | | | | |{{Color|Cryo|10}}| |1429|10000|1|0.2|no}}
+|-
+| {{Enemy|Ice Shieldwall Mitachurl|20}}
+{{Shield Gauge Data Row|section=4|Frozen|10<ref group="Note" name="sheercold"/>|20|20|10| |{{Color|Pyro|5}}| | |1667| |1|0.2|no}}
+|-
+| {{Enemy|Geo Hypostasis|20}} (Normal Pillar)
+{{Shield Gauge Data Row|section=4|Geo|24<ref group="Note">Reduces by 0.2GU when hit by a Pierce or Spear attack; Reduces by 0.28GU when hit by a Slash attack.</ref>| | | | | |{{Color|Cryo|12}}| |1714|12000| | |no}}
+|-
+| {{Enemy|Geo Hypostasis|20}} (Revival Pillar)
+{{Shield Gauge Data Row|section=4|Geo|8<ref group="Note">Reduces by 0.24GU when hit by a Pierce or Spear attack; Reduces by 0.32GU when hit by a Slash attack.</ref>| | | | | |{{Color|Cryo|4}}| |571|4000| | |no}}
+|-
+| {{Enemy|Geo Hypostasis|20}} (Concentrated Geo Energy)
+{{Shield Gauge Data Row|section=4|Geo|3| | | | | |{{Color|Cryo|1.5}}| |214|1500| | |no}}
+|-
+| {{Enemy|Geo Samachurl|20}} (Pillar)
+{{Shield Gauge Data Row|section=4|Geo|12| | | | | |{{Color|Cryo|6}}| |857|6000| | |no}}
+|-
+| {{Enemy|Cryo Samachurl|20}} (Pillar)
+{{Shield Gauge Data Row|section=4|Frozen|12|24|24|12| |{{Color|Pyro|6}}| | |2000| |1|0.2|no}}
+|-
+| {{Enemy|Dendro Samachurl|20}} (Thorny Vines)
+{{Shield Gauge Data Row|section=4|Wood|1.2| | | | |3s| | | | | | |no}}
+|-
+| {{Enemy|Hilichurl Fighter|20}} (Wooden Club)
+{{Shield Gauge Data Row|section=4|Wood|12| | | | |30s| | | | | | |no}}
+|-
+| {{Enemy|Electro Hypostasis|20}} (Prism)
+{{Shield Gauge Data Row|section=4|Electro|3|6|6| | |{{Color|Pyro|3}}|{{Color|Cryo|3}}|{{Color|Dendro|3}}| | | | |no}}
+|-
+| {{Enemy|Electro Hypostasis|20}} (Pillar)
+{{Shield Gauge Data Row|section=4|Electro|4.4|8.8|8.8| | |{{Color|Pyro|4.4}}|{{Color|Cryo|4.4}}|{{Color|Dendro|4.4}}| | | | |no}}
+|-
+| {{Enemy|Cryo Hypostasis|20}} (Event Defensive Barrier)
+{{Shield Gauge Data Row|section=4|Frozen|6|12|12|6| |{{Color|Pyro|3}}| | |1000| | | |no}}
+|-
+| {{Enemy|Pyro Hypostasis|20}} (Tinder)
+{{Shield Gauge Data Row|section=4|Pyro|2|4|4|2|{{Color|Hydro|1}}| |4| | | | | |no}}
+|-
+| {{Enemy|Pyro Hypostasis|20}} (Tinder, Event Extreme Difficulty)
+{{Shield Gauge Data Row|section=4|Pyro|6|12|12|6|{{Color|Hydro|3}}| |12| | | | | |no}}
+|-
+| {{Enemy|Dendro Hypostasis|20}} (Vine Barrier)
+{{Shield Gauge Data Row|section=4|Wood|0.4| | | | |1s| | | | | | |no}}
+|-
+| {{Enemy|Dendro Hypostasis|20}} (Vine Spike)
+{{Shield Gauge Data Row|section=4|Wood|0.4| | | | |1s| | | | | | |no}}
+|-
+| {{Enemy|Cryo Regisvine|20}} (Root)
+{{Shield Gauge Data Row|section=4|Frozen|12|24|24|12| |{{Color|Pyro|6}}| | |2000| | | |no}}
+|-
+| {{Enemy|Cryo Regisvine|20}} (Corolla)
+{{Shield Gauge Data Row|section=4|Frozen|6|12|12|6| |{{Color|Pyro|3}}| | |1000| | | |no}}
+|-
+| {{Enemy|Pyro Regisvine|20}} (Root)
+{{Shield Gauge Data Row|section=4|Pyro|12|24|24|12|{{Color|Hydro|6}}| |24| | | | | |no}}
+|-
+| {{Enemy|Pyro Regisvine|20}} (Corolla)
+{{Shield Gauge Data Row|section=4|Pyro|6|12|12|6|{{Color|Hydro|3}}| |12| | | | | |no}}
+|-
+| {{Enemy|Pyro Regisvine|20}} (Pyro Seed)
+{{Shield Gauge Data Row|section=4|Pyro|2|4|4|2|{{Color|Hydro|1}}| |4| | | | | |no}}
+|-
+| {{Enemy|Electro Regisvine|20}} (Core, 1st Time)
+{{Shield Gauge Data Row|section=4|Electro|16|32|32| | |{{Color|Pyro|16}}|{{Color|Cryo|16}}|{{Color|Dendro|16}}| | | | |yes}}
+|-
+| {{Enemy|Electro Regisvine|20}} (Core, Subsequent)
+{{Shield Gauge Data Row|section=4|Electro|8|16|16| | |{{Color|Pyro|8}}|{{Color|Cryo|8}}|{{Color|Dendro|8}}| | | | |yes}}
+|-
+| {{Enemy|Electro Regisvine|20}} (Stamens)
+{{Shield Gauge Data Row|section=4|Electro|2|4|4| | |{{Color|Pyro|2}}|{{Color|Cryo|2}}|{{Color|Dendro|2}}| | | | |no}}
+|-
+| {{Enemy|Andrius|20}} (Frozen Pillar)
+{{Shield Gauge Data Row|section=4|Frozen|12|24|24|12| |{{Color|Pyro|6}}| | |2000| | | |no}}
+|-
+| {{Enemy|Thunderhelm Lawachurl|20}} (Electro Shards)
+{{Shield Gauge Data Row|section=4|Electro|3|6|6| | |{{Color|Pyro|3}}|{{Color|Cryo|3}}|{{Color|Dendro|3}}| | | | |no}}
+|-
+| {{Enemy|Abyss Lector: Fathomless Flames|20}} (Darkfire Furnace)
+{{Shield Gauge Data Row|section=4|Pyro|6|12|12|6|{{Color|Hydro|3}}| |12| | | | | |no}}
+|-
+| {{Enemy|Ruin Serpent|20}} (Yellow Rock)
+{{Shield Gauge Data Row|section=4|Geo|2| | | | | |{{Color|Cryo|1}}| |143|1000| | |no}}
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} (Cryo Bomb)
+{{Shield Gauge Data Row|section=4|Cryo|6|12|12|6|6|{{Color|Pyro|1}}| | | | | | |no}}
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} (Hydro Bomb)
+{{Shield Gauge Data Row|section=4|Hydro|2|4|4| | |4|2|{{Color|Dendro|1}}| | | | |no}}
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} (Pyro Bomb)
+{{Shield Gauge Data Row|section=4|Pyro|2|4|4|2|{{Color|Hydro|1}}| |4| | | | | |no}}
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} (Ground Nirvana Engine)
+{{Shield Gauge Data Row|section=4|Electro|5|10|10| | |{{Color|Pyro|5}}|{{Color|Cryo|5}}|{{Color|Dendro|5}}| | | | |no}}
+|-
+| {{Enemy|Everlasting Lord of Arcane Wisdom|20}} (Airborne Nirvana Engine)
+{{Shield Gauge Data Row|section=4|Electro|1|2|2| | |{{Color|Pyro|1}}|{{Color|Cryo|1}}|{{Color|Dendro|1}}| | | | |no}}
+|-
+| {{Enemy|Mechanicus: Sharkwinter|20}} (Frost Barrier)
+{{Shield Gauge Data Row|section=4|Frozen|4|8|8|4| |{{Color|Pyro|2}}| | |667| | | |no}}
+|-
+| {{Enemy|Iniquitous Baptist|20}} (Cryo Node)
+{{Shield Gauge Data Row|section=4|Frozen|2|4|4|2| |{{Color|Pyro|1}}| | |333| | | |no}}
+|-
+| {{Enemy|Iniquitous Baptist|20}} (Electro Node)
+{{Shield Gauge Data Row|section=4|Electro|1|2|2| | |{{Color|Pyro|1}}|{{Color|Cryo|1}}|{{Color|Dendro|1}}| | | | |no}}
+|-
+| {{Enemy|Iniquitous Baptist|20}} (Hydro Node)
+{{Shield Gauge Data Row|section=4|Hydro|2|4|4| | |4|2|{{Color|Dendro|1}}| | | | |no}}
+|-
+| {{Enemy|Iniquitous Baptist|20}} (Pyro Node)
+{{Shield Gauge Data Row|section=4|Pyro|2|4|4|2|{{Color|Hydro|1}}| |4| | | | | |no}}
+|-
+| {{Enemy|Hydro Hilichurl Rogue|20}} (Hydro Slime)
+{{Shield Gauge Data Row|section=4|Hydro|2|4|4|5 Ticks| |4|2|{{Color|Dendro|1}}| | | | |no}}
+|-
+| {{Enemy|Emperor of Fire and Iron|20}}
+{{Shield Gauge Data Row|section=4|Pyro|16|32|32|16|{{Color|Hydro|8}}| |32| | | | | |no}}
+|-
+| {{Enemy|Millennial Pearl Seahorse|20}} (Xenomare Pearl)
+{{Shield Gauge Data Row|section=4|Electro|19|38|38| | |{{Color|Pyro|19}}|{{Color|Cryo|19}}|{{Color|Dendro|19}}| | | | |no}}
+|-
+| {{Enemy|Millennial Pearl Seahorse|20}} (Resonant Coral Orb)
+{{Shield Gauge Data Row|section=4|Electro|0.4|0.8|0.8| ||{{Color|Pyro|0.4}}|{{Color|Cryo|0.4}}|{{Color|Dendro|0.4}}| | | | |no}}
+|-
+| {{Enemy|Holawaqa Ngoubou|20}} (Flamewind Feather)
+{{Shield Gauge Data Row|section=4|Pyro|2|4|4|2|{{Color|Hydro|1}}| |4| | | | | |no}}
+|-
+| {{Enemy|Fatui Pyro Agent|20}} (Local Legend) (Clone)
+{{Shield Gauge Data Row|section=4|Pyro|6|12|12|6|{{Color|Hydro|3}}| |4| | | | | |no}}
+|-
+| {{Enemy|Koholasaurus Warrior: Waveshuttler|20}} (Local Legend) (Spray Can)
+{{Shield Gauge Data Row|section=4|Frozen|2|4|4|2| |{{Color|Pyro|1}}| | |333| | | |no}}
+|-
+| {{Enemy|Yumkasaurus Warrior: Flowing Skyfire|20}} (Local Legend) (Grapple Point)
+{{Shield Gauge Data Row|section=4|Dendro|5| | |{{Color|Electro|5}}|10|12.5s| | | | | | |no}}
+|-
+| {{Enemy|Wayward Hermetic Spiritspeaker|20}} (Radiant Reflection)
+{{Shield Gauge Data Row|section=4|Frozen|8|16|16|8| |{{Color|Pyro|4}}| | |1333| | | |no}}
+|}
+
+===Other Warded Objects===
+<span class="mw-customtoggle-50 wds-button" style="margin:3px 0px 3px;">Toggle Ward Element/GU</span><br>
+<span class="mw-customtoggle-51 wds-button" style="margin:3px 0px 3px;>Toggle GU/Poise DMG Required to Break</span><br>
+<span class="mw-customtoggle-52 wds-button" style="margin:3px 0px 0px;>Toggle HP Ratio/DMG Ratio/Multiplied in Co-Op</span>
+{| class="wikitable sortable"
+! rowspan="2" | Ward !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-50" | Element !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-50" style="text-align:center;" | Ward<br>GU !! colspan="7" class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | GU Required to Break !! colspan="2" class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | Poise DMG<br>Required to Break !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-52" style="text-align:center;" | HP<br>Ratio !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-52" style="text-align:center;" | DMG<br>Ratio !! rowspan="2" class="mw-collapsible" id="mw-customcollapsible-52" style="text-align:center;" | Multiplied<br>in Co-Op
+|-
+! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | {{Icon/Element|Anemo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | {{Icon/Element|Geo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | {{Icon/Element|Electro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | {{Icon/Element|Hydro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | {{Icon/Element|Pyro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | {{Icon/Element|Cryo}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | {{Icon/Element|Dendro}} !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | [[Blunt Attack|Blunt]] !! class="mw-collapsible mw-collapsed" id="mw-customcollapsible-51" style="text-align:center;" | Melee
+|-
+| [[Iron Chunk|Iron Ore]]
+{{Shield Gauge Data Row|section=5|Geo|0.4| | | | | |{{Color|Cryo|0.2}}| |29|200| | |no}}
+|-
+| [[White Iron Ore|White Iron Chunk]]
+{{Shield Gauge Data Row|section=5|Geo|0.4| | | | | |{{Color|Cryo|0.2}}| |29|200| | |no}}
+|-
+| [[Starsilver]] Ore
+{{Shield Gauge Data Row|section=5|Geo|0.4| | | | | |{{Color|Cryo|0.2}}| |29|200| | |no}}
+|-
+| [[Crimson Crystal]] Ore
+{{Shield Gauge Data Row|section=5|Geo|0.4| | | | | |{{Color|Cryo|0.2}}| |29|200| | |no}}
+|-
+| [[Crystal Chunk|Crystal Ore]]
+{{Shield Gauge Data Row|section=5|Geo|4| | | | | |{{Color|Cryo|2}}| |286|2000| | |no}}
+|-
+| [[Magical Crystal Chunk|Magical Crystal Ore]]
+{{Shield Gauge Data Row|section=5|Geo|4| | | | | |{{Color|Cryo|2}}| |286|2000| | |no}}
+|-
+| [[Noctilucous Jade]] Ore
+{{Shield Gauge Data Row|section=5|Geo|4| | | | | |{{Color|Cryo|2}}| |286|2000| | |no}}
+|-
+| [[Cor Lapis]] Ore
+{{Shield Gauge Data Row|section=5|Geo|4| | | | | |{{Color|Cryo|2}}| |286|2000| | |no}}
+|-
+| [[Amber Rock]]s ([[Mt. Hulao]])
+{{Shield Gauge Data Row|section=5|Geo|2| | | | | |{{Color|Cryo|1}}| |143|1000| | |no}}
+|-
+| [[Geograna]]
+{{Shield Gauge Data Row|section=5|Geo|2| | | | | |{{Color|Cryo|1}}| |143|1000| | |no}}
+|-
+| [[Rock Pile]]s (Geo)
+{{Shield Gauge Data Row|section=5|Geo|1| | | | | |{{Color|Cryo|1}}| |71|500| | |no}}
+|-
+| [[Rock Pile]]s (Electro)
+{{Shield Gauge Data Row|section=5|Electro|2|4|4| | |{{Color|Pyro|2}}|{{Color|Cryo|2}}|{{Color|Dendro|2}}| | | | |no}}
+|-
+| Small Rock Piles
+{{Shield Gauge Data Row|section=5|Geo|0.4| | | | | |{{Color|Cryo|0.2}}| |29|200| | |no}}
+|-
+| [[Ancient Rime]] (Dragonspine)
+{{Shield Gauge Data Row|section=5|Frozen|2|4|4|2| |{{Color|Pyro|1}}| | |333| | | |no}}
+|-
+| Cryo [[Infusion Stone]]s
+{{Shield Gauge Data Row|section=5|Cryo|4|8|8|4|4|{{Color|Pyro|2}}| | | | | | |no}}
+|-
+| Pyro [[Infusion Stone]]s
+{{Shield Gauge Data Row|section=5|Geo|4| | | | | |{{Color|Cryo|2}}| |286|2000| | |no}}
+|-
+| Electro [[Infusion Stone]]s
+{{Shield Gauge Data Row|section=5|Geo|4| | | | | |{{Color|Cryo|2}}| |286|2000| | |no}}
+|-
+| [[Vine]]
+{{Shield Gauge Data Row|section=5|Wood|1.2| | | | |3s| | | | | | |no}}
+|-
+| Bushes
+{{Shield Gauge Data Row|section=5|Wood|1.2| | | | |3s| | | | | | |no}}
+|-
+| Wooden Crates
+{{Shield Gauge Data Row|section=5|Wood|1.2| | | | |3s| | | | | | |no}}
+|-
+| Wooden Barrels
+{{Shield Gauge Data Row|section=5|Wood|1.2| | | | |3s| | | | | | |no}}
+|-
+| Haystacks
+{{Shield Gauge Data Row|section=5|Wood|2| | | | |5s| | | | | | |no}}
+|-
+| [[Grass]]
+{{Shield Gauge Data Row|section=5|Wood|4.8| | | | |12s| | | | | | |no}}
+|}
+
+===Elementless Wards===
+{| class="wikitable sortable"
+! Ward !! HP Ratio !! DMG Ratio
+|-
+| {{Enemy|Fatui Skirmisher - Anemoboxer Vanguard|20}} || 1 || 0.2
+|-
+| {{Enemy|Primal Construct|20}} (Parts) || 0.1 || 1
+|-
+| {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}} (Parts) || 0.1 || 1
+|-
+| {{Enemy|Wayob Manifestation|20}} || 1.114 || 1
+|}
+
+==Notes==
+{{Reflist|note=1}}

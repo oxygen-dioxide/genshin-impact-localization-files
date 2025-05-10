@@ -2,12 +2,26 @@
 |image         = Talent Sandstorm Assault.png
 |character     = Dehya
 |type          = Normal Attack
-|info          = '''Normal Attack'''<br />Performs up to 4 consecutive strikes using her Claymore and her martial arts.<br /><br />'''Charged Attack'''<br />Drains Stamina over time to perform continuous slashes.<br />At the end of the sequence, performs a more powerful slash.<br><br />'''Plunging Attack'''<br />Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.
+|info          = '''Normal Attack'''<br>Performs up to 4 consecutive strikes using her Claymore and her martial arts.<br><br>'''Charged Attack'''<br>Drains Stamina over time to perform continuous slashes.<br>At the end of the sequence, performs a more powerful slash.<br><br>'''Plunging Attack'''<br>Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.
 |scale_att1    = ATK
+|hit1          = 62.12-131.46%
+|hit2          = 61.71-130.6%
+|hit3          = 76.63-162.17%
+|hit4          = 95.29-201.66%
+|attr5         = Charged Attack Cyclic DMG
+|value5        = 56.33-119.21%
+|attr6         = Charged Attack Final DMG
+|value6        = 101.82-215.49%
+|attr7         = Charged Attack Stamina Cost
+|value7        = 40/s
+|attr8         = Max Duration
+|value8        = 5s
+|plunge        = 74.59-157.85%
+|plungeLow     = 149.14-315.63%
+|plungeHigh    = 186.29-394.24%
 }}
 '''Sandstorm Assault''' is [[Dehya]]'s [[Normal Attack]].
-__TOC__
-{{Clr}}
+
 ==Advanced Properties==
 {{Advanced Properties
 |title   = Normal Attack 1-Hit
@@ -87,15 +101,16 @@ __TOC__
 |file2    = Sandstorm Assault Charged Preview
 |caption2 = Charged Attack
 
-|file3    = Sandstorm Assault Plunge Preview
+|file3    = Sandstorm Assault Plunging Preview
 |caption3 = Plunging Attack
 }}
 
 ==Attribute Scaling==
 {{Talent Scaling
+|talentType=Normal Attack
 |levels=11
-|order=hit1,hit2,hit3,hit4,chargedattackcyclicdmg,chargedattackfinaldmg,stamina,maxduration,plunge,plungelow,plungehigh
-|titles=1-Hit DMG,2-Hit DMG,3-Hit DMG,4-Hit DMG,Charged Attack Cyclic DMG,Charged Attack Final DMG,Charged Attack Stamina Cost,Max Duration,Plunge DMG,Low Plunge DMG,High Plunge DMG
+|order=hit1,hit2,hit3,hit4,charged_title,chargedattackcyclicdmg,chargedattackfinaldmg,stamina,maxduration,plunge_title,plunge,plungelow,plungehigh
+|titles=1-Hit DMG (%),2-Hit DMG (%),3-Hit DMG (%),4-Hit DMG (%),Charged Attack,Charged Attack Cyclic DMG (%),Charged Attack Final DMG (%),Charged Attack Stamina Cost,Max Duration,Plunging Attack,Plunge DMG (%),Low Plunge DMG (%),High Plunge DMG (%)
 |hit1_1=62.12
 |hit1_2=67.17
 |hit1_3=72.23
@@ -162,28 +177,8 @@ __TOC__
 |chargedattackfinaldmg_9=187.07
 |chargedattackfinaldmg_10=201.28
 |chargedattackfinaldmg_11=215.49
-|stamina_1=40/s
-|stamina_2=40/s
-|stamina_3=40/s
-|stamina_4=40/s
-|stamina_5=40/s
-|stamina_6=40/s
-|stamina_7=40/s
-|stamina_8=40/s
-|stamina_9=40/s
-|stamina_10=40/s
-|stamina_11=40/s
-|maxduration_1=5s
-|maxduration_2=5s
-|maxduration_3=5s
-|maxduration_4=5s
-|maxduration_5=5s
-|maxduration_6=5s
-|maxduration_7=5s
-|maxduration_8=5s
-|maxduration_9=5s
-|maxduration_10=5s
-|maxduration_11=5s
+|stamina=40/s
+|maxduration=5s
 |plunge_1=74.59
 |plunge_2=80.66
 |plunge_3=86.73
@@ -245,12 +240,12 @@ __TOC__
 |vi      = Kiếm Thuật Quét Vàng
 |vi_tl   = 
 |de      = Schwertkunst des Goldenen Sturms
-|de_tl   = 
+|de_tl   = Swordsmanship of the Golden Storm
 |id      = Sandstorm Assault
 |pt      = Técnica da Espada Dourada
 |pt_tl   = 
 |tr      = Kum Fırtınası Saldırısı
-|tr_tl   = 
+|tr_tl   = Sandstorm Assault
 |it      = Tempesta dorata
 |it_tl   = Golden Storm
 }}
@@ -266,4 +261,8 @@ __TOC__
 
 [[es:Sacudida áurea]]
 [[fr:Assaut sablé]]
+[[pt-br:Técnica da Espada Dourada]]
+[[ru:Нападение песчаной бури]]
+[[th:Sandstorm Assault]]
+[[tr:Kum Fırtınası Saldırısı]]
 [[vi:Kiếm Thuật Quét Vàng]]

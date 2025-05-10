@@ -2,7 +2,6 @@
 |id            = 23004
 |type          = Commission
 |image         = Commission Project Baby.png
-|summary       = <!--editor provided summary-->
 |startLocation = [[Port Ormos]], [[Sumeru]]
 |region        = Sumeru
 |area          = Ardravi Valley
@@ -10,28 +9,27 @@
 |requirement   = 
 |characters    = Traveler; Paimon; Gulabgir
 |npc           = Gulabgir
-|other         = *AR-Dependent Rewards
-*Grants the achievement [[Non-Obligatory Request]] if all three special variants of the Commission have been completed.
+|otherRewards  = *AR-Dependent Rewards
+*Grants the achievement ''[[Non-Obligatory Request]]'' if all three special variants of the Commission have been completed after collecting the optional quest items.
 }}
 '''''Project Baby''''' is a [[Daily Commission]] in [[Sumeru]].
 
 ==Steps==
 # Talk to [[Gulabgir]]
-#*Gulabgir will randomly send the player to one of the five possible versions of his camp. (See [[#Gameplay Notes|Gameplay Notes]].)
-#Go to the camp
-#Defeat all Fungi <small>(for the Fungi camp)</small> {{Enemy List|Floating Hydro Fungus*3}}
-#Look for Gulabgir's pet snake food
-#*After finding [[Gulabgir's Special Pet Snake Food]], Paimon may say something to suggest that an additional quest item is available nearby.
-#Report back to Gulabgir
+# Go to the camp
+# Defeat all Fungi ''(In [[#Fungi Version]] only)''
+#* {{Enemy|Floating Hydro Fungus|x=3}}
+# Look for Gulabgir's pet snake food
+# Report back to Gulabgir
 
 ==Gameplay Notes==
-*Three of the possible camp sites have an optional quest item that can be retrieved.
-**Fungi Camp: [[Strange Bead]] is found in a pot next to the tent.
-**Rockslide Camp: [[Shabby Rack]] is found by breaking the second rock pile on the small hill.
-**Tree Nest Camp: [[Strange Tiny Hats]] are found in a fourth nest near the top of the tree.
-**The Thorny Vine Camp and the Food-in-Pot Camp do not have additional quest items.
-*Finding Strange Bead, Strange Tiny Hats, and Shabby Rack grants the ''[[Wonders of the World]]'' achievement ''[[Non-Obligatory Request]]''.
-*Retrieving the optional quest item before returning to Gulabgir will unlock additional dialogue, as well as an additional reward of {{Item|Mora|x=2000}}.
+* Gulabgir will randomly send the player to one of the five possible versions of his camp.
+* Some additional optional quest items can be obtained in certain versions of this commission:
+** {{Item|Strange Bead}} during the [[#Fungi Version]] is found in a pot next to the tent.
+** {{Item|Shabby Rack}} during the [[#Rockslide Version]] is found by breaking the second rock pile on the small hill.
+** {{Item|Strange Tiny Hats}} during the [[#Tree Nest Version]] are found in a fourth nest near the top of the tree which appears after investigating the first three nests.
+* Finding Strange Bead, Strange Tiny Hats, and Shabby Rack grants the {{Achievement|Non-Obligatory Request}}.
+* Retrieving the optional quest item before returning to Gulabgir will unlock additional dialogue, as well as an additional reward of {{Item|Mora|x=2,000}}.
 
 ==Rewards==
 {{Commission Rewards|full}}
@@ -39,7 +37,7 @@
 ==Dialogue==
 <!--{{Quest Description|Gulabgir the snake charmer seems to be in trouble...}}<!--map description-->
 {{Quest Description|Snake Handler Gulabgir seems to be in trouble...}}<!--quest menu description-->
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Gulabgir, optional)
 :'''Gulabgir:''' (Hope the little ones aren't starving...)
 
@@ -73,33 +71,77 @@
 ::'''Gulabgir:''' I've already stopped living in the rainforest, but I still do rest at my campsites if I collect herbs there.
 :'''Gulabgir:''' Anyway, I'm counting on you, Traveler.
 :'''Gulabgir:''' I'll mark all the camps I've stayed at on the map for you, so please take a look at those spots.
+:;(Continue to a random version)
 
 ;(Talk to Gulabgir again)
 :'''Gulabgir:''' How did it go? Did you find the food?
 
-===Go to the camp===
-;(Approach the Fungi Camp)
+===Fungi Version===
+;(Approach the fungi camp)
 :'''Paimon:''' Look at those [[Fungi]]. Why are they gathering over there? They aren't stealing the food, are they? C'mon, you've gotta shoo them away!
 
 ;(Pick up the snake food)
-:;(Obtain [[Gulabgir's Special Pet Snake Food]])
+:;(Obtain {{Item|Gulabgir's Special Pet Snake Food}})
 :'''Paimon:''' Eh? There are some bottles and pots... Maybe Gulabgir left something else here...?
 
 ;(Investigate the pile of goods)
-:;(Obtain [[Strange Bead]])
+:;(Obtain {{Item|Strange Bead}})
 ::'''Paimon:''' What is this bead used for? Let's take it to Gulabgir.
-----
-;(Approach the Rockslide Camp)
+
+;(Talk to Gulabgir)
+:'''Gulabgir:''' You are back! I gotta say, that was quick. Did you find the food?
+:{{DIcon}} Is this what you're looking for?
+:;(Sumbit {{Item|Gulabgir's Special Pet Snake Food}})
+::'''Gulabgir:''' Yes! That's it! So I did leave it in the camp after all.
+::'''Paimon:''' When we arrived, there were Fungi that were trying to swipe it.
+::'''Gulabgir:''' Fungi, huh... Phew, guess I was lucky to have you go instead. Thank you so much, Traveler.
+::'''Gulabgir:''' I can't thank you enough. Please, accept this as your payment.
+::'''Gulabgir:''' Here's your meal, little fellas...
+
+;(Talk to Gulabgir again, if the player picked up the [[Strange Bead]])
+:'''Gulabgir:''' What's the matter? Anything else on your mind?
+:{{DIcon}} I found something else in the camp.
+:;(Submit {{Item|Strange Bead}})
+::'''Gulabgir:''' Huh? This bead... How... Where did you find this?
+::'''Paimon:''' Inside a pot in the camp. Did you leave that behind?
+::'''Gulabgir:''' Ah, it was used in past shows. Whenever I play the flute, my little fellas would carry that bead on their heads and dance with their upper bodies in the air.
+::'''Gulabgir:''' But tricks of this kind have long ceased being profitable, and I haven't performed for quite some time either. I didn't even notice that it had gone missing...
+::'''Gulabgir:''' Anyway, thanks for bringing it back. Here's your payment, please take it.
+
+===Rockslide Version===
+;(Approach the rockslide camp)
 :'''Paimon:''' Paimon doesn't see anything. Let's come closer to take a better look.
 
 ;(Pick up the snake food)
-:;(Obtain Gulabgir's Special Pet Snake Food)
+:;(Obtain {{Item|Gulabgir's Special Pet Snake Food}})
 :'''Paimon:''' How is the food under these stones? Was there some kinda landslide? Shall we go up and have another look around?
 
 ;(Walk uphill and destroy the pile of breakable rocks)
-:;(Obtain [[Shabby Rack]])
-----
-;(Approach the Tree Nest Camp)
+:;(Obtain {{Item|Shabby Rack}})
+
+;(Talk to Gulabgir)
+:'''Gulabgir:''' You are back! I gotta say, that was quick. Did you find the food?
+:{{DIcon}} Is this what you're looking for?
+:;(Submit {{Item|Gulabgir's Special Pet Snake Food}})
+::'''Gulabgir:''' Yes! That's it! So I did leave it in the camp after all.
+::'''Paimon:''' It was buried under the rocks. Your camp seems to have gotten caught in a landslide that carried your stuff far away. We spent a long while looking, actually.
+::'''Gulabgir:''' Seriously? How could there be a landslide? That spot has never been in any trouble...
+::'''Gulabgir:''' Oh! When I was camping there, I could hear strange sounds at night, and I could feel something scratching at my tent...
+::'''Gulabgir:''' My snakes were alert and would wake me every time. But I never found anything no matter how many times I checked...
+::'''Gulabgir:''' Eh, you know what, forget about it... Thanks for your help. Here's your payment.
+
+;(Talk to Gulabgir again, if the player picked up the [[Shabby Rack]])
+:'''Gulabgir:''' What's the matter? Anything else on your mind?
+:'''{{Traveler}}:''' I found something else in the camp.
+:;(Submit {{Item|Shabby Rack}})
+::'''Gulabgir:''' Ah! Isn't this the snake climbing tower I made? Wow, this sure brings back some memories! Hahaha!
+::'''Paimon:''' Snake climbing tower? What even is that?
+::'''Gulabgir:''' Just a toy for the snakes to climb on. I can't have them hanging on me all the time, you know?
+::'''Gulabgir:''' Thanks for bringing it back. Please take this as your payment.
+::'''Gulabgir:''' So I designed it like that? Hah, this sure does bring back some memories...
+
+===Tree Nest Version===
+;(Approach the camp)
 :'''Paimon:''' There's nothing down there. Maybe we should check out the tree...
 
 ;(Investigate the first nest)
@@ -109,102 +151,75 @@
 :'''Paimon:''' There's nothing here...
 
 ;(Find the snake food)
-:;(Obtain Gulabgir's Special Pet Snake Food)
+:;(Obtain {{Item|Gulabgir's Special Pet Snake Food}})
 :'''Paimon:''' Oh! This should be the snake food Gulabgir's looking for!
 
 ;(Investigate the nest near the top of the tree)
-:;(Obtain [[Strange Tiny Hats]])
+:;(Obtain {{Item|Strange Tiny Hats}})
 ::'''Paimon:''' Woah, {{sic|here's}} a whole bunch of tiny hats in here. Let's take them to Gulabgir...
-----
-;(Approach the Thorny Vine Camp)
-:'''Paimon:''' Whoa! Look at all those thorny vines! Be careful!
 
-;(Pick up the snake food)
-:;(Obtain Gulabgir's Special Pet Snake Food)
-----
-;(Approach the Food-in-Pot Camp)
-:'''Paimon:''' Ugh... It's a total mess around here. Where on earth is the food...?
-
-;(Destroy the vases and pick up the snake food)
-:;(Obtain Gulabgir's Special Pet Snake Food)
-
-===Report back to Gulabgir===
 ;(Talk to Gulabgir)
 :'''Gulabgir:''' You are back! I gotta say, that was quick. Did you find the food?
 :{{DIcon}} Is this what you're looking for?
-:;(Give Gulabgir the snake food)
-----
-;(If the player was sent to the Fungi Camp)
-:'''Gulabgir:''' Yes! That's it! So I did leave it in the camp after all.
-:'''Paimon:''' When we arrived, there were Fungi that were trying to swipe it.
-:'''Gulabgir:''' Fungi, huh... Phew, guess I was lucky to have you go instead. Thank you so much, Traveler.
-:'''Gulabgir:''' I can't thank you enough. Please, accept this as your payment.
-:'''Gulabgir:''' Here's your meal, little fellas...
-;(If the player picked up the [[Strange Bead]])
-::'''Gulabgir:''' What's the matter? Anything else on your mind?
-::{{DIcon}} I found something else in the camp.
-:;(Give Gulabgir the Strange Bead)
-::'''Gulabgir:''' Huh? This bead... How... Where did you find this?
-::'''Paimon:''' Inside a pot in the camp. Did you leave that behind?
-::'''Gulabgir:''' Ah, it was used in past shows. Whenever I play the flute, my little fellas would carry that bead on their heads and dance with their upper bodies in the air.
-::'''Gulabgir:''' But tricks of this kind have long ceased being profitable, and I haven't performed for quite some time either. I didn't even notice that it had gone missing...
-::'''Gulabgir:''' Anyway, thanks for bringing it back. Here's your payment, please take it.
-----
-;(If the player was sent to the Rockslide Camp)
-:'''Gulabgir:''' Yes! That's it! So I did leave it in the camp after all.
-:'''Paimon:''' It was buried under the rocks. Your camp seems to have gotten caught in a landslide that carried your stuff far away. We spent a long while looking, actually.
-:'''Gulabgir:''' Seriously? How could there be a landslide? That spot has never been in any trouble...
-:'''Gulabgir:''' Oh! When I was camping there, I could hear strange sounds at night, and I could feel something scratching at my tent...
-:'''Gulabgir:''' My snakes were alert and would wake me every time. But I never found anything no matter how many times I checked...
-:'''Gulabgir:''' Eh, you know what, forget about it... Thanks for your help. Here's your payment.
-;(If the player picked up the [[Shabby Rack]])
-::'''Gulabgir:''' What's the matter? Anything else on your mind?
-::'''(Traveler):''' I found something else in the camp.
-:;(Give Gulabgir the Shabby Rack)
-::'''Gulabgir:''' Ah! Isn't this the snake climbing tower I made? Wow, this sure brings back some memories! Hahaha!
-::'''Paimon:''' Snake climbing tower? What even is that?
-::'''Gulabgir:''' Just a toy for the snakes to climb on. I can't have them hanging on me all the time, you know?
-::'''Gulabgir:''' Thanks for bringing it back. Please take this as your payment.
-::'''Gulabgir:''' So I designed it like that? Hah, this sure does bring back some memories...
-----
-;(If the player was sent to the Tree Nest Camp)
-:'''Gulabgir:''' Yes, these would do! Thank you so much.
-:'''Paimon:''' Why weren't these in the camp, but on the nearby tree?
-:'''Gulabgir:''' Well... Maybe the birds had them stashed away for a rainy day...
-:'''Gulabgir:''' Is this stuff so popular with animals? Maybe I should start a business...
-:'''Gulabgir:''' Ahem! Don't mind me. Thank you very much. Here's your payment.
-;(If the player picked up the [[Strange Tiny Hats]])
-::'''Gulabgir:''' What's the matter? Anything else on your mind?
-::{{DIcon}} I found something else in the camp.
-:;(Give Gulabgir the Strange Tiny Hats)
+:;(Submit {{Item|Gulabgir's Special Pet Snake Food}})
+::'''Gulabgir:''' Yes, these would do! Thank you so much.
+::'''Paimon:''' Why weren't these in the camp, but on the nearby tree?
+::'''Gulabgir:''' Well... Maybe the birds had them stashed away for a rainy day...
+::'''Gulabgir:''' Is this stuff so popular with animals? Maybe I should start a business...
+::'''Gulabgir:''' Ahem! Don't mind me. Thank you very much. Here's your payment.
+
+;(Talk to Gulabgir again, if the player picked up the [[Strange Tiny Hats]])
+:'''Gulabgir:''' What's the matter? Anything else on your mind?
+:{{DIcon}} I found something else in the camp.
+:;(Submit {{Item|Strange Tiny Hats}})
 ::'''Gulabgir:''' Huh? These hats... Hahaha, I made them for the snakes. How did I even forget these?
 ::'''Gulabgir:''' I made each of them a nightcap so that they could attract children to the show.
 ::'''Gulabgir:''' Red for Jori, green for Amum, yellow for Gana, and blue for Drak...
 ::'''Paimon:''' Sounds cute! The show must've been a hit!
 ::'''Gulabgir:''' It went well at first, but the children would burst into tears whenever the snakes opened their jaws...
 ::'''Gulabgir:''' Oh, forget about it... Please take this as your payment. It's something, at least.
-----
-;(If the player was sent to the Thorny Vine Camp)
-:'''Gulabgir:''' Yes! That's it! So I did leave it in the camp after all.
-:'''Paimon:''' Why is your camp in the middle of a bunch of thorny vines!? Wouldn't you get hurt sleeping there?
-:'''Gulabgir:''' Nah, I'm pretty skilled when it comes to living in the wild.
-:'''Gulabgir:''' And there weren't that many vines around when I established that camp.
-:{{DIcon}} Have you been away from the forest for a very long time?
-:'''Gulabgir:''' Sort of. I can't remember the details.
-:'''Gulabgir:''' Hahaha, I'm really rusty when it comes to setting up camps now.
-:'''Gulabgir:''' Most of the camps I've set up in the past have been abandoned.
-:'''Gulabgir:''' What kind of life would I be leading had I remained in the rainforest...?
-:'''Gulabgir:''' ...Sorry, I've said too much. Here is your payment. Please take it.
-----
-;(If the player was sent to the Food-In-Pot Camp)
-:'''Gulabgir:''' Yes! That's it! So I did leave it in the camp after all.
-:{{DIcon}} About the camp...
-:'''Gulabgir:''' I see... Was it the work of wild animals...?
-:'''Gulabgir:''' Now that you mention it, the food I made attracted Fungi and birds... So, attracting wild animals sounds about right...
-:'''Gulabgir:''' Guess I should really consider starting a feed-selling business...
-:'''Gulabgir:''' If that turns out well, I could be making much more money than I do now by putting up performances...
-:'''Gulabgir:''' Oh, sorry, I'm getting off-topic... Thanks for your help, and please, take your payment.
-{{Dialogue end}}
+
+===Thorny Vine Version===
+;(Approach the camp)
+:'''Paimon:''' Whoa! Look at all those thorny vines! Be careful!
+
+;(Pick up the snake food)
+:;(Obtain {{Item|Gulabgir's Special Pet Snake Food}})
+
+;(Talk to Gulabgir)
+:'''Gulabgir:''' You are back! I gotta say, that was quick. Did you find the food?
+:{{DIcon}} Is this what you're looking for?
+:;(Submit {{Item|Gulabgir's Special Pet Snake Food}})
+::'''Gulabgir:''' Yes! That's it! So I did leave it in the camp after all.
+::'''Paimon:''' Why is your camp in the middle of a bunch of thorny vines!? Wouldn't you get hurt sleeping there?
+::'''Gulabgir:''' Nah, I'm pretty skilled when it comes to living in the wild.
+::'''Gulabgir:''' And there weren't that many vines around when I established that camp.
+::{{DIcon}} Have you been away from the forest for a very long time?
+::'''Gulabgir:''' Sort of. I can't remember the details.
+::'''Gulabgir:''' Hahaha, I'm really rusty when it comes to setting up camps now.
+::'''Gulabgir:''' Most of the camps I've set up in the past have been abandoned.
+::'''Gulabgir:''' What kind of life would I be leading had I remained in the rainforest...?
+::'''Gulabgir:''' ...Sorry, I've said too much. Here is your payment. Please take it.
+
+===Pot Version===
+;(Approach the camp)
+:'''Paimon:''' Ugh... It's a total mess around here. Where on earth is the food...?
+
+;(Destroy the vases and pick up the snake food)
+:;(Obtain {{Item|Gulabgir's Special Pet Snake Food}})
+
+;(Talk to Gulabgir)
+:'''Gulabgir:''' You are back! I gotta say, that was quick. Did you find the food?
+:{{DIcon}} Is this what you're looking for?
+:;(Submit {{Item|Gulabgir's Special Pet Snake Food}})
+::'''Gulabgir:''' Yes! That's it! So I did leave it in the camp after all.
+::{{DIcon}} About the camp...
+::'''Gulabgir:''' I see... Was it the work of wild animals...?
+::'''Gulabgir:''' Now that you mention it, the food I made attracted Fungi and birds... So, attracting wild animals sounds about right...
+::'''Gulabgir:''' Guess I should really consider starting a feed-selling business...
+::'''Gulabgir:''' If that turns out well, I could be making much more money than I do now by putting up performances...
+::'''Gulabgir:''' Oh, sorry, I'm getting off-topic... Thanks for your help, and please, take your payment.
+{{Dialogue End}}
 
 ==Video Guides==
 {{EVT
@@ -240,13 +255,13 @@
 |de      = Schatzprojekt
 |de_tl   = Treasure Project
 |id      = Proyek Harta Karun
-|id_tl   = Treasure Chest Project
+|id_tl   = Treasure Project
 |pt      = Plano Precioso
-|pt_tl   = 
+|pt_tl   = Precious Plan
 |tr      = Bebek Projesi
-|tr_tl   = 
+|tr_tl   = Baby Project
 |it      = Progetto bimbo
-|it_tl   = 
+|it_tl   = Project Baby
 }}
 
 ==Change History==

@@ -3,23 +3,26 @@
 |missing_NPC_profile  = yes
 }}
 {{Character Infobox
-|type             = NPC
+|type             = Open-World NPC
 |image            = NPC Jiawei.png
 |realname         = 
 |region           = Liyue
+|location         = Liyue
 |affiliation      = Fishing Association
 |title            = Liyue Angler
 |voiceEN          = 
 |voiceCN          = 
 |voiceJP          = 
 }}
-'''Jiawei''' is an [[NPC]] located in [[Liyue Harbor]], [[Liyue]]. He can be found fishing on the southern dock of the South Wharf.
+'''Jiawei''' is a [[shop]] [[NPC]] located in [[Liyue Harbor]], [[Liyue]]. He can be found fishing on the southern dock of the South Wharf. He is part of the [[Fishing Association]].
+
+He sells a [[Furnishing Blueprint|Furnishing blueprint]], the fishing rod "[[Wishmaker]]" and a [[Fishing Line Stabilizer|fishing line stabilizer]].
 
 ==Shop==
 {{Shop/Header|currency=Fish|vendor=Jiawei}}
-{{Shop|Pool of Sapphire Grace|specific=Blueprint: Pool of Sapphire Grace|{{Card|Medaka|10}}|1|blueprint=1}}<!--Furnishing Blueprint-->
-{{Shop|Wishmaker|{{Card|Medaka|20}}{{Card|Sweet-Flower Medaka|20}}{{Card|Betta|20}}{{Card|Brown Shirakodai|20}}|1}}<!--Fishing Rod-->
-{{Shop|Fishing Line Stabilizer|{{Card|Medaka|3}}|1}}<!--Gadget-->
+{{Shop|Pool of Sapphire Grace|specific=Blueprint: Pool of Sapphire Grace|Medaka*10|1|blueprint=1}}<!--Furnishing Blueprint-->
+{{Shop|Wishmaker|Medaka*20;Sweet-Flower Medaka*20;Betta*20;Brown Shirakodai*20|1}}<!--Fishing Rod-->
+{{Shop|Fishing Line Stabilizer|Medaka*3|1}}<!--Gadget-->
 {{Shop/Footer}}
 
 ==Location==
@@ -32,9 +35,6 @@ NPC Location Jiawei Context.png|Additional context
 <!-- detailed story/lore information goes here -->
 ''(To be added.)''
 
-===Personality===
-''(To be added.)''
-
 ===Appearance===
 ''(To be added.)''
 
@@ -42,13 +42,13 @@ NPC Location Jiawei Context.png|Additional context
 {{Quests and Events}}
 
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 : {{DIcon|Idle}} A beautiful woman...
 :: {{A|VO Jiawei 01.ogg}} "The sea is like a beautiful woman: nice to see from time to time."
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Dialogue==
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Jiawei:''' Hmm. I made my wife some [[Squirrel Fish]] yesterday... How about some [[Black-Back Perch Stew]] today, then?
 ;(After completing [[Exploding Population]])
 :{{DIcon|Fishing Supplies}} I'd like to buy some fishing supplies.
@@ -67,7 +67,7 @@ NPC Location Jiawei Context.png|Additional context
 ::'''Jiawei:''' That was before I met her, of course, and I'm not going to delve into ancient history. Did you need something from me?
 :{{DIcon}} Goodbye.
 ::'''Jiawei:''' See you! May your catches ever swell in size.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -96,6 +96,7 @@ NPC Location Jiawei Context.png|Additional context
 ==Change History==
 {{Change History|2.1}}
 
+[[fr:Jiawei]]
 [[ja:嘉瑋]]
 [[pt-br:Jiawei]]
 [[ru:Цзя Вэй]]

@@ -1,45 +1,50 @@
-{{CustomTabs
-|tab1 = Overview
-|tab2 = List
-|tab3 = Comparison
-|tab4 = Menu
-|tab5 = Gallery
-}}
+{{CharacterSystemTabs}}
 __TOC__
 ==Character GIFs==
 {{#DPL:
-|namespace=
-|category=Playable Characters
-|redirects=include
-|nottitlematch=%Traveler%
-|include=%PAGE%,%PAGE%,%PAGE%,%PAGE%,%PAGE%
-|table=class="article-table sortable p-0" style="text-align: center",-,Character,Idle 1,Idle 2,Weapon Menu,Talent Menu
-|tablerow=style="padding:25px"{{!}}{{Character|%PAGE%|100}},&nbsp;[[File:Idle %PAGE% 1.gif|150px]]&nbsp;,&nbsp;[[File:Idle %PAGE% 2.gif|150px]]&nbsp;,&nbsp;[[File:Weapon Menu %PAGE%.gif|150px]]&nbsp;,&nbsp;[[File:Talent Menu %PAGE%.gif|150px]]&nbsp;
-|ordermethod=title
-|allowcachedresults=true
+|namespace     = 
+|category      = Playable Characters
+|redirects     = include
+|nottitlematch = %Traveler%
+|include       = %PAGE%,%PAGE%,%PAGE%,%PAGE%,%PAGE%,%PAGE%
+|table         = class="article-table sortable p-0 align-center",-,Character,Idle 1,Idle 2,Weapon Menu,Talent Menu,Party Setup
+|tablerow      = <!--
+-->style="padding: 25px"¦{{Character|%PAGE%|100}}<!--
+-->,²{#ifeq:%PAGE%¦Furina¦[[File:Idle %PAGE% Ousia 1.gif|150px]][[File:Idle %PAGE% Pneuma 1.gif|150px]]¦[[File:Idle %PAGE% 1.gif|150px]]}²<!--
+-->,²{#ifeq:%PAGE%¦Furina¦[[File:Idle %PAGE% Ousia 2.gif|150px]][[File:Idle %PAGE% Pneuma 2.gif|150px]]¦[[File:Idle %PAGE% 2.gif|150px]]}²<!--
+-->,²{#ifeq:%PAGE%¦Furina¦[[File:Weapon Menu %PAGE% Ousia.gif|150px]][[File:Weapon Menu %PAGE% Pneuma.gif|150px]]¦[[File:Weapon Menu %PAGE%.gif|150px]]}²<!--
+-->,²{#ifeq:%PAGE%¦Furina¦[[File:Talent Menu %PAGE% Ousia.gif|150px]][[File:Talent Menu %PAGE% Pneuma.gif|150px]]¦[[File:Talent Menu %PAGE%.gif|150px]]}²<!--
+-->,²{#ifeq:%PAGE%¦Furina¦[[File:Party Setup %PAGE% Ousia.gif|150px]][[File:Party Setup %PAGE% Pneuma.gif|150px]]¦[[File:Party Setup %PAGE%.gif|150px]]}²
+|ordermethod   = title
 }}
 
 ==Outfit GIFs==
-{{Main|Character Outfits}}
+{{Main|Character Outfit}}
 {{#DPL:
-|namespace=
-|category=Outfits
-|notcategory=Default Outfits
-|notcategory=Upcoming Content
-|uses=Template:Outfit Infobox
-|include=%PAGE%,%PAGE%,%PAGE%,%PAGE%,%PAGE%
-|table=class="article-table sortable p-0" style="text-align: center",-,Outfit,Idle 1,Idle 2,Weapon Menu,Talent Menu
-|tablerow=style="padding:25px"{{!}}{{Outfit|%PAGE%|100}},&nbsp;[[File:Idle %PAGE% 1.gif|150px]]&nbsp;,&nbsp;[[File:Idle %PAGE% 2.gif|150px]]&nbsp;,&nbsp;[[File:Weapon Menu %PAGE%.gif|150px]]&nbsp;,&nbsp;[[File:Talent Menu %PAGE%.gif|150px]]&nbsp;
-|ordermethod=title
-|allowcachedresults=true
+|namespace   = 
+|category    = Outfits
+|notcategory = Default Outfits
+|notcategory = Upcoming Content
+|uses        = Template:Outfit Infobox
+|include     = %PAGE%,%PAGE%,%PAGE%,%PAGE%,%PAGE%,%PAGE%
+|table       = class="article-table sortable p-0 align-center",-,Outfit,Idle 1,Idle 2,Weapon Menu,Talent Menu,Party Setup
+|tablerow    = <!--
+-->style="padding:25px"¦{{Outfit|%PAGE%|100}}<!--
+-->,[[File:Idle %PAGE% 1.gif|150px]]<!--
+-->,[[File:Idle %PAGE% 2.gif|150px]]<!--
+-->,[[File:Weapon Menu %PAGE%.gif|150px]]<!--
+-->,[[File:Talent Menu %PAGE%.gif|150px]]<!--
+-->,[[File:Party Setup %PAGE%.gif|150px]]
+|ordermethod = title
 }}
 
 ==Character Talent GIFs==
-{{Main|Category:Talent GIFs}}
+{{Main|Category:Talent Preview GIFs}}
 
 [[Category:Game System Subpages]]
 [[Category:Media]]
 
 [[ja:キャラクター/ギャラリー]]
-[[tr:Karakterler/Galeri]]
+[[tr:Karakter/Galeri]]
+[[uk:Персонажі/Галерея]]
 [[vi:Nhân Vật/Thư Viện]]

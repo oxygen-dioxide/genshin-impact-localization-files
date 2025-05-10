@@ -1,4 +1,3 @@
-{{Stub|Missing requirement for the chest to appear<!--requires more than SoT7; likely some quest-->; infobox image}}
 {{Quest Infobox
 |id            = 73801
 |image         = World Quest The Price.png
@@ -8,8 +7,9 @@
 |act           = 
 |actNum        = 
 |part          = 
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
-|requirement   = Open a particular Common Chest in Port Ormos.
+|requirement   = 
+* Complete the {{Quest|The End of the Sabzeruz Festival}}
+* Open a particular Common Chest in Port Ormos.
 |characters    = Alexandra; Berat; Nika; Paimon; Przheva; Traveler
 |startLocation = [[Port Ormos]], [[Sumeru]]
 |region        = Sumeru
@@ -17,10 +17,7 @@
 |subarea       = Port Ormos
 |prev          = 
 |next          = 
-|mora          = 20,000
-|primogems     = 
-|other         = {{Card|Hero's Wit|3}}
-|exp           = 150
+|rewards       = Adventure EXP*150;Mora*20,000;Hero's Wit*3
 |rep           = Sumeru
 |repAmt        = 20
 |repOrder      = 494
@@ -28,10 +25,10 @@
 '''''The Price''''' is a [[World Quest]] in [[Port Ormos]], [[Sumeru]].
 
 ==Start Location==
-Start the quest by opening a [[Common Chest]] located on the back side of the roof of a building behind merchants [[Przheva]] and [[Alexandra]] in [[Port Ormos]].
+Start the quest by opening a [[Common Chest]] located on the back side of the roof of the inn behind merchants [[Przheva]] and [[Alexandra]] in Port Ormos.
 <gallery>
-The Price Map Location.jpg|Start Location
-The Price Location Context.jpg|Additional Context
+World Quest The Price Start Location.png|Start Location
+World Quest The Price Start Location Context.png|Additional Context
 </gallery>
 
 ==Steps==
@@ -40,18 +37,17 @@ The Price Location Context.jpg|Additional Context
 # Confront the [[Fatui]]
 # Investigate the ambush point
 # Investigate the call for help
-# Defeat the monsters
-#*{{Enemy|Winged Dendroshroom|x=1}}, {{Enemy|Floating Dendro Fungus|x=3}}
-# Talk to [[Alexandra]]
+# Defeat the monsters {{Enemy List|Winged Dendroshroom;Floating Dendro Fungus*3}}
+# Talk to Alexandra
 # Take [[Nika]] to [[The Eremites]]
 # Go back and check on Alexandra
 
 ==Gameplay Notes==
-After completing this quest, return to the starting location of the quest and take the [[Unsigned Note]] on the crate nearby. This grants the ''[[Wonders of the World]]'' achievement ''[[Date of Departure]]''.
+* After completing this quest, an [[Unsigned Note]] will appear on a crate near the starting location for the quest. Collecting the Unsigned Note awards the {{Achievement|Date of Departure}}.
 
 ==Dialogue==
-{{Quest Description|You meet two strange oddballs in Sumeru City...}}
-{{Dialogue start}}
+{{Quest Description|You notice two strange individuals in Port Ormos...}}
+{{Dialogue Start}}
 ;(Interact with Przheva or Alexandra before start of quest)
 :'''Przheva:''' ...Did you close that deal?
 :'''Alexandra:''' The old cargo ship has just been unloaded. Don't worry.
@@ -88,9 +84,7 @@ After completing this quest, return to the starting location of the quest and ta
 ;(Approach the marked location)
 :'''Paimon:''' The south of Devantaka Mountain... That's a huge area.
 :'''Paimon:''' The view is good here. Let's wait and see if there's anyone coming.
-
-:'''You wait here with Paimon...'''
-
+:{{Black Screen|You wait here with Paimon...}}
 :'''Paimon:''' Look... Somebody's coming this way!
 :'''Przheva:''' Why are you so late? Did you run into any trouble?
 :'''Alexandra:''' ...Sorry, someone must have opened the box. I'm afraid our plan...
@@ -186,7 +180,7 @@ After completing this quest, return to the starting location of the quest and ta
 :'''Przheva:''' Traveler, join me and defeat the monsters first!
 ----
 ;(Talk to Alexandra)
-:'''Alexandra:''' Sorry... ahem... [[Przheva]]...
+:'''Alexandra:''' Sorry... ahem... Przheva...
 :'''Przheva:''' Don't talk. I'll patch you up.
 :'''Nika:''' *sobbing*... I'm sorry...
 :{{DIcon}} Why are you here?
@@ -241,7 +235,7 @@ After completing this quest, return to the starting location of the quest and ta
 :'''Berat:''' Nika... and Traveler, what are you doing here?
 :{{DIcon}} Please take care of Nika!
 :{{DIcon}} Someone's under attack over there!
-:'''Paimon''' W&mdash;We are running out of time! Please watch Nika for a while!
+:'''Paimon:''' W&mdash;We are running out of time! Please watch Nika for a while!
 :'''Berat:''' What? What did you mean? Wait a moment!
 
 ;(Talk to Berat and Nika again)
@@ -270,9 +264,7 @@ After completing this quest, return to the starting location of the quest and ta
 :'''Berat:''' Nika, if I wasn't here alone, I promise I would search the whole forest out.
 :'''Berat:''' But there's only me here. The monsters are one thing, and what if there're other Fatui here...
 :'''Berat:''' Ahem, anyway... Traveler, I say we go back to the city first. I'll report this to my superior and follow his order.
-
-:'''Berat takes Nika and leaves...'''
-
+:{{Black Screen|Berat takes Nika and leaves...}}
 :'''Paimon:''' His response is just as Przheva expected...
 :'''Paimon:''' But did they... manage to get away?
 :'''Paimon:''' There's not much we can do now. Let's head back.
@@ -281,13 +273,13 @@ After completing this quest, return to the starting location of the quest and ta
 :;(Quest ends)
 ----
 ;(Interact with the letter where Alexandra and Przheva were in Port Ormos)
-:;(Obtain [[Unsigned Note]])
-:'''Paimon''' Look! There really is a letter here! Open it up!
-:'''Paimon''' "...The old ship left with a half-load of cargo..."
-:'''Paimon''' "...My sincere gratitude, Traveler."
-:'''Paimon''' That's all there is to the letter. They must've already left.
-:'''Paimon''' But where could they go in that old rustbucket?
-{{Dialogue end}}
+:;(Obtain {{Item|Unsigned Note|x=1}})
+:'''Paimon:''' Look! There really is a letter here! Open it up!
+:'''Paimon:''' "...The old ship left with a half-load of cargo..."
+:'''Paimon:''' "...My sincere gratitude, Traveler."
+:'''Paimon:''' That's all there is to the letter. They must've already left.
+:'''Paimon:''' But where could they go in that old rustbucket?
+{{Dialogue End}}
 
 ==Video Guide==
 {{EVT
@@ -316,7 +308,6 @@ After completing this quest, return to the starting location of the quest and ta
 |ja_rm   = Daika
 |ja_tl   = The Price
 |ko      = 대가
-|ko_rm   = Daega
 |ko_tl   = The Cost
 |es      = El precio
 |es_tl   = The Price

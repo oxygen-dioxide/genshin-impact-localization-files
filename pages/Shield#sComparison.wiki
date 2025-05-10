@@ -1,135 +1,195 @@
 {{CustomTabs
 |tab1 = Overview
 |tab2 = Comparison
-|tab3 = Enemy
-|tab4 = Shield Gauge Data
 }}
-Listed below is a comparison of character [[Talents]] that can provide [[Shields]]. The character shield strength, bonus, duration and cooldown are listed.
+Below is a comparison of all [[Talent]]s, [[Constellation]]s, and [[weapon]]s that can provide shields. Note that this page does not include [[Shield#Improving Shields|shield improvements]] for any character, including unconditional improvements from the same character's Talents or Constellations.
 
-{| class="article-table"
-|'''Character'''
-|'''Source'''
-|'''Strength<br />(Constant)'''
-|'''Strength<br />(Talent Lv. 6)'''
-|'''Strength<br />(Talent Lv. 10)'''
-|'''DMG Absorption'''
-|'''Duration<br />(seconds)'''
-|'''CD<br />(seconds)'''
+{| class="article-table fandom-table nowrap"
+!Character<br>or Weapon
+!Source
+!DMG Absorption
+!Duration<br>(s)
+!CD<br>(s)
+!Stackable
+!Target
 |-
-|rowspan=2|{{Character|Noelle|50}}
-|{{Talent|Breastplate|25|nobr=1}}<br />(Elemental Skill)
-|
-|224% DEF + 1219
-|288% DEF + 1694
-|150% against:<br />'''All DMG'''
+|{{Character|Baizhu|20|nobr=1}}
+|{{Talent|Holistic Revivification|20|nobr=1|text=Burst}}
+|'''0.8%–1.7%''' Max HP<br>+ '''77–212'''
+|2.5/14<br><ref group="Note" name="Baizhu">Shield lasts for 2.5s and refreshes every 2.5s during Pulsing Clarity, which lasts for 14s with 20s CD.</ref>
+|2.5/20<br><ref group="Note" name="Baizhu"/>
+|{{Check|no}}
+|Team
+|-
+|rowspan="2"|{{Character|Beidou|20|nobr=1}}
+|{{Talent|Tidecaller|20|nobr=1|text=Skill}}
+|'''14.4%–30.6%''' Max HP<br>+ '''1386–3812'''
+|—
+|7.5
+|{{Check|no}}
+|Self
+|-
+|{{Constellation|Sea Beast's Scourge|20|nobr=1|text=C1}}
+|'''16%''' Max HP
+|15
+|20
+|{{Check|no}}
+|Team
+|-
+|{{Character|Candace|20|nobr=1}}
+|{{Talent|Sacred Rite: Heron's Sanctum|20|nobr=1|text=Skill}}
+|'''12%–25.5%''' Max HP<br>+ '''1155–3178'''
+|—
+|6/9
+|{{Check|no}}
+|Self
+|-
+|{{Character|Citlali|20|nobr=1}}
+|{{Talent|Dawnfrost Darkstar|20|nobr=1|text=Skill}}
+|'''576%–1224%''' Elemental Mastery<br>+ '''1387–3814'''
+|20
+|16
+|{{Check|no}}
+|Team
+|-
+|{{Character|Diona|20|nobr=1}}
+|{{Talent|Icy Paws|20|nobr=1|text=Skill}}
+|'''7.2%–16.2%''' Max HP<br>+ '''693–2044'''
+|1.8–2.4<br>per Paw<br><ref group="Note">Fires 2 Paws if pressed and 5 Paws if held. Paws will only contribute to shield duration if they hit a target or the terrain.</ref>
+|6/15
+|{{Check|no}}
+|Team
+|-
+|{{Character|Kaeya|20|nobr=1}}
+|{{Constellation|Frozen Kiss|20|nobr=1|text=C4}}
+|'''30%''' Max HP
+|20
+|60
+|{{Check|no}}
+|Self
+|-
+|rowspan="2"|{{Character|Kirara|20|nobr=1}}
+|{{Talent|Meow-teor Kick|20|nobr=1|text=Skill}}
+|'''10%–21.25%''' Max HP<br>+ '''962–2646'''
+|12
+|8–12
+|{{Check|yes}}
+|Team
+|-
+|{{Talent|Bewitching, Betwitching Tails|20|nobr=1|text=A1}}
+|20%/40%/60% of<br>{{Talent|Meow-teor Kick|20|nobr=1|text=Skill}}
+|12
+|—
+|{{Check|yes}}
+|Team
+|-
+|{{Character|Lan Yan|20|nobr=1}}
+|{{Talent|Swallow-Wisp Pinion Dance|20|nobr=1|text=Skill}}
+|'''276.48%-587.52%''' ATK + '''1156-3178'''
+|12.5
+|16
+|{{Check|no}}
+|Team
+|-
+|{{Character|Layla|20|nobr=1}}
+|{{Talent|Nights of Formal Focus|20|nobr=1|text=Skill}}
+|'''10.8%–22.95%''' Max HP<br>+ '''1040–2860'''
+|12
+|12
+|{{Check|no}}
+|Team
+|-
+|rowspan="2"|{{Character|Noelle|20|nobr=1}}
+|{{Talent|Breastplate|20|nobr=1|text=Skill}}
+|'''160%–360%''' DEF<br>+ '''769–2271'''
 |12
 |24
+|{{Check|no}}
+|Team
 |-
-|{{Talent|Devotion|25|nobr=1}}<br />(1st Passive)
-|400% DEF
-|
-|
-|150% against:<br />'''All DMG'''
+|{{Talent|Devotion|20|nobr=1|text=A1}}
+|'''400%''' DEF
 |20
 |60
+|{{Check|no}}
+|Single
 |-
-|{{Character|Zhongli|50}}
-|{{Talent|Dominus Lapidis|25|nobr=1}}<br />(Elemental Skill)
-|
-|17.9% Max HP + 1951
-|23% Max HP + 2712
-|150% against:<br />'''All DMG'''
-|20
-|12
+|{{Character|Sigewinne|20|nobr=1}}
+|{{Constellation|"Can the Most Merciful of Spirits Defeat Its Foes?"|20|nobr=1|text=C2}}
+|'''30%''' Max HP
+|Up to 5.5<br><ref group="Note" name="Sigewinne">[[Rebound Hydrotherapy]] can be held up to about 4s, the shield lasts as long as it remains held. [[Super Saturated Syringing]] lasts 2.5s or 5.5s if C4 [["Can the Loveliest of Spirits Keep Decay at Bay?"]] is active, the shield lasts as long as the ability is active. Both abilities have 18s cooldowns. </ref>
+|18/18<br><ref group="Note" name="Sigewinne"/>
+|{{Check|no}}
+|Self
 |-
-| rowspan=2 | {{Character|Diona|50}}
-| rowspan=2 | {{Talent|Icy Paws|25|nobr=1}}<br />(Elemental Skill)
-| rowspan=2 |
-| rowspan=2 | 10.1% Max HP + 1097
-| rowspan=2 | 13% Max HP + 1524
-|250% against:<br />{{Color|Cryo DMG}}
-|4.8 (Press)
-|6 (Press)
-|-
-|(Hold) +75% against:<br />'''All DMG'''
-|12 (Hold)
-|15 (Hold)
-|-
-| rowspan=3 | {{Character|Xinyan|50}}
-| rowspan=3 | {{Talent|Sweeping Fervor|25|nobr=1}}<br />(Elemental Skill)
-|rowspan=3 |
-|Shield Lv. 1: 146% DEF + 793
-|Shield Lv. 1: 187% DEF + 1101
-| rowspan=3 | 250% against:<br />{{Color|Pyro DMG}}
-| rowspan=3 | 12
-| rowspan=3 | 18
-|-
-|Shield Lv. 2: 171% DEF + 932
-|Shield Lv. 2: 220% DEF + 1296
-|-
-|Shield Lv. 3: 202% DEF + 1097
-|Shield Lv. 3: 259% DEF + 1524
-|-
-|rowspan=2|{{Character|Beidou|50}}
-|{{Talent|Tidecaller|25|nobr=1}}<br />(Elemental Skill)
-|
-|20.2% Max HP + 2195
-|25.9% Max HP + 3050
-|250% against:<br />{{Color|Electro DMG}}
-|
-|7.5
-|-
-|{{Constellation|Sea Beast's Scourge|25|nobr=1}}<br />(Constellation Lv. 1)
-|16% Max HP
-|
-|
-|250% against:<br />{{Color|Electro DMG}}
-|15
-|20
-|-
-|rowspan=2|{{Character|Thoma|50}}
-|{{Talent|Blazing Blessing|25|nobr=1}}<br />(Elemental Skill)
-|
-|10.08% Max HP + 1097
-|12.96% Max HP + 1525
-|250% against:<br />{{Color|Pyro DMG}}
+|rowspan="2"|{{Character|Thoma|20|nobr=1}}
+|{{Talent|Blazing Blessing|20|nobr=1|text=Skill}}
+|'''7.2%–16.2%''' Max HP<br>+ '''693–2046'''
 |8
 |15
+|{{Check|yes}}
+|Team
 |-
-|{{Talent|Crimson Ooyoroi|25|nobr=1}}<br />(Elemental Burst)
-|
-|1.6% Max HP + 174.2<br />(per Fiery Collapse)
-|2.06% Max HP + 242<br />(per Fiery Collapse)
-|250% against:<br />{{Color|Pyro DMG}}
-|8
-|20
+|{{Talent|Crimson Ooyoroi|20|nobr=1|text=Burst}}
+|'''1.14%–2.6%''' Max HP<br>+ '''110–325'''
+|8/15<br><ref group="Note" name="Thoma">Shield lasts for 8s and can be refreshed every 1s during Scorching Ooyoroi, which lasts for 15s with 20s CD.</ref>
+|1/20<br><ref group="Note" name="Thoma"/>
+|{{Check|yes}}
+|Team
 |-
-|{{Character|Kaeya|50}}
-|{{Constellation|Frozen Kiss|25|nobr=1}}<br />(Constellation Lv. 4)
-|30% Max HP
-|
-|
-|250% against:<br />{{Color|Cryo DMG}}
-|20
-|60
+|{{Character|Traveler (Hydro)|20|nobr=1}}
+|{{Constellation|Pouring Descent|20|nobr=1|text=C4}}
+|'''10%''' Max HP
+|Up to 6<br><ref group="Note" name="Traveler (Hydro)">[[Aquacrest Saber]] can be held up to 6s and has a 10s CD, the shield lasts as long as it remains held and refreshes every 2s.</ref>
+|2/10<br><ref group="Note" name="Traveler (Hydro)"/>
+|{{Check|no}}
+|Self
 |-
-|{{Character|Yanfei|50}}
-|{{Constellation|Supreme Amnesty|25|nobr=1}}<br />(Constellation Lv. 4)
-|45% Max HP
-|
-|
-|250% against:<br />{{Color|Pyro DMG}}
+|{{Character|Yanfei|20|nobr=1}}
+|{{Constellation|Supreme Amnesty|20|nobr=1|text=C4}}
+|'''45%''' Max HP
 |15
 |20
+|{{Check|no}}
+|Team
 |-
-|{{Character|Layla|50}}
-|{{Talent|Nights of Formal Focus|25|nobr=1}}<br />(Elemental Skill)
-|
-|15.12% Max HP + 1646
-|19.44% Max HP + 2288
-|250% against:<br />{{Color|Cryo DMG}}
+|rowspan="3"|{{Character|Xinyan|20|nobr=1}}
+|rowspan="3"|{{Talent|Sweeping Fervor|20|nobr=1|text=Skill}}
+|L1: '''104.04%–234.1%''' DEF<br>+ '''501–1737'''
+|rowspan="3"|12
+|rowspan="3"|18
+|rowspan="3"|{{Check|no}}
+|rowspan="3"|Team
+|-
+|L2: '''122.4%–275.4%''' DEF<br>+ '''501–1737'''
+|-
+|L3: '''144%–324%''' DEF<br>+ '''693–2044'''
+|-
+|{{Character|Yun Jin|20|nobr=1}}
+|{{Talent|Opening Flourish|20|nobr=1|text=Skill}}
+|'''12%–25.5%''' Max HP<br>+ '''1155–3177'''
+|—
+|9
+|{{Check|no}}
+|Self
+|-
+|{{Character|Zhongli|20|nobr=1}}
+|{{Talent|Dominus Lapidis|20|nobr=1|text=Skill}}
+|'''12.8%–28.8%''' Max HP<br>+ '''1232–3636'''
+|20
 |12
-|12
+|{{Check|no}}
+|Team
+|-
+|colspan="2"|{{Item|The Bell|type=Weapon|20|nobr=1}}
+|'''20%–32%''' Max HP
+|10
+|45
+|{{Check|no}}
+|Self
 |}
+
+==Notes==
+{{Reflist|note=1}}
 
 [[Category:Lists]]

@@ -10,16 +10,20 @@
 |type     = Elite Enemies
 |family   = Mystical Beasts
 |group    = Vishaps
-|location = [[Minlin]], [[Liyue]]
+|location = [[Liyue]]
 |ability1 = Elemental Conversion
 }}
 {{Enemy Intro}}
+
+A pair of [[Local Legend]] Geovishaps, the '''Rulers of the Chizhang Mountains:''' '''Yiji''' and '''Tianyu''', can be found in [[Chizhang Wall]], [[Liyue]].
 
 ==Drops==
 ===Items===
 {{Drops Table|type=Vishaps}}
 
 ===Energy===
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div>
+====Normal====
 {{Energy Drops
 |type  = Geo
 |hp1   = 66
@@ -29,8 +33,27 @@
 |hp3   = 0
 |o3    = 1
 }}
+</div><!--
+--><div>
+====Local Legend====
+{{Energy Drops
+|type  = Cryo
+|type2 = Pyro
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 25
+|o4    = 1
+|p4    = 1
+}}
+</div></div>
 
 ==Stats==
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div style="width:min-content;">
+===Normal===
 {{Enemy Stats
 |phys_res = 30%
 |geo_res  = 50%
@@ -40,12 +63,43 @@
 |atk_ratio = 6
 |note      = The Geovishap gains '''20<nowiki>%</nowiki>''' RES to the absorbed element.
 }}
+</div><!--
+--><div style="width:min-content;">
+===Local Legend (Cryo)===
+{{Enemy Stats
+|phys_res = 30%
+|geo_res  = 50%
+|cryo_res = 70%
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+|hp_ratio     = 47.8
+|hp_type      = 2
+|atk_ratio    = 7
+|atk_type     = 2
+|hide_notes   = 1
+}}
+</div><!--
+--><div style="width:min-content;">
+===Local Legend (Pyro)===
+{{Enemy Stats
+|phys_res = 30%
+|geo_res  = 50%
+|pyro_res = 70%
+
+|hp_ratio     = 47.8
+|hp_type      = 2
+|atk_ratio    = 7
+|atk_type     = 2
+|hide_notes   = 1
+}}
+</div></div>
+
+==Abilities==
+''Most ability names are unofficial.''
+
+===Normal===
 {{Enemy Attacks
 |name_1 = Elemental Conversion
-|desc_1 = After reaching '''40%''' HP or after some time has passed, the Geovishap will infuse itself with either {{Cryo}}, {{Electro}}, {{Hydro}} or {{Pyro}}.
+|desc_1 = After reaching '''40%''' HP or after enough time has passed, the Geovishap will draw elemental energy from its environment to absorb either {{Cryo}}, {{Electro}}, {{Hydro}} or {{Pyro}}, gaining a persistent elemental aura and enhancing some of its attacks based on the element absorbed. In the overworld, the conversion is usually based on its surroundings; e.g a {{Pyro}} infusion if [[Flaming Flower]]s are nearby.
 |file_1 = Geovishap Infusion Cryo
 |caption_1 = Cryo
 |file_1_2 = Geovishap Infusion Pyro
@@ -56,11 +110,11 @@
 |caption_1_4 = Hydro
 
 |name_2 = Charge Attack
-|desc_2 = The Geovishap curls up into a ball and charges towards the player's location, dealing '''30% ATK''' as {{Color|Geo DMG}}. Subsequently, if this attack hits the player, it will perform a single jump attack, dealing '''85% ATK''' as {{Color|AoE Geo DMG}}. If the Geovishap crashes into a player protected by a shield, it will get knocked out of its rolling state and become stunned for a few seconds.
-* {{Cryo}}: DMG type converted to Cryo.
-* {{Pyro}}: DMG type converted to Pyro; Jump attack DMG increased to '''200% ATK'''.
-* {{Electro}}: DMG type converted to Electro.
-* {{Hydro}}: DMG type converted to Hydro.
+|desc_2 = The Geovishap curls up into a ball and charges towards the player's location, dealing '''30% ATK''' as {{Color|Geo DMG}}. Subsequently, if this attack hits the player, it will perform a single jump attack, dealing '''85% ATK''' as {{Color|Geo DMG}}. If the Geovishap crashes into a player protected by a shield, it will get knocked out of its rolling state and become stunned for a few seconds.
+* {{Cryo}}: Rolling DMG type converted to Cryo; Jump attack landing will create three ice mines around it. The mines will explode after a while or when a character comes into contact with them, dealing '''35% ATK''' as {{Color|Cryo DMG}}.
+* {{Pyro}}: Rolling and jump attack DMG type converted to Pyro; Jump attack DMG increased to '''100% ATK''' and summons spikes around it to deal '''70% ATK''' as {{Color|Pyro DMG}} in a ring-shaped AoE shortly after landing.
+* {{Electro}}: Rolling DMG type converted to Electro; Jump attack landing will send out three {{Electro}} orbs that fly around erratically for a few seconds before dissipating. Coming into contact with these orbs deals '''30% ATK''' as {{Color|Electro DMG}}.
+* {{Hydro}}: Rolling DMG type converted to Hydro. Jump attack landing visibly marks the player. The mark will follow the player for several seconds before becoming stationary, giving the player the opportunity to avoid the attack. It then explodes to deal '''25% ATK''' as {{Color|Hydro DMG}}.
 |file_2 = Geovishap Charge Attack Geo
 |caption_2 = Geo
 |file_2_2 = Geovishap Charge Attack Cryo
@@ -72,14 +126,14 @@
 |file_2_5 = Geovishap Charge Attack Hydro
 |caption_2_5 = Hydro
 |file_2_6 = Geovishap Stunned
-|caption_2_6 =Stunned
+|caption_2_6 = Stunned
 
 |name_3 = Jump Attack
-|desc_3 = The Geovishap will perform two jump attacks, jumping in the air and landing on the player's location, dealing '''40% ATK''' and '''60% ATK''' as {{Color|AoE Geo DMG}}. After this attack, it will temporarily be stunned for a couple seconds.
-* {{Cryo}}: After landing, several spots will appear on the ground near the Geovishap that will explode and deal '''35% ATK''' as {{Color|AoE Cryo DMG}} after a few seconds.
-* {{Pyro}}: DMG type converted to Pyro; DMG increased to '''50% ATK''' and '''70% ATK'''; Briefly after landing, summons spikes around it that deal '''70% ATK''' as {{Color|AoE Pyro DMG}}.
-* {{Electro}}: After landing, it sends out several {{Electro}} orbs that fly around for a few seconds before dissipating, coming into contact with these orbs will deal '''30% ATK''' as {{Color|Electro DMG}}.
-* {{Hydro}}: After landing, visibly marks the player. The mark will follow the player for several seconds before becoming stationary, giving the player the opportunity to avoid the attack, and then explodes dealing '''25% ATK''' as {{Color|AoE Hydro DMG}}.
+|desc_3 = The Geovishap will perform two jump attacks, jumping in the air and landing on the player's location, dealing '''40% ATK''' and '''60% ATK''' as {{Color|Geo DMG}}. After this attack, it will temporarily be stunned for a couple seconds.
+* {{Cryo}}: Each landing causes three ice mines to appear on the ground around the Geovishap. The mines explode after a while or when a character comes into contact with them, dealing '''35% ATK''' as {{Color|Cryo DMG}} after a few seconds.
+* {{Pyro}}: DMG type converted to Pyro; DMG increased to '''50% ATK''' and '''70% ATK'''; Briefly after landing, summons spikes around it that deal '''50% ATK''' and '''70% ATK''' as {{Color|Pyro DMG}} in ring-shaped AoEs around the landing area, respectively.
+* {{Electro}}: The first and second jump attacks will send 3 and 4 {{Electro}} orbs outward that fly around erratically for a few seconds before dissipating, respectively. Coming into contact with these orbs will deal '''30% ATK''' as {{Color|Electro DMG}}.
+* {{Hydro}}: After landing, visibly marks the player. The mark will follow the player for several seconds before becoming stationary, giving the player the opportunity to avoid the attack. It then explodes to deal '''25% ATK''' as {{Color|Hydro DMG}}.
 |file_3 = Geovishap Jump Attack Geo
 |caption_3 = Geo
 |file_3_2 = Geovishap Jump Attack Cryo
@@ -92,11 +146,11 @@
 |caption_3_5 = Hydro
 
 |name_4 = Slash and Punch
-|desc_4 = The Geovishap approaches the player and performs a slash with its right hand claws and then punch its left hand into the ground in front if it, dealing '''40% ATK''' and '''60% ATK''' as {{Color|Geo DMG}}.
-* {{Cryo}}: After the attack, several spots will appear on the ground near the Geovishap that will explode and deal '''35% ATK''' as {{Color|AoE Cryo DMG}} after a few seconds.
-* {{Pyro}}: DMG type converted to Pyro; DMG increased to '''50% ATK''' and '''60% ATK'''.
-* {{Electro}}: The punch will send out two {{Electro}} orbs that fly around for a few seconds before dissipating, coming into contact with these orbs will deal '''30% ATK''' as {{Color|Electro DMG}}.
-* {{Hydro}}: After the punch, visibly marks the player. The mark will follow the player for several seconds before becoming stationary, giving the player the opportunity to avoid the attack, and then explodes dealing '''25% ATK''' as {{Color|AoE Hydro DMG}}.
+|desc_4 = The Geovishap approaches the player, and then either performs a slash with its right hand claws or a slam where it will also drag its claw back towards itself, dealing '''50% ATK''' and '''40% ATK''' as {{Color|Geo DMG}}, respectively. The punch will also knock the player towards it. While infused with any element, the slash and punch will be performed in quick succession.
+* {{Cryo}}: After the punch, three ice mines will appear on the ground around the Geovishap. The ice mines will explode after a while or when a character comes into contact with them, '''35% ATK''' as {{Color|Cryo DMG}} after a few seconds.
+* {{Pyro}}: DMG type converted to Pyro; DMG increased to '''60% ATK''' and '''50% ATK'''.
+* {{Electro}}: The punch will send an {{Electro}} orb backwards and forwards that fly around erratically for a few seconds before dissipating. Coming into contact with these orbs will deal '''30% ATK''' as {{Color|Electro DMG}}.
+* {{Hydro}}: After the punch, visibly marks the player. The mark will follow the player for several seconds before becoming stationary, giving the player the opportunity to avoid the attack. It then explodes dealing '''25% ATK''' as {{Color|Hydro DMG}}.
 |file_4 = Geovishap Slash Geo
 |caption_4 = Geo (Slash)
 |file_4_2 = Geovishap Punch Geo
@@ -111,11 +165,11 @@
 |caption_4_6 = Hydro
 
 |name_5 = Spike Attack
-|desc_5 = The Geovishap will slam its right hand onto the ground sending out a line of small spikes coming out of the ground towards the player's location, and its left hand sending out another line of spikes, then with both hands sending out two lines. Each spike deals '''16.5% ATK''' as {{Color|AoE Geo DMG}}.
-* {{Cryo}}: A ring of spots appears around the Geovishap that will explode and deal '''35% ATK''' as {{Color|AoE Cryo DMG}} after a few seconds.
+|desc_5 = The Geovishap will perform a combo consisting of slams, first with its right hand, then its left, then both hands at once. Each slam will send out a line of spikes that chases the target. Each spike deals '''16.5% ATK''' as {{Color|Geo DMG}}.
+* {{Cryo}}: The first two slam attacks will cause three ice mines to appear on each of its sides, while the last will cause three ice mines to appear in front of it. The ice mines will explode after a while or when a character comes into contact with it, dealing '''35% ATK''' as {{Color|Cryo DMG}} after a few seconds.
 * {{Pyro}}: DMG type converted to Pyro; Spike DMG increased to '''25% ATK'''.
-* {{Electro}}: After the attack, several {{Electro}} orbs will be send out that fly around for a few seconds before dissipating, coming into contact with these orbs will deal '''30% ATK''' as {{Color|Electro DMG}}.
-* {{Hydro}}: Also visibly marks the player. The mark will follow the player for several seconds before becoming stationary, giving the player the opportunity to avoid the attack, and then explodes dealing '''25% ATK''' as {{Color|AoE Hydro DMG}}.
+* {{Electro}}: Each slam will send an {{Electro}} orb forwardthat flies around erratically for a few seconds before dissipating. Coming into contact with these orbs will deal '''30% ATK''' as {{Color|Electro DMG}}.
+* {{Hydro}}: Also visibly marks the player. The mark will follow the player for several seconds before becoming stationary, giving the player the opportunity to avoid the attack. It then explodes dealing '''25% ATK''' as {{Color|Hydro DMG}}.
 |file_5 = Geovishap Spike Attack Geo
 |caption_5 = Geo
 |file_5_2 = Geovishap Spike Attack Cryo
@@ -128,7 +182,7 @@
 |caption_5_5 = Hydro
 }}
 
-===AI Logic===
+====AI Logic====
 {{See also|Cooldown#Enemy Cooldowns}}
 * An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
@@ -154,23 +208,61 @@
 | Elemental Infusion || 0–99 || 1 || &mdash; || 30 || colspan="2" | &mdash; || {{check|no}} || {{check|yes}}
 |}
 
-==Strategy==
-Unlike [[Geovishap Hatchling]]s, Geovishaps do not have the ability to burrow themselves to avoid incoming attacks and are easier to hit. Geovishaps only deal {{Color|Geo DMG}} when unimbued.
+===Local Legend===
+{{Stub|Missing Local Legend attack GIFs}}
+====Shared====
+{{Enemy Attacks
+|name_1 = [[Paired Opponents|Revival]]
+|desc_1 = If one Geovishap's HP reaches '''1.2%''' and the other Geovishap is not defeated within the next 15 seconds, the defeated Geovishap will be revived with '''20%''' of its Max HP.
+}}
 
-As the fight progresses, the Geovishap will slam both of its fists into the ground and infuse itself with either {{Cryo}}, {{Electro}}, {{Hydro}} or {{Pyro}}. This infusion is always the same for each specific location, and hints can be provided for overworld Geovishaps with the surrounding area. Look out for nearby a [[Electro Crystal]], [[Flaming Flower Stamen|Flaming Flower]], [[Mist Flower Corolla|Mist Flower]], or bodies of water to determine the element it will obtain. The infusion makes the Geovishaps attacks deal DMG of said element, but it also permanently applies the same element onto them, allowing for a myriad of [[Elemental Reactions]] to be used for additional DMG.
+====Combo====
+{{Enemy Attacks
+|name_1 = Elemental Breath
+|desc_1 = Both Geovishaps leap to one side of the arena, dealing '''40% ATK''' as {{Color|Pyro DMG}} and {{Color|Cryo DMG}} on landing. They then unleash breaths of elemental energy, whilst arcing the attack in a cone-like area in front of itself, rapidly dealing '''40% ATK''' as {{Color|Pyro DMG}} and {{Color|Cryo DMG}} every '''0.1''' seconds.
 
-While the Geovishap is performing '''Charge Attack''', it may be stunned temporarily if it hits a player protected by a [[Shields|shield]].
+|name_2 = Rolling Charge
+|desc_2 = Both Geovishaps leap to one side of the arena, dealing '''40% ATK''' as {{Color|Pyro DMG}} and {{Color|Cryo DMG}} on landing. They then roar and curl up into balls to roll towards the player, dealing '''40% ATK''' as {{Color|Pyro DMG}} and {{Color|Cryo DMG}} on hit. If they hit a [[shield]]ed character while rolling, they will bounce off and become stunned for a few seconds.
+}}
 
-==Locations==
-The Geovishap can be found through the [[Adventurer Handbook]]. Keep in mind that they can often spawn with a [[Geovishap Hatchling]] nearby, so you may have to deal with that as well.
+====Pyro====
+{{Enemy Attacks
+|name_1 = Elemental Conversion
+|desc_1 = Infuses itself with Pyro immediately when in combat.
 
-They can also be found through "On the Hunt" challenges from the [[Vishaps and Where to Find Them]] event.
+|name_2 = Triple Smash
+|desc_2 = Smashes the ground with its hands three times, dealing '''50% ATK''', '''50% ATK''', '''75% ATK''' as {{Color|Pyro DMG}}.
+
+|name_3 = Slash and Pull
+|desc_3 = Performs a slash with its right hand, dealing '''40% ATK''' as {{Color|Pyro DMG}}, then punches its left hand into the ground and pulls it out, dealing '''50% ATK''' as {{Color|Pyro DMG}}. The 2nd hit will knock players towards the Geovishap.
+
+|name_4 = Leaping Smash
+|desc_4 = Leaps up and smashes down at the player, dealing '''100% ATK''' as {{Color|Pyro DMG}} but leaving itself stunned for a few seconds.
+}}
+
+====Cryo====
+{{Enemy Attacks
+|name_1 = Elemental Conversion
+|desc_1 = Infuses itself with Cryo immediately when in combat.
+
+|name_2 = Triple Smash
+|desc_2 = Smashes the ground with its hands three times, sending forward 1, 1, and 2 wave of icicles that spike from the ground, each dealing '''30% ATK''' as {{Color|Cryo DMG}}.
+
+|name_3 = Slash and Pull
+|desc_3 = Performs a slash with its right hand, dealing '''40% ATK''' as {{Color|Cryo DMG}}, then punches its left hand into the ground and pulls it out, dealing '''50% ATK''' as {{Color|Cryo DMG}}. The 2nd hit will knock players towards the Geovishap.
+
+|name_4 = Icicle Scatter
+|desc_4 = Fires 4 icicles in the player's general direction, each dealing '''30% ATK''' as {{Color|Cryo DMG}} on landing, and leaving behind an ice spike that detonates when the player comes in contact, dealing '''70% ATK''' as {{Color|Cryo DMG}}.
+}}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Geovishap}}
 
+==Tutorials==
+{{Tutorial|Geovishap}}
+
 ==Descriptions==
-{{Description|A mature Geovishap.<br />It is said that after many years have passed, [[Geovishap Hatchling]]s will shed the armor that originally protected them and become Geovishaps. However these two and the older, greater [[Primo Geovishap]]s have spent many years hibernating under the mountains and have only emerged and become active in recent times. As such, none can personally attest to have witnessed or recorded such a thing in person.|[[Adventurer Handbook]] and [[Archive]]}}
+{{Description|A mature Geovishap.<br>It is said that after many years have passed, [[Geovishap Hatchling]]s will shed the armor that originally protected them and become Geovishaps. However these two and the older, greater [[Primo Geovishap]]s have spent many years hibernating under the mountains, and have only emerged and become active in recent times. As such, none can personally attest to have witnessed or recorded such a thing in person.|[[Adventurer Handbook]] and [[Archive]]}}
 
 ==Trivia==
 * The name Geovishap derives from the Greek prefix {{wt|γῆ|geo-|Ancient_Greek}} and {{Lang|{{w|vishap}}|hy=վիշապ|hy_rm=vishap}}, a dragon in Armenian mythology.
@@ -188,31 +280,32 @@ Monster Geovishap Intro.png|Intro from [[Version 1.3]] Special Program
 |zhs_rm  = Yán Lóngxī
 |zht     = 岩龍蜥
 |zht_rm  = Yán Lóngxī
-|zh_tl   = Rock {{Lex|Vishap|zh}}
-|ja      = ヴィシャップ・{{Rubi|岩|いわ}}
+|zh_tl   = {{Lex|Geo|zh}} {{Lex|Vishap|zh}}
+|ja      = ヴィシャップ・岩
 |ja_rm   = Vishappu - Iwa
-|ja_tl   = Vishap - Geo
+|ja_tl   = Vishap - {{Lex|Geo|ja}}
 |ko      = 바위 {{tt|용|龍}} 도마뱀
-|ko_rm   = Bawi Yong Domabaem
-|ko_tl   = Rock {{Lex|Vishap|ko}}
+|ko_tl   = {{Lex|Geo|ko}} {{Lex|Vishap|ko}}
 |es      = Dragarto Geo
 |es_tl   = Geo {{Lex|Vishap|es}}
 |fr      = Géosaure
 |fr_tl   = Geosaurus
+|fr_note = From {{fr|Géo|Geo}} and {{fr|Élémentosaure|[[Vishap]]|elementosaurus.}}
 |ru      = Геовишап
 |ru_tl   = Geovishap
 |th      = Geovishap
 |vi      = Rồng Đất {{tt|Nham|岩}}
-|vi_tl   = Geo Ground {{Lex|Vishap|vi}}
+|vi_tl   = {{Lex|Geo|vi}} Ground {{Lex|Vishap|vi}}
 |de      = Geo-Drachenechse
 |de_tl   = Geo {{Lex|Vishap|de}}
 |id      = Geovishap
 |pt      = Dragarto Geo
 |pt_tl   = Geo {{Lex|Vishap|pt}}
 |tr      = Toprak Ejderi
-|tr_tl   = 
+|tr_tl   = Earth Dragon
 |it      = Geosauro
-|it_tl   = 
+|it_tl   = Geosaurus
+|it_note = From {{it|Geo|Geo}} and {{it|Elementosauro|[[Vishap]]|elementosaurus.}}
 }}
 
 ==Change History==
@@ -220,8 +313,11 @@ Monster Geovishap Intro.png|Intro from [[Version 1.3]] Special Program
 
 ==Navigation==
 {{Enemy Navbox|type=Elite}}
+{{Enemy Navbox|Special}}
 
+[[de:Geo-Drachenechse]]
 [[es:Dragarto Geo]]
+[[fr:Géosaure]]
 [[ja:ヴィシャップ・岩]]
 [[pt-br:Dragarto Geo]]
 [[th:Geovishap]]

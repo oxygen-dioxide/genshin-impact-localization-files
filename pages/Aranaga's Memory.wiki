@@ -2,7 +2,6 @@
 |id            = 73056
 |image         = World Quest Aranaga's Memory.png
 |type          = World
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = [[Aranyaka]]: Part II - [[Dream Nursery]]
 |characters    = Aranaga; Khayyam; Paimon; Traveler
 |concurrent    = [[Aranakin's Old Friend]], [[Aragaru's Drawing]]
@@ -11,10 +10,7 @@
 |area          = Lokapala Jungle
 |subarea       = Mawtiyima Forest
 |next          = [[Memory's Final Chapter]]
-|exp           = 250
-|mora          = 30,000
-|primogems     = 30
-|other         = {{Card|Hero's Wit|3}}
+|rewards       = Adventure EXP*250;Primogem*30;Mora*30,000;Hero's Wit*3
 }}
 '''''Aranaga's Memory''''' is a World Quest in [[Mawtiyima Forest]], [[Sumeru]]. It is one of the three quests required to complete [[Memory's Final Chapter]].
 
@@ -38,7 +34,9 @@ Start the quest by talking to [[Khayyam]] (initially labeled as "???"), who is l
 -->
 ==Dialogue==
 {{Quest Description|You meet an old man named Khayyam in the forest. He seems to share a past with Aranara. It should do no harm to respond to his request for help...}}
-{{Dialogue start}}
+{{Dialogue Start}}
+;(Use [[Nahida]]'s [[All Schemes to Know]] on Khayyam, optional)
+:'''Khayyam:''' (Haha, the forest is reviving...)
 
 :'''???:''' Haha, interesting... That's really curious. It's reviving, the forest is... reviving...
 :'''Paimon:''' Hello, grandpa! Are you lost?
@@ -73,7 +71,7 @@ Start the quest by talking to [[Khayyam]] (initially labeled as "???"), who is l
 :'''Khayyam:''' Hmm... On second thought, maybe I do need your help.
 :'''Paimon:''' Mmhmm, Paimon told you so!
 :'''Khayyam:''' Hehe, please pardon me... But I haven't asked for your names.
-:{{DIcon}} Just call me (Traveler).
+:{{DIcon}} Just call me {{Traveler}}.
 :'''Paimon:''' And Paimon's Paimon! Paiii...monnn...!
 :'''Khayyam:''' Paimon? Paimon... Haha, that's an interesting name... You are the first human... Or fairy I know with the name.
 :'''Khayyam:''' Oh, apologies, apologies. I did not mean to offend you... I meant this little thing.
@@ -120,7 +118,7 @@ Start the quest by talking to [[Khayyam]] (initially labeled as "???"), who is l
 :'''Khayyam:''' ...
 :'''Khayyam:''' Haha... I almost forgot, I asked you to help me sample these newly-grown plants, not for chit-chat.
 :'''Khayyam:''' Please forgive this old man for talking too much nonsense. Let's continue.
-;(Obtain [[Rose Sprout]] ×1)
+;(Obtain {{Item|Rose Sprout}})
 
 ;(Investigate the south location)
 :'''Khayyam:''' Interesting... The plants here seem to be... reviving. So Mawtiyima is back in effect... Magical.
@@ -133,9 +131,12 @@ Start the quest by talking to [[Khayyam]] (initially labeled as "???"), who is l
 :{{DIcon}} Have you seen Aranara, too?
 :'''Khayyam:''' "Iram indeed is gone with all its Rose, and Jamshyd's Sev'n-ring'd Cup where no one Knows."
 :'''Khayyam:''' We should proceed to the next site.
-;(Obtain [[Rose Sprout]] ×1)
+;(Obtain {{Item|Rose Sprout}})
 
 :'''Khayyam:''' Here, here it is! Let's collect the samples right here! Pick some, but be careful!
+
+;(Use [[Nahida]]'s [[All Schemes to Know]] on Khayyam, optional)
+:'''Khayyam:''' (New plants are growing... and the forest is regaining vitality. This is great news!)
 
 ;(Talk to Khayyam)
 :'''Khayyam:''' The plants here are growing pretty nicely...
@@ -177,7 +178,7 @@ Start the quest by talking to [[Khayyam]] (initially labeled as "???"), who is l
 :{{DIcon}} They might have forgotten you.
 :'''Khayyam:''' I can't see them, either... I can't even believe in their existence. Maybe... they are just my childhood fantasies...
 :'''Khayyam:''' But I am not giving up. Take this to them, children... Before the day you can never meet, before the possibility of a miracle fades.
-;(Obtain [[Little Dried Flower]])
+;(Obtain {{Item|Little Dried Flower}})
 
 :'''Aranaga:''' Why come here, you two?
 :'''Paimon:''' Whoa!! Y&mdash;You scared Paimon!
@@ -200,9 +201,7 @@ Start the quest by talking to [[Khayyam]] (initially labeled as "???"), who is l
 :'''Aranaga:''' Really... are friends with me? Very important flower, why here, with you?
 :{{DIcon}} Uh...
 :{{DIcon}} It's a long story...
-
-:'''You explain all the adventures in detail to Aranaga, as well as how you saved Mawtiyima from The Withering.'''
-
+:{{Black Screen|You explain all the adventures in detail to Aranaga, as well as how you saved Mawtiyima from The Withering.}}
 :'''Aranaga:''' ...
 :'''Paimon:''' What about that? Rings a bell?
 :'''Aranaga:''' Don't understand, don't remember...
@@ -211,15 +210,13 @@ Start the quest by talking to [[Khayyam]] (initially labeled as "???"), who is l
 :{{DIcon}} That's not unexpected...
 :'''Aranaga:''' But, thank you. My garden, if remember. Please come.
 :'''Aranaga:''' Very important flower, will plant, Aranaga.
-
-:'''Aranaga leaves with the flower.'''
-
+:{{Black Screen|Aranaga leaves with the flower.}}
 :'''Paimon:''' Aranaga just... left.
 :{{DIcon}} Yeah, he left.
 ::'''Paimon:''' Well, Aranaga invited us to his garden, though... That means he didn't refuse to be friends with us, right? Let's pay him a visit sometime!
 :{{DIcon}} But he invited us.
 ::'''Paimon:''' Hmm... That's right. Let's visit Aranaga sometime, shall we?
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Trivia==
 * The poem Khayyam quotes is [https://rubaiyatdomarkhayyam.wordpress.com/2017/05/01/iram-is-gone-as-its-rose/ Quatrain 5] of the The Rubaiyat of Omar Khayyam. The poem talks about how the wealthy and beautiful city of Iram is now gone, and the treasured seven ring cup of King Jamshyd, the mythical ruler of a Persian Golden Age, is now missing, but vines continue to bear fruit and flowers continue to blossom.
@@ -251,7 +248,7 @@ Start the quest by talking to [[Khayyam]] (initially labeled as "???"), who is l
 |ru      = Воспоминания Аранаги
 |ru_tl   = Aranaga's Memories
 |th      = ความทรงจำของ Aranaga
-|th_rm   = 
+|th_rm   = Khwam-song-cham khong Aranaga
 |th_tl   = 
 |vi      = Hồi Ức Về Aranaga
 |vi_tl   = Memories of Aranaga
@@ -264,7 +261,7 @@ Start the quest by talking to [[Khayyam]] (initially labeled as "???"), who is l
 |tr      = Aranaga'nın Hatırası
 |tr_tl   = 
 |it      = I ricordi di Aranaga
-|it_tl   = 
+|it_tl   = Aranaga's Memories
 }}
 
 ==Change History==

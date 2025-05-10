@@ -1,6 +1,6 @@
 {{Quest Infobox
-|id            = 11015
-|image         = Archon Quest ICA1 Where the Heart Finds Rest.png
+|id            = 11015; 11017
+|image         = Archon Quest Where the Heart Finds Rest.png
 |type          = Archon
 |chapter       = Interlude Chapter
 |actNum        = I
@@ -13,11 +13,8 @@
 |subarea       = Mt. Tianheng
 |prev          = Bygones Times Like Dust Passing
 |domain        = Where the Heart Finds Rest (Domain)
-|exp           = 650
-|mora          = 23,425
-|primogems     = 60
-|other         = {{Card|Dragonheir's False Fin|2}}{{Card|Hero's Wit|2}}{{Card|Mystic Enhancement Ore|5}}
-|characters    = Baiwen; Beidou; Beisht; Changgui; Cloud Retainer; Ganyu <!-- cinematic -->; Hongfei; Keqing; Ningguang; Paimon; Shenhe; Shiyu; Traveler; Yongye; Yun Jin; Zhengmao; Zhicheng; Zhu Tao
+|rewards       = Adventure EXP*650;Primogem*60;Mora*23,425;Dragonheir's False Fin*2;Hero's Wit*2;Mystic Enhancement Ore*5
+|characters    = Baiwen; Beidou; Beisht; Changgui; Xianyun; Ganyu <!-- cinematic -->; Hongfei; Keqing; Ningguang; Paimon; Shenhe; Shiyu; Su Ding <!-- cinematic -->; Traveler; Yongye; Yun Jin; Zhengmao; Zhicheng; Zhu Tao
 |voiced        = yes
 }}
 {{TeyvatQuest|I|1|4}}
@@ -31,22 +28,20 @@
 # Head to the Jade Chamber to take part in the victory feast
 
 ==Gameplay Notes==
-* Completing the step Give the Wonder Cores and Adepti Sigils to the secretary grants the ''[[Wonders of the World]]'' Achievement ''[[Rise of the Jade Chamber]]''.
-* Completing the step Defeat Beisht grants the ''[[Wonders of the World]]'' achievement ''[[Majesty of the Deep]]''.
-* Completing the quest grants the ''[[Wonders of the World]]'' achievement ''[[The Crane Returns on the Wind (Achievement)|The Crane Returns on the Wind]]''.
+* Completing step 1 grants the {{Achievement|Rise of the Jade Chamber}}.
+* Completing step 3 grants the {{Achievement|Majesty of the Deep}}.
+* Completing the quest grants the {{Achievement|The Crane Returns on the Wind (Achievement)}}.
 
 ==Dialogue==
 {{Quest Description|The time when the Jade Chamber takes to the skies again is drawing closer. Who knows what will happen when it finally does?}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Baiwen)
 :{{A|vo shlq004 1 paimon 01.ogg}} '''Paimon:''' Ningguang's little secretary! We've found all the materials!
 :{{A|vo shlq004 1 baiwen 01.ogg}} '''Baiwen:''' Oh? Already?
 :{{A|vo shlq004 1 baiwen 02.ogg}} '''Baiwen:''' All three of you found them together? Okay, I see.
 :{{A|vo shlq004 1 baiwen 03.ogg}} '''Baiwen:''' The Wonder Cores and Adepti Sigils look good. It seems that we've found our winners.
-
-:'''Baiwen calls for the participants to gather...'''
-
-:{{A|vo shlq004 1 baiwen 04.ogg}} '''Baiwen:''' I hereby announce that the winners of this material procurement contest are (Traveler), [[Yun Jin]], and [[Beidou]]!
+:{{Black Screen|Baiwen calls for the participants to gather...}}
+:{{A|vo shlq004 1 baiwen 04.ogg}} '''Baiwen:''' I hereby announce that the winners of this material procurement contest are {{Traveler}}, [[Yun Jin]], and [[Beidou]]!
 :{{A|vo shlq004 1 hongfei 01.ogg}} '''Hongfei:''' What? It's over already? I haven't even found the Plaustrite yet!
 :{{A|vo shlq004 1 changgui 01.ogg}} '''Changgui:''' I can't believe it...
 :{{A|vo shlq004 1 zhicheng 01.ogg}} '''Zhicheng:''' *sigh* So close, but so far...
@@ -60,13 +55,12 @@
 :'''Baiwen:''' Want to go up to the Jade Chamber? Come with me, then.
 :{{DIcon}} Go.
 :{{DIcon}} Don't go.
-
-:'''Baiwan leads you to the Jade Chamber...'''
-{{Dialogue end}}
+:{{Black Screen|Baiwan leads you to the Jade Chamber...}}
+{{Dialogue End}}
 
 ----
 {{Quest Description|update|You head to the Jade Chamber at Ningguang's secretary's instruction. The lady herself seems to have been expecting you.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Ningguang)
 :{{A|vo shlq004 2 ningguang 01.ogg}} '''Ningguang:''' Combine the Adepti Sigils with the Wonder Cores and insert them into the Jade Chamber's control compartment.
 :{{A|vo shlq004 2 ningguang 02.ogg}} '''Ningguang:''' The construction of the new Jade Chamber is now officially complete. Once the tethers are released, it will soar into the sky.
@@ -78,9 +72,9 @@
 :{{A|vo shlq004 2 ningguang 06.ogg}} '''Ningguang:''' The Jade Chamber offers a splendid panoramic view of the mountains and the bustling city. It is fitting for the finest performance to be hosted in the heavens... I can think of no better stage for you than here, Ms. Yun.
 :{{A|vo shlq004 2 yunjin 02.ogg}} '''Yun Jin:''' Thank you, Lady Ningguang. Then I will prepare my props and other articles shortly. Please allow me to bring all these aboard the Jade Chamber.
 :{{A|vo shlq004 2 ningguang 07.ogg}} '''Ningguang:''' You're quite welcome. It's truly what a good opera deserves.
-:{{A|vo shlq004 2 yunjin 03.ogg}} '''Yun Jin:''' (Traveler), Shenhe, Paimon, I'll be leaving now. Do come and see my play when the time comes.
-:{{A|vo shlq004 2 ningguang 08.ogg}} '''Ningguang:''' You're next, (Traveler). What is your question?
-:{{A|vo shlq004 2 ningguang 09a.ogg}} {{A|vo shlq004 2 ningguang 09b.ogg}} '''Ningguang:''' I should clarify. I do not know your {{MC|sister's|brother's|mc=1}} whereabouts. So please, don't waste your question on this matter.
+:{{A|vo shlq004 2 yunjin 03.ogg}} '''Yun Jin:''' {{Traveler}}, Shenhe, Paimon, I'll be leaving now. Do come and see my play when the time comes.
+:{{A|vo shlq004 2 ningguang 08.ogg}} '''Ningguang:''' You're next, {{Traveler}}. What is your question?
+:{{A|vo shlq004 2 ningguang 09a.ogg}} {{A|vo shlq004 2 ningguang 09b.ogg}} '''Ningguang:''' I should clarify. I do not know your {{MC|sister|brother|mc=1}}'s whereabouts. So please, don't waste your question on this matter.
 :{{A|vo shlq004 2 paimon 02.ogg}} '''Paimon:''' Wow... You're a mind-reader, Ningguang! Oh well, guess Paimon will ask a question then!
 :{{A|vo shlq004 2 ningguang 10.ogg}} '''Ningguang:''' ...Managing a successful business is not as simple as you might think. Capital, connections, sensitivity to the trends, an instinct for what is a good opportunity... All of these traits are crucial.
 :{{A|vo shlq004 2 ningguang 11.ogg}} '''Ningguang:''' If you want to know how to make money, I will honor our agreement and give you an answer. But that is not to say that it will work for you.
@@ -91,7 +85,7 @@
 :{{A|vo shlq004 2 paimon 05.ogg}} '''Paimon:''' No more questions from us. [[Shenhe]], you got a question?
 :{{A|vo shlq004 2 shenhe 01.ogg}} '''Shenhe:''' Me?
 :{{A|vo shlq004 2 paimon 06.ogg}} '''Paimon:''' Yes! This was a group effort!
-:{{A|vo shlq004 2 shenhe 02.ogg}} '''Shenhe:''' Thank you... But I don’t have anything to ask.
+:{{A|vo shlq004 2 shenhe 02.ogg}} '''Shenhe:''' Thank you... But I {{sic|don’t}} have anything to ask.
 :{{A|vo shlq004 2 ningguang 14.ogg}} '''Ningguang:''' Are you sure? This is a once-in-a-lifetime opportunity. I'd urge you not to squander it.
 :{{A|vo shlq004 2 paimon 07.ogg}} '''Paimon:''' Yeah, just don't waste it! Hold on a second, Paimon can probably think of another one...
 :{{A|vo shlq004 2 shenhe 03.ogg}} '''Shenhe:''' Lady Ningguang... do you think I can ever fit in in Liyue Harbor?
@@ -108,15 +102,13 @@
 :{{A|vo shlq004 2 paimon 08.ogg}} '''Paimon:''' Come on, Beidou, it's your turn! Do you have a question for Ningguang?
 :{{A|vo shlq004 2 beidou 02.ogg}} '''Beidou:''' Me? Nah, I ain't got any questions. She forced me to help out, so I figured I may as well get involved with the contest.
 :{{A|vo shlq004 2 beidou 03.ogg}} '''Beidou:''' Ningguang, don't forget what we talked about.
-:{{A|vo shlq004 2 beidou 04.ogg}} '''Beidou:''' It's not gonna be easy to deal with. I don't think my fleet can take it on their own.
+:{{A|vo shlq004 2 beidou 04.ogg}} '''Beidou:''' It's not gonna be easy to deal with. I don't think my [[The Crux|fleet]] can take it on their own.
 :{{A|vo shlq004 2 ningguang 21.ogg}} '''Ningguang:''' Don't worry, I have made preparations. The wound dressings are ready and the [[Millelith]] have set up an ambush.
 :{{A|vo shlq004 2 beidou 05.ogg}} '''Beidou:''' Glad to hear it. Watch your back. Stay alert!
 :{{A|vo shlq004 2 paimon 09.ogg}} '''Paimon:''' Beidou, Ningguang, what are you talking about?
 :{{A|vo shlq004 2 ningguang 22.ogg}} '''Ningguang:''' You'll see when the Jade Chamber ascends. However... it's not the most pleasant topic of conversation. Maybe it's better that you don't know.
 ;(Beidou walks off)
-
-:'''Ningguang begins to prepare for lift-off...'''
-
+:{{Black Screen|Ningguang begins to prepare for lift-off...}}
 :{{A|vo shlq004 2 ningguang 23.ogg}} '''Ningguang:''' When I first set foot in the Jade Chamber, I stood at the edge of the platform and looked down upon Liyue Harbor far below.
 :{{A|vo shlq004 2 ningguang 24.ogg}} '''Ningguang:''' At that time, I dreamed that one day the Jade Chamber's shadow would be seen in all seven nations of [[Teyvat]].
 :{{A|vo shlq004 2 ningguang 25.ogg}} '''Ningguang:''' My wish has not changed to this very day. However, it is not only out of consideration for myself that I have built the Jade Chamber anew at this time.
@@ -125,7 +117,7 @@
 :{{A|vo shlq004 2 ningguang 28.ogg}} '''Ningguang:''' Let the ascension ceremony commence!
 
 ;(A cinematic plays)
-{{Cutscene Description|The Jade Chamber rises slowly into the sky before your eyes. But it is also at that moment that you notice a raging storm forming above the ocean surface in the distance. From beneath it emerges a colossal monster. According to Ningguang, the monster is Osial's wife - Beisht, the one who roams the oceans. Keqing and Beidou, who have been waiting, pounce on the opportunity and lead people to attack it. Wounded and thus angered, the monster summons a tsunami. Alarmed at the ominous turn of events, you draw your sword and charge toward Beisht - but then are knocked out by it. The looming danger reminds Shenhe of what happened to her  in her childhood. To protect you and everyone else there, she charges resolutely towards Beisht.}}
+{{Cutscene Description|The Jade Chamber rises slowly into the sky before your eyes. But it is also at that moment that you notice a raging storm forming above the ocean surface in the distance. From beneath it emerges a colossal monster. According to Ningguang, the monster is Osial's wife &mdash; Beisht, the one who roams the oceans. Keqing and Beidou, who have been waiting, pounce on the opportunity and lead people to attack it. Wounded and thus angered, the monster summons a tsunami. Alarmed at the ominous turn of events, you draw your sword and charge toward Beisht &mdash; but then are knocked out by it. The looming danger reminds Shenhe of what happened to her in her childhood. To protect you and everyone else there, she charges resolutely towards Beisht.}}
 :;(The iron tethers are released and the Jade Chamber floats into the skies)
 :;(As the Jade Chamber takes off, storms gather and a monster rises from a vortex in the sea)
 ::'''Ningguang:''' Right on cue
@@ -173,28 +165,28 @@
 :;(Guizhong Ballistas in Guyun Stone Forest fire projectiles at Beisht again)
 :;(Beisht dives back into the depths and Shenhe jumps into the vortex that forms)
 ;(Cinematic ends)
-{{Dialogue end}}
+{{Dialogue End}}
 
 {{Quest Description|update|To think that ocean still hid such a threat. Defeat her while she's still reeling from the Millelith's attacks!}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(In the domain)
 :{{A|vo shlq004 3 shenhe 01.ogg}} '''Shenhe:''' What are you doing here?
 :{{A|vo shlq004 3 paimon 01.ogg}} '''Paimon:''' We can't let you be the only one taking this risk!
 :{{A|vo shlq004 3 shenhe 02.ogg}} '''Shenhe:''' I hardly see this as a great risk. The people of Liyue Harbor are well-prepared and she is already badly injured. Only sheer willpower is keeping her alive.
 :{{A|vo shlq004 3 shenhe 03.ogg}} '''Shenhe:''' I may be nearing the end of my stamina, but in a fight to the death... I think I have the upper hand.
 :{{A|vo shlq004 3 paimon 02.ogg}} '''Paimon:''' We'll help, too!
-{{Dialogue end}}
+{{Dialogue End}}
 
 {{Quest Description|update|You have defeated Beisht and Liyue's seas are now at peace. Can the adepti rest easy now as well?}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After defeating Beisht)
 :{{A|vo shlq004 3 paimon 03.ogg}} '''Paimon:''' She's getting away! Shouldn't we go after her?
 :{{A|vo shlq004 3 shenhe 04.ogg}} '''Shenhe:''' This place is unstable. It is too risky to continue pursuing her.
 :{{A|vo shlq004 3 shenhe 05.ogg}} '''Shenhe:''' If the place collapsed, the consequences would be disastrous... Let's head back.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ----
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Leave the domain)
 :{{A|vo shlq004 4 shenhe 01.ogg}} '''Shenhe:''' ...
 :{{DIcon}} Are you alright?
@@ -245,11 +237,11 @@
 :{{A|vo dialog shlq004 keqing 02.ogg}} '''Keqing:''' But on hindsight, there were still flaws with our plan.
 :{{A|vo dialog shlq004 keqing 03.ogg}} '''Keqing:''' If we'd had more time, we could have built a barrier here to absorb the impact of the waves.
 :{{A|vo dialog shlq004 keqing 04.ogg}} '''Keqing:''' We must learn from this experience and never repeat the same mistakes again... We were fortunate to have your assistance this time. Thank you.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ----
 {{Quest Description|update|Ningguang would like to hold a banquet at the Jade Chamber. Yun Jin will debut her new opera here as well. Time to enjoy yourself!}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the tables)
 :{{A|vo shlq004 5 paimon 01.ogg}} '''Paimon:''' Wow... Everyone's already seated!
 :{{A|vo shlq004 5 paimon 02.ogg}} '''Paimon:''' It's Paimon's first time attending a banquet in the Jade Chamber! The food here looks amazing!
@@ -261,7 +253,7 @@
 :{{A|vo shlq004 5 shiyu 01.ogg}} '''[[Shiyu]]:''' Hey, look, Ms. Yun is going on stage!
 
 ;(A [[#Cutscene|cinematic]] plays)
-{{Cutscene Description|Yun Jin takes the stage and sings a verse from "The Divine Damsel of Devastation." This time - in contrast to her past performances - she spontaneously adds a few new lines to the end:"From the world she seems apart, but there are those who know her heart." May the divine damsel in the opera never be lonely again, just as the lyrics say.}}
+{{Cutscene Description|Yun Jin takes the stage and sings a verse from "The Divine Damsel of Devastation." This time &mdash; in contrast to her past performances &mdash; she spontaneously adds a few new lines to the end: "From the world she seems apart, but there are those who know her heart." May the divine damsel in the opera never be lonely again, just as the lyrics say.}}
 ::'''Yun Jin:'''
 ::([[#Cutscene Lyrics|Translated]]) Alas!
 ::Two loving souls by death cruelly parted
@@ -299,7 +291,7 @@
 :{{A|vo shlq004 5 shenhe 02.ogg}} '''Shenhe:''' Thank you. I think I've found the opportunity I needed to change.
 :{{A|vo shlq004 5 zhutao 03.ogg}} '''Zhu Tao:''' Ms. Yun... *hic*... Here you are, great to see ya.
 :{{A|vo shlq004 5 zhutao 04.ogg}} '''Zhu Tao:''' Huh? Hey, this young lady with the white hair looks like some kind of VIP. Yeah, that's it, like an adeptus.
-:{{A|vo shlq004 5 zhutao 05.ogg}} '''Zhu Tao:''' Wait, you're the girl from the opera, aren't you? The "divine damsel" herself! And look who else we have here, the illustrious (Traveler)! Well I'll be... this was definitely worth showing up for.
+:{{A|vo shlq004 5 zhutao 05.ogg}} '''Zhu Tao:''' Wait, you're the girl from the opera, aren't you? The "divine damsel" herself! And look who else we have here, the illustrious {{Traveler}}! Well I'll be... this was definitely worth showing up for.
 :{{A|vo shlq004 5 zhutao 06.ogg}} '''Zhu Tao:''' Lemme pull up a chair, alright? We'll all have a friendly chat, get better acquainted...
 :{{A|vo shlq004 5 shenhe 03.ogg}} '''Shenhe:''' ...
 :{{A|vo shlq004 5 shenhe 04.ogg}} '''Shenhe:''' Alternatively, you could leave us alone. That is, if you'd prefer to finish your drink via the orifice of your own choice...
@@ -330,7 +322,7 @@
 ;(Talk to Shiyu again)
 :{{A|vo dialog shlq004 shiyu 01.ogg}} '''Shiyu:''' I wonder when I'll be able to build a Jade Chamber of my own? *sigh* It'll take a lot more wealth than I have now.
 :{{A|vo dialog shlq004 shiyu 02.ogg}} '''Shiyu:''' But hey, you've gotta dream big. Who knows, if I keep working at it... Maybe one day.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Cutscene==
 <gallery>
@@ -341,9 +333,12 @@ Story Teaser- The Divine Damsel of Devastation - Genshin Impact
 {{Main|Devastation and Redemption}}
 {{Transclude|Devastation and Redemption|Lyrics}}
 
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
+
 ==Gallery==
 <gallery>
-Archon Quest ICA1 Where the Heart Finds Rest Victory Feast.png|Victory Feast
+Where the Heart Finds Rest Victory Feast.png|Victory Feast
 </gallery>
 
 ==Other Languages==
@@ -354,9 +349,9 @@ Archon Quest ICA1 Where the Heart Finds Rest Victory Feast.png|Victory Feast
 |zht     = 此心安處
 |zht_rm  = Cǐxīn ān chù
 |zh_tl   = Where the Heart Finds Rest
-|zhja_note = 此心安处 is derived from 此心安处是吾乡 "Where the heart finds rest is my hometown," from ''Dingfengbo &mdash; For Mr. Wang Dingguo's Concubine Yuniang Who Just Back from South Sea'' (定风波 ・ 南海归赠王定国侍人寓娘), a famous poem written by {{w|Su Shi}}.
+|zhja_note = {{zh|s=此心安处|t=此心安處}} is derived from {{zh|此心安处是吾乡|tl=Where the heart finds rest is my hometown,}} from {{zh|《定风波・南海归赠王定国侍人寓娘》|tl=Dingfengbo &mdash; For Mr. Wang Dingguo's Concubine Yuniang Who Just Back from South Sea,}} a famous poem written by {{w|Su Shi}}.
 |ja      = 心安らかな処
-|ja_rm   = Kokoro yasurakana sho
+|ja_rm   = Kokoro Yasuraka-na Sho
 |ja_tl   = Where the Heart Finds Rest
 |ko      = 마음이 편한 곳
 |ko_rm   = Ma'eum-i Pyeonhan Got
@@ -379,7 +374,7 @@ Archon Quest ICA1 Where the Heart Finds Rest Victory Feast.png|Victory Feast
 |pt      = Onde o Coração Descansa
 |pt_tl   = 
 |tr      = Yüreğin Huzur Bulduğu Yer
-|tr_tl   = 
+|tr_tl   = Where the Heart Finds Peace
 |it      = Il sollievo del cuore
 |it_tl   = 
 }}
@@ -389,7 +384,7 @@ Archon Quest ICA1 Where the Heart Finds Rest Victory Feast.png|Victory Feast
 
 ==Navigation==
 {{Archon Quest Navbox|chapter=Interlude Chapter}}
-[[Category:Archon Interlude Chapter]]
 
 [[es:Un lugar tranquilo]]
+[[ja:心安らかな処]]
 [[pt-br:Onde o Coração Descansa]]

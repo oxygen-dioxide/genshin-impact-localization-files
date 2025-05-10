@@ -1,48 +1,55 @@
-{{Status Infobox
-|type     = Climates
+{{Terminology Infobox
 |image    = Climate The Encroaching Dark.png
+|type     = Climates
 |event    = Three Realms Gateway Offering
-|effect   = 
-* {{Color|help|Current Corrosion Index: X}}
-* When the [[Bokuso Box]]'s Corrosion Resistance is lower than an area's Corrosion Intensity, your [[party]] will be exposed to Corrosion &mdash; which will accumulate over time and drain the energy of your Bokuso Box. The bigger the gap, the quicker Corrosion builds up and the energy depletes. Choose the {{Color|help|Recuperate}} option at the statue to clear the accumulated Corrosion.
-* Higher Corrosion Index decreases characters' Physical and All Elemental RES and also lowers the DMG they deal.
 }}
-'''The Encroaching Dark''' is a [[Climate]] affecting the [[Three Realms Gateway Offering]], an event map based on [[Enkanomiya]] with areas of varying Corrosion Intensity. When the Corrosion Resistance of the event gadget [[Bokuso Box]] is lower than the area's Corrosion Intensity, the player's party will accumulate Corrosion. (This is different from the [[Corrosion]] game mechanic.)
+'''The Encroaching Dark''' is a [[climate]] that appeared in the [[Three Realms Gateway Offering]] version of [[Enkanomiya]].
+
+==Overview==
+When the Corrosion Resistance of the event gadget [[Bokuso Box]] is lower than the area's Corrosion Intensity, the player's party will accumulate Corrosion, which debuffs the active character.{{verify|active character or entire party?}} (This is different from the [[Corrosion]] game mechanic.)
 
 ==Corrosion Index==
-The amount of Corrosion accumulated is termed Corrosion Index. The current Corrosion Index is displayed on the Special Environment icon for The Encroaching Dark next to the minimap. The icon will also turn from white to purple as the Corrosion Index rises and will pulse when the Corrosion Index is maxed.
+The amount of Corrosion accumulated is termed Corrosion Index. The current Corrosion Index is displayed on the [[Special Environment]] icon for The Encroaching Dark next to the [[minimap]]. The icon will also turn from white to purple as the Corrosion Index rises and will pulse when the Corrosion Index is maxed.
 
-The Corrosion Index starts at 0 and can reach a maximum of 100. A higher Corrosion Index weakens the character, with every 10 Corrosion Index lowering all RES and damage dealt by approximately 8% and an extra 8% penalty at 100 Corrosion Index.
-
-The exact debuff formula is as follows, where X = ceiling(Corrosion Index / 10) and Y = floor(Corrosion Index / 100) / 10:
-* Decrease Physical RES and all Elemental RES by (8 * X * (1+Y))%
-* Decrease damage dealt by (8 * X * (1+Y))%{{Verify}}
-Although these debuffs are applied at any Corrosion Index higher than 0, {{Verify|verify minimum Corrosion Index}} the downward arrows that indicate a debuff on the active character only appear at Corrosion Index 70 or higher.
-
-When the Corrosion Index reaches 70, the warning "Current {{Color|pyro|Corrosion Index}} is too high. Return to the statue to {{Color|pyro|Recuperate}} and clear Corrosion" is displayed. In addition, the edges of the player's view will darken, similar to the [[Out of Bounds]] effect, but players can continue to explore the area. The edges will continue to be dark even if the player returns to areas where Corrosion will not accumulate and will only be cleared when the player recuperates at the Statue of the Vassals.
+The Corrosion Index starts at 0 and can reach a maximum of 100. When the Corrosion Index reaches 70, the warning "Current {{Color|pyro|Corrosion Index}} is too high. Return to the statue to {{Color|pyro|Recuperate}} and clear Corrosion" is displayed. In addition, the edges of the player's view will darken, similar to the [[Out of Bounds]] effect, but players can continue to explore the area. The edges will continue to be dark even if the player returns to areas where Corrosion will not accumulate and will only be cleared when the player recuperates at the Statue of the Vassals.
 
 When the Corrosion Index reaches 70, 80, 90, and 100, or when the active character is switched or otherwise appears (such as after traveling via a [[Phase Gate]]) when the Corrosion Index is at least 70, a special sound effect will play.
 
-Upgrading the Bokuso Box increases its Corrosion Resistance.
+==Accumulation Rate==
+Upon entering an area where the Bokuso Box cannot prevent Corrosion, the difference between the Bokuso Box's Corrosion Resistance and the area's Corrosion Intensity is immediately added to the Corrosion that the player already accumulated naturally over time. The amount that was added may be cleared upon [[Fallen Character#Out of Bounds and Drowning|falling into the depths]] of the map or death.
 
-All accumulated Corrosion can be cleared by recuperating at the [[Statue of the Vassals]]. In certain cases, accumulated Corrosion can be partially cleared upon death.
+The larger the difference between the area's Corrosion Intensity and the Bokuso Box's Corrosion Resistance, the quicker the Corrosion Index increases, and the quicker the Bokuso Box energy decreases. The accumulation rate's formula is unknown, but it is not linear: The difference between the area's Corrosion Intensity and the Bokuso Box's Corrosion Resistance affects the Corrosion Index accumulation and the Bokuso Box energy depletion rates such that slightly decreasing the difference results in nearly no change if the difference is still too high and massive change if the difference is already low, similar to exponential functions.
 
-===Corrosion Accumulation===
-Upon entering an area where the Bokuso Box cannot prevent Corrosion, the difference between the Bokuso Box's Corrosion Resistance and the area's Corrosion Intensity is added to the Corrosion that the player already accumulated naturally over time. The amount that was added may be cleared upon death.
-
-The larger the difference between the area's Corrosion Intensity and the Bokuso Box's Corrosion Resistance, the quicker the Corrosion Index increases, and the quicker the Bokuso Box energy decreases. The exact formulas are unknown, but they are not linear; the difference between the area's Corrosion Intensity and the Bokuso Box's Corrosion Resistance affects the Corrosion Index and the Bokuso Box energy such that slightly decreasing the difference results in nearly no change if the difference is still too high and massive change if the difference is already low, similar to exponential functions.
-
-For player convenience, although the formulas are likely continuous and not piecewise, the difference between the current area's Corrosion Intensity and the Bokuso Box's Corrosion Resistance is categorized in one of three ways if Corrosion can accumulate:
+For player convenience, although the accumulation rate likely uses a single continuous formula and not a piecewise function, the difference between the current area's Corrosion Intensity and the Bokuso Box's Corrosion Resistance is categorized in one of three ways if Corrosion can accumulate:
 {| class="fandom-table"
 |-
-! Area Description !! Difference Range !! Estimated Rate of Corrosion !! Estimated Rate of Energy Depletion
+! Description !! Difference Range !! Rate of Corrosion !! Rate of Energy Depletion
 |-
-| The Encroaching Dark: Low<br />The Bokuso Box's energy will drain slowly || 1 to at least 15 {{Verify|threshold unknown}} || 1 per 20 to 120 seconds {{Verify|bounds unknown}} || 1 per 53 to 240 seconds {{Verify|bounds unknown}}
+| The Encroaching Dark: Low<br>The Bokuso Box's energy will drain slowly || 1 to at least 15 {{Verify|threshold unknown}} || 1 per 20 to 120 seconds {{Verify|bounds unknown}} || 1 per 53 to 240 seconds {{Verify|bounds unknown}}
 |-
-| The Encroaching Dark: Mid<br />The Bokuso Box's energy will drain at a moderate pace || No more than 28 to no less than 30 {{Verify|thresholds unknown}} || 1 per 6 seconds {{Verify|bounds unknown}} || 1 per 2.3 seconds {{Verify|bounds unknown}}
+| The Encroaching Dark: Mid<br>The Bokuso Box's energy will drain at a moderate pace || No more than 28 to no less than 30 {{Verify|thresholds unknown}} || 1 per 6 seconds {{Verify|bounds unknown}} || 1 per 2.3 seconds {{Verify|bounds unknown}}
 |-
-| The Encroaching Dark: High<br />The Bokuso Box's energy will drain quickly || 43+ {{Verify|threshold unknown}} || 1 per 0.9 to 2.9 seconds {{Verify|bounds unknown}} || 1 to 7 per second<!-- the box updated no more than once per second, so doing >1 per second might be necessary here --> {{Verify|bounds unknown}}
+| The Encroaching Dark: High<br>The Bokuso Box's energy will drain quickly || 43+ {{Verify|threshold unknown}} || 1 per 0.9 to 2.9 seconds {{Verify|bounds unknown}} || 1 to 7 per second<!-- the box updated no more than once per second, so doing >1 per second might be necessary here --> {{Verify|bounds unknown}}
 |}
+
+Upgrading the Bokuso Box increases its Corrosion Resistance, thus lessening the rates of Corrosion accumulation and Bokuso Box energy depletion. A sufficiently high Corrosion Resistance will prevent Corrosion accumulation entirely.
+
+==Debuff==
+A higher Corrosion Index weakens the character, with every 10 Corrosion Index lowering all RES and damage dealt by approximately 8% and an extra 8% penalty at 100 Corrosion Index as follows, where X = ceiling(Corrosion Index / 10) and Y = floor(Corrosion Index / 100) / 10:
+* Decrease Physical RES and all Elemental RES by (8 * X * (1+Y))%
+* Decrease damage dealt by (8 * X * (1+Y))%{{Verify}}
+Although these debuffs are applied at any Corrosion Index higher than 0, {{Verify|verify minimum Corrosion Index}} the downward arrows that indicate a debuff on the active character only appear when the Corrosion Index is 70 or higher.
+
+==Depletion==
+All accumulated Corrosion can be cleared by recuperating at the [[Statue of the Vassals]].
+
+In certain cases, accumulated Corrosion can be partially cleared upon [[Fallen Character#Out of Bounds and Drowning|falling into the depths]] of the map or death.
+
+==Description==
+{{Description|'''The Encroaching Dark...'''{{Verify}}
+* {{Color|help|Current Corrosion Index: X}}
+* When the [[Bokuso Box]]'s Corrosion Resistance is lower than an area's Corrosion Intensity, your [[party]] will be exposed to Corrosion &mdash; which will accumulate over time and drain the energy of your Bokuso Box. The bigger the gap, the quicker Corrosion builds up and the energy depletes. Choose the {{Color|help|Recuperate}} option at the statue to clear the accumulated Corrosion.
+* Higher Corrosion Index decreases characters' Physical and All Elemental RES and also lowers the DMG they deal.}}
 
 ==Other Languages==
 {{Other Languages
@@ -75,10 +82,6 @@ For player convenience, although the formulas are likely continuous and not piec
 |id_tl   = Eroding Darkness
 |pt      = Névoa Corrosiva
 |pt_tl   = 
-|tr      = 
-|tr_tl   = 
-|it      = 
-|it_tl   = 
 }}
 
 ==Change History==

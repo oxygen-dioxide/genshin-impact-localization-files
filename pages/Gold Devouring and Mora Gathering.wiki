@@ -1,5 +1,5 @@
 {{Quest Infobox
-|id            = 23001; 23003
+|id            = 23001; 23003; 23005
 |type          = Commission
 |image         = Commission Gold Devouring and Mora Gathering.png
 |npc           = Hatim
@@ -8,25 +8,25 @@
 |area          = Avidya Forest
 |subarea       = Sumeru City
 |characters    = Hatim; Paimon; Traveler
-|other         = * AR-Dependent Rewards
-*Additional Rewards:
-{{Card|Mora|8,888|caption=(if Hatim makes a fortune)}}
-*Completing the follow-up commission in which Hatim goes bargain-hunting grants the achievement ''[[When Wealth Comes A-Knockin']]''.
+|rewards       = Mora*8,888/if Hatim makes a fortune
+|otherRewards  = 
+* AR-Dependent Rewards
+* Completing the follow-up commission in which Hatim goes bargain-hunting grants the achievement ''[[When Wealth Comes A-Knockin']]''.
 * Completing the follow-up commission in which Hatim makes a fortune grants the achievement ''[[Kalimi's Fungus]]''.
 }}
 '''''Gold Devouring and Mora Gathering''''' is a [[Daily Commission]] that occurs in [[Sumeru City]], [[Sumeru]].
 
 ==Steps==
-There are five versions of this commission. The player gets the initial version the first time. Subsequent commissions seems to be randomly determined.
+There are five versions of this Commission. The player gets the initial version the first time. Subsequent Commissions seem to be randomly determined.
 
 ===Initial Version & Small Profit Version===
 # Talk to Hatim
 # Help Hatim select a Golden Dish
-#* Give him one [[Mora Meat]], [[Butter Chicken]], or [["Pile 'Em Up"]] (any quality).
+#* Give him one {{Item|Mora Meat}}, {{Item|Butter Chicken}}, or {{Item|"Pile 'Em Up"}} (any quality).
 
 ===Bargain-Hunting Version===
 # Talk to Hatim
-# Help Hatim prepare an [[Apple Cider]]
+# Help Hatim prepare an {{Item|Apple Cider}}
 
 ===Fortune Version===
 # Talk to Hatim
@@ -38,18 +38,29 @@ There are five versions of this commission. The player gets the initial version 
 # Talk to Hatim
 
 ==Gameplay Notes==
-* Completing the follow-up commission in which Hatim goes bargain-hunting grants the ''[[Wonders of the World]]'' achievement ''[[When Wealth Comes A-Knockin']]''.
-* Completing the follow-up commission in which Hatim makes a fortune grants the ''Wonders of the World'' achievement ''[[Kalimi's Fungus]]''.
-<!--apparently a suspicious dish can still prompt the successful follow-up; testing odds (and finding other versions) may be warranted-->
+* Before all achievements tied to this Commission are obtained, it will loop as follows:
+** Part 1 is the '''Initial Version'''. The type and quality of the dish do not affect the follow-up versions.<!--apparently a suspicious dish can still prompt the successful follow-up; testing odds (and finding other versions) may be warranted-->
+** Part 2 is one of the following versions: '''Total Loss''', '''Small Profit''', '''Bargain Hunting''', '''Fortune'''
+*** Finishing the '''Total Loss''' or '''Fortune''' versions sends the player back to Part 1 the next time this Commission appears.
+*** Finishing the '''Small Profit''' or '''Bargain Hunting''' versions or skipping any of these four versions keeps the player at Part 2 the next time this Commission appears.
+* Completing the follow-up Commission in which Hatim goes bargain-hunting grants the {{Achievement|When Wealth Comes A-Knockin'}}.
+* Completing the follow-up Commission in which Hatim makes a fortune grants the {{Achievement|Kalimi's Fungus}}.
+* After all achievements tied to this Commission are obtained, it can be received up to three times per Commission cycle and is divided into three parts as follows:
+** Part 1 is the '''Initial Version'''. The type and quality of the dish do not affect the follow-up versions.
+** Part 2 is one of the following versions: '''Total Loss''', '''Small Profit''', '''Bargain Hunting''', '''Fortune'''
+*** Finishing the '''Total Loss''' or '''Fortune''' versions ends the Commission series here, forcing a restart from the Initial Version in the next Commission cycle.
+*** Finishing the '''Small Profit''' and '''Bargain Hunting''' allows the player to continue to Part 3 in the same Commission cycle.
+** Part 3 is one of the following versions: '''Total Loss''', '''Fortune'''
+
 ==Rewards==
 {{Commission Rewards|full}}
 
-If Hatim makes a fortune in the follow-up commission, he will grant an additional 8,888 [[Mora]].
+If Hatim makes a fortune in the follow-up Commission, he will grant an additional 8,888 [[Mora]].
 
 ==Dialogue==
 ===Initial Commission===
 {{Quest Description|[[Hatim]], a rich fellow from Kalimi, seemed to be bothered by something...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Hatim, optional)
 :'''Hatim:''' (I will make a great profit this time!)
 
@@ -148,12 +159,12 @@ If Hatim makes a fortune in the follow-up commission, he will grant an additiona
 ::{{DIcon}} This seems like baseless nonsense...
 :'''Hatim:''' Hahaha! Strange or not, nonsense or not, any theory that makes me Mora is a good one.
 :'''Hatim:''' Okay, I'm ready to embrace my fortune. Wait for good news from me, Traveler!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Follow-up Commission===
 {{Quest Description|The day for Hatim to conduct some futures trading has arrived. What will he get from this trade?}}
 ====Bargain-Hunting Version====
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Hatim, optional)
 :'''Hatim:''' (Darn it! I must earn my Mora back...)
 
@@ -187,10 +198,10 @@ If Hatim makes a fortune in the follow-up commission, he will grant an additiona
 :'''Hatim:''' This is that tycoon's apple cider, yes? Ah, what an extraordinary aroma. It truly clears the mind!
 :'''Hatim:''' Great! This is the good stuff indeed. It shall surely bring about a shift in the market!
 :'''Hatim:''' I won't forget the help you two have given me! I'll see you around!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Fortune Version====
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Hatim, optional)
 :'''Hatim:''' (Capital, capital! I was right to do that, hahaha!)
 
@@ -217,7 +228,7 @@ If Hatim makes a fortune in the follow-up commission, he will grant an additiona
 :'''Hatim:''' Plus, institutions or individuals who specialize in raising slimes may arise, and they may continuously produce large quantities of Slime Condensate.
 :'''Hatim:''' When that time comes, the price of Slime Condensate might also go up...
 :'''Paimon:''' What!? It's just buying some Slime Condensate, how can things get so complicated...?
-:'''Paimon:''' P&mdash;Paimon'll just stick to getting (Traveler) to beat those Slimes up...
+:'''Paimon:''' P&mdash;Paimon'll just stick to getting {{Traveler}} to beat those Slimes up...
 :'''Hatim:''' What about you, Child of Fortune? Do you have any questions?
 :{{DIcon}} How did you come up with the idea of "Golden Dish"?
 :'''Hatim:''' Ha! You really are a Child of Fortune. Straight to asking about the key to wealth.
@@ -227,12 +238,11 @@ If Hatim makes a fortune in the follow-up commission, he will grant an additiona
 :{{DIcon}} Isn't this just what they call "peace of mind"...?
 :'''Hatim:''' Ah, enough of that! Come, eat, eat! Eat up! I'll be asking for your help more often in the future.
 :'''Hatim:''' Here! Try this [[Shawarma Wrap]]. It's Sumeru's special dish. You really must try it, hahaha...
-
-:'''You enjoy the delicious food with Hatim...'''
-{{Dialogue end}}
+:{{Black Screen|You enjoy the delicious food with Hatim...}}
+{{Dialogue End}}
 
 ====Total Loss Version====
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approaching the area where Hatim usually stands)
 :'''Paimon:''' Huh? Why isn't Hatim here...? Weird.
 :'''Paimon:''' He talked about some special "Wealth Spots" of him, didn't he? If Paimon's memory serves... these places are near the {{Color|buzzword|city gate}} and the {{Color|buzzword|exchange}}.
@@ -264,10 +274,10 @@ If Hatim makes a fortune in the follow-up commission, he will grant an additiona
 :'''Hatim:''' Hmph, it doesn't matter. I still have plenty of backup funds.
 :'''Hatim:''' Even if I don't have any Mora on hand, I still have working capital and assets elsewhere.
 :'''Hatim:''' Just you wait, Kalimi Exchange! I, Hatim, shall be back!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Small Profit Version====
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use Nahida's All Schemes to Know on Hatim, optional)
 :'''Hatim:''' (Capital, capital! I was right to do that, hahaha!)
 
@@ -288,7 +298,10 @@ If Hatim makes a fortune in the follow-up commission, he will grant an additiona
 ;(If a Suspicious dish is submitted)
 ::'''Hatim:''' This dish looks a little strange... Oh well, it matters not. Work calls me.
 ::'''Hatim:''' I can't thank you enough, Traveler! Hope we'll meet again.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Trivia==
+* Hatim's "Golden Dishes" may have been chosen in association with each nation's wealthiest character: [[Mora Meat]] is the base dish for [[Ningguang]]'s [[Qiankun Mora Meat]], [[Butter Chicken]] is the base dish for [[Dori]]'s [[Show Me the Mora|Show Me The Mora]], and [["Pile 'Em Up"]] is the base dish for [[Diluc]]'s {{LL|"Once Upon a Time in Mondstadt"|.}}
 
 ==Video Guides==
 {{EVT
@@ -332,7 +345,7 @@ If Hatim makes a fortune in the follow-up commission, he will grant an additiona
 |pt      = Devorando Ouro e Coletando Mora
 |pt_tl   = Devouring Gold and Collecting Mora
 |tr      = Altın Yutup Mora Biriktirmek
-|tr_tl   = 
+|tr_tl   = Gold Swallowing Mora Amassing
 |it      = Divorare oro e raccogliere Mora
 |it_tl   = 
 }}

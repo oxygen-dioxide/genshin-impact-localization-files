@@ -6,7 +6,6 @@
 |act           = King Deshret and the Three Magi
 |actNum        = IV
 |part          = 1
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Candace; Cyno; Dehya; Delavar; Engur; Isak; Jabari; Kazan; Makan; Paimon; Shani; Sharkan; Traveler; Uncle Anpu; Zaki
 |startLocation = [[Aaru Village]], [[Sumeru]]
@@ -15,9 +14,7 @@
 |subarea       = Aaru Village
 |prev          = The Four at Loggerheads
 |next          = Cry From the Eleazar Hospital
-|exp           = 900
-|mora          = 36,000
-|other         = {{Card|Adventurer's Experience|3}}{{Card|Mystic Enhancement Ore|6}}
+|rewards       = Adventure EXP*900;Mora*36,000;Hero's Wit*3;Mystic Enhancement Ore*6
 |voiced        = yes
 }}
 {{TeyvatQuest|title=The Missing Village Keepers|chapter=3|act=4|part=1}}
@@ -27,23 +24,23 @@
 # Follow [[Cyno]]
 # Follow [[Isak]]
 # Look for clues nearby
-#Talk to [[Cyno]]
+# Talk to Cyno
 # Go back to the village chief's house
 # Go to [[Caravan Ribat]]
 # Ask [[Dehya]]'s acquaintances for clues
 # Go to the place [[Zaki]] mentioned
 # Defeat the Radicals {{Enemy List|Treasure Hoarders: Scout*3;Eremite Ravenbeak Halberdier*2;Eremite Linebreaker*1}}
 # Talk to Dehya
-# Wait till the next morning (06:00 – 12:00)
+# Wait till the next morning (06:00&ndash;12:00)
 # Talk to Dehya
 # Talk to [[Candace]]
 
 ==Gameplay Notes==
-* Despite not being involved in this quest, [[Sabbah]] will prevent the player from proceeding in the quest in Step 2 if they have started and not completed the [[World Quest]] ''[[The Exile: Sprouting]]''.
+* Despite not being involved in this quest, [[Sabbah]] will prevent the player from proceeding in the quest in Step 2 if they have started and not completed the {{Quest|The Exile: Sprouting}}.
 
 ==Dialogue==
 {{Quest Description|Entrusted by Isak, a resident of Aaru village, you and Cyno begin looking for clues about the Village Keepers...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Kazan)
 :{{A|vo xmaq104 1 paimon 01.ogg}} '''Paimon:''' Excuse me, did you happen to see where the missing scholars went?
 :{{A|vo xmaq104 1 ghassan 01.ogg}} '''Kazan:''' You mean the [[Village Keepers]]? Hmm, let me think...
@@ -171,16 +168,16 @@
 :{{A|vo dialog xmaq104 isak 01.ogg}} '''Isak:''' *sigh* Where did Grandpa go... Please come home, Grandpa...
 
 ;(Observe tent, optional)
-:'''(Traveler):''' (Looks like someone has been living in here this entire time...)
+:'''{{Traveler}}:''' (Looks like someone has been living in here this entire time...)
 
 ;(Observe goods, optional)
-:'''(Traveler):''' (These are all daily necessities...)
+:'''{{Traveler}}:''' (These are all daily necessities...)
 
 ;(Observe cave, optional)
-:'''(Traveler):''' (It seems impossible to climb up from here...)
+:'''{{Traveler}}:''' (It seems impossible to climb up from here...)
 
 ;(Observe footprints, optional)
-:'''(Traveler):''' (These footprints are at least rather clear...)
+:'''{{Traveler}}:''' (These footprints are at least rather clear...)
 
 ;(Wait for Cyno to approach the footprints)
 :{{A|vo xmaq104 4 cyno 01.ogg}} '''Cyno:''' ...
@@ -224,9 +221,7 @@
 :{{A|vo xmaq104 5 paimon 03.ogg}} '''Paimon:''' We haven't seen him at all!
 :{{A|vo xmaq104 5 dehya 04.ogg}} '''Dehya:''' Huh, I saw him around the village entrance earlier and figured he was investigating with you... I guess he must have gone off on his own.
 :{{A|vo xmaq104 5 candace 03.ogg}} '''Candace:''' Did you find out anything useful?
-
-:'''You tell Candace and Dehya everything you've learned...'''
-
+:{{Black Screen|You tell Candace and Dehya everything you've learned...}}
 :{{A|vo xmaq104 5 candace 04.ogg}} '''Candace:''' I see. So, someone used a kind of incense to lead the exiled scholars away from the village...
 :{{A|vo xmaq104 5 dehya 05.ogg}} '''Dehya:''' The resurrection of King Deshret? First I've heard of it...
 :{{A|vo xmaq104 5 dehya 06.ogg}} '''Dehya:''' Far as I know, the kind of incense you just mentioned is only popular beyond the wall.
@@ -239,12 +234,12 @@
 :{{A|vo xmaq104 5 dehya 11.ogg}} '''Dehya:''' Didn't you say that the villager got his news from the tavern? Well, I also like to drink at the tavern, so I know a thing or two about these radicals he mentioned.
 :{{A|vo xmaq104 5 paimon 05.ogg}} '''Paimon:''' If Paimon remembers correctly, the leader of the Radicals is some guy called Delavar!
 :{{A|vo xmaq104 5 dehya 12.ogg}} '''Dehya:''' Ah yeah, Delavar the "Scar-Riddled Bandit," Engur the "Wide-Eyed Butcher," and Jabari the "Ducktail-Bearded Crook." The whole lot of 'em are known around these parts.
-:'''(Traveler):''' (I feel like I've heard these names somewhere before...)
+:'''{{Traveler}}:''' (I feel like I've heard these names somewhere before...)
 :{{A|vo xmaq104 5 dehya 13.ogg}} '''Dehya:''' These guys have one thing in common, and that's being broke. The rougher life gets, the more they wanna believe in King Deshret. Way they see it, King Deshret's resurrection is their only chance at overthrowing the Akademiya.
 :{{A|vo xmaq104 5 dehya 14.ogg}} '''Dehya:''' Throwing all of Sumeru into chaos is the only way to change the way of life here in the desert. Anyway, that's my guess why they've chosen to become radicals.
 :{{A|vo xmaq104 5 paimon 06.ogg}} '''Paimon:''' Dehya, you're amazing! You really know this place inside and out!
 :{{DIcon}} But Dehya, I...
-:'''(Traveler):''' (Huh? Dehya's winking at me... Maybe I should stay quiet for now?)
+:'''{{Traveler}}:''' (Huh? Dehya's winking at me... Maybe I should stay quiet for now?)
 :{{A|vo xmaq104 5 dehya 15.ogg}} '''Dehya:''' Hahaha, no merc can afford to slack off on gathering intelligence! Every Mora I've spent in the tavern has been a valuable investment.
 :{{A|vo xmaq104 5 cyno 03.ogg}} '''Cyno:''' Let's head out.
 :{{A|vo xmaq104 5 dehya 16.ogg}} '''Dehya:''' Now hold on. You're staying right here, Cyno.
@@ -252,7 +247,7 @@
 :{{A|vo xmaq104 5 dehya 17.ogg}} '''Dehya:''' Aaru Village is not a big place. Outsiders stand out here like a sore thumb. I'd bet word about you has already gotten out.
 :{{A|vo xmaq104 5 dehya 18.ogg}} '''Dehya:''' The desert is unforgiving, so the way of life here is also a lot tougher than on the other side of the wall. You survive on making connections out here.
 :{{A|vo xmaq104 5 dehya 19.ogg}} '''Dehya:''' Compared to you, mercs like me are just third-rate amateurs... I've got no actual fighting skills to speak of. But that also makes it a whole lot easier for me to gain the locals' trust.
-:'''(Traveler):''' (...?)
+:'''{{Traveler}}:''' (...?)
 :{{A|vo xmaq104 5 dehya 20.ogg}} '''Dehya:''' I need to go around and ask some questions, but it'll be difficult if you're with me.
 :{{A|vo xmaq104 5 cyno 05.ogg}} '''Cyno:''' Fine.
 :{{A|vo xmaq104 5 dehya 21.ogg}} '''Dehya:''' Good, then we've got a plan. The Traveler and Paimon will go to Caravan Ribat with me, and we'll try our best to figure out where the mad scholars have been taken. Cyno, you'll have to stay in the village and continue investigating on your own.
@@ -264,9 +259,9 @@
 :{{A|vo xmaq104 6 candace 02.ogg}} '''Candace:''' Ah, I see... Well, from the way you were staring out into the distance, I thought you might have been mulling over Dehya's words.
 :{{A|vo xmaq104 6 cyno 02.ogg}} '''Cyno:''' No. I'm used to being treated that way.
 :{{A|vo xmaq104 6 cyno 03.ogg}} '''Cyno:''' It's natural to fear strength. I take no objection to it.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Following the clues, Dehya proposed to go to Caravan Ribat to continue the investigation. She seems to have a plan, and all you need is implementation...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the entrance to Caravan Ribat)
 :{{A|vo xmaq104 6 paimon 01.ogg}} '''Paimon:''' Well, here we are again.
 :{{A|vo xmaq104 6 dehya 01.ogg}} '''Dehya:''' Sounds like you're starting to get familiar with the area.
@@ -348,9 +343,7 @@
 :{{A|vo xmaq104 9 dehya 06.ogg}} '''Dehya:''' That's what you thought, right?
 :{{A|vo xmaq104 9 zaki 02.ogg}} '''Zaki:''' Ugh, you lied in the village because you figured that we'd have people watching you...
 :{{A|vo xmaq104 9 dehya 07.ogg}} '''Dehya:''' And you were stupid enough to fall for it. I figured as much the first time we drank together. You all thought you were so smart. Pathetic.
-
-:'''With one swift kick, Dehya knocks Zaki unconscious.'''
-
+:{{Black Screen|{{A|vo xmaq104 9 zaki 03.ogg}} With one swift kick, Dehya knocks Zaki unconscious.}}
 :{{A|vo xmaq104 9 dehya 08.ogg}} '''Dehya:''' Okay, that should be all of 'em.
 :{{A|vo xmaq104 9 paimon 01.ogg}} '''Paimon:''' Whoa, so you've been planning this since we were in Aaru Village?
 :{{A|vo xmaq104 9 dehya 09.ogg}} '''Dehya:''' No task can be done without preparation. I just happened to notice a couple suspicious-looking people while you were out investigating.
@@ -374,7 +367,7 @@
 :{{A|vo xmaq104 9 dehya 18.ogg}} '''Dehya:''' Does that bother you?
 :{{DIcon}} I don't think you're that kind of person.
 :{{A|vo xmaq104 9 dehya 19.ogg}} '''Dehya:''' What makes you so sure?
-:{{DIcon}} Because even without an employer, you’re still helping us out.
+:{{DIcon}} Because even without an employer, {{sic|you’re}} still helping us out.
 :{{A|vo xmaq104 9 dehya 20.ogg}} '''Dehya:''' ...
 :{{A|vo xmaq104 9 paimon 09.ogg}} '''Paimon:''' Dehya, do you dislike the Dendro Archon like the other desert folk?
 :{{A|vo xmaq104 9 dehya 21.ogg}} '''Dehya:''' Heh, you two are pretty sharp. No, I don't have anything against the Dendro Archon.
@@ -505,7 +498,7 @@
 :{{A|vo dialog xmaq104 dehya 03.ogg}} '''Dehya:''' You have a strong sense of belonging here... I guess I'm the opposite. Mercs are stray dogs wherever they go.
 :{{A|vo dialog xmaq104 candace 03.ogg}} '''Candace:''' Dehya, don't say that. You can be a part of this community, too.
 :{{A|vo dialog xmaq104 dehya 04.ogg}} '''Dehya:''' Haha, thanks. I'll let you know when I feel like joining.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -532,14 +525,14 @@
 |th_tl   = 
 |vi      = Người Giữ Làng Mất Tích
 |vi_tl   = The Missing Village Keepers
-|de      = Der vermisste Dorfwächter ...
-|de_tl   = The Missing Village Guard ...
+|de      = Der vermisste Dorfwächter&nbsp;...
+|de_tl   = The Missing Village Guard...
 |id      = Penjaga Desa yang Hilang
 |id_tl   = The Lost Village Guard
 |pt      = O Guardião da Vila Desaparecido
 |pt_tl   = 
 |tr      = Kayıp Köy Korucuları
-|tr_tl   = 
+|tr_tl   = Lost Village Guards
 |it      = I Custodi scomparsi
 |it_tl   = 
 }}
@@ -549,4 +542,7 @@
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter III}}
+
 [[es:El guardián desaparecido]]
+[[ja:行方不明になったグラマパラ]]
+[[vi:Người Giữ Làng Mất Tích]]

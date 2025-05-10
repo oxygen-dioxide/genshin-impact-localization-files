@@ -1,16 +1,16 @@
+{{About|the [[Commission]]|the [[Quest Item]]|King of Invokations (Book)|additional information about the book series|Genius Invokation TCG/Lore#King of Invokations}}
 {{Quest Infobox
 |id            = 23033
 |type          = Commission
 |image         = King of Invokations.png
 |npc           = Fukumoto
-|summary       = 
 |startLocation = [[Sumeru City]], [[Sumeru]]
 |region        = Sumeru
 |area          = Avidya Forest
 |subarea       = Sumeru City
-|next          = 
+|next          = Next Time, On King of Invokations...
 |characters    = Fukumoto (King of Invokations); Traveler
-|other         = *AR-Dependent Rewards
+|otherRewards  = *AR-Dependent Rewards
 }}
 '''''King of Invokations''''' is a [[Daily Commission]] that occurs in [[Sumeru City]], [[Sumeru]].
 
@@ -28,18 +28,21 @@
 #Defeat all opponents {{Enemy List|Hydro Slime*3;Large Hydro Slime}}
 #Talk to Fukumoto
 
+==Gameplay Notes==
+* In the slime version of the commission, the slimes will be present at step 2. If they have already been defeated when step 3 is reached, they will respawn and must be defeated again.
+
 ==Rewards==
 {{Commission Rewards|full}}
 
 ==Dialogue==
 {{Quest Description|While in Sumeru, you bump into a novelist looking for inspiration.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Fukumoto, optional)
 :'''Fukumoto:''' (Fingers crossed it'll become a best-seller this time.)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Modeling Version===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Fukumoto)
 ;(If the commission has not been completed before)
 :;(If [[Come Try Genius Invokation TCG!]] has not been completed{{verify|is completion necessary?}})
@@ -55,7 +58,7 @@
 :;(If [[Come Try Genius Invokation TCG!]] has not been completed{{verify|is completion necessary?}})
 :::{{DIcon}} G&mdash;Genius Invokation?
 :::{{DIcon}} Card game?
-:::'''Fukumoto:''' You didn't know that? I'm surprised. Haven't you heard of that book I wrote, "King of Invokations"? It's one of the best sellers in Yae Publishing House!
+:::'''Fukumoto:''' You didn't know that? I'm surprised. Haven't you heard of that book I wrote, "[[King of Invokations (Book)|King of Invokations]]"? It's one of the best sellers in Yae Publishing House!
 :::'''Fukumoto:''' Uh... you didn't know that either? It's... It's alright. It doesn't matter!
 :::'''Fukumoto:''' In short, some guys in the [[Sumeru Akademiya]] invented a card game named [[Genius Invokation TCG]].
 :::'''Fukumoto:''' To promote the game, they asked me through Yae Publishing House to write a light novel based on its rules.
@@ -70,7 +73,7 @@
 :::'''Fukumoto:''' Thus, this is what I've come for today.
 :;(If [[Come Try Genius Invokation TCG!]] has been completed{{verify|is completion necessary?}})
 :::'''Fukumoto:''' This book I'm writing called "King of Invokations," you must've seen&mdash; no, heard of it, at least?
-:::'''Fukumoto:''' *sigh*... Nevermind. In short, some people in the Sumeru Akademiya invented a card game named Genius Invokation TCG.
+:::'''Fukumoto:''' *sigh*... Never mind. In short, some people in the Sumeru Akademiya invented a card game named Genius Invokation TCG.
 :::'''Fukumoto:''' To promote the game, they asked me through Yae Publishing House to write a light novel based on its rules.
 :::'''Fukumoto:''' However, those researchers haven't figured out the game rules themselves. Additionally, communications between Sumeru and Inazuma are very inefficient due to the greatness of distance. So, I've been having a tough time writing...
 :::'''Fukumoto:''' Fortunately, I got to finish the novel with the support of Yae Publishing House. The book sold well, and it drove the sales of Genius Invokation TCG as planned.
@@ -147,27 +150,41 @@
 :'''Fukumoto:''' I must return to the Akademiya and find a way to send these pictures back to Asagiri.
 :'''Fukumoto:''' I heard that Asagiri has been getting a lot of appointments recently. Haha, guess I'll have to grab myself a slot before her schedule's full.
 :'''Fukumoto:''' Hmm, this one is pretty good, so is that one...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Slime Version===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Fukumoto)
 :'''Fukumoto:''' Traveler! Nice to see you again. Thanks to your help last time, Asagiri went smoothly with her illustrations.
-:{{DIcon}} Glad I could help.
-:{{DIcon}} Are you still looking for inspiration today?
-:'''Fukumoto:''' Yes, the researchers are still going over the finer details of production at the Akademiya.
-:'''Fukumoto:''' Some have said that, since it's a new edition, the resource system should be innovative to ensure an experience that encourages creativity.
-:'''Fukumoto:''' Some said more budget should be spent on hiring artists as attractive card designs are crucial to the card game.
-:'''Fukumoto:''' And someone went even further, expecting a battle among all the researchers involved in the creation of Genius Invokation TCG.
-:'''Fukumoto:''' The winner gets a greater say in it. Well, I think it's just their excuse for playing Genius Invokation TCG.
-:'''Fukumoto:''' I could hardly understand anything that they were talking about, so I left saying I needed some inspiration.
-:'''Fukumoto:''' Could you model for me again, Traveler?
-:'''Fukumoto:''' I'm not asking for anything special this time. Just a quick showcase of your battle skills will do.
-:{{DIcon}} I thought you were writing a card game novel?
-:{{DIcon}} What does card game have to do with battle skills?
-:'''Fukumoto:''' Well, just so you know, there's not much of a market for plain card games now.
-:'''Fukumoto:''' Honestly, I think fighting in a card game is getting a bit tacky. I'm now devising a plot where my characters play cards while racing on horses.
-:'''Fukumoto:''' But I haven't decided on the reason they do that... So I guess I'll start with the scene where they turn a card game into a fight.
+;(If Genius Invokation TCG has not been unlocked yet){{verify}}
+::{{DIcon}} Glad I could help.
+::{{DIcon}} Are you still looking for inspiration today?
+::'''Fukumoto:''' Yes, the researchers are still going over the finer details of production at the Akademiya.
+::'''Fukumoto:''' Some have said that, since it's a new edition, the resource system should be innovative to ensure an experience that encourages creativity.
+::'''Fukumoto:''' Some said more budget should be spent on hiring artists as attractive card designs are crucial to the card game.
+::'''Fukumoto:''' And someone went even further, expecting a battle among all the researchers involved in the creation of Genius Invokation TCG.
+::'''Fukumoto:''' The winner gets a greater say in it. Well, I think it's just their excuse for playing Genius Invokation TCG.
+::'''Fukumoto:''' I could hardly understand anything that they were talking about, so I left saying I needed some inspiration.
+::'''Fukumoto:''' Could you model for me again, Traveler?
+::'''Fukumoto:''' I'm not asking for anything special this time. Just a quick showcase of your battle skills will do.
+::{{DIcon}} I thought you were writing a card game novel?
+::{{DIcon}} What does card game have to do with battle skills?
+::'''Fukumoto:''' Well, just so you know, there's not much of a market for plain card games now.
+::'''Fukumoto:''' Honestly, I think fighting in a card game is getting a bit tacky. I'm now devising a plot where my characters play cards while racing on horses.
+::'''Fukumoto:''' But I haven't decided on the reason they do that... So I guess I'll start with the scene where they turn a card game into a fight.
+;(If Genius Invokation TCG is unlocked){{verify}}
+::{{DIcon}} Glad I could help.
+::{{DIcon}} Are you here to look for inspiration today as well?
+::'''Fukumoto:''' That's right. To novelists like me, more material could never hurt!
+::'''Fukumoto:''' Sumeru is such an interesting place as well &mdash; I can't say I lack for new things to see, even now.
+::'''Fukumoto:''' If it wasn't for Asagiri's fragile constitution, I would have asked her to come to Sumeru to gather inspiration as well.
+::'''Fukumoto:''' Ahem. Anyway, let's talk business... Could you model for me again, Traveler?
+::'''Fukumoto:''' I'm not asking for anything special this time. Just a quick showcase of your battle skills will do.
+::{{DIcon}} Aren't you writing a card game novel?
+::{{DIcon}} What do card games have to do with battle skills?
+::'''Fukumoto:''' Well, just so you know, there's not much of a market for plain card games now.
+::'''Fukumoto:''' Honestly, even I think that fighting via card games is getting a bit tacky by this point. I'm now devising a plot where my characters play cards while racing on horses!
+::'''Fukumoto:''' But I haven't decided on the reason why they might even do that in the first place... So I guess I'll just have to start with a scene where a card game turns into a battle.
 :'''Fukumoto:''' I've found a nice spot for the setting. Let's get going then.
 ----
 ;(Go to the spot marked on the map)
@@ -184,16 +201,16 @@
 
 ;(Talk to Fukumoto after defeating the slimes)
 :'''Fukumoto:''' Excellent! This picture must be enough for Asagiri to draw a few more.
-:;(If Genius Invokation TCG is unlocked){{verify}}
+;(If Genius Invokation TCG is unlocked){{verify}}
 ::'''Fukumoto:''' Thank you, Traveler. Please, take these as your reward.
 ::'''Fukumoto:''' Once I finish my work... Well, perhaps we can have a little "duel" then!
-:;(If Genius Invokation TCG has not been unlocked yet){{verify}}
+;(If Genius Invokation TCG has not been unlocked yet){{verify}}
 ::{{DIcon}} I want to play Genius Invokation TCG.
 ::{{DIcon}} I'm excited about Genius Invokation TCG.
 ::'''Fukumoto:''' Hahaha... I'll convey this to the researchers.
 ::'''Fukumoto:''' But the researchers' work seems to be going so well that they can now make light of their discussions.
 ::'''Fukumoto:''' Unlike at the very beginning, well... when they argued for days on end...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -207,7 +224,6 @@
 |ja_rm   = "Shoukan Ou"
 |ja_tl   = "Summoner King"
 |ko      = 《소환왕》
-|ko_rm   = "Sohwanwang"
 |ko_tl   = "Summon King"
 |es      = «El rey invocador»
 |es_tl   = "The Invokation King"
@@ -227,7 +243,7 @@
 |pt      = Rei do Chamado Sagrado dos Sete
 |pt_tl   = 
 |tr      = Çağrıların Kralı
-|tr_tl   = 
+|tr_tl   = King of Summons
 |it      = Re delle Invokazioni
 |it_tl   = King of Invokations
 }}

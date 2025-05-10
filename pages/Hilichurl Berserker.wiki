@@ -24,16 +24,16 @@
 ==Stats==
 {{Enemy Stats|hp_ratio=1|atk_ratio=1.8|hp_type=1}}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1 = Hit and Run
 |file_1 = Hilichurl Berserker Rapid Swing Charge
-|desc_1 = Wildly swings its club around and charges straight towards the player. At the end of the charge, performs an extra powerful swing. The each of the charging swings and the final swing deals '''10% ATK''' and '''100% ATK''' respectively as {{Color|Pyro DMG}}. This attack is only used when the Hilichurl Berserker's club is ignited.
+|desc_1 = Wildly swings its club around and charges straight towards the player. At the end of the charge, performs an extra powerful swing. While ignited, each of the charging swings and the final swing deal '''10% ATK''' and '''100% ATK''' as {{Color|Pyro DMG}}, respectively. While extinguished, DMG type is converted to {{Color|Physical}} and final swing DMG is decreased to '''75% ATK'''. This attack is only used when the Hilichurl Berserker's club is ignited, though the club can still be extinguished while this attack is being used.
 
 |name_2 = Torch Strike
 |file_2 = Hilichurl Berserker Smack
-|desc_2 = Swings its club at the player once, dealing '''125% ATK''' as {{Color|Pyro DMG}} when ignited and {{Color|Physical DMG}} when extinguished.
+|desc_2 = Swings its club at the player once, dealing '''125% ATK''' as {{Color|Pyro DMG}} when ignited and '''100% ATK''' as {{Color|Physical DMG}} when extinguished.
 |caption_2 = Smack (Ignited)
 |file_2_2 = Hilichurl Berserker Smack Extinguished
 |caption_2_2 = Smack (Extinguished)
@@ -44,15 +44,21 @@
 |caption_3 = Extinguish
 |file_3_2 = Hilichurl Berserker Ignite
 |caption_3_2 = Reignite
+
+|name_4 = Burning Damage Immunity
+|desc_4 = The Hilichurl Berserker is immune to damage dealt by the [[Burning]] Elemental Reaction (but not the reaction itself) and damage from burning [[grass]].
 }}
 
 ==Descriptions==
-{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br />These hilichurls wield flaming clubs and charge with reckless abandon to chase intruding adventurers off. Most wildfires in the grasslands or forests are not actually caused by a [[Klee|certain special Knight]], but due to the actions of these hilichurls.|[[Archive]]}}
+{{Description|The primitive wandering inhabitants of Teyvat's wildernesses.<br>These hilichurls wield flaming clubs and charge with reckless abandon to chase intruding adventurers off. Most wildfires in the grasslands or forests are not actually caused by a [[Klee|certain special Knight]], but due to the actions of these hilichurls.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
 Enemy Hilichurl Berserker Icon.png|Icon
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Video Guides==
 {{EVT
@@ -76,7 +82,7 @@ Enemy Hilichurl Berserker Icon.png|Icon
 |ko_tl   = Hilichurl Charger
 |es      = Hilichurl Berserker
 |fr      = Berserker Brutocollinus
-|fr_tl   = Hilichurl Berserker
+|fr_tl   = {{Lex|Hilichurl|fr}} Berserker
 |ru      = Хиличурл-берсерк
 |ru_tl   = Hilichurl Berserker
 |th      = Hilichurl Berserker
@@ -87,7 +93,7 @@ Enemy Hilichurl Berserker Icon.png|Icon
 |id      = Hilichurl Berserker
 |pt      = Hilichurl Berserker
 |tr      = Dağ Yabanisi Vahşi Savaşçısı
-|tr_tl   = 
+|tr_tl   = {{Lex|Hilichurl|tr}} Berserk Warrior
 |it      = Hilichurl berserker
 }}
 
@@ -99,6 +105,7 @@ Enemy Hilichurl Berserker Icon.png|Icon
 
 [[de:Hilichurl-Berserker]]
 [[es:Hilichurl Berserker]]
+[[fr:Berserker Brutocollinus]]
 [[ja:ヒルチャール・突進]]
 [[pt-br:Hilichurl Berserker]]
 [[th:Hilichurl Berserker]]

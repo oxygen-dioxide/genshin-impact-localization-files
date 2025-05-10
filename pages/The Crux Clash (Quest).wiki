@@ -2,6 +2,7 @@
 {{Quest Infobox
 |id            = 02001
 |title         = The Crux Clash
+|image         = Archon Quest The Crux Clash.png
 |type          = Archon
 |chapter       = II
 |actNum        = Prologue
@@ -13,9 +14,7 @@
 |subarea       = Guyun Stone Forest
 |prev          = A Path Through the Storm
 |next          = Follow the Wind
-|exp           = 750
-|mora          = 35,475
-|other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}
+|rewards       = Adventure EXP*750;Mora*35,475;Hero's Wit*3;Mystic Enhancement Ore*6
 |characters    = Beidou; Jinyou; Kaedehara Kazuha; Liang; Paimon; Rongshi; Traveler; Uncle Yun; Zhuhan
 |voiced        = yes
 }}
@@ -52,13 +51,11 @@
 ** The player may also level up their unaligned Normal Attack talent, [[Past Memories]]
 * Logging out in the middle of a fight or dying in a fight will bring the player back to the non-combat step prior to the fight (e.g. Speak to Zhuhan). If the player dies in a fight, they will revive at the nearest Teleport Waypoint as normal.
 * When a fight is ended by either logging out, dying, or winning, the Traveler will become aligned with {{Anemo}} even if they were previously aligned with another element.
-
-==Achievements==
-* Defeating [[Jinyou]] during the fight will grant the ''[[Wonders of the World]]'' achievement ''[[Ready, Fight!]]''.
+* Defeating [[Jinyou]] during the fight will grant the {{Achievement|Ready, Fight!}}
 
 ==Dialogue==
-{{Quest Description|After meeting some of the contestants, you reckon that this will be a milk run. Still, your ticket to [[Inazuma]] is at stake here. Best not to let your guard down during the tournament.<br /><br />After witnessing [[Rongshi]]'s abilities in the semi-finals, you decide that some preparation is in order before the final. After speaking with [[Beidou]] and [[Kazuha]], Kazuha invites you to join him elsewhere in Guyun Stone Forest for some additional instruction.}}
-{{Dialogue start}}
+{{Quest Description|After meeting some of the contestants, you reckon that this will be a milk run. Still, your ticket to [[Inazuma]] is at stake here. Best not to let your guard down during the tournament.<br><br>After witnessing [[Rongshi]]'s abilities in the semi-finals, you decide that some preparation is in order before the final. After speaking with [[Beidou]] and [[Kazuha]], Kazuha invites you to join him elsewhere in Guyun Stone Forest for some additional instruction.}}
+{{Dialogue Start}}
 ;(Talk to Zhuhan, if "Not quite" was chosen in the previous quest)
 :{{A|vo wylq001 14 zhuhan 01.ogg}} '''Zhuhan:''' You seem like you're raring to go. Are you ready to compete?
 :{{DIcon}} Yes, I'm ready.
@@ -73,31 +70,31 @@
 :{{A|vo wylq002 1 jinyou 01.ogg}} '''Jinyou:''' Y&mdash;You... You're the hero they're talking about?
 :{{A|vo wylq002 1 jinyou 02.ogg}} '''Jinyou:''' Argh! How am I supposed to win now!?
 ;(After defeating the first opponent)
-:{{A|vo wylq002 2 paimon 01.ogg}} '''Paimon:''' What a strange guy, why was he so confident to being with...?
+:{{A|vo wylq002 2 paimon 01.ogg}} '''Paimon:''' What a strange guy, why was he so confident to begin with...?
 :{{A|vo wylq002 2 paimon 02.ogg}} '''Paimon:''' Well, now that we've won, let's go and see Beidou. She'll probably have something to say to us.
 ----
 ;(Talk to Beidou or Kazuha)
 :{{A|vo wylq002 3 beidou 01.ogg}} '''Beidou:''' Hahaha, I knew I wouldn't regret introducing you as the favorite!
-:{{A|vo wylq002 3 beidou 02a.ogg}} {{A|vo wylq002 3 beidou 02b.ogg}} '''Beidou:''' So what do you think, Kazuha? {{MC|He|She|mc=1}} totally dominated that guy, and did it with style, too.
+:{{A|vo wylq002 3 beidou 02a.ogg}} {{A|vo wylq002 3 beidou 02b.ogg}} '''Beidou:''' So what do you think, Kazuha? {{MC|m=He|f=She}} totally dominated that guy, and did it with style, too.
 :{{A|vo wylq002 3 kazuha 01.ogg}} '''Kaedehara Kazuha:''' Impressive. But I also observed our favorite exercise some restraint, as if to protect the opponent from serious harm.
-:{{A|vo wylq002 3 beidou 03a.ogg}} {{A|vo wylq002 3 beidou 03b.ogg}} '''Beidou:''' Well, I've fought my fair share of battles, both big and small. And I say, after the show {{MC|he|she|mc=1}} put on just now, {{MC|he|she|mc=1}}'s more than convinced me of his ability.
+:{{A|vo wylq002 3 beidou 03a.ogg}} {{A|vo wylq002 3 beidou 03b.ogg}} '''Beidou:''' Well, I've fought my fair share of battles, both big and small. And I say, after the show {{MC|m=he|f=she}} put on just now, {{MC|m=he|f=she}}'s more than convinced me of {{MC|m=his|f=her}} ability.
 :{{A|vo wylq002 3 beidou 04.ogg}} '''Beidou:''' So come on, we all know you've got a wide vocabulary in there &mdash; can't you spare a word or two to congratulate our up-and-coming champion?
 :{{A|vo wylq002 3 kazuha 02.ogg}} '''Kaedehara Kazuha:''' Alright... Let me think how to aptly phrase these words of praise...
 :{{A|vo wylq002 3 kazuha 03.ogg}} '''Kaedehara Kazuha:''' ...You fought well.
 :{{A|vo wylq002 3 beidou 05.ogg}} '''Beidou:''' Ugh, alright then. I was thinking your inner poet might want to join in the fun, but... I guess I shouldn't put you on the spot like that.
 :{{A|vo wylq002 3 beidou 06.ogg}} '''Beidou:''' You know, a lot of competitors came to me saying how surprised they were that Liyue's hero was entering the tournament...
 :{{A|vo wylq002 3 beidou 07.ogg}} '''Beidou:''' ...And since you signed up, we've had many others do the same, with more than a few top-tier fighters among them. I'm sure lots of them are here to find out how they stack up against you.
-:{{DIcon}} Didn't know I was so popular.
+:{{DIcon}} Didn't know I was so popular...
 :{{DIcon}} I don't see what all the fuss is about.
-:{{A|vo wylq002 3 beidou 08.ogg}} '''Beidou:''' Haha, well, since everyone sees you as the one to beat, I figured I should start treating you that way too.
+:{{A|vo wylq002 3 beidou 08.ogg}} '''Beidou:''' Haha, well, since everyone sees you as the one to beat, I figured I should start treating you that way, too.
 :{{A|vo wylq002 3 beidou 09.ogg}} '''Beidou:''' For one thing, we don't want you wasting all your energy in the early rounds fighting people who are well below your level. Not to mention... you must be itching to fight someone in your league, too, right?
 :{{A|vo wylq002 3 beidou 10.ogg}} '''Beidou:''' So, I'm putting you straight through to the semi-finals!
-:{{A|vo wylq002 3 paimon 01.ogg}} '''Paimon:''' Huh? But we only just started on the qualifiers... Seems like a crazy system if we just skip straight to the semi-finals.
+:{{A|vo wylq002 3 paimon 01.ogg}} '''Paimon:''' Huh? But we only just started the qualifiers... Seems like a crazy system if we just skip straight to the semi-finals.
 :{{A|vo wylq002 3 kazuha 04.ogg}} '''Kaedehara Kazuha:''' This is how Captain Beidou works. You won't persuade her otherwise.
 :{{A|vo wylq002 3 kazuha 05.ogg}} '''Kaedehara Kazuha:''' Besides, at your level, you would have made it to the semi-finals anyway.
 :{{A|vo wylq002 3 paimon 02.ogg}} '''Paimon:''' Huh. To be fair, Paimon was thinking that too...
 :{{A|vo wylq002 3 beidou 11.ogg}} '''Beidou:''' Alright, I'm gonna watch some more of the tournament. If there's any potential contenders for you out there, I want to know who they are and what they're about.
-'''''After a long wait, your opponent in the semi-final is finally decided.'''''
+:{{Black Screen|After a long wait, your opponent in the semi-final is finally decided.}}
 :{{A|vo wylq002 3 beidou 12.ogg}} '''Beidou:''' We're finally here, folks! The real show is about to begin!
 :{{A|vo wylq002 3 kazuha 06.ogg}} '''Kaedehara Kazuha:''' Hehe... the captain seems to have high hopes for this tournament. I have not seen her so excited in quite some time.
 :{{A|vo wylq002 3 kazuha 07.ogg}} '''Kaedehara Kazuha:''' Your opponent has fought many rounds to get to the semi-finals. This makes him a seasoned warrior.
@@ -110,10 +107,9 @@
 ;(Talk to Zhuhan)
 :{{A|vo wylq002 4 zhuhan 01.ogg}} '''Zhuhan:''' Your opponent in the semi-finals is new to [[The Crux Clash]], but he has quickly become the dark horse of the tournament.
 :{{A|vo wylq002 4 zhuhan 02.ogg}} '''Zhuhan:''' I do not doubt your abilities, but I would suggest that you make sure you are fully prepared before you begin.
-:{{A|vo wylq002 4 paimon 01a.ogg}} {{A|vo wylq002 4 paimon 01b.ogg}} '''Paimon:''' Relax! My {{MC|guy|girl|mc=1}}'s at the top of {{MC|his|her|mc=1}} game, {{MC|he|she|mc=1}} ain't gonna lose!
+:{{A|vo wylq002 4 paimon 01a.ogg}} {{A|vo wylq002 4 paimon 01b.ogg}} '''Paimon:''' Relax! My {{MC|m=guy|f=girl}}'s at the top of {{MC|m=his|f=her}} game, {{MC|m=he|f=she}} ain't gonna lose!
 :{{DIcon}} I'm ready.
 ::{{A|vo wylq002 4 zhuhan 03a.ogg}} '''Zhuhan:''' Okay. Follow me.
-:;(Advance to the fight)
 :{{DIcon}} Interesting... getting a few butterflies over here.
 ::{{A|vo wylq002 4 zhuhan 03b.ogg}} '''Zhuhan:''' Don't worry, take some time to compose yourself.
 :;(Advance to the fight)<!-- yes, despite what Zhuhan says, this line still takes you to the fight -->
@@ -121,9 +117,9 @@
 ;(Upon starting the second fight)
 :{{A|vo wylq002 5 beidou 01.ogg}} '''Beidou:''' At last, the moment we've all been waiting for &mdash; the semi-finals have begun!
 :{{A|vo wylq002 5 beidou 02.ogg}} '''Beidou:''' Who's it going to be this time &mdash; the hero, or the dark horse?
-:{{A|vo wylq002 5 rongshi 01.ogg}} '''[[Rongshi]]:''' I don't care about the prize...
+:{{A|vo wylq002 5 rongshi 01.ogg}} '''Rongshi:''' I don't care about the prize...
 :{{A|vo wylq002 5 rongshi 02.ogg}} '''Rongshi:''' You're a strong opponent. That's what I'm here for.
-{{color|menu|The opponent proves surprisingly persistent. Faced with a less easy fight than anticipated, you have to get serious.}}
+:{{color|menu|The opponent proves surprisingly persistent. Faced with a less easy fight than anticipated, you have to get serious.}}
 
 ;(After defeating the second opponent)
 :{{A|vo wylq002 6 rongshi 01.ogg}} '''Rongshi:''' I'm sweating all over. It's a good feeling.
@@ -136,7 +132,7 @@
 :{{A|vo wylq002 6 rongshi 04.ogg}} '''Rongshi:''' But mine never came.
 :{{A|vo wylq002 6 rongshi 05.ogg}} '''Rongshi:''' I lost interest, eventually. You can't depend on a Vision like you can your own body.
 :{{A|vo wylq002 6 rongshi 06.ogg}} '''Rongshi:''' I've fought and won against Vision bearers before. The power they have was given to them by the gods. I don't envy it.
-:{{A|vo wylq002 6 paimon 03.ogg}} '''Paimon:''' Huh? You mean, you didn't sign up to try to get your hands on that Masterless Vision?
+:{{A|vo wylq002 6 paimon 03.ogg}} '''Paimon:''' Huh? You mean, you didn't sign up to try and get your hands on that Masterless Vision?
 :{{A|vo wylq002 6 rongshi 07.ogg}} '''Rongshi:''' No, I didn't. I only wanted to pit myself against other fighters and see who was the strongest.
 :{{A|vo wylq002 6 rongshi 08.ogg}} '''Rongshi:''' Only in defeat can you understand your weaknesses and learn from them. So, I'm pleased with today's outcome. I don't often have the pleasure of experiencing defeat.
 :{{A|vo wylq002 6 paimon 04.ogg}} '''Paimon:''' Wow... now that's true strength talking!
@@ -153,7 +149,7 @@
 ;(Talk to [[Uncle Yun]])
 :{{A|vo wylq002 8 uncleyun 01.ogg}} '''Uncle Yun:''' Ah, it's you, haha! I watched your match. What a stunning performance!
 :{{A|vo wylq002 8 uncleyun 02.ogg}} '''Uncle Yun:''' I myself was eliminated in the third round. *sigh* Shame... If only I could have advanced one more round...
-:'''Paimon:''' Ah, maybe next time, huh? By the way, do you happen to know who else advanced to the final round?
+:{{A|vo wylq002 8 paimon 01.ogg}} '''Paimon:''' Ah, maybe next time, huh? By the way, do you happen to know who else advanced to the final round?
 :{{A|vo wylq002 8 uncleyun 03.ogg}} '''Uncle Yun:''' Why, yes. He's the same one who defeated me. He is a formidable opponent, quick on his feet and swift to take advantage of his opponent's missteps.
 :{{A|vo wylq002 8 uncleyun 04.ogg}} '''Uncle Yun:''' I faltered for but a brief moment, but before I knew it, he had me on the floor.
 :{{A|vo wylq002 8 uncleyun 05.ogg}} '''Uncle Yun:''' Given my stature, I have no fear of squaring off with physically strong opponents. But faced with a nimble, agile opponent such as him... I found myself completely out of my league...
@@ -163,7 +159,7 @@
 :{{A|vo wylq002 9 uncleyun 01.ogg}} '''Uncle Yun:''' You've got nothing to worry about. Nobody here can stack up against the likes of you! No way...
 
 ;(Talk to [[Liang]])
-: {{A|vo wylq002 10 paimon 01.ogg}} '''Paimon:''' Hey there... uh, but where did the other guy go?
+:{{A|vo wylq002 10 paimon 01.ogg}} '''Paimon:''' Hey there... uh, but where did the other guy go?
 :{{A|vo wylq002 10 liang 01.ogg}} '''Liang:''' He tried to use force dispersal to deflect a punch, but instead he took it straight to the nose. There was blood all over the place...
 :{{A|vo wylq002 10 liang 02.ogg}} '''Liang:''' His opponent was pretty freaked out by it. He kept asking him "why didn't you dodge?" But he was pretty much out cold by that point and couldn't reply.
 :{{A|vo wylq002 10 liang 03.ogg}} '''Liang:''' "Why don't you dodge?" they ask... Because to not dodge is the very essence of [[Lingshan Clan]] kung fu. It's just that he hadn't quite mastered it yet.
@@ -192,15 +188,15 @@
 :{{A|vo wylq002 13 beidou 02.ogg}} '''Beidou:''' I guess not using your elemental powers must be quite new for you, huh?
 :{{DIcon}} It sure is.
 :{{DIcon}} Yeah, glad it's almost over!
-:{{A|vo wylq002 13 paimon 01.ogg}} '''Paimon:''' We wanted to ask about who our opponent will be in the final round. Do you think th ey'll be stronger than the one we faced in the semi-finals?
+:{{A|vo wylq002 13 paimon 01.ogg}} '''Paimon:''' We wanted to ask about who our opponent will be in the final round. Do you think they'll be stronger than the one we faced in the semi-finals?
 :{{A|vo wylq002 13 beidou 03.ogg}} '''Beidou:''' Not exactly. Contenders that reach the finals aren't necessarily "stronger," they tend to have something unique about their style.
-:{{A|vo wylq002 13 beidou 04.ogg}} '''Beidou:''' As for the guy you'll be facing, his skill lies in his speed, and he has superior form. It's also obvious that he's seen his fair shares of battles.
+:{{A|vo wylq002 13 beidou 04.ogg}} '''Beidou:''' As for the guy you'll be facing, his skill lies in his speed, and he has superior form. It's also obvious that he's seen his fair share of battles.
 :{{A|vo wylq002 13 beidou 05.ogg}} '''Beidou:''' What's the matter? Worried that you've bitten off more than you can chew this time?
 :{{DIcon}} Better to be safe than sorry.
 :{{DIcon}} It's vital that we make it to Inazuma.
-:{{A|vo wylq002 13 kazuha 05.ogg}} '''Kaedehara Kazuha:''' If that is the case, then I have a proposal for you. Let's go somewhere a little quiet, shall we?
+:{{A|vo wylq002 13 kazuha 05.ogg}} '''Kaedehara Kazuha:''' If that is the case, then I have a proposal for you. Let's go somewhere a little quieter, shall we?
 :{{A|vo wylq002 13 kazuha 06.ogg}} '''Kaedehara Kazuha:''' I haven't properly introduced myself yet. In the land of Inazuma, I was a wandering samurai.
-:{{A|vo wylq002 13 paimon 02.ogg}} '''Paimon:''' Uh, yeah, we could tell that from your getup. But at the same time... When you talk, you don't really sound like someone who's used to waving a sword around.
+:{{A|vo wylq002 13 paimon 02.ogg}} '''Paimon:''' Uh, yeah, we could tell that from your getup. But at the same time... When you talk, you don't really sound like someone who's used to waving a sword around...
 :{{A|vo wylq002 13 kazuha 07.ogg}} '''Kaedehara Kazuha:''' It is true that I am versed both in literary and martial traditions. But on the straggling path of a wandering samurai, is there harm in acquiring a surplus skill?
 :{{A|vo wylq002 13 kazuha 08.ogg}} '''Kaedehara Kazuha:''' I do not mean to flaunt my martial prowess, but I myself have witnessed reputable fighters hailing from across the lands. I do possess some knowledge regarding your opponent's particular skillset.
 :{{A|vo wylq002 13 kazuha 09.ogg}} '''Kaedehara Kazuha:''' Given your talents, a few hints from me will be all that's necessary to bring your opponent down.
@@ -208,7 +204,7 @@
 :{{A|vo wylq002 13 kazuha 10.ogg}} '''Kaedehara Kazuha:''' Gathering intelligence is an essential part of any duel. You must know your enemy.
 :{{A|vo wylq002 13 kazuha 11a.ogg}}<!--{{A|vo wylq002 13 kazuha 11b.ogg}}--> '''Kaedehara Kazuha:''' Besides, our favorite here has fought many battles on their journey from Mondstadt. Such impressive feats require more than just bravery alone.
 :{{A|vo wylq002 13 paimon 03.ogg}} '''Paimon:''' You betcha!
-:{{A|vo wylq002 13 paimon 04.ogg}} '''Paimon:''' Huh, wait a second. We never told you that we've been to Mondstadt.
+:{{A|vo wylq002 13 paimon 04.ogg}} '''Paimon:''' Huh, wait a second. We never told you that we've been to Mondstadt!
 :{{A|vo wylq002 13 kazuha 12.ogg}} '''Kaedehara Kazuha:''' Hehe, does one not leave a trail when traveling through the wild? In return, nature also leaves its traces upon you.
 :{{A|vo wylq002 13 kazuha 13.ogg}} '''Kaedehara Kazuha:''' However, there is only so much that can be discerned from these traces. I sense that many things about you elude me still... These are the things I am curious to know about.
 :{{A|vo wylq002 13 kazuha 14.ogg}} '''Kaedehara Kazuha:''' Come with me. Some post-match entertainment is in order.
@@ -226,7 +222,7 @@
 :{{A|vo wylq002 15 kazuha 03.ogg}} '''Kaedehara Kazuha:''' That's right. If the other contenders were to catch wind of your elemental abilities, let's just say it would cause some unwanted misunderstandings.
 :{{A|vo wylq002 15 kazuha 04.ogg}} '''Kaedehara Kazuha:''' If I'm not mistaken, you share these considerations, given your reluctance to use elemental skills even in the heat of a match.
 :{{DIcon}} Yes, but how did you know?
-:{{A|vo wylq002 15 kazuha 05.ogg}} '''Kaedehara Kazuha:''' Hehe, when I talk about that which I see or hear in you, this is not poetic symbolism at play. I mean this things in the truest sense possible.
+:{{A|vo wylq002 15 kazuha 05.ogg}} '''Kaedehara Kazuha:''' Hehe, when I talk about that which I see or hear in you, this is not poetic symbolism at play. I mean these things in the truest sense possible.
 :{{A|vo wylq002 15 kazuha 06.ogg}} '''Kaedehara Kazuha:''' Since a young age, I have been attuned to the tidings of nature. I hear the breath of the wind and the whispers of the leaves.
 :{{A|vo wylq002 15 kazuha 07.ogg}} '''Kaedehara Kazuha:''' It is things of this nature that I also hear from within you, nothing more.
 :{{A|vo wylq002 15 paimon 02.ogg}} '''Paimon:''' As crazy as all that sounds, somehow Paimon still believes you.
@@ -236,16 +232,16 @@
 :{{A|vo wylq002 15 paimon 03.ogg}} '''Paimon:''' Hey, stop evaluating us based on our smell! It's weird!
 :{{A|vo wylq002 15 kazuha 11.ogg}} '''Kaedehara Kazuha:''' Could you perchance enlighten me as to how you managed to obtain your combined elemental abilities?
 :{{DIcon}} I'm afraid I don't know either.
-:{{DIcon}} All I did was touch the Statue of The Seven.
+:{{DIcon}} All I did was touch a Statue of The Seven.
 :{{A|vo wylq002 15 kazuha 12.ogg}} '''Kaedehara Kazuha:''' Hmm, extraordinary.
 :{{A|vo wylq002 15 kazuha 13.ogg}} '''Kaedehara Kazuha:''' So then, might I be so bold as to inquire how exactly it is that you learned to channel elemental energy, and even wield it in combat?
 :{{DIcon}} It's all thanks to Paimon's knowledge.
 :{{DIcon}} It's all thanks to Paimon's companionship.
-:{{A|vo wylq002 15 paimon 04a.ogg}} {{A|vo wylq002 15 paimon 04b.ogg}} '''Paimon:''' Aw, it's nothing, really. Paimon just told {{MC|him|her|mc=1}} whatever came to mind.
-:{{A|vo wylq002 15 paimon 05a.ogg}} {{A|vo wylq002 15 paimon 05b.ogg}} '''Paimon:''' It's been a long journey, and many thing have happened along the way. Somehow, {{MC|he|she|mc=1}} just naturally learned to use the elements through it all...
+:{{A|vo wylq002 15 paimon 04a.ogg}} {{A|vo wylq002 15 paimon 04b.ogg}} '''Paimon:''' Aw, it's nothing, really. Paimon just told {{MC|m=him|f=her}} whatever came to mind.
+:{{A|vo wylq002 15 paimon 05a.ogg}} {{A|vo wylq002 15 paimon 05b.ogg}} '''Paimon:''' It's been a long journey, and many things have happened along the way. Somehow, {{MC|m=he|f=she}} just naturally learned to use the elements through it all...
 :{{A|vo wylq002 15 paimon 06.ogg}} '''Paimon:''' Honestly, even Paimon doesn't understand how it all works.
 :{{A|vo wylq002 15 kazuha 14.ogg}} '''Kaedehara Kazuha:''' Perhaps such unfathomable things are the essence of the gods and the Visions they grant.
-:{{A|vo wylq002 15 kazuha 15.ogg}} '''Kaedehara Kazuha:''' However, I still wish to have the honor of seeing how you wield the elements, perhaps it may reveal something to me.
+:{{A|vo wylq002 15 kazuha 15.ogg}} '''Kaedehara Kazuha:''' However, I still wish to have the honor of seeing how you wield the elements, perhaps it may yet reveal something to me.
 :{{A|vo wylq002 15 kazuha 16.ogg}} '''Kaedehara Kazuha:''' Of course, I too shall share with you all that I've learned. That will make it a fair exchange.
 :{{DIcon}} Fair enough.
 :{{DIcon}} Finally, a real battle.
@@ -272,9 +268,9 @@
 :{{A|vo wylq002 17 kazuha 11.ogg}} '''Kaedehara Kazuha:''' So that's what you're curious about? Haha, then allow me to tell you more.
 :{{A|vo wylq002 17 kazuha 12.ogg}} '''Kaedehara Kazuha:''' As you well know, a [[Vision Hunt Decree]] is currently underway in Inazuma.
 :{{A|vo wylq002 17 kazuha 13.ogg}} '''Kaedehara Kazuha:''' Visions are a gift bestowed by the divine. People that have accepted this gift are now having their Visions confiscated inexplicably, sometimes in circumstances that leave their original recipients dead.
-:{{A|vo wylq002 17 kazuha 14.ogg}} '''Kaedehara Kazuha:''' In the outset, supposing each of the [[The Seven|Seven Archons]] had their criteria for granting Visions to living beings &mdash; then, does the current Electro Archon now doubt these criteria, or even the act in and of itself?
+:{{A|vo wylq002 17 kazuha 14.ogg}} '''Kaedehara Kazuha:''' In the outset, supposing each of the [[Seven Archons]] had their criteria for granting Visions to living beings &mdash; then, does the current [[Ei|Electro Archon]] now doubt these criteria, or even the act in and of itself?
 :{{A|vo wylq002 17 kazuha 15.ogg}} '''Kaedehara Kazuha:''' Not to mention, with no new [[Electro]] Visions having been granted for such a long time, it would seem that we can infer something of the [[Raiden Shogun]]'s feelings on the matter...
-:{{A|vo wylq002 17 paimon 02.ogg}} '''Paimon:''' She sounds less like an [[archon]] and more like... a tyrant.
+:{{A|vo wylq002 17 paimon 02.ogg}} '''Paimon:''' She sounds less like an archon and more like... a tyrant.
 :{{A|vo wylq002 17 kazuha 16.ogg}} '''Kaedehara Kazuha:''' As far as I know, she is an archon that pursues "eternity." She will relentlessly carry out her will with no regard to what others may think or feel.
 :{{A|vo wylq002 17 kazuha 17.ogg}} '''Kaedehara Kazuha:''' Liyue's "contracts" are meant to benefit all who reside within Liyue. But what does Inazuma's pursuit of "eternity" bring to its people?
 :{{A|vo wylq002 17 kazuha 18.ogg}} '''Kaedehara Kazuha:''' ...It goes without saying that the people locked within Inazuma do not fare well these days.
@@ -286,14 +282,13 @@
 :{{A|vo wylq002 17 kazuha 21.ogg}} '''Kaedehara Kazuha:''' If you wish to find her, she will forever be there.
 :{{A|vo wylq002 17 kazuha 22.ogg}} '''Kaedehara Kazuha:''' There will come a day when I too shall wish to understand the answers to "eternity" from her.
 :{{A|vo wylq002 17 kazuha 23.ogg}} '''Kaedehara Kazuha:''' Ah! The time for your match is approaching.
-:{{A|vo wylq002 17 paimon 04.ogg}} '''Paimon:''' Oh, right! We got so distracted talking about Inazuma that Paimon forgot all about the tournament.
+:{{A|vo wylq002 17 paimon 04.ogg}} '''Paimon:''' Oh, right! We got so distracted talking about Inazuma that Paimon forgot all about the tournament!
 :{{A|vo wylq002 17 kazuha 24.ogg}} '''Kaedehara Kazuha:''' If you have no other matters to attend to, then we can return together.
 :{{DIcon}} Sure, let's go together.
 ::{{A|vo wylq002 17 kazuha 25a.ogg}} '''Kaedehara Kazuha:''' Very well, let's go. I wish to see who will obtain the Vision.
-:;(Teleports you to the arena)
 :{{DIcon}} I'll head back on my own shortly.
 ::{{A|vo wylq002 17 kazuha 25b.ogg}} '''Kaedehara Kazuha:''' Very well. Just be sure to not be late for the match.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Trivia==
 * Traveler will become [[Unaligned]] during The Clash. Their clothes will not glow the attributed element before the fight, and they will have access to their unaligned Normal Attack talent, [[Past Memories]].
@@ -310,7 +305,6 @@
 |ja_rm   = Minami Juuji Butou Kai
 |ja_tl   = Battle Gathering of the Crux
 |ko      = 남십자 무술대회
-|ko_rm   = Namsipja Musuldaehoe
 |ko_tl   = Martial Arts Tournament of the Crux
 |es      = El Torneo Crux
 |es_tl   = The Crux Tournament
@@ -331,7 +325,7 @@
 |pt      = Torneio da Frota Crux
 |pt_tl   = Crux Fleet Tournament
 |tr      = Güneyhaçı Yarışması
-|tr_tl   = 
+|tr_tl   = {{Lex|The Crux|tr}} Competition
 |it      = Il Torneo della Crux
 |it_tl   = The Crux Tournament
 }}
@@ -341,8 +335,9 @@
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
-[[Category:Archon Chapter 2]]
 
+[[es:El Torneo Crux]]
 [[ja:南十字武闘会 (任務)]]
 [[pt-br:Torneio da Frota Crux (Missão)]]
 [[ru:Бойцовский турнир Южного Креста]]
+[[vi:Hội Đấu Võ Nam Thập Tự (Nhiệm Vụ)]]

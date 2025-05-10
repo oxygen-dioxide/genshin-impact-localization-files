@@ -1,5 +1,6 @@
 {{Quest Infobox
 |id            = 19013
+|image         = Hangout Event Bottleneck Breaking.png
 |type          = Story
 |group         = Hangout Event
 |chapter       = Sayu
@@ -14,7 +15,7 @@
 |characters    = Kano Nana; Kiminami Anna; Sayu; Traveler
 |voiced        = yes
 }}
-'''Bottleneck Breaking''' is a quest in [[Sayu]]'s [[Hangout Event]] Act I: [[Yoohoo Art: Seichou no Jutsu]].
+'''''Bottleneck Breaking''''' is a quest in {{Quest|Yoohoo Art: Seichou no Jutsu}}.
 
 ==Steps==
 # Go to [[Kiminami Restaurant]]
@@ -36,21 +37,42 @@
 
 ==Trial Character==
 {{Trial Character
-|wl                     = 8
+|wl                      = 5, 8
 |character_name          = Sayu
-|character_level8        = 88
-|constellation8          = 3
 |weapon_name             = Favonius Greatsword
-|weapon_level8           = 88
-|refinement8             = 1
 |artifact_flower         = Royal Flora
 |artifact_feather        = Royal Plume
 |artifact_sands          = Royal Pocket Watch
 |artifact_goblet         = Royal Silver Urn
 |artifact_circlet        = Royal Masque
-|artifact_level8         = 20
 |set1                    = Noblesse Oblige
 |set1_piece_bonus        = 4
+
+<!-- WL 5 -->
+
+|character_level5        = 67
+|constellation5          = 3
+|weapon_level5           = 67
+|refinement5             = 1
+|artifact_level5         = 16
+|normal_attack_talent5   = 5
+|elemental_skill_talent5 = 5
+|elemental_burst_talent5 = 8
+|hp5                     = 18,478
+|atk5                    = 1,177
+|def5                    = 633
+|em5                     = 180
+|er5                     = 182.8%
+|crit_rate5              = 51.8%
+|crit_dmg5               = 91.9%
+
+<!-- WL 8 -->
+
+|character_level8        = 88
+|constellation8          = 3
+|weapon_level8           = 88
+|refinement8             = 1
+|artifact_level8         = 20
 |normal_attack_talent8   = 8
 |elemental_skill_talent8 = 8
 |elemental_burst_talent8 = 11
@@ -67,9 +89,9 @@
 * Completing the '''Hard Work Pays Off''' route grants the ''[[Memories of the Heart]]'' achievement ''[[Dish Effect: Mobility Decreased]]''.
 
 ==Dialogue==
-{{Quest Description|You tell [[Sayu]] that she needs enough nutrition to grow tall. She follows you enthusiastically to [[Inazuma City]]...<br /><br />Sayu's eaten a lot already, but her height remains the same. Still, she isn't ready to give up yet...<br /><br />The process of eating to grow taller is rather painful, so you try to get Sayu to try something else &mdash; exercise. Will you succeed this time?}}
+{{Quest Description|You tell [[Sayu]] that she needs enough nutrition to grow tall. She follows you enthusiastically to [[Inazuma City]]...<br><br>Sayu's eaten a lot already, but her height remains the same. Still, she isn't ready to give up yet...<br><br>The process of eating to grow taller is rather painful, so you try to get Sayu to try something else &mdash; exercise. Will you succeed this time?}}
 ===Recharge Plan===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Go to Kiminami Restaurant)
 :{{A|vo zycop001 1901302 sayu 01.ogg}} '''Sayu:''' *sniffs* Oh, something smells amazing here! It smells so good that I'd even wake up to find where it's coming from!
 :{{A|vo zycop001 1901302 kiminamianna 01.ogg}} '''Kiminami Anna:''' Welcome to Kiminami Restaurant! What can I get for the two of you?
@@ -87,9 +109,7 @@
 :{{A|vo zycop001 1901302 sayu 09.ogg}} '''Sayu:''' Eating food like this will help me grow right away, won't it? Maybe I'll gain a whole 6 inches!
 :{{DIcon}} Let's not get too optimistic, growing takes time.
 :{{A|vo zycop001 1901302 sayu 10.ogg}} '''Sayu:''' Yeah, you might be right. Let's eat everything up and find out.
-
-:'''''Sayu tries very hard and finishes all the dishes by herself.'''''
-
+:{{Black Screen|''Sayu tries very hard and finishes all the dishes by herself.''}}
 :{{A|vo zycop001 1901302 sayu 11.ogg}} '''Sayu:''' *hiccup* Ugh...
 :{{DIcon}} Are you feeling okay?
 :{{A|vo zycop001 1901302 sayu 12.ogg}} '''Sayu:''' I'm alright... Don't worry about me...
@@ -109,10 +129,10 @@
 :;(Proceed to [[#Branch 1|Branch 1]])
 :{{DIcon}} Eating like this might have a negative effect on your health. Maybe we should consider some other options.
 :;(Proceed to [[#Branch 2|Branch 2]])
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Branch 1===
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{DIcon}} Do you still wish to continue?
 :{{A|vo zycop001 1901302 sayu 29.ogg}} '''Sayu:''' Let's keep at it. No pain, no gain!
 :{{A|vo zycop001 1901302 sayu 30.ogg}} '''Sayu:''' But maybe I could try some other food... All the stuff we just ordered is starting a swirl reaction in my tummy.
@@ -125,10 +145,10 @@
 ;(Talk to Kiminami Anna again)
 :{{A|vo zycop001 1901307 kiminamianna 01.ogg}} '''Kiminami Anna:''' She did eat quite a lot, will she be okay?
 :{{A|vo zycop001 1901307 kiminamianna 02.ogg}} '''Kiminami Anna:''' You should keep an eye on her, just in case.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Hard Work Pays Off====
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Go to Shimura's)
 :{{A|vo zycop001 1901307 sayu 01.ogg}} '''Sayu:''' Lesson learned... Next time, only order one dish. If we finish it, then we can order another...
 :{{A|vo zycop001 1901307 sayu 02.ogg}} '''Sayu:''' That would be a better plan, wouldn't it?
@@ -143,9 +163,7 @@
 :{{DIcon}} Uh, good luck with that.
 :{{DIcon}} I'm not sure if it'll be that easy.
 :{{A|vo zycop001 1901307 sayu 09.ogg}} '''Sayu:''' I've already eaten this much, I can't give up now!
-
-:'''''Sayu makes herself gobble the two dishes up.'''''
-
+:{{Black Screen|''Sayu makes herself gobble the two dishes up.''}}
 :{{A|vo zycop001 1901307 sayu 10.ogg}} '''Sayu:''' Ugh, that's it, I'm done... Growing is more painful than I thought.
 :{{A|vo zycop001 1901307 sayu 11.ogg}} '''Sayu:''' We still have two [[Radish]]es left over. Would you mind finishing them?
 :{{DIcon}} Sure thing. I've been waiting for a chance to help.
@@ -161,7 +179,7 @@
 :{{A|vo zycop001 1901307 sayu 19.ogg}} '''Sayu:''' There's only one option now... I'll lead her away from here and try to shake her off my trail. We'll meet back here later.
 :{{A|vo zycop001 1901307 sayu 20.ogg}} '''Sayu:''' I'll just slip away and... Ugh, oh no! My tummy... it's too full...
 :{{A|vo zycop001 1901307 sayu 21.ogg}} '''Sayu:''' Whoa!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Ending: Everything in Moderation====
 {{Hangout Ending
@@ -172,7 +190,7 @@
 }}
 
 ===Branch 2===
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{DIcon}} Eating like this might have a negative effect on your health. Maybe we should consider some other options.
 :{{A|vo zycop001 1901302 sayu 22.ogg}} '''Sayu:''' But are there any other options? ...I never thought that eating could be so painful.
 :{{DIcon}} We could always try doing some training.
@@ -191,14 +209,14 @@
 :{{DIcon}} Okay! We'll take care of it.
 :{{DIcon}} I guess our post-meal plans are settled then.
 :{{A|vo zycop001 1901302 kiminamianna 05.ogg}} '''Kiminami Anna:''' Great, you have my thanks! Let me show you where the Treasure Hoarders have been most active these days.
-:;(Proceed to [[#Exercise_Follows_Eating_2|Exercise Follows Eating]])
+:;(Proceed to [[#Exercise Follows Eating 2|Exercise Follows Eating]])
 
 ;(Talk to Kiminami Anna again)
 :{{A|vo zycop001 1901303 kiminamianna 01.ogg}} '''Kiminami Anna:''' Thanks again for offering your help. Please do be careful out there.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Exercise Follows Eating====
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Go to the Treasure Hoarders' camp)
 :{{A|vo zycop001 1901303 sayu 01.ogg}} '''Sayu:''' Anna was right, there's the Treasure Hoarders.
 :{{A|vo zycop001 1901303 sayu 02.ogg}} '''Sayu:''' All that food we just ate is weighing me down a bit, but I think we can still handle them.
@@ -236,10 +254,10 @@
 :{{DIcon}} Alright then, come with me. I promise you'll feel better.
 :{{A|vo zycop001 1901305 sayu 17.ogg}} '''Sayu:''' Reach higher and see farther... really?
 :{{A|vo zycop001 1901305 sayu 18.ogg}} '''Sayu:''' Sounds good, I appreciate all your help.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Not As Planned====
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Go to a high spot to relax with Sayu)
 :{{A|vo zycop001 1901306 sayu 01.ogg}} '''Sayu:''' You had me worried on the way here, you know. I seriously wondered if you were taking me to the Kamisato residence or the shrine...
 :{{A|vo zycop001 1901306 sayu 02.ogg}} '''Sayu:''' But you weren't kidding, I can see much farther from here.
@@ -266,7 +284,7 @@
 :{{DIcon}} You can still reach even higher and see even farther, but you can't do that just by standing here.
 :{{A|vo zycop001 1901306 sayu 17.ogg}} '''Sayu:''' Oh, I see. So what should I do?
 :{{A|vo zycop001 1901306 sayu 18.ogg}} '''Sayu:''' Huh? Wh&mdash;Wh&mdash;Whoaaaa!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ====Ending: Like Soaring Through the Skies====
 {{Hangout Ending
@@ -283,7 +301,7 @@
 |zhs_rm  = Túpò Píngjǐng
 |zht     = 突破瓶頸
 |zht_rm  = Túpò Píngjǐng
-|zh_tl   = 
+|zh_tl   = Breaking Through the Bottleneck
 |ja      = 極限突破
 |ja_rm   = Kyokugen Toppa
 |ja_tl   = Breaking Through the Limits

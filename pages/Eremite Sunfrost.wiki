@@ -28,11 +28,11 @@
 
 ==Stats==
 {{Enemy Stats
-|phys_res     = -20%
+|phys_res     = &minus;20%
 
 |res2         = Stunned
-|phys_res2    = -20%
-|cryo_res2    = -50%
+|phys_res2    = &minus;20%
+|cryo_res2    = &minus;50%
 
 |hp_ratio     = 3.6
 |hp_type      = 2
@@ -40,47 +40,48 @@
 |atk_type     = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1      = Sweeping Slash
-|desc_1      = Connects his dual blades together and performs a sweeping slash, dealing '''50% ATK''' as {{Color|AoE Cryo DMG}}.
+|desc_1      = Connects his dual blades together and performs a sweeping slash, dealing '''50% ATK''' as {{Color|Cryo DMG}}.
 * '''Enhanced:''' AoE increased, DMG increased to '''75% ATK'''.
 |caption_1   = Normal
 |file_1_2    = Eremite Sunfrost Sweeping Slash 2
 |caption_1_2 = Enhanced
 
 |name_2      = Slash Combo
-|desc_2      = Performs a three-part melee combo, dealing '''40% ATK''', '''40% ATK''', '''50% ATK''' as {{Color|Cryo DMG}}.
+|desc_2      = Performs a three-part melee combo consisting of a double hack and a cross slash, dealing '''40% ATK''', '''40% ATK''', '''50% ATK''' as {{Color|Cryo DMG}}.
 * '''Enhanced:''' AoE increased, DMG increased to '''50% ATK''', '''50% ATK''', '''60% ATK'''.
 |caption_2   = Normal
 |file_2_2    = Eremite Sunfrost Slash Combo 2
 |caption_2_2 = Enhanced
 
-|name_3      = Enhanced State
+|name_3      = Ominous Spirit Unleashed
 |desc_3      = When his [[HP]] is lower than '''70%''', he may enter an enhanced state, gaining enhanced attacks and high [[Interruption Resistance]]. This state lasts for 20 seconds. When the duration ends, any ongoing attack will be cancelled and he will be stunned for 8 seconds with decreased [[Cryo RES]].
+|file_3      = Eremite Sunfrost Enhanced State
 
 |name_4      = Returning Frostwheel
 |desc_4      = Connects his dual blades and throws it out as a vertical wheel that travels a short distance and returns to him, dealing '''25% ATK × 2''' as {{Color|Cryo DMG}} on hit. This attack is only used while enhanced.
 
 |name_5      = Boomerang
-|desc_5      = Connects his dual blades and throws it out as a horizontal disc that travels in a circle and and returns to him, dealing '''35% ATK''' as {{Color|Cryo DMG}} on hit. This attack is only used while enhanced.
+|desc_5      = Connects his dual blades and throws it out as a horizontal disc that travels in a circle and and returns to him, dealing '''35% ATK''' as {{Color|Cryo DMG}} on hit and then follows up with one '''Returning Frostwheel'''. This attack is only used while enhanced.
 
 |name_6      = Taunt
-|desc_6      = If the player is far away, he will taunt the player, leaving him open to attacks.
+|desc_6      = If the player is far away, he will hold his blades outwards to taunt the player. This leaves him open to attacks.
 }}
 
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Eremite Sunfrost
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Time To Go To Work.ogg
 |vo_01_01_tx_en          = Time to go to work.
 |vo_01_01_tx_zh          = 又有工作了。
 |vo_01_01_tx_ja          = また仕事か。
 |vo_01_01_tx_ko          = 일이 또 생겼군
 
-|vo_02_00_title          = Enhanced State
+|vo_02_00_title          = Ominous Spirit Unleashed
 |vo_02_01_file           = VO {lang}{name} - Tch Now Youre Testing My Patience.ogg
 |vo_02_01_tx_en          = Tch... now you're testing my patience.
 |vo_02_01_tx_zh          = 嘁，真是麻烦。
@@ -100,36 +101,47 @@
 |vo_04_01_tx_zh          = 中！
 |vo_04_01_tx_ja          = 当たれ！
 |vo_04_01_tx_ko          = 명중!
-|vo_04_02_file           = VO {lang}{name} - Sever.ogg
-|vo_04_02_tx_en          = Sever!
-|vo_04_02_tx_zh          = 断！
-|vo_04_02_tx_ja          = 断つ！
-|vo_04_02_tx_ko          = 절단!
 
-|vo_05_00_title          = Taunting
-|vo_05_01_file           = VO {lang}{name} - Is That All Youve Got.ogg
-|vo_05_01_tx_en          = Is that all you've got?
-|vo_05_01_tx_zh          = 就这点本事吗？
-|vo_05_01_tx_ja          = この程度か？
-|vo_05_01_tx_ko          = 고작 이 정도야?
+|vo_05_00_title          = Boomerang
+|vo_05_01_file           = VO {lang}{name} - Sever.ogg
+|vo_05_01_tx_en          = Sever!
+|vo_05_01_tx_zh          = 断！
+|vo_05_01_tx_ja          = 断つ！
+|vo_05_01_tx_ko          = 절단!
 
-|vo_06_00_title          = Stunned
-|vo_06_01_file           = VO {lang}{name} - Grunt.ogg
-|vo_06_01_tx_en          = (Grunt)
-|vo_06_01_tx_zh          = (Grunt)
-|vo_06_01_tx_ja          = (Grunt)
-|vo_06_01_tx_ko          = (Grunt)
+|vo_06_00_title          = Taunting
+|vo_06_01_file           = VO {lang}{name} - Is That All Youve Got.ogg
+|vo_06_01_tx_en          = Is that all you've got?
+|vo_06_01_tx_zh          = 就这点本事吗？
+|vo_06_01_tx_ja          = この程度か？
+|vo_06_01_tx_ko          = 고작 이 정도야?
 
-|vo_07_00_title          = Defeated
-|vo_07_01_file           = VO {lang}{name} - Well Meet Again.ogg
-|vo_07_01_tx_en          = We'll... meet... again.
-|vo_07_01_tx_zh          = 呵，后会有期！
-|vo_07_01_tx_ja          = また…会おう…
-|vo_07_01_tx_ko          = 다음에 두고 보자…
+|vo_07_00_title          = Stunned
+|vo_07_01_file           = VO {lang}{name} - Grunt.ogg
+|vo_07_01_tx_en          = (Grunt)
+|vo_07_01_tx_zh          = (Grunt)
+|vo_07_01_tx_ja          = (Grunt)
+|vo_07_01_tx_ko          = (Grunt)
+
+|vo_08_00_title          = Staggered
+|vo_08_01_tx_en          = {{A|VO Eremite Sunfrost - Staggered 01.ogg}} {{A|VO Eremite Sunfrost - Staggered 02.ogg}} {{A|VO Eremite Sunfrost - Staggered 03.ogg}}
+|vo_08_01_tx_zh          = {{A|VO ZH Eremite Sunfrost - Staggered 01.ogg}} {{A|VO ZH Eremite Sunfrost - Staggered 02.ogg}} {{A|VO ZH Eremite Sunfrost - Staggered 03.ogg}}
+|vo_08_01_tx_ja          = {{A|VO JA Eremite Sunfrost - Staggered 01.ogg}} {{A|VO JA Eremite Sunfrost - Staggered 02.ogg}} {{A|VO JA Eremite Sunfrost - Staggered 03.ogg}}
+|vo_08_01_tx_ko          = {{A|VO KO Eremite Sunfrost - Staggered 01.ogg}} {{A|VO KO Eremite Sunfrost - Staggered 02.ogg}} {{A|VO KO Eremite Sunfrost - Staggered 03.ogg}}
+
+|vo_09_00_title          = Defeated
+|vo_09_01_file           = VO {lang}{name} - Well Meet Again.ogg
+|vo_09_01_tx_en          = We'll... meet... again.
+|vo_09_01_tx_zh          = 呵，后会有期！
+|vo_09_01_tx_ja          = また…会おう…
+|vo_09_01_tx_ko          = 다음에 두고 보자…
 }}
 
+==Tutorials==
+{{Tutorial|Eremite Sunfrost}}
+
 ==Descriptions==
-{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br />A professional mercenary who cares about nothing outside of work and the mission at hand. To such people, their only game plan is to complete the mission, and their high asking prices on the market match that committment.<br />An ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.|[[Archive]]}}
+{{Description|A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.<br>A professional mercenary who cares about nothing outside of work and the mission at hand. To such people, their only game plan is to complete the mission, and their high asking prices on the market match that {{sic|committment}}.<br>An ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished &mdash; whether that be its wielder, or its wielder's foe.|[[Archive]]}}
 
 ==Gallery==
 <gallery>
@@ -142,6 +154,9 @@ Enemy Eremite Sunfrost Icon.png|Icon
 |caption1 = Sword Dance
 }}
 
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
+
 ==Other Languages==
 {{Other Languages
 |en      = Eremite Sunfrost
@@ -150,8 +165,8 @@ Enemy Eremite Sunfrost Icon.png|Icon
 |zht     = 鍍金旅團・熾陽凝冰
 |zht_rm  = Dùjīn Lǚtuán - Chìyáng Níngbīng
 |zh_tl   = {{Lex|Eremite|zh}} - Condensing Ice Under the Blazing Sun
-|ja      = エルマイト旅団サンフロスト
-|ja_rm   = Erumaito Ryodan San Furosuto
+|ja      = エルマイト旅団・サンフロスト
+|ja_rm   = Erumaito Ryodan - San Furosuto
 |ja_tl   = Eremite Brigade - Sun Frost
 |ko      = {{tt|도금|鍍金}} {{tt|여단|旅團}}・{{tt|태양|太陽}}의 서리
 |ko_rm   = Dogeum Yeodan - Taeyang-ui Seori
@@ -161,17 +176,17 @@ Enemy Eremite Sunfrost Icon.png|Icon
 |fr      = Givre solaire des Érémites
 |fr_tl   = Solar Frost of the Eremites
 |ru      = Пустынник: Пылающий лёд
-|ru_tl   = {{Lex|Eremite|ru}}: Flaming Ice
+|ru_tl   = {{Lex|Eremite|ru}}: Blazing Ice
 |th      = Eremite Sunfrost
 |vi      = Eremite Băng Giữa Nắng Nóng
 |vi_tl   = Eremite Ice in the Middle of the Hot Sun
-|de      = Goldbrigade - Sonnenfrost
+|de      = Goldbrigade – Sonnenfrost
 |de_tl   = {{Lex|Eremite|de}} -  Sunfrost
 |id      = Eremite Sunfrost
 |pt      = Eremita - Geada Solar
 |pt_tl   = Eremite - Solar Frost
 |tr      = Münzevi Soğuk Güneş
-|tr_tl   = 
+|tr_tl   = {{Lex|Eremite|tr}} Cold Sun
 |it      = Eremita Gelosolare
 |it_tl   = 
 }}
@@ -186,4 +201,6 @@ Enemy Eremite Sunfrost Icon.png|Icon
 {{Enemy Navbox|Common}}
 
 [[es:Eremita Congelafuegos]]
+[[fr:Givre solaire des Érémites]]
+[[ja:エルマイト旅団・サンフロスト]]
 [[pt-br:Eremita - Geada Solar]]

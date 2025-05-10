@@ -2,14 +2,13 @@
 |image         = Talent Leonine Bite.png
 |character     = Dehya
 |type          = Elemental Burst
-|info          = Unleashing her burning anger and casting her inconvenient blade aside, Dehya enters the Blazing Lioness state and increases her resistance to interruption.<br />In this state, Dehya will automatically and continuously unleash the Flame-Mane's Fists, dealing {{Color|Pyro DMG}} based on her ATK and Max HP, and when its duration ends, she will unleash an Incineration Drive, dealing {{Color|AoE Pyro DMG}} based on her [[ATK]] and [[Max HP]].<br />If a Fiery Sanctum field created by Dehya's own Elemental Skill "[[Molten Inferno]]" exists when this ability is unleashed, Dehya will retrieve it, and then create another field once Blazing Lioness's duration expires. This field will take on the retrieved field's duration at the moment of its retrieval.<br />In this state, Dehya will be unable to cast her Elemental Skill, or perform Normal, Charged, and Plunging Attacks. "Normal Attack: [[Sandstorm Assault]]" and Elemental Skill "Molten Inferno" will be replaced by "Roaring Barrage."<br /><br />'''Roaring Barrage'''<br />Unleashing Roaring Barrage within 0.4s after each Flame-Mane's Fist strike will increase the speed at which the next Flame-Mane's Fist strike will be triggered.
+|info          = Unleashing her burning anger and casting her inconvenient blade aside, Dehya enters the Blazing Lioness state and increases her resistance to interruption.<br>In this state, Dehya will automatically and continuously unleash the Flame-Mane's Fists, dealing {{Color|Pyro DMG}} based on her ATK and Max HP, and when its duration ends, she will unleash an Incineration Drive, dealing {{Color|AoE Pyro DMG}} based on her [[ATK]] and [[Max HP]].<br>If a Fiery Sanctum field created by Dehya's own Elemental Skill "[[Molten Inferno]]" exists when this ability is unleashed, Dehya will retrieve it, and then create another field once Blazing Lioness's duration expires. This field will take on the retrieved field's duration at the moment of its retrieval.<br>In this state, Dehya will be unable to cast her Elemental Skill, or perform Normal, Charged, and Plunging Attacks. "Normal Attack: [[Sandstorm Assault]]" and Elemental Skill "Molten Inferno" will be replaced by "Roaring Barrage."<br><br>'''Roaring Barrage'''<br>Unleashing Roaring Barrage within 0.4s after each Flame-Mane's Fist strike will increase the speed at which the next Flame-Mane's Fist strike will be triggered.
 |energyCost    = 70
 |CD            = 18s
 |Duration      = 4s
 |scale_att1    = ATK
 |scale_att2    = Max HP
 |utility1      = Interruption Resistance
-|utility2      = AoE
 }}
 {{Description|Even the flowing flames must obey her rage and at her command become her fangs and claws.}}
 '''Leonine Bite''' is [[Dehya]]'s [[Elemental Burst]].
@@ -19,20 +18,23 @@
 * Pressing the Normal Attack button while in the Blazing Lioness state will ''not'' trigger Normal Attack-related effects, such as [[Xingqiu]]'s [[Guhua Sword: Raincutter|Elemental Burst]].
 * Jumping during the Blazing Lioness state will end it prematurely.
 * Dashing and jumping in quick succession during the Blazing Lioness state will cause Dehya to skip all Flame-Mane's Fists and immediately perform Incineration Drive.
+* While the Blazing Lioness state is active, Dehya cannot transition into [[diving]]<!-- she can't pass through the vertical boundaries that exist for some bodies of water --> and will generally not transition into [[swimming]].
+** Without additional movement input, Dehya stalls her forward movement at swimming height for water. However, she does not do so for [[Liquid Phlogiston]] and can therefore move herself below its surface.
+** Dehya can perform Flame-Mane's Fists and Incineration Drive while standing on [[water]] that was previously frozen, though she will remain stationary.
+** Entering liquid at swimming height due to falling without dashing will end the Blazing Lioness state prematurely.
+** Entering liquid at swimming height due to falling any distance after dashing will cause Dehya to skip all Flame-Mane's Fists and immediately perform Incineration Drive, which may or may not be successfully completed.
 :<gallery>
 Talent Leonine Bite 2.png|Roaring Barrage Icon
 </gallery>
 
 ;<big>Passive Effects</big>
-* {{TalentNote|ascension|1|Unstinting Succor|character=Dehya|talent=Molten Inferno}}
+* {{Talent Note|ascension|1|Unstinting Succor|character=Dehya|talent=Molten Inferno}}
 
 ;<big>Constellation Effects</big>
-* {{TalentNote|constellation|1|The Flame Incandescent|"Dehya's Max [[HP]] is increased by 20%, and she deals bonus DMG based on her Max HP when using the following attacks:
-** [[Molten Inferno]]'s DMG will be increased by 3.6% of her Max HP.
-** [[Leonine Bite]]'s DMG will be increased by 6% of her Max HP."}}
-* {{TalentNote|constellation|3|A Rage Swift as Fire}}
-* {{TalentNote|constellation|4|An Oath Abiding}}
-* {{TalentNote|constellation|6|The Burning Claws Cleaving}}
+* {{Talent Note|constellation|1|The Flame Incandescent|Leonine Bite's DMG is increased by 6% of Dehya's Max HP.}}
+* {{Talent Note|constellation|3|A Rage Swift as Fire}}
+* {{Talent Note|constellation|4|An Oath Abiding}}
+* {{Talent Note|constellation|6|The Burning Claws Cleaving}}
 
 ==Advanced Properties==
 {{Advanced Properties
@@ -66,74 +68,39 @@ Talent Leonine Bite 2.png|Roaring Barrage Icon
 
 ==Attribute Scaling==
 {{Talent Scaling
+|talentType=Elemental Burst
 |levels=13
 |order=flame-mane'sfistdmg,incinerationdrivedmg,duration,cd,energycost
 |titles=Flame-Mane's Fist DMG,Incineration Drive DMG,Duration,CD,Energy Cost
-|flame-mane'sfistdmg_1=98.7 ATK+1.69 Max HP
-|flame-mane'sfistdmg_2=106.1 ATK+1.82 Max HP
-|flame-mane'sfistdmg_3=113.5 ATK+1.95 Max HP
-|flame-mane'sfistdmg_4=123.37 ATK+2.11 Max HP
-|flame-mane'sfistdmg_5=130.78 ATK+2.24 Max HP
-|flame-mane'sfistdmg_6=138.18 ATK+2.37 Max HP
-|flame-mane'sfistdmg_7=148.05 ATK+2.54 Max HP
-|flame-mane'sfistdmg_8=157.92 ATK+2.71 Max HP
-|flame-mane'sfistdmg_9=167.79 ATK+2.88 Max HP
-|flame-mane'sfistdmg_10=177.66 ATK+3.05 Max HP
-|flame-mane'sfistdmg_11=187.53 ATK+3.21 Max HP
-|flame-mane'sfistdmg_12=197.4 ATK+3.38 Max HP
-|flame-mane'sfistdmg_13=209.74 ATK+3.6 Max HP
-|incinerationdrivedmg_1=139.3 ATK+2.39 Max HP
-|incinerationdrivedmg_2=149.75 ATK+2.57 Max HP
-|incinerationdrivedmg_3=160.19 ATK+2.75 Max HP
-|incinerationdrivedmg_4=174.13 ATK+2.99 Max HP
-|incinerationdrivedmg_5=184.57 ATK+3.16 Max HP
-|incinerationdrivedmg_6=195.02 ATK+3.34 Max HP
-|incinerationdrivedmg_7=208.95 ATK+3.58 Max HP
-|incinerationdrivedmg_8=222.88 ATK+3.82 Max HP
-|incinerationdrivedmg_9=236.81 ATK+4.06 Max HP
-|incinerationdrivedmg_10=250.74 ATK+4.3 Max HP
-|incinerationdrivedmg_11=264.67 ATK+4.54 Max HP
-|incinerationdrivedmg_12=278.6 ATK+4.78 Max HP
-|incinerationdrivedmg_13=296.01 ATK+5.07 Max HP
-|duration_1=4s
-|duration_2=4s
-|duration_3=4s
-|duration_4=4s
-|duration_5=4s
-|duration_6=4s
-|duration_7=4s
-|duration_8=4s
-|duration_9=4s
-|duration_10=4s
-|duration_11=4s
-|duration_12=4s
-|duration_13=4s
-|cd_1=18s
-|cd_2=18s
-|cd_3=18s
-|cd_4=18s
-|cd_5=18s
-|cd_6=18s
-|cd_7=18s
-|cd_8=18s
-|cd_9=18s
-|cd_10=18s
-|cd_11=18s
-|cd_12=18s
-|cd_13=18s
-|energycost_1=70
-|energycost_2=70
-|energycost_3=70
-|energycost_4=70
-|energycost_5=70
-|energycost_6=70
-|energycost_7=70
-|energycost_8=70
-|energycost_9=70
-|energycost_10=70
-|energycost_11=70
-|energycost_12=70
-|energycost_13=70
+|flame-mane'sfistdmg_1=98.7% ATK+1.69% Max HP
+|flame-mane'sfistdmg_2=106.1% ATK+1.82% Max HP
+|flame-mane'sfistdmg_3=113.5% ATK+1.95% Max HP
+|flame-mane'sfistdmg_4=123.37% ATK+2.11% Max HP
+|flame-mane'sfistdmg_5=130.78% ATK+2.24% Max HP
+|flame-mane'sfistdmg_6=138.18% ATK+2.37% Max HP
+|flame-mane'sfistdmg_7=148.05% ATK+2.54% Max HP
+|flame-mane'sfistdmg_8=157.92% ATK+2.71% Max HP
+|flame-mane'sfistdmg_9=167.79% ATK+2.88% Max HP
+|flame-mane'sfistdmg_10=177.66% ATK+3.05% Max HP
+|flame-mane'sfistdmg_11=187.53% ATK+3.21% Max HP
+|flame-mane'sfistdmg_12=197.4% ATK+3.38% Max HP
+|flame-mane'sfistdmg_13=209.74% ATK+3.6% Max HP
+|incinerationdrivedmg_1=139.3% ATK+2.39% Max HP
+|incinerationdrivedmg_2=149.75% ATK+2.57% Max HP
+|incinerationdrivedmg_3=160.19% ATK+2.75% Max HP
+|incinerationdrivedmg_4=174.13% ATK+2.99% Max HP
+|incinerationdrivedmg_5=184.57% ATK+3.16% Max HP
+|incinerationdrivedmg_6=195.02% ATK+3.34% Max HP
+|incinerationdrivedmg_7=208.95% ATK+3.58% Max HP
+|incinerationdrivedmg_8=222.88% ATK+3.82% Max HP
+|incinerationdrivedmg_9=236.81% ATK+4.06% Max HP
+|incinerationdrivedmg_10=250.74% ATK+4.3% Max HP
+|incinerationdrivedmg_11=264.67% ATK+4.54% Max HP
+|incinerationdrivedmg_12=278.6% ATK+4.78% Max HP
+|incinerationdrivedmg_13=296.01% ATK+5.07% Max HP
+|duration=4s
+|cd=18s
+|energycost=70
 }}
 
 ==Talent Leveling==
@@ -165,22 +132,28 @@ Talent Leonine Bite 2.png|Roaring Barrage Icon
 |vi      = Sư Tử Lửa Ngấu Nghiến
 |vi_tl   = 
 |de      = Flammender Löwenbiss
-|de_tl   = 
+|de_tl   = Flaming Lionbite
 |id      = Leonine Bite
 |pt      = Mordida da Leoa
 |pt_tl   = 
 |tr      = Aslan Isırığı
-|tr_tl   = 
+|tr_tl   = Lion Bite
 |it      = Morso leonino
 |it_tl   = Leonine Bite
 }}
 
 ==Change History==
 {{Change History|3.5}}
-
+<!--
+==References==
+{{Reflist}}
+-->
 ==Navigation==
 {{Talent Navbox|Dehya}}
 
 [[es:Dentellada ignívoma de la Leona]]
 [[fr:Morsure léonine]]
+[[pt-br:Mordida da Leoa]]
+[[ru:Клыки львицы]]
+[[th:Leonine Bite]]
 [[vi:Sư Tử Lửa Ngấu Nghiến]]

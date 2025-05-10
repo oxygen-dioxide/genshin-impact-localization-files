@@ -16,24 +16,21 @@
 |area          = Avidya Forest
 |subarea       = Sumeru City
 |next          = Dream of Falling
-|exp           = 575
-|mora          = 38,100
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|8}}
+|rewards       = Adventure EXP*575;Mora*38,100;Hero's Wit*4;Mystic Enhancement Ore*8
 |characters    = Ata; Debbi; Ilman; Kathya; Nahida; Nasser; Paimon; Pawlin; Pedrush; Traveler
 |voiced        = yes
 }}
-'''''Dream of Awakening''''' is the first part of [[Nahida]]'s [[Story Quest]] [[Sapientia Oromasdis Chapter]]: Act I - [[Lingering Warmth]].
+'''''Dream of Awakening''''' is the first part of {{Quest|Lingering Warmth}}.
 
 ==Steps==
-# Go to Sumeru City
-# Talk to Pedrush
+# Go to [[Sumeru City]]
+# Talk to [[Pedrush]]
 # Follow Pedrush to "A Moment of Dreams"
-# Check on Ilman, who is depressed
+# Check on [[Ilman]], who is depressed
 # Go to the place Ilman mentioned
 # Talk to Ilman
 # Climb to the summit
-# Defeat the monsters
-#* Wave 1: {{Enemy List|Hilichurl Fighter*2;Anemo Samachurl;Blazing Axe Mitachurl}}
+# Defeat the monsters {{Enemy List|Hilichurl Fighter*2;Anemo Samachurl;Blazing Axe Mitachurl}}
 # Talk to Ilman
 # Return to "A Moment of Dreams" to ascertain the situation
 
@@ -43,13 +40,44 @@
 ==Trial Character==
 {{Trial Character
 <!-- World Levels -->
-|wl                      = 8
+|wl                      = 5, 8
 <!-- Character -->
 |character_name          = Nahida
+|weapon_name             = A Thousand Floating Dreams
+
+<!-- WL 5 -->
+|character_level5        = 71
+|constellation5          = 3
+
+|weapon_level5           = 71
+|refinement5             = 1
+
+|artifact_flower5        = Royal Flora
+|artifact_feather5       = Royal Plume
+|artifact_sands5         = Royal Pocket Watch
+|artifact_goblet5        = Royal Silver Urn
+|artifact_circlet5       = Royal Masque
+|artifact_level5         = 16
+|set1_5                  = Noblesse Oblige
+|set1_piece_bonus_5      = 4
+
+|normal_attack_talent5   = 5
+|elemental_skill_talent5 = 8 <!-- including constellation -->
+|elemental_burst_talent5 = 5
+
+|hp5                     = 17,893
+|atk5                    = 1,424
+|def5                    = 584
+|em5                     = 346
+|er5                     = 135.0%
+|crit_rate5              = 51.8%
+|crit_dmg5               = 91.9%
+|dendro_dmg5             = 30.0%
+
+<!-- WL 8 -->
 |character_level8        = 90
 |constellation8          = 3
 
-|weapon_name             = A Thousand Floating Dreams
 |weapon_level8           = 90
 |refinement8             = 1
 
@@ -63,14 +91,14 @@
 |set1_piece_bonus_8      = 4
 
 |normal_attack_talent8   = 8
-|elemental_skill_talent8 = 8
+|elemental_skill_talent8 = 11 <!-- including constellation -->
 |elemental_burst_talent8 = 8
 
 |hp8                     = 22,938
 |atk8                    = 1,781
 |def8                    = 755
-|em8                     = 485
-|er8                     = 144.7%
+|em8                     = 485 <!-- exclude weapon passive -->
+|er8                     = 135.0%
 |crit_rate8              = 57.1%
 |crit_dmg8               = 91.9%
 |dendro_dmg8             = 30.0%
@@ -78,7 +106,7 @@
 
 ==Dialogue==
 {{Quest Description|One day, you and Paimon notice that many people in Sumeru City are talking about dreams...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Pedrush, optional)
 :{{A|Vo nhdlq001 1 pedrush 01.ogg}} '''Pedrush''' (I hope a lot of people will come to participate today.)
 
@@ -127,9 +155,7 @@
 :{{A|vo nhdlq001 2 ilman 01.ogg}} '''Ilman:''' They must be dream experts from another land... Great!
 :{{A|vo nhdlq001 2 nasser 01.ogg}} '''Nasser:''' Oh, I have a question! Me first! Me first!
 :{{A|vo nhdlq001 2 pedrush 03.ogg}} '''Pedrush:''' No rush. Everyone, please line up and ask in an orderly fashion!
-
-:'''After some initial commotion, everyone finally forms a queue.'''
-
+:{{Black Screen|After some initial commotion, everyone finally forms a queue.}}
 :{{A|vo nhdlq001 2 paimon 01.ogg}} '''Paimon:''' Whoa, Paimon didn't expect them to be so enthusiastic...
 :{{A|vo nhdlq001 2 ata 01.ogg}} '''Ata:''' My question is simple. My everyday life is very difficult, so I would like to become a Slime in my dreams. How can I do that?
 :{{DIcon}} Oh, that's a tough one...
@@ -171,9 +197,7 @@
 :{{A|vo nhdlq001 2 debbi 01.ogg}} '''Debbi:''' I want to bring the souvenir box in my room into my dream!
 :{{A|vo nhdlq001 2 paulin 01.ogg}} '''Pawlin:''' I dreamt of a raven flying over the wasteland last night. Does that have any kind of special meaning?
 :{{A|vo nhdlq001 2 paimon 19.ogg}} '''Paimon:''' Hey, no rush. One at a time!
-
-:'''After a long time, the "experts" finally conclude their work.'''
-
+:{{Black Screen|After a long time, the "experts" finally conclude their work.}}
 :{{A|vo nhdlq001 2 paimon 20.ogg}} '''Paimon:''' Ugh, their questions were way too difficult. We don't actually know anything more than they do. We're just more experienced dreamers, that's all.
 :;(Paimon no longer has a title)
 :{{DIcon}} They didn't really care about the answers.
@@ -271,9 +295,9 @@
 :{{A|vo nhdlq001 2 ilman 19.ogg}} '''Ilman:''' *sigh* Anyway, thanks for your advice, great Dendro Archon.
 :{{A|vo nhdlq001 2 nahida 37.ogg}} '''Nahida:''' Hmm, I'm a little worried about him. I hope he can find a way to cheer up soon.
 :{{A|vo nhdlq001 2 nahida 38.ogg}} '''Nahida:''' I think I can handle things from here. You don't need to stay here if you find it boring. You're here to have a good time, after all.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You and Paimon meet Nahida at the venue of "A Moment of Dreams." Together, you hear many creative dream ideas shared by event participants. Among them, you are a little concerned about a man named Ilman...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Debbi, optional)
 :{{A|vo nhdlq001 3 debbi 01.ogg}} '''Debbi:''' (If it IS a hint, well... I haven't seen them for a long time.)
 
@@ -318,8 +342,8 @@
 :{{A|vo nhdlq001 3 paimon 03.ogg}} '''Paimon:''' Even if you can't see your wife there, taking in some nice scenery will definitely help cheer you up.
 :{{A|vo nhdlq001 3 ilman 09.ogg}} '''Ilman:''' Yeah, I hope so too.
 :{{A|vo nhdlq001 3 paimon 04.ogg}} '''Paimon:''' Alright, go ahead and get yourself ready then.
-:'''(Traveler):''' (Speaking of longing for the deceased, I'd better tell Nahida about Greater Lord Rukkhadevata.)
-:'''(Traveler):''' (Nahida should at least know that she once existed in this world.)
+:'''{{Traveler}}:''' (Speaking of longing for the deceased, I'd better tell Nahida about Greater Lord Rukkhadevata.)
+:'''{{Traveler}}:''' (Nahida should at least know that she once existed in this world.)
 :{{A|vo nhdlq001 3 nahida 01.ogg}} '''Nahida:''' Ahem! Are you headed off to some interesting place without telling me again?
 :{{A|vo nhdlq001 3 paimon 05.ogg}} '''Paimon:''' Huh, wait, aren't you supposed to be answering questions?
 :{{A|vo nhdlq001 3 nahida 02.ogg}} '''Nahida:''' I just finished. And I really got a lot out of it... so many interesting and novel thoughts.
@@ -329,17 +353,17 @@
 :{{A|vo nhdlq001 3 nahida 05.ogg}} '''Nahida:''' I wanted to use this opportunity to discuss with you some things that are puzzling me right now.
 :{{A|vo nhdlq001 3 ilman 11.ogg}} '''Ilman:''' Hmm, I didn't know the great Dendro Archon could become puzzled, too...
 :{{A|vo nhdlq001 3 nahida 06.ogg}} '''Nahida:''' I'm not all that different from you, you know. All right, let's go. We can talk on the way.
-:'''(Traveler):''' (I'd better go with her. The whole Greater Lord Rukkhadevata thing will take some explaining...)
+:'''{{Traveler}}:''' (I'd better go with her. The whole Greater Lord Rukkhadevata thing will take some explaining...)
 
 ;(Use Nahida's All Schemes to Know on Debbi, optional)
 :{{A|vo nhdlq001 3 debbi 02.ogg}} '''Debbi:''' (Maybe I should find a place to sleep, or go to the cafe...)
 
 ;(Talk to Debbi, optional)
 :{{A|vo dialog nhdlq001 debbi 02.ogg}} '''Debbi:''' After talking so much about dreams, I'm feeling a little bit sleepy.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|You and Paimon meet Nahida at the venue of "A Moment of Dreams." Together, you hear many creative dream ideas shared by event participants. Among them, you are a little concerned about a man named Ilman, so you decide to escort him to the place he has been dreaming about.}}
-{{Dialogue start}}
-;(Approach the marked area)
+{{Dialogue Start}}
+;(On reaching the marked area, the group arrives just after sunset)
 :{{A|vo nhdlq001 4 paimon 01.ogg}} '''Paimon:''' Ah, it's always nice to go for a leisurely stroll!
 :{{A|vo nhdlq001 4 ilman 01.ogg}} '''Ilman:''' Do adventurers often go to places like this?
 :{{DIcon}} Yes, of course.
@@ -348,7 +372,7 @@
 :{{A|vo nhdlq001 4 nahida 01.ogg}} '''Nahida:''' So this is where you always meet your wife in your dreams?
 :{{A|vo nhdlq001 4 ilman 03.ogg}} '''Ilman:''' Yes, for the most part. Our place is on the summit just up ahead.
 :{{A|vo nhdlq001 4 ilman 04.ogg}} '''Ilman:''' When I saw her in my dreams, we didn't do anything but talk about ordinary, mundane topics.
-:{{A|vo nhdlq001 4 ilman 05.ogg}} '''Ilman:''' I'd tell her about our daughter, Haydar, and she always listened intently.
+:{{A|vo nhdlq001 4 ilman 05.ogg}} '''Ilman:''' I'd tell her about our daughter, [[Haydar]], and she always listened intently.
 :{{A|vo nhdlq001 4 ilman 06.ogg}} '''Ilman:''' She would also reminisce about the past with me, telling me interesting stories and cracking jokes.
 :{{A|vo nhdlq001 4 ilman 07.ogg}} '''Ilman:''' It feels like no matter how long we may chat, it's never enough.
 :{{A|vo nhdlq001 4 paimon 02.ogg}} '''Paimon:''' Sometimes, it's the little things in life that matter the most.
@@ -388,9 +412,7 @@
 :{{A|vo nhdlq001 4 paimon 11.ogg}} '''Paimon:''' There's nobody there.
 :{{A|vo nhdlq001 4 ilman 14.ogg}} '''Ilman:''' Wait, Maynar. Don't go that way, it's dangerous.
 :{{A|vo nhdlq001 4 nahida 15.ogg}} '''Nahida:''' Uh-oh, he's gonna fall. Catch him!
-
-:'''You rush to stop Ilman, who is walking towards the edge of the cliff.'''
-
+:{{Black Screen|You rush to stop Ilman, who is walking towards the edge of the cliff.}}
 :{{A|vo nhdlq001 4 paimon 12.ogg}} '''Paimon:''' Phew, luckily he didn't fall... But what was all that rambling about? He also looks like he's passed out...
 :{{A|vo nhdlq001 4 nahida 16.ogg}} '''Nahida:''' He's in a dream now. What he said just now matches almost perfectly with the dreams he described to us earlier.
 :{{A|vo nhdlq001 4 paimon 13.ogg}} '''Paimon:''' Oh? So... he fell asleep, and started to have the same dream?
@@ -423,29 +445,27 @@
 :{{A|vo nhdlq001 4 paimon 18.ogg}} '''Paimon:''' Then there's no time to lose. Let's head back!
 :{{A|vo nhdlq001 4 paimon 19.ogg}} '''Paimon:''' Stop standing there, Ilman! Let's go!
 ----
-;(Return to "A Moment of Dreams")
+;(Approach "A Moment of Dreams")
 :{{A|vo nhdlq001 5 pedrush 01.ogg}} '''Pedrush:''' Oh, you're back already. How did it go?
 :{{A|vo nhdlq001 5 nahida 01.ogg}} '''Nahida:''' We have an emergency on our hands. Please notify everyone here that while they can continue to discuss their dreams, they mustn't try to visit or recreate the locations and scenes that they have been experiencing in them.
 :{{A|vo nhdlq001 5 pedrush 02.ogg}} '''Pedrush:''' What? A&mdash;Alright, if that's the wish of the great Dendro Archon...
 :{{A|vo nhdlq001 5 pedrush 03.ogg}} '''Pedrush:''' But could you at least tell me what happened? You all look so serious...
-
-:'''You tell Pedrush what happened on your trip with Ilman.'''
-
+:{{Black Screen|You tell Pedrush what happened on your trip with Ilman.}}
 :{{A|vo nhdlq001 5 pedrush 04.ogg}} '''Pedrush:''' I see, I never knew even a dream could be so dangerous.
 :{{A|vo nhdlq001 5 pedrush 05.ogg}} '''Pedrush:''' Don't worry. I'll be sure to notify all the event participants, and inform the other staff members about what has happened.
 :{{A|vo nhdlq001 5 pedrush 06.ogg}} '''Pedrush:''' Using the event registration list, I should be able to contact more people that were interested in dreams, and warn them about the situation.
 :{{A|vo nhdlq001 5 nahida 02.ogg}} '''Nahida:''' Thank you, that would be very helpful.
 :{{A|vo nhdlq001 5 pedrush 07.ogg}} '''Pedrush:''' Let me confirm if all of today's participants are still here...
-:{{A|vo nhdlq001 5 pedrush 08.ogg}} '''Pedrush:''' Ata has already left... It seemed that he was on his way to make a hammer, so that shouldn't be a problem. Oh? Wait a second... Where's Kathya?
+:{{A|vo nhdlq001 5 pedrush 08.ogg}} '''Pedrush:''' [[Ata]] has already left... It seemed that he was on his way to make a hammer, so that shouldn't be a problem. Oh? Wait a second... Where's [[Kathya]]?
 :{{A|vo nhdlq001 5 pedrush 09.ogg}} '''Pedrush:''' Has anyone seen Kathya? Has she already left?
 :{{A|vo nhdlq001 5 debbi 01.ogg}} '''Debbi:''' Oh, I think she already left. She said there was somewhere she wanted to go...
 :{{A|vo nhdlq001 5 paimon 01.ogg}} '''Paimon:''' Oh no, did she want to look for the place from her dreams, too?
 :{{A|vo nhdlq001 5 nahida 03.ogg}} '''Nahida:''' Can you tell us where she went?
-:{{A|vo nhdlq001 5 debbi 02.ogg}} '''Debbi:''' Yes, she did briefly mention it... somewhere near Chatrakam Cave.
+:{{A|vo nhdlq001 5 debbi 02.ogg}} '''Debbi:''' Yes, she did briefly mention it... somewhere near [[Chatrakam Cave]].
 :{{A|vo nhdlq001 5 nahida 04.ogg}} '''Nahida:''' Alright, thank you. We'll go look for her.
 :{{A|vo nhdlq001 5 nahida 05.ogg}} '''Nahida:''' Please help us tell the others not to do anything reckless.
 :{{A|vo nhdlq001 5 debbi 03.ogg}} '''Debbi:''' Sure thing. *sigh* Who would have known things would've turned out like this...
-;(Quest completes)
+:;(Quest completes)
 
 ;(Use Nahida's All Schemes to Know on Debbi, optional)
 :{{A|vo nhdlq001 6 debbi 01.ogg}} '''Debbi:''' (Why am I so sleepy...?)
@@ -471,7 +491,16 @@
 
 ;(Talk to Ilman, optional)
 :{{A|vo dialog nhdlq001 ilman 01.ogg}} '''Ilman:''' Haydar...
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
+
+==Gallery==
+<gallery>
+A Moment of Dreams Sign.png|"A Moment of Dreams" sign
+A Moment of Dreams Billboard.png|"A Moment of Dreams" billboard
+</gallery>
 
 ==Other Languages==
 {{Other Languages
@@ -484,8 +513,7 @@
 |ja      = よみがえる夢
 |ja_rm   = Yomigaeru Yume
 |ja_tl   = Dream of Revival
-|ko      = 소생의 꿈
-|ko_rm   = Sosaeng-ui Kkum
+|ko      = 소생<->의 꿈
 |ko_tl   = Dream of Revival
 |es      = El sueño del despertar
 |es_tl   = The Dream of the Awakening
@@ -507,10 +535,13 @@
 |tr      = Uyanış Rüyası
 |tr_tl   = 
 |it      = Sogno del risveglio
-|it_tl   = 
+|it_tl   = Dream of Awakening
 }}
 
 ==Change History==
 {{Change History|3.2}}
+
+[[es:El sueño del despertar]]
+[[pt-br:Sonho do Despertar]]
 [[th:ฝันแห่งการตื่นขึ้น]]
 [[vi:Giấc Mơ Hồi Tỉnh]]

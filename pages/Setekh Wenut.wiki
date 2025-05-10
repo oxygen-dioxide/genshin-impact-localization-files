@@ -1,14 +1,18 @@
 {{About|the Normal Boss|the exploration mechanic|Wenut}}
 {{Enemy Infobox
-|title    = The Last Prince of the Sands
-|dmgtype  = Physical
-|dmgtype2 = Anemo
-|image    = Enemy Setekh Wenut.png
+|title     = The Last Prince of the Sands
+|image     = Enemy Setekh Wenut.png
+|dmgtype   = Physical
+|dmgtype2  = Anemo
 |weakpoint = no
-|location = [[Desert of Hadramaveth]], [[Sumeru]]
-|type     = Normal Bosses
-|family   = Mystical Beasts
-|drops    = Pseudo-Stamens
+|type      = Normal Bosses
+|family    = Mystical Beasts
+|subarea   = Wenut Tunnels
+|area      = Desert of Hadramaveth
+|region    = Sumeru
+|drops     = Pseudo-Stamens
+|variants  = Wenut: Abnormal Turbulence
+|ability1  = Teleport
 }}
 {{Enemy Intro}}
 
@@ -35,8 +39,15 @@
 
 ==Stats==
 {{Enemy Stats
+|res_title    = Type
+
+|res1         = Normal
 |resglobal    = 25%
 |anemo_res    = 60%
+
+|res2         = [[Spiral Abyss]] Variant
+|resglobal2   = 55%
+|anemo_res2   = 90%
 
 |hp_ratio     = 15
 |hp_type      = 2
@@ -45,13 +56,14 @@
 |note         = The Setekh Wenut loses '''45<nowiki>%</nowiki>''' RES to elements that its Windbite Bullets were destroyed by while paralyzed.
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 
 ===Phase 1===
+This phase is skipped in the [[Spiral Abyss]].
 {{Enemy Attacks
 |name_1      = Sweep
-|desc_1      = Sweeps the ground in front of it with its body, dealing '''100% ATK''' as {{Color|AoE Physical DMG}}.
+|desc_1      = Sweeps the ground in front of it with its body, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
 |name_2      = Spit
 |desc_2      = Shoots 3 projectiles at the player, each dealing '''50% ATK''' as {{Color|Anemo DMG}}.
@@ -65,7 +77,7 @@
 Phase 2 starts when the Setekh Wenut's [[HP]] reaches '''97.5%''', or when '''20''' seconds have passed since the beginning of the fight. After entering Phase 2, the Setekh Wenut will no longer use attacks from Phase 1.
 {{Enemy Attacks
 |name_1      = Thrust
-|desc_1      = Drills out of the ground from below the player, dealing '''100% ATK''' as {{Color|AoE Physical DMG}}.
+|desc_1      = Drills out of the ground from below the player, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
 |name_2      = Stream of Gales
 |desc_2      = Surfaces at the center of the arena and fires countless projectiles in all directions, each dealing '''50% ATK''' as {{Color|Anemo DMG}}.
@@ -84,13 +96,13 @@ Phase 2 starts when the Setekh Wenut's [[HP]] reaches '''97.5%''', or when '''20
 Phase 3 starts when the Setekh Wenut's [[HP]] reaches '''50%''', or when '''60''' seconds have passed since the beginning of Phase 2. After entering Phase 3, the Setekh Wenut will immediately use '''Floating State''', but all attacks from Phase 2 will still be available afterwards.
 {{Enemy Attacks
 |name_1     = Floating State
-|desc_1     = Suspends itself midair and conjures 6 Windbite Bullets. After some time, absorbs all Windbite Bullets and fires 3 rounds of projectiles each covering expanding circular areas of the arena. Each projectile deals '''100% ATK''' as {{Color|AoE Anemo DMG}} upon landing.
+|desc_1     = Suspends itself midair and conjures 6 Windbite Bullets. After some time, absorbs all Windbite Bullets and fires 3 rounds of projectiles each covering expanding circular areas of the arena. Each projectile deals '''100% ATK''' as {{Color|Anemo DMG}} upon landing.
 * Windbite Bullets will be destroyed when hit by {{Cryo}}/{{Electro}}/{{Hydro}}/{{Pyro}} attacks.
 * If 2 Windbite Bullets are destroyed in succession, the Setekh Wenut will become paralyzed for ~10 seconds.
 * While paralyzed, it also loses '''45%''' [[RES]] to the elements that its Windbite Bullets were destroyed by.
 |file_1_2    = Setekh Wenut Floating State 2
 |caption_1_2 = Paralyzed
-|strat_1     = A {{Cryo}}/{{Electro}}/{{Hydro}}/{{Pyro}} [[Bow]] user, especially one matching the element of the team's primary damage dealer, is helpful in this fight for taking full advantage of the Setekh Wenut's paralysis. Alternatively, Coordinated Attacks from [[Raiden Shogun]]'s [[Transcendence: Baleful Omen|Elemental Skill]] or [[Swirl]] Elemental Reactions triggered on the boss itself can reliably hit the Windbite Bullets.
+|strat_1     = A {{Cryo}}/{{Electro}}/{{Hydro}}/{{Pyro}} [[Bow]] user, especially one matching the element of the team's primary damage dealer, is helpful in this fight for taking full advantage of the Setekh Wenut's paralysis. Alternatively, coordinated attacks from [[Raiden Shogun's Elemental Skill]] and [[Dehya's Elemental Skill]] or [[Swirl]] Elemental Reactions triggered on the boss itself can reliably hit the Windbite Bullets.
 }}
 
 ===AI Logic===
@@ -105,48 +117,54 @@ Phase 3 starts when the Setekh Wenut's [[HP]] reaches '''50%''', or when '''60''
 {| class="wikitable"
 ! Ability !! Priority !! Range Req. (m) !! style="width:80px" | CD (s) !! Initial CD (s) !! Shared CD (s) !! Action Interval (s) !! State Req.
 |-
-| Sweep || 5 || 0–20 || 0 || 2 || — || rowspan="15" | 0 || rowspan="3" | Phase 1
+| Sweep || 5 || 0–20 || 0 || 2 || &mdash; || rowspan="15" | 0 || rowspan="3" | Phase 1
 |-
-| Spit || 5 || 10–30 || 1–3 || 2 || —
+| Spit || 5 || 10–30 || 1–3 || 2 || &mdash;
 |-
-| Transition to Phase 2 || 1 || 0–999 || 0 || 20 || — 
+| Transition to Phase 2 || 1 || 0–999 || 0 || 20 || &mdash; 
 |-
-| P2 — Thrust || 5 || 0–999 || 38–39 || 0–1 || rowspan="2" | 38 || rowspan="4" | Phase 2
+| P2 &mdash; Thrust || 5 || 0–999 || 38–39 || 0–1 || rowspan="2" | 38 || rowspan="4" | Phase 2
 |-
-| P2 — Stream of Gales || 5 || 0–999 || 38–39 || 0–1
+| P2 &mdash; Stream of Gales || 5 || 0–999 || 38–39 || 0–1
 |-
-| P2 — Stormbreath || 5 || 0–999 || 35–36 || 16.5–17.5 || 35
+| P2 &mdash; Stormbreath || 5 || 0–999 || 35–36 || 16.5–17.5 || 35
 |-
-| P2 — Pressurized Beam || 5 || 0–999 || 38–39 || 38.5–39.5 || 38
+| P2 &mdash; Pressurized Beam || 5 || 0–999 || 38–39 || 38.5–39.5 || 38
 |-
-| Floating State || 1 || 0–999 || 50–60 || 0 || — || rowspan="8" | Phase 3
+| Floating State || 1 || 0–999 || 50–60 || 0 || &mdash; || rowspan="8" | Phase 3
 |-
-| P3 — Thrust 1 || 5 || 0–999 || 14–15 || 16–17 || rowspan="3" | 30
+| P3 &mdash; Thrust 1 || 5 || 0–999 || 14–15 || 16–17 || rowspan="3" | 30
 |-
-| P3 — Stream of Gales 1 || 5 || 0–999 || 14–15 || 16–17
+| P3 &mdash; Stream of Gales 1 || 5 || 0–999 || 14–15 || 16–17
 |-
-| P3 — Pressurized Beam 1 || 5 || 0–999 || 14–15 || 16–17
+| P3 &mdash; Pressurized Beam 1 || 5 || 0–999 || 14–15 || 16–17
 |-
-| P3 — Thrust 2 || 5 || 0–999 || 28–29 || 25–26 || rowspan="4" | 30
+| P3 &mdash; Thrust 2 || 5 || 0–999 || 28–29 || 25–26 || rowspan="4" | 30
 |-
-| P3 — Stream of Gales 2 || 5 || 0–999 || 28–29 || 25–26
+| P3 &mdash; Stream of Gales 2 || 5 || 0–999 || 28–29 || 25–26
 |-
-| P3 — Stormbreath || 5 || 0–999 || 28–29 || 25–26
+| P3 &mdash; Stormbreath || 5 || 0–999 || 28–29 || 25–26
 |-
-| P3 — Pressurized Beam 2 || 5 || 0–999 || 28–29 || 25–26
+| P3 &mdash; Pressurized Beam 2 || 5 || 0–999 || 28–29 || 25–26
 |}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Setekh Wenut}}
 
+==Tutorials==
+{{Tutorial|Setekh Wenut}}
+
 ==Descriptions==
-{{Description|An eyeless predator from deep within the Great Red Sand that uses sound and vibrations to seek out its prey.<br />Legend has it that in the ancient past before even the concept of time was created, these creatures thrived with their progenitors and offspring in a land of verdant grass and colossal trees, traversing through slick soil like fishes diving through the wet.<br />With the passage of eons, the gifts of heaven has long reduced the soils to sand, rendering a great many creatures extinct. This branch of their genus was able to survive by adapting more toward earth-based living, and became known as the "Wenut."<br />Some desert folk still mistakenly believe that sandworms are the final point of a quicksand eel's life cycle, likely due to superficial similarities between the species' behaviors.|[[Archive]]}}
+{{Description|An eyeless predator from deep within the [[Great Red Sand]] that uses sound and vibrations to seek out its prey.<br>Legend has it that in the ancient past before even the concept of [[Erosion|time]] was created, these creatures thrived with their [[Seven Sovereigns|progenitors]] and offspring in a land of verdant grass and colossal trees, traversing through slick soil like fishes diving through the wet.<br>With the passage of eons, the [[Celestial Nail|gifts]] of [[Celestia|heaven]] has long reduced the soils to sand, rendering a great many creatures extinct. This branch of their genus was able to survive by adapting more toward earth-based living, and became known as the "[[Wenut]]."<br>Some desert folk still mistakenly believe that sandworms are the final point of a [[Quicksand Eel|quicksand eel]]'s life cycle, likely due to superficial similarities between the species' behaviors.|[[Archive]]}}
+{{Description|An eyeless predator that dwells within the depths of the desert and uses sound and vibrations to seek out its prey.<br>They sometimes take on forms very similar to those of plants, and some say that this is because they were once the scions of the [[Apep|lord of plants]]. Others say that this is their way of fooling their prey to seek fruits or food in their deadly shade.|[[Adventurer Handbook]]}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=combat}}
 
 ==Lord of the Desert==
 {{Description|Legend has it that in the distant past, the scorching desert was once home to fragrant flowers and giant trees, and was inhabited by countless birds and beasts. Legend also has it that the only ones who remember it are the blind predators respectfully and fearfully referred to as "Wenut."}}
 [[File:Lord of the Desert.png|400px]]
 
-==Trivia==
 ===Etymology===
 {{Transclude|Land of Upper Setekh|Etymology}}{{Transclude|Wenut|Etymology}}
 
@@ -154,50 +172,56 @@ Phase 3 starts when the Setekh Wenut's [[HP]] reaches '''50%''', or when '''60''
 <gallery>
 Setekh Wenut Icon.png|Icon
 </gallery>
-
+<!--
 ==Video Guides==
 {{EVT
-|video1   = https://youtu.be/rnd0vVBmYiw
-|caption1 = Detailed and Easy Setekh Wenut Guide
+|video1   = 
+|caption1 = 
 }}
-
+-->
 ==Other Languages==
 {{Other Languages
-|en      = Setekh Wenut
-|zhs     = 风蚀沙虫
-|zhs_rm  = Fēngshí Shāchóng
-|zht     = 風蝕沙蟲
-|zht_rm  = Fēngshí Shāchóng
-|zh_tl   = Wind-Eroded Sand Worm
-|ja      = 風蝕ウェネト
-|ja_rm   = Fuushoku Weneto
-|ja_tl   = Wind-Eroded Wenut
-|ko      = 바람 침식 모래 벌레
-|ko_tl   = Wind Erosion Sand Worm
-|es      = Gusano de Sutej
-|es_tl   = Worm of Setekh
-|fr      = Wenut de Setekh
-|fr_tl   = Wenut of Setekh
-|ru      = Унут Сетеха
-|ru_tl   = Setekh Unut
-|th      = Setekh Wenut
-|vi      = Setekh Wenut
-|de      = Setekh Wenut
-|id      = Setekh Wenut
-|pt      = Verme de Areia Setekh
-|pt_tl   = 
-|tr      = Setekh Solucanı
-|tr_tl   = 
-|it      = Unut del Setekh
-|it_tl   = Setekh's Unut
+|en        = Setekh Wenut
+|zhs       = 风蚀沙虫
+|zhs_rm    = Fēngshí Shāchóng
+|zht       = 風蝕沙蟲
+|zht_rm    = Fēngshí Shāchóng
+|zh_tl     = Wind-Eroded {{Lex|Wenut|zh}}
+|ja        = 風蝕ウェネト
+|ja_rm     = Fuushoku Weneto
+|ja_tl     = Wind-Eroded Wenut
+|ko        = 바람 침식 모래 벌레
+|ko_tl     = Wind Erosion {{Lex|Wenut|ko}}
+|es        = Gusano de Sutej
+|es_tl     = Worm of Setekh
+|fr        = Wenut de Setekh
+|fr_tl     = Wenut of Setekh
+|ru        = Унут Сетеха
+|ru_tl     = Setekh {{Lex|Wenut|ru}}
+|th        = Setekh Wenut
+|vi        = Setekh Wenut
+|de        = Setekh Wenut
+|id        = Setekh Wenut
+|pt        = Verme de Areia Setekh
+|pt_tl     = <!--use {{Lex|Wenut|pt}}-->
+|tr        = Setekh Solucanı
+|tr_tl     = Setekh {{Lex|Wenut|tr}}
+|it        = Unut del Setekh
+|it_tl     = {{Lex|Wenut|it}} of Setekh
 }}
 
 ==Change History==
 {{Change History|3.4}}
 
+==References==
+{{Reflist}}
+
 ==Navigation==
 {{Enemy Navbox|Bosses}}
 
 [[es:Gusano de Sutej]]
+[[fr:Wenut de Setekh]]
+[[ja:風蝕ウェネト]]
 [[pt-br:Verme da Areia Setekh]]
 [[ru:Унут Сетеха]]
+[[zh:風蝕沙蟲]]

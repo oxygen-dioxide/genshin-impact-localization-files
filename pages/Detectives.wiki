@@ -1,0 +1,901 @@
+{{Stub|Verify Ending Hints}}
+{{Quest Infobox
+|id            = 19185
+|image         = Hangout Event Detectives.png
+|type          = Story
+|group         = Hangout Event
+|chapter       = Lynette
+|actNum        = I
+|act           = Checks & Cats
+|requirement   = 
+|characters    = Lynette; Traveler; Euphrasie; Bonnie; Bernard; Elodie; Lyney; Chevreuse; Chourei; Girard
+|startLocation = [[Court of Fontaine]], [[Fontaine]]
+|region        = Fontaine
+|area          = Court of Fontaine
+|subarea       = 
+|prev          = A Decision (Hangout Event)
+|next          = Closure
+|next2         = 
+|rewards       = 
+|otherRewards  = 
+|voiced        = yes
+}}
+'''''Detectives''''' is a quest in {{Quest|Checks & Cats}}.
+
+==Steps==
+# Go to [[The Steambird]]
+# Wait till the next morning (07:00 &ndash; 09:00)
+# Meet Lynette
+# Talk to Lynette
+# Go to the [[New Fontaine Research Institute]]
+# Go and check the suspicious location
+# Follow [[Bonnie]]
+# Defeat all opponents
+#* Wave 1: {{Enemy List|Assault Specialist Mek - Ousia; Recon Log Mek - Ousia*2}}
+#* Wave 2: {{Enemy List|Annihilation Specialist Mek - Ousia; Suppression Specialist Mek - Ousia}}
+# Go near the base
+# Investigate the clues in the base (0/3)
+# Talk to Lynette and the others
+# Head underwater and continue searching for clues
+# Go to your destination to search for clues
+# Talk to Lynette and the others
+# Go to [[Lumidouce Harbor]]
+# Go to the Humane Society
+# Hunt Bernard down
+# Interrogate Bernard
+# Attempt to close the case
+
+==Gameplay Notes==
+* During step 17, the party will be limited to a trial Lynette.
+* During step 19, each conclusion correctly deduced will add a +5 check bonus.
+* The following Ending Hints are available:
+** Before unlocking ''[[Closure]]'': {{tx}}
+** Before unlocking [[#Ending: Save the Kitty|Ending: Save the Kitty]]: Before the case can be broken, the situation seems to have changed...
+
+==Trial Character==
+{{Transclude|Mask|Trial Character}}
+
+==Dialogue==
+{{Quest Description|You decide to head to the newspaper agency...}}
+===The Forgotten Cat===
+{{Dialogue Start}}
+;(Talk to Euphrasie)
+:{{A|vo lntcop001 1918501 euphrasie 01.ogg}} '''Euphrasie:''' Every stupendous day starts with The Steambird! Oh, hi Lynette! Hi {{Traveler}}! What can I help you with?
+:{{DIcon}} We wanted to ask about the latest "Tales of Humanity" column...
+:{{DIcon}} Any commissions in there about a missing cat?
+:{{A|vo lntcop001 1918501 euphrasie 02.ogg}} '''Euphrasie:''' Hmm, I don't think so... Have you picked up a stray?
+:{{A|vo lntcop001 1918501 lynette 01.ogg}} '''Lynette:''' Yep. If there's no commission to follow up on, could we post a notice about the missing cat instead?
+:{{A|vo lntcop001 1918501 euphrasie 03.ogg}} '''Euphrasie:''' Why, of course! What a kind thing to do! Just fill out the form.
+:'''Bonnie:''' Meow!
+:{{A|vo lntcop001 1918501 lynette 02.ogg}} '''Lynette:''' Well, we've registered you as missing... You can stay at my place until your owner finds you.
+:'''Bonnie:''' Meeoow!
+:{{A|vo lntcop001 1918501 lynette 03.ogg}} '''Lynette:''' Also I just wanted to say... Thanks... for keeping us company for so long.
+:{{A|vo lntcop001 1918501 lynette 04.ogg}} '''Lynette:''' Well, I should probably head back to the drinks reception. Hopefully most of the people have left by now.
+:{{A|vo lntcop001 1918501 lynette 05.ogg}} '''Lynette:''' If you've got some time, you should stop by my place tomorrow to see Bonnie. There's a nice cup of tea in it for you.
+:{{DIcon}} Looking forward to it.
+:{{DIcon}} I'll be there!
+:{{A|vo lntcop001 1918501 lynette 06.ogg}} '''Lynette:''' Alright. See you then.
+{{Dialogue End}}
+
+{{Quest Description|update|You and Lynette have agreed on the time of your next meeting...}}
+{{Dialogue Start}}
+;(Wait until <nowiki>7:00</nowiki> &mdash; <nowiki>9:00</nowiki>)
+;(Approach Lynette)
+:{{A|vo lntcop001 1918504 benoit 01.ogg}} '''Bernard:''' ...I believe this cat belongs to me...
+:{{A|vo lntcop001 1918504 elodie 01.ogg}} '''Elodie:''' ...I already told you &mdash; this isn't your cat!
+:{{A|vo lntcop001 1918504 lynette 01.ogg}} '''Lynette:''' ...Just take a breather, you two...
+:'''Bonnie:''' Meow...
+:{{DIcon}} What's going on?
+:{{A|vo lntcop001 1918504 lynette 02.ogg}} '''Lynette:''' Oh, you're here... As you can probably see... You'll have to take a raincheck on that tea I promised you &mdash; at least for now.
+:{{A|vo lntcop001 1918504 elodie 02.ogg}} '''Elodie:''' ...This is my friend's cat! He's preoccupied with some important business, so I came to retrieve her in his stead.
+;(Passive Check succeeds)
+:;{{Color|Buzzword|(Insight Check Success)}} This lady's expression seems a bit unnatural...
+::'''{{Traveler}}:''' (The way she speaks is loud and authoritative... It's like she's deliberately using her tone of voice to dispel any doubts about her integrity.)
+:{{A|vo lntcop001 1918504 benoit 02.ogg}} '''Bernard:''' ...No, no. It's far more likely this cat, uh... escaped from the Humane Society.
+;(Passive Check succeeds)
+:;{{Color|Buzzword|(Insight Check Success)}} This gentleman's expression seems a bit unnatural...
+::'''{{Traveler}}:''' (The hesitation in his voice... It seems like he could be hiding something. His gaze keeps drifting off to the side. It's like he's trying to not draw attention to himself.)
+::{{DIcon}} How about... we let Bonnie decide?
+:{{A|vo lntcop001 1918504 benoit 03.ogg}} '''Bernard:''' Bonnie...?
+:{{A|vo lntcop001 1918504 lynette 03.ogg}} '''Lynette:''' Ah, that's the name I've given her in the meantime.
+:'''Bonnie:''' Meow!
+:{{DIcon|TCG}} [Animal Handling] (Let's see who Bonnie decides to approach...)
+:;(If the card drawn is less than 8)
+:::'''Bonnie:''' Meow...
+:::{{Black Screen|Bonnie instantly runs to hide behind Lynette, poking her head out ever so slightly to assess the situation...}}
+:;(If the card drawn is greater than or equal to 8)
+:::'''Bonnie:''' Meow!
+:::{{Black Screen|Bonnie happily runs up to you and begins to weave through your legs...}}
+:{{A|vo lntcop001 1918504 lynette 04.ogg}} '''Lynette:''' Well, this complicates things...
+:{{DIcon}} I didn't think she'd be so attached to you.
+:{{DIcon}} This is no way to tell who her owner is...
+:{{A|vo lntcop001 1918504 elodie 03.ogg}} '''Elodie:''' *sigh*... I told you before. This is my friend's cat. It's normal for her not to trust me.
+:{{A|vo lntcop001 1918504 benoit 04.ogg}} '''Bernard:''' Listen... I'm the director of the Humane Society, okay? We've got so many strays... dogs, cats &mdash; you name it. I'm not even the one feeding them most of the time... You can hardly expect the cat to recognize me...
+:{{DIcon}} ...Then how are you so sure she belongs to you?
+:{{A|vo lntcop001 1918504 benoit 05.ogg}} '''Bernard:''' She just... looked somewhat familiar, so I came to check just in case.
+:{{A|vo lntcop001 1918504 benoit 06.ogg}} '''Bernard:''' If she turns out to be one of ours, I'll take her back, simple as that. Even if that's not the case, the Humane Society could still take her in &mdash; if no one else comes to claim her, that is.
+:{{DIcon}} What's the Humane Society?
+:{{A|vo lntcop001 1918504 benoit 07.ogg}} '''Bernard:''' Ah, we're an organization that specializes in rescuing and sheltering stray animals. We've been in business for several decades now! I'm Bernard, the current director.
+:{{A|vo lntcop001 1918504 lynette 05.ogg}} '''Lynette:''' The Humane Society... Huh, the name sounds familiar. I remember hearing good things. You're the one in the Quartier Lyonnais?
+:{{A|vo lntcop001 1918504 benoit 08.ogg}} '''Bernard:''' Yes, yes! That's the one! Anyway, um, if it's not too much trouble, could I possibly take a closer look at the cat?
+:{{A|vo lntcop001 1918504 benoit 09.ogg}} '''Bernard:''' If it turns out I really am mistaken, I suppose that means the cat belongs to this lady here &mdash; she would be the only remaining option, after all.
+:{{A|vo lntcop001 1918504 elodie 04.ogg}} '''Elodie:''' ...It belongs to my friend!
+:{{DIcon}} (With us here to keep watch... it should be fine...)
+:{{A|vo lntcop001 1918504 lynette 06.ogg}} '''Lynette:''' Go on, Bonnie.
+:'''Bonnie:''' Meow...
+:{{A|vo lntcop001 1918504 benoit 10.ogg}} '''Bernard:''' Hmmm...
+:{{A|vo lntcop001 1918504 benoit 11.ogg}} '''Bernard:''' ...Ah, nope. Looks like I was mistaken. They do look similar, but there's an ever so slight difference in this one's fur color. Deepest apologies, friends.
+:{{A|vo lntcop001 1918504 benoit 12.ogg}} '''Bernard:''' ...Well, I suppose this means I still have a missing cat to search for! Apologies again for the confusion!
+:{{A|vo lntcop001 1918504 elodie 05.ogg}} '''Elodie:''' Hmph...
+:{{DIcon}} So... is this your friend's cat?
+:{{A|vo lntcop001 1918504 elodie 06.ogg}} '''Elodie:''' Hmm? Oh, uh... yes, exactly.
+:{{A|vo lntcop001 1918504 lynette 07.ogg}} '''Lynette:''' Wait a second &mdash; you lied earlier, didn't you?
+:{{A|vo lntcop001 1918504 elodie 07.ogg}} '''Elodie:''' ...Lied? I'm afraid I don't know what you mean.
+:{{A|vo lntcop001 1918504 lynette 08.ogg}} '''Lynette:''' A liar always has a tell &mdash; the look in their eyes, their breathing pattern, the way they hold themselves... The things that can give you away are often more numerous than you would think...
+:{{A|vo lntcop001 1918504 elodie 08.ogg}} '''Elodie:''' ...What are you talking about? The way I see it, you're conflating baseless conjecture with fact.
+:{{A|vo lntcop001 1918504 lynette 09.ogg}} '''Lynette:''' Normally, when someone is called out, their breathing speeds up as they begin to panic... But your breathing pattern hasn't changed one bit &mdash; in fact, it's been strangely calm and measured this entire time... It stands to reason, then, that your agitated behavior earlier was all an act.
+:{{A|vo lntcop001 1918504 lynette 10.ogg}} '''Lynette:''' If you're a bad guy, I'm sure you'll take off running the first chance you get. If you're a good guy... The most likely explanation is that you're a member of the [[Garde]]s or some similar organization.
+:{{A|vo lntcop001 1918504 elodie 09.ogg}} '''Elodie:''' And you're basing this off of...
+:{{A|vo lntcop001 1918504 lynette 11.ogg}} '''Lynette:''' ...Intuition, nothing more.
+:{{A|vo lntcop001 1918504 elodie 10.ogg}} '''Elodie:''' Hah... Intuition? Well, I have to hand it to you, Lynette...
+:{{A|vo lntcop001 1918504 elodie 11.ogg}} '''Elodie:''' You're right. I'm a member of the Gardes &mdash; the name's Elodie. I'm currently investigating a cross-border smuggling case. This cat here... "Bonnie" was her name? Well, her owner is one of the prime suspects of our investigation.
+:{{DIcon}} ...!
+:{{A|vo lntcop001 1918504 elodie 12.ogg}} '''Elodie:''' A couple of days ago, our suspect got wind that we were on his tail and fled. That's most likely how he got separated from the cat.
+:{{A|vo lntcop001 1918504 elodie 13.ogg}} '''Elodie:''' I just so happened to stumble upon your notice in The Steambird, so I decided to see if he'd come back for her... But, it looks like I overestimated him.
+:{{DIcon}} If I were on the run...
+:{{DIcon}} I don't think I'd come back either...
+:{{A|vo lntcop001 1918504 elodie 14.ogg}} '''Elodie:''' The impact of this case has been huge. The [[Marechaussee Phantom]], the Gardes, and the [[Special Security and Surveillance Patrol|Special Patrol]] have all launched investigations. If there was even the slightest chance that he would show himself, I had to follow up on the lead.
+:{{DIcon}} So, what's being smuggled?
+:{{A|vo lntcop001 1918504 elodie 15.ogg}} '''Elodie:''' ...A new kind of illegal drug: Imitation Sinthe.
+:{{A|vo lntcop001 1918504 elodie 16.ogg}} '''Elodie:''' We confiscated all the [[Sinthe]] on the market, but addiction isn't something that goes away overnight. Even without substances on the market, people are still looking for a way to get their next fix.
+:{{A|vo lntcop001 1918504 elodie 17.ogg}} '''Elodie:''' And criminals... are all too eager to capitalize on that addiction. That was the impetus for Imitation Sinthe. Needless to say, a small-scale market opened up very quickly...
+:{{A|vo lntcop001 1918504 elodie 18.ogg}} '''Elodie:''' After the original Sinthe debacle, we put several measures into place to prevent similar incidents from occurring. The perpetrators got smart, though, and shifted their sales overseas before those measures could kick in. That's when the Imitation Sinthe smuggling began.
+:{{A|vo lntcop001 1918504 elodie 19.ogg}} '''Elodie:''' We only recently got word of the presence of Imitation Sinthe overseas. We managed to track down evidence of some early transactions. What we were able to find out, however, hasn't proven that useful given the amount of time that has passed.
+:{{A|vo lntcop001 1918504 elodie 20.ogg}} '''Elodie:''' The Marechaussee Phantom launched an investigation to track down every person in Fontaine capable of producing a drug like that. That's how we learned about Bonnie's owner...
+:{{DIcon}} Who is he exactly?
+:{{A|vo lntcop001 1918504 elodie 21.ogg}} '''Elodie:''' He's a researcher at the Fontaine Research Institute. His name is Pierre... Pierre Lefevere, to be exact.
+:{{A|vo lntcop001 1918504 lynette 12.ogg}} '''Lynette:''' Lefevere!
+;(If Passive Check succeeds)
+:;{{Color|Buzzword|(Insight Check Success)}} Lynette's expression seems a bit unnatural...
+::'''{{Traveler}}:''' (A slight look of dread just crossed Lynette's face... Strange, she usually schools her expressions with mechanical precision...)
+:{{A|vo lntcop001 1918504 elodie 22.ogg}} '''Elodie:''' ...The Marechaussee Phantom found him in Poisson. In addition to the cat, he also had a pendant with him.
+:[[File:Detectives Pendant.png|200px]]
+:{{A|vo lntcop001 1918504 elodie 23.ogg}} '''Elodie:''' At first, there wasn't much cause for suspicion. A search of his house didn't reveal much to go off of either. The Marechaussee Phantom very nearly left it at that.
+:{{A|vo lntcop001 1918504 elodie 24.ogg}} '''Elodie:''' It was only later that we realized the coat of arms on his pendant... belonged to none other than the Lefevere family, one of the most infamous aristocratic families in Fontaine.
+:{{A|vo lntcop001 1918504 elodie 25.ogg}} '''Elodie:''' ...Obviously, this discovery prompted a further investigation into Pierre. At that point, however, we discovered that he had already fled. Now, the Gardes and the Special Patrol are all searching for him.
+:{{DIcon}} Could his family be hiding him?
+:{{A|vo lntcop001 1918504 lynette 13.ogg}} '''Lynette:''' That's not possible, actually. The Lefevere family... has been gone for a long time.
+:{{A|vo lntcop001 1918504 elodie 26.ogg}} '''Elodie:''' Exactly... Many years ago, several important members of the family, including the patriarch, were murdered by an assassin of unknown origin. From that point on, the family's power and influence took quite the hit.
+:{{A|vo lntcop001 1918504 elodie 27.ogg}} '''Elodie:''' The family has engaged in all manner of crimes. As you can imagine, there's no shortage of people waiting in the wings to take their revenge. And with the family severely weakened, they were able to do just that. Most of the remaining family members succumbed to sickness or hunger. The ones that survived are currently living out their days under a new identity.
+:{{A|vo lntcop001 1918504 elodie 28.ogg}} '''Elodie:''' Pierre is one of those very survivors. He's been hiding away in the Fontaine Research Institute all these years, his true identity unbeknownst to all... until now, that is.
+:{{DIcon}} Is it really okay to share all this information with us?
+:{{A|vo lntcop001 1918504 elodie 29.ogg}} '''Elodie:''' ...Well, my fellow Gardes have told me all about how smart and courageous you both are, and I know you possess a strong sense of justice.
+:{{A|vo lntcop001 1918504 elodie 30.ogg}} '''Elodie:''' There could be a chance that Pierre, or one of his accomplices, might attempt to get close to Bonnie. Now that you've been briefed on the situation, I was hoping you'd help us keep a lookout.
+:'''Bonnie:''' Meow...?
+:{{A|vo lntcop001 1918504 elodie 31.ogg}} '''Elodie:''' If I take Bonnie back to the Gardes with me, there's no way Pierre will try and come for her &mdash; not even the most daring of criminals would attempt something like that.
+:'''{{Traveler}}:''' (So we should keep Bonnie with us for the time being?)
+:{{A|vo lntcop001 1918504 elodie 32.ogg}} '''Elodie:''' I have to admit &mdash; I'm not holding out too much hope that Pierre will come back for her... But if there's even the slightest chance, then it's worth a shot.
+:{{A|vo lntcop001 1918504 elodie 33.ogg}} '''Elodie:''' Well, I've got some other leads to follow up on. If Pierre does appear, please contact me right away.
+:{{A|vo lntcop001 1918505 lynette 01.ogg}} '''Lynette:''' ...
+:{{DIcon}} What's wrong?
+:{{DIcon}} You don't look so good...
+:{{A|vo lntcop001 1918505 lynette 02.ogg}} '''Lynette:''' ...It's nothing. I'm fine.
+:{{A|vo lntcop001 1918505 lynette 03.ogg}} '''Lynette:''' It's just... The head of the Lefevere family &mdash; he was the "eminent person" who kidnapped me all those years ago.
+:{{A|vo lntcop001 1918505 lynette 04.ogg}} '''Lynette:''' ...It was at a dinner party. Someone tricked me into boarding the Lefevere family carriage. Whoever it was, they took me back to their home.
+:{{A|vo lntcop001 1918505 lynette 05.ogg}} '''Lynette:''' ...But, before anything worse could happen, [[Arlecchino|"Father"]] intervened.
+:{{DIcon}} So that's what happened...
+:{{DIcon}} Then the assassin Elodie mentioned...
+:{{A|vo lntcop001 1918505 lynette 06.ogg}} '''Lynette:''' Yep. Father was the one who orchestrated the fall of the Lefevere family. That's what led Lyney and I to join the [[House of the Hearth]].
+:{{A|vo lntcop001 1918505 lynette 07.ogg}} '''Lynette:''' After all these years... I never thought I'd hear the Lefevere name again.
+:{{DIcon}} ...Are you okay?
+:'''Bonnie:''' ...Meow?
+:{{A|vo lntcop001 1918505 lynette 08.ogg}} '''Lynette:''' Don't worry about me. I wasn't feeling sorry for myself... I was just thinking about Lyney.
+:{{A|vo lntcop001 1918505 lynette 09.ogg}} '''Lynette:''' He's been acting strange recently... He avoids me for days on end, consumes himself with some secret investigation, and then out of the blue pushes me to do that acting job...
+:{{A|vo lntcop001 1918505 lynette 10.ogg}} '''Lynette:''' Thinking about it now... It's almost like the "1" I drew from that deck of cards was part of his plan all along. He must have asked [[Freminet]] to help him out. In any case, I know he's hiding something from me. He's really pulled out all the stops this time.
+:{{DIcon}} You think he knows about Pierre?
+:{{A|vo lntcop001 1918505 lynette 11.ogg}} '''Lynette:''' It's very possible. I'm sure he tried to send me away because he was afraid it would bring up some painful memories for me... It wasn't necessary, though.
+:{{A|vo lntcop001 1918505 lynette 12.ogg}} '''Lynette:''' ...Even after all these years, he's still as overprotective as ever.
+:{{A|vo lntcop001 1918505 lynette 13.ogg}} '''Lynette:''' You'll have to help me teach him a lesson if we run into him along the way.
+:{{DIcon}} Along the way? Are we going somewhere?
+:{{A|vo lntcop001 1918505 lynette 14.ogg}} '''Lynette:''' Yep. I want to head to the Fontaine Research Institute to learn more information about Pierre. Just let me activate search mode, and then we'll head out... Who knows &mdash; maybe we'll run into Lyney along the way.
+:{{DIcon}} Are you trying to help out Lyney with his investigation?
+:{{DIcon}} Or are you trying to prove yourself?
+:{{A|vo lntcop001 1918505 lynette 15.ogg}} '''Lynette:''' A little bit of both, perhaps. For the most part, though, I just have this sense that something's not right. Something isn't adding up about Pierre's story... I'm just not sure what...
+:{{DIcon}} I also want to know what secrets he's hiding...
+:{{DIcon}} Sometimes, you've just got to take the bull by the horns, right?
+:'''Bonnie:''' Meow!
+:{{A|vo lntcop001 1918505 lynette 16.ogg}} '''Lynette:''' Okay, I'll write a letter explaining everything to the crew. Once that's done, we can head out.
+{{Dialogue End}}
+
+===Lefevere's Curse===
+{{Quest Description|update|Bonnie's "master" seems to be a problematic character. You decide to investigate...}}
+{{Dialogue Start}}
+;(Approach Lyney and [[Chevreuse]])
+:{{A|vo lntcop001 1918506 lyney 01.ogg}} '''Lyney:''' Lynette...! Y&mdash;You're, uh, not at rehearsal?
+:{{A|vo lntcop001 1918506 lynette 01.ogg}} '''Lynette:''' ...You can drop the act, Brother. In fact, I don't think either of us will have a need for acting any time soon. You should know better than to try and keep something from me &mdash; you've never been able do to that, even when we were kids.
+:{{A|vo lntcop001 1918506 lyney 02.ogg}} '''Lyney:''' *sigh*... And that's why I tried to distract you with the masked mime show... But I guess you're just too good.
+:{{A|vo lntcop001 1918506 lynette 02.ogg}} '''Lynette:''' Care to introduce us to your "new assistant"?
+:{{A|vo lntcop001 1918506 lyney 03.ogg}} '''Lyney:''' Ahem... This is Officer Chevreuse, captain of the Special Security and Surveillance Patrol. You may have met her already...
+;(If the player has met Chevreuse)
+::{{DIcon}} We meet again.
+::{{A|vo lntcop001 1918506 chevreuse 01.ogg}} '''Chevreuse:''' Nice to see you.
+;(If the player has not met Chevreuse){{Verify}}
+::{{DIcon}} Hello.
+::{{A|vo lntcop001 1918506 chevreuse 02.ogg}} '''Chevreuse:''' It's an honor to meet you. I have to admit &mdash; I'm quite familiar with you both already.
+:{{A|vo lntcop001 1918506 chevreuse 03.ogg}} '''Chevreuse:''' ...I should clarify something &mdash; Mr. Lyney's here at my invitation, not the other way around. To borrow your expression, Miss Lynette, I suppose that would make him "my" assistant more than anything.
+:{{A|vo lntcop001 1918506 chevreuse 04.ogg}} '''Chevreuse:''' We've brought on Mr. Lyney as a consultant in the past. He was instrumental in helping us crack a case involving a perpetrator who used magic tricks to commit crimes. I was hoping he'd be able to provide some valuable insight this time around as well.
+:{{DIcon}} Are you here because of the Lefevere case?
+:{{A|vo lntcop001 1918506 lyney 05.ogg}} '''Lyney:''' Ah, so you've... heard everything then?
+:{{A|vo lntcop001 1918506 chevreuse 05.ogg}} '''Chevreuse:''' That's exactly why we're here. There's always been questions surrounding the fall of the Lefevere family. Some people even believe the House of the Hearth was involved.
+:{{A|vo lntcop001 1918506 chevreuse 06.ogg}} '''Chevreuse:''' Whoever was behind it all was extremely cautious. They didn't leave a shred of evidence... This very fact, however, leads me to believe it was indeed the work of that Harbinger.
+:{{A|vo lntcop001 1918506 chevreuse 07.ogg}} '''Chevreuse:''' I took a look at the entrance and exit records of all the carriages that night. Let's just say, it wasn't hard to deduce that there's ill-will between you two.
+:{{A|vo lntcop001 1918506 chevreuse 08.ogg}} '''Chevreuse:''' Don't worry. I don't have any evidence to that effect, and I certainly don't plan on going to bat for such a despicable family. Plus, you were victims back then more than anything.
+:{{A|vo lntcop001 1918506 chevreuse 09.ogg}} '''Chevreuse:''' I sought Mr. Lyney's help with the smuggling case, nothing more.
+:{{DIcon}} ...You're really teaming up with the House of the Hearth?
+:{{A|vo lntcop001 1918506 chevreuse 10.ogg}} '''Chevreuse:''' The way I look at it &mdash; it's a collaboration between us as people, not the organizations we represent. Besides, by working together, we can expose the truth as quickly as possible &mdash; you can hardly say that's at odds with the justice my organization strives for.
+:{{DIcon}} I'm assuming you wouldn't be opposed to some extra help?
+:{{A|vo lntcop001 1918506 chevreuse 11.ogg}} '''Chevreuse:''' Not at all. I was planning to invite you from the very beginning, Miss Lynette... It's just that my "assistant" here raised some objections.
+:{{A|vo lntcop001 1918506 lyney 06.ogg}} '''Lyney:''' ...
+:{{A|vo lntcop001 1918506 lynette 03.ogg}} '''Lynette:''' ...Lyney, I'm not the same person I was back then.
+:{{A|vo lntcop001 1918506 lynette 04.ogg}} '''Lynette:''' That little girl who did nothing but cower in the corner in fear &mdash; she doesn't need saving anymore.
+:{{DIcon}} I know you want to protect your little sister...
+:{{DIcon}} But little sisters don't stay little forever.
+:{{A|vo lntcop001 1918506 lyney 07.ogg}} '''Lyney:''' ...*sigh*
+:{{A|vo lntcop001 1918506 lyney 08.ogg}} '''Lyney:''' I'm sorry, Lynette. You're right. I let my concerns get the better of me.
+:{{A|vo lntcop001 1918506 lynette 05.ogg}} '''Lynette:''' Oh, and the next time you want to distract me... you should try a different approach.
+:'''Bonnie:''' Meow!
+:{{A|vo lntcop001 1918506 lyney 09.ogg}} '''Lyney:''' Who's this? You pick up a stray while I was gone?
+:{{A|vo lntcop001 1918506 lynette 06.ogg}} '''Lynette:''' Uh... It's a bit complicated. I'll explain later. Anyway, her name's Bonnie.
+:{{A|vo lntcop001 1918506 chevreuse 12.ogg}} '''Chevreuse:''' Well, if there are no objections, then I suppose the only thing left to say is... Lynette, {{Traveler}} &mdash; welcome to the team.
+:{{Black Screen|Chevreuse and Lyney share with you what they've learned over the past few days...}}
+:{{A|vo lntcop001 1918506 lyney 10.ogg}} '''Lyney:''' ...It appears the Lefevere family was very particular in their use of insignias and emblems.
+:{{A|vo lntcop001 1918506 lyney 11.ogg}} '''Lyney:''' The family would use different emblems to mark differences in status, blood relation, and the like. In fact, the insignia that was discovered on the pendant was used to represent an illegitimate child.
+:{{DIcon}} So that would mean... Pierre is a bastard child?
+:{{A|vo lntcop001 1918506 chevreuse 13.ogg}} '''Chevreuse:''' It's highly likely. That very status might have been what allowed him to emerge from the fall of his family relatively unscathed. It would also explain why he was able to assume a new identity as a researcher with relative ease.
+:{{A|vo lntcop001 1918506 lyney 12.ogg}} '''Lyney:''' We discovered something interesting, though. After talking to some of his coworkers, it appears he pretty much works at the Institute in name only. He's practically been cast out.
+:{{DIcon}} Wait, what happened?
+:{{A|vo lntcop001 1918506 chevreuse 14.ogg}} '''Chevreuse:''' Apparently, Pierre was once addicted to Sinthe. He tried to use the resources at the Institute to create a substance with a similar effect.
+:{{A|vo lntcop001 1918506 chevreuse 15.ogg}} '''Chevreuse:''' He claimed it was just for research purposes, but the Institute revoked his access to the relevant materials regardless. He was placed on disciplinary leave pending a thorough investigation of his actions.
+:{{A|vo lntcop001 1918506 chevreuse 16.ogg}} '''Chevreuse:''' But, it seems the Institute ran into some trouble along the way. Could have been a lack of personnel or a timing issue. In any case, they had to table their formal investigation into Pierre. Unfortunately, that also included reporting any relevant information to the higher authorities.
+:{{A|vo lntcop001 1918506 chevreuse 17.ogg}} '''Chevreuse:''' As for his family background, it appears none of his coworkers at the Institute were aware of that information. All they could tell us was that he was quite the recluse.
+:{{DIcon}} Hmm, maybe we'll have to take our investigation elsewhere then...
+:{{DIcon}} Did you find anything useful at his residence?
+:{{A|vo lntcop001 1918506 chevreuse 18.ogg}} '''Chevreuse:''' Other than the pendant, we didn't find anything else of note at his residence in [[Poisson]].
+:{{A|vo lntcop001 1918506 chevreuse 19.ogg}} '''Chevreuse:''' Based on the samples of Imitation Sinthe we've been able to analyze, it appears the substance leaves behind strong traces wherever it's produced or stored.
+:{{A|vo lntcop001 1918506 chevreuse 20.ogg}} '''Chevreuse:''' Those traces might not be obvious to the casual observer, but they're not something our Guard Poodles would miss. Pierre's home, though... came up completely clean.
+:{{A|vo lntcop001 1918506 chevreuse 21.ogg}} '''Chevreuse:''' We didn't find any records indicating possible involvement in overseas transactions, either. So, the Marechaussee Phantom didn't view him as a major suspect at first.
+:{{A|vo lntcop001 1918506 lynette 07.ogg}} '''Lynette:''' Hmm... Maybe he had a separate, dedicated area where he made the Imitation Sinthe?
+:{{A|vo lntcop001 1918506 lyney 13.ogg}} '''Lyney:''' Well, his neighbors did say he was often gone for long stretches of time. You would think, with him out and about so much, people would have spotted him around Poisson, but residents said they barely ever saw him in town.
+:{{A|vo lntcop001 1918506 lyney 14.ogg}} '''Lyney:''' If his reclusive nature was just a matter of keeping a low profile, I guess it would make sense for him to have a secret base to carry out his business.
+:{{A|vo lntcop001 1918506 chevreuse 22.ogg}} '''Chevreuse:''' ...After he disappeared, the Gardes conducted a thorough search of Poisson, but they didn't come across any suspicious locations.
+:{{A|vo lntcop001 1918506 lynette 08.ogg}} '''Lynette:''' Poisson...
+:{{DIcon}} ...What is it, Lynette?
+:{{A|vo lntcop001 1918506 lynette 09.ogg}} '''Lynette:''' ...You know [[Hotel Debord]], where I first found Bonnie? To get there from Poisson, you have to cross a stretch of ocean... It's not somewhere a cat could just wander off on its own.
+:{{A|vo lntcop001 1918506 chevreuse 23.ogg}} '''Chevreuse:''' A cat? You mean...
+:'''Bonnie:''' Meow!
+:{{A|vo lntcop001 1918506 lynette 10.ogg}} '''Lynette:''' Bonnie is Pierre's cat.
+:{{A|vo lntcop001 1918506 chevreuse 24.ogg}} '''Chevreuse:''' Oh, that's right! When the Marechaussee Phantom first tracked him down, I remember there being something about a cat in their report... So this is her?
+:{{A|vo lntcop001 1918506 lyney 15.ogg}} '''Lyney:''' From what we've learned about Pierre's habits, he doesn't seem like the type to venture out without a purpose... So what you're saying, Lynette, is that Bonnie couldn't have gone missing in Poisson. If that's true, then...
+:{{DIcon}} She must have wandered off only after Pierre brought her to his secret base.
+:{{A|vo lntcop001 1918506 lynette 11.ogg}} '''Lynette:''' Exactly. Bonnie might even know where it is.
+:{{A|vo lntcop001 1918506 chevreuse 25.ogg}} '''Chevreuse:''' Wait... you think the cat can lead us there? But, she's not trained like one of our Guard Poodles. How is she supposed to understand what we want her to do?
+:{{DIcon}} Lynette could give it a try.
+::{{A|vo lntcop001 1918506 lynette 14.ogg}} '''Lynette:''' Meow... Meow meow. Meow...?
+:{{DIcon|TCG}} [Animal Handling] I can give it a go... Meow... Meow meow...
+:;(If the card drawn is less than 12)
+:::{{Black Screen|Startled, Bonnie rushes to hide behind Lynette... She stays there for quite some time before reluctantly emerging from her hiding place...}}
+:::{{A|vo lntcop001 1918506 lynette 12.ogg}} '''Lynette:''' ...Ah, guess she's a little skittish around strangers.
+:::{{DIcon}} I'll leave it to you, then...
+:::{{A|vo lntcop001 1918506 lynette 13.ogg}} '''Lynette:''' Meow... Meow meow. Meow...?
+:;(If the card drawn is greater than or equal to 12)
+::;(Dialogue continues)
+:'''Bonnie:''' Meow!
+:{{Black Screen|Bonnie seems to understand what you want her to do... She flicks her tail and meows loudly in the direction of the cliffs and the coast.}}
+:{{A|vo lntcop001 1918506 lynette 15.ogg}} '''Lynette:''' Hmm, near the coast... the beach... and beneath the cliffs... The place we're looking for is most likely north of the Court of Fontaine...
+:{{A|vo lntcop001 1918506 chevreuse 26.ogg}} '''Chevreuse:''' ...Well, I've certainly never taken a witness statement like this before.
+:{{A|vo lntcop001 1918506 lyney 16.ogg}} '''Lyney:''' Haha... Well, if it works out, maybe it's something worth getting used to.
+:{{A|vo lntcop001 1918506 lynette 16.ogg}} '''Lynette:''' Cats and humans are actually pretty alike &mdash; when it comes to communication, most of what we want to convey can be accomplished through body language alone. But humans tend to rely too much on speech to ever take advantage of that fact...
+:{{A|vo lntcop001 1918506 lynette 17.ogg}} '''Lynette:''' ...Of course, body language has its limitations. You're not gonna be able to get across anything too complicated...
+:{{A|vo lntcop001 1918506 lyney 17.ogg}} '''Lyney:''' The important thing is that we now have a lead. Let's try and find the place that matches the clues Bonnie gave us.
+
+;(Approach the marked location)
+:'''Bonnie:''' Meow!
+:{{A|vo lntcop001 1918507 lynette 01.ogg}} '''Lynette:''' Seems like Bonnie is trying to take us somewhere...
+
+;(After following Bonnie)
+:{{A|vo lntcop001 1918502 lynette 01.ogg}} '''Lynette:''' Gardemeks ahead!
+:{{A|vo lntcop001 1918502 lyney 01.ogg}} '''Lyney:''' Look out!
+{{Dialogue End}}
+
+===Pierre's Lost Base===
+{{Dialogue Start}}
+;(Approach the base)
+:{{A|vo lntcop001 1918509 chevreuse 01.ogg}} '''Chevreuse:''' Wow, Lynette. You found this place so easily. If I thought there was any chance you'd say yes, I'd recruit you into the Special Patrol here and now &mdash; no questions asked.
+:{{A|vo lntcop001 1918509 lyney 01.ogg}} '''Lyney:''' Haha, sounds familiar. I pretty much receive letters daily from people trying to poach her from me.
+:{{A|vo lntcop001 1918509 lynette 01.ogg}} '''Lynette:''' ...Let's just focus on our search. There's a lot to investigate.
+
+;(Investigate the bottles near Chevreuse)
+:{{A|vo lntcop001 1918511 chevreuse 01.ogg}} '''Chevreuse:''' Aha, just as we thought &mdash; this is where the Imitation Sinthe was being made...
+:{{DIcon}} These bottles and jars... They're all Imitation Sinthe?
+:{{A|vo lntcop001 1918511 chevreuse 02.ogg}} '''Chevreuse:''' ...Looks like he's got more than just Imitation Sinthe stashed around here... In addition to the raw materials needed to synthesize the substance itself, there's a large quantity of cleaning agents and a few drugs I haven't been able to identify.
+:{{A|vo lntcop001 1918511 chevreuse 03.ogg}} '''Chevreuse:''' These cleaning agents are likely used to dispel traces of the substance... like its smell.
+:{{A|vo lntcop001 1918511 chevreuse 04.ogg}} '''Chevreuse:''' The Special Patrol did some digging into Imitation Sinthe. Our records indicate that it's very difficult for ordinary people to detect traces left behind by this stuff. I'm sure that was the case for Pierre as well.
+:{{A|vo lntcop001 1918511 chevreuse 05.ogg}} '''Chevreuse:''' It must have taken a considerable amount of time and skill to ensure all those traces get washed away.
+:{{A|vo lntcop001 1918511 chevreuse 06.ogg}} '''Chevreuse:''' But what are these other drugs for...
+
+;(Talk to Chevreuse again, optional)
+:{{A|vo lntcop001 1918511 chevreuse 07.ogg}} '''Chevreuse:''' But what are these other drugs for...
+
+;(Investigate the bags near Lyney)
+:{{A|vo lntcop001 1918512 lyney 01.ogg}} '''Lyney:''' The material these bags are made of... It's quite rare...
+:{{DIcon}} Doesn't it look similar to the material used for your [[Magic Pocket]]s?
+:{{A|vo lntcop001 1918512 lyney 02.ogg}} '''Lyney:''' ...It's the very same, actually &mdash; [[Romaritime Flower]] fiber. But, there's something special about the composition of these bags. I took a closer look, and it appears they're not only waterproof but also corrosion and leak-resistant.
+:{{A|vo lntcop001 1918512 lyney 03.ogg}} '''Lyney:''' Even the strings look specially designed to keep the bags closed nice and tight.
+:{{A|vo lntcop001 1918512 lyney 04.ogg}} '''Lyney:''' I came across some bags made of the same material just now, but they were much smaller and thinner. From the look of them, they seemed far less durable as well.
+:{{DIcon}} So... kind of like one of those small, sealed bags?
+:{{A|vo lntcop001 1918512 lyney 05.ogg}} '''Lyney:''' ...Very similar, actually. Normally, it would be easy for a Guard Poodle to sniff out the Imitation Sinthe, but if it was sealed away in a bag like that, it might be possible to elude detection for some time.
+:{{A|vo lntcop001 1918512 lyney 06.ogg}} '''Lyney:''' But what could these big bags be for then... If the goal is to keep the Imitation Sinthe hidden and sealed away, these bags seem a bit too conspicuous...
+
+;(Talk to Lyney again, optional)
+:{{A|vo lntcop001 1918512 lyney 07.ogg}} '''Lyney:''' But what could these big bags be for then... If the goal is to keep the Imitation Sinthe hidden and sealed away, these bags seem a bit too conspicuous...
+
+;(Investigate the barrels near Lynette)
+:{{A|vo lntcop001 1918510 lynette 01.ogg}} '''Lynette:''' ...When the Marechaussee Phantom searched Pierre's house, there was no sign of these barrels, right?
+:{{DIcon}} He must've moved them. But carrying them all the way out here would attract way too much attention.
+:{{A|vo lntcop001 1918510 lynette 02.ogg}} '''Lynette:''' You're right. That doesn't seem like his way of doing things... How did he get them here then?
+:{{DIcon}} (Examine the barrels...)
+:'''Examine Barrels:''' (The barrels show signs of water damage. Dried-up water stains can be seen around the circumference of the barrels...)
+:'''Examine Barrels:''' (There seems to be a pattern to the location of the water stains. For some reason, they appear to be limited to the lower half of the barrels.)
+:'''Examine Barrels:''' (The lids don't seem very tight, leaving sizeable gaps around the edges. But, there doesn't appear to be any traces of water inside the barrels.)
+:{{A|vo lntcop001 1918510 lynette 03.ogg}} '''Lynette:''' Only the lower halves of the barrels appear to have been submerged in water...
+
+;(Talk to Lynette again, optional)
+:{{A|vo lntcop001 1918510 lynette 04.ogg}} '''Lynette:''' Only the lower halves of the barrels appear to have been submerged in water...
+
+;(After the player has investigated all three)
+:{{A|vo lntcop001 1918513 chevreuse 01.ogg}} '''Chevreuse:''' ...Based on the various ingredients we've found, this appears to be where Pierre was cooking up his Imitation Sinthe.
+:{{A|vo lntcop001 1918513 chevreuse 02.ogg}} '''Chevreuse:''' It looks like he used a special cleaning agent to get rid of any residual traces of the substance on his person before he left. That's how he was able to get past the Guard Poodles.
+:{{DIcon}} That's why the Marechaussee Phantom didn't find anything suspicious in his home...
+:{{A|vo lntcop001 1918513 lyney 01.ogg}} '''Lyney:''' ...So then he transferred the Imitation Sinthe into small, sealed bags and took it somewhere else for the dropoff?
+:{{A|vo lntcop001 1918513 chevreuse 03.ogg}} '''Chevreuse:''' No. I don't believe our suspect is the kind of person who'd go around carrying incriminating evidence with him. That would potentially create too many eyewitnesses.
+:{{A|vo lntcop001 1918513 chevreuse 04.ogg}} '''Chevreuse:''' The cleaning agent and the sealed bags might get past the Guard Poodles, but if a member of the public or even a Garde on patrol happened to see him during the dropoff, a quick search would reveal everything. That's still a very risky operation.
+:{{DIcon}} What about if the dropoff happened at sea? There'd be no one around to see him.
+:{{A|vo lntcop001 1918513 lynette 01.ogg}} '''Lynette:''' ...The barrels we found were wet around the base, but the top half was dry... As if they'd been standing upright in the water.
+:[[File:Detectives Barrels 1.png|200px]]
+:{{A|vo lntcop001 1918513 lynette 02.ogg}} '''Lynette:''' Hmm... If you put a barrel in the water, it will normally float on its side. Unless it's heavily loaded, in which case it'll sink.
+:{{DIcon}} So he must have used something...
+::{{DIcon}} ...Turning them into airtight flotation devices.
+:{{DIcon}} ...To tightly seal big bags full of air...
+::{{DIcon}} ...Turning them into airtight flotation devices.
+:{{A|vo lntcop001 1918513 lyney 02.ogg}} '''Lyney:''' Yes... With flotation rings around the body of the barrels, they'd stay upright in the water. And then, he could afford to load them more fully.
+:[[File:Detectives Barrels 2.png|200px]]
+:{{A|vo lntcop001 1918513 chevreuse 05.ogg}} '''Chevreuse:''' You think he used floating barrels? Hmm, I suppose if he acted at night, when there are very few other boats around, and visibility is low... It's a valid theory. We can't rule it out.
+:{{A|vo lntcop001 1918513 lyney 03.ogg}} '''Lyney:''' But then, wouldn't the barrels be carried off by the waves, or the currents? How would the person doing the pickup know where to look?
+:{{DIcon}} Barrels that could float away and get lost at sea...
+:{{DIcon}} Sounds difficult to keep in one place. Kind of like certain pets...
+:'''Bonnie:''' Meow...
+:{{A|vo lntcop001 1918513 lynette 03.ogg}} '''Lynette:''' ...{{Traveler}}, can you come take a dip in the sea with me? I have a feeling that somewhere down there... we might find some rope. If a rope can be used to keep a pet from running away... then why not a barrel?
+----
+;(Talk to Chevreuse, optional)
+:{{A|vo lntcop001 1918513 chevreuse 06.ogg}} '''Chevreuse:''' I can't believe how much progress we're making with this investigation... Without your help, getting this far would have taken me an awful lot of time and manpower.
+
+;(Talk to Lyney, optional)
+:{{A|vo lntcop001 1918513 lyney 04.ogg}} '''Lyney:''' It's rare to see Lynette in serious mode... I wonder how long she'll keep it activated for.
+
+;(Investigate the boat)
+:{{A|vo lntcop001 1918513 lynette 04.ogg}} '''Lynette:''' (The wreckage of a small boat...?)
+
+;(Investigate near the rocks)
+:{{A|vo lntcop001 1918513 lynette 05.ogg}} '''Lynette:''' (This isn't the place...)
+
+;(If a certain amount of time passes)
+:;{{Color|Buzzword|(Perception Check Success)}} There seems to be something odd over there...
+
+;(Investigate the rock with rope tied around it)
+:{{A|vo lntcop001 1918513 lynette 07.ogg}} '''Lynette:''' (Got it. Time to go up and report.)
+
+;(Approach the base)
+:{{A|vo lntcop001 1918515 lynette 01.ogg}} '''Lynette:''' ...As expected, we found a few pieces of rope and some anchoring stones underwater. If you attach them to a floating barrel... It would look like this.
+:[[File:Detectives Barrels 3.png|200px]]
+:{{A|vo lntcop001 1918515 lynette 02.ogg}} '''Lynette:''' With this anchoring system, it would be possible to use floating barrels for the drop-off. You would just need to drop them in the water at the agreed-upon location.
+:{{A|vo lntcop001 1918515 lynette 03.ogg}} '''Lynette:''' We also came across the wreckage of a small boat... It must have been left out on the water and capsized due to the force of the wind and waves. Its small size, however, would have made it perfect for staying undetected.
+:{{A|vo lntcop001 1918515 chevreuse 01.ogg}} '''Chevreuse:''' Let's talk this through &mdash; based on the evidence we've collected, it seems like Pierre would row a small boat out to the agreed-upon transfer point, drop off the barrels, leave, and then row back and retrieve them after the transfer was complete...
+:{{DIcon}} Why use such a convoluted drop-off method, though?
+:{{DIcon}} Wouldn't it be easier for both parties to meet up at the transfer point on their respective vessels and exchange the goods right then and there?
+:{{A|vo lntcop001 1918515 lyney 01.ogg}} '''Lyney:''' It could be that he was trying to avoid meeting up with his associate face-to-face. As one of the sole survivors of the Lefevere family, maybe he was just used to that sort of elusive lifestyle.
+:{{A|vo lntcop001 1918515 lynette 04.ogg}} '''Lynette:''' ...It seems like Pierre deliberately chose the floating barrel method so that the goods could be dropped off and picked up at separate times. That way, the two parties wouldn't have to meet each other.
+:{{A|vo lntcop001 1918515 lyney 02.ogg}} '''Lyney:''' Well, if that's the case... They must not have a very close working relationship.
+:{{A|vo lntcop001 1918515 chevreuse 02.ogg}} '''Chevreuse:''' Let's not jump to any conclusions just yet. Assumptions can be detrimental to solving a case. It's possible they were just trying to keep a low profile &mdash; two boats sailing to the same location at once could be too conspicuous.
+:{{A|vo lntcop001 1918515 chevreuse 03.ogg}} '''Chevreuse:''' The most important thing is that we can now confirm Pierre wasn't acting alone. The floating barrel drop-off system is proof enough of that.
+:{{A|vo lntcop001 1918515 chevreuse 04.ogg}} '''Chevreuse:''' Let's say for now that he was only in charge of producing the Imitation Sinthe. That would mean there has to be at least one other person involved in the operation &mdash; likely in charge of transporting the goods across the border.
+:{{DIcon}} That explains why we couldn't find evidence linking him to any overseas operations.
+:{{A|vo lntcop001 1918515 lyney 03.ogg}} '''Lyney:''' Since we've determined that the goods were transported by boat, maybe we can track down some travel logs or something?
+:{{A|vo lntcop001 1918515 chevreuse 05.ogg}} '''Chevreuse:''' We can certainly check the various ports for that information. It's possible, however, that Pierre's associate also used a small boat for the transport and docked along the shore rather than at a large port. If that's the case... It's unlikely there would be any record left behind.
+:{{DIcon}} Have you looked into the ports already?
+:{{A|vo lntcop001 1918515 chevreuse 06.ogg}} '''Chevreuse:''' Absolutely. Before Pierre disappeared, we made sure to investigate all sorts of outward-bound vessels. We also had port authorities keep a lookout for anything suspicious.
+:{{A|vo lntcop001 1918515 chevreuse 07.ogg}} '''Chevreuse:''' ...Unfortunately, we were never able to find out how they managed to get the Imitation Sinthe across the border.
+:{{DIcon}} A small boat and a few barrels isn't going to get you very far...
+:{{A|vo lntcop001 1918515 chevreuse 08.ogg}} '''Chevreuse:''' You're right. Whatever vessel was used for the pick-up, the person responsible for smuggling the substance out of Fontaine would have had to use a larger vessel for the actual transport. That's the only way they would be able to smuggle on a large enough scale to make a profit.
+:{{A|vo lntcop001 1918515 chevreuse 09.ogg}} '''Chevreuse:''' They must have found a way to disguise the Imitation Sinthe to clear port inspections.
+:{{DIcon}} Well even if we can't find any travel logs...
+:{{DIcon}} We can still search for other clues.
+:{{A|vo lntcop001 1918515 chevreuse 10.ogg}} '''Chevreuse:''' Exactly. We can't let any opportunity slip through the cracks. Although... given the amount of ports that could be involved, we should probably split up.
+:{{A|vo lntcop001 1918515 lyney 04.ogg}} '''Lyney:''' I'll run home and ask some of my brothers and sisters to try and dig up some information.
+:{{A|vo lntcop001 1918515 chevreuse 11.ogg}} '''Chevreuse:''' I should also head back and update my platoon on our progress. I'll grab some reinforcements while I'm at it. Lynette, {{Traveler}}, why don't you head to Lumidouce Harbor and see what you can find out?
+:{{A|vo lntcop001 1918515 lynette 05.ogg}} '''Lynette:''' Alright. Come on, Bonnie. You too.
+:'''Bonnie:''' Meow!
+{{Dialogue End}}
+
+===Harbored Secrets===
+{{Dialogue Start}}
+;(Approach Elodie and Chourei)
+:{{A|vo lntcop001 1918516 elodie 01.ogg}} '''Elodie:''' Oh, Lynette, {{Traveler}}... and Bonnie, too! What brings you all here?
+:{{A|vo lntcop001 1918516 chourei 01.ogg}} '''Chourei:''' Hmm... Did something happen?
+:{{DIcon}} We're here to check the travel logs...
+:{{Black Screen|You update them on the situation...}}
+:{{A|vo lntcop001 1918516 elodie 02.ogg}} '''Elodie:''' Ah, I see! Thank you for everything you're doing for the people of Fontaine.
+:{{DIcon}} What are you doing here?
+:{{A|vo lntcop001 1918516 elodie 03.ogg}} '''Elodie:''' I'm in charge of guarding the port. You mentioned you were after some travel logs, right? I can go fetch those for you.
+:{{A|vo lntcop001 1918516 chourei 02.ogg}} '''Chourei:''' Looks like I've got another hard day of work ahead of me... *sigh*...
+:{{DIcon}} Are things usually pretty hectic around here?
+:{{A|vo lntcop001 1918516 chourei 03.ogg}} '''Chourei:''' No, not usually... It's this incident that happened recently. Before that, everything was normal... All we had to do was confiscate anything suspicious and we could call it a day &mdash; pretty simple stuff.
+:{{A|vo lntcop001 1918516 chourei 04.ogg}} '''Chourei:''' But things are much more complicated now. We somehow let suspicious cargo pass through the port undetected, not even our Guard Poodles were able to sniff it out. Even worse, we still don't know how the perpetrator was able to conceal the goods so well...
+:{{A|vo lntcop001 1918516 lynette 01.ogg}} '''Lynette:''' By suspicious cargo, do you mean Imitation Sinthe?
+:{{A|vo lntcop001 1918516 chourei 05.ogg}} '''Chourei:''' Yep. However, prohibited substances are just one example. We confiscate all sorts of contraband during the course of our inspections... Or, at least, we're supposed to...
+:{{A|vo lntcop001 1918516 lynette 02.ogg}} '''Lynette:''' ...So what happens to the goods you confiscate?
+:{{A|vo lntcop001 1918516 chourei 06.ogg}} '''Chourei:''' Oh, we keep them in a storage locker. If they turn out to be something particularly dubious, we'll turn them over to the [[Maison Ordalie]]...
+:{{A|vo lntcop001 1918516 chourei 07.ogg}} '''Chourei:''' If the goods are only slightly suspicious but could otherwise be harmless &mdash; like raw materials that could potentially be used to create contraband &mdash; we return them to the ship they were confiscated from, instead of letting them pass through the port.
+:{{A|vo lntcop001 1918516 elodie 04.ogg}} '''Elodie:''' ...Sorry for the wait! These are the travel logs for all the recent activity at the port.
+:'''Girard:''' Woof! Woof!
+:{{A|vo lntcop001 1918516 chourei 08.ogg}} '''Chourei:''' Oh... You brought Girard with you...
+:{{A|vo lntcop001 1918516 elodie 05.ogg}} '''Elodie:''' Ah, actually, he followed me here himself. It's like he smells something on me...
+:'''Girard:''' Woof! Woof!
+:'''Bonnie:''' Meow!
+:{{A|vo lntcop001 1918516 elodie 06.ogg}} '''Elodie:''' Huh...? I wonder why Girard is reacting to you two so strongly...
+:{{DIcon}} Could be because we just left the place where the Imitation Sinthe was made...
+:{{DIcon}} Whatever Girard smelled on you probably came from us...
+:{{A|vo lntcop001 1918516 lynette 03.ogg}} '''Lynette:''' Huh, we were so careful not to touch it, but we still ended up with traces on us... If it leaves a residue so easily, I just don't understand how the culprit was able to disguise the goods at all.
+:{{A|vo lntcop001 1918516 chourei 09.ogg}} '''Chourei:''' Why don't you have a look at the travel logs first? All ships coming in and out of the port are recorded here... except for the ones the port authorities ride to and from work!
+:{{Black Screen|You flip through the numerous travel logs...<br>You notice several instances where the "Humane Society" is listed... The name really seems to stand out.}}
+:{{A|vo lntcop001 1918516 lynette 04.ogg}} '''Lynette:''' The Humane Society...
+:{{DIcon}} We've encountered that organization before, right?
+:{{A|vo lntcop001 1918516 lynette 05.ogg}} '''Lynette:''' Their name is all over the exit logs... The purpose for leaving is always listed as "overseas adoption."
+:{{A|vo lntcop001 1918516 chourei 10.ogg}} '''Chourei:''' Ah, the director of the organization explained that, actually. He said a lot of the cat and dog breeds unique to Fontaine are also very popular overseas... So his organization offers an overseas adoption program.
+:{{A|vo lntcop001 1918516 lynette 06.ogg}} '''Lynette:''' Bernard, the director of the Humane Society, was the man who came looking for Bonnie earlier...
+:'''Bonnie:''' Meow...
+<!--saccharose has a contemplation here, but there wasn't one for me-->
+:'''{{Traveler}}:''' (The cat that fled from Pierre looks just like the cat that the Humane Society is looking for... Could that really be a coincidence?)
+:'''{{Traveler}}:''' (It seemed as if Bernard was also hiding something... He seemed so insistent, but only ran a cursory check before just leaving like that.)
+:'''{{Traveler}}:''' (When he came looking for Bonnie earlier... What if he wasn't actually there to check if Bonnie was his missing cat...? Maybe he was there for some other purpose...)
+:{{A|vo lntcop001 1918516 lynette 07.ogg}} '''Lynette:''' ...Have you figured it out too, {{Traveler}}? The way the criminal "disguised" the goods.
+:{{A|vo lntcop001 1918516 lynette 09.ogg}} '''Lynette:''' When Bernard asked to take a closer look at Bonnie... He was actually checking whether there was any Imitation Sinthe in her stomach.
+:{{DIcon}} He was using the animals at his shelter...
+:{{DIcon}} To smuggle Imitation Sinthe...
+:{{A|vo lntcop001 1918516 chourei 11.ogg}} '''Chourei:''' W&mdash;Wait, what!?
+:{{A|vo lntcop001 1918516 lynette 10.ogg}} '''Lynette:''' The sealed bags we found at the secret base... They were specially made to be corrosion-resistant...
+:{{DIcon}} ...So that they wouldn't be digested.
+:{{A|vo lntcop001 1918516 lynette 11.ogg}} '''Lynette:''' There were gaps around the lids of the barrels, and airbags were used to keep them upright in the water....
+:{{DIcon}} ...So that the animals would be able to breathe.
+:{{A|vo lntcop001 1918516 lynette 12.ogg}} '''Lynette:''' Those drugs Chevreuse found at the secret base... She most likely didn't recognize them because they're not used on human beings... It's an anesthetic used on pets. The perpetrator must have given it to the animals...
+:{{DIcon}} ...So that they would keep still in the floating barrels.
+:{{A|vo lntcop001 1918516 lynette 13.ogg}} '''Lynette:''' Pierre... must have made the animals swallow the sealed bags full of Imitation Sinthe at his secret base. Then, he stuffed them into floating barrels and left the rest to Bernard.
+:{{A|vo lntcop001 1918516 elodie 07.ogg}} '''Elodie:''' The sealed bags combined with an animal's body odor would certainly be enough to mask the scent of Imitation Sinthe...
+:{{A|vo lntcop001 1918516 chourei 12.ogg}} '''Chourei:''' During our inspections... We would have never thought to inspect the bellies of those animals for anything suspicious... Even if we tried to feel around for something, I'm sure it would be difficult to detect!
+:{{A|vo lntcop001 1918516 lynette 14.ogg}} '''Lynette:''' Exactly. I bet Bernard even transported animals with Sinthe in their stomach alongside ones without... That way, it would be even harder to say with certainty that something was amiss.
+:{{DIcon}} Do you think Bonnie could have Imitation Sinthe in her stomach?
+:{{A|vo lntcop001 1918516 lynette 15.ogg}} '''Lynette:''' ...She's probably in the clear. Otherwise, Bernard would have never left without her. I'm guessing he didn't know whether Pierre had already "hidden" the next batch of Imitation Sinthe before he fled.
+:{{A|vo lntcop001 1918516 lynette 16.ogg}} '''Lynette:''' Just imagine &mdash; he sees the notice we put in the Steambird, and it turns out that one of the very cats he gave to Pierre for the smuggling operation is out in the open, roaming the streets of Fontaine...
+:{{A|vo lntcop001 1918516 lynette 17.ogg}} '''Lynette:''' If Pierre had already "hidden" the next batch of Imitation Sinthe, then Bonnie would practically be living proof of their crimes. He would have had no choice but to go after her.
+:{{A|vo lntcop001 1918516 elodie 08.ogg}} '''Elodie:''' So that's why he came to find you and insisted on taking a closer look at the cat...
+:{{DIcon}} Pierre must have fled in a hurry...
+:{{DIcon}} That fact is probably what spared Bonnie.
+:{{A|vo lntcop001 1918516 chourei 13.ogg}} '''Chourei:''' Uh... Wait a second. I'm a little lost here... I get the part about hiding the substance in the pets, but those... What did you call them again? Floating barrels? Why even put the animals in there in the first place?
+:{{A|vo lntcop001 1918516 chourei 14.ogg}} '''Chourei:''' If you've got something as convenient as a floating barrel, why not just stuff it with the Imitation Sinthe directly? Why not wait to "hide" the stuff until after the exchange has been made?
+:{{A|vo lntcop001 1918516 lynette 18.ogg}} '''Lynette:''' In order to make sure the animals could swallow the sealed bags, they made them extremely thin. Had they not done that, the animals would have likely bitten or chewed through them.
+:{{DIcon}} And if any of the Imitation Sinthe leaked out...
+:{{DIcon}} They also would have needed a lot of cleaning agents to get rid of the resulting smell.
+:{{A|vo lntcop001 1918516 lynette 19.ogg}} '''Lynette:''' That step would have required a lot of energy, as well as a certain amount of technical expertise, so it was better left to the more experienced Pierre.
+:{{A|vo lntcop001 1918516 lynette 20.ogg}} '''Lynette:''' We've already proven how easy it is to pick up trace amounts of Imitation Sinthe, so I'm sure Bernard was taking all the precautions he could to avoid the same fate.
+:'''Girard:''' Woof! Woof!
+:{{A|vo lntcop001 1918516 elodie 09.ogg}} '''Elodie:''' Okay, then let's head to the Humane Society right away and bring that guy to justice! I'll bring a Gardemek to speed up the process.
+
+;(Talk to Chourei again, optional)
+:{{A|vo lntcop001 1918516 chourei 15.ogg}} '''Chourei:''' Ah, sorry, but I can't go with you... Surely, you'll be able to handle him, what between Elodie's Gardemek and all three of you?
+----
+;(Approach the marked location)
+:{{A|vo lntcop001 1918517 elodie 01.ogg}} '''Elodie:''' The headquarters of the Humane Society should be somewhere around here. Bernard could show up any moment now...
+:{{A|vo lntcop001 1918517 benoit 01.ogg}} '''Bernard:''' ...Ah! You're the people from earlier... Wait, you're from... the Gardes!?
+:{{A|vo lntcop001 1918517 elodie 02.ogg}} '''Elodie:''' After him! We can't let him get away!
+
+;(While chasing Bernard)
+:{{A|vo lntcop001 1918522 benoit 01.ogg}} '''Bernard:''' Huff... huff...
+
+;(After catching Bernard)
+:{{A|vo lntcop001 1918522 elodie 01.ogg}} '''Elodie:''' Give it up, Bernard!
+:{{A|vo lntcop001 1918522 benoit 02.ogg}} '''Bernard:''' &mdash;Oof!
+:{{A|vo lntcop001 1918522 benoit 03.ogg}} '''Bernard:''' &mdash;Mercy, have mercy! I'll talk! I'll tell you everything I know!
+:{{A|vo lntcop001 1918522 lynette 01.ogg}} '''Lynette:''' The Humane Society has done so much good over the years, and yet, you have committed such an atrocious deed in its name...
+:{{A|vo lntcop001 1918522 benoit 04.ogg}} '''Bernard:''' L&mdash;Look, I didn't have a choice, okay!? My father cared about those blasted animals so much that he didn't bother to take care of his human wife and son at all... While those animals were showered with love, I lived worse than a dog...
+:{{A|vo lntcop001 1918522 elodie 02.ogg}} '''Elodie:''' No one asked! Tell me, how did you first get to know Pierre?
+:{{A|vo lntcop001 1918522 benoit 05.ogg}} '''Bernard:''' Well... After I took over the Humane Society, it gradually became harder and harder to maintain its operations... Until one day, someone suddenly passed me a letter...
+:{{A|vo lntcop001 1918522 benoit 06.ogg}} '''Bernard:''' It said that I could stand to get a large sum of money as long as I helped them to transport some animals abroad... It was only after a few such "transports" that I finally understood what I was really transporting.
+:{{A|vo lntcop001 1918522 benoit 07.ogg}} '''Bernard:''' But then, Pierre wrote to me, saying that we were already partners in crime and that I better keep cooperating with him if I didn't want to be reported to the Gardes...
+;(If Passive Check succeeds)
+:;{{Color|Buzzword|(Insight Check Success)}} Bernard's expression seems a bit unnatural...
+::'''{{Traveler}}:''' (There was a hint of dishonesty in his trembling voice...)
+::{{DIcon}} He's lying.
+:{{A|vo lntcop001 1918522 lynette 02.ogg}} '''Lynette:''' ...You knew it from the very beginning, didn't you? The reason why you had to go through so many steps just to transport some "animals."
+:{{A|vo lntcop001 1918522 elodie 03.ogg}} '''Elodie:''' I'd suggest that you confess everything right now if you don't want to add anything else to your list of crimes.
+:{{A|vo lntcop001 1918522 benoit 08.ogg}} '''Bernard:''' Eek! Y&mdash;Yes, officer...
+:{{A|vo lntcop001 1918522 benoit 09.ogg}} '''Bernard:''' I would order wooden barrels and flotation devices according to his instructions, and then load the sleeping animals onto a boat. Once I sailed to the location he provided, I would dump everything together into the sea...
+:{{A|vo lntcop001 1918522 benoit 10.ogg}} '''Bernard:''' And a few days after that, I'd come by again in my boat, and pick up the animals sleeping in the barrels. Once I had received enough of them, I'd bring them to the Harbor to be adopted abroad.
+:{{A|vo lntcop001 1918522 benoit 11.ogg}} '''Bernard:''' That guy Pierre... He was running the entire show! He set up all the meeting times and found all the foreign adopters... Oh, and he even supplied all of the goods, too! I just did the transport, he was the one who planned out and executed everything else!
+:{{DIcon}} So, where is he now?
+:{{A|vo lntcop001 1918522 benoit 12.ogg}} '''Bernard:''' L&mdash;Look, I don't know, okay!? I've never ever met him in person! We've only ever communicated through letters...
+:{{A|vo lntcop001 1918522 lynette 03.ogg}} '''Lynette:''' And when did he send his final letter to you?
+:{{A|vo lntcop001 1918522 benoit 13.ogg}} '''Bernard:''' J&mdash;Just last night! He said that the Marechaussee Phantom is now after him, so he's planning to go into hiding for some time. He didn't mention where he's thinking about going, though... But he did tell me to look out for the Gardes...
+:{{A|vo lntcop001 1918522 elodie 04.ogg}} '''Elodie:''' It's been a few days since Pierre's last appearance... I'd wager that he sent that letter after he found his hiding spot.
+:{{DIcon}} So, where is that letter now?
+:{{A|vo lntcop001 1918522 benoit 14.ogg}} '''Bernard:''' I&mdash;I burned them... It was on his orders. I had to burn every letter after reading them &mdash; I wasn't even allowed to share them with the rest of the Society employees.
+:{{A|vo lntcop001 1918522 lynette 04.ogg}} '''Lynette:''' ...Sure sounds like you're trying to use the lack of witnesses or evidence to pin the blame on Pierre.
+:{{A|vo lntcop001 1918522 benoit 15.ogg}} '''Bernard:''' N&mdash;No! I swear, this time, I'm only telling you the truth!
+:{{A|vo lntcop001 1918522 elodie 05.ogg}} '''Elodie:''' Well, we can check the truth of your statements at the opera house. I hope you know what'll be coming for you if I were to find any discrepancy between the evidence and the testimony you just gave!
+:{{A|vo lntcop001 1918522 benoit 16.ogg}} '''Bernard:''' I know! I know! I swear I was just telling the truth!
+:{{A|vo lntcop001 1918522 elodie 06.ogg}} '''Elodie:''' Phew... My thanks to you both. Had it not been for you, I really don't know what would have happened to this case...
+:{{A|vo lntcop001 1918522 lynette 05.ogg}} '''Lynette:''' Bonnie helped, too.
+:{{A|vo lntcop001 1918522 elodie 07.ogg}} '''Elodie:''' Haha, that's true. It was all thanks to her that Bernard was finally exposed.
+:'''Bonnie:''' Meow!
+:{{Black Screen|Bonnie suddenly runs and hides behind you and Lynette.}}
+:{{A|vo lntcop001 1918522 elodie 08.ogg}} '''Elodie:''' Haha, and it looks like she's grown quite fond of you two as well. Then I'll leave you be &mdash; just let me know if you find any other new leads.
+:{{A|vo lntcop001 1918522 lynette 06.ogg}} '''Lynette:''' ...
+;(If Passive Check succeeds)
+:;{{Color|Buzzword|(Insight Check Success)}} Lynette's expression seems a bit unnatural...
+::'''{{Traveler}}:''' (It seems that Lynette still has something on her mind...)
+{{Dialogue End}}
+
+===Falling Into Layers of Fog===
+{{Dialogue Start}}
+;(Talk to Lynette)
+:{{A|vo lntcop001 1918519 lynette 01.ogg}} '''Lynette:''' ...
+:{{DIcon}} Something on your mind still?
+:{{A|vo lntcop001 1918519 lynette 02.ogg}} '''Lynette:''' Ah, it was that obvious, huh... Well, even though it didn't feel like Bernard was lying, after talking to him, I'm getting an even stronger sense that something's not quite right.
+:{{A|vo lntcop001 1918519 lynette 03.ogg}} '''Lynette:''' We investigated so quickly that perhaps we've missed a thing or two along the way. Let me activate deduction mode and consider things again from the top to see if we can find anything new.
+:{{A|vo lntcop001 1918519 lynette 04.ogg}} '''Lynette:''' ...Is there still anything unresolved or strange that we should try to consider?
+:{{DIcon}} About what we found in Poisson...
+::{{A|vo lntcop001 1918519 lynette 05.ogg}} '''Lynette:''' The Marechaussee Phantom found Bonnie and the Lefevere pendant at Pierre's residence. That was the beginning point of our investigation.
+::<hr />
+:;(The Traveler enters {{color|menu|Contemplation}})
+::'''Why is Pierre a suspect?'''
+::&nbsp;
+:;(Interpret - Bonnie)
+::'''{{Traveler}}:''' Bonnie has been with Pierre ever since the first meeting between Pierre and the Marechaussee Phantom, and that's why Elodie came looking for her... But that shouldn't be all...
+::&nbsp;
+:;(Interpret - The pet handoff)
+::'''{{Traveler}}:''' According to Bernard, the trafficked animals were taken directly to Pierre's base, rather than to Poisson.
+::&nbsp;
+:;(Interpret - Pendant)
+::'''{{Traveler}}:''' The pattern on the pendant is proof that its owner is an illegitimate child of the Lefevere family... But this shouldn't be all...
+::&nbsp;
+:;(Interpret - The end of "Lefevere")
+::'''{{Traveler}}:''' The Lefevere family is infamous in Fontaine, and even their innocent scions became targets of revenge. But Pierre just carried the pendant with him as if it was an ordinary piece of jewelry.
+::&nbsp;
+:;(Associate - The end of "Lefevere" to The pet handoff)
+:;(Interpret - Initial suspicions)
+::'''{{Traveler}}:''' Pierre became the key suspect in the case because of a suspicious cat and a suspicious pendant.
+::&nbsp;
+:;(Submit the wrong association)
+::'''{{Traveler}}:''' Hmm... I can't seem to piece everything together into a cohesive picture.
+::&nbsp;
+:;(Submit the wrong conclusion)
+::'''{{Traveler}}:''' (No... I don't think that can be used to answer the question at hand.)
+::{{A|vo lntcop001 1918519 lynette 13.ogg}} '''Lynette:''' There's no need to rush. Let's see if we can find any other suspicious points about this case.
+::;(Return to option selection)
+::<hr />
+:;(Submit conclusion - Initial suspicions)
+::{{A|vo lntcop001 1918519 lynette 06.ogg}} '''Lynette:''' Why would he leave such an obvious trail for us to follow when he took so much care to not leave any traces of Imitation Sinthe in his home?
+::;(Return to option selection)
+:{{DIcon}} About Bernard's letters...
+::{{A|vo lntcop001 1918519 lynette 07.ogg}} '''Lynette:''' Bernard claims to have received a letter last night from Pierre. In the letter, Pierre stated that he had gone into hiding. Is there something wrong with the letter...?
+::<hr />
+:;(The Traveler enters {{color|menu|Contemplation}})
+::'''What's suspicious about the letter Bernard received?'''
+::&nbsp;
+:;(Interpret - The letter's delivery method)
+::'''{{Traveler}}:''' Regardless of whether he sent it anonymously or secretly delivered it himself, it's no longer something we can follow up on.
+::&nbsp;
+:;(Interpret - Escape location)
+::'''{{Traveler}}:''' The letter didn't mention Pierre's hiding spot... Although it makes sense that Pierre wouldn't want anyone to find him.
+::&nbsp;
+:;(Interpret - The lost cat, Bonnie)
+::'''{{Traveler}}:''' Bonnie had already been on the loose for a few days when we found her yesterday morning. That means she had already broken free when the letter was written.
+::;(Unlocks - The letter's purpose)
+::&nbsp;
+:;(Interpret - The letter's purpose)
+::'''{{Traveler}}:''' If the point of the letter was to tell Bernard to get on his guard, then why didn't it also warn him about Bonnie?
+::&nbsp;
+:;(Submit the wrong conclusion)
+::'''{{Traveler}}:''' (No... I don't think that can be used to answer the question at hand.)
+::{{A|vo lntcop001 1918519 lynette 13.ogg}} '''Lynette:''' There's no need to rush. Let's see if we can find any other suspicious points about this case.
+::;(Return to option selection)
+::<hr />
+:;(Submit conclusion - The letter's purpose)
+::{{A|vo lntcop001 1918519 lynette 08.ogg}} '''Lynette:''' If Bonnie had Imitation Sinthe in her body, then she was a liability that had to be recovered at all costs. But if she wasn't carrying anything, then it would have made sense to tell Bernard not to worry.
+::{{A|vo lntcop001 1918519 lynette 09.ogg}} '''Lynette:''' And thinking about it, Bernard only attracted our attention in the first place because he came to look for Bonnie.
+::{{A|vo lntcop001 1918519 lynette 10.ogg}} '''Lynette:''' Could it be that the person who wrote the letter also knew nothing about Bonnie's whereabouts... or they had a separate goal entirely?
+::;(Return to option selection)
+:{{DIcon}} There's an unexplained part in the operations of this traffikcking ring...
+::{{A|vo lntcop001 1918519 lynette 11.ogg}} '''Lynette:''' Well, we've discovered that Bernard is responsible for the trafficking, while Pierre deals with "supplying the goods." Is there something else in this scheme that we're missing?
+::<hr />
+:;(The Traveler enters {{color|menu|Contemplation}})
+::'''Is there anything else that is difficult to explain?'''
+::&nbsp;
+:;(Interpret - Ingredients)
+::'''{{Traveler}}:''' According to Chevreuse's investigations, Pierre has been formally reprimanded for his Sinthe-related research, and can no longer get any materials from the Fontaine Research Institute.
+::&nbsp;
+:;(Interpret - Handoff)
+::'''{{Traveler}}:''' We've already proven that Bernard and Pierre coordinated their handoffs by passing floating barrels to each other on open stretches of water.
+::&nbsp;
+:;(Interpret - Ledger)
+::'''{{Traveler}}:''' Bernard can be compensated for his work after completing a shipment. No suspicious record would be left as long as he receives the funds as an individual, rather than through the Humane Society.
+::&nbsp;
+:;(Interpret - Communication)
+::'''{{Traveler}}:''' They always communicated in writing, and all of those letters have been burned, so we can no longer confirm or trace anything.
+::&nbsp;
+:;(Interpret - Connections)
+::'''{{Traveler}}:''' Any past member of the Lefevere family would probably have a number of connections outside of Fontaine.
+::&nbsp;
+:;(Submit the wrong conclusion)
+::'''{{Traveler}}:''' (No... I don't think that can be used to answer the question at hand.)
+::{{A|vo lntcop001 1918519 lynette 13.ogg}} '''Lynette:''' There's no need to rush. Let's see if we can find any other suspicious points about this case.
+::;(Return to option selection)
+::<hr />
+:;(Submit conclusion - Ingredients)
+::{{A|vo lntcop001 1918519 lynette 12.ogg}} '''Lynette:''' Yeah, according to Bernard, Pierre also supplied all of the goods... But if the Marechaussee Phantom's records are correct, Pierre should have lost all access to the materials required to create the Imitation Sinthe, and the Institute has also not reported any theft of their stocks.
+::;(Return to option selection)
+
+;(If all conclusions were correctly deduced)
+:{{A|vo lntcop001 1918519 lynette 14.ogg}} '''Lynette:''' The final question is: why did I sense that something wasn't right after hearing Bernard's testimony? Even more so than before...
+----
+;(The Traveler enters {{color|menu|Contemplation}})
+:'''The "truth" behind this "testimony" is...'''
+
+;(Interpret - Bernard's statement)
+:'''{{Traveler}}:''' Both written letters and hand-offs using floating barrels are methods of communication that can be intercepted.
+:;(Unlocks - The "accomplice" that was never met)
+
+;(Interpret - The "accomplice" that was never met)
+:'''{{Traveler}}:''' Bernard has never met Pierre in person.
+
+;(Interpret - Pierre's conflicting behavior)
+:'''{{Traveler}}:''' Pierre made such a complicated operations plan, yet also exposed himself so easily to the investigating Gardes...
+:;(Unlocks - Does Pierre have multiple personalities?)
+
+;(Interpret - Does Pierre have multiple personalities?)
+:'''{{Traveler}}:''' It almost feels like the "plan" and the "expose" were done by two separate individuals, and Pierre was set up.
+
+;(Associate - Does Pierre have multiple personalities? to The "accomplice" that was never met)
+;(Interpret - There's still a third person out there)
+:'''{{Traveler}}:''' Even Bernard himself never knew that it wasn't Pierre that had been pulling his strings all along... It was someone else.
+
+;(Submit the wrong association)
+:'''{{Traveler}}:''' Hmm... I can't seem to piece everything together into a cohesive picture.
+
+;(Submit the wrong conclusion)
+:'''{{Traveler}}:''' That doesn't sound right... I need to carefully think things through...
+----
+;(Submit conclusion - There's still a third person out there)
+:{{A|vo lntcop001 1918519 lynette 15.ogg}} '''Lynette:''' Deductive mode deactivated. I think... we may be close to the actual answer.
+
+;(Talk to Lynette again, optional)
+:{{A|vo lntcop001 1918519 lynette 16.ogg}} '''Lynette:''' Perhaps... we are now closing in on the truth.
+
+;(Talk to Elodie)
+:{{A|vo lntcop001 1918520 elodie 01.ogg}} '''Elodie:''' Now behave, and follow me to the interrogation room!
+:{{A|vo lntcop001 1918520 benoit 01.ogg}} '''Bernard:''' Ow &mdash; that hurt &mdash; oww!!
+:{{DIcon|TCG}} [Contemplation] (They're about to leave. Is it really okay to let them go?)
+:{{Hangout Branch|''(If the card drawn is less than 20)''|#Ending: Save the Kitty!|Ending: Save the Kitty!|DIcon=}}
+::'''{{Traveler}}:''' (We can leave Bernard's interrogation to the Gardes. Let's first rescue the animals at the Humane Society.)
+::{{A|vo lntcop001 1918520 lynette 01.ogg}} '''Lynette:''' Is everything... really over?
+::{{A|vo lntcop001 1918520 lynette 02.ogg}} '''Lynette:''' I still feel like... the relationship between Pierre and Bernard is not as simple as it appears.
+::{{A|vo lntcop001 1918520 lynette 03.ogg}} '''Lynette:''' Also, I've had this strange sense that something's off the entire time we've been on the case... and it has only gotten worse.
+:;(-1 heart)
+::{{A|vo lntcop001 1918520 lynette 04.ogg}} '''Lynette:''' Ah...
+:;(-1 heart)
+::{{A|vo lntcop001 1918520 lynette 05.ogg}} '''Lynette:''' Uhh...
+:;(-2 hearts)
+::{{A|vo lntcop001 1918520 lynette 06.ogg}} '''Lynette:''' ...No good... I've still got nothing, and I'm nearly out of energy.
+::{{DIcon}} Don't force yourself.
+::{{DIcon}} Just leave it to Lyney and the others.
+::{{A|vo lntcop001 1918520 lynette 07.ogg}} '''Lynette:''' ...Alright, I'll stop thinking about it for now. At the very least, we've made it so that no more animals will suffer like those poor animals did. That's what I hope...
+::'''Bonnie:''' Meow...
+::{{A|vo lntcop001 1918520 lynette 08.ogg}} '''Lynette:''' Let's go to the Humane Society, and see if there are any animals left that might still need our help.
+::{{A|vo lntcop001 1918520 lynette 09.ogg}} '''Lynette:''' Before my energy for today completely runs out...
+::;(Continues to [[#Ending: Save the Kitty!|Ending: Save the Kitty!]])
+:{{Hangout Branch|''(If the card drawn is greater than or equal to 20)''|Closure|DIcon=}}
+::'''{{Traveler}}:''' (No! We can't let her get away!)
+::{{DIcon}} Hold it right there!
+::{{A|vo lntcop001 1918520 elodie 02.ogg}} '''Elodie:''' Uh... is there something else you need from me, Traveler?
+::{{DIcon}} ...Bernard and Pierre. They weren't really acting alone, were they?
+::{{A|vo lntcop001 1918520 benoit 02.ogg}} '''Bernard:''' Huh...?
+::{{A|vo lntcop001 1918520 lynette 10.ogg}} '''Lynette:''' ...I see. It all makes sense now.
+::{{A|vo lntcop001 1918520 elodie 03.ogg}} '''Elodie:''' ...Hey, what are you talking about? Haha... Look, even our confessed criminal here has no idea what you're saying.
+::{{A|vo lntcop001 1918520 lynette 11.ogg}} '''Lynette:''' Because he has been kept in the dark all along... and I assume it's the same with Pierre.
+::{{DIcon}} Bernard thought he was communicating with Pierre...
+:::{{DIcon}} But for all this time, neither of them knew...
+:::{{DIcon}} That there was a third person all along.
+::{{DIcon}} And Pierre thought he was taking orders from Bernard.
+:::{{DIcon}} But for all this time, neither of them knew...
+:::{{DIcon}} That there was a third person all along.
+::{{A|vo lntcop001 1918520 elodie 04.ogg}} '''Elodie:''' &mdash;!
+::{{A|vo lntcop001 1918520 lynette 12.ogg}} '''Lynette:''' That never quite added up for me. Why did Pierre feel compelled to return to his home with Bonnie and the pendant, and make them so easy to find for the Marechaussee Phantom?
+::{{DIcon}} Any animals Pierre received from the floating barrels should have been taken directly to his base.
+::{{DIcon}} And considering his precarious situation, the pendant should have been the last thing Pierre would leave lying around.
+::{{A|vo lntcop001 1918520 lynette 13.ogg}} '''Lynette:''' Both of these things are in stark contrast to his usual meticulous and vigilant behavior. There's only one reasonable explanation &mdash; he was following orders, just like Bernard.
+::{{A|vo lntcop001 1918520 lynette 14.ogg}} '''Lynette:''' He probably received the following instructions right before the Phantom came knocking on his door: "Bring the cat and the pendant, and our undercover agent will be sure to help you."
+::{{A|vo lntcop001 1918520 lynette 15.ogg}} '''Lynette:''' Unbeknownst to him, however, the "third person" who wrote that letter to him... had long decided to sacrifice him and Bernard to save themselves.
+::{{DIcon}} They instructed the two men to communicate through letters and barrels specifically so that they'd never get to meet each other.
+::{{DIcon}} Honestly, this third person probably planned to sell both of them out from the very beginning.
+::{{A|vo lntcop001 1918520 benoit 03.ogg}} '''Bernard:''' What... You can't be serious... There was a third person involved!?
+::{{A|vo lntcop001 1918520 lynette 16.ogg}} '''Lynette:''' ...If you focus only on Bernard's testimony, it's easy to believe that only Bernard and Pierre were working together. The case appeared extremely simple &mdash; Bernard did the trafficking, Pierre the Imitation Sinthe production, drugging, and stuffing.
+::{{DIcon}} With everything accounted for, the third person would then be cleared of all suspicion.
+::{{A|vo lntcop001 1918520 elodie 05.ogg}} '''Elodie:''' W&mdash;Wait, but that doesn't make any sense. If that's the actual truth, then as soon as Pierre is caught, he will explain his side of the story, and the third person will&mdash;
+::{{A|vo lntcop001 1918520 lynette 17.ogg}} '''Lynette:''' Yep, which is why... the third person made sure that Pierre would never be found again.
+::{{A|vo lntcop001 1918520 lynette 18.ogg}} '''Lynette:''' Once they had instructed Pierre to expose himself, the third person wrote to Pierre again, suggesting that everything had been taken care of, and he should take Bonnie and safely return to his base.
+::{{DIcon}} They then ambushed Pierre...
+::{{DIcon}} And made him "disappear."
+::{{A|vo lntcop001 1918520 lynette 19.ogg}} '''Lynette:''' Of course, Pierre's disappearance at such a sensitive time immediately made him a prime suspect. Knowing that Bonnie had last been seen with him...
+::{{A|vo lntcop001 1918520 lynette 20.ogg}} '''Lynette:''' All the third person would have to do from that point on would be to lead the Phantom to investigate the Humane Society, and get Bernard to confess the "truth."
+::{{DIcon}} Bernard would then testify that Pierre was the one who came up with the whole plot.
+::{{DIcon}} And Pierre would be seen as having gone into hiding in anticipation of getting caught.
+::{{A|vo lntcop001 1918520 benoit 04.ogg}} '''Bernard:''' Wait... So you're saying... That the letter I received yesterday, the one that made me think Pierre was still alive... It was also sent by the third person?
+::{{A|vo lntcop001 1918520 elodie 06.ogg}} '''Elodie:''' Is... Is that what happened!? I'll get back to headquarters right away, and re-investigate this case from the top!
+::{{DIcon}} Not so fast.
+::{{A|vo lntcop001 1918520 lynette 21.ogg}} '''Lynette:''' Chevreuse said that "assumptions can be detrimental to solving a case." Someone among us, however, has been feeding us all kinds of preconceived notions ever since our first meeting.
+::{{A|vo lntcop001 1918520 lynette 22.ogg}} '''Lynette:''' They suggested that Pierre's disappearance was an attempt to escape the judgement of the law, and that Pierre was a scion of the {{sic|Levevere}} family...
+::{{A|vo lntcop001 1918520 lynette 23.ogg}} '''Lynette:''' But if the "disappearance" is truly just a coverup for a murder, then couldn't the true scion have been an illegitimate daughter, rather than an illegitimate son?
+::{{DIcon}} Miss Elodie Lefevere?
+::{{A|vo lntcop001 1918520 benoit 05.ogg}} '''Bernard:''' ...Huh?
+::{{A|vo lntcop001 1918520 elodie 07.ogg}} '''Elodie:''' Ha.. Haha... Hahahaha!
+::{{A|vo lntcop001 1918520 elodie 08.ogg}} '''Elodie:''' Haven't you taken this joke a bit too far? You're right, I did let a lot of assumptions get to my head when I first started to talk to you about the case. I'll make sure to correct my behavior...
+::{{A|vo lntcop001 1918520 lynette 24.ogg}} '''Lynette:''' You deliberately fed us lies, but even you could not control every last detail of your plan. There was a flaw in your scheme... and something didn't quite go as planned.
+::{{A|vo lntcop001 1918520 lynette 25.ogg}} '''Lynette:''' Getting the Marechaussee Phantom to notice Pierre was only the first part of your plan. Had they failed to take notice of the Humane Society, they could have cast a wider net...
+::{{A|vo lntcop001 1918520 lynette 26.ogg}} '''Lynette:''' And you couldn't predict what they might possibly find, if given enough time. This, of course, was the main weakness of your plan.
+::{{DIcon}} And once the Special Patrol and Lyney got involved...
+::{{DIcon}} It became even harder to control the outcome of the investigation.
+::{{A|vo lntcop001 1918520 lynette 27.ogg}} '''Lynette:''' As someone accustomed to acting from behind the scenes, you didn't want to take the risk of personally proposing a raid on the Humane Society. So, you thought about pulling a few more strings, so all the suspicion would point towards Bernard and his Society...
+::{{DIcon}} A great option, of course, would be to also dispose of Bonnie, and leave her body at Pierre's base in anticipation of a later discovery.
+::{{A|vo lntcop001 1918520 lynette 28.ogg}} '''Lynette:''' Once the Phantom expanded their search, it would only be a matter of time before they found Pierre's base. If a cat last seen with the suspect turned up dead at the Imitation Sinthe base...
+::{{A|vo lntcop001 1918520 lynette 29.ogg}} '''Lynette:''' It wouldn't be long until the Phantom would figure out exactly how she had been mistreated, and turn their eyes towards the one organization that has been sending boatloads of animals out of Fontaine.
+::{{DIcon}} However, something unexpected happened at the base...
+::{{DIcon}} Bonnie managed to escape in the chaos.
+::{{A|vo lntcop001 1918520 lynette 30.ogg}} '''Lynette:''' It was probably during your ambush of Pierre... You didn't even have the time to check if she had already been stuffed full of Imitation Sinthe.
+::'''Bonnie:''' Meow!
+::{{A|vo lntcop001 1918520 elodie 09.ogg}} '''Elodie:''' ...!
+::{{A|vo lntcop001 1918520 lynette 31.ogg}} '''Lynette:''' Still, you soon found another opportunity. Before long, Bonnie had made her way back into the city, and even popped up on the Steambird...
+::{{A|vo lntcop001 1918520 lynette 32.ogg}} '''Lynette:''' Like Bernard, you desperately wanted to confirm the contents of her stomach, so you hurried to find us. Unlike Bernard, however, you were hoping that Pierre did have the time to make her swallow a load of Imitation Sinthe.
+::{{A|vo lntcop001 1918520 lynette 33.ogg}} '''Lynette:''' While investigating the suspect's cat, we unexpectedly discovered that the suspect has been smuggling Imitation Sinthe using living animals as intermediaries. That was your plan, in any case. With that, you'd have been able to lead the investigation towards the Humane Society.
+::{{DIcon}} But Bonnie was very lucky.
+::{{DIcon}} But you were extremely unlucky.
+::{{A|vo lntcop001 1918520 lynette 34.ogg}} '''Lynette:''' ...Bonnie had managed to escape before Pierre was able to stuff her full of Imitation Sinthe. That part of your plan could no longer be carried out. But as shrewd as you were, you came up with another plan right away...
+::{{A|vo lntcop001 1918520 lynette 35.ogg}} '''Lynette:''' You manipulated the Traveler and I to help you identify Bernard as a key suspect.
+::{{DIcon}} You knew Lyney was investigating the case with Chevreuse...
+::{{DIcon}} And you also knew of Lynette's previous encounter with the Lefevere family.
+::{{A|vo lntcop001 1918520 lynette 36.ogg}} '''Lynette:''' You used the Lefevere name as bait to get us to join your investigation. With two extra bodies around, the Special Patrol is sure to soon take note of the strange event of Bernard somehow having a reason to look for Pierre's cat.
+::{{A|vo lntcop001 1918520 elodie 10.ogg}} '''Elodie:''' ...Ha, so what you're saying is... I went to all that trouble, just for the chance that you might put forth a suggestion that would lead you down the wrong path?
+::{{A|vo lntcop001 1918520 lynette 37.ogg}} '''Lynette:''' Of course, you did far more than that. Just now, at Lumidouce Harbor... Were you not the person who highlighted the suspicious activities of the Society?
+::{{DIcon}} By showing us the port's travel logs...
+::{{A|vo lntcop001 1918520 elodie 11.ogg}} '''Elodie:''' ...Oh!
+::{{A|vo lntcop001 1918520 lynette 38.ogg}} '''Lynette:''' You even highlighted the Society's activities during your compilation of the logs, so they'd be immediately visible to anyone examining the records.
+::{{A|vo lntcop001 1918520 lynette 39.ogg}} '''Lynette:''' Moreover, the logs contained no records of the port authorities' activities. In other words, your activities.
+::{{A|vo lntcop001 1918520 elodie 12.ogg}} '''Elodie:''' ...And what are you trying to suggest with that?
+::{{A|vo lntcop001 1918520 lynette 40.ogg}} '''Lynette:''' I am insinuating that you had plenty of opportunities to transfer the raw materials for Imitation Sinthe from the harbor to a boat, and then sail over to the meeting place full of floating barrels.
+::{{DIcon}} Once Bernard had placed the animals in the barrels...
+:::{{DIcon}} As long as you did it before Pierre came for his pickup, there'd be no one the wiser.
+::{{DIcon}} You'd open the lids and also dump in the raw materials.
+:::{{DIcon}} As long as you did it before Pierre came for his pickup, there'd be no one the wiser.
+::{{A|vo lntcop001 1918520 lynette 41.ogg}} '''Lynette:''' And that's how neither the trafficker nor the manufacturer knew there was a third person who supplied the raw materials, and surreptitiously operated between them.
+::{{DIcon}} First, you got in touch with both parties, and secured the raw materials.
+:::{{DIcon}} After that, you slipped the raw materials into the barrels next to the animals...
+:::{{DIcon}} And requested that Pierre pick up the barrels and bring them back to his base.
+::{{DIcon}} Then, you instructed Bernard to prepare the floating barrels and the animals.
+:::{{DIcon}} After that, you slipped the raw materials into the barrels next to the animals...
+:::{{DIcon}} And requested that Pierre pick up the barrels and bring them back to his base.
+::{{A|vo lntcop001 1918520 lynette 42.ogg}} '''Lynette:''' Pierre manufactured Imitation Sinthe using the raw materials you provided, stuffed the animals, and placed the animals back into the barrels.
+::{{A|vo lntcop001 1918520 lynette 43.ogg}} '''Lynette:''' Having received the green light from you as "Pierre," Bernard then retrieved his animals, and shipped them out of Fontaine once he had received enough for a full batch. This is the truth behind your smuggling ring.
+::{{A|vo lntcop001 1918520 benoit 06.ogg}} '''Bernard:''' I can't believe it... I never put two and two together...
+::{{A|vo lntcop001 1918520 elodie 13.ogg}} '''Elodie:''' Hahaha... You've sure got an extremely lively imagination.
+::{{A|vo lntcop001 1918520 lynette 44.ogg}} '''Lynette:''' So, what do you think she's going to say next?
+::{{DIcon}} Ever thought about a career in writing crime novels?
+:::{{A|vo lntcop001 1918520 elodie 14.ogg}} '''Elodie:''' Ever thought about a career in writing crime novels, huh?
+::{{DIcon}} But do you have any evidence?
+:::{{A|vo lntcop001 1918520 elodie 15.ogg}} '''Elodie:''' But do you have any evidence, hm?
+::{{A|vo lntcop001 1918520 lynette 45.ogg}} '''Lynette:''' Mhm, it appears that it's quite easy to predict what you'll think or say. Then, if we apply that to this case, we can also think of a few places to look for incriminating evidence.
+::{{A|vo lntcop001 1918520 lynette 46.ogg}} '''Lynette:''' You know very well that this case will not end until Pierre is found, so you will have him "commit suicide" out of fear and shame to end the investigation for good.
+::{{A|vo lntcop001 1918520 lynette 47.ogg}} '''Lynette:''' That way, you can also pin the blame for the overseas smuggling activities, the theft of the harbor's confiscated raw materials, and even the Lefevere name on him. After all, dead men tell no tales.
+::{{A|vo lntcop001 1918520 lynette 48.ogg}} '''Lynette:''' But you still want it to appear as if he had sent that last letter to Bernard, so you have to make sure he cannot be found until after Bernard has confessed to the authorities.
+::{{A|vo lntcop001 1918520 lynette 49.ogg}} '''Lynette:''' To do that, you either will hide his body until you've found an appropriate time to set up a fake suicide scene, or you'll dump it someplace where it'll be hard to determine the exact time of death. Submerged in water, for instance...
+::{{A|vo lntcop001 1918520 lynette 50.ogg}} '''Lynette:''' The location would ideally allow you to keep the body hidden for some time while also letting you keep an eye on it.
+::{{DIcon}} An example of such a place may be... somewhere in your own boat.
+::{{DIcon}} Or underneath the waters near Lumidouce Harbor.
+::{{DIcon}} You could also keep him in a very cool environment to be handled later.
+::{{DIcon}} Or set fire to make it look like he had burned himself to a crisp.
+::{{A|vo lntcop001 1918520 lynette 51.ogg}} '''Lynette:''' There are only so many options to hide a person's time of death, after all. As long as the Phantom investigates each of the possibilities in turn, they'll surely find Pierre's remains.
+::{{A|vo lntcop001 1918520 lynette 52.ogg}} '''Lynette:''' Especially since... as the prime suspect who will now be taken into custody, you will no longer have the time to move him, or set up a fake suicide scene to cover up the murder.
+::{{A|vo lntcop001 1918520 elodie 16.ogg}} '''Elodie:''' How absurd... And on what grounds will you order my arrest? Don't think for a second that your spouts of nonsense will amount to any kind of real argument. After all, I'm&mdash;
+::{{A|vo lntcop001 1918520 chevreuse 01.ogg}} '''Chevreuse:''' Elodie Lefevere!
+::{{A|vo lntcop001 1918520 chevreuse 02.ogg}} '''Chevreuse:''' As the captain of the Special Security and Surveillance Patrol, I hereby declare you as a suspect in the case. If you have any objections, you may raise them later during interrogation.
+::{{DIcon}} Chevreuse! Lyney!
+::{{DIcon}} You're here, too!
+::{{A|vo lntcop001 1918520 lyney 01.ogg}} '''Lyney:''' That's right, we received a message from Lumidouce Harbor that you were going to investigate the Humane Society. We didn't expect to run into you at such a critical moment.
+::{{A|vo lntcop001 1918520 chevreuse 03.ogg}} '''Chevreuse:''' While at the Harbor, we noticed something else extremely interesting... Apparently, you often used all kinds of excuses to swap your shifts.
+::{{A|vo lntcop001 1918520 chevreuse 04.ogg}} '''Chevreuse:''' And if one were to match the times of your shifts to the activities of the Humane Society and those of certain foreign ships, they'd find them to be an exact match.
+::{{A|vo lntcop001 1918520 elodie 17.ogg}} '''Elodie:''' Th&mdash;That's just a coincidence!
+::{{A|vo lntcop001 1918520 lynette 53.ogg}} '''Lynette:''' Yes, I'm sure you have already thought of a dozen different ways to explain away the suspicious activities, but as far as evidence goes... that should be enough to warrant taking you into custody.
+::{{A|vo lntcop001 1918520 lyney 02.ogg}} '''Lyney:''' Don't worry. If it turns out that the Gardes are still unable to find any evidence after all of this, Lynette and I will do everything in our power to clear your name.
+::{{A|vo lntcop001 1918520 elodie 18.ogg}} '''Elodie:''' Huff... huff...
+::{{A|vo lntcop001 1918520 lynette 55.ogg}} '''Lynette:''' ...Although judging by her reaction, I assume no follow-up from us will be needed.
+::{{A|vo lntcop001 1918520 elodie 19.ogg}} '''Elodie:''' Tch...!
+::{{A|vo lntcop001 1918520 chevreuse 05.ogg}} '''Chevreuse:''' The Lefeveres were infamous for using disguise and infiltration to achieve their goals... Who would have thought that they would have planted someone within the Gardes.
+::{{A|vo lntcop001 1918520 lynette 54.ogg}} '''Lynette:''' Judging from the timeline, they likely arranged for you to enter the Gardes before the fall of the clan... But they probably didn't expect you to turn it to your advantage, and use your job to save yourself during the purge.
+::{{A|vo lntcop001 1918520 chevreuse 06.ogg}} '''Chevreuse:''' Not only that, but you actively participated in the interrogation, arrest, and judgement of the Lefeveres during their fall, thus clearing yourself of suspicion.
+::{{A|vo lntcop001 1918520 chevreuse 07.ogg}} '''Chevreuse:''' You brutally and cruelly abandoned your allies as soon as they outlived their usefulness, just like a lizard cutting off its own tail in order to live... You've been doing this for years!
+::{{A|vo lntcop001 1918520 benoit 07.ogg}} '''Bernard:''' So... So you played me like a fool after all! Ugh...!
+::{{Black Screen|Bernard is suddenly knocked out by a sudden strike...}}
+::;(Continues to ''[[Closure]]'')
+{{Dialogue End}}
+
+===Ending: Save the Kitty!===
+{{Hangout Ending
+|ending name     = Save the Kitty!
+|character       = Lynette
+|act             = 1
+|description     = The truth remains submerged in the dark undercurrents, yet hope already lies beyond the cage.
+}}
+
+==Trivia==
+* The Chinese name of the quest may be a reference to the American crime series ''{{w|True Detective}}''.
+<!--
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
+-->
+==Other Languages==
+{{Other Languages
+|en       = Detectives
+|zhs      = 真探
+|zhs_rm   = Zhēntàn
+|zht      = 真探
+|zht_rm   = Zhēntàn
+|zh_tl    = Truth-Investigating
+|zh_note = {{zh|真探|rm=zhēntàn}} is a portmanteau of {{zh|真|zhēn|true,}} and {{zh|s=侦探|t=偵探|rm=zhēntàn|tl=detective.}}
+|ja       = 真相
+|ja_rm    = Shinsou
+|ja_tl    = The Truth
+|ko       = 탐정
+|ko_rm    = 
+|ko_tl    = 
+|es       = Detectives
+|fr       = Des détectives
+|fr_tl    = Detectives
+|ru       = Детективы
+|ru_tl    = Detectives
+|th       = นักสืบ
+|th_rm    = 
+|th_tl    = 
+|vi       = Truy Tìm
+|vi_tl    = 
+|de       = Detektive
+|de_tl    = Detectives
+|id       = Detektif
+|id_tl    = Detectives
+|pt       = Detetives
+|pt_tl    = 
+|tr       = Dedektifler
+|tr_tl    = 
+|it       = Detective
+|it_tl    = Detectives
+}}
+
+==Change History==
+{{Change History|4.5}}
+
+[[es:Detectives]]

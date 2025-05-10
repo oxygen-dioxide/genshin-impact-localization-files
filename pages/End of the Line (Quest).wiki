@@ -8,7 +8,6 @@
 |actNum        = II
 |act           = Perilous Trail
 |part          = 4
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |characters    = Arataki Itto; Kuki Shinobu; Paimon; Traveler; Traveler's Sibling; Ushi; Xiao; Yanfei; Yelan
 |startLocation = [[The Chasm's Bed]], [[The Chasm: Underground Mines]]
 |region        = Liyue
@@ -16,9 +15,7 @@
 |prev          = Danger All Around
 |next          = At Tunnel's End, Light
 |domain        = Realm of Snaring Illusions
-|exp           = 1,325
-|mora          = 58,200
-|other         = {{Card|Hero's Wit|5}}{{Card|Mystic Enhancement Ore|11}}
+|rewards       = Adventure EXP*1,325;Mora*58,200;Hero's Wit*5;Mystic Enhancement Ore*11
 |voiced        = yes
 }}
 {{TeyvatQuest|title=End of the Line|I|2|4}}
@@ -27,52 +24,216 @@
 # Talk to Paimon
 # Enter the new Domain
 #* Enter the Quest Domain: [[Realm of Snaring Illusions]]
-#* If the player leaves the domain before finishing the quest, the quest will reset to this step and the player will have to redo the entire domain. Any items already obtained within the domain will not respawn.
 # Defeat opponents
-#* Only the trial version of Yanfei will be present in the party.
 #* Wave 1: {{Enemy List|Treasure Hoarders: Scout*2;Treasure Hoarders: Crusher}}
 #* Wave 2: {{Enemy List|Treasure Hoarders: Handyman*2;Treasure Hoarders: Scout}}
 # Talk to [[Yanfei]]
 # Find more clues in the space
-#* [Optional] Investigate the nearby spot to get [[Note of Unknown Origin: I]].
-#* Destroy the plant next to the compass by attacking it.
-#* [Optional] Detonate the two {{Color|Geo [[Exploding Barrel]]s}} near the rocks.
-#* Rotate the Needle Forward on the compass and go through the gate.
-#  Defeat opponents
-#* Only the trial versions of Yanfei and Yelan will be present in the party.
+# Defeat opponents
 #* Wave 1: {{Enemy List|Fatui Skirmisher - Pyroslinger Bracer;Fatui Skirmisher - Cryogunner Legionnaire}}
-#* Wave 2: {{Enemy List|Fatui Pyro Agent*1}}
+#* Wave 2: {{Enemy|Fatui Pyro Agent|x=1}}
 # Talk to [[Yelan]]
 # Enter the new space
-#* Pull the lever to open the tunnel gate.
-#* [Optional] Investigate the nearby spot to get [[Note of Unknown Origin: II]].
-#* [Optional] Follow the railroad in the back up to find a Common Chest. If the path is blocked, Rotate the Needle Backward to return to the previous area and destroy the two exploding barrels.
-#* Rotate the Needle Forward on the compass and go through the gate. If the needle is blocked by a tree, Rotate the Needle Backward to return to the previous area and destroy the plant.
-# Defeat opponents
-#* Only the trial version of Xiao will be present in the party.
-#* There is no need to attack the shadowy entity; the fight ends when the dialogue ends.
+# Defeat opponents<!--
+#* {{Enemy||x=1}}
+-->
 # Talk to [[Xiao]]
 # Enter the new space
-#* [Optional] Investigate the nearby spot to get [[Note of Unknown Origin: III]].
-#* Rotate the Needle Backward twice on the compass and go through the gate. If the compass is blocked by the tunnel gate, return to the previous area and pull the lever.
 # Enter the new space
-#* [[Note of Unknown Origin: IV]] will be received after the cutscene.
-#* Rotate the Needle Backward on the compass and go through the gate.
 # Travel through the Abyss
 # Catch up with "{{MC|her|him}}"
-#* Investigate the [[Fantastic Compass|compass]] on the floor.
 # Leave the place you are in
-#* There is a Precious Chest before the domain exit.
-#* The player can also talk to Xiao, Yanfei, and Yelan before leaving the domain.
 
 ==Gameplay Notes==
-* For the first battle, only Yanfei will be present in the party.
-* For the second battle Yelan will join the party alongside Yanfei.
-* For the last battle, only Xiao will be present in the party.
+* If the player leaves the domain before finishing the quest, the quest will reset to this step and the player will have to redo the entire domain. Any items already obtained within the domain will not respawn.
+* During combat in step 3, the party will be limited to a trial version of Yanfei.
+* During combat in step 6, the party will be limited to trial versions of Yanfei and Yelan.
+* During combat in step 9, the party will be limited to trial version of Xiao, and combat will end automatically once the dialogue ends.
+
+==Trial Characters==
+===Yanfei===
+{{Trial Character
+|wl = 5, 6, 8
+|character_name = Yanfei
+|character_level5 = 71
+|character_level6 = 82
+|character_level8 = 90
+|constellation5 = 3
+|constellation6 = 3
+|constellation8 = 3
+|weapon_name = Lost Prayer to the Sacred Winds
+|weapon_level5 = 71
+|weapon_level6 = 82
+|weapon_level8 = 90
+|refinement5 = 1
+|refinement6 = 1
+|refinement8 = 1
+|artifact_flower = Royal Flora
+|artifact_feather = Royal Plume
+|artifact_sands = Royal Pocket Watch
+|artifact_goblet = Royal Silver Urn
+|artifact_circlet = Royal Masque
+|artifact_level5 = 16
+|artifact_level6 = 20
+|artifact_level8 = 20
+|set1 = Noblesse Oblige
+|set1_piece_bonus = 4
+|normal_attack_talent5 = 5
+|normal_attack_talent6 = 6
+|normal_attack_talent8 = 8
+|elemental_skill_talent5 = 8
+|elemental_skill_talent6 = 9
+|elemental_skill_talent8 = 11
+|elemental_burst_talent5 = 5
+|elemental_burst_talent6 = 6
+|elemental_burst_talent8 = 8
+|hp5 = 16,806
+|hp6 = 20,541
+|hp8 = 21,355
+|atk5 = 1,428
+|atk6 = 1,713
+|atk8 = 1,793
+|def5 = 547
+|def6 = 669
+|def8 = 706
+|em5 = 42
+|em6 = 105
+|em8 = 105
+|er5 = 135.0%
+|er6 = 135.0%
+|er8 = 135.0%
+|crit_rate5 = 79.1%
+|crit_rate6 = 87.3%
+|crit_rate8 = 90.2%
+|crit_dmg5 = 91.9%
+|crit_dmg6 = 91.9%
+|crit_dmg8 = 91.9%
+|pyro_dmg5 = 18.0%
+|pyro_dmg6 = 24.0%
+|pyro_dmg8 = 24.0%
+}}
+
+===Yelan===
+{{Trial Character
+|wl = 5, 6, 8
+|character_name = Yelan
+|character_level5 = 71
+|character_level6 = 82
+|character_level8 = 90
+|constellation5 = 3
+|constellation6 = 3
+|constellation8 = 3
+|weapon_name = Aqua Simulacra
+|weapon_level5 = 71
+|weapon_level6 = 82
+|weapon_level8 = 90
+|refinement5 = 1
+|refinement6 = 1
+|refinement8 = 1
+|artifact_flower = Royal Flora
+|artifact_feather = Royal Plume
+|artifact_sands = Royal Pocket Watch
+|artifact_goblet = Royal Silver Urn
+|artifact_circlet = Royal Masque
+|artifact_level5 = 16
+|artifact_level6 = 20
+|artifact_level8 = 20
+|set1 = Noblesse Oblige
+|set1_piece_bonus = 4
+|normal_attack_talent5 = 5
+|normal_attack_talent6 = 6
+|normal_attack_talent8 = 8
+|elemental_skill_talent5 = 5
+|elemental_skill_talent6 = 6
+|elemental_skill_talent8 = 8
+|elemental_burst_talent5 = 8
+|elemental_burst_talent6 = 9
+|elemental_burst_talent8 = 11
+|hp5 = 25,857
+|hp6 = 31,904
+|hp8 = 33,409
+|atk5 = 1,356
+|atk6 = 1,622
+|atk8 = 1,692
+|def5 = 508
+|def6 = 627
+|def8 = 662
+|em5 = 42
+|em6 = 105
+|em8 = 105
+|er5 = 135.0%
+|er6 = 135.0%
+|er8 = 135.0%
+|crit_rate5 = 66.2%
+|crit_rate6 = 76.3%
+|crit_rate8 = 76.3%
+|crit_dmg5 = 164.6%
+|crit_dmg6 = 172.4%
+|crit_dmg8 = 180.1%
+}}
+
+===Xiao===
+{{Trial Character
+|wl = 5, 6, 8
+|character_name = Xiao
+|character_level5 = 71
+|character_level6 = 82
+|character_level8 = 90
+|constellation5 = 3
+|constellation6 = 3
+|constellation8 = 3
+|weapon_name = Primordial Jade Winged-Spear
+|weapon_level5 = 71
+|weapon_level6 = 82
+|weapon_level8 = 90
+|refinement5 = 1
+|refinement6 = 1
+|refinement8 = 1
+|artifact_flower = Royal Flora
+|artifact_feather = Royal Plume
+|artifact_sands = Royal Pocket Watch
+|artifact_goblet = Royal Silver Urn
+|artifact_circlet = Royal Masque
+|artifact_level5 = 16
+|artifact_level6 = 20
+|artifact_level8 = 20
+|set1 = Noblesse Oblige
+|set1_piece_bonus = 4
+|normal_attack_talent5 = 5
+|normal_attack_talent6 = 6
+|normal_attack_talent8 = 8
+|elemental_skill_talent5 = 8
+|elemental_skill_talent6 = 9
+|elemental_skill_talent8 = 11
+|elemental_burst_talent5 = 5
+|elemental_burst_talent6 = 6
+|elemental_burst_talent8 = 8
+|hp5 = 20,593
+|hp6 = 25,544
+|hp8 = 26,620
+|atk5 = 1,634
+|atk6 = 1,976
+|atk8 = 2,176
+|def5 = 741
+|def6 = 895
+|def8 = 946
+|em5 = 42
+|em6 = 105
+|em8 = 105
+|er5 = 160.0%
+|er6 = 160.0%
+|er8 = 160.0%
+|crit_rate5 = 84.4%
+|crit_rate6 = 96.4%
+|crit_rate8 = 98.4%
+|crit_dmg5 = 91.9%
+|crit_dmg6 = 91.9%
+|crit_dmg8 = 91.9%
+}}
 
 ==Dialogue==
 {{Quest Description|After rendezvousing with Xiao, you and the others go over the curious and unsettling things you have seen underground...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Paimon)
 :{{A|vo cyaq004 1 paimon 01.ogg}} '''Paimon:''' *yawn*...
 :{{A|vo cyaq004 1 paimon 02.ogg}} '''Paimon:''' Wait... Where are we...
@@ -255,7 +416,7 @@
 :{{A|vo cyaq004 3 yanfei 05.ogg}} '''Yanfei:''' Well, I can't guarantee that, but it's worth a try.
 :{{A|vo cyaq004 3 xiao 03.ogg}} '''Xiao:''' I will find a way.
 :{{DIcon}} Wait...
-:{{A|vo cyaq004 3 yanfei 06.ogg}} '''Yanfei:''' Let them go. But if you were planning on going into that domain too, (Traveler), then come with me.
+:{{A|vo cyaq004 3 yanfei 06.ogg}} '''Yanfei:''' Let them go. But if you were planning on going into that domain too, {{Traveler}}, then come with me.
 :{{A|vo cyaq004 3 yanfei 07.ogg}} '''Yanfei:''' After all, I'm just a lawyer, hehe. We'll be safer if we team up.
 :{{A|vo cyaq004 3 yanfei 08.ogg}} '''Yanfei:''' By the way, um... You and Xiao seem pretty close, huh? Yelan got a bit worked up just now, so I just wanted to apologize on her behalf.
 :{{A|vo cyaq004 3 yanfei 09.ogg}} '''Yanfei:''' I have to say, though, if Yelan hadn't spoken out like she did, I'm not sure she would've gotten through to him. Also... self-sacrifice is something Yelan feels strongly about. She'd try to stop whoever it was.
@@ -276,9 +437,9 @@
 :{{A|vo cyaq004 3 ushio 03.ogg}} '''Ushi:''' Moo, moo!
 :{{A|vo cyaq004 3 shinobu 19.ogg}} '''Kuki Shinobu:''' Go on, get outta here. And be careful.
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|After rendezvousing with Xiao, you and the others go over the curious and unsettling things you have seen underground. Xiao comes up with a plan, which Yelan firmly opposes. In the heat of the moment, Itto makes a bold move to stop their argument. Now in front of the path that Itto has opened, people decide to calm down and explore ahead, trying to discover the truth of this place and find a way out...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Enter the ''[[Realm of Snaring Illusions]]'' Domain)
 :{{A|vo cyaq004 4 yanfei 01.ogg}} '''Yanfei:''' What's this?
 :{{DIcon}} What a weird and wonderful scene...
@@ -289,7 +450,7 @@
 :{{A|vo cyaq004 4 paimon 01.ogg}} '''Paimon:''' What? That's the best description you can come up with? It's way, way bigger than that!
 :{{A|vo cyaq004 4 yanfei 03.ogg}} '''Yanfei:''' Huh, well, it seems our theory checked out. In my humble legal opinion, that's almost certainly the magical device I've been looking for. It really showed up...
 :{{A|vo cyaq004 4 yanfei 04.ogg}} '''Yanfei:''' But, if this really is the Fantastic Compass... It's so huge! How the heck am I gonna lug that back to my office!
-:{{A|vo cyaq004 4 yanfei 05.ogg}} '''Yanfei:''' ...Ahem, I mean, come on Yanfei, don't give up now. Let's investigate the area first, (Traveler).
+:{{A|vo cyaq004 4 yanfei 05.ogg}} '''Yanfei:''' ...Ahem, I mean, come on Yanfei, don't give up now. Let's investigate the area first, {{Traveler}}.
 :{{A|vo cyaq004 4 yanfei 06.ogg}} '''Yanfei:''' What the...! Are they... are they Treasure Hoarders?
 :{{DIcon}} What are Treasure Hoarders doing here?
 :{{A|vo cyaq004 4 yanfei 07.ogg}} '''Yanfei:''' They look familiar... Oh, yeah, I bumped into these rapscallions a few days ago.
@@ -445,24 +606,24 @@
 ::{{DIcon}} I think this is my memory.
 :{{A|vo cyaq004 9 paimon 02.ogg}} '''Paimon:''' Your memory? Of what?
 :{{DIcon}} Of emptiness. That's the power of the Abyss.
-:{{A|vo cyaq004 9 paimon 03.ogg}} '''Paimon:''' The Abyss? So.... this place is created purely based on your memory?
+:{{A|vo cyaq004 9 paimon 03.ogg}} '''Paimon:''' The Abyss? So... this place is created purely based on your memory?
 :{{DIcon}} I'm afraid so. Because I will always remember...
 :{{DIcon}} ...That the Abyss took my twin away.
-:'''(Traveler):''' (The Abyss... It's always bad news.)
-:'''(Traveler):''' (The purpose of my journey is to find you. I will keep going, and imagine a better tomorrow with you.)
+:'''{{Traveler}}:''' (The Abyss... It's always bad news.)
+:'''{{Traveler}}:''' (The purpose of my journey is to find you. I will keep going, and imagine a better tomorrow with you.)
 :{{A|vo cyaq004 10 paimon 01.ogg}} '''Paimon:''' It's getting darker...
-:'''(Traveler):''' (Okay, I have to get everyone out of here. I'll find a way to survive this... then find the lost treasure.)
+:'''{{Traveler}}:''' (Okay, I have to get everyone out of here. I'll find a way to survive this... then find the lost treasure.)
 
 ;(A cutscene plays)
 :{{A|vo cyaq004 10 paimon 02.ogg}} '''Paimon:''' *gasp* It's... it's...
-:{{A|vo cyaq004 10 hero 01.ogg}} {{A|vo cyaq004 10 heroine 01.ogg}} '''(Traveler):''' {{MC|Lumine|Aether|mc=1}}! Wait!
+:{{A|vo cyaq004 10 hero 01.ogg}} {{A|vo cyaq004 10 heroine 01.ogg}} '''{{Traveler}}:''' {{MC|Lumine|Aether|mc=1}}! Wait!
 
 ;(Investigate the object)
-:{{A|vo cyaq004 10 paimon 03.ogg}} '''Paimon:''' Huh? What's that shiny round thing on the ground?.
+:{{A|vo cyaq004 10 paimon 03.ogg}} '''Paimon:''' Huh? What's that shiny round thing on the ground?
 :{{DIcon}} (It looks like...)
 :{{A|vo cyaq004 10 yanfei 01.ogg}} '''Yanfei:''' ...The Fantastic Compass?
 :{{A|vo cyaq004 10 yelan 01.ogg}} '''Yelan:''' In the other spaces, the Fantastic Compass was always partially buried in the ground. But this one is lying flat, intact... as if somebody left it here.
-:{{A|vo cyaq004 10 paimon 04a.ogg}} {{A|vo cyaq004 10 paimon 04b.ogg}} '''Paimon:''' Oh... {{MC|she|he|mc=1}} was just a figment of your imagination, (Traveler)...?
+:{{A|vo cyaq004 10 paimon 04a.ogg}} {{A|vo cyaq004 10 paimon 04b.ogg}} '''Paimon:''' Oh... {{MC|she|he|mc=1}} was just a figment of your imagination, {{Traveler}}...?
 :{{A|vo cyaq004 10 paimon 05a.ogg}} {{A|vo cyaq004 10 paimon 05b.ogg}} '''Paimon:''' So {{MC|she|he|mc=1}} appeared as an illusion because you miss {{MC|her|him|mc=1}} so much, huh?
 :{{DIcon}} I can sense that {{MC|she|he|mc=1}} is not here.
 ::{{DIcon}} But at least we found this.
@@ -474,9 +635,9 @@
 :{{A|vo cyaq004 10 yelan 04.ogg}} '''Yelan:''' ...Hmph, someone's used this before. There may be a hidden message inside.
 :{{A|vo cyaq004 10 yelan 05.ogg}} '''Yelan:''' Let's get out of here and find somewhere safer.
 ----
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|After encountering a series of space-and-time anomalies, you and the others manage to find some clues. You exchange information with one another in hopes of finding a way out.}}<!-- I checked the quest menu at this point but not sure if this is the correct spot or if the quest description update begins earlier -->
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After teleporting out of the abyss)
 :{{A|vo cyaq004 11 yelan 01.ogg}} '''Yelan:''' Alright, here will be fine. Take a moment to catch your breath while I try to unlock the Fantastic Compass.
 
@@ -491,7 +652,10 @@
 
 ;(Talk to Yelan)
 :{{A|vo cyaq004 11 yelan 02.ogg}} '''Yelan:''' Within Yin and Yang, among the five regions, water, fire, wind, and thunder cycle like the seasons. Grasp the seven heavens from the ground, open wide the three gates, all the world within reach...
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Video Guides==
 {{EVT
@@ -500,11 +664,11 @@
 }}
 
 ==Trivia==
-*Yelan's line at the end of the quest is derived from certain aspects of Chinese culture:
-**The "five regions" refers to the Chinese concept of {{zh|五方|rm=Wǔfāng}}, which encompasses north, south, east, west, and center. This concept is closely interrelated with the {{lang|{{w|Wufang Shangdi}}|zh=五方上帝|zh_tl=Five Regions' Highest Deities}} and the {{lang|{{w|Wuxing (Chinese philosophy)|Wuxing}}|zh=五行|zh_lit=Five Phases}}, among other things.
-***In Chinese philosophy, the five elements in the Wuxing are Fire, Water, Wood, Metal (or Gold), and Earth. In Liyue, four of the known elements are Fire, Water, Wind, and Thunder. Given their correlation to the Five Yakshas, the fifth unmentioned element may be Earth.
-**The "seven heavens" is a translation of {{zh|七辰|rm=qī chén}} which, when read as separate words, can refer to a literal seven heavenly bodies (or stars).<ref>Wiktionary: {{wt|辰||Definitions}}</ref> It also has a literary meaning which refers to the sun, moon, and five stars,<ref>Baidu Encyclopedia: [https://baike.baidu.com/item/%E4%B8%83%E8%BE%B0/4558061 七辰] (Chinese)</ref> where the five stars refer to Mercury (north), Mars (south), Jupiter (east), Venus (west), and Saturn (center). These planets tie into the aforementioned concepts of the Five Regions, the Wuxing, and the Wufang Shangdi.
-**The {{lang|"three gates"|zh=三门}} may be a reference to the {{zh|{{wt|三才||Chinese}}|rm=|tl=Three Powers (or Three Talents)}} of heaven, earth, and humans, which is also related to the above concepts. It was first used in the ''{{w|I Ching}}'' in reference to the concept of yin and yang.<ref>Chinese Text Project: [https://ctext.org/book-of-changes?searchu=%E5%85%BC%E4%B8%89%E6%89%8D%E8%80%8C%E5%85%A9%E4%B9%8B ''I Ching'': 說卦 - Shuo Gua]</ref>
+* Yelan's line at the end of the quest is derived from certain aspects of Chinese culture:
+** The "five regions" refers to the Chinese concept of {{zh|五方|rm=Wǔfāng}}, which encompasses north, south, east, west, and center. This concept is closely interrelated with the {{Lang|{{w|Wufang Shangdi}}|zh=五方上帝|zh_tl=Five Regions' Highest Deities}} and the {{Lang|{{w|Wuxing (Chinese philosophy)|Wuxing}}|zh=五行|zh_lit=Five Phases}}, among other things.
+*** In Chinese philosophy, the five elements in the Wuxing are Fire, Water, Wood, Metal (or Gold), and Earth. In Liyue, four of the known elements are Fire, Water, Wind, and Thunder. Given their correlation to the Five Yakshas, the fifth unmentioned element may be Earth.
+** The "seven heavens" is a translation of {{zh|七辰|rm=qī chén}} which, when read as separate words, can refer to a literal seven heavenly bodies (or stars).<ref>Wiktionary: {{wt|辰||Definitions}}</ref> It also has a literary meaning which refers to the sun, moon, and five stars,<ref>Baidu Encyclopedia: [https://baike.baidu.com/item/{{subst:#urldecode:%E4%B8%83%E8%BE%B0/4558061}} 七辰] (Chinese)</ref> where the five stars refer to Mercury (north), Mars (south), Jupiter (east), Venus (west), and Saturn (center). These planets tie into the aforementioned concepts of the Five Regions, the Wuxing, and the Wufang Shangdi.
+** The {{Lang|"three gates"|zh=三门}} may be a reference to the {{zh|{{wt|三才||Chinese}}|rm=|tl=Three Powers (or Three Talents)}} of heaven, earth, and humans, which is also related to the above concepts. It was first used in the ''{{w|I Ching}}'' in reference to the concept of yin and yang.<ref>Chinese Text Project: [https://ctext.org/book-of-changes?searchu=%E5%85%BC%E4%B8%89%E6%89%8D%E8%80%8C%E5%85%A9%E4%B9%8B ''I Ching'': 說卦 - Shuo Gua]</ref>
 
 ==Gallery==
 <gallery>
@@ -513,50 +677,51 @@ End of the Line Yanfei Protection Spell.png|Yanfei's Protection Spell
 
 ==Other Languages==
 {{Other Languages
-|en      = End of the Line
-|zhs     = 穷途末路
-|zhs_rm  = Qióngtúmòlù
-|zht     = 窮途末路
-|zht_rm  = Qióngtúmòlù
-|zh_tl   = Dead End
-|ja      = 窮途末路
-|ja_rm   = Kyuuto Matsuro
-|ja_tl   = Dead End
-|ko      = 막다른 골목
-|ko_rm   = Makdareun Golmok
-|ko_tl   = Dead-end Alley
-|es      = Callejón sin salida
-|es_tl   = Alley Without Exit
-|fr      = La fin de la ligne
-|fr_tl   = The End of the Line
-|ru      = Конец пути
-|ru_tl   = End of the Road
-|th      = หมดสิ้นหนทาง
-|th_rm   = Mot Sin Hontang
-|th_tl   = No Way Left
-|vi      = {{tt|Cùng|窮}} Đường {{tt|Mạt|末}} {{tt|Lộ|路}}
-|vi_tl   = Dead End
-|de      = Die Sackgasse
-|de_tl   = The Dead End
-|id      = Tampak Bak Ujung Tanduk
-|id_tl   = Looks Like a Dangerous Situation
-|id_note = "Ujung Tanduk" is an Indonesian idiom, meaning "a dangerous situation" or "emergency"
-|pt      = Caminho sem Saída
-|pt_tl   = 
-|tr      = Yolun Sonu
-|tr_tl   = 
-|it      = Capolinea
-|it_tl   = 
+|en       = End of the Line
+|zhs      = 穷途末路
+|zhs_rm   = Qióngtúmòlù
+|zht      = 窮途末路
+|zht_rm   = Qióngtúmòlù
+|zh_tl    = Dead End
+|ja       = 窮途末路
+|ja_rm    = Kyuuto Matsuro
+|ja_tl    = Dead End
+|ko       = 막다른 골목
+|ko_tl    = Dead-end Alley
+|es       = Callejón sin salida
+|es_tl    = Alley Without Exit
+|fr       = La fin de la ligne
+|fr_tl    = The End of the Line
+|ru       = Конец пути
+|ru_tl    = End of the Road
+|th       = หมดสิ้นหนทาง
+|th_rm    = Mot Sin Hontang
+|th_tl    = No Way Left
+|vi       = {{tt|Cùng|窮}} Đường {{tt|Mạt|末}} {{tt|Lộ|路}}
+|vi_tl    = Dead End
+|de       = Die Sackgasse
+|de_tl    = The Dead End
+|id       = Tampak Bak Ujung Tanduk
+|id_tl    = Looks Like a Dangerous Situation
+|id_note  = {{id|Ujung Tanduk}} is an Indonesian idiom, meaning "a dangerous situation" or "emergency."
+|pt       = Caminho sem Saída
+|pt_tl    = Dead End
+|tr       = Yolun Sonu
+|tr_tl    = Road's End
+|it       = Capolinea
+|it_tl    = 
 }}
 
 ==Change History==
 {{Change History|2.7}}
 
 ==References==
-{{reflist}}
+{{Reflist}}
 
 ==Navigation==
 {{Archon Quest Navbox|Interlude Chapter}}
 
-[[vi:Cùng Đường Mạt Lộ]]
 [[es:Callejón sin salida]]
+[[ja:窮途末路]]
+[[ru:Конец пути]]
+[[vi:Cùng Đường Mạt Lộ]]

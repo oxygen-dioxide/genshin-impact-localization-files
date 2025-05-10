@@ -1,91 +1,182 @@
-{{Upcoming}}
 {{Talent Infobox
-|image         = Talent Mika&#39;s Elemental Skill.png
+|image         = Talent Starfrost Swirl.png
 |character     = Mika
 |type          = Elemental Skill
-|info          = Mika uses his crossbow to attack, granting all nearby characters in your party Soulwind. When characters in the Soulwind state are on the field, their [[ATK SPD]] will be increased. When tapped, Mika fires a Flowfrost Arrow that can pierce through opponents, dealing {{Color|Cryo DMG}} to enemies it comes into contact with. When held, Mika goes into Aiming Mode, locking on to an opponent and firing a Rimestar Flare at them, dealing {{Color|Cryo DMG}}. When the Rimestar Flare hits, it will rise before exploding, launching Rimestar Shards into a maximum of 3 other opponents, dealing {{Color|Cryo DMG}}.
-|CD            = 
-|Duration      = 
-|scale_att1    = 
+|info          = Mika uses his crossbow to attack, granting all nearby characters in your party Soulwind. When characters in the Soulwind state are on the field, their [[ATK SPD]] will be increased.<br>Will take effect in different ways if Tapped or Held.<br><br>'''Tap'''<br>Fires a Flowfrost Arrow that can pierce through opponents, dealing {{Color|Cryo DMG}} to enemies it comes into contact with.<br><br>'''Hold'''<br>Goes into Aiming Mode, locking on to an opponent and firing a Rimestar Flare at them, dealing {{Color|Cryo DMG}}. When the Rimestar Flare hits, it will rise before exploding, launching Rimestar Shards into a maximum of 3 other opponents, dealing {{Color|Cryo DMG}}.
+|CD            = 15s
+|duration      = 12s
+|scale_att1    = ATK
 |utility1      = ATK SPD
 }}
-<!--{{Description|}}-->
+{{Description|Stars burst 'neath the frosted skies.}}
 '''Starfrost Swirl''' is [[Mika]]'s [[Elemental Skill]].
-<!--
+
 ==Gameplay Notes==
---><!--
+* {{Talent Note|particles|Flowfrost Arrow or Rimestar Flare|4}}
+* Rimestar Flare makes a viewfinder-like circle appears on the screen, which surrounds the aiming cursor. Rimestar Flare locks on the enemy that was in the circle, and unlocks on that enemy if the enemy moved away or if Mika turned away. If no enemy is locked, Rimestar Flare will be fired based on the aiming cursor, which is still able to hit enemies, explode into Rimestar Shards, and yield Elemental Particles.
+* Rimestar Flare can only lock on enemies, including most hostile [[wildlife]]. Objects such as [[Elemental Monument]]s, [[Regisvines]]' shields, [[Shouki no Kami]]'s Nirvana Engines, [[Spider]]s, and [[Defense Mechanism]]s will not be locked on. However, they can be hit by it if the skill is fired manually by aiming.
+** [[Wildlife]] and enemies that are in a state where they would not be [[Aggravation|aggravated]] upon approach will still be locked on.
+** Hostile wildlife that does not cause the player to enter combat mode, such as [[Forest Boar]]s, cannot be locked on.
+* If locked on, Rimestar Flare will home in on its target.
+** Due to this, Mika cannot use his crossbow to target [[Weak Point]]s while locked on, as the auto-targeting system does not aim for Weak Points. However, a manually-aimed Rimestar Flare fired from outside of the lock-on range can still hit Weak Points, although a [[CRIT Hit]] will not be guaranteed.
+* Rimestar Flare's flying trajectory is notably different from the normal Bow Charged Attack. Its trajectory falls off faster.
+* Mika can hold the skill for a maximum of '''10''' seconds. The skill is automatically released afterwards.
+
+;<big>Passive Effects</big>
+* {{Talent Note|ascension|1|Suppressive Barrage|character=Mika|talent=Starfrost Swirl}}
+* {{Talent Note|ascension|2|Topographical Mapping|character=Mika|talent=Starfrost Swirl}}
+
+;<big>Constellation Effects</big>
+* {{Talent Note|constellation|1|Factor Confluence}}
+* {{Talent Note|constellation|2|Companion's Ingress}}
+* {{Talent Note|constellation|5|Signal Arrow}}
+* {{Talent Note|constellation|6|Companion's Counsel}}
+
 ==Advanced Properties==
 {{Advanced Properties
-|title   = 
-|gu      = 
-|icdtag  = 
-|icdtype = 
-|poise   = 
-|impulse = 
+|title   = Flowfrost Arrow DMG
+|gu      = 1
+|icdtag  = none
+|poise   = 100
+|impulse = 3
+
+|title2   = Rimestar Flare DMG
+|gu2      = 1
+|icdtag2  = Elemental Skill
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 100
+|impulse2 = 2
+
+|title3   = Rimestar Shard DMG
+|gu3      = 1
+|icdtag3  = Elemental Skill
+|icdtype3 = 2.5s/3 Hits
+|poise3   = 50
+|impulse3 = 2
 }}
---><!--
+
 ==Preview==
 {{Preview
-|file1=Mika&#39;s Elemental Skill Preview
-|caption1= 
+|file1=Starfrost Swirl Preview
+|caption1=Press
 
-|file2= 
-|caption2= 
-
-|file3=
-|caption3=
+|file2=Starfrost Swirl Hold Preview
+|caption2=Hold, with a Rimestar Flare
 }}
---><!--
+
 ==Attribute Scaling==
-{{Talent Scaling}}
---><!--
+{{Talent Scaling
+|talentType=Elemental Skill
+|levels=13
+|order=flowfrostarrowdmg,rimestarflaredmg,rimestarsharddmg,atkspdbonus,soulwindduration,cd
+|titles=Flowfrost Arrow DMG (%),Rimestar Flare DMG (%),Rimestar Shard DMG (%),ATK SPD Bonus (%),Soulwind Duration,CD
+|flowfrostarrowdmg_1=67.2
+|flowfrostarrowdmg_2=72.24
+|flowfrostarrowdmg_3=77.28
+|flowfrostarrowdmg_4=84
+|flowfrostarrowdmg_5=89.04
+|flowfrostarrowdmg_6=94.08
+|flowfrostarrowdmg_7=100.8
+|flowfrostarrowdmg_8=107.52
+|flowfrostarrowdmg_9=114.24
+|flowfrostarrowdmg_10=120.96
+|flowfrostarrowdmg_11=127.68
+|flowfrostarrowdmg_12=134.4
+|flowfrostarrowdmg_13=142.8
+|rimestarflaredmg_1=84
+|rimestarflaredmg_2=90.3
+|rimestarflaredmg_3=96.6
+|rimestarflaredmg_4=105
+|rimestarflaredmg_5=111.3
+|rimestarflaredmg_6=117.6
+|rimestarflaredmg_7=126
+|rimestarflaredmg_8=134.4
+|rimestarflaredmg_9=142.8
+|rimestarflaredmg_10=151.2
+|rimestarflaredmg_11=159.6
+|rimestarflaredmg_12=168
+|rimestarflaredmg_13=178.5
+|rimestarsharddmg_1=25.2
+|rimestarsharddmg_2=27.09
+|rimestarsharddmg_3=28.98
+|rimestarsharddmg_4=31.5
+|rimestarsharddmg_5=33.39
+|rimestarsharddmg_6=35.28
+|rimestarsharddmg_7=37.8
+|rimestarsharddmg_8=40.32
+|rimestarsharddmg_9=42.84
+|rimestarsharddmg_10=45.36
+|rimestarsharddmg_11=47.88
+|rimestarsharddmg_12=50.4
+|rimestarsharddmg_13=53.55
+|atkspdbonus_1=13
+|atkspdbonus_2=14
+|atkspdbonus_3=15
+|atkspdbonus_4=16
+|atkspdbonus_5=17
+|atkspdbonus_6=18
+|atkspdbonus_7=19
+|atkspdbonus_8=20
+|atkspdbonus_9=21
+|atkspdbonus_10=22
+|atkspdbonus_11=23
+|atkspdbonus_12=24
+|atkspdbonus_13=25
+|soulwindduration=12s
+|cd=15s
+}}
+
 ==Talent Leveling==
-{{Talent Upgrade|}}
---><!--
+{{Talent Upgrade|Mika}}
+
 ==Voice-Overs==
 {{Talent VO}}
---><!--
+
+==Trivia==
+* Using this skill on some idle enemies (not those in special idle animations) will cause them to walk over to the location of the fired shot to "investigate" before they may walk back. This behavior is similar to a normal {{Cryo}} arrow.
+
 ==Other Languages==
 {{Other Languages
-|en      = {{subst:#titleparts:{{subst:PAGENAME}}}}
-|zhs     = 
-|zhs_rm  = 
-|zht     = 
-|zht_rm  = 
-|zh_tl   = 
-|ja      = 
-|ja_rm   = 
-|ja_tl   = 
-|ko      = 
-|ko_rm   = 
-|ko_tl   = 
-|es      = 
-|es_tl   = 
-|fr      = 
-|fr_tl   = 
-|ru      = 
-|ru_tl   = 
-|th      = 
-|th_rm   = 
-|th_tl   = 
-|vi      = 
-|vi_tl   = 
-|de      = 
-|de_tl   = 
-|id      = 
-|id_tl   = 
-|pt      = 
-|pt_tl   = 
-|tr      = 
-|tr_tl   = 
-|it      = 
-|it_tl   = 
+|en        = Starfrost Swirl
+|zhs       = 星霜的流旋
+|zhs_rm    = Xīngshuāng de Liúxuán
+|zht       = 星霜的流旋
+|zht_rm    = Xīngshuāng de Liúxuán
+|zh_tl     = Swirl of Starfrost
+|ja        = スターフロストスワール
+|ja_rm     = Sutaafurosuto Suwaaru
+|ja_tl     = Starfrost Swirl
+|ko        = 별서리 소용돌이
+|ko_tl     = Starfrost Vortex
+|es        = Vórtice hieloastral
+|es_tl     = Ice-Star Vortex
+|fr        = Tourbillon de givre étoilé
+|fr_tl     = Star Frost Swirl
+|ru        = Вихрь звёздного инея
+|ru_tl     = Starfrost Swirl
+|th        = Starfrost Swirl
+|vi        = Sao Băng Lưu Chuyển
+|vi_tl     = 
+|de        = Sternenfrost-Strudel
+|de_tl     = Starfrost Swirl
+|id        = Starfrost Swirl
+|pt        = Redemoinho Estelar Gelado
+|pt_tl     = Cold Stellar Whirlwind
+|tr        = Kırağı Girdabı
+|tr_tl     = Frost Swirl
+|it        = Turbine Gelastrale
+|it_tl     = Astral-Frost Swirl
 }}
--->
+
 ==Change History==
 {{Change History|3.5}}
 
 ==Navigation==
 {{Talent Navbox|Mika}}
 
+[[es:Vórtice hieloastral]]
 [[fr:Tourbillon de givre étoilé]]
+[[pt-br:Redemoinho Estelar Gelado]]
+[[ru:Вихрь звёздного инея]]
+[[th:Starfrost Swirl]]
+[[vi:Sao Băng Lưu Chuyển]]

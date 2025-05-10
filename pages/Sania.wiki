@@ -3,12 +3,12 @@
 |missing_NPC_profile  = yes
 }}
 {{Character Infobox
-|type             = NPC <!-- NPC, Quest NPC, or Event NPC -->
+|type             = Open-World NPC <!-- NPC, Quest NPC, or Event NPC -->
 |image            = NPC Sania.png
 |realname         = <!-- Optional, if different from in-game name -->
 |deceased         = <!-- Past (for deceased prior to events of the game) or free response -->
 |region           = Sumeru
-|location         = <!-- Where the character appears, if different from Region -->
+|location         = Sumeru
 |affiliation      = 
 |title            = 
 
@@ -25,10 +25,7 @@
 |voiceJP          = 
 |dialoguereward   = 
 }}
-'''Sania''' is an [[NPC]] located in [[Aaru Village]], [[Sumeru]]. During daytime, she can be found near [[Azalai]]. During nighttime, she can be found with [[Jabari]].
-<!-- is a quest/event-exclusive NPC that appears in the [[(Chapter)]] Act I: [[(Quest)]].
-
-Following a certain dialogue branch for the first time gives the player AMOUNT_AS_WORD [[Item]].<!-- Only needed for NPCs that give items -->
+'''Sania''' is an open-world [[NPC]] located in [[Aaru Village]], [[Sumeru]]. During daytime, she can be found near [[Azalai]]. During nighttime, she can be found with [[Jabari]].
 
 ==Location==
 <gallery>
@@ -40,9 +37,6 @@ File:NPC Location Azalai & Sania Context.png|Additional context
 Detailed story/lore information goes here.
 ''(To be added.)''
 
-===Personality===
-''(To be added.)''
-
 ===Appearance===
 Keep appearance section short and concise. Limit to 2 paragraphs with 3-4 sentences each.
 ''(To be added.)''
@@ -52,31 +46,37 @@ Keep appearance section short and concise. Limit to 2 paragraphs with 3-4 senten
 
 ==Idle Quotes==
 ;Daytime
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{DIcon|Idle}} How worrying...
 ::{{A|VO Sania 01.ogg}} "It's as worrying as it can get."
-{{Dialogue end}}
+{{Dialogue End}}
 ;Nighttime
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{DIcon|Idle}} How am I supposed to...
 ::{{A|VO Sania 02.ogg}} "How am I supposed to stay calm?!"
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Thoughts==
 {{All Schemes to Know Explanation|name=Sania}}
 ;Daytime
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{A|VO Sania All Schemes to Know 01.ogg}} '''Sania:''' (*sigh*... Am I being too hard on him...?)
-{{Dialogue end}}
+{{Dialogue End}}
 ;Nighttime
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{A|VO Sania All Schemes to Know 02.ogg}} '''Sania:''' (I knew it! I shouldn't have been too lenient with him!)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Dialogue==
 ===Daytime===
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Sania:''' *sigh* This is so frustrating...
+:{{DIcon|TCG}} Adventure Challenge
+:;(Opens [[Genius Invokation TCG/Stage/Sania/Wealth and Other Extreme Tactics|Genius Invokation TCG match interface]])
+:;(If the player loses the match)
+:::'''Sania:''' That was a tough round... Do you think I've got what it takes to be a pro?
+:;(If the player wins the match)
+:::'''Sania:''' Ugh... I still need more training!
 :{{DIcon}} Are you alright?
 ::'''Sania:''' Today, perhaps. Tomorrow? I'm afraid we can't be sure.
 ::'''Sania:''' With a husband like mine, we're struggling to make ends meet every day.
@@ -92,19 +92,20 @@ Keep appearance section short and concise. Limit to 2 paragraphs with 3-4 senten
 ::'''Sania:''' I'm not saying that helping others is bad, but we need to look out for ourselves first, right?
 :{{DIcon}} See you.
 ::'''Sania:''' See you. Let me see if I can save some Mora on our expenditures anywhere else...
-{{Dialogue end}}
+{{Dialogue End}}
 ===Nighttime===
 {{Transclude|Jabari|Nighttime}}
 <!--
 ==Event Dialogue==
 ===Event Name===
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''{{subst:PAGENAME}}:'''
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Trivia==
 * 
 -->
+
 ==Other Languages==
 {{Other Languages
 |default_hidden = 1
@@ -116,7 +117,6 @@ Keep appearance section short and concise. Limit to 2 paragraphs with 3-4 senten
 |ja      = サニア
 |ja_rm   = Sania
 |ko      = 사니아
-|ko_rm   = Sania
 |es      = Sania
 |fr      = Sania
 |ru      = Сания

@@ -6,7 +6,7 @@
 |type     = Elite Enemies
 |family   = Fatui
 |faction  = Fatui
-|location = [[Inazuma]]<br />[[The Chasm]]
+|location = [[Teyvat]]
 |title    = Snezhnayan Maiden: Mirror Envoy
 |ability1 = Interruption Resistance
 |ability2 = Teleport
@@ -36,8 +36,8 @@
 |atk_ratio    = 2.4
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1 = Polarization State
 |desc_1 = When hit by certain attacks of the Mirror Maiden, a Refraction status will be applied to the player, and the Mirror Maiden will enter the Polarization State. While in this state, the Mirror Maiden has her [[Interruption Resistance]] greatly increased and will use enhanced attacks.
@@ -46,10 +46,10 @@
 |desc_2 = Summon a mirror behind her that closes up around them causing her to disappear, then another mirror appears that the Mirror Maiden emerges from.
 
 |name_3 = Influx Blast
-|desc_3 = Summons 3 water wheels from the skies that spin and burst dealing '''62.5% ATK''' as {{Color|AoE Hydro DMG}}. This attack applies the Refraction status onto the player. The attack is replaced by Ripple Rain when the Mirror Maiden is in Polarization state.
+|desc_3 = Summons 3 water wheels from the skies that spin and burst dealing '''62.5% ATK''' as {{Color|Hydro DMG}}. This attack applies the Refraction status onto the player. The attack is replaced by Ripple Rain when the Mirror Maiden is in Polarization state.
 
 |name_4 = Explosive Splash
-|desc_4 = Summons an Explosive Splash around herself if the player attacks her in melee range, dealing '''93.75% ATK''' as {{Color|AoE Hydro DMG}}. This attack applies the Refraction status onto the player. This attack no longer occurs after the Mirror Maiden is in Polarization state.
+|desc_4 = Summons an Explosive Splash around herself if the player attacks her in melee range, dealing '''93.75% ATK''' as {{Color|Hydro DMG}}. This attack applies the Refraction status onto the player. This attack no longer occurs after the Mirror Maiden is in Polarization state.
 
 |name_5 = Water Ball
 |desc_5 = Shoots up to two consecutive Hydro Bullets at the player, each dealing '''62.5% ATK''' as {{Color|Hydro DMG}}; if the Maiden is in Polarization state, 3 homing bullets will be shot at once, each dealing '''50% ATK''' as {{Color|Hydro DMG}}.
@@ -59,14 +59,14 @@
 |caption_5_2 = Polarization
 
 |name_6 = Ripple Rain
-|desc_6 = Shoots water into the air that then falls down causing 3 splashes that each deal '''62.5% ATK''' as {{Color|AoE Hydro DMG}}. This attack is only used when the Mirror Maiden is in Polarization state.
+|desc_6 = Shoots water into the air that then falls down causing 3 splashes that each deal '''62.5% ATK''' as {{Color|Hydro DMG}}. This attack is only used when the Mirror Maiden is in Polarization state.
 
 |name_7 = Mirror Cage
 |file_7 = Mirror Maiden Glass Cage
-|desc_7 = Summons temporary small mirror shards around the player, dealing '''12.5% ATK''' as {{Color|AoE Hydro DMG}} and trapping the player inside, the player may still move and attack while in the cage but cannot escape without special means. This attack is only used when the Mirror Maiden is in Polarization state.
+|desc_7 = Summons temporary small mirror shards around the player, dealing '''12.5% ATK''' as {{Color|Hydro DMG}} and trapping the player inside, the player may still move and attack while in the cage but cannot escape without special means. This attack is only used when the Mirror Maiden is in Polarization state.
 
 |name_8 = Rippled Reflection
-|desc_8 = Summons 3 Hydro Bullets that orbit around them and one that orbits around the player, then many mirrors will be summoned around a player which reflect a laser many times in the area dealing '''16.25% ATK * 8''' as {{Color|Hydro DMG}}, then a burst of water erupts dealing '''75% ATK''' as {{Color|AoE Hydro DMG}}. This attack is only used when the Mirror Maiden is in Polarization state.
+|desc_8 = Summons 3 Hydro Bullets that orbit around them and one that orbits around the player, then many mirrors will be summoned around a player which reflect a laser many times in the area dealing '''16.25% ATK * 8''' as {{Color|Hydro DMG}}, then a burst of water erupts dealing '''75% ATK''' as {{Color|Hydro DMG}}. This attack is only used when the Mirror Maiden is in Polarization state.
 }}
 
 ===AI Logic===
@@ -90,7 +90,7 @@
 |-
 | Influx Blast || 0–30 || 2 || 5–7 || &mdash; || &mdash; || {{check|yes}} || {{check|no}}
 |-
-| rowspan="4" | Polarization || Glass Cage || 0–30 || 2 || 10 || &mdash; || &mdash; || {{check|no}} || {{check|yes}}
+| rowspan="4" | Polarization || Mirror Cage || 0–30 || 2 || 10 || &mdash; || &mdash; || {{check|no}} || {{check|yes}}
 |-
 | Ripple Rain || 0–30 || 2 || 30–32 || 30 || &mdash; || {{check|yes}} || {{check|no}}
 |-
@@ -122,7 +122,7 @@ Mirror Maiden locations can be pinpointed on the map by using the [[Adventurer H
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Mirror Maiden
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Heh The Insolent Shall Be Punished.ogg
 |vo_01_01_tx_en          = Heh, the insolent shall be punished.
 |vo_01_01_tx_zh          = 不敬之人，必将得到惩罚！
@@ -147,7 +147,7 @@ Mirror Maiden locations can be pinpointed on the map by using the [[Adventurer H
 |vo_02_01_rm_ja          = Doko ni iru no ka? Kikasete moraou.
 |vo_02_01_tx_ko          = 들어보자, 어디에 있을까?
 
-|vo_03_00_title          = Water Ball
+|vo_03_00_title          = Water Ball (Polarization)
 |vo_03_01_file           = VO {lang}{name} - Hah You Cant Hide.ogg
 |vo_03_01_tx_en          = You can't hide.
 |vo_03_01_tx_zh          = 无处可逃。
@@ -222,43 +222,59 @@ Mirror Maiden locations can be pinpointed on the map by using the [[Adventurer H
 |vo_08_02_rm_ja          = Tsumi wo arainagase.
 |vo_08_02_tx_ko          = 죄악을… 씻어주마
 
-|vo_09_00_title          = Defeated
-|vo_09_01_file           = VO {lang}{name} - Ugh Winter Shall Eventually Come.ogg
-|vo_09_01_tx_en          = Ugh... Winter... shall eventually come.
-|vo_09_01_tx_zh          = 寒冬…终会…到来。
-|vo_09_01_rm_zh          = Hándōng... zhōnghuì... dàolái...
-|vo_09_01_tx_ja          = 冬は…必ず…訪れる…
-|vo_09_01_rm_ja          = Fuyu wa... kanarazu... otozureru...
-|vo_09_01_tx_ko          = 마침내… 혹한이 찾아왔군…
-|vo_09_02_file           = VO {lang}{name} - This Body Belongs To Ice And Snow.ogg
-|vo_09_02_tx_en          = This body... belongs to ice... and snow.
-|vo_09_02_tx_zh          = 此身…归于…风雪。
-|vo_09_02_rm_zh          = Cǐshēn... guīyú... fēngxuě...
-|vo_09_02_tx_ja          = この身…吹雪と化せ…
-|vo_09_02_rm_ja          = Kono mi... fubuki to kase...
-|vo_09_02_tx_ko          = 이 몸은… 눈보라로 돌아가리… 허으읏…
+|vo_09_00_title          = Staggered (Heavy)/Water Ball
+|vo_09_01_tx_en          = {{A|VO Mirror Maiden - Staggered 01.ogg}} {{A|VO Mirror Maiden - Staggered 02.ogg}} {{A|VO Mirror Maiden - Staggered 03.ogg}}
+
+|vo_10_00_title          = Staggered (Light)/Water Ball
+|vo_10_01_tx_en          = {{A|VO Mirror Maiden - Water Ball Normal 01.ogg}} {{A|VO Mirror Maiden - Water Ball Normal 02.ogg}} {{A|VO Mirror Maiden - Water Ball Normal 03.ogg}} {{A|VO Mirror Maiden - Water Ball Normal 04.ogg}} {{A|VO Mirror Maiden - Water Ball Normal 05.ogg}}
+
+|vo_11_00_title          = Defeated
+|vo_11_01_file           = VO {lang}{name} - Ugh Winter Shall Eventually Come.ogg
+|vo_11_01_tx_en          = Ugh... Winter... shall eventually come.
+|vo_11_01_tx_zh          = 寒冬…终会…到来。
+|vo_11_01_rm_zh          = Hándōng... zhōnghuì... dàolái...
+|vo_11_01_tx_ja          = 冬は…必ず…訪れる…
+|vo_11_01_rm_ja          = Fuyu wa... kanarazu... otozureru...
+|vo_11_01_tx_ko          = 마침내… 혹한이 찾아왔군…
+|vo_11_02_file           = VO {lang}{name} - This Body Belongs To Ice And Snow.ogg
+|vo_11_02_tx_en          = This body... belongs to ice... and snow.
+|vo_11_02_tx_zh          = 此身…归于…风雪。
+|vo_11_02_rm_zh          = Cǐshēn... guīyú... fēngxuě...
+|vo_11_02_tx_ja          = この身…吹雪と化せ…
+|vo_11_02_rm_ja          = Kono mi... fubuki to kase...
+|vo_11_02_tx_ko          = 이 몸은… 눈보라로 돌아가리… 허으읏…
 }}
 
 ==Achievements==
 {{Achievement Topic Table|topic=Mirror Maiden}}
 
-==Descriptions==
-{{Description|A member of a special Fatui honor guard from Snezhnaya.<br />Willing to do anything to achieve the grand goals of the Fatui, they are the stark opposite of the dignity indicated by the title "Maiden".|[[Adventurer Handbook]]}}
-{{Description|A Fatui mage who can command a Hydro Mirror in battle. Her posture is highly dignified, as if she is one who worships a god.<br />The Hydro Mirror she manipulates lures those enchanted by her to willingly fall for her illusion. Nothing seems to escape her ears. No one knows what those covered eyes have seen, what kind of obsession might be reflected in them...|[[Archive]]}}
+==Tutorials==
+{{Tutorial|Mirror Maiden}}
 
-==Notable Mirror Madiens==
+==Descriptions==
+{{Description|A member of a special Fatui honor guard from Snezhnaya.<br>Willing to do anything to achieve the grand goals of the Fatui, they are the stark opposite of the dignity indicated by the title "Maiden".|[[Adventurer Handbook]]}}
+{{Description|A Fatui mage who can command a Hydro Mirror in battle. Her posture is highly dignified, as if she is one who worships a god.<br>The Hydro Mirror she manipulates lures those enchanted by her to willingly fall for her illusion. Nothing seems to escape her ears. No one knows what those covered eyes have seen, what kind of obsession might be reflected in them...|[[Archive]]}}
+
+==Notable Mirror Maidens==
 ===Agafya===
 A Mirror Maiden that appears in The Photographer's words during [[Resonating Visions]] event.
 
 ==Trivia==
 * During the [[commission]] ''[[Emergency]]'', the Mirror Maiden will have one of the following names, with her title being "Snezhnayan Maiden: Mirror Envoy": Aniya, Anna, Ayda, Borisova, Branka, Chernovna, Danika, Daria, Doronina, Irina, Katya, Maria, Masha, Mila, Miroslava, Nadja, Nina, Olga, Raisa, Rakhmanova, Rusalka, Semyonova, Snezhna, Sola, Tanya, Treska, Valentina, Varya, Velina, Verochka, Vladimya, Yevgeniya, Yuliya, Zivanka.
 * Mirror Maidens are the tallest female character in-game, even taller than Fatui Agents.
-* On [[Narukami Island]], just below [[Court of Flowing Sand]] to the northeast, players can find a Mirror Maiden and a Fatui Pyro Agent by themselves looking out towards the sea.
+* Throughout Teyvat, certain Mirror Maidens are paired with other NPCs.
+** On [[Narukami Island]], just below [[Court of Flowing Sand]] to the northeast, players can find a Mirror Maiden and a Fatui Pyro Agent by themselves looking out towards the sea.
+** Within [[Palace in a Pool]], a Mirror Maiden and a [[Treasure Hoarders: Pugilist]] can be observed watching the sun together.
+** Near a Teleport Waypoint in the [[Beryl Region]], [[Fontaine]], a Pyro Agent can be seen alongside an Electro Cicin Mage, while a Mirror Maiden watches them from afar.
+* Despite being a Fatui member, Mirror Maidens do not drop Fatui insignias.
 
 ==Gallery==
 <gallery>
 Enemy Mirror Maiden Icon.png|Icon
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Video Guides==
 {{EVT
@@ -268,36 +284,36 @@ Enemy Mirror Maiden Icon.png|Icon
 
 ==Other Languages==
 {{Other Languages
-|en      = Mirror Maiden
-|zhs     = 愚人众・藏镜仕女
-|zhs_rm  = Yúrénzhòng - Cángjìng Shìnǚ
-|zht     = 愚人眾・藏鏡仕女
-|zht_rm  = Yúrénzhòng - Cángjìng Shìnǚ
-|zh_tl   = Fatui - Maiden That Hides a Mirror
-|ja      = ファデュイ・ミラーメイデン
-|ja_rm   = Fadyui: Miraa Meiden
-|ja_tl   = Fatui: Mirror Maiden
-|ko      = 우인단・거울의 {{tt|여인|女人}}
-|ko_rm   = Uindan - Geo'ul-ui Yeo'in
-|ko_tl   = Fatui - Woman of the Mirror
-|es      = Soldado Fatui - Doncella del Espejo
-|es_tl   = Fatui Soldier - Mirror Maiden
-|fr      = Suivante miroir des Fatui
-|fr_tl   = Fatui Mirror Follower
-|ru      = Зеркальная дева Фатуи
-|ru_tl   = Fatui Mirror Maiden
-|th      = Mirror Maiden
-|vi      = Fatui - Thiếu Nữ Kính
-|vi_tl   = Fatui - Glass Maiden
-|de      = Fatui – Spiegeljungfrau
-|de_tl   = Fatui - Mirror Maiden
-|id      = Mirror Maiden
-|pt      = Dama do Espelho
-|pt_tl   = Mirror Lady
-|tr      = Aynalı Rahibe
-|tr_tl   = 
-|it      = Sacerdotessa degli specchi
-|it_tl   = Priestess of the Mirrors
+|en        = Mirror Maiden
+|zhs       = 愚人众・藏镜仕女
+|zhs_rm    = Yúrénzhòng - Cángjìng Shìnǚ
+|zht       = 愚人眾・藏鏡仕女
+|zht_rm    = Yúrénzhòng - Cángjìng Shìnǚ
+|zh_tl     = Fatui - Maiden That Hides a Mirror
+|ja        = ファデュイ・ミラーメイデン
+|ja_rm     = Fadyui - Miraa Meiden
+|ja_tl     = Fatui - Mirror Maiden
+|ko        = 우인단・거울의 {{tt|여인|女人}}
+|ko_rm     = U'in-dan - Geo'ul-ui Yeo'in
+|ko_tl     = Fatui - Woman of the Mirror
+|es        = Soldado Fatui - Doncella del Espejo
+|es_tl     = Fatui Soldier - Mirror Maiden
+|fr        = Suivante miroir des Fatui
+|fr_tl     = Fatui Mirror Follower
+|ru        = Зеркальная дева Фатуи
+|ru_tl     = Fatui Mirror Maiden
+|th        = Mirror Maiden
+|vi        = Fatui - Thiếu Nữ Kính
+|vi_tl     = Fatui - Glass Maiden
+|de        = Fatui – Spiegeljungfrau
+|de_tl     = Fatui - Mirror Maiden
+|id        = Mirror Maiden
+|pt        = Dama do Espelho
+|pt_tl     = Mirror Lady
+|tr        = Aynalı Rahibe
+|tr_tl     = Mirrored Nun
+|it        = Sacerdotessa degli specchi
+|it_tl     = Priestess of the Mirrors
 }}
 
 ==Change History==
@@ -308,5 +324,7 @@ Enemy Mirror Maiden Icon.png|Icon
 
 [[de:Fatui: Spiegeljungfrau]]
 [[es:Doncella del Espejo]]
+[[fr:Suivante miroir des Fatui]]
+[[ja:ファデュイ・ミラーメイデン]]
 [[pt-br:Dama do Espelho]]
 [[th:Fatui Mirror Maiden]]

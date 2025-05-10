@@ -3,19 +3,17 @@
 |part          = 1
 |image         = Event Quest A-Toymaking We Shall Go.png
 |type          = World
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 * Reach [[Adventure Rank]] 30
-* Complete [[Chisato's Letter]]
+* Complete {{Quest|Chisato's Letter|showType=0}}
 |characters    = Bertrand; Katheryne (Inazuma); Paimon; Traveler
 |startLocation = [[Inazuma City]], [[Inazuma]]
 |region        = Inazuma
 |area          = Narukami Island
 |subarea       = Inazuma City
 |next          = A-Toymaking We Shall Go: Energy Storage
-|mora          = 20,000
-|primogems     = 
-|other         = {{Card|Hero's Wit|2}}{{Card|Mystic Enhancement Ore|4}}
+|rewards       = Mora*20,000;Hero's Wit*2;Mystic Enhancement Ore*4
+|otherRewards  = 
 * Unlocks the [[Core of the Apparatus]] event.
 |event_name    = Core of the Apparatus
 }}
@@ -27,14 +25,14 @@
 # Collect 3 ores in the wild
 # Collect 3 flowers in the wild
 # Collect 6 fruits in the wild
-# Return the [[Material Collector]] to Bertrand
+# Return the {{Item|Material Collector}} to Bertrand
 
 ==Gameplay Notes==
 * Only [[Core of the Apparatus#Materials|certain materials]] will count towards collection.
 
 ==Dialogue==
 {{Quest Description|A toy merchant from Fontaine seems to be struggling with the source materials of his products...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Bertrand before completing Step 1)
 :'''Bertrand:''' Heh! If that's the amount I'm getting for one of these, then I just need to sell 20,000 of them to pay off my debt!
 :'''Bertrand:''' As simple as that... Uh, you seem to have some questions, I presume?
@@ -79,8 +77,8 @@
 :'''Paimon:''' (A sudden change of attitude again...)
 :'''Paimon:''' Paimon is... Uh, Paimon.
 :'''Bertrand:''' Then, how about you?
-:{{DIcon}} I'm (Traveler)...
-:'''Bertrand:''' (Traveler)? I think I've heard this name somewhere. Were you once... a wanted criminal too?
+:{{DIcon}} I'm {{Traveler}}...
+:'''Bertrand:''' {{Traveler}}? I think I've heard this name somewhere. Were you once... a wanted criminal too?
 :{{DIcon}} More than once, actually...
 ::'''Bertrand:''' Well, I might've heard your name when the [[Tenryou Commission]] arres... Um, asked me to answer a few questions.
 :{{DIcon}} A wanted criminal "too"?
@@ -125,7 +123,7 @@
 :'''Bertrand:''' Here, take this [[Material Collector]]. Remember to directly put anything you collect into the Collector, lest it be contaminated by other elements.
 :{{DIcon}} Leave it to me.
 :'''Bertrand:''' Thanks. Let me adjust the device one last time. I'm counting on you to collect the materials!
-;(Obtain [[Material Collector]])
+;(Obtain {{Item|Material Collector}})
 
 ;(Talk to Bertrand again)
 :'''Bertrand:''' Have you collected the source materials using the Collector? The source materials play a critical role in shaping the toys. Be careful with your choice, haha!
@@ -137,7 +135,7 @@
 :'''Paimon:''' Great. Then, we'll need many fruits!
 
 ;(After collecting 6 fruits)
-:'''Paimon:''' We've collected all the materials Bertrand needs. (Traveler), let's bring them to him.
+:'''Paimon:''' We've collected all the materials Bertrand needs. {{Traveler}}, let's bring them to him.
 ----
 ;(Talk to Bertrand)
 :'''Bertrand:''' How's it going? Have you collected any materials?
@@ -145,9 +143,7 @@
 :'''Bertrand:''' Alright then, lemme add the materials to my One-of-a-Kind, Never-Failing...
 :'''Paimon:''' It's "The Great Machine."
 :'''Bertrand:''' Fine. Lemme add the materials to the Great Machine...
-
-:'''Bertrand connects the Collector to The Great Machine.'''
-
+:{{Black Screen|Bertrand connects the Collector to The Great Machine.}}
 :'''Paimon:''' Wow! And what's next?
 :'''Paimon:''' Will the machine go "chug chug chug" and then spill out the toys with "crackle and kaboom"?
 :'''Bertrand:''' Hahaha, that is totally...
@@ -166,7 +162,7 @@
 :'''Paimon:''' Then, Bertrand, what do we do next? Should we move on to the following processes?
 :'''Bertrand:''' No worries. Since I've recently adjusted the machine, and this particular process hasn't been tested yet, I need to check if it works well with the materials.
 :'''Bertrand:''' This requires some time. Please come back later.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Video Guides==
 {{#evt:

@@ -6,42 +6,40 @@
 |actNum        = I
 |act           = The Immovable God and the Eternal Euthymia
 |part          = 1
-|requirement   = Adventure Rank 30<br />Complete [[Autumn Winds, Scarlet Leaves]]
+|requirement   = Adventure Rank 30<br>Complete ''[[Autumn Winds, Scarlet Leaves]]''
 |startLocation = [[Liyue Harbor]], [[Liyue]]
 |region        = Liyue
 |area          = Sea of Clouds
 |subarea       = Liyue Harbor
 |prev          = Follow the Wind
 |next          = Confessions of an Outlander
-|exp           = 
-|mora          = 
-|primogems     = 
-|other         = 
+|rewards       = Adventure EXP*650;Mora*31,125;Hero's Wit*3;Mystic Enhancement Ore*6
 |characters    = Beidou; Katheryne (Liyue); Kaedehara Kazuha<!-- Cutscene -->; Paimon; Sea Drake; Thoma; Traveler
 |voiced        = yes
 }}
 {{TeyvatQuest|2|1|1}}
+
 ==Steps==
-#Talk to [[Katheryne]] in [[Liyue Harbor]]
-#Board the [[Alcor]] and find [[Beidou]]
-#Talk to Beidou
-<!--
+# Ask [[Katheryne]] for information on going to [[Inazuma]]
+# Board the [[Alcor]] and find [[Beidou]]
+# Talk to Beidou
+# Go to Inazuma
+# Talk to your contact, [[Thoma]]
+
 ==Gameplay Notes==
-Any notes that will help complete the quest
--->
-==Achievements==
-* Completing this quest will grant the ''[[Wonders of the World]]'' achievement ''[[Through the Storm]]''.
+* Completing this quest grants the {{Achievement|Through the Storm}}.
 
 ==Dialogue==
 {{Quest Description|It has been a while since you struck an agreement with Beidou to go to Inazuma together. You decide to check on how things are progressing...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Katheryne)
 :{{A|vo dqaq001 1 katheryne 01.ogg}} '''Katheryne:''' Ad astra abyssosque! What can I do for you, Traveler?
 :{{DIcon}} About traveling to Inazuma...
 :{{DIcon}} About the [[Crux Fleet]]...
 :{{A|vo dqaq001 1 katheryne 02.ogg}} '''Katheryne:''' Ah yes, I've heard that you've already made arrangements with the captain of the Crux Fleet regarding your passage to Inazuma. Is that correct?
 :{{A|vo dqaq001 1 katheryne 03.ogg}} '''Katheryne:''' Now that I think about it, it's been quite some time since I last visited those lands. Unfortunately, I don't have any current intel that would be worth sharing with you.
-:{{A|vo dqaq001 1 seadrake 01.ogg}} '''[[Sea Drake]]:''' There you are! You're the Traveler that Beidou will be taking to Inazuma, right?
+:{{Color|menu|A person dressed as a sailor walks towards you...}}
+:{{A|vo dqaq001 1 seadrake 01.ogg}} '''Sea Drake:''' There you are! You're the Traveler that Beidou will be taking to Inazuma, right?
 :{{DIcon}} I've been waiting all day for you!
 ::{{A|vo dqaq001 1 seadrake 02a.ogg}} '''Sea Drake:''' Oh, is that right? Hehe... Well, it's an honor to meet you.
 :{{DIcon}} It seems our intel has arrived.
@@ -72,10 +70,13 @@ Any notes that will help complete the quest
 :{{A|vo dqaq001 2 beidou 04.ogg}} '''Beidou:''' *sigh* Well, now that everyone's here...
 :{{A|vo dqaq001 2 beidou 05.ogg}} '''Beidou:''' We set sail for the land engulfed by storm and tempest... The nation of "eternity"!
 :{{A|vo dqaq001 2 paimon 01.ogg}} '''Paimon:''' Anchors aweigh!
-:{{Color|help|As you make ready to ship out, the crew members of the Alcor hurry back and forth, making their final preparations, [[Kazuha]] among them. Once all is ready, Beidou gives the order, and the Alcor sets sail at last. To Inazuma!}}
-:'''''After braving the raging thunderstorms, The Alcor finally comes into port...'''''
-:{{Color|help|Breaking through the storms in the seas surrounding Inazuma, the Alcor<!--the capitalization inconsistency exists in-game--> finally reaches port. A series of lovely islands lie before you as you descend the gangplank, and immediately, you are met by a young man who seems to have been awaiting you for a long time.}}
-:'''Thoma:''' Ahoy, there!
+;(A cinematic plays)
+:{{Cutscene Description|As you make ready to ship out, the crew members of the Alcor hurry back and forth, making their final preparations, Kazuha among them. Once all is ready, Beidou gives the order, and the Alcor sets sail at last. To Inazuma!}}
+:{{Black Screen|After braving the raging thunderstorm, The Alcor finally comes into port...}}
+;(A cinematic plays)
+:{{Cutscene Description|Breaking through the storms in the seas surrounding Inazuma, the Alcor<!--the capitalization inconsistency exists in-game--> finally reaches port. A series of lovely islands lie before you as you descend the gangplank, and immediately, you are met by a young man who seems to have been awaiting you for a long time.}}
+::'''Thoma:''' Ahoy, there!
+:;(Cinematic ends)
 
 ;(Unlocks the [[Teleport Waypoint]] at Ritou's docks)
 
@@ -83,7 +84,7 @@ Any notes that will help complete the quest
 :{{A|vo dqaq001 3 thoma 01.ogg}} '''Thoma:''' So, you finally made it. You sure kept me waiting, Captain.
 :{{A|vo dqaq001 3 thoma 02.ogg}} '''Thoma:''' And it appears we have a couple of stowaways... or perhaps I should say &mdash; honored guests.
 :{{A|vo dqaq001 3 paimon 01.ogg}} '''Paimon:''' Hey! Shush!
-:{{A|vo dqaq001 3 beidou 01.ogg}} '''Beidou:''' You can blame your Almighty Shogun. The tempests around Inazuma have been growing all the more fierce lately.
+:{{A|vo dqaq001 3 beidou 01.ogg}} '''Beidou:''' You can blame your [[Almighty Shogun]]. The tempests around Inazuma have been growing all the more fierce lately.
 :{{A|vo dqaq001 3 beidou 02.ogg}} '''Beidou:''' Though the fleet was fully up to the challenge, the inclement weather still caused some delay.
 :{{A|vo dqaq001 3 beidou 03.ogg}} '''Beidou:''' Now then, let me introduce everyone. This is Thoma, a trade partner that I've gotten to know recently.
 :{{A|vo dqaq001 3 thoma 03.ogg}} '''Thoma:''' Heh, you don't know how long I've been waiting to see you.
@@ -93,7 +94,7 @@ Any notes that will help complete the quest
 :{{DIcon}} Surely the rumors exaggerate.
 :{{A|vo dqaq001 3 paimon 02.ogg}} '''Paimon:''' Hehe, it's sure nice to hear you say that~
 :{{A|vo dqaq001 3 beidou 05.ogg}} '''Beidou:''' Ha, with any luck, it'll give you a head start here.
-:{{A|vo dqaq001 3 beidou 06.ogg}} '''Beidou:''' (Traveler), Thoma's resided on Ritou for quite some time now. It wouldn't be going too far to say he's the fixer around these parts.
+:{{A|vo dqaq001 3 beidou 06.ogg}} '''Beidou:''' {{Traveler}}, Thoma's resided on Ritou for quite some time now. It wouldn't be going too far to say he's the fixer around these parts.
 :{{A|vo dqaq001 3 beidou 07.ogg}} '''Beidou:''' If you run into any problems here, just talk to Thoma. But if he tries to pull any moves on you, I'll be sure to deal with him personally the next time I'm around.
 :{{A|vo dqaq001 3 thoma 05.ogg}} '''Thoma:''' Hehehe, no need to worry. I'm sure we'll get along just fine.
 :{{A|vo dqaq001 3 beidou 08.ogg}} '''Beidou:''' Good. Then if it's all settled, I'll be going. I wouldn't want to be caught with my sails down here, I do have a wanted fugitive on board, after all.
@@ -102,14 +103,17 @@ Any notes that will help complete the quest
 :{{DIcon}} We got this.
 :{{DIcon}} Look forward to seeing you again!
 :{{A|vo dqaq001 3 paimon 04.ogg}} '''Paimon:''' Fair seas, Captain Beidou! Bye-bye!
-:;(Beidou leaves)
+:{{Color|menu|Beidou departs...}}
 :{{A|vo dqaq001 3 thoma 06.ogg}} '''Thoma:''' Now then, first things first, we need to go get you registered at the border checkpoint.
 :{{A|vo dqaq001 3 paimon 05.ogg}} '''Paimon:''' Um, Paimon thought we were supposed to be keeping things on the down low... Are we just gonna walk into the government's hands?
 :{{A|vo dqaq001 3 thoma 07.ogg}} '''Thoma:''' Haha, don't underestimate the reaches of the [[Sakoku Decree]]. You wouldn't be able to avoid inspection even if you tried.
 :{{A|vo dqaq001 3 thoma 08.ogg}} '''Thoma:''' So we have to play by the rules... even if we're kind of bending them.
 :{{DIcon}} Oh... Okay then...
 :{{DIcon}} Now I'm feeling a bit nervous.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -139,11 +143,11 @@ Any notes that will help complete the quest
 |de      = Segel setzen
 |de_tl   = Setting Sail
 |id      = Berlayar
-|id_tl   = Sail
+|id_tl   = Sailing
 |pt      = O Dia de Partir
 |pt_tl   = The Day to Depart
 |tr      = Yelken Açmak
-|tr_tl   = 
+|tr_tl   = Setting Sail
 |it      = Si salpa
 |it_tl   = Set Sail
 }}
@@ -153,9 +157,10 @@ Any notes that will help complete the quest
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter II}}
-[[Category:Archon Chapter 2]]
 
+[[es:¡Izad las velas!]]
 [[fr:Toutes voiles dehors]]
 [[ja:出航の日]]
 [[pt-br:O Dia de Partir]]
 [[ru:Поднять паруса]]
+[[vi:Ngày Khởi Hành]]

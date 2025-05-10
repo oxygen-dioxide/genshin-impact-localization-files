@@ -1,0 +1,199 @@
+{{Quest Infobox
+|id            = 74073
+|image         = <!--{{subst:#replace:{{subst:#replace:{{subst:#titleparts:{{subst:PAGENAME}}}}|: | }}|" | }}.png-->
+|type          = World
+|group         = 
+|chapter       = In the Wake of Narcissus
+|actNum        = I
+|act           = Search in the Algae Sea
+|characters    = Ann; Caterpillar; Paimon; Seymour; Traveler
+|startLocation = [[Morte Region]], [[Fontaine]]
+|region        = Fontaine
+|area          = Morte Region
+|subarea       = 
+|poi           = Orthant of Memory
+|prev          = 
+|next          = 
+|concurrent    = Meteoric Lance
+|concurrent2   = Cupid's Lover
+|parent        = Search in the Algae Sea (Quest)
+|rewards       = 
+|otherRewards  = 
+}}
+'''''Muse's Mother''''' is a [[World Quest]] in {{Quest|Search in the Algae Sea|showType=0}}. Start this quest by descending to the underwater Mysterious Ruins northwest of the [[Morte Region]] [[Statue of The Seven]].
+
+Two versions of this quest exist, depending on whether the {{Quest|Search in the Algae Sea (Quest)}} was completed or not.
+
+==Steps==
+# Find the Seal
+# Study the Riddle Slate
+# Solve the Orthant's puzzle
+# Obtain the "Memory" piece
+
+==Gameplay Notes==
+* This quest does not appear in the Quest menu if its steps are started before completing ''Search in the Algae Sea''.
+* After completing the puzzle, the area will flood, making it possible to enter previously inaccessible areas and solve puzzles which could not be solved beforehand.
+
+==Dialogue==
+===Version 1===
+This version is obtained if players have not completed ''Search in the Algae Sea'' first.
+{{Dialogue Start}}
+;(Approach the Riddle Slate)
+:'''Paimon:''' Looks like someone was just here. Did they already figure out the little mechanism up ahead?
+:'''Paimon:''' There's a bonfire that's still burning over there on the ground.
+:'''Paimon:''' So, why is there a bonfire in a place like this?
+:'''Paimon:''' Let me see what's written on the stone tablet.
+:'''Paimon:''' "Lo, this place is the Or... Orth..."
+:{{DIcon}} Orthant.
+:'''Paimon:''' "...Orthant of Memory, the Hall of Memory, the Room of Memory..."
+:'''Paimon:''' "Born in an instant"... "Often contradicting, your company in eternal rest, never separated"... "Fire cannot burn it"...
+:'''Paimon:''' A riddle, eh?
+:'''Paimon:''' The answer has gotta be fire! There's a bonfire nearby.
+:{{DIcon}} Just what kind of riddle contains its own answer...
+:'''Paimon:''' Oh, that's right! What do you think it is, then?
+:{{DIcon}} Products of lithiasis. Y'know, like kidney stones and such.
+::'''Paimon:''' It's true that fires don't destroy them, and they stay within our organs and tissues... But they aren't born in an instant, right?
+::'''Paimon:''' Oh, that's right! What do you think it is, then?
+:;(Return to option selection, removes this option)
+:{{DIcon}} Shadows.
+::'''Paimon:''' Oh, shadows does seem like the right answer! They are with us for our entire lives, and can't be burned by fire.
+::'''Paimon:''' But what's the point in figuring out the answer to a riddle that's already been solved?
+
+;(Examine the mechanism)
+:{{Black Screen|You carefully inspect the top of the mechanism, but you don't find anything.}}
+:;(If this is the first location searched)
+:::'''Paimon:''' There's nothing here?
+:::'''Paimon:''' Oh no! It looks like someone already took whatever was here.
+:::'''Paimon:''' But who?
+:;(If this is the second location searched)
+:::'''Paimon:''' There's nothing here either...
+:;(If this is the third location searched)
+:::'''Paimon:''' Did someone... take whatever was here, too?
+{{Dialogue End}}
+
+===Version 2===
+This version is obtained if players completed the World Quest ''Search in the Algae Sea'' first.
+{{Quest Description|Trace and find the Narzissenkreuz Ordo's seals.}}
+{{Dialogue Start}}
+;(Approach the Rifthounds)
+:;(If this is the first or second location searched) {{Verify}}
+:::'''Paimon:''' This door's already open? Wait a minute, Paimon thought it was sealed.
+:::'''Caterpillar:''' ...
+:;(If this is the third location searched) <!-- the other 2 locations does not have to be finished, but the player has to have approached the other 2 locations -->
+:::'''Caterpillar:''' This is the third seal.
+
+;(Approach the door)
+:'''Paimon:''' The bonfire is still burning. Wait, why is there a bonfire here? This is just a ruin...
+:'''Ann:''' Let me see what's written on the stone tablet.
+:'''Seymour:''' "Lo, this place is the Orthant of Memory, the Hall of Memory, the Room of Memory."
+:'''Seymour:''' "Born in an instant"... "Often contradicting, your company in eternal rest, never separated"... "Fire cannot burn it"...
+:'''Caterpillar:''' Riddles, huh? Ancient Fontainian civilization loved them, and the [[Narzissenkreuz Ordo]] enjoyed them too. I'm not sure if they were just into old stuff, or if this was genuine interest.
+:'''Seymour:''' I have already tried keyword searches on all of them, but have found no answers.
+:'''Caterpillar:''' But this riddle has already been solved. Maybe the answer has something to do with the bonfire.
+:'''Ann:''' Is there any point in thinking about riddles that have already been solved?
+:'''Caterpillar:''' Yes, there is. Just like you and I are both like this now, but we must still search out what happened in the past.
+:'''Ann:''' You've got a point.
+:'''Ann:''' What do you think the answer is, Knight {{Traveler}}?
+:{{DIcon}} Products of lithiasis. Y'know, like kidney stones and such.
+::'''Paimon:''' It's true that fires don't destroy them, and they stay within our organs and tissues... But they aren't born in an instant, right?
+::'''Seymour:''' They are formed by unhealthy dietary habits over a long period of time, Ms. Paimon.
+::'''Ann:''' What do you think the answer is, Knight {{Traveler}}?
+:;(Return to option selection, removes this option)
+:{{DIcon}} [[Oceanid]] tears.
+::'''Ann:''' I'll just pretend you tried to say something romantic.
+::'''Paimon:''' That's obviously not the right answer.
+::'''Ann:''' What do you think the answer is, Knight {{Traveler}}?
+:;(Return to option selection, removes this option)
+:{{DIcon}} Shadows.
+::'''Caterpillar:''' Yes, shadows.
+::'''Caterpillar:''' The instant a beam of light shines, a shadow is born.
+::'''Paimon:''' We know the answer, but someone's already opened the door. So, what do we do now?
+::'''Caterpillar:''' We go inside now, of course. It's a race against time to see if we can find what we're looking for before [[Jakob|the person]] who solved the riddle before us does.
+
+;(Examine the mechanism)
+:{{Black Screen|You carefully inspect the top of the mechanism, but you don't find anything.}}
+:;(If this is the first location searched)
+:::'''Paimon:''' There's nothing here?
+:::'''Caterpillar:''' It looks like something was here, but someone else took it.
+:::'''Paimon:''' Wait, doesn't that mean that our plan's already failed?
+:::'''Caterpillar:''' The birth of "Reason" requires the merging of the four Orthants. If we can get the rest of them, we still have a chance.
+:::'''Ann:''' In that case, we'd better hurry to the next area.
+:;(If this is the second location searched)
+:::'''Paimon:''' There's nothing here either...
+:::'''Ann:''' What exactly are we looking for, Caterpillar?
+:::'''Caterpillar:''' We're looking for the materials necessary to forge the [[Holy Blade of Narzissenkreuz]].
+:::'''Caterpillar:''' The Ordo was able to reproduce the four requisite hypothetical substances here in the material world, based on the esoteric philosophies of the underground kingdom and ancient Fontaine.
+:::'''Seymour:''' I do not understand.
+:::'''Caterpillar:''' These enigmatic substances are purely experiential. You could say they are even further beyond ordinary logic than elemental power.
+:::'''Seymour:''' I entered all introductory to intermediate level textbooks from the [[Sumeru Akademiya|Akademiya]]'s [[Spantamad]] into my memory banks decades ago. There is nothing mysterious about elemental power.
+:::'''Caterpillar:''' Is that so? Anyway, to sum up, this is born of the confluence of traditions from Fontaine and technology from the ancient underground kingdom.
+:::'''Caterpillar:''' And thus, four types of substance came into being: Memory, Wish, Soul, and Persona.
+:::'''Caterpillar:''' To avoid any possible ambiguity, let's call them the "Memory" piece, "Wish" piece, "Soul" piece, and "Persona" piece.
+:::'''Paimon:''' Why are these used to make the Holy Blade?
+:::'''Caterpillar:''' In the Narzissenkreuz Ordo's brand of mystical philosophy, the temple is a microcosm of the universe, the members are stand-ins for the gods, and the holy oil is tempered willpower.
+:::'''Caterpillar:''' The Holy Blade, on the other hand, is "reason," that which cuts everything open. It can only be born out of consummate human will.
+:::{{DIcon}} Quite abstruse.
+:::'''Caterpillar:''' That's esotericism for you. If it looks similar enough, you can latch onto it, and when this kind of thing becomes magic, fiction becomes reality.
+:::'''Caterpillar:''' Anyway, we should make our way to the next area now.
+:;(If this is the third location searched)
+:::'''Paimon:''' Did someone... take whatever was here, too?
+:::'''Caterpillar:''' Looks that way.
+:::{{DIcon}} Just who is...?
+:::'''Caterpillar:''' It's Jakob.
+:::'''Seymour:''' We had an altercation with him inside [[Elynas]] once... Clarification: Recently, not "once."
+:::'''Caterpillar:''' When I saw that unfortunate victim at the gate, I knew it was his handiwork. It seems he's still active after all.
+:::'''Paimon:''' Then what does he want with the stuff he took from here?
+:::'''Caterpillar:''' Simple &mdash; He too wants to reforge the Holy Blade of Narzissenkreuz. The dream of the Ordo remains unrealized.
+:::'''Caterpillar:''' Anyway, we should make our way to the final area now.
+{{Dialogue End}}
+
+==Interactables==
+{{Transclude|Orthant of Memory|Interactables|main=1}}
+
+==Trivia==
+* The quest's name, Muse's Mother, likely refers to {{w|Mnemosyne}}, the Greek goddess of memory and remembrance and the mother to the nine Muses.
+
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/YVxra52f8GU
+|caption1 = Muse's Mother Guide}}
+
+==Other Languages==
+{{Other Languages
+|en      = Muse's Mother
+|zhs     = 缪斯的母亲
+|zhs_rm  = 
+|zht     = 繆斯的母親
+|zht_rm  = 
+|zh_tl   = 
+|ja      = ミューズの母親
+|ja_rm   = Myuuzu no Hahaoya
+|ja_tl   = Muse's Mother
+|ko      = 뮤즈의 어머니
+|ko_rm   = 
+|ko_tl   = 
+|es      = La madre de la musa
+|es_tl   = The Muse's Mother
+|fr      = Mère de Muse
+|fr_tl   = Muse's Mother
+|ru      = Мать муз
+|ru_tl   = Muses' Mother
+|th      = แม่ของ Muse
+|th_rm   = 
+|th_tl   = 
+|vi      = Mẹ Của Muse
+|vi_tl   = 
+|de      = Mutter der Muse
+|de_tl   = Muse's Mother
+|id      = Ibu Muse
+|id_tl   = Muse's Mother
+|pt      = Mãe da Musa
+|pt_tl   = 
+|tr      = İlham Perisinin Annesi
+|tr_tl   = 
+|it      = Madre della musa
+|it_tl   = Muse's Mother
+}}
+
+==Change History==
+{{Change History|4.2}}

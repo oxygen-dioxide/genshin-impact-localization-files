@@ -1,5 +1,5 @@
 {{Quest Infobox
-|id            = 
+|id            = 20029
 |part          = 2
 |type          = Commission
 |image         = Commission Return to Days of Winter.png
@@ -7,43 +7,45 @@
 |startLocation = [[Favonius Cathedral]], [[Mondstadt]]
 |region        = Mondstadt
 |area          = Starfell Valley
-|subarea       = City of Mondstadt
-|requirement   = Complete [[Omnipresence Over Mortals]]
+|subarea       = Mondstadt City
+|requirement   = Complete ''[[Omnipresence Over Mortals]]'' and obtain ''[[Telling It How It Is]]''
 |prev          = Equivalent Exchange
 |next          = Equivalent Exchange Once More
-|other         = 
+|otherRewards  = *AR-Dependent Rewards
 |characters    = Lily; Marjorie; Rudolf; Terrified Schuster; Traveler; Viktor
 }}
 '''''Return to Days of Winter''''' is a [[Daily Commission]]. Upon completing this commission, Viktor will leave the Mondstadt Cathedral, while [[Lily]] and [[Rudolf]]'s dialogue will change.
+
+The commission will only appear after the {{Achievement|Telling It How It Is}} is obtained.
 
 ==Steps==
 # Talk to [[Viktor]]
 # Ask [[Marjorie]] about a present
 # Look for [[Terrified Schuster]]
-# Save Terrified Schuster {{Enemy List|Unarmed Hilichurl;Hilichurl Fighter;Wooden Shield Hilichurl Guard;Hilichurl Berserker}}
+# Save Terrified Schuster {{Enemy List|Hilichurl;Hilichurl Fighter;Wooden Shield Hilichurl Guard;Hilichurl Berserker}}
 # Talk to Schuster
 # Give the [[Fresh Wolfhooks|Wolfhooks]] to Marjorie
 # Give the present to Viktor
 # Deliver the [[Viktor's Gift|present]] to Lily in turn
 # Talk to Viktor
 <!--
-==Gameplay Notes==-->
-
+==Gameplay Notes==
+-->
 ==Rewards==
 {{Commission Rewards|low}}
 
 ==Dialogue==
 {{Quest Description|[[Viktor]], a [[Fatuus]] stationed in [[Mondstadt]], has finally received orders to return home...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Viktor)
 :'''Viktor:''' Well, I guess I'm finally heading home...
 :{{DIcon}} Leaving us, Viktor?
 :'''Viktor:''' Eh? Oh, it's you...
 :'''Viktor:''' That's correct. I received orders from above recently that I can return to [[Snezhnaya]].
 :'''Viktor:''' Something about me being transferred to another Harbinger, and no longer needing to standby in Mondstadt for any new orders.
-;(Before completing [[The Night-Bird Falls at the Curtain's Call]]){{Verify}}
+::;(Before completing [[The Night-Bird Falls at the Curtain's Call]])
 ::'''Viktor:''' I've got no clue which of them I'll be under this time, but I'm just praying that it's not [[Scaramouche|Lord Scaramouche]]...
-;(After completing [[The Night-Bird Falls at the Curtain's Call]]){{Verify}}
+::;(After completing [[The Night-Bird Falls at the Curtain's Call]])
 ::'''Viktor:''' I've got no clue which of them I'll be under this time, though...
 :{{DIcon}} When will you be leaving?
 :'''Viktor:''' The higher-ups didn't mention that. I was just told to pack my things and be ready to leave at a moment's notice.
@@ -65,7 +67,7 @@
 :'''Viktor:''' So I can only leave this task to you.
 :'''Viktor:''' Just head over to Marjorie's and help me see if she's got any gifts that a child might like.
 
-;(Talk to Viktor again)
+;(Talk to Viktor again, optional)
 :'''Viktor:''' Did you get the present?
 :{{DIcon}} What will you do once you get back home?
 ::'''Viktor:''' What will I do? Well... I suppose I'll have to wait for my transfer orders.
@@ -80,11 +82,9 @@
 :{{DIcon}} See you.
 ::'''Viktor:''' Alright. I leave the matter of the present to you, then.
 ----
-
-;(Talk to Rudolf or Lily by the square)
+;(Talk to Rudolf or Lily by the [[Anemo Archon Statue]], optional)
 :'''Rudolf:''' Lily, you shouldn't be talking to that Fatui.
 :'''Lily:''' But why not? Mister Fatooey's told me loadsa stowies!
-----
 
 ;(Talk to Marjorie)
 :'''Marjorie:''' Hello there, Traveler. What can I do for you?
@@ -100,12 +100,11 @@
 :'''Marjorie:''' He said that he'd be going {{Color|buzzword|near Wolvendom}} to gather Wolfhooks. You can head over there to look for him.
 :'''Marjorie:''' In that case, I'm counting on you, Traveler.
 
-;(Talk to Marjorie again)
+;(Talk to Marjorie again, optional)
 :'''Marjorie:''' I'm counting on you, Traveler.
 :'''Marjorie:''' He said that he'd be going {{Color|buzzword|near Wolvendom}} to gather Wolfhooks. You can head over there to look for him.
 ----
-
-;(Upon finding Schuster)
+;(Approach Schuster)
 :'''Terrified Schuster:''' Help! Help me! Someone, please!
 
 ;(Talk to Schuster after defeating the monsters)
@@ -121,25 +120,23 @@
 :'''Terrified Schuster:''' So I had to go further in to gather Wolfhooks...
 :'''Terrified Schuster:''' But let's not talk about that now. Could you help me pass these Wolfhooks to Marjorie?
 :'''Terrified Schuster:''' I need a moment to rest. I thought my legs were going to give out on me back there...
-:;(Obtain [[Fresh Wolfhooks]])
+:;(Obtain {{Item|Fresh Wolfhooks}})
 
-;(Talk to Schuster again)
+;(Talk to Schuster again, optional)
 :'''Terrified Schuster:''' Could you help me deliver these Wolfhooks to Marjorie? I just need a moment to rest. I thought my legs were going to give out on me back there...
 ----
-
-;(Talk to Marjorie after obtaining Wolfhooks)
+;(Talk to Marjorie)
 :'''Marjorie:''' Did you manage to find Schuster, Traveler?
 :{{DIcon}} He asked me to take these Wolfhooks back to you.
 :'''Marjorie:''' Ah! Thank you very much. I'll take these, then.
 :'''Marjorie:''' Once Schuster gets back, I'll make sure he gets paid.
 :'''Marjorie:''' Right, you wanted a gift for a child, yes? Well then. Coming right up...
-:'''''Marjorie starts to make the present...'''''
+:{{Black Screen|''Marjorie starts to make the present...''}}
 :'''Marjorie:''' Well, that's a wrap! Here, take this. Thanks for bringing those Wolfhooks back, by the way.
 :'''Marjorie:''' This doll has a light scent to it, too. I'm sure the kid you're sending this to will love it.
-:;(Obtain [[Marjorie's Gift]])
+:;(Obtain {{Item|Marjorie's Gift}})
 ----
-
-;(Talk to Viktor after obtaining the gift)
+;(Talk to Viktor)
 :'''Viktor:''' How did it go? Did you get the present?
 :{{DIcon}} I did.
 :'''Viktor:''' Huh, I guess you're pretty good. Now let me see...
@@ -155,14 +152,13 @@
 :'''Viktor:''' Just some nonsense. Never you mind.
 :'''Viktor:''' Alright. Here, take it, and help me deliver it to Lily. She should be {{Color|buzzword|near the square}}.
 :'''Viktor:''' Heh. I can picture the stares I'd be getting from Rudolf if I were to give it to her myself already...
-:;(Obtain [[Viktor's Gift]])
+:;(Obtain {{Item|Viktor's Gift}})
 
-;(Talk to Viktor again)
+;(Talk to Viktor again, optional)
 :'''Viktor:''' Help me deliver the present to Lily. She should be {{Color|buzzword|near the city square}}.
 :'''Viktor:''' If I were to go myself, I'm sure Rudolf would be glaring daggers at me all the way...
 ----
-
-;(Talk to Lily or Rudolf after obtaining the gift)
+;(Talk to Lily or Rudolf)
 :'''Rudolf:''' Lily, you shouldn't be talking to that Fatui.
 :'''Lily:''' But why not? Mister Fatooey's told me loadsa stowies!
 :{{DIcon}} Hey there, Lily, Viktor got you a gift.
@@ -181,11 +177,10 @@
 :'''Lily:''' He tells me stowies. Lots of stowies! He's nice!
 :'''Rudolf:''' Lily, listen to Daddy. Things aren't that simple... *sigh* You know what? Daddy will tell you more when you're older.
 
-;(Talk to Lily or Rudolf again)
+;(Talk to Lily or Rudolf again, optional)
 :'''Lily:''' But Dadda, he really is a good guy, and he tells great stowies!
 :'''Rudolf:''' Lily, things aren't that simple... *sigh* You know what? Daddy will tell you more when you're older.
 ----
-
 ;(Talk to Viktor)
 :'''Viktor:''' Did you send the present to Lily?
 :{{DIcon}} She's as pleased as punch.
@@ -200,9 +195,9 @@
 :'''Viktor:''' Alright, enough small talk. Here's your payment. Take it. I suppose this will be our last "equivalent exchange" here in Mondstadt.
 :'''Viktor:''' *sigh* I just hope my next assignment isn't as troublesome...
 
-;(Talk to Viktor again)
+;(Talk to Viktor again, optional)
 :'''Viktor:''' *sigh* I just hope my next assignment isn't as troublesome...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -216,7 +211,6 @@
 |ja_rm   = Fuyu he no Kaiki
 |ja_tl   = Return to Winter
 |ko      = 스네즈나야로 복귀
-|ko_rm   = Seunejeunayaro Bokgwi
 |ko_tl   = Return to Snezhnaya
 |es      = De vuelta al frío
 |es_tl   = Return to the Cold
@@ -236,7 +230,7 @@
 |pt      = Retorno para o Inverno
 |pt_tl   = 
 |tr      = Kış Günlerine Dönüş
-|tr_tl   = 
+|tr_tl   = Return to Days of Winter
 |it      = Ritorno ai giorni invernali
 |it_tl   = 
 }}
@@ -248,3 +242,4 @@
 {{Commission Navbox|Mondstadt|In Series}}
 
 [[es:De vuelta al frío]]
+[[ja:冬への回帰]]

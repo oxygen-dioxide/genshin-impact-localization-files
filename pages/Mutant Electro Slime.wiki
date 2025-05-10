@@ -27,17 +27,22 @@
 }}
 
 ==Stats==
-{{Enemy Stats|electro_res=Immune|hp_ratio=2|atk_ratio=1.4|hp_type=1}}
+{{Enemy Stats
+|electro_res  = Immune
+|hp_ratio     = 2
+|atk_ratio    = 4.2
+|hp_type      = 1
+}}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 ===Electro Slimes Nearby===
 {{Enemy Attacks
 |name_1 = Discharge
 |desc_1 = Periodically discharges a current between nearby [[Electro Slime]]s and [[Large Electro Slime]], forcing all of them to use their '''Shock''' attack simultaneously. The Mutant Electro Slime cannot use this ability on another Mutant Electro Slime.
-
-|name_2 = Bump
-|desc_2 = Bumps into the player, dealing '''100% ATK''' as {{Color|Electro DMG}}.
+|name_2 = Ram
+|file_2 = Mutant Electro Slime Bump
+|desc_2 = Rams into the player, dealing '''33.3% ATK''' as {{Color|Electro DMG}}.
 }}
 
 ===No Electro Slimes Nearby===
@@ -47,26 +52,26 @@
 * A Mutant Electro Slime starts with and can possess a maximum of 8 gauges of electricity.
 * Triggering [[Elemental Reactions]] on an Electro Slime will consume gauges of electricity. Every 1 [[Elemental Gauge Theory|gauge]] of {{Cryo}}/{{Pyro}}/{{Dendro}}, or 2 gauges of {{Geo}}/{{Anemo}} applied to the Electro Slime will consume 1 gauge of electricity.
 * Additionally, every time the slime takes {{Color|Electro DMG}}, it will gain 1 gauge of electricity, regardless of the amount of Electro gauges applied. Therefore, due to the [[Swirl]] and [[Electro-Charged]] reaction's ability to deal {{Color|Electro DMG}}, {{Anemo}} or {{Hydro}} on their own will never be able to deplete the Electro Slime's electricity.
-* '''Shock:''' Periodically consumes 1 gauge of '''electricity''' and releases a shockwave, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} around itself. This attack deals DMG to both enemies and allies.
+* '''Shock:''' Periodically consumes 1 gauge of '''electricity''' and releases a shockwave, dealing '''33.3% ATK''' as {{Color|Electro DMG}} around itself. This attack deals DMG to both enemies and allies.
 * '''Recharge:''' After a period of time has passed since '''electricity''' ran out, recharges to once again gain 8 gauges of '''electricity'''.
 |file_1 = Mutant Electro Slime Shock
 |caption_1 = Shock
 |file_1_2 = Mutant Electro Slime Recharge
 |caption_1_2 = Recharge
-
-|name_2 = Bump
-|desc_2 = Bumps into the player, dealing '''100% ATK''' as {{Color|Electro DMG}} if '''electricity''' is present or {{Color|Physical DMG}} if '''electricity''' is not present.
-
-|name_3 = Leap
-|desc_3 = Leaps high into the air before slamming down at the player's location, dealing '''300% ATK''' as {{Color|AoE Electro DMG}} if '''electricity''' is present or '''200% ATK''' as {{Color|AoE Physical DMG}} if '''electricity''' is not present. Additionally, if '''electricity''' is not present, this attack has a very limited range and will not highlight the impact area.
+|name_2 = Ram
+|file_2 = Mutant Electro Slime Bump
+|desc_2 = Rams into the player, dealing '''33.3% ATK''' as {{Color|Electro DMG}} if '''electricity''' is present or {{Color|Physical DMG}} if '''electricity''' is not present.
+|name_3 = Jumping Slam
+|file_3 = Mutant Electro Slime Leap
+|desc_3 = Leaps high into the air before slamming down at the player's location, dealing '''100% ATK''' as {{Color|Electro DMG}} if '''electricity''' is present or '''66.6% ATK''' as {{Color|Physical DMG}} if '''electricity''' is not present. Additionally, if '''electricity''' is not present, this attack has a very limited range and will not highlight the impact area.
 * Certain enhanced Mutant Electro Slimes, found in certain [[Domains]], [[Spiral Abyss]], overworld events and challenges, have reduced [[Cooldown]] on this attack.
 }}
 
 ==Descriptions==
-{{Description|A monster created by the coalescing of Electro dispersed throughout nature.<br />Electro Slimes can undergo mutations to become a bright yellow. Due to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time, and it can even cause nearby Electro Slimes to release electric arcs. This arc lightning will not bounce between purple Electro Slimes, which shows that Electro Slimes have two different polarities.<br />One wonders if some great new science could emerge from the study of such phenomena...|[[Archive]]}}
+{{Description|A monster created by the coalescing of Electro dispersed throughout nature.<br>Electro Slimes can undergo mutations to become a bright yellow. Due to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time, and it can even cause nearby Electro Slimes to release electric arcs. This arc lightning will not bounce between purple Electro Slimes, which shows that Electro Slimes have two different polarities.<br>One wonders if some great new science could emerge from the study of such phenomena...|[[Archive]]}}
 
 ==Trivia==
-* Although the small variant of the Mutant Electro Slime does not exist as an enemy, it can be seen dug up and thrown by the [[Thunderhelm Lawachurl]].<!--
+* Although the small variant of the Mutant Electro Slime does not exist as an enemy, it can be seen dug up and thrown by the [[Thunderhelm Lawachurl]] and [[Crackling Axe Mitachurl]].<!--
 --><gallery>
 Small Mutant Electro Slime.png
 </gallery>
@@ -93,7 +98,7 @@ Enemy Mutant Electro Slime Icon.png|Icon
 |es      = Slime Mutante Electro
 |es_tl   = Mutant Electro Slime
 |fr      = Électroblob mutant
-|fr_tl   = Mutant Electro Blob
+|fr_tl   = Mutant Electro {{Lex|Slime|fr}}
 |ru      = Электро слайм-мутант
 |ru_tl   = Mutant Electro Slime
 |th      = Mutant Electro Slime
@@ -105,7 +110,7 @@ Enemy Mutant Electro Slime Icon.png|Icon
 |pt      = Grande Slime Mutante
 |pt_tl   = 
 |tr      = Mutant Elektrik Bodurlopu
-|tr_tl   = 
+|tr_tl   = Mutant {{Lex|Electro|tr}} {{Lex|Slime|tr}}
 |it      = Melmoso di Electro mutante
 |it_tl   = 
 }}
@@ -121,4 +126,5 @@ Enemy Mutant Electro Slime Icon.png|Icon
 [[fr:Électroblob mutant]]
 [[ja:変異雷スライム]]
 [[pt-br:Grande Slime Mutante]]
+[[ru:Электро слайм-мутант]]
 [[zh:變異雷史萊姆]]

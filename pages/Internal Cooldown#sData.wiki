@@ -3,7 +3,7 @@
 |tab2 = Data
 }}
 {{Community}}
-{{See also|Elemental Gauge Theory/Advanced Aura Mechanics}}<!--this is for aura stuff, below info is for ICD stuff-->
+{{See also|Elemental Gauge Theory/Advanced Mechanics}}<!--this is for aura stuff, below info is for ICD stuff-->
 The following is Character data for internal cooldown of elemental application as well as additional details on related parameters and mechanics.
 
 ==Parameters==
@@ -76,6 +76,52 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 | Alhaitham Projection Attack || 12 || '''''1 0''''' as the repetend
 |-
 | Alhaitham Charged Attack || 2 || Only the 1st is '''''1''''', others are 0
+|-
+| Baizhu Elemental Skill || 2 || Only the 1st is '''''1''''', others are 0
+|-
+| Hydro Traveler Dewdrop || 1.5 || Only the 1st is '''''1''''', others are 0
+|-
+| Hydro Traveler Elemental Burst || 8 || '''''1 0 0 0 1 0 0 0 1 0 0 0'''''
+|-
+| Lyney Pyrotechnic Strike || 1 || Only the 1st is '''''1''''', others are 0
+|-
+| Furina Elemental Skill || 30 || '''''1 0''''' as the repetend
+|-
+| Charlotte Mark || 12 || '''''1 0''''' as the repetend
+|-
+| Charlotte Elemental Burst || 4 || '''''1 0 0 0 1 0 0 0'''''
+|-
+| Navia Elemental Burst || 12 || '''''1 0 0''''' as the repetend
+|-
+| Chevreuse Elemental Burst || 3 || '''''1 0 0 1 0 0 0 0'''''
+|-
+| Chiori Elemental Skill || 1.9 || Only the 1st is '''''1''''', others are 0
+|-
+| Arlecchino Elemental Skill || 10 || '''''1 0 0 1 0 0 1 0 0'''''
+|-
+| Clorinde C1/C6 || 1 || Only the 1st is '''''1''''', others are 0
+|-
+| Sigewinne || 2 || Only the 1st is '''''1''''', others are 0
+|-
+| Sigewinne Elemental Burst || 1.9 || Only the 1st is '''''1''''', others are 0
+|-
+| Emilie || 2 || Only the 1st is '''''1''''', others are 0
+|-
+| Kinich Loop Shot || 2 || Only the 1st is '''''1''''', others are 0
+|-
+| Kinich Scalespiker Cannon || 1.2 || Only the 1st is '''''1''''', others are 0
+|-
+| Chasca Shadowhunt Shell || 1.5 || Only the 1st is '''''1''''', others are 0
+|-
+| Chasca Shining Shadowhunt Shell || 1.5 || '''''1 0 1 0 1 0'''''
+|-
+| Chasca Elemental Burst || 1.5 || '''''1 0 1 0 1 0'''''
+|-
+| Ororon Elemental Burst || 3 || Only the 1st is '''''1''''', others are 0
+|-
+| Citlali Frostfall Storm || 1.5 || Only the 1st is '''''1''''', others are 0
+|-
+| Mizuki Elemental Skill || 1.2 || Only the 1st is '''''1''''', others are 0
 |}
 #'''1''' means that the corresponding attack will apply its element, while '''0''' means that it will not.
 #The length of the sequences are finite and repeat varying amounts of times. Any further attacks after the end of a sequence will use the last number in the sequence, which is 0 in most cases.
@@ -97,7 +143,11 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Lisa|20|nobr=1}} || {{Talent|Lightning Touch|20|nobr=1|type=1}} || Lisa Electro DMG || Default
 |-
+| {{Character|Mavuika|20|nobr=1}} || {{Talent|The Named Moment|20|nobr=1|type=1}} (Converted Normal Attack)  || Flamestrider || Default
+|-
 | {{Character|Mona|20|nobr=1}} || {{Talent|Ripple of Fate|20|nobr=1|type=1}} || Mona Hydro DMG || Default
+|-
+| {{Character|Mualani|20|nobr=1}} || {{Talent|Surfshark Wavebreaker|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Noelle|20|nobr=1}} || {{Talent|Favonius Bladework - Weiss|20|nobr=1|type=1}} ({{Talent|Sweeping Time|20|nobr=1|text=Converted}}) || colspan="2" | <small>(No ICD)</small>
 |-
@@ -114,6 +164,8 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 | {{Character|Yanfei|20|nobr=1}} || {{Talent|Seal of Approval|20|nobr=1|type=1}} || Yanfei Pyro DMG || Default
 |-
 | {{Character|Yoimiya|20|nobr=1}} || {{Talent|Firework Flare-Up|20|nobr=1|type=1}} ({{Talent|Niwabi Fire-Dance|20|nobr=1|text=Converted}}) || Normal Attack || Default
+|-
+| {{Character|Xilonen|20|nobr=1}} || {{Talent|Ehecatl's Roar|20|nobr=1|type=1}} (Blade Roller Normal Attack) || Blade Roller || Default
 |}
 
 ==Character Charged Attacks==
@@ -130,11 +182,39 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Amber|20|nobr=1}} || {{Talent|Sharpshooter|20|nobr=1|text=Charged Attack}} || Charged Attack || Amber
 |-
+| rowspan="8" | {{Character|Chasca|20|nobr=1}} || {{Talent|Phantom Feather Flurry|20|nobr=1|text=Charged Attack}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Spirit Reins, Shadow Hunt|20|nobr=1|type=1}} (Multitarget Fire Tap DMG DMG) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Spirit Reins, Shadow Hunt|20|nobr=1|type=1}} (Shadowhunt Shell DMG) || Shadowhunt Shell || Chasca Shadowhunt Shell
+|-
+| {{Talent|Spirit Reins, Shadow Hunt|20|nobr=1|type=1}} (Shining Shadowhunt Shell DMG) || Shining Shadowhunt Shell || Chasca Shining Shadowhunt Shell
+|-
+| {{Constellation|Muzzle, the Searing Smoke|20|nobr=1|level=1}} (AoE DMG) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Constellation|Sparks, the Sudden Shot|20|nobr=1|level=1}} (AoE DMG) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Constellation|Showdown, the Glory of Battle|20|nobr=1|level=1}} (C6 Shadowhunt Shell DMG) || C6 Shadowhunt Shell || Chasca Shadowhunt Shell
+|-
+| {{Constellation|Showdown, the Glory of Battle|20|nobr=1|level=1}} (C6 Shining Shadowhunt Shell DMG) || C6 Shining Shadowhunt Shell || Chasca Shining Shadowhunt Shell
+|-
 | {{Character|Diona|20|nobr=1}} || {{Talent|Kätzlein Style|20|nobr=1|text=Charged Attack}} || Charged Attack || Default
+|-
+| {{Character|Furina|20|nobr=1}} || {{Talent|Soloist's Solicitation|20|nobr=1|text=Charged Attack}} || Charged Attack || Default
 |-
 | {{Character|Kamisato Ayaka|20|nobr=1}} || {{Talent|Kamisato Art: Kabuki|20|nobr=1|text=Charged Attack}} || Charged Attack || Ayaka Charged Attack
 |-
 | {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Marobashi|20|nobr=1|text=Charged Attack}} || Charged Attack || Thrusting Attack
+|-
+| {{Character|Lan Yan|20|nobr=1}} || {{Talent|Black Pheasant Strides on Water|20|nobr=1|text=Charged Attack}} || Charged Attack || Default
+|-
+| {{Character|Lyney|20|nobr=1}} || {{Talent|Card Force Translocation|20|nobr=1|text=Pyrotechnic Strike}} || Pyrotechnic Strike || Lyney Pyrotechnic Strike
+|-
+| {{Character|Mavuika|20|nobr=1}} || {{Talent|The Named Moment|20|nobr=1|type=1}} (Converted Charged Attack)  || Flamestrider || Default
+|-
+| rowspan="2" | {{Character|Neuvillette|20|nobr=1}} || {{Talent|As Water Seeks Equilibrium|20|nobr=1|text=Charged Attack}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|As Water Seeks Equilibrium|20|nobr=1|text=Charged Attack: Equitable Judgment}} || Charged Attack || Default
 |-
 | rowspan="2" | {{Character|Noelle|20|nobr=1}} || {{Talent|Favonius Bladework - Weiss|20|nobr=1|text=Charged Attack}} || Normal Attack || Default
 |-
@@ -147,6 +227,8 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 | rowspan="2" | {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Origin|20|nobr=1|text=Charged Attack}}  || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Converted Charged Attack)  || Musou Isshin Attack || Default
+|-
+| {{Character|Sigewinne|20|nobr=1}} || {{Talent|Targeted Treatment|20|nobr=1|text=Charged Attack, Mini-Stration Bubble}} || Charged Attack || Sigewinne
 |-
 | {{Character|Tartaglia|20|nobr=1}} || {{Talent|Foul Legacy: Raging Tide|20|nobr=1}} (Converted Charged Attack) || Charged Attack || Default
 |-
@@ -192,17 +274,41 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Arataki Itto|20|nobr=1}} || {{Talent|Masatsu Zetsugi: Akaushi Burst!|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
+| rowspan="2" | {{Character|Arlecchino|20|nobr=1}} || {{Talent|All Is Ash|20|nobr=1|type=1}} (Spike DMG) || Elemental Skill || Arlecchino Elemental Skill
+|-
+| {{Talent|All Is Ash|20|nobr=1|type=1}} (Cleave DMG) || colspan="2" | <small>(No ICD)</small>
+|-
 | rowspan="2" | {{Character|Barbara|20|nobr=1}} || {{Talent|Let the Show Begin♪|20|nobr=1|type=1}} (Activation) || Elemental Skill || Default
 |-
 | {{Talent|Let the Show Begin♪|20|nobr=1|type=1}} (Melody Loop) || Elemental Skill || Barbara Melody Loop
+|-
+| {{Character|Baizhu|20|nobr=1}} || {{Talent|Universal Diagnosis|20|nobr=1|type=1}} || Elemental Skill || Baizhu Elemental Skill
 |-
 | {{Character|Beidou|20|nobr=1}} || {{Talent|Tidecaller|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Bennett|20|nobr=1}} || {{Talent|Passion Overload|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
+| rowspan="2" | {{Character|Charlotte|20|nobr=1}} || {{Talent|Framing: Freezing Point Composition|20|nobr=1|type=1}} (Photo DMG) || Elemental Skill || Default
+|-
+| {{Talent|Framing: Freezing Point Composition|20|nobr=1|type=1}} (Mark DMG) || Charlotte Mark || Charlotte Mark
+|-
+| {{Character|Chasca|20|nobr=1}} || {{Talent|Spirit Reins, Shadow Hunt|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Chevreuse|20|nobr=1}} || {{Talent|Short-Range Rapid Interdiction Fire|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| rowspan="2" | {{Character|Chiori|20|nobr=1}} || {{Talent|Fluttering Hasode|20|nobr=1|type=1}} (Upward Sweep Attack DMG) || Elemental Skill || Chiori Elemental Skill
+|-
+| {{Talent|Fluttering Hasode|20|nobr=1|type=1}} (Tamoto DMG) || Elemental Skill || Chiori Elemental Skill
+|-
 | {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Chonghua's Layered Frost|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
-| {{Character|Collei|20|nobr=1}} || {{Talent|Floral Brush|20|nobr=1|type=1}} || colspan="2" | <small>(Special: ICD Disabled)</small>
+| rowspan="2" | {{Character|Citlali|20|nobr=1}} || {{Talent|Dawnfrost Darkstar|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Dawnfrost Darkstar|20|nobr=1|type=1}} (Frostfall Storm) || Frostfall Storm || Citlali Frostfall Storm
+|-
+| {{Character|Clorinde|20|nobr=1}} || {{Talent|Hunter's Vigil|20|nobr=1|type=1}} (Swift Hunt and Impale the Night) || Normal Attack || Default
+|-
+| {{Character|Collei|20|nobr=1}} || {{Talent|Floral Brush|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Candace|20|nobr=1}} || {{Talent|Sacred Rite: Heron's Sanctum|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
@@ -220,6 +326,10 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Spirit-Warding Lamp: Troubleshooter Cannon|20|nobr=1|type=1}} (After-Sale Service Round) || Elemental Skill || Default
 |-
+| rowspan="2" | {{Character|Emilie|20|nobr=1}} || {{Talent|Fragrance Extraction|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Fragrance Extraction|20|nobr=1|type=1}} (Lv. 1/2 Lumidouce Case) || Elemental Skill || Emilie
+|-
 | rowspan="2" | {{Character|Eula|20|nobr=1}} || {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Press/Hold) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Icetide Vortex|20|nobr=1|type=1}} (Icewhirl Brand) || Elemental Skill || Default
@@ -229,6 +339,22 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 | rowspan="2" | {{Character|Fischl|20|nobr=1}} || {{Talent|Nightrider|20|nobr=1|type=1}} (Summoning) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Nightrider|20|nobr=1|type=1}} (Oz ATK) || Elemental Skill || Fischl
+|-
+| rowspan="4" | {{Character|Freminet|20|nobr=1}} || {{Talent|Pressurized Floe|20|nobr=1|type=1}} (Upward Thrust) || Elemental Skill || Default
+|-
+| {{Talent|Pressurized Floe|20|nobr=1|type=1}} (Frost) || Elemental Skill || Default
+|-
+| {{Talent|Pressurized Floe|20|nobr=1|type=1}} (Level 0 Shattering Pressure) || Elemental Skill || Default
+|-
+| {{Talent|Pressurized Floe|20|nobr=1|type=1}} (Level 1–3 Shattering Pressure Cryo) || Elemental Skill || Default
+|-
+| rowspan="4" | {{Character|Furina|20|nobr=1}} || {{Talent|Salon Solitaire|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Salon Solitaire|20|nobr=1|type=1}} (Mademoiselle Crabaletta) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Salon Solitaire|20|nobr=1|type=1}} (Gentilhomme Usher) || Octopus || Furina Elemental Skill
+|-
+| {{Talent|Salon Solitaire|20|nobr=1|type=1}} (Surintendante Chevalmarin) || Seahorse || Furina Elemental Skill
 |-
 | rowspan="2" | {{Character|Ganyu|20|nobr=1}} || {{Talent|Trail of the Qilin|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
@@ -240,7 +366,9 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Jean|20|nobr=1}} || {{Talent|Gale Blade|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
-| {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} || <small>(No ICD)</small> ||Default
+| {{Character|Kachina|20|nobr=1}} || {{Talent|Go, Go Turbo Twirly!|20|nobr=1|type=1}} || Elemental Skill || Default
+|-
+| {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Chihayaburu|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Kaeya|20|nobr=1}} || {{Talent|Frostgnaw|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
@@ -248,11 +376,23 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Kyouka|20|nobr=1|type=1}} (Water Illusion) || Elemental Skill || Default
 |-
+| {{Character|Kaveh|20|nobr=1}} || {{Talent|Artistic Ingenuity|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
 | rowspan="3" | {{Character|Keqing|20|nobr=1}} || {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Lightning Stiletto) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Slashing) || Elemental Skill || Default
 |-
 | {{Talent|Stellar Restoration|20|nobr=1|type=1}} (Thunderclap Slash) || Elemental Skill || Default
+|-
+| rowspan="2" | {{Character|Kinich|20|nobr=1}} || {{Talent|Canopy Hunter: Riding High|20|nobr=1|type=1}} (Loop Shot) || Loop Shot || Kinich Loop Shot
+|-
+| {{Talent|Canopy Hunter: Riding High|20|nobr=1|type=1}} (Scalespiker Cannon) || Scalespiker Cannon || Kinich Scalespiker Cannon
+|-
+| rowspan="3" | {{Character|Kirara|20|nobr=1}} || {{Talent|Meow-teor Kick|20|nobr=1|type=1}} (Press) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Meow-teor Kick|20|nobr=1|type=1}} (Hold Collision) || Elemental Skill || Default
+|-
+| {{Talent|Meow-teor Kick|20|nobr=1|type=1}} (Hold Final) || colspan="2" | <small>(No ICD)</small>
 |-
 | rowspan="2" | {{Character|Klee|20|nobr=1}} || {{Talent|Jumpy Dumpty|20|nobr=1|type=1}} (Bounce) || Klee Pyro DMG || Default
 |-
@@ -264,6 +404,8 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Sanctifying Ring|20|nobr=1|type=1}} (DoT) || Elemental Skill || Default
 |-
+| {{Character|Lan Yan|20|nobr=1}} || {{Talent|Swallow-Wisp Pinion Dance|20|nobr=1|type=1}} || Elemental Skill || Default
+|-
 | rowspan="2" | {{Character|Layla|20|nobr=1}} || {{Talent|Nights of Formal Focus|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Nights of Formal Focus|20|nobr=1|type=1}} (Night Star) || Elemental Skill || Layla Night Star
@@ -271,6 +413,24 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 | rowspan="2" | {{Character|Lisa|20|nobr=1}} || {{Talent|Violet Arc|20|nobr=1|type=1}} (Press) || Lisa Electro DMG || Default
 |-
 | {{Talent|Violet Arc|20|nobr=1|type=1}} (Hold) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Lynette|20|nobr=1}} || {{Talent|Enigmatic Feint|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| rowspan="2" | {{Character|Lyney|20|nobr=1}} || {{Talent|Bewildering Lights|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Bewildering Lights|20|nobr=1|type=1}} (Grin-Malkin Hat Explosion) || Pyrotechnic Strike || Lyney Pyrotechnic Strike
+|-
+| rowspan="3" | {{Character|Mavuika|20|nobr=1}} || {{Talent|The Named Moment|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|The Named Moment|20|nobr=1|type=1}} (Ring of Searing Flames) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|The Named Moment|20|nobr=1|type=1}} (Flamestrider Sprint) || Flamestrider || Default
+|-
+| rowspan="3" | {{Character|Mika|20|nobr=1}} || {{Talent|Starfrost Swirl|20|nobr=1|type=1}} (Flowfrost Arrow) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Starfrost Swirl|20|nobr=1|type=1}} (Rimestar Flare) || Elemental Skill || Default
+|-
+| {{Talent|Starfrost Swirl|20|nobr=1|type=1}} (Rimestar Shard) || Elemental Skill || Default
 |-
 | rowspan="2" | {{Character|Mona|20|nobr=1}} || {{Talent|Mirror Reflection of Doom|20|nobr=1|type=1}} (DoT) || Elemental Skill || Default
 |-
@@ -280,6 +440,10 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|All Schemes to Know|20|nobr=1|type=1}} (Tri-Karma Purification) || Nahida Tri-Karma Purification || Nahida Tri-Karma Purification
 |-
+| {{Character|Navia|20|nobr=1}} || {{Talent|Ceremonial Crystalshot|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Neuvillette|20|nobr=1}} || {{Talent|O Tears, I Shall Repay|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
 | rowspan="2" | {{Character|Nilou|20|nobr=1}} || {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (All Except Tranquility Aura) || Elemental Skill || Default
 |-
 | {{Talent|Dance of Haftkarsvar|20|nobr=1|type=1}} (Tranquility Aura) || Tranquility Aura || Nilou Tranquility Aura
@@ -287,6 +451,8 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 | {{Character|Ningguang|20|nobr=1}} || {{Talent|Jade Screen|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Noelle|20|nobr=1}} || {{Talent|Breastplate|20|nobr=1|type=1}} || Elemental Skill || Default
+|-
+| {{Character|Ororon|20|nobr=1}} || {{Talent|Night's Sling|20|nobr=1|type=1}} || Elemental Skill || Default
 |-
 | rowspan="2" | {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Herald of Frost|20|nobr=1|type=1}} (Activation) || Elemental Skill || Default
 |-
@@ -316,11 +482,15 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Yoohoo Art: Fuuin Dash|20|nobr=1|type=1}} (Kick Anemo and Absorbed Element) || colspan="2" | <small>(No ICD)</small>
 |-
+| {{Character|Sethos|20|nobr=1}} || {{Talent|Ancient Rite: The Thundering Sands|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
 | rowspan="2" | {{Character|Shenhe|20|nobr=1}} || {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}} (Press) || Elemental Skill || Shenhe Press Skill
 |-
 | {{Talent|Spring Spirit Summoning|20|nobr=1|type=1}} (Hold) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Heartstopper Strike|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Sigewinne|20|nobr=1}} || {{Talent|Rebound Hydrotherapy|20|nobr=1|type=1}} (Bolstering Bubblebalm) || Elemental Skill || Sigewinne
 |-
 | {{Character|Sucrose|20|nobr=1}} || {{Talent|Astable Anemohypostasis Creation - 6308|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
@@ -328,7 +498,7 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Foul Legacy: Raging Tide|20|nobr=1|type=1}} (Riptide Slash) || colspan="2" | <small>(No ICD)</small>
 |-
-| {{Character|Thoma|20|nobr=1}} || {{Talent|Blazing Blessing|20|nobr=1|type=1}} || <small>(No ICD)</small> ||Default
+| {{Character|Thoma|20|nobr=1}} || {{Talent|Blazing Blessing|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Tighnari|20|nobr=1}} || {{Talent|Vijnana-Phala Mine|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
@@ -354,6 +524,16 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Starfell Sword|20|nobr=1|type=1}} || Elemental Skill || Default
 |-
+| rowspan="2" | {{Character|Traveler (Hydro)|20|nobr=1}} || {{Talent|Aquacrest Saber|20|nobr=1|type=1}} (Torrent Surge) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Aquacrest Saber|20|nobr=1|type=1}} (Dewdrop) || Elemental Skill || Hydro Traveler Dewdrop
+|-
+| rowspan="3" | {{Character|Traveler (Pyro)|20|nobr=1}} || {{Talent|Flowfire Blade|20|nobr=1|type=1}} (Blazing Threshold) || Blazing Threshold || Default
+|-
+| {{Talent|Flowfire Blade|20|nobr=1|type=1}} (Hold DMG) || Hold DMG || Default
+|-
+| {{Talent|Flowfire Blade|20|nobr=1|type=1}} (Scorching Threshold) || Scorching Threshold || Default
+|-
 | rowspan="2" | {{Character|Venti|20|nobr=1}} || {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Press) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Skyward Sonnet|20|nobr=1|type=1}} (Hold) || colspan="2" | <small>(No ICD)</small>
@@ -362,7 +542,11 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Xiangling|20|nobr=1}} || {{Talent|Guoba Attack|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
+| {{Character|Xianyun|20|nobr=1}} || {{Talent|White Clouds at Dawn|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
 | {{Character|Xiao|20|nobr=1}} || {{Talent|Lemniscatic Wind Cycling|20|nobr=1|type=1}} || Elemental Skill || Xiao Skill
+|-
+| {{Character|Xilonen|20|nobr=1}} || {{Talent|Yohual's Scratch|20|nobr=1|type=1}} || Elemental Skill || Default
 |-
 | {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Fatal Rainscreen|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
@@ -377,6 +561,10 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 | {{Character|Yaoyao|20|nobr=1}} || {{Talent|Raphanus Sky Cluster|20|nobr=1|type=1}} || Elemental Skill || Yaoyao Skill
 |-
 | {{Character|Yelan|20|nobr=1}} || {{Talent|Lingering Lifeline|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| rowspan="2" | {{Character|Yumemizuki Mizuki|20|nobr=1}} || {{Talent|Aisa Utamakura Pilgrimage|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Aisa Utamakura Pilgrimage|20|nobr=1|type=1}} (Continuous Attack DMG) || Elemental Skill || Mizuki Elemental Skill
 |-
 | {{Character|Yun Jin|20|nobr=1}} || {{Talent|Opening Flourish|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
@@ -397,6 +585,10 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Amber|20|nobr=1}} || {{Talent|Fiery Rain|20|nobr=1|type=1}} || Elemental Burst || Amber
 |-
+| {{Character|Arlecchino|20|nobr=1}} || {{Talent|Balemoon Rising|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Baizhu|20|nobr=1}} || {{Talent|Holistic Revivification|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
 | rowspan="2" | {{Character|Beidou|20|nobr=1}} || {{Talent|Stormbreaker|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Stormbreaker|20|nobr=1|type=1}} (Lightning Discharge) || Elemental Burst || Default
@@ -405,7 +597,25 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Candace|20|nobr=1}} || {{Talent|Sacred Rite: Wagtail's Tide|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
+| rowspan="2" | {{Character|Charlotte|20|nobr=1}} || {{Talent|Still Photo: Comprehensive Confirmation|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Still Photo: Comprehensive Confirmation|20|nobr=1|type=1}} (Kamera DMG) || Elemental Burst || Charlotte Elemental Burst
+|-
+| {{Character|Chasca|20|nobr=1}} || {{Talent|Soul Reaper's Fatal Round|20|nobr=1|type=1}} (All DMG) || Elemental Burst || Chasca Elemental Burst
+|-
+| rowspan="2" | {{Character|Chevreuse|20|nobr=1}} || {{Talent|Ring of Bursting Grenades|20|nobr=1|type=1}} (Explosive Grenade DMG) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Ring of Bursting Grenades|20|nobr=1|type=1}} (Secondary Explosive Shell DMG) || Elemental Burst || Chevreuse Elemental Burst
+|-
+| {{Character|Chiori|20|nobr=1}} || {{Talent|Hiyoku: Twin Blades|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
 | {{Character|Chongyun|20|nobr=1}} || {{Talent|Spirit Blade: Cloud-Parting Star|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| rowspan="2" | {{Character|Citlali|20|nobr=1}} || {{Talent|Edict of Entwined Splendor|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Edict of Entwined Splendor|20|nobr=1|type=1}} (Spiritvessel Skull) || Spiritvessel Skull || Default
+|-
+| {{Character|Clorinde|20|nobr=1}} || {{Talent|Last Lightfall|20|nobr=1|type=1}} || Elemental Burst || Default
 |-
 | rowspan="2" | {{Character|Collei|20|nobr=1}} || {{Talent|Trump-Card Kitty|20|nobr=1|type=1}} (Explosion) || Elemental Burst || Collei Burst
 |-
@@ -429,11 +639,19 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Alcazarzaray's Exactitude|20|nobr=1|type=1}} (Self) || Charging Station || Dori Burst
 |-
+| {{Character|Gaming|20|nobr=1}} || {{Talent|Suanni's Gilded Dance|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| {{Character|Emilie|20|nobr=1}} || {{Talent|Aromatic Explication|20|nobr=1|type=1}} (Lv. 3 Lumidouce Case) || Elemental Burst || Default
+|-
 | {{Character|Eula|20|nobr=1}} || {{Talent|Glacial Illumination|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Faruzan|20|nobr=1}} || {{Talent|The Wind's Secret Ways|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Fischl|20|nobr=1}} || {{Talent|Midnight Phantasmagoria|20|nobr=1|type=1}} (Falling Thunder) || Elemental Burst || Fischl
+|-
+| {{Character|Freminet|20|nobr=1}} || {{Talent|Shadowhunter's Ambush|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Furina|20|nobr=1}} || {{Talent|Let the People Rejoice|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Ganyu|20|nobr=1}} || {{Talent|Celestial Shower|20|nobr=1|type=1}} || Elemental Burst || Default
 |-
@@ -447,9 +665,11 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Dandelion Breeze|20|nobr=1|type=1}} (Entering/Exiting) || colspan="2" | <small>(No ICD)</small>
 |-
+| {{Character|Kachina|20|nobr=1}} || {{Talent|Time to Get Serious!|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
 | rowspan="3" | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Kazuha Slash|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
 |-
-| {{Talent|Kazuha Slash|20|nobr=1|type=1}} (DoT) || <small>(No ICD)</small> ||Default
+| {{Talent|Kazuha Slash|20|nobr=1|type=1}} (DoT) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Kazuha Slash|20|nobr=1|type=1}} (DoT Absorbed Element) || colspan="2" | <small>(No ICD)</small>
 |-
@@ -461,11 +681,19 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Kamisato Ayato|20|nobr=1}} || {{Talent|Kamisato Art: Suiyuu|20|nobr=1|type=1}}|| Elemental Burst || Default
 |-
+| {{Character|Kaveh|20|nobr=1}} || {{Talent|Painted Dome|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
 | rowspan="3" | {{Character|Keqing|20|nobr=1}} || {{Talent|Starward Sword|20|nobr=1|type=1}} || Elemental Burst || Default
 |-
 | {{Talent|Starward Sword|20|nobr=1|type=1}} (Consecutive Slash) || Elemental Burst || Default
 |-
 | {{Talent|Starward Sword|20|nobr=1|type=1}} (Last Attack) || Elemental Burst || Default
+|-
+| {{Character|Kinich|20|nobr=1}} || {{Talent|Hail to the Almighty Dragonlord|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| rowspan="2" | {{Character|Kirara|20|nobr=1}} || {{Talent|Secret Art: Surprise Dispatch|20|nobr=1|type=1}} (Activation) ||| <small>(No ICD)</small>
+|-
+| {{Talent|Secret Art: Surprise Dispatch|20|nobr=1|type=1}} (Cat Grass Cardamom) ||| Elemental Burst || Default
 |-
 | {{Character|Klee|20|nobr=1}} || {{Talent|Sparks 'n' Splash|20|nobr=1|type=1}} || Elemental Burst || Default
 |-
@@ -479,11 +707,31 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Lightning Rose|20|nobr=1|type=1}} (DoT) || Elemental Burst || Default
 |-
+| {{Character|Lan Yan|20|nobr=1}} || {{Talent|Lustrous Moonrise|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
 | {{Character|Layla|20|nobr=1}} || {{Talent|Dream of the Star-Stream Shaker|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
+| rowspan="3" | {{Character|Lynette|20|nobr=1}} || {{Talent|Magic Trick: Astonishing Shift|20|nobr=1|type=1}} (Activation) || Elemental Burst || Default
+|-
+| {{Talent|Magic Trick: Astonishing Shift|20|nobr=1|type=1}} (Bogglecat Box DoT) || Elemental Burst || Default
+|-
+| {{Talent|Magic Trick: Astonishing Shift|20|nobr=1|type=1}} (Vivid Shot) || Vivid Shot || Default
+|-
+| {{Character|Lyney|20|nobr=1}} || {{Talent|Wondrous Trick: Miracle Parade|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Mavuika|20|nobr=1}} || {{Talent|Hour of Burning Skies|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | rowspan="2" | {{Character|Mona|20|nobr=1}} || {{Talent|Stellaris Phantasm|20|nobr=1|type=1}} (Activation) || Elemental Burst || Default
 |-
 | {{Talent|Stellaris Phantasm|20|nobr=1|type=1}} (Illusory Bubble Explosion) || Elemental Burst || Default
+|-
+| {{Character|Mualani|20|nobr=1}} || {{Talent|Boomsharka-laka|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| rowspan="2" | {{Character|Navia|20|nobr=1}} || {{Talent|As the Sunlit Sky's Singing Salute|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|As the Sunlit Sky's Singing Salute|20|nobr=1|type=1}} (Cannon Fire Support) || Elemental Burst || Navia Elemental Burst
+|-
+| {{Character|Neuvillette|20|nobr=1}} || {{Talent|O Tides, I Have Returned|20|nobr=1|type=1}} || Elemental Burst || Default
 |-
 | {{Character|Nilou|20|nobr=1}} || {{Talent|Dance of Abzendegi: Distant Dreams, Listening Spring|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
@@ -493,9 +741,11 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Sweeping Time|20|nobr=1|type=1}} (Hit 2) || Elemental Burst || Default
 |-
+| {{Character|Ororon|20|nobr=1}} || {{Talent|Dark Voices Echo|20|nobr=1|type=1}} || Elemental Burst || Ororon Elemental Burst
+|-
 | {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Preserver of Fortune|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
-| {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Activation) || <small>(No ICD)</small> ||Default
+| {{Character|Raiden Shogun|20|nobr=1}} || {{Talent|Secret Art: Musou Shinsetsu|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
 |-
 | rowspan="2" | {{Character|Razor|20|nobr=1}} || {{Talent|Lightning Fang|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
 |-
@@ -511,11 +761,15 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Yoohoo Art: Mujina Flurry|20|nobr=1|type=1}} (DoT) || Elemental Burst || Default
 |-
+| {{Character|Sethos|20|nobr=1}} || {{Talent|Secret Rite: Twilight Shadowpiercer|20|nobr=1|type=1}} (Dusk Bolt) || Dusk Bolt || Default
+|-
 | rowspan="2" | {{Character|Shenhe|20|nobr=1}} || {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Divine Maiden's Deliverance|20|nobr=1|type=1}} (DoT) || Elemental Burst || Default
 |-
 | {{Character|Shikanoin Heizou|20|nobr=1}} || {{Talent|Windmuster Kick|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Sigewinne|20|nobr=1}} || {{Talent|Super Saturated Syringing|20|nobr=1|type=1}} || Elemental Burst || Sigewinne Elemental Burst
 |-
 | rowspan="2" | {{Character|Sucrose|20|nobr=1}} || {{Talent|Forbidden Creation - Isomer 75 / Type II|20|nobr=1|type=1}} (DoT) || colspan="2" | <small>(No ICD)</small>
 |-
@@ -551,13 +805,17 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Surgent Manifestation|20|nobr=1|type=1}} (Pyro) || colspan="2" | <small>(No ICD)</small>
 |-
+| rowspan="2" | {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Bellowing Thunder|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Bellowing Thunder|20|nobr=1|type=1}}  (Falling Thunder) || Elemental Burst || Default
+|-
 | rowspan="2" | {{Character|Traveler (Geo)|20|nobr=1}} || {{Talent|Wake of Earth|20|nobr=1|type=1}} (Shockwave) || Shockwave || Default
 |-
 | {{Talent|Wake of Earth|20|nobr=1|type=1}} (Final Hit) || colspan="2" | <small>(No ICD)</small>
 |-
-| rowspan="2" | {{Character|Traveler (Electro)|20|nobr=1}} || {{Talent|Bellowing Thunder|20|nobr=1|type=1}} || <small>(No ICD)</small> ||Default
+| {{Character|Traveler (Hydro)|20|nobr=1}} || {{Talent|Rising Waters|20|nobr=1|type=1}} || Elemental Burst || Hydro Traveler Elemental Burst
 |-
-| {{Talent|Bellowing Thunder|20|nobr=1|type=1}}  (Falling Thunder) || Elemental Burst || Default
+| {{Character|Traveler (Pyro)|20|nobr=1}} || {{Talent|Plains Scorcher|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | rowspan="5" | {{Character|Venti|20|nobr=1}} || {{Talent|Wind's Grand Ode|20|nobr=1|type=1}} (DoT) || Elemental Burst Anemo || Venti
 |-
@@ -571,9 +829,17 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Wanderer|20|nobr=1}} || {{Talent|Kyougen: Five Ceremonial Plays|20|nobr=1|type=1}} || Elemental Burst || Default
 |-
+| {{Character|Wriothesley|20|nobr=1}} || {{Talent|Darkgold Wolfbite|20|nobr=1|type=1}} || Elemental Burst || Default
+|-
 | rowspan="2" | {{Character|Xiangling|20|nobr=1}} || {{Talent|Pyronado|20|nobr=1|type=1}} (Activation) || Elemental Burst || Default
 |-
 | {{Talent|Pyronado|20|nobr=1|type=1}} (Pyronado) || colspan="2" | <small>(No ICD)</small>
+|-
+| rowspan="2" | {{Character|Xianyun|20|nobr=1}} || {{Talent|Stars Gather at Dusk|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Stars Gather at Dusk|20|nobr=1|type=1}} (Starwicker) || Elemental Burst || Default
+|-
+| {{Character|Xilonen|20|nobr=1}} || {{Talent|Ocelotlicue Point!|20|nobr=1|type=1}} || Elemental Burst || Default
 |-
 | {{Character|Xingqiu|20|nobr=1}} || {{Talent|Guhua Sword: Raincutter|20|nobr=1|type=1}} || Elemental Burst || Default
 |-
@@ -599,6 +865,10 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Talent|Ryuukin Saxifrage|20|nobr=1|type=1}} (Aurous Blaze) || Elemental Burst || Default
 |-
+| rowspan="2" | {{Character|Yumemizuki Mizuki|20|nobr=1}} || {{Talent|Anraku Secret Spring Therapy|20|nobr=1|type=1}} (Activation) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Talent|Anraku Secret Spring Therapy|20|nobr=1|type=1}} (Munen Shockwave DMG) || Elemental Burst || Default
+|-
 | {{Character|Yun Jin|20|nobr=1}} || {{Talent|Cliffbreaker's Banner|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Zhongli|20|nobr=1}} || {{Talent|Planet Befall|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
@@ -610,17 +880,35 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Amber|20|nobr=1}} || {{Constellation|One Arrow to Rule Them All|20|nobr=1|level=1}} (Extra Arrow) || Charged Attack || Amber
 |-
+| {{Character|Arlecchino|20|nobr=1}} || {{Constellation|"All Rewards and Retribution, Mine to Bestow..."|20|nobr=1|level=1}} || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Baizhu|20|nobr=1}} || {{Constellation|Incisive Discernment|20|nobr=1|level=1}} (Gossamer Spirite: Splice) || colspan="2" | <small>(No ICD)</small>
+|-
 | {{Character|Beidou|20|nobr=1}} || {{Constellation|Stunning Revenge|20|nobr=1|level=1}} (Additional DMG) || Elemental Burst || Default
 |-
 | {{Character|Bennett|20|nobr=1}} || {{Constellation|Unexpected Odyssey|20|nobr=1|level=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Candace|20|nobr=1}} || {{Constellation|The Overflow|20|nobr=1|level=1}} || colspan="2" | <small>(No ICD)</small>
 |-
+| {{Character|Charlotte|20|nobr=1}} || {{Constellation|A Summation of Interest|20|nobr=1|level=1}} (Coordinated Attack) || colspan="2" | <small>(No ICD)</small>
+|-
+| rowspan="2" | {{Character|Chiori|20|nobr=1}} || {{Talent|Tailor-Made|20|nobr=1|type=1}} (Coordinated Attack) || Elemental Skill || Chiori Elemental Skill
+|-
+| {{Constellation|In Five Colors Dyed|20|nobr=1|level=1}} and {{Constellation|A Tailor's Three Courtesies|20|nobr=1|level=1}} (Kinu) || Elemental Skill || Chiori Elemental Skill
+|-
+| rowspan="2" | {{Character|Clorinde|20|nobr=1}} || {{Constellation|"From This Day, I Pass the Candle's Shadow-Veil"|20|nobr=1|level=1}} (Coordinated Attack) || C1/C6 || Clorinde C1/C6
+|-
+| {{Constellation|"And So Shall I Never Despair"|20|nobr=1|level=1}} (Glimbright Shade) || C1/C6 || Clorinde C1/C6
+|-
+| {{Character|Chevreuse|20|nobr=1}} || {{Constellation|Sniper Induced Explosion|20|nobr=1|level=1}} || C2 || Default
+|-
 | rowspan="3" | {{Character|Chongyun|20|nobr=1}} || {{Talent|Rimechaser Blade|20|nobr=1|type=1}} (Spirit Blade) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Constellation|Ice Unleashed|20|nobr=1|level=1}} (Ice Blade) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Constellation|Rally of Four Blades|20|nobr=1|level=1}} (Additional Spirit Blade) || colspan="2" | <small>(No ICD)</small>
+|-
+| {{Character|Citlali|20|nobr=1}} || {{Constellation|Death Defier's Spirit Skull|20|nobr=1|level=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | rowspan="2" | {{Character|Collei|20|nobr=1}} || {{Talent|Floral Sidewinder|20|nobr=1|type=1}} || Sprout || Default
 |-
@@ -632,6 +920,8 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Dori|20|nobr=1}} || {{Constellation|Special Franchise|20|nobr=1|level=1}} || C2 || Default
 |-
+| {{Character|Emilie|20|nobr=1}} || {{Talent|Lingering Fragrance|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
+|-
 | rowspan="4" | {{Character|Fischl|20|nobr=1}} || {{Talent|Stellar Predator|20|nobr=1|type=1}} (Thundering Retribution) || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Talent|Undone Be Thy Sinful Hex|20|nobr=1|type=1}} (Thundering Retribution) || colspan="2" | <small>(No ICD)</small>
@@ -639,6 +929,10 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 | {{Constellation|Her Pilgrimage of Bleak|20|nobr=1|level=1}} (AoE) || Elemental Burst || Fischl
 |-
 | {{Constellation|Evernight Raven|20|nobr=1|level=1}} (Joint Attack) || Elemental Skill || Fischl
+|-
+| {{Character|Lan Yan|20|nobr=1}} || {{Talent|Four Sealing Divination Charms|20|nobr=1|type=1}} || Elemental Skill Absorbed || Default
+|-
+| {{Character|Kachina|20|nobr=1}} || {{Constellation|This Time, I've Gotta Win|20|nobr=1|level=1}} || colspan="2" | <small>(No ICD)</small>
 |-
 | {{Character|Kaedehara Kazuha|20|nobr=1}} || {{Talent|Soumon Swordsmanship|20|nobr=1|type=1}} || colspan="2" | <small>(No ICD)</small>
 |-
@@ -650,7 +944,13 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Kamisato Ayato|20|nobr=1}} || {{Constellation|Boundless Origin|20|nobr=1|level=1}} || colspan="2" | <small>(No ICD)</small>
 |-
+| {{Character|Kaveh|20|nobr=1}} || {{Constellation|Pairidaeza's Dreams|20|nobr=1|level=1}} (Pairidaeza's Light) || colspan="2" | <small>(No ICD)</small>
+|-
 | {{Character|Keqing|20|nobr=1}} || {{Constellation|Thundering Might|20|nobr=1|level=1}} || Elemental Skill || Default
+|-
+| {{Character|Kinich|20|nobr=1}} || {{Constellation|Auspicious Beast's Shape|20|nobr=1|level=1}} || Scalespiker Cannon || Kinich Scalespiker Cannon
+|-
+| {{Character|Kirara|20|nobr=1}} || {{Constellation|Steed of Skanda|20|nobr=1|level=1}} || Elemental Burst || Default
 |-
 | rowspan="2" | {{Character|Klee|20|nobr=1}} || {{Constellation|Chained Reactions|20|nobr=1|level=1}} (Spark) || Elemental Burst || Default
 |-
@@ -660,6 +960,10 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Kuki Shinobu|20|nobr=1}} || {{Constellation|To Sever Sealing|20|nobr=1|level=1}} (Thundergrass Mark) || colspan="2" | <small>(No ICD)</small>
 |-
+| {{Character|Lyney|20|nobr=1}} || {{Constellation|Guarded Smile|20|nobr=1|level=1}} || Pyrotechnic Strike || Lyney Pyrotechnic Strike
+|-
+| {{Character|Mavuika|20|nobr=1}} || {{Constellation|"Humanity's Name" Unfettered|20|nobr=1|level=1}} || colspan="2" | <small>(No ICD)</small>
+|-
 | rowspan="3" | {{Character|Mona|20|nobr=1}} || {{Talent|Illusory Torrent|20|nobr=1|type=1}} (Wet Application) || Alternate Sprint || Default
 |-
 | {{Talent|"Come 'n' Get Me, Hag!"|20|nobr=1|type=1}} (Phantom Explosion) || colspan="2" | <small>(No ICD)</small>
@@ -668,7 +972,13 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 |-
 | {{Character|Nahida|20|nobr=1}} || {{Constellation|The Fruit of Reason's Culmination|20|nobr=1|level=1}} (Karmic Oblivion) || Nahida C6 || Default
 |-
+| {{Character|Navia|20|nobr=1}} || {{Constellation|The President's Pursuit of Victory|20|nobr=1|level=1}} || Elemental Burst || Navia Elemental Burst
+|-
+| {{Character|Neuvillette|20|nobr=1}} || {{Constellation|Wrathful Recompense|20|nobr=1|level=1}} (Currents) || C6 || Default
+|-
 | {{Character|Noelle|20|nobr=1}} || {{Constellation|To Be Cleaned|20|nobr=1|level=1}} (Explosion) || Elemental Skill || Default
+|-
+| {{Character|Ororon|20|nobr=1}} || {{Talent|Nightshade Synesthesia|20|nobr=1|type=1}} || Elemental Skill || Default
 |-
 | {{Character|Razor|20|nobr=1}} || {{Constellation|Lupus Fulguris|20|nobr=1|level=1}} (Lightning) || colspan="2" | <small>(No ICD)</small>
 |-
@@ -707,4 +1017,5 @@ In an ICD Type, there are two subparameters: '''Reset Interval''' which affects 
 | {{Character|Yoimiya|20|nobr=1}} || {{Constellation|Naganohara Meteor Swarm|20|nobr=1|level=1}} (Extra Kindling Arrow) || Normal Attack || Default
 |}
 
+[[ru:Время отката наложения статуса/Данные]]
 [[vi:CD Ngầm/Số Liệu]]

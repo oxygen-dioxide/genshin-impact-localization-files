@@ -7,14 +7,14 @@
 |type         = Game Systems
 |type2        = Combat
 }}
-'''Targeting''' is the automatic process that determines the primary target of character attacks.<ref>NGA: [https://bbs.nga.cn/read.php?tid=27177916 {{Lang|mini=1|zh=《目标索敌学》- 角色技能索敌机制的研究}}]</ref>
+'''Targeting''' is the automatic process that determines the primary target of character attacks.<ref>NGA: [https://bbs.nga.cn/read.php?tid=27177916 {{zh|《目标索敌学》- 角色技能索敌机制的研究}}]</ref>
 
 Most commonly, characters will select the target with the highest '''Targeting Score'''. Generally, this score is higher for targets that are closer to the character, targets that the character is facing, and targets with a higher threat level.
 
 For the targeting mechanics of individual abilities, see [[Targeting/Data|Character Data]].
 
 ==Local Abilities==
-When a character uses an ability, the game will calculate a '''Targeting Score''' for all targets within '''20m''' of the character. The enemy with the highest Targeting Score will be chosen as the primary target of the attack.
+When a character uses an ability, the game will calculate a '''Targeting Score''' for all targets within '''20&nbsp;m''' of the character. The enemy with the highest Targeting Score will be chosen as the primary target of the attack.
 
 Targeting Score for local abilities is calculated as:
 
@@ -27,7 +27,7 @@ Targeting Score for local abilities is calculated as:
 *'''Current Target Coefficient:''' If target is already being targeted, Current Target Coefficient = '''1.2'''; Otherwise, Current Target Coefficient = '''1'''.
 **If a character stops attacking for 3 seconds, the current target will be cleared.
 *'''Altitude Coefficient:''' If the target and the character's altitude difference is greater than the altitude limit, Altitude Coefficient = '''0.2'''; Otherwise, Altitude Coefficient = '''1'''.
-**Altitude limit is '''2m''' for melee characters and '''4m''' for ranged characters.
+**Altitude limit is '''2&nbsp;m''' for melee characters and '''4&nbsp;m''' for ranged characters.
 
 ==Deployable Abilities==
 Deployable abilities may use one of 2 types of targeting:
@@ -50,7 +50,7 @@ Targeting Score for deployable abilities is calculated as:
 *'''Current Target Coefficient:''' If target is already being targeted, Current Target Coefficient = '''1.2'''; Otherwise, Current Target Coefficient = '''1'''.
 **If a character stops attacking for 3 seconds, the current target will be cleared.
 *'''Altitude Coefficient:''' If the target and the character's altitude difference is greater than the altitude limit, Altitude Coefficient = '''0.2'''; Otherwise, Altitude Coefficient = '''1'''.
-**Altitude limit is '''2m''' for melee characters and '''4m''' for ranged characters.
+**Altitude limit is '''2&nbsp;m''' for melee characters and '''4&nbsp;m''' for ranged characters.
 
 ==Targeting Immunity==
 Some targets can grant themselves a '''targeting-immune state'''. This mainly includes enemies that can teleport or go invisible, and certain scene gadgets (cooking stations, campfires, [[Anemograna]], Cuihua trees, etc.).
@@ -65,17 +65,17 @@ While in this state, targets will deny all targeting attempts from abilities per
 {| class="fandom-table"
 ! Target Type !! Targeting Zone Radius !! Normal Priority Coefficient !! Combat Priority Coefficient !! Examples
 |-
-| Default (Lv0) || 0.01 || 0 || 0 || Character weapons<br />Certain character gadgets (arrows, etc.)<br />Certain enemy gadgets (Projectiles, spikes, etc.)<br />Certain [[wildlife]] (lizards, butterflies, fish, etc.)
+| Default (Lv0) || 0.01 || 0 || 0 || Character weapons<br>Certain character gadgets (arrows, etc.)<br>Certain enemy gadgets (Projectiles, spikes, etc.)<br>Certain [[wildlife]] (lizards, butterflies, fish, etc.)
 |-
-| Gadget (Lv1) || 2 || 0.3 || 0 || Regular [[Oceanid]]<br />Scene gadgets<br />Targetable character gadgets (Catalyst projectiles, [[Guoba]], etc.)<br />[[Crystallize]] shards<br />[[Grana]]
+| Gadget (Lv1) || 2 || 0.3 || 0 || Regular [[Rhodeia of Loch|Oceanid]]<br>Scene gadgets<br>Targetable character gadgets (Catalyst projectiles, [[Guoba]], etc.)<br>[[Crystallize]] shards<br>[[Grana]]
 |-
 | Animal (Lv2) || 3 || 0.5 || 0 || Certain wildlife (boars, foxes, etc.)
 |-
 | Gear (Lv3) || 3 || 1 || 0.8 || Targetable enemy gadgets ([[Cryo Hypostasis]] Frostfruits, [[Fatui Pyro Agent]] clones, etc.)
 |-
-| Character and Enemy (Lv4) || Uses ability's Targeting Zone || 1 || 1 || Characters<br />[[Common Enemies]]<br />Most [[Elite Enemies]]<br />[[Hydro Mimics]]<br />[[Parametric Transformer]]<br />[[Weasel Thieves]]<br />[[Taunt]]s<br />High-priority enemy gadgets ([[Geo Samachurl]] pillars, [[Electro Hypostasis]] Revival Prisms, [[Geo Hypostasis]] pillars, etc.)
+| Character and Enemy (Lv4) || Uses ability's Targeting Zone || 1 || 1 || Characters<br>[[Common Enemies]]<br>Most [[Elite Enemies]]<br>[[Hydro Mimics]]<br>[[Parametric Transformer]]<br>[[Weasel Thieves]]<br>[[Taunt]]s<br>High-priority enemy gadgets ([[Geo Samachurl]] pillars, [[Electro Hypostasis]] Revival Prisms, [[Geo Hypostasis]] pillars, etc.)
 |-
-| Boss (Lv5) || Uses ability's Targeting Zone || 1.5 || 1.5 || [[Normal Bosses]]<br />[[Weekly Bosses]]<br />[[Humanoid Ruin Machines]]<br />High-priority enemy gadgets ([[Regisvines]]' Cores, [[Pyro Regisvine]]'s fire seed, [[Dvalin]]'s claws, etc.)
+| Boss (Lv5) || Uses ability's Targeting Zone || 1.5 || 1.5 || [[Normal Bosses]]<br>[[Weekly Bosses]]<br>[[Humanoid Ruin Machines]]<br>High-priority enemy gadgets ([[Regisvines]]' Cores, [[Pyro Regisvine]]'s fire seed, [[Dvalin]]'s claws, etc.)
 |}
 
 ==References==

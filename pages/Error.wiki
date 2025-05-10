@@ -22,7 +22,7 @@ Critical errors will quit the game with the error message.
 |Wish schedule inconsistent
 |Occurs when the player attempts to [[Wish]] on a limited-time banner that has already ended. Banners do not automatically disappear from a player's screen after their duration ends if the player is currently on the respective banner's screen; they will disappear after the player closes out of the Wish screen and opens it again.
 |-
-|Waypoint unlocked''<!-- Does this mean that there's also an error if you attempt to reactivate a Statue of the Seven, the Frostbearing Tree or even the Skyfrost Nail? -->
+|Waypoint unlocked''<!-- Does this mean that there's also an error if you attempt to reactivate a Statue of The Seven, the Frostbearing Tree or even the Skyfrost Nail? -->
 |Occurs when the player attempts to reunlock a [[Teleport Waypoint]] that has already been unlocked. Normally this is impossible, however due to things like network latency or network errors, the player may be able to attempt to reunlock a Teleport Waypoint that has already been unlocked. This is different from the ''Teleport Waypoint unlocked'' message; when a waypoint is unlocked for the first time, it will show a ''Teleport Waypoint unlocked'' message, while when the player attempts to reunlock an already unlocked Teleport Waypoint, ''Waypoint unlocked'' will show.
 |-
 |Cannot discard item
@@ -56,7 +56,7 @@ Critical errors will quit the game with the error message.
 |Occurs when the player attempts to switch character while [[gliding]] or while performing a Plunging Attack.
 |-
 |Cannot switch character while jumping
-|Occurs when the player attempts to switch character while [[jumping]] or during the frames of [[Keqing]]'s [[Elemental Skill]], [[Stellar Restoration]], when it is used twice in a row (the first time to hurl the Lightning Stiletto and the second time to blink to its location and unleash a slashing attack) where she is unleashing a slashing attack. The game counts falling as a result of jumping as jumping (e.g. attempting to switch character while falling after dashing then jumping off a cliff).
+|Occurs when the player attempts to switch character while [[jumping]] or during the frames of [[Keqing]]'s [[Elemental Skill]], [[Stellar Restoration]], when it is used twice in a row (the first time to hurl the Lightning Stiletto and the second time to blink to its location and unleash a slashing attack) where she is unleashing a slashing attack. The game counts falling as a result of jumping as jumping (e.g., attempting to switch character while falling after dashing then jumping off a cliff).
 |-
 |Cannot switch character while swimming
 |Occurs when the player attempts to switch character while [[swimming]].
@@ -68,7 +68,7 @@ Critical errors will quit the game with the error message.
 |Occurs when the player attempts to switch character while falling due to an [[Elemental Skill]] (for example, if the player uses [[Albedo]]'s [[Elemental Skill]], [[Abiogenesis: Solar Isotoma]], to create a Solar Isotoma and then stands at the locus of the Solar Isotoma, a crystallized platform will form, lifting the player up. If the player then reuses [[Abiogenesis: Solar Isotoma]] to create a Solar Isotoma at a different location, the player will fall, and attempting to switch character while doing so will cause this error to occur. Similarly, using [[Keqing]]'s [[Elemental Skill]], [[Stellar Restoration]] to blink upwards and then attempting to switch character while falling, and therefore after performing the slashing attack; see ''Cannot switch character while jumping'' section, will cause this error to occur), when the player's active character is clipped inside something, such as a wall, or when switching would cause the player to clip inside something (for example, if the roof of a building is just high enough that a short character, such as [[Diona]], can fit under it, but a tall one, such as [[Diluc]], cannot, attempting to switch character from [[Diona]] to [[Diluc]] would cause this error to occur. This last scenario will also cause this error to occur if done in the Party Setup menu.)<!-- There are probably other actions that trigger this error message -->
 |-
 |Target abnormal
-|Occurs when the player attempts to switch characters while their current character is [[stun]]ned, which can be triggered by the [[Frozen]] Elemental Reaction, Hydro bubbles, or [[Magatsu Mitake Narukami no Mikoto]]'s "The Final Calamity" attack.
+|Occurs when the player attempts to switch characters while their current character is immobilized, which can be triggered by the [[Frozen]] Elemental Reaction, [[bubble]]s, or [[Magatsu Mitake Narukami no Mikoto]]'s timestop attacks.
 |-
 |Cannot take a picture in the current state
 |Occurs when the player attempts to enter [[Photo Mode]] while climbing, gliding, jumping, swimming, performing a Plunging Attack, or in combat.
@@ -81,6 +81,9 @@ Critical errors will quit the game with the error message.
 |-
 |Character not owned, could not complete
 |Occurs when trying to use the follow function on a [[Character Trials|Trial Character]] within the Character Selection menu.
+|-
+|Character not in current party
+|Occurs when trying to switch to a [[Character Trials|Trial Character]] that has been removed from the party after completing an objective.
 |-
 |Domain not yet available
 |Occurs when the player attempts to view the [[Domain]] source of [[Talent Level-Up Materials]] or [[Weapon Ascension Materials]] from the [[Inventory]] or [[Character]] menus that are not available on the current day.
@@ -203,7 +206,7 @@ Critical errors will quit the game with the error message.
 |Occurs when the player attempts to view the artifacts of a trial character during a domain or quest.
 |-
 |Teleport currently disabled
-|Occurs when the player attempts to teleport to any location while the automatically opened map from activating a new Statue of the Seven is being displayed.
+|Occurs when the player attempts to teleport to any location while the automatically opened map from activating a new Statue of The Seven is being displayed.
 |-
 |Congratulations! You have reached the max BP level
 |Occurs when the player attempts to claim [[Battle Pass EXP]] in the [[Battle Pass]] menu after you have already reached BP Level 50. The BEP from Daily and Weekly Missions still adds to the Weekly EXP Limit. Using the "Claim All" button does not trigger the error.
@@ -266,7 +269,7 @@ Critical errors will quit the game with the error message.
 |Occurs when the player attempts to remove the only party member from the deployed party.
 |-
 |Unable to equip character with outfit in present state
-|Occurs when the player attempts to switch [[Character Outfits]] while climbing, gliding, jumping, swimming, performing a Plunging Attack, in a Domain or in combat.
+|Occurs when the player attempts to switch [[Character Outfit]]s while climbing, gliding, jumping, swimming, performing a Plunging Attack, in a Domain or in combat.
 |-
 |Workstation option does not exist
 |Occurs when the player attempts to interact with something via an interaction option that does not exist or has been disabled, such as a [[Bloatty Floatty]]'s "Investigate" option after it has been activated by an attack.
@@ -365,7 +368,7 @@ Critical errors will quit the game with the error message.
 |Occurs when attempting to use a Realm Waypoint to your own [[Serenitea Pot]] while in another player's world during [[Co-Op Mode]].
 |-
 |This item cannot be used here
-|Occurs when attempting to use items like [[Treasure Compass]]es in event regions like [[Golden Apple Archipelago]] or [[Three Realms Gateway Offering/Area|Three Realms Gateway Offering]].
+|Occurs when attempting to use items like [[Treasure Compass]]es in event regions like [[Golden Apple Archipelago]] or [[Three Realms Gateway Offering (Area)|Three Realms Gateway Offering]].
 |-
 |Cannot use in current state
 |Occurs when attempting to use [[Bokuso Box]] outside of [[Three Realms Gateway Offering]].
@@ -414,6 +417,39 @@ Critical errors will quit the game with the error message.
 |-
 |Party information error. Please re-enter
 |Occurs when clicking retry when the last enemy is defeated on a [[Spiral Abyss]] chamber.
+|-
+|Daily Commission system not yet available<!--framed-->
+|Occurs when clicking on the Daily Commission tab in quest menu before it's unlocked.
+|-
+|You cannot uninstall the voice-over files that you are currently using<!--framed-->
+|Occurs when trying to uninstall the currently selected voice-over files.
+|-
+|This quest is unavailable in Co-Op Mode<!--framed-->
+|Occurs when attempting to navigate to a prerequisite quest from an event menu button while in Co-Op mode or in Serenitea Pot.
+|-
+|Cannot use in current area
+|Occurs when attempting to place certain gadgets in a forbidden area such as [[The Chasm's Bed]].
+|-
+|The container is full...
+|Occurs when attempting to use the Fonta vending machine with a [[Full Pankration Fonta Cup]].
+|-
+|Cannot interact with object
+|Occurs when attempting to open a chest that appears unlocked, but locks itself due to needing to defeat enemies that spawn upon getting close to the chest.
+|-
+|Chest locked
+|Occurs when attempting to open a chest that appears unlocked, but locks itself due to needing to defeat enemies that spawn upon getting close to the chest. Does not show in newer versions.
+|-
+|Character not on the map
+|<!-- I think I might know what caused this, was doing Signora, got to phase 2, tried to switch characters and got this message, when I retried it worked. I think what happened is when you get to phase 2, it'll put your character to a specific spot, I must've tried to switch during then so it didn't worked? Not too sure-->
+|-
+|Cannot swap gadgets in current state
+|Occurs when attempting to quick swap [[Gadget]]s in certain (event) domains.
+|-
+|Current bounty has ended
+|Occurs when the daily limit for finding a particular enemy via the [[Adventurer Handbook]] has been reached.
+|-
+|Proceed to ''location'' to continue the bounty
+|Occurs when the next enemy for finding a particular enemy via the [[Adventurer Handbook]] is on a different map tab.
 |}
 <!--
 Error with red background and white text:
@@ -422,6 +458,7 @@ Character limit exceeded - Displayed when the player attempts to add a name to a
 Already Owned - Displayed over Character Outfits that the player already owns.
 Obtained the maximum possible amount of Stella Fortuna - Displayed over Characters in Paimon's Bargains for which the player already has all possible Stella Fortuna.
 Unlocks after you purchase Mora - Displayed over the Mora ×10,000 costing 20 Masterless Stardust in Paimon's Bargains prior to purchasing all Mora ×10,000 costing 10 Masterless Stardust.
+The fish has escaped, attempt unsuccessful - Displayed if the player lets the fish they are currently catching escape in the fishing minigame.
 -->
 
 ==Dialog Errors==
@@ -448,23 +485,51 @@ Unlocks after you purchase Mora - Displayed over the Mora ×10,000 costing 20 Ma
 |}
 
 ==Critical Errors==
-These errors will automatically quit the game or prevent you from logging in.
+These errors will automatically quit the game or prevents the player from logging in.
 {| class="article-table sortable"
 !Error!!Description
 |-
+|Account authentication failed
+|Usually occurs when the account's password was changed or the device was removed from the Account Center. If the player is not aware of the change, it is recommended to remove all foreign devices and change the password
+|-
 |Network Error
-|The game is unable to connect to the miHoYo servers. This may be the result of maintenance or a bad Internet connection. Check your internet connection with other websites, then run the network troubleshooter for the platform you are using.
+|The game is unable to connect to the miHoYo servers. This may be the result of maintenance or a bad Internet connection.
+
+* 4204: Game client invalid, try updating your game.
+* 4206: Connection timeout, check your internet speed and check that you are connected to the internet. Also close any proxies that may be redirecting traffic away from the game servers.
+* 4214: RSA keys invalid, make sure you have not installed any mods or cheats.
 |-
 |Go to official site or store to download latest game version
-|This error is produced if attempting to connect to Genshin Impact servers using an outdated client. Or, your authentication took too long to process. Try logging back in, if the error persists then reinstall the game from the launcher.
+|Occurs when the player attempts to connect to Genshin Impact servers using an outdated client or when authentication took too long to process. Try logging back in, if the error persists then reinstall the game from the launcher.
+|-
+|Failed to download resource files.
+|Live hotfix update failed.
+
+* -9000: Update does not exist.
+
+* -9002: Connection timeout, check your internet speed and check that you are connected to the internet. Also close any proxies that may be redirecting traffic away from the game servers.
+
+* -9004: File verification failed. Check -9002 for potential fixes.
+
+* -9005: Disk space full.
+
+* -9007: Invalid save path; your game folder may be corrupt or the game folder's permissions are wrong.
+
+* -9010: Network error (specifically, fetching file lengths failed), check -9002 for potential fixes.
+
+* -9011: Same as -9010
+
+* -9101: Name resolution failure, check -9002 for potential fixes.
+
+* -9102: Connection failure, check -9002 for potential fixes.
 |-
 ! rowspan="4" |Warning
-|This message will show up if the game detected foul play (like cheating). The warning will give you information on your infraction. If you are banned, you will be unable to log in.
+|Occurs when the game detected foul play (such as cheating with third-party software). The warning will give an information of the player's infraction and the player may get banned. The player will unable to log in if they are banned.
 |-
 |
-*If you are on a jailbroken or rooted device, you should remove your jailbreak or root to continue playing.
-*If you are using a console, ensure that the console does not have any modchips or custom code installed on it.
-* If you are using a PC, uninstall any programs used almost exclusively for cheating in-game (like AutoHotKey).
+* If the player uses a jailbroken or rooted device, the player should remove the jailbreak or root to continue playing.
+* If the player are using a console, ensure that the console does not have any modchips or custom code installed on it.
+* If the player are using a PC, uninstall any programs used almost exclusively for cheating in-game (like AutoHotKey).
 |-
 |
 *Check your balance upon logging in. If you have a negative balance of Primogems or Genesis Crystals, then you owe money to miHoYo.
@@ -476,7 +541,7 @@ These errors will automatically quit the game or prevent you from logging in.
 *If your account was banned for having an inappropriate username, you are permitted to create another account with one that is appropriate.
 |-
 ! rowspan="4" | You have disconnected
-|This message shows up when you disconnect while playing.
+|This message shows up when the player are disconnected from the game.
 |-
 |
 *Server restarting...
@@ -490,3 +555,5 @@ These errors will automatically quit the game or prevent you from logging in.
 
 ==Navigation==
 {{Game Systems Navbox|type=Other}}
+
+[[ja:エラー]]

@@ -1,86 +1,313 @@
 {{CharacterTabs}}
 {{LanguageTabs}}
-{{Stub|Official information available}}
-{{Upcoming}}
+==Story==
+{{VO/Story
+|character               = Mika
+
+<!-- Hello -->
+|vo_01_01_title          = Hello
+|vo_01_01_file           = VO_{language}{character} Hello.ogg
+|vo_01_01_tx             = Mika, Front-Line Land Surveyor, [[Knights of Favonius]] Reconnaissance Company, reporting in. It's an honor to fight alongside you. If there's anything I can do to support you, just let me know and I'll get to it right away. Anyway, I'll make every effort to navigate us safely and report accurate intel on the enemy!
+
+<!-- Chats -->
+|vo_02_01_title          = Chat: Staying on Target
+|vo_02_01_file           = VO_{language}{character} Chat - Staying on Target.ogg
+|vo_02_01_tx             = We'd better stay battle ready... Our next mission could start at any time.
+|vo_02_01_mention        = 
+|vo_02_02_title          = Chat: Situation Report
+|vo_02_02_file           = VO_{language}{character} Chat - Situation Report.ogg
+|vo_02_02_tx             = Verifying our current position, measuring distance to target area... Alright, I've recorded the terrain conditions.
+|vo_02_02_mention        = 
+|vo_02_03_title          = Chat: Establishing a Route
+|vo_02_03_file           = VO_{language}{character} Chat - Establishing a Route.ogg
+|vo_02_03_tx             = No matter what kind of environment you may find yourself in, with thorough reconnaissance, you should be able to establish a safe route.
+|vo_02_03_mention        = 
+
+<!-- Weather -->
+|vo_03_01_title          = When It Rains
+|vo_03_01_file           = VO_{language}{character} When It Rains.ogg
+|vo_03_01_tx             = Ahh, the rain is really coming down... let's just hope the conditions out here won't get too muddy. Otherwise, I'll need to help everyone clean their boots, and there won't be enough time to prepare a meal...
+|vo_03_02_title          = When Thunder Strikes
+|vo_03_02_file           = VO_{language}{character} When Thunder Strikes.ogg
+|vo_03_02_tx             = Thunder can mask the sound of movement, which is why it's our friend.
+|vo_03_03_title          = When It Snows
+|vo_03_03_file           = VO_{language}{character} When It Snows.ogg
+|vo_03_03_tx             = Freshly fallen snow may be beautiful, but it masks the more nuanced features of terrain, which can be a pain.
+|vo_03_04_title          = When the Sun Is Out
+|vo_03_04_file           = VO_{language}{character} When the Sun Is Out.ogg
+|vo_03_04_tx             = The sun is out and visibility is excellent... Perfect conditions for observation. Couldn't ask for anything better!
+|vo_03_05_title          = When the Wind Is Blowing
+|vo_03_05_file           = VO_{language}{character} When the Wind Is Blowing.ogg
+|vo_03_05_tx             = Huh... Could this wind be a sign from the [[Anemo Archon]]? Or is it just a result of the terrain's effects on the atmosphere...
+|vo_03_05_mention        = Barbatos
+
+<!-- Greetings -->
+|vo_04_01_title          = Good Morning
+|vo_04_01_file           = VO_{language}{character} Good Morning.ogg
+|vo_04_01_tx             = Oh, good morning! ...I prepared the breakfast we usually eat in the expeditionary force. If you don't mind, maybe you could tell me our plan of action for today while you eat.
+|vo_04_02_title          = Good Afternoon
+|vo_04_02_file           = VO_{language}{character} Good Afternoon.ogg
+|vo_04_02_tx             = Oh, please wait a moment, our meal's almost ready! Field ration no.3 &mdash; it's the Reconnaissance Company's favorite. I'll check the nearby area again shortly to see if there are any suitable places for a short rest.
+|vo_04_03_title          = Good Evening
+|vo_04_03_file           = VO_{language}{character} Good Evening.ogg
+|vo_04_03_tx             = Dinner's served! Although it's just some basic field rations, it should still have all the nutrients you need. Please, dig in... If you have any equipment that needs maintenance, you can also give them to me.
+|vo_04_04_title          = Good Night
+|vo_04_04_file           = VO_{language}{character} Good Night.ogg
+|vo_04_04_tx             = It's getting late, and I need to get the day's survey records in order. The camp beds are ready, so why don't you have a rest? After you've recovered your energy, our midnight snack should also be ready, and we can trade posts.
+
+<!-- About -->
+|vo_05_01_title          = About {name}: Work
+|vo_05_01_file           = VO_{language}{character} About {character} - Work.ogg
+|vo_05_01_tx             = Hmm? What's a Front-Line Land Surveyor? Well, my duty is to scout ahead into unknown territory, survey the terrain, and identify key locations. Sometimes, we also have to deal with enemy sentries, so in addition to being able to map out the terrain, I also have to stay combat ready, know first aid, and have strong survival skills...
+|vo_05_02_title          = About {name}: Mundane Tasks
+|vo_05_02_file           = VO_{language}{character} About {character} - Mundane Tasks.ogg
+|vo_05_02_friendship     = 4
+|vo_05_02_tx             = Making camp, starting a fire, cooking food, and maintaining equipment... these are all essential tasks that must be done. If the others dislike such duties, and if I can uh, manage them to a satisfactory degree, then the least I can do is to help out... That way, everyone can have a breather and relax a little...
+
+<!-- About Us -->
+|vo_06_01_title          = About Us: Rumors
+|vo_06_01_file           = VO_{language}{character} About Us - Rumors.ogg
+|vo_06_01_tx             = Ah, sorry... I heard all about you when I first arrived back in [[Mondstadt]]. Super powerful people like you and [[Paimon]] usually have some kind of strict personal code. Since many super powerful people would also have a bad temper, I was afraid that if I misspoke, you might get upset. But luckily, you two are really nice, and I have nothing to worry about!
+|vo_06_01_mention        = Paimon
+|vo_06_02_title          = About Us: Speaking in Code
+|vo_06_02_file           = VO_{language}{character} About Us - Speaking in Code.ogg
+|vo_06_02_friendship     = 6
+|vo_06_02_tx             = Some forward scouts will use the word "Octave" to indicate that they've run out of arrows and are returning to camp... Or "Vera" to mean "the conditions are good, we should engage the enemy"... Hey, why don't we also come up with some code words? It'll come in handy, especially if we'll be working together long term. Go ahead, I'm good with any of your ideas!
+
+<!-- Miscellany I -->
+|vo_07_01_title          = About the [[Vision]]
+|vo_07_01_friendship     = 4
+|vo_07_01_file           = VO_{language}{character} About the Vision.ogg
+|vo_07_01_tx             = To be honest, even I was amazed that I managed to receive a Vision. It's really come in handy, but I shouldn't completely rely on its powers. Instead, I prefer to think of it as a sort of safeguard to use in case something happens. As a member of the Knights of Favonius, I should place more importance on team cooperation, and come up with ways to overcome difficulties together with my teammates.
+|vo_07_02_title          = Something to Share
+|vo_07_02_file           = VO_{language}{character} Something to Share.ogg
+|vo_07_02_tx             = Here's a simple survey trick that you might find useful... Stretch out your arm, and raise your thumb towards the target area. Align your right eye's line of sight and your thumb to the left side of the target, and your left eye to the right side of the target, and multiply the distance between the two sides by the right multiplier... You can use this trick to estimate the height of a mountain and whether it's climbable, or the width of a river and whether you can swim across.
+|vo_07_03_title          = Interesting Things
+|vo_07_03_file           = VO_{language}{character} Interesting Things.ogg
+|vo_07_03_tx             = I heard Klee mention that there's a type of plant that can relay sound... if only we could somehow carry this plant with us in the field. That way, I could instantly report back about the terrain... I could even stay near the front lines and guide our rear forces to attack enemy targets from afar with volleys of arrows.
+|vo_07_03_mention        = Klee
+
+<!-- About Teammates -->
+|vo_08_01_title          = About [[Kaeya]]
+|vo_08_01_friendship     = 4
+|vo_08_01_file           = VO_{language}{character} About Kaeya.ogg
+|vo_08_01_tx             = Before joining the Knights, I had to take a number of exams. Captain Kaeya was the main person in charge of all the testing. He was really supportive, and gave me all kinds of tips, but sometimes, I would struggle to understand what he was saying... I would get worried that I was not keeping up with his pace, and that I was letting him down...
+|vo_08_01_mention        = Kaeya
+|vo_08_02_title          = About [[Varka]]: Instruction
+|vo_08_02_friendship     = 4
+|vo_08_02_file           = VO_{language}{character} About Varka - Instruction.ogg
+|vo_08_02_tx             = Grand Master Varka is not only a strong leader who commands respect, but also my personal combat instructor. He taught me to think on my feet and avoid engaging enemies at close combat to make up for my small stature and relative lack of stamina. Following his advice, I learned how to fight with a polearm and crossbow, and I must say, this fighting style is far more suitable to me.
+|vo_08_02_mention        = Varka
+|vo_08_03_title          = About Varka: The Captain
+|vo_08_03_friendship     = 6
+|vo_08_03_file           = VO_{language}{character} About Varka - The Captain.ogg
+|vo_08_03_tx             = The Grand Master said that I need to set higher goals for myself, and strive to achieve them. I've always had that kind of attitude, but it wasn't until I was on the expedition that I realized how serious things can become... One day, I met the [[Fatui]] [[Harbinger]] known as [[The Captain]]. I can't even begin to imagine how I can deal with an opponent like him. I just... Such powerful people are really on a level of their own, I'm not even remotely close...
+|vo_08_03_mention        = Varka,Capitano
+|vo_08_04_title          = About [[Jean]]
+|vo_08_04_friendship     = 4
+|vo_08_04_file           = VO_{language}{character} About Jean.ogg
+|vo_08_04_tx             = The Deputy... I mean, the Acting Grand Master is a strong and considerate leader who always makes me feel at ease. She's always out there looking after all of us. Whether it's organizing work, rendering first aid, or cooking delicious meals, there's so much I can learn from her...
+|vo_08_04_mention        = Jean
+|vo_08_05_title          = About [[Amber]]
+|vo_08_05_friendship     = 4
+|vo_08_05_file           = VO_{language}{character} About Amber.ogg
+|vo_08_05_tx             = Oh? Amber the Outrider? She's the most reliable vanguard, and has amazing reconnaissance skills! The roles of Front-Line Surveyors and the Outriders are similar given that we both operate ahead of the main force. Amber has a lot of experience, and I've learned a lot of survival skills from her, as well as how to better maintain my crossbow strings and arrows.
+|vo_08_05_mention        = Amber
+|vo_08_06_title          = About [[Eula]]: Tasks
+|vo_08_06_friendship     = 4
+|vo_08_06_file           = VO_{language}{character} About Eula - Tasks.ogg
+|vo_08_06_tx             = Captain Eula is a strong fighter with a combat style of her own, and she's always looked out for me. When I first joined the company, she assigned me a variety of tasks, way more than what other members had, and that quickly improved my ability to adapt. Once I grew accustomed to the way she expresses herself, I was able to work together with her just fine!
+|vo_08_06_mention        = Eula
+|vo_08_07_title          = About Eula: Daily Conduct
+|vo_08_07_friendship     = 4
+|vo_08_07_file           = VO_{language}{character} About Eula - Daily Conduct.ogg
+|vo_08_07_tx             = Actually, I really admire Captain Eula. She is friendly and free-spirited, and her mental fortitude is out of this world. If other people gave me strange looks all the time and talked behind my back like they do about her, I don't think I'd be able to leave my room...
+|vo_08_07_mention        = Eula
+|vo_08_08_title          = About [[Lisa]]
+|vo_08_08_friendship     = 4
+|vo_08_08_file           = VO_{language}{character} About Lisa.ogg
+|vo_08_08_tx             = Our librarian Lisa had always offered her help when I was first teaching myself how to draw maps. She even found a bunch of useful books for me to study. *sigh* If only I could be as well-learned as she is... After all, it never hurts to have more knowledge, and you never know when you might need it...
+|vo_08_08_mention        = Lisa
+|vo_08_09_title          = About [[Klee]]
+|vo_08_09_friendship     = 4
+|vo_08_09_file           = VO_{language}{character} About Klee.ogg
+|vo_08_09_tx             = Oh? Klee? She's super cheerful, and I've heard that... she's as strong as the Grand Master himself. She's invited me to go on adventures with her before, and we always had a great time together! Although she would experiment with dangerous weapons from time to time, which means I've had to revise my maps on several occasions... But I still feel it's worth it!
+|vo_08_09_mention        = Klee,Varka
+|vo_08_10_title          = About [[Venti]]
+|vo_08_10_friendship     = 4
+|vo_08_10_file           = VO_{language}{character} About Venti.ogg
+|vo_08_10_tx             = I really like that bard... He's a very talented performer, and his melodies always seem to make me feel at home. If I had to pick a tune that best represents Mondstadt, it'd definitely be one of his. It's too bad that I'm not often in the city, otherwise, I could bring him some gifts every day...
+|vo_08_10_mention        = Venti
+|vo_08_11_title          = About [[Albedo]]
+|vo_08_11_friendship     = 4
+|vo_08_11_file           = VO_{language}{character} About Albedo.ogg
+|vo_08_11_tx             = The Chief Alchemist has been very kind to me. He helped me make all the survey equipment I use in the field... I even have some pens he made that will work even when I'm hanging upside down from a tree. But it seems that making artistic sketches is quite different from making maps. I've tried to make some sketches of a target area as supplemental intel before, and word has it that Captain Albedo went silent for a long time when he saw them...
+|vo_08_11_mention        = Albedo
+
+<!-- More About -->
+|vo_09_01_title          = More About {name}: I
+|vo_09_01_file           = VO_{language}{character} More About {character} - 01.ogg
+|vo_09_01_tx             = Hmm? You want to know more about me? Well, I'm just an ordinary person, so I don't really have any interesting stories... I guess all I could talk about is my experiences, would you be willing to hear about that?
+|vo_09_02_title          = More About {name}: II
+|vo_09_02_friendship     = 3
+|vo_09_02_file           = VO_{language}{character} More About {character} - 02.ogg
+|vo_09_02_tx             = Ever since I was a kid, I've wanted to become a cartographer, and map out every corner of Teyvat. It's only later on that I discovered the Knights of Favonius actually have that kind of role. Thanks to my father and [[Huffman|brother]]'s support, I was able to make it through the selection process and become a Front-Line Surveyor. This job has let me live out my dreams, and it's already brought me lots of fulfillment.
+|vo_09_02_mention        = Huffman
+|vo_09_03_title          = More About {name}: III
+|vo_09_03_friendship     = 4
+|vo_09_03_file           = VO_{language}{character} More About {character} - 03.ogg
+|vo_09_03_tx             = Everyone in the Knights of Favonius is really strong, and I feel like there's something I could learn from each member. After gaining new skills from everyone, I should also do my best to return the favor. So if there's anything the others need help with, then I'll do my best to make that happen.
+|vo_09_04_title          = More About {name}: IV
+|vo_09_04_friendship     = 5
+|vo_09_04_file           = VO_{language}{character} More About {character} - 04.ogg
+|vo_09_04_tx             = It seems like... after I assisted the Grand Master and Captain Eula a few times with their errands, some members of our group have begun to see me as their official messenger. If I ever misspoke, it would cause trouble for our leaders, and the blame would be all mine. So, whenever I am around others I'm unfamiliar with, I often try to only comment on things I'm absolutely confident in, which makes everyone think I'm timid. But would you say this whole situation is just a sort of misunderstanding?
+|vo_09_04_mention        = Varka,Eula
+|vo_09_05_title          = More About {name}: V
+|vo_09_05_friendship     = 6
+|vo_09_05_file           = VO_{language}{character} More About {character} - 05.ogg
+|vo_09_05_tx             = You know, one good thing after coming back from the expedition is that I don't feel so worried anymore. As long as I'm not causing trouble for anyone else, then I don't really mind what anyone might think of me. The Knights of Favonius is like my second family, and I've got to master my work as a Front-Line Surveyor. My hard work can let everyone finish their tasks more smoothly and end their days with just that much less to worry about...
+
+<!-- Miscellany II -->
+|vo_10_01_title          = {name}'s Hobbies
+|vo_10_01_file           = VO_{language}{character} Hobbies.ogg
+|vo_10_01_tx             = Oh? My hobbies? ...I guess my favorite thing would be camping out in unknown territory. Just taking in the fresh scenery, making a cozy little camp, starting a bonfire and making some food. It really brings me happiness!
+|vo_10_02_title          = {name}'s Troubles
+|vo_10_02_file           = VO_{language}{character} Troubles.ogg
+|vo_10_02_tx             = To be honest, I'm not too good at dealing with people I'm not familiar with. Maybe it's because I'm not really good at holding a conversation. Can you give me some pointers in that area?
+|vo_10_03_title          = Favorite Food
+|vo_10_03_file           = VO_{language}{character} Favorite Food.ogg
+|vo_10_03_tx             = The Grand Master said that a youngster like me needs to eat more meat, which will build more strength and physical stamina. Even though there's little chance I'll ever get really buff. I do like eating meat dishes. The others in the Reconnaissance Company seem to share this taste as well.
+|vo_10_03_mention        = Varka
+|vo_10_04_title          = Least Favorite Food
+|vo_10_04_file           = VO_{language}{character} Least Favorite Food.ogg
+|vo_10_04_tx             = Unlike my brother, I can't stand the taste of alcohol. All it takes is one sip and I'd be out cold, and the others would have to go out of their way to take care of me. Even just the smell of a strong drink being opened is enough to make me dizzy.
+|vo_10_04_mention        = Huffman
+
+<!-- Receiving a Gift -->
+|vo_11_01_title          = Receiving a Gift: I
+|vo_11_01_file           = VO_{language}{character} Receiving a Gift - 01.ogg
+|vo_11_01_tx             = Thanks so much... this is such a marvelous dish, I would feel terrible using it just to fill my stomach! Can I put it away for storage?
+|vo_11_02_title          = Receiving a Gift: II
+|vo_11_02_file           = VO_{language}{character} Receiving a Gift - 02.ogg
+|vo_11_02_tx             = The taste and portions are both incredible. You really went the extra mile for me.
+|vo_11_03_title          = Receiving a Gift: III
+|vo_11_03_file           = VO_{language}{character} Receiving a Gift - 03.ogg
+|vo_11_03_tx             = Ugh... well, since you went to the trouble of making this for me. I promise I'll finish it.
+
+<!-- Birthday -->
+|vo_12_01_title          = Birthday
+|vo_12_01_file           = VO_{language}{character} Birthday.ogg
+|vo_12_01_tx             = Oh, what should we do for an occasion like this? Hmm... Today is your most special day, so we should really live it up! I've prepared "A Tour of Mondstadt's Most Stunning Spots." It contains information on lots of beautiful locations that are hardly known to anyone else. I wish you happiness every day until this day arrives again next year.
+
+<!-- Feelings About Ascension -->
+|vo_13_01_title          = Feelings About Ascension: Intro
+|vo_13_01_ascension      = 1
+|vo_13_01_file           = VO_{language}{character} Feelings About Ascension - 01.ogg
+|vo_13_01_tx             = Even though I'm still miles behind you, I'm feeling a little more confident now. At least, I won't end up dragging you down again.
+|vo_13_02_title          = Feelings About Ascension: Building Up
+|vo_13_02_ascension      = 2
+|vo_13_02_file           = VO_{language}{character} Feelings About Ascension - 02.ogg
+|vo_13_02_tx             = I hope I'll be able to provide more useful intelligence, and help take some weight off of your shoulders!
+|vo_13_03_title          = Feelings About Ascension: Climax
+|vo_13_03_ascension      = 4
+|vo_13_03_file           = VO_{language}{character} Feelings About Ascension - 03.ogg
+|vo_13_03_tx             = Please allow me to always travel alongside you, and survey the land around us!
+|vo_13_04_title          = Feelings About Ascension: Conclusion
+|vo_13_04_ascension      = 6
+|vo_13_04_file           = VO_{language}{character} Feelings About Ascension - 04.ogg
+|vo_13_04_tx             = Thank you so much! With this, I am now so much closer to my goal &mdash; allowing everyone to advance safely and navigate through rough terrain without any fear of fatigue or potential danger!
+}}
+
 ==Combat==
 {{Combat VO
 |character           = Mika
 
 <!-- Elemental Skill -->
-|skill_1_tx          = Precision strike!
-|skill_2_tx          = 
-|skill_3_tx          = 
+|skill_1_tx          = ''(Press)'' Providing cover fire.
+|skill_2_tx          = ''(Press)'' Engaging.
+|skill_3_tx          = ''(Press)'' Final warning.
+|skill_4_tx          = ''(Hold)'' Precision strike!
+|skill_5_tx          = ''(Hold)'' You had your chance!
+|skill_6_tx          = ''(Hold)'' Neutralizing threats!
 
 <!-- Elemental Burst -->
 |burst_1_tx          = Let's keep going, team!
-|burst_2_tx          = 
-|burst_3_tx          = 
+|burst_2_tx          = Leave the wounded to me!
+|burst_3_tx          = Now's our chance!
 
 <!-- Sprint Start -->
-|sprint-s_1_file     = Sprint Start 01<!--,Sprint Start 02,Sprint Start 03
+|sprint-s_1_file     = Sprint Start 01,Sprint Start 02,Sprint Start 03
 
 <!-- Sprint End -->
-|sprint-e_1_file     = Sprint End 01<!--,Sprint End 02,Sprint End 03
+|sprint-e_1_file     = 
 
 <!-- Deploying Wind Glider -->
-|glider_1_file       = Deploying Wind Glider 01<!--,Deploying Wind Glider 02,Deploying Wind Glider 03
+|glider_1_tx         = I'll be the eyes above...
+|glider_2_file       = Deploying Wind Glider 02,Deploying Wind Glider 03
 
 <!-- Opening Treasure Chest -->
-|chest_1_file        = Opening Treasure Chest 01
-|chest_1_tx          = 
-|chest_2_tx          = 
-|chest_3_tx          = 
+|chest_1_tx          = Scouting ahead has its benefits!
+|chest_2_tx          = What do we have here?
+|chest_3_tx          = Treasure located. Good work, everyone!
 
 <!-- Low HP -->
-|low-hp_1_file       = Low HP 01
-|low-hp_1_tx         = 
-|low-hp_2_tx         = 
-|low-hp_3_tx         =
+|low-hp_1_tx         = This is... a tight spot...
+|low-hp_2_tx         = Should we reconsider our tactics?
+|low-hp_3_tx         = The enemy is... quite strong.
+
+<!-- Ally Low HP -->
+|ally-low-hp_1_tx    = Fall back, I'll cover you!
+|ally-low-hp_2_tx    = You need medical attention...
 
 <!-- Fallen -->
-|fallen_1_file       = Fallen 01
-|fallen_1_tx         = 
-|fallen_2_tx         = 
-|fallen_3_tx         = 
+|fallen_1_tx         = Should have... tried to flank them...
+|fallen_2_tx         = I'm sorry... everyone...
+|fallen_3_tx         = No... I blew it...
 
 <!-- Light Hit Taken -->
-|hit-l_1_file        = Light Hit Taken 01<!--,Light Hit Taken 02,Light Hit Taken 03,Light Hit Taken 04,Light Hit Taken 05-->
-|hit-l_1_tx          =
-|hit-l_2_file        = 
+|hit-l_1_tx          = Hang in there!
+|hit-l_2_tx          = I'll be alright!
+|hit-l_3_file        = Light Hit Taken 03,Light Hit Taken 04,Light Hit Taken 05,Light Hit Taken 06
 
 <!-- Heavy Hit Taken -->
-|hit-h_1_file        = Heavy Hit Taken 01<!--,Heavy Hit Taken 02,Heavy Hit Taken 03,Heavy Hit Taken 04,Heavy Hit Taken 05-->
-|hit-h_1_tx          = 
+|hit-h_1_tx          = I'm fine... really!
+|hit-h_2_tx          = Keep your cool...
+|hit-h_3_file        = Heavy Hit Taken 03,Heavy Hit Taken 04,Heavy Hit Taken 05,Heavy Hit Taken 06
 
 <!-- Joining Party-->
-|join_1_file         = Joining Party 01
-|join_1_tx           = 
-|join_2_tx           =
-|join_3_tx           = 
+|join_1_tx           = Let me double check our equipment... alright, everything's ready.
+|join_2_tx           = My lance and crossbow are prepped and ready.
+|join_3_tx           = I&mdash;I'll take point and scout ahead!
 
 <!-- Character Idles -->
-|idle_1_file         = Standby 01
-|idle_1_actual_tx    = 
-|idle_2_actual_tx    = 
+|idle_1_actual_tx_s     = 
+|idle_1_actual_tx_t     = 
 
 <!-- Light Attack -->
-|atk-l_1_file        = Light Attack 01<!--,Light Attack 02,Light Attack 03,Light Attack 04,Light Attack 05,Light Attack 06,Light Attack 07-->
+|atk-l_1_file           = Light Attack 01,Light Attack 02,Light Attack 03,Light Attack 04,Light Attack 05,Light Attack 06,Light Attack 07
 
 <!-- Mid Attack -->
-|atk-m_1_file        = Mid Attack 01<!--,Mid Attack 02,Mid Attack 03-->
+|atk-m_1_file           = Mid Attack 01,Mid Attack 02,Mid Attack 03
 
 <!-- Heavy Attack -->
-|atk-h_1_file        = Heavy Attack 01<!--,Heavy Attack 02,Heavy Attack 03-->
+|atk-h_1_file           = Heavy Attack 01,Heavy Attack 02,Heavy Attack 03
 
 <!-- Climbing -->
-|climb_1_file        = Climbing 01<!--,Climbing 02,Climbing 03,Climbing 04,Climbing 05-->
+|climb_1_file           = Climbing 01,Climbing 02,Climbing 03
 
 <!-- Climbing Breath -->
-|climb-b_1_file      = Climbing Breath 01<!--,Climbing Breath 02,Climbing Breath 03-->
+|climb-b_1_file         = Climbing Breath 01,Climbing Breath 02,Climbing Breath 03
 
 <!-- Jumping -->
-|jump_1_file         = Jumping 01<!--,Jumping 02,Jumping 03,Jumping 04,Jumping 05-->
+|jump_1_file            = Jumping 01,Jumping 02,Jumping 03,Jumping 04,Jumping 05
 }}
 
 ==Navigation==
-{{Character Navbox|type=playable|link type=vo}}
+{{Character Navbox|VO}}
+
+[[es:Mika/Voz]]
+[[fr:Mika/Répliques]]
+[[it:Mika/Battute]]
+[[ja:ミカ/ボイス]]
+[[ru:Мика/Озвучка]]
+[[tr:Mika/Replikler]]

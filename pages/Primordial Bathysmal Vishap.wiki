@@ -12,6 +12,8 @@
 }}
 {{Enemy Intro}}
 
+One [[Local Legend]] Primordial Bathysmal Vishap, '''Cineas''', can be found in [[Machimos]].
+
 ==Drops==
 ===Items===
 {{Drops Table|type=Vishaps}}
@@ -30,6 +32,8 @@
 }}
 
 ==Stats==
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div style="width:min-content;">
+===Normal===
 {{Enemy Stats
 |phys_res  = 30%
 |hydro_res = 30%
@@ -38,35 +42,71 @@
 |hp_type   = 2
 |atk_ratio = 4
 }}
+</div><!--
+--><div style="width:min-content;">
+===Local Legend===
+{{Enemy Stats
+|phys_res  = 30%
+|hydro_res = 70%
+
+|res2       = Shielded
+|resglobal2 = 90%
+|phys_res2  = 110%
+|hydro_res2 = 150%
+
+|hp_ratio  = 54
+|hp_type   = 2
+|atk_ratio = 9
+|atk_type  = 2
+}}
+</div><!--
+--><div style="width:min-content;">
+===Battle-Hardened===
+{{Enemy Stats
+|phys_res  = 30%
+|hydro_res = 70%
+
+|res2       = Shielded
+|resglobal2 = 90%
+|phys_res2  = 110%
+|hydro_res2 = 150%
+
+|hp_ratio  = 10.8
+|hp_type   = 2
+|atk_ratio = 7
+|atk_type  = 2
+}}
+</div></div>
 
 ==Weak Point Location==
 <gallery>
 Primordial Bathysmal Vishap Weak Point.png
 </gallery>
 
-==Abilities and Attacks==
-''Attack names are unofficial except for Cleansing Shower.''
+==Abilities==
+''Ability names are unofficial except for Cleansing Shower.''
 
+===Normal===
 {{Enemy Attacks
 |name_1 = Cleansing Shower
 |desc_1 = Forms an orb within their mouth and launches it at the player. On hit, the orb deals '''50% ATK''' as {{Color|Hydro DMG}} and drains 10 [[Energy]] from the active character. If the active character has less than 10 Energy, inflicts [[HP Loss]].
-* The HP Loss is calculated as:<br /><math>\begin{align} \text{HP Loss} = {} & ( 14 \% \times \text{Max HP}_\text{Character} + 200 ) \\
+* The HP Loss is calculated as:<br><math>\begin{align} \text{HP Loss} = {} & ( 14 \% \times \text{Max HP}_\text{Character} + 200 ) \\
 & \times ( 1 - \frac{\text{Remaining Energy}}{10} ) \end{align}</math>
 
 |name_2 = Spinning Sweep
-|desc_2 = Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|AoE Hydro DMG}}.
+|desc_2 = Curls up and quickly spins, dealing '''30% ATK * 2''' as {{Color|Hydro DMG}}.
 
 |name_3 = Waterwheels
-|desc_3 = Forms 3 wheels of water at the tip of its tail before launching them in an arc at the player, dealing '''30% ATK''' as {{Color|Hydro DMG}} along their paths.
+|desc_3 = Forms 3 wheels of water at the tip of its tail before launching them at the player in a wide spread, dealing '''30% ATK''' as {{Color|Hydro DMG}} along their paths.
 
 |name_4 = Spike Field
-|desc_4 = Plugs its tail into the ground, creating a large field, within which water splashes from the ground at random locations, dealing '''60% ATK''' as {{Color|AoE Hydro DMG}}.
+|desc_4 = Plugs its tail into the ground, creating a large field around it within which water splashes from the ground at random locations, dealing '''60% ATK''' as {{Color|Hydro DMG}}. The player will be targeted by one of these once every 2 seconds if within the field.
 
 |name_5 = Slash Combo
 |desc_5 = If the player is within melee range, performs 2 horizontal slashes followed by a downward smash, dealing '''30% ATK''', '''50% ATK''', '''80% ATK''' respectively as {{Color|Physical DMG}} with each hit.
 }}
 
-===AI Logic===
+====AI Logic====
 {{See also|Cooldown#Enemy Cooldowns}}
 * An ability will only be used if all of the following conditions have been met:
 ** The ability is not on cooldown
@@ -81,23 +121,61 @@ Primordial Bathysmal Vishap Weak Point.png
 |-
 ! Group !! CD (s)
 |-
-| Cleansing Shower 1 || 5–25 || 2 || 10–15 || 1 || colspan="2" | — || rowspan="7" | 1.5
+| Cleansing Shower 1 || 5–25 || 2 || 10–15 || 1 || colspan="2" | &mdash; || rowspan="7" | 1.5
 |-
 | Cleansing Shower 2 || 0–35 || 1 || 5–10 || 1 || Ranged || 5
 |-
-| Slash Combo || 0–5 || 4 || 10 || 5 || colspan="2" | —
+| Slash Combo || 0–5 || 4 || 10 || 5 || colspan="2" | &mdash;
 |-
-| Spinning Sweep || 0–5 || 2 || 5–7.5 || — || colspan="2" | —
+| Spinning Sweep || 0–5 || 2 || 5–7.5 || &mdash; || colspan="2" | &mdash;
 |-
-| Waterwheels 1 || 7–15 || 2 || 5–10 || — || colspan="2" | —
+| Waterwheels 1 || 7–15 || 2 || 5–10 || &mdash; || colspan="2" | &mdash;
 |-
-| Waterwheels 2 || 7–25 || 2 || 2.5–5 || — || colspan="2" | —
+| Waterwheels 2 || 7–25 || 2 || 2.5–5 || &mdash; || colspan="2" | &mdash;
 |-
-| Spike Field || 0–15 || 1 || 30–35 || 15 || colspan="2" | —
+| Spike Field || 0–15 || 1 || 30–35 || 15 || colspan="2" | &mdash;
 |}
 
+===Local Legend===
+{{Enemy Attacks
+|enemy = Primordial Bathysmal Vishap Local Legend
+
+|name_1 = Cleansing Shower
+|desc_1 = Launches 3 orbs. On hit, an orb deals '''20% ATK''' as {{Color|Hydro DMG}} and drains 30 [[Energy]] from the active character. If the active character has less than 30 Energy, inflicts [[HP Loss]].
+* The HP Loss is calculated as:<br><math>\begin{align} \text{HP Loss} = {} & ( 20 \% \times \text{Max HP}_\text{Character} + 200 ) \\
+& \times ( 1 - \frac{\text{Remaining Energy}}{30} ) \end{align}</math>
+
+|name_2 = Cleansing Burst
+|desc_2 = Launches 6 orbs in quick succession. On hit, an orb deals '''20% ATK''' as {{Color|Hydro DMG}} and drains 20 Energy from the active character. If the active character has less than 20 Energy, inflicts HP Loss.
+* The HP Loss is calculated as:<br><math>\begin{align} \text{HP Loss} = {} & ( 15 \% \times \text{Max HP}_\text{Character} + 150 ) \\
+& \times ( 1 - \frac{\text{Remaining Energy}}{20} ) \end{align}</math>
+
+|name_3 = Cleansing Field
+|desc_3 = Gains a {{Hydro}} shield and summons a field with a '''6.5m''' radius around itself, increasing all RES by 80%.
+* Every 0.5 seconds, the field will drain 10 Energy from active characters within it. If the active character has less than 10 Energy, inflicts HP Loss.
+** The HP Loss is calculated as:<br><math>\begin{align} \text{HP Loss} = {} & ( 10 \% \times \text{Max HP}_\text{Character} + 100 ) \\
+& \times ( 1 - \frac{\text{Remaining Energy}}{10} ) \end{align}</math>
+* The shield can be destroyed using [[Elemental Reaction]]s and is weakest to {{Dendro}}. When destroyed, the Bathysmal Vishap will be paralyzed for a short duration, and both the field and increased RES are removed. {{Elemental Shield Data|Hydro|16}}
+
+|name_4 = Spinning Sweep
+|desc_4 = Curls up and quickly spins, dealing '''50% ATK * 2''' as {{Color|Hydro DMG}}.
+
+|name_5 = Slash Combo
+|desc_5 = If the player is within melee range, performs 2 horizontal slashes followed by a downward smash, dealing '''40% ATK''', '''60% ATK''', '''100% ATK''' respectively as {{Color|Hydro DMG}} with each hit.
+}}
+
+==Achievements==
+{{Achievement Topic Table|topic=Primordial Bathysmal Vishap}}
+
+==Tutorials==
+{{Tutorial|Primordial Bathysmal Vishap}}
+
 ==Descriptions==
-{{Description|A vishap that dwells deep beneath the oceans.<br />They were once the dominant race in the depths - and indeed, dragons were the overlords of the whole world in an even earlier age. But their former seven Sovereigns were defeated by a power from the heavens, withering one by one.|[[Archive]]}}
+{{Description|A vishap that dwells deep beneath the oceans.<br>They were once the dominant race in the depths &mdash; and indeed, dragons were the overlords of the whole world in an even earlier age. But their former [[Seven Sovereigns]] were defeated by a [[Heavenly Principles|power from the heavens]], withering one by one.|[[Archive]], before {{Quest|Within the Depths of Erinnyes}}}}
+{{Description|A vishap that dwells deep beneath the abyssal depths.<br>They were once the dominant race in the depths &mdash; and indeed, dragons were the overlords of the whole world in an even more ancient age. But their former Seven Sovereigns were defeated by a power from the heavens, withering one by one.<br>Recently, vishaps have appeared away from the depths. While they may have trouble assimilating in a world ruled by humans, this is still their world.|Archive, after {{Quest|Within the Depths of Erinnyes}}}}
+
+==Trivia==
+*Unlike other [[Local Legend|Veteran]] variants, the Primordial Bathysmal Vishap is referred to as '''Battle-Hardened Primordial Bathysmal Vishap - Deep Sea-Dwelling Beast'''.
 
 ==Gallery==
 <gallery>
@@ -116,14 +194,13 @@ Enemy Primordial Bathysmal Vishap Icon.png|Icon
 |ja_rm   = Abisaru Vishappu - Genshu{{Assumed}}
 |ja_tl   = Abyssal Vishap - Original Breed
 |ko      = 심해 용 도마뱀・원종
-|ko_rm   = Simhae Yong Domabaem - Wonjong
 |ko_tl   = Deep Sea {{Lex|Vishap|ko}} - Protoplast
 |es      = Dragarto de las Profundidades Primordial
 |es_tl   = Primordial {{Lex|Vishap|es}} of the Depths
 |fr      = Élémentosaure abyssal primordial
 |fr_tl   = Primordial Abyssal {{Lex|Vishap|fr}}
 |ru      = Вишап глубин: Исток
-|ru_tl   = Vishap of the Depths: Origin
+|ru_tl   = {{Lex|Bathysmal Vishap|ru}}: Origin
 |th      = Primordial Bathysmal Vishap
 |vi      = Rồng Biển Sâu - Nguyên Thủy
 |vi_tl   = Deep Sea {{Lex|Vishap|vi}} - Primordial
@@ -133,9 +210,9 @@ Enemy Primordial Bathysmal Vishap Icon.png|Icon
 |pt      = Dragarto das Profundezas Primordial
 |pt_tl   = <!--use {{Lex|Vishap|pt}}-->
 |tr      = Ezeli Su Ejderi
-|tr_tl   = 
+|tr_tl   = Eternal Water Dragon 
 |it      = Elementosauro abissale primordiale
-|it_tl   = 
+|it_tl   = Primordial Abyssal {{Lex|Vishap|it}}
 }}
 
 ==Change History==
@@ -143,9 +220,12 @@ Enemy Primordial Bathysmal Vishap Icon.png|Icon
 
 ==Navigation==
 {{Enemy Navbox|elite}}
+{{Enemy Navbox|Special}}
 
 [[de:Tiefsee-Drachenechse: Urtyp]]
 [[es:Dragarto de las Profundidades Primordial]]
+[[fr:Élémentosaure abyssal primordial]]
+[[ja:アビサルヴィシャップ・原種]]
 [[pt-br:Dragarto das Profundezas Primordial]]
 [[uk:Первісний вішап глибин]]
 [[vi:Rồng Biển Sâu - Nguyên Thủy]]

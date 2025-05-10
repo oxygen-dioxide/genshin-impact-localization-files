@@ -1,0 +1,294 @@
+{{Enemy Infobox
+|title    = Icewind Suite: Duality, Side A;Icewind Suite: Duality, Side B
+|dmgtype  = Anemo
+|dmgtype2 = Cryo
+|image    = Enemy Icewind Suite.png
+|area     = Court of Fontaine Region
+|region   = Fontaine
+|type     = Normal Bosses
+|family   = Automatons
+|group    = Clockwork Meka
+|drops    = Artificed Spare Clockwork Component — Coppelia,Artificed Spare Clockwork Component — Coppelius
+|weakpoint = no
+}}
+{{Enemy Intro}}
+
+There are 2 versions of this challenge, '''"Dirge of Coppelia"''' and '''"Nemesis of Coppelius,"''' each with a different set of abilities and rewards. The challenge can be initiated by talking to [[Maillardet]] and choosing either version.
+
+==Drops==
+===Items===
+===="Dirge of Coppelia"====
+{{World Boss Rewards
+|gem         = Vayuda Turquoise
+|exclusive   = Artificed Spare Clockwork Component — Coppelia
+|sets        = Berserker,Instructor,The Exile,Lucky Dog,Prayers to Springtime,Gladiator's Finale,Wanderer's Troupe
+}}
+
+===="Nemesis of Coppelius"====
+{{World Boss Rewards
+|gem         = Shivada Jade
+|exclusive   = Artificed Spare Clockwork Component — Coppelius
+|sets        = Berserker,Instructor,The Exile,Lucky Dog,Prayers to Springtime,Gladiator's Finale,Wanderer's Troupe
+}}
+
+===Energy===
+{{Energy Drops
+|hp1   = 75
+|o1    = 1
+|hp2   = 50
+|o2    = 1
+|hp3   = 25
+|o3    = 1
+|hp4   = 0
+|o4    = 1
+|p4    = 3
+}}
+
+==Stats==
+{{Enemy Stats
+|cryo_res     = 70%
+|anemo_res    = 70%
+
+|res2         = Beginning of Fight
+|resglobal2   = 310%
+|cryo_res2    = 370%
+|anemo_res2   = 370%
+
+|res3         = Coppelia's Climax
+|resglobal3   = 35%
+|cryo_res3    = 95%
+|anemo_res3   = 95%
+
+|hp_ratio     = 15
+|hp_type      = 2
+|atk_ratio    = 5
+|atk_type     = 2
+}}
+
+==Abilities==
+==="Dirge of Coppelia"===
+{{Enemy Attacks
+|name_1      = Double Spin
+|desc_1      = Coppelia and Coppelius each performs a melee attack with their fan and cape, dealing '''60% ATK''' as {{Color|Anemo DMG}} and {{Color|Cryo DMG}}.
+
+|name_2      = Stationary Lift
+|desc_2      = Coppelius skates in a small circle, dealing '''70% ATK''' as {{Color|Cryo DMG}} and leaving a trail of ice shards. The ice shards detonate shortly after, dealing '''80% ATK''' as {{Color|Cryo DMG}}.
+
+|name_3      = Glacial Flourish
+|desc_3      = Coppelius raises his cane before tapping it on the ground, sending out a trail of ice, dealing '''80% ATK''' as {{Color|Cryo DMG}}.
+
+|name_4      = Shard Spray
+|desc_4      = Coppelius spins his cane to shoot forward many icicles, each dealing '''75% ATK''' as {{Color|Cryo DMG}}.
+
+|name_5      = Coppelia's Climax
+|desc_5      = Coppelia and Coppelius move to the center of the arena and initiate Climax. Climax will trigger when 30 seconds have passed since the beginning of the fight or the last Climax, upon reaching '''71%''' of their Max [[HP]], or at the beginning of the fight while in the [[Spiral Abyss]].
+* Three Whirlwinds of Dirge will spawn on the arena and slowly move in a clockwise direction.
+** Whirlwinds of Dirge are initially Anemo-infused. However, if hit by Coppelius's ice blades, they will become Cryo-infused.
+** Anemo-infused whirlwinds deal '''15% ATK''' as {{Color|Anemo DMG}} every 0.5 seconds and continuously [[Vacuum Field|drags]] players towards the center.
+** Cryo-infused whirlwinds deal '''25% ATK''' as {{Color|Cryo DMG}} and {{Color|Anemo DMG}} simultaneously every 0.5 seconds.
+* Coppelia will perform the following sequence of attacks, dealing {{Color|Anemo DMG}}:
+** 2 swipes with her fan ('''60% ATK''', '''60% ATK''', second hit deals half DMG if first hit lands)
+** A pulse of wind ('''90% ATK''')
+** 2 swipes with her fan ('''92% ATK''', '''92% ATK''', second hit deals half DMG if first hit lands)
+** 2 pulses of wind ('''90% ATK''', '''90% ATK''')
+* Coppelius will perform the following sequence of attacks, dealing {{Color|Cryo DMG}}:
+** 2 swings of his cane ('''60% ATK''',  '''60% ATK''')
+** Skates in a small circle, dealing DMG to players in his path, then skates to the edge of the arena ('''80% ATK''')
+** Fires 2 ice blades at the player after a bow ('''100% ATK''', '''100% ATK''', second hit deals 0.25× DMG if first hit lands)
+** Skates in a full circle around the arena, dealing DMG to players in his path, then returns to Coppelia ('''40% ATK''')
+* The above sequences will repeat 3 times if Climax is not interrupted.
+* During Climax, the duo will increase their [[RES]] to all DMG by '''25%''' during every sequence. Hitting them with a {{Pneuma}} attack will remove this RES increase. Additionally, the pulses of wind released by Coppelia will have a much smaller AoE and have their DMG reduced to '''60% ATK'''. Hitting them with 3 {{Pneuma}} attacks during a single Climax will interrupt the Climax and stun the duo for a short period of time.
+|file_5_2     = Icewind Suite Coppelia's Climax 2
+|file_5_3     = Icewind Suite Coppelia's Climax 3
+|caption_5_3  = Stunned
+|file_5_4     = Icewind Suite Coppelia's Climax 4
+|caption_5_4  = Stunned While Separated
+}}
+
+==="Nemesis of Coppelius"===
+{{Enemy Attacks
+|name_1      = Double Spin
+|desc_1      = Coppelia and Coppelius each performs a melee attack with their fan and cape, dealing '''60% ATK''' as {{Color|Anemo DMG}} and {{Color|Cryo DMG}}.
+
+|name_2      = Death Spiral
+|desc_2      = Coppelius spins Coppelia around himself, dealing '''30% ATK × 5''' as {{Color|Anemo DMG}}.
+
+|name_3      = Throw Jump
+|desc_3      = Coppelius throws Coppelia airborne, who deals '''60% ATK''' as {{Color|Anemo DMG}} upon landing before returning to Coppelius while rapidly spinning, dealing '''15% ATK''' as {{Color|Anemo DMG}} every 0.3s to players that come in contact.
+
+|name_4      = Salchow Jump
+|desc_4      = Coppelia shoots 3 orbs at the player with her fan, each dealing '''75% ATK''' as {{Color|Anemo DMG}}.
+
+|name_5      = Coppelius's Climax
+|desc_5      = Coppelia and Coppelius move to the center of the arena and initiate Climax. Climax will trigger when 30 seconds have passed since the beginning of the fight or the last Climax, upon reaching '''71%''' of their Max [[HP]], or at the beginning of the fight while in the [[Spiral Abyss]].
+* Three Retributive Frosthearts will spawn. They will periodically unleash a blast, dealing '''60% ATK''' as {{Color|Cryo DMG}}.
+* Coppelius will perform the following sequence of attacks, dealing {{Color|Cryo DMG}}:
+** 3 sweeps with his cape ('''90% ATK''', '''90% ATK''', '''100% ATK''', subsequent hits will deal 0.2× DMG if first or second hit lands)
+** Gains a {{Frozen}} [[Shield/Enemy|shield]]. The shield can be damaged normally using [[Elemental Reaction]]s, but will also immediately break upon being hit by an {{Ousia}} attack.{{Elemental Shield Data|Cryo|8}}
+** Swings his cane, skates in a small circle, then sweeps with his cape ('''100% ATK''', '''100% ATK''', '''100% ATK''', subsequent hits will deal 0.2× DMG if first or second hit lands)
+* Coppelia will perform the following sequence of attacks, dealing {{Color|Anemo DMG}}:
+** Fires 3 wind blades at the player ('''100% ATK''', '''100% ATK''', '''100% ATK''')
+** Spins as she returns to Coppelius ('''25% ATK''' per 0.3s)
+* The above sequences will repeat 3 times if Climax is not interrupted.
+* Hitting the duo with 3 {{Ousia}} attacks during a single Climax will interrupt the Climax and stun them for a short period of time.
+|file_5_2     = Icewind Suite Coppelius's Climax 2
+|file_5_3     = Icewind Suite Coppelius's Climax 3
+|caption_5_3  = Stunned
+|file_5_4     = Icewind Suite Coppelius's Climax 4
+|caption_5_4  = Stunned While Separated
+}}
+
+==Achievements==
+{{Achievement Topic Table|topic=Icewind Suite|requirements=1}}
+
+==Gear and Clockwork Roundelay==
+{{Description|A gift from the Fontaine Research Institute, this frosty performance is put on by exquisite clockwork meka. Upon the garden dance floor on the north side of Erinnyes, Coppelius and Coppelia are waiting for anyone willing to join in their eternal waltz.<br><br>{{Color|help|Your decisions when speaking with Maillardet will determine if you will challenge the Ousia "Dirge of Coppelia" or the Pneuma "Nemesis of Coppelius," as well as the [[Character Ascension Material]]s obtained from the [[Ley Line Blossom]] after completing the challenge.}}}}
+[[File:Gear and Clockwork Roundelay.png|400px]]
+
+==Tutorials==
+{{Tutorial|Icewind Suite Drops; Icewind Suite: Dirge of Coppelia; Icewind Suite: Nemesis of Coppelius}}
+
+==Descriptions==
+{{Description|A gift from the [[Fontaine Research Institute]], it is composed of two pieces, Dirge of Coppelia and Nemesis of Coppelius.<br><br>{{Color|bp|The dialogue choices selected determine the challenge and the reward attributes.}}|[[Adventurer Handbook]]}}
+{{Description|Artificed Dancers developed by the Fontaine Research Institute.<br>[[Bossuet]] originally intended for Artificed Dancers to be works of art that transcended the era of mechanical reproduction. But after Bossuet was forced to resign, the project was taken over by [[Maillardet]], who had his own unique understanding of what he wanted to achieve. As a result, while their features were perfected during the course of its development, the Artificed Dancers gradually strayed from Bossuet's original vision.|[[Archive]]}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=combat}}
+
+==Gallery==
+<gallery>
+Icewind Suite Icon.png|Icon
+Genshin Impact × SUI-HAN - Collaboration Video
+Ride the Waves to a Rendezvous in Fontaine Icewind Suite Concept Art.png|Concept Art
+Ride the Waves to a Rendezvous in Fontaine Icewind Suite Early Creative Drafts.png|Early Creative Drafts
+Ride the Waves to a Rendezvous in Fontaine Icewind Suite Animation Design.png|Animation Design
+Namecard Background Achievement Perpetual.png|[[Achievement: Perpetual]]
+</gallery>
+
+==Trivia==
+* The in-game Icewind Suite ballet was created by [[Bossuet]], with Coppelia and Coppelius being modeled after the roles of Claire and Lothair.
+* The Icewind Suite are currently the only boss in-game which are not aggressive towards players in their arena in the overworld; the fight is only initiated upon talking to [[Maillardet]]. They are also the only Normal Boss with a canonical reason for "respawning"; attempting to start the fight again before they have respawned will result in Maillardet stating that they are undergoing repairs.
+* The Icewind Suite makes use of two distinct death animations upon being defeated:
+** If the Icewind Suite is defeated with both meka together, Coppelia will drop onto Coppelius' arms, while Coppelius will grab her and tilt its head down.
+** If the Icewind Suite is defeated while separated, Coppelia will drop onto the ground.
+===Etymology===
+* Coppelia and Coppelius are two characters that appear in the ballet ''{{w|Coppélia}}'', in which Dr. Coppelius creates Coppelia, a mechanical doll so lifelike that it is mistaken for a real woman.
+
+==Video Guides== 
+{{EVT 
+|video1   = https://youtu.be/u-hV5fm-HPE
+|caption1 = How to EASILY Beat Icewind Suite in Genshin Impact - Free to Play Friendly!
+
+|video2   = https://youtu.be/_d2F_1QoKZQ
+|caption2 = EVERYTHING You Need to Know about Icewind Suite - Detailed Boss Guide
+}}
+
+==Other Languages==
+{{Other Languages
+|1_en      = Icewind Suite
+|1_zhs     = 冰风组曲
+|1_zhs_rm  = Bīngfēng Zǔqǔ
+|1_zht     = 冰風組曲
+|1_zht_rm  = Bīngfēng Zǔqǔ
+|1_zh_tl   = Ice and Wind {{w|Suite (music)|Suite}}
+|1_ja      = 氷風組曲
+|1_ja_rm   = Hyoufuu Kumikyoku{{Assumed}}
+|1_ja_tl   = Ice and Wind Suite
+|1_ko      = 얼음 바람 모음곡
+|1_ko_tl   = Ice Wind Suite
+|1_es      = Suite Criocéfiro
+|1_es_tl   = Cryo Zephyr Suite
+|1_fr      = Suite cryolienne
+|1_fr_tl   = Cryolian Suite
+|1_fr_note = Portmanteau of [[Cryo]] and {{Fr|éolienne|aeolian.}} {{Fr|Cryolienne}} is almost an anagram of {{w|crinoline}} (replacing ''Y'' with ''I'', and removing an ''E''), fitting with Coppelia's outfit.
+|1_ru      = Сюита ледяного ветра
+|1_ru_tl   = Icewind Suite
+|1_th      = Icewind Suite
+|1_vi      = Liên Khúc Gió Băng
+|1_vi_tl   = Ice and Wind {{w|Medley (music)|Medley}}
+|1_de      = Eiswind-Suite
+|1_de_tl   = Icewind Suite
+|1_id      = Icewind Suite
+|1_pt      = Suíte Criozéfira
+|1_pt_tl   = 
+|1_tr      = Buzul Rüzgarı Süiti
+|1_tr_tl   = Icy Wind Suite
+|1_it      = Suite del Vento glaciale
+|1_it_tl   = Icewind Suite
+
+|2_en      = "Dirge of Coppelia"
+|2_zhs     = 「歌裴莉娅的葬送」
+|2_zhs_rm  = "Gēpéilìyà de Zàngsòng"
+|2_zht     = 「歌裴莉婭的葬送」
+|2_zht_rm  = "Gēpéilìyà de Zàngsòng"
+|2_zh_tl   = "Coppelia's Funeral"
+|2_ja      = 「コッペリアの葬送」
+|2_ja_rm   = "Kopperia no Sousou"
+|2_ja_tl   = "Coppelia's Funeral"
+|2_ko      = 「코펠리아<->의 장송」
+|2_ko_tl   = "Coppelia's Funeral"
+|2_es      = Funeral de Coppélia
+|2_es_tl   = Funeral of Coppelia
+|2_fr      = «&nbsp;Inhumation de Coppelia&nbsp;»
+|2_fr_tl   = "Burial of Coppelia"
+|2_ru      = «Погребение Коппелии»
+|2_ru_tl   = "Burial of Coppelia"
+|2_th      = "ฝังมรณะแห่ง Coppelia"
+|2_th_rm   = 
+|2_th_tl   = 
+|2_vi      = "Bi Ca Của Coppelia"
+|2_vi_tl   = 
+|2_de      = „Coppelias Begräbnis“
+|2_de_tl   = "Coppelia's Burial"
+|2_id      = "Dirge of Coppelia"
+|2_pt      = "Inumação de Coppelia"
+|2_pt_tl   = 
+|2_tr      = "Coppelia'nın Cenazesi"
+|2_tr_tl   = "Coppelia's Funeral"
+|2_it      = Trenodia di Coppelia
+|2_it_tl   = Threnody of Coppelia
+
+|3_en      = "Nemesis of Coppelius"
+|3_zhs     = 「科培琉司的劫罚」
+|3_zhs_rm  = "Kēpéiliúsī de Jiéfá"
+|3_zht     = 「科培琉司的劫罰」
+|3_zht_rm  = "Kēpéiliúsī de Jiéfá"
+|3_zh_tl   = 
+|3_ja      = 「コペリウスの劫罰」
+|3_ja_rm   = "Koperiusu no Goubatsu"
+|3_ja_tl   = 
+|3_ko      = 「코펠리우스<->의 겁벌」
+|3_ko_tl   = "Coppelius' Nemesis"
+|3_es      = Condena de Coppélius
+|3_es_tl   = Condemnation of Coppelius
+|3_fr      = «&nbsp;Châtiment de Coppelius&nbsp;»
+|3_fr_tl   = "Punishment of Coppelius"
+|3_ru      = «Воздаяние Коппелиуса»
+|3_ru_tl   = "Retribution of Coppelius"
+|3_th      = "ทัณฑ์นิรันดร์ของ Coppelius"
+|3_th_rm   = 
+|3_th_tl   = 
+|3_vi      = "Quả Báo Của Coppelius"
+|3_vi_tl   = 
+|3_de      = „Coppelius’ Bestrafung“
+|3_de_tl   = "Coppelius's Punishment"
+|3_id      = "Nemesis of Coppelius"
+|3_pt      = "Castigo de Coppelius"
+|3_pt_tl   = 
+|3_tr      = "Coppelius'un İntikamı"
+|3_tr_tl   = "Coppelius's Vengeance"
+|3_it      = Nemesi di Coppelius
+|3_it_tl   = Nemesis of Coppelius
+}}
+
+==Change History==
+{{Change History|4.0}}
+
+==Navigation==
+{{Enemy Navbox|Bosses}}
+
+[[es:Suite Criocéfiro]]
+[[fr:Suite cryolienne]]
+[[ja:氷風組曲]]
+[[pt-br:Suíte Criozéfira]]
+[[zh:冰風組曲]]

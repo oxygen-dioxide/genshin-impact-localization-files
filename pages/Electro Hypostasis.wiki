@@ -1,3 +1,7 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Design
+}}
 {{Enemy Infobox
 |title    = Aleph
 |dmgtype  = Electro
@@ -6,11 +10,15 @@
 |family   = Elemental Lifeforms
 |group    = Hypostases
 |image    = Enemy Electro Hypostasis.png
-|location = [[Cape Oath]], [[Mondstadt]]
+|subarea  = Cape Oath
+|area     = Galesong Hill
+|region   = Mondstadt
 |ability1 = Healing
 |ability2 = Invincibility Frames
 |ability3 = Energy Generation
+|ability4 = Teleport
 |drops    = Lightning Prism
+|variants = Pure Electro Hypostasis
 }}
 {{Enemy Intro}}
 
@@ -43,18 +51,19 @@
 |hp_type      = 1
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 For most of the attacks below, the core will be exposed for a few seconds after the boss uses the attack. Use this opportunity to deal damage to the boss.
 {{Enemy Attacks
-|name_1 = Missiles
+|name_1 = Electro Crystal Projection
 |desc_1 = Flies into the air and forms a rhombus with its shell pieces, firing two each for a total of four attacks, dealing '''25% ATK''' as {{Color|Electro DMG}} on hit. The core will be exposed during this attack.
+|file_1 = Electro Hypostasis Missiles
 
 |name_2 = Clap
-|desc_2 = Quickly flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} in front of the wall.
+|desc_2 = Quickly flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|Electro DMG}} in front of the wall.
 
-|name_3 = Rock, Scissors, Paper
-|desc_3 = Flies next to the player and turns into a giant fist, punching in the player's direction. Then, turns into giant scissors and deals damage in a "cutting" motion. Finally, turns into a giant hand and slaps the ground in front of it. Sometimes only performs 1 or 2 of the attacks, but will always perform them in the given order. This attack deals '''75% ATK''', '''75% ATK''', and '''100% ATK''' {{Color|AoE Electro DMG}}.
+|name_3 = Rock-Paper-Scissors Combo
+|desc_3 = Performs a telegraphed 3-hit combo consisting of a forward punch, a "cutting" attack as a pair of scissors, and a ground slap with a giant hand. Sometimes, only the punch is performed, in which case the telegraph does not appear. This attack deals '''75% ATK''', '''75% ATK''', and '''100% ATK''' {{Color|Electro DMG}}.
 |file_3 = Electro Hypostasis Rock Scissors Paper
 
 |name_4 = Drill
@@ -63,14 +72,16 @@ For most of the attacks below, the core will be exposed for a few seconds after 
 |name_5 = Tremors
 |desc_5 = Moves to the center of the arena and forms a spinning dome formation with its shell while sending out many small waves of shell pieces, dealing '''75% ATK''' as {{Color|Electro DMG}} on hit. When this attack ends, an Electro [[Energy|Energy Orb]] will be generated.
 
-|name_6 = Cage
-|desc_6 = Sends shell pieces into the sky and rains them down in an octagon formation around the player, dealing '''100% ATK''' as {{Color|AoE Electro DMG}} and trapping them, before raining lightning in the cage, dealing '''50% ATK''' as {{Color|AoE Electro DMG}}. The core will be exposed during this attack. Dash toward the first pillar, and then out of the cage before the complete cage is formed. The pillars can also be destroyed using elemental reactions as a means of escape. This attack is usually performed only when the player takes too long to defeat the Electro Hypostasis.
+|name_6 = Lightning Lockdown
+|desc_6 = Sends shell pieces into the sky and rains them down in an octagon formation around the player, dealing '''100% ATK''' as {{Color|Electro DMG}} and trapping them, before raining lightning in the cage, dealing '''50% ATK''' as {{Color|Electro DMG}}. The core will be exposed during this attack. Dash toward the first pillar, and then out of the cage before the complete cage is formed. The pillars can also be destroyed using elemental reactions as a means of escape. This attack is usually performed only when the player takes too long to defeat the Electro Hypostasis.
 {{Elemental Shield Data|Electro|4.4|Cage Pillar|noec=1}}
+|file_6 = Electro Hypostasis Cage
 
 |name_7 = Rotating Lasers
-|desc_7 = Forms a ring around its core with its shell pieces and fires lasers out in 4 directions. The ring will then rotate, the lasers moving with it, dealing '''40% ATK''' as {{Color|Electro DMG}} on hit. When the lasers turn off, the shell pieces quickly converge on the core, dealing '''100% ATK''' as {{Color|AoE Electro DMG}}. Sprint in a circle close to the ring, or dash through the lasers to dodge them. Alternatively, stand '''inside''' the ring to dodge the lasers, but make sure to leave the ring before the pieces converge (indicated by the ground rune disappearing). The core will be exposed during this attack, allowing the player to safely continue damaging the Hypostasis for a duration. When this attack ends, an Electro [[Energy|Energy Orb]] will be generated.
+|desc_7 = Forms a ring around its core with its shell pieces, dealing '''100% ATK''' as {{Color|Electro DMG}} and begins firing lasers out in 4 directions. The ring will then rotate, moving the lasers with it, dealing '''40% ATK''' as {{Color|Electro DMG}} on hit. When the lasers turn off, the shell pieces quickly converge on the core, dealing '''100% ATK''' as {{Color|Electro DMG}}. The inside of the ring is completely safe, and the core is exposed for the full duration of this attack. When this attack ends, an Electro [[Energy|Energy Orb]] will be generated.
 
-|name_8 = Rebirth
+|name_8 = Absorbing Prism
+|file_8 = Electro Hypostasis Rebirth
 |desc_8 = When HP is low (approx. 5%), teleports to the center of the arena and forms 3 Revival Prisms, which can only be damaged using elemental reactions. After 15 seconds, absorbs the Prisms and heals for '''15%/35%/50%''' of its HP for '''1/2/3''' prisms absorbed. If a Prism is destroyed, it does not add to the healing and does not respawn next time the Electro Hypostasis uses Rebirth. When the player destroys all three Electro Prisms, the Electro Hypostasis dies immediately. Destroying a Revival Prism will generate an Electro [[Energy|Energy Orb]].
 {{Elemental Shield Data|Electro|3|Revival Prism|noec=1}}
 }}
@@ -88,61 +99,25 @@ When the boss reaches critical health, it will create three Prisms in an attempt
 ==Achievements==
 {{Achievement Topic Table|topic=Electro Hypostasis}}
 
+==Tutorials==
+{{Tutorial|Electro Hypostasis}}
+
 ==Descriptions==
-{{Description|Code name: Aleph. A high-purity Electro entity.<br />Elemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.<br />Elemental hypostases have developed defensive mechanisms based on their elemental attributes.|[[Adventurer Handbook]]}}
-{{Description|Code name: Aleph. A high-purity [[Electro]] entity.<br />Elemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.<br />Elemental hypostases have developed various attacks based on their elemental attributes.|[[Archive]]}}
+{{Description|Code name: Aleph. A high-purity Electro entity.<br>Elemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.<br>Elemental hypostases have developed defensive mechanisms based on their elemental attributes.|[[Adventurer Handbook]]}}
+{{Description|Code name: Aleph. A high-purity [[Electro]] entity.<br>Elemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.<br>Elemental hypostases have developed various attacks based on their elemental attributes.|[[Archive]]}}
 
 ==Trivia==
 * Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Aleph"|he=א|he_rm=Alef}} being named after the first.
 * The Pure variant of the Electro Hypostasis makes an appearance in [[Kannazuka]], [[Inazuma]], during [[Sakura Arborism]].
-
-==Developer Insight==
-'''[https://genshin.hoyoverse.com/en/news/detail/2981 "Paper, Scissors, Rock" &mdash; Requires a turn-based approach]'''
-
-We hope Travelers will be able to adapt to the attack and fortification cycle and use the right moments during the fortification to deal damage. As such, Travelers will need to move fast while the Hypostasis is attacking, and then fiercely counter-attack afterward.
-
-In order to achieve this, we utilized close-range attack methods. During combat planning in July 2019, we decided to give it a "Rock, Scissors, Paper" close-range combo attack. Each of the three stages was to have a slightly varied range, direction, and preparation movement in order to make it harder for Travelers to grow accustomed to, and simultaneously require appropriate yet varied evasion maneuvers
-<gallery>
-Developer Insight Electro Hypostasis 2.gif
-Developer Insight Electro Hypostasis 3.gif
-</gallery>
-In order to increase the intensity, we then decided to allow the Hypostasis to randomize its attacks. Later iterations were then also allowed to seamlessly string together any of the three "Paper, Scissors, Rock" attack types, so be careful when you come across one, as it may perform the exact same move twice in a row! _(:з)∠)_
-
-Based on this design, mindless attacking or long-range aimed shots are bound to get you killed. This is intentional, so as to switch up the tempo and prevent Travelers from just using one character to simply smash the Hypostasis to death.
-----
-'''"Rotating Lazer" &mdash; Designed to end continuous dodging'''
-
-We hope that when Travelers come across a Hypostasis, they don't have to start learning its combat mechanics from scratch, but also cannot simply use dodges to evade everything it throws at them. So, the Hypostasis was also given an attack that is often seen in other creatures or traps that can't simply be dealt with by dodging.
-
-To give an example, when Travelers first come across [[Kaeya]] and enter the [[Temple of the Wolf]] with him, they come across a [[Flamethrowers|flamethrower]] that breathes fire across your path. Sure, you can try to sprint right through it and take the damage, but it's smarter to use Kaeya's [[Frostgnaw|Elemental Skill]] to freeze the flamethrower's core temporarily. Other locations feature flamethrowers that breathe fire in four directions, making simply dodging through the flames very dangerous. These past experiences should allow Travelers to at least have a vague idea of how to deal with the "Rotating Lazer" attack.
-
-We hope this inherited design will get Travelers to try a methodical and tactical approach to taking on the Hypostasis, given that its "Rotating Lazer" attack is another step up from the four-way [[flamethrower]].<br />
-1. The Hypostasis cannot simply be stopped with elemental reactions unless it has gone into its "Rebirth" formation.<br />
-2. The lasers can be blocked by obstacles made from Geo.<br />
-3. Once the lasers have ended, and the cubic components have yet to come back together, the entire area becomes completely safe for a brief while.<br />
-4. The lasers do heavy damage, and may even launch Travelers, to prevent them from quickly dodging through the lasers.
-<gallery>
-Developer Insight Flamethrower.gif
-Developer Insight Electro Hypostasis 4.gif
-</gallery>
-----
-'''"Rebirth"'''
-
-As was just mentioned, when the Hypostasis' health drops it may enter a "Rebirth" cycle. Hypostasis can't be thrashed around, only blown apart at best, and unless they are out of energy, they can then enter a "Rebirth" cycle.
-
-As such, when Electro Hypostases are defeated, they don't simply die, and instead split themselves off into separate crystal chunks. If these chunks are not destroyed in time, then the Hypostasis will be reborn with health corresponding to the number of chunks that remained when time ran out. By using the appropriate corresponding elements, Travelers can drain these crystal chunks of their energy and destroy them.
-----
-It was October 2019 when the Electro Hypostasis first came off the production line. The first time it was given to internal testing teams, there was a wave of disgusted cussing, given the number of ways in which the Hypostasis was driving them nuts:<br />
-1. The earliest version of the Electro Hypostasis gave an opening of no more than five seconds, with a high frequency of attacks, making it absolutely demonic to try to deal with.<br />
-2. Given it would always move a set distance, it would often rigidly move outside of the combat radius and proceed to return to its original location and have its health reset.<br />
-3. Once all of its skills were used up and in cooldown, it would just sit where it was without moving (and subsequently giving no opening for the testing team to attack).
-
-What followed from this testing was rather torturous for the team. On the one hand we were implementing changes based on large volumes of internal feedback, on the other hand we had the beta fast approaching, and on the third hand (that we don't have) we were busily trying to work on new content as well.
+* The Electro, [[Geo Hypostasis|Geo]], [[Anemo Hypostasis|Anemo]] and [[Dendro Hypostasis]] have sharp corners and appear decayed as opposed to the rounded corners and intact state of the rest.
 
 ==Gallery==
 <gallery>
 Monster Electro Hypostasis thumb.png|Icon
 </gallery>
+
+===Genius Invokation TCG===
+{{Genius Invokation TCG Cards by Featured Gallery}}
 
 ==Video Guides==
 {{EVT
@@ -158,7 +133,7 @@ Monster Electro Hypostasis thumb.png|Icon
 |zht     = 無相之雷
 |zht_rm  = Wúxiàng zhī Léi
 |zh_tl   = Signless Thunder
-|ja      = {{Rubi|無|む|相|そう|の|&nbsp;|雷|かみなり}}
+|ja      = 無相の雷
 |ja_rm   = Musou no Kaminari
 |ja_tl   = Signless Thunder
 |ko      = {{tt|무|無}}{{tt|상|相}}의 {{tt|뇌|雷}}{{tt|전|電}}
@@ -179,9 +154,9 @@ Monster Electro Hypostasis thumb.png|Icon
 |pt      = Hypostasis Electro
 |pt_tl   = Electro Hypostasis
 |tr      = Elektrik Hipostazı
-|tr_tl   = 
+|tr_tl   = {{lex|Electro|tr}}  Hypostasis
 |it      = Ipostasi di Electro
-|it_tl   = 
+|it_tl   = Electro Hypostasis
 }}
 
 ==Change History==
@@ -194,7 +169,8 @@ Monster Electro Hypostasis thumb.png|Icon
 [[es:Hipóstasis Electro]]
 [[fr:Hypostase Électro]]
 [[ja:無相の雷]]
-[[pl:Electro Hypostasis]]
+[[pl:Hipostaza Electro]]
 [[pt-br:Hypostasis Electro]]
 [[ru:Электро гипостазис]]
+[[vi:Lôi Nguyên Bản]]
 [[zh:無相之雷]]

@@ -1,6 +1,225 @@
-{{Disambiguation}}
-* [[Ward (A Strange Story in Konda)]]
-* [[Ward (Sacrificial Offering)]]
-* [[Scroll-Shaped Ward]]
-* [[Key-Shaped Ward]]
-* [[Narukami Pillar]]
+{{CustomTabs
+|tab1 = Overview
+|tab2 = Gauge Data
+}}
+{{Community}}
+{{About|shields on [[enemies]]|shields on [[character]]s|Shield|other uses|Ward (Disambiguation)}}
+{{See also|Elemental Gauge Theory}}
+{{Terminology Infobox
+|type         = Game Systems
+|type2        = Combat
+}}
+'''Wards''' are a type of buff utilized by enemies represented by a separate durability bar, which often grant effects that protect against DMG among other enhancements. Wards are most often [[element]]al and most effectively destroyed using [[Elemental Reaction]]s, though with rare exceptions.
+
+Wards can be categorized into the following types based on their properties and behavior:
+* '''DMG-Nullifying Wards:''' Wards that fully protect enemies from DMG. (e.g. [[Abyss Mage]]s)
+* '''Penetrable Wards:''' Wards that do not fully protect enemies from DMG, but often come with DMG-reducing effects like [[RES]] increases. (e.g. [[Fatui Skirmisher]]s)
+* '''Warded Objects:''' Objects summoned or used by the enemy, which may or may not have protective effects. They are infused with an elemental aura and are broken once said aura is depleted. They are considered separate entities from enemies that create them.
+
+==Durability==
+The durability of enemy wards is most commonly determined by their total [[gauge unit]]s. Breaking enemy wards factors in gauge unit cost from [[Elemental Reaction]]s, normal [[Damage]], and [[Poise]] damage. The total damage dealt (in gauge units) to the ward is given by
+:<math>\text{Total Ward Damage} = \text{Reaction Cost} + \text{Damage Cost} + \text{Poise Cost}</math>
+These variables are explained further below, and a comprehensive list of enemy ward data can be found in [[Ward/Gauge Data]].
+
+===Reaction Cost===
+{{See also|Elemental Gauge Theory#Elemental Reactions}}
+The most efficient way to remove most elemental wards is through [[Elemental Reaction]]s. Elemental Reactions directly consume gauge units from Elemental Wards like they do regular auras.
+
+:<math>\text{Cost}_\text{Reaction} = \text{Elemental Gauge}_\text{Trigger Element} \times \text{Reaction Coefficient}</math>
+
+Where：
+* <math>\text{Elemental Gauge}_\text{Trigger Element}</math> is the gauge units of an elemental attack or effect that triggers a reaction with an elemental ward.
+* <math>\text{Reaction Coefficient}</math> is a ratio that shows how much the aforementioned attack affected the elemental ward.
+**For example, when using {{Hydro}} on a {{Pyro}} Ward, the ratio is 2. When using {{Electro}} on a {{Pyro}} Ward, the ratio is 1.
+
+{| class="wikitable align-center"
+|+ Reaction Coefficient
+!rowspan="2" style="text-align: center;"|Ward Element
+!colspan="7" style="text-align: center;"|Applied Element
+|-
+!{{Icon/Element|Pyro}}
+!{{Icon/Element|Hydro}}
+!{{Icon/Element|Electro}}
+!{{Icon/Element|Cryo}}
+!{{Icon/Element|Dendro}}
+!{{Icon/Element|Anemo}}
+!{{Icon/Element|Geo}}
+|-
+|{{Icon/Element|Pyro}}
+|
+|{{Color|Hydro|2}}
+|1
+|0.5
+|
+|0.5
+|0.5
+|-
+|{{Icon/Element|Hydro}}
+|0.5
+|
+|DoT
+|1
+|{{Color|Dendro|2}}
+|0.5
+|0.5
+|-
+|{{Icon/Element|Electro}}
+|{{Color|Pyro|1}}
+|DoT
+|
+|{{Color|Cryo|1}}
+|{{Color|Dendro|1}}
+|0.5
+|0.5
+|-
+|{{Icon/Element|Cryo}}
+|{{Color|Pyro|2}}
+|
+|1
+|
+|
+|0.5
+|0.5
+|-
+|{{Icon/Element|Dendro}}
+|DoT
+|0.5
+|{{Color|Electro|1}}
+|
+|
+|
+|
+|-
+|{{Icon/Element|Geo}}
+|2
+|2
+|2
+|2
+|
+|
+|
+|}
+
+Notes:
+# A highlighted number indicates the most effective element.
+# [[Electro-Charged]] reactions deal Damage over Time (DoT) to Electro and Hydro wards at a rate of '''0.4 gauge unit''' per second, unlike the other reactions that deal an immediate damage to the wards. This rate remains constant no matter how many gauge units of the triggering element is applied.
+# [[Burning]] reactions deal Damage over Time (DoT) to Dendro and Wood wards at a rate of '''0.4 gauge unit''' per second, unlike the other reactions that deal an immediate damage to the wards. This rate remains constant no matter how many gauge units of the triggering element is applied.
+# For Geo wards, one must apply Cryo/Electro/Hydro/Pyro first and manually apply Geo to trigger Crystallize. The actual consumption will scale with the amount of GUs left on the Cryo/Electro/Hydro/Pyro aura at the moment Crystallize is triggered, which means it should take into account decay and aura tax.
+# Most "Cryo" wards used by enemies are in reality of the [[Cryo#Sibling Elements|Frozen element]]. Hydro application does not affect the Frozen gauge on enemy wards.
+# For [[Fatui Skirmishers]]' wards, the Reaction Coefficient is special. There is a large difference between elemental damage from the preferred element (the element that reacts best with the ward's element) and elemental damage from other elements.
+{| class="wikitable"
+|+Reaction Coefficient
+! rowspan="2" |Skirmisher<br>Element!! colspan="7" style="text-align:center;" |Applied Element
+|-
+!{{Icon/Element|Anemo}}!!{{Icon/Element|Geo}}!!{{Icon/Element|Electro}}!!{{Icon/Element|Hydro}}!!{{Icon/Element|Pyro}}!!{{Icon/Element|Cryo}}!!{{Icon/Element|Dendro}}
+|- align="center"
+|{{Icon/Element|Electro}}||0.1||0.1||—||—||0.1||{{Color|Cryo|2}}||0.1
+|- align="center"
+|{{Icon/Element|Hydro}}||0.05|| 0.05||{{Color|Electro|DoT}}||—||0.05||0.05||0.05
+|- align="center"
+|{{Icon/Element|Pyro}}||0.1 ||0.1||0.1||{{Color|Hydro|2}}||—||0.1||—
+|- align="center"
+|{{Icon/Element|Cryo}}||0.1||0.1||0.1||—||{{Color|Pyro|2}}||—||—
+|}
+
+===Poise Damage Cost===
+{{See also|Interruption Resistance}}
+Geo and Frozen Wards can also be damaged by [[poise]] damage.<ref>NGA: [https://bbs.nga.cn/read.php?tid=25537580 Damage Conversion and Poise Damage Conversion in Breaking Elemental Wards] (in Chinese)</ref>
+:<math>\text{Cost}_\text{Strike} = \text{Poise Damage} \times \text{Cost Ratio} / 25</math>
+
+Where：
+* <math>\text{Poise Damage}</math> is the poise damage from an attack (how much an enemy was knocked back or interrupted by an attack).
+* <math>1/25</math> is the unit conversion of the elemental gauge (between the source code's units of Element Durability and the community-defined [[Gauge Unit]]s).
+* <math>\text{Cost Ratio}</math> is a ratio that shows the efficiency of the poise damage.
+**The Cost Ratio is determined by Ward Element and Attack Attributes (Strike Type and Attack Type).
+**The Cost Ratio cannot stack; it is determined by whichever type of attack does the most damage.
+***For example, when using a claymore against a Geo wared, an attack counts as a [[Blunt Attack]] and a Melee attack. Therefore, the Cost Ratio will be 0.35 (as opposed to 0.05).
+
+As a result, '''500/7''' poise damage from Blunt Attacks or '''500''' poise damage from regular melee attacks is required to deplete one gauge unit of a Geo ward, and '''500/3''' poise damage from Blunt Attacks is required to deplete one gauge unit of a Frozen ward.
+
+For calculation, detailed Poise Damage data for character attacks can be found in [[Interruption Resistance/Data]], and a list of Blunt Attacks can be found in [[Blunt Attack]].
+
+{| class="article-table"
+! Ward Element !! Condition !! Ratio !! Ratio/25
+|-
+| rowspan="2" | {{Geo}} || Strike Type: Blunt || 0.35 || 0.014
+|-
+| Attack Type: Melee || 0.05 || 0.002
+|-
+| {{Frozen}} || Strike Type: Blunt || 0.15 || 0.006
+|}
+
+* In some sources the conversion ratio (Ratio/25) is given.
+* Strike Type and Attack Type are both hidden attributes.
+
+{| class="article-table"
+! Attribute !! Value !! Example
+|-
+| rowspan="13" | Strike Type
+| rowspan="4" | Blunt
+| Most Attacks by Claymore characters.
+|-
+| Most [[Plunging Attack]]s by Melee characters.
+|-
+| Most Geo Attacks.
+|-
+| Most Explosions (e.g. [[Overloaded]], Amber's [[Baron Bunny]], Klee's bombs, Yoimiya's [[Aurous Blaze]]).
+|-
+| rowspan="4" | Slash
+| Most Normal/Charged Attacks by Sword characters.
+|-
+| Most Plunging Attacks (Loop Part) by Sword/Claymore characters.
+|-
+| Some Normal/Charged Attacks by Polearm characters.
+|-
+| Some Elemental Attacks by Sword/Polearm characters.
+|-
+| rowspan="3" | Spear
+| Some Normal/Charged Attacks by Polearm characters.
+|-
+| Most Plunging Attacks by Polearm characters.
+|-
+| Some Elemental Attacks by Polearm characters.
+|-
+| rowspan="2" | Pierce
+| Most Normal/Charged/Plunging Attacks by Bow characters.
+|-
+| Some Elemental Attacks by Bow characters.
+|-
+| rowspan="3" | Attack Type
+| rowspan="2" | Melee
+| Most Attacks by Sword/Claymore/Polearm characters.
+|-
+| Most Plunging Attacks by Bow characters.
+|-
+| rowspan="1" | Ranged
+| Most Attacks by Catalyst/Bow characters.
+|}
+
+===Equivalent HP===
+Compared to using Elemental Reactions, it is harder to break elemental wards through damage. Certain elemental wards are also immune to certain types of damage or will regenerate themselves if not attacked quickly enough.
+
+:<math>\begin{align}\text{Equivalent HP}_\text{Elemental Ward} = \frac{\text{Enemy Max HP} \times \text{Ward HP Ratio}}{\text{Damage Ratio}}\end{align}</math>
+
+Where：
+* <math>\text{Enemy Max HP}</math> is the realtime max HP of an enemy.
+* <math>\text{Ward HP Ratio}</math> is a ratio that compares the elemental gauge of an enemy's ward with their HP (how much damage a ward takes vs how much the enemy would take). The Ward HP Ratio is usually 1.
+* <math>\text{Damage Ratio}</math> is a ratio that shows how much a ward can be affected by character damage. The Damage Ratio is usually 0.2 or 0.
+** When Damage Ratio is 0, it means that the elemental ward can '''not''' be broken by damage.
+
+This is how an attack's damage is converted into the damage it does to a ward:
+
+:<math>\begin{align}\text{Cost}_\text{Damage} = \frac{\text{Damage}}{\text{Equivalent HP}_\text{Elemental Ward}} \times \text{Elemental Gauge}_\text{Elemental Ward} \end{align}</math>
+
+Where：
+* <math>\text{Damage}</math> is the damage from an attack.
+** The damage-amplifying multipliers of Melt or Vaporize don't work on elemental wards.
+** Damage is equal to 0 if the attack's element matches the ward (excluding Geo).
+* <math>\text{Equivalent HP}_\text{Elemental Ward}</math> is the equivalent HP of the elemental ward (this compares the enemy's HP with the elemental gauge of the ward).
+* <math>\text{Elemental Gauge}_\text{Elemental Ward}</math> is the actual elemental gauge of the ward.
+
+==Change History==
+{{Change History|1.0}}
+
+==References==
+{{Reflist}}

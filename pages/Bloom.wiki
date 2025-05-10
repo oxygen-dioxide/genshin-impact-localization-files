@@ -4,13 +4,11 @@
 |image        = Reaction Bloom.png
 |caption      = Elements that trigger the Bloom reaction (Dendro and Hydro)
 |type         = Elemental Reactions
-|type2        = Combat
-|type3        = Game Systems
 }}
 {{Elemental Reaction Intro|element1=Dendro|element2=Hydro}}
 
 ==Dendro Core==
-If a Dendro Core's duration expires, it will explode, dealing {{Color|AoE Dendro DMG}} in a '''5m''' radius to both enemies and players.
+If a Dendro Core's duration expires while the character who created it is in the party and alive, it will explode, dealing {{Color|AoE Dendro DMG}} in a '''5m''' radius to both enemies and players. Otherwise, it will disappear without the explosion.
 
 If {{Pyro}} is inflicted upon a Dendro Core, the '''Burgeon''' reaction will be triggered, which consumes the Dendro Core, and deals increased {{Color|AoE Dendro DMG}} in a '''5m''' radius to both enemies and players.
 
@@ -29,7 +27,7 @@ Burgeon and Hyperbloom cannot be triggered on Bountiful Cores. Bountiful Cores s
 {{Talents by Category Table|Bountiful Core Talents}}
 
 ==Damage==
-Note that one target can only take '''2''' instances of DMG from each Bloom-related reaction every '''0.5''' seconds, as limited by the [[Damage Sequence]]. Note that Dendro Core explosions and Bountiful Core explosions are also counted separately.
+Note that one target can only take '''2''' instances of DMG from each Bloom-related reaction per source every '''0.5''' seconds, as limited by the [[Damage Sequence]]. Reactions triggered by a given character will not share this limit with reactions triggered by other characters. Note that Dendro Core explosions and Bountiful Core explosions are counted separately.
 
 ===Bloom===
 {{Transformative Reaction Damage|Bloom}}
@@ -37,21 +35,44 @@ Note that one target can only take '''2''' instances of DMG from each Bloom-rela
 ===Burgeon/Hyperbloom===
 {{Transformative Reaction Damage|Burgeon/Hyperbloom}}
 
-==Artifacts==
-===Bloom===
-These artifact sets increase the damage from Bloom reactions.
+==Tutorial==
+{{Tutorial|Elemental Reaction: Bloom}}
 
-{{Artifacts by Category Table|Bloom DMG Increase Artifacts}}
+==Talents==
+===Bloom===
+{{Talents by Category Table|Bloom DMG Bonus Talents|shortheader=that increase Bloom DMG Bonus}}
+
+{{Talents by Category Table|Dendro Core Detonation Talents|shortheader=that cause Bloom cores to immediately burst}}
 
 ===Burgeon===
-These artifact sets increase the damage from Burgeon reactions.
-
-{{Artifacts by Category Table|Burgeon DMG Increase Artifacts}}
+{{Talents by Category Table|Burgeon DMG Bonus Talents|shortheader=that increase Burgeon DMG Bonus}}
 
 ===Hyperbloom===
-These artifact sets increase the damage from Hyperbloom reactions.
+{{Talents by Category Table|Hyperbloom DMG Bonus Talents|shortheader=that increase Hyperboom DMG Bonus}}
 
-{{Artifacts by Category Table|Hyperbloom DMG Increase Artifacts}}
+==Constellations==
+===Bloom===
+{{Constellations by Category Table|Bloom DMG Bonus Constellations|shortheader=that increase Bloom DMG Bonus}}
+
+{{Constellations by Category Table|Dendro Core Detonation Constellations|shortheader=that cause Bloom cores to immediately burst}}
+
+{{Constellations by Category Table|Bloom Crit Constellations|shortheader=that allow Bloom to critically strike}}
+
+===Burgeon===
+{{Constellations by Category Table|Burgeon Crit Constellations|shortheader=that allow Burgeon to critically strike}}
+
+===Hyperbloom===
+{{Constellations by Category Table|Hyperbloom Crit Constellations|shortheader=that allow Hyperbloom to critically strike}}
+
+==Artifacts==
+===Bloom===
+{{Artifacts by Category Table|Bloom DMG Increase Artifacts|shortheader=increase(s) the damage from Bloom reactions}}
+
+===Burgeon===
+{{Artifacts by Category Table|Burgeon DMG Increase Artifacts|shortheader=increase(s) the damage from Burgeon reactions}}
+
+===Hyperbloom===
+{{Artifacts by Category Table|Hyperbloom DMG Increase Artifacts|shortheader=increase(s) the damage from Hyperbloom reactions}}
 
 ==Preview==
 {{Preview
@@ -77,115 +98,103 @@ Bloom Dendro Core.png|A Dendro Core
 * The Lea Lotus Lamp produced by [[Dendro Traveler]]'s [[Surgent Manifestation|Elemental Burst]] is considered a target for Hyperbloom if the reaction is triggered by an enemy or the environment.
 
 ==Other Languages==
-{{Flex|
-===Bloom===
 {{Other Languages
-|en      = Bloom
-|zhs     = 绽放
-|zhs_rm  = Zhànfàng
-|zht     = 綻放
-|zht_rm  = Zhànfàng
-|zh_tl   = Blossoming
-|ja      = 開花
-|ja_rm   = Kaika
-|ja_tl   = Bloom
-|ko      = {{tt|개화|開花}}
-|ko_rm   = Gaehwa
-|ko_tl   = Bloom
-|es      = Florecimiento
-|es_tl   = Blooming
-|fr      = Fleurissement
-|fr_tl   = Blooming
-|ru      = Бутонизация
-|ru_tl   = Budding
-|th      = งอกเงย
-|th_rm   = Ngok Ngoei
-|th_tl   = Sprout
-|vi      = Sum Suê
-|vi_tl   = Luxuriant
-|de      = Sprießen
-|de_tl   = Sprout
-|id      = Bloom
-|pt      = Florescimento
-|pt_tl   = Blooming
-|tr      = Çiçeklenme
-|tr_tl   = Blooming
-|it      = Fioritura
-|it_tl   = Blooming
-}}
-|
-===Burgeon===
-{{Other Languages
-|en      = Burgeon
-|zhs     = 烈绽放
-|zhs_rm  = Liè-zhànfàng
-|zht     = 烈綻放
-|zht_rm  = Liè-zhànfàng
-|zh_tl   = Intense-Blossoming
-|ja      = 烈開花
-|ja_rm   = Retsukaika{{Assumed}}
-|ja_tl   = Intense-Bloom
-|ko      = {{tt|발화|發花}}
-|ko_rm   = Balhwa
-|ko_tl   = Bloom
-|ko_note = This word has the same sound as {{ko|{{tt|발화|發火}}}} which means "Ignition."
-|es      = Crepitar
-|es_tl   = Crackle
-|fr      = Bourgeonnement
-|fr_tl   = Budding
-|ru      = Цветение
-|ru_tl   = Blooming
-|th      = เบ่งบาน
-|th_rm   = Beng Ban
-|th_tl   = Bloom
-|vi      = Bung Tỏa
-|vi_tl   = Spread
-|de      = Flammenspross
-|de_tl   = Flame Sprout
-|id      = Burgeon
-|pt      = Germinação
-|pt_tl   = Germination
-|tr      = Filizlenme
-|tr_tl   = Sprouting
-|it      = Germinazione
-|it_tl   = Germination
-}}
-|
-===Hyperbloom===
-{{Other Languages
-|en      = Hyperbloom
-|zhs     = 超绽放
-|zhs_rm  = Chāo-zhànfàng
-|zht     = 超綻放
-|zht_rm  = Chāo-zhànfàng
-|zh_tl   = Hyper-Blossoming
-|ja      = 超開花
-|ja_rm   = Choukaika{{Assumed}}
-|ja_tl   = Hyper-Bloom
-|ko      = {{tt|만개|滿開}}
-|ko_rm   = Man'gae
-|ko_tl   = Full Bloom
-|es      = Sobreflorecimiento
-|es_tl   = Overbloom
-|fr      = Exubérance
-|fr_tl   = Exuberance
-|ru      = Вегетация
-|ru_tl   = Vegetation
-|th      = ไฮเปอร์บลูม
-|th_rm   = Haipoeplum
-|th_tl   = Hyperbloom
-|vi      = Nở Rộ
-|vi_tl   = 
-|de      = Supraspross
-|de_tl   = Supra Sprout
-|id      = Hyperbloom
-|pt      = Superflorescimento
-|pt_tl   = 
-|tr      = Aşırı Çiçeklenme
-|tr_tl   = Hyperblooming
-|it      = Iperfioritura
-|it_tl   = Hypeblooming
-}}
+|1_en      = Bloom
+|1_zhs     = 绽放
+|1_zhs_rm  = Zhànfàng
+|1_zht     = 綻放
+|1_zht_rm  = Zhànfàng
+|1_zh_tl   = Blossoming
+|1_ja      = 開花
+|1_ja_rm   = Kaika
+|1_ja_tl   = Bloom
+|1_ko      = {{tt|개화|開花}}
+|1_ko_tl   = Bloom
+|1_es      = Florecimiento
+|1_es_tl   = Blooming
+|1_fr      = Fleurissement
+|1_fr_tl   = Blooming
+|1_ru      = Бутонизация
+|1_ru_tl   = Budding
+|1_th      = งอกเงย
+|1_th_rm   = Ngok Ngoei
+|1_th_tl   = Sprout
+|1_vi      = Sum Suê
+|1_vi_tl   = Luxuriant
+|1_de      = Sprießen
+|1_de_tl   = Sprout
+|1_id      = Bloom
+|1_pt      = Florescimento
+|1_pt_tl   = Blooming
+|1_tr      = Çiçeklenme
+|1_tr_tl   = Blooming
+|1_it      = Fioritura
+|1_it_tl   = Blooming
+
+|2_en      = Burgeon
+|2_zhs     = 烈绽放
+|2_zhs_rm  = Liè-zhànfàng
+|2_zht     = 烈綻放
+|2_zht_rm  = Liè-zhànfàng
+|2_zh_tl   = Intense-Blossoming
+|2_ja      = 烈開花
+|2_ja_rm   = Retsukaika{{Assumed}}
+|2_ja_tl   = Intense-Bloom
+|2_ko      = {{tt|발화|發花}}
+|2_ko_tl   = Bloom
+|2_es      = Crepitar
+|2_es_tl   = Crackle
+|2_fr      = Bourgeonnement
+|2_fr_tl   = Budding
+|2_ru      = Цветение
+|2_ru_tl   = Blooming
+|2_th      = เบ่งบาน
+|2_th_rm   = Beng Ban
+|2_th_tl   = Bloom
+|2_vi      = Bung Tỏa
+|2_vi_tl   = Spread
+|2_de      = Flammenspross
+|2_de_tl   = Flame Sprout
+|2_id      = Burgeon
+|2_pt      = Germinação
+|2_pt_tl   = Germination
+|2_tr      = Filizlenme
+|2_tr_tl   = Sprouting
+|2_it      = Germinazione
+|2_it_tl   = Germination
+
+|3_en      = Hyperbloom
+|3_zhs     = 超绽放
+|3_zhs_rm  = Chāo-zhànfàng
+|3_zht     = 超綻放
+|3_zht_rm  = Chāo-zhànfàng
+|3_zh_tl   = Hyper-Blossoming
+|3_ja      = 超開花
+|3_ja_rm   = Choukaika{{Assumed}}
+|3_ja_tl   = Hyper-Bloom
+|3_ko      = {{tt|만개|滿開}}
+|3_ko_tl   = Full Bloom
+|3_es      = Sobreflorecimiento
+|3_es_tl   = Overbloom
+|3_fr      = Exubérance
+|3_fr_tl   = Exuberance
+|3_ru      = Вегетация
+|3_ru_tl   = Vegetation
+|3_th      = ไฮเปอร์บลูม
+|3_th_rm   = Haipoeplum
+|3_th_tl   = Hyperbloom
+|3_vi      = Nở Rộ
+|3_vi_tl   = 
+|3_de      = Supraspross
+|3_de_tl   = Supra-Sprout
+|3_de_note = "''Supra''" is a latin prefix translating to "above" or "beyond".
+|3_id      = Hyperbloom
+|3_pt      = Superflorescimento
+|3_pt_tl   = 
+|3_tr      = Aşırı Çiçeklenme
+|3_tr_tl   = Hyperblooming
+|3_it      = Iperfioritura
+|3_it_tl   = Hypeblooming
 }}
 
 ==Change History==
@@ -196,4 +205,5 @@ Bloom Dendro Core.png|A Dendro Core
 
 [[ja:開花]]
 [[pl:Rozkwit]]
+[[ru:Бутонизация]]
 [[vi:Sum Suê]]

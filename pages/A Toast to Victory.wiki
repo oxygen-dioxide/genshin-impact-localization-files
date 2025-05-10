@@ -1,12 +1,11 @@
 {{Quest Infobox
-|id            = 03026
+|id            = 03026; 03027
 |image         = Archon Quest C3A5 A Toast to Victory.png
 |type          = Archon
 |chapter       = III
 |act           = Akasha Pulses, the Kalpa Flame Rises
 |actNum        = V
 |part          = 5
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Alhaitham; Candace; Collei; Cyno; Dehya; Dunyarzad; Geoff; Hushang; Kaveh; Nahida; Nilou; Paimon; Rahman; Setaria; Sheikh Zubayr; Tighnari; Traveler
 |startLocation = [[Gandharva Ville]], [[Sumeru]]
@@ -15,10 +14,7 @@
 |subarea       = Gandharva Ville
 |prev          = Where the Boat of Consciousness Lies
 |next          = Destined Encounter
-|exp           = 850
-|mora          = 34,150
-|primogems     = 
-|other         = {{Card|Silver Twig|1}}{{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}
+|rewards       = Adventure EXP*850;Mora*34,150;Silver Twig*1;Hero's Wit*3;Mystic Enhancement Ore*6
 |voiced        = yes
 }}
 {{TeyvatQuest|title=A Toast to Victory|chapter=3|act=5|part=5}}
@@ -37,24 +33,24 @@
 # Talk to everyone at the feast (0/4)
 # Go to the [[Sanctuary of Surasthana]]
 
-==Achievements==
-* Completing the quest grants the ''[[Wonders of the World]]'' achievement ''[[Akasha Pulses, the Kalpa Flame Rises (Achievement)|Akasha Pulses, the Kalpa Flame Rises]]''.
-
+==Gameplay Notes==
+* Completing the quest grants the {{Achievement|Akasha Pulses, the Kalpa Flame Rises (Achievement)}}.
+<!--
+* This quest may be blocked by {{Quest|The Reason We Are Gathered Here}}, the first two steps of {{Quest|Suspicious Smuggling Case}}, and the first three steps of {{Quest|Into the Hinterlands}}.
+-->
 ==Dialogue==
 {{Quest Description|The operation to save Lesser Lord Kusanali has concluded. Despite the many surreal experiences that ensued, you feel surprisingly calm after waking up again in bed, facing the rising sun.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Collei)
-:{{A|vo xmaq305 2 collei 01.ogg}} '''Collei:''' Good morning, (Traveler)! Looks like you're awake.
+:{{A|vo xmaq305 2 collei 01.ogg}} '''Collei:''' Good morning, {{Traveler}}! Looks like you're awake.
 :{{A|vo xmaq305 2 paimon 01.ogg}} '''Paimon:''' Yep yep!
 :{{DIcon}} Good morning, Collei.
 :{{A|vo xmaq305 2 collei 02.ogg}} '''Collei:''' I prepared some breakfast today. Please have a taste! I hope you'll like it.
 :{{A|vo xmaq305 2 paimon 02.ogg}} '''Paimon:''' It's nice to have you here so we can eat something yummy!
 :{{A|vo xmaq305 2 collei 03.ogg}} '''Collei:''' Well, now that I've recovered from [[Eleazar]], I'm feeling better than ever. I can even prepare four or five meals a day now!
 :{{A|vo xmaq305 2 paimon 03.ogg}} '''Paimon:''' And Paimon bets they're all delicious!
-
-:'''You enjoy a yummy breakfast with Collei, who's been waiting for you...'''
-
-:{{A|vo xmaq305 2 collei 04.ogg}} '''Collei:''' Oh, by the way, (Traveler), someone brought a letter for you after you went to sleep last night.
+:{{Black Screen|You enjoy a yummy breakfast with Collei, who's been waiting for you...}}
+:{{A|vo xmaq305 2 collei 04.ogg}} '''Collei:''' Oh, by the way, {{Traveler}}, someone brought a letter for you after you went to sleep last night.
 :{{DIcon}} Paimon hasn't already read it?
 :{{A|vo xmaq305 2 paimon 04.ogg}} '''Paimon:''' Nope, Paimon wanted to read the letter with you after you woke up, so Paimon didn't open it. Alright, let's read it now!
 :{{A|vo xmaq305 2 paimon 05.ogg}} '''Paimon:''' Oh, it's from Nilou.
@@ -90,7 +86,7 @@
 :{{A|vo xmaq305 3 tighnari 06.ogg}} '''Tighnari:''' [[The Withering]] is one example. Though it won't spread anymore, the existing zones won't just disappear. We Forest Rangers will still need to do the work.
 :{{DIcon}} I appreciate that's a lot to ask.
 :{{A|vo xmaq305 3 paimon 05.ogg}} '''Paimon:''' By the way, we have some good news. Cyno got his position back!
-:{{A|vo xmaq305 3 tighnari 07.ogg}} '''Tighnari:''' Haha, this news is hardly new. He had already mentioned it to me before.
+:{{A|vo xmaq305 3 tighnari 07.ogg}} '''Tighnari:''' Heh, this news is hardly new. He had already mentioned it to me before.
 :{{A|vo xmaq305 3 paimon 06.ogg}} '''Paimon:''' Huh? You mean he was already here? Why didn't he come say hi to us...?
 :{{A|vo xmaq305 3 tighnari 08.ogg}} '''Tighnari:''' He visited once, but he was afraid of disturbing you while you were resting. He just asked me a few questions and left.
 :{{A|vo xmaq305 3 paimon 07.ogg}} '''Paimon:''' Then you probably already know all about the celebration feast!
@@ -120,7 +116,7 @@
 ;(Talk to Tighnari again)
 :{{A|vo dialog xmaq305 tighnari 01.ogg}} '''Tighnari:''' Is there anything else you'd like to ask about?
 :{{DIcon}} How's Haypasia?
-:{{A|vo dialog xmaq305 tighnari 02.ogg}} '''Tighnari:''' Ah yes, thanks for remembering her. She continued her training in the forest after she recovered. As a scholar, she never slacks off.
+:{{A|vo dialog xmaq305 tighnari 02.ogg}} '''Tighnari:''' Ah yes, thank you for remembering her. She continued her training in the forest after she recovered. As a scholar, she never slacks off.
 :{{DIcon}} Great.
 :{{A|vo dialog xmaq305 tighnari 03.ogg}} '''Tighnari:''' A lot has happened lately. Collei and I have been busy, but don't worry, we'll take care of ourselves.
 :{{A|vo dialog xmaq305 tighnari 04.ogg}} '''Tighnari:''' As for Cyno's reinstatement, the more I think about it, the more I suspect that he just doesn't have a single clue about this feast.
@@ -128,9 +124,9 @@
 :{{A|vo dialog xmaq305 tighnari 06.ogg}} '''Tighnari:''' And you as well, thank you.
 :{{DIcon}} Don't mention it.
 :{{A|vo dialog xmaq305 tighnari 07.ogg}} '''Tighnari:''' Take care. Please find me if you need anything.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The operation to save Lesser Lord Kusanali has concluded. Despite the many surreal experiences that ensued, you feel surprisingly calm after waking up again in bed, facing the rising sun. After breakfast, you take Nilou's letter and set out for the Grand Bazaar to meet her.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the stage in the Grand Bazaar)
 :{{A|vo xmaq305 4 sheikhzubayr 01.ogg}} '''Sheikh Zubayr:''' ...Well, there won't be any problems if the feast starts at that time. Everything has already been prepared.
 :{{A|vo xmaq305 4 nilou 01.ogg}} '''Nilou:''' Mr. Zubayr, I've finished tallying things up here! Well, except for the guests...
@@ -138,7 +134,7 @@
 :{{A|vo xmaq305 4 hushang 01.ogg}} '''Hushang:''' It'll be fine... Besides, it never hurts to get things ready in advance.
 :{{A|vo xmaq305 4 nilou 02.ogg}} '''Nilou:''' Haha. I was thinking the same thing. The feast will be held sooner or later, right?
 :{{A|vo xmaq305 4 paimon 01.ogg}} '''Paimon:''' Hey, Nilou~!
-:{{A|vo xmaq305 4 nilou 03.ogg}} '''Nilou:''' (Traveler), Paimon!
+:{{A|vo xmaq305 4 nilou 03.ogg}} '''Nilou:''' {{Traveler}}, Paimon!
 :{{A|vo xmaq305 4 paimon 02.ogg}} '''Paimon:''' We got your letter, so here we are!
 :{{A|vo xmaq305 4 nilou 04.ogg}} '''Nilou:''' You're the best. The other guests haven't even replied yet...
 :{{A|vo xmaq305 4 paimon 03.ogg}} '''Paimon:''' Huh? Are we the only ones that have arrived?
@@ -155,10 +151,10 @@
 :{{A|vo xmaq305 4 sheikhzubayr 06.ogg}} '''Sheikh Zubayr:''' Nonsense. It is not for us to determine the value of an audience.
 :{{A|vo xmaq305 4 sheikhzubayr 07.ogg}} '''Sheikh Zubayr:''' But indeed, we could try giving gifts to people with particularly good taste... I heard there's a device in [[Fontaine]] called a "[[Kamera]]" that can record people's appearances as pictures. Such pictures would make superb gifts...
 :{{A|vo xmaq305 4 hushang 05.ogg}} '''Hushang:''' Ooh, good idea! I wonder where we can find one...
-:{{A|vo xmaq305 4 nilou 06.ogg}} '''Nilou:''' Ugh, I don't want you giving pictures of me to everyone. I'm satisfied just being able to perform here.
+:{{A|vo xmaq305 4 nilou 06.ogg}} '''Nilou:''' Haha, you guys are so funny. There's really no need for that. I'm satisfied just being able to perform here.
 :{{A|vo xmaq305 4 paimon 06.ogg}} '''Paimon:''' There's always a lot going on at the Grand Bazaar.
 :{{A|vo xmaq305 4 nilou 07.ogg}} '''Nilou:''' Yeah, and that's why I love it here.
-:{{A|vo xmaq305 4 nilou 08.ogg}} '''Nilou:''' (Traveler) and Paimon, could you help confirm if the letters were actually delivered?
+:{{A|vo xmaq305 4 nilou 08.ogg}} '''Nilou:''' {{Traveler}} and Paimon, could you help confirm if the letters were actually delivered?
 :{{A|vo xmaq305 4 nilou 09.ogg}} '''Nilou:''' If for some reason they didn't receive the letters, then please tell everyone that there will be a feast here!
 :{{DIcon}} Okay, we'll go around and check.
 :{{A|vo xmaq305 4 paimon 07.ogg}} '''Paimon:''' Yeah, we can also check out how everything in Sumeru is going now.
@@ -167,7 +163,7 @@
 :{{A|vo xmaq305 4 nilou 11.ogg}} '''Nilou:''' As for Cyno, we've only heard that he appears at the Akademiya from time to time...
 :{{A|vo xmaq305 4 nilou 12.ogg}} '''Nilou:''' I'm not too sure about Rahman's whereabouts. My guess is that he's with Dehya.
 :{{A|vo xmaq305 4 nilou 13.ogg}} '''Nilou:''' As for [[Dunyarzad]], I just hope she's feeling better... I sent her a letter, but I was afraid of disturbing her. If you have time, please ask about her for me.
-:{{A|vo xmaq305 4 paimon 08.ogg}} '''Paimon:''' Okay, got it. Let's go, (Traveler)!
+:{{A|vo xmaq305 4 paimon 08.ogg}} '''Paimon:''' Okay, got it. Let's go, {{Traveler}}!
 
 ;(Talk to Nilou, Sheikh Zubayr, or Hushang again)
 :{{A|vo dialog xmaq305 hushang 01.ogg}} '''Hushang:''' I'll go to the Adventurers' Guild later and ask Miss Katheryne if she knows how to get one of those Kameras.
@@ -179,9 +175,9 @@
 :{{A|vo dialog xmaq305 nilou 02.ogg}} '''Nilou:''' Ah, should we get ready then? Perhaps we should wear something a little more appropriate...
 :{{A|vo dialog xmaq305 hushang 03.ogg}} '''Hushang:''' No, no, I think we look absolutely fine! If anything, when we pose for this... uh, clever invention, we should just be ourselves, hm?
 :{{A|vo dialog xmaq305 sheikhzubayr 04.ogg}} '''Sheikh Zubayr:''' You really think so...?
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Nilou asked you to visit the invited guests throughout Sumeru and make sure that they can show up at the celebration feast on time...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Enter the Akademiya)
 :{{A|vo xmaq305 5 paimon 01.ogg}} '''Paimon:''' Hmm... we haven't seen Alhaitham anywhere. Let's ask that person over there.
 :{{A|vo xmaq305 5 paimon 02.ogg}} '''Paimon:''' Ahem, hey there! Have you seen Alhaitham around?
@@ -495,7 +491,7 @@
 :{{A|vo dialog xmaq305 rahman 02.ogg}} '''Rahman:''' Haha, what heartwarming words.
 
 ;(Talk to Candace in the Aaru Village plaza, optional)
-:{{A|vo dialog xmaq305 candace 01.ogg}} '''Candace:''' (Traveler), it's good to see you again. Cyno said you were resting in Gandharva Ville for some time. How are you feeling now?
+:{{A|vo dialog xmaq305 candace 01.ogg}} '''Candace:''' {{Traveler}}, it's good to see you again. Cyno said you were resting in Gandharva Ville for some time. How are you feeling now?
 :{{DIcon}} I've fully recovered now.
 :{{A|vo dialog xmaq305 candace 02.ogg}} '''Candace:''' Good to hear. I'm happy that you've returned safe and sound.
 :{{A|vo dialog xmaq305 candace 03.ogg}} '''Candace:''' Thanks for all that you've done. The villagers won't be exaggerating when they say, "Heroes once passed through our village."
@@ -503,9 +499,9 @@
 
 ;(After passing time)
 :{{A|vo xmaq305 10 paimon 01.ogg}} '''Paimon:''' Today's the big day! Let's go to the Grand Bazaar and see how the celebration's coming along.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The feast is held successfully and everyone arrives on time...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach everyone at the Zubayr Theater)
 :{{A|vo xmaq305 11 paimon 01.ogg}} '''Paimon:''' Everybody's already here. Looks like we're the last ones to arrive.
 :{{A|vo xmaq305 11 cyno 01.ogg}} '''Cyno:''' You're here.
@@ -519,14 +515,10 @@
 :{{A|vo xmaq305 11 alhaitham 02.ogg}} '''Alhaitham:''' Oh really? Well, even better.
 :{{A|vo xmaq305 11 nilou 02.ogg}} '''Nilou:''' Come join us over here! Let's share some great food and drinks, and chat about all sorts of fun things.
 :{{A|vo xmaq305 11 cyno 02.ogg}} '''Cyno:''' Everything looks quite good.
-:{{A|vo xmaq305 11 paimon 03.ogg}} '''Paimon:''' Wow... Paimon can't wait! (Traveler), just look at all the delicious food here!
-
-:'''The feast and celebration of the General Mahamatra in the Grand Bazaar goes as planned. Drinks are flowing, the food is delicious, and the venue is beautifully arranged.'''
-
-:'''Everybody eats and drinks before enjoying the performance prepared by Nilou and everyone in the Grand Bazaar...'''
-
-:'''Time passes gradually in the wonderful atmosphere, and the beautiful evening feels almost like a dream.'''
-
+:{{A|vo xmaq305 11 paimon 03.ogg}} '''Paimon:''' Wow... Paimon can't wait! {{Traveler}}, just look at all the delicious food here!
+:{{Black Screen|The feast and celebration of the General Mahamatra in the Grand Bazaar goes as planned. Drinks are flowing, the food is delicious, and the venue is beautifully arranged.}}
+:{{Black Screen|Everybody eats and drinks before enjoying the performance prepared by Nilou and everyone in the Grand Bazaar...}}
+:{{Black Screen|Time passes gradually in the wonderful atmosphere, and the beautiful evening feels almost like a dream.}}
 :{{A|vo xmaq305 11 paimon 04.ogg}} '''Paimon:''' Whoa~! It's so delicious! Oh~! This grilled meat tastes amazing!
 :{{A|vo xmaq305 11 nilou 03.ogg}} '''Nilou:''' The food was specially prepared for you by everyone in the Grand Bazaar, and we have gifts that were sent by the residents of Sumeru City when they heard we were holding a feast.
 :{{A|vo xmaq305 11 nilou 04.ogg}} '''Nilou:''' Everyone that came said that you saved Sumeru, and wanted me to thank you all on their behalf.
@@ -554,14 +546,14 @@
 :{{A|vo xmaq305 11 alhaitham 06.ogg}} '''Alhaitham:''' No, everything you said is correct.
 :{{A|vo xmaq305 11 dunyarzad 07.ogg}} '''Dunyarzad:''' Whew, that's good.
 :{{A|vo xmaq305 11 cyno 05.ogg}} '''Cyno:''' Something wrong?
-:{{A|vo xmaq305 11 paimon 07.ogg}} '''Paimon:''' Yeah (Traveler), what's with that face? You knew all of this already!
+:{{A|vo xmaq305 11 paimon 07.ogg}} '''Paimon:''' Yeah {{Traveler}}, what's with that face? You knew all of this already!
 :{{DIcon}} Don't mind me, my... my mind was elsewhere.
 :{{A|vo xmaq305 11 dehya 06.ogg}} '''Dehya:''' *ahem* Even if those two giants of the Akademiya are here, I still have to say it...
 :{{A|vo xmaq305 11 dehya 07.ogg}} '''Dehya:''' Those sages really have some nerve. Five hundred years ago, Lesser Lord Kusanali used all her power for the people of Sumeru, and what did they do in return?
-:'''(Traveler):''' (It seems that after everyone forgot [[Greater Lord Rukkhadevata]], their understanding of Sumeru's history also changed...)
-:'''(Traveler):''' (Now everyone believes that Lesser Lord Kusanali has been Sumeru's archon all along.)
-:'''(Traveler):''' (Maybe I'm the only one in all of Teyvat who remembers that Greater Lord Rukkhadevata ever existed.)
-:'''(Traveler):''' (As the witness of all that happened, I shall respect her choice and keep the secret for her.)
+:'''{{Traveler}}:''' (It seems that after everyone forgot [[Greater Lord Rukkhadevata]], their understanding of Sumeru's history also changed...)
+:'''{{Traveler}}:''' (Now everyone believes that Lesser Lord Kusanali has been Sumeru's archon all along.)
+:'''{{Traveler}}:''' (Maybe I'm the only one in all of Teyvat who remembers that Greater Lord Rukkhadevata ever existed.)
+:'''{{Traveler}}:''' (As the witness of all that happened, I shall respect her choice and keep the secret for her.)
 :{{A|vo xmaq305 11 dehya 08.ogg}} '''Dehya:''' If you bite the hand that feeds you, then don't act surprised when it turns into a knuckle sandwich, right, Cyno?
 :{{A|vo xmaq305 11 cyno 06.ogg}} '''Cyno:''' Perhaps I shouldn't say this, but their treatment of Lesser Lord Kusanali calls for a more severe punishment.
 :{{A|vo xmaq305 11 alhaitham 07.ogg}} '''Alhaitham:''' You could simply tell Lesser Lord Kusanali that you wish to have Azar and his accomplices severely punished.
@@ -618,7 +610,7 @@
 :{{A|vo xmaq305 12 dehya 03.ogg}} '''Dehya:''' Hey, less of that polite chit-chat and more eating and drinking. The feast is about having fun, not stuffy formalities!
 
 ;(Talk to Nilou)
-:{{A|vo xmaq305 12 nilou 01.ogg}} '''Nilou:''' Ah, there you are, (Traveler)!
+:{{A|vo xmaq305 12 nilou 01.ogg}} '''Nilou:''' Ah, there you are, {{Traveler}}!
 :{{A|vo xmaq305 12 nilou 02.ogg}} '''Nilou:''' Well, how is it? Are you enjoying the feast today? If there's anything you're unhappy with, just let me know. I'll be sure to take note of it.
 :{{DIcon}} It's great, thanks for inviting me.
 :{{A|vo xmaq305 12 nilou 03.ogg}} '''Nilou:''' Hehe... That's good.
@@ -626,15 +618,13 @@
 :{{A|vo xmaq305 12 nilou 05.ogg}} '''Nilou:''' You see, every guest here is quite extraordinary. It's unbelievable that we got everyone to gather here... almost like a fairy tale.
 :{{A|vo xmaq305 12 nilou 06.ogg}} '''Nilou:''' Make sure you live it up tonight! I'll be happy as long as you're enjoying yourselves.
 :{{DIcon}} We have a message to tell you.
-
-:'''You tell Setaria's message to Nilou...'''
-
+:{{Black Screen|You tell Setaria's message to Nilou...}}
 :{{A|vo xmaq305 12 nilou 07.ogg}} '''Nilou:''' I'm honored to have her think of me this way. If I have a chance in the future, I would really like to invite her to one of my performances.
-:{{A|vo xmaq305 12 nilou 08.ogg}} '''Nilou:''' I can't explain why, but I just feel elated right now! Thank you, (Traveler)!
+:{{A|vo xmaq305 12 nilou 08.ogg}} '''Nilou:''' I can't explain why, but I just feel elated right now! Thank you, {{Traveler}}!
 <!--Talking again just repeats the same dialogue-->
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The feast has been held successfully, and everyone arrives on time to celebrate it with companions who fought side by side. Meanwhile, a mysterious guest is about to show up.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After talking to everyone)
 :{{A|vo xmaq305 13 paimon 01.ogg}} '''Paimon:''' Hey, what's wrong? Your head is starting to droop...
 :{{DIcon}} I'm suddenly a little sleepy...
@@ -643,40 +633,40 @@
 :{{DIcon}} Really?
 :{{A|vo xmaq305 13 paimon 03.ogg}} '''Paimon:''' Of course. Just wait here for Paimon!
 :;(Paimon leaves the Traveler)
-:'''(Traveler):''' (Is it because I didn't sleep well last night that I feel sleepy all of a sudden? Or is it because I'm too full...?)
-:'''(Traveler):''' (Huh? It seems like someone is there...)
+:'''{{Traveler}}:''' (Is it because I didn't sleep well last night that I feel sleepy all of a sudden? Or is it because I'm too full...?)
+:'''{{Traveler}}:''' (Huh? It seems like someone is there...)
 :;(Everyone desaturates and gets frozen in time except for the Traveler<!--NPCs go grayscale-->)
 :{{A|vo xmaq305 13 nahida 01.ogg}} '''Nahida:''' Hehe, it's me.
-:'''(Traveler):''' (Nahida, it looks like my consciousness is connected to yours again.)
+:'''{{Traveler}}:''' (Nahida, it looks like my consciousness is connected to yours again.)
 :{{A|vo xmaq305 13 nahida 02.ogg}} '''Nahida:''' Mhm. You may blame me for being a bit too self-indulgent. I was thinking about talking with you, and the next thing I knew, I had made a connection with you.
 :{{A|vo xmaq305 13 nahida 03.ogg}} '''Nahida:''' The connection between us is amazing! It's like flora and the fence it grows upon.
-:'''(Traveler):''' (Is there anything you need from me?)
+:'''{{Traveler}}:''' (Is there anything you need from me?)
 :{{A|vo xmaq305 13 nahida 04.ogg}} '''Nahida:''' I heard there's an amazing celebration feast today at the Grand Bazaar. I wanted to have a look for myself, so I snuck in.
 :{{A|vo xmaq305 13 nahida 05.ogg}} '''Nahida:''' Lately, I've been so busy dealing with all the fallout from recent events, so I really haven't had any free time...
-:{{A|vo xmaq305 13 nahida 06.ogg}} '''Nahida:''' (Traveler), although you've already helped me with a lot, there's still one more thing I hope you can help me with.
-:'''(Traveler):''' (What is it?)
+:{{A|vo xmaq305 13 nahida 06.ogg}} '''Nahida:''' {{Traveler}}, although you've already helped me with a lot, there's still one more thing I hope you can help me with.
+:'''{{Traveler}}:''' (What is it?)
 :{{A|vo xmaq305 13 nahida 07.ogg}} '''Nahida:''' Please say thank you to everyone for me.
-:'''(Traveler):''' (Ah, so that's what this is about... Nahida, it'd be better if you could do that yourself.)
+:'''{{Traveler}}:''' (Ah, so that's what this is about... Nahida, it'd be better if you could do that yourself.)
 :{{A|vo xmaq305 13 nahida 08.ogg}} '''Nahida:''' Oh... Is it not convenient for you to do that for me?
-:'''(Traveler):''' (Some things in this world must be done by yourself.)
+:'''{{Traveler}}:''' (Some things in this world must be done by yourself.)
 :{{A|vo xmaq305 13 nahida 09.ogg}} '''Nahida:''' But, if I just show up all of a sudden... people will become all quiet and stiff, won't they?
 :{{A|vo xmaq305 13 nahida 10.ogg}} '''Nahida:''' What if I end up scaring them and ruining this wonderful feast... That'd be the last thing I want.
-:'''(Traveler):''' (It'll be fine. Please don't worry too much!)
+:'''{{Traveler}}:''' (It'll be fine. Please don't worry too much!)
 :{{A|vo xmaq305 13 nahida 11.ogg}} '''Nahida:''' Hmm... Let me think about it...
 :{{A|vo xmaq305 13 nahida 12.ogg}} '''Nahida:''' ...Okay!
-:'''(Traveler):''' (Have you made up your mind?)
+:'''{{Traveler}}:''' (Have you made up your mind?)
 :{{A|vo xmaq305 13 nahida 13.ogg}} '''Nahida:''' Yes, I have.
 :;(Nahida reaches out and enters the Traveler's body)
-:'''(Traveler):''' (That's good... Wait? Huh!?)
+:'''{{Traveler}}:''' (That's good... Wait? Huh!?)
 :{{A|vo xmaq305 13 nahida 14.ogg}} '''Nahida:''' You said I should go thank everyone as myself, right? So...
 :{{A|vo xmaq305 13 nahida 15.ogg}} '''Nahida:''' I've decided to borrow your body for the time being. Please don't blame me. The flora also climbs up the fence to get closer to the sky.
-:'''(Traveler):''' (Then at least promise me you won't say anything weird when you're in my body!)
+:'''{{Traveler}}:''' (Then at least promise me you won't say anything weird when you're in my body!)
 :;(Nahida, as the Traveler, walks up to the party)
 :{{A|vo xmaq305 13 nahida 16.ogg}} '''Nahida:''' Everyone.
 :{{A|vo xmaq305 13 paimon 04.ogg}} '''Paimon:''' Are you awake now? Paimon was just about to bring you the food!
 :{{A|vo xmaq305 13 nahida 17.ogg}} '''Nahida:''' It's me.
 :{{A|vo xmaq305 13 paimon 05.ogg}} '''Paimon:''' Huh, that voice... Nahida!?
-:{{A|vo xmaq305 13 dehya 01.ogg}} '''Dehya:''' Hold up! What's going on, (Traveler)?
+:{{A|vo xmaq305 13 dehya 01.ogg}} '''Dehya:''' Hold up! What's going on, {{Traveler}}?
 :{{A|vo xmaq305 13 alhaitham 01.ogg}} '''Alhaitham:''' I didn't expect to have a conversation with the consciousness of Lesser Lord Kusanali in the Grand Bazaar. Interesting. Is this also a part of the feast?
 :{{A|vo xmaq305 13 nilou 01.ogg}} '''Nilou:''' No, no, of course not! Are you... Lesser Lord Kusanali?
 :{{A|vo xmaq305 13 nahida 18.ogg}} '''Nahida:''' Hello, Nilou.
@@ -684,7 +674,7 @@
 :{{A|vo xmaq305 13 nahida 19.ogg}} '''Nahida:''' Yes, I already know every one of you. Nilou, Alhaitham, Cyno, Dehya, Paimon, and Dunyarzad.
 :{{A|vo xmaq305 13 dunyarzad 01.ogg}} '''Dunyarzad:''' Lesser... Lord Kusanali...?
 :;(Dunyarzad blinks, and Nahida appears to take on her own form)
-:{{A|vo xmaq305 13 nahida 20.ogg}} '''Nahida:''' I took the liberty of occupying (Traveler)'s body so that I could thank all of you in person.
+:{{A|vo xmaq305 13 nahida 20.ogg}} '''Nahida:''' I took the liberty of occupying {{Traveler}}'s body so that I could thank all of you in person.
 :{{A|vo xmaq305 13 nahida 21.ogg}} '''Nahida:''' Thank you so much for rescuing me, even if that meant placing your own safety in peril, and taking the risk of becoming enemies with the Akademiya, the Sages, The Doctor, The Balladeer, and even the entirety of Sumeru.
 :{{A|vo xmaq305 13 nahida 22.ogg}} '''Nahida:''' Without you, without any of you... I would have been in a much more difficult situation.
 :{{A|vo xmaq305 13 nahida 23.ogg}} '''Nahida:''' Had you not helped me to resolve the crisis, not only I, but Sumeru and even the entirety of Teyvat, would've suffered great misfortune.
@@ -698,17 +688,12 @@
 :{{A|vo xmaq305 13 nilou 03.ogg}} '''Nilou:''' I... I'm honored to have been able to take part in this plan! I hope you liked the dance I dedicated to you!
 :{{A|vo xmaq305 13 nahida 27.ogg}} '''Nahida:''' ...Thank you, all of you. Thank you so much.
 :;(Nahida's appearance transitions back to the Traveler)
-:'''(Traveler):''' (See? Just like I said, everybody is very happy to meet you.)
+:'''{{Traveler}}:''' (See? Just like I said, everybody is very happy to meet you.)
 :{{A|vo xmaq305 13 nahida 28.ogg}} '''Nahida:''' ...Yeah!
-
-:'''Nahida shows up for a surprise visit and brings the feast to its climax. Sincere joy flows in the hearts of everyone present.'''
-
-:'''A warm atmosphere of talking and laughter carries on late into the night...'''
-
-:'''And the feast ends on a perfect note.'''
-
-:'''The next day...'''
-
+:{{Black Screen|Nahida shows up for a surprise visit and brings the feast to its climax. Sincere joy flows in the hearts of everyone present.}}
+:{{Black Screen|A warm atmosphere of talking and laughter carries on late into the night...}}
+:{{Black Screen|And the feast ends on a perfect note.}}
+:{{Black Screen|The next day...}}
 :{{A|vo xmaq305 14 paimon 01.ogg}} '''Paimon:''' Are you awake? Did you rest well?
 :{{DIcon}} I think... I slept alright.
 :{{A|vo xmaq305 14 paimon 02.ogg}} '''Paimon:''' After Nahida left, you ate a lot of food. You've become a glutton!
@@ -716,9 +701,9 @@
 :{{A|vo xmaq305 14 paimon 03.ogg}} '''Paimon:''' Hmph. That just means you still have a lot to learn from Master Paimon, the Sage of Gluttony!
 :{{A|vo xmaq305 14 paimon 04.ogg}} '''Paimon:''' All right. Since you're awake now, should we go and have a chat with Nahida?
 :{{A|vo xmaq305 14 paimon 05.ogg}} '''Paimon:''' She should be in the Akademiya right about now. If you have any questions, now's your chance to ask.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Although the dust has settled, you've still got some questions. Nahida, who is in the Sanctuary of Surasthana, will answer them for you.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Nahida in the Sanctuary of Surasthana)
 :{{A|vo xmaq305 15 paimon 01.ogg}} '''Paimon:''' Nahida!
 :{{A|vo xmaq305 15 nahida 01.ogg}} '''Nahida:''' Hello, Traveler and Paimon.
@@ -739,14 +724,14 @@
 :;(Return to option selection)
 :{{DIcon}} About what happened after I fell asleep that day...
 ::{{A|vo xmaq305 15 nahida 04b 1.ogg}} '''Nahida:''' You mean, what happened after The Doctor put you to sleep?
-::{{DIcon}} Did he take the Gnoses?
+::{{DIcon}} Did he take the Gnoses?<ref group="Translation Note" name="number of gnoses">In the original Chinese text, it is left ambiguous whether this line is talking about the Dendro Gnosis, the Electro Gnosis, or both Gnoses.</ref>
 ::{{A|vo xmaq305 15 nahida 04b 2.ogg}} '''Nahida:''' You guessed correctly... The top-ranked Fatui Harbingers, up to No. 3, possess power comparable to that of gods. I was no match for him in that kind of situation.
 ::{{A|vo xmaq305 15 nahida 04b 3.ogg}} '''Nahida:''' However, in spite of the bad situation, I still managed to make a fair deal with The Doctor.
 ::{{A|vo xmaq305 15 nahida 04b 4.ogg}} '''Nahida:''' I'm sure you remember the entity that changed your fate &mdash; the [[Heavenly Principles]].
 ::{{A|vo xmaq305 15 nahida 04b 5.ogg}} '''Nahida:''' In fact, the Heavenly Principles has been quiet since the Khaenri'ah disaster five hundred years ago. I used this point as leverage against The Doctor.
 ::{{A|vo xmaq305 15 nahida 04b 6.ogg}} '''Nahida:''' I told him that the Heavenly Principles may be awakened if I destroyed a Gnosis. Although it was just a bluff, he still fell for it.
 ::{{A|vo xmaq305 15 nahida 04b 7.ogg}} '''Nahida:''' I assumed that the Heavenly Principles wouldn't just stand by and let such extensive damage to its "laws" take place.
-::{{A|vo xmaq305 15 nahida 04b 8.ogg}} '''Nahida:''' And as for what I exchanged for the Gnoses...
+::{{A|vo xmaq305 15 nahida 04b 8.ogg}} '''Nahida:''' And as for what I exchanged for the Gnoses...<ref group="Translation Note" name="number of gnoses" />
 ::{{A|vo xmaq305 15 nahida 04b 9.ogg}} '''Nahida:''' The exchange served as both punishment for The Doctor, as well as a boon of new knowledge that I couldn't refuse as the God of Wisdom.
 <!--::{{A|vo xmaq305 15 nahida 04b 10.ogg}} '''Nahida:''' I'm sure you probably want to ask what that knowledge was... Please forgive me, for I can't tell you that right now, but I believe you'll discover it one day.--><!--This line does not play-->
 :;(Return to option selection)
@@ -776,14 +761,14 @@
 :{{DIcon}} But... we both came from beyond the sea of stars.
 :{{DIcon}} There shouldn't be any information on {{MC|m=her|f=him}} in Irminsul.
 :{{A|vo xmaq305 15 paimon 03e 2a.ogg}} {{A|vo xmaq305 15 paimon 03e 2b.ogg}} '''Paimon:''' Yeah, isn't Irminsul a repository for all the information and memories of Teyvat? So there shouldn't be anything on {{MC|m=him|f=her}} or {{MC|m=his sister|f=her brother}}.
-:{{A|vo xmaq305 15 nahida 04e 4.ogg}} '''Nahida:''' This is true in your case, (Traveler). Irminsul indeed does not have any information on you.
+:{{A|vo xmaq305 15 nahida 04e 4.ogg}} '''Nahida:''' This is true in your case, {{Traveler}}. Irminsul indeed does not have any information on you.
 :{{A|vo xmaq305 15 nahida 04e 5.ogg}} '''Nahida:''' However...
 :{{A|vo xmaq305 15 nahida 04e 6a.ogg}} {{A|vo xmaq305 15 nahida 04e 6b.ogg}} '''Nahida:''' There must be something different about your {{MC|m=sister|f=brother}}... because as it turns out, the world has recorded information on {{MC|m=her|f=him}} after all.
 :{{A|vo xmaq305 15 paimon 03e 3.ogg}} '''Paimon:''' What!?
 :{{DIcon}} !?
 :{{A|vo xmaq305 15 nahida 04e 7a.ogg}} {{A|vo xmaq305 15 nahida 04e 7b.ogg}} '''Nahida:''' There's only one possible explanation: {{MC|m=She|f=He}} belongs to this world.
-:'''(Traveler):''' (How is that possible? We journeyed the sea of stars all our lives until we came here. How could {{MC|m=she|f=he}} possibly hail from Teyvat...?)
-:'''(Traveler):''' (Things don't add up. Is there something wrong with my memories? Or is it this world that has done something to {{MC|m=her|f=him}}...)
+:'''{{Traveler}}:''' (How is that possible? We journeyed the sea of stars all our lives until we came here. How could {{MC|m=she|f=he}} possibly hail from Teyvat...?)
+:'''{{Traveler}}:''' (Things don't add up. Is there something wrong with my memories? Or is it this world that has done something to {{MC|m=her|f=him}}...)
 :{{A|vo xmaq305 15 paimon 03e 4.ogg}} '''Paimon:''' But... nothing about this makes any sense. Wasn't this your first trip to Teyvat?
 :{{DIcon}} Do you have any further intel?
 :{{DIcon}} Do you know what {{MC|m=she|f=he}} has been through?
@@ -798,11 +783,11 @@
 :{{A|vo xmaq305 15 nahida 04e 14.ogg}} '''Nahida:''' Something else I noticed was that according to these records, the Fatui have not classified your sibling as one of the "[[Descender]]s."
 :{{DIcon}} Descenders?
 :{{A|vo xmaq305 15 paimon 03e 7.ogg}} '''Paimon:''' ...What's a Descender? Paimon's never heard of it...
-:{{A|vo xmaq305 15 nahida 04e 15.ogg}} '''Nahida:''' Look, I'm sure you must be curious about the information I received from the Fatui in return for my Gnosis, right?
+:{{A|vo xmaq305 15 nahida 04e 15.ogg}} '''Nahida:''' Look, I'm sure you must be curious about the information I received from the Fatui in return for my Gnosis, right?<ref group="Translation Note" name="number of gnoses" />
 :{{A|vo xmaq305 15 nahida 04e 16.ogg}} '''Nahida:''' A very important part of the intel was about this world's Descenders... external beings, ones that don't belong to this world.
-:{{A|vo xmaq305 15 nahida 04e 17.ogg}} '''Nahida:''' (Traveler), you are Teyvat's "Fourth Descender."
+:{{A|vo xmaq305 15 nahida 04e 17.ogg}} '''Nahida:''' {{Traveler}}, you are Teyvat's "Fourth Descender."
 :{{DIcon}} Fourth...?
-:{{A|vo xmaq305 15 paimon 03e 8a.ogg}} {{A|vo xmaq305 15 paimon 03e 8b.ogg}} '''Paimon:''' Huh!? So the Fatui count three other Descenders before (Traveler)? And {{MC|m=his sister|f=her brother}} isn't even one of them?
+:{{A|vo xmaq305 15 paimon 03e 8a.ogg}} {{A|vo xmaq305 15 paimon 03e 8b.ogg}} '''Paimon:''' Huh!? So the Fatui count three other Descenders before {{Traveler}}? And {{MC|m=his sister|f=her brother}} isn't even one of them?
 :{{A|vo xmaq305 15 nahida 04e 18.ogg}} '''Nahida:''' That's right. My current hypothesis is that the "First Descender" was likely what we now call the Heavenly Principles.
 :{{A|vo xmaq305 15 nahida 04e 19.ogg}} '''Nahida:''' As for the other Descenders... I still need to verify their existence. It could take me some time.
 :{{A|vo xmaq305 15 paimon 03e 9.ogg}} '''Paimon:''' Whew... Paimon's head's about to burst from all this crazy new information...
@@ -840,9 +825,9 @@
 ::{{A|vo xmaq305 15 paimon 03e 7.ogg}} '''Paimon:''' ...What's a Descender? Paimon's never heard of it...
 ::{{A|vo xmaq305 15 nahida 04e 15.ogg}} '''Nahida:''' Look, I'm sure you must be curious about the information I received from the Fatui in return for my Gnosis, right?
 ::{{A|vo xmaq305 15 nahida 04e 16.ogg}} '''Nahida:''' A very important part of the intel was about this world's Descenders... external beings, ones that don't belong to this world.
-::{{A|vo xmaq305 15 nahida 04e 17.ogg}} '''Nahida:''' (Traveler), you are Teyvat's "Fourth Descender."
+::{{A|vo xmaq305 15 nahida 04e 17.ogg}} '''Nahida:''' {{Traveler}}, you are Teyvat's "Fourth Descender."
 ::{{DIcon}} Fourth...?
-::{{A|vo xmaq305 15 paimon 03e 8a.ogg}} {{A|vo xmaq305 15 paimon 03e 8b.ogg}} '''Paimon:''' Huh!? So the Fatui count three other Descenders before (Traveler)? And {{MC|m=his sister|f=her brother}} isn't even one of them?
+::{{A|vo xmaq305 15 paimon 03e 8a.ogg}} {{A|vo xmaq305 15 paimon 03e 8b.ogg}} '''Paimon:''' Huh!? So the Fatui count three other Descenders before {{Traveler}}? And {{MC|m=his sister|f=her brother}} isn't even one of them?
 ::{{A|vo xmaq305 15 nahida 04e 18.ogg}} '''Nahida:''' That's right. My current hypothesis is that the "First Descender" was likely what we now call the Heavenly Principles.
 ::{{A|vo xmaq305 15 nahida 04e 19.ogg}} '''Nahida:''' As for the other Descenders... I still need to verify their existence. It could take me some time.
 ::{{A|vo xmaq305 15 paimon 03e 9.ogg}} '''Paimon:''' Whew... Paimon's head's about to burst from all this crazy new information...
@@ -857,7 +842,7 @@
 ::{{A|vo xmaq305 15 paimon 03e 10.ogg}} '''Paimon:''' Paimon's sure glad we got to meet you, Nahida.
 ::{{A|vo xmaq305 15 nahida 04e 25.ogg}} '''Nahida:''' The pleasure is all mine... I can't thank you enough.
 ::{{A|vo xmaq305 15 nahida 04e 26.ogg}} '''Nahida:''' All right, that's enough talk for today. If you ever miss me, just close your eyes &mdash; and maybe I'll appear in your dreams~
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -866,12 +851,11 @@
 |zhs_rm  = Qǐng Yǐnxià Zhùshèng zhī Jiǔ
 |zht     = 請飲下祝勝之酒
 |zht_rm  = Qǐng Yǐnxià Zhùshèng zhī Jiǔ
-|zh_tl   = 
+|zh_tl   = Please Drink the Wine of Victory Celebration
 |ja      = 勝利の祝い酒
 |ja_rm   = Shouri no Iwai Sake
 |ja_tl   = A Drink to Victory
-|ko      = 승리의 축배를 들어라
-|ko_rm   = Seungri-ui Chukppaereul Deureora
+|ko      = 승리<->의 축배를 들어라
 |ko_tl   = Drink A Toast to Victory
 |es      = Un brindis por la victoria
 |es_tl   = A Toast to Victory
@@ -891,14 +875,20 @@
 |pt      = Um Brinde à Vitória
 |pt_tl   = A Toast to Victory
 |tr      = Zaferin Şerefine
-|tr_tl   = 
+|tr_tl   = In Honor of Victory
 |it      = Un brindisi alla vittoria
-|it_tl   = 
+|it_tl   = A Toast to Victory
 }}
 
 ==Change History==
 {{Change History|3.2}}
 
+==Notes==
+<references group="Translation Note" />
+
 ==Navigation==
 {{Archon Quest Navbox|Chapter III}}
+
 [[es:Un brindis por la victoria]]
+[[ja:勝利の祝い酒]]
+[[vi:Mời Uống Ly Rượu Mừng Chiến Thắng]]

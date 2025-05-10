@@ -1,5 +1,5 @@
 {{Quest Infobox
-|id            = 13022
+|id            = 13022; 13023
 |image         = Story Quest Pride and Prejudice.png
 |type          = Story
 |chapter       = Vultur Volans Chapter
@@ -16,13 +16,10 @@
 |prev          = A Thorough Investigation
 |next          = 
 |domain        = Secret Cavern
-|exp           = 775
-|mora          = 53,900
-|primogems     = 60
-|other         = {{Card|Guide to Ingenuity|5}}{{Card|Hero's Wit|6}}{{Card|Mystic Enhancement Ore|12}}
+|rewards       = Adventure EXP*775;Primogem*60;Mora*53,900;Guide to Ingenuity*5;Hero's Wit*6;Mystic Enhancement Ore*12
 |voiced        = yes
 }}
-'''''Pride and Prejudice''''' is the third part of [[Alhaitham]]'s [[Story Quest]] [[Vultur Volans Chapter]]: Act I - [[The Illusions of the Mob]].
+'''''Pride and Prejudice''''' is the third and final part of {{Quest|The Illusions of the Mob}}.
 
 ==Steps==
 # Head to [[Siraj]]'s hideout
@@ -34,6 +31,8 @@
 # Head into the heart of the research base
 # Listen to Ilyas's thoughts
 # Head into the heart of the research base
+#* Wave 1:{{Enemy List|Grounded Hydroshroom;Whirling Pyro Fungus*2;Stretchy Electro Fungus*2}}
+#* Wave 2:{{Enemy List|Electro Whopperflower;Large Hydro Slime;Hydro Slime*3}}
 # Listen to Ilyas's thoughts
 # Head into the heart of the research base
 # Listen to Ilyas's thoughts
@@ -59,7 +58,7 @@
 
 ==Dialogue==
 {{Quest Description|While stopping by Gandharva Ville, Ilyas managed to recover his memories. It's now time to follow him to Siraj's hideout.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked location in Apam Woods)
 :{{A|vo ahlq003 1 ilyas 01.ogg}} '''Ilyas:''' This is the place.
 :{{A|vo ahlq003 1 paimon 01.ogg}} '''Paimon:''' It's so well-hidden, but there's nothing spooky about it. Hm, let's go inside and take a look!
@@ -71,9 +70,9 @@
 :{{A|vo ahlq003 2 paimon 03.ogg}} '''Paimon:''' Did he get separated from us? Should we wait here or turn around and look for him?
 :{{A|vo ahlq003 2 alhaitham 02.ogg}} '''Alhaitham:''' There's no need for that. Let's keep moving.
 :{{A|vo ahlq003 2 paimon 04.ogg}} '''Paimon:''' Uhh, alright. We'll continue in and see if he catches up to us.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|This research base lined with numerous rooms seems to have been completed a long time ago. Confoundingly, Ilyas has also disappeared, making the truth ever murkier. All you can do is probe further...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the next hut)
 :{{color|menu|A sudden dizziness sets in, and a scene starts to play in your mind...}}
 :{{A|vo ahlq003 3 radju 01.ogg}} '''Raju:''' It's okay, Ilyas. You've done more than enough for me already...
@@ -100,9 +99,9 @@
 :{{A|vo ahlq003 3 alhaitham 04.ogg}} '''Alhaitham:''' The collective consciousness project is already complete, and Ilyas is now returning to the collective.
 :{{DIcon}} So he tricked us?
 :{{A|vo ahlq003 3 alhaitham 05.ogg}} '''Alhaitham:''' Not entirely... Keep walking and you'll see why.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Your mind has been flooded by Ilyas's memories. They seem to be painting a picture of why he joined the Hive...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the open area)
 :{{A|vo ahlq003 13 paimon 01.ogg}} '''Paimon:''' It's completely different from what Ilyas said. This place looks like it's been done for a while...
 
@@ -135,6 +134,9 @@
 ;(Use Nahida's All Schemes to Know on the person sleeping on a bed in the hut on the highest platform, optional)
 :{{A|vo ahlq003 13 karwan 01.ogg}} '''Member of the Collective Consciousness:''' (I just have to stay here... Just follow the collective...)
 
+;(When bringing only one key to the next gate)
+:{{A|vo ahlq003 13 paimon 03.ogg}} '''Paimon:''' Just in case, why don't we take both keys with us?
+
 ;(Approach the next open area)
 :{{color|menu|The scene is much clearer this time, likely because it happened recently...}}
 :{{A|vo ahlq003 5 pitar 01.ogg}} '''Pitar:''' Ilyas, this is all very strange. Is there really no research group that will take you?
@@ -157,10 +159,10 @@
 :{{A|vo ahlq003 5 paimon 01.ogg}} '''Paimon:''' Paimon can't believe it! He really did trick us, that giga jerk!
 :{{A|vo ahlq003 5 paimon 02.ogg}} '''Paimon:''' No, Siraj is the real giga jerk here! Ilyas is just a regular jerk!
 :{{A|vo ahlq003 5 paimon 03.ogg}} '''Paimon:''' Ooh, Paimon's so mad! We're gonna find him, and we're gonna make him explain himself!
+{{Dialogue End}}
 ----
-{{Dialogue end}}
 {{Quest Description|update|You are nearly at the deepest part of the research base. What might you be able to find there?}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use Nahida's All Schemes to Know on Ilyas, optional)
 :{{A|vo ahlq003 13 ilyas 01.ogg}} '''Ilyas:''' (I must... return... to the Hive.)
 
@@ -170,7 +172,7 @@
 :{{A|vo ahlq003 6 ilyas 02.ogg}} '''Ilyas:''' I intentionally slowed my integration into the collective consciousness because I wanted to see you one last time as Ilyas.
 :{{A|vo ahlq003 6 ilyas 03.ogg}} '''Ilyas:''' And I wanted to apologize to you as him. It was only at Gandharva Ville that the second thing I must do occurred to me: Bring you all here.
 :{{A|vo ahlq003 6 ilyas 04.ogg}} '''Ilyas:''' To throw off the matra and bring Alhaitham to the Hive &mdash; that was my task as Siraj Number 36.
-:{{A|vo ahlq003 6 paimon 02.ogg}} '''Paimon:''' Y&mdash;You were already Siraj Number 36? But you passed the matra's lie detector test...！
+:{{A|vo ahlq003 6 paimon 02.ogg}} '''Paimon:''' Y&mdash;You were already Siraj Number 36? But you passed the matra's lie detector test...{{sic|！<!--This is a full-width exclamation mark.-->}}
 :{{A|vo ahlq003 6 ilyas 05.ogg}} '''Ilyas:''' Yes, I truly did forget many things during that time, even my identity and assigned responsibilities.
 :{{A|vo ahlq003 6 ilyas 06.ogg}} '''Ilyas:''' However, it's not that I got scared and forgot. I... chose to delete those memories.
 :{{A|vo ahlq003 6 ilyas 07.ogg}} '''Ilyas:''' It's difficult to fool Alhaitham, so I had to create the perfect guise for myself.
@@ -198,7 +200,7 @@
 :{{A|vo ahlq003 6 siraj 08.ogg}} '''Siraj:''' People are so obsessed with "collective will" that even those on the fringes will attempt to fit in after suffering setbacks.
 :{{A|vo ahlq003 6 siraj 09.ogg}} '''Siraj:''' Isn't that right, Ilyas?
 :{{A|vo ahlq003 6 ilyas 13.ogg}} '''Ilyas:''' ...
-:{{A|vo ahlq003 6 siraj 10.ogg}} '''Siraj:''' There's no need to deny this, as it is fact. It is natural for social creatures to congregate together.
+:{{A|vo ahlq003 6 siraj 10.ogg}} '''Siraj:''' There's no need to deny this, as it is fact. It is natural for social creatures to conform.
 :{{A|vo ahlq003 6 siraj 11.ogg}} '''Siraj:''' And the terminus of "conformity" is a collective consciousness, through which even an ordinary bee colony can become a powerful swarm. Replace the bees with humans, and this model becomes even more potent.
 :{{A|vo ahlq003 6 siraj 12.ogg}} '''Siraj:''' Welcome to the Hive, Alhaitham. You once arrogantly denied the merits of this project before the Grand Sage.
 :{{A|vo ahlq003 6 siraj 13.ogg}} '''Siraj:''' A few simple words from you, and my research was consigned to nothingness. Of course, I'm well aware that you don't care about any of this. You don't care about the pain of others.
@@ -249,10 +251,10 @@
 :{{A|vo ahlq003 6 alhaitham 11.ogg}} '''Alhaitham:''' I've already sent my "gift" to the collective. It will take some time for the recipient to receive it.
 :{{A|vo ahlq003 6 alhaitham 12.ogg}} '''Alhaitham:''' You two just need to brace yourselves for the nuisance in front of us.
 :{{A|vo ahlq003 6 paimon 21.ogg}} '''Paimon:''' Well, all right. Paimon doesn't know how you get so confident, but we'll hold them off for as long as we can!
+{{Dialogue End}}
 ----
-{{Dialogue end}}
 {{Quest Description|update|In the end, Ilyas still chose to return to the Hive. However, this still somehow fell within Alhaitham's calculations. He seems to have made contingency plans against the tricky situation you now find yourselves in. All you need to do is to get rid of the opponents in front of you.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After defeating the first wave)
 :{{A|vo ahlq003 7 voice1 01.ogg}} '''White Noise From the "Collective":''' Alhaitham... isn't that bad of a person...
 :{{A|vo ahlq003 7 voice2 01.ogg}} '''White Noise From the "Collective":''' But it has to be done. He must be eliminated so that we can evolve.
@@ -320,9 +322,9 @@
 ::'''Member of the Collective Consciousness:''' I should be the one in your position!
 :;(Siraj wakes up to see Alhaitham's sword in the terminal, causing it to shut down)
 :;(Cinematic ends)
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The collective under Siraj's control has now collapsed. Siraj's staring at Alhaitham with resentment. Alhaitham seems to want to tell him something as well.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{A|vo ahlq003 8 paimon 01.ogg}} '''Paimon:''' The Hive... shut down?
 :{{DIcon}} It's over.
 :{{A|vo ahlq003 8 paimon 02.ogg}} '''Paimon:''' What happened just now?
@@ -372,9 +374,9 @@
 :{{A|vo ahlq003 8 alhaitham 24.ogg}} '''Alhaitham:''' Good. Hm, seems like the interesting part is already over. I'll leave the arrests to you all.
 :{{A|vo ahlq003 8 alhaitham 25.ogg}} '''Alhaitham:''' See you.
 :{{A|vo ahlq003 8 paimon 10.ogg}} '''Paimon:''' And off he goes... *sigh* There still are a lot of test subjects here, so let's stick around for a while.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|Alhaitham entrusted the arrests to Cyno and left the Hive. The arrested test subjects are showing signs of shame and guilt. Maybe they will share their thoughts.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use Nahida's All Schemes to Know on Cyno, optional)
 :{{A|vo ahlq003 13 cyno 01.ogg}} '''Cyno:''' (Sheep without a shepherd.)
 
@@ -431,9 +433,9 @@
 :{{A|vo ahlq003 10 cyno 05.ogg}} '''Cyno:''' Watch out for any of Siraj's associates who might still be in hiding. If you encounter anything you can't take care of, come find me at the Akademiya.
 :{{A|vo ahlq003 10 paimon 04.ogg}} '''Paimon:''' Okay! You stay safe too, Cyno!
 :{{A|vo ahlq003 10 paimon 05.ogg}} '''Paimon:''' Let's go meet up with Alhaitham!
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The matra have seized all the research data in this place. It's time to go.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Exit the Domain)
 :{{A|vo ahlq003 11 alhaitham 01.ogg}} '''Alhaitham:''' The matter's settled. We can return now.
 :{{A|vo ahlq003 11 alhaitham 02.ogg}} '''Alhaitham:''' I actually thought it would've been settled sooner. This took much longer than I expected.
@@ -453,11 +455,11 @@
 :{{A|vo ahlq003 11 alhaitham 09.ogg}} '''Alhaitham:''' It's too much of a hassle to explain everything from the top... You know what? Come with me.
 :{{A|vo ahlq003 11 paimon 06.ogg}} '''Paimon:''' Eh? Where to?
 :{{A|vo ahlq003 11 alhaitham 10.ogg}} '''Alhaitham:''' You'll know when we get there.
+{{Dialogue End}}
 ----
-{{Dialogue end}}
 {{Quest Description|update|You want to learn more about the truth of the collective consciousness from Alhaitham, but he claims to be off the clock. He said that he might have some other method to placate Paimon's curiosity. It's time to follow him and find out.}}
-{{Dialogue start}}
-;(Enter [[Alhaitham's Home|Alhaitham's house]])
+{{Dialogue Start}}
+;(Enter [[Alhaitham's Home]])
 {{Quest Description|update|You arrived at Alhaitham's house, only to be greeted by someone unexpected...}}
 :{{A|vo ahlq003 12 paimon 01.ogg}} '''Paimon:''' Is this... your home?
 :{{A|vo ahlq003 12 alhaitham 01.ogg}} '''Alhaitham:''' Yes.
@@ -492,9 +494,7 @@
 :{{A|vo ahlq003 12 alhaitham 05.ogg}} '''Alhaitham:''' Judging by the deafening din coming from the living room, you all must be getting along quite well.
 :{{A|vo ahlq003 12 kaveh 13.ogg}} '''Kaveh:''' Hmph, entertain your own friends, why don't you?
 :{{A|vo ahlq003 12 alhaitham 06.ogg}} '''Alhaitham:''' I'll leave the books here.
-
-:'''You skim through a few pages, but its contents are too esoteric and difficult to understand...'''
-
+:{{Black Screen|You skim through a few pages, but its contents are too esoteric and difficult to understand...}}
 :{{A|vo ahlq003 12 paimon 12.ogg}} '''Paimon:''' Uh, Paimon's dizzy from reading... This is way too complicated... Why don't we just ask questions instead?
 :{{A|vo ahlq003 12 paimon 13.ogg}} '''Paimon:''' Paimon wants to know... Uh... Oh, how did you know about the collective consciousness's weakness?
 :{{A|vo ahlq003 12 alhaitham 07.ogg}} '''Alhaitham:''' A year ago, Siraj presented his thesis to the Grand Sage, who offhandedly asked for my opinion. I actually responded with two lines of reasoning.
@@ -525,7 +525,7 @@
 :{{A|vo ahlq003 12 kaveh 20.ogg}} '''Kaveh:''' Oh, so the pot's calling the kettle black, is he? Hmph, well, having said all that, are you okay?
 :{{A|vo ahlq003 12 alhaitham 18.ogg}} '''Alhaitham:''' I'm doing quite well &mdash; much better than that painting you're trying to hang on the wall.
 :{{A|vo ahlq003 12 kaveh 21.ogg}} '''Kaveh:''' You...! You don't understand anything! Stop criticizing my taste in decoration!
-:'''(Traveler):''' (Kaveh seems to be upset again...)
+:'''{{Traveler}}:''' (Kaveh seems to be upset again...)
 :{{A|vo ahlq003 12 paimon 19.ogg}} '''Paimon:''' Paimon can't tell which of them is more problematic... Let's just get this over with and leave...
 :{{DIcon}} I blame your curiosity, Paimon...
 :{{A|vo ahlq003 12 alhaitham 19.ogg}} '''Alhaitham:''' You whisper very loudly.
@@ -603,11 +603,15 @@
 :{{A|vo ahlq003 14 kaveh 02.ogg}} '''Kaveh:''' (And what he said just now... D&mdash;Does he know about my drunken scribbling?)
 :{{A|vo ahlq003 14 kaveh 03.ogg}} '''Kaveh:''' (No... Wait, did someone tell him? Was it the people at the tavern or the liquor shop...? Why, that owner! He promised to keep this a secret!)
 :{{A|vo ahlq003 14 kaveh 04.ogg}} '''Kaveh:''' (Also, is it really true that I can't hold my liquor? I thought that impulsive speaking and writing were normal after a few drinks. Oh well, everyone loves to write random stuff on the message boards anyway, so...)
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Trivia==
 * The name of the quest may be a reference to the 1813 novel of manners ''{{w|Pride and Prejudice}}'' by English novelist Jane Austen.
-*Re-entering the office will replay the final cutscene between Alhaitham and Kaveh.
+* Re-entering the office will replay the final cutscene between Alhaitham and Kaveh.
+* Alhaitham's Home cannot be entered again after leaving it.
 
 ==Other Languages==
 {{Other Languages
@@ -647,3 +651,7 @@
 
 ==Change History==
 {{Change History|3.4}}
+
+[[es:Orgullo y prejuicio]]
+[[pt-br:Orgulho e Preconceito]]
+[[vi:Thành Kiến Ngạo Mạn]]

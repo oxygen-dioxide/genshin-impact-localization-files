@@ -1,138 +1,237 @@
-{{About|the character|the weekly challenge|Wolf of the North Challenge}}
-{{Character Infobox
-|image            = Andrius.png
-<!--|chineseName      = {{zh|安德留斯|rm=Āndéliúsī}}
-|japaneseName     = {{ja|アンドリアス|rm=Andoriasu}}
-|koreanName       = {{ko|안드리우스|rm=Andeuriuseu}}-->
-|type             = Quest NPC
-|deceased         = Past
-|element          = Anemo
-|element2         = Cryo
-|region           = Mondstadt
-|title            = Dominator of Wolves
-|title2           = Lupus Boreas
-|title3           = Great Wolf King of the North<ref name="DT">{{Ref/Quest|Dishonorable Trial}}</ref><ref>{{Ref/Quest|A Soul Set Apart}}</ref>
-|title4           = King of the North Wind<ref name="BOG">{{Ref/Book|Biography of Gunnhildr}}</ref>
-|affiliation      = Four Winds
-|affiliation2     = Gods
-|voiceEN          = [https://jacobcraner.com/ Jacob Craner]<ref name="Andrius EN/JP-VA">Twitter Post: [https://twitter.com/GenshinImpact/status/1329982917175504901 EN & JP VA Announcement]</ref>
-|voiceJP          = {{w|Taiten Kusunoki|Taiten Kusunoki ({{ja|楠 大典}})}}<ref name="Andrius EN/JP-VA" />
-|voiceKR          = [https://namu.wiki/w/한신(성우) Hanshin ({{ko|한신}})]<ref>Twitter: [https://twitter.com/genshinimpactkr/status/1329983179554340865 KR VA Announcement]</ref>
+{{About|the Weekly Boss|the character|Boreas}}
+{{Enemy Infobox
+|name      = Andrius
+|image     = <gallery>
+Enemy Boreas.png|Archive
+Enemy Andrius Full Artwork.png|Full Art
+</gallery>
+|title     = Dominator of Wolves
+|type      = Weekly Bosses
+|family    = Enemies of Note
+|dmgtype   = Anemo
+|dmgtype2  = Cryo
+|weakpoint = no
+|ability1  = Pushing Vacuum Field
+|ability2  = Energy Generation
+|region    = Mondstadt
+|area      = Windwail Highland
+|subarea   = Wolvendom
+|drops     = Tail of Boreas,Ring of Boreas,Spirit Locket of Boreas
 }}
-'''Andrius''', also known as '''Lupus Boreas''', was a powerful [[god]] in [[Mondstadt]] best known for his war against [[Decarabian]], the God of Storms, during the [[Archon War]]. Towards the end of the era, Andrius chose to let his physical body die, leaving behind his spirit to watch over the land of Mondstadt.
+'''Andrius''', also known as the '''Wolf of the North Challenge''' and the '''Dominator of Wolves Challenge''', is a [[Weekly Boss]] found in [[Wolvendom]], [[Mondstadt]]. It is unlocked after completing the {{Quest|The Meaning of Lupical}}.
 
-Andrius later became one of the [[Four Winds]] tasked with protecting the nation under the request of the Anemo Archon [[Barbatos]]. At some point in time, he took up residence in [[Wolvendom]], where he can manifest a temporary form made of ice and wind to do battle against those who take up his challenge. After completing Act I of [[Razor]]'s [[Story Quest]], "[[The Meaning of Lupical]]," Andrius can be fought in the [[Wolf of the North Challenge]], and successfully completing the challenge yields rewards once per week.
+==Rewards==
+{{World Boss Rewards
+|weekly=1
+|gem=Shivada Jade,Agnidus Agate,Prithiva Topaz
+|exclusive=Tail of Boreas,Ring of Boreas,Spirit Locket of Boreas
+}}
 
-==Profile==
-===Introduction===
-{{Quote|A noble soul that watches over Wolvendom. When the safety of the wolves is threatened, it will take the form of a wolf and show its fangs and claws. It is said that its powers were given to it by an ancient [[archon|god]].|[[Adventurer Handbook]] description}}
-<blockquote>The noblest and greatest of souls, who watches over the lupical of Wolvendom.<br />
-When the wolfpack is imperiled, it will emerge in the form of a wolf and show forth its fangs and claws.
+==Stats==
+{{Enemy Stats
+|cryo_res  = Immune
+|anemo_res = Immune
 
-The wolves of Wolvendom are frightening phantoms to the people of Mondstadt:<br />
-A blurred shape flashing through the forest, a chilling howl in the indeterminate distance, the creeping sense of eyes constantly nailed to their backs...<br />
-Humans rarely have the opportunity to lock their eyes with a wolf, for this is the law Lupus Boreas laid down for its race.
+|hp_ratio  = 18
+|hp_type   = 1
+|atk_ratio = 7.2
+|atk_type  = 1
+}}
 
-&mdash;[[Archive]] description</blockquote>
+==Abilities==
+''Most ability names are unofficial.''
+===Phase 1===
+{{Enemy Attacks
+|enemy = Andrius
 
-===Personality===
-Andrius is described as a "noble soul". Having come to view human society as a disappointment, Andrius only takes in abandoned infants, whom he sees as blameless and pure, and outcasts into his "lupical." Nonetheless, he still prevents them from getting involved in wolven matters, as they are not wolves.
+|name_1 = Wolf Leap
+|desc_1 = Andrius jumps into the air and leaps toward the ice circle that appears on the ground, dealing '''83.3% ATK''' as {{Color|Cryo DMG}} and generating a Cryo [[Energy|Energy Orb]]. This attack cannot be dodged using [[Sprinting#Dash|Dash]] [[Invincibility Frames|i-frames]].
 
-Despite his disappointment with humanity, Andrius is not aggressive towards them, as after [[Decarabian]]'s fall, he ceased his attacks and cooperated with [[Barbatos]] to become one of the [[Four Winds]] of Mondstadt.
+|name_2 = Wolf Charge
+|desc_2 = After charging for a while, Andrius will quickly dash towards the player, dealing '''100% ATK''' {{Color|Cryo DMG}} and leaving an ice trail in his wake.
 
-===Appearance===
-Andrius' true appearance remains unknown. As the Dominator of Wolves, Andrius takes the form of a large bluish-colored Wolf.
+|name_3 = Wolf Slash ({{Color|Cryo}})
+|desc_3 = Andrius raises his front legs and slashes towards his front, dealing '''58.3% ATK''' as {{Color|Cryo DMG}} to players around him.
+|file_3 = Andrius Wolf Slash Cryo
 
-==Quests and Events==
-{{Quests and Events}}
+|name_4 = Tail Sweep (Ranged)
+|desc_4 = Andrius raises his hind legs and sweeps his tail quickly while shooting small icicles towards the player, dealing '''25% ATK''' as {{Color|Cryo DMG}}. These icicles will remain on the arena and explode after a period of time, dealing '''58.3% ATK''' as {{Color|Cryo DMG}} and generating a {{Color|Cryo}} [[Energy]] Orb.
+|file_4 = Andrius Tail Sweep Ranged
 
-==Story==
-===History===
-Long in the past, Andrius' powers were given to him by an ancient god.<ref>{{Ref/Enemy|Lupus Boreas|handbook=1}}</ref> It is currently unknown who this god was, but this put Andrius on the level of a god himself.
+|name_5 = Spinning Slash
+|desc_5 = Andrius creates circular ice surfaces around him before spinning quickly, dealing '''83.3% ATK''' as {{Color|Cryo DMG}} (The actual range of slash is wider in front of him than behind him) and generating a Cryo [[Energy|Energy Orb]]. This attack cannot be dodged using Dash i-frames.
 
-Sometime during the [[Archon War]], hostility arose between Andrius and Decarabian. Andrius declared war on Decarabian while Decarabian enclosed his capital city &mdash; the area now known as [[Stormterror's Lair]] &mdash; within a storm wall,<ref name="BOG" /> thus starting the era known as the Age of Kings.<ref name="History">{{Ref/Book|History of Kings and Clans: Prologue}}</ref> They reached a stalemate: Andrius failed to land even a scratch on the Lord of the Tower,<ref>{{Ref/Item|Fragment of Decarabian's Epic}}</ref> while Decarabian was either incapable of &mdash; or uninterested in &mdash; defeating Andrius. However, Decarabian's people grew discontent with his rule. 2600 years ago, they rose up against him with the help of [[Barbatos]], culminating in Decarabian's death.<ref>{{Ref/CS|Venti|3}}</ref><ref>{{Ref/CS|Venti|4}}</ref>
+|name_6 = Repositioning
+|desc_6 = After attacking his hind legs, Andrius will reposition himself to face the player(s).
+}}
 
-At some point during the Archon War, Andrius decided that he was unworthy of becoming the Anemo Archon due to his perceived lack of love for humanity that an Archon ought to have.<ref>{{Ref/Item|Boreal Wolf's Nostalgia}}</ref> Realizing his blizzards could only take lives and not nourish them, he chose to pass on, letting his power flow into the land to nurture it and its people.<ref>{{Ref/Item|Spirit Locket of Boreas}}</ref> It is unclear when exactly this occurred relative to Decarabian's death, but it was likely around the same time or right beforehand.
+===Interlude Phase===
+''Interlude Phase is skipped if Andrius' HP is reduced to 0 in a single strike before the start of Interlude Phase.''
 
-Upon the death of his physical body, part of Andrius' spirit and power took on its current icy form. However, this form is incapable of harnessing his full abilities.<ref>{{Ref/Item|Tail of Boreas}}</ref> Around 1000 years ago, after [[Vennessa]]'s rebellion against the [[Mondstadt Aristocracy]], Andrius officially became one of the Four Winds of Mondstadt, while the Knight of Boreas &mdash; a position that currently holds an unknown relationship to him &mdash; joined the newly established [[Knights of Favonius]]. In the past, the [[Temple of the Wolf]] located near the [[Thousand Winds Temple]] was used to worship him, but it has long been abandoned, while Andrius' spirit dwells on the other side of Mondstadt.
+{{Enemy Attacks
+|enemy = Andrius
 
-Andrius would eventually become the leader of a group of wolves in Wolvendom, while continuing to accept abandoned infants into his pack. Sometime before the start of the game, he found and took in [[Razor]]. The Knights of Favonius' current Grand Master, [[Varka]], is also the current Knight of Boreas. Before he went on his expedition, he would occasionally visit Wolvendom;<ref>{{Ref/CS|Razor|3}}</ref> however, his relationship to Andrius is currently unclear.
+|desc_1 = During this phase, the edge of the arena will be covered by an icy floor that deals '''16.6% ATK''' as {{Color|Cryo DoT}} if stood in.
+Andrius runs in a circle around the map, and will '''Wolf Charge''' towards the player(s) when he stops (twice). Next, he circles the arena once again, then '''Wolf Leaps''' to the middle of the arena, either continuing Phase 1 or entering Phase 2 if certain triggers are met.
+* Trigger 1: When his HP falls below '''55%'''
+* Trigger 2: The player(s) take too long to defeat him.
+|file_1 = Andrius Wolf Leap Interlude
+|caption_1 = Wolf Leap (Interlude)
+|file_1_2 = Andrius Wolf Charge Interlude
+|caption_1_2 = Wolf Charge (Interlude)
+}}
 
-===Story Quests===
-Sometime after the Stormterror Crisis was resolved, [[Springvale]] was attacked by [[rifthounds]], which the residents of the village blamed Andrius' wolf pack and Razor for despite Razor's insistence that they were not responsible. After hearing the arguing, Andrius emerged and challenged both Razor and the Traveler to prove their conviction. Upon being satisfied, he informed the group that Razor was telling the truth and told Razor not to get involved in the upcoming battle between the packs, for he is a human and not a wolf.<ref>{{Ref/Quest|Fate's Chosen Lupical}}</ref>
+===Phase 2===
+''Phase 2 is skipped if Andrius' HP is reduced to 0 before the end of the Interlude Phase.''
+* Phase 1 abilities can still be used in this phase.
 
-===Archon Quests===
-When the Traveler goes to [[Wolvendom]] to investigate the [[Abyss Order]], Andrius is once again briefly seen being restrained by the [[Abyss Herald]], attempting to corrupt Andrius like how they did with [[Dvalin]]. After a short fight, the Abyss Herald is defeated and the wolf spirit is freed. Paimon asks Andrius about the "[[Weird Statue|Field Tiller]]" (the codename of the first [[Ruin Guard]]s), Andrius then explains that it has stumbled upon its territory, mistaking the machine as a challenger.<ref name="DT" /> During the fight, Andrius dealt a damaging blow on the Field Tiller, who then fled the area. Furthermore, [[Dainsleif]] mentions that Andrius's body died long ago and that his spirit is what resides over [[Wolvendom]].
+{{Enemy Attacks
+|enemy = Andrius
 
-==Character Mentions==
-{{Character Mentions}}
+|name_1 = Push
+|desc_1 = At the start of Phase 2, [[Vacuum Field|pushes]] nearby player away from himself.
+
+|name_2 = Frozen Pillars
+|desc_2 = At the start of Phase 2, 6 pillars and icy floor will be generated around the edge of the arena. The icy floor will deal '''4.16% ATK''' as {{Color|Cryo DoT}} to characters who step on it and reduce their [[Movement Speed]] by '''12%'''.
+* When hit by Andrius' own '''Wolf King Roar''' or '''Wind Blades''', the pillars will explode, each dealing '''66.6% ATK''' as {{Color|Cryo DMG}} and randomly generating 0&ndash;5 Cryo [[Energy|Energy Orbs]] at its location.
+* Despite having no visible health bars, the pillars can be damaged and destroyed using [[Elemental Reactions]], and are weakest against {{Pyro}}. Destroying a pillar will remove the damaging icy floor around it.
+{{Elemental Shield Data|Cryo|12|Pillar}}
+|file_2 = Andrius Frozen Pillar Explosion
+|caption_2 = Pillar Explosion
+
+|name_3 = Icicle Storm
+|desc_3 = Andrius charges for a while and summons icicles that fall from the sky, dealing '''25% ATK''' as {{Color|Cryo DMG}}. The fallen icicles cannot be dodged using Dash i-frames.
+
+|name_4 = Wolf King Roar
+|desc_4 = Andrius charges for a while and then roars, dealing '''0.83&ndash;2.5% ATK''' as {{Color|Anemo DoT}} in a huge AoE around him. The DMG is higher the farther the player is from Andrius.
+
+|name_5 = Wolf Slash ({{Color|Anemo}})
+|desc_5 = Andrius raises his front legs and slashes towards his front, dealing '''58.3% ATK''' as {{Color|Anemo DMG}} to players around him.
+|file_5 = Andrius Wolf Slash Anemo
+
+|name_6 = Tail Sweep (Melee)
+|desc_6 = Andrius raises his hind legs and sweeps his tail quickly, dealing '''58.3% ATK''' as {{Color|Cryo DMG}}.
+|file_6 = Andrius Tail Sweep Melee
+
+|name_7 = Ice Waves
+|desc_7 = Andrius raises his front legs while creating an ice path in front of him that applies {{Cryo}} to characters that stand on it, then releases ice waves on the path, dealing '''50% ATK''' as {{Color|Cryo DMG}}.
+
+|name_8 = Wind Blades
+|desc_8 = Andrius raises his front legs, then summons 3 vertical wind blades in a 60-degree forward arc, dealing '''41.6% ATK''' as {{Color|Anemo DMG}}.
+
+|name_9 = Small Phantom Wolf
+|desc_9 = Andrius summons a small phantom wolf to attack the player(s), dealing '''25% ATK''' as {{Color|Cryo DMG}}. The frequency of this attack will escalate as time progresses.
+* Trigger 1: When Andrius' HP falls below '''15%'''.
+* Trigger 2: The player(s) take too long to defeat him.
+}}
+
+==Battle Dialogue==
+{| class="wikitable"
+! colspan="2" |Andrius, Dominator of Wolves
+|-
+!Commence Trial
+|Traveler...<br>Ready to test your skills?
+|}
+
+==Achievements==
+{{Achievement Topic Table|topic=Wolf of the North Challenge}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=combat}}
+
+==Boss Description==
+{{Description|Rumor has it that a great eternal power rests at [[Wolvendom]], watching over the wolves...|[[Adventurer Handbook]], before unlocking Wolf of the North Challenge}}
+{{Description|A noble soul that watches over Wolvendom. When the safety of the wolves is threatened, it will take the form of a wolf and show its fangs and claws. It is said that its powers were given to it by an ancient [[god]].|Adventurer Handbook, after unlocking Wolf of the North Challenge}}
+{{Description|The noblest and greatest of souls, who watches over the lupical of Wolvendom.<br>When the wolfpack is imperiled, it will emerge in the form of a wolf and show forth its fangs and claws.<br><br>''The wolves of Wolvendom are frightening phantoms to the people of [[Mondstadt]]:<br>A blurred shape flashing through the forest, a chilling howl in the indeterminate distance, the creeping sense of eyes constantly nailed on their backs...<br>Humans rarely have the opportunity to lock their eyes with a wolf, for this is the law [[Lupus Boreas]] laid down for its race.''|[[Archive]]}}
 
 ==Trivia==
-===Etymology===
-*Following the theme of gods in ''Genshin Impact'' being named after demons in the ''{{w|The Lesser Key of Solomon#Ars Goetia|Ars Goetia}}'', {{Lang|Andrius|zh=安德留斯|zh_rm=Āndéliúsī}} is likely derived from {{Lang|{{w|Andrealphus}}|zh=安德雷斐斯|zh_rm=Āndéléifěisī}}, the 65th demon. In Johann Weyers' ''Pseudomonarchia Daemonum'', Andrealphus is instead the 54th demon.
-**It has also been theorized that Andrius is based on {{w|List_of_demons_in_the_Ars_Goetia#Andras|Andras}}, the 63rd demon who is said to be highly dangerous and rode on a black wolf. However, Andras' Chinese name, {{zh|安托士|rm=Āntuōshì}}, has much less in common with Andrius' Chinese name than Andrealphus' does. For this same reason, {{Lang|{{w|Andromalius}}|zh=安杜馬利烏士|zh_rm=Āndùmǎlìwūshì}} is also a less likely name basis.
-*{{w|Anemoi#Boreas|Boreas}} is the God of the North Wind in Greek mythology, directly relating to Andrius being the representative of the North amongst the Four Winds.
-*His English title, Lupus Boreas, roughly means "Wolf of the North Wind."
+* This challenge is the only Weekly Boss encounter that is not a Trounce Domain. Because of this:
+** The encounter itself is similar to that of Normal Bosses in that Andrius' strength scales on the player's current [[Adventure Rank|World Level]]. They can also leave the arena to cause him to despawn by running far enough or teleporting to a distant [[waypoint]].
+** This challenge is the only Weekly Boss encounter where the player can swap parties after defeating Andrius before obtaining the rewards for the [[Companionship EXP]] and [[Character EXP]].
+** The player cannot directly teleport to the boss and have to make their way there on foot.
+* Andrius is the only enemy to be immune to two different elements.
+* The first time this domain is challenged in [[Razor]]'s Story Quest, the Wolf is identified as "Boreas." After this, it is referred to as "Andrius."
+* In the {{Quest|We Will Be Reunited}}, it is confirmed by [[Dainsleif]] that the physical body of Andrius died long ago; the boss in this challenge is his spirit instead.
+* During the {{Quest|Dishonorable Trial}}, The Wolf of The North challenge is unavailable.
+* The Wolf of the North Challenge is the only Weekly Boss to not drop [[Character Ascension Materials#Ascension Gems|gem-type ascension materials]] for an element used in the fight; in this case, it does not drop [[Vayuda Turquoise]] gemstones even though the boss uses [[Anemo]]. This is likely because the Wolf of the North Challenge covers the gemstones of the elements not covered by the [[Confront Stormterror]] domain, the other Weekly Boss introduced in Version 1.0.
+* It is possible to put the meteorite from [[Starfell Sword]] or a Stone Stele from [[Dominus Lapidis]] below Andrius to evade his Spinning Slash attack, but this may cause Andrius to behave erratically due to his AI being unable to decide what to do next.
+* Prior to [[Version 1.2]],{{verify}} it was possible to petrify Andrius using Zhongli's [[Planet Befall]] (as demonstrated [https://youtu.be/x2fSfC6-w84 here]) if Zhongli is a higher level than Andrius.
+* Prior to Version 1.2,{{verify}} it was possible to force Andrius to exit the arena without despawning (as demonstrated [https://youtu.be/pd0oNFZFq_4&ab_channel=neilleexxi here]). This required at least 2 players in [[Co-Op Mode]] with the host summoning the boss while another player stood on a nearby tree. Due to his AI, he would change target and keep [[Aggro|aggression]] on the player on the tree, as long as the host did not attack and leave the arena. This caused Andrius to behave erratically due to being stuck outside the arena.
 
 ==Gallery==
 <gallery>
-Character Teaser - "Venti- The Four Winds" (English Voice-Over) - Genshin Impact
-Global Release Venti Illust.jpg|[https://twitter.com/GenshinImpact/status/1310081734143287296 Venti Illustration] celebrating 1 day until Global Release
-Monster Andrius thumb.png|Icon
-Boreas VA announcement.jpg|[https://twitter.com/GenshinImpact/status/1329982917175504901 Official EN and JP Voice Actor Announcement]
+Andrius Icon.png|Icon
+Weekly Boss Wolf of the North Location.png|Location
 </gallery>
 
-===Events===
-<gallery>
-Wish Upon a Lantern Still 2 Aether.jpg|[[Wish Upon a Lantern]] (Aether)
-Wish Upon a Lantern Still 2 Lumine.jpg|[[Wish Upon a Lantern]] (Lumine)
-</gallery>
+==Video Guides==
+{{EVT
+|video1   = https://youtu.be/9Czmm8XaOHE
+|caption1 = EVERYTHING You Need to Know about Andrius
+|video2   = https://youtu.be/zcRn9Vbmydw&lc
+|caption2 = How to EASILY Beat Andrius Lupus Boreas in Genshin Impact - Free to Play Friendly!
+}}
 
 ==Other Languages==
 {{Other Languages
-|en      = Lupus Boreas, Dominator of Wolves
-|zhs     = 北风的王狼，奔狼的领主
-|zhs_rm  = Běifēng de Wángláng, Bēnláng de Lǐngzhǔ
-|zht     = 北風的王狼，奔狼的領主
-|zht_rm  = Běifēng de Wángláng, Bēnláng de Lǐngzhǔ
-|zh_tl   = The King Wolf of the North Wind, the Lord of the [[Wolvendom|Running Wolves]]
-|ja      = 北風の王狼、奔狼の領主
-|ja_rm   = Hokufuu no Ourou, Hourou no Ryoushu{{Assumed}}
-|ja_tl   = The King Wolf of the North Wind, the Lord of the [[Wolvendom|Running Wolves]]
-|ko      = {{tt|북풍|北風}}<->의 {{tt|왕랑|王狼}}, 울프<->의 {{tt|영주|領主}}
-|ko_tl   = The King Wolf of the North Wind, the Lord of the Wolf
-|es      = Rey Lobo del Norte, Señor de los Lobos
-|es_tl   = Wolf King of The North, Lord of the Wolves
-|fr      = Loup du Nord, Seigneur du Territoire des loups
-|fr_tl   = Northern Wolf, Lord of the Wolf Territory
-|ru      = Лупус Бореалис, Волчий лорд
-|ru_tl   = Lupus Borealis, the Wolf Lord
-|th      = Lupus Boreas, Dominator of Wolves
-|vi      = Vua sói bắc phong, lãnh chúa Lang Lãnh
-|vi_tl   = The King Wolf of the North Wind, the Lord of the Territory of Wolves
-|de      = Großer Wolfskönig des Nordens, Herr von Wolfenlauf
-|de_tl   = Great Wolfking of the North, Lord of Wolvenrun
-|id      = Lupus Boreas, Dominator of Wolves
-|pt      = Lupus Boreas, Dominador dos Lobos
-|pt_tl   = Lupus Boreas, Dominator of Wolves
-|tr      = 
-|tr_tl   = 
-|it      = 
-|it_tl   = 
+|1_en      = Andrius
+|1_zhs     = 安德留斯
+|1_zhs_rm  = Āndéliúsī
+|1_zht     = 安德留斯
+|1_zht_rm  = Āndéliúsī
+|1_ja      = アンドリアス
+|1_ko      = 안드리우스
+|1_es      = Andrius
+|1_fr      = Andros
+|1_ru      = Андриус
+|1_th      = Andrius
+|1_vi      = Andrius
+|1_de      = Andrius
+|1_id      = Andrius
+|1_pt      = Andrius
+|1_tr      = Andrius
+|1_it      = Andrius
+
+|2_en       = Lupus Boreas, Dominator of Wolves
+|2_zhs      = 北风的王狼，奔狼的领主
+|2_zhs_rm   = Běifēng de Wángláng, Bēnláng de Lǐngzhǔ
+|2_zht      = 北風的王狼，奔狼的領主
+|2_zht_rm   = Běifēng de Wángláng, Bēnláng de Lǐngzhǔ
+|2_zh_tl    = The King Wolf of the North Wind, the Lord of the [[Wolvendom|Running Wolves]]
+|2_ja       = 北風の王狼、奔狼の領主
+|2_ja_rm    = Hokufuu no Ourou, Hourou no Ryoushu{{Assumed}}
+|2_ja_tl    = The King Wolf of the North Wind, the Lord of the [[Wolvendom|Running Wolves]]
+|2_ko       = {{tt|북풍|北風}}<->의 {{tt|왕랑|王狼}}, 울프<->의 {{tt|영주|領主}}
+|2_ko_tl    = The King Wolf of the North Wind, the Lord of the Wolf
+|2_es       = Rey Lobo del Norte, Señor de los Lobos
+|2_es_tl    = Wolf King of The North, Lord of the Wolves
+|2_fr       = Loup du Nord, Seigneur du Territoire des loups
+|2_fr_tl    = Northern Wolf, Lord of the Wolf Territory
+|2_ru       = Лупус Бореалис, Волчий лорд
+|2_ru_tl    = Lupus Borealis, the Wolf Lord
+|2_th       = Lupus Boreas, Dominator of Wolves
+|2_vi       = Vua sói bắc phong, lãnh chúa Lang Lãnh
+|2_vi_tl    = The King Wolf of the North Wind, the Lord of the Territory of Wolves
+|2_de       = Großer Wolfskönig des Nordens, Herr von Wolfenlauf
+|2_de_tl    = Great Wolfking of the North, Lord of Wolvenrun
+|2_id       = Lupus Boreas, Dominator of Wolves
+|2_pt       = Lupus Boreas, Dominador dos Lobos
+|2_pt_tl    = Lupus Boreas, Dominator of Wolves
+|2_tr       = Poyraz Kurdu, Kurtların Hakimi
+|2_tr_tl    = Gregale Wolf, Ruler of Wolves
+|2_tr_note  = {{w|Gregale}} is the cooling north-eastern Mediterranean wind.
+|2_it       = Lupus Boreas, Signore dei lupi
+|2_it_tl    = Lupus Boreas, Lord of Wolves
 }}
 
 ==Change History==
 {{Change History|1.0}}
 
-==References==
-{{Reflist|2}}
+==Navigation==
+{{Enemy Navbox|bosses}}
 
-[[de:Andrius]]
-[[es:Andrius]]
-[[fr:Andros]]
+[[es:Desafío del Señor de los Lobos]]
+[[fr:Loup du Nord, Seigneur du Territoire des loups]]
 [[ja:アンドリアス]]
-[[pl:Andrius]]
-[[pt-br:Andrius]]
-[[ru:Андриус]]
-[[th:Andrius]]
-[[zh:北風的狼王]]
+[[ru:Испытание Волка Севера]]
+[[zh:北風狼挑戰]]

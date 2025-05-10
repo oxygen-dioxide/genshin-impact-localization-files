@@ -1,8 +1,9 @@
 {{Character Infobox
-|type             = NPC
+|type             = Open-World NPC
 |image            = NPC Khalid.png
 |affiliation      = 
 |region           = Sumeru
+|location         = Sumeru
 |title            = Jeweler
 |ancestry         =
 |father           = 
@@ -17,13 +18,34 @@
 |voiceKR          = 
 |dialoguereward   = 
 }}
-'''Khalid''' is a [[Souvenir Shop]] [[NPC]] found in [[Sumeru City]], [[Sumeru]].
+'''Khalid''' is a [[shop]] [[NPC]] found in [[Sumeru City]], [[Sumeru]]. He is the owner of the [[Souvenir Shop|Souvenir shop]] "[[Menakeri's Treasure Shop]]" indicated by the {{DIcon|Souvenir}} icon on the map.
+
+The shop sells [[Weapon Ascension Material|weapon ascension materials]], [[Mora]] and [[Furnishing Blueprint|Furnishing blueprints]]. It is open at all times of the day.
 
 ==Shop==
-{{Shop/Header|currency=Dendro Sigil}}
-{{Shop/Unstocked}}
-{{Shop/Footer}}
+Unlocks when [[Vanarana's Favor]] reaches level 50.
+{{Shop/Header|currency=Dendro Sigil|total=1|vendor=Khalid}}
+{{Shop|Copper Talisman of the Forest Dew|2|5|total=1|x=3}}
+{{Shop|Oasis Garden's Reminiscence|2|5|total=1|x=3}}
+{{Shop|Echo of Scorching Might|2|5|total=1|x=3}}
+{{Shop|Mora|2|20|total=1|x=10,000}}
+{{Shop|Mora|1|inf=1|total=1|x=3,000}}
+{{Shop/Footer|total=70+}}
 
+====Blueprints====
+{{Shop/Header|currency=Dendro Sigil|total=1|vendor=Khalid}}
+{{Shop|Brightwood Fabric Box Platform|5|1|total=1|blueprint=1}}
+{{Shop|Hued Vase: Eventide|10|1|total=1|blueprint=1}}
+{{Shop|"In Drink's Clarity"|10|1|total=1|blueprint=1}}
+{{Shop|"The Dust Differential"|10|1|total=1|blueprint=1}}
+{{Shop|Hued Vase: Ajilenakh|10|1|total=1|blueprint=1}}
+{{Shop|Hued Vase: Crimson Sands|10|1|total=1|blueprint=1}}
+{{Shop|Karmaphala Wood Bulk Goods Berth|10|1|total=1|blueprint=1}}
+{{Shop|Brightwood Self-Tightening Wine Buckets|10|1|total=1|blueprint=1}}
+{{Shop|Adhigama Wood Open-Air Food Stall|10|1|total=1|blueprint=1}}
+{{Shop|"Light's Constancy"|10|1|total=1|blueprint=1}}
+{{Shop/Footer|total=95}}
+<!-- Do not remove the header "Blueprints". This section is transcluded on the Blueprints page. -->
 ==Location==
 <gallery>
 NPC Location Feresht, Halva, Khalid.png|Khalid's location
@@ -33,9 +55,6 @@ NPC Location Feresht, Halva, Khalid Context.png|Additional context
 ==Profile==
 ''(To be added.)''
 
-===Personality===
-''(To be added.)''
-
 ===Appearance===
 ''(To be added.)''
 
@@ -43,24 +62,24 @@ NPC Location Feresht, Halva, Khalid Context.png|Additional context
 {{Quests and Events}}
 -->
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 : {{DIcon|Idle}} Sell these now...
 :: {{A|VO Khalid 01.ogg}} "This new shipment of items &mdash; they're all so ridiculously over designed. I need to sell these now."
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Thoughts==
 {{All Schemes to Know Explanation|name=Khalid}}
 :{{A|VO Khalid All Schemes to Know 01.ogg}} '''Khalid:''' (Some of these goods are so gaudy... Better sell them off quickly and cheaply.)
 
 ==Dialogue==
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Khalid:''' Hello, welcome.
-:{{DIcon|Souvenir}} What do you have on offer? <!-- ''<small>(Condition)</small>'' -->
+:{{DIcon|Souvenir}} What do you have on offer? ''<small>(Before reaching [[Tree of Dreams]] Level 50)</small>''
 ::'''Khalid:''' All the jewels we currently have for sale have already been reserved.
 ::'''Khalid:''' You mean what we have in the shop? Most are from my personal collection and are just for display.
-<!-- :{{DIcon|Souvenir}} {{tx}} ''<small>(Condition)</small>''
-:'''{{subst:PAGENAME}}:'''
-:;(Opens Souvenir Shop)-->
+:{{DIcon|Souvenir}} What do you have on offer? ''<small>(After reaching Tree of Dreams Level 50)</small>''
+::'''Khalid:''' We'll occasionally deal in merchandise other than jewelry. Be my guest.
+:;(Opens Souvenir Shop)
 :{{DIcon}} Tell me about yourself...
 ::'''Khalid:''' I'm an antique collector, and I sell jewelry here and there.
 ::'''Khalid:''' Precious antiques are worth treasuring, and their prices are also out of the budgets of ordinary people, so it's not about making sales for me.
@@ -70,13 +89,13 @@ NPC Location Feresht, Halva, Khalid Context.png|Additional context
 ::'''Khalid:''' [[Feresht]] is a gifted child. I'm certain he can become an even more renowned antiques appraisal expert than me.
 :{{DIcon}} See you.
 ::'''Khalid:''' Take care, now.
-{{Dialogue end}}
+{{Dialogue End}}
 <!--
 ==Event Dialogue==
 ===Event Name===
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''{{subst:PAGENAME}}:'''
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Trivia==
 *
@@ -93,7 +112,6 @@ NPC Location Feresht, Halva, Khalid Context.png|Additional context
 |ja      = ハリード
 |ja_rm   = Hariido
 |ko      = 할리드
-|ko_rm   = Hallideu
 |es      = Jalid
 |fr      = Khalid
 |ru      = Халид
@@ -113,4 +131,7 @@ NPC Location Feresht, Halva, Khalid Context.png|Additional context
 {{Reflist}}
 -->
 
+[[es:Jalid]]
+[[fr:Khalid]]
 [[ja:ハリード]]
+[[pt-br:Khalid]]

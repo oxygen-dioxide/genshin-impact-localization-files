@@ -3,24 +3,21 @@
 |image         = A Gathering of Outlanders.png
 |type          = Story
 |event_name    = Windblume's Breath
-|chapter       = Windblume Festival
-|act           = 
+|chapter       = Windblume Festival (Event Chapter)
 |actNum        = I
 |actType       = Part
 |part          = 1
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 * Reach [[Adventure Rank]] 18 or above
-* Complete ''[[Song of the Dragon and Freedom]]''
+* Complete {{Quest|Song of the Dragon and Freedom|showType=0}}
 |characters    = Albedo; Amber; Candace; Collei; Cyno; Dehya; Eula; Katheryne (Mondstadt); Marjorie; Mika; Paimon; Sara; Setaria; Sucrose; Tighnari; Traveler; Venti
 |startLocation = [[City of Mondstadt]], [[Mondstadt]]
 |region        = Mondstadt
 |area          = Starfell Valley
-|subarea       = City of Mondstadt
+|subarea       = Mondstadt City
 |next          = A Riddle Amidst the Crowds
-|mora          = 20,000
-|primogems     = 30
-|other         = {{Card|Hero's Wit|2}}{{Card|Mystic Enhancement Ore|4}}
+|rewards       = Primogem*30;Mora*20,000;Hero's Wit*2;Mystic Enhancement Ore*4
+|otherRewards  = 
 * Unlocks the [[Windblume's Breath]] Event.
 |voiced        = yes
 }}
@@ -38,7 +35,7 @@
 
 ==Dialogue==
 {{Quest Description|As the Windblume Festival approaches, you and Paimon return to Mondstadt, grasped in the throes of festivity, and take on a rather different commission than you are used to...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Upon obtaining quest)
 :{{A|vo eqfh101 1 paimon 01.ogg}} '''Paimon:''' Hey, doesn't Mondstadt celebrate the Windblume Festival around this time of year?
 :{{A|vo eqfh101 1 paimon 02.ogg}} '''Paimon:''' Paimon has lots of good memories from the last one... the sweet scent of flowers on the breeze, the sweet smell of tasty snacks on the breeze, the feeling of the breeze on... your face? The only downside was the lack of commissions.
@@ -56,7 +53,7 @@
 :{{A|vo eqfh101 1 paimon 07.ogg}} '''Paimon:''' You know that feeling you get when you burst out the doors after a nice nap, hoping to make it to the store before the limited-edition drinks sell out, only to get there just in time to see the last two glasses snatched away right from under your nose by a couple of pesky lovebirds? That's what this feels like.
 :{{DIcon}} That's... very specific of you, Paimon.
 :{{A|vo eqfh101 1 katheryne 06.ogg}} '''Katheryne:''' Hehe. Perhaps you two could simply take this chance to&mdash;
-:{{A|vo eqfh101 1 sucrose 01.ogg}} '''Sucrose:''' (Traveler)! Paimon! Thank goodness I found you. Um, there's something I need your help with.
+:{{A|vo eqfh101 1 sucrose 01.ogg}} '''Sucrose:''' {{Traveler}}! Paimon! Thank goodness I found you. Um, there's something I need your help with.
 :{{A|vo eqfh101 1 paimon 08.ogg}} '''Paimon:''' Whoa, Sucrose?
 :{{DIcon}} Whoa, Sucrose?
 :{{DIcon}} Whoa, someone needs help after all?
@@ -105,7 +102,7 @@
 ::{{A|vo eqfh101 1 sucrose 21b 1.ogg}} '''Sucrose:''' ...Yes, you're right.
 :{{A|vo eqfh101 1 paimon 22a.ogg}} {{A|vo eqfh101 1 paimon 22b.ogg}} '''Paimon:''' Well, if {{MC|m=he|f=she}}'s in, then Paimon'll help too... with the talking, anyway.
 :{{A|vo eqfh101 1 paimon 23.ogg}} '''Paimon:''' But um, if things don't work out, can Paimon still get that Sweet Madame?
-:{{A|vo eqfh101 1 paimon 24.ogg}} '''Paimon:''' C'mon, (Traveler), this is a festival of gratitude and love after all. How could you refuse?
+:{{A|vo eqfh101 1 paimon 24.ogg}} '''Paimon:''' C'mon, {{Traveler}}, this is a festival of gratitude and love after all. How could you refuse?
 :{{A|vo eqfh101 1 marjorie 01.ogg}} '''Marjorie:''' 'Scuse me, Sucrose, could I borrow you for a second? Package for you...
 :{{A|vo eqfh101 1 sucrose 22.ogg}} '''Sucrose:''' Oh, sure.
 :{{A|vo eqfh101 1 sucrose 23.ogg}} '''Sucrose:''' Be right back.
@@ -115,13 +112,13 @@
 ;(Talk to Marjorie or Sucrose, optional)
 :{{A|vo dialog eqfh101 marjorie 01.ogg}} '''Marjorie:''' ...And that's everything. Are they all in satisfactory condition?
 :{{A|vo dialog eqfh101 sucrose 01.ogg}} '''Sucrose:''' ...Yep. Thank you, Marjorie.
-
 ----
 ;(Approach Collei)
 :{{A|vo eqfh101 2 paimon 01.ogg}} '''Paimon:''' Collei! Hey!
 :{{A|vo eqfh101 2 collei 01.ogg}} '''Collei:''' ...Oh, hey you guys. What are the chances...
 :{{A|vo eqfh101 2 paimon 02.ogg}} '''Paimon:''' You were staring into space just now. Something the matter?
 :{{A|vo eqfh101 2 collei 02.ogg}} '''Collei:''' Um... No, don't worry. I'm fine.
+:{{Introductory Note|Collei}}
 :{{A|vo eqfh101 2 collei 03.ogg}} '''Collei:''' I was just looking at a Mondstadt children's book in the souvenir shop over there.
 :{{A|vo eqfh101 2 collei 04.ogg}} '''Collei:''' While I was flipping through it, a piece of paper fell out. The writing on it was really mysterious... almost like a prophecy.
 :{{A|vo eqfh101 2 collei 05.ogg}} '''Collei:''' "If you can do these things, you may light the lantern of utmost joy and receive a supreme blessing."
@@ -129,7 +126,7 @@
 :{{A|vo eqfh101 2 collei 06.ogg}} '''Collei:''' "Find a flower that is not of this world. Find a guide who will never get lost. Find one who would never lie. Find a legend that never ends."
 :{{A|vo eqfh101 2 collei 07.ogg}} '''Collei:''' So four things in total. Here, have a look.
 :{{A|vo eqfh101 2 collei 08.ogg}} '''Collei:''' I asked the lady who owns the store about it, but she said that she didn't know anything about any paper slips.
-:'''(Traveler):''' (Perhaps we can ask a friend about this later...)
+:'''{{Traveler}}:''' (Perhaps we can ask a friend about this later...)
 :{{A|vo eqfh101 2 sucrose 01.ogg}} '''Sucrose:''' Hi there. Sorry to butt in, but... what's the name of that storybook you just mentioned?
 :{{A|vo eqfh101 2 collei 09.ogg}} '''Collei:''' Oh, it was called "[[The Boar Princess]]."
 :{{A|vo eqfh101 2 sucrose 02.ogg}} '''Sucrose:''' Hmm, that is strange... I've read that book, and it sounds like that note you found has no relation to the story at all.
@@ -189,7 +186,7 @@
 :{{A|vo eqfh101 2 ambor 07.ogg}} '''Amber:''' Oh, that's alright!
 :{{A|vo eqfh101 2 ambor 08.ogg}} '''Amber:''' In that case, you guys go rest up, and I'll go see Master [[Jean]] to ask for some time off.
 :{{A|vo eqfh101 2 collei 35.ogg}} '''Collei:''' Oh, okay...
-:{{A|vo eqfh101 2 ambor 09.ogg}} '''Amber:''' (Traveler), Sucrose, could you look after Collei for now?
+:{{A|vo eqfh101 2 ambor 09.ogg}} '''Amber:''' {{Traveler}}, Sucrose, could you look after Collei for now?
 :{{A|vo eqfh101 2 ambor 10.ogg}} '''Amber:''' I'll come get her later and take her out. There's still a whole bunch of people I need to introduce her to!
 :{{A|vo eqfh101 2 sucrose 14.ogg}} '''Sucrose:''' Sure, no problem.
 :{{DIcon}} You can count on us.
@@ -208,7 +205,9 @@
 :{{A|vo eqfh101 3 cyno 01.ogg}} '''Cyno:''' ...Why is this humble windmill such a great view?
 :{{A|vo eqfh101 3 tighnari 01.ogg}} '''Tighnari:''' I mean, it's understandable. It must have been a long time since you last came to Mondstadt.
 :{{A|vo eqfh101 3 cyno 02.ogg}} '''Cyno:''' Because it is the true "Great Vay-iew-vyastra."
+:{{Introductory Note|Cyno}}
 :{{A|vo eqfh101 3 tighnari 02.ogg}} '''Tighnari:''' ...
+:{{Introductory Note|Tighnari}}
 :{{A|vo eqfh101 3 cyno 03.ogg}} '''Cyno:''' Oh, come on. Don't tell me you don't get it?
 :{{A|vo eqfh101 3 cyno 04.ogg}} '''Cyno:''' View, vayu... and also mahamatra, vayuvyastra... no?
 :{{A|vo eqfh101 3 paimon 01.ogg}} '''Paimon:''' Tighnari, Cyno, over here!
@@ -231,11 +230,10 @@
 :{{A|vo eqfh101 3 collei 07.ogg}} '''Collei:''' Oh! Sucrose, what were you saying about you having a teacher as well...?
 :{{A|vo eqfh101 3 sucrose 02.ogg}} '''Sucrose:''' I was just going to mention that &mdash; I think we're in a somewhat similar situation. I'm an assistant to Mr. [[Albedo]], Mondstadt's genius alchemist.
 :{{A|vo eqfh101 3 albedo 01.ogg}} '''Albedo:''' Oh, please, Sucrose, "genius" is an unnecessary epithet. It will serve only to leave an exaggerated impression of me in the minds of our guests.
+:{{Introductory Note|Albedo}}
 :{{A|vo eqfh101 3 sucrose 03.ogg}} '''Sucrose:''' M&mdash;Mr. Albedo... but it is an objective truth...
 :{{A|vo eqfh101 3 paimon 03.ogg}} '''Paimon:''' Hey, Albedo's here too! Great, the more, the merrier!
-
-:'''Everyone introduces themselves, and exchanges pleasantries.'''
-
+:{{Black Screen|Everyone introduces themselves, and exchanges pleasantries.}}
 :{{A|vo eqfh101 3 tighnari 07.ogg}} '''Tighnari:''' Hmm. So tell me Sucrose &mdash; since your specialty is Bio-Alchemy, what do you know about the antitoxic properties of the [[Calla Lily]]?
 :{{A|vo eqfh101 3 paimon 04.ogg}} '''Paimon:''' Wait, wait!
 :{{A|vo eqfh101 3 paimon 05.ogg}} '''Paimon:''' Can we hold off on the nerdy topic for now? Paimon doesn't wanna be left out...
@@ -263,7 +261,7 @@
 :{{A|vo eqfh101 3 albedo 05.ogg}} '''Albedo:''' If you happen to have some samples with you, or relevant documentation on hand, perhaps you might give me the chance to review them later?
 :{{A|vo eqfh101 3 albedo 06.ogg}} '''Albedo:''' But before that, I invite the three of you to look at this.
 ;(Opens Food and Lodging Arrangements)
-::'''Food and Lodging Arrangements'''
+::{{Black Screen|Food and Lodging Arrangements}}
 ::Accommodations: One of Mr. Goth's other properties (Priority)/The Adventurers' Guild reception area (Backup Plan, to be confirmed).
 ::Food: Group meals on the first day, following which all are free to make their own arrangements amidst the city's various restaurants and taverns. Self-catering facilities will be prepared at lodgings.
 ::Outdoor Activities: Considering our guests' sightseeing interests, Sucrose, [[Timaeus]], myself, and some of the Knights of Favonius can accompany our guests, splitting in groups where necessary.
@@ -287,7 +285,7 @@
 :{{A|vo eqfh101 3 tighnari 12.ogg}} '''Tighnari:''' Just one thing... We'd like the chance to cook as well. Why don't we change the group dinner to a camping and cooking trip?
 :{{A|vo eqfh101 3 collei 09.ogg}} '''Collei:''' I'll help pitch the tents!
 :{{A|vo eqfh101 3 sucrose 12.ogg}} '''Sucrose:''' I can help too.
-:{{A|vo eqfh101 3 paimon 11a.ogg}} {{A|vo eqfh101 3 paimon 11b.ogg}} '''Paimon:''' Um... and Paimon will take {{MC|m=him|f=her}} to [[Good Hunter]] to order some starters. Mondstadt's [[Cold Cut Platter]] is not to be missed!
+:{{A|vo eqfh101 3 paimon 11a.ogg}} {{A|vo eqfh101 3 paimon 11b.ogg}} '''Paimon:''' Um... and Paimon will take {{MC|m=him|f=her}} to Good Hunter to order some starters. Mondstadt's [[Cold Cut Platter]] is not to be missed!
 :{{DIcon}} Nice idea.
 :{{DIcon}} Ah, I'm looking forward to it already.
 :{{A|vo eqfh101 3 albedo 11.ogg}} '''Albedo:''' Great. Then it's decided.
@@ -308,9 +306,7 @@
 :{{DIcon}} Just don't ruin your appetite for later.
 :{{A|vo eqfh101 4 paimon 05.ogg}} '''Paimon:''' Hehehe! No need to worry about that! Paimon can make room for good food!
 :{{A|vo eqfh101 4 sara 03.ogg}} '''Sara:''' Haha, alright, just a moment...
-
-:'''In the time it takes Sara to pack up the Cold Cut Platter, Paimon polishes off the entire Sweet Madame...'''
-
+:{{Black Screen|In the time it takes Sara to pack up the Cold Cut Platter, Paimon polishes off the entire Sweet Madame...}}
 :{{A|vo eqfh101 4 paimon 06.ogg}} '''Paimon:''' ...Mmm... That was great.
 :{{A|vo eqfh101 4 paimon 07.ogg}} '''Paimon:''' If that was a Windblume treat, then Paimon wishes it could be the Windblume Festival every day!
 ----
@@ -324,17 +320,15 @@
 :{{A|vo eqfh101 5 collei 02.ogg}} '''Collei:''' It's all thanks to Master and Cyno. They taught me everything I know...
 :{{A|vo eqfh101 5 cyno 01.ogg}} '''Cyno:''' What can I say. For a skilled adventurer, this is just another day on the job.
 :{{A|vo eqfh101 5 tighnari 01.ogg}} '''Tighnari:''' Ugh... Are you quite finished, or were you going to sing each others praises till the moon rises? Come on, let's all sit down.
-
-:'''Everyone brings out their food and starts cooking...'''
-:'''After a delicious feast, everyone sits around the campfire...'''
-
+:{{Black Screen|Everyone brings out their food and starts cooking...}}
+:{{Black Screen|After a delicious feast, everyone sits around the campfire...}}
 :{{A|vo eqfh101 5 tighnari 02.ogg}} '''Tighnari:''' That [[Sunshine Sprat]] was really very good. I didn't watch you cook it, but I believe that the prominent umami flavor of the dish owes itself to more than the fish alone.
 :{{A|vo eqfh101 5 albedo 02.ogg}} '''Albedo:''' That's correct. Any further deductions?
 :{{A|vo eqfh101 5 tighnari 03.ogg}} '''Tighnari:''' Let me think... The aroma was quite uniform, unlike that of a spice blend. It was also unfamiliar to me, so I would venture that it was a Mondstadt specialty.
 :{{A|vo eqfh101 5 tighnari 04.ogg}} '''Tighnari:''' As far as edible Mondstadt plant species are concerned, Calla Lilies are usually used in soups. So if I had to guess...
 :{{A|vo eqfh101 5 tighnari 05.ogg}} '''Tighnari:''' [[Small Lamp Grass]]?
 :{{A|vo eqfh101 5 albedo 03.ogg}} '''Albedo:''' That's right.
-:{{A|vo eqfh101 5 albedo 04.ogg}} '''Albedo:''' I've long heard that Sumeru's [[Fish with Cream Sauce]] is noted for its gentle texture, which brings out the tenderness of the fish.
+:{{A|vo eqfh101 5 albedo 04.ogg}} '''Albedo:''' I've long heard that Sumeru's [[Fish With Cream Sauce|Fish with Cream Sauce]] is noted for its gentle texture, which brings out the tenderness of the fish.
 :{{A|vo eqfh101 5 albedo 05.ogg}} '''Albedo:''' Here in Mondstadt, we're not quite as varied in the use of spices as in Sumeru, but the principle of bringing certain distinct flavors to the forefront through combinations of natural ingredients is very much the same.
 :{{A|vo eqfh101 5 tighnari 06.ogg}} '''Tighnari:''' I liked it a lot.
 :{{A|vo eqfh101 5 tighnari 07.ogg}} '''Tighnari:''' I'm curious as to the exact ratio of ingredients...
@@ -369,7 +363,7 @@
 :{{DIcon}} I say we put these theories to the test!
 :{{A|vo eqfh101 5 paimon 06.ogg}} '''Paimon:''' Hey, not you too!
 :{{A|vo eqfh101 5 collei 07.ogg}} '''Collei:''' Hahaha...
-:{{A|vo eqfh101 5 collei 08.ogg}} '''Collei:''' I think (Traveler) and Paimon's conversations are more entertaining than Cyno's jokes.
+:{{A|vo eqfh101 5 collei 08.ogg}} '''Collei:''' I think {{Traveler}} and Paimon's conversations are more entertaining than Cyno's jokes.
 :{{A|vo eqfh101 5 cyno 09.ogg}} '''Cyno:''' ...I see. You must have been keeping quiet about this grievance for quite some time now.
 :{{A|vo eqfh101 5 paimon 07.ogg}} '''Paimon:''' You seem much cheerier now that you're here in Mondstadt, Cyno. Actually, it feels like you're a completely different person!
 :{{A|vo eqfh101 5 cyno 10.ogg}} '''Cyno:''' That's because I'm Cyno the Adventurer.
@@ -489,9 +483,10 @@
 :{{A|vo eqfh101 6 ambor 03.ogg}} '''Amber:''' Actually, you didn't. Strictly speaking, you should have reported your plans first, but since two of our very own alchemists are here... I'm happy to look the other way, hehe...
 :{{A|vo eqfh101 6 ambor 04.ogg}} '''Amber:''' Ah, yes, introductions! I'm Amber, and this is the Reconnaissance Company Captain, Eula, a good friend of mine.
 :{{A|vo eqfh101 6 eula 01.ogg}} '''Eula:''' Good evening. You're friends of Collei, yes? A pleasure to meet you.
+:{{Introductory Note|Eula}}
 :{{A|vo eqfh101 6 tighnari 04.ogg}} '''Tighnari:''' Oh, Amber and Eula! The pleasure is ours. I've heard a lot about both of you from Collei.
 :{{A|vo eqfh101 6 ambor 05.ogg}} '''Amber:''' Oh really? All positive, I hope...?
-:{{A|vo eqfh101 6 collei 01.ogg}} '''Collei:''' You asked that last time too! ... Of course it was positive...
+:{{A|vo eqfh101 6 collei 01.ogg}} '''Collei:''' You asked that last time too! ...&nbsp;Of course it was positive...
 :{{A|vo eqfh101 6 cyno 03.ogg}} '''Cyno:''' I'd say... we hear the latest news about you every time you write to Collei.
 :{{A|vo eqfh101 6 ambor 06.ogg}} '''Amber:''' Haha, glad to know we've made a good impression so far! Anyway, we're just here to collect Collei, so don't let us interrupt your chat.
 :{{A|vo eqfh101 6 ambor 07.ogg}} '''Amber:''' C'mon, Collei! We're gonna take you to check out a few scenic spots.
@@ -505,10 +500,8 @@
 :{{A|vo eqfh101 6 albedo 04.ogg}} '''Albedo:''' It's getting late, and we still have a lot lined up tomorrow. I suggest we all head back and get some rest.
 :{{DIcon}} Yes. We should preserve our energy.
 :{{A|vo eqfh101 6 tighnari 05.ogg}} '''Tighnari:''' Alright. I'll start packing up.
-
-:'''Everyone packs up and says their goodbyes in the dark of night...'''
-
-:{{A|vo eqfh101 7 paimon 01.ogg}} '''Paimon:''' You're gonna get the [[Venti|Tone-Deaf Bard]] to check out that note, aren't you?
+:{{Black Screen|Everyone packs up and says their goodbyes in the dark of night...}}
+:{{A|vo eqfh101 7 paimon 01.ogg}} '''Paimon:''' You're gonna get the Tone-Deaf Bard to check out that note, aren't you?
 :{{DIcon}} That's right.
 :{{A|vo eqfh101 7 paimon 02.ogg}} '''Paimon:''' Hehe, guess Paimon knows you pretty well, huh?
 :{{A|vo eqfh101 7 paimon 03.ogg}} '''Paimon:''' Knowing him, he should be hitting the taverns around this time!
@@ -519,9 +512,7 @@
 :{{A|vo eqfh101 8 paimon 01.ogg}} '''Paimon:''' Paimon called it! Tone-Deaf Bard, drinking as usual!
 :{{A|vo eqfh101 8 paimon 02.ogg}} '''Paimon:''' Put your drink down and get your game face on. We've got some important questions for you, mister.
 :{{A|vo eqfh101 8 venti 02.ogg}} '''Venti:''' Uh... Okay...
-
-:'''You tell Venti about the mysterious prophecy...'''
-
+:{{Black Screen|You tell Venti about the mysterious prophecy...}}
 :{{A|vo eqfh101 8 paimon 03.ogg}} '''Paimon:''' So, what do you make of it?
 :{{DIcon}} Yeah, any thoughts?
 :{{A|vo eqfh101 8 venti 03.ogg}} '''Venti:''' Hehe, aren't you forgetting something? It's the Windblume Festival right now. You can't just go around asking people for help so blatantly.
@@ -582,13 +573,15 @@
 :{{A|vo eqfh101 9 sucrose 18.ogg}} '''Sucrose:''' But you're right, Paimon. I'll need to be careful how I word it... but I'll try to find some time over the next couple days to mention it to her.
 :{{DIcon}} Understood.
 :{{A|vo eqfh101 9 sucrose 19.ogg}} '''Sucrose:''' Alright. Thanks so much!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Post-Quest Dialogue==
-After completing this quest, Albedo, Tighnari, Cyno, Mika, Amber, Eula, Collei, Candace, and Dehya can be found in the open world.
+After completing this quest, Albedo, Tighnari, Cyno, Mika, Amber, Collei, Eula, Dehya, Candace, and Setaria can be found in the open world. Candace, Setaria, and Dehya remain for the remainder of the event, while everyone else disappears upon completion of Step 2{{verify}} of the next quest, ''[[A Riddle Amidst the Crowds]]''.
+
+Dehya, Candace, and Setaria only appear if {{Quest|Akasha Pulses, the Kalpa Flame Rises}} has been completed.
 
 ===Albedo and Tighnari===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Albedo or Tighnari near the eastern edge of [[Starsnatch Cliff]])
 :{{A|vo dialog eqfh101 tighnari 02.ogg}} '''Tighnari:''' I've heard that Cecilias only grow in remote spots at high-altitude, and that you're unlikely to ever see one unless you go looking for it.
 :{{A|vo dialog eqfh101 tighnari 03.ogg}} '''Tighnari:''' Though they can be preserved for a long time as specimens, I can't take back the beauty they possess in the wild. It's a shame.
@@ -598,14 +591,14 @@ After completing this quest, Albedo, Tighnari, Cyno, Mika, Amber, Eula, Collei, 
 :{{A|vo dialog eqfh101 albedo 04.ogg}} '''Albedo:''' Unfortunately not. I'm being completely serious.
 :{{A|vo dialog eqfh101 tighnari 05.ogg}} '''Tighnari:''' In that case, I look forward to... well, whichever of those two it ends up being.
 :{{A|vo dialog eqfh101 albedo 05.ogg}} '''Albedo:''' Back to our previous topic &mdash; if you wish to use antitoxic compounds from Calla Lilies in an antidote, then I have a few suggestions...
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 3.5 Event Location Albedo and Tighnari.png|Albedo and Tighnari's Location
 NPC 3.5 Event Location Albedo and Tighnari Context.png|Additional Context
 </gallery>
 
 ===Cyno and Mika===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Cyno or Mika near the southern waypoint of [[Stormterror's Lair]])
 :{{A|vo dialog eqfh101 cyno 02.ogg}} '''Cyno:''' So this is Stormterror's Lair...
 :{{A|vo dialog eqfh101 cyno 03.ogg}} '''Cyno:''' ...From which direction will Stormterror appear, I wonder?
@@ -628,14 +621,14 @@ NPC 3.5 Event Location Albedo and Tighnari Context.png|Additional Context
 :{{A|vo dialog eqfh101 cyno 11.ogg}} '''Cyno:''' I'll be alright.
 :{{A|vo dialog eqfh101 mika 10.ogg}} '''Mika:''' Oh, um... okay, well...
 :{{A|vo dialog eqfh101 mika 11.ogg}} '''Mika:''' ...Weird. Now I'm staring up into the sky, too...
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 3.5 Event Location Cyno and Mika.png|Cyno and Mika's Location
 NPC 3.5 Event Location Cyno and Mika Context.png|Additional Context
 </gallery>
 
-===Amber, Eula, and Collei===
-{{Dialogue start}}
+===Amber, Collei, and Eula===
+{{Dialogue Start}}
 ;(Talk to Amber, Eula, or Collei at [[Falcon Coast]])
 :{{A|vo dialog eqfh101 collei 02.ogg}} '''Collei:''' Whoa, did you two see that? A bird with huuuge wings just flew by!
 :{{A|vo dialog eqfh101 collei 03.ogg}} '''Collei:''' If Master Tighnari was here, he'd be able to tell you its scientific name, species, and behaviors...
@@ -650,28 +643,30 @@ NPC 3.5 Event Location Cyno and Mika Context.png|Additional Context
 :{{A|vo dialog eqfh101 collei 09.ogg}} '''Collei:''' Are you hungry for fish? I see quite a few over there.
 :{{A|vo dialog eqfh101 ambor 02.ogg}} '''Amber:''' Sounds like someone's up for a fishing contest, huh? Fair warning, though, I won't lose!
 :{{A|vo dialog eqfh101 eula 03.ogg}} '''Eula:''' Seriously...? Another competition? I thought we were supposed to be sightseeing. ...Uh, but still &mdash; wait for me!
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 3.5 Event Location Amber Eula and Collei.png|Amber, Eula, and Collei's Location
 NPC 3.5 Event Location Amber Eula and Collei Context.png|Additional Context
 </gallery>
 
 ===Dehya===
-{{Dialogue start}}
+Dehya only appears if {{Quest|Akasha Pulses, the Kalpa Flame Rises}} has been completed.
+{{Dialogue Start}}
 ;(Talk to Dehya outside the eastern door of [[The Akademiya]])
-:{{A|vo dialog eqfh101 dehya 04.ogg}} '''Dehya:''' Oh, hey there, (Traveler). Nice to see ya!
+:{{A|vo dialog eqfh101 dehya 04.ogg}} '''Dehya:''' Oh, hey there, {{Traveler}}. Nice to see ya!
 :{{DIcon}} Didn't expect to see you here at this hour, Dehya.
 :{{A|vo dialog eqfh101 dehya 05.ogg}} '''Dehya:''' Hahaha, well, Cyno's out of the country on a trip, so he got me to come and help his subordinates take care of a few things. I guess you could say I'm his temporary substitute.
 :{{A|vo dialog eqfh101 dehya 06.ogg}} '''Dehya:''' The atmosphere around here's not too bad nowadays, so I don't mind sticking around once in a while.
 :{{A|vo dialog eqfh101 dehya 07.ogg}} '''Dehya:''' You've probably got a lot going on yourself, I'll bet? Good luck with everything!
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 3.5 Event Location Dehya.png|Dehya's Location
 NPC 3.5 Event Location Dehya Context.png|Additional Context
 </gallery>
 
-===Candace===
-{{Dialogue start}}
+===Candace and Setaria===
+Candace and Setaria only appear if {{Quest|Akasha Pulses, the Kalpa Flame Rises}} has been completed.
+{{Dialogue Start}}
 ;(Talk to Candace or Setaria at [[Aaru Village]])
 :{{A|vo dialog eqfh101 candace 01.ogg}} '''Candace:''' Setaria, you should take a break and have a bite to eat.
 :{{A|vo dialog eqfh101 candace 02.ogg}} '''Candace:''' Setaria?
@@ -684,11 +679,14 @@ NPC 3.5 Event Location Dehya Context.png|Additional Context
 :{{A|vo dialog eqfh101 setare 04.ogg}} '''Setaria:''' He said that educators willing to work in the desert are an extremely rare breed, so I need a bodyguard for protection at all times... I think he's being a little overprotective.
 :{{A|vo dialog eqfh101 candace 06.ogg}} '''Candace:''' But at the end of the day, that's why we know we can count on the General Mahamatra. He and I are of the same mind in this case, so I am very happy to protect you.
 :{{A|vo dialog eqfh101 candace 07.ogg}} '''Candace:''' While you're in Aaru Village, we're partners. We don't want to cause you any unnecessary pressure. So please, try to enjoy your time here.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 3.5 Event Location Candace.png|Candace's Location
 NPC 3.5 Event Location Candace Context.png|Additional Context
 </gallery>
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -715,9 +713,9 @@ NPC 3.5 Event Location Candace Context.png|Additional Context
 |vi      = Vị Khách Phương Xa Bên Bờ Hồ
 |vi_tl   = 
 |de      = Am See versammelte fremde Gäste
-|de_tl   = 
+|de_tl   = Foreign Guests Gathered by the Lake
 |id      = Perjumpaan Manusia Berbagai Bangsa
-|id_tl   = The Meeting of People from Various Nations
+|id_tl   = The Meeting of People From Various Nations
 |pt      = Uma Reunião de Forasteiros
 |pt_tl   = 
 |tr      = Yabancıların Buluşması
@@ -729,4 +727,6 @@ NPC 3.5 Event Location Candace Context.png|Additional Context
 ==Change History==
 {{Change History|3.5}}
 
+[[es:Una reunión de forasteros]]
+[[pt-br:Uma Reunião de Forasteiros]]
 [[ru:Прибытие чужеземцев]]

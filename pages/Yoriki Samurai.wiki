@@ -25,7 +25,7 @@
 ===Hues of the Violet Garden===
 {{Enemy Stats
 |res1      = Normal
-|phys_res  = -20%
+|phys_res  = &minus;20%
 
 |res2      = Buffed
 |phys_res2 = 60%
@@ -38,7 +38,7 @@
 
 ===Warrior's Spirit===
 {{Enemy Stats
-|phys_res  = -20%
+|phys_res  = &minus;20%
 
 |hp_ratio  = 9.0562426383981
 |hp_type   = 2
@@ -47,8 +47,8 @@
 |hide_notes = 1
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 ''Names are unofficial.''
 
 ===Normal===
@@ -122,7 +122,7 @@ During the first and second encounters, only the following attacks are used.
 |file_3 = Yoriki Samurai Quest Slash Combo
 
 |name_4 = Kazuha Slash
-|desc_4 = Sheathes his blade and [[Vacuum Field|sucks]] in nearby players before performing a sweeping slash, creating an Autumn Whirlwind field infused with {{Electro}} akin to Kaedehara Kazuha's [[Kazuha Slash]]. The field deals '''37.5% ATK''' as {{Color|AoE Electro DMG}} once every second 5 times. This attack is only used during the first and second encounter.
+|desc_4 = Sheathes his blade and [[Vacuum Field|sucks]] in nearby players before performing a sweeping slash, creating an Autumn Whirlwind field infused with {{Electro}} akin to Kaedehara Kazuha's [[Kazuha Slash]]. The field deals '''37.5% ATK''' as {{Color|Electro DMG}} once every second 5 times. This attack is only used during the first and second encounter.
 |file_4 = Yoriki Samurai Quest Kazuha Slash
 }}
 
@@ -171,113 +171,138 @@ In the [[Warrior's Spirit]] event, the character [[Hirotatsu]] is fought on Roun
 }}
 
 ==Voice-Overs==
+{{Stub|Missing Chinese, Japanese and Korean transcriptions.[[Category:VO Chinese Romanization Missing]][[Category:VO Japanese Romanization Missing]][[Category:VO Korean Romanization Missing]]}}
 ===Normal===
 {{VO/Enemy
 |enemy                   = Yoriki Samurai
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Teach Me A Lesson.ogg
 |vo_01_01_tx_en          = Teach me a lesson.
 |vo_01_01_tx_zh          = 向阁下讨教。
-|vo_01_01_tx_ja          = 
+|vo_01_01_tx_ja          = {{tx}}
 |vo_01_01_tx_ko          = 한 수 배우고 싶군
 |vo_01_02_file           = VO {lang}{name} - Brace Yourself.ogg
 |vo_01_02_tx_en          = Brace yourself.
 |vo_01_02_tx_zh          = 要上了！
-|vo_01_02_tx_ja          = 
+|vo_01_02_tx_ja          = {{tx}}
 |vo_01_02_tx_ko          = 간다
 
-|vo_02_00_title          = Sword Thrust
+|vo_02_00_title          = Sword Charge Initiation
 |vo_02_01_file           = VO {lang}{name} - Show Me What Youve Got.ogg
 |vo_02_01_tx_en          = Show me what you've got!
 |vo_02_01_tx_zh          = 讨教！
-|vo_02_01_tx_ja          = 
+|vo_02_01_tx_ja          = {{tx}}
 |vo_02_01_tx_ko          = 실력을 보여줘라!
-|vo_02_02_file           = VO {lang}{name} - Iai Thrust.ogg
-|vo_02_02_tx_en          = Hah!
 
-|vo_03_00_title          = Slash Combo
-|vo_03_01_file           = VO {lang}{name} - Watch Your Step.ogg
-|vo_03_01_tx_en          = Watch your step!
-|vo_03_01_tx_zh          = 留意啊，阁下。
-|vo_03_01_tx_ja          = 
-|vo_03_01_tx_ko          = 조심해야 할 거야
-|vo_03_02_file           = VO {lang}{name} - Allow Me To Strike First.ogg
-|vo_03_02_tx_en          = Allow me... To strike first!
-|vo_03_02_tx_zh          = 在下，先攻！
-|vo_03_02_tx_ja          = 
-|vo_03_02_tx_ko          = 내가 먼저 공격하지
+|vo_03_00_title          = Sword Charge/Upward Slash
+|vo_03_01_tx_en          = {{A|VO Yoriki Samurai - Upward Slash 01.ogg}} {{A|VO Yoriki Samurai - Upward Slash 02.ogg}} {{A|VO Yoriki Samurai - Upward Slash 03.ogg}} {{A|VO Yoriki Samurai - Upward Slash 04.ogg}} {{A|VO Yoriki Samurai - Upward Slash 05.ogg}}
+|vo_03_01_tx_zh          = {{A|VO ZH Yoriki Samurai - Upward Slash 01.ogg}} {{A|VO ZH Yoriki Samurai - Upward Slash 02.ogg}} {{A|VO ZH Yoriki Samurai - Upward Slash 03.ogg}} {{A|VO ZH Yoriki Samurai - Upward Slash 04.ogg}} {{A|VO ZH Yoriki Samurai - Upward Slash 05.ogg}}
+|vo_03_01_tx_ja          = {{A|VO JA Yoriki Samurai - Upward Slash 01.ogg}} {{A|VO JA Yoriki Samurai - Upward Slash 02.ogg}} {{A|VO JA Yoriki Samurai - Upward Slash 03.ogg}} {{A|VO JA Yoriki Samurai - Upward Slash 04.ogg}} {{A|VO JA Yoriki Samurai - Upward Slash 05.ogg}}
+|vo_03_01_tx_ko          = {{A|VO KO Yoriki Samurai - Upward Slash 01.ogg}} {{A|VO KO Yoriki Samurai - Upward Slash 02.ogg}} {{A|VO KO Yoriki Samurai - Upward Slash 03.ogg}} {{A|VO KO Yoriki Samurai - Upward Slash 04.ogg}} {{A|VO KO Yoriki Samurai - Upward Slash 05.ogg}}
 
-|vo_04_00_title          = Two Point Slash
-|vo_04_01_file           = VO {lang}{name} - Clear Cut.ogg
-|vo_04_01_tx_en          = Clear cut!
-|vo_04_01_tx_zh          = 两断！
-|vo_04_01_tx_ja          = 
-|vo_04_01_tx_ko          = 갈라져라!
-|vo_04_02_file           = VO {lang}{name} - Slash.ogg
-|vo_04_02_tx_en          = Slash!
-|vo_04_02_tx_zh          = 斩！
-|vo_04_02_tx_ja          = 
-|vo_04_02_tx_ko          = 참격!
+|vo_04_00_title          = Downward Slash
+|vo_04_01_tx_en          = {{A|VO Yoriki Samurai - Downward Slash 01.ogg}} {{A|VO Yoriki Samurai - Downward Slash 02.ogg}} {{A|VO Yoriki Samurai - Downward Slash 03.ogg}}
+|vo_04_01_tx_zh          = {{A|VO ZH Yoriki Samurai - Downward Slash 01.ogg}} {{A|VO ZH Yoriki Samurai - Downward Slash 02.ogg}} {{A|VO ZH Yoriki Samurai - Downward Slash 03.ogg}}
+|vo_04_01_tx_ja          = {{A|VO JA Yoriki Samurai - Downward Slash 01.ogg}} {{A|VO JA Yoriki Samurai - Downward Slash 02.ogg}} {{A|VO JA Yoriki Samurai - Downward Slash 03.ogg}}
+|vo_04_01_tx_ko          = {{A|VO KO Yoriki Samurai - Downward Slash 01.ogg}} {{A|VO KO Yoriki Samurai - Downward Slash 02.ogg}} {{A|VO KO Yoriki Samurai - Downward Slash 03.ogg}}
 
-|vo_06_00_title          = Double Slash
-|vo_06_01_file           = VO {lang}{name} - A Worthy Opponent.ogg
-|vo_06_01_tx_en          = A worthy opponent.
-|vo_06_01_tx_zh          = 阁下果然高强！
-|vo_06_01_tx_ja          = 
-|vo_06_01_tx_ko          = 제법이군!
-|vo_06_02_file           = VO {lang}{name} - Ill Spare Nothing.ogg
-|vo_06_02_tx_en          = I'll spare nothing.
-|vo_06_02_tx_zh          = TBD
-|vo_06_02_tx_ja          = 
-|vo_06_02_tx_ko          = TBD
+|vo_05_00_title          = Iai: Thrust
+|vo_05_01_file           = VO {lang}{name} - Iai Thrust.ogg
+|vo_05_01_tx_en          = Hah!
+|vo_05_01_tx_zh          = {{tx}}
+|vo_05_01_tx_ja          = {{tx}}
+|vo_05_01_tx_ko          = {{tx}}
 
-|vo_07_00_title          = Blocking
-|vo_07_01_file           = VO {lang}{name} - Dont Hold Back.ogg
-|vo_07_01_tx_en          = Don't hold back.
-|vo_07_01_tx_zh          = 堂堂正正地决斗吧！
-|vo_07_01_tx_ja          = 
-|vo_07_01_tx_ko          = 내게 가까이 오는게… 두렵나?
-|vo_07_02_file           = VO {lang}{name} - I Dare You.ogg
-|vo_07_02_tx_en          = I dare you!
-|vo_07_02_tx_zh          = 不敢接近在下吗？
-|vo_07_02_tx_ja          = 
-|vo_07_02_tx_ko          = 정정당당하게 결투하지
+|vo_06_00_title          = Iai: Quickdraw
+|vo_06_01_file           = VO {lang}{name} - Watch Your Step.ogg
+|vo_06_01_tx_en          = Watch your step!
+|vo_06_01_tx_zh          = 留意啊，阁下。
+|vo_06_01_tx_ja          = {{tx}}
+|vo_06_01_tx_ko          = 조심해야 할 거야
+|vo_06_02_file           = VO {lang}{name} - Allow Me To Strike First.ogg
+|vo_06_02_tx_en          = Allow me... To strike first!
+|vo_06_02_tx_zh          = 在下，先攻！
+|vo_06_02_tx_ja          = {{tx}}
+|vo_06_02_tx_ko          = 내가 먼저 공격하지
 
-|vo_08_00_title          = Staggered
-|vo_08_01_tx_en          = {{A|VO Yoriki Samurai - Staggered 01.ogg}} {{A|VO Yoriki Samurai - Staggered 02.ogg}} {{A|VO Yoriki Samurai - Staggered 03.ogg}}
+|vo_07_00_title          = Two Point Slash
+|vo_07_01_file           = VO {lang}{name} - Clear Cut.ogg
+|vo_07_01_tx_en          = Clear cut!
+|vo_07_01_tx_zh          = 两断！
+|vo_07_01_tx_ja          = {{tx}}
+|vo_07_01_tx_ko          = 갈라져라!
+|vo_07_02_file           = VO {lang}{name} - Slash.ogg
+|vo_07_02_tx_en          = Slash!
+|vo_07_02_tx_zh          = 斩！
+|vo_07_02_tx_ja          = {{tx}}
+|vo_07_02_tx_ko          = 참격!
 
-|vo_09_00_title          = Defeated
-|vo_09_01_file           = VO {lang}{name} - I Need To Train Harder.ogg
-|vo_09_01_tx_en          = I need to... train harder...
-|vo_09_01_tx_zh          = 还需…修行…
-|vo_09_01_tx_ja          = 
-|vo_09_01_tx_ko          = 수행이… 부족해…
-|vo_09_02_file           = VO {lang}{name} - Ive Been Bested Well.ogg
-|vo_09_02_tx_en          = I've been... bested well...
-|vo_09_02_tx_zh          = 是我…输了…
-|vo_09_02_tx_ja          = 
-|vo_09_02_tx_ko          = 내가… 졌군…
+|vo_08_00_title          = Double Slash
+|vo_08_01_file           = VO {lang}{name} - A Worthy Opponent.ogg
+|vo_08_01_tx_en          = A worthy opponent.
+|vo_08_01_tx_zh          = 阁下果然高强！
+|vo_08_01_tx_ja          = {{tx}}
+|vo_08_01_tx_ko          = 제법이군!
+|vo_08_02_file           = VO {lang}{name} - Ill Spare Nothing.ogg
+|vo_08_02_tx_en          = I'll spare nothing.
+|vo_08_02_tx_zh          = {{tx}}
+|vo_08_02_tx_ja          = {{tx}}
+|vo_08_02_tx_ko          = {{tx}}
+
+|vo_09_00_title          = Blocking
+|vo_09_01_file           = VO {lang}{name} - Dont Hold Back.ogg
+|vo_09_01_tx_en          = Don't hold back.
+|vo_09_01_tx_zh          = 堂堂正正地决斗吧！
+|vo_09_01_tx_ja          = {{tx}}
+|vo_09_01_tx_ko          = 내게 가까이 오는게… 두렵나?
+|vo_09_02_file           = VO {lang}{name} - I Dare You.ogg
+|vo_09_02_tx_en          = I dare you!
+|vo_09_02_tx_zh          = 不敢接近在下吗？
+|vo_09_02_tx_ja          = {{tx}}
+|vo_09_02_tx_ko          = 정정당당하게 결투하지
+
+|vo_10_00_title          = Staggered
+|vo_10_01_tx_en          = {{A|VO Yoriki Samurai - Staggered 01.ogg}} {{A|VO Yoriki Samurai - Staggered 02.ogg}} {{A|VO Yoriki Samurai - Staggered 03.ogg}}
+|vo_10_01_tx_zh          = {{A|VO ZH Yoriki Samurai - Staggered 01.ogg}} {{A|VO ZH Yoriki Samurai - Staggered 02.ogg}} {{A|VO ZH Yoriki Samurai - Staggered 03.ogg}}
+|vo_10_01_tx_ja          = {{A|VO JA Yoriki Samurai - Staggered 01.ogg}} {{A|VO JA Yoriki Samurai - Staggered 02.ogg}} {{A|VO JA Yoriki Samurai - Staggered 03.ogg}}
+|vo_10_01_tx_ko          = {{A|VO KO Yoriki Samurai - Staggered 01.ogg}} {{A|VO KO Yoriki Samurai - Staggered 02.ogg}} {{A|VO KO Yoriki Samurai - Staggered 03.ogg}}
+
+|vo_11_00_title          = Defeated
+|vo_11_01_file           = VO {lang}{name} - I Need To Train Harder.ogg
+|vo_11_01_tx_en          = I need to... train harder...
+|vo_11_01_tx_zh          = 还需…修行…
+|vo_11_01_tx_ja          = {{tx}}
+|vo_11_01_tx_ko          = 수행이… 부족해…
+|vo_11_02_file           = VO {lang}{name} - Ive Been Bested Well.ogg
+|vo_11_02_tx_en          = I've been... bested...
+|vo_11_02_tx_zh          = 是我…输了…
+|vo_11_02_tx_ja          = {{tx}}
+|vo_11_02_tx_ko          = 내가… 졌군…
 }}
 
-===Amenoma Yuuya? — Re-Emergent Attacker (Through the Mist, a Name Unveiled)===
+===Amenoma Yuuya? &mdash; Re-Emergent Attacker (Through the Mist, a Name Unveiled)===
 {{VO/Enemy
 |enemy                   = Yoriki Samurai
-|vo_01_00_title          = Attacking
+|vo_01_00_title          = Superdash
 |vo_01_01_file           = VO {lang}{name} - Submit To Me.ogg
 |vo_01_01_tx_en          = Submit to me!
 |vo_01_01_tx_zh          = 顺从于我！
-|vo_01_01_tx_ja          = 
+|vo_01_01_tx_ja          = {{tx}}
 |vo_01_01_tx_ko          = 순순히 복종해
-|vo_01_02_file           = VO {lang}{name} - Join Me And Sever That Divine Light.ogg
-|vo_01_02_tx_en          = Join me, and sever that divine light!
-|vo_01_02_tx_zh          = 和我一起，去斩破天光！
-|vo_01_02_tx_ja          = 
-|vo_01_02_tx_ko          = 나와 함께… 천광을 베어내는 거야!
-|vo_01_03_file           = VO {lang}{name} - We Shall Rewrite History.ogg
-|vo_01_03_tx_en          = We shall rewrite history!
-|vo_01_03_tx_zh          = 我们必须改写历史！
-|vo_01_03_tx_ja          = 
-|vo_01_03_tx_ko          = 우리가… 역사를 바꿔 써야한다!
+
+|vo_02_00_title          = Kazuha Slash
+|vo_02_01_file           = VO {lang}{name} - Join Me And Sever That Divine Light.ogg
+|vo_02_01_tx_en          = Join me, and sever that divine light!
+|vo_02_01_tx_zh          = 和我一起，去斩破天光！
+|vo_02_01_tx_ja          = {{tx}}
+|vo_02_01_tx_ko          = 나와 함께… 천광을 베어내는 거야!
+
+|vo_03_00_title          = Two Point Slash
+|vo_03_01_file           = VO {lang}{name} - We Shall Rewrite History.ogg
+|vo_03_01_tx_en          = We shall rewrite history!
+|vo_03_01_tx_zh          = 我们必须改写历史！
+|vo_03_01_tx_ja          = {{tx}}
+|vo_03_01_tx_ko          = 우리가… 역사를 바꿔 써야한다!
 }}
 
 ==Trivia==
@@ -285,35 +310,34 @@ In the [[Warrior's Spirit]] event, the character [[Hirotatsu]] is fought on Roun
 
 ==Other Languages==
 {{Other Languages
-|en      = Yoriki Samurai
-|zhs     = 寄骑武士
-|zhs_rm  = Jìqí Wǔshì
-|zht     = 寄騎武士
-|zht_rm  = Jìqí Wǔshì
-|zh_tl   = Yoriki Samurai{{Sino|zh|ja}}
-|ja      = 寄騎武士
-|ja_rm   = Yoriki Bushi
-|ja_tl   = Yoriki Samurai
-|ko      = 요리키 무사
-|ko_rm   = Yoriki Musa
-|ko_tl   = Yoriki Samurai
-|es      = Asistente de Samurái
-|es_tl   = Samurai's Assistant
-|fr      = Samouraï yoriki
-|fr_tl   = Yoriki Samurai
-|ru      = Самурай-ёрики
-|ru_tl   = Yoriki Samurai
-|th      = Yoriki Samurai
-|vi      = Yoriki Samurai
-|de      = Yoriki-Samurai
-|de_tl   = Yoriki Samurai
-|id      = Yoriki Samurai
-|pt      = Assistente de Samurai
-|pt_tl   = Samurai's Assistant
-|tr      = Yoriki Samurayı
-|tr_tl   = 
-|it      = Samurai Yoriki
-|it_tl   = 
+|en       = Yoriki Samurai
+|zhs      = 寄骑武士
+|zhs_rm   = Jìqí Wǔshì
+|zht      = 寄騎武士
+|zht_rm   = Jìqí Wǔshì
+|zh_tl    = Yoriki Samurai{{Sino|zh|ja}}
+|ja       = 寄騎武士
+|ja_rm    = Yoriki Bushi
+|ja_tl    = Yoriki Samurai
+|ko       = 요리키 무사
+|ko_tl    = Yoriki Samurai
+|es       = Asistente de Samurái
+|es_tl    = Samurai's Assistant
+|fr       = Samouraï yoriki
+|fr_tl    = Yoriki Samurai
+|ru       = Самурай-ёрики
+|ru_tl    = Yoriki Samurai
+|th       = Yoriki Samurai
+|vi       = Yoriki Samurai
+|de       = Yoriki-Samurai
+|de_tl    = Yoriki Samurai
+|id       = Yoriki Samurai
+|pt       = Assistente de Samurai
+|pt_tl    = Samurai's Assistant
+|tr       = Yoriki Samurayı
+|tr_tl    = 
+|it       = Samurai Yoriki
+|it_tl    = Yoriki Samurai
 }}
 
 ==Change History==

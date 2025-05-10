@@ -1,3 +1,4 @@
+{{Stub|better images for the jade variants in the gameplay notes (no UI elements or character in view)}}
 {{Quest Infobox
 |id            = 22305
 |image         = Commission Diamond in the Rough.png
@@ -7,47 +8,35 @@
 |area          = Sea of Clouds
 |subarea       = Liyue Harbor
 |npc           = Shitou
-|other         = 
-*Grants the [[Beginner's Luck]] achievement if your first pick is correct.
-*AR-Dependent Rewards
-*Additional Rewards:
-{{Card|Mora|200-4,800}}{{Card|Cor Lapis|0-2}}{{Card|Noctilucous Jade|0-3}}
+|rewards       = Mora*200-4,800;Cor Lapis*0-2;Noctilucous Jade*0-3
+|otherRewards  = *AR-Dependent Rewards
+*Grants the {{Achievement|Beginner's Luck}} achievement if the first pick is correct.
 |characters    = Shitou; Traveler
 }}
 '''''Diamond in the Rough...''''' is a [[Daily Commission]] that occurs in [[Liyue Harbor]], [[Liyue]].
 
 ==Steps==
-#Talk to [[Shitou]]
-#Choose a type of crude stone
-#Talk to Shitou
+# Talk to [[Shitou]]
+# Choose a type of crude stone
+# Talk to Shitou
 
 ==Gameplay Notes==
-* The mini-game's objective is to determine the different (and special) stone.
-** '''Render method''': Pick the Cor Lapis that is observed to render in first when walking towards them from a far distance.
-** '''Lighter shade method''': Pick the Cor Lapis that has a lighter shade than the rest.
-**:<gallery>
-Diamond in the Rough Guide.jpg|Lighter-shaded Cor Lapis on the right
+* The {{Achievement|Beginner's Luck}} can be obtained by selecting the a stone with a full Cor Lapis Jade on the first try. Failing to choose the correct one during the first round will force the player to wait until the next time the commission is given to obtain this achievement.
+* To accurately determine which of the stones contains the jade the player can utilize the camera to clip inside the stones and confirm which contains the jade
+** The stones may refresh after choosing a Mora cost option, thus it is recommended to check after choosing a Mora cost option.
+** There is no guarantee that there will be a jackpot ore in any round, so the player may need to receive this commission multiple times before earning the related achievement. Conversely, some rounds may contain more than one jackpot ore.
+*:<gallery>
+Diamond in the Rough... Empty Jade.png|A stone without Jade
+Diamond in the Rough... Partial Jade.png|A stone with Some Jade
+Diamond in the Rough... Full Jade.png|A Stone with Full Cor Lapis Jade
 </gallery>
-** '''Clip method''': Clip the camera into the stones to check what each one contains:
-**:<gallery>
-Empty jade.png|A stone without Jade
-Partial Jade.png|A stone with Some Jade
-Full Jade.png|A Stone with Full Cor Lapis Jade
-</gallery>
-*** If there is a '''whole''' Cor Lapis inside (the complete spiral texture is visible), that is the jackpot ore.
-*** If there is nothing inside, or
-*** If there is a part of Cor Lapis (the texture looks like it's cut), that is not the jackpot.
-** Elemental Sight does not seem to help in determining the Cor Lapis grade, as the waves that appear on the Cor Lapis in Elemental Sight move in the same direction on your character and all three ores when you stand next to each of them.
-* There is '''no''' guarantee that there will be a jackpot ore in any round (including the first round), so the player may need to receive this commission multiple times before earning the related achievement. Conversely, some rounds may contain more than one jackpot ore.
-* While its true that the stones are loaded before the Mora cost dialogue, the stones may refresh after choosing a Mora cost option. It's better to try the methods after choosing a Mora cost option.
-* The ''[[Wonders of the World]]'' achievement ''[[Beginner's Luck]]'' can be obtained by selecting the highest-value jade on the first try. If one does not manage on the first try, they will have to wait until the next time it appears as a random commission to try again for the achievement.
 
 ==Rewards==
 {{Commission Rewards|low}}
 
 Shitou will grant [[Cor Lapis]] ×1 or [[Noctilucous Jade]] ×1 at quest completion after picking a high-value jade.
 Additionally, he will grant Mora based on the quality of each jade chosen.
-*{{Item|Mora|20|x=200 - 2,800}}
+*{{Item|Mora|20|x=200&ndash;2,800}}
 *{{Item|Mora|20|x=3,200}}, {{Item|Cor Lapis|20|x=1}}
 *{{Item|Mora|20|x=3,600}}, {{Item|Noctilucous Jade|20|x=1}}
 *{{Item|Mora|20|x=4,000}}, {{Item|Cor Lapis|20|x=2}}
@@ -56,58 +45,58 @@ Additionally, he will grant Mora based on the quality of each jade chosen.
 
 ==Dialogue==
 {{Quest Description|Smooth-talking [[Shitou]] bets you'll enjoy the game he has in store...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Shitou)
-:'''Shitou:''' Excuse me {{MC|Sir|Madam|mc=1}}! Try your luck on a stone today, {{MC|Sir|Madam|mc=1}}? This could be your lucky day...
+:'''Shitou:''' Excuse me {{MC|m=Sir|f=Madam}}! Try your luck on a stone today, {{MC|m=Sir|f=Madam}}? This could be your lucky day...
 :{{DIcon}} Go on then.
-::'''Shitou:''' Excellent decision, {{MC|Sir|Madam|mc=1}}, I'm sure you won't regret it! Fortune favors the bold, and by the looks of you, you have nothing to be concerned about!
-::'''Shitou:''' Over here, please, {{MC|Sir|Madam|mc=1}}!
+::'''Shitou:''' Excellent decision, {{MC|m=Sir|f=Madam}}, I'm sure you won't regret it! Fortune favors the bold, and by the looks of you, you have nothing to be concerned about!
+::'''Shitou:''' Over here, please, {{MC|m=Sir|f=Madam}}!
 :;(Onto Game Begins)
 :{{DIcon}} What kind of stone?
 ::'''Shitou:''' Only the choicest raw stones from my store.
 ::'''Shitou:''' You buy a stone, you cut it open, and providing there's jade inside I pay you handsomely for it. Of course, no jade means no Mora.
-::'''Shitou:''' Easiest way to learn is to buy one for yourself and give it a go, {{MC|Sir|Madam|mc=1}}!
+::'''Shitou:''' Easiest way to learn is to buy one for yourself and give it a go, {{MC|m=Sir|f=Madam}}!
 ::{{DIcon}} Go on then.
 ::;(Same as above)
 :{{DIcon}} Where are the stones from?
-::'''Shitou:''' All you'll find in this store, {{MC|Sir|Madam|mc=1}}, is the choicest raw raw stones, carefully mined at [[the Chasm]]...
-::'''Shitou:''' Let me put your fears to rest {{MC|Sir|Madam|mc=1}}! The [[Jade Mystery]] draws on generations worth of expertise in making jade ornaments. No one has an eye for a jade stone quite like us!
+::'''Shitou:''' All you'll find in this store, {{MC|m=Sir|f=Madam}}, is the choicest raw raw stones, carefully mined at [[The Chasm (Area)|The Chasm]]...
+::'''Shitou:''' Let me put your fears to rest {{MC|m=Sir|f=Madam}}! The [[Jade Mystery]] draws on generations worth of expertise in making jade ornaments. No one has an eye for a jade stone quite like us!
 ::'''Shitou:''' Although, things aren't quite what they used to be... Not since the Ministry of Civil Affairs shut down the Chasm.
 ::'''Shitou:''' With no new raw stones coming in, the supply has gradually diminished over time... Now, the stones are rare enough to be more valuable than the jade ornaments themselves, would you believe!
 ::'''Shitou:''' So I thought to myself &mdash; why not just sell the stones? It saves the processing costs and, I daresay, adds a bit of excitement into one's life.
-::'''Shitou:''' What do you say, {{MC|Sir|Madam|mc=1}}? Fancy a foray into the wonderful world of stone speculating?
+::'''Shitou:''' What do you say, customer? Fancy a foray into the wonderful world of stone speculating?
 ::{{DIcon}} I'll give it a go.
-::'''Shitou:''' Over here, please, {{MC|Sir|Madam|mc=1}}!
+::'''Shitou:''' Over here, please, {{MC|m=Sir|f=Madam}}!
 :;(Onto Game Begins)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Game Begins===
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Shitou:''' We have an extraordinarily wide selection of raw stones here at The Jade Mystery. One can find oneself a little overwhelmed if one is to peruse the entire collection...
 :'''Shitou:''' So I have taken the liberty of sorting them first for your convenience. Might I inquire as to your budget?
 :{{DIcon}} 200 Mora.
-::'''Shitou:''' A most prudent decision, {{MC|Sir|Madam|mc=1}}. Here we are, please select a stone that is to your liking.
+::'''Shitou:''' A most prudent decision, {{MC|m=Sir|f=Madam}}. Here we are, please select a stone that is to your liking.
 ::'''Shitou:''' Choose carefully, mind, we want to make that 200 Mora worth your investment, don't we?
 ::'''Shitou:''' Once you have made your decision, please advise me and I shall do the honors.
 :;(Onto Choosing a Stone)
 :{{DIcon}} 400 Mora.
-::'''Shitou:''' Precisely the amount I recommend to all our new customers {{MC|Sir|Madam|mc=1}}; a sum small enough to spare, but big enough to invest.
-::'''Shitou:''' Over here if you would, {{MC|Sir|Madam|mc=1}}. Please select the stone you find most agreeable.
+::'''Shitou:''' Precisely the amount I recommend to all our new customers {{MC|m=Sir|f=Madam}}; a sum small enough to spare, but big enough to invest.
+::'''Shitou:''' Over here if you would, {{MC|m=Sir|f=Madam}}. Please select the stone you find most agreeable.
 ::'''Shitou:''' Take all the time you need. I will be delighted to do the honors whenever you are ready.
 :;(Onto Choosing a Stone)
 :{{DIcon}} 600 Mora.
-::'''Shitou:''' Most discerning of you, {{MC|Sir|Madam|mc=1}}! Not every new customer appreciates that one must sow generously in order to reap generously.
+::'''Shitou:''' Most discerning of you, {{MC|m=Sir|f=Madam}}! Not every new customer appreciates that one must sow generously in order to reap generously.
 ::'''Shitou:''' Over here if you would, please.
 ::'''Shitou:''' These are the most exquisite stones in our collection. Please peruse them at your leisure. I'm sure they will stand up to scrutiny.
 ::'''Shitou:''' Once you decide which of them you are most partial to, please inform me and I will be delighted to do the honors.
 :;(Onto Choosing a Stone)
 :{{DIcon}} Haven't you inspected them already?
-::'''Shitou:''' Not at all {{MC|Sir|Madam|mc=1}}, I have merely arranged them into very rough groups.
+::'''Shitou:''' Not at all {{MC|m=Sir|f=Madam}}, I have merely arranged them into very rough groups.
 ::'''Shitou:''' However closely one might scrutinize a raw stone, and whatever fabulous contraptions one might employ in doing so, the fact is that one only sees the outside.
 ::'''Shitou:''' I can but broadly speculate as to what treasure a stone might contain, and how much it might be worth...
 ::'''Shitou:''' To be honest, I genuinely don't know what's inside until the stone is cut open. Nor does anyone else, for that matter. Ultimately, when all is said and done, it comes down to sheer luck.
 ::'''Shitou:''' The worst luck of all is to see a spot of jade visible on the outside of the stone, only to cut it open and find the inside is completely worthless. The best luck of all is to pick a random stone up off the street, break it open, and find it filled with Noctilucous Jade.
-::'''Shitou:''' But as I say {{MC|Sir|Madam|mc=1}}, fortune favors the bold. And the way I look at it, you are certainly bold to have come this far, so I can only imagine that fortune will be looking most favorably on you indeed.
+::'''Shitou:''' But as I say {{MC|m=Sir|f=Madam}}, fortune favors the bold. And the way I look at it, you are certainly bold to have come this far, so I can only imagine that fortune will be looking most favorably on you indeed.
 :;(Dialogue ends)
 
 ;(Talk to Shitou)
@@ -116,33 +105,33 @@ Additionally, he will grant Mora based on the quality of each jade chosen.
 ===Choosing a Stone===
 :'''Shitou:''' Each person has their own method of assessing a raw stone's value.
 :'''Shitou:''' Some rely on pure intuition; they know the stone they want as soon as they lay eyes on it. Others prefer to examine each stone in detail.
-:'''Shitou:''' Far be it from me to presume which method will work best for you. It is up to you whether to {{Color|buzzword|take a closer look}} or simply {{Color|buzzword|go with your gut}}.
-:{{DIcon}} I want to {{Color|buzzword|take a closer look}}.
-::'''Shitou:''' Be my guest, {{MC|Sir|Madam|mc=1}}.
+:'''Shitou:''' Far be it from me to presume which method will work best for you. It is up to you whether to {{color|buzzword|take a closer look}} or simply {{color|buzzword|go with your gut}}.
+:{{DIcon}} I want to {{color|buzzword|take a closer look}}.
+::'''Shitou:''' Be my guest, {{MC|m=Sir|f=Madam}}.
 :;(Exits dialogue to examine the stones)
 :{{DIcon}} Open the stone on the yellow cloth.
-::'''Shitou:''' Certainly, {{MC|Sir|Madam|mc=1}}.
+::'''Shitou:''' Certainly, {{MC|m=Sir|f=Madam}}.
 :;(Opens the stone)
 :{{DIcon}} Open the stone on the blue cloth.
-::'''Shitou:''' Right away, {{MC|Sir|Madam|mc=1}}.
+::'''Shitou:''' Right away, {{MC|m=Sir|f=Madam}}.
 :;(Opens the stone)
 :{{DIcon}} Open the stone on the red-white cloth.
-::'''Shitou:''' Of course, {{MC|Sir|Madam|mc=1}}.
+::'''Shitou:''' Of course, {{MC|m=Sir|f=Madam}}.
 :;(Opens the stone)
 
 ;(Talk to Shitou)
 :;(Back to Choosing a Stone)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Open the Stone===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(If you selected a high-value jade)
 ::'''Shitou:''' My goodness... There's jade in here! We have a winner!
-::'''Shitou:''' You certainly know hidden treasure when you see it, {{MC|Sir|Madam|mc=1}}!
+::'''Shitou:''' You certainly know hidden treasure when you see it, {{MC|m=Sir|f=Madam}}!
 ::'''Shitou:''' Tell me... How exactly did you know? What did you see that other, er, customers maybe have missed...?
 ::{{DIcon}} I'd like to cash in now, please!
 ::'''Shitou:''' Hmm? Oh &mdash; yes, yes of course. Please, take this!
-::'''Shitou:''' Until next time, {{MC|Sir|Madam|mc=1}}!
+::'''Shitou:''' Until next time, {{MC|m=Sir|f=Madam}}!
 ::'''Shitou:''' Aargh! Lord help me... how could I have missed that...
 :;(Commission ends)
 ;(If you selected a medium-value jade)
@@ -158,56 +147,62 @@ Additionally, he will grant Mora based on the quality of each jade chosen.
 ::'''Shitou:''' Indeed I did! All our stones are responsibly sourced and carefully selected in good faith. To call any of them "bad stones" would therefore be a gross misrepresentation of the facts.
 ::'''Shitou:''' Please don't lose heart! All of us are led astray by a promising-looking but ultimately disappointing stone once in a while.
 :'''Shitou:''' Let me take that for you. If you'd like to keep trying, we can continue straight on. We'll settle the bill at the end.
-:'''Shitou:''' {{Color|buzzword|I'll calculate how much you're owed}} at the end. If we do it bit by bit as we go, I'll only confuse myself and you, and that's just no good for anybody.
-:'''Shitou:''' What do you say, {{MC|Sir|Madam|mc=1}}? Another round?
+:'''Shitou:''' {{color|buzzword|I'll calculate how much you're owed}} at the end. If we do it bit by bit as we go, I'll only confuse myself and you, and that's just no good for anybody.
+:'''Shitou:''' What do you say, customer? Another round?
 :{{DIcon}} One more try!
 :;(On your first five tries)
 :::'''Shitou:''' Excellent idea! Many a success story starts with those precise words, my friend.
-:::'''Shitou:''' Some people say, I'll come here once a day for the rest of my life and I'll be sure to strike lucky eventually. Personally, I prefer your approach &mdash; multiple attempts in one day, more of your life left to enjoy the winnings! Over here, if you would please, {{MC|Sir|Madam|mc=1}}!
+:::'''Shitou:''' Some people say, I'll come here once a day for the rest of my life and I'll be sure to strike lucky eventually. Personally, I prefer your approach &mdash; multiple attempts in one day, more of your life left to enjoy the winnings! Over here, if you would please, {{MC|m=Sir|f=Madam}}!
 ::;(Back to [[#Game Begins|Game Begins]])
 :;(After five tries)
-:::'''Shitou:''' Ah, erm, well... perhaps now is a good time for {{MC|Sir|Madam|mc=1}} to call it a day? One must temper one's enthusiasm for such pursuits, and I&mdash;I'm afraid I've run out of stones...
+:::'''Shitou:''' Ah, erm, well... perhaps now is a good time for {{MC|m=Sir|f=Madam}} to call it a day? One must temper one's enthusiasm for such pursuits, and I&mdash;I'm afraid I've run out of stones...
 :::'''Shitou:''' Between us, I've heard tomorrow is supposed to be a lucky day... You should come back then.
 ::;(Commission ends)
 :{{DIcon}} That'll do for now...
-::'''Shitou:''' Quite right, {{MC|Sir|Madam|mc=1}}, quite right! One can't spend all of one's time gambling on stones, it's simply not befitting of a {{MC|gentleman|lady|mc=1}} of your stature.
-{{Dialogue end}}
+::'''Shitou:''' Quite right, {{MC|m=Sir|f=Madam}}, quite right! One can't spend all of one's time gambling on stones, it's simply not befitting of a {{MC|m=gentleman|f=lady}} of your stature.
+{{Dialogue End}}
+
+==Video Guides==
+{{EVT
+|video1 = https://youtu.be/A_4GOZY5_6U
+|caption1 = Diamond in the Rough clip/zoom method.
+}}
 
 ==Other Languages==
 {{Other Languages
-|en      = Diamond in the Rough...
-|zhs     = 点石成…什么
-|zhs_rm  = Diǎnshíchéng...Shénme
-|zht     = 點石成…什麼
-|zht_rm  = Diǎnshíchéng...Shénme
-|zh_tl   = 
-|ja      = 石を…にする
-|ja_rm   = Ishi wo... ni Suru
-|ja_tl   = Turning a Stone into...
-|ko      = 살짝 고치면… 뭐가 될까?
-|ko_rm   = Saljjak Gochimyeon... Mwoga Doelkka?
-|ko_tl   = If I Fix It a bit... What Will It Be?
-|es      = Un diamante en bruto
-|es_tl   = Uncut Diamond
-|fr      = Diamant brut
-|fr_tl   = Uncut Diamond
-|ru      = Неогранённый алмаз
-|ru_tl   = Uncut Diamond
-|th      = ทำหินให้กลายเป็น... อะไร
-|th_rm   = 
-|th_tl   = Turning a Stone into... Something
-|vi      = Có công mài...gì nhỉ
-|vi_tl   = 
-|de      = Stein oder nicht Stein?
-|de_tl   = Stone or no Stone?
-|id      = Batu Menjadi Permata
-|id_tl   = Stone Becomes Diamond
-|pt      = Um diamante bruto...
-|pt_tl   = 
-|tr      = İşlenmemiş Cevher...
-|tr_tl   = 
-|it      = Un diamante grezzo
-|it_tl   = 
+|en        = Diamond in the Rough...
+|zhs       = 点石成…什么
+|zhs_rm    = Diǎnshíchéng... Shénme
+|zht       = 點石成…什麼
+|zht_rm    = Diǎnshíchéng... Shénme
+|zh_tl     = Touch a Stone to Turn It to... What
+|zh_note   = Based on the idiom {{zh|s=点石成金|t={{wt|點石成金}}|rm=diǎnshíchéngjīn|lit=to touch a stone to turn it to gold.}}
+|ja        = 石を…にする
+|ja_rm     = Ishi wo... ni Suru
+|ja_tl     = Turning a Stone Into...
+|ko        = 살짝 고치면… 뭐가 될까?
+|ko_tl     = If I Fix It a Bit... What Will It Be?
+|es        = Un diamante en bruto
+|es_tl     = Uncut Diamond
+|fr        = Diamant brut
+|fr_tl     = Uncut Diamond
+|ru        = Неогранённый алмаз
+|ru_tl     = Uncut Diamond
+|th        = ทำหินให้กลายเป็น... อะไร
+|th_rm     = 
+|th_tl     = Turning a Stone Into... Something
+|vi        = Có công mài...gì nhỉ
+|vi_tl     = 
+|de        = Stein oder nicht Stein?
+|de_tl     = Stone or Not Stone?
+|id        = Batu Menjadi Permata
+|id_tl     = Stone Becomes Diamond
+|pt        = Um diamante bruto...
+|pt_tl     = 
+|tr        = İşlenmemiş Cevher...
+|tr_tl     = Unprocessed Jewel...
+|it        = Un diamante grezzo
+|it_tl     = 
 }}
 
 ==Change History==
@@ -218,4 +213,5 @@ Additionally, he will grant Mora based on the quality of each jade chosen.
 
 [[es:Un diamante en bruto]]
 [[fr:Diamant brut]]
+[[ja:石を…にする]]
 [[ru:Неогранённый алмаз]]

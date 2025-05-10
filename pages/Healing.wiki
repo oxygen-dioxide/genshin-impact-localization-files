@@ -6,11 +6,10 @@
 {{See also|HP}}
 {{Terminology Infobox
 |image        = Icon Attribute Healing.png
-|type         = Attributes
-|type2        = Combat
-|type3        = Game Systems
+|type         = Combat
+|type2        = Game Systems
 }}
-'''Healing''' refers to the ability to regenerate [[HP]]. This can be done via [[Food]], Character Talents, or special Domain effects. Some Healing abilities apply team-wide, others only to the individual.
+'''Healing''' refers to the regeneration of [[HP]]. This can be done via [[Food]], Character Talents, or special Domain effects. Some Healing abilities apply team-wide, others only to the individual.
 
 Two attributes, [[Healing Bonus]] and [[Incoming Healing Bonus]], will affect the amount of HP healed as follows:
 :<math>\begin{align} \text{Healing Amount} = {} & \text{Base Healing Amount} \\ & \times (1 + \text{Healing Bonus}_\text{Healer} + \text{Incoming Healing Bonus}_\text{Target}) \end{align}</math>
@@ -35,12 +34,20 @@ These are constellations that heal characters.
 {{Constellations by Category Table|Healing Constellations}}
 
 ===Healing Improvement Talents===
-These are passives that buff healing talents.
+These are talents that buff healing.
 {{Talents by Category Table|Healing Improvement Talents}}
 
 ===Healing Improvement Constellations===
 These are constellations that buff healing abilities for character talents.
 {{Constellations by Category Table|Healing Improvement Constellations}}
+
+===Healing Overflow Talents===
+These are talents that trigger when healing overflows.
+{{Talents by Category Table|Healing Overflow Talents}}
+
+===Healing Overflow Constellations===
+These are constellations that trigger when healing overflows.
+{{Constellations by Category Table|Healing Overflow Constellations}}
 
 ==Character Healing Comparison==
 {| class="fandom-table sortable"
@@ -48,13 +55,29 @@ These are constellations that buff healing abilities for character talents.
 |-
 | &mdash; || [[Statue of the Seven]] || AoE || {{Check|no}}
 |-
+| {{Character|Arlecchino|20|nobr=1}} || {{Talent|Balemoon Rising|nobr=1|type=1|20}} || Self || {{Check|yes}}
+|-
 | rowspan="3" | {{Character|Barbara|20|nobr=1}} || {{Talent|Let the Show Begin♪|nobr=1|type=1|20}} (Healing Over Time) || Single || {{Check|yes}}
 |-
 | {{Talent|Let the Show Begin♪|nobr=1|type=1|20}} (NA/CA Healing) || Party || {{Check|no}}
 |-
 | {{Talent|Shining Miracle♪|nobr=1|type=1|20}} || Party || {{Check|no}}
 |-
+| rowspan="2" | {{Character|Baizhu|20|nobr=1}} || {{Talent|Universal Diagnosis|nobr=1|type=1|20}} || Party || {{Check|no}}
+|-
+| {{Talent|Holistic Revivification|nobr=1|type=1|20}} || Single || {{Check|yes}}
+|-
 | {{Character|Bennett|20|nobr=1}} || {{Talent|Fantastic Voyage|nobr=1|type=1|20}} || AoE || {{Check|yes}}
+|-
+| rowspan="2" | {{Character|Charlotte|20|nobr=1}} || {{Talent|Still Photo: Comprehensive Confirmation|nobr=1|type=1|20}} (Activation) || Party || {{Check|yes}}
+|-
+| {{Talent|Still Photo: Comprehensive Confirmation|nobr=1|type=1|20}} (Field) || AoE || {{Check|yes}}
+|-
+| rowspan="2" | {{Character|Chevreuse|20|nobr=1}} || {{Talent|Short-Range Rapid Interdiction Fire|nobr=1|type=1|20}} || Single || {{Check|yes}}
+|-
+| {{Constellation|In Pursuit of Ending Evil|nobr=1|level=1|20}} || Party || {{Check|no}}
+|-
+| {{Character|Clorinde|20|nobr=1}} || {{Talent|Hunter's Vigil|nobr=1|type=1|20}} || Self || {{Check|yes}}
 |-
 | rowspan="2" | {{Character|Dehya|20|nobr=1}} || {{Talent|Stalwart and True|nobr=1|type=1|20}} || Self || {{Check|no}}
 |-
@@ -68,9 +91,19 @@ These are constellations that buff healing abilities for character talents.
 |-
 | {{Character|Fischl|20|nobr=1}} || {{Constellation|Her Pilgrimage of Bleak|nobr=1|level=1|20}} || Self || {{Check|yes}}
 |-
+| {{Character|Furina|20|nobr=1}} || {{Talent|Salon Solitaire|nobr=1|level=1|20}} || AoE || {{Check|yes}}
+|-
+| rowspan="3" | {{Character|Gaming|20|nobr=1}} || {{Talent|Suanni's Gilded Dance|nobr=1|type=1|20}} || Self || {{Check|yes}}
+|-
+| {{Talent|Dance of Amity|nobr=1|type=1|20}} || Self || {{Check|no}}
+|-
+| {{Constellation|Bringer of Blessing|nobr=1|level=1|20}} || Self || {{Check|yes}}
+|-
 | {{Character|Gorou|20|nobr=1}} || {{Constellation|Lapping Hound: Warm as Water|nobr=1|level=1|20}} || AoE || {{Check|yes}}
 |-
 | {{Character|Hu Tao|20|nobr=1}} || {{Talent|Spirit Soother|nobr=1|type=1|20}} || Self || {{Check|yes}}
+|-
+| {{Character|Iansan|20|nobr=1}} || {{Talent|Kinetic Energy Gradient Test|nobr=1|type=1|20}} || Single || {{Check|yes}}
 |-
 | rowspan="3" | {{Character|Jean|20|nobr=1}} || {{Talent|Dandelion Breeze|nobr=1|type=1|20}} (Activation) || Party || {{Check|no}}
 |-
@@ -80,9 +113,21 @@ These are constellations that buff healing abilities for character talents.
 |-
 | {{Character|Kaeya|20|nobr=1}} || {{Talent|Cold-Blooded Strike|nobr=1|type=1|20}} || Self || {{Check|yes}}
 |-
+| {{Character|Kaveh|20|nobr=1}} || {{Talent|An Architect's Undertaking|nobr=1|type=1|20}} || Self || {{Check|yes}}
+|-
 | {{Character|Kuki Shinobu|20|nobr=1}} || {{Talent|Sanctifying Ring|nobr=1|type=1|20}} || AoE || {{Check|yes}}
 |-
+| {{Character|Lynette|20|nobr=1}} || {{Talent|Enigmatic Feint|nobr=1|type=1|20}} || Self || {{Check|yes}}
+|-
+| {{Character|Lyney|20|nobr=1}} || {{Talent|Bewildering Lights|nobr=1|type=1|20}} || Self || {{Check|yes}}
+|-
+| {{Character|Neuvillette|20|nobr=1}} || {{Talent|As Water Seeks Equilibrium|nobr=1|type=1|20}} || Self || {{Check|yes}}
+|-
 | {{Character|Noelle|20|nobr=1}} || {{Talent|Breastplate|nobr=1|type=1|20}} || Party || {{Check|no}}
+|-
+| rowspan="2" | {{Character|Mika|20|nobr=1}} || {{Talent|Skyfeather Song|nobr=1|type=1|20}} (Activation) || Party || {{Check|no}}
+|-
+| {{Talent|Skyfeather Song|nobr=1|type=1|20}} (Normal Attack Healing) || Single || {{Check|yes}}
 |-
 | rowspan="3" | {{Character|Qiqi|20|nobr=1}} || {{Talent|Adeptus Art: Herald of Frost|nobr=1|type=1|20}} (Healing Over Time) || Single || {{Check|yes}}
 |-
@@ -100,7 +145,25 @@ These are constellations that buff healing abilities for character talents.
 |-
 | {{Talent|Someone More Capable|nobr=1|type=1|20}} || Party || {{Check|no}}
 |-
+| rowspan="2" | {{Character|Sigewinne|20|nobr=1}} || {{Talent|Rebound Hydrotherapy|nobr=1|type=1|20}} || Party || {{Check|no}}
+|-
+| {{Talent|Emergency Dose|nobr=1|type=1|20}} || Single || {{Check|no}}
+|-
 | {{Character|Traveler (Anemo)|20|nobr=1}} || {{Talent|Second Wind|nobr=1|type=1|20}} || Self || {{Check|no}}
+|-
+| rowspan="2" | {{Character|Traveler (Hydro)|20|nobr=1}} || {{Talent|Spotless Waters|nobr=1|type=1|20}} || Self || {{Check|yes}}
+|-
+| {{Constellation|Tides of Justice|nobr=1|level=1|20}} || Party || {{Check|no}}
+|-
+| {{Character|Wriothesley|20|nobr=1}} || {{Talent|There Shall Be a Plea for Justice|nobr=1|type=1|20}} || Self || {{Check|yes}}
+|-
+| rowspan="2" | {{Character|Xianyun|20|nobr=1}} || {{Talent|Stars Gather at Dusk|nobr=1|type=1|20}} || Party || {{Check|no}}
+|-
+| {{Constellation|Mystery Millet Gourmet|nobr=1|level=1|20}} || Party || {{Check|no}}
+|-
+| rowspan="2" | {{Character|Xilonen|20|nobr=1}} || {{Talent|Ocelotlicue Point!|nobr=1|type=1|20}} || Party || {{Check|yes}}
+|-
+| {{Constellation|Imperishable Night Carnival|nobr=1|level=1|20}} || Party || {{Check|no}}
 |-
 | {{Character|Xingqiu|20|nobr=1}} || {{Talent|Hydropathic|nobr=1|type=1|20}} || Single || {{Check|yes}}
 |-
@@ -111,6 +174,8 @@ These are constellations that buff healing abilities for character talents.
 | {{Talent|In Others' Shoes|nobr=1|type=1|20}} || AoE || {{Check|yes}}
 |-
 | {{Constellation|Beneficent|nobr=1|level=1|20}} || AoE || {{Check|yes}}
+|-
+| {{Character|Yumemizuki Mizuki|20|nobr=1}} || {{Talent|Anraku Secret Spring Therapy|nobr=1|type=1|20}} || Single || {{Check|yes}}
 |-
 | {{Character|Zhongli|20|nobr=1}} || {{Constellation|Chrysos, Bounty of Dominator|nobr=1|level=1|20}} || Single || {{Check|yes}}
 |}

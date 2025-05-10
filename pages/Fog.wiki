@@ -1,54 +1,65 @@
-{{Status Infobox
+{{Terminology Infobox
+|image    = Sea Fog Climate.png
 |type     = Climates
 |region   = Golden Apple Archipelago
-|region2  = Tsurumi Island
-|image    = Sea Fog Climate.png
-|effect   = 
-'''In the Golden Apple Archipelago'''
+|region2  = Inazuma
+|area     = Tsurumi Island
+}}
+'''Fog''' is a [[climate]] that appears in [[Tsurumi Island]]. '''Sea Fog''' was a nearly identical climate that appeared in the [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] in [[Version 1.6]].
+
+==Overview==
+While within an fog-affected area, an invisible fog gauge will fill at varying rates depending on the thickness of the fog. When the gauge is at least 35% full, the player's peripheral vision is reduced. Once the gauge is full, the player is teleported away.
+
+[[Teleport Waypoint]]s inside foggy areas cannot be accessed on the map unless the fog has been cleared. This includes Teleport Waypoints that are not in areas that fill up the fog gauge but still have heavy visual fog, such as the Teleport Waypoint closest to Tsurumi Island's [[Statue of The Seven]]. However, [[Portable Waypoint]]s placed in foggy areas can always be accessed.
+
+===Locations===
+'''Fog''' affects all of [[Tsurumi Island]] except the southernmost peninsula and the easternmost two isles before completing the {{Quest|Through the Mists}}. The fog also visibly covers Tsurumi Island on the [[map]]. Throughout the series, the fog is cleared and returns multiple times. At the end of the series, the fog is permanently removed.
+
+'''Sea Fog''' affected all of the [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] before completing the {{Quest|Mysterious Islands: Journey to the Unknown}}. Activating [[Teleport Waypoints]] during the quest dispelled most of the fog. It remained in the area north of [[Twinning Isle/1.6|Twinning Isle]] while heading to the [[Twinning Isle/1.6#Nameless Islet|Nameless Islet]], which was most easily done using the instructions found during the {{Quest|A Trip Through Fog and Wind}}. To navigate the Sea Fog there, instead of finding Glimmering Beacons, a wind trail must be followed at the appropriate time of day, and the player was teleported away when the fog gauge reached 50% instead of 100%.<!-- pre-full border appeared after 3-4 seconds, teleported away after about 5 seconds without the full border ever appearing -->
+
+==Accumulation Rate==
+{| class="wikitable sortable"
+|-
+! Conditions !! Rate !! Fully fills gauge in...
+|-
+| [[Autake Plains]], prior to completing ''[[The Sun-Wheel and Mt. Kanna]]'' || 5% per second || 20 seconds
+|-
+| Most of [[Tsurumi Island]], prior to ''[[A Particularly Particular Author]]'' || 30% per second || 3.33 seconds
+|-
+| [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] ([[Version 1.6]]) || 10% per second || 10 seconds
+|}
+
+==Depletion==
+Activated [[Stormstone]]s on Tsurumi Island and [[Glimmering Beacon]]s on the Golden Apple Archipelago will halt the fog gauge accumulation of nearby players and reduce their accumulated fog at a rate of '''25%''' per '''0.2''' seconds ('''0.8''' seconds to completely deplete a full gauge). Stormstones' effects have a horizontal range of '''12m''' and a vertical range of '''10m''', and Glimmering Beacons have a horizontal range of '''6.5m''' and a vertical range of '''5m'''.
+
+In the area north of [[Twinning Isle/1.6|Twinning Isle]] during Version 1.6, remaining on the correct path to the [[Twinning Isle/1.6#Nameless Islet|Nameless Islet]] also reduced the accumulated fog. This was most easily done by following a wind trail that became visible at a certain time of day.
+
+===Leaving the Area===
+When players leave areas affected by a foggy climate, the fog gauge reduces at a rate of '''5%''' per second ('''20''' seconds to completely deplete a full gauge.{{Verify}}
+
+==Lore==
+===Tsurumi Island===
+While the [[Thunderbird]] was alive, an object, possibly a [[Celestial Nail]], fell onto Tsurumi Island, bringing clear skies for a short period of time followed by a thick fog. The Thunderbird had the power to dispel the fog but never bothered to do so.<ref name="sun-wheel">{{Ref/Quest|The Sun-Wheel and Mt. Kanna}}</ref>
+
+Later, [[Ruu]], a human who the Thunderbird took an interest in, was sacrificed to her. The Thunderbird was enraged and destroyed Tsurumi Island, dooming it to "fall under an eternal catastrophe" until she could hear Ruu's song again.<ref name="sun-wheel" /> The "catastrophe," an eternal loop of the final sacrificial ceremony held on the island followed by a terrible storm, is suggested to be a [[Ley Line Disorder]] and the mixture of the Thunderbird's power with the existing fog on the island.<ref>{{Ref/Quest|The Sea of Fog and the Rite of the Trees}}</ref>
+
+At the end of the {{Quest|The Sun-Wheel and Mt. Kanna}}, the persistent illusion of [[Ruu]] sings at [[Amakumo Peak]], where the Thunderbird was killed. Afterward, the fog over Tsurumi Island is permanently dispelled, although the area surrounding Tsurumi Island is still visually foggy for players.
+
+===Golden Apple Archipelago===
+The Golden Apple Archipelago used to be enshrouded in constant storms and thick fog, trapping those stranded there and discouraging or even preventing most sailors from approaching it.<ref>{{Ref/Quest|Mysterious Islands: Journey to the Unknown}}</ref> However, after the events of the {{Quest|Mysterious Islands: Journey to the Unknown}}, it seems that the storms and fog have abated or disappeared.<ref>{{Ref/Quest|Dodo-King of the Sea: Lying in Wait}}</ref><ref>{{Ref/Quest|The Golden Apple Vacation Returns! (Quest)}}</ref>
+
+==Descriptions==
+{{Description|<!-- weirdly, no title... -->
 * Fog rolls over the surface of the sea in the Golden Apple Archipelago, and it is incredibly easy to lose one's way when sailing amidst such weather.
 * Use the [[Glimmering Beacon]]s on the sea surface to find the various islands in the fog and unlock their Teleport Waypoints.
 * Your minimap will start to pulse when you approach a Beacon, and the pulses get stronger the closer you are to a Beacon.
-* These Beacons will switch from a twinkling to a shining mode once you sail your Waverider to them and interact with them.
-'''In Tsurumi Island'''
+* These Beacons will switch from a twinkling to a shining mode once you sail your [[Waverider]] to them and interact with them.
+|[[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] ([[Version 1.6]])}}
+
+{{Description|'''Sea fog...'''{{Verify}}
 * It is said that those who are not accepted by the mysterious fog will get lost within before finally being expelled.
-* The [[Stormstone]]s that can be lit by {{Color|Electro}} might help you forge a path through the thick fog, as they provide respite from the fog's continuous encroachment.
-}}
-While in '''Fog''', it is easy to lose your way while sailing or traversing. Follow the [[Glimmering Beacon]]s or the [[Stormstone]]s to avoid this happening. If you lose track, the edges of your screen will fog over, and then you will respawn at the nearest Beacon or Stormstone.
-
-==Overview==
-Fog functions similarly to [[Sheer Cold]]. While within an fog-affected area, an invisible fog gauge will fill at varying rates. Once the gauge is full, the player will be teleported away. A warning effect will appear around the player's screen once the fog gauge has accumulated past '''35%'''.
-
-===Accumulation Rate===
-{| class="wikitable sortable"
-|-
-! Conditions !! Accumulation Rate !! Time to fill an empty Fog gauge
-|-
-| [[Autake Plains]], prior to completing [[The Sun-Wheel and Mt. Kanna]] || 5% per second || 20 seconds
-|-
-| Inner [[Tsurumi Island]], prior to [[A Particularly Particular Author]] || 30% per second || 3.33 seconds
-|-
-| [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] || 10% per second || 10 seconds
-|}
-
-===Countering Fog===
-Activated [[Stormstone]]s and Glimmering Beacons will halt the fog gauge accumulation of nearby players and reduce their accumulated fog at a rate of '''25%''' per '''0.2''' seconds. Stormstones' effects have a horizontal range of '''12m''' and a vertical range of '''10m''', and Glimmering Beacons have a horizontal range of '''6.5m''' and a vertical range of '''5m'''
-
-Stormstones are only found in Tsurumi Island, while Glimmering Beacons are only found in Golden Apple Archipelago.
-
-==Variants==
-===Golden Apple Archipelago===
-Fog was introduced as Sea Fog in the [[Golden Apple Archipelago/1.6|Golden Apple Archipelago]] during the [[Midsummer Island Adventure]], Act I quest: [[Mysterious Islands: Journey to the Unknown]]. Activating [[Teleport Waypoints]] during the quest dispelled the nearby fog.
-
-Sea Fog was also encountered north of [[Twinning Isle/1.6|Twinning Isle]] while heading to the [[Twinning Isle/1.6#Nameless Islet|Nameless Islet]], which was most easily done using the instructions found during the World Quest [[A Trip Through Fog and Wind]]. To navigate the Sea Fog there, instead of finding Glimmering Beacons, a wind trail must be followed at the appropriate time of day.
-
-===Tsurumi Island===
-The most prominent fog location is [[Tsurumi Island]], where the haze covers the map and greatly limits visibility, making navigation difficult.
-
-Initially, only the southernmost peninsula and the easternmost two isles by Tsurumi Island's Statue of The Seven can be accessed freely at any time. The fog covers the rest of the island, extends past it on the north and west sides, and fills the Fog gauge rapidly, preventing players from making landfall in those areas.
-
-Teleport Waypoints inside foggy areas cannot be accessed on the map unless the player has cleared their respective fog area. This includes Teleport Waypoints that are inside areas with heavy visual fog but outside areas that fill up the fog gauge, such as the Teleport Waypoint closest to Tsurumi Island's Statue of The Seven. Portable Waypoints placed inside, however, can be accessed even after the fog has covered the island again the next day.
-
-As players progress through the [[Through the Mists]] World Quest series, the fog repeatedly leaves and returns. Upon completion of the series, the fog is permanently dispelled.
+* The [[Stormstone]]s that can be lit by {{Electro}} might help you forge a path through the thick fog, as they provide respite from the fog's continuous encroachment.
+|[[Tsurumi Island]]}}
 
 ==Trivia==
 * Fog-like conditions could also be found on the Golden Apple Archipelago on the [[Central Platform]] when a [[Maguu Kenki]] is in the arena as well as in the [[Broken Isle/1.6#North Island|island cluster north of Broken Isle]] before the World Quest [[Who Wields the Wild Wind?]] is completed. Long-range visibility is diminished, and the background music changes to the same music heard when encountering Sea Fog. However, neither of these locations are affected by the Sea Fog climate.
@@ -60,6 +71,9 @@ Fog Above 35.png|Screen effect while above 35% fog accumulation
 
 ==Change History==
 {{Change History|1.6}}
+
+==References==
+{{Reflist}}
 
 ==Navigation==
 {{Exploration Navbox}}

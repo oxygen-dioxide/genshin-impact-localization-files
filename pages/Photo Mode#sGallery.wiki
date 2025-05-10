@@ -5,13 +5,24 @@
 
 ==Expressions==
 {{#DPL:
-|namespace=
-|category=Character Media
-|uses=Template:Character Expression
-|include={Character Expression¦Phantom Expression List}
-|table=class="wikitable sortable" style="text-align: center;",-,Character,Expression 1, Expression 2, Expression 3
-|ordermethod=title
-|allowcachedresults = true
+|namespace   = 
+|category    = Character Galleries
+|uses        = Template:Character Expression
+|include     = {Character Expression¦Phantom Expression List}
+|table       = class="wikitable sortable align-center",-,Character,Expression 1, Expression 2, Expression 3
+|ordermethod = title
+}}
+
+==Thespian Tricks==
+{{Main|Thespian Trick}}
+{{#DPL:
+|namespace     =
+|category      = Thespian Tricks
+|uses          = Template:Thespian Trick Infobox
+|include       = {Thespian Trick Infobox}:image,{Thespian Trick Infobox}:name,{Thespian Trick Infobox}:name,{Thespian Trick Infobox}:character,{Thespian Trick Infobox}:character
+|format        = «gallery widths="200" bordersize="none" spacing="small"»\n,,\n,«/gallery»
+|secseparators = ,¦link=%PAGE%¦²{#if:,,¦[[%PAGE%¦,,]]¦[[%PAGE%]]}²²{#if:,,¦&#32;&mdash;&#32;[[,,]]}²
+|ordermethod   = title
 }}
 
 [[Category:Game System Subpages]]

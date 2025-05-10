@@ -3,12 +3,12 @@
 |missing_NPC_profile  = yes
 }}
 {{Character Infobox
-|type             = NPC <!-- NPC, Quest NPC, or Event NPC -->
+|type             = Open-World NPC <!-- NPC, Quest NPC, or Event NPC -->
 |image            = NPC Karima.png
 |realname         = <!-- Optional, if different from in-game name -->
 |deceased         = <!-- Past (for deceased prior to events of the game) or free response -->
 |region           = Sumeru
-|location         = <!-- Where the character appears, if different from Region -->
+|location         = Sumeru
 |affiliation      = 
 |title            = 
 
@@ -25,7 +25,7 @@
 |voiceJP          = 
 |dialoguereward   = 
 }}
-'''Karima''' is an [[NPC]] located in the northern part of [[Aaru Village]], [[Sumeru]]. She can be found conversing with [[Ayten]] during the day (06:00 – 19:00).
+'''Karima''' is an open-world [[NPC]] located in the northern part of [[Aaru Village]], [[Sumeru]]. She can be found conversing with [[Ayten]] during the day (06:00 – 19:00).
 
 ==Location==
 <gallery>
@@ -37,9 +37,6 @@ NPC Location Ayten & Karima Context.png|Additional context
 <!--Detailed story/lore information goes here.-->
 ''(To be added.)''
 
-===Personality===
-''(To be added.)''
-
 ===Appearance===
 <!--Keep appearance section short and concise. Limit to 2 paragraphs with 3-4 sentences each.-->
 ''(To be added.)''
@@ -48,39 +45,37 @@ NPC Location Ayten & Karima Context.png|Additional context
 {{Quests and Events}}
 
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 : {{DIcon|Idle}} Miss [[Candace]]...
 :: {{A|VO Karima 01.ogg}} "I hope I can be as cool as Candace one day..."
-{{Dialogue end}}
+{{Dialogue End}}
+
+;During ''Chromatic Ode of Candies and Roses''
+{{Dialogue Start}}
+:{{DIcon|Idle}} What about a shield?<!-- No Voice-Over in English. -->
+{{Dialogue End}}
 
 ==Thoughts==
 {{All Schemes to Know Explanation|name=Karima}}
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{A|VO Karima All Schemes to Know 01.ogg}} '''Karima:''' (If I can become someone like Candace, then I won't need to be scared of sandstorms!)
-{{Dialogue end}}
+{{Dialogue End}}
+
+;During ''Chromatic Ode of Candies and Roses''
+{{Dialogue Start}}
+:'''Karima:''' (I wanna get a shield just like Candace's...)<!-- No Voice-Over in English. -->
+{{Dialogue End}}
 
 ==Dialogue==
-{{Dialogue start}}
-:'''Ayten:''' [[Dehya]]'s so awesome when she swings her huge sword around like that &mdash; "whoosh"!
-:'''Ayten:''' If I could do such things, I'd go to the city, make Mora, and eat all the stuff I want!
-:'''Karima:''' Huh? Do you wanna leave this place, Ayten?
-:'''Ayten:''' Yeah! All the older kids are leaving one by one, so life out there has got to be better, right?
-:'''Karima:''' Umm...
-:'''Karima:''' But I'd rather become someone like [[Candace]]...
-:'''Karima:''' She's beautiful and strong, and she's gonna protect us forever!
-:'''Ayten:''' Well, that doesn't sound too bad either.
-:'''Ayten:''' Well, how about this, then? I'll move to the city and earn loads of Mora... and that'll give you the Mora to stay here and protect the village!
-{{Dialogue end}}
-<!--
-==Event Dialogue==
-===Event Name===
-{{Dialogue start}}
-:'''{{subst:PAGENAME}}:'''
-{{Dialogue end}}
+{{Transclude|Ayten|Dialogue}}
 
+==Event Dialogue==
+{{Transclude|Ayten|Event Dialogue}}
+<!--
 ==Trivia==
 *
 -->
+
 ==Other Languages==
 {{Other Languages
 |default_hidden = 1
@@ -92,7 +87,6 @@ NPC Location Ayten & Karima Context.png|Additional context
 |ja      = カリマ
 |ja_rm   = Karima
 |ko      = 카리마
-|ko_rm   = Karima
 |es      = Karima
 |fr      = Karima
 |ru      = Карима

@@ -1,2 +1,110 @@
-#REDIRECT [[:Category:Teleport Enemies]]
-[[Category:Redirect Pages]]
+{{About|the game system|the navigational structures|Teleport Waypoint}}
+{{Terminology Infobox
+|type         = Combat
+|type2        = Game Systems
+}}
+'''Teleporting''', also known as '''Blinking''', is an ability that some enemies can perform, which consists of changing location without intermediate movement.
+
+==Enemies==
+Some enemies are able to teleport when certain conditions are met. While teleporting, enemies cannot be targeted. Any homing projectiles that locked onto an enemy before teleportation will stall at the enemy's last location before teleportation until either they expire or the enemy reappears, whichever happens first.
+
+Enemy teleportation is usually based on either the player's location or the enemy's original spawn point, with certain degrees of randomness.
+
+For example, [[Abyss Mage]]s will teleport when shielded and too far away from the player. However, they have different criteria for their teleport destinations:
+{| class="wikitable"
+!  !! {{Enemy|Pyro Abyss Mage|notext=1}} !! {{Enemy|Electro Abyss Mage|notext=1}} !! {{Enemy|Hydro Abyss Mage|notext=1}}{{Enemy|Cryo Abyss Mage|notext=1}}
+|-
+! Angle with target's orientation
+| '''≤60°''' || '''≤45°''' || '''≤30°'''
+|-
+! Distance from target
+| '''5m–7m''' || '''1m–2.5m''' || '''5m–7m'''
+|-
+! Area of teleport destination (rounded)
+| '''25.1m²''' || '''4.1m²''' || '''12.6m²'''<!--feel free to verify this/double check calculations-->
+|}
+As a result, it can be observed that:
+* Pyro Abyss Mages have the most randomness in their teleport destinations (as indicated by the largest landing area)
+* Hydro and Cryo Abyss Mages' teleports are more predictable
+* Electro Abyss Mages teleport extremely close to their targets
+
+The following graphic shows the areas which different Abyss Mage types can teleport to relative to the player's position:
+[[File:Abyss Mage Teleport Location Graphic.png|800px]]
+
+===Data===
+{| class="wikitable"
+! Enemy !! Ability !! Forward<br>Angle (°) !! Range (m) !! Relative To
+|-
+| {{Enemy|Fatui Skirmisher - Geochanter Bracer|20}} || Teleport away (Shining Withdraw) || -180 || 2–10 || Self
+|-
+| {{Enemy|Whopperflower|20}} || Teleport to target || 30 || 3.5 || Target
+|-
+| rowspan="2" | {{Enemy|Cryo Abyss Mage|20}} || Teleport to target || 30 || 5–7 || Target
+|-
+| Teleport away while stunned || 30 || 9–12 || Target
+|-
+| rowspan="2" | {{Enemy|Electro Abyss Mage|20}} || Teleport to target || 45 || 1–2.5 || Target
+|-
+| Teleport away while stunned || 30 || 9–12 || Target
+|-
+| rowspan="2" | {{Enemy|Hydro Abyss Mage|20}} || Teleport to target || 30 || 5–7 || Target
+|-
+| Teleport away while stunned || 30 || 9–12 || Target
+|-
+| rowspan="2" | {{Enemy|Pyro Abyss Mage|20}} || Teleport to target || 60 || 5–7 || Target
+|-
+| Teleport away while stunned || 30 || 9–12 || Target
+|-
+| rowspan="2" | {{Enemy|Fatui Electro Cicin Mage|20}} || Approach player || 45 || 4–5 || Self
+|-
+| Teleport away when attacked || 30 || 8–10 || Self
+|-
+| {{Enemy|Fatui Pyro Agent|20}} || Teleport to target (Blade Ablaze) || 360 || 0–1 || Target
+|-
+| rowspan="2" | {{Enemy|Geovishap Hatchling|20}} || Teleport away (Before Rolling Attack) || 360 || 15–20 || Target
+|-
+| Teleport to target || 360 || 2–5 || Target
+|-
+| {{Enemy|Hypostasis|20}} (Most) || Return to spawn || 0 || 0 || Spawn Point
+|-
+| rowspan="2" | {{Enemy|Anemo Hypostasis|20}} || Teleport to target (Vacuum Burst) || 90 || 2.5–5 || Target
+|-
+| Return to spawn || 180 || 0–5 || Spawn Point
+|-
+| {{Enemy|Electro Hypostasis|20}} || Return to spawn || 360 || 3–5 || Spawn Point
+|-
+| {{Enemy|Geo Hypostasis|20}} || Return to spawn || 360 || 4–6 || Spawn Point
+|-
+| {{Enemy|Ruin Destroyer|20}} || Teleport to target || 360 || 1–2 || Target
+|-
+| {{Enemy|Perpetual Mechanical Array|20}} || Teleport to target (Rocket Blast) || 360 || 1–2 || Target
+|-
+| {{Enemy|Spirit of Omen: Dendro Spirit-Serpent|20}} || Teleport to target (Ground Slam) || 0 || 0 || Target
+|-
+| {{Enemy|Consecrated Scorpion|20}} || Teleport to target (Dig) || 0 || 0–1 || Target
+|-
+| {{Enemy|Algorithm of Semi-Intransient Matrix of Overseer Network|20}} || Teleport forward (start of invisibility) || 0 || 10-15 || Self
+|-
+| {{Enemy|Perch Proliferating Organism|20}} || Teleport to target || 60 || 0–2 || Target
+|-
+| {{Enemy|Iniquitous Baptist|20}} || Teleport (Electro Phase) || 180 || 10–15 || Self
+|-
+| {{Enemy|All-Devouring Narwhal|20}} (Dark Shadow) || Teleport to target (Eye of Maelstrom Finisher) || 90 || 6.5 || Target
+|-
+| {{Enemy|Fluid Avatar of Lava|20}} || Teleport to target (Inferno Rise) || 360 || 1–2 || Target
+|}
+* Note that a negative Forward Angle means that the teleport direction is reversed.
+
+===Special Teleports===
+* {{Enemy|Pyro Hypostasis|20}}: During the 3rd part of the 3-Hit Combo, the game will predict the player's location in the next 0.5 seconds based on their current movement. The Pyro Hypostasis will teleport 0-1m in front of this predicted location.
+<!--
+==Characters==
+Some character [[Talent]]s appear to include the ability to teleport or blink. However, unlike enemies, characters cannot perform true teleportation with their Talents. Their "teleportation" is actually fast movement; the absence of their character models is purely visual, and characters who are in the middle of teleporting are still subject to all of the same limitations as when they are visible, such as being able to receive damage, being interrupted without sufficient [[Interruption Resistance]], becoming [[frozen]], etc. Additionally, they cannot overcome sheer or climbable terrain or move past obstacles while teleporting.
+===Talents===
+{{Talents by Category Table|Teleport Talents}}
+
+===Constellations===
+{{Constellations by Category Table|Teleport Constellations}}-->
+
+==Change History==
+{{Change History|1.0}}

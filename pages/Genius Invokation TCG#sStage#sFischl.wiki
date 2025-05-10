@@ -4,16 +4,16 @@
 {{Genius Invokation TCG Stages/Detailed}}
 
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{DIcon|Idle}} The forces of fate...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Dialogue==
 ===Friendly Fracas===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Fischl)
 :{{A|vo card fischl invite easy 01.ogg}} '''Fischl:''' Let the curtain of night descend, and place you into everlasting perdition!
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG match interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
@@ -36,13 +36,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card fischl invite easy 03.ogg}} '''Fischl:''' H&mdash;How did my Auge der Verurteilung fail to foresee this outcome?
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Serious Showdown===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Fischl)
 :{{A|vo card fischl invite hard 01.ogg}} '''Fischl:''' Who invokes the holy name of the Prinzessin?
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG match interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
@@ -65,13 +65,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card fischl invite hard 03.ogg}} '''Fischl:''' What the...! It's over already!?
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Guest Challenge===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Fischl)
 :{{A|vo card fischl freetalk 01.ogg}} '''Fischl:''' For the Prinzessin blessed with this Auge der Verurteilung, a card game such as this is but a trivial matter.
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG challenge interface)
 :{{DIcon}} I've got other things to do right now...
 ::{{A|vo card fischl leave 01.ogg}} '''Fischl:''' Are you taking your leave? Just as well, for the Prinzessin is preparing to retire for the time being.
@@ -81,7 +81,55 @@
 
 ;(If the player wins the match)
 :{{A|vo card fischl endofgame fail 01.ogg}} '''Fischl:''' Arch-nemesis of the Prinzessin... How hast thou escaped the cascading forces of fate?
-{{Dialogue end}}
+{{Dialogue End}}
+
+===Duel: Fischl===
+{{Dialogue Start}}
+;(Talk to Fischl)
+:{{A|vo tips tcg001 32 fischl 07.ogg}} '''Fischl:''' What say you, outlander? Do you wish to make an enemy of me, the Prinzessin der Verurteilung, who even now begins to strum the strings of fate that shall sound out the Traveler's Requiem?
+:{{DIcon|TCG}} Verily, 'tis time to duel!
+::{{A|vo tips tcg001 32 fischl 08a 1.ogg}} '''Fischl:''' Then I say it is time to see what you are made of!
+:;(Open Genius Invokation TCG match interface)
+:{{DIcon}} Wait, wait, wait, I need to check my deck first...
+::{{A|vo tips tcg001 32 fischl 08b 1.ogg}} '''Fischl:''' Oh, do you? How disappointing. But then again, for one accustomed to the petty burdens of this lowly realm, to challenge the Prinzessin is a load under which most mere mortals would crumble.
+
+;(Talk to Fischl)
+;(After denying previous duel)
+:{{A|vo dialog tips tcg001 fischl 01.ogg}} '''Fischl:''' I ask you once again, outlander: Do you wish to make an enemy of me?
+:{{DIcon|TCG}} Verily, 'tis time to duel!
+::{{A|vo dialog tips tcg001 fischl 02a 1.ogg}} '''Fischl:''' Then it is time to see what you are made of!
+:;(Open Genius Invokation TCG match interface)
+:{{DIcon}} Not yet... I entreat Your Majesty to ask me again later...
+::{{A|vo dialog tips tcg001 fischl 02b 1.ogg}} '''Fischl:''' Very well, I will ask you again when the time comes. But be warned, should you seek to flee when the hour of the battle draws nigh... I shall show you no mercy.
+
+;(Talk to Fischl)
+;(After losing previous duel)
+:{{A|vo dialog tips tcg001 fischl 03.ogg}} '''Fischl:''' It seems that you fall short of the superior skills of the Prinzessin. But I know you, Traveler, and even this shall not stop you from facing me again!
+:{{DIcon|TCG}} I will face you again right here, right now!
+::{{A|vo dialog tips tcg001 fischl 04a 1.ogg}} '''Fischl:''' Then show me once more what you are made of!
+:;(Open Genius Invokation TCG match interface)
+:{{DIcon}} Yes! ...But I need a moment to rethink my strategy first.
+::{{A|vo dialog tips tcg001 fischl 04b 1.ogg}} '''Fischl:''' Very well. When you think you are ready, I shall be right here waiting for you.
+
+;(When the player defeats one of Fischl's Character Cards)
+:{{A|vo tips tcg002 6 fischl 01.ogg}} '''Fischl:''' This is but a small sacrifice, necessary to achieve ultimate victory.
+
+;(When the player defeats two of Fischl's Character Cards)
+:{{A|vo tips tcg002 7 fischl 01.ogg}} '''Fischl:''' Ah, what happened... Oz! With lightning twixt upper and lower mandible, strike thy pointy beak into this obstacle, and remove it from my path!
+:{{A|vo tips tcg002 7 oz 01.ogg}} '''Oz:''' Mein Fräulein, I cannot simply attack the Traveler!
+
+;(When Fischl defeats one of the player's Character Cards)
+:{{A|vo tips tcg002 5 fischl 01.ogg}} '''Fischl:''' Hahaha, now see what happens to those who dare defy the Prinzessin!
+
+;(When Fischl uses an Elemental Burst)
+:{{A|vo tips tcg002 8 fischl 01.ogg}} '''Fischl:''' Hmph! As the cryptic chronicles of fate have prophesized, so do I command: In the name of the Prinzessin, deal your almighty final blow, and bring all that moves in the heavens to an everlasting standstill!
+{{Dialogue End}}
+
+==Change History==
+{{Change History|3.3}}
 
 ==Navigation==
 {{Genius Invokation TCG Stages Navbox}}
+
+[[pt-br:Chamado Sagrado dos Sete:Desafios/Fischl]]
+[[vi:Thất Thánh Triệu Hồi/Trận/Fischl]]

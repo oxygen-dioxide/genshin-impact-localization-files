@@ -1,0 +1,208 @@
+{{Talent Infobox
+|image         = Talent Spirit Reins, Shadow Hunt.png
+|character     = Chasca
+|type          = Elemental Skill
+|info          = Chasca and the will residing in her weapon resonate, dealing Nightsoul-aligned {{Color|AoE Anemo DMG}}.<br>After using this Skill, Chasca gains 80 [[Nightsoul point]]s and enters the [[Nightsoul's Blessing]] state.<br><br>'''Nightsoul's Blessing: Chasca'''<br>Continually consume Nightsoul points. When Nightsoul points are fully depleted or the skill is used again, Chasca's Nightsoul's Blessing state will end. Her Nightsoul's Blessing has the following traits:<br><ul><li>Mounts "Soulsniper: Ritual Staff," increasing Chasca's [[Movement SPD]] and [[interruption resistance]]. In this state, Chasca will continually consume Nightsoul points to remain airborne. When [[Sprinting]] or increasing height, extra Nightsoul points will be consumed.</li><li>When using Normal or Charged Attacks, Tap or Hold to switch between using "Multitarget Fire" in different ways.</li></ul><br>'''Multitarget Fire'''<br>'''Tap'''<br>Deal Nightsoul-aligned {{Color|Anemo DMG}} to opponents in front. This DMG is considered Normal Attack DMG.<br>'''Hold'''<br>Enter Aiming Mode and choose a certain number of opponents within a certain range, before loading up to 6 Shadowhunt Shells based on the duration for which the skill was charged. When 6 Shells have been loaded or charging is stopped, these Shells will be fired at the chosen opponents in sequence.<br><br>'''Shadowhunt Shells'''<br><ul><li>Deal Nightsoul-aligned {{Color|Anemo DMG}}, which is considered Charged Attack DMG.</li><li>The 4th, 5th, and 6th Shells loaded into the cylinder will undergo Elemental Conversion based on the Elemental Types of the other characters in the [[party]]: For each {{Color|Pyro}}, {{Color|Hydro}}, {{Color|Cryo}}, or {{Color|Electro}} character in the party, one Shadowhunt Shell will randomly be Converted into a "Shining Shadowhunt Shell" of one of these corresponding Elemental Types, dealing Nightsoul-aligned DMG corresponding to that Elemental Type. This DMG is considered Charged Attack DMG.</li><li>The Shells loaded into the cylinder are fired starting from the last Shadowhunt Shell to be loaded, in a "last in, first out" order.</li></ul><br>Additionally, when Chasca is in the Nightsoul's Blessing state, Holding her Elemental Skill Spirit Reins, Shadow Hunt will cause her to execute a Nightsoul-aligned Plunging Attack. Release the Elemental Skill to interrupt this Plunging Attack and maintain her airborne state. Should Chasca hit the ground with her Plunging Attack, her Nightsoul's Blessing state will end.
+|CD            = 6.5s
+|energyCost    = 
+|scale_att1    = ATK
+|scale_att2    = 
+|utility1      = Nightsoul Point
+|utility2      = Nightsoul's Blessing
+|utility3      = Movement SPD
+|utility4      = Interruption Resistance
+|utility5      = Conversion
+|arkhe         = 
+}}
+{{Description|In theory, as long as she's willing, those reins can bridle anything... But what could possibly be as cool as a giant hand cannon?}}
+'''Spirit Reins, Shadow Hunt''' is [[Chasca]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{Talent Note|particles|a Converted Charged Attack|5}}
+** This particle generation can only trigger once per Nightsoul's Blessing state.
+* The '''6.5s''' cooldown starts once Chasca's Nightsoul's Blessing state ends and not upon the Elemental Skill cast.
+* Chasca will automatically use Spirit Reins, Shadow Hunt when [[gliding]] or [[jumping]] into [[Gaseous Phlogiston]] Currents, or activating Phlogiston Wind Tunnel.
+** This Skill use ignores cooldown.
+** Since this use is considered a normal Elemental Skill use, it can generate Night Stars for [[Layla]]'s [[Nights of Formal Focus]].
+* Chasca is immune to being [[Frozen]] or being put in the [[Struggle State]] during her Nightsoul's Blessing.
+* In the following tables, "Diagonal Ascent (Full)" means ascending by holding the Jump button, and "Diagonal Ascent (Half)" means ascending by aiming the camera up.
+* {{Point Consumption|<!--
+-->Base:8/s;<!--
+-->Dash:13.3;<!--
+-->Hold Sprint:19.2/s;<!--
+-->Vertical Ascent:21/s;<!--
+-->Diagonal Ascent (Full):35/s;<!--
+-->Diagonal Ascent (Half):15.75/s
+}}
+* {{Point Consumption|name=[[Phlogiston]]|<!--
+-->Base:5.5/s;<!--
+-->Dash:9;<!--
+-->Hold Sprint:10/s;<!--
+-->Vertical Ascent:14/s;<!--
+-->Diagonal Ascent (Full):17.5/s;<!--
+-->Diagonal Ascent (Half):7.875/s
+}}
+
+;<big>Passive Effects</big>
+* {{Talent Note|ascension|1|Bullet Trick}}
+* {{Talent Note|ascension|2|Intent to Cover}}
+
+;<big>Constellation Effects</big>
+* {{Talent Note|constellation|1|Cylinder, the Restless Roulette}}
+* {{Talent Note|constellation|2|Muzzle, the Searing Smoke}}
+* {{Talent Note|constellation|3|Reins, Her Careful Control}}
+* {{Talent Note|constellation|6|Showdown, the Glory of Battle}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Resonance DMG
+|gu      = 1U
+|icdtag  = none
+|poise   = 50
+|impulse = 2
+
+|title2   = Multitarget Fire Tap DMG
+|gu2      = 1U
+|icdtag2  = Tap
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 20
+|impulse2 = 2
+
+|title3   = Shadowhunt Shell DMG
+|gu3      = 1U
+|icdtag3  = Shadowhunt Shell
+|icdtype3 = 1.5s
+|poise3   = 20
+|impulse3 = 2
+
+|title4   = Shining Shadowhunt Shell DMG
+|gu4      = 1U
+|icdtag4  = Shining Shadowhunt Shell
+|icdtype4 = 1.5s/2 Hits
+|poise4   = 20
+|impulse4 = 2
+}}
+
+==Preview==
+{{Preview
+|file1    = Spirit Reins, Shadow Hunt Movement Preview
+|caption1 = Movement
+
+|file2    = Spirit Reins, Shadow Hunt Combat Style 1 Preview
+|caption2 = Combat Style 1
+
+|file3    = Spirit Reins, Shadow Hunt Combat Style 2 Preview
+|caption3 = Combat Style 2
+}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|levels=13
+|order=resonancedmg,multitargetfirepressdmg,shadowhuntshelldmg,shiningshadowhuntshelldmg,nightsoulpointlimit,cd
+|titles=Resonance DMG (%),Multitarget Fire Tap DMG (%),Shadowhunt Shell DMG (%),Shining Shadowhunt Shell DMG (%),Nightsoul Point Limit,CD
+|resonancedmg_1=60
+|resonancedmg_2=64.5
+|resonancedmg_3=69
+|resonancedmg_4=75
+|resonancedmg_5=79.5
+|resonancedmg_6=84
+|resonancedmg_7=90
+|resonancedmg_8=96
+|resonancedmg_9=102
+|resonancedmg_10=108
+|resonancedmg_11=114
+|resonancedmg_12=120
+|resonancedmg_13=127.5
+|multitargetfirepressdmg_1=36
+|multitargetfirepressdmg_2=38.7
+|multitargetfirepressdmg_3=41.4
+|multitargetfirepressdmg_4=45
+|multitargetfirepressdmg_5=47.7
+|multitargetfirepressdmg_6=50.4
+|multitargetfirepressdmg_7=54
+|multitargetfirepressdmg_8=57.6
+|multitargetfirepressdmg_9=61.2
+|multitargetfirepressdmg_10=64.8
+|multitargetfirepressdmg_11=68.4
+|multitargetfirepressdmg_12=72
+|multitargetfirepressdmg_13=76.5
+|shadowhuntshelldmg_1=48.8
+|shadowhuntshelldmg_2=52.46
+|shadowhuntshelldmg_3=56.12
+|shadowhuntshelldmg_4=61
+|shadowhuntshelldmg_5=64.66
+|shadowhuntshelldmg_6=68.32
+|shadowhuntshelldmg_7=73.2
+|shadowhuntshelldmg_8=78.08
+|shadowhuntshelldmg_9=82.96
+|shadowhuntshelldmg_10=87.84
+|shadowhuntshelldmg_11=92.72
+|shadowhuntshelldmg_12=97.6
+|shadowhuntshelldmg_13=103.7
+|shiningshadowhuntshelldmg_1=166.57
+|shiningshadowhuntshelldmg_2=179.06
+|shiningshadowhuntshelldmg_3=191.56
+|shiningshadowhuntshelldmg_4=208.22
+|shiningshadowhuntshelldmg_5=220.71
+|shiningshadowhuntshelldmg_6=233.2
+|shiningshadowhuntshelldmg_7=249.86
+|shiningshadowhuntshelldmg_8=266.52
+|shiningshadowhuntshelldmg_9=283.17
+|shiningshadowhuntshelldmg_10=299.83
+|shiningshadowhuntshelldmg_11=316.49
+|shiningshadowhuntshelldmg_12=333.14
+|shiningshadowhuntshelldmg_13=353.97
+|nightsoulpointlimit=80
+|cd=6.5s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Chasca}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Other Languages==
+{{Other Languages
+|en       = Spirit Reins, Shadow Hunt
+|zhs      = 灵缰追影
+|zhs_rm   = Líng Jiāng Zhuī Yǐng
+|zht      = 靈韁追影
+|zht_rm   = Líng Jiāng Zhuī Yǐng
+|zh_tl    = Spirit Reins, Pursuing Shadows
+|ja       = スピリット・レインズ
+|ja_tl    = Spirit Reins
+|ko       = 영혼 올가미
+|ko_tl    = Spirit Trap
+|es       = Riendas persiguesombras
+|es_tl    = Shadowchasing Reins
+|fr       = Chasse des rênes spirituelles
+|fr_tl    = Hunt of Spirit Reins
+|ru       = Поводья охоты за тенью
+|ru_tl    = Reins of Shadow Hunt
+|th       = Spirit Reins, Shadow Hunt
+|vi       = Dây Cương Truy Ảnh
+|vi_tl    = 
+|de       = Auf der Jagd nach dem Schatten
+|de_tl    = On the Hunt for the Shadow
+|id       = Spirit Reins, Shadow Hunt
+|pt       = Rédeas Espirituais, Caça Sombria
+|pt_tl    = 
+|tr       = Ruh Dizginleri, Gölge Avı
+|tr_tl    = 
+|it       = Redini dello spirito, Caccia nell'ombra
+|it_tl    = 
+}}
+
+==Change History==
+{{Change History|5.2}}
+
+==Navigation==
+{{Talent Navbox|Chasca}}
+
+[[es:Riendas persiguesombras]]
+[[fr:Chasse des rênes spirituelles]]
+[[ru:Поводья охоты за тенью]]
+[[th:Spirit Reins, Shadow Hunt]]
+[[tr:Ruh Dizginleri, Gölge Avı]]
+[[vi:Dây Cương Truy Ảnh]]

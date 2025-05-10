@@ -6,7 +6,6 @@
 |actNum        = I
 |act           = Through Mists of Smoke and Forests Dark
 |part          = 6
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = 
 |characters    = Alhaitham; Bandi; Dori; Elham; Eymen; Latish; Jayant; Kudari; Paimon; Pooria; Raunak; Rama; Sidhu; Tariq; Traveler; Tumart
 |startLocation = [[Port Ormos]], [[Sumeru]]
@@ -15,10 +14,7 @@
 |subarea       = Port Ormos
 |prev          = The Trail of the God of Wisdom
 |next          = Ever So Close
-|exp           = 625
-|mora          = 25,450
-|primogems     = 
-|other         = {{Card|Hero's Wit|2}}{{Card|Mystic Enhancement Ore|4}}{{Card|Canned Knowledge "Swordfighting Techniques VIII"|1}}
+|rewards       = Adventure EXP*625;Mora*25,450;Hero's Wit*2;Mystic Enhancement Ore*4;Canned Knowledge "Swordfighting Techniques VIII"*1
 |voiced        = yes
 }}
 {{TeyvatQuest|title=Lost in Prosperity|chapter=3|act=1|part=6}}
@@ -33,7 +29,7 @@
 # Catch up with [[Alhaitham]]
 # Go with Alhaitham to a more secluded spot to continue your conversation
 # Meet up with [[Dori]]'s [[Latish|contact]]
-#* Choose "We want to buy some unripe [[Harra Fruit]]s."
+#* Choose "We want to buy some unripe {{Item|Harra Fruit|text=Harra Fruits}}."
 # Go to the warehouse with [[Raunak]]
 #* To increase trust, answer with the following:
 #** Congratulations to you.
@@ -43,11 +39,11 @@
 # Find the owner of the voice
 
 ==Gameplay Notes==
-* Completing the quest will grant the ''[[Wonders of the World]]'' achievement ''[[The Merchant and the Gate of Knowledge]]''.
+* Completing the quest will grant the {{Achievement|The Merchant and the Gate of Knowledge}}.
 
 ==Dialogue==
 {{Quest Description|Learning that the stolen package may have something to do with the gods, you and Paimon immediately set out for Port Ormos.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the marked area in Port Ormos)
 :{{A|vo xmaq006 1 rama 01.ogg}} '''Rama:''' Come and have a good look yourself! Traditional spices of the highest quality, made with pride and experience!
 :{{A|vo xmaq006 1 pooria 01.ogg}} '''Pooria:''' Haha, you've got a deal! I can't thank you enough for always looking after my business.
@@ -107,8 +103,7 @@
 :{{A|vo xmaq006 4 paimon 02.ogg}} '''Paimon:''' Let's find a seat somewhere and see if we can spot the group they mentioned.
 
 ;(Approach the marked table)
-:'''You sit down and wait for some time...'''
-
+:{{Black Screen|You sit down and wait for some time...}}
 :{{A|vo xmaq006 5 eymen 01.ogg}} '''Eymen:''' Oh, you've arrived. Please take a seat.
 :{{A|vo xmaq006 5 tariq 01.ogg}} '''Tariq:''' So they think that they can go toe to toe with the boss? Hah, once we reclaim the power of King Deshret, they'll be the first that the boss punishes.
 :{{A|vo xmaq006 5 tumart 01.ogg}} '''Tumart:''' They're nothing to be afraid of. Our main rival now is [[The Caracal Battalion]]. They've also amassed a significant amount of Mora this time, so we mustn't underestimate them.
@@ -175,7 +170,7 @@
 :{{A|vo xmaq006 6 tariq 22.ogg}} '''Tariq:''' Okay then, if you really have a death wish, let's meet a week from today... The pier in front of the [[Pharos Lighthouse]], four o'clock in the afternoon, sharp. Don't expect us to hold back!
 :{{A|vo xmaq006 6 alhaitham 13a.ogg}} '''Alhaitham:''' Not so fast. First, you return the 500,000 Mora to them.
 :{{A|vo xmaq006 6 tariq 23.ogg}} '''Tariq:''' Hmph.
-:{{color|menu|The eremite puts down the pouch and leaves.}}
+:{{color|menu|The Eremite puts down the pouch and leaves.}}
 :{{A|vo xmaq006 6 eymen 01.ogg}} '''Eymen:''' Please, I beg you, don't provoke them. We can't afford any trouble with this crowd... They haven't even paid for their food yet...
 :{{A|vo xmaq006 6 alhaitham 14.ogg}} '''Alhaitham:''' Ah, Mr. [[Eymen]]. There appears to be fewer staff in the restaurant recently. This wouldn't happen to be because they're all busy spreading the word to the students, would it?
 :{{A|vo xmaq006 6 eymen 02.ogg}} '''Eymen:''' I, uh... W&mdash;Well...
@@ -282,7 +277,7 @@
 :{{DIcon}} I'm willing to take that risk.
 :{{DIcon}} I'll help you find Dori.
 :{{A|vo xmaq006 9 alhaitham 25.ogg}} '''Alhaitham:''' Okay, then we have a deal. If you succeed in your dealings with Dori, come find me at the [[Wikala Funduq]]. We'll have an open discussion then.
-:;(Obtain [[Bag of Transaction Funds]] and [[Informant Code Chart]])
+:;(Obtain {{Item|Bag of Transaction Funds}} and {{Item|Informant Code Chart}})
 
 ;(After the dialogue)
 :{{A|vo xmaq006 10 paimon 01.ogg}} '''Paimon:''' Looking at what Alhaitham wrote, Dori's informant is a trader near Old Ormos.
@@ -381,9 +376,7 @@
 ::{{DIcon}} And this one.
 :::{{DIcon}} As well as this one.
 :{{A|vo xmaq006 15 dori 16.ogg}} '''Dori:''' Ahhh... You've really got a good head on your shoulders... and quite the eye for quality.
-
-:'''You pick and choose a variety of Canned Knowledge...'''
-
+:{{Black Screen|You pick and choose a variety of Canned Knowledge...}}
 :{{A|vo xmaq006 15 paimon 09.ogg}} '''Paimon:''' We'll take these, please and thank you!
 :{{A|vo xmaq006 15 dori 17.ogg}} '''Dori:''' My, oh my, you are blessed with a taste for both the exquisite and the extravagant... Customers like you are a rare breed &mdash; one in a hundred... No, one in a thousand, even!
 :{{A|vo xmaq006 15 dori 18.ogg}} '''Dori:''' Listen, I have a special offer for you two. If you spend just 100,000 Mora more, you can pick any Knowledge Capsule of your choice up to a value of one million Mora!
@@ -417,12 +410,15 @@
 :{{DIcon}} Whatever makes Paimon happy.
 :{{A|vo xmaq006 15 paimon 22.ogg}} '''Paimon:''' Dori, we'll take this one!
 :{{A|vo xmaq006 15 dori 21.ogg}} '''Dori:''' Alright, very good! I'm expecting some new goods in the next couple of days, so be sure to check back again soon! Whether it's Canned Knowledge or anything else you need &mdash; bring your Mora to Dori, and doors will open!
-:;(Obtain [[Canned Knowledge "Swordfighting Techniques VIII"]] and [[Package of Canned Knowledge]])
+:;(Obtain {{Item|Canned Knowledge "Swordfighting Techniques VIII"}} and {{Item|Package of Canned Knowledge}})
 
 ;(Talk to Dori again)
 :{{A|vo dialog xmaq007 dori 01.ogg}} '''Dori:''' Hee-hee-hee, Mora, Mora, shiny Mora... Hee-hee-hee...
 :{{A|vo dialog xmaq007 dori 02.ogg}} '''Dori:''' ...Oh! Uh, please come back any time you need something!
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages ==
 {{Other Languages
@@ -448,7 +444,7 @@
 |th_rm   = 
 |th_tl   = 
 |vi      = Tìm Vật Nơi Phồn Hoa
-|vi_tl   = 
+|vi_tl   = Find Things in Prosperity
 |de      = Verloren und im Tumult verborgen
 |de_tl   = Lost and Hidden in Turmoil
 |id      = Barang yang Hilang
@@ -456,7 +452,7 @@
 |pt      = Perdido na Prosperidade
 |pt_tl   = Lost in the Prosperity
 |tr      = Refah İçinde Kaybolmak
-|tr_tl   = 
+|tr_tl   = To Get Lost In Prosperity
 |it      = Perduti nella prosperità
 |it_tl   = Lost in Prosperity
 }}
@@ -466,6 +462,7 @@
 
 ==Navigation==
 {{Archon Quest Navbox|Chapter III}}
-[[Category:Archon Chapter 3]]
 
 [[es:Extravío en la abundancia]]
+[[ja:繁華に隠されし失物]]
+[[vi:Tìm Vật Nơi Phồn Hoa]]

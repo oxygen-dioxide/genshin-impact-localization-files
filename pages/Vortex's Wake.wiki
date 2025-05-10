@@ -1,5 +1,6 @@
 {{Quest Infobox
 |id            = 11021
+|image         = Story Quest Vortex's Wake.png
 |type          = Story
 |chapter       = Historia Antiqua Chapter
 |actNum        = I
@@ -12,42 +13,36 @@
 |subarea       = Guyun Stone Forest
 |prev          = Shadow of Yore
 |next          = A Ruin Under Lock and Key
-|exp           = 500
-|mora          = 27,825
-|other         = {{Card|Hero's Wit|3}}{{Card|Mystic Enhancement Ore|6}}
+|rewards       = Adventure EXP*500;Mora*27,825;Hero's Wit*3;Mystic Enhancement Ore*6
 |characters    = Kliment; Paimon; Traveler; Wanyan; Zhongli
 |voiced        = yes
 }}
-'''Vortex's Wake''' is the second part of [[Zhongli]]'s [[Story Quest]] [[Historia Antiqua Chapter]]: Act I - [[Sal Flore]].
+'''''Vortex's Wake''''' is the second part of {{Quest|Sal Flore}}.
 
 ==Steps==
-#Go to [[Guyun Stone Forest]]
-#Use Elemental Sight to search for relics
-#Defeat the enemies and open the chest
-#Continue using Elemental Sight to search for relics
-#*Open a floating box and retrieve [[Crude Sack]].
-#Defeat the mimic monsters and recover the relic
+# Go to [[Guyun Stone Forest]]
+# Use [[Elemental Sight]] to search for relics
+# Defeat the enemies and open the chest
+#* {{Enemy List|Hilichurl Fighter*2;Cryo Hilichurl Shooter;Pyro Hilichurl Shooter;Wooden Shieldwall Mitachurl}}
+# Continue using Elemental Sight to search for relics
+#* Open a floating box and retrieve [[Crude Sack]].
+# Defeat the [[Hydro Mimic|mimic monsters]] and recover the relic
 #* Wave 1
-#** {{Enemy|Hydro Mimic Crane|x=1}}
-#** {{Enemy|Hydro Mimic Frog|x=1}}
-#** {{Enemy|Hydro Mimic Mallard|x=1}}
+#** {{Enemy List|Hydro Mimic Crane;Hydro Mimic Frog;Hydro Mimic Mallard}}
 #* Wave 2
-#** {{Enemy|Hydro Mimic Boar|x=1}}
-#** {{Enemy|Hydro Mimic Ferret|x=1}}
-#** {{Enemy|Hydro Mimic Finch|x=1}}
-#** {{Enemy|Hydro Mimic Mallard|x=1}}
-#***Obtain 1 [[Mysterious Stone Tablet]]
-#Meet up with the other group
+#** {{Enemy List|Hydro Mimic Boar;Hydro Mimic Ferret;Hydro Mimic Finch;Hydro Mimic Mallard}}
+#* Obtain 1 [[Mysterious Stone Tablet]]
+# Meet up with the other group
 
 ==Dialogue==
 {{Quest Description|After your chance meeting with [[Zhongli]], you learn that a [[Fatui|Fatuus]] named [[Kliment]] is trying to organize an archaeological expedition. Zhongli is roped in as a consultant, along with an archaeologist named [[Wanyan]] who volunteers for the task. Though you distrust the Fatui, you join up at Zhongli's invitation. The first subject of this investigation is [[Osial]], Overlord of the Vortex.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to the people)
 :{{A|vo zllq002 2 kliment 01.ogg}} '''Kliment:''' This place looks so ordinary... Can we really find anything valuable here?
 :{{A|vo zllq002 2 paimon 01.ogg}} '''Paimon''' Huh? Paimon thinks it looks really grand!
 :{{A|vo zllq002 2 kliment 02.ogg}} '''Kliment:''' I don't mean the scenery, but rather that there should be something out of the ordinary. A big battle did just occur and all... And I don't even know where to begin looking here.
-:{{A|vo zllq002 2 zhongli 01.ogg}} '''Zhongli:''' Guyun Stone Forest is actually the perfect place to be if you wish to learn about the Archons or the history of the Archon War.
-:{{A|vo zllq002 2 zhongli 02.ogg}} '''Zhongli:''' Legend has it that Rex Lapis threw spears made of large rock into the sea here, piercing and crushing the Overlord of the Vortex.
+:{{A|vo zllq002 2 zhongli 01.ogg}} '''Zhongli:''' [[Guyun Stone Forest]] is actually the perfect place to be if you wish to learn about the [[Archon]]s or the history of the [[Archon War]].
+:{{A|vo zllq002 2 zhongli 02.ogg}} '''Zhongli:''' Legend has it that [[Rex Lapis]] threw spears made of large rock into the sea here, piercing and crushing the Overlord of the Vortex.
 :{{A|vo zllq002 2 zhongli 03.ogg}} '''Zhongli:''' After many years of wind erosion, those stone spears have turned into the unique rock formations we see now.
 :{{A|vo zllq002 2 paimon 02.ogg}} '''Paimon''' Th&mdash;These mountains were the Lord of Geo's weapons?
 :{{A|vo zllq002 2 zhongli 04.ogg}} '''Zhongli:''' What we see now is just the part of them that remains. The stone spears hurled by Rex Lapis all those years ago were much greater, both in number and in size.
@@ -65,10 +60,10 @@
 :{{A|vo zllq002 2 wanyan 02.ogg}} '''Wanyan:''' I get it... I'll escort him, then.
 :{{A|vo zllq002 2 zhongli 10.ogg}} '''Zhongli:''' Okay. If we find anything valuable or rare, let's meet on the shore opposite from here.
 :{{A|vo zllq002 2 zhongli 11.ogg}} '''Zhongli:''' The ancient god probably left behind lots of elemental marks. Following them should make our search much easier.
-:{{A|vo zllq002 2 paimon 03.ogg}} '''Paimon''' Well, go ahead then, (Traveler). Use your Elemental Sight to look for any marks.
+:{{A|vo zllq002 2 paimon 03.ogg}} '''Paimon''' Well, go ahead then, {{Traveler}}. Use your Elemental Sight to look for any marks.
 
 ;(Defeat the opponents and open the chest)
-:;(Obtain [[Used Training Dummy]] × 1)
+:;(Obtain {{Item|Used Training Dummy}})
 :{{A|vo zllq002 3 paimon 01.ogg}} '''Paimon:''' Why are there enemies here?
 :{{A|vo zllq002 3 zhongli 01.ogg}} '''Zhongli:''' Guyun Stone Forest is a place where a god was defeated, and its remnants still affect the area to this day.
 
@@ -78,7 +73,7 @@
 :{{A|vo zllq002 5 zhongli 02.ogg}} '''Zhongli:''' But, the Hydro Mimic monsters... Hmmm. I have a contract, and must put my personal feelings aside. Go ahead, defeat them and recover the relic.
 
 ;(Defeat the mimic monsters and recover the relic)
-:;(Obtain [[Mysterious Stone Tablet]] × 1)
+:;(Obtain {{Item|Mysterious Stone Tablet}})
 :{{A|vo zllq002 5 zhongli 03.ogg}} '''Zhongli:''' It's just a stone slab... but its design is quite unique.
 :{{A|vo zllq002 5 zhongli 04.ogg}} '''Zhongli:''' This should be enough to garner some information. Let's head back.
 
@@ -88,10 +83,10 @@
 :{{A|vo zllq002 6 paimon 01.ogg}} '''Paimon''' Stop arguing! What in the world happened?
 :{{A|vo zllq002 6 kliment 02.ogg}} '''Kliment:''' This girl just kept bragging about how she's an archeologist, but she doesn't even know anything about the surrounding ruins! I even know more than her!
 :{{A|vo zllq002 6 kliment 03.ogg}} '''Kliment:''' She left me to rely solely on my guessing &mdash; I mean, experience &mdash; to find anything valuable to take back. Ugh, what a waste of time!
-:{{A|vo zllq002 6 wanyan 02.ogg}} '''Wanyan:''' I&mdash;I've just been researching the God of Salt, so I'm not familiar with the sea relics. Is that so strange!?
+:{{A|vo zllq002 6 wanyan 02.ogg}} '''Wanyan:''' I&mdash;I've just been researching the [[God of Salt]], so I'm not familiar with the sea relics. Is that so strange!?
 :{{DIcon}} (Hmm, it is a bit strange...)
 :{{DIcon}} (One shouldn't lack general knowledge in their field...)
-:{{A|vo zllq002 6 wanyan 03.ogg}} '''Wanyan:''' And you! You kept asking about how much Mora everything is worth! Can the value of relics only be measured in Mora!?
+:{{A|vo zllq002 6 wanyan 03.ogg}} '''Wanyan:''' And you! You kept asking about how much [[Mora]] everything is worth! Can the value of relics only be measured in Mora!?
 :{{A|vo zllq002 6 kliment 04.ogg}} '''Kliment:''' Uh... I mean, isn't measuring their value in Mora the easiest way? This also matches the traditions of Liyue, does it not?
 :{{A|vo zllq002 6 zhongli 01.ogg}} '''Zhongli:''' Now, now, calm down, no need to make a fuss. We were able to bring back some intriguing objects. Let's have a look.
 :{{A|vo zllq002 6 zhongli 02.ogg}} '''Zhongli:''' Oh...
@@ -103,7 +98,7 @@
 :{{A|vo zllq002 6 paimon 02.ogg}} '''Paimon''' Sooo... it's only valuable for research if there are remnants of divine power on it?
 :{{A|vo zllq002 6 wanyan 04.ogg}} '''Wanyan:''' Not at all. My quest to uncover the history of the God of Salt is because history can tell us about culture and beliefs...
 :{{A|vo zllq002 6 wanyan 05.ogg}} '''Wanyan:''' But YOU... You're just trying to use archaeology to get rich!
-:{{A|vo zllq002 6 kliment 08.ogg}} '''Kliment:''' Nonsense! I'm a professional archaeology researcher from Snezhnaya, I swear. If I'm lying, may the Lord of Geo strike me down!
+:{{A|vo zllq002 6 kliment 08.ogg}} '''Kliment:''' Nonsense! I'm a professional archaeology researcher from [[Snezhnaya]], I swear. If I'm lying, may the Lord of Geo strike me down!
 :{{DIcon}} (No, you're trying to get rich off archaeology... )
 :{{DIcon}} (No, you're trying to collect the strength of the gods...)
 :{{A|vo zllq002 6 zhongli 05.ogg}} '''Zhongli:''' Oh, by the way. You probably don't want to sell that teacup.
@@ -113,12 +108,13 @@
 :{{A|vo zllq002 6 wanyan 06.ogg}} '''Wanyan:''' See!? You do want to sell these objects!
 :{{A|vo zllq002 6 kliment 11.ogg}} '''Kliment:''' S&mdash;So what! Why can't I pursue wealth both intellectual and material? Don't be so simple-minded!
 :{{A|vo zllq002 6 kliment 12.ogg}} '''Kliment:''' Alright then! No need to stay here any longer. Hm. I'm rather quite intrigued by the God of Salt too, actually. Let's go to [[Sal Terrae]] next.
+;(Quest ends)
 
-;(Talk to Wanyan and Kliment)
+;(Talk to Wanyan or Kliment, optional)
 :{{A|vo dialog zllq002 wanyan 01.ogg}} '''Wanyan:''' Argh! You're simply a money-grubber!
 :{{A|vo dialog zllq002 kliment 01.ogg}} '''Kliment:''' And what are you then? All you think about is digging up valuable relics every day!
 :{{A|vo dialog zllq002 paimon 01.ogg}} '''Paimon''' They're still arguing. Let's not bother them...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -135,7 +131,7 @@
 |ko_rm   = Soyongdol'i-ui Heunjeok
 |ko_tl   = Trace of Vortex
 |es      = El despertar del Vórtice
-|es_tl   = 
+|es_tl   = The Awakening of the Vortex
 |fr      = Éveil du Vortex
 |fr_tl   = Vortex's Wake
 |ru      = Останки вихря
@@ -161,3 +157,5 @@
 {{Change History|1.1}}
 
 [[es:El despertar del Vórtice]]
+[[ja:渦の遺]]
+[[vi:Di Tích Lốc Xoáy]]

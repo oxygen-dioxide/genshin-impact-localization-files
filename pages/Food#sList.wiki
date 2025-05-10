@@ -1,0 +1,57 @@
+{{CustomTabs
+|tab1 = Overview
+|tab2 = List
+}}
+
+==List of Food Items==
+Food is sorted into various types, indicated by an icon when seen in the backpack. Food items of the same type do not stack when used (any consumed food will simply overwrite any pre-existing in the same category, regardless of buff strength or star rank), and only four types of Food buffs can be active at once. Regenerative buffs do not fall under the three food buff categories, and the effects may exist alongside the other food buffs.
+
+{{#DPL:
+|namespace =
+|uses = Template:Food Infobox
+|category = Food
+|notcategory = Special Dishes
+|notcategory = Event-Exclusive Dishes
+|notcategory = Upcoming Content
+|resultsheader= There are '''%PAGES%''' Food that are not Special Dishes (inclusive of Apple, Sunsettia, Starshroom, and Bulle Fruit):\n
+|include = {Food Infobox¦Phantom Infobox Food},{Recipe¦Phantom Recipe Food}
+|table = class="article-table sortable alternating-colors-table",-,Icon,Name,Quality,Type,Effect,Has Recipe
+|secseparators =\n
+|noresultsfooter = No Results
+|tablesortcol=2
+}}
+
+===List of Special Dishes===
+{{Main|Special Dish}}
+Dishes that have a chance to be cooked if a specific character cooks them. Compared to the dishes they are based off on, they offer superior benefits (more HP/Stamina recovered, more potent buffs, longer duration etc.).
+{{#DPL:
+|namespace =
+|uses = Template:Food Infobox
+|category = Special Dishes
+|notcategory = Upcoming Content
+|include = {Food Infobox¦Phantom Infobox Food},{Food Infobox¦Phantom Character}
+|table = class="article-table sortable alternating-colors-table",-,Icon,Name,Quality,Type,Effect,Character
+|secseparators = \n
+|resultsheader = There are '''%PAGES%''' [[Special Dish]]es:\n
+|noresultsfooter = \nNo Results
+|tablesortcol=2
+}}
+
+===List of Event-Exclusive Dishes===
+Dishes that are only available during certain [[Events]].
+{{#DPL:
+|namespace =
+|uses = Template:Food Infobox
+|category = Event-Exclusive Dishes
+|notcategory = Upcoming Content
+|include = {Food Infobox¦Phantom Infobox Food},{Recipe¦Phantom Recipe Food},{Food Infobox¦Phantom Event}
+|table = class="article-table sortable alternating-colors-table",-,Icon,Name,Quality,Type,Effect,Has Recipe,Event
+|secseparators = \n
+|resultsheader = There are '''%PAGES%''' [[Event-Exclusive Dish]]es:\n
+|noresultsfooter = \nNo Results
+|tablesortcol=2
+}}
+
+[[Category:Lists]]
+
+[[vi:Thực Phẩm/Danh Sách]]

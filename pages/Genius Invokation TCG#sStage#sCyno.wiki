@@ -4,16 +4,16 @@
 {{Genius Invokation TCG Stages/Detailed|Cyno}}
 
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{DIcon|Idle}} The most powerful deck...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Dialogue==
 ===Friendly Fracas===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Cyno)
 :{{A|vo card cyno invite easy 01.ogg}} '''Cyno:''' Then let us begin.
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG match interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
@@ -36,13 +36,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card cyno invite easy 03.ogg}} '''Cyno:''' It's not like me to make mistakes like this...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Serious Showdown===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Cyno)
 :{{A|vo card cyno invite hard 01.ogg}} '''Cyno:''' It's time to duel!
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG match interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
@@ -65,13 +65,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card cyno invite hard 03.ogg}} '''Cyno:''' Why was I so careless...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Guest Challenge===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Cyno)
 :{{A|vo card cyno freetalk 01.ogg}} '''Cyno:''' Good timing, I just finished building a new deck...
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG challenge interface)
 :{{DIcon}} I've got other things to do right now...
 ::{{A|vo card cyno leave 01.ogg}} '''Cyno:''' I need to edit my new deck. For my next match, I'll open like this...
@@ -81,10 +81,10 @@
 
 ;(If the player wins the match)
 :{{A|vo card cyno endofgame fail 01.ogg}} '''Cyno:''' You play well. Let's go another round in a few minutes.
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Duel: Cyno===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(When the player defeats one of Cyno's Character Cards)
 :{{A|vo card cyno ingame easy 02.ogg}} '''Cyno:''' Good judgement call.
 
@@ -98,11 +98,15 @@
 :{{A|vo card cyno ingame easy 04.ogg}} '''Cyno:''' This ends now!
 
 ;(If the player loses the match)
-:{{A|}} '''Cyno:''' You played well. Let's have a rematch in a few minutes.
+:{{A|vo dialog eqfh103 cyno 09.ogg}} '''Cyno:''' You played well. Let's have a rematch in a few minutes.
 
 ;(If the player wins the match)
-:{{A|}} '''Cyno:''' A well-deserved victory.
-{{Dialogue end}}
+:{{A|vo dialog eqfh103 cyno 08.ogg}} '''Cyno:''' A well-deserved victory.
+{{Dialogue End}}
+
+==Change History==
+{{Change History|3.3}}
 
 ==Navigation==
 {{Genius Invokation TCG Stages Navbox}}
+[[pt-br:Chamado Sagrado dos Sete:Desafios/Cyno]]

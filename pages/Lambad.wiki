@@ -3,9 +3,10 @@
 |missing_NPC_profile  = yes
 }}
 {{Character Infobox
-|type             = NPC
+|type             = Open-World NPC
 |image            = NPC Lambad.png
 |region           = Sumeru
+|location         = Sumeru
 |affiliation      = Lambad's Tavern
 |title            = Tavern Owner
 
@@ -22,7 +23,9 @@
 |voiceJP          = 
 |dialoguereward   = {{Card|Delicious Lambad Fish Roll|3}}
 }}
-'''Lambad''' is an [[NPC]] that can be found in [[Sumeru City]], [[Sumeru]].
+'''Lambad''' is a [[shop]] [[NPC]] that can be found in [[Sumeru City]], [[Sumeru]]. He runs "[[Lambad's Tavern]]", indicated by the {{DIcon|Restaurant}} icon on the map.
+
+The shop is open at all times of the day and sells [[food]], [[Recipe|recipes]] and [[Cooking Ingredient|cooking ingredients]]. The frequency of the stock refresh varies.
 
 Following a certain dialogue branch for the first time gives the player three [[Delicious Lambad Fish Roll]]s.
 
@@ -44,17 +47,18 @@ Following a certain dialogue branch for the first time gives the player three [[
 {{Shop|Crab|240|10|discount=215|total=1|note=Daily}}
 {{Shop|Starshroom|240|10|discount=215|total=1|note=3 Days}}
 {{Shop|Glabrous Beans|100|100|discount=90|total=1|note=Daily}}
-{{Shop/Footer|note=&#32;|total=77,050<br />(69,240)}}
+{{Shop/Footer|note=&#32;|total=77,050<br>(69,240)}}
 
 ===Recipes===
-{{Shop/Header|note=Required<br />[[Adventure Rank]]|total=1|vendor=Lambad}}
+{{Shop/Header|note=Required<br>[[Adventure Rank]]|total=1|vendor=Lambad}}
 {{Shop|Recipe|1,250|1|discount=1,125|note=1|specific=Recipe: Lambad Fish Roll|total=1}}
 {{Shop|Recipe|1,250|1|discount=1,125|note=1|specific=Recipe: Minty Bean Soup|total=1}}
 {{Shop|Recipe|2,500|1|discount=2,250|note=1|specific=Recipe: Shawarma Wrap|total=1}}
+{{Shop|Recipe|2,500|1|discount=2,250|note=1|specific=Recipe: Fatteh|total=1}}
 {{Shop|Recipe|5,000|1|discount=4,500|note=1|specific=Recipe: Charcoal-Baked Ajilenakh Cake|total=1}}
 {{Shop|Recipe|5,000|1|discount=4,500|note=1|specific=Recipe: Sabz Meat Stew|total=1}}
 {{Shop|Recipe|5,000|1|discount=4,500|note=1|specific=Recipe: Scented Meat Balls|total=1}}
-{{Shop/Footer|total=20,000<br />(18,000)|note=&#32;}}
+{{Shop/Footer|total=22,500<br>(20,250)|note=&#32;}}
 Brackets indicate cost after reputation discount.
 
 ==Location==
@@ -66,9 +70,6 @@ NPC Location Lambad Context.png|Additional context
 ==Profile==
 ''(To be added.)''
 
-===Personality===
-''(To be added.)''
-
 ===Appearance===
 ''(To be added.)''
 -->
@@ -76,17 +77,17 @@ NPC Location Lambad Context.png|Additional context
 {{Quests and Events}}
 
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 : {{DIcon|Idle}} Back in the day...
 :: {{A|VO Lambad 01.ogg}} "Oh, I went on my fair share of crazy adventures back in the day! Hahaha..."
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Thoughts==
 {{All Schemes to Know Explanation|name=Lambad}}
 :{{A|VO Lambad All Schemes to Know 01.ogg}} '''Lambad:''' (Why don't outlanders like Charcoal-Baked Ajilenakh Cakes?)
 
 ==Dialogue==
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Lambad:''' Hello, friend! What'll you be having today? If you can't decide, just order the [[Lambad Fish Roll]]!
 :'''Lambad:''' The tableware in the tavern has just been replaced, too! They're all brand new! That will be sure to cheer you up!
 :{{DIcon|Restaurant}} Can I see the menu?
@@ -96,30 +97,33 @@ NPC Location Lambad Context.png|Additional context
 ::'''Lambad:''' Yesterday I was a sailor, today I'm the owner of this tavern.
 ::'''Lambad:''' So, you'll be able to taste the chill of the ocean in my tavern's wine. And you won't find fresher seafood anywhere else!
 ::{{DIcon}} You built this tavern overnight? Impressive!
-::'''Lambad:''' Hahahaha! You're making me blush.
-::'''Lambad:''' I was exaggerating when I said that, but I wasn't kidding about being a great sailor in the past.
-::'''Lambad:''' I've passed through vast thunderstorms more wrathful than the [[Raiden Shogun]], and I've pierced through glaciers steelier than the [[Tsaritsa]]'s heart.
-::'''Lambad:''' But that was nothing...
-::'''Lambad:''' ...Nothing compared to being able to return safely to [[Sumeru]] and open this lively tavern! Hahaha!
+:::'''Lambad:''' Hahahaha! You're making me blush.
+:::'''Lambad:''' I was exaggerating when I said that, but I wasn't kidding about being a great sailor in the past.
+:::'''Lambad:''' I've passed through vast thunderstorms more wrathful than the [[Raiden Shogun]], and I've pierced through glaciers steelier than the [[Tsaritsa]]'s heart.
+:::'''Lambad:''' But that was nothing...
+:::'''Lambad:''' ...Nothing compared to being able to return safely to [[Sumeru]] and open this lively tavern! Hahaha!
 :{{DIcon}} About the Lambad Fish Roll...
 ::'''Lambad:''' It's a recipe I came up with on an adventure in my youth. The flavor of the finished product far exceeded my expectations, so I bestowed it with the great name of "Lambad"!
-::'''Lambad:''' When I was traveling around then, I had delicious grilled fish in [[Mondstadt]], [[Liyue]], and [[Inazuma]]. So, it got me thinking that the aroma of grilled fish in the air was just what Sumeru needed, too!
+::'''Lambad:''' When I was traveling around then, I had delicious grilled fish in Mondstadt, Liyue, and Inazuma. So, it got me thinking that the aroma of grilled fish in the air was just what Sumeru needed, too!
 ::'''Lambad:''' And that's how my famous Lambad Fish Roll was born. And it's not just grilled fish &mdash; I combined it with Sumeru's specialty pitas to create a fish roll that can be eaten with ease, even on the choppiest of seas.
 ::'''Lambad:''' Such a genius invention is naturally worthy of the resounding name of "Lambad."
 ::{{DIcon|Reward}} Is this for sampling?
-::'''Lambad:''' Of course! The fish was fresh from the water and the pitas just popped out of the oven. Here. Be careful, it's hot!
-:;(Obtain [[Delicious Lambad Fish Roll]] ×3)
+:::'''Lambad:''' Of course! The fish was fresh from the water and the pitas just popped out of the oven. Here. Be careful, it's hot!
+::;(Obtain {{Item|Delicious Lambad Fish Roll|20|x=3}})
 :{{DIcon}} New tableware?
 ::'''Lambad:''' Yep, there was some small accident in the tavern a few days ago, so the original tableware can't be used anymore.
-::'''Lambad:''' It turned out to be a blessing in disguise. The tableware we have now is made by craftspeople commissioned by {{Rubi|Kshahrewar|Technology}} researchers, with the patterns designed by {{Rubi|Haravatat|Semiotics}} researchers.
+::'''Lambad:''' It turned out to be a blessing in disguise. The tableware we have now is made by craftspeople commissioned by {{Rubi|[[Kshahrewar]]|Technology}} researchers, with the patterns designed by {{Rubi|[[Haravatat]]|Semiotics}} researchers.
 ::'''Lambad:''' There is no other establishment in Sumeru City with such a luxurious setup.
 ::'''Lambad:''' So you see, little accidents in life aren't necessarily all bad, hahaha!
 :{{DIcon}} See you.
 ::'''Lambad:''' Come back any time!
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Character Mentions==
+{{Character Mentions}}
 
 ==Trivia==
-* {{Character Furnishing Mentions}}
+* {{Furnishing Mentions}}
 
 ==Other Languages==
 {{Other Languages
@@ -132,7 +136,6 @@ NPC Location Lambad Context.png|Additional context
 |ja      = ランバド
 |ja_rm   = Ranbado
 |ko      = 람바드
-|ko_rm   = Rambadeu
 |es      = Lambad
 |fr      = Lambad
 |ru      = Ламбад

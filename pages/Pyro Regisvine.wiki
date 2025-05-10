@@ -1,17 +1,18 @@
+{{About|the normal variant|the event-exclusive variant|Sky-Searing Pyro Regisvine}}
 {{Enemy Infobox
-|image    = <gallery>
-Enemy Pyro Regisvine.png|Screenshot
-Monster Pyro Regisvine thumb.png|Icon
-</gallery>
+|image    = Enemy Pyro Regisvine.png
 |dmgtype  = Pyro
 |weakpoint = yes
 |type     = Normal Bosses
 |family   = Mystical Beasts
 |group    = Regisvines
-|location = [[Cuijue Slope]], [[Liyue]]
+|subarea  = Cuijue Slope
+|area     = Minlin
+|region   = Liyue
 |ability1 = Shield
 |drops    = Everflame Seed
 |title    = Giant Everblaze Calamus;Flickering Blaze Bloom;Raging Fireflower
+|variants = Sky-Searing Pyro Regisvine
 }}
 {{Enemy Intro}}
 
@@ -56,15 +57,16 @@ Pyro Regisvine Weak Point.png
 </gallery>
 * The Weak Point is only exposed after the player has destroyed the shield at its corolla once. When the Weak Point is exposed, the appearance of the corolla will change.
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
+
 ===Roots Phase===
 The Pyro Regisvine enters this phase when the boss fight begins, or when it wakes up from its paralyzed state after its corolla core is destroyed. Its core will be located at its roots. Breaking its weak point using elemental reactions will paralyze the Pyro Regisvine.
 {{Elemental Shield Data|Pyro|12|Roots Core}}
 
 {{Enemy Attacks
 |name_1 = Faceplant
-|desc_1 = The Regisvine will slam its face into the ground after locking onto your current position, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} on impact and sending tremors through the ground in the direction it faceplants, with each explosion dealing '''50% ATK''' as {{Color|AoE Pyro DMG}}. This attack may be used 3 times in rapid succession.
+|desc_1 = The Regisvine will slam its face into the ground after locking onto the player's current position, dealing '''100% ATK''' as {{Color|Pyro DMG}} on impact and sending tremors through the ground in the direction it faceplants, with each explosion dealing '''50% ATK''' as {{Color|Pyro DMG}}. This attack may be used 3 times in rapid succession. This chance is greatly increased in the Corolla Phase.
 * The Pyro Regisvine locks on to the player's current position once it starts shaking its head. After this animation, the player may move out of the way.
 |file_1 = Pyro Regisvine Faceplant Single
 |caption_1 = Single
@@ -73,20 +75,21 @@ The Pyro Regisvine enters this phase when the boss fight begins, or when it wake
 
 |name_2 = Rapid Fire
 |desc_2 = Using its buds, the Regisvine will fire small fireballs at the player in rapid succession, dealing '''20% ATK''' as {{Color|Pyro DMG}}.
-* Move around the Pyro Regisvine to dodge. Sprinting is not required.
 
-|name_3 = Fireball
-|desc_3 = After a short charging period, in which the Regisvine gathers {{Color|Pyro}} in its buds/arms, the Regisvine hurls a massive fire seed at the player, dealing '''25% ATK''' as {{Color|AoE Pyro DMG}}. The fire seed can be destroyed using elemental reactions. If not destroyed, the fire seed explodes after a while, dealing '''50% ATK''' as {{Color|AoE Pyro DMG}} and infusing nearby floor with {{Pyro}}. The infused ground will deal '''30% ATK''' as {{Color|Pyro DoT}} to characters who step on it until it dissipates.
+|name_3 = Fire Seed
+|desc_3 = After a short charging period, in which the Regisvine gathers {{Color|Pyro}} in its buds/arms, the Regisvine hurls a Blazing Seed at the player, dealing '''25% ATK''' as {{Color|Pyro DMG}}. The seed can be destroyed using elemental reactions. If not destroyed, the seed explodes after a while, dealing '''50% ATK''' as {{Color|Pyro DMG}} and infusing nearby floor with {{Pyro}} for '''35''' seconds. The infused ground will deal '''30% ATK''' as {{Color|Pyro DMG}} to characters who step on it every second.
 * This attack can be dodged by running to the Regisvine's base or dashing.
+{{Elemental Shield Data|Pyro|2|Fire Seed}}
+|file_3 = Pyro Regisvine Fireball
 
 |name_4 = Homing Shots
 |desc_4 = Raises its buds and shoots out a number of small orbs, then launching them at the player. The orbs travel slowly but will home towards their target, dealing '''12.5% ATK''' as {{Color|Pyro DMG}} on hit.
 
 |name_5 = Spin
-|desc_5 = A circle appears around the Regisvine indicating the radius of the attack. It will then flatten and stretch out its petals and spin, dealing '''100% ATK''' as {{Color|Pyro DMG}} within the previously marked radius, knocking any characters back and infusing the ground in the radius with {{Pyro}}. The infused ground will deal '''30% ATK''' as {{Color|Pyro DoT}} to characters who step on it until it dissipates.
+|desc_5 = A circle appears around the Regisvine indicating the radius of the attack. It will then flatten and stretch out its petals and spin, dealing '''100% ATK''' as {{Color|Pyro DMG}} within the previously marked radius, knocking any characters back and infusing the ground in the radius with {{Pyro}} for '''10''' seconds. The infused ground will deal '''30% ATK''' as {{Color|Pyro DMG}} to characters who step on it every second.
 
 |name_6 = Half Flail
-|desc_6 = Smashes its head on the floor and swings 180 degrees around its roots, dealing '''100% ATK''' as {{Color|Pyro DMG}} and knocking players away.
+|desc_6 = If the player is behind the Pyro Regisvine, smashes its head on the floor and swings 180 degrees around its roots, dealing '''100% ATK''' as {{Color|Pyro DMG}}.
 }}
 
 ===Corolla Phase===
@@ -95,14 +98,13 @@ The Pyro Regisvine enters this phase when it wakes up from its paralyzed state a
 
 {{Enemy Attacks
 |name_1 = Flail
-|desc_1 = Smashes its head on the floor and swings 360 degrees around its roots, dealing '''100% ATK''' as {{Color|Pyro DMG}} and knocking players away.
+|desc_1 = After recovering from the paralyzed state, smashes its head on the floor, dealing '''100% ATK''' as {{Color|Pyro DMG}}, and swings 360 degrees around its roots, dealing '''100% ATK''' as {{Color|Pyro DMG}} and knocking players away.
 
 |name_2 = Half Flail Combo
-|desc_2 = Performs '''Half Flail''' twice in a row and follows up with '''Faceplant'''.
+|desc_2 = Performs the following twice: Smashes its head on the floor and swings 180 degrees around its roots two times consecutively, dealing '''100% ATK''', '''100% ATK''' as {{Color|Pyro DMG}} on the head smash and the swing respectively.<br>Then follows with '''Faceplant'''. After performing Faceplant, the corolla will linger on the ground for an extended period of time.
 
 |name_3 = Eruption
-|desc_3 = The Pyro Regisvine will point its corolla upwards, along with its buds, and cause {{Pyro}} energy to erupt from the ground, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} and launching the player upwards. More eruptions occur near players, and are almost entirely absent near the base. This attack only triggers if the player is far from the Pyro Regisvine.
-* As eruptions are less intense near the base, you can run in circles around the base. Do not perform any moves that have extended animations, as you could still be caught by an eruption.
+|desc_3 = The Pyro Regisvine will point its corolla upwards, along with its buds, and cause {{Pyro}} energy to erupt from the ground, dealing '''100% ATK''' as {{Color|Pyro DMG}} and launching the player upwards. More eruptions occur near players, but they are almost entirely absent near the base. This attack only triggers if the player is far from the Pyro Regisvine.
 }}
 
 ==Strategy==
@@ -113,8 +115,14 @@ During the Corolla Phase, while the corolla weak point is normally hard to reach
 ==Achievements==
 {{Achievement Topic Table|topic=Pyro Regisvine}}
 
+==Tutorials==
+{{Tutorial|Pyro Regisvine}}
+
 ==Descriptions==
-{{Description|A giant vine that has absorbed the ancient flame that rages within the [[ley line]]s.<br />It is restless as if filled with endless fury.<br />Poets, bards, and even some academics believe that elements also contain emotions and hopes. If this is true, then one can only wonder what emotions cause the Pyro Regisvine to burn eternally, writhing like one longing to be free of the confines of the earth...|[[Adventurer Handbook]] and [[Archive]]}}
+{{Description|A giant vine that has absorbed the ancient flame that rages within the [[ley line]]s.<br>It is restless as if filled with endless fury.<br>Poets, bards, and even some academics believe that elements also contain emotions and hopes. If this is true, then one can only wonder what emotions cause the Pyro Regisvine to burn eternally, writhing like one longing to be free of the confines of the earth...|[[Adventurer Handbook]] and [[Archive]]}}
+
+==Trivia==
+* According to [[Ranjit]], its fruit is "pretty good" and tastes "like Pyro."<ref>{{Ref/Quest|Search Chronicle: Cold, Round Belly!}}</ref>
 
 ==Gallery==
 <gallery>
@@ -137,7 +145,7 @@ Enemy Pyro Regisvine Icon.png|Icon
 |zh_tl   = Violent Heat Tree
 |ja      = 爆炎樹
 |ja_rm   = Bakuenju{{Assumed}}
-|ja_tl   = Bursting-Flame Wood
+|ja_tl   = Bursting-Flame Tree{{Sino|ja}}
 |ko      = 폭염 나무
 |ko_rm   = Pokyeom Namu
 |ko_tl   = Heat Wave Tree
@@ -155,20 +163,26 @@ Enemy Pyro Regisvine Icon.png|Icon
 |id      = Pyro Regisvine
 |pt      = Pyro Regisvine
 |tr      = Yalancı Ateş Ağacı
-|tr_tl   = 
+|tr_tl   = Deceptive Fire Tree
 |it      = Regisreptus di Pyro
-|it_tl   = 
+|it_tl   = Pyro Regisvine
 }}
 
 ==Change History==
 {{Change History|1.0}}
+
+==References==
+{{Reflist}}
 
 ==Navigation==
 {{Enemy Navbox|type=bosses}}
 
 [[de:Fluxfeuerbaum]]
 [[es:Regisvid Pyro]]
+[[fr:Arbre enflammé]]
 [[ja:爆炎樹]]
+[[pl:Królorośl Pyro]]
 [[pt-br:Pyro Regisvine]]
 [[ru:Пиро орхидея]]
+[[uk:Вогняне дерево]]
 [[zh:爆炎樹]]

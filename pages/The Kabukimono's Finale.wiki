@@ -1,12 +1,11 @@
 {{Quest Infobox
-|id            = 3031
+|id            = 03031
 |image         = Archon Quest The Kabukimonos Finale.png
 |type          = Archon
 |chapter       = Interlude Chapter
 |actNum        = III
 |act           = Inversion of Genesis
 |part          = 3
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |startLocation = [[Sanctuary of Surasthana]], [[Sumeru]]
 |region        = Sumeru
 |area          = Avidya Forest
@@ -14,10 +13,8 @@
 |prev          = A Dance of Destruction
 |next          = As Though Morning Dew
 |domain        = Reminiscent Drift
-|exp           = 1,125
-|mora          = 49,200
-|other         = {{Card|Hero's Wit|5}}{{Card|Mystic Enhancement Ore|9}}
-|characters    = Aqaba;Azar;Katsuragi;Il Dottore;Mikoshi Nagamasa;Scaramouche;Signora;Nahida;Paimon;Pierro;Sawada;Traveler;Wanderer;Child;Merchant
+|rewards       = Adventure EXP*1,125;Mora*49,200;Hero's Wit*5;Mystic Enhancement Ore*9
+|characters    = Aqaba;Azar;Katsuragi;Dottore;Mikoshi Nagamasa;Scaramouche;Signora;Nahida;Paimon;Pierro;Sawada;Traveler;Wanderer;Child;Merchant
 |voiced        = yes
 }}
 {{TeyvatQuest|I|3|3}}
@@ -48,55 +45,77 @@
 # Continue exploring
 # Defeat the opponent(s)
 #* {{Enemy|Everlasting Lord of Arcane Wisdom}} &mdash; The Omen at Memory's End
-#** The player is only required to defeat its first phase.
+#** The player is only required to defeat its first phase, with the Energy Blocks and Elemental Matrix mechanics disabled.
 # Talk to The Balladeer
 # Leave the memory
 
 ==Gameplay Notes==
 * Starting from Step 19, the party will be restricted to only a trial Wanderer. The trial Wanderer will revive once if fallen.
-
-==Achievements==
-* Completing Step 2 will grant the ''[[Wonders of the World]]'' achievement ''[[Parinama: Fox, Cat, Bird, and Monster]]''.
-* Completing the quest grants the ''[[Wonders of the World]]'' achievement ''[[Me, Myself, But Not I]]''.
+* Step 3 may be blocked by the first step of [[Shade Upon Red Silk]] because of the shared location.
+* Completing Step 2 will grant the {{Achievement|Parinama: Fox, Cat, Bird, and Monster}}.
+* Completing the quest grants the {{Achievement|Me, Myself, But Not I}}.
 
 ==Trial Character==
 {{Trial Character
 <!-- World Levels -->
-|wl                      = 8
+|wl                      = 5, 8
+
 <!-- Character -->
 |character_name          = Wanderer
+|character_level5        = 71
+|constellation5          = 3
+
+|weapon_name5            = Tulaytullah's Remembrance
+|weapon_level5           = 71
+|refinement5             = 1
+|normal_attack_talent5   = 5
+|elemental_skill_talent5 = 5
+|elemental_burst_talent5 = 8
+|hp5                     = 17,670
+|atk5                    = 1,608
+|def5                    = 563
+|em5                     = 42
+|crit_rate5              = 66.2%
+|crit_dmg5               = 128.3%
+|er5                     = 135%
+|artifact_flower5        = Royal Flora
+|artifact_feather5       = Royal Plume
+|artifact_sands5         = Royal Pocket Watch
+|artifact_goblet5        = Royal Silver Urn
+|artifact_circlet5       = Royal Masque
+|artifact_level5         = 16
+|set1_5                  = Noblesse Oblige
+|set1_piece_bonus_5      = 4
+
 |character_level8        = 90
 |constellation8          = 3
-
-|weapon_name             = Tulaytullah's Remembrance
+|weapon_name8            = Tulaytullah's Remembrance
 |weapon_level8           = 90
 |refinement8             = 1
-
-|artifact_flower8        = Royal Flora
-|artifact_feather8       = Royal Plume
-|artifact_sands8         = Royal Pocket Watch
-|artifact_goblet8        = Royal Silver Urn
-|artifact_circlet8       = Royal Masque
+|artifact_flower8        = The First Days of the City of Kings
+|artifact_feather8       = End of the Golden Realm
+|artifact_sands8         = Timepiece of the Lost Path
+|artifact_goblet8        = Defender of the Enchanting Dream
+|artifact_circlet8       = Legacy of the Desert High-Born
 |artifact_level8         = 20
-|set1_8                  = Noblesse Oblige
+|set1_8                  = Desert Pavilion Chronicle
 |set1_piece_bonus_8      = 4
-
 |normal_attack_talent8   = 8
 |elemental_skill_talent8 = 8
 |elemental_burst_talent8 = 8
-
-|hp8                     = 22,630
+|hp8                     = 17,894
 |atk8                    = 2,043
 |def8                    = 728
 |em8                     = 105
 |er8                     = 135.0%
 |crit_rate8              = 76.3%
 |crit_dmg8               = 136.0%
+|anemo_dmg8              = 61.6%
 }}
 
 ==Dialogue==
 {{Quest Description|The information you gathered left you with a heavy heart. You decide to return to the Sanctuary of Surasthana and tell Nahida about everything you learned...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on [[Sawada]], optional)
 :{{A|vo llzaq003 1 sawada 08.ogg}} '''Sawada:''' (Asking the Traveler to help out was definitely the right call.)
 
@@ -111,72 +130,72 @@
 :{{A|vo llzaq003 1 paimon 02.ogg}} '''Paimon:''' We have time. What do you wanna talk to us about?
 :{{A|vo llzaq003 1 sawada 02.ogg}} '''Sawada:''' The same topic we discussed last time... obviously.
 :{{A|vo llzaq003 1 paimon 03.ogg}} '''Paimon:''' Still looking for more info about Tatarasuna, huh? Hmm, should we join them?
-:'''(Traveler):''' (Perfect. These two have researched Tatarasuna's past. Let's hear what they have to say.)
+:'''{{Traveler}}:''' (Perfect. These two have researched Tatarasuna's past. Let's hear what they have to say.)
 :{{A|vo llzaq003 1 aqaba 02.ogg}} '''Aqaba:''' Unfortunately, we haven't made any real progress...
 :{{DIcon}} The article that you let me read last time was great.
 :{{DIcon}} Can I read it again?
 :{{A|vo llzaq003 1 aqaba 03.ogg}} '''Aqaba:''' Huh? Oh, uh, of course.
 ;(Open "A Brief Analysis of Possible Events of Historical Importance in the Tatarasuna Area")
-::'''"A Brief Analysis of Possible Events of Historical Importance in the Tatarasuna Area"'''
-::Details: This text belongs to a series of works sponsored by the Vahumana's "Veilcutter" project. It has yet to be numbered.<br /><br />
-::Author: Aqaba<br /><br />
-::Abstract: The Tatarasuna area has always been a major pillar of Inazuma's smithing industry. Two incidents have occurred here, and the details behind the first are vague at best. I believe, however, that there might a hidden history behind the events that transpired. Hence, this paper will attempt to analyze what may have unfolded from the available data.<br /><br /><br />
-::Glossary: Tatarasuna area; Raiden Gokaden; Mikoshi Nagamasa<br /><br />
-::Introduction: This paper continues and expands the work of my mentor, Mr. Rumi, in his report on "Haply Hidden Tales of Tatarasuna," and is intended to further this avenue of research. According to the data, the blade-forging techniques of Inazuma were originally handed down from the Electro Archon, also known as the Raiden Shogun. Using the arts they inherited from their Archon, the people of Inazuma devoted themselves to the process of forging. However, strange rumors that do not quite fit the steely nature of metalwork yet linger about Tatarasuna's smelting center, which was a central pillar of the forging industry. There, the Mikoshi and Niwa Clans, along with an eccentric mechanic from abroad, serve as the three windows of insight we need to investigate the truth behind what happened.<br /><br /><br />
-::Body<br /><br />
-::Strange notes from the Tatarasuna area. Their contents are as follows:<br /><br />
+::{{Black Screen|"A Brief Analysis of Possible Events of Historical Importance in the Tatarasuna Area"}}
+::Details: This text belongs to a series of works sponsored by the Vahumana's "Veilcutter" project. It has yet to be numbered.<br><br>
+::Author: Aqaba<br><br>
+::Abstract: The Tatarasuna area has always been a major pillar of Inazuma's smithing industry. Two incidents have occurred here, and the details behind the first are vague at best. I believe, however, that there might a hidden history behind the events that transpired. Hence, this paper will attempt to analyze what may have unfolded from the available data.<br><br><br>
+::Glossary: Tatarasuna area; Raiden Gokaden; Mikoshi Nagamasa<br><br>
+::Introduction: This paper continues and expands the work of my mentor, Mr. Rumi, in his report on "Haply Hidden Tales of Tatarasuna," and is intended to further this avenue of research. According to the data, the blade-forging techniques of Inazuma were originally handed down from the Electro Archon, also known as the Raiden Shogun. Using the arts they inherited from their Archon, the people of Inazuma devoted themselves to the process of forging. However, strange rumors that do not quite fit the steely nature of metalwork yet linger about Tatarasuna's smelting center, which was a central pillar of the forging industry. There, the Mikoshi and Niwa Clans, along with an eccentric mechanic from abroad, serve as the three windows of insight we need to investigate the truth behind what happened.<br><br><br>
+::Body<br><br>
+::Strange notes from the Tatarasuna area. Their contents are as follows:<br><br>
 ::1
 ::"...Perhaps I overstep, but I think that Sir Nagamasa's mood grows better when he forges blades..."
-::"...The obsession to cleanse the stain of the name 'Mikoshi' must eat at him..."<br /><br />
+::"...The obsession to cleanse the stain of the name 'Mikoshi' must eat at him..."<br><br>
 ::2
 ::"...The Inspector bought a certain number of Jade Steel ingots..."
-::"...Sir Katsuragi discussed matters of smithing deep into the night with the Vice Armory Officer."<br /><br /><br />
+::"...Sir Katsuragi discussed matters of smithing deep into the night with the Vice Armory Officer."<br><br><br>
 ::3
 ::"...We at last made a single nagamaki. We call it the 'Daitatara Nagamasa'..."
 ::"The Inspector was in high spirits, and he and the Vice Armory Officer..."
-::"...Nozomu was so taken by the beauty of the Daitatara Nagamasa that he drew a picture of it..."<br /><br /><br />
+::"...Nozomu was so taken by the beauty of the Daitatara Nagamasa that he drew a picture of it..."<br><br><br>
 ::4
 ::"...The Inspector flew into a rage and slashed Katsuragi. The great blade cut deep into the flesh...cast his own nagamaki into the furnace's flame..."
-::"...Nozomu could not abide by that order, and drew the completely melted weapon out of the furnace... He was horribly burned..."<br /><br /><br />
+::"...Nozomu could not abide by that order, and drew the completely melted weapon out of the furnace... He was horribly burned..."<br><br><br>
 ::5
-::"...Nozomu died that night. I daresay that while Sir Katsuragi may have committed malfeasance, it was out of the goodness of his heart..."<br /><br />
+::"...Nozomu died that night. I daresay that while Sir Katsuragi may have committed malfeasance, it was out of the goodness of his heart..."<br><br>
 ::6
 ::"...Kinjirou hid the nagamaki and Nozomu's drawing in the Arsenal..."
 ::"...Nagamasa is harsh, but also knows right from wrong. But even so, he is not amenable to reason. His name indicates one obsessed with purity... Still, I and some households of Tatarasuna have not been blinded by the matter of Nagamasa's mother Chiyo, and we trust him..."
-::"...I also remain unwilling to forget the joy of creating the Daitatara Nagamasa with him..."<br /><br />
+::"...I also remain unwilling to forget the joy of creating the Daitatara Nagamasa with him..."<br><br>
 ::7
 ::"Before we withdrew, we should have divided the Arsenal Key into three parts: one for the Inspector, one for the Armory Officer, and one to be left in Tatarasuna itself to prevent theft."
-::"But we were in too much of a hurry, and neither the Inspector nor the Armory Officer could be found, so I was so bold as to hide the three pieces within treasure chests in Tatarasuna..."<br /><br /><br />
+::"But we were in too much of a hurry, and neither the Inspector nor the Armory Officer could be found, so I was so bold as to hide the three pieces within treasure chests in Tatarasuna..."<br><br><br>
 ::The seven notes mentioned prior have been scattered across the Tatarasuna area. Among the seven notes, six seem to be of good physical integrity, though they all look quite old, while the last one looks more recent. I believe that the first six notes and the last are of different time periods, though the gulf in years between them needs to be verified. The contents of the first six should also be related to each other, as the incidents mentioned are quite consistent with one another.
 ::Rumi once mentioned in "Haply Hidden Tales of Tatarasuna" (hereafter known as "Hidden Tales") that in the past, researchers from Sumeru had investigated the cultural histories of Tatarasuna and Inazuma. Though the place has fallen into some degree of disrepair since the "Hidden Tales" were written, things have improved since the time when I wrote my original article. Regardless, what used to be an area of major industry remains a place most inhospitable, and residents of Tatarasuna may be found living and dwelling by the waters. The residents, when questioned, told the researchers of Tatarasuna's golden age centuries ago, when it was administered by Armory Officer Niwa, Vice Armory Officer Miyazaki, and Inspector Mikoshi Nagamasa. Yet, the elders among the locals with deeper ties to the region also seemed to stress the fact that there were strange rumors surrounding their homeland's past.
 ::{{Color|help|A great many of these rumors revolved around the "youkai" who are so very characteristic of Inazuma's folk histories. A small portion, however, repeatedly mentions the word "outsider." It should be known that the appearance of such a character, who is suspected to be based on a real person, is a very curious case. This fact drew the attention of the researchers to delve further, and eventually, the following pieces of information came to light:}}
 ::{{Color|help|- A foreign mechanic once visited Tatarasuna. Reportedly, the reason for his immigration was to exchange knowledge and forge ties with the locals. However, the mechanic seemed to behave suspiciously, often wandering around essential or restricted areas. And if someone tried to turn him away, they would only earn incomprehensible mumbles from his lips.}}
-::{{Color|help|- The mechanic often stared into the furnace, seemingly to check on its condition. Unsettlingly, he also spent a substantial amount of time watching the local residents.}}<br /><br />
-::{{Color|help|Judging from the era, it was not uncommon to see cross-cultural exchanges of technical knowledge in places such as Tatarasuna. After traveling across the tides, foreign experts being welcome in the region was likely not unreasonable either. Yet, calamity came not long after this exchange of knowledge, which hints at high potential for causation between these events. However, some current residents believe that these assumptions were merely the results of their forebears' overactive imaginations attempting to theorize how things actually unfolded.}}<br /><br />
-::A list of individuals related to Tatarasuna has been compiled here based on historical documents from Inazuma. Starting from the administrators, the records are as follows.<br /><br />
+::{{Color|help|- The mechanic often stared into the furnace, seemingly to check on its condition. Unsettlingly, he also spent a substantial amount of time watching the local residents.}}<br><br>
+::{{Color|help|Judging from the era, it was not uncommon to see cross-cultural exchanges of technical knowledge in places such as Tatarasuna. After traveling across the tides, foreign experts being welcome in the region was likely not unreasonable either. Yet, calamity came not long after this exchange of knowledge, which hints at high potential for causation between these events. However, some current residents believe that these assumptions were merely the results of their forebears' overactive imaginations attempting to theorize how things actually unfolded.}}<br><br>
+::A list of individuals related to Tatarasuna has been compiled here based on historical documents from Inazuma. Starting from the administrators, the records are as follows.<br><br>
 ::Armory Officer &mdash; Niwa
-::Full name Niwa Hisahide. He was the inheritor of the Isshin Art, and successor to the Niwa Clan. His family, along with the Akame and Kaedehara clans, were together known as the "Isshin Sansaku." Records show that Niwa was a modest and intelligent individual who displayed remarkable talent in the administration of territory and people. His eventual whereabouts are unknown, but he was suspected to have left Tatarasuna with his family following the incident.<br /><br />
+::Full name Niwa Hisahide. He was the inheritor of the Isshin Art, and successor to the Niwa Clan. His family, along with the Akame and Kaedehara clans, were together known as the "Isshin Sansaku." Records show that Niwa was a modest and intelligent individual who displayed remarkable talent in the administration of territory and people. His eventual whereabouts are unknown, but he was suspected to have left Tatarasuna with his family following the incident.<br><br>
 ::Vice Armory Officer &mdash; Miyazaki
-::Full name Miyazaki Kaneo. He was Niwa's second-in-command. His origins are unknown, and he primarily assisted Niwa in forging and personnel management. He was of affable temperament and had many friends in the region, including one Mikoshi Nagamasa.<br /><br />
+::Full name Miyazaki Kaneo. He was Niwa's second-in-command. His origins are unknown, and he primarily assisted Niwa in forging and personnel management. He was of affable temperament and had many friends in the region, including one Mikoshi Nagamasa.<br><br>
 ::Inspector &mdash; Mikoshi Nagamasa
-::The successor of the Mikoshi Clan, adopted son to oni warrior Mikoshi Chiyo, and the younger adopted brother to Mikoshi Michihiro, also known as "Iwakura the Successor." With his mother missing and abandoned by his brother, Nagamasa alone bore the family name, striving daily to wipe the shame from their history. Though records state that Mikoshi Nagamasa was a stubborn figure, he was also noted to be a person of moral virtue and integrity. It has been noted in various records that he practiced forging swords for self-cultivation, and specially requested special instruction from Miyazaki to further his capabilities. However, after the famous blade, Daitatara Nagamasa, was forged, he used it to slay his subordinate, Katsuragi, for reasons unknown at present.<br /><br />
+::The successor of the Mikoshi Clan, adopted son to oni warrior Mikoshi Chiyo, and the younger adopted brother to Mikoshi Michihiro, also known as "Iwakura the Successor." With his mother missing and abandoned by his brother, Nagamasa alone bore the family name, striving daily to wipe the shame from their history. Though records state that Mikoshi Nagamasa was a stubborn figure, he was also noted to be a person of moral virtue and integrity. It has been noted in various records that he practiced forging swords for self-cultivation, and specially requested special instruction from Miyazaki to further his capabilities. However, after the famous blade, Daitatara Nagamasa, was forged, he used it to slay his subordinate, Katsuragi, for reasons unknown at present.<br><br>
 ::Subordinate &mdash; Katsuragi
-::Katsuragi's full name and background remain unknown. Despite all the materials I have sorted through, I have yet to find anymore additional personal information regarding him. As one of Mikoshi Nagamasa's subordinates, he was a loyal warrior who had been saved by Nagamasa in his youth. From then on, he swore to stick by his lord through thick and thin and to give his life in service if it was but asked of him.<br /><br />
+::Katsuragi's full name and background remain unknown. Despite all the materials I have sorted through, I have yet to find anymore additional personal information regarding him. As one of Mikoshi Nagamasa's subordinates, he was a loyal warrior who had been saved by Nagamasa in his youth. From then on, he swore to stick by his lord through thick and thin and to give his life in service if it was but asked of him.<br><br>
 ::{{Color|help|The Mechanic}}
-::{{Color|help|Long have I delved through many texts and documents, but I was ultimately unable to decipher even a specter of a clue as to his background. Still, mentions of the mechanic grew scarcer in the aftermath of the Tatarasuna incident. I speculate that, instead of the mechanic possibly being a figure woven from over-ripe imaginations, he actually did exist, and perhaps even had a hand in the events that took place in Tatarasuna.}}<br /><br /><br />
+::{{Color|help|Long have I delved through many texts and documents, but I was ultimately unable to decipher even a specter of a clue as to his background. Still, mentions of the mechanic grew scarcer in the aftermath of the Tatarasuna incident. I speculate that, instead of the mechanic possibly being a figure woven from over-ripe imaginations, he actually did exist, and perhaps even had a hand in the events that took place in Tatarasuna.}}<br><br><br>
 ::(It seems that the rest of this paper remains unfinished... One thing is for sure, though &mdash; a lot of thought was put into it.)
 :{{A|vo llzaq003 1 sawada 03.ogg}} '''Sawada:''' I presume you'll want to read mine as well? Here.
 ;(Open "The Isle of Darkling Clouds")
-::'''The Isle of Darkling Clouds'''
-::Author: Sawada<br /><br /><br />
-::Extract I<br /><br />
+::{{Black Screen|The Isle of Darkling Clouds}}
+::Author: Sawada<br><br><br>
+::Extract I<br><br>
 ::...
 ::...
 ::A man arrived in Tatarasuna around three in the afternoon. From afar, he spied laborers walking along the mountain roads toward the factories, their shoes scuffing along the jutting stones. They walked like people convinced that so long as they reached the fire raging in the mountain's belly, they might extract from it gems beyond price. The mood that the sight inspired was ineffable, beyond mere description for those not present to witness it.
 ::The man barked a cheerful greeting and sprinted to join the procession. There, a towering character who stood half a head taller greeted him with a heavy slap on the back, and yet, his words were filled with respect: "Do my eyes deceive me? Sir Miyazaki! I cannot think that the return trip here from Inazuma City could have been easy on you."
 ::Miyazaki smiled like a young man taking the first steps on their journey, expression relaxed. "Why Katsuragi, Inazuma is the realm of the Almighty Shogun. I sailed upon the fastest ship, strode upon the swiftest sea routes. What dangers could I have possibly faced?"
 ::"And what about the good news?"
-::"There was some... Naturally." The two burst into uproarious laughter, roughhousing with the other workers until the path's end.<br /><br />
+::"There was some... Naturally." The two burst into uproarious laughter, roughhousing with the other workers until the path's end.<br><br>
 ::A young man dressed in a linen shirt and wearing a headscarf gazed into the dancing flames of the furnace before him.
 ::Now, the flames of a forge are unlike any other, for their intensity affects the resulting integrity of both metal and blade. So too, then, was the flame-watcher an unusual individual. At his fingertips sat a lizard, and on his face he wore a smile.
 ::The workshop was huge, and the furnace was deeper within. A reasonable person might think that there should have been many working alongside the watcher, yet he stood alone. Only when Katsuragi and Miyazaki strode into the room did the watcher turn.
@@ -189,8 +208,8 @@
 ::{{Color|help|Miyazaki hid his grin. Upon hearing this, Niwa released the lizard from his hand into Katsuragi's palm. But just as more words were to be exchanged, someone came walking nearby, their footsteps steady and confident. The head that appeared by the door was that of one from abroad. The newcomer placed some lunchboxes to one side, nodded, and made to leave. Katsuragi called out after him. "Sir, what about your meal? Are you not hungry?"}}
 ::{{Color|help|The man smiled upon hearing Katsuragi's words. "I already ate. I hope that you, my lords, may also find time to sate your hunger soon."}}
 ::{{Color|help|"You are our guest, sir. To see you help in these trifling matters fills me with embarrassment," Niwa said with sincerity.}}
-::{{Color|help|The man smiled, as if it was no matter. Then, with a nod, he departed.}}<br /><br /><br />
-::Extract II<br /><br />
+::{{Color|help|The man smiled, as if it was no matter. Then, with a nod, he departed.}}<br><br><br>
+::Extract II<br><br>
 ::...
 ::...
 ::The stranger, a foreign mechanic, stood next to the coast.
@@ -201,8 +220,8 @@
 ::Outbound, a fishing boat drew near, the lights of its bow flickering in and out of sight beneath falling sheets of rain. A mist unspooled across the area, stealing sight from the fisherman. Repeatedly, he exclaimed: "It is but dusk. How are my eyes darkened? Is there anyone that can deliver my boat upon safe tides?"
 ::{{Color|help|Like a falling spear, the black cloud reached the bottom of the boat, and was joined in its bereftness of direction. Like a charging beast, they plunged into the shoreline. Scant steps away, the mechanic laughed, slowly approaching the grand wreck.}}
 ::{{Color|help|Naught but half an arm was left of the one who had cried out for help, and with a "plop," it landed at the mechanic's feet, who crouched to better study the object, straining against the urge to take a bite.}}
-::{{Color|help|Yet, he did not, for the dark clouds swirling down had already picked the remnants of the ship clean.}}<br /><br /><br />
-::Extract III<br /><br />
+::{{Color|help|Yet, he did not, for the dark clouds swirling down had already picked the remnants of the ship clean.}}<br><br><br>
+::Extract III<br><br>
 ::...
 ::...
 ::Katsuragi rushed to the doorway and shouted: "My lord! Things go ill at the furnace. I have searched for Sir Niwa, but there is no trace of him. And much time has passed since Sir Miyazaki left to seek aid, but he has yet to send us any missive. Look..."
@@ -211,25 +230,23 @@
 ::Over ten people had already perished. That was why... Why...
 ::Katsuragi recoiled as if struck. Yes! It was coming back to him now, in dribs and drabs... That was why they had to set out to seek aid!
 ::Miyazaki had been the first to set sail. The clouds had only just begun to form then. Traveling from Tatarasuna to Inazuma to ask for support was normally no great feat, and yet, there had been no sign of his return.
-::{{Color|help|Then a second ship was sent, followed by a third, and a fourth... Each who left to seek salvation did so under foul skies and bleak fortunes. Reason dictated that they should not have risked anyone else, but the situation in Tatarasuna was severe. They needed to gain aid from Inazuma, even should it cost them more lives.}}<br /><br />
+::{{Color|help|Then a second ship was sent, followed by a third, and a fourth... Each who left to seek salvation did so under foul skies and bleak fortunes. Reason dictated that they should not have risked anyone else, but the situation in Tatarasuna was severe. They needed to gain aid from Inazuma, even should it cost them more lives.}}<br><br>
 ::Niwa was gone, and none could find him. Afterward, Nagamasa led a search party into the mountains and the area around the furnace, all to no avail. Folk began to wonder if Niwa might have encountered an accident, but worry soon turned to suspicion, and they wondered if he had fled, unwilling to bear the sin of having caused these incidents.
 ::The people grew ever more suspicious, and Nagamasa himself strained against his discontent and fury. His face had grown to resemble the rumbling clouds above.
 ::Suddenly, a figure flashed by. Their presence did not go unnoticed by Nagamasa. He drew his blade and cut, but in a flash, the evil spirit had shifted behind him, laughing darkly: "Are you seeking someone, my lord? Niwa, perhaps?"
 ::Nagamasa bellowed in fury: "You dare address Sir Niwa directly?" Yet, the figure parted like mist before his falling blade, only to re-materialize beyond reach but not beyond sight &mdash; a ghastly apparition indeed.
-::"Was it you who slew my people?" Nagamasa howled and charged, held back only by Katsuragi's desperate grip. As his senses returned to him, he realized he was but an inch away from falling into the furnace.<br /><br /><br />
+::"Was it you who slew my people?" Nagamasa howled and charged, held back only by Katsuragi's desperate grip. As his senses returned to him, he realized he was but an inch away from falling into the furnace.<br><br><br>
 ::(It seems that the rest of this work remains unfinished... From the existing text, however, it is apparent that this is a novel of fantastical, colorful sensibilities, born from an imagination well-utilized.)
-:'''(Traveler):''' (...)
-:'''(Traveler):''' (The content has changed. Another effect of tampering with the information in Irminsul.)
-:'''(Traveler):''' (The Balladeer said he'd erase two of his names. If he really succeeded, it must have taken all of his might... But still...)
+:'''{{Traveler}}:''' (...)
+:'''{{Traveler}}:''' (The content has changed. Another effect of tampering with the information in Irminsul.)
+:'''{{Traveler}}:''' (The Balladeer said he'd erase two of his names. If he really succeeded, it must have taken all of his might... But still...)
 :{{A|vo llzaq003 1 aqaba 04.ogg}} '''Aqaba:''' Well, what do you think?
 :{{DIcon}} A masterpiece!
-:{{A|vo llzaq003 1 paimon 04.ogg}} '''Paimon:''' Hey (Traveler), remember how last time Aqaba was saying how he wished they could gather more information about all this? Well, we just got back from Inazuma, so how about we tell them what we learned?
+:{{A|vo llzaq003 1 paimon 04.ogg}} '''Paimon:''' Hey {{Traveler}}, remember how last time Aqaba was saying how he wished they could gather more information about all this? Well, we just got back from Inazuma, so how about we tell them what we learned?
 :{{DIcon}} Sure.
 :{{A|vo llzaq003 1 aqaba 05.ogg}} '''Aqaba:''' What did you find out? Something big?
 :{{A|vo llzaq003 1 paimon 05.ogg}} '''Paimon:''' It's a long story. Basically, we have some friends in Inazuma, and...
-
-:'''You tell the two writers what you learned about the Raiden Gokaden and Tatarasuna's history...'''
-
+:{{Black Screen|You tell the two writers what you learned about the Raiden Gokaden and Tatarasuna's history...}}
 :{{A|vo llzaq003 1 aqaba 06.ogg}} '''Aqaba:''' Wow! So many new details... Thank you so much for sharing that with us!
 :{{A|vo llzaq003 1 sawada 04.ogg}} '''Sawada:''' Well, well, so it all comes down to one man's desire for revenge... Huh. You heard this from a member of the Amenoma Clan, you say? Then I guess it must be true.
 :{{A|vo llzaq003 1 sawada 05.ogg}} '''Sawada:''' *sigh* So there's no ghost story here after all...
@@ -248,49 +265,43 @@
 ----
 ;(Approach Nahida)
 :{{A|vo llzaq003 2 paimon 01.ogg}} '''Paimon:''' Nahida, we're here.
-:{{A|vo llzaq003 2 nahida 01.ogg}} '''Nahida:''' (Traveler), Paimon, how have you been?
+:{{A|vo llzaq003 2 nahida 01.ogg}} '''Nahida:''' {{Traveler}}, Paimon, how have you been?
 :{{A|vo llzaq003 2 paimon 02a.ogg}} {{A|vo llzaq003 2 paimon 02b.ogg}} '''Paimon:''' Ugh, where to start... Paimon hasn't had a moment's rest this whole time. That night, we ended up chatting and chatting until suddenly, the sun was up... And then, {{MC|m=he|f=she}} decided {{MC|m=he|f=she}} wanted to go to Inazuma.
 :{{DIcon}} I was investigating the situation with The Balladeer.
 :{{A|vo llzaq003 2 nahida 02.ogg}} '''Nahida:''' The Balladeer... Hmm. Sounds like some kind of code name.
-:'''(Traveler):''' (...Oh no...)
+:'''{{Traveler}}:''' (...Oh no...)
 :{{A|vo llzaq003 2 nahida 03.ogg}} '''Nahida:''' You look troubled... Is there something you need to tell me?
-:'''(Traveler):''' (Even Nahida doesn't remember... Just like last time, any changes to Irminsul affect her as well.)
-:'''(Traveler):''' (The Balladeer acted quickly. He finished erasing himself before Nahida could stop him...)
-:'''(Traveler):''' (I'm the only one who still remembers the things that were erased. Once again... I am the record-keeper.)
-:{{A|vo llzaq003 2 nahida 04.ogg}} '''Nahida:''' (Traveler)?
+:'''{{Traveler}}:''' (Even Nahida doesn't remember... Just like last time, any changes to Irminsul affect her as well.)
+:'''{{Traveler}}:''' (The Balladeer acted quickly. He finished erasing himself before Nahida could stop him...)
+:'''{{Traveler}}:''' (I'm the only one who still remembers the things that were erased. Once again... I am the record-keeper.)
+:{{A|vo llzaq003 2 nahida 04.ogg}} '''Nahida:''' {{Traveler}}?
 :{{A|vo llzaq003 2 paimon 03.ogg}} '''Paimon:''' Hey, what's wrong...? You look so upset.
 :{{DIcon}} There are things that have happened... that only I can remember.
 ::{{DIcon}} I have to tell you the truth.
-
-:'''With a heavy heart, you piece back together the story that was broken and scattered across time...'''
-
-:'''There once was one named The Balladeer, created by the Electro Archon. He was a puppet who lived among men.'''
-
-:'''After a series of events in Tatarasuna, The Balladeer, thinking he had been thrice betrayed, left Inazuma to roam the world beyond.'''
-
-:'''With no trust for humans, and only loathing for the gods,<br />he bore his grudge for years as he grew in strength, then returned to Inazuma to take his revenge.<br />He tried in vain to become a deity with a Gnosis, and ended up losing everything.'''
-
-:'''Finally, he entered Irminsul and learned the truth behind his betrayal.<br />Knowing now that his entire life was built on lies, he did the unthinkable in an attempt to reverse his tragic fate...'''
-
+:{{Black Screen|With a heavy heart, you piece back together the story that was broken and scattered across time...}}
+:{{Black Screen|There once was one named The Balladeer, created by the Electro Archon. He was a puppet who lived among men.}}
+:{{Black Screen|After a series of events in Tatarasuna, The Balladeer, thinking he had been thrice betrayed, left Inazuma to roam the world beyond.}}
+:{{Black Screen|With no trust for humans, and only loathing for the gods,<br>he bore his grudge for years as he grew in strength, then returned to Inazuma to take his revenge.<br>He tried in vain to become a deity with a Gnosis, and ended up losing everything.}}
+:{{Black Screen|Finally, he entered Irminsul and learned the truth behind his betrayal.<br>Knowing now that his entire life was built on lies, he did the unthinkable in an attempt to reverse his tragic fate...}}
 :{{A|vo llzaq003 2 nahida 05.ogg}} '''Nahida:''' ...That's quite a story.
 :{{A|vo llzaq003 2 nahida 06.ogg}} '''Nahida:''' So this puppet known as The Balladeer erased himself from Irminsul... hoping that he could change the past.
 :{{A|vo llzaq003 2 paimon 04.ogg}} '''Paimon:''' But how was he even able to do that?
-:{{A|vo llzaq003 2 nahida 07.ogg}} '''Nahida:''' As (Traveler) said, he very nearly became Sumeru's deity. Admittedly, I remember it a little differently... I don't recall finding anyone inside the machine after we defeated it.
+:{{A|vo llzaq003 2 nahida 07.ogg}} '''Nahida:''' As {{Traveler}} said, he very nearly became Sumeru's deity. Admittedly, I remember it a little differently... I don't recall finding anyone inside the machine after we defeated it.
 :{{A|vo llzaq003 2 nahida 08.ogg}} '''Nahida:''' Nevertheless, it does make sense. If someone were to successfully erase themselves from Irminsul, the world would change to reflect the new reality.
 :{{A|vo llzaq003 2 paimon 05.ogg}} '''Paimon:''' So you believe this person really existed, and we just don't remember him because... well, because he literally changed the world?
 :{{A|vo llzaq003 2 nahida 09.ogg}} '''Nahida:''' Yes. Theoretically speaking, it is possible to do this, but I'm struggling to imagine the kind of person who would dare go through with it...
-:{{A|vo llzaq003 2 nahida 10a.ogg}} {{A|vo llzaq003 2 nahida 10b.ogg}} '''Nahida:''' (Traveler) comes from a world beyond Teyvat. That's why there's no information about {{MC|m=him|f=her}} in Irminsul, and it also explains why any changes to Irminsul wouldn't affect {{MC|m=him|f=her}}.
+:{{A|vo llzaq003 2 nahida 10a.ogg}} {{A|vo llzaq003 2 nahida 10b.ogg}} '''Nahida:''' {{Traveler}} comes from a world beyond Teyvat. That's why there's no information about {{MC|m=him|f=her}} in Irminsul, and it also explains why any changes to Irminsul wouldn't affect {{MC|m=him|f=her}}.
 :{{A|vo llzaq003 2 nahida 11.ogg}} '''Nahida:''' So, if there's anyone in the world capable of retaining memories from a past that has been rewritten, it's you. It's... quite incredible, when you think about it.
 :{{DIcon}} ...You can say that again.
 :{{A|vo llzaq003 2 paimon 06.ogg}} '''Paimon:''' Paimon's having a hard time understanding this Balladeer guy's motivations... Why did he do it?
 :{{A|vo llzaq003 2 nahida 12.ogg}} '''Nahida:''' I can only make inferences based on the information we've been given. As for what kind of person he was... only you remember that.
 :{{DIcon}} I... I'm really not sure.
-:'''(Traveler):''' (We were enemies, after all. I don't know his perspective on all this, so I can't say why he did something so extreme...)
-:'''(Traveler):''' (Did he want to reset everything? Or save someone? Or did he want to completely undo his existence?)
-:'''(Traveler):''' ("Everything can be set right. It's time to solve this once and for all"... Maybe that's all there is to it.)
-:'''(Traveler):''' (I still remember the question he asked. He asked me, specifically... and my hesitation gave him his answer.)
-:'''(Traveler):''' (I hesitated because I witnessed [[Greater Lord Rukkhadevata]] erase her own existence, but I can't tell Nahida that.)
-:'''(Traveler):''' (To put it another way, I know why The Balladeer was so sure it could work... But I can't tell them that.)
+:'''{{Traveler}}:''' (We were enemies, after all. I don't know his perspective on all this, so I can't say why he did something so extreme...)
+:'''{{Traveler}}:''' (Did he want to reset everything? Or save someone? Or did he want to completely undo his existence?)
+:'''{{Traveler}}:''' ("Everything can be set right. It's time to solve this once and for all"... Maybe that's all there is to it.)
+:'''{{Traveler}}:''' (I still remember the question he asked. He asked me, specifically... and my hesitation gave him his answer.)
+:'''{{Traveler}}:''' (I hesitated because I witnessed [[Greater Lord Rukkhadevata]] erase her own existence, but I can't tell Nahida that.)
+:'''{{Traveler}}:''' (To put it another way, I know why The Balladeer was so sure it could work... But I can't tell them that.)
 :{{A|vo llzaq003 2 nahida 13.ogg}} '''Nahida:''' Something else worrying you? ...Something that you can't share?
 :{{DIcon}} I just feel... empty.
 :{{DIcon}} He chose such a radical option, and yet...
@@ -303,8 +314,8 @@
 :{{A|vo llzaq003 2 nahida 19.ogg}} '''Nahida:''' That power then enabled him to change what was recorded in Irminsul and erase himself, even though he didn't have much strength left.
 :{{A|vo llzaq003 2 paimon 07.ogg}} '''Paimon:''' Yeah, it does make sense, but... it still ended in tragedy for his friends.
 :{{A|vo llzaq003 2 paimon 08.ogg}} '''Paimon:''' It just feels so hopeless... He gave everything to do this, but it seems like he got nothing in return.
-:'''(Traveler):''' (Yeah. He changed the world in many ways, and yet the dead still didn't get a second chance. Those fated to a tragic end could not be saved.)
-:'''(Traveler):''' (What exactly did he want to fight back against? The betrayals in his life? Or did he wish he'd never existed at all?)
+:'''{{Traveler}}:''' (Yeah. He changed the world in many ways, and yet the dead still didn't get a second chance. Those fated to a tragic end could not be saved.)
+:'''{{Traveler}}:''' (What exactly did he want to fight back against? The betrayals in his life? Or did he wish he'd never existed at all?)
 :{{A|vo llzaq003 2 nahida 20.ogg}} '''Nahida:''' Please wait a moment. I want to check something.
 :{{A|vo llzaq003 2 nahida 21.ogg}} '''Nahida:''' ...
 :{{A|vo llzaq003 2 nahida 22.ogg}} '''Nahida:''' Found it. This should be the one.
@@ -313,20 +324,18 @@
 :{{A|vo llzaq003 2 paimon 09.ogg}} '''Paimon:''' What is it?
 :{{A|vo llzaq003 2 nahida 24.ogg}} '''Nahida:''' A record from my personal collection. It was tucked away in a corner.
 :{{A|vo llzaq003 2 nahida 25.ogg}} '''Nahida:''' You should take a look.
-
-:'''Surprisingly, the information is presented to you in a way that resembles a fairy tale...'''
-
+:{{Black Screen|Surprisingly, the information is presented to you in a way that resembles a fairy tale...}}
 :{{A|vo llzaq003 2 paimon 10.ogg}} '''Paimon:''' Is this a fairy tale? Who wrote it?
 :{{DIcon}} This matches everything I said.
 :{{A|vo llzaq003 2 nahida 26.ogg}} '''Nahida:''' I authored this record myself.
 :{{A|vo llzaq003 2 paimon 11.ogg}} '''Paimon:''' Huh? You... wrote a fairytale that somehow has something to do with The Balladeer?
-:{{A|vo llzaq003 2 nahida 27.ogg}} '''Nahida:''' When combined with (Traveler)'s narrative, it's clear that this story is an allegory. Everything in it is a symbol for something else.
+:{{A|vo llzaq003 2 nahida 27.ogg}} '''Nahida:''' When combined with {{Traveler}}'s narrative, it's clear that this story is an allegory. Everything in it is a symbol for something else.
 :{{A|vo llzaq003 2 paimon 12.ogg}} '''Paimon:''' Hold on, so this record survived from the... past-past?
 :{{A|vo llzaq003 2 nahida 28.ogg}} '''Nahida:''' Yes. Any information about The Balladeer or the kabukimono in other records will have been changed. But I wrote this story in a way that means, it was left intact.
 :{{A|vo llzaq003 2 nahida 29.ogg}} '''Nahida:''' Changing the information in Irminsul changes Teyvat.
 :{{A|vo llzaq003 2 nahida 30.ogg}} '''Nahida:''' But Irminsul can't change information that was well hidden in advance. I guess I must've written this story as a backup before The Balladeer entered Irminsul.
 :{{A|vo llzaq003 2 paimon 13.ogg}} '''Paimon:''' That's incredible! What a great idea!
-:{{A|vo llzaq003 2 nahida 31a.ogg}} {{A|vo llzaq003 2 nahida 31b.ogg}} '''Nahida:''' And sending (Traveler) into Irminsul with The Balladeer must have been a further precaution. I knew {{MC|m=he|f=she}}'d remember everything.
+:{{A|vo llzaq003 2 nahida 31a.ogg}} {{A|vo llzaq003 2 nahida 31b.ogg}} '''Nahida:''' And sending {{Traveler}} into Irminsul with The Balladeer must have been a further precaution. I knew {{MC|m=he|f=she}}'d remember everything.
 :{{A|vo llzaq003 2 nahida 32.ogg}} '''Nahida:''' This story is abstract enough that it still resonates with the present information recorded in Irminsul.
 :{{A|vo llzaq003 2 nahida 33a.ogg}} {{A|vo llzaq003 2 nahida 33b.ogg}} '''Nahida:''' But if we connect all the different pieces together, the true story that emerges is the one {{MC|m=he|f=she}} told us... the now-erased life of The Balladeer.
 ;(Illustrations of the fairy tale appear as Nahida narrates)
@@ -335,34 +344,46 @@
 |{{A|vo llzaq003 3 nahida 01.ogg}} '''Nahida:''' There once was a [[Il Dottore|lone monster]] draped in fox fur. The monster found a family of foxes, joined them, and they became friends. The monster lived with the family, day and night, and everyone treated it as one of their own.
 |-
 |{{A|vo llzaq003 3 nahida 02.ogg}} '''Nahida:''' Once in a while, the monster would take off its fox fur at night, and lament to itself as it gazed at its reflection in the water: "I am a monstrosity, yet they are too foolish to see it... I pity them."
-|-
+|}
+::{|
 | rowspan="2" |[[File:The Kabukimono's Finale Computer Graphic 2.png|180px]]
 |{{A|vo llzaq003 3 nahida 03.ogg}} '''Nahida:''' But the monster soon found solace when another came to live among the foxes who was not their kin: a [[Scaramouche|kitten]], carved from the wood of a white tree, who had been abandoned by the humans.
 |-
 |{{A|vo llzaq003 3 nahida 04.ogg}} '''Nahida:''' The kitten, too, wished to become a fox, but its tail was too slender and it could not grow a coat of richly colored fur. Yet when the other foxes saw this, they spoke words of comfort to the kitten: "Even without a tail and fur like ours, you are still one of us."
-|-
-| rowspan="3" |[[File:The Kabukimono's Finale Computer Graphic 3.png|180px]]
+|}
+::{|
+| rowspan="2" |[[File:The Kabukimono's Finale Computer Graphic 3.png|180px]]
 |{{A|vo llzaq003 3 nahida 05.ogg}} '''Nahida:''' Furious at this happy resolution, the monster lit a fire on the mountain. The terrified animals panicked as the fire spread. The only way to extinguish the flames was to make a sacrifice.
 |-
 |{{A|vo llzaq003 3 nahida 06.ogg}} '''Nahida:''' A [[Niwa Hisahide|gray fox]] stood up and addressed the monster. It said: "You are the cleverest among us. Surely you can help us find a way to solve this."
-|-
-|{{A|vo llzaq003 3 nahida 07.ogg}} '''Nahida:''' The monster smiled, led the fox toward the fire... and murdered it. The gray fox's heart was turned into a beautiful drop of water, clear, spotless, and pure.
-|-
+|}
+::{|
 |[[File:The Kabukimono's Finale Computer Graphic 4.png|180px]]
+|{{A|vo llzaq003 3 nahida 07.ogg}} '''Nahida:''' The monster smiled, led the fox toward the fire... and murdered it. The gray fox's heart was turned into a beautiful drop of water, clear, spotless, and pure.
+|}
+::{|
+|[[File:The Kabukimono's Finale Computer Graphic 5.png|180px]]
 |{{A|vo llzaq003 3 nahida 08.ogg}} '''Nahida:''' The monster gave the heart of water to the kitten, telling him: "The foxes have decided. You are the one who must be sacrificed. Take this, quench the flames, and die for your fox kin."
-|-
-|[[File:The Kabukimono's Finale Computer Graphic 5.png|180px]]<br />
-|{{A|vo llzaq003 3 nahida 09.ogg}} '''Nahida:''' The fire was extinguished, but the kitten lived. It left that side of the mountain and found a little bird who had a broken wing.
-|-
+|}
+::{|
 |[[File:The Kabukimono's Finale Computer Graphic 6.png|180px]]
+[[File:The Kabukimono's Finale Computer Graphic 7.png|180px]]
+|{{A|vo llzaq003 3 nahida 09.ogg}} '''Nahida:''' The fire was extinguished, but the kitten lived. It left that side of the mountain and found a little bird who had a broken wing.
+|}
+::{|
+|[[File:The Kabukimono's Finale Computer Graphic 8.png|180px]]
+[[File:The Kabukimono's Finale Computer Graphic 9.png|180px]]
 |{{A|vo llzaq003 3 nahida 10.ogg}} '''Nahida:''' The two promised they would spend their whole lives together, but the little bird did not have long left to live. It passed away soon after. After burying the bird, the kitten left the mountain for good.
-|-
-| rowspan="2" |[[File:The Kabukimono's Finale Computer Graphic 7.png|180px]]
+|}
+::{|
+|[[File:The Kabukimono's Finale Computer Graphic 10.png|180px]]
 |{{A|vo llzaq003 3 nahida 11.ogg}} '''Nahida:''' ...Never again would it cherish a single creature, nor a single blade of grass that stood on that mountain. The kitten spent the nights wandering aimlessly, gnashing its teeth at the moon.
 |-
+|[[File:The Kabukimono's Finale Computer Graphic 11.png|180px]]
 |{{A|vo llzaq003 3 nahida 12.ogg}} '''Nahida:''' How it wished to swallow the moon and devour the moonlight. If the world could only return to darkness, then it would finally be peaceful and content.
-|-
-|[[File:The Kabukimono's Finale Computer Graphic 8.png|180px]]
+|}
+::{|
+|[[File:The Kabukimono's Finale Computer Graphic 12.png|180px]]
 |{{A|vo llzaq003 3 nahida 13.ogg}} '''Nahida:''' "I will become the new moon, the answer to everything. Then, no one will know that there were once birds, foxes, and cats in this world. And no one can know that they were different."
 |}
 :;(End of illustrations)
@@ -389,33 +410,33 @@
 :{{A|vo llzaq003 3 nahida 28.ogg}} '''Nahida:''' And that is what you have been doing all along.
 :{{A|vo llzaq003 3 paimon 05.ogg}} '''Paimon:''' Yeah, Nahida's right. Cheer up! How about we go get something to eat? We can pick up this heavy conversation again later!
 :{{A|vo llzaq003 3 nahida 29a.ogg}} {{A|vo llzaq003 3 nahida 29b.ogg}} '''Nahida:''' Good idea. Paimon, why don't you take {{MC|m=him|f=her}} out for a walk to clear {{MC|m=his|f=her}} head?
-:{{A|vo llzaq003 3 paimon 06.ogg}} '''Paimon:''' You got it! C'mon, (Traveler), you need to get out of your head for a while. You'll feel much better after taking a walk.
+:{{A|vo llzaq003 3 paimon 06.ogg}} '''Paimon:''' You got it! C'mon, {{Traveler}}, you need to get out of your head for a while. You'll feel much better after taking a walk.
 
 :{{A|vo llzaq003 4 paimon 01.ogg}} '''Paimon:''' Let's go get a snack from one of the stalls in the Grand Bazaar. That'll be sure to lift our spirits!
 :{{A|vo llzaq003 4 paimon 02.ogg}} '''Paimon:''' It must be really tough being the only one who remembers all that... But Paimon's always here to help cheer you up.
 
 ;(Talk to Nahida again, optional)
 :{{A|vo dialog llzaq003 nahida 01.ogg}} '''Nahida:''' There's a few things I'd like to look into. You should go take a walk and try to unwind.
-{{Dialogue end}}
+{{Dialogue End}}
 {{Quest Description|update|The information you gathered left you with a heavy heart. You decide to return to the Sanctuary of Surasthana and tell Nahida about everything you learned. Nahida is reminded of a secret she intentionally kept hidden before The Balladeer entered Irminsul. After solving the puzzle, everyone is reminded of the things The Balladeer has done...}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach the southern entrance of the Grand Bazaar)
 :{{A|vo llzaq003 4 paimon 03.ogg}} '''Paimon:''' We're here~ What should we eat first?
-:'''(Traveler):''' (...I have a nagging feeling, like there's something I'm missing. Something important that I'm forgetting...)
+:'''{{Traveler}}:''' (...I have a nagging feeling, like there's something I'm missing. Something important that I'm forgetting...)
 :{{A|vo llzaq003 4 paimon 04.ogg}} '''Paimon:''' Hey! Are you gonna answer or what?
 :{{DIcon}} Sorry, it's just... Give me a minute. I'm still... processing.
 :{{A|vo llzaq003 4 paimon 05.ogg}} '''Paimon:''' *sigh* Alright, whatever you want... Well, Paimon will be right here when you've figured stuff out. Then we can get something to eat.
-:'''(Traveler):''' (Come on, brain. Let's dig this out... It's gotta be in there somewhere. It was something about Irminsul, and deleting oneself...)
-:'''(Traveler):''' (Greater Lord Rukkhadevata... forbidden knowledge... Nahida...)
+:'''{{Traveler}}:''' (Come on, brain. Let's dig this out... It's gotta be in there somewhere. It was something about Irminsul, and deleting oneself...)
+:'''{{Traveler}}:''' (Greater Lord Rukkhadevata... forbidden knowledge... Nahida...)
 :{{A|vo llzaq003 4 paimon 06.ogg}} '''Paimon:''' What is it? Have you figured it all out?
-:'''(Traveler):''' (...!)
-:'''(Traveler):''' (Yes, that was it! Greater Lord Rukkhadevata &mdash; she said that no one can erase themselves from existence, not even her.)
-:'''(Traveler):''' (Otherwise, why would she need to create her own reincarnation in Lesser Lord Kusanali to do the deletion for her? There would be no point.)
+:'''{{Traveler}}:''' (...!)
+:'''{{Traveler}}:''' (Yes, that was it! Greater Lord Rukkhadevata &mdash; she said that no one can erase themselves from existence, not even her.)
+:'''{{Traveler}}:''' (Otherwise, why would she need to create her own reincarnation in Lesser Lord Kusanali to do the deletion for her? There would be no point.)
 :{{A|vo llzaq003 4 paimon 07.ogg}} '''Paimon:''' Uh, why'd you jump up all of a sudden!?
-:'''(Traveler):''' (...No, I can't tell Paimon. She doesn't know about Greater Lord Rukkhadevata.)
-:'''(Traveler):''' (But this is a crucially important detail: It's simply not possible for The Balladeer to completely erase his own existence. In which case, the question is... What happened to him?)
+:'''{{Traveler}}:''' (...No, I can't tell Paimon. She doesn't know about Greater Lord Rukkhadevata.)
+:'''{{Traveler}}:''' (But this is a crucially important detail: It's simply not possible for The Balladeer to completely erase his own existence. In which case, the question is... What happened to him?)
 :{{A|vo llzaq003 4 wanderer 01.ogg}} '''???:''' Excuse me, Boss, there seems to be a small problem with the last bill. Look, here...
-:'''(Traveler):''' (!!!?)
+:'''{{Traveler}}:''' (!!!?)
 :{{A|vo llzaq003 4 merchant 01.ogg}} '''Merchant:''' Hey! Hey, wait...!
 :{{A|vo llzaq003 4 wanderer 02.ogg}} '''???:''' Hmm? You mean me?
 :{{A|vo llzaq003 4 merchant 02.ogg}} '''Merchant:''' No, not you! That kid! Didn't you see!? Little rascal grabbed my last two fresh Sunsettias and ran off!
@@ -451,7 +472,7 @@
 :{{DIcon}} Shush.
 :{{A|vo llzaq003 4 paimon 13.ogg}} '''Paimon:''' Oh, alright...
 :{{A|vo llzaq003 4 wanderer 10.ogg}} '''Wanderer:''' This should be enough. Umm... Ah, guess I should wash them before I take them back...
-:'''(Traveler):''' (...If I wasn't seeing this with my own eyes, I would never believe it.)
+:'''{{Traveler}}:''' (...If I wasn't seeing this with my own eyes, I would never believe it.)
 :{{A|vo llzaq003 4 wanderer 11.ogg}} '''Wanderer:''' Huh...?
 :{{A|vo llzaq003 4 wanderer 12.ogg}} '''Wanderer:''' You two over there, is there something I can help you with?
 :{{A|vo llzaq003 4 paimon 14.ogg}} '''Paimon:''' Aah! He spotted us!
@@ -508,9 +529,7 @@
 :{{A|vo llzaq003 6 nahida 02.ogg}} '''Nahida:''' Huh? Are you...?
 :{{A|vo llzaq003 6 wanderer 01.ogg}} '''Wanderer:''' ...Hello, I do apologize for the sudden intrusion...
 :{{A|vo llzaq003 6 paimon 02.ogg}} '''Paimon:''' We found this guy in the street, but he doesn't seem to remember anything... So yeah, quite an eventful walk!
-
-:'''You tell Lesser Lord Kusanali what happened in the Grand Bazaar...'''
-
+:{{Black Screen|You tell Lesser Lord Kusanali what happened in the Grand Bazaar...}}
 :{{A|vo llzaq003 6 nahida 03.ogg}} '''Nahida:''' You say that you are trekking across Teyvat to train yourself... Many other Inazumans who describe themselves in this way call themselves "shugenja." Why do you refer to yourself as a "wanderer"?
 :{{A|vo llzaq003 6 wanderer 02.ogg}} '''Wanderer:''' Well, it seems more relevant in my case... To me, it sounds like a plant with no roots.
 :{{A|vo llzaq003 6 wanderer 03.ogg}} '''Wanderer:''' But these two claim that they know me, and that I have a hidden past unknown even to myself.
@@ -533,9 +552,7 @@
 :{{A|vo llzaq003 6 nahida 11.ogg}} '''Nahida:''' You drifted from place to place, never able to settle, even where you found status and identity. You adamantly believed that you were missing a heart.
 :{{A|vo llzaq003 6 wanderer 10.ogg}} '''Wanderer:''' ...
 :{{A|vo llzaq003 6 nahida 12.ogg}} '''Nahida:''' ...Actions rooted in persistence sometimes bear bitter fruit. Sometimes, you have to let parts of yourself go, or you'll never be happy.
-
-:'''Nahida tells the Wanderer about his past...'''
-
+:{{Black Screen|Nahida tells the Wanderer about his past...}}
 :{{A|vo llzaq003 6 wanderer 11.ogg}} '''Wanderer:''' I gave everything I had, but it barely changed history at all.
 :{{A|vo llzaq003 6 nahida 13.ogg}} '''Nahida:''' In terms of the outcome alone... that's true.
 :{{A|vo llzaq003 6 wanderer 12.ogg}} '''Wanderer:''' ...
@@ -557,7 +574,7 @@
 :{{A|vo llzaq003 6 nahida 17.ogg}} '''Nahida:''' ...Very well. As you wish.
 :{{A|vo llzaq003 6 paimon 08.ogg}} '''Paimon:''' Wait, shouldn't we go with him!? This one's kind of on us for bringing him here...
 :{{A|vo llzaq003 6 wanderer 20.ogg}} '''Wanderer:''' Don't worry. Whatever danger I might face, it's my burden to bear.
-:{{A|vo llzaq003 6 nahida 18.ogg}} '''Nahida:''' (Traveler), could I ask you to supervise him on my behalf?
+:{{A|vo llzaq003 6 nahida 18.ogg}} '''Nahida:''' {{Traveler}}, could I ask you to supervise him on my behalf?
 :{{DIcon}} ...Okay.
 :{{A|vo llzaq003 6 paimon 09.ogg}} '''Paimon:''' Oh, good point, given your, um... unique situation, w&mdash;we'd better keep an eye on you!
 :{{A|vo llzaq003 6 wanderer 21.ogg}} '''Wanderer:''' Understood.
@@ -642,50 +659,50 @@
 ;(Drop into the fog-filled room)
 :{{A|vo llzaq003 12 wanderer 01.ogg}} '''Wanderer:''' This place is dark.
 :{{A|vo llzaq003 12 paimon 01.ogg}} '''Paimon:''' Ugh, Paimon knows this place... It's the Delusion Factory in Inazuma!
-:{{A|vo llzaq003 12 nahida 01.ogg}} '''Nahida:''' In the original version of events, (Traveler) once encountered The Balladeer here.
+:{{A|vo llzaq003 12 nahida 01.ogg}} '''Nahida:''' In the original version of events, {{Traveler}} once encountered The Balladeer here.
 :{{A|vo llzaq003 12 paimon 02.ogg}} '''Paimon:''' Such a creepy atmosphere... and so familiar...
 :{{DIcon}} ...
-:'''(Traveler):''' (I remember this... It was an unsettling place.)
+:'''{{Traveler}}:''' (I remember this... It was an unsettling place.)
 :{{A|vo llzaq003 12 paimon 03.ogg}} '''Paimon:''' Hey, look over there!
-:{{A|vo llzaq003 12 scaramouche 03.ogg}} '''Scaramouche:''' Well, well, my fair lady, is this run-down factory and these incompetent fools all for me? Wow, you shouldn't have.
+:{{A|vo llzaq003 12 scaramouche 03.ogg}} '''The Balladeer:''' Well, well, my fair lady, is this run-down factory and these incompetent fools all for me? Wow, you shouldn't have.
 :{{A|vo llzaq003 12 signora 01.ogg}} '''[[Signora]]:''' Hah. What do you have to gain from belittling your subordinates? You might not want to admit it, but you are a part of this plan.
 :{{A|vo llzaq003 12 signora 02.ogg}} '''Signora:''' Perhaps you find fighting in the Abyss to be a more meaningful use of your time? Oh, but of course, even this pales in comparison to being experimented on by The Doctor.
-:{{A|vo llzaq003 12 scaramouche 04.ogg}} '''Scaramouche:''' ...Heh, what a sharp tongue you have.
-:{{A|vo llzaq003 12 scaramouche 05.ogg}} '''Scaramouche:''' Funny how negotiating never seems to be your strong suit. For the task ahead, I suggest you keep your true feelings to yourself.
+:{{A|vo llzaq003 12 scaramouche 04.ogg}} '''The Balladeer:''' ...Heh, what a sharp tongue you have.
+:{{A|vo llzaq003 12 scaramouche 05.ogg}} '''The Balladeer:''' Funny how negotiating never seems to be your strong suit. For the task ahead, I suggest you keep your true feelings to yourself.
 :{{A|vo llzaq003 12 signora 03.ogg}} '''Signora:''' Hmph, save your breath. I know what I have to do.
-:{{A|vo llzaq003 12 scaramouche 06.ogg}} '''Scaramouche:''' I'm sure you think so, but I still think you need to hear it: Don't start thinking you're invincible. And don't let your emotions get in the way.
+:{{A|vo llzaq003 12 scaramouche 06.ogg}} '''The Balladeer:''' I'm sure you think so, but I still think you need to hear it: Don't start thinking you're invincible. And don't let your emotions get in the way.
 :{{A|vo llzaq003 12 signora 04.ogg}} '''Signora:''' Surely you're not worried about me?
-:{{A|vo llzaq003 12 scaramouche 07.ogg}} '''Scaramouche:''' I just can't have you getting in my way. You and Childe never fail to find ways to complicate things.
+:{{A|vo llzaq003 12 scaramouche 07.ogg}} '''The Balladeer:''' I just can't have you getting in my way. You and Childe never fail to find ways to complicate things.
 :{{A|vo llzaq003 12 signora 05.ogg}} '''Signora:''' I'm merely lighting a little fire in this chaotic nation, but you... Being tossed out like trash must make you want to destroy it completely.
 :{{A|vo llzaq003 12 signora 06.ogg}} '''Signora:''' Do you remember the last time you were here? That was a lot of swordsmiths you killed. I'm sure the descendants of the Raiden Gokaden are still suffering the consequences now.
 :{{A|vo llzaq003 12 signora 07.ogg}} '''Signora:''' Look at you... Aw, don't get so sentimental. Now, give that poor little tongue of yours a rest, and stop pretending like you're above everyone else.
 :{{A|vo llzaq003 12 signora 08.ogg}} '''Signora:''' Bye, then. See you at the victory feast.
-:{{A|vo llzaq003 12 scaramouche 08.ogg}} '''Scaramouche:''' ..."Poor little tongue"? Hahaha... She's playing with fire talking to me like that. Who does she think she is?
-:{{A|vo llzaq003 12 scaramouche 09.ogg}} '''Scaramouche:''' ...Forget it. Someone might find me here any minute now. I should prepare to give them a warm welcome.
-:'''(Traveler):''' ...
+:{{A|vo llzaq003 12 scaramouche 08.ogg}} '''The Balladeer:''' ..."Poor little tongue"? Hahaha... She's playing with fire talking to me like that. Who does she think she is?
+:{{A|vo llzaq003 12 scaramouche 09.ogg}} '''The Balladeer:''' ...Forget it. Someone might find me here any minute now. I should prepare to give them a warm welcome.
+:'''{{Traveler}}:''' ...
 :{{A|vo llzaq003 12 wanderer 02.ogg}} '''Wanderer:''' ...
 :{{A|vo llzaq003 12 nahida 02.ogg}} '''Nahida:''' The plot does not end here. There is more of this story to come. Wanderer, are you able to continue?
 :{{A|vo llzaq003 12 wanderer 03.ogg}} '''Wanderer:''' ...Yes, please don't worry about me.
 
 ;(After the cutscene)
 :{{A|vo llzaq003 13 signora 01.ogg}} '''Signora:''' Why are you staring at me in silence? Can't you think of a nicer way to express yourself?
-:{{A|vo llzaq003 13 scaramouche 01.ogg}} '''Scaramouche:''' I'm under no obligation to be nice to you. Besides, I thought nothing mattered to you except results and your own interests. Isn't that right... witch?
+:{{A|vo llzaq003 13 scaramouche 01.ogg}} '''The Balladeer:''' I'm under no obligation to be nice to you. Besides, I thought nothing mattered to you except results and your own interests. Isn't that right... witch?
 :{{A|vo llzaq003 13 signora 02.ogg}} '''Signora:''' Hehe... Muddle-headed puppet, you're only No. 6 because you can take more abuse than other humans. Do you really count that as an asset?
-:{{A|vo llzaq003 13 scaramouche 02.ogg}} '''Scaramouche:''' You're about as much fun to be around as a raging inferno. But before we murder each other, it'd be best if we finish our duties.
+:{{A|vo llzaq003 13 scaramouche 02.ogg}} '''The Balladeer:''' You're about as much fun to be around as a raging inferno. But before we murder each other, it'd be best if we finish our duties.
 
 ;(Approach the green teleporter)
 :{{A|vo llzaq003 17 paimon 01.ogg}} '''Paimon:''' Looks like we've arrived in Sumeru!
 :{{A|vo llzaq003 17 paimon 02.ogg}} '''Paimon:''' Uh... Is that...
 :{{A|vo llzaq003 17 scholar 01.ogg}} '''Akademiya Researcher:''' Considering that Amurta's sage, Naphis, refused to join this project, I'll take part in the experiment in his place.
 :{{A|vo llzaq003 17 dottore 01.ogg}} '''[[Il Dottore|The Doctor]]:''' Welcome. I look forward to a fruitful collaboration.
-:{{A|vo llzaq003 17 scaramouche 01.ogg}} '''Scaramouche:''' ...Hmph.
-:{{A|vo llzaq003 17 scaramouche 02.ogg}} '''Scaramouche:''' When do we start?
+:{{A|vo llzaq003 17 scaramouche 01.ogg}} '''The Balladeer:''' ...Hmph.
+:{{A|vo llzaq003 17 scaramouche 02.ogg}} '''The Balladeer:''' When do we start?
 :{{A|vo llzaq003 17 dottore 02.ogg}} '''The Doctor:''' You seem impatient? You should know that becoming a god is far from a trivial affair.
 :{{A|vo llzaq003 17 azar 01.ogg}} '''Azar:''' The biological transformation is a lengthy process. As such, I too would recommend that we commence as soon as possible. In the event that a successful connection is established, his body will become permanently bound to the machine, and he will be unable to move independently of it.
-:{{A|vo llzaq003 17 scaramouche 03.ogg}} '''Scaramouche:''' Nothing worse than what I've been through before then, Doctor?
+:{{A|vo llzaq003 17 scaramouche 03.ogg}} '''The Balladeer:''' Nothing worse than what I've been through before then, Doctor?
 :{{A|vo llzaq003 17 dottore 03.ogg}} '''The Doctor:''' You were the most resilient test subject I ever came across. Thanks to you, I was able to garner a great deal of information.
 :{{A|vo llzaq003 17 dottore 04.ogg}} '''The Doctor:''' Alas, after that, you were under orders to remain in the Abyss. We barely saw each other, and it became difficult to further refine the knowledge I had gained.
-:{{A|vo llzaq003 17 scaramouche 04.ogg}} '''Scaramouche:''' That was gracefully worded. Ever wonder what they'd think if they knew that nothing matters to you apart from your crazy experiments?
+:{{A|vo llzaq003 17 scaramouche 04.ogg}} '''The Balladeer:''' That was gracefully worded. Ever wonder what they'd think if they knew that nothing matters to you apart from your crazy experiments?
 :{{A|vo llzaq003 17 dottore 05.ogg}} '''The Doctor:''' I suggest you speak to me in a more respectful tone, Scaramouche. The mere fact of your utility does not make you indestructible.
 :{{A|vo llzaq003 17 paimon 03.ogg}} '''Paimon:''' ...The Doctor again... That was uncomfortable to watch.
 :{{A|vo llzaq003 17 wanderer 01.ogg}} '''Wanderer:''' That person gives off a very sinister energy.
@@ -712,19 +729,19 @@
 :{{A|vo llzaq003 19 nahida 05.ogg}} '''Nahida:''' Are you sure you want to do this?
 :{{A|vo llzaq003 19 wanderer 09.ogg}} '''Wanderer:''' I've lived with a void in my chest my whole life. My creator didn't need me, and ever since I awoke, I've just drifted from one place to the next.
 :{{A|vo llzaq003 19 wanderer 10.ogg}} '''Wanderer:''' But then I met you, and I finally realized that reclaiming my missing sins might be my one opportunity to become my true self.
-:'''(Traveler):''' (...Is this the true meaning of Greater Lord Rukkhadevata's words? A person can't erase themselves, and even though the original Balladeer has gone, this person will live on in his place...)
-:'''(Traveler):''' (Are a person's sins an inescapable part of their destiny too?)
+:'''{{Traveler}}:''' (...Is this the true meaning of Greater Lord Rukkhadevata's words? A person can't erase themselves, and even though the original Balladeer has gone, this person will live on in his place...)
+:'''{{Traveler}}:''' (Are a person's sins an inescapable part of their destiny too?)
 :{{A|vo llzaq003 19 wanderer 11.ogg}} '''Wanderer:''' I've always felt I have an innate tendency to yearn for something more, in a way that goes deeper than for most people... But for all my soul-searching as a shugenja, I've never fully understood it. Looking at it now, it seems that I brought this curse upon myself.
 :{{A|vo llzaq003 19 wanderer 12.ogg}} '''Wanderer:''' So I beg you... grant me this opportunity to gain a purpose. To change my destiny and end my wandering.
 :{{A|vo llzaq003 19 nahida 06.ogg}} '''Nahida:''' Very well.
 :{{A|vo llzaq003 19 nahida 07.ogg}} '''Nahida:''' Since your mind is made up, I will return to you that which is yours.
 ;(A cinematic plays)
-{{Cutscene Description|The turbulent memories return to the Wanderer's heart. His time as The Balladeer flows into his mind, and the shock of it causes him immense agony. As you and Paimon worry over this turn of events, Shouki no Kami, the false god that once posed a massive threat to Sumeru, re-emerges from the depths of his memories and attacks you. Assaulted by his memories, the Wanderer has been rendered immobile, and so you go forth to do battle with the giant machine. Yet Shouki no Kami attacks far too swiftly, and just as you are about to be flattened by one of its mighty, undodgeable blows, someone comes to your defense, deflecting the attack.<br />It is your companion &mdash; now having accepted his memories of his "previous life" as The Balladeer into himself. And the thing that has helped him block that strike... is a Vision.}}
+{{Cutscene Description|The turbulent memories return to the Wanderer's heart. His time as The Balladeer flows into his mind, and the shock of it causes him immense agony. As you and Paimon worry over this turn of events, Shouki no Kami, the false god that once posed a massive threat to Sumeru, re-emerges from the depths of his memories and attacks you. Assaulted by his memories, the Wanderer has been rendered immobile, and so you go forth to do battle with the giant machine. Yet Shouki no Kami attacks far too swiftly, and just as you are about to be flattened by one of its mighty, undodgeable blows, someone comes to your defense, deflecting the attack.<br>It is your companion &mdash; now having accepted his memories of his "previous life" as The Balladeer into himself. And the thing that has helped him block that strike... is a Vision.}}
 ::'''Nahida:''' You have made your decision
 ::'''Nahida:''' Now... take this
 :;(The Wanderer reaches out to the memory and it plunges into his chest)
 ::'''Wanderer:''' Aah...!
-:;(The Wanderer sees a memory of Raiden Shogun at the [[Grand Narukami Shrine]])
+:;(The Wanderer sees a memory of Raiden Shogun at the [[Grand Narukami Shrine (Subarea)|Grand Narukami Shrine]])
 ::'''Yae Miko:''' Set him free?
 :;(The Wanderer sees a memory of a man at the Shakkei Pavilion)
 ::'''Katsuragi:''' A puppet? What's he doing here...
@@ -780,7 +797,10 @@
 :{{A|vo llzaq003 21 wanderer 04.ogg}} '''Wanderer:''' But don't worry. Thanks to you, even if I didn't change a thing... at least I now know the truth.
 :{{A|vo llzaq003 21 nahida 01.ogg}} '''Nahida:''' The memory recovery seems to have been a success. This dream has served its purpose.
 :{{A|vo llzaq003 21 wanderer 05.ogg}} '''Wanderer:''' Come on. Let's continue this outside.
-{{Dialogue end}}
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Gallery==
 <gallery>
@@ -792,6 +812,10 @@ The Kabukimono's Finale Computer Graphic 5.png
 The Kabukimono's Finale Computer Graphic 6.png
 The Kabukimono's Finale Computer Graphic 7.png
 The Kabukimono's Finale Computer Graphic 8.png
+The Kabukimono's Finale Computer Graphic 9.png
+The Kabukimono's Finale Computer Graphic 10.png
+The Kabukimono's Finale Computer Graphic 11.png
+The Kabukimono's Finale Computer Graphic 12.png
 </gallery>
 
 ==Other Languages==
@@ -826,7 +850,7 @@ The Kabukimono's Finale Computer Graphic 8.png
 |pt      = As Cortinas se Fecham: o Encerramento do Kabukimono
 |pt_tl   = 
 |tr      = Kabukimono'nun Sonu
-|tr_tl   = 
+|tr_tl   = Kabukimono's End
 |it      = L'ultimo atto del kabukimono
 |it_tl   = The Last Act of the Kabukimono
 }}
@@ -838,3 +862,4 @@ The Kabukimono's Finale Computer Graphic 8.png
 {{Archon Quest Navbox|Interlude Chapter}}
 
 [[es:El acto final del kabukimono]]
+[[ja:幕切——傾奇の末]]

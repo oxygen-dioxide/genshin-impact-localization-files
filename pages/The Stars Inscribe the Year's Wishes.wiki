@@ -1,6 +1,6 @@
 {{Quest Infobox
-|id            = 
-|image         = Event Quest The Stars Inscribe the Year's Wishes.png
+|id            = 40037
+|image         = <!-- Event Quest The Stars Inscribe the Year's Wishes.png -->
 |type          = Story
 |event_name    = Fleeting Colors in Flight
 |part          = 3
@@ -9,13 +9,11 @@
 |area          = Bishui Plain
 |subarea       = Qingce Village
 |prev          = Sky-Gazers, Land-Walkers
-|mora          = 30,000
-|primogems     = 60
-|other         = {{Card|Hero's Wit|3}}
-|characters    = Baishi <!-- cutscene -->; Baizhu; Beidou; Chongyun; Cloud Retainer <!-- cutscene -->; Ganyu; Granny Ruoxin <!-- cutscene -->; Guoba <!-- cutscene -->; Hu Tao; Huai'an <!-- cutscene -->; Jingcheng; Junming; Keqing; Madame Ping <!-- cutscene -->; Moon Carver <!-- cutscene -->; Mountain Shaper <!-- cutscene -->; Nadia <!-- cutscene -->; Ningguang; Paimon; Pengyi; Qiqi; Shenhe; Smiley Yanxiao <!-- cutscene -->; Traveler; Vlad <!-- cutscene -->; Xiangling; Xiao; Xingqiu; Xingxiu; Xinyan; Xiuyong; Yanfei; Yi Xian <!-- cutscene -->; Yi Zhu <!-- cutscene -->; Yun Jin; Zhongli
+|rewards       = Primogem*60;Hero's Wit*3;Mora*30,000
+|characters    = Baishi <!-- cutscene -->; Baizhu; Beidou; Chongyun; Xianyun <!-- cutscene -->; Ganyu; Granny Ruoxin <!-- cutscene -->; Guoba <!-- cutscene -->; Hu Tao; Huai'an <!-- cutscene -->; Jingcheng; Junming; Keqing; Madame Ping <!-- cutscene -->; Moon Carver <!-- cutscene -->; Mountain Shaper <!-- cutscene -->; Nadia (Liyue)<!-- cutscene -->; Ningguang; Paimon; Pengyi; Qiqi; Shenhe; Smiley Yanxiao <!-- cutscene -->; Traveler; Vlad <!-- cutscene -->; Xiangling; Xiao; Xingqiu; Xingxiu; Xinyan; Xiuyong; Yanfei; Yi Xian <!-- cutscene -->; Yi Zhu <!-- cutscene -->; Yun Jin; Zhongli
 |voiced        = yes
 }}
-'''The Stars Inscribe the Year's Wishes''' is an Event Quest during the [[Fleeting Colors in Flight]] event.
+'''''The Stars Inscribe the Year's Wishes''''' is an [[Event Quest]] during the [[Fleeting Colors in Flight]] event.
 
 ==Steps==
 # Wait until the appointed time (08:00 – 12:00 the next day)
@@ -23,11 +21,8 @@
 # Go to the place that Keqing spoke of
 # Defeat the [[Treasure Hoarders]]
 #* Keqing joins you for this battle
-#* Wave 1:
-#** {{Enemy|Treasure Hoarders: Scout|x=3}}
-#** {{Enemy|Treasure Hoarders: Seaman|x=1}}
-#* Wave 2:
-#** {{Enemy|Treasure Hoarders: Scout|x=3}}
+#* Wave 1:{{Enemy List|Treasure Hoarders: Scout*3;Treasure Hoarders: Seaman}}
+#* Wave 2:{{Enemy List|Treasure Hoarders: Scout*3}}
 # Return to [[Qingce Village]]
 # Follow the voice to its source
 # Head to [[Third-Round Knockout]]
@@ -65,7 +60,7 @@
 
 ==Dialogue==
 {{Quest Description|The unexpected fireworks theft has caused Keqing to be even busier.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Keqing and Xingqiu)
 :{{A|vo eqhdj103 1 xingqiu 01.ogg}} '''Xingqiu:''' Rest assured, all is quiet here in Qingce Village. Chongyun is guarding the outside, and I'm guarding the inside. Not a problem in sight.
 :{{A|vo eqhdj103 1 keqing 01.ogg}} '''Keqing:''' Good. I've made some progress in my investigation as well.
@@ -159,9 +154,7 @@
 :{{A|vo eqhdj103 6 xingqiu 01.ogg}} '''Xingqiu:''' Yes, indeed. Oh? It appears the Traveler has returned.
 :{{A|vo eqhdj103 6 xingqiu 02.ogg}} '''Xingqiu:''' And with two others, no doubt.
 :{{DIcon}} They're the thieves who stole the fireworks.
-
-:'''You tell everyone how the thieves were caught...'''
-
+:{{Black Screen|You tell everyone how the thieves were caught...}}
 :{{A|vo eqhdj103 6 chongyun 01.ogg}} '''Chongyun:''' It's definitely dangerous to infiltrate an enemy area like that. If only I was there to fight alongside you...
 :{{A|vo eqhdj103 6 xingqiu 03.ogg}} '''Xingqiu:''' Come now, we both know the Traveler is most capable. Hehe, but who would've known we performed such a noble deed... We had arrested the Treasure Hoarder earlier by mere happenstance.
 :{{A|vo eqhdj103 6 paimon 01.ogg}} '''Paimon:''' Yeah! Talk about a coincidence!
@@ -183,9 +176,7 @@
 :{{A|vo eqhdj103 6 chongyun 04.ogg}} '''Chongyun:''' If you ask me, I think speaking eloquently is just a guise for assigning work to everybody else.
 :{{A|vo eqhdj103 6 xingqiu 09.ogg}} '''Xingqiu:''' Alright, alright. I shall treat you to a meal after the work is done!
 :{{A|vo eqhdj103 6 xingqiu 10.ogg}} '''Xingqiu:''' Farewell, Traveler.
-
-:'''Chongyun and Xingqiu leave with others from the guild.'''
-
+:{{Black Screen|Chongyun and Xingqiu leave with others from the guild.}}
 :{{A|vo eqhdj103 6 pengyi 03.ogg}} '''Pengyi:''' By the way, do you know when Lady Keqing will be back, Traveler?
 :{{A|vo eqhdj103 6 pengyi 04.ogg}} '''Pengyi:''' There are not many fireworks in the second batch that I brought, so I'm worried that we can't achieve the show's desired effect. I was hoping we could somehow retrieve the stolen fireworks.
 ;(Fireworks shoots into the sky)
@@ -228,20 +219,18 @@
 :{{A|vo eqhdj103 11 keqing 08.ogg}} '''Keqing:''' Leave the rest of this to me, you've already been a great help. Why don't you go for a walk around the city and I'll meet you when I am done?
 :{{A|vo eqhdj103 11 paimon 07.ogg}} '''Paimon:''' Okay... But we'll be waiting for you!
 :{{A|vo eqhdj103 11 keqing 09.ogg}} '''Keqing:''' Yes, I'll be there.
-
-:'''Keqing leaves...'''
-
+:{{Black Screen|Keqing leaves...}}
 :{{A|vo eqhdj103 11 paimon 08.ogg}} '''Paimon:''' *sigh* Keqing really is super busy.
 :{{A|vo eqhdj103 11 paimon 09.ogg}} '''Paimon:''' "I'll meet you when I am done." How many times have we heard that already?
 :{{A|vo eqhdj103 11 paimon 10.ogg}} '''Paimon:''' Now Paimon gets why Lady Ningguang is so worried about Keqing. If she keeps working like this, she really will miss the Lantern Rite.
 :{{DIcon}} Hmm, let's go find Zhongli.
 :{{A|vo eqhdj103 11 paimon 11.ogg}} '''Paimon:''' Oh yeah, we said we would meet him! And we've even collected a few opinions about taking a rest from work.
 :{{A|vo eqhdj103 11 paimon 12.ogg}} '''Paimon:''' Zhongli said he'd wait for us at Third-Round Knockout. Let's go find him!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ----
 {{Quest Description|update|The unexpected fireworks theft has caused Keqing to be even busier. But don't forget, you still need to find a way to convince her to adjust her workload!}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Approach Third-Round Knockout)
 :{{A|vo eqhdj103 12 paimon 01.ogg}} '''Paimon:''' Hey, is that who Paimon thinks it is...
 :{{A|vo eqhdj103 12 yunjin 01.ogg}} '''Yun Jin:''' Yes, you are quite right, I shall take your wise words to heart, sir. They will certainly be most helpful in my next performance.
@@ -262,9 +251,7 @@
 :{{A|vo eqhdj103 12 paimon 05.ogg}} '''Paimon:''' See you around, Yun Jin!
 :{{A|vo eqhdj103 12 zhongli 05.ogg}} '''Zhongli:''' So, tell me, what have you learned from your trip?
 :{{DIcon}} We asked around, and...
-
-:'''You tell Zhongli about everyone's views on work-life balance...'''
-
+:{{Black Screen|You tell Zhongli about everyone's views on work-life balance...}}
 :{{A|vo eqhdj103 12 zhongli 06.ogg}} '''Zhongli:''' Hmm, I see. Well, Traveler, what do you make of all their opinions?
 :{{DIcon}} I think we can weave them into a story.
 :{{A|vo eqhdj103 12 paimon 06.ogg}} '''Paimon:''' Yeah! Paimon already started creating her own story on the way here. The goal is to convince Keqing to rest more with just a simple story, right?
@@ -282,7 +269,7 @@
 :{{A|vo eqhdj103 12 zhongli 07.ogg}} '''Zhongli:''' There's no need to jump to the conclusion. Why don't you elaborate more on the chef?
 :{{A|vo eqhdj103 12 paimon 14.ogg}} '''Paimon:''' More about the chef... You mean both good and bad things?
 :{{A|vo eqhdj103 12 zhongli 08.ogg}} '''Zhongli:''' Yes. To gain one's empathy, there must be familiarity. I would like to understand this chef character of ours a little deeper.
-:{{A|vo eqhdj103 12 paimon 15.ogg}} '''Paimon:''' Hmm, Paimon didn't think this far... Why don't you take it from here, (Traveler)?
+:{{A|vo eqhdj103 12 paimon 15.ogg}} '''Paimon:''' Hmm, Paimon didn't think this far... Why don't you take it from here, {{Traveler}}?
 :{{A|vo eqhdj103 12 zhongli 09.ogg}} '''Zhongli:''' Since you've spoken with others familiar with Keqing, why don't we integrate their thoughts into your story? That will allow it to become all the more convincing.
 :{{A|vo eqhdj103 12 paimon 16.ogg}} '''Paimon:''' Okay! Let Paimon think... What did Cloud Retainer say?
 :{{A|vo eqhdj103 12 paimon 17.ogg}} '''Paimon:''' "As one sows, so do they reap, and the joy of reaping is what one yearns for."
@@ -343,9 +330,7 @@
 :{{A|vo eqhdj103 14 jingcheng 06.ogg}} '''Jingcheng:''' Understood, I'll handle things from here.
 :{{A|vo eqhdj103 14 keqing 08.ogg}} '''Keqing:''' Traveler and Paimon, let's go to the Jade Chamber. The view there is nicer and it's much more private, perfect for talking.
 <!-- Jingcheng's talk cannot be accessed even with force closing the game. {{A|vo dialog eqhdj103 jingcheng 02.ogg}}-->
-
-:'''You go up to the Jade Chamber with Keqing...'''
-
+:{{Black Screen|You go up to the Jade Chamber with Keqing...}}
 :{{A|vo eqhdj103 16 keqing 01.ogg}} '''Keqing:''' Well, here we are.
 :{{A|vo eqhdj103 16 keqing 02.ogg}} '''Keqing:''' What was it you wanted to talk about?
 :{{DIcon}} We have a story to tell you.
@@ -362,7 +347,7 @@
 :{{A|vo eqhdj103 16 keqing 06.ogg}} '''Keqing:''' Oh?
 :{{A|vo eqhdj103 16 paimon 08.ogg}} '''Paimon:''' Shocking, right? Do you have any guess why?
 :{{A|vo eqhdj103 16 keqing 07.ogg}} '''Keqing:''' Hmm. Maybe the chef had fallen ill, or...
-:{{A|vo eqhdj103 16 paimon 09.ogg}} '''Paimon:''' Wrong answer! You tell her, (Traveler)!
+:{{A|vo eqhdj103 16 paimon 09.ogg}} '''Paimon:''' Wrong answer! You tell her, {{Traveler}}!
 :{{DIcon}} Because he was too stubborn.
 :{{A|vo eqhdj103 16 paimon 10.ogg}} '''Paimon:''' Ding ding ding! Yep, it's because the chef was too stubborn!
 :{{A|vo eqhdj103 16 paimon 11.ogg}} '''Paimon:''' He would keep himself busy every day, and try to make the most delicious dishes for all his guests. But, he forgot that he's only human and needs time to eat and rest.
@@ -465,12 +450,12 @@
 ::'''Keqing:''' Happy Lantern Rite
 ::'''(Everyone):''' Happy Lantern Rite!
 ;(Cutscene ends)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Post-Quest Dialogue==
 After completing this quest Chongyun, Keqing, Xingqiu, Yun Jin and Zhongli can be found in the open world.
 ===Chongyun and Xingqiu===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Xingqiu at Qingce Village, nearby [[Dongdong]])
 :{{A|vo eqhdj talk 10 chongyun 01.ogg}} '''Chongyun:''' Hmm... With everything that's happened on the way here, I feel like we're forgetting something...
 :{{A|vo eqhdj talk 10 xingqiu 01.ogg}} '''Xingqiu:''' Chongyun, just look at the stunning scenery of the Qingce Village. If I could sum it up in one word... Would you say "exquisite" does it justice? I think that&mdash;
@@ -480,14 +465,14 @@ After completing this quest Chongyun, Keqing, Xingqiu, Yun Jin and Zhongli can b
 :{{A|vo eqhdj talk 10 chongyun 04.ogg}} '''Chongyun:''' Hmm... You do have a point. Alright then. I'll take you at your word, again.
 :{{A|vo eqhdj talk 10 xingqiu 03.ogg}} '''Xingqiu:''' Excellent. Now then, what was I talking about? Huh, now I've lost my train of thought. Help me, Chongyun, what was I saying?
 :{{A|vo eqhdj talk 10 chongyun 05.ogg}} '''Chongyun:''' Uh... I've forgotten too.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Chongyun and Xingqiu.png|Chongyun and Xingqiu's Location
 NPC 2.4 Event Location Chongyun and Xingqiu Context.png|Additional Context
 </gallery>
 
 ===Keqing===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Keqing at the Jade Chamber)
 :{{A|vo eqhdj talk 3 keqing 01.ogg}} '''Keqing:''' What did you think of this year's fireworks display?
 :{{A|vo eqhdj talk 3 keqing 02.ogg}} '''Keqing:''' I just hope this festival can be everything that people want it to be.
@@ -496,16 +481,16 @@ NPC 2.4 Event Location Chongyun and Xingqiu Context.png|Additional Context
 :{{A|vo eqhdj talk 3 keqing 03.ogg}} '''Keqing:''' Really? I hope you're not just saying that to reassure me. I want you to be straight with me if you have any suggestions.
 :{{A|vo eqhdj talk 3 keqing 04.ogg}} '''Keqing:''' Anyway... If you have any time during the festival, take a look around the city. There's a lot to see, but it won't last. So make the most of it.
 :{{A|vo eqhdj talk 3 keqing 05.ogg}} '''Keqing:''' If only I had a little more free time... I'd love to take you around and show you everything we did to make the city look special during the festival.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Keqing.png|Keqing's Location
 NPC 2.4 Event Location Keqing Context.png|Additional Context
 </gallery>
 
 ===Yun Jin===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Yun Jin at Qingce Village, nearby [[Granny Ruoxin]])
-:{{A|vo eqhdj talk 12 yunjin 01.ogg}} '''Yun Jin:''' Oh, (Traveler)! I didn't expect to run into you in Qingce Village, of all places.
+:{{A|vo eqhdj talk 12 yunjin 01.ogg}} '''Yun Jin:''' Oh, {{Traveler}}! I didn't expect to run into you in Qingce Village, of all places.
 :{{DIcon}} I was a little worried when I couldn't find you in the city...
 :{{DIcon}} How have you been lately?
 :{{A|vo eqhdj talk 12 yunjin 02.ogg}} '''Yun Jin:''' Thanks for your concern. I'm touched.
@@ -515,7 +500,7 @@ NPC 2.4 Event Location Keqing Context.png|Additional Context
 :{{A|vo eqhdj talk 12 yunjin 05.ogg}} '''Yun Jin:''' In show business, while you're onstage, you constantly have to be in control of everything you're doing to manage your image. So when you're offstage, it's a relief to finally loosen up a litte.
 :{{A|vo eqhdj talk 12 yunjin 06.ogg}} '''Yun Jin:''' I have some excellent tea here. Would you care to stay for some refreshments before you depart?
 :{{A|vo eqhdj talk 12 yunjin 07.ogg}} '''Yun Jin:''' Watching the Xiao Lanterns from the village is quite a unique experience in its own right. If you'd like, I can tell you all about it.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Yun Jin.png|Yun Jin's Location
 NPC 2.4 Event Location Yun Jin Context.png|Additional Context
@@ -523,7 +508,7 @@ NPC 2.4 Event Location Yun Jin Context.png|Additional Context
 
 ===Zhongli===
 After interacting with Zhongli, he will move to the next location on daily reset.
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Day 1 - Talk to Zhongli at [[Third-Round Knockout]])
 :{{A|vo eqhdj talk 13 zhongli 01.ogg}} '''Zhongli:''' We meet again, Traveler.
 :{{A|vo eqhdj talk 13 zhongli 02.ogg}} '''Zhongli:''' What a rare opportunity to meet with you here in Liyue during this finest of festivals, as busy as you are on your travels.
@@ -546,12 +531,12 @@ After interacting with Zhongli, he will move to the next location on daily reset
 :{{A|vo eqhdj talk 13 zhongli 16.ogg}} '''Zhongli:''' Although, now that you mention... Yes, I should make the most of this festive period by venturing to parts of Liyue that lie beyond the harbor.
 :{{A|vo eqhdj talk 13 zhongli 17.ogg}} '''Zhongli:''' I began with tea at Third-Round Knockout today... perhaps tomorrow I shall try somewhere else in the near vicinity.
 :{{A|vo eqhdj talk 13 zhongli 18.ogg}} '''Zhongli:''' It is quite a joy to be idle and explore this bustling city at my leisure.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Zhongli 1.png|Zhongli's Day 1 Location
 NPC 2.4 Event Location Zhongli 1 Context.png|Additional Context
 </gallery>
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Day 2 - Talk to Zhongli on the street in front of [[Hanfeng's Ironmongers]])
 :{{A|vo eqhdj talk 14 zhongli 01.ogg}} '''Zhongli:''' Oh? You're here.
 :{{A|vo eqhdj talk 14 zhongli 02.ogg}} '''Zhongli:''' I do apologize, another matter was occupying my mind just now.
@@ -575,12 +560,12 @@ NPC 2.4 Event Location Zhongli 1 Context.png|Additional Context
 :{{DIcon}} It seems I still have a lot to learn.
 :{{A|vo eqhdj talk 14 zhongli 16.ogg}} '''Zhongli:''' Much that you might want to know can be found in books.
 :{{A|vo eqhdj talk 14 zhongli 17.ogg}} '''Zhongli:''' Even books change over the generations, causing discrepancies between their contents and the historical facts. But books can function as a mirror for humanity. Reading is the noblest of pastimes &mdash; there is always some benefit to be derived.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Zhongli 2.png|Zhongli's Day 2 Location
 NPC 2.4 Event Location Zhongli 2 Context.png|Additional Context
 </gallery>
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Day 3 - Talk to Zhongli at [[Wanwen Bookhouse]])
 :{{A|vo eqhdj talk 15 zhongli 01.ogg}} '''Zhongli:''' Ah, I wondered if I might run into you again. This makes the third day in a row... perhaps it is fate rather than coincidence.
 :{{DIcon}} Are you doing some reading?
@@ -607,12 +592,12 @@ NPC 2.4 Event Location Zhongli 2 Context.png|Additional Context
 :{{A|vo eqhdj talk 15 zhongli 18.ogg}} '''Zhongli:''' Yes... These days, he often appears at [[Dihua Marsh]].
 :{{A|vo eqhdj talk 15 zhongli 19.ogg}} '''Zhongli:''' He is given to solitude. But I suspect that he would not turn away a reliable companion such as yourself.
 :{{A|vo eqhdj talk 15 zhongli 20.ogg}} '''Zhongli:''' Should you happen to see him, please pass on my season's greetings.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Zhongli 3.png|Zhongli's Day 3 Location
 NPC 2.4 Event Location Zhongli 3 Context.png|Additional Context
 </gallery>
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Day 4 - Talk to Zhongli at the viewing deck of [[Wangshu Inn]])
 :{{A|vo eqhdj talk 16 zhongli 01.ogg}} '''Zhongli:''' "Where the clear blue water runs into the sky, and an ocean of silvergrass stretches out before the eye." That was written about Dihua Marsh.
 :{{DIcon}} Are you enjoying the view?
@@ -634,12 +619,12 @@ NPC 2.4 Event Location Zhongli 3 Context.png|Additional Context
 :{{A|vo eqhdj talk 16 zhongli 15.ogg}} '''Zhongli:''' Hmm... Being up so high reminds me of another lofty location.
 :{{A|vo eqhdj talk 16 zhongli 16.ogg}} '''Zhongli:''' Yes... one that the adepti once took control of, long ago. It then fell into disuse. Whether anyone tends to it these days, I do not know...
 :{{A|vo eqhdj talk 16 zhongli 17.ogg}} '''Zhongli:''' Alright then. That is where I shall go tomorrow.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Zhongli 4.png|Zhongli's Day 4 Location
 NPC 2.4 Event Location Zhongli 4 Context.png|Additional Context
 </gallery>
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Day 5 - Talk to Zhongli at [[Three Cranes Puzzle|Dwelling in the Clouds]], above the teleport waypoint at Qingyun Peak)
 :{{A|vo eqhdj talk 17 zhongli 01.ogg}} '''Zhongli:''' Here above the clouds, where the moon sets and the sun rises before your eyes, one's sense of time becomes indistinct.
 :{{DIcon}} This is Cloud Retainer's place, right?
@@ -657,12 +642,12 @@ NPC 2.4 Event Location Zhongli 4 Context.png|Additional Context
 :{{A|vo eqhdj talk 17 zhongli 10.ogg}} '''Zhongli:''' Ahh... I believe I have gazed at the mountains long enough. Time for a change of scenery.
 :{{A|vo eqhdj talk 17 zhongli 11.ogg}} '''Zhongli:''' Tomorrow... yes, perhaps I will head further north.
 :{{A|vo eqhdj talk 17 zhongli 12.ogg}} '''Zhongli:''' Qingce Village is one of the more populated places outside of the harbor. I think I shall go there.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Zhongli 5.png|Zhongli's Day 5 Location
 NPC 2.4 Event Location Zhongli 5 Context.png|Additional Context
 </gallery>
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Day 6 - Talk to Zhongli beside the teleport waypoint West of Qingce Village)
 :{{A|vo eqhdj talk 18 zhongli 01.ogg}} '''Zhongli:''' Compared to the constant hubbub of Liyue Harbor, it is far more serene here.
 :{{DIcon}} Yep, it's so quiet here.
@@ -681,12 +666,12 @@ NPC 2.4 Event Location Zhongli 5 Context.png|Additional Context
 :{{A|vo eqhdj talk 18 zhongli 12.ogg}} '''Zhongli:''' Qingce's verdant hills and stunning waters paired with the tranquil atmosphere here make it a place of extraordinary beauty. A rare blessing indeed.
 :{{A|vo eqhdj talk 18 zhongli 13.ogg}} '''Zhongli:''' Oh, one of the villagers generously gifted me with some fresh [[Bamboo Shoot]]s. They will add some seasonal flavor to a meal on my return to Liyue Harbor.
 :{{A|vo eqhdj talk 18 zhongli 14.ogg}} '''Zhongli:''' Seasonal bamboo shoots are yet another rare blessing offered by Qingce Village.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Zhongli 6.png|Zhongli's Day 6 Location
 NPC 2.4 Event Location Zhongli 6 Context.png|Additional Context
 </gallery>
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Day 7 - Talk to Zhongli at the walkway above [[Liuli Pavilion]])
 :{{A|vo eqhdj talk 19 zhongli 01.ogg}} '''Zhongli:''' This year's Xiao Lanterns and fireworks seem more exquisite than ever.
 :{{DIcon}} Ah, you're back in the city.
@@ -698,7 +683,7 @@ NPC 2.4 Event Location Zhongli 6 Context.png|Additional Context
 :{{A|vo eqhdj talk 19 zhongli 06.ogg}} '''Zhongli:''' Even a glimpse of Liyue's scenery on their homeward journey can serve to comfort their spirits.
 :{{A|vo eqhdj talk 19 zhongli 07.ogg}} '''Zhongli:''' Traveler, this view belongs to you as much as to anyone else. Though your journey ahead may be long and much awaits for you to accomplish, I hope that each time you return to Liyue, sights such as these will put your mind at ease.
 :{{A|vo eqhdj talk 19 zhongli 08.ogg}} '''Zhongli:''' A safe haven between the mountains, a warm glow that guides you out from a dense forest. Like the stars in the sky, may the lights of this city always shine for you, Traveler, even from beyond the clouds.
-{{Dialogue end}}
+{{Dialogue End}}
 <gallery>
 NPC 2.4 Event Location Zhongli 7.png|Zhongli's Day 7 Location
 NPC 2.4 Event Location Zhongli 7 Context.png|Additional Context
@@ -718,6 +703,9 @@ These characters were already available in the open world after having completed
 <gallery>
 File:Fleeting Colors in Flight Event Cutscene Animation- "Age of Flowing Hues" - Genshin Impact
 </gallery>
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -755,5 +743,6 @@ File:Fleeting Colors in Flight Event Cutscene Animation- "Age of Flowing Hues" -
 ==Change History==
 {{Change History|2.4}}
 
+[[ja:彩を集めし流星、人生の春に刻むべし]]
 [[pt-br:Desejos do Novo Ano nas Estrelas]]
 [[ru:Желания, запечатлённые в звёздах]]

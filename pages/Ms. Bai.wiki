@@ -3,14 +3,15 @@
 |missing_NPC_profile  = yes
 }}
 {{Character Infobox
-|type             = NPC
+|type             = Open-World NPC
 |image            = NPC Ms. Bai.png
 |region           = Liyue
+|location         = Liyue
 |affiliation      = Qingce Village
 |title            = Miller
 |dialoguereward   = {{card|Tofu|8}}
 }}
-'''Ms. Bai''' (<u>Chinese</u>: 小白 ''Xiǎo Bái'') is an [[NPC]] located in [[Qingce Village]]. She sells [[Cooking Ingredient]]s, [[Recipe|Food Recipes]] and [[Local Specialty|Local Specialties]] in exchange for [[Mora]]. Her shop restocks every 3 days.
+{{Lang|'''Ms. Bai'''|zh=小白|zh_rm=Xiǎo Bái}} is an open-world [[NPC]] located in [[Qingce Village]]. She sells [[Cooking Ingredient]]s, [[Recipe|Food Recipes]] and [[Local Specialty|Local Specialties]] in exchange for [[Mora]]. Her shop restocks every 3 days.
 
 Following a certain dialogue branch for the first time gives the player {{Item|Tofu|20|x=8}}.
 
@@ -25,7 +26,7 @@ Following a certain dialogue branch for the first time gives the player {{Item|T
 {{Shop/Footer|note=&#32;|total=170,000}}
 
 ===Recipes===
-{{Shop/Header|note=Required<br />[[Adventure Rank]]|total=1|vendor=Ms. Bai}}
+{{Shop/Header|note=Required<br>[[Adventure Rank]]|total=1|vendor=Ms. Bai}}
 {{Shop|Recipe|2,500|1|note=1|specific=Recipe: Noodles with Mountain Delicacies|total=1}}
 {{Shop|Recipe|5,000|1|note=1|specific=Recipe: Qingce Stir Fry|total=1}}
 {{Shop|Recipe|5,000|1|note=1|specific=Recipe: Jueyun Guoba|total=1}}
@@ -41,9 +42,6 @@ NPC Location Ms. Bai Context.png|Additional context
 <!-- detailed story/lore information goes here -->
 ''(To be added.)''
 
-===Personality===
-''(To be added.)''
-
 ===Appearance===
 ''(To be added.)''
 
@@ -51,17 +49,23 @@ NPC Location Ms. Bai Context.png|Additional context
 {{Quests and Events}}
 
 ==Idle Quotes==
-{{Dialogue start}}
-: {{DIcon|Idle}} ♪~
-:: {{A|VO Ms. Bai 01.ogg}} "I love how fresh the air is here."
-{{Dialogue end}}
+{{Dialogue Start}}
+:{{DIcon|Idle}} ♪~
+::{{A|VO Ms. Bai 01.ogg}} "I love how fresh the air is here."
+{{Dialogue End}}
 
 ==Dialogue==
-{{Dialogue start}}
+{{Dialogue Start}}
 :'''Ms. Bai:''' Hello, how do you do? We don't often see young people like you.
 :{{DIcon|Shop}} What do you sell here?
 ::'''Ms. Bai:''' Would you like some tofu? I can guarantee that ours will surely satisfy you!
 :;(Opens [[#Shop|Shop]] menu)
+:{{DIcon|TCG}} Adventure Challenge
+:;(Opens [[Genius Invokation TCG/Stage/Ms. Bai/Bounties of the Bodyguard|Genius Invokation TCG match interface]])
+:;(If the player loses the match)
+:::'''Ms. Bai:''' How's my deck? Not bad, huh? My experience managing the mill came in handy while putting it together.
+:;(If the player wins the match)
+:::'''Ms. Bai:''' I've never seen anyone play this way! Is everyone in the city as good as you are?
 :{{DIcon}} Hello.
 ::'''Ms. Bai:''' Just call me Ms. Bai. This is my mill... Or more accurately, this is the mill that I oversee.
 ::'''Ms. Bai:''' Not bad at all, wouldn't you say?
@@ -72,13 +76,13 @@ NPC Location Ms. Bai Context.png|Additional context
 :::'''Ms. Bai:''' Thanks, it's always nice to get positive feedback. This is more than just a mill&mdash; the tofu we make here is the best in all of Liyue!
 :::'''Ms. Bai:''' I know that sounds like bragging, but it's the truth. Many restaurants in Liyue Harbor order from us, and so does the Wangshu Inn!
 :::'''Ms. Bai:''' Of course, I could talk all day but nothing beats trying it for yourself. Here, have some on the house. If you like it, maybe you can consider buying some more in the future.
-::;(Obtain [[Tofu]] ×8)
+::;(Obtain {{Item|Tofu|20|x=8}})
 :{{DIcon}} Young people, you say?
 ::'''Ms. Bai:''' Yes. Most of the young folks have gone out to seek work, and they don't return. We don't get many young foreign visitors either.
 ::'''Ms. Bai:''' Such is the allure of city life, I suppose.
 :{{DIcon}} See you.
 ::'''Ms. Bai:''' Goodbye, and stay safe!
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Gallery==
 <gallery>
@@ -88,25 +92,25 @@ Fleeting Colors in Flight Event Cutscene Animation- "Age of Flowing Hues" - Gens
 ==Other Languages==
 {{Other Languages
 |default_hidden = 1
-|en      = Ms. Bai
-|zhs     = 小白
-|zhs_rm  = Xiǎo Bái
-|zht     = 小白
-|zht_rm  = Xiǎo Bái
-|ja      = 小白
-|ja_rm   = Shouhaku{{Assumed}}
-|ko      = 소백
-|ko_rm   = Sobaek
-|es      = Srta. Bai
-|fr      = Xiaobai
-|ru      = Мисс Бай
-|th      = Bai
-|vi      = Bé Bai
-|de      = Fräulein Bai
-|id      = Nona Bai
-|pt      = Xiaobai
-|tr      = Bayan Bai
-|it      = Signorina Bai
+|en       = Ms. Bai
+|zhs      = 小白
+|zhs_rm   = Xiǎo Bái
+|zht      = 小白
+|zht_rm   = Xiǎo Bái
+|ja       = 小白
+|ja_rm    = Shou Haku{{Assumed}}
+|ko       = 소백
+|ko_rm    = So Baek
+|es       = Srta. Bai
+|fr       = Xiaobai
+|ru       = Мисс Бай
+|th       = Bai
+|vi       = {{tt|Xiaobai|小白}}
+|de       = Fräulein Bai
+|id       = Nona Bai
+|pt       = Xiaobai
+|tr       = Bayan Bai
+|it       = Signorina Bai
 }}
 
 ==Change History==
@@ -114,4 +118,5 @@ Fleeting Colors in Flight Event Cutscene Animation- "Age of Flowing Hues" - Gens
 
 [[es:Srta. Bai]]
 [[ja:小白]]
+[[pt-br:Xiaobai]]
 [[th:Bai]]

@@ -1,0 +1,310 @@
+{{Enemy Infobox
+|title    = 
+|image    = Enemy Frost Operative.png
+|type     = Elite Enemies
+|family   = Fatui
+|group    = Fatui Operatives
+|voiceEN  = [[imdb:nm6212511|Daisy Guevara]]<ref>Twitter: [https://twitter.com/daisyguevaravo/status/1707100664113791263 EN VA Self Announcement] ([https://web.archive.org/web/20230927183932/https://twitter.com/daisyguevaravo/status/1707100664113791263 Archived])</ref>
+|dmgtype  = Cryo
+|ability1 = Life Bond
+|ability2 = Corrosion
+|ability3 = Teleport
+|weakpoint = yes
+}}
+{{Enemy Intro}}
+
+One [[Local Legend]] '''Frost Operative''', called '''Yseut''', can be found west of the [[Statue of the Seven]] in the [[Liffey Region]].
+
+==Drops==
+===Items===
+{{Drops Table|type=Fatui Operatives}}
+
+===Energy===
+{{Energy Drops
+|type  = Cryo
+|hp1   = 75
+|p1    = 1
+|hp2   = 50
+|p2    = 1
+|hp3   = 25
+|p3    = 1
+|hp4   = 0
+|p4    = 2
+}}
+
+==Stats==
+<div style="display:flex; column-gap: 15px; flex-direction: row; flex-wrap: wrap;"><div style="width:min-content;">
+===Normal===
+{{Enemy Stats
+|phys_res     = -20%
+|cryo_res     = 50%
+
+|hp_ratio     = 8
+|hp_type      = 2
+|atk_ratio    = 4.8
+|atk_type     = 2
+}}
+</div><!--
+--><div style="width:min-content;">
+===Local Legend===
+{{Enemy Stats
+|phys_res     = -20%
+|cryo_res     = 50%
+
+|hp_ratio     = 66
+|hp_type      = 2
+|atk_ratio    = 9
+|atk_type     = 2
+}}
+</div><!--
+--><div style="width:min-content;">
+===Veteran===
+{{Enemy Stats
+|phys_res     = -20%
+|cryo_res    = 50%
+
+|hp_ratio     = 13.2
+|hp_type      = 2
+|atk_ratio    = 2.7
+|atk_type     = 2
+}}
+</div></div>
+
+==Abilities==
+{{Enemy Attacks
+|name_1      = Swift Point
+|desc_1      = Teleports near the player and thrusts forward, dealing '''70% ATK''' as {{Color|Cryo DMG}}.
+* '''Veteran/Local Legend''': This attack is either used 3 times in quick succession, or followed immediately by a '''Spinslash''' and the backflip slash of '''Frosty Interjection'''.
+|file_1      = Frost Operative Blinkchase
+
+|name_2      = Spinslash
+|desc_2      = Dashes backwards, then performs a spinning slash while moving forward, dealing '''80% ATK × 3''' as {{Color|Cryo DMG}}. Repeated hits have their DMG reduced according to the [[Damage Sequence]].
+* This attack may be used to retaliate against continuous attacks.
+* '''Veteran/Local Legend''': This attack is followed immediately by a '''Swift Point'''.
+
+|name_3      = Frosty Interjection
+|desc_3      = Performs a cross slash, fires an ice blast, and performs a blackflip slash, dealing '''50% ATK''', '''50% ATK''', '''50% ATK''', '''70% ATK''' as {{Color|Cryo DMG}}.
+* '''Veteran/Local Legend''': This attack can be followed immediately by '''Spinslash''' and/or up to 2 instances of '''Swift Point'''.
+|file_3      = Frost Operative Swiftblade
+
+|name_4      = Hunt Down
+|desc_4      = Sacrifices 5% of her Max [[HP]] (or 25% of current HP if HP percentage is under 20%) to initiate Hunt Down: Locks onto the player, teleports next to the player, and performs a swift retreating slash, dealing '''40% ATK''' as {{Color|Cryo DMG}}. If the first hit connects, then subsequently fires an ice beam and dashes at the player, dealing '''50% ATK''', '''100% ATK''' as {{Color|Cryo DMG}}.
+* If the player is hit by this attack, they will receive a [[Life Bond]] equal to '''16%''' of the Operative's ATK.
+** As long as this Life Bond is active, they will also be affected by a [[Corrosion]] status which drains '''0.4% Max HP + 72''' every second.
+*** If the affected character is off-field, they cannot be brought below '''5% Max HP''' by this Corrosion. However, on-field characters can die to it.
+** If the Hunt Down attack hits a character affected by this Life Bond, it will deal '''250%''' of its original DMG.
+** This Life Bond is stackable.
+** This Life Bond lasts for 10 minutes if not cleared.
+* '''Veteran/Local Legend''': The full combo will always be completed regardless of whether the first hit lands.
+}}
+
+==Achievements==
+{{Achievement Topic Table|topic=Frost Operative}}
+
+==Voice-Overs==
+{{VO/Enemy
+|enemy                   = Frost Operative
+|vo_01_00_title          = Entering Battle
+|vo_01_01_file           = VO {lang}{name} - Please Appreciate My Sincerity.ogg
+|vo_01_01_tx_en          = Please appreciate my sincerity!
+|vo_01_01_tx_zh          = 希望你能感到我的诚意！
+|vo_01_01_rm_zh          = Xīwàng nǐ néng gǎndào wǒ de chéngyì!
+|vo_01_01_tx_ja          = どうか私の誠意を感じてくれ。
+|vo_01_01_rm_ja          = Dou ka watashi no seii wo kanjite kure.
+|vo_01_01_tx_ko          = 제 정성을 느끼시면 좋겠군요
+|vo_01_01_rm_ko          = Je jeongseong'eul neukkisimyeon joketgun'yo
+|vo_01_02_file           = VO {lang}{name} - I've Been Waiting.ogg
+|vo_01_02_tx_en          = I've been waiting.
+|vo_01_02_tx_zh          = 恭候多时了。
+|vo_01_02_rm_zh          = Gōnghòu duōshí le.
+|vo_01_02_tx_ja          = 待っていた。
+|vo_01_02_rm_ja          = Matte ita.
+|vo_01_02_tx_ko          = 기다리고 있었습니다
+|vo_01_02_rm_ko          = Gidarago isseotseumnida
+
+|vo_02_00_title          = Swift Point
+|vo_02_01_file           = VO {lang}{name} - The Banquet Must Go On.ogg
+|vo_02_01_tx_en          = The banquet must go on!
+|vo_02_01_tx_zh          = 宴会还没结束！
+|vo_02_01_rm_zh          = Yànhuì háiméi jiéshù!
+|vo_02_01_tx_ja          = 宴はまだ終わっていない！
+|vo_02_01_rm_ja          = Utage wa mada owatte inai!
+|vo_02_01_tx_ko          = 연회는 끝나지 않았습니다
+|vo_02_01_rm_ko          = Yeonhoe-neun kkeunnaji anatseumnida
+|vo_02_02_file           = VO {lang}{name} - Please Remain Seated.ogg
+|vo_02_02_tx_en          = Please remain seated!
+|vo_02_02_tx_zh          = 请勿提前离席！
+|vo_02_02_rm_zh          = Qǐng wù tíqián líxí!
+|vo_02_02_tx_ja          = 事前の退席はやめていただこう。
+|vo_02_02_rm_ja          = Jizen no taiseki wa yamete itadakou.
+|vo_02_02_tx_ko          = 자리를 지켜주시죠
+|vo_02_02_rm_ko          = Jarireul jikyeojusijyo
+
+|vo_03_00_title          = Spinslash
+|vo_03_01_file           = VO {lang}{name} - Apologies.ogg
+|vo_03_01_tx_en          = Apologies!
+|vo_03_01_tx_zh          = 抱歉。
+|vo_03_01_rm_zh          = Bàoqiàn.
+|vo_03_01_tx_ja          = すまない。
+|vo_03_01_rm_ja          = Sumanai.
+|vo_03_01_tx_ko          = 죄송합니다
+|vo_03_01_rm_ko          = Joesonghamnida
+|vo_03_02_file           = VO {lang}{name} - Look Out.ogg
+|vo_03_02_tx_en          = Look out!
+|vo_03_02_tx_zh          = 留意身前。
+|vo_03_02_rm_zh          = Liúyì shēn-qián.
+|vo_03_02_tx_ja          = 前方に注意しろ。
+|vo_03_02_rm_ja          = Zenpou ni chuui shiro.
+|vo_03_02_tx_ko          = 앞을 조심하시죠
+|vo_03_02_rm_ko          = Ap-eul josimhasijyo
+
+|vo_04_00_title          = Frosty Interjection 1st Hit
+|vo_04_01_file           = VO {lang}{name} - Pardon Me.ogg
+|vo_04_01_tx_en          = Pardon me!
+|vo_04_01_tx_zh          = 打搅了！
+|vo_04_01_rm_zh          = Dǎjiǎole!
+|vo_04_01_tx_ja          = 邪魔するぞ。
+|vo_04_01_rm_ja          = Jama suru zo.
+|vo_04_01_tx_ko          = 실례합니다
+|vo_04_01_rm_ko          = Sillyehamnida
+|vo_04_02_file           = VO {lang}{name} - Swiftblade 01.ogg
+|vo_04_02_tx_en          = ''(Grunt)''
+|vo_04_02_tx_zh          = ''(Grunt)''
+|vo_04_02_tx_ja          = ''(Grunt)''
+|vo_04_02_tx_ko          = ''(Grunt)''
+
+|vo_05_00_title          = Frosty Interjection 2nd Hit
+|vo_05_01_file           = VO {lang}{name} - Forgive My Discourtesy.ogg
+|vo_05_01_tx_en          = Forgive my discourtesy!
+|vo_05_01_tx_zh          = 失礼。
+|vo_05_01_rm_zh          = Shīlǐ.
+|vo_05_01_tx_ja          = 失礼。
+|vo_05_01_rm_ja          = Shitsurei.
+|vo_05_01_tx_ko          = 실례
+|vo_05_01_rm_ko          = Sillye
+|vo_05_02_file           = VO {lang}{name} - Swiftblade 02.ogg
+|vo_05_02_tx_en          = ''(Grunt)''
+|vo_05_02_tx_zh          = ''(Grunt)''
+|vo_05_02_tx_ja          = ''(Grunt)''
+|vo_05_02_tx_ko          = ''(Grunt)''
+
+|vo_06_00_title          = Hunt Down Initiation (Version 1)
+|vo_06_01_file           = VO {lang}{name} - The Banquet Is Nearing Its End.ogg
+|vo_06_01_tx_en          = The banquet is nearing its end!
+|vo_06_01_tx_zh          = 宴会到尾声了！
+|vo_06_01_rm_zh          = Yànhuì dào wěishēng le!
+|vo_06_01_tx_ja          = 宴もいよいよ幕引きだ。
+|vo_06_01_rm_ja          = Utage mo iyoiyo makuhiki da.
+|vo_06_01_tx_ko          = 연회가 곧 끝납니다
+|vo_06_01_rm_ko          = Yeonhoe-ga got kkeunnamnida
+
+|vo_07_00_title          = Hunt Down Follow-Up (Version 1)
+|vo_07_01_file           = VO {lang}{name} - Joyous Times Are Fleeting.ogg
+|vo_07_01_tx_en          = Joyous times are fleeting!
+|vo_07_01_tx_zh          = 愉快的时光总是短暂的！
+|vo_07_01_rm_zh          = Yúkuài de shíguāng zǒngshì duǎnzàn de!
+|vo_07_01_tx_ja          = 楽しい時間はいつも短い！
+|vo_07_01_rm_ja          = Tanoshii jikan wa itsumo mijikai!
+|vo_07_01_tx_ko          = 즐거운 시간은 늘 짧은 법이죠
+|vo_07_01_rm_ko          = Jeulgeoun siganeun neul jjalbeun beobijyo
+
+|vo_08_00_title          = Hunt Down Initiation (Version 2)
+|vo_08_01_file           = VO {lang}{name} - Please Hold For Just A Moment.ogg
+|vo_08_01_tx_en          = Please hold for just a moment!
+|vo_08_01_tx_zh          = 请静候一会儿。
+|vo_08_01_rm_zh          = Qǐng jìnghòu yīhuǐr.
+|vo_08_01_tx_ja          = しばし待て。
+|vo_08_01_rm_ja          = Shibashi mate.
+|vo_08_01_tx_ko          = 잠시 조용히 계시길
+|vo_08_01_rm_ko          = Jamsi joyonghi gyesigil
+
+|vo_09_00_title          = Hunt Down Follow-Up (Version 2)
+|vo_09_01_file           = VO {lang}{name} - Forgive My Prior Inconsideration.ogg
+|vo_09_01_tx_en          = Forgive my prior inconsideration!
+|vo_09_01_tx_zh          = 恕我之前招待不周！
+|vo_09_01_rm_zh          = Shù wǒ zhīqián zhāodài bùzhōu!
+|vo_09_01_tx_ja          = もてなしが足りず申し訳ない！
+|vo_09_01_rm_ja          = Motenashi ga tarizu moushiwake nai!
+|vo_09_01_tx_ko          = 대접이 소홀했군요
+|vo_09_01_rm_ko          = Daejeobi soholhaetgun'yo
+
+|vo_10_00_title          = Defeated
+|vo_10_01_file           = VO {lang}{name} - In The End I Still.ogg
+|vo_10_01_tx_en          = In the end... I still...
+|vo_10_01_tx_zh          = 最后…还是…
+|vo_10_01_rm_zh          = Zuìhòu... háishì...
+|vo_10_01_tx_ja          = 最後は…やはり…
+|vo_10_01_rm_ja          = Saigo wa... yahari...
+|vo_10_01_tx_ko          = 결국은… 역시…
+|vo_10_01_rm_ko          = Gyeolgugeun... Yeoksi...
+|vo_10_02_file           = VO {lang}{name} - I Have Brought Disgrace.ogg
+|vo_10_02_tx_en          = I have... brought... disgrace...
+|vo_10_02_tx_zh          = 我…辱没了…
+|vo_10_02_rm_zh          = Wǒ... rǔmòle...
+|vo_10_02_tx_ja          = 怪我して…しまった…
+|vo_10_02_rm_ja          = Kega shite... shimatta...
+|vo_10_02_tx_ko          = 치욕… 스럽군요…
+|vo_10_02_rm_ko          = Chiyok... seureopgun'yo...
+}}
+
+==Tutorial==
+{{Tutorial|Frost Operative}}
+
+==Descriptions==
+{{Description|An elite agent among the Fatui.<br>Selected while still children, they can only become an "Operative" after many long years of training and teaching, after countless rounds have winnowed the field. They are the most outstanding soldiers among the Fatui, with extraordinary skill and unswerving loyalty.|[[Archive]]}}
+
+==Trivia==
+*The Frost Operative's Defeated voicelines will always cut off right at the very end, preventing the entire line from being heard.
+
+==Gallery==
+<gallery>
+Frost Operative Icon.png|Icon
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en      = Frost Operative
+|zhs     = 愚人众・霜役人
+|zhs_rm  = Yúrén-zhòng &ndash; Shuāng Yìrén
+|zht     = 愚人眾・霜役人
+|zht_rm  = Yúrén-zhòng &ndash; Shuāng Yìrén
+|zh_tl   = {{Lex|Fatui|zh}} &ndash; Frost Servant
+|ja      = ファデュイ・氷霜の従者
+|ja_rm   = Fadyui &ndash; Hyousou no Juusha
+|ja_tl   = Fatui &ndash; Servant of Frost
+|ko      = 우인단・서리 심부름꾼
+|ko_tl   = Fatui - Frost Messenger
+|es      = Soldado Fatui: Senescal Cryo
+|es_tl   = Fatui Soldier: Cryo {{wt|seneschal|Seneschal}}
+|fr      = Opérateur Fatui du givre
+|fr_tl   = Frost Fatui Operator
+|ru      = Оперативник мороза
+|ru_tl   = Frost Operative
+|th      = Fatui &ndash; Frost Operative
+|vi      = Fatui &ndash; Đặc Vụ Băng
+|vi_tl   = 
+|de      = Fatui &ndash; Frostdienerin
+|de_tl   = Fatui  &ndash; Frost Servant
+|de_note = Notable the female form of Servant is used.
+|id      = Frost Operative
+|pt      = Fatui Oficial do Gelo
+|pt_tl   = 
+|tr      = Buz Ajanı
+|tr_tl   = Frost Agent
+|it      = Operativo del Gelo
+|it_tl   = Frost Operative
+}}
+
+==Change History==
+{{Change History|4.1}}
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Enemy Navbox|Elite}}
+{{Enemy Navbox|Special}}
+
+[[es:Soldado Fatui - Senescal Cryo]]
+[[fr:Opérateur Fatui du givre]]
+[[ja:ファデュイ・氷霜の従者]]

@@ -6,11 +6,13 @@ Enemy Dendro Hypostasis.png|Archive
 Enemy Dendro Hypostasis Full Artwork.png|Full Art
 </gallery>
 |weakpoint = no
-|location = [[Land of Lower Setekh]], [[Sumeru]]
+|area     = Land of Lower Setekh
+|region   = Sumeru
 |type     = Normal Bosses
 |family   = Elemental Lifeforms
 |group    = Hypostases
 |ability1 = Healing
+|ability2 = Teleport
 |drops    = Quelled Creeper
 }}
 {{Enemy Intro}}
@@ -46,27 +48,28 @@ Enemy Dendro Hypostasis Full Artwork.png|Full Art
 |atk_type     = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 {{Enemy Attacks
 |name_1      = Mucky Orbs
-|desc_1      = Shoots 3 waves of orbs at the player, each dealing '''40% ATK''' as {{Color|AoE Dendro DMG}} on hit and leaving behind residuals on the ground that deals '''5% ATK''' as {{Color|AoE Dendro DMG}} every 0.5s.
+|desc_1      = Shoots 3 waves of orbs at the player, each dealing '''40% ATK''' as {{Color|Dendro DMG}} on hit and leaving behind residuals on the ground that deals '''5% ATK''' as {{Color|Dendro DMG}} every 0.5s.
 
 |name_2      = Whip Combo
-|desc_2      = Transforms itself into a whip and attacks thrice, dealing '''40% ATK''', '''60% ATK''', '''80% ATK''' as {{Color|AoE Dendro DMG}}.
+|desc_2      = Transforms itself into a whip and attacks thrice, dealing '''40% ATK''', '''60% ATK''', '''80% ATK''' as {{Color|Dendro DMG}}.
 
 |name_3      = Plunging Attack
-|desc_3      = Transforms into a large ball and encases itself in a vine shell, then leaps up and slams down at the player's location 3 times, dealing '''70% ATK''', '''70% ATK''', '''100% ATK''' as {{Color|AoE Dendro DMG}}. Using {{Pyro}} to burn down the vine shell will interrupt this attack.
+|desc_3      = Transforms into a large ball and encases itself in a vine shell, then leaps up and slams down at the player's location 3 times, dealing '''70% ATK''', '''70% ATK''', '''100% ATK''' as {{Color|Dendro DMG}}. Using {{Pyro}} to burn down the vine shell will interrupt this attack.
 |file_3_2    = Dendro Hypostasis Plunging Attack 2
 |caption_3_2 = Burned
 
 |name_4      = Vine Spikes
-|desc_4      = Sends its shell into the ground that transform into 4 vines that spike from the ground, dealing '''20% ATK''' as {{Color|AoE Dendro DMG}}. Shortly after, additional thorns will grow from the vines, dealing '''50% ATK''' as {{Color|AoE Dendro DMG}}. These vines can be burned down using {{Pyro}}. During this attack, the Hypostasis' core is exposed.
+|desc_4      = Sends its shell into the ground that transform into 4 vines that spike from the ground, dealing '''20% ATK''' as {{Color|Dendro DMG}}. Shortly after, additional thorns will grow from the vines, dealing '''50% ATK''' as {{Color|Dendro DMG}}. These vines can be burned down using {{Pyro}}. During this attack, the Hypostasis' core is exposed.
 |file_4_2    = Dendro Hypostasis Vine Spikes 2
 |caption_4_2 = Burned
 
-|name_5      = Vine Jail
-|desc_5      = Surrounds a large area with vine barriers that deal '''10% ATK''' as {{Color|Dendro DMG}} on contact. The vines will gradually close in towards the Hypostasis. After the vines reach the Hypostasis, a powerful explosion will occur, dealing '''250% ATK''' as {{Color|AoE Dendro DMG}}. The vine barriers can be burned down using {{Pyro}}, allowing the player to escape. During this attack, the Hypostasis' core is exposed.
+|name_5      = Ring of Thorns
+|desc_5      = Surrounds a large area with vine barriers that deal '''10% ATK''' as {{Color|Dendro DMG}} on contact. The vines will gradually close in towards the Hypostasis. After the vines reach the Hypostasis, a powerful explosion will occur, dealing '''250% ATK''' as {{Color|Dendro DMG}}. The vine barriers can be burned down using {{Pyro}}, allowing the player to escape. During this attack, the Hypostasis' core is exposed.
+|file_5      = Dendro Hypostasis Vine Jail
 |file_5_2    = Dendro Hypostasis Vine Jail 2
 |caption_5_2 = Burned
 
@@ -77,7 +80,7 @@ Enemy Dendro Hypostasis Full Artwork.png|Full Art
 ** When hit by {{Electro}}, they will enter the Activated state. Every Activated Restorative Pith will increase the cleansing progress by '''6.667%''' every second.
 ** When hit by {{Pyro}}, they will become Scorched. A Scorched Restorative Pith will not increase the cleansing progress.
 * Hitting the Hypostasis directly with {{Dendro}} will also increase the cleansing progress by '''0.183%'''. This can occur no more than once every 0.4s.
-* During revival, the Hypostasis will periodically launch a cube at the player, dealing '''60% ATK''' as {{Color|AoE Dendro DMG}}. If a Restorative Pith is hit by this attack, it will return to the Scorched state.
+* During revival, the Hypostasis will periodically launch a cube at the player, dealing '''60% ATK''' as {{Color|Dendro DMG}}. If a Restorative Pith is hit by this attack, it will return to the Scorched state.
 * If the player fails to cleanse the Hypostasis within ~22s, it will revive. The first revival will restore '''50%''' Max HP to the Hypostasis; The second revival will restore '''25%''' Max HP; All subsequent revivals will restore '''12.5%''' Max HP.
 ** The cleansing progress will carry over to the next Revival Phase.
 |file_6_2    = Dendro Hypostasis Revival Phase 2
@@ -97,9 +100,9 @@ In the [[Hypostatic Symphony: Dissonant Verse]] Event, the Dendro Hypostasis gai
 |name_1 = Restorative Piths
 |desc_1 = <ul><!--
 --><li>Restorative Piths will be present at all times throughout the battle. The Piths gain the following effects depending on their state:<ul><!--
---><li>'''{{Color|Dendro|Normal}}:''' [[Heal]]s active characters within 10m for '''2%''' of their Max [[HP]] every '''2''' seconds.</li><!--
---><li>'''{{Color|Electro|Activated}}:''' Recovers '''5''' [[Energy]] every '''2''' seconds for active characters within 10m and increases their [[ATK]] by '''50%'''. The healing effect from the Normal state will remain.</li><!--
---><li>'''{{Color|Pyro|Scorched}}:''' Drains '''3%''' of Max HP from players within 10m every second. In Extreme difficulty, the HP drain is increased to '''8%''' of Max HP. Additionally, if the Dendro Hypostasis is within 10m of a Scorched Pith while its core is exposed, it will be healed by '''1.5%''' of Max HP every second. In Extreme difficulty, the healing is increased to '''3%''' of Max HP.</li><!--
+--><li>'''{{Color|Dendro|Normal}}:''' [[Heal]]s active characters within 10&nbsp;m for '''2%''' of their Max [[HP]] every '''2''' seconds.</li><!--
+--><li>'''{{Color|Electro|Activated}}:''' Recovers '''5''' [[Energy]] every '''2''' seconds for active characters within 10&nbsp;m and increases their [[ATK]] by '''50%'''. The healing effect from the Normal state will remain.</li><!--
+--><li>'''{{Color|Pyro|Scorched}}:''' Drains '''3%''' of Max HP from players within 10&nbsp;m every second. In Extreme difficulty, the HP drain is increased to '''8%''' of Max HP. Additionally, if the Dendro Hypostasis is within 10&nbsp;m of a Scorched Pith while its core is exposed, it will be healed by '''1.5%''' of Max HP every second. In Extreme difficulty, the healing is increased to '''3%''' of Max HP.</li><!--
 --></ul><!--
 --></li><!--
 --><li>In Fearless and Extreme difficulties, the Hypostasis will periodically restore all Restorative Piths to the Scorched state. This occurs more frequently in Extreme difficulty.</li><!--
@@ -159,16 +162,21 @@ In the [[Hypostatic Symphony: Dissonant Verse]] Event, the Dendro Hypostasis gai
 {{Achievement Topic Table|topic=Dendro Hypostasis|requirements=1}}
 
 ==The Verdant Takeover==
-{{Description|The leaf-green cubes that have emerged in the forest depths belong to a Dendro Hypostasis — overgrowth embodied. Use the power of greenery yourself to nourish the withered life here and heal this patch of land, and you shall obtain the bounty of the earth.}}
+{{Description|The leaf-green cubes that have emerged in the forest depths belong to a Dendro Hypostasis &mdash; overgrowth embodied. Use the power of greenery yourself to nourish the withered life here and heal this patch of land, and you shall obtain the bounty of the earth.}}
 [[File:The Verdant Takeover.png|400px]]
 
+==Tutorials==
+{{Tutorial|Dendro Hypostasis}}
+
 ==Descriptions==
-{{Description|Code Name: Zayin. A high-purity Dendro entity.<br />There are significant deviations in behavior between this being and the other Elemental Hypostases, though no one has yet produced a reliable conclusion as to why this is the case.|[[Adventurer Handbook]]}}
-{{Description|Code Name: Zayin. A high-purity Dendro entity.<br />According to the deductions of some researchers, Elemental Hypostases have the knowledge required to "learn," which is how they use "mimesis" to initiate attacks. However, the ability to incorporate information to create change also opens one to the risk of information contamination. As this creature learns and changes, the purpose of its birth — no matter how academically unquantifiable it may still be — may yet become so distorted as to be rendered irrelevant.|[[Archive]]}}
+{{Description|Code Name: Zayin. A high-purity Dendro entity.<br>There are significant deviations in behavior between this being and the other Elemental Hypostases, though no one has yet produced a reliable conclusion as to why this is the case.|[[Adventurer Handbook]]}}
+{{Description|Code Name: Zayin. A high-purity Dendro entity.<br>According to the deductions of some researchers, Elemental Hypostases have the knowledge required to "learn," which is how they use "mimesis" to initiate attacks. However, the ability to incorporate information to create change also opens one to the risk of information contamination. As this creature learns and changes, the purpose of its birth &mdash; no matter how academically unquantifiable it may still be &mdash; may yet become so distorted as to be rendered irrelevant.|[[Archive]]}}
 
 ==Trivia==
 * Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Zayin"|he=ז|he_rm=Zayin}} being named after the seventh.
-* The Dendro Hypostasis, along with the [[Hydro Hypostasis]], are the only two Hypostases that do not use the Clap attack.
+* The Dendro and [[Hydro Hypostasis]] are the only two Hypostases that do not have a Clap attack and have more health than the rest.
+* The Dendro Hypostasis is the only one whose fight objective is to cleanse it instead of destroy it.
+* The Dendro, [[Electro Hypostasis|Electro]], [[Geo Hypostasis|Geo]] and [[Anemo Hypostasis]] have sharp corners and appear decayed as opposed to the rounded corners and intact state of the rest.
 
 ==Gallery==
 <gallery>
@@ -213,9 +221,9 @@ Enemy Dendro Hypostasis Icon.png|Icon
 |pt      = Hypostasis Dendro
 |pt_tl   = Dendro Hypostasis
 |tr      = Doğa Hipostazı
-|tr_tl   = 
+|tr_tl   = {{lex|Dendro|tr}}  Hypostasis
 |it      = Ipostasi di Dendro
-|it_tl   = 
+|it_tl   = Dendro Hypostasis
 }}
 
 ==Change History==
@@ -225,5 +233,8 @@ Enemy Dendro Hypostasis Icon.png|Icon
 {{Enemy Navbox|Bosses}}
 
 [[es:Hipóstasis Dendro]]
+[[fr:Hypostase Dendro]]
 [[ja:無相の草]]
 [[pt-br:Hypostasis Dendro]]
+[[ru:Дендро гипостазис]]
+[[zh:無相之草]]

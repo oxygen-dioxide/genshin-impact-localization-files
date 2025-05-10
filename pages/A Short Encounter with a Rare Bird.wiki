@@ -2,7 +2,6 @@
 |id            = 73023
 |image         = World Quest A Short Encounter with a Rare Bird.jpg
 |type          = World
-|summary       = <!-- editor written summary. quest description goes to dialogue -->
 |requirement   = Kill a particular Shroomboar near the [[Caravan Ribat]].
 |characters    = Ferit; Paimon; Pamuk; Shefket; Traveler; Orhan
 |startLocation = [[Ashavan Realm]], [[Sumeru]]
@@ -10,10 +9,7 @@
 |area          = Ashavan Realm
 |prev          = 
 |next          = 
-|exp           = 250
-|mora          = 30000
-|primogems     = 30
-|other         = {{Card|Hero's Wit|3}}
+|rewards       = Adventure EXP*250;Primogem*30;Mora*30,000;Hero's Wit*3
 |rep           = Sumeru
 |repAmt        = 20
 |repOrder      = 474
@@ -43,13 +39,18 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 # Talk to [[Orhan]]
 
 ==Gameplay Notes==
-* Completion of the quest and of the ''[[Where Are the Fierce Creatures?]]'' World Quest awards the ''[[Wonders of the World]]'' achievement ''[[Sumeru Monster Ecology Survey]]''.
+* Completion of the quest and of the {{Quest|Where Are the Fierce Creatures?}} awards the {{Achievement|Sumeru Monster Ecology Survey}}.
+* Getting too close to the marked area during Step 2, Step, 5 and Step 7 will scare the Dusk Birds away and it will take approximately 12 hours to respawn. It is highly recommended to capture the Dusk Bird from a distance using a [[Bow]] character or [[Omni-Ubiquity Net]].
+** Approaching the Dusk Birds using [[:Category:Wildlife Talents|Wildlife Talents]] such as [[Kirara]]'s [[Cat's Creeping Carriage]] and [[Aloy]]'s [[Easy Does It]] will not work and it will scare the Dusk Birds away.
 
 ==Dialogue==
 {{Quest Description|You bumped into a Forest Ranger, Shefket, who's carrying out ecological research in Sumeru's forests, and he told you about his Dusk Bird research. Can he really capture a Dusk Bird?}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(After killing the Shroomboars)
 :'''???:''' Hey, you over there! The one who just hunted that wild boar with mushrooms on its back... Can you come over here? I have something to discuss with you!
+
+;(Use [[Nahida]]'s [[All Schemes to Know]] on ???, optional)
+:'''???:''' (Dusk Birds' feathers are so beautiful...)
 
 ;(Talk to the Forest Ranger)
 :'''???:''' Oh, I'm really sorry if I'm bothering you, but I have something to discuss...
@@ -63,8 +64,8 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''???:''' Mushrooms, on the other hand, can spread their spores even further with the wild boars carrying them... It's actually a healthy symbiotic relationship...
 :'''Shefket:''' Ooh, forgive me, I don't think I've introduced myself. I'm Shefket, and you?
 :'''Paimon:''' This is Paimon!
-:{{DIcon}} I'm (Traveler).
-:'''Shefket:''' So, (Traveler) and Paimon, got it. I knew you weren't ordinary when I saw how swift-footed you were while hunting that Shroomboar...
+:{{DIcon}} I'm {{Traveler}}.
+:'''Shefket:''' So, {{Traveler}} and Paimon, got it. I knew you weren't ordinary when I saw how swift-footed you were while hunting that Shroomboar...
 :'''Shefket:''' Actually, I'm carrying out research on wild animals, but... *sigh* I can't capture those Shroomboars.
 :'''Shefket:''' They either run or ram me to the ground as soon as I get close... If this goes on, my waist is going to give way before I even start my research...
 :'''Shefket:''' So, when I saw how easily you took down a Shroomboar, I had to try and ask if I could purchase some of its meat.
@@ -78,23 +79,23 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''Paimon:''' Paimon can tell how much you love animals, Shefket!
 :'''Shefket:''' Yes, I... I've always loved them. I've spent so much time studying them. The ecology in the forests of Sumeru is absolutely fascinating...
 :'''Shefket:''' Alright, I've got the Shroomboar meat. I need a Dusk Bird next.
-:'''Shefket:''' (Traveler), have you seen a Dusk Bird before? It's a gorgeous bird found in the {{color|buzzword|south of Apam Woods}}.
+:'''Shefket:''' {{Traveler}}, have you seen a Dusk Bird before? It's a gorgeous bird found in the {{color|buzzword|south of Apam Woods}}.
 :'''Shefket:''' It's a bird unique to Sumeru. Even the Akademiya researchers often use it to send messages... Though it's capable of long distance travel, it hates rain and will hide away on rainy days.
 :'''Shefket:''' Well, it's time for me to go. A Dusk Bird... I hope I'll be able to capture one on my own... Haha, I can't keep relying on others.
 :'''Shefket:''' But if you're willing... Ahem... I hope you'll keep an eye out for me. I'm willing to buy the Dusk Birds you capture.
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 {{Quest Description|update|You bumped into a Forest Ranger, Shefket, who was carrying out ecological research in Sumeru's forests, and he offered to buy Dusk Birds from you if you could capture any. Try your luck in the south of Apam Woods frequented by Dusk Birds might be a good idea. But Dusk Birds will hide on rainy days, and are very vigilant creatures. If you let one get away by accident, you'll have to wait for quite some time before you can capture one again.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(If the Dusk Birds fly away)
 :'''Paimon:''' Whoa! The Dusk Birds flew away all of a sudden... Guess we have to come back later.
 
 ;(After capturing or killing a Dusk Bird)
 :'''???:''' Guess you're that Shefket. Hmph! Hand over the Dusk Birds you've caught!
-:'''Paimon:''' Ah! It's the Eremites, (Traveler)! They're trying to take the Dusk Bird!
+:'''Paimon:''' Ah! It's the Eremites, {{Traveler}}! They're trying to take the Dusk Bird!
 
 ;(After defeating the Eremites)
-:'''Shefket:''' Good grief, it's (Traveler) and Paimon! I'm so lucky to have met both of you. Can you come over here?
+:'''Shefket:''' Good grief, it's {{Traveler}} and Paimon! I'm so lucky to have met both of you. Can you come over here?
 
 ;(Use [[Nahida]]'s [[All Schemes to Know]] on Shefket, optional)
 :'''Shefket:''' (Dusk Birds' feathers are so beautiful...)
@@ -110,7 +111,7 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''Shefket:''' Hahaha! It's embarrassing to say, but my research is still ongoing...
 :'''Shefket:''' I need a Dusk Bird, but I still haven't caught one... My research progress is worrying... And that's not the worst.
 :'''Paimon:''' That's not the worst?
-:'''Shefket:''' I even encountered The Eremites. They raised their weapons at me on sight...
+:'''Shefket:''' I even encountered the Eremites. They raised their weapons at me on sight...
 :'''Paimon:''' Oh, so the Eremites mistook us for you...
 :'''Shefket:''' Huh? Did they? Guess that's because... That's definitely because they don't understand that I'm trying to protect the Dusk Birds...
 :'''Shefket:''' You see, I'm sure the Eremites here think of the Dusk Birds as their own property. That's why they're against me collecting a specimen for research.
@@ -128,14 +129,14 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''Shefket:''' No, there isn't. Its quality just isn't very good... Oh, I mean, I can discern that the Dusk Birds in this area don't seem to be growing very well.
 :'''Shefket:''' Well, I'll have to go around and gather more feathers. It's the only way I can find out what happened to the entire colony of Dusk Birds...
 :'''Shefket:''' I heard there's a different colony of Dusk Birds in the {{color|buzzword|north of Apam Woods}}. It looks like I'll have to look for Dusk Birds there...
-:'''Shefket:''' Hmm, time to leave now! May we meet again, (Traveler) and Paimon!
+:'''Shefket:''' Hmm, time to leave now! May we meet again, {{Traveler}} and Paimon!
 
 ;(After the cutscene)
 :'''Paimon:''' Could Shefket catch a Dusk Bird all alone...? We might as well have a look there...
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 {{Quest Description|update|Shefket, the one who is conducting ecological research, says he's willing to buy more Dusk Birds. Try your luck at the north of Apam Woods as he says. Keep in mind, Dusk Birds will hole up on rainy days and are very vigilant creatures. If you let one get away by accident, you'll have to wait for quite some time before you can capture one again.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(If the Dusk Birds fly away)
 :'''Paimon:''' Whoa! The Dusk Birds flew away all of a sudden... Guess we have to come back later.
 
@@ -148,9 +149,7 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''Paimon:''' You're in charge of protecting them?
 :'''Orhan:''' Yes, I'm Orhan. I'm under orders from the Corps of Thirty to protect the Dusk Bird colony from poachers!
 :'''Orhan:''' You don't believe me? Take a look at these Orders signed by the Corps of Thirty's Sheriff.
-
-:'''Orhan shows you the Orders. It is signed by the Corps of Thirty.'''
-
+:{{Black Screen|Orhan shows you the Orders. It is signed by the Corps of Thirty.}}
 :'''Paimon:''' Huh? But that's not what we heard... Isn't an ecological survey being carried out on Dusk Birds?
 :'''Orhan:''' There's no such thing...
 :'''Paimon:''' ...Did Shefket deceive us?
@@ -160,7 +159,7 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :{{DIcon}} I have to admit...
 :{{DIcon}} Shefket tricked us...
 :'''Orhan:''' You're not the first adventurer to be tricked by him. He's always making adventurers help him and hiding behind them. He's as slippery as an eel...
-:'''Paimon:''' What do we do, (Traveler)? We've hunted quite a few Dusk Birds...
+:'''Paimon:''' What do we do, {{Traveler}}? We've hunted quite a few Dusk Birds...
 :{{DIcon}} Let's hope they serve balanced meals in prison...
 ::'''Paimon:''' NOOOO! Paimon doesn't want to get locked up by the Corps of Thirty!
 ::'''Orhan:''' ...It's not that serious. The Dusk Bird colony is quite huge, so Dusk Birds are not that rare. You didn't know what you were doing either, so it's not serious enough to get locked up for that.
@@ -175,9 +174,9 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''Orhan:''' Yes, I don't know why, but Shefket seems to need a large amount of Dusk Bird feathers... We can use that as bait...
 :'''Orhan:''' For example, we can spread the word that there's a large group of Dusk Birds resting on the mountain at the {{color|buzzword|east of Apam Woods}}. He'll definitely take the bait.
 :'''Orhan:''' But he's a cunning guy, so even the slightest action we take will scare him off. That's where both of you come in!
-:'''Orhan:''' Hmm... I think I heard the {{MC|m=blond|f=blonde}} one's name is (Traveler). What about the flying one?
+:'''Orhan:''' Hmm... I think I heard the {{MC|m=blond|f=blonde}} one's name is {{Traveler}}. What about the flying one?
 :'''Paimon:''' This is Paimon.
-:'''Orhan:''' Oh, (Traveler) and Paimon. I need you to make contact with Shefket.
+:'''Orhan:''' Oh, {{Traveler}} and Paimon. I need you to make contact with Shefket.
 :'''Paimon:''' Paimon gets it. He'll let his guard down with us...
 :'''Orhan:''' Exactly. We'll set up an ambush, so it'll be up to you to keep him busy.
 :'''Orhan:''' Once you meet him... Alright, just shout "We know everything you've done!" as the signal, and we'll get him!
@@ -187,39 +186,37 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''Orhan:''' Pamuk, around Vimara Village...
 :'''Pamuk:''' Got it, Boss! Don't worry, I'll spread the fake information!
 :'''Orhan:''' Alright, we're gonna get that poacher this time!
-:'''Orhan:''' I'll leave the rest to you, (Traveler). We must draw him out of hiding.
+:'''Orhan:''' I'll leave the rest to you, {{Traveler}}. We must draw him out of hiding.
 
 ;(After the cutscene)
 :'''Paimon:''' Let's head to the mountain in the east of Apam Woods soon. We'll bring that liar to justice if we meet him there!
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 {{Quest Description|update|Shefket turned out to be a fraud. Lay a trap with The Eremites to stop his increasingly rampant poaching. Go to the mountains east of Apam Woods and catch Shefket.}}
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(If the Dusk Birds fly away)
 :'''Paimon:''' Whoa! The Dusk Birds flew away all of a sudden... Guess we have to come back later.
 
 ;(After hunting a Dusk Bird)
-:'''Shefket:''' Oh? If it isn't (Traveler) and Paimon! I'm sure you're here because you've heard about the Dusk Bird colony resting here.
+:'''Shefket:''' Oh? If it isn't {{Traveler}} and Paimon! I'm sure you're here because you've heard about the Dusk Bird colony resting here.
 :'''Shefket:''' This isn't an environment the Dusk Birds usually favor, so why would they come here? Perhaps it's something worth studying.
 :'''Paimon:''' Shefket...
 :'''Shefket:''' Haha, what is it? Oh, I'm sure you want to know if I'm still buying Dusk Bird feathers, right? Of course I am, their feathers are very precious.
 :{{DIcon}} "We know everything you've done!"
 :'''Shefket:''' ...?
 :'''Shefket:''' Why did you say that? Do you suddenly feel proud of me for conducting such a hard research?
-:'''Paimon:''' (Huh? What's going on? Why haven't the Eremites come? We had an agreement with Orhan... (Traveler), maybe Paimon should give it a try.)
+:'''Paimon:''' (Huh? What's going on? Why haven't the Eremites come? We had an agreement with Orhan... {{Traveler}}, maybe Paimon should give it a try.)
 :'''Paimon:''' "We know everything you've done!"
 :'''Shefket:''' Paimon too? Oh my, it's alright. It's my duty, and you've helped me so much already.
 :'''Shefket:''' The process may be difficult, but it's all for a cause. It's for the animals of the forest...
 :'''Paimon:''' It isn't for the animals! It's all for yourself!
 :{{DIcon}} We know everything you've done!
-
-:'''Orhan rushes out of the forest just as you finish speaking...'''
-
+:{{Black Screen|Orhan rushes out of the forest just as you finish speaking...}}
 :'''Orhan:''' Yes, Shefket, the Corps of Thirty is officially placing you under arrest for the crimes of impersonating a Forest Ranger, instigating unknowing adventurers to carry out poaching, and colluding with Treasure Hoarders!
 :'''Paimon:''' Hey, Orhan, what took you so long? We almost lost our voices shouting the signal just now!
 :'''Orhan:''' Uh... We had a little accident...
 :'''Shefket:''' What's the Corps of Thirty doing here? What signal?
-:'''Shefket:''' "We know everything you've done!", so that's what you meant. I even felt a little touched just now!
+:'''Shefket:''' "We know everything you've done!" So that's what you meant. I even felt a little touched just now!
 :'''Paimon:''' Liar!
 :{{DIcon}} Just surrender!
 :'''Shefket:''' Ugh, I should have known you were with the Corps of Thirty... Hmph! The news about a Dusk Bird colony here was your doing too, right?
@@ -248,8 +245,7 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''Orhan:''' W&mdash;We have no other choice, it's the best opportunity to get him! Let's do this!
 
 ;(After defeating the enemies)
-:'''You make short work of the Treasure Hoarders.<br />Ferit and Pamuk arrive too...'''
-
+:{{Black Screen|You make short work of the Treasure Hoarders.<br>Ferit and Pamuk arrive too...}}
 :'''Ferit:''' Boss!
 :'''Pamuk:''' Sorry we're a little late...
 :'''Paimon:''' A little late? Everything's over...
@@ -258,13 +254,13 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''Ferit:''' Hehe... But the best way to spread information has always been pretending to be drunk...
 :'''Pamuk:''' And then divulging the false information.
 :{{DIcon}} You're 100 percent drunk...
-:'''Orhan:''' *sigh* If it wasn't for (Traveler), I would have gotten a good beating from the Treasure Hoarders.
-:'''Orhan:''' I must admit, I wasn't expecting (Traveler) to take the Treasure Hoarders down so easily...
-:'''Paimon:''' Of course! (Traveler) is stronger than {{MC|m=he|f=she}} looks!
+:'''Orhan:''' *sigh* If it wasn't for {{Traveler}}, I would have gotten a good beating from the Treasure Hoarders.
+:'''Orhan:''' I must admit, I wasn't expecting {{Traveler}} to take the Treasure Hoarders down so easily...
+:'''Paimon:''' Of course! {{Traveler}} is stronger than {{MC|m=he|f=she}} looks!
 :'''Orhan:''' No wonder. I mean, I got taken out with great ease when I tried to stop you earlier, but this... exceeded my expectations a little.
 :{{DIcon}} You're too kind.
 :{{DIcon}} It's going to get to my head if you don't stop!
-:'''Orhan:''' Alright, Shefket. We... I mean (Traveler) has taken down the Treasure Hoarders you were relying on. Now, do you have anything else to say?
+:'''Orhan:''' Alright, Shefket. We... I mean {{Traveler}} has taken down the Treasure Hoarders you were relying on. Now, do you have anything else to say?
 :'''Shefket:''' I&mdash;I... Actually, the mental trauma I experienced as a child is the cause of all this...
 :'''Shefket:''' Let me explain... It happened when I was just a young boy...
 :{{DIcon}} Nobody cares!
@@ -278,7 +274,8 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 :'''Paimon:''' Paimon'll bear that in mind.
 <!--
 :'''Orhan leaves with Shefket in his custody...'''-->
-{{Dialogue end}}
+{{Dialogue End}}
+
 ==Video guides==
 {{EVT
 |video1 = https://youtu.be/5QPYuGmg1nM
@@ -324,7 +321,7 @@ World Quest A Short Encounter with a Rare Bird Start Location Context.png|Additi
 |tr      = Nadir Bir Kuşla Kısa Bir Karşılaşma
 |tr_tl   = 
 |it      = Un breve incontro con un raro uccello
-|it_tl   = 
+|it_tl   = A Short Encounter with a Rare Bird
 }}
 
 ==Change History==

@@ -1,0 +1,171 @@
+{{Talent Infobox
+|image         = Talent Go, Go Turbo Twirly!.png
+|character     = Kachina
+|type          = Elemental Skill
+|info          = Fight alongside the turbo trusty Turbo Twirly!<br>Summons Turbo Twirly. When the skill is Held and released, Kachina will summon and ride Turbo Twirly.<br>After the Skill is used, Kachina will gain 60 [[Nightsoul point]]s and enter the [[Nightsoul's Blessing]] state.<br><br>'''Nightsoul's Blessing: Kachina'''<br>Turbo Twirly's various actions consume Kachina's Nightsoul points.<br>The Nightsoul's Blessing state will end when these points have been depleted.<br><br>'''Turbo Twirly'''<br>Can exist independently or be ridden and operated by Kachina. When Turbo Twirly is present, Kachina's Elemental Skill, "Go, Go Turbo Twirly!", will change to an option to Mount/Dismount Turbo Twirly.<br><ul><li>When present independent of Kachina, it will slam the ground at intervals, dealing Nightsoul-aligned {{Color|AoE Geo DMG}} based on Kachina's [[DEF]].</li><li>When Kachina is riding Turbo Twirly, she can control it to move and climb swiftly, and use Normal Attacks to slam the ground, dealing Nightsoul-aligned {{Color|AoE Geo DMG}} based on Kachina's DEF.</li></ul><br>Turbo Twirly will disappear once Kachina's Nightsoul's Blessing state ends, and it is considered a [[Geo Construct]]. 1 Turbo Twirly can exist on the field at any one time.
+|CD            = 20s
+|energyCost    = 
+|scale_att1    = DEF
+|scale_att2    = 
+|utility1      = Nightsoul's Blessing
+|utility2      = Nightsoul Point
+|utility3      = Geo Construct
+|utility4      = Conversion
+|arkhe         = 
+}}
+{{Description|Turbo Twirly only looks like a top — it is, in fact, a drill that can split even the strongest rock asunder!}}
+'''Go, Go Turbo Twirly!''' is [[Kachina]]'s [[Elemental Skill]].
+
+==Gameplay Notes==
+* {{Talent Note|particles|0.667}}
+** This particle generation can only trigger once per '''0.2''' seconds.
+* Turbo Twirly Independent DMG is triggered once every '''2''' seconds.
+* Kachina's Nightsoul's Blessing state will not end when switching, and Turbo Twirly will remain in the independent mode. When Kachina is off-fielded, her Nightsoul point indicator appears below her HP bar in the [[party]] setup UI.
+* When attempting to mount Turbo Twirly, Kachina will jump on the existing one if the distance is less than '''5m''' and there is no obstacle. Otherwise, she will summon a new Turbo Twirly and mount it.
+* Kachina can slam Turbo Twirly once every '''0.5''' seconds.
+* Turbo Twirly Mounted DMG is considered Elemental Skill DMG, but the slamming animation is considered a Normal Attack animation and will trigger dependent effects such as [[Xingqiu]]'s [[Guhua Sword: Raincutter|Rainbow Bladework]] and [[Thoma]]'s [[Crimson Ooyoroi|Fiery Collapse]].
+* Kachina is not prevented from doing idles while riding Turbo Twirly. When she does an idle, she dismounts from Turbo Twirly.
+* {{Point Consumption|<!--
+-->Mounted (Not Climbing):0.923/s;<!--
+-->Mounted Climb:1.2/s;<!--
+-->Mounted Climb Jump:3.6;<!--
+-->Perform Attack:10;<!--
+-->Dismount:2
+}}
+**
+* {{Point Consumption|name=[[Phlogiston]]|<!--
+-->Mounted (Not Climbing):7.7/s;<!--
+-->Mounted Climb:5/s;<!--
+-->Mounted Climb Jump:1.5;<!--
+-->Perform Attack:8.34;<!--
+-->Dismount:0
+}}
+
+;<big>Passive Effects</big>
+* {{Talent Note|ascension|2|The Weight of Stone}}
+
+;<big>Constellation Effects</big>
+* {{Talent Note|constellation|1|Shards Are Gems Too}}
+* {{Talent Note|constellation|3|Improved Stabilizer}}
+
+==Advanced Properties==
+{{Advanced Properties
+|title   = Turbo Twirly Mounted DMG
+|gu      = 1U
+|icdtag  = Elemental Skill
+|icdtype = 2.5s/3 Hits
+|poise   = 100
+|impulse = Air, 20, 600
+|blunt   = 1
+
+|title2   = Turbo Twirly Independent DMG
+|gu2      = 1U
+|icdtag2  = Elemental Skill
+|icdtype2 = 2.5s/3 Hits
+|poise2   = 75
+|impulse2 = Air, 100, 600
+|blunt2   = 1
+}}
+
+==Preview==
+{{Preview
+|file1    = Go, Go Turbo Twirly! Movement Preview
+|caption1 = Movement
+
+|file2    = Go, Go Turbo Twirly! Combat Preview
+|caption2 = Combat
+}}
+
+==Attribute Scaling==
+{{Talent Scaling
+|levels=13
+|order=turbotwirlymounteddmg,turbotwirlyindependentdmg,nightsoulpointlimit,cd
+|titles=Turbo Twirly Mounted DMG (%DEF),Turbo Twirly Independent DMG (%DEF),Nightsoul Point Limit,CD
+|turbotwirlymounteddmg_1=87.76
+|turbotwirlymounteddmg_2=94.34
+|turbotwirlymounteddmg_3=100.92
+|turbotwirlymounteddmg_4=109.7
+|turbotwirlymounteddmg_5=116.28
+|turbotwirlymounteddmg_6=122.86
+|turbotwirlymounteddmg_7=131.64
+|turbotwirlymounteddmg_8=140.42
+|turbotwirlymounteddmg_9=149.19
+|turbotwirlymounteddmg_10=157.97
+|turbotwirlymounteddmg_11=166.74
+|turbotwirlymounteddmg_12=175.52
+|turbotwirlymounteddmg_13=186.49
+|turbotwirlyindependentdmg_1=63.76
+|turbotwirlyindependentdmg_2=68.54
+|turbotwirlyindependentdmg_3=73.32
+|turbotwirlyindependentdmg_4=79.7
+|turbotwirlyindependentdmg_5=84.48
+|turbotwirlyindependentdmg_6=89.26
+|turbotwirlyindependentdmg_7=95.64
+|turbotwirlyindependentdmg_8=102.02
+|turbotwirlyindependentdmg_9=108.39
+|turbotwirlyindependentdmg_10=114.77
+|turbotwirlyindependentdmg_11=121.14
+|turbotwirlyindependentdmg_12=127.52
+|turbotwirlyindependentdmg_13=135.49
+|nightsoulpointlimit=60
+|cd=20s
+}}
+
+==Talent Leveling==
+{{Talent Upgrade|Kachina}}
+
+==Voice-Overs==
+{{Talent VO}}
+
+==Trivia==
+* Turbo Twirly is created by [[Xilonen]] after Kachina's request.<ref>{{Ref/VO|Xilonen|About Kachina}}</ref>
+
+==Other Languages==
+{{Other Languages
+|en       = Go, Go Turbo Twirly!
+|zhs      = 出击，冲天转转！
+|zhs_rm   = Chūjī, Chōngtiān Zhuànzhuan!<ref>{{Ref/VO|Kachina|关于希诺宁…|zh}}</ref>
+|zht      = 出擊，沖天轉轉！
+|zht_rm   = Chūjí, Chōngtiān Zhuànzhuan!
+|zh_tl    = Attack, Soaring Twirl-Twirl!
+|ja       = いけ、ぐるぐるコマちゃん！
+|ja_rm    = Ike, Guruguru Koma-chan!
+|ja_tl    = Go, Whirling Spinning Top-chan!
+|ko       = 쌩쌩이 출격!
+|ko_rm    = 
+|ko_tl    = 
+|es       = ¡Adelante, turbogirador!
+|es_tl    = Onward, Turbospinner!
+|fr       = Allez, Virevolturbo !
+|fr_tl    = Go, Turbo Twirly!
+|ru       = Вперёд, Турбовихрь!
+|ru_tl    = Forward, Turbotwirl!
+|th       = Go, Go Turbo Twirly!
+|vi       = Mũi Khoan Quay Tròn, Xuất Kích!
+|vi_tl    = 
+|de       = Los, kleiner Wirbelwind!
+|de_tl    = Go, Little Whirlwind!
+|id       = Go, Go Turbo Twirly!
+|pt       = Ataque, Pirueta Turbo!
+|pt_tl    = 
+|tr       = Atıl Turbo Topaç!
+|tr_tl    = 
+|it       = Vai, Trottolino, vai!
+|it_tl    = 
+}}
+
+==Change History==
+{{Change History|5.0}}
+
+==Reference==
+{{Reflist}}
+
+==Navigation==
+{{Talent Navbox|Kachina}}
+
+[[es:¡Adelante, turbogirador!]]
+[[fr:Allez, Virevolturbo !]]
+[[ru:Вперёд, Турбовихрь!]]
+[[th:Go, Go Turbo Twirly!]]
+[[tr:Atıl Turbo Topaç!]]
+[[vi:Mũi Khoan Quay Tròn, Xuất Kích!]]

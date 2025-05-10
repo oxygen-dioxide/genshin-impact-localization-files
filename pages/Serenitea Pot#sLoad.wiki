@@ -1,7 +1,13 @@
-{{DISPLAYTITLE:Load}}
 {{SereniteaPotTabs}}
-
-'''Load''' is informally described as the space taken up by [[furnishings]] placed in an Exterior Area or Room. Each furnishing takes up a certain amount of load, and the total amount of load taken up by the furnishings in the area cannot exceed the load limit of that area.
+{{CustomTabs
+|rootpage  = Serenitea Pot/Load
+|namespace = 
+|class     = custom-tabs-secondary
+|tab1      = Overview
+|tab2      = Exterior
+|tab3      = Interior
+}}
+'''Load''' is informally described as the space taken up by [[furnishing]]s placed in an Exterior Area or Room. Each furnishing takes up a certain amount of load, and the total amount of load taken up by the furnishings in the area cannot exceed the load limit of that area.
 
 The amount of load that remains available in an area is indicated by the ''Load'' indicator in the Furnishing Placement menu with green, orange, and red colored dots.
 *'''Green''': Many more furnishings can be placed
@@ -10,58 +16,25 @@ The amount of load that remains available in an area is indicated by the ''Load'
 
 The amount of load available can depend on the player's device, particularly those with lower specifications. Only furnishings within the device limits will render, and additional furnishings cannot be placed when the device limit is reached. To place additional furnishings, decrease the [[Settings#Graphics|graphics setting]] of the device or use a more powerful device.
 
-The amount of load taken up by duplicate furnishings (i.e., the second copy and beyond) is often reduced (see the Reduced Load column in the below tables). When calculating the load taken up by items with reduced load, the first furnishing uses the non-reduced load value, while additional copies use the reduced load value.
-
 ==Load Limits==
 ===Exterior Areas===
-{{See also|Category:Serenitea Pot Locations}}
-All Exterior Areas in the Realm have a load limit of 10,000 each. The load indicator will turn orange at 6,000 and red at 9,900. Note that the load amount of the [[Main Building/Mansion|Main Building]] will count towards the load limit of the Exterior Area in which it is placed.
+{{Main|Serenitea Pot/Load/Exterior}}
+All [[Realm Layout#Areas|Exterior Areas]] in the Realm have a load limit of 16,000 each. The load indicator will turn orange at 10,000 and red at 15,000. Note that the load amount of the [[Main Building/Mansion|Main Building]] will count towards the load limit of the Exterior Area in which it is placed. In addition and separate to the load limit, there is maximum furnishing limit of 449 for every Exterior Area.
 
 ===Interior Rooms===
-{{See also|Main Building/Mansion}}
-In the Main Building, the Main Hall and the Corridor have a load limit of 10,000 each, while the rooms have a load limit of 4,000 each. Note that the load amount of the [[Decoration/Ceiling Lamp|Ceiling Lamp]]s will count towards the load limit of their respective rooms.
-
-==Furnishing Loads==
-===Exterior Furnishings===
-{{See also|Exterior Furnishings}}
-{{#DPL:
-|namespace=
-|category=Exterior Furnishings
-|uses=Template:Furnishing Infobox
-|include={Furnishing Infobox¦Phantom Furnishing Load Table}
-|format={¦class="article-table sortable mw-collapsible alternating-colors-table" data-expandtext="+" data-collapsetext="-" style="width: 100%"\n!Image!!Name!!Adeptal Energy!!Load!!Reduced<br />Load!!data-sort-type=number¦Ratio\n¦-\n,¦,\n¦-\n,
-|resultsheader=There are '''%TOTALPAGES%''' Exterior Furnishings:\n
-|noresultsheader=No Results
-|allowcachedresults=true
-|ordermethod=title
-}}
-{{#DPL:
-|namespace=
-|category=Exterior Furnishings
-|uses=Template:Furnishing Infobox
-|include={Furnishing Infobox¦Phantom Furnishing Load Table}
-|offset=500
-|format=,¦,\n¦-\n,¦}
-|ordermethod=title
-}}
-===Interior Furnishings===
-{{See also|Interior Furnishings}}
-{{#DPL:
-|namespace=
-|category=Interior Furnishings
-|uses=Template:Furnishing Infobox
-|include={Furnishing Infobox}:image:%PAGE%:adeptal_energy:load:reduced_load,{Furnishing Infobox¦Phantom Furnishing Load Ratio}
-|table=class="article-table sortable mw-collapsible alternating-colors-table" data-expandtext="+" data-collapsetext="-" style="width: 100%",-,Image,Name,Adeptal Energy,Load,Reduced<br />Load,data-sort-type=number¦Ratio
-|tablerow=²{#if:%%¦[[File:%%¦45x45px¦link=%PAGE%|&nbsp;]]¦[[File:Item %PAGE%.png¦45x45px¦link=%PAGE%|&nbsp;]]}²,[[%PAGE%]],%%,%%,%%
-|tablesortcol=-6
-|resultsheader=There are '''%PAGES%''' Interior Furnishings:\n
-|noresultsfooter=No Results
-|allowcachedresults=true
-}}
+{{Main|Serenitea Pot/Load/Interior}}
+In the [[Mansion]], the Main Hall and the Corridor have a load limit of 16,000 each, while the rooms have a load limit of 6,400 each. Note that the load amount of the [[Decoration/Ceiling Lamp|Ceiling Lamp]]s will count towards the load limit of their respective rooms. In addition and separate to the load limit, there is maximum furnishing limit of 149 for every Interior Area, NOT including the [[Decoration/Ceiling Lamp|Ceiling Lamp]]s of respective rooms.
 
 ===Companions===
-{{See also|Companion}}
-Each companion takes up a load amount of 1,200, except for [[Paimon/Companion|Paimon]] who takes up a load amount of 1,500. A maximum of 8 companions (excluding Paimon) can be placed within the Serenitea Pot, regardless of the amount of load left available.
+Each [[companion]] takes up between 1,200 and 2,000 load, depending on the character. A maximum of 8 companions (excluding Paimon) can be placed within the Serenitea Pot, regardless of the amount of load left available.
+
+==Reduced Load==
+The amount of load taken up by duplicate furnishings (i.e., the second copy and beyond) is often reduced. When calculating the load taken up by items with reduced load, the first furnishing uses the non-reduced load value, while additional copies use the reduced load value.
+
+Most plants ([[Landform/Shrub|shrub]]s and [[Landform/Tree|tree]]s), [[animal]]s, and furnishings with [[Furnishing/List/By Feature#Interactable Furnishings|unique interactions]] do not typically have reduced load.
+
+==Change History==
+{{Change History|1.5}}
 
 ==Navigation==
 {{Game Systems Navbox|Other}}

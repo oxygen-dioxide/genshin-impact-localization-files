@@ -1,57 +1,65 @@
 {{Quest Infobox
 |id            = 10500
+|image         = Story Quest Astrology and the 50-Year Pact.png
 |type          = Story
 |chapter       = Astrolabos Chapter
 |actNum        = I
-|part          = 1
 |act           = Beyond This World's Stars
+|part          = 1
 |character     = Mona
 |startLocation = [[Liyue Harbor]], [[Liyue]]
 |region        = Liyue
 |area          = Sea of Clouds
 |subarea       = Liyue Harbor
-|requirement   = Complete [[Darknight Hero's Alibi]], reach [[Adventure Rank]] 38, and spend 1 [[Story Key]]
+|requirement   = 
+* Reach [[Adventure Rank]] 38
+* Complete {{Quest|Darknight Hero's Alibi|showType=0}}
+* Spend 1 [[Story Key]]
 |next          = To Mondstadt
-|exp           = 525
-|mora          = 31,125
-|other         = {{Card|Hero's Wit|4}}{{Card|Mystic Enhancement Ore|7}}
+|rewards       = Adventure EXP*525;Mora*31,125;Hero's Wit*4;Mystic Enhancement Ore*7
 |characters    = Mona; Mr. Zhu; Paimon; Traveler
 |voiced        = yes
 }}
-'''''Astrology and the 50-Year Pact''''' is the first part of [[Mona]]'s [[Story Quest]] [[Astrolabos Chapter]]: Act I - [[Beyond This World's Stars]].
+'''''Astrology and the 50-Year Pact''''' is the first part of {{Quest|Beyond This World's Stars}}.
 
 ==Steps==
-#Leave [[Liyue Harbor]]
-#Accompany [[Mona]] to say farewell to [[Mr. Zhu]]
-#Attract slimes and reclaim Mr. Zhu's lost ring
-#Defeat the slimes and search for the ring
-#*You obtain [[Nephrite Ring]]
-#Talk to Paimon
-#Give the [[Nephrite Ring|ring]] back to Mr. Zhu
+# Leave [[Liyue Harbor]]
+# Accompany [[Mona]] to say farewell to [[Mr. Zhu]]
+# Attract slimes and reclaim Mr. Zhu's lost ring
+# Defeat the slimes and search for the ring
+#* Wave 1: {{Enemy List|Large Hydro Slime;Electro Slime*2}}
+#* Wave 2: {{Enemy List|Mutant Electro Slime;Large Pyro Slime}}
+#* Wave 3: {{Enemy List|Large Cryo Slime;Hydro Slime*2}}
+#* You obtain [[Nephrite Ring]]
+# Talk to Paimon
+# Give the [[Nephrite Ring|ring]] back to Mr. Zhu
 
 ==Dialogue==
-{{Quest Description|You and Paimon went outside Liyue, intending to set off on an adventure...}}
-{{Dialogue start}}
+{{Quest Description|You and [[Paimon]] went outside Liyue, intending to set off on an adventure...}}
+{{Dialogue Start}}
 ;(After leaving Liyue Harbor)
-:{{A|vo mnlq001 2 cs mona 01.ogg}} '''???:''' Finally.
-:{{A|vo mnlq001 2 cs mona 02.ogg}} '''???:''' You kept me waiting so long I almost fell asleep.
-:{{A|vo mnlq001 2 cs mona 03.ogg}} '''???:''' Haha, as usual, my astrological predictions are proven correct.
-:{{A|vo mnlq001 2 cs mona 04.ogg}} '''???:''' You. Yes you. Come with me.
-:{{A|vo mnlq001 2 cs paimon 01.ogg}} '''Paimon:''' Um... Are you some sort of door-to-door fortune teller?
-:{{A|vo mnlq001 2 cs paimon 02.ogg}} '''Paimon:''' Sorry, but we're not really interested.
-:{{A|vo mnlq001 2 cs mona 05.ogg}} '''???:''' You're not from this world, are you?
+{{Cutscene Description|You encounter a young lady who looks and talks like a fortune-teller, and she welcomes you to join her on the road. Faced with your skepticism, she confidently responds with:<br>"You're not from this world, are you?"}}
+:;(A cutscene plays)
+::{{A|vo mnlq001 2 cs mona 01.ogg}} '''???:''' Finally.
+::{{A|vo mnlq001 2 cs mona 02.ogg}} '''???:''' You kept me waiting so long I almost fell asleep.
+::{{A|vo mnlq001 2 cs mona 03.ogg}} '''???:''' Haha, as usual, my astrological predictions are proven correct.
+::{{A|vo mnlq001 2 cs mona 04.ogg}} '''???:''' You. Yes you. Come with me.
+::{{A|vo mnlq001 2 cs paimon 01.ogg}} '''Paimon:''' Um... Are you some sort of door-to-door fortune teller?
+::{{A|vo mnlq001 2 cs paimon 02.ogg}} '''Paimon:''' Sorry, but we're not really interested.
+::{{A|vo mnlq001 2 cs mona 05.ogg}} '''???:''' You're not from this world, are you?
+:;(Cutscene ends)
 
-;(If the player has not met [[Mona]] before)
-::{{A|vo mnlq001 3 paimon 01a 1.ogg}} '''Paimon:''' H–How do you know about that?
+;(If the player has not met Mona before)
+::{{A|vo mnlq001 3 paimon 01a 1.ogg}} '''Paimon:''' H&mdash;How do you know about that?
 ::{{A|vo mnlq001 3 mona 01a 1.ogg}} '''???:''' How? Because I'm a master of true astrology.
 ::{{A|vo mnlq001 3 mona 01a 2.ogg}} '''???:''' If you've no other questions, let's be off.
 ::{{DIcon}} Oh, I'm just full of questions.
 ::{{DIcon}} For starters, who are you?
 ::{{A|vo mnlq001 3 mona 01a 3.ogg}} '''???:''' *sigh* Fine, I'll exercise a little patience, and explain.
 ::{{A|vo mnlq001 3 mona 01a 4.ogg}} '''Mona:''' I am Astrologist Mona Megistus. But considering that it is most rude to misremember names, I allow others to call me Mona.
-::{{A|vo mnlq001 3 mona 01a 5.ogg}} '''Mona:''' I am on a mission from my master to retrieve a certain box from Mondstadt.
+::{{A|vo mnlq001 3 mona 01a 5.ogg}} '''Mona:''' I am on a mission from my [[Barbeloth|master]] to retrieve a certain box from [[Mondstadt]].
 
-;(If the player has already met [[Mona]] through [[The Crisis Deepens]])
+;(If the player has already met Mona during ''[[The Crisis Deepens]]'')
 ::{{A|vo mnlq001 3 mona 01b 1.ogg}} '''Mona:''' Does my ability to see through your secrets so easily not evoke any memories?
 ::{{DIcon}} It's been a while.
 ::{{DIcon}} You're Mona!
@@ -67,7 +75,7 @@
 ::{{A|vo mnlq001 3 mona 05a.ogg}} '''Mona:''' Ahem, well, I want to prove the power and status of astrology, to be precise.
 :{{DIcon}} So basically, you want to look good.
 ::{{A|vo mnlq001 3 mona 05b.ogg}} '''Mona:''' What are you talking about? The main thing here is to use this chance to prove the power and status of astrology!
-:{{A|vo mnlq001 3 mona 06.ogg}} '''Mona:''' But from my predictions, I know that my master's friend has left Mondstadt, leaving her successor as the current guardian of that box.
+:{{A|vo mnlq001 3 mona 06.ogg}} '''Mona:''' Now, from my predictions, I know that my master's friend has left Mondstadt, leaving her successor as the current guardian of that box.
 :{{A|vo mnlq001 3 mona 07.ogg}} '''Mona:''' Like me, that successor must also be the one who has surpassed their teacher. I must not be careless.
 :{{A|vo mnlq001 3 mona 08.ogg}} '''Mona:''' But I would prefer to assure my victory in this contest, and upon giving it some thought, you came to mind!
 :{{DIcon}} But... I have no idea how astrology works.
@@ -88,7 +96,7 @@
 :{{A|vo mnlq001 3 mona 16.ogg}} '''Mona:''' Hehe, a wise decision. Let us be off, then.
 :{{A|vo mnlq001 3 mona 17.ogg}} '''Mona:''' That said, I would like to pay a certain place a visit before we go.
 ;(After cutscene ends)
-:{{A|vo mnlq001 3 mona 18.ogg}} '''Mona:''' There is a small inn near {{Color|buzzword|Mt. Tianheng}} that never sees a lot of business, even though its food is always great value for the money.
+:{{A|vo mnlq001 3 mona 18.ogg}} '''Mona:''' There is a small inn near {{Color|buzzword|Mt. Tianheng|link=1}} that never sees a lot of business, even though its food is always great value for the money.
 :{{A|vo mnlq001 3 mona 19.ogg}} '''Mona:''' The owner has always been good to me, so I'd like to say a farewell before I set off.
 ----
 ; (At Mr. Zhu's inn)
@@ -102,7 +110,7 @@
 :{{A|vo mnlq001 4 mona 03.ogg}} '''Mona:''' This is a matter of pride and one's state of mind. If an astrologist thinks that their arts can solve all problems, they will be forsaken by the starry ether.
 :{{A|vo mnlq001 4 mona 04.ogg}} '''Mona:''' Their divinations will lose the power to guide, and will not be able to pierce the fog of the unknown before them. Principles are principles.
 :{{A|vo mnlq001 4 paimon 04.ogg}} '''Paimon:''' Such a powerful ability, and you don't use it to earn a living? What a shame...
-:{{A|vo mnlq001 4 mrzhu 03.ogg}} '''Mr. Zhu:''' *sigh* Well, I was going to put up twenty thousand Mora as compensation, if you were willing.
+:{{A|vo mnlq001 4 mrzhu 03.ogg}} '''Mr. Zhu:''' *sigh* Well, I was going to put up twenty thousand [[Mora]] as compensation, if you were willing.
 :{{A|vo mnlq001 4 mona 05.ogg}} '''Mona:''' Twenty thousand...!
 :{{DIcon}} Are you alright?
 :{{DIcon}} What's with that look on your face?
@@ -112,11 +120,11 @@
 :{{A|vo mnlq001 4 mona 07.ogg}} '''Mona:''' Ahem. Yes. Of course. Still... the owner's business has had it pretty hard. It must be a truly extraordinary ring, to be worth spending this much Mora to find.
 :{{A|vo mnlq001 4 mona 08.ogg}} '''Mona:''' It wouldn't be right for us to leave like this, so let's help to search for it. There may be other means we can employ besides astrology.
 :{{A|vo mnlq001 4 paimon 05.ogg}} '''Paimon:''' Oh, Paimon knows where this is going.
-:{{A|vo mnlq001 4 mona 09.ogg}} '''Mona:''' (Traveler), I know, I'll leave this one to you! This is the first mission I'm giving you as your master!
+:{{A|vo mnlq001 4 mona 09.ogg}} '''Mona:''' {{Traveler}}, I know, I'll leave this one to you! This is the first mission I'm giving you as your master!
 :{{DIcon}} But of course...
 :{{DIcon}} Guess it's become my business. Again.
-:{{A|vo mnlq001 4 paimon 06a 1.ogg}} '''Paimon:''' Hmm, since it was swallowed up by a slime, maybe we can use [[Elemental Bait]] to lure all the nearby slimes to us.
-:{{A|vo mnlq001 4 paimon 06a 2.ogg}} '''Paimon:''' You remember? The stuff we helped Master Diluc make.
+:{{A|vo mnlq001 4 paimon 06a 1.ogg}} '''Paimon:''' Hmm, since it was swallowed up by a slime, maybe we can use Elemental Bait to lure all the nearby slimes to us.
+:{{A|vo mnlq001 4 paimon 06a 2.ogg}} '''Paimon:''' You remember? The stuff we helped Master [[Diluc]] make.
 :{{A|vo mnlq001 4 paimon 07.ogg}} '''Paimon:''' And... Hehe, Paimon actually kept a small amount!
 :{{DIcon}} Well done Paimon!
 ::{{A|vo mnlq001 4 paimon 08a.ogg}} '''Paimon:''' Paimon's the very best partner, right?
@@ -126,14 +134,14 @@
 :{{A|vo mnlq001 4 paimon 09.ogg}} '''Paimon:''' Yup. We'll be back in a jiffy!
 
 ;(After cutscene ends)
-:{{A|vo mnlq001 5 paimon 01.ogg}} '''Paimon:''' The Elemental Bait's really strong – it will attract all the slimes in the area.
+:{{A|vo mnlq001 5 paimon 01.ogg}} '''Paimon:''' The Elemental Bait's really strong &mdash; it will attract all the slimes in the area.
 :{{A|vo mnlq001 5 paimon 02.ogg}} '''Paimon:''' Even if they're just slimes, they can be dangerous together, so we'd best prepare ourselves.
 
-; (Talking to Mona again)
+; (Talk to Mona again, optional)
 :{{A|vo dialog mnlq001 mona 01.ogg}} '''Mona:''' This is your first mission, so don't mess it up.
 :{{A|vo dialog mnlq001 mona 02.ogg}} '''Mona:''' But if the going gets too tough for you... Well, I shall lend a hand then.
 
-;(Talking to Mr. Zhu again)
+;(Talk to Mr. Zhu again, optional)
 :'''Mr. Zhu:''' Thank you all very much, that ring really is very important to me.
 ----
 ;(Upon finding the [[Nephrite Ring|ring]])
@@ -166,26 +174,27 @@
 ::{{A|vo mnlq001 8 paimon 03b.ogg}} '''Paimon:''' Exactly!
 :{{A|vo mnlq001 8 mona 06.ogg}} '''Mona:''' Well, you need to start practicing now. If my rival is as smart as I think they are, they will figure you out in a heartbeat.
 :'''???:''' *stomach grumble*
-:{{A|vo mnlq001 8 mona 07.ogg}} '''Mona:''' Oh...
+:{{A|vo mnlq001 8 mona 07.ogg}} '''Mona:''' Huh...
 :{{A|vo mnlq001 8 paimon 04.ogg}} '''Paimon:''' What was that rumbling sound?
 :{{A|vo mnlq001 8 mrzhu 07.ogg}} '''Mr. Zhu:''' Oh, right, you mustn't have eaten in days. I'm very sorry, I forgot that you have no...
 :{{A|vo mnlq001 8 mona 08.ogg}} '''Mona:''' Aaaaaaah&mdash;! Shhhhahahahaha! That didn't happen! Forget it!
 :{{A|vo mnlq001 8 mona 09.ogg}} '''Mona:''' ...Hmph! Well, I suddenly feel that you have indeed contributed to our good fortune. I say we spend this money on treating you to a fine meal!
-:{{A|vo mnlq001 8 mona 10.ogg}} '''Mona:''' If we travel north, we'll reach the {{Color|buzzword|Wangshu Inn}}. I hear that the food there is really good, so let's go try it out!
+:{{A|vo mnlq001 8 mona 10.ogg}} '''Mona:''' If we travel north, we'll reach the {{Color|buzzword|Wangshu Inn|link=1}}. I hear that the food there is really good, so let's go try it out!
 :{{A|vo mnlq001 8 mona 11.ogg}} '''Mona:''' No need to thank me, I'm just doing as a good master should!
 :{{A|vo mnlq001 8 paimon 05.ogg}} '''Paimon:''' Did she say she was treating us?! Is Paimon hearing things?
 :{{DIcon}} "Let's go after her." There. I said it for you.
 ::{{A|vo mnlq001 8 paimon 06a.ogg}} '''Paimon:''' Let's go after her! For good food!
 :{{DIcon}} "She's a good person." Said it for you.
 ::{{A|vo mnlq001 8 paimon 06b.ogg}} '''Paimon:''' She's a good person! Hehe, let's have ourselves a great meal!
+;(Quest ends)
 
-;(Talking to Mr. Zhu again)
+;(Talk to Mr. Zhu again, optional)
 :{{A|vo dialog mnlq001 mrzhu 01.ogg}} '''Mr. Zhu:''' Thank you all so much. You're welcome to drop by again.
 :{{A|vo dialog mnlq001 mrzhu 02.ogg}} '''Mr. Zhu:''' Well, if this inn hasn't closed its doors yet, haha...
-{{dialogue end}}
+{{Dialogue End}}
 
-==Trivia==
-* One of the reasons why [[Darknight Hero's Alibi]] needs to be completed is due to the quest requiring ''Elemental Bait.''
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
 
 ==Other Languages==
 {{Other Languages
@@ -221,10 +230,12 @@
 |tr      = Astroloji ve 50 Yıllık Antlaşma
 |tr_tl   = 
 |it      = L'astrologia e il patto dei cinquant'anni
-|it_tl   = 
+|it_tl   = The Astrology and the 50-Year Pact
 }}
 
 ==Change History==
 {{Change History|1.0}}
 
 [[es:La astrología y el pacto de 50 años]]
+[[ja:占星術と50年の約束]]
+[[pt-br:Astrologia e o Pacto de 50 Anos]]

@@ -4,16 +4,16 @@
 {{Genius Invokation TCG Stages/Detailed}}
 
 ==Idle Quotes==
-{{Dialogue start}}
+{{Dialogue Start}}
 :{{DIcon|Idle}} What's the best tactic here...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Dialogue==
 ===Friendly Fracas===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sucrose)
 :{{A|vo card sucrose invite easy 01.ogg}} '''Sucrose:''' Hmm... got it! Okay, I have a game plan.
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG match interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
@@ -36,13 +36,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card sucrose invite easy 03.ogg}} '''Sucrose:''' I need to learn to improvise more...
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Serious Showdown===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sucrose)
 :{{A|vo card sucrose invite hard 01.ogg}} '''Sucrose:''' Okay, new tactics this time... I think it should work.
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG match interface)
 :{{DIcon}} Adjust the deck first...
 :;(Open Genius Invokation TCG deck interface)
@@ -65,13 +65,13 @@
 
 ;(If the player wins the match)
 :{{A|vo card sucrose invite hard 03.ogg}} '''Sucrose:''' Where did I go wrong...?
-{{Dialogue end}}
+{{Dialogue End}}
 
 ===Guest Challenge===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sucrose)
 :{{A|vo card sucrose freetalk 01.ogg}} '''Sucrose:''' Phew, Genius Invokation TCG's rule set is very complex... I need to make some more systematic notes...
-:{{DIcon}} Let's play Genius Invokation TCG.
+:{{DIcon|TCG}} Let's play Genius Invokation TCG.
 :;(Open Genius Invokation TCG challenge interface)
 :{{DIcon}} I've got other things to do right now...
 ::{{A|vo card sucrose leave 01.ogg}} '''Sucrose:''' This tactic is... hmm, basic. But with some further iteration and fine-tuning, maybe...
@@ -81,7 +81,34 @@
 
 ;(If the player wins the match)
 :{{A|vo card sucrose endofgame fail 01.ogg}} '''Sucrose:''' I need to find and eliminate my errors...
-{{Dialogue end}}
+{{Dialogue End}}
+
+===Duel: Sucrose===
+{{Dialogue Start}}
+;(Talk to Sucrose)
+:{{A|vo dialog tips tcg001 sucrose 02.ogg}} '''Sucrose:''' Ready for our duel, {{Traveler}}?
+:{{DIcon|TCG}} Let's play some Genius Invokation TCG!
+::{{A|vo dialog tips tcg001 sucrose 03a 1.ogg}} '''Sucrose:''' Alright, let the duel begin!
+;(Open Genius Invokation TCG match interface)
+:{{DIcon}} Not just yet, I need a moment...
+::{{A|vo dialog tips tcg001 sucrose 03b 1.ogg}} '''Sucrose:''' Sure. Even though it's just a game, it's important to be fully prepared. In that case, I think I'll go over the card stats again...
+
+;(When the player defeats one of Sucrose's Character Cards)
+:{{A|vo tips tcg002 2 sucrose 01.ogg}} '''Sucrose:''' Darn... I didn't factor that in to the equation...
+
+;(When the player defeats two of Sucrose's Character Cards)
+:{{A|vo tips tcg002 3 sucrose 01.ogg}} '''Sucrose:''' Oh... I wasn't expecting that.
+
+;(When Sucrose defeats one of the player's Character Cards)
+:{{A|vo tips tcg002 1 sucrose 01.ogg}} '''Sucrose:''' Okay, one Character Card defeated...
+
+;(When Sucrose uses an Elemental Burst)
+:{{A|vo tips tcg002 4 sucrose 01.ogg}} '''Sucrose:''' According to the rules, it costs Dice and Energy to unleash an Elemental Burst...
+{{Dialogue End}}
+
+==Change History==
+{{Change History|3.3}}
 
 ==Navigation==
 {{Genius Invokation TCG Stages Navbox}}
+[[pt-br:Chamado Sagrado dos Sete:Desafios/Sucrose]]

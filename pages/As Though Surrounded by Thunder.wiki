@@ -1,0 +1,404 @@
+{{Stub|dialogue conditions}}
+{{Quest Infobox
+|id            = 40192
+|image         = Event Quest As Though Surrounded by Thunder.png
+|type          = Story
+|event_name    = Enchanted Tales of the Mikawa Festival
+|actType       = None
+|actNum        = 3
+|actNumLabel   = Final Night
+|characters    = "Gyoubu Koban"; "Kichiboushi"; "Shousei"; Akira; Arataki Itto; Asari; Ei; Genta; Ginkaku; Gorou; Iwakura Michihiro<!-- cinematic -->; Kamisato Ayaka; Kamisato Ayato; Kinkaku; Kitsune Saiguu<!-- cinematic -->; Komura; Koutoku; Kujou Sara; Kuki Shinobu; Makoto<!-- cinematic -->; Mamoru; Mikoshi Chiyo<!-- cinematic -->; Mikoshi Nagamasa<!-- cinematic -->; Paimon; Sangonomiya Kokomi; Sasayuri<!-- cinematic -->; Sayu; Shikanoin Heizou; Tetsunosuke; Thoma; Traveler; Yae Miko; Yoimiya; Yoshihisa; Yumemizuki Mizuki
+|startLocation = [[Narukami Island]], [[Liyue]]
+|region        = Liyue
+|area          = Narukami Island
+|subarea       = 
+|prev          = As Though Beholding Illusions
+|next          = As Though Kissed by Dew
+|rewards       = Primogem*30;Mora*30,000;Hero's Wit*3;Mystic Enhancement Ore*6
+|otherRewards  = 
+|voiced        = yes
+}}
+'''''As Though Surrounded by Thunder''''' is the third part of the [[Enchanted Tales of the Mikawa Festival]] Event.
+
+==Steps==
+# Wait until the next day (13:00 &ndash; 15:00)
+# Talk to [[Yae Miko|Miko]] and the others
+# Talk to [[Ei]]
+#* Talk to the contestants from various teams (optional)
+# Prepare for battle with Ei
+# Defeat the Nightmare Fragments
+#* {{Enemy|Kairagi: Dancing Thunder|link=Nightmare Fragments|text=Nightmare Fragments &mdash; An All-Too-Distant Dream}}
+
+==Gameplay Notes==
+* During step 5:
+** The active party will be limited to a trial [[Traveler]] aligned to [[Electro]] and using a special combat mode (see [[#Tutorials|Tutorials]]).
+** The Traveler cannot die and will automatically recover 80% of their Max HP when they reach very low health.<!-- from HTML comment from dialogue trigger below: can't get below 259 at WL9, which is 1% - at which you stop getting damage, Miko says her line you get healed - for 20706 on WL9, which is 80%; same behavior confirmed for WL8; Miko's line triggers only first time, 2nd time onwards it heals without saying anything -->
+** {{Enemy|Ei|link=Ei (Quest Boss)}} will fight alongside the player in her first phase, though she will not perform '''Lightning Blade''', '''Magatsu Electroculi''', and '''Vision Hunt Decree'''.
+** "Everyone's Prayers" will assist three times during the battle. Each time, a fixed pink indicator circle will spawn at the location of the Nightmare Fragments, and after a short delay, several strikes will descend within the circle, dealing {{Color|Physical DMG}} to the Nightmare Fragments.
+
+==Trial Character==
+{{Trial Character
+|wl                      = 8,9
+|character_name          = Traveler (Electro)
+
+<!-- WL 9 Stats -->|character_level8        = 80
+|constellation8          = 0
+|weapon_name8            = Prototype Rancour
+|weapon_level8           = 80
+|refinement8             = 1
+|normal_attack_talent8   = 8
+|elemental_skill_talent8 = 8
+|elemental_burst_talent8 = 8
+|hp8                     = 25,883
+|atk8                    = 2,308
+|def8                    = 889
+|em8                     = 0
+|crit_rate8              = 5.0%
+|crit_dmg8               = 50.0%
+|er8                     = 100.0%
+|phy_dmg8                = 31.5%
+|artifact_flower8        = Gladiator's Nostalgia
+|artifact_feather8       = Gladiator's Destiny
+|artifact_sands8         = Gladiator's Longing
+|artifact_goblet8        = Gladiator's Intoxication
+|artifact_circlet8       = Gladiator's Triumphus
+|artifact_level8         = 20
+|set1_8                  = Gladiator's Finale
+|set1_piece_bonus_8      = 4
+|character_level9        = 80
+|constellation9          = 0
+|weapon_name9            = Prototype Rancour
+|weapon_level9           = 80
+|refinement9             = 1
+|normal_attack_talent9   = 8
+|elemental_skill_talent9 = 8
+|elemental_burst_talent9 = 8
+|hp9                     = 25,883
+|atk9                    = 2,308
+|def9                    = 889
+|em9                     = 0
+|crit_rate9              = 5.0%
+|crit_dmg9               = 50.0%
+|er9                     = 100.0%
+|phy_dmg9                = 31.5%
+|artifact_flower9        = Gladiator's Nostalgia
+|artifact_feather9       = Gladiator's Destiny
+|artifact_sands9         = Gladiator's Longing
+|artifact_goblet9        = Gladiator's Intoxication
+|artifact_circlet9       = Gladiator's Triumphus
+|artifact_level9         = 20
+|set1_9                  = Gladiator's Finale
+|set1_piece_bonus_9      = 4
+}}
+
+==Dialogue==
+{{Stub Dialogue|Check for talk-again lines; Add lines during nightmare fight}}
+{{Quest Description|The truth behind the doppelgangers and nightmares has been revealed. The actions of the past send ripples through fate, and the events of today blur the line between dreams and reality.}}
+{{Dialogue Start}}<!-- Unvoiced in EN: Arataki Itto, Kamisato Ayato, Kujou Sara, Sangonomiya Kokomi, Shikanoin Heizou, Thoma, Yoimiya -->
+;(Pass time)
+:{{A|vo schjeq003 1 paimon 01.ogg}} '''Paimon:''' Alright! It's finally time for the festival! Hopefully, everything goes okay... Do you think everyone completed their games? Let's go check it out!
+
+;(Approach [[Kamisato Ayato]], [[Yae Miko]], [[Kujou Sara]], and [[Shikanoin Heizou]])
+:'''Kamisato Ayato:''' ...I assembled all the key information into booklets, Lady Guuji, and the incantation for the ritual has been distributed along with them.
+:{{A|vo schjeq003 1 yaemiko 01.ogg}} '''Yae Miko:''' Remarkably efficient, Ayato. How are things with the [[Tenryou Commission]]?
+:'''Kujou Sara:''' We have adjusted our defensive efforts in response to the Nightmare Fragment. Now that we no longer need to worry about the doppelgangers, we can be much more efficient.
+:{{A|vo schjeq003 1 paimon 02.ogg}} '''Paimon:''' Oh, you're all here!
+:'''Shikanoin Heizou:''' Ah, and with your arrival, we can be even more confident in the strength of our defenses.
+:'''Kujou Sara:''' Nevertheless, we must remain vigilant. We all must do our part to give {{Traveler}} and the Shogun the best chance against this enemy.
+:{{A|vo schjeq003 1 paimon 03.ogg}} '''Paimon:''' Well, it's a relief to have you all in our corner!
+:{{DIcon}} Wait a minute, where's [[Ayaka]]?
+:'''Kamisato Ayato:''' Hehe... With the festival preparations complete, we have everything covered over here. Ayaka is currently helping those in need, you could say.
+:{{A|vo schjeq003 1 paimon 04.ogg}} '''Paimon:''' Those in need?
+:'''Kamisato Ayato:''' Most of the game development teams are short on manpower, so Ayaka and a few others are helping them out.
+:{{A|vo schjeq003 1 yaemiko 02.ogg}} '''Yae Miko:''' I'm sure you'll run into her as you walk around. Oh, and just a reminder &mdash; you need to select the best game later tonight.
+:{{A|vo schjeq003 1 yaemiko 03.ogg}} '''Yae Miko:''' Most importantly, don't forget to enjoy yourself! We need this event to be as "joyful" as possible if we want the plan to work.
+:{{DIcon}} Oh, I almost forgot about that...
+:{{A|vo schjeq003 1 yaemiko 04.ogg}} '''Yae Miko:''' Once you're done experiencing the festival, you should check in with Ei.
+:;(The camera pans to Ei standing on a nearby cliff)
+----
+;(Talk to [[Thoma]], [[Arataki Itto]], or [[Kuki Shinobu]], optional)
+:'''Arataki Itto:''' Ohoho, Thoma, my bro! Heard you're in a bind! The "Almighty Arataki Unbeatable and Unmatched Game Dev Team" is here to help!
+:{{A|vo schjeq003 3 together 01.ogg}} '''Mamoru, Akira, and Genta:''' The [[Arataki Gang]] rules!
+:'''Kuki Shinobu:''' ...I'm not sure how "helpful" most of them will turn out to be, but I, at least, am a licensed game designer.
+:'''Thoma:''' I'm... so sorry everyone. I was so focused on this game, I didn't notice [[Kinkaku]] and the others at all...
+:{{A|vo schjeq003 3 shousei 01.ogg}} '''"Shousei":''' Not your fault! [[Bake-danuki]] are powerful! Even [[Shousei]] couldn't smell them!
+:{{DIcon}} Yeah, we didn't notice anything either.
+:'''Thoma:''' {{Traveler}}... Paimon...
+:'''Arataki Itto:''' Don't sweat the small stuff! I'm sure all [[Hitotsume Kozou]] and those little fellas want... is for you to honor their last wishes and finish what you set out to do!
+:'''Kuki Shinobu:''' Um... That was beautiful, boss. But, "last wishes" are used for people who are, y'know... dead.
+:'''Arataki Itto:''' Dead? As in the big sleep? The final curtain? The last hurrah? ...[[Genta]], you copied down the wrong thing!
+:{{A|vo schjeq003 3 shousei 02.ogg}} '''"Shousei":''' Long-horned [[oni]] is stupid... Stupid oni really help make game?
+:'''Thoma:''' Heh... We'll see. But, as you said, I'll try my best to, um... finish what we started.
+:{{A|vo schjeq003 3 paimon 01.ogg}} '''Paimon:''' By the way, where are the real Hitotsume Kozou and his friends? And what about [[Tetsunosuke]] and the others?
+:'''Thoma:''' After the three passed out, the bake-danuki hid them in their home to keep them safe... Even under the influence of a Nightmare Fragment, bake-danuki are kind at heart.
+:'''Thoma:''' As for Tetsunosuke and the others... They're in charge of setting up the ritual as punishment for causing all that panic &mdash; something about showing them what it's really like to "work through the night"...?
+:{{DIcon}} Sounds like Miko's doing...
+:'''Thoma:''' Hehe, once you deal with the crisis, I think I'll get the whole gang together &mdash; Hitotsume Kozou, [[Youko]], [[Kappa]]...
+:'''Thoma:''' Plus, Kinkaku, [[Ginkaku]], and Tetsunosuke, too... We can all play "Akitsu Harpastum" to our heart's content!
+
+;(Talk to Thoma, Itto, or Shinobu again, optional)
+:'''Arataki Itto:''' Hmm, I'm thinkin' we spice up the final stage with a [["Kaboom King"]]... designed after the one and oni Arataki Itto! I mean, c'mon, how epic are these horns!?
+:{{A|vo dialog schjeq003 together 01.ogg}} '''Mamoru, Akira, and Genta:''' Great idea, Boss!
+:{{A|vo dialog schjeq003 paimon 01.ogg}} '''Paimon:''' *sigh*... Something tells Paimon this group is about to be as useless as the one you had before...
+:'''Kuki Shinobu:''' Don't worry about hurting any feelings, Mr. Thoma. Just let me know if someone's being a nuisance, and I'll knock some sense into them.
+:;(Itto shifts and looks dismayed while the rest of the Arataki Gang flinches)
+:{{A|vo dialog schjeq003 shousei 01.ogg}} '''"Shousei":''' Hornless oni... is as scary as ever...
+:'''Thoma:''' Haha, it's fine. As long as Itto's okay with the Kaboom King being defeated by a harpastum in the end.
+
+;(Talk to Kamisato Ayaka, [[Yoimiya]], or [[Sayu]], optional)
+:{{A|vo schjeq003 2 ayaka 01.ogg}} '''Kamisato Ayaka:''' ...Hm, don't you think this puzzle is a bit too complicated? If we make this small adjustment... it'd be a lot easier to understand, don't you think?
+:{{A|vo schjeq003 2 sayu 01.ogg}} '''Sayu:''' Y&mdash;You're right! I never thought about it that way...
+:'''Yoimiya:''' Nice one, Ayaka! I knew you'd be a great addition to the team!
+:{{A|vo schjeq003 2 ayaka 02.ogg}} '''Kamisato Ayaka:''' Oh, no, no! You two did all the hard work! You made it easy for me...
+:{{DIcon}} Hello.
+:{{A|vo schjeq003 2 ayaka 03.ogg}} '''Kamisato Ayaka:''' Oh... When did you get here...
+:{{A|vo schjeq003 2 paimon 01.ogg}} '''Paimon:''' Just now! Seems like you're a natural, Ayaka! A real game developer at heart, huh...
+:{{DIcon}} You talked about wanting to create a game the day before yesterday...
+:{{A|vo schjeq003 2 ayaka 04.ogg}} '''Kamisato Ayaka:''' Oh... You remember that. Well, brother had everything covered. So, I asked Yoimiya if she could use a hand...
+:{{A|vo schjeq003 2 ayaka 05.ogg}} '''Kamisato Ayaka:''' I'm just glad I didn't turn out to be an inconvenience.
+:'''Yoimiya:''' An inconvenience? We were in such a jam! You saved us!
+:{{A|vo schjeq003 2 kichiboushi 01.ogg}} '''"Kichiboushi":''' In a jam... because jam is sticky, and we got stuck!
+:{{A|vo schjeq003 2 sayu 02.ogg}} '''Sayu:''' Not that kind of jam... But, it doesn't matter. We just need to get this done.
+:{{A|vo schjeq003 2 ayaka 06.ogg}} '''Kamisato Ayaka:''' {{Traveler}}, Lady Guuji told me about the upcoming battle. As I understand it, this is an extremely dangerous endeavor, and the rest of us can only help from the sidelines...
+:{{A|vo schjeq003 2 ayaka 07.ogg}} '''Kamisato Ayaka:''' Our thoughts and prayers are with you... Be careful!
+
+;(Talk to Ayaka, Yoimiya, or Sayu again, optional)
+:'''Yoimiya:''' Alright! {{Traveler}}'s got the hard stuff covered, so let's give this our all!
+:{{A|vo dialog schjeq003 ayaka 01.ogg}} '''Kamisato Ayaka:''' How did you sleep last night, Sayu? Do you need a break?
+:{{A|vo dialog schjeq003 sayu 01.ogg}} '''Sayu:''' Hmm... I think I can push through, just this once... I'm sure I'll still get taller!
+:{{A|vo dialog schjeq003 kichiboushi 01.ogg}} '''"Kichiboushi":''' Great Mujina [[Youkai]]... Good luck!
+
+;(Talk to [[Sangonomiya Kokomi]] or [[Gorou]], optional)
+:{{A|vo schjeq003 4 koutoku 01.ogg}} '''Koutoku:''' Ah, captain! [[Watatsumi Army|Swordfish II]], salute!
+:{{DIcon}} Wow, it's been a while...
+:'''Gorou:''' I'll say! The squad was a little reluctant to help at first... But, telling them you were the festival representative had them moving faster than an actual swordfish!
+:{{A|vo schjeq003 4 koutoku 02.ogg}} '''Koutoku:''' ...To be honest, some [[Watatsumi Island]]ers aren't too concerned about the festival, or the safety of [[Narukami Island]].
+:{{A|vo schjeq003 4 yoshihisa 01.ogg}} '''Yoshihisa:''' ...But, if they knew it was for the captain of Swordfish II, I'm confident everyone would be here in a heartbeat.
+:{{DIcon}} I'm not sure I deserve that level of loyalty...
+:'''Sangonomiya Kokomi:''' I doubt you have a choice at this point, {{Traveler}}.
+:'''Sangonomiya Kokomi:''' Not even the words of a Divine Priestess are enough to convince the people of Watatsumi and Narukami Islands to let go of the past.
+:'''Sangonomiya Kokomi:''' It takes time, communication... and, most importantly, the help of very special people.
+:'''Sangonomiya Kokomi:''' Your representation at this festival, and my collaboration with [[Mizuki]] will serve as bridges between Watatsumi Island and the outside world.
+:{{A|vo schjeq003 4 mizuki 01.ogg}} '''Yumemizuki Mizuki:''' Huh, I never considered that angle... You possess wisdom beyond your years, Kokomi &mdash; on par with a certain other shrine maiden I know.
+:{{A|vo schjeq003 4 paimon 01.ogg}} '''Paimon:''' Mizuki! Uh... Did you get any sleep at all?
+:{{A|vo schjeq003 4 mizuki 02.ogg}} '''Yumemizuki Mizuki:''' I'm fine. Sometimes, you need to push past your mental limits to unleash your full potential... I've seen that many times in my line of work.
+:{{DIcon}} So, that's a no, then...
+:{{DIcon}} Get a good night's sleep once this is all over.
+:{{A|vo schjeq003 4 mizuki 03.ogg}} '''Yumemizuki Mizuki:''' I will. The good news is, the ritual is all set. That means the festival can proceed, and we can focus on realizing our vision.
+:{{A|vo schjeq003 4 mizuki 04.ogg}} '''Yumemizuki Mizuki:''' As for the more pressing matter, once the Nightmare Fragment appears, we will begin the ritual. But, it needs time to take effect.
+:{{A|vo schjeq003 4 mizuki 05.ogg}} '''Yumemizuki Mizuki:''' You and the Shogun are the only ones who can subdue the enemy until then... Do you remember what I told you yesterday, before you left for [[Aisa Bathhouse]]?
+:;(A flashback begins)
+:{{A|vo schjeq003 4 mizuki 06.ogg}} '''Yumemizuki Mizuki:''' Humans, youkai, and [[archon]]s bear the same capacity for emotion and are, naturally, susceptible to the same mental turmoil.
+:{{A|vo schjeq003 4 mizuki 07.ogg}} '''Yumemizuki Mizuki:''' It's very possible that someone who appears strong on the outside has learned to compartmentalize their negative emotions... And that is far from healthy.
+:;(Flashback ends)
+:{{DIcon}} I remember.
+:{{A|vo schjeq003 4 mizuki 08.ogg}} '''Yumemizuki Mizuki:''' Good. I trust you won't let the Shogun shoulder this alone... not anymore.
+
+;(Talk to Kokomi, Gorou, or Yumemizuki Mizuki again, optional)
+:'''Gorou:''' Oh, I wanted to ask... Do you know what this strip of paper is for?
+:{{A|vo dialog schjeq003 mizuki 01.ogg}} '''Yumemizuki Mizuki:''' Oh, Miko wrote that. She can explain it better than me... Why don't you ask her?
+:'''Gorou:''' I... I think I'll ask someone else!
+:{{A|vo dialog schjeq003 gyoubukoban 01.ogg}} '''"Gyoubu Koban":''' Big dog... is afraid?
+:'''Sangonomiya Kokomi:''' Let's see... "God of Thunder, heed our call"...
+----
+;(Talk to Ei)
+:{{A|vo dialog schjeq003 raidenei 01.ogg}} '''Ei:''' Ah, it's you. Before battle, it is imperative to calm the mind. If you have unfinished business, see to that now.
+:{{DIcon}} I'm set.
+::{{A|vo dialog schjeq003 raidenei 02.ogg}} '''Ei:''' Then, come meditate with me.
+:;(Continue below)<!-- Black screen transition -->
+:{{DIcon}} I'll be right there.
+::{{A|vo dialog schjeq003 raidenei 03.ogg}} '''Ei:''' As you wish... Take in the sights for me.
+
+;(After accepting Ei's request)
+:{{A|vo schjeq003 6 raidenei 01.ogg}} '''Ei:''' ...
+:{{DIcon}} You seem... unsettled.
+:{{A|vo schjeq003 6 raidenei 02.ogg}} '''Ei:''' ...Since leaving the [[Plane of Euthymia]], I seem to experience this feeling more and more, whether in the markets of Inazuma or before the [[Sacred Sakura]]...
+:{{DIcon}} I seem to have a hand in a lot of those... I'm sorry.
+:{{A|vo schjeq003 6 raidenei 03.ogg}} '''Ei:''' No, it may not be a bad thing. In the Plane of Euthymia, I could not perceive the consequences of my choices, but that did not preclude their impact.
+:{{A|vo schjeq003 6 raidenei 04.ogg}} '''Ei:''' It is only natural that I would feel their effect one day. Even a god cannot sever the link between cause and effect.
+:{{A|vo schjeq003 6 raidenei 05.ogg}} '''Ei:''' I have come to realize that isolating oneself from all engagement... is no way to reach a true state of "euthymia."
+:{{DIcon}} ...
+:{{A|vo schjeq003 6 raidenei 06.ogg}} '''Ei:''' I will not unleash [[Musou no Hitotachi]] this time. I can only support you in the battle ahead.
+:{{A|vo schjeq003 6 raidenei 07.ogg}} '''Ei:''' Using illusion against illusion, dream against nightmare... The ultimate success of this plan comes down to you, {{Traveler}}.
+:'''{{Traveler}}:''' (This is a last-minute plan, we don't exactly know what we're about to face, and it could all fall through at a moment's notice... But, one thing is for sure.)
+:'''{{Traveler}}:''' ...This time, you will not face her alone.
+:;(Time passes until around sunset)
+:;(The teams are finishing up their games)
+:{{A|vo schjeq003 6 sayu 01.ogg}} '''Sayu:''' Did... Did we do it...?
+:'''Gorou:''' Phew, just in time...
+:'''Thoma:''' And, it's done...
+:'''Arataki Itto:''' Woohoo! Right on! Big dubs for the team!
+:{{A|vo schjeq003 6 together 01.ogg}} '''Mamoru, Akira, and Genta:''' The Arataki Gang rules!
+:{{A|vo schjeq003 6 nightmarefragments 01.ogg}} '''Nightmare Fragments:''' Heh...!
+:'''Arataki Itto:''' Wh&mdash;What in the...
+:{{A|vo schjeq003 6 nightmarefragments 02.ogg}} '''Nightmare Fragments:''' ...Heh...
+:'''Kujou Sara:''' Don't panic! Just follow the plan!
+:;(The Traveler and Ei intercept the Nightmare Fragments on the Chinju Forest path)
+:{{A|vo schjeq003 6 raidenei 08.ogg}} '''Ei:''' Prepare yourself, {{Traveler}}.
+:{{DIcon}} Already done.
+:{{A|vo schjeq003 6 raidenei 09.ogg}} '''Ei:''' Alright, follow me!
+:;(Ei pulls the Traveler and the Fragments into the Plane of Euthymia)<!-- Loading screen transition -->
+
+;(Upon entering the battle against the Nightmare Fragments)
+:{{A|vo schjeq003 7 raidenei 01.ogg}} '''Ei:''' To think, there would be a day when we would fight in the Plane of Euthymia side by side...
+:{{A|vo schjeq003 7 nightmarefragments 01.ogg}} '''Nightmare Fragments:''' ...Heh!
+:{{A|vo schjeq003 7 raidenei 02.ogg}} '''Ei:''' Be on your guard, {{Traveler}}!
+
+;(Around 15 seconds after the start of the battle)
+:{{A|vo schjeq003 7 together 01.ogg}} '''Everyone's Prayers:''' God of Thunder, heed our call.
+::Amidst thunderous prayers, your opponent has shown a weakness!
+
+;(When the Fragment's HP reaches 66%, or around 90 seconds{{Verify}} after the previous line)<!-- Triggers charging attack, 7 charges (3 slow, 4 fast) -->
+::The opponent's attacks are ferocious, do your best to avoid them
+<!-- After the charging attacks -->
+:{{A|vo schjeq003 7 together 02.ogg}} '''Everyone's Prayers:''' Shatter the night, unmask it all.
+::Amidst thunderous prayers, your opponent has revealed itself!
+
+;(When the Fragment's HP reaches 50%, or around 30 seconds{{Verify}} after the previous line)
+:{{A|vo schjeq003 7 together 03.ogg}} '''Everyone's Prayers:''' With your might, let illusions fall.
+::Amidst thunderous prayers, your opponent begins to falter!
+
+;(When the Fragment's HP reaches 33%, or around 90 seconds{{Verify}} after the previous line)<!-- unlike aggressive stance and prayers, doesn't seem to trigger based on time --><!-- different user x2: got this at about 50% HP -->
+:The opponent is entering a defensive stance, wait for Ei to attack
+<!-- when Ei breaks opponent's defensive stance -->
+:{{A|vo schjeq003 7 raidenei 06.ogg}} '''Ei:''' ...I lend you my power.
+::Empowered by divine aid, shatter the illusion!
+:{{A|vo schjeq003 7 raidenei 07.ogg}} '''Ei:''' ...I grant you the Shogun's blessing.
+
+;(Occasionally, whenever [[Ei (Quest Boss)|Ei]] performs '''Slash Combo 1''' or '''Slash Combo 2''')
+:{{A|vo schjeq003 7 raidenei 03.ogg}} '''Ei:''' We have the advantage! Time to strike!
+
+;(Occasionally, whenever [[Ei (Quest Boss)|Ei]] performs '''Lightning Summon''')
+:{{A|vo schjeq003 7 raidenei 04.ogg}} '''Ei:''' Truth made manifest!
+
+;(Occasionally, whenever [[Ei (Quest Boss)|Ei]] performs '''Lightning Summon''')
+:{{A|vo schjeq003 7 raidenei 05.ogg}} '''Ei:''' An end to this illusion!
+
+;(When the Traveler's HP reaches 1%, first time only)
+:{{A|vo schjeq003 7 yaemiko 01.ogg}} '''Yae Miko:''' Careful now, little one. Don't forget I've placed my god in your capable hands.
+:;(The Traveler is healed to 80% HP)
+----
+;(At Chinju Forest, after defeating the Nightmare Fragments)<!-- Loading screen transition -->
+:{{A|vo schjeq003 8 nightmarefragments 01.ogg}} '''Nightmare Fragments:''' ...Heh...
+:{{A|vo schjeq003 8 mizuki 01.ogg}} '''Yumemizuki Mizuki:''' God of Thunder, heed our call.
+:{{A|vo schjeq003 8 together 01.ogg}} '''Kinkaku, Ginkaku, and Tetsunosuke:''' Shatter the night, unmask it all!
+:{{A|vo schjeq003 8 yaemiko 01.ogg}} '''Yae Miko:''' With your might, let illusions fall.
+;(A [[#Gallery|cutscene]] plays)
+:;(Mikoshi Chiyo
+::'''Inazuman Soldier A:''' ...Wake up, wake up!
+::'''Inazuman Soldier A:''' ...Mikoshi-sama! Mikoshi-sama!
+::'''Inazuman Soldier A:''' Are you okay?
+::'''Inazuman Soldier B:''' Hah... We thought you'd been eaten alive by that beast...
+:;(The nightmare makes the Inazuman soldiers appear to be attacked by nightmarish creatures)
+::'''???:''' No... NO...
+::'''Mikoshi Nagamasa:''' Mother!<!-- there's a second voice saying this at the same time, but can't tell if it's Michihiro or a nightmare-ly distortion -->
+:;(The nightmare makes [[Mikoshi Nagamasa]] and [[Mikoshi Michihiro]] look like enemies)
+::'''Mikoshi Chiyo:''' No... Not you, too...
+::'''Ei:''' ...Do what you must! Just save her!
+::'''Yumekui-Baku:''' This nightmare... It's beyond our skill to heal!
+::'''Mikoshi Chiyo:''' No...
+:;(A female voice is heard laughing ominously)
+:;(The nightmare makes the designs on the curtains appear to be monsters attacking Ei)
+::'''Mikoshi Chiyo:''' ...NO!
+::'''Mikoshi Chiyo:''' ...Must... save... them...!
+:;(Chiyo attempts to draw her sword, which shatters)
+:;(Ei slices through the nightmare and takes Chiyo's hand)
+:;(Chiyo opens her eyes to find herself at a picnic with [[Makoto]], Ei, [[Sasayuri]], and the [[Kitsune Saiguu]])
+::'''Mikoshi Chiyo:''' ...A nightmare... It felt like an endless nightmare...
+::'''Ei:''' Sleep in peace
+::'''Ei:''' This time... only sweet dreams await
+:;(In the present day, Ei sits on a picnic cloth alone and watches as Chiyo's horn fades away in her lap)
+::'''Traveler:''' Ei!
+:;(Cutscene ends)
+:{{Black Screen|Night falls, the games are complete, and the Mikawa Flower Festival officially begins...}}
+:{{A|vo schjeq003 9 yaemiko 01.ogg}} '''Yae Miko:''' ...For many of us, I'm sure the last few days have seen unforgettable levels of stress and fatigue...
+:{{A|vo schjeq003 9 yaemiko 02.ogg}} '''Yae Miko:''' But, for now, I hope we can put the past behind us and enjoy a night of pure, unadulterated fun.
+:{{A|vo schjeq003 9 yaemiko 03.ogg}} '''Yae Miko:''' Now, before we kick things off... our representative will announce the award for "best game."
+:{{DIcon}} The award for "best game" goes to...
+::{{DIcon}} Mujina body doubles to the rescue... It's "[[Enchanted Tales of the Mikawa Festival/Bunshin Phantasm|Bunshin Phantasm]]"!
+:::{{A|vo schjeq003 9 together 01.ogg}} '''Kichiboushi & Yoimiya:''' Woohoo!
+:::{{A|vo schjeq003 9 sayu 01a 1.ogg}} '''Sayu:''' W&mdash;We won? I'm not dreaming, am I? This is real?
+:::{{A|vo schjeq003 9 ayaka 01a 1.ogg}} '''Kamisato Ayaka:''' It's real, alright. See what's possible when you set your mind to something, Sayu?
+::{{DIcon}} Endless fun with harpastum... It's "[[Enchanted Tales of the Mikawa Festival/Akitsu Harpastum: Dreams Doubled|Akitsu Harpastum]]"!
+:::{{A|vo schjeq003 9 together 02.ogg}} '''Shousei & The Arataki Gang:''' Woohoo!
+:::'''Thoma:''' I wish Hitotsume Kozou and the other were here. What I'd give to see the look on their faces...
+:::'''Kuki Shinobu:''' Except... you wouldn't be able to see their expressions at all.
+::{{DIcon}} An epic quest for fried tofu... It's "[[Enchanted Tales of the Mikawa Festival/A Little Fox's Daydream|A Little Fox's Daydream]]"!
+:::{{A|vo schjeq003 9 together 03.ogg}} '''Gyoubu Koban & Swordfish II:''' Woohoo!
+:::'''Sangonomiya Kokomi:''' Miss Mizuki, that means our collaboration can&mdash;
+:::{{A|vo schjeq003 9 mizuki 01c 1.ogg}} '''Yumemizuki Mizuki:''' *snore*... So full...
+:::'''Sangonomiya Kokomi:''' ...Can wait until you're fully rested.
+:{{A|vo schjeq003 9 yaemiko 04.ogg}} '''Yae Miko:''' The winning team will take home a sum of prize money courtesy of the [[Yashiro Commission]], along with the [["Tanuki Game Award"|Tanuki Game Award]].
+:{{A|vo schjeq003 9 yaemiko 05.ogg}} '''Yae Miko:''' In addition, our special guest has the honor of announcing a "special award." Shogun, if you could...
+:{{A|vo schjeq003 9 raidenei 01.ogg}} '''Ei:''' ...This "special award" recognizes the team with the "most immersive game"...
+:{{A|vo schjeq003 9 raidenei 02.ogg}} '''Ei:''' And that goes to the creators of the horror game, "The Doppelganger Incident" &mdash; Kinkaku, Ginkaku, and Tetsunosuke.
+:{{A|vo schjeq003 9 together 04.ogg}} '''Kinkaku, Ginkaku, and Tetsunosuke:''' Eh!?
+:{{A|vo schjeq003 9 asari 01.ogg}} '''Asari:''' Oh, so it was a horror game all along! I really thought I'd seen a ghost!
+:{{A|vo schjeq003 9 komura 01.ogg}} '''Komura:''' Wow, that takes "immersive" to a whole new level... Bake-danuki are something else!
+:'''Shikanoin Heizou:''' Ah, smart idea... Now, people have no reason to fear the youkai.
+:'''Kujou Sara:''' I don't think the Shogun and Lady Guuji want the youkai to fear humans, either.
+:{{A|vo schjeq003 9 raidenei 03.ogg}} '''Ei:''' I present you this award in the name of the Narukami Ogosho, and I promise you this &mdash; no human shall infringe on your peace without cause.
+:{{A|vo schjeq003 9 ginkaku 02.ogg}} '''Ginkaku:''' Shogun... is the best!
+:{{A|vo schjeq003 9 together 05.ogg}} '''Kinkaku & Tetsunosuke:''' Shogun is the best!
+:{{DIcon}} What about the [[Shogunate]]'s development plan...?
+:{{A|vo schjeq003 9 yaemiko 06.ogg}} '''Yae Miko:''' Heh, the whole purpose of the investigation was to avoid disturbing youkai territory.
+:{{A|vo schjeq003 9 yaemiko 07.ogg}} '''Yae Miko:''' Besides, the world is a big place. Humans, youkai... There's more than enough room for all of us.
+{{Dialogue End}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=quest}}
+
+==Tutorials==
+{{Tutorial
+|image1   = Tutorial As Though Surrounded by Thunder 1.png
+|text1    = During combat, you will obtain new combat techniques known as Parry and Veilbreak. When using this skill, you will take a defensive stance to block opposing attacks.<br>If you {{color|bp|Parry just as your opponent is striking}}, you will Perfect Parry, completely negating any DMG done to you and gaining more Verity.
+|image2   = Tutorial As Though Surrounded by Thunder 2.png
+|text2    = You will gain Verity when you use Normal Attacks and Charged Attacks against your opponent, or when you successfully Parry. When you max out on Verity, you can actively use Veilbreak to deal massive DMG.<br>During combat, Ei will fight alongside you to defeat the Nightmare Fragments.
+}}
+
+==Gallery==
+<gallery>
+Story Teaser- Ode of Floating Dreams - Genshin Impact
+</gallery>
+
+==Other Languages==
+{{Other Languages
+|en       = As Though Surrounded by Thunder
+|zhs      = 如伴雷电
+|zhs_rm   = 
+|zht      = 如伴雷電
+|zht_rm   = 
+|zh_tl    = 
+|ja       = 雷電を伴うが如く
+|ja_rm    = Raiden wo Tomonau ga Gotoku
+|ja_tl    = As Though Accompanied by Thunder
+|ko       = 번개처럼
+|ko_tl    = 
+|es       = Como acompañar al trueno
+|es_tl    = Like Accompanying the Thunder
+|fr       = Comme entourés par le tonnerre
+|fr_tl    = As If Surrounded by Thunder
+|ru       = Будто среди молний
+|ru_tl    = 
+|th       = ดั่งห้อมล้อมด้วยสายฟ้า
+|th_rm    = 
+|th_tl    = 
+|vi       = Như Bên Sấm Sét
+|vi_tl    = 
+|de       = Als ginge man einher mit Blitz und Donner
+|de_tl    = As If You Were Accompanying Lightning and Thunder
+|id       = Bagai Ditemani oleh Petir
+|id_tl    = 
+|pt       = Como Acompanhar o Trovão
+|pt_tl    = 
+|tr       = Gök Gürültüsüyle Çevrelenmiş Gibi
+|tr_tl    = 
+|it       = Come il rombo del tuono
+|it_tl    = 
+}}
+
+==Change History==
+{{Change History|5.4}}
+
+[[pt-br:Como Acompanhar o Trovão]]
+[[ru:Будто среди молний]]

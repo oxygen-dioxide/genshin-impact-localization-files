@@ -9,6 +9,7 @@
 |tab1 = All
 |tab2 = By Availability
 |tab3 = By Feature
+|class = custom-tabs-secondary
 }}
 __TOC__
 ==Interactable Furnishings==
@@ -32,7 +33,9 @@ These furnishings, or a component of the furnishings, have the ability to be fre
 }}
 
 ==Surface Furnishings==
-These furnishings can have other furnishings placed on their surface. The height of the furnishing's surface is used when the "Snap Height" option in the placement menu is enabled. If an item is placed on the furnishing, then the surface furnishing is required when placing a [[Replica]].
+These furnishings can have other furnishings placed on their surface. The height of the furnishing's surface is used when the "Snap Height" option in the placement menu is enabled. Furnishings with a surface cannot be placed if their surface is at an elevation above 30 units.
+
+If an item is placed on the furnishing, then the surface furnishing is required when placing a [[Replica]].
 
 Note that a large number of [[Interior Furnishing|interior furnishing]]s share this property, even those which do not resemble tables.
 
@@ -44,16 +47,7 @@ Note that a large number of [[Interior Furnishing|interior furnishing]]s share t
 |height=1
 }}
 
-==Battle Pass Exclusive Furnishings==
-{{Furnishings by Category Table
-|Battle Pass Exclusive Furnishings
-|header=Furnishings with blueprints that are only available in [[Battle Pass]] [[Gnostic Chorus]]
-|battlepass=1
-|version=1
-|noae=1
-|noload=1
-|tablesortcol=7
-}}
-
 [[Category:Furnishings| ]]
 [[Category:Lists]]
+
+[[ja:調度品/一覧/機能別]]

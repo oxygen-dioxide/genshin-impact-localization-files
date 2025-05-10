@@ -4,7 +4,7 @@
 |caption      = The Hydro special effect, Slowing Water
 |type         = Combat
 }}
-Within the [[Spiral Abyss]] and certain [[Domains]], monsters may have an aura that can cast special effects.
+Within the [[Spiral Abyss]] and certain [[Domains]], monsters may have an '''aura''' that can cast special effects.
 
 ==Debuff Abilities==
 {{See also|Ley Line Disorder|Domains|Status}}
@@ -24,7 +24,7 @@ The duration of the aura from enemies is '''not''' determined by the elemental g
 {| class="article-table tdc2"
 ! Name !! Element !! Effect !! Applied Gauge Units !! Duration !! Application Interval
 |-
-| [[Smoldering Flames]] || {{Element|Pyro}} || Deals '''0.6 × [[Level Scaling/Reaction#Level Multiplier|Level Multiplier]]''' as {{Color|Pyro DMG}} per second. This DMG does not apply Pyro. || 1 || 20 || 15
+| [[Smoldering Flames]] || {{Element|Pyro}} || Deals '''0.6 × [[Elemental Reaction/Level Scaling#Level Multiplier|Level Multiplier]]''' as {{Color|Pyro DMG}} per second. This DMG does not apply Pyro. || 1 || 20 || 15
 |-
 | [[Slowing Water]] || {{Element|Hydro}} || [[Elemental Skill]] and [[Elemental Burst]] [[CD]] '''+100%'''. || 1 || 20 || 15
 |-
@@ -36,8 +36,8 @@ The duration of the aura from enemies is '''not''' determined by the elemental g
 ==Damage Abilities==
 The names of these abilities come from the official update log.<ref>HoYoverse News: [https://genshin.mihoyo.com/m/en/news/detail/9368 Version 1.4 Update Details]</ref>
 
-* Damage is determined by the base multiplier of the ability, the [[Level Scaling/Reaction#Level Multiplier|Level Multiplier]], and the [[RES]] of the target to the damage type. The DMG dealt by these abilities is not affected by the target's [[DEF]] or [[DMG Reduction]].
-** For calculations,<br /><math>\text{Damage} = (\text{Base Multiplier} \times \text{Level Multiplier} \times \text{RES Multiplier})</math>
+* Damage is determined by the base multiplier of the ability, the [[Elemental Reaction/Level Scaling#Level Multiplier|Level Multiplier]], and the [[RES]] of the target to the damage type. The DMG dealt by these abilities is not affected by the target's [[DEF]] or [[DMG Reduction]].
+** For calculations,<br><math>\text{Damage} = (\text{Base Multiplier} \times \text{Level Multiplier} \times \text{RES Multiplier})</math>
 * The durations of the elemental statuses applied on characters is determined by the [[gauge unit]], which functions identically to those applied by characters.
 * Defeating the enemy that cast the skill will immediately cause the skill's effects to despawn. (This does not include any damage or elements already afflicted by these effects; e.g., Pursuing Fireball will disappear, but any character who was previously hit by it will still be affected by Pyro.)
 * The skills have a fixed cooldown.
@@ -74,7 +74,7 @@ The names of these abilities come from the official update log.<ref>HoYoverse Ne
 |-
 | [[Freezing Filament]]
 | style="text-align:center;" |{{Icon/Element|Cryo}}
-| A ice claw-shaped cage will appear from the foot of the on-field character and deal {{Color|Cryo DMG}} per second when a character touches them.
+| An ice claw-shaped cage will appear from the foot of the on-field character and deal {{Color|Cryo DMG}} per second when a character touches them.
 | 1U
 | 400%
 | 12 s
@@ -98,7 +98,7 @@ The names of these abilities come from the official update log.<ref>HoYoverse Ne
 | Lightning attacks will occur around (enemy), dealing {{Color|Electro DMG}} to characters who are hit.
 | 1U
 | 400%
-| 
+|
 |-
 | [[Discharge]]
 | style="text-align:center;" |{{Icon/Element|Hydro}} {{Icon/Element|Cryo}} {{Icon/Element|Electro}}
@@ -127,6 +127,11 @@ The names of these abilities come from the official update log.<ref>HoYoverse Ne
 | [[Attendants]]
 | Each Attendant will increase the Leader's Element RES and Physical RES by 10%. The Attendants will restore the Leader's HP every (12/20)s, with each Attendant restoring (5/10)% HP, When there are no Attendants. the Leader will not have any of the above enhancement and restoration effects.
 |}
+
+==Trivia==
+* The element of most auras matches the damage type of the enemy they are attached to. However, there are exceptions:
+** [[Ruin Machine|Ruin machines]] may have a variety of elemental auras despite primarily or entirely dealing {{Color|[[Physical]] DMG}}.
+** A [[Rock Shieldwall Mitachurl]] in the Unyielding III challenge of the [[Ridge Watch]] [[Domain]] has a [[Tracking Fire Ball]] aura despite being incapable of dealing {{Color|[[Pyro]] DMG}}.
 
 ==Change History==
 {{Change History|1.0}}

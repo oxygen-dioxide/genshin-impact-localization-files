@@ -1,4 +1,4 @@
-{{EventTabs}}
+{{Event Tabs}}
 ==Steps==
 ===Day 1 &mdash; Mondstadt Hash Brown===
 [[File:Screenshot Good Hunter Express MHB.png|225px|right]]
@@ -6,7 +6,7 @@
 #*Collection: Sara
 #*Delivery: [[Hardworking Silio]]
 #*Note: Deliver within 100s without gliding, sprinting, or taking any DMG.
-#*Reward:<br />{{Item|Mora|x=30,000}} {{Item|Valberry|x=3}}
+#*Reward:<br>{{Item|Mora|x=30,000}} {{Item|Valberry|x=3}}
 #Deliver the food to Hardworking Silio
 
 ===Day 2 &mdash; Sweet Madame===
@@ -15,7 +15,7 @@
 #*Collection: Sara
 #*Delivery: [[Short-Tempered Wallit]]
 #*Note: Deliver within 110s without taking any DMG or being affected by any elements.
-#*Reward:<br />{{Item|Mora|x=30,000}} {{Item|Philanemo Mushroom|x=3}}
+#*Reward:<br>{{Item|Mora|x=30,000}} {{Item|Philanemo Mushroom|x=3}}
 #Deliver the food to Short-Tempered Wallit
 
 ===Day 3 &mdash; Flaming Red Bolognese===
@@ -24,7 +24,7 @@
 #*Collection: Sara
 #*Delivery: [[Slacking Angelo]]
 #*Note: Deliver within 95s without gliding, sprinting, climbing, or taking any DMG.
-#*Reward:<br />{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
+#*Reward:<br>{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
 #Deliver the food to Slacking Angelo
 
 ===Day 4 &mdash; Tea Break Pancake===
@@ -33,7 +33,7 @@
 #* Collection: Sara
 #*Delivery: [[Short-Tempered Wallit]]
 #*Note: Deliver within 95s without sprinting or taking any DMG.
-#*Reward:<br />{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
+#*Reward:<br>{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
 # Deliver the food to Short-Tempered Wallit
 
 ===Day 5 &mdash; Mondstadt Hash Brown===
@@ -42,7 +42,7 @@
 #* Collection: Sara
 #*Delivery: [[Hardworking Silio]]
 #*Note: Deliver within 130s without taking any DMG or being affected by any elements.
-#*Reward:<br />{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
+#*Reward:<br>{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
 #Deliver the food to Hardworking Silio
 
 ===Day 6 &mdash; Mondstadt Grilled Fish===
@@ -51,7 +51,7 @@
 #* Collection: Sara
 #*Delivery: [[Hardworking Silio]]
 #*Note: Deliver within 110s without taking any DMG, sprinting, or being affected by any elements.
-#*Reward:<br />{{Item|Mora|x=30,000}} {{Item|Windwheel Aster|x=3}}
+#*Reward:<br>{{Item|Mora|x=30,000}} {{Item|Windwheel Aster|x=3}}
 #Deliver the food to Hardworking Silio
 
 ===Day 7 &mdash; Fisherman's Toast===
@@ -60,7 +60,7 @@
 #* Collection: Sara
 #*Delivery: [[Short-Tempered Wallit]]
 #*Note: Deliver within 130s without sprinting or being affected by any elements.
-#*Reward:<br />{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
+#*Reward:<br>{{Item|Mora|x=20,000}} {{Item|Adventurer's Experience|x=4}}
 # Deliver the food to Short-Tempered Wallit
 
 ==Notes==
@@ -69,9 +69,9 @@
 
 ==Dialogue==
 ===Day 1 &mdash; Mondstadt Hash Brown===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
-:{{#vardefineecho:quest_start|{{DIcon|Quest}} I heard that someone placed a custom order...}}
+:{{DIcon|Quest}} I heard that someone placed a custom order...
 :'''Sara:''' That's correct. You're here to help, right? Then you're right on time &mdash; I'd just finished making this Mondstadt Hash Brown.
 :'''Sara:''' It's supposed to go to [[Silio]]. He paid us earlier, and said that he'd be waiting for his delivery near Stormbearer Point.
 :{{DIcon}} I'll deliver it right now.
@@ -79,7 +79,7 @@
 ::'''Sara:''' Oh, yes, this Mondstadt Hash Brown is just out of the oven, so do handle it with care.
 ::'''Sara:''' Don't {{Color|buzzword|run too fast, use your wind glider, and don't get into a fight}}, or that hash brown may just come apart.
 ::'''Sara:''' You do have to be quick, though. This dish won't taste good if it gets cold.
-:;(Obtain [[Special Mondstadt Hash Brown]] ×1)
+:;(Obtain [[Special Mondstadt Hash Brown (While It's Warm)]] ×1)
 :{{DIcon}} Hmm, I've got other things to do right now.
 ::'''Sara:''' Really? Okay then. I'll find someone else to make that delivery...
 :;(Quest resets)
@@ -87,12 +87,12 @@
 
 ;(Upon failure via sprinting, gliding, or taking damage)
 :'''Paimon:''' Oh no, this Mondstadt Hash Brown looks inedible now... There's no way Silo's accepting this.
-:{{#vardefineecho:new_serving|'''Paimon:''' Well, nothing to do but go back to Sara and get a new serving.}}
+:'''Paimon:''' Well, nothing to do but go back to Sara and get a new serving.
 :;(Quest resets)
 
 ;(Upon failure via timeout)
 :'''Paimon:''' Uh, looks like you took too long. There's no way Silio's gonna eat a hash brown that's gone this cold.
-:{{#var:new_serving}}
+:'''Paimon:''' Well, nothing to do but go back to Sara and get a new serving.
 :;(Quest resets)
 
 ;(Talk to Hardworking Silio)
@@ -101,12 +101,12 @@
 :'''Hardworking Silio:''' Oh, wonderful, I was starving!
 :'''Hardworking Silio:''' Thanks for delivering this hash brown to me.
 :;(Obtain [[Valberry]] ×3, [[Mora]] ×30,000)
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 ===Day 2 &mdash; Sweet Madame===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
-:{{#var:quest_start}}
+:{{DIcon|Quest}} I heard that someone placed a custom order...
 :'''Sara:''' Yup, you've come at just the right moment &mdash; I'd just finished preparing this Sweet Madame.
 :'''Sara:''' Wallit ordered it earlier, and requested that we deliver it to a location west of the [[Dawn Winery]] later in the day...
 :'''Sara:''' If you don't mind helping us out, could you take his order to him real quick?
@@ -137,12 +137,12 @@
 :'''Short-Tempered Wallit:''' Ah, you're here. Thank you so much.
 :'''Short-Tempered Wallit:''' I need to chow this down fast &mdash; I still have business to attend to.
 :;(Obtain [[Philanemo Mushroom]] ×3, [[Mora]] ×30,000)
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 ===Day 3 &mdash; Flaming Red Bolognese===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
-:{{#var:quest_start}}
+:{{DIcon|Quest}} I heard that someone placed a custom order...
 :'''Sara:''' Right, I believe a certain... Angelo ordered &mdash; and paid for &mdash; a serving of our Flaming Red Bolognese.
 :'''Sara:''' After that, he asked that we deliver it to him near [[Brightcrown Canyon]]. But that's some distance away, and I don't have anyone I can send there...
 :'''Sara:''' If you're alright with it, could you help us deliver it to him?
@@ -163,7 +163,7 @@
 
 ;(Upon failure via timeout)
 :'''Paimon:''' We've taken took long, this food's gone cold...
-:{{#var:new_serving}}
+:'''Paimon:''' Well, nothing to do but go back to Sara and get a new serving.
 :;(Quest resets)
 
 ;(Talk to Slacking Angelo)
@@ -172,10 +172,10 @@
 :'''Slacking Angelo:''' Ah, you're finally here. If you'd taken any longer, I might have fallen asleep.
 :'''Slacking Angelo:''' Thank you, I'll just take this.
 :;(Obtain [[Adventurer's Experience]] ×4, [[Mora]] ×20,000)
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 ===Day 4 &mdash; Tea Break Pancake===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
 :{{DIcon|Quest}} I heard that someone placed a custom order...
 :'''Sara:''' That's right. Great timing, Traveler! Wallit ordered a stack of Tea Break Pancakes from us earlier/ Don't worry, he's already paid beforehand.
@@ -207,10 +207,10 @@
 :'''Short-Tempered Wallit:''' Oh, it's finally here, is it? Give it here &mdash; I have things to do and places to be.
 :'''Short-Tempered Wallit:''' I've heard that you can find suitable brewing ingredients around these parts...
 :;(Obtain [[Adventurer's Experience]] ×4, [[Mora]] ×20,000)
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 ===Day 5 &mdash; Mondstadt Hash Brown===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
 :{{DIcon|Quest}} I heard that someone placed a custom order...
 :'''Sara:''' Well, here's what happened. Silio ordered a serving of Mondstadt Hash Brown, and said that he'd like it delivered around this time.
@@ -219,7 +219,7 @@
 :{{DIcon}} Sure, I'll deliver it.
 ::'''Sara:''' Great! Thanks for helping.
 ::'''Sara:''' Please remember to {{Color|buzzword|avoid getting hit by any element}} while you're on your way. Be careful now, and don't get hurt.
-:;(Obtain [[Special Mondstadt Hash Brown]] ×1)
+:;(Obtain [[Special Mondstadt Hash Brown (While It's Warm)]] ×1)
 :{{DIcon}} I've got some other things to do.
 ::'''Sara:''' Oh, sure. I'll go get someone else to help. That said, it's been quite dangerous outside lately.
 :;(Quest resets)
@@ -240,10 +240,10 @@
 :{{DIcon}} Here's the dish you ordered.
 :'''Hardworking Silio:''' Oh wow, thanks, you're finally here!
 :;(Obtain [[Adventurer's Experience]] ×4, [[Mora]] ×20,000)
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 ===Day 6 &mdash; Mondstadt Grilled Fish===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
 :{{DIcon|Quest}} I heard that someone placed a custom order...
 :'''Sara:''' That's right. Silio ordered another serving of Mondstadt Grilled Fish today before heading to [[Stormterror's Lair]]. Could you help us and deliver this to him real quick?
@@ -273,10 +273,10 @@
 :{{DIcon}} Here's the dish you ordered.
 :'''Hardworking Silio:''' Great! This meal should give me enough energy to finally get out of this blasted place.
 :;(Obtain [[Windwheel Aster]] ×3, [[Mora]] ×30,000)
-{{Dialogue end}}
+{{Dialogue End}}
 ----
 ===Day 7 &mdash; Fisherman's Toast===
-{{Dialogue start}}
+{{Dialogue Start}}
 ;(Talk to Sara)
 :{{DIcon|Quest}}I heard that someone placed a custom order...
 :'''Sara:''' Yup, Wallit ordered some Fisherman's Toast today before heading off to the [[Stone Gate]] on the border between Mondstadt and Liyue.
@@ -306,7 +306,7 @@
 :{{DIcon}} Here's the dish you ordered.
 :'''Short-Tempered Wallit:''' Finally! Thank you. Alright then, give it here. I still have work to do after this.
 :;(Obtain [[Adventurer's Experience]] ×4, [[Mora]] ×20,000)
-{{Dialogue end}}
+{{Dialogue End}}
 
 ==Other Languages==
 {{Other Languages
@@ -320,10 +320,9 @@
 |ja_rm   = Shikagari Haitatsu
 |ja_tl   = Good Hunter's Delivery
 |ko      = 디어 헌터 딜리버리
-|ko_rm   = Dieo Heonteo Dillibeori
 |ko_tl   = Good Hunter Delivery
 |es      = El Buen Cazador Express
-|es_tl   = 
+|es_tl   = The Good Hunter Express
 |fr      = Livraison spéciale : Le Bon Chasseur
 |fr_tl   = Special Delivery: The Good Hunter
 |ru      = Охотник Экспресс
@@ -338,8 +337,4 @@
 |id      = Good Hunter Express
 |pt      = Express Delivery do Caçador de Cervos
 |pt_tl   = 
-|tr      = 
-|tr_tl   = 
-|it      = 
-|it_tl   = 
 }}

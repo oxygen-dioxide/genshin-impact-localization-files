@@ -6,7 +6,8 @@
 |type     = Normal Bosses
 |family   = Elemental Lifeforms
 |group    = Hypostases
-|location = [[Kannazuka]], [[Inazuma]]
+|area     = Kannazuka
+|region   = Inazuma
 |ability1 = Healing
 |ability2 = Shield
 |ability3 = Invincibility Frames
@@ -44,8 +45,8 @@
 |hp_type      = 1
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 
 ===Ignited State===
 In the ignited state, if its HP is less than 50%, it will regenerate 5% HP after every attack, including after reigniting. The Pyro Hypostasis will be extinguished when its shield is destroyed, which is most efficiently done using {{Hydro}}.
@@ -53,7 +54,7 @@ In the ignited state, if its HP is less than 50%, it will regenerate 5% HP after
 
 {{Enemy Attacks
 |name_1 = 3-Hit Combo
-|desc_1 = Arranges itself as a molten bull that charges at the player before periodically surfacing above ground, then turns into a giant crab that leaps into the player's general location, lastly emerges at the player's general location and explodes, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} with each hit and leaving a swarm of butterflies that deals '''33% ATK''' as {{Color|Pyro DMG}} upon contact.
+|desc_1 = Arranges itself as a molten bull that charges at the player before periodically surfacing above ground, then turns into a giant crab that leaps into the player's general location, lastly emerges at the player's general location and explodes, dealing '''100% ATK''' as {{Color|Pyro DMG}} with each hit and leaving a swarm of butterflies that deals '''33% ATK''' as {{Color|Pyro DMG}} upon contact.
 |file_1 = Pyro Hypostasis 3 Hit Combo
 
 |name_2 = Fire Ball
@@ -61,13 +62,13 @@ In the ignited state, if its HP is less than 50%, it will regenerate 5% HP after
 |file_2 = Pyro Hypostasis Roll
 
 |name_3 = Molten Fist
-|desc_3 = When near player, it levitates high above ground, and plunges back down, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}}. This creates an expanding Shockwave that deals '''100% ATK''' as {{Color|AoE Pyro DMG}} with each explosion.
+|desc_3 = When near player, it levitates high above ground, and plunges back down, dealing '''100% ATK''' as {{Color|Pyro DMG}}. This creates an expanding Shockwave that deals '''100% ATK''' as {{Color|Pyro DMG}} with each explosion.
 
 |name_4 = Serpentine Fireballs
 |desc_4 = Arranges itself into a Pyro Serpent that fires 3 waves of fireballs at the player's general location. Each fireball deals '''100% ATK''' as {{Color|Pyro DMG}}.
 
 |name_5 = Nuke
-|desc_5 = Forms a giant ball that cracks open slowly. After some amount of time, it causes a heavy explosion that deals '''250% ATK''' as {{Color|AoE Pyro DMG}} over the whole arena. This attack cannot be dodged using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
+|desc_5 = Forms a giant ball that cracks open slowly. After some amount of time, it causes a heavy explosion that deals '''250% ATK''' as {{Color|Pyro DMG}} over the whole arena. This attack cannot be dodged using [[Sprinting#Dash|dash]] [[Invincibility Frames|i-frames]].
 }}
 
 ===Extinguished State===
@@ -77,11 +78,11 @@ While in its extinguished state, the Pyro Hypostasis cycles between "Missiles", 
 |desc_1 = Flies into the air and forms a rhombus with its shell pieces, firing them quickly from top to bottom, each dealing '''50% ATK''' as {{Color|Pyro DMG}}. The core will be exposed during this attack.
 
 |name_2 = Molten Pillars
-|desc_2 = Creates a barrier of sorts around itself, targeting random areas and sending a pillar at said locations, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} before recalling them, leaving a patch of fire in said area.
+|desc_2 = Creates a barrier of sorts around itself, targeting random areas and sending a pillar at said locations, dealing '''100% ATK''' as {{Color|Pyro DMG}} before recalling them, leaving a patch of fire in said area.
 * The pillars will not target areas close to the core.
 
 |name_3 = Clap
-|desc_3 = Flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|AoE Pyro DMG}} in front of the wall.
+|desc_3 = Flies next to the player and forms a large wall, which folds in a "clapping" motion very quickly, dealing '''100% ATK''' as {{Color|Pyro DMG}} in front of the wall.
 
 |name_4 = Tinders
 |desc_4 = Spins around while taking on the form of a rocket, deploying three Tinders to reignite itself.
@@ -99,7 +100,7 @@ In the [[Hypostatic Symphony: Dissonant Verse]] Event, the Pyro Hypostasis gains
 |desc_1 = This attack will be used 3 times in a row.
 
 |name_2 = Fire Ball
-|desc_2 = Leaves behind burning residue along its path that lasts for '''8''' seconds and deals '''15% ATK''' as {{Color|AoE Pyro DMG}} every '''0.5''' seconds.
+|desc_2 = Leaves behind burning residue along its path that lasts for '''8''' seconds and deals '''15% ATK''' as {{Color|Pyro DMG}} every '''0.5''' seconds.
 
 |name_3 = Healing Tinders
 |desc_3 = While in the ignited state, 3 healing Tinders will be present. Each healing Tinder will recover '''0.2''' [[Gauge Unit]]s (Normal to Fearless) or '''1''' Gauge Unit (Extreme) every second for the Hypostasis' shield. These Tinders can be destroyed using Elemental Reactions and are weakest to {{Hydro}}. Their durability will be tripled in Extreme difficulty. Healing Tinders will respawn every ~35 seconds.
@@ -127,9 +128,15 @@ Being an entity of pure {{Pyro}} energy, it is recommended to bring Hydro charac
 ==Achievements==
 {{Achievement Topic Table|topic=Pyro Hypostasis}}
 
+==Tutorials==
+{{Tutorial|Pyro Hypostasis}}
+
 ==Descriptions==
-{{Description|Code Name: Ayin. A high-purity [[Pyro]] entity.<br />Elemental hypostases have the ability to often enter a sort of "emergency restart" phase when they are about to be destroyed and can revive themselves in this way. Such rapid regeneration is not possessed even by most creatures for whom survival is the top priority.|[[Adventurer Handbook]]}}
-{{Description|Code Name: Ayin. A high-purity Pyro entity.<br />According to researchers, Elemental Hypostases are related to anomalies in local Elemental veins. But whether it is the existence of Elemental Hypostases that have affected Elemental veins or the mutated Elemental Energy that created Elemental Hypostases remains to be confirmed.|[[Archive]]}}
+{{Description|Code Name: Ayin. A high-purity [[Pyro]] entity.<br>Elemental hypostases have the ability to often enter a sort of "emergency restart" phase when they are about to be destroyed and can revive themselves in this way. Such rapid regeneration is not possessed even by most creatures for whom survival is the top priority.|[[Adventurer Handbook]]}}
+{{Description|Code Name: Ayin. A high-purity Pyro entity.<br>According to researchers, Elemental Hypostases are related to anomalies in local Elemental veins. But whether it is the existence of Elemental Hypostases that have affected Elemental veins or the mutated Elemental Energy that created Elemental Hypostases remains to be confirmed.|[[Archive]]}}
+
+==Soundtracks==
+{{Soundtracks by Category Table|type=combat}}
 
 ==Trivia==
 * Each of the Hypostases are named after one of the letters of the Hebrew Alphabet, with {{Lang|"Ayin"|he=ע|he_rm=ʿayin}} being named after the sixteenth.
@@ -138,6 +145,7 @@ Being an entity of pure {{Pyro}} energy, it is recommended to bring Hydro charac
 ** "Tinder" in the on-screen tip while fighting the Pyro Hypostasis.
 ** "Fire Seed" in the Pyro Hypostasis' [[Tutorial/Pyro Hypostasis|tutorial entry]].
 ** "Fiery Shieldseed" in the description of the Spirited Riff Dissonance in the [[Hypostatic Symphony: Dissonant Verse]] event.
+* The Pyro, Hydro and [[Cryo Hypostasis]] have rounded corners and appear intact as opposed to the sharp corners and decayed state of the rest.
 
 ==Gallery==
 <gallery>
@@ -145,7 +153,7 @@ Enemy Pyro Hypostasis Icon.png|Icon
 </gallery>
 
 ==Bellowing Blaze==
-{{Description|The abnormally high temperatures in northern [[Kannazuka]] have long caused a burning crystal to take form.<br />Defeat the Pyro Hypostasis in northern Kannazuka and quench the wild flames.}}
+{{Description|The abnormally high temperatures in northern [[Kannazuka]] have long caused a burning crystal to take form.<br>Defeat the Pyro Hypostasis in northern Kannazuka and quench the wild flames.}}
 [[File:Bellowing Blaze.png|400px]]
 <!--
 ==Video Guides==
@@ -162,7 +170,7 @@ Enemy Pyro Hypostasis Icon.png|Icon
 |zht     = 無相之火
 |zht_rm  = Wúxiàng zhī Huǒ
 |zh_tl   = Signless Fire
-|ja      = {{Rubi|無|む|相|そう|の|&nbsp;|炎|ほのお}}
+|ja      = 無相の炎
 |ja_rm   = Musou no Honoo
 |ja_tl   = Signless Fire
 |ko      = 무상의 불
@@ -183,9 +191,9 @@ Enemy Pyro Hypostasis Icon.png|Icon
 |pt      = Hypostasis Pyro
 |pt_tl   = Pyro Hypostasis
 |tr      = Ateş Hipostazı
-|tr_tl   = 
+|tr_tl   = {{lex|Pyro|tr}}  Hypostasis
 |it      = Ipostasi di Pyro
-|it_tl   = 
+|it_tl   = Pyro Hypostasis
 }}
 
 ==Change History==

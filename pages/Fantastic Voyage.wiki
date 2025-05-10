@@ -3,10 +3,7 @@
 |image         = Talent Fantastic Voyage.png
 |character     = Bennett
 |type          = Elemental Burst
-|info          = Bennett performs a jumping attack that deals {{Color|Pyro DMG}}, creating an Inspiration Field.<br /><br />'''Inspiration Field'''
-*If the health of a character within the [[AoE]] is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.
-*If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.
-*Imbues characters within the AoE with {{Color|Pyro}}.
+|info          = Bennett performs a jumping attack that deals {{Color|Pyro DMG}}, creating an Inspiration Field.<br><br>'''Inspiration Field'''<ul><li>If the health of a character within the [[AoE]] is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.</li><li>If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.</li><li>Imbues characters within the AoE with {{Color|Pyro}}.</li></ul>
 |scale_att1    = Max HP
 |scale_att2    = ATK
 |scale_att3    = Base ATK
@@ -21,30 +18,28 @@
 |duration      = 12s
 |attr1         = Skill DMG
 |value1        = 233–524%
-|attr2         = HP Regeneration
-|value2        = 6.00–13.50%/s + 577–1703
+|attr2         = Continuous Regeneration Per Sec
+|value2        = 6.00–13.50% Max HP+577–1,703
 |attr3         = ATK Bonus Ratio
-|value3        = 56–126% Base ATK
+|value3        = 56–126%
 }}
 {{Description|Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them "journeys full of wonder, excitement, and beauty."}}
 '''Fantastic Voyage''' is [[Bennett]]'s [[Elemental Burst]].
 
 ==Gameplay Notes==
-* {{TalentNote|energy frame|42}}<ref name="Genshin Academy burst info sheet">GenshinAcademy: [https://docs.google.com/spreadsheets/d/1iLUT8Tafwih3RZbNlA59w6-x5NQdgPvsMc86b7W92DQ/edit#gid=0 Elemental Burst Frame Tests]</ref>
-* {{TalentNote|cooldown frame|36}}<ref name="Genshin Academy burst info sheet" />
 * Inspiration Field first activates 1s after casting and every second afterwards for a total of 12 activations regenerating the HP or granting its ATK bonus to characters within the AoE.
 ** The ATK bonus has a duration of 2.1s.
-** {{TalentNote|character=Bennett|talent=Fantastic Voyage|static buff|Base ATK|ATK}}
-** In [[Co-Op Mode]], ATK bonuses granted by Inspiration Fields do not stack thus only the most recent one will take effect. 
+** {{Talent Note|character=Bennett|talent=Fantastic Voyage|static buff|Base ATK|ATK}}
+** In [[Co-Op Mode]], ATK bonuses granted by Inspiration Fields do not stack. The first-applied ATK bonus will take priority, and any overlapping fields will skip their ATK bonus application at their intervals until the existing instance has expired. Only the applier of the existing ATK bonus is capable of refreshing it.
 
 ;<big>Passive Effects</big>
-* {{TalentNote|character=Bennett|talent=Fantastic Voyage|ascension|2|Fearnaught}}
+* {{Talent Note|character=Bennett|talent=Fantastic Voyage|ascension|2|Fearnaught}}
 ** This effect is applied at the same time and has the same duration as the ATK bonus.
 
 ;<big>Constellation Effects</big>
-* {{TalentNote|constellation|1|Grand Expectation}}
-* {{TalentNote|constellation|5|True Explorer}}
-* {{TalentNote|constellation|6|Fire Ventures With Me}} The {{Color|Pyro DMG Bonus}} buff is also given to [[bow]] and [[catalyst]] characters.
+* {{Talent Note|constellation|1|Grand Expectation}}
+* {{Talent Note|constellation|5|True Explorer}}
+* {{Talent Note|constellation|6|Fire Ventures With Me}} The {{Color|Pyro DMG Bonus}} buff is also given to [[bow]] and [[catalyst]] characters.
 ** The {{Color|Pyro Infusion}} and {{Color|Pyro DMG Bonus}} are applied at the same time and have the same duration as the ATK bonus.
 
 ==Advanced Properties==
@@ -58,8 +53,8 @@
 |title2   = Pyro To Self
 |gu2      = 1U, 2.1s
 |icdtag2  = none
-|poise2   = —
-|impulse2 = —
+|poise2   = &mdash;
+|impulse2 = &mdash;
 }}
 
 ==Preview==
@@ -73,7 +68,7 @@
 |talentType=Elemental Burst
 |levels=14
 |order=skilldmg,continuousregenerationpersec,atkbonusratio,duration,cd,energycost
-|titles=Skill DMG (%),Continuous Regeneration Per Sec,ATK Bonus Ratio (% Base ATK),Duration,CD,Energy Cost
+|titles=Skill DMG (%),Continuous Regeneration Per Sec,ATK Bonus Ratio (%&nbsp;Base ATK),Duration,CD,Energy Cost
 |skilldmg_1=232.8
 |skilldmg_2=250.26
 |skilldmg_3=267.72
@@ -95,13 +90,13 @@
 |continuousregenerationpersec_5=7.95% Max HP+837
 |continuousregenerationpersec_6=8.4% Max HP+914
 |continuousregenerationpersec_7=9% Max HP+995
-|continuousregenerationpersec_8=9.6% Max HP+1082
-|continuousregenerationpersec_9=10.2% Max HP+1174
-|continuousregenerationpersec_10=10.8% Max HP+1270
-|continuousregenerationpersec_11=11.4% Max HP+1371
-|continuousregenerationpersec_12=12% Max HP+1477
-|continuousregenerationpersec_13=12.75% Max HP+1587
-|continuousregenerationpersec_14=13.50% Max HP+1703
+|continuousregenerationpersec_8=9.6% Max HP+1,082
+|continuousregenerationpersec_9=10.2% Max HP+1,174
+|continuousregenerationpersec_10=10.8% Max HP+1,270
+|continuousregenerationpersec_11=11.4% Max HP+1,371
+|continuousregenerationpersec_12=12% Max HP+1,477
+|continuousregenerationpersec_13=12.75% Max HP+1,587
+|continuousregenerationpersec_14=13.50% Max HP+1,703
 |atkbonusratio_1=56
 |atkbonusratio_2=60.2
 |atkbonusratio_3=64.4
@@ -128,7 +123,7 @@
 {{Talent VO}}
 
 ==Trivia==
-* {{TalentNote|clap}}
+* {{Talent Note|clap}}
 * The thumbs-up symbol that appears inside Fantastic Voyage's field is also shown on:
 ** {{Item|Teyvat Charred Egg}}, Bennett's specialty dish
 ** {{Item|Bennett: Recognition}}, his namecard
@@ -138,15 +133,14 @@
 {{Other Languages
 |en      = Fantastic Voyage
 |zhs     = 美妙旅程
-|zhs_rm  = Měimiào lǚchéng
+|zhs_rm  = Měimiào Lǚchéng
 |zht     = 美妙旅程
-|zht_rm  = Měimiào lǚchéng
+|zht_rm  = Měimiào Lǚchéng
 |zh_tl   = Wonderful Journey
 |ja      = 素晴らしい旅
 |ja_rm   = Subarashii Tabi
 |ja_tl   = Wonderful Journey
 |ko      = 아름다운 여정
-|ko_rm   = Areumdaun Yeojeong
 |ko_tl   = Beautiful Journey
 |es      = Aventura maravillosa
 |es_tl   = Wonderful Adventure
@@ -156,24 +150,24 @@
 |ru_tl   = Exciting Adventure
 |th      = Fantastic Voyage
 |vi      = Hành Trình Kỳ Diệu
-|vi_tl   = Marvellous Journey
+|vi_tl   = Marvelous Journey
 |de      = Fantastische Reise
 |de_tl   = Fantastic Voyage
 |id      = Fantastic Voyage
 |pt      = Viagem Fantástica
 |pt_tl   = Fantastic Voyage
 |tr      = Unutulmaz Serüven
-|tr_tl   = 
+|tr_tl   = Unforgettable Adventure
 |it      = Viaggio fantastico
 |it_tl   = Fantastic Voyage
 }}
 
 ==Change History==
 {{Change History|1.0}}
-
+<!--
 ==References==
 {{Reflist}}
-
+-->
 ==Navigation==
 {{Talent Navbox|Bennett}}
 
@@ -184,3 +178,4 @@
 [[ru:Волнительное приключение]]
 [[th:Fantastic Voyage]]
 [[vi:Hành Trình Kỳ Diệu]]
+[[uk:Фантастична подорож]]

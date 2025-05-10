@@ -4,32 +4,84 @@
 '''Event Items''' are items that are only obtainable during the period of particular in-game [[events]]. Most of them will disappear from the [[Inventory]] after the event concludes.
 
 Types of Event Items include [[Gadgets]], Event Currency, and Crafting Materials.
-__TOC__
+
 ==List of Event Items==
 {{#DPL:
 |namespace=
 |uses=Template:Item Infobox
 |category=Item&Event Items
 |notcategory=Event Currencies
-|include={Item Infobox}:image:%PAGE%,{Item Infobox¦Phantom Event Item Event},{Item Infobox}:description
-|table=class="article-table sortable",-,Icon,Name,Event,Description
-|tablerow=²{#if:%%¦²{#if:²{#pos:%%¦gallery}²¦[[File:Item %PAGE%.png¦64px¦link=%PAGE%]]¦[[File:%%¦64px¦link=%PAGE%]]}²¦[[File:Item %PAGE%.png¦64px¦link=%PAGE%]]}²,[[%PAGE%]],%%,%%
+|notcategory=Experience
+|notcategory=Gadgets
+|notcategory=Quest Items
+|notcategory=Upcoming Content
+|include={Item Infobox}:image:%PAGE%,{Item Infobox¦Phantom Event Item Event}
+|table=class="article-table sortable",-,Icon,Name,Event
+|tablerow=²{#if:%%¦²{#if:²{#pos:%%¦gallery}²¦[[File:Item %PAGE%.png¦50px¦link=%PAGE%]]¦[[File:%%¦50px¦link=%PAGE%]]}²¦[[File:Item %PAGE%.png¦50px¦link=%PAGE%]]}²,[[%PAGE%]],%%
+|resultsheader   = There are '''%PAGES%''' {{{header|Event Items}}}:\n
 |noresultsfooter=\nNo Results
-|allowcachedresults=true
 |ordermethod=sortkey
 }}
 
-==List of Event Currencies==
+===Event Quest Items===
+{{#DPL:
+|namespace=
+|uses=Template:Item Infobox
+|category=Item&Quest Items&Event Items
+|notcategory=Event Currencies
+|notcategory=Experience
+|notcategory=Gadgets
+|notcategory=Upcoming Content
+|include={Item Infobox}:image:%PAGE%,{Item Infobox¦Phantom Event Item Event}
+|table=class="article-table sortable",-,Icon,Name,Event
+|tablerow=²{#if:%%¦²{#if:²{#pos:%%¦gallery}²¦[[File:Item %PAGE%.png¦50px¦link=%PAGE%]]¦[[File:%%¦50px¦link=%PAGE%]]}²¦[[File:Item %PAGE%.png¦50px¦link=%PAGE%]]}²,[[%PAGE%]],%%
+|resultsheader   = There are '''%PAGES%''' {{{header|[[Quest Item]]s unique to events}}}:\n
+|noresultsfooter=\nNo Results
+|ordermethod=sortkey
+}}
+
+===Event Gadgets===
+{{Main|Gadget#Event Only}}
+{{#DPL:
+|namespace=
+|uses=Template:Item Infobox
+|category=Item&Gadgets&Event Items
+|notcategory=Upcoming Content
+|include={Item Infobox}:image:%PAGE%,{Item Infobox¦Phantom Event Item Event}
+|table=class="article-table sortable",-,Icon,Name,Event
+|tablerow=²{#if:%%¦²{#if:²{#pos:%%¦gallery}²¦[[File:Item %PAGE%.png¦50px¦link=%PAGE%]]¦[[File:%%¦50px¦link=%PAGE%]]}²¦[[File:Item %PAGE%.png¦50px¦link=%PAGE%]]}²,[[%PAGE%]],%%
+|resultsheader   = There are '''%PAGES%''' {{{header|Gadgets unique to events}}}:\n
+|noresultsfooter=\nNo Results
+|ordermethod=sortkey
+}}
+
+===Event Experience===
+{{Main|Experience#Events}}
+{{#DPL:
+|namespace=
+|uses=Template:Item Infobox
+|category=Item&Event Items&Experience
+|notcategory=Upcoming Content
+|include={Item Infobox}:image:%PAGE%,{Item Infobox¦Phantom Event Item Event}
+|table=class="article-table sortable",-,Icon,Name,Event
+|tablerow=²{#if:%%¦²{#if:²{#pos:%%¦gallery}²¦[[File:Item %PAGE%.png¦50px¦link=%PAGE%]]¦[[File:%%¦50px¦link=%PAGE%]]}²¦[[File:Item %PAGE%.png¦50px¦link=%PAGE%]]}²,[[%PAGE%]],%%
+|resultsheader   = There are '''%PAGES%''' {{{header|types of Event Experience}}}:\n
+|noresultsfooter=\nNo Results
+|ordermethod=sortkey
+}}
+
+===Event Currencies===
 {{Main|Event Currencies}}
 {{#DPL:
 |namespace=
 |uses=Template:Item Infobox
 |category=Item&Event Currencies
-|include={Item Infobox}:image:%PAGE%,{Item Infobox¦Phantom Event Item Event},{Item Infobox}:description
-|table=class="article-table sortable",-,Icon,Name,Event,Description
-|tablerow=²{#if:%%¦[[File:%%¦64px¦link=%PAGE%]]¦[[File:Item %PAGE%.png¦64px¦link=%PAGE%]]}²,[[%PAGE%]],%%,%%
+|notcategory=Upcoming Content
+|include={Item Infobox}:image:%PAGE%,{Item Infobox¦Phantom Event Item Event}
+|table=class="article-table sortable",-,Icon,Name,Event
+|tablerow=²{#if:%%¦[[File:%%¦50px¦link=%PAGE%]]¦[[File:Item %PAGE%.png¦50px¦link=%PAGE%]]}²,[[%PAGE%]],%%
+|resultsheader   = There are '''%PAGES%''' {{{header|types of Event Currencies}}}:\n
 |noresultsfooter=\nNo Results
-|allowcachedresults=true
 |ordermethod=sortkey
 }}
 
@@ -41,5 +93,8 @@ __TOC__
 
 [[Category:Event Items| ]]
 
+[[fr:Objet d'événement]]
 [[ja:イベントアイテム]]
 [[pt-br:Itens de Evento]]
+[[th:ไอเทมกิจกรรม]]
+[[vi:Vật Phẩm Sự Kiện]]

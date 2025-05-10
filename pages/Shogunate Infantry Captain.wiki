@@ -16,28 +16,31 @@
 |atk_ratio = 2
 }}
 
-==Abilities and Attacks==
-''Most attack names are unofficial.''
+==Abilities==
+''Most ability names are unofficial.''
 
 {{Enemy Attacks
 |name_1 = Stab
-|desc_1 = Performs a quick stab with their spear, dealing '''100% ATK''' as {{Color|Physical DMG}}.
+|desc_1 = Performs a quick stab with their polearm, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
-|name_2 = Spear Combo
-|desc_2 = Performs 3 stab combo with their spear, dealing '''100% ATK''' as {{Color|Physical DMG}} with each stab.
+|name_2 = Swing
+|desc_2 = Performs an upward swing with their polearm, dealing '''100% ATK''' as {{Color|Physical DMG}}.
 
-|name_3 = Dodge
-|desc_3 = Jumps backwards away from the player.
+|name_3 = Spear Combo
+|desc_3 = Performs 3 consecutive stabs with their polearm, dealing '''100% ATK''' as {{Color|Physical DMG}} with each stab.
 
-|name_4 = Rally
-|desc_4 = The Shogunate Infantry Captain rallies nearby Shogunate Infantries, causing them to perform 3-stab combo.
-|file_4 = Shogunate Infantry Stab 2
+|name_4 = Dodge
+|desc_4 = Jumps backwards away from the player.
+
+|name_5 = Rally
+|desc_5 = The Shogunate Infantry Captain rallies nearby [[Shogunate Infantry|Shogunate Infantries]], causing them to perform '''3-Stab Combo'''.
+|file_5 = Shogunate Infantry Stab 2
 }}
 
 ==Voice-Overs==
 {{VO/Enemy
 |enemy                   = Shogunate Captain
-|vo_01_00_title          = Spotting the Player
+|vo_01_00_title          = Entering Battle
 |vo_01_01_file           = VO {lang}{name} - Battle Formation.ogg
 |vo_01_01_tx_en          = Battle formation!
 |vo_01_01_tx_zh          = 
@@ -49,44 +52,56 @@
 |vo_01_02_tx_ja          = 
 |vo_01_02_tx_ko          = 
 
-|vo_02_00_title          = Spear Combo
-|vo_02_01_file           = VO {lang}{name} - You Cannot Match My Bravery.ogg
-|vo_02_01_tx_en          = You cannot match my bravery!
-|vo_02_01_tx_zh          = 
-|vo_02_01_tx_ja          = 
-|vo_02_01_tx_ko          = 
-|vo_02_02_file           = VO {lang}{name} - Take This.ogg
-|vo_02_02_tx_en          = Take this!
-|vo_02_02_tx_zh          = 
-|vo_02_02_tx_ja          = 
-|vo_02_02_tx_ko          = 
+|vo_02_00_title          = Stab
+|vo_02_01_tx_en          = {{A|VO Shogunate Infantry Captain - Stab 01.ogg}} {{A|VO Shogunate Infantry Captain - Stab 02.ogg}} {{A|VO Shogunate Infantry Captain - Stab 03.ogg}} {{A|VO Shogunate Infantry Captain - Stab 04.ogg}} {{A|VO Shogunate Infantry Captain - Stab 05.ogg}}
 
-|vo_03_00_title          = Rallying
-|vo_03_01_file           = VO {lang}{name} - Soldiers Quick.ogg
-|vo_03_01_tx_en          = Soldiers, quick!
-|vo_03_01_tx_zh          = 
-|vo_03_01_tx_ja          = 
-|vo_03_01_tx_ko          = 
-|vo_03_02_file           = VO {lang}{name} - Get Them.ogg
-|vo_03_02_tx_en          = Get them!
-|vo_03_02_tx_zh          = 
-|vo_03_02_tx_ja          = 
-|vo_03_02_tx_ko          = 
+|vo_03_00_title          = Swing Initiation
+|vo_03_01_tx_en          = {{A|VO Shogunate Infantry Captain - Swing 01.ogg}} {{A|VO Shogunate Infantry Captain - Swing 02.ogg}} {{A|VO Shogunate Infantry Captain - Swing 03.ogg}} {{A|VO Shogunate Infantry Captain - Swing 04.ogg}} {{A|VO Shogunate Infantry Captain - Swing 05.ogg}}
 
-|vo_04_00_title          = Staggered
-|vo_04_01_tx_en          = {{A|VO Shogunate Captain - Staggered 01.ogg}} {{A|VO Shogunate Captain - Staggered 02.ogg}} {{A|VO Shogunate Captain - Staggered 03.ogg}} {{A|VO Shogunate Captain - Staggered 04.ogg}} {{A|VO Shogunate Captain - Staggered 05.ogg}}
+|vo_04_00_title          = Spear Combo Final Stab
+|vo_04_01_file           = VO {lang}{name} - You Cannot Match My Bravery.ogg
+|vo_04_01_tx_en          = You cannot match my bravery!
+|vo_04_01_tx_zh          = 
+|vo_04_01_tx_ja          = 
+|vo_04_01_tx_ko          = 
+|vo_04_02_file           = VO {lang}{name} - Take This.ogg
+|vo_04_02_tx_en          = Take this!
+|vo_04_02_tx_zh          = 
+|vo_04_02_tx_ja          = 
+|vo_04_02_tx_ko          = 
 
-|vo_05_00_title          = Defeated
-|vo_05_01_file           = VO {lang}{name} - I Wont Forget This.ogg
-|vo_05_01_tx_en          = I won't forget this...
-|vo_05_01_tx_zh          = 
-|vo_05_01_tx_ja          = 
-|vo_05_01_tx_ko          = 
-|vo_05_02_file           = VO {lang}{name} - Ive Lost.ogg
-|vo_05_02_tx_en          = I've lost...
-|vo_05_02_tx_zh          = 
-|vo_05_02_tx_ja          = 
-|vo_05_02_tx_ko          = 
+|vo_05_00_title          = Dodging
+|vo_05_01_tx_en          = {{A|VO Shogunate Infantry Captain - Dodging 01.ogg}} {{A|VO Shogunate Infantry Captain - Dodging 02.ogg}}
+
+|vo_06_00_title          = Rallying
+|vo_06_01_file           = VO {lang}{name} - Soldiers Quick.ogg
+|vo_06_01_tx_en          = Soldiers, quick!
+|vo_06_01_tx_zh          = 
+|vo_06_01_tx_ja          = 
+|vo_06_01_tx_ko          = 
+|vo_06_02_file           = VO {lang}{name} - Get Them.ogg
+|vo_06_02_tx_en          = Get them!
+|vo_06_02_tx_zh          = 
+|vo_06_02_tx_ja          = 
+|vo_06_02_tx_ko          = 
+
+|vo_07_00_title          = Staggered (Heavy)
+|vo_07_01_tx_en          = {{A|VO Shogunate Captain - Staggered 01.ogg}} {{A|VO Shogunate Captain - Staggered 02.ogg}} {{A|VO Shogunate Captain - Staggered 03.ogg}} {{A|VO Shogunate Captain - Staggered 04.ogg}} {{A|VO Shogunate Captain - Staggered 05.ogg}}
+
+|vo_08_00_title          = Staggered (Light)
+|vo_08_01_tx_en          = {{A|VO Shogunate Infantry Captain - Staggered Light 01.ogg}} {{A|VO Shogunate Infantry Captain - Staggered Light 02.ogg}} {{A|VO Shogunate Infantry Captain - Staggered Light 03.ogg}} {{A|VO Shogunate Infantry Captain - Staggered Light 04.ogg}} {{A|VO Shogunate Infantry Captain - Staggered Light 05.ogg}}
+
+|vo_09_00_title          = Defeated
+|vo_09_01_file           = VO {lang}{name} - I Wont Forget This.ogg
+|vo_09_01_tx_en          = I won't forget this...
+|vo_09_01_tx_zh          = 
+|vo_09_01_tx_ja          = 
+|vo_09_01_tx_ko          = 
+|vo_09_02_file           = VO {lang}{name} - Ive Lost.ogg
+|vo_09_02_tx_en          = I've lost...
+|vo_09_02_tx_zh          = 
+|vo_09_02_tx_ja          = 
+|vo_09_02_tx_ko          = 
 }}
 
 ==Other Languages==
@@ -101,7 +116,6 @@
 |ja_rm   = Bakufu no Ashigaru-gashira
 |ja_tl   = Shogunate Ashigaru Captain
 |ko      = 막부 아시가루 두목
-|ko_rm   = Makbu Asigaru Dumok
 |ko_tl   = Shogunate Ashigaru Captain
 |es      = Capitán Ashigaru del shogunato
 |es_tl   = Shogunate Ashigaru Captain
