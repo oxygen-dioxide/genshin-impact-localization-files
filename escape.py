@@ -4,6 +4,7 @@ escapedict={
     "\\":"#b",
     "/":"#s",
     '"':"#o",
+    "*":"#a",
 }
 
 def escape(inputstring:str)->str:
