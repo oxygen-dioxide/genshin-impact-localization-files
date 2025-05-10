@@ -6,15 +6,2817 @@
 
 可使用Ctrl+F在本页面查找。
 
-- **** Action Card
-- **** Enhancement
-- **** Lightfall Sword
+- **「岸上游泳的鱼儿」** "A Dragon That Cannot Fly"
+- **「夜晚显现的明月」** "A Moon That Only Shines At Night"
+- **「永远高挂的落日」** "A Setting Sun That Never Sets"
+- **「白淞街镇的简居」** "A Simple Residence in Poisson"
+- **「露水的千般愿景」** "A Thousand Ephemeral Visions of Dew"
+- **「中枢的浩繁卷宗」** "A Thousand Texts in the Central Hub"
+- **「学术会堂」的画片** "Academic Assembly Hall" Picture
+- **火山岩「定向」石凳** "Aligned" Volcanic Stone Stool
+- **被能量流影响的「异重力凝水体」** "Allogravity-Condensed Water Body" affected by energy flow
+- **「阿特拉托的佑助」** "Atlatl's Blessing"
+- **「自律超算型场力发生装置」** "Automated Supercomputing Field Generator"
+- **「流泉的湛蓝宝石」** "Azure Gem of the Springs"
+- **「涌流之地的轻栏」** "Balustrade of the Springs"
+- **「战羊」与「铁爪」** "Battlegoat" and "Ironclaw"
+- **「闹闹卧室」** "Bedroom Bedlam"
+- **「柔香白铃」** "Blancdouce Bell"
+- **「片蓝露滴」** "Blue Dewdrop"
+- **「禁限之堡的拳靶」** "Boxing Target of the Forbidden Fortress"
+- **《勇敢的北风》** "Brave Northerly Wind"
+- **「铜锁」** "Bronzelock"
+- **「禁限之堡的负载」** "Burden of the Forbidden Fortress"
+- **「不息的争流」** "Ceaseless Clash"
+- **「即兴表演的欢庆时光」** "Celebration of an Ad-Hoc Performance"
+- **「编织处」** "Chamber of Weaving"
+- **「切玛利的遮荫」** "Chimalli's Shade"
+- **「嵌合神骨的蛇姬」** "Cihuacoatl of Chimeric Bone"
+- **声望经验・「沃陆之邦」** "Collective of Plenty" Reputation EXP
+- **「沃陆之邦」** "Collective of Plenty"
+- **「宾至如归的舒适」** "Comfort of a Home Away From Home"
+- **「怡然自得的优雅」** "Contented Elegance"
+- **「禁限之堡的沟通」** "Conversation of the Forbidden Fortress"
+- **「讯使的分拣专输」** "Courier's System of Sort and Dispatch"
+- **「讯使的因时速递」** "Courier's Timely Dispatch"
+- **「正义之廷的本真」** "Court of Justice's Authenticity"
+- **「正义之廷的敬畏」** "Court of Justice's Respect"
+- **「正义之廷的趣闻」** "Court of Justice's Trivia"
+- **「粼粼的荣彩」** "Crystalline Glory"
+- **「飞行的伊始」** "Dawn of Flight"
+- **「决斗的徽记」** "Dueling Sigil"
+- **「欢聚畅饮的快意」** "Elation of Social Drinking"
+- **「无尽的向往」** "Endless Aspiration"
+- **「周正的判罚」** "Even-Handed Judgment"
+- **「恒动械画」** "Evermotion Mechanical Painting"
+- **「禁限之堡的日常」** "Everyday Life in the Forbidden Fortress"
+- **「大地之王」** "Exalted Earth"
+- **「渐褪的余晖」** "Fading Afterglow"
+- **「饥饿的联想」** "Famished Thoughts"
+- **「吉位！」** "Feng Shui Assassination!"
+- **「维茨特兰之帜」** "Flag of Huitztlan"
+- **《飞帽匠》** "Flying Hatter"
+- **「汲来山水煮新芽」** "Fresh Buds From Mountains and Waters"
+- **「义愤之炬」** "Fury's Torch"
+- **「预言女神的礼物」** "Gift of the Goddess of Prophecy"
+- **「请转告王城的公民…」** "Go Tell the Citizens of the Capital..."
+- **《好架子》** "Good Shelf"
+- **「好东西就要分享！」** "Good Stuff Is for Sharing!"
+- **「踞石山中的悬桩」** "Hanging Post of Coatepec Mountain"
+- **「开心时光」** "Happy Times"
+- **「不死」** "He Never Dies"
+- **「你好！欢迎！」** "Hello! Welcome!"
+- **「暗藏的游蛇」** "Hidden Serpent"
+- **「高高石台」** "High Stone Platform"
+- **「霍莱，过来&mdash;&mdash;」** "Hora, Come Here&mdash;"
+- **「好烫！好烫！ 」** "Hot! HOT!"
+- **《转生成为鬼兜虫然后撞翻世界》** "I Got Reincarnated as an Onikabuto... And Flipped the World Upside Down"
+- **「看到那小子挣钱…」** "I'd Rather Lose Money Myself..."
+- **「宏亮无垢的裁决」** "Immaculate Judgment"
+- **「微末」** "Infinitesimal"
+- **「灵感的纯白」** "Inspiration's Pure White Blossoms"
+- **「虹彩荣耀」** "Iridescent Glory"
+- **「铁须」** "Ironbeard"
+- **「为时已晚，机械体！」** "It Is Too Late for You, Inorganics."
+- **「审判之时」** "Judgment Day"
+- **「砰砰大魔王」** "Kaboom King"
+- **「密钥」** "Key"
+- **「军团的怒角」** "Legion's Furious Horns"
+- **「一起来玩吧！」** "Let's Play!"
+- **「小家伙大英雄！」** "Little One, Great Hero!"
+- **「极彩的露珂菈」** "Luachra the Brilliant"
+- **「维护机关」拆解零件** "Maintenance Mek" Salvaged Parts
+- **「枢律之宫的矩柜」** "Maison Cardinalice's Cabinet"
+- **「枢律之宫的文员」** "Maison Cardinalice's Clerk"
+- **「枢律之宫的专注」** "Maison Cardinalice's Focus"
+- **「枢律之宫的高阁」** "Maison Cardinalice's High Shelf"
+- **「枢律之宫的帮箱」** "Maison Cardinalice's Little Helper"
+- **「枢律之宫的铁箱」** "Maison Cardinalice's Lockbox"
+- **「枢律之宫的乐音」** "Maison Cardinalice's Musical Tone"
+- **「枢律之宫的守时」** "Maison Cardinalice's Punctuality"
+- **「枢律之宫的储备」** "Maison Cardinalice's Stores"
+- **「枢律之宫的翼架」** "Maison Cardinalice's Winged Shelf"
+- **「禁限之堡的威仪」** "Majesty of the Forbidden Fortress"
+- **声望经验・「烟谜主」** "Masters of the Night-Wind" Reputation EXP
+- **「超猛巨大碎岩转转」** "Mega-Mighty Boulder Breaker"
+- **「赤泥壶中泛醇茶」** "Mellow Tea in a Red Clay Pot"
+- **「大炖肉火焰」** "Mighty Meaty Fireball"
+- **「如镜的诗琴」** "Mirror-Reflection Lyre"
+- **「熔流岩池」** "Molten Lava Pool"
+- **「中枢的片刻安闲」** "Momentary Rest in the Central Hub"
+- **「纳茨卡延之绘」** "Nanatzcayan Artistry"
+- **「无非一怒为苍生」** "Naught but Indignation for the People's Lot"
+- **无事发生之袖** "Nothing to See Here" Tamoto
+- **「独脚的圆盾」** "One-Legged Round Shield"
+- **「乐律的源始」** "Origin of Music"
+- **「沉玉之旅」纪念册** "Our Chenyu Vale Trek" Album
+- **「我们的道路」** "Our Path"
+- **「禁限之堡的重载」** "Overburdening of the Forbidden Fortress"
+- **《猫头鹰乐师》** "Owl Musician"
+- **「离别亦是下一次重逢的开始」** "Parting is the beginning of a new reunion"
+- **「回廊的稳便贮藏」** "Passage's Stable Storage"
+- **「安闲的紫梦」** "Peaceful Purple Dream"
+- **「制乐之镇的安住」** "Peaceful Residence in the Musicmaking Town"
+- **声望经验・「流泉之众」** "People of the Springs" Reputation EXP
+- **「人格」** "Persona"
+- **「白淞街镇的门架」** "Poisson Door Frame"
+- **「白淞镇触发式传动鱼竿」** "Poisson Trigger-Transmission Fishing Rod"
+- **「白淞街镇的时鲜」** "Poisson's Seasonal Produce"
+- **「异色三连星」** "Polychrome Tri-Stars"
+- **「波塔波的声援」** "Potapo's Solidarity"
+- **《拜托了我的狐仙宫司》限量精装版** "Pretty Please, Kitsune Guuji?" Limited Deluxe Edition
+- **浅濑神社的代宫司** "Provisional Head Priestess of the Asase Shrine"
+- **「快速临时工棚」** "Quick Temporary Workshed"
+- **「快快醒来」** "Quick, Wake Up!"
+- **「雷吉」** "Reji"
+- **「制乐之镇的巧居」** "Resourceful Residence in the Musicmaking Town"
+- **「中枢的小憩时光」** "Rest Time in the Central Hub"
+- **「归于烈火，归于一途」** "Return to the flames, return to the path."
+- **「烈焰的骑行」** "Riding the Inferno"
+- **「莉莱」** "Rilai"
+- **「贵重的靛紫」** "Royal Purple"
+- **「仙茗本根」** "Sacred Source of Tea"
+- **「行销贩运之方」** "Sales Savvy 101"
+- **「健疗的醇芳」** "Salubrious Fragrance"
+- **「海浪中的莎孚」** "Sappho Amidst the Waves"
+- **「满足的重量」** "Satisfying Weight"
+- **「龙遗物研究协会」留言板** "Saurian Relics Association" Message Board
+- **声望经验・「悬木人」** "Scions of the Canopy" Reputation EXP
+- **「秘药」** "Secret Elixir"
+- **「亮亮贝壳」** "Shiny Shell"
+- **「这便是暴君的结局」** "Sic Semper Tyrannis"
+- **「巧策升炼之所」** "Site of Artful Ascension"
+- **「涌流之地的扁舟」** "Skiff of the Springs"
+- **「滑滑小屋」** "Slippery Shack"
+- **「小小石蟹」** "Small Stonecrab"
+- **「柔和的水声」** "Soft Water's Voice"
+- **「扎实的根基」** "Solid Roots"
+- **「久等了，我的神明」** "Sorry to Keep You Waiting, Dear Archon"
+- **「秘源机关」拆解零件** "Source Mechanism" Salvaged Parts
+- **「陨落的晨星之灵」** "Spirit of the Fallen Dawnstar"
+- **「灵性与密封」** "Spirituality and Sealing"
+- **「中枢的安稳工位」** "Stable Work Station in the Central Hub"
+- **「四平八稳的庄严」** "Steady Stately Stability"
+- **「禁限之堡的钻研」** "Study of the Forbidden Fortress"
+- **「流泉的涌浪和声」** "Surging Harmonies of the Springs"
+- **「愿你好梦」** "Sweet Dreams"
+- **「山风的尾袋」** "Tail Pouch of the Mountain Wind"
+- **「讯使的各取所需」** "Tailored Courier Service"
+- **「金狸狸奖杯」** "Tanuki Game Award"
+- **「茗获的渔采再用」** "Tea Harvest's Fishery Inspiration"
+- **「茗获的馥郁之法」** "Tea Harvest's Formula for Fragrance"
+- **「茗获的百利良具」** "Tea Harvest's Multifunction Rack"
+- **「茗获的积存输运」** "Tea Harvest's Stockpiling and Transport"
+- **「茗获的日晒着香」** "Tea Harvest's Sun-Dried Fragrance"
+- **「坚岩之谷的竞舞」** "Tequemecan Dance-Off"
+- **「坚岩之谷的巧思」** "Tequemecan Ingenuity"
+- **「坚岩之谷的围护」** "Tequemecan Stronghold"
+- **「坚岩之谷的珠翠」** "Tequemecan Treasures"
+- **「翘枝崖顶的拦索」** "Tether at the Summit of Quahuacan Cliff"
+- **「擂台拳力复现之地」** "The Arena Where Fists Reemerge"
+- **《交涉的艺术》** "The Art of Negotiation"
+- **「空中攻击并不总能成功」** "The Bomber Will Not Always Get Through"
+- **「烬城的余火」** "The Embers of Cinder City"
+- **「漂泊的异乡人」** "The Flying Outlander"
+- **「此地的伟大精神」** "The Great Spirit of This Land"
+- **「日常聚会的闲适」** "The Leisure of Daily Meetings"
+- **「尖峰」** "The Peak"
+- **「凝静的海色」** "The Sea's Silent Shade"
+- **「沉默的冥想者」** "The Silent Meditator"
+- **「白淞街镇的智慧」** "The Wisdom of Poisson"
+- **「火榴果可不只是好看而已！」** "This Flamegranate Isn't Just for Show!"
+- **「呼噜噜宝座」** "Throne of Purr-fection"
+- **「特拉洛坎之绘」** "Tlalocan's Drawing"
+- **「制乐之镇的钟声」** "Tolling of the Musicmaking Town"
+- **「图比昂装置」** "Tourbillon Device"
+- **指示宝库位置的「藏宝图」** "Treasure Map" With the Vault's Location
+- **「图帕尧的协辅」** "Tupayo's Aid"
+- **「图普的繁茂」** "Tupu's Lushness"
+- **「祛邪安神之器」** "Vessel of Purification and Calm"
+- **振晶，归来仍是振晶** "Vibro-Crystals. It's Always Vibro-Crystals..."
+- **「肉脯沉…什么出？」** "What About Sliced Meat Now?"
+- **「小家伙教导我们的事」** "What the Little Ones Teach Us"
+- **「哇！是大逆转！」** "Whoa! What a Twist!"
+- **「涌流之地的层翼」** "Wings of the Springs"
+- **「禁限之堡的智识」** "Wisdom of the Forbidden Fortress"
+- **「专注之事的证人」** "Witness to Great Focus"
+- **「制乐之镇的匠屋」** "Workshop in the Musicmaking Town"
+- **「又一份雄辩」** "Yet Another Discussion"
+- **谢谢你们的鱼** ...And Thanks for All the Fish!
+- **是荒泷生命摇滚虹色大巡回** ...It's the Iridescent Arataki Rockin' for Life Tour de Force of Awesomeness!
+- **是突破天际的！** ...That Will Pierce the Heavens!
+- **** ...Times Come Again No More
+- **从派蒙处收到的「祝柬」** A "Gift Envelope" From Paimon
+- **如同「武具」般的龙角** A "Weapon-Like" Dragon Horn
+- **一袋摩拉** A Bag of Mora
+- **工艺突破** A Breakthrough in Craft
+- **碎岩及其往事** A Brief History of Rocks
+- **最初与最新的对决！** A Clash Between the First and the Latest!
+- **追到纳塔的委托** A Commission Catches You in Natlan
+- **名为快乐的谎言** A Deceit Called Happiness
+- **抉择** A Decision
+- **如铸星之业** A Deed No Less Than Star-Forging
+- **** A Distant Farewell
+- **遥望苍天之梦** A Dream of Gazing Upon the Distant Sky
+- **‎何日之梦** A Dream Yet to Come
+- **萦转的微讯** A Faint Signal Lingers
+- **他乡友** A Familiar Face in a Faraway Place
+- **黑曜石的眷怜** A Favor of the Great Shaman
+- **最后的仁慈** A Final Kindness
+- **溯火而归的终局** A Finale Emberforged
+- **夜伴微火** A Flicker in the Quiet
+- **昕宵如游梦** A Fox's Little Daydream
+- **瞢暗的一极** A Fragment of Night
+- **作为礼物的宝石** A Gem Meant as a Gift
+- **** A Harvest of Dreams
+- **正义英雄的凯旋** A Hero of Justice's Triumph
+- **来自英雄的认证！** A Hero's Approval!
+- **善良促销** A Honest Promotion
+- **未吹响的号角** A Horn Unwinded
+- **人间剧** A Human Drama
+- **人创造的奇迹** A Human-Made Miracle
+- **猎人从不追丢他的猎物** A Hunter Never Loses Their Prey
+- **** A la recherche des grandes eaux
+- **一份信函** A Letter
+- **孤独的坚守** A Lonely Sentinel
+- **** A Long Way Gone
+- **从大海到大海** A Mari Usque Ad Mare
+- **装满魔导书的神秘书柜** A Mysterious Bookshelf Full of Grimoires
+- **无名冒险家的笔记** A Nameless Adventurer's Notes
+- **新的希望** A New Hope
+- **** A Night of Their Own
+- **不遥远的分别** A Not-So-Distant Farewell
+- **余叹远昔** A Pensive Sigh
+- **美好的昨天** A Perfect Yesterday
+- **祈祝福愿，倾告嵴锋** A Prayer for Blessings, Told to Crested Peaks
+- **一个预计内的结局** A Predictable Ending
+- **冰与风的鼓动** A Pulse of Ice and Wind
+- **龙的归巢** A Saurian Returns to the Nest
+- **小小的一步** A Small Step
+- **风格融合的思考** A Style-Fusion Symposium
+- **一次成功的狩猎** A Successful Hunt
+- **一场风波** A Sudden Squall
+- **致旅行者的答谢信** A Thank-You Letter to All Travelers
+- **万千子嗣** A Thousand Young
+- **友谊地久天长** A Time-Tested Friendship
+- **炬照焚恶** A Torch That Incinerates Evil
+- **论诗琴演奏准则** A Treatise on the Fundamental Principles of Lyre Playing
+- **逆转的大魔术** A Twist of Great Magic
+- **再遇异域鱼鱼？** A Very Fishy Encounter
+- **梦寻幻景** A Vision in a Dream
+- **未祛魅的世界** A World Yet to Be Disenchanted
+- **** Above the Glorious Crown
+- **负罪求赎者所遗** Absolution-Seeker's Testament
+- **燃素充盈** Abundant Phlogiston
+- **渊蚀・黄金王兽** Abyss-Corroded Golden Wolflord
+- **深渊秽露** Abyssal Blight
+- **学术会堂** Academic Assembly Hall
+- **爱雅的快件** Acat's Package
+- **漫徊繁荫之原** Across the Meadows
+- **管理区** Administrative Area
+- **温泉诞生之日** Advent of the Hot Springs
+- **雾之国的冒险** Adventure in the Land of Mists
+- **空中列车** Aerial Express
+- **** After So Many Words
+- **空余残晖** Afterglow of the Sky
+- **后日谈** Afterword
+- **「百代的龙舌」** Ageless Agave
+- **** Airborne Disease Prevention
+- **「秋沙钱汤」特许券** Aisa Bathhouse Credit Coupon
+- **秋沙钱汤贵宾邀请函** Aisa Bathhouse VIP Pass
+- **「闲畅游艺」** Leisurely Pastime
+- **「破邪游艺」** Shatterdark
+- **阿拉凯** Alakai
+- **药材研析仪** Alchemeter
+- **炼制药剂** Concocting Potions
+- **培育药材** Cultivating Ingredients
+- **药剂销售** Selling Potions
+- **炼金与经营<!-- 其一-->** Alchemy and Business Operations
+- **高警惕，多防范！** Alert and on Guard!
+- **蓄势待发** All Green and Good to Go
+- **** All Passed With the Rain
+- **所有的仇与债皆由我偿…** All Reprisals and Arrears, Mine to Bear
+- **舒翼乘云** All the Pretty Courses
+- **剧中剧** All the World's a Stage
+- **「圣火之境的特调」** Alluring Flavors of the Sacred Flame
+- **伟大圣龙阿乔** Almighty Dragonlord, Ajaw
+- **新火的祭台** Altar of Toxiuhmolpilia
+- **「阿玛鲁」** Amaru
+- **琥珀猎犬** Amber Hunting Hound
+- **溶水域** Ameyalco Waters
+- **阿米娜的钱袋** Amina's Coin Pouch
+- **阿米娜的报酬** Amina's Compensation
+- **阿蘑娜** Ammuna
+- **甘露活水** Amrita
+- **安萨鲁** Amsalu
+- **「乐园的传声之塔」** Amusement Park Broadcast Tower
+- **「乐园欢庆的帐篷」** Amusement Park Celebration Tent
+- **飞行竞赛与不在场证明** An Air Race and an Alibi
+- **祀珑在昔，灵锦歆诚** An Ancient Sacrifice of Sacred Brocade
+- **不平静假期** An Eventful Vacation
+- **一场预期内的谎言** An Expected Lie
+- **一份预期内的计划** An Expected Plan
+- **还施彼身** An Eye for an Eye
+- **一报还一报** An Eye for an Eye
+- **平俗宇宙的不灭帝皇** An Immortal Emperor in a Mundane Universe
+- **选香入门** An Introduction to Perfumery
+- **暂时止息的生物入侵…** An Invasion on Hold
+- **毁灭预兆与最后的通牒** An Omen of Annihilation and the Final Entreaty
+- **安宿** An Su
+- **追忆先祖** Ancestral Reminiscence
+- **古老的自鸣音乐盒** Ancient Autoharmonic Music Box
+- **古城垣钥匙** Ancient City Key
+- **旧日古螺的乐章** Ancient Conch Melody of Yore
+- **游炎古琵鹭** Ancient Firewalker Spoonbill
+- **宿古的赫炎** Ancient Flame Ablaze
+- **古老的燧石钥匙** Ancient Flint Key
+- **琉背古彩龟** Ancient Glazeback Turtle
+- **古老的玉盏** Ancient Jade Cup
+- **古老的玉石碎片** Ancient Jadestone Fragment
+- **觐山古道** Ancient Mountain Path
+- **赤鬃古林猪** Ancient Red-Mane Boar
+- **万古的回声** Ancient Reverberation
+- **远古圣山** Ancient Sacred Mountain
+- **朱羽古团雀** Ancient Scarlet-Plume Finch
+- **古老的曲谱** Ancient Score
+- **古海的冒险家** Ancient Sea Adventurer
+- **古海的寻宝者** Ancient Sea Treasure Hunter
+- **古海玄幽的夜想** Ancient Sea's Nocturnal Musing
+- **悠古的巫觋歌** Ancient Shaman-Song
+- **开山览物** Ancient Treasures Unearthed
+- **古树树枝** Ancient Tree Branch
+- **深古瞭望所** Ancient Watchtower
+- **狩夜不熄** And We Burn as One
+- **逸闻** Anecdote
+- **阿妮拉的证言** Anela's Testimony
+- **棱角水滴瓶** Angled Drop Bottle
+- **愤怒的贩龙者** Angry Saurian Trafficker
+- **愤怒的贩龙者** Angry Saurian Trafficker
+- **安与玛丽安** Ann & Mary-Ann
+- **安逸的静水** Ann's Quiescent Residence
+- **「别宫的澄透门扉」** Annex's Clear Door
+- **「别宫的金纹嵌画」** Annex's Golden Mosaic
+- **「别宫的如镜地砖」** Annex's Mirror-Sheen Floor Tile
+- **「别宫的水雾上行」** Annex's Rising Mist
+- **「别宫的无垢穹顶」** Annex's Spotless Dome
+- **「别宫的旋流垂光」** Annex's Swirling Light
+- **歼灭特化型机关・荒** Annihilation Specialist Mek - Ousia
+- **歼灭特化型机关・芒** Annihilation Specialist Mek - Pneuma
+- **冒险就要朝着远方** Another Horizon of Adventure
+- **急急现形** Aparecium
+- **蜜虫之宝** Aphid Treasure
+- **「海色蝶群」** Aquamarine Butterfly Bush
+- **兰齐塔** Arachitta
+- **兰卡亚** Arakaya
+- **兰萨提** Arasati
+- **荒泷甲光烈烈斗虫大修行！** Arataki Blazing Armor Beetle Battle Boot Camp!
+- **** Arcana of Zipacna
+- **刚性稳定术** Ardent Calibration
+- **炽热的沃陆** Ardent Land of Plenty
+- **** Arduous Path
+- **竞技场的欢聚胜饮** Arena's Toast to Triumph
+- **银铛琳琅** Argent Chimes
+- **机关・算力增幅器・荒** Arithmetic Enhancer Mek - Ousia
+- **机关・算力增幅器・芒** Arithmetic Enhancer Mek - Pneuma
+- **始基矿抑制器冷凝部件** Arkhium Inhibitor Condenser Component
+- **始基矿胚料** Arkhium Stock
+- **元素穿甲弹** Armor-Piercing Elemental Shell
+- **「输运的要诀」** Art of Transport
+- **圣遗物强化素材** Artifact Enhancement Material
+- **奇械发条备件・科培琉司** Artificed Spare Clockwork Component &ndash; Coppelius
+- **阿鲁吉** Aruj
+- **如烈日彻照阴霾** As the Burning Sun Sears Shadows
+- **一别如羽** As the Feather Falls
+- **如见泡影** As Though Beholding Illusions
+- **如入幻梦** As Though Caught in a Dream
+- **如逢露水** As Though Kissed by Dew
+- **如伴雷电** As Though Surrounded by Thunder
+- **浅利** Asari
+- **灰灰楼林木「巨爪」高台** Ashen Aratiku Wood "Giant Claw" Platform
+- **灰灰楼林木「极简」阶梯** Ashen Aratiku Wood "Minimalist" Staircase
+- **灰灰楼林木「便巧」路灯** Ashen Aratiku Wood "Nifty" Street Lamp
+- **灰灰楼林木** Ashen Aratiku Wood
+- **妄执的冷烬** Ashes of Presumption
+- **流灰之街** Ashflow Street
+- **爱茜蘑** Asmu
+- **攻坚特化型机关・荒** Assault Specialist Mek - Ousia
+- **攻坚特化型机关・芒** Assault Specialist Mek - Pneuma
+- **再闯水妖王国** Assaulting the Water Imp Kingdom Once More
+- **勇闯水妖王国** Assaulting the Water Imp Kingdom
+- **** Astral Yearning
+- **万里城垣建造时** At the Construction of the Endless Wall
+- **阿伽娅的护身符** Atea's Talisman
+- **阿托斯的供词** Athos's Confession
+- **歌裴莉娅的晨歌** Aubade of Coppelia
+- **阿乌琪** Auki
+- **「自鸣簧管」** Autoharmonic Reed Pipes
+- **「秋分之地的陈酿」** Automnequi's Cask
+- **「秋分之地的炊烟」** Automnequi's Chimney Smoke
+- **「秋分之地的守候」** Automnequi's Watch
+- **秋的悔意** Autumn's Regrets
+- **唤醒眷属** Awaken, My Kindred
+- **「阿万尤」** Awanyu
+- **战斧挥击** Axe Swipe
+- **天轴轮转** Axial Rotation
+- **阿亚米** Ayamis
+- **阿伊勒** Ayele
+- **阿芸** Ayun
+- **爱梅拉** Azmera
+- **谧海的冰牙** Azure Icefang
+- **湛蓝曜石环** Azure Obsidian Ring
+- **烈阳的祷祀** Baba we Twasali
+- **** Balemoon's Chastisement
+- **众水之诗** Ballad of Many Waters
+- **巴罗** Ballo
+- **巴罗的期冀** Barrow's Expectations
+- **魔萃纪行** Arcane Amassing
+- **沉星纪行** Falling Star
+- **拟像纪行** Fanciful Fabrication
+- **荣花纪行** Floral Odyssey
+- **千灵纪行** Fontinalia
+- **源火纪行** Primal Fire
+- **源水纪行** Primordial Waters
+- **神诞纪行** Sabzeruz
+- **衍演纪行** Simulnation
+- **炽魂纪行** Soulblaze
+- **灵织纪行** Spiritweaver
+- **彩鹞纪行** Vivid Flight
+- **溢彩纪行** Vivid Illumination
+- **旋舞纪行** Whirling Waltz
+- **绮梦纪行** Wondrous Reverie
+- **战阵爆轰** Battle-Line Detonation
+- **冰与火的战场** Battlefield of Ice and Fire
+- **「予以见证」** Bear Witness
+- **驯兽师的护符** Beast Tamer's Talisman
+- **捕兽夹** Beast Trap
+- **异兽侵蚀** Beastly Corrosion
+- **** Beat of Boulders
+- **漂亮的苍晶螺** Beauteous Beryl Conch
+- **** Beautiful, Delightful Vision
+- **美容专家** Beauty Expert
+- **在夜明之前** Before Dawn Breaks
+- **铃鼓随花** Bells in Bloom
+- **于翼之下** Beneath My Wings
+- **在晶岩下** Beneath the Crystal Rock
+- **** Benedictio Somnii
+- **** Bequeathed to the Beloved
+- **檐帽会** Beret Society
+- **白棠珍奇屋** Bertin's House of Curiosities
+- **** Better to Salivate Than Medicate
+- **在应许与遗忘之间** Between Pledge and Forgettance
+- **惑光的阔叶** Bewildering Broadleaf
+- **天鹰座裂隙之外** Beyond the Aquila Rift
+- **逾越天光的极限** Beyond the Edge of Light
+- **芦笛的彼方** Beyond the Flute's Whispers
+- **阿标** Biao
+- **碧夸妮** Bikwani
+- **哐哐当当雀雀球** Bing-Bang Finchball
+- **困于笼中之鸟** Birds in a Cage
+- **咬咬鲨鱼** Bitey Shark
+- **鲨鲨冲浪板** Sharky Surfboard
+- **凛冽·大灵显化身** Biting-Cold Wayob Manifestation
+- **「焰域的黑金」** Black Gold of the Blazing Realm
+- **剑舞的意外谢幕！** Blade Dance's Unexpected End!
+- **舞刃霰旋** Bladed Waltz
+- **空白曲谱** Blank Score
+- **** Blaze of Fervent Night
+- **将黯黪炼作火** Blaze to Break the Dawn
+- **灼燃的燧原矿** Blazing Flint Ore
+- **** Blazing Heart
+- **炽心，一往直前！** Blazing Heart, Singular Advance!
+- **明燃的棱状壳** Blazing Prismshell
+- **** Blazing Proclamation
+- **炽焰重斥** Blazing Rebuke
+- **蕴火的幽墟** Blazing Ruins
+- **贡祭炽心的踌躇** Blazing Sacrificial Heart's Hesitance
+- **贡祭炽心的决绝** Blazing Sacrificial Heart's Resolve
+- **贡祭炽心的荣膺** Blazing Sacrificial Heart's Splendor
+- **福无双至…** Blessings Never Come in Pairs...
+- **谐惬的俚曲** Blissful Little Ditty
+- **血契掠影** Blood-Bonded Shadow
+- **圆滚滚的创化论** Blubby, Chubby, Creative Evolution
+- **山蓝琵鹭** Blue Mountain Spoonbill
+- **侧目睥睨之袖** Bombastic Side-Eye Tamoto
+- **噬骸能量块** Bonecruncher's Energy Block
+- **「咚咚单元」** Boom-Boom Unit
+- **垠土原胚之匣** Borderland Billet Trove
+- **垠土弓原胚** Borderland Bow Billet
+- **垠土法器原胚** Borderland Catalyst Billet
+- **垠土双手剑原胚** Borderland Claymore Billet
+- **垠土长柄武器原胚** Borderland Polearm Billet
+- **垠土单手剑原胚** Borderland Sword Billet
+- **于最灼热的炉火中诞生** Born Among Searing Flames
+- **** Borrowing Winds of Harmony
+- **饫沃坡野** Bounty of the Fertile Slopes
+- **布拉维的藏书室** Bravais' Hidden Study
+- **共渡潮落** Braving the Tides Together
+- **破尽无明** Break the Benighting
+- **小憩** Break
+- **铁石为开** Breaking Iron and Stone
+- **破局** Breakthrough
+- **** Breath of Blazing Earth
+- **叠架远光灯** Brickstacks Long-Range Lamp
+- **叠架村** Brickstacks
+- **「光明火坛」** Bright Flame Altar
+- **白之契约者** Brighter Than White
+- **瑞彩流虹** Brilliant Dawn
+- **「满满当当载货车厢」** Brimming Freight Car
+- **破碎之海** Broken Sea
+- **绘有涂鸦的裂石** Broken, Graffiti-Marked Stone
+- **棕鹿** Brown Deer
+- **布吕诺的鲜花需求** Bruneau's Flower Request
+- **强劲冲撞** Brutal Ram
+- **泡泡桔色的不速之客！** Bulle Fruit-Hued Interloper!
+- **蔓生灵心** Burgeoning Spirit
+- **被埋藏的荣耀** Buried Honor
+- **焚燃·大灵显化身** Burning-Aflame Wayob Manifestation
+- **燃灭方案** Burnout Plan
+- **爆发射击** Burst Fire
+- **市圜繁漫** Bustling Bazaar
+- **以战斗平息…** By Battle Be Settled...
+- **「烬城的辉光」** By Cinder City's Glowing Light
+- **「苦种」的种子** Cacahuatl Seed
+- **咖啡厅・露泽留言板** Café Lutece Message Board
+- **卡赫伊娅** Cahuia
+- **离逐者的谋欢** Cakes and Ale for the Exiled
+- **深潮暗涌之刻** Calamitous Tides
+- **来自烟谜主的使命** Calling from the Masters of the Night-Wind
+- **** Callirhoe's Prayer
+- **热量均衡计划** Caloric Balancing Plan
+- **衡仪机枢** Cam and Cables of Law
+- **** Campa timoyetzticah, Cempaxochitl?
+- **夏诺蒂拉的声援** Canotila's Support
+- **奇思妙裁** Captivating Couture
+- **缴获的留影** Captured Photos
+- **卡布林** Capulin
+- **悠闲的沙漠人** Carefree Desert-Dweller
+- **严谨交涉** Careful Negotiations
+- **言谈之前的沉思** Carefully Considered Words
+- **苍鲤灵珠** Carp Spirit Orb
+- **锦落庭** Carp's Rest
+- **给虾枪用猫粮** Cat Food for Prawn Guns
+- **卡乌娅** Caua
+- **幽谈窟** Cave of Eerie Murmurs
+- **中央实验室遗址** Central Laboratory Ruins
+- **水色巡游** Cerulean Tour
+- **塞妲** Cetan
+- **侵雷重闪** Chain Lightning Cascade
+- **恰卡纳的悬枝** Chakana's Dangling Bough
+- **审议之庭** Chamber of Deliberation
+- **夏安卡的信件** Chanca's Letter
+- **向前冲！冲！冲！** Charge Forward! Go, Go, Go!
+- **积蓄能量** Charging Up
+- **巡宇翦定** Skyborne Arbiter
+- **恰斯卡的命星** Chasca's Stella Fortuna
+- **** Chasing the Rainbow
+- **迦陀迦** Chatraka
+- **查尤霍** Chayohtli
+- **猫与随机数** Checks & Cats
+- **畅舒的行歌** Cheerful March
+- **「清露酪香一席间」** Cheese and Dew Teatime
+- **酪烤菇菇串** Cheesy Mushroom Skewer
+- **沉玉谷风光指南** Chenyu Vale Scenery Guide
+- **沉玉谷四景** Chenyu Vale Sights
+- **沉玉祝珑** Chenyu's Blessings of Sunken Jade
+- **沉玉祝珑** Chenyu's Blessings of Sunken Jade
+- **凌沉玉以径度** Chenyu's Measure
+- **沉玉成辉** Chenyu's Splendor
+- **奇琴乌图** Chichen Uctokah
+- **「回声之子」的热血** Children of Echoes' Passion
+- **** Chimes on the Blue Shore
+- **鸣雷的裁锦师** The Thundering Seamstress
+- **** Chirping of Canyons
+- **适趣的韵调** Chirping With Glee
+- **赤璋舆图** Chizhang Map
+- **赤璋城垣** Chizhang Wall
+- **如歌的秘数** Choir's Cypher
+- **胖胖猫猫瓶** Chonky Cat Bottle
+- **「呼呼飞车的闲憩回廊」** Choo-Choo Cart Rest Stop
+- **「呼呼飞车」** Choo-Choo Cart
+- **交映现实与梦** Interreflection of Reality and Dreams
+- **骑士的剑影** Shadow of the Knight's Blade
+- **** Chronicle of Shifting Stratagems
+- **荒落之城的记述人** Chronicler of the Crumbling City
+- **春茗茶坊** Chunming Teaworks
+- **密图函** Cipher Letter
+- **奇皮茨** Cipitz
+- **远行在归处** Circle of the Journey
+- **更高，更快，更强！** Citius, Altius, Fortius!
+- **茜特菈莉的手帕和钥匙** Citlali's Handkerchief and Key
+- **茜特菈莉赠送的手帕** Citlali's Handkerchief
+- **茜特菈莉的命星** Citlali's Stella Fortuna
+- **西杜阿** Citrouillard
+- **被灰烬掩埋的城市** City Buried By Ash
+- **百乐谐荣之城** City of Mellifluous Glory
+- **月影微茫** Clair de lune
+- **澄流正裁** Clear Adjudication
+- **把场地让出来吧** Clear the Area, Please!
+- **涓流轻缓** Clement Rillet
+- **预言之崖** Cliff of Prophecy
+- **「告竣的流彩」** Climax of Colors and Hues
+- **叮铃哐啷蛋卷工坊** Clink-Clank Krumkake Craftshop
+- **克洛琳德的命星** Clorinde's Stella Fortuna
+- **近程驱逐** Close Expulsion
+- **落定** Closure
+- **千载云已去** Cloud of Thirteen Katuns
+- **锦落云开** Cloud-Parting Carpfall
+- **龙共云飞** Cloud-Soaring Saurians
+- **凝云鳞甲** Cloudseam Scale
+- **源源小财** Cluster of Riches
+- **固凝珠** Coagulation Pearl
+- **苍琅的回响** Cobalt Remembrance
+- **科西霍** Cocijo
+- **机关轰鸣中** Cogs in the Machine
+- **冷裂壳块** Cold-Cracked Shellshard
+- **共饰佳时** Collective Adornment
+- **** 
+- **** Collective of Plenty General Message Board
+- **柯林伍德** Collingwood
+- **形彩思绪** Colorful Contemplation
+- **组合射击** Combined Fire
+- **与我一同高飞** Come Fly With Me
+- **出来吧神秘矿！** Come on out, Mystery Ore! Grant my wish!
+- **‎幻象中的慰抚** Comfort in Visions
+- **将才与推演** Commanders and Wargames
+- **你与玛拉妮的纪念合照** Commemorative Photo of You and Mualani
+- **泛用型烹饪装置** Common Cooking Device
+- **通用型便签架** Common-Use Note Holder
+- **科莫奎** Comonqui
+- **紧凑型送风装置** Compact Air Supply Device
+- **同行赠礼-「美学灵感」** Companion Gift - "Aesthetic Inspiration"
+- **同行赠礼-「必要技能」** Companion Gift - "Essential Skill"
+- **同行赠礼-「自由摇滚」** Companion Gift - "Freedom of Rock 'n' Roll"
+- **同行赠礼-「欢喜故事」** Companion Gift - "Joyful Tales"
+- **同行赠礼-「俏皮活泼」** Companion Gift - "Playful and Lively"
+- **同行赠礼-「护生决心」** Companion Gift - "Resolve to Protect"
+- **伙伴与家园** Companions' Haven
+- **慈爱的淑女帽** Compassionate Ladies' Hat
+- **复杂地图测绘法** Complex Cartography
+- **** Compound Sedation Field
+- **浓缩的异海凝珠** Concentrated Transoceanic Pearl
+- **卡布里埃商会** Confrerie of Cabriere
+- **受判之徒** Confutatis
+- **言欢聚** Congenial Gathering
+- **「兢兢业业捕风卫兵」** Conscientious Windcatcher Sentinel
+- **** Constant Off-the-Cuff Cookery
+- **** Constant Trajectory
+- **消费社会** Consumer Society
+- **思索** Contemplation
+- **彼时的证言** Contemporary Testimony
+- **角逐之焰** Contending Fire
+- **角逐火簇** Contending Spark
+- **持续旋转的灵感发条** Continuous Clockwork Inspiration
+- **可控性去危害化式定向爆破** Controlled Directional Blast
+- **转化** Convert
+- **冰上轻驰** Cool Runnings
+- **统律之心** Core of Chu'ulel
+- **饫宴角戏** Cornucopia of Contention
+- **正识的荣冕** Coronation of Providence
+- **星灯晕染之街** Coruscating Street
+- **柯莎的声援** Cosanzeana's Support
+- **「万千勤务者」** Countless Services
+- **讯使试炼的钥石** Courier's Trial Keystone
+- **「正义之廷的队列」** Court of Justice's Barrier
+- **正义之廷的繁荣商贸** Court of Justice's Booming Commerce
+- **「正义之廷的商贸」** Court of Justice's Commerce
+- **「正义之廷的分秒」** Court of Justice's Conscientiousness
+- **「正义之廷的勤务」** Court of Justice's Diligence
+- **「正义之廷的芬芳」** Court of Justice's Fragrance
+- **正义之廷的清新水雾** Court of Justice's Fresh Mist
+- **「正义之廷的鲜甜」** Court of Justice's Green Grocers
+- **「正义之廷的醇香」** Court of Justice's Mellow Aroma
+- **「正义之廷的百货」** Court of Justice's Merchandise
+- **「正义之廷的时讯」** Court of Justice's Newsstand
+- **正义之廷的平淡日常** Court of Justice's Placid Days
+- **「正义之廷的勇气」** Court of Justice's Valor
+- **「院墅的梁柱」** Courtyard Pillars
+- **磐岩盟契** Covenant of Rock
+- **科兹蒂克** Coztic
+- **** Cozy in the Light
+- **重甲蟹引起的混乱** Crabby Chaos
+- **鲜蟹献于鲜蟹王座** Crabs for the Crab Throne
+- **空梦的起始** Cradle of Fleeting Dreams
+- **调查用特许券** Credit Coupons (For Use During Investigation)
+- **奇械纹章** Crest of Artifice
+- **犯人的口供** Criminal's Testimony
+- **灼赤曜石断片** Crimson Obsidian Fragment
+- **灼赤曜石环** Crimson Obsidian Ring
+- **秋月红霜花** Crimson Qiuyue Frostflower
+- **秋沙钱汤的经营危机** Crisis at the Aisa Bathhouse
+- **危机解除！开心留念！** Crisis Relieved! A Happy Memento!
+- **乌鸦还是乌鸫？** Crow or Blackbird?
+- **诸圣的礼冠** Crown of the Saints
+- **失冕的宝冠** Crownless Crown
+- **粗糙的黑曜石像** Crude Obsidian Statue
+- **遐睠温煦之风** Cruising in the Balmy Breeze
+- **炽砂的崩诉** Crumbling Sands
+- **被揉皱的名单** Crumpled Namelist
+- **固晶甲虫** Crystal Beetle
+- **裂晶弹片** Crystal Shrapnel
+- **清晶的绮** Crystalline Reverie
+- **戈奇胡** Cuchihua
+- **库库娅** Cucuya
+- **** Cuicatl of Kongamato
+- **幕收！欢谈如梦** Culminate! Chatter of Joyous Dreams
+- **培育区域扩展・其一** Cultivation Area Expansion (I)
+- **培育区域扩展・其二** Cultivation Area Expansion (II)
+- **培育区域扩展・其三** Cultivation Area Expansion (III)
+- **培育区域扩展・其四** Cultivation Area Expansion (IV)
+- **培育区域扩展・其五** Cultivation Area Expansion (V)
+- **培育区域扩展・其六** Cultivation Area Expansion (VI)
+- **培育区域扩展・其七** Cultivation Area Expansion (VII)
+- **丘比特的爱人** Cupid's Lover
+- **「圣火之境的奇饰」** Curious Countenances of the Sacred Flame
+- **如意祝柬・之一** Custom Gift Envelope No. 1
+- **如意祝柬・之二** Custom Gift Envelope No. 2
+- **如意祝柬・之三** Custom Gift Envelope No. 3
+- **如意祝柬・之四** Custom Gift Envelope No. 4
+- **如意祝柬・之五** Custom Gift Envelope No. 5
+- **如意祝柬・之六** Custom Gift Envelope No. 6
+- **如意祝柬・之七** Custom Gift Envelope No. 7
+- **游刃由鱼** Dagger in the Water
+- **大日御舆** Dainichi Mikoshi
+- **破损的信件** Damaged Letter
+- **污损的快件** Damaged Package
+- **破损的石碑** Damaged Stone Tablet
+- **展夤夜兮会舞** Dance Into Night's Unfolding
+- **鹿纵踏舞** Dance of the Brown Deer
+- **舞！舞！舞！** Dance! Dance! Dance!
+- **月光中共舞** Dancin' in the Moonlight
+- **蒲公英书签** Dandelion Bookmark
+- **危机四伏的枫丹廷** Danger Lurks Everywhere in Fontaine
+- **危险的自动舰炮** Dangerous Autocannons
+- **疏影引蝶映梅红** Dappled Shadows Reflecting Red
+- **浮枕朝颜** Dawn's Drifting Reverie
+- **晞吹卷梦** Dawnbreath Dreambelle
+- **流泉醉月** Dazzling Moon of Metztli
+- **亡风啸卷** Deathly Cyclone
+- **** Decayed Vessel's Permutation
+- **演绎与演绎法** Deductive Rendition
+- **凝神思索** Deep Contemplation
+- **深廊的饫赐之宴** Deep Gallery's Bestowed Banquet
+- **深廊的漫远之约** Deep Gallery's Distant Pact
+- **深廊的回奏之歌** Deep Gallery's Echoing Song
+- **深廊的遂失之冕** Deep Gallery's Lost Crown
+- **深廊的湮落之刻** Deep Gallery's Moment of Oblivion
+- **油炸冰淇淋…？** Deep-Fried... Ice Cream?
+- **守护性战斗** Defensive Combat
+- **「雪奈茨芙娜的蝶安奈拉」** Deianeira of Snezhevna
+- **美味的茶叶** Delicious Tea Leaves
+- **** Delightful Whimsy
+- **谵妄圣主的容光** Delirious Demeanor of the Sacred Lord
+- **谵妄圣主的余哀** Delirious Desolation of the Sacred Lord
+- **谵妄圣主的神面** Delirious Divinity of the Sacred Lord
+- **** Delving Into the Hidden
+- **若晨曦再度升起** Demain, des l'aube
+- **魔战士的羽面** Demon-Warrior's Feather Mask
+- **否定裁断** Denial and Judgment
+- **荒废砌造坞** Derelict Masonry Dock
+- **梦魇的孑遗** Descendant of Nightmares
+- **** Descendants of Ahkantenal
+- **沙漠之民的成人礼** Desert-Dwellers' Rite of Passage
+- **献与永恒的宁静** Devoted to Eternal Serenity
+- **清露泡沫** Dew Bubble
+- **诸相忆念** Dharana Iaksana
+- **陀罗诘利** Dharmakirti
+- **澄思寂虑** Diaphanous Dream
+- **震怒之日** Dies Irae
+- **「叮叮单元」** Ding-Dong Unit
+- **** Dirge of Soul and of Dust
+- **遇见·提瓦特** Discover Teyvat
+- **寻踪留影 探索自然** Discover Traces, Explore Nature
+- **「遗予神骸定幽冥」** Divine Remains, Left to Pacify the Nether
+- **深潜斗士急流鱼** Diving Rapidfighting Fish
+- **潜水套装** Diving Set
+- **「金贝乐棚」** Djembe Studios
+- **你相信「场力」吗？** Do You Believe In "Fields"?
+- **「隐者王・多尔库」** Dobharcu, Lord of the Hidden
+- **嘟嘟可砰砰历险记！** Dodoco's Boom-Bastic Escapades!
+- **金宫引路人** Domus Aurea Guide
+- **「炫彩呆子」的涂鸦手记** Dopey Dazzler's Notes on Graffiti
+- **双重打击** Double Strike
+- **杜吉耶的「王国」** Dougier's "Kingdom"
+- **** Down by the Forgotten Gardens
+- **琉鳞石** Dracolite
+- **** Dragon and Determination
+- **流灰之城的魔龙** Dragon of the City of Flowing Ash
+- **龙与箭之年** Dragonbolt Chronicles
+- **食梦者的忧郁** Dream Eater's Melancholia
+- **「蒲公英与钩钩果的梦」** Dream of Dandelions and Wolfhooks
+- **「劫波莲与蔷薇叶的梦」** Dream of Kalpalata Lotus and Rose Leaves
+- **「绯樱与海灵芝的梦」** Dream of Sakura and Sea Ganoderma
+- **白枝之梦** Dream of White Branches
+- **画中之梦** Dream Through The Canvas
+- **网中之梦** Dream Through The Web
+- **清梦幽思** Dreamlike Reflection
+- **《旧都梦夜奇谭》** Dreams of the Ancient Capital
+- **** Dreams of the Ancient Realm
+- **萦梦的絮语** Dreams' Swirling Whispers
+- **** Drifting Clouds, Wafting Snow
+- **不觉入梦里** Drifting Into Dream
+- **灯下演武** Drills by Lamplight
+- **‎幽室泠泠** Dripping Gloom
+- **干燥的木柴** Dry Firewood
+- **泉与岩的交奏** Duel Between the Springs and the Echoes
+- **** Dulciaria Structura Chapter
+- **度尼娅** Duniya
+- **晚霞翻车鲀** Dusk Sunfish
+- **** Dust of Dusklands
+- **杜兹厄** Dutse
+- **杜塔** Dutta
+- **特瓦林** Dvalin
+- **染料样品** Dye Samples
+- **被浸染的缨盔** Dyed Tassel
+- **诚恳交涉** Earnest Negotiation
+- **奇绘画架** Easel of Wonders
+- **秋分山东侧** East Slopes of Mont Automnequi
+- **「轻便自由候车凉棚」** Easy Breezy Shelter Canopy
+- **蘑神与斗士** Eat or Be Eaten
+- **「饱食的辛勤」** Eat What You Sow
+- **深泓浮湛** Ebb and Flow
+- **诡越趋迎** Eccentric Reception
+- **深潮的余响** Echoes of the Deep Tides
+- **大乐章的回声** Echoes of the Grand Symphony
+- **「水岸的回声」** Echoes of the Shore
+- **昔时回映之音** Echoing Sound From Days Past
+- **殒尘的黯星** Eclipsed Star
+- **赦免宣告** Edict of Absolution
+- **轻松迎敌之袖** Effortlessly Outclassing Opponents Tamoto
+- **「厄卡特尔」** Ehecatl
+- **山海八所巡礼** Eight Locales Over Mountains and Seas
+- **雷之新生** Electric Rebirth
+- **雷萤浮闪** Electro Cicin's Gleam
+- **优雅仪容** Elegant Countenance
+- **优雅问候** Elegant Greeting
+- **元素汲取** Elemental Absorption
+- **元素强音** Elemental Forte
+- **高调阵势** Elevated Array
+- **伊露妮** Eluney
+- **温火饵** Emberglow Bait
+- **烬火重燃** Embers Rekindled
+- **衔勇诚砺之证** Emblem of Steadfast Valor
+- **「砥砺之证」** Emblem of Valor
+- **当那突角龙杀到** Emergency Brakes, Teteocan Style
+- **千缕之踪** A Thousand Scents Traced
+- **小狐狸的白日梦** A Little Fox's Daydream
+- **不思议分身幻梦** Bunshin Phantasm
+- **三川游艺绮梦谭** Enchanted Tales of the Mikawa Festival
+- **梦中的邂逅** Encounter in the Realm of Dreams
+- **聚能式机芯元件** Energy Concentrating Component
+- **迁能终端** Energy Transfer Terminal
+- **芒荒强效增幅器** Enhanced Pneumousia Amplifier
+- **强化抗阻练习** Enhanced Resistance Training
+- **千年珍珠骏麟・升怒** Enraged Millennial Pearl Seahorse
+- **深邃纠缠的凝视** Ensnaring Gaze
+- **缭绕于思** Entwined in Thought
+- **科培琉司的辞行** Envoi of Coppelius
+- **衡平推裁** Equitable Judgment
+- **厄达尔夫** Erdalf
+- **镀金旅团的茶歇** Eremite Teatime
+- **蚀灭的灵犀** Eroded Horn
+- **蚀灭的鳞羽** Eroded Scale-Feather
+- **蚀灭的阳焰** Eroded Sunfire
+- **熔岩游像·蚀土者** Eroding Avatar of Lava
+- **明绚千韵** Tasteful Excellence
+- **衍术阵列** Esoteric Arrays
+- **逸兴欢跃** Euphoric Ride
+- **凯撒来了也不卖** Even Caesar Could Not Buy This From Me
+- **晚间畅惬** Evening's Ease
+- **暮夜绮想** Eventide Caprice
+- **** Eventide Chant
+- **** Everlasting Promise
+- **恒动械画-「须弥城」** Evermotion Mechanical Painting - Sumeru City
+- **恒动械画-「唐杜尔烤鸡」** Evermotion Mechanical Painting - Tandoori Roast Chicken
+- **勇士的每一面** Every Aspect of a Warrior
+- **凡走过必留痕迹** Every Contact Leaves a Trace
+- **画中有话** Every Picture Tells a Story
+- **悠乐片段** Excerpts of Bliss
+- **行政院** Executive Office
+- **遥途的冀望** Expectation for Exploration
+- **玛拉妮购置的探险装备** Expedition Equipment Purchased by Mualani
+- **实验型晶体光路器件** Experimental Crystal Light Path Component
+- **「实验饮品・一号」** Experimental Drink No. 1
+- **「实验饮品・二号」** Experimental Drink No. 2
+- **「实验饮品・三号」** Experimental Drink No. 3
+- **「实验饮品・四号」** Experimental Drink No. 4
+- **「实验饮品・五号」** Experimental Drink No. 5
+- **「实验饮品・六号」** Experimental Drink No. 6
+- **「实验饮品・七号」** Experimental Drink No. 7
+- **「实验饮品・八号」** Experimental Drink No. 8
+- **朝向领风之崖与流灰之都** Facing the Windborne Cliff and City of Flowing Ash
+- **褪色古堡** Faded Castle
+- **褪光的翠尾** Faded Emerald Tail
+- **沈匿的旧梦** Fading Anticipation
+- **残火灯烛** Fading Candle
+- **渐落的晨曦** Fading Dawn
+- **「渐渐隐去的老兵」** Fading Veteran
+- **「市集的分列布陈」** Fair's Distribution
+- **「市集的同欢尽饮」** Fair's Feasting and Drinking
+- **「市集的时鲜肴蔬」** Fair's Fresh Vegetables
+- **「市集的推销策略」** Fair's Simple Sales Strategy
+- **「市集的锦绣染织」** Fair's Splendid Textiles
+- **「市集的归纳静思」** Fair's Thoughts in Order
+- **「市集的珠玉巧饰」** Fair's Treasures and Trinkets
+- **「最美丽的风景」** Fairest of Scenes
+- **童话宝箱** Fairytale Trove
+- **忠实的砂时计** Faithful Hourglass
+- **遗落的花束** Fallen Bouquet
+- **石火坠陨处** Fallingstar Fields
+- **坍陷与契机** Falls and Fortune
+- **幻剧之花** Fantasia Flowers
+- **森萃的幻戏** Fantastical Fairytale
+- **幻戏瑰意** Fantastical Marvel
+- **再见了，最后的龙龙饼干** Farewell, Final Saurus Cracker
+- **再见了伙伴** Farewell, Friend
+- **再见，艾利法斯先生** Farewell, Mr. Eliphas
+- **亡雷凝蓄** Fatal Fulmination
+- **无法预测的命运馈赠** Fate's Unpredictable Favor
+- **愚人众交易人员** Fatui Negotiator
+- **泛羽流月** Feathered Moonlight
+- **行处春风飞鸟羽** Feathers Adrift in a Spring Breeze
+- **轻盈水沫** Featherweight Foam
+- **今天是吃鱼的心情！** Feeling Like Fish Today!
+- **「幸运祝福」** Felix Felicium
+- **「邪龙」绘卷** Fell Dragon's Picturebook
+- **邪龙的邪鳞** Fell Dragon's Scale
+- **游艺印章** Festival Stamp
+- **庆典热度** Festive Fervor
+- **田地里的蕈息** Field Fungal Traces
+- **** Field Medic's Vision
+- **头槌猛击** Fierce Headbutt
+- **为学术声誉而战** Fight for Academic Reputation!
+- **闭目战斗之袖** Fighting With Her Eyes Shut Tamoto
+- **自信满满** Filled With Confidence
+- **逸趣映片** Film for Fun
+- **映影制作札记** Filmmaking Notes
+- **终幕礼** Finale
+- **火与战争** Fire and War
+- **秋暮之火** Fires of Autumn Twilight
+- **寒木春华** First Blossom of Spring
+- **从「鹈鹕」嘴里抢下的鱼** Fish Seized From a Pelican's Mouth
+- **钓鱼** Fishing
+- **五剑归王山** Five Blades Return to Wangshan
+- **固定式储能装置与迁移式储能装置** Fixed Storage Device and Energy Transfer Device
+- **聚火祭验所** Flame-Melding Ritual Grounds
+- **斗争之火** Flames of War
+- **燃爆木「舞者」路灯** Flammabomb Wood "Dancer" Street Lamp
+- **燃爆木** Flammabomb Wood
+- **遐游香榭** Flanerie sur le marche
+- **维护机关频闪诱饵** Flashing Maintenance Mek Bait
+- **浮烁的四叶印** Flickering Four-Leaf Sigil
+- **** Floating Breaths of the Breeze
+- **水晶浮游花与水晶浮游平台** Floating Crystal Flowers and Floating Crystal Platforms
+- **漂萍逐水** Floating Into Distance
+- **繁花斗士急流鱼** Floral Rapidfighting Fish
+- **溯流·大灵显化身** Flow-Inverted Wayob Manifestation
+- **浮流鸟** Flowcurrent Bird
+- **花羽会「预警」气球** Flower-Feather Clan "Warning" Balloon
+- **「花羽会」的征途** Flower-Feather Clan's Conquest
+- **献给某人的花束** Flowers for Someone
+- **浮燃鸟** Flowfire Bird
+- **长犀圆鸟和扁鱼** Flowhorn Flounderfinder
+- **熔岩游像·流燃体** Fluid Avatar of Lava
+- **** Flute of Uilacapitztli
+- **飞鼠妈妈** Flying Squirrel Mama
+- **飞鼯** Flying Squirrel
+- **飞鼠的空中冒险** Flying Squirrels' Aerial Adventure
+- **** Focused Emergency Rescue
+- **「大敌的痕迹」** Foe's Trace
+- **** Fog of the Seasons
+- **幽林雾道** Foggy Forest Path
+- **疾叶·大灵显化身** Foliar-Swift Wayob Manifestation
+- **悠游逐浪** Following the Torrent
+- **忙碌市集的潮流风物** Fomenting Fashion at the Fair
+- **行汲众水的泉源・其二** Font of All Waters (II)
+- **行汲众水的泉源・其三** Font of All Waters (III)
+- **枫达** Fonta
+- **恪尽其责的企盼** Fontaine Expects That Everyone Will Do Their Duty
+- **枫丹时装周** Fontaine Fashion Week
+- **枫丹科学院纪事** Fontaine Research Institute Chronicles
+- **枫丹科学院，停滞于一片废墟上** Fontaine Research Institute, Stagnating in the Rubble
+- **原海麟角** Fontemer Unihorn
+- **沉沙下的足迹** Footprints Sunken Beneath the Sands
+- **为了美好的明天** For a Better Tomorrow
+- **为一座无名的坟茔** For an Unmarked Grave
+- **为了龙伙伴** For Our Saurian Companion
+- **奔赴未来的实验** For the Future's Sake, Experiment!
+- **为了旧日与明天** For Yesterday and Tomorrow
+- **赐福森林** Forest of Blessings
+- **「与它们永远相伴」** Forever in Arms
+- **锻造用矿石** Forging Ore
+- **锻造** Forge
+- **遗落的钥匙・其一** Forgotten Key (I)
+- **遗落的钥匙・其二** Forgotten Key (II)
+- **昔时遗落之誓** Forgotten Oath of Days Past
+- **僭王的威烈** Formidable Usurper
+- **卡布狄斯堡遗迹** Fort Charybdis Ruins
+- **角落社会的规则** Fortress Corner Society's Rules
+- **梅洛彼得堡公告板** Fortress of Meropide Bulletin Board
+- **** Foundry of the Golden
+- **四重影子** Four Shades
+- **「四足的塔盾」** Four-Legged Tower Shield
+- **金色旋律的断章** Fragment of a Golden Melody
+- **碎片拾忆** Fragmented Memories
+- **垂香木雨檐告示牌** Fragrant Cedar Wood Announcement Board
+- **馥郁幻想** Fragrant Fantasy
+- **「余香的薪柴」** Fragrant Firewood
+- **香木「赤璋」** Fragrant Wood "Chizhang"
+- **香木「黄琮」** Fragrant Wood "Huangcong"
+- **弗里曼的宣言** Freeman's Announcement
+- **菲米尼的临时营地** Freminet's Temporary Camp
+- **新鲜的树莓** Fresh Berries
+- **新鲜的酸汁腌鱼** Fresh Sour Sauce Ceviche
+- **自由的新风** Fresh Wind of Freedom
+- **从一案到另一案** From One Case to Another
+- **霜空曜明** Frosted Hue of Stars
+- **霜月之子** Frostmoon Scions
+- **霜刺破袭** Frostspike Wave
+- **沃陆果饮** Fruits Aplenty
+- **禁限之堡的「拳力以赴」** Full Force Forward in the Forbidden Fortress
+- **资金** Funds
+- **蕈兽可不是汐藻！** Fungi Are Not Tidalga!
+- **「猫茸茸城堡」的大大危机！** Furball Fortress's Frightful Fix!
+- **猫茸茸城堡** Furball Fortress
+- **毛球** Furball
+- **愤怒泉眼** Furious Mouth of the Spring
+- **烬火炽燃所** Furnace of Fiery Embers
+- **炉壳山鼬** Furnace Shell Mountain Weasel
+- **风风轮舞踢** Fuufuu Whirlwind Kick
+- **伽拉蒂雅的盐需求** Galathee's Salt Solicitation
+- **「沃陆之邦」的勇进** Gallant March of the Collective of Plenty
+- **美食美酒的华丽外衣** Garb for Glorious Gourmet
+- **「庭园的星辉乐柱」** Garden Stellar Musical Pillar
+- **「星空之门」** Gate of Stars
+- **加赫波** Gathabo
+- **仰观千秋，俯察万象** Gazing Up at Eternity, Looking Down at the World
+- **齿轮传动器** Gear Drivetrain
+- **齿轮云梯** Gear Sky Ladder
+- **月光州** Gekkostate
+- **某微观宇宙的肇始** Genesis of a Certain Micro-Universe
+- **《原神》PlayStation®Plus优惠** Genshin Impact Promotion for PlayStation®Plus
+- **** Gentle Breeze Through the Pines
+- **娴静仪容** Gentle Countenance
+- **格茜妮** Gesine
+- **礼包商城** Gift Shop
+- **赠礼与回礼** Gifts and Gifts in Return
+- **「银阁」** Ginkaku
+- **赠予她回忆** Give Her Memories
+- **赠予她惊喜** Give Her Surprises
+- **赠予她甜蜜** Give Her Sweetness
+- **** Glacial Castigation
+- **远寄佳音** Glad Tidings From Afar
+- **绮光彩灯** Gleaming Lamp
+- **稻妻秘见录** Glimpses of Mysterious Inazuma
+- **亮灰猎犬** Glittergray Hunting Hound
+- **「黯光方菌」** Gloomglow Fungi
+- **菵露落夤夜** Gloomy Drizzle
+- **「圣火之境的斑斓」** Glorious Hues of the Sacred Flame
+- **** Glorious Metropole
+- **追逐的荣光，或其意义…** Glory of the Chase, Or Its Meaning...
+- **** Glow of Nawpa Pacha
+- **「乐园糖果的莹光」** Glowing Amusement Park Candy Lamp
+- **初火的残辉** Glowing Embers
+- **「丛林的萤萤果实」** Glowing Forest Fruit
+- **「微光角菌」的孢子** Glowing Hornshroom Spore
+- **龙龙远征，出发！** Go Go Saurian Expedition!
+- **前往「科学院宿舍」取回桩锚** Go to the Institute Dormitories and retrieve the Anchor
+- **前往「发条应用研究院」取回桩锚** Go to the Institute of Clockwork Applications and retrieve the Anchor
+- **女神的手稿・其一** Goddess's Manuscript (I)
+- **女神的手稿・其二** Goddess's Manuscript (II)
+- **女神的手稿・其三** Goddess's Manuscript (III)
+- **鎏金与青宝石** Gold Gild and Emerald
+- **太阳之金，以及血液…** Gold of the Sun, Together with his Blood
+- **秘刻金纹的源核** Gold-Inscribed Secret Source Core
+- **金牌健康餐** Gold-Standard Healthy Meal
+- **通牒金盘** Golden Entreaty
+- **还好我技高一筹** Good Thing I'm a Cut Above
+- **华丽宝石瓶** Gorgeous Gem Bottle
+- **涂鸦联盟** Graffiti Alliance
+- **「涂鸦留影机」** Graffiti Kamera
+- **「颗粒果」的种子** Grainfruit Kernel
+- **「粒果膨膨机」** Grainfruit Puffer
+- **** Grand Wrestling Grounds
+- **嘉辰锦时之聚** Gratifying Gathering
+- **伟大发条** Great Clockwork Key
+- **重斧轰破** Greataxe Smash
+- **绿果果菇** Green Berryshroom
+- **翠青曜石断片** Green Obsidian Fragment
+- **翠青曜石环** Green Obsidian Ring
+- **边缘绿油油的纸** Green-Edged Paper Slip
+- **青浪翻车鲀** Greenwave Sunfish
+- **悲号回唱** Grieving Echo
+- **厄夜深冥** Grim Is the Night
+- **不悦挥刀之袖** Grouchy, Knife-Wielding Tamoto
+- **不知何时留下的合影** Group Photo From an Unknown Time
+- **小小人儿，快长大…？** Grow Up Quickly, Littl'Un...?
+- **小小人儿，快长大** Grow Up Quickly, Littl'Un
+- **看守** Guard
+- **抱头防御** Guard Up
+- **卫兵长矛** Guard's Spear
+- **「焚燔」的指引** Guide to Kindling
+- **伴游奇景** Guide to Wondrous Sights
+- **旅途的指引** Guides of a Journey
+- **** Guiding Spirit of Ballistic Prayer
+- **古雷马** Gulema
+- **枪与翼** Guns and Wings
+- **戟冠鸟** Halberd-Crest Bird
+- **半幻人** Half-Tulpa
+- **** Halls of Hueyteotl
+- **花散里的面具** Hanachirusato's Mask
+- **手轮** Handwheel
+- **随身记事本** Handy Notepad
+- **悬风于心** Hanging in the Heart of the Wind
+- **炽热的大脚** Happy (And Hot) Feet
+- **开心时光** Happy Times
+- **勉力传动** Hard Work and Drive
+- **诸律的谐奏** Harmonia of Polysynodie
+- **谐律簧管** Harmonious Reed Pipe
+- **谐律交响的前奏** Harmonious Symphony Prelude
+- **丰稔之赐** Harvest's Boon
+- **月亮还没有出来** Has the Moon Come Up?
+- **哈蒂丝** Hatice
+- **力向逆心** Heart of Force Inversion
+- **圣山之心** Heart of the Sacred Mountain
+- **秘源真芯** Heart of the Secret Source
+- **心意涂鸦** Heartfelt Doodlings
+- **妙妙心心瓶** Heartstopping Heart Bottle
+- **奇策竞驰** Sprinting Stratagems
+- **自行巧局** Automatic Artistry
+- **热斗模式** Heated Battle Mode
+- **重量级选手** Heavyweight Contender
+- **煌绚的旅路** Heliacal Path
+- **赫卡的笔记** Helka's Notes
+- **更生的焰主** Here Cometh the Flamelord
+- **这是龙的国度** Here Lies the Realm of Dragons
+- **从此以后…** Hereafter...
+- **勇者的归途** Hero's Homecoming
+- **奇巧冒险** Hero's Journey
+- **嗨！冷静点！** Hey! Calm Down!
+- **「嘿哈唔史莱姆三姆组」** Hey-Ha-Hoo Slime Box Trio
+- **合辙驿** Hezhe Post
+- **伊达戈** Hidalgo
+- **韬玉天星** Hidden Jade Star
+- **苍原的巇径** Hidden Path Above the Savannah
+- **** Hidden Sillage
+- **前有隐藏…** Hidden... Ahead
+- **高频旋击** High-Frequency Whirling Assault
+- **高速滑空** High-Speed Lifting
+- **樋口铁矢** Higuchi Tetsuya
+- **** Hiisi Island
+- **丘丘援军** Hilichurl Reserve
+- **希涅琪娅** Hinekea
+- **沉眠于是夜** His Rest Was in the Night
+- **海兹尔** Hizir
+- **赫纳卡** Hnaska
+- **** Ho'olauna aloha!
+- **沦蛰的缅忆** Hoary Hibernation
+- **水仙十字圣剑** Holy Blade of Narzissenkreuz
+- **瞑色的归途** Homeward Bound
+- **诚恳的蘸水笔** Honest Quill
+- **** Honorable Landscape
+- **「荣誉高级研究员之奖」** Honorary Senior Researcher Award
+- **套圈也是圈套** Hoops Are Also Traps
+- **希望是个好词** Hope Is a Nice Word
+- **非友好接触** Hostile Contact
+- **** Hot Spring Affection
+- **** House of Cinders
+- **真视镜座** Hualina Veritas
+- **黄三爷** Huang the Third
+- **巨型帽子水母** Humongous Hat Jellyfish
+- **悬练凝剑骨** Hung Condensed Bladebone
+- **猎人们的相聚** Hunters' Gathering
+- **胡奇鲁** Huqiru
+- **轰闪落雷** Hurtling Bolts
+- **暮深天静** Hushed Canopy of Night
+- **人来人往** Hustle and Bustle
+- **菇兹亚** Huzziya
+- **浊水幻灵引起的混乱** Hydro Phantasm Havoc
+- **亥珀波瑞亚** Hyperborea
+- **超速旋击** Hyperspeed Whirling Assault
+- **「速度，我就是速度！」** I Am Speed
+- **吾之所问，汝为人乎？** I Ask of Thee, Art Thou Mankind?
+- **我相信有仙子存在** I Do Believe in Fairies
+- **我畏惧我在风中的怒火…** I Fear'd the Fury of My Wind
+- **** I Got Reincarnated as an Onikabuto... And Flipped the World Upside Down - Instrumental
+- **我曾见她缀饰荧光的裙裾** I Saw Her Sable Skirts All Fringed With Light...
+- **我，游火人** I, Flame Bearer
+- **伊安珊的命星** Iansan's Stella Fortuna
+- **灵露倾洒的狂诗** Ichor Shower Rhapsody
+- **浅斟的暇刻** Idle Hours
+- **偶像海报** Idol Poster
+- **伊杜坎的秘藏** Idukan's Trove
+- **蔚风引灵** In the Wake of Wandering Winds
+- **净炼火座** Ignis Purgatorius
+- **燔炎的冒险家・其一** Ignited Adventurer (I)
+- **燔炎的冒险家・其二** Ignited Adventurer (II)
+- **聚燃的命种** Ignited Seed of Life
+- **聚燃的游像眼** Ignited Seeing Eye
+- **燔炎的寻宝者・其一** Ignited Treasure Hunter (I)
+- **燔炎的寻宝者・其二** Ignited Treasure Hunter (II)
+- **斥逐与驱散恶客** Evil Banisher
+- **破碎旧录之规复** Restoring Fragmented Records
+- **迷途灵性的搜觅** Search for Lost Spirits
+- **灵性援护** Spiritual Support
+- **白淞的夕暮** Il Crepuscolo di Poisson
+- **刺玫的诗律** Il Nome della Rosula
+- **伊伊马尼** Illimani
+- **迷光的蜷叶之心** Illusory Leafcoil
+- **拟想！强者与迷宫！** Imaginary Maze of True Heroes
+- **伊马雷** Imara
+- **伊蜜的快件** Imix's Package
+- **帝王甲胄** Imperial Panoply
+- **曙红即兴诗** Impromptu Poem of the Crimson Dawn
+- **改进炼金釜・其一** Improved Alchemy Cauldron (I)
+- **改进炼金釜・其二** Improved Alchemy Cauldron (II)
+- **改进炼金釜・其三** Improved Alchemy Cauldron (III)
+- **改进炼金釜・其四** Improved Alchemy Cauldron (IV)
+- **「改进版鳄鳄炮炮」** Improved Crococannon
+- **追寻深藏之心** In Search of a Hidden Heart
+- **往事追迹** In Search of Lost Time
+- **柔灯铃的花语…？** In the Language of Flowers, the Lumidouce Bell Means...?
+- **以极限之名** In the Name of the Extreme
+- **水仙的追迹** In the Wake of Narcissus
+- **在那梦中之墟…** In Those Ruins of Dreams...
+- **焚香晶灰** Incense Ashcrystals
+- **事件总是突如其来** Incidents Are Ever Sudden
+- **焚落踢** Incineration Drive
+- **残缺的名册** Incomplete Register
+- **命运的示数** Indicators of Fate
+- **圣律桓桓** Indisputable Commandments
+- **** Infinite Cosmodynamics
+- **** Inheritance of an Ancient Name
+- **镌刻成忆** Inheritors of Memory and Legend
+- **「二号初始能力样机」研发计划** Initial Skill Sample No. 2 Development Plan
+- **「教习的战棒」** Initiate's War Club
+- **无尽食欲** Insatiable Appetite
+- **妙手采风** Inspiration Walk
+- **** Inspiration-Immersed Seasoning
+- **科学院宿舍** Institute Dormitories
+- **发条应用研究院** Institute of Clockwork Applications
+- **内燃奔进** Internal Combustion Charge
+- **远销各国** International Markets
+- **** Interstellar Drift
+- **走入画中…** Into the Painting...
+- **裁心的狡计** Intricate Ruse
+- **异域鱼鱼追渔行动** Invasive Fish Wrangler
+- **背包** Inventory
+- **古遗迹的调查者** Investigator of Ancient Ruins
+- **来自神子的邀请函** Invitation From Miko
+- **荒泷派的邀请函** Invitation From the Arataki Gang
+- **召唤王的决意** Invokation Game
+- **增殖感召** Invokation of Propagation
+- **希奥蕾娜** Iolana
+- **「虹色巡回券」** Iridescence Tour Tickets
+- **声韵律动大交流** A Meeting of Melodies
+- **百万奇饰大搜罗** Trillion Trinket Trawl
+- **镌光铭印的残片** Iridescent Inscription Fragment
+- **镌光铭印** Iridescent Inscription
+- **镌光的遗记** Iridescent Legacy
+- **不耐烦的沙漠人** Irritable Desert-Dweller
+- **托佐兹之岛** Isle of Tozoz
+- **至少是个开始…** It's Not Much, But It's A Start...
+- **伊察霍** Itsaho
+- **伊扎娅** Itzayah
+- **约卡** Ixcatl
+- **伊柯特洛** Ixtelo
+- **锦玉悬瀑** Jade Cascade
+- **玉玦断片・左** Jade Fragment (Left)
+- **玉玦断片・右** Jade Fragment (Right)
+- **瑶庭引路人** Jadehall Guide
+- **翠陵的冒险家** Jademound Adventurer
+- **翠陵的寻宝者** Jademound Treasure Hunter
+- **水玉果实** Jadewater Fruit
+- **「待发的投矛」** Javelin Imminent
+- **「投矛的坚杆」** Javelin's Shaft
+- **其人之名，我已知晓！** Je sais le nom de l'etranger !
+- **婕德与奔奔** Jeht and Benben
+- **珠宝工匠的零件箱** Jewel Artisan's Box of Parts
+- **珠宝工匠的工具箱** Jewel Artisan's Toolbox
+- **月露之行** Journey by the Moonlight
+- **神秘岛之旅** Journey to the Mysterious Island
+- **欢兴礼券** Joyeux Voucher
+- **「丛林的欢聚一堂」** Joyous Forest Party
+- **欢声飞羽** Jubilant Feather
+- **** Jubilation of Calcine
+- **略显身手** Just a Lil' Flaunting
+- **碰碰舞兽戏！** Just Wushou Dance!
+- **夏贝瓦** Kabewa
+- **斑金矿朴** Mottled Gold Yet Unsmelted
+- **高田** Kaga
+- **加目无** Kamen
+- **金田** Kaneda
+- **卡乌鲁推荐的探险装备** Kaulu's Recommended Expedition Equipment
+- **科里** Kerih
+- **「染绘石挑战」台边的钥匙** Key Found by the "Painted Stone Challenge" Podium
+- **热气球平台上的钥匙** Key From a Balloon Platform
+- **稳定作息的重要因素** Key to a Stable Work-Rest Cycle
+- **某处的钥匙** Key to Somewhere
+- **豁口在中的钥匙** Key With Centered Notches
+- **豁口在前的钥匙** Key With Frontal Notches
+- **豁口在后的钥匙** Key With Rear Notches
+- **卡蒂佳** Khadija
+- **基达内** Kidane
+- **基莫西** Kimosi
+- **动能梯度测验** Kinetic Energy Gradient Test
+- **铃风王国** Kingdom of Breezes and Bells
+- **基尼奇的交易** Kinich's Deal
+- **「金阁」** Kinkaku
+- **奇恩延** Kinyan
+- **** Kitchen Skills
+- **奇佐勒** Kizole
+- **狡诈的康波雷** Kompore the Cunning
+- **高村** Komura
+- **科勇基** Koyonki
+- **称贤者的真意** Kukulkan's Deceit
+- **库蕾玛娜** Kulemana
+- **久吕由命** Kuroyume
+- **库特比** Kutbi
+- **琪莎** Kyssa
+- **** La Chanson Cerise
+- **伊黎耶之歌** La Chanson d'Erinnyes
+- **渊水遗落之城** La cite en la mer
+- **** La comedie ni humaine ni divine
+- **** La condotta della Rosula
+- **** La confession interrompue
+- **** La nuit fantastique
+- **** La tristezza della Rosula
+- **垂泪之时** Lacrimosa
+- **拉姆达** Lambda
+- **「安饶之陆的边绳」** Land of Plenty's Bounds
+- **「安饶之陆的角逐」** Land of Plenty's Contention
+- **「安饶之陆的哨卫」** Land of Plenty's Sentinel
+- **源火的深隍** Land of Primal Flame
+- **龙的国度** Land of Saurians
+- **** Land of Tecalco
+- **彩石与焰泉之国** Land of Vibrant Stone and Flaming Springs
+- **昔时的花语** Langage des fleurs
+- **激愈水球・大** Large Bolstering Bubblebalm
+- **大型运输货盘** Large Shipping Pallet
+- **船明伞彩** Largo alla donzella
+- **烬城最后的勇者** Last Hero of Cinder City
+- **「最后选择」** Last Resort
+- **捉虫小队最后出击** Last Ride of the Bugbuster Squad
+- **迟来的归乡** Latecoming Homecoming
+- **洛梅的声援** Laume's Support
+- **掷弹轰击** Launch Grenade
+- **劳塔洛** Lautaro
+- **熔岩辉龙像** Lava Dragon Statue
+- **偷懒是健身大忌!** Laziness is the Enemy!
+- **懒懒的鳍游龙** Lazy Koholasaurus
+- **** Le ciel clair qu'elle avait songe
+- **** Le cramoisi coulant comme Cin
+- **深眠杳寂之谷** Le dormeur du val
+- **浪潮已至** Le Déluge
+- **匿伏之河** Le fleuve secret
+- **潜水钟与胖胖果** Le Scaphandre et le Pufferfruit
+- **** Le Souffle du Parfum
+- **领头的家伙** Leader
+- **「一叶好梦」** Leafy Dreams
+- **冲跃钝击** Leaping Smash
+- **腾跃霆击** Leaping Thunder
+- **左边桌上的卷宗箱** Left-Side Table File Box
+- **吃剩的「鱼鱼咏唱派」** Leftover Poissonchant Pie
+- **记载着传说的织卷** Legend-Inscribed Woven Scroll
+- **传说中的「色彩」** Legendary "Color"
+- **传说中的天蛇船** Legendary Tonatiuh
+- **** Leisure in Painting
+- **闲暇时光** Leisure Time
+- **岁华悠暇** Leisurely Days in Fontaine
+- **悠游豚豚** Leisurely Puffer
+- **沉落的残痕** Les etoiles semblent s'estomper
+- **冷流潺然** Les murmures des flots
+- **澈夜的组诗** Les Nuits
+- **四水果击** Les Quatre Coups
+- **轻绎的柔愿** Les tendres souhaits
+- **荣花演武，开幕！** Let the Bloomflower Trials Begin!
+- **「若荒漠化为林野」** Let the Desert Bloom
+- **飞车出发啦！** Let's Get Started!
+- **「利亚姆」** Liam
+- **利亚姆的高歌** Liam's Ballad
+- **利亚姆** Liam
+- **谎言与约定** Lies and Promises
+- **迅捷轻击** Light Strike
+- **执灯人** Lightkeepers
+- **无光涡眼** Lightless Eye of the Maelstrom
+- **无光鲸噬** Lightless Feeding
+- **无光质块** Lightless Mass
+- **无光丝线** Lightless Silk String
+- **** Lightning Racing
+- **霆电掠袭** Lightning Raid
+- **** Lights on Me
+- **来拍映影吧！** Lights, Kamera, Action!
+- **如飘向空中的丝绸…** Like Floating Silk...
+- **小小灵蕈大幻戏！** Lil' Fungi's Fun-Tastic Fiesta!
+- **露景澈映** Limpide est le sanglot d'eau
+- **莉娜夏** Linaha
+- **椴木「强硕」床铺** Linden Wood "Sturdy" Bunk
+- **椴木「危坐」靠背椅** Linden Wood "Subduing Seat" Backed Chair
+- **椴木「舒眠」床铺** Linden Wood "Sweet Slumber" Bed
+- **椴木半金属告示牌** Linden Wood Half-Metal Announcement Board
+- **流连欢宴** Lingering Feast
+- **丽珊** Lishan
+- **小食梦貘** Little Baku
+- **小飞鼠** Little Flying Squirrel
+- **小嵴锋龙！发现宝藏！** Little Tepetlisaur &mdash; Treasure Hunter at Large
+- **一号地点的资料** Location No. 1 Materials
+- **二号地点的资料** Location No. 2 Materials
+- **三号地点的资料** Location No. 3 Materials
+- **「高塔的潮流画布」** Lofty Tower's Fashionable Canvas
+- **「高塔的励勉燃流」** Lofty Tower's Flaming Brazier
+- **「高塔的竞逐之地」** Lofty Tower's Floor of Trials
+- **「高塔的光耀天井」** Lofty Tower's Radiant Ceiling
+- **「高塔的强固门扉」** Lofty Tower's Sturdy Door
+- **「高塔的磨砂石梯」** Lofty Tower's Textured Stairs
+- **渴盼已久之时** Long-Awaited Moment
+- **长点射** Long-Range Fire
+- **好奇张望** Looking Around Curiously
+- **卢施** Loshts
+- **遗落的魔导书** Lost Grimoire
+- **迷林之子** Lost in the Woods
+- **流灰之国的迷旅人** Lost Traveler in the Ashen Realm
+- **风念月思** Love Is in the Air
+- **为书所爱的人** Loved by Books
+- **漂亮的幽光星星** Lovely Lumitoile
+- **** Low-Temperature Cooking
+- **柔灯港五型复合起重机关** Lumidouce Harbor Type-05 Combine Lifter
+- **月夕花朝** Luminescence of Eventide
+- **晦朔千引** Lunar Cycles Unending
+- **寒星遥遥** Lustrous Stars
+- **卢蒂妮的声援** Lutine's Support
+- **马范** Ma'chah
+- **玛阿威与幻写灵** Maawe and Monetoo
+- **马察科** Macacoz
+- **马卡龙作战** Macaron Melange
+- **马其莫斯** Machimos
+- **机关铸成之链** Machine Assembly Line
+- **** Madrigale della Candela
+- **「魔剑柯鲁日」** Mageblade Corrouge
+- **「魔水」** Magic Tonic
+- **「丛林的魔法小屋」** Magical Forest Hut
+- **乌乌黑蛋** Magma Eggs
+- **炽岩斗士急流鱼** Magma Rapidfighting Fish
+- **慷慨的墨水瓶** Magnanimous Ink Bottle
+- **玫熙** Maisie
+- **检律庭** Maison Ordalie
+- **珉光虫** Malachitin Lumibug
+- **荧草窟** Malinalco Grotto
+- **‎芳草染夕烟** Malinalco's Dusk
+- **悬铃木「增效」平台梯** Mallow Wood "Enhanced" Platform Ladder
+- **悬铃木「多重版型」衣柜** Mallow Wood "Multi-Model" Wardrobe
+- **悬铃木「强固」货箱** Mallow Wood "Sturdy" Cargo Container
+- **悬铃木「观赏礼仪」座椅** Mallow Wood "Viewing Rites" Chair
+- **** Manche de Momotsuzuri
+- **地图的残页** Map Fragment
+- **初代首领留下的地图** Map Left Behind by the First Chief
+- **梦与现实的映射** Mapping Dreams and Reality
+- **凋萎于昔时之花** Marcescent Floret
+- **我们的海** Mare Nostrum
+- **海上列车** Maritime Express
+- **神奇鸟蛋** Marvelous Bird Egg
+- **玛丽安纪念公园** Mary-Ann Memorial Park
+- **假面** Mask
+- **马索瑟** Masose
+- **罪人舞步旋** Masquerade of the Guilty
+- **精妙伪装** Masterful Mimicry
+- **「烟谜主」的安适** Masters of the Night-Wind's Tranquility
+- **麦斯欧德** Masud
+- **末须久** Masuku
+- **特尔克西的王冠材料** Material for Thelxie's Crown
+- **特尔克西的武器材料** Material for Thelxie's Weapon
+- **资料院** Materials Office
+- **梅索** Matho
+- **马扎里** Matzahtli
+- **** Maverick Hunter
+- **玛薇卡的命星** Mavuika's Stella Fortuna
+- **「愿他们不过分劳碌」** May They Find Respite
+- **「愿他们不会跌倒」** May They Not Fall
+- **「愿他们不会迷途」** May They Not Get Lost
+- **「愿此刻永远留驻」** May This Moment Last Forever
+- **或许是个好的营地？** Maybe This is a Good Place to Camp?
+- **众灵的迷戏** Maze of Spirits
+- **玛布妮** Mbweni
+- **果香漫径** Meandering Fruit Fragrance
+- **因愧疚而生的医术** Medicine Born of Guilt
+- **更有效的药剂** Medicine of Greater Efficacy
+- **更美味的药剂** Medicine of Superior Taste
+- **静思浮梦** Meditation on Floating Dreams
+- **激愈水球・中** Medium Bolstering Bubblebalm
+- **** Meeting and Passing
+- **相见亦是离别** Meeting Is Also Parting
+- **跃动节拍响应法** Dance Dance Resolution
+- **湍流疾行冲锋赛** Torrential Turbulent Charge
+- **神神秘秘丘丘萨满大大像** Mega Mystifying Samachurl Statue
+- **阿梅** Mei
+- **忧愁的绒翼龙** Melancholic Qucusaurus
+- **抑扬的吟咏** Melodious Chant
+- **无忧的曲调** Melody of Utsava
+- **维斯塔之歌** Melody of Vesta
+- **提瓦特忆册** Mementos of Teyvat Album
+- **** Memories of a Lost Castle
+- **此世之忆** Memories of This Life
+- **灼火的追忆** Memory of Fire
+- **** Menmaatre's Parade
+- **齿纹凌乱的钥匙** Messily-Bitted Key
+- **** Metaphor for Calamity
+- **亚稳态翠翎恐蕈** Metastable Jadeplume Terrorshroom
+- **流星的投矛** Meteoric Lance
+- **央陆原胚之匣** Midlander Billet Trove
+- **邪眼之威** Might of Delusion
+- **米莱** Milray
+- **矿工留言板公告** Mine Message Board
+- **小型留声机** Mini Phonograph
+- **奇迹的冠冕** Miraculous Crown
+- **蜃境乐园大危机！** Mirage Paradise in Crisis!
+- **夹在章程里的人** Mired in Red Tape
+- **坏事不过三…** Misfortune Strikes in Threes Alone...
+- **丢失的快件** Missing Package
+- **熏沐的香氛** Misty Redolence
+- **水川** Mizukawa
+- **熔火铁甲** Molten Mail
+- **换羽时节** Molting Season
+- **举业的识刻** Moment of Attainment
+- **梦醒时分** Moment of Awakening
+- **梦醒时分** Moment of Awakening
+- **险峙之刻** Moment of Conflict
+- **** Moment of Solace
+- **末劫末见之刻** Moment of Tribulation
+- **蒙德酒业行会** Mondstadt Wine Guild
+- **穆内蒂胡** Monetech
+- **幻写引路人・其一** Monetoo Will Guide You Home (I)
+- **幻写引路人・其二** Monetoo Will Guide You Home (II)
+- **呜斯先生** Monsieur Os
+- **芒索斯山东麓** Mont Esus East
+- **** Moon of Hanan Pacha
+- **比珠宝还珍贵** More Than Pearls and Gold
+- **** Morning Song in the Forest
+- **亡命追缉** Mortal Pursuit
+- **镇灵之母** Mother of the Jinn
+- **「山峦的焰火」** Mountain Fireworks
+- **巡山客的信标** Mountain Ranger's Marker
+- **山鸣谷应** Mountain's Hymn
+- **群山瓦解之日** Mountains Fall Apart
+- **动动脖子** Move That Neck
+- **恩波索** Mposo
+- **灵濛山夜话** Mt. Lingmeng Gossip
+- **菇菇山脉（单人份）** Mt. Mushroom (For One)
+- **缪妮的黄油需求** Muirne's Better Butter
+- **不倒貉貉** Muji-Muji Daruma
+- **多重钝击** Multi-Smash
+- **控制各方向连通路启闭的传动机阀** Multidirectional Connection Control Drive Valve
+- **「百用的球冠」** Multipurpose Crownosphere
+- **缪斯的母亲** Muse's Mother
+- **蘑里爱** Mushrial
+- **蘑里乌** Mushriu
+- **蘑里瓦** Mushriwaili
+- **蘑境菌奇** Mushroom Realm Mystery
+- **蘑瓦塔里** Mushwatalli
+- **音乐不灭！** Music Never Dies!
+- **「酝酿的流彩」** Musings on Colors and Hues
+- **** Mutual Aid Agreement
+- **互助会宣传册** Mutual Aid Network Advertisement
+- **穆茜雅** Muuziyaa
+- **心差一角此时全** My Heart Is Now Complete
+- **神秘的赠礼** Mysterious Gift
+- **「冥冥缘分的神秘壶灯」** Mysterious Lamp of Fate Ordained
+- **神秘的异色结晶石** Mysterious Xenochromatic Crystal
+- **还圣奥迹** Mystic Offering
+- **秘术家的金盘** Mystic's Gold Dial
+- **夜域的迷思** Myths of the Night Realm
+- **纳蒂亚的信物** Nadia's Token
+- **尼娅** Naiyan
+- **娜莱妮** Nalani
+- **「默默无名者」** Nameless and Silent
+- **无名旅人的笔记** Nameless Traveler's Notes
+- **纳博尔** Nampole
+- **娜帕** Nappa
+- **水仙十字题解** Narzissenkreuz Notes
+- **纳塔博学者** Natlan Academic
+- **草与智慧** Nature and Wisdom
+- **附近的「灰灰楼林木」** Nearby Ashen Aratiku Wood
+- **附近的「燃爆木」** Nearby Flammabomb Wood
+- **极品飞龙** Need for Saurian Speed
+- **新枫丹科学院** New Fontaine Research Institute
+- **新浪潮文汇** New Tide Anthology
+- **临事场域** Newsflash Field
+- **阅读板** Newsstand Board
+- **梦的享宴** Nibbling on Nightmares
+- **很高兴见到你** Nice to Meet You
+- **** Night of the Sacred Flame
+- **夜域赐礼** Night Realm's Gift
+- **巡夜者战争** Night Warden Wars
+- **夜诞的花冠** Night's Crown of Flowers
+- **谜烟之信** Night-Wind Letter
+- **神合秘烟的征兆** Night-Wind's Mystic Augury
+- **神合秘烟的预感** Night-Wind's Mystic Premonition
+- **神合秘烟的启示** Night-Wind's Mystic Revelation
+- **夜鸣莺的尾羽** Nightingale's Tail Feather
+- **「噩梦残片」** Nightmare Fragments
+- **涅提** Nitesh
+- **禁止随意拿取！** No Taking Without Permission!
+- **深夕映繁星** Nocturnal Illumination
+- **去除杂音** Noise Filtering
+- **** Non si levava ancor
+- **后备非隐藏能源** Non-Hidden Backup Energy Source
+- **非零和博弈** Non-Zero-Sum Game
+- **所见非同** Not All Blades Point the Same Way
+- **不是所有宝藏都是金和银** Not All Treasure Is Silver and Gold
+- **并不怎么窄的门** Not So Strait Is the Gate
+- **灾咎之音** Note of Calamity
+- **** Note of Effective Settlements
+- **** Notes Aeriennes
+- **某人留下的铭记** Notes Someone Left Behind
+- **不过是条猎犬…** Nothing but a Hound Dog...
+- **水仙的茶会** Nymph's Tea Party
+- **妮扎娅** Nzaya
+- **红海啊，让开道路吧…** O Red Sea, Part, and Clear a Path!
+- **众水的誓约** Oath of Many Waters
+- **** Oath on a Feathered Knot
+- **守诺者** Oathkeeper
+- **黑曜古名** Obsidian Ancient Name
+- **曜石断片** Obsidian Fragment
+- **曜石环** Obsidian Ring
+- **缄锁的灾沴** Occluded Blight
+- **海原巡回法官** Ocean Circuit Judge
+- **天青之诗** Ode to Azure Skies
+- **「杜麦尼」的诗篇** Ode to Tumaini
+- **墙上的奥德赛** Odyssey on the Wall
+- **奥埃诺** Oeno
+- **遗宫幽寂** Of That Colossal Wreck
+- **名刻的真意** Of Truth Etched in Name
+- **出发！火之国** Off We Go to the Nation of Pyro!
+- **攻势盾击** Offensive Shieldstrike
+- **献给虚无的供物** Offering to Nothingness
+- **** Offertorium of Fortuitum
+- **奥贡的证言** Ogun's Testimony
+- **下次还是别讲冷笑话了…** Okay, No More Corny Jokes...
+- **奥菈雅** Olaya
+- **旧日的统律之心** Old Core of Chu'ulel
+- **老旧的役人怀表** Old Operative's Pocket Watch
+- **厄灵解放・冰** Ominous Spirit Unleashed (Cryo)
+- **厄灵解放・雷** Ominous Spirit Unleashed (Electro)
+- **厄灵解放・岩** Ominous Spirit Unleashed (Geo)
+- **厄灵解放・水** Ominous Spirit Unleashed (Hydro)
+- **涂鸦之路的方向标** On the Graffiti Road
+- **踏上战争之路** On the Path to War
+- **凶魁巨怪觇候录** On the Trail of Behemoths
+- **故年往迹** Once Upon a Time in the Vale
+- **昔时裁决的圣座** Once, the Sacred Seat of Judgment
+- **轻漪的节音** Ondulations du rythme
+- **只缘身在其中** One Involved in the Matter
+- **奉璋定极** One Ring for the Rite of All
+- **在不可逆的时间里…** One Way Ride Through Target Town...
+- **只能听见夜风** Only the Night Breeze Can Be Heard
+- **只有锻炼的地方还留着？** Only the Training Grounds Are Left?
+- **造始的噩兆** Onset of Omens
+- **「淤泥悬核」** Oozing Core
+- **为我敞开心扉** Open Your Heart to Me
+- **首演之夜** Opening Night
+- **活动机关** Operable Mechanism
+- **雨阵奔流之述演** Operation Downpour Simulation
+- **役人的制式怀表** Operative's Standard Pocket Watch
+- **** Oracle of Deep Waters
+- **诉理明谕** Oracle of Reason
+- **神谕柱** Oracle Pillar
+- **果园小憩** Orchard Repose
+- **普通的黑曜石** Ordinary Obsidian
+- **「矿石的丰度」** Ore's Abundance
+- **欧洛伦的命星** Ororon's Stella Fortuna
+- **记忆之象限** Orthant of Memory
+- **人格之象限** Orthant of Persona
+- **灵魂之象限** Orthant of Souls
+- **愿望之象限** Orthant of Wishes
+- **我们的动物朋友** Our Animal Friends
+- **沉玉之旅** Our Chenyu Vale Trek
+- **「我们的归宿」** Our Destination
+- **我们的目标在另一条管道** Our Purpose Is in Another Canal
+- **万古的孑遗** Out of the Aeons
+- **衣装心选包** Outfit Option Bundle
+- **盛材移涌** Overflowing Abundance
+- **祝圣移涌** Overflowing Favor
+- **寻音序曲** Overture of Wandering Notes
+- **饲主的职分** Owner's Duty
+- **帕班的牛奶需求** Paban's Milk Run
+- **勒鲁瓦家的包裹** Package for the Leroy Family
+- **遗落的曲谱残页・其一** Pages From a Lost Score (I)
+- **遗落的曲谱残页・其二** Pages From a Lost Score (II)
+- **帕华娅** Pahua
+- **派蒙的留影机** Paimon's Kamera
+- **苦痛奉还** Pain for Pain
+- **帕伊奥** Paio
+- **幻蛇的宫殿** Palace of the Vision Serpent
+- **潘帕的证言** Pampa's Testimony
+- **拳力斗技！** Pankration!
+- **纸蛙跳远** Paper Leapfrogging
+- **寻味纸影间** Paper Shadow Ruminations
+- **帕卡林** Paqarin
+- **帕克的期冀** Parker's Hopes
+- **公园、长椅与奏鸣** Parks, Benches, and Sonatas
+- **流光过隙** Passage of an Era
+- **「回廊的晚风合奏」** Passage's Evening Ensemble
+- **「回廊的悠然时光」** Passage's Languid Lifestyle
+- **「回廊的晴空荫蔽」** Passage's Parasol
+- **「回廊的馨香牵缠」** Passage's Perfumed Potted Plants
+- **「回廊的本价丰甘」** Passage's Plentiful Produce
+- **「回廊的守时准则」** Passage's Principles of Punctuality
+- **「回廊的无垢圆桌」** Passage's Pristine Round Table
+- **** Passing Memories - Genshin Impact's 4Th Anniversary English Theme Song
+- **** Passing Memories
+- **裁定之时** Passing of Judgment
+- **** Patches of Sunlight
+- **莫夜却非独行** Path Lit by Night
+- **妄执之路** Path of Desolation
+- **回火之路** Path of Turnfire
+- **朝向炎崖之路** Path to the Flaming Peaks
+- **** Pathfinder of Darkness
+- **令眠者得安宁** Peace to the Slumbering
+- **桃椰子木「支点」货柜** Peach Palm Wood "Fulcrum" Container
+- **桃椰子木** Peach Palm Wood
+- **明珠甲胄** Pearl Armor
+- **探海索珠** Pearl Diving
+- **** Pendente Lite
+- **褪淡的思眷** Pensees tranquilles
+- **「流泉之众」的悠然** People of the Springs' Relaxation
+- **** Per Amica Silentia Lunae
+- **完美赠礼织带** Perfect Gift Ribbon
+- **完美的圣龙之心** Perfect Heart of the Sacred Dragon
+- **完美拍档** Perfect Partner
+- **恰到好处的视线聚焦** Perfectly-Drawn Focus
+- **演奏时刻** Performance Time
+- **或许还需要走很多路…** Perhaps We've a Long Road Ahead of Us...
+- **前往圣心的「许可」** Permit to the Sacred Heart
+- **佩索妲** Pezuta
+- **旅途的哲学** Philosophies of a Journey
+- **「纷争」的哲学** Philosophies of Conflict
+- **「角逐」的哲学** Philosophies of Contention
+- **「焚燔」的哲学** Philosophies of Kindling
+- **燃素蜜虫** Phlogiston Aphid
+- **燃素刻印碑** Phlogiston Chiselith
+- **燃素开采研究所** Phlogiston Extraction Research Center
+- **「单位燃素」** Phlogiston Unit
+- **疑似宝石独角鱼** Phony Bejeweled Unihornfish
+- **拟似燃素独角鱼** Phony Phlogiston Unihornfish
+- **与阿塔的合照** Photo With Ata
+- **与旅行伙伴的合影** Photo With Travel Companions
+- **军刺直击** Piercing Blow
+- **「锤锻的巡礼」** Pilgrimage by the Hammer's Blow
+- **「烈火的巡礼」** Pilgrimage of Flame
+- **领航人的倦憩** Pilot's Rest
+- **** Pirouette of Pika's Pike
+- **比于什** Piyush
+- **揭晓之处** Place of Revelations
+- **隐秘之所** Place of Secrets
+- **「平实的城塞」** Plain Citadel
+- **烦请高抬贵脚** Please Stay Your H... Feet
+- **拜托了，大萨满女士** Please, great shaman!
+- **拈来山吹虹** Plucked Yamabuki Splendor
+- **「久雨莲」的种子** Pluie Lotus Seed
+- **久雨莲** Pluie Lotus
+- **** Plum Blossom Spring
+- **芒荒中继桩** Pneumousia Relay
+- **芒荒储物箱** Pneumousia Storage Box
+- **献诗予风** Poems Dedicated to the Wind
+- **苍水晶的行歌** Poesy of Chrysolite
+- **诗歌会热度** Poetry Gala Fervor
+- **昔时传奏之诗** Poetry of Days Past
+- **朴实无华的白淞街镇** Poisson the Unassuming
+- **波鲁亚** Poloa
+- **便携型通用烤炉** Portable All-Purpose Grill
+- **「诚勇伟力之绘」** Portrait of Heroic Might
+- **** Possente legge e formidabil nume
+- **势能球** Potential Energy Orb
+- **神奇药剂** Potions Most Potent
+- **祝祷之时** Prayer Time
+- **纷争的前宴** Pre-Banquet of the Contenders
+- **「唤雨的叶丛」** Precipitation Inducing Leaves
+- **精确射击** Precision Shot
+- **按下自爆按钮！** Press the Self-Destruct Button!
+- **深古秘源机龙** Primeval Source Dragon Mech
+- **「丛林的原生之美」** Primordial Forest Beauty
+- **科巴德王子的印珠** Prince Qubad's Intaglio
+- **王子的国度** Prince's Country
+- **‎流光的箴训** Prismatic Proverbs
+- **为这地上的众生** Pro Vitis Horum
+- **加工完成的工件** Processed Widget
+- **严冬计划** Project Stuzha
+- **增殖生命体** Proliferated Organism
+- **「丰沃的保证」** Promise of Abundance
+- **昔时应许之梦** Promised Dream of Days Past
+- **** Promises by the Spring
+- **推广员** Promoter
+- **勇者之证** Proof of a Hero
+- **苇海霸者之证** Proof of the Reed Sea Conqueror
+- **隐具魔术箭** Prop Arrow
+- **流行音乐，谁先知？** Prophets of Pop
+- **** Propitious Ardor
+- **暂无止境的斗虫之路！** Provisionally Perpetual Beetle Battle!
+- **普吕尼埃的白铁块需求** Pruniere's White Iron Impetration
+- **伪装鲨鲨独角鱼** Pseudoshark Unihornfish
+- **拟星的台座** Pseudostar Pedestal
+- **芙佳的声援** Puca's Support
+- **粒果膨膨棒** Puffed Grainfruit Bars
+- **冲撞岩** Pulverite
+- **幽紫曜石断片** Purple Obsidian Fragment
+- **特制钩索** Purpose-Built Grappling Hook
+- **白草的决彻** Purposeful Purity
+- **追寻** Pursuit
+- **火之寻宝罗盘** Pyro Treasure Compass
+- **火神瞳共鸣石** Pyroculus Resonance Stone
+- **火磷石** Pyrophosphorite
+- **仙山有茗，名以翘英** Qiaoying of the Sacred Mountain
+- **故事繁多的翘英庄** Qiaoying, the Village of Many Tales
+- **驻外资质审核办公室** Qualifications Review Representative Office
+- **良质木板** Quality Wooden Board
+- **迅疾滑翔** Swift Glide
+- **柔风的欢愿** Que le vent soit doux
+- **「苦种」的种子** Quenepa Berry Seed
+- **问题美露莘与答案机器人** Questioning Melusine and Answering Machine
+- **叩问众火之心** Questioning the Heart of Flames
+- **问题与答案** Questions and Answers
+- **** Quetzal's Yearning
+- **缘何停驻此刻** Qui me freine a un tel moment
+- **奎德雷** Quidel
+- **奇逸角技隆隆擂台** Quirky Quaking Arena
+- **奎兹** Quiz
+- **熠熠有辉** Radiance Unfading
+- **煌耀如火** Radiant As Fire
+- **旋曜玉帛・其一百** Radiant Spincrystal 100
+- **旋曜玉帛・其一百零一** Radiant Spincrystal 101
+- **旋曜玉帛・其一百零二** Radiant Spincrystal 102
+- **旋曜玉帛・其一百零三** Radiant Spincrystal 103
+- **旋曜玉帛・其一百零四** Radiant Spincrystal 104
+- **旋曜玉帛・其一百零五** Radiant Spincrystal 105
+- **旋曜玉帛・其一百零六** Radiant Spincrystal 106
+- **旋曜玉帛・其一百零八** Radiant Spincrystal 108
+- **旋曜玉帛・其一百零九** Radiant Spincrystal 109
+- **旋曜玉帛・其一百一十** Radiant Spincrystal 110
+- **旋曜玉帛・其一百一十一** Radiant Spincrystal 111
+- **旋曜玉帛・其一百一十二** Radiant Spincrystal 112
+- **旋曜玉帛・其一百一十三** Radiant Spincrystal 113
+- **旋曜玉帛・其一百一十四** Radiant Spincrystal 114
+- **旋曜玉帛・其一百一十五** Radiant Spincrystal 115
+- **旋曜玉帛・其一百一十六** Radiant Spincrystal 116
+- **旋曜玉帛・其一百一十七** Radiant Spincrystal 117
+- **旋曜玉帛・其一百一十八** Radiant Spincrystal 118
+- **旋曜玉帛・其一百一十九** Radiant Spincrystal 119
+- **旋曜玉帛・其一百二十** Radiant Spincrystal 120
+- **旋曜玉帛・其一百二十一** Radiant Spincrystal 121
+- **旋曜玉帛・其一百二十二** Radiant Spincrystal 122
+- **旋曜玉帛・其一百二十三** Radiant Spincrystal 123
+- **旋曜玉帛・其一百二十四** Radiant Spincrystal 124
+- **旋曜玉帛・其一百二十五** Radiant Spincrystal 125
+- **旋曜玉帛・其一百二十六** Radiant Spincrystal 126
+- **旋曜玉帛・其一百二十七** Radiant Spincrystal 127
+- **旋曜玉帛・其一百二十八** Radiant Spincrystal 128
+- **旋曜玉帛・其一百二十九** Radiant Spincrystal 129
+- **旋曜玉帛・其一百三十** Radiant Spincrystal 130
+- **旋曜玉帛・其一百三十一** Radiant Spincrystal 131
+- **旋曜玉帛・其一百三十二** Radiant Spincrystal 132
+- **旋曜玉帛・其一百三十三** Radiant Spincrystal 133
+- **旋曜玉帛・其一百三十四** Radiant Spincrystal 134
+- **旋曜玉帛・其一百三十五** Radiant Spincrystal 135
+- **旋曜玉帛・其一百三十六** Radiant Spincrystal 136
+- **旋曜玉帛・其一百三十七** Radiant Spincrystal 137
+- **旋曜玉帛・其一百三十八** Radiant Spincrystal 138
+- **旋曜玉帛・其一百三十九** Radiant Spincrystal 139
+- **旋曜玉帛・其一百四十** Radiant Spincrystal 140
+- **旋曜玉帛・其一百四十一** Radiant Spincrystal 141
+- **旋曜玉帛・其一百四十二** Radiant Spincrystal 142
+- **旋曜玉帛・其一百四十三** Radiant Spincrystal 143
+- **旋曜玉帛・其一百四十四** Radiant Spincrystal 144
+- **旋曜玉帛・其一百四十五** Radiant Spincrystal 145
+- **旋曜玉帛・其一百四十六** Radiant Spincrystal 146
+- **旋曜玉帛・其一百四十七** Radiant Spincrystal 147
+- **旋曜玉帛・其一百四十八** Radiant Spincrystal 148
+- **旋曜玉帛・其一百四十九** Radiant Spincrystal 149
+- **旋曜玉帛・其一百五十** Radiant Spincrystal 150
+- **旋曜玉帛・其一百五十一** Radiant Spincrystal 151
+- **旋曜玉帛・其一百五十二** Radiant Spincrystal 152
+- **旋曜玉帛・其九十九** Radiant Spincrystal 99
+- **浮梦终作雨** Rain of an Ancient Dream
+- **** Rain of Seven Curtains
+- **** Rainbow Leis
+- **虹彩蔷薇的理想** Rainbow Rose's Ideals
+- **祀珑典仪** Rainjade Oblation
+- **雨歌塘** Rainsong Pond
+- **兰吉努伊之底** Rangi Nui's End
+- **莓红飞花一羽** Raspberry-Red Flying Flower Feather
+- **藤编八奇** Rattan Immortals
+- **藤编玩具** Rattan Toy
+- **** Ravine's Calcination
+- **漂亮的海露花** Ravishing Romaritime Flower
+- **拉瓦特的私人实验室** Rawat's Private Laboratory
+- **蕾伊安** Rayen
+- **砥兵备战** Ready for Battle
+- **砥兵备战** Ready for Battle
+- **重立名约之契** Reaffirmed Accord of Appellation
+- **洞天形态** Realm Layout
+- **** Realm of Ethereal Murk
+- **征战勇者淬炼之界** Realm of Tempered Valor
+- **于怨嗟之地重生** Reborn in the Land of Grievances
+- **** Rebuttal in Negotiations With the Night
+- **异种的期许** Reckoning of the Xenogenic
+- **昔时浮想之思** Recollection of Days Past
+- **绎思振笔集** Record of Reflective Writing
+- **众人写成的记录** Record Penned by All
+- **哈南帕查记事** Records of Hanan Pacha
+- **招工说明** Recruitment Notice
+- **「四四方方积木石台」** Rectangular Rock Block
+- **红果果菇** Red Berryshroom
+- **赤鹳** Red Flamingo
+- **红恶棍与小小恶棍** Red Meanies and Mini Meanies
+- **赤色的金属钥匙** Red Metal Key
+- **剪影辑帧** Reel Ad-Venture
+- **典雅仪容** Refined Countenance
+- **折光的胚芽** Refractive Bud
+- **烈焰复燃** Rekindled Flame
+- **可靠的叙事者** Reliable Narrator
+- **秋津的思忆** Remembrance of Akitsu
+- **玉岩之忆** Remembrance of Jade and Stone
+- **** Reminiscent of the Stolen Flame
+- **孑遗的留迹** Remnants of Tetenanco
+- **「秘源遗迹」** Remnants of the Secret Source
+- **毁裂风涡** Rending Vortex
+- **千音币** Repertoire Coins
+- **汇报实验数据** Report the Experimental Data
+- **声望** Reputation
+- **安魂曲** Requiem
+- **共鸣海葵** Resonant Anemone
+- **如晶蝶般璀璨** Resplendent as a Crystalfly
+- **修复完好的曲谱** Restored Score
+- **** Retaining Clouds Over a Clear Pool
+- **后撤射击** Retreating Fire
+- **捉回四处逃逸的色彩** Retrieve the Scattered, Escaping Colors
+- **再相见** Reunion
+- **归途阅历** Reunion EXP
+- **久别重逢** Reunion
+- **云雀的梦觉** Reve d'alouette
+- **** Revealed Retribution
+- **自过往的启示** Revelations from the Past
+- **** Reverie of Pua Aloalo
+- **** Revised Requiem
+- **协演的歌舞剧** Revue Synchronicity
+- **赫赫君王** Rex Tremendae
+- **节拍撞球・梅兹特利篇** Rhythm Ball Meztli
+- **撞球迸碰，摇摆律动！** Rhythm Ball Revolution!
+- **大梦的曲调** Rhythm of the Great Dream
+- **「律动魔匠」** Rhythmos
+- **顽傲者的喧诤** Ri Yokobal kech ri Ajaw Ch'ulel
+- **「行驶在平静水面」** Riding the Tranquil Waters
+- **右边桌上的卷宗箱** Right-Side Table File Box
+- **正义的反抗** Righteous Resistance
+- **冰雅刺剑** Rimeflow Rapier
+- **无名指追魂索** Ring Finger - Dowsing Rope
+- **驱速之环** Ring of Speed
+- **涟锋旋刃** Rippling Blades
+- **波波心羽鲈** Rippling Heartfeather Bass
+- **波刃锋斩** Rippling Slash
+- **漪澜摇漾** Rippling Wavelet
+- **风向为上** Rising Winds
+- **** Rite of Dispelling Winds
+- **勇敢者的仪式** Rite of the Bold
+- **通往奇点之路** Road to the Singularity
+- **窟岩·大灵显化身** Rock-Cavernous Wayob Manifestation
+- **「罗基・艾威尔森」** Rocky Avildsen
+- **罗基・艾威尔森的失落** Rocky Avildsen's Disappearance
+- **罗基・艾威尔森** Rocky Avildsen
+- **** Romantic Encounter
+- **** Romari Time!
+- **海露的遐思** Romaritime Recollection
+- **根源之轮** Root Cycle
+- **灵髓的根脉** Root of the Spirit-Marrow
+- **绳箍带环多用桶** Rope-Bound Multi-Purpose Barrel
+- **巧像入帧** Into the Frame
+- **千步拦射角分间** Thousand-Pace Interdiction Arcminute Sharpshooting Zone
+- **幻光奇技实录** Trick Shots, Tricky Lights
+- **极限驱策法** Xtreme Drive
+- **金花礼炮** Rosula Dorata Salute
+- **鲁热的信条** Rouge's Writings
+- **溪舟的尾波** Rowboat's Wake
+- **「明芸花」** Ruebright Bloom
+- **鲁杰罗的笔记** Ruggiero's Notes
+- **支离武备所** Ruined Armament Workshop
+- **残毁的剑柄** Ruined Hilt
+- **遗迹考察日志** Ruins Investigation Log
+- **瑞群** Ruiqun
+- **鲁克** Rukn
+- **鲁娜** Runa
+- **伦图** Runtuma
+- **锈迹斑斑的钥匙** Rust-Spotted Key
+- **萨赤阿** Sachya
+- **圣山残辉** Sacred Mountain's Fading Glow
+- **谜土祭祀场** Sacrificial Altar of Enigmatic Land
+- **萨费伊** Safi
+- **众贤之贤** Sage of Sages
+- **至贤者** Sage Supreme
+- **经销拓展合同** Sales Expansion Contract
+- **卡朗代沙龙** Salon Caritat
+- **苍鹫之颂** Salute of Eagles
+- **「乐园的建筑样品」** Sample Amusement Park "Building"
+- **「乐园的工程范例」** Sample Amusement Park "Engineering"
+- **杏林静憩** Sanctuary for the Sick
+- **虹灵的净土** Sanctum of Rainbow Spirits
+- **萨诺菈** Sanora
+- **「饱食的火焰」** Sated Flare
+- **饱和水力攻击** Satisfactory Naval Force
+- **「肉龙掌」的种子** Saurian Claw Succulent Seed
+- **龙伙伴的聚餐** Saurian Dining Buddies
+- **龙蛋历险记** Saurian Egg Adventures
+- **「龙遗物研究协会」** Saurian Relics Association
+- **「龙遗物研究协会」** Saurian Relics Association
+- **龙的摇篮** Saurian's Cradle
+- **「健壮如龙者」** Saurian's Might
+- **龙冠武士的金哨** Saurian-Crowned Warrior's Golden Whistle
+- **猎龙的黑箭…** Saurian-Hunting Black Arrow...
+- **龙医生的困境** Sauro-Vet's Dilemma
+- **部族龙形武士** Sauroform Tribal Warriors
+- **救世者的守灵** Savior's Wake
+- **攀越炽焰的圣山・其之一** Scaling the Scorching Sacred Mountain (I)
+- **攀越炽焰的圣山・其二** Scaling the Scorching Sacred Mountain (II)
+- **赤红燃素蜜珠** Scarlet Phlogiston Honey Pearl
+- **** Scarlet Song
+- **散落的星星** Scattered Star
+- **解析与想定** Scenarios for Study
+- **「恪守时间候车站牌」** Schedule-Abiding Train Station Sign
+- **资料整理学** Science of Data Management
+- **科学的饮食规划** Scientific Diet Planning
+- **「悬木人」的实践** Scions of the Canopy's Duty
+- **浊水的一掬** Scoop of Tainted Water
+- **** Scorching Haze
+- **焚风试炼处** Scorchwind Trial Grounds
+- **** Scoring Cuts
+- **蝎爪钳击** Scorpion Strike
+- **魔蝎烈祸** Scorpocalypse
+- **「炽空的绘卷」** Scroll of the Fiery Firmament
+- **从游于识海** Sea of Shifting Sentience
+- **分流识海** Sea of Shifting Sentience
+- **正午的海鸟** Seabird at Noon
+- **祭验封绝之所** Sealed Site of Sacrifice
+- **藻海的寻踪** Search in the Algae Sea
+- **赜探隐索** Searching for Clues
+- **炽烈轰破** Searing Blast
+- **老练的坚齿** Seasoned Fang
+- **圣俗杂座** Seats Sacred and Secular
+- **秘密的奇迹** Secret Miracle
+- **** Secret Orders of the Sands
+- **秘源龙首** Secret Source Dragon Cannon
+- **秘源龙像** Secret Source Dragon Idol
+- **秘源机关・巡戒使** Secret Source Scout Sweeper
+- **秘源哨机** Secret Source Sentinel
+- **秘源龙仆** Secret Source Servant
+- **幽思闪念旋步舞** Dance of Flashing Thought
+- **吼吼小狐巡天记** Sojourns of the Barking Fox
+- **飞迸湍流大作战** Spino Blaster
+- **「健康的方法」** Secrets of Good Health
+- **溯寻者不可得** Seeker No Finding
+- **无私的妆饰花** Selfless Floral Accessory
+- **半自动锤锻** Semi-Automatic Forging
+- **无影的塞谟奈** Semnai Sans Shadow
+- **千贺** Senga
+- **倾危的判词** Sensational Sentence
+- **泉迹斑驳** Sequestered Springs
+- **遥世的夜歌** Serenade of the Distant Realm
+- **瑟琳的声援** Serene's Support
+- **宁和的归韵** Serenity's Reprise
+- **暮火将熄** Serpent's Endgame
+- **衡明知度** Wisdom's Measure
+- **赛索斯的命星** Sethos's Stella Fortuna
+- **七彩之遗** Seven-Hued Ruins
+- **巨像之影** Shadows of the Colossi
+- **群山的影子** Shadows of the Mountains
+- **尚贾** Shanga
+- **铸锥之刻** Shaping the Struggle
+- **鲨鲨飞弹** Shark Missile
+- **妙影在手** Sharpshooter on Hand
+- **重钳碎击** Shatterclamp Strike
+- **残夜的碎玉** Shattered Night Jade
+- **碎裂的积木矿窟** Shattered Toytanium Mines
+- **秘源机鞘** Sheath of the Secret Source
+- **** Sheaths of Void
+- **** Shedding Twilight
+- **嘘…听！** Shh... Listen!
+- **盾牌反击** Shield Riposte
+- **盾刃切割** Shield Slice
+- **盾弧横挥** Shield Sweep
+- **敷岛** Shikishima
+- **波光粼粼的回忆** Shimmering Memories
+- **「焦点应在此处」** Shining Spotlight
+- **亮闪闪的贝壳** Shiny Shell
+- **「射击演练光学镜片」** Shooting Practice Optical Lenses
+- **短点射** Short-Range Snap Fire
+- **** Shrouded Honor
+- **纺灵之梭** Shuttle of Odara
+- **漱玉工奇斗虫大玄境** Shuyu's Baffling Beetle Battle Bowl
+- **** Sifu Moto
+- **希格雯创口贴涂鸦活动！** Sigewinne's Band-Aid Graffiti Event!
+- **旧乡的叹音** Sigh, the Breath of Yore
+- **夜色无声** Silent Night
+- **漫古的思虑** Silent Reverie Across Time
+- **** Silent Voices of the Night
+- **彩蝶翩然过谷中** Silently the Butterfly Crosses the Valley
+- **丝织之羽** Silken Feather
+- **简易宝库钥匙・其一** Simple Vault Key I
+- **简易宝库钥匙・其二** Simple Vault Key II
+- **简易宝库钥匙・其三** Simple Vault Key III
+- **众水的歌者** Singer of Many Waters
+- **柔风浅酌** Sipping in the Soft Breeze
+- **亚瑟先生的身体** Sir Arthur's Body
+- **亚瑟先生的脑袋** Sir Arthur's Head
+- **亚瑟先生的翅膀** Sir Arthur's Wing
+- **西蒂娜** Sitina
+- **六荣冠与夜的传说** Six Crowns and Overnight Story
+- **焚天爆炎树** Sky-Searing Pyro Regisvine
+- **嵾峨之冠** Skyfire Circlet
+- **「云岩裂叶」的种子** Skysplit Gembloom Seed
+- **云岩裂叶** Skysplit Gembloom
+- **冲击炸裂铁箱斗技** Slam-Bang No-Holds Barred Meropide-Style Pankration
+- **踢击斜斩** Slash Kick
+- **狂澜镰击** Slash of Surging Tides
+- **勤倦之畛** Sleep After the Toil
+- **安寝吧，于那舒适的梦乡** Sleep Now, Rest Your Weary Head
+- **困倦的绒翼龙** Sleepy Qucusaurus
+- **歪歪扭扭的的快件** Slightly Squashed Package
+- **循序渐进是关键** Slow and Steady Wins the Race
+- **宽缓的归途** Slow Homecoming
+- **希露艾的声援** Sluasi's Support
+- **激愈水球・小** Small Bolstering Bubblebalm
+- **小钥匙** Small Key
+- **窥间伺隙** Smiting Scope
+- **** Smoke of Fallen Flames
+- **没有硝烟的战争** Smokeless War
+- **灼幽的磷焰** Smoldering Phosphorescent Flame
+- **齿纹圆滑的钥匙** Smooth-Bitted Key
+- **「呼呼噜噜休憩车厢」** Snoozy Rest Car
+- **蒙珑清阴雪** Snow-Blanketed Shade
+- **雪国的妖精** Snowland Fae
+- **** Snuggy Breeze
+- **湿漉漉的打孔纸带** Soaked Punched Tape
+- **飞高高积木** Soaring Toys
+- **飞行的梦想** Sogno di Volare
+- **湛火的土壤** Soil of Bright Flame
+- **不败阳焰之章** Sol Invictus Chapter
+- **庄严仪容** Solemn Countenance
+- **苏雷特** Soletl
+- **固态燃素** Solid Phlogiston
+- **孤独派报告** Solitary Report
+- **白泉暮景** Sombre of the White Spring
+- **终有独行之日** Someday, We All Must Walk Alone
+- **值得托付之人** Someone Trustworthy
+- **‎故行已去** Someone Walked These Paths
+- **谁人的账本** Someone's Ledger
+- **略显陈旧的《勇敢的特奎》** Somewhat Aged Copy of "Tequil the Brave"
+- **松科** Soncco
+- **旧日之歌** Song of the Ancients
+- **夜静更阑** Soothing Nightfall
+- **灵与沙的密谕** Soothing of Soul and Sand
+- **澄寂的蜃梦** Soothing Slumber
+- **太空军校生** Space Force Cadet
+- **龙像的无智核** Sparkless Statue Core
+- **「挥洒的流彩」** Spattered Colors and Hues
+- **长枪开相** Spear Flourish
+- **特别的树莓** Special Berry
+- **特别的嘟嘟莲** Special Calla Lily
+- **特别的纪念信件** Special Commemorative Letter
+- **特别的蒲公英** Special Dandelion
+- **特别的烈焰花** Special Flaming Flower
+- **特殊的四叶印…** Special Four-Leaf Sigil
+- **特别的朋友** Special Friends
+- **特别的摆设赠礼・其一** Special Furnishing Gift (I)
+- **特别的摆设赠礼・其二** Special Furnishing Gift (II)
+- **特别的摆设赠礼** Special Furnishing Gift
+- **特别的琉璃百合** Special Glaze Lily
+- **特别的马尾** Special Horsetail
+- **特别的绝云椒椒** Special Jueyun Chili
+- **「特别蹦蹦嘟嘟可」** Special Jumpy Dumpty Dodoco
+- **特殊的钥匙** Special Key
+- **特别的柔灯铃** Special Lumidouce Bell
+- **特别的茉洁草** Special Marcotte
+- **特别的薄荷** Special Mint
+- **特别的冰雾花** Special Mist Flower
+- **特别的蘑菇** Special Mushroom
+- **特殊矿镐** Special Pickaxe
+- **特别的清心** Special Qingxin
+- **特别的食谱赠礼** Special Recipe Gift
+- **特别的须弥蔷薇** Special Sumeru Rose
+- **特别的甜甜花** Special Sweet Flower
+- **特别的琉璃袋** Special Violetgrass
+- **特别的风车菊** Special Windwheel Aster
+- **特别的墩墩桃** Special Zaytun Peach
+- **殊形之龙…** Specially-Shaped Saurian...
+- **团结的魔法** Spell of Unity
+- **刺玫会制服礼盒** Spina di Rosula Uniform Gift Box
+- **澄晶果粒饵** Spinelgrain Bait
+- **旋臂近防** Spiral Close-In
+- **灵蛇旋嘶** Spirit Serpent's Swirl
+- **喷发的光珥** Spirited Eruption
+- **灵觉** Spiritspeaking
+- **游隙灵道** Spiritway
+- **裂断的剑柄** Splintered Hilt
+- **即兴演奏** Spontaneous Performance
+- **「浪沫羽鳃」的种子** Sprayfeather Gill Seed
+- **面状射击** Spread Fire
+- **严寒蔓延** Spreading Cold
+- **桃符春叙** Spring Returns in Splendor
+- **隐玉之泉** Springs of Hidden Jade
+- **临泉怳歌** Springside Reverie
+- **如意祝柬** Custom Gift Envelopes
+- **节庆旅纪** Festive Travel Journal
+- **八奇乱斗** Immortal Combat
+- **明霄邀友** Lantern-Lit Gathering
+- **‎镜中日暖** Springtime in a Mirror
+- **冲刺打击** Sprinting Strike
+- **战斗妖精…** Sprites of Battle...
+- **生萌藏心念** Sprouting of a Gentle Wish
+- **正齿轮「C」** Spur Gear C
+- **正齿轮「T」** Spur Gear T
+- **竞技场「团坐」长椅** Stadium "Round Seating" Bench
+- **竞技场「速食」圆凳** Stadium "Speedy Snack" Round Stool
+- **竞技场「热宴」靠背椅** Stadium's "Spicy Feast" Backed Chair
+- **竞技场「百炼」石阶** Stadium's "Tempered" Steps
+- **特佩利舞台** Stage Tepetl
+- **特佩利舞台** Stage Tepetl
+- **随行逐飞** Stage's Coach
+- **衣上的污点** Stained Spots
+- **蓄势猛击** Stalwart Onslaught
+- **常伴相随** Stand by Me
+- **与玛薇卡同行** Stand With Mavuika
+- **通用型液货输运单元** Standard Fluid Shipping Unit
+- **标准运输货盘** Standard Shipping Pallet
+- **星星碎片** Star Shard
+- **祭星者的梦语** Starcaller's Wishes
+- **星路拾忆** Starlight Reverie
+- **** Starlight Voyage
+- **星边夜语** Starry Night's Whispers
+- **星游币** Starsail Coin
+- **万事从来开头难** Starting's Never Easy
+- **饥饿派画家** Starving Artist
+- **热乎乎的鳍游** Steaming Hot Swim
+- **刚性打击** Stern Blow
+- **严霜棱晶** Sternfrost Prism
+- **未熄的剑柄** Still-Smoldering Hilt
+- **岩与契约** Stone and Contracts
+- **磐岩百相** Stone Facets
+- **石子、椰子、龙贩子** Stones, Coconuts, and Saurian Traffickers
+- **绕岩盘伏树** Stoneshrouding Salutation
+- **「存储的规则」** Storage 101
+- **齿纹平直的钥匙** Straight-Bitted Key
+- **奇特的钥匙** Strange Key
+- **奇怪的运龙车钥匙** Strange Saurian Cart Key
+- **样式奇特的钥匙** Strangely-Shaped Key
+- **海涛斧枪鱼** Streaming Axe Marlin
+- **健行的膂力** Strength in Motion
+- **严守流程的办公准则** Strict Adherence to Office Codes
+- **** Striving for the Wind
+- **努力交涉** Striving to Negotiate
+- **「鹤羽华弦」** Sublime Crane Feather Strings
+- **突进冲击** Sudden Charge
+- **倏忽雨止** Suddenly the Rain Stops
+- **** Summer Souvenir
+- **北风闪尘吹流** Boreal Flurry
+- **巧像摹刻** Figurine Fabrication
+- **飞帽匠戏法** Flying Hatter's Trick
+- **星轨王城的试炼** Metropole Trials
+- **候召的厅堂** Summoning Hall
+- **永恒的颂福纳** Sumphonia Sine Fine
+- **「向阳水彩」** Sunflower Aquarelle
+- **沉水的钱袋** Sunken Coin Pouch
+- **青绛曜石断片** Sunset-Blue Obsidian Fragment
+- **青绛曜石环** Sunset-Blue Obsidian Ring
+- **黄昏** Sunset
+- **「净觉花」** Sunyata Flower
+- **强力胶水** Superglue
+- **物需通告** Supply Notice
+- **压制特化型机关・荒** Suppression Specialist Mek - Ousia
+- **压制特化型机关・芒** Suppression Specialist Mek - Pneuma
+- **压制齐射** Suppressive Volley
+- **** Surging Calamity
+- **沧潮的溯想** Surging Reminiscence
+- **霆电迸发** Surging Thunder
+- **暗流涌动** Surging Undercurrent
+- **苏里奎** Suriqui
+- **回首周视** Surveying Surroundings
+- **好梦留影神机** Suspensus Somnium Mechanism
+- **松林析窣** Susurrating Holt
+- **「摇曳的舞者」** Swaying Dancer
+- **珊瑚礁里的摇曳鳗鳗** Swaying Eels in the Coral Reefs
+- **「甘醇的绒羽」** Sweet Down
+- **飞泉游隙** Swelling Springs
+- **从善如流** Swift Acceptance
+- **偷梁换柱** Switcheroo
+- **剑匣镖局** Sword and Strongbox Secure Transport Agency
+- **剑匣镖局公告板** Sword and Strongbox Secure Transport Agency Bulletin Board
+- **希尔维娅的苍晶螺需求** Sylvie's Beryl Conch Commission
+- **宴饮的景序** Symposion of Spectacle
+- **** Tactical Warm Compress Bandaging
+- **噔噔！** Tada!
+- **连势，三重腾跃！** Tag-Team Triple Jump!
+- **旋尾扇击** Tail Sweep
+- **浊水幻灵的提取物** Tainted Hydro Phantasm Extract
+- **浊水轻击** Tainted Water Strike
+- **浊水变化** Tainted Waters Change Their Shape
+- **泷藤** Takitoh
+- **火中取梦的故事** Tale of Dreams Plucked From Fire
+- **** Tales From the Hills
+- **雪翅雁童话集** Tales of a Snow-Winged Goose
+- **瓦萨克拉胡巴肯的护符** Talisman of Waxaklahun Ubah Kan
+- **塔马鲁** Tamal
+- **印有塔尼特徽记的记录** Tanit Emblem-Marked Records
+- **谭托** Tantoo
+- **‎木樨旁的旧忆** Tanyolche's Memories
+- **貘枕之章** Tapirus Somniator Chapter
+- **愤怒的太郎丸** Taroumaru Enraged
+- **太郎丸的存款** Taroumaru's Savings
+- **「纷争」的教导** Teachings of Conflict
+- **「角逐」的教导** Teachings of Contention
+- **「焚燔」的教导** Teachings of Kindling
+- **「沃陆之邦」的训教** Teachings of the Collective of Plenty
+- **泪滴之钥** Teardrop Key
+- **叶间泪** Tears Among the Leaves
+- **星间之泪** Tears Among the Stars
+- **灼夜之泪** Tears of a Scorching Night
+- **昔时泪迹** Tears of Days Past
+- **浮羽之湾** Tecoloapan Bay
+- **泰库马** Tecoma
+- **水土暂服** Temporary Acclimatization
+- **** Tender Is the Night
+- **洗理嵴锋** Tending to a Tepetlisaurus
+- **深邃拟态·丘丘风行游侠** Tenebrous Mimesis - Anemo Hilichurl Rogue
+- **深邃拟态·雷斧丘丘暴徒** Tenebrous Mimesis - Crackling Axe Mitachurl
+- **深邃拟态·遗迹守卫** Tenebrous Mimesis - Ruin Guard
+- **帝奥苏雷特** Teoxoletl
+- **特帕尔的「空中工坊」** Tepal's "Airborne Workshop"
+- **特帕尔的残缺手记** Tepal's Tattered Notes
+- **特帕纳胡伊** Tepanahui
+- **掘进突击** Burrowing Assault
+- **嵴锋龙躲猫猫** Tepetlisaurus Hide-and-Seek
+- **「铁之助」** Tetsunosuke
+- **正文的尾声** Text's Coda
+- **提瓦特心意速递** Teyvat's Special Delivery
+- **悲喜的面具** Thalia and Melpomene
+- **** Thanks for the Fire
+- **曾是「厄卡特尔」之物** That Which Was Once Ehecatl
+- **荷叶与森林的答案** The Answer of the Lotus Leaves and Forest
+- **** The Antiquity of Names
+- **轮唱的艺术** The Art of the Canon
+- **紫色嵴锋龙，来袭？** The Attack of the... Purple Tepetlisaurus?
+- **黄金大鮟鱇！** The Auric Anglerfish!
+- **观鸟客** The Birdwatcher
+- **野猪公主・卷八** The Boar Princess (VIII)
+- **晨风拭惬气** The Brisk Morning Air
+- **在未来多于过去的年岁** The Calendar of the Future Is Longer Than the Diary of the Past
+- **战场的召唤** The Call of War
+- **受龙所选的试炼** The Chosen of Dragons' Trials
+- **受选者的诺言** The Chosen One's Promise
+- **赤望所居，锦落云程** The Cloud-Padded Path to the Chiwang Repose
+- **记忆的颜色** The Color of Memory
+- **同流者** The Conformist
+- **星与火的基石** The Cornerstone of Stars and Flames
+- **直面前路的勇气** The Courage to Press On
+- **另一侧的厄月** The Dark Side of the Balemoon
+- **往事亦新事** The Dead Past is the Living Present
+- **契约之砂** The Dealing Sands
+- **「它与火焰的距离」** The Distance Between It and the Flames
+- **图兰的残垣** The Dream That Was Tollan
+- **被称作「笨蛋」的家伙** The Dude They Call "Idiot"
+- **「公爵」办公室** The Duke's Office
+- **终途的道路** The End of the Road
+- **流灰地的遗声** The Fading Voices of Cinder
+- **猫咪事务所** The Feline Firm
+- **画龙点睛？** The Finishing Touch?
+- **不息的思志** The Fire That Memory Keeps
+- **炎日的燧色** The Firey Hue of the Scorching Sun
+- **长明彻彻** The Flame Ever Ablaze
+- **流燃的源火** The Flowing Primal Flame
+- **森林与公主** The Forest and the Princess
+- **铸境研炼・奕思巧战** The Forge Realm's Temper: Game of Wits
+- **铸境研炼・巧策进斗** The Forge Realm's Temper: Clever Strategems
+- **铸境研炼・巧策进斗** The Forge Realm's Temper: Clever Stratagems
+- **被遗忘的纸带** The Forgotten Ream
+- **无形学会** The Formless Society
+- **荒弃的智海** The Forsaken Sea of Wisdom
+- **冷薪与重燃之地** The Frozen, Rekindling Land
+- **** The Game Before the Gate
+- **警备队的发明家** The Gardes' Inventor
+- **谜境中的将军** The General in His Labyrinth
+- **故鸢吹归，再宿堂楼** The Glede Returns to the Pavilion
+- **命途轮转的谐谑** The Grand Jape of the Turning of Fate
+- **逃出生天** The Great Escape
+- **群鸥曾呜咽** The Gulls Once Wept
+- **无头的科奎塔奥** The Headless Coquitao
+- **** The Heights of Rumikunamanta
+- **雷穆利亚衰亡史** The History of the Decline and Fall of Remuria
+- **银河搭便车指南** The Hitchhiker's Guide to the Galaxy
+- **酣战之始** The Horn Has Sounded
+- **** The Hour Before the Dawn
+- **** The Land of Heart's Desire
+- **** The Last Promise
+- **传说中的勇者传说** The Legend of the Legendary Heroes
+- **湖上之光** The Light on the Lake
+- **小魔女与不熄灭的火** The Little Witch and the Undying Fire
+- **蚱蜢派的采买清单** The Locusts' Purchase Invoice
+- **名为夜的孤岛** The Lone Isle Named Night
+- **荷叶与冠军** The Lotus Leaf and the Champion
+- **至高的杰作** The Master Masterpiece
+- **何谓勇气** The Meaning of Courage
+- **飞翔的意义** The Meaning of Flight
+- **旋律行进的方向** The Melody's Trajectory
+- **指动字成** The Moving Finger Writes
+- **壁绘的面纱** The Mural Veil
+- **凶手就是你！** The Murderer Is... You!
+- **悄长的菌群** The Mushroom Creeps In
+- **神秘岛的真相** The Mysterious Island's Truth
+- **神秘的信件** The Mysterious Letter
+- **浮羽之滨的迷局** The Mystery of Tecoloapan Beach
+- **「水仙十字大冒险」** The Narzissenkreuz Adventure
+- **水之国度的斑驳色彩** The Nation of Hydro's Mottled Colors
+- **试炼前夜** The Night Before the Trial
+- **** The Nights' Wish
+- **黑潮与白露的歌剧** The Opera of Noirceur and Blancheur
+- **谕示裁定之时** The Oratrice's Verdict
+- **风莺梳春，开天呈祥** The Orioles Bask in Spring, the Heavens Present Auspices
+- **天空的另一侧** The Other Side of the Sky
+- **鸱枭孤歌之夜** The Owls' Nocturne
+- **原信奉还** The Packages Returned
+- **** The Parade of Flying Squirrels
+- **撼星的旅路** The Path Towards Tota'ch'imil
+- **尖峰** The Peak
+- **科学的力量真伟大！** The Power of Science is Staggering!
+- **尘世巡游之约** The Promise of a Worldly Journey
+- **以「檐帽会」为傲** The Proud "Beret Society"
+- **红与黑** The Red and the Black
+- **红恶棍的报复** The Red Meanies' Revenge
+- **往日留痕** The Remains of the Past Day
+- **自燎火而归** The Return Through the Fire
+- **天空与海的谜题** The Riddle of Sea and Sky
+- **** The Road Not Taken - Instrumental
+- **仙人游庄** The Roaming Abode
+- **圣山所在是安饶之陆** The Sacred Mountain and Sanctified Land
+- **未奉献的牺牲** The Sacrifice Not Offered
+- **皈礼熔炉** The Salutary Furnace
+- **「浮于天空的奇迹」** The Sanctum's Floating Miracle
+- **** The Sea and the Bells
+- **历玄冥以幽径** The Secluded Path
+- **「奥古斯都」的秘密花圃** The Secret Garden of "Auguste"
+- **海底下的不可思议** The Secret of Blue Water
+- **渡越旧日之影** The Shadow Out of Time
+- **幻戏开始！** The Show Begins!
+- **** The Songs of the Wrens
+- **阿库乌波蒂尔之灵** The Spirit of Ah K'ulbatil
+- **命运的舞台** The Stage of Fate
+- **故事结束了，但是…** The Story Is Over, But...
+- **零余者的自述** The Superfluous Man's Account
+- **至上的秘笈** The Supreme Secret
+- **昆图尔的故事** The Tale of Kuntur
+- **奎伊露和乌库库的故事** The Tale of Qoyllor and Ukuku
+- **第十位缪斯** The Tenth Muse
+- **雷鸟与少年** The Thunderbird and the Boy
+- **天蛇颤动** The Tonatiuh Quivers
+- **真实之物** The Truest Thing
+- **曾经的真相** The Truth of What Was
+- **魔法的用途** The Uses of Enchantment
+- **胜者重燃** The Victors Shall Burn Bright
+- **火山大王与缝影针** The Volcano Lord and the Shadow Pins
+- **谎言的温度** The Warmth of Lies
+- **觐山之路** The Way Into the Mountain
+- **白手套和渔夫** The White Glove and the Fisherman
+- **二河白道之卷** The White Path Between Two Rivers
+- **狂猎** The Wild Hunt
+- **维恩歌莱号** The Wingalet
+- **特拉洛坎的失翼者** The Wingless One of Tlalocan
+- **将世事高枕** The World at Bay Beyond the Pillow
+- **最凶！发条机关的八魔将** The Worst! Fontaine's Eight Evil Clockwork Knights!
+- **所织与所斩** The Woven and the Cut
+- **剧戏票券** Theater Tickets
+- **「特尔克西徽章」** Thelxie's Badge
+- **主板调试问题集** Motherboard Troubleshooting
+- **肃清邪物反击战** Purgation Counterstrike
+- **参寻荣耀追游录** Record of the Search for Glory
+- **往后你可自由地…** Then You Will Be Free to...
+- **比海洋更宽广的是天空** There Is One Spectacle Grander Than the Sea, That Is the Sky
+- **这是我喜爱的事物中…** These Are a Few of My...
+- **推进论文** Thesis Progression
+- **他们行过星空** They Once Walked the Starry Sky
+- **厚羽围脖雉** Thick-Feathered Ruffed Pheasant
+- **希洛娜的声援** Thirona's Support
+- **十三位至高领主** Thirteen Sovereign Lords
+- **到此为止** This Ends Here
+- **轻歌涓浅，恰如此生** This Life, Just Like a Light Trickle of Song
+- **** This Side of Promise
+- **棘球孢囊** Thorny Cyst
+- **愚火为伍** Those That Stand With the Flame
+- **暖风浮漾的心念** Thoughts Floating on the Warm Breeze
+- **如缕的低诉** Threadlike Whispers
+- **「咪呜呜宝座」** Throne of Meower
+- **源火之圣座** Throne of the Primal Fire
+- **穿过谜镜** Through the Looking Glass
+- **纵然时岁流转** Throughout the Flow of Years
+- **雷与永恒** Thunder and Eternity
+- **霆雷之护** Thundering Shield
+- **雳震·大灵显化身** Thundering Wayob Manifestation
+- **汐海引路人・其二** Tidal Guide (II)
+- **汐海引路人・其三** Tidal Guide (III)
+- **昭若千阳** Till a Thousand Suns Arose
+- **直至众水之终** Till All the Seas
+- **直到长出青苔** Till Moss Grows Forth
+- **终有重逢之日** Till We Meet Again
+- **对决之刻** Time for the Showdown
+- **旅时者** Time Trekker
+- **** Timeless Warmth
+- **怯生生的小匿叶龙** Timid Little Yumkasaur
+- **小小的海螺** Tiny Conch
+- **浮白载筆** Tipsy Poetry
+- **** Tipsy Sips
+- **蒂尔妲的信件** Tirda's Letter
+- **蒂雅卡** Tiyaca
+- **蒂兹洛** Tizlo
+- **特拉佐莉的工坊** Tlazolli's Forge
+- **炽空境** Tletl Ilhuicatl
+- **为一切战争的终结** To the End of All Wars
+- **赴去心如一** To the End, They Remain
+- **启程，苍天航路** To the Sky-Road
+- **致自由之风** To the Winds of Freedom
+- **托哈** Toch
+- **图娜卡** Tonaca
+- **热腾腾！** Too Hot to Handle!
+- **托皮娅的声援** Topyas's Support
+- **裂了口的信件** Torn Letter
+- **洪流重斥** Torrential Rebuke
+- **游转的曙色** Touring the Dawn
+- **荣花演武** Bloomflower Trials
+- **龙龙寻宝** Saurian Treasure Seeker
+- **荣花竞捷之争** Tournament of Glory in Bloom
+- **** Tout est bien qui finit bien
+- **「向更高处」** Towards Greater Heights
+- **登临幽悄之塔** Towers of Afrasiab
+- **拼积木** Toy Blocks
+- **积木炸弹与积木矿** Toy Bombs and Toytanium
+- **积木小花** Toy Flowers
+- **积木火柴** Toy Matches
+- **玩具勋章** Toy Medal
+- **溯往者不可追** Tracer No Tracing
+- **迸烈极态** Blazing Extremes
+- **奔流真形** Flow's True Form
+- **本貌明彩** Of Aspects Vivid
+- **腰痛的痕迹** Traces of Back Pain
+- **警棍追打** Tracking Truncheon
+- **荒野寻迹** Tracks Through the Wilderness
+- **幽径叠影** Trail of Shadows
+- **** 
+- **宁静水湾瓶** Tranquil Bay Bottle
+- **安谧的海原** Tranquil Plains
+- **平静养神之袖** Tranquilly Taking Ten Tamoto
+- **转化之火** Transfiguring Flame
+- **异海之块** Transoceanic Chunk
+- **异海凝珠** Transoceanic Pearl
+- **「路上的行者」** Traveler on the Road
+- **海渊封缠的乖离光** Treacherous Light of the Depths
+- **** Tread the Tide
+- **我们的冒险，我们的路** Treading the Untrodden Path
+- **险中取宝** Treasure Seeker
+- **** Treasured Above All
+- **宝物和收藏家** Treasures and Collectors
+- **部族秘藏之所** Tribal Secret Space
+- **三脚架** Tripod
+- **欢笑的凯旋** Triumph of Mirth
+- **真・枪剑双绝** True Mastery of Spear and Sword
+- **真的假不了** Truth Cannot Be Fabricated
+- **奉炽火以希望** Tumaini washa moto
+- **图拉奇** Tuqllaki
+- **二十五个钱币…** Twenty-Five Groschen...
+- **** Twice-Told Tales
+- **** Twilight Wanderings
+- **扭曲的延伸** Twisted Extension
+- **况复两心同** Two Hearts Rejoice
+- **没有第三只吗？** Two Weasels in a Trenchcoat... or Was It Three?
+- **铁甲熔火暴君** Tyrant of Fire and Iron
+- **横行霸者的利齿** Tyrant's Fang
+- **乌丘** Uchu
+- **强劲冲浪拍档！** Ultimate Surfing Buddy!
+- **‎幽愿难释** Unanswered Yearning
+- **「不败的勇士」** Unbeaten Hero
+- **百折不摧的决意** Unbowed Resolve
+- **** Undanced Dance
+- **天蛇船的翼下** Under the Tonatiuh's Wings
+- **地下的罪行** Underground Crime
+- **流炎地下河** Underground Lava River
+- **静隐水下的海沫浮光** Undersea Merusea's Luster
+- **海底宝藏** Undersea Treasure
+- **轻漾涟漪** Undulating Ripples
+- **不死者的哀铃** Undying One's Mourning Bell
+- **终始不熄的热诚** Undying Passion
+- **意外领养的奇妙猫猫** Unexpectedly Adopted Fantastic Feline
+- **羁旅未竟** Unfinished Journey
+- **** Unforeseen Peril
+- **无极限超激格斗赛** Unlimited Fighting Championship
+- **开启的「宝物」** Unlocked "Treasure"
+- **未兆的封印咒缚** Unmanifested Sealing Hex
+- **虚愿难遂** Unrequited Yearning
+- **待晓籁再度奏响** Until the Morning After
+- **碧水从游** Up the Bishui
+- **近距格斗** Up-Close Pummelling
+- **欢欣鼓舞** Upbeat Encouragement
+- **加急订单** Urgent Orders
+- **乌鲁班巴** Urubamba
+- **厄舍的服装工厂** Uther's Clothing Factory
+- **无归的秘源龙像** Vagrant Secret Source Dragon Idol
+- **流浪汉与小屁孩** Vagrants and Scamps
+- **逐猎魔影** Vanquishing Phantoms
+- **** Varesa's Orchard
+- **瓦雷莎的命星** Varesa's Stella Fortuna
+- **瓦萨里回廊广告板** Vasari Passage Advertisement Board
+- **秋绒鸭** Velvetfall Duck
+- **玉璜古龟** Venerable Jadestone Turtle
+- **预见的征程** Venture of Tonalamatl
+- **屏扇点苍翠** Verdant Screen
+- **** Version 5.4 Event Calendar
+- **众火溯还之日** Day of the Flame's Return
+- **雨月的晚祷** Vespers of Pluviose
+- **** Via col vento rosato
+- **** Viajadora's Verse
+- **海岸边的缤纷色彩** Vibrant Colors of the Shoreline
+- **良朋踵至** Friends at the Doorstep
+- **瑞兽欢跃** Joyful Beasts and Their Auspices
+- **纸影寻肴** Paper Shadows A-Foraging
+- **旧日鏖战** Vicious Ancient Battle
+- **迅猛踢击** Vicious Kicks
+- **飞叶捎来的胜利** Victory From the Flying Leaves
+- **只为重逢的确守** Vigil for Reunion
+- **薇內什** Vinesh
+- **特邀「名侦探」** VIP Ace Detective
+- **「尊贵客人们的席位」** VIP Guest Bleachers
+- **薇尔妲的声援** Virda's Support
+- **虚造星光发生学** Virtual Star Embryology
+- **巧奏音律** Virtuoso Performance
+- **空谷皎皎** Virtuous Guardian
+- **龙蜥特急斯库拉号** Vishap Corps Scylla
+- **烬寂之视** Vision of Ashen Desolation
+- **幻蛇之宫** Vision Serpent's Sanctum
+- **水族馆的来访者** Visitor to the "Aquarium"
+- **游客留言板公告** Visitors' Message Board
+- **蚀形的灾祲** Vitas Corrodens Pestis
+- **** Vitiferous Elixir's Concoction
+- **** Voici la grenadiere !
+- **虚界力护罩** Void Ward
+- **洄涡锋刃** Vortex Edge
+- **礼券秘盒** Voucher Box
+- **** Vow of Universal Coexistence
+- **黑水晶的远航** Voyage of the Black Crystal
+- **千景巡歌** Voyage Suite
+- **** Voyager
+- **裂鸣的悲音** Wailing Cacophony
+- **待种子萌出新芽** Waiting For Seeds to Sprout
+- **若菜** Wakana
+- **大梦的醒转** Waking from the Great Dream
+- **随流炎而行** Walk With the Blazing Fire
+- **踏水穿云** Walking on Water and Striding Through Clouds
+- **游学者的爪杯** Wandering Scholar's Claw Cup
+- **望发** Wangfa
+- **王山厅备用钥匙** Wangshan Hall Backup Key
+- **王山厅・正堂** Wangshan Hall, Main Hall
+- **王山厅・秘阁** Wangshan Hall, Secret Chamber
+- **王山厅** Wangshan Hall
+- **古剑铭文** Ancient Swordsman's Inscriptions
+- **「战弓的硬臂」** Warbow's Strongarm
+- **「镇物」** Ward
+- **「镇物」** Ward
+- **仓库物资订单** Warehouse Inventory Records
+- **蕴热的背壳** Warm Back-Shell
+- **热情问候** Warm Greeting
+- **勇士之骨** Warrior's Bonegarb
+- **勇士的挑战** Warrior's Challenge
+- **战士的铁哨** Warrior's Metal Whistle
+- **螺帽章鱼** Washer Octopus
+- **水与正义** Water and Justice
+- **水与正义** Water and Justice
+- **水妖的猜想** Water Imp's Conjecture
+- **未能达成超越之水** Water That Failed To Transcend
+- **被水锈蚀的钥匙** Water-Rusted Key
+- **百步礼掷** Hundred-Pace Hurling Rites
+- **灵感喷激** Inspiration Eruption
+- **寻景觅画** Mending Painting Prospects
+- **临瀑之城** Waterfall Wen
+- **水之新生** Watery Rebirth
+- **「浪涛的气息」** Wave's Wisp
+- **穿浪斗枪** Wavepiercer
+- **浪船・迅击炮** Waverider: Swiftstrike Cannon
+- **沧浪的冒险家・其二** Waveriding Adventurer (II)
+- **沧浪的冒险家・其三** Waveriding Adventurer (III)
+- **沧浪的寻宝者・其一** Waveriding Treasure Hunter (I)
+- **沧浪的寻宝者・其二** Waveriding Treasure Hunter (II)
+- **沧浪的寻宝者・其三** Waveriding Treasure Hunter (III)
+- **「风风火火破浪车头」** Wavesmasher Locomotive
+- **灵觉隐修的迷者** Wayward Hermetic Spiritspeaker
+- **还没有到极限呢！** We Can Push It Further!
+- **炮炮，又见炮炮。** We Meet Again, Cannon...
+- **虚弱的膨膨兽** Weakened Blubberbeast
+- **「乌婕特之眼」** Wedjat Eye
+- **沉重的翅膀** Weighty Wings
+- **福利餐** Welfare Meal
+- **七燃烧之井** Well of Seven Flames
+- **禁止触犯的规则之源** Wellspring of Rule Violation Prevention
+- **文四爷** Wen the Fourth
+- **** Whale Dream
+- **彩虹的脚下是…？** What Lies at the End of the Rainbow...?
+- **何岁为春，何岁为秋** When Comes Spring or Autumn?
+- **当雨云聚集时** When Rain Clouds Gather
+- **晓尔长梦** When Slumber Lifts
+- **风止水忘时** When the Breeze Ceases
+- **当午夜钟声敲响** When the Clock Strikes Midnight
+- **炉火熄灭之际** When the Hearth-Flame Goes Out
+- **迷烟散尽时** When the Mists Fade
+- **星光闪耀时** When the Stars Shine
+- **当他们谈起今夜** When They Talk About Tonight
+- **一切荣光的归处** Where All Glory Belongs
+- **万水汇流之地** Where All Waters Converge
+- **铓锋交错之间** Where Honed Blades Clash
+- **晦夜尽处的焰光** Where Hope Ended, Fire Began
+- **昔时逆转力向之处** Where Once Force Was Reversed
+- **昔时演算阵列之处** Where Once There Was a Calculation Array
+- **昔时武备充盈之处** Where Once There Were Arms Aplenty
+- **** Where the Breeze Stills
+- **他的选择** Where the Dragon Casts Its Will
+- **鳍游龙的聚会** Where the Koholasaurs Gather
+- **‎烟漫露结** Where the Mists Enshroud
+- **何处盛放的蔷薇** Where the Roses Bloom
+- **流泉所归之处** Where the Springs Return
+- **当机芯陷入沉眠…** While Motors Sleep...
+- **异想零落的圆舞** Whimsical Dance of the Withered
+- **玉裙月帔** Whirl of Chalchiuhtlicue
+- **百花戏** Whirling Bloom
+- **蓄势旋斩** Whirling Cleave
+- **蹈刃旋舞** Whirling Legblades
+- **镰刀旋斩** Whirling Scythe
+- **旋尾迅击** Whirling Tail
+- **** Whirling Waltz
+- **** Whisper of Domus Aurea
+- **侧耳倾听** Whisper of the Heart
+- **归风的轻语** Whisper of Weinlesefest
+- **** Whistles of Monetoo
+- **白栗栎木「鱼叉」路灯** White Chestnut Oak Wood "Harpoon" Street Lamp
+- **白栗栎木「原色」矮桌** White Chestnut Oak Wood "Raw Finish" Low Table
+- **白栗栎木「幽暮」地灯** White Chestnut Oak Wood "Twilight" Floor Lamp
+- **白栗栎木** White Chestnut Oak Wood
+- **「秘密组织」的成员将要去向何方** Whither Shall a Member of a "Secret Organization" Go?
+- **水应流向何方** Whither Should the Water Flow?
+- **我是谁？** Who Am I?
+- **谁来说出真相？** Who Tells You the Truth?
+- **「秘密组织」的成员为什么来到这里** Why Did a Member of a "Secret Organization" Come Here?
+- **总是雕像机关** Why Is It Always a Statue Mechanism?
+- **维查莎** Wichasa
+- **荒草弹头** Wildgrass Ball
+- **真的能出成果吗？** Will This Really Work?
+- **枯萎垂柳** Wilting Weeping Willow
+- **风与自由** Wind and Freedom
+- **「预言之窗」** Window to Prophecy
+- **「逐风人」** Windtracker
+- **风车菊的气息** Windwheel Aster's Aroma
+- **戢翼无归** Wingless Wail
+- **古岩龙蜥・溟冬** Wintry Primo Geovishap
+- **维莎** Wisa
+- **趣求法乐** With Witty Wit
+- **褪落的芳华** Withered Wreath of Flowers
+- **枯叶紫英** Withering Purpurbloom
+- **斡流的钻探装置** Woliu's Drilling Device
+- **妙音花与异彩海葵** Wonderchime Flowers and Allochromatic Anemones
+- **绵驮兽木像** Wooden Model Alpaca
+- **世界等级突破** World Level Ascension
+- **枫丹兽会吃纳塔鱼吗？** Would Fontaine Beasts Eat Natlan Fish?
+- **烟染诸色** Woven in the Smoke of Memory
+- **莱欧斯利的命星** Wriothesley's Stella Fortuna
+- **漫曛谷** Xalac Vale
+- **香莙梦** Xiangjun's Dreams
+- **效康** Xiaokang
+- **焮火铸魂** Ardent Flames Forge the Soul
+- **索乌娜** Xona
+- **「悬练仙水」** Xuanlian Sacred Water
+- **雅库普** Yakup
+- **雅塔** Yata
+- **明黄曜石断片** Yellow Obsidian Fragment
+- **明黄曜石环** Yellow Obsidian Ring
+- **昔日之泪，明日之灯** Yesterday's Tears, Tomorrow's Light
+- **遗珑埠公告板** Yilong Wharf Bulletin Board
+- **尤鲁赫** Yoleehe
+- **约洛华** Yolehua
+- **尤洛** Yolo
+- **幼光** Youguang
+- **小豚兽** Young Capybara
+- **你的龙伙伴！** Your Saurian companion!
+- **梦见月的舒心小站** Yumemizuki's Cozy Corner
+- **钩物巧技** Artful Grapple
+- **尤潘基的回火** Yupanqui's Turnfire
+- **扎什** Zashari
+- **振尘** Zhenchen
+- **志琼的签名** Zhiqiong's Signature
+- **子苌** 
+- **祖马力** Zumalli
+- **** 記憶の旅 - Genshin Impact's 4Th Anniversary Japanese Theme Song
 - **「…不代表最终品质」** "...Not indicative of final product"
 - **「…而尽人事。」** Open to Interpretation
 - **「…腐肉朽处花争妍。」** Rest in Peace
 - **「…还有蜥蜴和斯波克」** "...Lizard-Spock"
+- **「…将一切希望弃扬。」** "...Abandon All Hope, Ye Who Enter Here."
 - **「…岂知夜色…」** "...You Do Not Know the Night..."
 - **「…人人都是食神。」** "...Anyone can be a gourmet."
+- **「…什么新浪潮？」** "...What New Tide?"
 - **「…使列邦观看你的丑陋。」** "...Shew the Kingdoms Thy Shame."
 - **「…她必施行报应。」** "...For She Shall Surely Requite."
 - **「…唯独死亡与债务不可避」** "...Till Debt Do Us Part"
@@ -24,41 +2826,62 @@
 - **「…一日之寒」** "...A Single Night's Work"
 - **「…这才是摇滚！」** "...Now That's Rock 'N' Roll!"
 - **「阿釜」** "Kama"
+- **「爱是难驯鸟，哀乞亦无用。」** "Love Is a Rebellious Bird That None Can Tame"
+- **「阿弥利多之旗」** "Amurta Flag"
 - **「暗藏柔顺的叶纹」** The Leaf Veins, Supple and Subtle
 - **「暗含坚韧的肌理」** The Belying Toughness
+- **「奥特华的渔网」** Atlahua's Net
+- **「阿索斯物质」** Azosite
+- **「八宝」** "Hachihou"
 - **「八重堂」的邀约** Yae Publishing House's Invitation
+- **「白老先生」** Mr. Bai
 - **「白萝卜」的种子** Radish Seed
+- **「百味醇韵」** Million Flavors Savored
 - **「百味四宫釜」** "Four-Quadrant Cooking Cauldron"
+- **「巴拉奇科」** "Balachko"
 - **「斑斓与清冽之夏」** "Pure Gorgeous Summer"
 - **「半埋沙中的信笺」** Letters in the Sands Half-Buried
+- **「半熟蛋」** "Half-Baked"
 - **「半夏沈香茶」** Midsummer Tea-Fragrance
+- **「包巴卜的金摇篮」** "Baobab's Golden Cradle"
 - **「薄红榴璃散千瓣」** A Thousand Petals of Red Glaze
 - **「宝库」的钥匙** "Treasury" Key
 - **「包罗百味的选择」** A Choice of Delicacies
-- **「被、被派蒙吃掉…」** "P—Paimon ate it..."
+- **「宝物」** Treasure
+- **「被、被派蒙吃掉…」** "P&mdash;Paimon ate it..."
+- **「背弃之塔」** Towers of Betrayal
 - **「边境堡垒」** Border Fort
 - **「必不可少之物」** The Essentials
 - **「冰冻三尺…」** "Knee-Deep Snow..."
 - **「薄缘满光天目」** Hakuen Michimitsu Amenoma
 - **「薄荷」的种子** Mint Seed
+- **「不成熟的画作」** "Still-Budding Artistry"
 - **「不卜庐」的药理证明** Bubu Pharmacy's Affidavit
 - **「不可久置的烈浆」** Ephemeral Spirit
 - **《裁雨声・上》** Ring of Raining Blades (I)
 - **《裁雨声・中》** Ring of Raining Blades (II)
+- **「才…才不是呢！」** "N&mdash;No Way!"
 - **「才慧之瑞佑」** Blessings of Wisdom
 - **「踩踏蹦跳的禁区」** No Jumping, No Tramping
 - **「藏宝图」的碎片** Treasure Map Fragment
-- **「藏宝图」的碎片** Treasure Map Fragment
+- **「残酷嘟嘟莲」** "Ruthless Calla Lily"
 - **「层岩巨渊勘探队」** The Chasm Exploration Team
 - **《层岩巨渊矿产志》** The Chasm Mining Records
 - **「茶烟笼白榻」** "Tea Wisp-Clouded White Couch"
-- **「常夜光树」** Evernight Blazeshrub
+- **「刹诃伐罗之旗」** "Kshahrewar Flag"
 - **「常世大神倘若有知…」** "If Tokoyo Ookami Knew of This..."
 - **「常世无双」小锦旗** "Unmatched Throughout Tokoyo"
+- **「常行之光」** "Light's Constancy"
+- **「常夜光树」** Evernight Blazeshrub
 - **「常夜荧枝」** Evernight Glitterbough
 - **「长野原烟花店」的纸条** Naganohara Fireworks Note
 - **「茶歇的阴凉」** Tea-Break Shade
+- **「乘白凤兮翦雾縠」** "On White Wings Pierce Through Cloud and Fog"
 - **「澄波游影」** Shaded Clarity
+- **「澄澈花水的迭跃」** "Steps of Floral Waters"
+- **「澄澈花水的印痕」** "Trail of Floral Waters"
+- **「澄澈花水与青实」** "Fruit of Floral Waters"
+- **「澄澈花水与青戊」** "Greenery of Floral Waters"
 - **「盛放之光」** Blooming Illumination
 - **「乘风破浪真君」** Mighty and Illuminated Wave Rider
 - **「澄寂宫园的茶香」** Tea Fragrance in the Tranquil Court
@@ -69,33 +2892,50 @@
 - **「澄凝的星光」** Tranquil Starlight
 - **「赤鬼」的刀** The Crimson Oni's Blade
 - **「赤铁珊瑚」** Red-Iron Coral
+- **「赤舞者」** "Crimson Dancer"
 - **「炽烈的养分」** Fervid Nutrients
 - **「赤王的水晶杯」** Deshret's Glass Goblet
 - **「赤王之柱」** King Deshret's Pillar
+- **「炽阳刻印的烈香」** "Scent of the Blazing Sun"
+- **「赤璋巡岳府君」** "Rulers of the Chizhang Mountains"
+- **「铳枪影业获奖留念」** "Musketeer Pictures Prize Commemoration"
 - **「创龙点睛奇象」** A Dragon's Wondrous Sight
 - **「船工」** "Boatman"
+- **「传接球」** Relay Ball
 - **「传说中的大王鬼兜虫」** Fabled Emperor Onikabuto
 - **「穿越风雷之魂」** Storm Braver
 - **「春惜一斤染」** The Precious Pink of Spring
+- **「纯粹的热烈」** "Pure Heat"
 - **「醇厚之声」** A Mellow Voice
+- **「纯洁之水」** "Pure Water"
+- **「纯洁之水」（整箱）** "Pure Water" (Case)
 - **「醇甜于窖藏之中」** Sweetness in Storage
 - **「醇甜于流转之间」** Sweetness in Exchange
 - **「醇甜于荫蔽之下」** Sweetness in the Shade
+- **「此后，你们须相爱相护…」** "You Shall Love and Protect Each Other Henceforth..."
 - **「丛茂的片段」** A Lush Glimpse
-- **「萃念初蘖」・柯莱登场 参与活动赢周边** "Sprout of Rebirth" Collei (Dendro) Is Here! Participate in the Event to Win Merchandise~
+- **「簇火赞歌」** Hymn of Gathered Flame
 - **「大风纪官的公务时间」** The General Mahamatra on Duty
+- **「大椰子」** "King Coconut"
+- **「大冒失」** Harum-Scarum
 - **「大雪猪王」的肉** Great Snowboar King Meat
+- **「大大枭枭幽魂机关」** Wind-Up Great Owl Spirit Mechanism
 - **「代宫司之印」** "Seal of the Provisional Head Priestess"
+- **「大桔骑士」** Sir Pouncelot
+- **「大桔骑士」入列！** Sir Pouncelot Joins the Lot!
 - **「大快朵颐的豪情」** Spirit of the Banquet
+- **「当初那位参赛者」** The Contestant
 - **「胆小」的守卫** Timid Guard
 - **「大肉丸」** Miitoboru
 - **《第七个武士》** "The Seventh Samurai"
 - **《第七个武士》台本** "The Seventh Samurai" Script
+- **「迪奥娜的小沙发」** "Diona's Mini Sofa"
 - **「电气鞘翅」** Elyctra
 - **「滴翠之光」** Dripping Verdant Light
 - **「蝶引玉子穿白波」** Through White Foam the Jade Butterfly Soars
 - **「地狐」小像** Earth Kitsune Statue
 - **「谛听的烛火」** Listening Candelight
+- **「谛听的烛火」** Listening Candlelight
 - **「东王」史辩** Debates on the "Viceroy of the East"
 - **「嘟嘟莲」的种子** Calla Lily Seed
 - **「嘟嘟可的出游行囊」** Dodoco's Travel Bag
@@ -106,6 +2946,7 @@
 - **「嘟嘟可的夏日时光」** Dodoco's Summertime
 - **「渡魂之舟」** Soulferry
 - **「堆高高」** "Pile 'Em Up"
+- **「独门秘法」** Secret Art
 - **「墩墩桃」的种子** Zaytun Peach Seed
 - **「夺宝」小行动** A Little Raid
 - **「笃行」的教导** Teachings of Praxis
@@ -114,6 +2955,8 @@
 - **「独眼小宝大世界」** The Wonderful World Of Mr. Cyclops
 - **「独眼小宝」玩偶** Mr. Cyclops Action Figure
 - **「恩返之盏」** A Favor Returned
+- **「二十年前的事」** "That Incident From Twenty Years Ago"
+- **「伐护末那之旗」** "Vahumana Flag"
 - **「法罗赫之子」的笔记** Farrokhzadan Note
 - **「法罗赫之子」的日志** Farrokhzadan Journal
 - **「放欢的形姿」** Jubilant Posture
@@ -123,41 +2966,59 @@
 - **「繁荣」的教导** Teachings of Prosperity
 - **「繁荣」的哲学** Philosophies of Prosperity
 - **「繁荣」的指引** Guide to Prosperity
+- **「翡翠」** "Jade"
 - **「风带来了故事的种子…」** "Seeds of Stories, Brought by the Wind..."
 - **「风」味美食** Flavor of the Month
 - **「风」味饮料** Windbrew
 - **「风车菊」** "Windwheel Aster"
 - **「风车菊」的种子** Windwheel Aster Seed
+- **「丰厚」的预算** An Abundant Estimation
 - **「风起地」的风景画** Picture of Windrise
 - **「丰沃之惠」** Anahitian Blessing
 - **「风雅」的哲学** Philosophies of Elegance
 - **「风雅」的教导** Teachings of Elegance
 - **「风雅」的指引** Guide to Elegance
 - **「纷罗于甄选之后」** Deliberation of Choice
-- **「伏龙树」之底** Beneath the Dragon-Queller
+- **「芬尼克的红莓海」** "Finnick's Cranberry Sea"
+- **「粉刷匠」德尼禄** "Painter" De Niro
+- **「纷争」的指引** Guide to Conflict
 - **「浮世」的哲学** Philosophies of Transience
 - **「浮世」的教导** Teachings of Transience
 - **「浮世」的指引** Guide to Transience
+- **「浮玉的兽主」** "Beast Lord of Fuyu"
 - **「伏枝的蝶黄」** Dappled Butterfly
+- **「甘露游蜉」** Amrita Mayfly
+- **「甘莹之光」** "Sweet Luster"
 - **「高」人一等** Taller by Half
+- **「歌与梦的叙事诗」** "The Poetry of Song and Dreams"
 - **「歌之铃兰花」** Singing Majalis
 - **「给您添蘑菇了！」** "Sorry for the Trouble!"
 - **「给我下来！」** "Get Over Here!"
-- **「耕地机」** Field Tiller
+- **「歌剧院交换魔术」案件记录册** "Opera House Switcheroo" Case Record
 - **「更巡的烛火」** Nightwatcher's Candlelight
+- **「工程师」** Engineer
 - **「攻伐的具象」** Embodiment of Warfare
+- **「公平」的教导** Teachings of Equity
+- **「公平」的哲学** Philosophies of Equity
+- **「公平」的指引** Guide to Equity
 - **「恭喜这位，喜提鱼缸」** "Do you need a fishtank to go with that?"
-- **「公义」** "Masanori"
+- **「公主」** Princess
+- **「公主」与「冒险团」的故事** The Story of "the Princess" and "the Adventure Team"
 - **「公子」** Childe
 - **「公子」与托克的摩拉袋** Childe and Teucer's Mora Pouch
 - **「怪怪两口钟」** "The Two Strange Bells"
 - **「怪力三十三」** Pain-Grocer
 - **「怪鸟」** Raptor
+- **「管饭的」** Food Manager
+- **「冠军是我的！」** "The Title of Champion Is Mine!"
 - **「孤独地融化…」** "Melting... Away..."
 - **「归风的苍色」** "The Color of the Wind"
+- **「咕噜噜」** "Kururuk"
+- **「果酒湖光」** "Cider Lakelight"
 - **「果农的勤俭」** The Fruit Farmer's Thrift
 - **「海灵芝」的样本** Sea Ganoderma Cutting
 - **「海草」的种子** Seagrass Seed
+- **「海鸟的驻足」** "Seabird's Sojourn"
 - **「海祇之鳍」** "Fin of Watatsumi"
 - **「海祇之尾」** "Tail of Watatsumi"
 - **「海祇之心」** "Heart of Watatsumi"
@@ -168,89 +3029,141 @@
 - **「号角与薪柴」** "Trumpet and Firewood"
 - **「好样的，施季里茨！」** Well Done, Stierlitz!
 - **「豪重琱丽的坐席」** A Seat of Sophisticated Luxury
+- **「黑曜石碑的影像」** "Projection of an Obsidian Tablet"
+- **「很明亮的地方」** "A Very Bright Place"
 - **「恒动械画」** "Evermotion Mechanical Painting"
 - **「恒诰之龛」** Ritual Shrine
 - **「红炉一点雪」** "Snow on the Hearth"
 - **「红衣女孩宝物」之谜** The Mystery of the Girl in Red's Treasure
 - **「红鸢问寝觉」** The Red Kite's Waking and Sleeping
+- **「虹彩蔷薇」的种子** Rainbow Rose Seed
+- **「红色的石头」** Red Stone
 - **「花咲初退红」** Flower's First Blushing Bloom
 - **「花冠」** Garland
 - **「花海的摇篮」** "Cradle of Flowers"
 - **「花角玉将」** Grandmaster Hanakado
+- **「幻之玩具王」和「吼吼小狐」** The Phantom Toy Master and the Barking Fox
+- **「黄金傍晚」** Golden Dusk
 - **「黄金」的教导** Teachings of Gold
 - **「黄金」的哲学** Philosophies of Gold
 - **「黄金」的指引** Guide to Gold
 - **「黄铜面具」的教导** Dogma of the Brass Mask
 - **「幻梦的门扉」** "Gate of Phantasm"
 - **「欢适之光」** Joyful Illumination
+- **「话事处」** Speaker's Chamber
 - **「花叶百相之光」** Efflorescent Illumination
 - **「花影飘曳」** Floral Swing
+- **「花羽会」** "Flower-Feather Clan"
+- **「湖光」** "Lakelight"
 - **「辉光灵闪」** Flash of Glory
+- **「回廊的斑驳花彩」** Passage's Polychromatic Potted Plants
+- **「回廊的灯引琼浆」** Passage's Appetizing Lamp
 - **「绘绮之枕印」** Silken Print
+- **「回声之子」** "Children of Echoes"
 - **「回响弦音」** Resonant Melody
 - **「胡萝卜」的种子** Carrot Seed
+- **「湖畔的尼尼安涅」** Ninianne of the Lake
+- **「湖畔的维维安涅」** Vivianne of the Lake
 - **「狐仙宫司」限定画旗** "Kitsune Guuji" Exclusive Painted Flag Banner
+- **「极钻」** "Gigadrill"
+- **「假编剧」** Fake Playwright
+- **「贾巴沃克圣剑」** Jabberwock's Holy Sword
 - **「坚定意志」** "Unwavering Determination"
 - **「降神工坊」** Deus Foundry
 - **「谏果般森丽之纹」** The Olive Grove
 - **「健康之家」给阿夫塔的处方药** Prescription Medication from Bimarstan for Aftab
 - **「健康之家」给阿兹拉的处方药** Prescription Medication from Bimarstan for Azra
 - **「健康之家」给阿兹拉的处方药** Prescription Medication from Bimarstan for Azra
+- **「见证物」的收纳盒** Memento Collection Box
 - **「叫我以实玛利。」** "Call Me Ishmael."
+- **「交互式游览」** Interactive Tour
+- **「狡诈泡泡桔」** "Tricky Bulle Fruit"
+- **「假如她不再梦到你…」** "If She No Longer Dreams of You..."
 - **「假若她们能知幽玄…」** "If They Had Known the Unseen..."
 - **「急冻树、青空、南风」** Just Me and You, the Sky So Blue, and Almost Getting Killed by a Cryo Regisvine
+- **「皆在镜前」** "All Is Overt Through My Lens"
 - **「解翠行」的证明文书** The Jade Mystery's Affidavit
+- **「桔梗轻烟」** Bellflower Haze
 - **「桔梗执别愁云去」** The Bellflower Bids the Gloom Farewell
+- **「姐姐的义务」** "A Sister's Duty"
 - **「洁净的杯盏」** Pristine Vessel
 - **「揭开封印之时…」** "When the Seal Is Broken..."
+- **「吉法师」** "Kichiboushi"
 - **「机关阵列没有永恒」** The Not-So-Perpetual Mechanical Array
+- **「既见君兮予所欢」** "Having Met You, My Heart is Gladdened"
+- **「寂寞的地方」** "A Lonely Place"
 - **「堇鬼」的刀** The Violet Oni's Blade
-- **金盏荧华自卷旋** Golden Calendula Swirl
 - **「晶蝶的栖枝」** "Crystalfly's Perch"
 - **「景光浮转山月间」** Between Moonlit Hills
 - **「静寂闲雅」** Quiet Elegance
 - **「鲸井御殿流手鞠术」** "Kujirai Art, Temari Jutsu"
 - **「金龟奇术番长」** Wizard Moneybags
 - **「净绪之龛」** Cleansing Shrine
+- **「镜中的王国」** Kingdom Through the Looking-Glass
 - **「紧急调整计划图」** "Emergency Adjustment Plan"
 - **「金屋藏娇」** Golden House Maiden
 - **「金屋藏娇」香膏** Golden House Maiden Perfume
 - **「金屋藏娇」精油** Golden House Maiden Essential Oil
 - **「金鱼草」的种子** Snapdragon Seed
+- **「金盏花」** "Marigold"
 - **「禁足铁菱角」** Steel Stopper
 - **「九步踯躅间」** "Between Nine Steps"
 - **「酒业杀手」** Wine Industry Slayer
 - **「酒馆诸事的证人」** Witness of Tavern Affairs
+- **「救命啊！」** "Help!!!"
+- **「究寻千向」** "Omnidirector"
+- **「极限的方向」** "Way to the Extreme"
 - **「积蓄净水的艺术」** The Art of Retaining Water
+- **「基扬戈兹」** "Kiongozi"
 - **「居尔城神殿」** Temple of Gurabad
 - **「剧场的沁凉水雾」** Theater's Cool Mist
 - **「剧场的琼片丛簇」** A Theater's Dream of Flowers
 - **「剧场的盛意摹刻」** Replica of the Theater's Glory
+- **《绝境高飞》道具书** "The Great Escape" Prop Book
+- **「觉醒吧！夜之头脑！」** "Awaken! Night Head!"
 - **「绝云椒椒」的种子** Jueyun Chili Seed
+- **「角逐」的指引** Guide to Contention
+- **「拒绝的刺」** Refusal of Thorns
+- **「俱利般地」** Korybantes
 - **「拒止海兽的丝织」** Silky Queller of Sea Monsters
 - **「开山炮」** Mountainator
 - **「看得见的风」** "The Visible Winds"
 - **「抗争」的教导** Teachings of Resistance
 - **「抗争」的哲学** Philosophies of Resistance
 - **「抗争」的指引** Guide to Resistance
+- **「科西霍」** "Cocijo"
+- **「狂图捕手」** "Mural Maniac"
+- **「昆布丸」** "Konbumaru"
 - **「苦舍桓」** "Kusava"
 - **「来坦，来补，来输出」** You Came, You Saw, We Co-Oped
 - **「拉勒」** Lale
+- **「揽龙鹰兮结血珠」** "With Drakefalcon's Blood-Pearls Adorned"
 - **「蓝海的宝钱」** "The Blue Ocean's Treasure"
 - **「兰那罗的世界」** The World of Aranara
+- **「老板」** "Boss"
 - **「老实点！」** Cool It!
 - **「老太婆来抓我啊！」** "Come 'n' Get Me, Hag!"
-- **「雷兆凝晶」** Nimbus Gems
+- **「雷兆凝晶」** Nimbus Gem
+- **「冷暖的叠加」** "Warmth and Cold Overlaid"
 - **「冷鲜肉」** Chilled Meat
 - **「莲蓬」的种子** Lotus Seed
 - **「疗渴的芳香」** Restorative Fragrance
+- **「离别」的赠礼** Gift of "Parting"
+- **「梨多梵谛之旗」** "Rtawahist Flag"
 - **「猎品的斗篷」** "Prey's Cloak of Refuge"
+- **「烈度」，有用吗** Is "Intensity" Really the Key?
+- **「猎获」** "Tagged and Bagged"
 - **「猎人的暗哨」** "Hunter's Vantage"
 - **「猎鹰」塔德菈** Tadhla the Falcon
 - **「林之梦」** Woodland Dream
 - **「灵草」所需的水** Spiritherb Water
 - **「另一番香甜」** A Different Kind of Sweetness
 - **「灵沼云池」** Pool of Sapphire Grace
+- **「灵宝铎」的试炼** Trial of the Soul Bell
+- **「灵谷木」** Fravashi Tree
+- **「灵谜纹」** Nightspirit Sigil
+- **「灵芯」** Farrwick
+- **「领袖」的觉悟** The Leader's Resolve
 - **「林居之人的秉意」** Deepwood Dweller's Perseverance
 - **「林居之人的存积」** Deepwood Dweller's Aggregation
 - **「林居之人的孤念」** Deepwood Dweller's Lonesome
@@ -264,6 +3177,8 @@
 - **「琉璃百合」的种子** Glaze Lily Seed
 - **「琉璃袋」的种子** Violetgrass Seed
 - **「留念镜」** Memento Lens
+- **「流泉之众」** "People of the Springs"
+- **「流泉之众」的精神** Spirit of the Springs' People
 - **「留影机・风花」** Windblume Kamera
 - **「留影机」印出的画** Kamera Picture
 - **「理想情况」** Ideal Circumstance
@@ -276,7 +3191,9 @@
 - **「落落莓」的种子** Valberry Seed
 - **「落武者」** Ochimusha
 - **「萝赞」** Rozan
+- **「绿松石」** Cocouik
 - **「旅团的盛名」** The Eremites' Fame
+- **「旅团的盛气」** "Team Spirit"
 - **「旅团的威焰」** The Eremites' Flame of Vigor
 - **「旅团的征轮」** The Eremites' Odyssey
 - **《旅行者的奇妙冒险》** The Miraculous Adventures of the Traveler
@@ -285,29 +3202,46 @@
 - **「绿野的坐席」** "A Seat in the Wilderness"
 - **「炉灶之魔神」尊像** God of the Stove Statue
 - **「麦苗般纯净之纹」** Pure Like Wheat Sprouts
+- **「玛丽安」** Mary-Ann
 - **「满分的侦察骑士」** 5-Star Outrider
+- **「慢悠悠仙像」** Carefree Simulacrum
+- **「毛发如夜的野兽」** "Beast With Fur Like That of Night"
 - **「猫尾酒馆」的调酒师** The Cat's Tail's Bartender
+- **「冒险家的经验」** "Adventurer's Experience"
 - **「冒险家的随身秘宝」** "The Adventurer's Treasures"
 - **「冒险家难逃之重」** "The Adventurer's Burdens"
 - **「冒险家」的能力极限** The Limitations of an Adventurer
 - **「马尾」的种子** Horsetail Seed
+- **「没疤脸」帕奇诺** "Smoothface" Paccino
 - **「没听众也要演奏…」** "The Show Goes On, Even Without An Audience..."
 - **「美好的风景，望不到头」** "Lovely Sights, Further Than the Eye Can See"
+- **「美好相遇」** "Delightful Encounter"
 - **「美梦」** "Sweet Dream"
+- **「煤球」** "Charcoal"
+- **「每月的烦恼消除剂」** "Monthly Frustration-Be-Gone"
 - **「蒙德往事」** "Once Upon a Time in Mondstadt"
 - **「蒙德最强战力」之争** Who Is Mondstadt's Strongest Fighter?
 - **「猛火炙烤的浓香」** Aroma of High-Heat Barbecue
 - **「梦见花霞织樱雨」** "The Spring Mist Weaves the Sakura Rain"
 - **「梦形」** "Dream Form"
 - **「面具」** A Mask
+- **「秘密藏心间，无人知我名。」** "My Secret Is Hidden Within Me, No One Will Know My Name"
 - **「鸣草」的种子** Naku Weed Seed
 - **「鸣草」的种子** Naku Weed Seed
 - **「明察冬鳗」小锦旗** "The Eel in Winter Sought"
 - **「明冠羽叶」** "Brightcrown Plumebush"
+- **「铭记泪，生命与仁爱」** "To Enshrine Tears, Life, and Love"
+- **「命运示数器」** "Fateometer"
 - **「命运」的彼岸** The Far Side of Fate
+- **「谜题全都解开了！」** "This Mystery Is Solved!"
+- **「秘源机关」** Source Mechanism
 - **「魔花」** Fellflower
 - **「蘑菇」的孢子** Mushroom Spore
+- **「茉洁」** "Marcotte"
+- **「茉洁草」的种子** Marcotte Seed
+- **「摩拉丛丛生长的梦」** Dream of Mora Growing on Trees
 - **「魔女的重唱」** "Witch's Chorus"
+- **「目随羽视」挑战** "Eyes on the Feathered Prize" Challenge
 - **「牧歌与风车」** "Ballad-Spinning Windwheel"
 - **「木漏茶室」邀请函** Komore Teahouse Invitation Letter
 - **「暮夜剧团的留念合照」** Keepsake Photo of Twilight Theater
@@ -320,14 +3254,17 @@
 - **「南境香风叶」** "Southern Sweetleaves"
 - **「南十字武斗会」冠军奖牌** The Crux Clash Champion Medal
 - **「那位先生」的委托** A Commission From "That Guy"
+- **「你将成为我们新的家人…」** "You Shall Become a New Member of Our Family..."
 - **「霓裳花」的种子** Silk Flower Seed
 - **「你好」、「谢谢」；最后是「再见」** "Hello," "Thank You," and the Final "Goodbye"
 - **「宁静深夜的沙风」** Night of Serenity in the Sandy Breeze
+- **「宁静」的一日** A "Tranquil" Day
 - **「您好，亲爱的爸爸…」** "Dear Daddy..."
 - **「匿踪之叶」** "Concealing Leaves"
 - **「暖叶篝火树」** "Kindletree"
 - **「暖意」** "Warmth"
 - **「奴家是猫。名字叫寝子」** "I am a cat named Neko."
+- **「女人皆善变，仿若水中萍。」** "A Woman Adapts Like Duckweed in Water"
 - **「磐键」位置示意图** Bedrock Key Location Diagram
 - **「蓬蓬果的天空之梦」** "A Bloatty Floatty's Dream of the Sky"
 - **「片叶苏芳缀银朱」** Sappan and Vermilion Enjoined
@@ -335,15 +3272,20 @@
 - **「缥缈仙缘」精油** Fate's Yearning Essential Oil
 - **「缥缈仙缘」香膏** Fate's Yearning Perfume
 - **「飘悠之光」** Fluttering Light
+- **「缥雨一滴」** "Consommé Purete"
 - **「毗波耶」** Viparyas
 - **「毗波耶」** Viparyas
 - **「苹果」** Apple
 - **「破破岛」的壁画** Broken Isle Mural
 - **「蒲公英」** "Dandelion"
+- **「普茹斯蒂司」** "Pour la Justice"
+- **「朴实钩钩果」** "Guileless Wolfhook"
+- **「强水」** Strength Tonic
 - **「千日喧哗大飞车」** Grand Rook Sennichi
 - **「浅睡的花青」** Floral Green's Shallow Slumber
 - **「前庭净念池」** "Courtyard Cleansing Pool"
 - **「潜心之光」** Immersive Light
+- **「千星的倒影」** "The Arrayed Stars Mirrored"
 - **「巧思」的教导** Teachings of Ingenuity
 - **「巧思」的哲学** Philosophies of Ingenuity
 - **「巧思」的指引** Guide to Ingenuity
@@ -351,16 +3293,22 @@
 - **「切，原来是来钓鱼的…」** "Oh, so That's How You Fish..."
 - **「亲爱的挚友派蒙的肖像」** "A Portrait of Paimon, the Greatest Companion"
 - **「庆节嘉趣礼如山」** Mountain of Festive Gifts
+- **「清幻剂」** Draught of Lucidity
+- **「清洁工作」** "Called In For Cleanup"
 - **「清客扬芳」** A Guest of Noble Character
 - **「晴空蓝的午后」** "Clear Blue Afternoon"
 - **「清籁岛」的记录画片** Picture Commemorating Seirai Island
 - **「清籁岛」的记录画片・之二** Picture Commemorating Seirai Island (II)
-- **「清籁岛」的记录画片・之三** Picture Commemorating Seirai Island (III)
 - **「清籁岛」的记录画片・之四** Picture Commemorating Seirai Island (IV)
+- **「清籁岛」的记录画片・之三** Picture Commemorating Seirai Island (III)
 - **「清籁丸」** "Seiraimaru"
 - **「青琅般辉煌之纹」** Glorious Emerald Tapestry
+- **「清凉午后的茶歇」** "Chill Afternoon Tea Time"
 - **「清冽水沫留影机」** "Bubbly Kamera"
+- **「晴暖时节的细沙」** "Fine Sand in Warm Weather"
+- **「清泉之心」** Heart of Clear Springs
 - **「青色喷泉」** "Green Fountain"
+- **「清甜果味」彩陶盘** "Sweet and Fruity" Painted Plate
 - **「清馨良药的悬釜」** Cauldron of Herbs
 - **「清心」的种子** Qingxin Seed
 - **「清雅之声」** An Elegant Voice
@@ -374,39 +3322,49 @@
 - **「栖身伞叶」** Umbrella of Refuge
 - **「骑士团的宝物」其人** A Very Volatile Treasure
 - **「秋津游艺」** Akitsu Yuugei
+- **「气息模拟主动诱饵」** "Active Odor Imitating Bait"
 - **「棋子」** Chess Piece
+- **「拳力斗技」枫达奖杯** Pankration Fonta Cup
+- **「全勤王」** Hustler
+- **「曲线」** "Curve"
 - **「让你再飞！」** "Not Flyin' Away This Time!"
+- **「人之名」解放** "Humanity's Name" Unfettered
 - **「热沙的喷泉」** Fountain of Scorching Sands
 - **「热沙炙烤的清凉」** Chilling Sand Grilling
 - **「日晒般庄严之纹」** Sun-Scorched Solemnity
 - **「荣发商铺」的订单收据** Invoice From Second Life
 - **「溶媒」** Alkahest
+- **「柔灯铃」的种子** Lumidouce Bell Seed
 - **「如簇拥的晚霞」** Like the Encircling Eventide
 - **「如烈日的辉光」** Like the Blistering Sunlight
 - **「如破晓的预兆」** Like an Omen of Daybreak
 - **「如悬空的白星」** Like the Dangling White Stars
 - **「如烨烁的远星」** Like the Shimmering Distant Stars
 - **「如月亮的断片」** Like the Moon's Shattered Shards
-- **瑞月火树落白间** Kindled Trees by the Moonlit Window
+- **「若非处幽冥，怎知生可贵！」** "They Know Not Life, Who Dwelt in the Netherworld Not!"
+- **「若有人兮云之际」** "As One Might Stride Betwixt the Clouds"
 - **「塞琉斯」** "Cyrus"
 - **「塞西莉亚花」的种子** Cecilia Seed
 - **「三运河之地」** The Sands of Three Canals
 - **「三十人团」** Corps of Thirty
 - **「三十人团」的招募** Corps of Thirty Recruitment
 - **「三咫通明」** "Three Reaches Bright"
+- **「萨齐因留下的文字」** Sachin's Article
 - **「森林书」** Aranyaka
 - **「森邃之光」** Deepwood Illumination
 - **「山动了」** Moving Mountains
+- **「商埠的烟炊百味」** "Port's Fabulous Flavors"
 - **「商铺的罗纹」** Ceramic Centerpiece
 - **「商铺的珍玩」** Appraiser's Treasure
 - **「山阴锦簇」** Valley Weaver
 - **「山阴锦簇」精油** Valley Weaver Essential Oil
 - **「山阴锦簇」香膏** Valley Weaver Perfume
-- **「神的棋盘」** Safhe Shatranj
 - **「深藏甘香的蜜酿」** The Hidden Sweetness
 - **「深藏咸涩的裂果」** The Concealed Salt
 - **「盛积于干爽之中」** Abundance of Crisp Air
+- **「生命之契」** Bond of Life
 - **「生命，很神奇吧？」** "Isn't Life Wondrous?"
+- **「深谷之剑」** Swords of the Gorge
 - **「圣显厅」** Khaj-Nisut
 - **「神居岛崩炮」** Kamuijima Cannon
 - **「神居岛崩炮」位置图** Kamuijima Cannon Map
@@ -422,35 +3380,54 @@
 - **「试胆会的高彩谐趣」** Kimodameshi Vivaciousness
 - **「石根文字」** Ishine Script
 - **「石间绽放之歌」** Songs Amongst the Stones
+- **「室罗婆耽之旗」** "Haravatat Flag"
+- **「时髦墩墩桃」** "Trendy Zaytun Peach"
 - **「诗文」的教导** Teachings of Ballad
 - **「诗文」的哲学** Philosophies of Ballad
 - **「诗文」的指引** Guide to Ballad
 - **「誓言岬」的风景画** Picture of Cape Oath
+- **「时装秀」** "Fashion Show"
 - **「试作兰那罗」** Prototype Aranara
 - **「手鞠游戏」** Temaria Game
 - **「手鞠」** Temari
+- **「双生妖精骑士」** The Fairy Knight Twins
 - **「双双岛」的壁画** Twinning Isle Mural
+- **「水的女儿」** "The Little Oceanid"
+- **「水与失踪者」案件记录册** "Water and Missing Person" Case Record
 - **「水光的焰火」** Glimmering Firework
 - **「水畔的富饶」** The Bountiful Waterside
+- **「水仙十字圣剑」** Holy Blade of Narzissenkreuz
+- **「水妖王子」** Water Imp Prince
 - **「水中翻沸的画彩」** Colors in the Water Roiling
 - **「说不定就成功了！」** "It Just Might Work!"
 - **「书信的礼节」** "Etiquette of Correspondence"
 - **「四方之网」** Ubiquity Net
+- **「四方八方之网」** Omni-Ubiquity Net
+- **「斯内库的灌木丛」** "Sneku's Thicket"
 - **「司书的宝库」** "Archivist's Treasure Trove"
 - **「送给你的故事」** A Story for You
 - **「松株侯暮夕」** "Pines Awaiting the Twilight"
 - **「素守之瓶」** The Essential Vase
 - **「随风而去吧！」** Go With the Wind!
+- **「所有的仇与债皆由我偿…」** "All Reprisals and Arrears, Mine to Bear..."
+- **「所有的赏与罚皆自我出…」** "All Rewards and Retribution, Mine to Bestow..."
 - **「太威仪盘」** Fantastic Compass
 - **《塔列辛之书》** The Tome of Taliesin
 - **「他们」的愿望…** Their Wishes
 - **「糖霜史莱姆」** Sugar-Frosted Slime
 - **「贪婪」的守卫** Greedy Guard
+- **「特尔克西」** Thelxie
+- **「特别报告」** Special Report
 - **「特别大厨的夏日盛宴」** "Master Chef's Summertime Banquet"
+- **「特别温暖的地方」** "A Very Warm Place"
+- **「特拉扎库伊洛特尔」** "Tlatzacuilotl"
+- **「特殊分析变焦镜头」** "Special Analysis Zoom Lens"
 - **「天光」的教导** Teachings of Light
 - **「天光」的哲学** Philosophies of Light
 - **「天光」的指引** Guide to Light
+- **「天火之冠」** Skyfire Circlet
 - **「天空的枝叶」** Spreading Branches of the Sky
+- **「天蓝宝石」** Cerulean Gem
 - **「天使的馈赠」的特色饮料** Special Beverage from Angel's Share
 - **「甜甜花」的种子** Sweet Flower Seed
 - **「天象寰转」** Cosmos Within
@@ -458,53 +3435,87 @@
 - **「铁与沙与金钱」** "Iron, Sand, Treasure"
 - **「铁与水与蒸汽」** "Iron, Water, Steam"
 - **「铁与血与破甲」** "Iron, Blood, Broken Armor"
+- **「铁皮子爵」** Iron Viscount
+- **「缇拉」** "Tilla"
 - **「停息的浪花」** Halted Spoondrift
 - **「童真的断篇」** "Fragments of Innocence"
+- **「偷懒鬼」** Loafer
+- **「团团灰」** Dustball
 - **「托付于命运吧！」** Waterborne Destiny
 - **「晚花空言约」** Of Promises Unkept the Night Flowers Speak
 - **「亡者之城」** City of the Deceased
+- **「王子」** Prince
 - **「万家华灯照朗月」** Countless Homes Light Up the Moon
 - **「玩具摊」** Toy Shop
 - **「万民堂」外送餐品** Wanmin Restaurant Take-Away
+- **「为最美者」** "For the Fairest"
 - **「危危岛」的壁画** Minacious Isle Mural
+- **「为此，勿将希望弃扬」** "And So Shall I Never Despair"
 - **「为了工作。」** "It's My Job."
+- **「为了执行官大人！」** "For The Harbingers!"
 - **「文火慢烤的鲜香」** Fragrance of Low-Heat Roast
 - **「温暖的味道」** Taste of Warmth
 - **「我的宝物」** "My Treasure"
+- **「我将铭记白昼的誓言」** "I Pledge to Remember the Oath of Daylight"
+- **「我警惕雷穆利亚人…」** "Beware of Remurians..."
 - **「我来，我见，我征服」** I Came, I Saw, I Conquered
 - **「我明白了！我明白了！」** "I've Got It! I've Got It!"
 - **「我也讨厌沙虫！」** "I Hate 'Em Myself!"
+- **「我已有觉察，他名即是…！」** "His Name I Now Know, It Is...!"
 - **《我作为冒险家的一生》** "My Life as an Adventurer"
+- **「我们已孑然一身，与死无异…」** "For Alone, We Are as Good as Dead..."
 - **「五歌仙」之锦绘** "The Five Kasen" Nishiki-e
 - **「五绿洲」的孑遗** Debris of Panjvahe
 - **「舞扇摇赤香」** Scarlet-Scented Fan Dance
 - **「无他，惟手熟尔」** Nothing Special, Just Practice
 - **「污秽逆位神像」** Defiled Statue
+- **「舞袂翩兮扬玉霓」** "Dance Vestments Billow Like Rainbow Jade"
+- **「乌沙博蒂」** "Uthabiti"
 - **《无生忍》** Mushounin
 - **《无生忍》台本** "Mushounin" Script
-- **「无忧节」** Festival Utsava
 - **「暇憩焰火」** "Leisurely Fireworks"
 - **「夏日林中的信使」** "A Messenger in the Summer Woods"
 - **「下次，试试社会派…」** "Maybe Get Yourself a More Social Hobby..."
 - **「弦与翎与箭轨」** "String, Feather, Trajectory"
+- **「纤尘之间」** "The Dust Differential"
 - **「限定款沙漠特别旅行包」** Limited Edition Desert Special Travel Pack
+- **「想学啊？我教你！」** "Wanna Learn? I'll Teach You!"
 - **「香辛果」的种子** Harra Fruit Seed
 - **「闲时豪饮的畅快」** Satisfaction of Sated Thirst
+- **「咸鲜肉香」彩陶盘** "Salty and Meaty" Painted Plate
 - **「小灯草」的种子** Small Lamp Grass Seed
+- **「小玫瑰的红树屋」** "Little Rose's Mangrove House"
 - **「小轻策」** "The Qingce Kid"
+- **「小王子的大哭鱼」** "Prince's Weeping Fish"
+- **「小波」** "Ripple"
+- **「小狗」** Puppy
 - **「小酌两杯的闲适」** A Table for Two
 - **「夏日林中的盛宴」** "Summer Forest Banquet"
 - **「夏日林中的向导」** "A Guide in the Summer Woods"
+- **「夏萨尼翁」** Chassanion
+- **「悉般多摩之旗」** "Spantamad Flag"
 - **「西风呼呼义卖铺」** Favonian Goodies
+- **「西摩格」** Simurgh
+- **「新生活的开始」** "A New Life's Beginning"
+- **「刑部小判」** "Gyoubu Koban"
 - **「行商石门北」** "Traveling Merchant North of the Stone Gate"
+- **「西尼阿斯」** Cineas
+- **「心随芳兮意犹绵」** Thought and Intent, Like Silken Scent
 - **「兄妹们」的花** The Siblings' Flowers
+- **「锈舵」** "The Rusty Rudder"
 - **「朽石荧伞」** Glowstone Parasol
 - **「夕阳的投影」** Sunset Reflection
+- **「汐藻」** "Tidalga"
+- **「选你喜欢的！」** "Pick What You Like!"
+- **「炫彩呆子」** "Dopey Dazzler"
+- **「旋流之瓶景」** "Swirling Scene in a Bottle"
+- **「悬木人」** "Scions of the Canopy"
 - **「雪解甚三红」** Thrice-Dyed Crimson Snowmelt
+- **「学院庆典」大型舞台** Akademiya Extravaganza Large Stage
 - **「学者的倦怠」** "Scholar's Weariness"
 - **「虚空」** Akasha System
 - **「须弥飞行冠军」** Gliding Champion of Sumeru
-- **「须弥风物志」短视频征集活动** "Historia Naturalis Sumeru" Short Video Submission Event
+- **「须弥蔷薇」的种子** Brilliant Chrysanthemum Seed
 - **「须弥蔷薇」的种子** Sumeru Rose Seed
 - **「纁漫雁来中」** The Wandering Bird Within
 - **「寻仙的美食家」** Adepti Seeker's Stove
@@ -512,6 +3523,7 @@
 - **「巡林官的牵记」** Forest Watcher's Considerations
 - **「巡林官的严谨」** Forest Watcher's Fastidiousness
 - **「巡林员的战备」** Forest Ranger's Provisions
+- **「迅旋径迹二重奏」** "Spiraling Duet"
 - **「岩厅之钥」** Key to a Stony Hall
 - **「阳橙般夺目之纹」** Dazzling Golden Tapestry
 - **「烟花筒」** Launch Tube
@@ -519,41 +3531,55 @@
 - **「烟林之真果」** Nature's True Fruit
 - **「延烧的晴蓝」** Flaming Azure
 - **「演武传心」大赛入场券** Warrior's Spirit Swordfighting Arena Ticket
+- **「也铭记黎明终将到来」** "Holding Dawn's Coming as My Votive"
+- **「夜航员的瞭望塔」** "Night Pilot's Watchtower"
 - **「椰褐般深沉之纹」** Musing Tawny Tapestry
+- **「叶莲娜」** "Yelena"
 - **「依常之光」** Perennial Illumination
 - **「易逝于书页翻飞间」** "Lost Between the Pages of a Book"
+- **「一瓣荫凉」** "Petaled Shade"
 - **《异邦人喧哗旅！！》** "Outlander Brigade!"
 - **「一次…的攻击」** Dolorous Stroke
 - **「遗迹重机特异体」** Anomalous Model Ruin Grader
 - **「异界的救世主」** Savior From Another World
 - **「一口吃掉了几十万摩拉！」** Glutton for Goulash
 - **「遗落」的文物** The Lost Relic
+- **「一梦治愈」** Dreams of Healing
 - **「影徙露草自伤悼」** Melancholy, the Dewgrass Shadowing
 - **「萦绊之刻」** Lingering Moment
 - **「鹰猎」** "The Falcon's Hunt"
 - **「隐静的槿紫」** Peaceful Hibiscus Purple
 - **「隐静的枝梢」** Secluded Hibiscus Branches
 - **「饮露伞叶」** Umbrella of Dewdrops
+- **「依奇卡胡伊皮利的庇护」** "Ichcahuipilli's Aegis"
 - **「艺术就是…」** The Art of War
-- **「一心传」名刀** Prized Isshin Blade
+- **「以索忒」** "Yseut"
 - **「意智宝珠」** Wisdom Orb
 - **「意智宝珠」模型** Wisdom Orb Model
 - **「勇敢的冒险者啊…」** Ticked, Tacked, and Towed
 - **「永恒绿洲」** The Orchard of Pairidaeza
 - **「永恒绿洲」的守护者・菲莉吉丝** Ferigees, Guardian of the Eternal Oasis
+- **「勇猛落落莓」** "Intrepid Valberry"
+- **「勇士」** Hero
+- **「游靶气球」** "Floating Target Balloon" Challenge
 - **「悠长的介质」** Prolongation Medium
 - **「幽沉的斑斓」** Gloomy Glamour
 - **「悠眠花火」** "Slumbering Fireworks"
+- **「忧昙花」的花蕊** Udumbara Pistil
 - **「幽香酣睡的枝梢」** The Fragrant Branches Asleep
+- **「悠悠海兽之勺」** "Ladle of the Leisurely Sea-Beast"
 - **「于醇厚的壶浆中」** The Mellow Pot
 - **「于脆爽的酣甜中」** The Crisp Sweetness
 - **「于缭绕的淡霭中」** The Twisting Mist
+- **「于清冽的露酒中」** "In Drink's Clarity"
 - **「于散逸的浮烟中」** Amidst the Fleeing Smoke
 - **「于馨香的清苦中」** Amidst Bitter Aromas
+- **「愿随风兮鸣银鸾」** "Let Us Away on Sylphic Wing, the Silvered Ornaments to Ring"
 - **「原来那个柱子能打啊」** You Have to Hit the Pillars
-- **《原神》Twitch创作者成长营3.0版本「千朵玫瑰带来的黎明」** Genshin Impact Creator Program on Twitch Version 3.0 "The Morn a Thousand Roses Brings"
 - **《原神》线上音乐会2021&mdash;&mdash;&mdash;「无际之旅的旋律」** GENSHIN CONCERT 2021 - Melodies of an Endless Journey
 - **《原神》线上音乐会2022 &mdash; 「无际之旅的旋律」** GENSHIN CONCERT 2022 - Melodies of an Endless Journey
+- **「渊蚀综合征」** Abyssal Corrosion Syndrome
+- **「玉璧玉璧，随我心意…」** "Jade, O Jade, Grant Me My Wish..."
 - **「渔采的边际之墙」** Fisherman's Fence
 - **「渔采的丰获之声」** Fisherman's Catch
 - **「渔采的家常茶饭」** Fisherman's Delicacy
@@ -567,11 +3593,12 @@
 - **「渔采的织造巧计」** Fisherman's Craftsmanship
 - **「月莲杯」竞逐舞台** Nilotpala Cup Tournament Stage
 - **「月莲杯」驯兽师大赛** Nilotpala Cup Beast Tamers Tournament
-- **「渔获」** "The Catch"
+- **「乐章」** "Symphony"
 - **「御建鸣神主尊大御所大人像」购入须知** Buyer's Guide to the Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder
 - **「云游碧水东」** "Clouds East of Bishui"
 - **「云中仙居」的图纸** "Dwelling in the Clouds" Blueprints
 - **「愚人众暗语表」** Fatui Code Sheet
+- **「愚人众」守卫** Fatui Guard
 - **「御神签」** Fortune Slip
 - **「在空中飞行程度的能力」** It's the Same As Having Wings
 - **「造笼师」** The Cage-Maker
@@ -579,18 +3606,31 @@
 - **「瘴晦瘤」** "Miasmic Tumor"
 - **《召唤王》** King of Invokations
 - **《召唤王・下集！是…》** Next Time, On King of Invokations...
+- **《召唤王》** King of Invokations
 - **「这风晶蝶还蛮大的」** "That's one big Crystalfly"
 - **「这就是我的放生路线！」** "That's What They Call a Getaway!"
+- **「这可不是南瓜汤…」** "Hey, This Isn't Pumpkin Soup..."
 - **「真的有区别吗…」** "What Difference Does This Make?"
 - **「振奋的渐变」** Uplifting Growth
-- **「正机之神」** Shouki no Kami, the Prodigal
+- **「证城」** "Shousei"
+- **「蒸汽鸟报」的面试** Steambird Interview
 - **「诤言」的教导** Teachings of Admonition
 - **「诤言」的哲学** Philosophies of Admonition
 - **「诤言」的指引** Guide to Admonition
-- **「正义」** Justice
+- **「正义之廷的繁荣」** Court of Justice's Prosperity
+- **「正义之廷的坚铁」** Court of Justice's Steel
+- **「正义之廷的罗衣」** Court of Justice's Couture
+- **「正义之廷的巧匠」** Court of Justice's Artistry
+- **「正义之廷的闲居」** Court of Justice's Leisure
+- **「正义」的教导** Teachings of Justice
+- **「正义」的哲学** Philosophies of Justice
+- **「正义」的指引** Guide to Justice
 - **《真实探灵笔记》** A Firsthand Guide to Summoning Spirits
-- **「镇物」** Ward
+- **「真视药剂」特化版** Enhanced "Truesight Potion"
+- **「真正的安眠处」** "The Real Annapausis"
 - **「知天命…」** Love Is All Around
+- **「知慧仙灵」** The Wisdom Seelie
+- **「知慧仙灵」留下的画片** Picture Left by the Wisdom Seelie
 - **「智慧之城的焙烧」** Pottery of the City of Wisdom
 - **「智慧之城的差事」** Errands in the City of Wisdom
 - **「智慧之城的泛常」** Building Block of the City of Wisdom
@@ -610,6 +3650,9 @@
 - **「祗力松茶」** Forceful Tea Pine
 - **「芝麻，芝麻，请开门。」** Open Sesame!
 - **「只需一些柴火、一些醋…」** "All We Need Is Some Firewood and Some Vinegar..."
+- **「秩序」的教导** Teachings of Order
+- **「秩序」的哲学** Philosophies of Order
+- **「秩序」的指引** Guide to Order
 - **「只要用心…」** "If you put your heart into it..."
 - **「智圆行方」小锦旗** "Extensive And Meticulous"
 - **「众花园中的一棵核桃树…」** A Walnut Tree Amidst the Gardens
@@ -618,6 +3661,7 @@
 - **「中庭竹水鸣」** The Bamboo's Call
 - **「铸瓷正则」** Cast in Clay
 - **「诸事平安」** "All is Well"
+- **「诸君听我颂，共举爱之杯！」** "Hear Me &mdash; Let Us Raise the Chalice of Love!"
 - **「灼热的诱因」** Flaming Catalyst
 - **「着色与沉淀」** Coloration and Precipitation
 - **「卓识之地的瑰宝」** Treasure from the Land of Wisdom
@@ -628,19 +3672,30 @@
 - **「着意入深薄」** Thoughts Beyond the Pale
 - **「竺生御纳户」** Of Bamboo Teal
 - **「自有方圆」** "My Way"
+- **「自此以后，我们将共飨新生。」** "From This Day On, We Shall Delight in New Life Together."
+- **「自此，行过烛影之帷」** "From This Day, I Pass the Candle's Shadow-Veil"
+- **「自此，直面长夜之危」** "Now, As We Face the Perils of the Long Night"
 - **「自由」的教导** Teachings of Freedom
 - **「自由」的哲学** Philosophies of Freedom
 - **「自由」的指引** Guide to Freedom
 - **「紫苑叹幽弘」** The Aster's Sigh
+- **「总导演」** Director-in-Chief
 - **「总有比火更灼热的火」** "That Was Blooming Hot"
 - **「总务司」的事务** Ministry Missions
+- **「最光辉的精灵，可否为我祷告」** "Can the Most Radiant of Spirits Pray For Me?"
 - **「最好喝的水」** "The Best Water"
-- **「罪人」** "Sinner"
+- **「最健康的精灵，可否疗愈热症」** "Can the Healthiest of Spirits Cure Fevers?"
+- **「最快乐的精灵，可否懂得焦虑」** "Can the Happiest of Spirits Understand Anxiety?"
+- **「最美丽的精灵，可否拒绝衰朽」** "Can the Loveliest of Spirits Keep Decay at Bay?"
+- **「最仁慈的精灵，可否化解仇敌」** "Can the Most Merciful of Spirits Defeat Its Foes?"
+- **「最幸福的精灵，可否消却折磨」** "Can the Most Joyful of Spirits Alleviate Agony?"
 - **「最终指令」** "Final Instructions"
+- **「左世」** "Sayo"
 - **…并非是适格者** ...I'm Sorry, Sir, But You're Ineligible
 - **…必须毁灭两次** Melt You Down Like Ice Cream
 - **…出奇迹？** ...Well, That Was Strange
 - **…都汇进了激流** They Enter the Flow
+- **…攻彼之盾** ...It's Payback Time
 - **…还是新的风暴呢？** ...Or a New Storm?
 - **…你其实听得见吧？** ...You could hear Paimon all along, couldn't you?
 - **…其名为「玛丽・塞勒斯特」** ...And Her Name Is the Mary Celeste
@@ -652,8 +3707,7 @@
 - **…五丘丘怎么了？** Silly-Billy Churlish Ghoul
 - **…与巨像** The Bigger They Are...
 - **…与睡梦同姓** Slumber, the Brother Of...
-- **<!--雷电-->影** <!--Raiden -->Ei
-- **<!--雷电-->真** <!--Raiden -->Makoto
+- **藏宝图碎片** Treasure Map Fragment
 - **<!--奇怪的-->能量提取装置** <!--Strange -->Energy Extraction Device
 ## A
 - **阿笨** Dummy
@@ -667,14 +3721,18 @@
 - **阿嘟** Chubby
 - **阿二** Tac
 - **阿饭** Meshi
+- **阿方** Little Fang
 - **阿飞** Little Fei
+- **阿飞关于船只进出的见闻** A log of ships coming in and out by Little Fei
 - **阿釜** Kama
 - **阿桂** Herbalist Gui
 - **阿桂的药材需求** Herbalist's Forage
 - **阿豪** Gou
 - **阿昊** Hao
+- **阿虎** Bravo
 - **阿晃** Akira
 - **阿吉** Ji
+- **阿金** Jin
 - **阿敬** Takashi
 - **阿敬** Takashi
 - **阿鸠** Jiu
@@ -685,13 +3743,16 @@
 - **阿瑠** Ruu
 - **阿瑠的歌** Ruu's Melody
 - **阿龙、岑大、岑二、小茂** Long, Bold Cen, Brave Cen, Mao
+- **阿绿** Vert Jr.
 - **阿茂** Shigeru
 - **阿内** Nei
 - **阿祇** Tsumi
+- **阿祇的地图** Tsumi's Map
 - **阿强** Qiang the Brave
 - **阿青** Ao
 - **阿仁** Ren
 - **阿三** Toe
+- **阿山婆** Granny Shan
 - **阿升** Sheng
 - **阿守** Mamoru
 - **阿顺** Shun
@@ -705,26 +3766,35 @@
 - **阿旭** Xu
 - **阿阳** Yang
 - **阿义** Little Yi
+- **阿尤** Ayo
 - **阿佑** Little You
 - **阿圆** Tubby
 - **阿直** Bluffy
 - **阿芷** Zhi
 - **阿忠** Zhong
 - **阿佐** Little Zuo
+- **阿尔** Al
+- **阿尔邦** Arbon
+- **阿尔贝** Alberre
 - **阿尔伯** Elber
+- **阿尔妲** Ardra
 - **阿尔弗雷德** Alfred
 - **阿尔弗雷德的花束** Alfred's Bouquet
+- **阿尔卡米** Alkami
+- **阿尔芒** Armand
 - **阿尔明** Armin
+- **阿尔尼姆** Arnim
+- **阿尔帕** Allpa
+- **阿尔图** Artur
 - **阿尔瓦・尼古拉** Alva Nikola
 - **阿尔亚沙** Alyasa
 - **阿桂的药** Herbalist Gui's Medicine
-- **阿祇的地图** Tsumi's Map
 - **阿叶夏混沌勘探器** Ayesha's Chaos Prospector
-- **阿扎莱** Azalai
 - **啊，美好的日子！** Oh, Frabjous Day!
 - **啊，新鲜的肉！** Ah, Fresh Meat!
-- **阿山婆** Granny Shan
 - **阿巴克** Aybak
+- **阿巴奈尔** Abagnale
+- **阿邦迪** Abundi
 - **阿巴尼斯** Abbanes
 - **阿巴斯** Abbas
 - **阿巴图伊** Abattouy
@@ -733,26 +3803,38 @@
 - **阿贝多的营地** Albedo's Campsite
 - **阿倍良久 (阿布拉克)** Aberaku (Abrax)
 - **阿笨做的霄灯** Dummy's Xiao Lantern
+- **阿比德** Aabid
 - **阿部** Abe
 - **阿布丁** Aberdeen
 - **阿布多** Abdo
+- **阿布帕隆** Apoxpalon
+- **阿呆** Dopey
+- **阿黛尔** Adele
+- **阿丹** Adan
 - **阿德菲** Aderfi
 - **阿德勒** Adler
+- **阿德纳** Arderne
+- **阿迪尔** Adel
+- **阿蒂克** Atihk
+- **阿迪勒** Adil
 - **阿多尼斯** Adonis
 - **阿凡** Affan
 - **阿法纳西** Afanasi
 - **阿芬迪** Effendi
 - **阿弗拉图** Afratu
 - **阿弗拉图之惑** Afratu's Dilemma
+- **阿芙颂** Afsoon
 - **阿夫塔** Aftab
 - **阿夫辛** Afshin
+- **阿格莫** Agemo
+- **阿瓜拉** Aguara
 - **啊哈…什么上钩了？** Aha! What's on the Hook?
 - **阿汉格尔** Ahangar
-- **阿赫玛尔** Al-Ahmar
 - **阿赫玛尔的故事** The Lay of Al-Ahmar
 - **阿赫玛尔的秘密** The Secret of Al-Ahmar
 - **阿鸿** Hong
-- **阿虎** Bravo
+- **阿霍布** Ahpub
+- **阿霍伊图** Ahoeitu
 - **皑尘与雪影** Shadows Amidst Snowstorms
 - **爱音乐的兰那罗** Music-Loving Aranara
 - **碍于归途艰险…** The Fraught Return
@@ -760,93 +3842,181 @@
 - **哀致渊永** Tales of Woe
 - **暧暧含光** Hazy Light
 - **埃阿斯的回信** Letter From Ajax
-- **艾登** Ayten
+- **埃尔庇艾** Herbier
+- **埃尔顿海沟** Elton Trench
 - **埃尔凡** Erfan
 - **艾尔菲** Alfry
 - **艾尔海森** Alhaitham
 - **艾尔海森的命星** Alhaitham's Stella Fortuna
 - **艾尔海森的住宅** Alhaitham's Home
+- **埃尔瓦德** Alvard
 - **埃尔欣根** Elchingen
+- **艾尔希娜** Alcina
+- **爱可菲** Escoffier
 - **艾贝** Abhi
+- **爱贝尔** Aeval
 - **爱别离苦** Suffering of Parting
 - **艾伯特** Albert
-- **艾伯特先生，别再冲了&mdash;&mdash;！** Stop Albert, Stop!
+- **艾伯特先生，别再冲了&mdash;&mdash;！** Stop, Albert. Stop!
 - **皑尘与雪影** Shadows Amidst Snowstorms
+- **哀悼命运之疮** Fortune Plango Vulnera
+- **爱德华多・贝克** Eduardo Baker
+- **艾德里安** Adrian
 - **爱德琳** Adelinde
 - **埃德蒙德** Edmund
+- **埃德蒙多** Edmondo
 - **艾德娜** Edna
+- **艾登** Ayten
+- **艾德温・伊斯丁豪斯** Edwin Eastinghouse
+- **埃蒂安** Esteban
+- **艾蒂安** Estienne
 - **艾迪丝博士的货运请求** Dr. Edith's Transport Request
 - **艾迪丝博士** Dr. Edith
-- **艾方索** Alphonso
+- **艾菲** Aeife
+- **爱菲拉** Aphila
+- **埃夫拉** Evra
+- **艾葛** Aige
+- **艾格妮丝** Agnes
+- **艾古伊** Aigouy
+- **艾嘉莉亚** Argalia
+- **爱可** Aclla
 - **艾珂** Echo
+- **埃克朗谢** Eclancher
+- **艾库瓦** Echuah
 - **艾拉・马斯克** Ella Musk
 - **艾拉姆** Elham
+- **埃兰** Elain
 - **爱拉尼** Alrani
 - **爱拉尼给妮露法的便签** A Note Alrani Left for Niloofar
+- **埃勒曼** Ilman
 - **艾莲娜** Ariana
+- **艾列尔** Allier
+- **埃里克** Erick
 - **艾琳** Ellin
 - **艾琳，未来的骑士&mdash;&mdash;** Ellin, the Wannabe Knight
+- **埃莉莎** Elisa
 - **艾莉丝** Alice
 - **艾莉亚** Arya
 - **艾莉亚、桑娜妲与卡侬** Aria, Sonnet and Canon
+- **爱龙人的平凡生活** A Saurian Lover's Ordinary Days
 - **艾伦** Allan
 - **艾伦的困境** Allan's Dilemma
 - **艾伦德林** Arundolyn
+- **艾洛迪** Elodie
+- **埃洛夫** Alof
+- **爱洛芙** Eloffe
 - **埃洛伊** Aloy
 - **埃洛伊的命星** Aloy's Stella Fortuna
 - **埃洛伊探索日记** Aloy's Exploration Journal
+- **爱洛依丝** Eloise
+- **埃卢瓦尔** Heloir
+- **艾玛尔** Aymar
+- **埃马纽艾尔・吉约丹** Emanuel Guillotin
+- **艾玛托** Ematol
+- **艾梅莉埃** Emilie
+- **艾梅莉埃的命星** Emilie's Stella Fortuna
 - **艾米尔** Emira
+- **埃米雷德** Emerald
+- **埃纳夫** Henaff
+- **艾琪诺** Archenoul
+- **埃塞尔雷德** Esildor
+- **埃桑** Esseim
+- **艾瑟娜** Asenath
+- **艾莎** Aisha
+- **艾莎** Aissa
+- **爱丝蒂** Estella
+- **埃斯蒙德** Esmond
+- **埃斯诺尔** Esnoir
+- **埃斯唐普** Estampe
+- **埃斯特** Este
 - **艾斯特尔** Esther
+- **埃松** Essonnes
+- **埃泰** Etta
+- **哀挽的王都** Deplorable Capital
+- **爱维莉** Avilix
 - **艾维娜** Avena
+- **艾文** Avin
+- **埃文苏** Ekwensu
 - **哀息之茧** Chrysalis Suspirii
 - **艾希拉** Asilah
+- **艾辛多弗** Eichendorff
 - **哀叙冰玉** Shivada Jade Gemstone
 - **哀叙冰玉断片** Shivada Jade Fragment
 - **哀叙冰玉块** Shivada Jade Chunk
 - **哀叙冰玉碎屑** Shivada Jade Sliver
+- **爱雅** Acat
 - **哎呀！海盗想长大！** Ahoy! A Pirate's Growth for Ye!
 - **哎呀！海盗！** Pirates! Argh!
 - **艾依曼** Eymen
+- **艾伊丝** Ahes
 - **埃伊亚遗迹冒险** Expansive Eya
+- **艾尤恩** Iaune
 - **哀哉鼓角未曾歇** Another Conflict Incoming
 - **埃泽** Elzer
 - **阿加菲娅** Agafya
 - **阿加什** Akarsh
+- **阿伽娅** Atea
 - **阿金** Akim
+- **阿基约** Akeor
 - **阿卡狄亚的失落秘宝** Lost Treasure of Arcadia
 - **阿卡狄亚遗迹之谜** Mystery of the Arcadian Ruins
+- **阿凯蒂** Ecate
+- **阿卡马** Acama
+- **阿坎蒂** Arcantel
+- **阿卡坦加** Akatanga
+- **阿卡特** Acatl
 - **阿卡西之声** Voice of Akasha
 - **阿克拉姆** Akram
+- **阿科米蒂** Acomitl
+- **阿孔** Ackon
 - **阿拉比** Araby
 - **阿拉夫** Aarav
+- **阿莱** Alae
 - **阿拉米** Aramis
+- **阿兰・吉约丹** Alain Guillotin
 - **阿拉耶什** Arayesh
 - **阿拉耶什的果酱需求** Arayesh's Jam
-- **阿蕾奇诺** Arlecchino
+- **阿蕾妲** Areta
+- **阿蕾梅** Alem
+- **阿蕾奇诺的命星** Arlecchino's Stella Fortuna
 - **阿莲佐** Arezo
+- **阿林** Sergeant Lin
 - **阿里娜** Arina
 - **阿里娜的月莲需求** Arina's Nilotpala Lotuses
 - **阿利娅** Alia
+- **阿隆** Alom
+- **阿鲁埃** Arouet
 - **阿洛瓦** Alois
 - **阿玛尔** Amal
+- **阿麦** Masa
 - **阿麦努** Amainu
 - **阿麦塔机关的碎片・其二** Amiti Device Fragment (II)
 - **阿麦塔机关的碎片・其三** Amiti Device Fragment (III)
 - **阿麦塔机关的碎片・其一** Amiti Device Fragment (I)
 - **阿曼迪普** Amandeep
 - **阿玛兹亚** Amadhiah
+- **阿马佐利** Amazolli
+- **阿梅妲** Amauta
 - **阿蒙苏** Amenzu
 - **阿米** Ami
 - **阿米尔** Amir
 - **阿米尔的兽肉需求** Amir's Raw Meat Commission
+- **阿米娜** Amina
+- **阿莫瑞** Amaury
 - **阿莫斯** Amos
-- **阿莫斯之弓** Amos' Bow
+- **阿木** Amur
+- **安** Ann
 - **岸边的忍犬** Ninken by the Shore
+- **安的故事** Ann's Story
 - **安神秘法** Spirit Soother
 - **暗纹方格天花板** Dark Checkered Ceiling
-- **暗巷的酒与诗** Wine and Song
 - **暗之外海** Dark Sea
+- **安固诸方之述演** Mutual Security Enhancing Simulation
+- **阿纳** Anaa
+- **阿奈** Anais
+- **阿娜卡** Anaka
 - **阿南德** Anand
+- **阿纳托尔** Anatole
 - **阿娜耶** Inayah
 - **安柏** Amber
 - **安柏的命星** Amber's Stella Fortuna
@@ -858,15 +4028,36 @@
 - **黯道** Gloomy Path
 - **安德烈** Andrei
 - **安德斯多特** Andersdotter
+- **安蒂布** Antibes
+- **安蒂拉** Antila
+- **安蒂妮** Andinet
 - **安东** Anthon
+- **安东** Antoine
 - **安东** Anton
 - **安东尼** Anthony
 - **安东尼** Anthony
+- **安杜** Antu
+- **安弗塔斯** Anfortas
+- **安格科克** Angakuk
+- **昂吉安妮** Enghiene
+- **昂利** Enri
+- **岸谷苍苔冷** Shaded Valley's Repose
+- **安魂的协奏曲** Requiem Resonantia
+- **黯火炉心** Darkfire Furnace
+- **阿妮拉** Anela
 - **阿妮萨** Anisa
 - **阿尼斯** Anis
 - **安迦** Anqa
+- **暗结的明花** Dark Fruit of Bright Flowers
+- **安洁莉可** Angelique
 - **安可** Encore
+- **安乐秘汤疗法** Anraku Secret Spring Therapy
+- **安里** Heinry
+- **暗昧遮目的障法** Obscuring Ambiguity
+- **安眠的曲调** Floating Lullaby
 - **安眠奢想** Extravagant Slumber
+- **安眠处** Annapausis
+- **安眠于追忆之地** Ann's Anapausis
 - **安娜** Anna
 - **安娜冒险记** Anna's Adventures
 - **安娜斯塔西娅** Anastasia
@@ -874,22 +4065,29 @@
 - **安内特** Annette
 - **安宁的天光** A Harmonious Rest
 - **安妮塞** Anisah
+- **安帕奥** Anpao
 - **安普叔** Uncle Anpu
+- **安切塔** Anchieta
 - **安全运输法则** Rules of Safe Transportation
 - **安全运输法则** Safe Conduct
 - **黯然的城塞** Silent Ruins
+- **安饶之野** Atocpan
 - **黯色空壳** Shadowy Husk
+- **黯声回响** Dark Voices Echo
+- **安睡之所** Where She Will Return
 - **安顺** Anshun
+- **安特曼** Hinterman
 - **安藤** Andou
 - **安田** Yasuda
-- **暗铁剑** Dark Iron Sword
 - **安提戈努斯** Antigonus
+- **安提库旧港** Portus Anticus
+- **安托万** Etienne
+- **安托万的兽肉需求** Etienne's Raw Meat Request
 - **阿诺德** Arnold
 - **暗文隐语谜题册** Esoteric Puzzle Book
 - **安武** Yasutake
 - **安西** Anzai
-- **暗巷猎手** Alley Hunter
-- **暗巷闪光** The Alley Flash
+- **安息之殿** Sacellum Requietis
 - **安心之所** Heart's Repose
 - **安彦太郎** Yasuhiko Tarou
 - **暗夜呢喃** The Whisperer in Darkness
@@ -904,26 +4102,59 @@
 - **暗中支援的黯色** Shadow Samaritan
 - **奥诡孤谲之境** Utmost Deception
 - **奥尔罕** Orhan
+- **奥尔科** Orqo
 - **奥尔玛兹** Ormazd
+- **奥尔内** Horrer
 - **奥贝德** Ebeid
+- **奥比奇** Albizzi
+- **奥伯龙** Oberon
 - **奥藏山** Mt. Aocang
+- **奥德丽** Audree
+- **奥迪伦** Odilon
+- **奥蒂涅** Ottnit
+- **奥杜力** Ohtli
+- **奥菲利亚** Ophelia
+- **奥格劳** Augereau
+- **奥贡** Ogun
+- **奥古斯都・洛夫莱斯** Augustus Lovelace
+- **奥坎比** Okanbi
+- **奥科兰** Ocotlan
 - **奥拉夫** Olaf
+- **奥雷勒** Aurele
+- **奥蕾丽** Aurelie
+- **奥雷卢** Horellou
+- **奥蕾帕** Olapa
 - **奥雷乌斯** Aurelius
 - **奥列格** Oleg
 - **奥列斯特** Orest
+- **奥利弗** Olivier
+- **奥里略斯** Aurelius
+- **奥利维亚** Olivia
+- **奥利亚克** Aurillac
 - **奥罗巴洛斯之心** The Heart of Ouroboros
+- **奥罗卢柯** Oroluk
 - **傲慢偏见** Pride and Prejudice
+- **奥秘传唱** Songs of Profound Mystery
+- **奥妙烹黍珠** Mystery Millet Gourmet
 - **奥米德** Omid
 - **奥摩斯港** Port Ormos
 - **奥摩斯港公告板** Port Ormos Bulletin Board
-- **奥摩斯港三型通用起重机** Port Ormos GP Crane III
+- **奥摩斯港三型通用起重机** Port Ormos GP Crane&nbsp;III
+- **奥妮** Onnea
+- **奥诺雷** Honore
+- **奥奇卡纳塔** Ochkanatlan
 - **奥赛尔** Osial
+- **奥瑟莱** Aucelet
 - **奥泰巴** Utayba
 - **奥特** Otto
 - **奥乌兹** Oguz
+- **奥西** Ossie
+- **奥希娜** Awhina
+- **奥娅** Oia
 - **奥兹** Oz
 - **阿佩普** Apep
 - **阿佩普的行宫花园** Apep's Resort
+- **阿奇亚库** Achiyaku
 - **阿如拌饭** Aaru Mixed Rice
 - **阿如的倒影** Aaru's Shut
 - **阿如的倒影的记录** Record of Aaru's Shut
@@ -938,19 +4169,37 @@
 - **阿什莎布** Ashshab
 - **阿什亚** Arshia
 - **阿斯法德** Asfand
+- **阿斯基娅** Askia
+- **阿斯麦隆** Asmerom
 - **阿塔** Ata
+- **阿塔** Ata
+- **阿泰菲** Atefeh
+- **阿塔瓦尔帕** Atawallpa
 - **阿特拉** Atra
+- **阿特琪** Atzi
 - **阿提亚** Atiyah
+- **阿图科** Atoco
 - **阿托** Athos
 - **阿陀河谷** Ardravi Valley
+- **阿托力** Atolli
+- **阿托莎** Atossa
+- **阿托斯** Athos
 - **阿万** Awan
 - **阿伟** Wei
+- **阿维丝** Avice
+- **阿乌伊娅** Avuia
+- **阿希莉** Asiri
 - **阿亚德瓦** Aryadeva
 - **阿叶夏** Ayesha
 - **阿伊・哈努姆** Ay-Khanoum
+- **阿依瓦丁** Aywastin
+- **阿伊祖** Ayizu
 - **阿尤布** Ayyoub
+- **阿雩** Ayu
 - **阿扎尔** Azar
+- **阿扎莱** Azalai
 - **阿扎莱的货款** Azalai's Payment
+- **阿扎木** Azzam
 - **阿折罗造像** Acara Crafts
 - **阿兹拉** Azra
 - **阿兹鲁尔** Azrul
@@ -958,34 +4207,45 @@
 ## B
 - **把自己烧着了吧？** Burned Yourself, Did You?
 - **巴尔马克** Barmak
+- **巴尔塔萨** Baltasar
 - **芭尔瓦涅** Parvaneh
+- **霸哥** Ba
+- **霸爷** Giant Ba
 - **巴巴** Bhabha
 - **巴巴尔** Berbere
 - **巴巴克** Babak
 - **芭芭拉** Barbara
 - **芭芭拉的命星** Barbara's Stella Fortuna
-- **八宝** Hachihou
+- **八宝福禄鸭** Eight-Treasure Duck
 - **巴巴托斯** Barbatos
 - **芭别尔** Babel
-- **芭比洛斯** Barbeloth
+- **巴比斯** Babisse
 - **跋掣** Beisht
 - **八重神子** Yae Miko
 - **八重神子的命星** Yae Miko's Stella Fortuna
 - **八重堂** Yae Publishing House
+- **巴茨** Batz
 - **巴达那** Badanah
+- **巴达维** Badawi
 - **巴迪斯** Badis
+- **巴蒂斯特** Baptiste
+- **巴杜卢** Badru
 - **巴顿** Patton
 - **八方之岩** Will of the Rock
 - **八观盛明** Prosperous Partnerships
+- **巴哈尔** Bahar
+- **巴哈蒂** Bahati
+- **巴哈多** Bahador
 - **巴哈拉克** Baharak
 - **巴哈利** Bahari
+- **白船** The White Ship
 - **百川集海** All Streams Flow to the Sea
 - **百炼千锤** Re-Armed, Re-Forged
 - **白练鹰** Silkwhite Falcon
 - **百人一揆** Hyakunin Ikki
+- **白沙皇** Belyi Tsar
 - **百无禁忌箓** Sigil of Permission
 - **百亿昼夜的百亿青春** Eternal Youth
-- **白影剑** Whiteblind
 - **白玉莲盏** White Jade Lotus
 - **白之公主与六侏儒** The Pale Princess and the Six Pygmies
 - **白之幻影** White's Illusion
@@ -993,83 +4253,117 @@
 - **白案功夫** Dough-Fu
 - **白垩色的威压** Calcite Might
 - **白垩与黑龙** The Chalk Prince and the Dragon
-- **白垩与黑龙** The Chalk Prince and the Dragon
 - **白垩之术** Calx's Arts
 - **白垩之章** Princeps Cretaceus Chapter
 - **白垩之子** Kreideprinz
 - **白垩之子座** Princeps Cretaceus
+- **白浜** Shirahama
 - **百步穿杨** Master Sniper
 - **白草净华** Physic of Purity
+- **百草入药** Herbal Remedies
+- **白梣木** Ash Wood
 - **白辰{{Sino|zh|ja}}** Hakushin
 - **白辰一族** Hakushin Clan
-- **白辰之环** Hakushin Ring
 - **百川奔流** Streaming Surge
-- **百代** Momoyo
+- **拜达港** Bayda Harbor
 - **拜德尔** Badr
 - **摆渡人** Ferrylady
-- **百发百中！** Every Arrow Finds Its Target
 - **百发百中** Bullseye Balloons
+- **百发百中！** Every Arrow Finds Its Target
 - **100%侦察骑士** 100% Outrider
 - **白鸽** White Pigeon
 - **百鬼戏话** Tales of the Youkai
 - **百鬼夜行** Hyakkiyakou
+- **白果** Ginkgo
 - **白鹤之飞** Freedom of Crane
 - **百合华** Yurika
 - **白鹄骑士** Schwanenritter
 - **白狐之野** Byakko Plain
 - **百华** Momoka
 - **百货奇货** Marvelous Merchandise
+- **白芨** Baiji
 - **白井** Shirai
 - **白驹客栈** Baiju Guesthouse
 - **百雷遮罗** Blitzara
 - **百里琳琅街** Glittering Street
+- **百灵归巢** Homeward-Bound Spirits
+- **白露澈明之泉** Fountain of Belleau
+- **白露的往迹** Vestige of Belleau
 - **白鹭风仪** Shirasagi's Demeanor
 - **白鹭流光之簪** White Heron Hairpin
 - **白鹭舒翼** Pathos of Shirasagi
 - **白鹭霜华** Frostflake Heron
+- **白露与黑潮的序诗** Prelude of Blancheur and Noirceur
 - **白鹭之庭** The Heron's Court
 - **白鹭之约** The Heron's Invitation
+- **白露区** Belleau Region
 - **白萝卜** Radish
 - **白木的追忆** Whitewood Memorabilia
 - **百年一梦** A Centuries-Long Dream
 - **百巧千奇** Wonders Never Cease
-- **白刃流转** Honed Flow
+- **百日白白音** Hyakujitsuhaku Shion
 - **白日梦的涟漪** Ripples of Daydream
 - **白色的季节** Season's Greetings
 - **百识** Baishi
 - **白石「鸣驻」立灯** Whitestone "Meichuu" Standing Lamp
+- **百兽俱驯** To Tame All Beasts
 - **百狩之义铠** Panoply of a Hundred Hunts
-- **白铁大剑** White Iron Greatsword
+- **百疏** Baishu
+- **白淞隧道** Poisson Tunnel
+- **白淞鲜汤** Poisson Seafood Soup
+- **白淞镇** Poisson
+- **白燧蝶的星衣** Itzpapalotl's Star Garments
 - **白铁块** White Iron Chunk
 - **拜托了我的狐仙宫司** Pretty Please, Kitsune Guuji?
+- **百味一缕** Consommé
+- **白尾猫座** Felis Alba
 - **百闻** Baiwen
 - **百晓** Baixiao
+- **白晓的轻雾** Les fumees blanches
+- **拜希麦** Basima
+- **拜希麦・五世** Basima the Fifth
+- **白星黑曜** Obsidian Opalstar
 - **白夜的子民** Tearless Souls of Byakuya
-- **白夜皓月** Byakuya Kougetsu
 - **败叶珍枝树** Withered Pearlroot Tree
 - **白夜国地理水文考** Hydrological Studies in Byakuyakoku
 - **白夜国馆藏** The Byakuyakoku Collection
 - **白夜国晨昏记** From Dusk to Dawn in Byakuyakoku
 - **拜伊** Bhai
-- **白缨枪** White Tassel
-- **白月枝芒** Whitemoon Bristle
 - **白汁时蔬烩肉** Cream Stew
 - **白昼之光** The Light of Day
 - **白术** Baizhu
+- **百柱的酣宴** Feast of {{w|Apadana}}
+- **白术的命星** Baizhu's Stella Fortuna
+- **八尖裹术** Perfectly Packaged
+- **巴加约** Bagayogo
+- **巴克** Baak
 - **巴克・劳伦斯** Barca Lawrence
+- **巴克尔** Bakr
 - **巴兰** Bahram
+- **巴朗** Balent
+- **巴拉诺夫** Baranov
+- **巴里亚** Barea
 - **八门** Eight Trades
+- **八门七门大阵** Seven-and-Eight-Gates Method
 - **八木** Yagi
+- **巴穆恩** Bamoun
 - **伴君眠花房** Garden of Eternal Rest
+- **半入江风半入云** Through Clouds and Rivers
+- **伴爪同行** Claw Convoy
 - **半素食主义** I'm a Flexitarian
 - **半永恒统辖矩阵** Algorithm of Semi-Intransient Matrix of Overseer Network
 - **巴纳巴斯** Barnabas
 - **坂本** Sakamoto
+- **班达克** Bandak
 - **般底** Bandi
+- **邦妮** Bonnie
 - **帮派的日常事务** The Gang's Daily Deeds
+- **帮手** The Helper
 - **榜样冒险家！** Exemplary Adventurer!
+- **邦摇纪行** The Realms Rocked
 - **半旧的单手剑** Well-Worn Sword
 - **班卡** Banka
+- **板栗** Chestnut
 - **斑目百兵卫** Madarame Hyakubei
 - **班尼冒险团** Benny's Adventure Team
 - **班尼特** Bennett
@@ -1079,6 +4373,8 @@
 - **半途的探索…** Exploration Underway
 - **芭努** Banu
 - **芭努的智慧** Banu's Wisdom
+- **伴行的旅路** Companion's Ingress
+- **半枕灵兰落玉机** When the Herb Fades
 - **爆弹丘丘人** Hilichurl Grenadier
 - **孢囊晶尘** Crystalline Cyst Dust
 - **爆炎树** Pyro Regisvine
@@ -1091,48 +4387,71 @@
 - **爆爆瓜** Boom Blossom
 - **宝贝计划** Project Baby
 - **保本** Yasumoto
+- **饱餐之后** One Hearty Meal Later
 - **爆炒肉片** Stir-Fried Filet
 - **报答神明的方式** Grateful to the Gods
 - **爆弹玩偶** Explosive Puppet
 - **暴风般狂啸之龙** Storming Terror
+- **暴风轰击** Tempestuous Barrage
 - **暴风之眼** Stormeye
 - **饱腹感凝胶** Satiety Gel
 - **饱含「愿望」的水** Water Welling With "Wishes"
+- **饱和深潜** Saturation Deep Dive
 - **暴击伤害** {{tt|CRIT DMG|Critical Damage}}
 - **暴击率** {{tt|CRIT|Critical}} Rate
 - **饱经风雨的竹制围篱** Weathered Bamboo Fence
+- **宝玦口** Jademouth
+- **宝拉** Paula
 - **鲍连卡** Borenka
+- **豹烈律动！** Ocelotlicue Point!
 - **保琳** Pauline
 - **鲍里斯** Boris
+- **豹猫座** Panthera Ocelota
 - **薄墨淡朱新绘** A New Painting in Pale Scarlet
+- **爆破冲锋** Charging Blast
 - **爆破俯冲** Divebomb
+- **爆瀑飞弹** Boomsharka-laka
 - **宝钱大亨** If I Were a Rich Man
 - **宝商街** Treasures Street
+- **宝石闪闪** Glittering Gemstones
+- **宝泰** Baotai
 - **薄香逸放** Champagne Bloom
+- **饱饮之陵** Tomb of Carouses
 - **饱饮之陵的记录** Record of the Tomb of Carouses
 - **饱饮之丘** The Dune of Carouses
 - **宝藏的线索(二)** Treasure Clue (II)
 - **宝藏的线索(一)** Treasure Clue (I)
 - **宝藏归离** Treasure Lost, Treasure Found
 - **宝藏归离** Treasure Lost, Treasure Found
+- **爆炸桶** Explosive Barrel
+- **爆震沸腾！** Boiling Over!
+- **爆竹** Firecracker
 - **包装好的「酱菜煎肉」** Well-Packaged Gebratenes Fleisch mit Sauerkraut
+- **包装精美的礼盒** Beautifully-Wrapped Gift Box
 - **孢子增殖** Proliferating Spores
 - **孢子弹** Spore Bullet
+- **八奇炼桃都** The Sanctification of Tao Dou
 - **八衢姬之地** Yachimatahime's Locus
 - **八衢姬之试炼** Yachimatahime's Trial
 - **八衢彦之地** Yachimatahiko's Locus
 - **八衢彦之试炼** Yachimatahiko's Trial
 - **巴沙尔** Bashar
 - **巴丝玛** Basimah
+- **跋松顶** Hills of Barsom
+- **巴塔索** Batasso
+- **巴特洛** Batlo
+- **八位艺术** Eight-Bit Artistry
 - **把握每日** Seize the Day
+- **靶向治疗** Targeted Treatment
+- **巴亚吉达** Bayajidda
 - **八酝之民** Ones Who Strive to Live
 - **八酝岛** Yashiori Island
+- **八正定气** All Aspects Stabilized
 - **巴子** Klutzy Bazi
 - **被藏匿的账本** Hidden Ledger
 - **被草史莱姆吞下去过的树莓** Dendro-Processed Berry
 - **被错置的海螺** A Misplaced Conch
 - **被打碎的水中月亮** Yon Mirror'd Moon, Broken
-- **北地烟熏鸡** Northern Smoked Chicken
 - **北地石制壁炉** Northern Stone Hearth
 - **被丢失的合照** The Misplaced Photo
 - **被夺之泪** Stolen Tears
@@ -1150,34 +4469,42 @@
 - **被水泡过的盒子** Water-Logged Box
 - **被撕下来的书页** A Torn Out Page
 - **被嫌弃的木刻** The Unappreciated Carving
+- **被遗忘的怪盗** The Forgotten Thief
 - **被占领的旧地** Occupied Hold
 - **杯中明月** Moon in One's Cup
 - **被煮熟的肉** Cooked Meat
 - **贝儿** Bei'er
 - **贝尔福** Balfour
 - **贝尔卡塞姆** Belkacem
+- **贝尔特朗** Bertram
+- **贝翠莎** Betresa
 - **北村** Kitamura
 - **被盗的文物** Stolen Relic
 - **北地猫** Northland Cat
 - **北地苹果焖肉** Northern Apple Stew
 - **北地犬** Northland Hound
+- **北地烟熏鸡** Northern Smoked Chicken
 - **北斗** Beidou
 - **北斗的命星** Beidou's Stella Fortuna
 - **北斗祓幽孽** Bane of Evil
 - **北风的魂匣** Spirit Locket of Boreas
-- **北风的王狼，奔狼的领主** Lupus Boreas, Dominator of Wolves
 - **北风之环** Ring of Boreas
 - **北风之狼的庙宇** Temple of the Wolf
 - **北风之尾** Tail of Boreas
-- **北风狼挑战** Wolf of the North Challenge
+- **贝格艾蒂** Baguette
 - **北国的宝库** Treasury From the Northland
 - **北国银行** Northland Bank
 - **北国银行钱票** Northland Bank Check
 - **贝海姆** Behaim
 - **贝哈姆** Behnam
 - **背后的非议** Behind His Back
+- **北境秘史** Anecdota Septentrionalis
+- **悲剧的复写** Tragedy Repeats Itself
+- **贝坎** Becan
 - **贝壳灯罩硬质台灯** Seashell Table Lamp
 - **贝拉特** Berat
+- **贝雷哈努** Berehanu
+- **悖理** Paralogism
 - **贝莲** Belén
 - **贝琳达** Belinda
 - **北陆长柄武器原胚** Northlander Polearm Billet
@@ -1187,10 +4514,17 @@
 - **北陆双手剑原胚** Northlander Claymore Billet
 - **北陆原胚之匣** Northlander Billet Trove
 - **贝鲁兹** Behrouz
+- **悲悯的冠冕** Crown of Commiseration
 - **碑铭** Engraved
-- **贝诺尼** Beynuni
+- **碑铭的研究** Monumental Study
+- **贝妮蒂** Bernette
+- **贝努瓦** Bernard
 - **悲切的低语** Mournful Whisperings
+- **贝瑟・埃尔顿** Basil Elton
+- **背水的逆转诗** Die, or Go Parry II
 - **背水一战** No Turning Back
+- **贝苏琪** Besuci
+- **贝西** Bahir
 - **贝雅特丽奇** Beatrice
 - **备战的兵器工坊** Arms Factory
 - **杯中遥吟之歌** Of Ballads and Brews
@@ -1206,47 +4540,58 @@
 - **蹦蹦史莱姆** Bouncing Blobby Slimes
 - **蹦蹦炸弹** Jumpy Dumpty
 - **迸发的炽焰** Rockin' With Fire
+- **迸落星雨** Starfall Shower
 - **奔狼的领土** Wolves' Territory
 - **奔狼领** Wolvendom
 - **奔雷手秦师傅** Master Qin "Thunder Hand"
-- **奔袭战术** Guerilla Tactics
+- **奔流不息的记忆** Memory of Running Stream
 - **本相元件** Verity Cell
 - **奔行世间** Wanderlust Invocation
 - **彼竭我盈故克之** I Can't Take It Anymore!
 - **碧团雀** Emerald Finch
+- **避影匿光** Beneath Light and Shadow
 - **遍览深林** Roaming the Jungle
 - **变动** Surprise Finding
 - **变化神通** As Miko Pleases
-- **变化万端** Ever-Changing
 - **编辑部的一己之见** Editorial Opinion
 - **遍结寒霜的傲骨** Frost-Weaved Dignity
 - **变乱似流，磐石不转** Amidst Chaos, the Rock Is Unmoved
 - **边跑边打** Hit and Run
 - **边沙聚垒障** In Yonder Ribat
 - **弁武朝风** Spirited Valor
+- **便携铠装护层** Portable Armored Sheath
 - **便携炉灶** Portable Stove
 - **便携营养袋** NRE
+- **便携式空气动力胶质泡生发器** Portable Aerodynamic Gelatinous Bubble Generator
 - **变异雷史莱姆** Mutant Electro Slime
 - **遍宇灵光** Retribution
 - **辩章** Debate
 - **熛烬的悼咏** Elogia Cinerosa
+- **表情低落的犯人** Downcast Convict
+- **表情狰狞的犯人** Grumpy Convict
+- **表演诀窍** Thespian Trick
 - **标准图样** Precision Modeling
 - **碧波** Bibo
 - **碧草柔风** As the Soft Wind Blows
 - **彼得** Pyotr
 - **必读经典** Essential Classic
-- **别离的思念之歌** The Parting Refrain
 - **壁挂式记录板** Mounted Record Board
 - **笔迹已经模糊的笔记** Illegible Notes
+- **庇兰** Biram
+- **比勒** Buies
 - **比勒琪丝的哀歌** The Dirge of Bilqis
 - **比量现行之茎** The Stem of Manifest Inference
 - **壁炉之家** House of the Hearth
+- **比罗** Buraud
+- **毕洛** Pyrrho
 - **比螺梦门** Piramumon
+- **缤纷马卡龙** Rainbow Macarons
 - **缤纷球** Bouquet Balloon
 - **冰** Cryo
 - **冰潮的涡旋** Icetide Vortex
 - **冰尘雪野** Frozen Wilds
 - **冰弹丘丘人** Cryo Hilichurl Grenadier
+- **冰的肌肤** Icy Skin
 - **冰盾丘丘暴徒** Ice Shieldwall Mitachurl
 - **冰盾丘丘人** Ice Shield Hilichurl Guard
 - **冰风迷途的勇士** Blizzard Strayer
@@ -1263,6 +4608,7 @@
 - **兵阵石** Formation Rock
 - **冰之女皇** Tsaritsa
 - **冰元素护罩** Cryo Shield
+- **冰爆菇** Gusto-Frosto
 - **冰刺** Cryo Thorns
 - **冰风的独舞** Spin of Ice Crystals
 - **冰封的徽记** The Frozen Emblem
@@ -1275,22 +4621,38 @@
 - **冰棍的妙用** Popsicles and Their Curious Uses
 - **冰寒蚀骨** Frozen to the Bone
 - **冰箭** Ice Arrow
+- **冰晶核心** Cryo Crystal Core
 - **兵库** Arsenal
 - **冰冷的钢铁** Glacial Steel
 - **冰冷的收获** Icy Harvest
+- **冰棱轰坠** Plunging Ice Shards
 - **冰凉凉的大团危机！** Big Ice-Cold Crisis!
+- **并流式冷凝机关** Parallel Condensers
 - **冰炉节** Krsnik Noc
 - **兵刃锻造站** Weapon Forging Station
 - **冰上飞羽** Icy Featherflight
 - **冰霜骗骗花** Cryo Whopperflower
+- **冰雾喷射** Frigid Spray
 - **冰雾花花朵** Mist Flower Corolla
 - **冰下的碎梦** Glistening Shards
 - **冰雪故园的终期** Frozen Homeland's Demise
 - **冰雪往事** The Snowy Past
+- **冰牙突驰** Icefang Rush
 - **冰萤** Cryo Cicin
+- **冰萤** Cryo Cicins
+- **冰萤寒光** Cicin's Cold Glare
+- **冰萤棱锥** Cicin Icicle
 - **冰渊之心** Glacial Heart
+- **冰枝白花** Blizzard, Branch, Blossom
+- **病重的老太太** Sick Old Lady
+- **秉烛狝影** Candlebearer, Shadowhunter
+- **冰锥迸射** Icespike Shot
 - **镔铁沙丘** Dunes of Steel
+- **宾至如归** Right at Home
+- **比奇津** Bitsin
 - **避让之丘** The Dune of Elusion
+- **毕塞尔特** Bizerte
+- **彼时漫天异彩** The Splendorous Sky That Day
 - **碧水河** Bishui River
 - **碧水原** Bishui Plain
 - **闭锁之港** The Sealed Harbor
@@ -1301,147 +4663,240 @@
 - **庇佑之冠** Helm of Warding
 - **笔友、小说鉴赏会与超幸运的大将** Pen Pals, Book Reviews, and the Super Lucky General
 - **笔直航道** The Straight Path
+- **Blazing Heart (日文版)** Blazing Heart - Japanese Version
 - **薄红蟹** Pale Red Crab
 - **波起云海** The Clouds Like Waves Rippling
 - **波倾浪覆** Capsizing Waves
 - **薄缘的道与光与胤** The Ill-Starred Legacy of Iwakura
+- **波爱修斯** Boethius
 - **伯恩哈德** Bernhard
+- **博尔哈家族** Borja Family
 - **波尔托** Porthos
+- **波波拉诺** Boborano
+- **伯德里科** Baderico
+- **波蒂埃** Potier
+- **波蒂莉** Pochtli
+- **波蒂薇** Botwe
+- **博格诺** Bognor
 - **薄荷** Mint
 - **薄荷** Mint
+- **薄荷大福** Mint Daifuku
 - **薄荷豆汤** Minty Bean Soup
 - **薄荷果冻** Mint Jelly
 - **薄荷精油** Mint Essential Oil
 - **薄荷曼果茶** Minty Fruit Tea
+- **薄荷酱烤鱼** Grilled Fish in Mint Sauce
+- **狛荷屋** Komaniya Express
 - **伯桓子** Mr. Bohuan
+- **波吉吉** Poggi
+- **波卡** Poca
 - **博来** Bolai
 - **卜劳恩** Plauen
 - **波林** Pawlin
-- **波乱月白经津** Haran Geppaku Futsu
+- **波洛** Pauleau
+- **博蒙特工坊** Beaumont Workshop
 - **薄暮的欢叹** Many-Colored Smiles and Tears
+- **玻娜** Bona
+- **博纳** Bruno
 - **博尼法兹** Bonifaz
+- **波尼尼** Ponini
+- **博诺** Bonnot
+- **伯努瓦・勒鲁瓦** Benoit Leroy
+- **波奇奇** Pocchi
 - **钵参花** Barsam Flower
 - **剥蚀潦潮石** Crumbling Mossed Stone
+- **泊溯** Bosu
+- **波涛顶底** Crests and Troughs
 - **伯特兰** Bertrand
+- **薄田** Susukida
 - **博闻强记** Encyclopedic Expertise
+- **薄晓的重光** By the Dawn's First Radiance
 - **博行** Hiroyuki
+- **博絮埃** Bossuet
+- **博言** Boyan
 - **博彦** Hirohiko
 - **伯阳** Boyang
 - **博易** Boyi
 - **薄樱初绽时** When the Sakura Bloom
+- **不存在的小孩** The Child Who Doesn't Exist
 - **捕盗** Thief-Catcher
 - **不冻的激浪** All-Conquering Tide
 - **不动玄石之相** Mask of Solitude Basalt
 - **不复回的传说** Legends Swept Away
 - **不荣誉的试炼** Dishonorable Trial
+- **埠上风光** What a Delightful Scenery
 - **不畏风雨** Heedless of the Wind and Weather
 - **不稳的预感** Frail Peace
 - **不稳定孢子云** Volatile Spore Cloud
-- **不稳定发现** Astable Invention
 - **布武雷国** Illustrious in Inazuma
 - **不再变老** They Shall Not Grow Old
 - **不再年轻的村庄 (轻策夜间)** The Fading Stories (Qingce Night)
 - **不止是个小板凳** Not Just a Small Bench
+- **布尔米耶** Boulmier
+- **布尔莎** Boulsa
+- **不败阳焰座** Sol Invictus
 - **不卜庐** Bubu Pharmacy
 - **不凋的绢华** Unfading Silky Grace
 - **布丁岛** Pudding Isle
 - **不动晶石的记忆** Memory of Immovable Crystals
 - **不动鸣神，恒常乐土** The Immovable God and the Eternal Euthymia
-- **不动鸣神，泡影断灭** The Immovable God and the Eternal Euthymia
+- **不动鸣神，泡影断灭** Version/2.0
 - **不动流格斗术** Fudou Style Martial Arts
 - **不动心** Immovable Will
-- **捕风的异乡人** The Wind Catcher from a Foreign Land<br />The Outlander Who Caught the Wind
+- **布法蒂公馆** Hotel Bouffes d'ete
+- **捕风的异乡人** The Outlander Who Caught the Wind
 - **捕风的异乡人** The Outlander Who Caught the Wind
 - **捕风纪行** Catch the Wind
 - **捕风瓶** Wind Catcher
+- **不过是块石头而已…** A Mere Rock...
 - **布哈努** Bouhanu
 - **不坏之金刚** Death Proof
+- **捕获我的光影与线条** Capturing Light and Shadow
+- **布基纳** Burkina
 - **不惧潮湿的蒙德公寓** Warm and Dry Mondstadt Apartment
 - **不可辜负的期待** Expectations Not to Be Betrayed
+- **不可思议之国的安** Ann in Wonderland
+- **布拉德特** Brandt
+- **布莱卡利** Bracari
+- **布兰** Bran
+- **布朗什** Blanc
 - **布兰琪** Blanche
+- **布兰琪** Blanche
+- **布兰奇的信** Blanche's Letter
+- **布拉维的锻压工坊** Bravais' Press Works
+- **布勒** Bleu
+- **布勒凡** Bleufond
+- **布雷克** Brek
+- **布蕾莘** Blathine
+- **布勒施** Bleucher
 - **布列达** Bleda
+- **布列松的特别「留影机」** Bresson's Special Kamera
+- **布列松・卡蒂** Bresson Cartier
+- **布里科勒** Bricole
 - **不吝佑助** Unstinting Succor
+- **布鲁** Purum
 - **布伦** Brunn
+- **布吕诺** Bruneau
 - **布洛克** Brook
+- **布罗意** Broglie
 - **布鲁斯** Bruce
-- **不灭月华** Everlasting Moonglow
+- **不灭的薪火** The Fire Inextinguishable
+- **不明流通渠道** Undisclosed Distribution Channels
+- **布纳马** Bounama
+- **布纳马杂货** Bounama's Grocery
+- **不能少了…冲天转转** Never Leave Home Without... Turbo Twirly
 - **布匹** Fabric
+- **不破础石** Rocksteady
 - **不期而遇** Unexpected Encounter
-- **不屈** Unbending
 - **步入「边界」** Enter the "border"
+- **步入阳光之下** Into the Sunlight
 - **不散的魂灵** Wayward Souls
+- **不是普通的虹色巡回** This Ain't Your Daddy's Iridescence Tour...
+- **不蚀日** Undying Sun
 - **不速之客** Uninvited Guests
 - **不速之客** Uninvited Guests
+- **步踏梅花** Plum Blossoms Underfoot
 - **布特罗斯** Butrus
 - **布特罗斯的收货单** Butrus' Receipt
+- **布托尔** Butor
+- **布瓦列特** Poiret
+- **布瓦洛** Boileau
 - **不稳的熔岩** Rockcore Meltdown
+- **不稳定发现** Astable Invention
+- **不熄炽心** Everburning Heart
 - **不祥的面具** Ominous Mask
+- **布希柯** Boucicaut
+- **不幸的总集** Compendium of Misery
 - **不休的风航** Perpetual Motion of Wind
 - **不休的天象** Restless Revolution
+- **不休独舞** Endless Solo of Solitude
 - **不厌细流** Endless Flow
 - **不移的恭默** Unyielding Witness
 - **布衣石** Sartorial Stone
+- **不应存在的记忆** Memories That Should Not Exist
 - **步云** Bu'yun
 - **不再苍翠的苗圃** A Once-Emerald Nursery
+- **不知何人的记录** Records of Unknown Attribution
 - **不知来历的纸条** Note of Unknown Origin
-- **不至之风** The Wind Unattained
+- **部族纪闻** Tribal Chronicles
 - **布祖里格** Buzuleac
 ## C
 - **蔡乐** Cai Le
 - **采珊** Caishan
 - **蔡寻** Cai Xun
+- **财宝与本心** Treasure and True Interest
 - **才不是普通的布偶** It's Not Just Any Doll...
 - **猜猜我是谁？** Guess Who?
 - **菜菜子** Nanako
 - **裁断的翎羽** Feather of Judgment
+- **采访** The Interview
 - **采歌者的花** The Song Gatherers' Flowers
 - **采购物资** Purchased Goods
 - **采集时间到！** Stop! Gather Time.
 - **裁决已定…？** Shogun's Abdication
 - **采矿之道** Mine Craft
 - **材料分享包** Material Share Bundle
+- **裁判的时刻** Moment of Judgment
 - **采樵谷** Lumberpick Valley
+- **猜拳三连击** Rock-Paper-Scissors Combo
 - **彩色的画稿** Color Sketch
 - **彩色歌谣** Gleeful Songs
+- **彩石顶** Teticpac Peak
+- **才识之冠** Diadem of Knowledge
+- **彩糖与蔷薇的幻色颂** Chromatic Ode of Candies and Roses
 - **猜先有方** Turn Control
 - **彩香** Saika
 - **猜想时间** Guessing Game
-- **裁叶萃光** Light of Foliar Incision
+- **采撷掇拾，沉玉浮琼** Floating Jade, Treasure of Chenyu
+- **采药归乡** Herb Gatherer's Dream
+- **彩鹞栉春风** Vibrant Harriers Aloft in Spring Breeze
 - **裁雨留虹** Raincutter
 - **财运亨通一岁中** Fame and Fortune For a Season
 - **才藏** Saizou
 - **残旧的记事** Ragged Records
 - **灿若惊雷** Unlimited Power!
+- **残光将终** Last Lightfall
 - **残悴之式札** Battered Shikifuda
 - **苍璧，驱之长昭天理** Lazuli, Herald of the Order
 - **藏弓待用** Preserved for the Hunt
 - **藏金盗宝鼬** Hoarder Weasel Thief
 - **藏雷野实** Thunderclap Fruitcore
+- **藏蜜酒的王蜂** King Bee of the Hidden Honeyed Wine
 - **藏银鸦印** Silver Raven Insignia
+- **苍白的遗荣** Pale Forgotten Glory
 - **苍白之火** Pale Flame
+- **藏宝爱好者** Treasure Hiding Hobbyist
 - **藏宝图** Treasure Map
 - **仓储事务** Warehousing Business
-- **苍翠猎弓** The Viridescent Hunt
-- **苍翠之风** Verdant Wind
 - **苍风高地** Windwail Highland
-- **苍古自由之誓** Freedom-Sworn
 - **沧海不归客** From the Sea Never Returning
 - **沧海生威** Majesty of the Deep
-- **藏金之花** Blossom of Wealth
+- **苍晶螺** {{w|Beryl}} Conch
+- **苍晶区** Beryl Region
+- **沧浪的冒险家・其一** Waveriding Adventurer (I)
 - **苍雷** Violet Arc
 - **苍雷紫电的记忆** Memory of Violet Flash
-- **苍砾蕊羽** Pseudo-Stamens
+- **苍砾蕊羽** Pseudo-{{w|Stamen}}s
+- **苍翎的颂愿** Skyfeather Song
+- **苍灵鲤** Spirit Carp
 - **苍岭悠悠** The Faint Distant Mountains
+- **苍翎镇邪敕符** Skyfeather Evil-Subduing Charm
 - **苍流踏花** Azure Excursion
+- **苍鹭震击** Heron Strike
+- **苍漠囿土** Girdle of the Sands
 - **藏匿之泪** Hidden Tears
+- **苍色的极望** Aloft the Realm of Gears
 - **苍色郁野** Wild Laurel
 - **藏石者言** Says He Who Seeks Stone
 - **苍天清风之翼** Wings of Azure Wind
 - **苍铁诘晨树** Viridite Dawnwood
 - **苍铁平午树** Viridite Noonwood
 - **餐馆** Restaurant
+- **苍原的颂灵歌** Anthem of the Savannah
+- **藏蕴花矢** Clusterbloom Arrow
 - **藏蕴破障** Khanda Barrier-Buster
 - **残毁的横脊** Desiccated Shell
+- **残迹幽影** Shadow in Ruins
 - **参量质变仪** Parametric Transformer
 - **残留的谜团？** Any Unsolved Mysteries?
 - **餐品订单** Food Delivery
@@ -1453,6 +4908,7 @@
 - **残缺的笔记** Incomplete Notes
 - **残损的记录** Damaged Records
 - **残像暗战** Hidden Strife
+- **璨焰金猊舞** Suanni's Gilded Dance
 - **残阳浩劫之后** When the Dark Sun Passes
 - **残夜余音** Faint Afterglow
 - **草** Dendro
@@ -1460,6 +4916,7 @@
 - **草飘浮灵** Dendro Specter
 - **草丘丘萨满** Dendro Samachurl
 - **草史莱姆** Dendro Slime
+- **草与智慧** Nature and Wisdom
 - **草缘剑** Razorgrass Blade
 - **草之寻宝罗盘** Dendro Treasure Compass
 - **草之印** Dendro Sigil
@@ -1468,8 +4925,11 @@
 - **草草炸弹，轰轰火花** Grassy Blasty, Sparks 'n' Splash
 - **草木繁茂的记忆** Memory of Flourishing Green
 - **草神瞳共鸣石** Dendroculus Resonance Stone
+- **草偃风从** Whisper of Verdure
 - **测绘员蛋堡** Surveyor's Breakfast Sandwich
+- **曾与世界为敌** Contra Mundum
 - **层层惊骇** Layers of Fear
+- **层见叠出的谜象** Endless Mysteries
 - **层岩菌类调查** Mycological Investigation in The Chasm
 - **层岩巨渊** The Chasm
 - **层岩巨渊寻访记** The Chasm Charters
@@ -1477,8 +4937,10 @@
 - **恻隐本义** Compassionate
 - **茶博士刘苏** Tea Master Liu Su
 - **插电战斗方案** Plug-and-Play Plan
+- **茶好月圆** Fine Tea, Full Moon
 - **茶香氤氲间** Surrounded by the Aroma of Tea
 - **茶羽鹰** Brownwing Falcon
+- **察阿克** Chaac
 - **查尔斯** Charles
 - **茶馆一隅** Corner of the Teahouse
 - **柴毅** Chai Yi
@@ -1491,7 +4953,9 @@
 - **柴犬座** Canis Bellatoris
 - **柴染** Fushizome
 - **柴田** Shibata
+- **柴薪之丘** Huitztli Hill
 - **柴烟庖屋** Cottage Kitchen
+- **柴葉紫** Shiba Murasaki
 - **柴助** Shibasuke
 - **婵儿** Chan'er
 - **潺潺向前・其二** Life Flows On (II)
@@ -1502,7 +4966,10 @@
 - **常九爷** Chang the Ninth
 - **长考一着** Necessary Calculation
 - **常燃火种** Everflame Seed
+- **常燃火种** Everflame Seed
+- **长日留痕** The Remains of the Day
 - **长绳系月** Moonstringer
+- **常暗圆环** Evergloom Ring
 - **长鬓虎** Rishboland Tiger
 - **长柄武器** Polearm
 - **畅畅** Changchang
@@ -1513,60 +4980,72 @@
 - **长冈秀满** Nagaoka Hidemitsu
 - **昌贵** Changgui
 - **昌虎** Changhu
+- **长颈角犀** Long-Necked Rhino
 - **常绿的希冀** Evergreen Wish
 - **长门幸子** Nagato Sachiko
+- **长明的烛火** Ever-Lit Candle
 - **常磐高罗** Stonenet
 - **长平** Changping
 - **菖蒲** Ayame
 - **长驱直入** Straight to the Heart
 - **怅然之梦** Awake From a Nightmare
-- **长生** Changsheng
 - **常胜传说** Victorious Legend
+- **长生仙** Abiding Angelfish
 - **长生仙** Abiding Angelfish
 - **常世光障** Shield-Light of Tokoyo
 - **常世入口** The Entrance to Tokoyo
 - **常世之大权** The Highest Authority in the Land
 - **常世之国** The Realm of Tokoyo
 - **常世之荚** Tokoyo Legume
-- **常世之灵** Shades of Tokoyo
 - **常世国龙蛇传** The Serpent and Drakes of Tokoyokoku
 - **长顺** Changshun
+- **缠光的祭法** Lingering Light
 - **长宵宣秘** Secrets of the Night
 - **昌信** Masanobu
 - **常夜灵川** Tokoyo Reisen
 - **常夜灵庙** Evernight Temple
+- **长夜之誓** Long Night's Oath
 - **长夜难明** The Long Dark Night
 - **长野原龙势流星群** Naganohara Meteor Swarm
 - **长野原龙之介** Naganohara Ryuunosuke
 - **长野原烟花店** Naganohara Fireworks
+- **潺涓的碧水** Trickling Purity
+- **缠雷之环** Tanglebolt Ring
 - **禅那园** Pardis Dhyai
 - **巉岩琢塑之樽** Goblet of Chiseled Crag
+- **缠忆君影梦相见** Your Echo I Meet in Dreams
 - **潮奔蓦引电** Summoner of Storm
 - **超古代文明遗产** Surpassing the Ancients' Wisdom
 - **潮卷冰削** Roiling Rime
 - **潮哥** Chao
-- **超激化** Aggravate
-- **超绽放** Hyperbloom
 - **超绽放马戏** Hyperblooming Circus
-- **朝仓** Asakura
 - **超导** Superconduct
 - **超定归约律** Law of Reductive Overdetermination
+- **「超级无敌闪亮亮魔晶」** Super-Duper Invincible Shining Sparkly Magic Crystal
 - **超级至尊披萨** Super Magnificent Pizza
+- **超量装药弹头** Overcharged Ball
 - **朝南** Chaonan
 - **嘲弄命运的资格** Fortune-Mocking Pedigree
+- **潮水啊，我已归来** O Tides, I Have Returned
+- **朝雾的枫丹专用留影机** Asagiri's Dedicated Fontaine Kamera
 - **潮汐** Chaoxi
 - **潮汐浮梦** Scattered Amongst the Tides
 - **潮汐给翠儿的回信** Chaoxi's Reply to Cui'er
+- **潮音流奏之日** Eleusis Dicis Gratia
 - **潮涌与激流** Tide and Torrent
+- **潮涌之章** Diluvies Chapter
 - **越过沙暴与蜃气楼・其一** Over Sandstorms and Mirages (I)
 - **超越时间的虚影** Beyond the Shadow of Time
+- **超越时空之空想** Daydreams Beyond Space and Time
 - **超越之盏** Surpassing Cup
 - **超载** Overloaded
+- **朝着炽热的冒险！** Toward Red-Hot Adventure!
 - **朝着雷霆骤雨** Through the Storm
+- **茶熏乳鸽** Tea-Smoked Squab
 - **查耶维奇** Tsarevich
 - **彻证** Conclusive Proof
-- **掣电洊雷** Flowing Thunder
 - **掣电树** Electro Regisvine
+- **陈八珍** Chan Baatjan
 - **沉波蜜桃** Peach of the Deep Waves
 - **沉波之盏** Goblet of Thundering Deep
 - **陈娇花** Chen the Flower
@@ -1578,21 +5057,31 @@
 - **趁鲜花气息逗留** Floral Fresh
 - **尘歌壶** Serenitea Pot
 - **尘歌宴仙归** The Great Banquet of the Adepti
+- **沉甸甸的包裹** Heavy Pack
 - **沉甸甸的干草卷** Heavy Hay Bale
 - **尘封的往事** Dust-Laden Recollections
 - **尘封的疑云** Long-Sealed Mystery
+- **晨风之诗** Ode to the Dawn Breeze
 - **程杆子** Flagpole Cheng
 - **成捆的木材** Wood Bundle
 - **承仙所托** An Adeptal Summons
 - **诚二** Seiji
-- **澄澄一心传** Isshin Art Clarity
+- **橙峰螺岩** Tawny Peaks, Spired Rock
 - **乘风前行** Riders of the Wind, Onward
+- **澄金抹壑** Gold-Draped Gorge
 - **澄净之泪** Crystal Tears
+- **澄晶实** Spinel Fruit
+- **成就** Achievement
 - **成濑** Naruse
 - **承蒙惠顾** Thank You, Come Again
+- **澄明的净水** Clear Waters
 - **称名少年事件簿** Named Juvenile Casebook
+- **称名之刻** The Named Moment
 - **柽木** Athel Wood
+- **柽木坚铁攻盾** Athelwood Metal Combat Shield
 - **柽木坚铁圆盾** Athelwood Metal Buckler
+- **柽木紧凑桌案** Athel Wood Compact Desk
+- **柽木轻便货箱** Athel Wood Light Cargo Boxes
 - **柽木三重屉柜** Athel Triple Drawer Cabinet
 - **柽木陶器置物柜** Athel Pottery Shelf
 - **柽木硬面长桌** Long Athelwood Table
@@ -1602,27 +5091,32 @@
 - **乘胜追击** Press the Advantage
 - **诚实高个儿西尔弗** Long John Silver
 - **诚实猫的小范围谎言** The Honest Cat's Little Lie
+- **成熟的葡萄** Ripe Grapes
+- **晨光初映时** Quand la lumiere resplendira
 - **成长的烦恼** Growing Pains
 - **城中诸事** City of Chores
 - **尘辉兑换** Paimon's Bargains
 - **沉金的岁月** The Sunken Years
 - **陈旧的钥匙** Ancient Key
+- **沉珑的瑶庭** Garden of Jade
+- **沉珑渊** Chenlong Cleft
 - **尘路绮错** Crossing Roads
 - **沉沦之心** Heart of Depth
+- **沉落的征程** Submerged Trumpet
 - **沉眠之庭** Slumbering Court
+- **沉没的箱子** Submerged Box
+- **沉没的异乡** Submerged Meditation
 - **沉没的预言** Prophecy of Submersion
 - **沉墨书舍** Scholarly Trove
 - **沉秋拾剑录** A Legend of Sword
-- **沉入沙海的史诗** Sunken Song of the Sands
 - **沉沙归寂** Sands of Solitude
 - **辰砂往生录** Vermillion Hereafter
-- **辰砂之纺锤** Cinnabar Spindle
-- **尘世七执政** The Seven Archons
 - **尘世闲游** Rex Incognito
 - **尘世闲游** Vago Mundo
-- **尘世之锁** Memory of Dust
 - **沉睡的根系** Slumbering Roots
+- **沉睡的柔波** Sink Into Slumber
 - **沉睡的往昔** Slumbering Lore
+- **沉稳的纸蛙** Calm Paper Frog
 - **晨曦初露的曲调** Melody of Fresh Dewdrops
 - **晨曦的暗面** The Dark Side of Dawn
 - **晨曦的传统** Tradition of the Dawn Knight
@@ -1631,11 +5125,19 @@
 - **晨曦酒庄** Dawn Winery
 - **晨曦酒庄的珍品葡萄汁** Dawn Winery's Top-Quality Grape Juice
 - **尘匣** Dusty Chest
+- **晨霞将溶** Dissolved Dawn
 - **沉香** Chenxiang
+- **尘星旅梦** Dream of Roving Stars
+- **尘岩长杖** Staff of Geo
+- **沉玉茶露** Chenyu Brew
+- **沉玉沐芳** Jadeite Redolence
+- **沉玉仙茗** Chenyu Adeptea
 - **沉玉谷** Chenyu Vale
-- **沉重** Heavy
+- **沉玉谷渔歌** Chenyu Fisherman's Song
+- **沉玉谷渔歌·其二** Chenyu Fisherman's Song (II)
 - **沉重的恶意** Snare Awaiting
 - **沉重的盒子** Heavy Box
+- **沉重的箱子** Heavy Box
 - **沉重号角** Heavy Horn
 - **螭** Chi
 - **持盾的危机** Crisis of Shields
@@ -1648,19 +5150,23 @@
 - **赤玉琉金** Agate Ryuukin
 - **池中宅邸** Palace in a Pool
 - **赤胆昭忠** Devotion of the Keeper
-- **螭骨剑** Serpent Spine
+- **炽风苦旅** On the Barren Sands
 - **赤鬼之血** Bloodline of the Crimson Oni
 - **赤红的新芽** Scarlet Sprouts
 - **吃虎岩** Chihu Rock
-- **吃虎鱼刀** Fillet Blade
-- **赤角石溃杵** Redhorn Stonethresher
+- **炽火之舞** A Dance in Fire
 - **岻伽** Shitoki
 - **敕诫枢谋** Caution in Confidence
 - **赤金的城墟** City of Gold
 - **赤金魂** Rise Up, Golden Soul
 - **炽金之锅** Goldflame Tajine
+- **赤井** Akai
 - **赤鹫** Red Vulture
 - **赤鹫翎羽** Red Vulture's Feather
+- **迟来的继业者** Latecoming Diadochus
+- **炽烈的还魂诗** Incandescent Ode of Resurrection
+- **炽烈箴言** Searing Precept
+- **齿轮的王国** The Rotating Realm
 - **赤糜饵** Redrot Bait
 - **赤目兼长** Akame Kanenaga
 - **赤目实长** Akame Mitsunaga
@@ -1672,48 +5178,62 @@
 - **炽热的骗骗花蜜** Pyro Whopperflower Nectar
 - **炽热骗骗花** Pyro Whopperflower
 - **赤色的结晶** Crimson Crystal
+- **赤砂的承守** Descendants of Deshret
 - **赤沙的归嗣** Returning Heiress of the Scarlet Sands
 - **炽沙的考验** Trial of the Scorching Sands
+- **赤砂的思慕** Debris of the Beloved
 - **赤沙的玉馈** Nephrite of Deshret
 - **赤沙旧事** Annals of the Scarlet Sands
 - **赤沙石板** Scarlet Sand Slate
 - **赤沙游记** Scarlet Sand Sojourn
 - **赤沙之槛** Red Desert Threshold
-- **赤沙之杖** Staff of the Scarlet Sands
+- **赤沙之眼** Eye of Deshret
 - **赤穗百目鬼** Ako Domeki
 - **赤穗酒枡** Ako's Sake Vessel
+- **炽天的辉舟** Millennial Sails
 - **池田总四郎** Ikeda Soushirou
+- **赤瞳的英雄** Scarlet-Eyed Hero
 - **赤土之王与三朝圣者** King Deshret and the Three Magi
 - **赤团开时** Moment of Bloom
 - **赤团开时斜飞去** Crimson Bouquet
-- **赤王** King Deshret
 - **赤王时代的沙漠与大赤沙海** Scarlet Reign's Great Red Sand
 - **赤王陵** The Mausoleum of King Deshret
+- **赤望台** Chiwang Terrace
 - **赤尾蜥** Red Tailed Lizard
 - **嗤笑之面** Mocking Mask
+- **炽炎交逐之原** Land of Tleyaoyotl
 - **迟滞之水** Slowing Water
+- **赤棕伞雀** Burgundy Umbrellafinch
 - **炽鬃之狮** Flame-Mane
-- **冲啊！无畏的勇士** Charge! Fearless Warriors
+- **冲啊！无畏的勇士** Charge!Fearless Warriors
 - **重开之花** Second Blooming
 - **重嶂不移** Unmovable Mountain
 - **崇诚之真** Stalwart and True
 - **冲锋丘丘人** Hilichurl Berserker
+- **崇高大道** Alta Semita
 - **重归青天的歌** Welcome Back, My Companion
 - **重华叠霜** Chonghua's Layered Frost
+- **冲击力瞬间** Moment of Impact
 - **憧憬** Yearning
 - **崇理者** The Rational
 - **充能转化容器** Energy Transformation Capacitor
 - **冲破雷暴之法** A Path Through the Storm
 - **重熔片剂** Remelting Tablet
 - **重熔装置** Remelting Device
+- **重生的契机** An Opportunity for Rebirth
 - **充实的摩拉袋** Full Mora Purse
+- **冲天转转！** Turbo Twirly!
 - **重现的国度** A Region Rediscovered
 - **重岫而游** A Venture Into the Unknown
 - **重云** Chongyun
 - **重云的命星** Chongyun's Stella Fortuna
 - **重铸：岩盔** Stonehide Reforged
+- **冲撞** Ram
+- **丑的美学** Aesthetics of Ugliness
 - **愁疏座** Crista Doloris
 - **仇敌仿佛众水翻腾…** Her Foes Rage Like Great Waters...
+- **筹谋的共樽** The Wine-Flask Over Which the Plan Was Hatched
+- **畴昔寻芳** Splendorous Heritage
 - **稠汁蔬菜炖肉** Goulash
 - **出尘入世** The Transcendent One Returns
 - **初成的桦树** Birch Sapling
@@ -1724,14 +5244,12 @@
 - **传球** Through Pass
 - **船说了算** The Ship Has It
 - **传香** Three Poignant Perfumes
-- **传承** Heritage
 - **串串三味** Tri-Flavored Skewer
-- **穿刺高天的利齿** Sky-Piercing Fang
 - **传次郎** Denjirou
-- **船歌** Shanty
 - **创龙点睛** Through the Eyes of a Dragon
 - **创生的灵慧** Genius of Takwin
 - **创世结晶** Genesis Crystal
+- **串烤牛心** BBQ Beef Heart Skewers
 - **传令兵** Message-Runner
 - **传说** Legend
 - **传说牌手徽章** Legend Player Badge
@@ -1739,18 +5257,21 @@
 - **传送空间棋盘** Just Like a Game of Chess
 - **传送锚点** Teleport Waypoint
 - **传闻中的炼金术士** The Rumored Alchemist
+- **传心同视** Shared Sight
 - **穿行躯壳之灵** The Soul Transposed
 - **穿越烟帷与暗林** Through Mists of Smoke and Forests Dark
+- **穿越隐秘的通术** To Pierce Enigmas
+- **楚伯** Chubo
 - **初步调查的线索** Initial Investigation Clues
 - **触不可及的恋人** Long Distance Love
 - **初成的葡萄藤** Newly Grown Grapevines
+- **初诞灵焰** Firstborn Firesprite
 - **出发吧！嘟嘟可** Let's Go, Dodoco!
 - **出港日** Date of Departure
 - **出海申请批复件** Approved Exit Permit
 - **炊金馔玉** Dominance of Earth
 - **吹沙角鲀** Sandstorm Angler
 - **垂裳端凝之夜** Nights of Formal Focus
-- **炊金** Gilding
 - **垂香木转角阶梯** Fragrant Cedar Cornering Stairs
 - **垂香木** Fragrant Cedar Wood
 - **垂香木传统地板** Traditional Cedar Flooring
@@ -1760,19 +5281,33 @@
 - **垂香木窗格房门** Fragrant Cedar Door
 - **垂香木厨房货架** Fragrant Cedar Vegetable Rack
 - **垂玉之叶** Jade Leaf
+- **触及苍穹的容颜** To Touch the Face of Heaven
 - **初级牌手徽章** Beginner Player Badge
+- **出击，冲天转转！** Go, Go Turbo Twirly!
 - **初窥戏中意** First Glimpse of Meaning
 - **除了时间，什么也没丢** Nothing to Lose But Time
+- **初露之源** Spring of the First Dewdrop
 - **触媒置换术** Catalyst Conversion
+- **春尽水如天** Into the Yonder and Water
+- **纯水骑士** Lochknight
 - **纯水真心** Heart of the Spring
 - **春庭景如旧** As the Courtyard in Spring Once Appeared
-- **春庭景如旧** As the Courtyard in Spring Once Appeared
+- **纯洁松果** Pure Pinecone
 - **纯净灵魂旗** Pure Spirit Banner
+- **纯净无瑕之物** All Things Flawless and Pure
+- **纯露凝芳** Puredew Aroma
+- **春脉如弦** Pulse of Spring
+- **春日惊奇乐园** Spring Wonderland
+- **纯圣露滴的醴泉** Spring of Pure Sacred Dewdrop
+- **纯圣露滴的滤渣** Dross of Pure Sacred Dewdrop
+- **纯圣露滴的凝华** Sublimation of Pure Sacred Dewdrop
+- **纯圣露滴的真粹** Essence of Pure Sacred Dewdrop
 - **春水** Chunshui
 - **纯水幻造** Oceanid Mimic Summoning
-- **纯水精灵** Lochfolk <small>({{w|Endonym and exonym|endonym}})</small><br />Oceanid <small>(exonym)</small>
-- **纯水之愿** Wishful Drops
+- **纯水精灵** Lochfolk <small>({{w|Endonym and exonym|endonym}})</small><br>Oceanid <small>(exonym)</small>
 - **纯水精灵・洛蒂娅** Rhodeia of Loch
+- **纯水之愿** Wishful Drops
+- **春曦画桃符** Springtime Charms
 - **春香窑的「副业」** That Smells Divine
 - **纯也** Junya
 - **纯真的歌谣** Song of Innocence
@@ -1780,6 +5315,7 @@
 - **纯真期待** Innocent Longing
 - **绰巡林风** Winding Through Avidya
 - **初生白枝** Silver Twig
+- **初生的浊水幻灵** Newborn Tainted Hydro Phantasm
 - **初升之星** Rising Star
 - **初始之翼** Wings of First Flight
 - **处刑棘刺** Executor's Thorns
@@ -1797,24 +5333,38 @@
 - **此路不通？** Blocked?
 - **此诗送此城** An Ode to Yonder City
 - **此债有主** Settling Debts
+- **此处有龙** Here Be Dragons
+- **赐福小屋** Hut of Blessings
 - **慈惠仁心** Beneficent
+- **刺击冰棱** Piercing Iceridge
 - **刺葵木** Mountain Date Wood
+- **刺玫的铭誓** In the Name of the Rosula
+- **刺玫会长的灵活手腕** The Flexible Finesse of the Spina's President
+- **刺玫会** Spina di Rosula
+- **刺拳如毒蜂！** Sting Like a Bee!
 - **刺身拼盘** Sashimi Platter
+- **此身自有清浊辨** Border of Life
+- **此时无声胜有声** When You Say Nothing at All
+- **慈水怒涛之翼** Wings of Merciful, Wrathful Waters
 - **此夕星游** Surreal Noctivaga
 - **此心安处** Where the Heart Finds Rest
 - **辞行久远之躯** Farewell, Archaic Lord
 - **慈盐之末** Farewell, Sweet Salt
 - **聪** Satoru
+- **从灰暗群山间升起** Like a Morning Sun Coming Out of Gloomy Mountains
 - **从零开始** Starting From Zero
 - **从石碑上抄下来的文字** Transcription from a stone tablet
 - **从遗迹中抄下来的文字** Transcription from a ruin
 - **从右侧拍摄的画片** Right-Side Photo
 - **从左侧拍摄的画片** Left-Side Photo
+- **从此以后…** And After That...
 - **丛林精油** Forest Essential Oil
 - **丛林树蛙** Forest Tree Frog
+- **葱茏的梦乡** Pairidaeza
 - **葱茏之愿** Syavushi Bakshesh Shoppe
 - **聪美** Satomi
 - **聪明徇智** Tactician's Grit
+- **丛山锻火驰行** Tour of Tepeilhuitl
 - **丛生蝶绿** Profuse Awlking
 - **丛生栌青** Profuse Smokeleaf
 - **丛生彤丹** Profuse Lacquerleaf
@@ -1828,6 +5378,7 @@
 - **翠儿写给潮汐的信** Cui'er's Letter to Chaoxi
 - **翠庵酩酊疑闻** The Strange Tale of Suikou's Tipsy Tincture
 - **摧冰而行的执望** Icebreaker's Resolve
+- **脆饼珐提** Fatteh
 - **璀璨原钻断片** Brilliant Diamond Fragment
 - **璀璨原钻块** Brilliant Diamond Chunk
 - **璀璨原钻碎屑** Brilliant Diamond Sliver
@@ -1849,9 +5400,11 @@
 - **翠绿之影** Viridescent Venerer
 - **翠目猫** Jade-Eyed Cat
 - **萃念初蘖** Sprout of Rebirth
+- **萃凝晶** Condessence Crystal
 - **脆弱的骨片** Fragile Bone Shard
 - **脆弱的木板** Fragile Wooden Plank
 - **脆弱树脂** Fragile Resin
+- **翠斯塔** Tristane
 - **翠蔓的智者** Scholar of Vines
 - **村中匿影** Rural Concealment
 - **村山** Murayama
@@ -1859,25 +5412,29 @@
 - **村上的食材需求** Murakami's Meal-Making
 - **存身于尘沙之境** Dwelling Amidst the Sands
 - **村田** Murata
+- **村巷欢声** Pleasure of Rural Life
 - **存疑的丘丘人语单句** Draft Lines of Hilichurlian Poetry
 - **存于云天的至福之解** Joy Above the Clouds
+- **存在的证明** The Proof of Existence
 - **村镇院落** Hamlet House
 - **村庄变迁记录** Records of a Changing Village
 - **嵯峨群峰之翼** Feather of Jagged Peaks
+- **错落风涡** Scattershot Vortex
 - **错位的海螺二** Misplaced Conch 2
 - **错位的海螺三** Misplaced Conch 3
 - **错位的海螺一** Misplaced Conch 1
 ## D
 - **打** Hit
-- **大慈树王** Greater Lord Rukkhadevata
 - **大盗宝家** Grand Thief
 - **大黄** Bro Huang
 - **大黄金盗宝鼬** Golden Weasel Thief
 - **大黄金丘丘王** Hilichurl Champion
 - **大黄金吮指鸡** Golden Fried Chicken
+- **大桔** Daju
 - **大空幻法** Oozora Genpou
 - **大坤** Kun
 - **大邋遢** Reekwind
+- **大联盟** Grand Alliance
 - **大隆** Dalong
 - **大龙卷旋火轮** Condensed Pyronado
 - **大冒险家斯坦利** The Great Adventurer Stanley
@@ -1887,22 +5444,30 @@
 - **大树** The Great Tree
 - **大踏鞴长正** Blade of Tatara
 - **大天云峠** Great Amakumo Peak
+- **大天使海兔** Cherubic Sea Hare
 - **大未来星** Great Future Star
 - **大武** Sturdy Wu
 - **大徐** Big Xu
 - **大雪猪王** The Great Snowboar King
 - **大壮** Strong
+- **大铸造者** Fabricator-General
+- **达尔戈** Dargo
 - **达纳** Dana
 - **大巴扎** Grand Bazaar
 - **大赤沙海** Great Red Sand
 - **大慈树王的残留意识** The Greater Lord's Remaining Consciousness
 - **大走廊的尽头** The End of the Corridor
 - **大伴** Ootomo
+- **达毕尔** Darbil
+- **答辩训练** Thesis Defense Practice
 - **大辨圆成之实** The Fruit of Reason's Culmination
 - **大病初愈** Recuperating From a Severe Illness
+- **达布亚** Dabuya
 - **大仓** Oogura
-- **达达利亚** Tartaglia
 - **达达利亚的命星** Tartaglia's Stella Fortuna
+- **大胆的调查员** Bold Investigator
+- **大当家** Boss
+- **大盗** Dadao
 - **大岛** Ooshima
 - **大岛纯平** Ooshima Junpei
 - **达达乌帕谷** Dadaupa Gorge
@@ -1911,39 +5476,57 @@
 - **大地、风与雷的圆舞曲** Waltz of Earth, Wind, and Thunder
 - **大洞弥罗尊法** Deific Embrace
 - **大辅** Daisuke
+- **大海的甜色** Sweetness of the Sea
+- **大黑** Dahei
 - **大和田** Owada
 - **大河原五右卫门** Okawara Goemon
 - **大荒沉沉** Beyond the Distant Horizon
 - **大火宽油** Oil Meets Fire
-- **戴派** Daipai
+- **待揭晓的谜底** Riddles Awaiting Answers
 - **戴丧面具** Funerary Mask
 - **待诉说的传说** Stories Untold
 - **带有题字的霄灯** Inscribed Xiao Lantern
 - **黛安** Diane
 - **黛比** Debbi
+- **呆呆的绵驮兽** Dopey Alpaca
+- **呆呆的小嵴锋龙** Dopey Little Tepetlisaurus
+- **代杜古** Dedougou
+- **玳龟** Tent Tortoise
 - **代价** The Price
 - **待客之道** The Art of Hospitality
 - **黛绿的夜话** Enchanting Bedtime Stories
+- **戴派** Daipai
+- **黛丝蕾** Desyree
 - **戴维** Davy
 - **戴维・琼斯的箱子** Davy Jones' Locker
 - **黛西，黛西** Daisy, Daisy
 - **代行裁判** Divine Retribution
+- **黛依阿** Daiya
+- **黛依阿的三日遐想** Daiya's Three-Day Reverie
 - **戴因斯雷布** Dainsleif
 - **大将恒遵道** Path of the Taishou
+- **大将威仪** General's Glory
 - **大脚** Big-Footed Dajiao
+- **大街上的办公室** Office on the Avenue
 - **大久保大介** Ookubo Daisuke
 - **大久保三左卫门** Ookubo Sanzaemon
 - **妲卡玛忒** Dwarkanath
 - **妲卡玛忒的白铁块需求** Dwarkanath's White Iron Chunks
+- **达拉** Dara
 - **达列尔** Daler
 - **达丽娜** Darina
+- **大灵** Wayob
+- **大灵显化身** Wayob Manifestation
 - **达莉亚** Darya
 - **大路朝天，各堵一边** Blocked Road
 - **达马山** Mt. Damavand
 - **达马山记事** Records of Mt. Damavand
+- **达梅婕** Damestier
 - **大门** Daimon
+- **大漠虫鸣** Hymn of Cicadas
 - **大漠引路人・其二** The Desert Will Guide You Home (II)
 - **大漠引路人・其一** The Desert Will Guide You Home (I)
+- **达莫维百货** Damoville Purveyor
 - **丹书金铁券** Supreme Amnesty
 - **丹书立约** Signed Edict
 - **诞于雪中** Born of the Snow
@@ -1955,21 +5538,31 @@
 - **淡淡的不安** Slight Distress
 - **丹迪** Dandy
 - **当财运来敲门** When Wealth Comes A-Knockin'
+- **当红帕化作飞鸟…** When the Red Scarf Transforms Into a Bird in Flight...
 - **当剧目不再上演** Show Canceled
+- **当一切回归于水** When All Return to the Waters
+- **当一切镌刻成碑** When All Becomes a Monument
 - **弹弓** Slingshot
+- **达尼奥** Daniaud
 - **达尼拉** Danila
 - **丹剂与魔药** Elixirs and Potions
 - **丹吉尔** Tanger
+- **丹纳** Daneh
 - **丹砂高为千岩镇** Chasm Conqueror
 - **丹砂巍巍** Wordless Cliffs
 - **丹砂崖** Cinnabar Cliff
 - **但是，代价是…** But There's a Catch...
 - **单手剑** Sword
+- **弹匣，躁动的轮盘** Cylinder, the Restless Roulette
+- **淡香浸析** Light Fragrance Leaching
+- **胆小的绵驮兽** Scaredy-Cat Alpaca
 - **胆小的莫罗** Timid Morrow
 - **丹羽长光** Niwa Nagamitsu
 - **丹羽久秀** Niwa Hisahide
 - **丹羽一族** Niwa Clan
+- **单元格碎片** Cell, Splinter
 - **淡月疏星共寂寥** Swath of Desolation
+- **淡月之舞** Gymnopedies of Lune
 - **到港时刻表** Arrival Schedule
 - **导能绘卷** Divining Scroll
 - **导能原盘・跋尾** Energy Amplifier Fruition
@@ -1982,19 +5575,23 @@
 - **盗宝团成员携带的地图** Treasure Hoarder's Map
 - **盗宝团的「侦察情报」** Treasure Hoarder Scouting Report
 - **盗宝团的钥匙** Treasure Hoarder's Key
+- **盗宝团日志** Treasure Hoarder Diary
 - **盗宝团战利品** Treasure Hoarder Loot
 - **盗宝团** Treasure Hoarders
 - **盗宝团的藏宝图** Treasure Hoarders' Treasure Map
-- **盗宝团日志** Treasure Hoarder Diary
 - **稻城弥里** Inagi Misato
 - **稻城萤美** Inagi Hotomi
 - **道成林** Avidya Forest
+- **倒错知能的视度** Cognition-Inverting Gaze
 - **稻光神鸣** The Almighty Violet Thunder
 - **导光四面体** Light Guiding Tetrahedron
 - **导光仪式** Light Guiding Ceremony
 - **刀剑成梦** Dreams of Sword Art
+- **道具完备** Props Positively Prepped
+- **悼灵花** Mourning Flower
 - **稻米** Rice
 - **导能原盘** Energy Amplifier
+- **导能原盘・引理** Energy Amplifier: Lemma
 - **稻妻** Inazuma
 - **稻妻** Inazuma
 - **稻妻地灵龛之钥** Inazuma Shrine of Depths Key
@@ -2002,12 +5599,14 @@
 - **稻妻时尚入门** Crash Course on Inazuman Fashion
 - **稻妻销售员** Inazuma Sales Specialist
 - **稻妻城** Inazuma City
+- **蹈刃破决** Verdict of Blades
 - **蹈刃不旋** No Way Home
 - **稻生** Inou
 - **岛田七郎治** Shimada Shichirouji
 - **稻叶静子** Inaba Shizuko
 - **稻叶久藏** Inaba Kyuuzou
 - **稻叶藤三郎久藏 ・ 绝笔** Inaba Tousaburou Kyuuzou's Final Words
+- **打破时间墙** Break the Time Zone
 - **大气涡流・大型** Large Atmospheric Vortex
 - **大气涡流・小型** Small Atmospheric Vortex
 - **大泉** Ooizumi
@@ -2018,68 +5617,111 @@
 - **大师牌手徽章** Master Player Badge
 - **打手丘丘人** Hilichurl Fighter
 - **大碗茶** Pop's Teas
+- **大卫** David
+- **达希** Darcy
 - **大型冰史莱姆** Large Cryo Slime
 - **大型草史莱姆** Large Dendro Slime
 - **大型齿轮** Large Gear
 - **大型风史莱姆** Large Anemo Slime
 - **大型风灵** Large Wind Spirit
 - **大型火史莱姆** Large Pyro Slime
+- **大型狂蔓隙境原体** Large Overgrown Breacher Primus
 - **大型雷史莱姆** Large Electro Slime
 - **大型石制滚磨** Large Stone Mill
 - **大型双层齿轮** Large Duplex Gear
 - **大型水史莱姆** Large Hydro Slime
+- **大型碎石隙境原体** Large Shatterstone Breacher Primus
 - **大型岩史莱姆** Large Geo Slime
+- **达雅** Daya
 - **大业物** Oowazamono
+- **达伊妲** Taheta
 - **大英雄的经验** Hero's Wit
 - **大祐** Taisuke
 - **大雨** Dayu
 - **大张旗鼓的宣传** Start Spreadin' the News
 - **大助** Oosuke
+- **打字机的键帽** Typewriter Keycap
 - **德安公** Gentry De'an
+- **德尔菲娜** Delphine
+- **德巴内** Debal
+- **德波大饭店** Hotel Debord
+- **德财** Decai
+- **得偿所愿的寻宝之旅** Wish-Fulfilling Treasure Hunt
 - **德长** Tokunaga
 - **德富** Defu
 - **德贵** Degui
+- **德怀特・拉斯克** Dwight Lasker
+- **德拉夫什** Derafsh
+- **德拉萝诗** Delaroche
+- **德拉索** Delassaux
+- **德勒吕** Delerue
 - **德利瓦** Delavar
+- **德吕阿松林** Dryas Wood
 - **德鲁苏** Drusus
 - **登楼** Foreseen Reformation
+- **灯如明月在中天** Moonlit Lanterns
 - **灯下暗流深** Currents Deep Beneath the Lanterns
 - **灯下未归人** Lantern of the Wayfarer
 - **灯宵斑彩照灵犀** Festival Spotlight
 - **灯中妙影** Wondrous Shadows
 - **灯自何处来** The Origin of the Lanterns
-- **登场乐** Debut
 - **灯后勤绩** Behind the Scenes
 - **灯后勤绩** Behind the Scenes
 - **灯火阑珊处** Where the Light Wanes
 - **等离态的落雷** Electrocute
 - **等量再交换！** Equivalent Exchange Once More
 - **等量交换** Equivalent Exchange
+- **登山绳** Mountaineering Rope
 - **灯芯绒材** Wick Material
 - **灯纸纤维** Lantern Fiber
+- **德尼谢尔** Denichere
+- **德帕里** Deparis
+- **德皮耶里** Depierris
 - **德赛** Desai
+- **德瑟布尔** Decembre
+- **德斯诺斯** Desnos
 - **德田** Tokuda
+- **德维特** Devitt
 - **德沃沙克** Dvorak
+- **得闲饮茶** Yummy Yum Cha
+- **德音** Deyin
+- **德佑** Deyou
 - **涤尘铃** Cleansing Bell
-- **笛剑** The Flute
+- **第二章** Chapter II
 - **地灵龛** Shrine of Depths
+- **第三章** Chapter III
 - **敌神者** Archon's Rival
+- **第四章** Chapter IV
 - **帝台石** Unmoving Kingstone
 - **抵天雷罚** Thundering Penance
+- **第五章** Chapter V
+- **第一章** Chapter I
+- **蒂埃里** Thierry
+- **蒂埃坡罗** Tiepolo
 - **迪奥娜** Diona
 - **迪奥娜的命星** Diona's Stella Fortuna
 - **迪奥娜特调，搅拌，不要摇** Diona Special, Stirred, Not Shaken
+- **蒂尔・亚什特的赞歌** The Hymn of Tir Yazad
+- **蒂尔妲** Tirda
+- **迪尔菲** Dulphy
+- **蒂尔甘之日** The Day of Tirgan
 - **第几类接触** Close Encounters of the Which Kind?
 - **电灯台** Electric Lamp
 - **电气骗骗花** Electro Whopperflower
 - **电威横织** Weaving Lightning
 - **电压冲锋** Voltage Charge
+- **电掣雷驰** Thunderbolt Rush
+- **颠倒古城** The Inverted City
 - **颠倒梦想的曲调** Melody of Sprouting Flowers
 - **电感余震** Induced Aftershock
 - **踮脚·蹑影轻踪** Tailing on Tiptoes
 - **颠扑连环枪** Toss 'N' Turn Spear
 - **电气水晶** Electro Crystal
+- **电气岩** Tourmaline
 - **点石成…什么** Diamond in the Rough...
+- **点位记忆法** Loci-Based Mnemonics
 - **点心盒** Snack Box
+- **典仪式晶火** Ceremonial Crystalshot
 - **店员们的午间工作餐** Merchant's Working Lunch
 - **电子脑硬化症** System Shock
 - **调律** Attunement
@@ -2088,25 +5730,35 @@
 - **雕花庭院围墙** Carved Courtyard Fence
 - **钓客漫歌** Rhythm Amidst the Reeds
 - **钓鱼协会** Fishing Association
+- **钓鱼游戏** Fishing Game
 - **雕琢难工** Meticulous Craftsmanship
 - **雕琢童心** Graven Innocence
 - **涤荡秽浊之光** Cleansing Light
+- **迪迪巴巴** Dedebaba
 - **叠山** Moulder of Mountains
 - **蝶引来生** Guide to Afterlife
 - **蝶隐之时** Flutter By
+- **迭跃** Dip Yeuk
 - **迭卡拉庇安** Decarabian
+- **蝶去蝶来** Comings and Goings
 - **叠影的梦兆** Shadowy Dream-Signs
 - **迪弗旧窟** Dev's Cavern
+- **迪福尔** Difor
 - **迪芙妲鳐** Divda Ray
 - **地宫传奇…才怪咧！** Underground... Overrated?
 - **荻花洲** Dihua Marsh
+- **帝皇的决断** Emperor's Resolution
 - **涤净青金** Varunada Lazurite Gemstone
 - **涤净青金断片** Varunada Lazurite Fragment
 - **涤净青金块** Varunada Lazurite Chunk
 - **涤净青金碎屑** Varunada Lazurite Sliver
 - **帝君尘游记** Rex Incognito
 - **帝君故事** Geo Archon Anecdotes
+- **迪肯** Deakin
 - **迪拉瓦尔** Dilawar
+- **狄雷** Direi
+- **蒂蕾娜** Turenna
+- **第六版方案** The Sixth Proposal
 - **迪卢克** Diluc
 - **迪卢克的命星** Diluc's Stella Fortuna
 - **地脉的旧枝** Dead Ley Line Branch
@@ -2116,31 +5768,46 @@
 - **地脉移涌** Ley Line Overflow
 - **地脉镇石** Ley Line Monolith
 - **地脉之花** Ley Line Blossom
+- **地貌测绘** Topographical Mapping
 - **蒂玛乌斯** Timaeus
 - **蒂玛乌斯的炼金指导** Timaeus' Alchemy Tutorial
 - **地面矿区** The Surface
 - **迪娜泽黛** Dunyarzad
 - **定蒙** Centered Spirit
+- **丁戈内克** Dingonek
+- **顶空集香** Headspace Capture
 - **顶替者的秘密** The Replacement's Secret
 - **定罪公文** Proof of Guilt
 - **地平** The Horizon
+- **敌人拟现点** Opponent Spawn Point
+- **敌人越多，越要小心** More Foes, More Caution
 - **第三类永动机** Vicious Circle
+- **笛瑟** Diether
+- **蒂索克** Tizoc
+- **迪特玛尔** Dietmar
+- **地图** Map
+- **蒂图** Titu
 - **地图石刻** Inscribed Map
 - **底万告示板** Diwan Bulletin Board
 - **低温调查** When the Trail Goes Cold
 - **低温环境导致可用电量下降** Performance May Decline in Low Temperatures
 - **低温预警** Low-Temperature Warning
 - **地下水泽** Underground Waterway
+- **砥心** Dixin
 - **地心** Dominus Lapidis
 - **迪希雅** Dehya
 - **迪希雅的命星** Dehya's Stella Fortuna
 - **蒂亚** Thiyya
 - **蒂雅** Tia
 - **迪亚法饭店** Djafar Tavern
+- **蒂亚戈** Thiago
+- **第一人称快门** First-Person Shutter
 - **低语的羊皮卷** Whispering Parchment
 - **地狱里摇摆** Rockin' in a Flaming World
 - **低语森林** Whispering Woods
 - **低语森林的重逢** Reunion in the Whispering Woods
+- **地中残景** Subterranean Ruins
+- **地中的香海** Somalata Inland Sea
 - **地中之盐** Sal Terrae
 - **地锥・大** Large Earth Spikes
 - **地锥・小** Small Earth Spikes
@@ -2150,23 +5817,24 @@
 - **东道主的邀请** Host's Invitation
 - **东东** Dongdong
 - **冻冻回魂夜** Icy Resurrection
+- **咚咚嘭嘭** Puff Pops
 - **咚咚小圆帽** Bongo-Head
 - **东风的吐息** Dvalin's Sigh
 - **东风之翎** Dvalin's Plume
 - **东风之爪** Dvalin's Claw
 - **洞府徘徊** The Absence of Adepti
-- **东花坊时雨** Toukabou Shigure
-- **冬极白星** Polar Star
-- **冻结** Frozen
+- **动静精明** Incisive Discernment
 - **冬妮娅** Tonia
 - **东升** Dongsheng
 - **洞天百宝** Realm Depot
 - **洞天宝钱** Realm Currency
 - **洞天宝鉴** Adeptal Mirror
+- **洞天伏仙** Distant Gleam of Lingshu
 - **洞天关牒** Realm Dispatch
 - **洞天无别景…** Realm Sans Frontières
 - **动物密友** Friend to Animals
 - **动物园大亨** Zoo Tycoon
+- **冬雅** Dunia
 - **东雅** Dunya
 - **冬夜愚戏** A Winter Night's Lazzo
 - **都交给分身吧** Eh, the Bunshin Can Handle It
@@ -2174,38 +5842,47 @@
 - **豆腐** Tofu
 - **逗留采血色** Lingering Carmine
 - **陡峭斜坡** Steep Slope
+- **斗胜争驰** Triumphant Frenzy
+- **斗士假面座** Mascara Luctatori
 - **豆助** Mamesuke
 - **渡火者的煎熬** Lavawalker's Torment
 - **渡火者的解脱** Lavawalker's Salvation
 - **渡火者的决绝** Lavawalker's Resolution
 - **渡火者的醒悟** Lavawalker's Epiphany
 - **渡火者的智慧** Lavawalker's Wisdom
+- **杜安雷** Duaenre
 - **度厄童子** Preserver of Fortune
 - **渡厄厅** Duat Hall
 - **断雨** Cutting Torrent
 - **断云石** Stratus-Cloud Stone
+- **椴木** Linden Wood
+- **煅火的祝赐** Forgefire's Blessing
+- **锻火之祝** Blessing of Forge-Fire
 - **断绝旧日之途** Farewell to the Past
-- **断浪长鳍** Wavebreaker's Fin
+- **煅石之轮** Tablet of Tona
 - **断霜的弦歌** Frostbreaker's Melody
 - **断罪皇女！！** Prinzessin der Verurteilung!
 - **断罪雷影** Undone Be Thy Sinful Hex
+- **杜邦** Dupont
 - **渡边** Watanabe
 - **渡部** Watanabe
 - **督察长祭刀** Inspector's Sacrificial Knife
+- **毒虫伏行之处** Where Vermin Crawl
+- **毒虫之穴** Vermin Nest
 - **独钓江雪** Fishing Jiangxue
 - **嘟嘟通讯仪** Dodocommunication Device
-- **嘟嘟！大冒险** Dodoventure!
 - **嘟嘟莲** Calla Lily
 - **嘟嘟莲海鲜羹** Calla Lily Seafood Soup
 - **嘟嘟可** Dodoco
-- **嘟嘟可故事集** Dodoco Tales
+- **嘟嘟可轰轰奇遇记** Dodoco's Bomb-Tastic Adventure
+- **嘟嘟可砰砰历险记** Dodoco's Boom-Bastic Escapades
 - **独孤朔** Dugu Shuo
 - **渡过烈火的贤人** Lavawalker
 - **渡过雾霭的河流** Across the Misty River
 - **对永恒的冥想** Contemplation on Eternity
 - **堆叠真空域** Clustered Vacuum Field
 - **堆放的堇瓜** Pile of Lavender Melons
-- **兑换券** Redemption Vouchers
+- **兑换券** Redemption Voucher
 - **兑换券8号** Redemption Voucher 8
 - **兑换券2号** Redemption Voucher 2
 - **兑换券20号** Redemption Voucher 20
@@ -2228,6 +5905,8 @@
 - **兑换券1号** Redemption Voucher 1
 - **对局邀请函** Match Invitation Letter
 - **独家特调** Exclusive Specialty
+- **镀金的旅途** Gilded Journey
+- **镀金的夕暮** All in the Golden Afternoon
 - **镀金旅团** Eremite
 - **镀金旅团・白日鸣雷** Eremite Daythunder
 - **镀金旅团・炽沙叙事人** Eremite Scorching Loremaster
@@ -2242,8 +5921,11 @@
 - **镀金旅团・叶轮舞者** Eremite Floral Ring-Dancer
 - **镀金旅团・阵前斧手** Eremite Axe Vanguard
 - **镀金旅团哨兵** Eremite Sentry
+- **镀金旅团哨兵** Eremite Sentry
+- **镀金旅团哨兵** Eremite Sentry
 - **镀金旅团引起的混乱** Eremite Mayhem
 - **镀金锅** Gilded Tajine
+- **杜吉耶** Dougier
 - **杜拉夫** Draff
 - **杜拉夫的信** Draff's Letter
 - **渡来介者** Protector From Afar
@@ -2256,8 +5938,11 @@
 - **钝击** Blunt Attack
 - **遁玉陵** Dunyu Ruins
 - **夺回天空之琴** Retrieve the Holy Lyre der Himmel
+- **多巴** Toba
+- **多彩之森** Forest of Color
 - **多重餐位松木圆桌** Multi-Seat Round Pine Table
 - **多重拱门的蒙德建筑** Multi-Arched Mondstadt Building
+- **多重速射的秘诀** The Secret to Rapid-Fire Multishots
 - **多多烧** More-and-More
 - **多多益善** The More the Merrier
 - **多惠** Tae
@@ -2266,13 +5951,19 @@
 - **多冷的隆冬** The Bleak Midwinter
 - **多莉** Dori
 - **多莉的命星** Dori's Stella Fortuna
+- **多洛拉** Dolora
+- **多梅尼科** Domenico
+- **多纳泰洛** Donatello
 - **躲起来** Hide
 - **多情东逝** Flow of Mildness
-- **多托雷** Dottore
-- **多谢惠顾!** Thanks for Your Patronage!
+- **多谢惠顾！** Thanks For Your Patronage!
 - **多谢款待！** Thanks for Your Hospitality!
 - **掇星攫辰惑众心** The Master of Stars' Deception
-- **掇星攫辰天君** Starsnatcher
+- **多样性调查** Diversified Investigation
+- **多汁的墩墩桃** Juicy Zaytun Peach
+- **杜庞** Dupond
+- **笃勤** Duqin
+- **杜莎** Tussaud
 - **毒藤蔓生** Venomous Vines
 - **赌徒** Gambler
 - **赌徒的耳环** Gambler's Earrings
@@ -2280,51 +5971,80 @@
 - **赌徒的骰盅** Gambler's Dice Cup
 - **赌徒的胸花** Gambler's Brooch
 - **赌徒的羽饰** Gambler's Feather Accessory
+- **独舞之邀** Soloist's Solicitation
+- **独舞者的序幕** Soloist's Prologue
 - **毒蝎** Scorpion
 - **毒蝎尾部** Scorpion's Sting
-- **毒蕈林冠** Venomspore Crown
 - **独眼小宝总动员** Mighty Cyclops' Adventure!
 - **独眼小僧** Hitotsume Kozou
 - **镀银怀表** Silver Pocket Watch
 ## E
+- **遏浪** Tide Withholder
 - **恶犬管理规范** Bad Doggies
-- **恶王** Akuou
+- **恶龙的单片镜** Fell Dragon's Monocle
 - **厄瑞玻斯的秘密** Erebos' Secret
 - **呃，这可没想到…** Welp, Didn't Expect That
 - **厄伯哈特** Eberhart
-- **阿弥利多 / 生论派<ref name="Sumeru03">YouTube: [https://youtu.be/JrC7DTUsii8 Sumeru Preview Teaser 03: Prelude to Wisdom | Genshin Impact] (Official subtitles)</ref>** Amurta
+- **鳄齿锐波** Saw-Toothed Surge
+- **厄代尔** Edel
+- **噩地的代价** The Price of Desolation
+- **厄里那斯** Elynas
+- **厄灵之能** Spirit of Omen's Power
+- **噩梦的温床** Nursery of Nightmares
 - **恩眷万民的狮牙** Lion's Fang, Fair Protector of Mondstadt
+- **厄难之年** Year of Tribulation
+- **恩德盖** Ndenge
 - **恩古尔** Engur
+- **恩古迪** Ngendi
+- **恩加韦** Ngahue
+- **恩孔加** Nkunga
+- **恩里** Henri
+- **恩琳** Erinle
 - **恩内斯特** Ernest
 - **恩忒卡** Enteka
+- **恩铁戈** Nlteego
+- **恩托提亚** Ntotila
+- **恩肖** Earnshaw
 - **厄运的修辞** Rhetorics of Calamitas
+- **厄切敏** Etchemin
 - **二哥** Erge
 - **二重证据** Dual Evidence
 - **二净甸** Vissudha Field
 - **厄桑** Ehsan
-- **恶王丸** Akuoumaru
+- **厄舍** Uther
+- **恶王** Akuou
 - **恶曜卜词** Ominous Inscription
 - **鳄鱼肉干** Crocodile Jerky
+- **鳄鱼？水炮？大作战！** Crocs? Water Cannons? It's War!
+- **厄月将升** Balemoon Rising
 - **噩运绕行** Fortune's Favor
 ## F
 - **法兽灼眼** Blazing Eye
+- **法尔博** Farbal
 - **法尔伽** Varka
+- **法尔罗赫** Farruq
 - **法尔希** Pharez
+- **法尔扎** Farzah
 - **法尔扎妮** Farzaneh
 - **法厄同们全跳舞** The Phaethons' Syrtos
 - **伐伐伐伐木工** T—T—T—Timberhochwandi
 - **法伯德** Farbod
 - **法达摩加纳** Fata Morgana
 - **法德兰** Fadhlan
+- **法古观冥** Ancient Art of Perception
 - **发光髓** Luminescent Spine
 - **法哈德** Farhad
+- **法赫尔** Fakhr
 - **法加娜** Fargana
 - **法伽尼** Farghani
 - **发掘报告怎么写？** How Do You Write The Excavation Report?
+- **法坎佳** Wakanka
 - **法拉** Farrah
 - **法拉比** Farabi
 - **法拉玛兹** Faramarz
+- **法拉娜** Faranak
 - **法拉纳兹** Farahnaz
+- **「法拉西亚」** Frasiyav
 - **法莉巴** Fariba
 - **法里芭** Fariba
 - **法里德** Farid
@@ -2339,31 +6059,39 @@
 - **法鲁希** Varuch
 - **返尘** Dust to Dust
 - **范二爷** Fan Er'ye
+- **反其道而行** Taking the Opposite Route
 - **伐难** Bonanus
 - **范兵卫** Hanbei
 - **返场的高呼** Screamin' for an Encore
 - **防风药剂** Windbarrier Potion
 - **防患于未然** Prevention Measures
 - **方入巨渊初探勘** Chasm Spelunkers
+- **仿生摹行** Mimetic Replication
 - **方才的来信** A New Letter
+- **芳草馥奇** Ambrosial Verdance
+- **芳草庭闲** Verdant Longings
 - **防潮药剂** Desiccant Potion
 - **防尘药剂** Dustproof Potion
-- **放电** Discharge
 - **放假时间！** Time Off!
+- **方矩** Fangju
+- **方块戏法** Cubic Tricks
 - **芳林徘徊** Lost in Sweet Gentle Breezes
+- **方妮雅** Phonia
 - **放热瓶** Warming Bottle
+- **仿若无因飘落的轻雨** As Light Rain Falls Without Reason
 - **防沙壁** Wall of Samiel
 - **放松疗法** Relaxation Therapy
+- **放松时间** Down Time
 - **翻滚喷射** Rolling Spray
 - **方形元素飞弹机关** Square Elemental Projectile Blaster
 - **防雨的杉木货箱** Rainproof Fir Cargo Container
 - **防御力** {{tt|DEF|Defense}}
 - **方正地面** Square Paving
+- **纺坠终久之梦** An Everlasting Dream Intertwined
 - **繁花蒙茏** Flourishing Bloom
 - **繁华已逝** Decayed in the Darkness
 - **泛黄的信件** Yellowed Letter
-- **法涅斯** Phanes
-- **反抗军** Resistance
+- **繁绘隅穹** Painted Dome
 - **反论稽古** Paradoxical Practice
 - **繁忙的冒险家协会** Busy Adventurers' Guild
 - **梵米尔** Vermeer
@@ -2375,45 +6103,60 @@
 - **烦恼刈座** Tribulatio Demptio
 - **梵尼拉睿** Venerare
 - **番茄** Tomato
-- **反曲弓** Recurve Bow
 - **凡世致身** Hermit of Mortal Life
 - **反弹！** Deflection!
+- **燔天之时** Hour of Burning Skies
 - **饭团** Onigiri
 - **繁庑的丛草** Verdant Luxury
+- **繁弦急管** Trembling Strings and Rushing Reeds
 - **繁想奇境** Wonderland of Rumination
+- **帆影游风** Sailwind Shadow
 - **翻涌** Surge
+- **翻涌不歇的回忆** Ever-Surging Memories
 - **翻涌岩潮** Rumbling Stone
+- **翻鱼搅浪** Fishnado
+- **翻越朝霭之墙** Vaulting the Wall of Morning Mist
 - **法器** Catalyst
 - **罚球** Penalty
 - **法莎** Varsha
+- **法沙利亚狂想曲** Pharsalia's Rhapsody
 - **法兽趵趵** Marching of Xiezhi
 - **法兽座** Bestia Iustitia
 - **法斯宾** Fassben
+- **法斯捷** Faustier
+- **发条的舞曲** Clockwork Waltz
+- **发条机关引起的混乱** Meka Mess
 - **法图赫** Fateh
+- **法图纳** Fortuna
+- **法乌菈** Fawara
+- **发酵果实汁** Fermented Juice
 - **法医室的研究日志内页** Forensic Office Research Log Excerpt
 - **法伊兹** Fayez
+- **法杖敲击** Striking Staff
 - **非花非雾** Neither Flower Nor Mist
 - **绯花之壶** Scarlet Vessel
 - **肺棘鱼** Lunged Stickleback
-- **飞雷之弦振** Thundering Pulse
-- **飞雀扰剑意** The Sparrow Studies the Blade
-- **匪石** No Mere Stone
 - **废图毁腾** Totaled Totem
 - **非自愿的祭献** Involuntary Sacrifice
+- **费恩** Fein
 - **菲恩** Fynn
 - **菲尔戈黛特** Verr Goldet
 - **费尔比** Philby
 - **菲尔纳斯** Firnas
+- **菲尔汀** Fielding
+- **飞迸湍流二重奏** Spino Doubleblaster
 - **非必要需求** Non-Obligatory Request
 - **飞彩镌流年** Fleeting Colors in Flight
-- **飞彩镌流年** Fleeting Colors in Flight
 - **飞驰如风** Swift as the Wind
+- **菲茨罗伊** Fitzroy
+- **菲德兰** Fidelin
+- **费迪南德** Ferdinand
+- **菲多赫** Fedhri
 - **非法飘荡** Felonious Floaters
 - **飞飞** Fei the Flyer
 - **绯红玉髓** Crimson Agate
 - **绯红之愿** Crimson Wish
 - **飞花照船，海上捞月** Petal-Lit Ships Fish For the Moon
-- **飞雷御执** Rule by Thunder
 - **费雷斯特** Feresht
 - **肥料…推销员？** Fertilizer... Salesperson?
 - **菲莉吉丝** Ferigees
@@ -2421,29 +6164,34 @@
 - **菲利斯・尤格** Félix Yogue
 - **菲利特** Ferit
 - **费罗兹** Feroz
+- **菲米尼** Freminet
+- **菲米尼的命星** Freminet's Stella Fortuna
 - **绯木村** Higi Village
 - **废弃的「凝成泥土」** Discarded "Concresoil"
+- **废弃生产区** Abandoned Production Zone
 - **飞泉锦簇** Luscious Bloom
+- **飞雀扰剑意** The Sparrow Studies the Blade
 - **飞蛇** Flying Serpent
 - **飞蛇之角** Flying Serpent's Horn
 - **飞身趟马** Thespian Gallop
-- **飞矢传书** Archer's Message
-- **非时之梦・常世灶食** Timeless Dream: Eternal Stove
+- **匪石** No Mere Stone
+- **费索勒** Faissolle
 - **飞毯之旅** On a Magic Carpet Ride
-- **飞天大御剑** Skyrider Greatsword
-- **飞天御剑** Skyrider Sword
 - **非想风天** Wind Realm of Nasamjnin
 - **飞翔是勇气的奖励** The Reward for Courage is Flight
-- **菲谢尔** Fischl
 - **菲谢尔的命星** Fischl's Stella Fortuna
 - **菲谢尔皇女夜谭** Flowers for Princess Fischl
+- **菲希里耶** Fusilier
 - **飞行的许可** License to Glide
 - **飞行冠军** Gliding Champion
 - **飞行冠军** Gliding Champion
 - **飞星聚彩，愿刻华年** The Stars Inscribe the Year's Wishes
 - **飞行挑战** Gliding Challenge
 - **飞行指南** Gliding Instruction Manual
+- **菲欣妮** Freycinet
+- **废墟的故事** A Ruined Tale
 - **飞叶迴斜** Floral Sidewinder
+- **菲耶蒂娜** Fietena
 - **飞萤<ref name="Archive">{{Ref/Enemy|Hydro Cicin}}</ref>** Cicin
 - **飞蝇假饵** Fake Fly Bait
 - **绯樱天妇罗** Sakura Tempura
@@ -2451,15 +6199,20 @@
 - **绯樱绣球** Sakura Bloom
 - **绯樱引雷章** Sakura Channeling
 - **绯樱饼** Sakura Mochi
-- **翡玉法球** Emerald Orb
 - **翡玉斧枪鱼** Halcyon Jade Axe Marlin
 - **翡玉什锦袋** Jade Parcels
+- **飞鱼、热浪和月亮贝** Flying Fish, Heat Waves, and Moon Scallop
 - **飞越水疗馆** I'll Skip the Spa, Thanks
 - **飞跃医院** One Flew Over the Sick Men's Rest
+- **菲约尔** Filliol
 - **飞云商会** Feiyun Commerce Guild
 - **绯云文斋** Feiyun Study Room
 - **绯云坡** Feiyun Slope
 - **粉糖青酿** Sugary Brew
+- **忿怒的报偿** Wrathful Recompense
+- **纷变繁相豪武谭** Endless Forms Most Martial
+- **分布式前进补给站** Distributed Forward Supply Depot
+- **分道誓约之厅** Hall of Parting Vows
 - **芬德** Vind
 - **芬德尼尔之顶** Peak of Vindagnyr
 - **风** Anemo
@@ -2469,7 +6222,6 @@
 - **风带来的圣歌** Windborne Hymn
 - **风带来的思念** Thoughts Carried On the Wind
 - **风的传说** Legend of the Wind
-- **风定天晴** Under the Sun
 - **风花纪行** Windborne Blossoms
 - **风花球** Bloom Balloon
 - **风晶蝶** Anemo Crystalfly
@@ -2482,22 +6234,24 @@
 - **枫木拱顶墙** Maple Wood Vaulted Wall
 - **枫木转角阶梯** Maple Wood Cornering Stairs
 - **风飘浮灵** Anemo Specter
+- **风起潮涌** Gathering Tempest
 - **风起风息** Windrise, Windfall
 - **风丘丘萨满** Anemo Samachurl
 - **风圈** Wind Ring
 - **风圈球** Wind Ring Balloon
 - **丰穰的春雷** Spring Thunder of Fertility
+- **风散忽经年** With the Wind, Flowing Epoch
 - **风史莱姆** Anemo Slime
 - **风所爱之城** The City Favored by Wind
 - **风土的哲学** Philosophies of the Land of Wind
 - **风息激荡** Gust Surge
 - **枫袖奇谭** Maple Monogatari
 - **风压剑** Gale Blade
-- **风与花的密语** Whispers of Wind and Flower
 - **风与花之梦** Dream of Wind and Flowers
 - **风与牧歌之城** City of Winds and Idylls
 - **风与异乡人** The Wind and The Star Traveler
 - **风与异乡人** The Wind and The Star Traveler
+- **风与自由** Wind and Freedom
 - **风之虔护** Favonian Devotion
 - **风之寻宝罗盘** Anemo Treasure Compass
 - **风之翼随风而起** Glide With the Wind
@@ -2513,11 +6267,25 @@
 - **风波冲击** Galeforce Shock
 - **风缠** Windtangler
 - **风车菊** Windwheel Aster
+- **枫达** Fonta
 - **枫丹** Fontaine
+- **枫丹** Fontaine
+- **枫丹地灵龛之钥** Fontaine Shrine of Depths Key
+- **枫丹动能工程科学研究院区** Fontaine Research Institute of Kinetic Energy Engineering Region
+- **枫丹动物寓言集** Fables de Fontaine
+- **枫丹肥肝** Fontainian Foie Gras
+- **枫丹科学院** Fontaine Research Institute
+- **枫丹洋葱汤** Fontainian Onion Soup
+- **枫丹式的消息** A Fontainian Message
 - **枫丹廷** Court of Fontaine
+- **枫丹廷区** Court of Fontaine Region
+- **枫丹廷，二三事** Tales From the Court
+- **风定天晴** Under the Sun
+- **封冻喷剂** Freezing Spray
 - **逢福玉符** Affluence Talisman
 - **风干的花朵** Dried Flower
 - **风干的小花** Little Dried Flower
+- **风滚草** Tumbleweed
 - **枫红之章** Acer Palmatum Chapter
 - **枫红座** Acer Palmatum
 - **风后宝矿** After the Storm
@@ -2525,32 +6293,42 @@
 - **风花的呼吸** Windblume's Breath
 - **风花的馈礼** Windblume Gift
 - **风花的邀约** Invitation of Windblume
-- **风花的邀约** Invitation of Windblume
-- **风花的邀约** Invitation of Windblume
 - **风化岩石** Weathered Rock
 - **风花与雪花** Windblumes and Snowflakes
-- **风花之颂** Windblume Ode
-- **风花之愿** Windblume Wish
 - **风花节** Windblume Festival
 - **风花节风景画片** Picture of Windblume Festival
 - **风花节纪念气球** Windblume Festival Commemorative Balloon
-- **风花节研究报告** Windblume Research Report
 - **风花节与冒险家** Adventurers in Windblume
+- **风花节研究报告** Windblume Research Report
 - **风纪官** Matra
 - **风静云起** Emerging Clouds
+- **封龛谒灵歌** Sealed Shrine's Spiritsong
+- **风涟** Fenglian
 - **风灵作成・陆叁零捌** Astable Anemohypostasis Creation - 6308
+- **风龙涤流** Dvalin's Cleansing
 - **风龙废墟** Stormterror's Lair
+- **凤缕随翦舞** Swallow-Wisp Pinion Dance
+- **锋芒难掩的茶会** A Tea Party Most Thorny
 - **丰美的鱼肉** Plump Fish
 - **风魔龙・特瓦林** Stormterror Dvalin
 - **枫木布面白狐玩偶** Maple Wood White Kitsune
 - **枫木褐彩地板** Brown Maple Flooring
 - **丰年有余** Bountiful Year
+- **蜂鸟之羽** Hummingbird's Feather
 - **风起鹤归** The Crane Returns on the Wind
 - **风起地** Windrise
+- **风清月白** The Nocturnal Firmament's Luster
+- **风圈** Anemo Ring
+- **丰穰之核** Bountiful Core
 - **丰饶的祝愿** Fecund Blessings
 - **丰饶绿洲** Sobek Oasis
+- **丰饶美地** Locus Amoenus
+- **丰饶之海** The Sea of Fertility
 - **丰饶之箱** Fecund Hamper
+- **锋刃林游增记** Asipattravana Itihasa
+- **锋刃林泽** Asipattravana Swamp
 - **风色诗人** Windborne Bard
+- **风沙轰鸣** Fulminating Sandstorm
 - **风神的宠儿** Beloved of the Anemo Archon
 - **风神与蒙德** Mondstadt and its Archon
 - **风神杂烩菜** Barbatos Ratatouille
@@ -2560,6 +6338,8 @@
 - **风蚀沙虫** Setekh Wenut
 - **丰收预兆的水果推车** Bountiful Harvest Fruit Cart
 - **风速枣椰** Ajilenakh Dash
+- **丰泰** Fengtai
+- **丰泰百货** Fengtai General Goods
 - **风土的指引** Guidance of the Land of Wind
 - **风涡剑** Palm Vortex
 - **风物留影** Breezy Snapshots
@@ -2572,17 +6352,15 @@
 - **枫香茶雾一室中** Of Maple and Tea Scents Entwined
 - **风向是会转变的** Winds Change Their Course
 - **风啸山坡** Galesong Hill
-- **风信之锋** Missive Windspear
 - **奉行牢狱，茶饭之所** Jailhouse Bread and Butter
 - **风行迷踪** Windtrace
-- **风行迷踪** Windtrace
+- **风行迷踪·谋策之局** Windtrace: Seekers and Strategy
 - **奉行所** Police Station
 - **奉行所的寻人委托** Tenryou Commission's Missing Person Poster
 - **风雅之里** Streets of Elegance
 - **逢岩** Fengyan
 - **风炎** Wind and Fyre
 - **风仪之舞** Shirasagi Princess
-- **风鹰剑** Aquila Favonia
 - **风佑之羽球** Wind-Blessed Harpastum
 - **枫原景春** Kaedehara Kageharu
 - **枫原景光** Kaedehara Kagemitsu
@@ -2599,16 +6377,22 @@
 - **焚毁之锋** Blade Ablaze
 - **芬尼克** Finnick
 - **忿怒的铁块** Irate Iron Chunk
+- **分歧的道路** Dividing Paths
 - **分歧的原点** Genesis of the Rift
-- **粉碎** Crush
+- **焚天的交燹** A Fiery Cross Across the Sky
 - **分头行动** Independent Actions
-- **分享须弥冒险日记 赢头像框及精美周边奖励** Share Your Sumeru Adventure Diary to Get Avatar Frames and Exquisite Merchandise!
+- **分析进度** Analysis Progress
+- **焚夜以炎** Night-Igniting Flame
+- **焚真之天象** The Sign of Apaosha
 - **佛玛洛鳐** Formalo Ray
+- **斧盾震击** Axe and Aegis
+- **抚今惟昔** Now and Then
 - **缚绝红尘** The World's Shackles
 - **缚灵通真法印** Spirit Communion Seal
 - **福内乌冬** Fukuuchi Udon
 - **伏青石** Hiding Grazestone
 - **傅三儿** Fu San'er
+- **浮土静界** The Upper Sanctum
 - **祓行** Cleansing Defilement
 - **附有记忆的面具** Mask of Memories
 - **负愿前行** Wishbearer
@@ -2616,43 +6400,71 @@
 - **福至五彩** Five Flushes of Fortune
 - **福阿德** Fouad
 - **伏鳌谷** Fuao Vale
+- **福尔茨** Foltz
+- **富尔蒙** Fourmon
 - **福本** Fukumoto
 - **福本** Fukumoto
+- **浮冰增压** Pressurized Floe
+- **福波斯** Phobos
 - **浮城** The Floating Palace
 - **福迪尔** Fodil
+- **浮光鸣召** Lightcall Resonance
+- **浮光摇日月** Xuanlian's Wavering Light
 - **浮光掠影** The Floating World
 - **富贵** Fugui
 - **富贵登门** May Fortune Find You
-- **富贵登门** May Fortune Find You
+- **富豪游戏** Game of the Rich
 - **负荷口味的既视感** The Flavor of Déjà Vu
 - **复合木材长途货车** Composite Timber Long-Distance Hand Cart
 - **复合木材港内转运货车** Composite Timber In-Port Transfer Cart
 - **拂花偈叶** Floral Brush
 - **浮幻生灭之仪** Rite of Mortal Water
+- **芙佳** Puca
+- **芙佳的「信物」** Puca's Token
+- **伏谏之刻** Juncture of Admonition
+- **浮锦** 
 - **浮金的誓愿** Golden Vow
 - **拂金剑斗术** Sandstorm Assault
 - **符景** Fujing
-- **芙卡洛斯** Focalors
 - **俯瞰风景** Overlooking View
 - **弗拉德** Vlad
 - **弗莱琪** Freki
+- **弗莱谢** Fleicher
 - **浮浪记** Tales From the Waves
 - **浮浪人的心机** Ominous Fandango
 - **浮浪人引起的混乱** Vagrant Havoc
 - **弗朗西斯** Francis
 - **富拉特** Furat
 - **芙蕾德莉卡・古恩希尔德** Frederica Gunnhildr
+- **弗雷瑞斯** Frejus
 - **弗里茨** Fritz
+- **芙里达** Freda
+- **弗丽德** Frida
+- **弗里曼** Freeman
+- **弗里斯兰** Fryslan
+- **洑流与白砂之歌** Song of the Eddies and Bleached Sands
+- **洑流剑** Flowing Eddies
 - **缚缡耶** Valaya
 - **伏龙树** Dragon-Queller
+- **浮露白霜** Ile flottante
+- **复律庭** Maison Gestion
+- **芙洛** Flo
+- **浮罗囿** Realm of Farakhkert
+- **福罗贝尔** Faurobert
 - **佛罗德洛克・弗朗孔斯汀** Froderock Fronkonsteen
 - **芙萝拉** Flora
 - **芙萝拉的书签** Flora's Bookmark
+- **弗洛莱恩** Florian
+- **弗洛朗** Florent
 - **复命** Report back
+- **芙宁娜** Furina
+- **芙宁娜的命星** Furina's Stella Fortuna
+- **伏尼契商会** Voynich Guild
 - **浮槃歌卷** Scroll of Streaming Song
+- **浮泡攻势** Bubblefloat Blitz
 - **父亲能做的事** Things a Father Can Do
-- **富人** Regrator
 - **芙蓉** Furong
+- **富商** Wealthy Merchant
 - **浮舍** Bosacius
 - **复生的急冻树** Resurgent Cryo Regisvine
 - **浮生石片** Plaustrite Shard
@@ -2662,9 +6474,12 @@
 - **浮世浮生千岩间** Of the Land Amidst Monoliths
 - **浮世笑百姿** Astute Amusement
 - **福斯福洛斯的指引** Phosphoros' Guidance
+- **福斯卡里** Foscari
 - **复苏的古岩龙蜥** Revived Primo Geovishap
+- **复苏水团** Recovery Orb
 - **复苏之风** Second Wind
 - **浮溯之珏** Flowing Rings
+- **复苏之门** Door of Resurrection
 - **复苏之梦** Dream of Awakening
 - **福图赫** Futuh
 - **扶危济困小月桂** Obliging Little Yuegui
@@ -2672,9 +6487,11 @@
 - **符文机关** Rune Mechanism
 - **符纹之齿** Runic Fang
 - **符文窗** Runic Window
-- **弗谢沃洛德先生** Mr. Vsevolod
+- **伏仙洞** Adeptus's Repose
+- **弗谢沃洛德** Vsevolod
 - **覆雪之国** A Land Entombed
 - **覆雪之路** Snow-Covered Path
+- **服翼之眼** Batwing Iris
 - **浮影掠光映百合** Flickering Petals
 - **服膺誓禁恪守无失** An Oath Abiding
 - **富永正也** Tominaga Masanari
@@ -2683,47 +6500,52 @@
 - **浮游干核** Spectral Husk
 - **浮游晶化核** Spectral Nucleus
 - **浮游水蕈兽** Floating Hydro Fungus
-- **浮游四方的灵云** Wandering Clouds
 - **浮游幽核** Spectral Heart
 - **浮岳虹珠** Drifting Luminescence
 - **浮云霜天** Frozen Skies
 - **附赠的下酒菜** Complimentary Bar Food
 - **腐殖龙髓** Festering Dragon Marrow
 - **腐殖之剑** Festering Desire
-- **腐殖之剑** Festering Desire
 - **腐殖之牙** The Festering Fang
+- **负重锥击** Weighted Spike
 ## G
 - **伽塔** Gata
 - **盖曼** Gaiman
+- **改良型·平衡稳定器** Improved Stabilizer
 - **盖伊** Guy
 - **咖喱虾** Curry Shrimp
 - **感别之冠** Crown of Parting
+- **干锅腊肉** Cured Pork Dry Hotpot
 - **干草货棚** Straw Shed
 - **干草货站** Straw Depot
 - **干草庐屋** Straw Hut
 - **干炒鱼河** Stir-Fried Fish Noodles
 - **感电** Electro-Charged
 - **钢脊** Steel Fang
-- **钢轮弓** Compound Bow
 - **刚摘下的嘟嘟莲** Freshly-Picked Calla Lily
 - **刚摘下的塞西莉亚花** Freshly-Picked Cecilia
 - **刚摘下的香辛果** Freshly-Picked Harra Fruit
 - **刚摘下的小灯草** Freshly-Picked Small Lamp Grass
 - **港口驶过几艘船，二四六七八** One Ship, Two Ships, Three Ships...
 - **冈林** Okabayashi
+- **牨龙座** Carnotaurus
 - **冈崎绘里香** Okazaki Erika
 - **冈崎久仁彦** Okazaki Kunihiko
 - **冈崎陆斗** Okazaki Rikuto
 - **冈崎寅卫门** Okazaki Toraemon
 - **钢铁炽焰** Fire and Steel
-- **干锅腊肉** Cured Pork Dry Hotpot
-- **刚毅** Fortitude
+- **港湾牛肚** Tripes du Port
 - **甘金岛** Amakane Island
 - **干净利落** Nice and Clean
+- **柑橘** Citrus
 - **干枯的种子** Shriveled Seed
 - **甘乐** Kanra
 - **甘乐的相思之意** Kanra's Thoughts
 - **干裂枝碎** Woodchuck Chucked
+- **甘露花海** Vourukasha Oasis
+- **甘露之赐** The Gift of Amrita
+- **甘露之心** Heart of Amrita
+- **甘露池** Amrita Pool
 - **甘露饵** Sugardew Bait
 - **干烧香鱼** Dry-Braised Salted Fish
 - **绀田传助** Konda Densuke
@@ -2735,6 +6557,8 @@
 - **感谢信** Thank-You Letter
 - **甘雨** Ganyu
 - **甘雨的命星** Ganyu's Stella Fortuna
+- **干燥的木柴** Dry Firewood
+- **甘珠尔** Ganjul
 - **绀紫蔷薇** Purple Rose
 - **高斐** Gao Fei
 - **高老六** Gao the Sixth
@@ -2752,6 +6576,7 @@
 - **高大的桦树** Tall Birch
 - **高大阁楼的乡间住宅** Country Home With Tall Attic
 - **高等元素论** Elemental Gauge Theory
+- **高飞信标** Soaring Beacon
 - **高风的演试** Highwind Trial
 - **高光时刻<ref name=drumalong />** Time to Shine<ref name=drumalong>Event: [[The Almighty Arataki Great and Glorious Drumalong Festival]]</ref>
 - **高贵的诀别** A Noble Sacrifice
@@ -2761,24 +6586,31 @@
 - **高级牌手徽章** Advanced Player Badge
 - **告解之仪** The Wages of Sin
 - **高美** Takami
+- **高门的谒礼** Sublime Salutations
 - **高桥** Takahashi
 - **高善** Kouzen
 - **高山** Takayama
 - **高耸的木杆** Tall Wooden Pole
 - **高速水泡机关** Hi-Speed Mist Bubble Device
+- **高速水泡机关** High-Speed Mist Bubble Device
 - **高塔孤王的残垣** Debris of Decarabian's City
 - **高天的协奏** Concerto dal Cielo
 - **高天之歌** Skyward Sonnet
 - **高翔之翎** Skyfeather
+- **高压水流溢口** High-Pressure Water Vent
+- **高崖与深谷的漫歌** Canto General of Cliff and Glen
 - **膏腴土地下的唤雨之曲** A Prayer for Rain on the Fecund Land
+- **高跃助益** Lightness Buff
 - **歌仙座** Carmen Dei
 - **各有职责** To Each Their Duty
 - **格奥尔格** Georg
+- **戈尔代** Gordes
 - **戈尔珊** Golshan
 - **戈布利** Gobley
-- **歌尘浪市真君** Streetward Rambler
+- **歌黛妮** Goldoni
 - **歌德** Goth
 - **歌德大酒店** Goth Grand Hotel
+- **格斗龙龙！大决斗！** The Punchy Saurian!
 - **戈哈尔** Gohar
 - **给「枕玉」的礼物** Zhenyu's Gift
 - **给常九爷的礼物** Chang the Ninth's Gift
@@ -2788,21 +6620,39 @@
 - **给猫猫狗狗的礼物** Bits and Bobs for Cats and Dogs
 - **给乔姨的杏仁豆腐** Aunt Qiao's Almond Tofu
 - **给茱萸的金丝虾球** Zhuyu's Golden Shrimp Balls
+- **格莱** Guelet
+- **格莱丝** Gracie
+- **格兰维尔** Grainville
+- **格拉西亚** Gracia
 - **格雷戈** Greg
 - **格雷戈尔** Gregor
+- **格蕾丝蒂** Glaisti
+- **格蕾希艾** Graciette
+- **格蕾欣** Gretchen
 - **戈莉** Goli
+- **戈利科夫** Golikov
+- **格里斯潘** Grispan
 - **歌利亚** David and Goliath
-- **哥伦比娅** Columbina
+- **格伦德・雪奈茨维奇** Gerunt Snezhevich
+- **戈伦德兰** Grundeland
+- **格罗贝尔** Grobel
+- **格洛德克** Grudoc
 - **葛罗丽** Glory
 - **葛罗丽的蒲公英籽** Glory's Dandelion Seeds
 - **葛罗丽的心愿** Glory's Wish
+- **格罗斯利** Grosley
+- **歌麿** Utamarou
 - **亘古的韵律** Rhythm from Ancient Times
+- **根本就没藏嘛！** What Do You Mean, You Hid Them?
+- **格内薇芙** Genevieve
 - **根付之源** Netsuke no Gen Crafts
 - **更加合适的人选** Someone More Capable
 - **更上一层楼** Level Up
 - **亘古的苍星** The Ancient Azure Stars
-- **亘古的苍星** The Ancient Azure Stars
+- **亘古树海之一瞬** Everamber
 - **耕一** Kouichi
+- **GENSHIN CONCERT TOUR - 原神交响音乐会 - 无际之旅的旋律** GENSHIN CONCERT TOUR - GENSHIN CONCERT - Melodies of an Endless Journey
+- **GENSHIN CONCERT TOUR - 原神交响音乐会 - 无际之旅的旋律** GENSHIN CONCERT TOUR - GENSHIN CONCERT - Melodies of an Endless Journey
 - **根子的片语** Chatter Between Roots
 - **搁浅的愿景** Stranded Wish
 - **葛瑞丝** Grace
@@ -2822,25 +6672,41 @@
 - **鸽子习惯一去不回** Pigeons Go AWOL
 - **鸽子、鸭子、小孩子** Pigeon, Duck, and Child
 - **弓** Bow
-- **弓藏** Rust
 - **工程暂驻点** Temporary Work Quarters
 - **宫岛** Miyajima
 - **宫地** Michiya
 - **工地记录** Worksite Records
+- **共睹那日之将落** As One We Watch the Setting Sun
+- **龚古尔** Goncourt
+- **贡祭炽心的惶恐** Blazing Sacrificial Heart's Terror
 - **攻击力** {{tt|ATK|Attack}}
+- **攻坚特化型机关** Assault Specialist Mek
+- **公爵的恩馈** The Duke's Grace
 - **公俊** Gongjun
+- **公理的决裁** Axiomatic Judgment
+- **公理终有辩诉之日** There Shall Be a Plea for Justice
 - **公明** Gongming
+- **共鸣珊瑚珠** Resonant Coral Orb
 - **宫崎兼雄** Miyazaki Kaneo
 - **宫崎三朗** Miyazaki Saburou
 - **攻守易形著神机** Exquisite be the Jade, Outshining All Beneath
+- **贡托雷** Gontharet
 - **公义** Masanori
+- **公义的潮水** Tides of Justice
+- **工艺家的奇想** A Craftsman's Curious Conceptions
 - **共饮之杯** Cup of Commons
+- **攻阵气势** Attacking Momentum
+- **攻逐飨会** Feast of Pursuit
+- **共逐星华** Chasing Starlight With You
 - **公主之匣** Princess' Box
+- **公子的「神之眼」** Childe's Vision
+- **工作的意义是…？** What is the Meaning of Work?
 - **工作迫近** Pressing Deadlines
 - **狗三儿** Gou San'er
 - **钩钩果** Wolfhook
 - **篝火大作战** Operation Bonfire
 - **购买情报的资金袋** Bag of Intel Transaction Funds
+- **古茶树坡** Teatree Slope
 - **古法新造御伽木货箱** Replica Ancient Otogi Crate
 - **古法新造御伽木酒桶** Replica Ancient Otogi Keg
 - **孤芳** Solitary Fragrance
@@ -2855,7 +6721,9 @@
 - **古恩希尔德小传** Biography of Gunnhildr
 - **古尔根** Gurgen
 - **古绿洲记事** Records of the Ancient Oases
-- **怪谭・时雨心地一本足** Kaidan: Rainfall Earthbinder
+- **怪盗重现人间** The Phantom Thief's Reappearance
+- **怪盗与名侦探** Robben versus Chesterton
+- **怪笑猫猫帽** Grin-Malkin Hat
 - **怪异的痕迹** Strange Mark
 - **关宏** Guan Hong
 - **关垂** Guanchui
@@ -2865,6 +6733,8 @@
 - **光界** Light Realm
 - **光界之核** Light Realm Core
 - **光界之印** Light Realm Sigil
+- **光与影的戏术** Conjuring {{w|Chiaroscuro}}
+- **光之大地** Where the Light Touches
 - **光之流溢** Overflowing Light
 - **光彩渐逝的故事** In Stories of Fading Light
 - **光潮的幻象** Tidal Illusion
@@ -2874,15 +6744,18 @@
 - **光华容彩祭** Irodori Festival
 - **光辉的季节** Glorious Season
 - **光辉的涨落** Photon of Fluctuation
+- **光降之剑** Lightfall Sword
 - **广袤的晴空** Vast and Blue
 - **光焰蹈跃** Radiant Sparks
+- **光之** Guangzhi
 - **光昼影底集** In the Light, Beneath the Shadow
 - **广竹** Guangzhu
 - **观海** Guanhai
-- **贯虹之槊** Vortex Vanquisher
 - **关怀备至** Utmost Care
+- **冠笄伶优** Coronated Prima Donna
 - **关键物资** Key Supplies
 - **关联条款** Proviso
+- **冠冕之争** To Claim the Crown
 - **关于货物交易的回函** Note Regarding an Exchange of Goods
 - **关于你与兰那罗的故事** Stories of You and the Aranara
 - **关于森林的故事** The Tale of the Forest
@@ -2893,13 +6766,14 @@
 - **关于月光的故事** Tale of the Moonlight
 - **关于拯救狸猫合影板这件事** About That Time We Saved the Tanuki Photo Board
 - **贯月的耀锋** Moon-Piercing Brilliance
-- **贯月矢** Moonpiercer
 - **罐装时光屋** The House of Canned Time
 - **罐装知识「单手剑战斗技巧・八」** Canned Knowledge "Swordfighting Techniques VIII"
 - **罐装知识包裹** Package of Canned Knowledge
 - **寡言的廷方** Tacit Tingfang
+- **古堡密室的钥匙** Key to the Castle's Secret Chamber
 - **菇测高度** The Measure of a Mushroom
 - **孤辰茕怀** Lonesome Transcendence
+- **古城的低语** Gurabad's Whisper
 - **古代生物调查** Paleontological Investigation in The Chasm
 - **古代文明的智慧** Wisdom of Ancient Civilizations
 - **古道笛声** Melodious Flute
@@ -2912,15 +6786,23 @@
 - **孤独的回响** Echoes of Solitude
 - **孤独的旅居** Lone Sojourner
 - **孤独的漫行者** Lone Drifter
+- **孤独的渊薮** Solitary Breach
 - **孤独而谨慎的冒险家** Lone and Cautious Adventurer
 - **古法秘制椰炭饼** Traditionally-Made Charcoal-Baked Ajilenakh Cake
+- **孤帆幽影** The Lone Phantom Sail
 - **孤风刀势** Blustering Blade
 - **孤高的美食家** Lofty Gourmet
 - **古高尔椅子** Googol Chair
 - **古高尔桌子** Googol Table
 - **古谷升** Furuya Noboru
+- **故国的回忆** Memories of Gurabad
+- **古海复涌之时** Parousia Diluvi
+- **古海孑遗的权柄** Heir to the Ancient Sea's Authority
+- **古海狂诗** Rhapsodia in the Ancient Sea
 - **古华** Guhua
 - **古华剑法** Guhua Style
+- **古华书剑谱** Scrolls and Sword Manuals of Guhua
+- **古华鱼羊鲜** Guhua Fish & Lamb Soup
 - **古华派** Guhua Clan
 - **古华派的大师兄** First Apprentice of Guhua
 - **鬼** Oni
@@ -2933,53 +6815,69 @@
 - **诡隐平台** Disappearing Platform
 - **归于遗忘和泥土** Immemorial Land
 - **圭璋，暝仍不移其晖** Jade, Shimmering through Darkness
+- **诡镇之梦** Petrichorror Dream
 - **鬼之恶** The Oni's Evil
 - **鬼之义** The Oni's Justice
 - **贵安** Gui'an
 - **鬼兜虫** Onikabuto
+- **归步过流尘** Through Ancient Veils
+- **归巢的猎鹰** Lo, There Do I See The Falcon
 - **轨道抛掷** Derailed
 - **归风佳酿节** Weinlesefest
 - **归风佳酿节节庆热度** Weinlesefest Festive Fever
 - **归风纪行** Returning Winds
+- **鬼话与甜酒** Shenanigans and Sweet Wine
+- **归火圣夜巡礼** Pilgrimage of the Return of the Sacred Flame
+- **归火圣夜巡礼** Pilgrimage of the Return of the Sacred Flame
 - **归寂之庭** Court of Desolation
 - **诡境** Deceitful Domain
 - **龟井宗久** Kamei Munehisa
 - **诡谲的「御神签」** Strange Fortune Slip
-- **诡谲活力** Curious Vitality
 - **归客的轻歌** Joy of Returning
-- **归离原寻宝纪事** Guili Plains Treasure Hunt
 - **归离集** Guili Assembly
 - **归离原** Guili Plains
+- **归离原寻宝纪事** Guili Plains Treasure Hunt
 - **鬼隆** Onitaka
 - **归芒携信** Light's Remit
 - **鬼门斗宴** Oni's Royale
 - **桂木** Katsuragi
-- **桂木斩长正** Katsuragikiri Nagamasa
 - **归属不明的拉面优惠券** Unattributed Ramen Voucher
+- **归乡** Homecoming
 - **桂一** Keiichi
 - **诡异的羊皮卷** Strange Parchment
+- **规章问题** Regulatory Issues
 - **鬼之傲** The Oni's Pride
 - **归终** Guizhong
-- **归终** Guizhong
 - **归终机维护材料** Guizhong Ballista Maintenance Material
-- **归终机** Guizhong Ballista
 - **贵族的自省** Aristocratic Introspection
 - **痼疾** Chronic Illness
 - **孤舰履孤云** A Lone Ship In Guyun
 - **孤剑争逐** Clash of Lone Blades
+- **古旧的佣兵笔记** Mercenary's Aged Notes
 - **古旧地图** Ancient Map
+- **孤客之旅** Lonesome Road
+- **古拉卜** Gulab
 - **古拉布吉尔** Gulabgir
 - **古拉布吉尔的特制宠物蛇口粮** Gulabgir's Special Pet Snake Food
 - **古拉姆** Ghulam
 - **古老的锻造图谱** Ancient Forging Blueprint
+- **古老的刻录环** Ancient Inscribed Ring
+- **古老的日志** Ancient Log
 - **古老的石板** Old Stone Slate
 - **古老的石制钥匙** Ancient Stone Key
-- **锅巴** Guoba
-- **锅巴** Guoba
+- **古老的书卷** Ancient Volume
+- **古老的颜色** Ancient Colors
+- **古老的钥匙** Ancient Key
+- **孤暝厄月** Dire Balemoon
+- **古名寻回之旅** To Reclaim an Ancient Name
+- **谷木的残灵** Residual Pari of the Forest
+- **滚雷驰骤之仪** Rite of Rolling Thunder
 - **锅巴出击** Guoba Attack
 - **锅巴凶猛** Guoba Mad
-- **国崩** Kunikuzushi
-- **过当防卫** Overprotectiveness
+- **过饱和心意注射** Super Saturated Syringing
+- **过当防卫** Over&shy;protectiveness
+- **果果软糖** Pate de Fruit
+- **果果仙酪** Fruity Smoothie
 - **郭狐之章** Vulpes Zerda Chapter
 - **郭狐座** Vulpes Zerda
 - **果酱** Jam
@@ -2987,28 +6885,37 @@
 - **过量的思念** For the Love of Godwin
 - **果木泛用阶梯** Common Wooden Stairs
 - **果酿饵** Fruit Paste Bait
+- **过去与未来** Past and Future
+- **过熟的火榴果** Overripe Flamegranate
 - **果蔬商贩的谨慎** Fruit Seller's Caution
 - **果蔬商贩的劳累** Fruit Seller's Toil
 - **国王刺客** Assassin of Kings
+- **果味奶糖** Fruit-Flavored Milk Candies
 - **果香串烤** Fruity Skewers
-- **过载** Overloaded
 - **果汁** Juice
+- **古齐安** Gouzien
 - **故去的追忆** Past Memories
 - **故人的哀嗔** Sigh of an Old Friend
 - **故人 久未归** All's Well That Ends Well
 - **故人之心** Heart of Comradeship
+- **古塞尼科夫** Guselnikov
+- **古瑟雷德** Guthred
 - **古山** Furuyama
 - **孤身犯险** Solo Venture
 - **故事构思法** Storytelling Method
+- **故事始于无雨的森林** The Story Begins in a Forest Without Rain
 - **古戍苍苍** Defenders' Volition
 - **古树的报偿** Frostbearing Tree's Gratitude
 - **古思塔斯普** Goshtasb
+- **古斯托特** Gosoythoth
 - **古田** Furuta
 - **古闻之章** Historia Antiqua Chapter
+- **孤心沙龙** Salon Solitaire
 - **孤星的憧憬** Lonely Star's Longing
 - **古星命定之地** Where Ancient Stars Align
 - **古岩龙蜥** Primo Geovishap
 - **孤影徘徊** Wanderings of a Lonesome Shadow
+- **雇佣守则石板** Employment Code of Conduct Tablet
 - **孤云寒林的辉岩** Lustrous Stone from Guyun
 - **孤云寒林的圣骸** Relic from Guyun
 - **孤云寒林的光砂** Luminous Sands from Guyun
@@ -3020,22 +6927,27 @@
 - **古泽** Furusawa
 - **孤注一掷** Breaking Point
 ## H
+- **哈恩薇** Hanwi
+- **哈尔乔** Harjo
 - **哈尔瓦** Halva
 - **哈尔瓦尼** Hulwani
 - **哈巴奇** Habachi
 - **哈比** Habi
+- **哈比卜** Habib
 - **哈德森列兵** Private Hudson
+- **哈多** Haddo
 - **哈夫丹** Halfdan
-- **哈艮图斯** Haagentus
 - **海伯** Uncle Hai
 - **海的那头是故乡** Home Lies Over the Ocean
 - **海底几万里？** N-Thousand Leagues Under the Sea
 - **海歌纪行** Oceansong
 - **海皇香脂** Emperor's Balsam
+- **海精座** Nereides
 - **海蓝蟹** Ocean Crab
 - **海染砗磲** Ocean-Hued Clam
 - **还算清晰的记录画片** Somewhat Clear Image
 - **海渚月舟** The Moon, A Ship O'er the Seas
+- **海岸到瞭望台** Coast to Watchtower
 - **还、还要续杯？** A&mdash;Another Round?
 - **海灵芝** Sea Ganoderma
 - **海芭夏** Haypasia
@@ -3043,7 +6955,6 @@
 - **海达** Haydar
 - **海岛精灵** Ariel's Footprints
 - **海盗秘宝** Secret Pirate Treasure
-- **海灯节** Lantern Rite
 - **海灯节** Lantern Rite
 - **海灯节** Lantern Rite
 - **海灯节的诗与画之二** Verses and Vistas of Lantern Rite (Part II)
@@ -3057,15 +6968,23 @@
 - **海灯节特色热卤面** Lantern Rite Special Noodles with Mountain Delicacies
 - **海灯节特色炸萝卜丸子** Lantern Rite Special Fried Radish Balls
 - **海灯节，大生意？** Lantern Rite, Big Business?
+- **海底寻宝** Underwater Treasure Hunt
 - **海迪夫** Khedive
 - **海斗** Kaito
+- **海杜菈** Hadura
+- **海风的馈赠** Regali teneri
 - **海风细语** Whispering Seabreeze
 - **海风之梦** Sea Breeze Dandelion
+- **海风中的相会** Sea Breeze Rendezvous
+- **海精之章** Nereides Chapter
 - **海蓝纪行** Azure Main
+- **骇浪迸发** Billowing Tide
 - **骇浪派** Stormcrest Pie
 - **海勒西斯** Haeresys
 - **海莉** Hillie
 - **海龙** Sea Drake
+- **海露港** Romaritime Harbor
+- **海露花** Romaritime Flower
 - **海乱鬼** Kairagi
 - **海乱鬼引起的混乱** Kairagi Chaos
 - **海乱鬼与浮浪人引起的混乱** Kairagi-Vagrant Pandemonium
@@ -3073,11 +6992,16 @@
 - **海伦的特效润喉茶** Helen's Special Blend
 - **海螺中的回音** Old Tales Preserved
 - **海面之下** Beneath the Surface
+- **海沫的欢语** Melody of Merusea
 - **海沫的少女** Lady of Seafoam
+- **海沫与流红的绘染** A Brush of Seafoam and Crimson
+- **海沫村** Merusea Village
+- **海魔王的宫殿** In the Hall of the Sea King
 - **海娜** Hana
 - **海内有明霄** Light Upon the Sea
 - **海宁** Henning
 - **海妮耶** Haniyyah
+- **海妮耶的「妙妙琼脂」赠礼** Haniyyah's Gift of Marvelous Jellies
 - **海妮耶的笔记** Haniyyah's Notes
 - **害怕的玛伽** Terrified Magar
 - **害怕的舒特** Terrified Schuster
@@ -3089,22 +7013,25 @@
 - **海祇之岛** Island of Crystal and Pearl
 - **海祇之冠** Crown of Watatsumi
 - **海祇岛** Watatsumi Island
-- **海祇军** Watatsumi Army<!--from Gorou's title-->
 - **海染之花** Sea-Dyed Blossom
 - **海人化羽** Nereid's Ascension
 - **海山** Haishan
 - **海上绮梦录** Mesmerizing Dream at Sea
 - **海上生活** Life on the High Seas
 - **海上盛珠钿** The Ocean Pearl
+- **海蚀裂隙** Rift of Erosion
 - **孩童** Child
 - **海亚姆** Khayyam
-- **海洋的胜利** Oceanic Victory
+- **海彦** Umihiko
 - **海洋生物学者，欧拉！** Bio-Oceanic Weapon
 - **海渊仙草灵验记** Divine Plant of the Depths
+- **海岳** Haiyue
 - **海月之誓** Kurage's Oath
+- **海中寻宝** Underwater Treasure Hunt
 - **海洲逐雾** Aphotic Diffusal
 - **哈贾娜德** Hajanad
 - **哈坎** Hakan
+- **哈卡乌** Hakau
 - **哈拉夫** Khalaf
 - **哈勒敦** Khaldun
 - **哈里** Harry
@@ -3113,6 +7040,7 @@
 - **哈里森** Harrison
 - **哈里斯** Harris
 - **哈里斯特制白汁时蔬烩肉** Harris' Special Cream Stew
+- **哈隆加** Haronga
 - **哈伦** Harun
 - **哈鲁特** Harut
 - **哈马沙** Hamasa
@@ -3121,10 +7049,10 @@
 - **哈姆宰** Hamzah
 - **寒策** Han Ce
 - **撼世的神雷** World-Shaker
-- **寒天之钉** Skyfrost Nail
 - **寒武** Han Wu
 - **寒氏** Han Family
 - **寒冰大盾** Hoarfrost Greatshield
+- **寒病鬼差** Herald of Frost
 - **寒冰系缚** Freezing Filament
 - **寒潮的余响** Abiding Chills
 - **寒锋** Hanfeng, "Cold Blade"
@@ -3133,33 +7061,57 @@
 - **寒锋铁器** Hanfeng's Ironmongers
 - **航路留书** Sea Route Log
 - **寒光裂涛** Combat Beneath the Waves
+- **瀚海亦舞台** The Sea Is My Stage
 - **寒寂中盛放** Frostbiting Bloom
+- **寒晶的遐梦** Frigid Reverie
 - **寒苦回向** Ascetics of Frost
 - **酣乐之殿** Bayt Al-Sukr
+- **瀚漠冥茫** Nebulous Dunes
+- **汉佩克** Hampeq
+- **韩迁** Hanqian
+- **寒泉** Hanquan
+- **酣然一梦** Lovely Dreams
 - **酣睡的郁林** A Drowsy Sensation
 - **寒天宣命祝词** Kanten Senmyou Blessing
 - **寒天之钉** Skyfrost Nail
+- **寒天之钉** Skyfrost Nail
 - **翰学** Hanxue
 - **寒夜月如霜** On a Cold Night
+- **酣悦晶石** Felicitous Joyspar
+- **汉扎** Hunza
 - **憨状可掬梧枝团** Mischievous Villosas
+- **好吧，艾尤恩** Alright, Iaune, Alright
+- **好东西，坏品味** Good Stuff, but Terrible Taste
+- **好东西，坏品味・续** Good Stuff, but Terrible Taste &mdash; Continued
 - **好兆头** Good Sign
 - **好吃的谜语** Delicious Riddle
 - **豪荡戏台** The Spotlight's on Me!
 - **好感经验** Companionship EXP
 - **好好学习** That'll Learn Them!
+- **耗竭模式** Exhaust Mode
+- **豪卡** Hawka
+- **好梦，枫丹** A Sweet Dream in Fontaine
+- **好奇的调查员** Curious Investigator
 - **好奇的嫣朵拉** Inquisitive Endora
 - **好奇的子瑞** Curious Zi'rui
+- **好事多磨** Were It So Easy
 - **浩司** Hiroshi
+- **豪特利** Xoctli
+- **好心的纸蛙** Kind Paper Frog
+- **好运传递** Pass the Luck
 - **好运剑** Strike of Fortune
 - **浩仔** Hao
+- **哈萨德** Hasad
 - **哈桑** Hassan
 - **哈特曼** Hartman
 - **哈特姆** Hatim
 - **哈瓦** Hawa
 - **哈瓦德** Hawad
 - **哈瓦玛玛兹** Halvamazd
+- **哈维沙姆** Havisham
 - **哈彦** Hajjan
 - **哈扬** Hayyan
+- **哈亚提** Haryadi
 - **哈兹姆** Hazm
 - **鹤归之时** When the Crane Returned
 - **鹤径折旋之所** Chamber of Twisted Cranes
@@ -3173,78 +7125,105 @@
 - **鹤观** Tsurumi Island
 - **貉级忍者** Mujina-Class Ninja
 - **荷贝特** Helbet
+- **赫伯德** Humboldt
+- **喝彩吧，谢幕之时已至** Crepuscule des idoles
 - **喝彩球** Celebration Balloon
+- **合成台疑案** The Case of the Crafting Bench
 - **河谷的黯道** The Dark Valley
 - **鹤观之行** Journey to Tsurumi
 - **和合大梦的曲调** Melody of Brave Seeds
 - **赫赫雷涌起** Upon the Turbulent Sea, the Thunder Arises
 - **貉貉大作战** Muji-Muji Chaos!
 - **黑背猎犬** Black-Back Hound
-- **黑剑** The Black Sword
 - **黑晶号角** Black Crystal Horn
 - **黑猫** Black Cat
 - **黑蛇骑士的荣光** The Black Serpent Knights' Glory
 - **黑铜号角** Black Bronze Horn
 - **黑王鸽** Black King Pigeon
 - **黑雾，痛苦，像出生一样…** Birth Pains of the Dark Fog
+- **嘿！你的信！** Hey, Your Letter!
 - **黑暗却无法包容光…** Yet the Darkness Did Not Overcome It...
+- **黑尔佳** Helga
 - **黑白的画稿** Black and White Sketch
+- **黑斑猫之章** Felis Fuscus Chapter
+- **黒斑猫座** Felis Fuscus
 - **黑背鲈鱼** Black-Back Bass
 - **黑谷势至丸** Kurotani Seishimaru
+- **黑金狼噬** Darkgold Wolfbite
+- **黑泥流中的光辉** Shining in the Mire
 - **黑染红绸** Shade Upon Red Silk
-- **黑日王朝** Eclipse Dynasty
-- **黑蛇骑士** Black Serpent Knight
-- **黑蛇众** The Black Serpents
+- **黑色幻影** Dark Shadow
+- **黑石湮落白石下** Black Stone Under a White Stone
+- **黑水晶号与吞金海怪** The Black Nacre and the All-Devouring Kraken
 - **黑田** Kuroda
 - **黑土之术** The Art of Khemia
 - **黑雾侵蚀** The Encroaching Dark
-- **黑岩长剑** Blackcliff Longsword
-- **黑岩刺枪** Blackcliff Pole
-- **黑岩绯玉** Blackcliff Agate
-- **黑岩斩刀** Blackcliff Slasher
-- **黑岩战弓** Blackcliff Warbow
 - **黑岩之困** Blackcliff Woes
 - **黑岩厂** Blackcliff Forge
+- **黑曜秘典** Obsidian Codex
 - **黑翳渐浓隐凶险** Perils in the Dark
-- **黑缨枪** Black Tassel
 - **黑羽鸣镝** Crowfeather Kaburaya
+- **黑鸢的密喻** Black Kite's Enigma
 - **黑泽京之介** Kurosawa Kyounosuke
+- **黑字的研究** A Study in Sable
+- **合剂演进** Brewing Developments
+- **和记厅** Communications Office
+- **赫卡** Helka
 - **鹤立** Heli
+- **鹤唳远人间** Aloof From the World
+- **赫曼努比斯** Hermanubis
+- **赫曼逊** Hermanson
 - **鹤鸣清唳** The Crane Cries
 - **贺摩** Gama
+- **赫茉莎** Hermosa
 - **恨繁囿兮作土** No Restoring This Past Land of Beauty
+- **很高兴见到你** Nice to Meet You
 - **恒风随行** Windrider
 - **恒常机关之心** Perpetual Heart
 - **恒常机关阵列** Perpetual Mechanical Array
 - **横冲直撞** Flat Out
 - **恒动械画** Evermotion Mechanical Painting
+- **恒动械画-「晨曦酒庄」** Evermotion Mechanical Painting - Dawn Winery
+- **恒动械画-「璃月港口」** Evermotion Mechanical Painting - Liyue Harbor Wharf
+- **恒动械画-「骑士团图书馆」** Evermotion Mechanical Painting - Knights of Favonius Library
+- **恒动械画-「珊瑚宫」** Evermotion Mechanical Painting - Sangonomiya Shrine
+- **恒动械画-「天守阁」** Evermotion Mechanical Painting - Tenshukaku
+- **恒动械画-「望舒客栈」** Evermotion Mechanical Painting - Wangshu Inn
 - **衡断之心** Heart of the Scales
+- **横贯天际之花** A Flower that Blooms Across the Sky
 - **恒光元件** Everlight Cell
 - **恒静之梦** Blue Dream
 - **恒久之约** Lasting Promise
+- **横跨深渊的绳索** A Rope Over an Abyss
 - **亨利莫顿** Henry Morton
 - **衡量世界之人！** To Measure the World!
 - **恒亮不熄的提灯** Trusty Portable Lamp
 - **横山** Yokoyama
+- **横噬鲸吞** Ravaging Devourer
 - **恒素果** Vasoma Fruit
+- **亨特** Hunter
+- **衡听** Hengting
 - **恒雄** Tsuneo
 - **衡准大厅** Great Hall of Truths
 - **和平的祝愿** Peaceful Wishes
-- **和璞鸢** Primordial Jade Winged-Spear
+- **和平之后** After the Peace
 - **和泉那希** Izumi Naki
+- **何人所珍藏之花** Treasured Flower
 - **和声** Hesheng
-- **合朔之刻** Moment of Syzygy
 - **赫斯珀洛斯的好东西** Hesperus' Boons
 - **赫塔** Hertha
 - **河童** Kappa
+- **赫瓦特莉** Huatli
 - **赫乌莉亚** Havria
-- **和弦** Chord
+- **核心轮縠** Central Hub
+- **赫耀多方面体** Dazzling Polyhedron
 - **和裕茶馆** Heyu Tea House
 - **合韵纪行** Rhythm and Rhyme
 - **合韵纪行** Rhythm and Rhyme
 - **和昭** Kazuaki
+- **涸浊的花迹** Narcissus Without Water
 - **直江久政** Naoe Hisamasa
-- **红烩兽肉** Braised Meat
+- **洪分** Hung Fan
 - **红角蜥** Red Horned Lizard
 - **红莲开绽** Crimson Lotus Bloom
 - **红毹婵娟** Stage Lucida
@@ -3252,37 +7231,53 @@
 - **红尾鼬** Red-Tailed Weasel
 - **红衣斗笠稻草人** Farmer's Scarecrow
 - **红羽团扇** Red Feather Fan
-- **虹章座** Opera Grandis
 - **轰大叔** Todoroki
 - **红狐** Crimson Fox
+- **弘辩的溢神效应** The Great Fayz Reaction Debate
 - **虹彩华章** Iridescent Splendor
+- **虹彩蔷薇** Rainbow Rose
 - **红茶** Tea
 - **宏达** Hirotatsu
 - **红豆** Hongdou
 - **宏飞** Hongfei
+- **红冠雀** Redcrown Finch
 - **轰轰火花** Sparks 'n' Splash
+- **烘烘心羽鲈** Blazing Heartfeather Bass
+- **红烩兽肉** Braised Meat
 - **轰击之星** Nova Burst
 - **闳览博物** Encyclopedic Knowledge
 - **宏朗** Honglang
-- **轰雷荡击** Thunderous Slam
 - **轰雷的意志** Will of Thunder
+- **轰雷禁锢** Thundering Shackles
+- **轰雷图腾** Thunderclap Totem
+- **轰雷战锤** Thunderblast Hammer
 - **红莲冰河与红莲魔女** Icy Rivers, Crimson Witch
+- **红莲冰茧** Carmine Chrysalis
+- **红莲之蛾** Crimson Lotus Moth
 - **轰隆隆的大危机** A Crackling Crisis
 - **鸿如** Hongru
+- **虹色的摇篮曲** Rainbow Cradlesong
 - **红色钩钩果** Red Wolfhook
 - **红色染料** Red Dye
 - **虹色巡回** Iridescence Tour
+- **红烧肉圆** Braised Meatball
+- **轰霆翼斩** Thunderous Wingslash
 - **虹霞垂天** Rainbow at Summit
 - **鸿兴** Hongxing
 - **红叶逐荒波** Scarlet Leaves Pursue Wild Waves
 - **弘毅** Hongyi
 - **宏一** Kouichi
+- **红鱼** Hongyu
 - **宏宇** Hongyu
+- **虹章座** Opera Grandis
 - **厚壁「石胆」陶制水缸** "Kokutan" Thick-Walled Clay Water Tank
 - **候汝久时** The Astrologist Awaiting
 - **后日谈** Afterword
+- **吼法怖魔** Evil-Daunting Roar
 - **厚厚的笔记** Thick Notebook
+- **吼猴之尾** Howler Monkey's Tail
 - **后来的第二位** Second Who Came
+- **后日谈** Afterword
 - **侯赛因** Housein
 - **侯赛因的香辛果需求** Housein's Harra Fruits
 - **厚重的图书馆长桌** Sturdy Library Table
@@ -3290,7 +7285,8 @@
 - **狐耳玉子** Fox Ear Tamago
 - **呼呼大睡时间** Sleep O'Clock
 - **惚恍疑梦** Evanescent Moments
-- **胡家** Hu Family<!--placeholder - not found in-game; "The Hus" in Zhongli's Character Details-->
+- **胡家** Hu Family
+- **胡老 / 老胡头** Old Hu
 - **胡桃** Hu Tao
 - **胡桃的命星** Hu Tao's Stella Fortuna
 - **壶天** The Realm Within
@@ -3298,73 +7294,107 @@
 - **虎纹猫** Tiger-Striped Cat
 - **护心铠** Breastplate
 - **狐斋宫{{Sino|zh|ja}}** Kitsune Saiguu
+- **湖中垂柳** Weeping Willow of the Lake
 - **壶中贵客** Honored Guest of the Realm
+- **壶中景迥日月长** Long Days in the Realm Within
+- **壶中金匮** Trace of Grace
 - **壶中密友** Friend of the Realm
+- **胡阿库** Huaccue
 - **华池岩岫** Clear Pool and Mountain Cavern
 - **化海月** Bake-Kurage
 - **花开之洞天** My Blooming Abode
 - **画龙点睛** The Finishing Touch
 - **化木成像** Metamorphosis of Wood
 - **化神** Divine Attainment
-- **华饰之兜** Ornate Kabuto
+- **华饰之兜** Ornate {{w|Kabuto}}
+- **花与剑的轮舞** Rondeau des fleurs et des rapieres
+- **花与梦的祝诞** Dance of Sabzeruz
+- **花与树的女儿们** Maidens of Sanctity
 - **花与云之诗** Ode to Flower and Cloud
+- **画则巧施** Artistic Ingenuity
+- **花之归尘，羽之将坠** Of Fading Flowers and Falling Feathers
 - **化种匣** Seed Dispensary
 - **花洲有客栈** Business in a Marsh
+- **画、梦境和机器狗** Limner, Dreamer, and Robotic Dog
 - **花白锦画纸吹雪** Frostbloom Kamifubuki
 - **花坂豪快** Hanamizaka Heroics
 - **华彩纪行** Luxuriant Vibrance
+- **花车摇曳** Rocking Carriage
 - **化城郭** Gandharva Ville
 - **花初** Huachu
 - **花簇簇的漂流物** Iridescent Flotsam
 - **华灯星聚** Myriad of Lights
 - **花朵护身符** Florescent Talisman
+- **花歌唱片店** Xochicuicatl Records
 - **华馆梦醒形骸记** Husk of Opulent Dreams
 - **华馆之羽** Plume of Luxury
 - **华光林** Huaguang Stone Forest
+- **花果三重奏** Fruity Trio
+- **花海甘露之光** Vourukasha's Glow
+- **花海之梦** Simurgh's Dream
 - **花火职人心得** Pyrotechnic Professional
 - **怀宝应自珍** Share Not Your Treasures
 - **坏掉的霄灯灯罩** Broken Xiao Lantern Lampshade
+- **坏巫师的羽杖** Wicked Mage's Plumule
 - **淮安** Huai'an
 - **怀尔德** Wyatt
 - **怀尔德的黑色钥匙** Wyatt's Black Key
 - **怀尔德的红色钥匙** Wyatt's Red Key
-- **徊徊切舍刀** Wandering Striker
+- **坏蛋们** Villains
 - **槐柯胡蝶，傩佑之梦** Butterfly's Dream
 - **怀乡的原野** Plain of Nostalgia
 - **滑稽百出的醉相** Drunkards' Farce
+- **画家漂流记** An Artist Adrift
 - **花见坂** Hanamizaka
 - **花鳉** Medaka
+- **花镜百韵** Hyakuin of Blossoming Mirage
 - **花开有时** When Flowers Bloom
 - **花开之时** When Flowers Bloom
+- **哗啦啦逐浪客** Splish-Splash Wavechaser
 - **华丽玩具箱** Luxurious Toybox
+- **花灵** Pari
 - **华梦组曲** Phantasm Suite
 - **桦木** Birch Wood
 - **桦木双屉床头柜** Birch Double Drawer Nightstand
 - **桦木庭院正门** Birch Main Courtyard Gate
 - **唤雷的头冠** Thunder Summoner's Crown
+- **幻瑞兽座** Chimaera Alebriius
 - **鹮巷物语** Toki Alley Tales
 - **换班时间** Changing Shifts
 - **黄巨贾** Great Merchant Huang
 - **黄麻子** Freckle Huang
+- **黄丝绒沙龙** Yellow Velvet Salon
 - **荒波椛叶** Drifter's Destiny
 - **荒草啸鸣** Wild Shriek
+- **荒场的冒险家** Badlands Adventurer
+- **荒场的寻宝者** Badlands Treasure Hunter
 - **荒川幸次** Arakawa Kouji
 - **黄琮，破而不夺其坚** Topaz, Unbreakable and Fearless
 - **荒岛朝圣指南** Rise and Shrine
+- **荒废的预言** Omen of Desolation
 - **荒谷** Aratani
 - **荒海** Araumi
 - **荒寂旧土** Unbounded Barrenness
 - **黄金邦国的结末** End of the Golden Realm
 - **黄金沉眠之处** Golden Dreams
+- **黄金的大宫** Domus Aurea
+- **黄金飞鸟的落羽** Golden Bird's Shedding
+- **黄金剧团** Golden Troupe
+- **黄金剧团的奖赏** Golden Troupe's Reward
 - **黄金鲈鱼** Golden Bass
 - **黄金梦乡** Golden Slumber
+- **黄金侵绞** Golden Cankerbind
+- **黄金时代的先声** Golden Era's Prelude
 - **黄金王兽** Golden Wolflord
 - **黄金蟹** Golden Crab
 - **黄金蟹** Golden Crab
+- **黄金乐曲的变奏** Golden Song's Variation
+- **黄金之夜的喧嚣** Golden Night's Bustle
 - **黄金屋** Golden House
 - **荒泷・盛世豪鼓** Arataki's Great and Glorious Drum
 - **荒泷第一** Arataki Ichiban
 - **荒泷鬼副手** Arataki's Demonic Deputy
+- **荒泷甲光烈烈斗虫大修行** Arataki Blazing Armor Beetle Battle Boot Camp
 - **荒泷极上盛世豪鼓大祭典** The Almighty Arataki Great and Glorious Drumalong Festival
 - **荒泷极意堂堂斗虫大试合！** Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl!
 - **荒泷极意堂堂斗虫大试合** Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl
@@ -3372,16 +7402,26 @@
 - **荒泷一斗** Arataki Itto
 - **荒泷一斗的命星** Arataki Itto's Stella Fortuna
 - **荒泷派** Arataki Gang
+- **荒泷派的便携拉面** Arataki Gang's Instant Ramen
 - **荒泷派首席顾问** Arataki Gang Chief Advisor
+- **荒落的沙径** Deserted Path to Desert
 - **荒梦藏虞渊** Hidden Dreams in the Depths
 - **皇女幻绮谭** Her Pilgrimage of Bleak
 - **荒丘残月阴翳浓** Shadow of War
+- **煌荣之期** Glory and Decay
 - **黄色染料** Yellow Dye
+- **黄砂为衾** Empire of Sand
+- **荒沙与新月** Golden Crescent
+- **黄沙中的避风港** A Refuge in the Sands
 - **黄衫** Huangshan
 - **荒山孤剑录** Legend of the Lone Sword
+- **荒神烈沙录** Record of the Desolate God's Burning Sands
+- **荒石苍漠** Gavireh Lajavard
 - **黄铜戒指** Brass Ring
+- **幻光漫戏** Lustrous Trick
 - **荒墟的缅述** Soft Moans of the Remains
 - **荒野的霆雷** Clamor in the Wilds
+- **荒夜的阵风** Breeze in the Arid Night
 - **荒野猎手** Easy Does It
 - **黄油** Butter
 - **黄油鸡** Butter Chicken
@@ -3389,20 +7429,31 @@
 - **黄油松茸** Sautéed Matsutake
 - **黄油蟹蟹** Butter Crab
 - **晃盅者，琼畟药骰** Beware the Trickster's Dice
+- **还魂诗** Ode of Resurrection
 - **花鸟公园** Bird and Blossom Park
 - **花鸟喷泉** Bird and Blossom Design Fountain
+- **幻景的涂饰** The Illusion's Finishings
 - **幻梦之门** Phantasmal Gate
+- **桓摩达** Vamadha
 - **桓那兰那** Vanarana
 - **桓那兰那的青睐** Vanarana's Favor
 - **环佩凭栏望千帆** Maiden's Longing
 - **幻犬分身** Canine Bunshin
+- **欢荣的奇秘** Magick Without Tears
+- **欢赏流华** Bathing in Flowing Moonlight
 - **幻声留形** Resonating Visions
+- **唤石之咒** Summoning of Stones
 - **桓斯弥利底** Vasmrti
-- **欢腾之火** Kindlejoy
+- **环舞连斩** Whirling Lashes
+- **浣溪** Huanxi
+- **幻戏猫** Fantasticat
+- **欢夏！邪龙？童话国！** Summertide Scales and Tales
 - **幻象基石** Illusory Keystone
+- **幻写灵** Monetoo<!--plural: Monetoo-->
+- **唤醒「灵谷木」中的残灵** Awaken the Residual Pari in the Fravashi Trees
 - **幻形飞鸢・水** Hydro Mimic Raptor
 - **幻形鹤・水** Hydro Mimic Crane
-- **幻形花鼠・水** Hydro Mimic Ferret
+- **幻形花鼠・水** Hydro Mimic Squirrel
 - **幻形雀・水** Hydro Mimic Finch
 - **幻形豕兽・水** Hydro Mimic Boar
 - **幻形蛙・水** Hydro Mimic Frog
@@ -3410,10 +7461,14 @@
 - **幻形游禽・水** Hydro Mimic Mallard
 - **环形元素飞弹机关** Round Elemental Projectile Blaster
 - **幻鸦座** Corvus
+- **幻异的轻吟** Miraculous Whisper
+- **欢迎来到枫丹** Welcome to Fontaine
 - **欢迎来到冒险家协会** Welcome to the Adventurers' Guild
 - **欢迎来到提瓦特大陆** Welcome to Teyvat
 - **幻影心流** Phantom Flow
 - **欢愉的源泉** Whence the Flow Cometh
+- **欢跃信笺** Joyous Letters
+- **划破宁静的枪响** The Crack of Muskets Breaking the Silence
 - **华清** Huaqing
 - **华清归藏密宫** Hidden Palace of Guizang Formula
 - **椛染之庭** Momiji-Dyed Court
@@ -3421,11 +7476,11 @@
 - **华散之缘** Hanachirusato
 - **花散里** Hanachirusato
 - **桦山** Kabayama
-- **花神** Goddess of Flowers
 - **花神诞日 / 花神诞祭** Sabzeruz Festival
 - **花时来信** Springbloom Missive
 - **滑头鬼** Slippery
 - **画外旅照** Outside the Canvas, Inside the Lens
+- **画外旅照・浮露之章** Outside the Canvas, Inside the Lens: Dew-Kissed Chapter
 - **画外旅照・青植之篇** Outside the Canvas, Inside the Lens: Greenery Chapter
 - **花影瑶庭** The Floral Courtyard
 - **花语** Floral Whisper
@@ -3433,14 +7488,17 @@
 - **花园的精灵** Garden Fairies
 - **花园回忆** Garden Memories
 - **花云钟入月** Blossom Cloud Irutsuki
+- **花债血偿** Floral Debt, Blood Due
 - **华紫樱绯** Everbloom Violet
+- **蝴蝶** Butterfly
 - **蝴蝶翅膀** Butterfly Wings
-- **护盾** Shield
-- **护盾强效** Shield Strength
 - **护法夜叉** Vigilant Yaksha
 - **护法夜叉前踪疑** Glimmers of the Vigilant Yaksha
 - **护法之誓** Guardian's Oath
 - **呼风唤雨** Weather Control Activated
+- **湖光顶调** Lakelight Top Note
+- **湖光铃兰** Lakelight Lily
+- **呼唤流星之人** The Seeker of a Meteor Shower
 - **慧绝烟林** Nature's Infinite Wit
 - **晦蒙幽光** The Glooming Light
 - **辉少** Master Hui
@@ -3449,13 +7507,20 @@
 - **晦暗的戒指** Dull Ring
 - **晦暗刻像** Gloomy Statuette
 - **挥刀的理由** Why We Fight
+- **恢复助益** Healing Buff
 - **辉光棱晶** Radiant Prism
 - **慧光启曙** Fresh Breezes of Dawn
+- **灰河往事** Once Upon a Time in Fleuve Cendre
 - **灰灰** Ash
 - **卉卉** Huihui
+- **回火** Turnfire
+- **回火之狩** Turnfire Hunt
+- **灰烬的代价** The Ashen Price
 - **灰烬之心** Ashen Heart
+- **汇聚如浪潮一般** Gather Like the Tide
 - **会客室的温暖防线** Parlor Cordiality
 - **挥来挥去** Swing That Club
+- **灰蓝伞雀** Slate Umbrellafinch
 - **虺雷之姿** Thundering Poise
 - **慧明缘觉智论** Awakening Elucidated
 - **辉木** Brightwood
@@ -3469,42 +7534,50 @@
 - **卉木萋萋** Rustling of Tender Foliage
 - **辉木旋台制陶桌** Brightwood Pottery Worktable
 - **辉木移动烧烤铺** Brightwood Kebab Cart
+- **辉木织物箱台** Brightwood Fabric Box Platform
 - **辉木重型制陶架** Heavy Brightwood Pottery Wheel
 - **辉木转角阶梯** Brightwood Cornering Stairs
+- **辉木自紧酒桶** Brightwood Self-Tightening Wine Buckets
 - **绘绮庭** Silken Courtyard
 - **廻色云弦** Strum the Swirling Winds
 - **辉山厅** Huishan Hall
 - **迴身箭术** Parthian Shot
 - **回声轻叙** Echoing Tales
+- **回声之林夜话** Nighttime Whispers in the Echoing Woods
 - **诲韬诤言** Admonishing Instruction
 - **回头客** A Returning Customer
-- **回响** Echo
-- **回响长天的诗歌** Echoing Ballad
 - **回响的轰雷** Resounding Roar
+- **回响海螺** Echoing Conch
+- **绘想游迹** Envisaged Echoes
 - **回响渊底的安魂曲** Requiem of the Echoing Depths
 - **慧心** Huixin
 - **绘星** Huixing
+- **洄旋的曲水** Churning Whirlpool
 - **灰雪猫** Gray Snow Cat
 - **慧眼识妖！** Behold, Mine Evil-Espying Eye!
+- **慧业始终** The Arc of Intellect
 - **回忆终章** Memory's Final Chapter
 - **洄映的漩流** Swirls of the Stream
 - **回应心意之舞** Dance of Gratitude
 - **灰羽鸽** Graywing Pigeon
+- **灰余晶** Gray Crystal
 - **绘真** Ema
 - **灰中之秘** A Secret Born From Ashes
 - **回转的怒风** Raging Vortex
 - **辉子** Hui
+- **「胡椒」** Pepper
 - **胡椒** Pepper
 - **琥牢山** Mt. Hulao
 - **狐狸玩偶** Toy Fox
 - **壶灵** Teapot Spirit
 - **狐灵食罪式** Spiritfox Sin-Eater
+- **胡里约** Hueliyo
 - **葫芦** Hulu
 - **胡乱涂写的书页** Page of Scribbled Writing
+- **呼噜克** Huruk
 - **胡萝卜** Carrot
 - **胡马延** Homayun
 - **呼玛伊家** Homayani Family
-- **护摩之杖** Staff of Homa
 - **昏晓流易** At Dawn and Dusk
 - **混沌回路** Chaos Circuit
 - **混沌机关** Chaos Gear
@@ -3515,6 +7588,8 @@
 - **混沌枢纽** Chaos Axis
 - **混沌真眼** Chaos Oculus
 - **混沌装置** Chaos Device
+- **昏昏沉沉的星星** Drowsy Evening Star
+- **胡妮** Huni
 - **昏识塔** Steeple of Ignorance
 - **魂香之花** Soulscent Bloom
 - **昏晓逆乱之地** Insurgent Twilight
@@ -3524,6 +7599,7 @@
 - **货比两价** Price Comparison
 - **火斧丘丘暴徒** Blazing Axe Mitachurl
 - **火箭丘丘人** Pyro Hilichurl Shooter
+- **火晶蝶** Pyro Crystalfly
 - **获麟** The Auspicious
 - **火飘浮灵** Pyro Specter
 - **火深渊法师** Pyro Abyss Mage
@@ -3531,41 +7607,61 @@
 - **火史莱姆凝液** Pyro Slime Condensate
 - **火鼠裘、龙首珠、佛前钵和…** Fire Rat's Robe, Dragon-Head Pearl, Sacred Offering Bowl, and...
 - **火一般辉煌** Bright as a Flame
+- **火与水的好友** Friends of Fire and Water
+- **火之新生** Fiery Rebirth
+- **火之印** Pyro Sigil
+- **火斗笠剑客** Duelblaze
 - **火元素护罩** Pyro Shield
 - **火把打** Torch Strike
 - **火炽之心** Blazing Heart
 - **霍夫曼** Huffman
+- **惑光幻戏** Spectacle of Phantasmagoria
 - **火花的初遇** A Sparky Clash
 - **活化的星蕈** Activated Starshroom
 - **活化激能** Radical Vitality
 - **火花无限** Sparkling Burst
 - **火火肉酱面** Flaming Red Bolognese
 - **祸津御建鸣神命** Magatsu Mitake Narukami no Mikoto
+- **霍莱** Hora
 - **活力喵饭** Invigorating Kitty Meal
 - **火力全开** Blazing Delight
 - **活力之家** Dar al-Shifa
+- **火榴大母树** Mother Flamegranate Tree
+- **火榴果** Flamegranate
+- **活泼的绵驮兽** Energetic Alpaca
 - **火漆制印** Seal of Approval
 - **火热激情** Unstoppable Fervor
+- **火山蛋糕** Volcano Cake
 - **祸神之禊泪** Tears of the Calamitous God
 - **惑饲滩** Wakukau Shoal
 - **火腿** Ham
+- **霍图鲁** Hoturoa
 - **货物单** Goods Invoice
+- **霍娅** Hoa
+- **火焰炖肉** Blazed Meat Stew
 - **豁牙子** Gummer
-- **火一** Pyro-1
+- **火鹦之塔** Vucub Caquix Tower
 - **活源水** Living Spring
 - **活跃的欧琳** Lively Orlean
+- **活跃的小嵴锋龙** Lively Little Tepetlisaurus
 - **货运热气球** Transport Balloon
 - **货运中转地** Cargo Transfer Station
+- **祸兆之律** Foreboding Beat
 - **货真价实的水果摊位** Real Deal Fruit Stand
 - **胡塞尼** Hosseini
+- **湖色的重光** Loch's Revitalization
 - **胡尚** Hushang
 - **护世森** Lokapala Jungle
 - **户田** Toda
+- **胡瓦** Huwa
+- **胡维斯卡** Huvishka
 - **狐行花坂 漫步世间** Kitsune's Leisurely Stroll Around Hanamizaka
 - **狐妖** Youko
 - **虎之助** Toranosuke
 - **壶中洞天** The Realm Within
 - **壶中闲事** Idle Teapot Talk
+- **互助关系网** Mutual Assistance Network
+- **互助会** Mutual Aid Network
 ## I
 - **I・伊万诺夫娜・N** I. Ivanovna N.
 ## J
@@ -3577,13 +7673,11 @@
 - **急冻树** Cryo Regisvine
 - **鸡豆花** Chicken Tofu Pudding
 - **寄给塞琉斯的信** Letter to Cyrus
-- **极寒的轻吻** Frozen Kiss
 - **极寒之核** Hoarfrost Core
 - **祭火礼冠** Tiara of Flame
 - **祭火之人** Prayers for Illumination
 - **疾雷攻逐** Lightning Round
 - **祭雷礼冠** Tiara of Thunder
-- **疾雷万钧** Approaching Thunder
 - **祭雷之人** Prayers for Wisdom
 - **疾如野火** Wildfire
 - **祭神奏上** Sacrificial Offering
@@ -3593,51 +7687,73 @@
 - **极鲜！炙脍之夜** Yummy! Barbecue Under the Stars
 - **寂修石** Meditation Stone
 - **机元突破** Core Breakthrough
+- **嵴之啮咬** Cragbiter
 - **机逐封秘** Enigmatic Machinist
 - **饥饿** Hunger
-- **极恶法「鲸吞噬灭」** Foul Legacy - The Devouring Deep
+- **吉恩布** Jember
 - **甲铁玫瑰** Armored Rose
 - **甲衣交叠** Imbricated Armor
 - **加埃特** Gaete
+- **贾尔贾** Jarjar
+- **贾尔库坦** Djarkutan
 - **加尔恰** Garcia
 - **加尔恰的赞歌** Garcia's Paean
 - **榎本** Enomoto
 - **贾法尔** Jafar
+- **伽吠毗陀** Garvipidam
 - **甲斐田龙马** Kaida Ryouma
 - **加福尔** Gafoor
 - **贾汉** Jahan
 - **贾汉的调味料需求** Jahan's Sugar
 - **贾汉吉尔** Jahangir
 - **贾汉吉尔的收货单** Jahangir's Receipt
-- **甲级宝珏** Twin Nephrite
 - **佳节赴旧约…？** Promises Remembered as Lanterns Rise
 - **佳节里的小问题** A Very Festive Problem
+- **加杰雷** Gajere
 - **嘉久** Yoshihisa
 - **家具完备的蒙德卧室** Fully Furnished Mondstadt Bedroom
+- **伽拉蒂雅** Galathee
+- **嘉莱娜** Granna
+- **贾拉康** Jalacan
+- **加拉诺普洛** Galanopoulo
+- **加勒弗大汪** Carrewoof
+- **嘉良** Jialiang
+- **加里克** Garrick
 - **伽禄** Gary
+- **嘉玛** Jemma
 - **贾米** Jami
+- **嘉明** Gaming
 - **嘉铭** Jiaming
-- **渐淡的旧事** Vanished Beyond Recall
+- **嘉明的命星** Gaming's Stella Fortuna
+- **加莫莉** Camotli
 - **剑去之日** The Day the Sword Departs
-- **简式风灵作成** Wind Spirit Creation
 - **间水月** Dance of Suigetsu
 - **坚铜罗盘** Copper Compass
 - **键纹** Key Sigil
 - **箭雨** Fiery Rain
 - **剑与鱼与反抗者** Sword, Fish, Resistance
 - **艰厄得解谜境中** A Tricky Situation
+- **艰厄漫途** Through Predicaments
+- **加纳尔** Kabnal
 - **剑拔弩张四人众** The Four at Loggerheads
+- **坚冰的赌咒** Icebound Oath
+- **尖兵协同战法** Vanguard's Coordinated Tactics
 - **坚冰，易溶于酒** Solid Ice, Soluble in Wine
 - **健步祝福** Striding Boon
+- **健步助益** Sprightly Buff
 - **剪彩映虹** Iridescence in Papers
 - **鉴查心得** Fruits of Shinsa
+- **剑铳座** Sclopetum Ensiferum
 - **浅川** Asakawa
 - **健次郎** Kenjirou
+- **渐淡的旧事** Vanished Beyond Recall
 - **剑道家的道路铺满剑道梦的碎片** A Swordmaster's Path Is Paved With Broken Blades
+- **坚盾重甲蟹** Sternshield Crab
 - **箭盾座** Sagitta Scutum
 - **将军蟹** General Crab
 - **降雷的凶兆** Omen of Thunderstorm
 - **将盐送给敌人，将水留给自己** Salt for My Foes, and Water for Me
+- **将夜晚放还于夜晚** To the Night, What is the Night's
 - **将一切美好献给你** Dedicating Everything to You
 - **将于明日逝去的贤者埃托莉亚** The Sage Aetolia Will Die Tomorrow
 - **降众天华** Celestial Shower
@@ -3647,45 +7763,54 @@
 - **江湖不问出处** Bookworm Swordsman
 - **将军孤居净土** The Lonesome Euthymia
 - **降雷之法** Calling Down the Thunder
-- **降临之剑** Sword of Descension
+- **江蓠** Jiangli
 - **降临之翼** Wings of Descension
 - **降临者** Descender
 - **降灵密室** Secret Summoning Chamber
 - **降魔玉符** Conquest Talisman
 - **江木** Eki
 - **将启的远行** Distant Voyage
-- **降世** Descension
 - **僵尸** Zombie
 - **将帅兜鍪** General's Ancient Helm
 - **将司** Masashi
 - **坚固的木板** Sturdy Wooden Plank
 - **见惯的风景** A Familiar Sight and Leisure
+- **降温处理** Cooling Treatment
+- **将行之路** The Road Ahead
 - **江雪** Jiangxue
 - **将至的凯歌** Imminent Triumph
 - **江舟** Jiangzhou
+- **加尼** Jani
 - **健康之家** Bimarstan
 - **健康之家箴言栏** Bimarstan's Proverb Column
 - **坚牢黄玉** Prithiva Topaz Gemstone
 - **坚牢黄玉断片** Prithiva Topaz Fragment
 - **坚牢黄玉块** Prithiva Topaz Chunk
 - **坚牢黄玉碎屑** Prithiva Topaz Sliver
+- **犍罗毗多** Chandraputra
 - **缄秘的裁遣** Judicator of Secrets
 - **缄秘的行律** Order of Silence
-- **菅名卡帕奇莉** Kanna Kapatcir
+- **缄秘的影迹** Shade of Reticent Conundrums
+- **歼灭特化型机关** Annihilation Specialist Mek
 - **菅名山** Mt. Kanna
 - **缄默的惠赐** The Gift of Silence
 - **缄默的求知者** Silent Seeker of Knowledge
 - **缄默的意义** Secret Is Held
+- **缄默之殿** Temple of Silence
+- **缄默之殿** Temple of Silence
 - **简朴的璃月睡房** Plain Liyue Bedroom
 - **鉴秋** Jianqiu
 - **健韧的劲草** Green Resilience
 - **健三郎** Kenzaburou
+- **简式风灵作成** Wind Spirit Creation
 - **箭术示范** Archery Demonstration
 - **健司** Kenji
 - **健忘大王历险记** The Saga of Mr. Forgetful
 - **见习勇者** Hero-in-Training
+- **坚岩隘谷** Tequemecan Valley
+- **坚岩强攻** Availed of Stone
+- **坚岩之重** The Weight of Stone
 - **简要的日程安排表** Simple Schedule
-- **坚毅** Perseverance
 - **简易单人帐篷** Simple Single-Person Tent
 - **坚毅的行军** Unwavering March
 - **简易货运拖车** Simple Cargo Cart
@@ -3693,12 +7818,14 @@
 - **坚硬的水晶块** Hard Crystal Chunk
 - **坚硬的铁块** Hard Iron Chunk
 - **剪影与蹑步** Silhouette and Silk Steps
+- **翦玉编春** Spring Woven From Jade
+- **建造特化型机关** Construction Specialist Mek
 - **间章** Interlude Chapter
+- **建筑设计师的浪漫** An Architect's Romanticism
 - **交给我吧！** Leave It to Me!
 - **椒红姜黄** Red Pepper and Turmeric
 - **交叉火力** Crossfire
 - **交错放置的杉木货箱** Messy Pile of Fir Crates
-- **角斗士** Gladiator
 - **角斗士的归宿** Gladiator's Destiny
 - **角斗士的酣醉** Gladiator's Intoxication
 - **角斗士的凯旋** Gladiator's Triumphus
@@ -3712,20 +7839,24 @@
 - **教官的胸花** Instructor's Brooch
 - **教官的羽饰** Instructor's Feather Accessory
 - **教会枪术** Spear of the Church
+- **椒椒** Chili Pepper
 - **皎洁的笑颜** Moonlike Smile
 - **皎洁之火铓辉灿漫** The Flame Incandescent
-- **教令院举荐信** Akademiya Recommendation Letter
 - **教令官公告板** Mahamata Bulletin Board
 - **教令院** The Akademiya
+- **教令院调查团的日志** Akademiya Investigation Team's Logs
 - **教令院公共留言板** Akademiya Public Message Board
+- **教令院举荐信** Akademiya Recommendation Letter
 - **教令院，小问题** Akademiya Q&A
 - **教堂的诸多事宜** The Church's Affairs
 - **焦糖酱** Caramel
 - **狡兔之窟** Den of Thieves
+- **骄阳炽燎** Fervent Flare
 - **郊野的灯影** Suburbia Lighting
 - **郊野觅芳踪** Countryside Wandering
 - **交易现场画片** Picture of the Transaction
 - **交易资金袋** Bag of Transaction Funds
+- **交友之法** How to Make Friends
 - **皎月云间之梦** Jade Moon Upon a Sea of Clouds
 - **焦灼的魔女帽** Witch's Scorching Hat
 - **迦毗鸠师** Pir Kavikavus
@@ -3738,32 +7869,50 @@
 - **假山原石（左）** Rock Garden Rough Stone (Left)
 - **加山忠雄** Kayama Tadao
 - **家书难递** Trouble With Letters
+- **加斯东** Gascon
 - **加斯顿** Gaston
 - **加斯帕尔** Gaspar
+- **加塔力** Katari
 - **加藤信悟** Katou Shingo
 - **加藤洋平** Katou Youhei
+- **加特尼奥** Gattineo
 - **贾瓦德** Javad
 - **贾瓦希尔** Jawahir
+- **加维** Gravier
 - **贾维** Javi
 - **嘉玮** Jiawei
 - **贾维的「梦想」** Javi's Dream
+- **嘉维娜** Galvana
+- **嘉维娅** Galvaryet
+- **嘉乌兰妮** Kaiulani
+- **加希** Gacic
 - **家乡之味** The Taste of Home
+- **夹心土豆泥** Stuffed N' Mashed Potatoes
+- **迦雅** Kaia
 - **贾扬特** Jayant
 - **佳肴尚温** While It's Warm
 - **嘉义** Jiayi
 - **嘉义的礼物** Jiayi's Gifts
 - **嘉义的信** Jiayi's Letter
+- **嘉伊帕** Caipa
+- **夹在笔记中的示意图** Schematic Clipped Inside Notes
 - **加扎里** Jazari
 - **加扎里的摩拉袋** Jazari's Mora Purse
+- **家长般的大嵴锋龙** Big Parenty Tepetlisaurus
 - **家政高手** Housekeeper Extraordinaire
 - **家政官的日常工作** A Housekeeper's Daily Chores
+- **基班古** Kibangu
 - **基本上都是水** Water, Basically
 - **基本上无害** Basically Harmless
+- **即便存在隔阂…** Despite the Barrier Between Us...
 - **羁缠之花** Entangling Bloom
 - **基础不牢，地动山摇！** A House Ill-Founded
 - **几初的智愿** For Riddles, for Wonders
 - **基础再牢，也能撂倒！** None Stand Secure
+- **基础增殖生命体** Preliminary Proliferating Organism
 - **吉川** Yoshikawa
+- **积存已久的委托** Cold Case Commission
+- **激荡的波水** Turbulent Ripples
 - **祭典「定番」百货屋台** Festival "Teiban" Store
 - **祭典「奇番」百货屋台** Festival "Kiban" Store
 - **祭典后话** Festival Afterword
@@ -3773,6 +7922,8 @@
 - **祭典之行** Festival Deeds
 - **机动猎手** Machine Hunter
 - **撷草瞻华** The Essence of Flora
+- **皆为崇高之名** All Names are Noble
+- **劫中泛滥** Tempestuous Destiny
 - **杰巴里** Jabari
 - **劫波莲** Kalpalata Lotus
 - **劫波破执** Beyond Klesha
@@ -3782,9 +7933,10 @@
 - **解翠行** The Jade Mystery
 - **皆大欢喜** Everyone's Happy
 - **婕德** Jeht
+- **借动式鼓风装置** Wind-Powered Wind Generator
 - **解读暗文的妙法** Cipher for the Ciphertext
+- **借风洗尘缘** Purifying Wind
 - **杰夫** Geoff
-- **嗟恨的纯水精灵** Hateful Oceanid
 - **杰赫南** Jehnam
 - **捷疾之业** Path of Yaksha
 - **接近天空的地方…** Sky High
@@ -3795,12 +7947,14 @@
 - **杰克** Jack
 - **杰克的地图** Jack's Map
 - **杰克的冒险之证** Jack's Adventurer Handbook
+- **杰柯艾妲** Jacquetta
 - **杰拉德** Gerald
+- **捷勒** Djer
 - **杰里** Geri
 - **杰里的蒙德城美食回忆** Geri's Gastro-Nostalgia
 - **孑立的群岩** Solitude Mountains
+- **杰洛尼** Jeroney
 - **杰娜姬** Janaki
-- **揭旗的叛逆之歌** Rebel's Banner-Hymn
 - **结契之刻** Moment of the Pact
 - **节庆的市井** Festival Market
 - **节庆热度** Festive Fever
@@ -3813,51 +7967,64 @@
 - **戒惕的注视** Vigilant Minders
 - **结题时刻** Answer Time
 - **街头巷尾的温暖韵律** The Warm Rhythm of the Streets
-- **街巷伏击** Oppidan Ambush
-- **街巷游侠** Itinerant Hero
+- **捷悟** Jiewu
 - **婕叶** Jehiet
-- **竭泽** End of the Line
 - **节奏的传染** Wildfire Rhythm
+- **杰作的序曲** Masterpiece's Overture
 - **纪芳** Jifang
-- **吉法师** Kichiboushi
 - **寂忿空相** A Wrathful Void
 - **疾风刺拳** Hurricane Jab
+- **嵴锋的异响** Tepetli Dissonance
 - **激风鼓动** Galeforce Agitation
+- **嵴锋龙** Tepetlisaurus
 - **机符遁藏之城** City of Hidden Runes
 - **吉盖克斯** Gygax
 - **机工雷弩** Mechanical Thunderbow
+- **机关・地质勘探型** Geological Survey Mek
+- **机关・灵活采集型** Nimble Harvester Mek
+- **机关・区域警戒型** Area Alert Mek
+- **机关・深海攻击型** Deepwater Assault Mek
+- **机关・水下勘测型** Underwater Survey Mek
+- **机关・水下巡游型** Underwater Patrol Mek
+- **机关・算力增幅器** Arithmetic Enhancer Mek
+- **机关・侦察记录型** Recon Log Mek
 - **棘冠鳄** Spinocrocodile
 - **棘冠恩典** Thorny Benevolence
 - **机关棋谭** Theater Mechanicus
 - **机关棋谭・灵妙之局** Theater Mechanicus: Stage of Wonders
+- **机关正齿轮** Mechanical Spur Gear
+- **集光撷彩** Radiant Harvest
 - **吉光虫** Lucklight Fly
+- **极寒的冰枪** Evercold Frostlance
+- **极寒的轻吻** Frozen Kiss
 - **极寒的险地** Menacing Cove
+- **极寒环境** Subzero Climate
 - **玑衡** Equilibrium
 - **玑衡经** Verses of Equilibrium
 - **玑衡仪座** Opus Aequilibrium
-- **激化** Catalyze
-- **激活器件** Activation Device:
+- **激活器件** Activation Device
 - **寂静的证言** Silent Testimony
 - **寂静园** Razan Garden
-- **激励** Vigorous
-- **祭礼残章** Sacrificial Fragments
-- **祭礼大剑** Sacrificial Greatsword
-- **祭礼弓** Sacrificial Bow
-- **祭礼剑** Sacrificial Sword
+- **吉拉尔** Girard
+- **疾雷万钧** Approaching Thunder
 - **吉丽安娜** Jilliana
-- **激流** Rapids
+- **吉莲** Gillian
+- **机灵的小嵴锋龙** Clever Little Tepetlisaurus
 - **激流冲击** Tidal Impact
 - **激流精油** Streaming Essential Oil
+- **激流强震** Torrential Shock
 - **羁留之客** Separated Dream
 - **激流逐浪** Chasing the Torrents
+- **集录祈愿** Chronicled Wish
 - **觭梦沉酣之处** A Route to Fantasies
+- **寂秘纸草经** Papyrus Scripture of Silent Secrets
 - **笈名海滨** Oina Beach
+- **积木卫兵** Toy Guard
 - **禁・风灵作成・柒伍同构贰型** Forbidden Creation - Isomer 75 / Type II
 - **堇瓜** Lavender Melon
 - **菫鹮** Violet Ibis
 - **金忽律** Golden Alligator
 - **尽览群岩** Surveyor of Stone
-- **金苹果群岛** Golden Apple Archipelago
 - **金蔷薇种子** Golden Rose Seeds
 - **尽倾江海里** Into the Waters
 - **金鳅鳅** Golden Loach
@@ -3869,24 +8036,31 @@
 - **金芽石** Goldbud Stone
 - **金叶珍枝树** Golden Pearlroot Tree
 - **锦钰兰衫** Azure Silk
+- **金盏荧华自卷旋** Golden Calendula Swirl
 - **锦织之章** Fabulae Textile Chapter
 - **锦织座** Fabulae Textile
+- **烬中歌** The Song Burning in the Embers
 - **禁咒绘卷** Forbidden Curse Scroll
 - **谨遵医嘱** Doctor's Orders
+- **禁锢的劳作** Welcome to the Industry
 - **今谷佳祐** Imatani Keisuke
+- **吉娜** Ginna
+- **基奈** Kinai
 - **金杯座** Crater
+- **锦彩之梦** Brocade Dreams
+- **烬城勇者绘卷** Scroll of the Hero of Cinder City
 - **金赤假龙** Golden Koi
 - **金翅鹏王之章** Alatus Chapter
 - **金翅鹏王座** Alatus Nemeseos
 - **金次郎** Kinjirou
 - **金琮天行之翼** Wings of Golden Flight
 - **锦缎布帘** Embroidered Curtains
+- **汲能棱晶** Absorbing Prism
 - **谨防触电** Electric Shock Hazard
 - **金风玉露一相逢** When Autumn and Dew Meet
 - **惊变** An Impromptu Change of Plan
 - **精锻用魔矿** Mystic Enhancement Ore
 - **晶核** Crystalline Core
-- **镜华风姿** Kyouka Fuushi
 - **镜花听世** Tuned to the World's Sounds
 - **镜花之琴** Floral Zither
 - **惊雷精油** Shocking Essential Oil
@@ -3896,40 +8070,63 @@
 - **鲸天座** Monoceros Caeli
 - **靖妖祓恶起傩舞** The Purging of Evil
 - **靖妖傩舞** Bane of All Evil
+- **镜与谜烟的彼方** Beyond the Smoke and Mirrors
 - **镜御前** Kagami Gozen
+- **镜中之梦** Dream Through the Looking-Glass
+- **警备队员** Garde
+- **镜璧山** Tezcatepetonco Range
 - **鲸波鼍浪** Undersea Encounters
 - **景澄** Jingcheng
+- **晶簇矿坑道** Geode Mine Shaft
 - **竟达** Jingda
 - **经典游戏** A Timeless Classic
 - **静电场力** Static Electricity Field
 - **晶蝶** Crystalfly
+- **晶蝶诱捕装置** Crystalfly Trap
 - **精锻用良矿** Fine Enhancement Ore
 - **精锻用杂矿** Enhancement Ore
+- **金格尔** Jingle
+- **鲸腹中的三日夜** Three Days and Nights in the Belly of the Great Fish
 - **荆夫港** Dornman Port
 - **镜锢之笼** Mirror Cage
 - **荆冠座** Spinea Corona
+- **净光翎** Plume of Purifying Light
+- **经过 （原神四周年主题曲中文版）** 经过 - Genshin Impact's 4Th Anniversary Chinese Theme Song
 - **晶核** Crystal Core
+- **荆和** Jinghe
 - **静候未来** Awaiting the Future
+- **镜华风姿** Kyouka Fuushi
 - **晶化骨髓** Crystal Marrow
 - **惊慌的米拉娜** Panicked Myrana
+- **晶辉隐幽** Crystalline Path
+- **荆棘丛生之地** Ghastly Badlands
+- **荆棘与勋冠** Of Thorns and Crowns
 - **经津弘芳** Futsu Hiroyoshi
 - **经津实** Futsu Minori
 - **经津政芳** Futsu Masayoshi
 - **经津传** Futsu School
 - **鲸井椛** Kujirai Momiji
 - **鲸井小弟** Kid Kujirai
+- **景框内外的虚实** Fiction and Reality Inside and Outside the Frame
+- **晶蓝的帘幕** Crystal Curtains
 - **精炼材料** Refinement Material
+- **净炼火之章** Ignis Purgatorius Chapter
 - **精炼阶** Refinement Rank
-- **净琉璃工坊** Joururi Workshop
+- **精灵隐没之地** Huldra's Retreat
+- **精馏** Rectification
 - **经纶** Jinglun
+- **晶螺糕** Conch Madeleine
 - **静谧的国土** The Land of Her Serenity
 - **静谧的厅堂** In the Desolate Hallway
 - **静谧的星夜** Silent Starry Night
 - **景明** Jingming
 - **晶明的怒火** Fury Unleashed
 - **静默的土地** Stillness of the Ground
+- **净念相继** Benevolence Bequeathed
 - **晶凝之华** Crystalline Bloom
 - **进攻，进攻，再进攻！** Attack! Attack! Attack!
+- **晶片，也是一种宝石** Shards Are Gems Too
+- **惊奇猫猫盒** Bogglecat Box
 - **精巧的沙漏摆件** Exquisite Hourglass Ornament
 - **净沙利刃明映万乘** The Sand-Blades Glittering
 - **净善的遐歌** Surasthana Fantasia
@@ -3937,6 +8134,7 @@
 - **净善宫** Sanctuary of Surasthana
 - **井上** Inoue
 - **晶石命理** Arcanum of Crystal
+- **精石铜城** Madinat al-Nuhas
 - **井手** Ide
 - **净水之心** Cleansing Heart
 - **静态风景** Static Views
@@ -3945,38 +8143,68 @@
 - **今谷三郎** Imatani Saburou
 - **今谷香里** Imatani Kaori
 - **金光灿灿的歌** Glittering Melody
+- **金匮针解** The Classics of Acupuncture
+- **警卫机关** Gardemek
 - **惊喜大礼** A Surprise Gift
+- **惊险演出** Perilous Performance
 - **精心挑选的礼物** Handpicked Gift
+- **净焰剑狱领域** Fiery Sanctum Field
+- **镜烟翾风** Smoke, Mirrors, and the Flowing Winds
+- **晶焰之祝** Boon of Crystal Flame
 - **静夜驰想** Midnight Reflections
+- **静夜流觞** Nightcap at Nightfall
+- **竟夜有辉之燎** Radiance Aflame
 - **精英** Elite Enemies
 - **经营场所证明及经营安全许诺书** Business Premises and Safety Certificates
 - **晶莹可掇 (琉璃亭)** A Transparent Moon (Liuli Pavilion)
+- **经营家的开阔视野** Businesswoman's Broad Vision
 - **警长猫** Sheriff Cat
 - **精致的「留影机」** Exquisite Kamera
 - **精致的摆设赠礼** Exquisite Gift (Furnishing)
-- **精准** Precise
+- **镜子镜子告诉我** Tell me, mirror mirror
+- **净罪之井** Purification Spring
+- **敬昨日** To Yesterday
+- **烬火** Emberfire
+- **烬火 (伴奏)** Emberfire - Instrumental
+- **烬火重燃** Embers Rekindled
+- **基尼奇** Kinich
+- **基尼奇的命星** Kinich's Stella Fortuna
+- **吉尼亚克** Gignac
 - **紧急措施** Contingencies
 - **紧急修理** Urgent Repairs
 - **烬寂海** Mare Jivari
+- **金井** Kanai
 - **进军玩具市场** A-Toymaking We Shall Go
 - **金科赤律** Golden Rule
 - **锦葵颤笔菇** Mauve Shiverstroke Shroom
 - **锦葵筑锋菇** Mauve Lute's-Edge Shroom
 - **金狼之章** Lupus Aureus Chapter
 - **金狼座** Lupus Aureus
+- **金鲤浮跃** Golden Carp's Leap
+- **金律永谐** Cantus Aeternus
+- **锦落云升** Fujin's Chant
+- **烬灭之鞭** Decimating Lash
 - **尽末了所毁灭的** The End of Annihilation
 - **金牌飞行执照** Golden Gliding License
+- **近迫式急促拦射** Short-Range Rapid Interdiction Fire
 - **金枪鱼寿司** Tuna Sushi
+- **禁区** Forbidden Zone<!--capitalized-->
 - **今泉** Imaizumi
-- **进入「黄金屋」** Enter the Golden House
 - **进入夜雾之门** Traverse the Fog Door
 - **金色三重烛台** Golden Triple-Arm Candelabrum
+- **锦色映夜风** Night's Whispering Breath
 - **菫色之庭** Violet Court
+- **锦上添花** The Finishing Touch
+- **金沙行者** Golden Sandstrider
+- **近身冲撞** Close-Range Charge
+- **谨慎的调查员** Cautious Investigator
 - **谨慎的探索** Cautious Explorers
 - **禁室密所大图鉴** Secret Archive
 - **金属钥匙** Metal Key
 - **金丝虾球** Golden Shrimp Balls
+- **金塔的香献** Profferings of {{w|Chogha Zanbil|Dur Untash}}
 - **堇庭华彩** Hues of the Violet Garden
+- **堇庭华彩真说** True Tales of the Violet Garden
 - **金纹蝶翅花器** Gold-Patterned Butterfly Wings Flower Vessel
 - **瑾武** Jinwu
 - **瑾武的汤** Jinwu's Soup
@@ -3984,6 +8212,7 @@
 - **今昔剧画之鬼人** Mask of the Kijin
 - **今昔剧画之虎啮** Mask of the Tiger's Bite
 - **今昔剧画之一角** Mask of the One-Horned
+- **烬芯花** Embercore Flower
 - **谨言慎行** In a Cautious Way
 - **今夜窗明，花灯藏影** The Bright-Windowed Lanterns Hide Their Shadows
 - **金叶剑骨树** Golden Irontrunk Tree
@@ -3991,11 +8220,13 @@
 - **金叶盘伏树** Golden Knotwood Tree
 - **晋优** Jinyou
 - **浸有史莱姆凝液的泥土** Slime Condensate-Soaked Soil
-- **金鱼草** Snapdragon
+- **金鱼草** {{w|Snapdragon}}
 - **金鱼花火** Goldfish Firecracker
+- **金玉满堂** The Palace Jewels
 - **金玉，礼予天地四方** Chrysos, Bounty of Dominator
 - **尽在吾辈** Any Last Words?
 - **近在咫尺的目标** Ever So Close
+- **进站！** The Arrival of a...!
 - **金璋皇极** Golden Majesty
 - **禁止危险运输！** Terminate This Treacherous Transport!
 - **禁止游泳** Swimming Prohibited
@@ -4005,13 +8236,18 @@
 - **机巧神通** Transcendent Automaton
 - **机巧伪天狗抄** Pseudo Tengu Sweeper
 - **机巧阵陔** Automaton Front
+- **机巧座** Automaton
 - **霁青杳漫染寒英** The Gloom Paints the Cold Blooms
 - **汲取了生命力的龙牙** Vitalized Dragontooth
 - **疾如猛火** Rapid as Wildfires
 - **寄身的倚草** Symbiotic Creeper
 - **记事者之匣** Scribe's Box
+- **机枢巧物前哨战** Mega Meka Melee
+- **集束岩晶** Geocrystal Beam
 - **祭司之匣** Priest's Box
 - **祭司、公主与记事者** Priest, Princess, and Scribe
+- **基斯庇** Qispi
+- **疾速观览，切记行车规范** Zip Along (According to Safe Cart Operating Procedures)
 - **极速前进** Full Speed Ahead
 - **疾速气流** High-Speed Airflow
 - **旧经营许可证** Old Business Permit
@@ -4020,6 +8256,9 @@
 - **9文字之传言** The Nine-Word Rumor
 - **酒雾领域** Drunken Mist
 - **洒下甘露三千担** Wine Unburdens
+- **就像水消失在水中** Like Water Disappearing Into Water
+- **就在这里敲吧** Hic Pulso
+- **酒之香** Fragrance of Wine
 - **酒庄大扫除** Cleanup At Dawn
 - **酒庄大扫除之二** Cleanup At Dawn II
 - **九老师** Mr. Nine
@@ -4027,25 +8266,47 @@
 - **久保** Kubo
 - **纠缠的信风** Intertwined Winds
 - **纠缠之缘** Intertwined Fate
+- **九彻生识** Novatio Novena
 - **九弓的弦咏** Chant of Nine Bows
 - **九弓的执命** Authority Over the Nine Bows
+- **究古考察** Antiquity Hunt
+- **九贯** Jiuguan
+- **酒馆餐架-「局间餐点」** Tavern Dining Cart - "A Snack Between Dishes"
+- **酒馆餐椅-「快快清醒」** Tavern Dining Chair - "Accelerated Sobriety"
+- **酒馆餐椅-「味觉倍增」** Tavern Dining Chair - "Flavor's Multiplicity"
+- **酒馆地毯-「理智牌局」** Tavern Carpet - "Duelist's Wisdom"
+- **酒馆地毯-「热情牌局」** Tavern Carpet - "Passion of Play"
+- **酒馆书柜-「必备知识」** Tavern Bookcase - "Essential Knowledge"
+- **酒馆圆桌-「万千跃动」** Round Tavern Table - Leaps and Bounds
 - **纠集众人，斗倒御岳** Gather 'Round, It's a Brawl!
 - **鹫津** Washizu
 - **酒井** Sakai
 - **究竟一切智地** Summit of Wisdom
+- **救救可怜的乙方员工！** Rescue the Poor Contract Employee!
 - **久久望故人** For Old Time's Sake
+- **久旷的弦音** Chordal Past
 - **久濑** Kurai
 - **久利须** Kurisu
 - **久利由卖** Clymene
+- **九略茶馆** Jiulue Teahouse
 - **久美** Kumi
+- **旧梦痴缠之故地** Entanglement of Past Dreams
+- **旧梦腐朽之所** Where Dreams Putrify
+- **久梦随云** Ancient Slumber
 - **久岐忍** Kuki Shinobu
 - **久岐忍的命星** Kuki Shinobu's Stella Fortuna
 - **旧日的园圃与源泉** The Ancient Orchard and Spring
+- **旧日之海** Sea of Bygone Eras
 - **久时的祝祷** Protracted Prayers
 - **久世浮倾** Eons Adrift
+- **旧时庭园** Ancient Courtyard
+- **旧事新解** In a New Light
+- **旧世遗谶** Prophetie of Predestination
+- **旧世遗音** Echoes of the Ancient World
 - **九十九物** Tsukumomono Groceries
+- **旧思缅邈** Distant Retrospection
 - **就算回归沙尘…** Though to the Earth I May Return...
-- **九条重赖** Shigeyori Kujou
+- **九条重赖** Kujou Shigeyori
 - **九条镰治** Kujou Kamaji
 - **九条镰治的亲笔信** Kujou Kamaji's Letter
 - **九条裟罗** Kujou Sara
@@ -4055,27 +8316,42 @@
 - **九条阵屋** Kujou Encampment
 - **九条家** Kujou Clan
 - **旧味难寻** Old Tastes Die Hard
+- **旧物** Past Mementos
+- **就像雨中的泪水** Like Tears in the Rain
 - **九霄之石悬残片** The Heavenly Stone's Debris
 - **救星登场** Take This!
 - **久彦** Hisahiko
 - **久已消逝之物** The Long Lost Days
 - **旧语新知** Old Notes and New Friends
+- **久远花落之时** Ancient Abscission
 - **旧枝新芽** New Shoots from Old Branches
 - **久住往昔** Dwelling in the Past
 - **酒渍船帽** Wine-Stained Tricorne
 - **基翁** Keon
+- **吉沃尼** Giverny
 - **吉祥** Jixiang
 - **纪香** Norika
 - **吉祥具书** Vimana Agama
+- **寄想者剧场** Thinkers' Theater
+- **基肖恩** Kesean
 - **机械之心** Heart of the Machine
 - **纪行** Battle Pass
 - **纪行宝匣** BP Bounty
+- **疾行的使令** Swift Envoy
+- **急性剂量** Emergency Dose
 - **纪行经验** BEP
 - **吉星似火，福禄成喜** The Blazing Stars Ring in Fortune
+- **疾迅勇士·荡风斥候** Swiftstep Storm Scout
+- **疾迅勇士·引索客** Swiftstep Seeker
+- **疾迅勇士·重刃讯使** Swiftstep Armed Courier
+- **基娅拉** Kiara
+- **吉雅罗** Guijarro
 - **激扬的韧战** Inevitable Conflict
-- **极夜二重奏** Evernight Duet
+- **纪尧姆** Guillem
 - **霁野漫步** A Desultory Stroll
 - **极夜真梦** Ein Immernachtstraum
+- **基耶霍** Kaeho
+- **极意狂欢大合奏** Xtreme Carnival Ensemble
 - **既已写下的命运** Portended Fate
 - **记忆中的沙丘** Desert's Remembrance
 - **玑玉琼金** Gold Leaf and Pearly Jade
@@ -4083,8 +8359,8 @@
 - **寂远无妄之国** Realm of Tranquil Eternity
 - **极致一钓** A Prize Catch
 - **几支一起** Multishot
-- **极昼的先兆者** Daylight's Augury
 - **急转直下** Unforeseen Disaster
+- **寂罪的密使** Emissary of Solitary Iniquity
 - **巨蛇岩洞** The Serpent's Cave
 - **俱象残火** All Embers
 - **居安** Ju'an
@@ -4092,116 +8368,185 @@
 - **居尔城的记忆** Memories of Gurabad
 - **居尔城记事** Records of Gurabad
 - **居尔城往事** Reminiscence of Gurabad
-- **居尔城墟・赤王神殿** Gurabad's Ruin - Temple of Deshret
+- **居尔城墟・赤王神殿** Gurabad's Ruin &ndash; Temple of Deshret
+- **炬木** Torch Wood
+- **剧中尘寰** Storia Humana
 - **卷棚果蔬舆** Roll-Roofed Fruit and Vegetable Cart
 - **卷形的「镇物」** Scroll-Shaped Ward
 - **倦飞之鸟** Wandering Flight
+- **镌光集束** Iridescent Beam
 - **眷护的和风** Cherishing Breezes
 - **卷积微尘** Whirlwind Thrust
+- **镌刻遥梦之铭** Inscription of Dreams
 - **眷恋的泠风** Breeze of Reminiscence
+- **卷舒** Juanshu
 - **眷属的践行** The Servant's Path
 - **卷心菜** Cabbage
+- **卷叶符印** Coilgrass Sigil
+- **倦意之屋** Weary Inn
 - **倦慵的片刻** Languid and Quiet Moment
 - **隽永如电** Eternal Thunder
-- **决** Gash
+- **举杯吧，旅人已至！** Les voici ! Voici le duo !
+- **剧场消防演练** Theater Fire Drill
+- **巨大的贝壳** Huge Shell
 - **攫金鸦印** Golden Raven Insignia
 - **绝命的加速** Fatal Acceleration
 - **决水于溪** At Water's Edge
-- **谲域战境** Realms of Guile and War
 - **绝不菇息！** Fungi Buster
 - **绝处逢生** At Tunnel's End, Light
+- **决斗代理人** Champion Duelist
 - **决斗之魂** Duel Soul
-- **决斗之枪** Deathmatch
+- **决斗！召唤之巅！** Duel! The Summoners' Summit!
 - **绝对不是下酒菜** Definitely Not Bar Food!
 - **绝对独特的美食** Absolutely Unique Delicacy
 - **绝境求生烤鱼** Survival Grilled Fish
+- **角力搏摔** By the Horns
 - **诀箓阴阳寮** Mystic Onmyou Chamber
-- **角色活动祈愿** Character Event Wish
+- **角色故事** Character Story
 - **角色经验** Character EXP
+- **角色经验素材** Character EXP Material
 - **角色培养素材** Character Level-Up Material
+- **角色天赋素材** Character Talent Material
+- **角色突破素材** Character Ascension Material
 - **角色牌** Character Card
 - **决胜的礼物！** Gifts All Around
 - **觉树之堂** Ashvattha's Concourse
+- **绝望高悬天之上** Despair Engulfs the Heavens
 - **觉王之殿** Fane of Ashvattha
-- **绝弦** The Stringless
-- **决心** Determination
 - **觉醒** Awakening
+- **觉醒的正声** Awakening's Real Sound
 - **决意自分野** Pushing On
 - **绝域苍茫** On the Vast Earth
+- **绝域危途** Perilous Exploration
 - **绝缘药剂** Insulation Potion
 - **绝缘之旗印** Emblem of Severed Fate
 - **绝云朝天椒** Beware, It's Super Hot!
 - **绝云锅巴** Jueyun Guoba
 - **绝云椒椒** Jueyun Chili
 - **绝云记闻** Records of Jueyun
-- **绝云间** Jueyun Karst
+- **绝云间** Jueyun {{w|Karst}}
+- **抉择** A Decision
 - **聚风蓄力** Gathering the Winds
 - **飓风之种** Hurricane Seed
 - **聚风蹴** Windmuster Kick
+- **聚光灯下谎言成影** Lies Cast Shadows Under Gathered Lights
 - **聚会与痛饮之时** Wine o' Clock
+- **桔桔薄饼** Crepes Suzette
+- **聚聚鼓** Djem Djem Drum
+- **局开！疑云陡生** Commence! A Suspect Genesis
 - **居勒什** Cyrus
+- **俱利鼓** Kory Drum
+- **俱利般地谱** Korybantes Score
 - **巨龙与自由之歌** Song of the Dragon and Freedom
+- **剧目海报-「黑水晶号」** "Black Nacre" Promo Poster
+- **剧目海报-「密林古堡」** "Eerie Castle in the Woods" Promo Poster
+- **剧目海报-「天空高城」** "Skycastle" Promo Poster
+- **君臣佐使** The Applications of Medicine
 - **君君** Junjun
 - **俊明** Junming
+- **骏猊頕首** Leonine Vanguard
 - **菌王舞步** Majestic Dance
 - **君王之殿** Bayt Al-Muazzam
 - **君子白日闯** A Gentleman Strikes in Broad Daylight
+- **聚燃的石块** Ignited Stone
 - **巨人峡谷** Wadi Al-Majuj
+- **聚散难期** Fortuna Variabilis
 - **聚砂厅** Citadel of Regzar
+- **踞石山** Coatepec Mountain
 - **据说很肥沃的泥土** Fertile Soil (Reportedly)
+- **拒亡者的灵髑** Death Defier's Spirit Skull
 - **具现机关与风之厄灵** Manifestation Mechanism and Signal Spirit
+- **聚香海岸** Samudra Coast
+- **桔香鸭胸肉** Bulle Sauce Duck Breast
 - **驹形** Komakata
+- **醵饮同欢** Toast to Coast
 - **橘樱黑鸢花器** Orange Sakura Kurotobi Flower Vessel
 - **聚于湖畔的外乡之客** A Gathering of Outlanders
 - **巨渊的馈赠** The Chasm's Bounty
 - **巨渊深底** The Chasm's Bed
 - **巨渊险过百牢关** Perilous Plunge
 - **巨渊之口** The Chasm's Maw
+- **聚众游园，点亮夏日灯火** Fairground Gathering, Summer Lights Illuminated
 ## K
+- **卡安** Kaan
+- **卡尔・英戈德** Karl Ingold
 - **卡尔文枢机卿** Cardinal Calvin
 - **咔嚓！** Click!
 - **咔嚓嚓！** Clickety Click!
 - **卡丁** Kadin
 - **咖啡** Coffee
+- **咖啡芭芭露** Coffee Bavarois
+- **咖啡调制材料** Coffee Brewing Ingredients
 - **咖啡豆** Coffee Beans
 - **卡格姆尼** Kagemni
+- **卡胡鲁** Caholom
+- **卡胡那** Kahuna
 - **开顶杉木货架** Open-Top Fir Shelf
 - **凯叔** Pops Kai
+- **凯安** Kane
 - **开场即兴段** Impromptu Opening
 - **凯茨莱茵家族** Kätzlein Bloodline
 - **开放式烘炉工坊** Open-Air Workshop
 - **开放式松木橱柜** Doorless Pine Cupboard
 - **开封的信笺** Unsealed Letter
 - **凯歌的前奏** The Imminent Triumph
+- **凯库巴德** Kaykubad
 - **开门放狗** Who Let the Dogs Out
 - **开幕！荒泷派剧场！** Let the Arataki Gang Show Begin!
 - **凯撒** Kaiser
 - **凯瑟琳** Katheryne
 - **凯瑟琳的信** Katheryne's Letter
 - **凯瑟琳，在稻妻** Katheryne in Inazuma
+- **凯塔** Keita
 - **开拓的心魂** True Explorer
+- **凯特上校** Colonel Kate
 - **凯万** Kayvan
+- **凯万** Kevin
 - **开心的一天** A Happy Day
 - **凯西娅** Kathya
 - **凯亚** Kaeya
 - **凯亚的命星** Kaeya's Stella Fortuna
 - **凯亚的难题** Kaeya's Troubles
 - **凯亚的收获** Kaeya's Gain
+- **开阳** Kaiyang
+- **凯伊卡** Kaykaus
 - **开战！** Ready, Fight!
+- **卡嘉** Karya
+- **卡嘉** Katya
+- **卡嘉妮** Calcagni
+- **卡卡妈妈** Mama Coco
+- **卡考苦饮铺** Xocolatl Beverages
 - **卡卡塔** Karkata
+- **卡克斯** Qax
+- **咔库库** Cacucu
 - **卡菈的孩子** Kara's Child
+- **卡拉穆鲁** Caramuru
+- **卡兰萨** Carranza
 - **卡兰塔里** Kalantari
+- **卡雷斯** Callas
 - **卡里尔** Khalil
 - **卡利贝尔** Caribert
+- **卡力弗** Kallfu
+- **卡莉露** Callirhoe
 - **卡里玛** Karima
 - **卡里米交易所** Kalimi Exchange
 - **卡里米交易所公告板** Kalimi Exchange Bulletin Board
 - **卡里米之蕈兽** Kalimi's Fungus
+- **卡莉娜** Kareena
+- **卡莉珀丝** Carabosse
+- **卡隆** Caron
+- **卡伦雅** Kalunga
+- **卡萝蕾** Carole
 - **卡玛尔** Kamal
+- **卡玛尔** Qamar
+- **卡马加** Kamaka
+- **卡马克** Camac
 - **卡门** Carmen
 - **卡姆拉** Kamla
 - **卡姆拉的树莓需求** Kamla's Berries
 - **卡姆兰** Kamran
+- **看我正义的一击！** Behold My Righteous Strike!
+- **卡纳鲁亚** Kanaloa
 - **看不见的手** The Invisible Hand
 - **看得见又看不见的东西…** Visible, Yet Invisible
 - **勘定奉行** Kanjou Commission
@@ -4215,96 +8560,180 @@
 - **康明** Yasuaki
 - **康纳** Connor
 - **康纳的酿酒材料需求** Connor's Brew
+- **康妮** Connie
 - **康胜** Kangsheng
+- **康思戈** Consigliere
+- **康塔莉妮** Contarini
+- **抗性** {{tt|RES|Resistance}}
 - **抗性，有用吗？** Resistance is Futile!
 - **抗争的暴风** Storm of Defiance
-- **抗争的践行之歌** Revolutionary Chorale
+- **勘界定标** Demarcation
 - **勘解由小路健三郎** Kadenokouji Kenzaburou
+- **坎内克** Kannek
+- **坎佩尔** Kimpel
 - **看起来很普通的甜甜花** Very Ordinary-Looking Sweet Flower
 - **坎瑞亚** Khaenri'ah
+- **坎瑞亚的「五大罪人」** The Five Sinners of Khaenri'ah
 - **看似为「剑柄」之物** Hilt-Like Object
 - **勘探队营地告示牌** Exploration Team Campsite Noticeboard
 - **烤吃虎鱼** Grilled Tiger Fish
 - **烤蘑菇披萨** Mushroom Pizza
 - **烤肉卷** Shawarma Wrap
+- **烤肉香香香卷** Super-Dee-Duper Delicious Meat Roll
 - **烤肉排** Steak
 - **考什克** Kaushik
 - **考特里亚** Kautilya
+- **考威尔** Cowell
+- **卡帕可** Capac
+- **卡佩** Cappet
 - **卡琵莉亚** Karpillia
-- **卡皮塔诺** Il Capitano
+- **卡皮托林山** Clivus Capitolinus
+- **卡皮托林山** Clivus Capitolinus
 - **卡齐姆** Kazim
+- **卡齐娜** Kachina
+- **卡齐娜的命星** Kachina's Stella Fortuna
 - **卡萨勒** Kasala
 - **卡桑** Kazan
 - **卡萨扎莱宫** Palace of Alcazarzaray
 - **卡萨扎莱宫的无微不至** Alcazarzaray's Exactitude
+- **喀什米** Kashmer
 - **卡斯帕** Caspar
+- **卡苏莱砂锅** Cassoulet
 - **卡塔琳娜** Katarina
 - **卡塔扬** Katayoun
+- **卡特・谢尔比乌斯** Carter Scherbius
+- **卡特皮拉** Caterpillar
+- **卡图马** Cadmael
+- **卡瓦** Cava
 - **卡瓦贾** Khajeh
 - **卡万** Karwan
 - **喀万驿** Caravan Ribat
 - **喀万驿公告板** Caravan Ribat Bulletin Board
+- **喀万驿三型陆上运输货盘** Caravan Ribat Type III Land Transport Pallet
 - **卡维** Kaveh
+- **卡维的命星** Kaveh's Stella Fortuna
+- **卡乌胡** Cauich
+- **卡乌鲁** Kaulu
+- **卡乌帕** Karpa
 - **卡乌斯** Kavus
+- **卡西奥多** Cassiodor
+- **卡西米** Qasimi
 - **卡西姆** Kasim
+- **卡茜涅尔** Cassigneul
 - **卡西特** Qasit
 - **卡伊洛斯的时时刻刻** Kairos' Constancy
+- **卡兹加** Cazcal
+- **卡兹加的「霍莱专用护理套装」** Cazcal's "Hora Special Care Kit"
 - **克险章** Vanquisher's Emblem
 - **渴泽石** Parched Stone
 - **壳之宝石** Husk Gem
 - **客至万民堂** A Wanmin Welcome
+- **可爱玩偶** Cute Doll
+- **科奥劳** Koolau
+- **科尔特** Colter
 - **可用资金** Usable Funds
 - **可待追忆** Remaining Tenderness
 - **苛捐** Keen Extraction
 - **可可酱** Cocoa Paste
+- **科科庞** Kokpon
 - **可控性爆炸** Controllable Explosion
 - **柯莱** Collei
 - **柯莱的命星** Collei's Stella Fortuna
+- **克莱门汀** Clementine
+- **科拉莉** Coralie
+- **克拉莉希娅** Claricia
+- **克兰茨** Clynes
+- **克朗谢** Clanche
+- **克拉佩** Crapet
 - **克雷门斯** Clemens
+- **柯蕾特莉** Keratry
+- **克雷薇** Clervie
 - **可莉** Klee
 - **可莉的命星** Klee's Stella Fortuna
 - **可莉特调** Exquisite Compound
 - **柯里安巴** Cuilein-Anbar
+- **颗粒果** Grainfruit
+- **柯莉黛尔** Clotaire
 - **克列门特** Kliment
+- **科林斯** Collins
+- **克林索尔** Klingsor
 - **克利普斯** Crepus
 - **克里托夫** Clitopho
 - **克留兹理德** Kreuzlied
+- **科隆切广场** Colomche Plaza
+- **科伦汀** Corentin
 - **克洛伯** Krupp
-- **克洛达尔** Chlothar
+- **克洛琳德** Clorinde
 - **克罗丽丝** Chloris
 - **克罗丽丝的植物研究** Chloris' Flora Studies
+- **克洛妮艾** Chronie
+- **克洛莎** Crossa
 - **克罗索** Krosl
+- **客门** Guest Door
+- **科米娜** Komina
+- **柯奈尔** Corneille
+- **肯顿** Camden
+- **柯妮莉娅** Cornelia
+- **肯莎** Khensa
+- **肯特** Quentin
+- **科奴拉芙** Conulaf
+- **科帕** Copa
+- **科潘** Copan
+- **科培琉司** Coppelius
+- **柯奇妲** Cochitta
 - **刻晴** Keqing
 - **刻晴的命星** Keqing's Stella Fortuna
 - **渴求神明注视之人** Those Who Yearn for the Gods' Gaze
-- **克柔** Bane of the Soft
+- **科赛尔** Kosel
+- **柯莎** Cosanzeana
 - **客商的包裹** Traveling Merchant's Package
+- **可慎** Keshen
+- **科斯唐坦** Costentin
+- **科斯特利茨基** Kosterlitzky
+- **柯梯米** Kotimy
 - **渴望旅行的妖狸** Bake-Danuki Wanderlust
+- **克维库** Kweku
+- **科沃** Covault
+- **柯夏尼娜** Cochanina
+- **克叙涅** Xugney
+- **柯娅** Coya
+- **可疑的禽肉** Suspicious Fowl
 - **可疑的市民** Suspicious Citizen
 - **刻印的祝愿** Engraved Wishes
+- **克伊奈** Kinne
+- **科优尔** Coyllur
+- **科约帕** Coyopa
+- **科约帕** Coyopa
 - **客栈・翠枫庭** Emerald Maple Inn
 - **空山霄月** Moon Above the Valley
+- **空月之歌** Song of the Welkin Moon
 - **空月祝福** Blessing of the Welkin Moon
 - **空月祝福・新月** Blessing of the Welkin Moon - New Moon
-- **空之杯** Goblet of Eonothem
+- **空之杯** Goblet of {{w|Eonothem}}
 - **空白的影幻牌** Blank Dynamic Card
 - **空谷传响** A Shallow Promise
 - **空幻回响的花神诞祭** The Empty Illusions of the Sabzeruz Festival
 - **空寂如常** Miko's Night
 - **空间电势结界** Electromagnetic Field
+- **空瓶** Empty Bottle
+- **空取奇思的手艺** Whimsical Wonders
+- **孔雀羽之章** Pavo Ocellus Chapter
+- **孔雀羽座** Pavo Ocellus
 - **孔雀木** Aralia Wood
+- **孔雀木「遍知」告示牌** "Henji" Aralia Noticeboard
 - **孔雀木「并提」层叠木匣** "Hyoutei" Stacked Aralia Wood Boxes
 - **孔雀木「不染」橱柜** Aralia "Fusen" Cupboard
 - **孔雀木「连造」路灯** Aralia "Renzou" Street Lamp
-- **孔雀木「万角」货柜** Aralia "Bangaku" Shelf
-- **孔雀羽之章** Pavo Ocellus Chapter
-- **孔雀羽座** Pavo Ocellus
-- **孔雀木「遍知」告示牌** "Henji" Aralia Noticeboard
 - **孔雀木「石定」茶桌** "Sekijou" Aralia Tea Table
+- **孔雀木「万角」货柜** Aralia "Bangaku" Shelf
 - **孔雀木「幸归」面具架** "Kouki" Aralia Mask Rack
+- **空想的落音** Falling Fantasy
 - **空想俱乐部** Daydream Club
 - **空行不羁** Overlord of the Thunderstorm
 - **空行的虚铃** Daka's Bell
+- **孔锡尼** Concini
+- **空虚的愿景** Oracle of the Void
+- **孔雅** Conjat
 - **空余回响** Hollow Echoes
 - **控制了香料的人…** He Who Controls the Spice...
 - **口袋饼** Pita Pocket
@@ -4312,28 +8741,40 @@
 - **口袋魔导书** Pocket Grimoire
 - **扣三丝** Triple-Layered Consommé
 - **苦炮鲀** Bitter Pufferfish
+- **苦与幸的钟摆** The Pendulum of Weal and Woe
+- **苦种** Cacahuatl
+- **库阿勒** Cuallee
+- **库尔布瓦** Courbevoie
 - **库尔苏姆** Kulsoom
+- **夸恩因** Quenin
 - **快是第一奥义** Speed Comes First
 - **快刀陈** Chen the Sharp
 - **快快缝补术** Quick Knit
 - **快乐的旅程** Happy Journey
 - **快乐的味道** Taste of Happiness
 - **快拳阿凌** Flash-Fist Ling
+- **快速近战** Rapid Melee
 - **快速射击** Rapid Fire
+- **快速水环** Accelerated Aquaring
 - **快腿罗斯** Ross the Quick
 - **快意新词** Chapter of a New Era
+- **夸梅** Kwame
 - **宽大的松木长桌** Long Pine Table
+- **况是花繁月正明** Camellia Night
 - **矿渣** Ore Slag
+- **狂迸骇雷** Wild Thunderburst
 - **狂风精油** Gushing Essential Oil
 - **狂风之核** Eye of the Storm
 - **狂风，听谁号令** Who Wields the Wild Wind?
 - **矿工的钥匙** Miner's Key
 - **诓惑者，接树移花** Bait-and-Switch
 - **框架外收获** Jackpot
-- **狂浪蹴波** Wild Undercurrent
+- **哐哐锵锵王山行** A Wangshan Walk to Remember
+- **狂烈冲锋** Raging Charge
 - **狂乱的崩岩** Frenzied Rockslide
+- **狂蔓隙境原体** Overgrown Breacher Primus
+- **狂猛吐息** Raging Breath
 - **狂言破碎之时** Silence, You Raving Lunatic
-- **狂躁意志** Wild Spirit
 - **宽怀的传说** Legend of Redemption
 - **宽则** Hironori
 - **跨野寻踪** Across the Wilderness
@@ -4343,34 +8784,66 @@
 - **库达里** Kudari
 - **库房安全钥匙・甲字号** Storehouse Security Key No. 1
 - **库房安全钥匙・乙字号** Storehouse Security Key No. 2
+- **库胡勒阿乔** K'uhul Ajaw
 - **葵** Aoi
 - **窥见白夜** A Glimpse Into the Pale Night
+- **葵可** Chuychu
 - **傀儡的悬丝** Puppet Strings
 - **傀儡谣** Puppet Show-Off
+- **葵莉娅** Quilla
+- **奎皮亚** Quipia
+- **奎瑟尔的发条工坊** Kuisel's Clockwork Workshop
 - **窥伺「深渊」时…** When One Gazes Into the Abyss...
+- **奎泰克** Quiltec
 - **枯焦的星蕈** Scorched Starshroom
+- **库嘉维娜** Crucabena
+- **枯竭之螺杯** Drained Conch Cup
+- **苦苦羊** Cacaua Goat
+- **库拉霍** Kulahaw
 - **库拉什** Kurash
+- **苦离果** Nirodha Fruit
+- **枯柳的幽绪** Willow of Sorrow
+- **库洛德莫** Clodomir
 - **库洛什** Kourosh
 - **库洛什的鲜花需求** Kourosh's Sumeru Roses
 - **库马** Kumar
 - **库玛莉** Kumari
+- **库马约** Kumayo
 - **枯木方向标** Deadwood Road Sign
+- **库穆库尔** Xumucul
 - **昆钧** Kun Jun
 - **昆吾** Kunwu
 - **昆恩** Quinn
 - **昆家** House of Kun
+- **库纳克** Kunak
 - **苦恼的莉安** Troubled Lianne
-- **昆布丸** Konbumaru
+- **昆纳乌** Kunnau
+- **昆图尔** Kuntur
+- **鹍弦踏月出** Lustrous Moonrise
 - **阔面石制炉灶** Wide Stone Stove
 - **扩散** Swirl
+- **库珀** Cooper
+- **库珀・努伊** Kupo Nui
+- **库琪露** Cuaxilo
 - **库塞拉** Kusayla
 - **苦涩的凯旋** Bitter Triumph
+- **苦舍桓** Kusava
 - **库什基** Qushji
+- **苦水** Xocoatl
+- **库斯可** Cusco
+- **库斯图** Cuistot
 - **库塔** Kutta
 - **苦痛恩典** Painful Grace
 - **枯萎的苦舍桓** Withered Kusava
+- **库西** Kusi
+- **库希马纳** Kuhimana
+- **库娅** Coa
+- **库伊米** Kuymi
+- **库约尼** Xueyoni
 ## L
 - **辣味饮料的原料之二** The Second Chilibrew Ingredient
+- **拉巴哈** Rabah
+- **拉比娜** Labna
 - **拉德普** Ladep
 - **拉杜** Raju
 - **拉多米尔** Radomir
@@ -4380,24 +8853,37 @@
 - **来点颜色瞧瞧？** Color It In
 - **来试试「七圣召唤」吧！** Come Try Genius Invokation TCG!
 - **莱昂** Leon
+- **莱奥尼德** Leonide
+- **莱欧斯利** Wriothesley
+- **莱蒂法** Latifah
 - **来复知时** Precise Comings and Goings
 - **莱艮芬德家** Ragnvindr Family
 - **来古之风** Ancient Wind
+- **莱克图尔** Lectoure
 - **莱拉** Railah
 - **来来菜** Come and Get It
+- **莱莲** Lelienne
+- **莱弥娅** Rhemia
 - **莱纳德** Leonard
 - **莱内** Lenne
 - **莱妮** Leni
 - **莱诺** Leno
+- **莱舒的发条工坊** Leschots Clockwork Workshop
 - **莱斯** Layth
+- **莱斯格** Lessig
+- **莱斯科・德斯特雷** Lescot Destree
+- **莱斯利** Leslie
+- **莱提西娅** Laetitia
 - **来歆余响** Echoes of an Offering
+- **来歆山** Mt. Laixin
 - **莱依拉** Layla
 - **莱依拉的订货单** Layla's List of Orders
 - **莱依拉的命星** Layla's Stella Fortuna
-- **莱茵多特** Rhinedottir
 - **来自冬天的故事** Tales of Winter
+- **来自何处的待放之花** A Flower Yet to Bloom
 - **来自柯莱的「风之花」** Collei's Windblume
 - **来自昆恩的「礼物」** A Gift from Quinn
+- **来自Mimo的回忆邀请** An Invitation to Memories From Mimo
 - **来自某位「神明」的凝视** The Gaze From a Certain God
 - **来自泥土，归于黄沙…** From Soil You Are, and to the Sand You Shall Return...
 - **来自深境** Down to Dodge
@@ -4407,16 +8893,24 @@
 - **来自温迪的纸条** Venti's Note
 - **辣椒英雄** Red Hot Chili Popsicles
 - **拉贾维** Rajavi
+- **拉吉普特** Rajput
 - **拉凯什** Rakesh
+- **拉坎阿** Lakamha
 - **拉库马尔** Rajkumar
 - **拉玛** Rama
 - **拉玛的收货单** Rama's Receipt
+- **拉曼** Raman
+- **拉马奈** Lamanai
+- **拉密萨纳** Lamizana
+- **拉米雅** Lamiya
 - **拉米兹** Ramiz
 - **拉姆齐** Ramsay
 - **蓝角蜥** Blue Horned Lizard
 - **蓝翎鹭** Azure Crane
 - **兰生幽谷** Valley Orchid
 - **蓝蛙** Blue Frog
+- **蓝砚** Lan Yan
+- **蓝砚的命星** Lan Yan's Stella Fortuna
 - **兰阿帕斯** Arapas
 - **兰贡迪** Arakunti
 - **岚姐** Lan
@@ -4436,27 +8930,37 @@
 - **蓝川丞** Aikawa Susumu
 - **兰达** Landa
 - **兰道尔** Randall
+- **兰道夫** Randolf
 - **兰德里希** Landrich
 - **兰帝裟** Aradasha
 - **兰非拉** Araphala
+- **兰浮婆** Arapurva
 - **狼般的少年** The Wolf Boy
-- **狼的末路** Wolf's Gravestone
+- **浪海豹座** Phoca Neomonachus
+- **浪暖风柔** Makani 'olu'olu
 - **狼少年** Wolf Boy
 - **狼性** Wolf's Instinct
 - **狼哥** Big G
 - **兰伽卢** Arakara
-- **浪潮** Tidal Wave
+- **朗贝萨** Lambersart
 - **浪船** Waverider
 - **浪船锚点** Waverider Waypoint
 - **浪船修理工具箱** Waverider Repair Toolbox
+- **郎蒂** Lanty
+- **朗杜瓦** Landois
+- **朗戈** Rongo
 - **浪花不再归海** The Spindrift Shall Never Return to the Sea
 - **浪尖之舞** Wavecrest Waltz
+- **朗镜索真** Lens of Verity
+- **浪客的安歇** Resting Rogues
 - **浪客座** Peregrinus
 - **浪沫的旋舞** Dance of the Shimmering Wave
 - **浪沫起舞** Dance of Aphros
+- **浪沫羽鳃** Sprayfeather Gill
 - **浪沫之章** Aphros Delos Chapter
 - **浪沫座** Aphros Delos
 - **兰贡迪的花** Arakunti's Flower
+- **朗清** Langqing
 - **浪人** Ronin
 - **浪涌之瞬** Born of Ocean Swell
 - **狼族盟约** Wolf Pact
@@ -4468,7 +8972,9 @@
 - **兰犍多** Arakanta
 - **兰犍多的花** Arakanta's Flower
 - **兰加惟** Arakavi
+- **兰迦叶波** Arakasyapa
 - **兰羯磨** Arakarman
+- **兰吉特** Ranjit
 - **兰拉吉** Araji
 - **兰拉迦** Araja
 - **兰拉迦的花** Araja's Flower
@@ -4506,15 +9012,18 @@
 - **兰沙诃** Arasaha
 - **阑珊夜色** Sleepless Night
 - **滥觞无底** Boundless Origin
+- **兰莎妮** Arashani
 - **兰沙陀** Arasata
 - **岚生石** Azurite
 - **兰随尼** Aravinay
 - **兰提沙** Aradashan
 - **兰陀尼什** Aradanish
 - **兰陀娑** Aradasa
+- **兰维达** Aravedana
 - **兰溪** Lanxi
 - **兰修提袈** Arasudraka
 - **兰雅玛** Arayama
+- **爁炎的真火** True Flame of Incineration
 - **澜阳** Lanyang
 - **兰耶多** Arayuta
 - **兰耶师** Arayash
@@ -4524,6 +9033,7 @@
 - **老蔡** Lao Cai
 - **老臭** Old Chou
 - **老戴** Uncle Dai
+- **老丁** Ding Sr.
 - **老芬奇** Old Finch
 - **老高** Uncle Gao
 - **老何** Uncle He
@@ -4531,9 +9041,10 @@
 - **老贾** Uncle Jia
 - **老克** Lao Ke
 - **老刘伯** Uncle Liu
+- **老陆头** Grandpa Lu
 - **老孟** Meng
 - **老墨** Mo
-- **老石** Archaic Stone
+- **老朋友和新游戏** Old Friends, New Game
 - **老孙** Uncle Sun
 - **老图** Tu
 - **牢屋敷花火祭** Jailhouse Fiesta
@@ -4541,11 +9052,13 @@
 - **老赵** Uncle Zhao
 - **老郑** Zheng
 - **老周叔** Pops Zhou
+- **老兵的容颜** Veteran's Visage
 - **牢房的钥匙** Cell Key
 - **牢固的箭簇** Firm Arrowhead
 - **老旧的徽记** Old Insignia
 - **老旧的诗琴** Vintage Lyre
 - **老旧的钥匙** Old Key
+- **劳莉** Lori
 - **牢笼钥匙** Cage Key
 - **牢笼钥匙** Cage Key
 - **劳伦斯** Lawrence
@@ -4553,14 +9066,26 @@
 - **劳伦斯老爷** Lord Lawrence
 - **劳伦斯家族** Lawrence Clan
 - **老石** Archaic Stone
+- **老鼠** Mouse
+- **劳维克** Lauwick
+- **酪香蟹蟹锅** Cheesy Crab Hotpot
 - **老章** Master Zhang
+- **拉普亚德** Lapouyade
 - **拉齐** Razi
 - **辣肉窝窝头** Chili-Mince Cornbread Buns
+- **拉瑟兰** Lasselin
+- **拉沙鲁** Rashnu
+- **拉斯蒂涅** Rastignac
+- **拉斯塔恩** Lastan
 - **拉特什** Latish
 - **辣味时蔬烩肉** Spicy Stew
 - **辣味饮料的原料之一** The First Chilibrew Ingredient
+- **拉韦兰** Laverune
 - **拉伊德** Raed
+- **拉扎尔** Lazare
 - **拉扎克** Razak
+- **勒波特钟表店** Lepaute Horlogerie
+- **勒非尼** Lafeinte
 - **雷** Electro
 - **雷弹丘丘人** Electro Hilichurl Grenadier
 - **雷斧丘丘暴徒** Crackling Axe Mitachurl
@@ -4581,86 +9106,132 @@
 - **雷牙** Lightning Fang
 - **雷野险踪** The Thundering Wilds
 - **雷音坠落** Thunder Fall
-- **雷萤** Electro Cicin
 - **雷影剑** Lightning Blade
 - **雷与永远** Thunder Is Forever
+- **雷与永恒** Thunder and Eternity
 - **雷灾的孑遗** Survivor of Catastrophe
 - **雷之祸乱** Shocking... Positively Shocking
 - **雷之寻宝罗盘** Electro Treasure Compass
 - **雷之印** Electro Sigil
 - **雷种子** Electrogranum
 - **雷自东来** I Hear Thunder...
+- **蕾欧妮** Leone
+- **雷元素护罩** Electro Shield
+- **雷弹** Thunderbolt
 - **雷德・米勒** Reed Miller
 - **泪滴结晶** Teardrop Crystal
 - **雷电将军** Raiden Shogun
 - **雷电将军的命星** Raiden Shogun's Stella Fortuna
 - **雷电将至** The Gathering Storm
 - **雷电五传** Raiden Gokaden
+- **蕾蒂西娅** Leticia
+- **雷罚恶曜之眼** Eye of Stormy Judgment
+- **雷格巴** Legba
 - **雷光矩阵** Lightning Bolt Matrix
 - **雷光棱镜** Lightning Prism
 - **雷汉** Rehan
 - **雷箭** Thunder Arrow
+- **雷晶核心** Electro Crystal Core
+- **雷晶投射** Electro Crystal Projection
+- **蕾卡** Leuca
 - **雷厉** Thundering Might
 - **雷蒙德** Raymond
+- **雷蒙多** Raimondo
 - **雷鸣仙** Raimei Angelfish
-- **雷鸟** Thunderbird
+- **雷穆利亚** Remuria
+- **雷穆利亚的最后一日** The Last Day of Remuria
+- **雷内的调查笔记** Rene's Investigation Notes
+- **雷诺・德・佩特莉可** Renault de Petrichor
+- **雷诺德** Renaud
+- **雷墙倾轧** Strifeful Lightning
 - **雷萨** Reza
 - **雷萨哈尼** Rezakhani
 - **雷神瞳共鸣石** Electroculus Resonance Stone
 - **「雷石」** Stormstone
+- **泪水啊，我必偿还** O Tears, I Shall Repay
+- **雷锁镇域** Chains of Warding Thunder
 - **雷霆的时计** Hourglass of Thunder
 - **雷霆的威光** Thunderings of the Merciless
 - **雷霆猛震** Rumble of Thunder
 - **雷霆数珠** Storm Beads
 - **雷霆探针** Lightning Strike Probe
+- **雷霆探知** Lightning Probe
 - **雷霆引爆计划** Operation Thunderous Ignition
 - **雷霆之判** Trial of Thunder
+- **雷维** Rave
+- **雷温** Levin
 - **雷楔** Lightning Stiletto
 - **蕾娅** Leah
 - **雷音权现** Thunder Manifestation
+- **雷音权现・裂鸣** Crackling Thunder Manifestation
 - **雷隐遗事** Forgotten Epic
+- **雷萤** Electro Cicin
 - **雷樱闪闪** Flickering Sakura
 - **雷樱枝条** Thunder Sakura Bough
 - **雷云之笼** Storm Cage
+- **雷灾磐座** Thunder Dwelling
 - **雷泽** Razor
 - **雷泽的命星** Razor's Stella Fortuna
+- **雷锥散射** Thunderbore Blast
 - **雷兹吉** Rezki
+- **勒杰** Rege
+- **勒克莱德** Lechlade
+- **勒拉** Leyla
+- **勒马克** Lemarcq
+- **勒芒德** Remande
 - **乐明** Leming
-- **冷刃** Cool Steel
+- **勒莫迪埃** Remaudiere
 - **冷肉拼盘** Cold Cut Platter
 - **冷冰冰的大麻烦** Icy Issues
+- **冷花幽露** Frostflower Dew
 - **冷静点！** Chill Out!
 - **棱镜计划** The PRISM Program
-- **冷却时间** CD
-- **冷却缩减** CD Reduction
+- **冷色摄影律** Cool-Color Capture
 - **冷血之剑** Cold-Blooded Strike
+- **乐平波琳** Lepine-Pauline
+- **乐斯** Sinthe
+- **勒泰利埃** Letellier
 - **乐园遗落之花** Flower of Paradise Lost
 - **雳裁冥昭** Twilight Arbiter
 - **力场侵蚀** Force Field Erosion
 - **李锤子** Hammer Li
 - **李当** Li Dang
+- **力的三原理** The Three Principles of Power
 - **李丁** Li Ding
 - **李九郎** Li the Ninth
+- **历七盘而蹝蹑** Seven Dish Dance
 - **利上加利** Compound Interest
 - **李晓** Li Xiao
 - **李小虎** Tiger Li
-- **理之冠** Circlet of Logos
+- **鲤跃天门开** The Carp Leaps, Heaven's Gates Open
+- **理之冠** Circlet of {{w|Logos}}
 - **利爪** Sharpened Claws
+- **莉安** Leeann
 - **礼安** Li'an
 - **莉安的苦恼** Lianne's Troubles
+- **莉安歌** Lianca
 - **莉尔** Lyra
 - **连心珠** String of Pearls
 - **练兵场的一角** Training Ground
 - **练兵场木桩支架** Training Ground Support Stakes
+- **连波喷吐** Spouting Waves
 - **潋波绽破** Influx Blast
 - **连队消失在深岩** A Company Vanishing Into the Deep
+- **连芳** Lianfang
+- **连芳茶点** Lianfang Dim Sum
 - **凉拌薄荷** Mint Salad
 - **良材分享包** Eminent Share Bundle
 - **凉风暂歇之时** A Puff of Cool Breeze
+- **两个铳枪手** The Two Musketeers
+- **两个铳枪手的凯旋** The Two Musketeers' Triumph
+- **两界为火，赤夜将熄** Two Worlds Aflame, the Crimson Night Fades
 - **亮晶晶发现术** Seeker of Shinies
 - **良平** Ryouhei
 - **亮闪闪的漂流物** Shiny Flotsam
+- **量体裁衣** Tailor-Made
+- **莲光的流河** Inebriation of Raghs-e-Nilou
 - **莲光落舞筵** Dance of Lotuslight
+- **两万里格的漫游** Twenty Thousand Leagues Under the Sea
 - **良药难成** Good Medicine Is Difficult to Make
 - **良药难求** Good Medicine Is Hard to Come By
 - **良药苦口** Good Medicine Tastes Bitter
@@ -4676,7 +9247,9 @@
 - **镰井显治** Kamai Kenji
 - **莲蓬** Lotus Head
 - **莲塔** Lemta
+- **练习钻地的小嵴锋龙** Little Tepetlisaurus Learning How to Dig
 - **连心面** Heartstring Noodles
+- **联行机关** Connection Mechanism
 - **连续挥火把** Scorching Combo
 - **连延的远雷** Distant Crackling
 - **廉贞** Tenacious Star
@@ -4690,11 +9263,12 @@
 - **燎燃利爪裂帛斫金** The Burning Claws Cleaving
 - **疗养观察** Further Observation
 - **疗愈弹** Curative Bullet
+- **燎灼的烈火** Ravaging Flame
 - **僚佐的才巧** A Subordinate's Skills
 - **立本** Liben
 - **离别之贝** Cowry of Parting
+- **利别科** Libiac
 - **璃彩** Licai
-- **离簇不归** Unreturning
 - **离岛** Ritou
 - **离岛双人游** A Trip for Two in Ritou
 - **离岛逃离计划** Ritou Escape Plan
@@ -4704,7 +9278,7 @@
 - **猎兵祭刀** Hunter's Sacrificial Knife
 - **烈火攻燔** Flaming Assault
 - **烈焰花花蕊** Flaming Flower Stamen
-- **烈绽放** Burgeon
+- **猎刀鳐** Hunter's Ray
 - **烈风的序章** Overture of Storms
 - **烈风的遗骨** The Remains of the Gale
 - **猎弓** Hunter's Bow
@@ -4712,76 +9286,112 @@
 - **烈火精油** Flaming Essential Oil
 - **烈火急烹** Flaming Fry
 - **烈火踏歌行** Blazin' Trails
-- **烈火踏歌行** Blazin' Trails
+- **烈火腾燎之翼** Wings of Soaring Flame
 - **烈火与勇气** Fire Ventures With Me
 - **裂空的魔龙** Stormterror
 - **裂空之风** Slitting Wind
+- **猎龙者的犒赏** Saurian Hunter's Reward
 - **猎鹿急送** Good Hunter Express
 - **猎鹿人今日推荐** Good Hunter's Daily Recommendation
 - **猎鹿人** Good Hunter
 - **猎鹿人餐馆的「特产餐品」** Good Hunter's Specialty Dish
 - **猎人变成了猎物** The Hunter Becomes the Hunted
 - **猎人的仁慈** Hunter's Mercy
+- **猎人的胸花** Hunter's Brooch
 - **猎人青翠的箭羽** Viridescent Arrow Feather
 - **猎人射术** Kätzlein Style
-- **猎人之径** Hunter's Path
 - **烈日威权的残响** Echo of Scorching Might
 - **烈日威权的旧日** Olden Days of Scorching Might
 - **烈日威权的梦想** Dream of Scorching Might
 - **烈日威权的余光** Remnant Glow of Scorching Might
 - **烈日之残响** Restless Blazing Sun
 - **烈烧佑命之侍护** Blazing Blessing
+- **裂石轰顶** Splitrock Slam
 - **猎兽魁首卓荦不羁** The Alpha Unleashed
 - **烈焰机关** Flaming Device
+- **烈焰燃绽** Buster Blaze
 - **烈阳烁金** Auric Blaze
+- **猎影潜袭** Shadowhunter's Ambush
+- **列扎诺夫** Rezanov
+- **裂爪横击** Lacerating Slash
+- **列阵斗巧** Tactical Formation
 - **列柱沙原** Hypostyle Desert
 - **里法特** Rifaet
+- **黎翡区** Liffey Region
+- **利弗** Livre
 - **里夫** Raef
 - **里夫的包裹** Raef's Package
+- **离垢者肃心旅宴** Feast of the Departed Warriors
 - **璃冠鸽** Brightcrown Pigeon
+- **粒果杯** Cup O' Grainfruit
+- **粒果裹裹** Grainfruit Wrap
+- **粒果片片** Grainfruit Chips
+- **粒果肉汤** Grainfruit Meat Soup
 - **梨绘** Rie
+- **里加斯** Rigas
+- **裂解晶岩** Crystal Cracker
 - **历经风雪的思念** Snowswept Memory
+- **历经艰险…** Hardships Experienced...
 - **里卡尔** Rekhar
+- **离开点** Exit Point
+- **里凯蒂** Riqueti
 - **离可琉** Rikoru
 - **莉拉** Lila
 - **莉莉** Lily
 - **莉莉亲手烤制的庄园烤松饼** Tea Break Pancake Cooked by Lily
+- **莉莉安** Liliane
 - **历练的猎弓** Seasoned Hunter's Bow
-- **力量满溢** Fully Charged
 - **力量特训** Strength Training
-- **利露法尔** Liloufar
+- **莉利丝** Lyris
+- **莉琉** Liliuo
+- **莉莉乌** Liriwu
+- **莉莉尤** Lirio
+- **利洛** Lillo
 - **蛎罗** Rero
-- **利露帕尔** Liloupar
+- **莉洛娅** Liloa
 - **丽玛** Rima
 - **狸猫抱抱合影板** Tanuki Hugs Photo Board
 - **黎明** Dawn
 - **黎明** Dawn
-- **黎明神剑** Harbinger of Dawn
+- **雳木** Thunderwood
 - **琳** Lynn
 - **琳的苦恼** Lynn's Troubles
 - **林间风** Breeze Amidst the Forest
 - **林逃山** Fleein' Lin
 - **临渊石** Chasm's Doorstep
-- **林中冒险之旅即将开启！** Adventure in the Forest
 - **林中奇遇** Woodland Encounter
 - **林中小曲** Encounter in the Woods
 - **林间寻游** A Walk Through the Woods
 - **林藏的徽记** Rinzou's Signet
 - **林藏的信** Rinzou's Letter
 - **琳德** Lind
+- **凛冬夜啸** Night's Chilling Howl
 - **凛风奔狼的断牙** Boreal Wolf's Broken Fang
 - **凛风奔狼的怀乡** Boreal Wolf's Nostalgia
 - **凛风奔狼的裂齿** Boreal Wolf's Cracked Tooth
 - **凛风奔狼的始龀** Boreal Wolf's Milk Tooth
+- **林风的和弦** Chords of the Forest
 - **零号玩家** Ready Player Zero
+- **灵何惟兮水中** Spirits Adrift, Alas, in Water
+- **灵缰追影** Spirit Reins, Shadow Hunt
 - **绫罗锦绣** Silk Splendor
 - **零失误少女** Flawless Alchemistress
+- **另一段旅途** Odyssey to the Uncharted
+- **灵与火的织卷** Tapestry of Spirit and Flame
+- **灵壁的洞窟** Spiritwall Cave
 - **泠波汩汩的微语** Over the Tumbling Rivulet
 - **玲菜** Reina
 - **林鸽座** Palumbus
+- **灵光** Khvarena
+- **灵光的回响** Resonance of Khvarena
+- **灵光绝唱** Great Song of Khvarena
+- **灵光明烁之心** Heart of Khvarena's Brilliance
+- **灵光铭文的残片** Khvarena Inscription Fragment
+- **灵光游蜉** Khvarena Mayfly
+- **灵光源起之蕊** Stamen of Khvarena's Origin
 - **灵光乍现** Eureka Moment
 - **灵光乍现** Flash of Genius
-- **灵光颂** An Ode to Soul-Light
+- **灵光颂** An Ode to Khvarena
 - **玲花** Reika
 - **灵魂热望** Ardent Soul
 - **灵津纪行** Stellar Rivers
@@ -4789,19 +9399,31 @@
 - **灵矩关** Lingju Pass
 - **伶俐鬼** Crafty
 - **玲珑玉骰玄掷间** Between the Exquisite Throws of Her Enigmatic Dice
+- **灵濛山** Mt. Lingmeng
 - **灵妙玉符** Wondrous Talisman
+- **令人无奈的恶作剧** An Exasperating Prank
 - **令人在意的石壁** Conspicuous Stone Wall
 - **灵山派** Lingshan Clan
 - **灵善坊** Reizenbou
+- **灵石** Spiritstone
 - **灵石何故堕此间** Wherefore Did the Spiritstone Descend?
+- **零时召唤** Zero Hour Invokation
+- **灵枢庭** Lingshu Courtyard
 - **陵薮市朝** Gentry of Hermitage
 - **菱田** Hishida
 - **聆听忏悔的幽影** Regina Probationum
+- **聆听，归来者** Hearken, Ye Who Have Returned
+- **灵犀默应的配合** Tacit Coordination
+- **灵相的触媒** Aspect Catalyst
+- **凌霄** Lingxiao
 - **菱形桌布的长桌** Long Table With Tablecloth
 - **灵蕈奖章** Fungus Medal
 - **灵蕈棋阵** Fungus Mechanicus
 - **伶一** Reiichi
-- **另一段旅途** Odyssey to the Uncharted
+- **另有他职** Other Duties
+- **绫羽二重** Two Silken Plumules
+- **灵渊** Lingyuan
+- **利涅尔** Ligniere
 - **林间清流** Murmuring Creek
 - **林间相会** Forest Rendezvous
 - **粼镜折光** Rippled Reflection
@@ -4809,20 +9431,25 @@
 - **琳琅** Linlang
 - **凛冽的冰戏** Dance of Frost
 - **凛冽轮舞** Glacial Waltz
+- **凛冽之刺** Biting Shards
 - **霖铃** Linling
 - **霖铃的「绝对」** Outspoken Linling
 - **霖铃精选诗集** Linling's Anthology of Selected Poetry
 - **林尼** Lyney
+- **林尼的命星** Lyney's Stella Fortuna
 - **琳妮特** Lynette
+- **琳妮特的命星** Lynette's Stella Fortuna
 - **临时主矿道** Ad-Hoc Main Tunnel
 - **林薮引路人** Woodland Guide
-- **临危受命** Crisis Mode
+- **莉诺尔** Lanoire
+- **莉诺蕾娅** Linorea
 - **临危受命** Emergency
+- **林雾间的行迹** Trails Amidst the Forest Fog
 - **琳阳** Linyang
 - **林野百态** The Myriad Wilds
 - **林野钓竿** Wilderness Rod
-- **林野晚星** Wildling Nightstar
 - **林野与沙漠的合奏** Chorus of Desert and Wood
+- **林荫与泉流** The Drifting Beauty
 - **麟跃幽岩** Qilin's Prance
 - **临阵的战栗** Tremor of Menace
 - **林中秘影** Secret Forest Shadow
@@ -4831,13 +9458,16 @@
 - **林中遇变** A Forest of Change
 - **里栖太御须** Risutaiosu
 - **理清逃跑路线** Egress Prep
+- **丽日逢源** A Nice Day at the Port
 - **栗蕊木樨花** Cherubic Osmanthus
+- **莉塞特** Lisette
 - **里瑟** Riese
 - **丽莎** Lisa
 - **丽莎的命星** Lisa's Stella Fortuna
 - **璃沙郊** Lisha
 - **历史的涟漪** Echoes of History
-- **理水叠山真君** Mountain Shaper
+- **丽什蒂** Rishti
+- **雳霆镇锁** Lightning Lockdown
 - **鎏金之鳞** Gilded Scale
 - **六情通七仙贺八方飘香九霄得闻十分完满** Three to Get Ready, and Here We Go
 - **六入尽明，诸相皆无** All Senses Clear, All Existence Void
@@ -4845,6 +9475,7 @@
 - **留云** Custodian of Clouds
 - **六指乔瑟** Six-Fingered José
 - **流彩贺佳节** Festive Celebration of Flowing Hues
+- **流程细致的交易** Painstaking Transaction
 - **柳达希卡的摩拉袋** Lyudochka's Mora Purse
 - **柳达希卡的签文** Lyudochka's Fortune Slip
 - **柳达希卡的信** Lyudochka's Letter
@@ -4858,19 +9489,24 @@
 - **流放者** The Exile
 - **流放者** The Exile
 - **流风眷堇庭** Zephyr of the Violet Garden
+- **流风秋野** Autumn Whirlwind
 - **流风无涯** Flow of Autumn Wind
 - **留给岻伽的「藏宝图」** A Treasure Map Left for Shitoki
+- **留给你的画** A Painting Left For You
+- **流光的星火** Starfire's Flowing Light
 - **游光澌泯** Fading Light
+- **榴果爆轰** Flamegranate Conflagration
 - **六翮奋彰** Stand by Me
 - **流煌磨刃** Ripple Electro Edge
+- **流火剑** Flowfire Blade
 - **流火焦灼** Flowing Flame
+- **流金的烈怒** Wrathful Streaming Gold
 - **流金疾驰** Gilded Runner
 - **琉金云间草** Ryuukin Saxifrage
 - **琉金之章** Carassius Auratus Chapter
 - **琉金座** Carassius Auratus
+- **硫晶支脉** Sulfurous Veins
 - **流浪大地的乐团** Wanderer's Troupe
-- **流浪的晚星** Wandering Evenstar
-- **流浪乐章** The Widsith
 - **流浪者** Wanderer
 - **流浪者的经验** Wanderer's Advice
 - **流浪者的命星** Wanderer's Stella Fortuna
@@ -4879,10 +9515,13 @@
 - **琉璃峰** Glaze Peak
 - **琉璃寒晶** Frostglaze Crystal
 - **琉璃花鳉** Glaze Medaka
+- **琉璃秘境，小中见大** Glaze Domain, Multum in Parvo
 - **琉璃袋** Violetgrass
 - **琉璃亭** Liuli Pavilion
 - **琉璃亭却砂木立灯** Liuli Pavilion Sandbearer Floor Lamp
+- **流莲光景** Scenes of Flowing Lotuses
 - **溜溜** Liuliu
+- **六轮一露狂诗曲** Rhapsodia Roscida
 - **流明晶石** Lumenspar
 - **流明石触媒强化** Enhance the Lumenstone Adjuvant
 - **流明石原矿** Lumenstone Ore
@@ -4890,40 +9529,57 @@
 - **流明石触媒** {{w|Lumen (unit)|Lumen}}stone Adjuvant
 - **柳桥卓人** Yanagibashi Takuto
 - **流泉铮淙的夜想** Stream of Twilight Thoughts
+- **流刃勇士·锯脂者** Flowing Blade Grease-Saw
+- **流刃勇士·游击人** Flowing Blade Skirmisher
+- **流刃勇士·掷叉猎手** Flowing Blade Harpoon-Thrower
 - **流沙的冒险家・其二** Quicksand Adventurer (II)
 - **流沙的冒险家・其一** Quicksand Adventurer (I)
+- **流沙的缱绻** Lingering Vipers
 - **流沙的寻宝者・其二** Quicksand Treasure Hunter (II)
 - **流沙的寻宝者・其一** Quicksand Treasure Hunter (I)
 - **流沙贵嗣的遗宝** Legacy of the Desert High-Born
 - **流沙鳗鳗** Quicksand Eel
 - **流沙如泪的神殿** The Temple Where Sand Flows Like Tears
 - **流水叮咛** The Voice of Flowing Water
+- **流淌着色彩的回忆** Memories Flowing With Color
 - **流天射术** Liutian Archery
+- **流霆贯夜** Illuminating Lightning
 - **流纹茶蝶鱼** Tea-Colored Shirakodai
 - **流纹褐蝶鱼** Brown Shirakodai
 - **流纹京紫蝶鱼** Purple Shirakodai
+- **流雾跃影** Flowing Fog, Spritely Shadows
 - **流星的轨迹** Footprints of the Traveler
+- **流星的轨迹 2** Footprints of the Traveler Vol. 2
+- **流星的轨迹 3** Footprints of the Traveler Vol. 3
+- **琉形蜃境** Veluriyam Mirage
 - **琉焰华舞** Frolicking Flames
 - **流焰磨刃** Flowfire Edge
 - **流言疑云** Rumors Abound
+- **流耀枪术・守势** Gleaming Spear - Guardian Stance
 - **柳叶岚士** Yanagiha Arashi
 - **流萤明灭** Dance With Fireflies
 - **留影机** Kamera
 - **流羽交护** Aegis of Crossed Arrows
-- **流月针** Crescent Pike
+- **流悦晶石** Flowing Joyspar
 - **流韵虹枝** Flowing Melodies and Rainbow Branches
 - **留云借风洞天** Cloud Retainer's Abode
-- **留云借风真君** Cloud Retainer
 - **六指乔瑟的困境** Six-Fingered José's Dilemma
 - **流转存续的花神诞祭** The Continuation of the Sabzeruz Festival
 - **流转剑脊的暴风** Spiraling Tempest
+- **莉瓦** Lliwa
+- **利瓦尔** Levi
 - **利文斯通博士** Dr. Livingstone
 - **利文斯通博士的货运请求** Dr. Livingstone's Transport Request
 - **礼物与心意** Gift and Intent
+- **莉乌娅** Lliuyaq
 - **梨香** Rika
 - **离心** Heart of Glaze
+- **礼信** Lixin
+- **利兴** Lixing
 - **利彦** Toshihiko
+- **莉雅丝** Liath
 - **利益链条** Chain of Interests
+- **丽影绮行** Elegance in the Shadows
 - **离原之草** Loner's Departure
 - **璃月** Liyue
 - **璃月** Liyue
@@ -4935,27 +9591,33 @@
 - **璃月风土志** Customs of Liyue
 - **璃月风物志** Historia Naturalis Liyue
 - **璃月港口** Liyue Harbor Wharf
+- **璃月来客** A Guest From Liyue
 - **璃月七星** Liyue Qixing
 - **璃月一番** Liyue Ichiban
 - **璃月之行** Journey to Liyue
 - **璃月港** Liyue Harbor
+- **璃月港佳节兴，八奇现瘴疠隐** Liyue Celebrates and Eight Adepts Face a Hidden Calamity
 - **璃月港平静的一天** A Quiet Day in Liyue Harbor
 - **璃月港，有海盗！** Pirate Invasion, in Liyue Harbor!
 - **历战的箭簇** Weathered Arrowhead
 - **利爪与苍雷** Claw and Thunder
 - **理正** Lizheng
+- **力争上游** Aim Upstream
 - **莉兹** Lizzie
+- **龙** Saurian
 - **龙骨花** Dragonbone Flower
+- **龙女妙变** Wondrous Dragonheir
 - **龙蛇藏归辑录** Collection of Dragons and Snakes
 - **龙蛇洞宫试炼记** The Subterranean Trials of Drake and Serpent
 - **龙须面** Dragon Beard Noodles
 - **龙与枪** Dragonspear
+- **龙与山** Saurian Versus Mountain
 - **龙灾** Dragon Storm
-- **龙二** Ryuuji
-- **笼钓瓶一心** Kagotsurube Isshin
 - **龙骨花凝珠** Dragonbone Orb
-- **龙脊长枪** Dragonspine Spear
 - **龙脊雪山** Dragonspine
+- **隆崛坡** Tepeacac Rise
+- **龙龙饼干** Saurus Crackers
+- **笼绳，缜密的掌控** Reins, Her Careful Control
 - **龙兽射落之日** Dragonslayer
 - **龙嗣伪鳍** Dragonheir's False Fin
 - **龙王之冕** Dragon Lord's Crown
@@ -4965,76 +9627,125 @@
 - **龙蜥寻踪** Vishaps and Where to Find Them
 - **龙蜥研究所** Vishap Research Lab
 - **龙蜥蛰伏，谜题尚存** The Vishaps Lie Dormant, but the Enigma Lingers Still
+- **龙选者的旅迹** In the Footsteps of the Chosen of Dragons
 - **泷泽京传** Takizawa Kyouden
+- **陇舟** Longzhou
 - **笼状「岩元素」聚合物** Cage-Shaped Geo Formation
+- **娄三** Lousan
 - **陆** Riku
 - **履虫** The Clement
 - **陆的鸟蛋需求** Riku's Eggy Endeavor
 - **炉灰石** Ashen Stone
-- **路爷** Master Lu
+- **炉心冷却** Core Cooling
 - **卢正** Lu Zheng
+- **露尔薇** Lourvine
+- **陆上飞沫** Overland Bubbles
+- **路爷** Master Lu
 - **乱世轮舞** A Dance of Destruction
 - **乱象识真面** Through the Mist, a Name Unveiled
+- **鸾音鹤信** Passerine Herald
+- **炉边烬影** The Hearth's Ashen Shadow
 - **炉边小憩** Fireside Rest
-- **旅程** Journey
+- **卢茨** Lutz
 - **鲁达贝** Rudaba
 - **鲁道夫** Rudolf
+- **路德温** Ludivine
+- **卢蒂妮** Lutine
 - **略表歉意** Taking Responsibility for Your Actions
 - **略带香味的书信** Lightly-Perfumed Letter
 - **略有腐坏的木板** Somewhat Rotten Wooden Plank
 - **掠草行动** Operation Graze
-- **掠食者** Predator
+- **掠食性增殖生命体** Predatory Proliferating Organism
 - **略微修复的天空之琴** Partially Repaired Holy Lyre der Himmel
+- **掠袭之刺** Thorny Onslaught
+- **略逊半筹** Ever So Slightly Inferior
 - **略有模糊的记录画片** Rather Foggy Image
+- **律法的命诫** Juridical Exhortation
+- **露菲娜** Rufina
 - **鲁哈维** Rohawi
 - **渌华景画** Luhua Landscape
 - **渌华池** Luhua Pool
 - **渌华池之影** Shadow Over Luhua Pool
+- **炉火的往迹** Hearthfire's Trail
+- **炉火微暗** Caliginous Hearthfire
+- **炉火与欢笑之夜** Nights of Hearth and Happiness
 - **绿角蜥** Green Horned Lizard
+- **鲁杰罗** Ruggiero
+- **露景的清歌** Dew Song
+- **露景泉** Fountain of Lucine
+- **卢卡** Luca
 - **卢卡** Luka
+- **吕克** Luc
 - **卢克** Luke
 - **鲁克沙** Rukh Shah
+- **箓灵** Talisman Spirit
 - **璐璐** Little Lulu
 - **碌碌残影** Busy Silhouettes
+- **璐璐关于船只进出的见闻** A log of ships coming in and out by Little Lulu
 - **璐璐/阿飞/小蒙关于船只进出的见闻** A log of ships coming in and out by Little Lulu/Fei/Meng
 - **鲁梅拉** Loumelat
+- **鲁米帕** Rumipaq
 - **轮回意志的花神诞祭** The Samsara of the Sabzeruz Festival
 - **卢妮雅** Lunja
+- **沦没的誓愿** Crumbled Pledge
+- **伦纳德** Lennard
 - **轮旋的冰凌** Glacial Whirlwind
 - **落** Raku
 - **骆丰** Luo Feng
 - **罗巧** Luo Qiao
 - **罗小妹** Little Luo
+- **螺音忆梦** Conch Reminiscences
 - **落子定局** Foregone Conclusion
+- **洛恩** Rowan
+- **洛尔丹** Loredan
 - **骆骆驮兽** Desert Sumpter Beast
+- **罗叔** Uncle Luo
+- **罗贝尔・乌丹** Robert Houdin
 - **萝卜时蔬汤** Radish Veggie Soup
 - **罗伯特** Robert
 - **落草之谈** Records of the Fall
 - **洛成** Luocheng
+- **洛达蒙特** Rodamonte
 - **落定** Conclusion
-- **洛蒂娅的愤怒** Rhodeia's Rage
 - **罗尔德** Roald
 - **罗福** Rolf
 - **罗浮洞** Floating Abode
 - **洛伽** Lorgar
 - **罗杰** Roger
+- **洛柯娅** Louqua
+- **落雷术** Thunderstrike Hex
+- **洛伦佐** Lorenzo
 - **落落莓** Valberry
 - **落落磊磊** It All Comes Tumbling Down
+- **洛梅** Laume
+- **罗默夫** Romeuf
+- **落幕时分** When the Curtains Close
 - **罗纳克** Raunak
+- **罗契耶夫** Rotchev
+- **落染五色** In Five Colors Dyed
 - **落日鳅鳅** Sunset Loach
-- **罗莎琳・克鲁兹希卡・洛厄法特** Rosalyne-Kruzchka Lohefalter
 - **罗莎莉亚** Rosaria
 - **罗莎莉亚的命星** Rosaria's Stella Fortuna
 - **罗珊** Rowshan
 - **罗莎娜** Roshana
 - **罗斯玛丽** Rosemary
-- **落霞** Fading Twilight
+- **罗索里诺** Rosolino
+- **洛塔** Ruta
+- **洛泰尔** Lothaire
+- **骆驼、狮子和孩子** The Camel, the Lion, and the Child
+- **洛薇** Lovi
 - **落霞** Luoxia
+- **罗谢** Rocher
+- **罗西莫夫** Roussimoff
+- **洛娅** Roca
 - **罗娅** Roya
 - **落叶归风** Leaves on the Wind
+- **洛耶茨** Roialte
 - **罗因贾** Royinjan
 - **罗伊斯** Royce
 - **落羽的裁择** Featherfall Judgment
+- **罗泽尔** Rozel
+- **络紫** Luozi
 - **卢皮卡的意义** The Meaning of Lupical
 - **卢皮卡，即是命运的选择** Fate's Chosen Lupical
 - **旅人的暂歇** Wayfarer's Peace
@@ -5044,31 +9755,42 @@
 - **卢森巴博** Luxembarbo
 - **露湿的林莽** Dewy Morn in the Forest
 - **鲁斯坦** Rostam
+- **绿松石的夜歌** Serenade of Callais
+- **卢塔** Luta
 - **路通** Lutong
 - **旅途的开始** Hence, Begins the Journey
+- **旅途中的鲜花** Odyssean Flower
 - **旅团的兵阵雄姿** The Traveling Troop's Pomp
+- **露瓦卜** Rubab
+- **卢瓦利耶** Loillier
 - **绿帷逐叶** Curtain of Leaves
 - **鲁希** Ruhi
+- **卢西恩** Lucien
 - **炉心机造** Core of the Apparatus
 - **勠心拳** Heartstopper Strike
+- **旅行灯** Travel Lamp
 - **旅行绘本** Traveler's Picture Book
-- **旅行剑** Traveler's Handy Sword
 - **陆行水本真蕈** Grounded Hydroshroom
 - **陆行岩本真蕈** Grounded Geoshroom
 - **旅行者的笔记** Traveler's Notes
-- **旅行者观察报告** Traveler Observation Report
+- **旅行者的专题采访手册** Traveler's Exclusive Interview Handbook
 - **旅行者手制便当** Box Lunch from the Traveler
-- **旅行者** Traveler
+- **旅行者观察报告** Traveler Observation Report
 - **鹿野奈奈** Kano Nana
 - **鹿野奈奈的健康饮食计划** Kano Nana's Healthy Diet
 - **绿野纤绵的曲调** Melody of Distant Green Fields
 - **鹿野院平藏** Shikanoin Heizou
 - **鹿野院平藏的命星** Shikanoin Heizou's Stella Fortuna
+- **路易** Louis
+- **露泽咖啡厅** Café Lutece
+- **露泽妮** Luzerne
+- **炉渣之路** Restoration Through Labor
 - **旅者角鸮号** Traveling Horned Owl
 - **旅者且留步…** Friends, Travelers, Lend Me Your Ears...
 - **旅者三足机** Traveling Triped
 - **绿汁脆球** Panipuri
 - **绿枝新柔** Ethereal Mildness
+- **绿洲的蜃影** Mirage of the Oasis
 - **绿洲花园的哀思** Oasis Garden's Mourning
 - **绿洲花园的恩惠** Oasis Garden's Kindness
 - **绿洲花园的真谛** Oasis Garden's Truth
@@ -5076,57 +9798,99 @@
 - **绿洲峡谷** Pairidaeza Canyon
 - **露子** Tsuyuko
 ## M
+- **玛尔菲莎** Marfisa
+- **马尔科佐夫** Markozov
+- **玛尔瓦** Marwa
+- **马察特利** Matzatli
 - **马茨** Mats
 - **玛达赫** Maddah
+- **马德莱娜** Madeleine
+- **玛德琳** Madeleine
+- **玛蒂哈** Madiha
+- **马蒂纳** Martinat
+- **马蒂亚斯** Matthias
 - **麻烦的工作** Troublesome Work
 - **玛格丽特** Margaret
 - **玛格丽特的苦恼** Margaret's Troubles
+- **马古汉** Maghan
+- **马哈** Mahar
 - **玛海菈** Makhaira
-- **玛海菈的水色** Makhaira Aquamarine
 - **玛赫菲** Makhfi
 - **麦尔斯** Miles
 - **脉冲的魔女** Pulsating Witch
 - **麦凯什** Makesh
 - **麦克** Mack
+- **迈勒斯** Melus
 - **卖力的西瑞** Hardworking Silio
 - **买卖不成正义存** Unscrupulous Dealings
+- **迈蒙** Maymunah
 - **麦娜尔** Maynar
 - **麦希尔** Mahir
+- **麦扎尔** Mazaar
 - **麻纪** Maki
+- **玛卡德尔** Macadell
+- **马凯莫** Makemo
 - **马坎** Makan
 - **马克利** Makri
 - **玛克林** Maqrin
 - **马克西姆** Maksim
-- **马科修斯** Marchosius
 - **玛拉** Marla
+- **玛拉妮** Mualani
+- **玛拉妮的命星** Mualani's Stella Fortuna
+- **玛蕾蒂** Marette
+- **马里** Mali
+- **玛丽安的故事** Mary-Ann's Story
+- **玛丽安・吉约丹** Mary-Ann Guillotin
+- **马林诺夫斯基** Malinovskyi
 - **马鲁夫** Maruf
+- **马洛考** Marokau
+- **马洛尼** Maloney
 - **玛鲁特** Marut
 - **麻美** Asami
+- **玛梅赫** Mamere
+- **玛梅赫的画作** Mamere's Painting
 - **马姆杜** Mamdouh
+- **马穆勒** Mamull
 - **满** Michiru
 - **漫沙陨穹** Celestial Dome of Sand
 - **蔓下秘宝** Treasures Beneath the Vines
 - **漫行山薮** Through Hill and Copse
-- **蔓激化** Spread
 - **漫掷万镒** Sprinkling Weight
+- **蔓草地面** Verdant Paving
 - **蔓草收藏家** Vine Collector
 - **漫长的重逢** The Lengthy Reunion
 - **漫长的盟约** A Very Long Engagement
 - **漫长的送别** The Long Goodbye
 - **漫长旅途的开端** The End of the Beginning
 - **曼达娜** Mandana
+- **曼多拉** Mandora
+- **铓锋锦间裁** Blades Weaving Betwixt Brocade
+- **芒荒能量块** Pneumousia Block
 - **忙碌的厨房** Busy Kitchen
 - **盲目的探索** Blind Search
+- **芒索斯山麓** Mont Esus
 - **蛮横的武士** Brutish Samurai
+- **马尼菲科** Magnifico
+- **马尼特** Manet
 - **漫卷琼林** Forest Roamer
+- **曼科** Manqu
+- **满满心意药剂冲击** Medical Intervention of Pure Intention
 - **鳗肉** Eel Meat
 - **鳗肉茶泡饭** Unagi Chazuke
+- **曼萨** Mansa
 - **蔓生的埜草** Verdant Overgrowth
+- **蔓生溪谷** Overgrown Valley
 - **曼苏尔** Mansur
 - **蔓藤花饰座** Flosculi Implexi
+- **马努阿** Manua
 - **漫行灵圃** Spirit-Orchard Stroll
 - **蔓延的危机** The Crisis Deepens
+- **蔓延旋舞** Spiraling Whirl
 - **漫游星河之夜** Star-Crossed Night
+- **漫游者的盛放之花** Wanderer's Blooming Flower
+- **曼尤雅** Manyoya
+- **满载的「拳力斗技」枫达奖杯** Full Pankration Fonta Cup
+- **曼扎那** Manzana
 - **满足沙拉** Satisfying Salad
 - **猫的留影** Shadow of the Cat
 - **猫的赠礼** A Cat's Gift
@@ -5175,7 +9939,9 @@
 - **冒险助力特供包** Adventurer's Special Bundle
 - **冒险助推矿材包** Adventurer's Jumbo Ore Bundle
 - **冒险家的经验** Adventurer's Experience
+- **冒险家试炼・进阶篇** Adventurer's Trials: Advanced
 - **冒险家协会** Adventurers' Guild
+- **冒险家，安娜！** Anna the Adventurer!
 - **冒险家…该干嘛？** ...What Do Adventurers Do Again?
 - **冒险…以外的事？** Something... Other Than Adventure?
 - **冒险家** Adventurer
@@ -5186,59 +9952,108 @@
 - **冒险家金杯** Adventurer's Golden Goblet
 - **冒险家罗尔德的日志** Diary of Roald the Adventurer
 - **冒险家试炼** Adventurer's Trials
+- **冒险家试炼·蜕变篇** Adventurer's Trials: Metamorphosis
 - **冒险家头带** Adventurer's Bandana
 - **冒险家尾羽** Adventurer's Tail Feather
 - **冒险家协会的诸多事宜** The Adventurers' Guild's Affairs
 - **冒险家之花** Adventurer's Flower
-- **冒险家，安娜！** Anna the Adventurer!
+- **帽檐，沙影的轮廓** Brim, the Sandshadow's Silhouette
 - **茂知祭场** Moshiri Ceremonial Site
 - **茂知之壳** Moshiri Kara
+- **帽子** Hat
+- **帽子水母** Hat Jellyfish
 - **马齐尔** Maziar
 - **玛乔丽** Marjorie
 - **玛乔丽的礼物** Marjorie's Gift
 - **马塞尔** Marcel
 - **马塞拉** Masseira
 - **马萨拉芝士球** Masala Cheese Balls
+- **玛莎** Martha
+- **马什科夫下士** Corporal Mashkov
 - **马斯克礁** Musk Reef
-- **马斯克家族** Musk Family
 - **马斯鲁尔** Masrur
 - **马苏迪** Ma'asudi
+- **马索** Mausau
+- **马塔伽** Matahga
+- **马塔拉** Matla
 - **玛塔莉** Matari
+- **马陶霍** Mataoho
+- **马特兰** Matlan
+- **马腾斯万能护养剂** Martens' Omni-Fix
+- **马提库伊** Maticui
 - **码头的饮品小店** Beverage Shop on the Pier
 - **马尾** Horsetail
+- **玛维斯** Maurice
 - **玛文** Marvin
 - **玛希德** Mahshid
+- **马西娜・努伊** Mahina Nui
 - **玛亚姆** Maryam
+- **玛亚薇** Mayahuel
+- **玛伊蕾** Maile
+- **马伊塔** Mayta
+- **马扎坦** Mazatan
+- **玛兹嘉** Mazkal
+- **马兹拉** Maztla
+- **梅落雪间醉** Drunken Plums in Snow
+- **梅尔克** Melker
+- **梅尔梅** Mermet
 - **美德的报酬** For Meritorious Service
 - **美德分享包** Virtuous Share Bundle
 - **梅杜尔** Meddur
 - **玫瑰花蕾…** "Rosebud..."
+- **美好时光** Wondrous Times
 - **美和** Miwa
+- **梅赫拉克** Mehrak
+- **梅康顿** Mécantre
+- **梅菈** Mela
 - **美丽的与被诅咒的** The Beautiful and Damned
+- **梅里埃** Merieux
+- **梅里爱** Melies
 - **美铃** Misuzu
 - **寐领围垣** Fortress of Fantasy
+- **玫莉莎** Melissa
+- **梅洛・郎勃罗梭** Melo Lombroso
+- **梅洛彼得生活场景** Scenes from Life in Meropide
+- **梅洛彼得堡** Fortress of Meropide
+- **梅洛彼得堡** The Fortress of Meropide
+- **梅洛彼得堡线索记录册** Clue Book (Fortress of Meropide)
+- **美露莘** Melusine
+- **美露莘的调查问卷** Melusines' Survey
 - **美梦抚归人 (望舒夜间)** Sojourner's Sweet Dream (Wangshu Night)
 - **美妙旅程** Fantastic Voyage
 - **美妙旅程** Fantastic Voyage
 - **梅娜卡里商铺** Menakeri's Treasure Shop
+- **梅内娅** Manaia
 - **没能讲出的故事** Untellable Tale
+- **梅琪妮** Mequignon
+- **美泉之地** Land of Fair Springs
 - **每日签到** Daily Check-In
+- **梅瑟娜** Massena
+- **梅莎** Mersa
+- **梅莘** Menthe
 - **美食寻踪** Hunt for Delicacy
 - **每天都是新的冒险** Every Day a New Adventure
 - **梅薇丝** Myweiss
+- **梅西娜** Machinna
+- **梅亚** Meilhat
+- **梅雅德** Maillardet
+- **魅影猫** Phantomeow
 - **没有答案的课题** The Unanswerable Problems
 - **没有署名的纸条** Unsigned Note
 - **没有未来菜** No Tomorrow
 - **美羽** Miu
 - **门达斯** Mendas
 - **孟丹** Meng Dan
+- **梦的后日谈** Dream Anamnesis
 - **梦凝成的苦果** The Bitter Fruit of Dreams
 - **梦樱** Dream Sakura
 - **梦与无梦的隙间** Perched Between Dream and Reality
+- **梦与赭黄色的渐变** A Gradient of Dreams and Ochre
+- **梦与最初的故事！** Dreams and First Encounters!
 - **梦园藏金** Treasure of Dream Garden
 - **梦之花** Dream Flower
 - **梦之树** Tree of Dreams
-- **梦之咏叹** Dream Aria (Genshin Impact Main Theme Var.)
+- **梦之咏叹** Dream Aria<!-- (Genshin Impact Main Theme Var.)-->
 - **梦中的苗圃** Dream Nursery
 - **梦中的铁花** Dreaming Steelbloom
 - **蒙德** Mondstadt
@@ -5253,6 +10068,7 @@
 - **蒙德的月光** Moonlight in Mondstadt
 - **蒙德地灵龛之钥** Mondstadt Shrine of Depths Key
 - **蒙德高塔** The Mondstadt Tower
+- **蒙德观光振兴企划** Mondstadt Tourism Revitalization Project
 - **蒙德酒客** A Little Booze Doesn't Hurt...
 - **蒙德烤鱼** Mondstadt Grilled Fish
 - **蒙德食遇之旅** Mondstadt Gastronomy Trip
@@ -5261,14 +10077,17 @@
 - **蒙德做题王** Mondstadt's Note-Taker General
 - **蒙德城** Mondstadt
 - **蒙德城的麻辣传说** Mondstadt's Spiciest Surprise
+- **蒙德城的骑士** Knight of the Realm
 - **蒙德城繁忙的午后** Bustling Afternoon in Mondstadt
 - **蒙德人，在璃月** Mondstadters in Liyue
-- **蒙德城的骑士** Knight of the Realm
+- **孟迪尔** Mundhir
+- **猛火铁铳** Flaming Cannon
 - **梦迹一风** Gales of Reverie
-- **梦见木「冷暖一桌」被炉** Yumemiru "Cold and Warmth" Kotatsu
+- **梦间见月明** Moonlight Amidst Dreams
 - **梦见木** Yumemiru Wood
 - **梦见木「诚见」塞钱箱** Yumemiru "Seiken" Offering Box
 - **梦见木「空怀」路灯** Yumemiru "Kuukai" Street Lamp
+- **梦见木「冷暖一桌」被炉** Yumemiru "Cold and Warmth" Kotatsu
 - **梦见木「礼待」着物架** Yumemiru "Decorum" Kimono Rack
 - **梦见木「露隐」衣柜** Yumemiru "Dewcover" Wardrobe
 - **梦见木「入画」折屏** Yumemiru "Jukaku" Folding Screen
@@ -5277,30 +10096,38 @@
 - **梦见木「重念」路灯** Yumemiru "Juunen" Street Lamp
 - **梦见木长桌** Long Yumemiru Table
 - **梦见木方凳** Square Yumemiru Stool
+- **梦见月瑞希** Yumemizuki Mizuki
+- **梦见月瑞希的命星** Yumemizuki Mizuki's Stella Fortuna
 - **梦景林莽** Grove of Dreams
 - **梦境与树** Trees and Dreams
 - **梦里星** Dreaming Star
 - **梦里生花** Dreams of Bloom
+- **蒙吕松** Montluson
 - **蒙蒙** Mengmeng
 - **萌蘖的竹笋** Nascent Bamboo Shoots
+- **孟尼力克** Menilek
 - **猛犬注意** Beware of Angry Dog
 - **萌生的灵风** Germinating Wind
+- **梦生须臾之翼** Wings of Transient Dreams
 - **盟誓金爵** Noble's Pledging Vessel
+- **蒙塔纳** Montagne
+- **梦我梦心** Pure Heart, Pure Dreams
 - **梦想开花时** When the Dreams Bloom
-- **梦想乐土之殁** End of the Oneiric Euthymia
 - **梦想一心** Musou Isshin
 - **梦想与工作，诗与面包** Poet Vs. Paycheck
 - **梦想，梦想！你们去了哪里？** Where Have You Gone, My Dream?
+- **梦晓与决意之刻** Moment of Waking and Resolve
 - **梦醒之瓢** Calabash of Awakening
 - **曚云** Mouun
 - **曚云神社** Mouun Shrine
-- **曚云之月** Mouun's Moon
 - **门户清理** Clean House
 - **门罗** Monroe
 - **秘藏的钥匙** Hidden Key
 - **迷城战线** Battlefront: Misty Dungeon
 - **弭节徘徊** Wandering in the Mist
+- **谜镜** Looking Glass
 - **秘术研究所** Secret Research Lab
+- **秘铜发条** Enigmatic Copper Mainspring
 - **米窝窝** Rice Buns
 - **米圆塔** Tahchin
 - **谜之传单** Mysterious Flyer
@@ -5316,7 +10143,9 @@
 - **眠龙之章** Dracaena Somnolenta Chapter
 - **眠龙谷** Wyrmrest Valley
 - **眠时光明** Those Lucid Dreams
+- **绵驮兽** Alpaca
 - **绵延的守护** Everlasting Devotion
+- **描露摹晖，诉愿云海** A Cloud-Sea Appeal, a Brilliance Revealed
 - **庙前的供奉** Offerings of the Temple
 - **庙前的叩问** Temple Inquiry
 - **庙前的苏生之辔碎片** Reins of Revival Fragment (Temple)
@@ -5327,9 +10156,13 @@
 - **妙策急袭** The Comrades' Ambush
 - **妙道合真** The Wondrous Path of Truth
 - **妙谛破愚之叶** The Leaves of Enlightening Speech
+- **妙净明心** Serene Contemplation
 - **妙论派 / 刹诃伐罗** Kshahrewar
 - **苗圃** Nursery
-- **妙显剑舞·改** Marvelous Sword-Dance (Modified)
+- **妙趣宝箱** Fascinating Chest
+- **妙骰战法** Heart of the Dice
+- **妙骰券** Invokation Coupons
+- **妙显剑舞・改** Marvelous Sword-Dance (Modified)
 - **妙香林** Sublime Spicewood
 - **妙转随心** Adapt With Ease
 - **秘宝迷踪** Lost Riches
@@ -5338,39 +10171,51 @@
 - **迷城战线** Misty Dungeon
 - **迷城战线・光界篇** Misty Dungeon: Realm of Light
 - **迷城战线・沙域篇** Misty Dungeon: Realm of Sand
+- **迷城战线・水境篇** Misty Dungeon: Realm of Water
 - **迷错幻渺之境** Realm of Snaring Illusions
+- **秘典纪行** Invoker's Secrets
 - **秘典之盒** Casket of Tomes
 - **灭邪四式** Demonbane
 - **灭绝的预言** Prophecy of Oblivion
-- **灭却之戒法** Extinguishing Precept
 - **灭诤草蔓** Quelled Creeper
 - **米饭布丁** Rice Pudding
 - **迷宫的游人** Labyrinth Wayfarer
-- **迷宫之王的教导** Labyrinth Lord's Instruction
 - **密固的横脊** Sturdy Shell
+- **秘谷侠隐** Shrouded Vale, Hidden Hero
 - **米哈伊尔** Mikhail
+- **谜画涂鸦中的意志** Will of the Mysterious Graffiti
 - **秘华石** Subrosium
+- **秘诲揭示之书** Book of Esoteric Revelations
+- **迷惑的调查员** Confused Investigator
+- **秘技薄荷酱烤鱼** Secret Art Grilled Fish in Mint Sauce
 - **蜜酱胡萝卜煎肉** Sticky Honey Roast
 - **蜜金泡果** Tulumba
 - **秘境** Domain
 - **秘境来风** Windswept Domain
 - **谜境悬兵** Labyrinth Warriors
 - **米卡** Mika
+- **米卡的命星** Mika's Stella Fortuna
+- **秘烤肋排** Secret Sauce BBQ Ribs
+- **米勒洛** Millereau
 - **谜林道破** Mysteries Laid Bare
 - **谧林涓露的金符** Golden Talisman of the Forest Dew
 - **谧林涓露的铁符** Iron Talisman of the Forest Dew
 - **谧林涓露的铜符** Copper Talisman of the Forest Dew
 - **谧林涓露的银符** Silver Talisman of the Forest Dew
 - **密林、废墟与龙之泪** Hidden Teardrop in the Heart of the Jungle
+- **米卢・努伊** Milu Nui
 - **迷茫的兰那罗** Confused Aranara
 - **迷梦与空幻与欺骗** Dreams, Emptiness, Deception
 - **秘密身份** Secret Identity
 - **秘密失物** A Mysterious Loss
+- **秘密资料室** Restricted Repository
+- **名藏仙府** The Absent Hermit
 - **命定之星** Star of Destiny
+- **明花蔓舵** Helm of the Radiant Rose
 - **鸣雷纯晶** Thunder Crystal
 - **鸣雷霰子** Thunder Pellet
-- **鸣神御灵的亲爱** Narukami's Affection
-- **明威之镡** Magnificent Tsuba
+- **明威之镡** Magnificent {{w|Tsuba}}
+- **茗香悠远** The Journey of Tea Leaves
 - **明霄纪行** Lantern-Lit Sky
 - **命星** Stella Fortuna
 - **冥幽的细语** Chthonian Voices
@@ -5387,22 +10232,27 @@
 - **名椎之滩** Caress of the Spirit
 - **名刀镡** Famed Handguard
 - **命定的离别** Destined Parting
+- **命定将焚的虹光** The Rainbow Destined to Burn
 - **冥古之潮** Tide of Hadean
 - **明冠山地** Brightcrown Mountains
 - **明冠峡** Brightcrown Canyon
+- **命轨爻错之翼** Wings of Fate's Course Intertwined
 - **鸣海栖霞** Seagaze Sunset
 - **鸣海栖霞洞天** Sea Gazer's Abode
 - **鸣海栖霞真君** Sea Gazer
-- **明华钱庄** Minghua Bank
-- **明华商行** Minghua Company
 - **铭记之谷** Valley of Remembrance
 - **铭记之旅** An Unforgettable Journey
+- **明镜** Mingjing
 - **明镜止水流** Meikyou Shisui Art
 - **明俊** Mingjun
+- **明澜** Minglan
+- **明礼** Mingli
 - **命令书** Orders
+- **明律决罚** Executor of Justice
 - **明论派 / 梨多梵谛** Rtawahist
 - **明目之油膏** Ointment of Sight
 - **明日之星** Star of Tomorrow
+- **暝色缒索** Night's Sling
 - **明沙白椰树** Whitesand Coconut Tree
 - **鸣神囃子** Narukami-Bayashi
 - **鸣神大社** Grand Narukami Shrine
@@ -5412,20 +10262,31 @@
 - **鸣神御祓祈愿祭** The Great Narukami Offering
 - **鸣神御灵的欢喜** Narukami's Joy
 - **鸣神御灵的明惠** Narukami's Wisdom
+- **鸣神御灵的亲爱** Narukami's Affection
 - **鸣神御灵的勇武** Narukami's Valor
 - **鸣神岛** Narukami Island
 - **鸣神岛作战** The Battle of Narukami Island
 - **鸣神大社的御守** Grand Narukami Shrine Omamori
 - **明石** Akashi
-- **名士振舞** Samurai Conduct
+- **暝视寻灵织卷** Iktomi Spiritseeking Scrolls
 - **明石灯** Lumenlamp
+- **暝视龙** Iktomisaurus
+- **铭誓者的绝不姑息** The Oathsworn Never Capitulate
+- **铭随流镜** Inscribed Mirror
+- **明天交换明天** Tomorrow, and Tomorrow, and Tomorrow
 - **命途两歧** Separate Ways
+- **名为「命运」的燃料** A Fuel Named "Fate"
 - **鸣弦列岛** The Islands' Stirring Strings
 - **明霄升海平** All That Glitters
+- **明星聚画** Gathering of Stars
 - **明星斋** Mingxing Jewelry
 - **命悬一线** Hang by a Thread
 - **冥岩的覃思** In Gloomy Meditation
+- **明鸢新相** Of Kites and New Sights
+- **暝垣山** Mt. Mingyuan
 - **明月蛋** Fullmoon Egg
+- **名月浮声** Bright Moon's Restless Voice
+- **明月照翠珑** The Jadeite Reflection
 - **命运初动** Gears of Destiny
 - **命运的嘲弄** Mockery of Fortuna
 - **命运的初识** Acquaintance
@@ -5434,12 +10295,14 @@
 - **命运试金石** Trial by Fire
 - **明蕴镇告示牌** Mingyun Village Billboard
 - **明蕴镇** Mingyun Village
+- **明珠固化** Pearl Solidification
 - **名椎滩** Nazuchi Beach
 - **迷你「羽球」** Mini "Harpastum"
 - **珉林** Minlin
 - **米农** Minum
 - **弥怒** Menogias
 - **弥诺** Minoo
+- **米齐卡** Michica
 - **觅取月晖** Moonlight Seeker
 - **米沙勒** Mishal
 - **弥生漆器** Yayoi Lacquerware
@@ -5449,14 +10312,29 @@
 - **迷失的丘丘** The Lost Hilichurl
 - **迷失的寻宝者** Lost Treasure Hunter
 - **密室钥匙** Secret Room Key
+- **迷失之叹** Grief of the Lost
+- **米特尔** Mitl
 - **迷途已远** Walk Through the Silent Path
+- **米图尔** Mitul
 - **迷误者之灯** Lamp of the Lost
+- **谧息之梦** Dream of Tranquility
+- **米希尔** Mihir
+- **秘象的残响** The Vision and the Voice
 - **秘香肉团** Scented Meat Balls
 - **米歇尔** Michelle
 - **谜鸦论处** The Raven Forum
 - **谜样的人影** Mysterious Shadow
 - **秘仪圣殿** Khemenu Temple
 - **秘仪台座** Plinth of the Secret Rites
+- **秘仪与律法** Ordeals, Rituals, Laws
+- **谜影障身法** Enigmatic Feint
+- **迷羽流击** Phantom Feather Flurry
+- **秘源机兵** Secret Source Automaton
+- **秘渊虚霆** Shock of the Enigmatic Abyss
+- **秘源之下** Beneath the Secret Source
+- **秘源轴** Axis of the Secret Source
+- **蜜汁叉烧** Honey Char Siu
+- **蜜汁腌鱼** Honey-Glazed Ceviche
 - **密兹里** Mizri
 - **迷醉长梦的守护** Defender of the Enchanting Dream
 - **莫从恒蹊** Breaking Conventions
@@ -5467,60 +10345,94 @@
 - **魔偶机心** Marionette Core
 - **陌野不识故人** A Strange and Friendless Road
 - **莫尔吉** Morghi
+- **莫尔让** Morgen
+- **莫尔泰区** Morte Region
 - **魔偶剑鬼** Maguu Kenki
 - **魔偶剑豪** Maguu Kengou
 - **摹本** Replica
 - **魔导的深秘** Magic Intrigues
-- **魔导绪论** Magic Guide
 - **魔法肉酱面** Mysterious Bolognese
 - **蘑菇** Mushroom
 - **蘑菇宝钱** Mushroom Currency
+- **蘑菇魔法使** Magishroom
 - **魔化：岩盔** Infused Stonehide
 - **磨尖箭头，抓住盾牌…** Make Bright the Arrows, Gather the Shields...
+- **莫嘉娜** Morgane
+- **茉洁香迹** Marcotte Sillage
+- **茉洁草** Marcotte
+- **茉洁站** Marcotte Station
+- **摩婕娜** Morgiana
 - **魔晶块** Magical Crystal Chunk
 - **摩可** Moco
 - **摩拉** Mora
 - **摩拉急速来** Show Me the Mora
 - **摩拉肉** Mora Meat
+- **摩拉糖果** Mora Candy
 - **摩拉无罪** Don't Blame the Mora!
-- **摩拉克斯** Morax
+- **莫莱妮** Monglane
 - **茉莉** Moli
+- **茉莉** Molli
+- **莫莉** Molly
+- **莫里** Mori
 - **茉莉低语，石榴开怀** The Jasmines Whisper, the Pomegranates Are Glad
 - **魔鳞病医院的哭声** Cry From the Eleazar Hospital
+- **莫里斯** Morris
 - **魔龙乌萨** Ursa the Drake
+- **陌路春深** On a Remote Trail
 - **末路狂花** The Mad Flower at the End of the Road
+- **墨绿羽饰** Green Feather Accessory
 - **秣马厉兵** Battle Preparation
+- **沫芒宫** Palais Mermonia
 - **莫娜** Mona
 - **莫娜的命星** Mona's Stella Fortuna
+- **莫娜的实验室** Mona's Laboratory
+- **莫妮欧** Moniotte
 - **魔女常燃之羽** Witch's Ever-Burning Plume
 - **魔女的心之火** Witch's Heart Flames
 - **魔女的炎之花** Witch's Flower of Blaze
 - **魔女破灭之时** Witch's End Time
 - **魔女会** Hexenzirkel
 - **魔瓶镇灵・利露帕尔** Jinni in the Magic Bottle &mdash; Liloupar
-- **莫塞伊思** Moseis
+- **莫普瓦** Maupoil
+- **莫塞** Moce
+- **墨色酒馆** Calligraphy Tavern
 - **磨砂白石阶梯** Textured Whitestone Stairs
-- **魔神 / 神** God / Archon
+- **魔神 / 神** God<!-- unisex --> / Archon
 - **魔神任务** Archon Quest
 - **魔神战争** Archon War
+- **魔术工坊** Magic Workshop
+- **魔术口袋** Magic Pocket
+- **魔术口袋制作材料** Magic Pocket Materials
+- **魔术特调** A Magical Mix
+- **魔术永不落幕** The Curtain Never Falls on Magic
+- **魔术师的秘密** The Magician's Secret
 - **磨损** Erosion
+- **莫索・郎勃罗梭** Mosso Lombroso
 - **墨田** Sumida
 - **墨田的信** Sumida's Letter
 - **某人的漂流瓶** Someone's Drifting Bottle
+- **缪妮** Muirne
+- **某人留下的笔记** Notes Left by Someone
 - **某人留下的纸条** A Note Left by Someone
 - **某种武器的「碎片」** Random Weapon Shards
-- **魔王武装** Foul Legacy/Foul Legacy Transformation<ref group="•">'''English:''' The equivalent Chinese phrase is translated as "Foul Legacy" in Tartaglia's Talents and Constellations, and as "Foul Legacy Transformation" in dialogue.</ref>
 - **魔王武装** Foul Legacy
 - **魔王之刃・残片** Shard of a Foul Legacy
+- **莫乌** Moo
 - **魔物引起的混乱** Monster Mayhem
+- **魔像禁卫** Praetorian Golem
+- **抹消角度的人** Angle Eraser
+- **莫妍** Moyan
 - **魔药研析** A Study in Potions
+- **摩亚瓦** Moeava
 - **莫约** Mawyo
+- **貘枕座** Tapirus Somniator
 - **莫孜甘** Mozhgan
 - **沐晨** Mu Chen
 - **木盾丘丘暴徒** Wooden Shieldwall Mitachurl
 - **木盾丘丘人** Wooden Shield Hilichurl Guard
 - **木簧笛** Maushiro
 - **木笼的钥匙** Wooden Cage Key
+- **穆尔科** Mallko
 - **穆尔塔达・拉德卡尼** Murtada Radkani
 - **木制露天茶桌** Wooden Outdoor Tea Table
 - **穆扎法尔** Muzaffar
@@ -5532,17 +10444,22 @@
 - **慕风蘑菇** {{wt|phil-|Phil}}{{wt|anemo-|anemo}} Mushroom
 - **幕府足轻** Shogunate Infantry
 - **幕府足轻头** Shogunate Infantry Captain
-- **幕府军** Shogun's Army
 - **穆甘纳** Muganna
+- **牧歌的旧梦** The Faded Idyll
 - **牧歌之镇** Idyllic Town
+- **幕后奇遇** Backstage Encounter
 - **幕后谈话** Behind the Scenes
 - **幕后疑云深** Backstage Suspicions
 - **幕后人** Backstage Helpers
 - **木户** Kito
 - **木户的香包** Kito's Sachet
+- **穆胡鲁宝石铺** Muhuru's Gemporium
+- **穆基** Mukki
+- **暮集竹星** Stars Gather at Dusk
 - **暮景遐思·其二** Traum durch die Dämmerung, zweiter Satz
 - **暮景遐思·其一** Traum durch die Dämmerung, erster Satz
 - **牧梨** Makiri
+- **木李** Muli
 - **牧梨的护身符** Makiri's Charm
 - **木漏茶室** Komore Teahouse
 - **木鲁瓦** Muruwa
@@ -5551,64 +10468,91 @@
 - **木南料亭** Kiminami Restaurant
 - **木南杏奈** Kiminami Anna
 - **木南杏奈的「活力喵饭」** Kiminami Anna's Invigorating Kitty Meal
+- **穆纳切洛** Munaciello
 - **穆纳塔** Murata
+- **穆纳伊** Munay
+- **穆妮尔** Munirah
+- **慕念萦心间** The Heart Lingers Long
 - **沐宁** Muning
 - **沐宁的纸条** Muning's Note
+- **穆蒲** Muepu
 - **幕前二三言** A Few Words in the Foreground
 - **幕切&mdash;&mdash;倾奇之末** The Kabukimono's Finale
 - **慕胜** Musheng
 - **睦疏之匣** Bokuso Box
 - **穆泰尔** Mutair
 - **牧童与魔瓶的故事** The Shepherd and the Magic Bottle
+- **穆托塔** Mutota
+- **穆托瓦** Mtwa
 - **木纹雅致的书法桌案** Intricately Carved Calligraphy Table
 - **木樨座** Osmanthus
 - **木下** Kinoshita
 - **暮星轻语之刻** A Whisper of Evening Star
+- **暮夜的柔光** Raven Gloss of Darkness
 - **暮夜剧团团长的手稿** Twilight Theater Head's Notes
-- **沐浴龙血的剑** Bloodtainted Greatsword
+- **暮夜茕行** Solitary Night Wanderings
+- **暮夜与遗忘** Les tenebres et l'oubli
+- **穆伊萨** Muisa
 - **暮云角鲀** Sunset Cloud Angler
 - **慕珍** Muzhen
 - **木桩材料** Materials for Training Dummy
+- **穆祖丁** Muzzudin
 ## N
 - **那家伙叫「怪鸟」** They Call Him Raptor
+- **娜恩希** Nanse
 - **纳巴提** Nabati
 - **纳贝里士之心** The Heart of Naberius
 - **纳比尔** Nabil
 - **娜比雅** Nabiya
-- **娜布・玛莉卡塔** Nabu Malikata
+- **纳博内番茄盅** Tomates Narbonnaises
 - **娜德瓦** Nadwah
+- **纳蒂亚** Nadia
 - **娜蒂亚** Nadia
 - **纳菲斯** Naphis
 - **那个绿色的家伙** That Green Fellow
 - **纳赫蒂加尔** Nachtigal
+- **纳华钦之跃** Nahuatzin's Leap
 - **耐寒药剂** Frostshield Potion
 - **奈何蝶飞去** Yet the Butterfly Flutters Away
 - **奈何明月** By Thy Pale Beams I Solitary Rove
+- **奈赫西** Nehsi
 - **奈拉** Nayla
 - **奈兰** Nayram
 - **奶酪** Cheese
+- **奈莉** Nelly
 - **耐热药剂** Heatshield Potion
+- **耐热型淡水豚豚** Heat-Resistant Freshwater Floater
 - **奶香菌菇脆塔** Milky Mushroom Crisp Tower
 - **乃亚卜** Nayab
 - **奶油** Cream
-- **那伽朱那团** Nagarjunites
+- **奶油炖鸡** Fricassee de Poulet
+- **奶油蘑菇汤** Cream of Mushroom Soup
+- **那伽朱那** Nagarjuna
 - **纳吉布** Najib
 - **纳杰特** Najat
 - **纳吉斯** Nargess
+- **纳克** Nacker
+- **纳库尔** Nakul
 - **纳兰德拉** Narendra
 - **纳里曼** Neriman
+- **娜玛卡** Namaka
 - **南风与冒险** The South Wind Brings Adventure
 - **楠楠** Nannan
+- **娜娜** Nana
+- **娜娜** Nana
+- **纳纳卡** Nanaxa
 - **难测的云雷** Fickle Cloudstrike
 - **难得的静谧** Comforting Quietude
 - **南风之狮的庙宇** Temple of the Lion
 - **难解之结** A Confounding Conundrum
+- **南娜** Nanna
 - **南十字** The Crux
 - **南十字荣誉船员** Honorary Crux Member
 - **南十字闪耀时** When the Crux Shines Bright
 - **南十字武斗会** The Crux Clash
 - **楠塔克** Nantuck
 - **难逃之阵** Against the Invisible Net
+- **南特伊** Nanteuil
 - **南天海山座** Victor Mare
 - **南天门** Nantianmen
 - **南天门之谜** The Secret of Nantianmen
@@ -5617,14 +10561,24 @@
 - **难以揣测的心理防线** Unfathomable Defenses
 - **男子汉杰克** Manly Jack
 - **男子汉杰克的男子汉之路** Manly Jack's Manly Journey of Manliness
-- **脑海中回荡的声音** Voice Inside the Head
 - **纳赛尔** Nasser
 - **娜丝琳** Nasrin
 - **娜斯米儿** Nesmil
 - **纳塔** Natlan
+- **纳塔** Natlan
+- **纳塔地灵龛之钥** Natlan Shrine of Depths Key
+- **纳塔战簿** Battles of Natlan
+- **纳塔最好的向导** Natlan's Greatest Guide
+- **纳塔！新的旅程** Natlan! A New Adventure
+- **纳瓦伊** Navayi
 - **纳瓦兹** Nawaz
 - **那维莱特** Neuvillette
+- **那维莱特的命星** Neuvillette's Stella Fortuna
+- **娜维娅** Navia
+- **娜维娅的命星** Navia's Stella Fortuna
 - **纳西尔** Nasir
+- **那夏镇** Nasha Town
+- **那先朱那** Nasejuna
 - **纳西妲** Nahida
 - **纳西妲的命星** Nahida's Stella Fortuna
 - **娜赞** Narzam
@@ -5634,48 +10588,67 @@
 - **内尔敏的香料** Nermin's Perfume Ingredients
 - **内尔敏制作的「薄荷豆汤」** Nermin's Minty Bean Soup
 - **内尔森** Nelson
+- **内部撤离行动公文** Internal Withdrawal Document
 - **内村** Uchimura
+- **内弗马特** Nefumat
 - **内海** Utsumi
 - **内嘉** Najia
 - **内森** Nathan
 - **能跨越的边界线** A Line That May Be Crossed
-- **能量沐浴** Energy Shower
+- **能量洪流** Energy Surge
 - **能量块** Energy Block
 - **逆飞的流星** Retracing Bolide
 - **霓裾翩跹** Opulent Splendor
+- **你是谁的子孙，叫什么名字？** Whose Descendant Are You, and What's Your Name?
+- **你是否相信极乐城？** Do You Believe In Rapture?
 - **你所不知道的事** Hitherto Unknown
 - **泥蛙** Mud Frog
+- **你也是迪诺巴鲁托？** Et tu, Dinobrute?
 - **你以为是本格吧？** You Thought We Were For Real, Eh?
+- **匿于日常之禁忌** The Proscribed, Hidden in Plain Sight
+- **逆与正的秩位** L'envers et l'endroit
+- **匿黯的深罪** Obscure Obsession
 - **尼尔森** Nelson
+- **妮欧莎** Niousha
+- **年轻的行商** Young Merchant
 - **年幼的萃华树** Cuihua Sapling
+- **年长的行商** Elderly Merchant
 - **鸟蛋** Bird Egg
 - **鸟蛋寿司** Bird Egg Sushi
 - **鸟蛋烧** Egg Roll
 - **鸟瞰风物** Bird's Eye View
+- **尼伯龙根** Nibelung
 - **霓裳花** Silk Flower
 - **尼达尔** Nidal
 - **蹑风捕迹** Storm Chaser
+- **啮合齿轮** Meshing Gear
+- **涅兰** Nellan
+- **蹑影追风** Chasing the Wind
 - **逆风奉还拳** Avenging Squall
+- **拟覆的大灵显化身** Mimic Wayob Manifestation
 - **拟构基石** Replicator Keystone
 - **尼古拉下士的笔记** Corporal Nikolay's Diary
 - **尼古拉下士的日志** Corporal Nikolay's Diary
 - **尼古拉<!--・雪奈茨维奇-->** Nikolay<!-- Snezhevich-->
+- **妮赫佳** Nechca
 - **妮基娜** Nigina
 - **尼卡** Nika
 - **尼克** Nick
-- **尼可** Nicole
+- **尼可・莱恩** Nicole Reeyn
 - **妮露** Nilou
 - **妮露的命星** Nilou's Stella Fortuna
 - **妮露法** Niloofar
 - **尼姆** Nima
 - **尼姆芙** Nymph
+- **尼南** Ninan
 - **凝成泥土** Concresoil
 - **宁然一隅** A Fragment of Peace
 - **凝冰地面** Glacial Paving
 - **凝冰平台** Glacial Platform
-- **凝成泥土的它用** Other Applications of Concresoil
+- **凝成泥土的它用** The Other Applications of Concresoil
 - **凝光** Ningguang
 - **凝光的命星** Ningguang's Stella Fortuna
+- **凝恒的脂蜡** Congealed Pupa Wax
 - **凝华的祭法** Frostdrift Offering
 - **凝结的时刻** A Moment Congealed
 - **凝结之冰** Condensed Ice
@@ -5683,21 +10656,30 @@
 - **宁静无梦的乐园** The Silent, Dreamless Paradise
 - **凝浪之光剑** Glacial Illumination
 - **宁禄** Nimrod
+- **凝露轻芳** Ambrosial Essence
 - **柠檬** Lemon
 - **凝停的绮璨明彩** Coalesced Brilliance
+- **尼尼** Nini
+- **妮佩卡** Nepecha
 - **尼特** Nète
 - **牛志** Niu Zhi
 - **牛奶** Milk
 - **牛奶** Milk
 - **扭曲幽域** Twisted Realm
 - **妮维妲** Nevida
+- **妮乌** Niu
 - **逆焰之刃** Searing Onslaught
+- **匿叶龙** Yumkasaurus
 - **匿于人海的预言之谜** A Riddle Amidst the Crowds
+- **尼赞贝** Nzambe
+- **尼扎米** Nizami
 - **尼扎姆** Nizam
 - **逆子的归乡** Prodigal Son's Return
 - **农民的宝藏** The Farmer's Treasure
 - **浓缩树脂** Condensed Resin
+- **浓雾之下** Beneath the Fog
 - **农园逸犯** Farmland Fugitives
+- **暖云猫迹** Cat's Cosy Course
 - **努查赫** Najah
 - **诺艾尔** Noelle
 - **诺艾尔的代理工作** Substitute Acting Grand Master Noelle
@@ -5705,12 +10687,17 @@
 - **诺艾尔的命星** Noelle's Stella Fortuna
 - **诺艾尔的情报工作** Noelle the Intelligence Operative
 - **诺艾尔的侦察行动** Noelle Rides Out
+- **诺尔** Nour
+- **挪德卡莱** Nod-Krai
 - **诺拉** Nora
 - **诺拉快跑！** Nora, Run!
 - **诺拉勇者座** Nora Fortis
+- **诺莱特** Nolette
 - **诺玛** Norma
 - **诺玛订的餐品** Norma's Order
 - **诺曼** Norman
+- **诺思托伊区** Nostoi Region
+- **诺瓦勒斯** Noailles
 - **女仆不会受伤** Invulnerable Maid
 - **女仆的态度** Maid's Knighthood
 - **女仆骑士不会受伤** Invulnerable Maid-Knight
@@ -5718,27 +10705,52 @@
 - **女仆与修行** Maid-in-Training
 - **女士驾临** L'arrivo Della Signora
 - **怒势疾迅如焚掠地** A Rage Swift as Fire
+- **努斯妲** Nusta
+- **怒涛投枪** Torrent Spear
+- **怒涛之灾** Deluge of Wrathful Waters
+- **努乌** Nuu
 - **女性信众** Female Believer
+- **女主人的叮咛** The Caress of Three Mothers
 ## O
+- **哦！伟大的脂肪！** Sing, Ho, For the Greatness of Fat!
 - **欧欧** Ouo
+- **欧庇克莱歌剧院** Opera Epiclese
+- **欧蒂菈** Otila
+- **欧菲妮** Elphane
+- **欧芙** Euphrasie
+- **欧科塔维亚** Octavia
+- **欧莉艾尔** Auriol
+- **欧立威** Olivier
+- **欧律达特** Eurydates
+- **欧洛伦** Ororon
+- **欧诺莉** Honorine
+- **欧仁妮** Eugenie
+- **欧莎薇** Osawe
 - **偶像的可靠防线** An Idol's Last Line of Defense
 - **偶遇归人** A Serendipitous Encounter
 ## P
+- **帕巴格** Pabag
+- **帕班** Paban
+- **帕蒂沙兰** Padisarah
 - **帕蒂沙兰** Padisarah
 - **帕蒂沙兰布丁** Padisarah Pudding
+- **牌出！旧怨弭散** Cards Out! Grievances Begone
 - **派中法度** Gang Bylaws
 - **派安** Payam
 - **派恩** Payne
+- **牌中秘宝** Treasures of the Deck
 - **排除隐患** Eliminating the Hidden Danger
 - **拍卖博弈** Auction Games
 - **拍卖会资料** Auction Information
 - **派蒙** Paimon
+- **派蒙的「伙食小金库」** Paimon's "Food Fund"
 - **派蒙的画作** Paimon's Paintings
 - **派蒙的十万个为什么？** A Thousand Questions With Paimon
 - **派蒙的星光考察** Paimon's Starlight Expedition
 - **派蒙的幸运日！** Paimon's Lucky Day!
 - **派蒙都不吃！** Even Paimon Wouldn't Eat That!
 - **派蒙都进不去吧？** It's Bigger on the Inside
+- **派蒙特制心意料理** The Paimon Special
 - **牌手等级突破** Ascension Challenge
 - **牌手等级突破・二** Ascension Challenge II
 - **牌手等级突破・三** Ascension Challenge III
@@ -5748,63 +10760,103 @@
 - **牌手预演** Duelist Rising
 - **派斯利** Paisley
 - **排异之露** Dew of Repudiation
+- **帕加尔** Pacal
+- **帕贾丹** Pajaten
+- **帕卡・努伊** Pakaa Nui
 - **帕拉德的困境** Pallad's Dilemma
+- **帕兰** Balam
+- **帕朗** Paran
 - **帕丽莎** Parisa
+- **帕莉西娅** Paricia
 - **帕慕克** Pamuk
 - **判官儿** Pan Guan'er
-- **盘木森森，荫蔽家庭** Trees Should Blend Their Roots and Shade, for That Is Where the Home Is Made
 - **磐陀裂生之花** Flower of Creviced Cliff
 - **盘缘** Serendipity
-- **叛逆的守护者** Rebellious Guardian
 - **帕纳** Panah
 - **攀高危险** Increasing Danger
+- **旁白的注脚** Narration Footnotes
+- **磅礴之气** Aura of Majesty
+- **庞塞** Ponche
 - **螃蟹** Crab
 - **螃蟹诱饵** Crab Bait
+- **帕纽尔** Panuelle
+- **帕尼娅** Pania
 - **磐祭叶守** Pillar of Fortitude
 - **磐键** Bedrock Key
 - **磐峦的恶意** Ominous Monolith
+- **盘木森森，荫蔽家庭** Trees Should Blend Their Roots and Shade, for That Is Where the Home Is Made
 - **叛逆刮弦** Riff Revolution
+- **潘帕** Pampa
+- **盘绕风引** Swirling Squall
 - **磐石精油** Unmoving Essential Oil
-- **潘塔罗涅** Pantalone
 - **盘纹硬陶石** Disk-Patterned Terracotta
 - **磐岩的冒险家** Rock-Steady Adventurer
 - **磐岩的寻宝者** Rock-Steady Treasure Hunter
-- **磐岩结绿** Primordial Jade Cutter
 - **刨根问底** The Bottom of Things
 - **炮鲀** Pufferfish
 - **跑，希尔米，跑** Run, Hilmi, Run!
 - **泡沫的永恒** Nothing but a Dream
+- **泡泡海马** Bubbly Seahorse
+- **泡泡桔** Bulle Fruit
+- **泡泡舒芙蕾** Bulle Souffle
+- **泡泡雄海马** Bubbler Seahorse
 - **泡影的祭法** Bubbling Offering
+- **帕帕克** Papak
 - **帕奇** Phaki
+- **帕恰** Pacha
 - **帕森** Peseng
 - **帕森的墩墩桃需求** Peseng's Zaytun Peaches
 - **帕斯里** Parsley
+- **帕坦** Pattyn
 - **帕特里克** Patrice
 - **帕维尔** Pavel
 - **帕维尔** Pavel
+- **帕维耶** Bavilliers
 - **帕维兹拉万** Parvezravan
 - **帕维兹拉万・赫瓦拉** Parvezravan Khwarrah
 - **帕西法尔** Parsifal
+- **帕西法尔** Parsifal
+- **帕兹** Paz
+- **佩尔曼雅** Permingeat
+- **佩尔索内** Persone
 - **佩尔西科夫** Persikov
 - **佩尔西科夫的手稿** Persikov's Manuscript
 - **培根** Bacon
+- **佩蕾・努伊** Pele Nui
+- **佩链座** Catena Opele
+- **裴伦埃里** Perinheri
+- **佩妮** Penny
 - **佩佩** Pepe
 - **佩特莉可** Petrichor
-- **蓬蓬果** Bloatty Floatty
+- **佩特莉可的阴霾** The Shadow Over Petrichor
+- **佩特洛妮拉** Petronilla
+- **沛休** Peixiu
+- **佩伊** Pers
+- **佩尤特莉** Peyotli
 - **砰砰大作战** Big Badaboom Battle
 - **砰砰魔球总动员** Kaboomball Kombat
 - **碰・一・碰** Touch and Go
 - **砰砰** Kaboom!
+- **砰砰爆发箱** Kaboom Box
+- **膨膨冰淇淋** Blubbercream
+- **蓬蓬果** Bloatty Floatty
 - **砰砰礼物** Pounding Surprise
+- **膨膨泡芙** Blubber Profiterole
+- **膨膨兽** Blubberbeast
+- **蓬普** Pumpu
 - **烹饪的诀窍** The Art of Cooking
 - **朋义** Pengyi
 - **朋友遍天下** Friends the World Over
 - **朋友之道** A Friend's Path
 - **喷气岩** Spoutrock
+- **喷吐草实** Flying Fruit
+- **僻秘之祸** Discordia Neglecta
 - **披沙沥金** An Eye for Gold
+- **皮尔钦** Piltzin
 - **噼咔，为什么又是噼咔** Boom Shaka-Laka, More Boom-Shaka-Laka
 - **偏光棱镜** Polarizing Prism
 - **片剂深研** Tablet Analytics
+- **片刻安宁** A Moment's Respite
 - **片刻闲暇** Fleeting Leisure
 - **翩翩之庭** Where the Shirasagi Dances
 - **骗骗花** Whopperflower
@@ -5824,16 +10876,15 @@
 - **飘飘爆弹** Floaty Splody
 - **飘然踏绿茵** Fluttering Footsteps in the Fields
 - **飘曳石筏** Driftstone Raft
+- **疲惫的暝视龙** Exhausted Iktomisaurus
 - **毗伽尔** Vihar
 - **毗伽罗** Viaghara
 - **皮卡** Pika
 - **霹雳连霄** Lightning Storm
 - **霹雳闪雷真君** Archaic Lord of Lightning and Blitz
-- **霹雳闪雷真君** Archaic Lord of Lightning and Blitz
 - **霹雳收藏家** Lightning Bottler
 - **品星观月，遍踏山河** Sky-Gazers, Land-Walkers
 - **凭此结契** Done Deal
-- **萍姥姥** Madame Ping
 - **平雷之冠** Thundersoother's Diadem
 - **平雷之刻** Hour of Soothing Thunder
 - **平雷之器** Thundersoother's Goblet
@@ -5843,7 +10894,11 @@
 - **平八** Heihachi
 - **平凡的纪念** Ordinary Memorial
 - **屏风后的白鹭公主** The Princess Behind the Curtain
+- **平冠鹱** Flatcrest Fulmar
 - **苹果** Apple
+- **苹果黑布丁** Boudin Noir aux Pommes
+- **苹果金条条** Golden Apple Pastry
+- **苹果卷卷** Apple Roly Poly
 - **苹果酿** Apple Cider
 - **平海** Pinghai
 - **平海砦** Fort Hiraumi
@@ -5854,6 +10909,7 @@
 - **平泉** Hiraizumi
 - **平泉的货物** Hiraizumi's Goods
 - **平山** Hirayama
+- **平善** Pingshan
 - **平息鸣雷的尊者** Thundersoother
 - **平野** Hirano
 - **平野现紫影** Upon the Plain, a Purple Shadow
@@ -5866,26 +10922,32 @@
 - **品茗尝清心 (望舒昼间)** Cozy Leisure Time (Wangshu Daytime)
 - **品质不错的风车菊** Rather Fine Windwheel Aster
 - **品质不错的蒲公英籽** Rather Fine Dandelion Seeds
+- **皮普** Pip
+- **皮萨克** Pisac
+- **皮萨萨** Pisasa
 - **皮塔尔** Pitar
 - **皮特** Pedrush
+- **皮托** Pitot
+- **皮希加** Pixica
+- **皮行的巧技** The Art of Skinchanging
 - **皮雅** Piah
-- **皮耶罗** Pierro
 - **破嶂见旌仪** Cliffbreaker's Banner
 - **破破弹片** Explosive Frags
 - **破冰踏雪的回音** Broken Rime's Echo
-- **迫近的客星** A New Star Approaches
+- **破除魔咒的古老药剂** Ancient Hex-Cleansing Remedy
+- **破坏的增殖生命体** Pernicious Proliferating Organism
 - **迫近的客星** A New Star Approaches
 - **迫近的险乱** Impending Danger
 - **破旧的刀镡** Old Handguard
 - **破旧的古屋** Dilapidated Old House
 - **破旧的架子** Shabby Rack
 - **破烂的纸条** Tattered Paper
-- **破浪** Wavesplitter
+- **破烂骨头商店** Rag and Bone Shop
 - **破裂的剑刃** Broken Blade
 - **破笼之志** Breaking Free
 - **破灭之时** Moment of Destruction
-- **破魔之弓** Hamayumi
 - **珀姆** Pam
+- **迫牌易位式** Card Force Translocation
 - **破破岛** Broken Isle
 - **破缺棱晶** Damaged Prism
 - **破碎的绝岩** Shattered Darkrock
@@ -5899,23 +10961,31 @@
 - **婆娑一舞** Swirling Steps
 - **破晓前的流光** Before Dawn, at the Winery
 - **破邪之弦镝** Evil-Slaying Bows
+- **珀西芙** Pahsiv
+- **珀西芙！** Pahsiv!
+- **破夜的明焰** Dark-Shattering Flame
+- **破夜的焰光** Night-Shattering Radiance
 - **破嶂旌旗桴鼓鸣** Cliffbreaker's Banner Flutters in Drum Rolls
+- **普尔比鲁尼之诫** Purbiruni's Commandment
 - **普尔希娜** Pursina
 - **普尔希娜光钉** Pursina's Spike
 - **蒲公英的归宿** Where the Dandelions Find Rest
 - **蒲公英的国土** Lands of Dandelion
 - **蒲公英的故乡** Land of Dandelions
-- **蒲公英酒** Dandelion Wine
 - **蒲公英领域** Dandelion Field
 - **蒲公英骑士** Dandelion Knight
 - **蒲公英之风** Dandelion Breeze
 - **蒲公英、蔷薇、风车菊** Dandelion, Rose, and Windwheel Aster
 - **蒲公英海** Dandelion Sea
 - **蒲公英海的狐狸** The Fox in the Dandelion Sea
-- **蒲公英籽** Dandelion Seed
+- **普莱希雅** Plessia
 - **普莉希拉** Priscilla
 - **普里亚** Pooria
-- **普契涅拉** Pulcinella
+- **普里耶** Poirier
+- **普吕姆** Prume
+- **普吕尼埃** Pruniere
+- **普玛** Puma
+- **普玛莉** Pulmari
 - **普热瓦** Przheva
 - **蒲烧鳗肉** Grilled Unagi Fillet
 - **扑朔迷离的命运** A Bewildering Fate
@@ -5931,7 +11001,9 @@
 - **七段妙变化** The Seven Glamours
 - **七个字母** Seven Letters
 - **奇馈宝箱** Remarkable Chest
+- **岂愧瑟与筝** Past Yearning
 - **其老爷** Mister Qi
+- **其名为「莱依拉」** The Name Is Layla
 - **戚楠** Qi Nan
 - **齐身石** Recreation Stone
 - **奇石珠宝录** Trove of Marvelous Treasures
@@ -5944,6 +11016,7 @@
 - **歧之地** Kunado's Locus
 - **歧之试炼** Kunado's Trial
 - **奇状盘伏树** Peculiar Knotwood Tree
+- **企鹅与丰渥之国** Penguins and the Land of Plenty
 - **奇恩** Kian
 - **琪娜特** Zinat
 - **浅葱上旋** Greenspire
@@ -5955,7 +11028,6 @@
 - **千军致戎演兵场** Military Exercise Grounds
 - **浅蓝色的水晶** Pale Blue Crystal
 - **浅蓝色的鱼鳞** Pale Blue Scale
-- **千门虚舟** Empty Boat of a Thousand Gates
 - **千山红遍** Scarlet Hills
 - **千手百眼** The Omnipresent God
 - **千手百眼，天下人间** Omnipresence Over Mortals
@@ -5965,8 +11037,6 @@
 - **千旋百转之笼** Kaleidoscope Cage
 - **千嶂万仞** Of Mountains High
 - **千振致业** A Thousand Swings
-- **千岩长枪** Lithic Spear
-- **千岩古剑** Lithic Blade
 - **千层酥酥** Baklava
 - **浅唱祈礼** Baptism of Song
 - **前尘旧忆** Former Life Memories
@@ -5983,20 +11053,25 @@
 - **强叔** Mr. Qiang
 - **炝炒肉片** Flash-Fried Filet
 - **抢断** Turnover
+- **强风猛进之述演** Exercise Surging Storm
 - **强化特训** Special Training
 - **强健祝福** Strengthening Boon
-- **强力攻击** Strong Strike
+- **强健助益** Tenacious Buff
+- **枪口，灼烧的轻烟** Muzzle, the Searing Smoke
 - **强力攻击** Strong Strike
 - **潜光片羽** Feather of Nascent Light
 - **蔷薇的雷光** Lightning Rose
 - **蔷薇魔女** Witch of Purple Rose
 - **蔷薇奶糊** Rose Custard
+- **蔷薇与铳枪** Roses and Muskets
+- **蔷薇与烛影之舞** Pas de deux di Rosula e Candela
 - **蔷薇再开时** Second Blooming
 - **蔷薇绽放的若干条件** The Random Circumstances of a Rose's Blooming
 - **强行突破作战** The Breakthrough
 - **强者之道** Way of the Strong
 - **千壑沙地** Desert of Hadramaveth
 - **千壑沙地的沙暴气象** Sandstorm in the Desert of Hadramaveth
+- **潜怀遐梦** Yearning for Unseen Depths
 - **千家饔飧坊** Gathering of Gourmets
 - **千金掷** Sparkling Scatter
 - **千晶** Chiaki
@@ -6005,27 +11080,37 @@
 - **千来神祠** Chirai Shrine
 - **浅濑神社** Asase Shrine
 - **浅濑响** Asase Hibiki
-- **浅濑之弭** Full Draw
 - **千里寻音迹难觅** A Thousand Miles for an Enigmatic Tune
+- **千里一日** A Thousand Miles in a Day
+- **千里月明** A Thousand Moonlit Miles
 - **千里之信** Chisato's Letter
 - **骞林馈遗** Gift of the Woods
+- **千灵慕斯** Fontinalia Mousse
 - **前路既定** Fate Foretold
+- **千门虚舟** Empty Boat of a Thousand Gates
 - **潜能焕发** Coruscating Potential
 - **千年孤独** 1000 Years of Loneliness
 - **千年千岩** The Millennial Mountains
 - **千年雪藏的事** Snow-Stored History
 - **千奇核心** Wonder Core
+- **千奇澴回** Returning Curios
+- **千奇澴回的见证物・其二** "Returning Curios" Memento (II)
+- **千奇澴回的见证物・其三** "Returning Curios" Memento (III)
+- **千奇澴回的见证物・其一** "Returning Curios" Memento (I)
 - **芊芊** Qianqian
 - **千秋竞岁** Endurer of Eons
 - **潜身敌营无人知** Undetected Infiltration
+- **潜深伏隩** Le secret cache
+- **千世传述之愿** Vow of a Thousand Generations
 - **千手百眼神像** Statue of the Omnipresent God
 - **千书曜迹** Tomes Light the Path
-- **千树之王** Queen Aranyani
 - **前所未闻的奇妙比赛？** The Most Fantastic Tournament You've Never Heard Of?
 - **犍闼缚城** The Illusory City
+- **钱汤馒头** Bathhouse Manjuu
 - **前田** Maeda
 - **前往更深处** Ever Deeper
 - **乾玮** Qianwei
+- **前卫理念与涂鸦先锋！** Avant-Garde Graffiti Visionary!
 - **浅蔚轻行** Verdant Strider
 - **潜行大师** Stealth Master
 - **潜形隐曜弓** Stealthy Bowshot
@@ -6038,11 +11123,17 @@
 - **千岩军士兵** Millelith Soldier
 - **浅野** Asano
 - **千叶** Chiba
-- **千夜的曙歌** A Thousand Nights' Dawnsong
-- **千夜浮梦** A Thousand Floating Dreams
+- **千夜的遗珠** A Pearl Amongst Legends
 - **千夜故事集** A Thousand Nights
+- **千音雅集** Repertoire of Myriad Melodies
+- **倩影游侠** Phantom in Boots
+- **前韵** Qianyun
+- **千云绘羽织** Of Silken Clouds Woven
 - **千早振** Chihayaburu
 - **千折不屈犹壮气** Unyielding Spirit
+- **千织** Chiori
+- **千织的命星** Chiori's Stella Fortuna
+- **千织屋** Chioriya Boutique
 - **千柱的花园** Garden of Endless Pillars
 - **乾子** Qian
 - **巧瞒七星解磐键** Surreptitious Seven-Star Seal Sundering
@@ -6051,15 +11142,24 @@
 - **桥本** Hashimoto
 - **巧策灵感** Strategic Inspiration
 - **翘楚名坤** Famed Throughout the Land
+- **乔甘** Chogan
+- **巧克力** Chocolate
 - **荞麦面** Soba Noodles
 - **乔瑟夫** Joserf
+- **巧施协同** Sophisticated Synergy
 - **巧思手记** Creative Note
+- **乔瓦尼** Giovanni
 - **桥西** Qiaoxi
+- **巧言贴耳的诱引** Loquacious Cajoling
 - **峭岩作歌** Humming Amidst Rocks
 - **翘英庄** Qiaoying Village
 - **乔伊斯** Joyce
+- **翘枝崖** Quahuacan Cliff
 - **恰如其分的收场** All's Well That Ends Well
+- **恰斯卡** Chasca
+- **七彩之战的真相** The Truth of the Battle of Seven Colors
 - **启程补给包** Starter Supply Bundle
+- **栖地蝠的灵笼** Roosting Bat's Spiritcage
 - **气定神闲** Composed
 - **启动跃迁引擎！** Initiating Warp Drive!
 - **且看今朝** The Liyue Romans-Fleuves
@@ -6068,12 +11168,19 @@
 - **且听我一言。** Once Upon a Time...
 - **且听下回分解** Cliffhanger
 - **且闻天下人心** To Hear Mortal Hearts
+- **窃火者密岛** Firethief's Secret Isle
+- **窃能飞贼** Flying Energy Thief
+- **切妮** Chanil
+- **切萨勒姆宫** Caesareum Palace
+- **切瑟尔** Chesil
 - **锲纹的横脊** Marked Shell
 - **启封的羊皮卷** Unsealed Parchment
 - **祈风术** Prayer to the Winds
 - **齐格芙丽雅** Siegfria
-- **奇怪的雕像** Weird Statue
+- **七谷的试炼** Trial of Haft-Vádí
 - **奇怪的盒子** Strange Box
+- **奇怪的鳗鱼** Strange Eel
+- **奇怪的匿叶龙** Strange Yumkasaurus
 - **奇怪的丘丘人** Unusual Hilichurl
 - **奇怪的石头** Strange Stone
 - **奇怪的调酒材料** Strange Cocktail Ingredient
@@ -6084,13 +11191,18 @@
 - **奇怪的珠子** Strange Bead
 - **奇怪的…饮品？** Some Strange... Drink?
 - **奇怪岩石照片** Photo of a Strange Rock
+- **气鼓鼓仙像** Wrathful Simulacrum
 - **奇诡难测** A Clueless Case
+- **奇瑰之汤** Mystique Soup
 - **起航之日** Setting Sail
 - **漆黑陨铁的一角** Bit of Aerosiderite
 - **漆黑陨铁的一块** Chunk of Aerosiderite
 - **漆黑陨铁的一粒** Grain of Aerosiderite
 - **漆黑陨铁的一片** Piece of Aerosiderite
 - **气候相交之地** Climate Crossover
+- **绮縠纷披** Resplendent Couture
+- **琪花星烛** Blossoming Starlight
+- **绮绘的踪绪** Traces of Artistry
 - **奇迹** Tiny Miracle
 - **奇迹耳坠** Tiny Miracle's Earrings
 - **奇迹精粹** Miraculous Essence
@@ -6098,20 +11210,38 @@
 - **奇迹之花** Tiny Miracle's Flower
 - **奇迹之沙** Tiny Miracle's Hourglass
 - **奇迹之羽** Tiny Miracle's Feather
+- **奇境谜丘探幽行** Journey Through Hilinigmatic Terrain
+- **奇境异草** The Greenery Out of Space
+- **奇景之旅** A Fascinating Journey
+- **迄今为止，所有收藏** All I've Collected Till Now
+- **奇卡** Qica
+- **奇科娅** Chikya
 - **七窟遗智** Lost Wisdom of the Seven Caverns
 - **奇拉** Kira
 - **七郎** Qilang
+- **奇乐挑战** Curious Challenge
 - **齐里** Ziri
+- **绮良良** Kirara
+- **绮良良的命星** Kirara's Stella Fortuna
 - **凄寥的表记** Tangled Vines
+- **契令的酬偿** Lawful Remuneration
 - **栖令比御** Surepio
 - **齐里亚布** Ziryab
+- **奇旅馔匣** Delights of Wondrous Wanderings
+- **奇玛** Cima
+- **奇马利** Chimalli
+- **奇梅** Chime
+- **奇门术息灾平昏寿，护摩法净世定幽冥** Qimen Arts and the Rite of Homa, the Spirits are Calmed and Life Restored
+- **绮梦缱绻** Embrace of Enchanting Dreams
 - **奇妙的摆设赠品** Amazing Gift (Furnishing)
 - **奇妙而美丽的花** Wondrous Lovely Flower
 - **绮命** Qiming
+- **启明视** Dawnseer
 - **绮命与志华的对话记录** A Record of Qiming and Zhihua's Conversation
 - **齐米娅** Kemia
 - **齐米亚** Kimiya
 - **栖木** Perch
+- **栖木普** Chimpu
 - **琴** Jean
 - **琴的命星** Jean's Stella Fortuna
 - **侵霞石** Sunset Stone
@@ -6120,11 +11250,13 @@
 - **请安全玩耍** Please Play Safely
 - **请保持安全距离** Maintain Safety Distance
 - **清炒虾仁** Stir-Fried Shrimp
+- **青灯玉砚** Azure Lantern, Jade Inkstone
 - **情非得已** You Can't Help Your Feelings
 - **青风结诗** Breezy Ode
 - **庆功晚宴** Victory Banquet
 - **青雷鼬** Bluethunder Weasel
 - **清涟凝明** Crystal Ripples
+- **青蜜莓** Quenepa Berry
 - **倾奇狂鬼** Eccentric Oni
 - **青衫景铄** Overgrown Wildvest
 - **青衫问寒** Hazel Wildvest
@@ -6148,22 +11280,29 @@
 - **轻策闲云居** Qingce Cloud Residence
 - **轻策行云竹** Qingce Skysail Bamboo
 - **轻策之围** The Siege of Qingce
-- **轻策庄寻宝纪事** Qingce Village Treasure Hunt
 - **轻策庄** Qingce Village
 - **轻策庄的霄灯** Qingce's Lanterns
+- **轻策庄寻宝纪事** Qingce Village Treasure Hunt
 - **清澈的风龙泪滴** Clear Dvalin Tear
 - **清晨的焦枯蕈兽的气味** The Smell of Grilled Mushrooms in the Morning
 - **青磁蓬生** Cyangrass
 - **庆次郎** Keijirou
+- **轻弹直射** Single-Shot Bullet
+- **庆典开幕** Opening Festivities
 - **庆典巡回券** Festive Tour Ticket
 - **庆典券** Festive Ticket
 - **清风朗月** Under the Clear Sky
 - **清风散林缬** Flickering Shadows of Trees
+- **清风散花词** Word of Wind and Flower
 - **清刚** Seigou
+- **青冠雀** Bluecrown Finch
 - **青花卷底残章** What the Blue Flowers Left Behind
 - **清惠** Kiyoe
+- **庆继** Qingji
+- **清洁！大作战** Lean, Mean, Cleaning Machine!
 - **青金的流旋** Lazurite Swirl
 - **青金斧枪鱼** Lazurite Axe Marlin
+- **清净之园囿** Garden of Purity
 - **青空** Pure Sky
 - **晴空的许诺** Promise of Blue Skies
 - **晴空缯彩游鱼旗** High-Flying Fish Flag
@@ -6171,23 +11310,38 @@
 - **清籁旧忆** Reminiscence of Seirai
 - **清籁逐雷记** Seirai Stormchasers
 - **清籁岛** Seirai Island
+- **轻涟** La vaguelette
 - **青莲** Qinglian
 - **清涟** Qinglian
+- **轻涟 (伴奏)** La vaguelette - Instrumental
+- **轻涟 (男版伴奏)** La vaguelette - Male Version Instrumental
+- **轻涟 (无和声女版伴奏)** La vaguelette - Female Version Instrumental without Harmony
 - **轻灵火花** Shooting Spark
+- **轻灵直刺** Agile Thrust
+- **清露涟涟** Melody of Morning Dew
+- **倾落的迸水** Pouring Descent
 - **倾落伽蓝** Inversion of Genesis
 - **青木** Aoki
 - **轻飘飘的花与芙萝拉** Flighty Flora... and Flora
 - **轻飘飘的摩拉袋** Light Mora Purse
 - **轻飘飘的钱袋** Light Purse
+- **轻飘飘仙像** Flighty Simulacrum
 - **清琼岛** Cool Isle
 - **清泉的猎人** Hydro Hunter
+- **清泉的礼赞** Spring Song
 - **清泉入云海** Spring in Clouds
 - **清泉之心** Heart of Clear Springs
 - **清泉、白马与月光** Spring, White Horse and Moonlight
 - **清泉镇** Springvale
+- **清热降火汤** Heat-Quelling Soup
 - **清人** Kiyoto
+- **清润玉响** A Mild Tale Untold
 - **晴霜的标绘** Coordinates of Clear Frost
+- **晴霜的信风** Sunfrost Breeze
+- **晴霜的祝念** Sunfrost Encomium
+- **清爽枫达，畅饮世界！** Refreshing Fonta, a Font of Refreshment!
 - **清水** Shimizu
+- **清水玉** Clearwater Jade
 - **轻松的冒险初体验** A Festive First Adventure
 - **清算** Liquidation
 - **清算黑暗的炎之剑** Flaming Sword, Nemesis of the Dark
@@ -6198,14 +11352,20 @@
 - **青蛙** Frog
 - **请勿长期食用** Not for Long-Term Consumption
 - **清晰的记录画片** Clear Image
+- **清夏！乐园？大秘境！** Secret Summer Paradise
 - **磬弦奏华夜** The Exquisite Night Chimes
 - **清香的米饭布丁** Fragrant Rice Pudding
 - **清心** Qingxin
+- **清心花饼** Qingxin Flower Cake
 - **庆兴** Qingxing
 - **青墟浦** Qingxu Pool
 - **青墟浦地下遗迹** Qingxu Pool Underground Ruins
+- **青夜** Qingye
 - **倾影的莲步** Beguiling Shadowstep
 - **晴雨的经纬** The Coordinates of Sun and Rain
+- **轻雨何故落** Pluie sur la ville
+- **轻语如露** Whispering Dewdrops
+- **轻愉信笺** Jocund Letters
 - **青云流风饰霓裳** Swinging in the Breeze
 - **庆云顶** Qingyun Peak
 - **清正灵台** Pure Spirit
@@ -6214,16 +11374,25 @@
 - **清昼细雨** Gentle Rain
 - **清子** Kiyoko
 - **琴美** Kotomi
+- **亲切的兰那罗木刻** Friendly Aranara Carving
 - **禽肉** Fowl
 - **侵蚀** Corrosion
 - **琴师的箭羽** Bard's Arrow Feather
+- **侵蚀雷晶** Corrosive Electro Crystal
+- **侵蚀利爪** Cankering Claws
+- **钦特利** Cintli
 - **擒霞客** Dawncatcher
+- **琴音之诗** Lyresong
 - **寝子是只猫** Neko Is a Cat
+- **穷碧落而下墟渊** Descending Into the Depths of Desolation
 - **穷寇猛追** No Place for Banditry
 - **琼台玉阁** Jade Chamber Rising
 - **穷地之险** A Moment of Unsettledness
+- **琼花映蕊** Immaculate Ardency
 - **琼玑野** Qiongji Estuary
+- **琼玖** Qiongjiu
 - **穹居标塔-「熟思之树」** Mansion Pagoda &mdash; Tree of Pondering
+- **穷举法则** Proof by Exhaustion
 - **穹居台榭-「茶歇之处」** Mansion Courtyard &mdash; Place of Repose
 - **穹居标塔-「憬悟之花」** Mansion Pagoda &mdash; Flower of Revelation
 - **穹居台榭-「烟袅之地」** Mansion Courtyard &mdash; Cuisinier's Abode
@@ -6235,18 +11404,24 @@
 - **琼斯** Jones
 - **穷途望归路** Ere the End, a Glance Back
 - **穷途末路** End of the Line
+- **琼玉果汤** Jade Fruit Soup
 - **气泡酸莓汁** Sparkling Berry Juice
 - **气泡水** Fizzy Water
 - **杞平** Qiping
 - **栖凭于清森深处** Deep in the Quiet Forest
+- **奇普** Cip
 - **七七** Qiqi
 - **七七的命星** Qiqi's Stella Fortuna
+- **齐齐整整** Impeccably Organized
 - **奇趣秘园** Peculiar Wonderland
 - **奇趣秘园** Peculiar Wonderland
 - **崎岖石厅** Stony Halls
 - **奇趣协力券** Peculiar Collab Coupon
+- **七日历练** Sennight Gauntlet
+- **七荣的陵殿** Steps to Heptas
+- **七荣的嗣世** Parcener of Heptas
+- **琦色灵彩之羽** Vibrant Pinion
 - **绮珊** Qishan
-- **七神** The Seven
 - **七神的赐福** The Blessings of The Seven
 - **七圣枪术** Invoker's Spear
 - **七圣召唤** Genius Invokation {{tt|TCG|Trading Card Game}}
@@ -6257,38 +11432,50 @@
 - **骑士的义举** Knighthood Excellence
 - **奇石含露** Dewdrop Cabochon
 - **骑士精神** Knighthood Excellence
+- **奇石历险记** Strange Stone Chronicle
 - **骑士染血之时** Bloodstained Final Hour
 - **骑士团扫除专家** Favonius Sweeper Master
-- **骑士团长的一日假期** Master's Day Off
 - **骑士修行之道** Chivalric Training
 - **骑士与牧师，战斗表示！** Knight and Deaconess, Ready for Battle!
-- **启示之花** Blossom of Revelation
+- **起始点** Starting Point
+- **起始点・协作** Co-Op Starting Point
 - **骑士团的办公桌** Favonius Office Table
 - **骑士团的会议桌** Favonius Conference Table
+- **骑士团的普通一天** An Ordinary Day for the Knights of Favonius
 - **骑士团的诸多麻烦** Knights and Their Knotty Issues
 - **骑士团剑盾徽章** Favonius Coat of Arms
 - **骑士团杉木房门** Favonius Fir Door
 - **骑士团手册问答** Question and Answer
 - **骑士团手册问答** Question and Answer
+- **骑士团长的一日假期** Master's Day Off
 - **骑士团指导手册・第五版** Knights of Favonius Handbook - 5th Edition
 - **骑士团图书馆** Knights of Favonius Library
-- **骑士团总部** Knights of Favonius Headquarters
+- **奇书疑云** An Odd Textual Mystery
 - **绮思晚星** Fantastical Evening Star
+- **琪丝佩** Qhispe
 - **祈颂射艺** Supplicant's Bowmanship
 - **绮碎斑晶** Shattered Phenocryst
 - **其他人类势力** Other Human Factions
+- **棋谭机关固定点** Mechanicus Fixed Emplacement
 - **奇特的「留影机」** Kurious Kamera
 - **奇特的「魔方」** Curious Cube
+- **奇特的零件** Strange Part
 - **奇特的水瓶** Strange Bottle
 - **奇特的岩石** Unique Rock
 - **奇特的羽毛** Peculiar Pinion
 - **七天神像** Statue of The Seven
+- **秋的礼物** Autumn's Gift
 - **秋野防灾记** Autumn Crisis
 - **丘占雀巢** Hilichurl Nest
+- **邱老板** Ms. Qiu
+- **求方** The Formula for a Miracle
+- **秋分山西侧** West Slopes of Mont Automnequi
 - **秋歌** Qiu'ge
 - **秋津森夜试胆会** Akitsu Kimodameshi
+- **秋纽奥** Chuno
 - **鳅鳅宝玉** Loach Pearl
 - **丘丘带角陶锅** Hilichurl Horned Pot
+- **丘丘风行游侠** Anemo Hilichurl Rogue
 - **丘丘弓箭标靶** Hilichurl Archery Target
 - **丘丘简易草棚** Hilichurl Straw Hut
 - **丘丘雷兜王** Thunderhelm Lawachurl
@@ -6300,12 +11487,18 @@
 - **丘丘射手** Hilichurl Shooter
 - **丘丘霜铠王** Frostarm Lawachurl
 - **丘丘双层警戒台** Two-Story Hilichurl Sentry Tower
+- **丘丘水行游侠** Hydro Hilichurl Rogue
 - **丘丘图腾围栏** Hilichurl Totem Fence
 - **丘丘岩盔王** Stonehide Lawachurl
+- **丘丘游侠** Hilichurl Rogue
 - **丘丘语速查手册** Handy Handbook of Hilichurlian
+- **球球章鱼** Ball Octopus
 - **丘丘人** Hilichurl
 - **丘丘人暴徒** Mitachurl
 - **丘丘人暴徒战利品** Mitachurl Loot
+- **丘丘人的百宝箱** Hilichurls' Treasure Trove
+- **丘丘人的百宝箱** Hilichurls' Treasure Trove
+- **丘丘人的百宝箱** Hilichurls' Treasure Trove
 - **丘丘人的穷追不舍** The Churlish Chase
 - **丘丘人的一小步** A Small Step for Hilichurls
 - **丘丘人今晚的伙食** Tonight's Hilichurl Menu
@@ -6321,50 +11514,67 @@
 - **丘丘人** Hilichurl
 - **丘丘语诗歌试作** Draft Hilichurl Ballads
 - **秋人** Akito
+- **秋沙歌枕巡礼** Aisa Utamakura Pilgrimage
 - **秋沙钱汤** Aisa Bathhouse
+- **求索的残歌** Rhythm of Inquiry
 - **秋蔚** Qiuwei
 - **求学漫漫路** The Path of Papers
+- **萩原** Hagihara
 - **秋月** Qiuyue
+- **企望的流音** Resonance of Longing
 - **祈望与乡魂** Hope or Nostalgia
 - **祈望之心** Hopeful Heart
 - **七尾** Nanao
 - **弃屋之底** Beneath the Abandoned House
 - **气息之间** Place of Breath
 - **奇想天开捕物帐** Curious Casefiles
+- **奇械发条备件・歌裴莉娅** Artificed Spare Clockwork Component &ndash; Coppelia
+- **奇械机芯齿轮** Artificed Dynamic Gear
 - **攲斜弥亘树** Slanted Meandering Wood
+- **琪希可** Cisik
 - **七星选拔** Seven-Star Selection
 - **齐亚德** Ziyad
 - **绮筵之鼓** Festive Drum
-- **七叶寂照秘密主** Everlasting Lord of Arcane Wisdom
 - **七夜由美** Nanaya Yuumi
 - **奇异的「牙齿」** Strange Tooth
 - **奇异的海螺** Mysterious Conch
+- **奇异的矿石** Strange Ore
+- **七鹦之喙** Parrot's Beak
+- **鳍游龙** Koholasaurus
 - **七域的蕖华** Lotus of Haftkarsvar
 - **七域舞步** Dance of Haftkarsvar
 - **祈雨术** Prayer for Rain
+- **碛原引路人** Dune Guide
 - **七臧山经** Seven Mountain Treatises
+- **欺诈师列那** Renart the Deceiver
 - **启蛰之祝词** Enlightened Blessing
 - **奇珍分享包** Exotic Share Bundle
 - **去吧！黄金旋风！** Go Forth, Golden Whirlwind!
 - **驱鬼之羽屏** Spiritchaser Screen
-- **鸲翮的皇庭** Ein vogellin, so wol getan
 - **曲生酌微梦** Of Drink A-Dreaming
-- **氍毹烟云** Mistcloud Stage
 - **犬大将的特别行动** The Canine General's Special Operations
 - **全蒙德最好的听众** The Best Audience in All of Mondstadt
 - **犬少将** Inu Shoushou
 - **全什么外壳来着？** Full Metal What Now?
 - **全是宝藏** All Of My Treasures!
+- **泉栖谷隐** Neath the Fountain
+- **泉有重喷日** The Fountain Flows Again
 - **犬又二分之一** Hex & Hound
+- **全方位后援** Reinforcements
 - **犬坂吠吠方圆阵** Inuzaka All-Round Defense
 - **犬坂牙将助阵勤** Inuzaka General's Friendly Helper
+- **拳力斗技** Pankration Ring
+- **全力以赴玛拉妮！** Mualani, Going All Out!
 - **全能美食队** Gourmet Supremos
 - **全能美食队** The Gourmet Supremos
 - **全能美食队！** Gourmet Supremos, Assemble!
+- **泉轻流花暖** Buds Warm Lucid Springs
+- **圈圈圆圆** Feast-O's
 - **犬神家的末路** Inugami's End
 - **犬帅稔谋** Astute and Fearless Leader
-- **泉水精灵** Spring Fairy
 - **海老名权四郎** Ebina Gonshirou
+- **全新的巡礼** A New Pilgrimage
+- **全新风格** A Whole New Style
 - **全心全意** Devotion
 - **权杖厅** Sekhem Hall
 - **呿波境** Realm of Khab
@@ -6375,9 +11585,13 @@
 - **却砂木金纹床头柜** Gold-Lined Sandbearer Nightstand
 - **却砂木金纹衣柜** Gold-Lined Sandbearer Wardrobe
 - **却月的轻舞** Dance of the Waning Moon
+- **却之** Quezhi
+- **鸲翮的皇庭** Ein vogellin, so wol getan
 - **曲径探幽** Walking a Pathless Path
 - **曲径通幽之处** Domain of the Wayward Path
 - **去年霄灯，今日古华** Yesteryear's Lanterns and the Guhua of Today
+- **群龙争驰的灼土** Saurian-Scorched Soil of Strife
+- **群鸟的授记** Vyakarana of the Birds
 - **群星的涡风** Vortex Stellaris
 - **群玉临空** Rise of the Jade Chamber
 - **群玉阁** Jade Chamber
@@ -6387,7 +11601,11 @@
 - **曲清的订货单据** Quqing's Invoice
 - **曲生酌微梦** Of Drink A-Dreaming
 - **取胜者，大小通吃** Winner Takes All
+- **氍毹烟云** Mistcloud Stage
+- **曲水如鳞** Her Silhouette
 - **驱邪之行** The Exorcist's Path
+- **趣意斑晶** Fascinating Phenocryst
+- **呿吟至微** Attentive Observation
 - **曲终人未散** The Lingering Song
 ## R
 - **染血的骑士道** Bloodstained Chivalry
@@ -6396,40 +11614,52 @@
 - **燃愿玛瑙** Agnidus Agate Gemstone
 - **燃愿玛瑙断片** Agnidus Agate Fragment
 - **让我见识一下巨像的性能吧** What Does This Button Do?
+- **让贝尔** Jeambel
+- **让克** Jenck
 - **然后时间开始流动** Now Let Time Resume
 - **燃烬之舞** Saltatio Favillae
 - **染绿乡园的曲调** Melody of Dream Home
 - **燃烧** Burning
+- **燃烧的太阳** The Burning Sun
+- **燃烧连射** Burning Barrage
 - **燃烧烈焰** Burning Flame
+- **燃素** Phlogiston
 - **染血的黑之羽** Bloodstained Black Plume
 - **染血的铁假面** Bloodstained Iron Mask
 - **染血的铁之心** Bloodstained Flower of Iron
 - **染血骑士之杯** Bloodstained Chevalier's Goblet
+- **燃焰旋织** Whirling Blaze
+- **染羽裁锦** Weaving Nishiki
 - **燃愿玛瑙块** Agnidus Agate Chunk
 - **绕尘纪行** Realm of Diversion
 - **热光学迷彩** Active Camouflage
-- **忍流飞刃斩** Shinobu's Shadowsword
 - **人之海的秘书** A Secretary in a Sea of Humanity
 - **人铸赋形** Taking Shape
+- **忍流飞刃斩** Shinobu's Shadowsword
 - **热闹红火的杂货摊位** Bustling Sundry Stand
 - **忍刀・终末番** Shuumatsuban Ninja Blade
-- **忍冬之果** Frostbearer
 - **忍冬之树** Frostbearing Tree
 - **忍冬之树的记忆** Memory of the Frostbearing Tree
+- **人聚人散** Gatherings and Partings
 - **忍里之貉** Mujina Ninja
 - **刃连岛** Jinren Island
 - **仁美** Hitomi
 - **人前人后** Between Facades and Familiar Faces
 - **人情练达即文章** Of the Human Heart Many Essays Written
 - **仁柔的烟林** Dissipating Mist
+- **仁三** Hitomi
+- **人生的波峰与波谷** The Peaks and Troughs of Life
 - **任务** Quest
 - **仁羽** Ren'yu
 - **人鱼童话** A Mermaid's Tale
 - **人约曲终后** After the Curtain Falls
+- **刃爪悬星** Stellar Rend
 - **热情不灭** Unexpected Odyssey
+- **热情的记者** Friendly Reporter
 - **热情复燃** Rekindle
 - **热情拂扫** Sweeping Fervor
 - **热情过载** Passion Overload
+- **热塞尔** Geisert
 - **热砂之梦** Dreams Beneath the Searing Sand
 - **热沙中的秘密** Secret of the Scorching Desert
 - **热腾腾的红烩兽肉** Piping-Hot Braised Meat
@@ -6438,68 +11668,110 @@
 - **若陀龙王** Azhdaha
 - **热销的木刻** Selling Like Hot Carvings
 - **日月回轮** Of Sun and Moon
-- **日月前事** Before Sun and Moon
 - **日轮与菅名山** The Sun-Wheel and Mt. Kanna
 - **日落百嶂静** As Dusk Falls
 - **日落鲷鱼烧** Taiyaki
 - **日落果** Sunsettia
 - **日落莓莓茶** Sunset Berry Tea
+- **日冕的三原色** The Three Primary Colors of the Solar Corona
 - **日夜之台** Daises of Day and Night
-- **日月辉** Solar Shine
+- **日月前事** Before Sun and Moon
 - **日照的正途** The Sunlit Way
 - **熔毁之刻** Molten Moment
 - **荣发商铺** Second Life
+- **融风渐暖** Springtide of Qiaoying
 - **荣光之风** With Wind Comes Glory
+- **荣光之剑** Sword of Honor
 - **荣光之刃** Blades of Glory
 - **融化** Melt
+- **荣华易散** Sic Transit Gloria Mundi
+- **荣花与炎日之途** Flowers Resplendent on the Sun-Scorched Sojourn
 - **荣花之期** Bloom Times
 - **熔毁之翼** Blessing of Phoenix
+- **熔火的遗烬** Ex Favilla Incendi
 - **荣江** Rongjiang
+- **荣冕纪行** Crown of Glory
 - **戎犬锵锵** Canine Warrior
+- **茸茸城堡大喵险** Feline Fortress Furrdyssey
 - **戎世** Rongshi
+- **熔石百炼** Tempered in Molten Stone
+- **溶蚀利爪** Corrosive Claws
+- **熔铁的孤塞** Molten Iron Fortress
 - **熔铁流狱** Molten Inferno
+- **熔土裂隙** Molten Fissure
+- **容韦勒** Jonvelle
 - **茸蕈窟** Chatrakam Cave
 - **熔焰地涌之仪** Rite of the Molten Eruption
+- **熔岩游像** Avatar of Lava
+- **绒翼龙** Qucusaurus
+- **绒翼龙** Qucusaurus
 - **戎昭** Rongzhao
 - **柔风低语间** Amidst Whispering Winds
 - **柔风加护的床榻** Breeze-Blessed Bed
+- **肉龙掌** Saurian Claw Succulent
+- **肉满满寿司** Mega-Meaty Sushi
 - **肉肉烤蘑菇披萨** Meat Lovers' Mushroom Pizza
+- **柔灯铃** Lumidouce Bell
+- **柔灯轻漾时** Lumidouce's Repose
+- **柔灯心韵** Lumidouce Heart Note
+- **柔灯港** Lumidouce Harbor
+- **肉酱千层面** Lasagna
+- **柔静轻俏之夜** La nuit silencieuse et paisible
 - **柔情留忆** Lingering Bitterness
 - **柔然** Rouran
+- **柔柔海露心** Romaritime Meluserenity
+- **柔柔小章** Itty Bitty Octobaby
+- **柔柔羊** Fluff-Fleece Goat
 - **柔软的会客厅沙发** Soft Lounge Sofa
 - **肉食者，布洛克** Brook the Carnivore
 - **如草芳绚** Fluorescent Bloom
 - **如堕霓雾** A Sepulchral Gloom
 - **如光似电** Quick As Lightning
 - **如光骤现** Like Nascent Light
+- **如涓的忆恋** Clio's Memoirs
 - **如凯旋的英雄一般** Like a Triumphant Hero
-- **如狼般狩猎者** Wolfish Tracker
 - **如雷的盛怒** Thundering Fury
 - **如临神之畔** As by a God's Side
+- **如留旧时的星影** A Starry Night, as Remembered
 - **如蜜的终宴** Honeyed Final Feast
 - **如命运般的相逢** Destined Encounter
+- **如是灵光悉示现** As the Khvarena's Light Shows
 - **如狮子寻找勇气…** As the Lion Searched for Courage...
+- **如水澄湛** Like Waters Clear
 - **如我是我非我相** Me, Myself, But Not I
 - **如星的宝珠** Star-Shaped Gem
+- **如夜风的谜烟** As the Mysteries of the Night Wind
 - **如饴的蜜草** Treacle Grass
 - **如雨的电浆** Plasma Eruption
+- **如愿所成** Comme il vous plaira
 - **如朝露一般** As Though Morning Dew
 - **蠕虫假饵** False Worm Bait
 - **入彀者，多多益善** Taking All Comers
 - **如何对敌？** What Shall We Do?
+- **瑞月火树落白间** Kindled Trees by the Moonlit Window
+- **瑞尔维安** Joinville
+- **锐锋攫猎** Ehecatl's Roar
 - **瑞锦** Ruijin
-- **锐利** Sharp
 - **锐利的箭簇** Sharp Arrowhead
+- **瑞兽登高楼** Bestial Ascent
+- **瑞兽之形** Auspicious Beast's Shape
 - **瑞文伍德** Ravenwood
+- **锐意与优雅的战舞？** Determined and Elegant Battle Dance?
 - **如梦似幻** Dreamlike
 - **如梦如电的隽永** Dreamlike Timelessness
 - **润雨遐踪** Graceful Dexterity
+- **若还有另一个家** Another Home There May Yet Be
 - **若雷石** Thunderstone
+- **若{{MC|m=你|f=妳}}渴盼鲜血…** If You're Thirsty for Blood...
 - **若你困于无风之地** Should You Be Trapped in a Windless Land
+- **若忘记家在何处** Where Lies the Path Home
+- **若忘记我为何物** What Shape Does the Self Hold
+- **若雷结界** Thunder Barrier
 - **若木的沉唱** Resonant Chant in the Woods
+- **若娜瓦** Ronova
 - **若山敬助** Wakayama Keisuke
 - **若山小十郎** Wakayama Kojuurou
-- **若水** Aqua Simulacra
+- **若松** Wakamatsu
 - **若狭的藁末** Parasol Talcum
 - **若心** Granny Ruoxin
 - **若雨女士** Miss Ruoyu
@@ -6508,46 +11780,81 @@
 - **如日方升的旅程** Onward and Upward
 - **如诗如歌，夏之梦** Like Rhyme and Song, the Summer Reverie
 - **如诗如歌，夏之梦** Like Rhyme and Song, the Summer Reverie
+- **如水从平** As Water Seeks Equilibrium
+- **茹斯托** Justeau
+- **如同昔日的微茫月明** Like the Faint Moonlight of Yesteryear
+- **如霰澄天的鸣礼** As the Sunlit Sky's Singing Salute
 - **如意** Ruyi
 - **汝英** Ruying
+- **如影流露的冷刃** A Cold Blade Like a Shadow
 - **如愿以偿** As You Wish
 ## S
 - **萨尔姆** Salm
 - **萨巴桑炸角** Samosa
+- **萨宾** Sabine
 - **撒比特** Thabit
+- **萨博兰** Saborn
 - **萨布兹炖肉** Sabz Meat Stew
+- **萨德赫** Sadegh
 - **萨蒂** Shadi
+- **萨迪古亚** Sadigua
 - **萨福万** Safwan
 - **萨古** Sag
 - **萨哈尔** Sahar
+- **萨赫哈蒂** Zaha Hadi
+- **赛金砖** Sai Jinzhuan
 - **赛芭** Sabbah
+- **赛达菲** Sadife
+- **赛达菲的标记地图** Sadife's Marked Map
+- **赛达菲的箱子** Sadife's Case
+- **塞德娜** Sedene
+- **塞卡伊** Secaille
 - **塞库菈** Sekkura
+- **塞勒** Thales
 - **塞琉斯** Cyrus
 - **塞琉斯写给玉霞的信** Cyrus' Letter to Iris
+- **塞律里埃** Serrurier
+- **塞洛海原** Salacia Plain
+- **赛莫德绿洲** Thamud Oasis
 - **塞娜** Thana
 - **赛诺** Cyno
 - **赛诺的介绍信** Cyno's Introduction Letter
 - **赛诺的来信** Cyno's Missive
 - **赛诺的命星** Cyno's Stella Fortuna
+- **赛诺说了什么？** What Did Cyno Say?
+- **塞奇托** Seketo
+- **塞萨尔** Cesar
 - **赛事进展** Championship Progress
+- **赛索斯** Sethos
 - **塞塔蕾** Setaria
 - **塞西莉亚苗圃** Cecilia Garden
 - **塞西莉亚花** Cecilia
 - **萨基** Sage
+- **萨嘉尔** Shajar
+- **萨加图拉** Zacatula
+- **萨卡乌** Sakaw
+- **萨科巴** Sacbe
+- **萨库科** Sakkuk
 - **萨拉尔** Salar
+- **撒勒布・道莱<!--王-->** <!--King -->Saleb Dowleh
 - **萨勒赫** Saleh
 - **萨勒** Sal
 - **萨梅尔** Samail
-- **三河茜** Mikawa Akane
+- **萨米诺** Semino
 - **叁零式・便携营养袋** NRE (Menu 30)
+- **三人行…先寻明师・之二** In Expert Company? (II)
+- **三人行…先寻明师・之一** In Expert Company? (I)
+- **三时三觉** Trifaria Conscientia
 - **三眼守仙牌** Adeptus Gate
 - **三隅道大演武** The Three Great Martial Trials
 - **三之定则** The Rule of Three
 - **三奉行** Tri-Commission
 - **萨纳德** Sanad
+- **散布小于一角分！** Spread Out Less Than An Arcminute!
 - **三彩团子** Tricolor Dango
 - **三乘种子** Tri-Yana Seed
 - **三重雪关扉** Blizzard Blade Seki no To
+- **三重岩击** Triple Geosmash
 - **三川花祭** Mikawa Flower Festival
 - **三船悟志** Mifune Satoshi
 - **三岛道世** Mishima Michitoshi
@@ -6555,69 +11862,100 @@
 - **散发不幸的一道菜** Ominous Dish
 - **伞盖的荫蔽** Under the Umbrella's Shade
 - **桑沧遍历** Dust and Tears
+- **桑迪诺** Sandino
 - **桑顿** Santon
-- **桑多涅** Sandrone
 - **三个心愿** Three Wishes
+- **桑格内蒂** Sanguinetti
+- **桑哈杰** Sanhaj
 - **桑杰** Sanjay
+- **桑科约克** Soncoyoc
+- **桑尼** Sonny
+- **桑塔利耶** Santallier
+- **三河茜** Mikawa Akane
+- **萨宁** Sanin
 - **萨尼娅** Sania
 - **三脚猫渭水非熊** Jack of No Trades
 - **三姐** Third Sis
 - **三界路飨祭** Three Realms Gateway Offering
+- **散落的书页** Scattered Page
 - **三浦** Miura
 - **三千里的起点** ...And I Would Walk 3,000 More
+- **三千娑世御咏歌** Polumnia Omnia
+- **三千娑世御咏歌 （演绎版）** Polumnia Omnia (Performance Version)
 - **三清铃座** Pristina Nola
 - **三色档案** Tricolor File
 - **散失的草神瞳** Dendroculus
 - **散失的风神瞳** Anemoculus
+- **散失的火神瞳** Pyroculus
 - **散失的雷神瞳** Electroculus
+- **散失的水神瞳** Hydroculus
 - **散失的岩神瞳** Geoculus
 - **三田** Sanden
 - **三田的面具绘材需求** Sanden's Resource Request
 - **三碗不过港** Third-Round Knockout
 - **三相众物** Tri-Lakshana Creature
 - **扫兴而归** Killjoy
+- **萨齐因** Sachin
+- **萨莎** Salsa
 - **萨塔尔** Sattar
+- **萨维尼恩** Savinien
 - **萨义德** Sayid
+- **萨约尔** Sayil
 - **色彩的记忆** Once-Colored Memories
 - **色彩缤纷的答复** A Riotous Response
+- **瑟杜尔** Cedule
+- **瑟法娜** Sefana
+- **瑟琳** Serene
+- **瑟萝** Trow
+- **瑟米安** Semaine
 - **森之展台** Woodland Stand
 - **森口** Moriguchi
 - **森林的大乐章** Music of the Forest
 - **森林的孩子们** Children of the Forest
-- **森林的瑞佑** Forest Sanctuary
 - **森林会记住一切** The Forest Will Remember
-- **森林王器** Forest Regalia
 - **森林之歌** Woodland Song
 - **森林书** Aranyaka
 - **森芒顷动** Jolts in the Forest
+- **森珀娅** Cempoa
+- **森塔加** Centaca
 - **森彦** Morihiko
+- **森严之地** No Trespassing
 - **森郁花繁之翼** Wings of the Forest
-- **沙之眼** Eye of the Sands
+- **瑟琪** Sedile
+- **瑟维妮** Sevigne
+- **沙与月的弦音** Chords of Sand and Moon
 - **沙中故里** Sand-Embraced Home
 - **沙中花** Desert Bloom
 - **纱中幽兰** Orchid's Evening Gown
 - **沙尔・芬德尼尔** Sal Vindagnyr
 - **沙尔玛** Shalmar
+- **沙尔梅** Chalmet
 - **霎那隽永** Eternity in a Moment
 - **沙寅** Sha'yin
 - **沙上花** Blooming Sands
+- **砂下秘辛** Buried Mysteries
 - **沙班达尔** Shahbandar
+- **莎邦之息** Breeze of Sabaa
+- **沙博尼耶** Charbonnier
 - **沙虫** Wenut
 - **沙虫隧道** Wenut Tunnels
 - **沙蒂尔** Shatir
+- **莎迪蕾** Sadira
 - **莎迪耶** Shadiyah
+- **沙蒂永** Chatillon
 - **沙法卡特** Shafaqat
 - **莎菲** Safie
 - **莎菲亚** Safiyya
+- **砂海的摇篮曲** Desert Lullaby
 - **沙海迷踪** Lost in the Sands
 - **沙海奇兵** Desert Raider
-- **沙海守望** Desert Watch
 - **沙褐穹窿菇** Sandy Domeshroom
 - **沙赫布特** Shakhbout
 - **沙狐** Desert Fox
 - **晒干的甜甜花** Sun-Dried Sweet Flower
 - **纱江** Sae
 - **沙坎** Sharkan
+- **莎柯薇** Sakowew
 - **莎拉** Sara
 - **莎拉的信** Sara's Letter
 - **莎拉小姐的特色餐品** Sara's Special Dish
@@ -6625,41 +11963,54 @@
 - **莎兰树** Vasara Tree
 - **莎莉** Sareh
 - **莎莉的便签** Sareh's Note
+- **砂砾收藏家** Collezione di Sabbia
 - **砂流之庭** Court of Flowing Sand
+- **沙龙成员** Salon Members
 - **沙漏之章** Tempus Fugit Chapter
 - **沙漏座** Tempus Fugit
 - **莎梅耶** Shaghayeh
+- **沙民的庇护所** Settlement for Exiles
+- **沙漠竞逐** Competition on the Sands
 - **沙漠与夜** Desert and Night
 - **沙漠中的探险** Exploration in the Desert
 - **沙姆斯** Shams
 - **沙姆希尔铁匠** Shamshir's Smithy
+- **山的回声** Mountain Echoes
 - **扇底春秋** The Tales Behind the Fan
-- **山家烧** Sangayaki
 - **山间独居之屋** Hermit's Hut
 - **山瞑星河稀** The Starlit Dome
 - **山石杂谈** Mountainous Miscellany
+- **山与海与天空** Surf, Turf, and Perch
 - **山与海之书** "Of Mountains and Seas"
 - **山泽麟迹** Trail of the Qilin
 - **山之召唤** Mountainous Summons
 - **山中隐秘之地** Hidden Mountain Base
+- **善恶的赫瓦雷纳** Khvarena of Good and Evil
+- **莎娜** Shana
 - **杉本** Sugimoto
 - **山本** Yamamoto
+- **山崩毁阵** Decimating Rockfall
 - **嬗变核素** Transmutation Nuclide
 - **嬗变之尘** Dust of Azoth
 - **潸怅的幽影** Sorrows of Strays
 - **山城健太** Yamashiro Kenta
 - **山巅雪国的记忆** Tales from the Snow Mountain
 - **山风拂萝衣 (轻策昼间)** Peaceful Hike (Qingce Daytime)
+- **山风御随** Mountainborn Gale
 - **尚** Hisashi
 - **上风蚀地** Land of Upper Setekh
+- **尚贝兰** Chambelland
+- **尚博迪克** Chamboduc
 - **商城** Shop
 - **商队账务记录** Caravan Accounts
 - **商港的闲暇** Relaxation in Liyue
 - **商港晚憩** End of the Feast
+- **伤害加成** {{tt|DMG|Damage}} Bonus
 - **上好的香** Fine Incense
 - **商华** Shanghua
 - **商机无限** Unlimited Opportunity
 - **商家的海报** Merchant Poster
+- **尚帕隆** Champvallon
 - **商人** Merchant
 - **商人的思归** Dream of Homeland
 - **商人信众** Mercantile Believer
@@ -6667,6 +12018,8 @@
 - **上杉** Uesugi
 - **伤痛的事话** Scarred Island
 - **珊骨粼波** Sparkling Coralbone
+- **闪光的道路** Bifröst
+- **尚未结束的故事** Unfinished Story
 - **尚未消殒的光** Cold Light
 - **尚未致死的疾病** The Sickness Unto Near-Death
 - **上野** Ueno
@@ -6674,6 +12027,7 @@
 - **善后工作** In the Aftermath
 - **善后工作** In the Aftermath
 - **珊瑚** Sango
+- **珊瑚的加冕礼** Coral Coronation
 - **珊瑚一心** Sango Isshin
 - **珊瑚真珠** Sango Pearl
 - **珊瑚蝶** Coral Butterfly
@@ -6688,25 +12042,33 @@
 - **山间的饮品调配师** Mountain Mixologist
 - **山间回望** Linger in the Valley
 - **善见地** Ashavan Realm
+- **山家烧** Sangayaki
 - **山岚残芯** Yamaarashi Tailwind
 - **闪雷地面** Thunderstruck Paving
 - **闪雷平台** Thunderstruck Platform
+- **闪烈降临！** Guardian Vent!
 - **山林的故园** The Flourishing Past
 - **山路青苔** Moss Covered Path
+- **山峦的仙语** Whispering Mountains
 - **杉木** Fir Wood
 - **杉木武器架** Fir Weapon Rack
 - **杉木置物架** Fir Shelves
 - **杉木转角阶梯** Fir Wood Cornering Stairs
 - **杉山** Sugiyama
 - **山上** Yamaue
+- **山上之树** The Tree on the Hill
+- **膳食均衡餐** Well-Balanced Meal
 - **闪烁的零件** Glinting Component
 - **山田** Yamada
 - **山田五的木槌** Yamada Go's Wooden Mallet
 - **山田一二三** Yamada Hifumi
+- **栅型围墙** Slatted Wall
 - **闪焰的驻足** Sparkling Steps
 - **闪耀的群星** The Stellar Moments
+- **闪耀的群星5** The Stellar Moments Vol. 5
 - **闪耀的群星2** The Stellar Moments Vol. 2
 - **闪耀的群星3** The Stellar Moments Vol. 3
+- **闪耀的群星4** The Stellar Moments Vol. 4
 - **闪耀偶像** Shining Idol
 - **闪耀奇迹♪** Shining Miracle♪
 - **闪耀协奏** Summertime Sparkle
@@ -6716,7 +12078,6 @@
 - **山珍凉卤面** Cold Noodles with Mountain Delicacies
 - **山珍热卤面** Noodles with Mountain Delicacies
 - **山中之物** In the Mountains
-- **梢** Kozue
 - **少冰无糖** No Ice for Me, Thanks
 - **梢的铁块需求** Kozue's Ironwork
 - **勺起万民足** Keeping Wanmin's Patrons Fed
@@ -6729,22 +12090,35 @@
 - **少女薇拉的忧郁** Vera's Melancholy
 - **少女易逝的芳颜** Maiden's Fading Beauty
 - **烧瓶座** Ampulla
+- **烧蚀之光** Searing Glare
+- **绍祖** Shaozu
+- **梢** Kozue
 - **沙普尔** Shapur
 - **沙普尔旅舍** Shapur Hotel
+- **沙普洛** Chapleau
+- **沙起沙落** Beginnings and Endings
+- **沙丘上的曙光** Dawnlight Over Dunes
 - **莎莎** Sansa
-- **沙上楼阁** Desert Pavilion
+- **鲨鲨逐浪游** Sharktacular Surfari
+- **鲨鲨主食是豚豚。** Sharky Eats Puffies
 - **沙上楼阁史话** Desert Pavilion Chronicle
 - **砂上月踪** Moonlight on Sand
 - **莎莎妮** Sasani
+- **杀生樱** Sesshou Sakura
 - **莎塔** Shatha
 - **砂糖** Sucrose
 - **砂糖的命星** Sucrose's Stella Fortuna
 - **沙瓦玛** Shevirme
 - **沙瓦玛的「采购资金」** Shevirme's Funds
 - **沙瓦玛的订货单据** Shevirme's Invoice
+- **砂王的赐礼** The Sand King's Boon
 - **沙王的投影** Shadow of the Sand King
 - **沙威** Javert
+- **莎维娅** Sabea
+- **莎乌莎** Sausa
+- **沙蝎之舞** Dance of Scorpions
 - **沙欣** Shahin
+- **沙衍绿碧** Emerald in the Desert
 - **沙扬** Shayan
 - **沙扎曼** Shahzaman
 - **沙脂蛹** Sand Grease Pupa
@@ -6766,6 +12140,7 @@
 - **射击** Shooting
 - **舍径求真** Truth by Any Means
 - **舍利夫** Sharif
+- **射流漩涡** Jet-Set Eddies
 - **蛇目权兵卫** Janome Gonbei
 - **神的孩子全跳舞** The Children of God Shall Dance
 - **蜃景祭场** Altar of Mirages
@@ -6776,13 +12151,15 @@
 - **神樱大祓要略** Sacred Sakura Cleansing Summary
 - **神樱眷顾** Sacred Sakura's Favor
 - **神之心** Gnosis
-- **神之眼** Vision
+- **深黯的谜烟** Shadow of the Night-Wind
+- **深黯之地** Land of Hidden Depths
 - **深泥奇谭** A Muddy Bizarre Adventure
+- **深栗猎犬** Chestnut Hunting Hound
 - **神宝迁宫祝词** Blessing of the Divine Relic's Installation
 - **深赤之石** Scarlet Quartz
+- **神出鬼没的魔导书** Mysterious Grimoire
 - **神代射术** Divine Marksmanship
 - **神灯座** Magicae Lucerna
-- **生不出的花** The Flowers That Won't Grow
 - **圣裁影羽** Devourer of All Sins
 - **圣鹮** Sacred Ibis
 - **圣树** Divine Tree
@@ -6792,63 +12169,96 @@
 - **生之火光** Flame of Life
 - **生之烛** Candle of Life
 - **圣金虫** Scarab
+- **生不出的花** The Flowers That Won't Grow
+- **生产区** Production Zone
 - **生成、交换、储存和使用** Create, Swap, Store, and Use
 - **生存的方式** The Way of Survival
 - **生存专家** Survival Expert
+- **盛典与慧业** A Parade of Providence
 - **胜负师放浪记** Win-Loss Ratio
+- **圣古的库藏** Treasures of {{w|Ka'ba-ye Zartosht|Bonkhanak}}
+- **胜冠之试** Arena of Champions
 - **圣骸赤鹫** Consecrated Red Vulture
 - **圣骸毒蝎** Consecrated Scorpion
 - **圣骸飞蛇** Consecrated Flying Serpent
+- **圣骸感应** Consecrated Senses
+- **圣骸角鳄** Consecrated Horned Crocodile
+- **圣骸牙兽** Consecrated Fanged Beast
 - **圣骸兽** Consecrated Beast
+- **圣火** Sacred Flame
+- **生活的意义是…？** What is the Meaning of Life?
+- **圣火竞技场** Stadium of the Sacred Flame
 - **生活在雷樱树旁的螃蟹** Thunder Sakura Crab
 - **胜家** Katsuie
 - **圣眷的净土** Das Folkwanglied
 - **胜利的方程式** Victory Road
 - **胜利的拼图已在手中** Victory at Hand
+- **升炼研巧万策金** Alchemical Ascension
 - **生灵之华** Flowering Life
 - **盛露厅** Shenglu Hall
+- **生论派 / 阿弥利多** Amurta
 - **生灭去来** Causality of Birth and Extinction
+- **生命的回响** Echoes of Life
+- **生命流束** Life Stream
+- **生命受祝之所** Dirge of Newborn Life
 - **生命意志与痛苦深渊** The Will to Live and the Depths of Lamentation
 - **生命之殿** Bayt Al-Hayah
 - **生命之谷的居民** People of the Valley of Life
 - **生命之谷的曲调** Melody of Hidden Seeds
 - **生命值** {{tt|HP|Health Points}}
+- **圣名环座** Basileos Delta
+- **神工宝箱** Artificer Chest
 - **神工天巧** Divine Ingenuity
+- **神工天巧・宝录之章** Divine Ingenuity: Collector's Chapter
+- **生日快乐** Happy Birthday
+- **生肉塔塔** Steak Tartare
 - **盛世太平** Prosperous Peace
 - **圣水** Holy Water
 - **生水要诀** Hydropathic
 - **升天宝诰** Ascendant Praise
+- **圣王的手记** Holy Sovereign's Notes
+- **声望经验・「花羽会」** "Flower-Feather Clan" Reputation EXP
+- **声望经验・「回声之子」** "Children of Echoes" Reputation EXP
 - **声望经验・稻妻** Inazuma Reputation EXP
+- **声望经验・枫丹** Fontaine Reputation EXP
 - **声望经验・璃月** Liyue Reputation EXP
 - **声望经验・蒙德** Mondstadt Reputation EXP
 - **声望经验・须弥** Sumeru Reputation EXP
+- **生息如梦** La vita e sogno
+- **圣匣** Artifact Strongbox
+- **剩下的问题** The Remaining Problem
 - **盛夏乐园** Summertime Wonderland
 - **盛夏！海岛？大冒险！** Midsummer Island Adventure
-- **盛夏！海岛？大冒险！** Midsummer Island Adventure
 - **圣显棱柱** Prism of Khaj-Nisut
-- **圣显之钥** Key of Khaj-Nisut
-- **圣显厅** Khaj-Nisut
+- **盛宴与嘉赏** Feast and Bounty
+- **盛宴之后** After the Feast
+- **圣言自明机** Artifact Transmuter
+- **圣夜旅织** Pilgrim's Chronicle
 - **生意红火的食肆** Ever-Popular Eatery
 - **生意平稳的水果摊位** Profitable Fruit Stand
 - **生长碧翡** Nagadus Emerald Gemstone
 - **生长碧翡断片** Nagadus Emerald Fragment
 - **生长碧翡块** Nagadus Emerald Chunk
 - **生长碧翡碎屑** Nagadus Emerald Sliver
+- **生长天地之蕨草** Worldspan Fern
 - **圣章石** Sacred Seal
 - **绳子** Rope
-- **深海龙嗣** Dragonheir of the Depths
-- **深海龙蜥** Bathysmal Vishap
+- **深海的迷路者** Lost in Deep Seas
+- **深海龙蜥・唳霜** Frostshrieker Bathysmal Vishap
 - **深海龙蜥・啮冰** Rimebiter Bathysmal Vishap
 - **深海龙蜥・吞雷** Bolteater Bathysmal Vishap
+- **深海龙蜥・啸霆** Blitzroarer Bathysmal Vishap
 - **深海龙蜥・原种** Primordial Bathysmal Vishap
 - **深海龙蜥实验记录** Bathysmal Vishap Experimental Records
 - **深海龙蜥幼体・啮冰** Rimebiter Bathysmal Vishap Hatchling
 - **深海龙蜥幼体・吞雷** Bolteater Bathysmal Vishap Hatchling
 - **深海龙蜥幼体・原种** Primordial Bathysmal Vishap Hatchling
-- **深海鳗鳗** Deep Sea Unagi
 - **深海龙蜥之群** Bathysmal Vishap Herd
+- **深海龙蜥之群・轰旋** Booming Bathysmal Vishap Herd
+- **深海鳗鳗** Deep Sea Unagi
 - **申鹤** Shenhe
 - **申鹤的命星** Shenhe's Stella Fortuna
+- **神合秘烟的思绪** Night-Wind's Mystic Consideration
 - **深红旋风** Crimson Cyclone
 - **身后事** Hereafter
 - **神狐的祝福** Hakushin's Lullaby
@@ -6856,9 +12266,9 @@
 - **神戟狂言凌云霄** The Divine Halberd Mocks the Heavens
 - **神机明悟** Divine Comprehension
 - **深见** Fukami
-- **深境螺旋** Spiral Abyss
+- **神鹫座** Vultur Gryphus
 - **神龛啊，再次显灵吧！** O Shrine, Show Your Power Once Again!
-- **神乐之真意** Kagura's Verity
+- **深廊终曲** Finale of the Deep Galleries
 - **神里华代** Kamisato Kayo
 - **神里绫华** Kamisato Ayaka
 - **神里绫华的命星** Kamisato Ayaka's Stella Fortuna
@@ -6872,13 +12282,16 @@
 - **深林狸囃子** Tanuki-Bayashi in the Forest
 - **深林杳杳** Forest in the Light
 - **深埋地心的瑰秘** Stories of Remote Antiquity
+- **审美力批判** Aesthetic Critique
 - **神秘齿轮** Enigma Gear
 - **神秘的「往生堂」** The Mysterious Wangsheng Parlor
 - **神秘的壁画** Mysterious Mural
+- **神秘的核心** Mysterious Core
 - **神秘的机关零件** Mysterious Mechanical Part
-- **神秘的纪事** Mysterious Chronicle
 - **神秘的基柱** Mysterious Pillar
 - **神秘的刻像** Mysterious Carving
+- **神秘的矿石** Mysterious Ore
+- **神秘的能量块** Mysterious Energy Block
 - **神秘的肉** Mysterious Meat
 - **神秘的肉加工产物** Mysterious Meat Product
 - **神秘的石板** Mysterious Stone Slate
@@ -6890,29 +12303,52 @@
 - **神秘的石板・五** Mysterious Stone Slate (V)
 - **神秘的石板・一** Mysterious Stone Slate (I)
 - **神秘的石块** Mysterious Stone
+- **神秘的书页・其八** Enigmatic Page (VIII)
+- **神秘的书页・其二** Enigmatic Page (II)
+- **神秘的书页・其九** Enigmatic Page (IX)
+- **神秘的书页・其六** Enigmatic Page (VI)
+- **神秘的书页・其七** Enigmatic Page (VII)
+- **神秘的书页・其三** Enigmatic Page (III)
+- **神秘的书页・其十** Enigmatic Page (X)
+- **神秘的书页・其十二** Enigmatic Page (XII)
+- **神秘的书页・其十三** Enigmatic Page (XIII)
+- **神秘的书页・其十一** Enigmatic Page (XI)
+- **神秘的书页・其四** Enigmatic Page (IV)
+- **神秘的书页・其五** Enigmatic Page (V)
+- **神秘的书页・其一** Enigmatic Page (I)
+- **深秘的险境** Perilous Hollow
 - **神秘的羊皮卷** Mysterious Parchment
 - **神秘的遗迹** Mysterious Ruins
 - **神秘的远航** Mysterious Voyage
 - **神秘的愚人众信件** Mysterious Fatui Letter
 - **神秘怪谈** Mysterious Urban Legend
+- **神秘摩拉状怀表** Mysterious Mora Pocketwatch
 - **神秘前辈…？** A Mysterious Senior...?
+- **神秘武学的召唤** The Call of Mystical Martial Arts
+- **神秘信函，从天而降** A Mysterious Missive on Paper Wings
+- **深秘院** Universitas Magistrorum
+- **神秘鱼鱼？轰轰奇遇！** Mysterious Fish? A Booming Adventure!
 - **神秘之岛** The Mysterious Islands
 - **深秘之息** Secretum Secretorum
+- **神秘岛的传说** The Legend of the Mysterious Island
 - **神明啊，回应我吧！** O Archon, Hear Me!
 - **神明啊，我做得对吗？** O Archon, Have I Done Right?
+- **深默的折光** Refractions of Silence
+- **深念锐意旋步舞** Dance of Resolute Will
+- **神鸟栖居之处** Where Simurgh Rests
 - **神女劈观・唤情** Devastation and Redemption
 - **神女劈观・唤情 (无人声纯器乐版)** Devastation and Redemption - Instrumental
 - **神女遣灵真诀** Divine Maiden's Deliverance
 - **审判的晚宴** Dinner of Judgment
+- **审判日** Apocalypse
 - **审判之时…还没到** I'll Let You Off... This Time
+- **神奇的「安东・罗杰飞行器」！** The Miraculous Antoine Roger Aircraft!
+- **神奇的沉浮球** Fantastical Floating Ball
 - **神奇的固氮作用** The Marvelous Uses of Nitrogen Fixation
 - **神奇的霍普金斯** Hopkins the Marvelous
 - **神奇的匹热迷能** The Amazing Pyramid
-- **神弃殿阁** The Temples Forsaken
-- **蜃气尽头的热梦** Heat Haze at Horizon's End
 - **神奇四…** Fantastic Four
 - **深入敌阵** Behind Enemy Lines
-- **深入风龙废墟** Confront Stormterror
 - **深入腹地** Into the Hinterland
 - **深入狼之殿** Deep Within the Temple of the Wolf
 - **深入狮之殿** Deep Within the Temple of the Lion
@@ -6920,31 +12356,39 @@
 - **深色木制拱劵墙** Dark Wood Arch Wall
 - **神社大扫除** Shrine Cleanup
 - **神社之行** To the Shrine
-- **神射手之誓** Sharpshooter's Oath
+- **神神秘秘大大丘丘** Mystifying Megachurl
+- **绅士犬** Gentleman Poodle
 - **神守柏之章** Cypressus Custos Chapter
 - **神守柏座** Cypressus Custos
+- **深水的格律** Sonnet of Profundity
+- **深水的颂荣** Doxology in the Deep
+- **深水引航** Deepwater Navigation
+- **深水与泡沫之梦** Dreams of the Foamy Deep
 - **深邃的探究者** Down We Go
 - **深邃诡幻之径** A Path to Delusions
+- **深邃摹结株** Tenebrous Papilla
+- **深邃拟覆叶** Tenebrous Mimiflora
+- **深邃拟态** Tenebrous Mimesis
 - **深邃之血** Tainted Blood
 - **伸缩风蕈兽** Stretchy Anemo Fungus
 - **伸缩火蕈兽** Stretchy Pyro Fungus
 - **伸缩雷蕈兽** Stretchy Electro Fungus
 - **伸缩岩蕈兽** Stretchy Geo Fungus
 - **深锁之迹** A Ruin Under Lock and Key
+- **深塔萦梦** Songe de la plus haute tour
 - **神瞳** Oculus
 - **深雾引路人** Foggy Guidance
 - **神无冢** Kannazuka
 - **神无冢作战计划** Kannazuka Battle Plan
 - **神霄折戟录** Legend of the Shattered Halberd
+- **身形如鹤** Crane Form
 - **神性之陨** Descent of Divinity
 - **神樱** Sacred Sakura
-- **神樱神游神乐舞** Kagura Dance of the Sacred Sakura
 - **神舆之辔** Divine Bridle
 - **深渊** Abyss
 - **深渊的呼唤** Abyssal Summons
 - **深渊法师** Abyss Mage
 - **深渊法师** Abyss Mage
-- **深渊教团** Abyss Order
 - **深渊使徒** Abyss Herald
 - **深渊下的离别** Fateful Departing
 - **深渊咏者** Abyss Lector
@@ -6952,18 +12396,19 @@
 - **甚至不需要操作手册…** Didn't Even Need a Manual...
 - **神铸赋形** Epitome Invocation
 - **神子的机思** Miko's Ingenuity
-- **舍身步道** Abdju Road
-- **舍身陷坑** Abdju Pit
+- **社区冒险指南** Community Adventure Guide
 - **蛇神之首** Serpent's Head
 - **设施完备的书房** Well-Equipped Study
 - **射手丘丘人** Hilichurl Shooter
 - **舍万** Servan
+- **蛇蝎无眠** Those Who Dream No Dreams
 - **蛇心之地** The Serpent's Heart
 - **蛇音** Serpent's Dance
 - **时不再来** Time Waits For No Man
 - **逝川流光** Drops of Times
 - **世多古怪，横生盗匪** Strange Sights, Stolen Souls
 - **是额外条款** Extra Clause
+- **时仿佛以遥见** As If Seen From Afar
 - **誓奉常道** Pledge of Propriety
 - **识果种雷** Vijnana-Phala Mine
 - **是郊游…还是冒险？** What Is This, a Day Trip?
@@ -6977,31 +12422,37 @@
 - **嗜能之雷** Engulfing Storm
 - **十年花坂，皆知我名** 10 Years of Hanamizaka Fame
 - **势若风雷** Irresistible Force
-- **是时候征服海祇岛了！** Today, This Seal — Tomorrow, Watatsumi Island!
+- **是时候征服海祇岛了！** Today, This Seal &mdash; Tomorrow, Watatsumi Island!
 - **嗜髓蜥** Marrow Lizard
 - **是兔兔伯爵！** It's Baron Bunny!
 - **逝往的凝望** The Gaze of the Ancients
+- **狮舞鸢飞** Dancing Beasts and Soaring Kites
 - **狮牙斗士的铁链** Chains of the Dandelion Gladiator
 - **世有源泉** World Source
 - **狮与赤阳** The Lioness and the Blazing Sun
 - **时与风** Time and Wind
 - **食与学** Eat and Learn
 - **石鸢** Lapis Glede
+- **是鱼肉，我加了鱼肉** It's Fish, I Added Fish
 - **石者，八荒韫玉而明** Stone, the Cradle of Jade
 - **时之沙** Sands of Eon
 - **噬罪的告解** Ravaging Confession
 - **失而复得者一同欢喜** Rejoice With Me, for What Was Lost Is Now Found
 - **笹百合** Sasayuri
 - **石板** Stone Slate
+- **示辨真意的眼** Watchful Eye
 - **矢部** Yabe
+- **食材** Cooking Ingredient
 - **识藏日** Jnagarbha Day
 - **事出有因，矿山奇石** Truth in the Stones
 - **石川** Ishikawa
 - **石川八郎** Ishikawa Hachirou
 - **侍从骑士之歌** Ballads of the Squire
+- **诗黛** Staelle
 - **试胆大会** Test of Courage
 - **试胆大会** Test of Courage
 - **试胆会的票券** Courage Test Ticket
+- **世谛从缄** Language of Eternity
 - **史蒂文斯** Stevens
 - **诗歌沉思间** Amidst Poetic Pondering
 - **诗歌交流** Poetry Exchange
@@ -7011,13 +12462,18 @@
 - **噬光元件** Neverlight Cell
 - **石化的骨片** Fossilized Bone Shard
 - **失活菌核** Inactivated Fungal Nucleus
+- **始基矿辉晶** Arkhium Lumenite
+- **始基矿** Arkhium
 - **识见沉降之地** Of Settled Thoughts
+- **时间的神秘形式** Misteriosa Forma Del Tiempo
 - **世界树** Irminsul
 - **什锦炒面** Mixed Yakisoba
 - **饰金的夜色** Cold Night
 - **饰金之梦** Gilded Dreams
 - **市井** Downtown
 - **市井杂煮** Rice Cake Soup
+- **石坤** Shikun
+- **史莱姆** Slime
 - **史莱姆乐园** Slime Paradise
 - **史莱姆凝液** Slime Condensate
 - **史莱姆清** Slime Secretions
@@ -7026,35 +12482,53 @@
 - **史莱姆，糖适量** Icing on the Slime
 - **嗜雷・兽境猎犬** Thundercraven Rifthound
 - **嗜雷・兽境幼兽** Thundercraven Rifthound Whelp
+- **石砾堆** Gravel Pile
 - **石榴** Shiliu
 - **失落的埃伊亚遗迹** Deserted Ruins of Eya
 - **失落的歌调** Long-Lost Chapters
 - **失落的苗圃** Lost Nursery
 - **失落的忒耳摩冬遗迹** Deserted Ruins of Thermadon
 - **失落的愿景** Lost Expectation
+- **失落铭文之探求** In Pursuit of the Lost Inscription
 - **失落迷途的机芯** Timepiece of the Lost Path
 - **失落之人** The Missing Person
 - **失落之物** The Missing Thing
 - **石门** Stone Gate
+- **饰梦天球** Celestial Dreamsphere
 - **失梦之乡** Dreamless Earth
-- **嗜魔** Magic Affinity
+- **失迷的影事** Veiled in Shadows
+- **蚀灭的源焰之主** Lord of Eroded Primal Fire
+- **嗜魔** Elemental Devourer
+- **嗜魔撕咬** Devouring Bite
+- **时暮的思眷** Le Souvenir avec le crepuscule
 - **室内派考古入门** An Introduction to Indoor Archaeology
+- **史诺德格拉斯** Snodgrass
 - **石珀** Cor Lapis
 - **石崎** Ishizaki
+- **石泉溟蒙** Spring's Tender Sigh
 - **诗人的工作** Bard's Adventure
+- **时日萦念** Giorno per giorno
+- **施芮娅** Shriya
+- **失色的迷雾** Pale Mist
 - **失色的灾厄** Fatal Confrontation
+- **噬神巨蛇的狂舞** God-Devouring Mania
 - **世事流水** The Currents of Life
 - **十岁差点打倒野猪** Boared to Death
+- **食髓知味** Back for More
 - **石锁机关秘话** Legends of the Stone Lock
 - **石田** Ishida
 - **矢田幸喜** Yata Kouki
 - **矢田幸喜的白铁块需求** Yata Kouki's Order of Ore
-- **饰铁之花** Mailed Flower
 - **石头** Shitou
 - **狮尾之舞** Swirls of Shamshir
 - **失物** Lost and Found
+- **失误的喜剧** Comedy of Errors
 - **失物匿于繁华** Lost in Prosperity
+- **食物种子** Food Seeds
+- **失乡重击** Strike of the Dispossessed
 - **噬星魔鸦** Stellar Predator
+- **拾星之旅** Star-Pickers' Passage
+- **石心镜座** Patina Anavatlaca
 - **诗绪萦怀** Lingering Memories
 - **狮牙斗士的枷锁** Fetters of the Dandelion Gladiator
 - **狮牙斗士的镣铐** Shackles of the Dandelion Gladiator
@@ -7070,62 +12544,78 @@
 - **矢野町子** Yano Machiko
 - **时也运也** Beginner's Luck
 - **笹野** Sasano
+- **失忆的诸国** Realms of Amnesia
+- **示意牌** Notice Board
+- **适应性战斗** Adaptive Combat
 - **使用过的木桩** Used Training Dummy
 - **诗羽** Shiyu
 - **失语的哀诉** Dirge of the Soundless
 - **拾玉得花** Jade-Claimed Flower
 - **石原** Ishihara
 - **诗筠** Shiyun
+- **失殒的旧宴** Past Repast
+- **始灾的边界** Catastrophe's Edge
 - **实战练习** Live Practice
 - **矢志不渝** Unswerving
-- **矢志不忘** Strong-Willed
 - **石制盏形水池** Stone Cup-Shaped Pool
 - **石柱封印** Stone Pillar Seal
 - **石壮** Shizhuang the Strong
+- **十字铃兰学会** Liliacruces Forum
 - **失踪的矿工** The Missing Miner
 - **失踪的守村人** The Missing Village Keepers
-- **试作澹月** Prototype Crescent
-- **试作古华** Prototype Archaic
-- **试作金珀** Prototype Amber
-- **试作星镰** Prototype Starglitter
-- **试作斩岩** Prototype Rancour
 - **售后服务** Post-Sale Service
 - **兽魂** Soul Companion
 - **兽境王器** Riftborn Regalia
 - **兽米香香** Biryani
 - **守乡人** Guardians of the Countryside
-- **受拥戴的丘丘王** Popular Lawachurl
 - **兽有失蹄** Even Beasts Stumble
 - **手有余香** A Lingering Fragrance
+- **受治疗加成** Incoming Healing Bonus
+- **受祝所缚之印** Mark of the Binding Blessing
 - **手岛** Tejima
-- **收割** Cull the Weak
 - **兽骨拉面** Tonkotsu Ramen
+- **售后服务弹** After-Sales Service Rounds
 - **守候之翼** Wings of Companionship
+- **守护的增殖生命体** Protective Proliferating Organism
 - **守护徽印** Guardian's Sigil
 - **守护束带** Guardian's Band
+- **守护镇石** Defense Monolith
 - **守护之花** Guardian's Flower
 - **守护之皿** Guardian's Vessel
 - **守护之心** Defender's Will
 - **守护众人的坚盾** People's Aegis
 - **守护座钟** Guardian's Clock
 - **收获时节的小镇摊位** Harvest Season Stall
+- **守护者的思眷** Aspiration of Guardians
 - **收集材料的兰那罗** Material-Collecting Aranara
 - **收集风之印的少女** Collector of Anemo Sigils
-- **兽径的终点** At the End of the Beast-Paths
+- **兽境轰召** Howling Riftcall
+- **兽境裂隙<!--兽境的裂隙-->** Beastly Rift
+- **兽境犬首** Rifthound Skull
 - **兽境群狼<ref name="Wolflord" /> / 兽境之狼<ref name="Hdbk" />** Riftwolf<ref name="Wolflord">{{Ref/Enemy|Golden Wolflord|handbook=1}}</ref> / Wolf of the Rift<ref name="Hdbk" />
 - **狩猎对象** The Prey
 - **狩猎陷阱** Hunting Trap
 - **狩猎与歌舞之营** Of Hunting and Dancing
 - **狩猎中的小厨师** Little Chef on a Hunt
+- **狩猎者，预见者** Hunters, Prophets
 - **守秘的魔瓶** Secret-Keeper's Magic Bottle
+- **守秘者与禁区** Secret Keepers and Forbidden Zones
 - **兽肉** Raw Meat
 - **兽肉薄荷卷** Minty Meat Rolls
+- **兽肉旋风** Meatnado
 - **守戍的誓命** Sentinel Oath
+- **狩夜之巡** Hunter's Vigil
+- **守狱犬之章** Cerberus Chapter
+- **守狱犬座** Cerberus
+- **守正之枪** Guardian's Gun
+- **受诅的泽地** Abominable Bog
 - **书抵万金** Words Worth Their Weight in Mora
 - **疏而不失** There Is No Escape
 - **树莓** Berry
+- **熟是生非** Ripe For Trouble
+- **述予簇花** Flower Writing
 - **树与花的旋舞** Whirling of Leaves and Petals
-- **舒杨** Shu'yang
+- **数千年的历史** Millennia of History
 - **霜的精灵** Chattering Snowflakes
 - **霜劫精油** Frosting Essential Oil
 - **霜麟聚露** Frostdew Trail
@@ -7137,24 +12627,34 @@
 - **双层烛台吊灯** Two-Tier Candle Chandelier
 - **双城记** A Tale of Two Cities
 - **霜驰影突** Frosty Assault
+- **双重轮径山地货车** Three-Wheeled Mountain Hand Cart
+- **双重斩击** Double Hack
 - **双份加冰** Double Shot, on the Rocks
+- **霜锋霰舞** Frostblade Hailstorm
+- **双果清露** Fruity Duet
 - **霜寒迂旋之仪** Rimestorm Rite
 - **霜华矢** Frostflake Arrow
 - **霜见雪关扉** Frostflake Seki no To
+- **霜烈竞逐** Nippy Bout
+- **霜翎高逐祥风势** Galefeather Pursuit
 - **霜翎犹敛** Days Free of Anguish
 - **双人餐行** Meal For Two
+- **双刃合斩** Dual-Blade Chop
+- **霜刃截击** Frosty Interjection
 - **双生素馨** Gemini Jasmine
 - **双生芽绿** Gemini Verdance
 - **双手剑** Claymore
 - **双双岛** Twinning Isle
 - **双叶** Futaba
-- **霜葬** Frost Burial
+- **霜昼黑星** Dawnfrost Darkstar
 - **舒伯特** Schubert
 - **舒茨** Schulz
 - **舒茨铁铺** Schulz's Blacksmith
+- **舒当** Choudy
 - **曙光预言** Prophecies of Dawn
 - **鼠火戏法** Trickster's Flare
 - **水** Hydro
+- **水晶蝶** Hydro Crystalfly
 - **水陆自在，牛王同行** Horns Lowered, Coming Through
 - **水飘浮灵** Hydro Specter
 - **水丘丘萨满** Hydro Samachurl
@@ -7163,87 +12663,150 @@
 - **水史莱姆** Hydro Slime
 - **水史莱姆的浓厚凝液** Thick Hydro Slime Condensate
 - **水刑物语** Dip, Duck, Dive, Dodge, Defeat
-- **水萤** Hydro Cicin
 - **水有常形** The Shape of Water
 - **水与风的伙伴** Walking with Water and Wind
 - **水月侠行记** Travels of the Moonlit Venturer
+- **水照云光** Les rivieres aeriennes
+- **水之奥秘** Aquanigma
 - **水之龙** Dragon of Water
 - **水之浅唱** Whisper of Water
-- **水中幻愿** Mirror Reflection of Doom
+- **水之寻宝罗盘** Hydro Treasure Compass
+- **水之印** Hydro Sigil
+- **水种子** Hydrogranum
 - **水元素护罩** Hydro Shield
+- **水中秘宝** Treasures Under the Sea
 - **水弹** Water Ball
 - **水滴的节拍** Beats of Water Drops
+- **水底的日子** Days Beneath the Waves
 - **水晶块** Crystal Chunk
 - **水晶棱镜** Crystal Prism
 - **水晶虾** Crystal Shrimp
 - **水晶宴** Crystalfish
 - **睡莲之章** Lotos Somno Chapter
 - **睡莲座** Lotos Somno
+- **水量侦测晶体** Water Volume Detection Crystal
 - **水母之歌** Melody of Jellyfish
 - **水畔的宁静时光** Quiet Times by the Riverbank
 - **水泡机关** Mist Bubble Device
+- **水泡喷吐** Bubble Spray
+- **水泡阵地** Bubble Formation
+- **睡前故事** Bedtime Story
+- **水色潮痕** Aqueous Tidemarks
+- **水神瞳共鸣石** Hydroculus Resonance Stone
 - **水生环境调查** Hydrological Investigation in The Chasm
 - **水田** Mizuta
 - **水天丛林** Apam Woods
 - **水天供书** Varuna Gatha
+- **水纹剑** Aquacrest Saber
+- **水下的公爵** Le duc sous l'eau
+- **水下夜想曲** Underwater Nocturne
+- **水仙的安** Ann of the Narzissenkreuz
+- **水仙的时时刻刻** Nymph's Constancy
+- **水仙十字安眠曲** A Narcissus Lullaby
+- **水仙十字结社** Narzissenkreuz Ordo
+- **水仙十字结社** The Narzissenkreuz Ordo
+- **水仙十字院** Narzissenkreuz Institute
+- **水仙之梦** Nymph's Dream
+- **水乡肉冻** Fontaine Aspic
+- **水形幻人** Hydro Tulpa
 - **水形剑** Sword of Torrents
+- **水形聚引** Gathering Swell
+- **水萤** Hydro Cicin
 - **水月池** Suigetsu Pool
+- **水中幻愿** Mirror Reflection of Doom
+- **水中花影** Shade of Flowers
 - **水中找到的货物袋** Cargo Bag Fished Out From Water
 - **水煮黑背鲈** Black-Back Perch Stew
 - **殊解诸因探案集** Investigative Collection
+- **舒莱赫** Shurayh
+- **舒蕾** Chourei
+- **枢律庭** Maison Cardinalice
 - **树莓薄荷饮** Berry & Mint Burst
 - **树莓水馒头** Berry Mizu Manjuu
+- **舒米洛夫** Shumilov
 - **熟能生巧** Practice Makes Perfect
 - **顺风而行** Windfall
 - **顺风而行** Wind Companion
 - **顺吉** Junkichi
+- **顺默者的离索** Les muets
 - **顺平** Junpei
+- **淑女的距离感守则** A Lady's Rules for Keeping a Courteous Distance
+- **淑女犬** Lady Poodle
 - **朔分星芒** Newmoon Starlight
 - **说还是不说，这是个问题。** To Tell or Not to Tell, That Is the Question
 - **烁然灼目** Arch-Illuminator
 - **朔次郎** Sakujirou
 - **说到做到！** Reliable Helper
+- **溯古的拟制** Ancient Postulation
+- **烁光信标** Glimmering Beacon
 - **烁光引路人・其二** Lights Will Guide You Home (II)
 - **烁光引路人・其一** Lights Will Guide You Home (I)
 - **铄石之丘** The Dune of Magma
+- **熟稔习练的筹谋** Well-Versed, Well-Rehearsed
+- **舒山** Shushan
+- **树上的小嵴锋龙** Tree-Climbing Little Tepetlisaurus
 - **殊胜之身** Her Imperial Majesty
 - **殊胜之御体** Enlightened One
 - **束手就擒** Give It Up!
 - **疏通大地** Dredging the Land
+- **鼠兔座** Ochotona Princeps
 - **树王圣体菇** Rukkhashava Mushrooms
+- **舒瓦瑟尔** Choiseul
 - **熟悉的航程** Embrace of Sea Waves
+- **属性** Attribute
+- **殊形之龙参寻战记** Specially-Shaped Saurian Search
+- **舒杨** Shu'yang
 - **书页里的电火花** Sparks Amongst the Pages
+- **漱玉** Shuyu
 - **属于冒险家的邂逅** Adventurous Acquaintance
 - **恕筠** Shuyun
 - **淑之** Shuzhi
 - **四礁觅宝记** The Treasure of the Four Skerries
 - **死之羽** Plume of Death
+- **四百星的芒刃** Radiant Blades of Centzon Mimixcoah
+- **似曾相识的糖果盒** Familiar-Looking Candy Box
+- **似曾相识的威胁** A Familiar Threat
 - **四地之王** The King of Four Lands
 - **四方和平** Universal Peace
 - **四方求剑** Swordseeker
 - **四方八方之网** Omni-Ubiquity Net
-- **四方八方之网** Omni-Ubiquity Net
 - **四方之风的记忆** Memory of Roving Gales
 - **四风守护** Four Winds
-- **四风原典** Lost Prayer to the Sacred Winds
+- **四戈封刀灵卜** Four Sealing Divination Charms
 - **斯格鲁奇** Scrooge
 - **思鹤** Shizuru
 - **似乎是一封情信** A Love Letter(?)
+- **死寂的殿堂** The Temple Conquered by Death
+- **四季的悠游** Peripatetic Peregrination
 - **伺机而动** Prowl
 - **斯嘉莉** Scarlett
-- **斯卡拉姆齐** Scaramouche
+- **思接千载** Cogitation of Epochs
+- **四境四象回声** Netotiliztli's Echoes
 - **丝柯克** Skirk
+- **斯库拉** Scylla
 - **斯里玛蒂** Shrimati
 - **四灵捧圣** Rally of Four Blades
+- **祀珑** Votive Rainjade
+- **斯露莎** Sorush
+- **斯露莎的歌** Sorush's Purity
 - **斯内库** Sneku
+- **斯彭西安号** Sponsian
+- **斯普赫** Xpuhil
+- **死气** Fetor
+- **丝切铗之章** Cisoria Chapter
+- **丝切铗座** Cisoria
 - **思勤** Siqin
 - **私人委托** A Private Commission
 - **思思** Sisi
 - **思思与潮汐的对话记录** A Record of Sisi and Chaoxi's Conversation
+- **司颂之章** Animula Choragi Chapter
+- **司颂座** Animula Choragi
+- **斯塔杜欣** Stadukhin
 - **斯坦利** Stanley
 - **寺田** Terada
 - **斯万** Swan
 - **斯汪** Swoof
+- **四喜圆满** Encompassing Gladness
 - **撕咬** Bite
 - **四叶印** Four-Leaf Sigil
 - **四叶草之章** Trifolium Chapter
@@ -7264,7 +12827,7 @@
 - **松本的煎蛋需求** Matsumoto's Fried Egg Fracas
 - **松川宗全** Matsukawa Souzen
 - **松果** Pinecone
-- **松籁响起之时** Song of Broken Pines
+- **松伽塔** Sundjatta
 - **松木** Pine Wood
 - **松木餐椅** Pine Dining Chair
 - **松木方形茶桌** Square Pine Tea Table
@@ -7282,16 +12845,25 @@
 - **松田** Matsuda
 - **送往迎来** Broker Betwixt Life and Death
 - **送仙典仪** Rite of Parting
+- **松荫白日寒** Isolated Pine
+- **送葬的风暴** Funerary Storm
 - **搜集而来的碎片** Collected Fragment
 - **薮猫座** Leptailurus Cervarius
 - **薮木** Yabuki
 - **搜索者** Explorer
+- **搜寻散失的碑文残片** Search for the Lost Monument Fragments
 - **素鲍鱼** Vegetarian Abalone
+- **苏定** Su Ding
 - **苏二娘** Su Er'niang
 - **苏尔塔尼** Soltani
+- **酸桔饵** Sour Bait
+- **蒜香面包棍** Garlic Baguette
+- **酸汁腌鱼** Sour Sauce Ceviche
 - **素材收集器** Material Collector
 - **素达蓓** Sudabeh
 - **速度加快** Make Haste, Partner
+- **苏法什** Souffache
+- **素海卜** Suhayb
 - **碎果残块** Fractured Fruit Shard
 - **碎果裂片** Fractured Fruit Fragment
 - **碎果数据** Fractured Fruit Data
@@ -7300,53 +12872,86 @@
 - **碎梦奇珍** Heart's Desire
 - **虽是露水般的愿望…** Though Their Wishes Be Like Morning Dew...
 - **随水而来的烦恼** Troubles Traveling Through Tributaries
-- **碎冰** Shatter
+- **随处可见的树枝** A Ridiculously Common Branch
+- **燧传的烽火** Relayed Beacon
 - **邃风的崤谷** Funneled Gorge
 - **随风而逝的旧梦** Gone With the Wind
 - **随风而来的好味道** Scent on the Wind
 - **随风而来的骑士** Wind-Riding Knight
+- **碎浪之舞** Virelai des marees
 - **祟神** Tatarigami
 - **祟神低语** Whispering Tatarigami
-- **碎石** Smashed Stone
+- **碎石隙境原体** Shatterstone Breacher Primus
+- **邃世忧怀** Ancient Anamnesis
 - **岁时之晷** Sundial of Ages
+- **祟祟猫步** Cat's Creeping Carriage
+- **碎涛旋跃** Shattering Waves
 - **随想草稿** Whimsical Draft
 - **碎星铁矿** Starsplinter Iron
+- **碎岩冲撞** Sundering Charge
+- **碎岩震波** Shockwave Smash
+- **岁夜欢哗** New Year's Cheer
 - **邃羽夜巡之契** Nightwatch Contract
 - **随缘的铃官** Laid Back Ling'guan
+- **岁云暮矣待月归** As Setting Moon Brings Year's End
 - **溯及以往** The Scattered Past
 - **苏莱卡** Sulaykha
 - **夙凌** Suling
-- **素论派 / 悉般多摩<ref name="WDSD" />** Spantamad
+- **宿灵捕影** Shadow-Stealing Spirit Vessel
+- **宿灵闪箭** Spiritvessel Snapshot
+- **素论派 / 悉般多摩** Spantamad
+- **苏玛克** Sumac
+- **孙桡** Sun Rao
 - **孙宇** Sun Yu
 - **素霓伣天** Discerner of Enigmas
 - **隼人** Hayato
+- **索魂命袭** Soul Reaper's Fatal Round
+- **索实逐真** Veritas Numquam Perit
 - **锁水的花坛** Water-Retaining Flower Beds
+- **索尔涅夫** Solnev
+- **索报皆偿** Repaid in Full
+- **锁国的霄雷** A Nation Closed by Thunder
 - **锁国令** Sakoku Decree
 - **索赫尔** Soheil
 - **索赫尔的考古笔记** Soheil's Old Notes
 - **索赫尔的心愿** Soheil's Wish
 - **索赫蕾** Sohreh
 - **索拉雅** Soraya
+- **索莉马娜** Sorimana
 - **索林** Sohrin
 - **索瑞** Shohre
+- **琐碎观察术** Trivial Observations
 - **所谓狼藉** Ravaged by Wolves
+- **索维格莎** Suavegothe
 - **所闻遍计** All Schemes to Know
+- **索希** Sosi
 - **锁钥之石・其二** Keystone (II)
 - **锁钥之石·其一** Keystone (I)
 - **所有人的愿望之诗** The Aspirations of All
 - **苏珊** Susan
-- **速射弓斗** Rapid Firing
+- **速射牵制** Suppressive Barrage
 - **俗世佳肴** Savory Treat
+- **肃肃宵征** Breaking the Miasma
+- **酥酥羊角包** Crisp Croissant Combo
+- **宿雾若水遥** In Mist-Like Waters
 - **苏西** Susie
 - **苏醒的病患** Recuperated Victim
+- **宿雪桃红** Cherries Snow-Laden
+- **苏娅** Suya
 - **溯因反绎法** Abductive Reasoning
 ## T
 - **她的黄金时代…** In Her Full Glory...
 - **她的秘密** Her Secret
+- **她的期许** Her Wishes
+- **他的生命在那边** Where His Life Lies
 - **她和她的猫** Her and Her Cat
 - **它和它…** This and That...
 - **踏浪霞连阶** Crimson Tidewalker
 - **踏雪纪行** Mountaineer's Endurance
+- **她已经很紧张了** She's Already Tense
+- **塔恩加** Taenga
+- **塔尔科** Tarko
+- **塔尔瓦** Talvat
 - **塔娜玛尔** Tanamart
 - **踏鞴物语** Tatara Tales
 - **踏鞴之谜** Mystery of Tatarasuna
@@ -7355,49 +12960,77 @@
 - **踏辰摄斗** Dawnstar Piercer
 - **塔德菈** Tadhla
 - **塔德菈的翎羽** Tadhla's Feather
+- **塔法佐莉** Tafazzoli
 - **塔夫列** Tafreh
-- **踏火息雷** Bane of Fire and Thunder
-- **踏火止水** Bane of Flame and Water
+- **踏虹破浪！** Stride on Rainbows, Split the Waves
 - **台下半日闲** Half a Day's Leisure
 - **太古时光的遗孤** Forsaken Child of Ancient Times (Dvalin's Nest)
 - **泰久** Yasuhisa
+- **泰卡** Taika
 - **太郎丸** Taroumaru
 - **泰勒** Tyler
 - **太山府** Taishan Mansion
 - **台上台下** On the Stage, Behind the Stage
+- **太素诊要** Universal Diagnosis
 - **太田太郎** Oda Tarou
+- **泰托** Tetreaux
+- **泰锡封** Ctesiphon
 - **太阳蟹** Sun Crab
 - **太阳之华** Grace of Helios
 - **太阳之子** Sunchild
+- **台桌组合-「湖中小岛」** Desk Combo - Middlelake Isle
+- **台桌组合-「青绿图腾」** Desk Combo - Verdant Totem
 - **塔杰・拉德卡尼** Taj Radkani
+- **塔拉法** Tarafa
 - **塔拉内** Taraneh
+- **踏浪寻影・聚首枫丹** Ride the Waves to a Rendezvous in Fontaine
+- **塔拉塔海谷** Thalatta Submarine Canyon
 - **塔列辛** Taliesin
 - **塔列辛的诗稿** Taliesin's Manuscript
 - **塔里克** Tariq
+- **塔力帕** Tlalepa
+- **塔利雅** Dahlia
+- **塔卢加** Taruka
+- **塔洛娜** Tairona
 - **塔玛拉** Tamara
+- **他们的童年** Their Childhood
+- **塔米米** Tamimi
 - **塔米娜** Tahmina
+- **塔莫蕾** Tahmures
+- **塔穆因** Tamuin
+- **贪吃的绵驮兽** Greedy Alpaca
+- **贪食之王** Gluttonous Rex
 - **糖** Sugar
-- **棠铃・萤灯** Fluorescent Pearbell
 - **棠铃・青箬** Greenhat Pearbell
+- **棠铃・萤灯** Fluorescent Pearbell
 - **棠铃・渚莲** Sandbank Lotus Pearbell
 - **汤雯** Tang Wen
+- **唐无仇** Tang Wuchou
+- **唐・西哈诺** Don Quijano
 - **烫烫爆弹** Hot Pod
 - **唐杜尔烤鸡** Tandoori Roast Chicken
+- **糖分欢意** Sugar Rush
 - **汤米** Tommy
 - **唐娜** Donna
 - **倘若不知，我讲你听** Stay a While and Listen Up
 - **堂堂正正的决斗！** In This Solemn Matter Let No One Interfere!
 - **塔尼娜** Tanina
+- **塔尼莎** Tanisha
 - **塔尼特** Tanit Tribe
 - **塔尼特露营地** Tanit Camps
 - **坦吉** Tanjiyy
+- **探入水底迷雾** Into the Deepwater Murk
 - **探索剑冢封印** Break the Sword Cemetery Seal
 - **弹弹菇** Bouncy Mushrooms
 - **弹跳** Bounce
+- **弹跳水疗法** Rebound Hydrotherapy
 - **谈吐与仪态** Speech and Etiquette
+- **塔诺** Tano
 - **探险家杰克的困境** Explorer Jack's Dilemma
-- **讨龙英杰谭** Thrilling Tales of Dragon Slayers
+- **探长** Detective
 - **陶义隆** Sue Yoshitaka
+- **桃枝火鳞** The Blaze Lilies
+- **陶奥鲁** Traore
 - **讨伐悬赏** Bounty
 - **弢跡匿光** In the Solemn Gloom
 - **逃跑的太阳** Fleeing Sunlight
@@ -7407,14 +13040,24 @@
 - **桃子** Momoko
 - **踏破绝境** Impasse Conqueror
 - **踏破矿贼结新缘** Meeting New People... and Foiling Some Bandits
+- **踏启机关** Pressure Switch
+- **塔塞斯杂烩** Tasses Ragout
+- **踏鲨破浪** Surfshark Wavebreaker
 - **塔什芬** Tashfin
+- **塔塔可** Tatacos
 - **塔维妮儿** Tavernier
 - **塔希尔** Taher
 - **他乡迷失客** Lost in a Foreign Land
 - **他乡之食** Food From Afar
+- **踏行机关** Pressure Mechanism
 - **踏雪引路人** Seelie in the Snow
 - **踏雪章** Snowstrider Emblem
+- **塔耶芙尔** Tailleferre
 - **拓真** Takuma
+- **特阿墨** Tlamot
+- **特阿尤** Teayo
+- **特尔克西的奇幻历险** Thelxie's Fantastic Adventures
+- **特尔克西的轻语** Thelxie's Murmurs
 - **忒耳摩冬遗迹冒险** Treacherous Thermadon
 - **特别的「意智宝珠」** Special Wisdom Orb
 - **特别的「御神签」** Special Fortune Slip
@@ -7429,20 +13072,38 @@
 - **特别留影** Kurious Kamera
 - **特别甜的甜甜花** Extra-Sweet Sweet Flower
 - **特别训练** Special Training
+- **特波兹** Tepoz
 - **特大号花火祭** Fantabulous Firework Fiesta
 - **特大号烟花** Supersized Firework
+- **特蒂赫莉** Tetisheri
 - **特工祭刀** Agent's Sacrificial Knife
-- **特洛芬・雪奈茨维奇** Trofin Snezhevich
+- **特技光效与明日之星！** Special Lighting and the Stars of Tomorrow!
+- **特拉波** Tlapo
+- **特拉科** Tlaco
+- **特拉洛坎夜幽灵** Tlalocan's Night Phantom
+- **特拉帕尔** Tlapal
+- **特拉忒** Tlatem
+- **特拉佐莉** Tlazolli
+- **特拉佐莉的住处** Tlazolli's home
+- **特立尼达** Trinidad
+- **特洛黛** Trudaine
+- **特马乔** Temach
 - **特纳** Tunner
+- **特纳** Turner
 - **特纳先生的止咳药** Tunner's Cough Syrup
+- **特纳华** Tenehua
 - **腾溢的敌意** Seething Animosity
 - **藤兜砦** Fort Fujitou
 - **藤木** Fujiki
-- **藤田** Nakatani
+- **藤田** Fujita
 - **藤田三四郎** Fujita Sanshirou
 - **藤纹陆鳗鳗** Adorned Unagi
 - **藤原俊子** Fujiwara Toshiko
 - **藤原俊子的「宝图」** Fujiwara Toshiko's Treasure Map
+- **特诺切** Tenoch
+- **特帕尔** Tepal
+- **特帕切** Tepache
+- **特佩潘** Tepexpan
 - **特殊的绯樱绣球** Special Sakura Bloom
 - **特殊的基底饮品** A Special Base Drink
 - **特殊的魔晶矿** Special Magical Crystal Ore
@@ -7452,7 +13113,11 @@
 - **特调的余韵** A Lingering Flavor
 - **特瓦林与杜林** A Tale of Two Dragons
 - **特瓦林，抵达！** Dvalin Is Landing!
+- **特沃德罗斯** Tewodros
+- **特型方正地面** Specialized Square Paving
 - **特许经营** Special Franchise
+- **特许券** Credit Coupons
+- **特许食堂** Coupon Cafeteria
 - **忒雅** Teyya
 - **特制的「留影机」** Special Kamera
 - **特制的「竹签」** Special Bamboo Slip
@@ -7463,27 +13128,32 @@
 - **特制的莲子禽蛋羹** Special Lotus Seed and Bird Egg Soup
 - **特制的蒙德烤鱼** Special Mondstadt Grilled Fish
 - **特制的蒙德土豆饼** Special Mondstadt Hash Brown
+- **特制的蒙德土豆饼** Special Mondstadt Hash Brown
 - **特制的摩拉肉** Special Mora Meat
 - **特制的水煮黑背鲈** Special Black-Back Perch Stew
 - **特制的松茸酿肉卷** Special Matsutake Meat Rolls
 - **特制的甜甜花酿鸡** Special Sweet Madame
 - **特制的香嫩椒椒鸡** Special Jueyun Chili Chicken
 - **特制的霄灯** Custom-Made Xiao Lantern
+- **特制的杏仁豆腐** Special Almond Tofu
 - **特制的渔人吐司** Special Fisherman's Toast
 - **特制的珍珠翡翠白玉汤** Special Jewelry Soup
+- **特制的钟表** Special Clock
 - **特制的庄园烤松饼** Special Tea Break Pancake
 - **特制风味烤蘑菇披萨** Special Mushroom Pizza
 - **特制香膏** Special Perfume
 - **特制杏仁豆腐** Special Almond Tofu
 - **特制饮品** Special Beverage
+- **特制鱼肉** Specially Cooked Fish
+- **特佐佐** Tezozo
 - **薙除杂妄** Bane of Ambitions
 - **替丘丘行道！** Hilichurl Justice
 - **提奥凡** Theofan
+- **提尔贝特** Thibert
 - **提尔扎德** Tirzad
 - **天降正义！** Geronimo!
 - **天街巡游** Starward Sword
 - **添酒** Bad Wine
-- **天目影打刀** Amenoma Kageuchi
 - **天青现虹** Rainbow Upon the Azure Sky
 - **田铁嘴** Iron Tongue Tian
 - **天威压众** Divine Suppression
@@ -7505,24 +13175,21 @@
 - **天狗** Tengu
 - **天狗传弓术** Tengu Bowmanship
 - **天光流泻之处** The Emanant Skylight
+- **天光深摇溪影寒** Creek's Shade
 - **天衡绝倒集** Humor From Tianheng
 - **天衡山** Mt. Tianheng
 - **天狐外道** Nothing but Trickery
 - **天霁日出** Rays of Sunlight
 - **天降的某物** That Which Fell From the Sky
 - **添酒** 
-- **天空之傲** Skyward Pride
-- **天空之脊** Skyward Spine
-- **天空之卷** Skyward Atlas
+- **天空高城救守记** Skycastle Saviors
 - **天空之琴** Holy Lyre der Himmel
-- **天空之刃** Skyward Blade
-- **天空之翼** Skyward Harp
 - **天空岛** Celestia
 - **天狼** Lupus Fulguris
 - **天雷圣裁** Wrath of the Gods
 - **天领** Tenryou
-- **天领奉行上奏公文** Official Tenryou Commission Document
 - **天领奉行** Tenryou Commission
+- **天领奉行上奏公文** Official Tenryou Commission Document
 - **天领奉行御帐前** Valor & Prowess
 - **天领奉行府** Tenryou Commission Headquarters
 - **天领奉行的密信** Tenryou Commission Secret Letter
@@ -7530,6 +13197,7 @@
 - **天目锻冶屋** Amenoma Smithy
 - **天目十五** Amenoma Tougo
 - **天目优也** Amenoma Yuuya
+- **天目家** Amenoma Clan
 - **天牛之章** Taurus Iracundus Chapter
 - **天牛座** Taurus Iracundus
 - **天穹之镜** Empyrean Reflection
@@ -7539,8 +13207,10 @@
 - **天权伴星** Megrez's Companion Star
 - **天权崩玉** Starshatter
 - **天权为尊** The Lunar-Eclipsing Palace
+- **天蛇与七火的回响** Echo of Tonatiuh and Uctokah
 - **天使的馈赠** Angel's Share
 - **天使的馈赠** Angel's Share
+- **天使海兔** Angelic Sea Hare
 - **天守阁** Tenshukaku
 - **天叔** Uncle Tian
 - **天枢肉** Tianshu Meat
@@ -7551,6 +13221,7 @@
 - **甜甜花鳉** Sweet-Flower Medaka
 - **甜甜花** Sweet Flower
 - **甜甜花酿鸡** Sweet Madame
+- **天途迢遥** Empyrean Stairway
 - **天下名物狩** All-Preserver
 - **天下人座** Imperatrix Umbrosa
 - **天下人之章** Imperatrix Umbrosa Chapter
@@ -7558,6 +13229,8 @@
 - **天星漫散** Starscatter
 - **天野** Amano
 - **天奕** Tianyi
+- **天园的理想** {{w|Paradise garden|Pairidaeza}}'s Dreams
+- **天陨预兆** Ominous Star
 - **天云峠** Amakumo Peak
 - **天云草实** Amakumo Fruit
 - **畑中** Hatanaka
@@ -7565,21 +13238,32 @@
 - **天坠之岩** Meteorite Impact
 - **天罪国罪镇词** Amatsumi Kunitsumi Sanctification
 - **调酒师之间的切磋** Exchanging Pointers
+- **调律师的夙愿** Metres of Boethius
 - **窕梦的祝诞** Dreamy Felicitation
 - **跳劈** Leap Attack
 - **跳起打** Jump and Hit
-- **薙草之稻光** Engulfing Lightning
+- **条条大路通雷马** Omnes Viae Remam Ducunt
+- **调停的真意** Mediation's True Meaning
+- **迢遥的蜃景** Obscure Mirage
+- **跳跃冲击** Jumping Slam
 - **铁膀子** Iron Shoulder
-- **铁蜂刺** Iron Sting
+- **铁船儿** Iron Chuan'er
+- **铁锤儿** Iron Chui'er
+- **铁豆儿** Iron Dou'er
+- **铁瓜儿** Iron Gua'er
 - **铁弘** Tie Hong
 - **铁尖枪** Iron Point
 - **铁块儿** Iron Ingot
+- **铁门儿** Iron Men'er
+- **铁明** Iron Ming
 - **铁钱** Iron Coin
-- **铁影阔剑** Ferrous Shadow
+- **铁扇儿** Iron Shan'er
 - **铁骨双刀** Hardy Two-Blades
+- **铁甲熔火帝皇** Emperor of Fire and Iron
 - **铁匠铺** Blacksmith
 - **铁块** Iron Chunk
 - **铁块紫微一相逢…** Iron Ingot Meets Ziwei
+- **铁穆山** Temir Mountains
 - **铁衫** Tieshan
 - **铁算盘** Mr. Iron Abacus
 - **铁也** Tetsuya
@@ -7587,44 +13271,64 @@
 - **铁棕林立菇** Brown Treeshroom
 - **提克里蒂** Tikriti
 - **体力** Stamina
+- **提莉乌娅** Tlilhua
 - **提米** Timmie
 - **提米的亲笔信** A Letter by Timmie
 - **提米的心愿** Timmie's Wish
 - **提米，对不起！** Sorry, Timmie!
 - **提莫尔** Temur
+- **提纳勒人** Tighnarian
 - **提纳里** Tighnari
 - **提纳里的便当盒** Box Lunch from Tighnari
 - **提纳里的介绍信** Tighnari's Introduction Letter
 - **提纳里的命星** Tighnari's Stella Fortuna
 - **听海人** They Who Hear the Sea
 - **霆霓快雨** Driving Thunder
+- **廷稚** Ting Zhi
 - **停摆之刻** Moment of Cessation
+- **停不了的圆舞** Endless Waltz
 - **听从谁的召唤？** Answer Whose Summoning?
 - **町奉行所收监处** Police Detention Center
+- **霆雷破袭** Thunderstorm Wave
 - **霆霓快雨** Nimble as Lightning
 - **听凭风引** Let the Wind Lead
 - **听凭风引** Let the Wind Lead
 - **听凭风引** Let the Wind Lead
 - **亭台闲坐** A Casual Visit
 - **婷婷** Tingting
+- **提帕诺** Tepano
+- **提普** Tippu
 - **替身计划** Operation Substitution
 - **提神醒脑披萨** Invigorating Pizza
+- **提升指南** Training Guide
+- **提示器** Locator
 - **提瓦特** Teyvat
+- **提瓦特的春日假期** Teyvat Spring Break
 - **提瓦特的园丁，不畏酷热** Gardener Extraordinaire
 - **提瓦特的园丁，不畏严寒** Extreme Gardening
 - **提瓦特煎蛋** Teyvat Fried Egg
 - **提瓦特焦蛋** Teyvat Charred Egg
 - **提瓦特野外救急食谱** Teyvat Wilderness Survivalist's Recipes
+- **提瓦特忆画** Mementos of Teyvat
 - **提瓦特游览指南** Teyvat Travel Guide
+- **提佐科** Tisoc
+- **通往卡皮托林的阶梯** Gradus ad Capitolium
 - **同漩涡共舞** Dance with the Great Vortex
 - **同在烟花之下** Together Under the Fireworks
 - **同伴的力量** Tender Strength
+- **桐本** Kirimoto
+- **桐村** Kiritani
 - **童话里的守梦人** Defender of Childhood Dreams
 - **瞳孔中的伪装者** Hidden in Plain Sight
+- **瞳孔里的固形魔咒** Petrifying Gaze
+- **同款冲浪板有售！** Same Style of Surfboard on Sale!
+- **通路计划** Project Connectivity
 - **童梦的切片** Fragment of Childhood Dreams
 - **童梦历险记** Where the Sunlight Flees
+- **通明庇佑** Bringer of Blessing
 - **童年风味香嫩椒椒鸡** Nostalgic Jueyun Chili Chicken
 - **同袍的义理** A Comrade's Duty
+- **通皮斯** Tumpis
 - **铜雀** Pervases
 - **通通400铃** Ding Ding Ding!
 - **通往黯道的曲调** The Rhythm that Leads to the Gloomy Path
@@ -7634,10 +13338,12 @@
 - **同心训练家？** You Should Start A Doushin Dojo
 - **通行凭证** Travel Permit
 - **通行证明** Pass Permit
+- **同样的错误** The Same Mistakes
 - **通用型定向传导元件** General Purpose Directional Conduction Component
 - **同泽之枪** Warrior's Spear
 - **头盖骨胜负** Victory is a Mindset
 - **偷懒的安杰洛** Slacking Angelo
+- **骰落！新朋满座** Roll! A Sea of New Acquaintances
 - **透明遗迹的记录・其二** Transparent Ruins Record (II)
 - **透明遗迹的记录・其三** Transparent Ruins Record (III)
 - **透明遗迹的记录・其一** Transparent Ruins Record (I)
@@ -7645,10 +13351,15 @@
 - **头晕回避术・改** Dizziness-Be-Gone no Jutsu Version 2.0
 - **骰子、猫与卡牌的战场** Battlefield of Dice, Cats, and Cards
 - **吐纳真定** Steady Breathing
+- **图昂** Truand
 - **抟风秘道** The Wind's Secret Ways
+- **团结炉心** Heart of Unity
 - **团聚于此的意义** The Reason We Are Gathered Here
+- **团雀是否最可爱！** Aren't Finches the Cutest?
+- **团雀依然最可爱** Finches Are Still the Cutest!
 - **团子牛奶** Dango Milk
 - **突刺** Thrust
+- **图达玛** Tundama
 - **土豆** Potato
 - **土豆船** Potato Boat
 - **荼诃落谷** Valley of Dahri
@@ -7656,73 +13367,127 @@
 - **荼诃之座** Ruins of Dahri
 - **褪淡的余忆** Fading Memories
 - **推倒这面墙！** Tear Down This Wall!
+- **推分算数原理** Principia Arithmetica
 - **推己及人** In Others' Shoes
+- **褪色的眷恋** The Crescent Moon's Waning
+- **褪色的剧场** Faded Theater
+- **褪色的秘宴** Faded Banquet
+- **褪色古堡的崩塌** The Fall of the Faded Castle
 - **褪色红绸** Faded Red Satin
+- **兔叽** Bunny
+- **突角龙** Tatankasaurus
 - **图莱杜拉** Tulaytullah
-- **图莱杜拉的回忆** Tulaytullah's Remembrance
+- **图兰大火山** Great Volcano of Tollan
+- **图雷尔** Thurel
 - **图曼** Tuman
 - **图马特** Tumart
 - **土门** Domon
 - **吞金和蓄财** Gold Devouring and Mora Gathering
+- **荼泥黑渊** Tunigi Hollow
+- **图尼娜** Tonina
+- **豚兽** Capybara
 - **吞天之鲸・只角** Tusk of Monoceros Caeli
+- **吞星之鲸** All-Devouring Narwhal
+- **吞心者的巡行** Heart Devourer's Travail
 - **吞咽之间** Place of Swallowing
 - **吞羊岩** Lamb-Devourer Rock
 - **吞羊岩的记录** Record of Lamb-Devourer Rock
+- **托尔特克** Toltec
+- **陀达罗** Todar
+- **托赫兰妮** Tochlan
 - **托克** Teucer
 - **托克的璃月见闻录** Teucer's Terrific Tour
+- **托萝莎** Talochard
+- **托萝莎的探案笔记** Talochard's Investigation Notes
 - **托马** Thoma
 - **托马的命星** Thoma's Stella Fortuna
+- **托皮娅** Topyas
+- **托皮娅的「信物」** Topyas's Token
+- **托泰克** Totec
+- **托托** Toto
+- **托扬娜** Toyanna
+- **托赞** Tozan
+- **图帕克** Tupac
+- **突破等级** Ascension Phase
 - **突破瓶颈** Bottleneck Breaking
+- **图谱** Diagram
 - **突如其来的不适** Sudden Discomfort
 - **突如其来的呼喊** Sudden Shouting
+- **土生** Tusheng
 - **图书管理员的悠长假期** A Librarian's Long and Carefree Vacation
 - **图书馆请安静！** "Quiet, please, this is a library!"
 - **图书馆双层书架** Two-Tier Library Bookshelf
+- **图斯** Tus
+- **兔兔伯爵** Baron Bunny
 - **秃秃豆** Glabrous Beans
+- **图形对抗实验录** Graph Adversarial Technology Experiment Log
+- **图形样本留影机** Image Sampling Kamera
 - **土质样本** Soil Sample
 ## U
 ## V
 ## W
+- **瓦阿吉** Waaj
+- **瓦尔米** Warmi
 - **瓦尔坦** Vardan
 - **瓦尔特** Walter
+- **瓦达娜** Wactana
 - **瓦菲格** Wafiq
 - **瓦格纳** Wagner
 - **外酥里嫩** Crispy Outside, Tender Inside
 - **外景** Sub-Space Creation
 - **外景锚点** Sub-Space Waypoint
 - **外人之岛** Island for Outlanders
+- **外世突触** Foreign Synapse
 - **瓦京** Vadim
-- **万灯送火** A Procession of Bonfires
-- **万国诸海图谱** Mappa Mare
+- **瓦卡尔** Waqar
+- **瓦凯・努伊** Wakea Nui
+- **瓦莱** Houallet
+- **瓦兰卡** Waranka
+- **瓦蕾** Baret
+- **瓦雷莎** Varesa
+- **瓦乐瑞娜** Valerina
+- **瓦曼** Guaman
+- **瓦芒加** Huamanga
 - **万壑千岩** Lithic Oath
-- **万劫之真意** The Meaning of Aeons
 - **万卷书斋** Book Lover's Study
 - **万识一偈** For All Knowledge, a Verse
-- **万文集此** Hence, Call Them My Own Verses
 - **万叶之一刀** Kazuha Slash
 - **万用的桌椅** Table & Chairs
 - **晚安，璃月** Good Night, Liyue
 - **万古之风的弃儿** Forlorn Child of Archaic Winds (Dvalin's Nest)
+- **瓦纳格姆** Vaneigem
+- **瓦娜娜** Vanana
 - **完璧玉符** Immaculate Talisman
+- **完场喝彩** Conclusive Ovation
+- **万灯送火** A Procession of Bonfires
 - **万端珊瑚事件簿** Bantan Sango Case File
 - **万端珊瑚侦探社** Bantan Sango Detective Agency
+- **瓦内杜** Waniyetu
+- **晚风圆号** Nightwind Horn
 - **万风逐花** Floral Pursuit
 - **王扳子** Wrench Wang
 - **忘川之水** Waters of Lethe
-- **王平安** Wang Ping'an
+- **往泪尽之地** To the Land of Desperation
 - **忘玄** Mystical Abandon
 - **旺财** Richie
+- **望尘行迹** Following the Sands' Trail
+- **望风海岸** Stormbearer Coast
 - **望风山地** Stormbearer Mountains
 - **望风角** Stormbearer Point
 - **亡国的美奈姬** Princess Mina of the Fallen Nation
+- **惘惑漠漠** Dust-Swept Perplexity
+- **王家苇箭术** Royal Reed Archery
+- **望涓** Wangjuan
+- **王狼直击** Wolflord's Strike
 - **望泷村** Bourou Village
-- **网破** Net Snapper
 - **忘却之峡** Forsaken Rift
 - **往日重现** Blast from the Past
 - **往日的谜影** Phantom of the Past
+- **王山遗威** Guhua's Legacy
 - **往生** An Organization Known as Wangsheng
 - **往生秘传枪法** Secret Spear of Wangsheng
 - **往生堂** Wangsheng Funeral Parlor
+- **往生堂三日无主，玉京台遣将调兵** The Funeral Parlor Has No Master, Yujing Terrace Calls the Troops
 - **往世纪行** A Previous Life
 - **往事如尘** Bygones Times Like Dust Passing
 - **望舒** Wangshu
@@ -7732,8 +13497,8 @@
 - **望舒须筑阶** Stairway to Wangshu
 - **万国商会** International Trade Association
 - **往昔的桓那兰那** Old Vanarana
+- **往昔的乐园** Once-Joyful Dream
 - **往昔的诉说** Reminiscence of the Old Days
-- **王下近侍** King's Squire
 - **忘形炼智** Overzealous Intellect
 - **望雅** Wang'ya
 - **望月** Mochizuki
@@ -7741,73 +13506,135 @@
 - **亡者的诉说** Serpent's Tragedy
 - **亡者狭廊** Passage of Ghouls
 - **王子** Prince
+- **万斛** Wanhu
+- **万户门牌通识** Universal Recognition
+- **万火归一** All Fires Fuel the Flame
+- **万火燎烈的祭场** Altar of Ardor Ablaze
+- **万火之瓯** Basin of Unnumbered Flames
 - **万货通** Hypermarket
 - **瓦妮塔** Vanita
 - **顽疾** 
+- **万家灶火** In Every House a Stove
+- **万劫之真意** The Meaning of Aeons
+- **万杰鲁** Wanjiru
+- **婉静** Wanjing
 - **婉拒风蚀的聚落** Setekh Demurs
 - **玩具娃娃** Toy Doll
 - **玩具专用・「凝成泥土」** Special "Concresoil" for Toys
+- **万奎洛** Weqro
+- **万里飞虹** Ranging Rainbow
+- **万理一空** Sole Principle Pursuit
+- **万流始源之海** Pelagic Primaevality
+- **完满收工** A Job Well Done
 - **完美而坚强的女仆** A Maid of Strength and Virtue
 - **完美留影** Perfect Shot
 - **完美沙暴** The Perfect Sandstorm
 - **万民百味** Exquisite Delicacy
-- **万民堂水煮鱼** Wanmin Restaurant's Boiled Fish
 - **万民同行** People's Choice
 - **万民鲜食** Wanmin Fresh
 - **万民宴聚享肴绮** Wanmin Feast
 - **万民堂** Wanmin Restaurant
 - **万民堂大厨** Chef de Cuisine
+- **万能向导** Omnipotent Guide
+- **万普纳** Wampuna
 - **万千的愿望** Wishes Unnumbered
+- **万千蕊芯之梦** Fantasy of Ten Thousand Blossoms
 - **完全静默** It's Quiet... Too Quiet...
 - **完全修复的天空之琴** Completely Repaired Holy Lyre der Himmel
 - **宛若晨光的剑士** Dawnlight Swordswoman
 - **万世之集** Wisdom of Bansei
 - **万水一露** Bansui Ichiro
+- **万文集此** Hence, Call Them My Own Verses
 - **万文集舍** Wanwen Bookhouse
 - **晚霞的姿影** Sunset Shadows
+- **万象裁灭之刻** Eschatologia Iudicata
+- **万相化灰** All Is Ash
 - **万象之录** A Record of All Things
+- **万相石** Trishiraite
 - **宛烟** Wanyan
+- **蜿蜒的旧忆** Creeks of Nostalgia
 - **挽夜的晓歌** {{w|Tagelied}} nächtlicher Gedanken
 - **挽漪的节音** Fricative Pulse
 - **万有铺子** Wanyou Boutique
 - **琬玉** Wanyu
 - **完整的木桩** Intact Training Dummy
 - **完整的钥匙** Intact Key
+- **万众狂欢** Let the People Rejoice
+- **万种母树** Harvisptokhm
+- **瓦瑟迪瓦** Vasudeva
+- **瓦斯卡** Waskar
+- **瓦斯卡尔** Huascar
+- **瓦图妲** Battuta
+- **蛙蛙大合唱** Grand Frog Chorus
 - **瓦希德** Vahid
 - **瓦希德捏制的饭团** Vahid's Kneaded Onigiri
+- **瓦伊妲** Wayta
+- **瓦伊纳** Wayna
+- **瓦伊兹** Waiz
 - **梶** Kaji
 - **威遍风土** Megastar in Mondstadt
 - **唯此一心** Undivided Heart
+- **唯厄月可知晓** The Balemoon Alone May Know
 - **魏风尘** Wei Fengchen
 - **威撼磐岩** Trembling Earth
+- **唯苦痛可偿还** Agony Alone May Be Repaid
+- **唯力量可守护** Strength Alone Can Defend
 - **围炉夜谈** Fireside Chats
 - **为那菈献上珍馐** A Delicacy for Nara
 - **唯千岩不动** The Millelith Shall Never Be Moved
 - **未染尘埃的秋霜** Untainted Autumn Frost
 - **未授勋之花** Chivalric Blossom
+- **为同一片土地** For the Same Land
+- **未完成的喜剧** Unfinished Comedy
+- **给我套上枷锁，让我甘心毁灭** Shackle Me, That I Might Willingly Be Destroyed
+- **魏小保** Wei Xiaobao
+- **为心魂的献礼** A Gift For the Soul
 - **唯有睡觉不可耽误** Sleep Alone Can't Wait
+- **唯余潮痕** Aqueous Grief
 - **唯余遗恨** What Now Remains
 - **薇尔** Vile
+- **威尔** Wheel
 - **薇尔的「礼物」** Vile's Gift
+- **薇尔妲** Virda
+- **维尔芒** Vilmant
 - **韦尔纳** Werner
+- **薇尔恰** Vilca
+- **韦尔赛** Wolsey
 - **喂，出来！** Hey, Come Out!
+- **微暗之火** Pale Fire
 - **卫兵** Guard
+- **卫兵犬** Guard Poodle
 - **微波轻摇** Mesmerizing Waves
+- **味草之滋** Herbal Nourishment
 - **未曾失落的回忆** Her Legacy
 - **味噌汤** Miso Soup
+- **维查玛** Vichama
+- **未成一篑** Unfinished Ideal
+- **维茨特兰的神秘访客** A Mysterious Visitor From Huitztlan
+- **卫从的木哨** Sentry's Wooden Whistle
+- **维多克** Vidoc
 - **维多利亚** Victoria
 - **维多利亚修女的担忧** Sister Victoria's Vexation
+- **微风饮游** Savoring the Breeze
+- **维格尔** Wenger
 - **尉官的徽记** Lieutenant's Insignia
-- **微光的海渊民** People of the Faltering Light
 - **微光花蜜** Shimmering Nectar
+- **微光角菌** Glowing Hornshroom
 - **微光精粹** Glimmering Essence
 - **未归的熄星** Unreconciled Stars
-- **苇海信标** Beacon of the Reed Sea
 - **危急的预觉** A Sense of Foreboding
+- **维吉尔** Virgil
+- **未加工的工件** Unprocessed Widget
+- **未记录的功能** Undocumented Feature
+- **帷锦** Weijin
 - **未尽的硝烟** Endless Smoke
+- **未烬的余火** Embers Unspent
+- **未竟的遐思** Unfinished Reverie
+- **未竟之诗** Truncated Verse
 - **未竟之志** Unfulfilled Aspirations
 - **危机四伏** Danger All Around
 - **维卡拉商栈** Wikala Funduq
+- **维卡斯** Wiqas
 - **维克多** Viktor
 - **维克多的礼物** Viktor's Gift
 - **维克多丢失的盒子** Viktor's Lost Box
@@ -7816,8 +13643,14 @@
 - **威拉格** Wyratt
 - **未来** Mirai
 - **未来解冻计划** Put on Ice
+- **未来水世界** Waterworld Future
 - **未来星** Future Star
 - **未来星坠落的地方** Where the Future Stars Fall
+- **维莱妲** Veleda
+- **微澜的湖水** Swelling Lake
+- **蔚蓝―梦** Par les soirs bleus d'ete
+- **维兰德** Viramdra
+- **维勒** Wyler
 - **为了「果实」、「种子」，还有「树」** For Fruits, Seeds, and Trees
 - **为了更好的再会** For A Better Reunion
 - **为了过去的孩子们** For the Children of the Past
@@ -7826,36 +13659,60 @@
 - **为了小孩子的笑容** For A Child's Smile
 - **为了一切向往生命的孩子们** For All Children Who Long for Life
 - **为了圆满的送别** Perfect Send-Off
+- **为了众人的愿望** À la volonté du peuple
+- **薇蕾娜妲** Verenata
 - **未料的密谋** Unpredicted Conspiracy
+- **韦吕** Verut
 - **伪貌真心** Sincerity's Facade
 - **未名的剑冢** Forgotten Sword Cemetery
 - **维摩庄** Vimara Village
 - **维摩庄的孩子** The Children of Vimara Village
+- **维缪尔** Vimeur
+- **薇娜** Rena
+- **维纳亚克** Vinayak
+- **韦尼尔** Venier
+- **薇涅尔** Vigneire
+- **危迫之刻** La derniere opportunite
 - **围墙** Wall
+- **维奇琳** Huitzilin
+- **维钦佐** Vincenzo
 - **巍然的青岩** Invincible Stonewall
 - **为人的条件？** Oh, the Humanity!
 - **葳蕤林野间** Village Surrounded by Green
 - **薇瑞迭瑟恩** Viridescent<!--all transcripts from [[The Viridescent Hunt]], other mentions seem to refer to her title rather than her name-->
+- **薇若妮卡** Veronique
 - **维沙瓦** Vishava
 - **惟神晴之介** Kamuna Harunosuke
 - **尾声的尾声** Ending Note
 - **尾声，风停之后** When the Wind Dies Down
 - **未熟之玉** Juvenile Jade
+- **威水舞兽队** Mighty Mythical Beasts
+- **韦斯** Weis
 - **维斯科** Vasco
 - **微缩「祖拜尔剧场」** Miniature Zubayr Theater
 - **微缩型骰子壶** Miniaturized Dice-Shaker
+- **薇塔** Veta
 - **危途疑踪** Perilous Trail
+- **韦驮骏足** Steed of Skanda
 - **委托人玛格丽特的思念** Margaret's Longing
 - **委托人莎拉的忧愁** Sara's Worries
 - **委托人查尔斯的烦恼** Charles' Troubles
+- **薇托维娅** Vitruvia
+- **维图索夫** Vitusov
 - **未完成的画作** Unfinished Frescoes
 - **危危岛** Minacious Isle
+- **韦西鸡** Vessie Chicken
 - **危险的小径** Perilous Path
 - **危险集群** Dangerous Cluster
 - **危险运输现象** Dangerous Haul
+- **违心的笑** Guarded Smile
+- **未行之路** The Road Not Taken
 - **危悬高峭之庭** Direcliff Court
 - **微醺的回忆** Mellow Memories
+- **韦亚斯** Veillas
+- **维耶** Houilles
 - **惟耶之实** Bija
+- **维耶尔默** Vuillermoz
 - **唯一的真相** The Only Truth
 - **逶迤绿水长** Winding River
 - **尾羽豪放** Feather Spreading
@@ -7863,41 +13720,72 @@
 - **未知之星** Unknown Star
 - **未知之星** Unknown Star
 - **危惴潜流** A Sense of Furtive Unrest
-- **喂——有人吗？** Hello...! Anyone in here...?
+- **喂&mdash;&mdash;有人吗？** Hello...! Anyone in here...?
+- **文仔** Man Chai
+- **稳固阵线的魄力** Stable Front Line's Resolve
 - **温迪** Venti
 - **温迪的计划** Venti's Plan
 - **温迪的命星** Venti's Stella Fortuna
 - **温迪的新计划** Venti's New Plan
+- **稳定器** Stabilizer
+- **文谷** Bunkoku
 - **稳固的桦木梳妆台** Sturdy Birch Vanity
 - **文谷疑云** The Bunkoku Enigma
+- **文华** Wenhua
 - **文火慢炖腌笃鲜** Slow-Cooked Bamboo Shoot Soup
 - **文火慢煨** Slowbake
 - **文璟** Wenjing
 - **温克尔** Vinkel
+- **问柳** Wenliu
 - **温妮莎** Vennessa
 - **温妮莎传奇** The Legend of Vennessa
 - **温暖精粹** Warm Essence
 - **温情的遥忆** A Memorable Fancy
+- **温泉时光** Hot Spring O'Clock
+- **温泉之乡** Home of the Hot Springs
+- **温柔的女声** Gentle Woman's Voice
+- **温柔的守卫** Gentle Guard
 - **问题的转化** Problem Conversion
 - **问题何在？** What's the Matter?
 - **文物保护** Respecting Cultural Heritage
+- **文物模型・之二** Relic Replica Container (II)
+- **文物模型・之三** Relic Replica Container (III)
+- **文物模型・之一** Relic Replica Container (I)
 - **文心豆腐** Oncidium Tofu
 - **文学团** Literature Club
+- **文寻** Wenxun
+- **问药** The Quest for a Cure
 - **文渊** Wenyuan
 - **文泽** Wenze
 - **我爱摩拉** I Love Mora
 - **我本将心** To Thee My Tender Grief Confide
 - **我的…地盘** My... Territory
 - **我界** Sin of Pride
+- **我击碎雷霆** Fulgura Frango
 - **卧龙藏螭** Crouching Dragon, Hidden Chi
+- **我乃茶，釜中之茶** Tea I Am, Tea in a Cauldron
 - **卧苔石** Moss-Covered Stone
+- **我心孤云身野鹤** Thoughts Straying as Clouds
+- **我愿是急流** Lennék én folyóvíz
+- **我自渊底刺向你** From the Abyss's Heart I Stab At Thee
+- **沃恩** Vaughn
+- **沃尔特** Walter
 - **我，游学者** I, Researcher
+- **沃杜奈** Wuttunee
+- **沃克** Walker
+- **沃蕾** Vora
+- **斡流** Woliu
 - **我流剑术** Garyuu Bladework
+- **沃伦・努维尔勋爵** Monsieur Volonte Nouvelle
+- **我们不会孤军奋战** No One Fights Alone
+- **我们是万众一体** Many-as-One
 - **我们需要更多作物！** We're Going to Need More Crops!
 - **我们之中最坚强的灵魂** Sternest of Souls
 - **我们终将重逢** We Will Be Reunited
+- **沃塔斯卡** Otaska
+- **沃特林** Vautrin
+- **沃特蒙泰涅** Hautemontagne
 - **沃土新芽的曲调** Melody of Bright New Buds
-- **无边际的眷顾** Boundless Blessing
 - **雾沉海瞑** Like in a Haze
 - **五重灯笼祭典门关** Five-Lantern Festival Gate
 - **无槌敲菇法** Hammer of the Mushrooms
@@ -7912,6 +13800,7 @@
 - **雾海云间的金丹** Mist Veiled Gold Elixir
 - **雾海云间的铅丹** Mist Veiled Lead Elixir
 - **雾海云间的转还** Mist Veiled Primo Elixir
+- **「午后一咖」** Afternoon Coffee
 - **武火急烹** Deepfry
 - **无可试探** You Shall Not Tempt It
 - **吴老二** Slippery Wu
@@ -7925,6 +13814,8 @@
 - **勿扰沉眠** Sweet Slumber Undisturbed
 - **无人注意的盖伊** Guy in the Background
 - **务守本真** True to Oneself
+- **雾随山色重** Amidst Foggy Mountains
+- **吾王崩御，吾王万岁！** The King Is Dead, Long Live the King!
 - **无信者的使徒** A Herald Without Adherents
 - **雾虚草囊** Mist Grass
 - **雾虚灯芯** Mist Grass Wick
@@ -7940,69 +13831,88 @@
 - **无主的星辉** Masterless Starglitter
 - **无罪推定** Presumption of Innocence
 - **无爱的塔兰图拉** The Loveless Tarantula
+- **乌尔** Ur
 - **乌尔班** Orban
 - **乌尔法** Ulfr
 - **乌尔曼** Ulman
+- **五恶曜的咒缚** Nemontemi's Hex
 - **吴船长** Captain Wu
-- **五百藏** Ioroi
+- **无格律自由诗** Free Verse
+- **雾中隐现的孤岛** The Lone Isle Glimpsed Through Fog
 - **五百藏交给你的「镇物」** Ioroi's Ward
+- **五百藏** Ioroi
 - **五宝腌菜** Five Pickled Treasures
+- **无边酣乐之筵** Feast of Boundless Joy
+- **乌布** Ubu
 - **五彩光华本相** The Five Colors' True Form
 - **无常之面** Capricious Visage
 - **物超所值** Value for Mora
+- **乌翅雁** Darkwing Goose
+- **五重天的寒雨** Mamaloaco's Frigid Rain
+- **乌茨勒** Utsil
 - **乌达德** Udad
 - **乌代** Uday
 - **伍德** Wood
 - **无底之胃** A Bottomless Appetite
 - **无典石** Unprecedentedly Average Stone
+- **乌迪诺** Oudinot
 - **乌冬面** Udon Noodles
 - **无法传达的恋波** Love and Non-Communication
 - **无福之地** Land Without Promise
 - **乌格威** Hugeweh
-- **无工之剑** The Unforged
+- **无垢之海的金杯** Golden Goblet of the Pristine Sea
+- **无垢之海的酒盏** Wine Goblet of the Pristine Sea
+- **无垢之海的苦盏** Broken Goblet of the Pristine Sea
+- **无垢之海的银杯** Silver Goblet of the Pristine Sea
 - **无垢之花** Stainless Bloom
 - **无垢之土** Dust of Purification
-- **无垢之心** Spotless Heart
 - **无关机械请立即离场！** Could All Uninvolved Machinery Please Leave Immediately?
 - **物归原主又归原主** Stolen, by the Rightful Owner
 - **雾海纪行** The Chronicles of the Sea of Fog
 - **无害甜度** Harmless Sweetie
 - **雾海悬谜境** Into the Perilous Labyrinth of Fog
 - **乌合的虚像** The Illusions of the Mob
+- **午后闲茶** A Leisurely Sip
 - **污秽的面具** Stained Mask
 - **无获的探索** A Fruitless Search
 - **无羁的漫游** Vagrant Wandering
-- **无羁的朱赤之蝶** Reckless Cinnabar
+- **无际之旅的旋律：风物奇旅** GENSHIN CONCERT 2023 Melodies of an Endless Journey: SCENIC VISTAS
 - **无家之伤** Samurai's Sorrow
 - **无坚不摧** Juggernaut
 - **无尽的回响** Endless Echoes
-- **无尽的渴慕** Undying Admiration
 - **无尽的霜舞** Never-Ending Performance
 - **无尽的挑战** The Everlasting Trail
 - **无尽之旅-绮忆待新航，旅行者的故事** Endless Journey - Of Cherished Memories and a New Voyage: Travelers' Stories
 - **无尽骤战** Never-Ending Battle
 - **伍玖叁式营养餐** Nutritious Meal (V.593)
+- **乌卡曼** Aucaman
 - **无可质疑的宝藏** It Has to Be Treasure
 - **无可奈何燃花作香** Floral Incense
 - **乌库** Ukko
+- **乌拉卡** Urraca
 - **五郎** Gorou
 - **五郎的命星** Gorou's Stella Fortuna
+- **乌兰塔** Ullanta
 - **无灵魂处的灵魂** A Hollow Soul
 - **无留陀的化身** Marana's Avatar
+- **无虑的应许** Pledge of Peace
 - **无虑无猜的岁月** Innocent Age
 - **乌帽子** Eboshi
+- **乌米** Umi
 - **无冕的龙王** Uncrowned Lord of the Ocean
-- **无名** Nameless
+- **呜喵町飞足** Meow-teor Kick
 - **无名岛屿的壁画** Nameless Island Mural
 - **无名的宝藏** Nameless Treasure
 - **无名的花** Nameless Flower
 - **无名的画稿** Nameless Sketch
 - **无名的石碑** Nameless Tablet
 - **无名的王庭禁药** Nameless Taboo Medicine of the Royal Court
+- **无名冒险家的记录** Nameless Adventurer's Notes
 - **无名岁月** Dream of Ageless Time
 - **无明无夜** Now and Forevermore
 - **无名小岛的壁画** Nameless Islet Mural
 - **无名小岛** Nameless Island
+- **无名学者的记事** Nameless Researcher's Notes
 - **无名遗迹** Nameless Ruins
 - **无名之城的过往** The Nameless City's Past
 - **无名之城的呼唤** Call of the Nameless City
@@ -8012,11 +13922,15 @@
 - **无念无想，泡影断灭** Stillness, the Sublimation of Shadow
 - **无念无想，泡影断灭** Stillness, the Sublimation of Shadow
 - **巫女曚云小传** The Life of Mouun the Shrine Maiden
+- **乌努库** Uenuku
 - **武沛** Wupei
+- **巫婆** The Witch
+- **物器流转** Material Circulation
+- **舞起升平** Dance of Amity
 - **雾切高岭** Takamine the Mistsplitter
-- **雾切御腰物** Mistsplitter's Edge
-- **雾切之回光** Mistsplitter Reforged
+- **无染的澈水** Spotless Waters
 - **污染的锚点** Corrupted Waypoints
+- **污染菌毯** Contaminated Bacterial Mats
 - **污染之始** The Start of Contamination
 - **污染区的源头** The Contamination's Source
 - **武人** Martial Artist
@@ -8025,6 +13939,7 @@
 - **武人的水漏** Martial Artist's Water Hourglass
 - **武人的头巾** Martial Artist's Bandana
 - **武人的羽饰** Martial Artist's Feather Accessory
+- **无人听的自白** Unheard Confession
 - **无人之家** Empty Abode
 - **无人知晓的梦** Dreaming Earth
 - **午日的眺望** Midday Prospects
@@ -8033,13 +13948,15 @@
 - **五伤岩** Goshou Rocks
 - **无神的丘冢** The Lost Mound
 - **武士饭** Samurice
-- **无矢之歌** Arrowless Song
 - **物是人非** When All Has Elapsed
 - **武士？魔王！决斗啦！** Samurai Sighted... To Arms!
+- **无始无终的故事** Unbegun, Unending Story
 - **无数的逆境** Against All Odds
+- **乌苏坎** Usukan
 - **雾锁烟迷** Misty Truth
 - **武田** Takeda
 - **梧桐一叶落** The Firmiana Leaf Falls
+- **乌图伦库** Uturunku
 - **无妄引咎密宫** Hidden Palace of Zhou Formula
 - **无妄坡** Wuwang Hill
 - **乌维** Uwe
@@ -8047,6 +13964,7 @@
 - **无畏的热血** Fearnaught
 - **无限的电回路** Infinite Circuit
 - **无线电静默** Radio Silence
+- **五相常寂** Quintempus Niteastetae
 - **无相交响诗** Hypostatic Symphony
 - **无相交响诗・离调乐段** Hypostatic Symphony: Dissonant Verse
 - **无相之冰** Cryo Hypostasis
@@ -8059,23 +13977,38 @@
 - **无相** Hypostasis
 - **无想刃狭间** Musoujin Gorge
 - **无心的渊镜** Mirror of Mushin
+- **无心出岫** Idle Away From Mountains
 - **无心出岫** Idle Away From the Mountains
 - **无形壁障** Invisible Barrier
+- **雾虚摇唤** Misty Summons
+- **雾虚之召** Misty Call
+- **无言的鲸歌** Whale's Whisper
 - **雾夜的灼灼电影** Flashes in the Night
+- **午夜魅影** Phantom of the Night
 - **无意弄花** To Admire the Flowers
+- **无忧的眠梦** Undisturbed Tranquility
 - **无忧梦乡** Carefree Dreamland
+- **无忧节** Festival Utsava
 - **乌有亭** Uyuu Restaurant
 - **无郁稠林** Mawtiyima Forest
+- **无余灰断** Ashes of Anupadhisesa
 - **无怨** Wuyuan
+- **五运终天** Five Fortunes Forever
 - **无郁夷摩** Mawtiyima
+- **乌宰尔** Uzayr
 - **武者的宿命** Fate of a Fighter
 ## X
 - **洗净的白萝卜** Clean Radish
 - **溪客问雨** Lotus in the Rain
 - **西狩** Westward Sojourn
 - **悉数奉还！** You Can Have Those Back!
+- **奚小二** Xi Xiao'er
 - **喜儿** Xi'er
+- **西尔弗** Silver
+- **西尔弗和迈勒斯** Silver and Melus
 - **希尔米** Hilmi
+- **席尔万** Sylvain
+- **希尔维娅** Sylvie
 - **夏冰梦身** Summerchill Dreams
 - **下风蚀地** Land of Lower Setekh
 - **夏祭** Summer Festival
@@ -8083,13 +14016,13 @@
 - **狭间的叩问** Narrow Inquiry
 - **狭间的苏生之辔碎片** Reins of Revival Fragment (The Narrows)
 - **狭间的萦思** In the Brink of Time
-- **匣里灭辰** Dragon's Bane
-- **匣里日月** Solar Pearl
 - **霞色宝珠** Glowing Gem
 - **夏夜的追想** Summer Night's Recollection
 - **遐叶论经** The Folio of Foliage
-- **匣中玉栉** Tamanooya's Casket
-- **下川** Downriver
+- **匣中玉栉** Tamakushi Casket
+- **夏安卡** Chanca
+- **遐方乐土** Elusive Elysium
+- **夏芙米娅** Haumia
 - **夏宫灵囿** Sieh an, mein Sommernachtgarten!
 - **夏祭留影** Summer Night Mementos
 - **夏祭水玉** Summer Night's Waterballoon
@@ -8104,17 +14037,23 @@
 - **遐久瞬梦间** Eternal Domain of Fleeting Dreams
 - **侠客记** Records of the Gallant
 - **遐籁的轮廓** Silhouette of the Wind's Reverie
-- **匣里龙吟** Lion's Roar
+- **夏拉帕** Xalapa
+- **夏琳** Charlene
 - **下落攻击** Plunging Attack
+- **夏萝・努伊** Haloa Nui
+- **下落斩** Plunging Strike
+- **夏洛蒂** Charlotte
+- **夏洛蒂的命星** Charlotte's Stella Fortuna
 - **霞袂飘飏** As Charming as Ever
+- **夏米安** Charmian
 - **夏姆** Shyam
 - **仙狐之章** Divina Vulpes Chapter
+- **闲揽九霄云** Retaining Clouds
 - **仙速瓶** Vial of Adeptal Speed
 - **仙跳墙** Adeptus' Temptation
-- **鲜虾脆薯盏** Crispy Potato Shrimp Platter
-- **衔珠海皇** Luxurious Sea-Lord
 - **险恶的教喻** Sinister Instruction
 - **弦歌知雅意** A Song That Knows Grace
+- **现代钟表的诞生** Birth of the Modern Clock
 - **仙道** Adeptus Bridge
 - **险地** Dangerous Grounds
 - **弦发的苍风** Splitting Gales
@@ -8122,11 +14061,17 @@
 - **像赤王子民一样行走** Walk Like King Deshret's People
 - **向冬日回归** Return to Days of Winter
 - **向拂晓的初光** To Dawn's First Light
+- **香烤肋排** Barbeque Ribs
 - **向蒙德进发** To Mondstadt
+- **向深水中的晨星** To the Stars Shining in the Depths
+- **像太阳一般通过** Like the Sun's Passage
+- **向伟大圣龙致意** Hail to the Almighty Dragonlord
 - **向无敌大胃王致敬** Bon Appétit
+- **向星星许愿** To Wish Upon a Star
 - **乡野的水源** Rural Water Source
 - **像因论派学者一样思考** Thinking Like a Vahumana Scholar
 - **祥云宛虹飞缎柱衣** Rainbow Cloud Flying Satin Pole
+- **香柏木** Cypress Wood
 - **相伴同行** Side by Side We Venture
 - **祥草杨枝** Auspicious Branch
 - **香肠** Sausage
@@ -8135,7 +14080,16 @@
 - **香川** Kagawa
 - **箱底的藏宝图** Treasure Map in a Box
 - **献给某人的蔷薇** A Gifted Rose
+- **香氛演绎** Aromatic Explication
+- **香氛瓶之章** Pomum de Ambra Chapter
+- **香氛瓶座** Pomum de Ambra
+- **香馥繁味** A Fragrant Feast of Flavors
+- **香糕塔座** Dulciaria Structura
 - **乡间的茶摊** Countryside Tea Stand
+- **箱筥座** Arcella
+- **相决，斗争的荣光** Showdown, the Glory of Battle
+- **香莙** Xiangjun
+- **香料之路** Spice Road
 - **香林繁露之夜** Overnight Dew in the Woods
 - **香菱** Xiangling
 - **香菱的命星** Xiangling's Stella Fortuna
@@ -8144,14 +14098,25 @@
 - **香嫩椒椒鸡** Jueyun Chili Chicken
 - **香浓土豆泥** Fragrant Mashed Potatoes
 - **香气四溢的爆炒肉片** Fragrant Stir-Fried Filet
+- **香气四溢的北地烟熏鸡** Fragrant Northern Smoked Chicken
+- **香气四溢的薄荷果冻** Fragrant Mint Jelly
+- **香气四溢的嘟嘟莲海鲜羹** Fragrant Calla Lily Seafood Soup
 - **香气四溢的干炒鱼河** Fragrant Stir-Fried Fish Noodles
 - **香气四溢的黄金蟹** Fragrant Golden Crab
+- **香气四溢的黄油煎鱼** Fragrant Sunshine Sprat
 - **香气四溢的金丝虾球** Fragrant Golden Shrimp Balls
 - **香气四溢的烤吃虎鱼** Fragrant Grilled Tiger Fish
+- **香气四溢的烤蘑菇披萨** Fragrant Mushroom Pizza
+- **香气四溢的烤肉排** Fragrant Steak
 - **香气四溢的扣三丝** Fragrant Triple-Layered Consommé
+- **香气四溢的冷肉拼盘** Fragrant Cold Cut Platter
 - **香气四溢的凉拌薄荷** Fragrant Mint Salad
 - **香气四溢的莲花酥** Fragrant Lotus Flower Crisp
+- **香气四溢的萝卜时蔬汤** Fragrant Radish Veggie Soup
+- **香气四溢的满足沙拉** Fragrant Satisfying Salad
+- **香气四溢的蒙德烤鱼** Fragrant Mondstadt Grilled Fish
 - **香气四溢的米窝窝** Fragrant Rice Buns
+- **香气四溢的蜜酱胡萝卜煎肉** Fragrant Sticky Honey Roast
 - **香气四溢的摩拉肉** Fragrant Mora Meat
 - **香气四溢的轻策农家菜** Fragrant Qingce Stir Fry
 - **香气四溢的清炒虾仁** Fragrant Stir-Fried Shrimp
@@ -8161,17 +14126,25 @@
 - **香气四溢的素鲍鱼** Fragrant Vegetarian Abalone
 - **香气四溢的调料** Fragrant Seasoning
 - **香气四溢的蟹黄豆腐** Fragrant Crab Roe Tofu
+- **香气四溢的蟹黄火腿焗时蔬** Fragrant Crab, Ham & Veggie Bake
 - **香气四溢的杏仁豆腐** Fragrant Almond Tofu
 - **香气四溢的腌笃鲜** Fragrant Bamboo Shoot Soup
+- **香气四溢的野菇鸡肉串** Fragrant Chicken-Mushroom Skewer
+- **香气四溢的渔人吐司** Fragrant Fisherman's Toast
+- **香气四溢的炸萝卜丸子** Fragrant Fried Radish Balls
 - **香气四溢的珍珠翡翠白玉汤** Fragrant Jewelry Soup
+- **香气四溢的庄园烤松饼** Fragrant Tea Break Pancake
 - **祥生** Xiangsheng
 - **向时的涟沦** Ripples of the Past
+- **像是跳房子？** Like Hopscotch?
 - **响太** Kyouta
 - **翔太** Shouta
 - **相位之门** Phase Gate
 - **相闻之剑法** Soumon Swordsmanship
 - **香辛果** Harra Fruit
+- **饱满的香辛果** Plump Harra Fruit
 - **香辛料** Spice
+- **祥烟瑞气** Air of Prosperity
 - **飨宴之翼** Wings of Feasting
 - **缃叶剑骨树** Amber Irontrunk Tree
 - **缃叶盘伏树** Amber Knotwood Tree
@@ -8180,32 +14153,56 @@
 - **祥应九达** Fortuitous Invitation
 - **相遇之礼** Gifts of Encounter
 - **相遇之缘** Acquaint Fate
+- **向着灯塔，或是远方** Towards the Lighthouse, or Far Away
+- **向着迷烟飘往之处** To Whence the Smoke Drifts
 - **向着胜利** Marching to Victory
+- **箱纸切削术** Boxcutter
 - **降诸魔山** Devantaka Mountain
 - **香醉坡** Gandha Hill
+- **闲鹤之章** Grus Serena Chapter
+- **闲鹤座** Grus Serena
 - **仙狐座** Divina Vulpes
+- **闲话家常** Leisurely Chatter
 - **夏妮** Shani
 - **仙家独酌** Adeptus' Solace
 - **仙家符箓** Adepti Sigil
 - **险峻的重岩** Reaction Force
+- **线列枪刺・改** Line Bayonet Thrust EX
 - **仙麟之章** Sinae Unicornis Chapter
 - **仙麟座** Sinae Unicornis
 - **仙灵** Seelie
+- **仙灵与星空之秘** Secret of Seelie and the Star-Lit Sky
 - **险路座** Rota Calamitas
 - **鲜美的史莱姆凝液** Tasty Slime Condensate
 - **纤拳石** "Dainty Fists"
 - **仙人** Adeptus<!--plural: Adepti-->
 - **线人暗号表** Informant Code Chart
 - **仙人的棋局** Red Leaf on the Chessboard
+- **仙人筑机巧** Adeptus Mechanical Marvel
 - **仙蕊玲珑** Burgeoning Grace
 - **显生之宙** Opening of Phanerozoic
 - **闲时茶话** Tea Talk
 - **闲适的陪伴** Cozy Company
+- **娴熟复装的技巧** Practiced Field Stripping Technique
 - **线索** Final Clue
+- **险途勘探** Perilous Expedition
+- **夏诺蒂拉** Canotila
+- **夏诺蒂拉与揭示之书** Canotila and the Book of Revealing
+- **纤维型海露花** Fibery Romaritime Flowers
+- **霰舞鱼群** Swirling School of Fish
+- **鲜虾脆薯盏** Crispy Potato Shrimp Platter
 - **鲜衣游侠** Gallant Challenge
 - **贤医之羽** Wise Doctor's Pinion
 - **鲜鱼炖萝卜** Radish and Fish Stew
+- **献予日炎的巡行式** Tonalpohualli's Loop
+- **献予午后的花之梦** Suchitl's Trance
+- **献予夕暮的转格调** Tlaltecuhtli's Crossfade
+- **献予慵眠的休假日** Sabbatical Phrase
+- **献予永夜的狂欢舞** Imperishable Night Carnival
+- **献予灼原的五重奏** Chiucue Mix
 - **弦月舞步** Dance of Samser
+- **闲云的命星** Xianyun's Stella Fortuna
+- **现在，认真时间！** Time to Get Serious!
 - **贤智的定期** A Time of Insight
 - **魈** Xiao
 - **小安** Nervous An
@@ -8213,30 +14210,40 @@
 - **小斌** Little Bin
 - **小德** Little De
 - **魈的命星** Xiao's Stella Fortuna
+- **小敌当前** A Minor Threat
+- **小丁** Ding Jr.
 - **小范围的改变** Small-Scale Changes
 - **小海盗，要出海！** The Little Pirate Goes Out to Sea
 - **小貉服** Mini Mujina
 - **小蝴蝶** Butterfly
 - **小吉** Jill
+- **小家伙** Little One
 - **小九九** Little Nine
-- **小吉祥草王** Lesser Lord Kusanali
+- **小卷心菜** Petit Chou
+- **小旷** Little Kuang
 - **小乐** Little Le
 - **霄雷的哲学** Philosophies of the Land of Thunder
 - **霄雷的指引** Guidance of the Land of Thunder
+- **小梁** Leong
+- **小玲** Ling
 - **小六** Little Liu
 - **小六的礼物** Little Liu's Gifts
 - **小六的信** Little Liu's Letter
 - **小龙** Little Long
 - **小绿** Midori
+- **小漫** Manie
+- **小茂** Little Mao
 - **小玫瑰** Little Rose
 - **小蒙** Little Meng
 - **小猛** Takeru
 - **小蒙的漂流瓶** Little Meng's Drifting Bottle
+- **小蒙关于船只进出的见闻** A log of ships coming in and out by Little Meng
 - **小蒙、阿飞与璐璐的对话记录** A Record of Little Meng, Little Fei, and Little Lulu's Conversation
 - **小冥** Dusky Ming
 - **小千** Brother Qian
 - **小雀儿** Little Que'er
 - **小兔之章** Lepus Chapter
+- **小伟** Wei
 - **小威** Will
 - **小五** Little Wu
 - **小乌维** Little Uwe
@@ -8244,6 +14251,7 @@
 - **小霄灯与小愿望** Little Lantern, Little Wish
 - **小星** Little Xing
 - **小蕈猪** Puny Shroomboar
+- **小郁** Little Yu
 - **小雨** Ms. Yu
 - **小月** Little Yue
 - **小月的礼物** Little Yue's Gift
@@ -8252,6 +14260,8 @@
 - **枭总管** Manager Xiao
 - **宵暗与晓光之歌** Song of Night and Dawn
 - **宵暗御所黑染** The Palace, Dyed in Black
+- **小杜林** Mini Durin
+- **小露米埃尔** Petit Lumiere
 - **小野林猪** Forest Piglet
 - **小百合** Sayuri
 - **硝彩回忆** Island of Hanabi
@@ -8262,6 +14272,7 @@
 - **小川** Ogawa
 - **小春** Koharu
 - **霄灯** Xiao Lantern
+- **霄灯共祈之时** When the Xiao Lanterns Rise As One
 - **霄灯玲珑照此地** Beneath Splendent Lanterns
 - **小灯草** Small Lamp Grass
 - **晓东** Xiaodong
@@ -8273,27 +14284,33 @@
 - **晓灰焦茶花器** Dawn Kogecha Flower Vessel
 - **小姜** Childish Jiang
 - **小卷** Komaki
+- **小狼** Wolfy
 - **小狼之章** Lupus Minor Chapter
 - **小狼座** Lupus Minor
 - **孝利** Takatoshi
 - **小猎犬号搁浅记** The Stranding of the Beagle
 - **小林** Kobayashi
-- **小玲** Ling
 - **小柳** Koyanagi
 - **小麦** Wheat
-- **小漫** Manie
 - **小猫座** Feles
+- **消泯的终末** Fading Finality
+- **效能模拟实战环** Efficacy Testing Simulation Arena
+- **肖诺** Choneaux
 - **小憩沙滩** Sunshine Beach
 - **翛然旋舞的姿影** Of Twirling Dances Unfettered
 - **小山** Koyama
 - **小畑** Obata
 - **小兔座** Lepus
-- **小伟** Wei
+- **肖维涅** Chauvigne
 - **小小的光** This Little Light of Mine
 - **小小的慧风** Mollis Favonius
-- **小小恶作剧** Sneaky &#38; Mischievous
+- **小小的新朋友** Introduction to a Little Friend
+- **小小恶作剧** Sneaky & Mischievous
+- **小小灵蕈大幻戏** Lil' Fungi's Fun-Tastic Fiesta
+- **小小幕后** A Little Stroll Backstage
 - **小型齿轮** Small Gear
 - **小型平台** Small Platform
+- **肖西韦尔** Chaussivert
 - **效言** Xiaoyan
 - **小野** Ono
 - **咲耶** Sakuya
@@ -8301,37 +14318,60 @@
 - **小野寺** Onodera
 - **小野田** Onoda
 - **小羽** Yu
+- **笑语谐趣** A Jolly Trick
+- **晓月又经宵** Till Dawn's Moon Ends Night
 - **晓月左卫门十藏** Akatsuki Saemon Juuzou
 - **小昭写给江舟的单据** Clerk Zhao's Invoice for Jiangzhou
 - **小昭写给小安的单据** Clerk Zhao's Invoice for Nervous An
 - **篠冢** Shinozuka
+- **遐庆** Xiaqing
 - **虾仁** Shrimp Meat
 - **夏日虹彩** Iridescent Summer Day
 - **夏日新冒险！** A New Summer Adventure!
 - **夏日赠礼** Summer Gift
 - **霞生石** Vermillionite
+- **夏特莱** Chatelet
 - **霞蔚征涛记** Voyage to the Sanguine Sky
+- **夏温** Cheven
+- **夏沃蕾** Chevreuse
+- **夏沃蕾的命星** Chevreuse's Stella Fortuna
+- **遐音逸奏** Resounding Melodies
+- **希巴拉克** Xbalanque
+- **西比尔** Sybilla
+- **西布** Sibu
 - **西达** Sido
+- **熙德拉** Sidra
 - **栖地纪行** Mystic Repose
 - **悉度** Sidhu
-- **喜多院十文字** Kitain Cross Spear
 - **喜多院文宗** Kitain Bunsou
+- **喜多院秀家** Kitain Hideie
 - **斜弧彩陶石** Painted Oblique Stone
+- **蟹黄豆腐** Crab Roe Tofu
+- **蟹黄壳壳烧** Crab Roe Kourayaki
+- **谐律院** Collegium Phonascorum
 - **卸去铠甲之时** When They Take Off Their Armor
 - **写有公告内容的纸条** Notice Paper
 - **邪恶的扩张** Spreading Evil
 - **邪恶的游荡** Wandering Evil
 - **谢尔盖** Sergei
+- **撷萃调香** Fragrance Extraction
 - **谢夫凯特** Shefket
 - **谢赫祖拜尔** Sheikh Zubayr
 - **蟹黄** Crab Roe
-- **蟹黄豆腐** Crab Roe Tofu
 - **蟹黄火腿焗时蔬** Crab, Ham & Veggie Bake
-- **蟹黄壳壳烧** Crab Roe Kourayaki
 - **卸力的松木围栏** Sturdy Pine Fence
+- **谢里埃** Cheriez
+- **谐律上的咏叙诗** Canticles of Harmony
+- **谐律上的咏叙诗** Canticles of Harmony
+- **谐律异想断章** Fragment of Harmonic Whimsy
 - **谢落的筵席** Wilting Feast
+- **谢妮** Chenee
+- **谐荣的旧梦** Harmonious Capitolium
+- **协商人的坚决谈判** Negotiator's Resolute Negotiations
+- **蝎尾锥刺** Stinging Spine
 - **蝎尾鬃狮之章** Mantichora Chapter
 - **蝎尾鬃狮座** Mantichora
+- **歇息处的入口** Rest Area Entrance
 - **邪眼** Delusion
 - **邪眼** Delusion
 - **邪眼的性能不是战力差距的决定因素** A Delusion's Abilities Don't Decide a Battle's Outcome
@@ -8339,101 +14379,142 @@
 - **斜倚在大地之上** Reclining on Top of the World
 - **写有谜语的纸条** Riddle Note
 - **谐振的雷光** Resonant Thunder
-- **西风长枪** Favonius Lance
+- **歇止一刻** Moment of Respite
 - **西风吹拂的日常** When the West Wind Arises
 - **西风吹拂之时** When the West Wind Arises
-- **西风大剑** Favonius Greatsword
 - **西风大教堂** Favonius Cathedral
 - **西风哗哗义卖联盟！** Favonian Goodies and Buddies
 - **西风呼呼义卖铺！** Favonian Goodies
-- **西风剑** Favonius Sword
 - **西风剑术** Favonius Bladework
 - **西风剑术・白** Favonius Bladework - Weiss
 - **西风剑术・女仆** Favonius Bladework - Maid
 - **西风剑术・宗室** Favonius Bladework - Edel
 - **西风教会** Church of Favonius<!--the faction-->
-- **西风猎弓** Favonius Warbow
-- **西风秘典** Favonius Codex
+- **西风枪术・镝传** Spear of Favonius - Arrow's Passage
 - **西风骑士团** Knights of Favonius
 - **西风骑士团** Knights of Favonius
 - **西风佑我** In the Name of Favonius
-- **西风之鹰的抗争** Falcon's Defiance
 - **西风之鹰的庙宇** Temple of the Falcon
+- **西弗安雅** Zephaniah
 - **西福斯** Xiphos
-- **西福斯的月光** Xiphos' Moonlight
 - **西格** Siger
+- **希格雯** Sigewinne
+- **希格雯的命星** Sigewinne's Stella Fortuna
+- **昔古的空响** Lonely Melody of Yore
 - **希古居** Xigu Antiques
+- **汐海引路人・其一** Tides Will Guide You Home (I)
 - **曦红摇曳菇** Scarlet Swayshroom
+- **隙间之核** Rift Core
+- **隙境原体** Breacher Primus
+- **席卷而来的暗潮** The Surging Darkness
+- **西坎** Xican
 - **西口** Nishiguchi
+- **希库埃鲁** Hikueru
 - **希拉非** Sirafi
 - **西拉杰** Siraj
+- **西里** Cyril
 - **希琳** Shirin
 - **希琳** Shirin
 - **汐零** Xiling
+- **希露艾** Sluasi
+- **希洛娜** Thirona
 - **希鲁伊** Shiruyeh
 - **希鲁伊与希琳的故事** The Tale of Shiruyeh and Shirin
-- **熙蔓·法罗赫扎德** Siman Farrokhzad
+- **熙蔓・法罗赫扎德** Siman Farrokhzad
+- **西芒** Ciment
+- **西梅** Cimest
 - **西蒙・佩奇** Seamus Pegg
 - **西敏** Simin
+- **西摩尔** Seymour
+- **希茉妮** Simone
+- **希穆兰卡** Simulanka
 - **新蓓萌生** Sprouting Seedlings
 - **心朝乂安** Analytical Harmony
 - **辛程** Xin Cheng
 - **新的风暴尚未出现** A New Storm Is Brewing
 - **新的开始** New Beginning
 - **新的冒险？出发！** New Adventure? Let's Go!
+- **新的希望** Un nouvel espoir
+- **新灵感！新产品！** New Inspiration! New Products!
 - **新六狐传** New Chronicles of the Six Kitsune
 - **心魔** The War Within
 - **新世界的猎手** Good Hunting on a New Horizon
+- **心同碧水映玉鸾** As the Heart of Jade
+- **心与月蓝色的思念** Blue Longing of Heart and Moon
 - **心斋** Clarity of Heart
 - **心之环** Ring of Hearts
 - **新兵的徽记** Recruit's Insignia
 - **信博** Nobuhiro
 - **信步行时** Stroll Along the Beach
+- **信风舞姬** Stormstress
 - **伸夫** Nobuo
+- **星本无言** Ever Silent Stars
+- **兴澄** Xing Cheng
 - **星槿・春露** Spring Dew Star Hibiscus
 - **星槿・紫锦** Violet Silk Star Hibiscus
 - **星罗圭璧之晷** Sundial of Enduring Jade
-- **星命流转** Flowing Fate
+- **星灭光离** Across Dimming Asterisms
 - **星命定轨** Stellaris Phantasm
 - **星示昭明** Starry Illumination
 - **兴叔** Pops Xing
 - **行万里路…？** To Walk The Horizon...?
 - **星纬殿堂** Temple of the Star Latitudes
+- **星与火的征途** Journey of Stars and Flames
 - **行于黎明前夜幕里** Through the Predawn Night
 - **星与月之约** Pact of Stars and Moon
 - **星陨剑** Starfell Sword
 - **星之归还** Stellar Reunion
 - **星知晓的旧梦** The Starlit Past
-- **刑部小判** Gyoubu Koban
+- **行步诸野，寻燎故焰** A Quest to Kindle Ancient Flames
 - **星彩漫天** Starlit Sky
 - **星辰君** Master of Stars
 - **星辰与深渊之旅** Iter Ad Astra Abyssosque
 - **幸德** Koutoku
+- **行动牌** Action Card
+- **行动派侦探出击** A Detective in Action
 - **星斗归位** Stellar Restoration
 - **行度誓惩** Lawful Enforcer
 - **行幡鸣弦** Yuuban Meigen
+- **兴奋的记者** Excited Reporter
+- **兴奋的纸蛙** Excited Paper Frog
+- **星光来信** Starlit Letter
 - **星光凝核** Starlight Coalescence
 - **星光下的蒙德** Mondstadt Starlit
+- **星轨王城** Constellation Metropole
 - **行过死荫之地** Descending Into the Dark
 - **行过重岩** Lost in Gravel and Stone
 - **形骸之笠** Skeletal Hat
 - **星汉灿烂之翼** Wings of Shimmering Galaxy
+- **星虎之掌** Tiger Beetle's Palm
 - **杏黄枯叶菇** Withered Buttershroom
 - **星火** Xinghuo
+- **星火，瞬息的击发** Sparks, the Sudden Shot
 - **星级大厨** Star Chef
+- **行汲众水的泉源・其一** Font of All Waters (I)
+- **星间庭园** Astral Garden
 - **星槿・秋橘** Autumn Star Hibiscus
+- **醒灵擂震** Awakening Spirit
 - **星流摇床之梦** Dream of the Star-Stream Shaker
 - **星螺** Starconch
 - **星落湖** Starfell Lake
+- **星芒若铃** Astral Chime
+- **星命流转** Flowing Fate
 - **行秋** Xingqiu
 - **行秋的命星** Xingqiu's Stella Fortuna
 - **杏仁** Almond
+- **杏仁** Almond
 - **杏仁豆腐** Almond Tofu
+- **杏仁鳟鱼** Trout Amandine
+- **醒狮座** Leo Expergiscens
+- **醒兽锐行** The Striding Beast
+- **星霜的流旋** Starfrost Swirl
+- **星霜的余音** Echoes of Ages
 - **行水盈盈** Serene and Fathomless
 - **星天的花雨** The Starry Skies Their Flowers Rain
 - **星天的预告** Surge of Prophecies
 - **星天水镜** Astral Reflection
 - **星天之兆** Starsigns
+- **行往何方** Quo Vadis
 - **星稀** Xingxi
 - **行相** Akara
 - **星象碎片** Asterism Shard
@@ -8442,6 +14523,7 @@
 - **兴修** Xingxiu
 - **星蕈** Starshroom
 - **星筵之翼** Wings of the Starlit Feast
+- **兴晔** Xingye
 - **幸也** Yukiya
 - **星夜之章** Starry Night Chapter
 - **星移势转** Backup Plan
@@ -8451,33 +14533,41 @@
 - **星银矿触媒** Starsilver Catalyst
 - **星荧洞窟** Starglow Cavern
 - **星月的连珠** Lunar Chain
+- **星月寂阒** Hushed Gleam
 - **星月之路** A Luminous Path
 - **幸运牌币** Lucky Coin
+- **幸运签** Fortune Slip
+- **幸运硬币** Lucky Coin
 - **幸运儿** Lucky Dog
 - **幸运儿绿花** Lucky Dog's Clover
 - **幸运儿沙漏** Lucky Dog's Hourglass
 - **幸运儿银冠** Lucky Dog's Silver Circlet
 - **幸运儿鹰羽** Lucky Dog's Eagle Feather
 - **幸运儿之杯** Lucky Dog's Goblet
+- **行者** Sojourner
 - **行者之心** Resolution of Sojourner
 - **星状带棱多用瓶** Star-Shaped Multipurpose Bottle
 - **行踪难觅** Hard to Track
 - **心海的采购单** Kokomi's Shopping List
 - **心护座** Parma Cordis
 - **心怀叵测之人…？** Ulterior Motive...?
+- **辛佳** Nzinga
 - **信件** Letter
 - **心景幻成** Illusory Heart
 - **心流** Shinryuu
 - **新名撰聿** An Appellative Stroke
+- **辛娜梦** Cinnamon
+- **辛奇** Sinchi
+- **欣切尔** Hinchei
 - **信任值** Trust
 - **信盛** Nobumori
-- **信使** Messenger
 - **心识蕴藏之种** The Seed of Stored Knowledge
 - **新手长枪** Beginner's Protector
 - **新手盗宝鼬** Amateur Weasel Thief
 - **心碎球** Heartbreak Balloon
 - **心跳的记忆** Memories of the Heart
-- **席诺拉<ref name=Naming>{{Ref/Quest|As Though Morning Dew|note=While giving the Wanderer a name}}</ref>** Signora
+- **希诺宁** Xilonen
+- **希诺宁的命星** Xilonen's Stella Fortuna
 - **心雾** Unshrouded Resolution
 - **新鲜的墩墩桃** Fresh Zaytun Peach
 - **新鲜的绯樱绣球** Fresh Sakura Bloom
@@ -8488,6 +14578,8 @@
 - **新鲜的落落莓** Fresh Valberry
 - **新鲜的蘑菇** Fresh Mushroom
 - **新鲜的鸟蛋** Fresh Bird Egg
+- **新鲜的苹果** Fresh Apple
+- **新鲜的清心** Fresh Qingxin
 - **新鲜的清心** Fresh Qingxin
 - **新鲜的禽肉** Fresh Meat
 - **新鲜的史莱姆凝液** Fresh Slime Condensate
@@ -8499,6 +14591,7 @@
 - **新鲜的鱼肉** Fresh Fish
 - **新鲜的鱼肉** Fresh Fish
 - **新鲜的海草** Fresh Seagrass
+- **新鲜空气** Fresh Air
 - **辛秀** Xinxiu
 - **新芽迸发的曲调** The Rhythm that Nurtures the Sprout
 - **新芽之枝** Sprouting Branch
@@ -8507,25 +14600,35 @@
 - **心意♪注入** With My Whole Heart♪
 - **心有灵犀一电通** Our Hearts as One
 - **新月轩** Xinyue Kiosk
+- **心织刀流** Weaving Blade
 - **新之丞** Shinnojou
+- **心珠循琅** Immaculate Pulse
 - **凶将显形** Shogun's Descent
+- **凶鳄狂浪** Reptilian Rage
 - **凶将之手眼** Mudra of the Malefic General
 - **凶猛动物在哪里** Where Are the Fierce Creatures?
 - **雄三** Yuuzou
 - **凶险的密谋** A Wicked Plot
-- **凶勇兵阵** Camp of Champions
+- **西帕克** Cipac
+- **希皮利** Xipilli
+- **溪泉** Stream
 - **熙攘的街市** Bustling Streets
 - **昔日「荣光」已逝** Bygone Glories Passed
 - **昔日的风** Winds of the Past
 - **昔日宗室之仪** Noblesse Oblige
+- **希塞蕾** Chisseray
 - **希沙姆** Hisham
 - **牺牲的教谕** Orobashi's Teaching
+- **昔时丰饶之地** Once a Land of Amoene
 - **昔时颓响** A Dim Echo of the Past
 - **昔时遥忆** Nameless Days
+- **昔时之歌** Song of Days Past
 - **悉数讨回** Paid in Full
 - **洗刷耻辱的一战** Battle of Revenge
 - **戏水危险** Perilous Watersport
 - **希忒** Sitt
+- **茜特菈莉** Citlali
+- **袖** Tamoto
 - **袖火百景图** Tricks of the Trouble-Maker
 - **绣荚・栖霞** Twilight Silkpod
 - **绣荚・午日** Noontide Silkpod
@@ -8534,12 +14637,16 @@
 - **修好的梳子** Repaired Comb
 - **秀华** Xiuhua
 - **绣荚・晓妆** Dawnrouge Silkpod
+- **修库特尔** Xiuhcoatl
+- **修炼的奥义** The Profound Purpose of Practice
 - **修梨薜那** Silapna
 - **朽裂之庚牌** Aged Token
 - **修茂弥亘树** Verdant Meandering Wood
 - **休眠菌核** Dormant Fungal Nucleus
 - **朽木与磐石的对谈** Dialogue Twixt Ancient Tree and Rock
+- **休憩之余** After Repose
 - **秀秋** Hideaki
+- **锈蚀的铁钥匙** Rusty Iron Key
 - **锈蚀的钥匙** Rust-Worn Key
 - **修斯** Hughes
 - **修永** Xiuyong
@@ -8547,21 +14654,35 @@
 - **希望的航程** What a Hopeful Voyage
 - **希望的和风** A Yearning Breeze
 - **希望的明日** Another Hopeful Tomorrow
+- **希望之路** Chemin de L'Espoir
 - **希望之旅** Journey of Hope
+- **西瓦尼** Jiwani
+- **西薇** Cival
+- **希乌休** Xiuhyo
 - **西西** Xixi
 - **西乡** Saigou
+- **细想应是洞中仙** Consider, the Adeptus in Her Realm
+- **细心的匿叶龙** Diligent Yumkasaur
+- **悉心一作** The Endeavor
 - **熄星精粹** Fading Star's Essence
 - **熄星纪行** Fading Star
 - **熄星能量** Fading Star's Might
+- **希娅** Ceasth
+- **希亚赫** Siyah
 - **熙焰明光** Flickering Brightness
+- **茜娅** Siora
 - **蜥蜴尾巴** Lizard Tail
 - **蜥蜴人** Reptilian
+- **希伊亚** Hiia
 - **细语回萦** Whispers of Immensity
+- **细雨将至** There Will Come Soft Rains
+- **细雨眷恋之城** The City of Rains and Remembrance
 - **西域来客** A Visitor From Westward Realms
-- **息灾** Calamity Queller
-- **洗濯诸类之形** The Cleansing Form
+- **汐藻** Tidalga
+- **细致入微的诊疗** Detailed Diagnosis, Thorough Treatment
 - **徐六石** Xu Liushi
 - **徐如旷林** The Languid Wood
+- **虚与实的秘言** Illusory Truth
 - **璇步流霞** Path of Gleaming Jade
 - **悬鲷狩** Snap and Swing
 - **旋火轮** Pyronado
@@ -8663,29 +14784,53 @@
 - **旋曜玉帛・其一** Radiant Spincrystal 1
 - **旋曜玉帛・其十一** Radiant Spincrystal 11
 - **玄月宝箱** Mystmoon Chest
+- **旋规设矩** Schematic Setup
 - **玄璧云聚** The Great Gathering
+- **旋步霞蔚上** Astride Rose-Colored Clouds
 - **玄冬林檎** Gendou Ringo
 - **悬帆** Xuanfan
 - **喧繁之港** Hustle and Bustle of Ormos
 - **旋风** Whirlwind
 - **旋风女仆** Combat Maid
+- **旋覆** Xuanfu
+- **悬壶之章** Lagenaria Chapter
 - **悬壶座** Lagenaria
 - **喧哗屋传说** Fight Club Legend
+- **眩惑光戏法** Bewildering Lights
+- **玄机** Xuanji
 - **璇玑合璧镇昆仑** Shock Effect
 - **璇玑屏** Jade Screen
+- **旋蓝之舞** Whirling of [[Faruzan/Lore#Etymology|Vairambhaka]]
+- **玄理** Kuromaro
+- **悬练山** Mt. Xuanlian
+- **悬铃木** Mallow Wood
+- **旋流屿** Swirling Isles
+- **玄鸾画水** Black Pheasant Strides on Water
+- **玄迷灵敏的指法** Prestidigitation
 - **玄三** Genzou
+- **玄文兽** Xuanwen Beast
 - **旋涡球** Vortex Balloon
 - **漩涡之遗** Vortex's Wake
 - **漩涡、落星与冰山** Vortex of Legends
 - **漩涡？竞速！冲浪啦！** Whirlpool off to Starboard... Full Speed Ahead!
 - **悬岩宸断** Resonant Waves
 - **玄岩之塔** Basalt Pillar
+- **玄燕座** Hirundo Lazuli
+- **旋曜玉帛・其九十八** Radiant Spincrystal 98
+- **旋曜玉帛・其九十六** Radiant Spincrystal 96
+- **旋曜玉帛・其九十七** Radiant Spincrystal 97
+- **旋曜玉帛・其九十四** Radiant Spincrystal 94
+- **旋曜玉帛・其九十五** Radiant Spincrystal 95
+- **旋曜玉帛・其一百零七** Radiant Spincrystal 107
+- **玄玉瑶芳** Twilight Blossom
 - **眩晕** Knockout
 - **旋云开相** Opening Flourish
+- **轩瞩** Xuanzhu
 - **旋转冰蕈兽** Whirling Cryo Fungus
 - **旋转火蕈兽** Whirling Pyro Fungus
 - **旋转雷蕈兽** Whirling Electro Fungus
 - **许伯利翁哀歌** Hyperion's Dirge
+- **许迪** Xudi
 - **旭东** Xudong
 - **旭东的信** Xudong's Letter
 - **血赤叶红** Crimson Momiji
@@ -8696,10 +14841,11 @@
 - **雪隐鼬** Snow Weasel
 - **雪隐之翼** Wings of Concealing Snow
 - **雪影纪行** Shadowed Snowfall
-- **雪葬的星银** Snow-Tombed Starsilver
 - **血之灶火** Sanguine Rouge
+- **雪翅雁** Snow-Winged Goose
 - **雪暴中迷途** Striding in the Snowstorm
 - **雪峰胜景<!--,--> 星耀奇旅** Enchanting Journey of Snow and Stars
+- **雪糕** Snowball
 - **雪怪伯** Baron Bigfoot
 - **雪国的终曲** Finale of the Snowtomb
 - **雪鹤之章** Grus Nivis Chapter
@@ -8714,6 +14860,7 @@
 - **雪山上的贼影** Raiders Amidst Snow Mist
 - **雪山特训** Dragonspine Special Training
 - **雪山再勘测** The Great Mountain Survey II
+- **学生时代** School Days
 - **学士** Scholar
 - **学士的镜片** Scholar's Lens
 - **学士的墨杯** Scholar's Ink Cup
@@ -8724,9 +14871,11 @@
 - **学徒笔记** Apprentice's Notes
 - **雪掩的往事** Snow-Buried Tales
 - **血玉之枝** Bloodjade Branch
-- **削月筑阳真君** Moon Carver
-- **雪葬之都・近郊** Entombed City - Outskirts
-- **雪葬之都・旧宫** Entombed City - Ancient Palace
+- **学院某处的钥匙** Key to Some Place in the Institute
+- **学院庆典** Akademiya Extravaganza
+- **雪月与芦笛之舞** Dance of the Snowy Moon and Flute
+- **雪葬之都・近郊** Entombed City &ndash; Outskirts
+- **雪葬之都・旧宫** Entombed City &ndash; Ancient Palace
 - **雪葬之都的记忆** Memory of the Entombed City
 - **学者与「学者」** Scholarly Pretensions
 - **学者与传说** When Scholar and Legends Meet
@@ -8735,6 +14884,7 @@
 - **雪猪** Snowboar
 - **靴子鼬** Boot Weasel
 - **煦风碧叶** Verdant Leaves in the Balmy Breeze
+- **煦风染细浪** Mellow Alize
 - **绪风之拥** Embrace of Winds
 - **虚构的凯旋式** Triumph of the Imagination
 - **虚空的处境** A Hollowed Skull
@@ -8749,14 +14899,15 @@
 - **须弥怪物生态调查** Sumeru Monster Ecology Survey
 - **须弥教令院** Sumeru Akademiya
 - **须弥蔷薇** Sumeru Rose
-- **须弥杂货店** Sumeru General Goods Shop
 - **须弥城** Sumeru City
 - **寻得龙蛇踪** The Trail of Drake and Serpent
+- **巡火猎秘** Seeker of Flame-Wrought Secrets
 - **勋绩之花** Flower of Accolades
 - **循雷的冒险家・其二** Lightning-Riding Adventurer (II)
 - **循雷的冒险家・其一** Lightning-Riding Adventurer (I)
 - **循礼知心** Through the Motions, to the Heart
 - **寻猫要诀** To Catch a Kitten
+- **寻秘四方** A Search for Secrets
 - **迅破枪势** Swiftshatter Spear
 - **熏禽肉** Smoked Fowl
 - **寻人告示板** Missing Person Bulletin Board
@@ -8770,31 +14921,48 @@
 - **寻宝的方法…之二？** The Path of the Treasure-Seeker... Part II?
 - **寻宝鸦印** Treasure Hoarder Insignia
 - **徇察五风** Wind Chaser
+- **巡轨船** Aquabus
 - **巡护深林** Deepwood Patrol
+- **寻欢作乐** Make Merry
+- **寻迹向前** Further Investigation
+- **迅捷锤击** Rapid Hammer Strike
+- **迅捷礼刺剑** Rapid Ritesword
+- **迅捷剑座** Rapperia
+- **迅捷剑锋** Swift Point
 - **迅捷流风** Impetuous Flow
+- **迅捷闪击** Blitz Strike
+- **迅捷行军策略** Double Time March
+- **迅捷剑之章** Rapperia Chapter
 - **循雷的寻宝者・其二** Lightning-Riding Treasure Hunter (II)
 - **循雷的寻宝者・其一** Lightning-Riding Treasure Hunter (I)
 - **训练大剑** Waster Greatsword
 - **训练有素的考古学家** A Well-Trained Archaeologist
+- **迅烈倾霜拳** Forceful Fists of Frost
 - **巡林常途的百千趣事** Forest Patrol Anecdotes
 - **巡林犬** Forest-Patrol Hound
 - **巡林小队，出发！** Go Go, Forest Rangers!
-- **巡林队** Forest Rangers
-- **巡林官** Forest Watcher
 - **巡林官精选** Forest Watcher's Choice
-- **巡林员** Forest Ranger
 - **巡逻足轻** Patrol Soldier
+- **巡日塔门书** Pylon of the Sojourning Sun Temple
 - **迅生的丰草** Viridian Transience
+- **讯使长屋** Courier's Longhouse
 - **蕈兽** Fungus
 - **蕈兽引起的混乱** Fungal Fracas
+- **寻溯蜜虫之宝** Aphid Treasure Trace
 - **蕈王钩喙** Majestic Hooked Beak
 - **寻物航行** Treasure Voyage
+- **寻物锚针** Search Compass
 - **熏习成就之芽** The Shoot of Conscious Attainment
+- **蕈蕈雷法师** Stormsage
 - **循循守月** Plenilune Gaze
+- **寻医** The Search for a Physician
 - **巡御蘙荟** Viridescent Vigil
 - **寻找不存在之人** In Pursuit of a Phantom
+- **寻找神秘岛的人** Those Searching for the Mysterious Island
 - **须婆达之彦** Supada no Hiko
 - **虚荣的落幕** Wreck of Eternal Bane
+- **虚弱的大灵显化身** Weakened Wayob Manifestation
+- **虚弱的绒翼龙** Weakened Qucusaur
 - **墟散人离之处** Domain of Forsaken Ruins
 - **虚实工笔** Blades Amidst Raindrops
 - **虚实流动** Illusory Torrent
@@ -8806,21 +14974,29 @@
 - **须臾百梦** Transient Dreams
 - **须臾树脂** Transient Resin
 - **须臾一瞬的烈风** Outbursting Gust
+- **絮语岛** Whispering Isle
 - **序章** Prologue
 ## Y
 - **鸦** Crow
 - **牙** The Fang
 - **鸦羽** Dark Wings
-- **鸦羽弓** Raven Bow
 - **亚尔伯里奇一族** Alberich Clan
 - **崖边怪人与危险的研究？** The Cliffside Weirdo and a Risky Study?
 - **牙纛探海** Seafaring General
+- **雅各** Jaiques
+- **亚格贝乌** Yagbeu
 - **雅各布・马斯克** Jacob Musk
+- **雅各布・英戈德** Jakob Ingold
 - **亚卡巴** Aqaba
+- **雅克** Jacques
+- **雅克** Jak
 - **雅科夫** Yakov
 - **亚拉** Yara
+- **雅拉德** Jalade
+- **亚蕾琪** Yareche
+- **雅蕾希** Yaretzi
+- **亚历克塞** Alexis
 - **亚历山德拉** Alexandra
-- **亚琉** Aru
 - **芽绿锦簇** Verdant Bloom
 - **哑默的大地** Listless and Numb Ground
 - **岩** Geo
@@ -8847,6 +15023,7 @@
 - **岩下迷境** Chasmic Maze
 - **焰硝庭火舞** Niwabi Fire-Dance
 - **岩游记** Geo Travel Diary
+- **岩与契约** Stone and Contracts
 - **岩元素反应？** Geo Elemental Reaction?
 - **岩者，六合引之为骨** Rock, the Backbone of Earth
 - **焰之赤武** Warrior of Flame
@@ -8862,23 +15039,29 @@
 - **彦博的字条** Yanbo's Note
 - **岩藏道启** Iwakura Michihiro
 - **岩藏光造** Iwakura Mitsunari
-- **岩藏之胤** Iwakura Succession
 - **岩藏武艺帐** Iwakura Out
 - **偃草若化** Surgent Manifestation
 - **演唱，开始♪** Let the Show Begin♪
+- **岩簇飞刺** Rock Projectile
 - **检地** Land Survey
 - **岩巅大侠往事** A Cliff-Side Hero's Past
 - **嫣朵拉** Endora
 - **腌笃鲜** Bamboo Shoot Soup
 - **烟绯** Yanfei
 - **烟绯的命星** Yanfei's Stella Fortuna
+- **岩峰巡歌** Peak Patrol Song
 - **岩夫** Iwao
 - **仰灵威召将役咒** Spring Spirit Summoning
 - **阳之镜** Mirror of the Sun
+- **扬尘如幕** Kingdom of Dust
 - **养成道具** Character Development Items
 - **洋葱** Onion
 - **阳斗** Haruto
+- **炀旱的岩谷** Arid Canyon
+- **洋红扇尾鸽** Magenta Fantail Pigeon
+- **阳华** Solar Isotoma
 - **阳介** Yousuke
+- **洋流** Current
 - **央陆长柄武器原胚** Midlander Polearm Billet
 - **央陆单手剑原胚** Midlander Sword Billet
 - **央陆法器原胚** Midlander Catalyst Billet
@@ -8886,22 +15069,32 @@
 - **央陆双手剑原胚** Midlander Claymore Billet
 - **杨尼斯** Iaanesh
 - **阳辔之遗** Solar Relic
+- **扬水制流** Rising Waters
 - **阳太** Youta
+- **延古** Iengu
 - **阳炎之幻** Sunfire Phantasm
 - **漾影逐波** Chasing the Reflection
+- **养育的增殖生命体** Provender Proliferating Organism
+- **羊杂哈吉斯** Haggis
 - **烟海梭巡** Vigilance at Sea
 - **烟海梭巡** Vigilance at Sea
 - **严寒** Sheer Cold
 - **岩壑之崩** Rage Beneath the Mountains
 - **殷红终夜** Red Dead of Night
+- **掩护的心意** Intent to Cover
 - **烟花试玩计划** Playing With Fire... Works
+- **炎花献礼** Gift of Flaming Flowers
 - **烟火打扬** Firework Flare-Up
 - **烟花少女与奇妙童话** The Firework Girl's Strange Stories
 - **烟火之邀** Invitation to Mundane Life
+- **岩脊** Stone Stele
 - **岩间对饮** Drink With a Hermit
 - **岩间引路人** Lithic Guide
 - **严谨的日程安排表** Rigorous Schedule
+- **炎晶迸击** Blazing Strike
 - **岩窟流明** Chasmlighter
+- **焰灵的契约** Flame Spirit Pact
+- **「烟谜主」** "Masters of the Night-Wind"
 - **湮没的忆念** Sink Into Oblivion
 - **湮没之音** Resounding of Silence
 - **炎色配比法** Blazing Match
@@ -8911,10 +15104,17 @@
 - **岩神瞳共鸣石** Geoculus Resonance Stone
 - **炎生** Flame Born
 - **严师出高徒** A Strict Master Trains a Talented Pupil
+- **岩石大盾** Craggy Greatshield
+- **延时引信弹药** Delayed Fuse Munitions
 - **眼狩令** Vision Hunt Decree
-- **严霜轰震** Shuddering Frost
+- **严霜铁铳** Frost Cannon
+- **延索** Yantho
+- **延塔莎** Yantasar
 - **岩田** Iwata
-- **岩王帝君 / 岩王爷** Rex Lapis
+- **沿途百景会心** Countless Sights to See
+- **雅诺斯基** Yanovsky
+- **雅努斯通道** Passage of Ianus
+- **雅努斯之门** Initium Iani
 - **演武传心** Warrior's Spirit
 - **筵席终散** Banquet of Parting
 - **烟霞入梦阁** Cloudy Haze Dream-Court
@@ -8925,8 +15125,10 @@
 - **焰硝花火** Blaze Bloom
 - **炎啸狮子咬** Leonine Bite
 - **言笑做给江雪的饭** Meal Box by Smiley Yanxiao for Jiangxue
+- **炎岩之颂** Magmic Ode
 - **衍溢的汐潮** The Overflow
 - **岩雨** Rain of Stone
+- **檐宇猫游** Cat Upon the Eaves
 - **焰羽星花** Flameplume Starflowers
 - **宴语韵悠悠** Halcyon Times
 - **岩渊的冒险家** Chasm Adventurer
@@ -8934,7 +15136,6 @@
 - **岩渊引路人** Gorge Guide
 - **掩月天权** Eclipsing Star
 - **掩月之阁** Moon-Eclipsing Chamber
-- **岩蔵流** Iwakura Clan
 - **严正净衣** Solemn Purity
 - **岩中幽谷** The Lost Valley
 - **岩主的骤崩** The Sudden Collapse
@@ -8943,42 +15144,67 @@
 - **瑶林的冒险家** Adventurer of the Shimmering Woods
 - **钥形的「镇物」** Key-Shaped Ward
 - **要一尘不染才行** Must Be Spotless
+- **要用原力，斯露莎** Use the Force, Sorush
+- **药蝶谷** Yaodie Valley
+- **遥古喁望之阳** Eternal Sun, Eternal Want
 - **妖怪** Youkai
 - **曜光灵炬** Radiant Soulfire
 - **瑶光滩** Yaoguang Shoal
 - **妖鬼狂言百物语** Tales of Monstrous Madness
 - **摇滚的食谱** A Rad Recipe
+- **摇滚团子牛奶** Rock 'n' Roll Dango Milk
+- **邀欢同游** Se mettre sur son trente-et-un !
 - **药剂通识** General Pharmaceutics
+- **药剂应对法** Concocted Reaction
+- **要诀是保持笑容！** The Trick Is to Keep Smiling!
 - **妖狸** Bake-Danuki
 - **妖狸的赠礼** The Bake-Danukis' Gift
 - **瑶林的寻宝者** Treasure Hunter of the Shimmering Woods
+- **瑶露** Yaolu
 - **瑶木静意之思** Thoughts and Prayers
+- **邀请锚点** Summon Station
 - **要求太多的大蘑头** The Mushroom That Asks Too Much
 - **要求特别多的作家** A Particularly Particular Author
+- **钥匙** Key
 - **钥匙** Key
 - **药师的笔记本・二** Pharmacist's Notebook (II)
 - **药师的笔记本・三** Pharmacist's Notebook (III)
 - **药师的笔记本・一** Pharmacist's Notebook (I)
 - **钥匙是易丢品** Lost Key
+- **妖说歧尾之变** Bewitching, Betwitching Tails
+- **遥天的图景** Distant Portrayal
 - **妖雾重重** Haunted Tales
 - **瑶瑶** Yaoyao
 - **瑶瑶的命星** Yaoyao's Stella Fortuna
 - **杳杳孤鸿** Solitary Stray Bird
 - **摇摇欲坠的罪恶** Crumbling Guilt
+- **摇曳灯火一分为二** The Flickering Light Splits in Twain
 - **遥夜华竞** Evening Luxury
 - **遥远的嘱托** Faraway Solicitude
 - **邀约** Zhongli's Treat
 - **邀约事件** Hangout Event
+- **肴馔之翼** Wings of Delicacies
 - **雅普** Jaap
+- **亚瑟先生** Sir Arthur
+- **亚莎特尔** Yarshater
 - **雅丝敏** Yasmin
+- **亚斯妥曼瑟・芭比洛斯・崔斯梅姬斯图斯** Astromancer Barbeloth Trismegistus
+- **娅特兰** Yatlan
+- **亚瓦尔** Yawar
 - **雅瓦娜尼** Yavanani
 - **雅瓦娜尼的苹果需求** Yavanani's Apples
 - **鸦羽天狗霆雷召咒** Tengu Stormcall
 - **压制** Suppression
 - **压制射击** Precise Shot
+- **压制特化型机关** Suppression Specialist Mek
+- **叶德** Yip Tak
 - **叶落天涯** Falling Leaves
+- **野蔷薇之章** Rosa Multiflora Chapter
 - **夜枭之章** Noctua Chapter
+- **夜阳斗技** Nightsun Style
 - **叶隐芳名** A Sobriquet Under Shade
+- **夜之玉** Night Jade
+- **耶尔米尼** Ielmini
 - **夜航员** Night Pilot
 - **夜中飞鸟坠于三段** The Night-Bird Falls at the Curtain's Call
 - **夜叉** Yaksha
@@ -8989,7 +15215,7 @@
 - **野方** Nogata
 - **叶菲・雪奈茨维奇** Efim Snezhevich
 - **野伏** Nobushi
-- **野伏阵代** Nobushi Formation
+- **夜蝠座** Vampyrum Spectrum
 - **叶夫格拉夫** Yevgraf
 - **叶夫卡** Chevka
 - **叶戈尔** Yegor
@@ -8999,23 +15225,38 @@
 - **业果木「静语」长椅** Karmaphala Wood "Subdued Speech" Bench
 - **业果木陈列桌** Karmaphala Display Table
 - **业果木三纵面广告牌** Karmaphala Three-Ply Noticeboard
+- **业果木散货铺位** Karmaphala Wood Bulk Goods Berth
 - **业果木远海液货货架** Karmaphala Wood Liquid Cargo Rack
+- **夜虹逐跃** Riding the Night-Rainbow
 - **野狐供真篇** Yakan Offering
 - **野狐说禅** Meditations of a Yako
 - **野花记忆的绿野** In Remembrance of Viridescent Fields
+- **夜魂试炼** Night's Trial
+- **夜魂试炼之所** Chamber of Night's Trial
+- **夜魂之灵** Nightsoul Spirit
 - **野火的豪烈** Raging Wildfire
 - **叶卡捷琳娜** Ekaterina
+- **叶莱菲** Yelafath
 - **夜兰** Yelan
 - **夜兰的命星** Yelan's Stella Fortuna
+- **叶莲娜** Yelena
+- **耶里门** Yerimen
 - **野林猪** Forest Boar
+- **叶绿扇尾鸽** Viridian Fantail Pigeon
+- **叶轮轻扫** Floral-Ring Caress
 - **叶落风随** Leaves in the Wind
 - **叶落荒波** Fall of Maples
 - **野马泉，又名摩利支** Flowing Sunfire, Also Known as Marishi
+- **夜猫子** Night Owl
 - **叶名山薰** Hanayama Kaoru
 - **夜泊石** Noctilucous Jade
 - **夜泊石样品** Noctilucous Jade Sample
 - **野崎** Nosaki
+- **野蔷薇座** Rosa Multiflora
 - **耶沙法特** Iosaphat
+- **夜神** Yohualtecuhtin, Lord of the Night
+- **「夜神空间」** "Realm of the Night Kingdom"
+- **夜神之国** Night Kingdom
 - **野生琉璃百合** Wild Glaze Lily
 - **谒颂幽境** Yasna Monument
 - **谒索雷痕** Thunder Sojourn
@@ -9025,16 +15266,20 @@
 - **夜行** Night Walk
 - **夜行暗火** Darknight Blaze
 - **夜巡影翼** Nightrider
+- **夜巡之获** Night Vigil's Harvest
 - **夜鸦航线** Nachtraben Airlines
+- **夜翳的通感** Nightshade Synesthesia
 - **夜莺座** Luscinia
 - **野云万里** Wandering Clouds
 - **业障** Karma
+- **夜主的授记** The Night-Lord's Explication
 - **野猪公主** The Boar Princess
 - **野踪罗盘** Wilderness Compass
 - **毅** Takeshi
 - **以「安弗塔斯」之名** In the Name of Anfortas
 - **一把被废弃的刀** A Discarded Blade
 - **一包首饰** Bag of Ornaments
+- **一场公差** An Official Mission
 - **一大袋摩拉** A Huge Bag of Mora
 - **一袋豆子** A Bag of Beans
 - **一袋花种** Bag of Flower Seeds
@@ -9044,52 +15289,68 @@
 - **移灯** Beckoning Stars
 - **易地则明，失线则弗** Shifting Earth and Lost Threads Come to Light
 - **异动** Strange Shifts
+- **以督促为责任** A Responsibility to Oversee
+- **以独立为先决** An Imperative to Independence
 - **以反抗之人的名义** In the Name of the Resistance
 - **一封短信** A Short Letter
 - **一封家信** Family Letter
+- **一罐鱼苗** A Can of Fry
 - **一盒钉子** Box of Nails
 - **一盒零件** A Box of Components
+- **以核实为约束** A Need to Verify Facts
 - **一壶酒** A Jug of Wine
 - **以魂证心** Of Heart and Soul
+- **以火织命** Flames Weave Life
 - **一箭双丘丘！** One Arrow to Rule Them All
 - **已激活・罐装知识** Activated・Canned Knowledge
 - **一筷食二轮烹三餐尽欢四海扬名五味俱全** One for the Foodies, Two for the Show
 - **一捆绳索** A Bundle of Ropes
 - **一览众山小** Towering Achievement
+- **以良知为原则** A Principle of Conscience
 - **一路随风** Follow the Wind
 - **异梦溶媒** Dream Solvent
+- **以求真为职守** A Duty to Pursue Truth
 - **一曲瑶琴与谁听** A Single Harmony for an Irreplaceable Soul
 - **异人祓行芝居** Spring Cleaning
 - **一日巫女** Shrine Maiden for a Day
 - **已如风中残烛？** A Candle in the Wind?
+- **以世界之格的诉说** World-Order Narration
 - **已逝去的末日** Apocalypse Lost
 - **一条名叫洛蒂娅的鱼** A Fish Called Rhodeia
 - **以文会友** Friendship in Writing
 - **一弦** Yi Xian
 - **一线断时…** No Strings Attached, Anymore
 - **一项神秘的命令** A Mysterious Order
-- **一心二用之术** Multi-Task no Jutsu
 - **一叶新生** A New Leaf
 - **医樱** Sakura Arborism
+- **以有趣相关为要义** A Summation of Interest
 - **一柱** Yi Zhu
 - **一柱的甜食需求** Yi Zhu's Snack
+- **疑案浮现** Suspicions Aroused
 - **伊安珊** Iansan
 - **伊恩** Ion
 - **伊尔佳** Ylgr
+- **伊尔梅** Hilmer
 - **伊尔明** Irmin
 - **宜年** Yi'nian
-- **异世界行记** Otherworldly Story
+- **异重力凝水体** Allogravity-Condensed Water Body
+- **咦？纳塔？** Hmm? Natlan?
 - **一把钥匙开一把锁** One Key for Each Lock
 - **异邦草翦** Foreign Fieldcleaver
+- **异邦激流** Foreign Stream
 - **异邦惊雷** Foreign Thundershock
+- **异邦烈焰** Foreign Blaze
 - **异邦铁风** Foreign Ironwind
 - **异邦岩锋** Foreign Rockblade
 - **异邦人与异邦人** Outlander Vs. Outlander
 - **一把无主的刀** A Masterless Blade
 - **异变之石** Mutation Stone
+- **伊波莱** Ipora
+- **伊伯特** Ebert
 - **伊部** Ipe
 - **一步登天** Sky's the Limit
 - **溢彩华庭** Illuminated Coral Palace
+- **衣裁三礼** A Tailor's Three Courtesies
 - **异常的权柄** Unexpected Power
 - **异常的须弥蔷薇** Strange Sumeru Rose
 - **一成** Yicheng
@@ -9097,6 +15358,8 @@
 - **一触即发** Sparkly Explosion
 - **伊吹** Ibuki
 - **一锤定音的食材** Secret Ingredient
+- **伊茨昆** Itzcuin
+- **役从的继叙咏** Sequentia Sequelarum
 - **伊达** Date
 - **伊达的认可状** Date's Medal of Recognition
 - **伊达的挑战状** Date's Challenge
@@ -9107,23 +15370,34 @@
 - **伊德里西** Idrisi
 - **仪典剑术** Ceremonial Bladework
 - **伊甸之花** Flower of Eden
+- **伊蒂莉** Ixtli
+- **伊迪娅** Idyia
 - **一段回忆** Remembrance
+- **伊法** Ifa
 - **伊凡** Ivan
 - **伊凡诺维奇** Ivanovich
+- **一份通知** A Certain Notice
+- **弈丰** Yifeng
 - **遗风逸尘** Obliterated Dust
 - **义高** Yoshitaka
 - **一个冬天的童话** Winter Wonderland
+- **一个枫丹人的回忆** Recollections of a Fontainian
 - **一个男孩的去信** A Boy's Letter
 - **义贯** Elucidation
+- **移光拾影** Shadows in Motion
+- **熠光云行** Iridescent Cloud-Striding
 - **异国的披萨** Pizza From Another Land
 - **异国骑士璃月行记** A Knight's Journey Through Liyue
 - **异国之盏** Goblet of the Sojourner
 - **一盒「乡土」** Boxful of Homeland Soil
-- **翳狐机关** Obscuro Vulpes Mechanism
+- **伊赫卡** Ichca
 - **熠辉轨度剑** Sword of the Radiant Path
+- **疑惑的调查员** Doubtful Investigator
 - **遗迹防卫者** Ruin Defender
+- **遗迹火炬** Ruins Torch
 - **遗迹歼击者** Ruin Destroyer
 - **遗迹机兵** Ruin Sentinel
+- **遗迹机关的核心** Ruin Machine Core
 - **遗迹机关的核心** Ruin Machine Core
 - **遗迹巨蛇** Ruin Serpent
 - **遗迹巨像** Ruin Golem
@@ -9138,34 +15412,64 @@
 - **遗迹重机** Ruin Grader
 - **遗迹先生，别再冲了{{lmdash}}！** Stop It, Mr. Robot!
 - **义坚** Yijian
+- **一件小事** A Certain Trifle
 - **伊吉德尔** Izder
+- **异界生命核** Alien Life Core
 - **遗诫犹在** Faith in the Percept
 - **异界之星** Star of Another World
 - **伊洁贝儿** Izebel
+- **熠金妙剂** Glittering Elixirs
+- **依旧让人垂涎欲滴！** Still Mouthwatering!
+- **毅钧** Yijun
 - **义军之砦** Fortification of Resistance
-- **一揆寇首** Riotous Leader
+- **伊卡力** Izcalli
+- **伊卡尤** Icayo
+- **伊柯蒂** Ixkotii
+- **伊克娜** Iknal
+- **一空一切空** All in One, All in Vain
+- **伊葵** Ixquieh
 - **一阔** Yikuo
+- **伊拉德** Irade
+- **伊莱帕** Illapa
 - **伊拉杰** Iradj
 - **伊拉兹** Iraj
 - **伊雷因** Ilyin
-- **以理服人** Debate Club
+- **伊莲** Helene
 - **伊廖沙** Ilyusha
 - **意料之外的救星** Unexpected Savior
+- **伊莉米娅** Irimia
+- **伊利萨** Irizar
 - **伊丽丝** Iris
 - **伊利亚斯** Ilyas
+- **伊黎耶** Erinnyes
+- **伊黎耶的野精灵** The Wild Fairy of Erinnyes
+- **伊黎耶林区** Erinnyes Forest
+- **伊黎耶岛** Erinnyes
+- **遗珑埠** Yilong Wharf<!-- / Yilong Port-->
+- **遗珑台** Yilong Dais
+- **遗落的哀歌** Lamenting Torrent of Oblivion
 - **遗落的包裹** Dropped Package
+- **遗落的笔记残页** Pages From Some Lost Notes
 - **遗落的冒险家笔记** Lost Adventure Notebook
 - **遗落的能量块** Lost Energy Block
 - **佚落迁忘之岛** Islands of the Lost and Forgotten
+- **遗落与传承** Lost and Inherited
 - **遗落之泪** Fallen Tears
 - **伊洛克** Eroch
+- **伊洛莉娅** Illaria
+- **伊洛丝** Irus
 - **义卖活动！完满收场！** Charity Event! A Great Success!
 - **义卖活动？资金筹备？** Charity Event? Securing Funds?
 - **义卖与妙想** Charity and Creativity
+- **一枚印章** A Certain Stamp
+- **伊梅娜** Imena
 - **伊蒙洛卡** Imunlaukr
 - **伊蒙洛卡一族** Imunlaukr Clan
+- **伊蜜** Imix
+- **伊莫莎** Icmotza
 - **茵草的指引** Guidance of the Land of Verdure
 - **银钩白椰树** Silversand Coconut Tree
+- **音火锻淬** Yohual's Scratch
 - **银剑** Silver Sword
 - **饮露** Dew-Drinker
 - **阴燃之珠** Smoldering Pearl
@@ -9174,6 +15478,7 @@
 - **隐兽指爪** Concealed Claw
 - **银夜点注满天星** The Silver Night is Full of Stars
 - **堙谷的铙歌** Rhymes of Vales
+- **因娜** Inna
 - **伊娜姆** Innam
 - **伊娜丝** Inas
 - **银白的希望** Fragile Fantasy
@@ -9196,7 +15501,6 @@
 - **影向纪行** Into the Shadows
 - **影照浮世风流** Reflections of Mortality
 - **鹰之门** Eagle's Gate
-- **樱之斋宫** Sakura Saiguu
 - **硬着陆** Hard Landing
 - **莺儿** Ying'er
 - **荧草饵** Glowgrass Bait
@@ -9204,25 +15508,28 @@
 - **映春华章** Reflections of Spring
 - **影打刀镡** Kageuchi Handguard
 - **应达** Indarias
+- **应得之旅** To Each What He Deserves
 - **盈丰** Yingfeng
 - **应该安全** It Should Be Safe...
 - **英戈伯特** Ingbert
 - **应公** Yinggong
 - **荧光孢粉** Luminescent Pollen
 - **荧光狭道** The Glowing Narrows
+- **萤火虫** Firefly
 - **应急补给** Emergency Supplies
 - **应急补给点** Emergency Supply Point
 - **影寂天下人** Reign of Serenity
 - **影狼丸** Kageroumaru
 - **营垒森森** A Night Watch
 - **盈流慈水** Varuna's Mercy
-- **盈满之实** Fruit of Fulfillment
 - **硬木兵戈架** Hardwood Weapon Rack
 - **盈缺流返** Ebb and Flow
 - **映射研究之所** Harmonics Research Facility
 - **映射研究之所** Harmonics Research Facility
+- **应时惑目之灵** Pupillary Variance
 - **鹰司朝秀** Takatsukasa Tomohide
 - **鹰司进** Takatsukasa Susumu
+- **萦思寥落** Lingering Thoughts
 - **鹰司千歌** Takatsukasa Chika
 - **鹰司时兵卫彻** Takatsukasa Tokibeitetsu
 - **鹰司勇** Takatsukasa Isamu
@@ -9238,118 +15545,171 @@
 - **影向天狗** Yougou Tengu
 - **影向山** Mt. Yougou
 - **影向山夜行赤狐玩偶** Mt. Yougou Night Walk Red Kitsune Doll
+- **英雄的仪式** A Hero's Rite
 - **英雄之礼** Hero's Gift
 - **英雄之旅** The Hero's Journey
+- **英雄，二度归来！** The Hero Twice-Returned!
+- **盈虚藏象** The Hidden Ebb and Flow
 - **营业收入** Business Earnings
 - **映影书写札记** Film Notes
+- **应有适当的休憩** Requires Appropriate Rest
 - **应有尽有的果蔬市场** Fruit & Veg Market
+- **营造者的担当** An Architect's Undertaking
 - **盈珠** Yingzhu
+- **伊妮** Hine
 - **一念一心** A Single Thought
 - **寅杰** Yinjie
 - **引聚涡流** Whirling Traction
 - **引君入彀** To Ensnare a Prey
-- **引雷** Conductive
+- **因卡纳克** Inkanak
 - **引领之风** Guiding Breeze
 - **引路的羊皮卷** Guiding Parchment
 - **音律花** Melodic Bloom
 - **因论派 / 伐护末那** Vahumana
 - **隐秘的文明** Hidden Civilizations
 - **隐秘山洞** Secret Cavern
-- **堙没的蓝宝石泪滴** Bygone Azure Teardrop
 - **音乃** Nonno
 - **隐匿的凶兆** Sinister Mist
 - **隐匿的佣兵** Hidden Mercenaries
+- **饮品时间** Time to Drink
+- **银瓶庭院** Silver Bottle Courtyard
 - **阴燃之火** Smoldering Flames
 - **荫山** Kageyama
+- **隐山猊兽** Solitary Suanni
 - **音上** Onkami
+- **引示的铃箭** Signal Arrow
 - **阴湿的泥土** Moist Soil
 - **饮食问题** A Question of Diet
 - **饮食武士** Samurai Gourmet
 - **隐视元件** Obscuring Cell
+- **因提夫** Intef
 - **因提瓦特** Inteyvat
 - **因提瓦特的记忆** Memories of Inteyvat
+- **伊诺米娅** Eunomia
 - **因为她的罪恶滔天…** For Her Judgment Reaches to the Skies...
 - **银杏** Yinxing
 - **银杏写给博来的信** Yinxing's Letter to Bolai
+- **喑哑的回声** Hoarse Echoes
 - **阴阳割昏晓** Light and Dark, Dusk and Dawn
 - **夤夜刻像** Dark Statuette
 - **隐映霜崖** Falls the Shadow
 - **因由勘破** Penetrative Reasoning
 - **吟游诗人的把戏** A Cunning Trick
 - **吟游者之壶** Wanderer's String-Kettle
+- **饮羽散红** Piercing Shot's Crimson Wake
 - **银原厅** Yinyuan Hall
+- **隐众游园** Pavilion of Hermits
 - **音奏树琴** Melodic Harp
 - **音奏踏板** Melodic Pedal
 - **一平** Ippei
 - **一千零一杯咖啡** 1,001 Cups of Coffee
 - **依栖目那须** Isumenasu
+- **宜清** Yiqing
 - **一然** Yiran
 - **已然来临的花神诞祭** The Arrival of the Sabzeruz Festival
+- **役人的时时刻刻** Operative's Constancy
 - **异人龛** Outsider Shrine
 - **异人一揆** Revolutionary Outlander
 - **伊萨克** Isak
 - **伊萨米** Isami
+- **伊桑** Ethan
 - **伊桑** Isan
 - **异色方格地砖** Colorful Checkered Tile
+- **异色结晶石** Xenochromatic Crystal
+- **异色生物** Xenochromatic Creature
+- **伊莎朵** Isadora
+- **溢神的猜想** Fayz Trials: Hypothesis
 - **溢神的论证** Fayz Trials
 - **遗失的零件** Missing Component(s)
-- **意识空间 / 意识的空间** Realm of consciousness<!--Do not capitalize, not a proper noun-->
 - **遗失之书** Lost Book
 - **意识之舟所至之处** Where the Boat of Consciousness Lies
+- **艺术与生活** Art and Life
 - **一撕两半混沌球** Chaos Divided
+- **伊丝翠** Istress
+- **伊丝黛莱** Estelle
 - **伊斯坎德** Iskandar
+- **伊斯梅诺** Ismenor
+- **伊斯梅诺的泡泡桔需求** Ismenor's Bulle Fruit Bulletin
 - **伊斯塔露** Istaroth
 - **逸速穿浪** Surfpiercer
+- **依随的策援** Companion's Counsel
 - **易碎平台** Fragile Platform
+- **一条枫丹信息** A Fontainian Message
 - **伊庭** Iba
+- **伊图提娅** Itotia
 - **意外的收获** Lucky Find
 - **意外订单** Unexpected Order
 - **意外相遇** Accidental Encounter
 - **意外争斗** Unexpected Battle
 - **意外之客** The Unexpected Guest
 - **遗忘的流风** Ad Oblivione
+- **遗忘的容器** Forgotten Vessel
+- **遗忘之路** Chemin Oublie
 - **伊万诺** Ivano
+- **伊瓦伊** Iwai
+- **依维莱琳** Everallin
+- **伊维斯** Yves
+- **伊薇特** Yvette
 - **一文字** Ichimonji
+- **忆昔诸途巡历** The Recollector's Path
 - **一线希望** A Sliver of Hope
 - **异乡的归书** A Letter from Afar
+- **衣香襟影** Brocaded Collar's Beauteous Silhouette
 - **异乡人的忏悔录** Confessions of an Outlander
 - **异乡人，请回答** Answer Me This, Outlander
 - **异乡食记** Outland Gastronomy
 - **异乡异客** Outlandish Behavior
 - **异乡之樱** In the Strange Realm of Sakura
 - **移霄导天真君** Skybracer
+- **伊西多尔** Isidore
+- **伊西姆** Ixim
+- **医心** The Heart of Healing
 - **一心净土** Plane of Euthymia
 - **一心净土** Plane of Euthymia
+- **一心二用之术** Multi-Task no Jutsu
 - **一心传** Isshin Art
 - **逸轩** Yixuan
+- **伊雅蕾** Iara
 - **倚岩殿** Yiyan Temple
 - **一样的月光** The Same Moonlight
 - **熠熠生辉之樱** Radiant Sakura
 - **医用笔迹** Doctor's Handwriting
 - **遗怨的回音** Echo of Fury
+- **伊约芭** Iyoba
+- **伊泽** Izze
 - **伊泽姆** Izem
 - **伊扎德** Izad
 - **伊扎德** Izzard
+- **依扎娜** Ezana
 - **一正** Kazumasa
+- **仪正** Yizheng
 - **义治** Yoshiharu
 - **益智海域** Sea of Puzzles
+- **意志明晰的寄偶** Locus of a Clear Will
+- **意志破碎的残片** Shard of a Shattered Will
 - **一掷乾坤** Toss-Up
+- **意志巡游的符像** Sigil of a Striding Will
 - **异种蘑菇** Strange Mushroom
 - **异种蘑菇浇灌用水** Strange Mushroom-Watering Water
 - **异种魔兽** Mystical Beasts
+- **遗甃轸念** Reminiscences of Remnants
+- **伊兹娜** Itzna
 - **一组弹丸** A Set of Cannonballs
 - **哟嚯嚯，再来瓶蒲公英酒** Yo-Ho-Ho, and a Bottle of Dandelion Wine
 - **永不属于森林的孩子** Ever an Outcast in the Forest
 - **永不停歇的风与米歇尔小姐** Michelle Never Stops!
 - **永不停歇的修炼** Ceaseless Training
-- **永不休止** Relentless
 - **永燃地面** Everflame Paving
 - **永燃平台** Everflame Platform
 - **拥涛踏潮** Conqueror of Tides
 - **永安** Yong'an
 - **佣兵重剑** Old Merc's Pal
+- **永不休止** Relentless
+- **永不落幕的盛典** Le spectacle doit continuer
 - **用臣的久计** Long-Term Planning
+- **勇敢的匿叶龙** Brave Yumkasaur
 - **用高** Youkou
+- **咏歌与凯旋** Lamentation et Triomphe
 - **永贵** Yonggui
 - **永恒的葱茏之梦** The Eternal Dream, Ever Lush
 - **永恒的回忆** Eternal Anamnesis
@@ -9358,15 +15718,18 @@
 - **永恒绿洲的记忆・二** Memories of the Eternal Oasis (II)
 - **永恒绿洲的记忆・三** Memories of the Eternal Oasis (III)
 - **永恒绿洲的记忆・一** Memories of the Eternal Oasis (I)
+- **永劫回还的终末** End of the Eternal Return
 - **永久食粮** Eternal Sustenance
-- **勇气** Courage
-- **勇气戴于心上** Courage is in the Heart
+- **涌流地** Toyac Springs
+- **勇猛的嵴锋龙** Valiant Tepetlisaur
 - **勇气的余晖** Valor's Afterglow
 - **勇气的余晖** Valor's Afterglow
 - **勇气的余晖** Valor's Afterglow
 - **涌泉之盏** Chalice of the Font
+- **永燃的圣火** The Sacred Flame Imperishable
 - **永生香** Everlasting Incense
 - **勇士的冠冕** Crown of the Brave
+- **永世的酣梦** Reverie of Eternity
 - **勇士的坚毅** Fortitude of the Brave
 - **永世的磐岩** Everlasting Boulder
 - **勇士的期许** Prospect of the Brave
@@ -9377,13 +15740,20 @@
 - **永无谢幕的演出** Never-Ending Performance
 - **永无止境的斗虫较量！** The Beetle Battles Will Never End!
 - **永无止境的研究** Endless Research
+- **涌现的圣杯** Surging Sacred Chalice
 - **永续机芯** Perpetual Caliber
 - **永野** Nagano
 - **永业** Yongye
+- **永夜的酬礼** Imperishable Night
 - **永夜的序曲** Ouvertüre der ewigen Nacht
 - **永夜之禽** Evernight Raven
 - **永胤** Eiin
 - **永远的花火** Lingering Blossom
+- **永远的友谊** Friendship Eternal
+- **永赞** Yongzan
+- **勇者不会逃避** The Brave Shall Not Falter
+- **勇者们的茶会** Heroes' Tea Party
+- **永驻宁谧之刻** Tranquil Eternity
 - **又** Mata
 - **有备才能无患** You've Got to Have Reserves
 - **幽蝶能留一缕芳** Butterfly's Embrace
@@ -9392,17 +15762,23 @@
 - **有隔阂的魂灵** A Soul Set Apart
 - **由根须断定肇始** Beginnings Determined at the Roots
 - **游光示现** Touring Light Show
+- **幼嵴锋龙** Tepetlisaur Whelp
 - **由茎干剖析来缘** Origins Known From the Stem
 - **尤骏** You Jun
-- **幽客之章** Umbrabilis Orchis Chapter
 - **游旅哀丝** The Shallow Melancholy
 - **由玛乔丽推荐的「礼物」** Marjorie's Recommended Gift
+- **幼暝视龙** Iktomisaurus Chick
+- **幼匿叶龙** Yumkasaur Whelp
 - **由片叶管窥枯荣** Withering Glimpsed in the Leaves
+- **幼鳍游龙** Koholasaur Whelp
+- **幼绒翼龙** Qucusaurus Chick
 - **幽水地面** Stillwater Paving
 - **幽水平台** Stillwater Platform
 - **由硕实品论应果** Karma Adjudged From the Leaden Fruit
+- **幽潭心** Heart of the Deep
+- **幼突角龙** Tatankasaur Whelp
 - **有香自西来** Spices From the West
-- **有香自西来・寻味北地** Spices from the West: Northerly Search
+- **有香自西来・寻味北地** Spices From the West: Northerly Search
 - **幼岩龙蜥** Geovishap Hatchling
 - **游医** Traveling Doctor
 - **游医的方巾** Traveling Doctor's Handkerchief
@@ -9413,58 +15789,101 @@
 - **有一说一** Telling It How It Is
 - **游音旅梦** Melody of Dreamlike Wanderings
 - **由枝节知晓造化** Fortunes Read Amongst the Branches
+- **幽厄的不谐音** Lightless Dissonance
+- **优恩花园** Hortus Euergetis
+- **优恩尼娅** Euergetia
 - **又，又，又中大奖了！** Ding Ding Ding, We Have a Winner! Again!
+- **油爆双脆** Deep-Fried Doublecrisp
 - **幽闭花** Claustroflora
+- **尤庇娅** Yopia
 - **悠策** Yuusaku
 - **优丹** Iotham
+- **诱导殉爆的狙击** Sniper Induced Explosion
 - **幽灯蕈** Fluorescent Fungus
 - **有顶塔** Tower of Abject Pride
 - **幽芳与恬谧之中** Amidst Scents and Serenity
 - **优菲** Ufairah
+- **油封鸭腿** Duck Confit
 - **尤夫腾** Yuften
 - **悠古的脚步** Foregone Giants
 - **悠古的磐岩** Archaic Petra
 - **幽谷多芳草** Blossoms Across the Valley
 - **幽谷冥冥** Into the Valley of Solitude
+- **悠古弦音的残章** Fragment of an Ancient Chord
+- **悠古弦音的断章** Chapter of an Ancient Chord
+- **悠古弦音的回响** Echo of an Ancient Chord
+- **悠古弦音的乐章** Movement of an Ancient Chord
+- **幽谷舟咏** The Rime of the Ancient Bargeman
+- **幽谷舟咏·其二** The Rime of the Ancient Bargeman (II)
+- **幽谷舟咏・其三** The Rime of the Ancient Bargeman (III)
+- **幽谷舟咏・其三 - 纯享版** The Rime of the Ancient Bargeman (III) - Instrumental
+- **幽光星星** Lumitoile
+- **有规** Yougui
 - **友浩** Tomohiro
-- **有话直说** Blunt Conclusion
+- **幽壑深渺** Profound Ravines
+- **游迹** Echo
+- **游击的心得** Reconnaissance Experience
 - **游击骑士** Reconnaissance Captain
+- **游迹钥匙** Key of Echoes
 - **幽涧泠泠** Secluded Sanctuary
+- **尤季娜** Yokina
+- **尤考姆** Yukom
+- **有客来仪** A Guest's August Omen
+- **悠可琴** Ukulele
+- **幽客之章** Umbrabilis Orchis Chapter
 - **幽客座** Umbrabilis Orchis
 - **优菈** Eula
 - **优菈的命星** Eula's Stella Fortuna
+- **优兰尼娅湖** Loch Urania
+- **游乐会热度** Gala Excitement
 - **有乐斋** Urakusai
 - **友里** Yuuri
-- **幽林月影** Stillwood Moonshadow
+- **幽林雾道** Foggy Forest Path
+- **幽林枝** Foggy Forest Branch
+- **佑灵砾漠** Blessed Hamada
 - **优律** Eury
 - **幼鹿座** Cervus Minor
 - **尤罗奇卡** Yurochka
+- **宥谧宁息之风** Wind of Tranquility
 - **右名氏** Yuna Clan
 - **尤南** Younan
 - **幼嫩的蔷薇** Rose Sprout
 - **尤努斯** Yunus
+- **尤潘基** Yupanqui
+- **有朋自远方来** Receiver of Friends From Afar
 - **友情，愿望与遗憾** Friendships, Wishes, and Regrets
 - **有趣的挑战** An Interesting Labor
+- **有趣的挑战** An Interesting Labour
 - **幼狮之章** Leo Minor Chapter
 - **幼狮座** Leo Minor
+- **游水酝诗籍** Waterborne Poetry
+- **游丝徵灵** Gossamer Sprite
 - **尤苏波夫** Yusupov
 - **优素福** Yusuf
 - **幽邃刻像** Deathly Statuette
 - **幽邃鸦眼** Gaze of the Deep
+- **攸望三叠** Threefold Expectations
+- **攸望釜** Youwang Cauldron
+- **尤维尔** Urville
 - **优午** Yuugo
 - **游戏一场** A Little Game
+- **悠暇豪劲** Strength in Serenity
+- **悠闲的「梅兹特利」…** The Leisurely "Meztli"...
 - **有香** Yuka
+- **幼小的匿叶龙** Young Yumkasaur
 - **有些残破的木板** Slightly Damaged Wooden Plank
+- **有蟹有还** Don't Get Crabby
 - **幽星的独言** Soliloquy of the Star
 - **佑旭** Youxu
 - **有序叠放的杉木酒桶** Neat Stack of Fir Kegs
+- **优选风味** Not Your Average Joe
+- **幽玄有心** Heart of Yuugen
+- **优雅剑舞的艺术？** The Art of the Elegant Blade Dance?
 - **游宴** Ludi Harpastum
 - **悠也** Yuuya
 - **幽夜菲谢尔** Immernacht Fischl
 - **幽夜高城** Immernachtreich Keep
-- **幽夜华尔兹** Mitternachts Waltz
 - **幽夜净土** Immernachtreich
-- **幽夜默示录** Immernachtreich Apokalypse
 - **幽夜默示录** Immernachtreich Apokalypse
 - **幼叶绽生的曲调** Melody of Young Leaves
 - **有翼冰本真蕈** Winged Cryoshroom
@@ -9472,34 +15891,42 @@
 - **游医的奥德赛** A Doctor's Odyssey
 - **友谊与牺牲的价值** True Friendship Takes Sacrifice
 - **幽幽大行军** Ghostly March
+- **悠悠海獭** Leisurely Otter
 - **悠游旅情** A Leisurely Journey
 - **悠悠云阶** Cloudleisure Step
+- **悠悠哉哉不知死线之椅** "Deadline? What Deadline?" Director's Chair
 - **优悠之火** Serene Flames
 - **由宇** Yuu
+- **忧郁的纸蛙** Sullen Paper Frog
 - **忧郁先生** Mr. Melancholy
 - **悠远的关怀** Kitsune's Mask
+- **悠远的绘染** Foregone Depiction
 - **悠远的鸟鸣** Distant Resonance
 - **幽蕴砺石** Moonlit Cragstone
 - **有泽** Arisawa
 - **由真** Yuma
 - **优质「冷鲜肉」** High-Quality Chilled Meat
-- **优质「冷鲜肉」** High-Quality Chilled Meat
 - **优质稻米** High-Quality Rice
+- **优质的冷鲜肉** High-Quality Chilled Meat
 - **柚子** Yuzu
+- **幽紫曜石环** Purple Obsidian Ring
 - **尤兹贾尼** Juzjani
 - **有罪在先** Pre-Existing Guilt
+- **有罪推定** Presumption of Guilt
 - **与「宝箱」主人会谈** A Conversation with the Treasure Chest Owner
 - **与安彦太郎之战** Versus Yasuhiko Tarou
-- **雨裁** Rainslasher
 - **与大久保三左卫门之战** Versus Ookubo Sanzaemon
 - **雨的尽头** The Rain's End
 - **御公仪** Decorum
+- **雨化竹身** Bamboo Rain
 - **遇火斩火** Fight Fire With Fire
 - **御建鸣神主尊旗** Narukami's Banner
 - **御建鸣神主尊之典** Narukami's Law
+- **予骄暴者以镣锁** Shackles for the Arrogant
 - **玉京台** Yujing Terrace
 - **与巨龙重逢** Reunion With the Dragon
 - **于阑珊处** The Waning Point
+- **予婪诈者以谴罚** Punishment for the Frauds
 - **遇雷切雷** Ride the Lightning
 - **御灵珠** Spirit Pearl
 - **雨落进了泥土** The Rain Seeps Into the Soil
@@ -9510,6 +15937,7 @@
 - **与轻风同行** Going Upon the Breeze
 - **予人以花** Giving Flowers
 - **与三岛道世之战** Versus Mishima Michitoshi
+- **逾沙轶漠** Across the Aridisols
 - **雨深闭门** Embrace of Rain
 - **郁生蝶绿** Vivacious Awlking
 - **郁生栌青** Vivacious Smokeleaf
@@ -9518,15 +15946,21 @@
 - **与太郎丸之战** Versus Taroumaru
 - **羽团扇座** Flabellum
 - **于无生处** In Barren Ashes
+- **予无罪者以念抚** Esteem for the Innocent
 - **御先祖大人的委托** That Which Our Ancestors Entrusted
+- **予行恶者以惩惧** Terror for the Evildoers
 - **与一位往昔神灵的谈话** Interview With a Bygone God
 - **虞渊纪行** Gorge Sunset
+- **予冤诉者以怜恕** Mercy for the Wronged
 - **于狱中绽放之花** A Flower Blooms in a Prison
+- **予贞苦者以拯赎** Redemption for the Suffering
 - **与珍稀之鸟的短暂邂逅** A Short Encounter with a Rare Bird
 - **鱼之味** A Fishy Flavor
 - **于智境谛思** Return of Trueness
+- **鱼饵** Bait
 - **鱼饵补充计划** Bait Resupply Plan
 - **于尔根** Jürgen
+- **玉阁归客至** The Jade Chamber's Returning Guest
 - **御神使的风姿** The Sight of the Divine Emissary
 - **御温泉** Royal Hot Springs
 - **元成** Yuan Cheng
@@ -9550,41 +15984,52 @@
 - **愿与君同** With You
 - **愿之翎** Plume of Wishes
 - **远驻前哨的生活** Frontier Life
-- **原激化** Quicken
+- **原鳄之爪** Protosuchian's Claw
 - **原产地的新鲜蘑菇** Freshly-Picked Mushroom
 - **原初** Origin
-- **原初的那一位** Primordial One
 - **远处的视线** Distant Gaze
+- **原初绿洲之初绽** Primordial Greenbloom
 - **原粹树脂** Original Resin
 - **远大前程** Prelude to the Journey
+- **远黛** Yuandai
 - **渊底不期的再会** In the Depths, an Unexpected Reunion
+- **原动天的密契** Teoiztac's Secret Pact
 - **远渡重洋的邂逅** Across the Sea
+- **远方传来邀请函！** An Invitation From Afar!
 - **远方的少女之心** Maiden's Distant Love
 - **渊宫之羽** Deep Palace's Plume
 - **远古的馈赠** Present From the Past
 - **远古坚冰** Ancient Rime
+- **渊光鳍翅** Chasmlight Fin
 - **圆滚滚的大团骚乱！** Big Pudgy Problem!
 - **圆滚滚的大团危机** Chubby Crisis
 - **圆滚滚的易爆品** Pudgy Pyrotechnicians
 - **圆滚滚，不可食用！** Pudgy, Squidgy, Yet Not Edible!
 - **远国监司** Outlander Affairs Agency
+- **原海的怜恕** La mer, la mere
+- **原海古雷** Fontemer Hoarthunder
+- **原海海草** Fontemer Seagrass
+- **渊海界令** Decree of the Deeps
+- **原海巨灵座** Leviathan Judicator
 - **远海牧人的宝藏** A Distant Sea Shepherd's Treasure
 - **远海诗夏游纪** Summertime Odyssey
 - **渊海髓矿** Aphotium Ore
 - **远海夷地的瑚枝** Coral Branch of a Distant Sea
 - **远海夷地的金枝** Golden Branch of a Distant Sea
 - **远海夷地的琼枝** Jade Branch of a Distant Sea
+- **原海异种** Fontemer Aberrant
 - **远航的准备** Voyage Prep
 - **远航入梦** Journey into Sweet Dreams
 - **远航之风** Sailing Breeze
+- **源火祭坛** Altar of Primal Flame
 - **缘觉塔** Spire of Solitary Enlightenment
 - **远离尘嚣** A Tranquil Town
 - **源流** Origin
+- **源流的哲学** Philosophies of the Original Current
+- **源流的指引** Guide to the Original Current
 - **源流汇响** Flows of Jade-Like Water
 - **远吕羽氏遗事** Orobashi's Legacy
-- **远吕羽氏尊 / 奥罗巴斯** Orobashi no Mikoto / Orobaxi
-- **圆满之相** Full Circle
-- **原木刀** Sapwood Blade
+- **原木大盾** Crudewood Greatshield
 - **元能构装体** Primal Construct
 - **元能光束** Primal Beam
 - **元能光锥** Forged Primal Light
@@ -9596,12 +16041,15 @@
 - **元能烛台** Primal Sconce
 - **元气迸发** Vitality Burst
 - **渊青宝珠** Orb of the Blue Depths
-- **原神** Allogene
+- **远山笼宿雾** Mountains of Mist
 - **原神** Genshin Impact Main Theme
 - **原神** Genshin Impact
-- **原神 线上音乐会CD碟<br />原神 线上音乐会-无际之旅的旋律** Genshin Concert - Melodies of an Endless Journey
+- **原神 线上音乐会-无际之旅的旋律** Genshin Concert - Melodies of an Endless Journey
 - **原石** Primogem
+- **远逝的回响** Echoes of Distant Past
 - **原始松脂** Primeval Rosin
+- **源水之滴** Sourcewater Droplet
+- **渊薮落雷** Den of Thunder
 - **元素爆发** Elemental Burst
 - **元素充能效率** Energy Recharge
 - **元素方碑** Elemental Monument
@@ -9611,6 +16059,7 @@
 - **元素精通** Elemental Mastery
 - **元素生命** Elemental Lifeforms
 - **元素试炼** Elemental Trial
+- **元素视野** Elemental Sight
 - **元素战技** Elemental Skill
 - **元素之印** Elemental Sigil
 - **元太** Genta
@@ -9618,22 +16067,29 @@
 - **远途勘探者留书** Pathfinders' Log
 - **渊图玲珑骰** Depth-Clarion Dice
 - **愿望** Wishes
+- **愿望的代价** The Price of a Wish
+- **圆舞冰环** Ice Ring Waltz
 - **垣屋枫木房门** Estate Maple Doorway
 - **渊下宫** Enkanomiya
 - **远行补给包** Wayfarer's Supply Bundle
 - **远行的思愿** Distant Yearning
 - **渊星斗士** Abyssal Crusader
 - **圆形平台** Round Platform
+- **圆圆滚滚交叉火力** Rolling Crossfire
 - **爰爰可亲** Winsome
+- **猿月的显迹** Thoth's Revelation
 - **渊月祝福** Blessing of the Abyssal Moon
 - **愿者** Wishmaker
-- **渊中霞彩** Radiance of the Deeps
+- **圆阵掷弹爆轰术** Ring of Bursting Grenades
 - **元助** Motosuke
 - **远足** Into the Woods
+- **于贝尔** Hubel
 - **御敌的执定** Fortified Resolve
+- **玉鼎传香** Jade Incense Cauldron
+- **谕定的终幕** The Oracle's Finale
 - **悦** Etsu
 - **岳川** Yue Chuan
-- **钺矛** Halberd
+- **岳川的漂流瓶** Yue Chuan's Drifting Bottle
 - **月摄千川** The Moon Overlooks the Waters
 - **月升之时** The Moon Has Risen
 - **月盈之刻** Over the Moon
@@ -9642,46 +16098,60 @@
 - **月中王国** Lunar Realm
 - **月草的赐慧** The Moongrass' Enlightenment
 - **月城** Tsukishiro
-- **岳川的漂流瓶** Yue Chuan's Drifting Bottle
 - **约等于天下无敌** Shield Me From the World
 - **约顿** Jotun
 - **越祓雷草之轮** Sanctifying Ring
+- **月光** Moonglare
+- **月光的祝福** Taabak Laylatak
 - **月光鳍** Moonfin
-- **月桂的宝冠** Laurel Coronet
+- **月桂** Yuegui
+- **月桂的宝冠** {{w|Laurus nobilis|Laurel}} Coronet
 - **越过冰霜与烈焰** Dashing Through the Snow... and the Flames
 - **越过沙暴与蜃气楼・其二** Over Sandstorms and Mirages (II)
 - **约哈南** Yohanan
+- **约亨** Jochen
 - **玥辉** Yuehui
 - **月辉低吟** Silky Crooning
+- **约里奥** Joliot
 - **月莲** Nilotpala Lotus
 - **月亮处盗来的歌** Stealing Words of the Moon
+- **月亮的距离** The Distance of the Moon
 - **月亮派** Moon Pie
+- **约莲妮** Jolienne
+- **约洛特莉** Yolotli
 - **约纳斯** Jonas
 - **月女的华彩** Ay-Khanoum's Myriad
+- **月色鳍翅** Lunar Fin
+- **约瑟芬** Josephine
+- **月升哲贤颂** Ode to the Moonrise Sage
 - **月升之章** Risen Moon Chapter
 - **越石村** Koseki Village
 - **月疏** Yueshu
 - **乐团的晨光** Troupe's Dawnlight
 - **玥文** Yuewen
+- **月夜的轻潮** Moonlit Tides
 - **月夜，泊船码头** Docked on a Moonlit Night
 - **月章星句** The Moon and Stars Inscribe
 - **月照的荒野** Moonlit Wilderness
-- **悦子** Eiko
+- **悦子** Etsuko
 - **玉扉绕尘歌** Beneath the Light of Jadeite
-- **玉阁归客至** The Jade Chamber's Returning Guest
+- **郁馥臻萃** Exquisite Essence
+- **谕告的潮音** Ordainer of Inexorable Judgment
+- **于格** Hugues
 - **鱼钩的奇异时光？** The Hook's Unexpected Adventure
 - **鱼钩的物尽其用** Cost-Effective Hook
 - **鱼钩上的绝景？** Supreme Hookshot?
+- **遇合的因缘** Factor Confluence
 - **玉衡之贵** Aristocratic Dignity
 - **毓华** Yuhua
+- **玉璜龟** Jadestone Turtle
 - **余火变相** From Ashes Reborn
+- **浴火的金羽** Gold Pinions in Flames Bathed
 - **狱火之蝶** Hellfire Butterfly
-- **御伽大王御伽话** Gokadaiou Otogibanashi
-- **御伽木纵置「久香」花坛** "Kyuukou" Otogi Flower Terrace
 - **御伽木** Otogi Wood
 - **御伽木「但饮」木桶** Otogi "Tanin" Wood Barrel
-- **御伽木「近竹」院门** Otogi "Kintake" Courtyard Gate
 - **御伽木「近竹」围栏** Otogi "Kintake" Fence
+- **御伽木「近竹」院门** Otogi "Kintake" Courtyard Gate
 - **御伽木「乐至」方凳** Otogi "Rakushi" Square Stool
 - **御伽木「乐至」方桌** Otogi "Rakushi" Square Table
 - **御伽木「六用」木桶** Otogi "Rikuyou" Wooden Barrel
@@ -9693,17 +16163,23 @@
 - **御伽木郊野路灯** Otogi Countryside Street Lamp
 - **御伽木拉面屋台** Otogi Wood Ramen Stand
 - **御伽木市井杂煮屋台** Otogi Wood Rice Cake Soup Stand
+- **御伽木纵置「久香」花坛** "Kyuukou" Otogi Flower Terrace
 - **御剑公子** Skyrider
 - **御建鸣神主尊大御所大人像** Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder
-- **御建鸣神主尊大御所大人像** Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder
+- **玉剪着花** Jade-Cut Flowers
 - **余烬的顽抗** Struggle of Dying Embers
 - **玉颗珊珊月中落** Moonjade Descent
 - **驭浪的海祇民** Watatsumi Wavewalker
+- **于连** Julien
+- **于连的画板** Julien's Drawing Board
+- **于连的画稿** Julien's Sketch
+- **于连的行李** Julien's Luggage
 - **雨林沙拉** Selva Salad
 - **郁林寻音** Songs of the Forest
 - **御琉部栖** Orupeusu
 - **鱼龙沉四方** Sea Beast's Scourge
 - **鱼龙灯昼** Dance of Lanterns
+- **鱼苗** Fry
 - **渔民杀机** Fishy Motive
 - **裕明** Hiroaki
 - **与谋者，以局入局** Enter the Plotters
@@ -9715,6 +16191,9 @@
 - **云尽光生** Cloudburst
 - **云开星落** Cloud-Parting Star
 - **云流星奔** Passage of Clouds and Stars
+- **云满衣裳月满身** Embracing a Misty Sheen
+- **云暖采茶时** Teaplucker's Joy
+- **云染夕曛轻** Dusk's Descent
 - **云行** Cloud-Strider
 - **云与雾之信** Missive of Cloud and Fog
 - **云遮玉** Cloud-Shrouded Jade
@@ -9725,6 +16204,8 @@
 - **宇奈** Una
 - **运筹帷幄** Strategize
 - **云淡** Yundan
+- **云府鹤行** The Crane Soars Skyward
+- **蕴光之叶** Emberglow Leaf
 - **云海之上** Above the Sea of Clouds
 - **云翰社** Yun-Han Opera Troupe
 - **淤泥涌口** Oozing Concretion
@@ -9733,6 +16214,7 @@
 - **云来古剑法** Ancient Sword Art
 - **云来剑法** Yunlai Swordsmanship
 - **云来海** Sea of Clouds
+- **云里翻山** Soar Across Mountains
 - **陨落之星** Overture of Falling Stars
 - **韵宁** Yunning
 - **运气即实力！** The Power of Luck
@@ -9743,51 +16225,67 @@
 - **云台团团降芦菔** Raphanus Sky Cluster
 - **运行原理** Principium of Astrology
 - **云游山海** Gallant Journey
+- **云云** Yunyun
+- **云云椒椒** Chili Con Cloudy
 - **云之海的仙兽** The Illuminated Beast of the Sea of Clouds
 - **云中鹤影** The Crane in the Clouds
+- **云中蛇的羽冠** Cloud Serpent's Feathered Crown
+- **愈气全形论** Holistic Revivification
 - **玉签偶开** A Glimpse Into Arcanum
 - **御前生死斗** Duel Before the Throne
+- **玉磬漻漻** Jade Chimes
 - **羽球节** Ludi Harpastum
 - **羽球？爆弹！炸飞啦！** Harpastum Bombs Loaded... Blow 'Em Away!
 - **鱼群大爆发** Exploding Population
 - **渔人吐司** Fisherman's Toast
 - **渔人之利** Opportunistic Gain
 - **愚人者人愚之** The Foolish Fatuus
+- **愚人众・风役人** Wind Operative
+- **愚人众・霜役人** Frost Operative
+- **愚人众・役人** Fatui Operative
 - **愚人众的餐食** Fatui Meal
 - **愚人众据点钥匙** Fatui Stronghold Key
 - **愚人众十一执行官** Eleven Fatui Harbingers
-- **愚人众** Fatui Guard
 - **愚人众** Fatui
 - **愚人众・冰萤术士** Fatui Cryo Cicin Mage
 - **愚人众・藏镜仕女** Mirror Maiden
 - **愚人众・火之债务处理人** Fatui Pyro Agent
 - **愚人众・雷萤术士** Fatui Electro Cicin Mage
 - **愚人众・萤术士** Fatui Cicin Mage
+- **愚人众的阴谋** Fatui Conspiracy
 - **愚人众先遣队・冰铳重卫士** Fatui Skirmisher - Cryogunner Legionnaire
 - **愚人众先遣队・风拳前锋军** Fatui Skirmisher - Anemoboxer Vanguard
 - **愚人众先遣队・雷锤前锋军** Fatui Skirmisher - Electrohammer Vanguard
 - **愚人众先遣队** Fatui Skirmisher
 - **愚人众先遣队・火铳游击兵** Fatui Skirmisher - Pyroslinger Bracer
 - **愚人众先遣队・水铳重卫士** Fatui Skirmisher - Hydrogunner Legionnaire
-- **愚人众先遣队・岩使游击兵** Fatui Skirmisher – Geochanter Bracer
+- **愚人众先遣队・岩使游击兵** Fatui Skirmisher - Geochanter Bracer
 - **愚人众引起的混乱** Fatuous Farce
 - **鱼肉** Fish
 - **羽生田千鹤** Hanyuuda Chizuru
+- **谕示裁定枢机** Oratrice Mecanique d'Analyse Cardinale
 - **御使雕像** Statue of the Vassals
 - **玉石戒指** Nephrite Ring
+- **谕示胎动的终焉之刻** Cataclysm's Quickening
 - **欲说还休** In a Forgotten Tongue
+- **预算师的技艺** The Art of Budgeting
 - **寓所辉木房门** Brightwood Room Doors
 - **宇陀** Uda
 - **愚妄行宫** Qusayr Al-Inkhida'
 - **余威犹存** Ruins of Scorching Might
 - **余温** Lingering Warmth
+- **玉纹茶叶蛋** Jadevein Tea Eggs
 - **余温尚存** Sakura-Scented Kiseru
+- **愉舞欢游** Joyous Celebration
 - **愚戏** Fools Trick
 - **玉霞** Iris
 - **鱼线稳定器** Fishing Line Stabilizer
 - **鱼香吐司** Fish-Flavored Toast
+- **羽袖一触** Fluttering Hasode
+- **余薰** Lingering Fragrance
 - **于嫣** Yuyan
 - **语言交流** Language Exchange
+- **御驿的径迹** Grace of Royal Roads
 - **余音之匙** Reverberating Key
 - **御影炉心** Mikage Furnace
 - **玉影徘徊** Palace of Jadeite
@@ -9797,12 +16295,17 @@
 - **郁郁的形影** Illusory Apparitions
 - **煜煜连星** Dazzling Stars
 - **御舆千代** Mikoshi Chiyo
+- **玉玉心羽鲈** Jade Heartfeather Bass
+- **鱼鱼咏唱派** Poissonchant Pie
 - **御舆源次郎** Mikoshi Genjirou
 - **御舆源一郎** Mikoshi Genichirou
 - **御舆家** Mikoshi Clan
+- **逾渊地墟** Hangeh Afrasiyab
 - **预兆如窃贼到来…** Behold, the Sign Comes Like A Thief...
 - **愚忠与愚勇** Blind Loyalty, Reckless Courage
 - **与众不同的饮品** A Very Special Beverage
+- **玉篆之诗** A Jade-Like Ode
+- **羽状鳍翅** Feathery Fin
 - **郁灼的前哨** Scorching Outpost
 - **裕子** Yuuko
 - **御子之谕** Miko's Instruction
@@ -9811,33 +16314,40 @@
 - **杂货店** General Goods
 - **在「我」诞生之前** Before My Time
 - **在此世的星空之外** Beyond This World's Stars
+- **在地为化** All Things Are of the Earth
 - **再访望舒** Wangshu Once Again
 - **在风中飘荡** Drifting in the Wind
+- **在欢乐海上冲浪** Surfing Atop Joyous Seas
+- **在开满鲜花的草地上** Upon a Flowery Field of Grass
 - **再看一眼！** One More Look!
 - **再揽星辰** To the Stars Once More
+- **在萨雷-奥杰卡的天空翱翔** Soaring in the Skies of Sary-Ozek
 - **在审判的雷鸣声中** Amidst Stormy Judgment
 - **在他乡** In Another Land
 - **再听一遍那首歌谣** Encore!
 - **在同一片树荫下** Under the Same Shade
+- **在童年** Second Childhood
+- **在伊黎耶深处** Within the Depths of Erinnyes
 - **在梦乡重聚** Serene and Sweet Adieu
+- **灾厄的脚步** Calamitous Tread
 - **灾厄的一击** An Inauspicious Blow
 - **再访群玉阁** The Jade Chamber Once More
 - **再见，蕈兽伙伴！** Farewell, My Shroom Buddies
 - **再临** Dual Recurrence
 - **再临！金苹果假日** The Golden Apple Vacation Returns!
-- **再临！金苹果假日** The Golden Apple Vacation Returns!
 - **再生之间** Place of Rebirth
+- **灾蚀的痕影** Silhouette of Catastrophe
 - **在下荒泷一斗是也** Arataki Itto, Present!
-- **再造机构** Reforged Mechanism
 - **栽种之法** The Art of Horticulture
 - **暂避一时** Temporary Escape
 - **暂留此影** Snapshots
 - **暂别冬都** Farewell of Snezhnaya
+- **暂别时的约定** Parting Arrangement
 - **暂别喧扰与烦忧** A Farewell Brief to Bustle and Bother
-- **赞迪克** Zandik
 - **脏脏球** Dusty Balloon
 - **赞玛兰** Xamaran
 - **暂行之策** A Provisional Arrangement
+- **造化有星月** Creations of Star and Moon
 - **早教机关** Early Learning Mechanism
 - **燥热旋律** Blazing Riff
 - **造生缠藤箭** Fashioner's Tanglevine Shaft
@@ -9847,13 +16357,22 @@
 - **早柚不用工作啦** No Work Today!
 - **早柚的工资袋** Sayu's Salary
 - **早柚的命星** Sayu's Stella Fortuna
+- **早早失败的「图形对抗学」…** The Long-Failed "Graph Adversarial Technology"...
 - **贼寇、狂人与漆黑之谜** The Bandit, the Lunatic, and the Pitch-Black Enigma
+- **泽娜** Xana
+- **增幅器** Buff Bestower
+- **增量火力的毁伤** Enhanced Incendiary Firepower
+- **增殖生命体** Proliferating Organism
 - **泽田** Sawada
 - **泽维尔** Xavier
 - **泽轩** Zexuan
+- **泽彦** Takugen
 - **泽芝示梦** Water Lily's Dreams
 - **炸萝卜丸子** Fried Radish Balls
 - **炸肉排三明治** Katsu Sandwich
+- **扎安娅** Zyanya
+- **扎毕** Zabi
+- **扎德拉** Zadra
 - **扎蒂斯** Zadith
 - **扎哈尔** Zakhar
 - **摘星崖** Starsnatch Cliff
@@ -9861,6 +16380,7 @@
 - **扎卡里亚开给马鲁夫的「药方」** Zakariya's Prescription for Maruf
 - **扎卡里亚** Zakariya
 - **扎卡里亚给马鲁夫的药** Zakariya's Medicine for Maruf
+- **扎坎小吃摊** Zakan's Street Bites
 - **扎莱** Jaleh
 - **战船？主炮！开火啦！** Main Cannon, Make Ready... Fire!
 - **斩花除根** Up by the Roots
@@ -9873,13 +16393,14 @@
 - **战斗的秘仪** Rite of Battle
 - **战斗覆盖** Combat Override
 - **战斗意志旗** Rally Banner
-- **绽放** Bloom
 - **张顺** Zhang Shun
+- **张大姐** Aunt Zhang
 - **障壁** Hurdle
 - **长谷川** Hasegawa
 - **杖击** Staff Strike
 - **长濑** Nagase
 - **张力稳定锚** Stabilizer
+- **长延涤流** Perpetual Cleansing
 - **张牙舞爪的恶党** Evil Bares Its Fangs
 - **战祸不息** Scourge of the Battlefield
 - **展开攻性防壁** Establishing a Beachhead
@@ -9888,41 +16409,52 @@
 - **战狂的翎羽** Berserker's Indigo Feather
 - **战狂的蔷薇** Berserker's Rose
 - **战狂的时计** Berserker's Timepiece
+- **湛蓝曜石断片** Azure Obsidian Fragment
 - **占理不饶人** The Law Knows No Kindness
-- **斩裂晴空的龙脊** Sky-ripping Dragon Spine
+- **詹妮特** Janet
 - **斩破风暴的魔鲸** Wrath of [[Monoceros Caeli]]
+- **斩首之邀** Invitation to a Beheading
 - **战术冲撞** Skilled Charge
+- **谵妄圣主的朽败** Delirious Decadence of the Sacred Lord
 - **斩雾破竹** Duel in the Mist
 - **占星术与五十年之约** Astrology and the 50-Year Pact
 - **沾有海盐的钥匙** Sea Salt-Crusted Key
 - **沾有酒香的信** Wine-Scented Letter
 - **赵铁牛** Brass Bull Zhao
-- **昭心** Eye of Perception
 - **照月石** Moonlight Stone
 - **招运御守** Lucky Omamori
 - **爪爪土豆饼** Puppy-Paw Hash Brown
 - **召捕灵蕈** Fungus Capture
-- **兆伏剑** Megavolt Sword
+- **朝仓** Asakura
 - **昭告黎明的火之鸟** Phoenix, Harbinger of Dawn
 - **找回失窃的书本** Find the Stolen Book
 - **照亮黑暗** Light Up the Dark
 - **朝露之时** Morning Dew's Moment
+- **朝气盒饭** Energizing Bento
+- **朝起鹤云** White Clouds at Dawn
 - **诏勤** Zhaoqin
 - **昭武翎羽** Ceremonial War-Plume
 - **朝雾** Asagiri
 - **兆载永劫龙兽** Aeonblight Drake
+- **啁哳流变之砂** The Unfathomable Sand Dunes
 - **啁哳之沙** The Sands of Al-Azif
 - **札齐** Zaki
+- **炸虾豆球** Fried Shrimp Beanballs
+- **扎娅** Zayah
 - **扎伊** Zai
+- **炸鱼薯条** Fish and Chips
 - **这本小说真厉害！** This Novel Is Amazing!
 - **这本小说…好像看过？** This Novel... Seems Familiar?
 - **这本小说…厉害吗？** Is This Novel Amazing?
 - **这本小说…有问题？** This Novel Seems... Problematic?
 - **这不是应急食品** Get Your Own Emergency Food!
+- **这才叫四风守护！** Now That's What You Call the Four Winds!
 - **折草** The Merciful
 - **折箭觅踪** Mimi Tomo
 - **折梅留芳** Plum Blossom Bouquet
 - **这也算四风守护？** And You Call Yourself One of the Four Winds
+- **这一次，我一定要赢** This Time, I've Gotta Win
+- **折轴之刻** When the Axles Break
 - **哲远** Zhe'yuan
 - **折旋落英之庭** Court of Dancing Petals
 - **这本小说会很厉害！** A Novel Idea
@@ -9931,6 +16463,7 @@
 - **哲夫** Tetsuo
 - **这个丘丘不太冷** Chilly-Churl
 - **折胫谷** Wounded Shin Valley
+- **哲俩阿** Jala
 - **真・风神杂烩菜** A Buoyant Breeze
 - **真果角鲀** True Fruit Angler
 - **真火炼宝印** Samadhi Fire-Forged
@@ -9953,7 +16486,7 @@
 - **征涛** Oceanborne
 - **正因其徒劳** Thus Was the Work Done in Vain
 - **正二** Shouji
-- **证城** Shousei
+- **征程号角** Tuba Mirum
 - **正等善见之根** The Root of All Fullness
 - **争斗潮流** Contending Tides
 - **争斗的暗流** Undercurrents of Hostility
@@ -9962,18 +16495,25 @@
 - **正法眼藏** Impeccable Judgment
 - **正格之庭** Court of the Upright
 - **正机之神殿** The Shrine of Shouki no Kami
+- **拯救之焰** Flame of Salvation
+- **整旧如新** Good as New
+- **正绢六通** Six Paths of Sage Silkcraft
 - **正理** Structuration
+- **整理线索** Compiling the Clues
 - **正茂** Zhengmao
 - **整齐叠放的书本** Neat Stack of Books
 - **蒸汽鸟报** The Steambird
 - **正人** Masato
+- **正如那烈日** As the Blazing Sun
+- **正如日出日落** As the Sun Rises and Sets
 - **正胜** Masakatsu
-- **证誓之明瞳** Oathsworn Eye
 - **正思无邪** Innocent
 - **征讨领域** Trounce Domain
 - **证悟木** Adhigama Wood
 - **证悟木「安恬」床榻** Adhigama Wood "Comfort" Bed
 - **证悟木「纷纶」置物架** Adhigama Wood "Versatile" Shelves
+- **证悟木「招宴」坐榻** Adhigama Wood "Repose" Couch
+- **证悟木露天餐饮摊位** Adhigama Wood Open-Air Food Stall
 - **证悟木切角长桌** Long Adhigama Chamfer Table
 - **证悟木藤叶靠背椅** Adhigama Vine-Backed Chair
 - **镇海** Zhenhai
@@ -9983,24 +16523,34 @@
 - **正经的钓鱼学位** A Right Proper Angler
 - **振晶的复核实验** Vibro-Crystal Verification
 - **振晶的研究** Vibro-Crystal Research
+- **振晶的应用研究** Vibro-Crystal Applications
+- **振晶，映射二度** Vibro-Crystal Reharmonization
 - **真空吸引场** Vacuum Field
 - **震雷连山密宫** Hidden Palace of Lianshan Formula
 - **真理** Mari
 - **镇灵** Jinni<!--pl: Jinn-->
-- **镇灵的低语** Jinni's Whisper
 - **镇灵监牢** Liloupar's Cell
 - **镇灵之龛** Jinn Shrine
 - **镇龙石** Dragonfall
 - **贞木其心** Wishes Unspoken
+- **真念鸵羽集** Beneficent Plumage
 - **震怒的苍雷** Violet Vehemence
+- **枕上朝露** Makurakotoba of Dew
+- **真实的含义** The Meaning of Truth
+- **真是让人垂涎欲滴！** Truly Mouthwatering!
 - **真实亦是谎言** The Truth Is Also a Lie
 - **镇守之森** Chinju Forest
+- **真探** Detectives
 - **真田** Sanada
 - **真味茶泡饭** Shimi Chazuke
 - **真夏宵祭锦绘** A Summer Festival's Eve
 - **振翔** Zhenxiang
+- **真相流逝于雨后** The Truth, Lost With the Rain
+- **真相隐于影中** The Truth Shrouded in Shadow
 - **真相只有一个…？** Is There But One Truth...?
+- **真邪合离** Elimination of Malicious Qi
 - **振袖秋风问红叶** Autumn Winds, Scarlet Leaves
+- **枕鸢** Zhenyuan
 - **真正的宝物** True Treasure
 - **真昼** Mahiru
 - **珍珠翡翠白玉汤** Jewelry Soup
@@ -10009,10 +16559,13 @@
 - **珍珠之歌** Hymn of the Pearl
 - **珍珠之歌** The Shimmering Voyage
 - **珍珠之歌 2** The Shimmering Voyage Vol. 2
+- **珍珠之歌 3** The Shimmering Voyage Vol. 3
+- **珍珠之歌 4** The Shimmering Voyage Vol. 4
 - **真珠之笼** Pearl Cage
 - **真珠之智** Pearl of Wisdom
 - **哲平** Teppei
 - **遮诠** Negation
+- **赭泉酩旋** Swirls of Sachmis
 - **哲瓦德** Jawad
 - **折翼的猎鹰** The Fallen Falcon
 - **治草药剂** Dendrocide Potion
@@ -10020,11 +16573,14 @@
 - **至冷的拥抱** Frostbiting Embrace
 - **至烈至强的醇香** Fervid Aroma
 - **枝社旧绪** Ancient Branch Shrine
+- **致深泉的颂赞** Ode to Deep Springs
 - **织诗成锦** Weaver of Verses
+- **知是留云僊** They Call Her Cloud Retainer
+- **致水神** La Lettre a Focalors
 - **执望三千里** Gazing Three Thousand Miles Away
-- **致一百年后的你** To You in a Hundred Years
 - **指月** Moonfinger
 - **致智慧者** To the Wise
+- **致终幕的欢宴** The Final Feast
 - **至宝的现状** State of the Holy Lyre der Himmel
 - **知比山** Shirikoro Peak
 - **志成** Zhicheng
@@ -10033,13 +16589,17 @@
 - **至纯的无相之岩** Pure Geo Hypostasis
 - **志村勘兵卫** Shimura Kanbei
 - **志村屋** Shimura's
+- **直至世界尽头** Until the End of the World
 - **值得铭记的强敌** Enemies of Note
+- **执灯人的誓词** Lightkeeper's Pledge
+- **至冬** Snezhnaya
 - **至冬宫** Zapolyarny Palace
-- **至冬国** Snezhnaya
 - **智度** Sagacity
 - **摭分的指法** Double-Stop
 - **至高的智慧（生活）** Der Weisheit Letzter Schluss (Life)
+- **至高仲裁的纪律** Discipline of the Supreme Arbitration
 - **直观** Intuition
+- **知贵** Zhigui
 - **之后会扫干净的** To Be Cleaned
 - **志华** Zhihua
 - **指挥** Conductor
@@ -10050,20 +16610,24 @@
 - **智慧宫** House of Daena
 - **智慧主之章** Sapientia Oromasdis Chapter
 - **智慧主座** Sapientia Oromasdis
+- **止极雨散** In the Wake of Rain
 - **指尖雷暴** Lightning Touch
 - **纸间奇旅** A Journey Through Pages
 - **织金红绸** Rich Red Brocade
 - **知己知彼定良策** Know Thyself, Know Thy Enemy
 - **芝拉** Zhila
 - **质料恒常无易** The Fabric of Constancy
+- **治疗加成** Healing Bonus
 - **治疗之雨** Healing Rain
 - **知论派 / 室罗婆耽** Haravatat
+- **炙蜜爆发** Roasted Nectar Burst
 - **直面** Say My Name
 - **直面纷争的狂喜** Rapture of the Chaos
 - **直面雷光** To Brave the Lightning's Glow
 - **直面悠远的回响** Facing Distant Echoes
 - **智妙明论之林** Forest of Jnana and Vidya
 - **智明无邪** Wise Innocence
+- **稚嫩的尖齿** Juvenile Fang
 - **治平** Zhiping
 - **芷巧** Zhiqiao
 - **智巧灵蕈大竞逐** Fabulous Fungus Frenzy
@@ -10073,14 +16637,15 @@
 - **知人知面** Candidature Analysis
 - **芷若** Zhiruo
 - **至少有了个结局** Well, At Least It Ended
+- **至少鱼知道** At Least the Fish Know
 - **知世** Chise
 - **智识之冕** Crown of Insight
 - **织狩的奉祀** Hunter's Supplication
 - **智树** Tomoki
-- **止水融冰** Bane of Water and Ice
-- **止水息雷** Bane of Storm and Tide
+- **直率的辞绝** Blunt Refusal
 - **止水之潘** The Still Water's Flow
 - **志穗** Shiho
+- **秩序水果团** Fruity Order
 - **只要我跑的够快** If I Run Fast Enough...
 - **至夜幻现** Midnight Phantasmagoria
 - **至夜默示录** Against the Fleeing Light
@@ -10088,7 +16653,9 @@
 - **治一郎** Jiichirou
 - **纸映成戏** Paper Theater
 - **知易行难** Easier Said Than Done
+- **智勇双拳** Both Brains and Brawn
 - **只有玫瑰知道的世界** A World Known Only Unto Roses
+- **只有我消失的村落** The Town Where Only I Am Missing
 - **治愈的本职** Healing Is My Job
 - **治愈的清泉** Wellspring of Healing
 - **支援就交给我吧** I Got Your Back
@@ -10096,8 +16663,9 @@
 - **支支** Zhizhi
 - **窒滞之苦** Feelings of Smothering
 - **稚子敲针作钓钩** Amateurs Hammer Nails Into Hooks
+- **知足常乐** Humbly Enough
+- **重攻击** Heavy Strike
 - **柊弘嗣** Hiiragi Hiroshi
-- **钟剑** The Bell
 - **冢里最好的剑** The Best Sword in the Cemetery
 - **重帘留香** The Scent Remained
 - **众妙之门** Portal of Marvels
@@ -10105,10 +16673,13 @@
 - **柊千里** Hiiragi Chisato
 - **柊三十郎** Hiiragi Sanjuuro
 - **柊慎介** Hiiragi Shinsuke
+- **众岩之里** Land of Myriad Megaliths
 - **终有谢时** Time to Say Farewell
 - **终有一别** Final Farewell
 - **重渊之深** The Abysmal Region
+- **终战之战** The War to End War
 - **柊家** Hiiragi Clan
+- **重武装兆载永劫龙兽** Aeonblight Drake (Heavy Assault Pack)
 - **中场** Intermission
 - **忠常** Tadatsune
 - **重大决定** Key Decision
@@ -10117,21 +16688,34 @@
 - **忠夫** Tadao
 - **终归沉寂** All Returns to Silence
 - **重击** Charged Attack
+- **重甲蟹** Armored Crab
 - **终将到来的花神诞祭** The Coming of the Sabzeruz Festival
 - **终将结束的花神诞祭** The End of the Sabzeruz Festival
+- **终结罪恶的追缉** In Pursuit of Ending Evil
+- **终景迸落** The End Falls
+- **终竟的花海** The Sea of Flowers at the End
 - **钟离** Zhongli
 - **钟离的命星** Zhongli's Stella Fortuna
+- **众砾的汪洋** Ocean of Grains
+- **重力阵线** Gravity Front
 - **仲林** Zhonglin
+- **终临的殛罚** Retribution, Served Cold
 - **忠明** Tadaaki
-- **终末嗟叹之诗** Elegy for the End
+- **终末的赦祷颂** Absolutio Absoluta Absolutissime
 - **终末番** Shuumatsuban
 - **终末番的任务** Shuumatsuban Operations
 - **终幕的时计** Concert's Final Hour
+- **终幕的序曲** Le commencement de la fin
+- **终幕涤流** Ultimate Cleansing
 - **众人祈祷中…** Prayer in Progress...
 - **忠胜** Tadakatsu
 - **众生之谣** Song of Life
+- **众生颂** Chantons a plusieurs
+- **众水的颂诗** Chanson of Many Waters
+- **众水的慰藉** Consolation of Many Waters
 - **终天的闭幕曲** Caelestinum Finale Termini
 - **众王之都的开端** The First Days of the City of Kings
+- **众望所归** Where All Hopes Lie
 - **中西** Nakanishi
 - **仲夏庭园** Midsummer Courtyard
 - **仲夏！幻夜？奇想曲！** Summer Fantasia
@@ -10139,12 +16723,14 @@
 - **重型餐馆专用炉灶** Heavy-Duty Restaurant Stove
 - **中型齿轮** Medium Gear
 - **重型杉木锻造桌** Heavy Fir Forging Table
+- **终焉的揭示** Revelatio Finalis
 - **重岩之意** Will of Stone
 - **中野** Nakano
 - **众叶觉蕊** Clusterleaf of Cultivation
 - **中野志乃** Nakano Shino
 - **中原杂碎** Zhongyuan Chop Suey
 - **终章** The Final Chapter
+- **终至月明** To the Crescent Moon's Shimmer
 - **重重下落** Slam
 - **种子** Granum<!--plural: Grana-->
 - **种子镜** Seed Mirror
@@ -10154,15 +16740,18 @@
 - **周良** Zhouliang
 - **周平** Shuuhei
 - **骤起的魔花** Rise of the Fell Flower
+- **昼想夜梦** Thoughts by Day Bring Dreams by Night
 - **周游壶灵** Teapot Traveling Salesman
 - **逐风的寻宝者** Wind-Chasing Treasure Hunter
 - **逐光之石** Sundial of the Sojourner
 - **诸国游记** International Travel Log
 - **诸境神游忽觉迷** Insights of Drifting Dreams
 - **朱老板** Mr. Zhu
+- **诸绿洲中的金杯** Gold Cup of Oases
 - **祝明** Zhu Ming
 - **朱漆垂香木百宝阁** Red Cedar Curio Stand
 - **竹签** Bamboo Slip
+- **烛伞蘑菇** Candlecap Mushroom
 - **祝圣精华** Sanctifying Essence
 - **祝圣篇章** Sacred Canto
 - **祝圣油膏** Sanctifying Unction
@@ -10176,8 +16765,10 @@
 - **装衣服的纸包** Bag of Clothes
 - **装点一新** Good as New
 - **装满泉水的瓶子** Bottle of Spring Water
+- **状态调整** A Change of Pace
 - **状态转换** State Change
 - **装有「工资」的包裹** Salary Bag
+- **装有「特殊药剂」的盒子** Box of Special Potions
 - **装有「小玩意」的盒子** A Box of Gadgets
 - **装有树叶的盒子** Box of Leaves
 - **装有鲜花的包裹** Package of Fresh Flowers
@@ -10190,31 +16781,42 @@
 - **转桓摩王** Vamadha-Go-Round
 - **专家牌手徽章** Expert Player Badge
 - **转瞬的迅雷** Thunderflash
+- **转瞬即夜色** Ed e subito sera
 - **转移壅土的木桶** Soil-Carrying Wooden Barrel
 - **专注** Focus
 - **转转悠悠兽** Twirly-Whirly
 - **朱巴** Jhuba
 - **诸般切末** Myriad Mise-En-Scène
+- **诸病无病** All Ailments Banished
+- **筑巢的增殖生命体** Perch Proliferating Organism
+- **渚春** Zhuchun
 - **朱达尔** Judar
-- **逐电寇首** Absconder Leader
 - **珠钿舫** Pearl Galley
 - **诸法丛林** Dharma Forest
 - **逐风的冒险家** Wind-Chasing Adventurer
 - **竹谷** Taketani
 - **珠函** Zhuhan
 - **逐花券** Floral Coupon
+- **朱喙鹈鹕** Redbill Pelican
+- **逐火如弦** Chasing Flames Like Strings
 - **追冰剑诀** Rimechaser Blade
 - **坠镞为林** Forest of Falling Arrows
 - **追击深渊法师** Hunt Down the Abyss Mage
 - **追加投资** Additional Investment
+- **缀锦四分** Four Brocade Embellishments
+- **追猎标记** Pursuer's Mark
 - **坠落之梦** Dream of Falling
 - **追求极致** Perfectionist
+- **坠入永夜** Into Eternal Night
+- **追溯求真** In Truth's Steps
 - **追随鸣雷的踪迹** Tracking the Thunder
 - **追想练行** Reminiscent Regimen
+- **追想练行·烈趣篇** Reminiscent Regimen: Thrill
 - **坠星山谷** Starfell Valley
 - **追叙之石** Stone of Remembrance
 - **追寻仙迹** Faint Tracks
 - **追忆** Reminiscence
+- **追忆泉华的时光** In Search of Frittered Time
 - **追忆之风** Gust of Nostalgia
 - **追忆之注连** Shimenawa's Reminiscence
 - **追逐暗影** Chasing Shadows
@@ -10222,34 +16824,55 @@
 - **珠玑宝矿** Meadow of Gems
 - **祝祭厅** Opet Hall
 - **竹节** Bamboo Segment
+- **烛烬的奉信礼** Chorus Cinericius
+- **诸景巡礼** A Tour of Wonders
+- **铸境研炼** The Forge Realm's Temper
+- **铸境研炼・无量疾战** The Forge Realm's Temper: Endless Swarm
 - **朱莉** Julie
+- **朱里厄** Jurieu
 - **竹林的轻语** Vague Whispers
+- **竹林溪涧** Dweller of Bamboo Groves
 - **竹林月夜** Moonlit Bamboo Forest
+- **朱利亚诺** Juliano
+- **茱莉耶妲** Giulietta
 - **准准爆弹** Straight Shooter
+- **朱南** Zhunan
 - **准备提供给八重神子的线索** Clues For Yae Miko
 - **竹内** Takeuchi
-- **注能之刺** Infusion Stinger
-- **注能之锋** Infusion Blade
-- **注能之卷** Infusion Scroll
-- **注能之矢** Infusion Arrow
-- **注能之针** Infusion Needle
 - **捉浪** Tidecaller
 - **斫雷** Stormbreaker
 - **捉猫记** Catch Me-ow if You Can!
-- **斫断黑翼的利齿** Black Wing
-- **斫峰之刃** Summit Shaper
+- **灼火燎原** Plains Scorcher
+- **灼火之心** Blazing Heart - Chinese Version
 - **灼面的祭法** Blazing Visage
+- **灼燃的残光** Smoldering Glow
+- **灼热花叶** Scorching Leaves
+- **桌上冒险家** Tabletop Adventurer
+- **浊水的一滴** Drop of Tainted Water
+- **浊水粉碎幻灵** Tainted Water-Splitting Phantasm
+- **浊水幻灵** Tainted Hydro Phantasm
+- **浊水喷吐幻灵** Tainted Water-Spouting Phantasm
+- **浊水强迸** Tainted Water Surge
 - **卓也** Takuya
 - **卓英** Zhuoying
 - **酌盈剂虚** Discretionary Supplement
 - **卓越的血脉** Excellent Blood
 - **茁壮的萃华树** Mature Cuihua Tree
 - **茁壮菌核** Robust Fungal Nucleus
+- **灼灼彩菊** Brilliant Chrysanthemum
 - **灼灼容彩** Magnificent Irodori
 - **朱漆垂香木卷轴书架** Red Cedar Scroll Shelf
+- **铸砂勇士·叩问人** Forged Sand Interrogator
+- **铸砂勇士·碎盾者** Forged Sand Shieldbreaker
+- **铸砂勇士·投矛手** Forged Sand Javelineer
 - **祝圣交响乐** Die Heilige Sinfonie
+- **祝圣之霜** Sanctifying Elixir
 - **诸事不宜…** Just My Luck...
+- **诸世的阶梯** Stairway of Neterikhet
+- **蛀食树根的孽瘤** Root-Consuming Tumor
 - **祝祀之凭** Symbol of Felicitation
+- **朱斯蒂诺** Giustino
+- **祝颂如梦** Benediction of Dreams
 - **竹笋** Bamboo Shoot
 - **茱塔** Jutta
 - **朱特** Jut
@@ -10258,8 +16881,16 @@
 - **铸铁双用摆灯** Two-Way Iron Lamp
 - **诸武精通** Master of Weaponry
 - **诸相随念净行** On All Things Meditated
+- **诸曜饬令** Edict of Entwined Splendor
+- **助益锚点** Buff Station
+- **朱英甘露** Alkanet Amrita
+- **逐影猎人** {{w|Maréchaussée|Marechaussee}} Hunter
+- **逐影枪术·改** Shadow-Hunting Spear (Custom)
+- **逐影之誓** Oath of Hunting Shadows
+- **逐影庭** Marechaussee Phantom
 - **朱殷石** Ardent Cinnabar
 - **茱萸** Zhuyu
+- **诸愿百眼之轮** Chakra Desiderata
 - **逐月佳话** Moonchase Tales
 - **逐月符** Moonchase Charm
 - **逐月节** Moonchase Festival
@@ -10271,38 +16902,39 @@
 - **自外而来** From Outer Lands
 - **自往昔飘起的酒香** Aroma of the Past
 - **自雪国而来** From Snezhnaya With Boldness
-- **呲牙裂扇箭** Ripping Fang Fletching
 - **自远方吹来的音讯** Sounds From Afar
 - **自远方吹来的音讯** Sounds From Afar
 - **自至深处** Into the Depths
+- **子探测单元** Subdetection Unit
 - **自卑者的逞强** The Obstinacy of One's Inferiors
-- **自称「唐无仇」者** Claims to be "Tang Wuchou"
-- **自称「渊上」之物** The Thing Calling Itself "Enjou"
+- **子澄** Zicheng
+- **子弹的戏法** Bullet Trick
+- **子弹藤壶** Bullet Barnacle
 - **字迹工整的信** Neatly-Written Note
 - **字迹模糊的签** Illegible Fortune Slip
+- **紫金渔鸥** Violetgold Angler Gull
 - **紫晶的花冠** Amethyst Crown
-- **紫晶块** Amethyst Lump
 - **自律机关** Automatons
 - **自律机关引起的混乱** Automaton Attack
+- **自然哲学百科全书** Encyclopedia of Natural Philosophy
+- **自然哲学学院** Institute of Natural Philosophy
 - **自噬之蛇** Ouroboros
 - **紫微** Ziwei
-- **自我修复** Self-Repair
+- **呲牙裂扇箭** Ripping Fang Fletching
 - **自由的凛风** Hurricane of Freedom
 - **自由之都** City of Freedom
+- **紫苑遥曳** Swaying Shion
 - **紫苑云霓** Rainbow Aster
 - **自在的岩石与草木** Rocks & Plants
 - **自在松石** Vayuda Turquoise Gemstone
 - **自在松石断片** Vayuda Turquoise Fragment
 - **自在松石块** Vayuda Turquoise Chunk
 - **自在松石碎屑** Vayuda Turquoise Sliver
-- **紫苑遥曳** Swaying Shion
 - **棕翎鹰** Umbertail Falcon
 - **总有地上的生灵…** Brave the Lightning's Glow...
-- **宗室长剑** Royal Longsword
-- **宗室长弓** Royal Bow
-- **宗室大剑** Royal Greatsword
-- **宗室猎枪** Royal Spear
-- **宗室秘法录** Royal Grimoire
+- **总指挥的乘胜追击** The President's Pursuit of Victory
+- **总得喝一杯** Get a Drink at Least!
+- **纵声欢唱** Sing Your Heart Out
 - **宗室面具** Royal Masque
 - **宗室时计** Royal Pocket Watch
 - **宗室银瓮** Royal Silver Urn
@@ -10311,11 +16943,13 @@
 - **总务土地** Land's Overseer
 - **总务司** Ministry of Civil Affairs
 - **总务司备案文件** Ministry of Civil Affairs' Affidavit
+- **纵阵武力统筹** Vertical Force Coordination
 - **走笔隐红** Pale Blush of Brush
 - **走马斩群魔** Swift Slayer
 - **走私疑案** Suspicious Smuggling Case
 - **奏太** Souta
 - **逐月纪行** Moonchaser
+- **祖尔宛** Zurvan
 - **祖拜尔剧场** Zubayr Theater
 - **组合式杉木货柜** Fir Case Shelf Combination
 - **最不安神晴又复雨** Ominous Rainfall
@@ -10324,30 +16958,47 @@
 - **醉今朝** Carpe Diem
 - **最烈特调** Signature Mix
 - **罪之导引** Unholy Revelation
+- **最初的理想** The First Ideal
+- **最初的事实** Initial Facts
 - **醉汉峡** Drunkard Gorge
 - **最好的伙伴！** The Bestest Travel Companion!
 - **最后的宝藏** The Final Treasure
+- **最后的回火夜** The Last Turnfire Night
+- **最后的问题** The Final Question
+- **最后一站** One Final Step
+- **罪祸的终末** Denouement of Sin
 - **醉客轶事** A Drunkard's Tale
 - **醉客与狼的相遇** The Drunkard and the Wolf
 - **罪灭之矢** Bolts of Downfall
 - **最强的对手！至大的危机！** The Strongest Opponent! The Biggest Crisis!
+- **罪人的最后一舞** The Last Rose of the Sinner
+- **罪人舞步旋** Masquerade of the Guilty
 - **最胜紫晶** Vajrada Amethyst Gemstone
 - **最胜紫晶断片** Vajrada Amethyst Fragment
 - **最胜紫晶块** Vajrada Amethyst Chunk
 - **最胜紫晶碎屑** Vajrada Amethyst Sliver
-- **罪影** Sinshades
+- **罪业终有报偿之时** There Shall Be a Reckoning for Sin
 - **最优解** Optimal Solution
+- **罪有应得** It's What He Deserves
+- **最终枫达海** The Final Fonta Sea
 - **最终解释权** Right of Final Interpretation
 - **最终，森林会记住一切** In the End, the Forest Will Remember
+- **阻勒隘** Gate of Zulqarnain
+- **祖莉亚・德斯特雷** Zuria Destree
+- **祖玛鲁德** Zumurud
 - **遵法切结书** Abiding Affidavit
+- **尊尼** Johnnie
+- **尊荣的创定** Venerable Institution
+- **尊荣之忆** Alucinatio Gloriosa
 - **遵生合和** Beyond Mortality
 - **佐赫蕾** Zohreh
 - **昨日重现** It's Yesterday Once More
 - **昨日佳酿** Fine Wine From Yesterday
-- **左世** Sayo
 - **佐藤** Satou
+- **佐西摩斯** Zosimos
 - **佐娅・雪奈茨芙娜大尉的行动报告** Captain Zoya Snezhevna's Report
 - **左右加** Souka
 - **坐庄者，三仙戏法** Dealer's Sleight
 - **佐佐木** Sasaki
+- **祖遗庙宇** Ancestral Temple
 - **逐月节的诸多事宜** The Many Matters of the Moonchase Festival
